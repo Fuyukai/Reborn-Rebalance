@@ -10,8 +10,8 @@
         spe: 130
     primary_type: ROCK
     secondary_type: FLYING
-    gender_ratio: 1
-    growth_rate: 2
+    gender_ratio: FemaleOneEighth
+    growth_rate: Slow
     exp_yield: 180
     ev_yield:
         hp: 0
@@ -76,7 +76,7 @@
         - WIDEGUARD
     raw_tms: []
     compatible_egg_groups:
-        - 3
+        - Flying
     steps_to_hatch: 9180
     height: 1.8
     weight: 59.0

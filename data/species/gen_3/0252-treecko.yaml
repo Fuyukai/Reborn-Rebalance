@@ -10,8 +10,8 @@
         spe: 70
     primary_type: GRASS
     secondary_type:
-    gender_ratio: 1
-    growth_rate: 3
+    gender_ratio: FemaleOneEighth
+    growth_rate: Parabolic
     exp_yield: 62
     ev_yield:
         hp: 0
@@ -74,8 +74,8 @@
         - WORRYSEED
     raw_tms: []
     compatible_egg_groups:
-        - 0
-        - 13
+        - Monster
+        - Dragon
     steps_to_hatch: 5355
     height: 0.5
     weight: 5.0

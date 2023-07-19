@@ -10,8 +10,8 @@
         spe: 77
     primary_type: POISON
     secondary_type: FIRE
-    gender_ratio: 1
-    growth_rate: 1
+    gender_ratio: FemaleOneEighth
+    growth_rate: Medium
     exp_yield: 64
     ev_yield:
         hp: 0
@@ -63,8 +63,8 @@
         - SNATCH
     raw_tms: []
     compatible_egg_groups:
-        - 0
-        - 13
+        - Monster
+        - Dragon
     steps_to_hatch: 5120
     height: 0.6
     weight: 4.8

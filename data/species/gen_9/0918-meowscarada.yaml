@@ -10,8 +10,8 @@
         spe: 123
     primary_type: GRASS
     secondary_type: DARK
-    gender_ratio: 1
-    growth_rate: 3
+    gender_ratio: FemaleOneEighth
+    growth_rate: Parabolic
     exp_yield: 216
     ev_yield:
         hp: 0
@@ -70,8 +70,8 @@
     raw_egg_moves: []
     raw_tms: []
     compatible_egg_groups:
-        - 4
-        - 6
+        - Field
+        - Grass
     steps_to_hatch: 5140
     height: 1.5
     weight: 31.2

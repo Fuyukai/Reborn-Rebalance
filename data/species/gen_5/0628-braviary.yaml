@@ -10,8 +10,8 @@
         spe: 80
     primary_type: NORMAL
     secondary_type: FLYING
-    gender_ratio: 0
-    growth_rate: 2
+    gender_ratio: AlwaysMale
+    growth_rate: Slow
     exp_yield: 179
     ev_yield:
         hp: 0
@@ -74,7 +74,7 @@
     raw_egg_moves: []
     raw_tms: []
     compatible_egg_groups:
-        - 3
+        - Flying
     steps_to_hatch: 5120
     height: 1.5
     weight: 41.0

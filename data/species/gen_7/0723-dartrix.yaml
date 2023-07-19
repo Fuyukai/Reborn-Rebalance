@@ -10,8 +10,8 @@
         spe: 52
     primary_type: GRASS
     secondary_type: FLYING
-    gender_ratio: 1
-    growth_rate: 3
+    gender_ratio: FemaleOneEighth
+    growth_rate: Parabolic
     exp_yield: 147
     ev_yield:
         hp: 2
@@ -66,7 +66,7 @@
     raw_egg_moves: []
     raw_tms: []
     compatible_egg_groups:
-        - 3
+        - Flying
     steps_to_hatch: 3840
     height: 0.7
     weight: 16.0

@@ -10,8 +10,8 @@
         spe: 50
     primary_type: WATER
     secondary_type:
-    gender_ratio: 1
-    growth_rate: 3
+    gender_ratio: FemaleOneEighth
+    growth_rate: Parabolic
     exp_yield: 142
     ev_yield:
         hp: 0
@@ -62,8 +62,8 @@
     raw_egg_moves: []
     raw_tms: []
     compatible_egg_groups:
-        - 1
-        - 4
+        - Water1
+        - Field
     steps_to_hatch: 5355
     height: 0.8
     weight: 23.0

@@ -10,8 +10,8 @@
         spe: 22
     primary_type: WATER
     secondary_type: ROCK
-    gender_ratio: 1
-    growth_rate: 1
+    gender_ratio: FemaleOneEighth
+    growth_rate: Medium
     exp_yield: 71
     ev_yield:
         hp: 0
@@ -77,8 +77,8 @@
         - WHIRLPOOL
     raw_tms: []
     compatible_egg_groups:
-        - 1
-        - 8
+        - Water1
+        - Water3
     steps_to_hatch: 7680
     height: 0.7
     weight: 16.5

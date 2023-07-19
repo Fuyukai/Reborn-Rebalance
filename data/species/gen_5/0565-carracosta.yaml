@@ -10,8 +10,8 @@
         spe: 32
     primary_type: WATER
     secondary_type: ROCK
-    gender_ratio: 1
-    growth_rate: 1
+    gender_ratio: FemaleOneEighth
+    growth_rate: Medium
     exp_yield: 173
     ev_yield:
         hp: 0
@@ -68,8 +68,8 @@
     raw_egg_moves: []
     raw_tms: []
     compatible_egg_groups:
-        - 1
-        - 8
+        - Water1
+        - Water3
     steps_to_hatch: 7680
     height: 1.2
     weight: 81.0

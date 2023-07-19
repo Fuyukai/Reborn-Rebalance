@@ -10,8 +10,8 @@
         spe: 70
     primary_type: FIRE
     secondary_type:
-    gender_ratio: 1
-    growth_rate: 3
+    gender_ratio: FemaleOneEighth
+    growth_rate: Parabolic
     exp_yield: 64
     ev_yield:
         hp: 0
@@ -70,7 +70,7 @@
         - PARTINGSHOT
     raw_tms: []
     compatible_egg_groups:
-        - 4
+        - Field
     steps_to_hatch: 3840
     height: 0.4
     weight: 4.3

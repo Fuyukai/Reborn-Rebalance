@@ -10,8 +10,8 @@
         spe: 50
     primary_type: WATER
     secondary_type:
-    gender_ratio: 1
-    growth_rate: 3
+    gender_ratio: FemaleOneEighth
+    growth_rate: Parabolic
     exp_yield: 63
     ev_yield:
         hp: 0
@@ -58,8 +58,8 @@
         - ROOST
     raw_tms: []
     compatible_egg_groups:
-        - 3
-        - 1
+        - Flying
+        - Water1
     steps_to_hatch: 5140
     height: 0.5
     weight: 6.1

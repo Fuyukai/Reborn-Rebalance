@@ -10,8 +10,8 @@
         spe: 90
     primary_type: GRASS
     secondary_type:
-    gender_ratio: 6
-    growth_rate: 1
+    gender_ratio: AlwaysFemale
+    growth_rate: Medium
     exp_yield: 168
     ev_yield:
         hp: 0
@@ -46,7 +46,7 @@
     raw_egg_moves: []
     raw_tms: []
     compatible_egg_groups:
-        - 6
+        - Grass
     steps_to_hatch: 5120
     height: 1.1
     weight: 16.3

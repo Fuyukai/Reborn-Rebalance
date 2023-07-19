@@ -1,5 +1,8 @@
+from enum import Enum
 from io import StringIO
 from typing import TypeVar, Iterable, Collection, Any
+
+import cattrs
 
 _ChunkType = TypeVar("_ChunkType")
 
@@ -44,3 +47,5 @@ class PbsBuffer(object):
         self.backing.write("=")
         self.backing.write(",".join(value))
         self.backing.write("\n")
+
+

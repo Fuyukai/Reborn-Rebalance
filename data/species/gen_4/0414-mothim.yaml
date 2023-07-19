@@ -10,8 +10,8 @@
         spe: 66
     primary_type: BUG
     secondary_type: FLYING
-    gender_ratio: 0
-    growth_rate: 1
+    gender_ratio: AlwaysMale
+    growth_rate: Medium
     exp_yield: 148
     ev_yield:
         hp: 0
@@ -64,7 +64,7 @@
     raw_egg_moves: []
     raw_tms: []
     compatible_egg_groups:
-        - 2
+        - Bug
     steps_to_hatch: 4080
     height: 0.9
     weight: 23.3

@@ -10,8 +10,8 @@
         spe: 80
     primary_type: GRASS
     secondary_type: POISON
-    gender_ratio: 1
-    growth_rate: 3
+    gender_ratio: FemaleOneEighth
+    growth_rate: Parabolic
     exp_yield: 236
     ev_yield:
         hp: 0
@@ -68,8 +68,8 @@
     raw_egg_moves: []
     raw_tms: []
     compatible_egg_groups:
-        - 0
-        - 6
+        - Monster
+        - Grass
     steps_to_hatch: 5355
     height: 2.0
     weight: 100.0

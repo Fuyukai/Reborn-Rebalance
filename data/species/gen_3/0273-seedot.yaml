@@ -10,8 +10,8 @@
         spe: 30
     primary_type: GRASS
     secondary_type:
-    gender_ratio: 3
-    growth_rate: 3
+    gender_ratio: Female50Percent
+    growth_rate: Parabolic
     exp_yield: 44
     ev_yield:
         hp: 0
@@ -57,8 +57,8 @@
         - WORRYSEED
     raw_tms: []
     compatible_egg_groups:
-        - 4
-        - 6
+        - Field
+        - Grass
     steps_to_hatch: 4080
     height: 0.5
     weight: 4.0

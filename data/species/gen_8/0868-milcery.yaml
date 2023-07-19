@@ -10,8 +10,8 @@
         spe: 34
     primary_type: FAIRY
     secondary_type:
-    gender_ratio: 6
-    growth_rate: 1
+    gender_ratio: AlwaysFemale
+    growth_rate: Medium
     exp_yield: 54
     ev_yield:
         hp: 0
@@ -56,8 +56,8 @@
         - LASTRESORT
     raw_tms: []
     compatible_egg_groups:
-        - 5
-        - 10
+        - Fairy
+        - Amorphous
     steps_to_hatch: 5120
     height: 0.2
     weight: 0.3

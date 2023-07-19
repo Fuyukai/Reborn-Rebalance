@@ -10,8 +10,8 @@
         spe: 65
     primary_type: POISON
     secondary_type:
-    gender_ratio: 0
-    growth_rate: 3
+    gender_ratio: AlwaysMale
+    growth_rate: Parabolic
     exp_yield: 128
     ev_yield:
         hp: 0
@@ -56,8 +56,8 @@
     raw_egg_moves: []
     raw_tms: []
     compatible_egg_groups:
-        - 0
-        - 4
+        - Monster
+        - Field
     steps_to_hatch: 5355
     height: 0.9
     weight: 19.5

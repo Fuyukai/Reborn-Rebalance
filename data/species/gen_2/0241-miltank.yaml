@@ -10,8 +10,8 @@
         spe: 100
     primary_type: NORMAL
     secondary_type:
-    gender_ratio: 6
-    growth_rate: 2
+    gender_ratio: AlwaysFemale
+    growth_rate: Slow
     exp_yield: 172
     ev_yield:
         hp: 0
@@ -70,7 +70,7 @@
         - SLEEPTALK
     raw_tms: []
     compatible_egg_groups:
-        - 4
+        - Field
     steps_to_hatch: 5355
     height: 1.2
     weight: 75.5

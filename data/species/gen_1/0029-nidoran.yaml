@@ -10,8 +10,8 @@
         spe: 41
     primary_type: POISON
     secondary_type:
-    gender_ratio: 6
-    growth_rate: 3
+    gender_ratio: AlwaysFemale
+    growth_rate: Parabolic
     exp_yield: 55
     ev_yield:
         hp: 1
@@ -70,8 +70,8 @@
         - VENOMDRENCH
     raw_tms: []
     compatible_egg_groups:
-        - 0
-        - 4
+        - Monster
+        - Field
     steps_to_hatch: 5355
     height: 0.4
     weight: 7.0

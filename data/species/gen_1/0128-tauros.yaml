@@ -10,8 +10,8 @@
         spe: 110
     primary_type: NORMAL
     secondary_type:
-    gender_ratio: 0
-    growth_rate: 2
+    gender_ratio: AlwaysMale
+    growth_rate: Slow
     exp_yield: 172
     ev_yield:
         hp: 0
@@ -62,7 +62,7 @@
         - ENDEAVOR
     raw_tms: []
     compatible_egg_groups:
-        - 4
+        - Field
     steps_to_hatch: 5355
     height: 1.4
     weight: 88.4

@@ -10,8 +10,8 @@
         spe: 45
     primary_type: GRASS
     secondary_type:
-    gender_ratio: 1
-    growth_rate: 3
+    gender_ratio: FemaleOneEighth
+    growth_rate: Parabolic
     exp_yield: 64
     ev_yield:
         hp: 0
@@ -73,8 +73,8 @@
         - WRINGOUT
     raw_tms: []
     compatible_egg_groups:
-        - 0
-        - 6
+        - Monster
+        - Grass
     steps_to_hatch: 5355
     height: 0.9
     weight: 6.4

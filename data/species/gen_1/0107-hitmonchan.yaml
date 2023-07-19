@@ -10,8 +10,8 @@
         spe: 76
     primary_type: FIGHTING
     secondary_type:
-    gender_ratio: 0
-    growth_rate: 1
+    gender_ratio: AlwaysMale
+    growth_rate: Medium
     exp_yield: 159
     ev_yield:
         hp: 0
@@ -80,7 +80,7 @@
     raw_egg_moves: []
     raw_tms: []
     compatible_egg_groups:
-        - 7
+        - Humanlike
     steps_to_hatch: 6630
     height: 1.4
     weight: 50.2

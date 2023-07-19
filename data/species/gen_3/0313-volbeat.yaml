@@ -10,8 +10,8 @@
         spe: 85
     primary_type: BUG
     secondary_type:
-    gender_ratio: 0
-    growth_rate: 4
+    gender_ratio: AlwaysMale
+    growth_rate: Erratic
     exp_yield: 151
     ev_yield:
         hp: 0
@@ -70,8 +70,8 @@
         - TRICK
     raw_tms: []
     compatible_egg_groups:
-        - 2
-        - 7
+        - Bug
+        - Humanlike
     steps_to_hatch: 4080
     height: 0.7
     weight: 17.7

@@ -10,8 +10,8 @@
         spe: 65
     primary_type: ICE
     secondary_type: PSYCHIC
-    gender_ratio: 6
-    growth_rate: 1
+    gender_ratio: AlwaysFemale
+    growth_rate: Medium
     exp_yield: 61
     ev_yield:
         hp: 0
@@ -68,7 +68,7 @@
         - WISH
     raw_tms: []
     compatible_egg_groups:
-        - 14
+        - Undiscovered
     steps_to_hatch: 6630
     height: 0.4
     weight: 6.0

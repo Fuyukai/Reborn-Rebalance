@@ -10,8 +10,8 @@
         spe: 85
     primary_type: BUG
     secondary_type:
-    gender_ratio: 6
-    growth_rate: 5
+    gender_ratio: AlwaysFemale
+    growth_rate: Fluctuating
     exp_yield: 151
     ev_yield:
         hp: 0
@@ -71,8 +71,8 @@
         - SILVERWIND
     raw_tms: []
     compatible_egg_groups:
-        - 2
-        - 7
+        - Bug
+        - Humanlike
     steps_to_hatch: 4080
     height: 0.6
     weight: 17.7

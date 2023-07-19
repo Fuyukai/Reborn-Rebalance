@@ -10,8 +10,8 @@
         spe: 35
     primary_type: FIGHTING
     secondary_type:
-    gender_ratio: 0
-    growth_rate: 1
+    gender_ratio: AlwaysMale
+    growth_rate: Medium
     exp_yield: 42
     ev_yield:
         hp: 0
@@ -49,7 +49,7 @@
         - VACUUMWAVE
     raw_tms: []
     compatible_egg_groups:
-        - 14
+        - Undiscovered
     steps_to_hatch: 6630
     height: 0.7
     weight: 21.0

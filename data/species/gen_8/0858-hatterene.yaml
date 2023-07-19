@@ -10,8 +10,8 @@
         spe: 29
     primary_type: PSYCHIC
     secondary_type: FAIRY
-    gender_ratio: 6
-    growth_rate: 2
+    gender_ratio: AlwaysFemale
+    growth_rate: Slow
     exp_yield: 255
     ev_yield:
         hp: 0
@@ -66,7 +66,7 @@
         - QUASH
     raw_tms: []
     compatible_egg_groups:
-        - 5
+        - Fairy
     steps_to_hatch: 5120
     height: 2.1
     weight: 5.1

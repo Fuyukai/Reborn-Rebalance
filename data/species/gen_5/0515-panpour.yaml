@@ -10,8 +10,8 @@
         spe: 64
     primary_type: WATER
     secondary_type:
-    gender_ratio: 1
-    growth_rate: 1
+    gender_ratio: FemaleOneEighth
+    growth_rate: Medium
     exp_yield: 63
     ev_yield:
         hp: 0
@@ -73,7 +73,7 @@
         - TICKLE
     raw_tms: []
     compatible_egg_groups:
-        - 4
+        - Field
     steps_to_hatch: 5120
     height: 0.6
     weight: 13.5

@@ -10,8 +10,8 @@
         spe: 30
     primary_type: GRASS
     secondary_type: DRAGON
-    gender_ratio: 3
-    growth_rate: 4
+    gender_ratio: Female50Percent
+    growth_rate: Erratic
     exp_yield: 170
     ev_yield:
         hp: 2
@@ -70,8 +70,8 @@
         - RECYCLE
     raw_tms: []
     compatible_egg_groups:
-        - 6
-        - 13
+        - Grass
+        - Dragon
     steps_to_hatch: 5120
     height: 0.4
     weight: 13.0

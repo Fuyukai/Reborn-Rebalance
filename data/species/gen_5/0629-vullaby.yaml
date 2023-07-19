@@ -10,8 +10,8 @@
         spe: 60
     primary_type: DARK
     secondary_type: FLYING
-    gender_ratio: 6
-    growth_rate: 2
+    gender_ratio: AlwaysFemale
+    growth_rate: Slow
     exp_yield: 74
     ev_yield:
         hp: 0
@@ -69,7 +69,7 @@
         - STEELWING
     raw_tms: []
     compatible_egg_groups:
-        - 3
+        - Flying
     steps_to_hatch: 5120
     height: 0.5
     weight: 9.0

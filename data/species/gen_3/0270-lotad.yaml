@@ -10,8 +10,8 @@
         spe: 30
     primary_type: WATER
     secondary_type: GRASS
-    gender_ratio: 3
-    growth_rate: 3
+    gender_ratio: Female50Percent
+    growth_rate: Parabolic
     exp_yield: 44
     ev_yield:
         hp: 0
@@ -66,8 +66,8 @@
         - WATERGUN
     raw_tms: []
     compatible_egg_groups:
-        - 1
-        - 6
+        - Water1
+        - Grass
     steps_to_hatch: 4080
     height: 0.5
     weight: 2.6

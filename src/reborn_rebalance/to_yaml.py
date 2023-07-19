@@ -1,12 +1,9 @@
 import sys
 from pathlib import Path
 
-import cattr
-import ruamel.yaml
-
 from reborn_rebalance.pbs.pokemon import PokemonSpecies
 from reborn_rebalance.pbs.raw.pokemon import raw_parse_pokemon_pbs
-from reborn_rebalance.pbs.type import PokemonType
+from reborn_rebalance.pbs.serialisation import save_species_to_yaml
 
 GENERATIONS = [
     # Bulbasaur -> Mew
@@ -28,9 +25,6 @@ GENERATIONS = [
     # Sprigatito -> Iron Leaves
     range(906, 1021),
 ]
-
-YAML = ruamel.yaml.YAML()
-YAML.indent(mapping=4, offset=4, sequence=6)
 
 
 def dump_pokemon(pbs: Path, output: Path):
@@ -55,15 +49,13 @@ def dump_pokemon(pbs: Path, output: Path):
 
         name = f"{idx:04d}-{parsed.name.lower()}"
         yaml_path = (output / f"gen_{gidx + 1}" / name).with_suffix(".yaml")
-        dumped = {idx: cattr.unstructure(parsed)}
 
         if yaml_path.exists():
             print(f"Not overwriting {name}")
             continue
 
-        with yaml_path.open(mode="w", encoding="utf-8") as f:
-            YAML.dump(dumped, f)
-            print(f"Saved {name}")
+        save_species_to_yaml(yaml_path, parsed, idx)
+        print(f"Saved {name}")
 
 
 def main():
@@ -81,9 +73,6 @@ def main():
     if not input_dir.exists():
         print(f"{input_dir} doesn't exist")
         return 1
-
-    # unfuck cattrs
-    cattr.global_converter.register_unstructure_hook(PokemonType, lambda it: it.name)
 
     output_dir.mkdir(exist_ok=True, parents=True)
 

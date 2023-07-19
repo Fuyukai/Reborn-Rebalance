@@ -10,8 +10,8 @@
         spe: 42
     primary_type: DRAGON
     secondary_type: GROUND
-    gender_ratio: 3
-    growth_rate: 2
+    gender_ratio: Female50Percent
+    growth_rate: Slow
     exp_yield: 60
     ev_yield:
         hp: 0
@@ -63,8 +63,8 @@
         - TWISTER
     raw_tms: []
     compatible_egg_groups:
-        - 0
-        - 13
+        - Monster
+        - Dragon
     steps_to_hatch: 10455
     height: 0.7
     weight: 20.5
