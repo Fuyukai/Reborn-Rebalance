@@ -1,0 +1,102 @@
+82:
+    name: Magneton
+    internal_name: MAGNETON
+    base_stats:
+        hp: 50
+        atk: 60
+        def_: 95
+        spa: 120
+        spd: 70
+        spe: 70
+    primary_type: ELECTRIC
+    secondary_type: STEEL
+    gender_ratio: 7
+    growth_rate: 1
+    exp_yield: 163
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 2
+        spd: 0
+        spe: 0
+    catch_rate: 60
+    caught_happiness: 70
+    raw_abilities:
+        - MAGNETPULL
+        - STURDY
+    raw_hidden_ability: ANALYTIC
+    raw_level_up_moves:
+        - at_level: '0'
+          name: TRIATTACK
+        - at_level: '1'
+          name: ZAPCANNON
+        - at_level: '1'
+          name: ELECTRICTERRAIN
+        - at_level: '1'
+          name: TACKLE
+        - at_level: '1'
+          name: SUPERSONIC
+        - at_level: '1'
+          name: THUNDERSHOCK
+        - at_level: '1'
+          name: MAGNETBOMB
+        - at_level: '5'
+          name: THUNDERSHOCK
+        - at_level: '7'
+          name: THUNDERWAVE
+        - at_level: '11'
+          name: MAGNETBOMB
+        - at_level: '13'
+          name: LIGHTSCREEN
+        - at_level: '17'
+          name: SONICBOOM
+        - at_level: '19'
+          name: SPARK
+        - at_level: '23'
+          name: MIRRORSHOT
+        - at_level: '25'
+          name: METALSOUND
+        - at_level: '29'
+          name: ELECTROBALL
+        - at_level: '33'
+          name: FLASHCANNON
+        - at_level: '39'
+          name: SCREECH
+        - at_level: '43'
+          name: DISCHARGE
+        - at_level: '49'
+          name: LOCKON
+        - at_level: '53'
+          name: MAGNETRISE
+        - at_level: '59'
+          name: GYROBALL
+        - at_level: '63'
+          name: ZAPCANNON
+    raw_egg_moves: []
+    raw_tms: []
+    compatible_egg_groups:
+        - 9
+    steps_to_hatch: 5355
+    height: 1.0
+    weight: 60.0
+    colour: Gray
+    habitat: RoughTerrain
+    kind: Magnet
+    pokedex_entry: It is actually three Magnemite linked by magnetism. It generates
+        powerful radio waves that raise temperatures by 3.6 degrees F within a 3,300-foot
+        radius.
+    wild_items:
+        common:
+        uncommon: METALCOAT
+        rare:
+    battler_player_y: 22
+    battler_enemy_y: 14
+    battler_altitude: 15
+    evolutions:
+        - into_name: MAGNEZONE
+          condition: Location
+          parameter: '281'
+    form_names: []
+    regional_numbers:
+    shape:

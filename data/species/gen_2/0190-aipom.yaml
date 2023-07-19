@@ -1,0 +1,98 @@
+190:
+    name: Aipom
+    internal_name: AIPOM
+    base_stats:
+        hp: 55
+        atk: 70
+        def_: 55
+        spa: 40
+        spd: 55
+        spe: 85
+    primary_type: NORMAL
+    secondary_type:
+    gender_ratio: 3
+    growth_rate: 0
+    exp_yield: 72
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 1
+    catch_rate: 45
+    caught_happiness: 70
+    raw_abilities:
+        - RUNAWAY
+        - PICKUP
+    raw_hidden_ability: SKILLLINK
+    raw_level_up_moves:
+        - at_level: '1'
+          name: SCRATCH
+        - at_level: '1'
+          name: TAILWHIP
+        - at_level: '4'
+          name: SANDATTACK
+        - at_level: '8'
+          name: ASTONISH
+        - at_level: '11'
+          name: BATONPASS
+        - at_level: '15'
+          name: TICKLE
+        - at_level: '18'
+          name: FURYSWIPES
+        - at_level: '22'
+          name: SWIFT
+        - at_level: '25'
+          name: SCREECH
+        - at_level: '29'
+          name: AGILITY
+        - at_level: '32'
+          name: DOUBLEHIT
+        - at_level: '36'
+          name: FLING
+        - at_level: '39'
+          name: NASTYPLOT
+        - at_level: '43'
+          name: LASTRESORT
+    raw_egg_moves:
+        - AGILITY
+        - BEATUP
+        - BOUNCE
+        - COUNTER
+        - COVET
+        - DOUBLESLAP
+        - FAKEOUT
+        - PURSUIT
+        - QUICKGUARD
+        - REVENGE
+        - SCREECH
+        - SLAM
+        - SPITE
+        - SWITCHEROO
+        - TAILSLAP
+    raw_tms: []
+    compatible_egg_groups:
+        - 4
+    steps_to_hatch: 5355
+    height: 0.8
+    weight: 11.5
+    colour: Purple
+    habitat: Forest
+    kind: Long Tail
+    pokedex_entry: Its tail ends with a dexterous, handlike appendage. However, because
+        it uses the tail so much, Aipom's real hands have become rather clumsy.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 23
+    battler_enemy_y: 14
+    battler_altitude: 0
+    evolutions:
+        - into_name: AMBIPOM
+          condition: HasMove
+          parameter: DOUBLEHIT
+    form_names: []
+    regional_numbers:
+    shape:

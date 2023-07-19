@@ -1,0 +1,104 @@
+163:
+    name: Hoothoot
+    internal_name: HOOTHOOT
+    base_stats:
+        hp: 60
+        atk: 30
+        def_: 30
+        spa: 36
+        spd: 56
+        spe: 50
+    primary_type: NORMAL
+    secondary_type: FLYING
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 52
+    ev_yield:
+        hp: 1
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 255
+    caught_happiness: 70
+    raw_abilities:
+        - INSOMNIA
+        - KEENEYE
+    raw_hidden_ability: TINTEDLENS
+    raw_level_up_moves:
+        - at_level: '1'
+          name: TACKLE
+        - at_level: '1'
+          name: GROWL
+        - at_level: '1'
+          name: FORESIGHT
+        - at_level: '4'
+          name: HYPNOSIS
+        - at_level: '7'
+          name: PECK
+        - at_level: '10'
+          name: CONFUSION
+        - at_level: '13'
+          name: ECHOEDVOICE
+        - at_level: '16'
+          name: ZENHEADBUTT
+        - at_level: '19'
+          name: PSYCHOSHIFT
+        - at_level: '22'
+          name: EXTRASENSORY
+        - at_level: '25'
+          name: TAKEDOWN
+        - at_level: '28'
+          name: REFLECT
+        - at_level: '31'
+          name: AIRSLASH
+        - at_level: '34'
+          name: UPROAR
+        - at_level: '37'
+          name: ROOST
+        - at_level: '40'
+          name: MOONBLAST
+        - at_level: '43'
+          name: SYNCHRONOISE
+        - at_level: '46'
+          name: DREAMEATER
+    raw_egg_moves:
+        - AGILITY
+        - DEFOG
+        - FEATHERDANCE
+        - FEINTATTACK
+        - HURRICANE
+        - MEANLOOK
+        - MIRRORMOVE
+        - NIGHTSHADE
+        - SKYATTACK
+        - SUPERSONIC
+        - WHIRLWIND
+        - WINGATTACK
+    raw_tms: []
+    compatible_egg_groups:
+        - 3
+    steps_to_hatch: 4080
+    height: 0.7
+    weight: 21.2
+    colour: Brown
+    habitat: Forest
+    kind: Owl
+    pokedex_entry: It has an internal organ that senses the earth's rotation. Using
+        this special organ, a Hoothoot begins hooting at precisely the same time every
+        day.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 27
+    battler_enemy_y: 20
+    battler_altitude: 0
+    evolutions:
+        - into_name: NOCTOWL
+          condition: Level
+          parameter: '20'
+    form_names: []
+    regional_numbers:
+    shape:

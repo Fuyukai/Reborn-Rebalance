@@ -1,0 +1,88 @@
+364:
+    name: Sealeo
+    internal_name: SEALEO
+    base_stats:
+        hp: 90
+        atk: 60
+        def_: 70
+        spa: 75
+        spd: 70
+        spe: 45
+    primary_type: ICE
+    secondary_type: WATER
+    gender_ratio: 3
+    growth_rate: 3
+    exp_yield: 144
+    ev_yield:
+        hp: 2
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 120
+    caught_happiness: 70
+    raw_abilities:
+        - THICKFAT
+        - ICEBODY
+    raw_hidden_ability: OBLIVIOUS
+    raw_level_up_moves:
+        - at_level: '0'
+          name: SWAGGER
+        - at_level: '1'
+          name: DEFENSECURL
+        - at_level: '1'
+          name: POWDERSNOW
+        - at_level: '1'
+          name: GROWL
+        - at_level: '1'
+          name: WATERGUN
+        - at_level: '5'
+          name: ROLLOUT
+        - at_level: '9'
+          name: ENCORE
+        - at_level: '13'
+          name: ICEBALL
+        - at_level: '17'
+          name: BRINE
+        - at_level: '21'
+          name: AURORABEAM
+        - at_level: '26'
+          name: BODYSLAM
+        - at_level: '31'
+          name: REST
+        - at_level: '31'
+          name: SNORE
+        - at_level: '38'
+          name: HAIL
+        - at_level: '45'
+          name: BLIZZARD
+        - at_level: '52'
+          name: SHEERCOLD
+    raw_egg_moves: []
+    raw_tms: []
+    compatible_egg_groups:
+        - 1
+        - 4
+    steps_to_hatch: 5355
+    height: 1.1
+    weight: 87.6
+    colour: Blue
+    habitat: Sea
+    kind: Ball Roll
+    pokedex_entry: Sealeo live in herds on ice floes. Using its powerful flippers,
+        it shatters ice. It dives into the sea to hunt prey five times a day.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 25
+    battler_enemy_y: 27
+    battler_altitude: 0
+    evolutions:
+        - into_name: WALREIN
+          condition: Level
+          parameter: '44'
+    form_names: []
+    regional_numbers:
+    shape:

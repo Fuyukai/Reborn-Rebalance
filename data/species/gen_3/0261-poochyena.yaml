@@ -1,0 +1,100 @@
+261:
+    name: Poochyena
+    internal_name: POOCHYENA
+    base_stats:
+        hp: 35
+        atk: 55
+        def_: 35
+        spa: 30
+        spd: 30
+        spe: 35
+    primary_type: DARK
+    secondary_type:
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 56
+    ev_yield:
+        hp: 0
+        atk: 1
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 255
+    caught_happiness: 70
+    raw_abilities:
+        - RUNAWAY
+        - QUICKFEET
+    raw_hidden_ability: RATTLED
+    raw_level_up_moves:
+        - at_level: '1'
+          name: TACKLE
+        - at_level: '4'
+          name: HOWL
+        - at_level: '7'
+          name: SANDATTACK
+        - at_level: '10'
+          name: BITE
+        - at_level: '13'
+          name: ODORSLEUTH
+        - at_level: '16'
+          name: ROAR
+        - at_level: '19'
+          name: SWAGGER
+        - at_level: '22'
+          name: ASSURANCE
+        - at_level: '25'
+          name: SCARYFACE
+        - at_level: '28'
+          name: EMBARGO
+        - at_level: '31'
+          name: TAUNT
+        - at_level: '34'
+          name: CRUNCH
+        - at_level: '37'
+          name: YAWN
+        - at_level: '40'
+          name: TAKEDOWN
+        - at_level: '43'
+          name: SUCKERPUNCH
+        - at_level: '46'
+          name: PLAYROUGH
+    raw_egg_moves:
+        - ASTONISH
+        - COVET
+        - FIREFANG
+        - ICEFANG
+        - LEER
+        - MEFIRST
+        - PLAYROUGH
+        - POISONFANG
+        - SLEEPTALK
+        - SNATCH
+        - SUCKERPUNCH
+        - THUNDERFANG
+        - YAWN
+    raw_tms: []
+    compatible_egg_groups:
+        - 4
+    steps_to_hatch: 4080
+    height: 0.5
+    weight: 13.6
+    colour: Gray
+    habitat: Grassland
+    kind: Bite
+    pokedex_entry: It savagely threatens foes with bared fangs. It chases after fleeing
+        targets tenaciously. It turns tail and runs, however, if the foe strikes back.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 27
+    battler_enemy_y: 22
+    battler_altitude: 0
+    evolutions:
+        - into_name: MIGHTYENA
+          condition: Level
+          parameter: '18'
+    form_names: []
+    regional_numbers:
+    shape:

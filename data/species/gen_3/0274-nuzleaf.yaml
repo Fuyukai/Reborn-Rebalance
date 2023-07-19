@@ -1,0 +1,78 @@
+274:
+    name: Nuzleaf
+    internal_name: NUZLEAF
+    base_stats:
+        hp: 70
+        atk: 70
+        def_: 40
+        spa: 60
+        spd: 40
+        spe: 60
+    primary_type: GRASS
+    secondary_type: DARK
+    gender_ratio: 3
+    growth_rate: 3
+    exp_yield: 119
+    ev_yield:
+        hp: 0
+        atk: 2
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 120
+    caught_happiness: 70
+    raw_abilities:
+        - CHLOROPHYLL
+        - EARLYBIRD
+    raw_hidden_ability: PICKPOCKET
+    raw_level_up_moves:
+        - at_level: '0'
+          name: RAZORLEAF
+        - at_level: '1'
+          name: POUND
+        - at_level: '3'
+          name: HARDEN
+        - at_level: '6'
+          name: GROWTH
+        - at_level: '12'
+          name: FAKEOUT
+        - at_level: '16'
+          name: NATUREPOWER
+        - at_level: '20'
+          name: RAZORWIND
+        - at_level: '24'
+          name: FEINTATTACK
+        - at_level: '28'
+          name: LEAFBLADE
+        - at_level: '32'
+          name: SWAGGER
+        - at_level: '36'
+          name: EXTRASENSORY
+    raw_egg_moves: []
+    raw_tms: []
+    compatible_egg_groups:
+        - 4
+        - 6
+    steps_to_hatch: 4080
+    height: 1.0
+    weight: 28.0
+    colour: Brown
+    habitat: Forest
+    kind: Wily
+    pokedex_entry: A forest-dwelling Pokémon that is skilled at climbing trees. Its
+        long and pointed nose is its weak point. It loses power if the nose is gripped.
+    wild_items:
+        common:
+        uncommon: POWERHERB
+        rare:
+    battler_player_y: 22
+    battler_enemy_y: 18
+    battler_altitude: 0
+    evolutions:
+        - into_name: SHIFTRY
+          condition: Item
+          parameter: LEAFSTONE
+    form_names: []
+    regional_numbers:
+    shape:

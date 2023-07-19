@@ -1,0 +1,81 @@
+890:
+    name: Eternatus
+    internal_name: ETERNATUS
+    base_stats:
+        hp: 140
+        atk: 85
+        def_: 95
+        spa: 145
+        spd: 95
+        spe: 130
+    primary_type: POISON
+    secondary_type: DRAGON
+    gender_ratio: 7
+    growth_rate: 2
+    exp_yield: 345
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 3
+    catch_rate: 10
+    caught_happiness: 0
+    raw_abilities:
+        - PRESSURE
+    raw_hidden_ability:
+    raw_level_up_moves:
+        - at_level: '1'
+          name: ETERNABEAM
+        - at_level: '1'
+          name: POISONTAIL
+        - at_level: '1'
+          name: CONFUSERAY
+        - at_level: '1'
+          name: DRAGONTAIL
+        - at_level: '1'
+          name: AGILITY
+        - at_level: '8'
+          name: TOXIC
+        - at_level: '16'
+          name: VENOSHOCK
+        - at_level: '24'
+          name: DRAGONDANCE
+        - at_level: '32'
+          name: CROSSPOISON
+        - at_level: '40'
+          name: DRAGONPULSE
+        - at_level: '48'
+          name: FLAMETHROWER
+        - at_level: '56'
+          name: DYNAMAXCANNON
+        - at_level: '64'
+          name: COSMICPOWER
+        - at_level: '72'
+          name: RECOVER
+        - at_level: '80'
+          name: HYPERBEAM
+    raw_egg_moves: []
+    raw_tms: []
+    compatible_egg_groups:
+        - 14
+    steps_to_hatch: 30720
+    height: 8.0
+    weight: 950.0
+    colour: Purple
+    habitat:
+    kind: Gigantic
+    pokedex_entry: It was inside a meteorite that fell 20,000 years ago. There seems
+        to be a connection between this Pokémon and the Dynamax phenomenon.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 21
+    battler_enemy_y: 12
+    battler_altitude: 2
+    evolutions: []
+    form_names: []
+    regional_numbers: 890
+    shape:

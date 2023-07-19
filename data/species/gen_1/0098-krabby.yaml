@@ -1,0 +1,98 @@
+98:
+    name: Krabby
+    internal_name: KRABBY
+    base_stats:
+        hp: 30
+        atk: 105
+        def_: 90
+        spa: 25
+        spd: 25
+        spe: 50
+    primary_type: WATER
+    secondary_type:
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 65
+    ev_yield:
+        hp: 0
+        atk: 1
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 225
+    caught_happiness: 70
+    raw_abilities:
+        - HYPERCUTTER
+        - SHELLARMOR
+    raw_hidden_ability: SHEERFORCE
+    raw_level_up_moves:
+        - at_level: '1'
+          name: MUDSPORT
+        - at_level: '1'
+          name: BUBBLE
+        - at_level: '5'
+          name: VICEGRIP
+        - at_level: '9'
+          name: LEER
+        - at_level: '11'
+          name: HARDEN
+        - at_level: '15'
+          name: BUBBLEBEAM
+        - at_level: '19'
+          name: MUDSHOT
+        - at_level: '21'
+          name: METALCLAW
+        - at_level: '25'
+          name: STOMP
+        - at_level: '29'
+          name: PROTECT
+        - at_level: '31'
+          name: GUILLOTINE
+        - at_level: '35'
+          name: SLAM
+        - at_level: '39'
+          name: BRINE
+        - at_level: '41'
+          name: CRABHAMMER
+        - at_level: '45'
+          name: FLAIL
+    raw_egg_moves:
+        - AGILITY
+        - ALLYSWITCH
+        - AMNESIA
+        - ANCIENTPOWER
+        - BIDE
+        - CHIPAWAY
+        - ENDURE
+        - FLAIL
+        - HAZE
+        - KNOCKOFF
+        - SLAM
+        - TICKLE
+        - HAMMERARM
+    raw_tms: []
+    compatible_egg_groups:
+        - 8
+    steps_to_hatch: 5355
+    height: 0.4
+    weight: 6.5
+    colour: Red
+    habitat: WatersEdge
+    kind: River Crab
+    pokedex_entry: Krabby live in holes dug into beaches. On sandy shores with little
+        in the way of food, they can be seen squabbling with each other over territory.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 28
+    battler_enemy_y: 21
+    battler_altitude: 0
+    evolutions:
+        - into_name: KINGLER
+          condition: Level
+          parameter: '28'
+    form_names: []
+    regional_numbers:
+    shape:

@@ -1,0 +1,92 @@
+270:
+    name: Lotad
+    internal_name: LOTAD
+    base_stats:
+        hp: 40
+        atk: 30
+        def_: 30
+        spa: 40
+        spd: 50
+        spe: 30
+    primary_type: WATER
+    secondary_type: GRASS
+    gender_ratio: 3
+    growth_rate: 3
+    exp_yield: 44
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 1
+        spe: 0
+    catch_rate: 255
+    caught_happiness: 70
+    raw_abilities:
+        - SWIFTSWIM
+        - RAINDISH
+    raw_hidden_ability: OWNTEMPO
+    raw_level_up_moves:
+        - at_level: '1'
+          name: ASTONISH
+        - at_level: '3'
+          name: GROWL
+        - at_level: '6'
+          name: ABSORB
+        - at_level: '9'
+          name: BUBBLE
+        - at_level: '12'
+          name: NATURALGIFT
+        - at_level: '15'
+          name: MIST
+        - at_level: '18'
+          name: MEGADRAIN
+        - at_level: '21'
+          name: BUBBLEBEAM
+        - at_level: '24'
+          name: NATUREPOWER
+        - at_level: '27'
+          name: RAINDANCE
+        - at_level: '30'
+          name: GIGADRAIN
+        - at_level: '33'
+          name: ZENHEADBUTT
+        - at_level: '36'
+          name: ENERGYBALL
+    raw_egg_moves:
+        - COUNTER
+        - FLAIL
+        - GIGADRAIN
+        - LEECHSEED
+        - RAZORLEAF
+        - SWEETSCENT
+        - SYNTHESIS
+        - TEETERDANCE
+        - TICKLE
+        - WATERGUN
+    raw_tms: []
+    compatible_egg_groups:
+        - 1
+        - 6
+    steps_to_hatch: 4080
+    height: 0.5
+    weight: 2.6
+    colour: Green
+    habitat: WatersEdge
+    kind: Water Weed
+    pokedex_entry: This Pokémon lives in ponds with clean water. It is known to ferry
+        small Pokémon across ponds by carrying them on the broad leaf on its head.
+    wild_items:
+        common:
+        uncommon: MENTALHERB
+        rare:
+    battler_player_y: 32
+    battler_enemy_y: 27
+    battler_altitude: 0
+    evolutions:
+        - into_name: LOMBRE
+          condition: Level
+          parameter: '14'
+    form_names: []
+    regional_numbers:
+    shape:

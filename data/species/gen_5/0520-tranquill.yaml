@@ -1,0 +1,91 @@
+520:
+    name: Tranquill
+    internal_name: TRANQUILL
+    base_stats:
+        hp: 62
+        atk: 77
+        def_: 62
+        spa: 50
+        spd: 42
+        spe: 65
+    primary_type: NORMAL
+    secondary_type: FLYING
+    gender_ratio: 3
+    growth_rate: 3
+    exp_yield: 125
+    ev_yield:
+        hp: 0
+        atk: 2
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 120
+    caught_happiness: 70
+    raw_abilities:
+        - BIGPECKS
+        - SUPERLUCK
+    raw_hidden_ability: RIVALRY
+    raw_level_up_moves:
+        - at_level: '1'
+          name: GUST
+        - at_level: '1'
+          name: GROWL
+        - at_level: '1'
+          name: LEER
+        - at_level: '1'
+          name: QUICKATTACK
+        - at_level: '4'
+          name: GROWL
+        - at_level: '8'
+          name: LEER
+        - at_level: '11'
+          name: QUICKATTACK
+        - at_level: '15'
+          name: AIRCUTTER
+        - at_level: '18'
+          name: ROOST
+        - at_level: '23'
+          name: DETECT
+        - at_level: '27'
+          name: TAUNT
+        - at_level: '32'
+          name: AIRSLASH
+        - at_level: '36'
+          name: RAZORWIND
+        - at_level: '41'
+          name: FEATHERDANCE
+        - at_level: '45'
+          name: SWAGGER
+        - at_level: '50'
+          name: FACADE
+        - at_level: '54'
+          name: TAILWIND
+        - at_level: '59'
+          name: SKYATTACK
+    raw_egg_moves: []
+    raw_tms: []
+    compatible_egg_groups:
+        - 3
+    steps_to_hatch: 3840
+    height: 0.6
+    weight: 15.0
+    colour: Gray
+    habitat:
+    kind: Wild Pigeon
+    pokedex_entry: Many people believe that, deep in the forest where Tranquill live,
+        there is a peaceful place where there is no war.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 22
+    battler_enemy_y: 29
+    battler_altitude: 0
+    evolutions:
+        - into_name: UNFEZANT
+          condition: Level
+          parameter: '32'
+    form_names: []
+    regional_numbers:
+    shape:

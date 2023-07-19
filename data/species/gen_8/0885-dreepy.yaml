@@ -1,0 +1,72 @@
+885:
+    name: Dreepy
+    internal_name: DREEPY
+    base_stats:
+        hp: 28
+        atk: 60
+        def_: 30
+        spa: 40
+        spd: 30
+        spe: 82
+    primary_type: DRAGON
+    secondary_type: GHOST
+    gender_ratio: 3
+    growth_rate: 2
+    exp_yield: 54
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 1
+    catch_rate: 45
+    caught_happiness: 50
+    raw_abilities:
+        - CLEARBODY
+        - INFILTRATOR
+    raw_hidden_ability: CURSEDBODY
+    raw_level_up_moves:
+        - at_level: '1'
+          name: ASTONISH
+        - at_level: '1'
+          name: INFESTATION
+        - at_level: '1'
+          name: QUICKATTACK
+        - at_level: '1'
+          name: BITE
+    raw_egg_moves:
+        - CURSE
+        - GRUDGE
+        - CONFUSERAY
+        - DOUBLETEAM
+        - DISABLE
+        - DRAGONTAIL
+        - SUCKERPUNCH
+    raw_tms: []
+    compatible_egg_groups:
+        - 10
+        - 13
+    steps_to_hatch: 10240
+    height: 0.5
+    weight: 2.0
+    colour: Green
+    habitat:
+    kind: Lingering
+    pokedex_entry: If this weak Pokémon is by itself, a mere child could defeat it.
+        But if Dreepy has friends to help it train, it can evolve and become much
+        stronger.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 21
+    battler_enemy_y: 26
+    battler_altitude: 0
+    evolutions:
+        - into_name: DRAKLOAK
+          condition: Level
+          parameter: '50'
+    form_names: []
+    regional_numbers: 885
+    shape:

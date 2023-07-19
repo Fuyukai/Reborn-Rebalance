@@ -1,0 +1,80 @@
+15:
+    name: Beedrill
+    internal_name: BEEDRILL
+    base_stats:
+        hp: 65
+        atk: 90
+        def_: 40
+        spa: 45
+        spd: 80
+        spe: 75
+    primary_type: BUG
+    secondary_type: POISON
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 173
+    ev_yield:
+        hp: 0
+        atk: 2
+        def_: 0
+        spa: 0
+        spd: 1
+        spe: 0
+    catch_rate: 45
+    caught_happiness: 70
+    raw_abilities:
+        - SWARM
+        - SNIPER
+    raw_hidden_ability:
+    raw_level_up_moves:
+        - at_level: '0'
+          name: TWINEEDLE
+        - at_level: '1'
+          name: FURYATTACK
+        - at_level: '11'
+          name: FURYATTACK
+        - at_level: '14'
+          name: RAGE
+        - at_level: '17'
+          name: PURSUIT
+        - at_level: '20'
+          name: FOCUSENERGY
+        - at_level: '23'
+          name: VENOSHOCK
+        - at_level: '26'
+          name: ASSURANCE
+        - at_level: '29'
+          name: TOXICSPIKES
+        - at_level: '32'
+          name: PINMISSILE
+        - at_level: '35'
+          name: POISONJAB
+        - at_level: '38'
+          name: AGILITY
+        - at_level: '41'
+          name: ENDEAVOR
+        - at_level: '44'
+          name: FELLSTINGER
+    raw_egg_moves: []
+    raw_tms: []
+    compatible_egg_groups:
+        - 2
+    steps_to_hatch: 4080
+    height: 1.0
+    weight: 29.5
+    colour: Yellow
+    habitat: Forest
+    kind: Poison Bee
+    pokedex_entry: A Beedrill is extremely territorial. For safety reasons, no one
+        should ever approach its nest. If angered, they will attack in a swarm.
+    wild_items:
+        common:
+        uncommon: POISONBARB
+        rare:
+    battler_player_y: 18
+    battler_enemy_y: 13
+    battler_altitude: 11
+    evolutions: []
+    form_names: []
+    regional_numbers:
+    shape:

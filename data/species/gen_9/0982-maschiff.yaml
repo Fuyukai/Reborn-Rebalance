@@ -1,0 +1,90 @@
+982:
+    name: Maschiff
+    internal_name: MASCHIFF
+    base_stats:
+        hp: 60
+        atk: 78
+        def_: 60
+        spa: 40
+        spd: 51
+        spe: 51
+    primary_type: DARK
+    secondary_type:
+    gender_ratio: 3
+    growth_rate: 3
+    exp_yield: 64
+    ev_yield:
+        hp: 0
+        atk: 1
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 150
+    caught_happiness: 50
+    raw_abilities:
+        - INTIMIDATE
+        - RUNAWAY
+    raw_hidden_ability: STAKEOUT
+    raw_level_up_moves:
+        - at_level: ' 1'
+          name: TACKLE
+        - at_level: '1'
+          name: LEER
+        - at_level: '1'
+          name: SCARYFACE
+        - at_level: '4'
+          name: LICK
+        - at_level: '7'
+          name: SNARL
+        - at_level: '10'
+          name: HONECLAWS
+        - at_level: '14'
+          name: BITE
+        - at_level: '18'
+          name: ROAR
+        - at_level: '22'
+          name: HEADBUTT
+        - at_level: '26'
+          name: PAYBACK
+        - at_level: '31'
+          name: CRUNCH
+        - at_level: '35'
+          name: SWAGGER
+        - at_level: '39'
+          name: REVERSAL
+        - at_level: '43'
+          name: JAWLOCK
+        - at_level: '49'
+          name: DOUBLEEDGE
+    raw_egg_moves:
+        - ' DESTINYBOND'
+        - ENDEAVOR
+        - RETALIATE
+        - PLAYROUGH
+    raw_tms: []
+    compatible_egg_groups:
+        - 4
+    steps_to_hatch: 5140
+    height: 0.5
+    weight: 16.0
+    colour: Brown
+    habitat:
+    kind: Rascal
+    pokedex_entry: It always scowls in an attempt to make opponents take it seriously,
+        but even crying children will burst into laughter when they see Maschiff’s
+        face.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 22
+    battler_enemy_y: 22
+    battler_altitude: 0
+    evolutions:
+        - into_name: MABOSSTIFF
+          condition: Level
+          parameter: '30'
+    form_names: []
+    regional_numbers:
+    shape:

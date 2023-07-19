@@ -1,0 +1,91 @@
+329:
+    name: Vibrava
+    internal_name: VIBRAVA
+    base_stats:
+        hp: 50
+        atk: 70
+        def_: 50
+        spa: 50
+        spd: 50
+        spe: 70
+    primary_type: GROUND
+    secondary_type: DRAGON
+    gender_ratio: 3
+    growth_rate: 3
+    exp_yield: 119
+    ev_yield:
+        hp: 0
+        atk: 1
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 1
+    catch_rate: 120
+    caught_happiness: 70
+    raw_abilities:
+        - LEVITATE
+    raw_hidden_ability:
+    raw_level_up_moves:
+        - at_level: '0'
+          name: DRAGONBREATH
+        - at_level: '1'
+          name: SANDATTACK
+        - at_level: '1'
+          name: SONICBOOM
+        - at_level: '1'
+          name: FEINTATTACK
+        - at_level: '1'
+          name: BIDE
+        - at_level: '5'
+          name: MUDSLAP
+        - at_level: '8'
+          name: BULLDOZE
+        - at_level: '12'
+          name: SANDTOMB
+        - at_level: '15'
+          name: ROCKSLIDE
+        - at_level: '19'
+          name: SUPERSONIC
+        - at_level: '22'
+          name: SCREECH
+        - at_level: '26'
+          name: EARTHPOWER
+        - at_level: '29'
+          name: BUGBUZZ
+        - at_level: '33'
+          name: EARTHQUAKE
+        - at_level: '36'
+          name: SANDSTORM
+        - at_level: '40'
+          name: UPROAR
+        - at_level: '43'
+          name: HYPERBEAM
+        - at_level: '47'
+          name: BOOMBURST
+    raw_egg_moves: []
+    raw_tms: []
+    compatible_egg_groups:
+        - 2
+    steps_to_hatch: 5355
+    height: 1.1
+    weight: 15.3
+    colour: Green
+    habitat: RoughTerrain
+    kind: Vibration
+    pokedex_entry: It looses ultrasonic waves by rubbing its wings together. Since
+        a Vibrava's wings are still in the process of growing, it can only fly short
+        distances.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 27
+    battler_enemy_y: 18
+    battler_altitude: 17
+    evolutions:
+        - into_name: FLYGON
+          condition: Level
+          parameter: '45'
+    form_names: []
+    regional_numbers:
+    shape:

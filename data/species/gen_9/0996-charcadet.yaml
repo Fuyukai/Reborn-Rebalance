@@ -1,0 +1,81 @@
+996:
+    name: Charcadet
+    internal_name: CHARCADET
+    base_stats:
+        hp: 40
+        atk: 50
+        def_: 40
+        spa: 50
+        spd: 40
+        spe: 35
+    primary_type: FIRE
+    secondary_type:
+    gender_ratio: 3
+    growth_rate: 2
+    exp_yield: 50
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 1
+        spd: 0
+        spe: 0
+    catch_rate: 90
+    caught_happiness: 50
+    raw_abilities:
+        - FLASHFIRE
+        - FLAMEBODY
+    raw_hidden_ability:
+    raw_level_up_moves:
+        - at_level: ' 1'
+          name: LEER
+        - at_level: '1'
+          name: EMBER
+        - at_level: '1'
+          name: ASTONISH
+        - at_level: '8'
+          name: CLEARSMOG
+        - at_level: '12'
+          name: FIRESPIN
+        - at_level: '16'
+          name: WILLOWISP
+        - at_level: '20'
+          name: NIGHTSHADE
+        - at_level: '24'
+          name: FLAMECHARGE
+        - at_level: '28'
+          name: INCINERATE
+        - at_level: '32'
+          name: LAVAPLUME
+    raw_egg_moves:
+        - ' DISABLE'
+        - SPITE
+        - DESTINYBOND
+    raw_tms: []
+    compatible_egg_groups:
+        - 7
+    steps_to_hatch: 8995
+    height: 0.6
+    weight: 10.5
+    colour: Red
+    habitat:
+    kind: Fire Child
+    pokedex_entry: Burnt charcoal came to life and became a Pokémon. Possessing a
+        fiery fighting spirit, Charcadet will battle even tough opponents.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 15
+    battler_enemy_y: 12
+    battler_altitude: 0
+    evolutions:
+        - into_name: ARMAROUGE
+          condition: DayHoldItem
+          parameter: AUSPICIOUSARMOR
+        - into_name: CERULEDGE
+          condition: NightHoldItem
+          parameter: MALICIOUSARMOR
+    form_names: []
+    regional_numbers:
+    shape:

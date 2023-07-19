@@ -1,0 +1,91 @@
+714:
+    name: Noibat
+    internal_name: NOIBAT
+    base_stats:
+        hp: 40
+        atk: 30
+        def_: 35
+        spa: 45
+        spd: 40
+        spe: 55
+    primary_type: FLYING
+    secondary_type: DRAGON
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 49
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 1
+    catch_rate: 200
+    caught_happiness: 70
+    raw_abilities:
+        - FRISK
+        - INFILTRATOR
+    raw_hidden_ability: TELEPATHY
+    raw_level_up_moves:
+        - at_level: '1'
+          name: SCREECH
+        - at_level: '1'
+          name: SUPERSONIC
+        - at_level: '1'
+          name: TACKLE
+        - at_level: '5'
+          name: ABSORB
+        - at_level: '11'
+          name: GUST
+        - at_level: '13'
+          name: BITE
+        - at_level: '16'
+          name: WINGATTACK
+        - at_level: '18'
+          name: AGILITY
+        - at_level: '23'
+          name: AIRCUTTER
+        - at_level: '27'
+          name: ROOST
+        - at_level: '31'
+          name: RAZORWIND
+        - at_level: '35'
+          name: TAILWIND
+        - at_level: '40'
+          name: WHIRLWIND
+        - at_level: '43'
+          name: SUPERFANG
+        - at_level: '48'
+          name: AIRSLASH
+        - at_level: '58'
+          name: HURRICANE
+    raw_egg_moves:
+        - OUTRAGE
+        - SNATCH
+        - SWITCHEROO
+        - TAILWIND
+    raw_tms: []
+    compatible_egg_groups:
+        - 3
+    steps_to_hatch: 5120
+    height: 0.5
+    weight: 8.0
+    colour: Purple
+    habitat:
+    kind: Sound Wave
+    pokedex_entry: They live in pitch black caves. Their enormous ears can emit ultrasonic
+        waves of 200,000 hertz.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 20
+    battler_enemy_y: 16
+    battler_altitude: 12
+    evolutions:
+        - into_name: NOIVERN
+          condition: Level
+          parameter: '48'
+    form_names: []
+    regional_numbers:
+    shape:

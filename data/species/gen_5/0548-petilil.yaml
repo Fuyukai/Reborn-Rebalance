@@ -1,0 +1,97 @@
+548:
+    name: Petilil
+    internal_name: PETILIL
+    base_stats:
+        hp: 45
+        atk: 35
+        def_: 50
+        spa: 70
+        spd: 50
+        spe: 30
+    primary_type: GRASS
+    secondary_type:
+    gender_ratio: 6
+    growth_rate: 1
+    exp_yield: 56
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 1
+        spd: 0
+        spe: 0
+    catch_rate: 190
+    caught_happiness: 70
+    raw_abilities:
+        - CHLOROPHYLL
+        - OWNTEMPO
+    raw_hidden_ability: LEAFGUARD
+    raw_level_up_moves:
+        - at_level: '1'
+          name: ABSORB
+        - at_level: '4'
+          name: GROWTH
+        - at_level: '8'
+          name: LEECHSEED
+        - at_level: '10'
+          name: SLEEPPOWDER
+        - at_level: '13'
+          name: MEGADRAIN
+        - at_level: '17'
+          name: SYNTHESIS
+        - at_level: '19'
+          name: MAGICALLEAF
+        - at_level: '22'
+          name: STUNSPORE
+        - at_level: '26'
+          name: GIGADRAIN
+        - at_level: '28'
+          name: AROMATHERAPY
+        - at_level: '31'
+          name: HELPINGHAND
+        - at_level: '35'
+          name: ENERGYBALL
+        - at_level: '37'
+          name: ENTRAINMENT
+        - at_level: '40'
+          name: SUNNYDAY
+        - at_level: '44'
+          name: AFTERYOU
+        - at_level: '46'
+          name: LEAFSTORM
+    raw_egg_moves:
+        - BIDE
+        - CHARM
+        - ENCORE
+        - ENDURE
+        - GRASSWHISTLE
+        - HEALINGWISH
+        - INGRAIN
+        - NATURALGIFT
+        - SWEETSCENT
+        - WORRYSEED
+    raw_tms: []
+    compatible_egg_groups:
+        - 6
+    steps_to_hatch: 5120
+    height: 0.5
+    weight: 6.6
+    colour: Green
+    habitat:
+    kind: Bulb
+    pokedex_entry: Since they prefer moist, nutrient-rich soil, the areas where Petilil
+        live are known to be good for growing plants.
+    wild_items:
+        common:
+        uncommon: ABSORBBULB
+        rare:
+    battler_player_y: 26
+    battler_enemy_y: 30
+    battler_altitude: 0
+    evolutions:
+        - into_name: LILLIGANT
+          condition: Item
+          parameter: SUNSTONE
+    form_names: []
+    regional_numbers:
+    shape:

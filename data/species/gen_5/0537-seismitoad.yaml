@@ -1,0 +1,88 @@
+537:
+    name: Seismitoad
+    internal_name: SEISMITOAD
+    base_stats:
+        hp: 105
+        atk: 95
+        def_: 75
+        spa: 85
+        spd: 75
+        spe: 74
+    primary_type: WATER
+    secondary_type: GROUND
+    gender_ratio: 3
+    growth_rate: 3
+    exp_yield: 229
+    ev_yield:
+        hp: 3
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 45
+    caught_happiness: 70
+    raw_abilities:
+        - SWIFTSWIM
+        - POISONTOUCH
+    raw_hidden_ability: WATERABSORB
+    raw_level_up_moves:
+        - at_level: '0'
+          name: ACID
+        - at_level: '1'
+          name: BUBBLE
+        - at_level: '1'
+          name: GROWL
+        - at_level: '1'
+          name: SUPERSONIC
+        - at_level: '1'
+          name: ROUND
+        - at_level: '5'
+          name: SUPERSONIC
+        - at_level: '9'
+          name: ROUND
+        - at_level: '12'
+          name: BUBBLEBEAM
+        - at_level: '16'
+          name: MUDSHOT
+        - at_level: '20'
+          name: AQUARING
+        - at_level: '23'
+          name: UPROAR
+        - at_level: '28'
+          name: MUDDYWATER
+        - at_level: '33'
+          name: RAINDANCE
+        - at_level: '39'
+          name: FLAIL
+        - at_level: '44'
+          name: DRAINPUNCH
+        - at_level: '49'
+          name: ECHOEDVOICE
+        - at_level: '53'
+          name: HYDROPUMP
+        - at_level: '59'
+          name: HYPERVOICE
+    raw_egg_moves: []
+    raw_tms: []
+    compatible_egg_groups:
+        - 1
+    steps_to_hatch: 5120
+    height: 1.5
+    weight: 62.0
+    colour: Blue
+    habitat:
+    kind: Vibration
+    pokedex_entry: It increases the power of its punches by vibrating the bumps on
+        its fists. It can turn a boulder to rubble with one punch.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 16
+    battler_enemy_y: 19
+    battler_altitude: 0
+    evolutions: []
+    form_names: []
+    regional_numbers:
+    shape:

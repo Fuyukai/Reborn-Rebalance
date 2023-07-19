@@ -1,0 +1,88 @@
+811:
+    name: Thwackey
+    internal_name: THWACKEY
+    base_stats:
+        hp: 70
+        atk: 85
+        def_: 70
+        spa: 55
+        spd: 60
+        spe: 80
+    primary_type: GRASS
+    secondary_type:
+    gender_ratio: 1
+    growth_rate: 3
+    exp_yield: 147
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 2
+        spe: 0
+    catch_rate: 45
+    caught_happiness: 50
+    raw_abilities:
+        - OVERGROW
+        - GRASSYSURGE
+    raw_hidden_ability:
+    raw_level_up_moves:
+        - at_level: '0'
+          name: DOUBLEHIT
+        - at_level: '1'
+          name: SCRATCH
+        - at_level: '1'
+          name: GROWL
+        - at_level: '1'
+          name: BRANCHPOKE
+        - at_level: '1'
+          name: TAUNT
+        - at_level: '12'
+          name: RAZORLEAF
+        - at_level: '19'
+          name: SCREECH
+        - at_level: '24'
+          name: KNOCKOFF
+        - at_level: '30'
+          name: SLAM
+        - at_level: '36'
+          name: UPROAR
+        - at_level: '42'
+          name: WOODHAMMER
+        - at_level: '48'
+          name: ENDEAVOR
+    raw_egg_moves:
+        - GROWTH
+        - HAMMERARM
+        - FAKEOUT
+        - STRENGTH
+        - NATUREPOWER
+        - WORRYSEED
+        - LEECHSEED
+    raw_tms: []
+    compatible_egg_groups:
+        - 4
+        - 6
+    steps_to_hatch: 5120
+    height: 0.7
+    weight: 14.0
+    colour: Green
+    habitat:
+    kind: Beat
+    pokedex_entry: When it's drumming out rapid beats in battle, it gets so caught
+        up in the rhythm that it won't even notice that it's already knocked out its
+        opponent.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 21
+    battler_enemy_y: 26
+    battler_altitude: 0
+    evolutions:
+        - into_name: RILLABOOM
+          condition: Level
+          parameter: '35'
+    form_names: []
+    regional_numbers: 811
+    shape:

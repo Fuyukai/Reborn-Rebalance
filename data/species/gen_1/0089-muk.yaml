@@ -1,0 +1,92 @@
+89:
+    name: Muk
+    internal_name: MUK
+    base_stats:
+        hp: 105
+        atk: 105
+        def_: 75
+        spa: 65
+        spd: 100
+        spe: 50
+    primary_type: POISON
+    secondary_type:
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 175
+    ev_yield:
+        hp: 1
+        atk: 1
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 75
+    caught_happiness: 70
+    raw_abilities:
+        - STENCH
+        - STICKYHOLD
+    raw_hidden_ability: POISONTOUCH
+    raw_level_up_moves:
+        - at_level: '0'
+          name: VENOMDRENCH
+        - at_level: '1'
+          name: POISONGAS
+        - at_level: '1'
+          name: POUND
+        - at_level: '1'
+          name: HARDEN
+        - at_level: '1'
+          name: MUDSLAP
+        - at_level: '4'
+          name: HARDEN
+        - at_level: '7'
+          name: MUDSLAP
+        - at_level: '12'
+          name: DISABLE
+        - at_level: '15'
+          name: SLUDGE
+        - at_level: '18'
+          name: MUDBOMB
+        - at_level: '21'
+          name: MINIMIZE
+        - at_level: '26'
+          name: FLING
+        - at_level: '29'
+          name: SLUDGEBOMB
+        - at_level: '32'
+          name: SLUDGEWAVE
+        - at_level: '37'
+          name: SCREECH
+        - at_level: '40'
+          name: GUNKSHOT
+        - at_level: '46'
+          name: ACIDARMOR
+        - at_level: '52'
+          name: BELCH
+        - at_level: '57'
+          name: MEMENTO
+    raw_egg_moves: []
+    raw_tms: []
+    compatible_egg_groups:
+        - 10
+    steps_to_hatch: 5355
+    height: 1.2
+    weight: 30.0
+    colour: Purple
+    habitat: Urban
+    kind: Sludge
+    pokedex_entry: It prefers warm and humid habitats. In the summertime, the toxic
+        substances in its body intensify, making Muk reek like putrid kitchen garbage.
+    wild_items:
+        common:
+        uncommon: BLACKSLUDGE
+        rare:
+    battler_player_y: 19
+    battler_enemy_y: 15
+    battler_altitude: 0
+    evolutions: []
+    form_names:
+        - Normal
+        - Alternate
+    regional_numbers:
+    shape:

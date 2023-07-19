@@ -1,0 +1,89 @@
+558:
+    name: Crustle
+    internal_name: CRUSTLE
+    base_stats:
+        hp: 70
+        atk: 105
+        def_: 125
+        spa: 65
+        spd: 75
+        spe: 45
+    primary_type: BUG
+    secondary_type: ROCK
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 170
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 2
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 75
+    caught_happiness: 70
+    raw_abilities:
+        - STURDY
+        - SHELLARMOR
+    raw_hidden_ability: WEAKARMOR
+    raw_level_up_moves:
+        - at_level: '1'
+          name: SHELLSMASH
+        - at_level: '1'
+          name: ROCKBLAST
+        - at_level: '1'
+          name: WITHDRAW
+        - at_level: '1'
+          name: SANDATTACK
+        - at_level: '5'
+          name: ROCKBLAST
+        - at_level: '7'
+          name: WITHDRAW
+        - at_level: '11'
+          name: SANDATTACK
+        - at_level: '13'
+          name: FEINTATTACK
+        - at_level: '17'
+          name: SMACKDOWN
+        - at_level: '19'
+          name: ROCKPOLISH
+        - at_level: '23'
+          name: BUGBITE
+        - at_level: '24'
+          name: STEALTHROCK
+        - at_level: '29'
+          name: ROCKSLIDE
+        - at_level: '31'
+          name: SLASH
+        - at_level: '38'
+          name: XSCISSOR
+        - at_level: '43'
+          name: SHELLSMASH
+        - at_level: '50'
+          name: FLAIL
+        - at_level: '55'
+          name: ROCKWRECKER
+    raw_egg_moves: []
+    raw_tms: []
+    compatible_egg_groups:
+        - 2
+        - 9
+    steps_to_hatch: 5120
+    height: 1.4
+    weight: 200.0
+    colour: Red
+    habitat:
+    kind: Stone Home
+    pokedex_entry: It possesses legs of enormous strength, enabling it to carry heavy
+        slabs for many days, even when crossing arid land.
+    wild_items:
+        common:
+        uncommon: HARDSTONE
+        rare:
+    battler_player_y: 18
+    battler_enemy_y: 22
+    battler_altitude: 0
+    evolutions: []
+    form_names: []
+    regional_numbers:
+    shape:

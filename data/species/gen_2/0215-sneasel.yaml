@@ -1,0 +1,107 @@
+215:
+    name: Sneasel
+    internal_name: SNEASEL
+    base_stats:
+        hp: 55
+        atk: 95
+        def_: 55
+        spa: 35
+        spd: 75
+        spe: 115
+    primary_type: DARK
+    secondary_type: ICE
+    gender_ratio: 3
+    growth_rate: 3
+    exp_yield: 86
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 1
+    catch_rate: 60
+    caught_happiness: 35
+    raw_abilities:
+        - INNERFOCUS
+        - SHARPNESS
+    raw_hidden_ability: PICKPOCKET
+    raw_level_up_moves:
+        - at_level: '1'
+          name: SCRATCH
+        - at_level: '1'
+          name: LEER
+        - at_level: '1'
+          name: TAUNT
+        - at_level: '8'
+          name: QUICKATTACK
+        - at_level: '10'
+          name: FEINTATTACK
+        - at_level: '14'
+          name: ICYWIND
+        - at_level: '16'
+          name: FURYSWIPES
+        - at_level: '20'
+          name: AGILITY
+        - at_level: '22'
+          name: METALCLAW
+        - at_level: '25'
+          name: HONECLAWS
+        - at_level: '28'
+          name: BEATUP
+        - at_level: '32'
+          name: SCREECH
+        - at_level: '35'
+          name: SLASH
+        - at_level: '40'
+          name: SNATCH
+        - at_level: '44'
+          name: PUNISHMENT
+        - at_level: '47'
+          name: ICESHARD
+    raw_egg_moves:
+        - ASSIST
+        - AVALANCHE
+        - BITE
+        - COUNTER
+        - CRUSHCLAW
+        - DOUBLEHIT
+        - FAKEOUT
+        - FEINT
+        - FORESIGHT
+        - ICEPUNCH
+        - ICESHARD
+        - ICICLECRASH
+        - PUNISHMENT
+        - PURSUIT
+        - SPITE
+        - THROATCHOP
+    raw_tms: []
+    compatible_egg_groups:
+        - 4
+    steps_to_hatch: 5355
+    height: 0.9
+    weight: 28.0
+    colour: Black
+    habitat: Forest
+    kind: Sharp Claw
+    pokedex_entry: A Sneasel scales trees by punching its hooked claws into the bark.
+        It seeks out unguarded nests and steals eggs for food while the parents are
+        away.
+    wild_items:
+        common:
+        uncommon: QUICKCLAW
+        rare:
+    battler_player_y: 26
+    battler_enemy_y: 18
+    battler_altitude: 0
+    evolutions:
+        - into_name: WEAVILE
+          condition: NightHoldItem
+          parameter: RAZORCLAW
+        - into_name: SNEASLER
+          condition: DayHoldItem
+          parameter: RAZORCLAW
+    form_names: []
+    regional_numbers:
+    shape:

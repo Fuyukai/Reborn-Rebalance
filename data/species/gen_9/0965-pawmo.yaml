@@ -1,0 +1,87 @@
+965:
+    name: Pawmo
+    internal_name: PAWMO
+    base_stats:
+        hp: 60
+        atk: 75
+        def_: 40
+        spa: 50
+        spd: 40
+        spe: 85
+    primary_type: ELECTRIC
+    secondary_type: FIGHTING
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 119
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 2
+    catch_rate: 80
+    caught_happiness: 50
+    raw_abilities:
+        - VOLTABSORB
+        - NATURALCURE
+    raw_hidden_ability: IRONFIST
+    raw_level_up_moves:
+        - at_level: ' 0'
+          name: ARMTHRUST
+        - at_level: '1'
+          name: SCRATCH
+        - at_level: '1'
+          name: GROWL
+        - at_level: '3'
+          name: THUNDERSHOCK
+        - at_level: '6'
+          name: QUICKATTACK
+        - at_level: '8'
+          name: CHARGE
+        - at_level: '12'
+          name: NUZZLE
+        - at_level: '15'
+          name: DIG
+        - at_level: '19'
+          name: BITE
+        - at_level: '23'
+          name: SPARK
+        - at_level: '27'
+          name: THUNDERWAVE
+        - at_level: '32'
+          name: SLAM
+        - at_level: '38'
+          name: ENTRAINMENT
+        - at_level: '42'
+          name: DISCHARGE
+        - at_level: '46'
+          name: AGILITY
+        - at_level: '52'
+          name: WILDCHARGE
+    raw_egg_moves: []
+    raw_tms: []
+    compatible_egg_groups:
+        - 4
+    steps_to_hatch: 3855
+    height: 0.4
+    weight: 6.5
+    colour: Yellow
+    habitat:
+    kind: Mouse
+    pokedex_entry: When its group is attacked, Pawmo is the first to leap into battle,
+        defeating enemies with a fighting technique that utilizes electric shocks.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 12
+    battler_enemy_y: 12
+    battler_altitude: 0
+    evolutions:
+        - into_name: PAWMOT
+          condition: Item
+          parameter: THUNDERSTONE
+    form_names: []
+    regional_numbers:
+    shape:

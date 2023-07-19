@@ -1,0 +1,102 @@
+88:
+    name: Grimer
+    internal_name: GRIMER
+    base_stats:
+        hp: 80
+        atk: 80
+        def_: 50
+        spa: 40
+        spd: 50
+        spe: 25
+    primary_type: POISON
+    secondary_type:
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 65
+    ev_yield:
+        hp: 1
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 190
+    caught_happiness: 70
+    raw_abilities:
+        - STENCH
+        - STICKYHOLD
+    raw_hidden_ability: POISONTOUCH
+    raw_level_up_moves:
+        - at_level: '1'
+          name: POUND
+        - at_level: '1'
+          name: POISONGAS
+        - at_level: '4'
+          name: HARDEN
+        - at_level: '7'
+          name: MUDSLAP
+        - at_level: '12'
+          name: DISABLE
+        - at_level: '15'
+          name: SLUDGE
+        - at_level: '18'
+          name: MUDBOMB
+        - at_level: '21'
+          name: MINIMIZE
+        - at_level: '26'
+          name: FLING
+        - at_level: '29'
+          name: SLUDGEBOMB
+        - at_level: '32'
+          name: SLUDGEWAVE
+        - at_level: '37'
+          name: SCREECH
+        - at_level: '40'
+          name: GUNKSHOT
+        - at_level: '43'
+          name: ACIDARMOR
+        - at_level: '46'
+          name: BELCH
+        - at_level: '48'
+          name: MEMENTO
+    raw_egg_moves:
+        - ACIDSPRAY
+        - CURSE
+        - HAZE
+        - IMPRISON
+        - LICK
+        - MEANLOOK
+        - POWERUPPUNCH
+        - SCARYFACE
+        - SHADOWPUNCH
+        - SHADOWSNEAK
+        - SPITUP
+        - STOCKPILE
+        - SWALLOW
+    raw_tms: []
+    compatible_egg_groups:
+        - 10
+    steps_to_hatch: 5355
+    height: 0.9
+    weight: 30.0
+    colour: Purple
+    habitat: Urban
+    kind: Sludge
+    pokedex_entry: Born from polluted sludge in the sea, Grimer's favorite food is
+        anything filthy. They feed on wastewater pumped out from factories.
+    wild_items:
+        common:
+        uncommon: BLACKSLUDGE
+        rare:
+    battler_player_y: 28
+    battler_enemy_y: 24
+    battler_altitude: 0
+    evolutions:
+        - into_name: MUK
+          condition: Level
+          parameter: '38'
+    form_names:
+        - Normal
+        - Alternate
+    regional_numbers:
+    shape:

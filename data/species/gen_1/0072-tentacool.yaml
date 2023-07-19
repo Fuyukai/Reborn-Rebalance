@@ -1,0 +1,101 @@
+72:
+    name: Tentacool
+    internal_name: TENTACOOL
+    base_stats:
+        hp: 40
+        atk: 40
+        def_: 35
+        spa: 50
+        spd: 100
+        spe: 70
+    primary_type: WATER
+    secondary_type: POISON
+    gender_ratio: 3
+    growth_rate: 2
+    exp_yield: 67
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 1
+        spe: 0
+    catch_rate: 190
+    caught_happiness: 70
+    raw_abilities:
+        - CLEARBODY
+        - LIQUIDOOZE
+    raw_hidden_ability: RAINDISH
+    raw_level_up_moves:
+        - at_level: '1'
+          name: POISONSTING
+        - at_level: '4'
+          name: SUPERSONIC
+        - at_level: '7'
+          name: CONSTRICT
+        - at_level: '10'
+          name: ACID
+        - at_level: '13'
+          name: TOXICSPIKES
+        - at_level: '16'
+          name: WATERPULSE
+        - at_level: '19'
+          name: WRAP
+        - at_level: '22'
+          name: ACIDSPRAY
+        - at_level: '25'
+          name: BUBBLEBEAM
+        - at_level: '28'
+          name: BARRIER
+        - at_level: '31'
+          name: POISONJAB
+        - at_level: '34'
+          name: BRINE
+        - at_level: '37'
+          name: SCREECH
+        - at_level: '40'
+          name: HEX
+        - at_level: '43'
+          name: SLUDGEWAVE
+        - at_level: '46'
+          name: HYDROPUMP
+        - at_level: '49'
+          name: WRINGOUT
+    raw_egg_moves:
+        - ACUPRESSURE
+        - AQUARING
+        - AURORABEAM
+        - BUBBLE
+        - CONFUSERAY
+        - HAZE
+        - KNOCKOFF
+        - MIRRORCOAT
+        - MUDDYWATER
+        - RAPIDSPIN
+        - TICKLE
+    raw_tms: []
+    compatible_egg_groups:
+        - 8
+    steps_to_hatch: 5355
+    height: 0.9
+    weight: 45.5
+    colour: Blue
+    habitat: Sea
+    kind: Jellyfish
+    pokedex_entry: Its body is almost entirely composed of water. It ensnares its
+        foe with its two long tentacles, then stabs with the poison stingers at their
+        tips.
+    wild_items:
+        common:
+        uncommon: POISONBARB
+        rare:
+    battler_player_y: 21
+    battler_enemy_y: 13
+    battler_altitude: 8
+    evolutions:
+        - into_name: TENTACRUEL
+          condition: Level
+          parameter: '30'
+    form_names: []
+    regional_numbers:
+    shape:

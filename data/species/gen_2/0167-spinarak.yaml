@@ -1,0 +1,105 @@
+167:
+    name: Spinarak
+    internal_name: SPINARAK
+    base_stats:
+        hp: 40
+        atk: 60
+        def_: 40
+        spa: 40
+        spd: 40
+        spe: 30
+    primary_type: BUG
+    secondary_type: POISON
+    gender_ratio: 3
+    growth_rate: 0
+    exp_yield: 50
+    ev_yield:
+        hp: 0
+        atk: 1
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 255
+    caught_happiness: 70
+    raw_abilities:
+        - SWARM
+        - INSOMNIA
+    raw_hidden_ability: SNIPER
+    raw_level_up_moves:
+        - at_level: '1'
+          name: POISONSTING
+        - at_level: '1'
+          name: STRINGSHOT
+        - at_level: '1'
+          name: CONSTRICT
+        - at_level: '5'
+          name: ABSORB
+        - at_level: '8'
+          name: INFESTATION
+        - at_level: '12'
+          name: SCARYFACE
+        - at_level: '15'
+          name: NIGHTSHADE
+        - at_level: '19'
+          name: SHADOWSNEAK
+        - at_level: '22'
+          name: FURYSWIPES
+        - at_level: '26'
+          name: SUCKERPUNCH
+        - at_level: '29'
+          name: SPIDERWEB
+        - at_level: '33'
+          name: AGILITY
+        - at_level: '36'
+          name: PINMISSILE
+        - at_level: '40'
+          name: PSYCHIC
+        - at_level: '43'
+          name: POISONJAB
+        - at_level: '47'
+          name: CROSSPOISON
+        - at_level: '50'
+          name: STICKYWEB
+        - at_level: '54'
+          name: TOXICTHREAD
+    raw_egg_moves:
+        - BATONPASS
+        - DISABLE
+        - ELECTROWEB
+        - LUNGE
+        - MEGAHORN
+        - NIGHTSLASH
+        - PSYBEAM
+        - PURSUIT
+        - RAGEPOWDER
+        - SIGNALBEAM
+        - SONICBOOM
+        - TOXICSPIKES
+        - TWINEEDLE
+    raw_tms: []
+    compatible_egg_groups:
+        - 2
+    steps_to_hatch: 4080
+    height: 0.5
+    weight: 8.5
+    colour: Green
+    habitat: Forest
+    kind: String Spit
+    pokedex_entry: The web it spins can be considered its second nervous system. A
+        Spinarak can determine its prey by the tiny vibrations it feels through the
+        web.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 34
+    battler_enemy_y: 28
+    battler_altitude: 0
+    evolutions:
+        - into_name: ARIADOS
+          condition: Level
+          parameter: '22'
+    form_names: []
+    regional_numbers:
+    shape:

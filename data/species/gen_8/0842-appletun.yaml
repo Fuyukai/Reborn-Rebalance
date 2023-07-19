@@ -1,0 +1,93 @@
+842:
+    name: Appletun
+    internal_name: APPLETUN
+    base_stats:
+        hp: 110
+        atk: 85
+        def_: 80
+        spa: 100
+        spd: 80
+        spe: 30
+    primary_type: GRASS
+    secondary_type: DRAGON
+    gender_ratio: 3
+    growth_rate: 4
+    exp_yield: 170
+    ev_yield:
+        hp: 2
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 45
+    caught_happiness: 50
+    raw_abilities:
+        - RIPEN
+        - GLUTTONY
+    raw_hidden_ability: THICKFAT
+    raw_level_up_moves:
+        - at_level: '0'
+          name: HEADBUTT
+        - at_level: '1'
+          name: HEADBUTT
+        - at_level: '1'
+          name: RECYCLE
+        - at_level: '1'
+          name: WITHDRAW
+        - at_level: '1'
+          name: ASTONISH
+        - at_level: '1'
+          name: GROWTH
+        - at_level: '1'
+          name: TWISTER
+        - at_level: '4'
+          name: CURSE
+        - at_level: '8'
+          name: STOMP
+        - at_level: '12'
+          name: LEECHSEED
+        - at_level: '16'
+          name: PROTECT
+        - at_level: '20'
+          name: BULLETSEED
+        - at_level: '24'
+          name: RECOVER
+        - at_level: '28'
+          name: APPLEACID
+        - at_level: '32'
+          name: BODYSLAM
+        - at_level: '36'
+          name: IRONDEFENSE
+        - at_level: '40'
+          name: DRAGONPULSE
+        - at_level: '44'
+          name: ENERGYBALL
+    raw_egg_moves:
+        - SUCKERPUNCH
+        - ROLLOUT
+        - DEFENSECURL
+        - RECYCLE
+    raw_tms: []
+    compatible_egg_groups:
+        - 6
+        - 13
+    steps_to_hatch: 5120
+    height: 0.4
+    weight: 13.0
+    colour: Green
+    habitat:
+    kind: Apple Nectar
+    pokedex_entry: Its body is covered in sweet nectar, and the skin on its back is
+        especially yummy. Children used to have it as a snack.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 21
+    battler_enemy_y: 26
+    battler_altitude: 0
+    evolutions: []
+    form_names: []
+    regional_numbers: 842
+    shape:

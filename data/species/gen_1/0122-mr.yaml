@@ -1,0 +1,118 @@
+122:
+    name: Mr. Mime
+    internal_name: MRMIME
+    base_stats:
+        hp: 40
+        atk: 45
+        def_: 65
+        spa: 100
+        spd: 120
+        spe: 90
+    primary_type: PSYCHIC
+    secondary_type: FAIRY
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 161
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 2
+        spe: 0
+    catch_rate: 45
+    caught_happiness: 70
+    raw_abilities:
+        - SOUNDPROOF
+        - FILTER
+    raw_hidden_ability: TECHNICIAN
+    raw_level_up_moves:
+        - at_level: '1'
+          name: MISTYTERRAIN
+        - at_level: '1'
+          name: MAGICALLEAF
+        - at_level: '1'
+          name: QUICKGUARD
+        - at_level: '1'
+          name: WIDEGUARD
+        - at_level: '1'
+          name: POWERSWAP
+        - at_level: '1'
+          name: GUARDSWAP
+        - at_level: '1'
+          name: BARRIER
+        - at_level: '1'
+          name: POUND
+        - at_level: '1'
+          name: CONFUSION
+        - at_level: '4'
+          name: COPYCAT
+        - at_level: '8'
+          name: MEDITATE
+        - at_level: '11'
+          name: DOUBLESLAP
+        - at_level: '15'
+          name: MIMIC
+        - at_level: '15'
+          name: PSYWAVE
+        - at_level: '18'
+          name: ENCORE
+        - at_level: '22'
+          name: LIGHTSCREEN
+        - at_level: '22'
+          name: REFLECT
+        - at_level: '25'
+          name: PSYBEAM
+        - at_level: '29'
+          name: SUBSTITUTE
+        - at_level: '32'
+          name: RECYCLE
+        - at_level: '36'
+          name: TRICK
+        - at_level: '39'
+          name: PSYCHIC
+        - at_level: '43'
+          name: ROLEPLAY
+        - at_level: '46'
+          name: BATONPASS
+        - at_level: '50'
+          name: SAFEGUARD
+    raw_egg_moves:
+        - CONFUSERAY
+        - FAKEOUT
+        - FUTURESIGHT
+        - HYPNOSIS
+        - ICYWIND
+        - MAGICROOM
+        - MIMIC
+        - NASTYPLOT
+        - POWERSPLIT
+        - PSYCHICTERRAIN
+        - TEETERDANCE
+        - TRICK
+        - WAKEUPSLAP
+    raw_tms: []
+    compatible_egg_groups:
+        - 7
+    steps_to_hatch: 6630
+    height: 1.3
+    weight: 54.5
+    colour: Pink
+    habitat: Urban
+    kind: Barrier
+    pokedex_entry: A Mr. Mime is a master of pantomime. It can convince others that
+        something unseeable exists. Once believed, the imaginary object becomes real.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 22
+    battler_enemy_y: 14
+    battler_altitude: 0
+    evolutions:
+        - into_name: MRRIME
+          condition: Level
+          parameter: '42'
+    form_names: []
+    regional_numbers:
+    shape:

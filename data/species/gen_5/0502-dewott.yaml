@@ -1,0 +1,91 @@
+502:
+    name: Dewott
+    internal_name: DEWOTT
+    base_stats:
+        hp: 75
+        atk: 75
+        def_: 60
+        spa: 83
+        spd: 60
+        spe: 60
+    primary_type: WATER
+    secondary_type:
+    gender_ratio: 1
+    growth_rate: 3
+    exp_yield: 145
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 2
+        spd: 0
+        spe: 0
+    catch_rate: 45
+    caught_happiness: 70
+    raw_abilities:
+        - TORRENT
+        - SHELLARMOR
+    raw_hidden_ability:
+    raw_level_up_moves:
+        - at_level: '1'
+          name: TACKLE
+        - at_level: '1'
+          name: TAILWHIP
+        - at_level: '1'
+          name: WATERGUN
+        - at_level: '1'
+          name: WATERSPORT
+        - at_level: '5'
+          name: TAILWHIP
+        - at_level: '7'
+          name: WATERGUN
+        - at_level: '11'
+          name: WATERSPORT
+        - at_level: '13'
+          name: FOCUSENERGY
+        - at_level: '18'
+          name: RAZORSHELL
+        - at_level: '21'
+          name: FURYCUTTER
+        - at_level: '26'
+          name: WATERPULSE
+        - at_level: '29'
+          name: REVENGE
+        - at_level: '34'
+          name: AQUAJET
+        - at_level: '37'
+          name: ENCORE
+        - at_level: '42'
+          name: AQUATAIL
+        - at_level: '45'
+          name: RETALIATE
+        - at_level: '50'
+          name: SWORDSDANCE
+        - at_level: '53'
+          name: HYDROPUMP
+    raw_egg_moves: []
+    raw_tms: []
+    compatible_egg_groups:
+        - 4
+    steps_to_hatch: 5120
+    height: 0.8
+    weight: 24.5
+    colour: Blue
+    habitat:
+    kind: Discipline
+    pokedex_entry: Scalchop techniques differ from one Dewott to another. It never
+        neglects maintaining its scalchops.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 21
+    battler_enemy_y: 25
+    battler_altitude: 0
+    evolutions:
+        - into_name: SAMUROTT
+          condition: Level
+          parameter: '36'
+    form_names: []
+    regional_numbers:
+    shape:

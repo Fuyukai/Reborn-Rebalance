@@ -1,0 +1,94 @@
+293:
+    name: Whismur
+    internal_name: WHISMUR
+    base_stats:
+        hp: 64
+        atk: 51
+        def_: 23
+        spa: 51
+        spd: 23
+        spe: 28
+    primary_type: NORMAL
+    secondary_type:
+    gender_ratio: 3
+    growth_rate: 3
+    exp_yield: 48
+    ev_yield:
+        hp: 1
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 190
+    caught_happiness: 70
+    raw_abilities:
+        - SOUNDPROOF
+        - RATTLED
+    raw_hidden_ability:
+    raw_level_up_moves:
+        - at_level: '1'
+          name: POUND
+        - at_level: '4'
+          name: ECHOEDVOICE
+        - at_level: '8'
+          name: ASTONISH
+        - at_level: '11'
+          name: HOWL
+        - at_level: '15'
+          name: SCREECH
+        - at_level: '18'
+          name: SUPERSONIC
+        - at_level: '22'
+          name: STOMP
+        - at_level: '25'
+          name: UPROAR
+        - at_level: '29'
+          name: ROAR
+        - at_level: '32'
+          name: REST
+        - at_level: '36'
+          name: SLEEPTALK
+        - at_level: '39'
+          name: HYPERVOICE
+        - at_level: '43'
+          name: SYNCHRONOISE
+    raw_egg_moves:
+        - CIRCLETHROW
+        - DISARMINGVOICE
+        - ENDEAVOR
+        - EXTRASENSORY
+        - FAKETEARS
+        - HAMMERARM
+        - SMELLINGSALTS
+        - SMOKESCREEN
+        - SNORE
+        - TAKEDOWN
+        - WHIRLWIND
+    raw_tms: []
+    compatible_egg_groups:
+        - 0
+        - 4
+    steps_to_hatch: 5355
+    height: 0.6
+    weight: 16.3
+    colour: Pink
+    habitat: Cave
+    kind: Whisper
+    pokedex_entry: Its cries equal a jet plane in volume. It inhales through its ear
+        canals. Because of this, it can cry continually without having to catch its
+        breath.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 30
+    battler_enemy_y: 23
+    battler_altitude: 0
+    evolutions:
+        - into_name: LOUDRED
+          condition: Level
+          parameter: '20'
+    form_names: []
+    regional_numbers:
+    shape:

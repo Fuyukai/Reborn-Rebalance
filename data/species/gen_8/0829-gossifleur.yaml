@@ -1,0 +1,83 @@
+829:
+    name: Gossifleur
+    internal_name: GOSSIFLEUR
+    base_stats:
+        hp: 40
+        atk: 40
+        def_: 60
+        spa: 40
+        spd: 60
+        spe: 10
+    primary_type: GRASS
+    secondary_type:
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 50
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 1
+        spe: 0
+    catch_rate: 190
+    caught_happiness: 50
+    raw_abilities:
+        - COTTONDOWN
+        - REGENERATOR
+    raw_hidden_ability: EFFECTSPORE
+    raw_level_up_moves:
+        - at_level: '1'
+          name: LEAFAGE
+        - at_level: '1'
+          name: SING
+        - at_level: '4'
+          name: RAPIDSPIN
+        - at_level: '8'
+          name: SWEETSCENT
+        - at_level: '12'
+          name: RAZORLEAF
+        - at_level: '16'
+          name: ROUND
+        - at_level: '21'
+          name: LEAFTORNADO
+        - at_level: '24'
+          name: SYNTHESIS
+        - at_level: '28'
+          name: HYPERVOICE
+        - at_level: '32'
+          name: AROMATHERAPY
+        - at_level: '36'
+          name: LEAFSTORM
+    raw_egg_moves:
+        - GROWTH
+        - LEECHSEED
+        - WORRYSEED
+        - POISONPOWDER
+        - STUNSPORE
+        - SLEEPPOWDER
+    raw_tms: []
+    compatible_egg_groups:
+        - 6
+    steps_to_hatch: 5120
+    height: 0.4
+    weight: 2.2
+    colour: Green
+    habitat:
+    kind: Flowering
+    pokedex_entry: It whirls around in the wind while singing a joyous song. This
+        delightful display has charmed many into raising this Pokémon.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 21
+    battler_enemy_y: 26
+    battler_altitude: 0
+    evolutions:
+        - into_name: ELDEGOSS
+          condition: Level
+          parameter: '20'
+    form_names: []
+    regional_numbers: 829
+    shape:

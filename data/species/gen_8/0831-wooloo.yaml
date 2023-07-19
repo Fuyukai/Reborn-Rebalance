@@ -1,0 +1,82 @@
+831:
+    name: Wooloo
+    internal_name: WOOLOO
+    base_stats:
+        hp: 42
+        atk: 40
+        def_: 55
+        spa: 40
+        spd: 45
+        spe: 48
+    primary_type: NORMAL
+    secondary_type:
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 122
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 1
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 255
+    caught_happiness: 50
+    raw_abilities:
+        - FLUFFY
+        - RUNAWAY
+    raw_hidden_ability: BULLETPROOF
+    raw_level_up_moves:
+        - at_level: '1'
+          name: TACKLE
+        - at_level: '1'
+          name: GROWL
+        - at_level: '4'
+          name: DEFENSECURL
+        - at_level: '8'
+          name: COPYCAT
+        - at_level: '12'
+          name: GUARDSPLIT
+        - at_level: '16'
+          name: DOUBLEKICK
+        - at_level: '21'
+          name: HEADBUTT
+        - at_level: '25'
+          name: TAKEDOWN
+        - at_level: '28'
+          name: GUARDSWAP
+        - at_level: '32'
+          name: REVERSAL
+        - at_level: '36'
+          name: COTTONGUARD
+        - at_level: '40'
+          name: DOUBLEEDGE
+    raw_egg_moves:
+        - STOMP
+        - SWAGGER
+        - COUNTER
+    raw_tms: []
+    compatible_egg_groups:
+        - 4
+    steps_to_hatch: 3840
+    height: 0.6
+    weight: 6.0
+    colour: White
+    habitat:
+    kind: Sheep
+    pokedex_entry: If its fleece grows too long, Wooloo won't be able to move. Cloth
+        made with the wool of this Pokémon is surprisingly strong.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 21
+    battler_enemy_y: 26
+    battler_altitude: 0
+    evolutions:
+        - into_name: DUBWOOL
+          condition: Level
+          parameter: '24'
+    form_names: []
+    regional_numbers: 831
+    shape:

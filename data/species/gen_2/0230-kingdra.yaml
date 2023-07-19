@@ -1,0 +1,87 @@
+230:
+    name: Kingdra
+    internal_name: KINGDRA
+    base_stats:
+        hp: 75
+        atk: 95
+        def_: 95
+        spa: 95
+        spd: 95
+        spe: 85
+    primary_type: WATER
+    secondary_type: DRAGON
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 243
+    ev_yield:
+        hp: 0
+        atk: 1
+        def_: 0
+        spa: 1
+        spd: 1
+        spe: 0
+    catch_rate: 45
+    caught_happiness: 70
+    raw_abilities:
+        - SWIFTSWIM
+        - SNIPER
+    raw_hidden_ability: DAMP
+    raw_level_up_moves:
+        - at_level: '1'
+          name: HYDROPUMP
+        - at_level: '1'
+          name: YAWN
+        - at_level: '1'
+          name: BUBBLE
+        - at_level: '1'
+          name: SMOKESCREEN
+        - at_level: '1'
+          name: LEER
+        - at_level: '1'
+          name: WATERGUN
+        - at_level: '5'
+          name: SMOKESCREEN
+        - at_level: '9'
+          name: LEER
+        - at_level: '13'
+          name: WATERGUN
+        - at_level: '17'
+          name: TWISTER
+        - at_level: '21'
+          name: BUBBLEBEAM
+        - at_level: '26'
+          name: FOCUSENERGY
+        - at_level: '31'
+          name: BRINE
+        - at_level: '38'
+          name: AGILITY
+        - at_level: '45'
+          name: DRAGONPULSE
+        - at_level: '52'
+          name: DRAGONDANCE
+        - at_level: '60'
+          name: HYDROPUMP
+    raw_egg_moves: []
+    raw_tms: []
+    compatible_egg_groups:
+        - 1
+        - 13
+    steps_to_hatch: 5355
+    height: 1.8
+    weight: 152.0
+    colour: Blue
+    habitat: Sea
+    kind: Dragon
+    pokedex_entry: It sleeps quietly, deep on the seafloor. When it comes up to the
+        surface, it creates a huge whirlpool that can swallow even ships.
+    wild_items:
+        common:
+        uncommon: DRAGONSCALE
+        rare:
+    battler_player_y: 13
+    battler_enemy_y: 10
+    battler_altitude: 9
+    evolutions: []
+    form_names: []
+    regional_numbers:
+    shape:

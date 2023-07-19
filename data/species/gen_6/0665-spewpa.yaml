@@ -1,0 +1,61 @@
+665:
+    name: Spewpa
+    internal_name: SPEWPA
+    base_stats:
+        hp: 45
+        atk: 22
+        def_: 60
+        spa: 27
+        spd: 30
+        spe: 29
+    primary_type: BUG
+    secondary_type:
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 75
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 2
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 255
+    caught_happiness: 70
+    raw_abilities:
+        - SHEDSKIN
+        - FRIENDGUARD
+    raw_hidden_ability:
+    raw_level_up_moves:
+        - at_level: '0'
+          name: PROTECT
+        - at_level: '1'
+          name: HARDEN
+        - at_level: '15'
+          name: SILKTRAP
+    raw_egg_moves: []
+    raw_tms: []
+    compatible_egg_groups:
+        - 2
+    steps_to_hatch: 3840
+    height: 0.3
+    weight: 8.4
+    colour: Black
+    habitat:
+    kind: Scatterdust
+    pokedex_entry: It lives hidden within thicket shadows. When predators attack,
+        it quickly bristles the fur covering its body in an effort to threaten them.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 26
+    battler_enemy_y: 25
+    battler_altitude: 0
+    evolutions:
+        - into_name: VIVILLON
+          condition: Level
+          parameter: '12'
+    form_names: []
+    regional_numbers:
+    shape:

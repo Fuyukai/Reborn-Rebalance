@@ -1,0 +1,97 @@
+29:
+    name: Nidoran
+    internal_name: NIDORANfE
+    base_stats:
+        hp: 55
+        atk: 47
+        def_: 52
+        spa: 40
+        spd: 40
+        spe: 41
+    primary_type: POISON
+    secondary_type:
+    gender_ratio: 6
+    growth_rate: 3
+    exp_yield: 55
+    ev_yield:
+        hp: 1
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 235
+    caught_happiness: 70
+    raw_abilities:
+        - POISONPOINT
+        - RIVALRY
+    raw_hidden_ability: HUSTLE
+    raw_level_up_moves:
+        - at_level: '1'
+          name: GROWL
+        - at_level: '1'
+          name: SCRATCH
+        - at_level: '7'
+          name: TAILWHIP
+        - at_level: '9'
+          name: DOUBLEKICK
+        - at_level: '13'
+          name: POISONSTING
+        - at_level: '19'
+          name: FURYSWIPES
+        - at_level: '21'
+          name: BITE
+        - at_level: '25'
+          name: HELPINGHAND
+        - at_level: '31'
+          name: TOXICSPIKES
+        - at_level: '33'
+          name: FLATTER
+        - at_level: '37'
+          name: CRUNCH
+        - at_level: '43'
+          name: CAPTIVATE
+        - at_level: '45'
+          name: POISONFANG
+    raw_egg_moves:
+        - BEATUP
+        - CHARM
+        - CHIPAWAY
+        - COUNTER
+        - DISABLE
+        - ENDURE
+        - FOCUSENERGY
+        - IRONTAIL
+        - POISONTAIL
+        - PURSUIT
+        - SKULLBASH
+        - SUPERSONIC
+        - TAKEDOWN
+        - VENOMDRENCH
+    raw_tms: []
+    compatible_egg_groups:
+        - 0
+        - 4
+    steps_to_hatch: 5355
+    height: 0.4
+    weight: 7.0
+    colour: Blue
+    habitat: Grassland
+    kind: Poison Pin
+    pokedex_entry: Its highly toxic barbs are thought to have developed as protection
+        for this small-bodied Pokémon. When enraged, it releases a horrible toxin
+        from its horn.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 30
+    battler_enemy_y: 25
+    battler_altitude: 0
+    evolutions:
+        - into_name: NIDORINA
+          condition: Level
+          parameter: '16'
+    form_names: []
+    regional_numbers:
+    shape:

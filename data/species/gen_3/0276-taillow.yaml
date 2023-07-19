@@ -1,0 +1,95 @@
+276:
+    name: Taillow
+    internal_name: TAILLOW
+    base_stats:
+        hp: 40
+        atk: 55
+        def_: 30
+        spa: 30
+        spd: 30
+        spe: 85
+    primary_type: NORMAL
+    secondary_type: FLYING
+    gender_ratio: 3
+    growth_rate: 3
+    exp_yield: 54
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 1
+    catch_rate: 200
+    caught_happiness: 70
+    raw_abilities:
+        - GUTS
+        - SCRAPPY
+    raw_hidden_ability:
+    raw_level_up_moves:
+        - at_level: '1'
+          name: PECK
+        - at_level: '1'
+          name: GROWL
+        - at_level: '5'
+          name: FOCUSENERGY
+        - at_level: '9'
+          name: QUICKATTACK
+        - at_level: '13'
+          name: WINGATTACK
+        - at_level: '17'
+          name: DOUBLETEAM
+        - at_level: '21'
+          name: AERIALACE
+        - at_level: '25'
+          name: QUICKGUARD
+        - at_level: '29'
+          name: AGILITY
+        - at_level: '33'
+          name: AIRSLASH
+        - at_level: '37'
+          name: ENDEAVOR
+        - at_level: '41'
+          name: BRAVEBIRD
+        - at_level: '45'
+          name: REVERSAL
+    raw_egg_moves:
+        - BOOMBURST
+        - BRAVEBIRD
+        - DEFOG
+        - HURRICANE
+        - MIRRORMOVE
+        - PURSUIT
+        - RAGE
+        - REFRESH
+        - ROOST
+        - SKYATTACK
+        - STEELWING
+        - SUPERSONIC
+        - WHIRLWIND
+    raw_tms: []
+    compatible_egg_groups:
+        - 3
+    steps_to_hatch: 4080
+    height: 0.3
+    weight: 2.3
+    colour: Blue
+    habitat: Grassland
+    kind: TinySwallow
+    pokedex_entry: Although it is small, it is very courageous. It will take on a
+        larger Skarmory on an equal footing. However, its will weakens if it becomes
+        hungry.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 32
+    battler_enemy_y: 25
+    battler_altitude: 20
+    evolutions:
+        - into_name: SWELLOW
+          condition: Level
+          parameter: '22'
+    form_names: []
+    regional_numbers:
+    shape:

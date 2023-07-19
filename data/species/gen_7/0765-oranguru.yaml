@@ -1,0 +1,85 @@
+765:
+    name: Oranguru
+    internal_name: ORANGURU
+    base_stats:
+        hp: 90
+        atk: 60
+        def_: 80
+        spa: 90
+        spd: 110
+        spe: 60
+    primary_type: NORMAL
+    secondary_type: PSYCHIC
+    gender_ratio: 3
+    growth_rate: 2
+    exp_yield: 172
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 2
+        spe: 0
+    catch_rate: 45
+    caught_happiness: 70
+    raw_abilities:
+        - INNERFOCUS
+        - TELEPATHY
+    raw_hidden_ability: SYMBIOSIS
+    raw_level_up_moves:
+        - at_level: '1'
+          name: CONFUSION
+        - at_level: '4'
+          name: AFTERYOU
+        - at_level: '8'
+          name: TAUNT
+        - at_level: '11'
+          name: QUASH
+        - at_level: '15'
+          name: STOREDPOWER
+        - at_level: '18'
+          name: PSYCHUP
+        - at_level: '22'
+          name: FEINTATTACK
+        - at_level: '25'
+          name: NASTYPLOT
+        - at_level: '29'
+          name: ZENHEADBUTT
+        - at_level: '32'
+          name: INSTRUCT
+        - at_level: '36'
+          name: FOULPLAY
+        - at_level: '39'
+          name: CALMMIND
+        - at_level: '43'
+          name: PSYCHIC
+        - at_level: '46'
+          name: FUTURESIGHT
+        - at_level: '50'
+          name: TRICKROOM
+    raw_egg_moves:
+        - EXTRASENSORY
+        - PSYCHICTERRAIN
+        - WONDERROOM
+    raw_tms: []
+    compatible_egg_groups:
+        - 4
+    steps_to_hatch: 5120
+    height: 1.5
+    weight: 76.0
+    colour: White
+    habitat:
+    kind: Sage
+    pokedex_entry: Deep in the jungle, high in the lofty canopy, this Pokémon abides.
+        On rare occasions, it shows up at the beach to match wits with Slowking.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 16
+    battler_enemy_y: 25
+    battler_altitude: 0
+    evolutions: []
+    form_names: []
+    regional_numbers:
+    shape:

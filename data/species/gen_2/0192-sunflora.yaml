@@ -1,0 +1,90 @@
+192:
+    name: Sunflora
+    internal_name: SUNFLORA
+    base_stats:
+        hp: 75
+        atk: 75
+        def_: 55
+        spa: 105
+        spd: 85
+        spe: 30
+    primary_type: GRASS
+    secondary_type:
+    gender_ratio: 3
+    growth_rate: 3
+    exp_yield: 149
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 2
+        spd: 0
+        spe: 0
+    catch_rate: 120
+    caught_happiness: 70
+    raw_abilities:
+        - CHLOROPHYLL
+        - SOLARPOWER
+    raw_hidden_ability: SEEDSOWER
+    raw_level_up_moves:
+        - at_level: '1'
+          name: FLOWERSHIELD
+        - at_level: '1'
+          name: ABSORB
+        - at_level: '1'
+          name: POUND
+        - at_level: '1'
+          name: GROWTH
+        - at_level: '4'
+          name: INGRAIN
+        - at_level: '7'
+          name: GRASSWHISTLE
+        - at_level: '10'
+          name: MEGADRAIN
+        - at_level: '13'
+          name: LEECHSEED
+        - at_level: '16'
+          name: RAZORLEAF
+        - at_level: '19'
+          name: WORRYSEED
+        - at_level: '22'
+          name: GIGADRAIN
+        - at_level: '25'
+          name: BULLETSEED
+        - at_level: '28'
+          name: PETALDANCE
+        - at_level: '31'
+          name: NATURALGIFT
+        - at_level: '34'
+          name: SOLARBEAM
+        - at_level: '37'
+          name: DOUBLEEDGE
+        - at_level: '40'
+          name: SUNNYDAY
+        - at_level: '43'
+          name: LEAFSTORM
+        - at_level: '50'
+          name: PETALBLIZZARD
+    raw_egg_moves: []
+    raw_tms: []
+    compatible_egg_groups:
+        - 6
+    steps_to_hatch: 5355
+    height: 0.8
+    weight: 8.5
+    colour: Yellow
+    habitat: Grassland
+    kind: Sun
+    pokedex_entry: Sunflora convert solar energy into nutrition. They are highly active
+        in the warm daytime but suddenly stop moving as soon as the sun sets.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 21
+    battler_enemy_y: 18
+    battler_altitude: 0
+    evolutions: []
+    form_names: []
+    regional_numbers:
+    shape:

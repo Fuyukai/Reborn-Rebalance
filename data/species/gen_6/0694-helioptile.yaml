@@ -1,0 +1,86 @@
+694:
+    name: Helioptile
+    internal_name: HELIOPTILE
+    base_stats:
+        hp: 44
+        atk: 38
+        def_: 33
+        spa: 61
+        spd: 43
+        spe: 70
+    primary_type: ELECTRIC
+    secondary_type: NORMAL
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 58
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 1
+    catch_rate: 90
+    caught_happiness: 70
+    raw_abilities:
+        - DRYSKIN
+        - SANDVEIL
+    raw_hidden_ability: SOLARPOWER
+    raw_level_up_moves:
+        - at_level: '1'
+          name: POUND
+        - at_level: '1'
+          name: TAILWHIP
+        - at_level: '6'
+          name: THUNDERSHOCK
+        - at_level: '11'
+          name: CHARGE
+        - at_level: '13'
+          name: MUDSLAP
+        - at_level: '17'
+          name: QUICKATTACK
+        - at_level: '22'
+          name: RAZORWIND
+        - at_level: '25'
+          name: PARABOLICCHARGE
+        - at_level: '31'
+          name: THUNDERWAVE
+        - at_level: '35'
+          name: BULLDOZE
+        - at_level: '40'
+          name: VOLTSWITCH
+        - at_level: '45'
+          name: ELECTRIFY
+        - at_level: '49'
+          name: THUNDERBOLT
+    raw_egg_moves:
+        - AGILITY
+        - CAMOUFLAGE
+        - ELECTRICTERRAIN
+        - GLARE
+    raw_tms: []
+    compatible_egg_groups:
+        - 0
+        - 13
+    steps_to_hatch: 5120
+    height: 0.5
+    weight: 6.0
+    colour: Yellow
+    habitat:
+    kind: Generator
+    pokedex_entry: They make their home in deserts. They can generate their energy
+        from basking in the sun, so eating food is not a requirement.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 25
+    battler_enemy_y: 22
+    battler_altitude: 0
+    evolutions:
+        - into_name: HELIOLISK
+          condition: Item
+          parameter: SUNSTONE
+    form_names: []
+    regional_numbers:
+    shape:

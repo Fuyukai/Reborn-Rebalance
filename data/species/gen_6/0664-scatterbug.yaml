@@ -1,0 +1,66 @@
+664:
+    name: Scatterbug
+    internal_name: SCATTERBUG
+    base_stats:
+        hp: 38
+        atk: 35
+        def_: 40
+        spa: 27
+        spd: 25
+        spe: 35
+    primary_type: BUG
+    secondary_type:
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 40
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 1
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 255
+    caught_happiness: 70
+    raw_abilities:
+        - SHIELDDUST
+        - COMPOUNDEYES
+    raw_hidden_ability: FRIENDGUARD
+    raw_level_up_moves:
+        - at_level: '1'
+          name: TACKLE
+        - at_level: '1'
+          name: STRINGSHOT
+        - at_level: '6'
+          name: STUNSPORE
+        - at_level: '15'
+          name: BUGBITE
+    raw_egg_moves:
+        - POISONPOWDER
+        - RAGEPOWDER
+        - STUNSPORE
+    raw_tms: []
+    compatible_egg_groups:
+        - 2
+    steps_to_hatch: 3840
+    height: 0.3
+    weight: 2.5
+    colour: Black
+    habitat:
+    kind: Scatterdust
+    pokedex_entry: The powder that covers its body regulates its temperature, so it
+        can live in any region or climate.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 21
+    battler_enemy_y: 25
+    battler_altitude: 0
+    evolutions:
+        - into_name: SPEWPA
+          condition: Level
+          parameter: '9'
+    form_names: []
+    regional_numbers:
+    shape:

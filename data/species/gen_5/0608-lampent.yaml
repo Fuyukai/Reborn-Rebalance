@@ -1,0 +1,93 @@
+608:
+    name: Lampent
+    internal_name: LAMPENT
+    base_stats:
+        hp: 60
+        atk: 40
+        def_: 60
+        spa: 95
+        spd: 60
+        spe: 55
+    primary_type: GHOST
+    secondary_type: FIRE
+    gender_ratio: 3
+    growth_rate: 3
+    exp_yield: 130
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 2
+        spd: 0
+        spe: 0
+    catch_rate: 90
+    caught_happiness: 70
+    raw_abilities:
+        - FLASHFIRE
+        - FLAMEBODY
+    raw_hidden_ability: INFILTRATOR
+    raw_level_up_moves:
+        - at_level: '1'
+          name: EMBER
+        - at_level: '1'
+          name: ASTONISH
+        - at_level: '1'
+          name: MINIMIZE
+        - at_level: '1'
+          name: SMOG
+        - at_level: '3'
+          name: MINIMIZE
+        - at_level: '5'
+          name: SMOG
+        - at_level: '7'
+          name: FIRESPIN
+        - at_level: '10'
+          name: CONFUSERAY
+        - at_level: '13'
+          name: NIGHTSHADE
+        - at_level: '16'
+          name: WILLOWISP
+        - at_level: '20'
+          name: FLAMEBURST
+        - at_level: '24'
+          name: IMPRISON
+        - at_level: '28'
+          name: HEX
+        - at_level: '33'
+          name: MEMENTO
+        - at_level: '38'
+          name: INFERNO
+        - at_level: '45'
+          name: CURSE
+        - at_level: '53'
+          name: SHADOWBALL
+        - at_level: '61'
+          name: PAINSPLIT
+        - at_level: '69'
+          name: OVERHEAT
+    raw_egg_moves: []
+    raw_tms: []
+    compatible_egg_groups:
+        - 10
+    steps_to_hatch: 5120
+    height: 0.6
+    weight: 13.0
+    colour: White
+    habitat:
+    kind: Lamp
+    pokedex_entry: It arrives near the moment of death and steals the spirit from
+        the body.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 24
+    battler_enemy_y: 18
+    battler_altitude: 5
+    evolutions:
+        - into_name: CHANDELURE
+          condition: Item
+          parameter: DUSKSTONE
+    form_names: []
+    regional_numbers:
+    shape:

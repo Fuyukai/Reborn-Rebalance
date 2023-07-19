@@ -1,0 +1,93 @@
+447:
+    name: Riolu
+    internal_name: RIOLU
+    base_stats:
+        hp: 40
+        atk: 70
+        def_: 40
+        spa: 35
+        spd: 40
+        spe: 60
+    primary_type: FIGHTING
+    secondary_type:
+    gender_ratio: 1
+    growth_rate: 3
+    exp_yield: 57
+    ev_yield:
+        hp: 0
+        atk: 1
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 75
+    caught_happiness: 70
+    raw_abilities:
+        - STEADFAST
+        - INNERFOCUS
+    raw_hidden_ability: PRANKSTER
+    raw_level_up_moves:
+        - at_level: '1'
+          name: FORESIGHT
+        - at_level: '1'
+          name: QUICKATTACK
+        - at_level: '1'
+          name: ENDURE
+        - at_level: '6'
+          name: COUNTER
+        - at_level: '11'
+          name: FEINT
+        - at_level: '15'
+          name: FORCEPALM
+        - at_level: '19'
+          name: COPYCAT
+        - at_level: '24'
+          name: SCREECH
+        - at_level: '29'
+          name: REVERSAL
+        - at_level: '47'
+          name: NASTYPLOT
+        - at_level: '50'
+          name: FINALGAMBIT
+    raw_egg_moves:
+        - AGILITY
+        - BITE
+        - BLAZEKICK
+        - BULLETPUNCH
+        - CIRCLETHROW
+        - CROSSCHOP
+        - CRUNCH
+        - DETECT
+        - FOLLOWME
+        - HIJUMPKICK
+        - IRONDEFENSE
+        - LOWKICK
+        - METEORMASH
+        - MINDREADER
+        - SKYUPPERCUT
+        - VACUUMWAVE
+    raw_tms: []
+    compatible_egg_groups:
+        - 14
+    steps_to_hatch: 6630
+    height: 0.7
+    weight: 20.2
+    colour: Blue
+    habitat:
+    kind: Emanation
+    pokedex_entry: The aura that emanates from its body intensifies to alert others
+        if it is afraid or sad.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 27
+    battler_enemy_y: 20
+    battler_altitude: 0
+    evolutions:
+        - into_name: LUCARIO
+          condition: HappinessDay
+          parameter: ''
+    form_names: []
+    regional_numbers:
+    shape:

@@ -1,0 +1,86 @@
+959:
+    name: Frigibax
+    internal_name: FRIGIBAX
+    base_stats:
+        hp: 65
+        atk: 75
+        def_: 45
+        spa: 35
+        spd: 45
+        spe: 55
+    primary_type: DRAGON
+    secondary_type: ICE
+    gender_ratio: 3
+    growth_rate: 2
+    exp_yield: 50
+    ev_yield:
+        hp: 0
+        atk: 1
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 45
+    caught_happiness: 50
+    raw_abilities:
+        - THERMALEXCHANGE
+        - ICEBODY
+    raw_hidden_ability:
+    raw_level_up_moves:
+        - at_level: '1'
+          name: TACKLE
+        - at_level: '1'
+          name: LEER
+        - at_level: '1'
+          name: DRAGONTAIL
+        - at_level: '6'
+          name: ICYWIND
+        - at_level: '12'
+          name: DRAGONBREATH
+        - at_level: '18'
+          name: FOCUSENERGY
+        - at_level: '24'
+          name: BITE
+        - at_level: '29'
+          name: ICEFANG
+        - at_level: '32'
+          name: DRAGONCLAW
+        - at_level: '36'
+          name: TAKEDOWN
+        - at_level: '40'
+          name: ICEBEAM
+        - at_level: '44'
+          name: CRUNCH
+        - at_level: '48'
+          name: ICICLECRASH
+    raw_egg_moves:
+        - ICICLESPEAR
+        - AQUATAIL
+        - DRAGONRUSH
+        - FREEZEDRY
+    raw_tms: []
+    compatible_egg_groups:
+        - 13
+        - 9
+    steps_to_hatch: 10280
+    height: 0.5
+    weight: 17.0
+    colour: Gray
+    habitat:
+    kind: Ice Fin
+    pokedex_entry: Frigibax absorbs heat through its dorsal fin and converts the heat
+        into ice energy. The higher the temperature, the more energy Frigibax stores.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 16
+    battler_enemy_y: 12
+    battler_altitude: 0
+    evolutions:
+        - into_name: ARCTIBAX
+          condition: Level
+          parameter: '35'
+    form_names: []
+    regional_numbers:
+    shape:

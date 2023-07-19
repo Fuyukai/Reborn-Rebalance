@@ -1,0 +1,88 @@
+749:
+    name: Mudbray
+    internal_name: MUDBRAY
+    base_stats:
+        hp: 70
+        atk: 100
+        def_: 70
+        spa: 45
+        spd: 55
+        spe: 45
+    primary_type: GROUND
+    secondary_type:
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 77
+    ev_yield:
+        hp: 0
+        atk: 1
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 190
+    caught_happiness: 70
+    raw_abilities:
+        - OWNTEMPO
+        - STAMINA
+    raw_hidden_ability: INNERFOCUS
+    raw_level_up_moves:
+        - at_level: '1'
+          name: MUDSLAP
+        - at_level: '3'
+          name: MUDSPORT
+        - at_level: '8'
+          name: ROTOTILLER
+        - at_level: '10'
+          name: BULLDOZE
+        - at_level: '15'
+          name: DOUBLEKICK
+        - at_level: '17'
+          name: STOMP
+        - at_level: '22'
+          name: BIDE
+        - at_level: '24'
+          name: HIGHHORSEPOWER
+        - at_level: '29'
+          name: IRONDEFENSE
+        - at_level: '31'
+          name: HEAVYSLAM
+        - at_level: '36'
+          name: COUNTER
+        - at_level: '38'
+          name: EARTHQUAKE
+        - at_level: '43'
+          name: MEGAKICK
+        - at_level: '45'
+          name: SUPERPOWER
+    raw_egg_moves:
+        - BODYSLAM
+        - CLOSECOMBAT
+        - DOUBLEEDGE
+        - MAGNITUDE
+        - MUDBOMB
+    raw_tms: []
+    compatible_egg_groups:
+        - 4
+    steps_to_hatch: 5120
+    height: 1.0
+    weight: 110.0
+    colour: Brown
+    habitat:
+    kind: Donkey
+    pokedex_entry: It has a stubborn, individualistic disposition. Eating dirt, making
+        mud, and playing in the mire all form part of its daily routine.
+    wild_items:
+        common:
+        uncommon: LIGHTCLAY
+        rare:
+    battler_player_y: 21
+    battler_enemy_y: 20
+    battler_altitude: 0
+    evolutions:
+        - into_name: MUDSDALE
+          condition: Level
+          parameter: '30'
+    form_names: []
+    regional_numbers:
+    shape:

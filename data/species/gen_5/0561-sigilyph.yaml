@@ -1,0 +1,96 @@
+561:
+    name: Sigilyph
+    internal_name: SIGILYPH
+    base_stats:
+        hp: 72
+        atk: 58
+        def_: 80
+        spa: 103
+        spd: 80
+        spe: 97
+    primary_type: PSYCHIC
+    secondary_type: FLYING
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 172
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 2
+        spd: 0
+        spe: 0
+    catch_rate: 45
+    caught_happiness: 70
+    raw_abilities:
+        - WONDERSKIN
+        - MAGICGUARD
+    raw_hidden_ability: TINTEDLENS
+    raw_level_up_moves:
+        - at_level: '1'
+          name: GUST
+        - at_level: '1'
+          name: MIRACLEEYE
+        - at_level: '4'
+          name: HYPNOSIS
+        - at_level: '8'
+          name: PSYWAVE
+        - at_level: '11'
+          name: TAILWIND
+        - at_level: '14'
+          name: WHIRLWIND
+        - at_level: '18'
+          name: PSYBEAM
+        - at_level: '21'
+          name: AIRCUTTER
+        - at_level: '24'
+          name: LIGHTSCREEN
+        - at_level: '28'
+          name: REFLECT
+        - at_level: '31'
+          name: SYNCHRONOISE
+        - at_level: '34'
+          name: MIRRORMOVE
+        - at_level: '38'
+          name: GRAVITY
+        - at_level: '41'
+          name: AIRSLASH
+        - at_level: '44'
+          name: PSYCHIC
+        - at_level: '48'
+          name: COSMICPOWER
+        - at_level: '50'
+          name: SKYATTACK
+        - at_level: '55'
+          name: LUMINACRASH
+    raw_egg_moves:
+        - ANCIENTPOWER
+        - FUTURESIGHT
+        - PSYCHOSHIFT
+        - ROOST
+        - SKILLSWAP
+        - STEELWING
+        - STOREDPOWER
+        - LUMINACRASH
+    raw_tms: []
+    compatible_egg_groups:
+        - 3
+    steps_to_hatch: 5120
+    height: 1.4
+    weight: 14.0
+    colour: Black
+    habitat:
+    kind: Avianoid
+    pokedex_entry: The guardians of an ancient city, they use their psychic power
+        to attack enemies that invade their territory.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 4
+    battler_enemy_y: 11
+    battler_altitude: 17
+    evolutions: []
+    form_names: []
+    regional_numbers:
+    shape:

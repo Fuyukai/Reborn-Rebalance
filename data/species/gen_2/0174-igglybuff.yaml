@@ -1,0 +1,80 @@
+174:
+    name: Igglybuff
+    internal_name: IGGLYBUFF
+    base_stats:
+        hp: 90
+        atk: 30
+        def_: 15
+        spa: 40
+        spd: 20
+        spe: 15
+    primary_type: NORMAL
+    secondary_type: FAIRY
+    gender_ratio: 4
+    growth_rate: 0
+    exp_yield: 42
+    ev_yield:
+        hp: 1
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 170
+    caught_happiness: 70
+    raw_abilities:
+        - CUTECHARM
+        - COMPETITIVE
+    raw_hidden_ability: FRIENDGUARD
+    raw_level_up_moves:
+        - at_level: '1'
+          name: SING
+        - at_level: '1'
+          name: CHARM
+        - at_level: '3'
+          name: DEFENSECURL
+        - at_level: '5'
+          name: POUND
+        - at_level: '9'
+          name: SWEETKISS
+        - at_level: '11'
+          name: COPYCAT
+    raw_egg_moves:
+        - CAPTIVATE
+        - COVET
+        - FAKETEARS
+        - FEINTATTACK
+        - GRAVITY
+        - HEALPULSE
+        - LASTRESORT
+        - MISTYTERRAIN
+        - PERISHSONG
+        - PRESENT
+        - PUNISHMENT
+        - SLEEPTALK
+        - WISH
+    raw_tms: []
+    compatible_egg_groups:
+        - 14
+    steps_to_hatch: 2805
+    height: 0.3
+    weight: 1.0
+    colour: Pink
+    habitat: Grassland
+    kind: Balloon
+    pokedex_entry: Its soft and pliable body is very bouncy. When it sings continuously
+        with all its might, its body steadily turns a deepening pink color.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 32
+    battler_enemy_y: 27
+    battler_altitude: 0
+    evolutions:
+        - into_name: JIGGLYPUFF
+          condition: Happiness
+          parameter: ''
+    form_names: []
+    regional_numbers:
+    shape:

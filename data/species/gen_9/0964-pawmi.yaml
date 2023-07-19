@@ -1,0 +1,90 @@
+964:
+    name: Pawmi
+    internal_name: PAWMI
+    base_stats:
+        hp: 45
+        atk: 50
+        def_: 20
+        spa: 40
+        spd: 25
+        spe: 60
+    primary_type: ELECTRIC
+    secondary_type:
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 58
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 1
+    catch_rate: 190
+    caught_happiness: 50
+    raw_abilities:
+        - STATIC
+        - NATURALCURE
+    raw_hidden_ability: IRONFIST
+    raw_level_up_moves:
+        - at_level: '1'
+          name: SCRATCH
+        - at_level: '1'
+          name: GROWL
+        - at_level: '3'
+          name: THUNDERSHOCK
+        - at_level: '6'
+          name: QUICKATTACK
+        - at_level: '8'
+          name: CHARGE
+        - at_level: '12'
+          name: NUZZLE
+        - at_level: '15'
+          name: DIG
+        - at_level: '19'
+          name: BITE
+        - at_level: '23'
+          name: SPARK
+        - at_level: '27'
+          name: THUNDERWAVE
+        - at_level: '31'
+          name: ENTRAINMENT
+        - at_level: '35'
+          name: SLAM
+        - at_level: '38'
+          name: DISCHARGE
+        - at_level: '40'
+          name: AGILITY
+        - at_level: '44'
+          name: WILDCHARGE
+    raw_egg_moves:
+        - MACHPUNCH
+        - SWEETKISS
+        - FAKEOUT
+        - WISH
+    raw_tms: []
+    compatible_egg_groups:
+        - 4
+    steps_to_hatch: 3855
+    height: 0.3
+    weight: 2.5
+    colour: Yellow
+    habitat:
+    kind: Mouse
+    pokedex_entry: The pads of its paws are electricity-discharging organs. Pawmi
+        fires electricity from its forepaws while standing unsteadily on its hind
+        legs.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 10
+    battler_enemy_y: 12
+    battler_altitude: 0
+    evolutions:
+        - into_name: PAWMO
+          condition: Level
+          parameter: '18'
+    form_names: []
+    regional_numbers:
+    shape:

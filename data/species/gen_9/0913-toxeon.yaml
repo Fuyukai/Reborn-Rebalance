@@ -1,0 +1,90 @@
+913:
+    name: Toxeon
+    internal_name: TOXEON
+    base_stats:
+        hp: 95
+        atk: 130
+        def_: 65
+        spa: 65
+        spd: 60
+        spe: 110
+    primary_type: POISON
+    secondary_type:
+    gender_ratio: 1
+    growth_rate: 1
+    exp_yield: 184
+    ev_yield:
+        hp: 0
+        atk: 2
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 45
+    caught_happiness: 50
+    raw_abilities:
+        - CORROSION
+        - POISONTOUCH
+    raw_hidden_ability: MERCILESS
+    raw_level_up_moves:
+        - at_level: '0'
+          name: POISONTAIL
+        - at_level: '1'
+          name: POISONTAIL
+        - at_level: '1'
+          name: TACKLE
+        - at_level: '1'
+          name: TAILWHIP
+        - at_level: '1'
+          name: HELPINGHAND
+        - at_level: '5'
+          name: SANDATTACK
+        - at_level: '9'
+          name: ACID
+        - at_level: '14'
+          name: QUICKATTACK
+        - at_level: '19'
+          name: BITE
+        - at_level: '25'
+          name: POISONFANG
+        - at_level: '29'
+          name: ACIDSPRAY
+        - at_level: '34'
+          name: POISONGAS
+        - at_level: '39'
+          name: CROSSPOISON
+        - at_level: '41'
+          name: LASTRESORT
+        - at_level: '45'
+          name: POISONJAB
+        - at_level: '49'
+          name: VENOMDRENCH
+        - at_level: '54'
+          name: ACIDARMOR
+        - at_level: '60'
+          name: GUNKSHOT
+        - at_level: '65'
+          name: TOXIC
+    raw_egg_moves: []
+    raw_tms: []
+    compatible_egg_groups:
+        - 4
+    steps_to_hatch: 5255
+    height: 1.0
+    weight: 27.2
+    colour: Purple
+    habitat: Urban
+    kind: Chemical
+    pokedex_entry: The poison it emits can even melt steel. The tails are used to
+        prevent prey from escaping.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 24
+    battler_enemy_y: 17
+    battler_altitude: 0
+    evolutions: []
+    form_names: []
+    regional_numbers:
+    shape:

@@ -1,0 +1,91 @@
+737:
+    name: Charjabug
+    internal_name: CHARJABUG
+    base_stats:
+        hp: 57
+        atk: 82
+        def_: 95
+        spa: 55
+        spd: 75
+        spe: 36
+    primary_type: BUG
+    secondary_type: ELECTRIC
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 140
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 2
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 120
+    caught_happiness: 70
+    raw_abilities:
+        - BATTERY
+    raw_hidden_ability:
+    raw_level_up_moves:
+        - at_level: '0'
+          name: CHARGE
+        - at_level: '1'
+          name: VICEGRIP
+        - at_level: '1'
+          name: STRINGSHOT
+        - at_level: '1'
+          name: MUDSLAP
+        - at_level: '1'
+          name: BITE
+        - at_level: '4'
+          name: STRINGSHOT
+        - at_level: '7'
+          name: MUDSLAP
+        - at_level: '10'
+          name: BITE
+        - at_level: '13'
+          name: BUGBITE
+        - at_level: '16'
+          name: SPARK
+        - at_level: '19'
+          name: ACROBATICS
+        - at_level: '25'
+          name: CRUNCH
+        - at_level: '29'
+          name: STICKYWEB
+        - at_level: '32'
+          name: XSCISSOR
+        - at_level: '37'
+          name: DIG
+        - at_level: '43'
+          name: DISCHARGE
+        - at_level: '49'
+          name: IRONDEFENSE
+    raw_egg_moves: []
+    raw_tms: []
+    compatible_egg_groups:
+        - 2
+    steps_to_hatch: 3840
+    height: 0.5
+    weight: 10.5
+    colour: Green
+    habitat:
+    kind: Battery
+    pokedex_entry: Its body is capable of storing electricity. On camping trips, people
+        are grateful to have one around.
+    wild_items:
+        common:
+        uncommon: CELLBATTERY
+        rare:
+    battler_player_y: 20
+    battler_enemy_y: 23
+    battler_altitude: 0
+    evolutions:
+        - into_name: VIKAVOLT
+          condition: Location
+          parameter: '281'
+        - into_name: VIKAVOLT
+          condition: Item
+          parameter: THUNDERSTONE
+    form_names: []
+    regional_numbers:
+    shape:

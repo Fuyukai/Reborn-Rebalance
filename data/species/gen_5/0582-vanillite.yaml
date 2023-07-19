@@ -1,0 +1,93 @@
+582:
+    name: Vanillite
+    internal_name: VANILLITE
+    base_stats:
+        hp: 36
+        atk: 50
+        def_: 50
+        spa: 65
+        spd: 60
+        spe: 44
+    primary_type: ICE
+    secondary_type:
+    gender_ratio: 3
+    growth_rate: 2
+    exp_yield: 61
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 1
+        spd: 0
+        spe: 0
+    catch_rate: 255
+    caught_happiness: 70
+    raw_abilities:
+        - ICEBODY
+        - SNOWCLOAK
+    raw_hidden_ability: WEAKARMOR
+    raw_level_up_moves:
+        - at_level: '1'
+          name: ICICLESPEAR
+        - at_level: '4'
+          name: HARDEN
+        - at_level: '7'
+          name: ASTONISH
+        - at_level: '10'
+          name: UPROAR
+        - at_level: '13'
+          name: ICYWIND
+        - at_level: '16'
+          name: MIST
+        - at_level: '19'
+          name: AVALANCHE
+        - at_level: '22'
+          name: TAUNT
+        - at_level: '26'
+          name: MIRRORSHOT
+        - at_level: '31'
+          name: ACIDARMOR
+        - at_level: '35'
+          name: ICEBEAM
+        - at_level: '40'
+          name: HAIL
+        - at_level: '44'
+          name: MIRRORCOAT
+        - at_level: '49'
+          name: BLIZZARD
+        - at_level: '53'
+          name: SHEERCOLD
+    raw_egg_moves:
+        - AUTOTOMIZE
+        - ICESHARD
+        - IMPRISON
+        - IRONDEFENSE
+        - MAGNETRISE
+        - NATURALGIFT
+        - POWDERSNOW
+        - WATERPULSE
+    raw_tms: []
+    compatible_egg_groups:
+        - 9
+    steps_to_hatch: 5120
+    height: 0.4
+    weight: 5.7
+    colour: White
+    habitat:
+    kind: Fresh Snow
+    pokedex_entry: This Pokémon formed from icicles bathed in energy from the morning
+        sun. It sleeps buried in snow.
+    wild_items:
+        common:
+        uncommon: NEVERMELTICE
+        rare:
+    battler_player_y: 25
+    battler_enemy_y: 32
+    battler_altitude: 0
+    evolutions:
+        - into_name: VANILLISH
+          condition: Level
+          parameter: '35'
+    form_names: []
+    regional_numbers:
+    shape:

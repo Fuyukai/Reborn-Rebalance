@@ -1,0 +1,85 @@
+651:
+    name: Quilladin
+    internal_name: QUILLADIN
+    base_stats:
+        hp: 61
+        atk: 78
+        def_: 95
+        spa: 56
+        spd: 58
+        spe: 57
+    primary_type: GRASS
+    secondary_type:
+    gender_ratio: 1
+    growth_rate: 3
+    exp_yield: 142
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 2
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 45
+    caught_happiness: 70
+    raw_abilities:
+        - OVERGROW
+        - BULLETPROOF
+    raw_hidden_ability:
+    raw_level_up_moves:
+        - at_level: '0'
+          name: NEEDLEARM
+        - at_level: '1'
+          name: GROWL
+        - at_level: '1'
+          name: VINEWHIP
+        - at_level: '5'
+          name: VINEWHIP
+        - at_level: '8'
+          name: ROLLOUT
+        - at_level: '11'
+          name: BITE
+        - at_level: '15'
+          name: LEECHSEED
+        - at_level: '19'
+          name: PINMISSILE
+        - at_level: '29'
+          name: TAKEDOWN
+        - at_level: '35'
+          name: SEEDBOMB
+        - at_level: '39'
+          name: MUDSHOT
+        - at_level: '44'
+          name: BULKUP
+        - at_level: '48'
+          name: BODYSLAM
+        - at_level: '52'
+          name: PAINSPLIT
+        - at_level: '56'
+          name: WOODHAMMER
+    raw_egg_moves: []
+    raw_tms: []
+    compatible_egg_groups:
+        - 4
+    steps_to_hatch: 5120
+    height: 0.7
+    weight: 29.0
+    colour: Green
+    habitat:
+    kind: Spiky Armor
+    pokedex_entry: They strengthen their lower bodies by running into one another.
+        They are very kind and won't start fights.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 21
+    battler_enemy_y: 17
+    battler_altitude: 0
+    evolutions:
+        - into_name: CHESNAUGHT
+          condition: Level
+          parameter: '36'
+    form_names: []
+    regional_numbers:
+    shape:

@@ -1,0 +1,91 @@
+110:
+    name: Weezing
+    internal_name: WEEZING
+    base_stats:
+        hp: 65
+        atk: 90
+        def_: 120
+        spa: 85
+        spd: 70
+        spe: 60
+    primary_type: POISON
+    secondary_type:
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 172
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 2
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 60
+    caught_happiness: 70
+    raw_abilities:
+        - LEVITATE
+        - NEUTRALIZINGGAS
+    raw_hidden_ability: STENCH
+    raw_level_up_moves:
+        - at_level: '0'
+          name: DOUBLEHIT
+        - at_level: '1'
+          name: POISONGAS
+        - at_level: '1'
+          name: TACKLE
+        - at_level: '1'
+          name: SMOG
+        - at_level: '1'
+          name: SMOKESCREEN
+        - at_level: '4'
+          name: SMOG
+        - at_level: '7'
+          name: SMOKESCREEN
+        - at_level: '12'
+          name: ASSURANCE
+        - at_level: '15'
+          name: CLEARSMOG
+        - at_level: '18'
+          name: SLUDGE
+        - at_level: '23'
+          name: SELFDESTRUCT
+        - at_level: '26'
+          name: HAZE
+        - at_level: '29'
+          name: GYROBALL
+        - at_level: '34'
+          name: SLUDGEBOMB
+        - at_level: '40'
+          name: EXPLOSION
+        - at_level: '46'
+          name: DESTINYBOND
+        - at_level: '51'
+          name: BELCH
+        - at_level: '57'
+          name: MEMENTO
+        - at_level: '60'
+          name: CORROSIVEGAS
+    raw_egg_moves: []
+    raw_tms: []
+    compatible_egg_groups:
+        - 10
+    steps_to_hatch: 5355
+    height: 1.2
+    weight: 9.5
+    colour: Purple
+    habitat: Urban
+    kind: Poison Gas
+    pokedex_entry: By diluting its toxic gases with a special process, the highest
+        grade of perfume can be extracted. To Weezing, gases from garbage are the
+        ultimate feast.
+    wild_items:
+        common:
+        uncommon: SMOKEBALL
+        rare:
+    battler_player_y: 21
+    battler_enemy_y: 6
+    battler_altitude: 8
+    evolutions: []
+    form_names: []
+    regional_numbers:
+    shape:

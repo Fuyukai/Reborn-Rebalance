@@ -1,0 +1,86 @@
+967:
+    name: Wattrel
+    internal_name: WATTREL
+    base_stats:
+        hp: 40
+        atk: 40
+        def_: 35
+        spa: 55
+        spd: 40
+        spe: 70
+    primary_type: ELECTRIC
+    secondary_type: FLYING
+    gender_ratio: 3
+    growth_rate: 3
+    exp_yield: 64
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 1
+    catch_rate: 180
+    caught_happiness: 50
+    raw_abilities:
+        - WINDPOWER
+        - VOLTABSORB
+    raw_hidden_ability: COMPETITIVE
+    raw_level_up_moves:
+        - at_level: '1'
+          name: GROWL
+        - at_level: '1'
+          name: PECK
+        - at_level: '4'
+          name: THUNDERSHOCK
+        - at_level: '7'
+          name: QUICKATTACK
+        - at_level: '11'
+          name: PLUCK
+        - at_level: '15'
+          name: SPARK
+        - at_level: '19'
+          name: UPROAR
+        - at_level: '23'
+          name: ROOST
+        - at_level: '27'
+          name: DUALWINGBEAT
+        - at_level: '32'
+          name: AGILITY
+        - at_level: '37'
+          name: VOLTSWITCH
+        - at_level: '43'
+          name: DISCHARGE
+    raw_egg_moves:
+        - STOCKPILE
+        - SPITUP
+        - SWALLOW
+        - ENDEAVOR
+        - FEATHERDANCE
+        - WEATHERBALL
+    raw_tms: []
+    compatible_egg_groups:
+        - 1
+        - 3
+    steps_to_hatch: 5140
+    height: 0.4
+    weight: 3.6
+    colour: Black
+    habitat:
+    kind: Storm Petrel
+    pokedex_entry: These Pokémon make their nests on coastal cliffs. The nests have
+        a strange, crackling texture, and they're a popular delicacy.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 12
+    battler_enemy_y: 12
+    battler_altitude: 0
+    evolutions:
+        - into_name: KILOWATTREL
+          condition: Level
+          parameter: '25'
+    form_names: []
+    regional_numbers:
+    shape:

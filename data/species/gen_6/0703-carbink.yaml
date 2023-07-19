@@ -1,0 +1,87 @@
+703:
+    name: Carbink
+    internal_name: CARBINK
+    base_stats:
+        hp: 50
+        atk: 50
+        def_: 150
+        spa: 50
+        spd: 150
+        spe: 50
+    primary_type: ROCK
+    secondary_type: FAIRY
+    gender_ratio: 7
+    growth_rate: 2
+    exp_yield: 100
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 1
+        spa: 0
+        spd: 1
+        spe: 0
+    catch_rate: 30
+    caught_happiness: 70
+    raw_abilities:
+        - CLEARBODY
+        - STURDY
+    raw_hidden_ability:
+    raw_level_up_moves:
+        - at_level: '1'
+          name: TACKLE
+        - at_level: '1'
+          name: HARDEN
+        - at_level: '5'
+          name: ROCKTHROW
+        - at_level: '8'
+          name: SHARPEN
+        - at_level: '12'
+          name: SMACKDOWN
+        - at_level: '18'
+          name: REFLECT
+        - at_level: '21'
+          name: STEALTHROCK
+        - at_level: '27'
+          name: GUARDSPLIT
+        - at_level: '31'
+          name: ANCIENTPOWER
+        - at_level: '35'
+          name: FLAIL
+        - at_level: '40'
+          name: SKILLSWAP
+        - at_level: '46'
+          name: POWERGEM
+        - at_level: '49'
+          name: STONEEDGE
+        - at_level: '50'
+          name: MOONBLAST
+        - at_level: '60'
+          name: LIGHTSCREEN
+        - at_level: '70'
+          name: SAFEGUARD
+        - at_level: '80'
+          name: MISTYEXPLOSION
+    raw_egg_moves: []
+    raw_tms: []
+    compatible_egg_groups:
+        - 5
+        - 9
+    steps_to_hatch: 6400
+    height: 0.3
+    weight: 5.7
+    colour: Gray
+    habitat:
+    kind: Jewel
+    pokedex_entry: It has slept underground for hundreds of millions of years since
+        its birth. It is occasionally found during the excavation of caves.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 25
+    battler_enemy_y: 19
+    battler_altitude: 11
+    evolutions: []
+    form_names: []
+    regional_numbers:
+    shape:

@@ -1,0 +1,84 @@
+603:
+    name: Eelektrik
+    internal_name: EELEKTRIK
+    base_stats:
+        hp: 65
+        atk: 85
+        def_: 70
+        spa: 75
+        spd: 70
+        spe: 40
+    primary_type: ELECTRIC
+    secondary_type:
+    gender_ratio: 3
+    growth_rate: 2
+    exp_yield: 142
+    ev_yield:
+        hp: 0
+        atk: 2
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 60
+    caught_happiness: 70
+    raw_abilities:
+        - LEVITATE
+    raw_hidden_ability:
+    raw_level_up_moves:
+        - at_level: '0'
+          name: CRUNCH
+        - at_level: '1'
+          name: HEADBUTT
+        - at_level: '1'
+          name: THUNDERWAVE
+        - at_level: '1'
+          name: SPARK
+        - at_level: '1'
+          name: CHARGEBEAM
+        - at_level: '9'
+          name: BIND
+        - at_level: '19'
+          name: ACID
+        - at_level: '29'
+          name: DISCHARGE
+        - at_level: '44'
+          name: THUNDERBOLT
+        - at_level: '49'
+          name: ACIDSPRAY
+        - at_level: '54'
+          name: COIL
+        - at_level: '59'
+          name: WILDCHARGE
+        - at_level: '64'
+          name: GASTROACID
+        - at_level: '69'
+          name: ZAPCANNON
+        - at_level: '74'
+          name: THRASH
+    raw_egg_moves: []
+    raw_tms: []
+    compatible_egg_groups:
+        - 10
+    steps_to_hatch: 5120
+    height: 1.2
+    weight: 22.0
+    colour: Blue
+    habitat:
+    kind: Elefish
+    pokedex_entry: These Pokémon have a big appetite. When they spot their prey, they
+        attack it and paralyze it with electricity.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 14
+    battler_enemy_y: 11
+    battler_altitude: 5
+    evolutions:
+        - into_name: EELEKTROSS
+          condition: Item
+          parameter: THUNDERSTONE
+    form_names: []
+    regional_numbers:
+    shape:

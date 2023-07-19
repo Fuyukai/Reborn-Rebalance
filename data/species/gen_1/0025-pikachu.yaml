@@ -1,0 +1,99 @@
+25:
+    name: Pikachu
+    internal_name: PIKACHU
+    base_stats:
+        hp: 35
+        atk: 55
+        def_: 40
+        spa: 50
+        spd: 50
+        spe: 90
+    primary_type: ELECTRIC
+    secondary_type:
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 105
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 2
+    catch_rate: 190
+    caught_happiness: 70
+    raw_abilities:
+        - STATIC
+        - LIGHTNINGROD
+    raw_hidden_ability:
+    raw_level_up_moves:
+        - at_level: '1'
+          name: EXTREMESPEED
+        - at_level: '1'
+          name: SING
+        - at_level: '1'
+          name: YAWN
+        - at_level: '1'
+          name: TAILWHIP
+        - at_level: '1'
+          name: THUNDERSHOCK
+        - at_level: '5'
+          name: GROWL
+        - at_level: '7'
+          name: PLAYNICE
+        - at_level: '10'
+          name: QUICKATTACK
+        - at_level: '13'
+          name: ELECTROBALL
+        - at_level: '18'
+          name: THUNDERWAVE
+        - at_level: '21'
+          name: FEINT
+        - at_level: '23'
+          name: DOUBLETEAM
+        - at_level: '26'
+          name: SPARK
+        - at_level: '29'
+          name: NUZZLE
+        - at_level: '34'
+          name: DISCHARGE
+        - at_level: '37'
+          name: SLAM
+        - at_level: '42'
+          name: THUNDERBOLT
+        - at_level: '45'
+          name: AGILITY
+        - at_level: '50'
+          name: WILDCHARGE
+        - at_level: '53'
+          name: LIGHTSCREEN
+        - at_level: '58'
+          name: THUNDER
+    raw_egg_moves: []
+    raw_tms: []
+    compatible_egg_groups:
+        - 4
+        - 5
+    steps_to_hatch: 2805
+    height: 0.4
+    weight: 6.0
+    colour: Yellow
+    habitat: Forest
+    kind: Mouse
+    pokedex_entry: It stores electricity in the electric sacs on its cheeks. When
+        it releases pent-up energy in a burst, the electric power is equal to a lightning
+        bolt.
+    wild_items:
+        common:
+        uncommon:
+        rare: LIGHTBALL
+    battler_player_y: 27
+    battler_enemy_y: 16
+    battler_altitude: 0
+    evolutions:
+        - into_name: RAICHU
+          condition: Item
+          parameter: THUNDERSTONE
+    form_names: []
+    regional_numbers:
+    shape:

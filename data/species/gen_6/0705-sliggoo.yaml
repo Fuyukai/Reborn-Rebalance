@@ -1,0 +1,79 @@
+705:
+    name: Sliggoo
+    internal_name: SLIGGOO
+    base_stats:
+        hp: 68
+        atk: 75
+        def_: 53
+        spa: 83
+        spd: 113
+        spe: 60
+    primary_type: DRAGON
+    secondary_type:
+    gender_ratio: 3
+    growth_rate: 2
+    exp_yield: 158
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 2
+        spe: 0
+    catch_rate: 20
+    caught_happiness: 70
+    raw_abilities:
+        - SAPSIPPER
+        - HYDRATION
+    raw_hidden_ability: GOOEY
+    raw_level_up_moves:
+        - at_level: '1'
+          name: TACKLE
+        - at_level: '1'
+          name: BUBBLE
+        - at_level: '1'
+          name: ABSORB
+        - at_level: '5'
+          name: ABSORB
+        - at_level: '9'
+          name: PROTECT
+        - at_level: '13'
+          name: BIDE
+        - at_level: '18'
+          name: DRAGONBREATH
+        - at_level: '25'
+          name: RAINDANCE
+        - at_level: '28'
+          name: FLAIL
+        - at_level: '32'
+          name: BODYSLAM
+        - at_level: '38'
+          name: MUDDYWATER
+        - at_level: '47'
+          name: DRAGONPULSE
+    raw_egg_moves: []
+    raw_tms: []
+    compatible_egg_groups:
+        - 13
+    steps_to_hatch: 10240
+    height: 0.8
+    weight: 17.5
+    colour: Purple
+    habitat:
+    kind: Soft Tissue
+    pokedex_entry: It drives away opponents by excreting a sticky liquid that can
+        dissolve anything. Its eyes devolved, so it can't see anything.
+    wild_items:
+        common:
+        uncommon: SHEDSHELL
+        rare:
+    battler_player_y: 19
+    battler_enemy_y: 17
+    battler_altitude: 0
+    evolutions:
+        - into_name: GOODRA
+          condition: LevelRain
+          parameter: '50'
+    form_names: []
+    regional_numbers:
+    shape:

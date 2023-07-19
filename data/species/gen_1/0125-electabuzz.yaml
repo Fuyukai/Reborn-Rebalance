@@ -1,0 +1,85 @@
+125:
+    name: Electabuzz
+    internal_name: ELECTABUZZ
+    base_stats:
+        hp: 65
+        atk: 83
+        def_: 57
+        spa: 95
+        spd: 85
+        spe: 105
+    primary_type: ELECTRIC
+    secondary_type:
+    gender_ratio: 2
+    growth_rate: 1
+    exp_yield: 172
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 2
+    catch_rate: 45
+    caught_happiness: 70
+    raw_abilities:
+        - STATIC
+        - VITALSPIRIT
+    raw_hidden_ability:
+    raw_level_up_moves:
+        - at_level: '1'
+          name: QUICKATTACK
+        - at_level: '1'
+          name: LEER
+        - at_level: '1'
+          name: THUNDERSHOCK
+        - at_level: '5'
+          name: THUNDERSHOCK
+        - at_level: '8'
+          name: LOWKICK
+        - at_level: '12'
+          name: SWIFT
+        - at_level: '15'
+          name: SHOCKWAVE
+        - at_level: '19'
+          name: THUNDERWAVE
+        - at_level: '22'
+          name: ELECTROBALL
+        - at_level: '26'
+          name: LIGHTSCREEN
+        - at_level: '29'
+          name: THUNDERPUNCH
+        - at_level: '36'
+          name: DISCHARGE
+        - at_level: '42'
+          name: SCREECH
+        - at_level: '49'
+          name: THUNDERBOLT
+        - at_level: '55'
+          name: THUNDER
+    raw_egg_moves: []
+    raw_tms: []
+    compatible_egg_groups:
+        - 7
+    steps_to_hatch: 6630
+    height: 1.1
+    weight: 30.0
+    colour: Yellow
+    habitat: Grassland
+    kind: Electric
+    pokedex_entry: Electricity permeates its body. It swings its arms round and round
+        to charge up electricity before unleashing a punch.
+    wild_items:
+        common:
+        uncommon: ELECTIRIZER
+        rare:
+    battler_player_y: 18
+    battler_enemy_y: 11
+    battler_altitude: 0
+    evolutions:
+        - into_name: ELECTIVIRE
+          condition: TradeItem
+          parameter: ELECTIRIZER
+    form_names: []
+    regional_numbers:
+    shape:

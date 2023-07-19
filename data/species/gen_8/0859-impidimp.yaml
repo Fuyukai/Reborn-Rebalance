@@ -1,0 +1,82 @@
+859:
+    name: Impidimp
+    internal_name: IMPIDIMP
+    base_stats:
+        hp: 45
+        atk: 45
+        def_: 30
+        spa: 55
+        spd: 40
+        spe: 50
+    primary_type: DARK
+    secondary_type: FAIRY
+    gender_ratio: 0
+    growth_rate: 1
+    exp_yield: 53
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 1
+        spd: 0
+        spe: 0
+    catch_rate: 255
+    caught_happiness: 50
+    raw_abilities:
+        - PRANKSTER
+        - FRISK
+    raw_hidden_ability: PICKPOCKET
+    raw_level_up_moves:
+        - at_level: '1'
+          name: FAKEOUT
+        - at_level: '1'
+          name: CONFIDE
+        - at_level: '4'
+          name: BITE
+        - at_level: '8'
+          name: FLATTER
+        - at_level: '12'
+          name: FAKETEARS
+        - at_level: '16'
+          name: ASSURANCE
+        - at_level: '20'
+          name: SWAGGER
+        - at_level: '24'
+          name: SUCKERPUNCH
+        - at_level: '28'
+          name: TORMENT
+        - at_level: '33'
+          name: DARKPULSE
+        - at_level: '36'
+          name: NASTYPLOT
+        - at_level: '40'
+          name: PLAYROUGH
+        - at_level: '44'
+          name: FOULPLAY
+    raw_egg_moves: []
+    raw_tms: []
+    compatible_egg_groups:
+        - 5
+        - 7
+    steps_to_hatch: 5120
+    height: 0.4
+    weight: 5.5
+    colour: Pink
+    habitat:
+    kind: Wily
+    pokedex_entry: It sneaks into people's homes, stealing things and feasting on
+        the negative energy of the frustrated occupants.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 21
+    battler_enemy_y: 26
+    battler_altitude: 0
+    evolutions:
+        - into_name: MORGREM
+          condition: Level
+          parameter: '32'
+    form_names: []
+    regional_numbers: 859
+    shape:

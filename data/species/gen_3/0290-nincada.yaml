@@ -1,0 +1,88 @@
+290:
+    name: Nincada
+    internal_name: NINCADA
+    base_stats:
+        hp: 31
+        atk: 45
+        def_: 90
+        spa: 30
+        spd: 30
+        spe: 40
+    primary_type: BUG
+    secondary_type: GROUND
+    gender_ratio: 3
+    growth_rate: 4
+    exp_yield: 53
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 1
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 255
+    caught_happiness: 70
+    raw_abilities:
+        - COMPOUNDEYES
+        - RUNAWAY
+    raw_hidden_ability:
+    raw_level_up_moves:
+        - at_level: '1'
+          name: SCRATCH
+        - at_level: '1'
+          name: HARDEN
+        - at_level: '5'
+          name: ABSORB
+        - at_level: '9'
+          name: SANDATTACK
+        - at_level: '13'
+          name: FURYSWIPES
+        - at_level: '17'
+          name: MUDSLAP
+        - at_level: '21'
+          name: METALCLAW
+        - at_level: '25'
+          name: MINDREADER
+        - at_level: '29'
+          name: BIDE
+        - at_level: '33'
+          name: FALSESWIPE
+        - at_level: '37'
+          name: DIG
+    raw_egg_moves:
+        - BUGBITE
+        - BUGBUZZ
+        - ENDURE
+        - FEINTATTACK
+        - FINALGAMBIT
+        - GUST
+        - NIGHTSLASH
+        - SILVERWIND
+    raw_tms: []
+    compatible_egg_groups:
+        - 2
+    steps_to_hatch: 4080
+    height: 0.5
+    weight: 5.5
+    colour: Gray
+    habitat: Forest
+    kind: Trainee
+    pokedex_entry: It makes its nest at the roots of a mighty tree. Using its whiskerlike
+        antennae, it probes its surroundings in the pitch-black darkness of soil.
+    wild_items:
+        common:
+        uncommon: SOFTSAND
+        rare:
+    battler_player_y: 34
+    battler_enemy_y: 29
+    battler_altitude: 0
+    evolutions:
+        - into_name: NINJASK
+          condition: Ninjask
+          parameter: '20'
+        - into_name: SHEDINJA
+          condition: Shedinja
+          parameter: '20'
+    form_names: []
+    regional_numbers:
+    shape:

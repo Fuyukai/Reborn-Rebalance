@@ -1,0 +1,94 @@
+116:
+    name: Horsea
+    internal_name: HORSEA
+    base_stats:
+        hp: 30
+        atk: 40
+        def_: 70
+        spa: 70
+        spd: 25
+        spe: 60
+    primary_type: WATER
+    secondary_type:
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 59
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 1
+        spd: 0
+        spe: 0
+    catch_rate: 225
+    caught_happiness: 70
+    raw_abilities:
+        - SWIFTSWIM
+        - SNIPER
+    raw_hidden_ability: DAMP
+    raw_level_up_moves:
+        - at_level: '1'
+          name: BUBBLE
+        - at_level: '5'
+          name: SMOKESCREEN
+        - at_level: '9'
+          name: LEER
+        - at_level: '13'
+          name: WATERGUN
+        - at_level: '17'
+          name: TWISTER
+        - at_level: '21'
+          name: BUBBLEBEAM
+        - at_level: '26'
+          name: FOCUSENERGY
+        - at_level: '31'
+          name: BRINE
+        - at_level: '36'
+          name: AGILITY
+        - at_level: '41'
+          name: DRAGONPULSE
+        - at_level: '46'
+          name: DRAGONDANCE
+        - at_level: '52'
+          name: HYDROPUMP
+    raw_egg_moves:
+        - AURORABEAM
+        - CLEARSMOG
+        - DISABLE
+        - DRAGONRAGE
+        - DRAGONBREATH
+        - FLAIL
+        - MUDDYWATER
+        - OCTAZOOKA
+        - OUTRAGE
+        - RAZORWIND
+        - SIGNALBEAM
+        - SPLASH
+        - WATERPULSE
+    raw_tms: []
+    compatible_egg_groups:
+        - 1
+        - 13
+    steps_to_hatch: 5355
+    height: 0.4
+    weight: 8.0
+    colour: Blue
+    habitat: Sea
+    kind: Dragon
+    pokedex_entry: By cleverly flicking the fins on its back side to side, it moves
+        in any direction while facing forward. It spits ink to escape if it senses
+        danger.
+    wild_items:
+        common:
+        uncommon: DRAGONSCALE
+        rare:
+    battler_player_y: 32
+    battler_enemy_y: 24
+    battler_altitude: 13
+    evolutions:
+        - into_name: SEADRA
+          condition: Level
+          parameter: '32'
+    form_names: []
+    regional_numbers:
+    shape:

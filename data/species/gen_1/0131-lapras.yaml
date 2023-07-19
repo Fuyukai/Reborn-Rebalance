@@ -1,0 +1,101 @@
+131:
+    name: Lapras
+    internal_name: LAPRAS
+    base_stats:
+        hp: 130
+        atk: 85
+        def_: 80
+        spa: 85
+        spd: 95
+        spe: 60
+    primary_type: WATER
+    secondary_type: ICE
+    gender_ratio: 3
+    growth_rate: 2
+    exp_yield: 187
+    ev_yield:
+        hp: 2
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 45
+    caught_happiness: 70
+    raw_abilities:
+        - WATERABSORB
+        - SHELLARMOR
+    raw_hidden_ability: HYDRATION
+    raw_level_up_moves:
+        - at_level: '1'
+          name: SING
+        - at_level: '1'
+          name: GROWL
+        - at_level: '1'
+          name: WATERGUN
+        - at_level: '4'
+          name: MIST
+        - at_level: '7'
+          name: CONFUSERAY
+        - at_level: '10'
+          name: ICESHARD
+        - at_level: '14'
+          name: WATERPULSE
+        - at_level: '15'
+          name: LIFEDEW
+        - at_level: '18'
+          name: BODYSLAM
+        - at_level: '22'
+          name: RAINDANCE
+        - at_level: '27'
+          name: PERISHSONG
+        - at_level: '32'
+          name: ICEBEAM
+        - at_level: '37'
+          name: BRINE
+        - at_level: '43'
+          name: SAFEGUARD
+        - at_level: '47'
+          name: HYDROPUMP
+        - at_level: '50'
+          name: SHEERCOLD
+    raw_egg_moves:
+        - ANCIENTPOWER
+        - AVALANCHE
+        - CURSE
+        - DRAGONDANCE
+        - DRAGONPULSE
+        - FISSURE
+        - FORESIGHT
+        - FUTURESIGHT
+        - FREEZEDRY
+        - HORNDRILL
+        - REFRESH
+        - SLEEPTALK
+        - TICKLE
+        - WHIRLPOOL
+        - SPARKLINGARIA
+    raw_tms: []
+    compatible_egg_groups:
+        - 0
+        - 1
+    steps_to_hatch: 10455
+    height: 2.5
+    weight: 220.0
+    colour: Blue
+    habitat: Sea
+    kind: Transport
+    pokedex_entry: People have driven Lapras almost to the point of extinction. In
+        the evenings, it is said to sing plaintively as it seeks what few others of
+        its kind still remain.
+    wild_items:
+        common: MYSTICWATER
+        uncommon: MYSTICWATER
+        rare: MYSTICWATER
+    battler_player_y: 13
+    battler_enemy_y: 11
+    battler_altitude: 0
+    evolutions: []
+    form_names: []
+    regional_numbers:
+    shape:

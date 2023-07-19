@@ -1,0 +1,57 @@
+374:
+    name: Beldum
+    internal_name: BELDUM
+    base_stats:
+        hp: 40
+        atk: 55
+        def_: 80
+        spa: 35
+        spd: 60
+        spe: 30
+    primary_type: STEEL
+    secondary_type: PSYCHIC
+    gender_ratio: 7
+    growth_rate: 2
+    exp_yield: 60
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 1
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 3
+    caught_happiness: 35
+    raw_abilities:
+        - CLEARBODY
+        - LIGHTMETAL
+    raw_hidden_ability:
+    raw_level_up_moves:
+        - at_level: '1'
+          name: TAKEDOWN
+    raw_egg_moves: []
+    raw_tms: []
+    compatible_egg_groups:
+        - 9
+    steps_to_hatch: 10455
+    height: 0.6
+    weight: 95.2
+    colour: Blue
+    habitat: RoughTerrain
+    kind: Iron Ball
+    pokedex_entry: When Beldum gather in a swarm, they move in perfect unison as if
+        they were but one Pokémon. They communicate with each other using brain waves.
+    wild_items:
+        common:
+        uncommon: METALCOAT
+        rare:
+    battler_player_y: 31
+    battler_enemy_y: 24
+    battler_altitude: 12
+    evolutions:
+        - into_name: METANG
+          condition: Level
+          parameter: '20'
+    form_names: []
+    regional_numbers:
+    shape:

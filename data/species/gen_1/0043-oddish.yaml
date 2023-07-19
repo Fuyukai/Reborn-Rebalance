@@ -1,0 +1,100 @@
+43:
+    name: Oddish
+    internal_name: ODDISH
+    base_stats:
+        hp: 45
+        atk: 50
+        def_: 55
+        spa: 75
+        spd: 65
+        spe: 30
+    primary_type: GRASS
+    secondary_type: POISON
+    gender_ratio: 3
+    growth_rate: 3
+    exp_yield: 64
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 1
+        spd: 0
+        spe: 0
+    catch_rate: 255
+    caught_happiness: 70
+    raw_abilities:
+        - CHLOROPHYLL
+        - RUNAWAY
+    raw_hidden_ability:
+    raw_level_up_moves:
+        - at_level: '1'
+          name: ABSORB
+        - at_level: '1'
+          name: GROWTH
+        - at_level: '5'
+          name: SWEETSCENT
+        - at_level: '9'
+          name: ACID
+        - at_level: '13'
+          name: POISONPOWDER
+        - at_level: '14'
+          name: STUNSPORE
+        - at_level: '15'
+          name: SLEEPPOWDER
+        - at_level: '19'
+          name: MEGADRAIN
+        - at_level: '23'
+          name: LUCKYCHANT
+        - at_level: '27'
+          name: MOONLIGHT
+        - at_level: '31'
+          name: GIGADRAIN
+        - at_level: '35'
+          name: TOXIC
+        - at_level: '39'
+          name: NATURALGIFT
+        - at_level: '43'
+          name: MOONBLAST
+        - at_level: '47'
+          name: GRASSYTERRAIN
+        - at_level: '51'
+          name: PETALDANCE
+    raw_egg_moves:
+        - AFTERYOU
+        - CHARM
+        - FLAIL
+        - INGRAIN
+        - NATUREPOWER
+        - RAZORLEAF
+        - SECRETPOWER
+        - STRENGTHSAP
+        - SYNTHESIS
+        - TEETERDANCE
+        - TICKLE
+        - LEECHSEED
+    raw_tms: []
+    compatible_egg_groups:
+        - 6
+    steps_to_hatch: 5355
+    height: 0.5
+    weight: 5.4
+    colour: Blue
+    habitat: Grassland
+    kind: Weed
+    pokedex_entry: This Pokémon grows by absorbing moonlight. During the daytime,
+        it buries itself, leaving only its leaves exposed to avoid detection by its
+        enemies.
+    wild_items:
+        common:
+        uncommon: ABSORBBULB
+        rare:
+    battler_player_y: 30
+    battler_enemy_y: 24
+    battler_altitude: 0
+    evolutions:
+        - into_name: GLOOM
+          condition: Level
+          parameter: '21'
+    form_names: []
+    regional_numbers:
+    shape:

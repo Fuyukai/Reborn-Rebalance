@@ -1,0 +1,92 @@
+140:
+    name: Kabuto
+    internal_name: KABUTO
+    base_stats:
+        hp: 30
+        atk: 80
+        def_: 90
+        spa: 55
+        spd: 45
+        spe: 55
+    primary_type: ROCK
+    secondary_type: WATER
+    gender_ratio: 1
+    growth_rate: 1
+    exp_yield: 71
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 1
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 45
+    caught_happiness: 70
+    raw_abilities:
+        - SWIFTSWIM
+        - BATTLEARMOR
+    raw_hidden_ability: WEAKARMOR
+    raw_level_up_moves:
+        - at_level: '1'
+          name: SCRATCH
+        - at_level: '1'
+          name: HARDEN
+        - at_level: '6'
+          name: ABSORB
+        - at_level: '11'
+          name: LEER
+        - at_level: '16'
+          name: MUDSHOT
+        - at_level: '21'
+          name: SANDATTACK
+        - at_level: '26'
+          name: ENDURE
+        - at_level: '31'
+          name: AQUAJET
+        - at_level: '36'
+          name: MEGADRAIN
+        - at_level: '41'
+          name: METALSOUND
+        - at_level: '46'
+          name: ANCIENTPOWER
+        - at_level: '50'
+          name: WRINGOUT
+    raw_egg_moves:
+        - AURORABEAM
+        - BUBBLEBEAM
+        - CONFUSERAY
+        - FLAIL
+        - FORESIGHT
+        - GIGADRAIN
+        - ICYWIND
+        - KNOCKOFF
+        - MUDSHOT
+        - RAPIDSPIN
+        - SCREECH
+        - TAKEDOWN
+    raw_tms: []
+    compatible_egg_groups:
+        - 1
+        - 8
+    steps_to_hatch: 7905
+    height: 0.5
+    weight: 11.5
+    colour: Brown
+    habitat: Sea
+    kind: Shellfish
+    pokedex_entry: A Pokémon that has been regenerated from a fossil. However, living
+        examples have been discovered. Kabuto haven't changed for 300 million years.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 31
+    battler_enemy_y: 28
+    battler_altitude: 0
+    evolutions:
+        - into_name: KABUTOPS
+          condition: Level
+          parameter: '40'
+    form_names: []
+    regional_numbers:
+    shape:

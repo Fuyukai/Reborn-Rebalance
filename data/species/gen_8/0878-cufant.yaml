@@ -1,0 +1,90 @@
+878:
+    name: Cufant
+    internal_name: CUFANT
+    base_stats:
+        hp: 72
+        atk: 80
+        def_: 49
+        spa: 40
+        spd: 49
+        spe: 40
+    primary_type: STEEL
+    secondary_type:
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 66
+    ev_yield:
+        hp: 0
+        atk: 1
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 190
+    caught_happiness: 50
+    raw_abilities:
+        - SHEERFORCE
+        - HEAVYMETAL
+    raw_hidden_ability:
+    raw_level_up_moves:
+        - at_level: '1'
+          name: TACKLE
+        - at_level: '1'
+          name: GROWL
+        - at_level: '5'
+          name: ROLLOUT
+        - at_level: '10'
+          name: ROCKSMASH
+        - at_level: '15'
+          name: BULLDOZE
+        - at_level: '20'
+          name: STOMP
+        - at_level: '25'
+          name: IRONDEFENSE
+        - at_level: '30'
+          name: DIG
+        - at_level: '35'
+          name: STRENGTH
+        - at_level: '40'
+          name: IRONHEAD
+        - at_level: '45'
+          name: PLAYROUGH
+        - at_level: '50'
+          name: HIGHHORSEPOWER
+        - at_level: '55'
+          name: SUPERPOWER
+    raw_egg_moves:
+        - DOUBLEEDGE
+        - BELCH
+        - CURSE
+        - SLAM
+        - FISSURE
+        - SWAGGER
+        - WHIRLWIND
+        - DEFENSECURL
+    raw_tms: []
+    compatible_egg_groups:
+        - 4
+        - 9
+    steps_to_hatch: 6400
+    height: 1.2
+    weight: 100.0
+    colour: Purple
+    habitat:
+    kind: Copperderm
+    pokedex_entry: If a job requires serious strength, this Pokémon will excel at
+        it. Its copper body tarnishes in the rain, turning a vibrant green color.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 21
+    battler_enemy_y: 26
+    battler_altitude: 0
+    evolutions:
+        - into_name: COPPERAJAH
+          condition: Level
+          parameter: '34'
+    form_names: []
+    regional_numbers: 878
+    shape:

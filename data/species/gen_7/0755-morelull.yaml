@@ -1,0 +1,88 @@
+755:
+    name: Morelull
+    internal_name: MORELULL
+    base_stats:
+        hp: 40
+        atk: 35
+        def_: 55
+        spa: 65
+        spd: 75
+        spe: 15
+    primary_type: GRASS
+    secondary_type: FAIRY
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 57
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 1
+        spe: 0
+    catch_rate: 190
+    caught_happiness: 70
+    raw_abilities:
+        - ILLUMINATE
+        - EFFECTSPORE
+    raw_hidden_ability: RAINDISH
+    raw_level_up_moves:
+        - at_level: '1'
+          name: ABSORB
+        - at_level: '4'
+          name: ASTONISH
+        - at_level: '8'
+          name: FLASH
+        - at_level: '11'
+          name: MOONLIGHT
+        - at_level: '15'
+          name: MEGADRAIN
+        - at_level: '18'
+          name: SLEEPPOWDER
+        - at_level: '22'
+          name: INGRAIN
+        - at_level: '25'
+          name: CONFUSERAY
+        - at_level: '29'
+          name: GIGADRAIN
+        - at_level: '32'
+          name: STRENGTHSAP
+        - at_level: '36'
+          name: SPORE
+        - at_level: '39'
+          name: MOONBLAST
+        - at_level: '43'
+          name: DREAMEATER
+        - at_level: '46'
+          name: SPOTLIGHT
+    raw_egg_moves:
+        - AMNESIA
+        - GROWTH
+        - LEECHSEED
+        - POISONPOWDER
+        - STUNSPORE
+    raw_tms: []
+    compatible_egg_groups:
+        - 6
+    steps_to_hatch: 5120
+    height: 0.2
+    weight: 1.5
+    colour: Purple
+    habitat:
+    kind: Illuminating
+    pokedex_entry: It scatters spores that flicker and glow. Anyone seeing these lights
+        falls into a deep slumber.
+    wild_items:
+        common: TINYMUSHROOM
+        uncommon: BIGMUSHROOM
+        rare:
+    battler_player_y: 28
+    battler_enemy_y: 25
+    battler_altitude: 0
+    evolutions:
+        - into_name: SHIINOTIC
+          condition: Level
+          parameter: '24'
+    form_names: []
+    regional_numbers:
+    shape:

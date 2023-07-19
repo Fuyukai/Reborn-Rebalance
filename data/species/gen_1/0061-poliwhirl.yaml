@@ -1,0 +1,89 @@
+61:
+    name: Poliwhirl
+    internal_name: POLIWHIRL
+    base_stats:
+        hp: 65
+        atk: 65
+        def_: 65
+        spa: 50
+        spd: 50
+        spe: 90
+    primary_type: WATER
+    secondary_type:
+    gender_ratio: 3
+    growth_rate: 3
+    exp_yield: 135
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 2
+    catch_rate: 120
+    caught_happiness: 70
+    raw_abilities:
+        - WATERABSORB
+        - DAMP
+    raw_hidden_ability: SWIFTSWIM
+    raw_level_up_moves:
+        - at_level: '1'
+          name: WATERSPORT
+        - at_level: '1'
+          name: WATERGUN
+        - at_level: '1'
+          name: HYPNOSIS
+        - at_level: '5'
+          name: WATERGUN
+        - at_level: '8'
+          name: HYPNOSIS
+        - at_level: '11'
+          name: BUBBLE
+        - at_level: '15'
+          name: DOUBLESLAP
+        - at_level: '18'
+          name: RAINDANCE
+        - at_level: '21'
+          name: BODYSLAM
+        - at_level: '27'
+          name: BUBBLEBEAM
+        - at_level: '32'
+          name: MUDSHOT
+        - at_level: '37'
+          name: BELLYDRUM
+        - at_level: '43'
+          name: WAKEUPSLAP
+        - at_level: '48'
+          name: HYDROPUMP
+        - at_level: '53'
+          name: MUDBOMB
+    raw_egg_moves: []
+    raw_tms: []
+    compatible_egg_groups:
+        - 1
+    steps_to_hatch: 5355
+    height: 1.0
+    weight: 20.0
+    colour: Blue
+    habitat: WatersEdge
+    kind: Tadpole
+    pokedex_entry: Its body surface is always wet and slick with an oily fluid. Because
+        of this greasy covering, it can easily slip and slide out of the clutches
+        of any enemy in battle.
+    wild_items:
+        common:
+        uncommon: KINGSROCK
+        rare:
+    battler_player_y: 24
+    battler_enemy_y: 20
+    battler_altitude: 0
+    evolutions:
+        - into_name: POLIWRATH
+          condition: Item
+          parameter: WATERSTONE
+        - into_name: POLITOED
+          condition: TradeItem
+          parameter: KINGSROCK
+    form_names: []
+    regional_numbers:
+    shape:

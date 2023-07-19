@@ -1,0 +1,107 @@
+550:
+    name: Basculin
+    internal_name: BASCULIN
+    base_stats:
+        hp: 70
+        atk: 92
+        def_: 65
+        spa: 80
+        spd: 55
+        spe: 98
+    primary_type: WATER
+    secondary_type:
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 161
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 2
+    catch_rate: 25
+    caught_happiness: 70
+    raw_abilities:
+        - RUNAWAY
+        - ADAPTABILITY
+    raw_hidden_ability: MOLDBREAKER
+    raw_level_up_moves:
+        - at_level: '1'
+          name: TAILWHIP
+        - at_level: '1'
+          name: TACKLE
+        - at_level: '1'
+          name: WATERGUN
+        - at_level: '3'
+          name: UPROAR
+        - at_level: '5'
+          name: HEADBUTT
+        - at_level: '7'
+          name: BITE
+        - at_level: '9'
+          name: AQUAJET
+        - at_level: '11'
+          name: CHIPAWAY
+        - at_level: '14'
+          name: TAKEDOWN
+        - at_level: '17'
+          name: CRUNCH
+        - at_level: '20'
+          name: AQUATAIL
+        - at_level: '23'
+          name: SOAK
+        - at_level: '26'
+          name: DOUBLEEDGE
+        - at_level: '30'
+          name: SCARYFACE
+        - at_level: '34'
+          name: FLAIL
+        - at_level: '38'
+          name: WAVECRASH
+        - at_level: '42'
+          name: THRASH
+        - at_level: '46'
+          name: HEADSMASH
+        - at_level: '50'
+          name: FINALGAMBIT
+    raw_egg_moves:
+        - AGILITY
+        - BRINE
+        - BUBBLEBEAM
+        - HEADSMASH
+        - MUDSHOT
+        - MUDDYWATER
+        - RAGE
+        - REVENGE
+        - SWIFT
+        - WHIRLPOOL
+        - LASTRESPECTS
+    raw_tms: []
+    compatible_egg_groups:
+        - 11
+    steps_to_hatch: 10240
+    height: 1.0
+    weight: 18.0
+    colour: Green
+    habitat:
+    kind: Hostile
+    pokedex_entry: Red and blue Basculin usually do not get along, but sometimes members
+        of one school mingle with the other's school.
+    wild_items:
+        common:
+        uncommon:
+        rare: DEEPSEASCALE
+    battler_player_y: 30
+    battler_enemy_y: 24
+    battler_altitude: 1
+    evolutions:
+        - into_name: BASCULEGION
+          condition: HasMove
+          parameter: WAVECRASH
+    form_names:
+        - White-Striped
+        - Red-Striped
+        - Blue-Striped
+    regional_numbers:
+    shape:

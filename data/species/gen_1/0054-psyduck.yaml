@@ -1,0 +1,104 @@
+54:
+    name: Psyduck
+    internal_name: PSYDUCK
+    base_stats:
+        hp: 50
+        atk: 52
+        def_: 48
+        spa: 65
+        spd: 50
+        spe: 55
+    primary_type: WATER
+    secondary_type:
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 64
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 1
+        spd: 0
+        spe: 0
+    catch_rate: 190
+    caught_happiness: 70
+    raw_abilities:
+        - DAMP
+        - CLOUDNINE
+    raw_hidden_ability: SWIFTSWIM
+    raw_level_up_moves:
+        - at_level: '1'
+          name: WATERSPORT
+        - at_level: '1'
+          name: SCRATCH
+        - at_level: '4'
+          name: TAILWHIP
+        - at_level: '7'
+          name: WATERGUN
+        - at_level: '10'
+          name: CONFUSION
+        - at_level: '13'
+          name: FURYSWIPES
+        - at_level: '16'
+          name: WATERPULSE
+        - at_level: '19'
+          name: DISABLE
+        - at_level: '22'
+          name: SCREECH
+        - at_level: '25'
+          name: ZENHEADBUTT
+        - at_level: '28'
+          name: AQUATAIL
+        - at_level: '31'
+          name: SOAK
+        - at_level: '34'
+          name: PSYCHUP
+        - at_level: '37'
+          name: AMNESIA
+        - at_level: '40'
+          name: HYDROPUMP
+        - at_level: '43'
+          name: WONDERROOM
+    raw_egg_moves:
+        - CLEARSMOG
+        - CONFUSERAY
+        - CROSSCHOP
+        - ENCORE
+        - FORESIGHT
+        - FUTURESIGHT
+        - HYPNOSIS
+        - MUDBOMB
+        - PSYBEAM
+        - REFRESH
+        - SECRETPOWER
+        - SIMPLEBEAM
+        - SLEEPTALK
+        - SYNCHRONOISE
+        - YAWN
+    raw_tms: []
+    compatible_egg_groups:
+        - 1
+        - 4
+    steps_to_hatch: 5355
+    height: 0.8
+    weight: 19.6
+    colour: Yellow
+    habitat: WatersEdge
+    kind: Duck
+    pokedex_entry: When its headache intensifies, it starts using strange powers.
+        However, it has no recollection of its powers, so it always looks befuddled
+        and bewildered.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 27
+    battler_enemy_y: 19
+    battler_altitude: 0
+    evolutions:
+        - into_name: GOLDUCK
+          condition: Level
+          parameter: '33'
+    form_names: []
+    regional_numbers:
+    shape:

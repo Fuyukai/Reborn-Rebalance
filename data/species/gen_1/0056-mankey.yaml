@@ -1,0 +1,111 @@
+56:
+    name: Mankey
+    internal_name: MANKEY
+    base_stats:
+        hp: 40
+        atk: 80
+        def_: 35
+        spa: 35
+        spd: 45
+        spe: 70
+    primary_type: FIGHTING
+    secondary_type:
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 61
+    ev_yield:
+        hp: 0
+        atk: 1
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 190
+    caught_happiness: 70
+    raw_abilities:
+        - VITALSPIRIT
+        - ANGERPOINT
+    raw_hidden_ability: DEFIANT
+    raw_level_up_moves:
+        - at_level: '1'
+          name: COVET
+        - at_level: '1'
+          name: THRASH
+        - at_level: '1'
+          name: SCRATCH
+        - at_level: '1'
+          name: LOWKICK
+        - at_level: '1'
+          name: LEER
+        - at_level: '1'
+          name: FOCUSENERGY
+        - at_level: '5'
+          name: FURYSWIPES
+        - at_level: '8'
+          name: KARATECHOP
+        - at_level: '12'
+          name: PURSUIT
+        - at_level: '15'
+          name: SEISMICTOSS
+        - at_level: '19'
+          name: SWAGGER
+        - at_level: '22'
+          name: CROSSCHOP
+        - at_level: '26'
+          name: ASSURANCE
+        - at_level: '29'
+          name: PUNISHMENT
+        - at_level: '33'
+          name: THRASH
+        - at_level: '36'
+          name: CLOSECOMBAT
+        - at_level: '40'
+          name: SCREECH
+        - at_level: '43'
+          name: STOMPINGTANTRUM
+        - at_level: '47'
+          name: OUTRAGE
+        - at_level: '50'
+          name: FINALGAMBIT
+    raw_egg_moves:
+        - BEATUP
+        - CLOSECOMBAT
+        - CURSE
+        - COUNTER
+        - ENCORE
+        - FOCUSPUNCH
+        - FORESIGHT
+        - MEDITATE
+        - NIGHTSLASH
+        - POWERTRIP
+        - REVENGE
+        - REVERSAL
+        - SLEEPTALK
+        - SMELLINGSALTS
+        - SPITE
+    raw_tms: []
+    compatible_egg_groups:
+        - 4
+    steps_to_hatch: 5355
+    height: 0.5
+    weight: 28.0
+    colour: Brown
+    habitat: Mountain
+    kind: Pig Monkey
+    pokedex_entry: When it starts shaking and its nasal breathing turns rough, it
+        is a sure sign of anger. However, since this happens instantly, there is no
+        time to flee.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 24
+    battler_enemy_y: 20
+    battler_altitude: 0
+    evolutions:
+        - into_name: PRIMEAPE
+          condition: Level
+          parameter: '28'
+    form_names: []
+    regional_numbers:
+    shape:

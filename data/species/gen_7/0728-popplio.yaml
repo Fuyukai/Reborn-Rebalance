@@ -1,0 +1,95 @@
+728:
+    name: Popplio
+    internal_name: POPPLIO
+    base_stats:
+        hp: 50
+        atk: 54
+        def_: 54
+        spa: 66
+        spd: 56
+        spe: 40
+    primary_type: WATER
+    secondary_type:
+    gender_ratio: 1
+    growth_rate: 3
+    exp_yield: 64
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 1
+        spd: 0
+        spe: 0
+    catch_rate: 45
+    caught_happiness: 70
+    raw_abilities:
+        - TORRENT
+        - LIQUIDVOICE
+    raw_hidden_ability:
+    raw_level_up_moves:
+        - at_level: '1'
+          name: POUND
+        - at_level: '1'
+          name: WATERGUN
+        - at_level: '4'
+          name: GROWL
+        - at_level: '8'
+          name: DISARMINGVOICE
+        - at_level: '11'
+          name: BABYDOLLEYES
+        - at_level: '14'
+          name: AQUAJET
+        - at_level: '16'
+          name: ICYWIND
+        - at_level: '18'
+          name: ENCORE
+        - at_level: '22'
+          name: BUBBLEBEAM
+        - at_level: '25'
+          name: SING
+        - at_level: '29'
+          name: DOUBLESLAP
+        - at_level: '32'
+          name: HYPERVOICE
+        - at_level: '36'
+          name: MOONBLAST
+        - at_level: '39'
+          name: CAPTIVATE
+        - at_level: '43'
+          name: HYDROPUMP
+        - at_level: '46'
+          name: MISTYTERRAIN
+    raw_egg_moves:
+        - AMNESIA
+        - AQUARING
+        - AROMATICMIST
+        - CHARM
+        - PERISHSONG
+        - WONDERROOM
+        - LIFEDEW
+    raw_tms: []
+    compatible_egg_groups:
+        - 1
+        - 4
+    steps_to_hatch: 3840
+    height: 0.4
+    weight: 7.5
+    colour: Blue
+    habitat:
+    kind: Sea Lion
+    pokedex_entry: This Pokémon snorts body fluids from its nose, blowing balloons
+        to smash into its foes. It is famous for being a hard worker.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 19
+    battler_enemy_y: 25
+    battler_altitude: 0
+    evolutions:
+        - into_name: BRIONNE
+          condition: Level
+          parameter: '17'
+    form_names: []
+    regional_numbers:
+    shape:

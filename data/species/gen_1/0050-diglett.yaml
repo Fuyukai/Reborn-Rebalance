@@ -1,0 +1,99 @@
+50:
+    name: Diglett
+    internal_name: DIGLETT
+    base_stats:
+        hp: 10
+        atk: 55
+        def_: 25
+        spa: 35
+        spd: 45
+        spe: 95
+    primary_type: GROUND
+    secondary_type:
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 53
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 1
+    catch_rate: 255
+    caught_happiness: 70
+    raw_abilities:
+        - SANDVEIL
+        - ARENATRAP
+    raw_hidden_ability: SANDFORCE
+    raw_level_up_moves:
+        - at_level: '1'
+          name: SCRATCH
+        - at_level: '1'
+          name: SANDATTACK
+        - at_level: '4'
+          name: GROWL
+        - at_level: '7'
+          name: ASTONISH
+        - at_level: '10'
+          name: MUDSLAP
+        - at_level: '14'
+          name: MAGNITUDE
+        - at_level: '18'
+          name: BULLDOZE
+        - at_level: '22'
+          name: SUCKERPUNCH
+        - at_level: '25'
+          name: MUDBOMB
+        - at_level: '28'
+          name: EARTHPOWER
+        - at_level: '31'
+          name: DIG
+        - at_level: '35'
+          name: SLASH
+        - at_level: '39'
+          name: EARTHQUAKE
+        - at_level: '43'
+          name: FISSURE
+    raw_egg_moves:
+        - ANCIENTPOWER
+        - ASTONISH
+        - BEATUP
+        - ENDURE
+        - FEINTATTACK
+        - FINALGAMBIT
+        - HEADBUTT
+        - MEMENTO
+        - MUDBOMB
+        - PURSUIT
+        - REVERSAL
+        - SCREECH
+        - UPROAR
+        - HONECLAWS
+    raw_tms: []
+    compatible_egg_groups:
+        - 4
+    steps_to_hatch: 5355
+    height: 0.2
+    weight: 0.8
+    colour: Brown
+    habitat: Cave
+    kind: Mole
+    pokedex_entry: Diglett are raised in most farms. The reason is simple-- wherever
+        they burrow, the soil is left perfectly tilled for growing delicious crops.
+    wild_items:
+        common:
+        uncommon: SOFTSAND
+        rare:
+    battler_player_y: 32
+    battler_enemy_y: 28
+    battler_altitude: 0
+    evolutions:
+        - into_name: DUGTRIO
+          condition: Level
+          parameter: '26'
+    form_names:
+        - Normal
+        - Alternate
+    regional_numbers:
+    shape:

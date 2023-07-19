@@ -1,0 +1,86 @@
+126:
+    name: Magmar
+    internal_name: MAGMAR
+    base_stats:
+        hp: 65
+        atk: 95
+        def_: 57
+        spa: 100
+        spd: 85
+        spe: 93
+    primary_type: FIRE
+    secondary_type:
+    gender_ratio: 2
+    growth_rate: 1
+    exp_yield: 173
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 2
+        spd: 0
+        spe: 0
+    catch_rate: 45
+    caught_happiness: 70
+    raw_abilities:
+        - FLAMEBODY
+        - VITALSPIRIT
+    raw_hidden_ability:
+    raw_level_up_moves:
+        - at_level: '1'
+          name: SMOG
+        - at_level: '1'
+          name: LEER
+        - at_level: '1'
+          name: EMBER
+        - at_level: '5'
+          name: EMBER
+        - at_level: '8'
+          name: SMOKESCREEN
+        - at_level: '12'
+          name: FEINTATTACK
+        - at_level: '15'
+          name: FIRESPIN
+        - at_level: '19'
+          name: CLEARSMOG
+        - at_level: '22'
+          name: FLAMEBURST
+        - at_level: '26'
+          name: CONFUSERAY
+        - at_level: '29'
+          name: FIREPUNCH
+        - at_level: '36'
+          name: LAVAPLUME
+        - at_level: '42'
+          name: SUNNYDAY
+        - at_level: '49'
+          name: FLAMETHROWER
+        - at_level: '55'
+          name: FIREBLAST
+    raw_egg_moves: []
+    raw_tms: []
+    compatible_egg_groups:
+        - 7
+    steps_to_hatch: 6630
+    height: 1.3
+    weight: 44.5
+    colour: Red
+    habitat: Mountain
+    kind: Spitfire
+    pokedex_entry: It blows out intense flames from all over its body to intimidate
+        its foe. These fiery bursts create heat waves that ignite grass and trees
+        in the area.
+    wild_items:
+        common:
+        uncommon: MAGMARIZER
+        rare:
+    battler_player_y: 19
+    battler_enemy_y: 11
+    battler_altitude: 0
+    evolutions:
+        - into_name: MAGMORTAR
+          condition: TradeItem
+          parameter: MAGMARIZER
+    form_names: []
+    regional_numbers:
+    shape:

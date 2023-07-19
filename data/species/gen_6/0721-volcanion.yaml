@@ -1,0 +1,83 @@
+721:
+    name: Volcanion
+    internal_name: VOLCANION
+    base_stats:
+        hp: 80
+        atk: 110
+        def_: 120
+        spa: 130
+        spd: 90
+        spe: 70
+    primary_type: FIRE
+    secondary_type: WATER
+    gender_ratio: 7
+    growth_rate: 2
+    exp_yield: 270
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 3
+        spd: 0
+        spe: 0
+    catch_rate: 3
+    caught_happiness: 100
+    raw_abilities:
+        - WATERABSORB
+    raw_hidden_ability:
+    raw_level_up_moves:
+        - at_level: '1'
+          name: STEAMERUPTION
+        - at_level: '1'
+          name: FLAREBLITZ
+        - at_level: '1'
+          name: TAKEDOWN
+        - at_level: '8'
+          name: MIST
+        - at_level: '11'
+          name: HAZE
+        - at_level: '15'
+          name: FLAMECHARGE
+        - at_level: '21'
+          name: WATERPULSE
+        - at_level: '28'
+          name: STOMP
+        - at_level: '32'
+          name: SCALD
+        - at_level: '40'
+          name: WEATHERBALL
+        - at_level: '46'
+          name: BODYSLAM
+        - at_level: '50'
+          name: HYDROPUMP
+        - at_level: '58'
+          name: FLAREBLITZ
+        - at_level: '65'
+          name: OVERHEAT
+        - at_level: '76'
+          name: EXPLOSION
+        - at_level: '85'
+          name: STEAMERUPTION
+    raw_egg_moves: []
+    raw_tms: []
+    compatible_egg_groups:
+        - 14
+    steps_to_hatch: 30855
+    height: 1.7
+    weight: 195.0
+    colour: Brown
+    habitat:
+    kind: Steam
+    pokedex_entry: It expels its internal steam from the arms on its back. It has
+        enough power to blow away a mountain.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 14
+    battler_enemy_y: 22
+    battler_altitude: 0
+    evolutions: []
+    form_names: []
+    regional_numbers:
+    shape:

@@ -1,0 +1,85 @@
+816:
+    name: Sobble
+    internal_name: SOBBLE
+    base_stats:
+        hp: 50
+        atk: 40
+        def_: 40
+        spa: 70
+        spd: 40
+        spe: 70
+    primary_type: WATER
+    secondary_type:
+    gender_ratio: 1
+    growth_rate: 3
+    exp_yield: 62
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 1
+        spe: 1
+    catch_rate: 45
+    caught_happiness: 50
+    raw_abilities:
+        - TORRENT
+        - SNIPER
+    raw_hidden_ability:
+    raw_level_up_moves:
+        - at_level: '1'
+          name: POUND
+        - at_level: '1'
+          name: GROWL
+        - at_level: '6'
+          name: WATERGUN
+        - at_level: '8'
+          name: BIND
+        - at_level: '12'
+          name: WATERPULSE
+        - at_level: '17'
+          name: TEARFULLOOK
+        - at_level: '20'
+          name: SUCKERPUNCH
+        - at_level: '24'
+          name: UTURN
+        - at_level: '28'
+          name: LIQUIDATION
+        - at_level: '32'
+          name: SOAK
+        - at_level: '36'
+          name: RAINDANCE
+    raw_egg_moves:
+        - AQUAJET
+        - DOUBLETEAM
+        - AQUARING
+        - MIST
+        - HAZE
+        - ICESHARD
+        - FELLSTINGER
+    raw_tms: []
+    compatible_egg_groups:
+        - 1
+        - 4
+    steps_to_hatch: 5120
+    height: 0.3
+    weight: 4.0
+    colour: Blue
+    habitat:
+    kind: Water Lizard
+    pokedex_entry: When it gets wet, its skin changes color, and this Pokémon becomes
+        invisible as if it were camouflaged.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 21
+    battler_enemy_y: 26
+    battler_altitude: 0
+    evolutions:
+        - into_name: DRIZZILE
+          condition: Level
+          parameter: '16'
+    form_names: []
+    regional_numbers: 816
+    shape:

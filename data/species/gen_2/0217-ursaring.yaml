@@ -1,0 +1,88 @@
+217:
+    name: Ursaring
+    internal_name: URSARING
+    base_stats:
+        hp: 90
+        atk: 130
+        def_: 75
+        spa: 75
+        spd: 75
+        spe: 55
+    primary_type: NORMAL
+    secondary_type:
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 175
+    ev_yield:
+        hp: 0
+        atk: 2
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 60
+    caught_happiness: 70
+    raw_abilities:
+        - GUTS
+        - QUICKFEET
+    raw_hidden_ability: UNNERVE
+    raw_level_up_moves:
+        - at_level: '1'
+          name: HAMMERARM
+        - at_level: '1'
+          name: COVET
+        - at_level: '1'
+          name: SCRATCH
+        - at_level: '1'
+          name: LEER
+        - at_level: '1'
+          name: LICK
+        - at_level: '1'
+          name: FAKETEARS
+        - at_level: '8'
+          name: FURYSWIPES
+        - at_level: '15'
+          name: FEINTATTACK
+        - at_level: '22'
+          name: SWEETSCENT
+        - at_level: '25'
+          name: PLAYNICE
+        - at_level: '29'
+          name: SLASH
+        - at_level: '38'
+          name: SCARYFACE
+        - at_level: '47'
+          name: REST
+        - at_level: '49'
+          name: SNORE
+        - at_level: '58'
+          name: THRASH
+        - at_level: '67'
+          name: HAMMERARM
+    raw_egg_moves: []
+    raw_tms: []
+    compatible_egg_groups:
+        - 4
+    steps_to_hatch: 5355
+    height: 1.8
+    weight: 125.8
+    colour: Brown
+    habitat: Mountain
+    kind: Hibernator
+    pokedex_entry: It is said that there are many streams and towering trees where
+        an Ursaring gathers food. It walks through its forest collecting food every
+        day.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 13
+    battler_enemy_y: 8
+    battler_altitude: 0
+    evolutions:
+        - into_name: URSALUNA
+          condition: Item
+          parameter: PEATBLOCK
+    form_names: []
+    regional_numbers:
+    shape:

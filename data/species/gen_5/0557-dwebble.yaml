@@ -1,0 +1,96 @@
+557:
+    name: Dwebble
+    internal_name: DWEBBLE
+    base_stats:
+        hp: 50
+        atk: 65
+        def_: 85
+        spa: 35
+        spd: 35
+        spe: 55
+    primary_type: BUG
+    secondary_type: ROCK
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 65
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 1
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 190
+    caught_happiness: 70
+    raw_abilities:
+        - STURDY
+        - SHELLARMOR
+    raw_hidden_ability: WEAKARMOR
+    raw_level_up_moves:
+        - at_level: '1'
+          name: FURYCUTTER
+        - at_level: '5'
+          name: ROCKBLAST
+        - at_level: '7'
+          name: WITHDRAW
+        - at_level: '11'
+          name: SANDATTACK
+        - at_level: '13'
+          name: FEINTATTACK
+        - at_level: '17'
+          name: SMACKDOWN
+        - at_level: '19'
+          name: ROCKPOLISH
+        - at_level: '23'
+          name: BUGBITE
+        - at_level: '24'
+          name: STEALTHROCK
+        - at_level: '29'
+          name: ROCKSLIDE
+        - at_level: '31'
+          name: SLASH
+        - at_level: '35'
+          name: XSCISSOR
+        - at_level: '37'
+          name: SHELLSMASH
+        - at_level: '41'
+          name: FLAIL
+        - at_level: '43'
+          name: ROCKWRECKER
+    raw_egg_moves:
+        - BLOCK
+        - COUNTER
+        - CURSE
+        - ENDURE
+        - IRONDEFENSE
+        - NIGHTSLASH
+        - ROTOTILLER
+        - SANDTOMB
+        - SPIKES
+        - WIDEGUARD
+    raw_tms: []
+    compatible_egg_groups:
+        - 2
+        - 9
+    steps_to_hatch: 5120
+    height: 0.3
+    weight: 14.5
+    colour: Red
+    habitat:
+    kind: Rock Inn
+    pokedex_entry: It makes a hole in a suitable rock. If that rock breaks, the Pokémon
+        remains agitated until it locates a replacement.
+    wild_items:
+        common:
+        uncommon: HARDSTONE
+        rare:
+    battler_player_y: 33
+    battler_enemy_y: 39
+    battler_altitude: 0
+    evolutions:
+        - into_name: CRUSTLE
+          condition: Level
+          parameter: '34'
+    form_names: []
+    regional_numbers:
+    shape:

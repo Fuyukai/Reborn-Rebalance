@@ -1,0 +1,83 @@
+845:
+    name: Cramorant
+    internal_name: CRAMORANT
+    base_stats:
+        hp: 70
+        atk: 85
+        def_: 55
+        spa: 85
+        spd: 95
+        spe: 85
+    primary_type: FLYING
+    secondary_type: WATER
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 166
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 2
+        spe: 0
+    catch_rate: 45
+    caught_happiness: 50
+    raw_abilities:
+        - GULPMISSILE
+    raw_hidden_ability:
+    raw_level_up_moves:
+        - at_level: '1'
+          name: BELCH
+        - at_level: '1'
+          name: PECK
+        - at_level: '1'
+          name: STOCKPILE
+        - at_level: '1'
+          name: SWALLOW
+        - at_level: '1'
+          name: SPITUP
+        - at_level: '7'
+          name: WATERGUN
+        - at_level: '14'
+          name: FURYATTACK
+        - at_level: '21'
+          name: PLUCK
+        - at_level: '28'
+          name: DIVE
+        - at_level: '35'
+          name: DRILLPECK
+        - at_level: '42'
+          name: AMNESIA
+        - at_level: '49'
+          name: THRASH
+        - at_level: '56'
+          name: HYDROPUMP
+    raw_egg_moves:
+        - DEFOG
+        - AERIALACE
+        - FEATHERDANCE
+        - AQUARING
+        - ROOST
+    raw_tms: []
+    compatible_egg_groups:
+        - 1
+        - 3
+    steps_to_hatch: 5120
+    height: 0.8
+    weight: 18.0
+    colour: Blue
+    habitat:
+    kind: Gulp
+    pokedex_entry: This hungry Pokémon swallows Arrokuda whole. Occasionally, it makes
+        a mistake and tries to swallow a Pokémon other than its preferred prey.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 21
+    battler_enemy_y: 26
+    battler_altitude: 0
+    evolutions: []
+    form_names: []
+    regional_numbers: 845
+    shape:

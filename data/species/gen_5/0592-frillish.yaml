@@ -1,0 +1,89 @@
+592:
+    name: Frillish
+    internal_name: FRILLISH
+    base_stats:
+        hp: 55
+        atk: 40
+        def_: 50
+        spa: 65
+        spd: 85
+        spe: 40
+    primary_type: WATER
+    secondary_type: GHOST
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 67
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 1
+        spe: 0
+    catch_rate: 190
+    caught_happiness: 70
+    raw_abilities:
+        - WATERABSORB
+        - CURSEDBODY
+    raw_hidden_ability: DAMP
+    raw_level_up_moves:
+        - at_level: '1'
+          name: BUBBLE
+        - at_level: '1'
+          name: WATERSPORT
+        - at_level: '5'
+          name: ABSORB
+        - at_level: '9'
+          name: NIGHTSHADE
+        - at_level: '13'
+          name: BUBBLEBEAM
+        - at_level: '17'
+          name: RECOVER
+        - at_level: '22'
+          name: WATERPULSE
+        - at_level: '27'
+          name: OMINOUSWIND
+        - at_level: '32'
+          name: BRINE
+        - at_level: '37'
+          name: RAINDANCE
+        - at_level: '43'
+          name: HEX
+        - at_level: '49'
+          name: HYDROPUMP
+        - at_level: '55'
+          name: WRINGOUT
+        - at_level: '61'
+          name: WATERSPOUT
+    raw_egg_moves:
+        - ACIDARMOR
+        - CONFUSERAY
+        - CONSTRICT
+        - MIST
+        - PAINSPLIT
+        - RECOVER
+    raw_tms: []
+    compatible_egg_groups:
+        - 10
+    steps_to_hatch: 5120
+    height: 1.2
+    weight: 33.0
+    colour: White
+    habitat:
+    kind: Floating
+    pokedex_entry: They paralyze prey with poison, then drag them down to their lairs,
+        five miles below the surface.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 16
+    battler_enemy_y: 12
+    battler_altitude: 3
+    evolutions:
+        - into_name: JELLICENT
+          condition: Level
+          parameter: '40'
+    form_names: []
+    regional_numbers:
+    shape:

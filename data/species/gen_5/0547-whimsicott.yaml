@@ -1,0 +1,69 @@
+547:
+    name: Whimsicott
+    internal_name: WHIMSICOTT
+    base_stats:
+        hp: 60
+        atk: 67
+        def_: 85
+        spa: 77
+        spd: 75
+        spe: 116
+    primary_type: GRASS
+    secondary_type: FAIRY
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 168
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 2
+    catch_rate: 75
+    caught_happiness: 70
+    raw_abilities:
+        - PRANKSTER
+        - INFILTRATOR
+    raw_hidden_ability: CHLOROPHYLL
+    raw_level_up_moves:
+        - at_level: '1'
+          name: GROWTH
+        - at_level: '1'
+          name: LEECHSEED
+        - at_level: '1'
+          name: MEGADRAIN
+        - at_level: '1'
+          name: COTTONSPORE
+        - at_level: '10'
+          name: GUST
+        - at_level: '28'
+          name: TAILWIND
+        - at_level: '46'
+          name: HURRICANE
+        - at_level: '50'
+          name: MOONBLAST
+    raw_egg_moves: []
+    raw_tms: []
+    compatible_egg_groups:
+        - 5
+        - 6
+    steps_to_hatch: 5120
+    height: 0.7
+    weight: 6.6
+    colour: Green
+    habitat:
+    kind: Windveiled
+    pokedex_entry: Riding whirlwinds, they appear. These Pokémon sneak through gaps
+        into houses and cause all sorts of mischief.
+    wild_items:
+        common:
+        uncommon: ABSORBBULB
+        rare:
+    battler_player_y: 23
+    battler_enemy_y: 26
+    battler_altitude: 0
+    evolutions: []
+    form_names: []
+    regional_numbers:
+    shape:

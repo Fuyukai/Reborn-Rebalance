@@ -1,0 +1,98 @@
+686:
+    name: Inkay
+    internal_name: INKAY
+    base_stats:
+        hp: 53
+        atk: 54
+        def_: 53
+        spa: 37
+        spd: 46
+        spe: 45
+    primary_type: DARK
+    secondary_type: PSYCHIC
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 58
+    ev_yield:
+        hp: 0
+        atk: 1
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 120
+    caught_happiness: 70
+    raw_abilities:
+        - CONTRARY
+        - SUCTIONCUPS
+    raw_hidden_ability: INFILTRATOR
+    raw_level_up_moves:
+        - at_level: '1'
+          name: TACKLE
+        - at_level: '1'
+          name: PECK
+        - at_level: '1'
+          name: CONSTRICT
+        - at_level: '4'
+          name: REFLECT
+        - at_level: '8'
+          name: FOULPLAY
+        - at_level: '12'
+          name: SWAGGER
+        - at_level: '13'
+          name: PSYWAVE
+        - at_level: '15'
+          name: TOPSYTURVY
+        - at_level: '18'
+          name: HYPNOSIS
+        - at_level: '21'
+          name: PSYBEAM
+        - at_level: '23'
+          name: SWITCHEROO
+        - at_level: '27'
+          name: PAYBACK
+        - at_level: '31'
+          name: LIGHTSCREEN
+        - at_level: '35'
+          name: PLUCK
+        - at_level: '39'
+          name: PSYCHOCUT
+        - at_level: '43'
+          name: SLASH
+        - at_level: '46'
+          name: NIGHTSLASH
+        - at_level: '48'
+          name: SUPERPOWER
+    raw_egg_moves:
+        - CAMOUFLAGE
+        - DESTINYBOND
+        - FLATTER
+        - GUARDSWAP
+        - POWERSPLIT
+        - SIMPLEBEAM
+    raw_tms: []
+    compatible_egg_groups:
+        - 1
+        - 11
+    steps_to_hatch: 5120
+    height: 0.4
+    weight: 3.5
+    colour: Blue
+    habitat:
+    kind: Revolving
+    pokedex_entry: It flashes the light-emitting spots on its body, which drains its
+        opponent's will to fight. It takes the opportunity to scuttle away and hide.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 25
+    battler_enemy_y: 13
+    battler_altitude: 6
+    evolutions:
+        - into_name: MALAMAR
+          condition: Level
+          parameter: '30'
+    form_names: []
+    regional_numbers:
+    shape:

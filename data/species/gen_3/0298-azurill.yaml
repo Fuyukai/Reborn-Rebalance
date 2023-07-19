@@ -1,0 +1,88 @@
+298:
+    name: Azurill
+    internal_name: AZURILL
+    base_stats:
+        hp: 50
+        atk: 20
+        def_: 40
+        spa: 20
+        spd: 40
+        spe: 20
+    primary_type: NORMAL
+    secondary_type: FAIRY
+    gender_ratio: 4
+    growth_rate: 0
+    exp_yield: 38
+    ev_yield:
+        hp: 1
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 150
+    caught_happiness: 70
+    raw_abilities:
+        - THICKFAT
+        - HUGEPOWER
+    raw_hidden_ability: SAPSIPPER
+    raw_level_up_moves:
+        - at_level: '1'
+          name: SPLASH
+        - at_level: '1'
+          name: WATERGUN
+        - at_level: '2'
+          name: TAILWHIP
+        - at_level: '5'
+          name: WATERSPORT
+        - at_level: '7'
+          name: BUBBLE
+        - at_level: '10'
+          name: CHARM
+        - at_level: '13'
+          name: BUBBLEBEAM
+        - at_level: '16'
+          name: HELPINGHAND
+        - at_level: '20'
+          name: SLAM
+        - at_level: '23'
+          name: BOUNCE
+    raw_egg_moves:
+        - BODYSLAM
+        - CAMOUFLAGE
+        - COPYCAT
+        - ENCORE
+        - FAKETEARS
+        - MUDDYWATER
+        - REFRESH
+        - SING
+        - SLAM
+        - SOAK
+        - TICKLE
+        - WATERSPORT
+    raw_tms: []
+    compatible_egg_groups:
+        - 14
+    steps_to_hatch: 2805
+    height: 0.2
+    weight: 2.0
+    colour: Blue
+    habitat: WatersEdge
+    kind: Polka Dot
+    pokedex_entry: Its tail, which is packed with nutrition, is very bouncy like a
+        rubber ball. On sunny days they gather at the edge of water and splash about
+        for fun.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 26
+    battler_enemy_y: 22
+    battler_altitude: 0
+    evolutions:
+        - into_name: MARILL
+          condition: Happiness
+          parameter: ''
+    form_names: []
+    regional_numbers:
+    shape:

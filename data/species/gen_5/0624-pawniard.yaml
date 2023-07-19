@@ -1,0 +1,95 @@
+624:
+    name: Pawniard
+    internal_name: PAWNIARD
+    base_stats:
+        hp: 45
+        atk: 85
+        def_: 70
+        spa: 40
+        spd: 40
+        spe: 60
+    primary_type: DARK
+    secondary_type: STEEL
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 68
+    ev_yield:
+        hp: 0
+        atk: 1
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 120
+    caught_happiness: 35
+    raw_abilities:
+        - DEFIANT
+        - SHARPNESS
+    raw_hidden_ability: PRESSURE
+    raw_level_up_moves:
+        - at_level: '1'
+          name: SCRATCH
+        - at_level: '6'
+          name: LEER
+        - at_level: '9'
+          name: FURYCUTTER
+        - at_level: '14'
+          name: TORMENT
+        - at_level: '17'
+          name: FEINTATTACK
+        - at_level: '22'
+          name: SCARYFACE
+        - at_level: '25'
+          name: METALCLAW
+        - at_level: '30'
+          name: SLASH
+        - at_level: '33'
+          name: ASSURANCE
+        - at_level: '38'
+          name: METALSOUND
+        - at_level: '41'
+          name: EMBARGO
+        - at_level: '46'
+          name: IRONDEFENSE
+        - at_level: '49'
+          name: NIGHTSLASH
+        - at_level: '54'
+          name: IRONHEAD
+        - at_level: '57'
+          name: SWORDSDANCE
+        - at_level: '62'
+          name: GUILLOTINE
+    raw_egg_moves:
+        - HEADBUTT
+        - MEANLOOK
+        - PSYCHOCUT
+        - PURSUIT
+        - QUICKGUARD
+        - REVENGE
+        - STEALTHROCK
+        - SUCKERPUNCH
+    raw_tms: []
+    compatible_egg_groups:
+        - 7
+    steps_to_hatch: 5120
+    height: 0.5
+    weight: 10.2
+    colour: Black
+    habitat:
+    kind: Sharp Blade
+    pokedex_entry: They fight at Bisharp's command. They cling to their prey and inflict
+        damage by sinking their blades into it.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 25
+    battler_enemy_y: 29
+    battler_altitude: 0
+    evolutions:
+        - into_name: BISHARP
+          condition: Level
+          parameter: '52'
+    form_names: []
+    regional_numbers:
+    shape:

@@ -1,0 +1,73 @@
+225:
+    name: Delibird
+    internal_name: DELIBIRD
+    base_stats:
+        hp: 45
+        atk: 55
+        def_: 45
+        spa: 65
+        spd: 45
+        spe: 75
+    primary_type: ICE
+    secondary_type: FLYING
+    gender_ratio: 3
+    growth_rate: 0
+    exp_yield: 116
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 1
+    catch_rate: 45
+    caught_happiness: 70
+    raw_abilities:
+        - VITALSPIRIT
+        - HUSTLE
+    raw_hidden_ability: INSOMNIA
+    raw_level_up_moves:
+        - at_level: '1'
+          name: PRESENT
+        - at_level: '25'
+          name: DRILLPECK
+    raw_egg_moves:
+        - AURORABEAM
+        - BESTOW
+        - COUNTER
+        - DESTINYBOND
+        - FAKEOUT
+        - FREEZEDRY
+        - FUTURESIGHT
+        - ICEBALL
+        - ICEPUNCH
+        - ICESHARD
+        - ICYWIND
+        - QUICKATTACK
+        - RAPIDSPIN
+        - SPIKES
+        - SPLASH
+    raw_tms: []
+    compatible_egg_groups:
+        - 1
+        - 4
+    steps_to_hatch: 5355
+    height: 0.9
+    weight: 16.0
+    colour: Red
+    habitat: Mountain
+    kind: Delivery
+    pokedex_entry: Delibird carries food bundled up in its tail. Once, a famous explorer
+        managed to climb the world's highest mountain only thanks to a Delibird sharing
+        its food.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 24
+    battler_enemy_y: 17
+    battler_altitude: 0
+    evolutions: []
+    form_names: []
+    regional_numbers:
+    shape:

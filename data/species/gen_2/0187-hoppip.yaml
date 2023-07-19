@@ -1,0 +1,109 @@
+187:
+    name: Hoppip
+    internal_name: HOPPIP
+    base_stats:
+        hp: 35
+        atk: 35
+        def_: 40
+        spa: 35
+        spd: 55
+        spe: 50
+    primary_type: GRASS
+    secondary_type: FLYING
+    gender_ratio: 3
+    growth_rate: 3
+    exp_yield: 50
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 1
+        spe: 0
+    catch_rate: 255
+    caught_happiness: 70
+    raw_abilities:
+        - CHLOROPHYLL
+        - LEAFGUARD
+    raw_hidden_ability: INFILTRATOR
+    raw_level_up_moves:
+        - at_level: '1'
+          name: SPLASH
+        - at_level: '1'
+          name: ABSORB
+        - at_level: '4'
+          name: SYNTHESIS
+        - at_level: '6'
+          name: TAILWHIP
+        - at_level: '8'
+          name: TACKLE
+        - at_level: '10'
+          name: FAIRYWIND
+        - at_level: '12'
+          name: POISONPOWDER
+        - at_level: '14'
+          name: STUNSPORE
+        - at_level: '16'
+          name: SLEEPPOWDER
+        - at_level: '19'
+          name: BULLETSEED
+        - at_level: '22'
+          name: LEECHSEED
+        - at_level: '25'
+          name: MEGADRAIN
+        - at_level: '28'
+          name: ACROBATICS
+        - at_level: '31'
+          name: RAGEPOWDER
+        - at_level: '34'
+          name: COTTONSPORE
+        - at_level: '37'
+          name: UTURN
+        - at_level: '40'
+          name: WORRYSEED
+        - at_level: '43'
+          name: GIGADRAIN
+        - at_level: '46'
+          name: BOUNCE
+        - at_level: '49'
+          name: MEMENTO
+    raw_egg_moves:
+        - AMNESIA
+        - AROMATHERAPY
+        - CONFUSION
+        - COTTONGUARD
+        - DOUBLEEDGE
+        - ENCORE
+        - ENDURE
+        - GRASSYTERRAIN
+        - HELPINGHAND
+        - SEEDBOMB
+        - STRENGTHSAP
+        - WORRYSEED
+    raw_tms: []
+    compatible_egg_groups:
+        - 5
+        - 6
+    steps_to_hatch: 5355
+    height: 0.4
+    weight: 0.5
+    colour: Pink
+    habitat: Grassland
+    kind: Cottonweed
+    pokedex_entry: This Pokémon drifts with the wind. If it senses the approach of
+        strong winds, a Hoppip links leaves with others to prepare against being blown
+        away.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 31
+    battler_enemy_y: 20
+    battler_altitude: 13
+    evolutions:
+        - into_name: SKIPLOOM
+          condition: Level
+          parameter: '18'
+    form_names: []
+    regional_numbers:
+    shape:

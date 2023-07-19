@@ -1,0 +1,80 @@
+828:
+    name: Thievul
+    internal_name: THIEVUL
+    base_stats:
+        hp: 70
+        atk: 58
+        def_: 58
+        spa: 87
+        spd: 92
+        spe: 90
+    primary_type: DARK
+    secondary_type:
+    gender_ratio: 3
+    growth_rate: 0
+    exp_yield: 159
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 2
+        spe: 0
+    catch_rate: 127
+    caught_happiness: 50
+    raw_abilities:
+        - RUNAWAY
+        - UNBURDEN
+    raw_hidden_ability: STAKEOUT
+    raw_level_up_moves:
+        - at_level: '0'
+          name: THIEF
+        - at_level: '1'
+          name: THIEF
+        - at_level: '1'
+          name: QUICKATTACK
+        - at_level: '1'
+          name: TAILWHIP
+        - at_level: '4'
+          name: BEATUP
+        - at_level: '8'
+          name: HONECLAWS
+        - at_level: '12'
+          name: SNARL
+        - at_level: '16'
+          name: ASSURANCE
+        - at_level: '22'
+          name: NASTYPLOT
+        - at_level: '28'
+          name: SUCKERPUNCH
+        - at_level: '34'
+          name: NIGHTSLASH
+        - at_level: '40'
+          name: TAILSLAP
+        - at_level: '46'
+          name: FOULPLAY
+        - at_level: '52'
+          name: PARTINGSHOT
+    raw_egg_moves: []
+    raw_tms: []
+    compatible_egg_groups:
+        - 4
+    steps_to_hatch: 3840
+    height: 1.2
+    weight: 19.9
+    colour: Brown
+    habitat:
+    kind: Fox
+    pokedex_entry: With a lithe body and sharp claws, it goes around stealing food
+        and eggs. Boltund is its natural enemy.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 21
+    battler_enemy_y: 26
+    battler_altitude: 0
+    evolutions: []
+    form_names: []
+    regional_numbers: 828
+    shape:

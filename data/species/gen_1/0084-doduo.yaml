@@ -1,0 +1,98 @@
+84:
+    name: Doduo
+    internal_name: DODUO
+    base_stats:
+        hp: 35
+        atk: 85
+        def_: 45
+        spa: 35
+        spd: 35
+        spe: 75
+    primary_type: NORMAL
+    secondary_type: FLYING
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 62
+    ev_yield:
+        hp: 0
+        atk: 1
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 190
+    caught_happiness: 70
+    raw_abilities:
+        - RUNAWAY
+        - EARLYBIRD
+    raw_hidden_ability: TANGLEDFEET
+    raw_level_up_moves:
+        - at_level: '1'
+          name: PECK
+        - at_level: '1'
+          name: GROWL
+        - at_level: '5'
+          name: QUICKATTACK
+        - at_level: '8'
+          name: RAGE
+        - at_level: '12'
+          name: FURYATTACK
+        - at_level: '15'
+          name: PURSUIT
+        - at_level: '19'
+          name: PLUCK
+        - at_level: '22'
+          name: DOUBLEHIT
+        - at_level: '26'
+          name: AGILITY
+        - at_level: '29'
+          name: UPROAR
+        - at_level: '33'
+          name: ACUPRESSURE
+        - at_level: '36'
+          name: SWORDSDANCE
+        - at_level: '40'
+          name: JUMPKICK
+        - at_level: '43'
+          name: DRILLPECK
+        - at_level: '47'
+          name: ENDEAVOR
+        - at_level: '50'
+          name: THRASH
+    raw_egg_moves:
+        - ASSURANCE
+        - BRAVEBIRD
+        - ENDEAVOR
+        - FEINTATTACK
+        - FLAIL
+        - HAZE
+        - MIRRORMOVE
+        - NATURALGIFT
+        - QUICKATTACK
+        - SUPERSONIC
+    raw_tms: []
+    compatible_egg_groups:
+        - 3
+    steps_to_hatch: 5355
+    height: 1.4
+    weight: 39.2
+    colour: Brown
+    habitat: Grassland
+    kind: Twin Bird
+    pokedex_entry: Even while eating or sleeping, one of the heads remains always
+        vigilant for any sign of danger. When threatened, it flees at over 60 miles
+        per hour.
+    wild_items:
+        common:
+        uncommon: SHARPBEAK
+        rare:
+    battler_player_y: 21
+    battler_enemy_y: 15
+    battler_altitude: 0
+    evolutions:
+        - into_name: DODRIO
+          condition: Level
+          parameter: '31'
+    form_names: []
+    regional_numbers:
+    shape:

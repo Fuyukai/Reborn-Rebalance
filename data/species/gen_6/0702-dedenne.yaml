@@ -1,0 +1,90 @@
+702:
+    name: Dedenne
+    internal_name: DEDENNE
+    base_stats:
+        hp: 67
+        atk: 58
+        def_: 57
+        spa: 81
+        spd: 67
+        spe: 101
+    primary_type: ELECTRIC
+    secondary_type: FAIRY
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 151
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 2
+    catch_rate: 200
+    caught_happiness: 70
+    raw_abilities:
+        - CHEEKPOUCH
+        - PICKUP
+    raw_hidden_ability: PLUS
+    raw_level_up_moves:
+        - at_level: '1'
+          name: TACKLE
+        - at_level: '1'
+          name: TAILWHIP
+        - at_level: '7'
+          name: THUNDERSHOCK
+        - at_level: '11'
+          name: CHARGE
+        - at_level: '14'
+          name: CHARM
+        - at_level: '17'
+          name: PARABOLICCHARGE
+        - at_level: '20'
+          name: NUZZLE
+        - at_level: '23'
+          name: THUNDERWAVE
+        - at_level: '26'
+          name: VOLTSWITCH
+        - at_level: '30'
+          name: REST
+        - at_level: '31'
+          name: SNORE
+        - at_level: '34'
+          name: CHARGEBEAM
+        - at_level: '39'
+          name: ENTRAINMENT
+        - at_level: '42'
+          name: PLAYROUGH
+        - at_level: '45'
+          name: THUNDER
+        - at_level: '50'
+          name: DISCHARGE
+    raw_egg_moves:
+        - COVET
+        - EERIEIMPULSE
+        - NATURALGIFT
+        - HELPINGHAND
+        - TEARFULLOOK
+    raw_tms: []
+    compatible_egg_groups:
+        - 4
+        - 5
+    steps_to_hatch: 5120
+    height: 0.2
+    weight: 2.2
+    colour: Yellow
+    habitat:
+    kind: Antenna
+    pokedex_entry: It uses its tail to absorb electricity from power plants or from
+        outlets in houses, and then it fires the electricity from its whiskers.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 25
+    battler_enemy_y: 20
+    battler_altitude: 0
+    evolutions: []
+    form_names: []
+    regional_numbers:
+    shape:

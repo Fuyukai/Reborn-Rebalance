@@ -1,0 +1,83 @@
+273:
+    name: Seedot
+    internal_name: SEEDOT
+    base_stats:
+        hp: 40
+        atk: 40
+        def_: 50
+        spa: 30
+        spd: 30
+        spe: 30
+    primary_type: GRASS
+    secondary_type:
+    gender_ratio: 3
+    growth_rate: 3
+    exp_yield: 44
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 1
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 255
+    caught_happiness: 70
+    raw_abilities:
+        - CHLOROPHYLL
+        - EARLYBIRD
+    raw_hidden_ability: PICKPOCKET
+    raw_level_up_moves:
+        - at_level: '1'
+          name: BIDE
+        - at_level: '3'
+          name: HARDEN
+        - at_level: '9'
+          name: GROWTH
+        - at_level: '15'
+          name: NATUREPOWER
+        - at_level: '21'
+          name: SYNTHESIS
+        - at_level: '27'
+          name: SUNNYDAY
+        - at_level: '33'
+          name: EXPLOSION
+    raw_egg_moves:
+        - AMNESIA
+        - BEATUP
+        - BULLETSEED
+        - DEFOG
+        - FOULPLAY
+        - GRASSYTERRAIN
+        - LEECHSEED
+        - NASTYPLOT
+        - POWERSWAP
+        - QUICKATTACK
+        - RAZORWIND
+        - TAKEDOWN
+        - WORRYSEED
+    raw_tms: []
+    compatible_egg_groups:
+        - 4
+        - 6
+    steps_to_hatch: 4080
+    height: 0.5
+    weight: 4.0
+    colour: Brown
+    habitat: Forest
+    kind: Acorn
+    pokedex_entry: It hangs off branches and absorbs nutrients. When it finishes eating,
+        its body becomes so heavy that it drops to the ground with a thump.
+    wild_items:
+        common:
+        uncommon: POWERHERB
+        rare:
+    battler_player_y: 29
+    battler_enemy_y: 24
+    battler_altitude: 0
+    evolutions:
+        - into_name: NUZLEAF
+          condition: Level
+          parameter: '14'
+    form_names: []
+    regional_numbers:
+    shape:

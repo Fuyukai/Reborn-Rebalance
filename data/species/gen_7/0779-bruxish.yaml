@@ -1,0 +1,80 @@
+779:
+    name: Bruxish
+    internal_name: BRUXISH
+    base_stats:
+        hp: 68
+        atk: 105
+        def_: 70
+        spa: 70
+        spd: 70
+        spe: 92
+    primary_type: WATER
+    secondary_type: PSYCHIC
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 166
+    ev_yield:
+        hp: 0
+        atk: 2
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 80
+    caught_happiness: 70
+    raw_abilities:
+        - DAZZLING
+        - STRONGJAW
+    raw_hidden_ability: WONDERSKIN
+    raw_level_up_moves:
+        - at_level: '1'
+          name: WATERGUN
+        - at_level: '4'
+          name: ASTONISH
+        - at_level: '9'
+          name: CONFUSION
+        - at_level: '12'
+          name: BITE
+        - at_level: '17'
+          name: AQUAJET
+        - at_level: '20'
+          name: DISABLE
+        - at_level: '25'
+          name: PSYWAVE
+        - at_level: '28'
+          name: CRUNCH
+        - at_level: '33'
+          name: AQUATAIL
+        - at_level: '36'
+          name: SCREECH
+        - at_level: '41'
+          name: PSYCHICFANGS
+        - at_level: '44'
+          name: SYNCHRONOISE
+    raw_egg_moves:
+        - ICEFANG
+        - POISONFANG
+        - RAGE
+        - WATERPULSE
+    raw_tms: []
+    compatible_egg_groups:
+        - 11
+    steps_to_hatch: 3840
+    height: 0.9
+    weight: 19.0
+    colour: Pink
+    habitat:
+    kind: Gnash Teeth
+    pokedex_entry: It stuns its prey with psychokinesis and then grinds it to mush
+        with its strong teeth. Even Shellder's shell is no match for it.
+    wild_items:
+        common:
+        uncommon: RAZORFANG
+        rare:
+    battler_player_y: 30
+    battler_enemy_y: 24
+    battler_altitude: 5
+    evolutions: []
+    form_names: []
+    regional_numbers:
+    shape:

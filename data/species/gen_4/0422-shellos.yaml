@@ -1,0 +1,94 @@
+422:
+    name: Shellos
+    internal_name: SHELLOS
+    base_stats:
+        hp: 76
+        atk: 48
+        def_: 48
+        spa: 57
+        spd: 62
+        spe: 34
+    primary_type: WATER
+    secondary_type:
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 65
+    ev_yield:
+        hp: 1
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 190
+    caught_happiness: 70
+    raw_abilities:
+        - STICKYHOLD
+        - STORMDRAIN
+    raw_hidden_ability: SANDFORCE
+    raw_level_up_moves:
+        - at_level: '1'
+          name: MUDSLAP
+        - at_level: '2'
+          name: MUDSPORT
+        - at_level: '4'
+          name: HARDEN
+        - at_level: '7'
+          name: WATERPULSE
+        - at_level: '11'
+          name: MUDBOMB
+        - at_level: '16'
+          name: HIDDENPOWER
+        - at_level: '22'
+          name: RAINDANCE
+        - at_level: '29'
+          name: BODYSLAM
+        - at_level: '37'
+          name: MUDDYWATER
+        - at_level: '46'
+          name: RECOVER
+    raw_egg_moves:
+        - ACIDARMOR
+        - AMNESIA
+        - BRINE
+        - CLEARSMOG
+        - COUNTER
+        - CURSE
+        - FISSURE
+        - MEMENTO
+        - MIRRORCOAT
+        - MIST
+        - SLUDGE
+        - SPITUP
+        - STOCKPILE
+        - SWALLOW
+        - TRUMPCARD
+        - YAWN
+    raw_tms: []
+    compatible_egg_groups:
+        - 1
+        - 10
+    steps_to_hatch: 5355
+    height: 0.3
+    weight: 6.3
+    colour: Purple
+    habitat:
+    kind: Sea Slug
+    pokedex_entry: Its colors and shapes differ from region to region. In the Sinnoh
+        region, two types are confirmed.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 29
+    battler_enemy_y: 23
+    battler_altitude: 0
+    evolutions:
+        - into_name: GASTRODON
+          condition: Level
+          parameter: '30'
+    form_names:
+        - West Sea
+        - East Sea
+    regional_numbers:
+    shape:

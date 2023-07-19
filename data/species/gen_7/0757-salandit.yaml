@@ -1,0 +1,89 @@
+757:
+    name: Salandit
+    internal_name: SALANDIT
+    base_stats:
+        hp: 48
+        atk: 44
+        def_: 40
+        spa: 71
+        spd: 40
+        spe: 77
+    primary_type: POISON
+    secondary_type: FIRE
+    gender_ratio: 1
+    growth_rate: 1
+    exp_yield: 64
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 1
+    catch_rate: 120
+    caught_happiness: 70
+    raw_abilities:
+        - CORROSION
+        - OBLIVIOUS
+    raw_hidden_ability:
+    raw_level_up_moves:
+        - at_level: '1'
+          name: SCRATCH
+        - at_level: '1'
+          name: POISONGAS
+        - at_level: '5'
+          name: EMBER
+        - at_level: '8'
+          name: SWEETSCENT
+        - at_level: '13'
+          name: DRAGONRAGE
+        - at_level: '16'
+          name: SMOG
+        - at_level: '21'
+          name: DOUBLESLAP
+        - at_level: '24'
+          name: FLAMEBURST
+        - at_level: '29'
+          name: TOXIC
+        - at_level: '32'
+          name: NASTYPLOT
+        - at_level: '37'
+          name: VENOSHOCK
+        - at_level: '40'
+          name: FLAMETHROWER
+        - at_level: '45'
+          name: VENOMDRENCH
+        - at_level: '48'
+          name: DRAGONPULSE
+    raw_egg_moves:
+        - BELCH
+        - FAKEOUT
+        - KNOCKOFF
+        - SANDATTACK
+        - SNATCH
+    raw_tms: []
+    compatible_egg_groups:
+        - 0
+        - 13
+    steps_to_hatch: 5120
+    height: 0.6
+    weight: 4.8
+    colour: Black
+    habitat:
+    kind: Toxic Lizard
+    pokedex_entry: It burns its bodily fluids to create a poisonous gas. When its
+        enemies become disoriented from inhaling the gas, it attacks them.
+    wild_items:
+        common:
+        uncommon: SMOKEBALL
+        rare:
+    battler_player_y: 21
+    battler_enemy_y: 29
+    battler_altitude: 0
+    evolutions:
+        - into_name: SALAZZLE
+          condition: LevelFemale
+          parameter: '33'
+    form_names: []
+    regional_numbers:
+    shape:

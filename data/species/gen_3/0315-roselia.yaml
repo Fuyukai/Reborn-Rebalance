@@ -1,0 +1,106 @@
+315:
+    name: Roselia
+    internal_name: ROSELIA
+    base_stats:
+        hp: 50
+        atk: 60
+        def_: 45
+        spa: 100
+        spd: 80
+        spe: 65
+    primary_type: GRASS
+    secondary_type: POISON
+    gender_ratio: 3
+    growth_rate: 3
+    exp_yield: 140
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 2
+        spd: 0
+        spe: 0
+    catch_rate: 150
+    caught_happiness: 70
+    raw_abilities:
+        - NATURALCURE
+        - POISONPOINT
+    raw_hidden_ability: LEAFGUARD
+    raw_level_up_moves:
+        - at_level: '1'
+          name: ABSORB
+        - at_level: '4'
+          name: GROWTH
+        - at_level: '7'
+          name: POISONSTING
+        - at_level: '10'
+          name: STUNSPORE
+        - at_level: '13'
+          name: MEGADRAIN
+        - at_level: '16'
+          name: LEECHSEED
+        - at_level: '19'
+          name: MAGICALLEAF
+        - at_level: '22'
+          name: GRASSWHISTLE
+        - at_level: '25'
+          name: GIGADRAIN
+        - at_level: '28'
+          name: TOXICSPIKES
+        - at_level: '31'
+          name: SWEETSCENT
+        - at_level: '34'
+          name: INGRAIN
+        - at_level: '37'
+          name: PETALBLIZZARD
+        - at_level: '40'
+          name: TOXIC
+        - at_level: '43'
+          name: AROMATHERAPY
+        - at_level: '46'
+          name: SYNTHESIS
+        - at_level: '50'
+          name: PETALDANCE
+    raw_egg_moves:
+        - BULLETSEED
+        - COTTONSPORE
+        - GIGADRAIN
+        - GRASSWHISTLE
+        - LEAFSTORM
+        - MINDREADER
+        - NATURALGIFT
+        - PINMISSILE
+        - POWERWHIP
+        - RAZORLEAF
+        - SEEDBOMB
+        - SLEEPPOWDER
+        - SPIKES
+        - SYNTHESIS
+        - LIFEDEW
+    raw_tms: []
+    compatible_egg_groups:
+        - 5
+        - 6
+    steps_to_hatch: 5355
+    height: 0.3
+    weight: 2.0
+    colour: Green
+    habitat: Grassland
+    kind: Thorn
+    pokedex_entry: A Roselia that drinks nutritionally rich springwater blooms with
+        lovely flowers. The fragrance of its flowers has the effect of making its
+        foes careless.
+    wild_items:
+        common:
+        uncommon: POISONBARB
+        rare:
+    battler_player_y: 25
+    battler_enemy_y: 20
+    battler_altitude: 0
+    evolutions:
+        - into_name: ROSERADE
+          condition: Item
+          parameter: SHINYSTONE
+    form_names: []
+    regional_numbers:
+    shape:

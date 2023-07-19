@@ -1,0 +1,100 @@
+887:
+    name: Dragapult
+    internal_name: DRAGAPULT
+    base_stats:
+        hp: 88
+        atk: 120
+        def_: 75
+        spa: 100
+        spd: 75
+        spe: 142
+    primary_type: DRAGON
+    secondary_type: GHOST
+    gender_ratio: 3
+    growth_rate: 2
+    exp_yield: 300
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 3
+    catch_rate: 45
+    caught_happiness: 50
+    raw_abilities:
+        - CLEARBODY
+        - INFILTRATOR
+    raw_hidden_ability: CURSEDBODY
+    raw_level_up_moves:
+        - at_level: '0'
+          name: DRAGONDARTS
+        - at_level: '1'
+          name: DRAGONDARTS
+        - at_level: '1'
+          name: DRAGONPULSE
+        - at_level: '1'
+          name: ASTONISH
+        - at_level: '1'
+          name: INFESTATION
+        - at_level: '1'
+          name: QUICKATTACK
+        - at_level: '1'
+          name: BITE
+        - at_level: '6'
+          name: LOCKON
+        - at_level: '12'
+          name: ASSURANCE
+        - at_level: '18'
+          name: HEX
+        - at_level: '24'
+          name: AGILITY
+        - at_level: '30'
+          name: DOUBLEHIT
+        - at_level: '36'
+          name: UTURN
+        - at_level: '42'
+          name: DRAGONDANCE
+        - at_level: '48'
+          name: PHANTOMFORCE
+        - at_level: '54'
+          name: TAKEDOWN
+        - at_level: '63'
+          name: DRAGONRUSH
+        - at_level: '70'
+          name: DOUBLEEDGE
+        - at_level: '78'
+          name: LASTRESORT
+        - at_level: '82'
+          name: POLTERGEIST
+    raw_egg_moves:
+        - CURSE
+        - GRUDGE
+        - CONFUSERAY
+        - DOUBLETEAM
+        - DISABLE
+        - DRAGONTAIL
+        - SUCKERPUNCH
+    raw_tms: []
+    compatible_egg_groups:
+        - 10
+        - 13
+    steps_to_hatch: 10240
+    height: 3.0
+    weight: 50.0
+    colour: Green
+    habitat:
+    kind: Stealth
+    pokedex_entry: Apparently the Dreepy inside Dragapult's horns eagerly look forward
+        to being launched out at Mach speeds.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 21
+    battler_enemy_y: 26
+    battler_altitude: 0
+    evolutions: []
+    form_names: []
+    regional_numbers: 887
+    shape:

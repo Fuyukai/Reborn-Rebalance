@@ -1,0 +1,88 @@
+2:
+    name: Ivysaur
+    internal_name: IVYSAUR
+    base_stats:
+        hp: 60
+        atk: 62
+        def_: 63
+        spa: 80
+        spd: 80
+        spe: 60
+    primary_type: GRASS
+    secondary_type: POISON
+    gender_ratio: 1
+    growth_rate: 3
+    exp_yield: 142
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 1
+        spd: 1
+        spe: 0
+    catch_rate: 45
+    caught_happiness: 70
+    raw_abilities:
+        - OVERGROW
+        - CHLOROPHYLL
+    raw_hidden_ability:
+    raw_level_up_moves:
+        - at_level: '1'
+          name: TACKLE
+        - at_level: '1'
+          name: GROWL
+        - at_level: '1'
+          name: LEECHSEED
+        - at_level: '3'
+          name: GROWL
+        - at_level: '7'
+          name: LEECHSEED
+        - at_level: '9'
+          name: VINEWHIP
+        - at_level: '13'
+          name: POISONPOWDER
+        - at_level: '13'
+          name: SLEEPPOWDER
+        - at_level: '15'
+          name: TAKEDOWN
+        - at_level: '20'
+          name: RAZORLEAF
+        - at_level: '23'
+          name: SWEETSCENT
+        - at_level: '28'
+          name: GROWTH
+        - at_level: '31'
+          name: DOUBLEEDGE
+        - at_level: '36'
+          name: WORRYSEED
+        - at_level: '39'
+          name: SYNTHESIS
+        - at_level: '44'
+          name: SOLARBEAM
+    raw_egg_moves: []
+    raw_tms: []
+    compatible_egg_groups:
+        - 0
+        - 6
+    steps_to_hatch: 5355
+    height: 1.0
+    weight: 13.0
+    colour: Green
+    habitat: Grassland
+    kind: Seed
+    pokedex_entry: To support its bulb, Ivysaur's legs grow sturdy. If it spends more
+        time lying in the sunlight, the bud will soon bloom into a large flower.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 24
+    battler_enemy_y: 21
+    battler_altitude: 0
+    evolutions:
+        - into_name: VENUSAUR
+          condition: Level
+          parameter: '32'
+    form_names: []
+    regional_numbers:
+    shape:

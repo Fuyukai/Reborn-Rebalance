@@ -1,0 +1,68 @@
+549:
+    name: Lilligant
+    internal_name: LILLIGANT
+    base_stats:
+        hp: 70
+        atk: 60
+        def_: 75
+        spa: 110
+        spd: 75
+        spe: 90
+    primary_type: GRASS
+    secondary_type:
+    gender_ratio: 6
+    growth_rate: 1
+    exp_yield: 168
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 2
+        spd: 0
+        spe: 0
+    catch_rate: 75
+    caught_happiness: 70
+    raw_abilities:
+        - CHLOROPHYLL
+        - OWNTEMPO
+    raw_hidden_ability: LEAFGUARD
+    raw_level_up_moves:
+        - at_level: '1'
+          name: GROWTH
+        - at_level: '1'
+          name: LEECHSEED
+        - at_level: '1'
+          name: MEGADRAIN
+        - at_level: '1'
+          name: SYNTHESIS
+        - at_level: '10'
+          name: TEETERDANCE
+        - at_level: '28'
+          name: QUIVERDANCE
+        - at_level: '46'
+          name: PETALDANCE
+        - at_level: '50'
+          name: PETALBLIZZARD
+    raw_egg_moves: []
+    raw_tms: []
+    compatible_egg_groups:
+        - 6
+    steps_to_hatch: 5120
+    height: 1.1
+    weight: 16.3
+    colour: Green
+    habitat:
+    kind: Flowering
+    pokedex_entry: The fragrance of the garland on its head has a relaxing effect.
+        It withers if a Trainer does not take good care of it.
+    wild_items:
+        common:
+        uncommon: ABSORBBULB
+        rare:
+    battler_player_y: 16
+    battler_enemy_y: 19
+    battler_altitude: 0
+    evolutions: []
+    form_names: []
+    regional_numbers:
+    shape:

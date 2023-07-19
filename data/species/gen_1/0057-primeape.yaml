@@ -1,0 +1,99 @@
+57:
+    name: Primeape
+    internal_name: PRIMEAPE
+    base_stats:
+        hp: 65
+        atk: 105
+        def_: 60
+        spa: 60
+        spd: 70
+        spe: 95
+    primary_type: FIGHTING
+    secondary_type:
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 159
+    ev_yield:
+        hp: 0
+        atk: 2
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 75
+    caught_happiness: 70
+    raw_abilities:
+        - VITALSPIRIT
+        - ANGERPOINT
+    raw_hidden_ability: DEFIANT
+    raw_level_up_moves:
+        - at_level: '0'
+          name: RAGE
+        - at_level: '1'
+          name: FINALGAMBIT
+        - at_level: '1'
+          name: FLING
+        - at_level: '1'
+          name: SCRATCH
+        - at_level: '1'
+          name: LOWKICK
+        - at_level: '1'
+          name: LEER
+        - at_level: '1'
+          name: FOCUSENERGY
+        - at_level: '5'
+          name: FURYSWIPES
+        - at_level: '8'
+          name: KARATECHOP
+        - at_level: '12'
+          name: PURSUIT
+        - at_level: '15'
+          name: SEISMICTOSS
+        - at_level: '19'
+          name: SWAGGER
+        - at_level: '22'
+          name: CROSSCHOP
+        - at_level: '26'
+          name: ASSURANCE
+        - at_level: '30'
+          name: PUNISHMENT
+        - at_level: '35'
+          name: THRASH
+        - at_level: '39'
+          name: CLOSECOMBAT
+        - at_level: '42'
+          name: RAGEFIST
+        - at_level: '45'
+          name: SCREECH
+        - at_level: '48'
+          name: STOMPINGTANTRUM
+        - at_level: '53'
+          name: OUTRAGE
+        - at_level: '57'
+          name: FINALGAMBIT
+    raw_egg_moves: []
+    raw_tms: []
+    compatible_egg_groups:
+        - 4
+    steps_to_hatch: 5355
+    height: 1.0
+    weight: 32.0
+    colour: Brown
+    habitat: Mountain
+    kind: Pig Monkey
+    pokedex_entry: It has been known to become so angry that it dies as a result.
+        Its face looks peaceful in death, however.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 21
+    battler_enemy_y: 14
+    battler_altitude: 0
+    evolutions:
+        - into_name: ANNIHILAPE
+          condition: HasMove
+          parameter: RAGEFIST
+    form_names: []
+    regional_numbers:
+    shape:

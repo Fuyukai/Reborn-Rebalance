@@ -1,0 +1,100 @@
+566:
+    name: Archen
+    internal_name: ARCHEN
+    base_stats:
+        hp: 55
+        atk: 112
+        def_: 45
+        spa: 74
+        spd: 45
+        spe: 70
+    primary_type: ROCK
+    secondary_type: FLYING
+    gender_ratio: 1
+    growth_rate: 1
+    exp_yield: 71
+    ev_yield:
+        hp: 0
+        atk: 1
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 45
+    caught_happiness: 70
+    raw_abilities:
+        - DEFEATIST
+    raw_hidden_ability:
+    raw_level_up_moves:
+        - at_level: '1'
+          name: QUICKATTACK
+        - at_level: '1'
+          name: LEER
+        - at_level: '1'
+          name: WINGATTACK
+        - at_level: '5'
+          name: ROCKTHROW
+        - at_level: '8'
+          name: DOUBLETEAM
+        - at_level: '11'
+          name: SCARYFACE
+        - at_level: '15'
+          name: PLUCK
+        - at_level: '18'
+          name: ANCIENTPOWER
+        - at_level: '21'
+          name: AGILITY
+        - at_level: '25'
+          name: QUICKGUARD
+        - at_level: '28'
+          name: ACROBATICS
+        - at_level: '31'
+          name: DRAGONBREATH
+        - at_level: '35'
+          name: CRUNCH
+        - at_level: '38'
+          name: ENDEAVOR
+        - at_level: '41'
+          name: UTURN
+        - at_level: '45'
+          name: ROCKSLIDE
+        - at_level: '48'
+          name: DRAGONCLAW
+        - at_level: '50'
+          name: THRASH
+    raw_egg_moves:
+        - ALLYSWITCH
+        - BITE
+        - DEFOG
+        - DRAGONPULSE
+        - EARTHPOWER
+        - HEADSMASH
+        - KNOCKOFF
+        - STEELWING
+        - SWITCHEROO
+    raw_tms: []
+    compatible_egg_groups:
+        - 3
+        - 8
+    steps_to_hatch: 7680
+    height: 0.5
+    weight: 9.5
+    colour: Yellow
+    habitat:
+    kind: First Bird
+    pokedex_entry: Revived from a fossil, this Pokémon is thought to be the ancestor
+        of all bird Pokémon.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 30
+    battler_enemy_y: 33
+    battler_altitude: 0
+    evolutions:
+        - into_name: ARCHEOPS
+          condition: Level
+          parameter: '37'
+    form_names: []
+    regional_numbers:
+    shape:

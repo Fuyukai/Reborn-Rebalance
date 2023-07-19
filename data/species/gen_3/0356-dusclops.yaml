@@ -1,0 +1,104 @@
+356:
+    name: Dusclops
+    internal_name: DUSCLOPS
+    base_stats:
+        hp: 40
+        atk: 70
+        def_: 130
+        spa: 60
+        spd: 130
+        spe: 25
+    primary_type: GHOST
+    secondary_type:
+    gender_ratio: 3
+    growth_rate: 0
+    exp_yield: 159
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 1
+        spa: 0
+        spd: 1
+        spe: 0
+    catch_rate: 90
+    caught_happiness: 35
+    raw_abilities:
+        - PRESSURE
+        - FRISK
+    raw_hidden_ability:
+    raw_level_up_moves:
+        - at_level: '0'
+          name: SHADOWPUNCH
+        - at_level: '1'
+          name: FUTURESIGHT
+        - at_level: '1'
+          name: FIREPUNCH
+        - at_level: '1'
+          name: ICEPUNCH
+        - at_level: '1'
+          name: THUNDERPUNCH
+        - at_level: '1'
+          name: GRAVITY
+        - at_level: '1'
+          name: BIND
+        - at_level: '1'
+          name: LEER
+        - at_level: '1'
+          name: NIGHTSHADE
+        - at_level: '1'
+          name: DISABLE
+        - at_level: '1'
+          name: ASTONISH
+        - at_level: '6'
+          name: DISABLE
+        - at_level: '9'
+          name: ASTONISH
+        - at_level: '14'
+          name: FORESIGHT
+        - at_level: '17'
+          name: SHADOWSNEAK
+        - at_level: '22'
+          name: PURSUIT
+        - at_level: '25'
+          name: WILLOWISP
+        - at_level: '30'
+          name: CONFUSERAY
+        - at_level: '33'
+          name: CURSE
+        - at_level: '40'
+          name: HEX
+        - at_level: '45'
+          name: SHADOWBALL
+        - at_level: '52'
+          name: MEANLOOK
+        - at_level: '57'
+          name: PAYBACK
+        - at_level: '64'
+          name: FUTURESIGHT
+    raw_egg_moves: []
+    raw_tms: []
+    compatible_egg_groups:
+        - 10
+    steps_to_hatch: 6630
+    height: 1.6
+    weight: 30.6
+    colour: Black
+    habitat: Forest
+    kind: Beckon
+    pokedex_entry: It is thought that its body is hollow with only a spectral ball
+        of fire burning inside. However, no one has been able to confirm this theory
+        as fact.
+    wild_items:
+        common:
+        uncommon: SPELLTAG
+        rare:
+    battler_player_y: 14
+    battler_enemy_y: 7
+    battler_altitude: 0
+    evolutions:
+        - into_name: DUSKNOIR
+          condition: TradeItem
+          parameter: REAPERCLOTH
+    form_names: []
+    regional_numbers:
+    shape:

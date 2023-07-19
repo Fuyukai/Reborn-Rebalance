@@ -1,0 +1,96 @@
+595:
+    name: Joltik
+    internal_name: JOLTIK
+    base_stats:
+        hp: 50
+        atk: 47
+        def_: 50
+        spa: 57
+        spd: 50
+        spe: 65
+    primary_type: BUG
+    secondary_type: ELECTRIC
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 64
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 1
+    catch_rate: 190
+    caught_happiness: 70
+    raw_abilities:
+        - COMPOUNDEYES
+        - UNNERVE
+    raw_hidden_ability: SWARM
+    raw_level_up_moves:
+        - at_level: '1'
+          name: STRINGSHOT
+        - at_level: '1'
+          name: ABSORB
+        - at_level: '1'
+          name: SPIDERWEB
+        - at_level: '4'
+          name: THUNDERWAVE
+        - at_level: '7'
+          name: SCREECH
+        - at_level: '12'
+          name: FURYCUTTER
+        - at_level: '15'
+          name: ELECTROWEB
+        - at_level: '18'
+          name: BUGBITE
+        - at_level: '23'
+          name: GASTROACID
+        - at_level: '26'
+          name: SLASH
+        - at_level: '29'
+          name: ELECTROBALL
+        - at_level: '34'
+          name: SIGNALBEAM
+        - at_level: '37'
+          name: AGILITY
+        - at_level: '40'
+          name: SUCKERPUNCH
+        - at_level: '45'
+          name: DISCHARGE
+        - at_level: '48'
+          name: BUGBUZZ
+    raw_egg_moves:
+        - CAMOUFLAGE
+        - CROSSPOISON
+        - DISABLE
+        - FEINTATTACK
+        - LUNGE
+        - PINMISSILE
+        - POISONSTING
+        - PURSUIT
+        - ROCKCLIMB
+    raw_tms: []
+    compatible_egg_groups:
+        - 2
+    steps_to_hatch: 5120
+    height: 0.1
+    weight: 0.6
+    colour: Yellow
+    habitat:
+    kind: Attaching
+    pokedex_entry: They attach themselves to large-bodied Pokémon and absorb static
+        electricity, which they store in an electric pouch.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 33
+    battler_enemy_y: 37
+    battler_altitude: 0
+    evolutions:
+        - into_name: GALVANTULA
+          condition: Level
+          parameter: '36'
+    form_names: []
+    regional_numbers:
+    shape:

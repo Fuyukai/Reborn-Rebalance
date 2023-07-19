@@ -1,0 +1,113 @@
+83:
+    name: Farfetch'd
+    internal_name: FARFETCHD
+    base_stats:
+        hp: 52
+        atk: 90
+        def_: 55
+        spa: 58
+        spd: 62
+        spe: 60
+    primary_type: NORMAL
+    secondary_type: FLYING
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 132
+    ev_yield:
+        hp: 0
+        atk: 1
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 45
+    caught_happiness: 70
+    raw_abilities:
+        - KEENEYE
+        - INNERFOCUS
+    raw_hidden_ability: DEFIANT
+    raw_level_up_moves:
+        - at_level: '1'
+          name: BRAVEBIRD
+        - at_level: '1'
+          name: POISONJAB
+        - at_level: '1'
+          name: PECK
+        - at_level: '1'
+          name: SANDATTACK
+        - at_level: '1'
+          name: LEER
+        - at_level: '1'
+          name: FURYCUTTER
+        - at_level: '7'
+          name: FURYATTACK
+        - at_level: '9'
+          name: AERIALACE
+        - at_level: '13'
+          name: KNOCKOFF
+        - at_level: '19'
+          name: SLASH
+        - at_level: '21'
+          name: AIRCUTTER
+        - at_level: '25'
+          name: SWORDSDANCE
+        - at_level: '31'
+          name: AGILITY
+        - at_level: '33'
+          name: NIGHTSLASH
+        - at_level: '37'
+          name: ACROBATICS
+        - at_level: '43'
+          name: FEINT
+        - at_level: '45'
+          name: FALSESWIPE
+        - at_level: '49'
+          name: AIRSLASH
+        - at_level: '55'
+          name: BRAVEBIRD
+    raw_egg_moves:
+        - COVET
+        - CURSE
+        - FEATHERDANCE
+        - FIRSTIMPRESSION
+        - FINALGAMBIT
+        - FLAIL
+        - FORESIGHT
+        - GUST
+        - LEAFBLADE
+        - MIRRORMOVE
+        - MUDSLAP
+        - NIGHTSLASH
+        - QUICKATTACK
+        - REVENGE
+        - ROOST
+        - SIMPLEBEAM
+        - STEELWING
+        - TRUMPCARD
+    raw_tms: []
+    compatible_egg_groups:
+        - 3
+        - 4
+    steps_to_hatch: 5355
+    height: 0.8
+    weight: 15.0
+    colour: Brown
+    habitat: Grassland
+    kind: Wild Duck
+    pokedex_entry: It is always seen with a stick from a plant. Apparently, there
+        are good sticks and bad sticks. This Pokémon occasionally fights over choice
+        sticks.
+    wild_items:
+        common:
+        uncommon: STICK
+        rare:
+    battler_player_y: 22
+    battler_enemy_y: 18
+    battler_altitude: 0
+    evolutions:
+        - into_name: SIRFETCHD
+          condition: Critted
+          parameter: ''
+    form_names: []
+    regional_numbers:
+    shape:

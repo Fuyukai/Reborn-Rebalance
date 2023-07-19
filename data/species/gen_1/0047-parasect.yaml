@@ -1,0 +1,86 @@
+47:
+    name: Parasect
+    internal_name: PARASECT
+    base_stats:
+        hp: 60
+        atk: 95
+        def_: 80
+        spa: 60
+        spd: 80
+        spe: 30
+    primary_type: BUG
+    secondary_type: GRASS
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 142
+    ev_yield:
+        hp: 0
+        atk: 2
+        def_: 1
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 75
+    caught_happiness: 70
+    raw_abilities:
+        - EFFECTSPORE
+        - DRYSKIN
+    raw_hidden_ability: DAMP
+    raw_level_up_moves:
+        - at_level: '1'
+          name: CROSSPOISON
+        - at_level: '1'
+          name: SCRATCH
+        - at_level: '1'
+          name: STUNSPORE
+        - at_level: '1'
+          name: POISONPOWDER
+        - at_level: '1'
+          name: ABSORB
+        - at_level: '6'
+          name: STUNSPORE
+        - at_level: '6'
+          name: POISONPOWDER
+        - at_level: '11'
+          name: ABSORB
+        - at_level: '17'
+          name: FURYCUTTER
+        - at_level: '22'
+          name: SPORE
+        - at_level: '29'
+          name: SLASH
+        - at_level: '37'
+          name: GROWTH
+        - at_level: '44'
+          name: GIGADRAIN
+        - at_level: '51'
+          name: AROMATHERAPY
+        - at_level: '59'
+          name: RAGEPOWDER
+        - at_level: '66'
+          name: XSCISSOR
+    raw_egg_moves: []
+    raw_tms: []
+    compatible_egg_groups:
+        - 2
+        - 6
+    steps_to_hatch: 5355
+    height: 1.0
+    weight: 29.5
+    colour: Red
+    habitat: Forest
+    kind: Mushroom
+    pokedex_entry: Parasect are known to infest the roots of large trees en masse
+        and drain nutrients. When an infested tree dies, they move onto another tree
+        all at once.
+    wild_items:
+        common: TINYMUSHROOM
+        uncommon: BIGMUSHROOM
+        rare:
+    battler_player_y: 22
+    battler_enemy_y: 16
+    battler_altitude: 0
+    evolutions: []
+    form_names: []
+    regional_numbers:
+    shape:

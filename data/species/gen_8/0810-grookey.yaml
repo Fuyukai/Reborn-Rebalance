@@ -1,0 +1,85 @@
+810:
+    name: Grookey
+    internal_name: GROOKEY
+    base_stats:
+        hp: 50
+        atk: 65
+        def_: 50
+        spa: 40
+        spd: 40
+        spe: 65
+    primary_type: GRASS
+    secondary_type:
+    gender_ratio: 1
+    growth_rate: 3
+    exp_yield: 62
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 1
+        spe: 0
+    catch_rate: 45
+    caught_happiness: 50
+    raw_abilities:
+        - OVERGROW
+        - GRASSYSURGE
+    raw_hidden_ability:
+    raw_level_up_moves:
+        - at_level: '1'
+          name: SCRATCH
+        - at_level: '1'
+          name: GROWL
+        - at_level: '6'
+          name: BRANCHPOKE
+        - at_level: '8'
+          name: TAUNT
+        - at_level: '12'
+          name: RAZORLEAF
+        - at_level: '17'
+          name: SCREECH
+        - at_level: '20'
+          name: KNOCKOFF
+        - at_level: '24'
+          name: SLAM
+        - at_level: '28'
+          name: UPROAR
+        - at_level: '32'
+          name: WOODHAMMER
+        - at_level: '36'
+          name: ENDEAVOR
+    raw_egg_moves:
+        - GROWTH
+        - HAMMERARM
+        - FAKEOUT
+        - STRENGTH
+        - NATUREPOWER
+        - WORRYSEED
+        - LEECHSEED
+    raw_tms: []
+    compatible_egg_groups:
+        - 4
+        - 6
+    steps_to_hatch: 5120
+    height: 0.3
+    weight: 5.0
+    colour: Green
+    habitat:
+    kind: Chimp
+    pokedex_entry: It attacks with rapid beats of its stick. As it strikes with amazing
+        speed, it gets more and more pumped.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 21
+    battler_enemy_y: 26
+    battler_altitude: 0
+    evolutions:
+        - into_name: THWACKEY
+          condition: Level
+          parameter: '16'
+    form_names: []
+    regional_numbers: 810
+    shape:

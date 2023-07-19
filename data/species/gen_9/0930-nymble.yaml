@@ -1,0 +1,83 @@
+930:
+    name: Nymble
+    internal_name: NYMBLE
+    base_stats:
+        hp: 33
+        atk: 46
+        def_: 40
+        spa: 21
+        spd: 25
+        spe: 45
+    primary_type: BUG
+    secondary_type:
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 64
+    ev_yield:
+        hp: 0
+        atk: 1
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 190
+    caught_happiness: 20
+    raw_abilities:
+        - SWARM
+        - TINTEDLENS
+    raw_hidden_ability:
+    raw_level_up_moves:
+        - at_level: '1'
+          name: TACKLE
+        - at_level: '1'
+          name: LEER
+        - at_level: '4'
+          name: STRUGGLEBUG
+        - at_level: '6'
+          name: ASTONISH
+        - at_level: '9'
+          name: ASSURANCE
+        - at_level: '11'
+          name: DOUBLEKICK
+        - at_level: '14'
+          name: SCREECH
+        - at_level: '18'
+          name: ENDURE
+        - at_level: '22'
+          name: BUGBITE
+        - at_level: '26'
+          name: FEINT
+        - at_level: '30'
+          name: AGILITY
+        - at_level: '38'
+          name: SUCKERPUNCH
+        - at_level: '41'
+          name: FIRSTIMPRESSION
+    raw_egg_moves:
+        - COUNTER
+        - SKITTERSMACK
+    raw_tms: []
+    compatible_egg_groups:
+        - 2
+    steps_to_hatch: 5140
+    height: 0.2
+    weight: 1.0
+    colour: Gray
+    habitat:
+    kind: Grasshopper
+    pokedex_entry: It has its third set of legs folded up. When it’s in a tough spot,
+        this Pokémon jumps over 30 feet using the strength of its legs.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 12
+    battler_enemy_y: 12
+    battler_altitude: 0
+    evolutions:
+        - into_name: LOKIX
+          condition: Level
+          parameter: '24'
+    form_names: []
+    regional_numbers:
+    shape:

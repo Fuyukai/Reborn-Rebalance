@@ -1,0 +1,93 @@
+529:
+    name: Drilbur
+    internal_name: DRILBUR
+    base_stats:
+        hp: 60
+        atk: 85
+        def_: 40
+        spa: 30
+        spd: 45
+        spe: 68
+    primary_type: GROUND
+    secondary_type:
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 66
+    ev_yield:
+        hp: 0
+        atk: 1
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 120
+    caught_happiness: 70
+    raw_abilities:
+        - SANDRUSH
+        - SANDFORCE
+    raw_hidden_ability: MOLDBREAKER
+    raw_level_up_moves:
+        - at_level: '1'
+          name: SCRATCH
+        - at_level: '1'
+          name: MUDSPORT
+        - at_level: '5'
+          name: RAPIDSPIN
+        - at_level: '8'
+          name: MUDSLAP
+        - at_level: '12'
+          name: FURYSWIPES
+        - at_level: '15'
+          name: METALCLAW
+        - at_level: '19'
+          name: DIG
+        - at_level: '22'
+          name: HONECLAWS
+        - at_level: '26'
+          name: SLASH
+        - at_level: '29'
+          name: ROCKSLIDE
+        - at_level: '33'
+          name: EARTHQUAKE
+        - at_level: '36'
+          name: SWORDSDANCE
+        - at_level: '40'
+          name: SANDSTORM
+        - at_level: '43'
+          name: DRILLRUN
+        - at_level: '47'
+          name: FISSURE
+    raw_egg_moves:
+        - CRUSHCLAW
+        - EARTHPOWER
+        - IRONDEFENSE
+        - METALSOUND
+        - RAPIDSPIN
+        - ROCKCLIMB
+        - SKULLBASH
+        - SUBMISSION
+    raw_tms: []
+    compatible_egg_groups:
+        - 4
+    steps_to_hatch: 5120
+    height: 0.3
+    weight: 8.5
+    colour: Gray
+    habitat:
+    kind: Mole
+    pokedex_entry: It makes its way swiftly through the soil by putting both claws
+        together and rotating at high speed.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 26
+    battler_enemy_y: 27
+    battler_altitude: 0
+    evolutions:
+        - into_name: EXCADRILL
+          condition: Level
+          parameter: '31'
+    form_names: []
+    regional_numbers:
+    shape:

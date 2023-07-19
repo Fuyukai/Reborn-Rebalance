@@ -1,0 +1,99 @@
+532:
+    name: Timburr
+    internal_name: TIMBURR
+    base_stats:
+        hp: 75
+        atk: 80
+        def_: 55
+        spa: 25
+        spd: 35
+        spe: 35
+    primary_type: FIGHTING
+    secondary_type:
+    gender_ratio: 2
+    growth_rate: 3
+    exp_yield: 61
+    ev_yield:
+        hp: 0
+        atk: 1
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 180
+    caught_happiness: 70
+    raw_abilities:
+        - GUTS
+        - SHEERFORCE
+    raw_hidden_ability: IRONFIST
+    raw_level_up_moves:
+        - at_level: '1'
+          name: POUND
+        - at_level: '1'
+          name: LEER
+        - at_level: '4'
+          name: FOCUSENERGY
+        - at_level: '8'
+          name: BIDE
+        - at_level: '12'
+          name: LOWKICK
+        - at_level: '16'
+          name: ROCKTHROW
+        - at_level: '20'
+          name: WAKEUPSLAP
+        - at_level: '24'
+          name: CHIPAWAY
+        - at_level: '28'
+          name: BULKUP
+        - at_level: '31'
+          name: ROCKSLIDE
+        - at_level: '34'
+          name: DYNAMICPUNCH
+        - at_level: '37'
+          name: SCARYFACE
+        - at_level: '40'
+          name: HAMMERARM
+        - at_level: '43'
+          name: STONEEDGE
+        - at_level: '46'
+          name: FOCUSPUNCH
+        - at_level: '49'
+          name: SUPERPOWER
+    raw_egg_moves:
+        - COMETPUNCH
+        - COUNTER
+        - DETECT
+        - DRAINPUNCH
+        - ENDURE
+        - FORCEPALM
+        - FORESIGHT
+        - MACHPUNCH
+        - POWERUPPUNCH
+        - REVERSAL
+        - SMELLINGSALTS
+        - WIDEGUARD
+    raw_tms: []
+    compatible_egg_groups:
+        - 7
+    steps_to_hatch: 5120
+    height: 0.6
+    weight: 12.5
+    colour: Gray
+    habitat:
+    kind: Muscular
+    pokedex_entry: These Pokémon appear at building sites and help out with construction.
+        They always carry squared logs.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 30
+    battler_enemy_y: 33
+    battler_altitude: 0
+    evolutions:
+        - into_name: GURDURR
+          condition: Level
+          parameter: '25'
+    form_names: []
+    regional_numbers:
+    shape:

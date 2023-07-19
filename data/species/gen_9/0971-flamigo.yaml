@@ -1,0 +1,85 @@
+971:
+    name: Flamigo
+    internal_name: FLAMIGO
+    base_stats:
+        hp: 82
+        atk: 115
+        def_: 74
+        spa: 75
+        spd: 64
+        spe: 90
+    primary_type: FLYING
+    secondary_type: FIGHTING
+    gender_ratio: 3
+    growth_rate: 3
+    exp_yield: 175
+    ev_yield:
+        hp: 0
+        atk: 2
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 100
+    caught_happiness: 50
+    raw_abilities:
+        - SCRAPPY
+        - TANGLEDFEET
+    raw_hidden_ability: COSTAR
+    raw_level_up_moves:
+        - at_level: ' 1'
+          name: PECK
+        - at_level: '1'
+          name: COPYCAT
+        - at_level: '5'
+          name: DOUBLEKICK
+        - at_level: '9'
+          name: DETECT
+        - at_level: '12'
+          name: WINGATTACK
+        - at_level: '15'
+          name: FOCUSENERGY
+        - at_level: '18'
+          name: LOWKICK
+        - at_level: '21'
+          name: FEINT
+        - at_level: '27'
+          name: PAYBACK
+        - at_level: '31'
+          name: ROOST
+        - at_level: '35'
+          name: AIRSLASH
+        - at_level: '39'
+          name: MEGAKICK
+        - at_level: '44'
+          name: WIDEGUARD
+        - at_level: '48'
+          name: THROATCHOP
+        - at_level: '54'
+          name: BRAVEBIRD
+    raw_egg_moves:
+        - ' DOUBLETEAM'
+        - SKYATTACK
+        - QUICKGUARD
+    raw_tms: []
+    compatible_egg_groups:
+        - 3
+    steps_to_hatch: 5140
+    height: 1.6
+    weight: 37.0
+    colour: Pink
+    habitat:
+    kind: Synchronize
+    pokedex_entry: This Pokémon apparently ties the base of its neck into a knot so
+        that the energy stored in its belly does not escape from its beak.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 12
+    battler_enemy_y: 12
+    battler_altitude: 0
+    evolutions: []
+    form_names: []
+    regional_numbers:
+    shape:

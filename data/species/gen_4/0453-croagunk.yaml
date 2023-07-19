@@ -1,0 +1,102 @@
+453:
+    name: Croagunk
+    internal_name: CROAGUNK
+    base_stats:
+        hp: 48
+        atk: 61
+        def_: 40
+        spa: 61
+        spd: 40
+        spe: 50
+    primary_type: POISON
+    secondary_type: FIGHTING
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 60
+    ev_yield:
+        hp: 0
+        atk: 1
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 140
+    caught_happiness: 100
+    raw_abilities:
+        - ANTICIPATION
+        - DRYSKIN
+    raw_hidden_ability: POISONTOUCH
+    raw_level_up_moves:
+        - at_level: '1'
+          name: ASTONISH
+        - at_level: '3'
+          name: MUDSLAP
+        - at_level: '8'
+          name: POISONSTING
+        - at_level: '10'
+          name: TAUNT
+        - at_level: '15'
+          name: PURSUIT
+        - at_level: '17'
+          name: FEINTATTACK
+        - at_level: '22'
+          name: REVENGE
+        - at_level: '24'
+          name: SWAGGER
+        - at_level: '29'
+          name: MUDBOMB
+        - at_level: '31'
+          name: SUCKERPUNCH
+        - at_level: '36'
+          name: VENOSHOCK
+        - at_level: '38'
+          name: NASTYPLOT
+        - at_level: '43'
+          name: POISONJAB
+        - at_level: '45'
+          name: SLUDGEBOMB
+        - at_level: '47'
+          name: BELCH
+        - at_level: '50'
+          name: FLATTER
+    raw_egg_moves:
+        - ACUPRESSURE
+        - BULLETPUNCH
+        - COUNTER
+        - CROSSCHOP
+        - DRAINPUNCH
+        - DYNAMICPUNCH
+        - FAKEOUT
+        - FEINT
+        - HEADBUTT
+        - MEFIRST
+        - MEDITATE
+        - QUICKGUARD
+        - SMELLINGSALTS
+        - VACUUMWAVE
+        - WAKEUPSLAP
+    raw_tms: []
+    compatible_egg_groups:
+        - 7
+    steps_to_hatch: 2805
+    height: 0.7
+    weight: 23.0
+    colour: Blue
+    habitat:
+    kind: Toxic Mouth
+    pokedex_entry: Its cheeks hold poison sacs. It tries to catch foes off guard to
+        jab them with toxic fingers.
+    wild_items:
+        common:
+        uncommon: BLACKSLUDGE
+        rare:
+    battler_player_y: 26
+    battler_enemy_y: 21
+    battler_altitude: 0
+    evolutions:
+        - into_name: TOXICROAK
+          condition: Level
+          parameter: '37'
+    form_names: []
+    regional_numbers:
+    shape:

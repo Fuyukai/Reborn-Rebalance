@@ -1,0 +1,94 @@
+239:
+    name: Elekid
+    internal_name: ELEKID
+    base_stats:
+        hp: 45
+        atk: 63
+        def_: 37
+        spa: 65
+        spd: 55
+        spe: 95
+    primary_type: ELECTRIC
+    secondary_type:
+    gender_ratio: 2
+    growth_rate: 1
+    exp_yield: 72
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 1
+    catch_rate: 45
+    caught_happiness: 70
+    raw_abilities:
+        - STATIC
+        - VITALSPIRIT
+    raw_hidden_ability:
+    raw_level_up_moves:
+        - at_level: '1'
+          name: QUICKATTACK
+        - at_level: '1'
+          name: LEER
+        - at_level: '5'
+          name: THUNDERSHOCK
+        - at_level: '8'
+          name: LOWKICK
+        - at_level: '12'
+          name: SWIFT
+        - at_level: '15'
+          name: SHOCKWAVE
+        - at_level: '19'
+          name: THUNDERWAVE
+        - at_level: '22'
+          name: ELECTROBALL
+        - at_level: '26'
+          name: LIGHTSCREEN
+        - at_level: '29'
+          name: THUNDERPUNCH
+        - at_level: '33'
+          name: DISCHARGE
+        - at_level: '36'
+          name: SCREECH
+        - at_level: '40'
+          name: THUNDERBOLT
+        - at_level: '43'
+          name: THUNDER
+    raw_egg_moves:
+        - BARRIER
+        - CROSSCHOP
+        - DYNAMICPUNCH
+        - FEINT
+        - FIREPUNCH
+        - FOCUSPUNCH
+        - HAMMERARM
+        - ICEPUNCH
+        - KARATECHOP
+        - MEDITATE
+        - ROLLINGKICK
+    raw_tms: []
+    compatible_egg_groups:
+        - 14
+    steps_to_hatch: 6630
+    height: 0.6
+    weight: 23.5
+    colour: Yellow
+    habitat: Grassland
+    kind: Electric
+    pokedex_entry: If it touches metal and discharges the electricity it has stored
+        in its body, an Elekid begins swinging its arms in circles to recharge itself.
+    wild_items:
+        common:
+        uncommon: ELECTIRIZER
+        rare:
+    battler_player_y: 31
+    battler_enemy_y: 22
+    battler_altitude: 0
+    evolutions:
+        - into_name: ELECTABUZZ
+          condition: Level
+          parameter: '30'
+    form_names: []
+    regional_numbers:
+    shape:

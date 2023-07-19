@@ -1,0 +1,98 @@
+263:
+    name: Zigzagoon
+    internal_name: ZIGZAGOON
+    base_stats:
+        hp: 38
+        atk: 30
+        def_: 41
+        spa: 30
+        spd: 41
+        spe: 60
+    primary_type: NORMAL
+    secondary_type:
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 56
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 1
+    catch_rate: 255
+    caught_happiness: 70
+    raw_abilities:
+        - PICKUP
+        - GLUTTONY
+    raw_hidden_ability: QUICKFEET
+    raw_level_up_moves:
+        - at_level: '1'
+          name: TACKLE
+        - at_level: '1'
+          name: GROWL
+        - at_level: '5'
+          name: TAILWHIP
+        - at_level: '7'
+          name: SANDATTACK
+        - at_level: '11'
+          name: HEADBUTT
+        - at_level: '12'
+          name: BABYDOLLEYES
+        - at_level: '13'
+          name: ODORSLEUTH
+        - at_level: '17'
+          name: MUDSPORT
+        - at_level: '19'
+          name: PINMISSILE
+        - at_level: '23'
+          name: COVET
+        - at_level: '25'
+          name: BESTOW
+        - at_level: '29'
+          name: FLAIL
+        - at_level: '31'
+          name: TAKEDOWN
+        - at_level: '35'
+          name: REST
+        - at_level: '37'
+          name: BELLYDRUM
+        - at_level: '41'
+          name: FLING
+    raw_egg_moves:
+        - CHARM
+        - EXTREMESPEED
+        - HELPINGHAND
+        - MUDSLAP
+        - PURSUIT
+        - ROCKCLIMB
+        - SIMPLEBEAM
+        - SLEEPTALK
+        - TICKLE
+        - TRICK
+    raw_tms: []
+    compatible_egg_groups:
+        - 4
+    steps_to_hatch: 4080
+    height: 0.4
+    weight: 17.5
+    colour: Brown
+    habitat: Grassland
+    kind: TinyRaccoon
+    pokedex_entry: Rubbing its nose against the ground, it always wanders about back
+        and forth in search of something. It is distinguished by the zigzag footprints
+        it leaves.
+    wild_items:
+        common: POTION
+        uncommon: REVIVE
+        rare:
+    battler_player_y: 28
+    battler_enemy_y: 27
+    battler_altitude: 0
+    evolutions:
+        - into_name: LINOONE
+          condition: Level
+          parameter: '20'
+    form_names: []
+    regional_numbers:
+    shape:

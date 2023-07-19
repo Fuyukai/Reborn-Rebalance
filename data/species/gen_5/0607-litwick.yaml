@@ -1,0 +1,97 @@
+607:
+    name: Litwick
+    internal_name: LITWICK
+    base_stats:
+        hp: 50
+        atk: 30
+        def_: 55
+        spa: 65
+        spd: 55
+        spe: 20
+    primary_type: GHOST
+    secondary_type: FIRE
+    gender_ratio: 3
+    growth_rate: 3
+    exp_yield: 55
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 1
+        spd: 0
+        spe: 0
+    catch_rate: 190
+    caught_happiness: 70
+    raw_abilities:
+        - FLASHFIRE
+        - FLAMEBODY
+    raw_hidden_ability: INFILTRATOR
+    raw_level_up_moves:
+        - at_level: '1'
+          name: EMBER
+        - at_level: '1'
+          name: ASTONISH
+        - at_level: '3'
+          name: MINIMIZE
+        - at_level: '5'
+          name: SMOG
+        - at_level: '7'
+          name: FIRESPIN
+        - at_level: '10'
+          name: CONFUSERAY
+        - at_level: '13'
+          name: NIGHTSHADE
+        - at_level: '16'
+          name: WILLOWISP
+        - at_level: '20'
+          name: FLAMEBURST
+        - at_level: '24'
+          name: IMPRISON
+        - at_level: '28'
+          name: HEX
+        - at_level: '33'
+          name: MEMENTO
+        - at_level: '38'
+          name: INFERNO
+        - at_level: '43'
+          name: CURSE
+        - at_level: '49'
+          name: SHADOWBALL
+        - at_level: '55'
+          name: PAINSPLIT
+        - at_level: '61'
+          name: OVERHEAT
+    raw_egg_moves:
+        - ACID
+        - ACIDARMOR
+        - CAPTIVATE
+        - CLEARSMOG
+        - ENDURE
+        - HAZE
+        - HEATWAVE
+        - POWERSPLIT
+    raw_tms: []
+    compatible_egg_groups:
+        - 10
+    steps_to_hatch: 5120
+    height: 0.3
+    weight: 3.1
+    colour: White
+    habitat:
+    kind: Candle
+    pokedex_entry: While shining a light and pretending to be a guide, it leeches
+        off the life force of any who follow it.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 30
+    battler_enemy_y: 36
+    battler_altitude: 0
+    evolutions:
+        - into_name: LAMPENT
+          condition: Level
+          parameter: '41'
+    form_names: []
+    regional_numbers:
+    shape:

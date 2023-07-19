@@ -1,0 +1,93 @@
+219:
+    name: Magcargo
+    internal_name: MAGCARGO
+    base_stats:
+        hp: 60
+        atk: 50
+        def_: 120
+        spa: 90
+        spd: 80
+        spe: 30
+    primary_type: FIRE
+    secondary_type: ROCK
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 151
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 2
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 75
+    caught_happiness: 70
+    raw_abilities:
+        - MAGMAARMOR
+        - FLAMEBODY
+    raw_hidden_ability: WEAKARMOR
+    raw_level_up_moves:
+        - at_level: '0'
+          name: SHELLSMASH
+        - at_level: '1'
+          name: EARTHPOWER
+        - at_level: '1'
+          name: YAWN
+        - at_level: '1'
+          name: SMOG
+        - at_level: '1'
+          name: EMBER
+        - at_level: '1'
+          name: ROCKTHROW
+        - at_level: '6'
+          name: EMBER
+        - at_level: '8'
+          name: ROCKTHROW
+        - at_level: '13'
+          name: HARDEN
+        - at_level: '15'
+          name: INCINERATE
+        - at_level: '20'
+          name: CLEARSMOG
+        - at_level: '22'
+          name: ANCIENTPOWER
+        - at_level: '27'
+          name: FLAMEBURST
+        - at_level: '29'
+          name: ROCKSLIDE
+        - at_level: '34'
+          name: LAVAPLUME
+        - at_level: '36'
+          name: AMNESIA
+        - at_level: '43'
+          name: BODYSLAM
+        - at_level: '47'
+          name: RECOVER
+        - at_level: '54'
+          name: FLAMETHROWER
+        - at_level: '58'
+          name: EARTHPOWER
+    raw_egg_moves: []
+    raw_tms: []
+    compatible_egg_groups:
+        - 10
+    steps_to_hatch: 5355
+    height: 0.8
+    weight: 55.0
+    colour: Red
+    habitat: Mountain
+    kind: Lava
+    pokedex_entry: The shell on its back is made of hardened magma. Tens of thousands
+        of years spent living in volcanic craters have turned Magcargo's bodies into
+        magma.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 24
+    battler_enemy_y: 14
+    battler_altitude: 0
+    evolutions: []
+    form_names: []
+    regional_numbers:
+    shape:

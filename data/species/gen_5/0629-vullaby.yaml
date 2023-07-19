@@ -1,0 +1,94 @@
+629:
+    name: Vullaby
+    internal_name: VULLABY
+    base_stats:
+        hp: 70
+        atk: 55
+        def_: 75
+        spa: 45
+        spd: 65
+        spe: 60
+    primary_type: DARK
+    secondary_type: FLYING
+    gender_ratio: 6
+    growth_rate: 2
+    exp_yield: 74
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 1
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 190
+    caught_happiness: 35
+    raw_abilities:
+        - BIGPECKS
+        - OVERCOAT
+    raw_hidden_ability: WEAKARMOR
+    raw_level_up_moves:
+        - at_level: '1'
+          name: GUST
+        - at_level: '1'
+          name: LEER
+        - at_level: '5'
+          name: FURYATTACK
+        - at_level: '10'
+          name: PLUCK
+        - at_level: '14'
+          name: NASTYPLOT
+        - at_level: '19'
+          name: FLATTER
+        - at_level: '23'
+          name: FEINTATTACK
+        - at_level: '28'
+          name: PUNISHMENT
+        - at_level: '32'
+          name: DEFOG
+        - at_level: '37'
+          name: TAILWIND
+        - at_level: '41'
+          name: AIRSLASH
+        - at_level: '46'
+          name: DARKPULSE
+        - at_level: '50'
+          name: EMBARGO
+        - at_level: '55'
+          name: WHIRLWIND
+        - at_level: '59'
+          name: BRAVEBIRD
+        - at_level: '64'
+          name: MIRRORMOVE
+    raw_egg_moves:
+        - FAKETEARS
+        - FOULPLAY
+        - KNOCKOFF
+        - MEANLOOK
+        - ROOST
+        - SCARYFACE
+        - STEELWING
+    raw_tms: []
+    compatible_egg_groups:
+        - 3
+    steps_to_hatch: 5120
+    height: 0.5
+    weight: 9.0
+    colour: Brown
+    habitat:
+    kind: Diapered
+    pokedex_entry: They tend to guard their posteriors with suitable bones they have
+        found. They pursue weak Pokémon.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 23
+    battler_enemy_y: 27
+    battler_altitude: 0
+    evolutions:
+        - into_name: MANDIBUZZ
+          condition: Level
+          parameter: '54'
+    form_names: []
+    regional_numbers:
+    shape:

@@ -1,0 +1,99 @@
+568:
+    name: Trubbish
+    internal_name: TRUBBISH
+    base_stats:
+        hp: 50
+        atk: 50
+        def_: 62
+        spa: 40
+        spd: 62
+        spe: 65
+    primary_type: POISON
+    secondary_type:
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 66
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 1
+    catch_rate: 190
+    caught_happiness: 70
+    raw_abilities:
+        - STENCH
+        - STICKYHOLD
+    raw_hidden_ability: AFTERMATH
+    raw_level_up_moves:
+        - at_level: '1'
+          name: POUND
+        - at_level: '1'
+          name: POISONGAS
+        - at_level: '3'
+          name: RECYCLE
+        - at_level: '7'
+          name: TOXICSPIKES
+        - at_level: '12'
+          name: ACIDSPRAY
+        - at_level: '14'
+          name: DOUBLESLAP
+        - at_level: '18'
+          name: SLUDGE
+        - at_level: '23'
+          name: STOCKPILE
+        - at_level: '23'
+          name: SWALLOW
+        - at_level: '25'
+          name: TAKEDOWN
+        - at_level: '29'
+          name: SLUDGEBOMB
+        - at_level: '34'
+          name: CLEARSMOG
+        - at_level: '36'
+          name: TOXIC
+        - at_level: '40'
+          name: AMNESIA
+        - at_level: '42'
+          name: BELCH
+        - at_level: '45'
+          name: GUNKSHOT
+        - at_level: '47'
+          name: EXPLOSION
+    raw_egg_moves:
+        - AUTOTOMIZE
+        - CURSE
+        - HAZE
+        - MUDSPORT
+        - ROCKBLAST
+        - ROLLOUT
+        - SANDATTACK
+        - SELFDESTRUCT
+        - SPIKES
+        - CORROSIVEGAS
+    raw_tms: []
+    compatible_egg_groups:
+        - 9
+    steps_to_hatch: 5120
+    height: 0.6
+    weight: 31.0
+    colour: Green
+    habitat:
+    kind: Trash Bag
+    pokedex_entry: The combination of garbage bags and industrial waste caused the
+        chemical reaction that created this Pokémon.
+    wild_items:
+        common:
+        uncommon: SILKSCARF
+        rare:
+    battler_player_y: 30
+    battler_enemy_y: 35
+    battler_altitude: 0
+    evolutions:
+        - into_name: GARBODOR
+          condition: Level
+          parameter: '36'
+    form_names: []
+    regional_numbers:
+    shape:

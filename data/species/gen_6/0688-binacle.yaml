@@ -1,0 +1,94 @@
+688:
+    name: Binacle
+    internal_name: BINACLE
+    base_stats:
+        hp: 42
+        atk: 52
+        def_: 67
+        spa: 39
+        spd: 56
+        spe: 50
+    primary_type: ROCK
+    secondary_type: WATER
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 61
+    ev_yield:
+        hp: 0
+        atk: 1
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 255
+    caught_happiness: 70
+    raw_abilities:
+        - TOUGHCLAWS
+        - SNIPER
+    raw_hidden_ability: PICKPOCKET
+    raw_level_up_moves:
+        - at_level: '1'
+          name: SHELLSMASH
+        - at_level: '1'
+          name: SCRATCH
+        - at_level: '1'
+          name: SANDATTACK
+        - at_level: '4'
+          name: WATERGUN
+        - at_level: '7'
+          name: WITHDRAW
+        - at_level: '10'
+          name: FURYSWIPES
+        - at_level: '13'
+          name: SLASH
+        - at_level: '18'
+          name: MUDSLAP
+        - at_level: '20'
+          name: CLAMP
+        - at_level: '24'
+          name: ROCKPOLISH
+        - at_level: '28'
+          name: ANCIENTPOWER
+        - at_level: '32'
+          name: HONECLAWS
+        - at_level: '37'
+          name: FURYCUTTER
+        - at_level: '41'
+          name: AQUACUTTER
+        - at_level: '41'
+          name: NIGHTSLASH
+        - at_level: '45'
+          name: RAZORSHELL
+        - at_level: '49'
+          name: CROSSCHOP
+    raw_egg_moves:
+        - HELPINGHAND
+        - SWITCHEROO
+        - TICKLE
+        - WATERSPORT
+    raw_tms: []
+    compatible_egg_groups:
+        - 8
+        - 1
+    steps_to_hatch: 5120
+    height: 0.5
+    weight: 31.0
+    colour: Brown
+    habitat:
+    kind: Two-Handed
+    pokedex_entry: Two Binacle live together on one rock. When they fight, one of
+        them will move to a different rock.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 14
+    battler_enemy_y: 21
+    battler_altitude: 0
+    evolutions:
+        - into_name: BARBARACLE
+          condition: Level
+          parameter: '39'
+    form_names: []
+    regional_numbers:
+    shape:

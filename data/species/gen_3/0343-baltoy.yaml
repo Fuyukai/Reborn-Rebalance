@@ -1,0 +1,90 @@
+343:
+    name: Baltoy
+    internal_name: BALTOY
+    base_stats:
+        hp: 40
+        atk: 40
+        def_: 55
+        spa: 40
+        spd: 70
+        spe: 55
+    primary_type: GROUND
+    secondary_type: PSYCHIC
+    gender_ratio: 7
+    growth_rate: 1
+    exp_yield: 60
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 1
+        spe: 0
+    catch_rate: 255
+    caught_happiness: 70
+    raw_abilities:
+        - LEVITATE
+    raw_hidden_ability:
+    raw_level_up_moves:
+        - at_level: '1'
+          name: HARDEN
+        - at_level: '1'
+          name: CONFUSION
+        - at_level: '4'
+          name: RAPIDSPIN
+        - at_level: '7'
+          name: MUDSLAP
+        - at_level: '10'
+          name: HEALBLOCK
+        - at_level: '13'
+          name: ROCKTOMB
+        - at_level: '16'
+          name: PSYBEAM
+        - at_level: '19'
+          name: ANCIENTPOWER
+        - at_level: '22'
+          name: COSMICPOWER
+        - at_level: '25'
+          name: POWERTRICK
+        - at_level: '28'
+          name: SELFDESTRUCT
+        - at_level: '31'
+          name: EXTRASENSORY
+        - at_level: '34'
+          name: GUARDSPLIT
+        - at_level: '34'
+          name: POWERSPLIT
+        - at_level: '37'
+          name: EARTHPOWER
+        - at_level: '40'
+          name: SANDSTORM
+        - at_level: '43'
+          name: IMPRISON
+        - at_level: '46'
+          name: EXPLOSION
+    raw_egg_moves: []
+    raw_tms: []
+    compatible_egg_groups:
+        - 9
+    steps_to_hatch: 5355
+    height: 0.5
+    weight: 21.5
+    colour: Brown
+    habitat: RoughTerrain
+    kind: Clay Doll
+    pokedex_entry: A Baltoy moves by spinning on its single foot. It has been depicted
+        in murals adorning the walls of a once-bustling city in an ancient age.
+    wild_items:
+        common:
+        uncommon: LIGHTCLAY
+        rare:
+    battler_player_y: 29
+    battler_enemy_y: 25
+    battler_altitude: 11
+    evolutions:
+        - into_name: CLAYDOL
+          condition: Level
+          parameter: '36'
+    form_names: []
+    regional_numbers:
+    shape:

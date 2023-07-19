@@ -1,0 +1,94 @@
+660:
+    name: Diggersby
+    internal_name: DIGGERSBY
+    base_stats:
+        hp: 85
+        atk: 56
+        def_: 77
+        spa: 50
+        spd: 77
+        spe: 78
+    primary_type: NORMAL
+    secondary_type: GROUND
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 148
+    ev_yield:
+        hp: 2
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 255
+    caught_happiness: 70
+    raw_abilities:
+        - PICKUP
+        - CHEEKPOUCH
+    raw_hidden_ability: HUGEPOWER
+    raw_level_up_moves:
+        - at_level: '1'
+          name: HAMMERARM
+        - at_level: '1'
+          name: ROTOTILLER
+        - at_level: '1'
+          name: BULLDOZE
+        - at_level: '1'
+          name: SWORDSDANCE
+        - at_level: '1'
+          name: TACKLE
+        - at_level: '1'
+          name: AGILITY
+        - at_level: '1'
+          name: LEER
+        - at_level: '7'
+          name: QUICKATTACK
+        - at_level: '13'
+          name: DOUBLESLAP
+        - at_level: '13'
+          name: MUDSLAP
+        - at_level: '15'
+          name: TAKEDOWN
+        - at_level: '18'
+          name: MUDSHOT
+        - at_level: '21'
+          name: DOUBLEKICK
+        - at_level: '27'
+          name: ODORSLEUTH
+        - at_level: '32'
+          name: FLAIL
+        - at_level: '37'
+          name: DIG
+        - at_level: '43'
+          name: BOUNCE
+        - at_level: '48'
+          name: SUPERFANG
+        - at_level: '54'
+          name: FACADE
+        - at_level: '57'
+          name: EARTHQUAKE
+        - at_level: '60'
+          name: HAMMERARM
+    raw_egg_moves: []
+    raw_tms: []
+    compatible_egg_groups:
+        - 4
+    steps_to_hatch: 3840
+    height: 1.0
+    weight: 42.4
+    colour: Brown
+    habitat:
+    kind: Digging
+    pokedex_entry: As powerful as an excavator, its ears can reduce dense bedrock
+        to rubble. When it has finished digging, it lounges lazily.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 11
+    battler_enemy_y: 16
+    battler_altitude: 0
+    evolutions: []
+    form_names: []
+    regional_numbers:
+    shape:

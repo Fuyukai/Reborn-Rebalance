@@ -1,0 +1,94 @@
+345:
+    name: Lileep
+    internal_name: LILEEP
+    base_stats:
+        hp: 66
+        atk: 41
+        def_: 77
+        spa: 61
+        spd: 87
+        spe: 23
+    primary_type: ROCK
+    secondary_type: GRASS
+    gender_ratio: 1
+    growth_rate: 4
+    exp_yield: 71
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 1
+        spe: 0
+    catch_rate: 45
+    caught_happiness: 70
+    raw_abilities:
+        - SUCTIONCUPS
+        - STORMDRAIN
+    raw_hidden_ability:
+    raw_level_up_moves:
+        - at_level: '1'
+          name: ASTONISH
+        - at_level: '1'
+          name: CONSTRICT
+        - at_level: '5'
+          name: ACID
+        - at_level: '9'
+          name: INGRAIN
+        - at_level: '13'
+          name: CONFUSERAY
+        - at_level: '17'
+          name: ANCIENTPOWER
+        - at_level: '21'
+          name: BRINE
+        - at_level: '26'
+          name: GIGADRAIN
+        - at_level: '31'
+          name: GASTROACID
+        - at_level: '36'
+          name: AMNESIA
+        - at_level: '41'
+          name: ENERGYBALL
+        - at_level: '46'
+          name: STOCKPILE
+        - at_level: '46'
+          name: SWALLOW
+        - at_level: '46'
+          name: SPITUP
+        - at_level: '52'
+          name: WRINGOUT
+    raw_egg_moves:
+        - BARRIER
+        - CURSE
+        - ENDURE
+        - MEGADRAIN
+        - MIRRORCOAT
+        - RECOVER
+        - STEALTHROCK
+        - TICKLE
+        - WRINGOUT
+    raw_tms: []
+    compatible_egg_groups:
+        - 8
+    steps_to_hatch: 7905
+    height: 1.0
+    weight: 23.8
+    colour: Purple
+    habitat: Sea
+    kind: Sea Lily
+    pokedex_entry: It disguises itself as seaweed by swaying its tentacles. Unsuspecting
+        prey that comes too close is swallowed whole.
+    wild_items:
+        common:
+        uncommon: BIGROOT
+        rare:
+    battler_player_y: 21
+    battler_enemy_y: 15
+    battler_altitude: 0
+    evolutions:
+        - into_name: CRADILY
+          condition: Level
+          parameter: '40'
+    form_names: []
+    regional_numbers:
+    shape:

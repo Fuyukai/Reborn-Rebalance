@@ -1,0 +1,88 @@
+596:
+    name: Galvantula
+    internal_name: GALVANTULA
+    base_stats:
+        hp: 70
+        atk: 77
+        def_: 60
+        spa: 97
+        spd: 60
+        spe: 108
+    primary_type: BUG
+    secondary_type: ELECTRIC
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 165
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 2
+    catch_rate: 70
+    caught_happiness: 70
+    raw_abilities:
+        - COMPOUNDEYES
+        - UNNERVE
+    raw_hidden_ability: SWARM
+    raw_level_up_moves:
+        - at_level: '0'
+          name: STICKYWEB
+        - at_level: '1'
+          name: STRINGSHOT
+        - at_level: '1'
+          name: ABSORB
+        - at_level: '1'
+          name: SPIDERWEB
+        - at_level: '1'
+          name: THUNDERWAVE
+        - at_level: '4'
+          name: THUNDERWAVE
+        - at_level: '7'
+          name: SCREECH
+        - at_level: '12'
+          name: FURYCUTTER
+        - at_level: '15'
+          name: ELECTROWEB
+        - at_level: '18'
+          name: BUGBITE
+        - at_level: '23'
+          name: GASTROACID
+        - at_level: '26'
+          name: SLASH
+        - at_level: '29'
+          name: ELECTROBALL
+        - at_level: '34'
+          name: SIGNALBEAM
+        - at_level: '40'
+          name: AGILITY
+        - at_level: '46'
+          name: SUCKERPUNCH
+        - at_level: '54'
+          name: DISCHARGE
+        - at_level: '60'
+          name: BUGBUZZ
+    raw_egg_moves: []
+    raw_tms: []
+    compatible_egg_groups:
+        - 2
+    steps_to_hatch: 5120
+    height: 0.8
+    weight: 14.3
+    colour: Yellow
+    habitat:
+    kind: Elespider
+    pokedex_entry: They employ an electrically charged web to trap their prey. While
+        it is immobilized by shock, they leisurely consume it.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 29
+    battler_enemy_y: 38
+    battler_altitude: 0
+    evolutions: []
+    form_names: []
+    regional_numbers:
+    shape:

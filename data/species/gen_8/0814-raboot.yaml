@@ -1,0 +1,82 @@
+814:
+    name: Raboot
+    internal_name: RABOOT
+    base_stats:
+        hp: 65
+        atk: 86
+        def_: 60
+        spa: 55
+        spd: 60
+        spe: 94
+    primary_type: FIRE
+    secondary_type:
+    gender_ratio: 1
+    growth_rate: 3
+    exp_yield: 147
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 2
+    catch_rate: 45
+    caught_happiness: 50
+    raw_abilities:
+        - BLAZE
+        - LIBERO
+    raw_hidden_ability:
+    raw_level_up_moves:
+        - at_level: '1'
+          name: TACKLE
+        - at_level: '1'
+          name: GROWL
+        - at_level: '1'
+          name: EMBER
+        - at_level: '1'
+          name: QUICKATTACK
+        - at_level: '12'
+          name: DOUBLEKICK
+        - at_level: '19'
+          name: FLAMECHARGE
+        - at_level: '24'
+          name: AGILITY
+        - at_level: '30'
+          name: HEADBUTT
+        - at_level: '36'
+          name: COUNTER
+        - at_level: '42'
+          name: BOUNCE
+        - at_level: '48'
+          name: DOUBLEEDGE
+    raw_egg_moves:
+        - HIJUMPKICK
+        - SANDATTACK
+        - SUCKERPUNCH
+        - SUPERFANG
+    raw_tms: []
+    compatible_egg_groups:
+        - 4
+        - 7
+    steps_to_hatch: 5120
+    height: 0.6
+    weight: 9.0
+    colour: White
+    habitat:
+    kind: Rabbit
+    pokedex_entry: It kicks berries right off the branches of trees and then juggles
+        them with its feet, practicing its footwork.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 21
+    battler_enemy_y: 12
+    battler_altitude: 0
+    evolutions:
+        - into_name: CINDERACE
+          condition: Level
+          parameter: '35'
+    form_names: []
+    regional_numbers: 814
+    shape:

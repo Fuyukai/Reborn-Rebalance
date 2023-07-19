@@ -1,0 +1,58 @@
+789:
+    name: Cosmog
+    internal_name: COSMOG
+    base_stats:
+        hp: 43
+        atk: 29
+        def_: 31
+        spa: 29
+        spd: 31
+        spe: 37
+    primary_type: PSYCHIC
+    secondary_type:
+    gender_ratio: 7
+    growth_rate: 2
+    exp_yield: 40
+    ev_yield:
+        hp: 1
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 3
+    caught_happiness: 0
+    raw_abilities:
+        - UNAWARE
+    raw_hidden_ability:
+    raw_level_up_moves:
+        - at_level: '1'
+          name: SPLASH
+        - at_level: '23'
+          name: TELEPORT
+    raw_egg_moves: []
+    raw_tms: []
+    compatible_egg_groups:
+        - 14
+    steps_to_hatch: 30720
+    height: 0.2
+    weight: 0.1
+    colour: Blue
+    habitat:
+    kind: Nebula
+    pokedex_entry: In ages past, it was called the child of the stars. It is said
+        to be a Pokémon from another world, but no specific details are known.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 24
+    battler_enemy_y: 18
+    battler_altitude: 8
+    evolutions:
+        - into_name: COSMOEM
+          condition: Level
+          parameter: '43'
+    form_names: []
+    regional_numbers:
+    shape:

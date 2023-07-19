@@ -1,0 +1,70 @@
+63:
+    name: Abra
+    internal_name: ABRA
+    base_stats:
+        hp: 25
+        atk: 20
+        def_: 15
+        spa: 105
+        spd: 55
+        spe: 90
+    primary_type: PSYCHIC
+    secondary_type:
+    gender_ratio: 2
+    growth_rate: 3
+    exp_yield: 62
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 1
+        spd: 0
+        spe: 0
+    catch_rate: 200
+    caught_happiness: 70
+    raw_abilities:
+        - SYNCHRONIZE
+        - INNERFOCUS
+    raw_hidden_ability: MAGICGUARD
+    raw_level_up_moves:
+        - at_level: '1'
+          name: TELEPORT
+    raw_egg_moves:
+        - ALLYSWITCH
+        - BARRIER
+        - ENCORE
+        - FIREPUNCH
+        - GUARDSPLIT
+        - GUARDSWAP
+        - ICEPUNCH
+        - KNOCKOFF
+        - POWERTRICK
+        - PSYCHICTERRAIN
+        - PSYCHOSHIFT
+        - SKILLSWAP
+        - THUNDERPUNCH
+    raw_tms: []
+    compatible_egg_groups:
+        - 7
+    steps_to_hatch: 5355
+    height: 0.9
+    weight: 19.5
+    colour: Brown
+    habitat: Urban
+    kind: Psi
+    pokedex_entry: A Pokémon that sleeps 18 hours a day. Observation revealed that
+        it uses Teleport to change its location once every hour.
+    wild_items:
+        common:
+        uncommon: TWISTEDSPOON
+        rare:
+    battler_player_y: 27
+    battler_enemy_y: 20
+    battler_altitude: 0
+    evolutions:
+        - into_name: KADABRA
+          condition: Level
+          parameter: '16'
+    form_names: []
+    regional_numbers:
+    shape:

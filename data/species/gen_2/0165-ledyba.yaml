@@ -1,0 +1,98 @@
+165:
+    name: Ledyba
+    internal_name: LEDYBA
+    base_stats:
+        hp: 40
+        atk: 20
+        def_: 30
+        spa: 40
+        spd: 80
+        spe: 55
+    primary_type: BUG
+    secondary_type: FLYING
+    gender_ratio: 3
+    growth_rate: 0
+    exp_yield: 53
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 1
+        spe: 0
+    catch_rate: 255
+    caught_happiness: 70
+    raw_abilities:
+        - SWARM
+        - EARLYBIRD
+    raw_hidden_ability: RATTLED
+    raw_level_up_moves:
+        - at_level: '1'
+          name: TACKLE
+        - at_level: '5'
+          name: SUPERSONIC
+        - at_level: '8'
+          name: SWIFT
+        - at_level: '12'
+          name: LIGHTSCREEN
+        - at_level: '12'
+          name: REFLECT
+        - at_level: '12'
+          name: SAFEGUARD
+        - at_level: '15'
+          name: MACHPUNCH
+        - at_level: '19'
+          name: SILVERWIND
+        - at_level: '22'
+          name: COMETPUNCH
+        - at_level: '26'
+          name: BATONPASS
+        - at_level: '29'
+          name: AGILITY
+        - at_level: '33'
+          name: BUGBUZZ
+        - at_level: '36'
+          name: AIRSLASH
+        - at_level: '40'
+          name: DOUBLEEDGE
+    raw_egg_moves:
+        - BIDE
+        - BUGBITE
+        - BUGBUZZ
+        - COUNTER
+        - DIZZYPUNCH
+        - DRAINPUNCH
+        - ENCORE
+        - ENDURE
+        - FOCUSPUNCH
+        - KNOCKOFF
+        - PSYBEAM
+        - SCREECH
+        - SILVERWIND
+        - TAILWIND
+    raw_tms: []
+    compatible_egg_groups:
+        - 2
+    steps_to_hatch: 4080
+    height: 1.0
+    weight: 10.8
+    colour: Red
+    habitat: Forest
+    kind: Five Star
+    pokedex_entry: Ledyba communicate using a fluid that they secrete from where the
+        legs join the body. They can convey feelings to others by altering the fluid's
+        scent.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 24
+    battler_enemy_y: 18
+    battler_altitude: 0
+    evolutions:
+        - into_name: LEDIAN
+          condition: Level
+          parameter: '18'
+    form_names: []
+    regional_numbers:
+    shape:

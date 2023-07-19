@@ -1,0 +1,93 @@
+306:
+    name: Aggron
+    internal_name: AGGRON
+    base_stats:
+        hp: 70
+        atk: 110
+        def_: 180
+        spa: 60
+        spd: 60
+        spe: 50
+    primary_type: STEEL
+    secondary_type: ROCK
+    gender_ratio: 3
+    growth_rate: 2
+    exp_yield: 239
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 3
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 45
+    caught_happiness: 35
+    raw_abilities:
+        - STURDY
+        - ROCKHEAD
+    raw_hidden_ability: HEAVYMETAL
+    raw_level_up_moves:
+        - at_level: '1'
+          name: TACKLE
+        - at_level: '1'
+          name: HARDEN
+        - at_level: '1'
+          name: MUDSLAP
+        - at_level: '1'
+          name: HEADBUTT
+        - at_level: '4'
+          name: MUDSLAP
+        - at_level: '7'
+          name: HEADBUTT
+        - at_level: '10'
+          name: METALCLAW
+        - at_level: '13'
+          name: ROCKTOMB
+        - at_level: '16'
+          name: PROTECT
+        - at_level: '19'
+          name: ROAR
+        - at_level: '22'
+          name: IRONHEAD
+        - at_level: '25'
+          name: ROCKSLIDE
+        - at_level: '28'
+          name: TAKEDOWN
+        - at_level: '31'
+          name: METALSOUND
+        - at_level: '35'
+          name: IRONTAIL
+        - at_level: '39'
+          name: IRONDEFENSE
+        - at_level: '45'
+          name: DOUBLEEDGE
+        - at_level: '51'
+          name: AUTOTOMIZE
+        - at_level: '57'
+          name: HEAVYSLAM
+        - at_level: '63'
+          name: METALBURST
+    raw_egg_moves: []
+    raw_tms: []
+    compatible_egg_groups:
+        - 0
+    steps_to_hatch: 9180
+    height: 2.1
+    weight: 360.0
+    colour: Gray
+    habitat: Mountain
+    kind: Iron Armor
+    pokedex_entry: Its iron horns grow longer a little at a time. They determine the
+        Aggron's age. The gouges in its armor are worn with pride as mementos from
+        battles.
+    wild_items:
+        common:
+        uncommon: HARDSTONE
+        rare:
+    battler_player_y: 11
+    battler_enemy_y: 8
+    battler_altitude: 0
+    evolutions: []
+    form_names: []
+    regional_numbers:
+    shape:

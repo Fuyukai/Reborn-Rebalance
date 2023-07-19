@@ -1,0 +1,96 @@
+570:
+    name: Zorua
+    internal_name: ZORUA
+    base_stats:
+        hp: 40
+        atk: 65
+        def_: 40
+        spa: 80
+        spd: 40
+        spe: 65
+    primary_type: DARK
+    secondary_type:
+    gender_ratio: 1
+    growth_rate: 3
+    exp_yield: 66
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 1
+        spd: 0
+        spe: 0
+    catch_rate: 75
+    caught_happiness: 70
+    raw_abilities:
+        - ILLUSION
+    raw_hidden_ability:
+    raw_level_up_moves:
+        - at_level: '1'
+          name: SCRATCH
+        - at_level: '1'
+          name: LEER
+        - at_level: '5'
+          name: PURSUIT
+        - at_level: '9'
+          name: FAKETEARS
+        - at_level: '13'
+          name: FURYSWIPES
+        - at_level: '17'
+          name: FEINTATTACK
+        - at_level: '21'
+          name: SCARYFACE
+        - at_level: '25'
+          name: TAUNT
+        - at_level: '29'
+          name: FOULPLAY
+        - at_level: '33'
+          name: TORMENT
+        - at_level: '37'
+          name: AGILITY
+        - at_level: '41'
+          name: EMBARGO
+        - at_level: '45'
+          name: PUNISHMENT
+        - at_level: '49'
+          name: NASTYPLOT
+        - at_level: '53'
+          name: IMPRISON
+        - at_level: '57'
+          name: NIGHTDAZE
+    raw_egg_moves:
+        - COMEUPPANCE
+        - CAPTIVATE
+        - COPYCAT
+        - COUNTER
+        - DARKPULSE
+        - DETECT
+        - EXTRASENSORY
+        - MEMENTO
+        - SNATCH
+        - SUCKERPUNCH
+    raw_tms: []
+    compatible_egg_groups:
+        - 4
+    steps_to_hatch: 6400
+    height: 0.7
+    weight: 12.5
+    colour: Gray
+    habitat:
+    kind: Tricky Fox
+    pokedex_entry: To protect themselves from danger, they hide their true identities
+        by transforming into people and Pokémon.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 25
+    battler_enemy_y: 30
+    battler_altitude: 0
+    evolutions:
+        - into_name: ZOROARK
+          condition: Level
+          parameter: '30'
+    form_names: []
+    regional_numbers:
+    shape:

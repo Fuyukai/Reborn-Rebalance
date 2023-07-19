@@ -1,0 +1,103 @@
+90:
+    name: Shellder
+    internal_name: SHELLDER
+    base_stats:
+        hp: 30
+        atk: 65
+        def_: 100
+        spa: 45
+        spd: 25
+        spe: 40
+    primary_type: WATER
+    secondary_type:
+    gender_ratio: 3
+    growth_rate: 2
+    exp_yield: 61
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 1
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 190
+    caught_happiness: 70
+    raw_abilities:
+        - SHELLARMOR
+        - SKILLLINK
+    raw_hidden_ability: OVERCOAT
+    raw_level_up_moves:
+        - at_level: '1'
+          name: TACKLE
+        - at_level: '1'
+          name: WATERGUN
+        - at_level: '4'
+          name: WITHDRAW
+        - at_level: '8'
+          name: SUPERSONIC
+        - at_level: '13'
+          name: ICICLESPEAR
+        - at_level: '16'
+          name: PROTECT
+        - at_level: '20'
+          name: LEER
+        - at_level: '25'
+          name: CLAMP
+        - at_level: '28'
+          name: ICESHARD
+        - at_level: '32'
+          name: RAZORSHELL
+        - at_level: '37'
+          name: AURORABEAM
+        - at_level: '40'
+          name: WHIRLPOOL
+        - at_level: '44'
+          name: BRINE
+        - at_level: '49'
+          name: IRONDEFENSE
+        - at_level: '52'
+          name: ICEBEAM
+        - at_level: '56'
+          name: SHELLSMASH
+        - at_level: '61'
+          name: HYDROPUMP
+    raw_egg_moves:
+        - AQUARING
+        - AVALANCHE
+        - BARRIER
+        - BUBBLEBEAM
+        - ICICLESPEAR
+        - MUDSHOT
+        - RAPIDSPIN
+        - ROCKBLAST
+        - SCREECH
+        - TAKEDOWN
+        - TWINEEDLE
+        - WATERPULSE
+        - LIFEDEW
+    raw_tms: []
+    compatible_egg_groups:
+        - 8
+    steps_to_hatch: 5355
+    height: 0.3
+    weight: 4.0
+    colour: Purple
+    habitat: Sea
+    kind: Bivalve
+    pokedex_entry: At night, it burrows a hole in the seafloor with its broad tongue
+        to make a place to sleep. While asleep, it closes its shell, but leaves its
+        tongue hanging out.
+    wild_items:
+        common: PEARL
+        uncommon: BIGPEARL
+        rare:
+    battler_player_y: 34
+    battler_enemy_y: 26
+    battler_altitude: 0
+    evolutions:
+        - into_name: CLOYSTER
+          condition: Item
+          parameter: WATERSTONE
+    form_names: []
+    regional_numbers:
+    shape:

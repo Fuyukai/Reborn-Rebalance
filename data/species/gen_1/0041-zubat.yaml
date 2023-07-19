@@ -1,0 +1,99 @@
+41:
+    name: Zubat
+    internal_name: ZUBAT
+    base_stats:
+        hp: 40
+        atk: 45
+        def_: 35
+        spa: 30
+        spd: 40
+        spe: 55
+    primary_type: POISON
+    secondary_type: FLYING
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 49
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 1
+    catch_rate: 255
+    caught_happiness: 70
+    raw_abilities:
+        - INNERFOCUS
+        - INFILTRATOR
+    raw_hidden_ability:
+    raw_level_up_moves:
+        - at_level: '1'
+          name: ABSORB
+        - at_level: '5'
+          name: SUPERSONIC
+        - at_level: '7'
+          name: ASTONISH
+        - at_level: '11'
+          name: BITE
+        - at_level: '13'
+          name: WINGATTACK
+        - at_level: '17'
+          name: CONFUSERAY
+        - at_level: '19'
+          name: AIRCUTTER
+        - at_level: '23'
+          name: SWIFT
+        - at_level: '25'
+          name: POISONFANG
+        - at_level: '29'
+          name: MEANLOOK
+        - at_level: '31'
+          name: LEECHLIFE
+        - at_level: '35'
+          name: HAZE
+        - at_level: '37'
+          name: VENOSHOCK
+        - at_level: '41'
+          name: AIRSLASH
+        - at_level: '43'
+          name: QUICKGUARD
+    raw_egg_moves:
+        - BRAVEBIRD
+        - CURSE
+        - DEFOG
+        - FEINTATTACK
+        - GIGADRAIN
+        - GUST
+        - HYPNOSIS
+        - NASTYPLOT
+        - PURSUIT
+        - QUICKATTACK
+        - STEELWING
+        - VENOMDRENCH
+        - WHIRLWIND
+        - ZENHEADBUTT
+    raw_tms: []
+    compatible_egg_groups:
+        - 3
+    steps_to_hatch: 4080
+    height: 0.8
+    weight: 7.5
+    colour: Purple
+    habitat: Cave
+    kind: Bat
+    pokedex_entry: While living in pitch-black caverns, their eyes gradually grew
+        shut and deprived them of vision. They use ultrasonic waves to detect obstacles.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 32
+    battler_enemy_y: 18
+    battler_altitude: 13
+    evolutions:
+        - into_name: GOLBAT
+          condition: Level
+          parameter: '22'
+    form_names: []
+    regional_numbers:
+    shape:

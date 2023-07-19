@@ -1,0 +1,103 @@
+158:
+    name: Totodile
+    internal_name: TOTODILE
+    base_stats:
+        hp: 50
+        atk: 65
+        def_: 64
+        spa: 44
+        spd: 48
+        spe: 43
+    primary_type: WATER
+    secondary_type:
+    gender_ratio: 1
+    growth_rate: 3
+    exp_yield: 63
+    ev_yield:
+        hp: 0
+        atk: 1
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 45
+    caught_happiness: 70
+    raw_abilities:
+        - TORRENT
+        - SHEERFORCE
+    raw_hidden_ability:
+    raw_level_up_moves:
+        - at_level: '1'
+          name: SCRATCH
+        - at_level: '1'
+          name: LEER
+        - at_level: '6'
+          name: WATERGUN
+        - at_level: '8'
+          name: RAGE
+        - at_level: '13'
+          name: BITE
+        - at_level: '15'
+          name: SCARYFACE
+        - at_level: '20'
+          name: ICEFANG
+        - at_level: '22'
+          name: FLAIL
+        - at_level: '27'
+          name: CRUNCH
+        - at_level: '29'
+          name: CHIPAWAY
+        - at_level: '34'
+          name: SLASH
+        - at_level: '36'
+          name: SCREECH
+        - at_level: '41'
+          name: THRASH
+        - at_level: '43'
+          name: AQUATAIL
+        - at_level: '48'
+          name: SUPERPOWER
+        - at_level: '50'
+          name: HYDROPUMP
+    raw_egg_moves:
+        - ANCIENTPOWER
+        - AQUAJET
+        - BLOCK
+        - JETPUNCH
+        - CRUNCH
+        - DRAGONDANCE
+        - FAKETEARS
+        - FLATTER
+        - HYDROPUMP
+        - ICEPUNCH
+        - METALCLAW
+        - MUDSPORT
+        - THRASH
+        - WATERPULSE
+        - WATERSPORT
+    raw_tms: []
+    compatible_egg_groups:
+        - 0
+        - 1
+    steps_to_hatch: 5355
+    height: 0.6
+    weight: 9.5
+    colour: Blue
+    habitat: WatersEdge
+    kind: Big Jaw
+    pokedex_entry: Despite its small body, Totodile's jaws are very powerful. While
+        it may think it is just playfully nipping, its bite can cause serious injury.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 29
+    battler_enemy_y: 24
+    battler_altitude: 0
+    evolutions:
+        - into_name: CROCONAW
+          condition: Level
+          parameter: '18'
+    form_names: []
+    regional_numbers:
+    shape:

@@ -1,0 +1,81 @@
+406:
+    name: Budew
+    internal_name: BUDEW
+    base_stats:
+        hp: 40
+        atk: 30
+        def_: 35
+        spa: 50
+        spd: 70
+        spe: 55
+    primary_type: GRASS
+    secondary_type: POISON
+    gender_ratio: 3
+    growth_rate: 3
+    exp_yield: 56
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 1
+        spd: 0
+        spe: 0
+    catch_rate: 255
+    caught_happiness: 70
+    raw_abilities:
+        - NATURALCURE
+        - POISONPOINT
+    raw_hidden_ability: LEAFGUARD
+    raw_level_up_moves:
+        - at_level: '1'
+          name: ABSORB
+        - at_level: '4'
+          name: GROWTH
+        - at_level: '7'
+          name: WATERSPORT
+        - at_level: '10'
+          name: STUNSPORE
+        - at_level: '13'
+          name: MEGADRAIN
+        - at_level: '16'
+          name: WORRYSEED
+    raw_egg_moves:
+        - COTTONSPORE
+        - EXTRASENSORY
+        - GIGADRAIN
+        - GRASSWHISTLE
+        - LEAFSTORM
+        - MINDREADER
+        - NATURALGIFT
+        - PINMISSILE
+        - RAZORLEAF
+        - SEEDBOMB
+        - SLEEPPOWDER
+        - SPIKES
+        - SYNTHESIS
+        - LIFEDEW
+    raw_tms: []
+    compatible_egg_groups:
+        - 14
+    steps_to_hatch: 5355
+    height: 0.2
+    weight: 1.2
+    colour: Green
+    habitat:
+    kind: Bud
+    pokedex_entry: Over the winter, it closes its bud and endures the cold. In spring,
+        the bud opens and releases pollen.
+    wild_items:
+        common:
+        uncommon: POISONBARB
+        rare:
+    battler_player_y: 28
+    battler_enemy_y: 20
+    battler_altitude: 0
+    evolutions:
+        - into_name: ROSELIA
+          condition: HappinessDay
+          parameter: ''
+    form_names: []
+    regional_numbers:
+    shape:

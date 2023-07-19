@@ -1,0 +1,101 @@
+625:
+    name: Bisharp
+    internal_name: BISHARP
+    base_stats:
+        hp: 65
+        atk: 125
+        def_: 100
+        spa: 60
+        spd: 70
+        spe: 70
+    primary_type: DARK
+    secondary_type: STEEL
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 172
+    ev_yield:
+        hp: 0
+        atk: 2
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 45
+    caught_happiness: 35
+    raw_abilities:
+        - DEFIANT
+        - SHARPNESS
+    raw_hidden_ability: PRESSURE
+    raw_level_up_moves:
+        - at_level: '1'
+          name: AQUACUTTER
+        - at_level: '1'
+          name: GUILLOTINE
+        - at_level: '1'
+          name: IRONHEAD
+        - at_level: '1'
+          name: METALBURST
+        - at_level: '1'
+          name: SCRATCH
+        - at_level: '1'
+          name: LEER
+        - at_level: '1'
+          name: FURYCUTTER
+        - at_level: '1'
+          name: TORMENT
+        - at_level: '6'
+          name: LEER
+        - at_level: '9'
+          name: FURYCUTTER
+        - at_level: '14'
+          name: TORMENT
+        - at_level: '17'
+          name: FEINTATTACK
+        - at_level: '22'
+          name: SCARYFACE
+        - at_level: '25'
+          name: METALCLAW
+        - at_level: '30'
+          name: SLASH
+        - at_level: '33'
+          name: ASSURANCE
+        - at_level: '38'
+          name: METALSOUND
+        - at_level: '41'
+          name: EMBARGO
+        - at_level: '46'
+          name: IRONDEFENSE
+        - at_level: '49'
+          name: NIGHTSLASH
+        - at_level: '57'
+          name: IRONHEAD
+        - at_level: '63'
+          name: SWORDSDANCE
+        - at_level: '71'
+          name: GUILLOTINE
+    raw_egg_moves: []
+    raw_tms: []
+    compatible_egg_groups:
+        - 7
+    steps_to_hatch: 5120
+    height: 1.6
+    weight: 70.0
+    colour: Red
+    habitat:
+    kind: Sharp Sword
+    pokedex_entry: Bisharp pursues prey in the company of a large group of Pawniard.
+        Then Bisharp finishes off the prey.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 11
+    battler_enemy_y: 15
+    battler_altitude: 0
+    evolutions:
+        - into_name: KINGAMBIT
+          condition: Item
+          parameter: LEADERSCREST
+    form_names: []
+    regional_numbers:
+    shape:

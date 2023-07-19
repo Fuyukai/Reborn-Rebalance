@@ -1,0 +1,108 @@
+439:
+    name: Mime Jr.
+    internal_name: MIMEJR
+    base_stats:
+        hp: 20
+        atk: 25
+        def_: 45
+        spa: 70
+        spd: 90
+        spe: 60
+    primary_type: PSYCHIC
+    secondary_type: FAIRY
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 62
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 1
+        spe: 0
+    catch_rate: 145
+    caught_happiness: 70
+    raw_abilities:
+        - SOUNDPROOF
+        - FILTER
+    raw_hidden_ability: TECHNICIAN
+    raw_level_up_moves:
+        - at_level: '1'
+          name: TICKLE
+        - at_level: '1'
+          name: BARRIER
+        - at_level: '1'
+          name: POUND
+        - at_level: '1'
+          name: CONFUSION
+        - at_level: '4'
+          name: COPYCAT
+        - at_level: '8'
+          name: MEDITATE
+        - at_level: '11'
+          name: DOUBLESLAP
+        - at_level: '15'
+          name: MIMIC
+        - at_level: '18'
+          name: ENCORE
+        - at_level: '22'
+          name: LIGHTSCREEN
+        - at_level: '22'
+          name: REFLECT
+        - at_level: '25'
+          name: PSYBEAM
+        - at_level: '29'
+          name: SUBSTITUTE
+        - at_level: '32'
+          name: RECYCLE
+        - at_level: '36'
+          name: TRICK
+        - at_level: '39'
+          name: PSYCHIC
+        - at_level: '43'
+          name: ROLEPLAY
+        - at_level: '46'
+          name: BATONPASS
+        - at_level: '50'
+          name: SAFEGUARD
+    raw_egg_moves:
+        - CHARM
+        - CONFUSERAY
+        - FAKEOUT
+        - FUTURESIGHT
+        - HEALINGWISH
+        - HYPNOSIS
+        - ICYWIND
+        - MAGICROOM
+        - MIMIC
+        - NASTYPLOT
+        - POWERSPLIT
+        - PSYCHICTERRAIN
+        - TEETERDANCE
+        - TRICK
+        - WAKEUPSLAP
+    raw_tms: []
+    compatible_egg_groups:
+        - 14
+    steps_to_hatch: 6630
+    height: 0.6
+    weight: 13.0
+    colour: Pink
+    habitat:
+    kind: Mime
+    pokedex_entry: It habitually mimics foes. Once mimicked, the foe cannot take its
+        eyes off this Pokémon.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 18
+    battler_enemy_y: 15
+    battler_altitude: 0
+    evolutions:
+        - into_name: MRMIME
+          condition: HasMove
+          parameter: MIMIC
+    form_names: []
+    regional_numbers:
+    shape:

@@ -1,0 +1,84 @@
+851:
+    name: Centiskorch
+    internal_name: CENTISKORCH
+    base_stats:
+        hp: 100
+        atk: 115
+        def_: 65
+        spa: 90
+        spd: 90
+        spe: 65
+    primary_type: FIRE
+    secondary_type: BUG
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 184
+    ev_yield:
+        hp: 0
+        atk: 1
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 75
+    caught_happiness: 50
+    raw_abilities:
+        - FLASHFIRE
+        - WHITESMOKE
+    raw_hidden_ability: FLAMEBODY
+    raw_level_up_moves:
+        - at_level: '1'
+          name: INFERNO
+        - at_level: '1'
+          name: EMBER
+        - at_level: '1'
+          name: SMOKESCREEN
+        - at_level: '1'
+          name: WRAP
+        - at_level: '1'
+          name: BITE
+        - at_level: '15'
+          name: FLAMEWHEEL
+        - at_level: '20'
+          name: BUGBITE
+        - at_level: '25'
+          name: COIL
+        - at_level: '32'
+          name: SLAM
+        - at_level: '39'
+          name: FIRESPIN
+        - at_level: '46'
+          name: CRUNCH
+        - at_level: '53'
+          name: FIRELASH
+        - at_level: '60'
+          name: LUNGE
+        - at_level: '67'
+          name: BURNUP
+    raw_egg_moves:
+        - KNOCKOFF
+        - STRUGGLEBUG
+        - DEFENSECURL
+        - ROLLOUT
+    raw_tms: []
+    compatible_egg_groups:
+        - 2
+    steps_to_hatch: 5120
+    height: 3.0
+    weight: 120.0
+    colour: Red
+    habitat:
+    kind: Radiator
+    pokedex_entry: While its burning body is already dangerous on its own, this excessively
+        hostile Pokémon also has large and very sharp fangs.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 21
+    battler_enemy_y: 26
+    battler_altitude: 0
+    evolutions: []
+    form_names: []
+    regional_numbers: 851
+    shape:

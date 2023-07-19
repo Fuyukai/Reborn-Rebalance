@@ -1,0 +1,101 @@
+209:
+    name: Snubbull
+    internal_name: SNUBBULL
+    base_stats:
+        hp: 60
+        atk: 80
+        def_: 50
+        spa: 40
+        spd: 40
+        spe: 30
+    primary_type: FAIRY
+    secondary_type:
+    gender_ratio: 4
+    growth_rate: 0
+    exp_yield: 60
+    ev_yield:
+        hp: 0
+        atk: 1
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 190
+    caught_happiness: 70
+    raw_abilities:
+        - INTIMIDATE
+        - RUNAWAY
+    raw_hidden_ability: RATTLED
+    raw_level_up_moves:
+        - at_level: '1'
+          name: ICEFANG
+        - at_level: '1'
+          name: FIREFANG
+        - at_level: '1'
+          name: THUNDERFANG
+        - at_level: '1'
+          name: TACKLE
+        - at_level: '1'
+          name: SCARYFACE
+        - at_level: '1'
+          name: TAILWHIP
+        - at_level: '1'
+          name: CHARM
+        - at_level: '7'
+          name: BITE
+        - at_level: '13'
+          name: LICK
+        - at_level: '19'
+          name: HEADBUTT
+        - at_level: '25'
+          name: ROAR
+        - at_level: '31'
+          name: RAGE
+        - at_level: '37'
+          name: PLAYROUGH
+        - at_level: '43'
+          name: PAYBACK
+        - at_level: '49'
+          name: CRUNCH
+    raw_egg_moves:
+        - CLOSECOMBAT
+        - CRUNCH
+        - DOUBLEEDGE
+        - FAKETEARS
+        - FEINTATTACK
+        - FIREFANG
+        - FOCUSPUNCH
+        - HEALBELL
+        - ICEFANG
+        - METRONOME
+        - MIMIC
+        - PRESENT
+        - SMELLINGSALTS
+        - SNORE
+        - THUNDERFANG
+    raw_tms: []
+    compatible_egg_groups:
+        - 4
+        - 5
+    steps_to_hatch: 5355
+    height: 0.6
+    weight: 7.8
+    colour: Pink
+    habitat: Urban
+    kind: Fairy
+    pokedex_entry: By baring its fangs and making a scary face, it sends smaller Pokémon
+        scurrying in terror. Snubbull does seem a little sad at making its foes flee.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 29
+    battler_enemy_y: 23
+    battler_altitude: 0
+    evolutions:
+        - into_name: GRANBULL
+          condition: Level
+          parameter: '23'
+    form_names: []
+    regional_numbers:
+    shape:

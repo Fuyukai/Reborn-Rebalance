@@ -1,0 +1,91 @@
+709:
+    name: Trevenant
+    internal_name: TREVENANT
+    base_stats:
+        hp: 85
+        atk: 110
+        def_: 76
+        spa: 65
+        spd: 82
+        spe: 56
+    primary_type: GHOST
+    secondary_type: GRASS
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 166
+    ev_yield:
+        hp: 0
+        atk: 2
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 150
+    caught_happiness: 70
+    raw_abilities:
+        - NATURALCURE
+        - SEEDSOWER
+    raw_hidden_ability: HARVEST
+    raw_level_up_moves:
+        - at_level: '0'
+          name: SHADOWCLAW
+        - at_level: '1'
+          name: HORNLEECH
+        - at_level: '1'
+          name: TACKLE
+        - at_level: '1'
+          name: CONFUSERAY
+        - at_level: '1'
+          name: ASTONISH
+        - at_level: '1'
+          name: GROWTH
+        - at_level: '5'
+          name: ASTONISH
+        - at_level: '8'
+          name: GROWTH
+        - at_level: '13'
+          name: INGRAIN
+        - at_level: '19'
+          name: FEINTATTACK
+        - at_level: '23'
+          name: LEECHSEED
+        - at_level: '28'
+          name: CURSE
+        - at_level: '31'
+          name: WILLOWISP
+        - at_level: '35'
+          name: FORESTSCURSE
+        - at_level: '39'
+          name: DESTINYBOND
+        - at_level: '45'
+          name: PHANTOMFORCE
+        - at_level: '49'
+          name: WOODHAMMER
+        - at_level: '54'
+          name: HORNLEECH
+        - at_level: '65'
+          name: LASTRESPECTS
+    raw_egg_moves: []
+    raw_tms: []
+    compatible_egg_groups:
+        - 6
+        - 10
+    steps_to_hatch: 5120
+    height: 1.5
+    weight: 71.0
+    colour: Brown
+    habitat:
+    kind: Elder Tree
+    pokedex_entry: It can control trees at will. It will trap people who harm the
+        forest, so they can never leave.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 16
+    battler_enemy_y: 15
+    battler_altitude: 0
+    evolutions: []
+    form_names: []
+    regional_numbers:
+    shape:

@@ -1,0 +1,84 @@
+65:
+    name: Alakazam
+    internal_name: ALAKAZAM
+    base_stats:
+        hp: 55
+        atk: 50
+        def_: 45
+        spa: 135
+        spd: 95
+        spe: 120
+    primary_type: PSYCHIC
+    secondary_type:
+    gender_ratio: 2
+    growth_rate: 3
+    exp_yield: 221
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 3
+        spd: 0
+        spe: 0
+    catch_rate: 50
+    caught_happiness: 70
+    raw_abilities:
+        - SYNCHRONIZE
+        - INNERFOCUS
+    raw_hidden_ability: MAGICGUARD
+    raw_level_up_moves:
+        - at_level: '0'
+          name: KINESIS
+        - at_level: '1'
+          name: TELEPORT
+        - at_level: '1'
+          name: CONFUSION
+        - at_level: '16'
+          name: CONFUSION
+        - at_level: '18'
+          name: DISABLE
+        - at_level: '21'
+          name: PSYBEAM
+        - at_level: '23'
+          name: MIRACLEEYE
+        - at_level: '26'
+          name: REFLECT
+        - at_level: '28'
+          name: PSYCHOCUT
+        - at_level: '31'
+          name: RECOVER
+        - at_level: '33'
+          name: TELEKINESIS
+        - at_level: '36'
+          name: ALLYSWITCH
+        - at_level: '38'
+          name: PSYCHIC
+        - at_level: '41'
+          name: CALMMIND
+        - at_level: '43'
+          name: FUTURESIGHT
+        - at_level: '46'
+          name: TRICK
+    raw_egg_moves: []
+    raw_tms: []
+    compatible_egg_groups:
+        - 7
+    steps_to_hatch: 5355
+    height: 1.5
+    weight: 48.0
+    colour: Brown
+    habitat: Urban
+    kind: Psi
+    pokedex_entry: While it has strong psychic abilities and high intelligence, an
+        Alakazam's muscles are very weak. It uses psychic power to move its body.
+    wild_items:
+        common:
+        uncommon: TWISTEDSPOON
+        rare:
+    battler_player_y: 16
+    battler_enemy_y: 10
+    battler_altitude: 0
+    evolutions: []
+    form_names: []
+    regional_numbers:
+    shape:

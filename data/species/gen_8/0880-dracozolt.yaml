@@ -1,0 +1,78 @@
+880:
+    name: Dracozolt
+    internal_name: DRACOZOLT
+    base_stats:
+        hp: 90
+        atk: 100
+        def_: 90
+        spa: 80
+        spd: 70
+        spe: 75
+    primary_type: ELECTRIC
+    secondary_type: DRAGON
+    gender_ratio: 7
+    growth_rate: 2
+    exp_yield: 177
+    ev_yield:
+        hp: 0
+        atk: 2
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 45
+    caught_happiness: 50
+    raw_abilities:
+        - VOLTABSORB
+        - HUSTLE
+    raw_hidden_ability: SANDRUSH
+    raw_level_up_moves:
+        - at_level: '1'
+          name: TACKLE
+        - at_level: '1'
+          name: THUNDERSHOCK
+        - at_level: '7'
+          name: CHARGE
+        - at_level: '14'
+          name: AERIALACE
+        - at_level: '21'
+          name: ANCIENTPOWER
+        - at_level: '28'
+          name: PLUCK
+        - at_level: '35'
+          name: DRAGONTAIL
+        - at_level: '42'
+          name: STOMP
+        - at_level: '49'
+          name: SLAM
+        - at_level: '56'
+          name: DISCHARGE
+        - at_level: '63'
+          name: BOLTBEAK
+        - at_level: '70'
+          name: DRAGONPULSE
+        - at_level: '77'
+          name: DRAGONRUSH
+    raw_egg_moves: []
+    raw_tms: []
+    compatible_egg_groups:
+        - 14
+    steps_to_hatch: 8960
+    height: 1.8
+    weight: 190.0
+    colour: Green
+    habitat:
+    kind: Fossil
+    pokedex_entry: The powerful muscles in its tail generate its electricity. Compared
+        to its lower body, its upper half is entirely too small.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 21
+    battler_enemy_y: 26
+    battler_altitude: 0
+    evolutions: []
+    form_names: []
+    regional_numbers: 880
+    shape:

@@ -1,0 +1,83 @@
+903:
+    name: Sneasler
+    internal_name: SNEASLER
+    base_stats:
+        hp: 80
+        atk: 130
+        def_: 60
+        spa: 40
+        spd: 80
+        spe: 120
+    primary_type: FIGHTING
+    secondary_type: POISON
+    gender_ratio: 3
+    growth_rate: 3
+    exp_yield: 179
+    ev_yield:
+        hp: 0
+        atk: 1
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 1
+    catch_rate: 45
+    caught_happiness: 35
+    raw_abilities:
+        - PRESSURE
+        - UNBURDEN
+    raw_hidden_ability: POISONTOUCH
+    raw_level_up_moves:
+        - at_level: '0'
+          name: DIRECLAW
+        - at_level: '1'
+          name: FLING
+        - at_level: '1'
+          name: SCRATCH
+        - at_level: '1'
+          name: LEER
+        - at_level: '1'
+          name: ROCKSMASH
+        - at_level: '6'
+          name: TAUNT
+        - at_level: '12'
+          name: QUICKATTACK
+        - at_level: '18'
+          name: METALCLAW
+        - at_level: '24'
+          name: POISONJAB
+        - at_level: '30'
+          name: BRICKBREAK
+        - at_level: '35'
+          name: HONECLAWS
+        - at_level: '42'
+          name: SLASH
+        - at_level: '48'
+          name: AGILITY
+        - at_level: '54'
+          name: SCREECH
+        - at_level: '60'
+          name: CLOSECOMBAT
+    raw_egg_moves: []
+    raw_tms: []
+    compatible_egg_groups:
+        - 4
+    steps_to_hatch: 5355
+    height: 1.3
+    weight: 43.0
+    colour: Gray
+    habitat:
+    kind: Free Climb
+    pokedex_entry: Because of Sneasler's virulent poison and daunting physical prowess,
+        no other species could hope to best it on the frozen highlands. Preferring
+        solitude, this species does not form packs.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 17
+    battler_enemy_y: 12
+    battler_altitude: 0
+    evolutions: []
+    form_names: []
+    regional_numbers:
+    shape:

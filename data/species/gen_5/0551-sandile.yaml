@@ -1,0 +1,101 @@
+551:
+    name: Sandile
+    internal_name: SANDILE
+    base_stats:
+        hp: 50
+        atk: 72
+        def_: 35
+        spa: 35
+        spd: 35
+        spe: 65
+    primary_type: GROUND
+    secondary_type: DARK
+    gender_ratio: 3
+    growth_rate: 3
+    exp_yield: 58
+    ev_yield:
+        hp: 0
+        atk: 1
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 180
+    caught_happiness: 70
+    raw_abilities:
+        - INTIMIDATE
+        - MOXIE
+    raw_hidden_ability: ANGERPOINT
+    raw_level_up_moves:
+        - at_level: '1'
+          name: LEER
+        - at_level: '1'
+          name: RAGE
+        - at_level: '4'
+          name: BITE
+        - at_level: '7'
+          name: SANDATTACK
+        - at_level: '10'
+          name: TORMENT
+        - at_level: '13'
+          name: SANDTOMB
+        - at_level: '16'
+          name: ASSURANCE
+        - at_level: '19'
+          name: MUDSLAP
+        - at_level: '22'
+          name: EMBARGO
+        - at_level: '25'
+          name: SWAGGER
+        - at_level: '28'
+          name: CRUNCH
+        - at_level: '31'
+          name: DIG
+        - at_level: '34'
+          name: SCARYFACE
+        - at_level: '37'
+          name: FOULPLAY
+        - at_level: '40'
+          name: SANDSTORM
+        - at_level: '43'
+          name: EARTHQUAKE
+        - at_level: '46'
+          name: THRASH
+    raw_egg_moves:
+        - BEATUP
+        - COUNTER
+        - DOUBLEEDGE
+        - FIREFANG
+        - FOCUSENERGY
+        - MEFIRST
+        - MEANLOOK
+        - POWERTRIP
+        - PURSUIT
+        - ROCKCLIMB
+        - THUNDERFANG
+        - UPROAR
+    raw_tms: []
+    compatible_egg_groups:
+        - 4
+    steps_to_hatch: 5120
+    height: 0.7
+    weight: 15.2
+    colour: Brown
+    habitat:
+    kind: Desert Croc
+    pokedex_entry: It moves along below the sand's surface, except for its nose and
+        eyes. A dark membrane shields its eyes from the sun.
+    wild_items:
+        common:
+        uncommon: BLACKGLASSES
+        rare:
+    battler_player_y: 35
+    battler_enemy_y: 41
+    battler_altitude: 0
+    evolutions:
+        - into_name: KROKOROK
+          condition: Level
+          parameter: '29'
+    form_names: []
+    regional_numbers:
+    shape:

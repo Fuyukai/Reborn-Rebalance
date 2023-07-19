@@ -1,0 +1,83 @@
+33:
+    name: Nidorino
+    internal_name: NIDORINO
+    base_stats:
+        hp: 61
+        atk: 72
+        def_: 57
+        spa: 55
+        spd: 55
+        spe: 65
+    primary_type: POISON
+    secondary_type:
+    gender_ratio: 0
+    growth_rate: 3
+    exp_yield: 128
+    ev_yield:
+        hp: 0
+        atk: 2
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 120
+    caught_happiness: 70
+    raw_abilities:
+        - POISONPOINT
+        - RIVALRY
+    raw_hidden_ability: HUSTLE
+    raw_level_up_moves:
+        - at_level: '1'
+          name: LEER
+        - at_level: '1'
+          name: PECK
+        - at_level: '7'
+          name: FOCUSENERGY
+        - at_level: '9'
+          name: DOUBLEKICK
+        - at_level: '13'
+          name: POISONSTING
+        - at_level: '20'
+          name: FURYATTACK
+        - at_level: '23'
+          name: HORNATTACK
+        - at_level: '28'
+          name: HELPINGHAND
+        - at_level: '35'
+          name: TOXICSPIKES
+        - at_level: '38'
+          name: FLATTER
+        - at_level: '43'
+          name: POISONJAB
+        - at_level: '50'
+          name: CAPTIVATE
+        - at_level: '58'
+          name: HORNDRILL
+    raw_egg_moves: []
+    raw_tms: []
+    compatible_egg_groups:
+        - 0
+        - 4
+    steps_to_hatch: 5355
+    height: 0.9
+    weight: 19.5
+    colour: Purple
+    habitat: Grassland
+    kind: Poison Pin
+    pokedex_entry: Its horn is harder than a diamond. If it senses a hostile presence,
+        all the barbs on its back bristle up at once, and it challenges the foe with
+        all its might.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 21
+    battler_enemy_y: 23
+    battler_altitude: 0
+    evolutions:
+        - into_name: NIDOKING
+          condition: Item
+          parameter: MOONSTONE
+    form_names: []
+    regional_numbers:
+    shape:

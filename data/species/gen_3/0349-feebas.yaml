@@ -1,0 +1,74 @@
+349:
+    name: Feebas
+    internal_name: FEEBAS
+    base_stats:
+        hp: 20
+        atk: 15
+        def_: 20
+        spa: 10
+        spd: 55
+        spe: 80
+    primary_type: WATER
+    secondary_type:
+    gender_ratio: 3
+    growth_rate: 4
+    exp_yield: 40
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 1
+    catch_rate: 255
+    caught_happiness: 70
+    raw_abilities:
+        - SWIFTSWIM
+        - OBLIVIOUS
+    raw_hidden_ability: ADAPTABILITY
+    raw_level_up_moves:
+        - at_level: '1'
+          name: SPLASH
+        - at_level: '15'
+          name: TACKLE
+        - at_level: '30'
+          name: FLAIL
+    raw_egg_moves:
+        - BRINE
+        - CAPTIVATE
+        - CONFUSERAY
+        - DRAGONBREATH
+        - DRAGONPULSE
+        - HAZE
+        - HYPNOSIS
+        - IRONTAIL
+        - MIRRORCOAT
+        - MIST
+        - MUDSPORT
+        - TICKLE
+    raw_tms: []
+    compatible_egg_groups:
+        - 1
+        - 13
+    steps_to_hatch: 5355
+    height: 0.6
+    weight: 7.4
+    colour: Brown
+    habitat: WatersEdge
+    kind: Fish
+    pokedex_entry: Feebas live in ponds that are heavily infested with weeds. Because
+        of its hopelessly shabby appearance, it seems as if few Trainers raise it.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 26
+    battler_enemy_y: 19
+    battler_altitude: 12
+    evolutions:
+        - into_name: MILOTIC
+          condition: TradeItem
+          parameter: PRISMSCALE
+    form_names: []
+    regional_numbers:
+    shape:

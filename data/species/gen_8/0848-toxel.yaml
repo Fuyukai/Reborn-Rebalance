@@ -1,0 +1,70 @@
+848:
+    name: Toxel
+    internal_name: TOXEL
+    base_stats:
+        hp: 40
+        atk: 38
+        def_: 35
+        spa: 54
+        spd: 35
+        spe: 40
+    primary_type: ELECTRIC
+    secondary_type: POISON
+    gender_ratio: 3
+    growth_rate: 3
+    exp_yield: 48
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 1
+        spd: 0
+        spe: 0
+    catch_rate: 75
+    caught_happiness: 50
+    raw_abilities:
+        - RATTLED
+        - STATIC
+    raw_hidden_ability: KLUTZ
+    raw_level_up_moves:
+        - at_level: '1'
+          name: BELCH
+        - at_level: '1'
+          name: TEARFULLOOK
+        - at_level: '1'
+          name: NUZZLE
+        - at_level: '1'
+          name: GROWL
+        - at_level: '1'
+          name: FLAIL
+        - at_level: '1'
+          name: ACID
+    raw_egg_moves:
+        - ENDEAVOR
+        - METALSOUND
+        - POWERUPPUNCH
+    raw_tms: []
+    compatible_egg_groups:
+        - 14
+    steps_to_hatch: 6400
+    height: 0.4
+    weight: 11.0
+    colour: Purple
+    habitat:
+    kind: Baby
+    pokedex_entry: It manipulates the chemical makeup of its poison to produce electricity.
+        The voltage is weak, but it can cause a tingling paralysis.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 21
+    battler_enemy_y: 26
+    battler_altitude: 0
+    evolutions:
+        - into_name: TOXTRICITY
+          condition: Level
+          parameter: '30'
+    form_names: []
+    regional_numbers: 848
+    shape:

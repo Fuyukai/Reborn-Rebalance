@@ -1,0 +1,85 @@
+817:
+    name: Drizzile
+    internal_name: DRIZZILE
+    base_stats:
+        hp: 65
+        atk: 60
+        def_: 55
+        spa: 95
+        spd: 55
+        spe: 90
+    primary_type: WATER
+    secondary_type:
+    gender_ratio: 1
+    growth_rate: 3
+    exp_yield: 147
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 2
+        spd: 0
+        spe: 0
+    catch_rate: 45
+    caught_happiness: 50
+    raw_abilities:
+        - TORRENT
+        - SNIPER
+    raw_hidden_ability:
+    raw_level_up_moves:
+        - at_level: '1'
+          name: POUND
+        - at_level: '1'
+          name: GROWL
+        - at_level: '1'
+          name: WATERGUN
+        - at_level: '1'
+          name: BIND
+        - at_level: '12'
+          name: WATERPULSE
+        - at_level: '19'
+          name: TEARFULLOOK
+        - at_level: '24'
+          name: SUCKERPUNCH
+        - at_level: '30'
+          name: UTURN
+        - at_level: '36'
+          name: LIQUIDATION
+        - at_level: '42'
+          name: SOAK
+        - at_level: '48'
+          name: RAINDANCE
+    raw_egg_moves:
+        - AQUAJET
+        - DOUBLETEAM
+        - AQUARING
+        - MIST
+        - HAZE
+        - ICESHARD
+        - FELLSTINGER
+    raw_tms: []
+    compatible_egg_groups:
+        - 1
+        - 4
+    steps_to_hatch: 5120
+    height: 0.7
+    weight: 11.5
+    colour: Blue
+    habitat:
+    kind: Water Lizard
+    pokedex_entry: Highly intelligent but also very lazy, it keeps enemies out of
+        its territory by laying traps everywhere.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 21
+    battler_enemy_y: 26
+    battler_altitude: 0
+    evolutions:
+        - into_name: INTELEON
+          condition: Level
+          parameter: '35'
+    form_names: []
+    regional_numbers: 817
+    shape:

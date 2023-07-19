@@ -1,0 +1,94 @@
+344:
+    name: Claydol
+    internal_name: CLAYDOL
+    base_stats:
+        hp: 60
+        atk: 70
+        def_: 105
+        spa: 70
+        spd: 120
+        spe: 75
+    primary_type: GROUND
+    secondary_type: PSYCHIC
+    gender_ratio: 7
+    growth_rate: 1
+    exp_yield: 175
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 0
+        spa: 0
+        spd: 2
+        spe: 0
+    catch_rate: 90
+    caught_happiness: 70
+    raw_abilities:
+        - LEVITATE
+    raw_hidden_ability:
+    raw_level_up_moves:
+        - at_level: '0'
+          name: HYPERBEAM
+        - at_level: '1'
+          name: TELEPORT
+        - at_level: '1'
+          name: HARDEN
+        - at_level: '1'
+          name: CONFUSION
+        - at_level: '1'
+          name: RAPIDSPIN
+        - at_level: '4'
+          name: RAPIDSPIN
+        - at_level: '7'
+          name: MUDSLAP
+        - at_level: '10'
+          name: HEALBLOCK
+        - at_level: '13'
+          name: ROCKTOMB
+        - at_level: '16'
+          name: PSYBEAM
+        - at_level: '19'
+          name: ANCIENTPOWER
+        - at_level: '22'
+          name: COSMICPOWER
+        - at_level: '25'
+          name: POWERTRICK
+        - at_level: '28'
+          name: SELFDESTRUCT
+        - at_level: '31'
+          name: EXTRASENSORY
+        - at_level: '34'
+          name: GUARDSPLIT
+        - at_level: '34'
+          name: POWERSPLIT
+        - at_level: '40'
+          name: EARTHPOWER
+        - at_level: '46'
+          name: SANDSTORM
+        - at_level: '52'
+          name: IMPRISON
+        - at_level: '58'
+          name: EXPLOSION
+    raw_egg_moves: []
+    raw_tms: []
+    compatible_egg_groups:
+        - 9
+    steps_to_hatch: 5355
+    height: 1.5
+    weight: 108.0
+    colour: Black
+    habitat: RoughTerrain
+    kind: Clay Doll
+    pokedex_entry: A Claydol sleeps while hovering in midair. Its arms are separate
+        from its body. They are kept floating by the Pokémon's manipulation of psychic
+        power.
+    wild_items:
+        common:
+        uncommon: LIGHTCLAY
+        rare:
+    battler_player_y: 16
+    battler_enemy_y: 12
+    battler_altitude: 11
+    evolutions: []
+    form_names: []
+    regional_numbers:
+    shape:

@@ -1,0 +1,92 @@
+934:
+    name: Greavard
+    internal_name: GREAVARD
+    base_stats:
+        hp: 50
+        atk: 61
+        def_: 60
+        spa: 30
+        spd: 55
+        spe: 34
+    primary_type: GHOST
+    secondary_type:
+    gender_ratio: 3
+    growth_rate: 3
+    exp_yield: 87
+    ev_yield:
+        hp: 0
+        atk: 1
+        def_: 0
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 120
+    caught_happiness: 50
+    raw_abilities:
+        - PICKUP
+        - FLUFFY
+    raw_hidden_ability:
+    raw_level_up_moves:
+        - at_level: '1'
+          name: TACKLE
+        - at_level: '1'
+          name: GROWL
+        - at_level: '3'
+          name: LICK
+        - at_level: '6'
+          name: TAILWHIP
+        - at_level: '6'
+          name: BITE
+        - at_level: '9'
+          name: ROAR
+        - at_level: '12'
+          name: HEADBUTT
+        - at_level: '16'
+          name: DIG
+        - at_level: '24'
+          name: REST
+        - at_level: '28'
+          name: CRUNCH
+        - at_level: '32'
+          name: PLAYROUGH
+        - at_level: '37'
+          name: HELPINGHAND
+        - at_level: '41'
+          name: PHANTOMFORCE
+        - at_level: '46'
+          name: CHARM
+        - at_level: '52'
+          name: DOUBLEEDGE
+    raw_egg_moves:
+        - ALLYSWITCH
+        - DESTINYBOND
+        - DISABLE
+        - HOWL
+        - MEMENTO
+        - SHADOWSNEAK
+        - YAWN
+    raw_tms: []
+    compatible_egg_groups:
+        - 4
+    steps_to_hatch: 5140
+    height: 0.6
+    weight: 35.0
+    colour: White
+    habitat:
+    kind: Ghost Dog
+    pokedex_entry: This friendly Pokémon doesn't like being alone. Pay it even the
+        slightest bit of attention, and it will follow you forever.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 10
+    battler_enemy_y: 12
+    battler_altitude: 0
+    evolutions:
+        - into_name: HOUNDSTONE
+          condition: LevelNight
+          parameter: '30'
+    form_names: []
+    regional_numbers:
+    shape:

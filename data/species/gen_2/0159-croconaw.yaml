@@ -1,0 +1,91 @@
+159:
+    name: Croconaw
+    internal_name: CROCONAW
+    base_stats:
+        hp: 65
+        atk: 80
+        def_: 80
+        spa: 59
+        spd: 63
+        spe: 58
+    primary_type: WATER
+    secondary_type:
+    gender_ratio: 1
+    growth_rate: 3
+    exp_yield: 142
+    ev_yield:
+        hp: 0
+        atk: 1
+        def_: 1
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 45
+    caught_happiness: 70
+    raw_abilities:
+        - TORRENT
+        - SHEERFORCE
+    raw_hidden_ability:
+    raw_level_up_moves:
+        - at_level: '1'
+          name: SCRATCH
+        - at_level: '1'
+          name: LEER
+        - at_level: '1'
+          name: WATERGUN
+        - at_level: '6'
+          name: WATERGUN
+        - at_level: '8'
+          name: RAGE
+        - at_level: '13'
+          name: BITE
+        - at_level: '15'
+          name: SCARYFACE
+        - at_level: '21'
+          name: ICEFANG
+        - at_level: '24'
+          name: FLAIL
+        - at_level: '30'
+          name: CRUNCH
+        - at_level: '33'
+          name: CHIPAWAY
+        - at_level: '39'
+          name: SLASH
+        - at_level: '42'
+          name: SCREECH
+        - at_level: '48'
+          name: THRASH
+        - at_level: '51'
+          name: AQUATAIL
+        - at_level: '57'
+          name: SUPERPOWER
+        - at_level: '60'
+          name: HYDROPUMP
+    raw_egg_moves: []
+    raw_tms: []
+    compatible_egg_groups:
+        - 0
+        - 1
+    steps_to_hatch: 5355
+    height: 1.1
+    weight: 25.0
+    colour: Blue
+    habitat: WatersEdge
+    kind: Big Jaw
+    pokedex_entry: Once its jaws clamp down on its foe, it will not let go. Because
+        the tips of its fangs are forked back like fishhooks, they become irremovably
+        embedded.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 22
+    battler_enemy_y: 13
+    battler_altitude: 0
+    evolutions:
+        - into_name: FERALIGATR
+          condition: Level
+          parameter: '30'
+    form_names: []
+    regional_numbers:
+    shape:

@@ -1,0 +1,107 @@
+114:
+    name: Tangela
+    internal_name: TANGELA
+    base_stats:
+        hp: 65
+        atk: 55
+        def_: 115
+        spa: 100
+        spd: 40
+        spe: 60
+    primary_type: GRASS
+    secondary_type:
+    gender_ratio: 3
+    growth_rate: 1
+    exp_yield: 87
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 1
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 45
+    caught_happiness: 70
+    raw_abilities:
+        - CHLOROPHYLL
+        - LEAFGUARD
+    raw_hidden_ability: REGENERATOR
+    raw_level_up_moves:
+        - at_level: '1'
+          name: INGRAIN
+        - at_level: '1'
+          name: CONSTRICT
+        - at_level: '4'
+          name: SLEEPPOWDER
+        - at_level: '7'
+          name: VINEWHIP
+        - at_level: '10'
+          name: ABSORB
+        - at_level: '14'
+          name: POISONPOWDER
+        - at_level: '17'
+          name: BIND
+        - at_level: '20'
+          name: GROWTH
+        - at_level: '23'
+          name: MEGADRAIN
+        - at_level: '27'
+          name: KNOCKOFF
+        - at_level: '30'
+          name: STUNSPORE
+        - at_level: '33'
+          name: NATURALGIFT
+        - at_level: '36'
+          name: GIGADRAIN
+        - at_level: '38'
+          name: ANCIENTPOWER
+        - at_level: '41'
+          name: SLAM
+        - at_level: '44'
+          name: TICKLE
+        - at_level: '46'
+          name: WRINGOUT
+        - at_level: '48'
+          name: GRASSYTERRAIN
+        - at_level: '50'
+          name: POWERWHIP
+    raw_egg_moves:
+        - AMNESIA
+        - CONFUSION
+        - ENDEAVOR
+        - FLAIL
+        - GIGADRAIN
+        - LEAFSTORM
+        - LEECHSEED
+        - MEGADRAIN
+        - NATURALGIFT
+        - NATUREPOWER
+        - POWERSWAP
+        - RAGEPOWDER
+        - WAKEUPSLAP
+    raw_tms: []
+    compatible_egg_groups:
+        - 6
+    steps_to_hatch: 5355
+    height: 1.0
+    weight: 35.0
+    colour: Blue
+    habitat: Grassland
+    kind: Vine
+    pokedex_entry: Its vines snap off easily and painlessly if they are grabbed, allowing
+        it to make a quick getaway. The lost vines are replaced by new growth the
+        next day.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 27
+    battler_enemy_y: 22
+    battler_altitude: 0
+    evolutions:
+        - into_name: TANGROWTH
+          condition: HasMove
+          parameter: ANCIENTPOWER
+    form_names: []
+    regional_numbers:
+    shape:

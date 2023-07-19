@@ -1,0 +1,86 @@
+838:
+    name: Carkol
+    internal_name: CARKOL
+    base_stats:
+        hp: 80
+        atk: 60
+        def_: 90
+        spa: 60
+        spd: 70
+        spe: 50
+    primary_type: ROCK
+    secondary_type: FIRE
+    gender_ratio: 3
+    growth_rate: 3
+    exp_yield: 144
+    ev_yield:
+        hp: 0
+        atk: 0
+        def_: 2
+        spa: 0
+        spd: 0
+        spe: 0
+    catch_rate: 120
+    caught_happiness: 50
+    raw_abilities:
+        - STEAMENGINE
+        - FLAMEBODY
+    raw_hidden_ability: FLASHFIRE
+    raw_level_up_moves:
+        - at_level: '0'
+          name: TARSHOT
+        - at_level: '1'
+          name: TARSHOT
+        - at_level: '1'
+          name: FLAMECHARGE
+        - at_level: '1'
+          name: TACKLE
+        - at_level: '1'
+          name: SMOKESCREEN
+        - at_level: '1'
+          name: RAPIDSPIN
+        - at_level: '1'
+          name: SMACKDOWN
+        - at_level: '15'
+          name: ROCKPOLISH
+        - at_level: '20'
+          name: ANCIENTPOWER
+        - at_level: '27'
+          name: INCINERATE
+        - at_level: '35'
+          name: STEALTHROCK
+        - at_level: '41'
+          name: HEATCRASH
+        - at_level: '48'
+          name: ROCKBLAST
+        - at_level: '55'
+          name: BURNUP
+    raw_egg_moves:
+        - EXPLOSION
+        - MUDSLAP
+        - BLOCK
+    raw_tms: []
+    compatible_egg_groups:
+        - 9
+    steps_to_hatch: 3840
+    height: 1.1
+    weight: 78.0
+    colour: Black
+    habitat:
+    kind: Coal
+    pokedex_entry: By rapidly rolling its legs, it can travel at over 18 mph. The
+        temperature of the flames it breathes exceeds 1,800 degrees Fahrenheit.
+    wild_items:
+        common:
+        uncommon:
+        rare:
+    battler_player_y: 21
+    battler_enemy_y: 26
+    battler_altitude: 0
+    evolutions:
+        - into_name: COALOSSAL
+          condition: Level
+          parameter: '34'
+    form_names: []
+    regional_numbers: 838
+    shape:
