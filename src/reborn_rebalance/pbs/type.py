@@ -1,8 +1,8 @@
 from __future__ import annotations
 
 import enum
-from functools import cached_property
-from io import StringIO
+
+from reborn_rebalance.util import PbsBuffer
 
 
 class PokemonType(enum.Enum):
@@ -118,39 +118,40 @@ def dump_types() -> str:
     Dumps all types into a PBS types.txt format.
     """
 
-    buffer = StringIO()
+    buffer = PbsBuffer()
 
     for idx, type in enumerate(PokemonType):
         type: PokemonType
 
-        buffer.write(f"[{idx}]\n")
+        buffer.write_id_header(idx)
 
         if type == PokemonType.QMARKS:
-            buffer.write("Name=???\nInternalName=QMARKS\nIsPsuedoType=true")
+            buffer.backing.write("Name=???\nInternalName=QMARKS\nIsPsuedoType=true")
         else:
-            buffer.write(f"Name={type.localised_name}\n")
-            buffer.write(f"InternalName={type.name}\n")
+            buffer.write_key_value("Name", type.localised_name)
+            buffer.write_key_value("InternalName", type.name)
 
             # the standard PBS types don't seem to have this as False, so we copy that behaviour
             if type.special_type:
-                buffer.write("IsSpecialType=true\n")
+                buffer.write_key_value("IsSpecialType", "true")
 
-            buffer.write(
-                f"Weaknesses={','.join([typ.name for typ in type.weaknesses])}\n"
+            buffer.write_key_value(
+                "Weaknesses",
+                ','.join([typ.name for typ in type.weaknesses])
             )
 
             resist = [typ.name for typ in type.resistances]
             if resist:
-                buffer.write(f"Resistances={','.join(resist)}\n")
+                buffer.write_key_value("Resistances", ','.join(resist))
 
             immune = [typ.name for typ in type.immunities]
             if immune:
-                buffer.write(f"Immunities={','.join(immune)}\n")
+                buffer.write_key_value("Immunities", ','.join(immune))
 
         # extra newline, to keep in line with the stock format.
-        buffer.write("\n")
+        buffer.backing.write("\n")
 
-    return buffer.getvalue()
+    return buffer.backing.getvalue()
 
 
 # Apply custom type tweaks here.
