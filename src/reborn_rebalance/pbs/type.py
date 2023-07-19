@@ -136,17 +136,16 @@ def dump_types() -> str:
                 buffer.write_key_value("IsSpecialType", "true")
 
             buffer.write_key_value(
-                "Weaknesses",
-                ','.join([typ.name for typ in type.weaknesses])
+                "Weaknesses", ",".join([typ.name for typ in type.weaknesses])
             )
 
             resist = [typ.name for typ in type.resistances]
             if resist:
-                buffer.write_key_value("Resistances", ','.join(resist))
+                buffer.write_key_value("Resistances", ",".join(resist))
 
             immune = [typ.name for typ in type.immunities]
             if immune:
-                buffer.write_key_value("Immunities", ','.join(immune))
+                buffer.write_key_value("Immunities", ",".join(immune))
 
         # extra newline, to keep in line with the stock format.
         buffer.backing.write("\n")

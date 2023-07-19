@@ -26,7 +26,7 @@ GENERATIONS = [
     # Grookey -> Enamorus
     range(810, 906),
     # Sprigatito -> Iron Leaves
-    range(906, 1021)
+    range(906, 1021),
 ]
 
 YAML = ruamel.yaml.YAML()
@@ -90,7 +90,10 @@ def main():
     pokemon_location = output_dir / "species"
     pokemon_location.mkdir(parents=True, exist_ok=True)
 
-    dump_pokemon(input_dir / "pokemon.txt", pokemon_location,)
+    dump_pokemon(
+        input_dir / "pokemon.txt",
+        pokemon_location,
+    )
 
 
 if __name__ == "__main__":

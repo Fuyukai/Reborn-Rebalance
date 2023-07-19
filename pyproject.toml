@@ -1,11 +1,11 @@
 [tool.poetry]
 name = "reborn-rebalance"
-version = "0.1.0"
+version = "0.7.0"
 description = ""
 authors = ["Lura Skye <l@veriny.tf>"]
 readme = "README.rst"
 packages = [{include = "reborn_rebalance", from = "src"}]
-licence = "CC0"
+license = "CC0"
 
 [tool.poetry.dependencies]
 python = "^3.11"
@@ -13,6 +13,9 @@ ruamel-yaml = "^0.17.32"
 attrs = "^23.1.0"
 cattrs = "^23.1.2"
 prettyprinter = "^0.18.0"
+sphinx = "<7"
+sphinx-rtd-theme = "^1.2.2"
+sphinx-inline-tabs = "^2023.4.21"
 
 
 [build-system]
