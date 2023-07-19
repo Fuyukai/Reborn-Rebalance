@@ -47,5 +47,3 @@ class PbsBuffer(object):
         self.backing.write("=")
         self.backing.write(",".join(value))
         self.backing.write("\n")
-
-

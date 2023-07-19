@@ -1,10 +1,14 @@
-from enum import Enum
 from pathlib import Path
 
 import cattrs
 from ruamel import yaml
 
-from reborn_rebalance.pbs.pokemon import GrowthRate, GenderRatio, EggGroup, PokemonSpecies
+from reborn_rebalance.pbs.pokemon import (
+    GrowthRate,
+    GenderRatio,
+    EggGroup,
+    PokemonSpecies,
+)
 from reborn_rebalance.pbs.type import PokemonType
 
 YAML = yaml.YAML()
