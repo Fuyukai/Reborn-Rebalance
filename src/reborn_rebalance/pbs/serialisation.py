@@ -11,7 +11,8 @@ from reborn_rebalance.pbs.pokemon import (
 )
 from reborn_rebalance.pbs.type import PokemonType
 
-YAML = yaml.YAML()
+# round-trip parser is non-C and way slower.
+YAML = yaml.YAML(typ="safe")
 YAML.indent(mapping=4, offset=4, sequence=6)
 
 
@@ -52,3 +53,28 @@ def save_species_to_yaml(output_path: Path, species: PokemonSpecies, dex: int):
 
     with output_path.open(encoding="utf-8", mode="w") as f:
         YAML.dump(output, f)
+
+
+def load_all_species(path: Path) -> list[PokemonSpecies]:
+    """
+    Loads all species from the YAML directory, and returns them in Pokédex order.
+    """
+
+    to_read = []
+
+    for dir in path.iterdir():
+        for subpath in dir.iterdir():
+            to_read.append(subpath)
+
+    species: list[PokemonSpecies] = [None] * len(to_read)  # type: ignore
+    for path in to_read:
+        print(f"LOAD: {path}")
+        idx, decoded = load_species_from_yaml(path)
+        species[idx - 1] = decoded
+
+    if __debug__:
+        for idx, read_in in enumerate(species):
+            if read_in is None:
+                raise ValueError(f"didn't load {idx + 1}")
+
+    return species

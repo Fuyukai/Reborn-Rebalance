@@ -1,0 +1,130 @@
+.bg-grass {
+    background-color: #78C850;
+}
+
+.bg-water {
+    background-color: #6890F0;
+}
+
+.bg-fire {
+    background-color: #F08030;
+}
+
+.bg-flying {
+    background-color: #A890F0;
+}
+
+.bg-bug {
+    background-color: #A8B820;
+}
+
+.bg-normal {
+    background-color: #A8A878;
+}
+
+.bg-dark {
+    background-color: #705848;
+}
+
+.bg-electric {
+    background-color: #F8D030;
+}
+
+.bg-psychic {
+    background-color: #F85888;
+}
+
+.bg-poison {
+    background-color: #A040A0;
+}
+
+.bg-ground {
+    background-color: #E0C068;
+}
+
+.bg-ice {
+    background-color: #98D8D8;
+}
+
+.bg-steel {
+    background-color: #B8B8D0;
+}
+
+.bg-fairy {
+    background-color: #EE99AC;
+}
+
+.bg-fighting {
+    background-color: #C03028;
+}
+
+.bg-rock {
+    background-color: #B8A038;
+}
+
+.bg-dragon {
+    background-color: #7038F8;
+}
+
+.bg-ghost {
+    background-color: #705898;
+}
+
+table.vcentre td {
+    vertical-align: middle;
+}
+
+/* gotta have a fancy navbar! */
+.navbar {
+    background: linear-gradient(90deg, rgba(203,17,224,1) 0%, rgba(255,107,129,1) 100%);;
+    border-radius: 5px;
+}
+
+/* stop navbar from being so... squished */
+.navbar-brand {
+    padding-left: 1rem;
+}
+
+.navbar-end {
+    padding-right: 1rem;
+}
+
+/* navbar link colours */
+a.navbar-item {
+    color: #FFFFFF;
+}
+a.navbar-item:hover {
+    color: #6BFF88;
+}
+
+/* grid cards with equal height */
+.has-equal-height {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.has-equal-height .card-footer {
+  margin-top: auto;
+}
+
+img.grid-image {
+    object-fit: cover;
+}
+
+#pokemon-display-2 > div.columns {
+    margin-top: 0;
+}
+
+#pokemon-display-2 > div.columns > div.column {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+tr.is-primary {
+    background-color: #00d1b2;
+}
+
+tr.is-primary > th, tr.is-primary > td {
+    color: white;
+}

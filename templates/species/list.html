@@ -1,0 +1,81 @@
+{# takes in a list[PokemonSpecies], and generates a nice table list #}
+{% extends "_meta/_root.html" %}
+
+{% block content %}
+<div class="container">
+    <div class="columns is-centered">
+        <div class="column is-6">
+            <div class="content">
+                <h1 class="title has-text-centered">Full Pokémon list</h1>
+                <p class="has-text-centered">
+                    Click on a Pokémon's name to see its full details page.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="columns is-centered">
+        <div class="column is-2">
+            <div class="control is-large">
+                <input class="input" type="search" id="search-input" placeholder="Filter...">
+            </div>
+        </div>
+
+    </div>
+
+    <table id="table" class="table is-bordered sortable mx-auto vcentre">
+        <thead>
+            <tr>
+                <th><abbr title="National Dex Number">#</abbr></th>
+                <th class="no-sort">Icon</th>
+                <th>Species</th>
+                <th>Type 1</th>
+                <th>Type 2</th>
+            </tr>
+        </thead>
+
+        <tbody>
+        {% for species in species_definitions %}
+        {% set idx = loop.index %}
+        {% set s_idx = "{:04d}".format(idx) %}
+
+        {% set type_1_name = species.primary_type.localised_name %}
+        {% if species.secondary_type is none %}
+        {% set type_2_name = type_1_name %}
+        {% else %}
+        {% set type_2_name = species.secondary_type.localised_name %}
+        {% endif %}
+
+            <tr>
+                <td>{{ s_idx }}</td>
+                <td>
+                    <img
+                            x-idx="{{ s_idx }}"
+                            src="/sprites/{{ s_idx }}.png"
+                            alt="{{ species.name }}"
+                            height="64"
+                            width="64"
+                            onmouseover="swapWithShiny(this);"
+                            onmouseleave="unswapWithShiny(this);"
+                    >
+                </td>
+                <td><a href="/species/specific/{{ species.internal_name.lower() }}.html">{{ species.name }}</a></td>
+                <td class="bg-{{ type_1_name.lower() }}" style="color: white">{{ type_1_name }}</td>
+                <td class="bg-{{ type_2_name.lower() }}" style="color: white">{{ type_2_name }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+<script>
+    function swapWithShiny(el) {
+        el.setAttribute("src", "/sprites/" + el.getAttribute("x-idx") + "_shiny.png");
+    }
+
+    function unswapWithShiny(el) {
+        el.setAttribute("src", "/sprites/" + el.getAttribute("x-idx") + ".png");
+    }
+</script>
+<script src="/static/table_search.js"></script>
+{% endblock %}

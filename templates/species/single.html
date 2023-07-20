@@ -1,0 +1,190 @@
+{# Generates a single Pokémon page from a provided species object. #}
+{# provided params: species, pokedex_number #}
+{% extends "_meta/_root.html" %}
+
+{% set s_idx = "{:04d}".format(pokedex_number) %}
+{% set type_1_name = species.primary_type.localised_name %}
+{% if species.secondary_type is none %}
+{% set type_2_name = type_1_name %}
+{% else %}
+{% set type_2_name = species.secondary_type.localised_name %}
+{% endif %}
+
+{%- macro stat(name, loc_name, full_name) -%}
+{% set stat = species.base_stats[name] %}
+
+<tr>
+    <td style="text-align: right">
+        <abbr title="{{ full_name }}">{{ loc_name }}</abbr>
+    </td>
+    <td>
+        {{ species.base_stats[name] }}
+    </td>
+    <td>
+        {% if stat < 60 %}
+        {% set class = "is-danger" %}
+        {% elif 60 <= stat < 90 %}
+        {% set class = "is-warning" %}
+        {% elif 90 <= stat < 135 %}
+        {% set class = "is-success" %}
+        {% else %}
+        {% set class = "is-info" %}
+        {% endif %}
+
+        <progress class="progress {{ class }}" value="{{ species.base_stats[name] }}" max="255"></progress>
+    </td>
+</tr>
+{%- endmacro -%}
+
+{% block content %}
+<div class="columns is-centered" style="padding-top: 2rem">
+    <div class="column is-4 is-centered is-narrow">
+        <div class="card">
+            <div class="card-header">
+                <p class="card-header-title has-text-centered">
+                    {{ species.name }}
+                    &nbsp;
+                    (<code>{{ species.internal_name }}</code>)
+                </p>
+            </div>
+
+            <div class="card-image">
+                <figure class="image is-square">
+                    <img
+                            x-idx="{{ s_idx }}"
+                            src="/sprites/battler_{{ s_idx }}.png"
+                            alt="Battler sprite for {{ species.name }}"
+                            height="192"
+                            width="192"
+                            onmouseover="swapWithShiny(this);"
+                            onmouseleave="unswapWithShiny(this);"
+                            class=""
+                    >
+                </figure>
+            </div>
+
+            <footer class="card-footer">
+                {% for ability in species.raw_abilities %}
+                <a href="#" class="card-footer-item">
+                    {{ ability }}
+                </a>
+                {% endfor %}
+
+                {% if species.hidden_ability %}
+                <a href="#" class="card-footer-item">
+                    {{ species.hidden_ability }}<
+                </a>
+                {% endif %}
+            </footer>
+        </div>
+    </div>
+    <div class="column is-4" id="pokemon-display-2">
+        <div class="columns is-multiline" style="margin-top: 0; height: 100%">
+            <div class="column is-full">
+                <div class="card">
+                    <div class="card-header">
+                        <span class="card-header-title has-text-centered">Type</span>
+                    </div>
+
+                    <footer class="card-footer">
+                        <a href="#" class="card-footer-item bg-{{ species.primary_type.name.lower() }}" style="color: white; text-decoration: underline">
+                            <strong>{{ species.primary_type.localised_name }}</strong>
+                        </a>
+                        <a href="#" class="card-footer-item bg-{{ species.secondary_type.name.lower() }}" style="color: white; text-decoration: underline">
+                            <strong>{{ species.secondary_type.localised_name }}</strong>
+                        </a>
+                    </footer>
+                </div>
+            </div>
+
+            <div class="column is-full" style="margin-top: auto;">
+                <div class="card">
+                    <div class="card-header has-text-centered">
+                        <span class="card-header-title">Base Stats</span>
+                    </div>
+
+                    <div class="card-content" style="padding-top: 0.25rem;">
+                        <table class="table is-fullwidth">
+                            <thead>
+                            <tr>
+                                <th style="text-align: right">Stat</th>
+                                <th>Value</th>
+                                <th></th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                                {{ stat("hp", "HP", "Hit Points") }}
+                                {{ stat("atk", "Atk", "Physical Attack") }}
+                                {{ stat("def_", "Def", "Physical Defence") }}
+                                {{ stat("spa", "SpA", "Special Attack") }}
+                                {{ stat("spd", "SpD", "Special Defence") }}
+                                {{ stat("spe", "Spe", "Speed") }}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="columns is-centered mt-4">
+    <div class="column is-6">
+        <h2 class="title has-text-centered">Level-up Moveset</h2>
+        <hr/>
+
+        <table class="table is-fullwidth is-striped">
+            <thead>
+            <tr class="is-primary">
+                <th style="text-align: right">Level</th>
+                <th style="text-align: center">Move</th>
+                <th style="text-align: center">Type</th>
+                <th style="text-align: center"><abbr title="Category, physical or special">Cat</abbr></th>
+                <th style="text-align: center"><abbr title="Base Power">BP</abbr></th>
+                <th style="text-align: center"><abbr title="Accuracy">Acc</abbr></th>
+            </tr>
+            </thead>
+
+            <tbody>
+            {% for move in species.raw_egg_moves %}
+            <tr>
+                <td style="text-align: right">Egg</td>
+                <td style="text-align: center">{{ move.name }}</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            {% endfor %}
+
+            {% for move in species.raw_level_up_moves %}
+            <tr>
+                {% if move.at_level > 0 %}
+                <td style="text-align: right">{{ move.at_level }}</td>
+                {% else %}
+                <td style="text-align: right">Evolution</td>
+                {% endif %}
+                <td style="text-align: center">{{ move.name }}</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <div class="column is-6"></div>
+</div>
+
+<script>
+    function swapWithShiny(el) {
+        el.setAttribute("src", "/sprites/battler_" + el.getAttribute("x-idx") + "_shiny.png");
+    }
+
+    function unswapWithShiny(el) {
+        el.setAttribute("src", "/sprites/battler_" + el.getAttribute("x-idx") + ".png");
+    }
+</script>
+{% endblock %}

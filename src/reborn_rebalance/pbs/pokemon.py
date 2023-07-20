@@ -2,7 +2,6 @@ from __future__ import annotations
 
 import enum
 from pathlib import Path
-from typing import Optional
 
 import attr
 import attrs
@@ -31,7 +30,7 @@ class PbsStatFormat(enum.Enum):
 @attr.s(slots=True, frozen=True)
 class StatWrapper:
     """
-    Wrapper class for the base stats of a Pokémon species.
+    Wrapper class for a set of six stats, e.g. base stats or EV yield.
     """
 
     @staticmethod
@@ -65,6 +64,13 @@ class StatWrapper:
         else:
             # new-style EV format...
             raise NotImplementedError("not yet")
+
+    def sum(self) -> int:
+        """
+        Gets the total sum of this stat list.
+        """
+
+        return self.hp + self.atk + self.def_ + self.spa + self.spd + self.spe
 
     def to_pbs(self, for_format: PbsStatFormat = PbsStatFormat.REBORN_STYLE) -> str:
         """
@@ -202,7 +208,8 @@ class PokemonSpecies:
     #: The primary type for this species, e.g. ``PokemonType.FLYING``.
     primary_type: PokemonType = attr.ib(kw_only=True)
     #: The secondary type for this species, e.g. ``PokemonType.FAIRY``.
-    secondary_type: Optional[PokemonType] = attr.ib(kw_only=True)
+    #: May be the same as the primary type if this Pokémon has only one type.
+    secondary_type: PokemonType = attr.ib(kw_only=True)
 
     #: The gender ratio for this species. Governs random encounters.
     gender_ratio: GenderRatio = attr.ib(kw_only=True)
@@ -223,7 +230,7 @@ class PokemonSpecies:
     #: The list of raw abilities this Pokémon can have. Non-empty.
     raw_abilities: list[str] = attr.ib()
     #: The hidden ability for this Pokémon, or None if it has no specific hidden ability.
-    raw_hidden_ability: str = attr.ib()
+    raw_hidden_ability: str | None = attr.ib()
 
     #: The list of moves learned upon level up.
     raw_level_up_moves: list[RawLevelUpMove] = attr.ib()
@@ -289,21 +296,26 @@ class PokemonSpecies:
         )
 
         primary_type: PokemonType
-        secondary_type: PokemonType | None = None
+        secondary_type: PokemonType
 
         # new essentials: Types=FLYING,FAIRY
         # old (reborn) essentials: Type1=Flying ; Type2=Fairy
         if "Types" in data:
             types = [i.strip() for i in data.pop("types").split(",")]
             primary_type = PokemonType[types[0]]
+
             if len(types) >= 1:
                 secondary_type = PokemonType[types[1]]
+            else:
+                secondary_type = primary_type
         else:
             primary_type = PokemonType[data.pop("Type1")]
             secondary_type_name = data.pop("Type2", None)
 
             if secondary_type_name:
                 secondary_type = PokemonType[secondary_type_name]
+            else:
+                secondary_type = primary_type
 
         if "GenderRatio" in data:  # newer essentials versions
             gender_ratio = GenderRatio[data.pop("GenderRatio")]
@@ -431,7 +443,7 @@ class PokemonSpecies:
         buffer.write_key_value("InternalName", self.internal_name)
         buffer.write_key_value("Type1", self.primary_type.name)
 
-        if self.secondary_type:
+        if self.secondary_type != self.primary_type:
             buffer.write_key_value("Type2", self.secondary_type.name)
 
         buffer.write_key_value("BaseStats", self.base_stats.to_pbs())
@@ -492,14 +504,17 @@ class PokemonSpecies:
 
 
 if __name__ == "__main__":
-    prettyprinter.install_extras(include=["attrs"])
+    def main():
+        prettyprinter.install_extras(include=["attrs"])
 
-    pbs = raw_parse_pokemon_pbs(Path.home() / "aur/pokemon/reborn/PBS/pokemon.txt")
+        pbs = raw_parse_pokemon_pbs(Path.home() / "aur/pokemon/reborn/PBS/pokemon.txt")
 
-    buffer = PbsBuffer()
-    for idx, entry in enumerate(pbs):
-        parsed = PokemonSpecies.from_pbs(entry)
-        buffer.write_id_header(idx + 1)
-        parsed.to_pbs(buffer)
+        pbs_buffer = PbsBuffer()
+        for idx, entry in enumerate(pbs):
+            parsed = PokemonSpecies.from_pbs(entry)
+            pbs_buffer.write_id_header(idx + 1)
+            parsed.to_pbs(pbs_buffer)
 
-    Path("./test.txt").write_text(buffer.backing.getvalue())
+        Path("./pokemon.txt").write_text(pbs_buffer.backing.getvalue())
+
+    main()
