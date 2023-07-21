@@ -4,10 +4,10 @@ from pathlib import Path
 
 import jinja2
 
-from reborn_rebalance.pbs.serialisation import load_all_species
-
+from reborn_rebalance.pbs.serialisation import load_all_species_from_yaml
 
 # todo: hardcode the paths less
+
 
 def main():
     try:
@@ -28,7 +28,7 @@ def main():
     env = jinja2.Environment(loader=loader)
 
     # begin loading block
-    species_defs = load_all_species(Path.cwd() / "data" / "species")
+    species_defs = load_all_species_from_yaml(Path.cwd() / "data" / "species")
 
     # end loading block
 

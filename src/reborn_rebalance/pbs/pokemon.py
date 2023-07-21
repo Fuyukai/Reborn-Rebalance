@@ -9,8 +9,7 @@ import prettyprinter
 
 from reborn_rebalance.pbs.raw.pokemon import raw_parse_pokemon_pbs
 from reborn_rebalance.pbs.type import PokemonType
-from reborn_rebalance.util import chunks, PbsBuffer
-
+from reborn_rebalance.util import PbsBuffer, chunks
 
 # XXX: This currently has *some* code to support non-Reborn pokemon.txt, but practically speaking
 #      it only supports Reborn pokemon.txt. Keep that in mind.
@@ -49,9 +48,7 @@ class StatWrapper:
     spe: int = attr.ib(validator=validate_base_stat)
 
     @classmethod
-    def from_pbs(
-        cls, line: str, for_format: PbsStatFormat = PbsStatFormat.REBORN_STYLE
-    ):
+    def from_pbs(cls, line: str, for_format: PbsStatFormat = PbsStatFormat.REBORN_STYLE):
         """
         Creates a new :class:`.StatWrapper` for the provided PBS line.
         """
@@ -324,9 +321,7 @@ class PokemonSpecies:
 
         growth_rate = GrowthRate[data.pop("GrowthRate")]
         exp_yield = data.pop("BaseEXP")
-        evs = StatWrapper.from_pbs(
-            data.pop("EffortPoints"), for_format=PbsStatFormat.REBORN_STYLE
-        )
+        evs = StatWrapper.from_pbs(data.pop("EffortPoints"), for_format=PbsStatFormat.REBORN_STYLE)
         catch_rate = data.pop("Rareness")
         happiness = data.pop("Happiness")
 
@@ -379,9 +374,7 @@ class PokemonSpecies:
                     cond_param = ""
 
                 raw_evos.append(
-                    PokemonEvolution(
-                        into_name=into, condition=cond, parameter=cond_param
-                    )
+                    PokemonEvolution(into_name=into, condition=cond, parameter=cond_param)
                 )
 
         forms = data.pop("FormNames", "")
@@ -497,13 +490,12 @@ class PokemonSpecies:
 
         evos = []
         for evolution in self.evolutions:
-            evos.append(
-                f"{evolution.into_name},{evolution.condition},{evolution.parameter}"
-            )
+            evos.append(f"{evolution.into_name},{evolution.condition},{evolution.parameter}")
         buffer.write_key_value("Evolutions", ",".join(evos))
 
 
 if __name__ == "__main__":
+
     def main():
         prettyprinter.install_extras(include=["attrs"])
 

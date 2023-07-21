@@ -1,11 +1,12 @@
 from pathlib import Path
 from typing import TextIO
 
-
 # basically only used for generating the input files.
 
 
 def _raw_parse_inner(f: TextIO) -> list[dict[str, str | int]]:
+    # TODO: reorder according to the number?
+
     has_started = False
     last_entry = {}
     entries: list[dict[str, str | int]] = []
@@ -57,7 +58,5 @@ def raw_parse_pokemon_pbs(path: Path) -> list[dict[str, str | int]]:
 if __name__ == "__main__":
     from pprint import pp
 
-    for entry in raw_parse_pokemon_pbs(
-        Path.home() / "aur/pokemon/reborn/PBS/pokemon.txt"
-    ):
+    for entry in raw_parse_pokemon_pbs(Path.home() / "aur/pokemon/reborn/PBS/pokemon.txt"):
         pp(entry)

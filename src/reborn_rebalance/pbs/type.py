@@ -135,9 +135,7 @@ def dump_types() -> str:
             if type.special_type:
                 buffer.write_key_value("IsSpecialType", "true")
 
-            buffer.write_key_value(
-                "Weaknesses", ",".join([typ.name for typ in type.weaknesses])
-            )
+            buffer.write_key_value("Weaknesses", ",".join([typ.name for typ in type.weaknesses]))
 
             resist = [typ.name for typ in type.resistances]
             if resist:

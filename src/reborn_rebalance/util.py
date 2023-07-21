@@ -1,6 +1,6 @@
 from enum import Enum
 from io import StringIO
-from typing import TypeVar, Iterable, Collection, Any
+from typing import Any, Collection, Iterable, TypeVar
 
 import cattrs
 
