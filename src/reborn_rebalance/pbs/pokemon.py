@@ -7,9 +7,11 @@ import attr
 import attrs
 import prettyprinter
 
+from reborn_rebalance.pbs.move import PokemonMove, MoveCategory
 from reborn_rebalance.pbs.raw.pokemon import raw_parse_pokemon_pbs
 from reborn_rebalance.pbs.type import PokemonType
 from reborn_rebalance.util import PbsBuffer, chunks
+
 
 # XXX: This currently has *some* code to support non-Reborn pokemon.txt, but practically speaking
 #      it only supports Reborn pokemon.txt. Keep that in mind.
@@ -493,6 +495,19 @@ class PokemonSpecies:
             evos.append(f"{evolution.into_name},{evolution.condition},{evolution.parameter}")
         buffer.write_key_value("Evolutions", ",".join(evos))
 
+    def has_stab_on(self, move: PokemonMove):
+        """
+        Checks if this Pokémon has STAB (Same Type Advantage Bonus) on the given move.
+        """
+
+        if move.category == MoveCategory.STATUS:
+            return False
+
+        if move.base_power <= 0:
+            return False
+
+        return move.type == self.primary_type or move.type == self.secondary_type
+
 
 if __name__ == "__main__":
 
@@ -508,5 +523,6 @@ if __name__ == "__main__":
             parsed.to_pbs(pbs_buffer)
 
         Path("./pokemon.txt").write_text(pbs_buffer.backing.getvalue())
+
 
     main()

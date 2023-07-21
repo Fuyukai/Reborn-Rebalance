@@ -1,6 +1,6 @@
 import csv
 from pathlib import Path
-from typing import Self
+from typing import Self, Optional
 
 import attr
 
@@ -82,3 +82,15 @@ class EssentialsCatalog:
 
         moves_txt = pbs_dir / "moves.txt"
         save_moves_to_pbs(moves_txt, self.moves)
+
+    # == Helper methods == #
+    def move_by_name(self, internal_name: str) -> Optional[PokemonMove]:
+        """
+        Finds a move by name, or None if no such move exists.
+        """
+
+        for move in self.moves:
+            if move.internal_name == internal_name:
+                return move
+
+        return None

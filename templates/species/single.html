@@ -17,7 +17,7 @@
     <td style="text-align: right">
         <abbr title="{{ full_name }}">{{ loc_name }}</abbr>
     </td>
-    <td>
+    <td class="has-text-right">
         {{ species.base_stats[name] }}
     </td>
     <td class="centre">
@@ -35,6 +35,68 @@
     </td>
 </tr>
 {%- endmacro -%}
+
+{%- macro move(level_up_at, internal_name) -%}
+{% set move = catalog.move_by_name(internal_name) %}
+{% if move is none %}
+<tr>
+    <td style="text-align: right">{{ level_up_at }}</td>
+    <td style="text-align: center"> {{ internal_name }}</td>
+    <td colspan="4" style="text-align: center">
+        <span class="tag is-danger">Missing move</span>
+    </td>
+</tr>
+{% else %}
+
+<tr>
+    <td style="text-align: right">{{ level_up_at }}</td>
+    <td style="text-align: center">
+        <a href="/moves/{{ move.internal_name }}">
+            {% if species.has_stab_on(move) %}
+            <strong>{{ move.display_name }}</strong>
+            {% else %}
+            {{ move.display_name }}
+            {% endif %}
+        </a>
+    </td>
+    <td class="bg-{{ move.type.name.lower() }} has-text-centered no-border" style="color: white">
+        {{ move.type.localised_name }}
+    </td>
+    <td class="has-text-centered center">
+        <img
+                src="https://img.pokemondb.net/images/icons/move-{{ move.category.name.lower() }}.png"
+                alt="{{ move.category.localised_name }}"
+                height="42" width="28"
+                loading="lazy"
+        />
+    </td>
+    <td style="text-align: right">
+        {# BP with 0 is no power, with 1 is "custom power" (whatever the fuck that means) #}
+        {% if move.base_power < 2 %}
+        -
+        {% else %}
+        {{ move.base_power }}
+        {% endif %}
+    </td>
+    <td style="text-align: right">
+        {% if move.accuracy == 0 %}
+            {% if move.category == MoveCategory.STATUS %}
+            -
+            {% else %}
+            ∞
+            {% endif %}
+        {% else %}
+        {{ move.accuracy }}
+        {% endif %}
+    </td>
+</tr>
+{% endif %}
+{%- endmacro -%}
+
+{% block title %}
+{{ species.name }} | Reborn Rebalance
+{% endblock %}
+
 
 {% block content %}
 <div class="columns is-centered" style="padding-top: 2rem">
@@ -78,6 +140,7 @@
             </footer>
         </div>
     </div>
+
     <div class="column is-4" id="pokemon-display-2">
         <div class="columns is-multiline" style="margin-top: 0; height: 100%">
             <div class="column is-full">
@@ -107,8 +170,8 @@
                         <table class="table is-fullwidth">
                             <thead>
                             <tr>
-                                <th style="text-align: right">Stat</th>
-                                <th>Value</th>
+                                <th class="has-text-right">Stat</th>
+                                <th class="has-text-right">Value</th>
                                 <th></th>
                             </tr>
                             </thead>
@@ -133,43 +196,31 @@
         <h2 class="title has-text-centered">Level-up Moveset</h2>
         <hr/>
 
-        <table class="table is-fullwidth is-striped">
+        <table class="table is-fullwidth is-striped sortable">
             <thead>
             <tr class="is-primary">
                 <th style="text-align: right">Level</th>
                 <th style="text-align: center">Move</th>
                 <th style="text-align: center">Type</th>
                 <th style="text-align: center"><abbr title="Category, physical or special">Cat</abbr></th>
-                <th style="text-align: center"><abbr title="Base Power">BP</abbr></th>
-                <th style="text-align: center"><abbr title="Accuracy">Acc</abbr></th>
+                <th style="text-align: right"><abbr title="Base Power">BP</abbr></th>
+                <th style="text-align: right"><abbr title="Accuracy">Acc</abbr></th>
             </tr>
             </thead>
 
             <tbody>
-            {% for move in species.raw_egg_moves %}
-            <tr>
-                <td style="text-align: right">Egg</td>
-                <td style="text-align: center">{{ move.name }}</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
+            {% for move_name in species.raw_egg_moves %}
+            {{ move("Egg", move_name) }}
             {% endfor %}
 
-            {% for move in species.raw_level_up_moves %}
-            <tr>
-                {% if move.at_level > 0 %}
-                <td style="text-align: right">{{ move.at_level }}</td>
-                {% else %}
-                <td style="text-align: right">Evolution</td>
-                {% endif %}
-                <td style="text-align: center">{{ move.name }}</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
+            {% for lvl_up_move in species.raw_level_up_moves %}
+            {% if lvl_up_move.at_level == 0 %}
+            {{ move("Evolution", lvl_up_move.name) }}
+            {% elif lvl_up_move.at_level == 1 %}
+            {{ move("Start", lvl_up_move.name) }}
+            {% else %}
+            {{ move(lvl_up_move.at_level, lvl_up_move.name) }}
+            {% endif %}
             {% endfor %}
             </tbody>
         </table>
