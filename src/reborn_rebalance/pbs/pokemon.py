@@ -347,7 +347,7 @@ class PokemonSpecies:
         unparsed_moves = chunks(data.pop("Moves").split(","), 2)
         raw_moves: list[RawLevelUpMove] = []
         for level, move_name in unparsed_moves:
-            move = RawLevelUpMove(at_level=level, name=move_name)
+            move = RawLevelUpMove(at_level=int(level), name=move_name)
             raw_moves.append(move)
 
         raw_egg_moves = data.pop("EggMoves", "").split(",")
