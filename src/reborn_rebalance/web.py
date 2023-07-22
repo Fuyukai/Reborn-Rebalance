@@ -29,7 +29,7 @@ def main():
     catalog = EssentialsCatalog.load_from_toml(Path("./data"))
 
     loader = jinja2.FileSystemLoader(searchpath=Path("./templates").absolute())
-    env = jinja2.Environment(loader=loader)
+    env = jinja2.Environment(loader=loader, undefined=jinja2.StrictUndefined)
     env.globals["catalog"] = catalog
     env.globals["MoveCategory"] = MoveCategory
 
