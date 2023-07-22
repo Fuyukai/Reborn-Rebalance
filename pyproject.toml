@@ -9,13 +9,16 @@ license = "CC0"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-ruamel-yaml = "^0.17.32"
 attrs = "^23.1.0"
 cattrs = "^23.1.2"
 prettyprinter = "^0.18.0"
 jinja2 = "^3.1.2"
 pillow = "^10.0.0"
 tomlkit = "^0.11.8"
+
+[tool.poetry.scripts]
+into-pbs = "reborn_rebalance.scripts.dumping:to_pbs"
+into-toml = "reborn_rebalance.scripts.dumping:to_toml"
 
 [tool.isort]
 profile = "black"

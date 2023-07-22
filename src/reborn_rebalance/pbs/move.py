@@ -157,8 +157,8 @@ class PokemonMove:
             self.display_name,
             self.move_function,
             str(self.base_power),
-            self.type.name.lower(),
-            self.category.name.lower(),
+            self.type.name.upper(),
+            self.category.name.capitalize(),  # wtf? why?
             str(self.accuracy),
             str(self.max_pp),
             str(self.secondary_effect_chance),
