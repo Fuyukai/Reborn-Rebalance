@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import csv
+from io import StringIO
 from pathlib import Path
 
 import cattrs
@@ -13,9 +14,11 @@ from reborn_rebalance.pbs.pokemon import (
     GrowthRate,
     PokemonSpecies,
 )
+from reborn_rebalance.pbs.raw.item import PokemonItem
 from reborn_rebalance.pbs.raw.pokemon import raw_parse_pokemon_pbs
+from reborn_rebalance.pbs.raw.tm import TechnicalMachine
 from reborn_rebalance.pbs.type import PokemonType
-from reborn_rebalance.util import PbsBuffer
+from reborn_rebalance.util import PbsBuffer, chunks
 
 GENERATIONS = [
     # Bulbasaur -> Mew
@@ -58,6 +61,8 @@ def create_cattrs_converter() -> cattrs.Converter:
     ):
         converter.register_structure_hook(enum, lambda name, klass: klass[name])
         converter.register_unstructure_hook(enum, lambda it: it.name)
+
+    TechnicalMachine.add_unstructuring_hook(converter)
 
     return converter
 
@@ -224,3 +229,136 @@ def save_moves_to_pbs(output_path: Path, moves: list[PokemonMove]):
 
         for move in moves:
             writer.writerow(move.get_as_pbs_row())
+
+
+def load_items_from_pbs(path: Path) -> list[PokemonItem]:
+    """
+    Loads all items from the provided ``PBS/items.txt`` file.
+    """
+
+    items: list[PokemonItem] = []
+
+    with path.open(mode="r", encoding="utf-8") as f:
+        reader = csv.reader(f)
+
+        for line in reader:
+            items.append(PokemonItem.from_row(line))
+
+    return items
+
+
+def load_items_from_yaml(path: Path) -> list[PokemonItem]:
+    """
+    Loads all items from the provided ``items.yaml`` file.
+    """
+
+    with path.open(encoding="utf-8", mode="r") as f:
+        data = YAML.load(f)
+
+    items: list[PokemonItem] = []
+    for item in data:
+        items.append(CONVERTER.structure(item, PokemonItem))
+
+    return items
+
+
+def save_items_to_pbs(output_path: Path, items: list[PokemonItem]):
+    """
+    Saves all items to PBS format (CSV) instead.
+    """
+
+    items = sorted(items, key=lambda it: it.id)
+
+    with output_path.open(mode="w", encoding="utf-8") as f:
+        writer = csv.writer(f)
+
+        for item in items:
+            writer.writerow(item.get_as_pbs_row())
+
+
+def save_items_to_yaml(output_path: Path, items: list[PokemonItem]):
+    """
+    Saves all items to YAML.
+    """
+
+    items = sorted(items, key=lambda it: it.id)
+    output = CONVERTER.unstructure(items)
+
+    with output_path.open(encoding="utf-8", mode="w") as f:
+        YAML.dump(output, f)
+
+
+def load_tms_from_pbs(path: Path) -> list[TechnicalMachine]:
+    """
+    Loads all TMs from the provided ``PBS/tm.txt`` file.
+
+    The provided definitions will be incomplete! The catalog will automatically fill these in.
+    """
+
+    tms: list[TechnicalMachine] = []
+
+    with path.open(mode="r", encoding="utf-8") as f:
+        # silly format, really
+        lines = [line for line in f.read().splitlines() if line and not line.startswith("#")]
+        lines = chunks(lines, 2)
+
+        for move, pokemon in lines:
+            move = move[1:-1]
+            pokemon = pokemon.split(",")
+            tms.append(TechnicalMachine.incomplete_from_pbs(move, pokemon))
+
+    return tms
+
+
+def load_tms_from_yaml(path: Path) -> list[TechnicalMachine]:
+    """
+    Loads all TMs from the provided ``technical_machines.yaml`` file.
+
+    This produces full, complete TM objects.
+    """
+
+    tms: list[TechnicalMachine] = []
+
+    with path.open(encoding="utf-8", mode="r") as f:
+        data = YAML.load(f)
+        real_data = data["tm"] + data["tutor"]
+
+        for tm in real_data:
+            tms.append(CONVERTER.structure(tm, TechnicalMachine))
+
+    return tms
+
+
+def save_tms_to_yaml(path: Path, tms: list[TechnicalMachine]):
+    """
+    Saves all TMs to YAML.
+    """
+
+    # fucking sort these properly
+    real_dict = {
+        "tm": sorted([it for it in tms if not it.is_tutor], key=lambda it: it.number),
+        "tutor": sorted([it for it in tms if it.is_tutor], key=lambda it: it.move),
+    }
+
+    output = CONVERTER.unstructure(real_dict)
+
+    with path.open(encoding="utf-8", mode="w") as f:
+        YAML.dump(output, f)
+
+
+def save_tms_to_pbs(path: Path, tms: list[TechnicalMachine]):
+    """
+    Saves all TMs to PBS format (CSV) instead.
+
+    This *requires* that you backfill the ``pokemon`` field!
+    """
+
+    # yay, more stupid formats
+    buffer = StringIO()
+
+    for tm in tms:
+        buffer.write(f"[{tm.move}]\n")
+        buffer.write(",".join(tm.pokemon))
+        buffer.write("\n")
+
+    path.write_text(buffer.getvalue(), encoding="utf-8")

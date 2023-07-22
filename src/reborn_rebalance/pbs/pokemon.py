@@ -181,7 +181,7 @@ class PokemonEvolution:
     parameter: str | None = attr.ib(default=None)
 
 
-@attr.s(frozen=True, slots=True, kw_only=True)
+@attr.s(slots=True, kw_only=True)
 class PokemonSpecies:
     """
     A single species as stored in a YAML file.
@@ -236,7 +236,9 @@ class PokemonSpecies:
     #: The list of egg moves this species can learn.
     raw_egg_moves: list[str] = attr.ib()
     #: The list of TMs this species can learn.
-    raw_tms: list[int] = attr.ib()
+    raw_tms: list[str] = attr.ib()
+    #: The list of tutor moves this species can learn.
+    raw_tutor_moves: list[str] = attr.ib()
 
     #: The list of egg groups that this species can breed with.
     compatible_egg_groups: list[EggGroup] = attr.ib()
@@ -409,6 +411,7 @@ class PokemonSpecies:
             raw_level_up_moves=raw_moves,
             raw_egg_moves=raw_egg_moves,
             raw_tms=[],  # not available here
+            raw_tutor_moves=[],  # also not available here
             compatible_egg_groups=compatibility,
             steps_to_hatch=steps_to_hatch,
             height=height,
