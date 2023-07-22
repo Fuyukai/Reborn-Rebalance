@@ -1,0 +1,79 @@
+name = "Mismagius"
+primary_type = "GHOST"
+secondary_type = "GHOST"
+gender_ratio = "Female50Percent"
+growth_rate = "Fast"
+exp_yield = 173
+catch_rate = 45
+caught_happiness = 35
+raw_abilities = ["LEVITATE"]
+raw_egg_moves = []
+raw_tms = ["CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "ENERGYBALL", "CHARGEBEAM", "WILLOWISP", "EMBARGO", "PAYBACK", "GIGAIMPACT", "THUNDERWAVE", "PSYCHUP", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "DARKPULSE", "DAZZLINGGLEAM", "CONFIDE", "MAGICALLEAF", "SCREECH", "IMPRISON", "FAKETEARS", "PHANTOMFORCE", "MYSTICALFIRE", "ENDURE", "POWERGEM", "NASTYPLOT", "SNOWSCAPE", "SWIFT"]
+raw_tutor_moves = ["ALLYSWITCH", "FOULPLAY", "HEADBUTT", "HEALBELL", "HYPERVOICE", "ICYWIND", "LASERFOCUS", "MAGICCOAT", "MAGICROOM", "OMINOUSWIND", "PAINSPLIT", "SHOCKWAVE", "SKILLSWAP", "SNATCH", "SNORE", "SPITE", "SUCKERPUNCH", "TELEKINESIS", "TRICK", "UPROAR", "WONDERROOM", "MIMIC"]
+compatible_egg_groups = ["Amorphous"]
+steps_to_hatch = 6630
+height = 0.9
+weight = 4.4
+colour = "Purple"
+kind = "Magical"
+pokedex_entry = "Its cries sound like incantations. Those hearing them are tormented by headaches and hallucinations."
+battler_player_y = 15
+battler_enemy_y = 10
+battler_altitude = 8
+evolutions = []
+form_names = ["Normal", "Aevian"]
+internal_name = "MISMAGIUS"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MYSTICALFIRE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POWERGEM"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PHANTOMFORCE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LUCKYCHANT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MAGICALLEAF"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PSYWAVE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SPITE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ASTONISH"
+
+[base_stats]
+hp = 60
+atk = 60
+def_ = 60
+spa = 105
+spd = 105
+spe = 105
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 1
+spd = 1
+spe = 0
+
+[wild_items]

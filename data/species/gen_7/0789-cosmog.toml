@@ -1,0 +1,55 @@
+name = "Cosmog"
+primary_type = "PSYCHIC"
+secondary_type = "PSYCHIC"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 40
+catch_rate = 3
+caught_happiness = 0
+raw_abilities = ["UNAWARE"]
+raw_egg_moves = []
+raw_tms = []
+raw_tutor_moves = []
+compatible_egg_groups = ["Undiscovered"]
+steps_to_hatch = 30720
+height = 0.2
+weight = 0.1
+colour = "Blue"
+kind = "Nebula"
+pokedex_entry = "In ages past, it was called the child of the stars. It is said to be a Pokémon from another world, but no specific details are known."
+battler_player_y = 24
+battler_enemy_y = 18
+battler_altitude = 8
+form_names = []
+internal_name = "COSMOG"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SPLASH"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "TELEPORT"
+
+[[evolutions]]
+into_name = "COSMOEM"
+condition = "Level"
+parameter = "43"
+
+[base_stats]
+hp = 43
+atk = 29
+def_ = 31
+spa = 29
+spd = 31
+spe = 37
+
+[ev_yield]
+hp = 1
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

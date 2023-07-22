@@ -1,0 +1,120 @@
+name = "Tirtouga"
+primary_type = "WATER"
+secondary_type = "ROCK"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Medium"
+exp_yield = 71
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["SOLIDROCK", "STURDY"]
+raw_egg_moves = ["BIDE", "BODYSLAM", "FLAIL", "GUARDSWAP", "IRONDEFENSE", "KNOCKOFF", "LIQUIDATION", "ROCKTHROW", "SLAM", "WATERPULSE", "WHIRLPOOL"]
+raw_tms = ["SURF", "STRENGTH", "WATERFALL", "TOXIC", "DIVE", "ROCKSMASH", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "SMACKDOWN", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "SANDSTORM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "SCALD", "ROCKPOLISH", "STONEEDGE", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "WHIRLPOOL", "ROCKBLAST", "MUDSHOT", "BRINE", "GUARDSWAP", "CRUNCH", "BODYSLAM", "HYDROPUMP", "ENDURE", "MUDDYWATER"]
+raw_tutor_moves = ["AQUATAIL", "BLOCK", "EARTHPOWER", "ICYWIND", "IRONDEFENSE", "IRONTAIL", "KNOCKOFF", "LIQUIDATION", "SNORE", "STEALTHROCK", "WATERPULSE", "ZENHEADBUTT", "METEORBEAM", "MIMIC"]
+compatible_egg_groups = ["Water1", "Water3"]
+steps_to_hatch = 7680
+height = 0.7
+weight = 16.5
+colour = "Blue"
+kind = "Prototurtle"
+pokedex_entry = "About 100 million years ago, these Pokémon swam in oceans. It is thought they also went on land to attack prey."
+battler_player_y = 28
+battler_enemy_y = 24
+battler_altitude = 2
+form_names = []
+internal_name = "TIRTOUGA"
+raw_hidden_ability = "SWIFTSWIM"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BIDE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WITHDRAW"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WATERGUN"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "ROLLOUT"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "PROTECT"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "AQUAJET"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "ANCIENTPOWER"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "WIDEGUARD"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "BRINE"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "SMACKDOWN"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "CURSE"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "SHELLSMASH"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "AQUATAIL"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "ROCKSLIDE"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "RAINDANCE"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "HYDROPUMP"
+
+[[evolutions]]
+into_name = "CARRACOSTA"
+condition = "Level"
+parameter = "37"
+
+[base_stats]
+hp = 54
+atk = 78
+def_ = 103
+spa = 53
+spd = 45
+spe = 22
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 1
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

@@ -1,0 +1,121 @@
+name = "Stunfisk"
+primary_type = "GROUND"
+secondary_type = "ELECTRIC"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 165
+catch_rate = 75
+caught_happiness = 70
+raw_abilities = ["STATIC", "LIMBER"]
+raw_egg_moves = ["ASTONISH", "CURSE", "EARTHPOWER", "EERIEIMPULSE", "MEFIRST", "PAINSPLIT", "REFLECTTYPE", "SHOCKWAVE", "SLEEPTALK", "SPARK", "SPITE", "YAWN"]
+raw_tms = ["SURF", "TOXIC", "FLASH", "HIDDENPOWER", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "SLUDGEWAVE", "SLUDGEBOMB", "SANDSTORM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "SCALD", "PAYBACK", "STONEEDGE", "THUNDERWAVE", "BULLDOZE", "ROCKSLIDE", "INFESTATION", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "CONFIDE", "DIG", "SCREECH", "REVENGE", "MUDSHOT", "ICEFANG", "CRUNCH", "ELECTRICTERRAIN", "EERIEIMPULSE", "ENDURE", "MUDDYWATER"]
+raw_tutor_moves = ["AQUATAIL", "BIND", "BOUNCE", "EARTHPOWER", "ELECTROWEB", "ENDEAVOR", "FOULPLAY", "IRONDEFENSE", "MAGNETRISE", "MUDSLAP", "PAINSPLIT", "SHOCKWAVE", "SNORE", "SPITE", "STEALTHROCK", "STOMPINGTANTRUM", "SUCKERPUNCH", "UPROAR", "WATERPULSE", "TERRAINPULSE", "LASHOUT", "STEELBEAM", "MIMIC"]
+compatible_egg_groups = ["Water1", "Amorphous"]
+steps_to_hatch = 5120
+height = 0.7
+weight = 11.0
+colour = "Brown"
+kind = "Trap"
+pokedex_entry = "It conceals itself in the mud of the seashore. Then it waits. When prey touches it, it delivers a jolt of energy."
+battler_player_y = 35
+battler_enemy_y = 21
+battler_altitude = 1
+evolutions = []
+form_names = []
+internal_name = "STUNFISK"
+raw_hidden_ability = "SANDVEIL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FISSURE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FLAIL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WATERGUN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MUDSLAP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MUDSPORT"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "BIDE"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "THUNDERSHOCK"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "MUDSHOT"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "CAMOUFLAGE"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "MUDBOMB"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "DISCHARGE"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "ENDURE"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "BOUNCE"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "MUDDYWATER"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "THUNDERBOLT"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "REVENGE"
+
+[[raw_level_up_moves]]
+at_level = "55"
+name = "FLAIL"
+
+[[raw_level_up_moves]]
+at_level = "61"
+name = "FISSURE"
+
+[base_stats]
+hp = 109
+atk = 66
+def_ = 84
+spa = 81
+spd = 99
+spe = 32
+
+[ev_yield]
+hp = 2
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "SOFTSAND"

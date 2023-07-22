@@ -1,0 +1,108 @@
+name = "Pawmi"
+primary_type = "ELECTRIC"
+secondary_type = "ELECTRIC"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 58
+catch_rate = 190
+caught_happiness = 50
+raw_abilities = ["STATIC", "NATURALCURE"]
+raw_egg_moves = ["MACHPUNCH", "SWEETKISS", "FAKEOUT", "WISH"]
+raw_tms = ["TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "THIEF", "FLING", "CHARGEBEAM", "VOLTSWITCH", "THUNDERWAVE", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "DIG", "CHARM", "THUNDERFANG", "CRUNCH", "ELECTRICTERRAIN", "EERIEIMPULSE", "AGILITY", "ENDURE", "BATONPASS", "ENCORE", "ELECTROBALL", "PLAYROUGH", "SWIFT"]
+raw_tutor_moves = ["COVET", "HELPINGHAND", "SHOCKWAVE", "RISINGVOLTAGE"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 3855
+height = 0.3
+weight = 2.5
+colour = "Yellow"
+kind = "Mouse"
+pokedex_entry = "The pads of its paws are electricity-discharging organs. Pawmi fires electricity from its forepaws while standing unsteadily on its hind legs."
+battler_player_y = 10
+battler_enemy_y = 12
+battler_altitude = 0
+form_names = []
+internal_name = "PAWMI"
+raw_hidden_ability = "IRONFIST"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SCRATCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "3"
+name = "THUNDERSHOCK"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "CHARGE"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "NUZZLE"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "DIG"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "SPARK"
+
+[[raw_level_up_moves]]
+at_level = "27"
+name = "THUNDERWAVE"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "ENTRAINMENT"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "SLAM"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "DISCHARGE"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "WILDCHARGE"
+
+[[evolutions]]
+into_name = "PAWMO"
+condition = "Level"
+parameter = "18"
+
+[base_stats]
+hp = 45
+atk = 50
+def_ = 20
+spa = 40
+spd = 25
+spe = 60
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 1
+
+[wild_items]

@@ -1,0 +1,111 @@
+name = "Golisopod"
+primary_type = "BUG"
+secondary_type = "WATER"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 186
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["EMERGENCYEXIT"]
+raw_egg_moves = []
+raw_tms = ["SURF", "WATERFALL", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "BULKUP", "VENOSHOCK", "ROCKCLIMB", "HIDDENPOWER", "TAUNT", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "LEECHLIFE", "BRICKBREAK", "DOUBLETEAM", "SLUDGEWAVE", "SLUDGEBOMB", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "FOCUSBLAST", "FALSESWIPE", "SCALD", "FLING", "SHADOWCLAW", "PAYBACK", "GIGAIMPACT", "SWORDSDANCE", "STRUGGLEBUG", "PSYCHUP", "FROSTBREATH", "ROCKSLIDE", "XSCISSOR", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "SNARL", "DARKPULSE", "CONFIDE", "PINMISSILE", "SCREECH", "MUDSHOT", "ASSURANCE", "RAZORSHELL", "CLOSECOMBAT", "SPIKES", "ENDURE", "MUDDYWATER", "BUGBUZZ", "SWIFT"]
+raw_tutor_moves = ["BUGBITE", "DRILLRUN", "DUALCHOP", "ENDEAVOR", "FURYCUTTER", "ICYWIND", "IRONDEFENSE", "IRONHEAD", "KNOCKOFF", "LASERFOCUS", "LIQUIDATION", "PAINSPLIT", "SNORE", "SPITE", "SUCKERPUNCH", "THROATCHOP", "WATERPULSE", "SKITTERSMACK", "MIMIC"]
+compatible_egg_groups = ["Bug", "Water3"]
+steps_to_hatch = 5120
+height = 2.0
+weight = 108.0
+colour = "Gray"
+kind = "Hard Scale"
+pokedex_entry = "With a flashing slash of its giant sharp claws, it cleaves seawater, or even air, right in two."
+battler_player_y = 15
+battler_enemy_y = 17
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "GOLISOPOD"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "FIRSTIMPRESSION"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "STRUGGLEBUG"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SANDATTACK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FURYCUTTER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "AQUACUTTER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ROCKSMASH"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "FURYCUTTER"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "ROCKSMASH"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "BUGBITE"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "SPITE"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "SWORDSDANCE"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "SLASH"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "RAZORSHELL"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "SUCKERPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "IRONDEFENSE"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "PINMISSILE"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "LIQUIDATION"
+
+[base_stats]
+hp = 75
+atk = 125
+def_ = 140
+spa = 60
+spd = 90
+spe = 40
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 2
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

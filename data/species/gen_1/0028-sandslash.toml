@@ -1,0 +1,125 @@
+name = "Sandslash"
+primary_type = "GROUND"
+secondary_type = "GROUND"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 158
+catch_rate = 90
+caught_happiness = 70
+raw_abilities = ["SANDVEIL", "SANDRUSH"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "CUT", "STRENGTH", "TOXIC", "HAIL", "ROCKSMASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "SAFEGUARD", "FRUSTRATION", "EARTHQUAKE", "RETURN", "LEECHLIFE", "BRICKBREAK", "DOUBLETEAM", "SANDSTORM", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "FOCUSBLAST", "FLING", "SHADOWCLAW", "GIGAIMPACT", "AURORAVEIL", "STONEEDGE", "GYROBALL", "SWORDSDANCE", "BULLDOZE", "FROSTBREATH", "ROCKSLIDE", "XSCISSOR", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "PINMISSILE", "DIG", "SANDTOMB", "ICICLESPEAR", "MUDSHOT", "AVALANCHE", "BODYSLAM", "AGILITY", "AMNESIA", "SPIKES", "ENDURE", "PLAYROUGH", "SWIFT"]
+raw_tutor_moves = ["AQUATAIL", "COVET", "DRILLRUN", "EARTHPOWER", "FOCUSPUNCH", "FURYCUTTER", "HEADBUTT", "ICEPUNCH", "ICYWIND", "IRONDEFENSE", "IRONHEAD", "IRONTAIL", "KNOCKOFF", "MUDSLAP", "ROLLOUT", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "SUPERFANG", "THROATCHOP", "SCORCHINGSANDS", "TRIPLEAXEL", "STEELROLLER", "STEELBEAM", "ICEBALL", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5355
+height = 1.0
+weight = 29.5
+colour = "Yellow"
+kind = "Mouse"
+pokedex_entry = "It curls up in a ball to protect itself from enemy attacks. It also curls up to prevent heatstroke during the daytime when temperatures rise sharply."
+battler_player_y = 24
+battler_enemy_y = 17
+battler_altitude = 0
+evolutions = []
+form_names = ["Normal", "Alternate"]
+internal_name = "SANDSLASH"
+habitat = "RoughTerrain"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "CRUSHCLAW"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SCRATCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DEFENSECURL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SANDATTACK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POISONSTING"
+
+[[raw_level_up_moves]]
+at_level = "3"
+name = "SANDATTACK"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "POISONSTING"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "ROLLOUT"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "RAPIDSPIN"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "FURYCUTTER"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "MAGNITUDE"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "SWIFT"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "FURYSWIPES"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "SANDTOMB"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "SLASH"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "DIG"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "GYROBALL"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "SWORDSDANCE"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "SANDSTORM"
+
+[[raw_level_up_moves]]
+at_level = "53"
+name = "EARTHQUAKE"
+
+[base_stats]
+hp = 75
+atk = 100
+def_ = 110
+spa = 45
+spd = 55
+spe = 65
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 2
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "GRIPCLAW"

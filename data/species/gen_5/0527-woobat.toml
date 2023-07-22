@@ -1,0 +1,104 @@
+name = "Woobat"
+primary_type = "PSYCHIC"
+secondary_type = "FLYING"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 65
+catch_rate = 190
+caught_happiness = 70
+raw_abilities = ["UNAWARE", "KLUTZ"]
+raw_egg_moves = ["CAPTIVATE", "CHARM", "FAKETEARS", "FLATTER", "HELPINGHAND", "KNOCKOFF", "PSYCHOSHIFT", "ROOST", "STOREDPOWER", "SUPERSONIC", "SYNCHRONOISE", "VENOMDRENCH"]
+raw_tms = ["FLY", "PSYSHOCK", "CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "TAUNT", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "SAFEGUARD", "FRUSTRATION", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "STEELWING", "ENERGYBALL", "CHARGEBEAM", "ACROBATICS", "EMBARGO", "THUNDERWAVE", "GYROBALL", "PSYCHUP", "DREAMEATER", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "CONFIDE", "CHARM", "IMPRISON", "FAKETEARS", "ASSURANCE", "SPEEDSWAP", "PSYCHOCUT", "AIRSLASH", "AMNESIA", "ENDURE", "BATONPASS", "FUTURESIGHT", "NASTYPLOT", "STOREDPOWER", "VENOMDRENCH", "SWIFT"]
+raw_tutor_moves = ["AFTERYOU", "AIRCUTTER", "ALLYSWITCH", "DEFOG", "ENDEAVOR", "HEATWAVE", "HELPINGHAND", "KNOCKOFF", "SHOCKWAVE", "SIGNALBEAM", "SKILLSWAP", "SNORE", "SUPERFANG", "TAILWIND", "TELEKINESIS", "TRICK", "UPROAR", "ZENHEADBUTT", "DUALWINGBEAT", "EXPANDINGFORCE", "ESPERWING", "MIMIC"]
+compatible_egg_groups = ["Flying", "Field"]
+steps_to_hatch = 5120
+height = 0.4
+weight = 2.1
+colour = "Blue"
+kind = "Bat"
+pokedex_entry = "Suction from its nostrils enables it to stick to cave walls during sleep. It leaves a heart-shaped mark behind."
+battler_player_y = 30
+battler_enemy_y = 25
+battler_altitude = 5
+form_names = []
+internal_name = "WOOBAT"
+raw_hidden_ability = "SIMPLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CONFUSION"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "ODORSLEUTH"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "GUST"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "ASSURANCE"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "HEARTSTAMP"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "IMPRISON"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "AIRCUTTER"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "ATTRACT"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "AMNESIA"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "CALMMIND"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "AIRSLASH"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "FUTURESIGHT"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "PSYCHIC"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "ENDEAVOR"
+
+[[evolutions]]
+into_name = "SWOOBAT"
+condition = "Happiness"
+parameter = ""
+
+[base_stats]
+hp = 65
+atk = 45
+def_ = 43
+spa = 55
+spd = 43
+spe = 72
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 1
+
+[wild_items]

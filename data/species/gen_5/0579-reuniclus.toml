@@ -1,0 +1,124 @@
+name = "Reuniclus"
+primary_type = "PSYCHIC"
+secondary_type = "PSYCHIC"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 221
+catch_rate = 50
+caught_happiness = 70
+raw_abilities = ["OVERCOAT", "MAGICGUARD"]
+raw_egg_moves = []
+raw_tms = ["PSYSHOCK", "CALMMIND", "STRENGTH", "TOXIC", "ROCKSMASH", "FLASH", "HIDDENPOWER", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "THUNDER", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "FOCUSBLAST", "ENERGYBALL", "FLING", "EMBARGO", "EXPLOSION", "GIGAIMPACT", "THUNDERWAVE", "GYROBALL", "PSYCHUP", "ROCKSLIDE", "INFESTATION", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "TRICKROOM", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "CHARM", "IMPRISON", "POWERSWAP", "GUARDSWAP", "PSYCHICTERRAIN", "ENDURE", "ENCORE", "FUTURESIGHT", "STOREDPOWER"]
+raw_tutor_moves = ["AFTERYOU", "ALLYSWITCH", "DRAINPUNCH", "ENDEAVOR", "FIREPUNCH", "FOCUSPUNCH", "GRAVITY", "HELPINGHAND", "ICEPUNCH", "IRONDEFENSE", "KNOCKOFF", "LASERFOCUS", "MAGICCOAT", "PAINSPLIT", "ROLEPLAY", "SHOCKWAVE", "SIGNALBEAM", "SKILLSWAP", "SNATCH", "SNORE", "SUPERPOWER", "TELEKINESIS", "THUNDERPUNCH", "TRICK", "WONDERROOM", "ZENHEADBUTT", "EXPANDINGFORCE", "STEELROLLER", "MIMIC"]
+compatible_egg_groups = ["Amorphous"]
+steps_to_hatch = 5120
+height = 1.0
+weight = 20.1
+colour = "Green"
+kind = "Multiplying"
+pokedex_entry = "These remarkably intelligent Pokémon fight by controlling arms that can grip with rock-crushing power."
+battler_player_y = 24
+battler_enemy_y = 16
+battler_altitude = 10
+evolutions = []
+form_names = []
+internal_name = "REUNICLUS"
+raw_hidden_ability = "REGENERATOR"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "DIZZYPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PSYWAVE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "REFLECT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ROLLOUT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SNATCH"
+
+[[raw_level_up_moves]]
+at_level = "3"
+name = "REFLECT"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "ROLLOUT"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "SNATCH"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "HIDDENPOWER"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "LIGHTSCREEN"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "CHARM"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "RECOVER"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "PSYSHOCK"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "ENDEAVOR"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "FUTURESIGHT"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "PAINSPLIT"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "PSYCHIC"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "SKILLSWAP"
+
+[[raw_level_up_moves]]
+at_level = "54"
+name = "HEALBLOCK"
+
+[[raw_level_up_moves]]
+at_level = "59"
+name = "WONDERROOM"
+
+[base_stats]
+hp = 110
+atk = 65
+def_ = 75
+spa = 125
+spd = 85
+spe = 30
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 3
+spd = 0
+spe = 0
+
+[wild_items]

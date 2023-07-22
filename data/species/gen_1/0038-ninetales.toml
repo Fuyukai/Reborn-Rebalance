@@ -1,0 +1,69 @@
+name = "Ninetales"
+primary_type = "FIRE"
+secondary_type = "FIRE"
+gender_ratio = "Female75Percent"
+growth_rate = "Medium"
+exp_yield = 177
+catch_rate = 75
+caught_happiness = 70
+raw_abilities = ["FLASHFIRE", "DROUGHT"]
+raw_egg_moves = []
+raw_tms = ["PSYSHOCK", "CALMMIND", "ROAR", "TOXIC", "HAIL", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "FIREBLAST", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "ROUND", "OVERHEAT", "ENERGYBALL", "WILLOWISP", "PAYBACK", "GIGAIMPACT", "AURORAVEIL", "PSYCHUP", "FROSTBREATH", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "DARKPULSE", "DAZZLINGGLEAM", "CONFIDE", "FIRESPIN", "DIG", "CHARM", "IMPRISON", "WEATHERBALL", "FAKETEARS", "POWERSWAP", "AVALANCHE", "HEX", "TAILSLAP", "DRAININGKISS", "MISTYTERRAIN", "MYSTICALFIRE", "BODYSLAM", "FLAREBLITZ", "LEAFSTORM", "AGILITY", "ENDURE", "ENCORE", "NASTYPLOT", "STOREDPOWER", "SWIFT"]
+raw_tutor_moves = ["AQUATAIL", "COVET", "FOULPLAY", "HEADBUTT", "HEALBELL", "HEATWAVE", "ICYWIND", "IRONTAIL", "LASERFOCUS", "OMINOUSWIND", "PAINSPLIT", "ROLEPLAY", "SNORE", "SPITE", "WONDERROOM", "ZENHEADBUTT", "BURNINGJEALOUSY", "SCORCHINGSANDS", "TRIPLEAXEL", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5355
+height = 1.1
+weight = 19.9
+colour = "Yellow"
+kind = "Fox"
+pokedex_entry = "It has long been said that each of the nine tails embody an enchanted power. A long-lived Ninetales will have fur that shines like gold."
+battler_player_y = 13
+battler_enemy_y = 10
+battler_altitude = 0
+evolutions = []
+form_names = ["Normal", "Alternate"]
+internal_name = "NINETALES"
+habitat = "Grassland"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "IMPRISON"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "NASTYPLOT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FLAMETHROWER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CONFUSERAY"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SAFEGUARD"
+
+[base_stats]
+hp = 73
+atk = 76
+def_ = 75
+spa = 81
+spd = 100
+spe = 100
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 1
+spe = 1
+
+[wild_items]
+uncommon = "CHARCOAL"

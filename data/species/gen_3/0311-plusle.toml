@@ -1,0 +1,129 @@
+name = "Plusle"
+primary_type = "ELECTRIC"
+secondary_type = "ELECTRIC"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 142
+catch_rate = 200
+caught_happiness = 70
+raw_abilities = ["PLUS", "LIGHTNINGROD"]
+raw_egg_moves = ["CHARM", "DISCHARGE", "FAKETEARS", "LUCKYCHANT", "SING", "SWEETKISS", "TEARFULLOOK", "WISH"]
+raw_tms = ["TOXIC", "FLASH", "HIDDENPOWER", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "FLING", "CHARGEBEAM", "VOLTSWITCH", "THUNDERWAVE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "CHARM", "FAKETEARS", "BODYSLAM", "AGILITY", "METRONOME", "ENDURE", "BATONPASS", "ENCORE", "NASTYPLOT", "ELECTROBALL", "SWIFT"]
+raw_tutor_moves = ["COVET", "ELECTROWEB", "HEADBUTT", "HELPINGHAND", "IRONTAIL", "LASTRESORT", "MAGNETRISE", "MUDSLAP", "ROLLOUT", "SHOCKWAVE", "SIGNALBEAM", "SNORE", "THUNDERPUNCH", "UPROAR", "MIMIC"]
+compatible_egg_groups = ["Fairy"]
+steps_to_hatch = 5355
+height = 0.4
+weight = 4.2
+colour = "Yellow"
+kind = "Cheering"
+pokedex_entry = "It has the trait of cheering on its fellow Pokémon. By shorting out the electricity it releases from its paws, it creates pom-poms for cheering."
+battler_player_y = 27
+battler_enemy_y = 22
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "PLUSLE"
+habitat = "Grassland"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "NUZZLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PLAYNICE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "THUNDERWAVE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "HELPINGHAND"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "SPARK"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "ENCORE"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "BESTOW"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "SWIFT"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "ELECTROBALL"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "COPYCAT"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "CHARM"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "CHARGE"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "DISCHARGE"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "BATONPASS"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "LASTRESORT"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "THUNDER"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "NASTYPLOT"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "ENTRAINMENT"
+
+[base_stats]
+hp = 60
+atk = 50
+def_ = 40
+spa = 85
+spd = 75
+spe = 95
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 1
+
+[wild_items]
+uncommon = "CELLBATTERY"

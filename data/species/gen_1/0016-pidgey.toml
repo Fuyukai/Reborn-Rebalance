@@ -1,0 +1,105 @@
+name = "Pidgey"
+primary_type = "NORMAL"
+secondary_type = "FLYING"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 50
+catch_rate = 255
+caught_happiness = 70
+raw_abilities = ["KEENEYE", "TANGLEDFEET"]
+raw_egg_moves = ["AIRCUTTER", "AIRSLASH", "BRAVEBIRD", "DEFOG", "FEINTATTACK", "FORESIGHT", "PURSUIT", "STEELWING", "UPROAR"]
+raw_tms = ["WORKUP", "FLY", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "FRUSTRATION", "RETURN", "DOUBLETEAM", "REFLECT", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "STEELWING", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "AIRSLASH", "HURRICANE", "BRAVEBIRD", "AGILITY", "ENDURE", "SWIFT"]
+raw_tutor_moves = ["AIRCUTTER", "DEFOG", "HEATWAVE", "MUDSLAP", "OMINOUSWIND", "SKYATTACK", "SNORE", "TAILWIND", "TWISTER", "UPROAR", "DUALWINGBEAT", "MIMIC"]
+compatible_egg_groups = ["Flying"]
+steps_to_hatch = 4080
+height = 0.3
+weight = 1.8
+colour = "Brown"
+kind = "Tiny Bird"
+pokedex_entry = "It has an extremely sharp sense of direction. It can unerringly return home to its nest, however far it may be removed from its familiar surroundings."
+battler_player_y = 30
+battler_enemy_y = 22
+battler_altitude = 0
+form_names = []
+internal_name = "PIDGEY"
+raw_hidden_ability = "BIGPECKS"
+habitat = "Forest"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "SANDATTACK"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "GUST"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "WHIRLWIND"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "TWISTER"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "FEATHERDANCE"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "WINGATTACK"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "ROOST"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "TAILWIND"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "MIRRORMOVE"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "AIRSLASH"
+
+[[raw_level_up_moves]]
+at_level = "53"
+name = "HURRICANE"
+
+[[evolutions]]
+into_name = "PIDGEOTTO"
+condition = "Level"
+parameter = "18"
+
+[base_stats]
+hp = 40
+atk = 45
+def_ = 40
+spa = 35
+spd = 35
+spe = 56
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 1
+
+[wild_items]

@@ -1,0 +1,109 @@
+name = "Flareon"
+primary_type = "FIRE"
+secondary_type = "FIRE"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Medium"
+exp_yield = 184
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["FLASHFIRE", "INTIMIDATE"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "CALMMIND", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "FIREBLAST", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "OVERHEAT", "WILLOWISP", "GIGAIMPACT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "PAYDAY", "FIRESPIN", "DIG", "SCARYFACE", "CHARM", "WEATHERBALL", "FAKETEARS", "FIREFANG", "MYSTICALFIRE", "BODYSLAM", "FLAREBLITZ", "FOCUSENERGY", "ENDURE", "BATONPASS", "STOREDPOWER", "RETALIATE", "TRAILBLAZE", "SWIFT"]
+raw_tutor_moves = ["COVET", "HEADBUTT", "HEALBELL", "HEATWAVE", "HELPINGHAND", "HYPERVOICE", "IRONTAIL", "LASERFOCUS", "LASTRESORT", "MUDSLAP", "SNORE", "SUPERPOWER", "BURNINGJEALOUSY", "SCORCHINGSANDS", "POWERSHIFT", "MIMIC", "CELEBRATE"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 9180
+height = 0.9
+weight = 25.0
+colour = "Red"
+kind = "Flame"
+pokedex_entry = "Flareon's fluffy fur releases heat into the air so that its body does not get excessively hot. Its body temperature can rise to a maximum of 1,650 degrees F."
+battler_player_y = 24
+battler_enemy_y = 17
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "FLAREON"
+raw_hidden_ability = "GUTS"
+habitat = "Urban"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "EMBER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "COPYCAT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HELPINGHAND"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TAILWHIP"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "SANDATTACK"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "BABYDOLLEYES"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "FIREFANG"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "FIRESPIN"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "SCARYFACE"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "SMOG"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "LAVAPLUME"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "LASTRESORT"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "FLAREBLITZ"
+
+[base_stats]
+hp = 65
+atk = 130
+def_ = 60
+spa = 95
+spd = 110
+spe = 65
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

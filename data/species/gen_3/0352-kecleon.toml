@@ -1,0 +1,120 @@
+name = "Kecleon"
+primary_type = "NORMAL"
+secondary_type = "NORMAL"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 154
+catch_rate = 200
+caught_happiness = 70
+raw_abilities = ["COLORCHANGE", "PROTEAN"]
+raw_egg_moves = ["CAMOUFLAGE", "DISABLE", "DIZZYPUNCH", "FAKEOUT", "FOULPLAY", "MAGICCOAT", "NASTYPLOT", "POWERUPPUNCH", "RECOVER", "SKILLSWAP", "SNATCH", "TRICK"]
+raw_tms = ["WORKUP", "CUT", "STRENGTH", "TOXIC", "ROCKSMASH", "FLASH", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "SOLARBEAM", "THUNDERBOLT", "THUNDER", "RETURN", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "FLAMETHROWER", "FIREBLAST", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "FLING", "CHARGEBEAM", "SHADOWCLAW", "THUNDERWAVE", "PSYCHUP", "ROCKSLIDE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "SCREECH", "BODYSLAM", "METRONOME", "ENDURE", "NASTYPLOT", "RETALIATE", "SWIFT"]
+raw_tutor_moves = ["AFTERYOU", "ANCIENTPOWER", "AQUATAIL", "BIND", "DRAINPUNCH", "FIREPUNCH", "FOCUSPUNCH", "FOULPLAY", "FURYCUTTER", "HEADBUTT", "ICEPUNCH", "ICYWIND", "IRONTAIL", "KNOCKOFF", "LASTRESORT", "LOWKICK", "MAGICCOAT", "MUDSLAP", "RECYCLE", "ROLEPLAY", "ROLLOUT", "SHOCKWAVE", "SKILLSWAP", "SNATCH", "SNORE", "STEALTHROCK", "SUCKERPUNCH", "THUNDERPUNCH", "TRICK", "WATERPULSE", "WONDERROOM", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5355
+height = 1.0
+weight = 22.0
+colour = "Green"
+kind = "Color Swap"
+pokedex_entry = "A Pokémon that has the ability to alter its body colors to match its surroundings. A Kecleon reverts to its original colors if it is startled."
+battler_player_y = 18
+battler_enemy_y = 17
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "KECLEON"
+habitat = "Forest"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "THIEF"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TAILWHIP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ASTONISH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LICK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SCRATCH"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "BIND"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "SHADOWSNEAK"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "FEINT"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "FURYSWIPES"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "FEINTATTACK"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "PSYBEAM"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "ANCIENTPOWER"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "SLASH"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "CAMOUFLAGE"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "SHADOWCLAW"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "SCREECH"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "SUBSTITUTE"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "SUCKERPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "SYNCHRONOISE"
+
+[base_stats]
+hp = 60
+atk = 90
+def_ = 70
+spa = 60
+spd = 120
+spe = 40
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 1
+spe = 0
+
+[wild_items]

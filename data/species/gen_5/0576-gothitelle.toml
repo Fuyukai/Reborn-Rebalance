@@ -1,0 +1,120 @@
+name = "Gothitelle"
+primary_type = "PSYCHIC"
+secondary_type = "PSYCHIC"
+gender_ratio = "Female75Percent"
+growth_rate = "Parabolic"
+exp_yield = 221
+catch_rate = 50
+caught_happiness = 70
+raw_abilities = ["FRISK", "COMPETITIVE"]
+raw_egg_moves = []
+raw_tms = ["PSYSHOCK", "CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "TAUNT", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "THUNDERBOLT", "RETURN", "PSYCHIC", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "ROCKTOMB", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "LOWSWEEP", "ROUND", "ENERGYBALL", "FLING", "CHARGEBEAM", "EMBARGO", "PAYBACK", "GIGAIMPACT", "THUNDERWAVE", "PSYCHUP", "ROCKSLIDE", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "DARKPULSE", "POWERUPPUNCH", "CONFIDE", "CHARM", "IMPRISON", "FAKETEARS", "POWERSWAP", "GUARDSWAP", "ENDURE", "FUTURESIGHT", "COSMICPOWER", "NASTYPLOT", "STOREDPOWER"]
+raw_tutor_moves = ["ALLYSWITCH", "COVET", "FOULPLAY", "GRAVITY", "HEALBELL", "HELPINGHAND", "LASERFOCUS", "MAGICCOAT", "MAGICROOM", "RECYCLE", "ROLEPLAY", "SHOCKWAVE", "SIGNALBEAM", "SKILLSWAP", "SNATCH", "SNORE", "TELEKINESIS", "TRICK", "UPROAR", "ZENHEADBUTT", "EXPANDINGFORCE", "MYSTICALPOWER", "MIMIC"]
+compatible_egg_groups = ["Humanlike"]
+steps_to_hatch = 5120
+height = 1.5
+weight = 44.0
+colour = "Purple"
+kind = "Astral Body"
+pokedex_entry = "They can predict the future from the placement and movement of the stars. They can see Trainers' life spans."
+battler_player_y = 11
+battler_enemy_y = 18
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "GOTHITELLE"
+raw_hidden_ability = "SHADOWTAG"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POUND"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CONFUSION"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TICKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PLAYNICE"
+
+[[raw_level_up_moves]]
+at_level = "3"
+name = "CONFUSION"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "TICKLE"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "FAKETEARS"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "DOUBLESLAP"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "PSYBEAM"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "EMBARGO"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "FEINTATTACK"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "PSYSHOCK"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "FLATTER"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "FUTURESIGHT"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "HEALBLOCK"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "PSYCHIC"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "TELEKINESIS"
+
+[[raw_level_up_moves]]
+at_level = "54"
+name = "CHARM"
+
+[[raw_level_up_moves]]
+at_level = "59"
+name = "MAGICROOM"
+
+[base_stats]
+hp = 70
+atk = 55
+def_ = 95
+spa = 95
+spd = 110
+spe = 65
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 3
+spe = 0
+
+[wild_items]

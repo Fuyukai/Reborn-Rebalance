@@ -1,0 +1,111 @@
+name = "Pansear"
+primary_type = "FIRE"
+secondary_type = "FIRE"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Medium"
+exp_yield = 63
+catch_rate = 190
+caught_happiness = 70
+raw_abilities = ["GLUTTONY", "BLAZE"]
+raw_egg_moves = ["ASTONISH", "BELCH", "COVET", "DISARMINGVOICE", "FIREPUNCH", "FIRESPIN", "FLAREBLITZ", "HEATWAVE", "LOWKICK", "NASTYPLOT", "ROLEPLAY", "SLEEPTALK", "TICKLE"]
+raw_tms = ["WORKUP", "CUT", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "PROTECT", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "FLAMETHROWER", "FIREBLAST", "ROCKTOMB", "TORMENT", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "THIEF", "LOWSWEEP", "ROUND", "OVERHEAT", "FLING", "WILLOWISP", "ACROBATICS", "SHADOWCLAW", "PAYBACK", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "FIRESPIN", "DIG", "CRUNCH", "FLAREBLITZ", "AMNESIA", "ENDURE", "NASTYPLOT"]
+raw_tutor_moves = ["COVET", "ENDEAVOR", "FIREPLEDGE", "FIREPUNCH", "FOCUSPUNCH", "GASTROACID", "GUNKSHOT", "HEATWAVE", "HELPINGHAND", "IRONTAIL", "KNOCKOFF", "LOWKICK", "RECYCLE", "ROLEPLAY", "SNORE", "UPROAR", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5120
+height = 0.6
+weight = 11.0
+colour = "Red"
+kind = "High Temp"
+pokedex_entry = "This Pokémon lives in caves in volcanoes. The fire within the tuft on its head can reach 600º F."
+battler_player_y = 26
+battler_enemy_y = 28
+battler_altitude = 0
+form_names = []
+internal_name = "PANSEAR"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SCRATCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PLAYNICE"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "LICK"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "INCINERATE"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "FURYSWIPES"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "YAWN"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "FLAMEBURST"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "AMNESIA"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "FLING"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "ACROBATICS"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "FIREBLAST"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "RECYCLE"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "NATURALGIFT"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "CRUNCH"
+
+[[evolutions]]
+into_name = "SIMISEAR"
+condition = "Item"
+parameter = "FIRESTONE"
+
+[base_stats]
+hp = 50
+atk = 53
+def_ = 48
+spa = 53
+spd = 48
+spe = 64
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 1
+
+[wild_items]

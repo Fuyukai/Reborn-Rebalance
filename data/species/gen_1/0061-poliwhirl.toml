@@ -1,0 +1,115 @@
+name = "Poliwhirl"
+primary_type = "WATER"
+secondary_type = "WATER"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 135
+catch_rate = 120
+caught_happiness = 70
+raw_abilities = ["WATERABSORB", "DAMP"]
+raw_egg_moves = []
+raw_tms = ["SURF", "STRENGTH", "WATERFALL", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "EARTHQUAKE", "RETURN", "PSYCHIC", "BRICKBREAK", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "SCALD", "FLING", "BULLDOZE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "WHIRLPOOL", "MUDSHOT", "BODYSLAM", "HYDROPUMP", "METRONOME", "AMNESIA", "ENDURE", "ENCORE", "MUDDYWATER"]
+raw_tutor_moves = ["EARTHPOWER", "ENDEAVOR", "FOCUSPUNCH", "HEADBUTT", "HELPINGHAND", "ICEPUNCH", "ICYWIND", "LOWKICK", "MUDSLAP", "SNORE", "WATERPULSE", "ICEBALL", "MIMIC"]
+compatible_egg_groups = ["Water1"]
+steps_to_hatch = 5355
+height = 1.0
+weight = 20.0
+colour = "Blue"
+kind = "Tadpole"
+pokedex_entry = "Its body surface is always wet and slick with an oily fluid. Because of this greasy covering, it can easily slip and slide out of the clutches of any enemy in battle."
+battler_player_y = 24
+battler_enemy_y = 20
+battler_altitude = 0
+form_names = []
+internal_name = "POLIWHIRL"
+raw_hidden_ability = "SWIFTSWIM"
+habitat = "WatersEdge"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WATERSPORT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WATERGUN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HYPNOSIS"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "WATERGUN"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "HYPNOSIS"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "BUBBLE"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "DOUBLESLAP"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "RAINDANCE"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "BODYSLAM"
+
+[[raw_level_up_moves]]
+at_level = "27"
+name = "BUBBLEBEAM"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "MUDSHOT"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "BELLYDRUM"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "WAKEUPSLAP"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "HYDROPUMP"
+
+[[raw_level_up_moves]]
+at_level = "53"
+name = "MUDBOMB"
+
+[[evolutions]]
+into_name = "POLIWRATH"
+condition = "Item"
+parameter = "WATERSTONE"
+
+[[evolutions]]
+into_name = "POLITOED"
+condition = "TradeItem"
+parameter = "KINGSROCK"
+
+[base_stats]
+hp = 65
+atk = 65
+def_ = 65
+spa = 50
+spd = 50
+spe = 90
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 2
+
+[wild_items]
+uncommon = "KINGSROCK"

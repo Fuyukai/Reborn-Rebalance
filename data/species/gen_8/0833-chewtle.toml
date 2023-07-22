@@ -1,0 +1,85 @@
+name = "Chewtle"
+primary_type = "WATER"
+secondary_type = "WATER"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 57
+catch_rate = 255
+caught_happiness = 50
+raw_abilities = ["STRONGJAW", "SHELLARMOR"]
+raw_egg_moves = ["SKULLBASH", "GASTROACID", "DRAGONTAIL"]
+raw_tms = ["SURF", "DIVE", "PROTECT", "RAINDANCE", "FACADE", "REST", "ATTRACT", "ROUND", "PAYBACK", "DRAGONTAIL", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "WHIRLPOOL", "REVENGE", "MUDSHOT", "ASSURANCE", "ICEFANG", "BODYSLAM", "HYDROPUMP", "ENDURE", "CHILLINGWATER"]
+raw_tutor_moves = ["HEADBUTT", "LIQUIDATION", "SNORE", "SKITTERSMACK", "SCALESHOT", "MIMIC"]
+compatible_egg_groups = ["Monster", "Water1"]
+steps_to_hatch = 5120
+height = 0.3
+weight = 8.5
+colour = "Green"
+kind = "Snapping"
+pokedex_entry = "It starts off battles by attacking with its rock-hard horn, but as soon as the opponent flinches, this Pokémon bites down and never lets go."
+battler_player_y = 21
+battler_enemy_y = 26
+battler_altitude = 0
+form_names = []
+internal_name = "CHEWTLE"
+raw_hidden_ability = "SWIFTSWIM"
+regional_numbers = 833
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WATERGUN"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "PROTECT"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "HEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "COUNTER"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "JAWLOCK"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "LIQUIDATION"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "BODYSLAM"
+
+[[evolutions]]
+into_name = "DREDNAW"
+condition = "Level"
+parameter = "22"
+
+[base_stats]
+hp = 50
+atk = 64
+def_ = 50
+spa = 38
+spd = 38
+spe = 44
+
+[ev_yield]
+hp = 0
+atk = 1
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

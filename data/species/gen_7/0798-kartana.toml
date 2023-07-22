@@ -1,0 +1,119 @@
+name = "Kartana"
+primary_type = "GRASS"
+secondary_type = "STEEL"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 257
+catch_rate = 255
+caught_happiness = 0
+raw_abilities = ["BEASTBOOST"]
+raw_egg_moves = []
+raw_tms = ["CUT", "CALMMIND", "TOXIC", "HIDDENPOWER", "PROTECT", "FRUSTRATION", "RETURN", "BRICKBREAK", "DOUBLETEAM", "AERIALACE", "REST", "ROUND", "FALSESWIPE", "SMARTSTRIKE", "GIGAIMPACT", "SWORDSDANCE", "XSCISSOR", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "SOLARBLADE", "SCREECH", "PSYCHOCUT", "LEAFBLADE", "AIRSLASH", "ENDURE"]
+raw_tutor_moves = ["DEFOG", "GIGADRAIN", "IRONDEFENSE", "KNOCKOFF", "LASERFOCUS", "LASTRESORT", "SNORE", "SYNTHESIS", "TAILWIND", "STEELROLLER", "STEELBEAM", "MIMIC"]
+compatible_egg_groups = ["Undiscovered"]
+steps_to_hatch = 30720
+height = 0.3
+weight = 0.1
+colour = "White"
+kind = "Drawn Sword"
+pokedex_entry = "One of the Ultra Beast life-forms, it was observed cutting down a gigantic steel tower with one stroke of its blade."
+battler_player_y = 14
+battler_enemy_y = 16
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "KARTANA"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SACREDSWORD"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DEFOG"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "VACUUMWAVE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "AIRCUTTER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FURYCUTTER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CUT"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "FALSESWIPE"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "RAZORLEAF"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "SYNTHESIS"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "AERIALACE"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "LASERFOCUS"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "NIGHTSLASH"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "SWORDSDANCE"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "LEAFBLADE"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "XSCISSOR"
+
+[[raw_level_up_moves]]
+at_level = "53"
+name = "DETECT"
+
+[[raw_level_up_moves]]
+at_level = "59"
+name = "AIRSLASH"
+
+[[raw_level_up_moves]]
+at_level = "67"
+name = "PSYCHOCUT"
+
+[[raw_level_up_moves]]
+at_level = "73"
+name = "GUILLOTINE"
+
+[base_stats]
+hp = 59
+atk = 181
+def_ = 131
+spa = 59
+spd = 31
+spe = 109
+
+[ev_yield]
+hp = 0
+atk = 3
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

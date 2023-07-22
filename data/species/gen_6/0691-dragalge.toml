@@ -1,0 +1,124 @@
+name = "Dragalge"
+primary_type = "POISON"
+secondary_type = "DRAGON"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 173
+catch_rate = 225
+caught_happiness = 70
+raw_abilities = ["POISONPOINT", "POISONTOUCH"]
+raw_egg_moves = []
+raw_tms = ["SURF", "WATERFALL", "TOXIC", "DIVE", "HAIL", "VENOSHOCK", "HIDDENPOWER", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "SHADOWBALL", "DOUBLETEAM", "SLUDGEWAVE", "SLUDGEBOMB", "FACADE", "REST", "ATTRACT", "ROUND", "FOCUSBLAST", "SCALD", "GIGAIMPACT", "DRAGONTAIL", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "LEAFBLADE", "HYDROPUMP", "LEAFSTORM", "ENDURE", "TOXICSPIKES", "PLAYROUGH", "VENOMDRENCH", "SNOWSCAPE", "CHILLINGWATER"]
+raw_tutor_moves = ["AQUATAIL", "BOUNCE", "DRACOMETEOR", "DRAGONPULSE", "GUNKSHOT", "ICYWIND", "IRONTAIL", "OUTRAGE", "SHOCKWAVE", "SNORE", "WATERPULSE", "FLIPTURN", "SCALESHOT", "MIMIC", "POISONTAIL"]
+compatible_egg_groups = ["Water1", "Dragon"]
+steps_to_hatch = 5120
+height = 1.8
+weight = 81.5
+colour = "Brown"
+kind = "Mock Kelp"
+pokedex_entry = "Tales are told of ships that wander into seas where Dragalge live, never to return."
+battler_player_y = 1
+battler_enemy_y = -4
+battler_altitude = 2
+evolutions = []
+form_names = []
+internal_name = "DRAGALGE"
+raw_hidden_ability = "ADAPTABILITY"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "TWISTER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DRAGONTAIL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SMOKESCREEN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WATERGUN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FEINTATTACK"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "FEINTATTACK"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "TAILWHIP"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "BUBBLE"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "ACID"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "CAMOUFLAGE"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "POISONTAIL"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "WATERPULSE"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "DOUBLETEAM"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "TOXIC"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "AQUATAIL"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "SLUDGEBOMB"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "HYDROPUMP"
+
+[[raw_level_up_moves]]
+at_level = "53"
+name = "DRAGONPULSE"
+
+[[raw_level_up_moves]]
+at_level = "59"
+name = "DRAGONTAIL"
+
+[base_stats]
+hp = 65
+atk = 75
+def_ = 90
+spa = 97
+spd = 123
+spe = 44
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 2
+spe = 0
+
+[wild_items]

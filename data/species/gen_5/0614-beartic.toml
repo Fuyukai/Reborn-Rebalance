@@ -1,0 +1,140 @@
+name = "Beartic"
+primary_type = "ICE"
+secondary_type = "ICE"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 177
+catch_rate = 60
+caught_happiness = 70
+raw_abilities = ["SNOWCLOAK", "SLUSHRUSH"]
+raw_egg_moves = []
+raw_tms = ["CUT", "SURF", "STRENGTH", "ROAR", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "BULKUP", "HIDDENPOWER", "TAUNT", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "BRICKBREAK", "DOUBLETEAM", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "FOCUSBLAST", "FLING", "SHADOWCLAW", "GIGAIMPACT", "STONEEDGE", "SWORDSDANCE", "BULLDOZE", "FROSTBREATH", "ROCKSLIDE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "SCARYFACE", "CHARM", "ICICLESPEAR", "BRINE", "ASSURANCE", "AVALANCHE", "ICEFANG", "ENDURE", "ENCORE", "HEAVYSLAM", "PLAYROUGH", "BODYPRESS", "SNOWSCAPE", "TRAILBLAZE", "CHILLINGWATER"]
+raw_tutor_moves = ["COVET", "FOCUSPUNCH", "ICEPUNCH", "ICYWIND", "LIQUIDATION", "LOWKICK", "SNORE", "SUPERPOWER", "THROATCHOP", "WATERPULSE", "MOUNTAINGALE", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5120
+height = 2.6
+weight = 260.0
+colour = "White"
+kind = "Freezing"
+pokedex_entry = "It freezes its breath to create fangs and claws of ice to fight with. Cold northern areas are its habitat."
+battler_player_y = 11
+battler_enemy_y = 16
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "BEARTIC"
+raw_hidden_ability = "SWIFTSWIM"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "ICICLECRASH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SNOWSCAPE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SHEERCOLD"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "THRASH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SUPERPOWER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "AQUAJET"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POWDERSNOW"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BIDE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ICYWIND"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "POWDERSNOW"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "BIDE"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "ICYWIND"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "FURYSWIPES"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "BRINE"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "ENDURE"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "SWAGGER"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "SLASH"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "FLAIL"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "REST"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "BLIZZARD"
+
+[[raw_level_up_moves]]
+at_level = "53"
+name = "HAIL"
+
+[[raw_level_up_moves]]
+at_level = "59"
+name = "THRASH"
+
+[[raw_level_up_moves]]
+at_level = "66"
+name = "SHEERCOLD"
+
+[base_stats]
+hp = 95
+atk = 130
+def_ = 80
+spa = 70
+spd = 80
+spe = 50
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

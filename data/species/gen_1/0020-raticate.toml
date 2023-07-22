@@ -1,0 +1,113 @@
+name = "Raticate"
+primary_type = "NORMAL"
+secondary_type = "NORMAL"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 145
+catch_rate = 127
+caught_happiness = 70
+raw_abilities = ["RUNAWAY", "GUTS"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "CUT", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "BULKUP", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "SHADOWBALL", "DOUBLETEAM", "SLUDGEWAVE", "SLUDGEBOMB", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "CHARGEBEAM", "QUASH", "EMBARGO", "SHADOWCLAW", "GIGAIMPACT", "THUNDERWAVE", "SWORDSDANCE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "SNARL", "DARKPULSE", "CONFIDE", "DIG", "SCREECH", "SCARYFACE", "BEATUP", "REVENGE", "ASSURANCE", "PSYCHICFANGS", "CRUNCH", "BODYSLAM", "CLOSECOMBAT", "FOCUSENERGY", "REVERSAL", "ENDURE", "RETALIATE", "SWIFT"]
+raw_tutor_moves = ["COVET", "ENDEAVOR", "HEADBUTT", "ICYWIND", "IRONTAIL", "KNOCKOFF", "LASTRESORT", "MUDSLAP", "SHOCKWAVE", "SNATCH", "SNORE", "STOMPINGTANTRUM", "SUCKERPUNCH", "SUPERFANG", "THROATCHOP", "UPROAR", "ZENHEADBUTT", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 4080
+height = 0.7
+weight = 18.5
+colour = "Brown"
+kind = "Mouse"
+pokedex_entry = "A Raticate's sturdy fangs grow steadily. To keep them ground down, it gnaws on rocks and logs. It may even chew on the walls of houses."
+battler_player_y = 21
+battler_enemy_y = 14
+battler_altitude = 0
+evolutions = []
+form_names = ["Normal", "Alternate"]
+internal_name = "RATICATE"
+raw_hidden_ability = "HUSTLE"
+habitat = "Grassland"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "SCARYFACE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SWORDSDANCE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TAILWHIP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FOCUSENERGY"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "FOCUSENERGY"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "PURSUIT"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "HYPERFANG"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "ASSURANCE"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "SUCKERPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "SUPERFANG"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "DOUBLEEDGE"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "ENDEAVOR"
+
+[base_stats]
+hp = 55
+atk = 81
+def_ = 60
+spa = 50
+spd = 70
+spe = 97
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 2
+
+[wild_items]

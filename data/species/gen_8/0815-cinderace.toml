@@ -1,0 +1,104 @@
+name = "Cinderace"
+primary_type = "FIRE"
+secondary_type = "FIRE"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+exp_yield = 265
+catch_rate = 45
+caught_happiness = 50
+raw_abilities = ["BLAZE", "LIBERO"]
+raw_egg_moves = ["HIJUMPKICK", "SANDATTACK", "SUCKERPUNCH", "SUPERFANG"]
+raw_tms = ["WORKUP", "BULKUP", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "SHADOWBALL", "FLAMETHROWER", "FIREBLAST", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "LOWSWEEP", "ROUND", "OVERHEAT", "FOCUSBLAST", "ACROBATICS", "GIGAIMPACT", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "SNARL", "MEGAKICK", "FIRESPIN", "REVENGE", "MUDSHOT", "ASSURANCE", "FIREFANG", "FLAREBLITZ", "AGILITY", "FOCUSENERGY", "REVERSAL", "ENDURE", "BATONPASS", "BLAZEKICK", "ELECTROBALL", "PLAYROUGH", "TRAILBLAZE", "SWIFT"]
+raw_tutor_moves = ["ALLYSWITCH", "BLASTBURN", "BOUNCE", "FIREPLEDGE", "FIREPUNCH", "GUNKSHOT", "HEADBUTT", "HEATWAVE", "HELPINGHAND", "IRONHEAD", "LOWKICK", "SNORE", "SUCKERPUNCH", "SUPERFANG", "ZENHEADBUTT", "COACHING", "SCORCHINGSANDS", "MIMIC"]
+compatible_egg_groups = ["Field", "Humanlike"]
+steps_to_hatch = 5120
+height = 1.4
+weight = 33.0
+colour = "White"
+kind = "Striker"
+pokedex_entry = "It's skilled at both offense and defense, and it gets pumped up when cheered on. But if it starts showboating, it could put itself in a tough spot."
+battler_player_y = 21
+battler_enemy_y = 26
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "CINDERACE"
+regional_numbers = 815
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "PYROBALL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PYROBALL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FEINT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "EMBER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "DOUBLEKICK"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "FLAMECHARGE"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "HEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "COUNTER"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "BOUNCE"
+
+[[raw_level_up_moves]]
+at_level = "54"
+name = "DOUBLEEDGE"
+
+[[raw_level_up_moves]]
+at_level = "62"
+name = "COURTCHANGE"
+
+[base_stats]
+hp = 80
+atk = 116
+def_ = 75
+spa = 65
+spd = 75
+spe = 119
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 3
+
+[wild_items]

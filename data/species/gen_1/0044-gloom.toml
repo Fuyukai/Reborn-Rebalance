@@ -1,0 +1,126 @@
+name = "Gloom"
+primary_type = "GRASS"
+secondary_type = "POISON"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 138
+catch_rate = 120
+caught_happiness = 70
+raw_abilities = ["CHLOROPHYLL", "STENCH"]
+raw_egg_moves = []
+raw_tms = ["CUT", "TOXIC", "FLASH", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "REFLECT", "SLUDGEBOMB", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "FLING", "SWORDSDANCE", "INFESTATION", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "DAZZLINGGLEAM", "CONFIDE", "CHARM", "BULLETSEED", "GRASSYTERRAIN", "ENDURE"]
+raw_tutor_moves = ["AFTERYOU", "DRAINPUNCH", "GASTROACID", "GIGADRAIN", "SEEDBOMB", "SNORE", "SYNTHESIS", "WORRYSEED", "GRASSYGLIDE", "MIMIC"]
+compatible_egg_groups = ["Grass"]
+steps_to_hatch = 5355
+height = 0.8
+weight = 8.6
+colour = "Blue"
+kind = "Weed"
+pokedex_entry = "A horribly noxious honey drools from its mouth. One whiff of the honey can result in memory loss. Some fans are said to enjoy this overwhelming stink, however."
+battler_player_y = 25
+battler_enemy_y = 22
+battler_altitude = 0
+form_names = []
+internal_name = "GLOOM"
+habitat = "Grassland"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ABSORB"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWTH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SWEETSCENT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ACID"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "SWEETSCENT"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "ACID"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "POISONPOWDER"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "STUNSPORE"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "SLEEPPOWDER"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "MEGADRAIN"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "LUCKYCHANT"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "MOONLIGHT"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "GIGADRAIN"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "TOXIC"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "NATURALGIFT"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "PETALBLIZZARD"
+
+[[raw_level_up_moves]]
+at_level = "54"
+name = "GRASSYTERRAIN"
+
+[[raw_level_up_moves]]
+at_level = "59"
+name = "PETALDANCE"
+
+[[evolutions]]
+into_name = "VILEPLUME"
+condition = "Item"
+parameter = "LEAFSTONE"
+
+[[evolutions]]
+into_name = "BELLOSSOM"
+condition = "Item"
+parameter = "SUNSTONE"
+
+[base_stats]
+hp = 60
+atk = 65
+def_ = 70
+spa = 85
+spd = 75
+spe = 40
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 2
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "ABSORBBULB"

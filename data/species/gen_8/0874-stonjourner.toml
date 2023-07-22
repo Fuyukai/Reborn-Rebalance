@@ -1,0 +1,96 @@
+name = "Stonjourner"
+primary_type = "ROCK"
+secondary_type = "ROCK"
+gender_ratio = "Female50Percent"
+growth_rate = "Slow"
+exp_yield = 165
+catch_rate = 60
+caught_happiness = 50
+raw_abilities = ["POWERSPOT"]
+raw_egg_moves = ["CURSE", "ANCIENTPOWER"]
+raw_tms = ["STRENGTH", "HYPERBEAM", "PROTECT", "SAFEGUARD", "EARTHQUAKE", "SANDSTORM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "BRUTALSWING", "GIGAIMPACT", "ROCKPOLISH", "STONEEDGE", "BULLDOZE", "ROCKSLIDE", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "MEGAKICK", "SELFDESTRUCT", "IMPRISON", "SANDTOMB", "ROCKBLAST", "ASSURANCE", "BODYSLAM", "ENDURE", "HEATCRASH", "HEAVYSLAM", "BODYPRESS"]
+raw_tutor_moves = ["ANCIENTPOWER", "BLOCK", "EARTHPOWER", "GRAVITY", "IRONDEFENSE", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "SUPERPOWER", "WONDERROOM", "METEORBEAM", "MIMIC"]
+compatible_egg_groups = ["Mineral"]
+steps_to_hatch = 6400
+height = 2.5
+weight = 520.0
+colour = "Gray"
+kind = "Big Rock"
+pokedex_entry = "Once a year, on a specific date and at a specific time, they gather out of nowhere and form up in a circle."
+battler_player_y = 21
+battler_enemy_y = 26
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "STONJOURNER"
+regional_numbers = 874
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ROCKTHROW"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BLOCK"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "ROCKPOLISH"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "ROCKTOMB"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "GRAVITY"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "STOMP"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "STEALTHROCK"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "ROCKSLIDE"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "BODYSLAM"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "WIDEGUARD"
+
+[[raw_level_up_moves]]
+at_level = "54"
+name = "HEAVYSLAM"
+
+[[raw_level_up_moves]]
+at_level = "60"
+name = "STONEEDGE"
+
+[[raw_level_up_moves]]
+at_level = "66"
+name = "MEGAKICK"
+
+[base_stats]
+hp = 100
+atk = 125
+def_ = 135
+spa = 20
+spd = 20
+spe = 70
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 2
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

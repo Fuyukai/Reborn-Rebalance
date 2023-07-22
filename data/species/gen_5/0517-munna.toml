@@ -1,0 +1,116 @@
+name = "Munna"
+primary_type = "PSYCHIC"
+secondary_type = "PSYCHIC"
+gender_ratio = "Female50Percent"
+growth_rate = "Fast"
+exp_yield = 58
+catch_rate = 190
+caught_happiness = 70
+raw_abilities = ["FOREWARN", "SYNCHRONIZE"]
+raw_egg_moves = ["BARRIER", "BATONPASS", "CURSE", "HEALINGWISH", "HELPINGHAND", "MAGICCOAT", "SECRETPOWER", "SLEEPTALK", "SONICBOOM", "SWIFT"]
+raw_tms = ["PSYSHOCK", "CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "ROCKTOMB", "TORMENT", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "CHARGEBEAM", "THUNDERWAVE", "GYROBALL", "PSYCHUP", "ROCKSLIDE", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "DAZZLINGGLEAM", "CONFIDE", "IMPRISON", "POWERSWAP", "GUARDSWAP", "LEAFSTORM", "AMNESIA", "ENDURE", "BATONPASS", "FUTURESIGHT", "STOREDPOWER", "SWIFT"]
+raw_tutor_moves = ["AFTERYOU", "ALLYSWITCH", "GRASSPLEDGE", "GRAVITY", "HEALBELL", "HELPINGHAND", "MAGICCOAT", "PAINSPLIT", "SHOCKWAVE", "SIGNALBEAM", "SKILLSWAP", "SNORE", "TELEKINESIS", "TRICK", "WONDERROOM", "WORRYSEED", "ZENHEADBUTT", "EXPANDINGFORCE", "MYSTICALPOWER", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 2560
+height = 0.6
+weight = 23.3
+colour = "Pink"
+kind = "Dream Eater"
+pokedex_entry = "It eats the dreams of people and Pokémon. When it eats a pleasant dream, it expels pink-colored mist."
+battler_player_y = 33
+battler_enemy_y = 27
+battler_altitude = 10
+form_names = []
+internal_name = "MUNNA"
+raw_hidden_ability = "TELEPATHY"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PSYWAVE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DEFENSECURL"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "LUCKYCHANT"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "YAWN"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "PSYBEAM"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "IMPRISON"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "MOONLIGHT"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "HYPNOSIS"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "ZENHEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "SYNCHRONOISE"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "NIGHTMARE"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "FUTURESIGHT"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "CALMMIND"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "PSYCHIC"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "DREAMEATER"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "TELEKINESIS"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "STOREDPOWER"
+
+[[evolutions]]
+into_name = "MUSHARNA"
+condition = "Item"
+parameter = "MOONSTONE"
+
+[base_stats]
+hp = 76
+atk = 25
+def_ = 45
+spa = 67
+spd = 55
+spe = 24
+
+[ev_yield]
+hp = 1
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

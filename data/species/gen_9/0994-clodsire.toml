@@ -1,0 +1,96 @@
+name = "Clodsire"
+primary_type = "POISON"
+secondary_type = "GROUND"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 151
+catch_rate = 90
+caught_happiness = 50
+raw_abilities = ["POISONPOINT", "WATERABSORB"]
+raw_egg_moves = []
+raw_tms = ["SURF", "WATERFALL", "TOXIC", "VENOSHOCK", "HIDDENPOWER", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "SLUDGEWAVE", "SLUDGEBOMB", "SANDSTORM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "GIGAIMPACT", "STONEEDGE", "BULLDOZE", "ROCKSLIDE", "POISONJAB", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "SANDTOMB", "MUDSHOT", "BODYSLAM", "HYDROPUMP", "AMNESIA", "SPIKES", "ENDURE", "MUDDYWATER", "TOXICSPIKES", "HEAVYSLAM", "BODYPRESS", "TRAILBLAZE", "CHILLINGWATER"]
+raw_tutor_moves = ["BLOCK", "EARTHPOWER", "GUNKSHOT", "HELPINGHAND", "IRONHEAD", "LIQUIDATION", "LOWKICK", "MUDSLAP", "STEALTHROCK", "STOMPINGTANTRUM", "WATERPULSE", "ZENHEADBUTT", "POISONTAIL"]
+compatible_egg_groups = ["Water1", "Field"]
+steps_to_hatch = 5140
+height = 1.8
+weight = 223.0
+colour = "Brown"
+kind = "Spiny Fish"
+pokedex_entry = "When attacked, this Pokémon will retaliate by sticking thick spines out from its body. It’s a risky move that puts everything on the line."
+battler_player_y = 18
+battler_enemy_y = 12
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "CLODSIRE"
+raw_hidden_ability = "UNAWARE"
+
+[[raw_level_up_moves]]
+at_level = " 0"
+name = "AMNESIA"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TAILWHIP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POISONSTING"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "TOXICSPIKES"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "MUDSHOT"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "POISONTAIL"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "SLAM"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "YAWN"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "POISONJAB"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "SLUDGEWAVE"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "MEGAHORN"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "TOXIC"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "EARTHQUAKE"
+
+[base_stats]
+hp = 130
+atk = 75
+def_ = 60
+spa = 45
+spd = 100
+spe = 20
+
+[ev_yield]
+hp = 2
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

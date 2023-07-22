@@ -1,0 +1,103 @@
+name = "Passimian"
+primary_type = "FIGHTING"
+secondary_type = "FIGHTING"
+gender_ratio = "Female50Percent"
+growth_rate = "Slow"
+exp_yield = 172
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["RECEIVER", "DEFIANT"]
+raw_egg_moves = ["FEINT", "IRONHEAD", "QUICKATTACK", "QUICKGUARD", "SEISMICTOSS", "VITALTHROW"]
+raw_tms = ["WORKUP", "TOXIC", "ROCKSMASH", "BULKUP", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "SMACKDOWN", "EARTHQUAKE", "RETURN", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "LOWSWEEP", "ROUND", "FOCUSBLAST", "ENERGYBALL", "FLING", "BRUTALSWING", "ACROBATICS", "PAYBACK", "GIGAIMPACT", "GYROBALL", "BULLDOZE", "ROCKSLIDE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "SCARYFACE", "BEATUP", "REVENGE", "ASSURANCE", "CLOSECOMBAT", "FOCUSENERGY", "REVERSAL", "ENDURE", "RETALIATE", "TRAILBLAZE", "CHILLINGWATER"]
+raw_tutor_moves = ["BLOCK", "DRAINPUNCH", "ELECTROWEB", "ENDEAVOR", "FOCUSPUNCH", "GUNKSHOT", "IRONHEAD", "IRONTAIL", "KNOCKOFF", "LASERFOCUS", "SEEDBOMB", "SHOCKWAVE", "SNATCH", "SNORE", "SUPERPOWER", "UPROAR", "COACHING", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5120
+height = 2.0
+weight = 82.8
+colour = "White"
+kind = "Teamwork"
+pokedex_entry = "They form groups of roughly 20 individuals. Their mutual bond is remarkable-- they will never let down a comrade."
+battler_player_y = 13
+battler_enemy_y = 20
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "PASSIMIAN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "ROCKSMASH"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "FOCUSENERGY"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "BEATUP"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "SCARYFACE"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "BESTOW"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "THRASH"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "BULKUP"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "DOUBLEEDGE"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "FLING"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "CLOSECOMBAT"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "REVERSAL"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "GIGAIMPACT"
+
+[base_stats]
+hp = 100
+atk = 120
+def_ = 90
+spa = 40
+spd = 60
+spe = 80
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

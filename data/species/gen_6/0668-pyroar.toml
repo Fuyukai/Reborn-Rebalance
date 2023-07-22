@@ -1,0 +1,116 @@
+name = "Pyroar"
+primary_type = "FIRE"
+secondary_type = "NORMAL"
+gender_ratio = "Female75Percent"
+growth_rate = "Parabolic"
+exp_yield = 177
+catch_rate = 200
+caught_happiness = 70
+raw_abilities = ["RIVALRY", "UNNERVE"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "FLAMETHROWER", "FIREBLAST", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "OVERHEAT", "WILLOWISP", "PAYBACK", "GIGAIMPACT", "BULLDOZE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "SNARL", "DARKPULSE", "CONFIDE", "FIRESPIN", "DIG", "FIREFANG", "CRUNCH", "FLAREBLITZ", "ENDURE", "RETALIATE", "TRAILBLAZE"]
+raw_tutor_moves = ["BOUNCE", "ENDEAVOR", "HEATWAVE", "HELPINGHAND", "HYPERVOICE", "IRONTAIL", "SNATCH", "SNORE", "RAGINGFURY", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5120
+height = 1.5
+weight = 81.5
+colour = "Brown"
+kind = "Royal"
+pokedex_entry = "With fiery breath of more than 10,000 degrees Fahrenheit, they viciously threaten any challenger. The females protect the pride's cubs."
+battler_player_y = 14
+battler_enemy_y = 22
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "PYROAR"
+raw_hidden_ability = "MOXIE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HYPERBEAM"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "EMBER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WORKUP"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "EMBER"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "WORKUP"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "HEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "NOBLEROAR"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "FIREFANG"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "ENDEAVOR"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "ECHOEDVOICE"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "FLAMETHROWER"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "HYPERVOICE"
+
+[[raw_level_up_moves]]
+at_level = "51"
+name = "INCINERATE"
+
+[[raw_level_up_moves]]
+at_level = "57"
+name = "OVERHEAT"
+
+[base_stats]
+hp = 86
+atk = 68
+def_ = 72
+spa = 109
+spd = 66
+spe = 106
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 2
+spd = 0
+spe = 0
+
+[wild_items]

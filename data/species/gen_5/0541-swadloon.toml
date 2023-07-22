@@ -1,0 +1,73 @@
+name = "Swadloon"
+primary_type = "BUG"
+secondary_type = "GRASS"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 133
+catch_rate = 120
+caught_happiness = 70
+raw_abilities = ["LEAFGUARD", "CHLOROPHYLL"]
+raw_egg_moves = []
+raw_tms = ["CUT", "CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "LIGHTSCREEN", "PROTECT", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "PAYBACK", "STRUGGLEBUG", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "SCREECH", "AIRSLASH", "GRASSYTERRAIN", "AGILITY", "ENDURE", "BATONPASS"]
+raw_tutor_moves = ["BUGBITE", "ELECTROWEB", "GIGADRAIN", "IRONDEFENSE", "MAGICCOAT", "SEEDBOMB", "SIGNALBEAM", "SNORE", "SYNTHESIS", "WORRYSEED", "MIMIC"]
+compatible_egg_groups = ["Bug"]
+steps_to_hatch = 3840
+height = 0.5
+weight = 7.3
+colour = "Green"
+kind = "Leaf-Wrapped"
+pokedex_entry = "It protects itself from the cold by wrapping up in leaves. It stays on the move, eating leaves in forests."
+battler_player_y = 24
+battler_enemy_y = 33
+battler_altitude = 0
+form_names = []
+internal_name = "SWADLOON"
+raw_hidden_ability = "OVERCOAT"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "PROTECT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GRASSWHISTLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "STRINGSHOT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BUGBITE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "RAZORLEAF"
+
+[[evolutions]]
+into_name = "LEAVANNY"
+condition = "Happiness"
+parameter = ""
+
+[base_stats]
+hp = 55
+atk = 63
+def_ = 90
+spa = 50
+spd = 80
+spe = 42
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 2
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "MENTALHERB"

@@ -1,0 +1,120 @@
+name = "Suicune"
+primary_type = "WATER"
+secondary_type = "WATER"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 261
+catch_rate = 3
+caught_happiness = 35
+raw_abilities = ["PRESSURE", "INNERFOCUS"]
+raw_egg_moves = []
+raw_tms = ["CUT", "SURF", "CALMMIND", "ROAR", "WATERFALL", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "SANDSTORM", "FACADE", "REST", "ROUND", "SCALD", "QUASH", "GIGAIMPACT", "PSYCHUP", "BULLDOZE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "SNARL", "CONFIDE", "DIG", "WHIRLPOOL", "WEATHERBALL", "BRINE", "AVALANCHE", "ICEFANG", "AIRSLASH", "BODYSLAM", "HYDROPUMP", "AGILITY", "ENDURE", "SWIFT"]
+raw_tutor_moves = ["HEADBUTT", "HELPINGHAND", "ICYWIND", "IRONHEAD", "IRONTAIL", "LASERFOCUS", "LIQUIDATION", "MUDSLAP", "OMINOUSWIND", "SIGNALBEAM", "SNORE", "TAILWIND", "WATERPULSE", "EXTREMESPEED", "MIMIC"]
+compatible_egg_groups = ["Undiscovered"]
+steps_to_hatch = 20655
+height = 2.0
+weight = 187.0
+colour = "Blue"
+kind = "Aurora"
+pokedex_entry = "Suicune embodies the compassion of a pure spring of water. It runs across the land with gliding elegance. It has the power to purify dirty water."
+battler_player_y = 16
+battler_enemy_y = 8
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "SUICUNE"
+habitat = "Grassland"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "AIRSLASH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "AQUARING"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "EXTREMESPEED"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BUBBLEBEAM"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "RAINDANCE"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "BUBBLEBEAM"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "RAINDANCE"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "GUST"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "AURORABEAM"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "MIST"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "MIRRORCOAT"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "ICEFANG"
+
+[[raw_level_up_moves]]
+at_level = "57"
+name = "TAILWIND"
+
+[[raw_level_up_moves]]
+at_level = "64"
+name = "EXTRASENSORY"
+
+[[raw_level_up_moves]]
+at_level = "71"
+name = "HYDROPUMP"
+
+[[raw_level_up_moves]]
+at_level = "78"
+name = "CALMMIND"
+
+[[raw_level_up_moves]]
+at_level = "85"
+name = "BLIZZARD"
+
+[base_stats]
+hp = 100
+atk = 75
+def_ = 115
+spa = 90
+spd = 115
+spe = 85
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 1
+spa = 0
+spd = 2
+spe = 0
+
+[wild_items]

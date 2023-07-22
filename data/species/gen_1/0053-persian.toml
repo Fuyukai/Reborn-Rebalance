@@ -1,0 +1,126 @@
+name = "Persian"
+primary_type = "NORMAL"
+secondary_type = "NORMAL"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 154
+catch_rate = 90
+caught_happiness = 70
+raw_abilities = ["LIMBER", "TECHNICIAN"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "CUT", "ROAR", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "SHADOWBALL", "DOUBLETEAM", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "QUASH", "EMBARGO", "SHADOWCLAW", "PAYBACK", "GIGAIMPACT", "PSYCHUP", "DREAMEATER", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "SNARL", "DARKPULSE", "CONFIDE", "PAYDAY", "DIG", "SCREECH", "CHARM", "BEATUP", "FAKETEARS", "ASSURANCE", "CRUNCH", "BODYSLAM", "AMNESIA", "ENDURE", "POWERGEM", "NASTYPLOT", "PLAYROUGH", "RETALIATE", "TRAILBLAZE", "CHILLINGWATER", "SWIFT"]
+raw_tutor_moves = ["COVET", "FOULPLAY", "GUNKSHOT", "HEADBUTT", "HYPERVOICE", "ICYWIND", "IRONTAIL", "KNOCKOFF", "LASTRESORT", "MUDSLAP", "SEEDBOMB", "SHOCKWAVE", "SNATCH", "SNORE", "SPITE", "THROATCHOP", "UPROAR", "WATERPULSE", "BURNINGJEALOUSY", "SKITTERSMACK", "LASHOUT", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5355
+height = 1.0
+weight = 32.0
+colour = "Yellow"
+kind = "Classy Cat"
+pokedex_entry = "A Persian's six bold whiskers sense air movements to determine what is in its vicinity. It becomes docile if grabbed by the whiskers."
+battler_player_y = 15
+battler_enemy_y = 14
+battler_altitude = 0
+evolutions = []
+form_names = ["Normal", "Alternate"]
+internal_name = "PERSIAN"
+raw_hidden_ability = "UNNERVE"
+habitat = "Urban"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "SWIFT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PLAYROUGH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SWITCHEROO"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SCRATCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FAKEOUT"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "FAKEOUT"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "FURYSWIPES"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "SCREECH"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "FEINTATTACK"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "TAUNT"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "POWERGEM"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "SLASH"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "NASTYPLOT"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "ASSURANCE"
+
+[[raw_level_up_moves]]
+at_level = "56"
+name = "CAPTIVATE"
+
+[[raw_level_up_moves]]
+at_level = "61"
+name = "NIGHTSLASH"
+
+[[raw_level_up_moves]]
+at_level = "65"
+name = "FEINT"
+
+[base_stats]
+hp = 65
+atk = 70
+def_ = 60
+spa = 65
+spd = 65
+spe = 115
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 2
+
+[wild_items]
+uncommon = "QUICKCLAW"

@@ -1,0 +1,82 @@
+name = "Shiftry"
+primary_type = "GRASS"
+secondary_type = "DARK"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 216
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["CHLOROPHYLL", "EARLYBIRD"]
+raw_egg_moves = []
+raw_tms = ["CUT", "STRENGTH", "TOXIC", "ROCKSMASH", "FLASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "FRUSTRATION", "SOLARBEAM", "RETURN", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "ROCKTOMB", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "LOWSWEEP", "ROUND", "FOCUSBLAST", "ENERGYBALL", "FALSESWIPE", "FLING", "BRUTALSWING", "EMBARGO", "EXPLOSION", "PAYBACK", "GIGAIMPACT", "SWORDSDANCE", "PSYCHUP", "ROCKSLIDE", "XSCISSOR", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "SNARL", "NATUREPOWER", "DARKPULSE", "POWERUPPUNCH", "CONFIDE", "MEGAKICK", "SOLARBLADE", "DIG", "SCREECH", "SELFDESTRUCT", "BEATUP", "REVENGE", "BULLETSEED", "ASSURANCE", "POWERSWAP", "LEAFBLADE", "AIRSLASH", "GRASSYTERRAIN", "BODYSLAM", "HURRICANE", "LEAFSTORM", "AMNESIA", "ENDURE", "NASTYPLOT", "RETALIATE", "SWIFT"]
+raw_tutor_moves = ["AIRCUTTER", "BOUNCE", "DEFOG", "FOULPLAY", "FURYCUTTER", "GIGADRAIN", "HEADBUTT", "HEATWAVE", "ICYWIND", "KNOCKOFF", "LOWKICK", "MUDSLAP", "OMINOUSWIND", "ROLLOUT", "SEEDBOMB", "SNORE", "SPITE", "SUCKERPUNCH", "SYNTHESIS", "TAILWIND", "THROATCHOP", "TWISTER", "WORRYSEED", "GRASSYGLIDE", "LASHOUT", "MIMIC"]
+compatible_egg_groups = ["Field", "Grass"]
+steps_to_hatch = 4080
+height = 1.3
+weight = 59.6
+colour = "Brown"
+kind = "Wicked"
+pokedex_entry = "It is said to arrive on chilly, wintry winds. Feared from long ago as the guardian of forests, this Pokémon lives in a deep forest without people."
+battler_player_y = 15
+battler_enemy_y = 12
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "SHIFTRY"
+raw_hidden_ability = "PICKPOCKET"
+habitat = "Forest"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEAFBLADE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SUCKERPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "RAZORLEAF"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FEINTATTACK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WHIRLWIND"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "NASTYPLOT"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "LEAFTORNADO"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "HURRICANE"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "LEAFSTORM"
+
+[base_stats]
+hp = 90
+atk = 100
+def_ = 60
+spa = 90
+spd = 60
+spe = 80
+
+[ev_yield]
+hp = 0
+atk = 3
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "POWERHERB"

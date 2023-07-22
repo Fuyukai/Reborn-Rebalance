@@ -1,0 +1,122 @@
+name = "Blissey"
+primary_type = "NORMAL"
+secondary_type = "NORMAL"
+gender_ratio = "AlwaysFemale"
+growth_rate = "Fast"
+exp_yield = 608
+catch_rate = 30
+caught_happiness = 140
+raw_abilities = ["NATURALCURE", "SERENEGRACE"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "CALMMIND", "STRENGTH", "TOXIC", "HAIL", "ROCKSMASH", "FLASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "PSYCHIC", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "FLAMETHROWER", "SANDSTORM", "FIREBLAST", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "FOCUSBLAST", "FLING", "CHARGEBEAM", "GIGAIMPACT", "THUNDERWAVE", "PSYCHUP", "BULLDOZE", "ROCKSLIDE", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "POWERUPPUNCH", "DAZZLINGGLEAM", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "CHARM", "AVALANCHE", "BODYSLAM", "METRONOME", "TRIATTACK", "ENDURE", "STOREDPOWER", "RETALIATE", "SNOWSCAPE", "TRAILBLAZE", "CHILLINGWATER"]
+raw_tutor_moves = ["ALLYSWITCH", "BLOCK", "COVET", "DRAINPUNCH", "ENDEAVOR", "FIREPUNCH", "FOCUSPUNCH", "GRAVITY", "HEADBUTT", "HEALBELL", "HELPINGHAND", "HYPERVOICE", "ICEPUNCH", "ICYWIND", "IRONTAIL", "LASERFOCUS", "LASTRESORT", "MUDSLAP", "RECYCLE", "ROLLOUT", "SHOCKWAVE", "SKILLSWAP", "SNATCH", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "TELEKINESIS", "THUNDERPUNCH", "WATERPULSE", "ZENHEADBUTT", "POWERSHIFT", "MIMIC"]
+compatible_egg_groups = ["Fairy"]
+steps_to_hatch = 10455
+height = 1.5
+weight = 46.8
+colour = "Pink"
+kind = "Happiness"
+pokedex_entry = "If it senses sadness with its fluffy fur, a Blissey will rush over to the sad person to share an egg of happiness that brings a smile to any face."
+battler_player_y = 23
+battler_enemy_y = 13
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "BLISSEY"
+raw_hidden_ability = "HEALER"
+habitat = "Urban"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LIFEDEW"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DOUBLEEDGE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DEFENSECURL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POUND"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "TAILWHIP"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "REFRESH"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "DOUBLESLAP"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "SOFTBOILED"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "BESTOW"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "MINIMIZE"
+
+[[raw_level_up_moves]]
+at_level = "27"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "SING"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "FLING"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "HEALPULSE"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "EGGBOMB"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "LIGHTSCREEN"
+
+[[raw_level_up_moves]]
+at_level = "57"
+name = "HEALINGWISH"
+
+[[raw_level_up_moves]]
+at_level = "65"
+name = "DOUBLEEDGE"
+
+[base_stats]
+hp = 255
+atk = 10
+def_ = 10
+spa = 75
+spd = 135
+spe = 55
+
+[ev_yield]
+hp = 3
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "LUCKYEGG"

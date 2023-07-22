@@ -1,0 +1,112 @@
+name = "Pupitar"
+primary_type = "ROCK"
+secondary_type = "GROUND"
+gender_ratio = "Female50Percent"
+growth_rate = "Slow"
+exp_yield = 144
+catch_rate = 45
+caught_happiness = 35
+raw_abilities = ["SHEDSKIN"]
+raw_egg_moves = []
+raw_tms = ["TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "SMACKDOWN", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "SANDSTORM", "ROCKTOMB", "TORMENT", "FACADE", "REST", "ATTRACT", "ROUND", "PAYBACK", "ROCKPOLISH", "STONEEDGE", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "SNARL", "DARKPULSE", "POWERUPPUNCH", "CONFIDE", "DIG", "SCREECH", "SCARYFACE", "SANDTOMB", "ASSURANCE", "CRUNCH", "BODYSLAM", "FOCUSENERGY", "ENDURE", "MUDDYWATER", "DRAGONDANCE", "POWERGEM", "RETALIATE"]
+raw_tutor_moves = ["ANCIENTPOWER", "EARTHPOWER", "HEADBUTT", "IRONDEFENSE", "IRONHEAD", "IRONTAIL", "OUTRAGE", "SNORE", "SPITE", "STEALTHROCK", "STOMPINGTANTRUM", "SUPERPOWER", "UPROAR", "MIMIC"]
+compatible_egg_groups = ["Monster"]
+steps_to_hatch = 10455
+height = 1.2
+weight = 152.0
+colour = "Gray"
+kind = "Hard Shell"
+pokedex_entry = "A Pupitar creates a gas inside its body that it ejects under compression to propel itself. Its body can withstand a collision with solid steel."
+battler_player_y = 27
+battler_enemy_y = 20
+battler_altitude = 8
+form_names = []
+internal_name = "PUPITAR"
+habitat = "Mountain"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SANDSTORM"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SCREECH"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "SANDSTORM"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "SCREECH"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "CHIPAWAY"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "ROCKSLIDE"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "SCARYFACE"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "THRASH"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "DARKPULSE"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "PAYBACK"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "54"
+name = "EARTHQUAKE"
+
+[[raw_level_up_moves]]
+at_level = "60"
+name = "STONEEDGE"
+
+[[raw_level_up_moves]]
+at_level = "67"
+name = "HYPERBEAM"
+
+[[evolutions]]
+into_name = "TYRANITAR"
+condition = "Level"
+parameter = "55"
+
+[base_stats]
+hp = 70
+atk = 84
+def_ = 70
+spa = 65
+spd = 70
+spe = 51
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

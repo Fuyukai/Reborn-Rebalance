@@ -1,0 +1,119 @@
+name = "Pheromosa"
+primary_type = "BUG"
+secondary_type = "FIGHTING"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 257
+catch_rate = 255
+caught_happiness = 0
+raw_abilities = ["BEASTBOOST"]
+raw_egg_moves = []
+raw_tms = ["TOXIC", "HIDDENPOWER", "TAUNT", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "ROOST", "ROOST", "FRUSTRATION", "RETURN", "BRICKBREAK", "DOUBLETEAM", "TORMENT", "FACADE", "REST", "LOWSWEEP", "ROUND", "ECHOEDVOICE", "FOCUSBLAST", "FALSESWIPE", "FLING", "GIGAIMPACT", "POISONJAB", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "ASSURANCE", "SPEEDSWAP", "CLOSECOMBAT", "AGILITY", "ENDURE", "BUGBUZZ", "SWIFT"]
+raw_tutor_moves = ["BLOCK", "BOUNCE", "BUGBITE", "DRILLRUN", "ELECTROWEB", "FOULPLAY", "ICYWIND", "LASERFOCUS", "LOWKICK", "OUTRAGE", "SHOCKWAVE", "SIGNALBEAM", "SNATCH", "SNORE", "THROATCHOP", "COACHING", "SKITTERSMACK", "TRIPLEAXEL", "MIMIC"]
+compatible_egg_groups = ["Undiscovered"]
+steps_to_hatch = 30720
+height = 1.8
+weight = 25.0
+colour = "White"
+kind = "Lissome"
+pokedex_entry = "One of the Ultra Beasts. It refuses to touch anything, perhaps because it senses some uncleanness in this world."
+battler_player_y = 8
+battler_enemy_y = 6
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "PHEROMOSA"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "QUIVERDANCE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "QUICKGUARD"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LOWKICK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "RAPIDSPIN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DOUBLEKICK"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "SWIFT"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "STOMP"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "FEINT"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "SILVERWIND"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "BOUNCE"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "JUMPKICK"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "TRIPLEKICK"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "LUNGE"
+
+[[raw_level_up_moves]]
+at_level = "53"
+name = "BUGBUZZ"
+
+[[raw_level_up_moves]]
+at_level = "59"
+name = "MEFIRST"
+
+[[raw_level_up_moves]]
+at_level = "67"
+name = "HIJUMPKICK"
+
+[[raw_level_up_moves]]
+at_level = "73"
+name = "SPEEDSWAP"
+
+[base_stats]
+hp = 71
+atk = 137
+def_ = 37
+spa = 137
+spd = 37
+spe = 151
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 3
+
+[wild_items]

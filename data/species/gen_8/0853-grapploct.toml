@@ -1,0 +1,100 @@
+name = "Grapploct"
+primary_type = "FIGHTING"
+secondary_type = "FIGHTING"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 168
+catch_rate = 45
+caught_happiness = 50
+raw_abilities = ["LIMBER", "TECHNICIAN"]
+raw_egg_moves = ["PAINSPLIT", "SOAK", "SUCKERPUNCH", "CIRCLETHROW", "SEISMICTOSS", "POWERUPPUNCH", "STORMTHROW"]
+raw_tms = ["WORKUP", "SURF", "STRENGTH", "WATERFALL", "DIVE", "ROCKSMASH", "BULKUP", "TAUNT", "HYPERBEAM", "PROTECT", "BRICKBREAK", "FACADE", "REST", "ATTRACT", "ROUND", "FOCUSBLAST", "BRUTALSWING", "PAYBACK", "GIGAIMPACT", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "MEGAPUNCH", "DIG", "SCARYFACE", "WHIRLPOOL", "REVENGE", "MUDSHOT", "BRINE", "BODYSLAM", "HYDROPUMP", "CLOSECOMBAT", "REVERSAL", "ENDURE", "MUDDYWATER", "RETALIATE"]
+raw_tutor_moves = ["BIND", "DRAINPUNCH", "ENDEAVOR", "FOCUSPUNCH", "ICEPUNCH", "LIQUIDATION", "PAINSPLIT", "SNORE", "STOMPINGTANTRUM", "SUCKERPUNCH", "SUPERPOWER", "COACHING", "SKITTERSMACK", "MIMIC"]
+compatible_egg_groups = ["Water1", "Humanlike"]
+steps_to_hatch = 6400
+height = 1.6
+weight = 39.0
+colour = "Blue"
+kind = "Jujitsu"
+pokedex_entry = "Searching for an opponent to test its skills against, it emerges onto land. Once the battle is over, it returns to the sea."
+battler_player_y = 21
+battler_enemy_y = 26
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "GRAPPLOCT"
+regional_numbers = 853
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "OCTOLOCK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "OCTOLOCK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ROCKSMASH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FEINT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BIND"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "DETECT"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "BRICKBREAK"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "BULKUP"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "SUBMISSION"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "TAUNT"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "REVERSAL"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "SUPERPOWER"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "TOPSYTURVY"
+
+[base_stats]
+hp = 80
+atk = 118
+def_ = 90
+spa = 70
+spd = 80
+spe = 42
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

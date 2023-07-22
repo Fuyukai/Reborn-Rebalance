@@ -1,0 +1,112 @@
+name = "Marshtomp"
+primary_type = "WATER"
+secondary_type = "GROUND"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+exp_yield = 142
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["TORRENT", "DAMP"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "SURF", "STRENGTH", "WATERFALL", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "SLUDGEWAVE", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "SCALD", "FLING", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "WHIRLPOOL", "SANDTOMB", "MUDSHOT", "AVALANCHE", "BODYSLAM", "HYDROPUMP", "ENDURE", "MUDDYWATER"]
+raw_tutor_moves = ["ANCIENTPOWER", "AQUATAIL", "EARTHPOWER", "ENDEAVOR", "HEADBUTT", "ICEPUNCH", "ICYWIND", "IRONTAIL", "LOWKICK", "MUDSLAP", "ROLLOUT", "SNORE", "STEALTHROCK", "SUPERPOWER", "UPROAR", "WATERPLEDGE", "WATERPULSE", "ICEBALL", "MIMIC"]
+compatible_egg_groups = ["Monster", "Water1"]
+steps_to_hatch = 5355
+height = 0.7
+weight = 28.0
+colour = "Blue"
+kind = "Mud Fish"
+pokedex_entry = "Its toughened hind legs enable it to stand upright. Because it weakens if its skin dries out, it replenishes fluids by playing in mud."
+battler_player_y = 19
+battler_enemy_y = 16
+battler_altitude = 0
+form_names = []
+internal_name = "MARSHTOMP"
+habitat = "WatersEdge"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "MUDSHOT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WATERGUN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MUDSLAP"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "WATERGUN"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "MUDSLAP"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "FORESIGHT"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "BIDE"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "MUDBOMB"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "ROCKSLIDE"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "PROTECT"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "MUDDYWATER"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "EARTHQUAKE"
+
+[[raw_level_up_moves]]
+at_level = "52"
+name = "ENDEAVOR"
+
+[[evolutions]]
+into_name = "SWAMPERT"
+condition = "Level"
+parameter = "36"
+
+[base_stats]
+hp = 70
+atk = 85
+def_ = 70
+spa = 60
+spd = 70
+spe = 50
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

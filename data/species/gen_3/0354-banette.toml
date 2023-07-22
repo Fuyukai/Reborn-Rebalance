@@ -1,0 +1,130 @@
+name = "Banette"
+primary_type = "GHOST"
+secondary_type = "GHOST"
+gender_ratio = "Female50Percent"
+growth_rate = "Fast"
+exp_yield = 159
+catch_rate = 45
+caught_happiness = 35
+raw_abilities = ["INSOMNIA", "FRISK"]
+raw_egg_moves = []
+raw_tms = ["CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "FLING", "CHARGEBEAM", "WILLOWISP", "EMBARGO", "SHADOWCLAW", "PAYBACK", "GIGAIMPACT", "THUNDERWAVE", "PSYCHUP", "XSCISSOR", "INFESTATION", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "DARKPULSE", "DAZZLINGGLEAM", "CONFIDE", "SCREECH", "IMPRISON", "HEX", "PHANTOMFORCE", "BODYSLAM", "METRONOME", "ENDURE", "POUNCE", "TRAILBLAZE"]
+raw_tutor_moves = ["ALLYSWITCH", "FOULPLAY", "GUNKSHOT", "HEADBUTT", "ICYWIND", "KNOCKOFF", "MAGICCOAT", "MAGICROOM", "MUDSLAP", "OMINOUSWIND", "PAINSPLIT", "ROLEPLAY", "SHOCKWAVE", "SKILLSWAP", "SNATCH", "SNORE", "SPITE", "SUCKERPUNCH", "TELEKINESIS", "THROATCHOP", "TRICK", "MIMIC"]
+compatible_egg_groups = ["Amorphous"]
+steps_to_hatch = 6630
+height = 1.1
+weight = 12.5
+colour = "Black"
+kind = "Marionette"
+pokedex_entry = "An abandoned plush doll became this Pokémon. They are said to live in garbage dumps and wander about in search of the children that threw them away."
+battler_player_y = 22
+battler_enemy_y = 16
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "BANETTE"
+raw_hidden_ability = "CURSEDBODY"
+habitat = "Urban"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PHANTOMFORCE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "NIGHTSLASH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "KNOCKOFF"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SCREECH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "NIGHTSHADE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SPITE"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "SCREECH"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "NIGHTSHADE"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "SPITE"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "SHADOWSNEAK"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "WILLOWISP"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "FEINTATTACK"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "HEX"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "CURSE"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "SHADOWBALL"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "EMBARGO"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "SUCKERPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "SNATCH"
+
+[[raw_level_up_moves]]
+at_level = "52"
+name = "GRUDGE"
+
+[[raw_level_up_moves]]
+at_level = "58"
+name = "TRICK"
+
+[[raw_level_up_moves]]
+at_level = "64"
+name = "PHANTOMFORCE"
+
+[base_stats]
+hp = 64
+atk = 115
+def_ = 65
+spa = 83
+spd = 63
+spe = 65
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "SPELLTAG"

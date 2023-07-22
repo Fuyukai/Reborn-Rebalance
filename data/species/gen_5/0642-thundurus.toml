@@ -1,0 +1,123 @@
+name = "Thundurus"
+primary_type = "ELECTRIC"
+secondary_type = "FLYING"
+gender_ratio = "AlwaysMale"
+growth_rate = "Slow"
+exp_yield = 261
+catch_rate = 3
+caught_happiness = 90
+raw_abilities = ["PRANKSTER", "DEFIANT"]
+raw_egg_moves = []
+raw_tms = ["FLY", "STRENGTH", "TOXIC", "ROCKSMASH", "BULKUP", "HIDDENPOWER", "TAUNT", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "SMACKDOWN", "THUNDERBOLT", "THUNDER", "RETURN", "PSYCHIC", "BRICKBREAK", "DOUBLETEAM", "SLUDGEWAVE", "SLUDGEBOMB", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "FOCUSBLAST", "FLING", "CHARGEBEAM", "SKYDROP", "BRUTALSWING", "EMBARGO", "PAYBACK", "SMARTSTRIKE", "GIGAIMPACT", "VOLTSWITCH", "THUNDERWAVE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "FLASHCANNON", "WILDCHARGE", "SECRETPOWER", "DARKPULSE", "CONFIDE", "SCARYFACE", "REVENGE", "WEATHERBALL", "ASSURANCE", "CRUNCH", "EERIEIMPULSE", "BODYSLAM", "AGILITY", "ENDURE", "NASTYPLOT", "ELECTROBALL"]
+raw_tutor_moves = ["DEFOG", "ELECTROWEB", "FOULPLAY", "IRONTAIL", "KNOCKOFF", "ROLEPLAY", "SHOCKWAVE", "SNORE", "SUPERPOWER", "THUNDERPUNCH", "UPROAR", "RISINGVOLTAGE", "LASHOUT", "POWERSHIFT", "MIMIC"]
+compatible_egg_groups = ["Undiscovered"]
+steps_to_hatch = 30720
+height = 1.5
+weight = 61.0
+colour = "Blue"
+kind = "Bolt Strike"
+pokedex_entry = "The spikes on its tail discharge immense bolts of lightning. It flies around the Unova Region firing off lightning bolts."
+battler_player_y = 13
+battler_enemy_y = 8
+battler_altitude = 10
+evolutions = []
+form_names = []
+internal_name = "THUNDURUS"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "THRASH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HAMMERARM"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "NASTYPLOT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "UPROAR"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ASTONISH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "THUNDERSHOCK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SWAGGER"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "REVENGE"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "SHOCKWAVE"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "HEALBLOCK"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "DISCHARGE"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "CHARGE"
+
+[[raw_level_up_moves]]
+at_level = "55"
+name = "WILDBOLTSTORM"
+
+[[raw_level_up_moves]]
+at_level = "61"
+name = "THUNDER"
+
+[[raw_level_up_moves]]
+at_level = "67"
+name = "DARKPULSE"
+
+[[raw_level_up_moves]]
+at_level = "73"
+name = "HAMMERARM"
+
+[[raw_level_up_moves]]
+at_level = "79"
+name = "THRASH"
+
+[base_stats]
+hp = 79
+atk = 115
+def_ = 70
+spa = 125
+spd = 80
+spe = 111
+
+[ev_yield]
+hp = 0
+atk = 3
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

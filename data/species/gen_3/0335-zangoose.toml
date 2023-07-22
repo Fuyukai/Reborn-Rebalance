@@ -1,0 +1,110 @@
+name = "Zangoose"
+primary_type = "NORMAL"
+secondary_type = "NORMAL"
+gender_ratio = "Female50Percent"
+growth_rate = "Erratic"
+exp_yield = 160
+catch_rate = 90
+caught_happiness = 70
+raw_abilities = ["IMMUNITY", "TOXICBOOST"]
+raw_egg_moves = ["BELLYDRUM", "COUNTER", "CURSE", "DISABLE", "DOUBLEHIT", "DOUBLEKICK", "FEINT", "FINALGAMBIT", "FLAIL", "FURYSWIPES", "IRONTAIL", "METALCLAW", "NIGHTSLASH", "QUICKGUARD", "RAZORWIND"]
+raw_tms = ["WORKUP", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "SOLARBEAM", "THUNDERBOLT", "THUNDER", "RETURN", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "FLAMETHROWER", "FIREBLAST", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "FOCUSBLAST", "FALSESWIPE", "FLING", "EMBARGO", "SHADOWCLAW", "PAYBACK", "SWORDSDANCE", "ROCKSLIDE", "XSCISSOR", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "REVENGE", "BODYSLAM", "CLOSECOMBAT", "ENDURE", "RETALIATE", "SWIFT"]
+raw_tutor_moves = ["ENDEAVOR", "FIREPUNCH", "FOCUSPUNCH", "FURYCUTTER", "GIGADRAIN", "HEADBUTT", "ICEPUNCH", "ICYWIND", "IRONTAIL", "KNOCKOFF", "LASTRESORT", "LOWKICK", "MUDSLAP", "ROLLOUT", "SHOCKWAVE", "SNORE", "THROATCHOP", "THUNDERPUNCH", "WATERPULSE", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5355
+height = 1.3
+weight = 40.3
+colour = "White"
+kind = "Cat Ferret"
+pokedex_entry = "When it battles, it stands on its hind legs and attacks with its sharply clawed forelegs. Its fur bristles if it encounters any Seviper."
+battler_player_y = 20
+battler_enemy_y = 11
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "ZANGOOSE"
+raw_hidden_ability = "SHARPNESS"
+habitat = "Grassland"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SCRATCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "FURYCUTTER"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "PURSUIT"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "HONECLAWS"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "SLASH"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "REVENGE"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "CRUSHCLAW"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "FALSESWIPE"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "EMBARGO"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "DETECT"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "XSCISSOR"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "TAUNT"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "SWORDSDANCE"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "CLOSECOMBAT"
+
+[base_stats]
+hp = 73
+atk = 115
+def_ = 60
+spa = 60
+spd = 60
+spe = 90
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "QUICKCLAW"

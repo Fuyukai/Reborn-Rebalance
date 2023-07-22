@@ -1,0 +1,109 @@
+name = "Vaporeon"
+primary_type = "WATER"
+secondary_type = "WATER"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Medium"
+exp_yield = 184
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["WATERABSORB", "MARVELSCALE"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "SURF", "CALMMIND", "STRENGTH", "ROAR", "WATERFALL", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "SCALD", "GIGAIMPACT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "PAYDAY", "DIG", "CHARM", "WHIRLPOOL", "WEATHERBALL", "FAKETEARS", "BRINE", "BODYSLAM", "HYDROPUMP", "FOCUSENERGY", "ENDURE", "BATONPASS", "MUDDYWATER", "STOREDPOWER", "RETALIATE", "TRAILBLAZE", "CHILLINGWATER", "SWIFT"]
+raw_tutor_moves = ["AQUATAIL", "COVET", "HEADBUTT", "HEALBELL", "HELPINGHAND", "HYPERVOICE", "ICYWIND", "IRONTAIL", "LASERFOCUS", "LASTRESORT", "LIQUIDATION", "MUDSLAP", "SIGNALBEAM", "SNORE", "WATERPULSE", "FLIPTURN", "MIMIC", "CELEBRATE"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 9180
+height = 1.0
+weight = 29.0
+colour = "Blue"
+kind = "Bubble Jet"
+pokedex_entry = "Vaporeon underwent a spontaneous mutation and grew fins and gills that allow them to live underwater. They have the ability to freely control water."
+battler_player_y = 22
+battler_enemy_y = 16
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "VAPOREON"
+raw_hidden_ability = "HYDRATION"
+habitat = "Urban"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "WATERGUN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "COPYCAT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HELPINGHAND"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TAILWHIP"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "SANDATTACK"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "BABYDOLLEYES"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "WATERPULSE"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "AURORABEAM"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "AQUARING"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "ACIDARMOR"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "HAZE"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "MUDDYWATER"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "LASTRESORT"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "HYDROPUMP"
+
+[base_stats]
+hp = 130
+atk = 65
+def_ = 60
+spa = 110
+spd = 95
+spe = 65
+
+[ev_yield]
+hp = 2
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

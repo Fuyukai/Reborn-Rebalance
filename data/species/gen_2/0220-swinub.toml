@@ -1,0 +1,109 @@
+name = "Swinub"
+primary_type = "ICE"
+secondary_type = "GROUND"
+gender_ratio = "Female50Percent"
+growth_rate = "Slow"
+exp_yield = 50
+catch_rate = 225
+caught_happiness = 70
+raw_abilities = ["OBLIVIOUS", "SNOWCLOAK"]
+raw_egg_moves = ["ANCIENTPOWER", "AVALANCHE", "BITE", "BODYSLAM", "CURSE", "DOUBLEEDGE", "FISSURE", "FREEZEDRY", "ICICLECRASH", "ICICLESPEAR", "MUDSHOT", "STEALTHROCK", "TAKEDOWN"]
+raw_tms = ["STRENGTH", "ROAR", "TOXIC", "HAIL", "ROCKSMASH", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "REFLECT", "SANDSTORM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "SCARYFACE", "SANDTOMB", "ICICLESPEAR", "MUDSHOT", "AVALANCHE", "BODYSLAM", "AMNESIA", "ENDURE"]
+raw_tutor_moves = ["ANCIENTPOWER", "EARTHPOWER", "ENDEAVOR", "HEADBUTT", "ICYWIND", "MUDSLAP", "SNORE", "STEALTHROCK", "SUPERPOWER", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5355
+height = 0.4
+weight = 6.5
+colour = "Brown"
+kind = "Pig"
+pokedex_entry = "It roots for food by rubbing its snout against the ground. It likes mushrooms that grow under dried grass. It occasionally roots out hot springs."
+battler_player_y = 36
+battler_enemy_y = 31
+battler_altitude = 0
+form_names = []
+internal_name = "SWINUB"
+raw_hidden_ability = "THICKFAT"
+habitat = "Cave"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ODORSLEUTH"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "MUDSPORT"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "POWDERSNOW"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "MUDSLAP"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "ENDURE"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "MUDBOMB"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "ICYWIND"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "ICESHARD"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "MIST"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "EARTHQUAKE"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "FLAIL"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "BLIZZARD"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "AMNESIA"
+
+[[evolutions]]
+into_name = "PILOSWINE"
+condition = "Level"
+parameter = "33"
+
+[base_stats]
+hp = 50
+atk = 50
+def_ = 40
+spa = 30
+spd = 30
+spe = 50
+
+[ev_yield]
+hp = 0
+atk = 1
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

@@ -1,0 +1,112 @@
+name = "Gengar"
+primary_type = "GHOST"
+secondary_type = "POISON"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 225
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["CURSEDBODY"]
+raw_egg_moves = []
+raw_tms = ["STRENGTH", "TOXIC", "ROCKSMASH", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "PSYCHIC", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "SLUDGEWAVE", "SLUDGEBOMB", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "FOCUSBLAST", "ENERGYBALL", "FLING", "WILLOWISP", "EMBARGO", "EXPLOSION", "SHADOWCLAW", "PAYBACK", "GIGAIMPACT", "PSYCHUP", "INFESTATION", "POISONJAB", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "DARKPULSE", "POWERUPPUNCH", "DAZZLINGGLEAM", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "SELFDESTRUCT", "SCARYFACE", "IMPRISON", "HEX", "PHANTOMFORCE", "BODYSLAM", "METRONOME", "ENDURE", "ENCORE", "NASTYPLOT"]
+raw_tutor_moves = ["ALLYSWITCH", "DRAINPUNCH", "FIREPUNCH", "FOCUSPUNCH", "FOULPLAY", "GIGADRAIN", "ICEPUNCH", "ICYWIND", "KNOCKOFF", "LASERFOCUS", "OMINOUSWIND", "PAINSPLIT", "ROLEPLAY", "SKILLSWAP", "SNATCH", "SNORE", "SPITE", "SUCKERPUNCH", "TELEKINESIS", "THUNDERPUNCH", "TRICK", "UPROAR", "WONDERROOM", "SKITTERSMACK", "CORROSIVEGAS", "POLTERGEIST", "POWERSHIFT", "MIMIC"]
+compatible_egg_groups = ["Amorphous"]
+steps_to_hatch = 5355
+height = 1.5
+weight = 40.5
+colour = "Purple"
+kind = "Shadow"
+pokedex_entry = "Deep in the night, your shadow cast by a streetlight may suddenly overtake you. It is actually a Gengar running past you, pretending to be your shadow."
+battler_player_y = 21
+battler_enemy_y = 16
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "GENGAR"
+habitat = "Cave"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "SHADOWPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HYPNOSIS"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LICK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SPITE"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "SPITE"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "MEANLOOK"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "CURSE"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "NIGHTSHADE"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "CONFUSERAY"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "SUCKERPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "PAYBACK"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "SHADOWBALL"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "DREAMEATER"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "DARKPULSE"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "DESTINYBOND"
+
+[[raw_level_up_moves]]
+at_level = "55"
+name = "HEX"
+
+[[raw_level_up_moves]]
+at_level = "61"
+name = "NIGHTMARE"
+
+[base_stats]
+hp = 60
+atk = 65
+def_ = 60
+spa = 130
+spd = 75
+spe = 110
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 3
+spd = 0
+spe = 0
+
+[wild_items]

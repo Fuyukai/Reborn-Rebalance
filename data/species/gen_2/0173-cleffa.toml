@@ -1,0 +1,78 @@
+name = "Cleffa"
+primary_type = "FAIRY"
+secondary_type = "FAIRY"
+gender_ratio = "Female75Percent"
+growth_rate = "Fast"
+exp_yield = 44
+catch_rate = 150
+caught_happiness = 140
+raw_abilities = ["CUTECHARM", "MAGICGUARD"]
+raw_egg_moves = ["AMNESIA", "AROMATHERAPY", "BELLYDRUM", "COVET", "FAKETEARS", "HEALPULSE", "METRONOME", "MIMIC", "MISTYTERRAIN", "PRESENT", "SPLASH", "STOREDPOWER", "TICKLE", "WISH"]
+raw_tms = ["WORKUP", "PSYSHOCK", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "FIREBLAST", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "FLING", "THUNDERWAVE", "PSYCHUP", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "MAGICALLEAF", "DIG", "CHARM", "FAKETEARS", "DRAININGKISS", "MISTYTERRAIN", "BODYSLAM", "METRONOME", "AMNESIA", "ENDURE", "ENCORE", "STOREDPOWER", "PLAYROUGH"]
+raw_tutor_moves = ["AFTERYOU", "COVET", "ENDEAVOR", "GRAVITY", "HEADBUTT", "HELPINGHAND", "HYPERVOICE", "ICYWIND", "IRONTAIL", "LASTRESORT", "MAGICCOAT", "MUDSLAP", "RECYCLE", "ROLEPLAY", "ROLLOUT", "SHOCKWAVE", "SIGNALBEAM", "SNORE", "TELEKINESIS", "TRICK", "UPROAR", "WATERPULSE", "WONDERROOM", "ZENHEADBUTT", "MIMIC"]
+compatible_egg_groups = ["Undiscovered"]
+steps_to_hatch = 2805
+height = 0.3
+weight = 3.0
+colour = "Pink"
+kind = "Star Shape"
+pokedex_entry = "On nights with many shooting stars, Cleffa can be seen dancing in a ring. They dance until daybreak, when they quench their thirst with the morning dew."
+battler_player_y = 34
+battler_enemy_y = 29
+battler_altitude = 0
+form_names = []
+internal_name = "CLEFFA"
+raw_hidden_ability = "FRIENDGUARD"
+habitat = "Mountain"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POUND"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CHARM"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "ENCORE"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "SING"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "SWEETKISS"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "COPYCAT"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "MAGICALLEAF"
+
+[[evolutions]]
+into_name = "CLEFAIRY"
+condition = "Happiness"
+parameter = ""
+
+[base_stats]
+hp = 50
+atk = 25
+def_ = 28
+spa = 45
+spd = 55
+spe = 15
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 1
+spe = 0
+
+[wild_items]
+uncommon = "MOONSTONE"

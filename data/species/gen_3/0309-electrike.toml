@@ -1,0 +1,105 @@
+name = "Electrike"
+primary_type = "ELECTRIC"
+secondary_type = "ELECTRIC"
+gender_ratio = "Female50Percent"
+growth_rate = "Slow"
+exp_yield = 59
+catch_rate = 120
+caught_happiness = 70
+raw_abilities = ["STATIC", "LIGHTNINGROD"]
+raw_egg_moves = ["CRUNCH", "CURSE", "DISCHARGE", "EERIEIMPULSE", "ELECTROBALL", "FIREFANG", "FLAMEBURST", "HEADBUTT", "ICEFANG", "SHOCKWAVE", "SWIFT", "SWITCHEROO", "THUNDERFANG", "UPROAR"]
+raw_tms = ["STRENGTH", "ROAR", "TOXIC", "FLASH", "HIDDENPOWER", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "DOUBLETEAM", "FLAMETHROWER", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "CHARGEBEAM", "VOLTSWITCH", "THUNDERWAVE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "SNARL", "CONFIDE", "THUNDERFANG", "ICEFANG", "FIREFANG", "PSYCHICFANGS", "CRUNCH", "EERIEIMPULSE", "BODYSLAM", "AGILITY", "ENDURE", "ELECTROBALL", "SWIFT"]
+raw_tutor_moves = ["HEADBUTT", "IRONTAIL", "MAGNETRISE", "MUDSLAP", "SHOCKWAVE", "SIGNALBEAM", "SNORE", "UPROAR", "RISINGVOLTAGE", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5355
+height = 0.6
+weight = 15.2
+colour = "Green"
+kind = "Lightning"
+pokedex_entry = "It generates electricity using friction from the atmosphere. In seasons with especially arid air, its entire body blazes with violent showers of sparks."
+battler_player_y = 30
+battler_enemy_y = 25
+battler_altitude = 0
+form_names = []
+internal_name = "ELECTRIKE"
+raw_hidden_ability = "MINUS"
+habitat = "Grassland"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "THUNDERWAVE"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "HOWL"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "SPARK"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "ODORSLEUTH"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "THUNDERFANG"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "DISCHARGE"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "ROAR"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "WILDCHARGE"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "CHARGE"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "THUNDER"
+
+[[evolutions]]
+into_name = "MANECTRIC"
+condition = "Level"
+parameter = "26"
+
+[base_stats]
+hp = 40
+atk = 45
+def_ = 40
+spa = 65
+spd = 40
+spe = 65
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 1
+
+[wild_items]

@@ -1,0 +1,104 @@
+name = "Regidrago"
+primary_type = "DRAGON"
+secondary_type = "DRAGON"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 290
+catch_rate = 3
+caught_happiness = 35
+raw_abilities = ["DRAGONSMAW"]
+raw_egg_moves = []
+raw_tms = ["DRAGONCLAW", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "REFLECT", "FACADE", "REST", "ROUND", "GIGAIMPACT", "SUBSTITUTE", "SECRETPOWER", "SELFDESTRUCT", "THUNDERFANG", "FIREFANG", "CRUNCH", "BREAKINGSWIPE", "BODYSLAM", "FOCUSENERGY", "REVERSAL", "ENDURE", "DRAGONDANCE"]
+raw_tutor_moves = ["DRACOMETEOR", "DRAGONPULSE", "OUTRAGE", "SNORE", "SCALESHOT", "MIMIC"]
+compatible_egg_groups = ["Undiscovered"]
+steps_to_hatch = 31096
+height = 2.1
+weight = 200.0
+colour = "Green"
+kind = "Dragon Orb"
+pokedex_entry = "Its body is composed of crystalized dragon energy. Regidrago is said to have the powers of every dragon Pokemon"
+battler_player_y = 14
+battler_enemy_y = 18
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "REGIDRAGO"
+shape = 0
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TWISTER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "VICEGRIP"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "ANCIENTPOWER"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "DRAGONBREATH"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "FOCUSENERGY"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "DRAGONCLAW"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "HAMMERARM"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "DRAGONDANCE"
+
+[[raw_level_up_moves]]
+at_level = "54"
+name = "THRASH"
+
+[[raw_level_up_moves]]
+at_level = "60"
+name = "LASERFOCUS"
+
+[[raw_level_up_moves]]
+at_level = "66"
+name = "DRAGONENERGY"
+
+[[raw_level_up_moves]]
+at_level = "72"
+name = "HYPERBEAM"
+
+[[raw_level_up_moves]]
+at_level = "78"
+name = "EXPLOSION"
+
+[base_stats]
+hp = 200
+atk = 100
+def_ = 50
+spa = 100
+spd = 50
+spe = 80
+
+[ev_yield]
+hp = 3
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

@@ -1,0 +1,96 @@
+name = "Wattrel"
+primary_type = "ELECTRIC"
+secondary_type = "FLYING"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 64
+catch_rate = 180
+caught_happiness = 50
+raw_abilities = ["WINDPOWER", "VOLTABSORB"]
+raw_egg_moves = ["STOCKPILE", "SPITUP", "SWALLOW", "ENDEAVOR", "FEATHERDANCE", "WEATHERBALL"]
+raw_tms = ["FLY", "TOXIC", "FLASH", "HIDDENPOWER", "PROTECT", "ROOST", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "DOUBLETEAM", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "STEELWING", "CHARGEBEAM", "ACROBATICS", "VOLTSWITCH", "THUNDERWAVE", "SLEEPTALK", "UTURN", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "CONFIDE", "WEATHERBALL", "AIRSLASH", "ELECTRICTERRAIN", "EERIEIMPULSE", "HURRICANE", "BRAVEBIRD", "AGILITY", "ENDURE", "ELECTROBALL", "SWIFT"]
+raw_tutor_moves = ["AIRCUTTER", "SHOCKWAVE", "TAILWIND", "TWISTER", "UPROAR", "DUALWINGBEAT"]
+compatible_egg_groups = ["Water1", "Flying"]
+steps_to_hatch = 5140
+height = 0.4
+weight = 3.6
+colour = "Black"
+kind = "Storm Petrel"
+pokedex_entry = "These Pokémon make their nests on coastal cliffs. The nests have a strange, crackling texture, and they're a popular delicacy."
+battler_player_y = 12
+battler_enemy_y = 12
+battler_altitude = 0
+form_names = []
+internal_name = "WATTREL"
+raw_hidden_ability = "COMPETITIVE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PECK"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "THUNDERSHOCK"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "PLUCK"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "SPARK"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "UPROAR"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "ROOST"
+
+[[raw_level_up_moves]]
+at_level = "27"
+name = "DUALWINGBEAT"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "VOLTSWITCH"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "DISCHARGE"
+
+[[evolutions]]
+into_name = "KILOWATTREL"
+condition = "Level"
+parameter = "25"
+
+[base_stats]
+hp = 40
+atk = 40
+def_ = 35
+spa = 55
+spd = 40
+spe = 70
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 1
+
+[wild_items]

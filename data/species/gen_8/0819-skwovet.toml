@@ -1,0 +1,100 @@
+name = "Skwovet"
+primary_type = "NORMAL"
+secondary_type = "NORMAL"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 270
+catch_rate = 55
+caught_happiness = 50
+raw_abilities = ["CHEEKPOUCH", "GLUTTONY"]
+raw_egg_moves = ["ROLLOUT", "DEFENSECURL", "LASTRESORT", "BELLYDRUM"]
+raw_tms = ["WORKUP", "CUT", "PROTECT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "FLING", "BRUTALSWING", "PAYBACK", "GYROBALL", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "DIG", "BULLETSEED", "MUDSHOT", "ASSURANCE", "CRUNCH", "TAILSLAP", "BODYSLAM", "AMNESIA", "ENDURE", "TRAILBLAZE"]
+raw_tutor_moves = ["COVET", "HYPERVOICE", "IRONTAIL", "LASTRESORT", "ROLLOUT", "SEEDBOMB", "SNORE", "SUPERFANG", "UPROAR", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5120
+height = 0.3
+weight = 2.5
+colour = "Brown"
+kind = "Cheeky"
+pokedex_entry = "It eats berries nonstop—a habit that has made it more resilient than it looks. It'll show up on farms, searching for yet more berries."
+battler_player_y = 21
+battler_enemy_y = 26
+battler_altitude = 0
+form_names = []
+internal_name = "SKWOVET"
+regional_numbers = 819
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TAILWHIP"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "STUFFCHEEKS"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "STOCKPILE"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "SWALLOW"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "SPITUP"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "BODYSLAM"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "REST"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "COUNTER"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "BULLETSEED"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "SUPERFANG"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "BELCH"
+
+[[evolutions]]
+into_name = "GREEDENT"
+condition = "Level"
+parameter = "24"
+
+[base_stats]
+hp = 70
+atk = 55
+def_ = 55
+spa = 35
+spd = 35
+spe = 25
+
+[ev_yield]
+hp = 1
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

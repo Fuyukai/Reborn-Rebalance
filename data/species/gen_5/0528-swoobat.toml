@@ -1,0 +1,112 @@
+name = "Swoobat"
+primary_type = "PSYCHIC"
+secondary_type = "FLYING"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 149
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["UNAWARE", "KLUTZ"]
+raw_egg_moves = []
+raw_tms = ["FLY", "PSYSHOCK", "CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "TAUNT", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "SAFEGUARD", "FRUSTRATION", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "STEELWING", "ENERGYBALL", "CHARGEBEAM", "ACROBATICS", "EMBARGO", "GIGAIMPACT", "THUNDERWAVE", "GYROBALL", "PSYCHUP", "DREAMEATER", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "CONFIDE", "CHARM", "IMPRISON", "FAKETEARS", "ASSURANCE", "SPEEDSWAP", "PSYCHICFANGS", "PSYCHOCUT", "AIRSLASH", "AMNESIA", "ENDURE", "BATONPASS", "FUTURESIGHT", "NASTYPLOT", "STOREDPOWER", "VENOMDRENCH", "SWIFT"]
+raw_tutor_moves = ["AFTERYOU", "AIRCUTTER", "ALLYSWITCH", "DEFOG", "ENDEAVOR", "GIGADRAIN", "HEATWAVE", "HELPINGHAND", "KNOCKOFF", "LASERFOCUS", "MAGICCOAT", "SHOCKWAVE", "SIGNALBEAM", "SKILLSWAP", "SKYATTACK", "SNORE", "SUPERFANG", "TAILWIND", "TELEKINESIS", "TRICK", "UPROAR", "ZENHEADBUTT", "DUALWINGBEAT", "EXPANDINGFORCE", "ESPERWING", "MIMIC"]
+compatible_egg_groups = ["Flying", "Field"]
+steps_to_hatch = 5120
+height = 0.9
+weight = 10.5
+colour = "Blue"
+kind = "Courting"
+pokedex_entry = "Anyone who comes into contact with the ultrasonic waves emitted by a courting male experiences a positive mood shift."
+battler_player_y = 21
+battler_enemy_y = 18
+battler_altitude = 5
+evolutions = []
+form_names = []
+internal_name = "SWOOBAT"
+raw_hidden_ability = "SIMPLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CONFUSION"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ODORSLEUTH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GUST"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ASSURANCE"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "ODORSLEUTH"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "GUST"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "ASSURANCE"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "HEARTSTAMP"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "IMPRISON"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "AIRCUTTER"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "ATTRACT"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "AMNESIA"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "CALMMIND"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "AIRSLASH"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "FUTURESIGHT"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "PSYCHIC"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "ENDEAVOR"
+
+[base_stats]
+hp = 67
+atk = 57
+def_ = 55
+spa = 77
+spd = 55
+spe = 114
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 2
+
+[wild_items]

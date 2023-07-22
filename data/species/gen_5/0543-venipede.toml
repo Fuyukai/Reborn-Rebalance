@@ -1,0 +1,108 @@
+name = "Venipede"
+primary_type = "BUG"
+secondary_type = "POISON"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 52
+catch_rate = 255
+caught_happiness = 70
+raw_abilities = ["POISONPOINT", "SWARM"]
+raw_egg_moves = ["PINMISSILE", "ROCKCLIMB", "SPIKES", "TAKEDOWN", "TOXICSPIKES", "TWINEEDLE", "MORTALSPIN"]
+raw_tms = ["TOXIC", "ROCKSMASH", "VENOSHOCK", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "SLUDGEBOMB", "FACADE", "REST", "ATTRACT", "ROUND", "PAYBACK", "GYROBALL", "STRUGGLEBUG", "INFESTATION", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "PINMISSILE", "SCREECH", "HEX", "AGILITY", "SPIKES", "ENDURE", "TOXICSPIKES", "VENOMDRENCH"]
+raw_tutor_moves = ["BUGBITE", "ENDEAVOR", "IRONDEFENSE", "SIGNALBEAM", "SNORE", "SKITTERSMACK", "STEELROLLER", "MIMIC", "POISONTAIL"]
+compatible_egg_groups = ["Bug"]
+steps_to_hatch = 3840
+height = 0.4
+weight = 5.3
+colour = "Red"
+kind = "Centipede"
+pokedex_entry = "It discovers what is going on around it by using the feelers on its head and tail. It is brutally aggresive."
+battler_player_y = 33
+battler_enemy_y = 35
+battler_altitude = 0
+form_names = []
+internal_name = "VENIPEDE"
+raw_hidden_ability = "SPEEDBOOST"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DEFENSECURL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ROLLOUT"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "POISONSTING"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "SCREECH"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "PURSUIT"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "PROTECT"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "POISONTAIL"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "BUGBITE"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "VENOSHOCK"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "STEAMROLLER"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "TOXIC"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "VENOMDRENCH"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "ROCKCLIMB"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "DOUBLEEDGE"
+
+[[evolutions]]
+into_name = "WHIRLIPEDE"
+condition = "Level"
+parameter = "22"
+
+[base_stats]
+hp = 30
+atk = 45
+def_ = 59
+spa = 30
+spd = 39
+spe = 57
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 1
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

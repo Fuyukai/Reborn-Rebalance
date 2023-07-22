@@ -1,0 +1,117 @@
+name = "Sandile"
+primary_type = "GROUND"
+secondary_type = "DARK"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 58
+catch_rate = 180
+caught_happiness = 70
+raw_abilities = ["INTIMIDATE", "MOXIE"]
+raw_egg_moves = ["BEATUP", "COUNTER", "DOUBLEEDGE", "FIREFANG", "FOCUSENERGY", "MEFIRST", "MEANLOOK", "POWERTRIP", "PURSUIT", "ROCKCLIMB", "THUNDERFANG", "UPROAR"]
+raw_tms = ["CUT", "ROAR", "TOXIC", "ROCKCLIMB", "HIDDENPOWER", "TAUNT", "PROTECT", "FRUSTRATION", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "SLUDGEBOMB", "SANDSTORM", "ROCKTOMB", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "EMBARGO", "PAYBACK", "STONEEDGE", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "SNARL", "DARKPULSE", "CONFIDE", "DIG", "SCARYFACE", "BEATUP", "SANDTOMB", "ASSURANCE", "THUNDERFANG", "FIREFANG", "CRUNCH", "HYDROPUMP", "FOCUSENERGY", "ENDURE", "RETALIATE"]
+raw_tutor_moves = ["AQUATAIL", "EARTHPOWER", "FOULPLAY", "IRONTAIL", "SNATCH", "SNORE", "SPITE", "STEALTHROCK", "UPROAR", "SCORCHINGSANDS", "SKITTERSMACK", "LASHOUT", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5120
+height = 0.7
+weight = 15.2
+colour = "Brown"
+kind = "Desert Croc"
+pokedex_entry = "It moves along below the sand's surface, except for its nose and eyes. A dark membrane shields its eyes from the sun."
+battler_player_y = 35
+battler_enemy_y = 41
+battler_altitude = 0
+form_names = []
+internal_name = "SANDILE"
+raw_hidden_ability = "ANGERPOINT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "RAGE"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "SANDATTACK"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "TORMENT"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "SANDTOMB"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "ASSURANCE"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "MUDSLAP"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "EMBARGO"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "SWAGGER"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "DIG"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "SCARYFACE"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "FOULPLAY"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "SANDSTORM"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "EARTHQUAKE"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "THRASH"
+
+[[evolutions]]
+into_name = "KROKOROK"
+condition = "Level"
+parameter = "29"
+
+[base_stats]
+hp = 50
+atk = 72
+def_ = 35
+spa = 35
+spd = 35
+spe = 65
+
+[ev_yield]
+hp = 0
+atk = 1
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "BLACKGLASSES"

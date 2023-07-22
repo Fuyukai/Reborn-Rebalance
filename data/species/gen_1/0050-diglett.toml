@@ -1,0 +1,106 @@
+name = "Diglett"
+primary_type = "GROUND"
+secondary_type = "GROUND"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 53
+catch_rate = 255
+caught_happiness = 70
+raw_abilities = ["SANDVEIL", "ARENATRAP"]
+raw_egg_moves = ["ANCIENTPOWER", "ASTONISH", "BEATUP", "ENDURE", "FEINTATTACK", "FINALGAMBIT", "HEADBUTT", "MEMENTO", "MUDBOMB", "PURSUIT", "REVERSAL", "SCREECH", "UPROAR", "HONECLAWS"]
+raw_tms = ["WORKUP", "CUT", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "FRUSTRATION", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "SLUDGEBOMB", "SANDSTORM", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "SHADOWCLAW", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "CONFIDE", "DIG", "SCREECH", "BEATUP", "ASSURANCE", "BODYSLAM", "AGILITY", "REVERSAL", "ENDURE"]
+raw_tutor_moves = ["ALLYSWITCH", "ANCIENTPOWER", "EARTHPOWER", "IRONDEFENSE", "IRONHEAD", "MUDSLAP", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "SUCKERPUNCH", "UPROAR", "SCORCHINGSANDS", "STEELBEAM", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5355
+height = 0.2
+weight = 0.8
+colour = "Brown"
+kind = "Mole"
+pokedex_entry = "Diglett are raised in most farms. The reason is simple-- wherever they burrow, the soil is left perfectly tilled for growing delicious crops."
+battler_player_y = 32
+battler_enemy_y = 28
+battler_altitude = 0
+form_names = ["Normal", "Alternate"]
+internal_name = "DIGLETT"
+raw_hidden_ability = "SANDFORCE"
+habitat = "Cave"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SCRATCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SANDATTACK"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "ASTONISH"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "MUDSLAP"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "MAGNITUDE"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "BULLDOZE"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "SUCKERPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "MUDBOMB"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "EARTHPOWER"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "DIG"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "SLASH"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "EARTHQUAKE"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "FISSURE"
+
+[[evolutions]]
+into_name = "DUGTRIO"
+condition = "Level"
+parameter = "26"
+
+[base_stats]
+hp = 10
+atk = 55
+def_ = 25
+spa = 35
+spd = 45
+spe = 95
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 1
+
+[wild_items]
+uncommon = "SOFTSAND"

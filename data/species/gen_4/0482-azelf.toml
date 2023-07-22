@@ -1,0 +1,99 @@
+name = "Azelf"
+primary_type = "PSYCHIC"
+secondary_type = "PSYCHIC"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 261
+catch_rate = 3
+caught_happiness = 140
+raw_abilities = ["LEVITATE"]
+raw_egg_moves = []
+raw_tms = ["PSYSHOCK", "CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "SANDSTORM", "FIREBLAST", "TORMENT", "FACADE", "REST", "ROUND", "ENERGYBALL", "FLING", "CHARGEBEAM", "ACROBATICS", "EXPLOSION", "PAYBACK", "GIGAIMPACT", "THUNDERWAVE", "PSYCHUP", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "POWERUPPUNCH", "DAZZLINGGLEAM", "CONFIDE", "SELFDESTRUCT", "IMPRISON", "ASSURANCE", "PSYCHOCUT", "DRAININGKISS", "METRONOME", "TRIATTACK", "ENDURE", "BATONPASS", "ENCORE", "FUTURESIGHT", "NASTYPLOT", "STOREDPOWER", "PLAYROUGH", "SWIFT"]
+raw_tutor_moves = ["ALLYSWITCH", "DRAINPUNCH", "FIREPUNCH", "HEADBUTT", "HELPINGHAND", "ICEPUNCH", "IRONTAIL", "KNOCKOFF", "LASERFOCUS", "LASTRESORT", "MAGICCOAT", "MAGICROOM", "MUDSLAP", "RECYCLE", "ROLEPLAY", "SHOCKWAVE", "SIGNALBEAM", "SKILLSWAP", "SNORE", "STEALTHROCK", "TELEKINESIS", "THUNDERPUNCH", "TRICK", "UPROAR", "WATERPULSE", "WONDERROOM", "ZENHEADBUTT", "EXPANDINGFORCE", "MYSTICALPOWER", "POWERSHIFT", "MIMIC"]
+compatible_egg_groups = ["Undiscovered"]
+steps_to_hatch = 20655
+height = 0.3
+weight = 0.3
+colour = "Blue"
+kind = "Willpower"
+pokedex_entry = "Known as “The Being of Willpower.” It sleeps at the bottom of a lake to keep the world in balance."
+battler_player_y = 28
+battler_enemy_y = 27
+battler_altitude = 20
+evolutions = []
+form_names = []
+internal_name = "AZELF"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "NATURALGIFT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LASTRESORT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "REST"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CONFUSION"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "IMPRISON"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "DETECT"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "SWIFT"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "UPROAR"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "FUTURESIGHT"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "NASTYPLOT"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "EXTRASENSORY"
+
+[[raw_level_up_moves]]
+at_level = "61"
+name = "MYSTICALPOWER"
+
+[[raw_level_up_moves]]
+at_level = "66"
+name = "NATURALGIFT"
+
+[[raw_level_up_moves]]
+at_level = "76"
+name = "EXPLOSION"
+
+[base_stats]
+hp = 75
+atk = 125
+def_ = 70
+spa = 125
+spd = 70
+spe = 115
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 0
+spa = 1
+spd = 0
+spe = 0
+
+[wild_items]

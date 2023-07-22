@@ -1,0 +1,110 @@
+name = "Skarmory"
+primary_type = "STEEL"
+secondary_type = "FLYING"
+gender_ratio = "Female50Percent"
+growth_rate = "Slow"
+exp_yield = 163
+catch_rate = 25
+caught_happiness = 70
+raw_abilities = ["KEENEYE", "STURDY"]
+raw_egg_moves = ["ASSURANCE", "BRAVEBIRD", "CURSE", "DRILLPECK", "ENDURE", "GUARDSWAP", "PURSUIT", "SKYATTACK", "STEALTHROCK", "WHIRLWIND"]
+raw_tms = ["CUT", "FLY", "ROAR", "TOXIC", "ROCKSMASH", "FLASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "PROTECT", "ROOST", "ROOST", "FRUSTRATION", "RETURN", "DOUBLETEAM", "SANDSTORM", "ROCKTOMB", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "STEELWING", "SKYDROP", "PAYBACK", "SWORDSDANCE", "ROCKSLIDE", "XSCISSOR", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "DARKPULSE", "CONFIDE", "SANDTOMB", "ASSURANCE", "GUARDSWAP", "AIRSLASH", "BRAVEBIRD", "AGILITY", "SPIKES", "ENDURE", "BODYPRESS", "SWIFT"]
+raw_tutor_moves = ["AIRCUTTER", "DEFOG", "FURYCUTTER", "ICYWIND", "IRONDEFENSE", "IRONHEAD", "MUDSLAP", "OMINOUSWIND", "SKYATTACK", "SNORE", "STEALTHROCK", "TAILWIND", "TWISTER", "DUALWINGBEAT", "STEELBEAM", "MIMIC"]
+compatible_egg_groups = ["Flying"]
+steps_to_hatch = 6630
+height = 1.7
+weight = 50.5
+colour = "Gray"
+kind = "Armor Bird"
+pokedex_entry = "A Pokémon that has a body and wings of steel. People in the past used feathers fallen from Skarmory to make swords and knives."
+battler_player_y = 14
+battler_enemy_y = 8
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "SKARMORY"
+raw_hidden_ability = "WEAKARMOR"
+habitat = "RoughTerrain"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PECK"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "SANDATTACK"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "METALCLAW"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "AIRCUTTER"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "FURYATTACK"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "FEINT"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "SWIFT"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "SPIKES"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "STEELWING"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "SLASH"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "METALSOUND"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "AIRSLASH"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "AUTOTOMIZE"
+
+[[raw_level_up_moves]]
+at_level = "53"
+name = "NIGHTSLASH"
+
+[base_stats]
+hp = 65
+atk = 80
+def_ = 140
+spa = 40
+spd = 70
+spe = 70
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 2
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "METALCOAT"

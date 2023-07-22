@@ -1,0 +1,92 @@
+name = "Raboot"
+primary_type = "FIRE"
+secondary_type = "FIRE"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+exp_yield = 147
+catch_rate = 45
+caught_happiness = 50
+raw_abilities = ["BLAZE", "LIBERO"]
+raw_egg_moves = ["HIJUMPKICK", "SANDATTACK", "SUCKERPUNCH", "SUPERFANG"]
+raw_tms = ["WORKUP", "BULKUP", "SUNNYDAY", "TAUNT", "PROTECT", "FLAMETHROWER", "FIREBLAST", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "LOWSWEEP", "ROUND", "OVERHEAT", "ACROBATICS", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "MEGAKICK", "MUDSHOT", "ASSURANCE", "FIREFANG", "FLAREBLITZ", "AGILITY", "FOCUSENERGY", "REVERSAL", "ENDURE", "BATONPASS", "BLAZEKICK", "ELECTROBALL", "PLAYROUGH", "TRAILBLAZE", "SWIFT"]
+raw_tutor_moves = ["ALLYSWITCH", "BOUNCE", "FIREPLEDGE", "GUNKSHOT", "HEADBUTT", "HEATWAVE", "LOWKICK", "SNORE", "SUCKERPUNCH", "SUPERFANG", "MIMIC"]
+compatible_egg_groups = ["Field", "Humanlike"]
+steps_to_hatch = 5120
+height = 0.6
+weight = 9.0
+colour = "White"
+kind = "Rabbit"
+pokedex_entry = "It kicks berries right off the branches of trees and then juggles them with its feet, practicing its footwork."
+battler_player_y = 21
+battler_enemy_y = 12
+battler_altitude = 0
+form_names = []
+internal_name = "RABOOT"
+regional_numbers = 814
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "EMBER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "DOUBLEKICK"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "FLAMECHARGE"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "HEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "COUNTER"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "BOUNCE"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "DOUBLEEDGE"
+
+[[evolutions]]
+into_name = "CINDERACE"
+condition = "Level"
+parameter = "35"
+
+[base_stats]
+hp = 65
+atk = 86
+def_ = 60
+spa = 55
+spd = 60
+spe = 94
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 2
+
+[wild_items]

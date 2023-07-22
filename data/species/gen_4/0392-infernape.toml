@@ -1,0 +1,111 @@
+name = "Infernape"
+primary_type = "FIRE"
+secondary_type = "FIGHTING"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+exp_yield = 240
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["BLAZE", "IRONFIST"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "CUT", "CALMMIND", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "BULKUP", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "FRUSTRATION", "SOLARBEAM", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "FLAMETHROWER", "FIREBLAST", "ROCKTOMB", "AERIALACE", "TORMENT", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "LOWSWEEP", "ROUND", "OVERHEAT", "FOCUSBLAST", "FLING", "WILLOWISP", "ACROBATICS", "SHADOWCLAW", "GIGAIMPACT", "STONEEDGE", "SWORDSDANCE", "BULLDOZE", "ROCKSLIDE", "POISONJAB", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "FIRESPIN", "DIG", "FLAREBLITZ", "CLOSECOMBAT", "FOCUSENERGY", "ENDURE", "ENCORE", "BLAZEKICK", "NASTYPLOT", "RETALIATE", "SWIFT"]
+raw_tutor_moves = ["BLASTBURN", "COVET", "DUALCHOP", "ENDEAVOR", "FIREPLEDGE", "FIREPUNCH", "FOCUSPUNCH", "GUNKSHOT", "HEADBUTT", "HEATWAVE", "HELPINGHAND", "IRONTAIL", "LASERFOCUS", "LOWKICK", "MUDSLAP", "ROLEPLAY", "ROLLOUT", "SNORE", "STEALTHROCK", "THUNDERPUNCH", "VACUUMWAVE", "BURNINGJEALOUSY", "RAGINGFURY", "MIMIC"]
+compatible_egg_groups = ["Field", "Humanlike"]
+steps_to_hatch = 5355
+height = 1.2
+weight = 55.0
+colour = "Brown"
+kind = "Flame"
+pokedex_entry = "It uses a special kind of martial arts involving all its limbs. Its fire never goes out."
+battler_player_y = 14
+battler_enemy_y = 14
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "INFERNAPE"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "CLOSECOMBAT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MACHPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FLAREBLITZ"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SCRATCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "EMBER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TAUNT"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "EMBER"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "TAUNT"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "FURYSWIPES"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "FLAMEWHEEL"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "FEINT"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "PUNISHMENT"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "RAGINGFURY"
+
+[[raw_level_up_moves]]
+at_level = "52"
+name = "ACROBATICS"
+
+[[raw_level_up_moves]]
+at_level = "58"
+name = "CALMMIND"
+
+[[raw_level_up_moves]]
+at_level = "68"
+name = "FLAREBLITZ"
+
+[base_stats]
+hp = 76
+atk = 104
+def_ = 71
+spa = 104
+spd = 71
+spe = 108
+
+[ev_yield]
+hp = 0
+atk = 1
+def_ = 0
+spa = 1
+spd = 0
+spe = 1
+
+[wild_items]

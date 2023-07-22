@@ -1,0 +1,124 @@
+name = "Fraxure"
+primary_type = "DRAGON"
+secondary_type = "DRAGON"
+gender_ratio = "Female50Percent"
+growth_rate = "Slow"
+exp_yield = 144
+catch_rate = 60
+caught_happiness = 35
+raw_abilities = ["RIVALRY", "MOLDBREAKER"]
+raw_egg_moves = []
+raw_tms = ["CUT", "DRAGONCLAW", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "DOUBLETEAM", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "FALSESWIPE", "FLING", "SHADOWCLAW", "PAYBACK", "GIGAIMPACT", "SWORDSDANCE", "XSCISSOR", "DRAGONTAIL", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "SCARYFACE", "ASSURANCE", "CRUNCH", "BREAKINGSWIPE", "FOCUSENERGY", "REVERSAL", "ENDURE", "DRAGONDANCE", "TRAILBLAZE", "SWIFT"]
+raw_tutor_moves = ["AQUATAIL", "DRACOMETEOR", "DRAGONPULSE", "DUALCHOP", "ENDEAVOR", "IRONTAIL", "LOWKICK", "OUTRAGE", "SHOCKWAVE", "SNORE", "STOMPINGTANTRUM", "SUPERPOWER", "SCALESHOT", "MIMIC"]
+compatible_egg_groups = ["Monster", "Dragon"]
+steps_to_hatch = 10240
+height = 1.0
+weight = 36.0
+colour = "Green"
+kind = "Axe Jaw"
+pokedex_entry = "Their tusks can shatter rocks. Territory battles between Fraxure can be intensely violent."
+battler_player_y = 20
+battler_enemy_y = 25
+battler_altitude = 0
+form_names = []
+internal_name = "FRAXURE"
+raw_hidden_ability = "UNNERVE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SCRATCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ASSURANCE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DRAGONRAGE"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "ASSURANCE"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "DRAGONRAGE"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "DUALCHOP"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "SCARYFACE"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "SLASH"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "FALSESWIPE"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "DRAGONCLAW"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "DRAGONDANCE"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "TAUNT"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "DRAGONPULSE"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "SWORDSDANCE"
+
+[[raw_level_up_moves]]
+at_level = "54"
+name = "GUILLOTINE"
+
+[[raw_level_up_moves]]
+at_level = "60"
+name = "OUTRAGE"
+
+[[raw_level_up_moves]]
+at_level = "66"
+name = "GIGAIMPACT"
+
+[[evolutions]]
+into_name = "HAXORUS"
+condition = "Level"
+parameter = "48"
+
+[base_stats]
+hp = 66
+atk = 117
+def_ = 70
+spa = 40
+spd = 50
+spe = 67
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

@@ -1,0 +1,112 @@
+name = "Glaceon"
+primary_type = "ICE"
+secondary_type = "ICE"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Medium"
+exp_yield = 184
+catch_rate = 45
+caught_happiness = 35
+raw_abilities = ["SNOWCLOAK", "ICESCALES"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "CALMMIND", "STRENGTH", "ROAR", "TOXIC", "HAIL", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "SHADOWBALL", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "GIGAIMPACT", "AURORAVEIL", "FROSTBREATH", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "PAYDAY", "DIG", "CHARM", "WEATHERBALL", "FAKETEARS", "ICICLESPEAR", "AVALANCHE", "ICEFANG", "BODYSLAM", "FOCUSENERGY", "ENDURE", "BATONPASS", "STOREDPOWER", "RETALIATE", "SNOWSCAPE", "CHILLINGWATER", "SWIFT"]
+raw_tutor_moves = ["AQUATAIL", "COVET", "HEADBUTT", "HEALBELL", "HELPINGHAND", "HYPERVOICE", "ICYWIND", "IRONTAIL", "LASERFOCUS", "LASTRESORT", "MUDSLAP", "SIGNALBEAM", "SNORE", "WATERPULSE", "TRIPLEAXEL", "MIMIC", "CELEBRATE"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 9180
+height = 0.8
+weight = 25.9
+colour = "Blue"
+kind = "Fresh Snow"
+pokedex_entry = "As a protective technique, it can completely freeze its fur to make its hairs stand like needles."
+battler_player_y = 21
+battler_enemy_y = 16
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "GLACEON"
+raw_hidden_ability = "ICEBODY"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "ICYWIND"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "COPYCAT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HELPINGHAND"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TAILWHIP"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "SANDATTACK"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "BABYDOLLEYES"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "ICEFANG"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "ICESHARD"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "BARRIER"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "MIRRORCOAT"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "HAIL"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "FREEZEDRY"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "BLIZZARD"
+
+[[raw_level_up_moves]]
+at_level = "55"
+name = "LASTRESORT"
+
+[base_stats]
+hp = 65
+atk = 60
+def_ = 110
+spa = 130
+spd = 95
+spe = 65
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 2
+spd = 0
+spe = 0
+
+[wild_items]

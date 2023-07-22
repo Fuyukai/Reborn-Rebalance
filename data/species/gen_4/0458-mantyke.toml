@@ -1,0 +1,108 @@
+name = "Mantyke"
+primary_type = "WATER"
+secondary_type = "FLYING"
+gender_ratio = "Female50Percent"
+growth_rate = "Slow"
+exp_yield = 69
+catch_rate = 25
+caught_happiness = 70
+raw_abilities = ["SWIFTSWIM", "WATERABSORB"]
+raw_egg_moves = ["AMNESIA", "HAZE", "HYDROPUMP", "MIRRORCOAT", "MUDSPORT", "SIGNALBEAM", "SLAM", "SPLASH", "TAILWIND", "TWISTER", "WATERSPORT", "WIDEGUARD"]
+raw_tms = ["SURF", "WATERFALL", "TOXIC", "DIVE", "HAIL", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "SCALD", "ACROBATICS", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "WHIRLPOOL", "AIRSLASH", "HYDROPUMP", "AGILITY", "AMNESIA", "ENDURE", "SWIFT"]
+raw_tutor_moves = ["AIRCUTTER", "BOUNCE", "HEADBUTT", "HELPINGHAND", "ICYWIND", "MUDSLAP", "SIGNALBEAM", "SNORE", "TAILWIND", "WATERPULSE", "MIMIC"]
+compatible_egg_groups = ["Undiscovered"]
+steps_to_hatch = 6630
+height = 1.0
+weight = 65.0
+colour = "Blue"
+kind = "Kite"
+pokedex_entry = "A friendly Pokémon that captures the subtle flows of seawater using its two antennae."
+battler_player_y = 24
+battler_enemy_y = 21
+battler_altitude = 18
+form_names = []
+internal_name = "MANTYKE"
+raw_hidden_ability = "WATERVEIL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BUBBLE"
+
+[[raw_level_up_moves]]
+at_level = "3"
+name = "SUPERSONIC"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "BUBBLEBEAM"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "CONFUSERAY"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "WINGATTACK"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "HEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "WATERPULSE"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "WIDEGUARD"
+
+[[raw_level_up_moves]]
+at_level = "27"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "AIRSLASH"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "AQUARING"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "BOUNCE"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "HYDROPUMP"
+
+[[evolutions]]
+into_name = "MANTINE"
+condition = "HasInParty"
+parameter = "REMORAID"
+
+[base_stats]
+hp = 45
+atk = 20
+def_ = 50
+spa = 60
+spd = 120
+spe = 50
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 1
+spe = 0
+
+[wild_items]

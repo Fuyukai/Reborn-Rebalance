@@ -1,0 +1,73 @@
+name = "Roserade"
+primary_type = "GRASS"
+secondary_type = "POISON"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 232
+catch_rate = 75
+caught_happiness = 70
+raw_abilities = ["NATURALCURE", "POISONPOINT"]
+raw_egg_moves = []
+raw_tms = ["CUT", "TOXIC", "FLASH", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "SOLARBEAM", "RETURN", "SHADOWBALL", "DOUBLETEAM", "SLUDGEBOMB", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "GIGAIMPACT", "SWORDSDANCE", "PSYCHUP", "POISONJAB", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "DAZZLINGGLEAM", "CONFIDE", "PINMISSILE", "MAGICALLEAF", "WEATHERBALL", "BULLETSEED", "GRASSYTERRAIN", "BODYSLAM", "POWERWHIP", "LEAFSTORM", "SPIKES", "ENDURE", "TOXICSPIKES", "VENOMDRENCH", "SWIFT"]
+raw_tutor_moves = ["COVET", "FURYCUTTER", "GIGADRAIN", "LASERFOCUS", "MUDSLAP", "SEEDBOMB", "SNORE", "SYNTHESIS", "UPROAR", "WORRYSEED", "GRASSYGLIDE", "MIMIC"]
+compatible_egg_groups = ["Fairy", "Grass"]
+steps_to_hatch = 5355
+height = 0.9
+weight = 14.5
+colour = "Green"
+kind = "Bouquet"
+pokedex_entry = "It attracts prey with a sweet aroma, then downs it with thorny whips hidden in its arms."
+battler_player_y = 19
+battler_enemy_y = 13
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "ROSERADE"
+raw_hidden_ability = "TECHNICIAN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "VENOMDRENCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GRASSYTERRAIN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WEATHERBALL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POISONSTING"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MEGADRAIN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MAGICALLEAF"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SWEETSCENT"
+
+[base_stats]
+hp = 60
+atk = 70
+def_ = 65
+spa = 125
+spd = 105
+spe = 90
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 3
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "POISONBARB"

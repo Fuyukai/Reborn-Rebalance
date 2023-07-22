@@ -1,0 +1,118 @@
+name = "Torkoal"
+primary_type = "FIRE"
+secondary_type = "FIRE"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 165
+catch_rate = 90
+caught_happiness = 70
+raw_abilities = ["WHITESMOKE", "DROUGHT"]
+raw_egg_moves = ["CLEARSMOG", "ENDURE", "ERUPTION", "FISSURE", "FLAMEBURST", "SKULLBASH", "SLEEPTALK", "SUPERPOWER", "YAWN"]
+raw_tms = ["STRENGTH", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "FRUSTRATION", "SOLARBEAM", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "FLAMETHROWER", "SLUDGEBOMB", "FIREBLAST", "ROCKTOMB", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "ROUND", "OVERHEAT", "WILLOWISP", "EXPLOSION", "GIGAIMPACT", "STONEEDGE", "GYROBALL", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "FIRESPIN", "SELFDESTRUCT", "WEATHERBALL", "BODYSLAM", "AMNESIA", "ENDURE", "HEATCRASH", "BODYPRESS"]
+raw_tutor_moves = ["AFTERYOU", "ANCIENTPOWER", "EARTHPOWER", "HEADBUTT", "HEATWAVE", "IRONDEFENSE", "IRONTAIL", "MUDSLAP", "ROLLOUT", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "SUPERPOWER", "BURNINGJEALOUSY", "SCORCHINGSANDS", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5355
+height = 0.5
+weight = 80.4
+colour = "Brown"
+kind = "Coal"
+pokedex_entry = "It battles using energy it gets from burning coal. When loosing smoke from its nostrils, it lets off a sound that is similar to a locomotive's horn."
+battler_player_y = 16
+battler_enemy_y = 12
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "TORKOAL"
+raw_hidden_ability = "SHELLARMOR"
+habitat = "Mountain"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "EMBER"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "SMOG"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "WITHDRAW"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "RAPIDSPIN"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "FIRESPIN"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "SMOKESCREEN"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "FLAMEWHEEL"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "CURSE"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "LAVAPLUME"
+
+[[raw_level_up_moves]]
+at_level = "27"
+name = "BODYSLAM"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "PROTECT"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "FLAMETHROWER"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "IRONDEFENSE"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "AMNESIA"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "FLAIL"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "HEATWAVE"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "SHELLSMASH"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "INFERNO"
+
+[base_stats]
+hp = 70
+atk = 85
+def_ = 140
+spa = 85
+spd = 70
+spe = 20
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 2
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "CHARCOAL"

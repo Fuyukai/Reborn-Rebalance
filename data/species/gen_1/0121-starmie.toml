@@ -1,0 +1,79 @@
+name = "Starmie"
+primary_type = "WATER"
+secondary_type = "PSYCHIC"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 182
+catch_rate = 60
+caught_happiness = 70
+raw_abilities = ["ILLUMINATE", "NATURALCURE"]
+raw_egg_moves = []
+raw_tms = ["PSYSHOCK", "SURF", "WATERFALL", "TOXIC", "DIVE", "HAIL", "FLASH", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "PSYCHIC", "DOUBLETEAM", "REFLECT", "FACADE", "REST", "ROUND", "SCALD", "GIGAIMPACT", "THUNDERWAVE", "GYROBALL", "PSYCHUP", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "TRICKROOM", "SECRETPOWER", "DAZZLINGGLEAM", "CONFIDE", "WHIRLPOOL", "BRINE", "AVALANCHE", "PSYCHOCUT", "HYDROPUMP", "AGILITY", "TRIATTACK", "ENDURE", "COSMICPOWER", "POWERGEM", "SWIFT"]
+raw_tutor_moves = ["ALLYSWITCH", "GRAVITY", "ICYWIND", "MAGICCOAT", "PAINSPLIT", "RECYCLE", "ROLLOUT", "SIGNALBEAM", "SKILLSWAP", "SNORE", "TELEKINESIS", "TRICK", "TWISTER", "WATERPULSE", "WONDERROOM", "FLIPTURN", "METEORBEAM", "EXPANDINGFORCE", "MIMIC"]
+compatible_egg_groups = ["Water3"]
+steps_to_hatch = 5355
+height = 1.1
+weight = 80.0
+colour = "Purple"
+kind = "Mysterious"
+pokedex_entry = "People in ancient times imagined that Starmie were transformed from the reflections of stars that twinkled on gentle waves at night."
+battler_player_y = 21
+battler_enemy_y = 17
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "STARMIE"
+raw_hidden_ability = "ANALYTIC"
+habitat = "Sea"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HYDROPUMP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SPOTLIGHT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WATERGUN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "RAPIDSPIN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "RECOVER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SWIFT"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "CONFUSERAY"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "LUMINACRASH"
+
+[base_stats]
+hp = 60
+atk = 75
+def_ = 85
+spa = 100
+spd = 85
+spe = 115
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 2
+
+[wild_items]
+common = "STARDUST"
+uncommon = "STARPIECE"

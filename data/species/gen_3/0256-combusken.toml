@@ -1,0 +1,112 @@
+name = "Combusken"
+primary_type = "FIRE"
+secondary_type = "FIGHTING"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+exp_yield = 142
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["BLAZE", "SPEEDBOOST"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "CUT", "STRENGTH", "TOXIC", "ROCKSMASH", "BULKUP", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "FRUSTRATION", "RETURN", "BRICKBREAK", "DOUBLETEAM", "FLAMETHROWER", "FIREBLAST", "ROCKTOMB", "AERIALACE", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "LOWSWEEP", "ROUND", "ECHOEDVOICE", "OVERHEAT", "FOCUSBLAST", "FLING", "WILLOWISP", "SHADOWCLAW", "SWORDSDANCE", "ROCKSLIDE", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "FIRESPIN", "DIG", "REVENGE", "ASSURANCE", "BODYSLAM", "FLAREBLITZ", "AGILITY", "FOCUSENERGY", "REVERSAL", "ENDURE", "BATONPASS", "SWIFT"]
+raw_tutor_moves = ["BOUNCE", "DEFOG", "DUALCHOP", "FIREPLEDGE", "FIREPUNCH", "FOCUSPUNCH", "FURYCUTTER", "HEADBUTT", "HEATWAVE", "HELPINGHAND", "LASTRESORT", "LOWKICK", "MUDSLAP", "SNORE", "THUNDERPUNCH", "VACUUMWAVE", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5355
+height = 0.9
+weight = 19.5
+colour = "Red"
+kind = "Young Fowl"
+pokedex_entry = "It lashes out with 10 kicks per second. Its strong fighting instinct compels it to keep up its offensive until the opponent gives up."
+battler_player_y = 15
+battler_enemy_y = 11
+battler_altitude = 0
+form_names = []
+internal_name = "COMBUSKEN"
+habitat = "Grassland"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "DOUBLEKICK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SCRATCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "EMBER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SANDATTACK"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "EMBER"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "SANDATTACK"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "PECK"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "FLAMECHARGE"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "BULKUP"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "FOCUSENERGY"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "SLASH"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "MIRRORMOVE"
+
+[[raw_level_up_moves]]
+at_level = "53"
+name = "SKYUPPERCUT"
+
+[[raw_level_up_moves]]
+at_level = "58"
+name = "FLAREBLITZ"
+
+[[evolutions]]
+into_name = "BLAZIKEN"
+condition = "Level"
+parameter = "36"
+
+[base_stats]
+hp = 60
+atk = 85
+def_ = 60
+spa = 85
+spd = 60
+spe = 55
+
+[ev_yield]
+hp = 0
+atk = 1
+def_ = 0
+spa = 1
+spd = 0
+spe = 0
+
+[wild_items]

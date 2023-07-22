@@ -1,0 +1,111 @@
+name = "Keldeo"
+primary_type = "WATER"
+secondary_type = "FIGHTING"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 261
+catch_rate = 3
+caught_happiness = 35
+raw_abilities = ["JUSTIFIED"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "CUT", "SURF", "CALMMIND", "STRENGTH", "ROAR", "TOXIC", "HAIL", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "RETURN", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "AERIALACE", "FACADE", "REST", "ROUND", "FOCUSBLAST", "FALSESWIPE", "SCALD", "SMARTSTRIKE", "GIGAIMPACT", "STONEEDGE", "SWORDSDANCE", "PSYCHUP", "XSCISSOR", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "REVENGE", "AIRSLASH", "HYDROPUMP", "MEGAHORN", "CLOSECOMBAT", "REVERSAL", "ENDURE", "MUDDYWATER", "AURASPHERE", "RETALIATE", "SWIFT"]
+raw_tutor_moves = ["AQUATAIL", "BOUNCE", "COVET", "ENDEAVOR", "HELPINGHAND", "ICYWIND", "LASTRESORT", "LIQUIDATION", "LOWKICK", "SECRETSWORD", "SNORE", "SUPERPOWER", "WATERPULSE", "FLIPTURN", "COACHING", "MIMIC"]
+compatible_egg_groups = ["Undiscovered"]
+steps_to_hatch = 20480
+height = 1.4
+weight = 48.5
+colour = "Yellow"
+kind = "Colt"
+pokedex_entry = "It crosses the world, running over the surfaces of oceans and rivers. It appears at scenic waterfronts."
+battler_player_y = 18
+battler_enemy_y = 23
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "KELDEO"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SECRETSWORD"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "AQUAJET"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DOUBLEKICK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BUBBLEBEAM"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "DOUBLEKICK"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "BUBBLEBEAM"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "HELPINGHAND"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "RETALIATE"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "AQUATAIL"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "SACREDSWORD"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "SWORDSDANCE"
+
+[[raw_level_up_moves]]
+at_level = "55"
+name = "QUICKGUARD"
+
+[[raw_level_up_moves]]
+at_level = "61"
+name = "WORKUP"
+
+[[raw_level_up_moves]]
+at_level = "67"
+name = "HYDROPUMP"
+
+[[raw_level_up_moves]]
+at_level = "73"
+name = "CLOSECOMBAT"
+
+[base_stats]
+hp = 91
+atk = 72
+def_ = 90
+spa = 129
+spd = 90
+spe = 108
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 3
+spd = 0
+spe = 0
+
+[wild_items]

@@ -1,0 +1,104 @@
+name = "Oranguru"
+primary_type = "NORMAL"
+secondary_type = "PSYCHIC"
+gender_ratio = "Female50Percent"
+growth_rate = "Slow"
+exp_yield = 172
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["INNERFOCUS", "TELEPATHY"]
+raw_egg_moves = ["EXTRASENSORY", "PSYCHICTERRAIN", "WONDERROOM"]
+raw_tms = ["WORKUP", "PSYSHOCK", "CALMMIND", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "PSYCHIC", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "FACADE", "REST", "ROUND", "FOCUSBLAST", "ENERGYBALL", "FLING", "CHARGEBEAM", "BRUTALSWING", "QUASH", "EMBARGO", "PAYBACK", "GIGAIMPACT", "PSYCHUP", "BULLDOZE", "ROCKSLIDE", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "IMPRISON", "PSYCHICTERRAIN", "ENDURE", "ENCORE", "FUTURESIGHT", "NASTYPLOT", "STOREDPOWER", "TRAILBLAZE", "CHILLINGWATER"]
+raw_tutor_moves = ["AFTERYOU", "ALLYSWITCH", "BLOCK", "COVET", "FOULPLAY", "GRAVITY", "KNOCKOFF", "MAGICCOAT", "MAGICROOM", "PAINSPLIT", "SNATCH", "SNORE", "SPITE", "TELEKINESIS", "TRICK", "WONDERROOM", "ZENHEADBUTT", "TERRAINPULSE", "EXPANDINGFORCE", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5120
+height = 1.5
+weight = 76.0
+colour = "White"
+kind = "Sage"
+pokedex_entry = "Deep in the jungle, high in the lofty canopy, this Pokémon abides. On rare occasions, it shows up at the beach to match wits with Slowking."
+battler_player_y = 16
+battler_enemy_y = 25
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "ORANGURU"
+raw_hidden_ability = "SYMBIOSIS"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CONFUSION"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "AFTERYOU"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "TAUNT"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "QUASH"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "STOREDPOWER"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "PSYCHUP"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "FEINTATTACK"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "NASTYPLOT"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "ZENHEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "INSTRUCT"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "FOULPLAY"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "CALMMIND"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "PSYCHIC"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "FUTURESIGHT"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "TRICKROOM"
+
+[base_stats]
+hp = 90
+atk = 60
+def_ = 80
+spa = 90
+spd = 110
+spe = 60
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 2
+spe = 0
+
+[wild_items]

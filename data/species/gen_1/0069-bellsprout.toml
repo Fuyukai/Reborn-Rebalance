@@ -1,0 +1,104 @@
+name = "Bellsprout"
+primary_type = "GRASS"
+secondary_type = "POISON"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 60
+catch_rate = 255
+caught_happiness = 70
+raw_abilities = ["CHLOROPHYLL", "GLUTTONY"]
+raw_egg_moves = ["ACIDSPRAY", "BELCH", "BULLETSEED", "CLEARSMOG", "ENCORE", "GIGADRAIN", "INGRAIN", "LEECHLIFE", "MAGICALLEAF", "NATURALGIFT", "POWERWHIP", "STRENGTHSAP", "SYNTHESIS", "TICKLE", "WEATHERBALL", "WORRYSEED"]
+raw_tms = ["CUT", "TOXIC", "FLASH", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "FRUSTRATION", "SOLARBEAM", "RETURN", "LEECHLIFE", "DOUBLETEAM", "REFLECT", "SLUDGEBOMB", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ENERGYBALL", "SWORDSDANCE", "INFESTATION", "POISONJAB", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "MAGICALLEAF", "WEATHERBALL", "BULLETSEED", "POWERWHIP", "ENDURE", "ENCORE"]
+raw_tutor_moves = ["BIND", "GASTROACID", "GIGADRAIN", "KNOCKOFF", "SEEDBOMB", "SNORE", "SUCKERPUNCH", "SYNTHESIS", "WORRYSEED", "GRASSYGLIDE", "MIMIC"]
+compatible_egg_groups = ["Grass"]
+steps_to_hatch = 5355
+height = 0.7
+weight = 4.0
+colour = "Green"
+kind = "Flower"
+pokedex_entry = "A Bellsprout's thin and flexible body lets it bend and sway to avoid any attack, however strong it may be. Its mouth leaks a fluid that melts even iron."
+battler_player_y = 25
+battler_enemy_y = 23
+battler_altitude = 0
+form_names = []
+internal_name = "BELLSPROUT"
+habitat = "Forest"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "VINEWHIP"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "GROWTH"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "WRAP"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "SLEEPPOWDER"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "POISONPOWDER"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "STUNSPORE"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "ACID"
+
+[[raw_level_up_moves]]
+at_level = "27"
+name = "KNOCKOFF"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "SWEETSCENT"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "GASTROACID"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "RAZORLEAF"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "POISONJAB"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "SLAM"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "WRINGOUT"
+
+[[evolutions]]
+into_name = "WEEPINBELL"
+condition = "Level"
+parameter = "21"
+
+[base_stats]
+hp = 50
+atk = 75
+def_ = 35
+spa = 70
+spd = 30
+spe = 40
+
+[ev_yield]
+hp = 0
+atk = 1
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

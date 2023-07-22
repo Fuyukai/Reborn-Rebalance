@@ -1,0 +1,112 @@
+name = "Bayleef"
+primary_type = "GRASS"
+secondary_type = "GRASS"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+exp_yield = 142
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["OVERGROW", "LEAFGUARD"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "CUT", "STRENGTH", "TOXIC", "ROCKSMASH", "FLASH", "HIDDENPOWER", "SUNNYDAY", "LIGHTSCREEN", "PROTECT", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "REFLECT", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "ENERGYBALL", "SWORDSDANCE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "MAGICALLEAF", "SOLARBLADE", "BULLETSEED", "GRASSYTERRAIN", "BODYSLAM", "LEAFSTORM", "ENDURE", "POLLENPUFF"]
+raw_tutor_moves = ["ANCIENTPOWER", "FURYCUTTER", "GIGADRAIN", "GRASSPLEDGE", "HEADBUTT", "IRONTAIL", "LASERFOCUS", "MAGICCOAT", "MUDSLAP", "SEEDBOMB", "SNORE", "SYNTHESIS", "WORRYSEED", "MIMIC"]
+compatible_egg_groups = ["Monster", "Grass"]
+steps_to_hatch = 5355
+height = 1.2
+weight = 15.8
+colour = "Green"
+kind = "Leaf"
+pokedex_entry = "A Bayleef's neck is ringed by curled-up leaves. Inside each leaf is a small tree shoot. The fragrance of this shoot makes people peppy."
+battler_player_y = 20
+battler_enemy_y = 12
+battler_altitude = 0
+form_names = []
+internal_name = "BAYLEEF"
+habitat = "Grassland"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "RAZORLEAF"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POISONPOWDER"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "RAZORLEAF"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "POISONPOWDER"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "SYNTHESIS"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "REFLECT"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "MAGICALLEAF"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "NATURALGIFT"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "SWEETSCENT"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "LIGHTSCREEN"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "BODYSLAM"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "SAFEGUARD"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "AROMATHERAPY"
+
+[[raw_level_up_moves]]
+at_level = "54"
+name = "SOLARBEAM"
+
+[[evolutions]]
+into_name = "MEGANIUM"
+condition = "Level"
+parameter = "32"
+
+[base_stats]
+hp = 60
+atk = 62
+def_ = 80
+spa = 63
+spd = 80
+spe = 60
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 1
+spa = 0
+spd = 1
+spe = 0
+
+[wild_items]

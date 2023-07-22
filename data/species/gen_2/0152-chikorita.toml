@@ -1,0 +1,104 @@
+name = "Chikorita"
+primary_type = "GRASS"
+secondary_type = "GRASS"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+exp_yield = 64
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["OVERGROW", "LEAFGUARD"]
+raw_egg_moves = ["ANCIENTPOWER", "AROMATHERAPY", "BODYSLAM", "COUNTER", "FLAIL", "GRASSWHISTLE", "GRASSYTERRAIN", "HEALPULSE", "INGRAIN", "LEAFSTORM", "LEECHSEED", "NATUREPOWER", "REFRESH", "VINEWHIP", "WRINGOUT"]
+raw_tms = ["WORKUP", "CUT", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "LIGHTSCREEN", "PROTECT", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "REFLECT", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "ENERGYBALL", "SWORDSDANCE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "MAGICALLEAF", "SOLARBLADE", "BULLETSEED", "GRASSYTERRAIN", "BODYSLAM", "LEAFSTORM", "ENDURE", "POLLENPUFF"]
+raw_tutor_moves = ["ANCIENTPOWER", "FURYCUTTER", "GIGADRAIN", "GRASSPLEDGE", "HEADBUTT", "IRONTAIL", "MAGICCOAT", "MUDSLAP", "SEEDBOMB", "SNORE", "SYNTHESIS", "WORRYSEED", "MIMIC"]
+compatible_egg_groups = ["Monster", "Grass"]
+steps_to_hatch = 5355
+height = 0.9
+weight = 6.4
+colour = "Green"
+kind = "Leaf"
+pokedex_entry = "It waves its leaf around to keep foes at bay. However, a sweet fragrance also wafts from the leaf, creating a friendly atmosphere that becalms the battlers."
+battler_player_y = 25
+battler_enemy_y = 20
+battler_altitude = 0
+form_names = []
+internal_name = "CHIKORITA"
+habitat = "Grassland"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "RAZORLEAF"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "POISONPOWDER"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "SYNTHESIS"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "REFLECT"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "MAGICALLEAF"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "NATURALGIFT"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "SWEETSCENT"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "LIGHTSCREEN"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "BODYSLAM"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "SAFEGUARD"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "AROMATHERAPY"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "SOLARBEAM"
+
+[[evolutions]]
+into_name = "BAYLEEF"
+condition = "Level"
+parameter = "16"
+
+[base_stats]
+hp = 45
+atk = 49
+def_ = 65
+spa = 49
+spd = 65
+spe = 45
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 1
+spe = 0
+
+[wild_items]

@@ -1,0 +1,128 @@
+name = "Accelgor"
+primary_type = "BUG"
+secondary_type = "BUG"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 173
+catch_rate = 75
+caught_happiness = 70
+raw_abilities = ["HYDRATION", "STICKYHOLD"]
+raw_egg_moves = []
+raw_tms = ["TOXIC", "VENOSHOCK", "HIDDENPOWER", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "LEECHLIFE", "DOUBLETEAM", "SLUDGEBOMB", "SANDSTORM", "FACADE", "REST", "ATTRACT", "ROUND", "FOCUSBLAST", "ENERGYBALL", "GIGAIMPACT", "STRUGGLEBUG", "INFESTATION", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "MUDSHOT", "POWERSWAP", "GUARDSWAP", "BODYSLAM", "AGILITY", "REVERSAL", "SPIKES", "ENDURE", "BATONPASS", "ENCORE", "TOXICSPIKES", "BUGBUZZ", "VENOMDRENCH", "SWIFT"]
+raw_tutor_moves = ["BUGBITE", "DRAINPUNCH", "GASTROACID", "GIGADRAIN", "KNOCKOFF", "LASERFOCUS", "SIGNALBEAM", "SNORE", "SKITTERSMACK", "EXTREMESPEED", "MIMIC"]
+compatible_egg_groups = ["Bug"]
+steps_to_hatch = 3840
+height = 0.8
+weight = 25.3
+colour = "Red"
+kind = "Shell Out"
+pokedex_entry = "Having removed its heavy shell, it becomes very light and can fight with ninja-like movements."
+battler_player_y = 19
+battler_enemy_y = 17
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "ACCELGOR"
+raw_hidden_ability = "UNBURDEN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WATERSHURIKEN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FINALGAMBIT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POWERSWAP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ABSORB"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ACIDSPRAY"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DOUBLETEAM"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "ACIDSPRAY"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "DOUBLETEAM"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "STRUGGLEBUG"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "MEGADRAIN"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "SWIFT"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "MEFIRST"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "GIGADRAIN"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "UTURN"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "BUGBUZZ"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "RECOVER"
+
+[[raw_level_up_moves]]
+at_level = "52"
+name = "POWERSWAP"
+
+[[raw_level_up_moves]]
+at_level = "56"
+name = "FINALGAMBIT"
+
+[base_stats]
+hp = 80
+atk = 70
+def_ = 40
+spa = 100
+spd = 60
+spe = 145
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 2
+
+[wild_items]

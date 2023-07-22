@@ -1,0 +1,122 @@
+name = "Dugtrio"
+primary_type = "GROUND"
+secondary_type = "GROUND"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 142
+catch_rate = 50
+caught_happiness = 70
+raw_abilities = ["SANDVEIL", "ARENATRAP"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "CUT", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "FRUSTRATION", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "SLUDGEWAVE", "SLUDGEBOMB", "SANDSTORM", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "SHADOWCLAW", "GIGAIMPACT", "STONEEDGE", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "CONFIDE", "DIG", "SCREECH", "BEATUP", "SANDTOMB", "ASSURANCE", "BODYSLAM", "AGILITY", "TRIATTACK", "REVERSAL", "ENDURE", "HIGHHORSEPOWER"]
+raw_tutor_moves = ["ALLYSWITCH", "ANCIENTPOWER", "EARTHPOWER", "IRONDEFENSE", "IRONHEAD", "MUDSLAP", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "SUCKERPUNCH", "UPROAR", "SCORCHINGSANDS", "STEELBEAM", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5355
+height = 0.7
+weight = 33.3
+colour = "Brown"
+kind = "Mole"
+pokedex_entry = "Because the triplets originally split from one body, they think exactly alike. They work cooperatively to burrow endlessly through the ground."
+battler_player_y = 27
+battler_enemy_y = 21
+battler_altitude = 0
+evolutions = []
+form_names = ["Normal", "Alternate"]
+internal_name = "DUGTRIO"
+raw_hidden_ability = "SANDFORCE"
+habitat = "Cave"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "SANDTOMB"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ROTOTILLER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "NIGHTSLASH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TRIATTACK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SCRATCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SANDATTACK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "ASTONISH"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "MUDSLAP"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "MAGNITUDE"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "BULLDOZE"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "SUCKERPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "MUDBOMB"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "EARTHPOWER"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "DIG"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "SLASH"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "EARTHQUAKE"
+
+[[raw_level_up_moves]]
+at_level = "53"
+name = "FISSURE"
+
+[base_stats]
+hp = 35
+atk = 100
+def_ = 50
+spa = 50
+spd = 70
+spe = 120
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 2
+
+[wild_items]
+uncommon = "SOFTSAND"

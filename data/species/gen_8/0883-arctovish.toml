@@ -1,0 +1,97 @@
+name = "Arctovish"
+primary_type = "WATER"
+secondary_type = "ICE"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 177
+catch_rate = 45
+caught_happiness = 50
+raw_abilities = ["WATERABSORB", "ICEBODY"]
+raw_egg_moves = []
+raw_tms = ["SURF", "WATERFALL", "DIVE", "HAIL", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "ROCKTOMB", "FACADE", "REST", "ROUND", "GIGAIMPACT", "AURORAVEIL", "STONEEDGE", "ROCKSLIDE", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "WHIRLPOOL", "ICICLESPEAR", "ROCKBLAST", "BRINE", "AVALANCHE", "ICEFANG", "PSYCHICFANGS", "CRUNCH", "BODYSLAM", "HYDROPUMP", "ENDURE"]
+raw_tutor_moves = ["ANCIENTPOWER", "ICYWIND", "IRONDEFENSE", "IRONHEAD", "LIQUIDATION", "SNORE", "SUPERFANG", "ZENHEADBUTT", "FLIPTURN", "METEORBEAM", "MIMIC"]
+compatible_egg_groups = ["Undiscovered"]
+steps_to_hatch = 8960
+height = 2.0
+weight = 175.0
+colour = "Blue"
+kind = "Fossil"
+pokedex_entry = "The skin on its face is impervious to attack, but breathing difficulties made this Pokémon go extinct anyway."
+battler_player_y = 21
+battler_enemy_y = 26
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "ARCTOVISH"
+raw_hidden_ability = "SLUSHRUSH"
+regional_numbers = 883
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POWDERSNOW"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WATERGUN"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "PROTECT"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "ICYWIND"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "ANCIENTPOWER"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "AURORAVEIL"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "FREEZEDRY"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "SUPERFANG"
+
+[[raw_level_up_moves]]
+at_level = "56"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "63"
+name = "FISHIOUSREND"
+
+[[raw_level_up_moves]]
+at_level = "70"
+name = "ICICLECRASH"
+
+[[raw_level_up_moves]]
+at_level = "77"
+name = "BLIZZARD"
+
+[base_stats]
+hp = 90
+atk = 90
+def_ = 100
+spa = 80
+spd = 90
+spe = 55
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 2
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

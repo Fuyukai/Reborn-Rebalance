@@ -1,0 +1,111 @@
+name = "Carbink"
+primary_type = "ROCK"
+secondary_type = "FAIRY"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 100
+catch_rate = 30
+caught_happiness = 70
+raw_abilities = ["CLEARBODY", "STURDY"]
+raw_egg_moves = []
+raw_tms = ["CALMMIND", "TOXIC", "HAIL", "FLASH", "HIDDENPOWER", "SUNNYDAY", "LIGHTSCREEN", "PROTECT", "SAFEGUARD", "FRUSTRATION", "SMACKDOWN", "RETURN", "PSYCHIC", "DOUBLETEAM", "REFLECT", "SANDSTORM", "ROCKTOMB", "TORMENT", "FACADE", "REST", "ROUND", "EXPLOSION", "ROCKPOLISH", "STONEEDGE", "GYROBALL", "PSYCHUP", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "NATUREPOWER", "DAZZLINGGLEAM", "CONFIDE", "CHARM", "SANDTOMB", "GUARDSWAP", "ENDURE", "POWERGEM", "BODYPRESS"]
+raw_tutor_moves = ["AFTERYOU", "ALLYSWITCH", "COVET", "EARTHPOWER", "GRAVITY", "IRONDEFENSE", "MAGICCOAT", "MAGNETRISE", "SKILLSWAP", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "TELEKINESIS", "WONDERROOM", "TERRAINPULSE", "METEORBEAM", "MISTYEXPLOSION", "MIMIC"]
+compatible_egg_groups = ["Fairy", "Mineral"]
+steps_to_hatch = 6400
+height = 0.3
+weight = 5.7
+colour = "Gray"
+kind = "Jewel"
+pokedex_entry = "It has slept underground for hundreds of millions of years since its birth. It is occasionally found during the excavation of caves."
+battler_player_y = 25
+battler_enemy_y = 19
+battler_altitude = 11
+evolutions = []
+form_names = []
+internal_name = "CARBINK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HARDEN"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "ROCKTHROW"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "SHARPEN"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "SMACKDOWN"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "REFLECT"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "STEALTHROCK"
+
+[[raw_level_up_moves]]
+at_level = "27"
+name = "GUARDSPLIT"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "ANCIENTPOWER"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "FLAIL"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "SKILLSWAP"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "POWERGEM"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "STONEEDGE"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "MOONBLAST"
+
+[[raw_level_up_moves]]
+at_level = "60"
+name = "LIGHTSCREEN"
+
+[[raw_level_up_moves]]
+at_level = "70"
+name = "SAFEGUARD"
+
+[[raw_level_up_moves]]
+at_level = "80"
+name = "MISTYEXPLOSION"
+
+[base_stats]
+hp = 50
+atk = 50
+def_ = 150
+spa = 50
+spd = 150
+spe = 50
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 1
+spa = 0
+spd = 1
+spe = 0
+
+[wild_items]

@@ -1,0 +1,104 @@
+name = "Bonsly"
+primary_type = "ROCK"
+secondary_type = "ROCK"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 58
+catch_rate = 255
+caught_happiness = 70
+raw_abilities = ["STURDY", "ROCKHEAD"]
+raw_egg_moves = ["CURSE", "DEFENSECURL", "ENDURE", "HARDEN", "HEADBUTT", "ROLLOUT", "SANDTOMB", "SELFDESTRUCT", "STEALTHROCK"]
+raw_tms = ["CALMMIND", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "FRUSTRATION", "SMACKDOWN", "RETURN", "BRICKBREAK", "DOUBLETEAM", "SANDSTORM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "EXPLOSION", "ROCKPOLISH", "PSYCHUP", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "DIG", "SELFDESTRUCT", "FAKETEARS", "SANDTOMB", "ENDURE", "TRAILBLAZE"]
+raw_tutor_moves = ["AFTERYOU", "BLOCK", "COVET", "EARTHPOWER", "FOULPLAY", "HEADBUTT", "HELPINGHAND", "LOWKICK", "ROLEPLAY", "ROLLOUT", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "SUCKERPUNCH", "UPROAR", "MIMIC"]
+compatible_egg_groups = ["Undiscovered"]
+steps_to_hatch = 5355
+height = 0.5
+weight = 15.0
+colour = "Brown"
+kind = "Bonsai"
+pokedex_entry = "It looks as if it is always crying. It is actually adjusting its body's fluid levels by eliminating excess."
+battler_player_y = 23
+battler_enemy_y = 19
+battler_altitude = 0
+form_names = []
+internal_name = "BONSLY"
+raw_hidden_ability = "RATTLED"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FAKETEARS"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "COPYCAT"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "FLAIL"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "LOWKICK"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "ROCKTHROW"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "MIMIC"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "FEINTATTACK"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "TEARFULLOOK"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "ROCKTOMB"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "BLOCK"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "ROCKSLIDE"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "COUNTER"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "SUCKERPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "DOUBLEEDGE"
+
+[[evolutions]]
+into_name = "SUDOWOODO"
+condition = "HasMove"
+parameter = "MIMIC"
+
+[base_stats]
+hp = 50
+atk = 80
+def_ = 95
+spa = 10
+spd = 45
+spe = 10
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 1
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

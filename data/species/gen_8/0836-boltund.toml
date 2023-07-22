@@ -1,0 +1,97 @@
+name = "Boltund"
+primary_type = "ELECTRIC"
+secondary_type = "ELECTRIC"
+gender_ratio = "Female50Percent"
+growth_rate = "Fast"
+exp_yield = 172
+catch_rate = 45
+caught_happiness = 50
+raw_abilities = ["STRONGJAW", "COMPETITIVE"]
+raw_egg_moves = ["DOUBLEEDGE", "SANDATTACK", "FLAMECHARGE", "DISCHARGE", "HOWL"]
+raw_tms = ["ROAR", "BULKUP", "FLASH", "HYPERBEAM", "PROTECT", "THUNDERBOLT", "THUNDER", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "ROUND", "GIGAIMPACT", "VOLTSWITCH", "THUNDERWAVE", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "SNARL", "DIG", "CHARM", "THUNDERFANG", "FIREFANG", "PSYCHICFANGS", "CRUNCH", "ELECTRICTERRAIN", "EERIEIMPULSE", "AGILITY", "FOCUSENERGY", "ENDURE", "ELECTROBALL", "PLAYROUGH", "SWIFT"]
+raw_tutor_moves = ["HELPINGHAND", "HYPERVOICE", "SHOCKWAVE", "SNORE", "UPROAR", "RISINGVOLTAGE", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5120
+height = 1.0
+weight = 34.0
+colour = "Yellow"
+kind = "Dog"
+pokedex_entry = "It sends electricity through its legs to boost their strength. Running at top speed, it easily breaks 50 mph."
+battler_player_y = 21
+battler_enemy_y = 26
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "BOLTUND"
+raw_hidden_ability = "GUARDDOG"
+regional_numbers = 836
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ELECTRIFY"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TAILWHIP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "NUZZLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "ROAR"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "SPARK"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "CHARM"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "CHARGE"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "WILDCHARGE"
+
+[[raw_level_up_moves]]
+at_level = "55"
+name = "PLAYROUGH"
+
+[[raw_level_up_moves]]
+at_level = "62"
+name = "ELECTRICTERRAIN"
+
+[base_stats]
+hp = 69
+atk = 90
+def_ = 60
+spa = 90
+spd = 60
+spe = 121
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 2
+
+[wild_items]

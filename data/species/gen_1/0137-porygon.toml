@@ -1,0 +1,109 @@
+name = "Porygon"
+primary_type = "NORMAL"
+secondary_type = "NORMAL"
+gender_ratio = "Genderless"
+growth_rate = "Medium"
+exp_yield = 79
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["TRACE", "DOWNLOAD"]
+raw_egg_moves = []
+raw_tms = ["PSYSHOCK", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "SOLARBEAM", "THUNDERBOLT", "THUNDER", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "AERIALACE", "FACADE", "REST", "THIEF", "ROUND", "CHARGEBEAM", "GIGAIMPACT", "THUNDERWAVE", "PSYCHUP", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "POWERSWAP", "GUARDSWAP", "SPEEDSWAP", "EERIEIMPULSE", "AGILITY", "TRIATTACK", "ENDURE", "SWIFT"]
+raw_tutor_moves = ["ALLYSWITCH", "ELECTROWEB", "FOULPLAY", "GRAVITY", "ICYWIND", "IRONTAIL", "LASTRESORT", "MAGNETRISE", "PAINSPLIT", "RECYCLE", "SHOCKWAVE", "SIGNALBEAM", "SNORE", "TELEKINESIS", "TRICK", "WONDERROOM", "ZENHEADBUTT", "MIMIC"]
+compatible_egg_groups = ["Mineral"]
+steps_to_hatch = 5355
+height = 0.8
+weight = 36.5
+colour = "Pink"
+kind = "Virtual"
+pokedex_entry = "It is capable of reverting itself entirely back to program data in order to enter cyberspace. A Porygon is copy- protected so it cannot be duplicated."
+battler_player_y = 28
+battler_enemy_y = 25
+battler_altitude = 8
+form_names = []
+internal_name = "PORYGON"
+raw_hidden_ability = "ANALYTIC"
+habitat = "Urban"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CONVERSION2"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CONVERSION"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SHARPEN"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "PSYBEAM"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "RECOVER"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "MAGNETRISE"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "SIGNALBEAM"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "RECYCLE"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "DISCHARGE"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "LOCKON"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "TRIATTACK"
+
+[[raw_level_up_moves]]
+at_level = "56"
+name = "MAGICCOAT"
+
+[[raw_level_up_moves]]
+at_level = "62"
+name = "ZAPCANNON"
+
+[[evolutions]]
+into_name = "PORYGON2"
+condition = "TradeItem"
+parameter = "UPGRADE"
+
+[base_stats]
+hp = 65
+atk = 60
+def_ = 70
+spa = 85
+spd = 75
+spe = 40
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 1
+spd = 0
+spe = 0
+
+[wild_items]

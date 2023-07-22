@@ -1,0 +1,54 @@
+name = "Abra"
+primary_type = "PSYCHIC"
+secondary_type = "PSYCHIC"
+gender_ratio = "Female25Percent"
+growth_rate = "Parabolic"
+exp_yield = 62
+catch_rate = 200
+caught_happiness = 70
+raw_abilities = ["SYNCHRONIZE", "INNERFOCUS"]
+raw_egg_moves = ["ALLYSWITCH", "BARRIER", "ENCORE", "FIREPUNCH", "GUARDSPLIT", "GUARDSWAP", "ICEPUNCH", "KNOCKOFF", "POWERTRICK", "PSYCHICTERRAIN", "PSYCHOSHIFT", "SKILLSWAP", "THUNDERPUNCH"]
+raw_tms = ["PSYSHOCK", "CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ENERGYBALL", "FLING", "CHARGEBEAM", "EMBARGO", "THUNDERWAVE", "PSYCHUP", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "DAZZLINGGLEAM", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "POWERSWAP", "GUARDSWAP", "SPEEDSWAP", "PSYCHICTERRAIN", "BODYSLAM", "METRONOME", "TRIATTACK", "ENDURE", "ENCORE"]
+raw_tutor_moves = ["ALLYSWITCH", "DRAINPUNCH", "FIREPUNCH", "FOCUSPUNCH", "FOULPLAY", "GRAVITY", "HEADBUTT", "ICEPUNCH", "IRONTAIL", "KNOCKOFF", "MAGICROOM", "RECYCLE", "ROLEPLAY", "SHOCKWAVE", "SIGNALBEAM", "SKILLSWAP", "SNATCH", "SNORE", "TELEKINESIS", "THUNDERPUNCH", "TRICK", "WONDERROOM", "ZENHEADBUTT", "MYSTICALPOWER", "MIMIC"]
+compatible_egg_groups = ["Humanlike"]
+steps_to_hatch = 5355
+height = 0.9
+weight = 19.5
+colour = "Brown"
+kind = "Psi"
+pokedex_entry = "A Pokémon that sleeps 18 hours a day. Observation revealed that it uses Teleport to change its location once every hour."
+battler_player_y = 27
+battler_enemy_y = 20
+battler_altitude = 0
+form_names = []
+internal_name = "ABRA"
+raw_hidden_ability = "MAGICGUARD"
+habitat = "Urban"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TELEPORT"
+
+[[evolutions]]
+into_name = "KADABRA"
+condition = "Level"
+parameter = "16"
+
+[base_stats]
+hp = 25
+atk = 20
+def_ = 15
+spa = 105
+spd = 55
+spe = 90
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 1
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "TWISTEDSPOON"

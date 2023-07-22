@@ -1,0 +1,131 @@
+name = "Munchlax"
+primary_type = "NORMAL"
+secondary_type = "NORMAL"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Slow"
+exp_yield = 78
+catch_rate = 50
+caught_happiness = 70
+raw_abilities = ["PICKUP", "THICKFAT"]
+raw_egg_moves = ["AFTERYOU", "BELCH", "CHARM", "COUNTER", "CURSE", "DOUBLEEDGE", "LICK", "NATURALGIFT", "PURSUIT", "SELFDESTRUCT", "WHIRLWIND", "ZENHEADBUTT"]
+raw_tms = ["WORKUP", "SURF", "STRENGTH", "TOXIC", "ROCKSMASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "SOLARBEAM", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "PSYCHIC", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "FLAMETHROWER", "SANDSTORM", "FIREBLAST", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "FLING", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "PAYDAY", "SCREECH", "SELFDESTRUCT", "CHARM", "WHIRLPOOL", "BODYSLAM", "HYDROPUMP", "METRONOME", "AMNESIA", "ENDURE", "ENCORE", "RETALIATE"]
+raw_tutor_moves = ["AFTERYOU", "COVET", "FIREPUNCH", "FOCUSPUNCH", "GUNKSHOT", "HEADBUTT", "HYPERVOICE", "ICEPUNCH", "ICYWIND", "LASTRESORT", "MUDSLAP", "RECYCLE", "ROLLOUT", "SEEDBOMB", "SHOCKWAVE", "SNATCH", "SNORE", "STOMPINGTANTRUM", "SUPERPOWER", "THUNDERPUNCH", "UPROAR", "WATERPULSE", "ZENHEADBUTT", "MIMIC"]
+compatible_egg_groups = ["Undiscovered"]
+steps_to_hatch = 10455
+height = 0.6
+weight = 105.0
+colour = "Black"
+kind = "Big Eater"
+pokedex_entry = "It wolfs down its weight in food once a day, swallowing food whole with almost no chewing."
+battler_player_y = 25
+battler_enemy_y = 19
+battler_altitude = 0
+form_names = []
+internal_name = "MUNCHLAX"
+raw_hidden_ability = "GLUTTONY"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LASTRESORT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "RECYCLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LICK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "METRONOME"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ODORSLEUTH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "DEFENSECURL"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "AMNESIA"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "LICK"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "CHIPAWAY"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "SCREECH"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "BODYSLAM"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "STOCKPILE"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "SWALLOW"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "ROLLOUT"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "FLING"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "BELLYDRUM"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "NATURALGIFT"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "SNATCH"
+
+[[raw_level_up_moves]]
+at_level = "57"
+name = "LASTRESORT"
+
+[[evolutions]]
+into_name = "SNORLAX"
+condition = "Happiness"
+parameter = ""
+
+[base_stats]
+hp = 135
+atk = 85
+def_ = 40
+spa = 40
+spd = 85
+spe = 5
+
+[ev_yield]
+hp = 1
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+common = "LEFTOVERS"
+uncommon = "LEFTOVERS"
+rare = "LEFTOVERS"

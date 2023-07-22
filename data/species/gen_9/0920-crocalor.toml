@@ -1,0 +1,103 @@
+name = "Crocalor"
+primary_type = "FIRE"
+secondary_type = "FIRE"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+exp_yield = 142
+catch_rate = 45
+caught_happiness = 50
+raw_abilities = ["BLAZE", "UNAWARE"]
+raw_egg_moves = []
+raw_tms = ["ROAR", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "FRUSTRATION", "RETURN", "DOUBLETEAM", "FLAMETHROWER", "FIREBLAST", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "OVERHEAT", "WILLOWISP", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "SNARL", "CONFIDE", "FIRESPIN", "DIG", "SCREECH", "THUNDERFANG", "FIREFANG", "CRUNCH", "MYSTICALFIRE", "BODYSLAM", "FLAREBLITZ", "ENDURE", "ENCORE"]
+raw_tutor_moves = ["FIREPLEDGE", "HEATWAVE", "HELPINGHAND", "HYPERVOICE", "MUDSLAP", "OUTRAGE", "SEEDBOMB", "STOMPINGTANTRUM", "ZENHEADBUTT"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5140
+height = 1.0
+weight = 30.7
+colour = "Red"
+kind = "Fire Croc"
+pokedex_entry = "The valve in Crocalor's flame sac is closely connected to its vocal cords. This Pokémon utters a guttural cry as it spews flames every which way."
+battler_player_y = 16
+battler_enemy_y = 12
+battler_altitude = 0
+form_names = []
+internal_name = "CROCALOR"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "EMBER"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "LICK"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "ROUND"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "INCINERATE"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "YAWN"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "SNARL"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "ROAR"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "FLAMETHROWER"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "HYPERVOICE"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "WILLOWISP"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "FIREBLAST"
+
+[[evolutions]]
+into_name = "SKELEDIRGE"
+condition = "Level"
+parameter = "36"
+
+[base_stats]
+hp = 81
+atk = 55
+def_ = 78
+spa = 90
+spd = 58
+spe = 49
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 2
+spd = 0
+spe = 0
+
+[wild_items]

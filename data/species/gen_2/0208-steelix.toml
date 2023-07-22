@@ -1,0 +1,146 @@
+name = "Steelix"
+primary_type = "STEEL"
+secondary_type = "GROUND"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 179
+catch_rate = 25
+caught_happiness = 70
+raw_abilities = ["ROCKHEAD", "STURDY"]
+raw_egg_moves = []
+raw_tms = ["CUT", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "FRUSTRATION", "SMACKDOWN", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "SANDSTORM", "ROCKTOMB", "TORMENT", "FACADE", "REST", "ATTRACT", "ROUND", "BRUTALSWING", "EXPLOSION", "PAYBACK", "GIGAIMPACT", "ROCKPOLISH", "STONEEDGE", "GYROBALL", "PSYCHUP", "BULLDOZE", "ROCKSLIDE", "DRAGONTAIL", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "NATUREPOWER", "DARKPULSE", "CONFIDE", "DIG", "SCREECH", "SELFDESTRUCT", "SCARYFACE", "SANDTOMB", "ROCKBLAST", "THUNDERFANG", "ICEFANG", "FIREFANG", "PSYCHICFANGS", "CRUNCH", "BREAKINGSWIPE", "BODYSLAM", "HURRICANE", "BRAVEBIRD", "ENDURE", "DRAGONDANCE", "HEAVYSLAM", "HIGHHORSEPOWER", "BODYPRESS"]
+raw_tutor_moves = ["ANCIENTPOWER", "AQUATAIL", "BIND", "BLOCK", "DRAGONPULSE", "DRILLRUN", "EARTHPOWER", "HEADBUTT", "IRONDEFENSE", "IRONHEAD", "IRONTAIL", "MAGNETRISE", "MUDSLAP", "ROLLOUT", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "TWISTER", "SCORCHINGSANDS", "METEORBEAM", "STEELROLLER", "STEELBEAM", "POWERSHIFT", "HEADLONGRUSH", "ICEBALL", "MIMIC"]
+compatible_egg_groups = ["Mineral"]
+steps_to_hatch = 6630
+height = 9.2
+weight = 400.0
+colour = "Gray"
+kind = "Iron Snake"
+pokedex_entry = "Steelix live even further underground than Onix. This Pokémon digs toward the earth's core, reaching a depth of over six-tenths of a mile underground."
+battler_player_y = 8
+battler_enemy_y = 4
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "STEELIX"
+raw_hidden_ability = "SHEERFORCE"
+habitat = "Cave"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "THUNDERFANG"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ICEFANG"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FIREFANG"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MUDSPORT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HARDEN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BIND"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "CURSE"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "ROCKTHROW"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "ROCKTOMB"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "RAGE"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "STEALTHROCK"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "AUTOTOMIZE"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "GYROBALL"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "SMACKDOWN"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "DRAGONBREATH"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "SLAM"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "SCREECH"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "ROCKSLIDE"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "IRONTAIL"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "DIG"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "STONEEDGE"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "DOUBLEEDGE"
+
+[[raw_level_up_moves]]
+at_level = "52"
+name = "SANDSTORM"
+
+[base_stats]
+hp = 75
+atk = 85
+def_ = 200
+spa = 55
+spd = 65
+spe = 30
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 2
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "METALCOAT"

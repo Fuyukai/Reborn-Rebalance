@@ -1,0 +1,108 @@
+name = "Ferroseed"
+primary_type = "GRASS"
+secondary_type = "STEEL"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 61
+catch_rate = 255
+caught_happiness = 70
+raw_abilities = ["IRONBARBS"]
+raw_egg_moves = ["ACIDSPRAY", "BULLETSEED", "GRAVITY", "LEECHSEED", "ROCKCLIMB", "SEEDBOMB", "SPIKES", "STEALTHROCK", "WORRYSEED"]
+raw_tms = ["TOXIC", "ROCKSMASH", "FLASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "FRUSTRATION", "SOLARBEAM", "THUNDERBOLT", "RETURN", "DOUBLETEAM", "FACADE", "REST", "ROUND", "ENERGYBALL", "EXPLOSION", "PAYBACK", "ROCKPOLISH", "THUNDERWAVE", "GYROBALL", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "PINMISSILE", "SELFDESTRUCT", "REVENGE", "BULLETSEED", "ASSURANCE", "SPIKES", "ENDURE"]
+raw_tutor_moves = ["ENDEAVOR", "GIGADRAIN", "GRAVITY", "IRONDEFENSE", "IRONHEAD", "KNOCKOFF", "MAGNETRISE", "SEEDBOMB", "SNORE", "STEALTHROCK", "WORRYSEED", "STEELROLLER", "STEELBEAM", "MIMIC"]
+compatible_egg_groups = ["Grass", "Mineral"]
+steps_to_hatch = 5120
+height = 0.6
+weight = 18.8
+colour = "Gray"
+kind = "Thorn Seed"
+pokedex_entry = "They stick their spikes into cave walls and absorb the minerals they find in the rock."
+battler_player_y = 30
+battler_enemy_y = 35
+battler_altitude = 0
+form_names = []
+internal_name = "FERROSEED"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HARDEN"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "ROLLOUT"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "CURSE"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "METALCLAW"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "PINMISSILE"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "GYROBALL"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "IRONDEFENSE"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "MIRRORSHOT"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "INGRAIN"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "SELFDESTRUCT"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "IRONHEAD"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "PAYBACK"
+
+[[raw_level_up_moves]]
+at_level = "52"
+name = "FLASHCANNON"
+
+[[raw_level_up_moves]]
+at_level = "55"
+name = "EXPLOSION"
+
+[[evolutions]]
+into_name = "FERROTHORN"
+condition = "Level"
+parameter = "40"
+
+[base_stats]
+hp = 44
+atk = 50
+def_ = 91
+spa = 24
+spd = 86
+spe = 10
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 1
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "STICKYBARB"

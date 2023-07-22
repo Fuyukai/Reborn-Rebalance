@@ -1,0 +1,110 @@
+name = "Koffing"
+primary_type = "POISON"
+secondary_type = "POISON"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 68
+catch_rate = 190
+caught_happiness = 70
+raw_abilities = ["LEVITATE", "NEUTRALIZINGGAS"]
+raw_egg_moves = ["CURSE", "DESTINYBOND", "GRUDGE", "PAINSPLIT", "PSYBEAM", "PSYWAVE", "SCREECH", "SPITE", "SPITUP", "STOCKPILE", "SWALLOW", "TOXICSPIKES", "VENOMDRENCH", "CORROSIVEGAS"]
+raw_tms = ["TOXIC", "FLASH", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "SHADOWBALL", "DOUBLETEAM", "SLUDGEWAVE", "FLAMETHROWER", "SLUDGEBOMB", "FIREBLAST", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "WILLOWISP", "EXPLOSION", "PAYBACK", "GYROBALL", "INFESTATION", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "DARKPULSE", "CONFIDE", "SCREECH", "SELFDESTRUCT", "ASSURANCE", "ENDURE", "TOXICSPIKES", "HEAVYSLAM", "VENOMDRENCH"]
+raw_tutor_moves = ["PAINSPLIT", "ROLLOUT", "SHOCKWAVE", "SNORE", "SPITE", "UPROAR", "CORROSIVEGAS", "MIMIC"]
+compatible_egg_groups = ["Amorphous"]
+steps_to_hatch = 5355
+height = 0.6
+weight = 1.0
+colour = "Purple"
+kind = "Poison Gas"
+pokedex_entry = "Getting up close to a Koffing will give you a chance to observe, through its thin skin, the toxic gases swirling inside. It blows up at the slightest stimulation."
+battler_player_y = 22
+battler_enemy_y = 18
+battler_altitude = 16
+form_names = []
+internal_name = "KOFFING"
+raw_hidden_ability = "STENCH"
+habitat = "Urban"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POISONGAS"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "SMOG"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "SMOKESCREEN"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "ASSURANCE"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "CLEARSMOG"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "SLUDGE"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "SELFDESTRUCT"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "HAZE"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "GYROBALL"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "SLUDGEBOMB"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "EXPLOSION"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "DESTINYBOND"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "BELCH"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "MEMENTO"
+
+[[evolutions]]
+into_name = "WEEZING"
+condition = "Level"
+parameter = "35"
+
+[base_stats]
+hp = 40
+atk = 65
+def_ = 95
+spa = 60
+spd = 45
+spe = 35
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 1
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "SMOKEBALL"

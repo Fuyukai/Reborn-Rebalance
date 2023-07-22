@@ -1,0 +1,119 @@
+name = "Archen"
+primary_type = "ROCK"
+secondary_type = "FLYING"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Medium"
+exp_yield = 71
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["DEFEATIST"]
+raw_egg_moves = ["ALLYSWITCH", "BITE", "DEFOG", "DRAGONPULSE", "EARTHPOWER", "HEADSMASH", "KNOCKOFF", "STEELWING", "SWITCHEROO"]
+raw_tms = ["CUT", "DRAGONCLAW", "ROAR", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "TAUNT", "PROTECT", "ROOST", "ROOST", "FRUSTRATION", "SMACKDOWN", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "SANDSTORM", "ROCKTOMB", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "ROUND", "STEELWING", "ACROBATICS", "SHADOWCLAW", "ROCKPOLISH", "STONEEDGE", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "SCARYFACE", "ROCKBLAST", "ASSURANCE", "CRUNCH", "AGILITY", "ENDURE", "SWIFT"]
+raw_tutor_moves = ["ALLYSWITCH", "AQUATAIL", "BOUNCE", "DEFOG", "DRAGONPULSE", "EARTHPOWER", "ENDEAVOR", "HEATWAVE", "IRONDEFENSE", "IRONTAIL", "KNOCKOFF", "SNORE", "STEALTHROCK", "TAILWIND", "UPROAR", "ZENHEADBUTT", "DUALWINGBEAT", "METEORBEAM", "LASHOUT", "MIMIC"]
+compatible_egg_groups = ["Flying", "Water3"]
+steps_to_hatch = 7680
+height = 0.5
+weight = 9.5
+colour = "Yellow"
+kind = "First Bird"
+pokedex_entry = "Revived from a fossil, this Pokémon is thought to be the ancestor of all bird Pokémon."
+battler_player_y = 30
+battler_enemy_y = 33
+battler_altitude = 0
+form_names = []
+internal_name = "ARCHEN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WINGATTACK"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "ROCKTHROW"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "DOUBLETEAM"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "SCARYFACE"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "PLUCK"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "ANCIENTPOWER"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "QUICKGUARD"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "ACROBATICS"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "DRAGONBREATH"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "ENDEAVOR"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "UTURN"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "ROCKSLIDE"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "DRAGONCLAW"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "THRASH"
+
+[[evolutions]]
+into_name = "ARCHEOPS"
+condition = "Level"
+parameter = "37"
+
+[base_stats]
+hp = 55
+atk = 112
+def_ = 45
+spa = 74
+spd = 45
+spe = 70
+
+[ev_yield]
+hp = 0
+atk = 1
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

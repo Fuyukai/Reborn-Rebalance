@@ -1,0 +1,118 @@
+name = "Tentacool"
+primary_type = "WATER"
+secondary_type = "POISON"
+gender_ratio = "Female50Percent"
+growth_rate = "Slow"
+exp_yield = 67
+catch_rate = 190
+caught_happiness = 70
+raw_abilities = ["CLEARBODY", "LIQUIDOOZE"]
+raw_egg_moves = ["ACUPRESSURE", "AQUARING", "AURORABEAM", "BUBBLE", "CONFUSERAY", "HAZE", "KNOCKOFF", "MIRRORCOAT", "MUDDYWATER", "RAPIDSPIN", "TICKLE"]
+raw_tms = ["CUT", "SURF", "WATERFALL", "TOXIC", "DIVE", "HAIL", "VENOSHOCK", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "RETURN", "DOUBLETEAM", "REFLECT", "SLUDGEWAVE", "SLUDGEBOMB", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "SCALD", "PAYBACK", "SWORDSDANCE", "INFESTATION", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "DAZZLINGGLEAM", "CONFIDE", "SCREECH", "WHIRLPOOL", "BRINE", "CROSSPOISON", "HEX", "HYDROPUMP", "ENDURE", "MUDDYWATER", "TOXICSPIKES"]
+raw_tutor_moves = ["BIND", "GIGADRAIN", "ICYWIND", "KNOCKOFF", "MAGICCOAT", "SNORE", "WATERPULSE", "MIMIC"]
+compatible_egg_groups = ["Water3"]
+steps_to_hatch = 5355
+height = 0.9
+weight = 45.5
+colour = "Blue"
+kind = "Jellyfish"
+pokedex_entry = "Its body is almost entirely composed of water. It ensnares its foe with its two long tentacles, then stabs with the poison stingers at their tips."
+battler_player_y = 21
+battler_enemy_y = 13
+battler_altitude = 8
+form_names = []
+internal_name = "TENTACOOL"
+raw_hidden_ability = "RAINDISH"
+habitat = "Sea"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POISONSTING"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "SUPERSONIC"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "CONSTRICT"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "ACID"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "TOXICSPIKES"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "WATERPULSE"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "WRAP"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "ACIDSPRAY"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "BUBBLEBEAM"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "BARRIER"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "POISONJAB"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "BRINE"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "SCREECH"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "HEX"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "SLUDGEWAVE"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "HYDROPUMP"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "WRINGOUT"
+
+[[evolutions]]
+into_name = "TENTACRUEL"
+condition = "Level"
+parameter = "30"
+
+[base_stats]
+hp = 40
+atk = 40
+def_ = 35
+spa = 50
+spd = 100
+spe = 70
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 1
+spe = 0
+
+[wild_items]
+uncommon = "POISONBARB"

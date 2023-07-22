@@ -1,0 +1,85 @@
+name = "Sewaddle"
+primary_type = "BUG"
+secondary_type = "GRASS"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 62
+catch_rate = 255
+caught_happiness = 70
+raw_abilities = ["SWARM", "CHLOROPHYLL"]
+raw_egg_moves = ["AGILITY", "AIRSLASH", "BATONPASS", "CAMOUFLAGE", "GRASSYTERRAIN", "MEFIRST", "MINDREADER", "RAZORWIND", "SCREECH", "SILVERWIND"]
+raw_tms = ["CUT", "CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "LIGHTSCREEN", "PROTECT", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "PAYBACK", "STRUGGLEBUG", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "SCREECH", "AIRSLASH", "GRASSYTERRAIN", "AGILITY", "ENDURE", "BATONPASS"]
+raw_tutor_moves = ["BUGBITE", "ELECTROWEB", "GIGADRAIN", "IRONDEFENSE", "MAGICCOAT", "SEEDBOMB", "SIGNALBEAM", "SNORE", "SYNTHESIS", "WORRYSEED", "MIMIC"]
+compatible_egg_groups = ["Bug"]
+steps_to_hatch = 3840
+height = 0.3
+weight = 2.5
+colour = "Yellow"
+kind = "Sewing"
+pokedex_entry = "This Pokémon makes clothes for itself. It chews up leaves and sews them with sticky thread extruded from its mouth."
+battler_player_y = 34
+battler_enemy_y = 33
+battler_altitude = 0
+form_names = []
+internal_name = "SEWADDLE"
+raw_hidden_ability = "OVERCOAT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "STRINGSHOT"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "BUGBITE"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "RAZORLEAF"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "STRUGGLEBUG"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "ENDURE"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "STICKYWEB"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "BUGBUZZ"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "FLAIL"
+
+[[evolutions]]
+into_name = "SWADLOON"
+condition = "Level"
+parameter = "20"
+
+[base_stats]
+hp = 45
+atk = 53
+def_ = 70
+spa = 40
+spd = 60
+spe = 42
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 1
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "MENTALHERB"

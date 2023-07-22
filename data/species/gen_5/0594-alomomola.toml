@@ -1,0 +1,136 @@
+name = "Alomomola"
+primary_type = "WATER"
+secondary_type = "WATER"
+gender_ratio = "Female50Percent"
+growth_rate = "Fast"
+exp_yield = 165
+catch_rate = 75
+caught_happiness = 70
+raw_abilities = ["HEALER", "HYDRATION"]
+raw_egg_moves = ["ENDURE", "MIRRORCOAT", "MIST", "PAINSPLIT", "REFRESH", "TICKLE"]
+raw_tms = ["SURF", "CALMMIND", "WATERFALL", "TOXIC", "DIVE", "HAIL", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "ROUND", "SCALD", "PSYCHUP", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "BRINE", "HYDROPUMP", "ENDURE", "SNOWSCAPE", "CHILLINGWATER"]
+raw_tutor_moves = ["BOUNCE", "HELPINGHAND", "ICYWIND", "KNOCKOFF", "LIQUIDATION", "MAGICCOAT", "PAINSPLIT", "SNORE", "WATERPULSE", "MIMIC"]
+compatible_egg_groups = ["Water1", "Water2"]
+steps_to_hatch = 10240
+height = 1.2
+weight = 31.6
+colour = "Pink"
+kind = "Caring"
+pokedex_entry = "Floating in the open sea is how they live. When they find a wounded Pokémon, they embrace it and bring it to shore."
+battler_player_y = 9
+battler_enemy_y = 2
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "ALOMOMOLA"
+raw_hidden_ability = "REGENERATOR"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PLAYNICE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HYDROPUMP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WIDEGUARD"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HEALINGWISH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HELPINGHAND"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POUND"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WATERSPORT"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "AQUARING"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "AQUAJET"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "DOUBLESLAP"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "HEALPULSE"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "PROTECT"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "WATERPULSE"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "WAKEUPSLAP"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "SOAK"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "WISH"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "BRINE"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "SAFEGUARD"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "WHIRLPOOL"
+
+[[raw_level_up_moves]]
+at_level = "53"
+name = "HELPINGHAND"
+
+[[raw_level_up_moves]]
+at_level = "57"
+name = "HEALINGWISH"
+
+[[raw_level_up_moves]]
+at_level = "61"
+name = "WIDEGUARD"
+
+[[raw_level_up_moves]]
+at_level = "65"
+name = "HYDROPUMP"
+
+[base_stats]
+hp = 165
+atk = 75
+def_ = 80
+spa = 40
+spd = 45
+spe = 65
+
+[ev_yield]
+hp = 2
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

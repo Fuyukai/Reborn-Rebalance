@@ -1,0 +1,103 @@
+name = "Buizel"
+primary_type = "WATER"
+secondary_type = "WATER"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 66
+catch_rate = 190
+caught_happiness = 70
+raw_abilities = ["SWIFTSWIM", "WATERVEIL"]
+raw_egg_moves = ["AQUARING", "AQUATAIL", "BATONPASS", "DOUBLESLAP", "FURYCUTTER", "FURYSWIPES", "HEADBUTT", "HELPINGHAND", "MEFIRST", "MUDSLAP", "ODORSLEUTH", "SLASH", "SOAK", "SWITCHEROO", "TAILSLAP"]
+raw_tms = ["SURF", "STRENGTH", "WATERFALL", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "BULKUP", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "BRICKBREAK", "DOUBLETEAM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "SCALD", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "DIG", "WHIRLPOOL", "BRINE", "TAILSLAP", "HYDROPUMP", "AGILITY", "ENDURE", "BATONPASS", "ICESPINNER", "CHILLINGWATER", "SWIFT"]
+raw_tutor_moves = ["AQUATAIL", "FOCUSPUNCH", "HEADBUTT", "HELPINGHAND", "ICEPUNCH", "ICYWIND", "IRONTAIL", "MUDSLAP", "SNORE", "WATERPULSE", "MIMIC"]
+compatible_egg_groups = ["Water1", "Field"]
+steps_to_hatch = 5355
+height = 0.7
+weight = 29.5
+colour = "Brown"
+kind = "Sea Weasel"
+pokedex_entry = "It has a flotation sac that is like an inflatable collar. It floats on water with its head out."
+battler_player_y = 24
+battler_enemy_y = 17
+battler_altitude = 0
+form_names = []
+internal_name = "BUIZEL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SONICBOOM"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "WATERSPORT"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "WATERGUN"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "PURSUIT"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "SWIFT"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "AQUAJET"
+
+[[raw_level_up_moves]]
+at_level = "27"
+name = "DOUBLEHIT"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "WHIRLPOOL"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "RAZORWIND"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "AQUATAIL"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "HYDROPUMP"
+
+[[evolutions]]
+into_name = "FLOATZEL"
+condition = "Level"
+parameter = "26"
+
+[base_stats]
+hp = 55
+atk = 65
+def_ = 35
+spa = 60
+spd = 30
+spe = 85
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 1
+
+[wild_items]

@@ -1,0 +1,104 @@
+name = "Vigoroth"
+primary_type = "NORMAL"
+secondary_type = "NORMAL"
+gender_ratio = "Female50Percent"
+growth_rate = "Slow"
+exp_yield = 154
+catch_rate = 120
+caught_happiness = 70
+raw_abilities = ["VITALSPIRIT"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "CUT", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "BULKUP", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "SOLARBEAM", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "FLAMETHROWER", "FIREBLAST", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "LOWSWEEP", "ROUND", "FOCUSBLAST", "FLING", "SHADOWCLAW", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "BODYSLAM", "FOCUSENERGY", "AMNESIA", "REVERSAL", "ENDURE", "ENCORE", "PLAYROUGH", "RETALIATE", "TRAILBLAZE", "CHILLINGWATER"]
+raw_tutor_moves = ["AFTERYOU", "COVET", "FIREPUNCH", "FOCUSPUNCH", "FURYCUTTER", "GUNKSHOT", "HEADBUTT", "ICEPUNCH", "ICYWIND", "LOWKICK", "MUDSLAP", "SHOCKWAVE", "SNORE", "SUCKERPUNCH", "THUNDERPUNCH", "UPROAR", "WATERPULSE", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 4080
+height = 1.4
+weight = 46.5
+colour = "White"
+kind = "Wild Monkey"
+pokedex_entry = "It can't keep still because its filled with energy. It runs through fields and mountains all day to calm itself. If it doesn't, it can't sleep at night."
+battler_player_y = 21
+battler_enemy_y = 9
+battler_altitude = 0
+form_names = []
+internal_name = "VIGOROTH"
+habitat = "Forest"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "REVERSAL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SCRATCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FOCUSENERGY"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ENCORE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "UPROAR"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "ENCORE"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "UPROAR"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "FURYSWIPES"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "ENDURE"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "SLASH"
+
+[[raw_level_up_moves]]
+at_level = "27"
+name = "CHIPAWAY"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "COUNTER"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "FOCUSPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "REVERSAL"
+
+[[evolutions]]
+into_name = "SLAKING"
+condition = "Level"
+parameter = "36"
+
+[base_stats]
+hp = 80
+atk = 80
+def_ = 80
+spa = 55
+spd = 55
+spe = 90
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 2
+
+[wild_items]

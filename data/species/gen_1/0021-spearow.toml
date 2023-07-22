@@ -1,0 +1,97 @@
+name = "Spearow"
+primary_type = "NORMAL"
+secondary_type = "FLYING"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 52
+catch_rate = 255
+caught_happiness = 70
+raw_abilities = ["KEENEYE", "SNIPER"]
+raw_egg_moves = ["ASTONISH", "FEINTATTACK", "FEATHERDANCE", "QUICKATTACK", "RAZORWIND", "SCARYFACE", "SKYATTACK", "STEELWING", "TRIATTACK", "UPROAR", "WHIRLWIND"]
+raw_tms = ["WORKUP", "FLY", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "FRUSTRATION", "RETURN", "DOUBLETEAM", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "STEELWING", "FALSESWIPE", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "SCARYFACE", "ASSURANCE", "AGILITY", "FOCUSENERGY", "TRIATTACK", "ENDURE", "BATONPASS", "SWIFT"]
+raw_tutor_moves = ["AIRCUTTER", "DEFOG", "DRILLRUN", "HEATWAVE", "MUDSLAP", "OMINOUSWIND", "SKYATTACK", "SNORE", "TAILWIND", "TWISTER", "UPROAR", "MIMIC"]
+compatible_egg_groups = ["Flying"]
+steps_to_hatch = 4080
+height = 0.3
+weight = 2.0
+colour = "Brown"
+kind = "Tiny Bird"
+pokedex_entry = "Its loud cry can be heard over half a mile away. If its high, keening cry is heard echoing all around, it is a sign that they are warning of danger."
+battler_player_y = 29
+battler_enemy_y = 23
+battler_altitude = 0
+form_names = []
+internal_name = "SPEAROW"
+habitat = "RoughTerrain"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PECK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "PURSUIT"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "FURYATTACK"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "AERIALACE"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "MIRRORMOVE"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "ASSURANCE"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "FOCUSENERGY"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "ROOST"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "DRILLPECK"
+
+[[evolutions]]
+into_name = "FEAROW"
+condition = "Level"
+parameter = "20"
+
+[base_stats]
+hp = 40
+atk = 60
+def_ = 30
+spa = 31
+spd = 31
+spe = 70
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 1
+
+[wild_items]
+uncommon = "SHARPBEAK"

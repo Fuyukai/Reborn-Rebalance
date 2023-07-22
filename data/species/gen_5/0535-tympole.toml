@@ -1,0 +1,104 @@
+name = "Tympole"
+primary_type = "WATER"
+secondary_type = "WATER"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 59
+catch_rate = 255
+caught_happiness = 70
+raw_abilities = ["SWIFTSWIM", "HYDRATION"]
+raw_egg_moves = ["AFTERYOU", "EARTHPOWER", "MIST", "MUDBOMB", "MUDSPORT", "REFRESH", "SLEEPTALK", "SNORE", "VENOMDRENCH", "WATERPULSE"]
+raw_tms = ["SURF", "TOXIC", "HAIL", "HIDDENPOWER", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "DOUBLETEAM", "SLUDGEWAVE", "SLUDGEBOMB", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "SCALD", "INFESTATION", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "SCREECH", "WEATHERBALL", "MUDSHOT", "HYDROPUMP", "ENDURE", "MUDDYWATER", "VENOMDRENCH"]
+raw_tutor_moves = ["AFTERYOU", "BOUNCE", "EARTHPOWER", "ENDEAVOR", "HYPERVOICE", "ICYWIND", "MUDSLAP", "SNORE", "UPROAR", "WATERPULSE", "MIMIC"]
+compatible_egg_groups = ["Water1"]
+steps_to_hatch = 5120
+height = 0.5
+weight = 4.5
+colour = "Blue"
+kind = "Tadpole"
+pokedex_entry = "By vibrating its cheeks, it emits sound waves imperceptible to humans. It uses the rhythm of these sounds to talk."
+battler_player_y = 31
+battler_enemy_y = 25
+battler_altitude = 2
+form_names = []
+internal_name = "TYMPOLE"
+raw_hidden_ability = "WATERABSORB"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BUBBLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "SUPERSONIC"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "ROUND"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "BUBBLEBEAM"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "MUDSHOT"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "AQUARING"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "UPROAR"
+
+[[raw_level_up_moves]]
+at_level = "27"
+name = "MUDDYWATER"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "RAINDANCE"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "FLAIL"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "ECHOEDVOICE"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "HYDROPUMP"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "HYPERVOICE"
+
+[[evolutions]]
+into_name = "PALPITOAD"
+condition = "Level"
+parameter = "25"
+
+[base_stats]
+hp = 50
+atk = 50
+def_ = 40
+spa = 50
+spd = 40
+spe = 64
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 1
+
+[wild_items]

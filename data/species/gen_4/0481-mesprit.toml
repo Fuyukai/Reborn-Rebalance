@@ -1,0 +1,103 @@
+name = "Mesprit"
+primary_type = "PSYCHIC"
+secondary_type = "PSYCHIC"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 261
+catch_rate = 3
+caught_happiness = 140
+raw_abilities = ["LEVITATE"]
+raw_egg_moves = []
+raw_tms = ["PSYSHOCK", "CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "SANDSTORM", "FACADE", "REST", "ROUND", "ENERGYBALL", "FLING", "CHARGEBEAM", "ACROBATICS", "GIGAIMPACT", "THUNDERWAVE", "PSYCHUP", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "POWERUPPUNCH", "DAZZLINGGLEAM", "CONFIDE", "CHARM", "IMPRISON", "PSYCHOCUT", "DRAININGKISS", "METRONOME", "TRIATTACK", "ENDURE", "BATONPASS", "ENCORE", "FUTURESIGHT", "NASTYPLOT", "STOREDPOWER", "PLAYROUGH", "SWIFT"]
+raw_tutor_moves = ["ALLYSWITCH", "DRAINPUNCH", "FIREPUNCH", "HEADBUTT", "HELPINGHAND", "ICEPUNCH", "IRONTAIL", "KNOCKOFF", "LASERFOCUS", "MAGICCOAT", "MAGICROOM", "MUDSLAP", "RECYCLE", "ROLEPLAY", "SHOCKWAVE", "SIGNALBEAM", "SKILLSWAP", "SNORE", "STEALTHROCK", "TELEKINESIS", "THUNDERPUNCH", "TRICK", "WATERPULSE", "WONDERROOM", "ZENHEADBUTT", "EXPANDINGFORCE", "MYSTICALPOWER", "POWERSHIFT", "MIMIC"]
+compatible_egg_groups = ["Undiscovered"]
+steps_to_hatch = 20655
+height = 0.3
+weight = 0.3
+colour = "Pink"
+kind = "Emotion"
+pokedex_entry = "Known as “The Being of Emotion.” It taught humans the nobility of sorrow, pain, and joy."
+battler_player_y = 23
+battler_enemy_y = 24
+battler_altitude = 18
+evolutions = []
+form_names = []
+internal_name = "MESPRIT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HEALINGWISH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "NATURALGIFT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "COPYCAT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "REST"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CONFUSION"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "IMPRISON"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "PROTECT"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "SWIFT"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "LUCKYCHANT"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "FUTURESIGHT"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "CHARM"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "EXTRASENSORY"
+
+[[raw_level_up_moves]]
+at_level = "61"
+name = "MYSTICALPOWER"
+
+[[raw_level_up_moves]]
+at_level = "66"
+name = "NATURALGIFT"
+
+[[raw_level_up_moves]]
+at_level = "76"
+name = "HEALINGWISH"
+
+[base_stats]
+hp = 80
+atk = 105
+def_ = 105
+spa = 105
+spd = 105
+spe = 80
+
+[ev_yield]
+hp = 0
+atk = 1
+def_ = 0
+spa = 1
+spd = 1
+spe = 0
+
+[wild_items]

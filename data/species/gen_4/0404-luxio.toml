@@ -1,0 +1,100 @@
+name = "Luxio"
+primary_type = "ELECTRIC"
+secondary_type = "ELECTRIC"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 127
+catch_rate = 120
+caught_happiness = 100
+raw_abilities = ["RIVALRY", "INTIMIDATE"]
+raw_egg_moves = []
+raw_tms = ["STRENGTH", "ROAR", "TOXIC", "FLASH", "HIDDENPOWER", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "CHARGEBEAM", "VOLTSWITCH", "THUNDERWAVE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "SNARL", "CONFIDE", "SCARYFACE", "FAKETEARS", "THUNDERFANG", "ICEFANG", "PSYCHICFANGS", "CRUNCH", "EERIEIMPULSE", "ENDURE", "ELECTROBALL", "PLAYROUGH", "TRAILBLAZE", "SWIFT"]
+raw_tutor_moves = ["FURYCUTTER", "HEADBUTT", "HELPINGHAND", "IRONTAIL", "MAGNETRISE", "MUDSLAP", "SHOCKWAVE", "SIGNALBEAM", "SNORE", "RISINGVOLTAGE", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5355
+height = 0.9
+weight = 30.5
+colour = "Blue"
+kind = "Spark"
+pokedex_entry = "Its claws loose electricity with enough amperage to cause fainting. They live in small groups."
+battler_player_y = 22
+battler_enemy_y = 18
+battler_altitude = 0
+form_names = []
+internal_name = "LUXIO"
+raw_hidden_ability = "GUTS"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "CHARGE"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "SPARK"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "ROAR"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "SWAGGER"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "THUNDERFANG"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "SCARYFACE"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "DISCHARGE"
+
+[[raw_level_up_moves]]
+at_level = "53"
+name = "WILDCHARGE"
+
+[[evolutions]]
+into_name = "LUXRAY"
+condition = "Level"
+parameter = "30"
+
+[base_stats]
+hp = 60
+atk = 85
+def_ = 49
+spa = 60
+spd = 49
+spe = 60
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

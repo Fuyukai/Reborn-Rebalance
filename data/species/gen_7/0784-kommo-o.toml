@@ -1,0 +1,137 @@
+name = "Kommo-o"
+primary_type = "DRAGON"
+secondary_type = "FIGHTING"
+gender_ratio = "Female50Percent"
+growth_rate = "Slow"
+exp_yield = 270
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["BULLETPROOF", "SOUNDPROOF"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "DRAGONCLAW", "ROAR", "TOXIC", "BULKUP", "ROCKCLIMB", "HIDDENPOWER", "TAUNT", "HYPERBEAM", "PROTECT", "SAFEGUARD", "FRUSTRATION", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "FLAMETHROWER", "SANDSTORM", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "FOCUSBLAST", "FALSESWIPE", "FLING", "BRUTALSWING", "SHADOWCLAW", "PAYBACK", "GIGAIMPACT", "ROCKPOLISH", "SWORDSDANCE", "BULLDOZE", "ROCKSLIDE", "XSCISSOR", "DRAGONTAIL", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "SCREECH", "SCARYFACE", "REVENGE", "BREAKINGSWIPE", "CLOSECOMBAT", "REVERSAL", "ENDURE", "DRAGONDANCE", "AURASPHERE", "BODYPRESS"]
+raw_tutor_moves = ["AQUATAIL", "DRACOMETEOR", "DRAGONPULSE", "DRAINPUNCH", "DUALCHOP", "ENDEAVOR", "FIREPUNCH", "FOCUSPUNCH", "HYPERVOICE", "ICEPUNCH", "IRONDEFENSE", "IRONHEAD", "IRONTAIL", "LASERFOCUS", "LOWKICK", "OUTRAGE", "SHOCKWAVE", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "SUPERPOWER", "THUNDERPUNCH", "UPROAR", "WATERPULSE", "COACHING", "SCALESHOT", "MIMIC"]
+compatible_egg_groups = ["Dragon"]
+steps_to_hatch = 10240
+height = 1.6
+weight = 78.2
+colour = "Gray"
+kind = "Scaly"
+pokedex_entry = "When it spots enemies, it threatens them by jingling the scales on its tail. Weak opponents will crack and flee in panic."
+battler_player_y = 9
+battler_enemy_y = 12
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "KOMMOO"
+raw_hidden_ability = "OVERCOAT"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "CLANGINGSCALES"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SKYUPPERCUT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BELLYDRUM"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "AUTOTOMIZE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BIDE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PROTECT"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "BIDE"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "PROTECT"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "DRAGONTAIL"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "SCARYFACE"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "HEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "WORKUP"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "SCREECH"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "IRONDEFENSE"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "DRAGONCLAW"
+
+[[raw_level_up_moves]]
+at_level = "51"
+name = "NOBLEROAR"
+
+[[raw_level_up_moves]]
+at_level = "59"
+name = "DRAGONDANCE"
+
+[[raw_level_up_moves]]
+at_level = "67"
+name = "OUTRAGE"
+
+[[raw_level_up_moves]]
+at_level = "75"
+name = "CLOSECOMBAT"
+
+[[raw_level_up_moves]]
+at_level = "80"
+name = "CLANGOROUSSOUL"
+
+[base_stats]
+hp = 75
+atk = 110
+def_ = 125
+spa = 100
+spd = 105
+spe = 85
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 3
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+common = "RAZORCLAW"

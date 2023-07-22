@@ -1,0 +1,78 @@
+name = "Clefable"
+primary_type = "FAIRY"
+secondary_type = "FAIRY"
+gender_ratio = "Female75Percent"
+growth_rate = "Fast"
+exp_yield = 213
+catch_rate = 25
+caught_happiness = 140
+raw_abilities = ["CUTECHARM", "MAGICGUARD"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "PSYSHOCK", "CALMMIND", "STRENGTH", "TOXIC", "ROCKSMASH", "FLASH", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "THUNDERBOLT", "THUNDER", "RETURN", "PSYCHIC", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "FIREBLAST", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "FOCUSBLAST", "FLING", "CHARGEBEAM", "GIGAIMPACT", "THUNDERWAVE", "PSYCHUP", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "DAZZLINGGLEAM", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "MAGICALLEAF", "DIG", "CHARM", "IMPRISON", "FAKETEARS", "DRAININGKISS", "MISTYTERRAIN", "MYSTICALFIRE", "BODYSLAM", "METRONOME", "AMNESIA", "TRIATTACK", "ENDURE", "BATONPASS", "ENCORE", "COSMICPOWER", "STOREDPOWER", "PLAYROUGH", "RETALIATE"]
+raw_tutor_moves = ["AFTERYOU", "ALLYSWITCH", "BOUNCE", "COVET", "DRAINPUNCH", "ENDEAVOR", "FIREPUNCH", "FOCUSPUNCH", "GRAVITY", "HEADBUTT", "HEALBELL", "HELPINGHAND", "HYPERVOICE", "ICEPUNCH", "ICYWIND", "IRONTAIL", "KNOCKOFF", "LASERFOCUS", "LASTRESORT", "MAGICCOAT", "MUDSLAP", "RECYCLE", "ROLEPLAY", "ROLLOUT", "SHOCKWAVE", "SIGNALBEAM", "SNATCH", "SNORE", "STEALTHROCK", "TELEKINESIS", "THUNDERPUNCH", "TRICK", "UPROAR", "WATERPULSE", "WONDERROOM", "ZENHEADBUTT", "DUALWINGBEAT", "METEORBEAM", "MISTYEXPLOSION", "MIMIC"]
+compatible_egg_groups = ["Fairy"]
+steps_to_hatch = 2805
+height = 1.3
+weight = 40.0
+colour = "Pink"
+kind = "Fairy"
+pokedex_entry = "A Clefable uses its wings to skip lightly as if it were flying. Its bouncy step lets it even walk on water. On quiet, moonlit nights, it strolls on lakes."
+battler_player_y = 19
+battler_enemy_y = 19
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "CLEFABLE"
+raw_hidden_ability = "UNAWARE"
+habitat = "Mountain"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SPOTLIGHT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DISARMINGVOICE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SING"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DOUBLESLAP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MINIMIZE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "METRONOME"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LIFEDEW"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MISTYEXPLOSION"
+
+[base_stats]
+hp = 95
+atk = 70
+def_ = 73
+spa = 95
+spd = 90
+spe = 60
+
+[ev_yield]
+hp = 3
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "MOONSTONE"

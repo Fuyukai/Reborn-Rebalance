@@ -1,0 +1,114 @@
+name = "Seaking"
+primary_type = "WATER"
+secondary_type = "WATER"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 158
+catch_rate = 60
+caught_happiness = 70
+raw_abilities = ["SWIFTSWIM", "WATERVEIL"]
+raw_egg_moves = []
+raw_tms = ["SURF", "WATERFALL", "TOXIC", "DIVE", "HAIL", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "ROUND", "SCALD", "SMARTSTRIKE", "GIGAIMPACT", "SWORDSDANCE", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "WHIRLPOOL", "MUDSHOT", "BODYSLAM", "HYDROPUMP", "MEGAHORN", "AGILITY", "ENDURE", "MUDDYWATER", "SWIFT"]
+raw_tutor_moves = ["AQUATAIL", "BOUNCE", "DRILLRUN", "FURYCUTTER", "ICYWIND", "KNOCKOFF", "MUDSLAP", "SIGNALBEAM", "SNORE", "THROATCHOP", "WATERPULSE", "FLIPTURN", "SCALESHOT", "MIMIC"]
+compatible_egg_groups = ["Water2"]
+steps_to_hatch = 5355
+height = 1.3
+weight = 39.0
+colour = "Red"
+kind = "Goldfish"
+pokedex_entry = "It punches holes in boulders on stream- beds. This is a clever innovation that prevents its eggs from being attacked or washed away by the current."
+battler_player_y = 24
+battler_enemy_y = 15
+battler_altitude = 10
+evolutions = []
+form_names = []
+internal_name = "SEAKING"
+raw_hidden_ability = "LIGHTNINGROD"
+habitat = "WatersEdge"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MEGAHORN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POISONJAB"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PECK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TAILWHIP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WATERSPORT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SUPERSONIC"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "SUPERSONIC"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "HORNATTACK"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "FLAIL"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "WATERPULSE"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "AQUARING"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "FURYATTACK"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "WATERFALL"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "HORNDRILL"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "SOAK"
+
+[[raw_level_up_moves]]
+at_level = "54"
+name = "MEGAHORN"
+
+[base_stats]
+hp = 80
+atk = 92
+def_ = 65
+spa = 65
+spd = 80
+spe = 68
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "MYSTICWATER"

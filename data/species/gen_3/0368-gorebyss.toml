@@ -1,0 +1,105 @@
+name = "Gorebyss"
+primary_type = "WATER"
+secondary_type = "WATER"
+gender_ratio = "Female50Percent"
+growth_rate = "Erratic"
+exp_yield = 170
+catch_rate = 60
+caught_happiness = 70
+raw_abilities = ["SWIFTSWIM", "HYDRATION"]
+raw_egg_moves = []
+raw_tms = ["SURF", "WATERFALL", "TOXIC", "DIVE", "HAIL", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "ROUND", "SCALD", "GIGAIMPACT", "PSYCHUP", "INFESTATION", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "WHIRLPOOL", "BRINE", "DRAININGKISS", "BODYSLAM", "HYDROPUMP", "AGILITY", "AMNESIA", "ENDURE", "BATONPASS", "MUDDYWATER", "SWIFT"]
+raw_tutor_moves = ["AQUATAIL", "BIND", "BOUNCE", "ICYWIND", "MUDSLAP", "SIGNALBEAM", "SNORE", "WATERPULSE", "MIMIC"]
+compatible_egg_groups = ["Water1"]
+steps_to_hatch = 5355
+height = 1.8
+weight = 22.6
+colour = "Pink"
+kind = "South Sea"
+pokedex_entry = "A Gorebyss siphons the body fluids of prey through its thin, tubular mouth. Its light pink body color turns vivid when it finishes feeding."
+battler_player_y = 20
+battler_enemy_y = 12
+battler_altitude = 10
+evolutions = []
+form_names = []
+internal_name = "GOREBYSS"
+habitat = "Sea"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WHIRLPOOL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CONFUSION"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "WATERSPORT"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "DRAININGKISS"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "WATERPULSE"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "AMNESIA"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "AQUARING"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "CAPTIVATE"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "DIVE"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "BATONPASS"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "PSYCHIC"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "AQUATAIL"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "COIL"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "HYDROPUMP"
+
+[base_stats]
+hp = 55
+atk = 84
+def_ = 105
+spa = 114
+spd = 75
+spe = 52
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 2
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "DEEPSEASCALE"

@@ -1,0 +1,119 @@
+name = "Xerneas"
+primary_type = "FAIRY"
+secondary_type = "FAIRY"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 306
+catch_rate = 3
+caught_happiness = 70
+raw_abilities = ["FAIRYAURA"]
+raw_egg_moves = []
+raw_tms = ["CUT", "PSYSHOCK", "CALMMIND", "ROAR", "TOXIC", "HAIL", "FLASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "PSYCHIC", "DOUBLETEAM", "REFLECT", "FACADE", "REST", "ROUND", "ECHOEDVOICE", "FOCUSBLAST", "SMARTSTRIKE", "GIGAIMPACT", "THUNDERWAVE", "PSYCHUP", "ROCKSLIDE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "NATUREPOWER", "DAZZLINGGLEAM", "CONFIDE", "DRAININGKISS", "MISTYTERRAIN", "BODYSLAM", "MEGAHORN", "CLOSECOMBAT", "ENDURE", "PLAYROUGH", "SWIFT"]
+raw_tutor_moves = ["BLOCK", "DEFOG", "ENDEAVOR", "GRAVITY", "HYPERVOICE", "LASERFOCUS", "OUTRAGE", "SNORE", "WONDERROOM", "ZENHEADBUTT", "TERRAINPULSE", "MISTYEXPLOSION", "MIMIC"]
+compatible_egg_groups = ["Undiscovered"]
+steps_to_hatch = 30855
+height = 3.0
+weight = 215.0
+colour = "Blue"
+kind = "Life"
+pokedex_entry = "Legends say it can share eternal life. It slept for a thousand years in the form of a tree before its revival."
+battler_player_y = 8
+battler_enemy_y = 6
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "XERNEAS"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MISTYEXPLOSION"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HEALPULSE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "AROMATHERAPY"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "INGRAIN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "LIGHTSCREEN"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "AURORABEAM"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "GRAVITY"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "GEOMANCY"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "MOONBLAST"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "MEGAHORN"
+
+[[raw_level_up_moves]]
+at_level = "51"
+name = "NIGHTSLASH"
+
+[[raw_level_up_moves]]
+at_level = "55"
+name = "HORNLEECH"
+
+[[raw_level_up_moves]]
+at_level = "59"
+name = "PSYCHUP"
+
+[[raw_level_up_moves]]
+at_level = "63"
+name = "MISTYTERRAIN"
+
+[[raw_level_up_moves]]
+at_level = "72"
+name = "NATUREPOWER"
+
+[[raw_level_up_moves]]
+at_level = "80"
+name = "CLOSECOMBAT"
+
+[[raw_level_up_moves]]
+at_level = "88"
+name = "GIGAIMPACT"
+
+[[raw_level_up_moves]]
+at_level = "93"
+name = "OUTRAGE"
+
+[base_stats]
+hp = 126
+atk = 131
+def_ = 95
+spa = 131
+spd = 98
+spe = 99
+
+[ev_yield]
+hp = 3
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

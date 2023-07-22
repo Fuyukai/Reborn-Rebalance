@@ -1,0 +1,121 @@
+name = "Vanillish"
+primary_type = "ICE"
+secondary_type = "ICE"
+gender_ratio = "Female50Percent"
+growth_rate = "Slow"
+exp_yield = 138
+catch_rate = 120
+caught_happiness = 70
+raw_abilities = ["ICEBODY", "SNOWCLOAK"]
+raw_egg_moves = []
+raw_tms = ["TOXIC", "HAIL", "HIDDENPOWER", "TAUNT", "ICEBEAM", "BLIZZARD", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "ROUND", "EXPLOSION", "AURORAVEIL", "FROSTBREATH", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "CONFIDE", "SELFDESTRUCT", "IMPRISON", "ICICLESPEAR", "AVALANCHE", "ENDURE"]
+raw_tutor_moves = ["ALLYSWITCH", "HYPERVOICE", "ICYWIND", "IRONDEFENSE", "MAGICCOAT", "MAGNETRISE", "SIGNALBEAM", "SNORE", "UPROAR", "WATERPULSE", "MIMIC"]
+compatible_egg_groups = ["Mineral"]
+steps_to_hatch = 5120
+height = 1.1
+weight = 41.0
+colour = "White"
+kind = "Icy Snow"
+pokedex_entry = "It conceals itself from enemy eyes by creating many small ice particles and hiding among them."
+battler_player_y = 21
+battler_enemy_y = 13
+battler_altitude = 2
+form_names = []
+internal_name = "VANILLISH"
+raw_hidden_ability = "WEAKARMOR"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ICICLESPEAR"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HARDEN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ASTONISH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "UPROAR"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "HARDEN"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "ASTONISH"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "UPROAR"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "ICYWIND"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "MIST"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "AVALANCHE"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "TAUNT"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "MIRRORSHOT"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "ACIDARMOR"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "ICEBEAM"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "HAIL"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "MIRRORCOAT"
+
+[[raw_level_up_moves]]
+at_level = "53"
+name = "BLIZZARD"
+
+[[raw_level_up_moves]]
+at_level = "58"
+name = "SHEERCOLD"
+
+[[evolutions]]
+into_name = "VANILLUXE"
+condition = "Level"
+parameter = "47"
+
+[base_stats]
+hp = 51
+atk = 65
+def_ = 65
+spa = 80
+spd = 75
+spe = 59
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 2
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "NEVERMELTICE"

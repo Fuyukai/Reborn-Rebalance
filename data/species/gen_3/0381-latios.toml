@@ -1,0 +1,124 @@
+name = "Latios"
+primary_type = "DRAGON"
+secondary_type = "PSYCHIC"
+gender_ratio = "AlwaysMale"
+growth_rate = "Slow"
+exp_yield = 270
+catch_rate = 3
+caught_happiness = 90
+raw_abilities = ["LEVITATE"]
+raw_egg_moves = []
+raw_tms = ["CUT", "DRAGONCLAW", "FLY", "PSYSHOCK", "SURF", "CALMMIND", "ROAR", "WATERFALL", "TOXIC", "DIVE", "FLASH", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "SANDSTORM", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "STEELWING", "ENERGYBALL", "CHARGEBEAM", "SHADOWCLAW", "GIGAIMPACT", "THUNDERWAVE", "PSYCHUP", "BULLDOZE", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "WHIRLPOOL", "PSYCHOCUT", "AIRSLASH", "MYSTICALFIRE", "BREAKINGSWIPE", "BODYSLAM", "AGILITY", "TRIATTACK", "ENDURE", "BATONPASS", "FUTURESIGHT", "DRAGONDANCE", "AURASPHERE", "STOREDPOWER", "RETALIATE", "SWIFT"]
+raw_tutor_moves = ["ALLYSWITCH", "DEFOG", "DRACOMETEOR", "DRAGONPULSE", "FURYCUTTER", "HELPINGHAND", "ICYWIND", "LASERFOCUS", "LASTRESORT", "MAGICCOAT", "MUDSLAP", "OUTRAGE", "SHOCKWAVE", "SNORE", "TAILWIND", "TELEKINESIS", "TRICK", "TWISTER", "WATERPULSE", "WONDERROOM", "ZENHEADBUTT", "DUALWINGBEAT", "SCALESHOT", "MIMIC"]
+compatible_egg_groups = ["Undiscovered"]
+steps_to_hatch = 30855
+height = 2.0
+weight = 60.0
+colour = "Blue"
+kind = "Eon"
+pokedex_entry = "Even in hiding, it can detect the locations of others and sense their emotions telepathically. Its intelligence allows it to understand human languages."
+battler_player_y = 12
+battler_enemy_y = 7
+battler_altitude = 10
+evolutions = []
+form_names = []
+internal_name = "LATIOS"
+habitat = "WatersEdge"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MEMENTO"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HELPINGHAND"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HEALBLOCK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PSYWAVE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SAFEGUARD"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "PROTECT"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "DRAGONDANCE"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "STOREDPOWER"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "REFRESH"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "HEALPULSE"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "DRAGONBREATH"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "LUSTERPURGE"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "PSYCHOSHIFT"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "RECOVER"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "TELEKINESIS"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "ZENHEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "POWERSPLIT"
+
+[[raw_level_up_moves]]
+at_level = "51"
+name = "PSYCHIC"
+
+[[raw_level_up_moves]]
+at_level = "56"
+name = "DRAGONPULSE"
+
+[[raw_level_up_moves]]
+at_level = "61"
+name = "MEMENTO"
+
+[base_stats]
+hp = 80
+atk = 90
+def_ = 80
+spa = 130
+spd = 110
+spe = 110
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 3
+spd = 0
+spe = 0
+
+[wild_items]

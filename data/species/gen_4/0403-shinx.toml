@@ -1,0 +1,100 @@
+name = "Shinx"
+primary_type = "ELECTRIC"
+secondary_type = "ELECTRIC"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 53
+catch_rate = 235
+caught_happiness = 70
+raw_abilities = ["RIVALRY", "INTIMIDATE"]
+raw_egg_moves = ["DOUBLEKICK", "EERIEIMPULSE", "FAKETEARS", "FIREFANG", "HELPINGHAND", "HOWL", "ICEFANG", "NIGHTSLASH", "QUICKATTACK", "SHOCKWAVE", "SIGNALBEAM", "SWIFT", "TAKEDOWN", "THUNDERFANG"]
+raw_tms = ["STRENGTH", "ROAR", "TOXIC", "FLASH", "HIDDENPOWER", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "CHARGEBEAM", "VOLTSWITCH", "THUNDERWAVE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "SNARL", "CONFIDE", "SCARYFACE", "FAKETEARS", "THUNDERFANG", "ICEFANG", "PSYCHICFANGS", "CRUNCH", "EERIEIMPULSE", "ENDURE", "ELECTROBALL", "PLAYROUGH", "TRAILBLAZE", "SWIFT"]
+raw_tutor_moves = ["FURYCUTTER", "HEADBUTT", "HELPINGHAND", "IRONTAIL", "MAGNETRISE", "MUDSLAP", "SHOCKWAVE", "SIGNALBEAM", "SNORE", "RISINGVOLTAGE", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5355
+height = 0.5
+weight = 9.5
+colour = "Blue"
+kind = "Flash"
+pokedex_entry = "All of its fur dazzles if danger is sensed. It flees while the foe is momentarily blinded."
+battler_player_y = 29
+battler_enemy_y = 24
+battler_altitude = 0
+form_names = []
+internal_name = "SHINX"
+raw_hidden_ability = "GUTS"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "CHARGE"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "BABYDOLLEYES"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "SPARK"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "ROAR"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "SWAGGER"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "THUNDERFANG"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "SCARYFACE"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "DISCHARGE"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "WILDCHARGE"
+
+[[evolutions]]
+into_name = "LUXIO"
+condition = "Level"
+parameter = "15"
+
+[base_stats]
+hp = 45
+atk = 65
+def_ = 34
+spa = 40
+spd = 34
+spe = 45
+
+[ev_yield]
+hp = 0
+atk = 1
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

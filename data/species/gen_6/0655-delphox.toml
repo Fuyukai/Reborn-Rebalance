@@ -1,0 +1,139 @@
+name = "Delphox"
+primary_type = "FIRE"
+secondary_type = "PSYCHIC"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+exp_yield = 240
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["BLAZE", "MAGICIAN"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "CUT", "PSYSHOCK", "CALMMIND", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "FLAMETHROWER", "FIREBLAST", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "THIEF", "ROUND", "OVERHEAT", "WILLOWISP", "EMBARGO", "GIGAIMPACT", "PSYCHUP", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "POWERUPPUNCH", "DAZZLINGGLEAM", "CONFIDE", "FIRESPIN", "PSYCHICTERRAIN", "MYSTICALFIRE", "ENDURE", "FUTURESIGHT", "NASTYPLOT"]
+raw_tutor_moves = ["ALLYSWITCH", "BLASTBURN", "COVET", "FIREPLEDGE", "FIREPUNCH", "FOULPLAY", "HEATWAVE", "IRONTAIL", "LASERFOCUS", "LOWKICK", "MAGICCOAT", "MAGICROOM", "RECYCLE", "ROLEPLAY", "SHOCKWAVE", "SIGNALBEAM", "SKILLSWAP", "SNATCH", "SNORE", "TELEKINESIS", "THUNDERPUNCH", "TRICK", "WONDERROOM", "ZENHEADBUTT", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5120
+height = 1.5
+weight = 39.0
+colour = "Red"
+kind = "Fox"
+pokedex_entry = "It gazes into the flame at the tip of its branch to achieve a focused state, which allows it to see into the future."
+battler_player_y = 12
+battler_enemy_y = 12
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "DELPHOX"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "MYSTICALFIRE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FUTURESIGHT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ROLEPLAY"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SWITCHEROO"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SHADOWBALL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SCRATCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TAILWHIP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "EMBER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HOWL"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "EMBER"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "HOWL"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "FLAMECHARGE"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "PSYBEAM"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "FIRESPIN"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "LUCKYCHANT"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "LIGHTSCREEN"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "PSYSHOCK"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "FLAMETHROWER"
+
+[[raw_level_up_moves]]
+at_level = "51"
+name = "WILLOWISP"
+
+[[raw_level_up_moves]]
+at_level = "57"
+name = "PSYCHIC"
+
+[[raw_level_up_moves]]
+at_level = "62"
+name = "SUNNYDAY"
+
+[[raw_level_up_moves]]
+at_level = "68"
+name = "MAGICROOM"
+
+[[raw_level_up_moves]]
+at_level = "74"
+name = "FIREBLAST"
+
+[[raw_level_up_moves]]
+at_level = "80"
+name = "FUTURESIGHT"
+
+[base_stats]
+hp = 75
+atk = 69
+def_ = 72
+spa = 114
+spd = 100
+spe = 104
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 3
+spd = 0
+spe = 0
+
+[wild_items]

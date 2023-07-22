@@ -1,0 +1,117 @@
+name = "Toucannon"
+primary_type = "NORMAL"
+secondary_type = "FLYING"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 218
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["KEENEYE", "SKILLLINK"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "FLY", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "ROOST", "ROOST", "FRUSTRATION", "SMACKDOWN", "RETURN", "BRICKBREAK", "DOUBLETEAM", "AERIALACE", "FLAMECHARGE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "OVERHEAT", "STEELWING", "SWORDSDANCE", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "CONFIDE", "SCREECH", "BULLETSEED", "ROCKBLAST", "BRAVEBIRD", "ENDURE"]
+raw_tutor_moves = ["AIRCUTTER", "DEFOG", "GUNKSHOT", "HEATWAVE", "HYPERVOICE", "KNOCKOFF", "SEEDBOMB", "SKYATTACK", "SNORE", "TAILWIND", "UPROAR", "MIMIC"]
+compatible_egg_groups = ["Flying"]
+steps_to_hatch = 3840
+height = 1.1
+weight = 26.0
+colour = "Black"
+kind = "Cannon"
+pokedex_entry = "Within its beak, its internal gas ignites, explosively launching seeds with enough power to pulverize boulders."
+battler_player_y = 10
+battler_enemy_y = 13
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "TOUCANNON"
+raw_hidden_ability = "SHEERFORCE"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "BEAKBLAST"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ROCKBLAST"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PECK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ECHOEDVOICE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ROCKSMASH"
+
+[[raw_level_up_moves]]
+at_level = "3"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "ECHOEDVOICE"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "ROCKSMASH"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "SUPERSONIC"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "PLUCK"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "ROOST"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "FURYATTACK"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "SCREECH"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "DRILLPECK"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "BULLETSEED"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "FEATHERDANCE"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "HYPERVOICE"
+
+[base_stats]
+hp = 80
+atk = 120
+def_ = 75
+spa = 75
+spd = 75
+spe = 60
+
+[ev_yield]
+hp = 0
+atk = 3
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "RAWSTBERRY"

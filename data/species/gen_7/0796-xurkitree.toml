@@ -1,0 +1,115 @@
+name = "Xurkitree"
+primary_type = "ELECTRIC"
+secondary_type = "ELECTRIC"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 257
+catch_rate = 30
+caught_happiness = 0
+raw_abilities = ["BEASTBOOST"]
+raw_egg_moves = []
+raw_tms = ["CALMMIND", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "SOLARBEAM", "THUNDERBOLT", "THUNDER", "RETURN", "DOUBLETEAM", "REFLECT", "FACADE", "REST", "ROUND", "ENERGYBALL", "FLING", "CHARGEBEAM", "BRUTALSWING", "GIGAIMPACT", "VOLTSWITCH", "THUNDERWAVE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "NATUREPOWER", "DAZZLINGGLEAM", "CONFIDE", "ELECTRICTERRAIN", "EERIEIMPULSE", "POWERWHIP", "ENDURE", "ELECTROBALL"]
+raw_tutor_moves = ["BIND", "ELECTROWEB", "GRAVITY", "MAGICCOAT", "MAGNETRISE", "SHOCKWAVE", "SIGNALBEAM", "SNORE", "THUNDERPUNCH", "RISINGVOLTAGE", "MIMIC"]
+compatible_egg_groups = ["Undiscovered"]
+steps_to_hatch = 30720
+height = 3.8
+weight = 100.0
+colour = "Black"
+kind = "Glowing"
+pokedex_entry = "One of the mysterious life-forms known as Ultra Beasts. Astonishing electric shocks emanate from its entire body, according to witnesses."
+battler_player_y = 8
+battler_enemy_y = 7
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "XURKITREE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TAILGLOW"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SPARK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CHARGE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WRAP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "THUNDERSHOCK"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "THUNDERWAVE"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "SHOCKWAVE"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "INGRAIN"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "THUNDERPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "EERIEIMPULSE"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "SIGNALBEAM"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "THUNDERBOLT"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "HYPNOSIS"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "DISCHARGE"
+
+[[raw_level_up_moves]]
+at_level = "53"
+name = "ELECTRICTERRAIN"
+
+[[raw_level_up_moves]]
+at_level = "59"
+name = "POWERWHIP"
+
+[[raw_level_up_moves]]
+at_level = "67"
+name = "IONDELUGE"
+
+[[raw_level_up_moves]]
+at_level = "73"
+name = "ZAPCANNON"
+
+[base_stats]
+hp = 83
+atk = 89
+def_ = 71
+spa = 173
+spd = 71
+spe = 83
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 3
+spd = 0
+spe = 0
+
+[wild_items]

@@ -1,0 +1,88 @@
+name = "Barraskewda"
+primary_type = "WATER"
+secondary_type = "WATER"
+gender_ratio = "Female50Percent"
+growth_rate = "Slow"
+exp_yield = 172
+catch_rate = 60
+caught_happiness = 50
+raw_abilities = ["SWIFTSWIM", "PROPELLERTAIL"]
+raw_egg_moves = ["THRASH", "ACUPRESSURE", "SLASH", "NIGHTSLASH"]
+raw_tms = ["SURF", "WATERFALL", "DIVE", "HYPERBEAM", "PROTECT", "RAINDANCE", "BRICKBREAK", "FACADE", "REST", "ATTRACT", "ROUND", "SCALD", "GIGAIMPACT", "POISONJAB", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "SCARYFACE", "WHIRLPOOL", "ASSURANCE", "ICEFANG", "PSYCHICFANGS", "CRUNCH", "HYDROPUMP", "CLOSECOMBAT", "AGILITY", "FOCUSENERGY", "ENDURE", "CHILLINGWATER", "SWIFT"]
+raw_tutor_moves = ["AQUATAIL", "BOUNCE", "DRILLRUN", "LASERFOCUS", "LIQUIDATION", "SNORE", "THROATCHOP", "WATERPULSE", "FLIPTURN", "SCALESHOT", "MIMIC"]
+compatible_egg_groups = ["Water2"]
+steps_to_hatch = 5120
+height = 1.3
+weight = 30.0
+colour = "Brown"
+kind = "Rush"
+pokedex_entry = "After it's eaten its fill, its movements become extremely sluggish. That's when Cramorant swallows it up."
+battler_player_y = 21
+battler_enemy_y = 26
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "BARRASKEWDA"
+regional_numbers = 847
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "THROATCHOP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PECK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "AQUAJET"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FURYATTACK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "DIVE"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "LASERFOCUS"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "LIQUIDATION"
+
+[[raw_level_up_moves]]
+at_level = "56"
+name = "DOUBLEEDGE"
+
+[base_stats]
+hp = 61
+atk = 123
+def_ = 60
+spa = 60
+spd = 50
+spe = 136
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 1
+
+[wild_items]

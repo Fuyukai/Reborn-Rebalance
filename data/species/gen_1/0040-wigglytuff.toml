@@ -1,0 +1,74 @@
+name = "Wigglytuff"
+primary_type = "NORMAL"
+secondary_type = "FAIRY"
+gender_ratio = "Female75Percent"
+growth_rate = "Fast"
+exp_yield = 191
+catch_rate = 50
+caught_happiness = 70
+raw_abilities = ["CUTECHARM", "COMPETITIVE"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "STRENGTH", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "THUNDERBOLT", "THUNDER", "RETURN", "PSYCHIC", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "FIREBLAST", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "FOCUSBLAST", "FLING", "CHARGEBEAM", "GIGAIMPACT", "THUNDERWAVE", "GYROBALL", "PSYCHUP", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "POWERUPPUNCH", "DAZZLINGGLEAM", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "SCREECH", "SELFDESTRUCT", "CHARM", "FAKETEARS", "DRAININGKISS", "MISTYTERRAIN", "BODYSLAM", "HURRICANE", "TRIATTACK", "ENDURE", "BATONPASS", "PLAYROUGH", "RETALIATE", "ICESPINNER", "TRAILBLAZE", "CHILLINGWATER"]
+raw_tutor_moves = ["ALLYSWITCH", "BOUNCE", "COVET", "DRAINPUNCH", "ENDEAVOR", "FIREPUNCH", "FOCUSPUNCH", "GRAVITY", "HEADBUTT", "HEALBELL", "HELPINGHAND", "HYPERVOICE", "ICEPUNCH", "ICYWIND", "KNOCKOFF", "LASERFOCUS", "LASTRESORT", "MAGICCOAT", "MAGICROOM", "MUDSLAP", "PAINSPLIT", "RECYCLE", "ROLEPLAY", "ROLLOUT", "SHOCKWAVE", "SNATCH", "SNORE", "STEALTHROCK", "TELEKINESIS", "THUNDERPUNCH", "WATERPULSE", "EXPANDINGFORCE", "STEELROLLER", "MISTYEXPLOSION", "MIMIC"]
+compatible_egg_groups = ["Fairy"]
+steps_to_hatch = 2805
+height = 1.0
+weight = 12.0
+colour = "Pink"
+kind = "Balloon"
+pokedex_entry = "Its fur is the ultimate in luxuriousness. Sleeping alongside a Wigglytuff is simply divine. Its body expands seemingly without end when it inhales."
+battler_player_y = 21
+battler_enemy_y = 13
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "WIGGLYTUFF"
+raw_hidden_ability = "FRISK"
+habitat = "Grassland"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DOUBLEEDGE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SING"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DISABLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DEFENSECURL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DOUBLESLAP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PLAYROUGH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MISTYEXPLOSION"
+
+[base_stats]
+hp = 140
+atk = 70
+def_ = 45
+spa = 85
+spd = 50
+spe = 45
+
+[ev_yield]
+hp = 3
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "MOONSTONE"

@@ -1,0 +1,107 @@
+name = "Volcanion"
+primary_type = "FIRE"
+secondary_type = "WATER"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 270
+catch_rate = 3
+caught_happiness = 100
+raw_abilities = ["WATERABSORB"]
+raw_egg_moves = []
+raw_tms = ["CUT", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "SOLARBEAM", "SMACKDOWN", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "SLUDGEWAVE", "FLAMETHROWER", "SLUDGEBOMB", "SANDSTORM", "FIREBLAST", "FACADE", "FLAMECHARGE", "REST", "ROUND", "OVERHEAT", "FOCUSBLAST", "SCALD", "FLING", "WILLOWISP", "EXPLOSION", "GIGAIMPACT", "STONEEDGE", "GYROBALL", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "CONFIDE", "FIRESPIN", "SCARYFACE", "WEATHERBALL", "MUDSHOT", "THUNDERFANG", "MISTYTERRAIN", "BODYSLAM", "HYDROPUMP", "FLAREBLITZ", "FOCUSENERGY", "ENDURE", "HEATCRASH", "HEAVYSLAM", "BODYPRESS"]
+raw_tutor_moves = ["DEFOG", "EARTHPOWER", "HEATWAVE", "LIQUIDATION", "SNORE", "STOMPINGTANTRUM", "SUPERPOWER", "WATERPULSE", "SCORCHINGSANDS", "MIMIC"]
+compatible_egg_groups = ["Undiscovered"]
+steps_to_hatch = 30855
+height = 1.7
+weight = 195.0
+colour = "Brown"
+kind = "Steam"
+pokedex_entry = "It expels its internal steam from the arms on its back. It has enough power to blow away a mountain."
+battler_player_y = 14
+battler_enemy_y = 22
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "VOLCANION"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "STEAMERUPTION"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FLAREBLITZ"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "MIST"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "HAZE"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "FLAMECHARGE"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "WATERPULSE"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "STOMP"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "SCALD"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "WEATHERBALL"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "BODYSLAM"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "HYDROPUMP"
+
+[[raw_level_up_moves]]
+at_level = "58"
+name = "FLAREBLITZ"
+
+[[raw_level_up_moves]]
+at_level = "65"
+name = "OVERHEAT"
+
+[[raw_level_up_moves]]
+at_level = "76"
+name = "EXPLOSION"
+
+[[raw_level_up_moves]]
+at_level = "85"
+name = "STEAMERUPTION"
+
+[base_stats]
+hp = 80
+atk = 110
+def_ = 120
+spa = 130
+spd = 90
+spe = 70
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 3
+spd = 0
+spe = 0
+
+[wild_items]

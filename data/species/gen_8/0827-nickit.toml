@@ -1,0 +1,93 @@
+name = "Nickit"
+primary_type = "DARK"
+secondary_type = "DARK"
+gender_ratio = "Female50Percent"
+growth_rate = "Fast"
+exp_yield = 49
+catch_rate = 255
+caught_happiness = 50
+raw_abilities = ["RUNAWAY", "UNBURDEN"]
+raw_egg_moves = ["QUICKGUARD", "KNOCKOFF", "HOWL", "TORMENT"]
+raw_tms = ["TAUNT", "PROTECT", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "SNARL", "DIG", "SCREECH", "BEATUP", "FAKETEARS", "MUDSHOT", "ASSURANCE", "TAILSLAP", "AGILITY", "ENDURE", "BATONPASS", "NASTYPLOT", "PLAYROUGH", "SWIFT"]
+raw_tutor_moves = ["COVET", "FOULPLAY", "KNOCKOFF", "SNATCH", "SNORE", "SUCKERPUNCH", "LASHOUT", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 3840
+height = 0.6
+weight = 8.9
+colour = "Brown"
+kind = "Fox"
+pokedex_entry = "Cunning and cautious, this Pokémon survives by stealing food from others. It erases its tracks with swipes of its tail as it makes off with its plunder."
+battler_player_y = 21
+battler_enemy_y = 26
+battler_altitude = 0
+form_names = []
+internal_name = "NICKIT"
+raw_hidden_ability = "STAKEOUT"
+regional_numbers = 827
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TAILWHIP"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "BEATUP"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "HONECLAWS"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "SNARL"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "ASSURANCE"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "NASTYPLOT"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "SUCKERPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "NIGHTSLASH"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "TAILSLAP"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "FOULPLAY"
+
+[[evolutions]]
+into_name = "THIEVUL"
+condition = "Level"
+parameter = "18"
+
+[base_stats]
+hp = 40
+atk = 28
+def_ = 28
+spa = 47
+spd = 52
+spe = 50
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 1
+spe = 0
+
+[wild_items]

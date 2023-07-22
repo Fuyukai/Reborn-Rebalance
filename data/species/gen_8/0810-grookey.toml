@@ -1,0 +1,92 @@
+name = "Grookey"
+primary_type = "GRASS"
+secondary_type = "GRASS"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+exp_yield = 62
+catch_rate = 45
+caught_happiness = 50
+raw_abilities = ["OVERGROW", "GRASSYSURGE"]
+raw_egg_moves = ["GROWTH", "HAMMERARM", "FAKEOUT", "STRENGTH", "NATUREPOWER", "WORRYSEED", "LEECHSEED"]
+raw_tms = ["WORKUP", "STRENGTH", "SUNNYDAY", "TAUNT", "PROTECT", "SOLARBEAM", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "FALSESWIPE", "FLING", "ACROBATICS", "SWORDSDANCE", "GRASSKNOT", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "MEGAPUNCH", "MEGAKICK", "MAGICALLEAF", "SOLARBLADE", "SCREECH", "ASSURANCE", "FOCUSENERGY", "ENDURE", "TRAILBLAZE", "SWIFT"]
+raw_tutor_moves = ["DRAINPUNCH", "ENDEAVOR", "GIGADRAIN", "GRASSPLEDGE", "KNOCKOFF", "LOWKICK", "SNORE", "UPROAR", "WORRYSEED", "GRASSYGLIDE", "MIMIC"]
+compatible_egg_groups = ["Field", "Grass"]
+steps_to_hatch = 5120
+height = 0.3
+weight = 5.0
+colour = "Green"
+kind = "Chimp"
+pokedex_entry = "It attacks with rapid beats of its stick. As it strikes with amazing speed, it gets more and more pumped."
+battler_player_y = 21
+battler_enemy_y = 26
+battler_altitude = 0
+form_names = []
+internal_name = "GROOKEY"
+regional_numbers = 810
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SCRATCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "BRANCHPOKE"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "TAUNT"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "RAZORLEAF"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "SCREECH"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "KNOCKOFF"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "SLAM"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "UPROAR"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "WOODHAMMER"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "ENDEAVOR"
+
+[[evolutions]]
+into_name = "THWACKEY"
+condition = "Level"
+parameter = "16"
+
+[base_stats]
+hp = 50
+atk = 65
+def_ = 50
+spa = 40
+spd = 40
+spe = 65
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 1
+spe = 0
+
+[wild_items]

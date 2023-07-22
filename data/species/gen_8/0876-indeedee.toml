@@ -1,0 +1,97 @@
+name = "Indeedee"
+primary_type = "PSYCHIC"
+secondary_type = "NORMAL"
+gender_ratio = "Female50Percent"
+growth_rate = "Fast"
+exp_yield = 166
+catch_rate = 30
+caught_happiness = 140
+raw_abilities = ["SYNCHRONIZE", "PSYCHICSURGE"]
+raw_egg_moves = ["PSYCHUP", "FAKEOUT", "EXTRASENSORY"]
+raw_tms = ["PSYSHOCK", "CALMMIND", "LIGHTSCREEN", "PROTECT", "PSYCHIC", "SHADOWBALL", "REFLECT", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "PSYCHUP", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "DAZZLINGGLEAM", "PAYDAY", "MAGICALLEAF", "IMPRISON", "POWERSWAP", "GUARDSWAP", "DRAININGKISS", "PSYCHICTERRAIN", "MYSTICALFIRE", "METRONOME", "TRIATTACK", "ENDURE", "ENCORE", "FUTURESIGHT", "STOREDPOWER", "PLAYROUGH", "SWIFT"]
+raw_tutor_moves = ["AFTERYOU", "ALLYSWITCH", "DRAINPUNCH", "HELPINGHAND", "HYPERVOICE", "LASTRESORT", "MAGICROOM", "SNORE", "TRICK", "WONDERROOM", "ZENHEADBUTT", "TERRAINPULSE", "EXPANDINGFORCE", "MIMIC"]
+compatible_egg_groups = ["Fairy"]
+steps_to_hatch = 10240
+height = 0.9
+weight = 28.0
+colour = "Purple"
+kind = "Emotion"
+pokedex_entry = "Through its horns, it can pick up on the emotions of creatures around it. Positive emotions are the source of its strength."
+battler_player_y = 21
+battler_enemy_y = 26
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "INDEEDEE"
+raw_hidden_ability = "INNERFOCUS"
+regional_numbers = 876
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "STOREDPOWER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PLAYNICE"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "ENCORE"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "DISARMINGVOICE"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "PSYBEAM"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "HELPINGHAND"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "AFTERYOU"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "AROMATHERAPY"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "PSYCHIC"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "CALMMIND"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "POWERSPLIT"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "PSYCHICTERRAIN"
+
+[[raw_level_up_moves]]
+at_level = "55"
+name = "LASTRESORT"
+
+[base_stats]
+hp = 70
+atk = 65
+def_ = 55
+spa = 105
+spd = 95
+spe = 95
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 2
+spd = 0
+spe = 0
+
+[wild_items]

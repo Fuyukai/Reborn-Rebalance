@@ -1,0 +1,142 @@
+name = "Volcarona"
+primary_type = "BUG"
+secondary_type = "FIRE"
+gender_ratio = "Female50Percent"
+growth_rate = "Slow"
+exp_yield = 248
+catch_rate = 15
+caught_happiness = 70
+raw_abilities = ["FLAMEBODY", "SWARM"]
+raw_egg_moves = []
+raw_tms = ["FLY", "CALMMIND", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "ROOST", "ROOST", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "LEECHLIFE", "PSYCHIC", "DOUBLETEAM", "FLAMETHROWER", "FIREBLAST", "AERIALACE", "FACADE", "FLAMECHARGE", "REST", "ROUND", "OVERHEAT", "WILLOWISP", "ACROBATICS", "GIGAIMPACT", "STRUGGLEBUG", "POISONJAB", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "CONFIDE", "FIRESPIN", "MYSTICALFIRE", "HURRICANE", "FLAREBLITZ", "AMNESIA", "ENDURE", "BUGBUZZ", "POUNCE", "TRAILBLAZE"]
+raw_tutor_moves = ["BUGBITE", "DEFOG", "GIGADRAIN", "HEATWAVE", "MAGNETRISE", "SIGNALBEAM", "SNORE", "TAILWIND", "ZENHEADBUTT", "DUALWINGBEAT", "SKITTERSMACK", "MIMIC"]
+compatible_egg_groups = ["Bug"]
+steps_to_hatch = 10240
+height = 1.6
+weight = 46.0
+colour = "White"
+kind = "Sun"
+pokedex_entry = "A sea of fire engulfs the surroundings of their battles, since they use their six wings to scatter their ember scales."
+battler_player_y = 15
+battler_enemy_y = 20
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "VOLCARONA"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "QUIVERDANCE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FIERYDANCE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HURRICANE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "RAGEPOWDER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HEATWAVE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FLAREBLITZ"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "THRASH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "AMNESIA"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BUGBUZZ"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FLAMEWHEEL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "EMBER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "STRINGSHOT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ABSORB"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GUST"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "ABSORB"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "GUST"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "FIRESPIN"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "WHIRLWIND"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "SILVERWIND"
+
+[[raw_level_up_moves]]
+at_level = "60"
+name = "HEATWAVE"
+
+[[raw_level_up_moves]]
+at_level = "70"
+name = "BUGBUZZ"
+
+[[raw_level_up_moves]]
+at_level = "80"
+name = "RAGEPOWDER"
+
+[[raw_level_up_moves]]
+at_level = "90"
+name = "HURRICANE"
+
+[[raw_level_up_moves]]
+at_level = "100"
+name = "FIERYDANCE"
+
+[base_stats]
+hp = 85
+atk = 60
+def_ = 65
+spa = 135
+spd = 105
+spe = 100
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 3
+spd = 0
+spe = 0
+
+[wild_items]
+common = "SILVERPOWDER"
+uncommon = "SILVERPOWDER"
+rare = "SILVERPOWDER"

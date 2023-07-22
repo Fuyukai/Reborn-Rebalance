@@ -1,0 +1,108 @@
+name = "Pidove"
+primary_type = "NORMAL"
+secondary_type = "FLYING"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 53
+catch_rate = 255
+caught_happiness = 70
+raw_abilities = ["BIGPECKS", "SUPERLUCK"]
+raw_egg_moves = ["BESTOW", "HYPNOSIS", "LUCKYCHANT", "MORNINGSUN", "NIGHTSLASH", "STEELWING", "UPROAR", "WISH"]
+raw_tms = ["WORKUP", "FLY", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "FRUSTRATION", "RETURN", "DOUBLETEAM", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "STEELWING", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "AIRSLASH", "AGILITY", "FOCUSENERGY", "ENDURE", "SWIFT"]
+raw_tutor_moves = ["AIRCUTTER", "DEFOG", "HEATWAVE", "SKYATTACK", "SNORE", "TAILWIND", "UPROAR", "DUALWINGBEAT", "MIMIC"]
+compatible_egg_groups = ["Flying"]
+steps_to_hatch = 3840
+height = 0.3
+weight = 2.1
+colour = "Gray"
+kind = "Tiny Pigeon"
+pokedex_entry = "These Pokémon live in cities. They are accustomed to people. Flocks often gather in parks and plazas."
+battler_player_y = 28
+battler_enemy_y = 30
+battler_altitude = 0
+form_names = []
+internal_name = "PIDOVE"
+raw_hidden_ability = "RIVALRY"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GUST"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "AIRCUTTER"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "ROOST"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "DETECT"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "TAUNT"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "AIRSLASH"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "RAZORWIND"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "FEATHERDANCE"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "SWAGGER"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "FACADE"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "TAILWIND"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "SKYATTACK"
+
+[[evolutions]]
+into_name = "TRANQUILL"
+condition = "Level"
+parameter = "21"
+
+[base_stats]
+hp = 50
+atk = 55
+def_ = 50
+spa = 36
+spd = 30
+spe = 43
+
+[ev_yield]
+hp = 0
+atk = 1
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

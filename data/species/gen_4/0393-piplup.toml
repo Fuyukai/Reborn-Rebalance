@@ -1,0 +1,99 @@
+name = "Piplup"
+primary_type = "WATER"
+secondary_type = "WATER"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+exp_yield = 63
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["TORRENT", "DEFIANT"]
+raw_egg_moves = ["AGILITY", "AQUARING", "BIDE", "DOUBLEHIT", "FEATHERDANCE", "FLAIL", "HYDROPUMP", "ICYWIND", "MUDSPORT", "MUDSLAP", "POWERTRIP", "SNORE", "SUPERSONIC", "YAWN"]
+raw_tms = ["WORKUP", "CUT", "SURF", "WATERFALL", "TOXIC", "DIVE", "HAIL", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "BRICKBREAK", "DOUBLETEAM", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "SCALD", "FLING", "QUASH", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "WHIRLPOOL", "BRINE", "HYDROPUMP", "AGILITY", "ENDURE"]
+raw_tutor_moves = ["COVET", "DEFOG", "HEADBUTT", "ICYWIND", "MUDSLAP", "SIGNALBEAM", "SNORE", "STEALTHROCK", "WATERPLEDGE", "WATERPULSE", "MIMIC"]
+compatible_egg_groups = ["Water1", "Field"]
+steps_to_hatch = 5355
+height = 0.4
+weight = 5.2
+colour = "Blue"
+kind = "Penguin"
+pokedex_entry = "Because it is very proud, it hates accepting food from people. Its thick down guards it from cold."
+battler_player_y = 31
+battler_enemy_y = 25
+battler_altitude = 0
+form_names = []
+internal_name = "PIPLUP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POUND"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "BUBBLE"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "WATERSPORT"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "PECK"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "BUBBLEBEAM"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "BIDE"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "FURYATTACK"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "BRINE"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "WHIRLPOOL"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "MIST"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "DRILLPECK"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "HYDROPUMP"
+
+[[evolutions]]
+into_name = "PRINPLUP"
+condition = "Level"
+parameter = "16"
+
+[base_stats]
+hp = 53
+atk = 51
+def_ = 53
+spa = 61
+spd = 56
+spe = 40
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 1
+spd = 0
+spe = 0
+
+[wild_items]

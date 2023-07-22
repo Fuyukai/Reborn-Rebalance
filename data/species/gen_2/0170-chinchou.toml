@@ -1,0 +1,114 @@
+name = "Chinchou"
+primary_type = "WATER"
+secondary_type = "ELECTRIC"
+gender_ratio = "Female50Percent"
+growth_rate = "Slow"
+exp_yield = 66
+catch_rate = 190
+caught_happiness = 70
+raw_abilities = ["VOLTABSORB", "ILLUMINATE"]
+raw_egg_moves = ["AGILITY", "AMNESIA", "BRINE", "FLAIL", "MIST", "PSYBEAM", "SCREECH", "SHOCKWAVE", "SOAK", "WATERPULSE", "WHIRLPOOL"]
+raw_tms = ["SURF", "WATERFALL", "TOXIC", "DIVE", "HAIL", "FLASH", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "ROUND", "SCALD", "CHARGEBEAM", "VOLTSWITCH", "THUNDERWAVE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "DAZZLINGGLEAM", "CONFIDE", "SCREECH", "WHIRLPOOL", "BRINE", "HYDROPUMP", "AGILITY", "AMNESIA", "ENDURE", "ELECTROBALL"]
+raw_tutor_moves = ["BOUNCE", "HEALBELL", "ICYWIND", "SHOCKWAVE", "SIGNALBEAM", "SNORE", "SUCKERPUNCH", "WATERPULSE", "RISINGVOLTAGE", "MIMIC"]
+compatible_egg_groups = ["Water2"]
+steps_to_hatch = 5355
+height = 0.5
+weight = 12.0
+colour = "Blue"
+kind = "Angler"
+pokedex_entry = "When it senses danger, it discharges positive and negative electricity from its two antennae. It lives in depths beyond sunlight's reach."
+battler_player_y = 29
+battler_enemy_y = 21
+battler_altitude = 10
+form_names = []
+internal_name = "CHINCHOU"
+raw_hidden_ability = "WATERABSORB"
+habitat = "Sea"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BUBBLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SUPERSONIC"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "THUNDERWAVE"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "ELECTROBALL"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "WATERGUN"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "CONFUSERAY"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "BUBBLEBEAM"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "SPARK"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "SIGNALBEAM"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "FLAIL"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "DISCHARGE"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "AQUARING"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "HYDROPUMP"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "IONDELUGE"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "CHARGE"
+
+[[evolutions]]
+into_name = "LANTURN"
+condition = "Level"
+parameter = "27"
+
+[base_stats]
+hp = 75
+atk = 38
+def_ = 38
+spa = 56
+spd = 56
+spe = 67
+
+[ev_yield]
+hp = 1
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "DEEPSEASCALE"

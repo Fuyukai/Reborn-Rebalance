@@ -1,0 +1,105 @@
+name = "Carkol"
+primary_type = "ROCK"
+secondary_type = "FIRE"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 144
+catch_rate = 120
+caught_happiness = 50
+raw_abilities = ["STEAMENGINE", "FLAMEBODY"]
+raw_egg_moves = ["EXPLOSION", "MUDSLAP", "BLOCK"]
+raw_tms = ["ROCKCLIMB", "PROTECT", "SMACKDOWN", "REFLECT", "FLAMETHROWER", "SANDSTORM", "FIREBLAST", "ROCKTOMB", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "ROUND", "OVERHEAT", "SCALD", "WILLOWISP", "EXPLOSION", "ROCKPOLISH", "STONEEDGE", "GYROBALL", "ROCKSLIDE", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "FIRESPIN", "DIG", "SELFDESTRUCT", "SANDTOMB", "ROCKBLAST", "FLAREBLITZ", "SPIKES", "ENDURE", "HEATCRASH", "HEAVYSLAM", "HIGHHORSEPOWER", "BODYPRESS"]
+raw_tutor_moves = ["ANCIENTPOWER", "BLOCK", "HEATWAVE", "IRONDEFENSE", "IRONHEAD", "MUDSLAP", "SNORE", "STEALTHROCK", "SCORCHINGSANDS", "METEORBEAM", "MIMIC"]
+compatible_egg_groups = ["Mineral"]
+steps_to_hatch = 3840
+height = 1.1
+weight = 78.0
+colour = "Black"
+kind = "Coal"
+pokedex_entry = "By rapidly rolling its legs, it can travel at over 18 mph. The temperature of the flames it breathes exceeds 1,800 degrees Fahrenheit."
+battler_player_y = 21
+battler_enemy_y = 26
+battler_altitude = 0
+form_names = []
+internal_name = "CARKOL"
+raw_hidden_ability = "FLASHFIRE"
+regional_numbers = 838
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "TARSHOT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TARSHOT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FLAMECHARGE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SMOKESCREEN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "RAPIDSPIN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SMACKDOWN"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "ROCKPOLISH"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "ANCIENTPOWER"
+
+[[raw_level_up_moves]]
+at_level = "27"
+name = "INCINERATE"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "STEALTHROCK"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "HEATCRASH"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "ROCKBLAST"
+
+[[raw_level_up_moves]]
+at_level = "55"
+name = "BURNUP"
+
+[[evolutions]]
+into_name = "COALOSSAL"
+condition = "Level"
+parameter = "34"
+
+[base_stats]
+hp = 80
+atk = 60
+def_ = 90
+spa = 60
+spd = 70
+spe = 50
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 2
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

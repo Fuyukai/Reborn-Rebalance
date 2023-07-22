@@ -1,0 +1,60 @@
+name = "Cosmoem"
+primary_type = "PSYCHIC"
+secondary_type = "PSYCHIC"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 140
+catch_rate = 3
+caught_happiness = 0
+raw_abilities = ["STURDY"]
+raw_egg_moves = []
+raw_tms = ["COSMICPOWER"]
+raw_tutor_moves = []
+compatible_egg_groups = ["Undiscovered"]
+steps_to_hatch = 30720
+height = 0.1
+weight = 999.9
+colour = "Blue"
+kind = "Protostar"
+pokedex_entry = "Motionless as if dead, its body is faintly warm to the touch. In the distant past, it was called the cocoon of the stars."
+battler_player_y = 15
+battler_enemy_y = 13
+battler_altitude = 9
+form_names = []
+internal_name = "COSMOEM"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "COSMICPOWER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TELEPORT"
+
+[[evolutions]]
+into_name = "SOLGALEO"
+condition = "LevelDay"
+parameter = "53"
+
+[[evolutions]]
+into_name = "LUNALA"
+condition = "LevelNight"
+parameter = "53"
+
+[base_stats]
+hp = 43
+atk = 29
+def_ = 131
+spa = 29
+spd = 131
+spe = 37
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 1
+spa = 0
+spd = 1
+spe = 0
+
+[wild_items]

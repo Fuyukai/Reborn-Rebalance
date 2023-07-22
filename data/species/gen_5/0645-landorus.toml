@@ -1,0 +1,123 @@
+name = "Landorus"
+primary_type = "GROUND"
+secondary_type = "FLYING"
+gender_ratio = "AlwaysMale"
+growth_rate = "Slow"
+exp_yield = 270
+catch_rate = 3
+caught_happiness = 90
+raw_abilities = ["SANDFORCE", "SHEERFORCE"]
+raw_egg_moves = []
+raw_tms = ["FLY", "CALMMIND", "STRENGTH", "TOXIC", "ROCKSMASH", "BULKUP", "HIDDENPOWER", "HYPERBEAM", "PROTECT", "FRUSTRATION", "SMACKDOWN", "EARTHQUAKE", "RETURN", "PSYCHIC", "BRICKBREAK", "DOUBLETEAM", "SLUDGEWAVE", "SLUDGEBOMB", "SANDSTORM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "FOCUSBLAST", "FLING", "BRUTALSWING", "EXPLOSION", "PAYBACK", "GIGAIMPACT", "ROCKPOLISH", "STONEEDGE", "SWORDSDANCE", "BULLDOZE", "ROCKSLIDE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "SELFDESTRUCT", "SCARYFACE", "IMPRISON", "WEATHERBALL", "SANDTOMB", "MUDSHOT", "BODYSLAM", "ENDURE"]
+raw_tutor_moves = ["BLOCK", "DEFOG", "EARTHPOWER", "GRAVITY", "IRONTAIL", "KNOCKOFF", "OUTRAGE", "ROLEPLAY", "SNORE", "STEALTHROCK", "SUPERPOWER", "MIMIC"]
+compatible_egg_groups = ["Undiscovered"]
+steps_to_hatch = 30720
+height = 1.5
+weight = 68.0
+colour = "Brown"
+kind = "Abundance"
+pokedex_entry = "The energy that comes pouring from its tail increases the nutrition in the soil, making crops grow to great size."
+battler_player_y = 14
+battler_enemy_y = 8
+battler_altitude = 10
+evolutions = []
+form_names = []
+internal_name = "LANDORUS"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "OUTRAGE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HAMMERARM"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FISSURE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BLOCK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MUDSHOT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ROCKTOMB"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "IMPRISON"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "PUNISHMENT"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "BULLDOZE"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "ROCKTHROW"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "EXTRASENSORY"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "SWORDSDANCE"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "EARTHPOWER"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "ROCKSLIDE"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "EARTHQUAKE"
+
+[[raw_level_up_moves]]
+at_level = "55"
+name = "SANDSEARSTORM"
+
+[[raw_level_up_moves]]
+at_level = "61"
+name = "FISSURE"
+
+[[raw_level_up_moves]]
+at_level = "67"
+name = "STONEEDGE"
+
+[[raw_level_up_moves]]
+at_level = "73"
+name = "HAMMERARM"
+
+[[raw_level_up_moves]]
+at_level = "79"
+name = "OUTRAGE"
+
+[base_stats]
+hp = 89
+atk = 125
+def_ = 90
+spa = 115
+spd = 80
+spe = 101
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 3
+spd = 0
+spe = 0
+
+[wild_items]

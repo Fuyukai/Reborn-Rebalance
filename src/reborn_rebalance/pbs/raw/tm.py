@@ -25,7 +25,12 @@ class TechnicalMachine:
 
     @classmethod
     def add_unstructuring_hook(cls, converter: Converter):
-        unst_hook = make_dict_unstructure_fn(cls, converter, pokemon=override(omit=True))
+        unst_hook = make_dict_unstructure_fn(
+            cls,
+            converter,
+            _cattrs_omit_if_default=True,
+            pokemon=override(omit=True)
+        )
         converter.register_unstructure_hook(cls, unst_hook)
 
     #: If true, this TM is actually a TMX.
@@ -47,7 +52,7 @@ class TechnicalMachine:
     # POKEMON themselves.
     # this is written to during PBS serialisation as well...
     #: The list of compatible Pokémon for this TM.
-    pokemon: list[str] = attr.ib(factory=list)
+    pokemon: set[str] = attr.ib(factory=list)
 
     @classmethod
     def incomplete_from_pbs(cls, move: str, line: list[str]) -> Self:
@@ -55,4 +60,4 @@ class TechnicalMachine:
         Creates an (incomplete) TM from the provided PBS data.
         """
 
-        return TechnicalMachine(move=move, pokemon=line)
+        return TechnicalMachine(move=move, pokemon=set(line))

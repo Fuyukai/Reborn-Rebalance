@@ -1,0 +1,64 @@
+name = "Scatterbug"
+primary_type = "BUG"
+secondary_type = "BUG"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 40
+catch_rate = 255
+caught_happiness = 70
+raw_abilities = ["SHIELDDUST", "COMPOUNDEYES"]
+raw_egg_moves = ["POISONPOWDER", "RAGEPOWDER", "STUNSPORE"]
+raw_tms = ["POUNCE"]
+raw_tutor_moves = ["BUGBITE"]
+compatible_egg_groups = ["Bug"]
+steps_to_hatch = 3840
+height = 0.3
+weight = 2.5
+colour = "Black"
+kind = "Scatterdust"
+pokedex_entry = "The powder that covers its body regulates its temperature, so it can live in any region or climate."
+battler_player_y = 21
+battler_enemy_y = 25
+battler_altitude = 0
+form_names = []
+internal_name = "SCATTERBUG"
+raw_hidden_ability = "FRIENDGUARD"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "STRINGSHOT"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "STUNSPORE"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "BUGBITE"
+
+[[evolutions]]
+into_name = "SPEWPA"
+condition = "Level"
+parameter = "9"
+
+[base_stats]
+hp = 38
+atk = 35
+def_ = 40
+spa = 27
+spd = 25
+spe = 35
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 1
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

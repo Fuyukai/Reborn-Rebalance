@@ -1,0 +1,87 @@
+name = "Gible"
+primary_type = "DRAGON"
+secondary_type = "GROUND"
+gender_ratio = "Female50Percent"
+growth_rate = "Slow"
+exp_yield = 60
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["SANDVEIL", "ROUGHSKIN"]
+raw_egg_moves = ["BODYSLAM", "DOUBLEEDGE", "DRAGONBREATH", "IRONHEAD", "IRONTAIL", "METALCLAW", "MUDSHOT", "OUTRAGE", "ROCKCLIMB", "SANDTOMB", "SCARYFACE", "THRASH", "TWISTER"]
+raw_tms = ["CUT", "DRAGONCLAW", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "RAINDANCE", "FRUSTRATION", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "FLAMETHROWER", "SANDSTORM", "FIREBLAST", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "SHADOWCLAW", "STONEEDGE", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "SCARYFACE", "SANDTOMB", "MUDSHOT", "BODYSLAM", "HYDROPUMP", "ENDURE", "SWIFT"]
+raw_tutor_moves = ["DRACOMETEOR", "DRAGONPULSE", "EARTHPOWER", "FURYCUTTER", "HEADBUTT", "IRONHEAD", "IRONTAIL", "MUDSLAP", "OUTRAGE", "SNORE", "STEALTHROCK", "TWISTER", "SCORCHINGSANDS", "SCALESHOT", "MIMIC"]
+compatible_egg_groups = ["Monster", "Dragon"]
+steps_to_hatch = 10455
+height = 0.7
+weight = 20.5
+colour = "Blue"
+kind = "Land Shark"
+pokedex_entry = "It nests in small, horizontal holes in cave walls. It pounces to catch prey that strays too close."
+battler_player_y = 24
+battler_enemy_y = 19
+battler_altitude = 0
+form_names = []
+internal_name = "GIBLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "3"
+name = "SANDATTACK"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "DRAGONRAGE"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "SANDSTORM"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "SANDTOMB"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "SLASH"
+
+[[raw_level_up_moves]]
+at_level = "27"
+name = "DRAGONCLAW"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "DIG"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "DRAGONRUSH"
+
+[[evolutions]]
+into_name = "GABITE"
+condition = "Level"
+parameter = "24"
+
+[base_stats]
+hp = 58
+atk = 70
+def_ = 45
+spa = 40
+spd = 45
+spe = 42
+
+[ev_yield]
+hp = 0
+atk = 1
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

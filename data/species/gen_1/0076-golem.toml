@@ -1,0 +1,126 @@
+name = "Golem"
+primary_type = "ROCK"
+secondary_type = "GROUND"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 218
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["ROCKHEAD", "STURDY"]
+raw_egg_moves = []
+raw_tms = ["STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "FRUSTRATION", "SMACKDOWN", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "FLAMETHROWER", "SANDSTORM", "FIREBLAST", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "FOCUSBLAST", "FLING", "CHARGEBEAM", "BRUTALSWING", "EXPLOSION", "GIGAIMPACT", "ROCKPOLISH", "STONEEDGE", "VOLTSWITCH", "THUNDERWAVE", "GYROBALL", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "NATUREPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "SCREECH", "SELFDESTRUCT", "ROCKBLAST", "ELECTRICTERRAIN", "BODYSLAM", "FLAREBLITZ", "METRONOME", "ENDURE", "HEATCRASH", "HEAVYSLAM"]
+raw_tutor_moves = ["ALLYSWITCH", "ANCIENTPOWER", "BLOCK", "EARTHPOWER", "ELECTROWEB", "FIREPUNCH", "FOCUSPUNCH", "FURYCUTTER", "HEADBUTT", "IRONDEFENSE", "IRONHEAD", "MAGNETRISE", "MUDSLAP", "ROLLOUT", "SHOCKWAVE", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "SUCKERPUNCH", "SUPERPOWER", "THUNDERPUNCH", "STEELROLLER", "HEADLONGRUSH", "MIMIC"]
+compatible_egg_groups = ["Mineral"]
+steps_to_hatch = 4080
+height = 1.4
+weight = 300.0
+colour = "Brown"
+kind = "Megaton"
+pokedex_entry = "It is said to live in volcanic craters on mountain peaks. Once a year, it sheds its hide and grows larger. The shed hide crumbles and returns to the soil."
+battler_player_y = 20
+battler_enemy_y = 14
+battler_altitude = 0
+evolutions = []
+form_names = ["Normal", "Alternate"]
+internal_name = "GOLEM"
+raw_hidden_ability = "SANDVEIL"
+habitat = "Mountain"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HEAVYSLAM"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DEFENSECURL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MUDSPORT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ROCKPOLISH"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "MUDSPORT"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "ROCKPOLISH"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "STEAMROLLER"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "MAGNITUDE"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "ROCKTHROW"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "SMACKDOWN"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "BULLDOZE"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "SELFDESTRUCT"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "STEALTHROCK"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "ROCKBLAST"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "EARTHQUAKE"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "EXPLOSION"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "DOUBLEEDGE"
+
+[[raw_level_up_moves]]
+at_level = "54"
+name = "STONEEDGE"
+
+[[raw_level_up_moves]]
+at_level = "60"
+name = "HEAVYSLAM"
+
+[base_stats]
+hp = 80
+atk = 120
+def_ = 130
+spa = 55
+spd = 65
+spe = 45
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 3
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "EVERSTONE"

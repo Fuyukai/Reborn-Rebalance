@@ -1,0 +1,122 @@
+name = "Magnemite"
+primary_type = "ELECTRIC"
+secondary_type = "STEEL"
+gender_ratio = "Genderless"
+growth_rate = "Medium"
+exp_yield = 89
+catch_rate = 190
+caught_happiness = 70
+raw_abilities = ["MAGNETPULL", "STURDY"]
+raw_egg_moves = ["EXPLOSION", "ELECTROWEB"]
+raw_tms = ["TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "DOUBLETEAM", "REFLECT", "FACADE", "REST", "ROUND", "CHARGEBEAM", "EXPLOSION", "VOLTSWITCH", "THUNDERWAVE", "GYROBALL", "PSYCHUP", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "WILDCHARGE", "SECRETPOWER", "CONFIDE", "SCREECH", "ENDURE", "ELECTROBALL", "SWIFT"]
+raw_tutor_moves = ["ELECTROWEB", "GRAVITY", "IRONDEFENSE", "MAGICCOAT", "MAGNETRISE", "RECYCLE", "ROLLOUT", "SHOCKWAVE", "SIGNALBEAM", "SNORE", "RISINGVOLTAGE", "STEELBEAM", "MIMIC"]
+compatible_egg_groups = ["Mineral"]
+steps_to_hatch = 5355
+height = 0.3
+weight = 6.0
+colour = "Gray"
+kind = "Magnet"
+pokedex_entry = "The units at its sides are extremely powerful magnets. They generate enough magnetism to draw in iron objects from over 300 feet away."
+battler_player_y = 27
+battler_enemy_y = 29
+battler_altitude = 19
+form_names = []
+internal_name = "MAGNEMITE"
+raw_hidden_ability = "ANALYTIC"
+habitat = "RoughTerrain"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SUPERSONIC"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "THUNDERSHOCK"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "THUNDERWAVE"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "MAGNETBOMB"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "LIGHTSCREEN"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "SONICBOOM"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "SPARK"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "MIRRORSHOT"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "METALSOUND"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "ELECTROBALL"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "FLASHCANNON"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "SCREECH"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "DISCHARGE"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "LOCKON"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "MAGNETRISE"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "GYROBALL"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "ZAPCANNON"
+
+[[evolutions]]
+into_name = "MAGNETON"
+condition = "Level"
+parameter = "30"
+
+[base_stats]
+hp = 25
+atk = 35
+def_ = 70
+spa = 95
+spd = 55
+spe = 45
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 1
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "METALCOAT"

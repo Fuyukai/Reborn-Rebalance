@@ -1,0 +1,122 @@
+name = "Slowbro"
+primary_type = "WATER"
+secondary_type = "PSYCHIC"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 172
+catch_rate = 75
+caught_happiness = 70
+raw_abilities = ["OBLIVIOUS", "OWNTEMPO"]
+raw_egg_moves = []
+raw_tms = ["PSYSHOCK", "SURF", "CALMMIND", "STRENGTH", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "FLASH", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "EARTHQUAKE", "RETURN", "PSYCHIC", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "SLUDGEWAVE", "FLAMETHROWER", "FIREBLAST", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "FOCUSBLAST", "SCALD", "FLING", "BRUTALSWING", "GIGAIMPACT", "THUNDERWAVE", "PSYCHUP", "BULLDOZE", "POISONJAB", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "PAYDAY", "DIG", "WHIRLPOOL", "IMPRISON", "WEATHERBALL", "MUDSHOT", "BRINE", "AVALANCHE", "RAZORSHELL", "PSYCHICTERRAIN", "BODYSLAM", "HYDROPUMP", "AMNESIA", "TRIATTACK", "ENDURE", "FUTURESIGHT", "MUDDYWATER", "NASTYPLOT", "STOREDPOWER", "HEATCRASH", "BODYPRESS", "SNOWSCAPE", "CHILLINGWATER", "SWIFT"]
+raw_tutor_moves = ["AFTERYOU", "AQUATAIL", "BLOCK", "DRAINPUNCH", "FOCUSPUNCH", "FOULPLAY", "FURYCUTTER", "HEADBUTT", "ICEPUNCH", "ICYWIND", "IRONDEFENSE", "IRONTAIL", "LIQUIDATION", "MAGICCOAT", "MUDSLAP", "RECYCLE", "SIGNALBEAM", "SKILLSWAP", "SNORE", "TELEKINESIS", "TRICK", "WATERPULSE", "WONDERROOM", "ZENHEADBUTT", "EXPANDINGFORCE", "MIMIC"]
+compatible_egg_groups = ["Monster", "Water1"]
+steps_to_hatch = 5355
+height = 1.6
+weight = 78.5
+colour = "Pink"
+kind = "Hermit Crab"
+pokedex_entry = "Its tail has a Shellder firmly attached with a bite. As a result, the tail can't be used for fishing anymore. This forces it to reluctantly swim and catch prey."
+battler_player_y = 17
+battler_enemy_y = 13
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "SLOWBRO"
+raw_hidden_ability = "REGENERATOR"
+habitat = "WatersEdge"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "WITHDRAW"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HEALPULSE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CURSE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "YAWN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "WATERGUN"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "CONFUSION"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "DISABLE"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "HEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "WATERPULSE"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "ZENHEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "SLACKOFF"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "AMNESIA"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "PSYCHIC"
+
+[[raw_level_up_moves]]
+at_level = "55"
+name = "RAINDANCE"
+
+[[raw_level_up_moves]]
+at_level = "62"
+name = "PSYCHUP"
+
+[[raw_level_up_moves]]
+at_level = "68"
+name = "HEALPULSE"
+
+[base_stats]
+hp = 95
+atk = 75
+def_ = 110
+spa = 100
+spd = 80
+spe = 30
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 2
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "KINGSROCK"

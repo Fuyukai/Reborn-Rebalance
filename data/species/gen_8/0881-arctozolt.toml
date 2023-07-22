@@ -1,0 +1,97 @@
+name = "Arctozolt"
+primary_type = "ELECTRIC"
+secondary_type = "ICE"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 177
+catch_rate = 45
+caught_happiness = 50
+raw_abilities = ["VOLTABSORB", "HUSTLE"]
+raw_egg_moves = []
+raw_tms = ["SURF", "HAIL", "TAUNT", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "THUNDERBOLT", "THUNDER", "ROCKTOMB", "FACADE", "REST", "ROUND", "ECHOEDVOICE", "PAYBACK", "GIGAIMPACT", "STONEEDGE", "THUNDERWAVE", "BULLDOZE", "ROCKSLIDE", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "MEGAPUNCH", "MEGAKICK", "ICICLESPEAR", "ROCKBLAST", "AVALANCHE", "THUNDERFANG", "ICEFANG", "BODYSLAM", "HYDROPUMP", "ENDURE", "ELECTROBALL"]
+raw_tutor_moves = ["ANCIENTPOWER", "HYPERVOICE", "ICYWIND", "IRONTAIL", "LOWKICK", "SNORE", "STOMPINGTANTRUM", "THUNDERPUNCH", "RISINGVOLTAGE", "METEORBEAM", "MIMIC"]
+compatible_egg_groups = ["Undiscovered"]
+steps_to_hatch = 8960
+height = 2.3
+weight = 150.0
+colour = "Blue"
+kind = "Fossil"
+pokedex_entry = "This Pokémon lived on prehistoric seashores and was able to preserve food with the ice on its body. It went extinct because it moved so slowly."
+battler_player_y = 21
+battler_enemy_y = 26
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "ARCTOZOLT"
+raw_hidden_ability = "SLUSHRUSH"
+regional_numbers = 881
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POWDERSNOW"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "THUNDERSHOCK"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "CHARGE"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "ECHOEDVOICE"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "ANCIENTPOWER"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "PLUCK"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "AVALANCHE"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "FREEZEDRY"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "SLAM"
+
+[[raw_level_up_moves]]
+at_level = "56"
+name = "DISCHARGE"
+
+[[raw_level_up_moves]]
+at_level = "63"
+name = "BOLTBEAK"
+
+[[raw_level_up_moves]]
+at_level = "70"
+name = "ICICLECRASH"
+
+[[raw_level_up_moves]]
+at_level = "77"
+name = "BLIZZARD"
+
+[base_stats]
+hp = 90
+atk = 100
+def_ = 90
+spa = 90
+spd = 80
+spe = 55
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

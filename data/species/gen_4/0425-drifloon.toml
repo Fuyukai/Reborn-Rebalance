@@ -1,0 +1,108 @@
+name = "Drifloon"
+primary_type = "GHOST"
+secondary_type = "FLYING"
+gender_ratio = "Female50Percent"
+growth_rate = "Fluctuating"
+exp_yield = 70
+catch_rate = 125
+caught_happiness = 70
+raw_abilities = ["AFTERMATH", "UNBURDEN"]
+raw_egg_moves = ["BODYSLAM", "CLEARSMOG", "DEFOG", "DESTINYBOND", "DISABLE", "HAZE", "HYPNOSIS", "MEMENTO", "TAILWIND", "WEATHERBALL"]
+raw_tms = ["CUT", "CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "CHARGEBEAM", "BRUTALSWING", "WILLOWISP", "ACROBATICS", "EMBARGO", "EXPLOSION", "PAYBACK", "THUNDERWAVE", "GYROBALL", "PSYCHUP", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "SELFDESTRUCT", "WEATHERBALL", "HEX", "BODYSLAM", "FOCUSENERGY", "AMNESIA", "ENDURE", "BATONPASS", "SWIFT"]
+raw_tutor_moves = ["AIRCUTTER", "ALLYSWITCH", "BIND", "DEFOG", "ICYWIND", "KNOCKOFF", "MAGICCOAT", "MUDSLAP", "OMINOUSWIND", "PAINSPLIT", "RECYCLE", "ROLLOUT", "SHOCKWAVE", "SKILLSWAP", "SNORE", "SPITE", "SUCKERPUNCH", "TAILWIND", "TELEKINESIS", "TRICK", "MIMIC"]
+compatible_egg_groups = ["Amorphous"]
+steps_to_hatch = 7905
+height = 0.4
+weight = 1.2
+colour = "Purple"
+kind = "Balloon"
+pokedex_entry = "A Pokémon formed by the spirits of people and Pokémon. It loves damp, humid seasons."
+battler_player_y = 20
+battler_enemy_y = 15
+battler_altitude = 9
+form_names = []
+internal_name = "DRIFLOON"
+raw_hidden_ability = "FLAREBOOST"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CONSTRICT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MINIMIZE"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "ASTONISH"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "GUST"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "FOCUSENERGY"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "PAYBACK"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "OMINOUSWIND"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "STOCKPILE"
+
+[[raw_level_up_moves]]
+at_level = "27"
+name = "HEX"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "SWALLOW"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "SPITUP"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "SHADOWBALL"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "AMNESIA"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "BATONPASS"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "EXPLOSION"
+
+[[evolutions]]
+into_name = "DRIFBLIM"
+condition = "Level"
+parameter = "28"
+
+[base_stats]
+hp = 90
+atk = 50
+def_ = 34
+spa = 60
+spd = 44
+spe = 70
+
+[ev_yield]
+hp = 1
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

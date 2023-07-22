@@ -1,0 +1,121 @@
+name = "Manectric"
+primary_type = "ELECTRIC"
+secondary_type = "ELECTRIC"
+gender_ratio = "Female50Percent"
+growth_rate = "Slow"
+exp_yield = 166
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["STATIC", "LIGHTNINGROD"]
+raw_egg_moves = []
+raw_tms = ["STRENGTH", "ROAR", "TOXIC", "FLASH", "HIDDENPOWER", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "DOUBLETEAM", "FLAMETHROWER", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "OVERHEAT", "CHARGEBEAM", "GIGAIMPACT", "VOLTSWITCH", "THUNDERWAVE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "SNARL", "CONFIDE", "SCARYFACE", "THUNDERFANG", "ICEFANG", "FIREFANG", "PSYCHICFANGS", "CRUNCH", "ELECTRICTERRAIN", "EERIEIMPULSE", "BODYSLAM", "AGILITY", "ENDURE", "ELECTROBALL", "SWIFT"]
+raw_tutor_moves = ["HEADBUTT", "HYPERVOICE", "IRONTAIL", "LASERFOCUS", "MAGNETRISE", "MUDSLAP", "SHOCKWAVE", "SIGNALBEAM", "SNORE", "UPROAR", "RISINGVOLTAGE", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5355
+height = 1.5
+weight = 40.2
+colour = "Yellow"
+kind = "Discharge"
+pokedex_entry = "Because lightning falls in their vicinities, Manectric were thought to have been born from lightning. In battle, they create thunderclouds."
+battler_player_y = 14
+battler_enemy_y = 10
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "MANECTRIC"
+raw_hidden_ability = "MINUS"
+habitat = "Grassland"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ELECTRICTERRAIN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FIREFANG"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "THUNDERWAVE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HOWL"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "HOWL"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "SPARK"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "ODORSLEUTH"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "THUNDERFANG"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "DISCHARGE"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "ROAR"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "WILDCHARGE"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "CHARGE"
+
+[[raw_level_up_moves]]
+at_level = "54"
+name = "THUNDER"
+
+[[raw_level_up_moves]]
+at_level = "60"
+name = "ELECTRICTERRAIN"
+
+[base_stats]
+hp = 70
+atk = 75
+def_ = 60
+spa = 105
+spd = 60
+spe = 105
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 2
+
+[wild_items]

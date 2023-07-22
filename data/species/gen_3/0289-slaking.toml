@@ -1,0 +1,120 @@
+name = "Slaking"
+primary_type = "NORMAL"
+secondary_type = "NORMAL"
+gender_ratio = "Female50Percent"
+growth_rate = "Slow"
+exp_yield = 252
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["TRUANT"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "CUT", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "BULKUP", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "SOLARBEAM", "SMACKDOWN", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "FLAMETHROWER", "FIREBLAST", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "LOWSWEEP", "ROUND", "FOCUSBLAST", "FLING", "QUASH", "SHADOWCLAW", "GIGAIMPACT", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "BODYSLAM", "FOCUSENERGY", "AMNESIA", "REVERSAL", "ENDURE", "ENCORE", "PLAYROUGH", "BODYPRESS", "RETALIATE", "POUNCE", "TRAILBLAZE", "CHILLINGWATER"]
+raw_tutor_moves = ["AFTERYOU", "BLOCK", "COVET", "FIREPUNCH", "FOCUSPUNCH", "FURYCUTTER", "GUNKSHOT", "HEADBUTT", "ICEPUNCH", "ICYWIND", "LOWKICK", "MUDSLAP", "SHOCKWAVE", "SNORE", "STOMPINGTANTRUM", "SUCKERPUNCH", "THUNDERPUNCH", "WATERPULSE", "HEADLONGRUSH", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 4080
+height = 2.0
+weight = 130.5
+colour = "Brown"
+kind = "Lazy"
+pokedex_entry = "Hordes of Slaking gather around trees when fruits come into season. They wait around patiently for ripened fruits to fall out of the trees."
+battler_player_y = 20
+battler_enemy_y = 11
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "SLAKING"
+habitat = "Forest"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "SWAGGER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HAMMERARM"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PUNISHMENT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FLING"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SCRATCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "YAWN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ENCORE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SLACKOFF"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "ENCORE"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "SLACKOFF"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "FEINTATTACK"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "AMNESIA"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "COVET"
+
+[[raw_level_up_moves]]
+at_level = "27"
+name = "CHIPAWAY"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "COUNTER"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "FLAIL"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "FLING"
+
+[[raw_level_up_moves]]
+at_level = "53"
+name = "PUNISHMENT"
+
+[[raw_level_up_moves]]
+at_level = "61"
+name = "HAMMERARM"
+
+[base_stats]
+hp = 150
+atk = 160
+def_ = 100
+spa = 95
+spd = 65
+spe = 100
+
+[ev_yield]
+hp = 3
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

@@ -1,0 +1,84 @@
+name = "Victreebel"
+primary_type = "GRASS"
+secondary_type = "POISON"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 216
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["CHLOROPHYLL", "GLUTTONY"]
+raw_egg_moves = []
+raw_tms = ["CUT", "TOXIC", "FLASH", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "FRUSTRATION", "SOLARBEAM", "RETURN", "LEECHLIFE", "DOUBLETEAM", "REFLECT", "SLUDGEBOMB", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ENERGYBALL", "GIGAIMPACT", "SWORDSDANCE", "INFESTATION", "POISONJAB", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "MAGICALLEAF", "SOLARBLADE", "WEATHERBALL", "BULLETSEED", "LEAFBLADE", "GRASSYTERRAIN", "BODYSLAM", "POWERWHIP", "LEAFSTORM", "ENDURE", "ENCORE"]
+raw_tutor_moves = ["BIND", "BUGBITE", "GASTROACID", "GIGADRAIN", "KNOCKOFF", "SEEDBOMB", "SNORE", "SUCKERPUNCH", "SYNTHESIS", "WORRYSEED", "GRASSYGLIDE", "CORROSIVEGAS", "MIMIC"]
+compatible_egg_groups = ["Grass"]
+steps_to_hatch = 5355
+height = 1.7
+weight = 15.5
+colour = "Green"
+kind = "Flycatcher"
+pokedex_entry = "The long vine extending from its head is waved about as if it were a living thing to attract prey. When an unsuspecting victim approaches, it is swallowed whole."
+battler_player_y = 10
+battler_enemy_y = 13
+battler_altitude = 11
+evolutions = []
+form_names = []
+internal_name = "VICTREEBEL"
+habitat = "Forest"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "LEAFTORNADO"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "STOCKPILE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SWALLOW"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SPITUP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "VINEWHIP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SLEEPPOWDER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "RAZORLEAF"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SWEETSCENT"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "LEAFSTORM"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "LEAFBLADE"
+
+[base_stats]
+hp = 80
+atk = 105
+def_ = 65
+spa = 100
+spd = 70
+spe = 70
+
+[ev_yield]
+hp = 0
+atk = 3
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

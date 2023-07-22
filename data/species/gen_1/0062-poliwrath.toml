@@ -1,0 +1,82 @@
+name = "Poliwrath"
+primary_type = "WATER"
+secondary_type = "FIGHTING"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 225
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["WATERABSORB", "DAMP"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "SURF", "STRENGTH", "WATERFALL", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "BULKUP", "ROCKCLIMB", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "EARTHQUAKE", "RETURN", "PSYCHIC", "BRICKBREAK", "DOUBLETEAM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "THIEF", "LOWSWEEP", "ROUND", "FOCUSBLAST", "SCALD", "FLING", "PAYBACK", "GIGAIMPACT", "BULLDOZE", "ROCKSLIDE", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "WHIRLPOOL", "MUDSHOT", "BODYSLAM", "HYDROPUMP", "CLOSECOMBAT", "METRONOME", "AMNESIA", "REVERSAL", "ENDURE", "ENCORE", "MUDDYWATER", "DARKESTLARIAT", "HIGHHORSEPOWER"]
+raw_tutor_moves = ["DRAINPUNCH", "DUALCHOP", "EARTHPOWER", "ENDEAVOR", "FOCUSPUNCH", "HEADBUTT", "HELPINGHAND", "ICEPUNCH", "ICYWIND", "LIQUIDATION", "LOWKICK", "MUDSLAP", "SNORE", "SUPERPOWER", "THROATCHOP", "VACUUMWAVE", "WATERPULSE", "COACHING", "WAVECRASH", "ICEBALL", "MIMIC"]
+compatible_egg_groups = ["Water1"]
+steps_to_hatch = 5355
+height = 1.3
+weight = 54.0
+colour = "Blue"
+kind = "Tadpole"
+pokedex_entry = "Its highly developed muscles never grow fatigued, however much it exercises. This Pokémon can swim back and forth across an entire ocean without effort."
+battler_player_y = 20
+battler_enemy_y = 15
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "POLIWRATH"
+raw_hidden_ability = "SWIFTSWIM"
+habitat = "WatersEdge"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "SUBMISSION"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "JETPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CIRCLETHROW"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BUBBLEBEAM"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HYPNOSIS"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DOUBLESLAP"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "DYNAMICPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "MINDREADER"
+
+[[raw_level_up_moves]]
+at_level = "53"
+name = "CIRCLETHROW"
+
+[base_stats]
+hp = 90
+atk = 95
+def_ = 95
+spa = 70
+spd = 90
+spe = 70
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 3
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "KINGSROCK"

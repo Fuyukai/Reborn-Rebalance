@@ -1,0 +1,112 @@
+name = "Vullaby"
+primary_type = "DARK"
+secondary_type = "FLYING"
+gender_ratio = "AlwaysFemale"
+growth_rate = "Slow"
+exp_yield = 74
+catch_rate = 190
+caught_happiness = 35
+raw_abilities = ["BIGPECKS", "OVERCOAT"]
+raw_egg_moves = ["FAKETEARS", "FOULPLAY", "KNOCKOFF", "MEANLOOK", "ROOST", "SCARYFACE", "STEELWING"]
+raw_tms = ["CUT", "FLY", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "FRUSTRATION", "RETURN", "SHADOWBALL", "DOUBLETEAM", "ROCKTOMB", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "STEELWING", "EMBARGO", "PAYBACK", "PSYCHUP", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "SNARL", "DARKPULSE", "CONFIDE", "SCARYFACE", "FAKETEARS", "ASSURANCE", "AIRSLASH", "BRAVEBIRD", "ENDURE", "NASTYPLOT", "RETALIATE", "SWIFT"]
+raw_tutor_moves = ["AIRCUTTER", "BLOCK", "DEFOG", "FOULPLAY", "HEATWAVE", "IRONDEFENSE", "KNOCKOFF", "SNATCH", "SNORE", "TAILWIND", "DUALWINGBEAT", "LASHOUT", "MIMIC"]
+compatible_egg_groups = ["Flying"]
+steps_to_hatch = 5120
+height = 0.5
+weight = 9.0
+colour = "Brown"
+kind = "Diapered"
+pokedex_entry = "They tend to guard their posteriors with suitable bones they have found. They pursue weak Pokémon."
+battler_player_y = 23
+battler_enemy_y = 27
+battler_altitude = 0
+form_names = []
+internal_name = "VULLABY"
+raw_hidden_ability = "WEAKARMOR"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GUST"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "FURYATTACK"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "PLUCK"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "NASTYPLOT"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "FLATTER"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "FEINTATTACK"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "PUNISHMENT"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "DEFOG"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "TAILWIND"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "AIRSLASH"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "DARKPULSE"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "EMBARGO"
+
+[[raw_level_up_moves]]
+at_level = "55"
+name = "WHIRLWIND"
+
+[[raw_level_up_moves]]
+at_level = "59"
+name = "BRAVEBIRD"
+
+[[raw_level_up_moves]]
+at_level = "64"
+name = "MIRRORMOVE"
+
+[[evolutions]]
+into_name = "MANDIBUZZ"
+condition = "Level"
+parameter = "54"
+
+[base_stats]
+hp = 70
+atk = 55
+def_ = 75
+spa = 45
+spd = 65
+spe = 60
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 1
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

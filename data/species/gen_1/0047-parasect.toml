@@ -1,0 +1,111 @@
+name = "Parasect"
+primary_type = "BUG"
+secondary_type = "GRASS"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 142
+catch_rate = 75
+caught_happiness = 70
+raw_abilities = ["EFFECTSPORE", "DRYSKIN"]
+raw_egg_moves = []
+raw_tms = ["CUT", "TOXIC", "ROCKSMASH", "FLASH", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "FRUSTRATION", "SOLARBEAM", "RETURN", "LEECHLIFE", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "SLUDGEBOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ENERGYBALL", "FALSESWIPE", "GIGAIMPACT", "SWORDSDANCE", "STRUGGLEBUG", "XSCISSOR", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "DIG", "SCREECH", "BULLETSEED", "CROSSPOISON", "GRASSYTERRAIN", "BODYSLAM", "AGILITY", "ENDURE"]
+raw_tutor_moves = ["AFTERYOU", "BUGBITE", "FURYCUTTER", "GIGADRAIN", "KNOCKOFF", "SEEDBOMB", "SNORE", "STRINGSHOT", "SYNTHESIS", "THROATCHOP", "WORRYSEED", "MIMIC"]
+compatible_egg_groups = ["Bug", "Grass"]
+steps_to_hatch = 5355
+height = 1.0
+weight = 29.5
+colour = "Red"
+kind = "Mushroom"
+pokedex_entry = "Parasect are known to infest the roots of large trees en masse and drain nutrients. When an infested tree dies, they move onto another tree all at once."
+battler_player_y = 22
+battler_enemy_y = 16
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "PARASECT"
+raw_hidden_ability = "DAMP"
+habitat = "Forest"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CROSSPOISON"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SCRATCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "STUNSPORE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POISONPOWDER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ABSORB"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "STUNSPORE"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "POISONPOWDER"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "ABSORB"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "FURYCUTTER"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "SPORE"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "SLASH"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "GROWTH"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "GIGADRAIN"
+
+[[raw_level_up_moves]]
+at_level = "51"
+name = "AROMATHERAPY"
+
+[[raw_level_up_moves]]
+at_level = "59"
+name = "RAGEPOWDER"
+
+[[raw_level_up_moves]]
+at_level = "66"
+name = "XSCISSOR"
+
+[base_stats]
+hp = 60
+atk = 95
+def_ = 80
+spa = 60
+spd = 80
+spe = 30
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 1
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+common = "TINYMUSHROOM"
+uncommon = "BIGMUSHROOM"

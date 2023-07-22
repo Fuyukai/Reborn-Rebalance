@@ -1,0 +1,80 @@
+name = "Chingling"
+primary_type = "PSYCHIC"
+secondary_type = "PSYCHIC"
+gender_ratio = "Female50Percent"
+growth_rate = "Fast"
+exp_yield = 57
+catch_rate = 120
+caught_happiness = 70
+raw_abilities = ["LEVITATE"]
+raw_egg_moves = ["COSMICPOWER", "CURSE", "DISABLE", "FUTURESIGHT", "HYPNOSIS", "RECOVER", "SKILLSWAP", "STOREDPOWER", "WISH"]
+raw_tms = ["PSYSHOCK", "CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "TORMENT", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "CHARGEBEAM", "THUNDERWAVE", "PSYCHUP", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "DAZZLINGGLEAM", "CONFIDE", "LEAFSTORM", "ENDURE", "FUTURESIGHT", "COSMICPOWER", "STOREDPOWER", "SWIFT"]
+raw_tutor_moves = ["ALLYSWITCH", "BIND", "GRAVITY", "HEALBELL", "HELPINGHAND", "HYPERVOICE", "ICYWIND", "KNOCKOFF", "LASTRESORT", "MAGICCOAT", "RECYCLE", "ROLLOUT", "SHOCKWAVE", "SIGNALBEAM", "SKILLSWAP", "SNATCH", "SNORE", "TELEKINESIS", "TRICK", "UPROAR", "ZENHEADBUTT", "MIMIC"]
+compatible_egg_groups = ["Undiscovered"]
+steps_to_hatch = 6630
+height = 0.2
+weight = 0.6
+colour = "Yellow"
+kind = "Bell"
+pokedex_entry = "It emits cries by agitating an orb at the back of its throat. It moves with flouncing hops."
+battler_player_y = 33
+battler_enemy_y = 20
+battler_altitude = 12
+form_names = []
+internal_name = "CHINGLING"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WRAP"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "ASTONISH"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "CONFUSION"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "YAWN"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "LASTRESORT"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "ENTRAINMENT"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "UPROAR"
+
+[[evolutions]]
+into_name = "CHIMECHO"
+condition = "HappinessNight"
+parameter = ""
+
+[base_stats]
+hp = 45
+atk = 30
+def_ = 50
+spa = 65
+spd = 50
+spe = 45
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 1
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "CLEANSETAG"

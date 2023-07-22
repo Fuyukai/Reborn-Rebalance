@@ -1,0 +1,137 @@
+name = "Obstagoon"
+primary_type = "DARK"
+secondary_type = "NORMAL"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 260
+catch_rate = 45
+caught_happiness = 50
+raw_abilities = ["RECKLESS", "GUTS"]
+raw_egg_moves = ["PARTINGSHOT", "QUICKGUARD", "KNOCKOFF"]
+raw_tms = ["WORKUP", "SURF", "STRENGTH", "BULKUP", "ROCKCLIMB", "SUNNYDAY", "TAUNT", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "THUNDERBOLT", "THUNDER", "SHADOWBALL", "BRICKBREAK", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "FLING", "SHADOWCLAW", "PAYBACK", "GIGAIMPACT", "THUNDERWAVE", "XSCISSOR", "GRASSKNOT", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "SNARL", "MEGAPUNCH", "MEGAKICK", "PINMISSILE", "DIG", "SCREECH", "SCARYFACE", "WHIRLPOOL", "REVENGE", "FAKETEARS", "MUDSHOT", "ASSURANCE", "CROSSPOISON", "BODYSLAM", "CLOSECOMBAT", "FOCUSENERGY", "REVERSAL", "ENDURE", "BODYPRESS", "RETALIATE", "SWIFT"]
+raw_tutor_moves = ["ENDEAVOR", "FIREPUNCH", "FOCUSPUNCH", "GUNKSHOT", "HEADBUTT", "HELPINGHAND", "HYPERVOICE", "ICEPUNCH", "ICYWIND", "IRONDEFENSE", "IRONTAIL", "KNOCKOFF", "LOWKICK", "SEEDBOMB", "SNORE", "STOMPINGTANTRUM", "THROATCHOP", "THUNDERPUNCH", "TRICK", "LASHOUT", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 3840
+height = 1.6
+weight = 46.0
+colour = "Gray"
+kind = "Blocking"
+pokedex_entry = "It evolved after experiencing numerous fights. While crossing its arms, it lets out a shout that would make any opponent flinch."
+battler_player_y = 21
+battler_enemy_y = 26
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "OBSTAGOON"
+raw_hidden_ability = "DEFIANT"
+regional_numbers = 862
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "OBSTRUCT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "OBSTRUCT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CROSSCHOP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SUBMISSION"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "NIGHTSLASH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SWITCHEROO"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PINMISSILE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BABYDOLLEYES"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SANDATTACK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LICK"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "SNARL"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "HEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "HONECLAWS"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "FURYSWIPES"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "REST"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "SCARYFACE"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "COMEUPPANCE"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "TAUNT"
+
+[[raw_level_up_moves]]
+at_level = "56"
+name = "DOUBLEEDGE"
+
+[[raw_level_up_moves]]
+at_level = "61"
+name = "COUNTER"
+
+[base_stats]
+hp = 93
+atk = 90
+def_ = 101
+spa = 60
+spd = 81
+spe = 95
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 3
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

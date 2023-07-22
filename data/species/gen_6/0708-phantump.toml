@@ -1,0 +1,104 @@
+name = "Phantump"
+primary_type = "GHOST"
+secondary_type = "GRASS"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 62
+catch_rate = 150
+caught_happiness = 70
+raw_abilities = ["NATURALCURE", "FRISK"]
+raw_egg_moves = ["BESTOW", "GRUDGE", "IMPRISON", "POWERUPPUNCH", "VENOMDRENCH"]
+raw_tms = ["CUT", "STRENGTH", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ENERGYBALL", "WILLOWISP", "SHADOWCLAW", "BULLDOZE", "ROCKSLIDE", "POISONJAB", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "NATUREPOWER", "DARKPULSE", "CONFIDE", "MAGICALLEAF", "DIG", "IMPRISON", "HEX", "PHANTOMFORCE", "ENDURE", "VENOMDRENCH"]
+raw_tutor_moves = ["ALLYSWITCH", "FOULPLAY", "GIGADRAIN", "MAGICCOAT", "PAINSPLIT", "ROLEPLAY", "SEEDBOMB", "SKILLSWAP", "SNORE", "SPITE", "SUCKERPUNCH", "TELEKINESIS", "TRICK", "WORRYSEED", "GRASSYGLIDE", "SKITTERSMACK", "POLTERGEIST", "MIMIC"]
+compatible_egg_groups = ["Grass", "Amorphous"]
+steps_to_hatch = 5120
+height = 0.4
+weight = 7.0
+colour = "Brown"
+kind = "Stump"
+pokedex_entry = "According to old tales, these Pokémon are stumps possessed by the spirits of children who died while lost in the forest."
+battler_player_y = 25
+battler_enemy_y = 21
+battler_altitude = 3
+form_names = []
+internal_name = "PHANTUMP"
+raw_hidden_ability = "HARVEST"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CONFUSERAY"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "ASTONISH"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "GROWTH"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "INGRAIN"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "FEINTATTACK"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "LEECHSEED"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "CURSE"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "WILLOWISP"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "FORESTSCURSE"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "DESTINYBOND"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "PHANTOMFORCE"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "WOODHAMMER"
+
+[[raw_level_up_moves]]
+at_level = "54"
+name = "HORNLEECH"
+
+[[evolutions]]
+into_name = "TREVENANT"
+condition = "Trade"
+parameter = ""
+
+[base_stats]
+hp = 43
+atk = 70
+def_ = 48
+spa = 50
+spd = 60
+spe = 38
+
+[ev_yield]
+hp = 0
+atk = 1
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

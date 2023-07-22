@@ -1,0 +1,109 @@
+name = "Numel"
+primary_type = "FIRE"
+secondary_type = "GROUND"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 61
+catch_rate = 255
+caught_happiness = 70
+raw_abilities = ["OBLIVIOUS", "SIMPLE"]
+raw_egg_moves = ["ANCIENTPOWER", "BODYSLAM", "DEFENSECURL", "ENDURE", "GROWTH", "HEATWAVE", "HEAVYSLAM", "HOWL", "IRONHEAD", "MUDBOMB", "ROLLOUT", "SCARYFACE", "SPITUP", "STOCKPILE", "STOMP", "SWALLOW", "YAWN"]
+raw_tms = ["STRENGTH", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "FRUSTRATION", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "FLAMETHROWER", "SANDSTORM", "FIREBLAST", "ROCKTOMB", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "OVERHEAT", "WILLOWISP", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "DIG", "SCARYFACE", "SANDTOMB", "BODYSLAM", "FOCUSENERGY", "AMNESIA", "ENDURE", "HEATCRASH", "HEAVYSLAM", "TRAILBLAZE"]
+raw_tutor_moves = ["AFTERYOU", "EARTHPOWER", "HEADBUTT", "HEATWAVE", "IRONHEAD", "MUDSLAP", "ROLLOUT", "SNORE", "STEALTHROCK", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5355
+height = 0.7
+weight = 24.0
+colour = "Yellow"
+kind = "Numb"
+pokedex_entry = "It stores boiling magma in the hump on its back. Numel is a hardy Pokémon that can transport a 220-pound load. It has served humans at work since long ago."
+battler_player_y = 21
+battler_enemy_y = 19
+battler_altitude = 0
+form_names = []
+internal_name = "NUMEL"
+raw_hidden_ability = "OWNTEMPO"
+habitat = "Mountain"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "EMBER"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "FOCUSENERGY"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "MAGNITUDE"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "FLAMEBURST"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "AMNESIA"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "LAVAPLUME"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "EARTHPOWER"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "CURSE"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "YAWN"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "EARTHQUAKE"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "FLAMETHROWER"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "DOUBLEEDGE"
+
+[[evolutions]]
+into_name = "CAMERUPT"
+condition = "Level"
+parameter = "33"
+
+[base_stats]
+hp = 60
+atk = 60
+def_ = 40
+spa = 65
+spd = 45
+spe = 35
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 1
+spd = 0
+spe = 0
+
+[wild_items]

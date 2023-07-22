@@ -1,0 +1,110 @@
+name = "Illumise"
+primary_type = "BUG"
+secondary_type = "BUG"
+gender_ratio = "AlwaysFemale"
+growth_rate = "Fluctuating"
+exp_yield = 151
+catch_rate = 150
+caught_happiness = 70
+raw_abilities = ["OBLIVIOUS", "TINTEDLENS"]
+raw_egg_moves = ["AROMATHERAPY", "BATONPASS", "BUGBUZZ", "CAPTIVATE", "CONFUSERAY", "ENCORE", "FAKETEARS", "GROWTH", "SILVERWIND"]
+raw_tms = ["TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "FRUSTRATION", "SOLARBEAM", "THUNDERBOLT", "THUNDER", "RETURN", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "FLING", "CHARGEBEAM", "ACROBATICS", "THUNDERWAVE", "STRUGGLEBUG", "PSYCHUP", "INFESTATION", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "DAZZLINGGLEAM", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "CHARM", "FAKETEARS", "BODYSLAM", "METRONOME", "ENDURE", "BATONPASS", "ENCORE", "BUGBUZZ", "PLAYROUGH", "POLLENPUFF", "SWIFT"]
+raw_tutor_moves = ["AIRCUTTER", "BUGBITE", "COVET", "DEFOG", "FOCUSPUNCH", "GIGADRAIN", "HELPINGHAND", "ICEPUNCH", "MUDSLAP", "OMINOUSWIND", "SHOCKWAVE", "SNORE", "STRINGSHOT", "TAILWIND", "THUNDERPUNCH", "WATERPULSE", "ZENHEADBUTT", "MIMIC"]
+compatible_egg_groups = ["Bug", "Humanlike"]
+steps_to_hatch = 4080
+height = 0.6
+weight = 17.7
+colour = "Purple"
+kind = "Firefly"
+pokedex_entry = "A nocturnal Pokémon that becomes active upon nightfall. It leads Volbeat swarms to draw patterns in the sky. Over 200 different patterns have been seen."
+battler_player_y = 26
+battler_enemy_y = 20
+battler_altitude = 10
+evolutions = []
+form_names = []
+internal_name = "ILLUMISE"
+raw_hidden_ability = "PRANKSTER"
+habitat = "Forest"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PLAYNICE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "SWEETSCENT"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "CHARM"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "STRUGGLEBUG"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "MOONLIGHT"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "WISH"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "ENCORE"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "FLATTER"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "ZENHEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "HELPINGHAND"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "BUGBUZZ"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "PLAYROUGH"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "COVET"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "INFESTATION"
+
+[base_stats]
+hp = 65
+atk = 47
+def_ = 75
+spa = 73
+spd = 85
+spe = 85
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 1
+
+[wild_items]
+uncommon = "BRIGHTPOWDER"

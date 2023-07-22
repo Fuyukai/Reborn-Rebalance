@@ -1,0 +1,104 @@
+name = "Kricketune"
+primary_type = "BUG"
+secondary_type = "BUG"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 134
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["SWARM", "TECHNICIAN"]
+raw_egg_moves = []
+raw_tms = ["CUT", "STRENGTH", "TOXIC", "ROCKSMASH", "FLASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "LEECHLIFE", "BRICKBREAK", "DOUBLETEAM", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "FALSESWIPE", "GIGAIMPACT", "SWORDSDANCE", "STRUGGLEBUG", "XSCISSOR", "INFESTATION", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "SCREECH", "FOCUSENERGY", "METRONOME", "ENDURE", "BUGBUZZ", "POUNCE", "TRAILBLAZE"]
+raw_tutor_moves = ["BUGBITE", "ENDEAVOR", "FURYCUTTER", "HEALBELL", "HYPERVOICE", "KNOCKOFF", "LASERFOCUS", "MUDSLAP", "SNORE", "STRINGSHOT", "THROATCHOP", "UPROAR", "MIMIC"]
+compatible_egg_groups = ["Bug"]
+steps_to_hatch = 4080
+height = 1.0
+weight = 25.5
+colour = "Red"
+kind = "Cricket"
+pokedex_entry = "It crosses its knifelike arms in front of its chest when it cries. It can compose melodies ad lib."
+battler_player_y = 19
+battler_enemy_y = 12
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "KRICKETUNE"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "FURYCUTTER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BIDE"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "ABSORB"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "SING"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "FOCUSENERGY"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "SLASH"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "XSCISSOR"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "SCREECH"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "FELLSTINGER"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "TAUNT"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "NIGHTSLASH"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "STICKYWEB"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "BUGBUZZ"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "PERISHSONG"
+
+[base_stats]
+hp = 77
+atk = 85
+def_ = 51
+spa = 55
+spd = 51
+spe = 65
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "METRONOME"

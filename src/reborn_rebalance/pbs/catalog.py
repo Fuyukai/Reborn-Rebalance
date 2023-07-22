@@ -10,14 +10,14 @@ from reborn_rebalance.pbs.raw.item import PokemonItem
 from reborn_rebalance.pbs.raw.tm import tm_number_for, TechnicalMachine
 from reborn_rebalance.pbs.serialisation import (
     load_all_species_from_pbs,
-    load_all_species_from_yaml,
+    load_all_species_from_toml,
     load_moves_from_pbs,
-    load_moves_from_yaml,
+    load_moves_from_toml,
     save_all_species_to_pbs,
-    save_all_species_to_yaml,
+    save_all_species_to_toml,
     save_moves_to_pbs,
-    save_moves_to_yaml, load_items_from_pbs, load_tms_from_pbs, save_items_to_yaml,
-    save_tms_to_yaml, save_items_to_pbs, save_tms_to_pbs,
+    save_moves_to_toml, load_items_from_pbs, load_tms_from_pbs, save_items_to_toml,
+    save_tms_to_toml, save_items_to_pbs, save_tms_to_pbs, load_items_from_toml, load_tms_from_toml,
 )
 
 
@@ -58,7 +58,7 @@ class EssentialsCatalog:
         tms = load_tms_from_pbs(tm_path)
 
         # now, backfill in the TMs fields from tms and items
-        # (this is saved in the actual YAML)
+        # (this is saved in the actual toml)
         # use the display names
         tm_move_mapping: dict[str, PokemonMove] = {it.internal_name: it for it in moves}
         tm_item_mapping: dict[str, PokemonItem] = {it.move: it for it in items if
@@ -88,54 +88,58 @@ class EssentialsCatalog:
                 if tm.is_tutor:
                     species.raw_tutor_moves.append(tm.move)
                 else:
-                    species.raw_tms.append(tm.move)
+                    # naughty type nonsense
+                    species.raw_tms.append(tm)  # type: ignore
 
             tm.pokemon.clear()
+
+        for poke in all_species:
+            poke.raw_tms = [it.move for it in sorted(poke.raw_tms, key=lambda it: it.number)]
 
         return cls(species=all_species, moves=moves, items=items, tms=tms)
 
     @classmethod
-    def load_from_yaml(cls, path: Path) -> Self:
+    def load_from_toml(cls, path: Path) -> Self:
         """
-        Loads all objects from YAML files in the provided ``data`` directory.
+        Loads all objects from toml files in the provided ``data`` directory.
         """
 
         species_dir = path / "species"
-        species = load_all_species_from_yaml(species_dir)
+        species = load_all_species_from_toml(species_dir)
 
-        moves_file = path / "moves.yaml"
-        moves = load_moves_from_yaml(moves_file)
+        moves_file = path / "moves.toml"
+        moves = load_moves_from_toml(moves_file)
 
-        items_path = path / "items.yaml"
-        items = load_items_from_pbs(items_path)
+        items_path = path / "items.toml"
+        items = load_items_from_toml(items_path)
 
-        tm_path = path / "tms.yaml"
-        tms = load_tms_from_pbs(tm_path)
+        tm_path = path / "tms.toml"
+        tms = load_tms_from_toml(tm_path)
 
         return cls(
             species=species, moves=moves,
             items=items, tms=tms
         )
 
-    def save_to_yaml(self, path: Path):
+    def save_to_toml(self, path: Path):
         """
-        Serialises all objects within this catalog to YAML format.
+        Serialises all objects within this catalog to toml format.
         """
 
         path.mkdir(parents=True, exist_ok=True)
 
         species_path = path / "species"
         species_path.mkdir(parents=True, exist_ok=True)
-        save_all_species_to_yaml(species_path, self.species)
+        save_all_species_to_toml(species_path, self.species)
 
-        moves_path = path / "moves.yaml"
-        save_moves_to_yaml(moves_path, self.moves)
+        moves_path = path / "moves.toml"
+        save_moves_to_toml(moves_path, self.moves)
 
-        items_path = path / "items.yaml"
-        save_items_to_yaml(items_path, self.items)
+        items_path = path / "items.toml"
+        save_items_to_toml(items_path, self.items)
 
-        tms_path = path / "tms.yaml"
-        save_tms_to_yaml(tms_path, self.tms)
+        tms_path = path / "tms.toml"
+        save_tms_to_toml(tms_path, self.tms)
 
     def save_to_pbs(self, pbs_dir: Path):
         """
@@ -173,5 +177,16 @@ class EssentialsCatalog:
         for move in self.moves:
             if move.internal_name == internal_name:
                 return move
+
+        return None
+
+    def tm_id_for(self, tm_name: str) -> Optional[int]:
+        """
+        Finds a TM's number by its move's internal name.
+        """
+
+        for tm in self.tms:
+            if tm.move == tm_name:
+                return tm.number
 
         return None

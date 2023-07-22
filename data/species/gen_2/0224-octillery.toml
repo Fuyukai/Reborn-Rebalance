@@ -1,0 +1,121 @@
+name = "Octillery"
+primary_type = "WATER"
+secondary_type = "WATER"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 168
+catch_rate = 75
+caught_happiness = 70
+raw_abilities = ["SUCTIONCUPS", "SNIPER"]
+raw_egg_moves = []
+raw_tms = ["SURF", "WATERFALL", "TOXIC", "DIVE", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "SMACKDOWN", "RETURN", "PSYCHIC", "DOUBLETEAM", "SLUDGEWAVE", "FLAMETHROWER", "SLUDGEBOMB", "FIREBLAST", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ENERGYBALL", "SCALD", "CHARGEBEAM", "PAYBACK", "GIGAIMPACT", "THUNDERWAVE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "CONFIDE", "SCREECH", "WHIRLPOOL", "BULLETSEED", "ROCKBLAST", "MUDSHOT", "BRINE", "ASSURANCE", "HYDROPUMP", "FOCUSENERGY", "ENDURE", "VENOMDRENCH", "SWIFT"]
+raw_tutor_moves = ["BIND", "BOUNCE", "GUNKSHOT", "HELPINGHAND", "ICYWIND", "LIQUIDATION", "MUDSLAP", "SEEDBOMB", "SIGNALBEAM", "SNORE", "STRINGSHOT", "WATERPULSE", "SKITTERSMACK", "MIMIC"]
+compatible_egg_groups = ["Water1", "Water2"]
+steps_to_hatch = 5355
+height = 0.9
+weight = 28.5
+colour = "Red"
+kind = "Jet"
+pokedex_entry = "It ensnares its foe with its suction- cupped tentacles before delivering the final blow. If the foe turns out to be too strong, it spews ink to escape."
+battler_player_y = 23
+battler_enemy_y = 19
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "OCTILLERY"
+raw_hidden_ability = "MOODY"
+habitat = "Sea"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "OCTAZOOKA"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GUNKSHOT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ROCKBLAST"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WATERGUN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CONSTRICT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PSYBEAM"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "AURORABEAM"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "CONSTRICT"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "PSYBEAM"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "AURORABEAM"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "BUBBLEBEAM"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "FOCUSENERGY"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "WRINGOUT"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "SIGNALBEAM"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "ICEBEAM"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "BULLETSEED"
+
+[[raw_level_up_moves]]
+at_level = "52"
+name = "HYDROPUMP"
+
+[[raw_level_up_moves]]
+at_level = "58"
+name = "HYPERBEAM"
+
+[[raw_level_up_moves]]
+at_level = "64"
+name = "SOAK"
+
+[base_stats]
+hp = 75
+atk = 105
+def_ = 75
+spa = 105
+spd = 75
+spe = 45
+
+[ev_yield]
+hp = 0
+atk = 1
+def_ = 0
+spa = 1
+spd = 0
+spe = 0
+
+[wild_items]

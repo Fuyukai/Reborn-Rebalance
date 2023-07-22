@@ -1,0 +1,117 @@
+name = "Flaaffy"
+primary_type = "ELECTRIC"
+secondary_type = "ELECTRIC"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 128
+catch_rate = 120
+caught_happiness = 70
+raw_abilities = ["STATIC", "PLUS"]
+raw_egg_moves = []
+raw_tms = ["STRENGTH", "TOXIC", "ROCKSMASH", "FLASH", "HIDDENPOWER", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "BRICKBREAK", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "FLING", "CHARGEBEAM", "VOLTSWITCH", "THUNDERWAVE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "SCREECH", "ELECTRICTERRAIN", "EERIEIMPULSE", "BODYSLAM", "AGILITY", "ENDURE", "POWERGEM", "ELECTROBALL", "TRAILBLAZE", "SWIFT"]
+raw_tutor_moves = ["AFTERYOU", "ELECTROWEB", "FIREPUNCH", "FOCUSPUNCH", "HEADBUTT", "HEALBELL", "IRONTAIL", "MAGNETRISE", "SHOCKWAVE", "SIGNALBEAM", "SNORE", "THUNDERPUNCH", "MIMIC"]
+compatible_egg_groups = ["Monster", "Field"]
+steps_to_hatch = 5355
+height = 0.8
+weight = 13.3
+colour = "Pink"
+kind = "Wool"
+pokedex_entry = "Its fleece quality changes to generate strong static electricity with a small amount of wool. The bare, slick parts of its hide are shielded against electricity."
+battler_player_y = 23
+battler_enemy_y = 17
+battler_altitude = 0
+form_names = []
+internal_name = "FLAAFFY"
+raw_hidden_ability = "ELECTROMORPHOSIS"
+habitat = "Grassland"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "THUNDERWAVE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "THUNDERSHOCK"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "THUNDERWAVE"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "THUNDERSHOCK"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "COTTONSPORE"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "CHARGE"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "ELECTROBALL"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "CONFUSERAY"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "POWERGEM"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "DISCHARGE"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "COTTONGUARD"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "SIGNALBEAM"
+
+[[raw_level_up_moves]]
+at_level = "52"
+name = "LIGHTSCREEN"
+
+[[raw_level_up_moves]]
+at_level = "56"
+name = "THUNDER"
+
+[[evolutions]]
+into_name = "AMPHAROS"
+condition = "Level"
+parameter = "30"
+
+[base_stats]
+hp = 70
+atk = 55
+def_ = 55
+spa = 80
+spd = 60
+spe = 45
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 2
+spd = 0
+spe = 0
+
+[wild_items]

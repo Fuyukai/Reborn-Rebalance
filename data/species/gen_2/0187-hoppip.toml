@@ -1,0 +1,129 @@
+name = "Hoppip"
+primary_type = "GRASS"
+secondary_type = "FLYING"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 50
+catch_rate = 255
+caught_happiness = 70
+raw_abilities = ["CHLOROPHYLL", "LEAFGUARD"]
+raw_egg_moves = ["AMNESIA", "AROMATHERAPY", "CONFUSION", "COTTONGUARD", "DOUBLEEDGE", "ENCORE", "ENDURE", "GRASSYTERRAIN", "HELPINGHAND", "SEEDBOMB", "STRENGTHSAP", "WORRYSEED"]
+raw_tms = ["TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "REFLECT", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "ACROBATICS", "SWORDSDANCE", "PSYCHUP", "INFESTATION", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "DAZZLINGGLEAM", "CONFIDE", "PAYDAY", "BULLETSEED", "GRASSYTERRAIN", "AMNESIA", "ENDURE", "BATONPASS", "ENCORE", "TRAILBLAZE"]
+raw_tutor_moves = ["BOUNCE", "GIGADRAIN", "HEADBUTT", "HELPINGHAND", "SEEDBOMB", "SNORE", "SYNTHESIS", "WORRYSEED", "MIMIC"]
+compatible_egg_groups = ["Fairy", "Grass"]
+steps_to_hatch = 5355
+height = 0.4
+weight = 0.5
+colour = "Pink"
+kind = "Cottonweed"
+pokedex_entry = "This Pokémon drifts with the wind. If it senses the approach of strong winds, a Hoppip links leaves with others to prepare against being blown away."
+battler_player_y = 31
+battler_enemy_y = 20
+battler_altitude = 13
+form_names = []
+internal_name = "HOPPIP"
+raw_hidden_ability = "INFILTRATOR"
+habitat = "Grassland"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SPLASH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ABSORB"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "SYNTHESIS"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "TAILWHIP"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "FAIRYWIND"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "POISONPOWDER"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "STUNSPORE"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "SLEEPPOWDER"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "BULLETSEED"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "LEECHSEED"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "MEGADRAIN"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "ACROBATICS"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "RAGEPOWDER"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "COTTONSPORE"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "UTURN"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "WORRYSEED"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "GIGADRAIN"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "BOUNCE"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "MEMENTO"
+
+[[evolutions]]
+into_name = "SKIPLOOM"
+condition = "Level"
+parameter = "18"
+
+[base_stats]
+hp = 35
+atk = 35
+def_ = 40
+spa = 35
+spd = 55
+spe = 50
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 1
+spe = 0
+
+[wild_items]

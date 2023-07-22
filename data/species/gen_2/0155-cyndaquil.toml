@@ -1,0 +1,112 @@
+name = "Cyndaquil"
+primary_type = "FIRE"
+secondary_type = "FIRE"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+exp_yield = 62
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["BLAZE", "FLASHFIRE"]
+raw_egg_moves = ["COVET", "CURSE", "CRUSHCLAW", "DOUBLEKICK", "DOUBLEEDGE", "EXTRASENSORY", "FLAMEBURST", "FLAREBLITZ", "FORESIGHT", "FURYSWIPES", "HOWL", "NATUREPOWER", "QUICKATTACK", "REVERSAL", "THRASH"]
+raw_tms = ["WORKUP", "CUT", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "FRUSTRATION", "RETURN", "DOUBLETEAM", "FLAMETHROWER", "FIREBLAST", "AERIALACE", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "ROUND", "OVERHEAT", "WILLOWISP", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "DIG", "BODYSLAM", "FLAREBLITZ", "REVERSAL", "ENDURE", "SWIFT"]
+raw_tutor_moves = ["COVET", "FIREPLEDGE", "HEADBUTT", "HEATWAVE", "IRONTAIL", "MUDSLAP", "ROLLOUT", "SNORE", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5355
+height = 0.5
+weight = 7.9
+colour = "Yellow"
+kind = "Fire Mouse"
+pokedex_entry = "It flares flames from its back to protect itself. The fire burns vigorously if the Pokémon is angry. When it is tired, it sputters with incomplete combustion."
+battler_player_y = 31
+battler_enemy_y = 21
+battler_altitude = 0
+form_names = []
+internal_name = "CYNDAQUIL"
+habitat = "Grassland"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "SMOKESCREEN"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "EMBER"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "FLAMEWHEEL"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "DEFENSECURL"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "FLAMECHARGE"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "SWIFT"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "LAVAPLUME"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "FLAMETHROWER"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "INFERNO"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "ROLLOUT"
+
+[[raw_level_up_moves]]
+at_level = "55"
+name = "DOUBLEEDGE"
+
+[[raw_level_up_moves]]
+at_level = "58"
+name = "BURNUP"
+
+[[raw_level_up_moves]]
+at_level = "64"
+name = "ERUPTION"
+
+[[evolutions]]
+into_name = "QUILAVA"
+condition = "Level"
+parameter = "14"
+
+[base_stats]
+hp = 39
+atk = 52
+def_ = 43
+spa = 60
+spd = 50
+spe = 65
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 1
+
+[wild_items]

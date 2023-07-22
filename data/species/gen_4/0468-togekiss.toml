@@ -1,0 +1,68 @@
+name = "Togekiss"
+primary_type = "FAIRY"
+secondary_type = "FLYING"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Fast"
+exp_yield = 245
+catch_rate = 30
+caught_happiness = 70
+raw_abilities = ["HUSTLE", "SERENEGRACE"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "FLY", "PSYSHOCK", "TOXIC", "ROCKSMASH", "FLASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "PSYCHIC", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "FIREBLAST", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "STEELWING", "FLING", "SMARTSTRIKE", "GIGAIMPACT", "THUNDERWAVE", "PSYCHUP", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "DAZZLINGGLEAM", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "MAGICALLEAF", "CHARM", "IMPRISON", "AIRSLASH", "DRAININGKISS", "MYSTICALFIRE", "BODYSLAM", "METRONOME", "AMNESIA", "TRIATTACK", "ENDURE", "BATONPASS", "ENCORE", "FUTURESIGHT", "AURASPHERE", "NASTYPLOT", "STOREDPOWER", "PLAYROUGH", "RETALIATE", "SWIFT"]
+raw_tutor_moves = ["AFTERYOU", "AIRCUTTER", "ALLYSWITCH", "ANCIENTPOWER", "COVET", "DEFOG", "DRAINPUNCH", "ENDEAVOR", "FOCUSPUNCH", "HEADBUTT", "HEALBELL", "HEATWAVE", "HELPINGHAND", "HYPERVOICE", "LASERFOCUS", "LASTRESORT", "MAGICCOAT", "MUDSLAP", "OMINOUSWIND", "ROLLOUT", "SHOCKWAVE", "SIGNALBEAM", "SKYATTACK", "SNORE", "TAILWIND", "TELEKINESIS", "TRICK", "TWISTER", "UPROAR", "WATERPULSE", "ZENHEADBUTT", "DUALWINGBEAT", "EXTREMESPEED", "MIMIC"]
+compatible_egg_groups = ["Flying", "Fairy"]
+steps_to_hatch = 2805
+height = 1.5
+weight = 38.0
+colour = "White"
+kind = "Jubilee"
+pokedex_entry = "It will never appear where there is strife. Its sightings have become rare recently."
+battler_player_y = 26
+battler_enemy_y = 21
+battler_altitude = 18
+evolutions = []
+form_names = []
+internal_name = "TOGEKISS"
+raw_hidden_ability = "SUPERLUCK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "AFTERYOU"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SKYATTACK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "EXTREMESPEED"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "AURASPHERE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "AIRSLASH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LIFEDEW"
+
+[base_stats]
+hp = 85
+atk = 50
+def_ = 95
+spa = 120
+spd = 115
+spe = 80
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 2
+spd = 1
+spe = 0
+
+[wild_items]

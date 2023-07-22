@@ -1,0 +1,60 @@
+name = "Caterpie"
+primary_type = "BUG"
+secondary_type = "BUG"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 39
+catch_rate = 255
+caught_happiness = 70
+raw_abilities = ["SHIELDDUST", "RUNAWAY"]
+raw_egg_moves = []
+raw_tms = []
+raw_tutor_moves = ["BUGBITE", "ELECTROWEB", "STRINGSHOT"]
+compatible_egg_groups = ["Bug"]
+steps_to_hatch = 4080
+height = 0.3
+weight = 2.9
+colour = "Green"
+kind = "Worm"
+pokedex_entry = "Its voracious appetite compels it to devour leaves bigger than itself without hesitation. It releases a terribly strong odor from its antennae."
+battler_player_y = 29
+battler_enemy_y = 25
+battler_altitude = 0
+form_names = []
+internal_name = "CATERPIE"
+habitat = "Forest"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "STRINGSHOT"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "BUGBITE"
+
+[[evolutions]]
+into_name = "METAPOD"
+condition = "Level"
+parameter = "7"
+
+[base_stats]
+hp = 45
+atk = 30
+def_ = 35
+spa = 20
+spd = 20
+spe = 45
+
+[ev_yield]
+hp = 1
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

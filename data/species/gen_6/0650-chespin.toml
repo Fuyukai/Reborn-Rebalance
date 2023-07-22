@@ -1,0 +1,103 @@
+name = "Chespin"
+primary_type = "GRASS"
+secondary_type = "GRASS"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+exp_yield = 63
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["OVERGROW", "BULLETPROOF"]
+raw_egg_moves = ["BELLYDRUM", "CURSE", "DEFENSECURL", "POWERUPPUNCH", "QUICKGUARD", "ROLLOUT", "SPIKES", "SYNTHESIS"]
+raw_tms = ["WORKUP", "CUT", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "BULKUP", "FLASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "PROTECT", "FRUSTRATION", "SOLARBEAM", "SMACKDOWN", "RETURN", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "SLUDGEBOMB", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "LOWSWEEP", "ROUND", "ENERGYBALL", "FLING", "SHADOWCLAW", "PAYBACK", "STONEEDGE", "GYROBALL", "SWORDSDANCE", "BULLDOZE", "ROCKSLIDE", "POISONJAB", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "POWERUPPUNCH", "CONFIDE", "PINMISSILE", "DIG", "MUDSHOT", "BODYSLAM", "SPIKES", "ENDURE", "RETALIATE", "TRAILBLAZE"]
+raw_tutor_moves = ["DRAINPUNCH", "DUALCHOP", "ENDEAVOR", "FOCUSPUNCH", "GIGADRAIN", "GRASSPLEDGE", "HELPINGHAND", "IRONDEFENSE", "IRONHEAD", "IRONTAIL", "LOWKICK", "PAINSPLIT", "SEEDBOMB", "SNORE", "STOMPINGTANTRUM", "SUPERFANG", "SUPERPOWER", "SYNTHESIS", "THUNDERPUNCH", "WORRYSEED", "ZENHEADBUTT", "GRASSYGLIDE", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5120
+height = 0.4
+weight = 9.0
+colour = "Green"
+kind = "Spiky Nut"
+pokedex_entry = "The quills on its head are usually soft. When it flexes them, the points become so hard and sharp that they can pierce rock."
+battler_player_y = 20
+battler_enemy_y = 21
+battler_altitude = 0
+form_names = []
+internal_name = "CHESPIN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "VINEWHIP"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "VINEWHIP"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "ROLLOUT"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "LEECHSEED"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "PINMISSILE"
+
+[[raw_level_up_moves]]
+at_level = "27"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "SEEDBOMB"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "MUDSHOT"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "BULKUP"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "BODYSLAM"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "PAINSPLIT"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "WOODHAMMER"
+
+[[evolutions]]
+into_name = "QUILLADIN"
+condition = "Level"
+parameter = "16"
+
+[base_stats]
+hp = 56
+atk = 61
+def_ = 65
+spa = 48
+spd = 45
+spe = 38
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 1
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

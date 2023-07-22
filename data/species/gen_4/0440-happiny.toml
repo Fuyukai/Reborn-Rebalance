@@ -1,0 +1,69 @@
+name = "Happiny"
+primary_type = "NORMAL"
+secondary_type = "NORMAL"
+gender_ratio = "AlwaysFemale"
+growth_rate = "Fast"
+exp_yield = 110
+catch_rate = 130
+caught_happiness = 140
+raw_abilities = ["NATURALCURE", "SERENEGRACE"]
+raw_egg_moves = ["AROMATHERAPY", "COUNTER", "ENDURE", "GRAVITY", "HEALBELL", "HELPINGHAND", "LASTRESORT", "METRONOME", "MUDBOMB", "NATURALGIFT", "PRESENT"]
+raw_tms = ["WORKUP", "TOXIC", "HAIL", "FLASH", "HIDDENPOWER", "SUNNYDAY", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "FLAMETHROWER", "FIREBLAST", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "FLING", "THUNDERWAVE", "PSYCHUP", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "CHARM", "METRONOME", "ENDURE", "STOREDPOWER", "SNOWSCAPE"]
+raw_tutor_moves = ["COVET", "DRAINPUNCH", "ENDEAVOR", "GRAVITY", "HEADBUTT", "HEALBELL", "HELPINGHAND", "HYPERVOICE", "ICYWIND", "LASTRESORT", "MUDSLAP", "RECYCLE", "ROLLOUT", "SHOCKWAVE", "SNORE", "UPROAR", "WATERPULSE", "ZENHEADBUTT", "MIMIC"]
+compatible_egg_groups = ["Undiscovered"]
+steps_to_hatch = 10455
+height = 0.6
+weight = 24.4
+colour = "Pink"
+kind = "Playhouse"
+pokedex_entry = "It loves round white things. It carries an egg-shaped rock in imitation of Chansey."
+battler_player_y = 27
+battler_enemy_y = 22
+battler_altitude = 0
+form_names = []
+internal_name = "HAPPINY"
+raw_hidden_ability = "FRIENDGUARD"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POUND"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CHARM"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "COPYCAT"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "REFRESH"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "SWEETKISS"
+
+[[evolutions]]
+into_name = "CHANSEY"
+condition = "DayHoldItem"
+parameter = "OVALSTONE"
+
+[base_stats]
+hp = 100
+atk = 5
+def_ = 5
+spa = 15
+spd = 65
+spe = 30
+
+[ev_yield]
+hp = 1
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+common = "OVALSTONE"

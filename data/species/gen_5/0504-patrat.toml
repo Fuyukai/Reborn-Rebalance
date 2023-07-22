@@ -1,0 +1,116 @@
+name = "Patrat"
+primary_type = "NORMAL"
+secondary_type = "NORMAL"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 51
+catch_rate = 255
+caught_happiness = 70
+raw_abilities = ["RUNAWAY", "KEENEYE"]
+raw_egg_moves = ["ASSURANCE", "BULLETSEED", "FLAIL", "FORESIGHT", "IRONTAIL", "PURSUIT", "REVENGE", "SCREECH", "TEARFULLOOK"]
+raw_tms = ["WORKUP", "CUT", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "RETURN", "SHADOWBALL", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "ROUND", "FLING", "SWORDSDANCE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "SCREECH", "REVENGE", "BULLETSEED", "ASSURANCE", "CRUNCH", "FOCUSENERGY", "ENDURE", "BATONPASS", "NASTYPLOT", "RETALIATE"]
+raw_tutor_moves = ["AFTERYOU", "AQUATAIL", "COVET", "ENDEAVOR", "GUNKSHOT", "HELPINGHAND", "IRONTAIL", "LASERFOCUS", "LASTRESORT", "LOWKICK", "SEEDBOMB", "SHOCKWAVE", "SNORE", "SUPERFANG", "ZENHEADBUTT", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 3840
+height = 0.5
+weight = 11.6
+colour = "Brown"
+kind = "Scout"
+pokedex_entry = "Extremely cautious, they take shifts to maintain a constant watch of their nest. They feel insecure without a lookout."
+battler_player_y = 29
+battler_enemy_y = 29
+battler_altitude = 0
+form_names = []
+internal_name = "PATRAT"
+raw_hidden_ability = "ANALYTIC"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "3"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "BIDE"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "DETECT"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "SANDATTACK"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "HYPNOSIS"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "SUPERFANG"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "AFTERYOU"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "FOCUSENERGY"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "WORKUP"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "HYPERFANG"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "NASTYPLOT"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "MEANLOOK"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "BATONPASS"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "SLAM"
+
+[[evolutions]]
+into_name = "WATCHOG"
+condition = "Level"
+parameter = "20"
+
+[base_stats]
+hp = 45
+atk = 55
+def_ = 39
+spa = 35
+spd = 39
+spe = 42
+
+[ev_yield]
+hp = 0
+atk = 1
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

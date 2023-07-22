@@ -1,0 +1,120 @@
+name = "Excadrill"
+primary_type = "GROUND"
+secondary_type = "STEEL"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 178
+catch_rate = 60
+caught_happiness = 70
+raw_abilities = ["SANDRUSH", "SANDFORCE"]
+raw_egg_moves = []
+raw_tms = ["CUT", "STRENGTH", "TOXIC", "ROCKSMASH", "ROCKCLIMB", "HIDDENPOWER", "HYPERBEAM", "PROTECT", "FRUSTRATION", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "SLUDGEBOMB", "SANDSTORM", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "FOCUSBLAST", "FLING", "BRUTALSWING", "SHADOWCLAW", "SMARTSTRIKE", "GIGAIMPACT", "SWORDSDANCE", "BULLDOZE", "ROCKSLIDE", "XSCISSOR", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "SANDTOMB", "ROCKBLAST", "MUDSHOT", "ENDURE", "HIGHHORSEPOWER"]
+raw_tutor_moves = ["DRILLRUN", "EARTHPOWER", "IRONDEFENSE", "IRONHEAD", "MAGNETRISE", "MUDSLAP", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "SCORCHINGSANDS", "STEELBEAM", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5120
+height = 0.7
+weight = 40.4
+colour = "Gray"
+kind = "Subterenne"
+pokedex_entry = "More than 300 feet below the surface, they build mazelike nests. Their activity can be destructive to subway tunnels."
+battler_player_y = 17
+battler_enemy_y = 29
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "EXCADRILL"
+raw_hidden_ability = "MOLDBREAKER"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "HORNDRILL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ROTOTILLER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SCRATCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MUDSPORT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "RAPIDSPIN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MUDSLAP"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "RAPIDSPIN"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "MUDSLAP"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "FURYSWIPES"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "METALCLAW"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "DIG"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "HONECLAWS"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "SLASH"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "ROCKSLIDE"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "EARTHQUAKE"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "SWORDSDANCE"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "SANDSTORM"
+
+[[raw_level_up_moves]]
+at_level = "55"
+name = "DRILLRUN"
+
+[[raw_level_up_moves]]
+at_level = "62"
+name = "FISSURE"
+
+[base_stats]
+hp = 110
+atk = 135
+def_ = 60
+spa = 50
+spd = 65
+spe = 88
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

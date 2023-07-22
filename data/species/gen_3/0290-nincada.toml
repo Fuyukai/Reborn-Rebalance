@@ -1,0 +1,98 @@
+name = "Nincada"
+primary_type = "BUG"
+secondary_type = "GROUND"
+gender_ratio = "Female50Percent"
+growth_rate = "Erratic"
+exp_yield = 53
+catch_rate = 255
+caught_happiness = 70
+raw_abilities = ["COMPOUNDEYES", "RUNAWAY"]
+raw_egg_moves = ["BUGBITE", "BUGBUZZ", "ENDURE", "FEINTATTACK", "FINALGAMBIT", "GUST", "NIGHTSLASH", "SILVERWIND"]
+raw_tms = ["CUT", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "FRUSTRATION", "SOLARBEAM", "RETURN", "LEECHLIFE", "SHADOWBALL", "DOUBLETEAM", "SANDSTORM", "AERIALACE", "FACADE", "REST", "ROUND", "FALSESWIPE", "STRUGGLEBUG", "XSCISSOR", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "ENDURE", "BUGBUZZ"]
+raw_tutor_moves = ["BUGBITE", "FURYCUTTER", "GIGADRAIN", "MUDSLAP", "SNORE", "SPITE", "STRINGSHOT", "SKITTERSMACK", "MIMIC"]
+compatible_egg_groups = ["Bug"]
+steps_to_hatch = 4080
+height = 0.5
+weight = 5.5
+colour = "Gray"
+kind = "Trainee"
+pokedex_entry = "It makes its nest at the roots of a mighty tree. Using its whiskerlike antennae, it probes its surroundings in the pitch-black darkness of soil."
+battler_player_y = 34
+battler_enemy_y = 29
+battler_altitude = 0
+form_names = []
+internal_name = "NINCADA"
+habitat = "Forest"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SCRATCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HARDEN"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "ABSORB"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "SANDATTACK"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "FURYSWIPES"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "MUDSLAP"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "METALCLAW"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "MINDREADER"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "BIDE"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "FALSESWIPE"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "DIG"
+
+[[evolutions]]
+into_name = "NINJASK"
+condition = "Ninjask"
+parameter = "20"
+
+[[evolutions]]
+into_name = "SHEDINJA"
+condition = "Shedinja"
+parameter = "20"
+
+[base_stats]
+hp = 31
+atk = 45
+def_ = 90
+spa = 30
+spd = 30
+spe = 40
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 1
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "SOFTSAND"

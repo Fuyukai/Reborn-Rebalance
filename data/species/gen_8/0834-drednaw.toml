@@ -1,0 +1,81 @@
+name = "Drednaw"
+primary_type = "WATER"
+secondary_type = "ROCK"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 170
+catch_rate = 75
+caught_happiness = 50
+raw_abilities = ["STRONGJAW", "SHELLARMOR"]
+raw_egg_moves = ["SKULLBASH", "GASTROACID", "DRAGONTAIL"]
+raw_tms = ["SURF", "STRENGTH", "WATERFALL", "DIVE", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "EARTHQUAKE", "SANDSTORM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "FALSESWIPE", "SCALD", "PAYBACK", "SMARTSTRIKE", "GIGAIMPACT", "ROCKPOLISH", "STONEEDGE", "SWORDSDANCE", "BULLDOZE", "ROCKSLIDE", "DRAGONTAIL", "POISONJAB", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "DIG", "SCARYFACE", "WHIRLPOOL", "REVENGE", "SANDTOMB", "ROCKBLAST", "MUDSHOT", "ASSURANCE", "ICEFANG", "CRUNCH", "RAZORSHELL", "BODYSLAM", "HYDROPUMP", "MEGAHORN", "ENDURE", "MUDDYWATER", "HIGHHORSEPOWER", "BODYPRESS", "ICESPINNER", "CHILLINGWATER"]
+raw_tutor_moves = ["EARTHPOWER", "HEADBUTT", "IRONDEFENSE", "IRONTAIL", "LIQUIDATION", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "SUPERPOWER", "THROATCHOP", "METEORBEAM", "SKITTERSMACK", "SCALESHOT", "WAVECRASH", "MIMIC"]
+compatible_egg_groups = ["Monster", "Water1"]
+steps_to_hatch = 5120
+height = 1.0
+weight = 115.5
+colour = "Green"
+kind = "Bite"
+pokedex_entry = "This Pokémon rapidly extends its retractable neck to sink its sharp fangs into distant enemies and take them down."
+battler_player_y = 21
+battler_enemy_y = 26
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "DREDNAW"
+raw_hidden_ability = "SWIFTSWIM"
+regional_numbers = 834
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WATERGUN"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "PROTECT"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "HEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "COUNTER"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "JAWLOCK"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "LIQUIDATION"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "BODYSLAM"
+
+[base_stats]
+hp = 90
+atk = 115
+def_ = 90
+spa = 48
+spd = 68
+spe = 74
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

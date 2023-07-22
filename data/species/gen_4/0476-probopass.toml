@@ -1,0 +1,141 @@
+name = "Probopass"
+primary_type = "ROCK"
+secondary_type = "STEEL"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 184
+catch_rate = 60
+caught_happiness = 70
+raw_abilities = ["STURDY", "MAGNETPULL"]
+raw_egg_moves = []
+raw_tms = ["STRENGTH", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "FRUSTRATION", "SMACKDOWN", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "SANDSTORM", "ROCKTOMB", "TORMENT", "FACADE", "REST", "ATTRACT", "ROUND", "EXPLOSION", "GIGAIMPACT", "ROCKPOLISH", "STONEEDGE", "VOLTSWITCH", "THUNDERWAVE", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "DAZZLINGGLEAM", "CONFIDE", "SELFDESTRUCT", "SANDTOMB", "ROCKBLAST", "TRIATTACK", "ENDURE", "FUTURESIGHT", "POWERGEM", "BODYPRESS"]
+raw_tutor_moves = ["ALLYSWITCH", "ANCIENTPOWER", "BLOCK", "EARTHPOWER", "FIREPUNCH", "GRAVITY", "HEADBUTT", "ICEPUNCH", "IRONDEFENSE", "IRONHEAD", "MAGICCOAT", "MAGNETRISE", "MUDSLAP", "PAINSPLIT", "ROLLOUT", "SHOCKWAVE", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "TELEKINESIS", "THUNDERPUNCH", "POWERSHIFT", "MIMIC"]
+compatible_egg_groups = ["Mineral"]
+steps_to_hatch = 5355
+height = 1.4
+weight = 340.0
+colour = "Gray"
+kind = "Compass"
+pokedex_entry = "It exudes strong magnetism from all over. It controls three small units called Mini-Noses."
+battler_player_y = 18
+battler_enemy_y = 11
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "PROBOPASS"
+raw_hidden_ability = "SANDFORCE"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "TRIATTACK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MAGNETICFLUX"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MAGNETRISE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GRAVITY"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WIDEGUARD"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "IRONDEFENSE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BLOCK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MAGNETBOMB"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "IRONDEFENSE"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "BLOCK"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "MAGNETBOMB"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "THUNDERWAVE"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "REST"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "SPARK"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "ROCKSLIDE"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "POWERGEM"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "ROCKBLAST"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "DISCHARGE"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "SANDSTORM"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "EARTHPOWER"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "STONEEDGE"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "LOCKON"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "ZAPCANNON"
+
+[base_stats]
+hp = 60
+atk = 55
+def_ = 145
+spa = 75
+spd = 150
+spe = 40
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 1
+spa = 0
+spd = 2
+spe = 0
+
+[wild_items]
+uncommon = "MAGNET"

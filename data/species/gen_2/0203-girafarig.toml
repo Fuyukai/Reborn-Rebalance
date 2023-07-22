@@ -1,0 +1,121 @@
+name = "Girafarig"
+primary_type = "NORMAL"
+secondary_type = "PSYCHIC"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 159
+catch_rate = 60
+caught_happiness = 70
+raw_abilities = ["INNERFOCUS", "EARLYBIRD"]
+raw_egg_moves = ["AMNESIA", "BEATUP", "DOUBLEKICK", "FORESIGHT", "FUTURESIGHT", "MAGICCOAT", "MEANLOOK", "MIRRORCOAT", "RAZORWIND", "PSYCHICFANGS", "PSYCHICTERRAIN", "SECRETPOWER", "SKILLSWAP", "TAKEDOWN", "WISH"]
+raw_tms = ["WORKUP", "PSYSHOCK", "CALMMIND", "STRENGTH", "TOXIC", "ROCKSMASH", "FLASH", "HIDDENPOWER", "SUNNYDAY", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "ENERGYBALL", "CHARGEBEAM", "THUNDERWAVE", "PSYCHUP", "BULLDOZE", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "DAZZLINGGLEAM", "CONFIDE", "BEATUP", "IMPRISON", "ASSURANCE", "POWERSWAP", "GUARDSWAP", "PSYCHICFANGS", "CRUNCH", "PSYCHICTERRAIN", "BODYSLAM", "AGILITY", "AMNESIA", "ENDURE", "BATONPASS", "FUTURESIGHT", "NASTYPLOT", "RETALIATE", "TRAILBLAZE", "SWIFT"]
+raw_tutor_moves = ["ALLYSWITCH", "FOULPLAY", "GRAVITY", "HEADBUTT", "HYPERVOICE", "IRONTAIL", "MAGICCOAT", "MUDSLAP", "RECYCLE", "SHOCKWAVE", "SIGNALBEAM", "SKILLSWAP", "SNORE", "STOMPINGTANTRUM", "SUCKERPUNCH", "TELEKINESIS", "TRICK", "UPROAR", "ZENHEADBUTT", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5355
+height = 1.5
+weight = 41.5
+colour = "Yellow"
+kind = "Long Neck"
+pokedex_entry = "A Girafarig is a herbivore-- it eats grass and tree shoots. While it is eating, its tail makes chewing and swallowing motions as if it were also eating."
+battler_player_y = 13
+battler_enemy_y = 9
+battler_altitude = 0
+form_names = []
+internal_name = "GIRAFARIG"
+raw_hidden_ability = "SAPSIPPER"
+habitat = "Grassland"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ZENHEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POWERSWAP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GUARDSWAP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ASTONISH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CONFUSION"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "ODORSLEUTH"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "ASSURANCE"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "STOMP"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "PSYBEAM"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "DOUBLEHIT"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "TWINBEAM"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "BATONPASS"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "NASTYPLOT"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "PSYCHIC"
+
+[[evolutions]]
+into_name = "FARIGIRAF"
+condition = "HasMove"
+parameter = "TWINBEAM"
+
+[base_stats]
+hp = 70
+atk = 80
+def_ = 65
+spa = 90
+spd = 65
+spe = 85
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 2
+spd = 0
+spe = 0
+
+[wild_items]

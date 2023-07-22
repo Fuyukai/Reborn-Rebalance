@@ -1,0 +1,96 @@
+name = "Gastrodon"
+primary_type = "WATER"
+secondary_type = "GROUND"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 166
+catch_rate = 75
+caught_happiness = 70
+raw_abilities = ["STICKYHOLD", "STORMDRAIN"]
+raw_egg_moves = []
+raw_tms = ["SURF", "STRENGTH", "WATERFALL", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "FLASH", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "SLUDGEWAVE", "SLUDGEBOMB", "SANDSTORM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "SCALD", "GIGAIMPACT", "STONEEDGE", "BULLDOZE", "ROCKSLIDE", "INFESTATION", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "WHIRLPOOL", "WEATHERBALL", "SANDTOMB", "MUDSHOT", "BRINE", "BODYSLAM", "HYDROPUMP", "AMNESIA", "ENDURE", "MUDDYWATER", "SNOWSCAPE", "CHILLINGWATER"]
+raw_tutor_moves = ["ANCIENTPOWER", "BLOCK", "EARTHPOWER", "HEADBUTT", "ICYWIND", "MUDSLAP", "PAINSPLIT", "SNORE", "STOMPINGTANTRUM", "STRINGSHOT", "WATERPULSE", "SKITTERSMACK", "MIMIC"]
+compatible_egg_groups = ["Water1", "Amorphous"]
+steps_to_hatch = 5355
+height = 0.9
+weight = 29.9
+colour = "Purple"
+kind = "Sea Slug"
+pokedex_entry = "It has a pliable body without any bones. If any part of its body is torn off, it grows right back."
+battler_player_y = 20
+battler_enemy_y = 15
+battler_altitude = 0
+evolutions = []
+form_names = ["West Sea", "East Sea"]
+internal_name = "GASTRODON"
+raw_hidden_ability = "SANDFORCE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MUDSLAP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MUDSPORT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HARDEN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WATERPULSE"
+
+[[raw_level_up_moves]]
+at_level = "2"
+name = "MUDSPORT"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "HARDEN"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "WATERPULSE"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "MUDBOMB"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "HIDDENPOWER"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "RAINDANCE"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "BODYSLAM"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "MUDDYWATER"
+
+[[raw_level_up_moves]]
+at_level = "54"
+name = "RECOVER"
+
+[base_stats]
+hp = 111
+atk = 83
+def_ = 68
+spa = 92
+spd = 82
+spe = 39
+
+[ev_yield]
+hp = 2
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

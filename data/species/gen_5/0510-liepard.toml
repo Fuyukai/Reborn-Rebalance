@@ -1,0 +1,124 @@
+name = "Liepard"
+primary_type = "DARK"
+secondary_type = "DARK"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 156
+catch_rate = 90
+caught_happiness = 70
+raw_abilities = ["LIMBER", "UNBURDEN"]
+raw_egg_moves = []
+raw_tms = ["CUT", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "SHADOWBALL", "DOUBLETEAM", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "EMBARGO", "SHADOWCLAW", "PAYBACK", "GIGAIMPACT", "THUNDERWAVE", "PSYCHUP", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "SNARL", "DARKPULSE", "CONFIDE", "PAYDAY", "SCREECH", "CHARM", "FAKETEARS", "ASSURANCE", "PSYCHOCUT", "ENDURE", "BATONPASS", "ENCORE", "NASTYPLOT", "PLAYROUGH", "SWIFT"]
+raw_tutor_moves = ["COVET", "FOULPLAY", "GUNKSHOT", "HYPERVOICE", "IRONTAIL", "KNOCKOFF", "LASERFOCUS", "ROLEPLAY", "SEEDBOMB", "SNATCH", "SNORE", "SPITE", "SUCKERPUNCH", "THROATCHOP", "TRICK", "BURNINGJEALOUSY", "SKITTERSMACK", "LASHOUT", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5120
+height = 1.1
+weight = 37.5
+colour = "Purple"
+kind = "Cruel"
+pokedex_entry = "Stealthily, it sneaks up on its target, striking from behind before its victim has a chance to react."
+battler_player_y = 17
+battler_enemy_y = 21
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "LIEPARD"
+raw_hidden_ability = "PRANKSTER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SCRATCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ASSIST"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SANDATTACK"
+
+[[raw_level_up_moves]]
+at_level = "3"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "ASSIST"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "SANDATTACK"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "FURYSWIPES"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "PURSUIT"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "TORMENT"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "FAKEOUT"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "HONECLAWS"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "ASSURANCE"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "SLASH"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "TAUNT"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "NIGHTSLASH"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "SNATCH"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "NASTYPLOT"
+
+[[raw_level_up_moves]]
+at_level = "55"
+name = "SUCKERPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "58"
+name = "PLAYROUGH"
+
+[base_stats]
+hp = 64
+atk = 88
+def_ = 50
+spa = 88
+spd = 50
+spe = 106
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 2
+
+[wild_items]

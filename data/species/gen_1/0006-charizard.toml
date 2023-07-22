@@ -1,0 +1,132 @@
+name = "Charizard"
+primary_type = "FIRE"
+secondary_type = "FLYING"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+exp_yield = 240
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["BLAZE", "SOLARPOWER"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "CUT", "DRAGONCLAW", "FLY", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "ROOST", "ROOST", "FRUSTRATION", "SOLARBEAM", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "SANDSTORM", "FIREBLAST", "ROCKTOMB", "AERIALACE", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "OVERHEAT", "STEELWING", "FOCUSBLAST", "FALSESWIPE", "FLING", "SKYDROP", "BRUTALSWING", "WILLOWISP", "ACROBATICS", "SHADOWCLAW", "GIGAIMPACT", "SWORDSDANCE", "BULLDOZE", "ROCKSLIDE", "DRAGONTAIL", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "FIRESPIN", "DIG", "SCARYFACE", "BEATUP", "WEATHERBALL", "FIREFANG", "CRUNCH", "AIRSLASH", "MYSTICALFIRE", "BREAKINGSWIPE", "BODYSLAM", "HURRICANE", "FLAREBLITZ", "ENDURE", "BLAZEKICK", "DRAGONDANCE", "HEATCRASH", "SWIFT"]
+raw_tutor_moves = ["AIRCUTTER", "ANCIENTPOWER", "BLASTBURN", "DEFOG", "DRAGONPULSE", "FIREPLEDGE", "FIREPUNCH", "FOCUSPUNCH", "FURYCUTTER", "HEADBUTT", "HEATWAVE", "HELPINGHAND", "IRONTAIL", "MUDSLAP", "OMINOUSWIND", "OUTRAGE", "SNORE", "TAILWIND", "THUNDERPUNCH", "TWISTER", "SCORCHINGSANDS", "DUALWINGBEAT", "SCALESHOT", "MIMIC"]
+compatible_egg_groups = ["Monster", "Dragon"]
+steps_to_hatch = 5355
+height = 1.7
+weight = 90.5
+colour = "Red"
+kind = "Flame"
+pokedex_entry = "A Charizard flies about in search of strong opponents. It breathes intense flames that can melt any material. However, it will never torch a weaker foe."
+battler_player_y = 9
+battler_enemy_y = 2
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "CHARIZARD"
+habitat = "Mountain"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "WINGATTACK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FLAREBLITZ"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HEATWAVE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "AIRSLASH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DRAGONCLAW"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SHADOWCLAW"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SCRATCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SMOKESCREEN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "EMBER"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "EMBER"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "SMOKESCREEN"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "DRAGONRAGE"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "SCARYFACE"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "FIREFANG"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "FLAMEBURST"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "SLASH"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "FLAMETHROWER"
+
+[[raw_level_up_moves]]
+at_level = "56"
+name = "FIRESPIN"
+
+[[raw_level_up_moves]]
+at_level = "62"
+name = "INFERNO"
+
+[[raw_level_up_moves]]
+at_level = "71"
+name = "HEATWAVE"
+
+[[raw_level_up_moves]]
+at_level = "77"
+name = "FLAREBLITZ"
+
+[base_stats]
+hp = 78
+atk = 84
+def_ = 78
+spa = 109
+spd = 85
+spe = 100
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 3
+spd = 0
+spe = 0
+
+[wild_items]

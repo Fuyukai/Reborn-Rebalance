@@ -1,0 +1,119 @@
+name = "Lokix"
+primary_type = "BUG"
+secondary_type = "DARK"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 125
+catch_rate = 30
+caught_happiness = 0
+raw_abilities = ["SWARM", "TINTEDLENS"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "CUT", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "PROTECT", "RAINDANCE", "FRUSTRATION", "SMACKDOWN", "RETURN", "LEECHLIFE", "BRICKBREAK", "DOUBLETEAM", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "LOWSWEEP", "FLING", "BRUTALSWING", "GIGAIMPACT", "SWORDSDANCE", "STRUGGLEBUG", "XSCISSOR", "INFESTATION", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "DARKPULSE", "CONFIDE", "SCARYFACE", "BEATUP", "AGILITY", "REVERSAL", "ENDURE", "BUGBUZZ", "DARKESTLARIAT", "POUNCE", "TRAILBLAZE"]
+raw_tutor_moves = ["BOUNCE", "BUGBITE", "KNOCKOFF", "LOWKICK", "SUCKERPUNCH", "THROATCHOP", "BURNINGJEALOUSY", "SKITTERSMACK", "LASHOUT"]
+compatible_egg_groups = ["Bug"]
+steps_to_hatch = 5140
+height = 1.0
+weight = 17.5
+colour = "Gray"
+kind = "Grasshopper"
+pokedex_entry = "When it decides to fight all out, it stands on its previously folded legs to enter Showdown Mode. It neutralizes its enemies in short order."
+battler_player_y = 16
+battler_enemy_y = 12
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "LOKIX"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "LUNGE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LOWKICK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DETECT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "STRUGGLEBUG"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "ASTONISH"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "ASSURANCE"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "DOUBLEKICK"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "SCREECH"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "ENDURE"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "BUGBITE"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "FEINT"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "THROATCHOP"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "SUCKERPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "FIRSTIMPRESSION"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "BOUNCE"
+
+[[raw_level_up_moves]]
+at_level = "53"
+name = "AXEKICK"
+
+[base_stats]
+hp = 71
+atk = 102
+def_ = 78
+spa = 52
+spd = 55
+spe = 92
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

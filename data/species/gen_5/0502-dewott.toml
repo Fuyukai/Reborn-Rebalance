@@ -1,0 +1,119 @@
+name = "Dewott"
+primary_type = "WATER"
+secondary_type = "WATER"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+exp_yield = 145
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["TORRENT", "SHELLARMOR"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "CUT", "SURF", "WATERFALL", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "HIDDENPOWER", "TAUNT", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "DOUBLETEAM", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "FALSESWIPE", "SCALD", "FLING", "SWORDSDANCE", "XSCISSOR", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "SCREECH", "REVENGE", "BRINE", "ASSURANCE", "AIRSLASH", "RAZORSHELL", "HYDROPUMP", "FOCUSENERGY", "ENDURE", "ENCORE", "RETALIATE", "SNOWSCAPE", "CHILLINGWATER"]
+raw_tutor_moves = ["AQUATAIL", "COVET", "HELPINGHAND", "ICYWIND", "IRONTAIL", "SNORE", "WATERPLEDGE", "WATERPULSE", "WAVECRASH", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5120
+height = 0.8
+weight = 24.5
+colour = "Blue"
+kind = "Discipline"
+pokedex_entry = "Scalchop techniques differ from one Dewott to another. It never neglects maintaining its scalchops."
+battler_player_y = 21
+battler_enemy_y = 25
+battler_altitude = 0
+form_names = []
+internal_name = "DEWOTT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TAILWHIP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WATERGUN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WATERSPORT"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "TAILWHIP"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "WATERGUN"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "WATERSPORT"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "FOCUSENERGY"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "RAZORSHELL"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "FURYCUTTER"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "WATERPULSE"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "REVENGE"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "AQUAJET"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "ENCORE"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "AQUATAIL"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "RETALIATE"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "SWORDSDANCE"
+
+[[raw_level_up_moves]]
+at_level = "53"
+name = "HYDROPUMP"
+
+[[evolutions]]
+into_name = "SAMUROTT"
+condition = "Level"
+parameter = "36"
+
+[base_stats]
+hp = 75
+atk = 75
+def_ = 60
+spa = 83
+spd = 60
+spe = 60
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 2
+spd = 0
+spe = 0
+
+[wild_items]

@@ -1,0 +1,101 @@
+name = "Impidimp"
+primary_type = "DARK"
+secondary_type = "FAIRY"
+gender_ratio = "AlwaysMale"
+growth_rate = "Medium"
+exp_yield = 53
+catch_rate = 255
+caught_happiness = 50
+raw_abilities = ["PRANKSTER", "FRISK"]
+raw_egg_moves = []
+raw_tms = ["TAUNT", "PROTECT", "LEECHLIFE", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "THUNDERWAVE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "DARKPULSE", "DAZZLINGGLEAM", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "REVENGE", "FAKETEARS", "ASSURANCE", "DRAININGKISS", "METRONOME", "ENDURE", "NASTYPLOT", "PLAYROUGH", "RETALIATE", "TRAILBLAZE", "CHILLINGWATER"]
+raw_tutor_moves = ["DRAINPUNCH", "FOULPLAY", "LOWKICK", "SNATCH", "SNORE", "SUCKERPUNCH", "TRICK", "UPROAR", "BURNINGJEALOUSY", "LASHOUT", "MIMIC"]
+compatible_egg_groups = ["Fairy", "Humanlike"]
+steps_to_hatch = 5120
+height = 0.4
+weight = 5.5
+colour = "Pink"
+kind = "Wily"
+pokedex_entry = "It sneaks into people's homes, stealing things and feasting on the negative energy of the frustrated occupants."
+battler_player_y = 21
+battler_enemy_y = 26
+battler_altitude = 0
+form_names = []
+internal_name = "IMPIDIMP"
+raw_hidden_ability = "PICKPOCKET"
+regional_numbers = 859
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FAKEOUT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CONFIDE"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "FLATTER"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "FAKETEARS"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "ASSURANCE"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "SWAGGER"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "SUCKERPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "TORMENT"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "DARKPULSE"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "NASTYPLOT"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "PLAYROUGH"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "FOULPLAY"
+
+[[evolutions]]
+into_name = "MORGREM"
+condition = "Level"
+parameter = "32"
+
+[base_stats]
+hp = 45
+atk = 45
+def_ = 30
+spa = 55
+spd = 40
+spe = 50
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 1
+spd = 0
+spe = 0
+
+[wild_items]

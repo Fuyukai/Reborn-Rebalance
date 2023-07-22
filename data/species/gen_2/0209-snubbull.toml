@@ -1,0 +1,109 @@
+name = "Snubbull"
+primary_type = "FAIRY"
+secondary_type = "FAIRY"
+gender_ratio = "Female75Percent"
+growth_rate = "Fast"
+exp_yield = 60
+catch_rate = 190
+caught_happiness = 70
+raw_abilities = ["INTIMIDATE", "RUNAWAY"]
+raw_egg_moves = ["CLOSECOMBAT", "CRUNCH", "DOUBLEEDGE", "FAKETEARS", "FEINTATTACK", "FIREFANG", "FOCUSPUNCH", "HEALBELL", "ICEFANG", "METRONOME", "MIMIC", "PRESENT", "SMELLINGSALTS", "SNORE", "THUNDERFANG"]
+raw_tms = ["WORKUP", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "BULKUP", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "PROTECT", "RAINDANCE", "FRUSTRATION", "SOLARBEAM", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "SLUDGEBOMB", "FIREBLAST", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "OVERHEAT", "FLING", "PAYBACK", "THUNDERWAVE", "BULLDOZE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "SNARL", "POWERUPPUNCH", "DAZZLINGGLEAM", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "SCARYFACE", "CHARM", "FAKETEARS", "THUNDERFANG", "ICEFANG", "FIREFANG", "CRUNCH", "BODYSLAM", "CLOSECOMBAT", "METRONOME", "ENDURE", "PLAYROUGH", "RETALIATE"]
+raw_tutor_moves = ["COVET", "FIREPUNCH", "FOCUSPUNCH", "HEADBUTT", "HEALBELL", "HYPERVOICE", "ICEPUNCH", "LASTRESORT", "LOWKICK", "MUDSLAP", "SHOCKWAVE", "SNORE", "SUPERFANG", "SUPERPOWER", "THUNDERPUNCH", "WATERPULSE", "MIMIC"]
+compatible_egg_groups = ["Field", "Fairy"]
+steps_to_hatch = 5355
+height = 0.6
+weight = 7.8
+colour = "Pink"
+kind = "Fairy"
+pokedex_entry = "By baring its fangs and making a scary face, it sends smaller Pokémon scurrying in terror. Snubbull does seem a little sad at making its foes flee."
+battler_player_y = 29
+battler_enemy_y = 23
+battler_altitude = 0
+form_names = []
+internal_name = "SNUBBULL"
+raw_hidden_ability = "RATTLED"
+habitat = "Urban"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ICEFANG"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FIREFANG"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "THUNDERFANG"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SCARYFACE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TAILWHIP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CHARM"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "LICK"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "HEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "ROAR"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "RAGE"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "PLAYROUGH"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "PAYBACK"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "CRUNCH"
+
+[[evolutions]]
+into_name = "GRANBULL"
+condition = "Level"
+parameter = "23"
+
+[base_stats]
+hp = 60
+atk = 80
+def_ = 50
+spa = 40
+spd = 40
+spe = 30
+
+[ev_yield]
+hp = 0
+atk = 1
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

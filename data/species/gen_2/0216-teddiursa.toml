@@ -1,0 +1,113 @@
+name = "Teddiursa"
+primary_type = "NORMAL"
+secondary_type = "NORMAL"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 66
+catch_rate = 120
+caught_happiness = 70
+raw_abilities = ["PICKUP", "QUICKFEET"]
+raw_egg_moves = ["BELLYDRUM", "CHIPAWAY", "CLOSECOMBAT", "COUNTER", "CROSSCHOP", "CRUNCH", "DOUBLEEDGE", "FAKETEARS", "METALCLAW", "NIGHTSLASH", "PLAYROUGH", "SEISMICTOSS", "SLEEPTALK", "TAKEDOWN", "YAWN"]
+raw_tms = ["WORKUP", "CUT", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "BULKUP", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "PROTECT", "RAINDANCE", "FRUSTRATION", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "ROCKTOMB", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "FLING", "SHADOWCLAW", "PAYBACK", "SWORDSDANCE", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "CHARM", "FAKETEARS", "CRUNCH", "BODYSLAM", "CLOSECOMBAT", "FOCUSENERGY", "METRONOME", "ENDURE", "PLAYROUGH", "RETALIATE", "TRAILBLAZE", "SWIFT"]
+raw_tutor_moves = ["COVET", "FIREPUNCH", "FOCUSPUNCH", "FURYCUTTER", "GUNKSHOT", "HEADBUTT", "HYPERVOICE", "ICEPUNCH", "LASTRESORT", "MUDSLAP", "ROLLOUT", "SEEDBOMB", "SNORE", "SUPERPOWER", "THUNDERPUNCH", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5355
+height = 0.6
+weight = 8.8
+colour = "Brown"
+kind = "Little Bear"
+pokedex_entry = "It licks its palms that are sweetened by being soaked in honey. A Teddiursa makes its own honey by blending fruits and pollen collected by Beedrill."
+battler_player_y = 31
+battler_enemy_y = 23
+battler_altitude = 0
+form_names = []
+internal_name = "TEDDIURSA"
+raw_hidden_ability = "HONEYGATHER"
+habitat = "Mountain"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FLING"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "COVET"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SCRATCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BABYDOLLEYES"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LICK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FAKETEARS"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "FURYSWIPES"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "FEINTATTACK"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "SWEETSCENT"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "PLAYNICE"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "SLASH"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "CHARM"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "REST"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "SNORE"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "THRASH"
+
+[[raw_level_up_moves]]
+at_level = "57"
+name = "FLING"
+
+[[evolutions]]
+into_name = "URSARING"
+condition = "Level"
+parameter = "30"
+
+[base_stats]
+hp = 60
+atk = 80
+def_ = 50
+spa = 50
+spd = 50
+spe = 40
+
+[ev_yield]
+hp = 0
+atk = 1
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

@@ -1,0 +1,124 @@
+name = "Haxorus"
+primary_type = "DRAGON"
+secondary_type = "DRAGON"
+gender_ratio = "Female50Percent"
+growth_rate = "Slow"
+exp_yield = 243
+catch_rate = 45
+caught_happiness = 35
+raw_abilities = ["SHARPNESS", "MOLDBREAKER"]
+raw_egg_moves = []
+raw_tms = ["CUT", "DRAGONCLAW", "SURF", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "FOCUSBLAST", "FALSESWIPE", "FLING", "BRUTALSWING", "SHADOWCLAW", "PAYBACK", "GIGAIMPACT", "SWORDSDANCE", "BULLDOZE", "ROCKSLIDE", "XSCISSOR", "DRAGONTAIL", "POISONJAB", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "SNARL", "CONFIDE", "DIG", "SCARYFACE", "ASSURANCE", "CRUNCH", "PSYCHOCUT", "BREAKINGSWIPE", "CLOSECOMBAT", "FOCUSENERGY", "REVERSAL", "ENDURE", "DRAGONDANCE", "TRAILBLAZE", "SWIFT"]
+raw_tutor_moves = ["AQUATAIL", "DRACOMETEOR", "DRAGONPULSE", "DUALCHOP", "ENDEAVOR", "IRONTAIL", "LASERFOCUS", "LOWKICK", "OUTRAGE", "SHOCKWAVE", "SNORE", "STOMPINGTANTRUM", "SUPERPOWER", "SCALESHOT", "MIMIC"]
+compatible_egg_groups = ["Monster", "Dragon"]
+steps_to_hatch = 10240
+height = 1.8
+weight = 105.5
+colour = "Yellow"
+kind = "Axe Jaw"
+pokedex_entry = "Their sturdy tusks will stay sharp even if used to cut steel beams. These Pokémon are covered in hard armor."
+battler_player_y = 5
+battler_enemy_y = 10
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "HAXORUS"
+raw_hidden_ability = "UNNERVE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "OUTRAGE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SCRATCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ASSURANCE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DRAGONRAGE"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "ASSURANCE"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "DRAGONRAGE"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "DUALCHOP"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "SCARYFACE"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "SLASH"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "FALSESWIPE"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "DRAGONCLAW"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "DRAGONDANCE"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "TAUNT"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "DRAGONPULSE"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "SWORDSDANCE"
+
+[[raw_level_up_moves]]
+at_level = "58"
+name = "GUILLOTINE"
+
+[[raw_level_up_moves]]
+at_level = "66"
+name = "OUTRAGE"
+
+[[raw_level_up_moves]]
+at_level = "74"
+name = "GIGAIMPACT"
+
+[base_stats]
+hp = 76
+atk = 147
+def_ = 90
+spa = 60
+spd = 70
+spe = 97
+
+[ev_yield]
+hp = 0
+atk = 3
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

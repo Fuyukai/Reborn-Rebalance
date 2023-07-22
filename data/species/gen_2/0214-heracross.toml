@@ -1,0 +1,117 @@
+name = "Heracross"
+primary_type = "BUG"
+secondary_type = "FIGHTING"
+gender_ratio = "Female50Percent"
+growth_rate = "Slow"
+exp_yield = 175
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["SWARM", "GUTS"]
+raw_egg_moves = ["BIDE", "DOUBLEEDGE", "FLAIL", "FOCUSPUNCH", "HARDEN", "MEGAHORN", "PURSUIT", "REVENGE", "ROCKBLAST", "SEISMICTOSS"]
+raw_tms = ["WORKUP", "CUT", "STRENGTH", "TOXIC", "ROCKSMASH", "BULKUP", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "SMACKDOWN", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "FOCUSBLAST", "FALSESWIPE", "FLING", "BRUTALSWING", "SHADOWCLAW", "SMARTSTRIKE", "GIGAIMPACT", "STONEEDGE", "SWORDSDANCE", "STRUGGLEBUG", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "PINMISSILE", "DIG", "REVENGE", "BULLETSEED", "ROCKBLAST", "ASSURANCE", "BODYSLAM", "MEGAHORN", "CLOSECOMBAT", "REVERSAL", "SPIKES", "ENDURE", "HIGHHORSEPOWER", "RETALIATE", "POUNCE", "TRAILBLAZE"]
+raw_tutor_moves = ["BUGBITE", "FOCUSPUNCH", "FURYCUTTER", "HEADBUTT", "HELPINGHAND", "IRONDEFENSE", "KNOCKOFF", "LOWKICK", "SNORE", "THROATCHOP", "VACUUMWAVE", "COACHING", "MIMIC"]
+compatible_egg_groups = ["Bug"]
+steps_to_hatch = 6630
+height = 1.5
+weight = 54.0
+colour = "Blue"
+kind = "Single Horn"
+pokedex_entry = "They gather in forests seeking the sap of trees. It is completely clad in a steel-hard shell. It is proud of its horn, which it uses to fling foes."
+battler_player_y = 20
+battler_enemy_y = 10
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "HERACROSS"
+raw_hidden_ability = "MOXIE"
+habitat = "Forest"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ARMTHRUST"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BULLETSEED"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "NIGHTSLASH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HORNATTACK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ENDURE"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "FEINT"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "AERIALACE"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "CHIPAWAY"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "COUNTER"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "FURYATTACK"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "BRICKBREAK"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "PINMISSILE"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "MEGAHORN"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "CLOSECOMBAT"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "REVERSAL"
+
+[base_stats]
+hp = 80
+atk = 125
+def_ = 75
+spa = 40
+spd = 95
+spe = 85
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

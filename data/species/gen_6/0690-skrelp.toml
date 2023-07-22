@@ -1,0 +1,112 @@
+name = "Skrelp"
+primary_type = "POISON"
+secondary_type = "WATER"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 64
+catch_rate = 225
+caught_happiness = 70
+raw_abilities = ["POISONPOINT", "POISONTOUCH"]
+raw_egg_moves = ["ACIDARMOR", "HAZE", "PLAYROUGH", "TOXICSPIKES", "VENOMDRENCH"]
+raw_tms = ["SURF", "WATERFALL", "TOXIC", "DIVE", "HAIL", "VENOSHOCK", "HIDDENPOWER", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "RETURN", "SHADOWBALL", "DOUBLETEAM", "SLUDGEWAVE", "SLUDGEBOMB", "FACADE", "REST", "ATTRACT", "ROUND", "SCALD", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "LEAFBLADE", "HYDROPUMP", "LEAFSTORM", "ENDURE", "TOXICSPIKES", "PLAYROUGH", "VENOMDRENCH", "SNOWSCAPE", "CHILLINGWATER"]
+raw_tutor_moves = ["AQUATAIL", "BOUNCE", "DRAGONPULSE", "GUNKSHOT", "ICYWIND", "IRONTAIL", "OUTRAGE", "SHOCKWAVE", "SNORE", "WATERPULSE", "FLIPTURN", "SCALESHOT", "MIMIC", "POISONTAIL"]
+compatible_egg_groups = ["Water1", "Dragon"]
+steps_to_hatch = 5120
+height = 0.5
+weight = 7.3
+colour = "Brown"
+kind = "Mock Kelp"
+pokedex_entry = "Camouflaged as rotten kelp, they spray liquid poison on prey that approaches unawares and then finish it off."
+battler_player_y = 21
+battler_enemy_y = 29
+battler_altitude = 0
+form_names = []
+internal_name = "SKRELP"
+raw_hidden_ability = "ADAPTABILITY"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SMOKESCREEN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WATERGUN"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "FEINTATTACK"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "TAILWHIP"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "BUBBLE"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "ACID"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "CAMOUFLAGE"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "POISONTAIL"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "WATERPULSE"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "DOUBLETEAM"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "TOXIC"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "AQUATAIL"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "SLUDGEBOMB"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "HYDROPUMP"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "DRAGONPULSE"
+
+[[evolutions]]
+into_name = "DRAGALGE"
+condition = "Level"
+parameter = "48"
+
+[base_stats]
+hp = 50
+atk = 60
+def_ = 60
+spa = 60
+spd = 60
+spe = 30
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 1
+spe = 0
+
+[wild_items]

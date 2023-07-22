@@ -321,7 +321,18 @@ files = [
     {file = "ruamel.yaml.clib-0.2.7.tar.gz", hash = "sha256:1f08fd5a2bea9c4180db71678e850b995d2a5f4537be0e94557668cf0f5f9497"},
 ]
 
+[[package]]
+name = "tomlkit"
+version = "0.11.8"
+description = "Style preserving TOML library"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "tomlkit-0.11.8-py3-none-any.whl", hash = "sha256:8c726c4c202bdb148667835f68d68780b9a003a9ec34167b6c673b38eff2a171"},
+    {file = "tomlkit-0.11.8.tar.gz", hash = "sha256:9330fc7faa1db67b541b28e62018c17d20be733177d290a13b24c62d1614e0c3"},
+]
+
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "eb3295d36a7758ef249e0e016077c36a69e73d109b0bb3971c1655ff2492c27a"
+content-hash = "9d4ba6507120a5301f1f5327c926049f56cf5ae3237393de7d31d0a79f58e83c"

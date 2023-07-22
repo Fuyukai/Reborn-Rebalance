@@ -1,0 +1,107 @@
+name = "Snivy"
+primary_type = "GRASS"
+secondary_type = "GRASS"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+exp_yield = 62
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["OVERGROW", "CONTRARY"]
+raw_egg_moves = ["CAPTIVATE", "GLARE", "GRASSYTERRAIN", "IRONTAIL", "MAGICALLEAF", "MEANLOOK", "MIRRORCOAT", "NATURALGIFT", "PURSUIT", "SWEETSCENT", "TWISTER"]
+raw_tms = ["WORKUP", "CUT", "CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "LIGHTSCREEN", "PROTECT", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "REFLECT", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "SWORDSDANCE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "MAGICALLEAF", "LEAFBLADE", "GRASSYTERRAIN", "LEAFSTORM", "ENDURE"]
+raw_tutor_moves = ["AQUATAIL", "BIND", "DEFOG", "GASTROACID", "GIGADRAIN", "GRASSPLEDGE", "IRONTAIL", "KNOCKOFF", "SEEDBOMB", "SNATCH", "SNORE", "SYNTHESIS", "WORRYSEED", "MIMIC"]
+compatible_egg_groups = ["Field", "Grass"]
+steps_to_hatch = 5120
+height = 0.6
+weight = 8.1
+colour = "Green"
+kind = "Grass Snake"
+pokedex_entry = "They photosynthesize by bathing their tails in sunlight. When they are not feeling well, their tails droop."
+battler_player_y = 29
+battler_enemy_y = 33
+battler_altitude = 0
+form_names = []
+internal_name = "SNIVY"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "VINEWHIP"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "WRAP"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "GROWTH"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "LEAFTORNADO"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "LEECHSEED"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "MEGADRAIN"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "SLAM"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "LEAFBLADE"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "COIL"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "GIGADRAIN"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "WRINGOUT"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "GASTROACID"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "LEAFSTORM"
+
+[[evolutions]]
+into_name = "SERVINE"
+condition = "Level"
+parameter = "17"
+
+[base_stats]
+hp = 45
+atk = 45
+def_ = 55
+spa = 45
+spd = 55
+spe = 63
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 1
+
+[wild_items]

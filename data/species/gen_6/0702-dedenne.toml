@@ -1,0 +1,108 @@
+name = "Dedenne"
+primary_type = "ELECTRIC"
+secondary_type = "FAIRY"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 151
+catch_rate = 200
+caught_happiness = 70
+raw_abilities = ["CHEEKPOUCH", "PICKUP"]
+raw_egg_moves = ["COVET", "EERIEIMPULSE", "NATURALGIFT", "HELPINGHAND", "TEARFULLOOK"]
+raw_tms = ["CUT", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "DOUBLETEAM", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "FLING", "CHARGEBEAM", "GIGAIMPACT", "VOLTSWITCH", "THUNDERWAVE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "DAZZLINGGLEAM", "CONFIDE", "DIG", "CHARM", "ELECTRICTERRAIN", "EERIEIMPULSE", "LEAFSTORM", "ENDURE", "ELECTROBALL", "PLAYROUGH", "RETALIATE", "TRAILBLAZE"]
+raw_tutor_moves = ["ALLYSWITCH", "COVET", "ELECTROWEB", "HELPINGHAND", "IRONTAIL", "LASTRESORT", "MAGNETRISE", "RECYCLE", "SHOCKWAVE", "SIGNALBEAM", "SNORE", "SUPERFANG", "THUNDERPUNCH", "RISINGVOLTAGE", "MIMIC"]
+compatible_egg_groups = ["Field", "Fairy"]
+steps_to_hatch = 5120
+height = 0.2
+weight = 2.2
+colour = "Yellow"
+kind = "Antenna"
+pokedex_entry = "It uses its tail to absorb electricity from power plants or from outlets in houses, and then it fires the electricity from its whiskers."
+battler_player_y = 25
+battler_enemy_y = 20
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "DEDENNE"
+raw_hidden_ability = "PLUS"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TAILWHIP"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "THUNDERSHOCK"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "CHARGE"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "CHARM"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "PARABOLICCHARGE"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "NUZZLE"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "THUNDERWAVE"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "VOLTSWITCH"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "REST"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "SNORE"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "CHARGEBEAM"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "ENTRAINMENT"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "PLAYROUGH"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "THUNDER"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "DISCHARGE"
+
+[base_stats]
+hp = 67
+atk = 58
+def_ = 57
+spa = 81
+spd = 67
+spe = 101
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 2
+
+[wild_items]

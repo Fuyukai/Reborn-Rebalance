@@ -1,0 +1,122 @@
+name = "Dodrio"
+primary_type = "NORMAL"
+secondary_type = "FLYING"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 165
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["RUNAWAY", "EARLYBIRD"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "FLY", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "ROOST", "ROOST", "FRUSTRATION", "RETURN", "DOUBLETEAM", "REFLECT", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "STEELWING", "PAYBACK", "GIGAIMPACT", "SWORDSDANCE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "BEATUP", "ASSURANCE", "BODYSLAM", "BRAVEBIRD", "AGILITY", "TRIATTACK", "ENDURE", "BATONPASS", "HIGHHORSEPOWER", "SWIFT"]
+raw_tutor_moves = ["AIRCUTTER", "ENDEAVOR", "KNOCKOFF", "MUDSLAP", "SKYATTACK", "SNORE", "STOMPINGTANTRUM", "UPROAR", "MIMIC"]
+compatible_egg_groups = ["Flying"]
+steps_to_hatch = 5355
+height = 1.8
+weight = 85.2
+colour = "Brown"
+kind = "Triple Bird"
+pokedex_entry = "A peculiar Pokémon species with three heads. It vigorously races across grassy plains even in arid seasons with little rainfall."
+battler_player_y = 11
+battler_enemy_y = 3
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "DODRIO"
+raw_hidden_ability = "TANGLEDFEET"
+habitat = "Grassland"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "TRIATTACK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PECK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "RAGE"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "RAGE"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "FURYATTACK"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "PURSUIT"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "PLUCK"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "DOUBLEHIT"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "UPROAR"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "ACUPRESSURE"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "SWORDSDANCE"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "JUMPKICK"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "DRILLPECK"
+
+[[raw_level_up_moves]]
+at_level = "52"
+name = "ENDEAVOR"
+
+[[raw_level_up_moves]]
+at_level = "56"
+name = "THRASH"
+
+[base_stats]
+hp = 60
+atk = 110
+def_ = 70
+spa = 60
+spd = 60
+spe = 110
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "SHARPBEAK"

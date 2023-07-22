@@ -1,0 +1,120 @@
+name = "Runerigus"
+primary_type = "GROUND"
+secondary_type = "GHOST"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 169
+catch_rate = 90
+caught_happiness = 50
+raw_abilities = ["WANDERINGSPIRIT"]
+raw_egg_moves = ["MEMENTO"]
+raw_tms = ["CALMMIND", "TAUNT", "HYPERBEAM", "PROTECT", "RAINDANCE", "SAFEGUARD", "EARTHQUAKE", "PSYCHIC", "SHADOWBALL", "SANDSTORM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ENERGYBALL", "BRUTALSWING", "WILLOWISP", "SHADOWCLAW", "PAYBACK", "GIGAIMPACT", "STONEEDGE", "BULLDOZE", "ROCKSLIDE", "GRASSKNOT", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "DARKPULSE", "SCARYFACE", "REVENGE", "IMPRISON", "FAKETEARS", "SANDTOMB", "ROCKBLAST", "POWERSWAP", "GUARDSWAP", "HEX", "PHANTOMFORCE", "AMNESIA", "ENDURE", "TOXICSPIKES", "NASTYPLOT", "BODYPRESS"]
+raw_tutor_moves = ["ALLYSWITCH", "DRAGONPULSE", "EARTHPOWER", "IRONDEFENSE", "OMINOUSWIND", "SKILLSWAP", "SNORE", "STEALTHROCK", "TRICK", "WONDERROOM", "ZENHEADBUTT", "POLTERGEIST", "MIMIC"]
+compatible_egg_groups = ["Mineral", "Amorphous"]
+steps_to_hatch = 6400
+height = 1.6
+weight = 66.6
+colour = "Gray"
+kind = "Grudge"
+pokedex_entry = "Never touch its shadowlike body, or you'll be shown the horrific memories behind the picture carved into it."
+battler_player_y = 21
+battler_enemy_y = 26
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "RUNERIGUS"
+regional_numbers = 867
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "SHADOWCLAW"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SHADOWCLAW"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SCARYFACE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ASTONISH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PROTECT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HAZE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "NIGHTSHADE"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "DISABLE"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "BRUTALSWING"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "CRAFTYSHIELD"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "HEX"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "MEANLOOK"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "SLAM"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "CURSE"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "SHADOWBALL"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "EARTHQUAKE"
+
+[[raw_level_up_moves]]
+at_level = "56"
+name = "POWERSPLIT"
+
+[[raw_level_up_moves]]
+at_level = "56"
+name = "GUARDSPLIT"
+
+[[raw_level_up_moves]]
+at_level = "62"
+name = "DESTINYBOND"
+
+[base_stats]
+hp = 58
+atk = 95
+def_ = 145
+spa = 50
+spd = 105
+spe = 30
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 2
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

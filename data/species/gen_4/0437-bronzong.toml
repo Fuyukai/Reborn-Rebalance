@@ -1,0 +1,129 @@
+name = "Bronzong"
+primary_type = "STEEL"
+secondary_type = "PSYCHIC"
+gender_ratio = "Genderless"
+growth_rate = "Medium"
+exp_yield = 175
+catch_rate = 90
+caught_happiness = 70
+raw_abilities = ["LEVITATE", "HEATPROOF"]
+raw_egg_moves = []
+raw_tms = ["PSYSHOCK", "CALMMIND", "STRENGTH", "TOXIC", "ROCKSMASH", "FLASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "EARTHQUAKE", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "SANDSTORM", "ROCKTOMB", "FACADE", "REST", "ROUND", "CHARGEBEAM", "EXPLOSION", "PAYBACK", "GIGAIMPACT", "ROCKPOLISH", "GYROBALL", "PSYCHUP", "BULLDOZE", "ROCKSLIDE", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "TRICKROOM", "SECRETPOWER", "CONFIDE", "IMPRISON", "WEATHERBALL", "POWERSWAP", "GUARDSWAP", "SPEEDSWAP", "HEX", "PSYCHICTERRAIN", "ENDURE", "FUTURESIGHT", "HEAVYSLAM", "BODYPRESS", "ICESPINNER"]
+raw_tutor_moves = ["ALLYSWITCH", "ANCIENTPOWER", "BLOCK", "GRAVITY", "IRONDEFENSE", "IRONHEAD", "RECYCLE", "ROLLOUT", "SIGNALBEAM", "SKILLSWAP", "SNORE", "STEALTHROCK", "TELEKINESIS", "TRICK", "WONDERROOM", "ZENHEADBUTT", "METEORBEAM", "EXPANDINGFORCE", "STEELROLLER", "STEELBEAM", "MIMIC"]
+compatible_egg_groups = ["Mineral"]
+steps_to_hatch = 5355
+height = 1.3
+weight = 187.0
+colour = "Green"
+kind = "Bronze Bell"
+pokedex_entry = "One caused a news sensation when it was dug up at a construction site after a 2,000-year sleep."
+battler_player_y = 19
+battler_enemy_y = 12
+battler_altitude = 13
+evolutions = []
+form_names = []
+internal_name = "BRONZONG"
+raw_hidden_ability = "HEAVYMETAL"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "BLOCK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SUNNYDAY"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "RAINDANCE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CONFUSION"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HYPNOSIS"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "IMPRISON"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "HYPNOSIS"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "IMPRISON"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "CONFUSERAY"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "PSYWAVE"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "IRONDEFENSE"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "FEINTATTACK"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "SAFEGUARD"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "FUTURESIGHT"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "METALSOUND"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "GYROBALL"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "EXTRASENSORY"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "PAYBACK"
+
+[[raw_level_up_moves]]
+at_level = "52"
+name = "HEALBLOCK"
+
+[[raw_level_up_moves]]
+at_level = "58"
+name = "HEAVYSLAM"
+
+[base_stats]
+hp = 67
+atk = 89
+def_ = 116
+spa = 79
+spd = 116
+spe = 33
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 1
+spa = 0
+spd = 1
+spe = 0
+
+[wild_items]
+uncommon = "METALCOAT"

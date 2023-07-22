@@ -1,0 +1,71 @@
+name = "Wurmple"
+primary_type = "BUG"
+secondary_type = "BUG"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 56
+catch_rate = 255
+caught_happiness = 70
+raw_abilities = ["SHIELDDUST", "RUNAWAY"]
+raw_egg_moves = []
+raw_tms = []
+raw_tutor_moves = ["BUGBITE", "ELECTROWEB", "STRINGSHOT"]
+compatible_egg_groups = ["Bug"]
+steps_to_hatch = 4080
+height = 0.3
+weight = 3.6
+colour = "Red"
+kind = "Worm"
+pokedex_entry = "It sticks to tree branches and eats leaves. The thread it spits from its mouth slows the movement of its foes."
+battler_player_y = 28
+battler_enemy_y = 20
+battler_altitude = 0
+form_names = []
+internal_name = "WURMPLE"
+habitat = "Forest"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "STRINGSHOT"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "POISONSTING"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "BUGBITE"
+
+[[evolutions]]
+into_name = "SILCOON"
+condition = "Silcoon"
+parameter = "7"
+
+[[evolutions]]
+into_name = "CASCOON"
+condition = "Cascoon"
+parameter = "7"
+
+[base_stats]
+hp = 45
+atk = 45
+def_ = 35
+spa = 20
+spd = 30
+spe = 20
+
+[ev_yield]
+hp = 1
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+common = "PECHABERRY"
+uncommon = "BRIGHTPOWDER"

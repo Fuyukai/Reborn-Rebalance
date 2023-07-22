@@ -1,0 +1,77 @@
+name = "Lilligant"
+primary_type = "GRASS"
+secondary_type = "GRASS"
+gender_ratio = "AlwaysFemale"
+growth_rate = "Medium"
+exp_yield = 168
+catch_rate = 75
+caught_happiness = 70
+raw_abilities = ["CHLOROPHYLL", "OWNTEMPO"]
+raw_egg_moves = []
+raw_tms = ["CUT", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "GIGAIMPACT", "SWORDSDANCE", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "MAGICALLEAF", "SOLARBLADE", "CHARM", "LEAFBLADE", "GRASSYTERRAIN", "LEAFSTORM", "ENDURE", "ENCORE", "POLLENPUFF", "ICESPINNER", "TRAILBLAZE"]
+raw_tutor_moves = ["AFTERYOU", "COVET", "GIGADRAIN", "HEALBELL", "HELPINGHAND", "LASERFOCUS", "ROLEPLAY", "SEEDBOMB", "SNORE", "SYNTHESIS", "WORRYSEED", "GRASSYGLIDE", "MIMIC"]
+compatible_egg_groups = ["Grass"]
+steps_to_hatch = 5120
+height = 1.1
+weight = 16.3
+colour = "Green"
+kind = "Flowering"
+pokedex_entry = "The fragrance of the garland on its head has a relaxing effect. It withers if a Trainer does not take good care of it."
+battler_player_y = 16
+battler_enemy_y = 19
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "LILLIGANT"
+raw_hidden_ability = "LEAFGUARD"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWTH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEECHSEED"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MEGADRAIN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SYNTHESIS"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "TEETERDANCE"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "QUIVERDANCE"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "PETALDANCE"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "PETALBLIZZARD"
+
+[base_stats]
+hp = 70
+atk = 60
+def_ = 75
+spa = 110
+spd = 75
+spe = 90
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 2
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "ABSORBBULB"

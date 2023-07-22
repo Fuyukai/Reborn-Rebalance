@@ -1,0 +1,120 @@
+name = "Tranquill"
+primary_type = "NORMAL"
+secondary_type = "FLYING"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 125
+catch_rate = 120
+caught_happiness = 70
+raw_abilities = ["BIGPECKS", "SUPERLUCK"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "FLY", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "FRUSTRATION", "RETURN", "DOUBLETEAM", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "STEELWING", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "AIRSLASH", "AGILITY", "FOCUSENERGY", "ENDURE", "SWIFT"]
+raw_tutor_moves = ["AIRCUTTER", "DEFOG", "HEATWAVE", "SKYATTACK", "SNORE", "TAILWIND", "UPROAR", "DUALWINGBEAT", "MIMIC"]
+compatible_egg_groups = ["Flying"]
+steps_to_hatch = 3840
+height = 0.6
+weight = 15.0
+colour = "Gray"
+kind = "Wild Pigeon"
+pokedex_entry = "Many people believe that, deep in the forest where Tranquill live, there is a peaceful place where there is no war."
+battler_player_y = 22
+battler_enemy_y = 29
+battler_altitude = 0
+form_names = []
+internal_name = "TRANQUILL"
+raw_hidden_ability = "RIVALRY"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GUST"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "AIRCUTTER"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "ROOST"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "DETECT"
+
+[[raw_level_up_moves]]
+at_level = "27"
+name = "TAUNT"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "AIRSLASH"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "RAZORWIND"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "FEATHERDANCE"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "SWAGGER"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "FACADE"
+
+[[raw_level_up_moves]]
+at_level = "54"
+name = "TAILWIND"
+
+[[raw_level_up_moves]]
+at_level = "59"
+name = "SKYATTACK"
+
+[[evolutions]]
+into_name = "UNFEZANT"
+condition = "Level"
+parameter = "32"
+
+[base_stats]
+hp = 62
+atk = 77
+def_ = 62
+spa = 50
+spd = 42
+spe = 65
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

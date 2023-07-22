@@ -1,0 +1,121 @@
+name = "Hoothoot"
+primary_type = "NORMAL"
+secondary_type = "FLYING"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 52
+catch_rate = 255
+caught_happiness = 70
+raw_abilities = ["INSOMNIA", "KEENEYE"]
+raw_egg_moves = ["AGILITY", "DEFOG", "FEATHERDANCE", "FEINTATTACK", "HURRICANE", "MEANLOOK", "MIRRORMOVE", "NIGHTSHADE", "SKYATTACK", "SUPERSONIC", "WHIRLWIND", "WINGATTACK"]
+raw_tms = ["WORKUP", "FLY", "CALMMIND", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "FRUSTRATION", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "STEELWING", "PSYCHUP", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "SCREECH", "IMPRISON", "AIRSLASH", "HURRICANE", "AGILITY", "AMNESIA", "ENDURE", "NASTYPLOT", "STOREDPOWER", "SWIFT"]
+raw_tutor_moves = ["AIRCUTTER", "DEFOG", "HEATWAVE", "HYPERVOICE", "MAGICCOAT", "MUDSLAP", "OMINOUSWIND", "RECYCLE", "SKYATTACK", "SNORE", "TAILWIND", "TWISTER", "UPROAR", "ZENHEADBUTT", "DUALWINGBEAT", "MIMIC"]
+compatible_egg_groups = ["Flying"]
+steps_to_hatch = 4080
+height = 0.7
+weight = 21.2
+colour = "Brown"
+kind = "Owl"
+pokedex_entry = "It has an internal organ that senses the earth's rotation. Using this special organ, a Hoothoot begins hooting at precisely the same time every day."
+battler_player_y = 27
+battler_enemy_y = 20
+battler_altitude = 0
+form_names = []
+internal_name = "HOOTHOOT"
+raw_hidden_ability = "TINTEDLENS"
+habitat = "Forest"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FORESIGHT"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "HYPNOSIS"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "PECK"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "CONFUSION"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "ECHOEDVOICE"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "ZENHEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "PSYCHOSHIFT"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "EXTRASENSORY"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "REFLECT"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "AIRSLASH"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "UPROAR"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "ROOST"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "MOONBLAST"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "SYNCHRONOISE"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "DREAMEATER"
+
+[[evolutions]]
+into_name = "NOCTOWL"
+condition = "Level"
+parameter = "20"
+
+[base_stats]
+hp = 60
+atk = 30
+def_ = 30
+spa = 36
+spd = 56
+spe = 50
+
+[ev_yield]
+hp = 1
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

@@ -1,0 +1,93 @@
+name = "Bruxish"
+primary_type = "WATER"
+secondary_type = "PSYCHIC"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 166
+catch_rate = 80
+caught_happiness = 70
+raw_abilities = ["DAZZLING", "STRONGJAW"]
+raw_egg_moves = ["ICEFANG", "POISONFANG", "RAGE", "WATERPULSE"]
+raw_tms = ["SURF", "CALMMIND", "WATERFALL", "TOXIC", "BULKUP", "VENOSHOCK", "HIDDENPOWER", "TAUNT", "ICEBEAM", "BLIZZARD", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "RETURN", "PSYCHIC", "DOUBLETEAM", "REFLECT", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "ROUND", "SCALD", "FLING", "EMBARGO", "PAYBACK", "GIGAIMPACT", "SWORDSDANCE", "FROSTBREATH", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "CONFIDE", "SCREECH", "ICEFANG", "PSYCHICFANGS", "CRUNCH", "ENDURE", "CHILLINGWATER"]
+raw_tutor_moves = ["AFTERYOU", "ALLYSWITCH", "AQUATAIL", "IRONTAIL", "LIQUIDATION", "MAGICCOAT", "MAGICROOM", "PAINSPLIT", "SIGNALBEAM", "SNATCH", "SNORE", "TELEKINESIS", "UPROAR", "WATERPULSE", "WONDERROOM", "MIMIC"]
+compatible_egg_groups = ["Water2"]
+steps_to_hatch = 3840
+height = 0.9
+weight = 19.0
+colour = "Pink"
+kind = "Gnash Teeth"
+pokedex_entry = "It stuns its prey with psychokinesis and then grinds it to mush with its strong teeth. Even Shellder's shell is no match for it."
+battler_player_y = 30
+battler_enemy_y = 24
+battler_altitude = 5
+evolutions = []
+form_names = []
+internal_name = "BRUXISH"
+raw_hidden_ability = "WONDERSKIN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WATERGUN"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "ASTONISH"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "CONFUSION"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "AQUAJET"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "DISABLE"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "PSYWAVE"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "AQUATAIL"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "SCREECH"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "PSYCHICFANGS"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "SYNCHRONOISE"
+
+[base_stats]
+hp = 68
+atk = 105
+def_ = 70
+spa = 70
+spd = 70
+spe = 92
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "RAZORFANG"

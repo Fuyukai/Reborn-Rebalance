@@ -1,0 +1,125 @@
+name = "Krokorok"
+primary_type = "GROUND"
+secondary_type = "DARK"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 123
+catch_rate = 90
+caught_happiness = 70
+raw_abilities = ["INTIMIDATE", "MOXIE"]
+raw_egg_moves = []
+raw_tms = ["CUT", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "ROCKCLIMB", "HIDDENPOWER", "TAUNT", "PROTECT", "FRUSTRATION", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "SLUDGEBOMB", "SANDSTORM", "ROCKTOMB", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "LOWSWEEP", "ROUND", "FLING", "BRUTALSWING", "EMBARGO", "SHADOWCLAW", "PAYBACK", "STONEEDGE", "BULLDOZE", "ROCKSLIDE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "SNARL", "DARKPULSE", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "SCARYFACE", "BEATUP", "REVENGE", "SANDTOMB", "ASSURANCE", "THUNDERFANG", "FIREFANG", "CRUNCH", "HYDROPUMP", "FOCUSENERGY", "ENDURE", "RETALIATE"]
+raw_tutor_moves = ["AQUATAIL", "EARTHPOWER", "FOCUSPUNCH", "FOULPLAY", "IRONTAIL", "KNOCKOFF", "LOWKICK", "SNATCH", "SNORE", "SPITE", "STEALTHROCK", "STOMPINGTANTRUM", "UPROAR", "SCORCHINGSANDS", "SKITTERSMACK", "LASHOUT", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5120
+height = 1.0
+weight = 33.4
+colour = "Brown"
+kind = "Desert Croc"
+pokedex_entry = "The special membrane covering its eyes can sense the heat of objects, so it can see its surroundings even in darkness."
+battler_player_y = 15
+battler_enemy_y = 22
+battler_altitude = 0
+form_names = []
+internal_name = "KROKOROK"
+raw_hidden_ability = "ANGERPOINT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "RAGE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SANDATTACK"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "SANDATTACK"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "TORMENT"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "SANDTOMB"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "ASSURANCE"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "MUDSLAP"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "EMBARGO"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "SWAGGER"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "DIG"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "SCARYFACE"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "FOULPLAY"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "SANDSTORM"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "EARTHQUAKE"
+
+[[raw_level_up_moves]]
+at_level = "52"
+name = "THRASH"
+
+[[evolutions]]
+into_name = "KROOKODILE"
+condition = "Level"
+parameter = "40"
+
+[base_stats]
+hp = 60
+atk = 82
+def_ = 45
+spa = 45
+spd = 45
+spe = 74
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "BLACKGLASSES"

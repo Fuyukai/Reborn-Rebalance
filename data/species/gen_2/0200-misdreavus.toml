@@ -1,0 +1,104 @@
+name = "Misdreavus"
+primary_type = "GHOST"
+secondary_type = "GHOST"
+gender_ratio = "Female50Percent"
+growth_rate = "Fast"
+exp_yield = 87
+catch_rate = 45
+caught_happiness = 35
+raw_abilities = ["LEVITATE"]
+raw_egg_moves = ["CURSE", "DESTINYBOND", "IMPRISON", "MEFIRST", "MEMENTO", "NASTYPLOT", "OMINOUSWIND", "SCREECH", "SHADOWSNEAK", "SKILLSWAP", "SPITE", "SUCKERPUNCH", "WONDERROOM"]
+raw_tms = ["CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "CHARGEBEAM", "WILLOWISP", "EMBARGO", "PAYBACK", "THUNDERWAVE", "PSYCHUP", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "DARKPULSE", "DAZZLINGGLEAM", "CONFIDE", "SCREECH", "IMPRISON", "FAKETEARS", "HEX", "ENDURE", "POWERGEM", "NASTYPLOT", "SNOWSCAPE", "SWIFT"]
+raw_tutor_moves = ["ALLYSWITCH", "FOULPLAY", "HEADBUTT", "HEALBELL", "HYPERVOICE", "ICYWIND", "MAGICCOAT", "MAGICROOM", "OMINOUSWIND", "PAINSPLIT", "SHOCKWAVE", "SKILLSWAP", "SNATCH", "SNORE", "SPITE", "SUCKERPUNCH", "TELEKINESIS", "TRICK", "UPROAR", "WONDERROOM", "MIMIC"]
+compatible_egg_groups = ["Amorphous"]
+steps_to_hatch = 6630
+height = 0.7
+weight = 1.0
+colour = "Purple"
+kind = "Screech"
+pokedex_entry = "A Misdreavus frightens people with a creepy, sobbing cry. It apparently uses its red spheres to absorb the fear of foes as its nutrition."
+battler_player_y = 28
+battler_enemy_y = 20
+battler_altitude = 17
+form_names = ["Normal", "Aevian"]
+internal_name = "MISDREAVUS"
+habitat = "Cave"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PSYWAVE"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "SPITE"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "ASTONISH"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "CONFUSERAY"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "MEANLOOK"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "HEX"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "PSYBEAM"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "PAINSPLIT"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "PAYBACK"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "SHADOWBALL"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "PERISHSONG"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "GRUDGE"
+
+[[raw_level_up_moves]]
+at_level = "55"
+name = "POWERGEM"
+
+[[evolutions]]
+into_name = "MISMAGIUS"
+condition = "Item"
+parameter = "DUSKSTONE"
+
+[base_stats]
+hp = 60
+atk = 60
+def_ = 60
+spa = 85
+spd = 85
+spe = 85
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 1
+spe = 0
+
+[wild_items]

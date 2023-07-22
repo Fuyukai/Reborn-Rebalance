@@ -1,0 +1,112 @@
+name = "Bibarel"
+primary_type = "NORMAL"
+secondary_type = "WATER"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 144
+catch_rate = 127
+caught_happiness = 70
+raw_abilities = ["SIMPLE", "UNAWARE"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "CUT", "SURF", "STRENGTH", "WATERFALL", "TOXIC", "DIVE", "ROCKSMASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "SHADOWBALL", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "SCALD", "FLING", "CHARGEBEAM", "GIGAIMPACT", "THUNDERWAVE", "SWORDSDANCE", "BULLDOZE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "WHIRLPOOL", "CRUNCH", "AMNESIA", "ENDURE", "RETALIATE", "SWIFT"]
+raw_tutor_moves = ["AQUATAIL", "COVET", "FOCUSPUNCH", "FURYCUTTER", "HEADBUTT", "ICYWIND", "IRONTAIL", "LASTRESORT", "LIQUIDATION", "MUDSLAP", "ROLLOUT", "SHOCKWAVE", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "SUPERFANG", "SUPERPOWER", "WATERPULSE", "MIMIC"]
+compatible_egg_groups = ["Water1", "Field"]
+steps_to_hatch = 4080
+height = 1.0
+weight = 31.5
+colour = "Brown"
+kind = "Beaver"
+pokedex_entry = "It makes its nest by damming streams with bark and mud. It is known as an industrious worker."
+battler_player_y = 19
+battler_enemy_y = 18
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "BIBAREL"
+raw_hidden_ability = "MOODY"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "WATERGUN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "AQUAJET"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ROTOTILLER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "DEFENSECURL"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "ROLLOUT"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "HEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "HYPERFANG"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "YAWN"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "SUPERFANG"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "SWORDSDANCE"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "AMNESIA"
+
+[[raw_level_up_moves]]
+at_level = "53"
+name = "SUPERPOWER"
+
+[[raw_level_up_moves]]
+at_level = "58"
+name = "CURSE"
+
+[base_stats]
+hp = 79
+atk = 85
+def_ = 60
+spa = 55
+spd = 60
+spe = 71
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

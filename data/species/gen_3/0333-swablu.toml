@@ -1,0 +1,116 @@
+name = "Swablu"
+primary_type = "NORMAL"
+secondary_type = "FLYING"
+gender_ratio = "Female50Percent"
+growth_rate = "Erratic"
+exp_yield = 62
+catch_rate = 255
+caught_happiness = 70
+raw_abilities = ["NATURALCURE", "CLOUDNINE"]
+raw_egg_moves = ["AGILITY", "DRAGONRUSH", "FEATHERDANCE", "HAZE", "HYPERVOICE", "PLAYROUGH", "POWERSWAP", "PURSUIT", "RAGE", "ROOST", "STEELWING"]
+raw_tms = ["FLY", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "STEELWING", "FALSESWIPE", "PSYCHUP", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "DAZZLINGGLEAM", "CONFIDE", "POWERSWAP", "BODYSLAM", "AGILITY", "ENDURE", "PLAYROUGH", "TRAILBLAZE", "SWIFT"]
+raw_tutor_moves = ["AIRCUTTER", "DEFOG", "DRAGONPULSE", "HEALBELL", "HEATWAVE", "HYPERVOICE", "MUDSLAP", "OMINOUSWIND", "OUTRAGE", "SKYATTACK", "SNORE", "TAILWIND", "TWISTER", "UPROAR", "DUALWINGBEAT", "MIMIC"]
+compatible_egg_groups = ["Flying", "Dragon"]
+steps_to_hatch = 5355
+height = 0.4
+weight = 1.2
+colour = "Blue"
+kind = "Cotton Bird"
+pokedex_entry = "A Pokémon that has wings like cottony clouds. After enduring winter, in which little food is available, Swablu flocks move closer to towns in the spring."
+battler_player_y = 29
+battler_enemy_y = 24
+battler_altitude = 17
+form_names = []
+internal_name = "SWABLU"
+habitat = "Forest"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PECK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "3"
+name = "ASTONISH"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "SING"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "FURYATTACK"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "SAFEGUARD"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "DISARMINGVOICE"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "MIST"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "ROUND"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "NATURALGIFT"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "REFRESH"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "MIRRORMOVE"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "COTTONGUARD"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "DRAGONPULSE"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "PERISHSONG"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "MOONBLAST"
+
+[[evolutions]]
+into_name = "ALTARIA"
+condition = "Level"
+parameter = "35"
+
+[base_stats]
+hp = 45
+atk = 40
+def_ = 60
+spa = 40
+spd = 75
+spe = 50
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 1
+spe = 0
+
+[wild_items]

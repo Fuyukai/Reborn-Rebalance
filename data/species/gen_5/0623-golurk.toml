@@ -1,0 +1,125 @@
+name = "Golurk"
+primary_type = "GROUND"
+secondary_type = "GHOST"
+gender_ratio = "Genderless"
+growth_rate = "Medium"
+exp_yield = 169
+catch_rate = 90
+caught_happiness = 70
+raw_abilities = ["IRONFIST", "KLUTZ"]
+raw_egg_moves = []
+raw_tms = ["FLY", "STRENGTH", "TOXIC", "ROCKSMASH", "FLASH", "HIDDENPOWER", "ICEBEAM", "HYPERBEAM", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "THUNDERBOLT", "EARTHQUAKE", "RETURN", "PSYCHIC", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "ROCKTOMB", "FACADE", "REST", "THIEF", "LOWSWEEP", "ROUND", "FOCUSBLAST", "FLING", "CHARGEBEAM", "GIGAIMPACT", "ROCKPOLISH", "STONEEDGE", "GYROBALL", "BULLDOZE", "ROCKSLIDE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "SELFDESTRUCT", "IMPRISON", "PHANTOMFORCE", "BODYSLAM", "CLOSECOMBAT", "ENDURE", "HEATCRASH", "HEAVYSLAM", "DARKESTLARIAT", "HIGHHORSEPOWER", "BODYPRESS"]
+raw_tutor_moves = ["ALLYSWITCH", "BLOCK", "DRAINPUNCH", "EARTHPOWER", "FIREPUNCH", "FOCUSPUNCH", "GRAVITY", "HELPINGHAND", "ICEPUNCH", "ICYWIND", "IRONDEFENSE", "LOWKICK", "MAGICCOAT", "MUDSLAP", "SHOCKWAVE", "SIGNALBEAM", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "SUPERPOWER", "TELEKINESIS", "THUNDERPUNCH", "TRICK", "ZENHEADBUTT", "SCORCHINGSANDS", "POLTERGEIST", "HEADLONGRUSH", "MIMIC"]
+compatible_egg_groups = ["Mineral"]
+steps_to_hatch = 6400
+height = 2.8
+weight = 330.0
+colour = "Green"
+kind = "Automaton"
+pokedex_entry = "It is said that Golurk were ordered to protect people and Pokémon by the ancient people who made them."
+battler_player_y = 7
+battler_enemy_y = 14
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "GOLURK"
+raw_hidden_ability = "NOGUARD"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "HEAVYSLAM"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HIGHHORSEPOWER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POUND"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ASTONISH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DEFENSECURL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MUDSLAP"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "MUDSLAP"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "ROLLOUT"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "SHADOWPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "IRONDEFENSE"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "STOMPINGTANTRUM"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "MEGAPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "MAGNITUDE"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "DYNAMICPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "NIGHTSHADE"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "CURSE"
+
+[[raw_level_up_moves]]
+at_level = "54"
+name = "EARTHQUAKE"
+
+[[raw_level_up_moves]]
+at_level = "61"
+name = "HAMMERARM"
+
+[[raw_level_up_moves]]
+at_level = "69"
+name = "FOCUSPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "76"
+name = "PHANTOMFORCE"
+
+[base_stats]
+hp = 89
+atk = 124
+def_ = 80
+spa = 55
+spd = 80
+spe = 55
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "LIGHTCLAY"

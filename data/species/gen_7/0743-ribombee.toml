@@ -1,0 +1,105 @@
+name = "Ribombee"
+primary_type = "BUG"
+secondary_type = "FAIRY"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 162
+catch_rate = 75
+caught_happiness = 70
+raw_abilities = ["HONEYGATHER", "SHIELDDUST"]
+raw_egg_moves = []
+raw_tms = ["CALMMIND", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "ROOST", "ROOST", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "LEECHLIFE", "PSYCHIC", "DOUBLETEAM", "REFLECT", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ENERGYBALL", "ACROBATICS", "GIGAIMPACT", "PSYCHUP", "INFESTATION", "DREAMEATER", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "DAZZLINGGLEAM", "CONFIDE", "MAGICALLEAF", "CHARM", "IMPRISON", "FAKETEARS", "SPEEDSWAP", "CRUNCH", "DRAININGKISS", "BODYSLAM", "HYDROPUMP", "MEGAHORN", "REVERSAL", "ENDURE", "BATONPASS", "BUGBUZZ", "PLAYROUGH", "HIGHHORSEPOWER", "POLLENPUFF", "SWIFT"]
+raw_tutor_moves = ["AFTERYOU", "ALLYSWITCH", "BUGBITE", "COVET", "DEFOG", "HELPINGHAND", "LASTRESORT", "MAGICROOM", "SIGNALBEAM", "SKILLSWAP", "SNORE", "TAILWIND", "TELEKINESIS", "TRICK", "WONDERROOM", "DUALWINGBEAT", "MIMIC"]
+compatible_egg_groups = ["Bug", "Fairy"]
+steps_to_hatch = 5120
+height = 0.2
+weight = 0.5
+colour = "Yellow"
+kind = "Bee Fly"
+pokedex_entry = "It rolls up pollen into puffs. It makes many different varieties, some used as food and others used in battle."
+battler_player_y = 20
+battler_enemy_y = 24
+battler_altitude = 15
+evolutions = []
+form_names = []
+internal_name = "RIBOMBEE"
+raw_hidden_ability = "SWEETVEIL"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "POLLENPUFF"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ABSORB"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FAIRYWIND"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "STUNSPORE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "STRUGGLEBUG"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "FAIRYWIND"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "STUNSPORE"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "STRUGGLEBUG"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "SILVERWIND"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "DRAININGKISS"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "SWEETSCENT"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "BUGBUZZ"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "DAZZLINGGLEAM"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "AROMATHERAPY"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "QUIVERDANCE"
+
+[base_stats]
+hp = 60
+atk = 55
+def_ = 60
+spa = 95
+spd = 70
+spe = 124
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 2
+
+[wild_items]
+uncommon = "HONEY"

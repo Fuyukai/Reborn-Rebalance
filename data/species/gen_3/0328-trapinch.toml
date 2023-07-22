@@ -1,0 +1,118 @@
+name = "Trapinch"
+primary_type = "GROUND"
+secondary_type = "GROUND"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 58
+catch_rate = 255
+caught_happiness = 70
+raw_abilities = ["EARTHEATER", "ARENATRAP"]
+raw_egg_moves = ["BUGBITE", "EARTHPOWER", "ENDURE", "FLAIL", "FOCUSENERGY", "FURYCUTTER", "GUST", "MUDSHOT", "QUICKATTACK", "SIGNALBEAM"]
+raw_tms = ["STRENGTH", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "FRUSTRATION", "SOLARBEAM", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "SANDSTORM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "STRUGGLEBUG", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "SANDTOMB", "MUDSHOT", "CRUNCH", "BODYSLAM", "FOCUSENERGY", "ENDURE"]
+raw_tutor_moves = ["BUGBITE", "EARTHPOWER", "FURYCUTTER", "GIGADRAIN", "HEADBUTT", "LASERFOCUS", "MUDSLAP", "SIGNALBEAM", "SNORE", "SUPERPOWER", "SCORCHINGSANDS", "MIMIC"]
+compatible_egg_groups = ["Bug"]
+steps_to_hatch = 5355
+height = 0.7
+weight = 15.0
+colour = "Brown"
+kind = "Ant Pit"
+pokedex_entry = "Its big jaws crunch through boulders. Because its head is so big, it has a hard time getting back upright if it tips over onto its back."
+battler_player_y = 25
+battler_enemy_y = 25
+battler_altitude = 0
+form_names = []
+internal_name = "TRAPINCH"
+raw_hidden_ability = "SHEERFORCE"
+habitat = "RoughTerrain"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SANDATTACK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FEINTATTACK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BIDE"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "MUDSLAP"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "BULLDOZE"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "SANDTOMB"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "ROCKSLIDE"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "DIG"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "EARTHPOWER"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "FEINT"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "EARTHQUAKE"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "SANDSTORM"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "SUPERPOWER"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "HYPERBEAM"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "FISSURE"
+
+[[evolutions]]
+into_name = "VIBRAVA"
+condition = "Level"
+parameter = "35"
+
+[base_stats]
+hp = 45
+atk = 100
+def_ = 45
+spa = 45
+spd = 45
+spe = 10
+
+[ev_yield]
+hp = 0
+atk = 1
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "SOFTSAND"

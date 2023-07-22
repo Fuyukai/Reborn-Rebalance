@@ -1,0 +1,93 @@
+name = "Corvisquire"
+primary_type = "FLYING"
+secondary_type = "FLYING"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 128
+catch_rate = 120
+caught_happiness = 50
+raw_abilities = ["KEENEYE", "UNNERVE"]
+raw_egg_moves = ["SKYATTACK", "SANDATTACK", "TAILWIND", "DEFOG", "ROCKSMASH", "SPITE", "ROOST"]
+raw_tms = ["WORKUP", "FLY", "ROCKSMASH", "TAUNT", "PROTECT", "ROOST", "ROOST", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "PAYBACK", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "SCARYFACE", "REVENGE", "FAKETEARS", "ASSURANCE", "AIRSLASH", "BRAVEBIRD", "AGILITY", "FOCUSENERGY", "REVERSAL", "ENDURE", "NASTYPLOT", "RETALIATE", "SWIFT"]
+raw_tutor_moves = ["DEFOG", "SKYATTACK", "SNORE", "SPITE", "TAILWIND", "DUALWINGBEAT", "MIMIC"]
+compatible_egg_groups = ["Flying"]
+steps_to_hatch = 3840
+height = 0.8
+weight = 16.0
+colour = "Blue"
+kind = "Raven"
+pokedex_entry = "The lessons of many harsh battles have taught it how to accurately judge an opponent's strength."
+battler_player_y = 21
+battler_enemy_y = 15
+battler_altitude = 0
+form_names = []
+internal_name = "CORVISQUIRE"
+raw_hidden_ability = "BIGPECKS"
+regional_numbers = 822
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PECK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POWERTRIP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HONECLAWS"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "FURYATTACK"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "PLUCK"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "TAUNT"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "SCARYFACE"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "DRILLPECK"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "SWAGGER"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "BRAVEBIRD"
+
+[[evolutions]]
+into_name = "CORVIKNIGHT"
+condition = "Level"
+parameter = "38"
+
+[base_stats]
+hp = 68
+atk = 67
+def_ = 55
+spa = 43
+spd = 55
+spe = 77
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 2
+
+[wild_items]

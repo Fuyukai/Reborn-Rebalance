@@ -1,0 +1,108 @@
+name = "Ducklett"
+primary_type = "WATER"
+secondary_type = "FLYING"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 61
+catch_rate = 190
+caught_happiness = 70
+raw_abilities = ["KEENEYE", "BIGPECKS"]
+raw_egg_moves = ["AIRCUTTER", "AQUAJET", "BRINE", "GUST", "LUCKYCHANT", "MEFIRST", "MIRRORMOVE", "MUDSPORT", "STEELWING"]
+raw_tms = ["FLY", "SURF", "TOXIC", "DIVE", "HAIL", "HIDDENPOWER", "ICEBEAM", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "FRUSTRATION", "RETURN", "DOUBLETEAM", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "STEELWING", "SCALD", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "BRINE", "AIRSLASH", "HURRICANE", "BRAVEBIRD", "ENDURE"]
+raw_tutor_moves = ["AIRCUTTER", "DEFOG", "ENDEAVOR", "ICYWIND", "LIQUIDATION", "SNORE", "TAILWIND", "UPROAR", "WATERPULSE", "MIMIC"]
+compatible_egg_groups = ["Water1", "Flying"]
+steps_to_hatch = 5120
+height = 0.5
+weight = 5.5
+colour = "Blue"
+kind = "Water Bird"
+pokedex_entry = "When attacked, it uses its feathers to splash water, escaping under cover of the spray."
+battler_player_y = 28
+battler_enemy_y = 31
+battler_altitude = 0
+form_names = []
+internal_name = "DUCKLETT"
+raw_hidden_ability = "HYDRATION"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WATERGUN"
+
+[[raw_level_up_moves]]
+at_level = "3"
+name = "WATERSPORT"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "DEFOG"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "WINGATTACK"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "WATERPULSE"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "AERIALACE"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "BUBBLEBEAM"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "FEATHERDANCE"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "AQUARING"
+
+[[raw_level_up_moves]]
+at_level = "27"
+name = "AIRSLASH"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "ROOST"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "RAINDANCE"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "TAILWIND"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "BRAVEBIRD"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "HURRICANE"
+
+[[evolutions]]
+into_name = "SWANNA"
+condition = "Level"
+parameter = "35"
+
+[base_stats]
+hp = 62
+atk = 44
+def_ = 50
+spa = 44
+spd = 50
+spe = 55
+
+[ev_yield]
+hp = 1
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

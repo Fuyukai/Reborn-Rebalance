@@ -1,0 +1,112 @@
+name = "Weepinbell"
+primary_type = "GRASS"
+secondary_type = "POISON"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 137
+catch_rate = 120
+caught_happiness = 70
+raw_abilities = ["CHLOROPHYLL", "GLUTTONY"]
+raw_egg_moves = []
+raw_tms = ["CUT", "TOXIC", "FLASH", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "FRUSTRATION", "SOLARBEAM", "RETURN", "LEECHLIFE", "DOUBLETEAM", "REFLECT", "SLUDGEBOMB", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ENERGYBALL", "SWORDSDANCE", "INFESTATION", "POISONJAB", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "MAGICALLEAF", "SOLARBLADE", "WEATHERBALL", "BULLETSEED", "POWERWHIP", "ENDURE", "ENCORE"]
+raw_tutor_moves = ["BIND", "BUGBITE", "GASTROACID", "GIGADRAIN", "KNOCKOFF", "SEEDBOMB", "SNORE", "SUCKERPUNCH", "SYNTHESIS", "WORRYSEED", "GRASSYGLIDE", "MIMIC"]
+compatible_egg_groups = ["Grass"]
+steps_to_hatch = 5355
+height = 1.0
+weight = 6.4
+colour = "Green"
+kind = "Flycatcher"
+pokedex_entry = "At night, a Weepinbell hangs on to a tree branch with its hooked rear and sleeps. If it moves around in its sleep, it may wake up to find itself on the ground."
+battler_player_y = 24
+battler_enemy_y = 20
+battler_altitude = 10
+form_names = []
+internal_name = "WEEPINBELL"
+habitat = "Forest"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "VINEWHIP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWTH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WRAP"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "GROWTH"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "WRAP"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "SLEEPPOWDER"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "POISONPOWDER"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "STUNSPORE"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "ACID"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "KNOCKOFF"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "SWEETSCENT"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "GASTROACID"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "RAZORLEAF"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "POISONJAB"
+
+[[raw_level_up_moves]]
+at_level = "54"
+name = "SLAM"
+
+[[raw_level_up_moves]]
+at_level = "58"
+name = "WRINGOUT"
+
+[[evolutions]]
+into_name = "VICTREEBEL"
+condition = "Item"
+parameter = "LEAFSTONE"
+
+[base_stats]
+hp = 65
+atk = 90
+def_ = 50
+spa = 85
+spd = 45
+spe = 55
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

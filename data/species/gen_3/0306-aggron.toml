@@ -1,0 +1,126 @@
+name = "Aggron"
+primary_type = "STEEL"
+secondary_type = "ROCK"
+gender_ratio = "Female50Percent"
+growth_rate = "Slow"
+exp_yield = 239
+catch_rate = 45
+caught_happiness = 35
+raw_abilities = ["STURDY", "ROCKHEAD"]
+raw_egg_moves = []
+raw_tms = ["CUT", "DRAGONCLAW", "SURF", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "SOLARBEAM", "SMACKDOWN", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "FLAMETHROWER", "SANDSTORM", "FIREBLAST", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "FOCUSBLAST", "FLING", "BRUTALSWING", "SHADOWCLAW", "PAYBACK", "SMARTSTRIKE", "GIGAIMPACT", "ROCKPOLISH", "STONEEDGE", "THUNDERWAVE", "BULLDOZE", "ROCKSLIDE", "DRAGONTAIL", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "DARKPULSE", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "SCREECH", "SCARYFACE", "WHIRLPOOL", "SANDTOMB", "ROCKBLAST", "AVALANCHE", "CRUNCH", "BODYSLAM", "HYDROPUMP", "REVERSAL", "ENDURE", "HEAVYSLAM", "HIGHHORSEPOWER", "BODYPRESS"]
+raw_tutor_moves = ["ANCIENTPOWER", "AQUATAIL", "BLOCK", "DRAGONPULSE", "EARTHPOWER", "ENDEAVOR", "FIREPUNCH", "FOCUSPUNCH", "FURYCUTTER", "HEADBUTT", "ICEPUNCH", "ICYWIND", "IRONDEFENSE", "IRONHEAD", "IRONTAIL", "LOWKICK", "MAGNETRISE", "MUDSLAP", "OUTRAGE", "ROLLOUT", "SHOCKWAVE", "SNORE", "SPITE", "STEALTHROCK", "STOMPINGTANTRUM", "SUPERPOWER", "THUNDERPUNCH", "UPROAR", "WATERPULSE", "METEORBEAM", "STEELROLLER", "STEELBEAM", "HEADLONGRUSH", "WAVECRASH", "MIMIC"]
+compatible_egg_groups = ["Monster"]
+steps_to_hatch = 9180
+height = 2.1
+weight = 360.0
+colour = "Gray"
+kind = "Iron Armor"
+pokedex_entry = "Its iron horns grow longer a little at a time. They determine the Aggron's age. The gouges in its armor are worn with pride as mementos from battles."
+battler_player_y = 11
+battler_enemy_y = 8
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "AGGRON"
+raw_hidden_ability = "HEAVYMETAL"
+habitat = "Mountain"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HARDEN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MUDSLAP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "MUDSLAP"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "HEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "METALCLAW"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "ROCKTOMB"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "PROTECT"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "ROAR"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "IRONHEAD"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "ROCKSLIDE"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "METALSOUND"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "IRONTAIL"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "IRONDEFENSE"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "DOUBLEEDGE"
+
+[[raw_level_up_moves]]
+at_level = "51"
+name = "AUTOTOMIZE"
+
+[[raw_level_up_moves]]
+at_level = "57"
+name = "HEAVYSLAM"
+
+[[raw_level_up_moves]]
+at_level = "63"
+name = "METALBURST"
+
+[base_stats]
+hp = 70
+atk = 110
+def_ = 180
+spa = 60
+spd = 60
+spe = 50
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 3
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "HARDSTONE"

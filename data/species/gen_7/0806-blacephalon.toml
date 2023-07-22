@@ -1,0 +1,91 @@
+name = "Blacephalon"
+primary_type = "FIRE"
+secondary_type = "GHOST"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 257
+catch_rate = 30
+caught_happiness = 0
+raw_abilities = ["BEASTBOOST"]
+raw_egg_moves = []
+raw_tms = ["PSYSHOCK", "CALMMIND", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "FRUSTRATION", "SOLARBEAM", "SMACKDOWN", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "FLAMETHROWER", "FIREBLAST", "TORMENT", "FACADE", "FLAMECHARGE", "REST", "THIEF", "ROUND", "OVERHEAT", "FLING", "QUASH", "WILLOWISP", "EXPLOSION", "SHADOWCLAW", "PAYBACK", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "DARKPULSE", "CONFIDE", "FIRESPIN", "SELFDESTRUCT", "ROCKBLAST", "MYSTICALFIRE", "ENDURE", "ENCORE", "STOREDPOWER"]
+raw_tutor_moves = ["AFTERYOU", "FIREPUNCH", "FOULPLAY", "HEATWAVE", "KNOCKOFF", "LASTRESORT", "PAINSPLIT", "RECYCLE", "SNORE", "SPITE", "TRICK", "UPROAR", "ZENHEADBUTT", "EXPANDINGFORCE", "POLTERGEIST", "MIMIC"]
+compatible_egg_groups = ["Undiscovered"]
+steps_to_hatch = 30720
+height = 1.8
+weight = 13.0
+colour = "White"
+kind = "Fireworks"
+pokedex_entry = "It slithers toward people. Then, without warning, it triggers the explosion of its own head. It is apparently one kind of Ultra Beast."
+battler_player_y = 27
+battler_enemy_y = 2
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "BLACEPHALON"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "EMBER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ASTONISH"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "MAGICCOAT"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "STOREDPOWER"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "FLAMEBURST"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "NIGHTSHADE"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "LIGHTSCREEN"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "CALMMIND"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "FIREBLAST"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "SHADOWBALL"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "TRICK"
+
+[[raw_level_up_moves]]
+at_level = "59"
+name = "MINDBLOWN"
+
+[base_stats]
+hp = 53
+atk = 127
+def_ = 53
+spa = 151
+spd = 79
+spe = 107
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 3
+spd = 0
+spe = 0
+
+[wild_items]

@@ -1,0 +1,121 @@
+name = "Sunflora"
+primary_type = "GRASS"
+secondary_type = "GRASS"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 149
+catch_rate = 120
+caught_happiness = 70
+raw_abilities = ["CHLOROPHYLL", "SOLARPOWER"]
+raw_egg_moves = []
+raw_tms = ["CUT", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "SLUDGEBOMB", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "GIGAIMPACT", "SWORDSDANCE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "WEATHERBALL", "BULLETSEED", "LEAFBLADE", "GRASSYTERRAIN", "HYDROPUMP", "LEAFSTORM", "ENDURE", "ENCORE", "TRAILBLAZE"]
+raw_tutor_moves = ["AFTERYOU", "EARTHPOWER", "ENDEAVOR", "GIGADRAIN", "HELPINGHAND", "SEEDBOMB", "SNORE", "SYNTHESIS", "UPROAR", "WORRYSEED", "MIMIC"]
+compatible_egg_groups = ["Grass"]
+steps_to_hatch = 5355
+height = 0.8
+weight = 8.5
+colour = "Yellow"
+kind = "Sun"
+pokedex_entry = "Sunflora convert solar energy into nutrition. They are highly active in the warm daytime but suddenly stop moving as soon as the sun sets."
+battler_player_y = 21
+battler_enemy_y = 18
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "SUNFLORA"
+raw_hidden_ability = "SEEDSOWER"
+habitat = "Grassland"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FLOWERSHIELD"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ABSORB"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POUND"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWTH"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "INGRAIN"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "GRASSWHISTLE"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "MEGADRAIN"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "LEECHSEED"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "RAZORLEAF"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "WORRYSEED"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "GIGADRAIN"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "BULLETSEED"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "PETALDANCE"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "NATURALGIFT"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "SOLARBEAM"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "DOUBLEEDGE"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "SUNNYDAY"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "LEAFSTORM"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "PETALBLIZZARD"
+
+[base_stats]
+hp = 75
+atk = 75
+def_ = 55
+spa = 105
+spd = 85
+spe = 30
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 2
+spd = 0
+spe = 0
+
+[wild_items]

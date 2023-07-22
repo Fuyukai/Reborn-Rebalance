@@ -1,0 +1,101 @@
+name = "Remoraid"
+primary_type = "WATER"
+secondary_type = "WATER"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 60
+catch_rate = 190
+caught_happiness = 70
+raw_abilities = ["HUSTLE", "SNIPER"]
+raw_egg_moves = ["ACIDSPRAY", "AURORABEAM", "ENTRAINMENT", "FLAIL", "HAZE", "MUDSHOT", "OCTAZOOKA", "ROCKBLAST", "SCREECH", "SNORE", "SUPERSONIC", "SWIFT", "WATERPULSE", "WATERSPOUT"]
+raw_tms = ["SURF", "WATERFALL", "TOXIC", "DIVE", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "SMACKDOWN", "RETURN", "PSYCHIC", "DOUBLETEAM", "FLAMETHROWER", "FIREBLAST", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "SCALD", "CHARGEBEAM", "THUNDERWAVE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "SCREECH", "WHIRLPOOL", "BULLETSEED", "ROCKBLAST", "MUDSHOT", "BRINE", "ASSURANCE", "HYDROPUMP", "FOCUSENERGY", "ENDURE", "SWIFT"]
+raw_tutor_moves = ["BOUNCE", "GUNKSHOT", "HELPINGHAND", "ICYWIND", "MUDSLAP", "SEEDBOMB", "SIGNALBEAM", "SNORE", "STRINGSHOT", "WATERPULSE", "MIMIC"]
+compatible_egg_groups = ["Water1", "Water2"]
+steps_to_hatch = 5355
+height = 0.6
+weight = 12.0
+colour = "Gray"
+kind = "Jet"
+pokedex_entry = "Remoraid uses its abdominal muscles to expel swallowed water, then shoot down flying prey. When evolution approaches, it travels down rivers."
+battler_player_y = 20
+battler_enemy_y = 24
+battler_altitude = 11
+form_names = []
+internal_name = "REMORAID"
+raw_hidden_ability = "MOODY"
+habitat = "Sea"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WATERGUN"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "LOCKON"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "PSYBEAM"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "AURORABEAM"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "BUBBLEBEAM"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "FOCUSENERGY"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "WATERPULSE"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "SIGNALBEAM"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "ICEBEAM"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "BULLETSEED"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "HYDROPUMP"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "HYPERBEAM"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "SOAK"
+
+[[evolutions]]
+into_name = "OCTILLERY"
+condition = "Level"
+parameter = "25"
+
+[base_stats]
+hp = 35
+atk = 65
+def_ = 35
+spa = 65
+spd = 35
+spe = 65
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 1
+spd = 0
+spe = 0
+
+[wild_items]

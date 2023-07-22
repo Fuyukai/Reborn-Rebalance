@@ -1,0 +1,53 @@
+name = "Delibird"
+primary_type = "ICE"
+secondary_type = "FLYING"
+gender_ratio = "Female50Percent"
+growth_rate = "Fast"
+exp_yield = 116
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["VITALSPIRIT", "HUSTLE"]
+raw_egg_moves = ["AURORABEAM", "BESTOW", "COUNTER", "DESTINYBOND", "FAKEOUT", "FREEZEDRY", "FUTURESIGHT", "ICEBALL", "ICEPUNCH", "ICESHARD", "ICYWIND", "QUICKATTACK", "RAPIDSPIN", "SPIKES", "SPLASH"]
+raw_tms = ["FLY", "TOXIC", "HAIL", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "BRICKBREAK", "DOUBLETEAM", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "STEELWING", "FLING", "BRUTALSWING", "AURORAVEIL", "FROSTBREATH", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "WEATHERBALL", "ICICLESPEAR", "ASSURANCE", "AVALANCHE", "BODYSLAM", "BRAVEBIRD", "AGILITY", "SPIKES", "ENDURE", "BATONPASS", "FUTURESIGHT", "ICESPINNER", "SNOWSCAPE", "TRAILBLAZE", "CHILLINGWATER", "SWIFT"]
+raw_tutor_moves = ["BOUNCE", "DEFOG", "DRILLRUN", "FOCUSPUNCH", "GUNKSHOT", "HEADBUTT", "HELPINGHAND", "ICEPUNCH", "ICYWIND", "MUDSLAP", "RECYCLE", "ROLLOUT", "SEEDBOMB", "SIGNALBEAM", "SKYATTACK", "SNORE", "WATERPULSE", "DUALWINGBEAT", "TRIPLEAXEL", "MIMIC"]
+compatible_egg_groups = ["Water1", "Field"]
+steps_to_hatch = 5355
+height = 0.9
+weight = 16.0
+colour = "Red"
+kind = "Delivery"
+pokedex_entry = "Delibird carries food bundled up in its tail. Once, a famous explorer managed to climb the world's highest mountain only thanks to a Delibird sharing its food."
+battler_player_y = 24
+battler_enemy_y = 17
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "DELIBIRD"
+raw_hidden_ability = "INSOMNIA"
+habitat = "Mountain"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PRESENT"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "DRILLPECK"
+
+[base_stats]
+hp = 45
+atk = 55
+def_ = 45
+spa = 65
+spd = 45
+spe = 75
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 1
+
+[wild_items]

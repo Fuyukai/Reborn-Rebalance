@@ -6,6 +6,8 @@ from pathlib import Path
 import attr
 import attrs
 import prettyprinter
+from cattrs import Converter
+from cattrs.gen import make_dict_unstructure_fn
 
 from reborn_rebalance.pbs.move import PokemonMove, MoveCategory
 from reborn_rebalance.pbs.raw.pokemon import raw_parse_pokemon_pbs
@@ -141,13 +143,13 @@ class WildItems:
     """
 
     #: An item with 50% chance.
-    common: str | None = attr.ib()
+    common: str | None = attr.ib(default=None)
 
     #: An item with 5% chance.
-    uncommon: str | None = attr.ib()
+    uncommon: str | None = attr.ib(default=None)
 
     #: An item with 1% chance.
-    rare: str | None = attr.ib()
+    rare: str | None = attr.ib(default=None)
 
     def write(self, buffer: PbsBuffer):
         """
@@ -186,6 +188,16 @@ class PokemonSpecies:
     """
     A single species as stored in a YAML file.
     """
+
+    @classmethod
+    def add_unstructuring_hook(cls, converter: Converter):
+        for klass in [PokemonEvolution, PokemonSpecies, WildItems, cls, ]:
+            unst_hook = make_dict_unstructure_fn(
+                klass,
+                converter,
+                _cattrs_omit_if_default=True,
+            )
+            converter.register_unstructure_hook(klass, unst_hook)
 
     @staticmethod
     def validate_catch_rate(_, __, rate: int):
@@ -229,7 +241,7 @@ class PokemonSpecies:
     #: The list of raw abilities this Pokémon can have. Non-empty.
     raw_abilities: list[str] = attr.ib()
     #: The hidden ability for this Pokémon, or None if it has no specific hidden ability.
-    raw_hidden_ability: str | None = attr.ib()
+    raw_hidden_ability: str | None = attr.ib(default=None)
 
     #: The list of moves learned upon level up.
     raw_level_up_moves: list[RawLevelUpMove] = attr.ib()
@@ -275,8 +287,8 @@ class PokemonSpecies:
     # used internally. fuck dealing with that
     form_names: list[str] = attr.ib()
     # ? gen 8 nonsense. we keep it for round-tripping
-    regional_numbers: int | None = attr.ib()
-    shape: int | None = attr.ib()
+    regional_numbers: int | None = attr.ib(default=None)
+    shape: int | None = attr.ib(default=None)
 
     @classmethod
     def from_pbs(cls, data: dict[str, str | int]) -> PokemonSpecies:

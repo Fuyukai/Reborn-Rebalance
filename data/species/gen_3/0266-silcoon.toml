@@ -1,0 +1,56 @@
+name = "Silcoon"
+primary_type = "BUG"
+secondary_type = "BUG"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 72
+catch_rate = 120
+caught_happiness = 70
+raw_abilities = ["SHEDSKIN"]
+raw_egg_moves = []
+raw_tms = []
+raw_tutor_moves = ["BUGBITE", "ELECTROWEB", "IRONDEFENSE", "STRINGSHOT"]
+compatible_egg_groups = ["Bug"]
+steps_to_hatch = 4080
+height = 0.6
+weight = 10.0
+colour = "White"
+kind = "Cocoon"
+pokedex_entry = "It prepares for evolution using the energy it stored while it was a Wurmple. It keeps watch over the surroundings with its two eyes."
+battler_player_y = 28
+battler_enemy_y = 33
+battler_altitude = 0
+form_names = []
+internal_name = "SILCOON"
+habitat = "Forest"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "HARDEN"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "SILKTRAP"
+
+[[evolutions]]
+into_name = "BEAUTIFLY"
+condition = "Level"
+parameter = "10"
+
+[base_stats]
+hp = 50
+atk = 35
+def_ = 55
+spa = 25
+spd = 25
+spe = 15
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 2
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

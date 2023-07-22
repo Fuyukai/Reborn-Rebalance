@@ -1,0 +1,101 @@
+name = "Nidoran"
+primary_type = "POISON"
+secondary_type = "POISON"
+gender_ratio = "AlwaysFemale"
+growth_rate = "Parabolic"
+exp_yield = 55
+catch_rate = 235
+caught_happiness = 70
+raw_abilities = ["POISONPOINT", "RIVALRY"]
+raw_egg_moves = ["BEATUP", "CHARM", "CHIPAWAY", "COUNTER", "DISABLE", "ENDURE", "FOCUSENERGY", "IRONTAIL", "POISONTAIL", "PURSUIT", "SKULLBASH", "SUPERSONIC", "TAKEDOWN", "VENOMDRENCH"]
+raw_tms = ["CUT", "STRENGTH", "TOXIC", "ROCKSMASH", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "DOUBLETEAM", "REFLECT", "SLUDGEBOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "SHADOWCLAW", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "CHARM", "BEATUP", "CRUNCH", "BODYSLAM", "FOCUSENERGY", "ENDURE", "TOXICSPIKES", "VENOMDRENCH"]
+raw_tutor_moves = ["EARTHPOWER", "HEADBUTT", "HELPINGHAND", "IRONTAIL", "MUDSLAP", "SHOCKWAVE", "SNORE", "SUPERFANG", "WATERPULSE", "MIMIC", "POISONTAIL"]
+compatible_egg_groups = ["Monster", "Field"]
+steps_to_hatch = 5355
+height = 0.4
+weight = 7.0
+colour = "Blue"
+kind = "Poison Pin"
+pokedex_entry = "Its highly toxic barbs are thought to have developed as protection for this small-bodied Pokémon. When enraged, it releases a horrible toxin from its horn."
+battler_player_y = 30
+battler_enemy_y = 25
+battler_altitude = 0
+form_names = []
+internal_name = "NIDORANfE"
+raw_hidden_ability = "HUSTLE"
+habitat = "Grassland"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SCRATCH"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "TAILWHIP"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "DOUBLEKICK"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "POISONSTING"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "FURYSWIPES"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "HELPINGHAND"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "TOXICSPIKES"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "FLATTER"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "CAPTIVATE"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "POISONFANG"
+
+[[evolutions]]
+into_name = "NIDORINA"
+condition = "Level"
+parameter = "16"
+
+[base_stats]
+hp = 55
+atk = 47
+def_ = 52
+spa = 40
+spd = 40
+spe = 41
+
+[ev_yield]
+hp = 1
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

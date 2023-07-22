@@ -1,0 +1,97 @@
+name = "Sandaconda"
+primary_type = "GROUND"
+secondary_type = "GROUND"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 179
+catch_rate = 120
+caught_happiness = 50
+raw_abilities = ["SANDSPIT", "SHEDSKIN"]
+raw_egg_moves = ["DRAGONRUSH", "MUDSLAP", "LASTRESORT", "BELCH", "POISONTAIL"]
+raw_tms = ["HYPERBEAM", "PROTECT", "EARTHQUAKE", "SANDSTORM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "BRUTALSWING", "GIGAIMPACT", "STONEEDGE", "BULLDOZE", "ROCKSLIDE", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "DIG", "SCREECH", "SANDTOMB", "ROCKBLAST", "MUDSHOT", "THUNDERFANG", "FIREFANG", "HURRICANE", "ENDURE", "HIGHHORSEPOWER", "BODYPRESS"]
+raw_tutor_moves = ["DRILLRUN", "EARTHPOWER", "GASTROACID", "HEADBUTT", "IRONDEFENSE", "IRONHEAD", "LASTRESORT", "MUDSLAP", "OUTRAGE", "SNORE", "STEALTHROCK", "ZENHEADBUTT", "SCORCHINGSANDS", "SKITTERSMACK", "SCALESHOT", "MIMIC", "POISONTAIL"]
+compatible_egg_groups = ["Field", "Dragon"]
+steps_to_hatch = 5120
+height = 3.8
+weight = 65.5
+colour = "Green"
+kind = "Sand Snake"
+pokedex_entry = "Its unique style of coiling allows it to blast sand out of its sand sac more efficiently."
+battler_player_y = 21
+battler_enemy_y = 26
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "SANDACONDA"
+raw_hidden_ability = "SANDVEIL"
+regional_numbers = 844
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SKULLBASH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WRAP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SANDATTACK"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "MINIMIZE"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "BRUTALSWING"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "BULLDOZE"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "HEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "GLARE"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "DIG"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "SANDSTORM"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "SLAM"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "COIL"
+
+[[raw_level_up_moves]]
+at_level = "51"
+name = "SANDTOMB"
+
+[base_stats]
+hp = 72
+atk = 107
+def_ = 125
+spa = 65
+spd = 70
+spe = 71
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 2
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

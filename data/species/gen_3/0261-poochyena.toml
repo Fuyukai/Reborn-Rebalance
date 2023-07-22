@@ -1,0 +1,113 @@
+name = "Poochyena"
+primary_type = "DARK"
+secondary_type = "DARK"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 56
+catch_rate = 255
+caught_happiness = 70
+raw_abilities = ["RUNAWAY", "QUICKFEET"]
+raw_egg_moves = ["ASTONISH", "COVET", "FIREFANG", "ICEFANG", "LEER", "MEFIRST", "PLAYROUGH", "POISONFANG", "SLEEPTALK", "SNATCH", "SUCKERPUNCH", "THUNDERFANG", "YAWN"]
+raw_tms = ["ROAR", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "SHADOWBALL", "DOUBLETEAM", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "EMBARGO", "PAYBACK", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "SNARL", "DARKPULSE", "CONFIDE", "DIG", "SCARYFACE", "BEATUP", "ASSURANCE", "THUNDERFANG", "ICEFANG", "FIREFANG", "PSYCHICFANGS", "CRUNCH", "BODYSLAM", "ENDURE", "NASTYPLOT", "PLAYROUGH", "RETALIATE"]
+raw_tutor_moves = ["COVET", "FOULPLAY", "HEADBUTT", "HYPERVOICE", "IRONTAIL", "MUDSLAP", "SNATCH", "SNORE", "SPITE", "SUCKERPUNCH", "SUPERFANG", "UPROAR", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 4080
+height = 0.5
+weight = 13.6
+colour = "Gray"
+kind = "Bite"
+pokedex_entry = "It savagely threatens foes with bared fangs. It chases after fleeing targets tenaciously. It turns tail and runs, however, if the foe strikes back."
+battler_player_y = 27
+battler_enemy_y = 22
+battler_altitude = 0
+form_names = []
+internal_name = "POOCHYENA"
+raw_hidden_ability = "RATTLED"
+habitat = "Grassland"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "HOWL"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "SANDATTACK"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "ODORSLEUTH"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "ROAR"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "SWAGGER"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "ASSURANCE"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "SCARYFACE"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "EMBARGO"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "TAUNT"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "YAWN"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "SUCKERPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "PLAYROUGH"
+
+[[evolutions]]
+into_name = "MIGHTYENA"
+condition = "Level"
+parameter = "18"
+
+[base_stats]
+hp = 35
+atk = 55
+def_ = 35
+spa = 30
+spd = 30
+spe = 35
+
+[ev_yield]
+hp = 0
+atk = 1
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

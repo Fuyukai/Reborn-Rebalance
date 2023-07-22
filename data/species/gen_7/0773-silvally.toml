@@ -1,0 +1,147 @@
+name = "Silvally"
+primary_type = "NORMAL"
+secondary_type = "NORMAL"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 257
+catch_rate = 3
+caught_happiness = 0
+raw_abilities = ["RKSSYSTEM"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "DRAGONCLAW", "SURF", "ROAR", "TOXIC", "HAIL", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "RETURN", "SHADOWBALL", "DOUBLETEAM", "FLAMETHROWER", "SANDSTORM", "AERIALACE", "FACADE", "FLAMECHARGE", "REST", "ROUND", "STEELWING", "EXPLOSION", "SHADOWCLAW", "PAYBACK", "GIGAIMPACT", "THUNDERWAVE", "SWORDSDANCE", "ROCKSLIDE", "XSCISSOR", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "SNARL", "CONFIDE", "SELFDESTRUCT", "SCARYFACE", "IMPRISON", "THUNDERFANG", "ICEFANG", "FIREFANG", "PSYCHICFANGS", "CRUNCH", "AIRSLASH", "TRIATTACK", "REVERSAL", "ENDURE", "SWIFT"]
+raw_tutor_moves = ["DEFOG", "DRACOMETEOR", "FIREPLEDGE", "GRASSPLEDGE", "HEATWAVE", "HYPERVOICE", "ICYWIND", "IRONDEFENSE", "IRONHEAD", "LASERFOCUS", "LASTRESORT", "MAGICCOAT", "OUTRAGE", "SIGNALBEAM", "SNORE", "TAILWIND", "WATERPLEDGE", "ZENHEADBUTT", "TERRAINPULSE", "STEELBEAM", "MIMIC"]
+compatible_egg_groups = ["Undiscovered"]
+steps_to_hatch = 30720
+height = 2.3
+weight = 100.5
+colour = "Gray"
+kind = "Synthetic"
+pokedex_entry = "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle."
+battler_player_y = 3
+battler_enemy_y = 7
+battler_altitude = 0
+evolutions = []
+form_names = ["Type: Normal", "Type: Fighting", "Type: Flying", "Type: Poison", "Type: Ground", "Type: Rock", "Type: Bug", "Type: Ghost", "Type: Steel", "Type: Unknown", "Type: Fire", "Type: Water", "Type: Grass", "Type: Electric", "Type: Psychic", "Type: Ice", "Type: Dragon", "Type: Dark", "Type: Fairy"]
+internal_name = "SILVALLY"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "MULTIATTACK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HEALBLOCK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "IMPRISON"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "IRONHEAD"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POISONFANG"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FIREFANG"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ICEFANG"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "THUNDERFANG"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "RAGE"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "PURSUIT"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "AERIALACE"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "CRUSHCLAW"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "SCARYFACE"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "XSCISSOR"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "METALSOUND"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "55"
+name = "DOUBLEHIT"
+
+[[raw_level_up_moves]]
+at_level = "60"
+name = "AIRSLASH"
+
+[[raw_level_up_moves]]
+at_level = "65"
+name = "PUNISHMENT"
+
+[[raw_level_up_moves]]
+at_level = "70"
+name = "RAZORWIND"
+
+[[raw_level_up_moves]]
+at_level = "75"
+name = "TRIATTACK"
+
+[[raw_level_up_moves]]
+at_level = "80"
+name = "DOUBLEEDGE"
+
+[[raw_level_up_moves]]
+at_level = "85"
+name = "PARTINGSHOT"
+
+[base_stats]
+hp = 95
+atk = 95
+def_ = 95
+spa = 95
+spd = 95
+spe = 95
+
+[ev_yield]
+hp = 3
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

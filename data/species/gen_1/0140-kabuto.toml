@@ -1,0 +1,97 @@
+name = "Kabuto"
+primary_type = "ROCK"
+secondary_type = "WATER"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Medium"
+exp_yield = 71
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["SWIFTSWIM", "BATTLEARMOR"]
+raw_egg_moves = ["AURORABEAM", "BUBBLEBEAM", "CONFUSERAY", "FLAIL", "FORESIGHT", "GIGADRAIN", "ICYWIND", "KNOCKOFF", "MUDSHOT", "RAPIDSPIN", "SCREECH", "TAKEDOWN"]
+raw_tms = ["SURF", "WATERFALL", "TOXIC", "HAIL", "ROCKSMASH", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "SMACKDOWN", "RETURN", "DOUBLETEAM", "REFLECT", "SANDSTORM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "SCALD", "ROCKPOLISH", "STONEEDGE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "SCREECH", "ROCKBLAST", "MUDSHOT", "BRINE", "BODYSLAM", "HYDROPUMP", "ENDURE"]
+raw_tutor_moves = ["ANCIENTPOWER", "EARTHPOWER", "GIGADRAIN", "ICYWIND", "IRONDEFENSE", "KNOCKOFF", "LIQUIDATION", "ROLLOUT", "SNORE", "STEALTHROCK", "WATERPULSE", "MIMIC"]
+compatible_egg_groups = ["Water1", "Water3"]
+steps_to_hatch = 7905
+height = 0.5
+weight = 11.5
+colour = "Brown"
+kind = "Shellfish"
+pokedex_entry = "A Pokémon that has been regenerated from a fossil. However, living examples have been discovered. Kabuto haven't changed for 300 million years."
+battler_player_y = 31
+battler_enemy_y = 28
+battler_altitude = 0
+form_names = []
+internal_name = "KABUTO"
+raw_hidden_ability = "WEAKARMOR"
+habitat = "Sea"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SCRATCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HARDEN"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "ABSORB"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "MUDSHOT"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "SANDATTACK"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "ENDURE"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "AQUAJET"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "MEGADRAIN"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "METALSOUND"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "ANCIENTPOWER"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "WRINGOUT"
+
+[[evolutions]]
+into_name = "KABUTOPS"
+condition = "Level"
+parameter = "40"
+
+[base_stats]
+hp = 30
+atk = 80
+def_ = 90
+spa = 55
+spd = 45
+spe = 55
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 1
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

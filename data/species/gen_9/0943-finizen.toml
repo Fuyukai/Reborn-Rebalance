@@ -1,0 +1,99 @@
+name = "Finizen"
+primary_type = "WATER"
+secondary_type = "WATER"
+gender_ratio = "Female50Percent"
+growth_rate = "Slow"
+exp_yield = 66
+catch_rate = 200
+caught_happiness = 50
+raw_abilities = ["WATERVEIL"]
+raw_egg_moves = ["COUNTER", "HAZE", "TICKLE", "BOUNCE", "BOOMBURST"]
+raw_tms = ["SURF", "WATERFALL", "TOXIC", "DIVE", "HAIL", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "SCALD", "FLING", "ACROBATICS", "AURORAVEIL", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "CHARM", "WHIRLPOOL", "BRINE", "DRAININGKISS", "BODYSLAM", "HYDROPUMP", "AGILITY", "ENDURE", "ENCORE", "CHILLINGWATER", "SWIFT"]
+raw_tutor_moves = ["AQUATAIL", "HELPINGHAND", "ICYWIND", "LIQUIDATION", "WATERPULSE", "ZENHEADBUTT", "FLIPTURN"]
+compatible_egg_groups = ["Field", "Water2"]
+steps_to_hatch = 10280
+height = 1.3
+weight = 60.2
+colour = "Blue"
+kind = "Dolphin"
+pokedex_entry = "Its water ring is made from seawater mixed with a sticky fluid that Finizen secretes from its blowhole."
+battler_player_y = 16
+battler_enemy_y = 12
+battler_altitude = 0
+form_names = []
+internal_name = "FINIZEN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SUPERSONIC"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WATERGUN"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "ASTONISH"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "FOCUSENERGY"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "AQUAJET"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "DOUBLEHIT"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "DIVE"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "CHARM"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "ACROBATICS"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "ENCORE"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "AQUATAIL"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "MIST"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "HYDROPUMP"
+
+[[evolutions]]
+into_name = "PALAFIN"
+condition = "Level"
+parameter = "38"
+
+[base_stats]
+hp = 70
+atk = 45
+def_ = 40
+spa = 45
+spd = 40
+spe = 75
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 1
+
+[wild_items]

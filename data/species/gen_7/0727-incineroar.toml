@@ -1,0 +1,131 @@
+name = "Incineroar"
+primary_type = "FIRE"
+secondary_type = "DARK"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+exp_yield = 239
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["BLAZE", "INTIMIDATE"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "ROAR", "TOXIC", "BULKUP", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "FRUSTRATION", "EARTHQUAKE", "RETURN", "LEECHLIFE", "BRICKBREAK", "DOUBLETEAM", "FLAMETHROWER", "FIREBLAST", "TORMENT", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "LOWSWEEP", "ROUND", "OVERHEAT", "FOCUSBLAST", "FLING", "BRUTALSWING", "QUASH", "WILLOWISP", "ACROBATICS", "EMBARGO", "SHADOWCLAW", "GIGAIMPACT", "SWORDSDANCE", "BULLDOZE", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "SNARL", "DARKPULSE", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "PAYDAY", "FIRESPIN", "SCARYFACE", "REVENGE", "ASSURANCE", "FIREFANG", "CRUNCH", "BODYSLAM", "FLAREBLITZ", "CLOSECOMBAT", "REVERSAL", "ENDURE", "BLAZEKICK", "NASTYPLOT", "HEATCRASH", "DARKESTLARIAT"]
+raw_tutor_moves = ["BIND", "BLASTBURN", "COVET", "DRAINPUNCH", "DUALCHOP", "ENDEAVOR", "FIREPLEDGE", "FIREPUNCH", "FOCUSPUNCH", "HEATWAVE", "IRONHEAD", "KNOCKOFF", "LOWKICK", "OUTRAGE", "PAINSPLIT", "SNATCH", "SNORE", "STOMPINGTANTRUM", "SUPERFANG", "SUPERPOWER", "THROATCHOP", "THUNDERPUNCH", "BURNINGJEALOUSY", "SCORCHINGSANDS", "LASHOUT", "RAGINGFURY", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 3840
+height = 1.8
+weight = 83.0
+colour = "Red"
+kind = "Heel"
+pokedex_entry = "This Pokémon has a violent, selfish disposition. If it is not in the mood to listen, it will ignore its Trainer's orders with complete nonchalance."
+battler_player_y = 12
+battler_enemy_y = 14
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "INCINEROAR"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "DARKESTLARIAT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BULKUP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "THROATCHOP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SCRATCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "EMBER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LICK"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "LICK"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "FIREFANG"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "DOUBLEKICK"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "ROAR"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "SWAGGER"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "FURYSWIPES"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "THRASH"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "FLAMETHROWER"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "SCARYFACE"
+
+[[raw_level_up_moves]]
+at_level = "55"
+name = "FLAREBLITZ"
+
+[[raw_level_up_moves]]
+at_level = "60"
+name = "OUTRAGE"
+
+[[raw_level_up_moves]]
+at_level = "66"
+name = "CROSSCHOP"
+
+[base_stats]
+hp = 95
+atk = 115
+def_ = 90
+spa = 80
+spd = 90
+spe = 60
+
+[ev_yield]
+hp = 0
+atk = 3
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

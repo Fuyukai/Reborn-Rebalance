@@ -1,0 +1,60 @@
+name = "Weedle"
+primary_type = "BUG"
+secondary_type = "POISON"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 39
+catch_rate = 255
+caught_happiness = 70
+raw_abilities = ["SHIELDDUST", "RUNAWAY"]
+raw_egg_moves = []
+raw_tms = []
+raw_tutor_moves = ["BUGBITE", "ELECTROWEB", "STRINGSHOT"]
+compatible_egg_groups = ["Bug"]
+steps_to_hatch = 4080
+height = 0.3
+weight = 3.2
+colour = "Brown"
+kind = "Hairy Bug"
+pokedex_entry = "A Weedle has an extremely acute sense of smell. It distinguishes its favorite kinds of leaves from those it dislikes by sniffing with its big red nose."
+battler_player_y = 31
+battler_enemy_y = 26
+battler_altitude = 0
+form_names = []
+internal_name = "WEEDLE"
+habitat = "Forest"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POISONSTING"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "STRINGSHOT"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "BUGBITE"
+
+[[evolutions]]
+into_name = "KAKUNA"
+condition = "Level"
+parameter = "7"
+
+[base_stats]
+hp = 40
+atk = 35
+def_ = 30
+spa = 20
+spd = 20
+spe = 50
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 1
+
+[wild_items]

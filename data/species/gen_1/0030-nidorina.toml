@@ -1,0 +1,101 @@
+name = "Nidorina"
+primary_type = "POISON"
+secondary_type = "POISON"
+gender_ratio = "AlwaysFemale"
+growth_rate = "Parabolic"
+exp_yield = 128
+catch_rate = 120
+caught_happiness = 70
+raw_abilities = ["POISONPOINT", "RIVALRY"]
+raw_egg_moves = []
+raw_tms = ["CUT", "STRENGTH", "TOXIC", "ROCKSMASH", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "DOUBLETEAM", "REFLECT", "SLUDGEBOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "SHADOWCLAW", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "CHARM", "BEATUP", "CRUNCH", "BODYSLAM", "FOCUSENERGY", "ENDURE", "TOXICSPIKES", "VENOMDRENCH"]
+raw_tutor_moves = ["EARTHPOWER", "HEADBUTT", "HELPINGHAND", "IRONTAIL", "MUDSLAP", "SHOCKWAVE", "SNORE", "STOMPINGTANTRUM", "SUPERFANG", "WATERPULSE", "MIMIC", "POISONTAIL"]
+compatible_egg_groups = ["Undiscovered"]
+steps_to_hatch = 5355
+height = 0.8
+weight = 20.0
+colour = "Blue"
+kind = "Poison Pin"
+pokedex_entry = "When it is with its friends or family, its barbs are tucked away to prevent injury. It appears to become nervous if separated from the others."
+battler_player_y = 24
+battler_enemy_y = 18
+battler_altitude = 0
+form_names = []
+internal_name = "NIDORINA"
+raw_hidden_ability = "HUSTLE"
+habitat = "Grassland"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SCRATCH"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "TAILWHIP"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "DOUBLEKICK"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "POISONSTING"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "FURYSWIPES"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "HELPINGHAND"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "TOXICSPIKES"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "FLATTER"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "CAPTIVATE"
+
+[[raw_level_up_moves]]
+at_level = "58"
+name = "POISONFANG"
+
+[[evolutions]]
+into_name = "NIDOQUEEN"
+condition = "Item"
+parameter = "MOONSTONE"
+
+[base_stats]
+hp = 70
+atk = 62
+def_ = 67
+spa = 55
+spd = 55
+spe = 56
+
+[ev_yield]
+hp = 2
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

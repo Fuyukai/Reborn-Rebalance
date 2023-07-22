@@ -1,4 +1,6 @@
 import attr
+from cattrs import Converter
+from cattrs.gen import make_dict_unstructure_fn
 
 
 # pretty much only used for TM parsing.
@@ -9,6 +11,11 @@ class PokemonItem:
     """
     A single item available in the game.
     """
+
+    @classmethod
+    def add_unstructuring_hook(cls, converter: Converter):
+        unst_hook = make_dict_unstructure_fn(cls, converter, _cattrs_omit_if_default=True, )
+        converter.register_unstructure_hook(cls, unst_hook)
 
     #: The item ID for this item.
     id: int = attr.ib()
@@ -39,7 +46,7 @@ class PokemonItem:
     type: int = attr.ib()
 
     #: The move this item teaches, if any.
-    move: str | None = attr.ib()
+    move: str | None = attr.ib(default=None)
 
     @classmethod
     def from_row(cls, row: list[str]):

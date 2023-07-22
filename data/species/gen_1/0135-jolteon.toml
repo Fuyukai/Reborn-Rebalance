@@ -1,0 +1,109 @@
+name = "Jolteon"
+primary_type = "ELECTRIC"
+secondary_type = "ELECTRIC"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Medium"
+exp_yield = 184
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["VOLTABSORB", "MINUS"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "CALMMIND", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "FLASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "CHARGEBEAM", "GIGAIMPACT", "VOLTSWITCH", "THUNDERWAVE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "CONFIDE", "PAYDAY", "PINMISSILE", "DIG", "CHARM", "WEATHERBALL", "FAKETEARS", "THUNDERFANG", "BODYSLAM", "AGILITY", "FOCUSENERGY", "ENDURE", "BATONPASS", "ELECTROBALL", "STOREDPOWER", "RETALIATE", "TRAILBLAZE", "SWIFT"]
+raw_tutor_moves = ["COVET", "HEADBUTT", "HEALBELL", "HELPINGHAND", "HYPERVOICE", "IRONTAIL", "LASERFOCUS", "LASTRESORT", "MAGNETRISE", "MUDSLAP", "SHOCKWAVE", "SIGNALBEAM", "SNORE", "RISINGVOLTAGE", "MIMIC", "CELEBRATE"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 9180
+height = 0.8
+weight = 24.5
+colour = "Yellow"
+kind = "Lightning"
+pokedex_entry = "Its cells generate weak power that is amplified by its fur's static electricity to drop thunderbolts. The bristling fur is made of electrically charged needles."
+battler_player_y = 25
+battler_enemy_y = 18
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "JOLTEON"
+raw_hidden_ability = "QUICKFEET"
+habitat = "Urban"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "THUNDERSHOCK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "COPYCAT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HELPINGHAND"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TAILWHIP"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "SANDATTACK"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "BABYDOLLEYES"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "DOUBLEKICK"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "THUNDERFANG"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "PINMISSILE"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "THUNDERWAVE"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "DISCHARGE"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "LASTRESORT"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "THUNDER"
+
+[base_stats]
+hp = 65
+atk = 65
+def_ = 60
+spa = 110
+spd = 95
+spe = 130
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 2
+
+[wild_items]

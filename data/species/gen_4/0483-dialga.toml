@@ -1,0 +1,95 @@
+name = "Dialga"
+primary_type = "STEEL"
+secondary_type = "DRAGON"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 306
+catch_rate = 30
+caught_happiness = 0
+raw_abilities = ["PRESSURE", "TELEPATHY"]
+raw_egg_moves = []
+raw_tms = ["CUT", "DRAGONCLAW", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "BULKUP", "FLASH", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "FLAMETHROWER", "SANDSTORM", "FIREBLAST", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ROUND", "ECHOEDVOICE", "OVERHEAT", "SHADOWCLAW", "GIGAIMPACT", "STONEEDGE", "THUNDERWAVE", "PSYCHUP", "BULLDOZE", "ROCKSLIDE", "DRAGONTAIL", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "TRICKROOM", "SECRETPOWER", "CONFIDE", "SCARYFACE", "BREAKINGSWIPE", "BODYSLAM", "ENDURE", "AURASPHERE", "POWERGEM", "HEAVYSLAM", "BODYPRESS", "SWIFT"]
+raw_tutor_moves = ["ANCIENTPOWER", "DRACOMETEOR", "DRAGONPULSE", "EARTHPOWER", "FURYCUTTER", "GRAVITY", "HEADBUTT", "HYPERVOICE", "IRONDEFENSE", "IRONHEAD", "IRONTAIL", "MAGNETRISE", "MUDSLAP", "OUTRAGE", "SHOCKWAVE", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "TWISTER", "SCALESHOT", "STEELBEAM", "MIMIC"]
+compatible_egg_groups = ["Undiscovered"]
+steps_to_hatch = 30855
+height = 5.4
+weight = 683.0
+colour = "White"
+kind = "Temporal"
+pokedex_entry = "It has the power to control time. It appears as an ancient deity in myths of the Sinnoh Region."
+battler_player_y = 5
+battler_enemy_y = 2
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "DIALGA"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DRAGONBREATH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SCARYFACE"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "METALCLAW"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "ANCIENTPOWER"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "SLASH"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "POWERGEM"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "METALBURST"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "DRAGONCLAW"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "EARTHPOWER"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "AURASPHERE"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "IRONTAIL"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "ROAROFTIME"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "FLASHCANNON"
+
+[base_stats]
+hp = 100
+atk = 120
+def_ = 120
+spa = 150
+spd = 100
+spe = 90
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 3
+spd = 0
+spe = 0
+
+[wild_items]

@@ -1,0 +1,117 @@
+name = "Walrein"
+primary_type = "ICE"
+secondary_type = "WATER"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 239
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["THICKFAT", "ICEBODY"]
+raw_egg_moves = []
+raw_tms = ["SURF", "STRENGTH", "ROAR", "WATERFALL", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "GIGAIMPACT", "SWORDSDANCE", "BULLDOZE", "FROSTBREATH", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "WHIRLPOOL", "ICICLESPEAR", "BRINE", "AVALANCHE", "ICEFANG", "CRUNCH", "BODYSLAM", "HYDROPUMP", "ENDURE", "ENCORE", "BODYPRESS"]
+raw_tutor_moves = ["AQUATAIL", "BLOCK", "FURYCUTTER", "HEADBUTT", "ICYWIND", "IRONHEAD", "IRONTAIL", "LIQUIDATION", "MUDSLAP", "ROLLOUT", "SIGNALBEAM", "SNORE", "STOMPINGTANTRUM", "SUPERFANG", "WATERPULSE", "STEELROLLER", "WAVECRASH", "ICEBALL", "MIMIC"]
+compatible_egg_groups = ["Water1", "Field"]
+steps_to_hatch = 5355
+height = 1.4
+weight = 150.6
+colour = "Blue"
+kind = "Ice Break"
+pokedex_entry = "To protect its herd, the leader battles anything that invades its territory, even at the cost of its life. Its tusks may snap off in battle."
+battler_player_y = 14
+battler_enemy_y = 16
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "WALREIN"
+raw_hidden_ability = "OBLIVIOUS"
+habitat = "Sea"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "ICEFANG"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SWAGGER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DEFENSECURL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POWDERSNOW"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WATERGUN"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "ROLLOUT"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "ENCORE"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "ICEBALL"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "BRINE"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "AURORABEAM"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "BODYSLAM"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "REST"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "SNORE"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "HAIL"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "BLIZZARD"
+
+[[raw_level_up_moves]]
+at_level = "60"
+name = "SHEERCOLD"
+
+[base_stats]
+hp = 110
+atk = 80
+def_ = 90
+spa = 95
+spd = 90
+spe = 65
+
+[ev_yield]
+hp = 3
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

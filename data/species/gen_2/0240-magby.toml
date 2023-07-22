@@ -1,0 +1,105 @@
+name = "Magby"
+primary_type = "FIRE"
+secondary_type = "FIRE"
+gender_ratio = "Female25Percent"
+growth_rate = "Medium"
+exp_yield = 73
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["FLAMEBODY", "VITALSPIRIT"]
+raw_egg_moves = ["BARRIER", "BELCH", "BELLYDRUM", "CROSSCHOP", "DYNAMICPUNCH", "FLAREBLITZ", "FOCUSENERGY", "IRONTAIL", "KARATECHOP", "MACHPUNCH", "MEGAPUNCH", "POWERSWAP", "SCREECH", "THUNDERPUNCH"]
+raw_tms = ["TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "FRUSTRATION", "RETURN", "PSYCHIC", "BRICKBREAK", "DOUBLETEAM", "FLAMETHROWER", "FIREBLAST", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "THIEF", "ROUND", "OVERHEAT", "FLING", "WILLOWISP", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "FIRESPIN", "SCREECH", "POWERSWAP", "BODYSLAM", "FLAREBLITZ", "FOCUSENERGY", "ENDURE"]
+raw_tutor_moves = ["COVET", "DUALCHOP", "FIREPUNCH", "FOCUSPUNCH", "HEADBUTT", "HEATWAVE", "HELPINGHAND", "IRONTAIL", "LOWKICK", "MUDSLAP", "SNORE", "THUNDERPUNCH", "UPROAR", "MIMIC"]
+compatible_egg_groups = ["Undiscovered"]
+steps_to_hatch = 6630
+height = 0.7
+weight = 21.4
+colour = "Red"
+kind = "Live Coal"
+pokedex_entry = "If a Magby is spouting yellow flames from its mouth, it is in good health. When it is fatigued, black smoke will be mixed in with the flames."
+battler_player_y = 29
+battler_enemy_y = 22
+battler_altitude = 0
+form_names = []
+internal_name = "MAGBY"
+habitat = "Mountain"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SMOG"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "EMBER"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "SMOKESCREEN"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "FEINTATTACK"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "FIRESPIN"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "CLEARSMOG"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "FLAMEBURST"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "CONFUSERAY"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "FIREPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "LAVAPLUME"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "SUNNYDAY"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "FLAMETHROWER"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "FIREBLAST"
+
+[[evolutions]]
+into_name = "MAGMAR"
+condition = "Level"
+parameter = "30"
+
+[base_stats]
+hp = 45
+atk = 75
+def_ = 37
+spa = 70
+spd = 55
+spe = 83
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 1
+
+[wild_items]
+uncommon = "MAGMARIZER"

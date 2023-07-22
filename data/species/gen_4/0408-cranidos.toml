@@ -1,0 +1,95 @@
+name = "Cranidos"
+primary_type = "ROCK"
+secondary_type = "ROCK"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Erratic"
+exp_yield = 70
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["MOLDBREAKER", "SHEERFORCE"]
+raw_egg_moves = ["CRUNCH", "CURSE", "DOUBLEEDGE", "HAMMERARM", "IRONHEAD", "IRONTAIL", "LEER", "SLAM", "STOMP", "THRASH", "WHIRLWIND"]
+raw_tms = ["STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "SMACKDOWN", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "FLAMETHROWER", "SANDSTORM", "FIREBLAST", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "FLING", "PAYBACK", "ROCKPOLISH", "STONEEDGE", "SWORDSDANCE", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "DIG", "SCREECH", "SCARYFACE", "ASSURANCE", "CRUNCH", "FOCUSENERGY", "ENDURE"]
+raw_tutor_moves = ["ANCIENTPOWER", "DRAGONPULSE", "EARTHPOWER", "ENDEAVOR", "FIREPUNCH", "HEADBUTT", "IRONHEAD", "IRONTAIL", "MUDSLAP", "SHOCKWAVE", "SNORE", "SPITE", "STEALTHROCK", "SUPERPOWER", "THUNDERPUNCH", "UPROAR", "ZENHEADBUTT", "MIMIC"]
+compatible_egg_groups = ["Monster"]
+steps_to_hatch = 7905
+height = 0.9
+weight = 31.5
+colour = "Blue"
+kind = "Head Butt"
+pokedex_entry = "It lived in jungles around 100 million years ago. Its skull is as hard as iron."
+battler_player_y = 19
+battler_enemy_y = 17
+battler_altitude = 0
+form_names = []
+internal_name = "CRANIDOS"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "FOCUSENERGY"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "PURSUIT"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "SCARYFACE"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "ASSURANCE"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "CHIPAWAY"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "ANCIENTPOWER"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "ZENHEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "SCREECH"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "HEADSMASH"
+
+[[evolutions]]
+into_name = "RAMPARDOS"
+condition = "Level"
+parameter = "30"
+
+[base_stats]
+hp = 67
+atk = 125
+def_ = 40
+spa = 30
+spd = 30
+spe = 58
+
+[ev_yield]
+hp = 0
+atk = 1
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

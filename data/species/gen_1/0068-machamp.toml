@@ -1,0 +1,130 @@
+name = "Machamp"
+primary_type = "FIGHTING"
+secondary_type = "FIGHTING"
+gender_ratio = "Female25Percent"
+growth_rate = "Parabolic"
+exp_yield = 227
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["GUTS", "NOGUARD"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "STRENGTH", "TOXIC", "ROCKSMASH", "BULKUP", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "SMACKDOWN", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "FLAMETHROWER", "FIREBLAST", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "THIEF", "LOWSWEEP", "ROUND", "FOCUSBLAST", "FLING", "PAYBACK", "GIGAIMPACT", "STONEEDGE", "BULLDOZE", "ROCKSLIDE", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "SCARYFACE", "REVENGE", "ROCKBLAST", "ASSURANCE", "CROSSPOISON", "BODYSLAM", "CLOSECOMBAT", "FOCUSENERGY", "METRONOME", "REVERSAL", "ENDURE", "ENCORE", "HEAVYSLAM", "DARKESTLARIAT", "HIGHHORSEPOWER", "RETALIATE"]
+raw_tutor_moves = ["DUALCHOP", "FIREPUNCH", "FOCUSPUNCH", "HEADBUTT", "HELPINGHAND", "ICEPUNCH", "KNOCKOFF", "LOWKICK", "MUDSLAP", "ROLEPLAY", "SNORE", "STOMPINGTANTRUM", "SUPERPOWER", "THROATCHOP", "THUNDERPUNCH", "VACUUMWAVE", "COACHING", "MIMIC"]
+compatible_egg_groups = ["Humanlike"]
+steps_to_hatch = 5355
+height = 1.6
+weight = 130.0
+colour = "Gray"
+kind = "Superpower"
+pokedex_entry = "It is impossible to defend against punches and chops doled out by its four arms. Its fighting spirit flares up when it faces a tough opponent."
+battler_player_y = 10
+battler_enemy_y = 3
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "MACHAMP"
+raw_hidden_ability = "STEADFAST"
+habitat = "Mountain"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "STRENGTH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WIDEGUARD"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LOWKICK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FOCUSENERGY"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "KARATECHOP"
+
+[[raw_level_up_moves]]
+at_level = "3"
+name = "FOCUSENERGY"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "KARATECHOP"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "FORESIGHT"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "LOWSWEEP"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "SEISMICTOSS"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "REVENGE"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "KNOCKOFF"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "VITALTHROW"
+
+[[raw_level_up_moves]]
+at_level = "27"
+name = "WAKEUPSLAP"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "MACHPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "SUBMISSION"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "BULKUP"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "CROSSCHOP"
+
+[[raw_level_up_moves]]
+at_level = "53"
+name = "SCARYFACE"
+
+[[raw_level_up_moves]]
+at_level = "57"
+name = "DYNAMICPUNCH"
+
+[base_stats]
+hp = 90
+atk = 130
+def_ = 80
+spa = 65
+spd = 85
+spe = 55
+
+[ev_yield]
+hp = 0
+atk = 3
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "FOCUSBAND"

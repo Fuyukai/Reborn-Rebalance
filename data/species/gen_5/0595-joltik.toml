@@ -1,0 +1,112 @@
+name = "Joltik"
+primary_type = "BUG"
+secondary_type = "ELECTRIC"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 64
+catch_rate = 190
+caught_happiness = 70
+raw_abilities = ["COMPOUNDEYES", "UNNERVE"]
+raw_egg_moves = ["CAMOUFLAGE", "CROSSPOISON", "DISABLE", "FEINTATTACK", "LUNGE", "PINMISSILE", "POISONSTING", "PURSUIT", "ROCKCLIMB"]
+raw_tms = ["CUT", "TOXIC", "FLASH", "ROCKCLIMB", "HIDDENPOWER", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "RETURN", "LEECHLIFE", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ENERGYBALL", "CHARGEBEAM", "VOLTSWITCH", "THUNDERWAVE", "STRUGGLEBUG", "XSCISSOR", "INFESTATION", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "CONFIDE", "PINMISSILE", "SCREECH", "SPEEDSWAP", "CROSSPOISON", "AGILITY", "ENDURE", "ELECTROBALL", "SWIFT"]
+raw_tutor_moves = ["BOUNCE", "BUGBITE", "ELECTROWEB", "FURYCUTTER", "GASTROACID", "GIGADRAIN", "MAGNETRISE", "SHOCKWAVE", "SIGNALBEAM", "SNORE", "SUCKERPUNCH", "RISINGVOLTAGE", "SKITTERSMACK", "MIMIC"]
+compatible_egg_groups = ["Bug"]
+steps_to_hatch = 5120
+height = 0.1
+weight = 0.6
+colour = "Yellow"
+kind = "Attaching"
+pokedex_entry = "They attach themselves to large-bodied Pokémon and absorb static electricity, which they store in an electric pouch."
+battler_player_y = 33
+battler_enemy_y = 37
+battler_altitude = 0
+form_names = []
+internal_name = "JOLTIK"
+raw_hidden_ability = "SWARM"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "STRINGSHOT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ABSORB"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SPIDERWEB"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "THUNDERWAVE"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "SCREECH"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "FURYCUTTER"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "ELECTROWEB"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "BUGBITE"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "GASTROACID"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "SLASH"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "ELECTROBALL"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "SIGNALBEAM"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "SUCKERPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "DISCHARGE"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "BUGBUZZ"
+
+[[evolutions]]
+into_name = "GALVANTULA"
+condition = "Level"
+parameter = "36"
+
+[base_stats]
+hp = 50
+atk = 47
+def_ = 50
+spa = 57
+spd = 50
+spe = 65
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 1
+
+[wild_items]

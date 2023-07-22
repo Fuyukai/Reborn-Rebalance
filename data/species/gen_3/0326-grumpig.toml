@@ -1,0 +1,129 @@
+name = "Grumpig"
+primary_type = "PSYCHIC"
+secondary_type = "PSYCHIC"
+gender_ratio = "Female50Percent"
+growth_rate = "Fast"
+exp_yield = 165
+catch_rate = 60
+caught_happiness = 70
+raw_abilities = ["THICKFAT", "OWNTEMPO"]
+raw_egg_moves = []
+raw_tms = ["PSYSHOCK", "CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "PSYCHIC", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "FOCUSBLAST", "ENERGYBALL", "FLING", "CHARGEBEAM", "PAYBACK", "GIGAIMPACT", "THUNDERWAVE", "PSYCHUP", "BULLDOZE", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "BODYSLAM", "AMNESIA", "ENDURE", "FUTURESIGHT", "POWERGEM", "NASTYPLOT", "VENOMDRENCH", "SNOWSCAPE", "TRAILBLAZE", "CHILLINGWATER", "SWIFT"]
+raw_tutor_moves = ["ALLYSWITCH", "BOUNCE", "COVET", "DRAINPUNCH", "FIREPUNCH", "FOCUSPUNCH", "HEADBUTT", "HEALBELL", "ICEPUNCH", "ICYWIND", "IRONTAIL", "LASERFOCUS", "MAGICCOAT", "MUDSLAP", "RECYCLE", "ROLEPLAY", "SHOCKWAVE", "SIGNALBEAM", "SKILLSWAP", "SNATCH", "SNORE", "TELEKINESIS", "THUNDERPUNCH", "TRICK", "ZENHEADBUTT", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5355
+height = 0.9
+weight = 71.5
+colour = "Purple"
+kind = "Manipulate"
+pokedex_entry = "Grumpig uses the black pearls on its body to amplify its psychic power for gaining total control over its foe. Its snorting grows labored when doing so."
+battler_player_y = 16
+battler_enemy_y = 13
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "GRUMPIG"
+raw_hidden_ability = "GLUTTONY"
+habitat = "Mountain"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "TEETERDANCE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BELCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SPLASH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PSYWAVE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ODORSLEUTH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PSYBEAM"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "PSYWAVE"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "ODORSLEUTH"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "PSYBEAM"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "PSYCHUP"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "CONFUSERAY"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "MAGICCOAT"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "ZENHEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "POWERGEM"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "REST"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "SNORE"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "PSYSHOCK"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "LUMINACRASH"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "PAYBACK"
+
+[[raw_level_up_moves]]
+at_level = "52"
+name = "PSYCHIC"
+
+[[raw_level_up_moves]]
+at_level = "60"
+name = "BOUNCE"
+
+[base_stats]
+hp = 80
+atk = 45
+def_ = 65
+spa = 90
+spd = 110
+spe = 80
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 2
+spe = 0
+
+[wild_items]

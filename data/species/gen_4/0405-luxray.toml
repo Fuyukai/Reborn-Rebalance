@@ -1,0 +1,112 @@
+name = "Luxray"
+primary_type = "ELECTRIC"
+secondary_type = "ELECTRIC"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 235
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["RIVALRY", "INTIMIDATE"]
+raw_egg_moves = []
+raw_tms = ["STRENGTH", "ROAR", "TOXIC", "FLASH", "HIDDENPOWER", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "CHARGEBEAM", "GIGAIMPACT", "VOLTSWITCH", "THUNDERWAVE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "SNARL", "CONFIDE", "SCARYFACE", "FAKETEARS", "THUNDERFANG", "ICEFANG", "PSYCHICFANGS", "CRUNCH", "ELECTRICTERRAIN", "EERIEIMPULSE", "AGILITY", "ENDURE", "ELECTROBALL", "PLAYROUGH", "TRAILBLAZE", "SWIFT"]
+raw_tutor_moves = ["FURYCUTTER", "HEADBUTT", "HELPINGHAND", "IRONTAIL", "LASERFOCUS", "MAGNETRISE", "MUDSLAP", "SHOCKWAVE", "SIGNALBEAM", "SNORE", "SUPERPOWER", "THROATCHOP", "RISINGVOLTAGE", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5355
+height = 1.4
+weight = 42.0
+colour = "Blue"
+kind = "Gleam Eyes"
+pokedex_entry = "It has eyes that can see through anything. It spots and captures prey hiding behind objects."
+battler_player_y = 15
+battler_enemy_y = 11
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "LUXRAY"
+raw_hidden_ability = "GUTS"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ELECTRICTERRAIN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CHARGE"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "CHARGE"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "SPARK"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "ROAR"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "SWAGGER"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "THUNDERFANG"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "SCARYFACE"
+
+[[raw_level_up_moves]]
+at_level = "56"
+name = "DISCHARGE"
+
+[[raw_level_up_moves]]
+at_level = "63"
+name = "WILDCHARGE"
+
+[[raw_level_up_moves]]
+at_level = "67"
+name = "ELECTRICTERRAIN"
+
+[[raw_level_up_moves]]
+at_level = "76"
+name = "DOUBLESHOCK"
+
+[base_stats]
+hp = 80
+atk = 120
+def_ = 79
+spa = 95
+spd = 79
+spe = 70
+
+[ev_yield]
+hp = 0
+atk = 3
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

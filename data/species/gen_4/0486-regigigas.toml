@@ -1,0 +1,111 @@
+name = "Regigigas"
+primary_type = "NORMAL"
+secondary_type = "NORMAL"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 302
+catch_rate = 3
+caught_happiness = 0
+raw_abilities = ["SLOWSTART"]
+raw_egg_moves = []
+raw_tms = ["STRENGTH", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "SMACKDOWN", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ROUND", "FOCUSBLAST", "FLING", "PAYBACK", "GIGAIMPACT", "ROCKPOLISH", "STONEEDGE", "THUNDERWAVE", "PSYCHUP", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "NATUREPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "REVENGE", "AVALANCHE", "BODYSLAM", "ENDURE", "HEATCRASH", "HEAVYSLAM", "DARKESTLARIAT", "HIGHHORSEPOWER", "BODYPRESS", "RETALIATE"]
+raw_tutor_moves = ["ANCIENTPOWER", "BLOCK", "DRAINPUNCH", "EARTHPOWER", "FIREPUNCH", "FOCUSPUNCH", "GRAVITY", "HEADBUTT", "ICEPUNCH", "ICYWIND", "IRONHEAD", "KNOCKOFF", "MUDSLAP", "SHOCKWAVE", "SNORE", "STOMPINGTANTRUM", "SUPERPOWER", "THUNDERPUNCH", "ZENHEADBUTT", "TERRAINPULSE", "POWERSHIFT", "HEADLONGRUSH", "MIMIC"]
+compatible_egg_groups = ["Undiscovered"]
+steps_to_hatch = 30855
+height = 3.7
+weight = 420.0
+colour = "White"
+kind = "Colossal"
+pokedex_entry = "There is an enduring legend that states this Pokémon having towed continents with ropes."
+battler_player_y = 13
+battler_enemy_y = 7
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "REGIGIGAS"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HEAVYSLAM"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CRUSHGRIP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FIREPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ICEPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "THUNDERPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DIZZYPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "KNOCKOFF"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CONFUSERAY"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FORESIGHT"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "REVENGE"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "BODYPRESS"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "WIDEGUARD"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "ZENHEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = "65"
+name = "PAYBACK"
+
+[[raw_level_up_moves]]
+at_level = "75"
+name = "CRUSHGRIP"
+
+[[raw_level_up_moves]]
+at_level = "90"
+name = "HEAVYSLAM"
+
+[[raw_level_up_moves]]
+at_level = "100"
+name = "GIGAIMPACT"
+
+[base_stats]
+hp = 110
+atk = 160
+def_ = 110
+spa = 80
+spd = 110
+spe = 100
+
+[ev_yield]
+hp = 0
+atk = 3
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

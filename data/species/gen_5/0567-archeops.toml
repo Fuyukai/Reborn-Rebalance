@@ -1,0 +1,119 @@
+name = "Archeops"
+primary_type = "ROCK"
+secondary_type = "FLYING"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Medium"
+exp_yield = 177
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["DEFEATIST"]
+raw_egg_moves = []
+raw_tms = ["CUT", "DRAGONCLAW", "FLY", "ROAR", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "TAUNT", "HYPERBEAM", "PROTECT", "ROOST", "ROOST", "FRUSTRATION", "SMACKDOWN", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "SANDSTORM", "ROCKTOMB", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "ROUND", "STEELWING", "FOCUSBLAST", "ACROBATICS", "SHADOWCLAW", "GIGAIMPACT", "ROCKPOLISH", "STONEEDGE", "BULLDOZE", "ROCKSLIDE", "DRAGONTAIL", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "SCARYFACE", "ROCKBLAST", "ASSURANCE", "CRUNCH", "AIRSLASH", "AGILITY", "ENDURE", "SWIFT"]
+raw_tutor_moves = ["ALLYSWITCH", "AQUATAIL", "BOUNCE", "DEFOG", "DRAGONPULSE", "EARTHPOWER", "ENDEAVOR", "HEATWAVE", "IRONDEFENSE", "IRONTAIL", "KNOCKOFF", "OUTRAGE", "SKYATTACK", "SNORE", "STEALTHROCK", "TAILWIND", "UPROAR", "ZENHEADBUTT", "DUALWINGBEAT", "METEORBEAM", "LASHOUT", "MIMIC"]
+compatible_egg_groups = ["Flying", "Water3"]
+steps_to_hatch = 7680
+height = 1.4
+weight = 32.0
+colour = "Yellow"
+kind = "First Bird"
+pokedex_entry = "It runs better than it flies. It catches prey by running at speeds comparable to those of an automobile."
+battler_player_y = 3
+battler_enemy_y = 5
+battler_altitude = 1
+evolutions = []
+form_names = []
+internal_name = "ARCHEOPS"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WINGATTACK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ROCKTHROW"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "ROCKTHROW"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "DOUBLETEAM"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "SCARYFACE"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "PLUCK"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "ANCIENTPOWER"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "QUICKGUARD"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "ACROBATICS"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "DRAGONBREATH"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "ENDEAVOR"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "UTURN"
+
+[[raw_level_up_moves]]
+at_level = "51"
+name = "ROCKSLIDE"
+
+[[raw_level_up_moves]]
+at_level = "56"
+name = "DRAGONCLAW"
+
+[[raw_level_up_moves]]
+at_level = "61"
+name = "THRASH"
+
+[base_stats]
+hp = 75
+atk = 140
+def_ = 65
+spa = 112
+spd = 65
+spe = 110
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

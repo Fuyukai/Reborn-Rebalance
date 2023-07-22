@@ -1,0 +1,89 @@
+name = "Rolycoly"
+primary_type = "ROCK"
+secondary_type = "ROCK"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 48
+catch_rate = 255
+caught_happiness = 50
+raw_abilities = ["STEAMENGINE", "HEATPROOF"]
+raw_egg_moves = ["EXPLOSION", "MUDSLAP", "BLOCK"]
+raw_tms = ["PROTECT", "SMACKDOWN", "REFLECT", "SANDSTORM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "WILLOWISP", "EXPLOSION", "ROCKPOLISH", "STONEEDGE", "GYROBALL", "ROCKSLIDE", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "DIG", "SELFDESTRUCT", "SANDTOMB", "ROCKBLAST", "SPIKES", "ENDURE", "HEATCRASH"]
+raw_tutor_moves = ["ANCIENTPOWER", "BLOCK", "IRONDEFENSE", "IRONHEAD", "MUDSLAP", "SNORE", "STEALTHROCK", "METEORBEAM", "MIMIC"]
+compatible_egg_groups = ["Mineral"]
+steps_to_hatch = 3840
+height = 0.3
+weight = 12.0
+colour = "Black"
+kind = "Coal"
+pokedex_entry = "It can race around like a unicycle, even on rough, rocky terrain. Burning coal sustains it."
+battler_player_y = 21
+battler_enemy_y = 26
+battler_altitude = 0
+form_names = []
+internal_name = "ROLYCOLY"
+raw_hidden_ability = "FLASHFIRE"
+regional_numbers = 837
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SMOKESCREEN"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "RAPIDSPIN"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "SMACKDOWN"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "ROCKPOLISH"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "ANCIENTPOWER"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "INCINERATE"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "STEALTHROCK"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "HEATCRASH"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "ROCKBLAST"
+
+[[evolutions]]
+into_name = "CARKOL"
+condition = "Level"
+parameter = "18"
+
+[base_stats]
+hp = 30
+atk = 40
+def_ = 50
+spa = 40
+spd = 50
+spe = 30
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 1
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

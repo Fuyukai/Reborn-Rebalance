@@ -1,0 +1,104 @@
+name = "Inteleon"
+primary_type = "WATER"
+secondary_type = "WATER"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+exp_yield = 265
+catch_rate = 45
+caught_happiness = 50
+raw_abilities = ["TORRENT", "SNIPER"]
+raw_egg_moves = ["AQUAJET", "DOUBLETEAM", "AQUARING", "MIST", "HAZE", "ICESHARD", "FELLSTINGER"]
+raw_tms = ["WORKUP", "SURF", "WATERFALL", "DIVE", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "FACADE", "REST", "ATTRACT", "ROUND", "SCALD", "FLING", "ACROBATICS", "GIGAIMPACT", "SWORDSDANCE", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "DARKPULSE", "WHIRLPOOL", "WEATHERBALL", "ICICLESPEAR", "MUDSHOT", "AIRSLASH", "BREAKINGSWIPE", "HYDROPUMP", "HURRICANE", "BRAVEBIRD", "AGILITY", "FOCUSENERGY", "METRONOME", "ENDURE", "BATONPASS", "MUDDYWATER", "SNOWSCAPE", "CHILLINGWATER", "SWIFT"]
+raw_tutor_moves = ["BIND", "BOUNCE", "HYDROCANNON", "ICYWIND", "LIQUIDATION", "SNORE", "SUCKERPUNCH", "WATERPLEDGE", "WATERPULSE", "SCALESHOT", "MIMIC"]
+compatible_egg_groups = ["Water1", "Field"]
+steps_to_hatch = 5120
+height = 1.9
+weight = 45.2
+colour = "Blue"
+kind = "Secret Agent"
+pokedex_entry = "Its nictitating membranes let it pick out foes' weak points so it can precisely blast them with water that shoots from its fingertips at Mach 3."
+battler_player_y = 21
+battler_enemy_y = 10
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "INTELEON"
+regional_numbers = 818
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "SNIPESHOT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SNIPESHOT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ACROBATICS"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POUND"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WATERGUN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BIND"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "WATERPULSE"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "TEARFULLOOK"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "SUCKERPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "UTURN"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "LIQUIDATION"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "SOAK"
+
+[[raw_level_up_moves]]
+at_level = "54"
+name = "RAINDANCE"
+
+[[raw_level_up_moves]]
+at_level = "62"
+name = "HYDROPUMP"
+
+[base_stats]
+hp = 70
+atk = 85
+def_ = 65
+spa = 125
+spd = 65
+spe = 120
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 3
+spd = 0
+spe = 0
+
+[wild_items]

@@ -1,0 +1,53 @@
+name = "Beldum"
+primary_type = "STEEL"
+secondary_type = "PSYCHIC"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 60
+catch_rate = 3
+caught_happiness = 35
+raw_abilities = ["CLEARBODY", "LIGHTMETAL"]
+raw_egg_moves = []
+raw_tms = []
+raw_tutor_moves = ["HEADBUTT", "IRONDEFENSE", "IRONHEAD", "ZENHEADBUTT", "STEELBEAM"]
+compatible_egg_groups = ["Mineral"]
+steps_to_hatch = 10455
+height = 0.6
+weight = 95.2
+colour = "Blue"
+kind = "Iron Ball"
+pokedex_entry = "When Beldum gather in a swarm, they move in perfect unison as if they were but one Pokémon. They communicate with each other using brain waves."
+battler_player_y = 31
+battler_enemy_y = 24
+battler_altitude = 12
+form_names = []
+internal_name = "BELDUM"
+habitat = "RoughTerrain"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TAKEDOWN"
+
+[[evolutions]]
+into_name = "METANG"
+condition = "Level"
+parameter = "20"
+
+[base_stats]
+hp = 40
+atk = 55
+def_ = 80
+spa = 35
+spd = 60
+spe = 30
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 1
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "METALCOAT"

@@ -1,0 +1,123 @@
+name = "Froslass"
+primary_type = "ICE"
+secondary_type = "GHOST"
+gender_ratio = "AlwaysFemale"
+growth_rate = "Medium"
+exp_yield = 168
+catch_rate = 75
+caught_happiness = 70
+raw_abilities = ["SNOWCLOAK", "CURSEDBODY"]
+raw_egg_moves = []
+raw_tms = ["TOXIC", "HAIL", "FLASH", "HIDDENPOWER", "TAUNT", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "TORMENT", "FACADE", "REST", "ATTRACT", "ROUND", "FLING", "WILLOWISP", "EMBARGO", "PAYBACK", "GIGAIMPACT", "AURORAVEIL", "THUNDERWAVE", "PSYCHUP", "FROSTBREATH", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "CHARM", "IMPRISON", "WEATHERBALL", "FAKETEARS", "ICICLESPEAR", "AVALANCHE", "ICEFANG", "CRUNCH", "HEX", "DRAININGKISS", "BODYSLAM", "SPIKES", "ENDURE", "ICESPINNER", "SNOWSCAPE", "CHILLINGWATER"]
+raw_tutor_moves = ["ALLYSWITCH", "BLOCK", "HEADBUTT", "ICEPUNCH", "ICYWIND", "LASERFOCUS", "MUDSLAP", "OMINOUSWIND", "PAINSPLIT", "ROLLOUT", "SHOCKWAVE", "SIGNALBEAM", "SNATCH", "SNORE", "SPITE", "SUCKERPUNCH", "TELEKINESIS", "TRICK", "WATERPULSE", "TRIPLEAXEL", "POLTERGEIST", "MIMIC"]
+compatible_egg_groups = ["Fairy", "Mineral"]
+steps_to_hatch = 5355
+height = 1.3
+weight = 26.6
+colour = "White"
+kind = "Snow Land"
+pokedex_entry = "It freezes foes with an icy breath of nearly -60 degrees F. What seems to be its body is actually hollow."
+battler_player_y = 22
+battler_enemy_y = 15
+battler_altitude = 7
+evolutions = []
+form_names = []
+internal_name = "FROSLASS"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "OMINOUSWIND"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SNOWSCAPE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DESTINYBOND"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POWDERSNOW"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DOUBLETEAM"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ICESHARD"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "DOUBLETEAM"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "ICESHARD"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "ICYWIND"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "ASTONISH"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "DRAININGKISS"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "WILLOWISP"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "CONFUSERAY"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "WAKEUPSLAP"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "CAPTIVATE"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "SHADOWBALL"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "BLIZZARD"
+
+[[raw_level_up_moves]]
+at_level = "54"
+name = "HAIL"
+
+[[raw_level_up_moves]]
+at_level = "61"
+name = "DESTINYBOND"
+
+[base_stats]
+hp = 70
+atk = 80
+def_ = 70
+spa = 80
+spd = 70
+spe = 110
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 2
+
+[wild_items]

@@ -1,0 +1,132 @@
+name = "Braviary"
+primary_type = "NORMAL"
+secondary_type = "FLYING"
+gender_ratio = "AlwaysMale"
+growth_rate = "Slow"
+exp_yield = 179
+catch_rate = 60
+caught_happiness = 70
+raw_abilities = ["KEENEYE", "SHEERFORCE"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "CUT", "FLY", "STRENGTH", "TOXIC", "ROCKSMASH", "BULKUP", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "FRUSTRATION", "RETURN", "DOUBLETEAM", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "STEELWING", "SKYDROP", "SHADOWCLAW", "GIGAIMPACT", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "SCARYFACE", "ASSURANCE", "AIRSLASH", "HURRICANE", "CLOSECOMBAT", "BRAVEBIRD", "AGILITY", "ENDURE", "RETALIATE", "SWIFT"]
+raw_tutor_moves = ["DEFOG", "HEATWAVE", "IRONHEAD", "LASERFOCUS", "SKYATTACK", "SNORE", "SUPERPOWER", "TAILWIND", "ZENHEADBUTT", "DUALWINGBEAT", "MIMIC"]
+compatible_egg_groups = ["Flying"]
+steps_to_hatch = 5120
+height = 1.5
+weight = 41.0
+colour = "Red"
+kind = "Valiant"
+pokedex_entry = "The more scars they have, the more respect these brave soldiers of the sky get from their peers."
+battler_player_y = 2
+battler_enemy_y = 1
+battler_altitude = 10
+evolutions = []
+form_names = []
+internal_name = "BRAVIARY"
+raw_hidden_ability = "DEFIANT"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "SUPERPOWER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "THRASH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BRAVEBIRD"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WHIRLWIND"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PECK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FURYATTACK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WINGATTACK"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "FURYATTACK"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "WINGATTACK"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "HONECLAWS"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "SCARYFACE"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "AERIALACE"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "SLASH"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "DEFOG"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "TAILWIND"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "AIRSLASH"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "CRUSHCLAW"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "SKYDROP"
+
+[[raw_level_up_moves]]
+at_level = "57"
+name = "WHIRLWIND"
+
+[[raw_level_up_moves]]
+at_level = "63"
+name = "BRAVEBIRD"
+
+[[raw_level_up_moves]]
+at_level = "70"
+name = "THRASH"
+
+[base_stats]
+hp = 100
+atk = 123
+def_ = 75
+spa = 57
+spd = 75
+spe = 80
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

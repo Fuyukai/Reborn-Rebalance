@@ -1,0 +1,104 @@
+name = "Copperajah"
+primary_type = "STEEL"
+secondary_type = "STEEL"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 175
+catch_rate = 90
+caught_happiness = 50
+raw_abilities = ["SHEERFORCE", "HEAVYMETAL"]
+raw_egg_moves = ["DOUBLEEDGE", "BELCH", "CURSE", "SLAM", "FISSURE", "SWAGGER", "WHIRLWIND", "DEFENSECURL"]
+raw_tms = ["WORKUP", "STRENGTH", "ROCKSMASH", "ROCKCLIMB", "TAUNT", "HYPERBEAM", "PROTECT", "EARTHQUAKE", "BRICKBREAK", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "FLING", "BRUTALSWING", "PAYBACK", "GIGAIMPACT", "STONEEDGE", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "SNARL", "MEGAKICK", "DIG", "SCREECH", "SCARYFACE", "REVENGE", "ROCKBLAST", "MUDSHOT", "BODYSLAM", "POWERWHIP", "ENDURE", "HEATCRASH", "HEAVYSLAM", "PLAYROUGH", "HIGHHORSEPOWER", "BODYPRESS"]
+raw_tutor_moves = ["EARTHPOWER", "IRONDEFENSE", "IRONHEAD", "OUTRAGE", "ROLLOUT", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "SUPERPOWER", "ZENHEADBUTT", "STEELROLLER", "STEELBEAM", "MIMIC"]
+compatible_egg_groups = ["Field", "Mineral"]
+steps_to_hatch = 6400
+height = 3.0
+weight = 650.0
+colour = "Purple"
+kind = "Copperderm"
+pokedex_entry = "These Pokémon live in herds. Their trunks have incredible grip strength, strong enough to crush giant rocks into powder."
+battler_player_y = 21
+battler_enemy_y = 26
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "COPPERAJAH"
+regional_numbers = 879
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "HEAVYSLAM"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HEAVYSLAM"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ROLLOUT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ROCKSMASH"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "BULLDOZE"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "STOMP"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "IRONDEFENSE"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "DIG"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "STRENGTH"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "IRONHEAD"
+
+[[raw_level_up_moves]]
+at_level = "51"
+name = "PLAYROUGH"
+
+[[raw_level_up_moves]]
+at_level = "58"
+name = "HIGHHORSEPOWER"
+
+[[raw_level_up_moves]]
+at_level = "65"
+name = "SUPERPOWER"
+
+[base_stats]
+hp = 122
+atk = 130
+def_ = 69
+spa = 80
+spd = 69
+spe = 30
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

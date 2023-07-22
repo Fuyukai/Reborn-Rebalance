@@ -1,0 +1,107 @@
+name = "Quaxwell"
+primary_type = "WATER"
+secondary_type = "WATER"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+exp_yield = 142
+catch_rate = 45
+caught_happiness = 50
+raw_abilities = ["TORRENT", "MOXIE"]
+raw_egg_moves = []
+raw_tms = ["SURF", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "HIDDENPOWER", "PROTECT", "RAINDANCE", "ROOST", "FRUSTRATION", "RETURN", "DOUBLETEAM", "AERIALACE", "FACADE", "REST", "ATTRACT", "LOWSWEEP", "SCALD", "ACROBATICS", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "WHIRLPOOL", "BRINE", "AIRSLASH", "MISTYTERRAIN", "HYDROPUMP", "BRAVEBIRD", "ENDURE", "BATONPASS", "ENCORE", "CHILLINGWATER", "SWIFT"]
+raw_tutor_moves = ["AIRCUTTER", "BOUNCE", "HELPINGHAND", "LIQUIDATION", "LOWKICK", "WATERPLEDGE", "WATERPULSE", "DUALWINGBEAT"]
+compatible_egg_groups = ["Flying", "Water1"]
+steps_to_hatch = 5140
+height = 1.2
+weight = 21.5
+colour = "Blue"
+kind = "Practicing"
+pokedex_entry = "These Pokémon constantly run through shallow waters to train their legs, then compete with each other to see which of them kicks most gracefully."
+battler_player_y = 18
+battler_enemy_y = 12
+battler_altitude = 0
+form_names = []
+internal_name = "QUAXWELL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DOUBLEHIT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POUND"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WATERGUN"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "WORKUP"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "WINGATTACK"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "AQUAJET"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "WATERPULSE"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "LOWSWEEP"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "AQUACUTTER"
+
+[[raw_level_up_moves]]
+at_level = "27"
+name = "AIRSLASH"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "FOCUSENERGY"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "ACROBATICS"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "LIQUIDATION"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "FEATHERDANCE"
+
+[[evolutions]]
+into_name = "QUAQUAVAL"
+condition = "Level"
+parameter = "36"
+
+[base_stats]
+hp = 70
+atk = 85
+def_ = 65
+spa = 65
+spd = 60
+spe = 65
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

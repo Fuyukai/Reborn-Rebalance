@@ -1,0 +1,123 @@
+name = "Samurott"
+primary_type = "WATER"
+secondary_type = "WATER"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+exp_yield = 238
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["TORRENT", "SHELLARMOR"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "CUT", "SURF", "STRENGTH", "WATERFALL", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "HIDDENPOWER", "TAUNT", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "DOUBLETEAM", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "FALSESWIPE", "SCALD", "FLING", "SMARTSTRIKE", "GIGAIMPACT", "SWORDSDANCE", "XSCISSOR", "DRAGONTAIL", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "SCREECH", "REVENGE", "BRINE", "ASSURANCE", "AIRSLASH", "RAZORSHELL", "HYDROPUMP", "MEGAHORN", "FOCUSENERGY", "ENDURE", "ENCORE", "RETALIATE", "SNOWSCAPE", "CHILLINGWATER"]
+raw_tutor_moves = ["AQUATAIL", "BLOCK", "COVET", "HELPINGHAND", "HYDROCANNON", "ICYWIND", "IRONTAIL", "KNOCKOFF", "LIQUIDATION", "SNORE", "SUPERPOWER", "WATERPLEDGE", "WATERPULSE", "WAVECRASH", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5120
+height = 1.5
+weight = 94.6
+colour = "Blue"
+kind = "Formidable"
+pokedex_entry = "Part of the armor on its anterior legs becomes a giant sword. Its cry alone is enough to intimidate most enemies."
+battler_player_y = 9
+battler_enemy_y = 14
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "SAMUROTT"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "SLASH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MEGAHORN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TAILWHIP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WATERGUN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WATERSPORT"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "TAILWHIP"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "WATERGUN"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "WATERSPORT"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "FOCUSENERGY"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "RAZORSHELL"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "FURYCUTTER"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "WATERPULSE"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "REVENGE"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "AQUAJET"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "ENCORE"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "AQUATAIL"
+
+[[raw_level_up_moves]]
+at_level = "51"
+name = "RETALIATE"
+
+[[raw_level_up_moves]]
+at_level = "58"
+name = "SWORDSDANCE"
+
+[[raw_level_up_moves]]
+at_level = "63"
+name = "HYDROPUMP"
+
+[base_stats]
+hp = 95
+atk = 100
+def_ = 85
+spa = 108
+spd = 70
+spe = 70
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 3
+spd = 0
+spe = 0
+
+[wild_items]

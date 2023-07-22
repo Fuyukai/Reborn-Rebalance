@@ -1,0 +1,113 @@
+name = "Petilil"
+primary_type = "GRASS"
+secondary_type = "GRASS"
+gender_ratio = "AlwaysFemale"
+growth_rate = "Medium"
+exp_yield = 56
+catch_rate = 190
+caught_happiness = 70
+raw_abilities = ["CHLOROPHYLL", "OWNTEMPO"]
+raw_egg_moves = ["BIDE", "CHARM", "ENCORE", "ENDURE", "GRASSWHISTLE", "HEALINGWISH", "INGRAIN", "NATURALGIFT", "SWEETSCENT", "WORRYSEED"]
+raw_tms = ["CUT", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "MAGICALLEAF", "CHARM", "LEAFSTORM", "ENDURE", "ENCORE", "POLLENPUFF", "TRAILBLAZE"]
+raw_tutor_moves = ["AFTERYOU", "COVET", "GIGADRAIN", "HEALBELL", "HELPINGHAND", "LASERFOCUS", "SEEDBOMB", "SNORE", "SYNTHESIS", "WORRYSEED", "GRASSYGLIDE", "MIMIC"]
+compatible_egg_groups = ["Grass"]
+steps_to_hatch = 5120
+height = 0.5
+weight = 6.6
+colour = "Green"
+kind = "Bulb"
+pokedex_entry = "Since they prefer moist, nutrient-rich soil, the areas where Petilil live are known to be good for growing plants."
+battler_player_y = 26
+battler_enemy_y = 30
+battler_altitude = 0
+form_names = []
+internal_name = "PETILIL"
+raw_hidden_ability = "LEAFGUARD"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ABSORB"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "GROWTH"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "LEECHSEED"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "SLEEPPOWDER"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "MEGADRAIN"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "SYNTHESIS"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "MAGICALLEAF"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "STUNSPORE"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "GIGADRAIN"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "AROMATHERAPY"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "HELPINGHAND"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "ENERGYBALL"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "ENTRAINMENT"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "SUNNYDAY"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "AFTERYOU"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "LEAFSTORM"
+
+[[evolutions]]
+into_name = "LILLIGANT"
+condition = "Item"
+parameter = "SUNSTONE"
+
+[base_stats]
+hp = 45
+atk = 35
+def_ = 50
+spa = 70
+spd = 50
+spe = 30
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 1
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "ABSORBBULB"

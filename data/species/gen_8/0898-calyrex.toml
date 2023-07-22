@@ -1,0 +1,104 @@
+name = "Calyrex"
+primary_type = "PSYCHIC"
+secondary_type = "GRASS"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 250
+catch_rate = 3
+caught_happiness = 100
+raw_abilities = ["UNNERVE"]
+raw_egg_moves = []
+raw_tms = ["PSYSHOCK", "CALMMIND", "STRENGTH", "HAIL", "SUNNYDAY", "TAUNT", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "SAFEGUARD", "SOLARBEAM", "PSYCHIC", "SHADOWBALL", "REFLECT", "FACADE", "REST", "ROUND", "ENERGYBALL", "WILLOWISP", "PAYBACK", "SMARTSTRIKE", "GIGAIMPACT", "SWORDSDANCE", "BULLDOZE", "GRASSKNOT", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "SNARL", "DARKPULSE", "PAYDAY", "MAGICALLEAF", "SOLARBLADE", "SCARYFACE", "IMPRISON", "BULLETSEED", "ICICLESPEAR", "MUDSHOT", "ASSURANCE", "POWERSWAP", "GUARDSWAP", "SPEEDSWAP", "AVALANCHE", "CRUNCH", "PSYCHOCUT", "HEX", "PHANTOMFORCE", "DRAININGKISS", "GRASSYTERRAIN", "PSYCHICTERRAIN", "BODYSLAM", "MEGAHORN", "LEAFSTORM", "CLOSECOMBAT", "AGILITY", "METRONOME", "TRIATTACK", "ENDURE", "BATONPASS", "ENCORE", "FUTURESIGHT", "NASTYPLOT", "STOREDPOWER", "HEAVYSLAM", "HIGHHORSEPOWER", "POLLENPUFF", "BODYPRESS"]
+raw_tutor_moves = ["ALLYSWITCH", "FOULPLAY", "GIGADRAIN", "HELPINGHAND", "ICYWIND", "IRONDEFENSE", "MAGICROOM", "OUTRAGE", "SEEDBOMB", "SKILLSWAP", "SNORE", "STOMPINGTANTRUM", "SUPERPOWER", "THROATCHOP", "TRICK", "UPROAR", "WONDERROOM", "ZENHEADBUTT", "EXPANDINGFORCE", "LASHOUT", "MIMIC"]
+compatible_egg_groups = ["Undiscovered"]
+steps_to_hatch = 31096
+height = 1.1
+weight = 7.7
+colour = "Green"
+kind = "King Pokémon"
+pokedex_entry = "Legend says that by using its power to see all events from past to future, this Pokémon saved the creatures of a forest from a meteorite strike."
+battler_player_y = 14
+battler_enemy_y = 18
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "CALYREX"
+shape = 0
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POUND"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MEGADRAIN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CONFUSION"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWTH"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "LIFEDEW"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "GIGADRAIN"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "PSYSHOCK"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "HELPINGHAND"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "AROMATHERAPY"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "ENERGYBALL"
+
+[[raw_level_up_moves]]
+at_level = "56"
+name = "PSYCHIC"
+
+[[raw_level_up_moves]]
+at_level = "64"
+name = "LEECHSEED"
+
+[[raw_level_up_moves]]
+at_level = "72"
+name = "HEALPULSE"
+
+[[raw_level_up_moves]]
+at_level = "80"
+name = "SOLARBEAM"
+
+[[raw_level_up_moves]]
+at_level = "88"
+name = "FUTURESIGHT"
+
+[base_stats]
+hp = 100
+atk = 80
+def_ = 80
+spa = 80
+spd = 80
+spe = 80
+
+[ev_yield]
+hp = 3
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

@@ -1,0 +1,97 @@
+name = "Silicobra"
+primary_type = "GROUND"
+secondary_type = "GROUND"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 63
+catch_rate = 255
+caught_happiness = 50
+raw_abilities = ["SANDSPIT", "SHEDSKIN"]
+raw_egg_moves = ["DRAGONRUSH", "MUDSLAP", "LASTRESORT", "BELCH", "POISONTAIL"]
+raw_tms = ["PROTECT", "EARTHQUAKE", "SANDSTORM", "FACADE", "REST", "ATTRACT", "ROUND", "BRUTALSWING", "BULLDOZE", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "DIG", "SCREECH", "SANDTOMB", "MUDSHOT", "ENDURE"]
+raw_tutor_moves = ["DRILLRUN", "EARTHPOWER", "HEADBUTT", "LASTRESORT", "MUDSLAP", "SNORE", "SCORCHINGSANDS", "SKITTERSMACK", "SCALESHOT", "MIMIC", "POISONTAIL"]
+compatible_egg_groups = ["Field", "Dragon"]
+steps_to_hatch = 5120
+height = 2.2
+weight = 7.6
+colour = "Green"
+kind = "Sand Snake"
+pokedex_entry = "It spews sand from its nostrils. While the enemy is blinded, it burrows into the ground to hide."
+battler_player_y = 21
+battler_enemy_y = 26
+battler_altitude = 0
+form_names = []
+internal_name = "SILICOBRA"
+raw_hidden_ability = "SANDVEIL"
+regional_numbers = 843
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WRAP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SANDATTACK"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "MINIMIZE"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "BRUTALSWING"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "BULLDOZE"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "HEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "GLARE"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "DIG"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "SANDSTORM"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "SLAM"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "COIL"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "SANDTOMB"
+
+[[evolutions]]
+into_name = "SANDACONDA"
+condition = "Level"
+parameter = "36"
+
+[base_stats]
+hp = 52
+atk = 57
+def_ = 75
+spa = 35
+spd = 50
+spe = 46
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 1
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

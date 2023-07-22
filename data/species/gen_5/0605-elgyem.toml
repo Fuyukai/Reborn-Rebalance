@@ -1,0 +1,120 @@
+name = "Elgyem"
+primary_type = "PSYCHIC"
+secondary_type = "PSYCHIC"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 67
+catch_rate = 255
+caught_happiness = 70
+raw_abilities = ["TELEPATHY", "SYNCHRONIZE"]
+raw_egg_moves = ["ALLYSWITCH", "ASTONISH", "BARRIER", "LUMINACRASH", "COSMICPOWER", "DISABLE", "GUARDSWAP", "NASTYPLOT", "POWERSWAP", "SKILLSWAP", "TELEPORT"]
+raw_tms = ["PSYSHOCK", "CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "THUNDERBOLT", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "STEELWING", "ENERGYBALL", "CHARGEBEAM", "EMBARGO", "THUNDERWAVE", "PSYCHUP", "ROCKSLIDE", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "DARKPULSE", "CONFIDE", "SCREECH", "IMPRISON", "POWERSWAP", "GUARDSWAP", "AGILITY", "ENDURE", "COSMICPOWER", "NASTYPLOT", "STOREDPOWER"]
+raw_tutor_moves = ["AFTERYOU", "ALLYSWITCH", "GRAVITY", "MAGICCOAT", "PAINSPLIT", "RECYCLE", "ROLEPLAY", "SHOCKWAVE", "SIGNALBEAM", "SKILLSWAP", "SNATCH", "SNORE", "TELEKINESIS", "TRICK", "UPROAR", "WONDERROOM", "ZENHEADBUTT", "METEORBEAM", "EXPANDINGFORCE", "MIMIC"]
+compatible_egg_groups = ["Humanlike"]
+steps_to_hatch = 5120
+height = 0.5
+weight = 9.0
+colour = "Blue"
+kind = "Cerebral"
+pokedex_entry = "This Pokémon had never been seen until it appeared from far in the desert 50 years ago."
+battler_player_y = 25
+battler_enemy_y = 19
+battler_altitude = 3
+form_names = []
+internal_name = "ELGYEM"
+raw_hidden_ability = "ANALYTIC"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CONFUSION"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "HEALBLOCK"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "MIRACLEEYE"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "PSYBEAM"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "HEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "HIDDENPOWER"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "IMPRISON"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "SIMPLEBEAM"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "ZENHEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "PSYCHUP"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "PSYCHIC"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "CALMMIND"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "RECOVER"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "GUARDSPLIT"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "POWERSPLIT"
+
+[[raw_level_up_moves]]
+at_level = "53"
+name = "SYNCHRONOISE"
+
+[[raw_level_up_moves]]
+at_level = "56"
+name = "WONDERROOM"
+
+[[evolutions]]
+into_name = "BEHEEYEM"
+condition = "Level"
+parameter = "42"
+
+[base_stats]
+hp = 55
+atk = 55
+def_ = 55
+spa = 85
+spd = 55
+spe = 30
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 1
+spd = 0
+spe = 0
+
+[wild_items]

@@ -1,0 +1,113 @@
+name = "Toxapex"
+primary_type = "POISON"
+secondary_type = "WATER"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 173
+catch_rate = 75
+caught_happiness = 70
+raw_abilities = ["MERCILESS", "TOXICDEBRIS"]
+raw_egg_moves = []
+raw_tms = ["SURF", "TOXIC", "HAIL", "VENOSHOCK", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "SMACKDOWN", "RETURN", "DOUBLETEAM", "SLUDGEWAVE", "SLUDGEBOMB", "FACADE", "REST", "ATTRACT", "ROUND", "SCALD", "PAYBACK", "FROSTBREATH", "INFESTATION", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "PINMISSILE", "MUDSHOT", "BRINE", "CROSSPOISON", "HEX", "HYDROPUMP", "ENDURE", "MUDDYWATER", "TOXICSPIKES", "VENOMDRENCH", "ICESPINNER", "POUNCE", "CHILLINGWATER"]
+raw_tutor_moves = ["AFTERYOU", "BLOCK", "COVET", "GASTROACID", "GUNKSHOT", "ICYWIND", "IRONDEFENSE", "KNOCKOFF", "LIQUIDATION", "MAGICCOAT", "PAINSPLIT", "SNATCH", "SNORE", "SPITE", "WATERPULSE", "MIMIC"]
+compatible_egg_groups = ["Water1"]
+steps_to_hatch = 5120
+height = 0.7
+weight = 14.5
+colour = "Blue"
+kind = "Brutal Star"
+pokedex_entry = "Those attacked by Toxapex's poison will suffer intense pain for three days and three nights. Post-recovery, there will be some aftereffects."
+battler_player_y = 12
+battler_enemy_y = 22
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "TOXAPEX"
+raw_hidden_ability = "REGENERATOR"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "BANEFULBUNKER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POISONSTING"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PECK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TOXICSPIKES"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "PECK"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "TOXICSPIKES"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "WIDEGUARD"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "TOXIC"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "VENOSHOCK"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "SPIKECANNON"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "RECOVER"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "POISONJAB"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "VENOMDRENCH"
+
+[[raw_level_up_moves]]
+at_level = "51"
+name = "PINMISSILE"
+
+[[raw_level_up_moves]]
+at_level = "58"
+name = "LIQUIDATION"
+
+[base_stats]
+hp = 50
+atk = 63
+def_ = 152
+spa = 53
+spd = 142
+spe = 35
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 2
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "POISONBARB"

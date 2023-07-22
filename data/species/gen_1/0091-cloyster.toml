@@ -1,0 +1,87 @@
+name = "Cloyster"
+primary_type = "WATER"
+secondary_type = "ICE"
+gender_ratio = "Female50Percent"
+growth_rate = "Slow"
+exp_yield = 184
+catch_rate = 60
+caught_happiness = 70
+raw_abilities = ["SHELLARMOR", "SKILLLINK"]
+raw_egg_moves = []
+raw_tms = ["SURF", "TOXIC", "DIVE", "HAIL", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "DOUBLETEAM", "REFLECT", "TORMENT", "FACADE", "REST", "ATTRACT", "ROUND", "EXPLOSION", "PAYBACK", "SMARTSTRIKE", "GIGAIMPACT", "FROSTBREATH", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "PINMISSILE", "SCREECH", "SELFDESTRUCT", "WHIRLPOOL", "WEATHERBALL", "ICICLESPEAR", "ROCKBLAST", "MUDSHOT", "BRINE", "AVALANCHE", "RAZORSHELL", "HYDROPUMP", "TRIATTACK", "SPIKES", "ENDURE", "TOXICSPIKES", "ICESPINNER", "SNOWSCAPE", "CHILLINGWATER", "SWIFT"]
+raw_tutor_moves = ["ICYWIND", "IRONDEFENSE", "LIQUIDATION", "SIGNALBEAM", "SNORE", "WATERPULSE", "STEELROLLER", "MIMIC"]
+compatible_egg_groups = ["Water3"]
+steps_to_hatch = 5355
+height = 1.5
+weight = 132.5
+colour = "Purple"
+kind = "Bivalve"
+pokedex_entry = "It swims in the sea by swallowing water, then jetting it out toward the rear. The Cloyster shoots spikes from its shell using the same system."
+battler_player_y = 20
+battler_enemy_y = 12
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "CLOYSTER"
+raw_hidden_ability = "OVERCOAT"
+habitat = "Sea"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HYDROPUMP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SHELLSMASH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TOXICSPIKES"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WITHDRAW"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SUPERSONIC"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PROTECT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "AURORABEAM"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "SPIKECANNON"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "SPIKES"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "ICICLECRASH"
+
+[base_stats]
+hp = 50
+atk = 95
+def_ = 180
+spa = 85
+spd = 45
+spe = 70
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 2
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+common = "PEARL"
+uncommon = "BIGPEARL"

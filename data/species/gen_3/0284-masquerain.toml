@@ -1,0 +1,125 @@
+name = "Masquerain"
+primary_type = "BUG"
+secondary_type = "FLYING"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 159
+catch_rate = 75
+caught_happiness = 70
+raw_abilities = ["INTIMIDATE", "UNNERVE"]
+raw_egg_moves = []
+raw_tms = ["TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "FRUSTRATION", "SOLARBEAM", "RETURN", "SHADOWBALL", "DOUBLETEAM", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ENERGYBALL", "SCALD", "GIGAIMPACT", "STRUGGLEBUG", "PSYCHUP", "INFESTATION", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "SCARYFACE", "MUDSHOT", "AIRSLASH", "HYDROPUMP", "AGILITY", "ENDURE", "BATONPASS", "BUGBUZZ", "POUNCE", "CHILLINGWATER", "SWIFT"]
+raw_tutor_moves = ["AIRCUTTER", "BUGBITE", "DEFOG", "GIGADRAIN", "ICYWIND", "LIQUIDATION", "MUDSLAP", "OMINOUSWIND", "SIGNALBEAM", "SNORE", "STRINGSHOT", "TAILWIND", "TWISTER", "WATERPULSE", "MIMIC"]
+compatible_egg_groups = ["Water1", "Bug"]
+steps_to_hatch = 4080
+height = 0.8
+weight = 3.6
+colour = "Blue"
+kind = "Eyeball"
+pokedex_entry = "It intimidates foes with the eyelike patterns on its antennae. Since it can't fly with wet wings, it shelters itself from rain under large trees and eaves."
+battler_player_y = 21
+battler_enemy_y = 7
+battler_altitude = 9
+evolutions = []
+form_names = []
+internal_name = "MASQUERAIN"
+habitat = "WatersEdge"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "QUIVERDANCE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WHIRLWIND"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BUGBUZZ"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "OMINOUSWIND"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BUBBLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SWEETSCENT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WATERSPORT"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "SWEETSCENT"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "WATERSPORT"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "GUST"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "SCARYFACE"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "AIRCUTTER"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "STUNSPORE"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "SILVERWIND"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "AIRSLASH"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "BUGBUZZ"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "WHIRLWIND"
+
+[[raw_level_up_moves]]
+at_level = "52"
+name = "QUIVERDANCE"
+
+[base_stats]
+hp = 70
+atk = 60
+def_ = 62
+spa = 100
+spd = 82
+spe = 80
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 1
+spd = 1
+spe = 0
+
+[wild_items]
+uncommon = "SILVERPOWDER"

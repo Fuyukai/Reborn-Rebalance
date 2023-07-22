@@ -1,0 +1,115 @@
+name = "Serperior"
+primary_type = "GRASS"
+secondary_type = "GRASS"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+exp_yield = 238
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["OVERGROW", "CONTRARY"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "CUT", "CALMMIND", "STRENGTH", "TOXIC", "ROCKSMASH", "FLASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "REFLECT", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "BRUTALSWING", "GIGAIMPACT", "SWORDSDANCE", "DRAGONTAIL", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "MAGICALLEAF", "LEAFBLADE", "GRASSYTERRAIN", "LEAFSTORM", "ENDURE"]
+raw_tutor_moves = ["AQUATAIL", "BIND", "DEFOG", "DRAGONPULSE", "FRENZYPLANT", "GASTROACID", "GIGADRAIN", "GRASSPLEDGE", "IRONTAIL", "KNOCKOFF", "OUTRAGE", "SEEDBOMB", "SNATCH", "SNORE", "SYNTHESIS", "WORRYSEED", "MIMIC"]
+compatible_egg_groups = ["Field", "Grass"]
+steps_to_hatch = 5120
+height = 3.3
+weight = 63.0
+colour = "Green"
+kind = "Regal"
+pokedex_entry = "They raise their heads to intimidate opponents but only give it their all when fighting a powerful opponent."
+battler_player_y = 12
+battler_enemy_y = 22
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "SERPERIOR"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "VINEWHIP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WRAP"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "VINEWHIP"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "WRAP"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "GROWTH"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "LEAFTORNADO"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "LEECHSEED"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "MEGADRAIN"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "SLAM"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "LEAFBLADE"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "COIL"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "GIGADRAIN"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "WRINGOUT"
+
+[[raw_level_up_moves]]
+at_level = "56"
+name = "GASTROACID"
+
+[[raw_level_up_moves]]
+at_level = "62"
+name = "LEAFSTORM"
+
+[base_stats]
+hp = 75
+atk = 75
+def_ = 95
+spa = 75
+spd = 95
+spe = 113
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 3
+
+[wild_items]

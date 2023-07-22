@@ -1,0 +1,95 @@
+name = "Grubbin"
+primary_type = "BUG"
+secondary_type = "BUG"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 60
+catch_rate = 255
+caught_happiness = 70
+raw_abilities = ["SWARM"]
+raw_egg_moves = ["ELECTROWEB", "ENDURE", "HARDEN", "MUDSHOT"]
+raw_tms = ["TOXIC", "HIDDENPOWER", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "RETURN", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "ROUND", "CHARGEBEAM", "ACROBATICS", "VOLTSWITCH", "THUNDERWAVE", "XSCISSOR", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "CONFIDE", "DIG", "SCREECH", "MUDSHOT", "CRUNCH", "ENDURE"]
+raw_tutor_moves = ["BUGBITE", "ELECTROWEB", "MAGNETRISE", "MUDSLAP", "SHOCKWAVE", "SNORE", "STRINGSHOT", "RISINGVOLTAGE", "SKITTERSMACK", "MIMIC"]
+compatible_egg_groups = ["Bug"]
+steps_to_hatch = 3840
+height = 0.4
+weight = 4.4
+colour = "Gray"
+kind = "Larva"
+pokedex_entry = "Its strong jaw enables it to scrape trees and slurp out the sap. It normally lives underground."
+battler_player_y = 21
+battler_enemy_y = 29
+battler_altitude = 0
+form_names = []
+internal_name = "GRUBBIN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "VICEGRIP"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "STRINGSHOT"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "MUDSLAP"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "BUGBITE"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "SPARK"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "ACROBATICS"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "SPARK"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "STICKYWEB"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "XSCISSOR"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "DIG"
+
+[[evolutions]]
+into_name = "CHARJABUG"
+condition = "Level"
+parameter = "20"
+
+[base_stats]
+hp = 47
+atk = 62
+def_ = 45
+spa = 55
+spd = 45
+spe = 46
+
+[ev_yield]
+hp = 0
+atk = 1
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

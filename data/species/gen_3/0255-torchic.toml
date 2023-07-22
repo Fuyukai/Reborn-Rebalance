@@ -1,0 +1,96 @@
+name = "Torchic"
+primary_type = "FIRE"
+secondary_type = "FIRE"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+exp_yield = 62
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["BLAZE", "SPEEDBOOST"]
+raw_egg_moves = ["AGILITY", "BATONPASS", "COUNTER", "CRUSHCLAW", "CURSE", "ENDURE", "FEATHERDANCE", "FEINT", "FLAMEBURST", "LASTRESORT", "LOWKICK", "NIGHTSLASH", "REVERSAL", "SMELLINGSALTS"]
+raw_tms = ["WORKUP", "CUT", "STRENGTH", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "FRUSTRATION", "RETURN", "DOUBLETEAM", "FLAMETHROWER", "FIREBLAST", "ROCKTOMB", "AERIALACE", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "OVERHEAT", "WILLOWISP", "SHADOWCLAW", "SWORDSDANCE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "FIRESPIN", "DIG", "ASSURANCE", "BODYSLAM", "AGILITY", "FOCUSENERGY", "REVERSAL", "ENDURE", "BATONPASS", "SWIFT"]
+raw_tutor_moves = ["BOUNCE", "DEFOG", "FIREPLEDGE", "HEADBUTT", "HEATWAVE", "HELPINGHAND", "LASTRESORT", "LOWKICK", "MUDSLAP", "SNORE", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5355
+height = 0.4
+weight = 2.5
+colour = "Red"
+kind = "Chick"
+pokedex_entry = "If attacked, it strikes back by spitting balls of fire it forms in its stomach. A Torchic dislikes darkness because it can't see its surroundings."
+battler_player_y = 27
+battler_enemy_y = 20
+battler_altitude = 0
+form_names = []
+internal_name = "TORCHIC"
+habitat = "Grassland"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SCRATCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "EMBER"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "SANDATTACK"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "PECK"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "FIRESPIN"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "FLAMEBURST"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "FOCUSENERGY"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "SLASH"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "MIRRORMOVE"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "FLAMETHROWER"
+
+[[evolutions]]
+into_name = "COMBUSKEN"
+condition = "Level"
+parameter = "16"
+
+[base_stats]
+hp = 45
+atk = 60
+def_ = 40
+spa = 70
+spd = 50
+spe = 45
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 1
+spd = 0
+spe = 0
+
+[wild_items]

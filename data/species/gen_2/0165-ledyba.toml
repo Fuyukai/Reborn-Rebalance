@@ -1,0 +1,105 @@
+name = "Ledyba"
+primary_type = "BUG"
+secondary_type = "FLYING"
+gender_ratio = "Female50Percent"
+growth_rate = "Fast"
+exp_yield = 53
+catch_rate = 255
+caught_happiness = 70
+raw_abilities = ["SWARM", "EARLYBIRD"]
+raw_egg_moves = ["BIDE", "BUGBITE", "BUGBUZZ", "COUNTER", "DIZZYPUNCH", "DRAINPUNCH", "ENCORE", "ENDURE", "FOCUSPUNCH", "KNOCKOFF", "PSYBEAM", "SCREECH", "SILVERWIND", "TAILWIND"]
+raw_tms = ["TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "LIGHTSCREEN", "PROTECT", "ROOST", "ROOST", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "FLING", "ACROBATICS", "SWORDSDANCE", "STRUGGLEBUG", "INFESTATION", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "DIG", "SCREECH", "REVENGE", "ASSURANCE", "AIRSLASH", "AGILITY", "ENDURE", "BATONPASS", "ENCORE", "BUGBUZZ", "SWIFT"]
+raw_tutor_moves = ["AIRCUTTER", "BUGBITE", "DRAINPUNCH", "FOCUSPUNCH", "GIGADRAIN", "HEADBUTT", "ICEPUNCH", "KNOCKOFF", "OMINOUSWIND", "ROLLOUT", "SNORE", "STRINGSHOT", "TAILWIND", "THUNDERPUNCH", "UPROAR", "MIMIC"]
+compatible_egg_groups = ["Bug"]
+steps_to_hatch = 4080
+height = 1.0
+weight = 10.8
+colour = "Red"
+kind = "Five Star"
+pokedex_entry = "Ledyba communicate using a fluid that they secrete from where the legs join the body. They can convey feelings to others by altering the fluid's scent."
+battler_player_y = 24
+battler_enemy_y = 18
+battler_altitude = 0
+form_names = []
+internal_name = "LEDYBA"
+raw_hidden_ability = "RATTLED"
+habitat = "Forest"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "SUPERSONIC"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "SWIFT"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "LIGHTSCREEN"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "REFLECT"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "SAFEGUARD"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "MACHPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "SILVERWIND"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "COMETPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "BATONPASS"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "BUGBUZZ"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "AIRSLASH"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "DOUBLEEDGE"
+
+[[evolutions]]
+into_name = "LEDIAN"
+condition = "Level"
+parameter = "18"
+
+[base_stats]
+hp = 40
+atk = 20
+def_ = 30
+spa = 40
+spd = 80
+spe = 55
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 1
+spe = 0
+
+[wild_items]

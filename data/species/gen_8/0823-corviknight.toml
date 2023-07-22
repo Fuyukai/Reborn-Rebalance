@@ -1,0 +1,105 @@
+name = "Corviknight"
+primary_type = "FLYING"
+secondary_type = "STEEL"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 248
+catch_rate = 45
+caught_happiness = 50
+raw_abilities = ["PRESSURE", "UNNERVE"]
+raw_egg_moves = ["SKYATTACK", "SANDATTACK", "TAILWIND", "DEFOG", "ROCKSMASH", "SPITE", "ROOST"]
+raw_tms = ["WORKUP", "FLY", "STRENGTH", "ROCKSMASH", "BULKUP", "TAUNT", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "ROOST", "ROOST", "REFLECT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "STEELWING", "PAYBACK", "GIGAIMPACT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "SCREECH", "SCARYFACE", "REVENGE", "FAKETEARS", "ASSURANCE", "AIRSLASH", "BODYSLAM", "HURRICANE", "BRAVEBIRD", "AGILITY", "FOCUSENERGY", "REVERSAL", "ENDURE", "NASTYPLOT", "HEAVYSLAM", "BODYPRESS", "RETALIATE", "SWIFT"]
+raw_tutor_moves = ["DEFOG", "IRONDEFENSE", "IRONHEAD", "SKYATTACK", "SNORE", "SPITE", "TAILWIND", "DUALWINGBEAT", "STEELBEAM", "MIMIC"]
+compatible_egg_groups = ["Flying"]
+steps_to_hatch = 3840
+height = 2.2
+weight = 75.0
+colour = "Blue"
+kind = "Raven"
+pokedex_entry = "With their great intellect and flying skills, these Pokémon very successfully act as the Galar region's airborne taxi service."
+battler_player_y = 21
+battler_enemy_y = 26
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "CORVIKNIGHT"
+raw_hidden_ability = "MIRRORARMOR"
+regional_numbers = 823
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "STEELWING"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "STEELWING"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "IRONDEFENSE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "METALSOUND"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PECK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POWERTRIP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HONECLAWS"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "FURYATTACK"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "PLUCK"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "TAUNT"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "SCARYFACE"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "DRILLPECK"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "SWAGGER"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "BRAVEBIRD"
+
+[base_stats]
+hp = 98
+atk = 87
+def_ = 105
+spa = 53
+spd = 85
+spe = 67
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 3
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

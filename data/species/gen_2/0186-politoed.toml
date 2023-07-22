@@ -1,0 +1,74 @@
+name = "Politoed"
+primary_type = "WATER"
+secondary_type = "WATER"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 225
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["WATERABSORB", "DAMP"]
+raw_egg_moves = []
+raw_tms = ["SURF", "STRENGTH", "WATERFALL", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "EARTHQUAKE", "RETURN", "PSYCHIC", "BRICKBREAK", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "FOCUSBLAST", "SCALD", "FLING", "PAYBACK", "GIGAIMPACT", "BULLDOZE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "SCREECH", "WHIRLPOOL", "WEATHERBALL", "MUDSHOT", "BODYSLAM", "HYDROPUMP", "METRONOME", "AMNESIA", "ENDURE", "ENCORE", "MUDDYWATER"]
+raw_tutor_moves = ["BOUNCE", "EARTHPOWER", "ENDEAVOR", "FOCUSPUNCH", "HEADBUTT", "HELPINGHAND", "HYPERVOICE", "ICEPUNCH", "ICYWIND", "LIQUIDATION", "LOWKICK", "MUDSLAP", "SNORE", "WATERPULSE", "ICEBALL", "MIMIC"]
+compatible_egg_groups = ["Water1"]
+steps_to_hatch = 5355
+height = 1.1
+weight = 33.9
+colour = "Green"
+kind = "Frog"
+pokedex_entry = "The curled hair on its head proves its status as a king. It is said that the longer and curlier the hair, the more respect it earns from its peers."
+battler_player_y = 22
+battler_enemy_y = 14
+battler_altitude = 5
+evolutions = []
+form_names = []
+internal_name = "POLITOED"
+raw_hidden_ability = "DRIZZLE"
+habitat = "WatersEdge"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BUBBLEBEAM"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HYPNOSIS"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DOUBLESLAP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PERISHSONG"
+
+[[raw_level_up_moves]]
+at_level = "27"
+name = "SWAGGER"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "BOUNCE"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "HYPERVOICE"
+
+[base_stats]
+hp = 90
+atk = 75
+def_ = 75
+spa = 90
+spd = 100
+spe = 70
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 3
+spe = 0
+
+[wild_items]
+uncommon = "KINGSROCK"

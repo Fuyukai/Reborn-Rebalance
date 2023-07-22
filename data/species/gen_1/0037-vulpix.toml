@@ -1,0 +1,129 @@
+name = "Vulpix"
+primary_type = "FIRE"
+secondary_type = "FIRE"
+gender_ratio = "Female75Percent"
+growth_rate = "Medium"
+exp_yield = 60
+catch_rate = 190
+caught_happiness = 70
+raw_abilities = ["FLASHFIRE", "DROUGHT"]
+raw_egg_moves = ["CAPTIVATE", "DISABLE", "EXTRASENSORY", "FEINTATTACK", "FLAIL", "FLAREBLITZ", "HEATWAVE", "HEX", "HOWL", "HYPNOSIS", "POWERSWAP", "SECRETPOWER", "SPITE", "TAILSLAP", "MEMENTO"]
+raw_tms = ["ROAR", "TOXIC", "HAIL", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "RETURN", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "FIREBLAST", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "ROUND", "OVERHEAT", "ENERGYBALL", "WILLOWISP", "PAYBACK", "AURORAVEIL", "PSYCHUP", "FROSTBREATH", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "DARKPULSE", "DAZZLINGGLEAM", "CONFIDE", "FIRESPIN", "DIG", "CHARM", "IMPRISON", "WEATHERBALL", "POWERSWAP", "HEX", "TAILSLAP", "DRAININGKISS", "MYSTICALFIRE", "BODYSLAM", "FLAREBLITZ", "LEAFSTORM", "AGILITY", "ENDURE", "ENCORE", "SWIFT"]
+raw_tutor_moves = ["AQUATAIL", "COVET", "FOULPLAY", "HEADBUTT", "HEALBELL", "HEATWAVE", "ICYWIND", "IRONTAIL", "OMINOUSWIND", "PAINSPLIT", "ROLEPLAY", "SNORE", "SPITE", "ZENHEADBUTT", "BURNINGJEALOUSY", "MIMIC", "CELEBRATE"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5355
+height = 0.6
+weight = 9.9
+colour = "Brown"
+kind = "Fox"
+pokedex_entry = "At the time of its birth, Vulpix has one white tail. It separates into six if this Pokémon receives plenty of love. The six tails become magnificently curled."
+battler_player_y = 25
+battler_enemy_y = 20
+battler_altitude = 0
+form_names = ["Normal", "Alternate"]
+internal_name = "VULPIX"
+habitat = "Grassland"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "EMBER"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "TAILWHIP"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "ROAR"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "BABYDOLLEYES"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "CONFUSERAY"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "FIRESPIN"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "PAYBACK"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "WILLOWISP"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "FEINTATTACK"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "HEX"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "FLAMEBURST"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "EXTRASENSORY"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "SAFEGUARD"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "FLAMETHROWER"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "IMPRISON"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "FIREBLAST"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "GRUDGE"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "CAPTIVATE"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "INFERNO"
+
+[[evolutions]]
+into_name = "NINETALES"
+condition = "Item"
+parameter = "FIRESTONE"
+
+[base_stats]
+hp = 38
+atk = 41
+def_ = 40
+spa = 50
+spd = 65
+spe = 65
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 1
+
+[wild_items]
+uncommon = "CHARCOAL"

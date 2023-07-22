@@ -1,0 +1,100 @@
+name = "Spectrier"
+primary_type = "GHOST"
+secondary_type = "GHOST"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 290
+catch_rate = 3
+caught_happiness = 35
+raw_abilities = ["GRIMNEIGH"]
+raw_egg_moves = []
+raw_tms = ["CALMMIND", "TAUNT", "HYPERBEAM", "PROTECT", "SHADOWBALL", "FACADE", "REST", "ROUND", "WILLOWISP", "PAYBACK", "GIGAIMPACT", "BULLDOZE", "SUBSTITUTE", "SECRETPOWER", "SNARL", "DARKPULSE", "SCARYFACE", "MUDSHOT", "ASSURANCE", "CRUNCH", "PSYCHOCUT", "HEX", "PHANTOMFORCE", "BODYSLAM", "AGILITY", "ENDURE", "NASTYPLOT", "SWIFT"]
+raw_tutor_moves = ["FOULPLAY", "SNORE", "STOMPINGTANTRUM", "UPROAR", "LASHOUT", "MIMIC"]
+compatible_egg_groups = ["Undiscovered"]
+steps_to_hatch = 31096
+height = 2.0
+weight = 44.5
+colour = "Black"
+kind = "Swift Horse"
+pokedex_entry = "As it dashes through the night, Spectrier absorbs the life-force of sleeping creatures. It craves silence and solitude."
+battler_player_y = 14
+battler_enemy_y = 18
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "SPECTRIER"
+shape = 0
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TAILWHIP"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "DOUBLEKICK"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "HEX"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "STOMP"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "CONFUSERAY"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "HAZE"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "SHADOWBALL"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "54"
+name = "THRASH"
+
+[[raw_level_up_moves]]
+at_level = "60"
+name = "DISABLE"
+
+[[raw_level_up_moves]]
+at_level = "66"
+name = "DOUBLEEDGE"
+
+[[raw_level_up_moves]]
+at_level = "72"
+name = "NASTYPLOT"
+
+[base_stats]
+hp = 100
+atk = 65
+def_ = 60
+spa = 145
+spd = 80
+spe = 130
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 3
+spd = 0
+spe = 0
+
+[wild_items]

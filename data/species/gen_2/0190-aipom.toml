@@ -1,0 +1,105 @@
+name = "Aipom"
+primary_type = "NORMAL"
+secondary_type = "NORMAL"
+gender_ratio = "Female50Percent"
+growth_rate = "Fast"
+exp_yield = 72
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["RUNAWAY", "PICKUP"]
+raw_egg_moves = ["AGILITY", "BEATUP", "BOUNCE", "COUNTER", "COVET", "DOUBLESLAP", "FAKEOUT", "PURSUIT", "QUICKGUARD", "REVENGE", "SCREECH", "SLAM", "SPITE", "SWITCHEROO", "TAILSLAP"]
+raw_tms = ["WORKUP", "CUT", "STRENGTH", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "PROTECT", "RAINDANCE", "FRUSTRATION", "SOLARBEAM", "THUNDERBOLT", "THUNDER", "RETURN", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "LOWSWEEP", "ROUND", "FLING", "ACROBATICS", "SHADOWCLAW", "PAYBACK", "THUNDERWAVE", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "SCREECH", "BEATUP", "REVENGE", "FAKETEARS", "ASSURANCE", "TAILSLAP", "BODYSLAM", "AGILITY", "METRONOME", "ENDURE", "BATONPASS", "ENCORE", "NASTYPLOT", "RETALIATE", "SWIFT"]
+raw_tutor_moves = ["BOUNCE", "COVET", "FIREPUNCH", "FOCUSPUNCH", "FOULPLAY", "FURYCUTTER", "GUNKSHOT", "HEADBUTT", "ICEPUNCH", "IRONTAIL", "KNOCKOFF", "LASTRESORT", "LOWKICK", "MUDSLAP", "ROLEPLAY", "SEEDBOMB", "SHOCKWAVE", "SNATCH", "SNORE", "SPITE", "THUNDERPUNCH", "UPROAR", "WATERPULSE", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5355
+height = 0.8
+weight = 11.5
+colour = "Purple"
+kind = "Long Tail"
+pokedex_entry = "Its tail ends with a dexterous, handlike appendage. However, because it uses the tail so much, Aipom's real hands have become rather clumsy."
+battler_player_y = 23
+battler_enemy_y = 14
+battler_altitude = 0
+form_names = []
+internal_name = "AIPOM"
+raw_hidden_ability = "SKILLLINK"
+habitat = "Forest"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SCRATCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TAILWHIP"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "SANDATTACK"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "ASTONISH"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "BATONPASS"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "TICKLE"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "FURYSWIPES"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "SWIFT"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "SCREECH"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "DOUBLEHIT"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "FLING"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "NASTYPLOT"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "LASTRESORT"
+
+[[evolutions]]
+into_name = "AMBIPOM"
+condition = "HasMove"
+parameter = "DOUBLEHIT"
+
+[base_stats]
+hp = 55
+atk = 70
+def_ = 55
+spa = 40
+spd = 55
+spe = 85
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 1
+
+[wild_items]

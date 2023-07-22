@@ -1,0 +1,95 @@
+name = "Giratina"
+primary_type = "GHOST"
+secondary_type = "DRAGON"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 306
+catch_rate = 3
+caught_happiness = 0
+raw_abilities = ["PRESSURE", "TELEPATHY"]
+raw_egg_moves = []
+raw_tms = ["CUT", "DRAGONCLAW", "FLY", "CALMMIND", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "AERIALACE", "FACADE", "REST", "ROUND", "ECHOEDVOICE", "STEELWING", "ENERGYBALL", "CHARGEBEAM", "BRUTALSWING", "WILLOWISP", "SHADOWCLAW", "PAYBACK", "GIGAIMPACT", "STONEEDGE", "THUNDERWAVE", "PSYCHUP", "BULLDOZE", "DRAGONTAIL", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "DARKPULSE", "CONFIDE", "SCARYFACE", "HEX", "PHANTOMFORCE", "BREAKINGSWIPE", "BODYSLAM", "ENDURE", "AURASPHERE", "SWIFT"]
+raw_tutor_moves = ["AIRCUTTER", "ANCIENTPOWER", "AQUATAIL", "DEFOG", "DRACOMETEOR", "DRAGONPULSE", "EARTHPOWER", "FURYCUTTER", "GRAVITY", "HEADBUTT", "HYPERVOICE", "ICYWIND", "IRONHEAD", "IRONTAIL", "MAGICCOAT", "MUDSLAP", "OMINOUSWIND", "OUTRAGE", "PAINSPLIT", "SHOCKWAVE", "SNORE", "SPITE", "TAILWIND", "TELEKINESIS", "TWISTER", "DUALWINGBEAT", "POLTERGEIST", "MIMIC"]
+compatible_egg_groups = ["Undiscovered"]
+steps_to_hatch = 30855
+height = 4.5
+weight = 750.0
+colour = "Black"
+kind = "Renegade"
+pokedex_entry = "A Pokémon that is said to live in a world on the reverse side of ours. It appears in an ancient cemetery."
+battler_player_y = 8
+battler_enemy_y = 3
+battler_altitude = 0
+evolutions = []
+form_names = ["Altered Forme", "Origin Forme"]
+internal_name = "GIRATINA"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DRAGONBREATH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SCARYFACE"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "OMINOUSWIND"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "ANCIENTPOWER"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "SLASH"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "SHADOWSNEAK"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "DESTINYBOND"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "DRAGONCLAW"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "EARTHPOWER"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "AURASPHERE"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "SHADOWCLAW"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "SHADOWFORCE"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "HEX"
+
+[base_stats]
+hp = 150
+atk = 100
+def_ = 120
+spa = 100
+spd = 120
+spe = 90
+
+[ev_yield]
+hp = 3
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

@@ -1,0 +1,125 @@
+name = "Tsareena"
+primary_type = "GRASS"
+secondary_type = "GRASS"
+gender_ratio = "AlwaysFemale"
+growth_rate = "Parabolic"
+exp_yield = 230
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["LEAFGUARD", "QUEENLYMAJESTY"]
+raw_egg_moves = []
+raw_tms = ["TOXIC", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "REFLECT", "FACADE", "REST", "ATTRACT", "LOWSWEEP", "ROUND", "ENERGYBALL", "FLING", "ACROBATICS", "PAYBACK", "GIGAIMPACT", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "DAZZLINGGLEAM", "CONFIDE", "MEGAKICK", "MAGICALLEAF", "SOLARBLADE", "CHARM", "DRAININGKISS", "POWERWHIP", "LEAFSTORM", "ENDURE", "PLAYROUGH", "TRAILBLAZE"]
+raw_tutor_moves = ["BOUNCE", "COVET", "ENDEAVOR", "GIGADRAIN", "HELPINGHAND", "KNOCKOFF", "LASERFOCUS", "LOWKICK", "SEEDBOMB", "SNORE", "SYNTHESIS", "WORRYSEED", "ZENHEADBUTT", "GRASSYGLIDE", "TRIPLEAXEL", "MIMIC"]
+compatible_egg_groups = ["Grass"]
+steps_to_hatch = 5120
+height = 1.2
+weight = 21.4
+colour = "Purple"
+kind = "Fruit"
+pokedex_entry = "Its long, striking legs aren't just for show, but to be used to kick with skill. In victory, it shows off by kicking the defeated, laughing boisterously."
+battler_player_y = 8
+battler_enemy_y = 12
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "TSAREENA"
+raw_hidden_ability = "SWEETVEIL"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "TROPKICK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PUNISHMENT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DOUBLESLAP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SPLASH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SWAGGER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "RAPIDSPIN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "RAZORLEAF"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "SWAGGER"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "RAPIDSPIN"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "RAZORLEAF"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "SWEETSCENT"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "MAGICALLEAF"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "TEETERDANCE"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "STOMP"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "AROMATICMIST"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "CAPTIVATE"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "AROMATHERAPY"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "LEAFSTORM"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "HIJUMPKICK"
+
+[[raw_level_up_moves]]
+at_level = "53"
+name = "POWERWHIP"
+
+[base_stats]
+hp = 72
+atk = 120
+def_ = 98
+spa = 50
+spd = 98
+spe = 72
+
+[ev_yield]
+hp = 0
+atk = 3
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "ELEMENTALSEED"

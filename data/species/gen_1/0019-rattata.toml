@@ -1,0 +1,101 @@
+name = "Rattata"
+primary_type = "NORMAL"
+secondary_type = "NORMAL"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 51
+catch_rate = 255
+caught_happiness = 70
+raw_abilities = ["RUNAWAY", "GUTS"]
+raw_egg_moves = ["BITE", "COUNTER", "FINALGAMBIT", "FLAMEWHEEL", "FURYSWIPES", "LASTRESORT", "MEFIRST", "REVENGE", "REVERSAL", "SCREECH", "UPROAR"]
+raw_tms = ["WORKUP", "CUT", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "SHADOWBALL", "DOUBLETEAM", "SLUDGEBOMB", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "CHARGEBEAM", "QUASH", "EMBARGO", "SHADOWCLAW", "THUNDERWAVE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "SNARL", "DARKPULSE", "CONFIDE", "DIG", "SCREECH", "BEATUP", "REVENGE", "ASSURANCE", "CRUNCH", "BODYSLAM", "FOCUSENERGY", "REVERSAL", "ENDURE", "RETALIATE", "SWIFT"]
+raw_tutor_moves = ["COVET", "ENDEAVOR", "HEADBUTT", "ICYWIND", "IRONTAIL", "LASTRESORT", "MUDSLAP", "SHOCKWAVE", "SNATCH", "SNORE", "SUCKERPUNCH", "SUPERFANG", "UPROAR", "ZENHEADBUTT", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 4080
+height = 0.3
+weight = 3.5
+colour = "Purple"
+kind = "Mouse"
+pokedex_entry = "A Rattata is cautious in the extreme. Even while it is asleep, it constantly moves its ears and listens for danger. It will make its nest anywhere."
+battler_player_y = 30
+battler_enemy_y = 22
+battler_altitude = 0
+form_names = ["Normal", "Alternate"]
+internal_name = "RATTATA"
+raw_hidden_ability = "HUSTLE"
+habitat = "Grassland"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TAILWHIP"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "FOCUSENERGY"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "PURSUIT"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "HYPERFANG"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "ASSURANCE"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "SUCKERPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "SUPERFANG"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "DOUBLEEDGE"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "ENDEAVOR"
+
+[[evolutions]]
+into_name = "RATICATE"
+condition = "Level"
+parameter = "20"
+
+[base_stats]
+hp = 30
+atk = 56
+def_ = 35
+spa = 25
+spd = 35
+spe = 72
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 1
+
+[wild_items]

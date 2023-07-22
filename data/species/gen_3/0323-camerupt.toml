@@ -1,0 +1,125 @@
+name = "Camerupt"
+primary_type = "FIRE"
+secondary_type = "GROUND"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 161
+catch_rate = 150
+caught_happiness = 70
+raw_abilities = ["MAGMAARMOR", "SOLIDROCK"]
+raw_egg_moves = []
+raw_tms = ["STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "FRUSTRATION", "SOLARBEAM", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "FLAMETHROWER", "SANDSTORM", "FIREBLAST", "ROCKTOMB", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "OVERHEAT", "WILLOWISP", "EXPLOSION", "GIGAIMPACT", "ROCKPOLISH", "STONEEDGE", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "DIG", "SELFDESTRUCT", "SCARYFACE", "SANDTOMB", "BODYSLAM", "FLAREBLITZ", "FOCUSENERGY", "AMNESIA", "ENDURE", "HEATCRASH", "HEAVYSLAM", "BODYPRESS", "TRAILBLAZE"]
+raw_tutor_moves = ["AFTERYOU", "EARTHPOWER", "HEADBUTT", "HEATWAVE", "IRONHEAD", "MUDSLAP", "ROLLOUT", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5355
+height = 1.9
+weight = 220.0
+colour = "Red"
+kind = "Eruption"
+pokedex_entry = "A Pokémon that lives in the crater of a volcano. Every 10 years, the volcanoes on its back erupt violently. Research is under way on the cause of eruption."
+battler_player_y = 17
+battler_enemy_y = 13
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "CAMERUPT"
+raw_hidden_ability = "ANGERPOINT"
+habitat = "Mountain"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "ROCKSLIDE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FISSURE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ERUPTION"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "EMBER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FOCUSENERGY"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "EMBER"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "FOCUSENERGY"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "MAGNITUDE"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "FLAMEBURST"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "AMNESIA"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "LAVAPLUME"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "EARTHPOWER"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "CURSE"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "YAWN"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "EARTHQUAKE"
+
+[[raw_level_up_moves]]
+at_level = "52"
+name = "ERUPTION"
+
+[[raw_level_up_moves]]
+at_level = "59"
+name = "FISSURE"
+
+[base_stats]
+hp = 70
+atk = 100
+def_ = 70
+spa = 105
+spd = 75
+spe = 40
+
+[ev_yield]
+hp = 0
+atk = 1
+def_ = 0
+spa = 1
+spd = 0
+spe = 0
+
+[wild_items]

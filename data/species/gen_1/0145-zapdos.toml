@@ -1,0 +1,108 @@
+name = "Zapdos"
+primary_type = "ELECTRIC"
+secondary_type = "FLYING"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 261
+catch_rate = 3
+caught_happiness = 35
+raw_abilities = ["PRESSURE", "STATIC"]
+raw_egg_moves = []
+raw_tms = ["FLY", "ROAR", "TOXIC", "HAIL", "ROCKSMASH", "BULKUP", "FLASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "SANDSTORM", "AERIALACE", "FACADE", "REST", "ATTRACT", "LOWSWEEP", "ROUND", "STEELWING", "CHARGEBEAM", "SKYDROP", "ACROBATICS", "PAYBACK", "GIGAIMPACT", "VOLTSWITCH", "THUNDERWAVE", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "CONFIDE", "SCARYFACE", "REVENGE", "WEATHERBALL", "AIRSLASH", "EERIEIMPULSE", "HURRICANE", "CLOSECOMBAT", "BRAVEBIRD", "AGILITY", "ENDURE", "BATONPASS", "BLAZEKICK", "RETALIATE", "SWIFT"]
+raw_tutor_moves = ["AIRCUTTER", "ANCIENTPOWER", "BOUNCE", "DEFOG", "HEATWAVE", "LASERFOCUS", "LOWKICK", "MUDSLAP", "OMINOUSWIND", "SHOCKWAVE", "SIGNALBEAM", "SKYATTACK", "SNORE", "STOMPINGTANTRUM", "TAILWIND", "THROATCHOP", "TWISTER", "RISINGVOLTAGE", "COACHING", "DUALWINGBEAT", "MIMIC"]
+compatible_egg_groups = ["Undiscovered"]
+steps_to_hatch = 20655
+height = 1.6
+weight = 52.6
+colour = "Yellow"
+kind = "Electric"
+pokedex_entry = "Zapdos is a legendary bird Pokémon that has the ability to control electricity. It usually lives in thunderclouds. It gains power if it is stricken by lightning bolts."
+battler_player_y = 14
+battler_enemy_y = 8
+battler_altitude = 8
+evolutions = []
+form_names = []
+internal_name = "ZAPDOS"
+habitat = "Rare"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PECK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "THUNDERSHOCK"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "THUNDERWAVE"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "DETECT"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "PLUCK"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "ANCIENTPOWER"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "CHARGE"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "DISCHARGE"
+
+[[raw_level_up_moves]]
+at_level = "57"
+name = "RAINDANCE"
+
+[[raw_level_up_moves]]
+at_level = "64"
+name = "LIGHTSCREEN"
+
+[[raw_level_up_moves]]
+at_level = "71"
+name = "DRILLPECK"
+
+[[raw_level_up_moves]]
+at_level = "78"
+name = "THUNDER"
+
+[[raw_level_up_moves]]
+at_level = "85"
+name = "ROOST"
+
+[[raw_level_up_moves]]
+at_level = "92"
+name = "MAGNETICFLUX"
+
+[[raw_level_up_moves]]
+at_level = "99"
+name = "ZAPCANNON"
+
+[base_stats]
+hp = 90
+atk = 90
+def_ = 85
+spa = 125
+spd = 90
+spe = 100
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 3
+spd = 0
+spe = 0
+
+[wild_items]

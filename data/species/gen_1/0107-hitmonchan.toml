@@ -1,0 +1,145 @@
+name = "Hitmonchan"
+primary_type = "FIGHTING"
+secondary_type = "FIGHTING"
+gender_ratio = "AlwaysMale"
+growth_rate = "Medium"
+exp_yield = 159
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["KEENEYE", "IRONFIST"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "STRENGTH", "TOXIC", "ROCKSMASH", "BULKUP", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "RAINDANCE", "FRUSTRATION", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "THIEF", "LOWSWEEP", "ROUND", "FOCUSBLAST", "FLING", "STONEEDGE", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "REVENGE", "BODYSLAM", "CLOSECOMBAT", "AGILITY", "FOCUSENERGY", "METRONOME", "ENDURE", "AURASPHERE", "RETALIATE", "SWIFT"]
+raw_tutor_moves = ["COVET", "DRAINPUNCH", "FIREPUNCH", "FOCUSPUNCH", "HEADBUTT", "HELPINGHAND", "ICEPUNCH", "LASERFOCUS", "LOWKICK", "MUDSLAP", "ROLEPLAY", "SNORE", "THROATCHOP", "THUNDERPUNCH", "UPROAR", "VACUUMWAVE", "COACHING", "MIMIC"]
+compatible_egg_groups = ["Humanlike"]
+steps_to_hatch = 6630
+height = 1.4
+weight = 50.2
+colour = "Brown"
+kind = "Punching"
+pokedex_entry = "A Hitmonchan is said to possess the spirit of a boxer who aimed to become the world champion. Having an indomitable spirit means that it will never give up."
+battler_player_y = 21
+battler_enemy_y = 12
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "HITMONCHAN"
+raw_hidden_ability = "INNERFOCUS"
+habitat = "Urban"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "COMETPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CLOSECOMBAT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "COUNTER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FOCUSPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "REVENGE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PURSUIT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MACHPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "PURSUIT"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "MACHPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "BULLETPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "FEINT"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "VACUUMWAVE"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "QUICKGUARD"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "FIREPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "ICEPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "THUNDERPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "JETPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "SKYUPPERCUT"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "MEGAPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "DETECT"
+
+[[raw_level_up_moves]]
+at_level = "56"
+name = "FOCUSPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "61"
+name = "COUNTER"
+
+[[raw_level_up_moves]]
+at_level = "66"
+name = "CLOSECOMBAT"
+
+[base_stats]
+hp = 50
+atk = 105
+def_ = 79
+spa = 35
+spd = 110
+spe = 76
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 2
+spe = 0
+
+[wild_items]

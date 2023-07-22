@@ -1,0 +1,116 @@
+name = "Loudred"
+primary_type = "NORMAL"
+secondary_type = "NORMAL"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 126
+catch_rate = 120
+caught_happiness = 70
+raw_abilities = ["SOUNDPROOF", "SCRAPPY"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "SOLARBEAM", "SMACKDOWN", "EARTHQUAKE", "RETURN", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "FLAMETHROWER", "FIREBLAST", "ROCKTOMB", "TORMENT", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "OVERHEAT", "FLING", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "SCREECH", "FAKETEARS", "BODYSLAM", "ENDURE", "RETALIATE"]
+raw_tutor_moves = ["ENDEAVOR", "FIREPUNCH", "HEADBUTT", "HYPERVOICE", "ICEPUNCH", "ICYWIND", "LOWKICK", "MUDSLAP", "ROLLOUT", "SHOCKWAVE", "SNORE", "STOMPINGTANTRUM", "THUNDERPUNCH", "UPROAR", "WATERPULSE", "ZENHEADBUTT", "MIMIC"]
+compatible_egg_groups = ["Monster", "Field"]
+steps_to_hatch = 5355
+height = 1.0
+weight = 40.5
+colour = "Blue"
+kind = "Big Voice"
+pokedex_entry = "It positions the round speakers on its head to assail foes with ultrasonic waves at massive volume. It builds power by stomping the ground."
+battler_player_y = 17
+battler_enemy_y = 11
+battler_altitude = 0
+form_names = []
+internal_name = "LOUDRED"
+habitat = "Cave"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POUND"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ECHOEDVOICE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ASTONISH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HOWL"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "ECHOEDVOICE"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "ASTONISH"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "HOWL"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "SCREECH"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "SUPERSONIC"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "STOMP"
+
+[[raw_level_up_moves]]
+at_level = "27"
+name = "UPROAR"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "ROAR"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "REST"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "SLEEPTALK"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "HYPERVOICE"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "SYNCHRONOISE"
+
+[[evolutions]]
+into_name = "EXPLOUD"
+condition = "Level"
+parameter = "40"
+
+[base_stats]
+hp = 84
+atk = 71
+def_ = 43
+spa = 71
+spd = 43
+spe = 48
+
+[ev_yield]
+hp = 2
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

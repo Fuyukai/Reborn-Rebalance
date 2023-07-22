@@ -1,0 +1,55 @@
+name = "Wimpod"
+primary_type = "BUG"
+secondary_type = "WATER"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 46
+catch_rate = 90
+caught_happiness = 70
+raw_abilities = ["WIMPOUT"]
+raw_egg_moves = ["AQUAJET", "HARDEN", "METALCLAW", "SPIKES", "WIDEGUARD"]
+raw_tms = ["SURF", "WATERFALL", "TOXIC", "HAIL", "HIDDENPOWER", "TAUNT", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "LEECHLIFE", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "ROUND", "SCALD", "STRUGGLEBUG", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "SCREECH", "MUDSHOT", "ASSURANCE", "SPIKES", "ENDURE", "BUGBUZZ", "SWIFT"]
+raw_tutor_moves = ["SNORE", "SKITTERSMACK", "MIMIC"]
+compatible_egg_groups = ["Bug", "Water3"]
+steps_to_hatch = 5120
+height = 0.5
+weight = 12.0
+colour = "Gray"
+kind = "Turn Tail"
+pokedex_entry = "This Pokémon is a coward. As it desperately dashes off, the flailing of its many legs leaves a sparkling clean path in its wake."
+battler_player_y = 22
+battler_enemy_y = 31
+battler_altitude = 0
+form_names = []
+internal_name = "WIMPOD"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "STRUGGLEBUG"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SANDATTACK"
+
+[[evolutions]]
+into_name = "GOLISOPOD"
+condition = "Level"
+parameter = "30"
+
+[base_stats]
+hp = 25
+atk = 35
+def_ = 40
+spa = 20
+spd = 30
+spe = 80
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 1
+
+[wild_items]

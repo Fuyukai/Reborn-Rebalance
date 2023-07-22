@@ -1,0 +1,62 @@
+name = "Applin"
+primary_type = "GRASS"
+secondary_type = "DRAGON"
+gender_ratio = "Female50Percent"
+growth_rate = "Erratic"
+exp_yield = 52
+catch_rate = 255
+caught_happiness = 50
+raw_abilities = ["RIPEN", "GLUTTONY"]
+raw_egg_moves = ["SUCKERPUNCH", "ROLLOUT", "DEFENSECURL", "RECYCLE"]
+raw_tms = ["POUNCE"]
+raw_tutor_moves = ["DRACOMETEOR", "RECYCLE", "ROLLOUT", "SUCKERPUNCH", "GRASSYGLIDE"]
+compatible_egg_groups = ["Grass", "Dragon"]
+steps_to_hatch = 5120
+height = 0.2
+weight = 0.5
+colour = "Green"
+kind = "Apple Core"
+pokedex_entry = "As soon as its born, it burrows into an apple. Not only does the apple serve as its food source, but the flavor of the fruit determines its evolution."
+battler_player_y = 21
+battler_enemy_y = 26
+battler_altitude = 0
+form_names = []
+internal_name = "APPLIN"
+raw_hidden_ability = "BULLETPROOF"
+regional_numbers = 840
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WITHDRAW"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ASTONISH"
+
+[[evolutions]]
+into_name = "FLAPPLE"
+condition = "Item"
+parameter = "TARTAPPLE"
+
+[[evolutions]]
+into_name = "APPLETUN"
+condition = "Item"
+parameter = "SWEETAPPLE"
+
+[base_stats]
+hp = 40
+atk = 40
+def_ = 80
+spa = 40
+spd = 40
+spe = 20
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 1
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

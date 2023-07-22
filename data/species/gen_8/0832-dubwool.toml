@@ -1,0 +1,97 @@
+name = "Dubwool"
+primary_type = "NORMAL"
+secondary_type = "NORMAL"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 172
+catch_rate = 127
+caught_happiness = 50
+raw_abilities = ["FLUFFY", "STEADFAST"]
+raw_egg_moves = ["STOMP", "SWAGGER", "COUNTER"]
+raw_tms = ["STRENGTH", "ROCKCLIMB", "HYPERBEAM", "PROTECT", "FACADE", "REST", "ATTRACT", "ROUND", "PAYBACK", "GIGAIMPACT", "THUNDERWAVE", "SWORDSDANCE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "MEGAKICK", "GUARDSWAP", "BODYSLAM", "AGILITY", "REVERSAL", "ENDURE", "BATONPASS", "ELECTROBALL", "BODYPRESS", "RETALIATE"]
+raw_tutor_moves = ["BOUNCE", "HEADBUTT", "LASTRESORT", "SNORE", "ZENHEADBUTT", "GRASSYGLIDE", "HEADLONGRUSH", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 3840
+height = 1.3
+weight = 43.0
+colour = "White"
+kind = "Sheep"
+pokedex_entry = "Its majestic horns are meant only to impress the opposite gender. They never see use in battle."
+battler_player_y = 21
+battler_enemy_y = 26
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "DUBWOOL"
+raw_hidden_ability = "BULLETPROOF"
+regional_numbers = 832
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DEFENSECURL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "COPYCAT"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "GUARDSPLIT"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "DOUBLEKICK"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "HEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = "27"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "GUARDSWAP"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "REVERSAL"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "COTTONGUARD"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "DOUBLEEDGE"
+
+[[raw_level_up_moves]]
+at_level = "56"
+name = "LASTRESORT"
+
+[base_stats]
+hp = 72
+atk = 80
+def_ = 100
+spa = 60
+spd = 90
+spe = 88
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 2
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

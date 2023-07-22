@@ -1,0 +1,114 @@
+name = "Nosepass"
+primary_type = "ROCK"
+secondary_type = "ROCK"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 75
+catch_rate = 255
+caught_happiness = 70
+raw_abilities = ["STURDY", "MAGNETPULL"]
+raw_egg_moves = ["BLOCK", "DOUBLEEDGE", "ENDURE", "MAGNITUDE", "ROLLOUT", "STEALTHROCK", "WIDEGUARD"]
+raw_tms = ["STRENGTH", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "PROTECT", "FRUSTRATION", "SMACKDOWN", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "SANDSTORM", "ROCKTOMB", "TORMENT", "FACADE", "REST", "ATTRACT", "ROUND", "EXPLOSION", "ROCKPOLISH", "STONEEDGE", "VOLTSWITCH", "THUNDERWAVE", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "DAZZLINGGLEAM", "CONFIDE", "SELFDESTRUCT", "ROCKBLAST", "BODYSLAM", "ENDURE", "POWERGEM", "BODYPRESS"]
+raw_tutor_moves = ["ANCIENTPOWER", "BLOCK", "EARTHPOWER", "FIREPUNCH", "GRAVITY", "HEADBUTT", "ICEPUNCH", "IRONDEFENSE", "MAGICCOAT", "MAGNETRISE", "MUDSLAP", "PAINSPLIT", "ROLLOUT", "SHOCKWAVE", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "THUNDERPUNCH", "POWERSHIFT", "MIMIC"]
+compatible_egg_groups = ["Mineral"]
+steps_to_hatch = 5355
+height = 1.0
+weight = 97.0
+colour = "Gray"
+kind = "Compass"
+pokedex_entry = "Its body emits a powerful magnetism. It feeds on prey that is pulled in by the force. Its magnetism is stronger in cold seasons."
+battler_player_y = 24
+battler_enemy_y = 18
+battler_altitude = 0
+form_names = []
+internal_name = "NOSEPASS"
+raw_hidden_ability = "SANDFORCE"
+habitat = "Cave"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "HARDEN"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "BLOCK"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "ROCKTHROW"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "THUNDERWAVE"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "REST"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "SPARK"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "ROCKSLIDE"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "POWERGEM"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "ROCKBLAST"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "DISCHARGE"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "SANDSTORM"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "EARTHPOWER"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "STONEEDGE"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "LOCKON"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "ZAPCANNON"
+
+[[evolutions]]
+into_name = "PROBOPASS"
+condition = "Location"
+parameter = "281"
+
+[base_stats]
+hp = 30
+atk = 45
+def_ = 135
+spa = 45
+spd = 90
+spe = 30
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 1
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "MAGNET"

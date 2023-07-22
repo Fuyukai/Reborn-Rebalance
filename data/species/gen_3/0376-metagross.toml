@@ -1,0 +1,105 @@
+name = "Metagross"
+primary_type = "STEEL"
+secondary_type = "PSYCHIC"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 270
+catch_rate = 3
+caught_happiness = 35
+raw_abilities = ["CLEARBODY", "LIGHTMETAL"]
+raw_egg_moves = []
+raw_tms = ["CUT", "PSYSHOCK", "STRENGTH", "TOXIC", "ROCKSMASH", "FLASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "EARTHQUAKE", "RETURN", "PSYCHIC", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "SLUDGEBOMB", "SANDSTORM", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ROUND", "BRUTALSWING", "EXPLOSION", "GIGAIMPACT", "ROCKPOLISH", "GYROBALL", "PSYCHUP", "BULLDOZE", "ROCKSLIDE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "SELFDESTRUCT", "SCARYFACE", "PSYCHOCUT", "BODYSLAM", "AGILITY", "ENDURE", "COSMICPOWER", "HEATCRASH", "BODYPRESS", "SWIFT"]
+raw_tutor_moves = ["ALLYSWITCH", "BLOCK", "FURYCUTTER", "GRAVITY", "HEADBUTT", "ICEPUNCH", "ICYWIND", "IRONDEFENSE", "IRONHEAD", "LASERFOCUS", "MAGNETRISE", "MUDSLAP", "ROLLOUT", "SIGNALBEAM", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "TELEKINESIS", "THUNDERPUNCH", "TRICK", "ZENHEADBUTT", "METEORBEAM", "EXPANDINGFORCE", "STEELROLLER", "STEELBEAM", "MIMIC"]
+compatible_egg_groups = ["Mineral"]
+steps_to_hatch = 10455
+height = 1.6
+weight = 550.0
+colour = "Blue"
+kind = "Iron Leg"
+pokedex_entry = "Metagross has four brains that are joined by a complex neural network. As a result of integration, this Pokémon is smarter than a supercomputer."
+battler_player_y = 28
+battler_enemy_y = 26
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "METAGROSS"
+habitat = "RoughTerrain"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "HAMMERARM"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CONFUSION"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "METALCLAW"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MAGNETRISE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "PURSUIT"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "BULLETPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "MIRACLEEYE"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "ZENHEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "SCARYFACE"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "PSYCHIC"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "METEORMASH"
+
+[[raw_level_up_moves]]
+at_level = "52"
+name = "IRONDEFENSE"
+
+[[raw_level_up_moves]]
+at_level = "60"
+name = "HYPERBEAM"
+
+[base_stats]
+hp = 80
+atk = 135
+def_ = 130
+spa = 95
+spd = 90
+spe = 70
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 3
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "METALCOAT"

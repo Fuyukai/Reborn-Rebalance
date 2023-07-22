@@ -1,0 +1,100 @@
+name = "Pincurchin"
+primary_type = "ELECTRIC"
+secondary_type = "ELECTRIC"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 152
+catch_rate = 75
+caught_happiness = 50
+raw_abilities = ["LIGHTNINGROD", "ELECTRICSURGE"]
+raw_egg_moves = ["MEMENTO", "SUCKERPUNCH"]
+raw_tms = ["SURF", "FLASH", "VENOSHOCK", "HYPERBEAM", "PROTECT", "RAINDANCE", "THUNDERBOLT", "THUNDER", "FACADE", "REST", "ATTRACT", "ROUND", "SCALD", "PAYBACK", "THUNDERWAVE", "POISONJAB", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "PINMISSILE", "SELFDESTRUCT", "BRINE", "ASSURANCE", "HEX", "ELECTRICTERRAIN", "HYDROPUMP", "REVERSAL", "SPIKES", "ENDURE", "MUDDYWATER", "TOXICSPIKES", "VENOMDRENCH", "CHILLINGWATER"]
+raw_tutor_moves = ["LIQUIDATION", "SHOCKWAVE", "SNORE", "SUCKERPUNCH", "THROATCHOP", "RISINGVOLTAGE", "MIMIC"]
+compatible_egg_groups = ["Water1", "Amorphous"]
+steps_to_hatch = 5120
+height = 0.3
+weight = 1.0
+colour = "Purple"
+kind = "Sea Urchin"
+pokedex_entry = "It stores electricity in each spine. Even if one gets broken off, it still continues to emit electricity for at least three hours."
+battler_player_y = 21
+battler_enemy_y = 26
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "PINCURCHIN"
+regional_numbers = 871
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PECK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "THUNDERSHOCK"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "WATERGUN"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "CHARGE"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "FURYATTACK"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "SPARK"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "BUBBLEBEAM"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "RECOVER"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "CURSE"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "ELECTRICTERRAIN"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "POISONJAB"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "ZINGZAP"
+
+[[raw_level_up_moves]]
+at_level = "55"
+name = "ACUPRESSURE"
+
+[[raw_level_up_moves]]
+at_level = "60"
+name = "DISCHARGE"
+
+[base_stats]
+hp = 48
+atk = 101
+def_ = 95
+spa = 91
+spd = 85
+spe = 15
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

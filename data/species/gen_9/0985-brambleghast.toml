@@ -1,0 +1,103 @@
+name = "Brambleghast"
+primary_type = "GRASS"
+secondary_type = "GHOST"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 173
+catch_rate = 45
+caught_happiness = 50
+raw_abilities = ["WINDRIDER", "INFILTRATOR"]
+raw_egg_moves = []
+raw_tms = ["TOXIC", "HIDDENPOWER", "HYPERBEAM", "PROTECT", "FRUSTRATION", "SOLARBEAM", "RETURN", "SHADOWBALL", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "THIEF", "ENERGYBALL", "GIGAIMPACT", "GYROBALL", "GRASSKNOT", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "PINMISSILE", "SCARYFACE", "BULLETSEED", "HEX", "PHANTOMFORCE", "GRASSYTERRAIN", "POWERWHIP", "LEAFSTORM", "SPIKES", "ENDURE", "POUNCE", "TRAILBLAZE"]
+raw_tutor_moves = ["GIGADRAIN", "PAINSPLIT", "ROLLOUT", "SEEDBOMB", "SPITE", "SYNTHESIS", "GRASSYGLIDE"]
+compatible_egg_groups = ["Grass"]
+steps_to_hatch = 5140
+height = 1.2
+weight = 6.0
+colour = "Brown"
+kind = "Tumbleweed"
+pokedex_entry = "Brambleghast wanders around arid regions. On rare occasions, mass outbreaks of these Pokémon will bury an entire town."
+battler_player_y = 14
+battler_enemy_y = 12
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "BRAMBLEGHAST"
+
+[[raw_level_up_moves]]
+at_level = " 1"
+name = "DEFENSECURL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ROLLOUT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ASTONISH"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "ABSORB"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "RAPIDSPIN"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "BULLETSEED"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "INFESTATION"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "HEX"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "MEGADRAIN"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "DISABLE"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "PHANTOMFORCE"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "GIGADRAIN"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "CURSE"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "PAINSPLIT"
+
+[[raw_level_up_moves]]
+at_level = "55"
+name = "POWERWHIP"
+
+[base_stats]
+hp = 55
+atk = 115
+def_ = 70
+spa = 80
+spd = 70
+spe = 90
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

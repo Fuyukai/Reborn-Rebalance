@@ -1,0 +1,77 @@
+name = "Vileplume"
+primary_type = "GRASS"
+secondary_type = "POISON"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 216
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["CHLOROPHYLL", "EFFECTSPORE"]
+raw_egg_moves = []
+raw_tms = ["CUT", "TOXIC", "FLASH", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "REFLECT", "SLUDGEWAVE", "SLUDGEBOMB", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "FLING", "GIGAIMPACT", "SWORDSDANCE", "INFESTATION", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "DAZZLINGGLEAM", "CONFIDE", "CHARM", "BULLETSEED", "GRASSYTERRAIN", "BODYSLAM", "ENDURE", "POLLENPUFF"]
+raw_tutor_moves = ["AFTERYOU", "DRAINPUNCH", "GASTROACID", "GIGADRAIN", "SEEDBOMB", "SNORE", "SYNTHESIS", "WORRYSEED", "GRASSYGLIDE", "CORROSIVEGAS", "MIMIC"]
+compatible_egg_groups = ["Grass"]
+steps_to_hatch = 5355
+height = 1.2
+weight = 18.6
+colour = "Red"
+kind = "Flower"
+pokedex_entry = "In seasons when it produces more pollen, the air around a Vileplume turns yellow with the powder as it walks. The pollen is highly toxic and causes paralysis."
+battler_player_y = 23
+battler_enemy_y = 17
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "VILEPLUME"
+habitat = "Grassland"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MEGADRAIN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "AROMATHERAPY"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "STUNSPORE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POISONPOWDER"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "CORROSIVEGAS"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "PETALBLIZZARD"
+
+[[raw_level_up_moves]]
+at_level = "59"
+name = "PETALDANCE"
+
+[[raw_level_up_moves]]
+at_level = "69"
+name = "SOLARBEAM"
+
+[base_stats]
+hp = 75
+atk = 80
+def_ = 85
+spa = 110
+spd = 90
+spe = 50
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 3
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "ABSORBBULB"

@@ -1,0 +1,126 @@
+name = "Farfetch'd"
+primary_type = "NORMAL"
+secondary_type = "FLYING"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 132
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["KEENEYE", "INNERFOCUS"]
+raw_egg_moves = ["COVET", "CURSE", "FEATHERDANCE", "FIRSTIMPRESSION", "FINALGAMBIT", "FLAIL", "FORESIGHT", "GUST", "LEAFBLADE", "MIRRORMOVE", "MUDSLAP", "NIGHTSLASH", "QUICKATTACK", "REVENGE", "ROOST", "SIMPLEBEAM", "STEELWING", "TRUMPCARD"]
+raw_tms = ["WORKUP", "CUT", "FLY", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "ROOST", "ROOST", "FRUSTRATION", "RETURN", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "STEELWING", "FALSESWIPE", "BRUTALSWING", "ACROBATICS", "SWORDSDANCE", "PSYCHUP", "POISONJAB", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "SOLARBLADE", "REVENGE", "ASSURANCE", "LEAFBLADE", "AIRSLASH", "BODYSLAM", "CLOSECOMBAT", "BRAVEBIRD", "AGILITY", "FOCUSENERGY", "ENDURE", "BATONPASS", "RETALIATE", "SWIFT"]
+raw_tutor_moves = ["AIRCUTTER", "COVET", "DEFOG", "FURYCUTTER", "HEADBUTT", "HEATWAVE", "HELPINGHAND", "IRONTAIL", "KNOCKOFF", "LASERFOCUS", "LASTRESORT", "MUDSLAP", "OMINOUSWIND", "SKYATTACK", "SNORE", "SUPERPOWER", "TAILWIND", "THROATCHOP", "TWISTER", "UPROAR", "DUALWINGBEAT", "MIMIC"]
+compatible_egg_groups = ["Flying", "Field"]
+steps_to_hatch = 5355
+height = 0.8
+weight = 15.0
+colour = "Brown"
+kind = "Wild Duck"
+pokedex_entry = "It is always seen with a stick from a plant. Apparently, there are good sticks and bad sticks. This Pokémon occasionally fights over choice sticks."
+battler_player_y = 22
+battler_enemy_y = 18
+battler_altitude = 0
+form_names = []
+internal_name = "FARFETCHD"
+raw_hidden_ability = "DEFIANT"
+habitat = "Grassland"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BRAVEBIRD"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POISONJAB"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PECK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SANDATTACK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FURYCUTTER"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "FURYATTACK"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "AERIALACE"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "KNOCKOFF"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "SLASH"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "AIRCUTTER"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "SWORDSDANCE"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "NIGHTSLASH"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "ACROBATICS"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "FEINT"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "FALSESWIPE"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "AIRSLASH"
+
+[[raw_level_up_moves]]
+at_level = "55"
+name = "BRAVEBIRD"
+
+[[evolutions]]
+into_name = "SIRFETCHD"
+condition = "Critted"
+parameter = ""
+
+[base_stats]
+hp = 52
+atk = 90
+def_ = 55
+spa = 58
+spd = 62
+spe = 60
+
+[ev_yield]
+hp = 0
+atk = 1
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "STICK"

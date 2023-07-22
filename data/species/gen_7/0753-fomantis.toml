@@ -1,0 +1,92 @@
+name = "Fomantis"
+primary_type = "GRASS"
+secondary_type = "GRASS"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 50
+catch_rate = 190
+caught_happiness = 70
+raw_abilities = ["LEAFGUARD", "CONTRARY"]
+raw_egg_moves = ["AROMATHERAPY", "DEFOG", "GIGADRAIN", "LEAFSTORM", "WEATHERBALL"]
+raw_tms = ["TOXIC", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "LEECHLIFE", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "FALSESWIPE", "FLING", "PAYBACK", "SWORDSDANCE", "XSCISSOR", "POISONJAB", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "MAGICALLEAF", "WEATHERBALL", "BULLETSEED", "LEAFBLADE", "LEAFSTORM", "AGILITY", "ENDURE", "BUGBUZZ", "TRAILBLAZE"]
+raw_tutor_moves = ["BUGBITE", "DEFOG", "DUALCHOP", "GIGADRAIN", "SEEDBOMB", "SIGNALBEAM", "SNORE", "SYNTHESIS", "WORRYSEED", "GRASSYGLIDE", "MIMIC"]
+compatible_egg_groups = ["Grass"]
+steps_to_hatch = 5120
+height = 0.3
+weight = 1.5
+colour = "Pink"
+kind = "Sickle Grass"
+pokedex_entry = "During the day, it sleeps and soaks up light. When night falls, it walks around looking for a safer place to sleep."
+battler_player_y = 22
+battler_enemy_y = 24
+battler_altitude = 0
+form_names = []
+internal_name = "FOMANTIS"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FURYCUTTER"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "LEAFAGE"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "RAZORLEAF"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "GROWTH"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "INGRAIN"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "LEAFBLADE"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "SYNTHESIS"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "SLASH"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "SWEETSCENT"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "SOLARBEAM"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "SUNNYDAY"
+
+[[evolutions]]
+into_name = "LURANTIS"
+condition = "LevelDay"
+parameter = "34"
+
+[base_stats]
+hp = 40
+atk = 55
+def_ = 35
+spa = 50
+spd = 35
+spe = 35
+
+[ev_yield]
+hp = 0
+atk = 1
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "MIRACLESEED"

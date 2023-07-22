@@ -1,0 +1,120 @@
+name = "Sirfetch'd"
+primary_type = "FIGHTING"
+secondary_type = "FIGHTING"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 177
+catch_rate = 45
+caught_happiness = 50
+raw_abilities = ["STEADFAST", "SCRAPPY"]
+raw_egg_moves = ["COUNTER", "QUICKATTACK", "FLAIL", "QUICKGUARD", "CURSE", "COVET", "NIGHTSLASH", "SIMPLEBEAM", "DOUBLEEDGE", "FEINT", "SKYATTACK"]
+raw_tms = ["WORKUP", "CUT", "STRENGTH", "ROCKSMASH", "SUNNYDAY", "PROTECT", "BRICKBREAK", "FACADE", "REST", "ATTRACT", "ROUND", "STEELWING", "FALSESWIPE", "BRUTALSWING", "SWORDSDANCE", "POISONJAB", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "SOLARBLADE", "REVENGE", "ASSURANCE", "LEAFBLADE", "BODYSLAM", "CLOSECOMBAT", "BRAVEBIRD", "AGILITY", "FOCUSENERGY", "ENDURE", "BATONPASS", "RETALIATE"]
+raw_tutor_moves = ["COVET", "DEFOG", "DRILLRUN", "FURYCUTTER", "HELPINGHAND", "IRONDEFENSE", "KNOCKOFF", "SKYATTACK", "SNORE", "SUPERPOWER", "THROATCHOP", "GRASSYGLIDE", "COACHING", "DUALWINGBEAT", "MIMIC"]
+compatible_egg_groups = ["Flying", "Field"]
+steps_to_hatch = 5120
+height = 0.8
+weight = 117.0
+colour = "White"
+kind = "Wild Duck"
+pokedex_entry = "After deflecting attacks with its hard leaf shield, it strikes back with its sharp leek stalk. The leek stalk is both weapon and food."
+battler_player_y = 21
+battler_enemy_y = 0
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "SIRFETCHD"
+regional_numbers = 865
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "IRONDEFENSE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "IRONDEFENSE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FIRSTIMPRESSION"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PECK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SANDATTACK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FURYCUTTER"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "ROCKSMASH"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "BRUTALSWING"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "DETECT"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "KNOCKOFF"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "DEFOG"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "BRICKBREAK"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "SWORDSDANCE"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "SLAM"
+
+[[raw_level_up_moves]]
+at_level = "55"
+name = "LEAFBLADE"
+
+[[raw_level_up_moves]]
+at_level = "60"
+name = "FINALGAMBIT"
+
+[[raw_level_up_moves]]
+at_level = "65"
+name = "BRAVEBIRD"
+
+[[raw_level_up_moves]]
+at_level = "70"
+name = "METEORASSAULT"
+
+[base_stats]
+hp = 62
+atk = 135
+def_ = 95
+spa = 68
+spd = 82
+spe = 65
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

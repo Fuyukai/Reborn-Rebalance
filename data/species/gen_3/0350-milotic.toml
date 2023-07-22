@@ -1,0 +1,125 @@
+name = "Milotic"
+primary_type = "WATER"
+secondary_type = "WATER"
+gender_ratio = "Female50Percent"
+growth_rate = "Erratic"
+exp_yield = 189
+catch_rate = 60
+caught_happiness = 70
+raw_abilities = ["MARVELSCALE", "COMPETITIVE"]
+raw_egg_moves = []
+raw_tms = ["SURF", "WATERFALL", "TOXIC", "DIVE", "HAIL", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "RETURN", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "ROUND", "SCALD", "BRUTALSWING", "GIGAIMPACT", "PSYCHUP", "BULLDOZE", "DRAGONTAIL", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "WHIRLPOOL", "WEATHERBALL", "MUDSHOT", "BRINE", "AVALANCHE", "BREAKINGSWIPE", "BODYSLAM", "HYDROPUMP", "ENDURE", "MUDDYWATER", "DRAGONDANCE", "SWIFT"]
+raw_tutor_moves = ["AQUATAIL", "BIND", "DRAGONPULSE", "HELPINGHAND", "ICYWIND", "IRONHEAD", "IRONTAIL", "LASERFOCUS", "MAGICCOAT", "MUDSLAP", "SNORE", "TWISTER", "WATERPULSE", "FLIPTURN", "SKITTERSMACK", "TRIPLEAXEL", "SCALESHOT", "MIMIC"]
+compatible_egg_groups = ["Water1", "Dragon"]
+steps_to_hatch = 5355
+height = 6.2
+weight = 162.0
+colour = "Pink"
+kind = "Tender"
+pokedex_entry = "It is said to live at the bottom of large lakes. Considered to be the most beautiful of all Pokémon, it has been depicted in paintings and statues."
+battler_player_y = 10
+battler_enemy_y = 9
+battler_altitude = 3
+evolutions = []
+form_names = []
+internal_name = "MILOTIC"
+raw_hidden_ability = "CUTECHARM"
+habitat = "WatersEdge"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "WATERPULSE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LIFEDEW"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WRAP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WATERGUN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WATERSPORT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "REFRESH"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "WATERSPORT"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "REFRESH"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "DISARMINGVOICE"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "TWISTER"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "AQUARING"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "CAPTIVATE"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "DRAGONTAIL"
+
+[[raw_level_up_moves]]
+at_level = "27"
+name = "RECOVER"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "AQUATAIL"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "ATTRACT"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "SAFEGUARD"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "COIL"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "HYDROPUMP"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "RAINDANCE"
+
+[base_stats]
+hp = 95
+atk = 60
+def_ = 79
+spa = 100
+spd = 125
+spe = 81
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 2
+spe = 0
+
+[wild_items]

@@ -1,0 +1,116 @@
+name = "Meditite"
+primary_type = "FIGHTING"
+secondary_type = "PSYCHIC"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 56
+catch_rate = 180
+caught_happiness = 70
+raw_abilities = ["PUREPOWER", "TELEPATHY"]
+raw_egg_moves = ["BATONPASS", "BULLETPUNCH", "DRAINPUNCH", "DYNAMICPUNCH", "FAKEOUT", "FIREPUNCH", "FORESIGHT", "GUARDSWAP", "ICEPUNCH", "POWERSWAP", "PSYCHOCUT", "QUICKGUARD", "SECRETPOWER", "THUNDERPUNCH"]
+raw_tms = ["WORKUP", "PSYSHOCK", "CALMMIND", "STRENGTH", "TOXIC", "ROCKSMASH", "BULKUP", "FLASH", "HIDDENPOWER", "SUNNYDAY", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "PSYCHIC", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "LOWSWEEP", "ROUND", "FOCUSBLAST", "FLING", "PSYCHUP", "ROCKSLIDE", "POISONJAB", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "REVENGE", "POWERSWAP", "GUARDSWAP", "PSYCHOCUT", "BODYSLAM", "METRONOME", "REVERSAL", "ENDURE", "BATONPASS", "STOREDPOWER", "RETALIATE", "TRAILBLAZE", "SWIFT"]
+raw_tutor_moves = ["DRAINPUNCH", "FIREPUNCH", "FOCUSPUNCH", "GRAVITY", "HEADBUTT", "HELPINGHAND", "ICEPUNCH", "LOWKICK", "MAGICCOAT", "MUDSLAP", "PAINSPLIT", "RECYCLE", "ROLEPLAY", "SIGNALBEAM", "SNORE", "TELEKINESIS", "THUNDERPUNCH", "TRICK", "VACUUMWAVE", "ZENHEADBUTT", "MIMIC"]
+compatible_egg_groups = ["Humanlike"]
+steps_to_hatch = 5355
+height = 0.6
+weight = 11.2
+colour = "Blue"
+kind = "Meditate"
+pokedex_entry = "It continually meditates for hours every day. As a result of rigorous and dedicated yoga training, it has tempered its spiritual power so much it can fly."
+battler_player_y = 28
+battler_enemy_y = 22
+battler_altitude = 0
+form_names = []
+internal_name = "MEDITITE"
+habitat = "Mountain"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BIDE"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "MEDITATE"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "CONFUSION"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "DETECT"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "ENDURE"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "FEINT"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "FORCEPALM"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "HIDDENPOWER"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "CALMMIND"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "MINDREADER"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "HIJUMPKICK"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "PSYCHUP"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "ACUPRESSURE"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "POWERTRICK"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "REVERSAL"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "RECOVER"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "COUNTER"
+
+[[evolutions]]
+into_name = "MEDICHAM"
+condition = "Level"
+parameter = "37"
+
+[base_stats]
+hp = 30
+atk = 40
+def_ = 55
+spa = 40
+spd = 55
+spe = 60
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 1
+
+[wild_items]

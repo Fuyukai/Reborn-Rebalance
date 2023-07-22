@@ -1,0 +1,119 @@
+name = "Slowpoke"
+primary_type = "WATER"
+secondary_type = "PSYCHIC"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 63
+catch_rate = 190
+caught_happiness = 70
+raw_abilities = ["OBLIVIOUS", "OWNTEMPO"]
+raw_egg_moves = ["BELCH", "BELLYDRUM", "BLOCK", "FUTURESIGHT", "MEFIRST", "MUDSPORT", "SLEEPTALK", "SNORE", "STOMP", "WONDERROOM", "ZENHEADBUTT"]
+raw_tms = ["PSYSHOCK", "SURF", "CALMMIND", "STRENGTH", "TOXIC", "DIVE", "HAIL", "FLASH", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "EARTHQUAKE", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "FIREBLAST", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "SCALD", "THUNDERWAVE", "PSYCHUP", "BULLDOZE", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "CONFIDE", "PAYDAY", "DIG", "WHIRLPOOL", "IMPRISON", "WEATHERBALL", "MUDSHOT", "BRINE", "PSYCHICTERRAIN", "BODYSLAM", "HYDROPUMP", "AMNESIA", "TRIATTACK", "ENDURE", "FUTURESIGHT", "STOREDPOWER", "SNOWSCAPE", "CHILLINGWATER", "SWIFT"]
+raw_tutor_moves = ["AFTERYOU", "AQUATAIL", "BLOCK", "FOULPLAY", "HEADBUTT", "ICYWIND", "IRONTAIL", "LIQUIDATION", "MAGICCOAT", "MUDSLAP", "RECYCLE", "SIGNALBEAM", "SKILLSWAP", "SNORE", "TELEKINESIS", "TRICK", "WATERPULSE", "WONDERROOM", "ZENHEADBUTT", "EXPANDINGFORCE", "MIMIC"]
+compatible_egg_groups = ["Monster", "Water1"]
+steps_to_hatch = 5355
+height = 1.2
+weight = 36.0
+colour = "Pink"
+kind = "Dopey"
+pokedex_entry = "It catches prey by dipping its tail in water at the side of a river. But it often forgets what its doing and spends days loafing at water's edge."
+battler_player_y = 26
+battler_enemy_y = 27
+battler_altitude = 0
+form_names = []
+internal_name = "SLOWPOKE"
+raw_hidden_ability = "REGENERATOR"
+habitat = "WatersEdge"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CURSE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "YAWN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "WATERGUN"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "CONFUSION"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "DISABLE"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "HEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "WATERPULSE"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "ZENHEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "SLACKOFF"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "AMNESIA"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "PSYCHIC"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "RAINDANCE"
+
+[[raw_level_up_moves]]
+at_level = "54"
+name = "PSYCHUP"
+
+[[raw_level_up_moves]]
+at_level = "58"
+name = "HEALPULSE"
+
+[[evolutions]]
+into_name = "SLOWBRO"
+condition = "Level"
+parameter = "37"
+
+[[evolutions]]
+into_name = "SLOWKING"
+condition = "TradeItem"
+parameter = "KINGSROCK"
+
+[base_stats]
+hp = 90
+atk = 65
+def_ = 65
+spa = 40
+spd = 40
+spe = 15
+
+[ev_yield]
+hp = 1
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "LAGGINGTAIL"

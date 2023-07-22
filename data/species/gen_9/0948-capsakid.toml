@@ -1,0 +1,96 @@
+name = "Capsakid"
+primary_type = "GRASS"
+secondary_type = "GRASS"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 64
+catch_rate = 190
+caught_happiness = 50
+raw_abilities = ["CHLOROPHYLL", "INSOMNIA"]
+raw_egg_moves = ["LEECHSEED", "ROLLOUT", "INGRAIN", "WORRYSEED", "RAGEPOWDER"]
+raw_tms = ["TOXIC", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "SANDSTORM", "FACADE", "REST", "ATTRACT", "THIEF", "ENERGYBALL", "GRASSKNOT", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "MAGICALLEAF", "BULLETSEED", "CRUNCH", "GRASSYTERRAIN", "LEAFSTORM", "ENDURE", "TRAILBLAZE"]
+raw_tutor_moves = ["GIGADRAIN", "HELPINGHAND", "SEEDBOMB", "STOMPINGTANTRUM", "SYNTHESIS", "ZENHEADBUTT", "GRASSYGLIDE"]
+compatible_egg_groups = ["Grass"]
+steps_to_hatch = 5140
+height = 0.3
+weight = 3.0
+colour = "Green"
+kind = "Spicy Pepper"
+pokedex_entry = "Traditional Paldean dishes can be extremely spicy because they include the shed front teeth of Capsakid among their ingredients."
+battler_player_y = 10
+battler_enemy_y = 12
+battler_altitude = 0
+form_names = []
+internal_name = "CAPSAKID"
+raw_hidden_ability = "KLUTZ"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEAFAGE"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "GROWTH"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "RAZORLEAF"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "SUNNYDAY"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "BULLETSEED"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "HEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "ZENHEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "SEEDBOMB"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "SOLARBEAM"
+
+[[evolutions]]
+into_name = "SCOVILLAIN"
+condition = "Item"
+parameter = "FIRESTONE"
+
+[base_stats]
+hp = 50
+atk = 62
+def_ = 40
+spa = 62
+spd = 40
+spe = 50
+
+[ev_yield]
+hp = 0
+atk = 1
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

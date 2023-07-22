@@ -1,0 +1,117 @@
+name = "Cradily"
+primary_type = "ROCK"
+secondary_type = "GRASS"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Erratic"
+exp_yield = 173
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["SUCTIONCUPS", "STORMDRAIN"]
+raw_egg_moves = []
+raw_tms = ["STRENGTH", "TOXIC", "ROCKSMASH", "FLASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "FRUSTRATION", "SOLARBEAM", "SMACKDOWN", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "SLUDGEWAVE", "SLUDGEBOMB", "SANDSTORM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "GIGAIMPACT", "ROCKPOLISH", "STONEEDGE", "SWORDSDANCE", "BULLDOZE", "ROCKSLIDE", "INFESTATION", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "BULLETSEED", "ROCKBLAST", "MUDSHOT", "BRINE", "GRASSYTERRAIN", "BODYSLAM", "HYDROPUMP", "POWERWHIP", "AMNESIA", "ENDURE"]
+raw_tutor_moves = ["ANCIENTPOWER", "BIND", "BLOCK", "EARTHPOWER", "GASTROACID", "GIGADRAIN", "HEADBUTT", "MUDSLAP", "PAINSPLIT", "SEEDBOMB", "SNORE", "STEALTHROCK", "STRINGSHOT", "SYNTHESIS", "WORRYSEED", "METEORBEAM", "MIMIC"]
+compatible_egg_groups = ["Water3"]
+steps_to_hatch = 7905
+height = 1.5
+weight = 60.4
+colour = "Green"
+kind = "Barnacle"
+pokedex_entry = "It drags its heavy body along the seafloor. It makes its nest in the shallows of warm seas. Cradily can be seen on beaches when the tide goes out."
+battler_player_y = 7
+battler_enemy_y = 3
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "CRADILY"
+habitat = "Sea"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WRINGOUT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ASTONISH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CONSTRICT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ACID"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "INGRAIN"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "ACID"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "INGRAIN"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "CONFUSERAY"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "ANCIENTPOWER"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "BRINE"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "GIGADRAIN"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "GASTROACID"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "AMNESIA"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "ENERGYBALL"
+
+[[raw_level_up_moves]]
+at_level = "52"
+name = "STOCKPILE"
+
+[[raw_level_up_moves]]
+at_level = "52"
+name = "SWALLOW"
+
+[[raw_level_up_moves]]
+at_level = "52"
+name = "SPITUP"
+
+[[raw_level_up_moves]]
+at_level = "61"
+name = "WRINGOUT"
+
+[base_stats]
+hp = 86
+atk = 81
+def_ = 97
+spa = 81
+spd = 107
+spe = 43
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 2
+spe = 0
+
+[wild_items]
+uncommon = "BIGROOT"

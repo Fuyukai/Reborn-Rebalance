@@ -1,0 +1,95 @@
+name = "Palkia"
+primary_type = "WATER"
+secondary_type = "DRAGON"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 306
+catch_rate = 30
+caught_happiness = 0
+raw_abilities = ["PRESSURE", "TELEPATHY"]
+raw_egg_moves = []
+raw_tms = ["CUT", "DRAGONCLAW", "SURF", "STRENGTH", "ROAR", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "BULKUP", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "FLAMETHROWER", "SANDSTORM", "FIREBLAST", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ROUND", "ECHOEDVOICE", "FOCUSBLAST", "FLING", "SHADOWCLAW", "GIGAIMPACT", "STONEEDGE", "THUNDERWAVE", "PSYCHUP", "BULLDOZE", "ROCKSLIDE", "DRAGONTAIL", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "CONFIDE", "SCARYFACE", "WHIRLPOOL", "BRINE", "AVALANCHE", "BREAKINGSWIPE", "BODYSLAM", "HYDROPUMP", "ENDURE", "AURASPHERE", "POWERGEM", "HEAVYSLAM", "BODYPRESS", "SNOWSCAPE", "CHILLINGWATER", "SWIFT"]
+raw_tutor_moves = ["ANCIENTPOWER", "AQUATAIL", "DRACOMETEOR", "DRAGONPULSE", "EARTHPOWER", "FOCUSPUNCH", "FURYCUTTER", "GRAVITY", "HEADBUTT", "HYPERVOICE", "LIQUIDATION", "MUDSLAP", "OUTRAGE", "SHOCKWAVE", "SNORE", "STOMPINGTANTRUM", "TWISTER", "WATERPULSE", "DUALWINGBEAT", "SCALESHOT", "WAVECRASH", "MIMIC"]
+compatible_egg_groups = ["Undiscovered"]
+steps_to_hatch = 30855
+height = 4.2
+weight = 336.0
+colour = "Purple"
+kind = "Spatial"
+pokedex_entry = "It has the ability to distort space. It is described as a deity in the Sinnoh Region's mythology."
+battler_player_y = 12
+battler_enemy_y = 4
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "PALKIA"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DRAGONBREATH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SCARYFACE"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "WATERPULSE"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "ANCIENTPOWER"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "SLASH"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "POWERGEM"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "AQUARING"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "DRAGONCLAW"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "EARTHPOWER"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "AURASPHERE"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "AQUATAIL"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "SPACIALREND"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "HYDROPUMP"
+
+[base_stats]
+hp = 90
+atk = 120
+def_ = 100
+spa = 150
+spd = 120
+spe = 100
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 3
+spd = 0
+spe = 0
+
+[wild_items]

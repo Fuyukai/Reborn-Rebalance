@@ -1,0 +1,97 @@
+name = "Coalossal"
+primary_type = "ROCK"
+secondary_type = "FIRE"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 255
+catch_rate = 45
+caught_happiness = 50
+raw_abilities = ["STEAMENGINE", "FLAMEBODY"]
+raw_egg_moves = ["EXPLOSION", "MUDSLAP", "BLOCK"]
+raw_tms = ["STRENGTH", "ROCKCLIMB", "HYPERBEAM", "PROTECT", "SOLARBEAM", "SMACKDOWN", "EARTHQUAKE", "REFLECT", "FLAMETHROWER", "SANDSTORM", "FIREBLAST", "ROCKTOMB", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "ROUND", "OVERHEAT", "SCALD", "WILLOWISP", "EXPLOSION", "GIGAIMPACT", "ROCKPOLISH", "STONEEDGE", "GYROBALL", "BULLDOZE", "ROCKSLIDE", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "MEGAPUNCH", "MEGAKICK", "FIRESPIN", "DIG", "SELFDESTRUCT", "SANDTOMB", "ROCKBLAST", "BODYSLAM", "FLAREBLITZ", "SPIKES", "ENDURE", "HEATCRASH", "HEAVYSLAM", "HIGHHORSEPOWER", "BODYPRESS"]
+raw_tutor_moves = ["ANCIENTPOWER", "BLOCK", "EARTHPOWER", "FIREPUNCH", "HEATWAVE", "IRONDEFENSE", "IRONHEAD", "MUDSLAP", "SNORE", "STEALTHROCK", "SCORCHINGSANDS", "METEORBEAM", "MIMIC"]
+compatible_egg_groups = ["Mineral"]
+steps_to_hatch = 3840
+height = 2.8
+weight = 310.5
+colour = "Black"
+kind = "Coal"
+pokedex_entry = "While it's engaged in battle, its mountain of coal will burn bright red, sending off sparks that scorch the surrounding area."
+battler_player_y = 21
+battler_enemy_y = 26
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "COALOSSAL"
+raw_hidden_ability = "FLASHFIRE"
+regional_numbers = 839
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "FLAMECHARGE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FLAMECHARGE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SMOKESCREEN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "RAPIDSPIN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SMACKDOWN"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "ROCKPOLISH"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "ANCIENTPOWER"
+
+[[raw_level_up_moves]]
+at_level = "27"
+name = "INCINERATE"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "STEALTHROCK"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "HEATCRASH"
+
+[[raw_level_up_moves]]
+at_level = "54"
+name = "ROCKBLAST"
+
+[[raw_level_up_moves]]
+at_level = "63"
+name = "BURNUP"
+
+[base_stats]
+hp = 110
+atk = 80
+def_ = 120
+spa = 80
+spd = 90
+spe = 30
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 3
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

@@ -1,0 +1,124 @@
+name = "Duosion"
+primary_type = "PSYCHIC"
+secondary_type = "PSYCHIC"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 130
+catch_rate = 100
+caught_happiness = 70
+raw_abilities = ["OVERCOAT", "MAGICGUARD"]
+raw_egg_moves = []
+raw_tms = ["PSYSHOCK", "CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "THUNDER", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "EMBARGO", "EXPLOSION", "THUNDERWAVE", "GYROBALL", "PSYCHUP", "ROCKSLIDE", "INFESTATION", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "TRICKROOM", "SECRETPOWER", "CONFIDE", "CHARM", "IMPRISON", "POWERSWAP", "GUARDSWAP", "PSYCHICTERRAIN", "ENDURE", "ENCORE", "FUTURESIGHT", "STOREDPOWER"]
+raw_tutor_moves = ["AFTERYOU", "ALLYSWITCH", "ENDEAVOR", "GRAVITY", "HELPINGHAND", "IRONDEFENSE", "MAGICCOAT", "PAINSPLIT", "ROLEPLAY", "SHOCKWAVE", "SIGNALBEAM", "SKILLSWAP", "SNATCH", "SNORE", "TELEKINESIS", "TRICK", "WONDERROOM", "ZENHEADBUTT", "EXPANDINGFORCE", "STEELROLLER", "MIMIC"]
+compatible_egg_groups = ["Amorphous"]
+steps_to_hatch = 5120
+height = 0.6
+weight = 8.0
+colour = "Green"
+kind = "Mitosis"
+pokedex_entry = "When their brains, now divided in two, are thinking the same thoughts, these Pokémon exhibit their maximum power."
+battler_player_y = 27
+battler_enemy_y = 21
+battler_altitude = 5
+form_names = []
+internal_name = "DUOSION"
+raw_hidden_ability = "REGENERATOR"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PSYWAVE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "REFLECT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ROLLOUT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SNATCH"
+
+[[raw_level_up_moves]]
+at_level = "3"
+name = "REFLECT"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "ROLLOUT"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "SNATCH"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "HIDDENPOWER"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "LIGHTSCREEN"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "CHARM"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "RECOVER"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "PSYSHOCK"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "ENDEAVOR"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "FUTURESIGHT"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "PAINSPLIT"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "PSYCHIC"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "SKILLSWAP"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "HEALBLOCK"
+
+[[raw_level_up_moves]]
+at_level = "53"
+name = "WONDERROOM"
+
+[[evolutions]]
+into_name = "REUNICLUS"
+condition = "Level"
+parameter = "41"
+
+[base_stats]
+hp = 65
+atk = 40
+def_ = 50
+spa = 125
+spd = 60
+spe = 30
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 2
+spd = 0
+spe = 0
+
+[wild_items]

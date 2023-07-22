@@ -1,0 +1,135 @@
+name = "Aromatisse"
+primary_type = "FAIRY"
+secondary_type = "FAIRY"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 162
+catch_rate = 200
+caught_happiness = 70
+raw_abilities = ["HEALER", "AROMAVEIL"]
+raw_egg_moves = []
+raw_tms = ["PSYSHOCK", "CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "PSYCHIC", "DOUBLETEAM", "REFLECT", "TORMENT", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "ENERGYBALL", "CHARGEBEAM", "GIGAIMPACT", "GYROBALL", "PSYCHUP", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "TRICKROOM", "SECRETPOWER", "DAZZLINGGLEAM", "CONFIDE", "CHARM", "FAKETEARS", "DRAININGKISS", "MISTYTERRAIN", "METRONOME", "ENDURE", "ENCORE", "NASTYPLOT", "VENOMDRENCH"]
+raw_tutor_moves = ["AFTERYOU", "ALLYSWITCH", "COVET", "DRAINPUNCH", "ENDEAVOR", "HEALBELL", "HELPINGHAND", "MAGICCOAT", "SKILLSWAP", "SNORE", "TELEKINESIS", "MISTYEXPLOSION", "MIMIC"]
+compatible_egg_groups = ["Fairy"]
+steps_to_hatch = 5120
+height = 0.8
+weight = 15.5
+colour = "Pink"
+kind = "Fragrance"
+pokedex_entry = "Its scent is so overpowering that, unless a Trainer happens to really enjoy the smell, he or she will have a hard time walking alongside it."
+battler_player_y = 20
+battler_enemy_y = 15
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "AROMATISSE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "AROMATICMIST"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HEALPULSE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SWEETSCENT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FAIRYWIND"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SWEETKISS"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ODORSLEUTH"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "SWEETKISS"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "ODORSLEUTH"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "ECHOEDVOICE"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "CALMMIND"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "DRAININGKISS"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "AROMATHERAPY"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "ATTRACT"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "MOONBLAST"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "CHARM"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "FLAIL"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "MISTYTERRAIN"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "SKILLSWAP"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "PSYCHIC"
+
+[[raw_level_up_moves]]
+at_level = "53"
+name = "DISARMINGVOICE"
+
+[[raw_level_up_moves]]
+at_level = "57"
+name = "REFLECT"
+
+[[raw_level_up_moves]]
+at_level = "64"
+name = "PSYCHUP"
+
+[[raw_level_up_moves]]
+at_level = "68"
+name = "MISTYEXPLOSION"
+
+[base_stats]
+hp = 101
+atk = 72
+def_ = 72
+spa = 99
+spd = 89
+spe = 29
+
+[ev_yield]
+hp = 2
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

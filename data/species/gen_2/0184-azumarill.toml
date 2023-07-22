@@ -1,0 +1,121 @@
+name = "Azumarill"
+primary_type = "WATER"
+secondary_type = "FAIRY"
+gender_ratio = "Female50Percent"
+growth_rate = "Fast"
+exp_yield = 189
+catch_rate = 75
+caught_happiness = 70
+raw_abilities = ["THICKFAT", "HUGEPOWER"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "SURF", "STRENGTH", "WATERFALL", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "BRICKBREAK", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "ROUND", "FOCUSBLAST", "SCALD", "FLING", "BRUTALSWING", "GIGAIMPACT", "BULLDOZE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "CHARM", "WHIRLPOOL", "FAKETEARS", "MUDSHOT", "DRAININGKISS", "MISTYTERRAIN", "BODYSLAM", "HYDROPUMP", "AMNESIA", "ENDURE", "ENCORE", "FUTURESIGHT", "MUDDYWATER", "PLAYROUGH", "ICESPINNER", "SNOWSCAPE", "TRAILBLAZE", "CHILLINGWATER", "SWIFT"]
+raw_tutor_moves = ["AQUATAIL", "BOUNCE", "COVET", "FOCUSPUNCH", "HEADBUTT", "HELPINGHAND", "HYPERVOICE", "ICEPUNCH", "ICYWIND", "IRONTAIL", "KNOCKOFF", "LIQUIDATION", "MUDSLAP", "ROLLOUT", "SNORE", "SUPERPOWER", "WATERPULSE", "STEELROLLER", "MISTYEXPLOSION", "MIMIC"]
+compatible_egg_groups = ["Water1", "Fairy"]
+steps_to_hatch = 2805
+height = 0.8
+weight = 28.5
+colour = "Blue"
+kind = "Aqua Rabbit"
+pokedex_entry = "It lives in water virtually all day long. Its body color and pattern act as camouflage that makes it tough for enemies to spot in water."
+battler_player_y = 19
+battler_enemy_y = 13
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "AZUMARILL"
+raw_hidden_ability = "SAPSIPPER"
+habitat = "WatersEdge"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WATERGUN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TAILWHIP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WATERSPORT"
+
+[[raw_level_up_moves]]
+at_level = "2"
+name = "TAILWHIP"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "WATERSPORT"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "WATERGUN"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "DEFENSECURL"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "ROLLOUT"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "BUBBLEBEAM"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "HELPINGHAND"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "AQUATAIL"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "PLAYROUGH"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "AQUARING"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "RAINDANCE"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "DOUBLEEDGE"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "SUPERPOWER"
+
+[[raw_level_up_moves]]
+at_level = "55"
+name = "HYDROPUMP"
+
+[[raw_level_up_moves]]
+at_level = "60"
+name = "MISTYEXPLOSION"
+
+[base_stats]
+hp = 100
+atk = 50
+def_ = 80
+spa = 60
+spd = 80
+spe = 50
+
+[ev_yield]
+hp = 3
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

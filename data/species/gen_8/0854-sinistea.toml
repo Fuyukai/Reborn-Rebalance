@@ -1,0 +1,96 @@
+name = "Sinistea"
+primary_type = "GHOST"
+secondary_type = "GHOST"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 62
+catch_rate = 120
+caught_happiness = 50
+raw_abilities = ["WEAKARMOR", "CURSEDBODY"]
+raw_egg_moves = []
+raw_tms = ["PSYSHOCK", "PROTECT", "PSYCHIC", "SHADOWBALL", "FACADE", "REST", "ROUND", "WILLOWISP", "PAYBACK", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "DARKPULSE", "IMPRISON", "HEX", "PHANTOMFORCE", "METRONOME", "ENDURE", "BATONPASS", "NASTYPLOT", "STOREDPOWER"]
+raw_tutor_moves = ["ALLYSWITCH", "FOULPLAY", "GIGADRAIN", "SNORE", "SUCKERPUNCH", "TRICK", "WONDERROOM", "POLTERGEIST", "MIMIC", "CELEBRATE"]
+compatible_egg_groups = ["Mineral", "Amorphous"]
+steps_to_hatch = 5120
+height = 0.1
+weight = 0.2
+colour = "Purple"
+kind = "Black Tea"
+pokedex_entry = "The teacup in which this Pokémon makes its home is a famous piece of antique tableware. Many forgeries are in circulation."
+battler_player_y = 21
+battler_enemy_y = 26
+battler_altitude = 0
+form_names = []
+internal_name = "SINISTEA"
+regional_numbers = 854
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WITHDRAW"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ASTONISH"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "AROMATICMIST"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "MEGADRAIN"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "PROTECT"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "SUCKERPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "AROMATHERAPY"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "GIGADRAIN"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "NASTYPLOT"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "SHADOWBALL"
+
+[[raw_level_up_moves]]
+at_level = "54"
+name = "MEMENTO"
+
+[[raw_level_up_moves]]
+at_level = "60"
+name = "SHELLSMASH"
+
+[[evolutions]]
+into_name = "POLTEAGEIST"
+condition = "Item"
+parameter = "CHIPPEDPOT"
+
+[base_stats]
+hp = 40
+atk = 45
+def_ = 45
+spa = 74
+spd = 54
+spe = 50
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 1
+spd = 0
+spe = 0
+
+[wild_items]

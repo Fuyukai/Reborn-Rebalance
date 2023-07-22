@@ -1,0 +1,105 @@
+name = "Omanyte"
+primary_type = "ROCK"
+secondary_type = "WATER"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Medium"
+exp_yield = 71
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["SWIFTSWIM", "SHELLARMOR"]
+raw_egg_moves = ["AURORABEAM", "BIDE", "BUBBLEBEAM", "HAZE", "KNOCKOFF", "MUDDYWATER", "REFLECTTYPE", "SLAM", "SPIKES", "SUPERSONIC", "TOXICSPIKES", "WATERPULSE", "WHIRLPOOL", "WRINGOUT"]
+raw_tms = ["SURF", "WATERFALL", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "SMACKDOWN", "RETURN", "DOUBLETEAM", "REFLECT", "SANDSTORM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "SCALD", "ROCKPOLISH", "GYROBALL", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "WHIRLPOOL", "ROCKBLAST", "MUDSHOT", "BRINE", "BODYSLAM", "HYDROPUMP", "SPIKES", "ENDURE", "MUDDYWATER", "TOXICSPIKES"]
+raw_tutor_moves = ["ANCIENTPOWER", "BIND", "EARTHPOWER", "HEADBUTT", "ICYWIND", "IRONDEFENSE", "KNOCKOFF", "MUDSLAP", "SNORE", "STEALTHROCK", "WATERPULSE", "METEORBEAM", "MIMIC"]
+compatible_egg_groups = ["Water1", "Water3"]
+steps_to_hatch = 7905
+height = 0.4
+weight = 7.5
+colour = "Blue"
+kind = "Spiral"
+pokedex_entry = "An ancient and long-since-extinct Pokémon that has been regenerated from fossils. If attacked, it withdraws into its hard shell."
+battler_player_y = 31
+battler_enemy_y = 25
+battler_altitude = 0
+form_names = []
+internal_name = "OMANYTE"
+raw_hidden_ability = "WEAKARMOR"
+habitat = "Sea"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CONSTRICT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WITHDRAW"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "WATERGUN"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "ROLLOUT"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "MUDSHOT"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "BRINE"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "PROTECT"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "ANCIENTPOWER"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "TICKLE"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "ROCKBLAST"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "SHELLSMASH"
+
+[[raw_level_up_moves]]
+at_level = "55"
+name = "HYDROPUMP"
+
+[[evolutions]]
+into_name = "OMASTAR"
+condition = "Level"
+parameter = "40"
+
+[base_stats]
+hp = 35
+atk = 40
+def_ = 100
+spa = 90
+spd = 55
+spe = 35
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 1
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

@@ -6,7 +6,6 @@ import jinja2
 
 from reborn_rebalance.pbs.catalog import EssentialsCatalog
 from reborn_rebalance.pbs.move import MoveCategory
-from reborn_rebalance.pbs.serialisation import load_all_species_from_yaml
 
 
 # todo: hardcode the paths less
@@ -27,7 +26,7 @@ def main():
     (output_dir / "species").mkdir(exist_ok=True, parents=True)
     (output_dir / "species" / "specific").mkdir(exist_ok=True, parents=True)
 
-    catalog = EssentialsCatalog.load_from_yaml(Path("./data"))
+    catalog = EssentialsCatalog.load_from_toml(Path("./data"))
 
     loader = jinja2.FileSystemLoader(searchpath=Path("./templates").absolute())
     env = jinja2.Environment(loader=loader)

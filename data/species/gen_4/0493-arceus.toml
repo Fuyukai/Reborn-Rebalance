@@ -1,0 +1,111 @@
+name = "Arceus"
+primary_type = "NORMAL"
+secondary_type = "NORMAL"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 324
+catch_rate = 3
+caught_happiness = 0
+raw_abilities = ["MULTITYPE"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "CUT", "DRAGONCLAW", "FLY", "PSYSHOCK", "SURF", "CALMMIND", "STRENGTH", "ROAR", "WATERFALL", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "FLASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "PSYCHIC", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "SLUDGEBOMB", "SANDSTORM", "FIREBLAST", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ROUND", "ECHOEDVOICE", "OVERHEAT", "FOCUSBLAST", "ENERGYBALL", "CHARGEBEAM", "QUASH", "WILLOWISP", "SHADOWCLAW", "PAYBACK", "GIGAIMPACT", "STONEEDGE", "THUNDERWAVE", "SWORDSDANCE", "PSYCHUP", "BULLDOZE", "ROCKSLIDE", "XSCISSOR", "POISONJAB", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "TRICKROOM", "SECRETPOWER", "SNARL", "DARKPULSE", "CONFIDE", "WHIRLPOOL", "BULLETSEED", "BRINE", "AVALANCHE", "ENDURE", "FUTURESIGHT", "COSMICPOWER", "RETALIATE", "TRAILBLAZE", "CHILLINGWATER", "SWIFT"]
+raw_tutor_moves = ["ANCIENTPOWER", "AQUATAIL", "DEFOG", "DRACOMETEOR", "DRAGONPULSE", "EARTHPOWER", "FURYCUTTER", "GIGADRAIN", "GRAVITY", "HEADBUTT", "HEATWAVE", "HYPERVOICE", "ICYWIND", "IRONDEFENSE", "IRONHEAD", "IRONTAIL", "LASERFOCUS", "LASTRESORT", "LIQUIDATION", "MAGICCOAT", "MUDSLAP", "OMINOUSWIND", "OUTRAGE", "RECYCLE", "SHOCKWAVE", "SIGNALBEAM", "SNORE", "STEALTHROCK", "TAILWIND", "TELEKINESIS", "TRICK", "TWISTER", "WATERPULSE", "ZENHEADBUTT", "STEELBEAM", "EXTREMESPEED", "MIMIC"]
+compatible_egg_groups = ["Undiscovered"]
+steps_to_hatch = 30855
+height = 3.2
+weight = 320.0
+colour = "Gray"
+kind = "Alpha"
+pokedex_entry = "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms."
+battler_player_y = 12
+battler_enemy_y = 6
+battler_altitude = 0
+evolutions = []
+form_names = ["Normal Forme", "Fighting Forme", "Flying Forme", "Poison Forme", "Ground Forme", "Rock Forme", "Bug Forme", "Ghost Forme", "Steel Forme", "Unknown Forme", "Fire Forme", "Water Forme", "Grass Forme", "Electric Forme", "Psychic Forme", "Ice Forme", "Dragon Forme", "Dark Forme", "Fairy Forme"]
+internal_name = "ARCEUS"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SHADOWFORCE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ROAROFTIME"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SPACIALREND"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SEISMICTOSS"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "COSMICPOWER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "NATURALGIFT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PUNISHMENT"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "GRAVITY"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "EARTHPOWER"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "HYPERVOICE"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "EXTREMESPEED"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "REFRESH"
+
+[[raw_level_up_moves]]
+at_level = "60"
+name = "FUTURESIGHT"
+
+[[raw_level_up_moves]]
+at_level = "70"
+name = "RECOVER"
+
+[[raw_level_up_moves]]
+at_level = "80"
+name = "HYPERBEAM"
+
+[[raw_level_up_moves]]
+at_level = "90"
+name = "PERISHSONG"
+
+[[raw_level_up_moves]]
+at_level = "100"
+name = "JUDGMENT"
+
+[base_stats]
+hp = 120
+atk = 120
+def_ = 120
+spa = 120
+spd = 120
+spe = 120
+
+[ev_yield]
+hp = 3
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

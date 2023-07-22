@@ -1,0 +1,116 @@
+name = "Sigilyph"
+primary_type = "PSYCHIC"
+secondary_type = "FLYING"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 172
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["WONDERSKIN", "MAGICGUARD"]
+raw_egg_moves = ["ANCIENTPOWER", "FUTURESIGHT", "PSYCHOSHIFT", "ROOST", "SKILLSWAP", "STEELWING", "STOREDPOWER", "LUMINACRASH"]
+raw_tms = ["FLY", "PSYSHOCK", "CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "ICEBEAM", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "SMACKDOWN", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "STEELWING", "ENERGYBALL", "CHARGEBEAM", "GIGAIMPACT", "THUNDERWAVE", "PSYCHUP", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "TRICKROOM", "SECRETPOWER", "DARKPULSE", "DAZZLINGGLEAM", "CONFIDE", "IMPRISON", "POWERSWAP", "SPEEDSWAP", "PSYCHOCUT", "AIRSLASH", "ENDURE", "FUTURESIGHT", "COSMICPOWER", "STOREDPOWER", "SWIFT"]
+raw_tutor_moves = ["AIRCUTTER", "ANCIENTPOWER", "DEFOG", "GRAVITY", "HEATWAVE", "ICYWIND", "MAGICCOAT", "MAGICROOM", "SHOCKWAVE", "SIGNALBEAM", "SKILLSWAP", "SKYATTACK", "SNORE", "TAILWIND", "TELEKINESIS", "TRICK", "ZENHEADBUTT", "DUALWINGBEAT", "EXPANDINGFORCE", "MYSTICALPOWER", "ESPERWING", "MIMIC"]
+compatible_egg_groups = ["Flying"]
+steps_to_hatch = 5120
+height = 1.4
+weight = 14.0
+colour = "Black"
+kind = "Avianoid"
+pokedex_entry = "The guardians of an ancient city, they use their psychic power to attack enemies that invade their territory."
+battler_player_y = 4
+battler_enemy_y = 11
+battler_altitude = 17
+evolutions = []
+form_names = []
+internal_name = "SIGILYPH"
+raw_hidden_ability = "TINTEDLENS"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GUST"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MIRACLEEYE"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "HYPNOSIS"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "PSYWAVE"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "TAILWIND"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "WHIRLWIND"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "PSYBEAM"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "AIRCUTTER"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "LIGHTSCREEN"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "REFLECT"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "SYNCHRONOISE"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "MIRRORMOVE"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "GRAVITY"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "AIRSLASH"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "PSYCHIC"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "COSMICPOWER"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "SKYATTACK"
+
+[[raw_level_up_moves]]
+at_level = "55"
+name = "LUMINACRASH"
+
+[base_stats]
+hp = 72
+atk = 58
+def_ = 80
+spa = 103
+spd = 80
+spe = 97
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 2
+spd = 0
+spe = 0
+
+[wild_items]

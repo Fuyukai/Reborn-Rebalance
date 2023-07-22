@@ -1,0 +1,111 @@
+name = "Breloom"
+primary_type = "GRASS"
+secondary_type = "FIGHTING"
+gender_ratio = "Female50Percent"
+growth_rate = "Fluctuating"
+exp_yield = 161
+catch_rate = 90
+caught_happiness = 70
+raw_abilities = ["EFFECTSPORE", "POISONHEAL"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "CUT", "STRENGTH", "TOXIC", "ROCKSMASH", "BULKUP", "FLASH", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "BRICKBREAK", "DOUBLETEAM", "SLUDGEBOMB", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "LOWSWEEP", "ROUND", "FOCUSBLAST", "ENERGYBALL", "FALSESWIPE", "FLING", "GIGAIMPACT", "STONEEDGE", "SWORDSDANCE", "ROCKSLIDE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "CHARM", "REVENGE", "FAKETEARS", "BULLETSEED", "BODYSLAM", "CLOSECOMBAT", "REVERSAL", "ENDURE", "HEAVYSLAM", "RETALIATE", "POUNCE"]
+raw_tutor_moves = ["DRAINPUNCH", "FOCUSPUNCH", "FURYCUTTER", "GIGADRAIN", "HEADBUTT", "HELPINGHAND", "IRONTAIL", "LASERFOCUS", "MUDSLAP", "SEEDBOMB", "SNATCH", "SNORE", "SUPERPOWER", "SYNTHESIS", "THUNDERPUNCH", "VACUUMWAVE", "WORRYSEED", "MIMIC"]
+compatible_egg_groups = ["Fairy", "Grass"]
+steps_to_hatch = 4080
+height = 1.2
+weight = 39.2
+colour = "Green"
+kind = "Mushroom"
+pokedex_entry = "It scatters spores from holes in the cap on its head. It loves warm and humid climates. It feeds on trees and plants in fields and forests."
+battler_player_y = 16
+battler_enemy_y = 11
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "BRELOOM"
+raw_hidden_ability = "TECHNICIAN"
+habitat = "Forest"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "MACHPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ABSORB"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "STUNSPORE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEECHSEED"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "STUNSPORE"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "LEECHSEED"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "MEGADRAIN"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "HEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "FEINT"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "COUNTER"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "FORCEPALM"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "MINDREADER"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "SKYUPPERCUT"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "SEEDBOMB"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "DYNAMICPUNCH"
+
+[base_stats]
+hp = 60
+atk = 130
+def_ = 80
+spa = 60
+spd = 60
+spe = 70
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+common = "TINYMUSHROOM"
+uncommon = "BIGMUSHROOM"

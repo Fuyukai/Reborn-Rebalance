@@ -1,0 +1,100 @@
+name = "Lechonk"
+primary_type = "NORMAL"
+secondary_type = "NORMAL"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 50
+catch_rate = 255
+caught_happiness = 50
+raw_abilities = ["AROMAVEIL", "GLUTTONY"]
+raw_egg_moves = ["ENDEAVOR", "SPITUP", "STOCKPILE", "STUFFCHEEKS", "SWALLOW"]
+raw_tms = ["TOXIC", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "THIEF", "PAYBACK", "BULLDOZE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "MEGAKICK", "DIG", "BULLETSEED", "MUDSHOT", "BODYSLAM", "ENDURE", "HEATCRASH", "PLAYROUGH", "HIGHHORSEPOWER", "TRAILBLAZE", "CHILLINGWATER"]
+raw_tutor_moves = ["COVET", "HEADBUTT", "HELPINGHAND", "HYPERVOICE", "IRONHEAD", "MUDSLAP", "SEEDBOMB", "SNORE", "ZENHEADBUTT"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 3855
+height = 0.5
+weight = 10.2
+colour = "Gray"
+kind = "Hog"
+pokedex_entry = "It searches for food all day. It possesses a keen sense of smell but doesn’t use it for anything other than foraging."
+battler_player_y = 10
+battler_enemy_y = 12
+battler_altitude = 0
+form_names = []
+internal_name = "LECHONK"
+raw_hidden_ability = "THICKFAT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TAILWHIP"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "DISARMINGVOICE"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "ECHOEDVOICE"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "MUDSHOT"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "COVET"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "DIG"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "HEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "YAWN"
+
+[[raw_level_up_moves]]
+at_level = "27"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "WORKUP"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "UPROAR"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "DOUBLEEDGE"
+
+[[evolutions]]
+into_name = "OINKOLOGNE"
+condition = "Level"
+parameter = "18"
+
+[base_stats]
+hp = 54
+atk = 45
+def_ = 40
+spa = 35
+spd = 45
+spe = 35
+
+[ev_yield]
+hp = 1
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

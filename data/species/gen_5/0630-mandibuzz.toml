@@ -1,0 +1,132 @@
+name = "Mandibuzz"
+primary_type = "DARK"
+secondary_type = "FLYING"
+gender_ratio = "AlwaysFemale"
+growth_rate = "Slow"
+exp_yield = 179
+catch_rate = 60
+caught_happiness = 35
+raw_abilities = ["BIGPECKS", "OVERCOAT"]
+raw_egg_moves = []
+raw_tms = ["CUT", "FLY", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "FRUSTRATION", "RETURN", "SHADOWBALL", "DOUBLETEAM", "ROCKTOMB", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "STEELWING", "EMBARGO", "PAYBACK", "GIGAIMPACT", "PSYCHUP", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "SNARL", "DARKPULSE", "CONFIDE", "SCARYFACE", "FAKETEARS", "ASSURANCE", "AIRSLASH", "BRAVEBIRD", "ENDURE", "NASTYPLOT", "RETALIATE", "SWIFT"]
+raw_tutor_moves = ["AIRCUTTER", "BLOCK", "DEFOG", "FOULPLAY", "HEATWAVE", "IRONDEFENSE", "KNOCKOFF", "SKYATTACK", "SNATCH", "SNORE", "TAILWIND", "DUALWINGBEAT", "LASHOUT", "MIMIC"]
+compatible_egg_groups = ["Flying"]
+steps_to_hatch = 5120
+height = 1.2
+weight = 39.5
+colour = "Brown"
+kind = "Bone Vulture"
+pokedex_entry = "Watching from the sky, they swoop to strike weakened Pokémon on the ground. They decorate themselves with bones."
+battler_player_y = 18
+battler_enemy_y = 20
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "MANDIBUZZ"
+raw_hidden_ability = "WEAKARMOR"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "BONERUSH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MIRRORMOVE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BRAVEBIRD"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WHIRLWIND"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GUST"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FURYATTACK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PLUCK"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "FURYATTACK"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "PLUCK"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "NASTYPLOT"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "FLATTER"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "FEINTATTACK"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "PUNISHMENT"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "DEFOG"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "TAILWIND"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "AIRSLASH"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "DARKPULSE"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "EMBARGO"
+
+[[raw_level_up_moves]]
+at_level = "57"
+name = "WHIRLWIND"
+
+[[raw_level_up_moves]]
+at_level = "63"
+name = "BRAVEBIRD"
+
+[[raw_level_up_moves]]
+at_level = "70"
+name = "MIRRORMOVE"
+
+[base_stats]
+hp = 110
+atk = 65
+def_ = 105
+spa = 55
+spd = 95
+spe = 80
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 2
+spd = 0
+spe = 0
+
+[wild_items]

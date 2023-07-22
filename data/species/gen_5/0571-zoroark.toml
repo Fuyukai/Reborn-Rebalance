@@ -1,0 +1,131 @@
+name = "Zoroark"
+primary_type = "DARK"
+secondary_type = "DARK"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+exp_yield = 179
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["ILLUSION"]
+raw_egg_moves = []
+raw_tms = ["CUT", "CALMMIND", "ROAR", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "SHADOWBALL", "DOUBLETEAM", "FLAMETHROWER", "SLUDGEBOMB", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "LOWSWEEP", "ROUND", "FOCUSBLAST", "FLING", "EMBARGO", "SHADOWCLAW", "PAYBACK", "GIGAIMPACT", "SWORDSDANCE", "PSYCHUP", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "SNARL", "DARKPULSE", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "SCARYFACE", "REVENGE", "IMPRISON", "FAKETEARS", "ASSURANCE", "HEX", "AGILITY", "ENDURE", "ENCORE", "NASTYPLOT", "RETALIATE", "SNOWSCAPE"]
+raw_tutor_moves = ["BOUNCE", "COVET", "FOULPLAY", "HYPERVOICE", "KNOCKOFF", "LASERFOCUS", "LOWKICK", "SNATCH", "SNORE", "SPITE", "THROATCHOP", "TRICK", "UPROAR", "BURNINGJEALOUSY", "SKITTERSMACK", "LASHOUT", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5120
+height = 1.6
+weight = 81.1
+colour = "Gray"
+kind = "Illusion Fox"
+pokedex_entry = "Each has the ability to fool a large group of people simultaneously. They protect their lair with illusory scenery."
+battler_player_y = 17
+battler_enemy_y = 22
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "ZOROARK"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "NIGHTSLASH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "NIGHTDAZE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "IMPRISON"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "UTURN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SCRATCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PURSUIT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HONECLAWS"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "PURSUIT"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "HONECLAWS"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "FURYSWIPES"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "FEINTATTACK"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "SCARYFACE"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "TAUNT"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "FOULPLAY"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "TORMENT"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "EMBARGO"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "PUNISHMENT"
+
+[[raw_level_up_moves]]
+at_level = "54"
+name = "NASTYPLOT"
+
+[[raw_level_up_moves]]
+at_level = "59"
+name = "IMPRISON"
+
+[[raw_level_up_moves]]
+at_level = "64"
+name = "NIGHTDAZE"
+
+[base_stats]
+hp = 60
+atk = 105
+def_ = 60
+spa = 120
+spd = 60
+spe = 105
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 2
+spd = 0
+spe = 0
+
+[wild_items]

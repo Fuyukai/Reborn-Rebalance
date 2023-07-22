@@ -1,0 +1,125 @@
+name = "Krookodile"
+primary_type = "GROUND"
+secondary_type = "DARK"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 234
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["INTIMIDATE", "MOXIE"]
+raw_egg_moves = []
+raw_tms = ["CUT", "DRAGONCLAW", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "BULKUP", "ROCKCLIMB", "HIDDENPOWER", "TAUNT", "HYPERBEAM", "PROTECT", "FRUSTRATION", "SMACKDOWN", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "SLUDGEBOMB", "SANDSTORM", "ROCKTOMB", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "LOWSWEEP", "ROUND", "FOCUSBLAST", "FLING", "BRUTALSWING", "EMBARGO", "SHADOWCLAW", "PAYBACK", "GIGAIMPACT", "STONEEDGE", "BULLDOZE", "ROCKSLIDE", "DRAGONTAIL", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "SNARL", "DARKPULSE", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "SCARYFACE", "BEATUP", "REVENGE", "SANDTOMB", "ASSURANCE", "THUNDERFANG", "FIREFANG", "CRUNCH", "HYDROPUMP", "CLOSECOMBAT", "FOCUSENERGY", "ENDURE", "DARKESTLARIAT", "HIGHHORSEPOWER", "RETALIATE"]
+raw_tutor_moves = ["AQUATAIL", "BLOCK", "DRAGONPULSE", "EARTHPOWER", "FOCUSPUNCH", "FOULPLAY", "IRONTAIL", "KNOCKOFF", "LOWKICK", "OUTRAGE", "SNATCH", "SNORE", "SPITE", "STEALTHROCK", "STOMPINGTANTRUM", "SUPERPOWER", "THROATCHOP", "UPROAR", "SCORCHINGSANDS", "SKITTERSMACK", "SCALESHOT", "LASHOUT", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5120
+height = 1.5
+weight = 96.3
+colour = "Red"
+kind = "Intimidation"
+pokedex_entry = "It can expand the focus of its eyes, enabling it to see objects in the far distance as if it were using binoculars."
+battler_player_y = 9
+battler_enemy_y = 17
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "KROOKODILE"
+raw_hidden_ability = "ANGERPOINT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POWERTRIP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "RAGE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SANDATTACK"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "SANDATTACK"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "TORMENT"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "SANDTOMB"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "ASSURANCE"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "MUDSLAP"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "EMBARGO"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "SWAGGER"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "DIG"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "SCARYFACE"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "FOULPLAY"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "SANDSTORM"
+
+[[raw_level_up_moves]]
+at_level = "54"
+name = "EARTHQUAKE"
+
+[[raw_level_up_moves]]
+at_level = "60"
+name = "OUTRAGE"
+
+[base_stats]
+hp = 95
+atk = 117
+def_ = 80
+spa = 65
+spd = 70
+spe = 92
+
+[ev_yield]
+hp = 0
+atk = 3
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "BLACKGLASSES"

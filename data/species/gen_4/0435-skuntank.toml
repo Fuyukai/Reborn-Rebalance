@@ -1,0 +1,128 @@
+name = "Skuntank"
+primary_type = "POISON"
+secondary_type = "DARK"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 168
+catch_rate = 60
+caught_happiness = 70
+raw_abilities = ["STENCH", "AFTERMATH"]
+raw_egg_moves = []
+raw_tms = ["CUT", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "SHADOWBALL", "DOUBLETEAM", "FLAMETHROWER", "SLUDGEBOMB", "FIREBLAST", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "EXPLOSION", "SHADOWCLAW", "PAYBACK", "GIGAIMPACT", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "SNARL", "DARKPULSE", "CONFIDE", "FIRESPIN", "DIG", "SCREECH", "SCARYFACE", "ASSURANCE", "CRUNCH", "HEX", "TAILSLAP", "FOCUSENERGY", "ENDURE", "NASTYPLOT", "PLAYROUGH", "VENOMDRENCH", "TRAILBLAZE", "SWIFT"]
+raw_tutor_moves = ["DEFOG", "FOULPLAY", "FURYCUTTER", "HEADBUTT", "IRONTAIL", "MUDSLAP", "SNATCH", "SNORE", "SUCKERPUNCH", "THROATCHOP", "BURNINGJEALOUSY", "CORROSIVEGAS", "LASHOUT", "MIMIC", "POISONTAIL"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5355
+height = 1.0
+weight = 38.0
+colour = "Purple"
+kind = "Skunk"
+pokedex_entry = "It sprays a vile-smelling fluid from the tip of its tail to attack. Its range is over 160 feet."
+battler_player_y = 16
+battler_enemy_y = 18
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "SKUNTANK"
+raw_hidden_ability = "KEENEYE"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "FLAMETHROWER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SCRATCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FOCUSENERGY"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POISONGAS"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SCREECH"
+
+[[raw_level_up_moves]]
+at_level = "3"
+name = "POISONGAS"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "SCREECH"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "FURYSWIPES"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "SMOKESCREEN"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "FEINT"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "ACIDSPRAY"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "SLASH"
+
+[[raw_level_up_moves]]
+at_level = "27"
+name = "TOXIC"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "NIGHTSLASH"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "MEMENTO"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "VENOMDRENCH"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "SUCKERPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "BELCH"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "EXPLOSION"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "CORROSIVEGAS"
+
+[base_stats]
+hp = 103
+atk = 93
+def_ = 67
+spa = 71
+spd = 61
+spe = 84
+
+[ev_yield]
+hp = 2
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

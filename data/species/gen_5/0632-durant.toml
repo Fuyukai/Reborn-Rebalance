@@ -1,0 +1,112 @@
+name = "Durant"
+primary_type = "BUG"
+secondary_type = "STEEL"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 169
+catch_rate = 90
+caught_happiness = 70
+raw_abilities = ["SWARM", "HUSTLE"]
+raw_egg_moves = ["BATONPASS", "ENDURE", "FEINTATTACK", "ROCKCLIMB", "SCREECH", "THUNDERFANG"]
+raw_tms = ["CUT", "STRENGTH", "TOXIC", "ROCKSMASH", "ROCKCLIMB", "HIDDENPOWER", "PROTECT", "FRUSTRATION", "RETURN", "DOUBLETEAM", "SANDSTORM", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "SHADOWCLAW", "GIGAIMPACT", "ROCKPOLISH", "STONEEDGE", "THUNDERWAVE", "STRUGGLEBUG", "ROCKSLIDE", "XSCISSOR", "INFESTATION", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "CONFIDE", "DIG", "SCREECH", "BEATUP", "THUNDERFANG", "CRUNCH", "FLAREBLITZ", "AGILITY", "ENDURE", "BATONPASS", "RETALIATE"]
+raw_tutor_moves = ["BUGBITE", "ENDEAVOR", "FURYCUTTER", "HELPINGHAND", "IRONDEFENSE", "IRONHEAD", "SNORE", "STOMPINGTANTRUM", "SUPERPOWER", "SKITTERSMACK", "STEELBEAM", "MIMIC"]
+compatible_egg_groups = ["Bug"]
+steps_to_hatch = 5120
+height = 0.3
+weight = 33.0
+colour = "Gray"
+kind = "Iron Ant"
+pokedex_entry = "Durant dig nests in mountains. They build their complicated, interconnected tunnels in mazes."
+battler_player_y = 32
+battler_enemy_y = 39
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "DURANT"
+raw_hidden_ability = "TRUANT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "METALSOUND"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GUILLOTINE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "VICEGRIP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SANDATTACK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FURYCUTTER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "METALCLAW"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "BUGBITE"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "IRONHEAD"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "DIG"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "ENTRAINMENT"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "XSCISSOR"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "IRONDEFENSE"
+
+[[raw_level_up_moves]]
+at_level = "51"
+name = "GUILLOTINE"
+
+[[raw_level_up_moves]]
+at_level = "56"
+name = "METALSOUND"
+
+[base_stats]
+hp = 58
+atk = 109
+def_ = 112
+spa = 48
+spd = 48
+spe = 109
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 2
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

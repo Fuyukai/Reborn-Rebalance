@@ -1,0 +1,95 @@
+name = "Quaxly"
+primary_type = "WATER"
+secondary_type = "WATER"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+exp_yield = 63
+catch_rate = 45
+caught_happiness = 50
+raw_abilities = ["TORRENT", "MOXIE"]
+raw_egg_moves = ["DETECT", "LASTRESORT", "RAPIDSPIN", "ROOST"]
+raw_tms = ["SURF", "TOXIC", "DIVE", "HAIL", "HIDDENPOWER", "PROTECT", "RAINDANCE", "ROOST", "FRUSTRATION", "RETURN", "DOUBLETEAM", "AERIALACE", "FACADE", "REST", "ATTRACT", "SCALD", "ACROBATICS", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "WHIRLPOOL", "BRINE", "AIRSLASH", "MISTYTERRAIN", "HYDROPUMP", "BRAVEBIRD", "ENDURE", "BATONPASS", "ENCORE", "CHILLINGWATER", "SWIFT"]
+raw_tutor_moves = ["AIRCUTTER", "HELPINGHAND", "LIQUIDATION", "LOWKICK", "WATERPLEDGE"]
+compatible_egg_groups = ["Flying", "Water1"]
+steps_to_hatch = 5140
+height = 0.5
+weight = 6.1
+colour = "White"
+kind = "Duckling"
+pokedex_entry = "Its strong legs let it easily swim around in even fast-flowing rivers. It likes to keep things tidy and is prone to overthinking things."
+battler_player_y = 16
+battler_enemy_y = 12
+battler_altitude = 0
+form_names = []
+internal_name = "QUAXLY"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POUND"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WATERGUN"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "WORKUP"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "WINGATTACK"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "AQUAJET"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "DOUBLEHIT"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "AQUACUTTER"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "AIRSLASH"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "FOCUSENERGY"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "ACROBATICS"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "LIQUIDATION"
+
+[[evolutions]]
+into_name = "QUAXWELL"
+condition = "Level"
+parameter = "16"
+
+[base_stats]
+hp = 55
+atk = 65
+def_ = 45
+spa = 50
+spd = 45
+spe = 50
+
+[ev_yield]
+hp = 0
+atk = 1
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

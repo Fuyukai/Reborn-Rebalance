@@ -1,0 +1,92 @@
+name = "Honchkrow"
+primary_type = "DARK"
+secondary_type = "FLYING"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 177
+catch_rate = 30
+caught_happiness = 35
+raw_abilities = ["INSOMNIA", "SUPERLUCK"]
+raw_egg_moves = []
+raw_tms = ["FLY", "CALMMIND", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "FRUSTRATION", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "STEELWING", "QUASH", "EMBARGO", "PAYBACK", "GIGAIMPACT", "THUNDERWAVE", "PSYCHUP", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "SNARL", "DARKPULSE", "CONFIDE", "SCREECH", "SCARYFACE", "BEATUP", "REVENGE", "ASSURANCE", "AIRSLASH", "HURRICANE", "BRAVEBIRD", "ENDURE", "NASTYPLOT", "RETALIATE", "CHILLINGWATER", "SWIFT"]
+raw_tutor_moves = ["AIRCUTTER", "DEFOG", "FOULPLAY", "HEATWAVE", "ICYWIND", "MUDSLAP", "OMINOUSWIND", "SKYATTACK", "SNATCH", "SNORE", "SPITE", "SUCKERPUNCH", "SUPERPOWER", "TAILWIND", "TWISTER", "UPROAR", "MIMIC"]
+compatible_egg_groups = ["Flying"]
+steps_to_hatch = 5355
+height = 0.9
+weight = 27.3
+colour = "Black"
+kind = "Big Boss"
+pokedex_entry = "Becoming active at night, it is known to swarm with numerous Murkrow in tow."
+battler_player_y = 19
+battler_enemy_y = 14
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "HONCHKROW"
+raw_hidden_ability = "MOXIE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "NIGHTSLASH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SUCKERPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ASTONISH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PURSUIT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HAZE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WINGATTACK"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "SWAGGER"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "NASTYPLOT"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "FOULPLAY"
+
+[[raw_level_up_moves]]
+at_level = "55"
+name = "NIGHTSLASH"
+
+[[raw_level_up_moves]]
+at_level = "65"
+name = "COMEUPPANCE"
+
+[[raw_level_up_moves]]
+at_level = "75"
+name = "DARKPULSE"
+
+[base_stats]
+hp = 100
+atk = 125
+def_ = 52
+spa = 105
+spd = 52
+spe = 71
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

@@ -1,0 +1,101 @@
+name = "Nidorino"
+primary_type = "POISON"
+secondary_type = "POISON"
+gender_ratio = "AlwaysMale"
+growth_rate = "Parabolic"
+exp_yield = 128
+catch_rate = 120
+caught_happiness = 70
+raw_abilities = ["POISONPOINT", "RIVALRY"]
+raw_egg_moves = []
+raw_tms = ["CUT", "STRENGTH", "TOXIC", "ROCKSMASH", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "DOUBLETEAM", "REFLECT", "SLUDGEBOMB", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "SHADOWCLAW", "SMARTSTRIKE", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "BEATUP", "BODYSLAM", "FOCUSENERGY", "AMNESIA", "ENDURE", "TOXICSPIKES", "VENOMDRENCH"]
+raw_tutor_moves = ["DRILLRUN", "EARTHPOWER", "HEADBUTT", "HELPINGHAND", "IRONTAIL", "MUDSLAP", "SHOCKWAVE", "SNORE", "STOMPINGTANTRUM", "SUCKERPUNCH", "SUPERFANG", "WATERPULSE", "MIMIC", "POISONTAIL"]
+compatible_egg_groups = ["Monster", "Field"]
+steps_to_hatch = 5355
+height = 0.9
+weight = 19.5
+colour = "Purple"
+kind = "Poison Pin"
+pokedex_entry = "Its horn is harder than a diamond. If it senses a hostile presence, all the barbs on its back bristle up at once, and it challenges the foe with all its might."
+battler_player_y = 21
+battler_enemy_y = 23
+battler_altitude = 0
+form_names = []
+internal_name = "NIDORINO"
+raw_hidden_ability = "HUSTLE"
+habitat = "Grassland"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PECK"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "FOCUSENERGY"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "DOUBLEKICK"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "POISONSTING"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "FURYATTACK"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "HORNATTACK"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "HELPINGHAND"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "TOXICSPIKES"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "FLATTER"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "POISONJAB"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "CAPTIVATE"
+
+[[raw_level_up_moves]]
+at_level = "58"
+name = "HORNDRILL"
+
+[[evolutions]]
+into_name = "NIDOKING"
+condition = "Item"
+parameter = "MOONSTONE"
+
+[base_stats]
+hp = 61
+atk = 72
+def_ = 57
+spa = 55
+spd = 55
+spe = 65
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

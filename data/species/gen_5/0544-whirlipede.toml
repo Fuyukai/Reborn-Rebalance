@@ -1,0 +1,124 @@
+name = "Whirlipede"
+primary_type = "BUG"
+secondary_type = "POISON"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 126
+catch_rate = 120
+caught_happiness = 70
+raw_abilities = ["POISONPOINT", "SWARM"]
+raw_egg_moves = []
+raw_tms = ["TOXIC", "ROCKSMASH", "VENOSHOCK", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "SLUDGEBOMB", "FACADE", "REST", "ATTRACT", "ROUND", "PAYBACK", "GYROBALL", "STRUGGLEBUG", "INFESTATION", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "PINMISSILE", "SCREECH", "HEX", "AGILITY", "SPIKES", "ENDURE", "TOXICSPIKES", "VENOMDRENCH"]
+raw_tutor_moves = ["BUGBITE", "ENDEAVOR", "IRONDEFENSE", "SIGNALBEAM", "SNORE", "SKITTERSMACK", "STEELROLLER", "MIMIC", "POISONTAIL"]
+compatible_egg_groups = ["Bug"]
+steps_to_hatch = 3840
+height = 1.2
+weight = 58.5
+colour = "Gray"
+kind = "Curlipede"
+pokedex_entry = "It is usually motionless, but when attacked, it rotates at high speed and then crashes into its opponent."
+battler_player_y = 26
+battler_enemy_y = 30
+battler_altitude = 0
+form_names = []
+internal_name = "WHIRLIPEDE"
+raw_hidden_ability = "SPEEDBOOST"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "IRONDEFENSE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DEFENSECURL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ROLLOUT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POISONSTING"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SCREECH"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "POISONSTING"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "SCREECH"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "PURSUIT"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "PROTECT"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "POISONTAIL"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "BUGBITE"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "VENOSHOCK"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "STEAMROLLER"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "MORTALSPIN"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "VENOMDRENCH"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "ROCKCLIMB"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "TOXIC"
+
+[[raw_level_up_moves]]
+at_level = "55"
+name = "DOUBLEEDGE"
+
+[[evolutions]]
+into_name = "SCOLIPEDE"
+condition = "Level"
+parameter = "30"
+
+[base_stats]
+hp = 40
+atk = 55
+def_ = 99
+spa = 40
+spd = 79
+spe = 47
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 2
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

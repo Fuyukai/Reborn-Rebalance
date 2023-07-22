@@ -1,0 +1,56 @@
+name = "Kakuna"
+primary_type = "BUG"
+secondary_type = "POISON"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 72
+catch_rate = 120
+caught_happiness = 70
+raw_abilities = ["SHEDSKIN"]
+raw_egg_moves = []
+raw_tms = []
+raw_tutor_moves = ["BUGBITE", "ELECTROWEB", "IRONDEFENSE", "STRINGSHOT"]
+compatible_egg_groups = ["Bug"]
+steps_to_hatch = 4080
+height = 0.6
+weight = 10.0
+colour = "Yellow"
+kind = "Cocoon"
+pokedex_entry = "It remains virtually immobile while it clings to a tree. However, on the inside, it busily prepares for evolution. This is evident from how hot its shell becomes."
+battler_player_y = 28
+battler_enemy_y = 24
+battler_altitude = 11
+form_names = []
+internal_name = "KAKUNA"
+habitat = "Forest"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "HARDEN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HARDEN"
+
+[[evolutions]]
+into_name = "BEEDRILL"
+condition = "Level"
+parameter = "10"
+
+[base_stats]
+hp = 45
+atk = 25
+def_ = 50
+spa = 25
+spd = 25
+spe = 35
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 2
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

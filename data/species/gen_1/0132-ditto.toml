@@ -1,0 +1,50 @@
+name = "Ditto"
+primary_type = "NORMAL"
+secondary_type = "NORMAL"
+gender_ratio = "Genderless"
+growth_rate = "Medium"
+exp_yield = 101
+catch_rate = 35
+caught_happiness = 70
+raw_abilities = ["LIMBER", "IMPOSTER"]
+raw_egg_moves = []
+raw_tms = []
+raw_tutor_moves = []
+compatible_egg_groups = ["Ditto"]
+steps_to_hatch = 5355
+height = 0.3
+weight = 4.0
+colour = "Purple"
+kind = "Transform"
+pokedex_entry = "A Ditto rearranges its cell structure to transform itself. However, if it tries to change based on its memory, it will get details wrong."
+battler_player_y = 34
+battler_enemy_y = 28
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "DITTO"
+habitat = "Urban"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TRANSFORM"
+
+[base_stats]
+hp = 48
+atk = 48
+def_ = 48
+spa = 48
+spd = 48
+spe = 48
+
+[ev_yield]
+hp = 1
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+common = "QUICKPOWDER"
+uncommon = "METALPOWDER"

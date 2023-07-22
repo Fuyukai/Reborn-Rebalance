@@ -1,0 +1,137 @@
+name = "Dragonite"
+primary_type = "DRAGON"
+secondary_type = "FLYING"
+gender_ratio = "Female50Percent"
+growth_rate = "Slow"
+exp_yield = 270
+catch_rate = 45
+caught_happiness = 35
+raw_abilities = ["INNERFOCUS", "MULTISCALE"]
+raw_egg_moves = []
+raw_tms = ["CUT", "DRAGONCLAW", "FLY", "SURF", "STRENGTH", "ROAR", "WATERFALL", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "SAFEGUARD", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "SANDSTORM", "FIREBLAST", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "STEELWING", "FOCUSBLAST", "FLING", "SKYDROP", "BRUTALSWING", "GIGAIMPACT", "STONEEDGE", "THUNDERWAVE", "BULLDOZE", "ROCKSLIDE", "DRAGONTAIL", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "FIRESPIN", "WHIRLPOOL", "AIRSLASH", "BREAKINGSWIPE", "BODYSLAM", "HYDROPUMP", "HURRICANE", "AGILITY", "ENDURE", "DRAGONDANCE", "BODYPRESS", "ICESPINNER", "SNOWSCAPE", "CHILLINGWATER", "SWIFT"]
+raw_tutor_moves = ["AIRCUTTER", "AQUATAIL", "BIND", "DEFOG", "DRACOMETEOR", "DRAGONPULSE", "FIREPUNCH", "FOCUSPUNCH", "FURYCUTTER", "HEADBUTT", "HEATWAVE", "ICEPUNCH", "ICYWIND", "IRONHEAD", "IRONTAIL", "MUDSLAP", "OMINOUSWIND", "OUTRAGE", "SHOCKWAVE", "SNORE", "SUPERPOWER", "TAILWIND", "THUNDERPUNCH", "TWISTER", "WATERPULSE", "DUALWINGBEAT", "SCALESHOT", "EXTREMESPEED", "MIMIC"]
+compatible_egg_groups = ["Water1", "Dragon"]
+steps_to_hatch = 10455
+height = 2.2
+weight = 210.0
+colour = "Brown"
+kind = "Dragon"
+pokedex_entry = "It can circle the globe in just 16 hours. It is a kindhearted Pokémon that leads lost and foundering ships in a storm to the safety of land."
+battler_player_y = 12
+battler_enemy_y = 3
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "DRAGONITE"
+habitat = "WatersEdge"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "WINGATTACK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "EXTREMESPEED"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HURRICANE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FIREPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "THUNDERPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ROOST"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WRAP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "THUNDERWAVE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TWISTER"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "THUNDERWAVE"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "TWISTER"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "DRAGONRAGE"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "SLAM"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "DRAGONTAIL"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "AQUATAIL"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "DRAGONRUSH"
+
+[[raw_level_up_moves]]
+at_level = "53"
+name = "SAFEGUARD"
+
+[[raw_level_up_moves]]
+at_level = "61"
+name = "DRAGONDANCE"
+
+[[raw_level_up_moves]]
+at_level = "67"
+name = "OUTRAGE"
+
+[[raw_level_up_moves]]
+at_level = "75"
+name = "HYPERBEAM"
+
+[[raw_level_up_moves]]
+at_level = "81"
+name = "HURRICANE"
+
+[base_stats]
+hp = 91
+atk = 134
+def_ = 95
+spa = 100
+spd = 100
+spe = 80
+
+[ev_yield]
+hp = 0
+atk = 3
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "DRAGONSCALE"

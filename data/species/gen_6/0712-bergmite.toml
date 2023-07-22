@@ -1,0 +1,108 @@
+name = "Bergmite"
+primary_type = "ICE"
+secondary_type = "ICE"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 61
+catch_rate = 255
+caught_happiness = 70
+raw_abilities = ["OWNTEMPO", "ICEBODY"]
+raw_egg_moves = ["BARRIER", "MIRRORCOAT", "MIST", "RECOVER"]
+raw_tms = ["SURF", "STRENGTH", "TOXIC", "HAIL", "ROCKSMASH", "FLASH", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "RETURN", "DOUBLETEAM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "ROCKPOLISH", "AURORAVEIL", "STONEEDGE", "GYROBALL", "FROSTBREATH", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "CONFIDE", "ICICLESPEAR", "AVALANCHE", "ICEFANG", "CRUNCH", "ENDURE", "ICESPINNER", "SNOWSCAPE", "CHILLINGWATER"]
+raw_tutor_moves = ["AFTERYOU", "ICYWIND", "IRONDEFENSE", "SNORE", "WATERPULSE", "ICEBALL", "MIMIC"]
+compatible_egg_groups = ["Monster"]
+steps_to_hatch = 5120
+height = 1.0
+weight = 99.5
+colour = "Blue"
+kind = "Ice Chunk"
+pokedex_entry = "It blocks opponents' attacks with the ice that shields its body. It uses cold air to repair any cracks with new ice."
+battler_player_y = 23
+battler_enemy_y = 30
+battler_altitude = 0
+form_names = []
+internal_name = "BERGMITE"
+raw_hidden_ability = "STURDY"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HARDEN"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "POWDERSNOW"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "ICYWIND"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "SHARPEN"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "CURSE"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "ICEFANG"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "ICEBALL"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "RAPIDSPIN"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "AVALANCHE"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "BLIZZARD"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "RECOVER"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "DOUBLEEDGE"
+
+[[evolutions]]
+into_name = "AVALUGG"
+condition = "Level"
+parameter = "37"
+
+[base_stats]
+hp = 55
+atk = 69
+def_ = 85
+spa = 32
+spd = 35
+spe = 28
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 1
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

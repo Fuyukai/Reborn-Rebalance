@@ -1,0 +1,128 @@
+name = "Mewtwo"
+primary_type = "PSYCHIC"
+secondary_type = "PSYCHIC"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 306
+catch_rate = 3
+caught_happiness = 0
+raw_abilities = ["PRESSURE", "UNNERVE"]
+raw_egg_moves = []
+raw_tms = ["PSYSHOCK", "CALMMIND", "STRENGTH", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "BULKUP", "FLASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "PSYCHIC", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "SANDSTORM", "FIREBLAST", "ROCKTOMB", "AERIALACE", "TORMENT", "FACADE", "REST", "LOWSWEEP", "ROUND", "FOCUSBLAST", "ENERGYBALL", "FLING", "CHARGEBEAM", "BRUTALSWING", "WILLOWISP", "EMBARGO", "GIGAIMPACT", "STONEEDGE", "THUNDERWAVE", "PSYCHUP", "BULLDOZE", "ROCKSLIDE", "POISONJAB", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "PAYDAY", "SELFDESTRUCT", "POWERSWAP", "GUARDSWAP", "SPEEDSWAP", "AVALANCHE", "PSYCHOCUT", "PSYCHICTERRAIN", "BODYSLAM", "HURRICANE", "AGILITY", "METRONOME", "AMNESIA", "TRIATTACK", "ENDURE", "FUTURESIGHT", "AURASPHERE", "NASTYPLOT", "ELECTROBALL", "STOREDPOWER", "TRAILBLAZE", "CHILLINGWATER", "SWIFT"]
+raw_tutor_moves = ["ALLYSWITCH", "ANCIENTPOWER", "AQUATAIL", "DRAINPUNCH", "FIREPUNCH", "FOCUSPUNCH", "FOULPLAY", "GRAVITY", "HEADBUTT", "ICEPUNCH", "ICYWIND", "IRONTAIL", "LASERFOCUS", "LOWKICK", "MAGICCOAT", "MAGICROOM", "MUDSLAP", "RECYCLE", "ROLEPLAY", "SHOCKWAVE", "SIGNALBEAM", "SKILLSWAP", "SNATCH", "SNORE", "TELEKINESIS", "THUNDERPUNCH", "TRICK", "WATERPULSE", "WONDERROOM", "ZENHEADBUTT", "EXPANDINGFORCE", "MIMIC"]
+compatible_egg_groups = ["Undiscovered"]
+steps_to_hatch = 30855
+height = 2.0
+weight = 122.0
+colour = "Purple"
+kind = "Genetic"
+pokedex_entry = "A Pokémon that was created by genetic manipulation. However, even though the scientific power of humans made its body, they failed to give it a warm heart."
+battler_player_y = 15
+battler_enemy_y = 9
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "MEWTWO"
+habitat = "Rare"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LIFEDEW"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LASERFOCUS"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PSYWAVE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CONFUSION"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DISABLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SAFEGUARD"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "SWIFT"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "FUTURESIGHT"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "PSYCHUP"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "MIRACLEEYE"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "PSYCHOCUT"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "POWERSWAP"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "GUARDSWAP"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "RECOVER"
+
+[[raw_level_up_moves]]
+at_level = "57"
+name = "PSYCHIC"
+
+[[raw_level_up_moves]]
+at_level = "64"
+name = "BARRIER"
+
+[[raw_level_up_moves]]
+at_level = "70"
+name = "AURASPHERE"
+
+[[raw_level_up_moves]]
+at_level = "79"
+name = "AMNESIA"
+
+[[raw_level_up_moves]]
+at_level = "86"
+name = "MIST"
+
+[[raw_level_up_moves]]
+at_level = "93"
+name = "MEFIRST"
+
+[[raw_level_up_moves]]
+at_level = "100"
+name = "PSYSTRIKE"
+
+[base_stats]
+hp = 106
+atk = 110
+def_ = 90
+spa = 154
+spd = 90
+spe = 130
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 3
+spd = 0
+spe = 0
+
+[wild_items]

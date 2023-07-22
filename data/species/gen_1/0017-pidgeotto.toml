@@ -1,0 +1,113 @@
+name = "Pidgeotto"
+primary_type = "NORMAL"
+secondary_type = "FLYING"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 122
+catch_rate = 120
+caught_happiness = 70
+raw_abilities = ["KEENEYE", "TANGLEDFEET"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "FLY", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "FRUSTRATION", "RETURN", "DOUBLETEAM", "REFLECT", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "STEELWING", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "AIRSLASH", "HURRICANE", "BRAVEBIRD", "AGILITY", "ENDURE", "SWIFT"]
+raw_tutor_moves = ["AIRCUTTER", "DEFOG", "HEATWAVE", "MUDSLAP", "OMINOUSWIND", "SKYATTACK", "SNORE", "TAILWIND", "TWISTER", "UPROAR", "DUALWINGBEAT", "MIMIC"]
+compatible_egg_groups = ["Flying"]
+steps_to_hatch = 4080
+height = 1.1
+weight = 30.0
+colour = "Brown"
+kind = "Bird"
+pokedex_entry = "This Pokémon flies around, patrolling its large territory. If its living space is violated, it shows no mercy in thoroughly punishing the foe with its sharp claws."
+battler_player_y = 9
+battler_enemy_y = 15
+battler_altitude = 0
+form_names = []
+internal_name = "PIDGEOTTO"
+raw_hidden_ability = "BIGPECKS"
+habitat = "Forest"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SANDATTACK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GUST"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "SANDATTACK"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "GUST"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "WHIRLWIND"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "TWISTER"
+
+[[raw_level_up_moves]]
+at_level = "27"
+name = "FEATHERDANCE"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "WINGATTACK"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "ROOST"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "TAILWIND"
+
+[[raw_level_up_moves]]
+at_level = "52"
+name = "MIRRORMOVE"
+
+[[raw_level_up_moves]]
+at_level = "57"
+name = "AIRSLASH"
+
+[[raw_level_up_moves]]
+at_level = "62"
+name = "HURRICANE"
+
+[[evolutions]]
+into_name = "PIDGEOT"
+condition = "Level"
+parameter = "36"
+
+[base_stats]
+hp = 63
+atk = 60
+def_ = 55
+spa = 50
+spd = 50
+spe = 71
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 2
+
+[wild_items]

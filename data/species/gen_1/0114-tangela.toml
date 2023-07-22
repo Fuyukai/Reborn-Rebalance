@@ -1,0 +1,125 @@
+name = "Tangela"
+primary_type = "GRASS"
+secondary_type = "GRASS"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 87
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["CHLOROPHYLL", "LEAFGUARD"]
+raw_egg_moves = ["AMNESIA", "CONFUSION", "ENDEAVOR", "FLAIL", "GIGADRAIN", "LEAFSTORM", "LEECHSEED", "MEGADRAIN", "NATURALGIFT", "NATUREPOWER", "POWERSWAP", "RAGEPOWDER", "WAKEUPSLAP"]
+raw_tms = ["CUT", "TOXIC", "ROCKSMASH", "FLASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "REFLECT", "SLUDGEBOMB", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ENERGYBALL", "GIGAIMPACT", "SWORDSDANCE", "PSYCHUP", "INFESTATION", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "BULLETSEED", "POWERSWAP", "GRASSYTERRAIN", "BODYSLAM", "POWERWHIP", "LEAFSTORM", "AMNESIA", "ENDURE"]
+raw_tutor_moves = ["ANCIENTPOWER", "BIND", "ENDEAVOR", "GIGADRAIN", "HEADBUTT", "KNOCKOFF", "PAINSPLIT", "SEEDBOMB", "SHOCKWAVE", "SNORE", "SYNTHESIS", "WORRYSEED", "GRASSYGLIDE", "MIMIC"]
+compatible_egg_groups = ["Grass"]
+steps_to_hatch = 5355
+height = 1.0
+weight = 35.0
+colour = "Blue"
+kind = "Vine"
+pokedex_entry = "Its vines snap off easily and painlessly if they are grabbed, allowing it to make a quick getaway. The lost vines are replaced by new growth the next day."
+battler_player_y = 27
+battler_enemy_y = 22
+battler_altitude = 0
+form_names = []
+internal_name = "TANGELA"
+raw_hidden_ability = "REGENERATOR"
+habitat = "Grassland"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "INGRAIN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CONSTRICT"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "SLEEPPOWDER"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "VINEWHIP"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "ABSORB"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "POISONPOWDER"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "BIND"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "GROWTH"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "MEGADRAIN"
+
+[[raw_level_up_moves]]
+at_level = "27"
+name = "KNOCKOFF"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "STUNSPORE"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "NATURALGIFT"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "GIGADRAIN"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "ANCIENTPOWER"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "SLAM"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "TICKLE"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "WRINGOUT"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "GRASSYTERRAIN"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "POWERWHIP"
+
+[[evolutions]]
+into_name = "TANGROWTH"
+condition = "HasMove"
+parameter = "ANCIENTPOWER"
+
+[base_stats]
+hp = 65
+atk = 55
+def_ = 115
+spa = 100
+spd = 40
+spe = 60
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 1
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

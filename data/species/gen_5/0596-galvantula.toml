@@ -1,0 +1,116 @@
+name = "Galvantula"
+primary_type = "BUG"
+secondary_type = "ELECTRIC"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 165
+catch_rate = 70
+caught_happiness = 70
+raw_abilities = ["COMPOUNDEYES", "UNNERVE"]
+raw_egg_moves = []
+raw_tms = ["CUT", "TOXIC", "FLASH", "ROCKCLIMB", "HIDDENPOWER", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "LEECHLIFE", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ENERGYBALL", "CHARGEBEAM", "GIGAIMPACT", "VOLTSWITCH", "THUNDERWAVE", "STRUGGLEBUG", "XSCISSOR", "INFESTATION", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "CONFIDE", "PINMISSILE", "SCREECH", "SPEEDSWAP", "CROSSPOISON", "AGILITY", "ENDURE", "BUGBUZZ", "ELECTROBALL", "SWIFT"]
+raw_tutor_moves = ["BOUNCE", "BUGBITE", "ELECTROWEB", "FURYCUTTER", "GASTROACID", "GIGADRAIN", "MAGNETRISE", "SHOCKWAVE", "SIGNALBEAM", "SNORE", "SUCKERPUNCH", "THROATCHOP", "RISINGVOLTAGE", "SKITTERSMACK", "MIMIC"]
+compatible_egg_groups = ["Bug"]
+steps_to_hatch = 5120
+height = 0.8
+weight = 14.3
+colour = "Yellow"
+kind = "Elespider"
+pokedex_entry = "They employ an electrically charged web to trap their prey. While it is immobilized by shock, they leisurely consume it."
+battler_player_y = 29
+battler_enemy_y = 38
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "GALVANTULA"
+raw_hidden_ability = "SWARM"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "STICKYWEB"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "STRINGSHOT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ABSORB"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SPIDERWEB"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "THUNDERWAVE"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "THUNDERWAVE"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "SCREECH"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "FURYCUTTER"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "ELECTROWEB"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "BUGBITE"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "GASTROACID"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "SLASH"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "ELECTROBALL"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "SIGNALBEAM"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "SUCKERPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "54"
+name = "DISCHARGE"
+
+[[raw_level_up_moves]]
+at_level = "60"
+name = "BUGBUZZ"
+
+[base_stats]
+hp = 70
+atk = 77
+def_ = 60
+spa = 97
+spd = 60
+spe = 108
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 2
+
+[wild_items]

@@ -1,0 +1,111 @@
+name = "Solgaleo"
+primary_type = "PSYCHIC"
+secondary_type = "STEEL"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 306
+catch_rate = 3
+caught_happiness = 0
+raw_abilities = ["FULLMETALBODY"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "PSYSHOCK", "CALMMIND", "ROAR", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "PSYCHIC", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "FIREBLAST", "ROCKTOMB", "FACADE", "FLAMECHARGE", "REST", "ROUND", "FOCUSBLAST", "GIGAIMPACT", "STONEEDGE", "THUNDERWAVE", "GYROBALL", "PSYCHUP", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "TRICKROOM", "WILDCHARGE", "SECRETPOWER", "SNARL", "CONFIDE", "FIRESPIN", "SCARYFACE", "PSYCHICFANGS", "CRUNCH", "MYSTICALFIRE", "FLAREBLITZ", "CLOSECOMBAT", "AGILITY", "ENDURE", "FUTURESIGHT", "COSMICPOWER", "HEATCRASH", "HEAVYSLAM", "SWIFT"]
+raw_tutor_moves = ["ENDEAVOR", "HELPINGHAND", "HYPERVOICE", "IRONDEFENSE", "IRONHEAD", "IRONTAIL", "KNOCKOFF", "LASTRESORT", "OUTRAGE", "SHOCKWAVE", "SNORE", "SUPERPOWER", "ZENHEADBUTT", "METEORBEAM", "EXPANDINGFORCE", "STEELROLLER", "STEELBEAM", "MIMIC"]
+compatible_egg_groups = ["Undiscovered"]
+steps_to_hatch = 30720
+height = 3.4
+weight = 230.0
+colour = "White"
+kind = "Sunne"
+pokedex_entry = "This Pokémon is said to be a male evolution of Cosmog. At the activation of its third eye, it departs for another world."
+battler_player_y = 3
+battler_enemy_y = 9
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "SOLGALEO"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "SUNSTEELSTRIKE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "COSMICPOWER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WAKEUPSLAP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TELEPORT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "METALCLAW"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "IRONHEAD"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "METALSOUND"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "ZENHEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "FLASHCANNON"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "MORNINGSUN"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "METALBURST"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "SOLARBEAM"
+
+[[raw_level_up_moves]]
+at_level = "59"
+name = "NOBLEROAR"
+
+[[raw_level_up_moves]]
+at_level = "61"
+name = "FLAREBLITZ"
+
+[[raw_level_up_moves]]
+at_level = "67"
+name = "WIDEGUARD"
+
+[[raw_level_up_moves]]
+at_level = "73"
+name = "GIGAIMPACT"
+
+[base_stats]
+hp = 137
+atk = 137
+def_ = 107
+spa = 113
+spd = 89
+spe = 97
+
+[ev_yield]
+hp = 0
+atk = 3
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

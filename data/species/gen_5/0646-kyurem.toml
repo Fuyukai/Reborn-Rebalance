@@ -1,0 +1,103 @@
+name = "Kyurem"
+primary_type = "DRAGON"
+secondary_type = "ICE"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 297
+catch_rate = 3
+caught_happiness = 0
+raw_abilities = ["PRESSURE"]
+raw_egg_moves = []
+raw_tms = ["CUT", "DRAGONCLAW", "FLY", "STRENGTH", "TOXIC", "HAIL", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "SAFEGUARD", "FRUSTRATION", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "ROCKTOMB", "FACADE", "REST", "ROUND", "ECHOEDVOICE", "STEELWING", "FOCUSBLAST", "FLING", "BRUTALSWING", "SHADOWCLAW", "PAYBACK", "GIGAIMPACT", "STONEEDGE", "ROCKSLIDE", "DRAGONTAIL", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "CONFIDE", "SCARYFACE", "IMPRISON", "WEATHERBALL", "ICICLESPEAR", "BREAKINGSWIPE", "ENDURE", "DRAGONDANCE", "BODYPRESS", "SWIFT"]
+raw_tutor_moves = ["ANCIENTPOWER", "DRACOMETEOR", "DRAGONPULSE", "EARTHPOWER", "ENDEAVOR", "HELPINGHAND", "HYPERVOICE", "ICYWIND", "IRONHEAD", "LASERFOCUS", "OUTRAGE", "SIGNALBEAM", "SNORE", "ZENHEADBUTT", "DUALWINGBEAT", "SCALESHOT", "MIMIC"]
+compatible_egg_groups = ["Undiscovered"]
+steps_to_hatch = 30720
+height = 3.0
+weight = 325.0
+colour = "Gray"
+kind = "Boundary"
+pokedex_entry = "It generates a powerful, freezing energy inside itself, but its body became frozen when the energy leaked out."
+battler_player_y = 22
+battler_enemy_y = 12
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "KYUREM"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ICYWIND"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DRAGONRAGE"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "IMPRISON"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "ANCIENTPOWER"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "ICEBEAM"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "DRAGONBREATH"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "SLASH"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "SCARYFACE"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "GLACIATE"
+
+[[raw_level_up_moves]]
+at_level = "57"
+name = "DRAGONPULSE"
+
+[[raw_level_up_moves]]
+at_level = "64"
+name = "NOBLEROAR"
+
+[[raw_level_up_moves]]
+at_level = "71"
+name = "ENDEAVOR"
+
+[[raw_level_up_moves]]
+at_level = "78"
+name = "BLIZZARD"
+
+[[raw_level_up_moves]]
+at_level = "85"
+name = "OUTRAGE"
+
+[[raw_level_up_moves]]
+at_level = "92"
+name = "HYPERVOICE"
+
+[base_stats]
+hp = 125
+atk = 130
+def_ = 90
+spa = 130
+spd = 90
+spe = 95
+
+[ev_yield]
+hp = 1
+atk = 1
+def_ = 0
+spa = 1
+spd = 0
+spe = 0
+
+[wild_items]

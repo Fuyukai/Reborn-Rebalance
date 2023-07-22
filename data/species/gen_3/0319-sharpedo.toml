@@ -1,0 +1,129 @@
+name = "Sharpedo"
+primary_type = "WATER"
+secondary_type = "DARK"
+gender_ratio = "Female50Percent"
+growth_rate = "Slow"
+exp_yield = 161
+catch_rate = 60
+caught_happiness = 35
+raw_abilities = ["ROUGHSKIN", "SPEEDBOOST"]
+raw_egg_moves = []
+raw_tms = ["SURF", "STRENGTH", "ROAR", "WATERFALL", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "HIDDENPOWER", "TAUNT", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "ROCKTOMB", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "SCALD", "PAYBACK", "GIGAIMPACT", "BULLDOZE", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "SNARL", "DARKPULSE", "CONFIDE", "SCREECH", "SCARYFACE", "WHIRLPOOL", "BRINE", "ASSURANCE", "AVALANCHE", "ICEFANG", "PSYCHICFANGS", "CRUNCH", "HYDROPUMP", "CLOSECOMBAT", "AGILITY", "FOCUSENERGY", "ENDURE", "RETALIATE", "SWIFT"]
+raw_tutor_moves = ["ANCIENTPOWER", "BOUNCE", "FURYCUTTER", "ICYWIND", "LIQUIDATION", "MUDSLAP", "SNORE", "SPITE", "SUPERFANG", "UPROAR", "WATERPULSE", "ZENHEADBUTT", "FLIPTURN", "SCALESHOT", "MIMIC"]
+compatible_egg_groups = ["Water2"]
+steps_to_hatch = 5355
+height = 1.8
+weight = 88.8
+colour = "Blue"
+kind = "Brutal"
+pokedex_entry = "The vicious and sly gangster of the sea. Its skin is specially textured to minimize drag in water. Its speed tops out at over 75 miles per hour."
+battler_player_y = 13
+battler_enemy_y = 8
+battler_altitude = 8
+evolutions = []
+form_names = []
+internal_name = "SHARPEDO"
+habitat = "Sea"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "SLASH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "NIGHTSLASH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FEINT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "RAGE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FOCUSENERGY"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "RAGE"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "FOCUSENERGY"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "AQUAJET"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "ASSURANCE"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "SCREECH"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "SWAGGER"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "ICEFANG"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "SCARYFACE"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "POISONFANG"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "51"
+name = "SKULLBASH"
+
+[[raw_level_up_moves]]
+at_level = "56"
+name = "TAUNT"
+
+[[raw_level_up_moves]]
+at_level = "62"
+name = "NIGHTSLASH"
+
+[base_stats]
+hp = 70
+atk = 120
+def_ = 40
+spa = 95
+spd = 40
+spe = 95
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "DEEPSEATOOTH"

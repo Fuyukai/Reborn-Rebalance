@@ -1,0 +1,59 @@
+name = "Simisear"
+primary_type = "FIRE"
+secondary_type = "FIRE"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Medium"
+exp_yield = 174
+catch_rate = 75
+caught_happiness = 70
+raw_abilities = ["GLUTTONY", "BLAZE"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "CUT", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "FRUSTRATION", "SOLARBEAM", "RETURN", "BRICKBREAK", "DOUBLETEAM", "FLAMETHROWER", "FIREBLAST", "ROCKTOMB", "TORMENT", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "THIEF", "LOWSWEEP", "ROUND", "OVERHEAT", "FOCUSBLAST", "FLING", "WILLOWISP", "ACROBATICS", "SHADOWCLAW", "PAYBACK", "GIGAIMPACT", "ROCKSLIDE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "FIRESPIN", "DIG", "CRUNCH", "FLAREBLITZ", "AMNESIA", "ENDURE", "NASTYPLOT"]
+raw_tutor_moves = ["COVET", "ENDEAVOR", "FIREPLEDGE", "FIREPUNCH", "FOCUSPUNCH", "GASTROACID", "GUNKSHOT", "HEATWAVE", "HELPINGHAND", "IRONTAIL", "KNOCKOFF", "LOWKICK", "RECYCLE", "ROLEPLAY", "SNORE", "SUPERPOWER", "THROATCHOP", "UPROAR", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5120
+height = 1.0
+weight = 28.0
+colour = "Red"
+kind = "Ember"
+pokedex_entry = "A flame burns inside its body. It scatters embers from its head and tail to sear its opponents."
+battler_player_y = 18
+battler_enemy_y = 23
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "SIMISEAR"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LICK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FURYSWIPES"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FLAMEBURST"
+
+[base_stats]
+hp = 75
+atk = 98
+def_ = 63
+spa = 98
+spd = 63
+spe = 101
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 2
+
+[wild_items]

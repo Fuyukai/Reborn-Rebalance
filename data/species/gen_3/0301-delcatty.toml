@@ -1,0 +1,61 @@
+name = "Delcatty"
+primary_type = "NORMAL"
+secondary_type = "NORMAL"
+gender_ratio = "Female75Percent"
+growth_rate = "Fast"
+exp_yield = 140
+catch_rate = 60
+caught_happiness = 70
+raw_abilities = ["CUTECHARM", "NORMALIZE"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "CALMMIND", "STRENGTH", "TOXIC", "ROCKSMASH", "FLASH", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "THUNDERBOLT", "THUNDER", "RETURN", "SHADOWBALL", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "CHARGEBEAM", "PAYBACK", "GIGAIMPACT", "THUNDERWAVE", "PSYCHUP", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "CONFIDE", "PAYDAY", "DIG", "CHARM", "FAKETEARS", "TAILSLAP", "DRAININGKISS", "BODYSLAM", "ENDURE", "BATONPASS", "COSMICPOWER", "NASTYPLOT", "PLAYROUGH", "RETALIATE", "SWIFT"]
+raw_tutor_moves = ["COVET", "HEADBUTT", "HEALBELL", "HELPINGHAND", "HYPERVOICE", "ICYWIND", "IRONTAIL", "LASERFOCUS", "LASTRESORT", "MUDSLAP", "ROLLOUT", "SHOCKWAVE", "SNORE", "STOMPINGTANTRUM", "SUCKERPUNCH", "UPROAR", "WATERPULSE", "ZENHEADBUTT", "MIMIC"]
+compatible_egg_groups = ["Field", "Fairy"]
+steps_to_hatch = 4080
+height = 1.1
+weight = 32.6
+colour = "Purple"
+kind = "Prim"
+pokedex_entry = "Rather than keeping a permanent lair, it habitually seeks comfortable spots and sleeps there. It is nocturnal and becomes active at dusk."
+battler_player_y = 19
+battler_enemy_y = 14
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "DELCATTY"
+raw_hidden_ability = "WONDERSKIN"
+habitat = "Forest"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FAKEOUT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SING"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ATTRACT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DOUBLESLAP"
+
+[base_stats]
+hp = 70
+atk = 65
+def_ = 65
+spa = 55
+spd = 55
+spe = 90
+
+[ev_yield]
+hp = 1
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 1
+
+[wild_items]

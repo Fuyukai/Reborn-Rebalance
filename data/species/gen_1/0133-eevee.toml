@@ -1,0 +1,216 @@
+name = "Eevee"
+primary_type = "NORMAL"
+secondary_type = "NORMAL"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Medium"
+exp_yield = 65
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["RUNAWAY", "ADAPTABILITY"]
+raw_egg_moves = ["CAPTIVATE", "CHARM", "COVET", "CURSE", "DETECT", "ENDURE", "FAKETEARS", "FLAIL", "NATURALGIFT", "STOREDPOWER", "SYNCHRONOISE", "TICKLE", "WISH", "YAWN", "DOUBLEKICK", "MUDSLAP"]
+raw_tms = ["WORKUP", "CALMMIND", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "PAYDAY", "DIG", "CHARM", "WEATHERBALL", "FAKETEARS", "BODYSLAM", "FOCUSENERGY", "ENDURE", "BATONPASS", "STOREDPOWER", "RETALIATE", "TRAILBLAZE", "SWIFT"]
+raw_tutor_moves = ["COVET", "HEADBUTT", "HEALBELL", "HELPINGHAND", "HYPERVOICE", "IRONTAIL", "LASERFOCUS", "LASTRESORT", "MUDSLAP", "SNORE", "MIMIC", "CELEBRATE"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 9180
+height = 0.3
+weight = 6.5
+colour = "Brown"
+kind = "Evolution"
+pokedex_entry = "An Eevee has an unstable genetic makeup that suddenly mutates due to its environment. Radiation from various stones causes this Pokémon to evolve."
+battler_player_y = 24
+battler_enemy_y = 20
+battler_altitude = 0
+form_names = []
+internal_name = "EEVEE"
+raw_hidden_ability = "ANTICIPATION"
+habitat = "Urban"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "COVET"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HELPINGHAND"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TAILWHIP"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "SANDATTACK"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "BABYDOLLEYES"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "SWIFT"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "REFRESH"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "CHARM"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "COPYCAT"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "BATONPASS"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "DOUBLEEDGE"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "LASTRESORT"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "TRUMPCARD"
+
+[[evolutions]]
+into_name = "VAPOREON"
+condition = "Item"
+parameter = "WATERSTONE"
+
+[[evolutions]]
+into_name = "JOLTEON"
+condition = "Item"
+parameter = "THUNDERSTONE"
+
+[[evolutions]]
+into_name = "FLAREON"
+condition = "Item"
+parameter = "FIRESTONE"
+
+[[evolutions]]
+into_name = "LEAFEON"
+condition = "Item"
+parameter = "LEAFSTONE"
+
+[[evolutions]]
+into_name = "GLACEON"
+condition = "Item"
+parameter = "ICESTONE"
+
+[[evolutions]]
+into_name = "EEVEON"
+condition = "Item"
+parameter = "SHINYSTONE"
+
+[[evolutions]]
+into_name = "ZIRCONEON"
+condition = "Item"
+parameter = "DAWNSTONE"
+
+[[evolutions]]
+into_name = "DREKEON"
+condition = "TradeItem"
+parameter = "DRAGONSCALE"
+
+[[evolutions]]
+into_name = "TITANEON"
+condition = "TradeItem"
+parameter = "METALCOAT"
+
+[[evolutions]]
+into_name = "MANEON"
+condition = "Location"
+parameter = "15"
+
+[[evolutions]]
+into_name = "TOXEON"
+condition = "Poisoned"
+parameter = "25"
+
+[[evolutions]]
+into_name = "HAWKEON"
+condition = "LevelWind"
+parameter = "25"
+
+[[evolutions]]
+into_name = "EPHEMEON"
+condition = "HasInParty"
+parameter = "BEEDRILL"
+
+[[evolutions]]
+into_name = "BRISTLEON"
+condition = "DayHoldItem"
+parameter = "SOFTSAND"
+
+[[evolutions]]
+into_name = "KITSUNEON"
+condition = "NightHoldItem"
+parameter = "SOULCANDLE"
+
+[[evolutions]]
+into_name = "LEAFEON"
+condition = "Location"
+parameter = "465"
+
+[[evolutions]]
+into_name = "GLACEON"
+condition = "Location"
+parameter = "433"
+
+[[evolutions]]
+into_name = "SYLVEON"
+condition = "Affection"
+parameter = "18"
+
+[[evolutions]]
+into_name = "ESPEON"
+condition = "HappinessDay"
+parameter = ""
+
+[[evolutions]]
+into_name = "UMBREON"
+condition = "HappinessNight"
+parameter = ""
+
+[base_stats]
+hp = 55
+atk = 55
+def_ = 50
+spa = 45
+spd = 65
+spe = 55
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 1
+spe = 0
+
+[wild_items]

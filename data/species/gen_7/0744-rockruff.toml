@@ -1,0 +1,108 @@
+name = "Rockruff"
+primary_type = "ROCK"
+secondary_type = "ROCK"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 56
+catch_rate = 190
+caught_happiness = 70
+raw_abilities = ["KEENEYE", "VITALSPIRIT"]
+raw_egg_moves = ["CRUSHCLAW", "FIREFANG", "SUCKERPUNCH", "THRASH", "THUNDERFANG"]
+raw_tms = ["ROAR", "TOXIC", "ROCKCLIMB", "HIDDENPOWER", "TAUNT", "PROTECT", "FRUSTRATION", "RETURN", "DOUBLETEAM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "ROCKPOLISH", "STONEEDGE", "SWORDSDANCE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "SNARL", "CONFIDE", "SCARYFACE", "THUNDERFANG", "FIREFANG", "CRUNCH", "ENDURE", "PLAYROUGH", "TRAILBLAZE"]
+raw_tutor_moves = ["COVET", "EARTHPOWER", "ENDEAVOR", "HYPERVOICE", "IRONDEFENSE", "IRONHEAD", "IRONTAIL", "LASTRESORT", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "ZENHEADBUTT", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 3840
+height = 0.5
+weight = 9.2
+colour = "Brown"
+kind = "Puppy"
+pokedex_entry = "This Pokémon has lived with people since times long ago. It can sense when its Trainer is in the dumps and will stick close by its Trainer's side."
+battler_player_y = 20
+battler_enemy_y = 25
+battler_altitude = 0
+form_names = []
+internal_name = "ROCKRUFF"
+raw_hidden_ability = "STEADFAST"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "SANDATTACK"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "HOWL"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "ROCKTHROW"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "ODORSLEUTH"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "ROCKTOMB"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "ROAR"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "STEALTHROCK"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "ROCKSLIDE"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "SCARYFACE"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "ROCKCLIMB"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "STONEEDGE"
+
+[[evolutions]]
+into_name = "LYCANROC"
+condition = "Level"
+parameter = "25"
+
+[base_stats]
+hp = 45
+atk = 65
+def_ = 40
+spa = 30
+spd = 40
+spe = 60
+
+[ev_yield]
+hp = 0
+atk = 1
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

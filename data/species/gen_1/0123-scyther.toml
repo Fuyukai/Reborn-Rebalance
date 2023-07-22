@@ -1,0 +1,126 @@
+name = "Scyther"
+primary_type = "BUG"
+secondary_type = "FLYING"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 100
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["SWARM", "TECHNICIAN"]
+raw_egg_moves = ["BATONPASS", "BUGBUZZ", "COUNTER", "DEFOG", "ENDURE", "NIGHTSLASH", "QUICKGUARD", "RAZORWIND", "REVERSAL", "SILVERWIND", "STEELWING", "FEINT"]
+raw_tms = ["CUT", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "SAFEGUARD", "FRUSTRATION", "RETURN", "BRICKBREAK", "DOUBLETEAM", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "STEELWING", "FALSESWIPE", "BRUTALSWING", "ACROBATICS", "GIGAIMPACT", "SWORDSDANCE", "STRUGGLEBUG", "XSCISSOR", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "ASSURANCE", "PSYCHOCUT", "CROSSPOISON", "AIRSLASH", "AGILITY", "FOCUSENERGY", "REVERSAL", "ENDURE", "BATONPASS", "BUGBUZZ", "POUNCE", "TRAILBLAZE", "SWIFT"]
+raw_tutor_moves = ["BUGBITE", "DEFOG", "FURYCUTTER", "HEADBUTT", "KNOCKOFF", "LASERFOCUS", "OMINOUSWIND", "SNORE", "TAILWIND", "DUALWINGBEAT", "MIMIC"]
+compatible_egg_groups = ["Bug"]
+steps_to_hatch = 6630
+height = 1.5
+weight = 56.0
+colour = "Green"
+kind = "Mantis"
+pokedex_entry = "Its blindingly fast speed adds to the sharpness of its twin forearm scythes. The scythes can slice through thick logs in one wicked stroke."
+battler_player_y = 17
+battler_enemy_y = 10
+battler_altitude = 0
+form_names = []
+internal_name = "SCYTHER"
+raw_hidden_ability = "STEADFAST"
+habitat = "Grassland"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "VACUUMWAVE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "FOCUSENERGY"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "PURSUIT"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "FALSESWIPE"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "WINGATTACK"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "FURYCUTTER"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "SLASH"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "RAZORWIND"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "DOUBLETEAM"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "XSCISSOR"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "NIGHTSLASH"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "DOUBLEHIT"
+
+[[raw_level_up_moves]]
+at_level = "53"
+name = "AIRSLASH"
+
+[[raw_level_up_moves]]
+at_level = "57"
+name = "SWORDSDANCE"
+
+[[raw_level_up_moves]]
+at_level = "61"
+name = "FEINT"
+
+[[evolutions]]
+into_name = "SCIZOR"
+condition = "TradeItem"
+parameter = "METALCOAT"
+
+[[evolutions]]
+into_name = "KLEAVOR"
+condition = "Item"
+parameter = "BLACKAUGURITE"
+
+[base_stats]
+hp = 70
+atk = 110
+def_ = 80
+spa = 55
+spd = 80
+spe = 105
+
+[ev_yield]
+hp = 0
+atk = 1
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

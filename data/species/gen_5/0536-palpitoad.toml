@@ -1,0 +1,112 @@
+name = "Palpitoad"
+primary_type = "WATER"
+secondary_type = "GROUND"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 134
+catch_rate = 120
+caught_happiness = 70
+raw_abilities = ["SWIFTSWIM", "HYDRATION"]
+raw_egg_moves = []
+raw_tms = ["SURF", "TOXIC", "HAIL", "ROCKSMASH", "HIDDENPOWER", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "DOUBLETEAM", "SLUDGEWAVE", "SLUDGEBOMB", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "SCALD", "BULLDOZE", "INFESTATION", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "SCREECH", "WEATHERBALL", "MUDSHOT", "HYDROPUMP", "POWERWHIP", "ENDURE", "MUDDYWATER", "VENOMDRENCH"]
+raw_tutor_moves = ["AFTERYOU", "BOUNCE", "EARTHPOWER", "ENDEAVOR", "FOCUSPUNCH", "GASTROACID", "HYPERVOICE", "ICYWIND", "MUDSLAP", "SNORE", "STEALTHROCK", "UPROAR", "WATERPULSE", "MIMIC"]
+compatible_egg_groups = ["Water1"]
+steps_to_hatch = 5120
+height = 0.8
+weight = 17.0
+colour = "Blue"
+kind = "Vibration"
+pokedex_entry = "It lives in the water and on land. It uses its long, sticky tongue to capture prey."
+battler_player_y = 26
+battler_enemy_y = 24
+battler_altitude = 0
+form_names = []
+internal_name = "PALPITOAD"
+raw_hidden_ability = "WATERABSORB"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BUBBLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SUPERSONIC"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ROUND"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "SUPERSONIC"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "ROUND"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "BUBBLEBEAM"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "MUDSHOT"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "AQUARING"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "UPROAR"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "MUDDYWATER"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "RAINDANCE"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "FLAIL"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "ECHOEDVOICE"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "HYDROPUMP"
+
+[[raw_level_up_moves]]
+at_level = "51"
+name = "HYPERVOICE"
+
+[[evolutions]]
+into_name = "SEISMITOAD"
+condition = "Level"
+parameter = "36"
+
+[base_stats]
+hp = 75
+atk = 65
+def_ = 55
+spa = 65
+spd = 55
+spe = 69
+
+[ev_yield]
+hp = 2
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

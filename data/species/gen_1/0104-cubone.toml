@@ -1,0 +1,114 @@
+name = "Cubone"
+primary_type = "GROUND"
+secondary_type = "GROUND"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 64
+catch_rate = 190
+caught_happiness = 70
+raw_abilities = ["ROCKHEAD", "LIGHTNINGROD"]
+raw_egg_moves = ["ANCIENTPOWER", "BELLYDRUM", "CHIPAWAY", "CURSE", "DETECT", "DOUBLEKICK", "ENDURE", "IRONHEAD", "PERISHSONG", "SCREECH", "SKULLBASH"]
+raw_tms = ["STRENGTH", "TOXIC", "ROCKSMASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "PROTECT", "FRUSTRATION", "SMACKDOWN", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "FLAMETHROWER", "SANDSTORM", "FIREBLAST", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "FALSESWIPE", "FLING", "BRUTALSWING", "SWORDSDANCE", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "SCREECH", "BODYSLAM", "FOCUSENERGY", "ENDURE", "RETALIATE"]
+raw_tutor_moves = ["EARTHPOWER", "ENDEAVOR", "FIREPUNCH", "FOCUSPUNCH", "FURYCUTTER", "HEADBUTT", "ICYWIND", "IRONDEFENSE", "IRONHEAD", "IRONTAIL", "KNOCKOFF", "LOWKICK", "MUDSLAP", "SNORE", "STEALTHROCK", "THUNDERPUNCH", "UPROAR", "SCORCHINGSANDS", "MIMIC"]
+compatible_egg_groups = ["Monster"]
+steps_to_hatch = 5355
+height = 0.4
+weight = 6.5
+colour = "Brown"
+kind = "Lonely"
+pokedex_entry = "It pines for the mother it will never see again. Seeing a likeness of its mother in the full moon, it cries. The stains on the skull it wears are from its tears."
+battler_player_y = 29
+battler_enemy_y = 23
+battler_altitude = 0
+form_names = []
+internal_name = "CUBONE"
+raw_hidden_ability = "BATTLEARMOR"
+habitat = "Mountain"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "3"
+name = "TAILWHIP"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "BONECLUB"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "HEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "FOCUSENERGY"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "BONEMERANG"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "RAGE"
+
+[[raw_level_up_moves]]
+at_level = "27"
+name = "FALSESWIPE"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "THRASH"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "FLING"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "STOMPINGTANTRUM"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "ENDEAVOR"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "DOUBLEEDGE"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "RETALIATE"
+
+[[raw_level_up_moves]]
+at_level = "51"
+name = "BONERUSH"
+
+[[evolutions]]
+into_name = "MAROWAK"
+condition = "Level"
+parameter = "28"
+
+[base_stats]
+hp = 50
+atk = 50
+def_ = 95
+spa = 40
+spd = 50
+spe = 35
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 1
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "THICKCLUB"

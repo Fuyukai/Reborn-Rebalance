@@ -1,0 +1,91 @@
+name = "Florges"
+primary_type = "FAIRY"
+secondary_type = "FAIRY"
+gender_ratio = "AlwaysFemale"
+growth_rate = "Medium"
+exp_yield = 248
+catch_rate = 255
+caught_happiness = 70
+raw_abilities = ["FLOWERVEIL", "SYMBIOSIS"]
+raw_egg_moves = []
+raw_tms = ["CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "PSYCHIC", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "ENERGYBALL", "GIGAIMPACT", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "DAZZLINGGLEAM", "CONFIDE", "MAGICALLEAF", "GRASSYTERRAIN", "MISTYTERRAIN", "ENDURE", "TRAILBLAZE", "CHILLINGWATER"]
+raw_tutor_moves = ["AFTERYOU", "ALLYSWITCH", "COVET", "DEFOG", "ENDEAVOR", "GIGADRAIN", "HEALBELL", "HELPINGHAND", "MAGICCOAT", "SEEDBOMB", "SNORE", "SYNTHESIS", "WORRYSEED", "MIMIC"]
+compatible_egg_groups = ["Fairy"]
+steps_to_hatch = 5120
+height = 1.1
+weight = 10.0
+colour = "White"
+kind = "Garden"
+pokedex_entry = "It claims exquisite flower gardens as its territory, and it obtains power from basking in the energy emitted by flowering plants."
+battler_player_y = 13
+battler_enemy_y = 20
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "FLORGES"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DISARMINGVOICE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LUCKYCHANT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WISH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MAGICALLEAF"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FLOWERSHIELD"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GRASSKNOT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GRASSYTERRAIN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PETALBLIZZARD"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MISTYTERRAIN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MOONBLAST"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PETALDANCE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "AROMATHERAPY"
+
+[base_stats]
+hp = 78
+atk = 65
+def_ = 68
+spa = 112
+spd = 154
+spe = 75
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 3
+spe = 0
+
+[wild_items]

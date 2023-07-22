@@ -1,0 +1,113 @@
+name = "Croagunk"
+primary_type = "POISON"
+secondary_type = "FIGHTING"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 60
+catch_rate = 140
+caught_happiness = 100
+raw_abilities = ["ANTICIPATION", "DRYSKIN"]
+raw_egg_moves = ["ACUPRESSURE", "BULLETPUNCH", "COUNTER", "CROSSCHOP", "DRAINPUNCH", "DYNAMICPUNCH", "FAKEOUT", "FEINT", "HEADBUTT", "MEFIRST", "MEDITATE", "QUICKGUARD", "SMELLINGSALTS", "VACUUMWAVE", "WAKEUPSLAP"]
+raw_tms = ["WORKUP", "STRENGTH", "TOXIC", "ROCKSMASH", "BULKUP", "VENOSHOCK", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "PROTECT", "RAINDANCE", "FRUSTRATION", "EARTHQUAKE", "RETURN", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "SLUDGEWAVE", "SLUDGEBOMB", "ROCKTOMB", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "LOWSWEEP", "ROUND", "FOCUSBLAST", "FLING", "EMBARGO", "PAYBACK", "BULLDOZE", "ROCKSLIDE", "XSCISSOR", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "DARKPULSE", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "SCREECH", "REVENGE", "ASSURANCE", "ENDURE", "BATONPASS", "ENCORE", "NASTYPLOT", "VENOMDRENCH", "RETALIATE", "CHILLINGWATER"]
+raw_tutor_moves = ["BOUNCE", "DRAINPUNCH", "DUALCHOP", "FOCUSPUNCH", "FOULPLAY", "FURYCUTTER", "GUNKSHOT", "HEADBUTT", "HELPINGHAND", "ICEPUNCH", "ICYWIND", "KNOCKOFF", "LOWKICK", "MUDSLAP", "ROLEPLAY", "SNATCH", "SNORE", "SPITE", "SUCKERPUNCH", "SUPERFANG", "THUNDERPUNCH", "VACUUMWAVE", "COACHING", "LASHOUT", "MIMIC"]
+compatible_egg_groups = ["Humanlike"]
+steps_to_hatch = 2805
+height = 0.7
+weight = 23.0
+colour = "Blue"
+kind = "Toxic Mouth"
+pokedex_entry = "Its cheeks hold poison sacs. It tries to catch foes off guard to jab them with toxic fingers."
+battler_player_y = 26
+battler_enemy_y = 21
+battler_altitude = 0
+form_names = []
+internal_name = "CROAGUNK"
+raw_hidden_ability = "POISONTOUCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ASTONISH"
+
+[[raw_level_up_moves]]
+at_level = "3"
+name = "MUDSLAP"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "POISONSTING"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "TAUNT"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "PURSUIT"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "FEINTATTACK"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "REVENGE"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "SWAGGER"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "MUDBOMB"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "SUCKERPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "VENOSHOCK"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "NASTYPLOT"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "POISONJAB"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "SLUDGEBOMB"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "BELCH"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "FLATTER"
+
+[[evolutions]]
+into_name = "TOXICROAK"
+condition = "Level"
+parameter = "37"
+
+[base_stats]
+hp = 48
+atk = 61
+def_ = 40
+spa = 61
+spd = 40
+spe = 50
+
+[ev_yield]
+hp = 0
+atk = 1
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "BLACKSLUDGE"

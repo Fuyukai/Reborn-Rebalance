@@ -1,0 +1,114 @@
+name = "Yanma"
+primary_type = "BUG"
+secondary_type = "FLYING"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 78
+catch_rate = 75
+caught_happiness = 70
+raw_abilities = ["SPEEDBOOST", "COMPOUNDEYES"]
+raw_egg_moves = ["DOUBLEEDGE", "FEINT", "FEINTATTACK", "LEECHLIFE", "PURSUIT", "REVERSAL", "SECRETPOWER", "SIGNALBEAM", "SILVERWIND", "WHIRLWIND"]
+raw_tms = ["TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "ROOST", "ROOST", "FRUSTRATION", "SOLARBEAM", "RETURN", "LEECHLIFE", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "STEELWING", "DREAMEATER", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "SCREECH", "AIRSLASH", "AGILITY", "REVERSAL", "ENDURE", "BUGBUZZ", "SWIFT"]
+raw_tutor_moves = ["AIRCUTTER", "ANCIENTPOWER", "BUGBITE", "DEFOG", "GIGADRAIN", "HEADBUTT", "OMINOUSWIND", "SIGNALBEAM", "SNORE", "STRINGSHOT", "TAILWIND", "UPROAR", "MIMIC"]
+compatible_egg_groups = ["Bug"]
+steps_to_hatch = 5355
+height = 1.2
+weight = 38.0
+colour = "Red"
+kind = "Clear Wing"
+pokedex_entry = "It can see 360 degrees without moving its eyes. It is a great flier capable of making sudden stops and turning midair to quickly chase down targeted prey."
+battler_player_y = 29
+battler_enemy_y = 21
+battler_altitude = 15
+form_names = []
+internal_name = "YANMA"
+raw_hidden_ability = "FRISK"
+habitat = "Forest"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FORESIGHT"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "DOUBLETEAM"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "SONICBOOM"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "DETECT"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "SUPERSONIC"
+
+[[raw_level_up_moves]]
+at_level = "27"
+name = "UPROAR"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "PURSUIT"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "ANCIENTPOWER"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "HYPNOSIS"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "WINGATTACK"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "SCREECH"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "UTURN"
+
+[[raw_level_up_moves]]
+at_level = "54"
+name = "AIRSLASH"
+
+[[raw_level_up_moves]]
+at_level = "57"
+name = "BUGBUZZ"
+
+[[evolutions]]
+into_name = "YANMEGA"
+condition = "HasMove"
+parameter = "ANCIENTPOWER"
+
+[base_stats]
+hp = 65
+atk = 65
+def_ = 45
+spa = 75
+spd = 45
+spe = 95
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 1
+
+[wild_items]
+uncommon = "WIDELENS"

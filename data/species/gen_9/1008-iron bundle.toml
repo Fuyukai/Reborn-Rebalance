@@ -1,0 +1,104 @@
+name = "Iron Bundle"
+primary_type = "ICE"
+secondary_type = "WATER"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 156
+catch_rate = 50
+caught_happiness = 0
+raw_abilities = ["QUARKDRIVE"]
+raw_egg_moves = []
+raw_tms = ["SURF", "WATERFALL", "TOXIC", "HAIL", "HIDDENPOWER", "TAUNT", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "DOUBLETEAM", "FACADE", "REST", "ROUND", "FLING", "ACROBATICS", "GIGAIMPACT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "WHIRLPOOL", "BRINE", "AVALANCHE", "ELECTRICTERRAIN", "BODYSLAM", "HYDROPUMP", "AGILITY", "ENDURE", "ENCORE", "PLAYROUGH", "ICESPINNER", "SNOWSCAPE", "POUNCE", "CHILLINGWATER", "SWIFT"]
+raw_tutor_moves = ["AIRCUTTER", "HELPINGHAND", "ICEPUNCH", "ICYWIND", "LIQUIDATION", "WATERPULSE", "FLIPTURN", "TRIPLEAXEL", "STEELBEAM", "WAVECRASH", "ICEBALL", "MIMIC"]
+compatible_egg_groups = ["Undiscovered"]
+steps_to_hatch = 12800
+height = 0.6
+weight = 11.0
+colour = "Red"
+kind = "Paradox"
+pokedex_entry = "Its shape is similar to a robot featured in a paranormal magazine article. The robot was said to have been created by an ancient civilization."
+battler_player_y = 24
+battler_enemy_y = 17
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "IRONBUNDLE"
+habitat = "Rare"
+
+[[raw_level_up_moves]]
+at_level = " 1"
+name = "PRESENT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ELECTRICTERRAIN"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "POWDERSNOW"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "WHIRLPOOL"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "DRILLPECK"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "HELPINGHAND"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "FREEZEDRY"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "FLIPTURN"
+
+[[raw_level_up_moves]]
+at_level = "56"
+name = "ICEBEAM"
+
+[[raw_level_up_moves]]
+at_level = "63"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "70"
+name = "SNOWSCAPE"
+
+[[raw_level_up_moves]]
+at_level = "77"
+name = "HYDROPUMP"
+
+[[raw_level_up_moves]]
+at_level = "84"
+name = "AURORAVEIL"
+
+[[raw_level_up_moves]]
+at_level = "91"
+name = "BLIZZARD"
+
+[base_stats]
+hp = 56
+atk = 80
+def_ = 114
+spa = 124
+spd = 60
+spe = 136
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 3
+
+[wild_items]

@@ -1,0 +1,108 @@
+name = "Shelmet"
+primary_type = "BUG"
+secondary_type = "BUG"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 61
+catch_rate = 200
+caught_happiness = 70
+raw_abilities = ["HYDRATION", "SHELLARMOR"]
+raw_egg_moves = ["BATONPASS", "DOUBLEEDGE", "ENCORE", "ENDURE", "FEINT", "GUARDSPLIT", "MINDREADER", "MUDSLAP", "PURSUIT", "SPIKES", "TOXICSPIKES"]
+raw_tms = ["TOXIC", "VENOSHOCK", "HIDDENPOWER", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "LEECHLIFE", "DOUBLETEAM", "SLUDGEBOMB", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "STRUGGLEBUG", "INFESTATION", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "MUDSHOT", "GUARDSWAP", "BODYSLAM", "SPIKES", "ENDURE", "BATONPASS", "ENCORE", "TOXICSPIKES", "BUGBUZZ"]
+raw_tutor_moves = ["BUGBITE", "GASTROACID", "GIGADRAIN", "SIGNALBEAM", "SNORE", "SKITTERSMACK", "MIMIC"]
+compatible_egg_groups = ["Bug"]
+steps_to_hatch = 3840
+height = 0.4
+weight = 7.7
+colour = "Red"
+kind = "Snail"
+pokedex_entry = "It evolves when bathed in an electric-like energy along with Karrablast. The reason is still unknown."
+battler_player_y = 31
+battler_enemy_y = 36
+battler_altitude = 0
+form_names = []
+internal_name = "SHELMET"
+raw_hidden_ability = "OVERCOAT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ABSORB"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "ACID"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "BIDE"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "CURSE"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "STRUGGLEBUG"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "MEGADRAIN"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "YAWN"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "PROTECT"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "ACIDARMOR"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "GIGADRAIN"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "BODYSLAM"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "BUGBUZZ"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "RECOVER"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "GUARDSWAP"
+
+[[raw_level_up_moves]]
+at_level = "56"
+name = "FINALGAMBIT"
+
+[[evolutions]]
+into_name = "ACCELGOR"
+condition = "Trade"
+parameter = ""
+
+[base_stats]
+hp = 50
+atk = 40
+def_ = 85
+spa = 40
+spd = 65
+spe = 25
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 1
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

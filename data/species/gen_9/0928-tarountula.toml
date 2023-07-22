@@ -1,0 +1,103 @@
+name = "Tarountula"
+primary_type = "BUG"
+secondary_type = "BUG"
+gender_ratio = "Female50Percent"
+growth_rate = "Erratic"
+exp_yield = 58
+catch_rate = 255
+caught_happiness = 50
+raw_abilities = ["INSOMNIA", "STAKEOUT"]
+raw_egg_moves = ["FIRSTIMPRESSION", "LUNGE", "MEMENTO", "SUCKERPUNCH"]
+raw_tms = ["TOXIC", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "LEECHLIFE", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "THIEF", "FALSESWIPE", "SHADOWCLAW", "GYROBALL", "STRUGGLEBUG", "XSCISSOR", "INFESTATION", "POISONJAB", "GRASSKNOT", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "BULLETSEED", "BODYSLAM", "SPIKES", "ENDURE", "TOXICSPIKES", "BUGBUZZ", "POUNCE", "TRAILBLAZE"]
+raw_tutor_moves = ["GIGADRAIN", "ROLLOUT", "STRINGSHOT", "SUCKERPUNCH"]
+compatible_egg_groups = ["Bug"]
+steps_to_hatch = 3855
+height = 0.3
+weight = 4.0
+colour = "White"
+kind = "String Ball"
+pokedex_entry = "The ball of threads wrapped around its body is elastic enough to deflect the scythes of Scyther, this Pokémon’s natural enemy."
+battler_player_y = 14
+battler_enemy_y = 12
+battler_altitude = 0
+form_names = []
+internal_name = "TAROUNTULA"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "STRINGSHOT"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "STRUGGLEBUG"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "ASSURANCE"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "FEINT"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "BUGBITE"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "BLOCK"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "COUNTER"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "HEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "STICKYWEB"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "GASTROACID"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "CIRCLETHROW"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "THROATCHOP"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "SKITTERSMACK"
+
+[[evolutions]]
+into_name = "SPIDOPS"
+condition = "Level"
+parameter = "15"
+
+[base_stats]
+hp = 35
+atk = 41
+def_ = 45
+spa = 29
+spd = 40
+spe = 20
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 1
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

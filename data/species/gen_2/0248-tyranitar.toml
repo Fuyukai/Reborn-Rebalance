@@ -1,0 +1,124 @@
+name = "Tyranitar"
+primary_type = "ROCK"
+secondary_type = "DARK"
+gender_ratio = "Female50Percent"
+growth_rate = "Slow"
+exp_yield = 270
+catch_rate = 45
+caught_happiness = 35
+raw_abilities = ["SANDSTREAM", "UNNERVE"]
+raw_egg_moves = []
+raw_tms = ["CUT", "DRAGONCLAW", "SURF", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "SMACKDOWN", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "FLAMETHROWER", "SANDSTORM", "FIREBLAST", "ROCKTOMB", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "ROUND", "FOCUSBLAST", "FLING", "BRUTALSWING", "SHADOWCLAW", "PAYBACK", "GIGAIMPACT", "ROCKPOLISH", "STONEEDGE", "THUNDERWAVE", "BULLDOZE", "ROCKSLIDE", "DRAGONTAIL", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "SNARL", "DARKPULSE", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "SCREECH", "SCARYFACE", "WHIRLPOOL", "REVENGE", "SANDTOMB", "ROCKBLAST", "ASSURANCE", "AVALANCHE", "THUNDERFANG", "ICEFANG", "FIREFANG", "CRUNCH", "BREAKINGSWIPE", "BODYSLAM", "HYDROPUMP", "FOCUSENERGY", "ENDURE", "MUDDYWATER", "DRAGONDANCE", "POWERGEM", "HEAVYSLAM", "HIGHHORSEPOWER", "BODYPRESS", "RETALIATE"]
+raw_tutor_moves = ["ANCIENTPOWER", "AQUATAIL", "BLOCK", "DRAGONPULSE", "EARTHPOWER", "FIREPUNCH", "FOCUSPUNCH", "FOULPLAY", "FURYCUTTER", "HEADBUTT", "ICEPUNCH", "IRONDEFENSE", "IRONHEAD", "IRONTAIL", "LOWKICK", "MUDSLAP", "OUTRAGE", "SHOCKWAVE", "SNORE", "SPITE", "STEALTHROCK", "STOMPINGTANTRUM", "SUPERPOWER", "THUNDERPUNCH", "UPROAR", "WATERPULSE", "LASHOUT", "MIMIC"]
+compatible_egg_groups = ["Monster"]
+steps_to_hatch = 10455
+height = 2.0
+weight = 202.0
+colour = "Green"
+kind = "Armor"
+pokedex_entry = "A Tyranitar is so overwhelmingly strong, it can bring down a whole mountain to make its nest. It roams in mountains seeking new opponents to fight."
+battler_player_y = 9
+battler_enemy_y = 7
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "TYRANITAR"
+habitat = "Mountain"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "THUNDERFANG"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ICEFANG"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FIREFANG"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SANDSTORM"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SCREECH"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "SANDSTORM"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "SCREECH"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "CHIPAWAY"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "ROCKSLIDE"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "SCARYFACE"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "THRASH"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "DARKPULSE"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "PAYBACK"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "54"
+name = "EARTHQUAKE"
+
+[[raw_level_up_moves]]
+at_level = "63"
+name = "STONEEDGE"
+
+[[raw_level_up_moves]]
+at_level = "73"
+name = "HYPERBEAM"
+
+[[raw_level_up_moves]]
+at_level = "82"
+name = "GIGAIMPACT"
+
+[base_stats]
+hp = 100
+atk = 134
+def_ = 110
+spa = 95
+spd = 100
+spe = 61
+
+[ev_yield]
+hp = 0
+atk = 3
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

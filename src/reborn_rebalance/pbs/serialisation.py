@@ -5,7 +5,7 @@ from io import StringIO
 from pathlib import Path
 
 import cattrs
-from ruamel import yaml
+from tomlkit import load, dump
 
 from reborn_rebalance.pbs.move import MoveCategory, MoveFlag, MoveTarget, PokemonMove
 from reborn_rebalance.pbs.pokemon import (
@@ -41,10 +41,6 @@ GENERATIONS = [
     range(906, 1021),
 ]
 
-# round-trip parser is non-C and way slower.
-YAML = yaml.YAML(typ="rt")
-YAML.indent(mapping=4, offset=4, sequence=6)
-
 
 def create_cattrs_converter() -> cattrs.Converter:
     converter = cattrs.Converter()
@@ -63,6 +59,8 @@ def create_cattrs_converter() -> cattrs.Converter:
         converter.register_unstructure_hook(enum, lambda it: it.name)
 
     TechnicalMachine.add_unstructuring_hook(converter)
+    PokemonSpecies.add_unstructuring_hook(converter)
+    PokemonItem.add_unstructuring_hook(converter)
 
     return converter
 
@@ -70,18 +68,19 @@ def create_cattrs_converter() -> cattrs.Converter:
 CONVERTER = create_cattrs_converter()
 
 
-def load_single_species_yaml(path: Path) -> (int, PokemonSpecies):
+def load_single_species_toml(path: Path) -> (int, PokemonSpecies):
     """
-    Loads a single species from the provided YAML file.
+    Loads a single species from the provided TOML file.
 
     :return A tuple of (dex number, parsed species).
     """
 
     with path.open(encoding="utf-8", mode="r") as f:
-        data = YAML.load(f)
+        data = load(f)
 
-    key, obb = next(iter(data.items()))
-    return key, CONVERTER.structure(obb, PokemonSpecies)
+    idx = int(path.name.split("-", 1)[0])
+
+    return idx, CONVERTER.structure(data, PokemonSpecies)
 
 
 def load_all_species_from_pbs(path: Path) -> list[PokemonSpecies]:
@@ -93,9 +92,9 @@ def load_all_species_from_pbs(path: Path) -> list[PokemonSpecies]:
     return [PokemonSpecies.from_pbs(it) for it in raw_data]
 
 
-def load_all_species_from_yaml(path: Path) -> list[PokemonSpecies]:
+def load_all_species_from_toml(path: Path) -> list[PokemonSpecies]:
     """
-    Loads all species from the YAML directory, and returns them in Pokédex order.
+    Loads all species from the TOML directory, and returns them in Pokédex order.
     """
 
     to_read = []
@@ -107,7 +106,7 @@ def load_all_species_from_yaml(path: Path) -> list[PokemonSpecies]:
     species: list[PokemonSpecies] = [None] * len(to_read)  # type: ignore
     for path in to_read:
         print(f"LOAD: {path}")
-        idx, decoded = load_single_species_yaml(path)
+        idx, decoded = load_single_species_toml(path)
         species[idx - 1] = decoded
 
     if __debug__:
@@ -132,20 +131,20 @@ def save_all_species_to_pbs(path: Path, all_species: list[PokemonSpecies]):
     path.write_text(buffer.backing.getvalue(), encoding="utf-8")
 
 
-def save_single_species_to_yaml(output_path: Path, species: PokemonSpecies, dex: int):
+def save_single_species_to_toml(output_path: Path, species: PokemonSpecies, dex: int):
     """
-    Saves a single species to a YAML file.
+    Saves a single species to a TOML file.
     """
 
-    output = {dex: CONVERTER.unstructure(species)}
+    output = CONVERTER.unstructure(species)
 
     with output_path.open(encoding="utf-8", mode="w") as f:
-        YAML.dump(output, f)
+        dump(output, f)
 
 
-def save_all_species_to_yaml(output_path: Path, input_pokemon: list[PokemonSpecies]):
+def save_all_species_to_toml(output_path: Path, input_pokemon: list[PokemonSpecies]):
     """
-    Saves all species to the provided ``output_path`` in YAML format, divided by generation.
+    Saves all species to the provided ``output_path`` in TOML format, divided by generation.
     """
 
     for gen in range(0, 9):
@@ -161,13 +160,13 @@ def save_all_species_to_yaml(output_path: Path, input_pokemon: list[PokemonSpeci
             raise ValueError(f"unknown generation for pokemon #{idx}")
 
         name = f"{idx:04d}-{species.name.lower()}"
-        yaml_path = (output_path / f"gen_{gidx + 1}" / name).with_suffix(".yaml")
+        toml_path = (output_path / f"gen_{gidx + 1}" / name).with_suffix(".toml")
 
-        if yaml_path.exists():
+        if toml_path.exists():
             print(f"Not overwriting {name}")
             continue
 
-        save_single_species_to_yaml(yaml_path, species, idx)
+        save_single_species_to_toml(toml_path, species, idx)
         print(f"Saved {name}")
 
 
@@ -187,13 +186,13 @@ def load_moves_from_pbs(path: Path) -> list[PokemonMove]:
     return moves
 
 
-def load_moves_from_yaml(path: Path) -> list[PokemonMove]:
+def load_moves_from_toml(path: Path) -> list[PokemonMove]:
     """
-    Loads all moves from the providied ``moves.yaml`` file.
+    Loads all moves from the providied ``moves.TOML`` file.
     """
 
     with path.open(encoding="utf-8", mode="r") as f:
-        data = YAML.load(f)
+        data = load(f)["moves"]
 
     moves: list[PokemonMove] = []
     for move in data:
@@ -202,19 +201,19 @@ def load_moves_from_yaml(path: Path) -> list[PokemonMove]:
     return moves
 
 
-def save_moves_to_yaml(output_path: Path, moves: list[PokemonMove]):
+def save_moves_to_toml(output_path: Path, moves: list[PokemonMove]):
     """
-    Saves all moves to YAML.
+    Saves all moves to disk in the TOML format.
     """
 
     # sort the moves by internal ID first.
     # probably essentials doeesn't like it if you don't do this.
     moves = sorted(moves, key=lambda it: it.id)
 
-    output = CONVERTER.unstructure(moves)
+    output = {"moves": CONVERTER.unstructure(moves)}
 
     with output_path.open(encoding="utf-8", mode="w") as f:
-        YAML.dump(output, f)
+        dump(output, f)
 
 
 def save_moves_to_pbs(output_path: Path, moves: list[PokemonMove]):
@@ -247,13 +246,13 @@ def load_items_from_pbs(path: Path) -> list[PokemonItem]:
     return items
 
 
-def load_items_from_yaml(path: Path) -> list[PokemonItem]:
+def load_items_from_toml(path: Path) -> list[PokemonItem]:
     """
-    Loads all items from the provided ``items.yaml`` file.
+    Loads all items from the provided ``items.TOML`` file.
     """
 
     with path.open(encoding="utf-8", mode="r") as f:
-        data = YAML.load(f)
+        data = load(f)["items"]
 
     items: list[PokemonItem] = []
     for item in data:
@@ -276,16 +275,16 @@ def save_items_to_pbs(output_path: Path, items: list[PokemonItem]):
             writer.writerow(item.get_as_pbs_row())
 
 
-def save_items_to_yaml(output_path: Path, items: list[PokemonItem]):
+def save_items_to_toml(output_path: Path, items: list[PokemonItem]):
     """
-    Saves all items to YAML.
+    Saves all items to 
     """
 
     items = sorted(items, key=lambda it: it.id)
-    output = CONVERTER.unstructure(items)
+    output = {"items": CONVERTER.unstructure(items)}
 
     with output_path.open(encoding="utf-8", mode="w") as f:
-        YAML.dump(output, f)
+        dump(output, f)
 
 
 def load_tms_from_pbs(path: Path) -> list[TechnicalMachine]:
@@ -310,9 +309,9 @@ def load_tms_from_pbs(path: Path) -> list[TechnicalMachine]:
     return tms
 
 
-def load_tms_from_yaml(path: Path) -> list[TechnicalMachine]:
+def load_tms_from_toml(path: Path) -> list[TechnicalMachine]:
     """
-    Loads all TMs from the provided ``technical_machines.yaml`` file.
+    Loads all TMs from the provided ``technical_machines.TOML`` file.
 
     This produces full, complete TM objects.
     """
@@ -320,7 +319,7 @@ def load_tms_from_yaml(path: Path) -> list[TechnicalMachine]:
     tms: list[TechnicalMachine] = []
 
     with path.open(encoding="utf-8", mode="r") as f:
-        data = YAML.load(f)
+        data = load(f)
         real_data = data["tm"] + data["tutor"]
 
         for tm in real_data:
@@ -329,9 +328,9 @@ def load_tms_from_yaml(path: Path) -> list[TechnicalMachine]:
     return tms
 
 
-def save_tms_to_yaml(path: Path, tms: list[TechnicalMachine]):
+def save_tms_to_toml(path: Path, tms: list[TechnicalMachine]):
     """
-    Saves all TMs to YAML.
+    Saves all TMs to 
     """
 
     # fucking sort these properly
@@ -343,7 +342,7 @@ def save_tms_to_yaml(path: Path, tms: list[TechnicalMachine]):
     output = CONVERTER.unstructure(real_dict)
 
     with path.open(encoding="utf-8", mode="w") as f:
-        YAML.dump(output, f)
+        dump(output, f)
 
 
 def save_tms_to_pbs(path: Path, tms: list[TechnicalMachine]):

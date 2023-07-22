@@ -1,0 +1,137 @@
+name = "Primeape"
+primary_type = "FIGHTING"
+secondary_type = "FIGHTING"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 159
+catch_rate = 75
+caught_happiness = 70
+raw_abilities = ["VITALSPIRIT", "ANGERPOINT"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "STRENGTH", "TOXIC", "ROCKSMASH", "BULKUP", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "SMACKDOWN", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "LOWSWEEP", "ROUND", "OVERHEAT", "FOCUSBLAST", "FLING", "ACROBATICS", "PAYBACK", "GIGAIMPACT", "STONEEDGE", "PSYCHUP", "BULLDOZE", "ROCKSLIDE", "POISONJAB", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "PAYDAY", "DIG", "SCREECH", "SCARYFACE", "BEATUP", "REVENGE", "ASSURANCE", "BODYSLAM", "CLOSECOMBAT", "FOCUSENERGY", "METRONOME", "REVERSAL", "ENDURE", "ENCORE", "RETALIATE", "SWIFT"]
+raw_tutor_moves = ["COVET", "DUALCHOP", "ENDEAVOR", "FIREPUNCH", "FOCUSPUNCH", "GUNKSHOT", "HEADBUTT", "HELPINGHAND", "ICEPUNCH", "IRONTAIL", "LOWKICK", "MUDSLAP", "OUTRAGE", "ROLEPLAY", "SEEDBOMB", "SNORE", "SPITE", "STOMPINGTANTRUM", "THROATCHOP", "THUNDERPUNCH", "UPROAR", "VACUUMWAVE", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5355
+height = 1.0
+weight = 32.0
+colour = "Brown"
+kind = "Pig Monkey"
+pokedex_entry = "It has been known to become so angry that it dies as a result. Its face looks peaceful in death, however."
+battler_player_y = 21
+battler_enemy_y = 14
+battler_altitude = 0
+form_names = []
+internal_name = "PRIMEAPE"
+raw_hidden_ability = "DEFIANT"
+habitat = "Mountain"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "RAGE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FINALGAMBIT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FLING"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SCRATCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LOWKICK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FOCUSENERGY"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "FURYSWIPES"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "KARATECHOP"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "PURSUIT"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "SEISMICTOSS"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "SWAGGER"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "CROSSCHOP"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "ASSURANCE"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "PUNISHMENT"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "THRASH"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "CLOSECOMBAT"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "RAGEFIST"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "SCREECH"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "STOMPINGTANTRUM"
+
+[[raw_level_up_moves]]
+at_level = "53"
+name = "OUTRAGE"
+
+[[raw_level_up_moves]]
+at_level = "57"
+name = "FINALGAMBIT"
+
+[[evolutions]]
+into_name = "ANNIHILAPE"
+condition = "HasMove"
+parameter = "RAGEFIST"
+
+[base_stats]
+hp = 65
+atk = 105
+def_ = 60
+spa = 60
+spd = 70
+spe = 95
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

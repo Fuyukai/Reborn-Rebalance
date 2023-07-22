@@ -1,0 +1,113 @@
+name = "Overqwil"
+primary_type = "DARK"
+secondary_type = "POISON"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 88
+catch_rate = 45
+caught_happiness = 50
+raw_abilities = ["TOXICDEBRIS", "SWIFTSWIM"]
+raw_egg_moves = []
+raw_tms = ["TOXIC", "DIVE", "HAIL", "VENOSHOCK", "HIDDENPOWER", "TAUNT", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "SHADOWBALL", "DOUBLETEAM", "SLUDGEWAVE", "SLUDGEBOMB", "FACADE", "REST", "ATTRACT", "ROUND", "EXPLOSION", "PAYBACK", "THUNDERWAVE", "GYROBALL", "SWORDSDANCE", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "PINMISSILE", "SELFDESTRUCT", "SCARYFACE", "WHIRLPOOL", "REVENGE", "BRINE", "ASSURANCE", "HEX", "HYDROPUMP", "REVERSAL", "SPIKES", "ENDURE", "TOXICSPIKES", "VENOMDRENCH", "CHILLINGWATER", "SWIFT"]
+raw_tutor_moves = ["AQUATAIL", "BOUNCE", "HEADBUTT", "ICYWIND", "MUDSLAP", "PAINSPLIT", "SIGNALBEAM", "SNORE", "THROATCHOP", "WATERPULSE", "SCALESHOT", "STEELROLLER", "ICEBALL", "MIMIC", "POISONTAIL"]
+compatible_egg_groups = ["Water2"]
+steps_to_hatch = 5355
+height = 2.5
+weight = 60.5
+colour = "Black"
+kind = "Pin Cluster"
+pokedex_entry = "Its lancelike spikes and savage temperament have earned it the nickname \"sea fiend.\" It slurps up poison to nourish itself."
+battler_player_y = 25
+battler_enemy_y = 26
+battler_altitude = 12
+evolutions = []
+form_names = []
+internal_name = "OVERQWIL"
+raw_hidden_ability = "INTIMIDATE"
+habitat = "Sea"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POISONSTING"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "HARDEN"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "FELLSTINGER"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "MINIMIZE"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "SPIKES"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "BRINE"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "BARBBARRAGE"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "PINMISSILE"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "TOXICSPIKES"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "STOCKPILE"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "SPITUP"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "TOXIC"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "52"
+name = "ACUPRESSURE"
+
+[[raw_level_up_moves]]
+at_level = "56"
+name = "DESTINYBOND"
+
+[base_stats]
+hp = 85
+atk = 115
+def_ = 95
+spa = 65
+spd = 65
+spe = 85
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

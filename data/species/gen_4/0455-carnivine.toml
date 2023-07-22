@@ -1,0 +1,99 @@
+name = "Carnivine"
+primary_type = "GRASS"
+secondary_type = "GRASS"
+gender_ratio = "Female50Percent"
+growth_rate = "Slow"
+exp_yield = 159
+catch_rate = 200
+caught_happiness = 70
+raw_abilities = ["LEVITATE"]
+raw_egg_moves = ["ACIDSPRAY", "GIGADRAIN", "GRASSWHISTLE", "LEECHSEED", "MAGICALLEAF", "RAGEPOWDER", "RAZORLEAF", "SLAM", "SLEEPPOWDER", "STUNSPORE", "SYNTHESIS", "WORRYSEED"]
+raw_tms = ["CUT", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "SLUDGEBOMB", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ENERGYBALL", "FLING", "PAYBACK", "GIGAIMPACT", "SWORDSDANCE", "INFESTATION", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "MAGICALLEAF", "BULLETSEED", "CRUNCH", "POWERWHIP", "ENDURE", "HEAVYSLAM"]
+raw_tutor_moves = ["BIND", "BUGBITE", "DEFOG", "FURYCUTTER", "GASTROACID", "GIGADRAIN", "KNOCKOFF", "MUDSLAP", "SEEDBOMB", "SNORE", "SYNTHESIS", "THROATCHOP", "WORRYSEED", "MIMIC"]
+compatible_egg_groups = ["Grass"]
+steps_to_hatch = 6630
+height = 1.4
+weight = 27.0
+colour = "Green"
+kind = "Bug Catcher"
+pokedex_entry = "It attracts prey with its sweet-smelling saliva, then chomps down. It takes a whole day to eat prey."
+battler_player_y = 19
+battler_enemy_y = 13
+battler_altitude = 10
+evolutions = []
+form_names = []
+internal_name = "CARNIVINE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BIND"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWTH"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "VINEWHIP"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "SWEETSCENT"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "INGRAIN"
+
+[[raw_level_up_moves]]
+at_level = "27"
+name = "FEINTATTACK"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "LEAFTORNADO"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "STOCKPILE"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "SPITUP"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "SWALLOW"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "WRINGOUT"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "POWERWHIP"
+
+[base_stats]
+hp = 74
+atk = 100
+def_ = 72
+spa = 90
+spd = 72
+spe = 46
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

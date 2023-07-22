@@ -1,0 +1,116 @@
+name = "Swampert"
+primary_type = "WATER"
+secondary_type = "GROUND"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+exp_yield = 241
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["TORRENT", "DAMP"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "SURF", "STRENGTH", "ROAR", "WATERFALL", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "BULKUP", "ROCKCLIMB", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "SLUDGEWAVE", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "FOCUSBLAST", "SCALD", "FLING", "GIGAIMPACT", "STONEEDGE", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "WHIRLPOOL", "SANDTOMB", "MUDSHOT", "AVALANCHE", "BODYSLAM", "HYDROPUMP", "ENDURE", "MUDDYWATER", "DARKESTLARIAT", "HIGHHORSEPOWER", "BODYPRESS"]
+raw_tutor_moves = ["ANCIENTPOWER", "AQUATAIL", "EARTHPOWER", "ENDEAVOR", "FOCUSPUNCH", "HEADBUTT", "HYDROCANNON", "ICEPUNCH", "ICYWIND", "IRONTAIL", "LIQUIDATION", "LOWKICK", "MUDSLAP", "OUTRAGE", "ROLLOUT", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "SUPERPOWER", "UPROAR", "WATERPLEDGE", "WATERPULSE", "FLIPTURN", "WAVECRASH", "ICEBALL", "MIMIC"]
+compatible_egg_groups = ["Monster", "Water1"]
+steps_to_hatch = 5355
+height = 1.5
+weight = 81.9
+colour = "Blue"
+kind = "Mud Fish"
+pokedex_entry = "If it senses the approach of a storm and a tidal wave, it protects its seaside nest by piling up boulders. It swims as fast as a jet ski."
+battler_player_y = 18
+battler_enemy_y = 14
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "SWAMPERT"
+habitat = "WatersEdge"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MUDSHOT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HAMMERARM"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WATERGUN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MUDSLAP"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "WATERGUN"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "MUDSLAP"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "FORESIGHT"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "BIDE"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "MUDBOMB"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "ROCKSLIDE"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "PROTECT"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "MUDDYWATER"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "51"
+name = "EARTHQUAKE"
+
+[[raw_level_up_moves]]
+at_level = "56"
+name = "ENDEAVOR"
+
+[[raw_level_up_moves]]
+at_level = "63"
+name = "HAMMERARM"
+
+[base_stats]
+hp = 100
+atk = 110
+def_ = 90
+spa = 85
+spd = 90
+spe = 60
+
+[ev_yield]
+hp = 0
+atk = 3
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

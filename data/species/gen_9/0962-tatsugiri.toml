@@ -1,0 +1,91 @@
+name = "Tatsugiri"
+primary_type = "DRAGON"
+secondary_type = "WATER"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 164
+catch_rate = 100
+caught_happiness = 50
+raw_abilities = ["COMMANDER", "STORMDRAIN"]
+raw_egg_moves = ["COUNTER", "BATONPASS", "RAPIDSPIN"]
+raw_tms = ["SURF", "TOXIC", "DIVE", "HIDDENPOWER", "TAUNT", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "SCALD", "GIGAIMPACT", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "WHIRLPOOL", "HYDROPUMP", "ENDURE", "BATONPASS", "DRAGONDANCE", "NASTYPLOT", "CHILLINGWATER"]
+raw_tutor_moves = ["DRACOMETEOR", "DRAGONPULSE", "HELPINGHAND", "ICYWIND", "OUTRAGE", "TWISTER", "WATERPULSE"]
+compatible_egg_groups = ["Water2"]
+steps_to_hatch = 8995
+height = 0.3
+weight = 8.0
+colour = "Pink"
+kind = "Mimicry"
+pokedex_entry = "Bird Pokémon are its main prey. This Pokémon knows it’s weak, so it hunts with a partner."
+battler_player_y = 12
+battler_enemy_y = 12
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "TATSUGIRI"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WATERGUN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SPLASH"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "HARDEN"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "HELPINGHAND"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "WATERPULSE"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "SOAK"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "TAUNT"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "MEMENTO"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "MUDDYWATER"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "NASTYPLOT"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "MIRRORCOAT"
+
+[[raw_level_up_moves]]
+at_level = "52"
+name = "DRAGONPULSE"
+
+[base_stats]
+hp = 68
+atk = 50
+def_ = 60
+spa = 120
+spd = 95
+spe = 82
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 2
+spd = 0
+spe = 0
+
+[wild_items]

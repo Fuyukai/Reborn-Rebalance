@@ -1,0 +1,120 @@
+name = "Ferrothorn"
+primary_type = "GRASS"
+secondary_type = "STEEL"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 171
+catch_rate = 90
+caught_happiness = 70
+raw_abilities = ["IRONBARBS", "ANTICIPATION"]
+raw_egg_moves = []
+raw_tms = ["CUT", "STRENGTH", "TOXIC", "ROCKSMASH", "FLASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "FRUSTRATION", "SOLARBEAM", "THUNDERBOLT", "THUNDER", "RETURN", "DOUBLETEAM", "SANDSTORM", "AERIALACE", "FACADE", "REST", "ROUND", "ENERGYBALL", "BRUTALSWING", "EXPLOSION", "SHADOWCLAW", "PAYBACK", "GIGAIMPACT", "ROCKPOLISH", "THUNDERWAVE", "GYROBALL", "SWORDSDANCE", "BULLDOZE", "POISONJAB", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "PINMISSILE", "SELFDESTRUCT", "REVENGE", "BULLETSEED", "ASSURANCE", "POWERWHIP", "SPIKES", "ENDURE", "HEAVYSLAM", "PLAYROUGH", "BODYPRESS"]
+raw_tutor_moves = ["BLOCK", "ENDEAVOR", "GIGADRAIN", "GRAVITY", "IRONDEFENSE", "IRONHEAD", "KNOCKOFF", "MAGNETRISE", "SEEDBOMB", "SNORE", "STEALTHROCK", "WORRYSEED", "STEELROLLER", "STEELBEAM", "MIMIC"]
+compatible_egg_groups = ["Grass", "Mineral"]
+steps_to_hatch = 5120
+height = 1.0
+weight = 110.0
+colour = "Gray"
+kind = "Thorn Pod"
+pokedex_entry = "They attach themselves to cave ceilings, firing steel spikes at targets passing beneath them."
+battler_player_y = 29
+battler_enemy_y = 22
+battler_altitude = 1
+evolutions = []
+form_names = []
+internal_name = "FERROTHORN"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "POWERWHIP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ROCKCLIMB"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HARDEN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ROLLOUT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CURSE"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "ROLLOUT"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "CURSE"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "METALCLAW"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "PINMISSILE"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "GYROBALL"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "IRONDEFENSE"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "MIRRORSHOT"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "INGRAIN"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "SELFDESTRUCT"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "IRONHEAD"
+
+[[raw_level_up_moves]]
+at_level = "53"
+name = "PAYBACK"
+
+[[raw_level_up_moves]]
+at_level = "61"
+name = "FLASHCANNON"
+
+[[raw_level_up_moves]]
+at_level = "67"
+name = "EXPLOSION"
+
+[base_stats]
+hp = 74
+atk = 94
+def_ = 131
+spa = 54
+spd = 116
+spe = 20
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 2
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "STICKYBARB"

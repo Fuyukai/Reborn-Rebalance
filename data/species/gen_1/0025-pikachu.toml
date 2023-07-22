@@ -1,0 +1,133 @@
+name = "Pikachu"
+primary_type = "ELECTRIC"
+secondary_type = "ELECTRIC"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 105
+catch_rate = 190
+caught_happiness = 70
+raw_abilities = ["STATIC", "LIGHTNINGROD"]
+raw_egg_moves = []
+raw_tms = ["SURF", "CALMMIND", "STRENGTH", "TOXIC", "ROCKSMASH", "FLASH", "HIDDENPOWER", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "FLING", "CHARGEBEAM", "VOLTSWITCH", "THUNDERWAVE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "PAYDAY", "DIG", "CHARM", "DRAININGKISS", "ELECTRICTERRAIN", "BODYSLAM", "AGILITY", "REVERSAL", "ENDURE", "ENCORE", "NASTYPLOT", "ELECTROBALL", "PLAYROUGH", "TRAILBLAZE", "SWIFT"]
+raw_tutor_moves = ["COVET", "ELECTROWEB", "FOCUSPUNCH", "HEADBUTT", "HELPINGHAND", "IRONTAIL", "KNOCKOFF", "LASERFOCUS", "MAGNETRISE", "MUDSLAP", "ROLLOUT", "SHOCKWAVE", "SIGNALBEAM", "SNORE", "THUNDERPUNCH", "UPROAR", "VOLTTACKLE", "RISINGVOLTAGE", "EXTREMESPEED", "MIMIC", "CELEBRATE"]
+compatible_egg_groups = ["Field", "Fairy"]
+steps_to_hatch = 2805
+height = 0.4
+weight = 6.0
+colour = "Yellow"
+kind = "Mouse"
+pokedex_entry = "It stores electricity in the electric sacs on its cheeks. When it releases pent-up energy in a burst, the electric power is equal to a lightning bolt."
+battler_player_y = 27
+battler_enemy_y = 16
+battler_altitude = 0
+form_names = []
+internal_name = "PIKACHU"
+habitat = "Forest"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "EXTREMESPEED"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SING"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "YAWN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TAILWHIP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "THUNDERSHOCK"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "PLAYNICE"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "ELECTROBALL"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "THUNDERWAVE"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "FEINT"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "DOUBLETEAM"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "SPARK"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "NUZZLE"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "DISCHARGE"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "SLAM"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "THUNDERBOLT"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "WILDCHARGE"
+
+[[raw_level_up_moves]]
+at_level = "53"
+name = "LIGHTSCREEN"
+
+[[raw_level_up_moves]]
+at_level = "58"
+name = "THUNDER"
+
+[[evolutions]]
+into_name = "RAICHU"
+condition = "Item"
+parameter = "THUNDERSTONE"
+
+[base_stats]
+hp = 35
+atk = 55
+def_ = 40
+spa = 50
+spd = 50
+spe = 90
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 2
+
+[wild_items]
+rare = "LIGHTBALL"

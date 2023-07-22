@@ -1,0 +1,122 @@
+name = "Meloetta"
+primary_type = "NORMAL"
+secondary_type = "PSYCHIC"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 270
+catch_rate = 3
+caught_happiness = 100
+raw_abilities = ["SERENEGRACE"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "PSYSHOCK", "CALMMIND", "STRENGTH", "TOXIC", "ROCKSMASH", "FLASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "PSYCHIC", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "FACADE", "REST", "LOWSWEEP", "ROUND", "ECHOEDVOICE", "FOCUSBLAST", "ENERGYBALL", "FLING", "CHARGEBEAM", "ACROBATICS", "EMBARGO", "SHADOWCLAW", "PAYBACK", "GIGAIMPACT", "STONEEDGE", "THUNDERWAVE", "PSYCHUP", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "POWERUPPUNCH", "DAZZLINGGLEAM", "CONFIDE", "CLOSECOMBAT", "ENDURE", "RETALIATE"]
+raw_tutor_moves = ["ALLYSWITCH", "COVET", "DRAINPUNCH", "DUALCHOP", "FIREPUNCH", "FOCUSPUNCH", "GRAVITY", "HEALBELL", "HELPINGHAND", "HYPERVOICE", "ICEPUNCH", "KNOCKOFF", "LASERFOCUS", "LASTRESORT", "LOWKICK", "MAGICCOAT", "MAGICROOM", "RECYCLE", "RELICSONG", "ROLEPLAY", "SHOCKWAVE", "SIGNALBEAM", "SKILLSWAP", "SNATCH", "SNORE", "TELEKINESIS", "THUNDERPUNCH", "TRICK", "UPROAR", "WONDERROOM", "ZENHEADBUTT", "MIMIC", "CELEBRATE"]
+compatible_egg_groups = ["Undiscovered"]
+steps_to_hatch = 30720
+height = 0.6
+weight = 6.5
+colour = "White"
+kind = "Melody"
+pokedex_entry = "The melodies sung by Meloetta have the power to make Pokémon that hear them happy or sad."
+battler_player_y = 24
+battler_enemy_y = 28
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "MELOETTA"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "RELICSONG"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ROUND"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CONFUSION"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SING"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "CONFUSION"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "SING"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "TEETERDANCE"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "ACROBATICS"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "PSYBEAM"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "ECHOEDVOICE"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "UTURN"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "WAKEUPSLAP"
+
+[[raw_level_up_moves]]
+at_level = "57"
+name = "PSYCHIC"
+
+[[raw_level_up_moves]]
+at_level = "64"
+name = "HYPERVOICE"
+
+[[raw_level_up_moves]]
+at_level = "71"
+name = "ROLEPLAY"
+
+[[raw_level_up_moves]]
+at_level = "78"
+name = "CLOSECOMBAT"
+
+[[raw_level_up_moves]]
+at_level = "85"
+name = "PERISHSONG"
+
+[base_stats]
+hp = 100
+atk = 77
+def_ = 77
+spa = 128
+spd = 128
+spe = 90
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 1
+spd = 1
+spe = 1
+
+[wild_items]
+common = "STARPIECE"
+uncommon = "STARPIECE"
+rare = "STARPIECE"

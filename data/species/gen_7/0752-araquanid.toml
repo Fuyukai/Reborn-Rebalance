@@ -1,0 +1,116 @@
+name = "Araquanid"
+primary_type = "WATER"
+secondary_type = "BUG"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 159
+catch_rate = 100
+caught_happiness = 70
+raw_abilities = ["WATERBUBBLE", "WATERABSORB"]
+raw_egg_moves = []
+raw_tms = ["SURF", "WATERFALL", "TOXIC", "DIVE", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "RETURN", "LEECHLIFE", "DOUBLETEAM", "REFLECT", "FACADE", "REST", "ATTRACT", "ROUND", "SCALD", "FROSTBREATH", "XSCISSOR", "INFESTATION", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "CRUNCH", "HYDROPUMP", "ENDURE", "BUGBUZZ"]
+raw_tutor_moves = ["BUGBITE", "GIGADRAIN", "ICYWIND", "IRONDEFENSE", "LASERFOCUS", "LIQUIDATION", "MAGICCOAT", "MAGICROOM", "SIGNALBEAM", "SNORE", "WATERPULSE", "WONDERROOM", "SKITTERSMACK", "MIMIC"]
+compatible_egg_groups = ["Water1", "Bug"]
+steps_to_hatch = 3840
+height = 1.8
+weight = 82.0
+colour = "Green"
+kind = "Water Bubble"
+pokedex_entry = "Despite what its appearance suggests, it cares for others. If it finds weak, vulnerable Pokémon, it protects them and brings them into its water bubble."
+battler_player_y = 17
+battler_enemy_y = 21
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "ARAQUANID"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WIDEGUARD"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SOAK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BUBBLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "INFESTATION"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SPIDERWEB"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BUGBITE"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "INFESTATION"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "SPIDERWEB"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "BUGBITE"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "BUBBLEBEAM"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "AQUARING"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "LEECHLIFE"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "LUNGE"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "MIRRORCOAT"
+
+[[raw_level_up_moves]]
+at_level = "57"
+name = "LIQUIDATION"
+
+[[raw_level_up_moves]]
+at_level = "62"
+name = "ENTRAINMENT"
+
+[base_stats]
+hp = 68
+atk = 70
+def_ = 92
+spa = 50
+spd = 132
+spe = 42
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 2
+spe = 0
+
+[wild_items]
+uncommon = "MYSTICWATER"

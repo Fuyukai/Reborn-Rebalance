@@ -1,0 +1,80 @@
+name = "Exeggutor"
+primary_type = "GRASS"
+secondary_type = "PSYCHIC"
+gender_ratio = "Female50Percent"
+growth_rate = "Slow"
+exp_yield = 186
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["CHLOROPHYLL", "HARVEST"]
+raw_egg_moves = []
+raw_tms = ["PSYSHOCK", "CALMMIND", "STRENGTH", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "FRUSTRATION", "SOLARBEAM", "EARTHQUAKE", "RETURN", "PSYCHIC", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "SLUDGEBOMB", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ENERGYBALL", "BRUTALSWING", "EXPLOSION", "GIGAIMPACT", "SWORDSDANCE", "PSYCHUP", "BULLDOZE", "DRAGONTAIL", "INFESTATION", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "MAGICALLEAF", "SELFDESTRUCT", "BULLETSEED", "POWERSWAP", "PSYCHOCUT", "GRASSYTERRAIN", "BREAKINGSWIPE", "POWERWHIP", "LEAFSTORM", "ENDURE", "FUTURESIGHT"]
+raw_tutor_moves = ["ANCIENTPOWER", "BLOCK", "DRACOMETEOR", "DRAGONPULSE", "GIGADRAIN", "GRAVITY", "HEADBUTT", "IRONHEAD", "IRONTAIL", "KNOCKOFF", "LOWKICK", "OUTRAGE", "ROLLOUT", "SEEDBOMB", "SKILLSWAP", "SNORE", "STOMPINGTANTRUM", "SUPERPOWER", "SYNTHESIS", "TELEKINESIS", "WORRYSEED", "ZENHEADBUTT", "TERRAINPULSE", "GRASSYGLIDE", "EXPANDINGFORCE", "MIMIC", "CELEBRATE"]
+compatible_egg_groups = ["Grass"]
+steps_to_hatch = 5355
+height = 2.0
+weight = 120.0
+colour = "Yellow"
+kind = "Coconut"
+pokedex_entry = "Originally from the tropics, Exeggutor's heads grow larger from exposure to strong sunlight. When the heads fall, they group to form an Exeggcute."
+battler_player_y = 14
+battler_enemy_y = 5
+battler_altitude = 0
+evolutions = []
+form_names = ["Normal", "Alternate"]
+internal_name = "EXEGGUTOR"
+habitat = "Forest"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "STOMP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SEEDBOMB"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BARRAGE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HYPNOSIS"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CONFUSION"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "PSYSHOCK"
+
+[[raw_level_up_moves]]
+at_level = "27"
+name = "EGGBOMB"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "WOODHAMMER"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "LEAFSTORM"
+
+[base_stats]
+hp = 95
+atk = 95
+def_ = 85
+spa = 125
+spd = 75
+spe = 55
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 2
+spd = 0
+spe = 0
+
+[wild_items]

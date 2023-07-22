@@ -1,0 +1,127 @@
+name = "Staryu"
+primary_type = "WATER"
+secondary_type = "WATER"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 68
+catch_rate = 225
+caught_happiness = 70
+raw_abilities = ["ILLUMINATE", "NATURALCURE"]
+raw_egg_moves = []
+raw_tms = ["SURF", "WATERFALL", "TOXIC", "DIVE", "HAIL", "FLASH", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "PSYCHIC", "DOUBLETEAM", "REFLECT", "FACADE", "REST", "ROUND", "SCALD", "THUNDERWAVE", "GYROBALL", "PSYCHUP", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "DAZZLINGGLEAM", "CONFIDE", "WHIRLPOOL", "BRINE", "HYDROPUMP", "TRIATTACK", "ENDURE", "COSMICPOWER", "POWERGEM", "SWIFT"]
+raw_tutor_moves = ["GRAVITY", "ICYWIND", "MAGICCOAT", "PAINSPLIT", "RECYCLE", "ROLLOUT", "SIGNALBEAM", "SNORE", "TWISTER", "WATERPULSE", "FLIPTURN", "MIMIC"]
+compatible_egg_groups = ["Water3"]
+steps_to_hatch = 5355
+height = 0.8
+weight = 34.5
+colour = "Brown"
+kind = "Star Shape"
+pokedex_entry = "It gathers with others in the night and makes its red core glow on and off with the twinkling stars. It can regenerate limbs if they are severed from its body."
+battler_player_y = 27
+battler_enemy_y = 20
+battler_altitude = 0
+form_names = []
+internal_name = "STARYU"
+raw_hidden_ability = "ANALYTIC"
+habitat = "Sea"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HARDEN"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "WATERGUN"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "RAPIDSPIN"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "RECOVER"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "PSYWAVE"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "SWIFT"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "BUBBLEBEAM"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "CAMOUFLAGE"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "GYROBALL"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "BRINE"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "MINIMIZE"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "REFLECTTYPE"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "POWERGEM"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "CONFUSERAY"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "PSYCHIC"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "LIGHTSCREEN"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "COSMICPOWER"
+
+[[raw_level_up_moves]]
+at_level = "53"
+name = "HYDROPUMP"
+
+[[evolutions]]
+into_name = "STARMIE"
+condition = "Item"
+parameter = "WATERSTONE"
+
+[base_stats]
+hp = 30
+atk = 45
+def_ = 55
+spa = 70
+spd = 55
+spe = 85
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 1
+
+[wild_items]
+common = "STARDUST"
+uncommon = "STARPIECE"

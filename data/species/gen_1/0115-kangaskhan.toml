@@ -1,0 +1,105 @@
+name = "Kangaskhan"
+primary_type = "NORMAL"
+secondary_type = "NORMAL"
+gender_ratio = "AlwaysFemale"
+growth_rate = "Medium"
+exp_yield = 172
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["EARLYBIRD", "SCRAPPY"]
+raw_egg_moves = ["CIRCLETHROW", "COUNTER", "CRUSHCLAW", "DISABLE", "DOUBLEEDGE", "ENDEAVOR", "FOCUSENERGY", "FOCUSPUNCH", "FORESIGHT", "HAMMERARM", "STOMP", "TRUMPCARD", "UPROAR"]
+raw_tms = ["WORKUP", "CUT", "SURF", "STRENGTH", "ROAR", "TOXIC", "HAIL", "ROCKSMASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "FLAMETHROWER", "SANDSTORM", "FIREBLAST", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "FOCUSBLAST", "FLING", "SHADOWCLAW", "GIGAIMPACT", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "WHIRLPOOL", "BEATUP", "ASSURANCE", "AVALANCHE", "CRUNCH", "BODYSLAM", "HYDROPUMP", "FOCUSENERGY", "REVERSAL", "ENDURE", "RETALIATE"]
+raw_tutor_moves = ["AQUATAIL", "COVET", "DRAINPUNCH", "ENDEAVOR", "FIREPUNCH", "FOCUSPUNCH", "FURYCUTTER", "HEADBUTT", "HELPINGHAND", "ICEPUNCH", "ICYWIND", "IRONTAIL", "KNOCKOFF", "LOWKICK", "MUDSLAP", "OUTRAGE", "SHOCKWAVE", "SNORE", "SPITE", "THUNDERPUNCH", "UPROAR", "WATERPULSE", "TERRAINPULSE", "MIMIC"]
+compatible_egg_groups = ["Monster"]
+steps_to_hatch = 5355
+height = 2.2
+weight = 80.0
+colour = "Brown"
+kind = "Parent"
+pokedex_entry = "If you come across a young Kangaskhan playing by itself, never try to catch it. The baby's parent is sure to be in the area, and it will become violently enraged."
+battler_player_y = 12
+battler_enemy_y = 9
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "KANGASKHAN"
+raw_hidden_ability = "INNERFOCUS"
+habitat = "Grassland"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "COMETPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "FAKEOUT"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "TAILWHIP"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "DOUBLEHIT"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "RAGE"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "MEGAPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "CHIPAWAY"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "DIZZYPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "ENDURE"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "OUTRAGE"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "SUCKERPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "REVERSAL"
+
+[base_stats]
+hp = 105
+atk = 95
+def_ = 80
+spa = 40
+spd = 80
+spe = 90
+
+[ev_yield]
+hp = 2
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

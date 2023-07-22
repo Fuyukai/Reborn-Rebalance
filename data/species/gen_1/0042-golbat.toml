@@ -1,0 +1,124 @@
+name = "Golbat"
+primary_type = "POISON"
+secondary_type = "FLYING"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 159
+catch_rate = 90
+caught_happiness = 70
+raw_abilities = ["INNERFOCUS", "INFILTRATOR"]
+raw_egg_moves = []
+raw_tms = ["FLY", "TOXIC", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "FRUSTRATION", "RETURN", "LEECHLIFE", "SHADOWBALL", "DOUBLETEAM", "SLUDGEBOMB", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "STEELWING", "ACROBATICS", "PAYBACK", "GIGAIMPACT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "SCREECH", "ASSURANCE", "CRUNCH", "AIRSLASH", "BRAVEBIRD", "AGILITY", "ENDURE", "NASTYPLOT", "VENOMDRENCH", "SWIFT"]
+raw_tutor_moves = ["AIRCUTTER", "DEFOG", "GIGADRAIN", "HEATWAVE", "OMINOUSWIND", "SNATCH", "SNORE", "SUPERFANG", "TAILWIND", "TWISTER", "UPROAR", "ZENHEADBUTT", "DUALWINGBEAT", "MIMIC"]
+compatible_egg_groups = ["Flying"]
+steps_to_hatch = 4080
+height = 1.6
+weight = 55.0
+colour = "Purple"
+kind = "Bat"
+pokedex_entry = "Its fangs puncture even thick hide. It loves to feast on the blood of people and Pokémon. It flits about in darkness and strikes from behind."
+battler_player_y = 19
+battler_enemy_y = 13
+battler_altitude = 12
+form_names = []
+internal_name = "GOLBAT"
+habitat = "Cave"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SCREECH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ABSORB"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SUPERSONIC"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ASTONISH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "SUPERSONIC"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "ASTONISH"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "WINGATTACK"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "CONFUSERAY"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "AIRCUTTER"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "SWIFT"
+
+[[raw_level_up_moves]]
+at_level = "27"
+name = "POISONFANG"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "MEANLOOK"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "LEECHLIFE"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "HAZE"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "VENOSHOCK"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "AIRSLASH"
+
+[[raw_level_up_moves]]
+at_level = "51"
+name = "QUICKGUARD"
+
+[[evolutions]]
+into_name = "CROBAT"
+condition = "Happiness"
+parameter = ""
+
+[base_stats]
+hp = 75
+atk = 80
+def_ = 70
+spa = 65
+spd = 75
+spe = 90
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 2
+
+[wild_items]

@@ -1,0 +1,133 @@
+name = "Maractus"
+primary_type = "GRASS"
+secondary_type = "GRASS"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 161
+catch_rate = 255
+caught_happiness = 70
+raw_abilities = ["WATERABSORB", "CHLOROPHYLL"]
+raw_egg_moves = ["BOUNCE", "BULLETSEED", "GRASSWHISTLE", "GRASSYTERRAIN", "LEECHSEED", "SEEDBOMB", "SPIKES", "WOODHAMMER", "WORRYSEED"]
+raw_tms = ["TOXIC", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "POISONJAB", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "PINMISSILE", "SCREECH", "WEATHERBALL", "BULLETSEED", "ASSURANCE", "GRASSYTERRAIN", "LEAFSTORM", "SPIKES", "ENDURE"]
+raw_tutor_moves = ["AFTERYOU", "BOUNCE", "DRAINPUNCH", "ENDEAVOR", "GIGADRAIN", "HELPINGHAND", "HYPERVOICE", "KNOCKOFF", "SEEDBOMB", "SNORE", "SUCKERPUNCH", "SYNTHESIS", "THROATCHOP", "UPROAR", "WORRYSEED", "GRASSYGLIDE", "MIMIC"]
+compatible_egg_groups = ["Grass"]
+steps_to_hatch = 5120
+height = 1.0
+weight = 28.0
+colour = "Green"
+kind = "Cactus"
+pokedex_entry = "Arid regions are their habitat. They move rhythmically, making a sound similar to maracas."
+battler_player_y = 14
+battler_enemy_y = 15
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "MARACTUS"
+raw_hidden_ability = "STORMDRAIN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SPIKYSHIELD"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "COTTONGUARD"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "AFTERYOU"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PECK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ABSORB"
+
+[[raw_level_up_moves]]
+at_level = "3"
+name = "SWEETSCENT"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "GROWTH"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "PINMISSILE"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "MEGADRAIN"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "SYNTHESIS"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "COTTONSPORE"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "NEEDLEARM"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "GIGADRAIN"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "ACUPRESSURE"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "INGRAIN"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "PETALDANCE"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "SUCKERPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "SUNNYDAY"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "PETALBLIZZARD"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "SOLARBEAM"
+
+[[raw_level_up_moves]]
+at_level = "55"
+name = "COTTONGUARD"
+
+[[raw_level_up_moves]]
+at_level = "57"
+name = "AFTERYOU"
+
+[base_stats]
+hp = 75
+atk = 86
+def_ = 67
+spa = 106
+spd = 67
+spe = 60
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 2
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "MIRACLESEED"

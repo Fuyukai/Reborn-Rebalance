@@ -1,0 +1,99 @@
+name = "Clauncher"
+primary_type = "WATER"
+secondary_type = "WATER"
+gender_ratio = "Female50Percent"
+growth_rate = "Slow"
+exp_yield = 66
+catch_rate = 155
+caught_happiness = 70
+raw_abilities = ["MEGALAUNCHER"]
+raw_egg_moves = ["AQUAJET", "CRABHAMMER", "ENDURE", "ENTRAINMENT", "HELPINGHAND"]
+raw_tms = ["CUT", "SURF", "WATERFALL", "TOXIC", "DIVE", "VENOSHOCK", "HIDDENPOWER", "ICEBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "SMACKDOWN", "RETURN", "DOUBLETEAM", "SLUDGEWAVE", "SLUDGEBOMB", "FACADE", "REST", "ATTRACT", "ROUND", "SCALD", "SWORDSDANCE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "CONFIDE", "ENDURE", "MUDDYWATER", "POUNCE", "CHILLINGWATER"]
+raw_tutor_moves = ["AQUATAIL", "BOUNCE", "DRAGONPULSE", "HELPINGHAND", "ICYWIND", "IRONTAIL", "SNORE", "WATERPULSE", "TERRAINPULSE", "FLIPTURN", "MIMIC"]
+compatible_egg_groups = ["Water1", "Water3"]
+steps_to_hatch = 3840
+height = 0.5
+weight = 8.3
+colour = "Blue"
+kind = "Water Gun"
+pokedex_entry = "They knock down flying prey by firing compressed water from their massive claws like shooting a pistol."
+battler_player_y = 26
+battler_enemy_y = 31
+battler_altitude = 0
+form_names = []
+internal_name = "CLAUNCHER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SPLASH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WATERGUN"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "WATERSPORT"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "VICEGRIP"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "BUBBLE"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "FLAIL"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "BUBBLEBEAM"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "SWORDSDANCE"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "CRABHAMMER"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "WATERPULSE"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "SMACKDOWN"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "AQUAJET"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "MUDDYWATER"
+
+[[evolutions]]
+into_name = "CLAWITZER"
+condition = "Level"
+parameter = "37"
+
+[base_stats]
+hp = 50
+atk = 53
+def_ = 62
+spa = 58
+spd = 63
+spe = 44
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 1
+spd = 0
+spe = 0
+
+[wild_items]

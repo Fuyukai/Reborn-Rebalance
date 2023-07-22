@@ -1,0 +1,107 @@
+name = "Monferno"
+primary_type = "FIRE"
+secondary_type = "FIGHTING"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+exp_yield = 142
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["BLAZE", "IRONFIST"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "CUT", "STRENGTH", "TOXIC", "ROCKSMASH", "BULKUP", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "PROTECT", "FRUSTRATION", "RETURN", "BRICKBREAK", "DOUBLETEAM", "FLAMETHROWER", "FIREBLAST", "ROCKTOMB", "AERIALACE", "TORMENT", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "LOWSWEEP", "ROUND", "OVERHEAT", "FOCUSBLAST", "FLING", "WILLOWISP", "ACROBATICS", "SHADOWCLAW", "SWORDSDANCE", "ROCKSLIDE", "POISONJAB", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "FIRESPIN", "DIG", "FLAREBLITZ", "CLOSECOMBAT", "FOCUSENERGY", "ENDURE", "ENCORE", "BLAZEKICK", "NASTYPLOT", "RETALIATE", "SWIFT"]
+raw_tutor_moves = ["COVET", "DUALCHOP", "ENDEAVOR", "FIREPLEDGE", "FIREPUNCH", "FOCUSPUNCH", "GUNKSHOT", "HEADBUTT", "HEATWAVE", "HELPINGHAND", "IRONTAIL", "LOWKICK", "MUDSLAP", "ROLEPLAY", "ROLLOUT", "SNORE", "STEALTHROCK", "THUNDERPUNCH", "VACUUMWAVE", "MIMIC"]
+compatible_egg_groups = ["Field", "Humanlike"]
+steps_to_hatch = 5355
+height = 0.9
+weight = 22.0
+colour = "Brown"
+kind = "Playful"
+pokedex_entry = "To intimidate attackers, it stretches the fire on its tail to make itself appear bigger."
+battler_player_y = 21
+battler_enemy_y = 15
+battler_altitude = 0
+form_names = []
+internal_name = "MONFERNO"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "MACHPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SCRATCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "EMBER"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "EMBER"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "TAUNT"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "FURYSWIPES"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "FLAMEWHEEL"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "FEINT"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "TORMENT"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "CLOSECOMBAT"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "FIRESPIN"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "ACROBATICS"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "SLACKOFF"
+
+[[raw_level_up_moves]]
+at_level = "56"
+name = "FLAREBLITZ"
+
+[[evolutions]]
+into_name = "INFERNAPE"
+condition = "Level"
+parameter = "36"
+
+[base_stats]
+hp = 64
+atk = 78
+def_ = 52
+spa = 78
+spd = 52
+spe = 81
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 1
+spd = 0
+spe = 1
+
+[wild_items]

@@ -1,0 +1,60 @@
+name = "Raichu"
+primary_type = "ELECTRIC"
+secondary_type = "ELECTRIC"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 214
+catch_rate = 75
+caught_happiness = 70
+raw_abilities = ["STATIC", "LIGHTNINGROD"]
+raw_egg_moves = []
+raw_tms = ["PSYSHOCK", "SURF", "CALMMIND", "STRENGTH", "TOXIC", "ROCKSMASH", "FLASH", "HIDDENPOWER", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "PSYCHIC", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "FOCUSBLAST", "FLING", "CHARGEBEAM", "BRUTALSWING", "GIGAIMPACT", "VOLTSWITCH", "THUNDERWAVE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "PAYDAY", "DIG", "CHARM", "SPEEDSWAP", "DRAININGKISS", "ELECTRICTERRAIN", "EERIEIMPULSE", "BODYSLAM", "AGILITY", "REVERSAL", "ENDURE", "ENCORE", "FUTURESIGHT", "NASTYPLOT", "ELECTROBALL", "STOREDPOWER", "PLAYROUGH", "TRAILBLAZE", "SWIFT"]
+raw_tutor_moves = ["ALLYSWITCH", "COVET", "ELECTROWEB", "FOCUSPUNCH", "HEADBUTT", "HELPINGHAND", "IRONTAIL", "KNOCKOFF", "LASERFOCUS", "MAGICCOAT", "MAGICROOM", "MAGNETRISE", "MUDSLAP", "RECYCLE", "ROLLOUT", "SHOCKWAVE", "SIGNALBEAM", "SNORE", "TELEKINESIS", "THUNDERPUNCH", "UPROAR", "RISINGVOLTAGE", "EXPANDINGFORCE", "EXTREMESPEED", "MIMIC"]
+compatible_egg_groups = ["Field", "Fairy"]
+steps_to_hatch = 2805
+height = 0.8
+weight = 30.0
+colour = "Yellow"
+kind = "Mouse"
+pokedex_entry = "If it stores too much electricity, its behavior turns aggressive. To avoid this, it occasionally discharges excess energy and calms itself down."
+battler_player_y = 15
+battler_enemy_y = 9
+battler_altitude = 0
+evolutions = []
+form_names = ["Normal", "Alternate"]
+internal_name = "RAICHU"
+habitat = "Forest"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "THUNDERSHOCK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TAILWHIP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "THUNDERBOLT"
+
+[base_stats]
+hp = 60
+atk = 90
+def_ = 55
+spa = 90
+spd = 80
+spe = 110
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 3
+
+[wild_items]

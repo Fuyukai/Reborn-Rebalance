@@ -1,0 +1,92 @@
+name = "Hippopotas"
+primary_type = "GROUND"
+secondary_type = "GROUND"
+gender_ratio = "Female50Percent"
+growth_rate = "Slow"
+exp_yield = 66
+catch_rate = 140
+caught_happiness = 70
+raw_abilities = ["SANDSTREAM", "SANDFORCE"]
+raw_egg_moves = ["BODYSLAM", "CURSE", "REVENGE", "SANDTOMB", "SLACKOFF", "SLEEPTALK", "SPITUP", "STOCKPILE", "SWALLOW", "WHIRLWIND"]
+raw_tms = ["STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "FRUSTRATION", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "SANDSTORM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "REVENGE", "WEATHERBALL", "SANDTOMB", "MUDSHOT", "CRUNCH", "BODYSLAM", "AMNESIA", "ENDURE", "MUDDYWATER", "HIGHHORSEPOWER"]
+raw_tutor_moves = ["EARTHPOWER", "HEADBUTT", "IRONTAIL", "MUDSLAP", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "SUPERPOWER", "WATERPULSE", "SCORCHINGSANDS", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 7905
+height = 0.8
+weight = 49.5
+colour = "Brown"
+kind = "Hippo"
+pokedex_entry = "It lives in arid places. Instead of perspiration, it expels grainy sand from its body."
+battler_player_y = 26
+battler_enemy_y = 22
+battler_altitude = 0
+form_names = []
+internal_name = "HIPPOPOTAS"
+raw_hidden_ability = "EARTHEATER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SANDATTACK"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "YAWN"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "DIG"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "SANDTOMB"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "EARTHQUAKE"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "DOUBLEEDGE"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "FISSURE"
+
+[[evolutions]]
+into_name = "HIPPOWDON"
+condition = "Level"
+parameter = "34"
+
+[base_stats]
+hp = 68
+atk = 72
+def_ = 78
+spa = 38
+spd = 42
+spe = 32
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 1
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

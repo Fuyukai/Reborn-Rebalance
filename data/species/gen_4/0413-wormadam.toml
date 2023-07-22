@@ -1,0 +1,116 @@
+name = "Wormadam"
+primary_type = "BUG"
+secondary_type = "GRASS"
+gender_ratio = "AlwaysFemale"
+growth_rate = "Medium"
+exp_yield = 148
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["ANTICIPATION", "OVERCOAT"]
+raw_egg_moves = []
+raw_tms = ["TOXIC", "FLASH", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "EARTHQUAKE", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "SANDSTORM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ENERGYBALL", "GIGAIMPACT", "GYROBALL", "STRUGGLEBUG", "PSYCHUP", "BULLDOZE", "INFESTATION", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "CONFIDE", "DIG", "BULLETSEED", "ROCKBLAST", "LEAFSTORM", "ENDURE", "FUTURESIGHT", "COSMICPOWER", "BUGBUZZ"]
+raw_tutor_moves = ["ALLYSWITCH", "BUGBITE", "EARTHPOWER", "ELECTROWEB", "ENDEAVOR", "GIGADRAIN", "GUNKSHOT", "IRONDEFENSE", "IRONHEAD", "MAGNETRISE", "MUDSLAP", "ROLLOUT", "SEEDBOMB", "SIGNALBEAM", "SKILLSWAP", "SNORE", "STEALTHROCK", "STRINGSHOT", "SUCKERPUNCH", "SYNTHESIS", "TELEKINESIS", "UPROAR", "WORRYSEED", "MIMIC"]
+compatible_egg_groups = ["Bug"]
+steps_to_hatch = 4080
+height = 0.5
+weight = 6.5
+colour = "Gray"
+kind = "Bagworm"
+pokedex_entry = "When Burmy evolved, its cloak became a part of this Pokémon's body. The cloak is never shed."
+battler_player_y = 22
+battler_enemy_y = 17
+battler_altitude = 12
+evolutions = []
+form_names = ["Plant Cloak", "Sandy Cloak", "Trash Cloak"]
+internal_name = "WORMADAM"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "QUIVERDANCE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SUCKERPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PROTECT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BUGBITE"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "PROTECT"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "BUGBITE"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "HIDDENPOWER"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "CONFUSION"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "RAZORLEAF"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "GROWTH"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "PSYBEAM"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "CAPTIVATE"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "FLAIL"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "ATTRACT"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "PSYCHIC"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "LEAFSTORM"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "BUGBUZZ"
+
+[base_stats]
+hp = 60
+atk = 59
+def_ = 85
+spa = 79
+spd = 105
+spe = 36
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 2
+spe = 0
+
+[wild_items]
+uncommon = "SILVERPOWDER"

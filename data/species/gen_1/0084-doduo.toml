@@ -1,0 +1,114 @@
+name = "Doduo"
+primary_type = "NORMAL"
+secondary_type = "FLYING"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 62
+catch_rate = 190
+caught_happiness = 70
+raw_abilities = ["RUNAWAY", "EARLYBIRD"]
+raw_egg_moves = ["ASSURANCE", "BRAVEBIRD", "ENDEAVOR", "FEINTATTACK", "FLAIL", "HAZE", "MIRRORMOVE", "NATURALGIFT", "QUICKATTACK", "SUPERSONIC"]
+raw_tms = ["WORKUP", "FLY", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "ROOST", "ROOST", "FRUSTRATION", "RETURN", "DOUBLETEAM", "REFLECT", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "STEELWING", "SWORDSDANCE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "ASSURANCE", "BODYSLAM", "BRAVEBIRD", "AGILITY", "TRIATTACK", "ENDURE", "HIGHHORSEPOWER", "SWIFT"]
+raw_tutor_moves = ["AIRCUTTER", "ENDEAVOR", "KNOCKOFF", "MUDSLAP", "SKYATTACK", "SNORE", "UPROAR", "MIMIC"]
+compatible_egg_groups = ["Flying"]
+steps_to_hatch = 5355
+height = 1.4
+weight = 39.2
+colour = "Brown"
+kind = "Twin Bird"
+pokedex_entry = "Even while eating or sleeping, one of the heads remains always vigilant for any sign of danger. When threatened, it flees at over 60 miles per hour."
+battler_player_y = 21
+battler_enemy_y = 15
+battler_altitude = 0
+form_names = []
+internal_name = "DODUO"
+raw_hidden_ability = "TANGLEDFEET"
+habitat = "Grassland"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PECK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "RAGE"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "FURYATTACK"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "PURSUIT"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "PLUCK"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "DOUBLEHIT"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "UPROAR"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "ACUPRESSURE"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "SWORDSDANCE"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "JUMPKICK"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "DRILLPECK"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "ENDEAVOR"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "THRASH"
+
+[[evolutions]]
+into_name = "DODRIO"
+condition = "Level"
+parameter = "31"
+
+[base_stats]
+hp = 35
+atk = 85
+def_ = 45
+spa = 35
+spd = 35
+spe = 75
+
+[ev_yield]
+hp = 0
+atk = 1
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "SHARPBEAK"

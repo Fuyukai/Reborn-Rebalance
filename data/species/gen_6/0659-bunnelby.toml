@@ -1,0 +1,112 @@
+name = "Bunnelby"
+primary_type = "NORMAL"
+secondary_type = "NORMAL"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 47
+catch_rate = 255
+caught_happiness = 70
+raw_abilities = ["PICKUP", "CHEEKPOUCH"]
+raw_egg_moves = ["DEFENSECURL", "ROLLOUT", "SPIKES"]
+raw_tms = ["WORKUP", "CUT", "SURF", "STRENGTH", "TOXIC", "ROCKSMASH", "BULKUP", "HIDDENPOWER", "PROTECT", "FRUSTRATION", "SMACKDOWN", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "SLUDGEBOMB", "SANDSTORM", "ROCKTOMB", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "FLING", "PAYBACK", "STONEEDGE", "SWORDSDANCE", "BULLDOZE", "ROCKSLIDE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "NATUREPOWER", "POWERUPPUNCH", "CONFIDE", "DIG", "MUDSHOT", "AGILITY", "SPIKES", "ENDURE", "PLAYROUGH"]
+raw_tutor_moves = ["BOUNCE", "ENDEAVOR", "IRONHEAD", "IRONTAIL", "LASTRESORT", "MUDSLAP", "RECYCLE", "SNORE", "SUPERFANG", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 3840
+height = 0.4
+weight = 5.0
+colour = "Brown"
+kind = "Digging"
+pokedex_entry = "It has ears like shovels. Digging holes strengthens its ears so much that they can sever thick roots effortlessly."
+battler_player_y = 17
+battler_enemy_y = 12
+battler_altitude = 0
+form_names = []
+internal_name = "BUNNELBY"
+raw_hidden_ability = "HUGEPOWER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "DOUBLESLAP"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "MUDSLAP"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "MUDSHOT"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "DOUBLEKICK"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "ODORSLEUTH"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "FLAIL"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "DIG"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "BOUNCE"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "SUPERFANG"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "FACADE"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "EARTHQUAKE"
+
+[[evolutions]]
+into_name = "DIGGERSBY"
+condition = "Level"
+parameter = "20"
+
+[base_stats]
+hp = 38
+atk = 36
+def_ = 38
+spa = 32
+spd = 36
+spe = 57
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 1
+
+[wild_items]

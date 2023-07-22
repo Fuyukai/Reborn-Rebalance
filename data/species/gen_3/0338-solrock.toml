@@ -1,0 +1,114 @@
+name = "Solrock"
+primary_type = "ROCK"
+secondary_type = "PSYCHIC"
+gender_ratio = "Genderless"
+growth_rate = "Fast"
+exp_yield = 161
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["LEVITATE"]
+raw_egg_moves = []
+raw_tms = ["PSYSHOCK", "CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "SMACKDOWN", "EARTHQUAKE", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "SANDSTORM", "FIREBLAST", "ROCKTOMB", "FACADE", "REST", "ROUND", "OVERHEAT", "CHARGEBEAM", "WILLOWISP", "ACROBATICS", "EMBARGO", "EXPLOSION", "GIGAIMPACT", "ROCKPOLISH", "STONEEDGE", "GYROBALL", "SWORDSDANCE", "PSYCHUP", "BULLDOZE", "ROCKSLIDE", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "CONFIDE", "FIRESPIN", "SELFDESTRUCT", "WEATHERBALL", "SANDTOMB", "ROCKBLAST", "POWERSWAP", "PSYCHICTERRAIN", "BODYSLAM", "FLAREBLITZ", "ENDURE", "BATONPASS", "COSMICPOWER", "STOREDPOWER", "SWIFT"]
+raw_tutor_moves = ["ALLYSWITCH", "ANCIENTPOWER", "EARTHPOWER", "GRAVITY", "HEATWAVE", "HELPINGHAND", "IRONDEFENSE", "IRONHEAD", "LASERFOCUS", "MAGICCOAT", "PAINSPLIT", "RECYCLE", "ROLLOUT", "SIGNALBEAM", "SKILLSWAP", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "TELEKINESIS", "WONDERROOM", "ZENHEADBUTT", "METEORBEAM", "MIMIC"]
+compatible_egg_groups = ["Mineral"]
+steps_to_hatch = 6630
+height = 1.2
+weight = 154.0
+colour = "Red"
+kind = "Meteorite"
+pokedex_entry = "Solar energy is the source of this Pokémon's power. On sunny days, groups of Solrock line up facing the sun and absorb its light."
+battler_player_y = 16
+battler_enemy_y = 9
+battler_altitude = 13
+evolutions = []
+form_names = []
+internal_name = "SOLROCK"
+habitat = "Cave"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FLAREBLITZ"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HARDEN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CONFUSION"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ROCKTHROW"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "FIRESPIN"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "ROCKPOLISH"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "PSYWAVE"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "EMBARGO"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "ROCKSLIDE"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "COSMICPOWER"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "PSYCHIC"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "HEALBLOCK"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "STONEEDGE"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "SOLARBEAM"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "EXPLOSION"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "WONDERROOM"
+
+[base_stats]
+hp = 90
+atk = 95
+def_ = 85
+spa = 55
+spd = 65
+spe = 70
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+common = "STARDUST"
+uncommon = "SUNSTONE"

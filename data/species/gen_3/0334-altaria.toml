@@ -1,0 +1,136 @@
+name = "Altaria"
+primary_type = "DRAGON"
+secondary_type = "FLYING"
+gender_ratio = "Female50Percent"
+growth_rate = "Erratic"
+exp_yield = 172
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["NATURALCURE", "CLOUDNINE"]
+raw_egg_moves = []
+raw_tms = ["DRAGONCLAW", "FLY", "ROAR", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "HYPERBEAM", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "FLAMETHROWER", "FIREBLAST", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "STEELWING", "FALSESWIPE", "GIGAIMPACT", "PSYCHUP", "BULLDOZE", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "DAZZLINGGLEAM", "CONFIDE", "FIRESPIN", "POWERSWAP", "BREAKINGSWIPE", "BODYSLAM", "HURRICANE", "AGILITY", "ENDURE", "DRAGONDANCE", "PLAYROUGH", "SNOWSCAPE", "TRAILBLAZE", "SWIFT"]
+raw_tutor_moves = ["AIRCUTTER", "DEFOG", "DRACOMETEOR", "DRAGONPULSE", "HEALBELL", "HEATWAVE", "HYPERVOICE", "IRONTAIL", "MUDSLAP", "OMINOUSWIND", "OUTRAGE", "SKYATTACK", "SNORE", "TAILWIND", "TWISTER", "UPROAR", "WONDERROOM", "DUALWINGBEAT", "MIMIC"]
+compatible_egg_groups = ["Flying", "Dragon"]
+steps_to_hatch = 5355
+height = 1.1
+weight = 20.6
+colour = "Blue"
+kind = "Humming"
+pokedex_entry = "It hums in a beautiful soprano voice. It flies among white clouds in the blue sky. It launches intensely hot fireballs from its mouth."
+battler_player_y = 12
+battler_enemy_y = 14
+battler_altitude = 15
+evolutions = []
+form_names = []
+internal_name = "ALTARIA"
+habitat = "Forest"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "DRAGONBREATH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SKYATTACK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PLUCK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PECK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ASTONISH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SING"
+
+[[raw_level_up_moves]]
+at_level = "3"
+name = "ASTONISH"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "SING"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "FURYATTACK"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "SAFEGUARD"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "DISARMINGVOICE"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "MIST"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "ROUND"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "NATURALGIFT"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "REFRESH"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "DRAGONDANCE"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "COTTONGUARD"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "DRAGONPULSE"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "PERISHSONG"
+
+[[raw_level_up_moves]]
+at_level = "52"
+name = "MOONBLAST"
+
+[[raw_level_up_moves]]
+at_level = "59"
+name = "SKYATTACK"
+
+[base_stats]
+hp = 75
+atk = 70
+def_ = 90
+spa = 70
+spd = 105
+spe = 80
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 2
+spe = 0
+
+[wild_items]

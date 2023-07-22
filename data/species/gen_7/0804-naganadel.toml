@@ -1,0 +1,107 @@
+name = "Naganadel"
+primary_type = "POISON"
+secondary_type = "DRAGON"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 243
+catch_rate = 45
+caught_happiness = 0
+raw_abilities = ["BEASTBOOST"]
+raw_egg_moves = []
+raw_tms = ["DRAGONCLAW", "FLY", "TOXIC", "VENOSHOCK", "HIDDENPOWER", "HYPERBEAM", "PROTECT", "FRUSTRATION", "THUNDERBOLT", "RETURN", "LEECHLIFE", "DOUBLETEAM", "SLUDGEWAVE", "FLAMETHROWER", "SLUDGEBOMB", "FIREBLAST", "AERIALACE", "FACADE", "REST", "THIEF", "ROUND", "ECHOEDVOICE", "SKYDROP", "ACROBATICS", "SHADOWCLAW", "SMARTSTRIKE", "XSCISSOR", "DRAGONTAIL", "POISONJAB", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "SNARL", "DARKPULSE", "CONFIDE", "PINMISSILE", "CHARM", "ASSURANCE", "CROSSPOISON", "AIRSLASH", "HEX", "BREAKINGSWIPE", "SPIKES", "ENDURE", "DRAGONDANCE", "TOXICSPIKES", "NASTYPLOT", "VENOMDRENCH", "SWIFT"]
+raw_tutor_moves = ["ALLYSWITCH", "DRACOMETEOR", "DRAGONPULSE", "GASTROACID", "GUNKSHOT", "HEATWAVE", "HELPINGHAND", "IRONTAIL", "LASERFOCUS", "OUTRAGE", "SHOCKWAVE", "SIGNALBEAM", "SKYATTACK", "SNATCH", "SNORE", "TAILWIND", "THROATCHOP", "UPROAR", "DUALWINGBEAT", "SCALESHOT", "MIMIC"]
+compatible_egg_groups = ["Undiscovered"]
+steps_to_hatch = 30720
+height = 3.6
+weight = 150.0
+colour = "Purple"
+kind = "Poison Pin"
+pokedex_entry = "One kind of Ultra Beast, it fires a glowing, venomous liquid from its needles. This liquid is also immensely adhesive."
+battler_player_y = 27
+battler_enemy_y = 22
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "NAGANADEL"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "AIRCUTTER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DRAGONPULSE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PECK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HELPINGHAND"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ACID"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "FURYATTACK"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "VENOSHOCK"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "CHARM"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "VENOMDRENCH"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "NASTYPLOT"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "POISONJAB"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "TOXIC"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "FELLSTINGER"
+
+[[raw_level_up_moves]]
+at_level = "53"
+name = "AIRSLASH"
+
+[[raw_level_up_moves]]
+at_level = "61"
+name = "DRAGONPULSE"
+
+[base_stats]
+hp = 73
+atk = 73
+def_ = 73
+spa = 127
+spd = 73
+spe = 121
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 3
+spd = 0
+spe = 0
+
+[wild_items]

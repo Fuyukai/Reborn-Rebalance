@@ -1,0 +1,115 @@
+name = "Spritzee"
+primary_type = "FAIRY"
+secondary_type = "FAIRY"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 68
+catch_rate = 200
+caught_happiness = 70
+raw_abilities = ["HEALER", "AROMAVEIL"]
+raw_egg_moves = ["CAPTIVATE", "DISABLE", "NASTYPLOT", "REFRESH", "WISH"]
+raw_tms = ["CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "RETURN", "PSYCHIC", "DOUBLETEAM", "REFLECT", "TORMENT", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "ENERGYBALL", "CHARGEBEAM", "GYROBALL", "PSYCHUP", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "TRICKROOM", "SECRETPOWER", "DAZZLINGGLEAM", "CONFIDE", "CHARM", "FAKETEARS", "DRAININGKISS", "MISTYTERRAIN", "ENDURE", "ENCORE", "NASTYPLOT", "VENOMDRENCH"]
+raw_tutor_moves = ["AFTERYOU", "ALLYSWITCH", "COVET", "ENDEAVOR", "HEALBELL", "HELPINGHAND", "MAGICCOAT", "SKILLSWAP", "SNORE", "TELEKINESIS", "MISTYEXPLOSION", "MIMIC"]
+compatible_egg_groups = ["Fairy"]
+steps_to_hatch = 5120
+height = 0.2
+weight = 0.5
+colour = "Pink"
+kind = "Perfume"
+pokedex_entry = "In the past, rather than using perfume, royal ladies carried a Spritzee that would waft a fragrance they liked."
+battler_player_y = 23
+battler_enemy_y = 17
+battler_altitude = 5
+form_names = []
+internal_name = "SPRITZEE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SWEETSCENT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FAIRYWIND"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "SWEETKISS"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "ODORSLEUTH"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "ECHOEDVOICE"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "CALMMIND"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "DRAININGKISS"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "AROMATHERAPY"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "ATTRACT"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "MOONBLAST"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "CHARM"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "FLAIL"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "MISTYTERRAIN"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "SKILLSWAP"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "PSYCHIC"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "DISARMINGVOICE"
+
+[[raw_level_up_moves]]
+at_level = "55"
+name = "MISTYEXPLOSION"
+
+[[evolutions]]
+into_name = "AROMATISSE"
+condition = "TradeItem"
+parameter = "SACHET"
+
+[base_stats]
+hp = 78
+atk = 52
+def_ = 60
+spa = 63
+spd = 65
+spe = 23
+
+[ev_yield]
+hp = 1
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

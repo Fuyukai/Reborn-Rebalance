@@ -1,0 +1,112 @@
+name = "Regice"
+primary_type = "ICE"
+secondary_type = "ICE"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 261
+catch_rate = 3
+caught_happiness = 35
+raw_abilities = ["CLEARBODY", "ICEBODY"]
+raw_egg_moves = []
+raw_tms = ["STRENGTH", "TOXIC", "HAIL", "ROCKSMASH", "ROCKCLIMB", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "ROCKTOMB", "FACADE", "REST", "ROUND", "FOCUSBLAST", "FLING", "CHARGEBEAM", "EXPLOSION", "GIGAIMPACT", "ROCKPOLISH", "AURORAVEIL", "THUNDERWAVE", "PSYCHUP", "BULLDOZE", "FROSTBREATH", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "SELFDESTRUCT", "ICICLESPEAR", "AVALANCHE", "BODYSLAM", "AMNESIA", "ENDURE", "HEAVYSLAM"]
+raw_tutor_moves = ["ANCIENTPOWER", "BLOCK", "FOCUSPUNCH", "GRAVITY", "HEADBUTT", "ICEPUNCH", "ICYWIND", "IRONHEAD", "MUDSLAP", "ROLLOUT", "SHOCKWAVE", "SIGNALBEAM", "SNORE", "STOMPINGTANTRUM", "SUPERPOWER", "THUNDERPUNCH", "MOUNTAINGALE", "MIMIC"]
+compatible_egg_groups = ["Undiscovered"]
+steps_to_hatch = 20655
+height = 1.8
+weight = 175.0
+colour = "Blue"
+kind = "Iceberg"
+pokedex_entry = "Regice's body was made during an ice age. The deep-frozen body can't be melted, even by fire. This Pokémon controls frigid air of -328 degrees Fahrenheit."
+battler_player_y = 15
+battler_enemy_y = 9
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "REGICE"
+habitat = "Cave"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "EXPLOSION"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "STOMP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ICYWIND"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CHARGEBEAM"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BULLDOZE"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "ICYWIND"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "CHARGEBEAM"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "BULLDOZE"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "CURSE"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "ANCIENTPOWER"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "AMNESIA"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "ICEBEAM"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "HAMMERARM"
+
+[[raw_level_up_moves]]
+at_level = "55"
+name = "LOCKON"
+
+[[raw_level_up_moves]]
+at_level = "55"
+name = "ZAPCANNON"
+
+[[raw_level_up_moves]]
+at_level = "61"
+name = "SUPERPOWER"
+
+[[raw_level_up_moves]]
+at_level = "67"
+name = "HYPERBEAM"
+
+[base_stats]
+hp = 80
+atk = 50
+def_ = 100
+spa = 100
+spd = 200
+spe = 50
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 3
+spe = 0
+
+[wild_items]

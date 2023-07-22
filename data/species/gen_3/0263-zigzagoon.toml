@@ -1,0 +1,115 @@
+name = "Zigzagoon"
+primary_type = "NORMAL"
+secondary_type = "NORMAL"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 56
+catch_rate = 255
+caught_happiness = 70
+raw_abilities = ["PICKUP", "GLUTTONY"]
+raw_egg_moves = ["CHARM", "EXTREMESPEED", "HELPINGHAND", "MUDSLAP", "PURSUIT", "ROCKCLIMB", "SIMPLEBEAM", "SLEEPTALK", "TICKLE", "TRICK"]
+raw_tms = ["WORKUP", "CUT", "SURF", "TOXIC", "ROCKSMASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "SHADOWBALL", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "FLING", "CHARGEBEAM", "PAYBACK", "THUNDERWAVE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "SNARL", "CONFIDE", "PINMISSILE", "DIG", "SCREECH", "SCARYFACE", "CHARM", "WHIRLPOOL", "FAKETEARS", "MUDSHOT", "ASSURANCE", "TAILSLAP", "BODYSLAM", "ENDURE", "RETALIATE", "SWIFT"]
+raw_tutor_moves = ["COVET", "FURYCUTTER", "GUNKSHOT", "HEADBUTT", "HELPINGHAND", "HYPERVOICE", "ICYWIND", "IRONTAIL", "KNOCKOFF", "LASTRESORT", "MUDSLAP", "ROLLOUT", "SEEDBOMB", "SHOCKWAVE", "SNORE", "SUPERFANG", "TRICK", "WATERPULSE", "LASHOUT", "EXTREMESPEED", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 4080
+height = 0.4
+weight = 17.5
+colour = "Brown"
+kind = "TinyRaccoon"
+pokedex_entry = "Rubbing its nose against the ground, it always wanders about back and forth in search of something. It is distinguished by the zigzag footprints it leaves."
+battler_player_y = 28
+battler_enemy_y = 27
+battler_altitude = 0
+form_names = []
+internal_name = "ZIGZAGOON"
+raw_hidden_ability = "QUICKFEET"
+habitat = "Grassland"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "TAILWHIP"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "SANDATTACK"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "HEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "BABYDOLLEYES"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "ODORSLEUTH"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "MUDSPORT"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "PINMISSILE"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "COVET"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "BESTOW"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "FLAIL"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "REST"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "BELLYDRUM"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "FLING"
+
+[[evolutions]]
+into_name = "LINOONE"
+condition = "Level"
+parameter = "20"
+
+[base_stats]
+hp = 38
+atk = 30
+def_ = 41
+spa = 30
+spd = 41
+spe = 60
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 1
+
+[wild_items]
+common = "POTION"
+uncommon = "REVIVE"

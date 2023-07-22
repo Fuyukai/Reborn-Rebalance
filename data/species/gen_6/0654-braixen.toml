@@ -1,0 +1,115 @@
+name = "Braixen"
+primary_type = "FIRE"
+secondary_type = "FIRE"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+exp_yield = 143
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["BLAZE", "MAGICIAN"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "CUT", "PSYSHOCK", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "PSYCHIC", "DOUBLETEAM", "FLAMETHROWER", "FIREBLAST", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "THIEF", "ROUND", "OVERHEAT", "WILLOWISP", "EMBARGO", "PSYCHUP", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "FIRESPIN", "PSYCHICTERRAIN", "ENDURE"]
+raw_tutor_moves = ["ALLYSWITCH", "COVET", "FIREPLEDGE", "FIREPUNCH", "FOULPLAY", "HEATWAVE", "IRONTAIL", "LASERFOCUS", "LOWKICK", "MAGICCOAT", "MAGICROOM", "RECYCLE", "SHOCKWAVE", "SKILLSWAP", "SNATCH", "SNORE", "TELEKINESIS", "THUNDERPUNCH", "TRICK", "WONDERROOM", "ZENHEADBUTT", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5120
+height = 1.0
+weight = 14.5
+colour = "Red"
+kind = "Fox"
+pokedex_entry = "When the twig is plucked from its tail, friction sets the twig alight. The flame is used to send signals to its allies."
+battler_player_y = 11
+battler_enemy_y = 15
+battler_altitude = 0
+form_names = []
+internal_name = "BRAIXEN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SCRATCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TAILWHIP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "EMBER"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "EMBER"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "HOWL"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "FLAMECHARGE"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "PSYBEAM"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "FIRESPIN"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "LUCKYCHANT"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "LIGHTSCREEN"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "PSYSHOCK"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "FLAMETHROWER"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "WILLOWISP"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "PSYCHIC"
+
+[[raw_level_up_moves]]
+at_level = "52"
+name = "SUNNYDAY"
+
+[[raw_level_up_moves]]
+at_level = "56"
+name = "MAGICROOM"
+
+[[raw_level_up_moves]]
+at_level = "59"
+name = "FIREBLAST"
+
+[[evolutions]]
+into_name = "DELPHOX"
+condition = "Level"
+parameter = "36"
+
+[base_stats]
+hp = 59
+atk = 59
+def_ = 58
+spa = 90
+spd = 70
+spe = 73
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 2
+spd = 0
+spe = 0
+
+[wild_items]

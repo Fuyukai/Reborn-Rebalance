@@ -1,0 +1,120 @@
+name = "Klang"
+primary_type = "STEEL"
+secondary_type = "STEEL"
+gender_ratio = "Genderless"
+growth_rate = "Parabolic"
+exp_yield = 154
+catch_rate = 60
+caught_happiness = 70
+raw_abilities = ["PLUS", "MINUS"]
+raw_egg_moves = []
+raw_tms = ["TOXIC", "ROCKSMASH", "HIDDENPOWER", "HYPERBEAM", "PROTECT", "FRUSTRATION", "THUNDERBOLT", "RETURN", "DOUBLETEAM", "SANDSTORM", "FACADE", "REST", "ROUND", "CHARGEBEAM", "ROCKPOLISH", "VOLTSWITCH", "THUNDERWAVE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "WILDCHARGE", "SECRETPOWER", "CONFIDE", "SCREECH", "ASSURANCE", "ENDURE", "POWERGEM"]
+raw_tutor_moves = ["ALLYSWITCH", "BIND", "GRAVITY", "IRONDEFENSE", "MAGNETRISE", "RECYCLE", "SHOCKWAVE", "SIGNALBEAM", "SNORE", "TELEKINESIS", "UPROAR", "RISINGVOLTAGE", "STEELROLLER", "STEELBEAM", "MIMIC"]
+compatible_egg_groups = ["Mineral"]
+steps_to_hatch = 5120
+height = 0.6
+weight = 51.0
+colour = "Gray"
+kind = "Gear"
+pokedex_entry = "Spinning minigears are rotated at high speed and repeatedly fired away. It is dangerous if the gears don't return."
+battler_player_y = 24
+battler_enemy_y = 17
+battler_altitude = 10
+form_names = []
+internal_name = "KLANG"
+raw_hidden_ability = "CLEARBODY"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "VICEGRIP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CHARGE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "THUNDERSHOCK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GEARGRIND"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "CHARGE"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "THUNDERSHOCK"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "GEARGRIND"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "BIND"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "CHARGEBEAM"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "AUTOTOMIZE"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "MIRRORSHOT"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "SCREECH"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "DISCHARGE"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "METALSOUND"
+
+[[raw_level_up_moves]]
+at_level = "52"
+name = "SHIFTGEAR"
+
+[[raw_level_up_moves]]
+at_level = "56"
+name = "LOCKON"
+
+[[raw_level_up_moves]]
+at_level = "60"
+name = "ZAPCANNON"
+
+[[raw_level_up_moves]]
+at_level = "64"
+name = "HYPERBEAM"
+
+[[evolutions]]
+into_name = "KLINKLANG"
+condition = "Level"
+parameter = "49"
+
+[base_stats]
+hp = 60
+atk = 80
+def_ = 95
+spa = 70
+spd = 85
+spe = 50
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 2
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

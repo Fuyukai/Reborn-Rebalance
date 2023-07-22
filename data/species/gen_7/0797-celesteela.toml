@@ -1,0 +1,119 @@
+name = "Celesteela"
+primary_type = "STEEL"
+secondary_type = "FLYING"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 257
+catch_rate = 25
+caught_happiness = 0
+raw_abilities = ["BEASTBOOST"]
+raw_egg_moves = []
+raw_tms = ["FLY", "TOXIC", "HIDDENPOWER", "HYPERBEAM", "PROTECT", "FRUSTRATION", "SOLARBEAM", "SMACKDOWN", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "FLAMETHROWER", "FIREBLAST", "FACADE", "FLAMECHARGE", "REST", "ROUND", "ENERGYBALL", "BRUTALSWING", "ACROBATICS", "EXPLOSION", "SMARTSTRIKE", "GIGAIMPACT", "STONEEDGE", "GYROBALL", "BULLDOZE", "ROCKSLIDE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "CONFIDE", "SELFDESTRUCT", "AIRSLASH", "BODYSLAM", "MEGAHORN", "ENDURE", "COSMICPOWER", "HEAVYSLAM"]
+raw_tutor_moves = ["BLOCK", "GIGADRAIN", "GRAVITY", "IRONDEFENSE", "IRONHEAD", "MAGNETRISE", "SEEDBOMB", "SHOCKWAVE", "SNORE", "STOMPINGTANTRUM", "SUPERPOWER", "ZENHEADBUTT", "METEORBEAM", "STEELROLLER", "STEELBEAM", "MIMIC"]
+compatible_egg_groups = ["Undiscovered"]
+steps_to_hatch = 30720
+height = 9.2
+weight = 999.9
+colour = "Green"
+kind = "Launch"
+pokedex_entry = "One kind of Ultra Beast. Witnesses have seen it burn down a forest by expelling gas from its two arms."
+battler_player_y = 5
+battler_enemy_y = 6
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "CELESTEELA"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WIDEGUARD"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "AIRSLASH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "INGRAIN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ABSORB"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HARDEN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "SMACKDOWN"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "MEGADRAIN"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "LEECHSEED"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "METALSOUND"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "IRONHEAD"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "GIGADRAIN"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "FLASHCANNON"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "AUTOTOMIZE"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "SEEDBOMB"
+
+[[raw_level_up_moves]]
+at_level = "53"
+name = "SKULLBASH"
+
+[[raw_level_up_moves]]
+at_level = "59"
+name = "IRONDEFENSE"
+
+[[raw_level_up_moves]]
+at_level = "67"
+name = "HEAVYSLAM"
+
+[[raw_level_up_moves]]
+at_level = "73"
+name = "DOUBLEEDGE"
+
+[base_stats]
+hp = 97
+atk = 101
+def_ = 103
+spa = 107
+spd = 101
+spe = 61
+
+[ev_yield]
+hp = 0
+atk = 1
+def_ = 1
+spa = 1
+spd = 0
+spe = 0
+
+[wild_items]

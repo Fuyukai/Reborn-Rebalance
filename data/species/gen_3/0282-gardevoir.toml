@@ -1,0 +1,153 @@
+name = "Gardevoir"
+primary_type = "PSYCHIC"
+secondary_type = "FAIRY"
+gender_ratio = "Female50Percent"
+growth_rate = "Slow"
+exp_yield = 233
+catch_rate = 45
+caught_happiness = 35
+raw_abilities = ["SYNCHRONIZE", "TRACE"]
+raw_egg_moves = []
+raw_tms = ["PSYSHOCK", "CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "THUNDERBOLT", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "FOCUSBLAST", "ENERGYBALL", "FLING", "CHARGEBEAM", "WILLOWISP", "GIGAIMPACT", "THUNDERWAVE", "PSYCHUP", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "DAZZLINGGLEAM", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "MAGICALLEAF", "CHARM", "IMPRISON", "POWERSWAP", "GUARDSWAP", "DRAININGKISS", "MISTYTERRAIN", "PSYCHICTERRAIN", "MYSTICALFIRE", "BODYSLAM", "HURRICANE", "BRAVEBIRD", "ENDURE", "ENCORE", "FUTURESIGHT", "STOREDPOWER", "SWIFT"]
+raw_tutor_moves = ["ALLYSWITCH", "FIREPUNCH", "HEADBUTT", "HEALBELL", "HELPINGHAND", "HYPERVOICE", "ICEPUNCH", "ICYWIND", "LASERFOCUS", "MAGICCOAT", "MAGICROOM", "MUDSLAP", "PAINSPLIT", "RECYCLE", "SHOCKWAVE", "SIGNALBEAM", "SKILLSWAP", "SNATCH", "SNORE", "TELEKINESIS", "THUNDERPUNCH", "TRICK", "WONDERROOM", "ZENHEADBUTT", "TRIPLEAXEL", "EXPANDINGFORCE", "MISTYEXPLOSION", "MIMIC"]
+compatible_egg_groups = ["Amorphous"]
+steps_to_hatch = 5355
+height = 1.6
+weight = 48.4
+colour = "White"
+kind = "Embrace"
+pokedex_entry = "It apparently does not feel the pull of gravity because it supports itself with psychic power. It will give its life to protect its Trainer."
+battler_player_y = 10
+battler_enemy_y = 8
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "GARDEVOIR"
+raw_hidden_ability = "TELEPATHY"
+habitat = "Urban"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MISTYEXPLOSION"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LIFEDEW"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MOONBLAST"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "STOREDPOWER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MISTYTERRAIN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HEALINGWISH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CONFUSION"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DOUBLETEAM"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TELEPORT"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "CONFUSION"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "DOUBLETEAM"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "TELEPORT"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "DISARMINGVOICE"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "WISH"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "MAGICALLEAF"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "HEALPULSE"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "DRAININGKISS"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "CALMMIND"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "PSYCHIC"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "IMPRISON"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "FUTURESIGHT"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "CAPTIVATE"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "HYPNOSIS"
+
+[[raw_level_up_moves]]
+at_level = "53"
+name = "DREAMEATER"
+
+[[raw_level_up_moves]]
+at_level = "58"
+name = "STOREDPOWER"
+
+[[raw_level_up_moves]]
+at_level = "62"
+name = "MOONBLAST"
+
+[base_stats]
+hp = 68
+atk = 65
+def_ = 65
+spa = 125
+spd = 115
+spe = 80
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 3
+spd = 0
+spe = 0
+
+[wild_items]

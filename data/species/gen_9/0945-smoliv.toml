@@ -1,0 +1,99 @@
+name = "Smoliv"
+primary_type = "GRASS"
+secondary_type = "NORMAL"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 55
+catch_rate = 255
+caught_happiness = 50
+raw_abilities = ["EARLYBIRD", "HARVEST"]
+raw_egg_moves = ["SYNTHESIS", "MEMENTO", "WEATHERBALL", "STRENGTHSAP"]
+raw_tms = ["TOXIC", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "ENERGYBALL", "GRASSKNOT", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "MAGICALLEAF", "CHARM", "BULLETSEED", "GRASSYTERRAIN", "LEAFSTORM", "ENDURE", "TRAILBLAZE", "SWIFT"]
+raw_tutor_moves = ["EARTHPOWER", "GIGADRAIN", "HELPINGHAND", "SEEDBOMB", "SYNTHESIS", "WORRYSEED", "GRASSYGLIDE"]
+compatible_egg_groups = ["Grass"]
+steps_to_hatch = 5140
+height = 0.3
+weight = 6.5
+colour = "Green"
+kind = "Olive"
+pokedex_entry = "It protects itself from enemies by emitting oil from the fruit on its head. This oil is bitter and astringent enough to make someone flinch."
+battler_player_y = 10
+battler_enemy_y = 12
+battler_altitude = 0
+form_names = []
+internal_name = "SMOLIV"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SWEETSCENT"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "ABSORB"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "GROWTH"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "RAZORLEAF"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "HELPINGHAND"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "FLAIL"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "MEGADRAIN"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "GRASSYTERRAIN"
+
+[[raw_level_up_moves]]
+at_level = "27"
+name = "SEEDBOMB"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "ENERGYBALL"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "LEECHSEED"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "TERRAINPULSE"
+
+[[evolutions]]
+into_name = "DOLLIV"
+condition = "Level"
+parameter = "25"
+
+[base_stats]
+hp = 41
+atk = 35
+def_ = 45
+spa = 58
+spd = 51
+spe = 30
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 1
+spd = 0
+spe = 0
+
+[wild_items]

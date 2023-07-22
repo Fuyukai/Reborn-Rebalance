@@ -1,0 +1,108 @@
+name = "Palossand"
+primary_type = "GHOST"
+secondary_type = "GROUND"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 168
+catch_rate = 60
+caught_happiness = 70
+raw_abilities = ["WATERCOMPACTION", "SANDVEIL"]
+raw_egg_moves = []
+raw_tms = ["TOXIC", "HIDDENPOWER", "PROTECT", "FRUSTRATION", "EARTHQUAKE", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "SLUDGEBOMB", "SANDSTORM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "FLING", "QUASH", "EMBARGO", "GIGAIMPACT", "ROCKPOLISH", "STONEEDGE", "BULLDOZE", "ROCKSLIDE", "INFESTATION", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "SANDTOMB", "MUDSHOT", "BRINE", "HYDROPUMP", "AMNESIA", "ENDURE", "CHILLINGWATER"]
+raw_tutor_moves = ["AFTERYOU", "BLOCK", "EARTHPOWER", "GIGADRAIN", "GRAVITY", "IRONDEFENSE", "PAINSPLIT", "RECYCLE", "ROLEPLAY", "SKILLSWAP", "SNORE", "SPITE", "STEALTHROCK", "TRICK", "TERRAINPULSE", "SCORCHINGSANDS", "POLTERGEIST", "MIMIC"]
+compatible_egg_groups = ["Amorphous"]
+steps_to_hatch = 3840
+height = 1.3
+weight = 250.0
+colour = "Brown"
+kind = "Sand Castle"
+pokedex_entry = "Buried beneath the castle are masses of dried-up bones from those whose vitality it has drained."
+battler_player_y = 20
+battler_enemy_y = 25
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "PALOSSAND"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HARDEN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ABSORB"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ASTONISH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SANDATTACK"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "ASTONISH"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "SANDATTACK"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "SANDTOMB"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "MEGADRAIN"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "BULLDOZE"
+
+[[raw_level_up_moves]]
+at_level = "27"
+name = "HYPNOSIS"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "IRONDEFENSE"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "GIGADRAIN"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "SHADOWBALL"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "EARTHPOWER"
+
+[[raw_level_up_moves]]
+at_level = "54"
+name = "SHOREUP"
+
+[[raw_level_up_moves]]
+at_level = "60"
+name = "SANDSTORM"
+
+[base_stats]
+hp = 85
+atk = 75
+def_ = 110
+spa = 100
+spd = 75
+spe = 35
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 2
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "SPELLTAG"

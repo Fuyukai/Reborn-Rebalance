@@ -1,0 +1,111 @@
+name = "Skiddo"
+primary_type = "GRASS"
+secondary_type = "GRASS"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 70
+catch_rate = 160
+caught_happiness = 70
+raw_abilities = ["SAPSIPPER", "GRASSPELT"]
+raw_egg_moves = ["DEFENSECURL", "GRASSYTERRAIN", "MILKDRINK", "ROLLOUT"]
+raw_tms = ["WORKUP", "SURF", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "BULKUP", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "RAINDANCE", "FRUSTRATION", "SOLARBEAM", "RETURN", "BRICKBREAK", "DOUBLETEAM", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "PAYBACK", "BULLDOZE", "ROCKSLIDE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "DIG", "LEAFBLADE", "GRASSYTERRAIN", "ENDURE", "RETALIATE", "TRAILBLAZE"]
+raw_tutor_moves = ["GIGADRAIN", "IRONTAIL", "SEEDBOMB", "SNORE", "SYNTHESIS", "WORRYSEED", "ZENHEADBUTT", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5120
+height = 0.9
+weight = 31.0
+colour = "Brown"
+kind = "Mount"
+pokedex_entry = "Thought to be one of the first Pokémon to live in harmony with humans, it has a placid disposition."
+battler_player_y = 21
+battler_enemy_y = 26
+battler_altitude = 0
+form_names = []
+internal_name = "SKIDDO"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWTH"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "VINEWHIP"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "TAILWHIP"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "LEECHSEED"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "RAZORLEAF"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "WORRYSEED"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "SYNTHESIS"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "BULLDOZE"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "SEEDBOMB"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "BULKUP"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "DOUBLEEDGE"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "HORNLEECH"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "LEAFBLADE"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "MILKDRINK"
+
+[[evolutions]]
+into_name = "GOGOAT"
+condition = "Level"
+parameter = "32"
+
+[base_stats]
+hp = 66
+atk = 65
+def_ = 48
+spa = 62
+spd = 57
+spe = 52
+
+[ev_yield]
+hp = 1
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

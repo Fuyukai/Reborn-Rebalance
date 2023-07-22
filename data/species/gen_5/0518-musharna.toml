@@ -1,0 +1,68 @@
+name = "Musharna"
+primary_type = "PSYCHIC"
+secondary_type = "PSYCHIC"
+gender_ratio = "Female50Percent"
+growth_rate = "Fast"
+exp_yield = 170
+catch_rate = 75
+caught_happiness = 70
+raw_abilities = ["FOREWARN", "SYNCHRONIZE"]
+raw_egg_moves = []
+raw_tms = ["PSYSHOCK", "CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "ROCKTOMB", "TORMENT", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "CHARGEBEAM", "GIGAIMPACT", "THUNDERWAVE", "GYROBALL", "PSYCHUP", "ROCKSLIDE", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "DAZZLINGGLEAM", "CONFIDE", "IMPRISON", "POWERSWAP", "GUARDSWAP", "PSYCHICTERRAIN", "LEAFSTORM", "AMNESIA", "ENDURE", "BATONPASS", "FUTURESIGHT", "STOREDPOWER", "SWIFT"]
+raw_tutor_moves = ["AFTERYOU", "ALLYSWITCH", "GRASSPLEDGE", "GRAVITY", "HEALBELL", "HELPINGHAND", "MAGICCOAT", "PAINSPLIT", "SHOCKWAVE", "SIGNALBEAM", "SKILLSWAP", "SNORE", "TELEKINESIS", "TRICK", "WONDERROOM", "WORRYSEED", "ZENHEADBUTT", "EXPANDINGFORCE", "MISTYEXPLOSION", "MYSTICALPOWER", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 2560
+height = 1.1
+weight = 60.5
+colour = "Pink"
+kind = "Drowsing"
+pokedex_entry = "With the mist from its forehead, it can create shapes of things from dreams it has eaten."
+battler_player_y = 19
+battler_enemy_y = 12
+battler_altitude = 10
+evolutions = []
+form_names = []
+internal_name = "MUSHARNA"
+raw_hidden_ability = "TELEPATHY"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PSYCHICTERRAIN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DEFENSECURL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LUCKYCHANT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PSYBEAM"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HYPNOSIS"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MISTYEXPLOSION"
+
+[base_stats]
+hp = 116
+atk = 55
+def_ = 85
+spa = 107
+spd = 95
+spe = 29
+
+[ev_yield]
+hp = 2
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

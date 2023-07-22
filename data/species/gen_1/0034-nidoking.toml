@@ -1,0 +1,81 @@
+name = "Nidoking"
+primary_type = "POISON"
+secondary_type = "GROUND"
+gender_ratio = "AlwaysMale"
+growth_rate = "Parabolic"
+exp_yield = 223
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["POISONPOINT", "RIVALRY"]
+raw_egg_moves = []
+raw_tms = ["CUT", "SURF", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "VENOSHOCK", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "SMACKDOWN", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "SLUDGEWAVE", "FLAMETHROWER", "SLUDGEBOMB", "SANDSTORM", "FIREBLAST", "ROCKTOMB", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "FOCUSBLAST", "FLING", "QUASH", "SHADOWCLAW", "SMARTSTRIKE", "GIGAIMPACT", "STONEEDGE", "BULLDOZE", "ROCKSLIDE", "DRAGONTAIL", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "PAYDAY", "DIG", "WHIRLPOOL", "BEATUP", "SANDTOMB", "ROCKBLAST", "MUDSHOT", "AVALANCHE", "HEX", "BODYSLAM", "MEGAHORN", "FOCUSENERGY", "AMNESIA", "ENDURE", "TOXICSPIKES", "VENOMDRENCH", "HIGHHORSEPOWER", "BODYPRESS"]
+raw_tutor_moves = ["AQUATAIL", "DRAGONPULSE", "DRILLRUN", "EARTHPOWER", "FIREPUNCH", "FOCUSPUNCH", "HEADBUTT", "HELPINGHAND", "ICEPUNCH", "ICYWIND", "IRONTAIL", "MUDSLAP", "OUTRAGE", "SHOCKWAVE", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "SUCKERPUNCH", "SUPERFANG", "SUPERPOWER", "THROATCHOP", "THUNDERPUNCH", "UPROAR", "WATERPULSE", "SCORCHINGSANDS", "MIMIC", "POISONTAIL"]
+compatible_egg_groups = ["Monster", "Field"]
+steps_to_hatch = 5355
+height = 1.4
+weight = 62.0
+colour = "Purple"
+kind = "Drill"
+pokedex_entry = "A Nidoking's thick tail packs enormously destructive power capable of toppling a metal transmission tower. Once it goes on a rampage, there is no stopping it."
+battler_player_y = 17
+battler_enemy_y = 12
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "NIDOKING"
+raw_hidden_ability = "SHEERFORCE"
+habitat = "Grassland"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MEGAHORN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PECK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FOCUSENERGY"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DOUBLEKICK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POISONSTING"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "CHIPAWAY"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "THRASH"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "EARTHPOWER"
+
+[[raw_level_up_moves]]
+at_level = "58"
+name = "MEGAHORN"
+
+[base_stats]
+hp = 81
+atk = 102
+def_ = 77
+spa = 85
+spd = 75
+spe = 85
+
+[ev_yield]
+hp = 0
+atk = 3
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

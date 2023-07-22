@@ -1,0 +1,124 @@
+name = "Frosmoth"
+primary_type = "ICE"
+secondary_type = "BUG"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 166
+catch_rate = 75
+caught_happiness = 50
+raw_abilities = ["SHIELDDUST", "ICESCALES"]
+raw_egg_moves = ["FAIRYWIND", "MIRRORCOAT", "BUGBITE"]
+raw_tms = ["CALMMIND", "HAIL", "FLASH", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "SAFEGUARD", "LEECHLIFE", "REFLECT", "FACADE", "REST", "ATTRACT", "ROUND", "ACROBATICS", "GIGAIMPACT", "AURORAVEIL", "STRUGGLEBUG", "INFESTATION", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "DAZZLINGGLEAM", "IMPRISON", "WEATHERBALL", "ICICLESPEAR", "AVALANCHE", "AIRSLASH", "HURRICANE", "ENDURE", "BUGBUZZ", "PLAYROUGH", "ICESPINNER", "SNOWSCAPE", "POUNCE"]
+raw_tutor_moves = ["BUGBITE", "DEFOG", "GIGADRAIN", "HELPINGHAND", "ICYWIND", "SIGNALBEAM", "SNORE", "TAILWIND", "DUALWINGBEAT", "SKITTERSMACK", "TRIPLEAXEL", "MIMIC"]
+compatible_egg_groups = ["Bug"]
+steps_to_hatch = 5120
+height = 1.3
+weight = 42.0
+colour = "White"
+kind = "Frost Moth"
+pokedex_entry = "It shows no mercy to any who desecrate fields and mountains. It will fly around on its icy wings, causing a blizzard to chase offenders away."
+battler_player_y = 21
+battler_enemy_y = 26
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "FROSMOTH"
+regional_numbers = 872
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "ICYWIND"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HAIL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ICYWIND"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POWDERSNOW"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "STRUGGLEBUG"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HELPINGHAND"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ATTRACT"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "STUNSPORE"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "INFESTATION"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "MIST"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "DEFOG"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "FEATHERDANCE"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "AURORABEAM"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "SNOWSCAPE"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "BUGBUZZ"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "AURORAVEIL"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "BLIZZARD"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "TAILWIND"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "WIDEGUARD"
+
+[[raw_level_up_moves]]
+at_level = "52"
+name = "QUIVERDANCE"
+
+[base_stats]
+hp = 70
+atk = 65
+def_ = 60
+spa = 125
+spd = 90
+spe = 65
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 2
+spd = 0
+spe = 0
+
+[wild_items]

@@ -1,0 +1,120 @@
+name = "Feraligatr"
+primary_type = "WATER"
+secondary_type = "WATER"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+exp_yield = 239
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["TORRENT", "SHEERFORCE"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "CUT", "DRAGONCLAW", "SURF", "STRENGTH", "ROAR", "WATERFALL", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "ROCKCLIMB", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "FOCUSBLAST", "SCALD", "FLING", "SHADOWCLAW", "GIGAIMPACT", "SWORDSDANCE", "BULLDOZE", "ROCKSLIDE", "DRAGONTAIL", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "SCREECH", "SCARYFACE", "WHIRLPOOL", "FAKETEARS", "MUDSHOT", "AVALANCHE", "ICEFANG", "PSYCHICFANGS", "CRUNCH", "BREAKINGSWIPE", "BODYSLAM", "HYDROPUMP", "AGILITY", "ENDURE", "MUDDYWATER", "DRAGONDANCE"]
+raw_tutor_moves = ["ANCIENTPOWER", "AQUATAIL", "BLOCK", "DRAGONPULSE", "FOCUSPUNCH", "FURYCUTTER", "HEADBUTT", "HYDROCANNON", "ICEPUNCH", "ICYWIND", "IRONTAIL", "LIQUIDATION", "LOWKICK", "MUDSLAP", "OUTRAGE", "SNORE", "SPITE", "SUPERPOWER", "UPROAR", "WATERPLEDGE", "WATERPULSE", "MOUNTAINGALE", "WAVECRASH", "MIMIC"]
+compatible_egg_groups = ["Monster", "Water1"]
+steps_to_hatch = 5355
+height = 2.3
+weight = 88.8
+colour = "Blue"
+kind = "Big Jaw"
+pokedex_entry = "It opens its huge mouth to intimidate enemies. In battle, it runs using its thick and powerful hind legs to charge the foe with incredible speed."
+battler_player_y = 13
+battler_enemy_y = 7
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "FERALIGATR"
+habitat = "WatersEdge"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SCRATCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WATERGUN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "RAGE"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "WATERGUN"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "RAGE"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "SCARYFACE"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "ICEFANG"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "FLAIL"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "CHIPAWAY"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "SLASH"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "SCREECH"
+
+[[raw_level_up_moves]]
+at_level = "58"
+name = "THRASH"
+
+[[raw_level_up_moves]]
+at_level = "63"
+name = "AQUATAIL"
+
+[[raw_level_up_moves]]
+at_level = "71"
+name = "SUPERPOWER"
+
+[[raw_level_up_moves]]
+at_level = "76"
+name = "HYDROPUMP"
+
+[base_stats]
+hp = 85
+atk = 105
+def_ = 100
+spa = 79
+spd = 83
+spe = 78
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 1
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

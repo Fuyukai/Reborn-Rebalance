@@ -1,0 +1,105 @@
+name = "Huntail"
+primary_type = "WATER"
+secondary_type = "WATER"
+gender_ratio = "Female50Percent"
+growth_rate = "Erratic"
+exp_yield = 170
+catch_rate = 60
+caught_happiness = 70
+raw_abilities = ["SWIFTSWIM", "WATERVEIL"]
+raw_egg_moves = []
+raw_tms = ["SURF", "WATERFALL", "TOXIC", "DIVE", "HAIL", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "DOUBLETEAM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "SCALD", "GIGAIMPACT", "INFESTATION", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "SCREECH", "SCARYFACE", "WHIRLPOOL", "BRINE", "ICEFANG", "CRUNCH", "BODYSLAM", "HYDROPUMP", "ENDURE", "BATONPASS", "MUDDYWATER", "SWIFT"]
+raw_tutor_moves = ["AQUATAIL", "BIND", "BOUNCE", "ICYWIND", "MUDSLAP", "SNATCH", "SNORE", "SUCKERPUNCH", "SUPERFANG", "WATERPULSE", "MIMIC"]
+compatible_egg_groups = ["Water1"]
+steps_to_hatch = 5355
+height = 1.7
+weight = 27.0
+colour = "Blue"
+kind = "Deep Sea"
+pokedex_entry = "To withstand the pressure of water deep under the sea, its spine is very sturdy. Its tail, which is shaped like a small fish, has eyes that light up."
+battler_player_y = 14
+battler_enemy_y = 14
+battler_altitude = 8
+evolutions = []
+form_names = []
+internal_name = "HUNTAIL"
+habitat = "Sea"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WHIRLPOOL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "SCREECH"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "SCARYFACE"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "FEINTATTACK"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "WATERPULSE"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "ICEFANG"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "BRINE"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "SUCKERPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "DIVE"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "BATONPASS"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "AQUATAIL"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "COIL"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "HYDROPUMP"
+
+[base_stats]
+hp = 55
+atk = 104
+def_ = 105
+spa = 94
+spd = 75
+spe = 52
+
+[ev_yield]
+hp = 0
+atk = 1
+def_ = 1
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "DEEPSEATOOTH"

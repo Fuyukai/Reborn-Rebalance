@@ -1,0 +1,100 @@
+name = "Stufful"
+primary_type = "NORMAL"
+secondary_type = "FIGHTING"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 68
+catch_rate = 140
+caught_happiness = 70
+raw_abilities = ["FLUFFY", "KLUTZ"]
+raw_egg_moves = ["ENDURE", "FORCEPALM", "ICEPUNCH", "MEGAKICK", "STOMPINGTANTRUM", "THUNDERPUNCH", "WIDEGUARD"]
+raw_tms = ["WORKUP", "ROAR", "TOXIC", "BULKUP", "HIDDENPOWER", "TAUNT", "PROTECT", "FRUSTRATION", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "LOWSWEEP", "ROUND", "FOCUSBLAST", "FLING", "BRUTALSWING", "PAYBACK", "SWORDSDANCE", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "CHARM", "ENDURE"]
+raw_tutor_moves = ["BIND", "DUALCHOP", "FOCUSPUNCH", "ICEPUNCH", "IRONHEAD", "PAINSPLIT", "ROLEPLAY", "SNORE", "STOMPINGTANTRUM", "SUPERPOWER", "THUNDERPUNCH", "ZENHEADBUTT", "COACHING", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 3840
+height = 0.5
+weight = 6.8
+colour = "Pink"
+kind = "Flailing"
+pokedex_entry = "A touch from anyone except a known friend sends it into a surging frenzy. It is an incredibly dangerous Pokémon."
+battler_player_y = 22
+battler_enemy_y = 26
+battler_altitude = 0
+form_names = []
+internal_name = "STUFFUL"
+raw_hidden_ability = "CUTECHARM"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "BIDE"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "BABYDOLLEYES"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "BRUTALSWING"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "FLAIL"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "PAYBACK"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "HAMMERARM"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "THRASH"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "PAINSPLIT"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "DOUBLEEDGE"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "SUPERPOWER"
+
+[[evolutions]]
+into_name = "BEWEAR"
+condition = "Level"
+parameter = "27"
+
+[base_stats]
+hp = 70
+atk = 75
+def_ = 50
+spa = 45
+spd = 50
+spe = 50
+
+[ev_yield]
+hp = 0
+atk = 1
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

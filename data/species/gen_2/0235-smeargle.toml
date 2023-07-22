@@ -1,0 +1,89 @@
+name = "Smeargle"
+primary_type = "NORMAL"
+secondary_type = "NORMAL"
+gender_ratio = "Female50Percent"
+growth_rate = "Fast"
+exp_yield = 88
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["OWNTEMPO", "TECHNICIAN"]
+raw_egg_moves = []
+raw_tms = []
+raw_tutor_moves = []
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5355
+height = 1.2
+weight = 58.0
+colour = "White"
+kind = "Painter"
+pokedex_entry = "A Smeargle marks its territory using a fluid that leaks out from the tip of its tail. About 5,000 different marks left by this Pokémon have been found."
+battler_player_y = 23
+battler_enemy_y = 17
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "SMEARGLE"
+raw_hidden_ability = "MOODY"
+habitat = "Urban"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DOODLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SKETCH"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "SKETCH"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "SKETCH"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "SKETCH"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "SKETCH"
+
+[[raw_level_up_moves]]
+at_level = "51"
+name = "SKETCH"
+
+[[raw_level_up_moves]]
+at_level = "61"
+name = "SKETCH"
+
+[[raw_level_up_moves]]
+at_level = "71"
+name = "SKETCH"
+
+[[raw_level_up_moves]]
+at_level = "81"
+name = "SKETCH"
+
+[[raw_level_up_moves]]
+at_level = "91"
+name = "SKETCH"
+
+[base_stats]
+hp = 55
+atk = 20
+def_ = 35
+spa = 20
+spd = 45
+spe = 75
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 1
+
+[wild_items]

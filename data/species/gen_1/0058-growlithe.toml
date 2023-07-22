@@ -1,0 +1,121 @@
+name = "Growlithe"
+primary_type = "FIRE"
+secondary_type = "FIRE"
+gender_ratio = "Female25Percent"
+growth_rate = "Slow"
+exp_yield = 70
+catch_rate = 190
+caught_happiness = 70
+raw_abilities = ["INTIMIDATE", "FLASHFIRE"]
+raw_egg_moves = ["BODYSLAM", "BURNUP", "CLOSECOMBAT", "COVET", "CRUNCH", "DOUBLEKICK", "DOUBLEEDGE", "FIRESPIN", "FLAREBLITZ", "HEATWAVE", "HOWL", "IRONTAIL", "MORNINGSUN", "THRASH", "RAGINGFURY"]
+raw_tms = ["STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "SAFEGUARD", "FRUSTRATION", "RETURN", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "FIREBLAST", "AERIALACE", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "THIEF", "ROUND", "OVERHEAT", "WILLOWISP", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "SNARL", "CONFIDE", "FIRESPIN", "DIG", "FIREFANG", "PSYCHICFANGS", "CRUNCH", "BODYSLAM", "FLAREBLITZ", "CLOSECOMBAT", "AGILITY", "REVERSAL", "ENDURE", "PLAYROUGH", "RETALIATE", "SWIFT"]
+raw_tutor_moves = ["COVET", "HEADBUTT", "HEATWAVE", "HELPINGHAND", "IRONTAIL", "MUDSLAP", "OUTRAGE", "SNORE", "EXTREMESPEED", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5355
+height = 0.7
+weight = 19.0
+colour = "Brown"
+kind = "Puppy"
+pokedex_entry = "Its superb sense of smell ensures that this Pokémon won't forget any scent, no matter what. It uses its sense of smell to detect the emotions of others."
+battler_player_y = 25
+battler_enemy_y = 17
+battler_altitude = 0
+form_names = []
+internal_name = "GROWLITHE"
+raw_hidden_ability = "GUARDDOG"
+habitat = "Grassland"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ROAR"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "EMBER"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "ODORSLEUTH"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "HELPINGHAND"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "FLAMEWHEEL"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "REVERSAL"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "FIREFANG"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "FLAMEBURST"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "RETALIATE"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "FLAMETHROWER"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "HEATWAVE"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "OUTRAGE"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "FLAREBLITZ"
+
+[[evolutions]]
+into_name = "ARCANINE"
+condition = "Item"
+parameter = "FIRESTONE"
+
+[base_stats]
+hp = 55
+atk = 70
+def_ = 45
+spa = 70
+spd = 50
+spe = 60
+
+[ev_yield]
+hp = 0
+atk = 1
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

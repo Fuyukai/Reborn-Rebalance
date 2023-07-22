@@ -1,0 +1,104 @@
+name = "Dewpider"
+primary_type = "WATER"
+secondary_type = "BUG"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 54
+catch_rate = 200
+caught_happiness = 70
+raw_abilities = ["WATERBUBBLE", "WATERABSORB"]
+raw_egg_moves = ["AURORABEAM", "POWERSPLIT", "SPITUP", "STICKYWEB", "STOCKPILE"]
+raw_tms = ["SURF", "WATERFALL", "TOXIC", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "LEECHLIFE", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "ROUND", "SCALD", "FROSTBREATH", "XSCISSOR", "INFESTATION", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "CRUNCH", "ENDURE", "BUGBUZZ"]
+raw_tutor_moves = ["BUGBITE", "GIGADRAIN", "ICYWIND", "IRONDEFENSE", "LIQUIDATION", "MAGICCOAT", "MAGICROOM", "SIGNALBEAM", "SNORE", "WATERPULSE", "WONDERROOM", "SKITTERSMACK", "MIMIC"]
+compatible_egg_groups = ["Water1", "Bug"]
+steps_to_hatch = 3840
+height = 0.3
+weight = 4.0
+colour = "Green"
+kind = "Water Bubble"
+pokedex_entry = "It crawls onto the land in search of food. Its water bubble allows it to breathe and protects its soft head."
+battler_player_y = 19
+battler_enemy_y = 25
+battler_altitude = 0
+form_names = []
+internal_name = "DEWPIDER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WATERSPORT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BUBBLE"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "INFESTATION"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "SPIDERWEB"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "BUGBITE"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "BUBBLEBEAM"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "AQUARING"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "LEECHLIFE"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "LUNGE"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "MIRRORCOAT"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "LIQUIDATION"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "ENTRAINMENT"
+
+[[evolutions]]
+into_name = "ARAQUANID"
+condition = "Level"
+parameter = "22"
+
+[base_stats]
+hp = 38
+atk = 40
+def_ = 52
+spa = 40
+spd = 72
+spe = 27
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 1
+spe = 0
+
+[wild_items]
+uncommon = "MYSTICWATER"

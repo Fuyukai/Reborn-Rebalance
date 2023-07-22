@@ -1,0 +1,132 @@
+name = "Electivire"
+primary_type = "ELECTRIC"
+secondary_type = "ELECTRIC"
+gender_ratio = "Female25Percent"
+growth_rate = "Medium"
+exp_yield = 243
+catch_rate = 30
+caught_happiness = 70
+raw_abilities = ["MOTORDRIVE", "ELECTROMORPHOSIS"]
+raw_egg_moves = []
+raw_tms = ["STRENGTH", "TOXIC", "ROCKSMASH", "FLASH", "ROCKCLIMB", "HIDDENPOWER", "TAUNT", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "PSYCHIC", "BRICKBREAK", "DOUBLETEAM", "FLAMETHROWER", "ROCKTOMB", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "LOWSWEEP", "ROUND", "FOCUSBLAST", "FLING", "CHARGEBEAM", "GIGAIMPACT", "VOLTSWITCH", "THUNDERWAVE", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "SCREECH", "REVENGE", "WEATHERBALL", "ELECTRICTERRAIN", "CLOSECOMBAT", "ENDURE", "ELECTROBALL", "DARKESTLARIAT", "SWIFT"]
+raw_tutor_moves = ["COVET", "DUALCHOP", "ELECTROWEB", "FIREPUNCH", "FOCUSPUNCH", "HEADBUTT", "HELPINGHAND", "ICEPUNCH", "IRONTAIL", "LOWKICK", "MAGNETRISE", "MUDSLAP", "SHOCKWAVE", "SIGNALBEAM", "SNORE", "STOMPINGTANTRUM", "THUNDERPUNCH", "UPROAR", "RISINGVOLTAGE", "MIMIC"]
+compatible_egg_groups = ["Humanlike"]
+steps_to_hatch = 6630
+height = 1.8
+weight = 138.6
+colour = "Yellow"
+kind = "Thunderbolt"
+pokedex_entry = "It pushes the tips of its two tails against the foe, then lets loose with over 20,000 volts of power."
+battler_player_y = 14
+battler_enemy_y = 8
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "ELECTIVIRE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ELECTRICTERRAIN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "IONDELUGE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FIREPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "THUNDERSHOCK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LOWKICK"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "THUNDERSHOCK"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "LOWKICK"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "SWIFT"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "SHOCKWAVE"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "THUNDERWAVE"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "ELECTROBALL"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "LIGHTSCREEN"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "THUNDERPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "DISCHARGE"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "SCREECH"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "THUNDERBOLT"
+
+[[raw_level_up_moves]]
+at_level = "55"
+name = "THUNDER"
+
+[[raw_level_up_moves]]
+at_level = "62"
+name = "GIGAIMPACT"
+
+[[raw_level_up_moves]]
+at_level = "65"
+name = "ELECTRICTERRAIN"
+
+[[raw_level_up_moves]]
+at_level = "72"
+name = "DOUBLESHOCK"
+
+[base_stats]
+hp = 75
+atk = 123
+def_ = 67
+spa = 95
+spd = 85
+spe = 95
+
+[ev_yield]
+hp = 0
+atk = 3
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "ELECTIRIZER"

@@ -1,0 +1,92 @@
+name = "Scorbunny"
+primary_type = "FIRE"
+secondary_type = "FIRE"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+exp_yield = 62
+catch_rate = 45
+caught_happiness = 50
+raw_abilities = ["BLAZE", "LIBERO"]
+raw_egg_moves = ["HIJUMPKICK", "SANDATTACK", "SUCKERPUNCH", "SUPERFANG"]
+raw_tms = ["WORKUP", "SUNNYDAY", "TAUNT", "PROTECT", "FLAMETHROWER", "FIREBLAST", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "LOWSWEEP", "ROUND", "OVERHEAT", "ACROBATICS", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "MEGAKICK", "MUDSHOT", "ASSURANCE", "FIREFANG", "AGILITY", "FOCUSENERGY", "REVERSAL", "ENDURE", "BATONPASS", "BLAZEKICK", "ELECTROBALL", "PLAYROUGH", "TRAILBLAZE", "SWIFT"]
+raw_tutor_moves = ["ALLYSWITCH", "BOUNCE", "FIREPLEDGE", "GUNKSHOT", "HEADBUTT", "HEATWAVE", "LOWKICK", "SNORE", "SUCKERPUNCH", "SUPERFANG", "MIMIC"]
+compatible_egg_groups = ["Field", "Humanlike"]
+steps_to_hatch = 5120
+height = 0.3
+weight = 4.5
+colour = "White"
+kind = "Rabbit"
+pokedex_entry = "It has special pads on the backs of its feet, and one on its nose. Once it's raring to fight, these pads radiate tremendous heat."
+battler_player_y = 21
+battler_enemy_y = 26
+battler_altitude = 0
+form_names = []
+internal_name = "SCORBUNNY"
+regional_numbers = 813
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "EMBER"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "DOUBLEKICK"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "FLAMECHARGE"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "HEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "COUNTER"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "BOUNCE"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "DOUBLEEDGE"
+
+[[evolutions]]
+into_name = "RABOOT"
+condition = "Level"
+parameter = "16"
+
+[base_stats]
+hp = 50
+atk = 71
+def_ = 40
+spa = 40
+spd = 40
+spe = 69
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 1
+
+[wild_items]

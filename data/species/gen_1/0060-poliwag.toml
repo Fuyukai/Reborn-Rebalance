@@ -1,0 +1,101 @@
+name = "Poliwag"
+primary_type = "WATER"
+secondary_type = "WATER"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 60
+catch_rate = 255
+caught_happiness = 70
+raw_abilities = ["WATERABSORB", "DAMP"]
+raw_egg_moves = ["BUBBLEBEAM", "ENCORE", "ENDEAVOR", "ENDURE", "HAZE", "ICEBALL", "MINDREADER", "MIST", "MUDSHOT", "REFRESH", "SPLASH", "WATERPULSE", "WATERSPORT"]
+raw_tms = ["SURF", "WATERFALL", "TOXIC", "DIVE", "HAIL", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "PSYCHIC", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "SCALD", "BULLDOZE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "WHIRLPOOL", "MUDSHOT", "BODYSLAM", "HYDROPUMP", "AMNESIA", "ENDURE", "ENCORE", "MUDDYWATER"]
+raw_tutor_moves = ["EARTHPOWER", "ENDEAVOR", "HEADBUTT", "HELPINGHAND", "ICYWIND", "LOWKICK", "SNORE", "WATERPULSE", "ICEBALL", "MIMIC"]
+compatible_egg_groups = ["Water1"]
+steps_to_hatch = 5355
+height = 0.6
+weight = 12.4
+colour = "Blue"
+kind = "Tadpole"
+pokedex_entry = "It is possible to see this Pokémon's spiral innards right through its thin skin. However, the skin is also very flexible. Even sharp fangs bounce off it."
+battler_player_y = 27
+battler_enemy_y = 25
+battler_altitude = 0
+form_names = []
+internal_name = "POLIWAG"
+raw_hidden_ability = "SWIFTSWIM"
+habitat = "WatersEdge"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WATERSPORT"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "WATERGUN"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "HYPNOSIS"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "BUBBLE"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "DOUBLESLAP"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "RAINDANCE"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "BODYSLAM"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "BUBBLEBEAM"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "MUDSHOT"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "BELLYDRUM"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "WAKEUPSLAP"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "HYDROPUMP"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "MUDBOMB"
+
+[[evolutions]]
+into_name = "POLIWHIRL"
+condition = "Level"
+parameter = "25"
+
+[base_stats]
+hp = 40
+atk = 50
+def_ = 40
+spa = 40
+spd = 40
+spe = 90
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 1
+
+[wild_items]

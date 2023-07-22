@@ -1,0 +1,116 @@
+name = "Quilava"
+primary_type = "FIRE"
+secondary_type = "FIRE"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+exp_yield = 142
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["BLAZE", "FLASHFIRE"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "CUT", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "FRUSTRATION", "RETURN", "BRICKBREAK", "DOUBLETEAM", "FLAMETHROWER", "FIREBLAST", "AERIALACE", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "ROUND", "OVERHEAT", "WILLOWISP", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "DIG", "BODYSLAM", "FLAREBLITZ", "REVERSAL", "ENDURE", "SWIFT"]
+raw_tutor_moves = ["COVET", "FIREPLEDGE", "FOCUSPUNCH", "FURYCUTTER", "HEADBUTT", "HEATWAVE", "IRONTAIL", "MUDSLAP", "ROLLOUT", "SNORE", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5355
+height = 0.9
+weight = 19.0
+colour = "Yellow"
+kind = "Volcano"
+pokedex_entry = "It intimidates foes with intense gusts of flames and superheated air. Its quick nimbleness lets it dodge attacks even while scorching an enemy."
+battler_player_y = 25
+battler_enemy_y = 18
+battler_altitude = 0
+form_names = []
+internal_name = "QUILAVA"
+habitat = "Grassland"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SMOKESCREEN"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "SMOKESCREEN"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "EMBER"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "FLAMEWHEEL"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "DEFENSECURL"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "SWIFT"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "FLAMECHARGE"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "LAVAPLUME"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "FLAMETHROWER"
+
+[[raw_level_up_moves]]
+at_level = "53"
+name = "INFERNO"
+
+[[raw_level_up_moves]]
+at_level = "57"
+name = "ROLLOUT"
+
+[[raw_level_up_moves]]
+at_level = "64"
+name = "DOUBLEEDGE"
+
+[[raw_level_up_moves]]
+at_level = "68"
+name = "BURNUP"
+
+[[raw_level_up_moves]]
+at_level = "75"
+name = "ERUPTION"
+
+[[evolutions]]
+into_name = "TYPHLOSION"
+condition = "Level"
+parameter = "36"
+
+[base_stats]
+hp = 58
+atk = 64
+def_ = 58
+spa = 80
+spd = 65
+spe = 80
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 1
+spd = 0
+spe = 1
+
+[wild_items]

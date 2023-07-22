@@ -1,0 +1,100 @@
+name = "Glastrier"
+primary_type = "ICE"
+secondary_type = "ICE"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 290
+catch_rate = 3
+caught_happiness = 35
+raw_abilities = ["CHILLINGNEIGH"]
+raw_egg_moves = []
+raw_tms = ["HAIL", "TAUNT", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "FACADE", "REST", "ROUND", "PAYBACK", "SMARTSTRIKE", "GIGAIMPACT", "SWORDSDANCE", "BULLDOZE", "SUBSTITUTE", "SECRETPOWER", "SNARL", "SCARYFACE", "ICICLESPEAR", "MUDSHOT", "ASSURANCE", "AVALANCHE", "CRUNCH", "BODYSLAM", "MEGAHORN", "CLOSECOMBAT", "ENDURE", "HEAVYSLAM", "HIGHHORSEPOWER", "BODYPRESS", "SNOWSCAPE", "TRAILBLAZE"]
+raw_tutor_moves = ["ICYWIND", "IRONDEFENSE", "OUTRAGE", "SNORE", "STOMPINGTANTRUM", "SUPERPOWER", "THROATCHOP", "UPROAR", "LASHOUT", "MIMIC"]
+compatible_egg_groups = ["Undiscovered"]
+steps_to_hatch = 31096
+height = 2.2
+weight = 800.0
+colour = "White"
+kind = "Wild Horse"
+pokedex_entry = "Glastrier has tremendous physical strength, and the mask of ice covering its face is 100 times harder than diamond."
+battler_player_y = 14
+battler_enemy_y = 18
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "GLASTRIER"
+shape = 0
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TAILWHIP"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "DOUBLEKICK"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "AVALANCHE"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "STOMP"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "TORMENT"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "MIST"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "ICICLECRASH"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "IRONDEFENSE"
+
+[[raw_level_up_moves]]
+at_level = "54"
+name = "THRASH"
+
+[[raw_level_up_moves]]
+at_level = "60"
+name = "TAUNT"
+
+[[raw_level_up_moves]]
+at_level = "66"
+name = "DOUBLEEDGE"
+
+[[raw_level_up_moves]]
+at_level = "72"
+name = "SWORDSDANCE"
+
+[base_stats]
+hp = 100
+atk = 145
+def_ = 130
+spa = 65
+spd = 110
+spe = 30
+
+[ev_yield]
+hp = 0
+atk = 3
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

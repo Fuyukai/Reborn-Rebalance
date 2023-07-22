@@ -1,0 +1,113 @@
+name = "Sunkern"
+primary_type = "GRASS"
+secondary_type = "GRASS"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 36
+catch_rate = 235
+caught_happiness = 70
+raw_abilities = ["CHLOROPHYLL", "SOLARPOWER"]
+raw_egg_moves = ["BIDE", "CURSE", "ENCORE", "ENDURE", "GRASSWHISTLE", "GRASSYTERRAIN", "HELPINGHAND", "INGRAIN", "LEECHSEED", "MORNINGSUN", "NATURALGIFT", "SWEETSCENT"]
+raw_tms = ["CUT", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "LIGHTSCREEN", "PROTECT", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "SLUDGEBOMB", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "SWORDSDANCE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "BULLETSEED", "GRASSYTERRAIN", "ENDURE", "ENCORE", "TRAILBLAZE"]
+raw_tutor_moves = ["AFTERYOU", "EARTHPOWER", "ENDEAVOR", "GIGADRAIN", "HELPINGHAND", "SEEDBOMB", "SNORE", "SYNTHESIS", "UPROAR", "WORRYSEED", "MIMIC"]
+compatible_egg_groups = ["Grass"]
+steps_to_hatch = 5355
+height = 0.3
+weight = 1.8
+colour = "Yellow"
+kind = "Seed"
+pokedex_entry = "Sunkern try to conserve the nutrients they have stored in their bodies for evolution. They will not eat, subsisting only on morning dew."
+battler_player_y = 33
+battler_enemy_y = 26
+battler_altitude = 8
+form_names = []
+internal_name = "SUNKERN"
+raw_hidden_ability = "SEEDSOWER"
+habitat = "Grassland"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ABSORB"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWTH"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "INGRAIN"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "GRASSWHISTLE"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "MEGADRAIN"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "LEECHSEED"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "RAZORLEAF"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "WORRYSEED"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "GIGADRAIN"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "ENDEAVOR"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "SYNTHESIS"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "NATURALGIFT"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "SOLARBEAM"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "DOUBLEEDGE"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "SUNNYDAY"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "SEEDBOMB"
+
+[[evolutions]]
+into_name = "SUNFLORA"
+condition = "Item"
+parameter = "SUNSTONE"
+
+[base_stats]
+hp = 30
+atk = 30
+def_ = 30
+spa = 30
+spd = 30
+spe = 30
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 1
+spd = 0
+spe = 0
+
+[wild_items]

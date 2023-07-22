@@ -1,0 +1,137 @@
+name = "Arbok"
+primary_type = "POISON"
+secondary_type = "POISON"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 153
+catch_rate = 90
+caught_happiness = 70
+raw_abilities = ["INTIMIDATE", "SHEDSKIN"]
+raw_egg_moves = []
+raw_tms = ["STRENGTH", "TOXIC", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "SLUDGEWAVE", "SLUDGEBOMB", "ROCKTOMB", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "BRUTALSWING", "PAYBACK", "GIGAIMPACT", "BULLDOZE", "ROCKSLIDE", "DRAGONTAIL", "INFESTATION", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "DARKPULSE", "CONFIDE", "DIG", "SCREECH", "SCARYFACE", "BEATUP", "THUNDERFANG", "ICEFANG", "FIREFANG", "CRUNCH", "BODYSLAM", "ENDURE", "VENOMDRENCH"]
+raw_tutor_moves = ["AQUATAIL", "BIND", "GASTROACID", "GIGADRAIN", "HEADBUTT", "IRONTAIL", "SEEDBOMB", "SNATCH", "SNORE", "SPITE", "STOMPINGTANTRUM", "THROATCHOP", "MIMIC"]
+compatible_egg_groups = ["Field", "Dragon"]
+steps_to_hatch = 5355
+height = 3.5
+weight = 65.0
+colour = "Purple"
+kind = "Cobra"
+pokedex_entry = "This Pokémon has a terrifically strong constricting power. It can even flatten steel oil drums. Once it wraps its body around its foe, escaping is impossible."
+battler_player_y = 15
+battler_enemy_y = 10
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "ARBOK"
+raw_hidden_ability = "UNNERVE"
+habitat = "Grassland"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ICEFANG"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "THUNDERFANG"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FIREFANG"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WRAP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POISONSTING"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "POISONSTING"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "GLARE"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "SCREECH"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "ACID"
+
+[[raw_level_up_moves]]
+at_level = "27"
+name = "STOCKPILE"
+
+[[raw_level_up_moves]]
+at_level = "27"
+name = "SPITUP"
+
+[[raw_level_up_moves]]
+at_level = "27"
+name = "SWALLOW"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "ACIDSPRAY"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "MUDBOMB"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "GASTROACID"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "BELCH"
+
+[[raw_level_up_moves]]
+at_level = "51"
+name = "HAZE"
+
+[[raw_level_up_moves]]
+at_level = "56"
+name = "COIL"
+
+[[raw_level_up_moves]]
+at_level = "63"
+name = "GUNKSHOT"
+
+[base_stats]
+hp = 60
+atk = 95
+def_ = 69
+spa = 65
+spd = 79
+spe = 80
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

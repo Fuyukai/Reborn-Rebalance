@@ -1,0 +1,123 @@
+name = "Ceruledge"
+primary_type = "FIRE"
+secondary_type = "GHOST"
+gender_ratio = "Female50Percent"
+growth_rate = "Slow"
+exp_yield = 245
+catch_rate = 25
+caught_happiness = 50
+raw_abilities = ["FLASHFIRE", "WEAKARMOR"]
+raw_egg_moves = []
+raw_tms = ["CUT", "DRAGONCLAW", "TOXIC", "BULKUP", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "LIGHTSCREEN", "PROTECT", "FRUSTRATION", "RETURN", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "FIREBLAST", "TORMENT", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "OVERHEAT", "FALSESWIPE", "FLING", "WILLOWISP", "SHADOWCLAW", "SWORDSDANCE", "XSCISSOR", "POISONJAB", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "SOLARBLADE", "FIRESPIN", "PSYCHOCUT", "CROSSPOISON", "HEX", "PHANTOMFORCE", "MYSTICALFIRE", "FLAREBLITZ", "CLOSECOMBAT", "ENDURE", "STOREDPOWER", "RETALIATE"]
+raw_tutor_moves = ["HEATWAVE", "HELPINGHAND", "IRONDEFENSE", "IRONHEAD", "SPITE", "BURNINGJEALOUSY", "LASHOUT"]
+compatible_egg_groups = ["Humanlike"]
+steps_to_hatch = 8995
+height = 1.6
+weight = 62.0
+colour = "Blue"
+kind = "Fire Blades"
+pokedex_entry = "An old set of armor steeped in grudges caused this Pokémon's evolution. Ceruledge cuts its enemies to pieces without mercy."
+battler_player_y = 15
+battler_enemy_y = 12
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "CERULEDGE"
+
+[[raw_level_up_moves]]
+at_level = " 0"
+name = "SHADOWCLAW"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "NIGHTSLASH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "QUICKGUARD"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SHADOWSNEAK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SOLARBLADE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "EMBER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ASTONISH"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "CLEARSMOG"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "FIRESPIN"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "WILLOWISP"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "NIGHTSHADE"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "FLAMECHARGE"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "INCINERATE"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "LAVAPLUME"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "SWORDSDANCE"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "ALLYSWITCH"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "BITTERBLADE"
+
+[[raw_level_up_moves]]
+at_level = "56"
+name = "PSYCHOCUT"
+
+[[raw_level_up_moves]]
+at_level = "62"
+name = "FLAREBLITZ"
+
+[base_stats]
+hp = 75
+atk = 125
+def_ = 80
+spa = 60
+spd = 100
+spe = 85
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

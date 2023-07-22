@@ -1,0 +1,104 @@
+name = "Sneasler"
+primary_type = "FIGHTING"
+secondary_type = "POISON"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 179
+catch_rate = 45
+caught_happiness = 35
+raw_abilities = ["PRESSURE", "UNBURDEN"]
+raw_egg_moves = []
+raw_tms = ["CALMMIND", "TOXIC", "ROCKSMASH", "BULKUP", "TAUNT", "HYPERBEAM", "PROTECT", "FRUSTRATION", "RETURN", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "LOWSWEEP", "FALSESWIPE", "FLING", "SHADOWCLAW", "GIGAIMPACT", "SWORDSDANCE", "XSCISSOR", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SNARL", "POWERUPPUNCH", "CONFIDE", "BEATUP", "AGILITY", "FOCUSENERGY", "TRAILBLAZE", "SWIFT"]
+raw_tutor_moves = ["DRAINPUNCH", "FIREPUNCH", "FOCUSPUNCH", "ICEPUNCH", "ICYWIND", "IRONTAIL", "KNOCKOFF", "LOWKICK", "SNATCH", "SNORE", "SPITE", "SUCKERPUNCH", "THROATCHOP", "THUNDERPUNCH", "POWERSHIFT", "MIMIC", "POISONTAIL"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5355
+height = 1.3
+weight = 43.0
+colour = "Gray"
+kind = "Free Climb"
+pokedex_entry = "Because of Sneasler's virulent poison and daunting physical prowess, no other species could hope to best it on the frozen highlands. Preferring solitude, this species does not form packs."
+battler_player_y = 17
+battler_enemy_y = 12
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "SNEASLER"
+raw_hidden_ability = "POISONTOUCH"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "DIRECLAW"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FLING"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SCRATCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ROCKSMASH"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "TAUNT"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "METALCLAW"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "POISONJAB"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "BRICKBREAK"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "HONECLAWS"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "SLASH"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "54"
+name = "SCREECH"
+
+[[raw_level_up_moves]]
+at_level = "60"
+name = "CLOSECOMBAT"
+
+[base_stats]
+hp = 80
+atk = 130
+def_ = 60
+spa = 40
+spd = 80
+spe = 120
+
+[ev_yield]
+hp = 0
+atk = 1
+def_ = 0
+spa = 0
+spd = 0
+spe = 1
+
+[wild_items]

@@ -1,0 +1,109 @@
+name = "Mareep"
+primary_type = "ELECTRIC"
+secondary_type = "ELECTRIC"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 56
+catch_rate = 235
+caught_happiness = 70
+raw_abilities = ["STATIC", "PLUS"]
+raw_egg_moves = ["AFTERYOU", "AGILITY", "BODYSLAM", "CHARGE", "EERIEIMPULSE", "ELECTRICTERRAIN", "FLATTER", "IRONTAIL", "ODORSLEUTH", "SANDATTACK", "SCREECH", "TAKEDOWN"]
+raw_tms = ["TOXIC", "FLASH", "HIDDENPOWER", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "CHARGEBEAM", "THUNDERWAVE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "CONFIDE", "SCREECH", "ELECTRICTERRAIN", "EERIEIMPULSE", "BODYSLAM", "AGILITY", "ENDURE", "POWERGEM", "ELECTROBALL", "TRAILBLAZE", "SWIFT"]
+raw_tutor_moves = ["AFTERYOU", "ELECTROWEB", "HEADBUTT", "HEALBELL", "IRONTAIL", "MAGNETRISE", "SHOCKWAVE", "SIGNALBEAM", "SNORE", "MIMIC"]
+compatible_egg_groups = ["Monster", "Field"]
+steps_to_hatch = 5355
+height = 0.6
+weight = 7.8
+colour = "White"
+kind = "Wool"
+pokedex_entry = "Its fluffy wool rubs together and builds a static charge. The more energy is charged, the more brightly the lightbulb at the tip of its tail glows."
+battler_player_y = 25
+battler_enemy_y = 21
+battler_altitude = 0
+form_names = []
+internal_name = "MAREEP"
+raw_hidden_ability = "ELECTROMORPHOSIS"
+habitat = "Grassland"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "THUNDERWAVE"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "THUNDERSHOCK"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "COTTONSPORE"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "CHARGE"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "ELECTROBALL"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "CONFUSERAY"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "POWERGEM"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "DISCHARGE"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "COTTONGUARD"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "SIGNALBEAM"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "LIGHTSCREEN"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "THUNDER"
+
+[[evolutions]]
+into_name = "FLAAFFY"
+condition = "Level"
+parameter = "15"
+
+[base_stats]
+hp = 55
+atk = 40
+def_ = 40
+spa = 65
+spd = 45
+spe = 35
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 1
+spd = 0
+spe = 0
+
+[wild_items]

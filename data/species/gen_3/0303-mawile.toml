@@ -1,0 +1,126 @@
+name = "Mawile"
+primary_type = "STEEL"
+secondary_type = "FAIRY"
+gender_ratio = "Female50Percent"
+growth_rate = "Fast"
+exp_yield = 133
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["HYPERCUTTER", "INTIMIDATE"]
+raw_egg_moves = ["ANCIENTPOWER", "CAPTIVATE", "FIREFANG", "GUARDSWAP", "ICEFANG", "METALBURST", "MISTYTERRAIN", "POISONFANG", "POWERUPPUNCH", "PUNISHMENT", "SEISMICTOSS", "SLAM", "SUCKERPUNCH", "THUNDERFANG", "TICKLE"]
+raw_tms = ["STRENGTH", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "ICEBEAM", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "SOLARBEAM", "RETURN", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "FLAMETHROWER", "SLUDGEBOMB", "SANDSTORM", "FIREBLAST", "ROCKTOMB", "TORMENT", "FACADE", "REST", "ATTRACT", "ROUND", "FOCUSBLAST", "FALSESWIPE", "FLING", "CHARGEBEAM", "BRUTALSWING", "EMBARGO", "PAYBACK", "GIGAIMPACT", "STONEEDGE", "SWORDSDANCE", "PSYCHUP", "ROCKSLIDE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "DARKPULSE", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "FAKETEARS", "ASSURANCE", "GUARDSWAP", "THUNDERFANG", "ICEFANG", "FIREFANG", "PSYCHICFANGS", "CRUNCH", "DRAININGKISS", "MISTYTERRAIN", "BODYSLAM", "ENDURE", "BATONPASS", "PLAYROUGH"]
+raw_tutor_moves = ["ANCIENTPOWER", "FOCUSPUNCH", "FOULPLAY", "HEADBUTT", "HELPINGHAND", "ICEPUNCH", "ICYWIND", "IRONDEFENSE", "IRONHEAD", "KNOCKOFF", "LASERFOCUS", "LASTRESORT", "MAGNETRISE", "MUDSLAP", "PAINSPLIT", "SNATCH", "SNORE", "STEALTHROCK", "SUCKERPUNCH", "SUPERFANG", "THUNDERPUNCH", "STEELBEAM", "MIMIC"]
+compatible_egg_groups = ["Field", "Fairy"]
+steps_to_hatch = 5355
+height = 0.6
+weight = 11.5
+colour = "Black"
+kind = "Deceiver"
+pokedex_entry = "Its giant jaws are actually steel horns that transformed. It fools foes into complacency with its adorable gestures, then chomps them with its huge jaws."
+battler_player_y = 25
+battler_enemy_y = 19
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "MAWILE"
+raw_hidden_ability = "SHEERFORCE"
+habitat = "Cave"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PLAYROUGH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "IRONHEAD"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TAUNT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FAIRYWIND"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ASTONISH"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "FAKETEARS"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "SWEETSCENT"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "VICEGRIP"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "FEINTATTACK"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "BATONPASS"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "IRONDEFENSE"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "SUCKERPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "STOCKPILE"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "SPITUP"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "SWALLOW"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "IRONHEAD"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "PLAYROUGH"
+
+[base_stats]
+hp = 50
+atk = 85
+def_ = 85
+spa = 55
+spd = 55
+spe = 50
+
+[ev_yield]
+hp = 0
+atk = 1
+def_ = 1
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "IRONBALL"

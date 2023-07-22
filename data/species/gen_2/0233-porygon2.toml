@@ -1,0 +1,121 @@
+name = "Porygon2"
+primary_type = "NORMAL"
+secondary_type = "NORMAL"
+gender_ratio = "Genderless"
+growth_rate = "Medium"
+exp_yield = 180
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["TRACE", "DOWNLOAD"]
+raw_egg_moves = []
+raw_tms = ["PSYSHOCK", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "SOLARBEAM", "THUNDERBOLT", "THUNDER", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "AERIALACE", "FACADE", "REST", "THIEF", "ROUND", "CHARGEBEAM", "GIGAIMPACT", "THUNDERWAVE", "PSYCHUP", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "POWERSWAP", "GUARDSWAP", "SPEEDSWAP", "EERIEIMPULSE", "AGILITY", "TRIATTACK", "ENDURE", "SWIFT"]
+raw_tutor_moves = ["ALLYSWITCH", "ELECTROWEB", "FOULPLAY", "GRAVITY", "ICYWIND", "IRONTAIL", "LASTRESORT", "MAGNETRISE", "PAINSPLIT", "RECYCLE", "SHOCKWAVE", "SIGNALBEAM", "SNORE", "TELEKINESIS", "TRICK", "WONDERROOM", "ZENHEADBUTT", "MIMIC"]
+compatible_egg_groups = ["Mineral"]
+steps_to_hatch = 5355
+height = 0.6
+weight = 32.5
+colour = "Red"
+kind = "Virtual"
+pokedex_entry = "It was created using the power of science. It has been given artificial intelligence that enables it to learn new gestures and emotions on its own."
+battler_player_y = 30
+battler_enemy_y = 26
+battler_altitude = 11
+form_names = []
+internal_name = "PORYGON2"
+raw_hidden_ability = "ANALYTIC"
+habitat = "Urban"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ZAPCANNON"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MAGICCOAT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CONVERSION2"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CONVERSION"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DEFENSECURL"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "PSYBEAM"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "RECOVER"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "MAGNETRISE"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "SIGNALBEAM"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "RECYCLE"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "DISCHARGE"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "LOCKON"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "TRIATTACK"
+
+[[raw_level_up_moves]]
+at_level = "56"
+name = "MAGICCOAT"
+
+[[raw_level_up_moves]]
+at_level = "62"
+name = "ZAPCANNON"
+
+[[raw_level_up_moves]]
+at_level = "67"
+name = "HYPERBEAM"
+
+[[evolutions]]
+into_name = "PORYGONZ"
+condition = "TradeItem"
+parameter = "DUBIOUSDISC"
+
+[base_stats]
+hp = 85
+atk = 80
+def_ = 90
+spa = 105
+spd = 95
+spe = 60
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 2
+spd = 0
+spe = 0
+
+[wild_items]

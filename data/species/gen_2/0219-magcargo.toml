@@ -1,0 +1,125 @@
+name = "Magcargo"
+primary_type = "FIRE"
+secondary_type = "ROCK"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 151
+catch_rate = 75
+caught_happiness = 70
+raw_abilities = ["MAGMAARMOR", "FLAMEBODY"]
+raw_egg_moves = []
+raw_tms = ["STRENGTH", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "FRUSTRATION", "SOLARBEAM", "SMACKDOWN", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "SANDSTORM", "FIREBLAST", "ROCKTOMB", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "ROUND", "OVERHEAT", "WILLOWISP", "EXPLOSION", "GIGAIMPACT", "ROCKPOLISH", "STONEEDGE", "GYROBALL", "BULLDOZE", "ROCKSLIDE", "INFESTATION", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "FIRESPIN", "SELFDESTRUCT", "ROCKBLAST", "GUARDSWAP", "BODYSLAM", "AMNESIA", "ENDURE", "HEATCRASH"]
+raw_tutor_moves = ["AFTERYOU", "ANCIENTPOWER", "EARTHPOWER", "HEATWAVE", "IRONDEFENSE", "MUDSLAP", "PAINSPLIT", "ROLLOUT", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "MIMIC"]
+compatible_egg_groups = ["Amorphous"]
+steps_to_hatch = 5355
+height = 0.8
+weight = 55.0
+colour = "Red"
+kind = "Lava"
+pokedex_entry = "The shell on its back is made of hardened magma. Tens of thousands of years spent living in volcanic craters have turned Magcargo's bodies into magma."
+battler_player_y = 24
+battler_enemy_y = 14
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "MAGCARGO"
+raw_hidden_ability = "WEAKARMOR"
+habitat = "Mountain"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "SHELLSMASH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "EARTHPOWER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "YAWN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SMOG"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "EMBER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ROCKTHROW"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "EMBER"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "ROCKTHROW"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "HARDEN"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "INCINERATE"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "CLEARSMOG"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "ANCIENTPOWER"
+
+[[raw_level_up_moves]]
+at_level = "27"
+name = "FLAMEBURST"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "ROCKSLIDE"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "LAVAPLUME"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "AMNESIA"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "BODYSLAM"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "RECOVER"
+
+[[raw_level_up_moves]]
+at_level = "54"
+name = "FLAMETHROWER"
+
+[[raw_level_up_moves]]
+at_level = "58"
+name = "EARTHPOWER"
+
+[base_stats]
+hp = 60
+atk = 50
+def_ = 120
+spa = 90
+spd = 80
+spe = 30
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 2
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

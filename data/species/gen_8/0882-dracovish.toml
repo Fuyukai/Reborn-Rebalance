@@ -1,0 +1,97 @@
+name = "Dracovish"
+primary_type = "WATER"
+secondary_type = "DRAGON"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 177
+catch_rate = 45
+caught_happiness = 50
+raw_abilities = ["WATERABSORB", "STRONGJAW"]
+raw_egg_moves = []
+raw_tms = ["SURF", "ROAR", "WATERFALL", "DIVE", "HYPERBEAM", "PROTECT", "RAINDANCE", "EARTHQUAKE", "LEECHLIFE", "ROCKTOMB", "FACADE", "REST", "ROUND", "SCALD", "BRUTALSWING", "GIGAIMPACT", "STONEEDGE", "BULLDOZE", "ROCKSLIDE", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "MEGAKICK", "WHIRLPOOL", "ROCKBLAST", "BRINE", "ICEFANG", "PSYCHICFANGS", "CRUNCH", "BODYSLAM", "HYDROPUMP", "SPIKES", "ENDURE", "HIGHHORSEPOWER"]
+raw_tutor_moves = ["ANCIENTPOWER", "DRACOMETEOR", "DRAGONPULSE", "EARTHPOWER", "IRONHEAD", "LIQUIDATION", "LOWKICK", "MUDSLAP", "OUTRAGE", "SNORE", "STOMPINGTANTRUM", "SUPERFANG", "ZENHEADBUTT", "METEORBEAM", "MIMIC"]
+compatible_egg_groups = ["Undiscovered"]
+steps_to_hatch = 8960
+height = 2.3
+weight = 215.0
+colour = "Green"
+kind = "Fossil"
+pokedex_entry = "Its mighty legs are capable of running at speeds exceeding 40 mph, but this Pokémon can't breathe unless it's underwater."
+battler_player_y = 21
+battler_enemy_y = 26
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "DRACOVISH"
+raw_hidden_ability = "SANDRUSH"
+regional_numbers = 881
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WATERGUN"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "PROTECT"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "BRUTALSWING"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "ANCIENTPOWER"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "DRAGONBREATH"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "STOMP"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "SUPERFANG"
+
+[[raw_level_up_moves]]
+at_level = "56"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "63"
+name = "FISHIOUSREND"
+
+[[raw_level_up_moves]]
+at_level = "70"
+name = "DRAGONPULSE"
+
+[[raw_level_up_moves]]
+at_level = "77"
+name = "DRAGONRUSH"
+
+[base_stats]
+hp = 90
+atk = 90
+def_ = 100
+spa = 70
+spd = 80
+spe = 75
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 2
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

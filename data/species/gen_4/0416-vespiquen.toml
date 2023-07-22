@@ -1,0 +1,124 @@
+name = "Vespiquen"
+primary_type = "BUG"
+secondary_type = "FLYING"
+gender_ratio = "AlwaysFemale"
+growth_rate = "Parabolic"
+exp_yield = 166
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["PRESSURE", "UNNERVE"]
+raw_egg_moves = []
+raw_tms = ["CUT", "TOXIC", "FLASH", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "FRUSTRATION", "RETURN", "DOUBLETEAM", "SLUDGEBOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "FLING", "QUASH", "ACROBATICS", "GIGAIMPACT", "STRUGGLEBUG", "XSCISSOR", "INFESTATION", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "PINMISSILE", "SCREECH", "BEATUP", "REVENGE", "ASSURANCE", "CROSSPOISON", "AIRSLASH", "HEX", "REVERSAL", "ENDURE", "TOXICSPIKES", "BUGBUZZ", "POWERGEM", "POUNCE", "SWIFT"]
+raw_tutor_moves = ["AIRCUTTER", "BUGBITE", "DEFOG", "ENDEAVOR", "FURYCUTTER", "LASERFOCUS", "MUDSLAP", "OMINOUSWIND", "SIGNALBEAM", "SNORE", "STRINGSHOT", "TAILWIND", "UPROAR", "DUALWINGBEAT", "POWERSHIFT", "MIMIC"]
+compatible_egg_groups = ["Bug"]
+steps_to_hatch = 4080
+height = 1.2
+weight = 38.5
+colour = "Yellow"
+kind = "Beehive"
+pokedex_entry = "Its abdomen is a honeycomb for grubs. It raises its grubs on honey collected by Combee."
+battler_player_y = 18
+battler_enemy_y = 13
+battler_altitude = 14
+evolutions = []
+form_names = []
+internal_name = "VESPIQUEN"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "SLASH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FELLSTINGER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DESTINYBOND"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SWEETSCENT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GUST"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POISONSTING"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CONFUSERAY"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "FURYCUTTER"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "PURSUIT"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "FURYSWIPES"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "DEFENDORDER"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "POWERGEM"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "HEALORDER"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "TOXIC"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "AIRSLASH"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "CAPTIVATE"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "ATTACKORDER"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "SWAGGER"
+
+[[raw_level_up_moves]]
+at_level = "53"
+name = "DESTINYBOND"
+
+[[raw_level_up_moves]]
+at_level = "57"
+name = "FELLSTINGER"
+
+[base_stats]
+hp = 70
+atk = 80
+def_ = 102
+spa = 80
+spd = 102
+spe = 40
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 1
+spa = 0
+spd = 1
+spe = 0
+
+[wild_items]
+uncommon = "POISONBARB"

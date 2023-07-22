@@ -1,0 +1,126 @@
+name = "Hariyama"
+primary_type = "FIGHTING"
+secondary_type = "FIGHTING"
+gender_ratio = "Female25Percent"
+growth_rate = "Fluctuating"
+exp_yield = 166
+catch_rate = 200
+caught_happiness = 70
+raw_abilities = ["THICKFAT", "GUTS"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "SURF", "STRENGTH", "TOXIC", "ROCKSMASH", "BULKUP", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "SMACKDOWN", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "LOWSWEEP", "ROUND", "FOCUSBLAST", "FLING", "PAYBACK", "GIGAIMPACT", "STONEEDGE", "BULLDOZE", "ROCKSLIDE", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "WHIRLPOOL", "REVENGE", "BRINE", "ASSURANCE", "BODYSLAM", "CLOSECOMBAT", "FOCUSENERGY", "METRONOME", "REVERSAL", "ENDURE", "HEATCRASH", "HEAVYSLAM", "BODYPRESS", "RETALIATE", "CHILLINGWATER"]
+raw_tutor_moves = ["FIREPUNCH", "FOCUSPUNCH", "HEADBUTT", "HELPINGHAND", "ICEPUNCH", "IRONHEAD", "KNOCKOFF", "LOWKICK", "MUDSLAP", "ROLEPLAY", "SNORE", "STOMPINGTANTRUM", "SUPERPOWER", "THROATCHOP", "THUNDERPUNCH", "VACUUMWAVE", "MIMIC"]
+compatible_egg_groups = ["Humanlike"]
+steps_to_hatch = 5355
+height = 2.3
+weight = 253.8
+colour = "Brown"
+kind = "Arm Thrust"
+pokedex_entry = "It has the habit of challenging others without hesitation to test its strength. It has been known to stop trains using forearm thrusts."
+battler_player_y = 11
+battler_enemy_y = 8
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "HARIYAMA"
+raw_hidden_ability = "SHEERFORCE"
+habitat = "Mountain"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BRINE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FOCUSENERGY"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SANDATTACK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ARMTHRUST"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "SANDATTACK"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "ARMTHRUST"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "FAKEOUT"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "FORCEPALM"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "WHIRLWIND"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "KNOCKOFF"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "VITALTHROW"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "BELLYDRUM"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "SMELLINGSALTS"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "SEISMICTOSS"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "WAKEUPSLAP"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "ENDURE"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "CLOSECOMBAT"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "REVERSAL"
+
+[[raw_level_up_moves]]
+at_level = "54"
+name = "HEAVYSLAM"
+
+[base_stats]
+hp = 144
+atk = 120
+def_ = 60
+spa = 40
+spd = 60
+spe = 50
+
+[ev_yield]
+hp = 2
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "KINGSROCK"

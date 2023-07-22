@@ -1,0 +1,59 @@
+name = "Simipour"
+primary_type = "WATER"
+secondary_type = "WATER"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Medium"
+exp_yield = 174
+catch_rate = 75
+caught_happiness = 70
+raw_abilities = ["GLUTTONY", "TORRENT"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "CUT", "SURF", "WATERFALL", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "HIDDENPOWER", "TAUNT", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "BRICKBREAK", "DOUBLETEAM", "ROCKTOMB", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "LOWSWEEP", "ROUND", "FOCUSBLAST", "SCALD", "FLING", "ACROBATICS", "SHADOWCLAW", "PAYBACK", "GIGAIMPACT", "ROCKSLIDE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "DIG", "BRINE", "CRUNCH", "HYDROPUMP", "ENDURE", "NASTYPLOT"]
+raw_tutor_moves = ["AQUATAIL", "COVET", "ENDEAVOR", "FOCUSPUNCH", "GASTROACID", "GUNKSHOT", "HELPINGHAND", "ICEPUNCH", "ICYWIND", "IRONTAIL", "KNOCKOFF", "LOWKICK", "RECYCLE", "ROLEPLAY", "SNORE", "SUPERPOWER", "THROATCHOP", "UPROAR", "WATERPLEDGE", "WATERPULSE", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5120
+height = 1.0
+weight = 29.0
+colour = "Blue"
+kind = "Geyser"
+pokedex_entry = "The high-pressure water expelled from its tail is so powerful, it can destroy a concrete wall."
+battler_player_y = 18
+battler_enemy_y = 22
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "SIMIPOUR"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LICK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FURYSWIPES"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SCALD"
+
+[base_stats]
+hp = 75
+atk = 98
+def_ = 63
+spa = 98
+spd = 63
+spe = 101
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 2
+
+[wild_items]

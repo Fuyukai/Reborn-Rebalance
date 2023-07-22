@@ -1,0 +1,131 @@
+name = "Revavroom"
+primary_type = "STEEL"
+secondary_type = "POISON"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 168
+catch_rate = 75
+caught_happiness = 50
+raw_abilities = ["OVERCOAT", "FILTER"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "STRENGTH", "TOXIC", "ROCKSMASH", "VENOSHOCK", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "DOUBLETEAM", "SLUDGEBOMB", "SANDSTORM", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "OVERHEAT", "BRUTALSWING", "EXPLOSION", "GIGAIMPACT", "BULLDOZE", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "CONFIDE", "SCREECH", "SELFDESTRUCT", "SCARYFACE", "BODYSLAM", "ENDURE", "TOXICSPIKES", "HEATCRASH", "HEAVYSLAM", "HIGHHORSEPOWER"]
+raw_tutor_moves = ["BLOCK", "GASTROACID", "GUNKSHOT", "IRONDEFENSE", "IRONHEAD", "UPROAR", "ZENHEADBUTT", "CORROSIVEGAS", "STEELROLLER", "STEELBEAM"]
+compatible_egg_groups = ["Mineral"]
+steps_to_hatch = 5140
+height = 1.8
+weight = 120.0
+colour = "Gray"
+kind = "Multi-Cyl"
+pokedex_entry = "Revavroom viciously threatens others with the sound of its exhaust. It sticks its tongue out from its cylindrical mouth and sprays toxic fluids."
+battler_player_y = 5
+battler_enemy_y = 12
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "REVAVROOM"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "NOXIOUSTORQUE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SHIFTGEAR"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POISONJAB"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MAGNETRISE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LICK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POISONGAS"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "SMOG"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "TAUNT"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "ASSURANCE"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "SLUDGE"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "GYROBALL"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "HEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "SCREECH"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "IRONHEAD"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "SWAGGER"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "WICKEDTORQUE"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "COMBATTORQUE"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "UPROAR"
+
+[[raw_level_up_moves]]
+at_level = "52"
+name = "SPINOUT"
+
+[[raw_level_up_moves]]
+at_level = "58"
+name = "GUNKSHOT"
+
+[[raw_level_up_moves]]
+at_level = "65"
+name = "BLAZINGTORQUE"
+
+[[raw_level_up_moves]]
+at_level = "65"
+name = "MAGICALTORQUE"
+
+[base_stats]
+hp = 80
+atk = 119
+def_ = 90
+spa = 54
+spd = 67
+spe = 90
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

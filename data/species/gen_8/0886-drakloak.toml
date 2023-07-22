@@ -1,0 +1,121 @@
+name = "Drakloak"
+primary_type = "DRAGON"
+secondary_type = "GHOST"
+gender_ratio = "Female50Percent"
+growth_rate = "Slow"
+exp_yield = 144
+catch_rate = 45
+caught_happiness = 50
+raw_abilities = ["CLEARBODY", "INFILTRATOR"]
+raw_egg_moves = ["CURSE", "GRUDGE", "CONFUSERAY", "DOUBLETEAM", "DISABLE", "DRAGONTAIL", "SUCKERPUNCH"]
+raw_tms = ["SURF", "DIVE", "PROTECT", "THUNDERBOLT", "THUNDER", "SHADOWBALL", "DOUBLETEAM", "FLAMETHROWER", "FIREBLAST", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "STEELWING", "SCALD", "WILLOWISP", "ACROBATICS", "THUNDERWAVE", "DRAGONTAIL", "INFESTATION", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "BEATUP", "BRINE", "ASSURANCE", "PSYCHICFANGS", "HEX", "PHANTOMFORCE", "BREAKINGSWIPE", "HYDROPUMP", "BRAVEBIRD", "AGILITY", "ENDURE", "BATONPASS", "DRAGONDANCE", "POUNCE", "SWIFT"]
+raw_tutor_moves = ["ALLYSWITCH", "DRACOMETEOR", "DRAGONPULSE", "HELPINGHAND", "LASTRESORT", "OUTRAGE", "SNORE", "SUCKERPUNCH", "MIMIC"]
+compatible_egg_groups = ["Amorphous", "Dragon"]
+steps_to_hatch = 10240
+height = 1.4
+weight = 11.0
+colour = "Green"
+kind = "Caretaker"
+pokedex_entry = "Without a Dreepy to place on its head and care for, it gets so uneasy it'll try to substitute any Pokémon it finds for the missing Dreepy."
+battler_player_y = 21
+battler_enemy_y = 26
+battler_altitude = 0
+form_names = []
+internal_name = "DRAKLOAK"
+raw_hidden_ability = "CURSEDBODY"
+regional_numbers = 886
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "DRAGONPULSE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DRAGONPULSE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ASTONISH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "INFESTATION"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "LOCKON"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "ASSURANCE"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "HEX"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "DOUBLEHIT"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "UTURN"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "DRAGONDANCE"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "PHANTOMFORCE"
+
+[[raw_level_up_moves]]
+at_level = "54"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "61"
+name = "DRAGONRUSH"
+
+[[raw_level_up_moves]]
+at_level = "66"
+name = "DOUBLEEDGE"
+
+[[raw_level_up_moves]]
+at_level = "72"
+name = "LASTRESORT"
+
+[[evolutions]]
+into_name = "DRAGAPULT"
+condition = "Level"
+parameter = "60"
+
+[base_stats]
+hp = 68
+atk = 80
+def_ = 50
+spa = 60
+spd = 50
+spe = 102
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 2
+
+[wild_items]

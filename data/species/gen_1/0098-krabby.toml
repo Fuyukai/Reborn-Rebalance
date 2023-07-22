@@ -1,0 +1,109 @@
+name = "Krabby"
+primary_type = "WATER"
+secondary_type = "WATER"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 65
+catch_rate = 225
+caught_happiness = 70
+raw_abilities = ["HYPERCUTTER", "SHELLARMOR"]
+raw_egg_moves = ["AGILITY", "ALLYSWITCH", "AMNESIA", "ANCIENTPOWER", "BIDE", "CHIPAWAY", "ENDURE", "FLAIL", "HAZE", "KNOCKOFF", "SLAM", "TICKLE", "HAMMERARM"]
+raw_tms = ["CUT", "SURF", "STRENGTH", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "BRICKBREAK", "DOUBLETEAM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "FALSESWIPE", "SCALD", "FLING", "SWORDSDANCE", "ROCKSLIDE", "XSCISSOR", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "WHIRLPOOL", "MUDSHOT", "BRINE", "RAZORSHELL", "BODYSLAM", "AGILITY", "AMNESIA", "ENDURE"]
+raw_tutor_moves = ["ALLYSWITCH", "ANCIENTPOWER", "FURYCUTTER", "ICYWIND", "IRONDEFENSE", "KNOCKOFF", "LIQUIDATION", "MUDSLAP", "SNORE", "SUPERPOWER", "WATERPULSE", "MIMIC"]
+compatible_egg_groups = ["Water3"]
+steps_to_hatch = 5355
+height = 0.4
+weight = 6.5
+colour = "Red"
+kind = "River Crab"
+pokedex_entry = "Krabby live in holes dug into beaches. On sandy shores with little in the way of food, they can be seen squabbling with each other over territory."
+battler_player_y = 28
+battler_enemy_y = 21
+battler_altitude = 0
+form_names = []
+internal_name = "KRABBY"
+raw_hidden_ability = "SHEERFORCE"
+habitat = "WatersEdge"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MUDSPORT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BUBBLE"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "VICEGRIP"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "HARDEN"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "BUBBLEBEAM"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "MUDSHOT"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "METALCLAW"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "STOMP"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "PROTECT"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "GUILLOTINE"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "SLAM"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "BRINE"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "CRABHAMMER"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "FLAIL"
+
+[[evolutions]]
+into_name = "KINGLER"
+condition = "Level"
+parameter = "28"
+
+[base_stats]
+hp = 30
+atk = 105
+def_ = 90
+spa = 25
+spd = 25
+spe = 50
+
+[ev_yield]
+hp = 0
+atk = 1
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

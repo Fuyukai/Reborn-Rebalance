@@ -1,0 +1,117 @@
+name = "Ekans"
+primary_type = "POISON"
+secondary_type = "POISON"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 58
+catch_rate = 255
+caught_happiness = 70
+raw_abilities = ["INTIMIDATE", "SHEDSKIN"]
+raw_egg_moves = ["BEATUP", "DISABLE", "IRONTAIL", "POISONFANG", "POISONTAIL", "PURSUIT", "SCARYFACE", "SLAM", "SNATCH", "SPITE", "SUCKERPUNCH", "SWITCHEROO"]
+raw_tms = ["STRENGTH", "TOXIC", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "RAINDANCE", "FRUSTRATION", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "SLUDGEWAVE", "SLUDGEBOMB", "ROCKTOMB", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "BRUTALSWING", "PAYBACK", "BULLDOZE", "ROCKSLIDE", "INFESTATION", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "DARKPULSE", "CONFIDE", "DIG", "SCREECH", "SCARYFACE", "BEATUP", "CRUNCH", "BODYSLAM", "ENDURE"]
+raw_tutor_moves = ["AQUATAIL", "BIND", "GASTROACID", "GIGADRAIN", "HEADBUTT", "IRONTAIL", "SEEDBOMB", "SNATCH", "SNORE", "SPITE", "MIMIC", "POISONTAIL"]
+compatible_egg_groups = ["Field", "Dragon"]
+steps_to_hatch = 5355
+height = 2.0
+weight = 6.9
+colour = "Purple"
+kind = "Snake"
+pokedex_entry = "An Ekans curls itself up in a spiral while it rests. This position allows it to quickly respond to an enemy from any direction with its upraised head."
+battler_player_y = 26
+battler_enemy_y = 21
+battler_altitude = 0
+form_names = []
+internal_name = "EKANS"
+raw_hidden_ability = "UNNERVE"
+habitat = "Grassland"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WRAP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "POISONSTING"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "GLARE"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "SCREECH"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "ACID"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "STOCKPILE"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "SPITUP"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "SWALLOW"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "ACIDSPRAY"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "MUDBOMB"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "GASTROACID"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "BELCH"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "HAZE"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "COIL"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "GUNKSHOT"
+
+[[evolutions]]
+into_name = "ARBOK"
+condition = "Level"
+parameter = "22"
+
+[base_stats]
+hp = 35
+atk = 60
+def_ = 44
+spa = 40
+spd = 54
+spe = 55
+
+[ev_yield]
+hp = 0
+atk = 1
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

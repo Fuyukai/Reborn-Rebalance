@@ -1,0 +1,113 @@
+name = "Yamask"
+primary_type = "GHOST"
+secondary_type = "GHOST"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 61
+catch_rate = 190
+caught_happiness = 70
+raw_abilities = ["MUMMY"]
+raw_egg_moves = ["ALLYSWITCH", "CRAFTYSHIELD", "DISABLE", "ENDURE", "FAKETEARS", "HEALBLOCK", "IMPRISON", "MEMENTO", "NASTYPLOT", "NIGHTMARE", "TOXICSPIKES"]
+raw_tms = ["CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "EARTHQUAKE", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "SANDSTORM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ENERGYBALL", "BRUTALSWING", "WILLOWISP", "EMBARGO", "PAYBACK", "PSYCHUP", "ROCKSLIDE", "INFESTATION", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "DARKPULSE", "CONFIDE", "IMPRISON", "FAKETEARS", "HEX", "ENDURE", "TOXICSPIKES", "NASTYPLOT"]
+raw_tutor_moves = ["AFTERYOU", "ALLYSWITCH", "BLOCK", "EARTHPOWER", "IRONDEFENSE", "KNOCKOFF", "MAGICCOAT", "PAINSPLIT", "ROLEPLAY", "SHOCKWAVE", "SKILLSWAP", "SNATCH", "SNORE", "SPITE", "TELEKINESIS", "TRICK", "WONDERROOM", "ZENHEADBUTT", "POLTERGEIST", "MIMIC"]
+compatible_egg_groups = ["Mineral", "Amorphous"]
+steps_to_hatch = 6400
+height = 0.5
+weight = 1.5
+colour = "Black"
+kind = "Spirit"
+pokedex_entry = "These Pokémon arose from the spirits of people interred in graves in past ages. Each retains memories of its former life."
+battler_player_y = 30
+battler_enemy_y = 24
+battler_altitude = 2
+form_names = []
+internal_name = "YAMASK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ASTONISH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PROTECT"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "DISABLE"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "HAZE"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "NIGHTSHADE"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "HEX"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "WILLOWISP"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "OMINOUSWIND"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "CURSE"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "POWERSPLIT"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "GUARDSPLIT"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "SHADOWBALL"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "GRUDGE"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "MEANLOOK"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "DESTINYBOND"
+
+[[evolutions]]
+into_name = "COFAGRIGUS"
+condition = "Level"
+parameter = "34"
+
+[[evolutions]]
+into_name = "RUNERIGUS"
+condition = "LevelNight"
+parameter = "34"
+
+[base_stats]
+hp = 38
+atk = 30
+def_ = 85
+spa = 55
+spd = 65
+spe = 30
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 1
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "SPELLTAG"

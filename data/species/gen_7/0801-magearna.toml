@@ -1,0 +1,127 @@
+name = "Magearna"
+primary_type = "STEEL"
+secondary_type = "FAIRY"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 270
+catch_rate = 3
+caught_happiness = 0
+raw_abilities = ["SOULHEART"]
+raw_egg_moves = []
+raw_tms = ["CALMMIND", "HIDDENPOWER", "ICEBEAM", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "FRUSTRATION", "SOLARBEAM", "THUNDERBOLT", "RETURN", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "REST", "ROUND", "ECHOEDVOICE", "FOCUSBLAST", "ENERGYBALL", "FALSESWIPE", "CHARGEBEAM", "EMBARGO", "EXPLOSION", "GIGAIMPACT", "VOLTSWITCH", "THUNDERWAVE", "GYROBALL", "GRASSKNOT", "SWAGGER", "SUBSTITUTE", "FLASHCANNON", "TRICKROOM", "SECRETPOWER", "DAZZLINGGLEAM", "CONFIDE", "SELFDESTRUCT", "IMPRISON", "POWERSWAP", "GUARDSWAP", "SPEEDSWAP", "DRAININGKISS", "EERIEIMPULSE", "AGILITY", "TRIATTACK", "ENDURE", "BATONPASS", "ENCORE", "AURASPHERE", "ELECTROBALL", "STOREDPOWER", "ICESPINNER", "SNOWSCAPE"]
+raw_tutor_moves = ["AFTERYOU", "HEALBELL", "HELPINGHAND", "IRONDEFENSE", "IRONHEAD", "LASTRESORT", "MAGNETRISE", "PAINSPLIT", "SHOCKWAVE", "SIGNALBEAM", "SNORE", "TRICK", "ZENHEADBUTT", "STEELROLLER", "MISTYEXPLOSION", "STEELBEAM", "MIMIC"]
+compatible_egg_groups = ["Undiscovered"]
+steps_to_hatch = 30720
+height = 1.0
+weight = 80.5
+colour = "Gray"
+kind = "Artificial"
+pokedex_entry = "Its mechanized body is merely a vessel. Its true self is its Soul-Heart, an artificial soul."
+battler_player_y = 7
+battler_enemy_y = 12
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "MAGEARNA"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MISTYEXPLOSION"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CRAFTYSHIELD"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GEARUP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SHIFTGEAR"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "IRONHEAD"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HELPINGHAND"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SONICBOOM"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DEFENSECURL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PSYBEAM"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "LUCKYCHANT"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "AURORABEAM"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "MIRRORSHOT"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "MINDREADER"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "FLASHCANNON"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "FLEURCANNON"
+
+[[raw_level_up_moves]]
+at_level = "57"
+name = "IRONDEFENSE"
+
+[[raw_level_up_moves]]
+at_level = "65"
+name = "PAINSPLIT"
+
+[[raw_level_up_moves]]
+at_level = "73"
+name = "SYNCHRONOISE"
+
+[[raw_level_up_moves]]
+at_level = "81"
+name = "AURASPHERE"
+
+[[raw_level_up_moves]]
+at_level = "89"
+name = "HEARTSWAP"
+
+[[raw_level_up_moves]]
+at_level = "97"
+name = "TRUMPCARD"
+
+[base_stats]
+hp = 80
+atk = 95
+def_ = 115
+spa = 130
+spd = 115
+spe = 65
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 3
+spd = 0
+spe = 0
+
+[wild_items]

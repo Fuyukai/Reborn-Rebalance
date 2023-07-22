@@ -1,0 +1,96 @@
+name = "Charmander"
+primary_type = "FIRE"
+secondary_type = "FIRE"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+exp_yield = 62
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["BLAZE", "SOLARPOWER"]
+raw_egg_moves = ["AIRCUTTER", "ANCIENTPOWER", "BEATUP", "BELLYDRUM", "BITE", "COUNTER", "CRUNCH", "DRAGONDANCE", "DRAGONPULSE", "DRAGONRUSH", "FLAREBLITZ", "FOCUSPUNCH", "METALCLAW", "OUTRAGE", "DRAGONTAIL"]
+raw_tms = ["WORKUP", "CUT", "DRAGONCLAW", "STRENGTH", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "FRUSTRATION", "RETURN", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "FIREBLAST", "ROCKTOMB", "AERIALACE", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "OVERHEAT", "FALSESWIPE", "FLING", "WILLOWISP", "ACROBATICS", "SHADOWCLAW", "SWORDSDANCE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "FIRESPIN", "DIG", "SCARYFACE", "BEATUP", "WEATHERBALL", "FIREFANG", "CRUNCH", "BODYSLAM", "FLAREBLITZ", "ENDURE", "DRAGONDANCE", "SWIFT"]
+raw_tutor_moves = ["ANCIENTPOWER", "DRAGONPULSE", "FIREPLEDGE", "FIREPUNCH", "FOCUSPUNCH", "FURYCUTTER", "HEADBUTT", "HEATWAVE", "HELPINGHAND", "IRONTAIL", "MUDSLAP", "OUTRAGE", "SNORE", "THUNDERPUNCH", "MIMIC", "CELEBRATE"]
+compatible_egg_groups = ["Monster", "Dragon"]
+steps_to_hatch = 5355
+height = 0.6
+weight = 8.5
+colour = "Red"
+kind = "Lizard"
+pokedex_entry = "The flame that burns at the tip of its tail is an indication of its emotions. The flame wavers when Charmander is happy, and blazes when it is enraged."
+battler_player_y = 25
+battler_enemy_y = 21
+battler_altitude = 0
+form_names = []
+internal_name = "CHARMANDER"
+habitat = "Mountain"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SCRATCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "EMBER"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "SMOKESCREEN"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "DRAGONRAGE"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "SCARYFACE"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "FIREFANG"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "FLAMEBURST"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "SLASH"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "FLAMETHROWER"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "FIRESPIN"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "INFERNO"
+
+[[evolutions]]
+into_name = "CHARMELEON"
+condition = "Level"
+parameter = "16"
+
+[base_stats]
+hp = 39
+atk = 52
+def_ = 43
+spa = 60
+spd = 50
+spe = 65
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 1
+
+[wild_items]

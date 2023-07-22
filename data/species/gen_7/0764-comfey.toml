@@ -1,0 +1,121 @@
+name = "Comfey"
+primary_type = "FAIRY"
+secondary_type = "FAIRY"
+gender_ratio = "Female75Percent"
+growth_rate = "Fast"
+exp_yield = 170
+catch_rate = 60
+caught_happiness = 70
+raw_abilities = ["FLOWERVEIL", "TRIAGE"]
+raw_egg_moves = ["AFTERYOU", "AMNESIA", "ENDURE", "LUCKYCHANT"]
+raw_tms = ["CALMMIND", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "ENERGYBALL", "FLING", "ACROBATICS", "PSYCHUP", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "NATUREPOWER", "DAZZLINGGLEAM", "CONFIDE", "MAGICALLEAF", "CHARM", "BULLETSEED", "DRAININGKISS", "GRASSYTERRAIN", "AMNESIA", "ENDURE", "ENCORE", "STOREDPOWER", "PLAYROUGH", "POLLENPUFF"]
+raw_tutor_moves = ["AFTERYOU", "ALLYSWITCH", "BIND", "COVET", "DEFOG", "GIGADRAIN", "HEALBELL", "HELPINGHAND", "MAGICCOAT", "PAINSPLIT", "ROLEPLAY", "SEEDBOMB", "SNORE", "SYNTHESIS", "TAILWIND", "TELEKINESIS", "TRICK", "WORRYSEED", "GRASSYGLIDE", "MIMIC", "CELEBRATE"]
+compatible_egg_groups = ["Grass"]
+steps_to_hatch = 5120
+height = 0.1
+weight = 0.3
+colour = "Green"
+kind = "Posy Picker"
+pokedex_entry = "Baths prepared with the flowers from its vine have a relaxing effect, so this Pokémon is a hit with many people."
+battler_player_y = 22
+battler_enemy_y = 14
+battler_altitude = 7
+evolutions = []
+form_names = []
+internal_name = "COMFEY"
+raw_hidden_ability = "NATURALCURE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HELPINGHAND"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "VINEWHIP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FLOWERSHIELD"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "LEECHSEED"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "DRAININGKISS"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "MAGICALLEAF"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "GROWTH"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "WRAP"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "SWEETKISS"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "NATURALGIFT"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "PETALBLIZZARD"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "SYNTHESIS"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "SWEETSCENT"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "GRASSKNOT"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "FLORALHEALING"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "PETALDANCE"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "AROMATHERAPY"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "GRASSYTERRAIN"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "PLAYROUGH"
+
+[base_stats]
+hp = 51
+atk = 52
+def_ = 90
+spa = 82
+spd = 110
+spe = 100
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 2
+spe = 0
+
+[wild_items]
+uncommon = "ELEMENTALSEED"

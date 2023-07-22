@@ -1,0 +1,119 @@
+name = "Shellder"
+primary_type = "WATER"
+secondary_type = "WATER"
+gender_ratio = "Female50Percent"
+growth_rate = "Slow"
+exp_yield = 61
+catch_rate = 190
+caught_happiness = 70
+raw_abilities = ["SHELLARMOR", "SKILLLINK"]
+raw_egg_moves = ["AQUARING", "AVALANCHE", "BARRIER", "BUBBLEBEAM", "ICICLESPEAR", "MUDSHOT", "RAPIDSPIN", "ROCKBLAST", "SCREECH", "TAKEDOWN", "TWINEEDLE", "WATERPULSE", "LIFEDEW"]
+raw_tms = ["SURF", "TOXIC", "DIVE", "HAIL", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "DOUBLETEAM", "REFLECT", "FACADE", "REST", "ATTRACT", "ROUND", "EXPLOSION", "PAYBACK", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "SCREECH", "SELFDESTRUCT", "WHIRLPOOL", "ICICLESPEAR", "ROCKBLAST", "MUDSHOT", "BRINE", "AVALANCHE", "RAZORSHELL", "HYDROPUMP", "TRIATTACK", "ENDURE", "ICESPINNER", "SNOWSCAPE", "CHILLINGWATER", "SWIFT"]
+raw_tutor_moves = ["ICYWIND", "IRONDEFENSE", "LIQUIDATION", "SNORE", "WATERPULSE", "MIMIC"]
+compatible_egg_groups = ["Water3"]
+steps_to_hatch = 5355
+height = 0.3
+weight = 4.0
+colour = "Purple"
+kind = "Bivalve"
+pokedex_entry = "At night, it burrows a hole in the seafloor with its broad tongue to make a place to sleep. While asleep, it closes its shell, but leaves its tongue hanging out."
+battler_player_y = 34
+battler_enemy_y = 26
+battler_altitude = 0
+form_names = []
+internal_name = "SHELLDER"
+raw_hidden_ability = "OVERCOAT"
+habitat = "Sea"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WATERGUN"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "WITHDRAW"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "SUPERSONIC"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "ICICLESPEAR"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "PROTECT"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "CLAMP"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "ICESHARD"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "RAZORSHELL"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "AURORABEAM"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "WHIRLPOOL"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "BRINE"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "IRONDEFENSE"
+
+[[raw_level_up_moves]]
+at_level = "52"
+name = "ICEBEAM"
+
+[[raw_level_up_moves]]
+at_level = "56"
+name = "SHELLSMASH"
+
+[[raw_level_up_moves]]
+at_level = "61"
+name = "HYDROPUMP"
+
+[[evolutions]]
+into_name = "CLOYSTER"
+condition = "Item"
+parameter = "WATERSTONE"
+
+[base_stats]
+hp = 30
+atk = 65
+def_ = 100
+spa = 45
+spd = 25
+spe = 40
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 1
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+common = "PEARL"
+uncommon = "BIGPEARL"

@@ -1,0 +1,131 @@
+name = "Linoone"
+primary_type = "NORMAL"
+secondary_type = "NORMAL"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 147
+catch_rate = 90
+caught_happiness = 70
+raw_abilities = ["PICKUP", "GLUTTONY"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "CUT", "SURF", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "SHADOWBALL", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "FLING", "CHARGEBEAM", "SHADOWCLAW", "PAYBACK", "GIGAIMPACT", "THUNDERWAVE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "SNARL", "CONFIDE", "PINMISSILE", "DIG", "SCREECH", "SCARYFACE", "CHARM", "WHIRLPOOL", "FAKETEARS", "MUDSHOT", "ASSURANCE", "TAILSLAP", "BODYSLAM", "ENDURE", "PLAYROUGH", "BODYPRESS", "RETALIATE", "SWIFT"]
+raw_tutor_moves = ["COVET", "FURYCUTTER", "GUNKSHOT", "HEADBUTT", "HELPINGHAND", "HYPERVOICE", "ICYWIND", "IRONTAIL", "KNOCKOFF", "LASTRESORT", "MUDSLAP", "ROLLOUT", "SEEDBOMB", "SHOCKWAVE", "SNORE", "STOMPINGTANTRUM", "SUPERFANG", "THROATCHOP", "TRICK", "WATERPULSE", "LASHOUT", "EXTREMESPEED", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 4080
+height = 0.5
+weight = 32.5
+colour = "White"
+kind = "Rushing"
+pokedex_entry = "It is exceedingly fast if it only has to run in a straight line. When it spots prey underwater, it leaps in and catches it with its sharp claws."
+battler_player_y = 29
+battler_enemy_y = 21
+battler_altitude = 0
+form_names = []
+internal_name = "LINOONE"
+raw_hidden_ability = "QUICKFEET"
+habitat = "Grassland"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PLAYROUGH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ROTOTILLER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SWITCHEROO"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TAILWHIP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SANDATTACK"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "TAILWHIP"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "SANDATTACK"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "HEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "ODORSLEUTH"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "MUDSPORT"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "FURYSWIPES"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "COVET"
+
+[[raw_level_up_moves]]
+at_level = "27"
+name = "BESTOW"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "SLASH"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "DOUBLEEDGE"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "REST"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "BELLYDRUM"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "FLING"
+
+[[evolutions]]
+into_name = "OBSTAGOON"
+condition = "LevelNight"
+parameter = "35"
+
+[base_stats]
+hp = 78
+atk = 70
+def_ = 61
+spa = 50
+spd = 61
+spe = 100
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 2
+
+[wild_items]
+common = "POTION"
+uncommon = "MAXREVIVE"

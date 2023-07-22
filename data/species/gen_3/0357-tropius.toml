@@ -1,0 +1,113 @@
+name = "Tropius"
+primary_type = "GRASS"
+secondary_type = "FLYING"
+gender_ratio = "Female50Percent"
+growth_rate = "Slow"
+exp_yield = 161
+catch_rate = 200
+caught_happiness = 70
+raw_abilities = ["CHLOROPHYLL", "SEEDSOWER"]
+raw_egg_moves = ["BULLETSEED", "CURSE", "DRAGONDANCE", "DRAGONHAMMER", "HEADBUTT", "LEAFBLADE", "LEAFSTORM", "LEECHSEED", "NATURALGIFT", "RAZORWIND", "SLAM", "SYNTHESIS"]
+raw_tms = ["CUT", "FLY", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "FLASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "ROOST", "ROOST", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "STEELWING", "ENERGYBALL", "BRUTALSWING", "GIGAIMPACT", "SWORDSDANCE", "BULLDOZE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "MAGICALLEAF", "REVENGE", "BULLETSEED", "LEAFBLADE", "AIRSLASH", "BODYSLAM", "LEAFSTORM", "CLOSECOMBAT", "ENDURE", "DRAGONDANCE", "AURASPHERE", "TRAILBLAZE"]
+raw_tutor_moves = ["AIRCUTTER", "DEFOG", "DRAGONPULSE", "FURYCUTTER", "GIGADRAIN", "HEADBUTT", "MUDSLAP", "OMINOUSWIND", "OUTRAGE", "SEEDBOMB", "SNORE", "STOMPINGTANTRUM", "SYNTHESIS", "TAILWIND", "TWISTER", "WORRYSEED", "MIMIC"]
+compatible_egg_groups = ["Monster", "Grass"]
+steps_to_hatch = 6630
+height = 2.0
+weight = 100.0
+colour = "Green"
+kind = "Fruit"
+pokedex_entry = "It flies by flapping its broad leaves. The bunch of fruit that grows around its neck is deliciously sweet. In the spring, it scatters pollen from its neck."
+battler_player_y = 8
+battler_enemy_y = 2
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "TROPIUS"
+raw_hidden_ability = "HARVEST"
+habitat = "Forest"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEAFSTORM"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GUST"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWTH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "RAZORLEAF"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "SWEETSCENT"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "STOMP"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "MAGICALLEAF"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "WHIRLWIND"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "LEAFTORNADO"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "NATURALGIFT"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "AIRSLASH"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "BODYSLAM"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "BESTOW"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "SYNTHESIS"
+
+[[raw_level_up_moves]]
+at_level = "56"
+name = "SOLARBEAM"
+
+[[raw_level_up_moves]]
+at_level = "61"
+name = "LEAFSTORM"
+
+[base_stats]
+hp = 99
+atk = 68
+def_ = 83
+spa = 72
+spd = 87
+spe = 51
+
+[ev_yield]
+hp = 2
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

@@ -1,0 +1,107 @@
+name = "Koraidon"
+primary_type = "FIGHTING"
+secondary_type = "DRAGON"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 300
+catch_rate = 3
+caught_happiness = 50
+raw_abilities = ["ORICHALCUMPULSE"]
+raw_egg_moves = []
+raw_tms = ["DRAGONCLAW", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "BULKUP", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "ROOST", "FRUSTRATION", "SOLARBEAM", "RETURN", "BRICKBREAK", "DOUBLETEAM", "FLAMETHROWER", "FIREBLAST", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "LOWSWEEP", "ECHOEDVOICE", "OVERHEAT", "FOCUSBLAST", "BRUTALSWING", "ACROBATICS", "SHADOWCLAW", "GIGAIMPACT", "SWORDSDANCE", "BULLDOZE", "DRAGONTAIL", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "SNARL", "NATUREPOWER", "CONFIDE", "FIRESPIN", "DIG", "SCREECH", "SCARYFACE", "REVENGE", "MUDSHOT", "THUNDERFANG", "ICEFANG", "FIREFANG", "CRUNCH", "BREAKINGSWIPE", "BODYSLAM", "FLAREBLITZ", "CLOSECOMBAT", "AGILITY", "FOCUSENERGY", "REVERSAL", "ENDURE", "BLAZEKICK", "HEATCRASH", "HEAVYSLAM", "HIGHHORSEPOWER", "BODYPRESS"]
+raw_tutor_moves = ["ANCIENTPOWER", "DEFOG", "DRACOMETEOR", "DRAGONPULSE", "DRAINPUNCH", "HEATWAVE", "HELPINGHAND", "IRONHEAD", "IRONTAIL", "MUDSLAP", "OUTRAGE", "STOMPINGTANTRUM", "TWISTER", "UPROAR", "ZENHEADBUTT", "TERRAINPULSE", "SCORCHINGSANDS", "METEORBEAM", "SCALESHOT"]
+compatible_egg_groups = ["Undiscovered"]
+steps_to_hatch = 12850
+height = 2.5
+weight = 303.0
+colour = "Red"
+kind = "Paradox"
+pokedex_entry = "This seems to be the Winged King mentioned in an old expedition journal. It was said to have split the land with its bare fists."
+battler_player_y = 15
+battler_enemy_y = 12
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "KORAIDON"
+
+[[raw_level_up_moves]]
+at_level = " 1"
+name = "SUNNYDAY"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BREAKINGSWIPE"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "ROCKSMASH"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "ANCIENTPOWER"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "DRAINPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "BRICKBREAK"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "DRAGONCLAW"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "FLAMETHROWER"
+
+[[raw_level_up_moves]]
+at_level = "56"
+name = "COLLISIONCOURSE"
+
+[[raw_level_up_moves]]
+at_level = "63"
+name = "SCREECH"
+
+[[raw_level_up_moves]]
+at_level = "70"
+name = "COUNTER"
+
+[[raw_level_up_moves]]
+at_level = "77"
+name = "OUTRAGE"
+
+[[raw_level_up_moves]]
+at_level = "84"
+name = "CLOSECOMBAT"
+
+[[raw_level_up_moves]]
+at_level = "91"
+name = "FLAREBLITZ"
+
+[[raw_level_up_moves]]
+at_level = "98"
+name = "GIGAIMPACT"
+
+[base_stats]
+hp = 100
+atk = 135
+def_ = 115
+spa = 85
+spd = 100
+spe = 135
+
+[ev_yield]
+hp = 0
+atk = 3
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

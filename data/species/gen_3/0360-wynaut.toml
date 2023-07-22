@@ -1,0 +1,76 @@
+name = "Wynaut"
+primary_type = "PSYCHIC"
+secondary_type = "PSYCHIC"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 52
+catch_rate = 125
+caught_happiness = 70
+raw_abilities = ["SHADOWTAG", "TELEPATHY"]
+raw_egg_moves = []
+raw_tms = ["SAFEGUARD", "CHARM", "AMNESIA", "ENCORE"]
+raw_tutor_moves = []
+compatible_egg_groups = ["Undiscovered"]
+steps_to_hatch = 5355
+height = 0.6
+weight = 14.0
+colour = "Blue"
+kind = "Bright"
+pokedex_entry = "A Wynaut loves to eat sweet fruits. It cleverly picks fruits using its earlike arms. They gather in fruit gardens, drawn by the fragrance."
+battler_player_y = 27
+battler_enemy_y = 23
+battler_altitude = 0
+form_names = []
+internal_name = "WYNAUT"
+habitat = "Cave"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SPLASH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CHARM"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ENCORE"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "COUNTER"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "MIRRORCOAT"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "SAFEGUARD"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "DESTINYBOND"
+
+[[evolutions]]
+into_name = "WOBBUFFET"
+condition = "Level"
+parameter = "15"
+
+[base_stats]
+hp = 95
+atk = 23
+def_ = 48
+spa = 23
+spd = 48
+spe = 23
+
+[ev_yield]
+hp = 1
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

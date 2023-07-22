@@ -1,0 +1,125 @@
+name = "Seviper"
+primary_type = "POISON"
+secondary_type = "POISON"
+gender_ratio = "Female50Percent"
+growth_rate = "Fluctuating"
+exp_yield = 160
+catch_rate = 90
+caught_happiness = 70
+raw_abilities = ["SHEDSKIN", "INFILTRATOR"]
+raw_egg_moves = ["ASSURANCE", "BODYSLAM", "FINALGAMBIT", "IRONTAIL", "NIGHTSLASH", "PUNISHMENT", "SCARYFACE", "SPITUP", "STOCKPILE", "SWALLOW", "SWITCHEROO", "WRINGOUT"]
+raw_tms = ["STRENGTH", "TOXIC", "ROCKSMASH", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "PROTECT", "RAINDANCE", "FRUSTRATION", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "SLUDGEWAVE", "FLAMETHROWER", "SLUDGEBOMB", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "BRUTALSWING", "PAYBACK", "SWORDSDANCE", "BULLDOZE", "XSCISSOR", "DRAGONTAIL", "INFESTATION", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "DARKPULSE", "CONFIDE", "DIG", "SCREECH", "SCARYFACE", "ASSURANCE", "CRUNCH", "BODYSLAM", "POWERWHIP", "ENDURE", "VENOMDRENCH", "RETALIATE", "POUNCE", "TRAILBLAZE", "SWIFT"]
+raw_tutor_moves = ["AQUATAIL", "BIND", "FURYCUTTER", "GASTROACID", "GIGADRAIN", "HEADBUTT", "IRONTAIL", "KNOCKOFF", "MUDSLAP", "SNATCH", "SNORE", "SUCKERPUNCH", "THROATCHOP", "MIMIC", "POISONTAIL"]
+compatible_egg_groups = ["Field", "Dragon"]
+steps_to_hatch = 5355
+height = 2.7
+weight = 52.5
+colour = "Black"
+kind = "Fang Snake"
+pokedex_entry = "Seviper and Zangoose are eternal rivals. It counters a Zangoose's incredible agility with its swordlike tail, which also oozes a horrible poison."
+battler_player_y = 19
+battler_enemy_y = 10
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "SEVIPER"
+habitat = "Grassland"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WRAP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SWAGGER"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "LICK"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "POISONTAIL"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "FEINT"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "SCREECH"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "VENOSHOCK"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "GLARE"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "POISONFANG"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "VENOMDRENCH"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "NIGHTSLASH"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "GASTROACID"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "POISONJAB"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "HAZE"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "SWORDSDANCE"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "BELCH"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "COIL"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "WRINGOUT"
+
+[base_stats]
+hp = 73
+atk = 100
+def_ = 60
+spa = 100
+spd = 60
+spe = 65
+
+[ev_yield]
+hp = 0
+atk = 1
+def_ = 0
+spa = 1
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "SHEDSHELL"

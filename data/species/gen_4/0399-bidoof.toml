@@ -1,0 +1,104 @@
+name = "Bidoof"
+primary_type = "NORMAL"
+secondary_type = "NORMAL"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 50
+catch_rate = 255
+caught_happiness = 70
+raw_abilities = ["SIMPLE", "UNAWARE"]
+raw_egg_moves = ["AQUATAIL", "DEFENSECURL", "DOUBLEEDGE", "ENDURE", "FURYSWIPES", "MUDSPORT", "ODORSLEUTH", "QUICKATTACK", "ROCKCLIMB", "ROLLOUT", "SKULLBASH", "SLEEPTALK", "WATERSPORT"]
+raw_tms = ["WORKUP", "CUT", "TOXIC", "ROCKSMASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "SHADOWBALL", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "CHARGEBEAM", "THUNDERWAVE", "SWORDSDANCE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "CRUNCH", "AMNESIA", "ENDURE", "RETALIATE", "SWIFT"]
+raw_tutor_moves = ["AQUATAIL", "COVET", "FURYCUTTER", "HEADBUTT", "ICYWIND", "IRONTAIL", "LASTRESORT", "MUDSLAP", "ROLLOUT", "SHOCKWAVE", "SNORE", "STEALTHROCK", "SUPERFANG", "SUPERPOWER", "MIMIC"]
+compatible_egg_groups = ["Water1", "Field"]
+steps_to_hatch = 4080
+height = 0.5
+weight = 20.0
+colour = "Brown"
+kind = "Plump Mouse"
+pokedex_entry = "With nerves of steel, nothing can perturb it. It is more agile and active than it appears."
+battler_player_y = 29
+battler_enemy_y = 22
+battler_altitude = 0
+form_names = []
+internal_name = "BIDOOF"
+raw_hidden_ability = "MOODY"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "DEFENSECURL"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "ROLLOUT"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "HEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "HYPERFANG"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "YAWN"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "SUPERFANG"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "SWORDSDANCE"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "AMNESIA"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "SUPERPOWER"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "CURSE"
+
+[[evolutions]]
+into_name = "BIBAREL"
+condition = "Level"
+parameter = "15"
+
+[base_stats]
+hp = 59
+atk = 45
+def_ = 40
+spa = 35
+spd = 40
+spe = 31
+
+[ev_yield]
+hp = 1
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

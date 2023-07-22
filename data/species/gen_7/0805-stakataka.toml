@@ -1,0 +1,95 @@
+name = "Stakataka"
+primary_type = "ROCK"
+secondary_type = "STEEL"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 257
+catch_rate = 30
+caught_happiness = 0
+raw_abilities = ["BEASTBOOST"]
+raw_egg_moves = []
+raw_tms = ["TOXIC", "HIDDENPOWER", "LIGHTSCREEN", "PROTECT", "SAFEGUARD", "FRUSTRATION", "SMACKDOWN", "EARTHQUAKE", "RETURN", "REFLECT", "SANDSTORM", "ROCKTOMB", "FACADE", "REST", "ROUND", "BRUTALSWING", "GIGAIMPACT", "ROCKPOLISH", "STONEEDGE", "GYROBALL", "BULLDOZE", "ROCKSLIDE", "INFESTATION", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "TRICKROOM", "SECRETPOWER", "MEGAKICK", "ROCKBLAST", "BODYSLAM", "ENDURE", "HEATCRASH", "HEAVYSLAM", "HIGHHORSEPOWER", "BODYPRESS"]
+raw_tutor_moves = ["ALLYSWITCH", "BIND", "BLOCK", "GRAVITY", "IRONDEFENSE", "IRONHEAD", "MAGICCOAT", "MAGICROOM", "MAGNETRISE", "RECYCLE", "ROLEPLAY", "SKILLSWAP", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "SUPERPOWER", "TELEKINESIS", "WONDERROOM", "ZENHEADBUTT", "METEORBEAM", "STEELROLLER", "STEELBEAM", "MIMIC"]
+compatible_egg_groups = ["Undiscovered"]
+steps_to_hatch = 30720
+height = 5.5
+weight = 820.0
+colour = "Gray"
+kind = "Rampart"
+pokedex_entry = "It appeared from an Ultra Wormhole. Each one appears to be made up of many life-forms stacked one on top of each other."
+battler_player_y = 27
+battler_enemy_y = 10
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "STAKATAKA"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PROTECT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "ROCKSLIDE"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "STEALTHROCK"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "BIDE"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "ROCKTHROW"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "AUTOTOMIZE"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "IRONDEFENSE"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "IRONHEAD"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "ROCKBLAST"
+
+[[raw_level_up_moves]]
+at_level = "53"
+name = "WIDEGUARD"
+
+[[raw_level_up_moves]]
+at_level = "61"
+name = "DOUBLEEDGE"
+
+[base_stats]
+hp = 61
+atk = 131
+def_ = 211
+spa = 53
+spd = 101
+spe = 13
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 3
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

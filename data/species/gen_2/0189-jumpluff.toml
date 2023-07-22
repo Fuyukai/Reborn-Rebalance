@@ -1,0 +1,137 @@
+name = "Jumpluff"
+primary_type = "GRASS"
+secondary_type = "FLYING"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 203
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["CHLOROPHYLL", "WINDRIDER"]
+raw_egg_moves = []
+raw_tms = ["TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "REFLECT", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "ACROBATICS", "GIGAIMPACT", "SWORDSDANCE", "PSYCHUP", "INFESTATION", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "DAZZLINGGLEAM", "CONFIDE", "PAYDAY", "BULLETSEED", "GRASSYTERRAIN", "LEAFSTORM", "AMNESIA", "ENDURE", "BATONPASS", "ENCORE", "POLLENPUFF", "TRAILBLAZE"]
+raw_tutor_moves = ["BOUNCE", "GIGADRAIN", "HEADBUTT", "HELPINGHAND", "SEEDBOMB", "SNORE", "SYNTHESIS", "WORRYSEED", "MIMIC"]
+compatible_egg_groups = ["Fairy", "Grass"]
+steps_to_hatch = 5355
+height = 0.8
+weight = 3.0
+colour = "Blue"
+kind = "Cottonweed"
+pokedex_entry = "Jumpluff ride warm southern winds to cross the sea and fly to foreign lands. This Pokémon lands when it encounters cold air while it is floating."
+battler_player_y = 24
+battler_enemy_y = 15
+battler_altitude = 15
+evolutions = []
+form_names = []
+internal_name = "JUMPLUFF"
+raw_hidden_ability = "INFILTRATOR"
+habitat = "Grassland"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FLYINGPRESS"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SPLASH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ABSORB"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SYNTHESIS"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TAILWHIP"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "SYNTHESIS"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "TAILWHIP"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "FAIRYWIND"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "POISONPOWDER"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "STUNSPORE"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "SLEEPPOWDER"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "BULLETSEED"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "LEECHSEED"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "MEGADRAIN"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "ACROBATICS"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "RAGEPOWDER"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "COTTONSPORE"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "UTURN"
+
+[[raw_level_up_moves]]
+at_level = "54"
+name = "WORRYSEED"
+
+[[raw_level_up_moves]]
+at_level = "59"
+name = "GIGADRAIN"
+
+[[raw_level_up_moves]]
+at_level = "64"
+name = "BOUNCE"
+
+[[raw_level_up_moves]]
+at_level = "69"
+name = "MEMENTO"
+
+[base_stats]
+hp = 75
+atk = 55
+def_ = 70
+spa = 55
+spd = 95
+spe = 110
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 3
+
+[wild_items]

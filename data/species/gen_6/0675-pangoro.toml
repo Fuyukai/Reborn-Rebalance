@@ -1,0 +1,141 @@
+name = "Pangoro"
+primary_type = "FIGHTING"
+secondary_type = "DARK"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 173
+catch_rate = 128
+caught_happiness = 70
+raw_abilities = ["IRONFIST", "MOLDBREAKER"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "CUT", "DRAGONCLAW", "SURF", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "BULKUP", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "SLUDGEBOMB", "ROCKTOMB", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "LOWSWEEP", "ROUND", "ECHOEDVOICE", "FOCUSBLAST", "FALSESWIPE", "FLING", "QUASH", "EMBARGO", "SHADOWCLAW", "PAYBACK", "GIGAIMPACT", "STONEEDGE", "SWORDSDANCE", "BULLDOZE", "ROCKSLIDE", "XSCISSOR", "INFESTATION", "POISONJAB", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "SNARL", "DARKPULSE", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "SCARYFACE", "BEATUP", "REVENGE", "CRUNCH", "BODYSLAM", "CLOSECOMBAT", "FOCUSENERGY", "REVERSAL", "ENDURE", "DARKESTLARIAT", "RETALIATE"]
+raw_tutor_moves = ["BLOCK", "COVET", "DRAINPUNCH", "DUALCHOP", "ENDEAVOR", "FIREPUNCH", "FOCUSPUNCH", "FOULPLAY", "GUNKSHOT", "HELPINGHAND", "HYPERVOICE", "ICEPUNCH", "IRONHEAD", "KNOCKOFF", "LASERFOCUS", "LOWKICK", "OUTRAGE", "SNATCH", "SNORE", "SPITE", "STOMPINGTANTRUM", "SUPERPOWER", "THROATCHOP", "THUNDERPUNCH", "UPROAR", "ZENHEADBUTT", "COACHING", "LASHOUT", "MIMIC"]
+compatible_egg_groups = ["Field", "Humanlike"]
+steps_to_hatch = 6400
+height = 2.1
+weight = 136.0
+colour = "White"
+kind = "Daunting"
+pokedex_entry = "It charges ahead and bashes opponents like a berserker, uncaring about any hits it might take. Its arms are mighty enough to snap telephone poles."
+battler_player_y = 13
+battler_enemy_y = 16
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "PANGORO"
+raw_hidden_ability = "SCRAPPY"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "BULLETPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ENTRAINMENT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HAMMERARM"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LOWSWEEP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ENTRAINMENT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ARMTHRUST"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WORKUP"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "ARMTHRUST"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "WORKUP"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "KARATECHOP"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "COMETPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "SLASH"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "CIRCLETHROW"
+
+[[raw_level_up_moves]]
+at_level = "27"
+name = "VITALTHROW"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "BODYSLAM"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "COMEUPPANCE"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "PARTINGSHOT"
+
+[[raw_level_up_moves]]
+at_level = "52"
+name = "SKYUPPERCUT"
+
+[[raw_level_up_moves]]
+at_level = "57"
+name = "LOWSWEEP"
+
+[[raw_level_up_moves]]
+at_level = "65"
+name = "TAUNT"
+
+[[raw_level_up_moves]]
+at_level = "70"
+name = "HAMMERARM"
+
+[base_stats]
+hp = 95
+atk = 124
+def_ = 78
+spa = 69
+spd = 71
+spe = 58
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "MENTALHERB"

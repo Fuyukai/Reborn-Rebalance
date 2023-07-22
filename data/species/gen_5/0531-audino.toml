@@ -1,0 +1,134 @@
+name = "Audino"
+primary_type = "NORMAL"
+secondary_type = "NORMAL"
+gender_ratio = "Female50Percent"
+growth_rate = "Fast"
+exp_yield = 390
+catch_rate = 255
+caught_happiness = 70
+raw_abilities = ["HEALER", "REGENERATOR"]
+raw_egg_moves = ["AMNESIA", "BESTOW", "DRAININGKISS", "ENCORE", "HEALBELL", "HEALINGWISH", "LUCKYCHANT", "SLEEPTALK", "SWEETKISS", "WISH", "YAWN"]
+raw_tms = ["WORKUP", "PSYSHOCK", "SURF", "CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "THUNDERBOLT", "THUNDER", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "FIREBLAST", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "FLING", "CHARGEBEAM", "GIGAIMPACT", "THUNDERWAVE", "PSYCHUP", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "WILDCHARGE", "SECRETPOWER", "POWERUPPUNCH", "DAZZLINGGLEAM", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "DRAININGKISS", "MISTYTERRAIN", "BODYSLAM", "AMNESIA", "ENDURE", "ENCORE", "RETALIATE"]
+raw_tutor_moves = ["AFTERYOU", "ALLYSWITCH", "COVET", "DRAINPUNCH", "FIREPUNCH", "FOCUSPUNCH", "GRAVITY", "HEALBELL", "HELPINGHAND", "HYPERVOICE", "ICEPUNCH", "ICYWIND", "IRONTAIL", "KNOCKOFF", "LASERFOCUS", "LASTRESORT", "LOWKICK", "MAGICCOAT", "PAINSPLIT", "ROLEPLAY", "SIGNALBEAM", "SKILLSWAP", "SNATCH", "SNORE", "STOMPINGTANTRUM", "TELEKINESIS", "THROATCHOP", "THUNDERPUNCH", "UPROAR", "ZENHEADBUTT", "MIMIC"]
+compatible_egg_groups = ["Fairy"]
+steps_to_hatch = 5120
+height = 1.1
+weight = 31.0
+colour = "Pink"
+kind = "Hearing"
+pokedex_entry = "Its auditory sense is astounding. It has a radar-like ability to understand its surrounding through slight sounds."
+battler_player_y = 22
+battler_enemy_y = 28
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "AUDINO"
+raw_hidden_ability = "KLUTZ"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LASTRESORT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HYPERVOICE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MISTYTERRAIN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PLAYNICE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POUND"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HELPINGHAND"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "BABYDOLLEYES"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "REFRESH"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "DISARMINGVOICE"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "DOUBLESLAP"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "ATTRACT"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "LIFEDEW"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "SECRETPOWER"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "ENTRAINMENT"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "HEALPULSE"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "AFTERYOU"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "SIMPLEBEAM"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "DOUBLEEDGE"
+
+[[raw_level_up_moves]]
+at_level = "53"
+name = "HYPERVOICE"
+
+[[raw_level_up_moves]]
+at_level = "57"
+name = "LASTRESORT"
+
+[base_stats]
+hp = 103
+atk = 60
+def_ = 86
+spa = 60
+spd = 86
+spe = 50
+
+[ev_yield]
+hp = 2
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+common = "ORANBERRY"
+uncommon = "SITRUSBERRY"

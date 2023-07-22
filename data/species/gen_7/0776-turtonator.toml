@@ -1,0 +1,104 @@
+name = "Turtonator"
+primary_type = "FIRE"
+secondary_type = "DRAGON"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 170
+catch_rate = 70
+caught_happiness = 70
+raw_abilities = ["SHELLARMOR"]
+raw_egg_moves = ["FIRESPIN", "HEADSMASH", "REVENGE", "WIDEGUARD"]
+raw_tms = ["WORKUP", "DRAGONCLAW", "ROAR", "TOXIC", "BULKUP", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "FRUSTRATION", "SOLARBEAM", "SMACKDOWN", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "FLAMETHROWER", "FIREBLAST", "ROCKTOMB", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "ROUND", "OVERHEAT", "FOCUSBLAST", "FLING", "CHARGEBEAM", "BRUTALSWING", "WILLOWISP", "EXPLOSION", "PAYBACK", "GIGAIMPACT", "STONEEDGE", "BULLDOZE", "DRAGONTAIL", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "FIRESPIN", "REVENGE", "BODYSLAM", "ENDURE", "HEATCRASH", "HEAVYSLAM", "BODYPRESS"]
+raw_tutor_moves = ["BLOCK", "DRACOMETEOR", "DRAGONPULSE", "ENDEAVOR", "HEATWAVE", "HYPERVOICE", "IRONDEFENSE", "IRONHEAD", "IRONTAIL", "OUTRAGE", "SHOCKWAVE", "SNORE", "STOMPINGTANTRUM", "UPROAR", "BURNINGJEALOUSY", "SCORCHINGSANDS", "SCALESHOT", "LASHOUT", "MIMIC"]
+compatible_egg_groups = ["Monster", "Dragon"]
+steps_to_hatch = 5120
+height = 2.0
+weight = 212.0
+colour = "Red"
+kind = "Blast Turtle"
+pokedex_entry = "The shell on its back is chemically unstable and explodes violently if struck. The hole in its stomach is its weak point."
+battler_player_y = 16
+battler_enemy_y = 18
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "TURTONATOR"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "EMBER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "SMOG"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "PROTECT"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "INCINERATE"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "FLAIL"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "ENDURE"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "IRONDEFENSE"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "FLAMETHROWER"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "BODYSLAM"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "SHELLSMASH"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "DRAGONPULSE"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "SHELLTRAP"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "OVERHEAT"
+
+[[raw_level_up_moves]]
+at_level = "53"
+name = "EXPLOSION"
+
+[base_stats]
+hp = 60
+atk = 78
+def_ = 135
+spa = 91
+spd = 85
+spe = 36
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 2
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "CHARCOAL"

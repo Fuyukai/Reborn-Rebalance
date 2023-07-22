@@ -1,0 +1,116 @@
+name = "Magmortar"
+primary_type = "FIRE"
+secondary_type = "FIRE"
+gender_ratio = "Female25Percent"
+growth_rate = "Medium"
+exp_yield = 243
+catch_rate = 30
+caught_happiness = 70
+raw_abilities = ["FLAMEBODY", "VITALSPIRIT"]
+raw_egg_moves = []
+raw_tms = ["STRENGTH", "TOXIC", "ROCKSMASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "FRUSTRATION", "SOLARBEAM", "THUNDERBOLT", "EARTHQUAKE", "RETURN", "PSYCHIC", "BRICKBREAK", "DOUBLETEAM", "FLAMETHROWER", "FIREBLAST", "ROCKTOMB", "TORMENT", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "THIEF", "LOWSWEEP", "ROUND", "OVERHEAT", "FOCUSBLAST", "FLING", "WILLOWISP", "GIGAIMPACT", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "FIRESPIN", "WEATHERBALL", "POWERSWAP", "MYSTICALFIRE", "FLAREBLITZ", "FOCUSENERGY", "ENDURE", "HEAVYSLAM"]
+raw_tutor_moves = ["COVET", "DUALCHOP", "FIREPUNCH", "FOCUSPUNCH", "HEADBUTT", "HEATWAVE", "HELPINGHAND", "IRONTAIL", "LOWKICK", "MUDSLAP", "SNORE", "STOMPINGTANTRUM", "THUNDERPUNCH", "UPROAR", "BURNINGJEALOUSY", "SCORCHINGSANDS", "MIMIC"]
+compatible_egg_groups = ["Humanlike"]
+steps_to_hatch = 6630
+height = 1.6
+weight = 68.0
+colour = "Red"
+kind = "Blast"
+pokedex_entry = "It blasts fireballs of over 3,600 degrees F from the ends of its arms. It lives in volcanic craters."
+battler_player_y = 15
+battler_enemy_y = 6
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "MAGMORTAR"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "THUNDERPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SMOG"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "EMBER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SMOKESCREEN"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "EMBER"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "SMOKESCREEN"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "FEINTATTACK"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "FIRESPIN"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "CLEARSMOG"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "FLAMEBURST"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "CONFUSERAY"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "FIREPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "LAVAPLUME"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "SUNNYDAY"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "FLAMETHROWER"
+
+[[raw_level_up_moves]]
+at_level = "55"
+name = "FIREBLAST"
+
+[[raw_level_up_moves]]
+at_level = "62"
+name = "HYPERBEAM"
+
+[base_stats]
+hp = 75
+atk = 95
+def_ = 67
+spa = 125
+spd = 95
+spe = 83
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 3
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "MAGMARIZER"

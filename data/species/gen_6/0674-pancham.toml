@@ -1,0 +1,105 @@
+name = "Pancham"
+primary_type = "FIGHTING"
+secondary_type = "FIGHTING"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 70
+catch_rate = 128
+caught_happiness = 70
+raw_abilities = ["IRONFIST", "MOLDBREAKER"]
+raw_egg_moves = ["FOULPLAY", "MEFIRST", "POWERTRIP", "QUASH", "QUICKGUARD", "STORMTHROW"]
+raw_tms = ["WORKUP", "CUT", "SURF", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "BULKUP", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "BRICKBREAK", "DOUBLETEAM", "SLUDGEBOMB", "ROCKTOMB", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "LOWSWEEP", "ROUND", "ECHOEDVOICE", "FALSESWIPE", "FLING", "SHADOWCLAW", "PAYBACK", "STONEEDGE", "SWORDSDANCE", "BULLDOZE", "ROCKSLIDE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "DARKPULSE", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "CRUNCH", "BODYSLAM", "ENDURE", "RETALIATE"]
+raw_tutor_moves = ["BLOCK", "COVET", "DRAINPUNCH", "DUALCHOP", "ENDEAVOR", "FIREPUNCH", "FOCUSPUNCH", "FOULPLAY", "GUNKSHOT", "HELPINGHAND", "HYPERVOICE", "ICEPUNCH", "IRONHEAD", "KNOCKOFF", "LOWKICK", "SNATCH", "SNORE", "SPITE", "SUPERPOWER", "THUNDERPUNCH", "UPROAR", "ZENHEADBUTT", "COACHING", "LASHOUT", "MIMIC"]
+compatible_egg_groups = ["Field", "Humanlike"]
+steps_to_hatch = 6400
+height = 0.6
+weight = 8.0
+colour = "White"
+kind = "Playful"
+pokedex_entry = "It does its best to be taken seriously by its enemies, but its glare is not sufficiently intimidating. Chewing on a leaf is its trademark."
+battler_player_y = 24
+battler_enemy_y = 22
+battler_altitude = 0
+form_names = []
+internal_name = "PANCHAM"
+raw_hidden_ability = "SCRAPPY"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "ARMTHRUST"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "WORKUP"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "KARATECHOP"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "COMETPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "SLASH"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "CIRCLETHROW"
+
+[[raw_level_up_moves]]
+at_level = "27"
+name = "VITALTHROW"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "BODYSLAM"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "ENTRAINMENT"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "PARTINGSHOT"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "SKYUPPERCUT"
+
+[[evolutions]]
+into_name = "PANGORO"
+condition = "BadInfluence"
+parameter = "32"
+
+[base_stats]
+hp = 67
+atk = 82
+def_ = 62
+spa = 46
+spd = 48
+spe = 43
+
+[ev_yield]
+hp = 0
+atk = 1
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "MENTALHERB"

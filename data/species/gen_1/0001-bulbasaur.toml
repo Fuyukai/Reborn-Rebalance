@@ -1,0 +1,104 @@
+name = "Bulbasaur"
+primary_type = "GRASS"
+secondary_type = "POISON"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+exp_yield = 64
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["OVERGROW", "CHLOROPHYLL"]
+raw_egg_moves = ["AMNESIA", "CHARM", "CURSE", "ENDURE", "GIGADRAIN", "GRASSWHISTLE", "GRASSYTERRAIN", "INGRAIN", "LEAFSTORM", "MAGICALLEAF", "NATUREPOWER", "PETALDANCE", "POWERWHIP", "SKULLBASH", "SLUDGE"]
+raw_tms = ["WORKUP", "CUT", "STRENGTH", "TOXIC", "ROCKSMASH", "FLASH", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "LIGHTSCREEN", "PROTECT", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "REFLECT", "SLUDGEBOMB", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "ENERGYBALL", "FALSESWIPE", "SWORDSDANCE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "MAGICALLEAF", "CHARM", "WEATHERBALL", "BULLETSEED", "PHANTOMFORCE", "GRASSYTERRAIN", "BODYSLAM", "POWERWHIP", "LEAFSTORM", "AMNESIA", "ENDURE"]
+raw_tutor_moves = ["BIND", "FURYCUTTER", "GIGADRAIN", "GRASSPLEDGE", "HEADBUTT", "HELPINGHAND", "KNOCKOFF", "MUDSLAP", "OUTRAGE", "SEEDBOMB", "SNORE", "STRINGSHOT", "SYNTHESIS", "WORRYSEED", "GRASSYGLIDE", "MIMIC", "CELEBRATE"]
+compatible_egg_groups = ["Monster", "Grass"]
+steps_to_hatch = 5355
+height = 0.7
+weight = 6.9
+colour = "Green"
+kind = "Seed"
+pokedex_entry = "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger."
+battler_player_y = 28
+battler_enemy_y = 25
+battler_altitude = 0
+form_names = []
+internal_name = "BULBASAUR"
+habitat = "Grassland"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "3"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "LEECHSEED"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "VINEWHIP"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "POISONPOWDER"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "SLEEPPOWDER"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "RAZORLEAF"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "SWEETSCENT"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "GROWTH"
+
+[[raw_level_up_moves]]
+at_level = "27"
+name = "DOUBLEEDGE"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "WORRYSEED"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "SYNTHESIS"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "SEEDBOMB"
+
+[[evolutions]]
+into_name = "IVYSAUR"
+condition = "Level"
+parameter = "16"
+
+[base_stats]
+hp = 45
+atk = 49
+def_ = 49
+spa = 65
+spd = 65
+spe = 45
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 1
+spd = 0
+spe = 0
+
+[wild_items]

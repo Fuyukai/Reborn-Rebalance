@@ -1,0 +1,96 @@
+name = "Cherubi"
+primary_type = "GRASS"
+secondary_type = "GRASS"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 55
+catch_rate = 190
+caught_happiness = 70
+raw_abilities = ["CHLOROPHYLL"]
+raw_egg_moves = ["AROMATHERAPY", "DEFENSECURL", "FLOWERSHIELD", "GRASSWHISTLE", "GRASSYTERRAIN", "HEALPULSE", "HEALINGWISH", "NATURALGIFT", "NATUREPOWER", "RAZORLEAF", "ROLLOUT", "SEEDBOMB", "SWEETSCENT", "TICKLE", "WEATHERBALL"]
+raw_tms = ["TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "SWORDSDANCE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "DAZZLINGGLEAM", "CONFIDE", "MAGICALLEAF", "WEATHERBALL", "BULLETSEED", "DRAININGKISS", "GRASSYTERRAIN", "ENDURE", "POLLENPUFF"]
+raw_tutor_moves = ["GIGADRAIN", "HELPINGHAND", "ROLLOUT", "SEEDBOMB", "SNORE", "SYNTHESIS", "WORRYSEED", "GRASSYGLIDE", "MIMIC"]
+compatible_egg_groups = ["Fairy", "Grass"]
+steps_to_hatch = 5355
+height = 0.4
+weight = 3.3
+colour = "Pink"
+kind = "Cherry"
+pokedex_entry = "The small ball holds the nutrients needed for evolution. Apparently, it is very sweet and tasty."
+battler_player_y = 32
+battler_enemy_y = 27
+battler_altitude = 0
+form_names = []
+internal_name = "CHERUBI"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MORNINGSUN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "GROWTH"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "LEECHSEED"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "HELPINGHAND"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "MAGICALLEAF"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "SUNNYDAY"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "WORRYSEED"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "SOLARBEAM"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "LUCKYCHANT"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "PETALBLIZZARD"
+
+[[evolutions]]
+into_name = "CHERRIM"
+condition = "Level"
+parameter = "25"
+
+[base_stats]
+hp = 45
+atk = 35
+def_ = 45
+spa = 62
+spd = 53
+spe = 35
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 1
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "MIRACLESEED"

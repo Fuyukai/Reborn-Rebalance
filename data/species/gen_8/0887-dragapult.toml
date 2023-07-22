@@ -1,0 +1,125 @@
+name = "Dragapult"
+primary_type = "DRAGON"
+secondary_type = "GHOST"
+gender_ratio = "Female50Percent"
+growth_rate = "Slow"
+exp_yield = 300
+catch_rate = 45
+caught_happiness = 50
+raw_abilities = ["CLEARBODY", "INFILTRATOR"]
+raw_egg_moves = ["CURSE", "GRUDGE", "CONFUSERAY", "DOUBLETEAM", "DISABLE", "DRAGONTAIL", "SUCKERPUNCH"]
+raw_tms = ["DRAGONCLAW", "FLY", "SURF", "DIVE", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "SOLARBEAM", "THUNDERBOLT", "THUNDER", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "FIREBLAST", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "STEELWING", "SCALD", "WILLOWISP", "ACROBATICS", "GIGAIMPACT", "THUNDERWAVE", "DRAGONTAIL", "INFESTATION", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "BEATUP", "BRINE", "ASSURANCE", "PSYCHICFANGS", "HEX", "PHANTOMFORCE", "BREAKINGSWIPE", "BODYSLAM", "HYDROPUMP", "BRAVEBIRD", "AGILITY", "TRIATTACK", "ENDURE", "BATONPASS", "DRAGONDANCE", "POUNCE", "SWIFT"]
+raw_tutor_moves = ["ALLYSWITCH", "AQUATAIL", "DRACOMETEOR", "DRAGONPULSE", "DUALCHOP", "HELPINGHAND", "LASTRESORT", "OMINOUSWIND", "OUTRAGE", "SNORE", "SUCKERPUNCH", "MIMIC"]
+compatible_egg_groups = ["Amorphous", "Dragon"]
+steps_to_hatch = 10240
+height = 3.0
+weight = 50.0
+colour = "Green"
+kind = "Stealth"
+pokedex_entry = "Apparently the Dreepy inside Dragapult's horns eagerly look forward to being launched out at Mach speeds."
+battler_player_y = 21
+battler_enemy_y = 26
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "DRAGAPULT"
+raw_hidden_ability = "CURSEDBODY"
+regional_numbers = 887
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "DRAGONDARTS"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DRAGONDARTS"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DRAGONPULSE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ASTONISH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "INFESTATION"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "LOCKON"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "ASSURANCE"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "HEX"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "DOUBLEHIT"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "UTURN"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "DRAGONDANCE"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "PHANTOMFORCE"
+
+[[raw_level_up_moves]]
+at_level = "54"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "63"
+name = "DRAGONRUSH"
+
+[[raw_level_up_moves]]
+at_level = "70"
+name = "DOUBLEEDGE"
+
+[[raw_level_up_moves]]
+at_level = "78"
+name = "LASTRESORT"
+
+[[raw_level_up_moves]]
+at_level = "82"
+name = "POLTERGEIST"
+
+[base_stats]
+hp = 88
+atk = 120
+def_ = 75
+spa = 100
+spd = 75
+spe = 142
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 3
+
+[wild_items]

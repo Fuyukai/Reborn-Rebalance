@@ -1,0 +1,104 @@
+name = "Regieleki"
+primary_type = "ELECTRIC"
+secondary_type = "ELECTRIC"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 290
+catch_rate = 3
+caught_happiness = 35
+raw_abilities = ["TRANSISTOR"]
+raw_egg_moves = []
+raw_tms = ["FLASH", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "THUNDERBOLT", "THUNDER", "REFLECT", "FACADE", "REST", "ROUND", "ACROBATICS", "GIGAIMPACT", "VOLTSWITCH", "THUNDERWAVE", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "SCREECH", "SELFDESTRUCT", "ASSURANCE", "ELECTRICTERRAIN", "EERIEIMPULSE", "BODYSLAM", "AGILITY", "ENDURE", "ELECTROBALL", "SWIFT"]
+raw_tutor_moves = ["BOUNCE", "ELECTROWEB", "SNORE", "RISINGVOLTAGE", "MIMIC"]
+compatible_egg_groups = ["Undiscovered"]
+steps_to_hatch = 31096
+height = 1.2
+weight = 145.0
+colour = "Yellow"
+kind = "Electron"
+pokedex_entry = "Its entire body is made up of an single organ that generates electrical energy. Regieleki is capable of creating all of Galar's electricity"
+battler_player_y = 14
+battler_enemy_y = 18
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "REGIELEKI"
+shape = 6
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "THUNDERSHOCK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "RAPIDSPIN"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "ELECTROWEB"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "ANCIENTPOWER"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "SHOCKWAVE"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "THUNDERWAVE"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "EXTREMESPEED"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "THUNDERCAGE"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "THUNDERBOLT"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "MAGNETRISE"
+
+[[raw_level_up_moves]]
+at_level = "54"
+name = "THRASH"
+
+[[raw_level_up_moves]]
+at_level = "60"
+name = "LOCKON"
+
+[[raw_level_up_moves]]
+at_level = "66"
+name = "ZAPCANNON"
+
+[[raw_level_up_moves]]
+at_level = "72"
+name = "HYPERBEAM"
+
+[[raw_level_up_moves]]
+at_level = "78"
+name = "EXPLOSION"
+
+[base_stats]
+hp = 80
+atk = 100
+def_ = 50
+spa = 100
+spd = 50
+spe = 200
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 3
+
+[wild_items]

@@ -1,0 +1,128 @@
+name = "Scolipede"
+primary_type = "BUG"
+secondary_type = "POISON"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 218
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["POISONPOINT", "SWARM"]
+raw_egg_moves = []
+raw_tms = ["CUT", "STRENGTH", "TOXIC", "ROCKSMASH", "VENOSHOCK", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "FRUSTRATION", "SOLARBEAM", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "SLUDGEBOMB", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "PAYBACK", "SMARTSTRIKE", "GIGAIMPACT", "GYROBALL", "SWORDSDANCE", "STRUGGLEBUG", "BULLDOZE", "ROCKSLIDE", "XSCISSOR", "INFESTATION", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "PINMISSILE", "DIG", "SCREECH", "ASSURANCE", "CROSSPOISON", "HEX", "MEGAHORN", "AGILITY", "SPIKES", "ENDURE", "BATONPASS", "TOXICSPIKES", "VENOMDRENCH"]
+raw_tutor_moves = ["AQUATAIL", "BUGBITE", "ENDEAVOR", "IRONDEFENSE", "IRONTAIL", "SIGNALBEAM", "SNATCH", "SNORE", "STOMPINGTANTRUM", "SUPERPOWER", "THROATCHOP", "SKITTERSMACK", "STEELROLLER", "MIMIC", "POISONTAIL"]
+compatible_egg_groups = ["Bug"]
+steps_to_hatch = 3840
+height = 2.5
+weight = 200.5
+colour = "Red"
+kind = "Megapede"
+pokedex_entry = "Highly aggressive, it uses the claws near its neck to dig into and poison its opponents."
+battler_player_y = 8
+battler_enemy_y = 12
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "SCOLIPEDE"
+raw_hidden_ability = "SPEEDBOOST"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "BATONPASS"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "IRONDEFENSE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MEGAHORN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DEFENSECURL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ROLLOUT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POISONSTING"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SCREECH"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "POISONSTING"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "SCREECH"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "PURSUIT"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "PROTECT"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "POISONTAIL"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "BUGBITE"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "VENOSHOCK"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "STEAMROLLER"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "TOXIC"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "VENOMDRENCH"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "ROCKCLIMB"
+
+[[raw_level_up_moves]]
+at_level = "55"
+name = "DOUBLEEDGE"
+
+[[raw_level_up_moves]]
+at_level = "65"
+name = "MEGAHORN"
+
+[base_stats]
+hp = 60
+atk = 100
+def_ = 89
+spa = 55
+spd = 69
+spe = 112
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 3
+
+[wild_items]

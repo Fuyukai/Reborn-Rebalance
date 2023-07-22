@@ -1,0 +1,99 @@
+name = "Gabite"
+primary_type = "DRAGON"
+secondary_type = "GROUND"
+gender_ratio = "Female50Percent"
+growth_rate = "Slow"
+exp_yield = 144
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["SANDVEIL", "ROUGHSKIN"]
+raw_egg_moves = []
+raw_tms = ["CUT", "DRAGONCLAW", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "RAINDANCE", "FRUSTRATION", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "FLAMETHROWER", "SANDSTORM", "FIREBLAST", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "SHADOWCLAW", "STONEEDGE", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "SCARYFACE", "SANDTOMB", "MUDSHOT", "BODYSLAM", "HYDROPUMP", "ENDURE", "SWIFT"]
+raw_tutor_moves = ["DRACOMETEOR", "DRAGONPULSE", "DUALCHOP", "EARTHPOWER", "FURYCUTTER", "HEADBUTT", "IRONHEAD", "IRONTAIL", "LASERFOCUS", "MUDSLAP", "OUTRAGE", "SNORE", "STEALTHROCK", "TWISTER", "SCORCHINGSANDS", "SCALESHOT", "MIMIC"]
+compatible_egg_groups = ["Monster", "Dragon"]
+steps_to_hatch = 10455
+height = 1.4
+weight = 56.0
+colour = "Blue"
+kind = "Cave"
+pokedex_entry = "There is a long-held belief that medicine made from its scales will heal even incurable illnesses."
+battler_player_y = 18
+battler_enemy_y = 10
+battler_altitude = 0
+form_names = []
+internal_name = "GABITE"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "DUALCHOP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SANDATTACK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DRAGONRAGE"
+
+[[raw_level_up_moves]]
+at_level = "3"
+name = "SANDATTACK"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "DRAGONRAGE"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "SANDSTORM"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "SANDTOMB"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "SLASH"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "DRAGONCLAW"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "DIG"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "DRAGONRUSH"
+
+[[evolutions]]
+into_name = "GARCHOMP"
+condition = "Level"
+parameter = "48"
+
+[base_stats]
+hp = 68
+atk = 90
+def_ = 65
+spa = 50
+spd = 55
+spe = 82
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

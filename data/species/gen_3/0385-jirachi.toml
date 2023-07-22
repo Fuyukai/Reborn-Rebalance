@@ -1,0 +1,135 @@
+name = "Jirachi"
+primary_type = "STEEL"
+secondary_type = "PSYCHIC"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 270
+catch_rate = 3
+caught_happiness = 100
+raw_abilities = ["SERENEGRACE"]
+raw_egg_moves = []
+raw_tms = ["PSYSHOCK", "CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "SANDSTORM", "AERIALACE", "FACADE", "REST", "ROUND", "ENERGYBALL", "FLING", "CHARGEBEAM", "GIGAIMPACT", "THUNDERWAVE", "PSYCHUP", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "FLASHCANNON", "TRICKROOM", "SECRETPOWER", "POWERUPPUNCH", "DAZZLINGGLEAM", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "CHARM", "IMPRISON", "BODYSLAM", "METRONOME", "AMNESIA", "ENDURE", "BATONPASS", "ENCORE", "FUTURESIGHT", "COSMICPOWER", "AURASPHERE", "STOREDPOWER", "PLAYROUGH", "SWIFT"]
+raw_tutor_moves = ["ALLYSWITCH", "ANCIENTPOWER", "DRAINPUNCH", "FIREPUNCH", "GRAVITY", "HEADBUTT", "HELPINGHAND", "ICEPUNCH", "ICYWIND", "IRONDEFENSE", "IRONHEAD", "LASTRESORT", "MAGICCOAT", "MAGICROOM", "MUDSLAP", "RECYCLE", "SHOCKWAVE", "SIGNALBEAM", "SKILLSWAP", "SNORE", "STEALTHROCK", "TELEKINESIS", "THUNDERPUNCH", "TRICK", "UPROAR", "WATERPULSE", "ZENHEADBUTT", "METEORBEAM", "EXPANDINGFORCE", "STEELBEAM", "MIMIC"]
+compatible_egg_groups = ["Undiscovered"]
+steps_to_hatch = 30855
+height = 0.3
+weight = 1.1
+colour = "Yellow"
+kind = "Wish"
+pokedex_entry = "Jirachi is said to make wishes come true. While it sleeps, a tough crystalline shell envelops the body to protect it from enemies."
+battler_player_y = 28
+battler_enemy_y = 22
+battler_altitude = 14
+evolutions = []
+form_names = []
+internal_name = "JIRACHI"
+habitat = "Mountain"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LIFEDEW"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DRACOMETEOR"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MOONBLAST"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HEARTSTAMP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "METEORMASH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PLAYROUGH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WISH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CONFUSION"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "REST"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "SWIFT"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "HELPINGHAND"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "PSYCHIC"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "REFRESH"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "LUCKYCHANT"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "ZENHEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "DOUBLEEDGE"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "GRAVITY"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "HEALINGWISH"
+
+[[raw_level_up_moves]]
+at_level = "55"
+name = "FUTURESIGHT"
+
+[[raw_level_up_moves]]
+at_level = "60"
+name = "COSMICPOWER"
+
+[[raw_level_up_moves]]
+at_level = "65"
+name = "LASTRESORT"
+
+[[raw_level_up_moves]]
+at_level = "70"
+name = "DOOMDESIRE"
+
+[base_stats]
+hp = 100
+atk = 100
+def_ = 100
+spa = 100
+spd = 100
+spe = 100
+
+[ev_yield]
+hp = 3
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+common = "STARPIECE"
+uncommon = "STARPIECE"
+rare = "STARPIECE"

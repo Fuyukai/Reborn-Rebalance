@@ -1,0 +1,100 @@
+name = "Cursola"
+primary_type = "GHOST"
+secondary_type = "GHOST"
+gender_ratio = "Female75Percent"
+growth_rate = "Fast"
+exp_yield = 179
+catch_rate = 30
+caught_happiness = 50
+raw_abilities = ["WEAKARMOR", "PERISHBODY"]
+raw_egg_moves = ["HAZE", "CONFUSERAY", "NATUREPOWER", "DESTINYBOND", "WATERPULSE", "HEADSMASH"]
+raw_tms = ["SURF", "CALMMIND", "HAIL", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "EARTHQUAKE", "LEECHLIFE", "PSYCHIC", "SHADOWBALL", "REFLECT", "SANDSTORM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "SCALD", "WILLOWISP", "GIGAIMPACT", "STONEEDGE", "BULLDOZE", "ROCKSLIDE", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "PINMISSILE", "DIG", "SCREECH", "SELFDESTRUCT", "WHIRLPOOL", "REVENGE", "ICICLESPEAR", "ROCKBLAST", "BRINE", "HEX", "BODYSLAM", "HYDROPUMP", "AMNESIA", "ENDURE", "POWERGEM"]
+raw_tutor_moves = ["ANCIENTPOWER", "EARTHPOWER", "GIGADRAIN", "ICYWIND", "IRONDEFENSE", "LIQUIDATION", "OMINOUSWIND", "SNORE", "SPITE", "STEALTHROCK", "STOMPINGTANTRUM", "THROATCHOP", "BURNINGJEALOUSY", "METEORBEAM", "POLTERGEIST", "MIMIC"]
+compatible_egg_groups = ["Water1", "Water3"]
+steps_to_hatch = 5120
+height = 1.0
+weight = 0.4
+colour = "White"
+kind = "Coral"
+pokedex_entry = "Be cautious of the ectoplasmic body surrounding its soul. You'll become stiff as stone if you touch it."
+battler_player_y = 21
+battler_enemy_y = 16
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "CURSOLA"
+regional_numbers = 864
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PERISHSONG"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HARDEN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ASTONISH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DISABLE"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "SPITE"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "ANCIENTPOWER"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "HEX"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "CURSE"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "STRENGTHSAP"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "POWERGEM"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "NIGHTSHADE"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "GRUDGE"
+
+[[raw_level_up_moves]]
+at_level = "55"
+name = "MIRRORCOAT"
+
+[base_stats]
+hp = 60
+atk = 95
+def_ = 50
+spa = 145
+spd = 130
+spe = 30
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 2
+spd = 0
+spe = 0
+
+[wild_items]

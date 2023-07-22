@@ -1,0 +1,100 @@
+name = "Whismur"
+primary_type = "NORMAL"
+secondary_type = "NORMAL"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 48
+catch_rate = 190
+caught_happiness = 70
+raw_abilities = ["SOUNDPROOF", "RATTLED"]
+raw_egg_moves = ["CIRCLETHROW", "DISARMINGVOICE", "ENDEAVOR", "EXTRASENSORY", "FAKETEARS", "HAMMERARM", "SMELLINGSALTS", "SMOKESCREEN", "SNORE", "TAKEDOWN", "WHIRLWIND"]
+raw_tms = ["WORKUP", "ROAR", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "SOLARBEAM", "RETURN", "SHADOWBALL", "DOUBLETEAM", "FLAMETHROWER", "FIREBLAST", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "FLING", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "SCREECH", "FAKETEARS", "BODYSLAM", "ENDURE", "RETALIATE"]
+raw_tutor_moves = ["ENDEAVOR", "FIREPUNCH", "HEADBUTT", "HYPERVOICE", "ICEPUNCH", "ICYWIND", "MUDSLAP", "ROLLOUT", "SHOCKWAVE", "SNORE", "THUNDERPUNCH", "UPROAR", "WATERPULSE", "ZENHEADBUTT", "MIMIC"]
+compatible_egg_groups = ["Monster", "Field"]
+steps_to_hatch = 5355
+height = 0.6
+weight = 16.3
+colour = "Pink"
+kind = "Whisper"
+pokedex_entry = "Its cries equal a jet plane in volume. It inhales through its ear canals. Because of this, it can cry continually without having to catch its breath."
+battler_player_y = 30
+battler_enemy_y = 23
+battler_altitude = 0
+form_names = []
+internal_name = "WHISMUR"
+habitat = "Cave"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POUND"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "ECHOEDVOICE"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "ASTONISH"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "HOWL"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "SCREECH"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "SUPERSONIC"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "STOMP"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "UPROAR"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "ROAR"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "REST"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "SLEEPTALK"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "HYPERVOICE"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "SYNCHRONOISE"
+
+[[evolutions]]
+into_name = "LOUDRED"
+condition = "Level"
+parameter = "20"
+
+[base_stats]
+hp = 64
+atk = 51
+def_ = 23
+spa = 51
+spd = 23
+spe = 28
+
+[ev_yield]
+hp = 1
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

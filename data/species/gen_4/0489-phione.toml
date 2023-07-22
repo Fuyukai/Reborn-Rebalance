@@ -1,0 +1,91 @@
+name = "Phione"
+primary_type = "WATER"
+secondary_type = "WATER"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 216
+catch_rate = 30
+caught_happiness = 70
+raw_abilities = ["HYDRATION"]
+raw_egg_moves = []
+raw_tms = ["SURF", "WATERFALL", "TOXIC", "DIVE", "HAIL", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "RETURN", "DOUBLETEAM", "FACADE", "REST", "ROUND", "SCALD", "FLING", "PSYCHUP", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "DAZZLINGGLEAM", "CONFIDE", "CHARM", "WHIRLPOOL", "BRINE", "ENDURE", "SWIFT"]
+raw_tutor_moves = ["ANCIENTPOWER", "BOUNCE", "COVET", "HEALBELL", "HELPINGHAND", "ICYWIND", "KNOCKOFF", "LASTRESORT", "LIQUIDATION", "MUDSLAP", "SIGNALBEAM", "SNORE", "UPROAR", "WATERPULSE", "MIMIC"]
+compatible_egg_groups = ["Water1", "Fairy"]
+steps_to_hatch = 10455
+height = 0.4
+weight = 3.1
+colour = "Blue"
+kind = "Sea Drifter"
+pokedex_entry = "A Pokémon that lives in warm seas. It inflates the flotation sac on its head to drift and search for food."
+battler_player_y = 29
+battler_enemy_y = 24
+battler_altitude = 17
+evolutions = []
+form_names = []
+internal_name = "PHIONE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BUBBLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WATERSPORT"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "CHARM"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "SUPERSONIC"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "BUBBLEBEAM"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "ACIDARMOR"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "WHIRLPOOL"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "WATERPULSE"
+
+[[raw_level_up_moves]]
+at_level = "52"
+name = "AQUARING"
+
+[[raw_level_up_moves]]
+at_level = "57"
+name = "TAKEHEART"
+
+[[raw_level_up_moves]]
+at_level = "61"
+name = "DIVE"
+
+[[raw_level_up_moves]]
+at_level = "69"
+name = "RAINDANCE"
+
+[base_stats]
+hp = 80
+atk = 80
+def_ = 80
+spa = 80
+spd = 80
+spe = 80
+
+[ev_yield]
+hp = 1
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

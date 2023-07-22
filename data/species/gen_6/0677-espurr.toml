@@ -1,0 +1,84 @@
+name = "Espurr"
+primary_type = "PSYCHIC"
+secondary_type = "PSYCHIC"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 71
+catch_rate = 228
+caught_happiness = 70
+raw_abilities = ["KEENEYE", "INFILTRATOR"]
+raw_egg_moves = ["ASSIST", "BARRIER", "TRICK", "YAWN"]
+raw_tms = ["WORKUP", "CUT", "PSYSHOCK", "CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "THUNDERBOLT", "RETURN", "PSYCHIC", "DOUBLETEAM", "REFLECT", "TORMENT", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "ENERGYBALL", "CHARGEBEAM", "PAYBACK", "THUNDERWAVE", "PSYCHUP", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "DARKPULSE", "CONFIDE", "PAYDAY", "FAKETEARS", "ENDURE", "NASTYPLOT", "PLAYROUGH", "SWIFT"]
+raw_tutor_moves = ["ALLYSWITCH", "COVET", "GRAVITY", "HEALBELL", "HELPINGHAND", "IRONTAIL", "MAGICCOAT", "MAGICROOM", "RECYCLE", "ROLEPLAY", "SHOCKWAVE", "SIGNALBEAM", "SKILLSWAP", "SNATCH", "SNORE", "TELEKINESIS", "TRICK", "WONDERROOM", "ZENHEADBUTT", "EXPANDINGFORCE", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5120
+height = 0.3
+weight = 3.5
+colour = "Gray"
+kind = "Restraint"
+pokedex_entry = "It has enough psychic energy to blast everything within 300 feet of itself, but it has no control over its power."
+battler_player_y = 28
+battler_enemy_y = 33
+battler_altitude = 0
+form_names = []
+internal_name = "ESPURR"
+raw_hidden_ability = "OWNTEMPO"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SCRATCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "COVET"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "CONFUSION"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "LIGHTSCREEN"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "PSYBEAM"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "FAKEOUT"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "DISARMINGVOICE"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "PSYSHOCK"
+
+[[evolutions]]
+into_name = "MEOWSTIC"
+condition = "Level"
+parameter = "25"
+
+[base_stats]
+hp = 62
+atk = 48
+def_ = 54
+spa = 63
+spd = 60
+spe = 68
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 1
+
+[wild_items]

@@ -1,0 +1,117 @@
+name = "Pidgeot"
+primary_type = "NORMAL"
+secondary_type = "FLYING"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 211
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["KEENEYE", "TANGLEDFEET"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "FLY", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "FRUSTRATION", "RETURN", "DOUBLETEAM", "REFLECT", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "STEELWING", "GIGAIMPACT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "AIRSLASH", "HURRICANE", "BRAVEBIRD", "AGILITY", "ENDURE", "SWIFT"]
+raw_tutor_moves = ["AIRCUTTER", "DEFOG", "HEATWAVE", "LASERFOCUS", "MUDSLAP", "OMINOUSWIND", "SKYATTACK", "SNORE", "TAILWIND", "TWISTER", "UPROAR", "DUALWINGBEAT", "MIMIC"]
+compatible_egg_groups = ["Flying"]
+steps_to_hatch = 4080
+height = 1.5
+weight = 39.5
+colour = "Brown"
+kind = "Bird"
+pokedex_entry = "This Pokémon has gorgeous feathers. Many Trainers are so captivated by the feathers on its head, that they choose Pidgeot as their Pokémon."
+battler_player_y = 16
+battler_enemy_y = 6
+battler_altitude = 11
+evolutions = []
+form_names = []
+internal_name = "PIDGEOT"
+raw_hidden_ability = "BIGPECKS"
+habitat = "Forest"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HURRICANE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SANDATTACK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GUST"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "SANDATTACK"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "GUST"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "WHIRLWIND"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "TWISTER"
+
+[[raw_level_up_moves]]
+at_level = "27"
+name = "FEATHERDANCE"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "WINGATTACK"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "ROOST"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "TAILWIND"
+
+[[raw_level_up_moves]]
+at_level = "56"
+name = "MIRRORMOVE"
+
+[[raw_level_up_moves]]
+at_level = "62"
+name = "AIRSLASH"
+
+[[raw_level_up_moves]]
+at_level = "68"
+name = "HURRICANE"
+
+[base_stats]
+hp = 83
+atk = 80
+def_ = 75
+spa = 70
+spd = 70
+spe = 101
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 3
+
+[wild_items]

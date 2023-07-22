@@ -1,0 +1,122 @@
+name = "Aron"
+primary_type = "STEEL"
+secondary_type = "ROCK"
+gender_ratio = "Female50Percent"
+growth_rate = "Slow"
+exp_yield = 66
+catch_rate = 180
+caught_happiness = 35
+raw_abilities = ["STURDY", "ROCKHEAD"]
+raw_egg_moves = ["BODYSLAM", "CURSE", "DRAGONRUSH", "ENDEAVOR", "HEADSMASH", "IRONHEAD", "REVERSAL", "SCREECH", "SMELLINGSALTS", "STEALTHROCK", "STOMP", "SUPERPOWER"]
+raw_tms = ["CUT", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "RAINDANCE", "FRUSTRATION", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "SANDSTORM", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "SHADOWCLAW", "ROCKPOLISH", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "SCREECH", "BODYSLAM", "REVERSAL", "ENDURE", "HEAVYSLAM", "BODYPRESS"]
+raw_tutor_moves = ["ANCIENTPOWER", "EARTHPOWER", "ENDEAVOR", "FURYCUTTER", "HEADBUTT", "IRONDEFENSE", "IRONHEAD", "IRONTAIL", "MAGNETRISE", "MUDSLAP", "ROLLOUT", "SHOCKWAVE", "SNORE", "SPITE", "STEALTHROCK", "SUPERPOWER", "UPROAR", "WATERPULSE", "STEELROLLER", "STEELBEAM", "MIMIC"]
+compatible_egg_groups = ["Monster"]
+steps_to_hatch = 9180
+height = 0.4
+weight = 60.0
+colour = "Gray"
+kind = "Iron Armor"
+pokedex_entry = "A Pokémon that is clad in steel armor. A new suit of armor is made when it evolves. The old armor is salvaged as metal for making iron products."
+battler_player_y = 32
+battler_enemy_y = 27
+battler_altitude = 0
+form_names = []
+internal_name = "ARON"
+raw_hidden_ability = "HEAVYMETAL"
+habitat = "Mountain"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HARDEN"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "MUDSLAP"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "HEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "METALCLAW"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "ROCKTOMB"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "PROTECT"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "ROAR"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "IRONHEAD"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "ROCKSLIDE"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "METALSOUND"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "IRONTAIL"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "IRONDEFENSE"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "DOUBLEEDGE"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "AUTOTOMIZE"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "HEAVYSLAM"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "METALBURST"
+
+[[evolutions]]
+into_name = "LAIRON"
+condition = "Level"
+parameter = "32"
+
+[base_stats]
+hp = 50
+atk = 70
+def_ = 100
+spa = 40
+spd = 40
+spe = 30
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 1
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "HARDSTONE"

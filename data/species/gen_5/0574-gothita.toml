@@ -1,0 +1,116 @@
+name = "Gothita"
+primary_type = "PSYCHIC"
+secondary_type = "PSYCHIC"
+gender_ratio = "Female75Percent"
+growth_rate = "Parabolic"
+exp_yield = 58
+catch_rate = 200
+caught_happiness = 70
+raw_abilities = ["FRISK", "COMPETITIVE"]
+raw_egg_moves = ["CAPTIVATE", "DARKPULSE", "HEALPULSE", "MEANLOOK", "MIRACLEEYE", "MIRRORCOAT", "UPROAR"]
+raw_tms = ["PSYSHOCK", "CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "TAUNT", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "THUNDERBOLT", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "ROCKTOMB", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ENERGYBALL", "FLING", "CHARGEBEAM", "EMBARGO", "PAYBACK", "THUNDERWAVE", "PSYCHUP", "ROCKSLIDE", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "DARKPULSE", "CONFIDE", "CHARM", "FAKETEARS", "POWERSWAP", "GUARDSWAP", "ENDURE", "FUTURESIGHT", "NASTYPLOT", "STOREDPOWER"]
+raw_tutor_moves = ["ALLYSWITCH", "COVET", "FOULPLAY", "GRAVITY", "HEALBELL", "HELPINGHAND", "MAGICCOAT", "MAGICROOM", "RECYCLE", "ROLEPLAY", "SHOCKWAVE", "SIGNALBEAM", "SKILLSWAP", "SNATCH", "SNORE", "TELEKINESIS", "TRICK", "UPROAR", "ZENHEADBUTT", "EXPANDINGFORCE", "MIMIC"]
+compatible_egg_groups = ["Humanlike"]
+steps_to_hatch = 5120
+height = 0.4
+weight = 5.8
+colour = "Purple"
+kind = "Fixation"
+pokedex_entry = "They intently observe both Trainers and Pokémon. Apparently, they are looking at something that only Gothita can see."
+battler_player_y = 28
+battler_enemy_y = 31
+battler_altitude = 0
+form_names = []
+internal_name = "GOTHITA"
+raw_hidden_ability = "SHADOWTAG"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POUND"
+
+[[raw_level_up_moves]]
+at_level = "3"
+name = "CONFUSION"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "TICKLE"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "PLAYNICE"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "FAKETEARS"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "DOUBLESLAP"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "PSYBEAM"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "EMBARGO"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "FEINTATTACK"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "PSYSHOCK"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "FLATTER"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "FUTURESIGHT"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "HEALBLOCK"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "PSYCHIC"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "TELEKINESIS"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "CHARM"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "MAGICROOM"
+
+[[evolutions]]
+into_name = "GOTHORITA"
+condition = "Level"
+parameter = "32"
+
+[base_stats]
+hp = 45
+atk = 30
+def_ = 50
+spa = 55
+spd = 65
+spe = 45
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 1
+spe = 0
+
+[wild_items]

@@ -1,0 +1,111 @@
+name = "Panpour"
+primary_type = "WATER"
+secondary_type = "WATER"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Medium"
+exp_yield = 63
+catch_rate = 190
+caught_happiness = 70
+raw_abilities = ["GLUTTONY", "TORRENT"]
+raw_egg_moves = ["AQUARING", "AQUATAIL", "ASTONISH", "COVET", "DISARMINGVOICE", "HYDROPUMP", "LOWKICK", "MUDSPORT", "NASTYPLOT", "ROLEPLAY", "TICKLE"]
+raw_tms = ["WORKUP", "CUT", "SURF", "WATERFALL", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "HIDDENPOWER", "TAUNT", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "DOUBLETEAM", "ROCKTOMB", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "LOWSWEEP", "ROUND", "SCALD", "FLING", "ACROBATICS", "SHADOWCLAW", "PAYBACK", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "BRINE", "CRUNCH", "HYDROPUMP", "ENDURE", "NASTYPLOT"]
+raw_tutor_moves = ["AQUATAIL", "COVET", "ENDEAVOR", "FOCUSPUNCH", "GASTROACID", "GUNKSHOT", "HELPINGHAND", "ICEPUNCH", "ICYWIND", "IRONTAIL", "KNOCKOFF", "LOWKICK", "RECYCLE", "ROLEPLAY", "SNORE", "UPROAR", "WATERPLEDGE", "WATERPULSE", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5120
+height = 0.6
+weight = 13.5
+colour = "Blue"
+kind = "Spray"
+pokedex_entry = "It does not thrive in dry environments. It keeps itself damp by shooting water stored in its head tuft from its tail."
+battler_player_y = 26
+battler_enemy_y = 28
+battler_altitude = 0
+form_names = []
+internal_name = "PANPOUR"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SCRATCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PLAYNICE"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "LICK"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "WATERGUN"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "FURYSWIPES"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "WATERSPORT"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "SCALD"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "TAUNT"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "FLING"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "ACROBATICS"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "BRINE"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "RECYCLE"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "NATURALGIFT"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "CRUNCH"
+
+[[evolutions]]
+into_name = "SIMIPOUR"
+condition = "Item"
+parameter = "WATERSTONE"
+
+[base_stats]
+hp = 50
+atk = 53
+def_ = 48
+spa = 53
+spd = 48
+spe = 64
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 1
+
+[wild_items]

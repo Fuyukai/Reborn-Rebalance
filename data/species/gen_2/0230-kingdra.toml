@@ -1,0 +1,114 @@
+name = "Kingdra"
+primary_type = "WATER"
+secondary_type = "DRAGON"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 243
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["SWIFTSWIM", "SNIPER"]
+raw_egg_moves = []
+raw_tms = ["SURF", "WATERFALL", "TOXIC", "DIVE", "HAIL", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "ROUND", "SCALD", "QUASH", "GIGAIMPACT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "CONFIDE", "WHIRLPOOL", "BRINE", "BREAKINGSWIPE", "BODYSLAM", "HYDROPUMP", "HURRICANE", "AGILITY", "FOCUSENERGY", "ENDURE", "MUDDYWATER", "DRAGONDANCE", "SWIFT"]
+raw_tutor_moves = ["BOUNCE", "DRACOMETEOR", "DRAGONPULSE", "HEADBUTT", "ICYWIND", "IRONHEAD", "LASERFOCUS", "LIQUIDATION", "OUTRAGE", "SIGNALBEAM", "SNORE", "TWISTER", "WATERPULSE", "FLIPTURN", "SCALESHOT", "MIMIC"]
+compatible_egg_groups = ["Water1", "Dragon"]
+steps_to_hatch = 5355
+height = 1.8
+weight = 152.0
+colour = "Blue"
+kind = "Dragon"
+pokedex_entry = "It sleeps quietly, deep on the seafloor. When it comes up to the surface, it creates a huge whirlpool that can swallow even ships."
+battler_player_y = 13
+battler_enemy_y = 10
+battler_altitude = 9
+evolutions = []
+form_names = []
+internal_name = "KINGDRA"
+raw_hidden_ability = "DAMP"
+habitat = "Sea"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HYDROPUMP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "YAWN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BUBBLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SMOKESCREEN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WATERGUN"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "SMOKESCREEN"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "WATERGUN"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "TWISTER"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "BUBBLEBEAM"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "FOCUSENERGY"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "BRINE"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "DRAGONPULSE"
+
+[[raw_level_up_moves]]
+at_level = "52"
+name = "DRAGONDANCE"
+
+[[raw_level_up_moves]]
+at_level = "60"
+name = "HYDROPUMP"
+
+[base_stats]
+hp = 75
+atk = 95
+def_ = 95
+spa = 95
+spd = 95
+spe = 85
+
+[ev_yield]
+hp = 0
+atk = 1
+def_ = 0
+spa = 1
+spd = 1
+spe = 0
+
+[wild_items]
+uncommon = "DRAGONSCALE"

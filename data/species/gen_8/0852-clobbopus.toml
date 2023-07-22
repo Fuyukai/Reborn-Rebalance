@@ -1,0 +1,92 @@
+name = "Clobbopus"
+primary_type = "FIGHTING"
+secondary_type = "FIGHTING"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 62
+catch_rate = 180
+caught_happiness = 50
+raw_abilities = ["LIMBER", "TECHNICIAN"]
+raw_egg_moves = ["PAINSPLIT", "SOAK", "SUCKERPUNCH", "CIRCLETHROW", "SEISMICTOSS", "POWERUPPUNCH", "STORMTHROW"]
+raw_tms = ["WORKUP", "WATERFALL", "DIVE", "ROCKSMASH", "BULKUP", "TAUNT", "PROTECT", "BRICKBREAK", "FACADE", "REST", "ATTRACT", "ROUND", "FOCUSBLAST", "PAYBACK", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "MEGAPUNCH", "REVENGE", "MUDSHOT", "BRINE", "BODYSLAM", "CLOSECOMBAT", "REVERSAL", "ENDURE", "MUDDYWATER", "RETALIATE"]
+raw_tutor_moves = ["BIND", "ICEPUNCH", "LIQUIDATION", "PAINSPLIT", "SNORE", "SUCKERPUNCH", "SUPERPOWER", "COACHING", "MIMIC"]
+compatible_egg_groups = ["Water1", "Humanlike"]
+steps_to_hatch = 6400
+height = 0.6
+weight = 4.0
+colour = "Brown"
+kind = "Tantrum"
+pokedex_entry = "Its tentacles tear off easily, but it isn't alarmed when that happens—it knows they'll grow back. It's about as smart as a three-year-old."
+battler_player_y = 21
+battler_enemy_y = 28
+battler_altitude = 0
+form_names = []
+internal_name = "CLOBBOPUS"
+regional_numbers = 852
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ROCKSMASH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "FEINT"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "BIND"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "DETECT"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "BRICKBREAK"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "BULKUP"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "SUBMISSION"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "TAUNT"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "REVERSAL"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "SUPERPOWER"
+
+[[evolutions]]
+into_name = "GRAPPLOCT"
+condition = "HasMove"
+parameter = "TAUNT"
+
+[base_stats]
+hp = 50
+atk = 68
+def_ = 60
+spa = 50
+spd = 50
+spe = 32
+
+[ev_yield]
+hp = 0
+atk = 1
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

@@ -1,0 +1,97 @@
+name = "Wooloo"
+primary_type = "NORMAL"
+secondary_type = "NORMAL"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 122
+catch_rate = 255
+caught_happiness = 50
+raw_abilities = ["FLUFFY", "RUNAWAY"]
+raw_egg_moves = ["STOMP", "SWAGGER", "COUNTER"]
+raw_tms = ["PROTECT", "FACADE", "REST", "ATTRACT", "ROUND", "PAYBACK", "THUNDERWAVE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "GUARDSWAP", "AGILITY", "REVERSAL", "ENDURE", "ELECTROBALL"]
+raw_tutor_moves = ["HEADBUTT", "SNORE", "GRASSYGLIDE", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 3840
+height = 0.6
+weight = 6.0
+colour = "White"
+kind = "Sheep"
+pokedex_entry = "If its fleece grows too long, Wooloo won't be able to move. Cloth made with the wool of this Pokémon is surprisingly strong."
+battler_player_y = 21
+battler_enemy_y = 26
+battler_altitude = 0
+form_names = []
+internal_name = "WOOLOO"
+raw_hidden_ability = "BULLETPROOF"
+regional_numbers = 831
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "DEFENSECURL"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "COPYCAT"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "GUARDSPLIT"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "DOUBLEKICK"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "HEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "GUARDSWAP"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "REVERSAL"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "COTTONGUARD"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "DOUBLEEDGE"
+
+[[evolutions]]
+into_name = "DUBWOOL"
+condition = "Level"
+parameter = "24"
+
+[base_stats]
+hp = 42
+atk = 40
+def_ = 55
+spa = 40
+spd = 45
+spe = 48
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 1
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

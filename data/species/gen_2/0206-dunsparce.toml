@@ -1,0 +1,141 @@
+name = "Dunsparce"
+primary_type = "NORMAL"
+secondary_type = "NORMAL"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 145
+catch_rate = 190
+caught_happiness = 70
+raw_abilities = ["SERENEGRACE", "RUNAWAY"]
+raw_egg_moves = ["AGILITY", "ANCIENTPOWER", "ASTONISH", "BIDE", "BITE", "CURSE", "HEADBUTT", "HEX", "MAGICCOAT", "SECRETPOWER", "SLEEPTALK", "SNORE", "TRUMPCARD"]
+raw_tms = ["CALMMIND", "STRENGTH", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "FRUSTRATION", "SOLARBEAM", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "SHADOWBALL", "DOUBLETEAM", "FLAMETHROWER", "FIREBLAST", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "CHARGEBEAM", "THUNDERWAVE", "GYROBALL", "PSYCHUP", "BULLDOZE", "ROCKSLIDE", "POISONJAB", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "CONFIDE", "PINMISSILE", "DIG", "SCREECH", "CRUNCH", "AIRSLASH", "HEX", "BODYSLAM", "HURRICANE", "MEGAHORN", "AGILITY", "AMNESIA", "ENDURE", "BATONPASS", "BUGBUZZ", "STOREDPOWER", "RETALIATE", "ICESPINNER", "POUNCE", "CHILLINGWATER"]
+raw_tutor_moves = ["ANCIENTPOWER", "AQUATAIL", "BIND", "DRILLRUN", "ENDEAVOR", "HEADBUTT", "HELPINGHAND", "IRONTAIL", "LASTRESORT", "MAGICCOAT", "MUDSLAP", "PAINSPLIT", "ROLLOUT", "SHOCKWAVE", "SNORE", "SPITE", "STEALTHROCK", "STOMPINGTANTRUM", "WATERPULSE", "ZENHEADBUTT", "TERRAINPULSE", "DUALWINGBEAT", "SKITTERSMACK", "SCALESHOT", "MIMIC", "POISONTAIL"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5355
+height = 1.5
+weight = 14.0
+colour = "Yellow"
+kind = "Land Snake"
+pokedex_entry = "Its drill-tipped tail is used to burrow into the ground backwards. This Pokémon is known to make its nest in complex shapes deep under the ground."
+battler_player_y = 34
+battler_enemy_y = 30
+battler_altitude = 0
+form_names = []
+internal_name = "DUNSPARCE"
+raw_hidden_ability = "RATTLED"
+habitat = "Cave"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "RAGE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DEFENSECURL"
+
+[[raw_level_up_moves]]
+at_level = "3"
+name = "ROLLOUT"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "SPITE"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "PURSUIT"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "SCREECH"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "MUDSLAP"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "YAWN"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "ANCIENTPOWER"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "BODYSLAM"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "DRILLRUN"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "ROOST"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "COIL"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "HYPERDRILL"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "DIG"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "GLARE"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "DOUBLEEDGE"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "ENDEAVOR"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "AIRSLASH"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "DRAGONRUSH"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "ENDURE"
+
+[[raw_level_up_moves]]
+at_level = "51"
+name = "FLAIL"
+
+[[evolutions]]
+into_name = "DUDUNSPARCE"
+condition = "HasMove"
+parameter = "HYPERDRILL"
+
+[base_stats]
+hp = 100
+atk = 70
+def_ = 70
+spa = 65
+spd = 65
+spe = 45
+
+[ev_yield]
+hp = 1
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

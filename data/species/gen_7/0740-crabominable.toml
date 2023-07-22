@@ -1,0 +1,113 @@
+name = "Crabominable"
+primary_type = "FIGHTING"
+secondary_type = "ICE"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 167
+catch_rate = 60
+caught_happiness = 70
+raw_abilities = ["HYPERCUTTER", "IRONFIST"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "TOXIC", "HAIL", "ROCKSMASH", "BULKUP", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "FOCUSBLAST", "SCALD", "FLING", "BRUTALSWING", "PAYBACK", "GIGAIMPACT", "STONEEDGE", "BULLDOZE", "FROSTBREATH", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "AVALANCHE", "CLOSECOMBAT", "AMNESIA", "REVERSAL", "ENDURE", "ICESPINNER", "SNOWSCAPE", "CHILLINGWATER"]
+raw_tutor_moves = ["BLOCK", "DRAINPUNCH", "DUALCHOP", "ENDEAVOR", "FOCUSPUNCH", "ICEPUNCH", "ICYWIND", "IRONDEFENSE", "IRONHEAD", "SNORE", "SUPERPOWER", "THUNDERPUNCH", "ZENHEADBUTT", "MOUNTAINGALE", "MIMIC"]
+compatible_egg_groups = ["Water3"]
+steps_to_hatch = 5120
+height = 1.7
+weight = 180.0
+colour = "White"
+kind = "Woolly Crab"
+pokedex_entry = "It just throws punches indiscriminately. In times of desperation, it can lop off its own pincers and fire them like rockets."
+battler_player_y = 15
+battler_enemy_y = 21
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "CRABOMINABLE"
+raw_hidden_ability = "ANGERPOINT"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "ICEPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BUBBLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ROCKSMASH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PURSUIT"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "ROCKSMASH"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "PURSUIT"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "BUBBLEBEAM"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "POWERUPPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "DIZZYPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "AVALANCHE"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "REVERSAL"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "ICEHAMMER"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "IRONDEFENSE"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "DYNAMICPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "CLOSECOMBAT"
+
+[base_stats]
+hp = 97
+atk = 132
+def_ = 77
+spa = 62
+spd = 67
+spe = 43
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "CHERIBERRY"

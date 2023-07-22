@@ -1,0 +1,100 @@
+name = "Bouffalant"
+primary_type = "NORMAL"
+secondary_type = "NORMAL"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 172
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["RECKLESS", "SAPSIPPER"]
+raw_egg_moves = ["AMNESIA", "BELCH", "COTTONGUARD", "HEADBUTT", "IRONHEAD", "MUDSHOT", "MUDSLAP", "ROCKCLIMB", "SKULLBASH", "STOMP"]
+raw_tms = ["WORKUP", "CUT", "SURF", "STRENGTH", "TOXIC", "ROCKSMASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "PROTECT", "RAINDANCE", "FRUSTRATION", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "PAYBACK", "SMARTSTRIKE", "GIGAIMPACT", "STONEEDGE", "SWORDSDANCE", "BULLDOZE", "ROCKSLIDE", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "CONFIDE", "SCARYFACE", "REVENGE", "MUDSHOT", "ASSURANCE", "MEGAHORN", "CLOSECOMBAT", "FOCUSENERGY", "AMNESIA", "REVERSAL", "ENDURE", "HIGHHORSEPOWER", "RETALIATE"]
+raw_tutor_moves = ["ENDEAVOR", "IRONHEAD", "OUTRAGE", "SNORE", "STOMPINGTANTRUM", "SUPERPOWER", "THROATCHOP", "UPROAR", "ZENHEADBUTT", "LASHOUT", "HEADLONGRUSH", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5120
+height = 1.6
+weight = 94.6
+colour = "Brown"
+kind = "Bash Buffalo"
+pokedex_entry = "They charge wildly and headbutt everything. Their headbutts have enough destructive force to derail a train."
+battler_player_y = 23
+battler_enemy_y = 23
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "BOUFFALANT"
+raw_hidden_ability = "SOUNDPROOF"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PURSUIT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "RAGE"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "FURYATTACK"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "HORNATTACK"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "SCARYFACE"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "REVENGE"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "HEADCHARGE"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "FOCUSENERGY"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "MEGAHORN"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "REVERSAL"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "THRASH"
+
+[[raw_level_up_moves]]
+at_level = "56"
+name = "SWORDSDANCE"
+
+[[raw_level_up_moves]]
+at_level = "61"
+name = "GIGAIMPACT"
+
+[base_stats]
+hp = 95
+atk = 110
+def_ = 95
+spa = 40
+spd = 95
+spe = 55
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

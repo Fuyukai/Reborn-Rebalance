@@ -1,0 +1,112 @@
+name = "Pawmo"
+primary_type = "ELECTRIC"
+secondary_type = "FIGHTING"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 119
+catch_rate = 80
+caught_happiness = 50
+raw_abilities = ["VOLTABSORB", "NATURALCURE"]
+raw_egg_moves = []
+raw_tms = ["STRENGTH", "TOXIC", "ROCKSMASH", "FLASH", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "RAINDANCE", "FRUSTRATION", "SMACKDOWN", "THUNDERBOLT", "THUNDER", "RETURN", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "THIEF", "LOWSWEEP", "FLING", "CHARGEBEAM", "BRUTALSWING", "VOLTSWITCH", "THUNDERWAVE", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "DIG", "CHARM", "REVENGE", "THUNDERFANG", "CRUNCH", "ELECTRICTERRAIN", "EERIEIMPULSE", "AGILITY", "ENDURE", "BATONPASS", "ENCORE", "ELECTROBALL", "PLAYROUGH", "SWIFT"]
+raw_tutor_moves = ["COVET", "DUALCHOP", "FOCUSPUNCH", "HELPINGHAND", "LOWKICK", "SHOCKWAVE", "THROATCHOP", "THUNDERPUNCH", "RISINGVOLTAGE", "COACHING"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 3855
+height = 0.4
+weight = 6.5
+colour = "Yellow"
+kind = "Mouse"
+pokedex_entry = "When its group is attacked, Pawmo is the first to leap into battle, defeating enemies with a fighting technique that utilizes electric shocks."
+battler_player_y = 12
+battler_enemy_y = 12
+battler_altitude = 0
+form_names = []
+internal_name = "PAWMO"
+raw_hidden_ability = "IRONFIST"
+
+[[raw_level_up_moves]]
+at_level = " 0"
+name = "ARMTHRUST"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SCRATCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "3"
+name = "THUNDERSHOCK"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "CHARGE"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "NUZZLE"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "DIG"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "SPARK"
+
+[[raw_level_up_moves]]
+at_level = "27"
+name = "THUNDERWAVE"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "SLAM"
+
+[[raw_level_up_moves]]
+at_level = "38"
+name = "ENTRAINMENT"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "DISCHARGE"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "52"
+name = "WILDCHARGE"
+
+[[evolutions]]
+into_name = "PAWMOT"
+condition = "Item"
+parameter = "THUNDERSTONE"
+
+[base_stats]
+hp = 60
+atk = 75
+def_ = 40
+spa = 50
+spd = 40
+spe = 85
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 2
+
+[wild_items]

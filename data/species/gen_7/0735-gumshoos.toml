@@ -1,0 +1,121 @@
+name = "Gumshoos"
+primary_type = "NORMAL"
+secondary_type = "NORMAL"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 146
+catch_rate = 127
+caught_happiness = 70
+raw_abilities = ["STAKEOUT", "STRONGJAW"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "ROAR", "TOXIC", "HIDDENPOWER", "TAUNT", "PROTECT", "FRUSTRATION", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "SANDSTORM", "ROCKTOMB", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "FLING", "PAYBACK", "BULLDOZE", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "SCARYFACE", "REVENGE", "THUNDERFANG", "ICEFANG", "FIREFANG", "CRUNCH", "ENDURE", "TRAILBLAZE", "CHILLINGWATER"]
+raw_tutor_moves = ["BLOCK", "DUALCHOP", "ENDEAVOR", "FIREPUNCH", "ICEPUNCH", "IRONHEAD", "IRONTAIL", "LASTRESORT", "SHOCKWAVE", "SNORE", "STOMPINGTANTRUM", "SUPERFANG", "THUNDERPUNCH", "UPROAR", "ZENHEADBUTT", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 3840
+height = 0.7
+weight = 14.2
+colour = "Brown"
+kind = "Stakeout"
+pokedex_entry = "When it finds a trace of its prey, it patiently stakes out the location, but it is always snoozing by nightfall."
+battler_player_y = 12
+battler_enemy_y = 17
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "GUMSHOOS"
+raw_hidden_ability = "ADAPTABILITY"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PURSUIT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SANDATTACK"
+
+[[raw_level_up_moves]]
+at_level = "3"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "PURSUIT"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "SANDATTACK"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "ODORSLEUTH"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "BIDE"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "MUDSLAP"
+
+[[raw_level_up_moves]]
+at_level = "27"
+name = "SUPERFANG"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "SCARYFACE"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "HYPERFANG"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "YAWN"
+
+[[raw_level_up_moves]]
+at_level = "51"
+name = "THRASH"
+
+[[raw_level_up_moves]]
+at_level = "55"
+name = "REST"
+
+[base_stats]
+hp = 88
+atk = 110
+def_ = 60
+spa = 55
+spd = 60
+spe = 45
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "PECHABERRY"

@@ -1,0 +1,113 @@
+name = "Bronzor"
+primary_type = "STEEL"
+secondary_type = "PSYCHIC"
+gender_ratio = "Genderless"
+growth_rate = "Medium"
+exp_yield = 60
+catch_rate = 255
+caught_happiness = 70
+raw_abilities = ["LEVITATE", "HEATPROOF"]
+raw_egg_moves = []
+raw_tms = ["PSYSHOCK", "CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "EARTHQUAKE", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "SANDSTORM", "ROCKTOMB", "FACADE", "REST", "ROUND", "CHARGEBEAM", "PAYBACK", "ROCKPOLISH", "GYROBALL", "PSYCHUP", "BULLDOZE", "ROCKSLIDE", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "TRICKROOM", "SECRETPOWER", "CONFIDE", "IMPRISON", "POWERSWAP", "GUARDSWAP", "SPEEDSWAP", "HEX", "ENDURE", "FUTURESIGHT", "HEAVYSLAM", "ICESPINNER"]
+raw_tutor_moves = ["ALLYSWITCH", "ANCIENTPOWER", "GRAVITY", "IRONDEFENSE", "RECYCLE", "ROLLOUT", "SIGNALBEAM", "SKILLSWAP", "SNORE", "STEALTHROCK", "TELEKINESIS", "TRICK", "WONDERROOM", "EXPANDINGFORCE", "STEELROLLER", "STEELBEAM", "MIMIC"]
+compatible_egg_groups = ["Mineral"]
+steps_to_hatch = 5355
+height = 0.5
+weight = 60.5
+colour = "Green"
+kind = "Bronze"
+pokedex_entry = "Implements shaped like it were discovered in ancient tombs. It is unknown if they are related."
+battler_player_y = 30
+battler_enemy_y = 23
+battler_altitude = 13
+form_names = []
+internal_name = "BRONZOR"
+raw_hidden_ability = "HEAVYMETAL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CONFUSION"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "HYPNOSIS"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "IMPRISON"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "CONFUSERAY"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "PSYWAVE"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "IRONDEFENSE"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "FEINTATTACK"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "SAFEGUARD"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "FUTURESIGHT"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "METALSOUND"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "GYROBALL"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "EXTRASENSORY"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "PAYBACK"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "HEALBLOCK"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "HEAVYSLAM"
+
+[[evolutions]]
+into_name = "BRONZONG"
+condition = "Level"
+parameter = "33"
+
+[base_stats]
+hp = 57
+atk = 24
+def_ = 86
+spa = 24
+spd = 86
+spe = 23
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 1
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "METALCOAT"

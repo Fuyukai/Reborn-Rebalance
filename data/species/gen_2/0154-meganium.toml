@@ -1,0 +1,120 @@
+name = "Meganium"
+primary_type = "GRASS"
+secondary_type = "GRASS"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+exp_yield = 236
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["OVERGROW", "LEAFGUARD"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "CUT", "STRENGTH", "TOXIC", "ROCKSMASH", "FLASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "REFLECT", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "ENERGYBALL", "GIGAIMPACT", "SWORDSDANCE", "BULLDOZE", "DRAGONTAIL", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "MAGICALLEAF", "SOLARBLADE", "BULLETSEED", "GRASSYTERRAIN", "BODYSLAM", "LEAFSTORM", "ENDURE", "POLLENPUFF"]
+raw_tutor_moves = ["ANCIENTPOWER", "FRENZYPLANT", "FURYCUTTER", "GIGADRAIN", "GRASSPLEDGE", "HEADBUTT", "IRONTAIL", "LASERFOCUS", "MAGICCOAT", "MUDSLAP", "OUTRAGE", "SEEDBOMB", "SNORE", "STOMPINGTANTRUM", "SYNTHESIS", "WORRYSEED", "MIMIC"]
+compatible_egg_groups = ["Monster", "Grass"]
+steps_to_hatch = 5355
+height = 1.8
+weight = 100.5
+colour = "Green"
+kind = "Herb"
+pokedex_entry = "The fragrance of a Meganium's flower soothes and calms emotions. In battle, it gives off more of its becalming scent to blunt the foe's fighting spirit."
+battler_player_y = 11
+battler_enemy_y = 4
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "MEGANIUM"
+habitat = "Grassland"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "PETALDANCE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PETALBLIZZARD"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "RAZORLEAF"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POISONPOWDER"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "RAZORLEAF"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "POISONPOWDER"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "SYNTHESIS"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "REFLECT"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "MAGICALLEAF"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "NATURALGIFT"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "SWEETSCENT"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "LIGHTSCREEN"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "BODYSLAM"
+
+[[raw_level_up_moves]]
+at_level = "54"
+name = "SAFEGUARD"
+
+[[raw_level_up_moves]]
+at_level = "60"
+name = "AROMATHERAPY"
+
+[[raw_level_up_moves]]
+at_level = "66"
+name = "SOLARBEAM"
+
+[[raw_level_up_moves]]
+at_level = "70"
+name = "PETALBLIZZARD"
+
+[base_stats]
+hp = 80
+atk = 82
+def_ = 100
+spa = 83
+spd = 100
+spe = 80
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 1
+spa = 0
+spd = 2
+spe = 0
+
+[wild_items]

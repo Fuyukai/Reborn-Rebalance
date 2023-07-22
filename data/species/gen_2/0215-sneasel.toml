@@ -1,0 +1,119 @@
+name = "Sneasel"
+primary_type = "DARK"
+secondary_type = "ICE"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 86
+catch_rate = 60
+caught_happiness = 35
+raw_abilities = ["INNERFOCUS", "SHARPNESS"]
+raw_egg_moves = ["ASSIST", "AVALANCHE", "BITE", "COUNTER", "CRUSHCLAW", "DOUBLEHIT", "FAKEOUT", "FEINT", "FORESIGHT", "ICEPUNCH", "ICESHARD", "ICICLECRASH", "PUNISHMENT", "PURSUIT", "SPITE", "THROATCHOP"]
+raw_tms = ["CUT", "SURF", "CALMMIND", "STRENGTH", "TOXIC", "HAIL", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "LOWSWEEP", "ROUND", "FALSESWIPE", "FLING", "EMBARGO", "SHADOWCLAW", "PAYBACK", "SWORDSDANCE", "PSYCHUP", "XSCISSOR", "POISONJAB", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "SNARL", "DARKPULSE", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "SCREECH", "WHIRLPOOL", "BEATUP", "FAKETEARS", "AVALANCHE", "PSYCHOCUT", "AGILITY", "ENDURE", "RETALIATE", "SNOWSCAPE", "TRAILBLAZE", "SWIFT"]
+raw_tutor_moves = ["FOCUSPUNCH", "FOULPLAY", "FURYCUTTER", "HEADBUTT", "ICEPUNCH", "ICYWIND", "IRONTAIL", "KNOCKOFF", "LASERFOCUS", "LOWKICK", "MUDSLAP", "SNATCH", "SNORE", "SPITE", "THROATCHOP", "TRIPLEAXEL", "LASHOUT", "MIMIC", "POISONTAIL"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5355
+height = 0.9
+weight = 28.0
+colour = "Black"
+kind = "Sharp Claw"
+pokedex_entry = "A Sneasel scales trees by punching its hooked claws into the bark. It seeks out unguarded nests and steals eggs for food while the parents are away."
+battler_player_y = 26
+battler_enemy_y = 18
+battler_altitude = 0
+form_names = []
+internal_name = "SNEASEL"
+raw_hidden_ability = "PICKPOCKET"
+habitat = "Forest"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SCRATCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TAUNT"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "FEINTATTACK"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "ICYWIND"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "FURYSWIPES"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "METALCLAW"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "HONECLAWS"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "BEATUP"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "SCREECH"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "SLASH"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "SNATCH"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "PUNISHMENT"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "ICESHARD"
+
+[[evolutions]]
+into_name = "WEAVILE"
+condition = "NightHoldItem"
+parameter = "RAZORCLAW"
+
+[[evolutions]]
+into_name = "SNEASLER"
+condition = "DayHoldItem"
+parameter = "RAZORCLAW"
+
+[base_stats]
+hp = 55
+atk = 95
+def_ = 55
+spa = 35
+spd = 75
+spe = 115
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 1
+
+[wild_items]
+uncommon = "QUICKCLAW"

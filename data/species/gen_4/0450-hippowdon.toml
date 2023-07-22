@@ -1,0 +1,108 @@
+name = "Hippowdon"
+primary_type = "GROUND"
+secondary_type = "GROUND"
+gender_ratio = "Female50Percent"
+growth_rate = "Slow"
+exp_yield = 184
+catch_rate = 60
+caught_happiness = 70
+raw_abilities = ["SANDSTREAM", "SANDFORCE"]
+raw_egg_moves = []
+raw_tms = ["STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "FRUSTRATION", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "SANDSTORM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "GIGAIMPACT", "STONEEDGE", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "REVENGE", "WEATHERBALL", "SANDTOMB", "MUDSHOT", "THUNDERFANG", "ICEFANG", "FIREFANG", "CRUNCH", "BODYSLAM", "AMNESIA", "ENDURE", "MUDDYWATER", "HEAVYSLAM", "HIGHHORSEPOWER", "BODYPRESS"]
+raw_tutor_moves = ["EARTHPOWER", "HEADBUTT", "IRONHEAD", "IRONTAIL", "MUDSLAP", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "SUPERPOWER", "WATERPULSE", "SCORCHINGSANDS", "HEADLONGRUSH", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 7905
+height = 2.0
+weight = 300.0
+colour = "Brown"
+kind = "Heavyweight"
+pokedex_entry = "It blasts internally stored sand from ports on its body to create a towering twister for attack."
+battler_player_y = 14
+battler_enemy_y = 21
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "HIPPOWDON"
+raw_hidden_ability = "EARTHEATER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ICEFANG"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FIREFANG"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "THUNDERFANG"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SANDATTACK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "YAWN"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "YAWN"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "DIG"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "SANDTOMB"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "EARTHQUAKE"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "DOUBLEEDGE"
+
+[[raw_level_up_moves]]
+at_level = "60"
+name = "FISSURE"
+
+[base_stats]
+hp = 108
+atk = 112
+def_ = 118
+spa = 68
+spd = 72
+spe = 47
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 2
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

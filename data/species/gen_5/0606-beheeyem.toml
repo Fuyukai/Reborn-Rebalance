@@ -1,0 +1,144 @@
+name = "Beheeyem"
+primary_type = "PSYCHIC"
+secondary_type = "PSYCHIC"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 170
+catch_rate = 90
+caught_happiness = 70
+raw_abilities = ["TELEPATHY", "SYNCHRONIZE"]
+raw_egg_moves = []
+raw_tms = ["PSYSHOCK", "CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "THUNDERBOLT", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "STEELWING", "ENERGYBALL", "CHARGEBEAM", "EMBARGO", "GIGAIMPACT", "THUNDERWAVE", "PSYCHUP", "ROCKSLIDE", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "TRICKROOM", "SECRETPOWER", "DARKPULSE", "CONFIDE", "SCREECH", "IMPRISON", "POWERSWAP", "GUARDSWAP", "PSYCHICTERRAIN", "AGILITY", "TRIATTACK", "ENDURE", "FUTURESIGHT", "COSMICPOWER", "NASTYPLOT", "STOREDPOWER"]
+raw_tutor_moves = ["AFTERYOU", "ALLYSWITCH", "GRAVITY", "MAGICCOAT", "PAINSPLIT", "RECYCLE", "ROLEPLAY", "SHOCKWAVE", "SIGNALBEAM", "SKILLSWAP", "SNATCH", "SNORE", "TELEKINESIS", "TRICK", "UPROAR", "WONDERROOM", "ZENHEADBUTT", "METEORBEAM", "EXPANDINGFORCE", "MYSTICALPOWER", "MIMIC"]
+compatible_egg_groups = ["Humanlike"]
+steps_to_hatch = 5120
+height = 1.0
+weight = 34.5
+colour = "Brown"
+kind = "Cerebral"
+pokedex_entry = "It uses psychic power to control an opponent's brain and tamper with its memories."
+battler_player_y = 18
+battler_enemy_y = 11
+battler_altitude = 10
+evolutions = []
+form_names = []
+internal_name = "BEHEEYEM"
+raw_hidden_ability = "ANALYTIC"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LUMINACRASH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PSYCHICTERRAIN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WONDERROOM"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SYNCHRONOISE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CONFUSION"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HEALBLOCK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MIRACLEEYE"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "HEALBLOCK"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "MIRACLEEYE"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "PSYBEAM"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "HEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "HIDDENPOWER"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "IMPRISON"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "SIMPLEBEAM"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "ZENHEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "PSYCHUP"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "PSYCHIC"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "CALMMIND"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "RECOVER"
+
+[[raw_level_up_moves]]
+at_level = "56"
+name = "GUARDSPLIT"
+
+[[raw_level_up_moves]]
+at_level = "58"
+name = "POWERSPLIT"
+
+[[raw_level_up_moves]]
+at_level = "63"
+name = "SYNCHRONOISE"
+
+[[raw_level_up_moves]]
+at_level = "68"
+name = "WONDERROOM"
+
+[base_stats]
+hp = 75
+atk = 75
+def_ = 75
+spa = 125
+spd = 95
+spe = 40
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 2
+spd = 0
+spe = 0
+
+[wild_items]

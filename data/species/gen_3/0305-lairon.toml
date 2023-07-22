@@ -1,0 +1,130 @@
+name = "Lairon"
+primary_type = "STEEL"
+secondary_type = "ROCK"
+gender_ratio = "Female50Percent"
+growth_rate = "Slow"
+exp_yield = 151
+catch_rate = 90
+caught_happiness = 35
+raw_abilities = ["STURDY", "ROCKHEAD"]
+raw_egg_moves = []
+raw_tms = ["CUT", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "RAINDANCE", "FRUSTRATION", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "SANDSTORM", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "SHADOWCLAW", "ROCKPOLISH", "STONEEDGE", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "SCREECH", "SANDTOMB", "ROCKBLAST", "BODYSLAM", "REVERSAL", "ENDURE", "HEAVYSLAM", "BODYPRESS"]
+raw_tutor_moves = ["ANCIENTPOWER", "EARTHPOWER", "ENDEAVOR", "FURYCUTTER", "HEADBUTT", "IRONDEFENSE", "IRONHEAD", "IRONTAIL", "MAGNETRISE", "MUDSLAP", "ROLLOUT", "SHOCKWAVE", "SNORE", "SPITE", "STEALTHROCK", "STOMPINGTANTRUM", "SUPERPOWER", "UPROAR", "WATERPULSE", "STEELROLLER", "STEELBEAM", "HEADLONGRUSH", "MIMIC"]
+compatible_egg_groups = ["Monster"]
+steps_to_hatch = 9180
+height = 0.9
+weight = 120.0
+colour = "Gray"
+kind = "Iron Armor"
+pokedex_entry = "When two Lairon meet in the wild, they fight for territory by bashing into each other. The sound of their collision carries for miles."
+battler_player_y = 24
+battler_enemy_y = 20
+battler_altitude = 0
+form_names = []
+internal_name = "LAIRON"
+raw_hidden_ability = "HEAVYMETAL"
+habitat = "Mountain"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HARDEN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MUDSLAP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "MUDSLAP"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "HEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "METALCLAW"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "ROCKTOMB"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "PROTECT"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "ROAR"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "IRONHEAD"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "ROCKSLIDE"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "METALSOUND"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "IRONTAIL"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "IRONDEFENSE"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "DOUBLEEDGE"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "AUTOTOMIZE"
+
+[[raw_level_up_moves]]
+at_level = "51"
+name = "HEAVYSLAM"
+
+[[raw_level_up_moves]]
+at_level = "55"
+name = "METALBURST"
+
+[[evolutions]]
+into_name = "AGGRON"
+condition = "Level"
+parameter = "42"
+
+[base_stats]
+hp = 60
+atk = 90
+def_ = 140
+spa = 50
+spd = 50
+spe = 40
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 2
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "HARDSTONE"

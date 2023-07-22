@@ -1,0 +1,122 @@
+name = "Muk"
+primary_type = "POISON"
+secondary_type = "POISON"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 175
+catch_rate = 75
+caught_happiness = 70
+raw_abilities = ["STENCH", "STICKYHOLD"]
+raw_egg_moves = []
+raw_tms = ["STRENGTH", "TOXIC", "ROCKSMASH", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "SLUDGEWAVE", "FLAMETHROWER", "SLUDGEBOMB", "FIREBLAST", "ROCKTOMB", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "FOCUSBLAST", "FLING", "BRUTALSWING", "QUASH", "EMBARGO", "EXPLOSION", "PAYBACK", "GIGAIMPACT", "ROCKPOLISH", "STONEEDGE", "ROCKSLIDE", "INFESTATION", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "SNARL", "DARKPULSE", "POWERUPPUNCH", "CONFIDE", "DIG", "SCREECH", "SELFDESTRUCT", "SCARYFACE", "IMPRISON", "MUDSHOT", "ASSURANCE", "CRUNCH", "BODYSLAM", "ENDURE", "VENOMDRENCH"]
+raw_tutor_moves = ["BLOCK", "FIREPUNCH", "FOCUSPUNCH", "FOULPLAY", "GASTROACID", "GIGADRAIN", "GUNKSHOT", "HELPINGHAND", "ICEPUNCH", "KNOCKOFF", "MUDSLAP", "PAINSPLIT", "RECYCLE", "SHOCKWAVE", "SNORE", "SPITE", "THUNDERPUNCH", "MIMIC"]
+compatible_egg_groups = ["Amorphous"]
+steps_to_hatch = 5355
+height = 1.2
+weight = 30.0
+colour = "Purple"
+kind = "Sludge"
+pokedex_entry = "It prefers warm and humid habitats. In the summertime, the toxic substances in its body intensify, making Muk reek like putrid kitchen garbage."
+battler_player_y = 19
+battler_enemy_y = 15
+battler_altitude = 0
+evolutions = []
+form_names = ["Normal", "Alternate"]
+internal_name = "MUK"
+raw_hidden_ability = "POISONTOUCH"
+habitat = "Urban"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "VENOMDRENCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POISONGAS"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POUND"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HARDEN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MUDSLAP"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "HARDEN"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "MUDSLAP"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "DISABLE"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "SLUDGE"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "MUDBOMB"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "MINIMIZE"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "FLING"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "SLUDGEBOMB"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "SLUDGEWAVE"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "SCREECH"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "GUNKSHOT"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "ACIDARMOR"
+
+[[raw_level_up_moves]]
+at_level = "52"
+name = "BELCH"
+
+[[raw_level_up_moves]]
+at_level = "57"
+name = "MEMENTO"
+
+[base_stats]
+hp = 105
+atk = 105
+def_ = 75
+spa = 65
+spd = 100
+spe = 50
+
+[ev_yield]
+hp = 1
+atk = 1
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "BLACKSLUDGE"

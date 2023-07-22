@@ -1,0 +1,125 @@
+name = "Kingler"
+primary_type = "WATER"
+secondary_type = "WATER"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 166
+catch_rate = 60
+caught_happiness = 70
+raw_abilities = ["HYPERCUTTER", "ANGERSHELL"]
+raw_egg_moves = []
+raw_tms = ["CUT", "SURF", "STRENGTH", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "BRICKBREAK", "DOUBLETEAM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "FALSESWIPE", "SCALD", "FLING", "BRUTALSWING", "QUASH", "GIGAIMPACT", "SWORDSDANCE", "ROCKSLIDE", "XSCISSOR", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "WHIRLPOOL", "MUDSHOT", "BRINE", "RAZORSHELL", "BODYSLAM", "HYDROPUMP", "AGILITY", "AMNESIA", "ENDURE", "HIGHHORSEPOWER"]
+raw_tutor_moves = ["ALLYSWITCH", "ANCIENTPOWER", "FURYCUTTER", "ICYWIND", "IRONDEFENSE", "KNOCKOFF", "LIQUIDATION", "MUDSLAP", "SNORE", "STOMPINGTANTRUM", "SUPERPOWER", "WATERPULSE", "MIMIC"]
+compatible_egg_groups = ["Water3"]
+steps_to_hatch = 5355
+height = 1.3
+weight = 60.0
+colour = "Red"
+kind = "Pincer"
+pokedex_entry = "It waves its huge, oversized claw in the air to communicate with others. But since the claw is so heavy, this Pokémon quickly tires."
+battler_player_y = 18
+battler_enemy_y = 14
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "KINGLER"
+raw_hidden_ability = "SHEERFORCE"
+habitat = "WatersEdge"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HAMMERARM"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WIDEGUARD"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MUDSPORT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BUBBLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "VICEGRIP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "VICEGRIP"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "HARDEN"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "BUBBLEBEAM"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "MUDSHOT"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "METALCLAW"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "STOMP"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "PROTECT"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "RAZORSHELL"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "SLAM"
+
+[[raw_level_up_moves]]
+at_level = "51"
+name = "BRINE"
+
+[[raw_level_up_moves]]
+at_level = "56"
+name = "CRABHAMMER"
+
+[[raw_level_up_moves]]
+at_level = "63"
+name = "FLAIL"
+
+[[raw_level_up_moves]]
+at_level = "65"
+name = "GUILLOTINE"
+
+[base_stats]
+hp = 55
+atk = 130
+def_ = 115
+spa = 50
+spd = 50
+spe = 75
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

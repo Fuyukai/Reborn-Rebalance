@@ -1,0 +1,141 @@
+name = "Hitmonlee"
+primary_type = "FIGHTING"
+secondary_type = "FIGHTING"
+gender_ratio = "AlwaysMale"
+growth_rate = "Medium"
+exp_yield = 159
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["LIMBER", "RECKLESS"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "STRENGTH", "TOXIC", "ROCKSMASH", "BULKUP", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "RAINDANCE", "FRUSTRATION", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "THIEF", "LOWSWEEP", "ROUND", "FOCUSBLAST", "FLING", "STONEEDGE", "BULLDOZE", "ROCKSLIDE", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "REVENGE", "BODYSLAM", "POWERWHIP", "CLOSECOMBAT", "FOCUSENERGY", "METRONOME", "REVERSAL", "ENDURE", "BLAZEKICK", "AURASPHERE", "RETALIATE", "SWIFT"]
+raw_tutor_moves = ["BOUNCE", "COVET", "FOCUSPUNCH", "HEADBUTT", "HELPINGHAND", "KNOCKOFF", "LASERFOCUS", "LOWKICK", "MUDSLAP", "ROLEPLAY", "SNORE", "STOMPINGTANTRUM", "SUCKERPUNCH", "SUPERPOWER", "THROATCHOP", "UPROAR", "VACUUMWAVE", "COACHING", "MIMIC"]
+compatible_egg_groups = ["Humanlike"]
+steps_to_hatch = 6630
+height = 1.5
+weight = 49.8
+colour = "Brown"
+kind = "Kicking"
+pokedex_entry = "Its legs freely stretch and contract. Using these springlike limbs, it bowls over foes with devastating kicks. After battle, it rubs down its tired legs."
+battler_player_y = 15
+battler_enemy_y = 14
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "HITMONLEE"
+raw_hidden_ability = "UNBURDEN"
+habitat = "Urban"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "DOUBLEKICK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ENDURE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "REVERSAL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CLOSECOMBAT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MEGAKICK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "REVENGE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MEDITATE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ROLLINGKICK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "JUMPKICK"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "MEDITATE"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "ROLLINGKICK"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "JUMPKICK"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "BRICKBREAK"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "FOCUSENERGY"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "FEINT"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "HIJUMPKICK"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "MINDREADER"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "FORESIGHT"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "WIDEGUARD"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "BLAZEKICK"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "AXEKICK"
+
+[[raw_level_up_moves]]
+at_level = "53"
+name = "MEGAKICK"
+
+[[raw_level_up_moves]]
+at_level = "57"
+name = "CLOSECOMBAT"
+
+[[raw_level_up_moves]]
+at_level = "61"
+name = "REVERSAL"
+
+[base_stats]
+hp = 50
+atk = 120
+def_ = 53
+spa = 35
+spd = 110
+spe = 87
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

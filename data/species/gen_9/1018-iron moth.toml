@@ -1,0 +1,115 @@
+name = "Iron Moth"
+primary_type = "FIRE"
+secondary_type = "POISON"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 248
+catch_rate = 50
+caught_happiness = 0
+raw_abilities = ["QUARKDRIVE"]
+raw_egg_moves = []
+raw_tms = ["TOXIC", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "ROOST", "FRUSTRATION", "SOLARBEAM", "RETURN", "LEECHLIFE", "PSYCHIC", "DOUBLETEAM", "SLUDGEWAVE", "FLAMETHROWER", "SLUDGEBOMB", "FACADE", "FLAMECHARGE", "REST", "ROUND", "ECHOEDVOICE", "OVERHEAT", "FOCUSBLAST", "FLING", "QUASH", "SMARTSTRIKE", "SWORDSDANCE", "STRUGGLEBUG", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "SOLARBLADE", "MISTYTERRAIN", "EERIEIMPULSE", "HYDROPUMP", "CLOSECOMBAT", "SPIKES", "TOXICSPIKES", "AURASPHERE", "HEATCRASH"]
+raw_tutor_moves = ["HEATWAVE", "SUPERPOWER", "CORROSIVEGAS", "MIMIC"]
+compatible_egg_groups = ["Undiscovered"]
+steps_to_hatch = 12800
+height = 1.2
+weight = 36.0
+colour = "Yellow"
+kind = "Paradox"
+pokedex_entry = "This Pokémon resembles an unknown object described in a paranormal magazine as a UFO sent to observe humanity."
+battler_player_y = 15
+battler_enemy_y = 20
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "IRONMOTH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GUST"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WHIRLWIND"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ELECTRICTERRAIN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "EMBER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ACIDSPRAY"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "STRUGGLEBUG"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "FIRESPIN"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "LUNGE"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "SCREECH"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "DISCHARGE"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "SLUDGEWAVE"
+
+[[raw_level_up_moves]]
+at_level = "56"
+name = "FIERYDANCE"
+
+[[raw_level_up_moves]]
+at_level = "63"
+name = "METALSOUND"
+
+[[raw_level_up_moves]]
+at_level = "70"
+name = "MORNINGSUN"
+
+[[raw_level_up_moves]]
+at_level = "77"
+name = "HURRICANE"
+
+[[raw_level_up_moves]]
+at_level = "84"
+name = "BUGBUZZ"
+
+[[raw_level_up_moves]]
+at_level = "91"
+name = "OVERHEAT"
+
+[base_stats]
+hp = 80
+atk = 70
+def_ = 60
+spa = 140
+spd = 110
+spe = 110
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 3
+spd = 0
+spe = 0
+
+[wild_items]

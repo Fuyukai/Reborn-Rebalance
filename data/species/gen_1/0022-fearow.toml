@@ -1,0 +1,113 @@
+name = "Fearow"
+primary_type = "NORMAL"
+secondary_type = "FLYING"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 155
+catch_rate = 90
+caught_happiness = 70
+raw_abilities = ["KEENEYE", "SNIPER"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "FLY", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "FRUSTRATION", "RETURN", "DOUBLETEAM", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "STEELWING", "FALSESWIPE", "GIGAIMPACT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "PAYDAY", "SCARYFACE", "ASSURANCE", "BRAVEBIRD", "AGILITY", "FOCUSENERGY", "TRIATTACK", "ENDURE", "BATONPASS", "SWIFT"]
+raw_tutor_moves = ["AIRCUTTER", "DEFOG", "DRILLRUN", "HEATWAVE", "LASERFOCUS", "MUDSLAP", "OMINOUSWIND", "SKYATTACK", "SNORE", "TAILWIND", "THROATCHOP", "TWISTER", "UPROAR", "MIMIC"]
+compatible_egg_groups = ["Flying"]
+steps_to_hatch = 4080
+height = 1.2
+weight = 38.0
+colour = "Brown"
+kind = "Beak"
+pokedex_entry = "Its long neck and elongated beak are ideal for catching prey in soil or water. It deftly moves this extended and skinny beak to pluck prey."
+battler_player_y = 9
+battler_enemy_y = 4
+battler_altitude = 8
+evolutions = []
+form_names = []
+internal_name = "FEAROW"
+habitat = "RoughTerrain"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DRILLRUN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PLUCK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PECK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PURSUIT"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "PURSUIT"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "FURYATTACK"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "AERIALACE"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "MIRRORMOVE"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "ASSURANCE"
+
+[[raw_level_up_moves]]
+at_level = "27"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "FOCUSENERGY"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "ROOST"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "DRILLPECK"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "DRILLRUN"
+
+[base_stats]
+hp = 65
+atk = 90
+def_ = 65
+spa = 61
+spd = 61
+spe = 100
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 2
+
+[wild_items]
+uncommon = "SHARPBEAK"

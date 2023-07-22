@@ -1,0 +1,103 @@
+name = "Bastiodon"
+primary_type = "ROCK"
+secondary_type = "STEEL"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Erratic"
+exp_yield = 173
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["STURDY", "SOUNDPROOF"]
+raw_egg_moves = []
+raw_tms = ["STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "SMACKDOWN", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "FLAMETHROWER", "SANDSTORM", "FIREBLAST", "ROCKTOMB", "TORMENT", "FACADE", "REST", "ATTRACT", "ROUND", "GIGAIMPACT", "ROCKPOLISH", "STONEEDGE", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "CONFIDE", "DIG", "SCREECH", "SCARYFACE", "ROCKBLAST", "AVALANCHE", "BODYSLAM", "FOCUSENERGY", "ENDURE", "HEAVYSLAM"]
+raw_tutor_moves = ["ANCIENTPOWER", "BLOCK", "EARTHPOWER", "HEADBUTT", "IRONDEFENSE", "IRONHEAD", "IRONTAIL", "MAGICCOAT", "MAGNETRISE", "MUDSLAP", "OUTRAGE", "SHOCKWAVE", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "METEORBEAM", "POWERSHIFT", "HEADLONGRUSH", "MIMIC"]
+compatible_egg_groups = ["Monster"]
+steps_to_hatch = 7905
+height = 1.3
+weight = 149.5
+colour = "Gray"
+kind = "Shield"
+pokedex_entry = "Any frontal attack is repulsed. It is a docile Pokémon that feeds on grass and berries."
+battler_player_y = 17
+battler_enemy_y = 14
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "BASTIODON"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "BLOCK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PROTECT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TAUNT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "METALSOUND"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "TAUNT"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "METALSOUND"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "IRONDEFENSE"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "SWAGGER"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "ANCIENTPOWER"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "ENDURE"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "METALBURST"
+
+[[raw_level_up_moves]]
+at_level = "51"
+name = "IRONHEAD"
+
+[[raw_level_up_moves]]
+at_level = "58"
+name = "HEAVYSLAM"
+
+[base_stats]
+hp = 60
+atk = 52
+def_ = 168
+spa = 47
+spd = 138
+spe = 30
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 2
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

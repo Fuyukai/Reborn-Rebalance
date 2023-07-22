@@ -1,0 +1,125 @@
+name = "Piloswine"
+primary_type = "ICE"
+secondary_type = "GROUND"
+gender_ratio = "Female50Percent"
+growth_rate = "Slow"
+exp_yield = 158
+catch_rate = 75
+caught_happiness = 70
+raw_abilities = ["OBLIVIOUS", "SNOWCLOAK"]
+raw_egg_moves = []
+raw_tms = ["STRENGTH", "ROAR", "TOXIC", "HAIL", "ROCKSMASH", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "REFLECT", "SANDSTORM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "GIGAIMPACT", "STONEEDGE", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "SCARYFACE", "SANDTOMB", "ICICLESPEAR", "MUDSHOT", "AVALANCHE", "ICEFANG", "BODYSLAM", "AMNESIA", "ENDURE", "HIGHHORSEPOWER"]
+raw_tutor_moves = ["ANCIENTPOWER", "EARTHPOWER", "ENDEAVOR", "HEADBUTT", "ICYWIND", "MUDSLAP", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "SUPERPOWER", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5355
+height = 1.1
+weight = 55.8
+colour = "Brown"
+kind = "Swine"
+pokedex_entry = "A Piloswine is covered by a thick coat of long hair for enduring freezing cold. It uses its tusks to dig up food that has been buried under ice."
+battler_player_y = 17
+battler_enemy_y = 15
+battler_altitude = 0
+form_names = []
+internal_name = "PILOSWINE"
+raw_hidden_ability = "THICKFAT"
+habitat = "Cave"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "FURYATTACK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ANCIENTPOWER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PECK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ODORSLEUTH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MUDSPORT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POWDERSNOW"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "MUDSPORT"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "POWDERSNOW"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "MUDSLAP"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "ENDURE"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "MUDBOMB"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "ICYWIND"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "ICEFANG"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "MIST"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "THRASH"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "EARTHQUAKE"
+
+[[raw_level_up_moves]]
+at_level = "52"
+name = "BLIZZARD"
+
+[[raw_level_up_moves]]
+at_level = "58"
+name = "AMNESIA"
+
+[[evolutions]]
+into_name = "MAMOSWINE"
+condition = "HasMove"
+parameter = "ANCIENTPOWER"
+
+[base_stats]
+hp = 100
+atk = 100
+def_ = 80
+spa = 60
+spd = 60
+spe = 50
+
+[ev_yield]
+hp = 1
+atk = 1
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

@@ -1,0 +1,116 @@
+name = "Zebstrika"
+primary_type = "ELECTRIC"
+secondary_type = "ELECTRIC"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 174
+catch_rate = 75
+caught_happiness = 70
+raw_abilities = ["LIGHTNINGROD", "MOTORDRIVE"]
+raw_egg_moves = []
+raw_tms = ["TOXIC", "ROCKSMASH", "FLASH", "HIDDENPOWER", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "DOUBLETEAM", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "ROUND", "OVERHEAT", "CHARGEBEAM", "GIGAIMPACT", "VOLTSWITCH", "THUNDERWAVE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "CONFIDE", "SCREECH", "AGILITY", "ENDURE"]
+raw_tutor_moves = ["ALLYSWITCH", "BOUNCE", "LASERFOCUS", "LOWKICK", "MAGNETRISE", "SHOCKWAVE", "SIGNALBEAM", "SNATCH", "SNORE", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5120
+height = 1.6
+weight = 79.5
+colour = "Black"
+kind = "Thunderbolt"
+pokedex_entry = "When this ill-tempered Pokémon runs wild, it shoots lightning from its mane in all directions."
+battler_player_y = 16
+battler_enemy_y = 20
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "ZEBSTRIKA"
+raw_hidden_ability = "SAPSIPPER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "IONDELUGE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TAILWHIP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CHARGE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "THUNDERWAVE"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "TAILWHIP"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "CHARGE"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "SHOCKWAVE"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "THUNDERWAVE"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "FLAMECHARGE"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "PURSUIT"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "SPARK"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "STOMP"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "DISCHARGE"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "WILDCHARGE"
+
+[[raw_level_up_moves]]
+at_level = "53"
+name = "THRASH"
+
+[[raw_level_up_moves]]
+at_level = "58"
+name = "IONDELUGE"
+
+[base_stats]
+hp = 75
+atk = 100
+def_ = 63
+spa = 80
+spd = 63
+spe = 116
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 2
+
+[wild_items]

@@ -1,0 +1,103 @@
+name = "Staraptor"
+primary_type = "NORMAL"
+secondary_type = "FLYING"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 214
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["INTIMIDATE", "RECKLESS"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "FLY", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "FRUSTRATION", "RETURN", "DOUBLETEAM", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "STEELWING", "GIGAIMPACT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "REVENGE", "CLOSECOMBAT", "BRAVEBIRD", "AGILITY", "ENDURE", "RETALIATE", "SWIFT"]
+raw_tutor_moves = ["AIRCUTTER", "DEFOG", "ENDEAVOR", "HEATWAVE", "LASERFOCUS", "MUDSLAP", "OMINOUSWIND", "SKYATTACK", "SNORE", "TAILWIND", "TWISTER", "UPROAR", "DUALWINGBEAT", "MIMIC"]
+compatible_egg_groups = ["Flying"]
+steps_to_hatch = 4080
+height = 1.2
+weight = 24.9
+colour = "Brown"
+kind = "Predator"
+pokedex_entry = "It has a savage nature. It will courageously challenge foes that are much larger."
+battler_player_y = 18
+battler_enemy_y = 10
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "STARAPTOR"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "CLOSECOMBAT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WINGATTACK"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "WINGATTACK"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "DOUBLETEAM"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "ENDEAVOR"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "WHIRLWIND"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "AERIALACE"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "BRAVEBIRD"
+
+[[raw_level_up_moves]]
+at_level = "57"
+name = "FINALGAMBIT"
+
+[base_stats]
+hp = 85
+atk = 120
+def_ = 70
+spa = 50
+spd = 60
+spe = 100
+
+[ev_yield]
+hp = 0
+atk = 3
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

@@ -1,0 +1,104 @@
+name = "Abomasnow"
+primary_type = "GRASS"
+secondary_type = "ICE"
+gender_ratio = "Female50Percent"
+growth_rate = "Slow"
+exp_yield = 173
+catch_rate = 60
+caught_happiness = 70
+raw_abilities = ["SNOWWARNING", "SOUNDPROOF"]
+raw_egg_moves = []
+raw_tms = ["STRENGTH", "TOXIC", "HAIL", "ROCKSMASH", "FLASH", "ROCKCLIMB", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "EARTHQUAKE", "RETURN", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "FOCUSBLAST", "ENERGYBALL", "FLING", "GIGAIMPACT", "AURORAVEIL", "SWORDSDANCE", "BULLDOZE", "FROSTBREATH", "ROCKSLIDE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "MAGICALLEAF", "WEATHERBALL", "BULLETSEED", "ICICLESPEAR", "AVALANCHE", "LEAFSTORM", "ENDURE", "ICESPINNER", "SNOWSCAPE", "TRAILBLAZE", "CHILLINGWATER"]
+raw_tutor_moves = ["BLOCK", "EARTHPOWER", "FOCUSPUNCH", "GIGADRAIN", "HEADBUTT", "ICEPUNCH", "ICYWIND", "IRONTAIL", "MUDSLAP", "OUTRAGE", "ROLEPLAY", "SEEDBOMB", "SNORE", "STOMPINGTANTRUM", "SYNTHESIS", "WATERPULSE", "WORRYSEED", "GRASSYGLIDE", "MIMIC"]
+compatible_egg_groups = ["Monster", "Grass"]
+steps_to_hatch = 5355
+height = 2.2
+weight = 135.5
+colour = "White"
+kind = "Frost Tree"
+pokedex_entry = "It whips up blizzards in mountains that are always buried in snow. It is the abominable snowman."
+battler_player_y = 14
+battler_enemy_y = 7
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "ABOMASNOW"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ICEPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POWDERSNOW"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "RAZORLEAF"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ICYWIND"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "RAZORLEAF"
+
+[[raw_level_up_moves]]
+at_level = "9"
+name = "ICYWIND"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "GRASSWHISTLE"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "SWAGGER"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "MIST"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "ICESHARD"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "INGRAIN"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "WOODHAMMER"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "BLIZZARD"
+
+[[raw_level_up_moves]]
+at_level = "58"
+name = "SHEERCOLD"
+
+[base_stats]
+hp = 90
+atk = 92
+def_ = 75
+spa = 92
+spd = 85
+spe = 60
+
+[ev_yield]
+hp = 0
+atk = 1
+def_ = 0
+spa = 1
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "NEVERMELTICE"

@@ -1,0 +1,117 @@
+name = "Ursaluna"
+primary_type = "GROUND"
+secondary_type = "NORMAL"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 175
+catch_rate = 60
+caught_happiness = 50
+raw_abilities = ["GUTS", "BULLETPROOF"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "CUT", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "BULKUP", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "SMACKDOWN", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "ROCKTOMB", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "FOCUSBLAST", "FLING", "SHADOWCLAW", "PAYBACK", "GIGAIMPACT", "STONEEDGE", "SWORDSDANCE", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "SCARYFACE", "CHARM", "FAKETEARS", "AVALANCHE", "CRUNCH", "BODYSLAM", "CLOSECOMBAT", "FOCUSENERGY", "METRONOME", "ENDURE", "PLAYROUGH", "RETALIATE", "TRAILBLAZE", "SWIFT"]
+raw_tutor_moves = ["COVET", "EARTHPOWER", "FIREPUNCH", "FOCUSPUNCH", "FURYCUTTER", "GUNKSHOT", "HEADBUTT", "HYPERVOICE", "ICEPUNCH", "LASERFOCUS", "LASTRESORT", "LOWKICK", "MUDSLAP", "ROLLOUT", "SEEDBOMB", "SNORE", "STOMPINGTANTRUM", "SUPERPOWER", "THROATCHOP", "THUNDERPUNCH", "UPROAR", "HEADLONGRUSH", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5355
+height = 1.8
+weight = 125.8
+colour = "Brown"
+kind = "Peat"
+pokedex_entry = "I believe it was Hisui's swampy terrain that gave Ursaluna its burly physique and newfound capacity to manipulate peat at will."
+battler_player_y = 13
+battler_enemy_y = 8
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "URSALUNA"
+raw_hidden_ability = "UNNERVE"
+habitat = "Mountain"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "HEADLONGRUSH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "COVET"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SCRATCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LICK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FAKETEARS"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "FURYSWIPES"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "PAYBACK"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "SWEETSCENT"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "SLASH"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "PLAYNICE"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "PLAYROUGH"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "SCARYFACE"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "REST"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "SNORE"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "HIGHHORSEPOWER"
+
+[[raw_level_up_moves]]
+at_level = "56"
+name = "THRASH"
+
+[[raw_level_up_moves]]
+at_level = "64"
+name = "HAMMERARM"
+
+[base_stats]
+hp = 130
+atk = 140
+def_ = 105
+spa = 45
+spd = 80
+spe = 50
+
+[ev_yield]
+hp = 0
+atk = 3
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

@@ -1,0 +1,114 @@
+name = "Grimer"
+primary_type = "POISON"
+secondary_type = "POISON"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 65
+catch_rate = 190
+caught_happiness = 70
+raw_abilities = ["STENCH", "STICKYHOLD"]
+raw_egg_moves = ["ACIDSPRAY", "CURSE", "HAZE", "IMPRISON", "LICK", "MEANLOOK", "POWERUPPUNCH", "SCARYFACE", "SHADOWPUNCH", "SHADOWSNEAK", "SPITUP", "STOCKPILE", "SWALLOW"]
+raw_tms = ["STRENGTH", "TOXIC", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "SHADOWBALL", "DOUBLETEAM", "SLUDGEWAVE", "FLAMETHROWER", "SLUDGEBOMB", "FIREBLAST", "ROCKTOMB", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "FLING", "BRUTALSWING", "QUASH", "EMBARGO", "EXPLOSION", "PAYBACK", "ROCKPOLISH", "STONEEDGE", "ROCKSLIDE", "INFESTATION", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "SNARL", "POWERUPPUNCH", "CONFIDE", "DIG", "SCREECH", "SELFDESTRUCT", "SCARYFACE", "IMPRISON", "MUDSHOT", "ASSURANCE", "CRUNCH", "BODYSLAM", "ENDURE"]
+raw_tutor_moves = ["FIREPUNCH", "GASTROACID", "GIGADRAIN", "GUNKSHOT", "HELPINGHAND", "ICEPUNCH", "KNOCKOFF", "MUDSLAP", "PAINSPLIT", "SHOCKWAVE", "SNORE", "SPITE", "THUNDERPUNCH", "MIMIC"]
+compatible_egg_groups = ["Amorphous"]
+steps_to_hatch = 5355
+height = 0.9
+weight = 30.0
+colour = "Purple"
+kind = "Sludge"
+pokedex_entry = "Born from polluted sludge in the sea, Grimer's favorite food is anything filthy. They feed on wastewater pumped out from factories."
+battler_player_y = 28
+battler_enemy_y = 24
+battler_altitude = 0
+form_names = ["Normal", "Alternate"]
+internal_name = "GRIMER"
+raw_hidden_ability = "POISONTOUCH"
+habitat = "Urban"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POUND"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POISONGAS"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "HARDEN"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "MUDSLAP"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "DISABLE"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "SLUDGE"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "MUDBOMB"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "MINIMIZE"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "FLING"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "SLUDGEBOMB"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "SLUDGEWAVE"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "SCREECH"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "GUNKSHOT"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "ACIDARMOR"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "BELCH"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "MEMENTO"
+
+[[evolutions]]
+into_name = "MUK"
+condition = "Level"
+parameter = "38"
+
+[base_stats]
+hp = 80
+atk = 80
+def_ = 50
+spa = 40
+spd = 50
+spe = 25
+
+[ev_yield]
+hp = 1
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "BLACKSLUDGE"

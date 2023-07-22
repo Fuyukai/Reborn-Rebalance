@@ -1,0 +1,68 @@
+name = "Cinccino"
+primary_type = "NORMAL"
+secondary_type = "NORMAL"
+gender_ratio = "Female75Percent"
+growth_rate = "Fast"
+exp_yield = 165
+catch_rate = 60
+caught_happiness = 70
+raw_abilities = ["CUTECHARM", "TECHNICIAN"]
+raw_egg_moves = []
+raw_tms = ["WORKUP", "CALMMIND", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "FOCUSBLAST", "FLING", "GIGAIMPACT", "THUNDERWAVE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "DAZZLINGGLEAM", "CONFIDE", "DIG", "CHARM", "FAKETEARS", "BULLETSEED", "ROCKBLAST", "TAILSLAP", "ENDURE", "ENCORE", "PLAYROUGH", "RETALIATE", "SWIFT"]
+raw_tutor_moves = ["AFTERYOU", "AQUATAIL", "COVET", "GUNKSHOT", "HELPINGHAND", "HYPERVOICE", "IRONTAIL", "KNOCKOFF", "LASERFOCUS", "LASTRESORT", "SEEDBOMB", "SHOCKWAVE", "SNORE", "UPROAR", "TRIPLEAXEL", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 3840
+height = 0.5
+weight = 7.5
+colour = "Gray"
+kind = "Scarf"
+pokedex_entry = "Their white fur feels amazing to touch. Their fur repels dust and prevents static electricity from building up."
+battler_player_y = 20
+battler_enemy_y = 22
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "CINCCINO"
+raw_hidden_ability = "SKILLLINK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "BULLETSEED"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ROCKBLAST"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HELPINGHAND"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TICKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SING"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TAILSLAP"
+
+[base_stats]
+hp = 75
+atk = 95
+def_ = 60
+spa = 65
+spd = 60
+spe = 115
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 2
+
+[wild_items]

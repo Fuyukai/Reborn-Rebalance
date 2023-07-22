@@ -1,0 +1,101 @@
+name = "Thievul"
+primary_type = "DARK"
+secondary_type = "DARK"
+gender_ratio = "Female50Percent"
+growth_rate = "Fast"
+exp_yield = 159
+catch_rate = 127
+caught_happiness = 50
+raw_abilities = ["RUNAWAY", "UNBURDEN"]
+raw_egg_moves = []
+raw_tms = ["TAUNT", "HYPERBEAM", "PROTECT", "PSYCHIC", "SHADOWBALL", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ACROBATICS", "SHADOWCLAW", "GIGAIMPACT", "GRASSKNOT", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "SNARL", "DARKPULSE", "DIG", "SCREECH", "BEATUP", "FAKETEARS", "MUDSHOT", "ASSURANCE", "THUNDERFANG", "ICEFANG", "FIREFANG", "CRUNCH", "TAILSLAP", "AGILITY", "ENDURE", "BATONPASS", "NASTYPLOT", "PLAYROUGH", "SWIFT"]
+raw_tutor_moves = ["COVET", "FOULPLAY", "KNOCKOFF", "SNATCH", "SNORE", "SUCKERPUNCH", "BURNINGJEALOUSY", "LASHOUT", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 3840
+height = 1.2
+weight = 19.9
+colour = "Brown"
+kind = "Fox"
+pokedex_entry = "With a lithe body and sharp claws, it goes around stealing food and eggs. Boltund is its natural enemy."
+battler_player_y = 21
+battler_enemy_y = 26
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "THIEVUL"
+raw_hidden_ability = "STAKEOUT"
+regional_numbers = 828
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "THIEF"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "THIEF"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TAILWHIP"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "BEATUP"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "HONECLAWS"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "SNARL"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "ASSURANCE"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "NASTYPLOT"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "SUCKERPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "NIGHTSLASH"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "TAILSLAP"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "FOULPLAY"
+
+[[raw_level_up_moves]]
+at_level = "52"
+name = "PARTINGSHOT"
+
+[base_stats]
+hp = 70
+atk = 58
+def_ = 58
+spa = 87
+spd = 92
+spe = 90
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 2
+spe = 0
+
+[wild_items]

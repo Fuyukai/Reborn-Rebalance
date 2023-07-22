@@ -1,0 +1,92 @@
+name = "Riolu"
+primary_type = "FIGHTING"
+secondary_type = "FIGHTING"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+exp_yield = 57
+catch_rate = 75
+caught_happiness = 70
+raw_abilities = ["STEADFAST", "INNERFOCUS"]
+raw_egg_moves = ["AGILITY", "BITE", "BLAZEKICK", "BULLETPUNCH", "CIRCLETHROW", "CROSSCHOP", "CRUNCH", "DETECT", "FOLLOWME", "HIJUMPKICK", "IRONDEFENSE", "LOWKICK", "METEORMASH", "MINDREADER", "SKYUPPERCUT", "VACUUMWAVE"]
+raw_tms = ["WORKUP", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "BULKUP", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "RAINDANCE", "FRUSTRATION", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "LOWSWEEP", "ROUND", "FOCUSBLAST", "FLING", "SHADOWCLAW", "PAYBACK", "SWORDSDANCE", "BULLDOZE", "ROCKSLIDE", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "SCREECH", "REVENGE", "CRUNCH", "AGILITY", "REVERSAL", "ENDURE", "BLAZEKICK", "NASTYPLOT", "RETALIATE", "TRAILBLAZE", "SWIFT"]
+raw_tutor_moves = ["DRAINPUNCH", "DUALCHOP", "FOCUSPUNCH", "FURYCUTTER", "HEADBUTT", "HELPINGHAND", "ICEPUNCH", "IRONDEFENSE", "IRONTAIL", "LASERFOCUS", "LOWKICK", "MAGNETRISE", "MUDSLAP", "ROLEPLAY", "SNORE", "THUNDERPUNCH", "VACUUMWAVE", "ZENHEADBUTT", "COACHING", "MIMIC"]
+compatible_egg_groups = ["Undiscovered"]
+steps_to_hatch = 6630
+height = 0.7
+weight = 20.2
+colour = "Blue"
+kind = "Emanation"
+pokedex_entry = "The aura that emanates from its body intensifies to alert others if it is afraid or sad."
+battler_player_y = 27
+battler_enemy_y = 20
+battler_altitude = 0
+form_names = []
+internal_name = "RIOLU"
+raw_hidden_ability = "PRANKSTER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FORESIGHT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ENDURE"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "COUNTER"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "FEINT"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "FORCEPALM"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "COPYCAT"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "SCREECH"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "REVERSAL"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "NASTYPLOT"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "FINALGAMBIT"
+
+[[evolutions]]
+into_name = "LUCARIO"
+condition = "HappinessDay"
+parameter = ""
+
+[base_stats]
+hp = 40
+atk = 70
+def_ = 40
+spa = 35
+spd = 40
+spe = 60
+
+[ev_yield]
+hp = 0
+atk = 1
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

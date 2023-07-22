@@ -1,0 +1,124 @@
+name = "Malamar"
+primary_type = "DARK"
+secondary_type = "PSYCHIC"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 169
+catch_rate = 120
+caught_happiness = 70
+raw_abilities = ["CONTRARY", "SUCTIONCUPS"]
+raw_egg_moves = []
+raw_tms = ["CUT", "PSYSHOCK", "CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "RETURN", "PSYCHIC", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "FLING", "BRUTALSWING", "EMBARGO", "PAYBACK", "GIGAIMPACT", "PSYCHUP", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "DARKPULSE", "CONFIDE", "SCARYFACE", "FAKETEARS", "GUARDSWAP", "PSYCHOCUT", "REVERSAL", "ENDURE", "BATONPASS", "FUTURESIGHT", "NASTYPLOT", "STOREDPOWER", "RETALIATE"]
+raw_tutor_moves = ["ALLYSWITCH", "BIND", "BLOCK", "FOULPLAY", "KNOCKOFF", "LIQUIDATION", "ROLEPLAY", "SIGNALBEAM", "SNATCH", "SNORE", "SPITE", "SUPERPOWER", "TELEKINESIS", "THROATCHOP", "EXPANDINGFORCE", "LASHOUT", "MIMIC"]
+compatible_egg_groups = ["Water1", "Water2"]
+steps_to_hatch = 5120
+height = 1.5
+weight = 47.0
+colour = "Blue"
+kind = "Overturning"
+pokedex_entry = "It lures its prey close with hypnotic motions, then wraps its tentacles around it before finishing it off with digestive fluids."
+battler_player_y = 13
+battler_enemy_y = 10
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "MALAMAR"
+raw_hidden_ability = "INFILTRATOR"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "REVERSAL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PECK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CONSTRICT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "REFLECT"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "REFLECT"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "FOULPLAY"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "SWAGGER"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "PSYWAVE"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "TOPSYTURVY"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "HYPNOSIS"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "PSYBEAM"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "SWITCHEROO"
+
+[[raw_level_up_moves]]
+at_level = "27"
+name = "PAYBACK"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "LIGHTSCREEN"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "PLUCK"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "PSYCHOCUT"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "SLASH"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "NIGHTSLASH"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "SUPERPOWER"
+
+[base_stats]
+hp = 86
+atk = 92
+def_ = 88
+spa = 68
+spd = 75
+spe = 73
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

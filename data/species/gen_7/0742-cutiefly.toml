@@ -1,0 +1,93 @@
+name = "Cutiefly"
+primary_type = "BUG"
+secondary_type = "FAIRY"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 61
+catch_rate = 190
+caught_happiness = 70
+raw_abilities = ["HONEYGATHER", "SHIELDDUST"]
+raw_egg_moves = ["BATONPASS", "BESTOW", "MOONBLAST", "POWDER", "SKILLSWAP", "SPEEDSWAP", "STICKYWEB"]
+raw_tms = ["CALMMIND", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "LIGHTSCREEN", "PROTECT", "ROOST", "ROOST", "SAFEGUARD", "FRUSTRATION", "RETURN", "LEECHLIFE", "PSYCHIC", "DOUBLETEAM", "REFLECT", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ENERGYBALL", "ACROBATICS", "PSYCHUP", "INFESTATION", "DREAMEATER", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "DAZZLINGGLEAM", "CONFIDE", "CHARM", "IMPRISON", "FAKETEARS", "SPEEDSWAP", "DRAININGKISS", "ENDURE", "BATONPASS", "BUGBUZZ", "PLAYROUGH", "SWIFT"]
+raw_tutor_moves = ["AFTERYOU", "ALLYSWITCH", "BUGBITE", "COVET", "DEFOG", "HELPINGHAND", "LASTRESORT", "MAGICROOM", "SIGNALBEAM", "SKILLSWAP", "SNORE", "TAILWIND", "TELEKINESIS", "TRICK", "WONDERROOM", "DUALWINGBEAT", "MIMIC"]
+compatible_egg_groups = ["Bug", "Fairy"]
+steps_to_hatch = 5120
+height = 0.1
+weight = 0.2
+colour = "Yellow"
+kind = "Bee Fly"
+pokedex_entry = "Myriads of Cutiefly flutter above the heads of people who have auras resembling those of flowers."
+battler_player_y = 28
+battler_enemy_y = 25
+battler_altitude = 3
+form_names = []
+internal_name = "CUTIEFLY"
+raw_hidden_ability = "SWEETVEIL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ABSORB"
+
+[[raw_level_up_moves]]
+at_level = "4"
+name = "FAIRYWIND"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "STUNSPORE"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "STRUGGLEBUG"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "SILVERWIND"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "DRAININGKISS"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "SWEETSCENT"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "BUGBUZZ"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "DAZZLINGGLEAM"
+
+[[raw_level_up_moves]]
+at_level = "36"
+name = "AROMATHERAPY"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "QUIVERDANCE"
+
+[[evolutions]]
+into_name = "RIBOMBEE"
+condition = "Level"
+parameter = "25"
+
+[base_stats]
+hp = 40
+atk = 45
+def_ = 40
+spa = 55
+spd = 40
+spe = 84
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 1
+
+[wild_items]
+uncommon = "HONEY"

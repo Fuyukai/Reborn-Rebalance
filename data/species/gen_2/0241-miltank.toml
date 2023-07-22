@@ -1,0 +1,100 @@
+name = "Miltank"
+primary_type = "NORMAL"
+secondary_type = "NORMAL"
+gender_ratio = "AlwaysFemale"
+growth_rate = "Slow"
+exp_yield = 172
+catch_rate = 45
+caught_happiness = 70
+raw_abilities = ["THICKFAT", "SCRAPPY"]
+raw_egg_moves = ["BELCH", "CURSE", "DIZZYPUNCH", "DOUBLEEDGE", "ENDURE", "HAMMERARM", "HEARTSTAMP", "HELPINGHAND", "NATURALGIFT", "PRESENT", "PUNISHMENT", "REVERSAL", "SEISMICTOSS", "SLEEPTALK"]
+raw_tms = ["WORKUP", "SURF", "STRENGTH", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "SOLARBEAM", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "SANDSTORM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "FOCUSBLAST", "FLING", "GIGAIMPACT", "THUNDERWAVE", "GYROBALL", "PSYCHUP", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "CHARM", "WHIRLPOOL", "BODYSLAM", "METRONOME", "REVERSAL", "ENDURE", "HEAVYSLAM", "HIGHHORSEPOWER", "BODYPRESS", "RETALIATE"]
+raw_tutor_moves = ["AFTERYOU", "BLOCK", "FIREPUNCH", "FOCUSPUNCH", "HEADBUTT", "HEALBELL", "HELPINGHAND", "ICEPUNCH", "ICYWIND", "IRONHEAD", "IRONTAIL", "MUDSLAP", "ROLLOUT", "SHOCKWAVE", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "THUNDERPUNCH", "WATERPULSE", "ZENHEADBUTT", "STEELROLLER", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5355
+height = 1.2
+weight = 75.5
+colour = "Pink"
+kind = "Milk Cow"
+pokedex_entry = "It gives over five gallons of milk daily. Its milk is enjoyed by children and grown-ups alike. People who can't drink milk turn it into yogurt instead."
+battler_player_y = 24
+battler_enemy_y = 18
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "MILTANK"
+raw_hidden_ability = "SAPSIPPER"
+habitat = "Grassland"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "3"
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "DEFENSECURL"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "STOMP"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "MILKDRINK"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "BIDE"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "ROLLOUT"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "BODYSLAM"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "ZENHEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "CAPTIVATE"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "GYROBALL"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "HEALBELL"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "WAKEUPSLAP"
+
+[base_stats]
+hp = 95
+atk = 80
+def_ = 105
+spa = 40
+spd = 70
+spe = 100
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 2
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+common = "MOOMOOMILK"
+uncommon = "MOOMOOMILK"
+rare = "MOOMOOMILK"

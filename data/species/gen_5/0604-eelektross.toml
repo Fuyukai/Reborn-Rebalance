@@ -1,0 +1,83 @@
+name = "Eelektross"
+primary_type = "ELECTRIC"
+secondary_type = "ELECTRIC"
+gender_ratio = "Female50Percent"
+growth_rate = "Slow"
+exp_yield = 232
+catch_rate = 30
+caught_happiness = 70
+raw_abilities = ["LEVITATE"]
+raw_egg_moves = []
+raw_tms = ["CUT", "DRAGONCLAW", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "FLASH", "HIDDENPOWER", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "BRICKBREAK", "DOUBLETEAM", "FLAMETHROWER", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "CHARGEBEAM", "ACROBATICS", "GIGAIMPACT", "VOLTSWITCH", "THUNDERWAVE", "ROCKSLIDE", "DRAGONTAIL", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "FLASHCANNON", "WILDCHARGE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "CRUNCH", "ENDURE"]
+raw_tutor_moves = ["AQUATAIL", "BIND", "BOUNCE", "DRAGONPULSE", "DRAINPUNCH", "FIREPUNCH", "FOCUSPUNCH", "GASTROACID", "GIGADRAIN", "IRONTAIL", "KNOCKOFF", "MAGNETRISE", "OUTRAGE", "SHOCKWAVE", "SIGNALBEAM", "SNORE", "SUPERFANG", "SUPERPOWER", "THROATCHOP", "THUNDERPUNCH", "MIMIC"]
+compatible_egg_groups = ["Amorphous"]
+steps_to_hatch = 5120
+height = 2.1
+weight = 80.5
+colour = "Blue"
+kind = "Elefish"
+pokedex_entry = "With their sucker mouths, they suck in prey. Then they use their fangs to shock the prey with electricity."
+battler_player_y = 17
+battler_enemy_y = 11
+battler_altitude = 3
+evolutions = []
+form_names = []
+internal_name = "EELEKTROSS"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "THRASH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ZAPCANNON"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GASTROACID"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "COIL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "IONDELUGE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CRUSHCLAW"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ACID"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DISCHARGE"
+
+[base_stats]
+hp = 85
+atk = 115
+def_ = 80
+spa = 105
+spd = 80
+spe = 50
+
+[ev_yield]
+hp = 0
+atk = 3
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]

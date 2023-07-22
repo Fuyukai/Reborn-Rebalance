@@ -1,0 +1,108 @@
+name = "Vivillon"
+primary_type = "BUG"
+secondary_type = "FLYING"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 185
+catch_rate = 255
+caught_happiness = 70
+raw_abilities = ["SHIELDDUST", "COMPOUNDEYES"]
+raw_egg_moves = []
+raw_tms = ["CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "PSYCHIC", "DOUBLETEAM", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ENERGYBALL", "ACROBATICS", "GIGAIMPACT", "STRUGGLEBUG", "PSYCHUP", "INFESTATION", "DREAMEATER", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DRAININGKISS", "HURRICANE", "ENDURE", "BUGBUZZ", "POUNCE"]
+raw_tutor_moves = ["BUGBITE", "DEFOG", "ELECTROWEB", "ENDEAVOR", "GIGADRAIN", "LASERFOCUS", "SIGNALBEAM", "SNORE", "TAILWIND", "MIMIC"]
+compatible_egg_groups = ["Bug"]
+steps_to_hatch = 3840
+height = 1.2
+weight = 17.0
+colour = "Black"
+kind = "Scale"
+pokedex_entry = "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat."
+battler_player_y = 15
+battler_enemy_y = 4
+battler_altitude = 4
+evolutions = []
+form_names = []
+internal_name = "VIVILLON"
+raw_hidden_ability = "FRIENDGUARD"
+
+[[raw_level_up_moves]]
+at_level = "0"
+name = "GUST"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POWDER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SLEEPPOWDER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POISONPOWDER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "STUNSPORE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "STRUGGLEBUG"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "LIGHTSCREEN"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "PSYBEAM"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "SUPERSONIC"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "DRAININGKISS"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "AROMATHERAPY"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "BUGBUZZ"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "SAFEGUARD"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "QUIVERDANCE"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "HURRICANE"
+
+[[raw_level_up_moves]]
+at_level = "55"
+name = "POWDER"
+
+[base_stats]
+hp = 80
+atk = 52
+def_ = 50
+spa = 90
+spd = 50
+spe = 89
+
+[ev_yield]
+hp = 1
+atk = 0
+def_ = 0
+spa = 1
+spd = 0
+spe = 1
+
+[wild_items]

@@ -1,0 +1,125 @@
+name = "Weavile"
+primary_type = "DARK"
+secondary_type = "ICE"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 179
+catch_rate = 45
+caught_happiness = 35
+raw_abilities = ["PRESSURE", "SHARPNESS"]
+raw_egg_moves = []
+raw_tms = ["CUT", "SURF", "CALMMIND", "STRENGTH", "TOXIC", "HAIL", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "LOWSWEEP", "ROUND", "FOCUSBLAST", "FALSESWIPE", "FLING", "EMBARGO", "SHADOWCLAW", "PAYBACK", "GIGAIMPACT", "SWORDSDANCE", "PSYCHUP", "XSCISSOR", "POISONJAB", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "SNARL", "DARKPULSE", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "SCREECH", "WHIRLPOOL", "BEATUP", "REVENGE", "FAKETEARS", "ICICLESPEAR", "ASSURANCE", "AVALANCHE", "PSYCHOCUT", "AGILITY", "ENDURE", "NASTYPLOT", "RETALIATE", "ICESPINNER", "SNOWSCAPE", "TRAILBLAZE", "CHILLINGWATER", "SWIFT"]
+raw_tutor_moves = ["FOCUSPUNCH", "FOULPLAY", "FURYCUTTER", "HEADBUTT", "ICEPUNCH", "ICYWIND", "IRONTAIL", "KNOCKOFF", "LASERFOCUS", "LOWKICK", "MUDSLAP", "SNATCH", "SNORE", "SPITE", "THROATCHOP", "TRIPLEAXEL", "LASHOUT", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 5355
+height = 1.1
+weight = 34.0
+colour = "Black"
+kind = "Sharp Claw"
+pokedex_entry = "They live in cold regions, forming groups of four or five that hunt prey with impressive coordination."
+battler_player_y = 17
+battler_enemy_y = 12
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "WEAVILE"
+raw_hidden_ability = "PICKPOCKET"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "EMBARGO"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "REVENGE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ASSURANCE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SCRATCH"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TAUNT"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "FEINTATTACK"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "ICYWIND"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "FURYSWIPES"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "NASTYPLOT"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "METALCLAW"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "HONECLAWS"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "FLING"
+
+[[raw_level_up_moves]]
+at_level = "32"
+name = "SCREECH"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "NIGHTSLASH"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "SNATCH"
+
+[[raw_level_up_moves]]
+at_level = "44"
+name = "PUNISHMENT"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "DARKPULSE"
+
+[base_stats]
+hp = 70
+atk = 120
+def_ = 65
+spa = 45
+spd = 85
+spe = 125
+
+[ev_yield]
+hp = 0
+atk = 1
+def_ = 0
+spa = 0
+spd = 0
+spe = 1
+
+[wild_items]
+uncommon = "QUICKCLAW"

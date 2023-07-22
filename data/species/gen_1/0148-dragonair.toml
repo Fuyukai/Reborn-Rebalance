@@ -1,0 +1,113 @@
+name = "Dragonair"
+primary_type = "DRAGON"
+secondary_type = "DRAGON"
+gender_ratio = "Female50Percent"
+growth_rate = "Slow"
+exp_yield = 147
+catch_rate = 45
+caught_happiness = 35
+raw_abilities = ["SHEDSKIN", "MARVELSCALE"]
+raw_egg_moves = []
+raw_tms = ["SURF", "WATERFALL", "TOXIC", "HAIL", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "FIREBLAST", "FACADE", "REST", "ATTRACT", "ROUND", "BRUTALSWING", "GIGAIMPACT", "THUNDERWAVE", "DRAGONTAIL", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "FIRESPIN", "WHIRLPOOL", "BREAKINGSWIPE", "BODYSLAM", "HYDROPUMP", "AGILITY", "ENDURE", "DRAGONDANCE", "CHILLINGWATER", "SWIFT"]
+raw_tutor_moves = ["AQUATAIL", "BIND", "DRACOMETEOR", "DRAGONPULSE", "HEADBUTT", "ICYWIND", "IRONTAIL", "OUTRAGE", "SHOCKWAVE", "SNORE", "TWISTER", "WATERPULSE", "SCALESHOT", "EXTREMESPEED", "MIMIC"]
+compatible_egg_groups = ["Water1", "Dragon"]
+steps_to_hatch = 10455
+height = 4.0
+weight = 16.5
+colour = "Blue"
+kind = "Dragon"
+pokedex_entry = "A Dragonair stores an enormous amount of energy inside its body. It alters the weather around it by loosing energy from the crystals on its neck and tail."
+battler_player_y = 16
+battler_enemy_y = 8
+battler_altitude = 0
+form_names = []
+internal_name = "DRAGONAIR"
+habitat = "WatersEdge"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WRAP"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "THUNDERWAVE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TWISTER"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "THUNDERWAVE"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "TWISTER"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "DRAGONRAGE"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "SLAM"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = "33"
+name = "DRAGONTAIL"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "AQUATAIL"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "DRAGONRUSH"
+
+[[raw_level_up_moves]]
+at_level = "53"
+name = "SAFEGUARD"
+
+[[raw_level_up_moves]]
+at_level = "61"
+name = "DRAGONDANCE"
+
+[[raw_level_up_moves]]
+at_level = "67"
+name = "OUTRAGE"
+
+[[raw_level_up_moves]]
+at_level = "75"
+name = "HYPERBEAM"
+
+[[evolutions]]
+into_name = "DRAGONITE"
+condition = "Level"
+parameter = "55"
+
+[base_stats]
+hp = 61
+atk = 84
+def_ = 65
+spa = 70
+spd = 70
+spe = 70
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "DRAGONSCALE"

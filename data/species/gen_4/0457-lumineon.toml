@@ -1,0 +1,116 @@
+name = "Lumineon"
+primary_type = "WATER"
+secondary_type = "WATER"
+gender_ratio = "Female50Percent"
+growth_rate = "Erratic"
+exp_yield = 161
+catch_rate = 75
+caught_happiness = 70
+raw_abilities = ["SWIFTSWIM", "STORMDRAIN"]
+raw_egg_moves = []
+raw_tms = ["SURF", "WATERFALL", "TOXIC", "DIVE", "HAIL", "FLASH", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "RETURN", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "ROUND", "SCALD", "PAYBACK", "GIGAIMPACT", "PSYCHUP", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "CHARM", "WHIRLPOOL", "BRINE", "AGILITY", "ENDURE", "CHILLINGWATER", "SWIFT"]
+raw_tutor_moves = ["AIRCUTTER", "AQUATAIL", "BOUNCE", "DEFOG", "ICYWIND", "OMINOUSWIND", "SIGNALBEAM", "SNORE", "TAILWIND", "TWISTER", "WATERPULSE", "MIMIC"]
+compatible_egg_groups = ["Water2"]
+steps_to_hatch = 5355
+height = 1.2
+weight = 24.0
+colour = "Blue"
+kind = "Neon"
+pokedex_entry = "It lives on the deep-sea floor. It attracts prey by flashing the patterns on its four tail fins."
+battler_player_y = 16
+battler_enemy_y = 13
+battler_altitude = 12
+evolutions = []
+form_names = []
+internal_name = "LUMINEON"
+raw_hidden_ability = "WATERVEIL"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "SOAK"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "GUST"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POUND"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "WATERGUN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ATTRACT"
+
+[[raw_level_up_moves]]
+at_level = "6"
+name = "WATERGUN"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "ATTRACT"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "RAINDANCE"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "GUST"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "WATERPULSE"
+
+[[raw_level_up_moves]]
+at_level = "26"
+name = "CAPTIVATE"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "SAFEGUARD"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "AQUARING"
+
+[[raw_level_up_moves]]
+at_level = "42"
+name = "WHIRLPOOL"
+
+[[raw_level_up_moves]]
+at_level = "48"
+name = "UTURN"
+
+[[raw_level_up_moves]]
+at_level = "53"
+name = "BOUNCE"
+
+[[raw_level_up_moves]]
+at_level = "59"
+name = "SILVERWIND"
+
+[[raw_level_up_moves]]
+at_level = "66"
+name = "SOAK"
+
+[base_stats]
+hp = 69
+atk = 69
+def_ = 76
+spa = 69
+spd = 86
+spe = 91
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 2
+
+[wild_items]

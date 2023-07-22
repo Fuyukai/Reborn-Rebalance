@@ -1,0 +1,124 @@
+name = "Gothorita"
+primary_type = "PSYCHIC"
+secondary_type = "PSYCHIC"
+gender_ratio = "Female75Percent"
+growth_rate = "Parabolic"
+exp_yield = 137
+catch_rate = 100
+caught_happiness = 70
+raw_abilities = ["FRISK", "COMPETITIVE"]
+raw_egg_moves = []
+raw_tms = ["PSYSHOCK", "CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "TAUNT", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "THUNDERBOLT", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "ROCKTOMB", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ENERGYBALL", "FLING", "CHARGEBEAM", "EMBARGO", "PAYBACK", "THUNDERWAVE", "PSYCHUP", "ROCKSLIDE", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "DARKPULSE", "CONFIDE", "CHARM", "FAKETEARS", "POWERSWAP", "GUARDSWAP", "ENDURE", "FUTURESIGHT", "NASTYPLOT", "STOREDPOWER"]
+raw_tutor_moves = ["ALLYSWITCH", "COVET", "FOULPLAY", "GRAVITY", "HEALBELL", "HELPINGHAND", "MAGICCOAT", "MAGICROOM", "RECYCLE", "ROLEPLAY", "SHOCKWAVE", "SIGNALBEAM", "SKILLSWAP", "SNATCH", "SNORE", "TELEKINESIS", "TRICK", "UPROAR", "ZENHEADBUTT", "EXPANDINGFORCE", "MIMIC"]
+compatible_egg_groups = ["Humanlike"]
+steps_to_hatch = 5120
+height = 0.7
+weight = 18.0
+colour = "Purple"
+kind = "Manipulate"
+pokedex_entry = "Starlight is the source of their power. At night, they mark star positions by using psychic power to float stones."
+battler_player_y = 21
+battler_enemy_y = 20
+battler_altitude = 0
+form_names = []
+internal_name = "GOTHORITA"
+raw_hidden_ability = "SHADOWTAG"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POUND"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "CONFUSION"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TICKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "PLAYNICE"
+
+[[raw_level_up_moves]]
+at_level = "3"
+name = "CONFUSION"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "TICKLE"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "FAKETEARS"
+
+[[raw_level_up_moves]]
+at_level = "14"
+name = "DOUBLESLAP"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "PSYBEAM"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "EMBARGO"
+
+[[raw_level_up_moves]]
+at_level = "24"
+name = "FEINTATTACK"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "PSYSHOCK"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "FLATTER"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "FUTURESIGHT"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "HEALBLOCK"
+
+[[raw_level_up_moves]]
+at_level = "39"
+name = "PSYCHIC"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "TELEKINESIS"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "CHARM"
+
+[[raw_level_up_moves]]
+at_level = "53"
+name = "MAGICROOM"
+
+[[evolutions]]
+into_name = "GOTHITELLE"
+condition = "Level"
+parameter = "41"
+
+[base_stats]
+hp = 60
+atk = 45
+def_ = 70
+spa = 75
+spd = 85
+spe = 55
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 2
+spe = 0
+
+[wild_items]

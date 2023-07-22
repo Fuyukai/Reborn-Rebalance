@@ -1,0 +1,119 @@
+name = "Chien-Pao"
+primary_type = "DARK"
+secondary_type = "ICE"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 290
+catch_rate = 6
+caught_happiness = 50
+raw_abilities = ["SWORDOFRUIN"]
+raw_egg_moves = []
+raw_tms = ["CUT", "ROAR", "TOXIC", "HAIL", "HIDDENPOWER", "TAUNT", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "BRICKBREAK", "DOUBLETEAM", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "FALSESWIPE", "ACROBATICS", "GIGAIMPACT", "AURORAVEIL", "SWORDSDANCE", "FROSTBREATH", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "SNARL", "DARKPULSE", "CONFIDE", "SCARYFACE", "ASSURANCE", "AVALANCHE", "ICEFANG", "PSYCHICFANGS", "CRUNCH", "HEX", "ENDURE", "ICESPINNER"]
+raw_tutor_moves = ["ICYWIND", "SUPERPOWER"]
+compatible_egg_groups = ["Undiscovered"]
+steps_to_hatch = 12850
+height = 1.9
+weight = 152.2
+colour = "White"
+kind = "Ruinous"
+pokedex_entry = "The hatred of those who perished by the sword long ago has clad itself in snow and become a Pokémon."
+battler_player_y = 15
+battler_enemy_y = 12
+battler_altitude = 0
+evolutions = []
+form_names = []
+internal_name = "CHIENPAO"
+
+[[raw_level_up_moves]]
+at_level = " 1"
+name = "SPITE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "POWDERSNOW"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "MEANLOOK"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "ICYWIND"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "PAYBACK"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "MIST"
+
+[[raw_level_up_moves]]
+at_level = "15"
+name = "HAZE"
+
+[[raw_level_up_moves]]
+at_level = "20"
+name = "ICESHARD"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "SWORDSDANCE"
+
+[[raw_level_up_moves]]
+at_level = "30"
+name = "SNOWSCAPE"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "NIGHTSLASH"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "DARKPULSE"
+
+[[raw_level_up_moves]]
+at_level = "45"
+name = "ICICLECRASH"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "RUINATION"
+
+[[raw_level_up_moves]]
+at_level = "55"
+name = "SUCKERPUNCH"
+
+[[raw_level_up_moves]]
+at_level = "60"
+name = "SACREDSWORD"
+
+[[raw_level_up_moves]]
+at_level = "65"
+name = "RECOVER"
+
+[[raw_level_up_moves]]
+at_level = "70"
+name = "THROATCHOP"
+
+[[raw_level_up_moves]]
+at_level = "75"
+name = "SHEERCOLD"
+
+[base_stats]
+hp = 80
+atk = 120
+def_ = 80
+spa = 90
+spd = 65
+spe = 135
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 3
+
+[wild_items]

@@ -1,0 +1,113 @@
+name = "Yungoos"
+primary_type = "NORMAL"
+secondary_type = "NORMAL"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 51
+catch_rate = 255
+caught_happiness = 70
+raw_abilities = ["STAKEOUT", "STRONGJAW"]
+raw_egg_moves = ["FIREFANG", "ICEFANG", "LASTRESORT", "REVENGE", "THUNDERFANG"]
+raw_tms = ["WORKUP", "TOXIC", "HIDDENPOWER", "TAUNT", "PROTECT", "FRUSTRATION", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "SANDSTORM", "ROCKTOMB", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "PAYBACK", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "SCARYFACE", "REVENGE", "THUNDERFANG", "ICEFANG", "FIREFANG", "CRUNCH", "ENDURE", "TRAILBLAZE", "CHILLINGWATER"]
+raw_tutor_moves = ["ENDEAVOR", "IRONTAIL", "LASTRESORT", "SHOCKWAVE", "SNORE", "STOMPINGTANTRUM", "SUPERFANG", "UPROAR", "MIMIC"]
+compatible_egg_groups = ["Field"]
+steps_to_hatch = 3840
+height = 0.4
+weight = 6.0
+colour = "Brown"
+kind = "Loitering"
+pokedex_entry = "It wanders around in a never-ending search for food. At dusk, it collapses from exhaustion and falls asleep on the spot."
+battler_player_y = 21
+battler_enemy_y = 26
+battler_altitude = 0
+form_names = []
+internal_name = "YUNGOOS"
+raw_hidden_ability = "ADAPTABILITY"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "3"
+name = "LEER"
+
+[[raw_level_up_moves]]
+at_level = "7"
+name = "PURSUIT"
+
+[[raw_level_up_moves]]
+at_level = "10"
+name = "SANDATTACK"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "ODORSLEUTH"
+
+[[raw_level_up_moves]]
+at_level = "16"
+name = "BIDE"
+
+[[raw_level_up_moves]]
+at_level = "19"
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = "22"
+name = "MUDSLAP"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "SUPERFANG"
+
+[[raw_level_up_moves]]
+at_level = "28"
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "SCARYFACE"
+
+[[raw_level_up_moves]]
+at_level = "34"
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "HYPERFANG"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "YAWN"
+
+[[raw_level_up_moves]]
+at_level = "43"
+name = "THRASH"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "REST"
+
+[[evolutions]]
+into_name = "GUMSHOOS"
+condition = "LevelDay"
+parameter = "20"
+
+[base_stats]
+hp = 48
+atk = 70
+def_ = 30
+spa = 30
+spd = 30
+spe = 45
+
+[ev_yield]
+hp = 0
+atk = 1
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[wild_items]
+uncommon = "PECHABERRY"

@@ -1,0 +1,105 @@
+name = "Venonat"
+primary_type = "BUG"
+secondary_type = "POISON"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 61
+catch_rate = 190
+caught_happiness = 70
+raw_abilities = ["COMPOUNDEYES", "TINTEDLENS"]
+raw_egg_moves = ["AGILITY", "BATONPASS", "BUGBITE", "GIGADRAIN", "MORNINGSUN", "RAGEPOWDER", "SCREECH", "SECRETPOWER", "SIGNALBEAM", "SKILLSWAP", "TOXICSPIKES"]
+raw_tms = ["TOXIC", "FLASH", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "FRUSTRATION", "SOLARBEAM", "RETURN", "LEECHLIFE", "PSYCHIC", "DOUBLETEAM", "REFLECT", "SLUDGEBOMB", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "STRUGGLEBUG", "INFESTATION", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "SCREECH", "AGILITY", "ENDURE", "BATONPASS", "TOXICSPIKES", "VENOMDRENCH", "POUNCE", "SWIFT"]
+raw_tutor_moves = ["BUGBITE", "GIGADRAIN", "SIGNALBEAM", "SKILLSWAP", "SNORE", "STRINGSHOT", "ZENHEADBUTT", "MIMIC"]
+compatible_egg_groups = ["Bug"]
+steps_to_hatch = 5355
+height = 1.0
+weight = 30.0
+colour = "Purple"
+kind = "Insect"
+pokedex_entry = "Its coat of thin, stiff hair that covers its entire body is said to have evolved for protection. Its large eyes never fail to spot even miniscule prey."
+battler_player_y = 24
+battler_enemy_y = 14
+battler_altitude = 0
+form_names = []
+internal_name = "VENONAT"
+raw_hidden_ability = "RUNAWAY"
+habitat = "Forest"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "DISABLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "FORESIGHT"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "SUPERSONIC"
+
+[[raw_level_up_moves]]
+at_level = "11"
+name = "CONFUSION"
+
+[[raw_level_up_moves]]
+at_level = "13"
+name = "POISONPOWDER"
+
+[[raw_level_up_moves]]
+at_level = "17"
+name = "PSYBEAM"
+
+[[raw_level_up_moves]]
+at_level = "23"
+name = "STUNSPORE"
+
+[[raw_level_up_moves]]
+at_level = "25"
+name = "SIGNALBEAM"
+
+[[raw_level_up_moves]]
+at_level = "29"
+name = "SLEEPPOWDER"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "LEECHLIFE"
+
+[[raw_level_up_moves]]
+at_level = "37"
+name = "ZENHEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = "41"
+name = "POISONFANG"
+
+[[raw_level_up_moves]]
+at_level = "47"
+name = "PSYCHIC"
+
+[[evolutions]]
+into_name = "VENOMOTH"
+condition = "Level"
+parameter = "31"
+
+[base_stats]
+hp = 60
+atk = 55
+def_ = 50
+spa = 40
+spd = 55
+spe = 45
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 1
+spe = 0
+
+[wild_items]

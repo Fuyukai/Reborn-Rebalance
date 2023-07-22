@@ -1,0 +1,119 @@
+name = "Diancie"
+primary_type = "ROCK"
+secondary_type = "FAIRY"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 270
+catch_rate = 3
+caught_happiness = 35
+raw_abilities = ["CLEARBODY"]
+raw_egg_moves = []
+raw_tms = ["PSYSHOCK", "CALMMIND", "TOXIC", "HAIL", "FLASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "SAFEGUARD", "FRUSTRATION", "SMACKDOWN", "RETURN", "PSYCHIC", "DOUBLETEAM", "REFLECT", "SANDSTORM", "ROCKTOMB", "FACADE", "REST", "ROUND", "EXPLOSION", "GIGAIMPACT", "ROCKPOLISH", "STONEEDGE", "GYROBALL", "PSYCHUP", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "NATUREPOWER", "DAZZLINGGLEAM", "CONFIDE", "CHARM", "FAKETEARS", "SANDTOMB", "GUARDSWAP", "DRAININGKISS", "MYSTICALFIRE", "METRONOME", "AMNESIA", "ENDURE", "BATONPASS", "ENCORE", "POWERGEM", "STOREDPOWER", "PLAYROUGH", "BODYPRESS", "SNOWSCAPE"]
+raw_tutor_moves = ["AFTERYOU", "ALLYSWITCH", "COVET", "EARTHPOWER", "ENDEAVOR", "GRAVITY", "HEALBELL", "HELPINGHAND", "IRONDEFENSE", "LASTRESORT", "MAGNETRISE", "SKILLSWAP", "SNORE", "STEALTHROCK", "TELEKINESIS", "WONDERROOM", "TERRAINPULSE", "METEORBEAM", "STEELROLLER", "MISTYEXPLOSION", "MIMIC"]
+compatible_egg_groups = ["Undiscovered"]
+steps_to_hatch = 30720
+height = 0.7
+weight = 8.8
+colour = "Pink"
+kind = "Jewel"
+pokedex_entry = "It can instantly create many diamonds by compressing the carbon in the air between its hands."
+battler_player_y = 18
+battler_enemy_y = 18
+battler_altitude = 3
+evolutions = []
+form_names = []
+internal_name = "DIANCIE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "HARDEN"
+
+[[raw_level_up_moves]]
+at_level = "1"
+name = "ROCKTHROW"
+
+[[raw_level_up_moves]]
+at_level = "5"
+name = "SHARPEN"
+
+[[raw_level_up_moves]]
+at_level = "8"
+name = "SMACKDOWN"
+
+[[raw_level_up_moves]]
+at_level = "12"
+name = "REFLECT"
+
+[[raw_level_up_moves]]
+at_level = "18"
+name = "STEALTHROCK"
+
+[[raw_level_up_moves]]
+at_level = "21"
+name = "GUARDSPLIT"
+
+[[raw_level_up_moves]]
+at_level = "27"
+name = "ANCIENTPOWER"
+
+[[raw_level_up_moves]]
+at_level = "31"
+name = "FLAIL"
+
+[[raw_level_up_moves]]
+at_level = "35"
+name = "SKILLSWAP"
+
+[[raw_level_up_moves]]
+at_level = "40"
+name = "POWERGEM"
+
+[[raw_level_up_moves]]
+at_level = "46"
+name = "TRICKROOM"
+
+[[raw_level_up_moves]]
+at_level = "49"
+name = "STONEEDGE"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "MOONBLAST"
+
+[[raw_level_up_moves]]
+at_level = "50"
+name = "DIAMONDSTORM"
+
+[[raw_level_up_moves]]
+at_level = "60"
+name = "LIGHTSCREEN"
+
+[[raw_level_up_moves]]
+at_level = "70"
+name = "SAFEGUARD"
+
+[[raw_level_up_moves]]
+at_level = "80"
+name = "MISTYEXPLOSION"
+
+[base_stats]
+hp = 50
+atk = 100
+def_ = 150
+spa = 100
+spd = 150
+spe = 50
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 1
+spa = 0
+spd = 2
+spe = 0
+
+[wild_items]
