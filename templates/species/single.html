@@ -14,7 +14,7 @@
 {% set stat = species.base_stats[name] %}
 
 <tr>
-    <td style="text-align: right">
+    <td class="has-text-right">
         <abbr title="{{ full_name }}">{{ loc_name }}</abbr>
     </td>
     <td class="has-text-right">
@@ -36,21 +36,36 @@
 </tr>
 {%- endmacro -%}
 
+{%- macro move_table_header(level_col_name) -%}
+<tr class="is-primary">
+    {% if level_col_name is not none %}
+    <th class="has-text-right">{{ level_col_name }}</th>
+    {% endif %}
+    <th class="has-text-center">Move</th>
+    <th class="has-text-center">Type</th>
+    <th class="has-text-center"><abbr title="Category, physical or special">Cat</abbr></th>
+    <th class="has-text-right"><abbr title="Base Power">BP</abbr></th>
+    <th class="has-text-right"><abbr title="Accuracy">Acc</abbr></th>
+</tr>
+{%- endmacro -%}
+
 {%- macro move(level_up_at, internal_name) -%}
 {% set move = catalog.move_by_name(internal_name) %}
 {% if move is none %}
 <tr>
-    <td style="text-align: right">{{ level_up_at }}</td>
-    <td style="text-align: center"> {{ internal_name }}</td>
-    <td colspan="4" style="text-align: center">
+    <td class="has-text-right">{{ level_up_at }}</td>
+    <td class="has-text-center"> {{ internal_name }}</td>
+    <td colspan="4" class="has-text-center">
         <span class="tag is-danger">Missing move</span>
     </td>
 </tr>
 {% else %}
 
 <tr>
-    <td style="text-align: right">{{ level_up_at }}</td>
-    <td style="text-align: center">
+    {% if level_up_at is not none %}
+    <td class="has-text-right">{{ level_up_at }}</td>
+    {% endif %}
+    <td class="has-text-center">
         <a href="/moves/{{ move.internal_name }}">
             {% if species.has_stab_on(move) %}
             <strong>{{ move.display_name }}</strong>
@@ -70,7 +85,7 @@
                 loading="lazy"
         />
     </td>
-    <td style="text-align: right">
+    <td class="has-text-right">
         {# BP with 0 is no power, with 1 is "custom power" (whatever the fuck that means) #}
         {% if move.base_power < 2 %}
         -
@@ -78,7 +93,7 @@
         {{ move.base_power }}
         {% endif %}
     </td>
-    <td style="text-align: right">
+    <td class="has-text-right">
         {% if move.accuracy == 0 %}
             {% if move.category == MoveCategory.STATUS %}
             -
@@ -99,91 +114,100 @@
 
 
 {% block content %}
-<div class="columns is-centered" style="padding-top: 2rem">
-    <div class="column is-4 is-centered is-narrow">
-        <div class="card">
-            <div class="card-header">
-                <p class="card-header-title has-text-centered">
-                    {{ species.name }}
-                    &nbsp;
-                    (<code>{{ species.internal_name }}</code>)
-                </p>
-            </div>
-
-            <div class="card-image">
-                <figure class="image is-square">
-                    <img
-                            x-idx="{{ s_idx }}"
-                            src="/sprites/battler_{{ s_idx }}.png"
-                            alt="Battler sprite for {{ species.name }}"
-                            height="192"
-                            width="192"
-                            onmouseover="swapWithShiny(this);"
-                            onmouseleave="unswapWithShiny(this);"
-                            class=""
-                    >
-                </figure>
-            </div>
-
-            <footer class="card-footer">
-                {% for ability in species.raw_abilities %}
-                <a href="#" class="card-footer-item">
-                    {{ ability }}
-                </a>
-                {% endfor %}
-
-                {% if species.hidden_ability %}
-                <a href="#" class="card-footer-item">
-                    {{ species.hidden_ability }}<
-                </a>
-                {% endif %}
-            </footer>
-        </div>
-    </div>
-
-    <div class="column is-4" id="pokemon-display-2">
-        <div class="columns is-multiline" style="margin-top: 0; height: 100%">
-            <div class="column is-full">
-                <div class="card">
-                    <div class="card-header">
-                        <span class="card-header-title has-text-centered">Type</span>
-                    </div>
-
-                    <footer class="card-footer">
-                        <a href="#" class="card-footer-item bg-{{ species.primary_type.name.lower() }}" style="color: white; text-decoration: underline">
-                            <strong>{{ species.primary_type.localised_name }}</strong>
-                        </a>
-                        <a href="#" class="card-footer-item bg-{{ species.secondary_type.name.lower() }}" style="color: white; text-decoration: underline">
-                            <strong>{{ species.secondary_type.localised_name }}</strong>
-                        </a>
-                    </footer>
+<div class="container">
+    <div id="pkm-top-block" class="columns is-centered" style="padding-top: 2rem">
+        <div class="column is-4 is-centered is-narrow">
+            <div class="card">
+                <div class="card-header">
+                    <p class="card-header-title has-text-centered">
+                        {{ species.name }}
+                        &nbsp;
+                        (<code>{{ species.internal_name }}</code>)
+                    </p>
                 </div>
+
+                <div class="card-image">
+                    <figure class="image is-square">
+                        <img
+                                x-idx="{{ s_idx }}"
+                                src="/sprites/battler_{{ s_idx }}.png"
+                                alt="Battler sprite for {{ species.name }}"
+                                height="192"
+                                width="192"
+                                onmouseover="swapWithShiny(this);"
+                                onmouseleave="unswapWithShiny(this);"
+                                class=""
+                        >
+                    </figure>
+                </div>
+
+                <footer class="card-footer">
+                    {% for ability in species.raw_abilities %}
+                    <a href="#" class="card-footer-item">
+                        {{ ability }}
+                    </a>
+                    {% endfor %}
+
+                    {% if species.hidden_ability %}
+                    <a href="#" class="card-footer-item">
+                        {{ species.hidden_ability }}<
+                    </a>
+                    {% endif %}
+                </footer>
             </div>
+        </div>
 
-            <div class="column is-full" style="margin-top: auto;">
-                <div class="card">
-                    <div class="card-header has-text-centered">
-                        <span class="card-header-title">Base Stats</span>
+        <div class="column is-4" id="pokemon-display-2">
+            <div class="columns is-multiline" style="margin-top: 0; height: 100%">
+                <div class="column is-full">
+                    <div class="card">
+                        <div class="card-header">
+                            <span class="card-header-title has-text-centered">Type</span>
+                        </div>
+
+                        <footer class="card-footer">
+                            <a href="#" class="card-footer-item bg-{{ species.primary_type.name.lower() }}" style="color: white">
+                                <strong>{{ species.primary_type.localised_name }}</strong>
+                                &nbsp;
+                                <i class="bi bi-link-45deg"></i>
+                            </a>
+
+                            {% if species.primary_type != species.secondary_type %}
+                            <a href="#" class="card-footer-item bg-{{ species.secondary_type.name.lower() }}" style="color: white;">
+                                <strong>{{ species.secondary_type.localised_name }}</strong>
+                                &nbsp;
+                                <i class="bi bi-link-45deg"></i>
+                            </a>
+                            {% endif %}
+                        </footer>
                     </div>
+                </div>
 
-                    <div class="card-content" style="padding-top: 0.25rem;">
-                        <table class="table is-fullwidth">
-                            <thead>
-                            <tr>
-                                <th class="has-text-right">Stat</th>
-                                <th class="has-text-right">Value</th>
-                                <th></th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                                {{ stat("hp", "HP", "Hit Points") }}
-                                {{ stat("atk", "Atk", "Physical Attack") }}
-                                {{ stat("def_", "Def", "Physical Defence") }}
-                                {{ stat("spa", "SpA", "Special Attack") }}
-                                {{ stat("spd", "SpD", "Special Defence") }}
-                                {{ stat("spe", "Spe", "Speed") }}
-                            </tbody>
-                        </table>
+                <div class="column is-full" style="margin-top: auto;">
+                    <div class="card">
+                        <div class="card-header has-text-centered">
+                            <span class="card-header-title">Base Stats</span>
+                        </div>
+
+                        <div class="card-content" style="padding-top: 0.25rem;">
+                            <table class="table is-fullwidth">
+                                <thead>
+                                <tr>
+                                    <th class="has-text-right">Stat</th>
+                                    <th class="has-text-right">Value</th>
+                                    <th></th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                    {{ stat("hp", "HP", "Hit Points") }}
+                                    {{ stat("atk", "Atk", "Physical Attack") }}
+                                    {{ stat("def_", "Def", "Physical Defence") }}
+                                    {{ stat("spa", "SpA", "Special Attack") }}
+                                    {{ stat("spd", "SpD", "Special Defence") }}
+                                    {{ stat("spe", "Spe", "Speed") }}
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -191,42 +215,70 @@
     </div>
 </div>
 
-<div class="columns is-centered mt-4">
-    <div class="column is-6">
-        <h2 class="title has-text-centered">Level-up Moveset</h2>
-        <hr/>
+<div class="container-fluid" style="padding-left: 2em; padding-right: 2em;">
+    <div id="pkm-move-block" class="columns is-centered mt-4">
+        <div class="column is-one-third">
+            <h2 class="title has-text-centered">Level-up Moveset</h2>
+            <hr/>
 
-        <table class="table is-fullwidth is-striped sortable">
-            <thead>
-            <tr class="is-primary">
-                <th style="text-align: right">Level</th>
-                <th style="text-align: center">Move</th>
-                <th style="text-align: center">Type</th>
-                <th style="text-align: center"><abbr title="Category, physical or special">Cat</abbr></th>
-                <th style="text-align: right"><abbr title="Base Power">BP</abbr></th>
-                <th style="text-align: right"><abbr title="Accuracy">Acc</abbr></th>
-            </tr>
-            </thead>
+            <table class="table is-fullwidth is-striped sortable">
+                <thead>
+                {{ move_table_header("Level") }}
+                </thead>
 
-            <tbody>
-            {% for move_name in species.raw_egg_moves %}
-            {{ move("Egg", move_name) }}
-            {% endfor %}
+                <tbody>
+                {% for move_name in species.raw_egg_moves %}
+                {{ move("Egg", move_name) }}
+                {% endfor %}
 
-            {% for lvl_up_move in species.raw_level_up_moves %}
-            {% if lvl_up_move.at_level == 0 %}
-            {{ move("Evolution", lvl_up_move.name) }}
-            {% elif lvl_up_move.at_level == 1 %}
-            {{ move("Start", lvl_up_move.name) }}
-            {% else %}
-            {{ move(lvl_up_move.at_level, lvl_up_move.name) }}
-            {% endif %}
-            {% endfor %}
-            </tbody>
-        </table>
+                {% for lvl_up_move in species.raw_level_up_moves %}
+                {% if lvl_up_move.at_level == 0 %}
+                {{ move("Evolution", lvl_up_move.name) }}
+                {% elif lvl_up_move.at_level == 1 %}
+                {{ move("Start", lvl_up_move.name) }}
+                {% else %}
+                {{ move(lvl_up_move.at_level, lvl_up_move.name) }}
+                {% endif %}
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+        <div class="column is-one-third">
+            <h2 class="title has-text-centered">TM Learnset</h2>
+            <hr/>
+
+            <table class="table is-fullwidth is-striped sortable">
+                <thead>
+                {{ move_table_header("TM") }}
+                </thead>
+
+                <tbody>
+                {% for move_name in species.raw_tms %}
+                {% set tm = catalog.tm_id_for(move_name) %}
+                {{ move(tm, move_name) }}
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+        <div class="column is-one-third">
+            <h2 class="title has-text-centered">Tutor Learnset</h2>
+            <hr/>
+
+            <table class="table is-fullwidth is-striped sortable">
+                <thead>
+                {{ move_table_header(None) }}
+                </thead>
+
+                <tbody>
+                {% for move_name in species.raw_tutor_moves %}
+                {{ move(None, move_name) }}
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
     </div>
-
-    <div class="column is-6"></div>
 </div>
 
 <script>

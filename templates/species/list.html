@@ -60,8 +60,12 @@
                     >
                 </td>
                 <td><a href="/species/specific/{{ species.internal_name.lower() }}.html">{{ species.name }}</a></td>
+                {% if type_1_name == type_2_name %}
+                <td class="bg-{{ type_1_name.lower() }} has-text-centered" style="color: white" colspan="2">{{ type_1_name }}</td>
+                {% else %}
                 <td class="bg-{{ type_1_name.lower() }}" style="color: white">{{ type_1_name }}</td>
                 <td class="bg-{{ type_2_name.lower() }}" style="color: white">{{ type_2_name }}</td>
+                {% endif %}
             </tr>
         {% endfor %}
         </tbody>
