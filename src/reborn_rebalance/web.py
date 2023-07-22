@@ -7,7 +7,6 @@ import jinja2
 from reborn_rebalance.pbs.catalog import EssentialsCatalog
 from reborn_rebalance.pbs.move import MoveCategory
 
-
 # todo: hardcode the paths less
 
 
@@ -34,9 +33,7 @@ def main():
     env.globals["MoveCategory"] = MoveCategory
 
     with (output_dir / "species" / "list.html").open(mode="w", encoding="utf-8") as f:
-        f.write(env.get_template("species/list.html").render(
-            species_definitions=catalog.species
-        ))
+        f.write(env.get_template("species/list.html").render(species_definitions=catalog.species))
 
     specific_mon_template = env.get_template("species/single.html")
     for idx, species in enumerate(catalog.species):

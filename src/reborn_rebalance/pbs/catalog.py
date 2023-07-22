@@ -1,23 +1,30 @@
 import csv
 from pathlib import Path
-from typing import Self, Optional
+from typing import Optional, Self
 
 import attr
 
 from reborn_rebalance.pbs.move import PokemonMove
 from reborn_rebalance.pbs.pokemon import PokemonSpecies
 from reborn_rebalance.pbs.raw.item import PokemonItem
-from reborn_rebalance.pbs.raw.tm import tm_number_for, TechnicalMachine
+from reborn_rebalance.pbs.raw.tm import TechnicalMachine, tm_number_for
 from reborn_rebalance.pbs.serialisation import (
     load_all_species_from_pbs,
     load_all_species_from_toml,
+    load_items_from_pbs,
+    load_items_from_toml,
     load_moves_from_pbs,
     load_moves_from_toml,
+    load_tms_from_pbs,
+    load_tms_from_toml,
     save_all_species_to_pbs,
     save_all_species_to_toml,
+    save_items_to_pbs,
+    save_items_to_toml,
     save_moves_to_pbs,
-    save_moves_to_toml, load_items_from_pbs, load_tms_from_pbs, save_items_to_toml,
-    save_tms_to_toml, save_items_to_pbs, save_tms_to_pbs, load_items_from_toml, load_tms_from_toml,
+    save_moves_to_toml,
+    save_tms_to_pbs,
+    save_tms_to_toml,
 )
 
 
@@ -61,8 +68,9 @@ class EssentialsCatalog:
         # (this is saved in the actual toml)
         # use the display names
         tm_move_mapping: dict[str, PokemonMove] = {it.internal_name: it for it in moves}
-        tm_item_mapping: dict[str, PokemonItem] = {it.move: it for it in items if
-                                                   it.display_name.startswith("TM")}
+        tm_item_mapping: dict[str, PokemonItem] = {
+            it.move: it for it in items if it.display_name.startswith("TM")
+        }
         tm_poke_mapping: dict[str, PokemonSpecies] = {it.internal_name: it for it in all_species}
 
         for tm in tms:
@@ -116,10 +124,7 @@ class EssentialsCatalog:
         tm_path = path / "tms.toml"
         tms = load_tms_from_toml(tm_path)
 
-        return cls(
-            species=species, moves=moves,
-            items=items, tms=tms
-        )
+        return cls(species=species, moves=moves, items=items, tms=tms)
 
     def save_to_toml(self, path: Path):
         """

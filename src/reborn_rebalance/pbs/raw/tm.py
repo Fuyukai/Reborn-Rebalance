@@ -10,7 +10,7 @@ from cattrs.gen import make_dict_unstructure_fn, override
 # as a side note, TMs 1..100 are Gen 5 TMs, and TMs 101..196 are Gen 8 TRs.
 # the fields here will be backfilled by the catalog.
 
-TM_NUMBER_REGEXP = re.compile(r'^(TMX?|HM)(\d{1,3})$')
+TM_NUMBER_REGEXP = re.compile(r"^(TMX?|HM)(\d{1,3})$")
 
 
 def tm_number_for(name: str) -> int:
@@ -26,10 +26,7 @@ class TechnicalMachine:
     @classmethod
     def add_unstructuring_hook(cls, converter: Converter):
         unst_hook = make_dict_unstructure_fn(
-            cls,
-            converter,
-            _cattrs_omit_if_default=True,
-            pokemon=override(omit=True)
+            cls, converter, _cattrs_omit_if_default=True, pokemon=override(omit=True)
         )
         converter.register_unstructure_hook(cls, unst_hook)
 

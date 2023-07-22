@@ -9,11 +9,10 @@ import prettyprinter
 from cattrs import Converter
 from cattrs.gen import make_dict_unstructure_fn
 
-from reborn_rebalance.pbs.move import PokemonMove, MoveCategory
+from reborn_rebalance.pbs.move import MoveCategory, PokemonMove
 from reborn_rebalance.pbs.raw.pokemon import raw_parse_pokemon_pbs
 from reborn_rebalance.pbs.type import PokemonType
 from reborn_rebalance.util import PbsBuffer, chunks
-
 
 # XXX: This currently has *some* code to support non-Reborn pokemon.txt, but practically speaking
 #      it only supports Reborn pokemon.txt. Keep that in mind.
@@ -191,7 +190,12 @@ class PokemonSpecies:
 
     @classmethod
     def add_unstructuring_hook(cls, converter: Converter):
-        for klass in [PokemonEvolution, PokemonSpecies, WildItems, cls, ]:
+        for klass in [
+            PokemonEvolution,
+            PokemonSpecies,
+            WildItems,
+            cls,
+        ]:
             unst_hook = make_dict_unstructure_fn(
                 klass,
                 converter,
@@ -538,6 +542,5 @@ if __name__ == "__main__":
             parsed.to_pbs(pbs_buffer)
 
         Path("./pokemon.txt").write_text(pbs_buffer.backing.getvalue())
-
 
     main()

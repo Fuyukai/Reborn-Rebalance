@@ -2,9 +2,9 @@ import attr
 from cattrs import Converter
 from cattrs.gen import make_dict_unstructure_fn
 
-
 # pretty much only used for TM parsing.
 # since TM definitions are (bafflingly) dependant on items (lol).
+
 
 @attr.s(kw_only=True, slots=True)
 class PokemonItem:
@@ -14,7 +14,11 @@ class PokemonItem:
 
     @classmethod
     def add_unstructuring_hook(cls, converter: Converter):
-        unst_hook = make_dict_unstructure_fn(cls, converter, _cattrs_omit_if_default=True, )
+        unst_hook = make_dict_unstructure_fn(
+            cls,
+            converter,
+            _cattrs_omit_if_default=True,
+        )
         converter.register_unstructure_hook(cls, unst_hook)
 
     #: The item ID for this item.

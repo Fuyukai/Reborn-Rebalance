@@ -5,7 +5,7 @@ from io import StringIO
 from pathlib import Path
 
 import cattrs
-from tomlkit import load, dump
+from tomlkit import dump, load
 
 from reborn_rebalance.pbs.move import MoveCategory, MoveFlag, MoveTarget, PokemonMove
 from reborn_rebalance.pbs.pokemon import (
@@ -277,7 +277,7 @@ def save_items_to_pbs(output_path: Path, items: list[PokemonItem]):
 
 def save_items_to_toml(output_path: Path, items: list[PokemonItem]):
     """
-    Saves all items to 
+    Saves all items to
     """
 
     items = sorted(items, key=lambda it: it.id)
@@ -330,7 +330,7 @@ def load_tms_from_toml(path: Path) -> list[TechnicalMachine]:
 
 def save_tms_to_toml(path: Path, tms: list[TechnicalMachine]):
     """
-    Saves all TMs to 
+    Saves all TMs to
     """
 
     # fucking sort these properly
