@@ -1,4 +1,6 @@
-import csv
+import types
+from collections.abc import Mapping
+from functools import cached_property
 from pathlib import Path
 from typing import Optional, Self
 
@@ -28,7 +30,20 @@ from reborn_rebalance.pbs.serialisation import (
 )
 
 
-@attr.s(slots=True, kw_only=True)
+@attr.s(frozen=True, slots=True, kw_only=True)
+class EvolutionaryChain:
+    """
+    A single chain of evolutions for a species.
+    """
+
+    #: What this Pokémon evolves from.
+    evolves_from: PokemonSpecies | None = attr.ib()
+
+    #: What this Pokémon evolves into.
+    evolves_into: list[PokemonSpecies] = attr.ib()
+
+
+@attr.s(slots=False, kw_only=True)
 class EssentialsCatalog:
     """
     Super-object that contains references to all of the data in the game.
@@ -46,6 +61,10 @@ class EssentialsCatalog:
     #: The list of all known TMs.
     tms: list[TechnicalMachine] = attr.ib()
 
+    @cached_property
+    def species_mapping(self) -> Mapping[str, PokemonSpecies]:
+        return types.MappingProxyType({it.internal_name: it for it in self.species})
+
     @classmethod
     def load_from_pbs(cls, path: Path) -> Self:
         """
@@ -54,6 +73,9 @@ class EssentialsCatalog:
 
         pokemon_path = path / "pokemon.txt"
         all_species = load_all_species_from_pbs(pokemon_path)
+
+        for idx, sp in enumerate(all_species):
+            sp.dex_number = idx + 1
 
         moves_path = path / "moves.txt"
         moves = load_moves_from_pbs(moves_path)
@@ -174,6 +196,7 @@ class EssentialsCatalog:
         save_tms_to_pbs(tm_txt, self.tms)
 
     # == Helper methods == #
+
     def move_by_name(self, internal_name: str) -> Optional[PokemonMove]:
         """
         Finds a move by name, or None if no such move exists.
@@ -195,3 +218,24 @@ class EssentialsCatalog:
                 return tm.number
 
         return None
+
+    def evolutionary_chain_for(self, species: PokemonSpecies) -> EvolutionaryChain | None:
+        """
+        Gets the evolutionary chain for this Pokémon.
+        """
+
+        before: PokemonSpecies | None = None
+        for poke in self.species:
+            for evo in poke.evolutions:
+                if evo.into_name == species.internal_name:
+                    before = poke
+                    break
+
+        after: list[PokemonSpecies] = []
+        for into in species.evolutions:
+            after.append(self.species_mapping[into.into_name])
+
+        if not (before or after):
+            return None
+
+        return EvolutionaryChain(evolves_from=before, evolves_into=after)

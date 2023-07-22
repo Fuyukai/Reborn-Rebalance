@@ -208,6 +208,9 @@ class PokemonSpecies:
         if rate > 255:
             raise ValueError(f"catch rate {rate} is > 255 (not allowed)")
 
+    #: The Pokédex number of this species. Backfilled.
+    dex_number: int = attr.ib(default=0)
+
     #: The name for this species, e.g. 'Togekiss'.
     name: str = attr.ib(kw_only=True)
 
@@ -411,6 +414,7 @@ class PokemonSpecies:
             raise ValueError(f"Unparsed Pokémon data: {list(data.keys())}")
 
         return PokemonSpecies(
+            dex_number=0,
             name=name,
             internal_name=internal_name,
             base_stats=base_stats,

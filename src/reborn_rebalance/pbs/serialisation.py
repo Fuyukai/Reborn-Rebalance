@@ -131,7 +131,7 @@ def save_all_species_to_pbs(path: Path, all_species: list[PokemonSpecies]):
     path.write_text(buffer.backing.getvalue(), encoding="utf-8")
 
 
-def save_single_species_to_toml(output_path: Path, species: PokemonSpecies, dex: int):
+def save_single_species_to_toml(output_path: Path, species: PokemonSpecies):
     """
     Saves a single species to a TOML file.
     """
@@ -166,7 +166,7 @@ def save_all_species_to_toml(output_path: Path, input_pokemon: list[PokemonSpeci
             print(f"Not overwriting {name}")
             continue
 
-        save_single_species_to_toml(toml_path, species, idx)
+        save_single_species_to_toml(toml_path, species)
         print(f"Saved {name}")
 
 
