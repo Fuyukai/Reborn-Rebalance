@@ -1,7 +1,70 @@
 {# takes in a list[PokemonSpecies], and generates a nice table list #}
 {% extends "_meta/_root.html" %}
 
+{%- macro table_half(is_second_half) -%}
+{% if not is_second_half %}
+{% set start_idx = 0 %}
+{% set end_idx = 494 %}
+{% else %}
+{% set start_idx = 494 %}
+{% set end_idx = species_definitions|length %}
+{% endif %}
+
+<div class="column is-half">
+    <table class="table is-fullwidth is-bordered sortable mx-auto vcentre">
+        <thead>
+        <tr>
+            <th><abbr title="National Dex Number">#</abbr></th>
+            <th class="no-sort">Icon</th>
+            <th>Species</th>
+            <th>Type 1</th>
+            <th>Type 2</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for species in species_definitions %}
+        {% set idx = loop.index %}
+        {% if loop.index0 >= start_idx and loop.index0 < end_idx %}
+        {% set s_idx = "{:04d}".format(idx) %}
+
+        {% set type_1_name = species.primary_type.localised_name %}
+        {% if species.secondary_type is none %}
+        {% set type_2_name = type_1_name %}
+        {% else %}
+        {% set type_2_name = species.secondary_type.localised_name %}
+        {% endif %}
+
+        <tr>
+            <td class="has-text-right">{{ s_idx }}</td>
+            <td class="has-text-centered">
+                <img
+                        x-idx="{{ s_idx }}"
+                        src="/sprites/{{ s_idx }}.png"
+                        alt="{{ species.name }}"
+                        height="64"
+                        width="64"
+                        onmouseover="swapWithShiny(this);"
+                        onmouseleave="unswapWithShiny(this);"
+                >
+            </td>
+            <td><a href="/species/specific/{{ species.internal_name.lower() }}.html">{{ species.name }}</a></td>
+            {% if type_1_name == type_2_name %}
+            <td class="bg-{{ type_1_name.lower() }} has-text-centered" style="color: white; border: none" colspan="2">{{ type_1_name }}</td>
+            {% else %}
+            <td class="bg-{{ type_1_name.lower() }} has-text-centered" style="color: white; border: none">{{ type_1_name }}</td>
+            <td class="bg-{{ type_2_name.lower() }} has-text-centered" style="color: white; border: none">{{ type_2_name }}</td>
+            {% endif %}
+        </tr>
+        {% endif %}
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
+{%- endmacro -%}
+
+
 {% block content %}
+<section class="section">
 <div class="container">
     <div class="columns is-centered">
         <div class="column is-6">
@@ -15,62 +78,11 @@
     </div>
 
     <div class="columns is-centered">
-        <div class="column is-2">
-            <div class="control is-large">
-                <input class="input" type="search" id="search-input" placeholder="Filter...">
-            </div>
-        </div>
-
+        {{ table_half(false) }}
+        {{ table_half(true) }}
     </div>
-
-    <table id="table" class="table is-bordered sortable mx-auto vcentre">
-        <thead>
-            <tr>
-                <th><abbr title="National Dex Number">#</abbr></th>
-                <th class="no-sort">Icon</th>
-                <th>Species</th>
-                <th>Type 1</th>
-                <th>Type 2</th>
-            </tr>
-        </thead>
-
-        <tbody>
-        {% for species in species_definitions %}
-        {% set idx = loop.index %}
-        {% set s_idx = "{:04d}".format(idx) %}
-
-        {% set type_1_name = species.primary_type.localised_name %}
-        {% if species.secondary_type is none %}
-        {% set type_2_name = type_1_name %}
-        {% else %}
-        {% set type_2_name = species.secondary_type.localised_name %}
-        {% endif %}
-
-            <tr>
-                <td>{{ s_idx }}</td>
-                <td>
-                    <img
-                            x-idx="{{ s_idx }}"
-                            src="/sprites/{{ s_idx }}.png"
-                            alt="{{ species.name }}"
-                            height="64"
-                            width="64"
-                            onmouseover="swapWithShiny(this);"
-                            onmouseleave="unswapWithShiny(this);"
-                    >
-                </td>
-                <td><a href="/species/specific/{{ species.internal_name.lower() }}.html">{{ species.name }}</a></td>
-                {% if type_1_name == type_2_name %}
-                <td class="bg-{{ type_1_name.lower() }} has-text-centered" style="color: white" colspan="2">{{ type_1_name }}</td>
-                {% else %}
-                <td class="bg-{{ type_1_name.lower() }}" style="color: white">{{ type_1_name }}</td>
-                <td class="bg-{{ type_2_name.lower() }}" style="color: white">{{ type_2_name }}</td>
-                {% endif %}
-            </tr>
-        {% endfor %}
-        </tbody>
-    </table>
 </div>
+</section>
 
 <script>
     function swapWithShiny(el) {
