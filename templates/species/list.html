@@ -1,5 +1,6 @@
 {# takes in a list[PokemonSpecies], and generates a nice table list #}
 {% extends "_meta/_root.html" %}
+{% from "helpers.html" import small_sprite %}
 
 {%- macro table_half(is_second_half) -%}
 {% if not is_second_half %}
@@ -37,15 +38,7 @@
         <tr>
             <td class="has-text-right">{{ s_idx }}</td>
             <td class="has-text-centered">
-                <img
-                        x-idx="{{ s_idx }}"
-                        src="/sprites/{{ s_idx }}.png"
-                        alt="{{ species.name }}"
-                        height="64"
-                        width="64"
-                        onmouseover="swapWithShiny(this);"
-                        onmouseleave="unswapWithShiny(this);"
-                >
+                {{ small_sprite(idx, species.name) }}
             </td>
             <td><a href="/species/specific/{{ species.internal_name.lower() }}.html">{{ species.name }}</a></td>
             {% if type_1_name == type_2_name %}

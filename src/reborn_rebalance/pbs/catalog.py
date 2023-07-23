@@ -7,7 +7,7 @@ from typing import Optional, Self
 import attr
 
 from reborn_rebalance.pbs.move import PokemonMove
-from reborn_rebalance.pbs.pokemon import PokemonSpecies
+from reborn_rebalance.pbs.pokemon import PokemonSpecies, PokemonEvolution
 from reborn_rebalance.pbs.raw.item import PokemonItem
 from reborn_rebalance.pbs.raw.tm import TechnicalMachine, tm_number_for
 from reborn_rebalance.pbs.serialisation import (
@@ -38,9 +38,11 @@ class EvolutionaryChain:
 
     #: What this Pokémon evolves from.
     evolves_from: PokemonSpecies | None = attr.ib()
+    #: The evolution data for said evolution.
+    evolves_from_evo: PokemonEvolution | None = attr.ib()
 
-    #: What this Pokémon evolves into.
-    evolves_into: list[PokemonSpecies] = attr.ib()
+    #: What this Pokémon evolves into, in (species, evolution data) format.
+    evolves_into: list[tuple[PokemonSpecies, PokemonEvolution]] = attr.ib()
 
 
 @attr.s(slots=False, kw_only=True)
@@ -196,7 +198,6 @@ class EssentialsCatalog:
         save_tms_to_pbs(tm_txt, self.tms)
 
     # == Helper methods == #
-
     def move_by_name(self, internal_name: str) -> Optional[PokemonMove]:
         """
         Finds a move by name, or None if no such move exists.
@@ -219,23 +220,40 @@ class EssentialsCatalog:
 
         return None
 
+    def item_loc_name(self, internal_name: str) -> str:
+        """
+        Gets an item's localised name from its internal name.
+        """
+
+        for item in self.items:
+            if item.internal_name == internal_name:
+                return item.display_name
+
+        raise ValueError(f"no such item {internal_name}")
+
     def evolutionary_chain_for(self, species: PokemonSpecies) -> EvolutionaryChain | None:
         """
         Gets the evolutionary chain for this Pokémon.
         """
 
         before: PokemonSpecies | None = None
+        before_evo: PokemonEvolution | None = None
         for poke in self.species:
             for evo in poke.evolutions:
                 if evo.into_name == species.internal_name:
+                    before_evo = evo
                     before = poke
                     break
 
-        after: list[PokemonSpecies] = []
+        after = []
         for into in species.evolutions:
-            after.append(self.species_mapping[into.into_name])
+            after.append((self.species_mapping[into.into_name], into))
 
         if not (before or after):
             return None
 
-        return EvolutionaryChain(evolves_from=before, evolves_into=after)
+        return EvolutionaryChain(
+            evolves_from=before,
+            evolves_from_evo=before_evo,
+            evolves_into=after
+        )

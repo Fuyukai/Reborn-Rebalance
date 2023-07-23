@@ -1,0 +1,68 @@
+{%- macro small_sprite(idx, name) -%}
+{% set s_idx = "{:04d}".format(idx) %}
+<img
+        x-idx="{{ s_idx }}"
+        src="/sprites/{{ s_idx }}.png"
+        style="image-rendering: pixelated;"
+        alt="{{ name }}"
+        height="64"
+        width="64"
+        onmouseover="swapWithShinyIcon(this);"
+        onmouseleave="unswapWithShinyIcon(this);"
+>
+{%- endmacro -%}
+
+{%- macro evo_description_for(catalog, from_, into, evo) -%}
+{% set type = evo.condition|lower %}
+
+{% if type == "happiness" %}
+    {% if evo.parameter %}
+    Evolves when reaching a happiness of at least <b>{{ evo.parameter }}</b>.
+    {% else %}
+    Evolves when reaching a happiness of at least <b>220</b>.
+    {% endif %}
+{% elif type == "happinessday" %}
+Evolves when reaching a happiness of at least <b>{{ evo.parameter }}</b> during the <i>day</i>.
+{% elif type == "happinessnight" %}
+Evolves when reaching a happiness of at least <b>{{ evo.parameter }}</b> during the <i>night</i>.
+{% elif type == "level" or type == "ninjask" %}
+Evolves when levelling up at level <b>{{ evo.parameter }}</b> or higher.
+{% elif type == "trade" %}
+Evolves when traded, or using a <i>Link Cable</i>.
+{% elif type == "tradeitem" %}
+{% set item_name = catalog.item_loc_name(evo.parameter) %}
+Evolves when traded (or using a <i>Link Cable</i>) holding a(n) <b>{{ item_name }}</b>.
+{% elif type == "item" %}
+{% set item_name = catalog.item_loc_name(evo.parameter) %}
+Evolves when using a(n) <b>{{ item_name }}</b>.
+{% elif type == "attackgreater" %}
+Evolves when <abbr title="Physical Attack"><i>Atk</i></abbr> is the larger stat, and at level <b>{{ evo.parameter }}</b>.
+{% elif type == "defensegreater" %}
+Evolves when <abbr title="Physical Defence"><i>Def</i></abbr> is the larger stat, and at level <b>{{ evo.parameter }}</b>.
+{% elif type == "atkdefequal" %}
+Evolves when <abbr title="Physical Attack"><i>Atk</i></abbr> and <abbr title="Physical Defence"><i>Def</i></abbr>
+are equal, and at level <b>{{ evo.parameter }}</b>.
+{% elif type == "silcoon" or type == "cascoon" %}
+Evolves randomly at level <b>{{ evo.parameter }}</b>.
+{% elif type == "shedinja" %}
+When Nincanda evolves, if there is an empty slot in your party and at least one free Pokéball,
+Shedinja will appear.
+{% elif type == "beauty" %}
+It's not known how this Pokémon evolves currently.
+{% elif type == "itemmale" %}
+{% set item_name = catalog.item_loc_name(evo.parameter) %}
+Evolves when male and using a(n) <b>{{ item_name }}</b>.
+{% elif type == "itemfemale" %}
+{% set item_name = catalog.item_loc_name(evo.parameter) %}
+Evolves when female and using a(n) <b>{{ item_name }}</b>.
+{% elif type == "dayholditem" %}
+{% set item_name = catalog.item_loc_name(evo.parameter) %}
+Evolves when levelled up holding a(n) <b>{{ item_name }}</b> during the <i>day</i>.
+{% elif type == "nightholditem" %}
+{% set item_name = catalog.item_loc_name(evo.parameter) %}
+Evolves when levelled up holding a(n) <b>{{ item_name }}</b> during the <i>night</i>.
+{% else %}
+Unknown evolution <code>{{ type }}</code> (param: <code>{{ evo.parameter }}</code>)
+{% endif %}
+
+{%- endmacro -%}

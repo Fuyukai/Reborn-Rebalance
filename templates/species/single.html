@@ -1,8 +1,9 @@
 {# Generates a single Pokémon page from a provided species object. #}
 {# provided params: species, pokedex_number #}
 {% extends "_meta/_root.html" %}
+{% from "helpers.html" import small_sprite, evo_description_for %}
 
-{% set s_idx = "{:04d}".format(pokedex_number) %}
+{% set s_idx = "{:04d}".format(species.dex_number) %}
 {% set type_1_name = species.primary_type.localised_name %}
 {% if species.secondary_type is none %}
 {% set type_2_name = type_1_name %}
@@ -130,6 +131,7 @@
                     <figure class="image is-square">
                         <img
                                 x-idx="{{ s_idx }}"
+                                style="image-rendering: pixelated;"
                                 src="/sprites/battler_{{ s_idx }}.png"
                                 alt="Battler sprite for {{ species.name }}"
                                 height="192"
@@ -212,6 +214,103 @@
                 </div>
             </div>
         </div>
+
+        <div class="column is-4">
+            {# eugh, this is terrible. this needs to go into a macro... #}
+            {% set chain = catalog.evolutionary_chain_for(species) %}
+            <div class="mt-auto mb-auto">
+            <div class="list">
+            {% if chain is none %}
+                <div class="list-item box">
+                    <div class="list-item-image">
+                        <figure class="image is-64x64">
+                            {{ small_sprite(species.dex_number, species.name) }}
+                        </figure>
+                    </div>
+
+                    <div class="list-item-content">
+                        <div class="list-item-title">Does not evolve</div>
+                        <div class="list-item-description">
+                            This Pokémon is the sole species in its evolutionary chain.
+                        </div>
+                    </div>
+                </div>
+            {% else %}
+                <div class="list-item box">
+                    {% if chain.evolves_from is not none %}
+                    <div class="list-item-image">
+                        <figure class="image is-64x64">
+                            {{ small_sprite(chain.evolves_from.dex_number, chain.evolves_from.name) }}
+                        </figure>
+                    </div>
+
+                    <div class="list-item-content">
+                        <div class="list-item-title">
+                            Evolves from <i>{{ chain.evolves_from.name }}</i>
+                        </div>
+                        <div class="list-item-description">
+                            {{ evo_description_for(catalog, chain.evolves_from, species, chain.evolves_from_evo) }}
+                        </div>
+                    </div>
+                    {% else %}
+                    <div class="list-item-image">
+                        <figure class="image is-64x64">
+                            {{ small_sprite(species.dex_number, species.name) }}
+                        </figure>
+                    </div>
+
+                    <div class="list-item-content">
+                        <div class="list-item-title">
+                            First in chain
+                        </div>
+                        <div class="list-item-description">
+                            This Pokémon is the <i>start</i> in its evolutionary chain.
+                        </div>
+                    </div>
+                    {% endif %}
+                </div>
+
+                {% if chain.evolves_into %}
+                {% for into_species, evo in chain.evolves_into %}
+                <div class="list-item box">
+                    <div class="list-item-image">
+                        <figure class="image is-64x64">
+                            {{ small_sprite(into_species.dex_number, into_species.name) }}
+                        </figure>
+                    </div>
+
+                    <div class="list-item-content">
+                        <div class="list-item-title">
+                            Evolves into <i>{{ into_species.name }}</i>
+                        </div>
+                        <div class="list-item-description">
+                            {{ evo_description_for(catalog, species, into_species, evo) }}
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+                {% else %}
+                <div class="list-item box">
+                    <div class="list-item-image">
+                        <figure class="image is-64x64">
+                            {{ small_sprite(species.dex_number, species.name) }}
+                        </figure>
+                    </div>
+
+                    <div class="list-item-content">
+                        <div class="list-item-title">
+                            Final in chain
+                        </div>
+                        <div class="list-item-description">
+                            This Pokémon is an <i>end</i> of its evolutionary chain.
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
+            {% endif %}
+            </div>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -280,14 +379,4 @@
         </div>
     </div>
 </div>
-
-<script>
-    function swapWithShiny(el) {
-        el.setAttribute("src", "/sprites/battler_" + el.getAttribute("x-idx") + "_shiny.png");
-    }
-
-    function unswapWithShiny(el) {
-        el.setAttribute("src", "/sprites/battler_" + el.getAttribute("x-idx") + ".png");
-    }
-</script>
 {% endblock %}
