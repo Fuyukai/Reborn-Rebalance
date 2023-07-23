@@ -119,7 +119,7 @@
     <div id="pkm-top-block" class="columns is-centered" style="padding-top: 2rem">
         <div class="column is-4 is-centered is-narrow">
             <div class="card">
-                <div class="card-header">
+                <div class="card-header" style="display: block;">
                     <p class="card-header-title has-text-centered">
                         {{ species.name }}
                         &nbsp;
@@ -136,8 +136,8 @@
                                 alt="Battler sprite for {{ species.name }}"
                                 height="192"
                                 width="192"
-                                onmouseover="swapWithShiny(this);"
-                                onmouseleave="unswapWithShiny(this);"
+                                onmouseover="swapWithShinyBattler(this);"
+                                onmouseleave="unswapWithShinyBattler(this);"
                                 class=""
                         >
                     </figure>
@@ -161,14 +161,16 @@
 
         <div class="column is-4" id="pokemon-display-2">
             <div class="columns is-multiline" style="margin-top: 0; height: 100%">
-                <div class="column is-full">
+                <div class="column is-full" style="margin-bottom: auto">
                     <div class="card">
                         <div class="card-header">
-                            <span class="card-header-title has-text-centered">Type</span>
+                            <p class="card-header-title has-text-centered">Type</p>
                         </div>
 
                         <footer class="card-footer">
-                            <a href="#" class="card-footer-item bg-{{ species.primary_type.name.lower() }}" style="color: white">
+                            <a href="#" class="card-footer-item bg-{{ species.primary_type.name.lower() }}"
+                               style="color: white; border-right: 0px;"
+                            >
                                 <strong>{{ species.primary_type.localised_name }}</strong>
                                 &nbsp;
                                 <i class="bi bi-link-45deg"></i>
@@ -185,21 +187,29 @@
                     </div>
                 </div>
 
+                <div class="column is-full">
+                    <div class="box">
+                        <div class="content">
+                            <p>{{ species.pokedex_entry }}</p>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="column is-full" style="margin-top: auto;">
                     <div class="card">
-                        <div class="card-header has-text-centered">
-                            <span class="card-header-title">Base Stats</span>
+                        <div class="card-header">
+                            <p class="card-header-title has-text-centered">Base Stats</p>
                         </div>
 
-                        <div class="card-content" style="padding-top: 0.25rem;">
+                        <div class="card-content" style="padding: 0.25rem;">
                             <table class="table is-fullwidth">
-                                <thead>
+                                <!--thead>
                                 <tr>
                                     <th class="has-text-right">Stat</th>
                                     <th class="has-text-right">Value</th>
                                     <th></th>
                                 </tr>
-                                </thead>
+                                </thead-->
                                 <tbody>
                                     {{ stat("hp", "HP", "Hit Points") }}
                                     {{ stat("atk", "Atk", "Physical Attack") }}
@@ -379,4 +389,10 @@
         </div>
     </div>
 </div>
+
+<style>
+    p.card-header-title.has-text-centered {
+        display: block;
+    }
+</style>
 {% endblock %}

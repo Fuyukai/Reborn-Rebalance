@@ -258,6 +258,16 @@ files = [
 plugins = ["importlib-metadata"]
 
 [[package]]
+name = "rubymarshal"
+version = "1.2.7"
+description = "Read and write Ruby-marshalled data"
+optional = false
+python-versions = "*"
+files = [
+    {file = "rubymarshal-1.2.7.tar.gz", hash = "sha256:94aa84fa42393f773c8215fab679bd3b72bbdb9f7931643d3672184cde9981d9"},
+]
+
+[[package]]
 name = "tomlkit"
 version = "0.11.8"
 description = "Style preserving TOML library"
@@ -271,4 +281,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "f71a27a0adc47e46ee241e54916c4ccbdcf8b583457869b950508bffe83436ea"
+content-hash = "5d1130673b837a6419cec8be6c9d59c80f72e440916e3b9a6a2310b4d5e7907d"
