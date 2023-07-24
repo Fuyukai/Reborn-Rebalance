@@ -293,13 +293,3 @@ class EncounterParser(object):
         self._push_map()
 
         return self._maps
-
-
-if __name__ == "__main__":
-    import prettyprinter
-
-    prettyprinter.install_extras(["attrs"])
-
-    prettyprinter.pprint(
-        parse_maps(Path("/home/laura/aur/pokemon/reborn/Data/MapInfos.rxdata"))
-    )

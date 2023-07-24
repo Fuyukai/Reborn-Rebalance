@@ -256,7 +256,10 @@
 
                     <div class="list-item-content">
                         <div class="list-item-title">
-                            Evolves from <i>{{ chain.evolves_from.name }}</i>
+                            Evolves from
+                            <a href="/species/specific/{{ chain.evolves_from.internal_name.lower() }}.html">
+                                <i>{{ chain.evolves_from.name }}</i>
+                            </a>
                         </div>
                         <div class="list-item-description">
                             {{ evo_description_for(catalog, chain.evolves_from, species, chain.evolves_from_evo) }}
@@ -291,7 +294,10 @@
 
                     <div class="list-item-content">
                         <div class="list-item-title">
-                            Evolves into <i>{{ into_species.name }}</i>
+                            Evolves into
+                            <a href="/species/specific/{{ into_species.internal_name.lower() }}.html">
+                                <i>{{ into_species.name }}</i>
+                            </a>
                         </div>
                         <div class="list-item-description">
                             {{ evo_description_for(catalog, species, into_species, evo) }}
@@ -324,8 +330,10 @@
     </div>
 </div>
 
+
+<section class="section">
 <div class="container-fluid" style="padding-left: 2em; padding-right: 2em;">
-    <div id="pkm-move-block" class="columns is-centered mt-4">
+    <div id="pkm-move-block" class="columns is-centered is-multiline">
         <div class="column is-one-third">
             <h2 class="title has-text-centered">Level-up Moveset</h2>
             <hr/>
@@ -351,6 +359,21 @@
                 {% endfor %}
                 </tbody>
             </table>
+
+            <h2 class="title has-text-centered">Tutor Learnset</h2>
+            <hr/>
+
+            <table class="table is-fullwidth is-striped sortable">
+                <thead>
+                {{ move_table_header(None) }}
+                </thead>
+
+                <tbody>
+                {% for move_name in species.raw_tutor_moves %}
+                {{ move(None, move_name) }}
+                {% endfor %}
+                </tbody>
+            </table>
         </div>
 
         <div class="column is-one-third">
@@ -372,23 +395,40 @@
         </div>
 
         <div class="column is-one-third">
-            <h2 class="title has-text-centered">Tutor Learnset</h2>
+            <h2 class="title has-text-centered">Wild Encounters</h2>
             <hr/>
 
-            <table class="table is-fullwidth is-striped sortable">
-                <thead>
-                {{ move_table_header(None) }}
-                </thead>
+            {% set encounters = catalog.encounters_for(species) %}
 
-                <tbody>
-                {% for move_name in species.raw_tutor_moves %}
-                {{ move(None, move_name) }}
+            <table class="table is-fullwidth is-striped">
+                <thead>
+                <tr class="is-primary">
+                    <th>Map</th>
+                    <th>Encounter Type</th>
+                    <th>Level Range</th>
+                    <th>Probability</th>
+                </tr>
+                </thead>
+                {% for map_id, encounter_mapping in encounters.items() %}
+                {% set map_name = catalog.map_names[map_id] %}
+                {% for type, encounter in encounter_mapping.items() %}
+                <tr>
+                    <td><abbr title="Map ID {{ map_id }}">{{ map_name }}</td>
+                    <td>{{ type }}</td>
+                    <td>{{ encounter.min_level }} - {{ encounter.max_level }}</td>
+                    <td>{{ encounter.chance }}%</td>
+                </tr>
                 {% endfor %}
-                </tbody>
+                {% endfor %}
             </table>
+
+            {% if not encounters %}
+            <h2 class="subtitle has-text-centered">This Pokémon does not appear in the wild.</h2>
+            {% endif %}
         </div>
     </div>
 </div>
+</section>
 
 <style>
     p.card-header-title.has-text-centered {

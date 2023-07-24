@@ -1,4 +1,5 @@
 import types
+from collections import defaultdict
 from collections.abc import Mapping
 from functools import cached_property
 from pathlib import Path
@@ -9,7 +10,11 @@ import tomlkit
 
 from reborn_rebalance.pbs.move import PokemonMove
 from reborn_rebalance.pbs.pokemon import PokemonEvolution, PokemonSpecies
-from reborn_rebalance.pbs.raw.encounters import MapEncounters, parse_maps
+from reborn_rebalance.pbs.raw.encounters import (
+    ENCOUNTER_SLOTS,
+    MapEncounters,
+    parse_maps,
+)
 from reborn_rebalance.pbs.raw.item import PokemonItem
 from reborn_rebalance.pbs.raw.tm import TechnicalMachine, tm_number_for
 from reborn_rebalance.pbs.serialisation import (
@@ -50,6 +55,29 @@ class EvolutionaryChain:
     evolves_into: list[tuple[PokemonSpecies, PokemonEvolution]] = attr.ib()
 
 
+@attr.s(frozen=False, slots=True)
+class ExpandedEncounterEntry:
+    """
+    An expanded encounter entry for usage with templates.
+    """
+
+    #: The name of the Pokémon this entry is for.
+    poke_name: str = attr.ib()
+
+    #: The percentage chance this entry is for.
+    chance: int = attr.ib()
+
+    min_level: int = attr.ib()
+    max_level: int = attr.ib()
+
+    def update(self, chance: int, min_level: int, max_level: int):
+        self.chance += chance
+        assert self.chance <= 100, "eeeh?"
+
+        self.min_level = min(min_level, self.min_level)
+        self.max_level = max(max_level, self.max_level)
+
+
 @attr.s(slots=False, kw_only=True)
 class EssentialsCatalog:
     """
@@ -77,6 +105,21 @@ class EssentialsCatalog:
     @cached_property
     def species_mapping(self) -> Mapping[str, PokemonSpecies]:
         return types.MappingProxyType({it.internal_name: it for it in self.species})
+
+    @cached_property
+    def species_to_encounter_map(self) -> Mapping[str, set[int]]:
+        """
+        A mapping of {species internal name: [map ID]} to avoid searching all maps repeatedly.
+        """
+
+        mapping = defaultdict(set)
+
+        for map_id, info in self.encounters.items():
+            for all_entries in info.encounters.values():
+                for entry in all_entries:
+                    mapping[entry.name].add(map_id)
+
+        return types.MappingProxyType(mapping)
 
     @classmethod
     def load_from_pbs(cls, path: Path) -> Self:
@@ -181,7 +224,11 @@ class EssentialsCatalog:
         encounters = load_encounters_from_toml(encounters_path)
 
         return cls(
-            species=species, moves=moves, items=items, tms=tms, map_names=maps,
+            species=species,
+            moves=moves,
+            items=items,
+            tms=tms,
+            map_names=maps,
             encounters=encounters,
         )
 
@@ -304,3 +351,46 @@ class EssentialsCatalog:
         return EvolutionaryChain(
             evolves_from=before, evolves_from_evo=before_evo, evolves_into=after
         )
+
+    def encounters_for(
+        self, species: PokemonSpecies
+    ) -> dict[int, dict[str, ExpandedEncounterEntry]]:
+        """
+        Gets a list of encounters for the provided Pokémon, and their chances.
+        """
+
+        # map id -> {encounter type -> chance}
+        found_encounters: dict[int, dict[str, ExpandedEncounterEntry]] = {}
+
+        # 3 nested loops! 3 nested loops!
+        for map_id in self.species_to_encounter_map[species.internal_name]:
+            info = self.encounters[map_id]
+
+            for ec_type, all_entries in info.encounters.items():
+                slots = ENCOUNTER_SLOTS[ec_type]
+
+                for slot_idx, entry in enumerate(all_entries):
+                    # oh god, five levels of indentation
+                    if entry.name != species.internal_name:
+                        continue
+
+                    subdict = found_encounters.setdefault(map_id, {})
+                    chance = slots[slot_idx]
+
+                    # make sure percentages are added up (lol?)
+                    # it's what the wiki does...
+                    if ec_type in subdict:
+                        subdict[ec_type].update(
+                            chance=chance,
+                            min_level=entry.minimum_level,
+                            max_level=entry.maximum_level,
+                        )
+                    else:
+                        subdict[ec_type] = ExpandedEncounterEntry(
+                            poke_name=species.internal_name,
+                            chance=chance,
+                            min_level=entry.minimum_level,
+                            max_level=entry.maximum_level,
+                        )
+
+        return found_encounters
