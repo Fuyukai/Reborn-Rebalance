@@ -5,6 +5,7 @@ from io import StringIO
 from pathlib import Path
 
 import cattrs
+import tomlkit
 from tomlkit import dump, load
 
 from reborn_rebalance.pbs.move import MoveCategory, MoveFlag, MoveTarget, PokemonMove
@@ -14,6 +15,7 @@ from reborn_rebalance.pbs.pokemon import (
     GrowthRate,
     PokemonSpecies,
 )
+from reborn_rebalance.pbs.raw.encounters import EncounterParser, MapEncounters
 from reborn_rebalance.pbs.raw.item import PokemonItem
 from reborn_rebalance.pbs.raw.pokemon import raw_parse_pokemon_pbs
 from reborn_rebalance.pbs.raw.tm import TechnicalMachine
@@ -301,7 +303,13 @@ def load_tms_from_pbs(path: Path) -> list[TechnicalMachine]:
         lines = [line for line in f.read().splitlines() if line and not line.startswith("#")]
         lines = chunks(lines, 2)
 
-        for move, pokemon in lines:
+        for line in lines:
+            try:
+                move, pokemon = line
+            except ValueError:
+                print(f"warning: bad line {line[0]}")
+                continue
+
             move = move[1:-1]
             pokemon = pokemon.split(",")
             tms.append(TechnicalMachine.incomplete_from_pbs(move, pokemon))
@@ -361,3 +369,72 @@ def save_tms_to_pbs(path: Path, tms: list[TechnicalMachine]):
         buffer.write("\n")
 
     path.write_text(buffer.getvalue(), encoding="utf-8")
+
+
+def load_encounters_from_pbs(path: Path) -> dict[int, MapEncounters]:
+    """
+    Loads the encounters data from the ``encounters.txt`` file.
+    """
+
+    parser = EncounterParser(path)
+    return parser.parse()
+
+
+def load_encounters_from_toml(path: Path) -> dict[int, MapEncounters]:
+    """
+    Loads the encounters data from the ``encounters.toml`` file.
+    """
+
+    with path.open(mode="r", encoding="utf-8") as f:
+        data = tomlkit.load(f)["encounters"]
+
+    encounters = {int(k): CONVERTER.structure(v, MapEncounters) for (k, v) in data.items()}
+    return encounters
+
+
+def save_encounters_to_pbs(path: Path, data: dict[int, MapEncounters]):
+    """
+    Saves the encounters data to PBS format.
+    """
+
+    with path.open(mode="w", encoding="utf-8") as f:
+        # aaaaaaaaahHHHH
+
+        for map_id, map_data in data.items():
+            # no clue if this is needed!
+            f.write("#########################\n")
+            f.write(f"{map_id:03d}\n")
+            map_data.write_out(f)
+
+
+def save_encounters_to_toml(
+    path: Path,
+    map_names: dict[int, str],
+    data: dict[int, MapEncounters]
+):
+    """
+    Saves the encounters data to TOML.
+    """
+
+    for idx, encounter in data.items():
+        # there's two removed areas still in the default encounters data
+        # removed map 107, which is an old version of... the pulse tangrowth forest in obsidia.
+        # notably, this has a few actual NPCs, a really old tangrowth sprite (?), and it segfaults
+        # mkxp-z. fun!
+        # the other removed map 550, which appears to be an unfinished "new" rhidochrine jungle.
+        # in the final game, the old rhidochrine jungle is always accessiblee from beryl ward
+        # instead.
+        # we skip those as there's no way to get there without save editing.
+
+        try:
+            name = map_names[idx]
+        except KeyError:
+            print(f"skipping encounter for removed map '{idx}'")
+            continue
+
+        filename = path / f"{idx:03d}_{name.lower().replace(' ', '_')}.toml"
+        if filename.exists():
+            continue
+
+        with filename.open(mode="w", encoding="utf-8") as f:
+            tomlkit.dump(CONVERTER.unstructure(encounter), f)

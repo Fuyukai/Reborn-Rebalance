@@ -5,9 +5,11 @@ from pathlib import Path
 from typing import Optional, Self
 
 import attr
+import tomlkit
 
 from reborn_rebalance.pbs.move import PokemonMove
-from reborn_rebalance.pbs.pokemon import PokemonSpecies, PokemonEvolution
+from reborn_rebalance.pbs.pokemon import PokemonEvolution, PokemonSpecies
+from reborn_rebalance.pbs.raw.encounters import parse_maps, MapEncounters
 from reborn_rebalance.pbs.raw.item import PokemonItem
 from reborn_rebalance.pbs.raw.tm import TechnicalMachine, tm_number_for
 from reborn_rebalance.pbs.serialisation import (
@@ -26,7 +28,7 @@ from reborn_rebalance.pbs.serialisation import (
     save_moves_to_pbs,
     save_moves_to_toml,
     save_tms_to_pbs,
-    save_tms_to_toml,
+    save_tms_to_toml, load_encounters_from_pbs, save_encounters_to_toml,
 )
 
 
@@ -62,6 +64,12 @@ class EssentialsCatalog:
 
     #: The list of all known TMs.
     tms: list[TechnicalMachine] = attr.ib()
+
+    #: The mapping of map IDs to map names.
+    map_names: dict[int, str] = attr.ib()
+
+    #: The mapping of encounters for map IDs to encounter data.
+    encounters: dict[int, MapEncounters] = attr.ib()
 
     @cached_property
     def species_mapping(self) -> Mapping[str, PokemonSpecies]:
@@ -128,7 +136,21 @@ class EssentialsCatalog:
         for poke in all_species:
             poke.raw_tms = [it.move for it in sorted(poke.raw_tms, key=lambda it: it.number)]
 
-        return cls(species=all_species, moves=moves, items=items, tms=tms)
+        # 🍳
+        map_file_path = (path / ".." / "Data" / "MapInfos.rxdata").absolute()
+        map_data = parse_maps(map_file_path)
+
+        encounter_path = path / "encounters.txt"
+        encounter_data = load_encounters_from_pbs(encounter_path)
+
+        return cls(
+            species=all_species,
+            moves=moves,
+            items=items,
+            tms=tms,
+            map_names=map_data,
+            encounters=encounter_data,
+        )
 
     @classmethod
     def load_from_toml(cls, path: Path) -> Self:
@@ -148,7 +170,11 @@ class EssentialsCatalog:
         tm_path = path / "tms.toml"
         tms = load_tms_from_toml(tm_path)
 
-        return cls(species=species, moves=moves, items=items, tms=tms)
+        maps_path = path / "map_names.toml"
+        with maps_path.open(encoding="utf-8") as f:
+            maps = {int(k): v for (k, v) in tomlkit.load(f).items()}
+
+        return cls(species=species, moves=moves, items=items, tms=tms, map_names=maps)
 
     def save_to_toml(self, path: Path):
         """
@@ -169,6 +195,20 @@ class EssentialsCatalog:
 
         tms_path = path / "tms.toml"
         save_tms_to_toml(tms_path, self.tms)
+
+        # practically speaking, this file will never change Reborn-side.
+        # so we don't bother updating it.
+        maps_path = path / "map_names.toml"
+        if not maps_path.exists():
+            with maps_path.open(mode="w", encoding="utf-8") as f:
+                tomlkit.dump(
+                    {str(k): v for (k, v) in sorted(self.map_names.items(), key=lambda it: it[0])},
+                    f
+                )
+
+        encounters_path = path / "encounters"
+        encounters_path.mkdir(exist_ok=True, parents=True)
+        save_encounters_to_toml(encounters_path, self.map_names, self.encounters)
 
     def save_to_pbs(self, pbs_dir: Path):
         """
@@ -253,7 +293,5 @@ class EssentialsCatalog:
             return None
 
         return EvolutionaryChain(
-            evolves_from=before,
-            evolves_from_evo=before_evo,
-            evolves_into=after
+            evolves_from=before, evolves_from_evo=before_evo, evolves_into=after
         )

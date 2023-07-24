@@ -1,0 +1,337 @@
+chances = [10, 4, 10]
+
+[encounters]
+[[encounters.Water]]
+name = "WAILMER"
+minimum_level = 60
+maximum_level = 70
+
+[[encounters.Water]]
+name = "LUMINEON"
+minimum_level = 60
+maximum_level = 70
+
+[[encounters.Water]]
+name = "WISHIWASHI"
+minimum_level = 65
+maximum_level = 80
+
+[[encounters.Water]]
+name = "SEAKING"
+minimum_level = 65
+maximum_level = 80
+
+[[encounters.Water]]
+name = "WISHIWASHI"
+minimum_level = 85
+maximum_level = 90
+
+[[encounters.OldRod]]
+name = "FINNEON"
+minimum_level = 42
+maximum_level = 50
+
+[[encounters.OldRod]]
+name = "GOLDEEN"
+minimum_level = 42
+maximum_level = 50
+
+[[encounters.GoodRod]]
+name = "LUMINEON"
+minimum_level = 50
+maximum_level = 59
+
+[[encounters.GoodRod]]
+name = "WISHIWASHI"
+minimum_level = 50
+maximum_level = 59
+
+[[encounters.GoodRod]]
+name = "BASCULIN"
+minimum_level = 50
+maximum_level = 65
+
+[[encounters.SuperRod]]
+name = "LUMINEON"
+minimum_level = 65
+maximum_level = 80
+
+[[encounters.SuperRod]]
+name = "WISHIWASHI"
+minimum_level = 65
+maximum_level = 80
+
+[[encounters.SuperRod]]
+name = "BASCULIN"
+minimum_level = 65
+maximum_level = 80
+
+[[encounters.SuperRod]]
+name = "SLOWPOKE"
+minimum_level = 65
+maximum_level = 80
+
+[[encounters.SuperRod]]
+name = "SLOWPOKE"
+minimum_level = 65
+maximum_level = 80
+
+[[encounters.HeadbuttLow]]
+name = "SWABLU"
+minimum_level = 65
+maximum_level = 80
+
+[[encounters.HeadbuttLow]]
+name = "PINECO"
+minimum_level = 65
+maximum_level = 80
+
+[[encounters.HeadbuttLow]]
+name = "AIPOM"
+minimum_level = 65
+maximum_level = 80
+
+[[encounters.HeadbuttLow]]
+name = "FORRETRESS"
+minimum_level = 65
+maximum_level = 80
+
+[[encounters.HeadbuttLow]]
+name = "AMBIPOM"
+minimum_level = 68
+maximum_level = 83
+
+[[encounters.HeadbuttLow]]
+name = "ALTARIA"
+minimum_level = 68
+maximum_level = 83
+
+[[encounters.HeadbuttLow]]
+name = "FORRETRESS"
+minimum_level = 70
+maximum_level = 90
+
+[[encounters.HeadbuttLow]]
+name = "ALTARIA"
+minimum_level = 70
+maximum_level = 90
+
+[[encounters.HeadbuttHigh]]
+name = "SWABLU"
+minimum_level = 65
+maximum_level = 80
+
+[[encounters.HeadbuttHigh]]
+name = "PINECO"
+minimum_level = 65
+maximum_level = 80
+
+[[encounters.HeadbuttHigh]]
+name = "AIPOM"
+minimum_level = 65
+maximum_level = 80
+
+[[encounters.HeadbuttHigh]]
+name = "FORRETRESS"
+minimum_level = 65
+maximum_level = 80
+
+[[encounters.HeadbuttHigh]]
+name = "AMBIPOM"
+minimum_level = 68
+maximum_level = 83
+
+[[encounters.HeadbuttHigh]]
+name = "ALTARIA"
+minimum_level = 68
+maximum_level = 83
+
+[[encounters.HeadbuttHigh]]
+name = "FORRETRESS"
+minimum_level = 70
+maximum_level = 90
+
+[[encounters.HeadbuttHigh]]
+name = "ALTARIA"
+minimum_level = 70
+maximum_level = 90
+
+[[encounters.LandMorning]]
+name = "AUDINO"
+minimum_level = 65
+maximum_level = 80
+
+[[encounters.LandMorning]]
+name = "PILOSWINE"
+minimum_level = 65
+maximum_level = 80
+
+[[encounters.LandMorning]]
+name = "ABOMASNOW"
+minimum_level = 65
+maximum_level = 80
+
+[[encounters.LandMorning]]
+name = "WHIMSICOTT"
+minimum_level = 65
+maximum_level = 80
+
+[[encounters.LandMorning]]
+name = "SAWSBUCK"
+minimum_level = 65
+maximum_level = 80
+
+[[encounters.LandMorning]]
+name = "CHANSEY"
+minimum_level = 65
+maximum_level = 80
+
+[[encounters.LandMorning]]
+name = "WIGGLYTUFF"
+minimum_level = 68
+maximum_level = 83
+
+[[encounters.LandMorning]]
+name = "HYPNO"
+minimum_level = 68
+maximum_level = 83
+
+[[encounters.LandMorning]]
+name = "ZANGOOSE"
+minimum_level = 68
+maximum_level = 83
+
+[[encounters.LandMorning]]
+name = "SHROOMISH"
+minimum_level = 65
+maximum_level = 70
+
+[[encounters.LandMorning]]
+name = "ZEBSTRIKA"
+minimum_level = 70
+maximum_level = 90
+
+[[encounters.LandMorning]]
+name = "ZANGOOSE"
+minimum_level = 70
+maximum_level = 90
+
+[[encounters.LandDay]]
+name = "AUDINO"
+minimum_level = 65
+maximum_level = 80
+
+[[encounters.LandDay]]
+name = "PILOSWINE"
+minimum_level = 65
+maximum_level = 80
+
+[[encounters.LandDay]]
+name = "WHIMSICOTT"
+minimum_level = 65
+maximum_level = 80
+
+[[encounters.LandDay]]
+name = "ABOMASNOW"
+minimum_level = 65
+maximum_level = 80
+
+[[encounters.LandDay]]
+name = "SAWSBUCK"
+minimum_level = 65
+maximum_level = 80
+
+[[encounters.LandDay]]
+name = "CHANSEY"
+minimum_level = 65
+maximum_level = 80
+
+[[encounters.LandDay]]
+name = "WIGGLYTUFF"
+minimum_level = 68
+maximum_level = 83
+
+[[encounters.LandDay]]
+name = "HYPNO"
+minimum_level = 68
+maximum_level = 83
+
+[[encounters.LandDay]]
+name = "ZEBSTRIKA"
+minimum_level = 68
+maximum_level = 83
+
+[[encounters.LandDay]]
+name = "SHROOMISH"
+minimum_level = 65
+maximum_level = 70
+
+[[encounters.LandDay]]
+name = "BISHARP"
+minimum_level = 70
+maximum_level = 90
+
+[[encounters.LandDay]]
+name = "ABSOL"
+minimum_level = 70
+maximum_level = 90
+
+[[encounters.LandNight]]
+name = "AUDINO"
+minimum_level = 65
+maximum_level = 80
+
+[[encounters.LandNight]]
+name = "PILOSWINE"
+minimum_level = 65
+maximum_level = 80
+
+[[encounters.LandNight]]
+name = "ABOMASNOW"
+minimum_level = 65
+maximum_level = 80
+
+[[encounters.LandNight]]
+name = "NOCTOWL"
+minimum_level = 65
+maximum_level = 80
+
+[[encounters.LandNight]]
+name = "HYPNO"
+minimum_level = 65
+maximum_level = 80
+
+[[encounters.LandNight]]
+name = "CHIMECHO"
+minimum_level = 65
+maximum_level = 80
+
+[[encounters.LandNight]]
+name = "ZEBSTRIKA"
+minimum_level = 68
+maximum_level = 83
+
+[[encounters.LandNight]]
+name = "CHANSEY"
+minimum_level = 68
+maximum_level = 83
+
+[[encounters.LandNight]]
+name = "BISHARP"
+minimum_level = 68
+maximum_level = 83
+
+[[encounters.LandNight]]
+name = "SHROOMISH"
+minimum_level = 65
+maximum_level = 70
+
+[[encounters.LandNight]]
+name = "TREVENANT"
+minimum_level = 70
+maximum_level = 90
+
+[[encounters.LandNight]]
+name = "ABSOL"
+minimum_level = 70
+maximum_level = 90
