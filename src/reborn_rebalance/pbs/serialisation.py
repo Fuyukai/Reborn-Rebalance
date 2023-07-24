@@ -385,10 +385,16 @@ def load_encounters_from_toml(path: Path) -> dict[int, MapEncounters]:
     Loads the encounters data from the ``encounters.toml`` file.
     """
 
-    with path.open(mode="r", encoding="utf-8") as f:
-        data = tomlkit.load(f)["encounters"]
+    encounters = {}
 
-    encounters = {int(k): CONVERTER.structure(v, MapEncounters) for (k, v) in data.items()}
+    for file in path.iterdir():
+        id = int(file.name.split("_", 1)[0])
+
+        with file.open(mode="r", encoding="utf-8") as f:
+            data = tomlkit.load(f)
+
+        encounters[id] = CONVERTER.structure(data, MapEncounters)
+
     return encounters
 
 
@@ -407,11 +413,7 @@ def save_encounters_to_pbs(path: Path, data: dict[int, MapEncounters]):
             map_data.write_out(f)
 
 
-def save_encounters_to_toml(
-    path: Path,
-    map_names: dict[int, str],
-    data: dict[int, MapEncounters]
-):
+def save_encounters_to_toml(path: Path, map_names: dict[int, str], data: dict[int, MapEncounters]):
     """
     Saves the encounters data to TOML.
     """

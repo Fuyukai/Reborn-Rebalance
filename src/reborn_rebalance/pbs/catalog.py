@@ -9,12 +9,14 @@ import tomlkit
 
 from reborn_rebalance.pbs.move import PokemonMove
 from reborn_rebalance.pbs.pokemon import PokemonEvolution, PokemonSpecies
-from reborn_rebalance.pbs.raw.encounters import parse_maps, MapEncounters
+from reborn_rebalance.pbs.raw.encounters import MapEncounters, parse_maps
 from reborn_rebalance.pbs.raw.item import PokemonItem
 from reborn_rebalance.pbs.raw.tm import TechnicalMachine, tm_number_for
 from reborn_rebalance.pbs.serialisation import (
     load_all_species_from_pbs,
     load_all_species_from_toml,
+    load_encounters_from_pbs,
+    load_encounters_from_toml,
     load_items_from_pbs,
     load_items_from_toml,
     load_moves_from_pbs,
@@ -23,12 +25,13 @@ from reborn_rebalance.pbs.serialisation import (
     load_tms_from_toml,
     save_all_species_to_pbs,
     save_all_species_to_toml,
+    save_encounters_to_toml,
     save_items_to_pbs,
     save_items_to_toml,
     save_moves_to_pbs,
     save_moves_to_toml,
     save_tms_to_pbs,
-    save_tms_to_toml, load_encounters_from_pbs, save_encounters_to_toml,
+    save_tms_to_toml,
 )
 
 
@@ -174,7 +177,13 @@ class EssentialsCatalog:
         with maps_path.open(encoding="utf-8") as f:
             maps = {int(k): v for (k, v) in tomlkit.load(f).items()}
 
-        return cls(species=species, moves=moves, items=items, tms=tms, map_names=maps)
+        encounters_path = path / "encounters"
+        encounters = load_encounters_from_toml(encounters_path)
+
+        return cls(
+            species=species, moves=moves, items=items, tms=tms, map_names=maps,
+            encounters=encounters,
+        )
 
     def save_to_toml(self, path: Path):
         """
@@ -203,7 +212,7 @@ class EssentialsCatalog:
             with maps_path.open(mode="w", encoding="utf-8") as f:
                 tomlkit.dump(
                     {str(k): v for (k, v) in sorted(self.map_names.items(), key=lambda it: it[0])},
-                    f
+                    f,
                 )
 
         encounters_path = path / "encounters"
@@ -229,10 +238,10 @@ class EssentialsCatalog:
 
         for poke in self.species:
             for tm in poke.raw_tms:
-                tm_mapping[tm].pokemon.append(poke.internal_name)
+                tm_mapping[tm].pokemon.add(poke.internal_name)
 
             for tm in poke.raw_tutor_moves:
-                tm_mapping[tm].pokemon.append(poke.internal_name)
+                tm_mapping[tm].pokemon.add(poke.internal_name)
 
         tm_txt = pbs_dir / "tm.txt"
         save_tms_to_pbs(tm_txt, self.tms)
