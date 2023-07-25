@@ -1,5 +1,5 @@
 {% extends "_meta/_root.html" %}
-{% from "changelog/macros.html" import gen_pokemon_changes %}
+{% from "changelog/macros.html" import gen_changelog_list %}
 
 {#
 the changelog format is optimised for display in pokemon views, NOT here.
@@ -19,13 +19,9 @@ this means we need to do some gross iteration hacks.
                 </a>
             </h2>
             <hr/>
-            <h3>Pokémon changes</h3>
-            <ul>
-                {% for id, changes in changelog.pokemon.items() %}
-                {% set species = catalog.species_mapping[id] %}
-                {{ gen_pokemon_changes(changes, species, version) }}
-                {% endfor %}
-            </ul>
+            {{ gen_changelog_list(changelog, "general", version) }}
+            {{ gen_changelog_list(changelog, "pokemon", version) }}
+            {{ gen_changelog_list(changelog, "moves", version) }}
             {% endfor %}
         </div>
     </div>

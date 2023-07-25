@@ -6,7 +6,7 @@ growth_rate = "Parabolic"
 exp_yield = 62
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["BLAZE", "SOLARPOWER"]
+raw_abilities = ["DEFIANT", "BLAZE", "SOLARPOWER"]
 raw_egg_moves = ["AIRCUTTER", "ANCIENTPOWER", "BEATUP", "BELLYDRUM", "BITE", "COUNTER", "CRUNCH", "DRAGONDANCE", "DRAGONPULSE", "DRAGONRUSH", "FLAREBLITZ", "FOCUSPUNCH", "METALCLAW", "OUTRAGE", "DRAGONTAIL"]
 raw_tms = ["WORKUP", "CUT", "DRAGONCLAW", "STRENGTH", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "FRUSTRATION", "RETURN", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "FIREBLAST", "ROCKTOMB", "AERIALACE", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "OVERHEAT", "FALSESWIPE", "FLING", "WILLOWISP", "ACROBATICS", "SHADOWCLAW", "SWORDSDANCE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "FIRESPIN", "DIG", "SCARYFACE", "BEATUP", "WEATHERBALL", "FIREFANG", "CRUNCH", "BODYSLAM", "FLAREBLITZ", "ENDURE", "DRAGONDANCE", "SWIFT"]
 raw_tutor_moves = ["ANCIENTPOWER", "DRAGONPULSE", "FIREPLEDGE", "FIREPUNCH", "FOCUSPUNCH", "FURYCUTTER", "HEADBUTT", "HEATWAVE", "HELPINGHAND", "IRONTAIL", "MUDSLAP", "OUTRAGE", "SNORE", "THUNDERPUNCH", "MIMIC", "CELEBRATE"]
@@ -34,32 +34,44 @@ at_level = 1
 name = "GROWL"
 
 [[raw_level_up_moves]]
-at_level = 7
+at_level = 5
 name = "EMBER"
+
+[[raw_level_up_moves]]
+at_level = 7
+name = "TWISTER"
 
 [[raw_level_up_moves]]
 at_level = 10
 name = "SMOKESCREEN"
 
 [[raw_level_up_moves]]
-at_level = 16
-name = "DRAGONRAGE"
+at_level = 17
+name = "QUICKATTACK"
 
 [[raw_level_up_moves]]
 at_level = 19
-name = "SCARYFACE"
+name = "DRAGONBREATH"
 
 [[raw_level_up_moves]]
-at_level = 25
-name = "FIREFANG"
-
-[[raw_level_up_moves]]
-at_level = 28
+at_level = 22
 name = "FLAMEBURST"
 
 [[raw_level_up_moves]]
+at_level = 25
+name = "METALCLAW"
+
+[[raw_level_up_moves]]
+at_level = 28
+name = "SCARYFACE"
+
+[[raw_level_up_moves]]
+at_level = 31
+name = "BODYSLAM"
+
+[[raw_level_up_moves]]
 at_level = 34
-name = "SLASH"
+name = "CRUNCH"
 
 [[raw_level_up_moves]]
 at_level = 37

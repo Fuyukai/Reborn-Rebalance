@@ -3,7 +3,11 @@ from reborn_rebalance.pbs.type import PokemonType
 
 
 def build_changes(builder: ChangelogBuilder):
-    builder.pokemon("bulbasaur", "Imported changes from BB2R")
+    builder.custom("Imported most Pokémon changes from Blaze Black 2 Redux.")
+    builder.custom("Imported most Pokémon changes for Gen 6-7 from Photonic Sun.")
+
+    builder.move("DRAGONRUSH").change_move_base_power(100, 85).change_move_accuracy(75, 90)
+    builder.move("WILDCHARGE").change_move_base_power(90, 120)
 
     for mon in ["starly", "staravia"]:
         star_builder = builder.pokemon(mon)

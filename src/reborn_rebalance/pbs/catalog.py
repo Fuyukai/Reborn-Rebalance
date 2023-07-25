@@ -117,6 +117,10 @@ class EssentialsCatalog:
         )
 
     @cached_property
+    def tm_name_mapping(self) -> Mapping[str, TechnicalMachine]:
+        return types.MappingProxyType({it.move: it for it in self.tms})
+
+    @cached_property
     def species_to_encounter_map(self) -> Mapping[str, set[int]]:
         """
         A mapping of {species internal name: [map ID]} to avoid searching all maps repeatedly.
@@ -214,8 +218,9 @@ class EssentialsCatalog:
         Loads all objects from toml files in the provided ``data`` directory.
         """
 
-        species_dir = path / "species"
-        species = load_all_species_from_toml(species_dir)
+        maps_path = path / "map_names.toml"
+        with maps_path.open(encoding="utf-8") as f:
+            maps = {int(k): v for (k, v) in tomlkit.load(f).items()}
 
         moves_file = path / "moves.toml"
         moves = load_moves_from_toml(moves_file)
@@ -226,14 +231,13 @@ class EssentialsCatalog:
         tm_path = path / "tms.toml"
         tms = load_tms_from_toml(tm_path)
 
-        maps_path = path / "map_names.toml"
-        with maps_path.open(encoding="utf-8") as f:
-            maps = {int(k): v for (k, v) in tomlkit.load(f).items()}
+        species_dir = path / "species"
+        species = load_all_species_from_toml(species_dir)
 
         encounters_path = path / "encounters"
         encounters = load_encounters_from_toml(encounters_path)
 
-        return cls(
+        instance = cls(
             species=species,
             moves=moves,
             items=items,
@@ -241,6 +245,9 @@ class EssentialsCatalog:
             map_names=maps,
             encounters=encounters,
         )
+
+        instance._validate()
+        return instance
 
     def save_to_toml(self, path: Path):
         """
@@ -290,18 +297,25 @@ class EssentialsCatalog:
         items_txt = pbs_dir / "items.txt"
         save_items_to_pbs(items_txt, self.items)
 
-        # re-fill the tms list
-        tm_mapping: dict[str, TechnicalMachine] = {tm.move: tm for tm in self.tms}
-
         for poke in self.species:
             for tm in poke.raw_tms:
-                tm_mapping[tm].pokemon.add(poke.internal_name)
+                self.tm_name_mapping[tm].pokemon.add(poke.internal_name)
 
             for tm in poke.raw_tutor_moves:
-                tm_mapping[tm].pokemon.add(poke.internal_name)
+                self.tm_name_mapping[tm].pokemon.add(poke.internal_name)
 
         tm_txt = pbs_dir / "tm.txt"
         save_tms_to_pbs(tm_txt, self.tms)
+
+    def _validate(self):
+        for species in self.species:
+            for tm in species.raw_tms:
+                if tm not in self.tm_name_mapping:
+                    raise ValueError(f"no such TM: {tm}")
+
+            for move in species.raw_level_up_moves:
+                if move.name not in self.move_mapping:
+                    raise ValueError(f"no such move: {move.name}")
 
     # == Helper methods == #
     def move_by_name(self, internal_name: str) -> Optional[PokemonMove]:

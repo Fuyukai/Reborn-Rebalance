@@ -1,12 +1,12 @@
 name = "Charizard"
 primary_type = "FIRE"
-secondary_type = "FLYING"
+secondary_type = "DRAGON"
 gender_ratio = "FemaleOneEighth"
 growth_rate = "Parabolic"
 exp_yield = 240
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["BLAZE", "SOLARPOWER"]
+raw_abilities = ["DEFIANT", "BLAZE", "SOLARPOWER"]
 raw_egg_moves = []
 raw_tms = ["WORKUP", "CUT", "DRAGONCLAW", "FLY", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "ROOST", "ROOST", "FRUSTRATION", "SOLARBEAM", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "SANDSTORM", "FIREBLAST", "ROCKTOMB", "AERIALACE", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "OVERHEAT", "STEELWING", "FOCUSBLAST", "FALSESWIPE", "FLING", "SKYDROP", "BRUTALSWING", "WILLOWISP", "ACROBATICS", "SHADOWCLAW", "GIGAIMPACT", "SWORDSDANCE", "BULLDOZE", "ROCKSLIDE", "DRAGONTAIL", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "FIRESPIN", "DIG", "SCARYFACE", "BEATUP", "WEATHERBALL", "FIREFANG", "CRUNCH", "AIRSLASH", "MYSTICALFIRE", "BREAKINGSWIPE", "BODYSLAM", "HURRICANE", "FLAREBLITZ", "ENDURE", "BLAZEKICK", "DRAGONDANCE", "HEATCRASH", "SWIFT"]
 raw_tutor_moves = ["AIRCUTTER", "ANCIENTPOWER", "BLASTBURN", "DEFOG", "DRAGONPULSE", "FIREPLEDGE", "FIREPUNCH", "FOCUSPUNCH", "FURYCUTTER", "HEADBUTT", "HEATWAVE", "HELPINGHAND", "IRONTAIL", "MUDSLAP", "OMINOUSWIND", "OUTRAGE", "SNORE", "TAILWIND", "THUNDERPUNCH", "TWISTER", "SCORCHINGSANDS", "DUALWINGBEAT", "SCALESHOT", "MIMIC"]
@@ -32,87 +32,92 @@ name = "WINGATTACK"
 
 [[raw_level_up_moves]]
 at_level = 1
-name = "FLAREBLITZ"
+name = "BELLYDRUM"
 
 [[raw_level_up_moves]]
-at_level = 1
-name = "HEATWAVE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "AIRSLASH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "DRAGONCLAW"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SHADOWCLAW"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SCRATCH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SMOKESCREEN"
-
-[[raw_level_up_moves]]
-at_level = 1
+at_level = 4
 name = "EMBER"
 
 [[raw_level_up_moves]]
 at_level = 7
-name = "EMBER"
-
-[[raw_level_up_moves]]
-at_level = 10
 name = "SMOKESCREEN"
 
 [[raw_level_up_moves]]
-at_level = 17
-name = "DRAGONRAGE"
+at_level = 13
+name = "BREAKINGSWIPE"
 
 [[raw_level_up_moves]]
-at_level = 21
-name = "SCARYFACE"
-
-[[raw_level_up_moves]]
-at_level = 28
+at_level = 16
 name = "FIREFANG"
 
 [[raw_level_up_moves]]
-at_level = 32
+at_level = 17
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = 20
+name = "DRAGONBREATH"
+
+[[raw_level_up_moves]]
+at_level = 22
 name = "FLAMEBURST"
 
 [[raw_level_up_moves]]
-at_level = 41
-name = "SLASH"
+at_level = 25
+name = "METALCLAW"
 
 [[raw_level_up_moves]]
-at_level = 47
-name = "FLAMETHROWER"
+at_level = 28
+name = "SCARYFACE"
 
 [[raw_level_up_moves]]
-at_level = 56
-name = "FIRESPIN"
+at_level = 31
+name = "BLAZEKICK"
 
 [[raw_level_up_moves]]
-at_level = 62
+at_level = 34
+name = "BODYSLAM"
+
+[[raw_level_up_moves]]
+at_level = 37
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = 40
+name = "RAGINGFURY"
+
+[[raw_level_up_moves]]
+at_level = 43
 name = "INFERNO"
 
 [[raw_level_up_moves]]
-at_level = 71
-name = "HEATWAVE"
+at_level = 46
+name = "FIRELASH"
 
 [[raw_level_up_moves]]
-at_level = 77
+at_level = 50
+name = "SCORCHINGSANDS"
+
+[[raw_level_up_moves]]
+at_level = 54
+name = "HEATCRASH"
+
+[[raw_level_up_moves]]
+at_level = 58
+name = "DRAGONRUSH"
+
+[[raw_level_up_moves]]
+at_level = 58
+name = "DRAGONRUSH"
+
+[[raw_level_up_moves]]
+at_level = 62
 name = "FLAREBLITZ"
+
+[[raw_level_up_moves]]
+at_level = 58
+name = "DRAGONDANCE"
+
 
 [base_stats]
 hp = 78

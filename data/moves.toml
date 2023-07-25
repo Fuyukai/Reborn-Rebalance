@@ -13676,7 +13676,23 @@ secondary_effect_chance = 0
 target_selection = "ANY_OTHER"
 priority = 0
 flags = ["PROTECTABLE", "MIRRORABLE", "FLINCH"]
-description = "The user shoots its own armor out as blazing projectiles. This lowers the user's Defense and Sp. Def stats.\n856,BITTERBLADE,Bitter Blade,0DD,90,FIRE,Physical,100,10,0,00,0,abef,A energy-draining slashing attack. The user's HP is restored by half the damage taken by the target.\""
+description = "The user shoots its own armor out as blazing projectiles. This lowers the user's Defense and Sp. Def stats."
+
+[[moves]]
+id = 856
+internal_name = "BITTERBLADE"
+display_name = "Bitter Blade"
+move_function = "0DD"
+base_power = 90
+type = "FIRE"
+category = "PHYSICAL"
+accuracy = 100
+max_pp = 10
+secondary_effect_chance = 0
+target_selection = "ANY_OTHER"
+priority = 0
+flags = ["MAKES_CONTACT", "PROTECTABLE", "MIRRORABLE", "FLINCH"]
+description = "An energy-draining slashing attack. The user's HP is restored by half the damage taken by the target."
 
 [[moves]]
 id = 857

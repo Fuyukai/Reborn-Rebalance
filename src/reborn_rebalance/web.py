@@ -8,7 +8,13 @@ from reborn_rebalance.changes import build_changelog
 from reborn_rebalance.pbs.catalog import EssentialsCatalog
 from reborn_rebalance.pbs.move import MoveCategory
 
+
 # todo: hardcode the paths less
+def changelog_klass(before: int, after: int):
+    if before > after:
+        return "has-text-danger"
+    else:
+        return "has-text-success"
 
 
 def main():
@@ -34,6 +40,7 @@ def main():
     env.globals["catalog"] = catalog
     env.globals["changelog"] = changelog
     env.globals["MoveCategory"] = MoveCategory
+    env.globals["changelog_klass"] = changelog_klass
 
     with (output_dir / "changelog.html").open(mode="w", encoding="utf-8") as f:
         f.write(env.get_template("changelog/page.html").render())
