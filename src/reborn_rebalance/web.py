@@ -4,6 +4,7 @@ from pathlib import Path
 
 import jinja2
 
+from reborn_rebalance.changes import build_changelog
 from reborn_rebalance.pbs.catalog import EssentialsCatalog
 from reborn_rebalance.pbs.move import MoveCategory
 
@@ -26,11 +27,16 @@ def main():
     (output_dir / "species" / "specific").mkdir(exist_ok=True, parents=True)
 
     catalog = EssentialsCatalog.load_from_toml(Path("./data"))
+    changelog = build_changelog(catalog)
 
     loader = jinja2.FileSystemLoader(searchpath=Path("./templates").absolute())
     env = jinja2.Environment(loader=loader, undefined=jinja2.StrictUndefined)
     env.globals["catalog"] = catalog
+    env.globals["changelog"] = changelog
     env.globals["MoveCategory"] = MoveCategory
+
+    with (output_dir / "changelog.html").open(mode="w", encoding="utf-8") as f:
+        f.write(env.get_template("changelog/page.html").render())
 
     with (output_dir / "species" / "list.html").open(mode="w", encoding="utf-8") as f:
         f.write(env.get_template("species/list.html").render(species_definitions=catalog.species))

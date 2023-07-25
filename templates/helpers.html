@@ -12,6 +12,22 @@
 >
 {%- endmacro -%}
 
+{%- macro base_stat_name(stat) -%}
+{% if stat == "hp" %}
+<abbr title="Hit Points">HP</abbr>
+{% elif stat == "atk" %}
+<abbr title="Physical Attack">Atk</abbr>
+{% elif stat == "def" %}
+<abbr title="Physical Defence">Def</abbr>
+{% elif stat == "spa" %}
+<abbr title="Special Attack">SpA</abbr>
+{% elif stat == "spd" %}
+<abbr title="Special Defence">SpD</abbr>
+{% elif stat == "spe" %}
+<abbr title="Speed">Spe</abbr>
+{% endif %}
+{%- endmacro -%}
+
 {%- macro evo_description_for(catalog, from_, into, evo) -%}
 {% set type = evo.condition|lower %}
 
@@ -65,4 +81,8 @@ Evolves when levelled up holding a(n) <b>{{ item_name }}</b> during the <i>night
 Unknown evolution <code>{{ type }}</code> (param: <code>{{ evo.parameter }}</code>)
 {% endif %}
 
+{%- endmacro -%}
+
+{%- macro type_link(type) -%}
+<a href="/types/{{ type.name.lower() }}">{{ type.localised_name }}</a>
 {%- endmacro -%}

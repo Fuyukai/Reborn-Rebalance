@@ -1,0 +1,78 @@
+{# Contains macros shared between the Pokémon and dedicated Changelog pages. #}
+{% from "helpers.html" import base_stat_name, type_link %}
+
+
+{# Generates the list of Pokémon changes for a single species. #}
+{%- macro gen_pokemon_changes(changeset, species, version) -%}
+{% if changeset.has_version(version) %}
+{% set changes = changeset._changes[version] %}
+<li><a href="/species/{{ species.internal_name.lower() }}.html">{{ species.name }}</a>
+    <ul>
+        {% if version in changeset._comments %}
+        <li>
+            {{ changeset._comments[version] }}
+        </li>
+        {% endif %}
+        {% for change in changes %}
+        <li>
+        {% set key = change["key"] %}
+
+        {% if key == "base_stat" %}
+            {% if change["from"] < change["to"] %}
+            {% set klass = "has-text-success" %}
+            {% else %}
+            {% set klass = "has-text-danger" %}
+            {% endif %}
+
+            <b class="{{ klass }}">
+                Changed base stat {{ base_stat_name(change["stat"]) }} from
+                <code>{{ change["from"] }}</code>
+                to
+                <code>{{ change["to"] }}</code>
+            </b>
+        {% elif key == "type" %}
+            {% set prev_type = change["prev"] %}
+            {% set new_type = change["new"] %}
+            {% if prev_type is none %}
+            Added type {{ type_link(new_type) }}
+            {% else %}
+            Changed type {{ type_link(prev_type) }} into {{ type_link(new_type) }}
+            {% endif %}
+        {% elif key == "move" %}
+            {% set type = change["type"] %}
+            {% set move = catalog.move_mapping[change["move"]] %}
+
+            {% if type == "level" %}
+            {% set level = change.get("level", None) %}
+
+            {% if level is none %}
+            <b class="has-text-danger">Removed level-up move
+                <a href="/moves/{{ move.internal_name.lower() }}">{{ move.display_name }}</a>
+            </b>
+            {% else %}
+            <b class="has-text-success">Added level-up move
+                <a href="/moves/{{ move.internal_name.lower() }}">{{ move.display_name }}</a>
+                at level <i>{{ level }}</i>
+            </b>
+            {% endif %}
+
+            {% elif type == "tm_add" %}
+            {% set move = catalog.tm_move_for(change["number"]) %}
+
+            {% if change["action"] == add %}
+            <b class="has-text-success">Added TM
+                <a href="/moves/{{ move.internal_name.lower() }}">{{ move.display_name }}</a>
+            </b>
+            {% else %}
+            <b class="has-text-success">Removed TM
+                <a href="/moves/{{ move.internal_name.lower() }}">{{ move.display_name }}</a>
+            </b>
+            {% endif %}
+
+        {% endif %}
+        </li>
+        {% endfor %}
+    </ul>
+</li>
+{% endif %}
+{%- endmacro -%}

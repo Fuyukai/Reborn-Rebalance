@@ -107,6 +107,16 @@ class EssentialsCatalog:
         return types.MappingProxyType({it.internal_name: it for it in self.species})
 
     @cached_property
+    def move_mapping(self) -> Mapping[str, PokemonMove]:
+        return types.MappingProxyType({it.internal_name: it for it in self.moves})
+
+    @cached_property
+    def regular_tm_mapping(self) -> Mapping[int, TechnicalMachine]:
+        return types.MappingProxyType(
+            {it.number: it for it in self.tms if not (it.is_tmx or it.is_tutor)}
+        )
+
+    @cached_property
     def species_to_encounter_map(self) -> Mapping[str, set[int]]:
         """
         A mapping of {species internal name: [map ID]} to avoid searching all maps repeatedly.
@@ -315,6 +325,14 @@ class EssentialsCatalog:
                 return tm.number
 
         return None
+
+    def tm_move_for(self, id: int) -> PokemonMove:
+        """
+        Finds a TM's name by number.
+        """
+
+        move_name = self.regular_tm_mapping[id].move
+        return self.move_mapping[move_name]
 
     def item_loc_name(self, internal_name: str) -> str:
         """

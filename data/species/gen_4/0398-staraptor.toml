@@ -1,6 +1,6 @@
 name = "Staraptor"
-primary_type = "NORMAL"
-secondary_type = "FLYING"
+primary_type = "FLYING"
+secondary_type = "FIGHTING"
 gender_ratio = "Female50Percent"
 growth_rate = "Parabolic"
 exp_yield = 214
@@ -28,14 +28,6 @@ internal_name = "STARAPTOR"
 [[raw_level_up_moves]]
 at_level = 0
 name = "CLOSECOMBAT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWL"
 
 [[raw_level_up_moves]]
 at_level = 1
@@ -70,8 +62,12 @@ at_level = 28
 name = "AERIALACE"
 
 [[raw_level_up_moves]]
+at_level = 29
+name = "STEELWING"
+
+[[raw_level_up_moves]]
 at_level = 33
-name = "TAKEDOWN"
+name = "DOUBLEEDGE"
 
 [[raw_level_up_moves]]
 at_level = 41
@@ -83,15 +79,15 @@ name = "BRAVEBIRD"
 
 [[raw_level_up_moves]]
 at_level = 57
-name = "FINALGAMBIT"
+name = "HIJUMPKICK"
 
 [base_stats]
 hp = 85
 atk = 120
-def_ = 70
+def_ = 65
 spa = 50
-spd = 60
-spe = 100
+spd = 50
+spe = 115
 
 [ev_yield]
 hp = 0
