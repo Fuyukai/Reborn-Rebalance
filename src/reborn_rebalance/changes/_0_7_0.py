@@ -9,6 +9,16 @@ def build_changes(builder: ChangelogBuilder):
     builder.move("DRAGONRUSH").change_move_base_power(100, 85).change_move_accuracy(75, 90)
     builder.move("WILDCHARGE").change_move_base_power(90, 120)
 
+    blastoise = builder.pokemon(
+        "BLASTOISE",
+        """
+        Mega Launcher Shell Smash Blastoise is disgustingly overpowered and easily carves through
+        most enemies. Whilst it was fine in BB2R, it's been removed from Reborn Rebalanced for this
+        reason.
+        """
+    )
+    blastoise.remove_level_up_move("SHELLSMASH")
+
     for mon in ["starly", "staravia"]:
         star_builder = builder.pokemon(mon)
         star_builder.remove_level_up_move("TAKEDOWN")

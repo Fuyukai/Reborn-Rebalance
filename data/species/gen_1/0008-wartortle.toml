@@ -6,7 +6,7 @@ growth_rate = "Parabolic"
 exp_yield = 142
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["TORRENT", "RAINDISH"]
+raw_abilities = ["SHELLARMOR", "TORRENT", "RAINDISH"]
 raw_egg_moves = []
 raw_tms = ["WORKUP", "SURF", "STRENGTH", "WATERFALL", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "FALSESWIPE", "SCALD", "FLING", "GYROBALL", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "WHIRLPOOL", "WEATHERBALL", "BRINE", "BODYSLAM", "HYDROPUMP", "ENDURE", "MUDDYWATER", "AURASPHERE"]
 raw_tutor_moves = ["AQUATAIL", "DRAGONPULSE", "FOCUSPUNCH", "HEADBUTT", "HELPINGHAND", "ICEPUNCH", "ICYWIND", "IRONDEFENSE", "IRONTAIL", "MUDSLAP", "OUTRAGE", "ROLLOUT", "SNORE", "WATERPLEDGE", "WATERPULSE", "ZENHEADBUTT", "FLIPTURN", "MIMIC"]
@@ -27,70 +27,78 @@ habitat = "WatersEdge"
 
 [[raw_level_up_moves]]
 at_level = 1
-name = "TACKLE"
+name = "BLOCK"
 
 [[raw_level_up_moves]]
 at_level = 1
 name = "TAILWHIP"
 
 [[raw_level_up_moves]]
-at_level = 1
+at_level = 5
 name = "WATERGUN"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "TAILWHIP"
 
 [[raw_level_up_moves]]
 at_level = 7
-name = "WATERGUN"
-
-[[raw_level_up_moves]]
-at_level = 10
 name = "WITHDRAW"
 
 [[raw_level_up_moves]]
+at_level = 10
+name = "AQUAJET"
+
+[[raw_level_up_moves]]
 at_level = 13
-name = "BUBBLE"
-
-[[raw_level_up_moves]]
-at_level = 17
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 21
-name = "RAPIDSPIN"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "PROTECT"
-
-[[raw_level_up_moves]]
-at_level = 29
 name = "WATERPULSE"
 
 [[raw_level_up_moves]]
-at_level = 33
-name = "AQUATAIL"
+at_level = 16
+name = "YAWN"
 
 [[raw_level_up_moves]]
-at_level = 35
+at_level = 17
+name = "MIRRORCOAT"
+
+[[raw_level_up_moves]]
+at_level = 20
+name = "RAPIDSPIN"
+
+[[raw_level_up_moves]]
+at_level = 22
+name = "BUBBLEBEAM"
+
+[[raw_level_up_moves]]
+at_level = 25
+name = "AQUARING"
+
+[[raw_level_up_moves]]
+at_level = 28
+name = "AVALANCHE"
+
+[[raw_level_up_moves]]
+at_level = 31
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = 34
 name = "SKULLBASH"
 
 [[raw_level_up_moves]]
+at_level = 37
+name = "BODYSLAM"
+
+[[raw_level_up_moves]]
 at_level = 40
-name = "SHELLSMASH"
+name = "MUDDYWATER"
 
 [[raw_level_up_moves]]
-at_level = 43
-name = "IRONDEFENSE"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "RAINDANCE"
+at_level = 49
+name = "ZENHEADBUTT"
 
 [[raw_level_up_moves]]
 at_level = 52
+name = "HAZE"
+
+[[raw_level_up_moves]]
+at_level = 55
 name = "HYDROPUMP"
 
 [[evolutions]]

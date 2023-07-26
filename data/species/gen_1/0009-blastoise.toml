@@ -6,10 +6,25 @@ growth_rate = "Parabolic"
 exp_yield = 239
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["TORRENT", "RAINDISH"]
+raw_abilities = ["SHELLARMOR", "TORRENT", "RAINDISH"]
 raw_egg_moves = []
-raw_tms = ["WORKUP", "SURF", "STRENGTH", "ROAR", "WATERFALL", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "ROCKCLIMB", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "SMACKDOWN", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "FOCUSBLAST", "FALSESWIPE", "SCALD", "FLING", "GIGAIMPACT", "GYROBALL", "BULLDOZE", "ROCKSLIDE", "DRAGONTAIL", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "DARKPULSE", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "WHIRLPOOL", "WEATHERBALL", "BRINE", "AVALANCHE", "CRUNCH", "BODYSLAM", "HYDROPUMP", "ENDURE", "MUDDYWATER", "AURASPHERE", "BODYPRESS"]
-raw_tutor_moves = ["AQUATAIL", "DRAGONPULSE", "FOCUSPUNCH", "HEADBUTT", "HELPINGHAND", "HYDROCANNON", "ICEPUNCH", "ICYWIND", "IRONDEFENSE", "IRONTAIL", "LIQUIDATION", "MUDSLAP", "OUTRAGE", "ROLLOUT", "SIGNALBEAM", "SNORE", "WATERPLEDGE", "WATERPULSE", "ZENHEADBUTT", "TERRAINPULSE", "FLIPTURN", "MIMIC"]
+raw_tms = [
+    "WORKUP", "SURF", "STRENGTH", "ROAR", "WATERFALL", "TOXIC", "DIVE", "HAIL", "ROCKSMASH",
+    "ROCKCLIMB", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE",
+    "FRUSTRATION", "SMACKDOWN", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "REFLECT",
+    "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "FOCUSBLAST", "FALSESWIPE", "SCALD",
+    "FLING", "GIGAIMPACT", "GYROBALL", "BULLDOZE", "ROCKSLIDE", "DRAGONTAIL", "SWAGGER",
+    "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "DARKPULSE", "POWERUPPUNCH",
+    "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "WHIRLPOOL", "WEATHERBALL", "BRINE", "AVALANCHE",
+    "CRUNCH", "BODYSLAM", "HYDROPUMP", "ENDURE", "MUDDYWATER", "AURASPHERE", "BODYPRESS",
+    "TRIATTACK", "AURASPHERE",
+]
+raw_tutor_moves = [
+    "AQUATAIL", "DRAGONPULSE", "FOCUSPUNCH", "HEADBUTT", "HELPINGHAND", "HYDROCANNON", "ICEPUNCH",
+    "ICYWIND", "IRONDEFENSE", "IRONTAIL", "LIQUIDATION", "MUDSLAP", "OUTRAGE", "ROLLOUT",
+    "SIGNALBEAM", "SNORE", "WATERPLEDGE", "WATERPULSE", "ZENHEADBUTT", "TERRAINPULSE", "FLIPTURN",
+    "MIMIC", "WAVECRASH"
+]
 compatible_egg_groups = ["Monster", "Water1"]
 steps_to_hatch = 5355
 height = 1.6
@@ -28,85 +43,89 @@ habitat = "WatersEdge"
 
 [[raw_level_up_moves]]
 at_level = 1
-name = "FLASHCANNON"
+name = "BLOCK"
 
 [[raw_level_up_moves]]
 at_level = 1
-name = "TACKLE"
+name = "DARKPULSE"
 
 [[raw_level_up_moves]]
 at_level = 1
-name = "TAILWHIP"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WATERGUN"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WITHDRAW"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "TAILWHIP"
+name = "DRAGONPULSE"
 
 [[raw_level_up_moves]]
 at_level = 7
-name = "WATERGUN"
-
-[[raw_level_up_moves]]
-at_level = 10
 name = "WITHDRAW"
 
 [[raw_level_up_moves]]
+at_level = 10
+name = "AQUAJET"
+
+[[raw_level_up_moves]]
 at_level = 13
-name = "BUBBLE"
-
-[[raw_level_up_moves]]
-at_level = 17
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 21
-name = "RAPIDSPIN"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "PROTECT"
-
-[[raw_level_up_moves]]
-at_level = 29
 name = "WATERPULSE"
 
 [[raw_level_up_moves]]
-at_level = 33
-name = "AQUATAIL"
+at_level = 16
+name = "YAWN"
 
 [[raw_level_up_moves]]
-at_level = 40
-name = "SHELLSMASH"
+at_level = 17
+name = "MIRRORCOAT"
 
 [[raw_level_up_moves]]
-at_level = 44
+at_level = 20
+name = "RAPIDSPIN"
+
+[[raw_level_up_moves]]
+at_level = 22
+name = "BUBBLEBEAM"
+
+[[raw_level_up_moves]]
+at_level = 25
+name = "AQUARING"
+
+[[raw_level_up_moves]]
+at_level = 28
+name = "AVALANCHE"
+
+[[raw_level_up_moves]]
+at_level = 31
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = 34
 name = "SKULLBASH"
 
 [[raw_level_up_moves]]
-at_level = 48
+at_level = 36
 name = "IRONDEFENSE"
 
 [[raw_level_up_moves]]
-at_level = 54
-name = "RAINDANCE"
+at_level = 37
+name = "BODYSLAM"
 
 [[raw_level_up_moves]]
-at_level = 60
+at_level = 40
+name = "MUDDYWATER"
+
+[[raw_level_up_moves]]
+at_level = 50
+name = "ZENHEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = 54
+name = "HAZE"
+
+[[raw_level_up_moves]]
+at_level = 58
 name = "HYDROPUMP"
 
 [base_stats]
 hp = 79
 atk = 83
 def_ = 100
-spa = 85
+spa = 90
 spd = 105
 spe = 78
 
