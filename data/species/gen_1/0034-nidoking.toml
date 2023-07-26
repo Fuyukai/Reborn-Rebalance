@@ -6,7 +6,7 @@ growth_rate = "Parabolic"
 exp_yield = 223
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["POISONPOINT", "RIVALRY"]
+raw_abilities = ["SHEERFORCE", "POISONPOINT", "RIVALRY"]
 raw_egg_moves = []
 raw_tms = ["CUT", "SURF", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "VENOSHOCK", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "SMACKDOWN", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "SLUDGEWAVE", "FLAMETHROWER", "SLUDGEBOMB", "SANDSTORM", "FIREBLAST", "ROCKTOMB", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "FOCUSBLAST", "FLING", "QUASH", "SHADOWCLAW", "SMARTSTRIKE", "GIGAIMPACT", "STONEEDGE", "BULLDOZE", "ROCKSLIDE", "DRAGONTAIL", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "PAYDAY", "DIG", "WHIRLPOOL", "BEATUP", "SANDTOMB", "ROCKBLAST", "MUDSHOT", "AVALANCHE", "HEX", "BODYSLAM", "MEGAHORN", "FOCUSENERGY", "AMNESIA", "ENDURE", "TOXICSPIKES", "VENOMDRENCH", "HIGHHORSEPOWER", "BODYPRESS"]
 raw_tutor_moves = ["AQUATAIL", "DRAGONPULSE", "DRILLRUN", "EARTHPOWER", "FIREPUNCH", "FOCUSPUNCH", "HEADBUTT", "HELPINGHAND", "ICEPUNCH", "ICYWIND", "IRONTAIL", "MUDSLAP", "OUTRAGE", "SHOCKWAVE", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "SUCKERPUNCH", "SUPERFANG", "SUPERPOWER", "THROATCHOP", "THUNDERPUNCH", "UPROAR", "WATERPULSE", "SCORCHINGSANDS", "MIMIC", "POISONTAIL"]
@@ -29,39 +29,47 @@ habitat = "Grassland"
 
 [[raw_level_up_moves]]
 at_level = 1
-name = "MEGAHORN"
+name = "AVALANCHE"
 
 [[raw_level_up_moves]]
 at_level = 1
-name = "PECK"
+name = "CONFUSION"
 
 [[raw_level_up_moves]]
 at_level = 1
-name = "FOCUSENERGY"
+name = "HEADSMASH"
 
 [[raw_level_up_moves]]
 at_level = 1
-name = "DOUBLEKICK"
+name = "HIGHHORSEPOWER"
+
+[[raw_level_up_moves]]
+at_level = 1
+name = "SMARTSTRIKE"
 
 [[raw_level_up_moves]]
 at_level = 1
 name = "POISONSTING"
 
 [[raw_level_up_moves]]
-at_level = 23
+at_level = 1
+name = "TOXICSPIKES"
+
+[[raw_level_up_moves]]
+at_level = 25
 name = "CHIPAWAY"
 
 [[raw_level_up_moves]]
 at_level = 35
-name = "THRASH"
+name = "POISONTAIL"
 
 [[raw_level_up_moves]]
-at_level = 43
-name = "EARTHPOWER"
+at_level = 45
+name = "MEGAHORN"
 
 [[raw_level_up_moves]]
 at_level = 58
-name = "MEGAHORN"
+name = "SCORCHINGSANDS"
 
 [base_stats]
 hp = 81

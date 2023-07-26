@@ -6,7 +6,7 @@ growth_rate = "Medium"
 exp_yield = 60
 catch_rate = 255
 caught_happiness = 70
-raw_abilities = ["SANDVEIL", "SANDRUSH"]
+raw_abilities = ["ROUGHSKIN", "SANDRUSH"]
 raw_egg_moves = ["CHIPAWAY", "COUNTER", "CRUSHCLAW", "ENDURE", "FLAIL", "HONECLAWS", "METALCLAW", "MUDSHOT", "NIGHTSLASH", "RAPIDSPIN", "ROCKCLIMB", "ROTOTILLER"]
 raw_tms = ["WORKUP", "CUT", "STRENGTH", "TOXIC", "HAIL", "ROCKSMASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "PROTECT", "SAFEGUARD", "FRUSTRATION", "EARTHQUAKE", "RETURN", "LEECHLIFE", "BRICKBREAK", "DOUBLETEAM", "SANDSTORM", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "FLING", "SHADOWCLAW", "AURORAVEIL", "GYROBALL", "SWORDSDANCE", "BULLDOZE", "FROSTBREATH", "ROCKSLIDE", "XSCISSOR", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "SANDTOMB", "ICICLESPEAR", "MUDSHOT", "AVALANCHE", "BODYSLAM", "AMNESIA", "ENDURE", "PLAYROUGH", "SWIFT"]
 raw_tutor_moves = ["AQUATAIL", "COVET", "EARTHPOWER", "FOCUSPUNCH", "FURYCUTTER", "HEADBUTT", "ICEPUNCH", "ICYWIND", "IRONDEFENSE", "IRONHEAD", "IRONTAIL", "KNOCKOFF", "MUDSLAP", "ROLLOUT", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "SUPERFANG", "THROATCHOP", "SCORCHINGSANDS", "TRIPLEAXEL", "STEELROLLER", "STEELBEAM", "ICEBALL", "MIMIC"]
@@ -27,71 +27,91 @@ habitat = "RoughTerrain"
 
 [[raw_level_up_moves]]
 at_level = 1
-name = "SCRATCH"
-
-[[raw_level_up_moves]]
-at_level = 1
 name = "DEFENSECURL"
 
 [[raw_level_up_moves]]
-at_level = 3
+at_level = 1
+name = "ROLLOUT"
+
+[[raw_level_up_moves]]
+at_level = 1
 name = "SANDATTACK"
 
 [[raw_level_up_moves]]
-at_level = 5
+at_level = 4
 name = "POISONSTING"
 
 [[raw_level_up_moves]]
 at_level = 7
-name = "ROLLOUT"
-
-[[raw_level_up_moves]]
-at_level = 9
-name = "RAPIDSPIN"
-
-[[raw_level_up_moves]]
-at_level = 11
-name = "FURYCUTTER"
-
-[[raw_level_up_moves]]
-at_level = 14
 name = "MAGNITUDE"
 
 [[raw_level_up_moves]]
-at_level = 17
-name = "SWIFT"
+at_level = 10
+name = "FURRYCUTTER"
 
 [[raw_level_up_moves]]
-at_level = 20
-name = "FURYSWIPES"
+at_level = 13
+name = "SCORCHINGSANDS"
 
 [[raw_level_up_moves]]
-at_level = 23
-name = "SANDTOMB"
+at_level = 16
+name = "METALCLAW"
 
 [[raw_level_up_moves]]
-at_level = 26
+at_level = 19
+name = "BULLDOZE"
+
+[[raw_level_up_moves]]
+at_level = 22
+name = "ACCELEROCK"
+
+[[raw_level_up_moves]]
+at_level = 24
 name = "SLASH"
 
 [[raw_level_up_moves]]
-at_level = 30
-name = "DIG"
+at_level = 24
+name = "NIGHTSLASH"
+
+[[raw_level_up_moves]]
+at_level = 26
+name = "SUPERFANG"
+
+[[raw_level_up_moves]]
+at_level = 28
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = 31
+name = "CHIPAWAY"
 
 [[raw_level_up_moves]]
 at_level = 34
-name = "GYROBALL"
+name = "SPIKES"
 
 [[raw_level_up_moves]]
-at_level = 38
-name = "SWORDSDANCE"
+at_level = 37
+name = "PINMISSILE"
 
 [[raw_level_up_moves]]
-at_level = 42
-name = "SANDSTORM"
+at_level = 40
+name = "DRILLRUN"
 
 [[raw_level_up_moves]]
-at_level = 46
-name = "EARTHQUAKE"
+at_level = 44
+name = "CRUSHCLAW"
+
+[[raw_level_up_moves]]
+at_level = 48
+name = "RAPIDSPIN"
+
+[[raw_level_up_moves]]
+at_level = 52
+name = "LEECHLIFE"
+
+[[raw_level_up_moves]]
+at_level = 56
+name = "FOCUSPUNCH"
 
 [[evolutions]]
 into_name = "SANDSLASH"

@@ -6,7 +6,7 @@ growth_rate = "Parabolic"
 exp_yield = 128
 catch_rate = 120
 caught_happiness = 70
-raw_abilities = ["POISONPOINT", "RIVALRY"]
+raw_abilities = ["HUSTLE", "POISONPOINT", "RIVALRY"]
 raw_egg_moves = []
 raw_tms = ["CUT", "STRENGTH", "TOXIC", "ROCKSMASH", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "DOUBLETEAM", "REFLECT", "SLUDGEBOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "SHADOWCLAW", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "CHARM", "BEATUP", "CRUNCH", "BODYSLAM", "FOCUSENERGY", "ENDURE", "TOXICSPIKES", "VENOMDRENCH"]
 raw_tutor_moves = ["EARTHPOWER", "HEADBUTT", "HELPINGHAND", "IRONTAIL", "MUDSLAP", "SHOCKWAVE", "SNORE", "STOMPINGTANTRUM", "SUPERFANG", "WATERPULSE", "MIMIC", "POISONTAIL"]
@@ -32,51 +32,79 @@ name = "GROWL"
 
 [[raw_level_up_moves]]
 at_level = 1
-name = "SCRATCH"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "TAILWHIP"
-
-[[raw_level_up_moves]]
-at_level = 9
-name = "DOUBLEKICK"
-
-[[raw_level_up_moves]]
-at_level = 13
 name = "POISONSTING"
 
 [[raw_level_up_moves]]
+at_level = 1
+name = "SCRATCH"
+
+[[raw_level_up_moves]]
+at_level = 1
+name = "TAILWHIP"
+
+[[raw_level_up_moves]]
+at_level = 4
+name = "PECK"  # fuck you, grass types!
+
+[[raw_level_up_moves]]
+at_level = 7
+name = "DOUBLEKICK"
+
+[[raw_level_up_moves]]
+at_level = 10
+name = "FURYATTACK"
+
+[[raw_level_up_moves]]
+at_level = 13
+name = "POISONFANG"
+
+[[raw_level_up_moves]]
+at_level = 16
+name = "HORNMATTACK"
+
+[[raw_level_up_moves]]
 at_level = 20
-name = "FURYSWIPES"
-
-[[raw_level_up_moves]]
-at_level = 23
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 28
 name = "HELPINGHAND"
 
 [[raw_level_up_moves]]
-at_level = 35
+at_level = 23
 name = "TOXICSPIKES"
 
 [[raw_level_up_moves]]
-at_level = 38
-name = "FLATTER"
+at_level = 26
+name = "POISONJAB"
 
 [[raw_level_up_moves]]
-at_level = 43
+at_level = 32
+name = "AMNESIA"
+
+[[raw_level_up_moves]]
+at_level = 36
 name = "CRUNCH"
 
 [[raw_level_up_moves]]
-at_level = 50
-name = "CAPTIVATE"
+at_level = 40
+name = "SMARTSTRIKE"
 
 [[raw_level_up_moves]]
-at_level = 58
-name = "POISONFANG"
+at_level = 44
+name = "POISONTAIL"
+
+[[raw_level_up_moves]]
+at_level = 48
+name = "SCORCHINGSANDS"
+
+[[raw_level_up_moves]]
+at_level = 52
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = 56
+name = "SUCKERPUNCH"
+
+[[raw_level_up_moves]]
+at_level = 60
+name = "HEADSMASH"
 
 [[evolutions]]
 into_name = "NIDOQUEEN"
