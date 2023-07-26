@@ -28,22 +28,6 @@ raw_hidden_ability = "UNNERVE"
 habitat = "Grassland"
 
 [[raw_level_up_moves]]
-at_level = 0
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ICEFANG"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "THUNDERFANG"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FIREFANG"
-
-[[raw_level_up_moves]]
 at_level = 1
 name = "WRAP"
 
@@ -53,78 +37,90 @@ name = "LEER"
 
 [[raw_level_up_moves]]
 at_level = 1
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 1
 name = "POISONSTING"
 
 [[raw_level_up_moves]]
 at_level = 4
-name = "POISONSTING"
-
-[[raw_level_up_moves]]
-at_level = 9
 name = "BITE"
 
 [[raw_level_up_moves]]
-at_level = 12
-name = "GLARE"
-
-[[raw_level_up_moves]]
-at_level = 17
-name = "SCREECH"
-
-[[raw_level_up_moves]]
-at_level = 20
+at_level = 7
 name = "ACID"
 
 [[raw_level_up_moves]]
-at_level = 27
-name = "STOCKPILE"
+at_level = 10
+name = "GLARE"
 
 [[raw_level_up_moves]]
-at_level = 27
-name = "SPITUP"
+at_level = 13
+name = "MUDBOMB"
 
 [[raw_level_up_moves]]
-at_level = 27
-name = "SWALLOW"
+at_level = 16
+name = "SCREECH"
+
+[[raw_level_up_moves]]
+at_level = 18
+name = "POISONFANG"
+
+[[raw_level_up_moves]]
+at_level = 20
+name = "COIL"
+
+[[raw_level_up_moves]]
+at_level = 23
+name = "FIREFANG"
+
+[[raw_level_up_moves]]
+at_level = 23
+name = "ICEFANG"
+
+[[raw_level_up_moves]]
+at_level = 23
+name = "THUNDERFANG"
+
+[[raw_level_up_moves]]
+at_level = 29
+name = "BREAKINGSWIPE"
 
 [[raw_level_up_moves]]
 at_level = 32
+name = "POISONTAIL"
+
+[[raw_level_up_moves]]
+at_level = 35
 name = "ACIDSPRAY"
 
 [[raw_level_up_moves]]
 at_level = 39
-name = "MUDBOMB"
+name = "SPITE"
 
 [[raw_level_up_moves]]
-at_level = 44
-name = "GASTROACID"
+at_level = 42
+name = "SUCKERPUNCH"
 
 [[raw_level_up_moves]]
-at_level = 48
-name = "BELCH"
+at_level = 45
+name = "LUNGE"
 
 [[raw_level_up_moves]]
-at_level = 51
-name = "HAZE"
+at_level = 52
+name = "CRUNCH"
 
 [[raw_level_up_moves]]
 at_level = 56
-name = "COIL"
+name = "HAZE"
 
 [[raw_level_up_moves]]
-at_level = 63
+at_level = 60
 name = "GUNKSHOT"
 
 [base_stats]
 hp = 60
-atk = 95
-def_ = 69
-spa = 65
-spd = 79
+atk = 110
+def_ = 70
+spa = 55
+spd = 80
 spe = 80
 
 [ev_yield]
