@@ -81,6 +81,10 @@
                 <b class="has-text-danger">Removed level-up move
                     <a href="/moves/{{ move.internal_name.lower() }}">{{ move.display_name }}</a>
                 </b>
+                {% elif level == 0 %}
+                <b class="has-text-success">Added evolution move
+                    <a href="/moves/{{ move.internal_name.lower() }}">{{ move.display_name }}</a>
+                </b>
                 {% else %}
                 <b class="has-text-success">Added level-up move
                     <a href="/moves/{{ move.internal_name.lower() }}">{{ move.display_name }}</a>
