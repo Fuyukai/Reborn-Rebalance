@@ -6,7 +6,7 @@ growth_rate = "Parabolic"
 exp_yield = 216
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["CHLOROPHYLL", "EFFECTSPORE"]
+raw_abilities = ["THICKFAT", "EFFECTSPORE"]
 raw_egg_moves = []
 raw_tms = ["CUT", "TOXIC", "FLASH", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "REFLECT", "SLUDGEWAVE", "SLUDGEBOMB", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "FLING", "GIGAIMPACT", "SWORDSDANCE", "INFESTATION", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "DAZZLINGGLEAM", "CONFIDE", "CHARM", "BULLETSEED", "GRASSYTERRAIN", "BODYSLAM", "ENDURE", "POLLENPUFF"]
 raw_tutor_moves = ["AFTERYOU", "DRAINPUNCH", "GASTROACID", "GIGADRAIN", "SEEDBOMB", "SNORE", "SYNTHESIS", "WORRYSEED", "GRASSYGLIDE", "CORROSIVEGAS", "MIMIC"]
@@ -28,11 +28,27 @@ habitat = "Grassland"
 
 [[raw_level_up_moves]]
 at_level = 1
-name = "MEGADRAIN"
+name = "DRAINPUNCH"
 
 [[raw_level_up_moves]]
 at_level = 1
-name = "AROMATHERAPY"
+name = "EARTHPOWER"
+
+[[raw_level_up_moves]]
+at_level = 1
+name = "GROWTH"
+
+[[raw_level_up_moves]]
+at_level = 1
+name = "NATUREPOWER"
+
+[[raw_level_up_moves]]
+at_level = 1
+name = "POISONPOWDER"
+
+[[raw_level_up_moves]]
+at_level = 1
+name = "SLEEPPOWDER"
 
 [[raw_level_up_moves]]
 at_level = 1
@@ -40,22 +56,34 @@ name = "STUNSPORE"
 
 [[raw_level_up_moves]]
 at_level = 1
-name = "POISONPOWDER"
+name = "TOXIC"
 
 [[raw_level_up_moves]]
-at_level = 39
-name = "CORROSIVEGAS"
+at_level = 25
+name = "SLUDGE"
 
 [[raw_level_up_moves]]
-at_level = 49
-name = "PETALBLIZZARD"
+at_level = 30
+name = "SEEDBOMB"
 
 [[raw_level_up_moves]]
-at_level = 59
+at_level = 36
+name = "GASTROACID"
+
+[[raw_level_up_moves]]
+at_level = 42
+name = "MOONBLAST"
+
+[[raw_level_up_moves]]
+at_level = 48
 name = "PETALDANCE"
 
 [[raw_level_up_moves]]
-at_level = 69
+at_level = 58
+name = "AROMATHERAPY"
+
+[[raw_level_up_moves]]
+at_level = 68
 name = "SOLARBEAM"
 
 [base_stats]

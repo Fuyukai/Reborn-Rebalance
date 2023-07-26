@@ -8,7 +8,16 @@ catch_rate = 190
 caught_happiness = 70
 raw_abilities = ["FLASHFIRE", "DROUGHT"]
 raw_egg_moves = ["CAPTIVATE", "DISABLE", "EXTRASENSORY", "FEINTATTACK", "FLAIL", "FLAREBLITZ", "HEATWAVE", "HEX", "HOWL", "HYPNOSIS", "POWERSWAP", "SECRETPOWER", "SPITE", "TAILSLAP", "MEMENTO"]
-raw_tms = ["ROAR", "TOXIC", "HAIL", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "RETURN", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "FIREBLAST", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "ROUND", "OVERHEAT", "ENERGYBALL", "WILLOWISP", "PAYBACK", "AURORAVEIL", "PSYCHUP", "FROSTBREATH", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "DARKPULSE", "DAZZLINGGLEAM", "CONFIDE", "FIRESPIN", "DIG", "CHARM", "IMPRISON", "WEATHERBALL", "POWERSWAP", "HEX", "TAILSLAP", "DRAININGKISS", "MYSTICALFIRE", "BODYSLAM", "FLAREBLITZ", "LEAFSTORM", "AGILITY", "ENDURE", "ENCORE", "SWIFT"]
+raw_tms = [
+    "ROAR", "TOXIC", "HAIL", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "PROTECT",
+    "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "RETURN", "DOUBLETEAM", "REFLECT", "FLAMETHROWER",
+    "FIREBLAST", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "ROUND", "OVERHEAT", "ENERGYBALL",
+    "WILLOWISP", "PAYBACK", "AURORAVEIL", "PSYCHUP", "FROSTBREATH", "SWAGGER", "SLEEPTALK",
+    "SUBSTITUTE", "SECRETPOWER", "DARKPULSE", "DAZZLINGGLEAM", "CONFIDE", "FIRESPIN", "DIG",
+    "CHARM", "IMPRISON", "WEATHERBALL", "POWERSWAP", "HEX", "TAILSLAP", "DRAININGKISS",
+    "MYSTICALFIRE", "BODYSLAM", "FLAREBLITZ", "LEAFSTORM", "AGILITY", "ENDURE", "ENCORE", "SWIFT",
+    "POWERGEM", "TRIATTACK"
+]
 raw_tutor_moves = ["AQUATAIL", "COVET", "FOULPLAY", "HEADBUTT", "HEALBELL", "HEATWAVE", "ICYWIND", "IRONTAIL", "OMINOUSWIND", "PAINSPLIT", "ROLEPLAY", "SNORE", "SPITE", "ZENHEADBUTT", "BURNINGJEALOUSY", "MIMIC", "CELEBRATE"]
 compatible_egg_groups = ["Field"]
 steps_to_hatch = 5355
@@ -30,80 +39,89 @@ at_level = 1
 name = "EMBER"
 
 [[raw_level_up_moves]]
-at_level = 4
+at_level = 1
+name = "SPITE"
+
+[[raw_level_up_moves]]
+at_level = 1
 name = "TAILWHIP"
 
 [[raw_level_up_moves]]
-at_level = 7
-name = "ROAR"
+at_level = 4
+name = "SAFEGUARD"
 
 [[raw_level_up_moves]]
-at_level = 9
-name = "BABYDOLLEYES"
+at_level = 7
+name = "CONFUSERAY"
 
 [[raw_level_up_moves]]
 at_level = 10
 name = "QUICKATTACK"
 
 [[raw_level_up_moves]]
-at_level = 12
-name = "CONFUSERAY"
-
-[[raw_level_up_moves]]
-at_level = 15
-name = "FIRESPIN"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "PAYBACK"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "WILLOWISP"
-
-[[raw_level_up_moves]]
-at_level = 23
-name = "FEINTATTACK"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "HEX"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "FLAMEBURST"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "EXTRASENSORY"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "SAFEGUARD"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "FLAMETHROWER"
-
-[[raw_level_up_moves]]
-at_level = 39
-name = "IMPRISON"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "FIREBLAST"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "GRUDGE"
-
-[[raw_level_up_moves]]
-at_level = 47
+at_level = 13
 name = "CAPTIVATE"
 
 [[raw_level_up_moves]]
-at_level = 50
+at_level = 16
+name = "FEINTATTACK"
+
+[[raw_level_up_moves]]
+at_level = 19
+name = "FIRESPIN"
+
+[[raw_level_up_moves]]
+at_level = 22
+name = "HYPNOSIS"
+
+[[raw_level_up_moves]]
+at_level = 25
+name = "ZENHEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = 28
+name = "HEX"
+
+[[raw_level_up_moves]]
+at_level = 31
+name = "FLAMEBURST"
+
+[[raw_level_up_moves]]
+at_level = 34
+name = "OMINOUSWIND"
+
+[[raw_level_up_moves]]
+at_level = 37
+name = "PAINSPLIT"
+
+[[raw_level_up_moves]]
+at_level = 40
+name = "IMPRISON"
+
+[[raw_level_up_moves]]
+at_level = 44
 name = "INFERNO"
+
+[[raw_level_up_moves]]
+at_level = 48
+name = "MEMENTO"
+
+[[raw_level_up_moves]]
+at_level = 52
+name = "FLAREBLITZ"
+
+[[raw_level_up_moves]]
+at_level = 56
+name = "EXTRASENSORY"
+
+[[raw_level_up_moves]]
+at_level = 60
+name = "GRUDGE"
+
+# easter egg
+[[raw_level_up_moves]]
+at_level = 101
+name = "ICEBEAM"
 
 [[evolutions]]
 into_name = "NINETALES"

@@ -23,56 +23,97 @@ battler_altitude = 0
 form_names = []
 dex_number = 46
 internal_name = "PARAS"
-raw_hidden_ability = "DAMP"
 habitat = "Forest"
+
+# lol, wtf is this movepool?
+
+[[raw_level_up_moves]]
+at_level = 1
+name = "ABSORB"
 
 [[raw_level_up_moves]]
 at_level = 1
 name = "SCRATCH"
 
 [[raw_level_up_moves]]
-at_level = 6
+at_level = 1
+name = "STRINGSHOT"
+
+[[raw_level_up_moves]]
+at_level = 4
+name = "PURSUIT"
+
+[[raw_level_up_moves]]
+at_level = 7
 name = "STUNSPORE"
 
 [[raw_level_up_moves]]
-at_level = 6
+at_level = 7
 name = "POISONPOWDER"
 
 [[raw_level_up_moves]]
-at_level = 11
-name = "ABSORB"
+at_level = 10
+name = "METALCLAW"
 
 [[raw_level_up_moves]]
-at_level = 17
-name = "FURYCUTTER"
+at_level = 13
+name = "BUGBITE"
 
 [[raw_level_up_moves]]
-at_level = 22
+at_level = 16
+name = "BULLETSEED"
+
+[[raw_level_up_moves]]
+at_level = 19
 name = "SPORE"
 
 [[raw_level_up_moves]]
+at_level = 21
+name = "STRUGGLEBUG"
+
+[[raw_level_up_moves]]
+at_level = 23
+name = "WIDEGUARD"
+
+[[raw_level_up_moves]]
+at_level = 25
+name = "LEECHLIFE"
+
+[[raw_level_up_moves]]
 at_level = 27
-name = "SLASH"
+name = "LEECHSEED"
 
 [[raw_level_up_moves]]
-at_level = 33
-name = "GROWTH"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "GIGADRAIN"
-
-[[raw_level_up_moves]]
-at_level = 43
+at_level = 29
 name = "AROMATHERAPY"
 
 [[raw_level_up_moves]]
-at_level = 49
-name = "RAGEPOWDER"
+at_level = 31
+name = "PSYBEAM"
 
 [[raw_level_up_moves]]
-at_level = 54
-name = "XSCISSOR"
+at_level = 34
+name = "SEEDBOMB"
+
+[[raw_level_up_moves]]
+at_level = 37
+name = "CROSSPOISON"
+
+[[raw_level_up_moves]]
+at_level = 40
+name = "CROSSCHOP"
+
+[[raw_level_up_moves]]
+at_level = 44
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = 48
+name = "GROWTH"
+
+[[raw_level_up_moves]]
+at_level = 52
+name = "LUNGE"
 
 [[evolutions]]
 into_name = "PARASECT"

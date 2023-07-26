@@ -64,7 +64,13 @@
 
 <tr>
     {% if level_up_at is not none %}
-    <td class="has-text-right">{{ level_up_at }}</td>
+    <td>
+    {% if level_up_at == "Start" %}
+        <abbr title="Only via the Move Relearner">{{ level_up_at }}</abbr>
+    {% else %}
+        {{ level_up_at }}
+    {% endif %}
+    </td>
     {% endif %}
     <td class="has-text-center">
         <a href="/moves/{{ move.internal_name }}">
@@ -105,7 +111,7 @@
         {{ move.accuracy }}
         {% endif %}
     </td>
-</tr>
+</td>
 {% endif %}
 {%- endmacro -%}
 

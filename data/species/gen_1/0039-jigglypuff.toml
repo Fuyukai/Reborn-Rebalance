@@ -8,7 +8,17 @@ catch_rate = 170
 caught_happiness = 70
 raw_abilities = ["CUTECHARM", "COMPETITIVE"]
 raw_egg_moves = []
-raw_tms = ["WORKUP", "STRENGTH", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "THUNDERBOLT", "THUNDER", "RETURN", "PSYCHIC", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "FIREBLAST", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "FLING", "CHARGEBEAM", "THUNDERWAVE", "GYROBALL", "PSYCHUP", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "POWERUPPUNCH", "DAZZLINGGLEAM", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "SCREECH", "SELFDESTRUCT", "FAKETEARS", "DRAININGKISS", "MISTYTERRAIN", "BODYSLAM", "HURRICANE", "TRIATTACK", "ENDURE", "BATONPASS", "PLAYROUGH", "RETALIATE", "ICESPINNER", "TRAILBLAZE", "CHILLINGWATER"]
+raw_tms = ["WORKUP", "STRENGTH", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM",
+    "BLIZZARD", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM",
+    "THUNDERBOLT", "THUNDER", "RETURN", "PSYCHIC", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM",
+    "REFLECT", "FLAMETHROWER", "FIREBLAST", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE",
+    "FLING", "CHARGEBEAM", "THUNDERWAVE", "GYROBALL", "PSYCHUP", "DREAMEATER", "GRASSKNOT",
+    "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "POWERUPPUNCH",
+    "DAZZLINGGLEAM", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "SCREECH", "SELFDESTRUCT",
+    "FAKETEARS", "DRAININGKISS", "MISTYTERRAIN", "BODYSLAM", "HURRICANE", "TRIATTACK",
+    "ENDURE", "BATONPASS", "PLAYROUGH", "RETALIATE", "ICESPINNER", "TRAILBLAZE",
+    "CHILLINGWATER", "POWERGEM"
+]
 raw_tutor_moves = ["ALLYSWITCH", "BOUNCE", "COVET", "DRAINPUNCH", "ENDEAVOR", "FIREPUNCH", "FOCUSPUNCH", "GRAVITY", "HEADBUTT", "HEALBELL", "HELPINGHAND", "HYPERVOICE", "ICEPUNCH", "ICYWIND", "KNOCKOFF", "LASTRESORT", "MAGICCOAT", "MUDSLAP", "PAINSPLIT", "RECYCLE", "ROLEPLAY", "ROLLOUT", "SHOCKWAVE", "SNATCH", "SNORE", "STEALTHROCK", "TELEKINESIS", "THUNDERPUNCH", "WATERPULSE", "STEELROLLER", "MISTYEXPLOSION", "MIMIC"]
 compatible_egg_groups = ["Fairy"]
 steps_to_hatch = 2805
@@ -23,88 +33,84 @@ battler_altitude = 0
 form_names = []
 dex_number = 39
 internal_name = "JIGGLYPUFF"
-raw_hidden_ability = "FRIENDGUARD"
 habitat = "Grassland"
+
 
 [[raw_level_up_moves]]
 at_level = 1
 name = "SING"
 
 [[raw_level_up_moves]]
-at_level = 3
+at_level = 1
 name = "DEFENSECURL"
 
 [[raw_level_up_moves]]
-at_level = 5
+at_level = 1
 name = "POUND"
 
 [[raw_level_up_moves]]
-at_level = 9
-name = "PLAYNICE"
+at_level = 4
+name = "FAKETEARS"
 
 [[raw_level_up_moves]]
-at_level = 11
+at_level = 7
+name = "BESTOW"
+
+[[raw_level_up_moves]]
+at_level = 9
 name = "DISARMINGVOICE"
 
 [[raw_level_up_moves]]
-at_level = 14
-name = "DISABLE"
-
-[[raw_level_up_moves]]
-at_level = 17
+at_level = 11
 name = "DOUBLESLAP"
 
 [[raw_level_up_moves]]
-at_level = 20
-name = "ROLLOUT"
+at_level = 17
+name = "METRONOME"
 
 [[raw_level_up_moves]]
-at_level = 22
-name = "ROUND"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "STOCKPILE"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "SWALLOW"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "SPITUP"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "WAKEUPSLAP"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "REST"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 35
-name = "GYROBALL"
-
-[[raw_level_up_moves]]
-at_level = 38
+at_level = 19
 name = "MIMIC"
 
 [[raw_level_up_moves]]
-at_level = 41
+at_level = 22
+name = "UPROAR"
+
+[[raw_level_up_moves]]
+at_level = 27
+name = "COVET"
+
+[[raw_level_up_moves]]
+at_level = 29
+name = "WISH"
+
+[[raw_level_up_moves]]
+at_level = 32
+name = "DRAININGKISS"
+
+[[raw_level_up_moves]]
+at_level = 36
+name = "BODYSLAM"
+
+[[raw_level_up_moves]]
+at_level = 40
 name = "HYPERVOICE"
 
 [[raw_level_up_moves]]
-at_level = 45
-name = "DOUBLEEDGE"
+at_level = 44
+name = "MOONBLAST"
 
 [[raw_level_up_moves]]
-at_level = 50
-name = "MISTYEXPLOSION"
+at_level = 49
+name = "PERISHSONG"
+
+[[raw_level_up_moves]]
+at_level = 54
+name = "PLAYROUGH"
+
+[[raw_level_up_moves]]
+at_level = 59
+name = "BOOMBURST"
 
 [[evolutions]]
 into_name = "WIGGLYTUFF"
@@ -113,9 +119,9 @@ parameter = "MOONSTONE"
 
 [base_stats]
 hp = 115
-atk = 45
+atk = 35
 def_ = 20
-spa = 45
+spa = 55
 spd = 25
 spe = 20
 

@@ -24,12 +24,15 @@ evolutions = []
 form_names = []
 dex_number = 47
 internal_name = "PARASECT"
-raw_hidden_ability = "DAMP"
 habitat = "Forest"
 
 [[raw_level_up_moves]]
+at_level = 0
+name = "RAGEPOWDER"
+
+[[raw_level_up_moves]]
 at_level = 1
-name = "CROSSPOISON"
+name = "ABSORB"
 
 [[raw_level_up_moves]]
 at_level = 1
@@ -37,66 +40,94 @@ name = "SCRATCH"
 
 [[raw_level_up_moves]]
 at_level = 1
+name = "STRINGSHOT"
+
+[[raw_level_up_moves]]
+at_level = 4
+name = "PURSUIT"
+
+[[raw_level_up_moves]]
+at_level = 7
 name = "STUNSPORE"
 
 [[raw_level_up_moves]]
-at_level = 1
+at_level = 7
 name = "POISONPOWDER"
 
 [[raw_level_up_moves]]
-at_level = 1
-name = "ABSORB"
+at_level = 10
+name = "METALCLAW"
 
 [[raw_level_up_moves]]
-at_level = 6
-name = "STUNSPORE"
+at_level = 13
+name = "BUGBITE"
 
 [[raw_level_up_moves]]
-at_level = 6
-name = "POISONPOWDER"
+at_level = 16
+name = "BULLETSEED"
 
 [[raw_level_up_moves]]
-at_level = 11
-name = "ABSORB"
-
-[[raw_level_up_moves]]
-at_level = 17
-name = "FURYCUTTER"
-
-[[raw_level_up_moves]]
-at_level = 22
+at_level = 19
 name = "SPORE"
 
 [[raw_level_up_moves]]
+at_level = 21
+name = "STRUGGLEBUG"
+
+[[raw_level_up_moves]]
+at_level = 23
+name = "WIDEGUARD"
+
+[[raw_level_up_moves]]
+at_level = 25
+name = "LEECHLIFE"
+
+[[raw_level_up_moves]]
+at_level = 27
+name = "LEECHSEED"
+
+[[raw_level_up_moves]]
 at_level = 29
-name = "SLASH"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "GROWTH"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "GIGADRAIN"
-
-[[raw_level_up_moves]]
-at_level = 51
 name = "AROMATHERAPY"
 
 [[raw_level_up_moves]]
-at_level = 59
-name = "RAGEPOWDER"
+at_level = 32
+name = "PSYBEAM"
 
 [[raw_level_up_moves]]
-at_level = 66
-name = "XSCISSOR"
+at_level = 35
+name = "SEEDBOMB"
+
+[[raw_level_up_moves]]
+at_level = 38
+name = "CROSSPOISON"
+
+[[raw_level_up_moves]]
+at_level = 42
+name = "CROSSCHOP"
+
+[[raw_level_up_moves]]
+at_level = 46
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = 50
+name = "GROWTH"
+
+[[raw_level_up_moves]]
+at_level = 54
+name = "LUNGE"
+
+[[raw_level_up_moves]]
+at_level = 58
+name = "SYNTHESIS"
 
 [base_stats]
 hp = 60
-atk = 95
-def_ = 80
-spa = 60
-spd = 80
+atk = 115
+def_ = 100
+spa = 55
+spd = 90
 spe = 30
 
 [ev_yield]

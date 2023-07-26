@@ -6,7 +6,7 @@ growth_rate = "Medium"
 exp_yield = 53
 catch_rate = 255
 caught_happiness = 70
-raw_abilities = ["SANDVEIL", "ARENATRAP"]
+raw_abilities = ["SANDFORCE", "ARENATRAP"]
 raw_egg_moves = ["ANCIENTPOWER", "ASTONISH", "BEATUP", "ENDURE", "FEINTATTACK", "FINALGAMBIT", "HEADBUTT", "MEMENTO", "MUDBOMB", "PURSUIT", "REVERSAL", "SCREECH", "UPROAR", "HONECLAWS"]
 raw_tms = ["WORKUP", "CUT", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "FRUSTRATION", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "SLUDGEBOMB", "SANDSTORM", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "SHADOWCLAW", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "CONFIDE", "DIG", "SCREECH", "BEATUP", "ASSURANCE", "BODYSLAM", "AGILITY", "REVERSAL", "ENDURE"]
 raw_tutor_moves = ["ALLYSWITCH", "ANCIENTPOWER", "EARTHPOWER", "IRONDEFENSE", "IRONHEAD", "MUDSLAP", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "SUCKERPUNCH", "UPROAR", "SCORCHINGSANDS", "STEELBEAM", "MIMIC"]
@@ -23,64 +23,95 @@ battler_altitude = 0
 form_names = ["Normal", "Alternate"]
 dex_number = 50
 internal_name = "DIGLETT"
-raw_hidden_ability = "SANDFORCE"
 habitat = "Cave"
+
+[[raw_level_up_moves]]
+at_level = 1
+name = "ASTONISH"
+
+[[raw_level_up_moves]]
+at_level = 1
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = 1
+name = "MUDSLAP"
 
 [[raw_level_up_moves]]
 at_level = 1
 name = "SCRATCH"
 
 [[raw_level_up_moves]]
-at_level = 1
+at_level = 4
 name = "SANDATTACK"
 
 [[raw_level_up_moves]]
-at_level = 4
-name = "GROWL"
-
-[[raw_level_up_moves]]
 at_level = 7
-name = "ASTONISH"
+name = "MUDBOMB"
 
 [[raw_level_up_moves]]
 at_level = 10
-name = "MUDSLAP"
+name = "ANCIENTPOWER"
 
 [[raw_level_up_moves]]
-at_level = 14
+at_level = 13
 name = "MAGNITUDE"
 
 [[raw_level_up_moves]]
-at_level = 18
+at_level = 10
+name = "PURSUIT"
+
+[[raw_level_up_moves]]
+at_level = 19
 name = "BULLDOZE"
 
 [[raw_level_up_moves]]
 at_level = 22
-name = "SUCKERPUNCH"
+name = "ALLYSWITCH"
 
 [[raw_level_up_moves]]
 at_level = 25
-name = "MUDBOMB"
+name = "SUCKERPUNCH"
 
 [[raw_level_up_moves]]
 at_level = 28
-name = "EARTHPOWER"
+name = "SCORCHINGSANDS"
 
 [[raw_level_up_moves]]
 at_level = 31
-name = "DIG"
+name = "REVERSAL"
 
 [[raw_level_up_moves]]
-at_level = 35
+at_level = 34
 name = "SLASH"
 
 [[raw_level_up_moves]]
-at_level = 39
-name = "EARTHQUAKE"
+at_level = 34
+name = "NIGHTSLASH"
 
 [[raw_level_up_moves]]
-at_level = 43
+at_level = 37
+name = "BEATUP"
+
+[[raw_level_up_moves]]
+at_level = 40
+name = "DOUBLEEDGE"
+
+[[raw_level_up_moves]]
+at_level = 44
+name = "HIGHHORSEPOWER"
+
+[[raw_level_up_moves]]
+at_level = 48
+name = "MEMENTO"
+
+[[raw_level_up_moves]]
+at_level = 52
 name = "FISSURE"
+
+[[raw_level_up_moves]]
+at_level = 56
+name = "FINALGAMBIT"
 
 [[evolutions]]
 into_name = "DUGTRIO"

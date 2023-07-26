@@ -1,6 +1,6 @@
 name = "Ninetales"
 primary_type = "FIRE"
-secondary_type = "FIRE"
+secondary_type = "FAIRY"
 gender_ratio = "Female75Percent"
 growth_rate = "Medium"
 exp_yield = 177
@@ -8,7 +8,18 @@ catch_rate = 75
 caught_happiness = 70
 raw_abilities = ["FLASHFIRE", "DROUGHT"]
 raw_egg_moves = []
-raw_tms = ["PSYSHOCK", "CALMMIND", "ROAR", "TOXIC", "HAIL", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "FIREBLAST", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "ROUND", "OVERHEAT", "ENERGYBALL", "WILLOWISP", "PAYBACK", "GIGAIMPACT", "AURORAVEIL", "PSYCHUP", "FROSTBREATH", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "DARKPULSE", "DAZZLINGGLEAM", "CONFIDE", "FIRESPIN", "DIG", "CHARM", "IMPRISON", "WEATHERBALL", "FAKETEARS", "POWERSWAP", "AVALANCHE", "HEX", "TAILSLAP", "DRAININGKISS", "MISTYTERRAIN", "MYSTICALFIRE", "BODYSLAM", "FLAREBLITZ", "LEAFSTORM", "AGILITY", "ENDURE", "ENCORE", "NASTYPLOT", "STOREDPOWER", "SWIFT"]
+raw_tms = [
+    "PSYSHOCK", "CALMMIND", "ROAR", "TOXIC", "HAIL", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM",
+    "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM",
+    "RETURN", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "FIREBLAST", "FACADE",
+    "FLAMECHARGE", "REST", "ATTRACT", "ROUND", "OVERHEAT", "ENERGYBALL", "WILLOWISP", "PAYBACK",
+    "GIGAIMPACT", "AURORAVEIL", "PSYCHUP", "FROSTBREATH", "DREAMEATER", "SWAGGER", "SLEEPTALK",
+    "SUBSTITUTE", "SECRETPOWER", "DARKPULSE", "DAZZLINGGLEAM", "CONFIDE", "FIRESPIN", "DIG",
+    "CHARM", "IMPRISON", "WEATHERBALL", "FAKETEARS", "POWERSWAP", "AVALANCHE", "HEX", "TAILSLAP",
+    "DRAININGKISS", "MISTYTERRAIN", "MYSTICALFIRE", "BODYSLAM", "FLAREBLITZ", "LEAFSTORM",
+    "AGILITY", "ENDURE", "ENCORE", "NASTYPLOT", "STOREDPOWER", "SWIFT",
+    "POWERGEM", "PSYCHIC", "TRIATTACK",
+]
 raw_tutor_moves = ["AQUATAIL", "COVET", "FOULPLAY", "HEADBUTT", "HEALBELL", "HEATWAVE", "ICYWIND", "IRONTAIL", "LASERFOCUS", "OMINOUSWIND", "PAINSPLIT", "ROLEPLAY", "SNORE", "SPITE", "WONDERROOM", "ZENHEADBUTT", "BURNINGJEALOUSY", "SCORCHINGSANDS", "TRIPLEAXEL", "MIMIC"]
 compatible_egg_groups = ["Field"]
 steps_to_hatch = 5355
@@ -28,27 +39,55 @@ habitat = "Grassland"
 
 [[raw_level_up_moves]]
 at_level = 1
+name = "CAPTIVATE"
+
+[[raw_level_up_moves]]
+at_level = 1
+name = "FOULPLAY"
+
+[[raw_level_up_moves]]
+at_level = 1
+name = "GRUDGE"
+
+[[raw_level_up_moves]]
+at_level = 1
+name = "HEX"
+
+[[raw_level_up_moves]]
+at_level = 1
+name = "HYPNOSIS"
+
+[[raw_level_up_moves]]
+at_level = 1
 name = "IMPRISON"
 
 [[raw_level_up_moves]]
 at_level = 1
-name = "NASTYPLOT"
+name = "SPITE"
 
 [[raw_level_up_moves]]
 at_level = 1
-name = "FLAMETHROWER"
+name = "STOREDPOWER"
 
 [[raw_level_up_moves]]
 at_level = 1
 name = "QUICKATTACK"
 
 [[raw_level_up_moves]]
-at_level = 1
-name = "CONFUSERAY"
+at_level = 45
+name = "INFERNO"
 
 [[raw_level_up_moves]]
-at_level = 1
-name = "SAFEGUARD"
+at_level = 55
+name = "MOONBLAST"
+
+[[raw_level_up_moves]]
+at_level = 60
+name = "EXTRASENSORY"
+
+[[raw_level_up_moves]]
+at_level = 65
+name = "NASTYPLOT"
 
 [base_stats]
 hp = 73

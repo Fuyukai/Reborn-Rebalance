@@ -6,9 +6,20 @@ growth_rate = "Fast"
 exp_yield = 113
 catch_rate = 150
 caught_happiness = 140
-raw_abilities = ["CUTECHARM", "MAGICGUARD"]
+raw_abilities = ["CUTECHARM", "MAGICGUARD", "FRIENDGUARD"]
 raw_egg_moves = []
-raw_tms = ["WORKUP", "PSYSHOCK", "CALMMIND", "STRENGTH", "TOXIC", "ROCKSMASH", "FLASH", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "THUNDERBOLT", "THUNDER", "RETURN", "PSYCHIC", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "FIREBLAST", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "FLING", "CHARGEBEAM", "THUNDERWAVE", "PSYCHUP", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "DAZZLINGGLEAM", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "MAGICALLEAF", "DIG", "CHARM", "IMPRISON", "FAKETEARS", "DRAININGKISS", "MISTYTERRAIN", "MYSTICALFIRE", "BODYSLAM", "METRONOME", "AMNESIA", "TRIATTACK", "ENDURE", "BATONPASS", "ENCORE", "COSMICPOWER", "STOREDPOWER", "PLAYROUGH", "RETALIATE"]
+raw_tms = [
+    "WORKUP", "PSYSHOCK", "CALMMIND", "STRENGTH", "TOXIC", "ROCKSMASH", "FLASH", "HIDDENPOWER",
+    "SUNNYDAY", "ICEBEAM", "BLIZZARD", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD",
+    "FRUSTRATION", "SOLARBEAM", "THUNDERBOLT", "THUNDER", "RETURN", "PSYCHIC", "SHADOWBALL",
+    "BRICKBREAK", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "FIREBLAST", "FACADE", "REST",
+    "ATTRACT", "ROUND", "ECHOEDVOICE", "FLING", "CHARGEBEAM", "THUNDERWAVE", "PSYCHUP",
+    "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH",
+    "DAZZLINGGLEAM", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "MAGICALLEAF", "DIG", "CHARM", "IMPRISON",
+    "FAKETEARS", "DRAININGKISS", "MISTYTERRAIN", "MYSTICALFIRE", "BODYSLAM", "METRONOME", "AMNESIA",
+    "TRIATTACK", "ENDURE", "BATONPASS", "ENCORE", "COSMICPOWER", "STOREDPOWER", "PLAYROUGH", "RETALIATE",
+    "POWERGEM",
+]
 raw_tutor_moves = ["AFTERYOU", "ALLYSWITCH", "BOUNCE", "COVET", "DRAINPUNCH", "ENDEAVOR", "FIREPUNCH", "FOCUSPUNCH", "GRAVITY", "HEADBUTT", "HEALBELL", "HELPINGHAND", "HYPERVOICE", "ICEPUNCH", "ICYWIND", "IRONTAIL", "KNOCKOFF", "LASTRESORT", "MAGICCOAT", "MUDSLAP", "RECYCLE", "ROLEPLAY", "ROLLOUT", "SHOCKWAVE", "SIGNALBEAM", "SNATCH", "SNORE", "STEALTHROCK", "TELEKINESIS", "THUNDERPUNCH", "TRICK", "UPROAR", "WATERPULSE", "WONDERROOM", "ZENHEADBUTT", "DUALWINGBEAT", "METEORBEAM", "MISTYEXPLOSION", "MIMIC"]
 compatible_egg_groups = ["Fairy"]
 steps_to_hatch = 2805
@@ -23,20 +34,7 @@ battler_altitude = 0
 form_names = []
 dex_number = 35
 internal_name = "CLEFAIRY"
-raw_hidden_ability = "FRIENDGUARD"
 habitat = "Mountain"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SPOTLIGHT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "DISARMINGVOICE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "POUND"
 
 [[raw_level_up_moves]]
 at_level = 1
@@ -44,7 +42,15 @@ name = "GROWL"
 
 [[raw_level_up_moves]]
 at_level = 1
-name = "ENCORE"
+name = "DEFENSECURL"
+
+[[raw_level_up_moves]]
+at_level = 1
+name = "POUND"
+
+[[raw_level_up_moves]]
+at_level = 4
+name = "METRONOME"
 
 [[raw_level_up_moves]]
 at_level = 7
@@ -52,78 +58,82 @@ name = "SING"
 
 [[raw_level_up_moves]]
 at_level = 10
-name = "DOUBLESLAP"
+name = "DISARMINGVOICE"
 
 [[raw_level_up_moves]]
 at_level = 13
-name = "DEFENSECURL"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "LIFEDEW"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "FOLLOWME"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "BESTOW"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "WAKEUPSLAP"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "MINIMIZE"
-
-[[raw_level_up_moves]]
-at_level = 28
 name = "STOREDPOWER"
 
 [[raw_level_up_moves]]
-at_level = 31
-name = "METRONOME"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "COSMICPOWER"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "LUCKYCHANT"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 43
+at_level = 16
 name = "MOONLIGHT"
 
 [[raw_level_up_moves]]
-at_level = 46
-name = "MOONBLAST"
+at_level = 19
+name = "FOLLOWME"
 
 [[raw_level_up_moves]]
-at_level = 49
-name = "GRAVITY"
+at_level = 21
+name = "DRAININGKISS"
 
 [[raw_level_up_moves]]
-at_level = 50
-name = "METEORMASH"
+at_level = 23
+name = "SEISMICTOSS"
 
 [[raw_level_up_moves]]
-at_level = 55
+at_level = 25
+name = "HEALPULSE"
+
+[[raw_level_up_moves]]
+at_level = 27
+name = "MAGICALLEAF"
+
+[[raw_level_up_moves]]
+at_level = 29
 name = "HEALINGWISH"
 
 [[raw_level_up_moves]]
+at_level = 31
+name = "HELPINGHAND"
+
+[[raw_level_up_moves]]
+at_level = 34
+name = "AROMATHERAPY"
+
+[[raw_level_up_moves]]
+at_level = 38
+name = "DAZZLINGGLEAM"
+
+[[raw_level_up_moves]]
+at_level = 42
+name = "MOONBLAST"
+
+[[raw_level_up_moves]]
+at_level = 46
+name = "BELLYDRUM"
+
+[[raw_level_up_moves]]
+at_level = 50
+name = "SEISMICTOSS"
+
+[[raw_level_up_moves]]
+at_level = 54
+name = "WISH"
+
+[[raw_level_up_moves]]
 at_level = 58
-name = "AFTERYOU"
+name = "COSMICPOWER"
 
 [[raw_level_up_moves]]
 at_level = 62
+name = "METEORMASH"
+
+[[raw_level_up_moves]]
+at_level = 66
+name = "LUNARDANCE"
+
+[[raw_level_up_moves]]
+at_level = 70
 name = "MISTYEXPLOSION"
 
 [[evolutions]]

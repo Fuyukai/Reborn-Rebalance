@@ -6,9 +6,16 @@ growth_rate = "Medium"
 exp_yield = 142
 catch_rate = 50
 caught_happiness = 70
-raw_abilities = ["SANDVEIL", "ARENATRAP"]
+raw_abilities = ["SANDFORCE", "ARENATRAP"]
 raw_egg_moves = []
-raw_tms = ["WORKUP", "CUT", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "FRUSTRATION", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "SLUDGEWAVE", "SLUDGEBOMB", "SANDSTORM", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "SHADOWCLAW", "GIGAIMPACT", "STONEEDGE", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "CONFIDE", "DIG", "SCREECH", "BEATUP", "SANDTOMB", "ASSURANCE", "BODYSLAM", "AGILITY", "TRIATTACK", "REVERSAL", "ENDURE", "HIGHHORSEPOWER"]
+raw_tms = [
+    "WORKUP", "CUT", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT",
+    "FRUSTRATION", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "SLUDGEWAVE", "SLUDGEBOMB", "SANDSTORM",
+    "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE",
+    "SHADOWCLAW", "GIGAIMPACT", "STONEEDGE", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK",
+    "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "CONFIDE", "DIG", "SCREECH", "BEATUP", "SANDTOMB",
+    "ASSURANCE", "BODYSLAM", "AGILITY", "TRIATTACK", "REVERSAL", "ENDURE", "HIGHHORSEPOWER",
+]
 raw_tutor_moves = ["ALLYSWITCH", "ANCIENTPOWER", "EARTHPOWER", "IRONDEFENSE", "IRONHEAD", "MUDSLAP", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "SUCKERPUNCH", "UPROAR", "SCORCHINGSANDS", "STEELBEAM", "MIMIC"]
 compatible_egg_groups = ["Field"]
 steps_to_hatch = 5355
@@ -24,84 +31,99 @@ evolutions = []
 form_names = ["Normal", "Alternate"]
 dex_number = 51
 internal_name = "DUGTRIO"
-raw_hidden_ability = "SANDFORCE"
 habitat = "Cave"
 
 [[raw_level_up_moves]]
 at_level = 0
-name = "SANDTOMB"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ROTOTILLER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "NIGHTSLASH"
-
-[[raw_level_up_moves]]
-at_level = 1
 name = "TRIATTACK"
+
+[[raw_level_up_moves]]
+at_level = 1
+name = "ASTONISH"
+
+[[raw_level_up_moves]]
+at_level = 1
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = 1
+name = "MUDSLAP"
 
 [[raw_level_up_moves]]
 at_level = 1
 name = "SCRATCH"
 
 [[raw_level_up_moves]]
-at_level = 1
+at_level = 4
 name = "SANDATTACK"
 
 [[raw_level_up_moves]]
-at_level = 1
-name = "GROWL"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "GROWL"
-
-[[raw_level_up_moves]]
 at_level = 7
-name = "ASTONISH"
+name = "MUDBOMB"
 
 [[raw_level_up_moves]]
 at_level = 10
-name = "MUDSLAP"
+name = "ANCIENTPOWER"
 
 [[raw_level_up_moves]]
-at_level = 14
+at_level = 13
 name = "MAGNITUDE"
 
 [[raw_level_up_moves]]
-at_level = 18
+at_level = 10
+name = "PURSUIT"
+
+[[raw_level_up_moves]]
+at_level = 19
 name = "BULLDOZE"
 
 [[raw_level_up_moves]]
 at_level = 22
-name = "SUCKERPUNCH"
+name = "ALLYSWITCH"
 
 [[raw_level_up_moves]]
 at_level = 25
-name = "MUDBOMB"
+name = "SUCKERPUNCH"
 
 [[raw_level_up_moves]]
-at_level = 30
-name = "EARTHPOWER"
+at_level = 29
+name = "SCORCHINGSANDS"
+
+[[raw_level_up_moves]]
+at_level = 32
+name = "REVERSAL"
 
 [[raw_level_up_moves]]
 at_level = 35
-name = "DIG"
+name = "NIGHTSLASH"
 
 [[raw_level_up_moves]]
-at_level = 41
-name = "SLASH"
+at_level = 38
+name = "BEATUP"
 
 [[raw_level_up_moves]]
-at_level = 47
-name = "EARTHQUAKE"
+at_level = 42
+name = "DOUBLEEDGE"
 
 [[raw_level_up_moves]]
-at_level = 53
+at_level = 46
+name = "HIGHHORSEPOWER"
+
+[[raw_level_up_moves]]
+at_level = 50
+name = "MEMENTO"
+
+[[raw_level_up_moves]]
+at_level = 54
 name = "FISSURE"
+
+[[raw_level_up_moves]]
+at_level = 58
+name = "FINALGAMBIT"
+
+[[raw_level_up_moves]]
+at_level = 62
+name = "SWORDSDANCE"
 
 [base_stats]
 hp = 35
