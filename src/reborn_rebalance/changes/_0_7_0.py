@@ -18,6 +18,25 @@ def build_changes(builder: ChangelogBuilder):
         """
     )
     blastoise.remove_level_up_move("SHELLSMASH")
+    del blastoise
+
+    butterfree = builder.pokemon(
+        "BUTTERFREE",
+        """
+        Butterfree has had a stat buff to 425BST, and as such is now evolved into at Level 14
+        instead. 
+        """
+    )
+    butterfree.add_base_stat_change("spa", 90, 100)
+    butterfree.add_base_stat_change("spe", 70, 90)
+    del butterfree
+
+    beedrill = builder.pokemon(
+        "BEEDRILL",
+        "Similar changes to Butterfree."
+    )
+    beedrill.add_base_stat_change("atk", 90, 110)
+    beedrill.add_base_stat_change("spe", 75, 85)
 
     for mon in ["starly", "staravia"]:
         star_builder = builder.pokemon(mon)
