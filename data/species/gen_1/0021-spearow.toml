@@ -1,14 +1,20 @@
 name = "Spearow"
-primary_type = "NORMAL"
+primary_type = "FLYING"
 secondary_type = "FLYING"
 gender_ratio = "Female50Percent"
 growth_rate = "Medium"
 exp_yield = 52
 catch_rate = 255
 caught_happiness = 70
-raw_abilities = ["KEENEYE", "SNIPER"]
+raw_abilities = ["INTIMIDATE", "KEENEYE", "SNIPER"]
 raw_egg_moves = ["ASTONISH", "FEINTATTACK", "FEATHERDANCE", "QUICKATTACK", "RAZORWIND", "SCARYFACE", "SKYATTACK", "STEELWING", "TRIATTACK", "UPROAR", "WHIRLWIND"]
-raw_tms = ["WORKUP", "FLY", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "FRUSTRATION", "RETURN", "DOUBLETEAM", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "STEELWING", "FALSESWIPE", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "SCARYFACE", "ASSURANCE", "AGILITY", "FOCUSENERGY", "TRIATTACK", "ENDURE", "BATONPASS", "SWIFT"]
+raw_tms = [
+    "WORKUP", "FLY", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "RAINDANCE", "ROOST",
+    "FRUSTRATION", "RETURN", "DOUBLETEAM", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF",
+    "ROUND", "ECHOEDVOICE", "STEELWING", "FALSESWIPE", "SWAGGER", "SLEEPTALK", "UTURN",
+    "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "SCARYFACE", "ASSURANCE", "AGILITY", "FOCUSENERGY",
+    "TRIATTACK", "ENDURE", "BATONPASS", "SWIFT", "HURRICANE", "SHADOWCLAW",
+]
 raw_tutor_moves = ["AIRCUTTER", "DEFOG", "DRILLRUN", "HEATWAVE", "MUDSLAP", "OMINOUSWIND", "SKYATTACK", "SNORE", "TAILWIND", "TWISTER", "UPROAR", "MIMIC"]
 compatible_egg_groups = ["Flying"]
 steps_to_hatch = 4080
@@ -27,31 +33,43 @@ habitat = "RoughTerrain"
 
 [[raw_level_up_moves]]
 at_level = 1
-name = "PECK"
+name = "DUALWINGBEAT"
 
 [[raw_level_up_moves]]
 at_level = 1
 name = "GROWL"
 
 [[raw_level_up_moves]]
+at_level = 1
+name = "PECK"
+
+[[raw_level_up_moves]]
 at_level = 4
-name = "LEER"
+name = "ASTONISH"
 
 [[raw_level_up_moves]]
-at_level = 8
-name = "PURSUIT"
+at_level = 7
+name = "QUICKATTACK"
 
 [[raw_level_up_moves]]
-at_level = 11
+at_level = 10
 name = "FURYATTACK"
 
 [[raw_level_up_moves]]
-at_level = 15
+at_level = 13
+name = "AIRCUTTER"
+
+[[raw_level_up_moves]]
+at_level = 16
+name = "MIRRORMOVE"
+
+[[raw_level_up_moves]]
+at_level = 19
 name = "AERIALACE"
 
 [[raw_level_up_moves]]
-at_level = 18
-name = "MIRRORMOVE"
+at_level = 20
+name = "PURSUIT"
 
 [[raw_level_up_moves]]
 at_level = 22
@@ -59,19 +77,36 @@ name = "ASSURANCE"
 
 [[raw_level_up_moves]]
 at_level = 25
-name = "AGILITY"
+name = "FEATHERDANCE"
 
 [[raw_level_up_moves]]
-at_level = 29
+at_level = 28
 name = "FOCUSENERGY"
 
 [[raw_level_up_moves]]
-at_level = 32
-name = "ROOST"
+at_level = 31
+name = "AGILITY"
 
 [[raw_level_up_moves]]
-at_level = 36
+at_level = 34
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = 38
 name = "DRILLPECK"
+
+[[raw_level_up_moves]]
+at_level = 42
+name = "DETECT"
+
+[[raw_level_up_moves]]
+at_level = 46
+name = "TAILWIND"
+
+[[raw_level_up_moves]]
+at_level = 50
+name = "DOUBLEEDGE"
+
 
 [[evolutions]]
 into_name = "FEAROW"
@@ -79,9 +114,9 @@ condition = "Level"
 parameter = "20"
 
 [base_stats]
-hp = 40
+hp = 50
 atk = 60
-def_ = 30
+def_ = 40
 spa = 31
 spd = 31
 spe = 70

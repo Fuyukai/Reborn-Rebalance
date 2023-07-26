@@ -6,7 +6,7 @@ growth_rate = "Medium"
 exp_yield = 145
 catch_rate = 127
 caught_happiness = 70
-raw_abilities = ["RUNAWAY", "GUTS"]
+raw_abilities = ["HUSTLE", "RUNAWAY", "GUTS"]
 raw_egg_moves = []
 raw_tms = ["WORKUP", "CUT", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "BULKUP", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "SHADOWBALL", "DOUBLETEAM", "SLUDGEWAVE", "SLUDGEBOMB", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "CHARGEBEAM", "QUASH", "EMBARGO", "SHADOWCLAW", "GIGAIMPACT", "THUNDERWAVE", "SWORDSDANCE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "SNARL", "DARKPULSE", "CONFIDE", "DIG", "SCREECH", "SCARYFACE", "BEATUP", "REVENGE", "ASSURANCE", "PSYCHICFANGS", "CRUNCH", "BODYSLAM", "CLOSECOMBAT", "FOCUSENERGY", "REVERSAL", "ENDURE", "RETALIATE", "SWIFT"]
 raw_tutor_moves = ["COVET", "ENDEAVOR", "HEADBUTT", "ICYWIND", "IRONTAIL", "KNOCKOFF", "LASTRESORT", "MUDSLAP", "SHOCKWAVE", "SNATCH", "SNORE", "STOMPINGTANTRUM", "SUCKERPUNCH", "SUPERFANG", "THROATCHOP", "UPROAR", "ZENHEADBUTT", "MIMIC"]
@@ -28,72 +28,97 @@ raw_hidden_ability = "HUSTLE"
 habitat = "Grassland"
 
 [[raw_level_up_moves]]
-at_level = 0
-name = "SCARYFACE"
-
-[[raw_level_up_moves]]
 at_level = 1
-name = "SWORDSDANCE"
+name = "BITE"
 
 [[raw_level_up_moves]]
 at_level = 1
 name = "TACKLE"
 
 [[raw_level_up_moves]]
-at_level = 1
-name = "TAILWHIP"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "QUICKATTACK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FOCUSENERGY"
-
-[[raw_level_up_moves]]
 at_level = 4
-name = "QUICKATTACK"
+name = "FOCUSENERGY"
 
 [[raw_level_up_moves]]
 at_level = 7
-name = "FOCUSENERGY"
+name = "SCREECH"
 
 [[raw_level_up_moves]]
 at_level = 10
-name = "BITE"
+name = "QUICKATTACK"
 
 [[raw_level_up_moves]]
 at_level = 13
-name = "PURSUIT"
+name = "HONECLAWS"
 
 [[raw_level_up_moves]]
 at_level = 16
-name = "HYPERFANG"
-
-[[raw_level_up_moves]]
-at_level = 19
 name = "ASSURANCE"
 
 [[raw_level_up_moves]]
-at_level = 24
-name = "CRUNCH"
+at_level = 19
+name = "FURYSWIPES"
+
+[[raw_level_up_moves]]
+at_level = 20
+name = "AFTERYOU"
+
+[[raw_level_up_moves]]
+at_level = 23
+name = "ENDEAVOR"
+
+[[raw_level_up_moves]]
+at_level = 26
+name = "FIREFANG"
+
+[[raw_level_up_moves]]
+at_level = 26
+name = "ICEFANG"
+
+[[raw_level_up_moves]]
+at_level = 26
+name = "THUNDERFANG"
 
 [[raw_level_up_moves]]
 at_level = 29
-name = "SUCKERPUNCH"
+name = "HYPERFANG"
 
 [[raw_level_up_moves]]
-at_level = 34
-name = "SUPERFANG"
+at_level = 32
+name = "CRUNCH"
 
 [[raw_level_up_moves]]
-at_level = 39
-name = "DOUBLEEDGE"
+at_level = 36
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = 40
+name = "FLAMEWHEEL"
 
 [[raw_level_up_moves]]
 at_level = 44
-name = "ENDEAVOR"
+name = "ZENHEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = 48
+name = "REVERSAL"
+
+[[raw_level_up_moves]]
+at_level = 52
+name = "SUCKERPUNCH"
+
+[[raw_level_up_moves]]
+at_level = 56
+name = "DOUBLEEDGE"
+
+[[raw_level_up_moves]]
+at_level = 60
+name = "LASTRESORT"
+
+[[raw_level_up_moves]]
+at_level = 64
+name = "FINALGAMBIT"
+
 
 [base_stats]
 hp = 55

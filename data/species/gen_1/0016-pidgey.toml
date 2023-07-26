@@ -6,7 +6,7 @@ growth_rate = "Parabolic"
 exp_yield = 50
 catch_rate = 255
 caught_happiness = 70
-raw_abilities = ["KEENEYE", "TANGLEDFEET"]
+raw_abilities = ["BIGPECKS", "KEENEYE", "TANGLEDFEET"]
 raw_egg_moves = ["AIRCUTTER", "AIRSLASH", "BRAVEBIRD", "DEFOG", "FEINTATTACK", "FORESIGHT", "PURSUIT", "STEELWING", "UPROAR"]
 raw_tms = ["WORKUP", "FLY", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "FRUSTRATION", "RETURN", "DOUBLETEAM", "REFLECT", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "STEELWING", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "AIRSLASH", "HURRICANE", "BRAVEBIRD", "AGILITY", "ENDURE", "SWIFT"]
 raw_tutor_moves = ["AIRCUTTER", "DEFOG", "HEATWAVE", "MUDSLAP", "OMINOUSWIND", "SKYATTACK", "SNORE", "TAILWIND", "TWISTER", "UPROAR", "DUALWINGBEAT", "MIMIC"]
@@ -31,56 +31,89 @@ at_level = 1
 name = "TACKLE"
 
 [[raw_level_up_moves]]
-at_level = 5
-name = "SANDATTACK"
+at_level = 1
+name = "MUDSLAP"
 
 [[raw_level_up_moves]]
-at_level = 9
+at_level = 1
+name = "SANDATTACK"
+
+[[raw_level_up_movess]]
+at_level = 3
 name = "GUST"
 
 [[raw_level_up_moves]]
-at_level = 13
-name = "QUICKATTACK"
+at_level = 5
+name = "ECHOEDVOICE"
 
 [[raw_level_up_moves]]
-at_level = 17
-name = "WHIRLWIND"
-
-[[raw_level_up_moves]]
-at_level = 21
+at_level = 7
 name = "TWISTER"
 
 [[raw_level_up_moves]]
-at_level = 25
+at_level = 7
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = 11
+name = "AIRCUTTER"
+
+[[raw_level_up_moves]]
+at_level = 13
 name = "FEATHERDANCE"
 
 [[raw_level_up_moves]]
-at_level = 29
-name = "AGILITY"
+at_level = 15
+name = "SWIFT"
 
 [[raw_level_up_moves]]
-at_level = 33
-name = "WINGATTACK"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "ROOST"
-
-[[raw_level_up_moves]]
-at_level = 41
-name = "TAILWIND"
-
-[[raw_level_up_moves]]
-at_level = 45
+at_level = 17
 name = "MIRRORMOVE"
 
 [[raw_level_up_moves]]
-at_level = 49
+at_level = 19
+name = "UPROAR"
+
+[[raw_level_up_moves]]
+at_level = 21
+name = "OMINOUSWIND"
+
+[[raw_level_up_moves]]
+at_level = 24
+name = "STEELWING"
+
+[[raw_level_up_moves]]
+at_level = 27
+name = "WHIRLWIND"
+
+[[raw_level_up_moves]]
+at_level = 30
+name = "HYPERVOICE"
+
+[[raw_level_up_moves]]
+at_level = 34
 name = "AIRSLASH"
 
 [[raw_level_up_moves]]
-at_level = 53
-name = "HURRICANE"
+at_level = 38
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = 42
+name = "TAILWIND"
+
+[[raw_level_up_moves]]
+at_level = 46
+name = "DOUBLEEDGE"
+
+[[raw_level_up_moves]]
+at_level = 50
+name = "BRAVEBIRD"
+
+[[raw_level_up_moves]]
+at_level = 54
+name = "SKYATTACK"
+
 
 [[evolutions]]
 into_name = "PIDGEOTTO"
