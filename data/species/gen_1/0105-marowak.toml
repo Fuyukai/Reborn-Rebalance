@@ -6,7 +6,7 @@ growth_rate = "Medium"
 exp_yield = 149
 catch_rate = 75
 caught_happiness = 70
-raw_abilities = ["ROCKHEAD", "LIGHTNINGROD"]
+raw_abilities = ["ROCKHEAD", "LIGHTNINGROD", "BATTLEARMOR"]
 raw_egg_moves = []
 raw_tms = ["STRENGTH", "TOXIC", "ROCKSMASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "SMACKDOWN", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "FLAMETHROWER", "SANDSTORM", "FIREBLAST", "ROCKTOMB", "AERIALACE", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "FOCUSBLAST", "FALSESWIPE", "FLING", "BRUTALSWING", "WILLOWISP", "GIGAIMPACT", "STONEEDGE", "SWORDSDANCE", "BULLDOZE", "ROCKSLIDE", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "DARKPULSE", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "FIRESPIN", "DIG", "SCREECH", "IMPRISON", "HEX", "BODYSLAM", "FLAREBLITZ", "FOCUSENERGY", "ENDURE", "RETALIATE"]
 raw_tutor_moves = ["ALLYSWITCH", "EARTHPOWER", "ENDEAVOR", "FIREPUNCH", "FOCUSPUNCH", "FURYCUTTER", "HEADBUTT", "HEATWAVE", "ICYWIND", "IRONDEFENSE", "IRONHEAD", "IRONTAIL", "KNOCKOFF", "LASERFOCUS", "LOWKICK", "MUDSLAP", "OUTRAGE", "PAINSPLIT", "SNORE", "SPITE", "STEALTHROCK", "STOMPINGTANTRUM", "THROATCHOP", "THUNDERPUNCH", "UPROAR", "BURNINGJEALOUSY", "SCORCHINGSANDS", "POLTERGEIST", "HEADLONGRUSH", "MIMIC"]
@@ -24,8 +24,11 @@ evolutions = []
 form_names = ["Normal", "Alternate"]
 dex_number = 105
 internal_name = "MAROWAK"
-raw_hidden_ability = "BATTLEARMOR"
 habitat = "Mountain"
+
+[[raw_level_up_moves]]
+at_level = 0
+name = "BONERUSH"
 
 [[raw_level_up_moves]]
 at_level = 1
@@ -78,10 +81,6 @@ name = "RETALIATE"
 [[raw_level_up_moves]]
 at_level = 24
 name = "ENDEAVOR"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "BONERUSH"
 
 [[raw_level_up_moves]]
 at_level = 31

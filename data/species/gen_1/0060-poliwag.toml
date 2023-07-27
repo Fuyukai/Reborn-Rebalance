@@ -6,7 +6,7 @@ growth_rate = "Parabolic"
 exp_yield = 60
 catch_rate = 255
 caught_happiness = 70
-raw_abilities = ["WATERABSORB", "DAMP"]
+raw_abilities = ["WATERABSORB", "DAMP", "SWIFTSWIM"]
 raw_egg_moves = ["BUBBLEBEAM", "ENCORE", "ENDEAVOR", "ENDURE", "HAZE", "ICEBALL", "MINDREADER", "MIST", "MUDSHOT", "REFRESH", "SPLASH", "WATERPULSE", "WATERSPORT"]
 raw_tms = ["SURF", "WATERFALL", "TOXIC", "DIVE", "HAIL", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "PSYCHIC", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "SCALD", "BULLDOZE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "WHIRLPOOL", "MUDSHOT", "BODYSLAM", "HYDROPUMP", "AMNESIA", "ENDURE", "ENCORE", "MUDDYWATER"]
 raw_tutor_moves = ["EARTHPOWER", "ENDEAVOR", "HEADBUTT", "HELPINGHAND", "ICYWIND", "LOWKICK", "SNORE", "WATERPULSE", "ICEBALL", "MIMIC"]
@@ -23,7 +23,6 @@ battler_altitude = 0
 form_names = []
 dex_number = 60
 internal_name = "POLIWAG"
-raw_hidden_ability = "SWIFTSWIM"
 habitat = "WatersEdge"
 
 [[raw_level_up_moves]]

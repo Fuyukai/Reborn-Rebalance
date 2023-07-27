@@ -6,7 +6,7 @@ growth_rate = "Medium"
 exp_yield = 63
 catch_rate = 190
 caught_happiness = 70
-raw_abilities = ["OBLIVIOUS", "OWNTEMPO"]
+raw_abilities = ["REGENERATOR", "OWNTEMPO"]
 raw_egg_moves = ["BELCH", "BELLYDRUM", "BLOCK", "FUTURESIGHT", "MEFIRST", "MUDSPORT", "SLEEPTALK", "SNORE", "STOMP", "WONDERROOM", "ZENHEADBUTT"]
 raw_tms = ["PSYSHOCK", "SURF", "CALMMIND", "STRENGTH", "TOXIC", "DIVE", "HAIL", "FLASH", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "EARTHQUAKE", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "FIREBLAST", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "SCALD", "THUNDERWAVE", "PSYCHUP", "BULLDOZE", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "CONFIDE", "PAYDAY", "DIG", "WHIRLPOOL", "IMPRISON", "WEATHERBALL", "MUDSHOT", "BRINE", "PSYCHICTERRAIN", "BODYSLAM", "HYDROPUMP", "AMNESIA", "TRIATTACK", "ENDURE", "FUTURESIGHT", "STOREDPOWER", "SNOWSCAPE", "CHILLINGWATER", "SWIFT"]
 raw_tutor_moves = ["AFTERYOU", "AQUATAIL", "BLOCK", "FOULPLAY", "HEADBUTT", "ICYWIND", "IRONTAIL", "LIQUIDATION", "MAGICCOAT", "MUDSLAP", "RECYCLE", "SIGNALBEAM", "SKILLSWAP", "SNORE", "TELEKINESIS", "TRICK", "WATERPULSE", "WONDERROOM", "ZENHEADBUTT", "EXPANDINGFORCE", "MIMIC"]
@@ -23,7 +23,6 @@ battler_altitude = 0
 form_names = []
 dex_number = 79
 internal_name = "SLOWPOKE"
-raw_hidden_ability = "REGENERATOR"
 habitat = "WatersEdge"
 
 [[raw_level_up_moves]]
@@ -113,16 +112,12 @@ name = "BODYSLAM"
 [[evolutions]]
 into_name = "SLOWBRO"
 condition = "Level"
-parameter = "37"
+parameter = "33"
 
 [[evolutions]]
 into_name = "SLOWKING"
 condition = "TradeItem"
 parameter = "KINGSROCK"
-
-
-
-
 
 [base_stats]
 hp = 90

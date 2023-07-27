@@ -1,12 +1,12 @@
 name = "Farfetch'd"
-primary_type = "NORMAL"
+primary_type = "FIGHTING"
 secondary_type = "FLYING"
 gender_ratio = "Female50Percent"
 growth_rate = "Medium"
 exp_yield = 132
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["KEENEYE", "INNERFOCUS"]
+raw_abilities = ["DEFEATIST"]  # lol.
 raw_egg_moves = ["COVET", "CURSE", "FEATHERDANCE", "FIRSTIMPRESSION", "FINALGAMBIT", "FLAIL", "FORESIGHT", "GUST", "LEAFBLADE", "MIRRORMOVE", "MUDSLAP", "NIGHTSLASH", "QUICKATTACK", "REVENGE", "ROOST", "SIMPLEBEAM", "STEELWING", "TRUMPCARD"]
 raw_tms = ["WORKUP", "CUT", "FLY", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "ROOST", "ROOST", "FRUSTRATION", "RETURN", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "STEELWING", "FALSESWIPE", "BRUTALSWING", "ACROBATICS", "SWORDSDANCE", "PSYCHUP", "POISONJAB", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "SOLARBLADE", "REVENGE", "ASSURANCE", "LEAFBLADE", "AIRSLASH", "BODYSLAM", "CLOSECOMBAT", "BRAVEBIRD", "AGILITY", "FOCUSENERGY", "ENDURE", "BATONPASS", "RETALIATE", "SWIFT"]
 raw_tutor_moves = ["AIRCUTTER", "COVET", "DEFOG", "FURYCUTTER", "HEADBUTT", "HEATWAVE", "HELPINGHAND", "IRONTAIL", "KNOCKOFF", "LASERFOCUS", "LASTRESORT", "MUDSLAP", "OMINOUSWIND", "SKYATTACK", "SNORE", "SUPERPOWER", "TAILWIND", "THROATCHOP", "TWISTER", "UPROAR", "DUALWINGBEAT", "MIMIC"]
@@ -23,7 +23,6 @@ battler_altitude = 0
 form_names = []
 dex_number = 83
 internal_name = "FARFETCHD"
-raw_hidden_ability = "DEFIANT"
 habitat = "Grassland"
 
 [[raw_level_up_moves]]
@@ -127,17 +126,13 @@ into_name = "SIRFETCHD"
 condition = "Critted"
 parameter = ""
 
-
-
-
-
 [base_stats]
-hp = 52
-atk = 90
-def_ = 55
-spa = 58
-spd = 62
-spe = 60
+hp = 55
+atk = 110
+def_ = 65
+spa = 75
+spd = 65
+spe = 100
 
 [ev_yield]
 hp = 0

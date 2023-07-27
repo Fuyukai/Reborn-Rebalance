@@ -6,7 +6,7 @@ growth_rate = "Medium"
 exp_yield = 158
 catch_rate = 60
 caught_happiness = 70
-raw_abilities = ["SWIFTSWIM", "WATERVEIL"]
+raw_abilities = ["SWIFTSWIM", "LIGHTINGROD", "WATERVEIL"]
 raw_egg_moves = []
 raw_tms = ["SURF", "WATERFALL", "TOXIC", "DIVE", "HAIL", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "ROUND", "SCALD", "SMARTSTRIKE", "GIGAIMPACT", "SWORDSDANCE", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "WHIRLPOOL", "MUDSHOT", "BODYSLAM", "HYDROPUMP", "MEGAHORN", "AGILITY", "ENDURE", "MUDDYWATER", "SWIFT"]
 raw_tutor_moves = ["AQUATAIL", "BOUNCE", "DRILLRUN", "FURYCUTTER", "ICYWIND", "KNOCKOFF", "MUDSLAP", "SIGNALBEAM", "SNORE", "THROATCHOP", "WATERPULSE", "FLIPTURN", "SCALESHOT", "MIMIC"]
@@ -24,7 +24,6 @@ evolutions = []
 form_names = []
 dex_number = 119
 internal_name = "SEAKING"
-raw_hidden_ability = "LIGHTNINGROD"
 habitat = "WatersEdge"
 
 [[raw_level_up_moves]]
@@ -125,11 +124,11 @@ name = "HYDROPUMP"
 
 [base_stats]
 hp = 80
-atk = 92
+atk = 112
 def_ = 65
-spa = 65
+spa = 55
 spd = 80
-spe = 68
+spe = 83
 
 [ev_yield]
 hp = 0

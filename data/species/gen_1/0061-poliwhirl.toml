@@ -6,7 +6,7 @@ growth_rate = "Parabolic"
 exp_yield = 135
 catch_rate = 120
 caught_happiness = 70
-raw_abilities = ["WATERABSORB", "DAMP"]
+raw_abilities = ["WATERABSORB", "DAMP", "SWIFTSWIM"]
 raw_egg_moves = []
 raw_tms = ["SURF", "STRENGTH", "WATERFALL", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "EARTHQUAKE", "RETURN", "PSYCHIC", "BRICKBREAK", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "SCALD", "FLING", "BULLDOZE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "WHIRLPOOL", "MUDSHOT", "BODYSLAM", "HYDROPUMP", "METRONOME", "AMNESIA", "ENDURE", "ENCORE", "MUDDYWATER"]
 raw_tutor_moves = ["EARTHPOWER", "ENDEAVOR", "FOCUSPUNCH", "HEADBUTT", "HELPINGHAND", "ICEPUNCH", "ICYWIND", "LOWKICK", "MUDSLAP", "SNORE", "WATERPULSE", "ICEBALL", "MIMIC"]
@@ -23,7 +23,6 @@ battler_altitude = 0
 form_names = []
 dex_number = 61
 internal_name = "POLIWHIRL"
-raw_hidden_ability = "SWIFTSWIM"
 habitat = "WatersEdge"
 
 [[raw_level_up_moves]]
@@ -111,10 +110,6 @@ parameter = "WATERSTONE"
 into_name = "POLITOED"
 condition = "TradeItem"
 parameter = "KINGSROCK"
-
-
-
-
 
 [base_stats]
 hp = 65

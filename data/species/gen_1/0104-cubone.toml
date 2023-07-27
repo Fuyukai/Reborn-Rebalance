@@ -6,7 +6,7 @@ growth_rate = "Medium"
 exp_yield = 64
 catch_rate = 190
 caught_happiness = 70
-raw_abilities = ["ROCKHEAD", "LIGHTNINGROD"]
+raw_abilities = ["ROCKHEAD", "LIGHTNINGROD", "BATTLEARMOR"]
 raw_egg_moves = ["ANCIENTPOWER", "BELLYDRUM", "CHIPAWAY", "CURSE", "DETECT", "DOUBLEKICK", "ENDURE", "IRONHEAD", "PERISHSONG", "SCREECH", "SKULLBASH"]
 raw_tms = ["STRENGTH", "TOXIC", "ROCKSMASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "PROTECT", "FRUSTRATION", "SMACKDOWN", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "FLAMETHROWER", "SANDSTORM", "FIREBLAST", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "FALSESWIPE", "FLING", "BRUTALSWING", "SWORDSDANCE", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "SCREECH", "BODYSLAM", "FOCUSENERGY", "ENDURE", "RETALIATE"]
 raw_tutor_moves = ["EARTHPOWER", "ENDEAVOR", "FIREPUNCH", "FOCUSPUNCH", "FURYCUTTER", "HEADBUTT", "ICYWIND", "IRONDEFENSE", "IRONHEAD", "IRONTAIL", "KNOCKOFF", "LOWKICK", "MUDSLAP", "SNORE", "STEALTHROCK", "THUNDERPUNCH", "UPROAR", "SCORCHINGSANDS", "MIMIC"]
@@ -23,7 +23,6 @@ battler_altitude = 0
 form_names = []
 dex_number = 104
 internal_name = "CUBONE"
-raw_hidden_ability = "BATTLEARMOR"
 habitat = "Mountain"
 
 [[raw_level_up_moves]]
@@ -113,7 +112,7 @@ name = "PERISHSONG"
 [[evolutions]]
 into_name = "MAROWAK"
 condition = "Level"
-parameter = "28"
+parameter = "27"
 
 
 
@@ -135,5 +134,3 @@ spa = 0
 spd = 0
 spe = 0
 
-[wild_items]
-uncommon = "THICKCLUB"

@@ -1,12 +1,12 @@
 name = "Golduck"
 primary_type = "WATER"
-secondary_type = "WATER"
+secondary_type = "PSYCHIC"
 gender_ratio = "Female50Percent"
 growth_rate = "Medium"
 exp_yield = 175
 catch_rate = 75
 caught_happiness = 70
-raw_abilities = ["DAMP", "CLOUDNINE"]
+raw_abilities = ["DAMP", "CLOUDNINE", "SWIFTSWIM"]
 raw_egg_moves = []
 raw_tms = ["PSYSHOCK", "SURF", "CALMMIND", "STRENGTH", "WATERFALL", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "FLASH", "ROCKCLIMB", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "PSYCHIC", "BRICKBREAK", "DOUBLETEAM", "AERIALACE", "FACADE", "REST", "ATTRACT", "LOWSWEEP", "ROUND", "FOCUSBLAST", "SCALD", "FLING", "SHADOWCLAW", "GIGAIMPACT", "PSYCHUP", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "PAYDAY", "DIG", "SCREECH", "WHIRLPOOL", "BRINE", "BODYSLAM", "HYDROPUMP", "AMNESIA", "ENDURE", "ENCORE", "FUTURESIGHT", "MUDDYWATER", "TRAILBLAZE", "CHILLINGWATER", "SWIFT"]
 raw_tutor_moves = ["AQUATAIL", "FOCUSPUNCH", "FURYCUTTER", "HEADBUTT", "ICEPUNCH", "ICYWIND", "IRONTAIL", "LASERFOCUS", "LIQUIDATION", "LOWKICK", "MUDSLAP", "ROLEPLAY", "SIGNALBEAM", "SNORE", "TELEKINESIS", "WATERPULSE", "WONDERROOM", "WORRYSEED", "ZENHEADBUTT", "FLIPTURN", "MIMIC"]
@@ -24,7 +24,6 @@ evolutions = []
 form_names = []
 dex_number = 55
 internal_name = "GOLDUCK"
-raw_hidden_ability = "SWIFTSWIM"
 habitat = "WatersEdge"
 
 [[raw_level_up_moves]]

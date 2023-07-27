@@ -6,7 +6,7 @@ growth_rate = "Medium"
 exp_yield = 64
 catch_rate = 190
 caught_happiness = 70
-raw_abilities = ["DAMP", "CLOUDNINE"]
+raw_abilities = ["DAMP", "CLOUDNINE", "SWIFTSWIM"]
 raw_egg_moves = ["CLEARSMOG", "CONFUSERAY", "CROSSCHOP", "ENCORE", "FORESIGHT", "FUTURESIGHT", "HYPNOSIS", "MUDBOMB", "PSYBEAM", "REFRESH", "SECRETPOWER", "SIMPLEBEAM", "SLEEPTALK", "SYNCHRONOISE", "YAWN"]
 raw_tms = ["PSYSHOCK", "SURF", "CALMMIND", "STRENGTH", "WATERFALL", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "FLASH", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "PSYCHIC", "BRICKBREAK", "DOUBLETEAM", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "SCALD", "FLING", "SHADOWCLAW", "PSYCHUP", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "PAYDAY", "DIG", "SCREECH", "WHIRLPOOL", "BRINE", "BODYSLAM", "HYDROPUMP", "AMNESIA", "ENDURE", "ENCORE", "FUTURESIGHT", "TRAILBLAZE", "CHILLINGWATER", "SWIFT"]
 raw_tutor_moves = ["AQUATAIL", "FOCUSPUNCH", "HEADBUTT", "ICEPUNCH", "ICYWIND", "IRONTAIL", "MUDSLAP", "ROLEPLAY", "SIGNALBEAM", "SNORE", "TELEKINESIS", "WATERPULSE", "WONDERROOM", "WORRYSEED", "ZENHEADBUTT", "MIMIC"]
@@ -23,7 +23,6 @@ battler_altitude = 0
 form_names = []
 dex_number = 54
 internal_name = "PSYDUCK"
-raw_hidden_ability = "SWIFTSWIM"
 habitat = "WatersEdge"
 
 [[raw_level_up_moves]]
@@ -121,11 +120,7 @@ name = "HYDROPUMP"
 [[evolutions]]
 into_name = "GOLDUCK"
 condition = "Level"
-parameter = "33"
-
-
-
-
+parameter = "25"
 
 [base_stats]
 hp = 50

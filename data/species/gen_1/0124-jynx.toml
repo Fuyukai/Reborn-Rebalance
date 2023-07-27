@@ -6,7 +6,7 @@ growth_rate = "Medium"
 exp_yield = 159
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["OBLIVIOUS", "FOREWARN"]
+raw_abilities = ["TRACE", "DRYSKIN"]
 raw_egg_moves = []
 raw_tms = ["PSYSHOCK", "CALMMIND", "TOXIC", "HAIL", "FLASH", "HIDDENPOWER", "TAUNT", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "PSYCHIC", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "FOCUSBLAST", "ENERGYBALL", "FLING", "PAYBACK", "GIGAIMPACT", "AURORAVEIL", "PSYCHUP", "FROSTBREATH", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "CHARM", "FAKETEARS", "ICICLESPEAR", "AVALANCHE", "PSYCHOCUT", "DRAININGKISS", "PSYCHICTERRAIN", "BODYSLAM", "METRONOME", "ENDURE", "ENCORE", "FUTURESIGHT", "NASTYPLOT", "STOREDPOWER"]
 raw_tutor_moves = ["ALLYSWITCH", "COVET", "DRAINPUNCH", "FOCUSPUNCH", "HEADBUTT", "HEALBELL", "HELPINGHAND", "HYPERVOICE", "ICEPUNCH", "ICYWIND", "MAGICCOAT", "MAGICROOM", "MUDSLAP", "RECYCLE", "ROLEPLAY", "SIGNALBEAM", "SKILLSWAP", "SNORE", "TELEKINESIS", "TRICK", "UPROAR", "WATERPULSE", "WONDERROOM", "ZENHEADBUTT", "TRIPLEAXEL", "EXPANDINGFORCE", "MIMIC"]
@@ -24,7 +24,6 @@ evolutions = []
 form_names = []
 dex_number = 124
 internal_name = "JYNX"
-raw_hidden_ability = "DRYSKIN"
 habitat = "Urban"
 
 [[raw_level_up_moves]]
@@ -124,12 +123,12 @@ at_level = 62
 name = "PSYCHOBOOST"
 
 [base_stats]
-hp = 65
-atk = 50
-def_ = 35
-spa = 115
-spd = 95
-spe = 95
+hp = 75
+atk = 43
+def_ = 65
+spa = 125
+spd = 96
+spe = 96
 
 [ev_yield]
 hp = 0
