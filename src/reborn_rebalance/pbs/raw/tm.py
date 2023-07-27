@@ -49,7 +49,7 @@ class TechnicalMachine:
     # POKEMON themselves.
     # this is written to during PBS serialisation as well...
     #: The list of compatible Pokémon for this TM.
-    pokemon: set[str] = attr.ib(factory=list)
+    pokemon: set[str] = attr.ib(factory=set)
 
     @classmethod
     def incomplete_from_pbs(cls, move: str, line: list[str]) -> Self:
