@@ -8,6 +8,7 @@ import cattrs
 import tomlkit
 from tomlkit import dump, load
 
+from reborn_rebalance.pbs.ability import PokemonAbility
 from reborn_rebalance.pbs.move import MoveCategory, MoveFlag, MoveTarget, PokemonMove
 from reborn_rebalance.pbs.pokemon import (
     EggGroup,
@@ -211,29 +212,31 @@ def load_moves_from_toml(path: Path) -> list[PokemonMove]:
     return moves
 
 
-def save_moves_to_toml(output_path: Path, moves: list[PokemonMove]):
+def save_moves_to_toml(path: Path, moves: list[PokemonMove]):
     """
     Saves all moves to disk in the TOML format.
     """
 
-    # sort the moves by internal ID first.
-    # probably essentials doeesn't like it if you don't do this.
+    if path.exists():
+        print(f"Not overwriting: {path}")
+        return
+
     moves = sorted(moves, key=lambda it: it.id)
 
     output = {"moves": CONVERTER.unstructure(moves)}
 
-    with output_path.open(encoding="utf-8", mode="w") as f:
+    with path.open(encoding="utf-8", mode="w") as f:
         dump(output, f)
 
 
-def save_moves_to_pbs(output_path: Path, moves: list[PokemonMove]):
+def save_moves_to_pbs(path: Path, moves: list[PokemonMove]):
     """
     Saves all moves to PBS format (CSV) instead.
     """
 
     moves = sorted(moves, key=lambda it: it.id)
 
-    with output_path.open(mode="w", encoding="utf-8") as f:
+    with path.open(mode="w", encoding="utf-8") as f:
         writer = csv.writer(f)
 
         for move in moves:
@@ -285,15 +288,19 @@ def save_items_to_pbs(output_path: Path, items: list[PokemonItem]):
             writer.writerow(item.get_as_pbs_row())
 
 
-def save_items_to_toml(output_path: Path, items: list[PokemonItem]):
+def save_items_to_toml(path: Path, items: list[PokemonItem]):
     """
-    Saves all items to
+    Saves all items to TOML format.
     """
+
+    if path.exists():
+        print(f"Not overwriting: {path}")
+        return
 
     items = sorted(items, key=lambda it: it.id)
     output = {"items": CONVERTER.unstructure(items)}
 
-    with output_path.open(encoding="utf-8", mode="w") as f:
+    with path.open(encoding="utf-8", mode="w") as f:
         dump(output, f)
 
 
@@ -346,10 +353,13 @@ def load_tms_from_toml(path: Path) -> list[TechnicalMachine]:
 
 def save_tms_to_toml(path: Path, tms: list[TechnicalMachine]):
     """
-    Saves all TMs to
+    Saves all TMs in TOML format.
     """
 
-    # fucking sort these properly
+    if path.exists():
+        print(f"Not overwriting: {path}")
+        return
+
     real_dict = {
         "tm": sorted([it for it in tms if not it.is_tutor], key=lambda it: it.number),
         "tutor": sorted([it for it in tms if it.is_tutor], key=lambda it: it.move),
@@ -377,6 +387,60 @@ def save_tms_to_pbs(path: Path, tms: list[TechnicalMachine]):
         buffer.write("\n")
 
     path.write_text(buffer.getvalue(), encoding="utf-8")
+
+
+def load_abilities_from_pbs(path: Path) -> list[PokemonAbility]:
+    """
+    Loads all abilities from PBS format.
+    """
+
+    with path.open(mode="r", encoding="utf-8") as f:
+        reader = csv.reader(f)
+        abilities = [PokemonAbility.from_pbs(it) for it in reader]
+
+    return abilities
+
+
+def load_abilities_from_toml(path: Path) -> list[PokemonAbility]:
+    """
+    Loads all abilities from TOML format.
+    """
+
+    with path.open(encoding="utf-8", mode="r") as f:
+        data = load(f)["abilities"]
+
+    abilities: list[PokemonAbility] = []
+    for ability in data:
+        abilities.append(CONVERTER.structure(ability, PokemonAbility))
+
+    return abilities
+
+
+def save_abilities_to_pbs(path: Path, abilities: list[PokemonAbility]):
+    """
+    Saves all abilities into the PBS (CSV) format.
+    """
+
+    with path.open(mode="w", encoding="utf-8") as f:
+        writer = csv.writer(f)
+
+        for ability in sorted(abilities, key=lambda it: it.id):
+            writer.writerow(ability.to_pbs())
+
+
+def save_abilities_to_toml(path: Path, abilities: list[PokemonAbility]):
+    """
+    Saves all abilities into the TOML format.
+    """
+
+    if path.exists():
+        print(f"Not overwriting: {path}")
+        return
+
+    output = {"abilities": CONVERTER.unstructure(abilities)}
+
+    with path.open(encoding="utf-8", mode="w") as f:
+        dump(output, f)
 
 
 def load_encounters_from_pbs(path: Path) -> dict[int, MapEncounters]:
@@ -425,6 +489,10 @@ def save_encounters_to_toml(path: Path, map_names: dict[int, str], data: dict[in
     """
     Saves the encounters data to TOML.
     """
+
+    if path.exists():
+        print(f"Not overwriting: {path}")
+        return
 
     for idx, encounter in data.items():
         # there's two removed areas still in the default encounters data

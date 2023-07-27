@@ -8,6 +8,7 @@ from typing import Optional, Self
 import attr
 import tomlkit
 
+from reborn_rebalance.pbs.ability import PokemonAbility
 from reborn_rebalance.pbs.move import PokemonMove
 from reborn_rebalance.pbs.pokemon import PokemonEvolution, PokemonSpecies
 from reborn_rebalance.pbs.raw.encounters import (
@@ -36,7 +37,7 @@ from reborn_rebalance.pbs.serialisation import (
     save_moves_to_pbs,
     save_moves_to_toml,
     save_tms_to_pbs,
-    save_tms_to_toml,
+    save_tms_to_toml, load_abilities_from_pbs, load_abilities_from_toml, save_abilities_to_toml,
 )
 
 
@@ -96,6 +97,9 @@ class EssentialsCatalog:
     #: The list of all known TMs.
     tms: list[TechnicalMachine] = attr.ib()
 
+    #: The list of all known abilities.
+    abilities: list[PokemonAbility] = attr.ib()
+
     #: The mapping of map IDs to map names.
     map_names: dict[int, str] = attr.ib()
 
@@ -119,6 +123,10 @@ class EssentialsCatalog:
     @cached_property
     def tm_name_mapping(self) -> Mapping[str, TechnicalMachine]:
         return types.MappingProxyType({it.move: it for it in self.tms})
+
+    @cached_property
+    def ability_name_mapping(self) -> Mapping[str, PokemonAbility]:
+        return types.MappingProxyType({it.name: it for it in self.abilities})
 
     @cached_property
     def species_to_encounter_map(self) -> Mapping[str, set[int]]:
@@ -155,6 +163,9 @@ class EssentialsCatalog:
 
         tm_path = path / "tm.txt"
         tms = load_tms_from_pbs(tm_path)
+
+        ability_path = path / "abilities.txt"
+        abilities = load_abilities_from_pbs(ability_path)
 
         # now, backfill in the TMs fields from tms and items
         # (this is saved in the actual toml)
@@ -208,6 +219,7 @@ class EssentialsCatalog:
             moves=moves,
             items=items,
             tms=tms,
+            abilities=abilities,
             map_names=map_data,
             encounters=encounter_data,
         )
@@ -235,6 +247,9 @@ class EssentialsCatalog:
         tm_path = path / "tms.toml"
         tms = load_tms_from_toml(tm_path)
 
+        ability_path = path / "abilities.toml"
+        abilities = load_abilities_from_toml(ability_path)
+
         species_dir = path / "species"
         if skip_species:
             species = []
@@ -249,6 +264,7 @@ class EssentialsCatalog:
             moves=moves,
             items=items,
             tms=tms,
+            abilities=abilities,
             map_names=maps,
             encounters=encounters,
         )
@@ -275,6 +291,9 @@ class EssentialsCatalog:
 
         tms_path = path / "tms.toml"
         save_tms_to_toml(tms_path, self.tms)
+
+        abilities_path = path / "abilities.toml"
+        save_abilities_to_toml(abilities_path, self.abilities)
 
         # practically speaking, this file will never change Reborn-side.
         # so we don't bother updating it.
@@ -318,11 +337,15 @@ class EssentialsCatalog:
         for species in self.species:
             for tm in species.raw_tms:
                 if tm not in self.tm_name_mapping:
-                    raise ValueError(f"no such TM: {tm}")
+                    raise ValueError(f"no such TM: {tm} / when validating {species.internal_name}")
 
             for move in species.raw_level_up_moves:
                 if move.name not in self.move_mapping:
-                    raise ValueError(f"no such move: {move.name}")
+                    raise ValueError(f"no such move: {move.name} / when validating {species.internal_name}")
+
+            for ability in species.raw_abilities:
+                if ability not in self.ability_name_mapping:
+                    raise ValueError(f"no such ability: {ability} / when validating {species.internal_name}")
 
     # == Helper methods == #
     def move_by_name(self, internal_name: str) -> Optional[PokemonMove]:
