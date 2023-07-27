@@ -5,7 +5,7 @@ gender_ratio = "AlwaysFemale"
 growth_rate = "Fast"
 exp_yield = 110
 catch_rate = 130
-caught_happiness = 140
+caught_happiness = 180
 raw_abilities = ["NATURALCURE", "SERENEGRACE"]
 raw_egg_moves = ["AROMATHERAPY", "COUNTER", "ENDURE", "GRAVITY", "HEALBELL", "HELPINGHAND", "LASTRESORT", "METRONOME", "MUDBOMB", "NATURALGIFT", "PRESENT"]
 raw_tms = ["WORKUP", "TOXIC", "HAIL", "FLASH", "HIDDENPOWER", "SUNNYDAY", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "FLAMETHROWER", "FIREBLAST", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "FLING", "THUNDERWAVE", "PSYCHUP", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "CHARM", "METRONOME", "ENDURE", "STOREDPOWER", "SNOWSCAPE"]
@@ -79,8 +79,8 @@ name = "PRESENT"
 
 [[evolutions]]
 into_name = "CHANSEY"
-condition = "DayHoldItem"
-parameter = "OVALSTONE"
+condition = "Level"
+parameter = "30"
 
 
 

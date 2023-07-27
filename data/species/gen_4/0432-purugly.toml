@@ -6,9 +6,9 @@ growth_rate = "Fast"
 exp_yield = 158
 catch_rate = 75
 caught_happiness = 70
-raw_abilities = ["THICKFAT", "OWNTEMPO"]
+raw_abilities = ["THICKFAT", "SHARPNESS", "DEFIANT"]
 raw_egg_moves = []
-raw_tms = ["WORKUP", "CUT", "ROAR", "TOXIC", "FLASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "SHADOWBALL", "DOUBLETEAM", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "SHADOWCLAW", "PAYBACK", "GIGAIMPACT", "PSYCHUP", "BULLDOZE", "DREAMEATER", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "CHARM", "FAKETEARS", "ASSURANCE", "BODYSLAM", "ENDURE", "PLAYROUGH", "RETALIATE", "SWIFT"]
+raw_tms = ["WORKUP", "CUT", "ROAR", "TOXIC", "FLASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "SHADOWBALL", "DOUBLETEAM", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "SHADOWCLAW", "PAYBACK", "GIGAIMPACT", "PSYCHUP", "BULLDOZE", "DREAMEATER", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "CHARM", "FAKETEARS", "ASSURANCE", "BODYSLAM", "ENDURE", "PLAYROUGH", "RETALIATE", "SWIFT", "SWORDSDANCE", "PSYCHOCUT"]
 raw_tutor_moves = ["COVET", "FOULPLAY", "FURYCUTTER", "HEADBUTT", "HYPERVOICE", "IRONTAIL", "KNOCKOFF", "LASTRESORT", "MUDSLAP", "ROLLOUT", "SHOCKWAVE", "SNATCH", "SNORE", "STOMPINGTANTRUM", "SUCKERPUNCH", "SUPERFANG", "THROATCHOP", "WATERPULSE", "MIMIC"]
 compatible_egg_groups = ["Field"]
 steps_to_hatch = 5355
@@ -24,7 +24,6 @@ evolutions = []
 form_names = []
 dex_number = 432
 internal_name = "PURUGLY"
-raw_hidden_ability = "DEFIANT"
 
 [[raw_level_up_moves]]
 at_level = 1
@@ -127,12 +126,12 @@ at_level = 61
 name = "LASTRESORT"
 
 [base_stats]
-hp = 71
-atk = 82
-def_ = 64
-spa = 64
-spd = 59
-spe = 112
+hp = 90
+atk = 95
+def_ = 70
+spa = 65
+spd = 60
+spe = 115
 
 [ev_yield]
 hp = 0

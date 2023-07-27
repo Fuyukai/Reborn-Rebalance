@@ -1,4 +1,4 @@
-name = "Chingling"
+name = "Chingling"  # is that a slur?
 primary_type = "PSYCHIC"
 secondary_type = "PSYCHIC"
 gender_ratio = "Female50Percent"
@@ -82,8 +82,8 @@ name = "HYPNOSIS"
 
 [[evolutions]]
 into_name = "CHIMECHO"
-condition = "HappinessNight"
-parameter = ""
+condition = "HasMove"
+parameter = "HEALBELL"
 
 
 
@@ -91,8 +91,8 @@ parameter = ""
 hp = 45
 atk = 30
 def_ = 50
-spa = 65
-spd = 50
+spa = 80
+spd = 60
 spe = 45
 
 [ev_yield]

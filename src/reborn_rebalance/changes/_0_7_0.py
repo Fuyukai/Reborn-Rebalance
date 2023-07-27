@@ -35,6 +35,10 @@ def build_changes(builder: ChangelogBuilder):
     beedrill.add_base_stat_change("atk", 90, 110)
     beedrill.add_base_stat_change("spe", 75, 85)
 
+    magneton = builder.pokemon(
+        "MAGNETON", "Now evolves using a Thunder Stone instead of a location."
+    )
+
     masquerain = builder.pokemon(
         "MASQUERAIN",
         """

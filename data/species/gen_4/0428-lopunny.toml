@@ -1,12 +1,12 @@
 name = "Lopunny"
 primary_type = "NORMAL"
-secondary_type = "NORMAL"
+secondary_type = "FIGHTING"
 gender_ratio = "Female50Percent"
 growth_rate = "Medium"
 exp_yield = 168
 catch_rate = 60
 caught_happiness = 140
-raw_abilities = ["CUTECHARM", "KLUTZ"]
+raw_abilities = ["SCRAPPY", "LIMBER"]
 raw_egg_moves = []
 raw_tms = ["WORKUP", "CUT", "STRENGTH", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "SOLARBEAM", "THUNDERBOLT", "THUNDER", "RETURN", "SHADOWBALL", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "LOWSWEEP", "ROUND", "FOCUSBLAST", "FLING", "CHARGEBEAM", "BRUTALSWING", "ACROBATICS", "PAYBACK", "GIGAIMPACT", "THUNDERWAVE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "CHARM", "FAKETEARS", "ASSURANCE", "CLOSECOMBAT", "AGILITY", "REVERSAL", "ENDURE", "BATONPASS", "ENCORE", "COSMICPOWER", "AURASPHERE", "PLAYROUGH", "RETALIATE", "SWIFT"]
 raw_tutor_moves = ["AFTERYOU", "BOUNCE", "COVET", "DRAINPUNCH", "ENDEAVOR", "FIREPUNCH", "FOCUSPUNCH", "FURYCUTTER", "HEADBUTT", "HEALBELL", "HELPINGHAND", "HYPERVOICE", "ICEPUNCH", "IRONTAIL", "LASERFOCUS", "LASTRESORT", "LOWKICK", "MAGICCOAT", "MUDSLAP", "SHOCKWAVE", "SNORE", "THUNDERPUNCH", "UPROAR", "WATERPULSE", "TRIPLEAXEL", "MIMIC"]
@@ -24,7 +24,6 @@ evolutions = []
 form_names = []
 dex_number = 428
 internal_name = "LOPUNNY"
-raw_hidden_ability = "LIMBER"
 
 [[raw_level_up_moves]]
 at_level = 1
@@ -128,7 +127,7 @@ name = "CLOSECOMBAT"
 
 [base_stats]
 hp = 65
-atk = 76
+atk = 96
 def_ = 84
 spa = 54
 spd = 96

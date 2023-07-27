@@ -6,9 +6,9 @@ growth_rate = "Parabolic"
 exp_yield = 144
 catch_rate = 30
 caught_happiness = 35
-raw_abilities = ["KEENEYE", "TANGLEDFEET"]
+raw_abilities = ["SOUNDPROOF", "TANGLEDFEET", "BIGPECKS"]
 raw_egg_moves = ["AGILITY", "AIRCUTTER", "BOOMBURST", "DEFOG", "ENCORE", "NASTYPLOT", "NIGHTSHADE", "SLEEPTALK", "STEELWING", "SUPERSONIC"]
-raw_tms = ["WORKUP", "FLY", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "FRUSTRATION", "RETURN", "DOUBLETEAM", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "STEELWING", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "AGILITY", "METRONOME", "ENDURE", "ENCORE", "NASTYPLOT", "SWIFT"]
+raw_tms = ["WORKUP", "FLY", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "FRUSTRATION", "RETURN", "DOUBLETEAM", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "STEELWING", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "AGILITY", "METRONOME", "ENDURE", "ENCORE", "NASTYPLOT", "SWIFT", "HURRICANE", "BUGBUZZ"]
 raw_tutor_moves = ["DEFOG", "HEATWAVE", "HYPERVOICE", "MUDSLAP", "OMINOUSWIND", "ROLEPLAY", "SKYATTACK", "SNORE", "TAILWIND", "TWISTER", "UPROAR", "POWERSHIFT", "MIMIC"]
 compatible_egg_groups = ["Flying"]
 steps_to_hatch = 5355
@@ -24,7 +24,6 @@ evolutions = []
 form_names = []
 dex_number = 441
 internal_name = "CHATOT"
-raw_hidden_ability = "BIGPECKS"
 
 [[raw_level_up_moves]]
 at_level = 1
@@ -119,12 +118,12 @@ at_level = 68
 name = "BOOMBURST"
 
 [base_stats]
-hp = 76
+hp = 75
 atk = 65
-def_ = 45
-spa = 92
-spd = 42
-spe = 91
+def_ = 50
+spa = 105
+spd = 50
+spe = 96
 
 [ev_yield]
 hp = 0

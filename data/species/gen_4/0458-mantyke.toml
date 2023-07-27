@@ -9,7 +9,7 @@ caught_happiness = 70
 raw_abilities = ["SWIFTSWIM", "WATERABSORB"]
 raw_egg_moves = ["AMNESIA", "HAZE", "HYDROPUMP", "MIRRORCOAT", "MUDSPORT", "SIGNALBEAM", "SLAM", "SPLASH", "TAILWIND", "TWISTER", "WATERSPORT", "WIDEGUARD"]
 raw_tms = ["SURF", "WATERFALL", "TOXIC", "DIVE", "HAIL", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "SCALD", "ACROBATICS", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "WHIRLPOOL", "AIRSLASH", "HYDROPUMP", "AGILITY", "AMNESIA", "ENDURE", "SWIFT"]
-raw_tutor_moves = ["AIRCUTTER", "BOUNCE", "HEADBUTT", "HELPINGHAND", "ICYWIND", "MUDSLAP", "SIGNALBEAM", "SNORE", "TAILWIND", "WATERPULSE", "MIMIC"]
+raw_tutor_moves = ["AIRCUTTER", "BOUNCE", "HEADBUTT", "HELPINGHAND", "ICYWIND", "MUDSLAP", "SIGNALBEAM", "SNORE", "TAILWIND", "WATERPULSE", "MIMIC", "WAVECRASH"]
 compatible_egg_groups = ["Undiscovered"]
 steps_to_hatch = 6630
 height = 1.0
@@ -111,8 +111,8 @@ name = "HYDROPUMP"
 
 [[evolutions]]
 into_name = "MANTINE"
-condition = "HasInParty"
-parameter = "REMORAID"
+condition = "Level"
+parameter = "27"
 
 
 
