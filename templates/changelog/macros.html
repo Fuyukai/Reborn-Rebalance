@@ -46,7 +46,7 @@
 {%- macro gen_pokemon_changes(changeset, species, version) -%}
 {% if changeset.has_version(version) %}
 {% set changes = changeset._changes[version] %}
-<li><a href="/species/{{ species.internal_name.lower() }}.html">{{ species.name }}</a>
+<li><a href="/species/specific/{{ species.internal_name.lower() }}.html">{{ species.name }}</a>
     <ul>
         {{ version_comments(changeset, version) }}
         {% for change in changes %}
