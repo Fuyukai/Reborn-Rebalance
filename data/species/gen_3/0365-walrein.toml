@@ -6,7 +6,7 @@ growth_rate = "Parabolic"
 exp_yield = 239
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["THICKFAT", "ICEBODY"]
+raw_abilities = ["THICKFAT", "ICEBODY", "UNAWARE"]
 raw_egg_moves = []
 raw_tms = ["SURF", "STRENGTH", "ROAR", "WATERFALL", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "GIGAIMPACT", "SWORDSDANCE", "BULLDOZE", "FROSTBREATH", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "WHIRLPOOL", "ICICLESPEAR", "BRINE", "AVALANCHE", "ICEFANG", "CRUNCH", "BODYSLAM", "HYDROPUMP", "ENDURE", "ENCORE", "BODYPRESS"]
 raw_tutor_moves = ["AQUATAIL", "BLOCK", "FURYCUTTER", "HEADBUTT", "ICYWIND", "IRONHEAD", "IRONTAIL", "LIQUIDATION", "MUDSLAP", "ROLLOUT", "SIGNALBEAM", "SNORE", "STOMPINGTANTRUM", "SUPERFANG", "WATERPULSE", "STEELROLLER", "WAVECRASH", "ICEBALL", "MIMIC"]
@@ -24,7 +24,6 @@ evolutions = []
 form_names = []
 dex_number = 365
 internal_name = "WALREIN"
-raw_hidden_ability = "OBLIVIOUS"
 habitat = "Sea"
 
 [[raw_level_up_moves]]
@@ -128,11 +127,11 @@ at_level = 68
 name = "SHEERCOLD"
 
 [base_stats]
-hp = 110
+hp = 130
 atk = 80
-def_ = 90
+def_ = 80
 spa = 95
-spd = 90
+spd = 80
 spe = 65
 
 [ev_yield]

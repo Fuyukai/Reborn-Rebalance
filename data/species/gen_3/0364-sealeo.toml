@@ -27,6 +27,10 @@ raw_hidden_ability = "OBLIVIOUS"
 habitat = "Sea"
 
 [[raw_level_up_moves]]
+at_level = 0
+name = "YAWN"
+
+[[raw_level_up_moves]]
 at_level = 1
 name = "DEFENSECURL"
 
@@ -57,10 +61,6 @@ name = "SUPERFANG"
 [[raw_level_up_moves]]
 at_level = 13
 name = "WATERPULSE"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "YAWN"
 
 [[raw_level_up_moves]]
 at_level = 19
@@ -121,7 +121,7 @@ name = "SHEERCOLD"
 [[evolutions]]
 into_name = "WALREIN"
 condition = "Level"
-parameter = "44"
+parameter = "40"
 
 
 

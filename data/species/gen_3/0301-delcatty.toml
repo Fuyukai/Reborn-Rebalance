@@ -6,7 +6,7 @@ growth_rate = "Fast"
 exp_yield = 140
 catch_rate = 60
 caught_happiness = 70
-raw_abilities = ["CUTECHARM", "NORMALIZE"]
+raw_abilities = ["WONDERSKIN", "NORMALIZE"]
 raw_egg_moves = []
 raw_tms = ["WORKUP", "CALMMIND", "STRENGTH", "TOXIC", "ROCKSMASH", "FLASH", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "THUNDERBOLT", "THUNDER", "RETURN", "SHADOWBALL", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "CHARGEBEAM", "PAYBACK", "GIGAIMPACT", "THUNDERWAVE", "PSYCHUP", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "CONFIDE", "PAYDAY", "DIG", "CHARM", "FAKETEARS", "TAILSLAP", "DRAININGKISS", "BODYSLAM", "ENDURE", "BATONPASS", "COSMICPOWER", "NASTYPLOT", "PLAYROUGH", "RETALIATE", "SWIFT"]
 raw_tutor_moves = ["COVET", "HEADBUTT", "HEALBELL", "HELPINGHAND", "HYPERVOICE", "ICYWIND", "IRONTAIL", "LASERFOCUS", "LASTRESORT", "MUDSLAP", "ROLLOUT", "SHOCKWAVE", "SNORE", "STOMPINGTANTRUM", "SUCKERPUNCH", "UPROAR", "WATERPULSE", "ZENHEADBUTT", "MIMIC"]
@@ -24,7 +24,6 @@ evolutions = []
 form_names = []
 dex_number = 301
 internal_name = "DELCATTY"
-raw_hidden_ability = "WONDERSKIN"
 habitat = "Forest"
 
 [[raw_level_up_moves]]
@@ -81,11 +80,11 @@ name = "BATONPASS"
 
 [base_stats]
 hp = 70
-atk = 65
+atk = 95
 def_ = 65
-spa = 55
+spa = 85
 spd = 55
-spe = 90
+spe = 95
 
 [ev_yield]
 hp = 1
