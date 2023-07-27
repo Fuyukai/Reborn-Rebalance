@@ -1,14 +1,22 @@
 name = "Noctowl"
-primary_type = "NORMAL"
+primary_type = "PSYCHIC"
 secondary_type = "FLYING"
 gender_ratio = "Female50Percent"
 growth_rate = "Medium"
 exp_yield = 158
 catch_rate = 90
 caught_happiness = 70
-raw_abilities = ["INSOMNIA", "KEENEYE"]
+raw_abilities = ["INSOMNIA", "KEENEYE", "TINTEDLEENS"]
 raw_egg_moves = []
-raw_tms = ["WORKUP", "FLY", "CALMMIND", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "FRUSTRATION", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "STEELWING", "GIGAIMPACT", "PSYCHUP", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "SCREECH", "IMPRISON", "AIRSLASH", "HURRICANE", "AGILITY", "AMNESIA", "ENDURE", "FUTURESIGHT", "NASTYPLOT", "STOREDPOWER", "SWIFT"]
+raw_tms = [
+    "WORKUP", "FLY", "CALMMIND", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT",
+    "RAINDANCE", "ROOST", "ROOST", "FRUSTRATION", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM",
+    "REFLECT", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE",
+    "STEELWING", "GIGAIMPACT", "PSYCHUP", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE",
+    "SECRETPOWER", "CONFIDE", "SCREECH", "IMPRISON", "AIRSLASH", "HURRICANE", "AGILITY",
+    "AMNESIA", "ENDURE", "FUTURESIGHT", "NASTYPLOT", "STOREDPOWER", "SWIFT",
+    "MYSTICALFIRE"
+]
 raw_tutor_moves = ["AIRCUTTER", "DEFOG", "HEATWAVE", "HYPERVOICE", "LASERFOCUS", "MAGICCOAT", "MUDSLAP", "OMINOUSWIND", "RECYCLE", "SKYATTACK", "SNORE", "TAILWIND", "TWISTER", "UPROAR", "ZENHEADBUTT", "DUALWINGBEAT", "MIMIC"]
 compatible_egg_groups = ["Flying"]
 steps_to_hatch = 4080
@@ -24,7 +32,6 @@ evolutions = []
 form_names = []
 dex_number = 164
 internal_name = "NOCTOWL"
-raw_hidden_ability = "TINTEDLENS"
 habitat = "Forest"
 
 [[raw_level_up_moves]]
@@ -129,11 +136,11 @@ name = "SKYATTACK"
 
 [base_stats]
 hp = 100
-atk = 50
+atk = 40
 def_ = 50
-spa = 86
-spd = 96
-spe = 70
+spa = 106
+spd = 116
+spe = 60
 
 [ev_yield]
 hp = 2

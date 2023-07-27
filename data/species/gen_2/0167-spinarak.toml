@@ -6,7 +6,7 @@ growth_rate = "Fast"
 exp_yield = 50
 catch_rate = 255
 caught_happiness = 70
-raw_abilities = ["SWARM", "INSOMNIA"]
+raw_abilities = ["SNIPER", "INSOMNIA"]
 raw_egg_moves = ["BATONPASS", "DISABLE", "ELECTROWEB", "LUNGE", "MEGAHORN", "NIGHTSLASH", "PSYBEAM", "PURSUIT", "RAGEPOWDER", "SIGNALBEAM", "SONICBOOM", "TOXICSPIKES", "TWINEEDLE"]
 raw_tms = ["TOXIC", "FLASH", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "FRUSTRATION", "SOLARBEAM", "RETURN", "LEECHLIFE", "PSYCHIC", "DOUBLETEAM", "SLUDGEBOMB", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "STRUGGLEBUG", "XSCISSOR", "INFESTATION", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "PINMISSILE", "DIG", "SCREECH", "SCARYFACE", "ASSURANCE", "CROSSPOISON", "BODYSLAM", "MEGAHORN", "AGILITY", "ENDURE", "BATONPASS", "TOXICSPIKES", "VENOMDRENCH"]
 raw_tutor_moves = ["BOUNCE", "BUGBITE", "ELECTROWEB", "FOULPLAY", "GIGADRAIN", "SIGNALBEAM", "SNORE", "STRINGSHOT", "SUCKERPUNCH", "MIMIC"]
@@ -23,7 +23,6 @@ battler_altitude = 0
 form_names = []
 dex_number = 167
 internal_name = "SPINARAK"
-raw_hidden_ability = "SNIPER"
 habitat = "Forest"
 
 [[raw_level_up_moves]]
@@ -123,11 +122,11 @@ parameter = "22"
 
 [base_stats]
 hp = 40
-atk = 60
+atk = 70
 def_ = 40
 spa = 40
 spd = 40
-spe = 30
+spe = 50
 
 [ev_yield]
 hp = 0

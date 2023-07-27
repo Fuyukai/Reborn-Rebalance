@@ -6,7 +6,7 @@ growth_rate = "Fast"
 exp_yield = 189
 catch_rate = 75
 caught_happiness = 70
-raw_abilities = ["THICKFAT", "HUGEPOWER"]
+raw_abilities = ["THICKFAT", "HUGEPOWER", "SAPSIPPER"]
 raw_egg_moves = []
 raw_tms = ["WORKUP", "SURF", "STRENGTH", "WATERFALL", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "BRICKBREAK", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "ROUND", "FOCUSBLAST", "SCALD", "FLING", "BRUTALSWING", "GIGAIMPACT", "BULLDOZE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "CHARM", "WHIRLPOOL", "FAKETEARS", "MUDSHOT", "DRAININGKISS", "MISTYTERRAIN", "BODYSLAM", "HYDROPUMP", "AMNESIA", "ENDURE", "ENCORE", "FUTURESIGHT", "MUDDYWATER", "PLAYROUGH", "ICESPINNER", "SNOWSCAPE", "TRAILBLAZE", "CHILLINGWATER", "SWIFT"]
 raw_tutor_moves = ["AQUATAIL", "BOUNCE", "COVET", "FOCUSPUNCH", "HEADBUTT", "HELPINGHAND", "HYPERVOICE", "ICEPUNCH", "ICYWIND", "IRONTAIL", "KNOCKOFF", "LIQUIDATION", "MUDSLAP", "ROLLOUT", "SNORE", "SUPERPOWER", "WATERPULSE", "STEELROLLER", "MISTYEXPLOSION", "MIMIC"]
@@ -24,8 +24,11 @@ evolutions = []
 form_names = []
 dex_number = 184
 internal_name = "AZUMARILL"
-raw_hidden_ability = "SAPSIPPER"
 habitat = "WatersEdge"
+
+[[raw_level_up_moves]]
+at_level = 0
+name = "ROLLOUT"
 
 [[raw_level_up_moves]]
 at_level = 1
@@ -80,10 +83,6 @@ at_level = 21
 name = "HELPINGHAND"
 
 [[raw_level_up_moves]]
-at_level = 21
-name = "ROLLOUT"
-
-[[raw_level_up_moves]]
 at_level = 25
 name = "COVET"
 
@@ -131,7 +130,7 @@ name = "HYDROPUMP"
 hp = 100
 atk = 50
 def_ = 80
-spa = 60
+spa = 80
 spd = 80
 spe = 50
 

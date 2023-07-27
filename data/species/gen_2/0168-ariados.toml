@@ -6,7 +6,7 @@ growth_rate = "Fast"
 exp_yield = 140
 catch_rate = 90
 caught_happiness = 70
-raw_abilities = ["SWARM", "INSOMNIA"]
+raw_abilities = ["SNIPER", "INSOMNIA"]
 raw_egg_moves = []
 raw_tms = ["TOXIC", "FLASH", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "FRUSTRATION", "SOLARBEAM", "RETURN", "LEECHLIFE", "PSYCHIC", "DOUBLETEAM", "SLUDGEBOMB", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "SMARTSTRIKE", "GIGAIMPACT", "SWORDSDANCE", "STRUGGLEBUG", "XSCISSOR", "INFESTATION", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "PINMISSILE", "DIG", "SCREECH", "SCARYFACE", "ASSURANCE", "CROSSPOISON", "BODYSLAM", "MEGAHORN", "AGILITY", "FOCUSENERGY", "ENDURE", "BATONPASS", "TOXICSPIKES", "VENOMDRENCH"]
 raw_tutor_moves = ["BOUNCE", "BUGBITE", "ELECTROWEB", "FOULPLAY", "GIGADRAIN", "SIGNALBEAM", "SNORE", "STOMPINGTANTRUM", "STRINGSHOT", "SUCKERPUNCH", "THROATCHOP", "MIMIC"]
@@ -24,7 +24,6 @@ evolutions = []
 form_names = []
 dex_number = 168
 internal_name = "ARIADOS"
-raw_hidden_ability = "SNIPER"
 habitat = "Forest"
 
 [[raw_level_up_moves]]
@@ -129,11 +128,11 @@ name = "MEGAHORN"
 
 [base_stats]
 hp = 70
-atk = 90
+atk = 110
 def_ = 70
-spa = 60
+spa = 50
 spd = 70
-spe = 40
+spe = 80
 
 [ev_yield]
 hp = 0

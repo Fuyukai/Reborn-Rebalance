@@ -281,7 +281,7 @@ class PokemonSpecies:
     pokedex_entry: str = attr.ib()
 
     #: The wild item chances for this species.
-    wild_items: WildItems = attr.ib()
+    wild_items: WildItems = attr.ib(factory=WildItems)
 
     # used by reborn for things?
     battler_player_y: int = attr.ib()

@@ -6,9 +6,16 @@ growth_rate = "Parabolic"
 exp_yield = 203
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["CHLOROPHYLL", "WINDRIDER"]
+raw_abilities = ["PRANKSTER", "CHLOROPHYLL", "INFILTRATOR"]
 raw_egg_moves = []
-raw_tms = ["TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "REFLECT", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "ACROBATICS", "GIGAIMPACT", "SWORDSDANCE", "PSYCHUP", "INFESTATION", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "DAZZLINGGLEAM", "CONFIDE", "PAYDAY", "BULLETSEED", "GRASSYTERRAIN", "LEAFSTORM", "AMNESIA", "ENDURE", "BATONPASS", "ENCORE", "POLLENPUFF", "TRAILBLAZE"]
+raw_tms = [
+    "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "FRUSTRATION",
+    "SOLARBEAM", "RETURN", "DOUBLETEAM", "REFLECT", "AERIALACE", "FACADE", "REST", "ATTRACT",
+    "ROUND", "ENERGYBALL", "ACROBATICS", "GIGAIMPACT", "SWORDSDANCE", "PSYCHUP", "INFESTATION",
+    "GRASSKNOT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "DAZZLINGGLEAM",
+    "CONFIDE", "PAYDAY", "BULLETSEED", "GRASSYTERRAIN", "LEAFSTORM", "AMNESIA", "ENDURE",
+    "BATONPASS", "ENCORE", "POLLENPUFF", "TRAILBLAZE", "HURRICANE",
+]
 raw_tutor_moves = ["BOUNCE", "GIGADRAIN", "HEADBUTT", "HELPINGHAND", "SEEDBOMB", "SNORE", "SYNTHESIS", "WORRYSEED", "MIMIC"]
 compatible_egg_groups = ["Fairy", "Grass"]
 steps_to_hatch = 5355
@@ -24,7 +31,6 @@ evolutions = []
 form_names = []
 dex_number = 189
 internal_name = "JUMPLUFF"
-raw_hidden_ability = "INFILTRATOR"
 habitat = "Grassland"
 
 [[raw_level_up_moves]]
@@ -131,7 +137,7 @@ name = "MEMENTO"
 hp = 75
 atk = 55
 def_ = 70
-spa = 55
+spa = 75
 spd = 95
 spe = 110
 

@@ -6,7 +6,7 @@ growth_rate = "Parabolic"
 exp_yield = 50
 catch_rate = 255
 caught_happiness = 70
-raw_abilities = ["CHLOROPHYLL", "LEAFGUARD"]
+raw_abilities = ["PRANKSTER", "LEAFGUARD", "INFILTRATOR"]
 raw_egg_moves = ["AMNESIA", "AROMATHERAPY", "CONFUSION", "COTTONGUARD", "DOUBLEEDGE", "ENCORE", "ENDURE", "GRASSYTERRAIN", "HELPINGHAND", "SEEDBOMB", "STRENGTHSAP", "WORRYSEED"]
 raw_tms = ["TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "REFLECT", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "ACROBATICS", "SWORDSDANCE", "PSYCHUP", "INFESTATION", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "DAZZLINGGLEAM", "CONFIDE", "PAYDAY", "BULLETSEED", "GRASSYTERRAIN", "AMNESIA", "ENDURE", "BATONPASS", "ENCORE", "TRAILBLAZE"]
 raw_tutor_moves = ["BOUNCE", "GIGADRAIN", "HEADBUTT", "HELPINGHAND", "SEEDBOMB", "SNORE", "SYNTHESIS", "WORRYSEED", "MIMIC"]
@@ -23,7 +23,6 @@ battler_altitude = 13
 form_names = []
 dex_number = 187
 internal_name = "HOPPIP"
-raw_hidden_ability = "INFILTRATOR"
 habitat = "Grassland"
 
 [[raw_level_up_moves]]
@@ -137,9 +136,9 @@ parameter = "18"
 hp = 35
 atk = 35
 def_ = 40
-spa = 35
+spa = 45
 spd = 55
-spe = 50
+spe = 70
 
 [ev_yield]
 hp = 0
