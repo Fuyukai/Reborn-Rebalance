@@ -26,11 +26,11 @@ internal_name = "DARUMAKA"
 
 [[raw_level_up_moves]]
 at_level = 1
-name = "TACKLE"
+name = "YAWN"
 
 [[raw_level_up_moves]]
-at_level = 3
-name = "ROLLOUT"
+at_level = 1
+name = "TACKLE"
 
 [[raw_level_up_moves]]
 at_level = 6
@@ -61,12 +61,16 @@ at_level = 22
 name = "FIREPUNCH"
 
 [[raw_level_up_moves]]
-at_level = 25
-name = "WORKUP"
+at_level = 24
+name = "BODYSLAM"
 
 [[raw_level_up_moves]]
-at_level = 27
-name = "THRASH"
+at_level = 26
+name = "EXTRASENSORY"
+
+[[raw_level_up_moves]]
+at_level = 28
+name = "FLAMEWHEEL"
 
 [[raw_level_up_moves]]
 at_level = 30
@@ -74,24 +78,30 @@ name = "BELLYDRUM"
 
 [[raw_level_up_moves]]
 at_level = 33
-name = "FLAREBLITZ"
+name = "RAGINGFURY"
 
 [[raw_level_up_moves]]
-at_level = 35
-name = "TAUNT"
+at_level = 36
+name = "LUNGE"
 
 [[raw_level_up_moves]]
 at_level = 39
-name = "SUPERPOWER"
+name = "ROLLOUT"
 
 [[raw_level_up_moves]]
 at_level = 42
-name = "OVERHEAT"
+name = "FLAREBLITZ"
+
+[[raw_level_up_moves]]
+at_level = 45
+name = "FOCUSPUNCH"
 
 [[evolutions]]
 into_name = "DARMANITAN"
 condition = "Level"
 parameter = "35"
+
+
 
 [base_stats]
 hp = 70

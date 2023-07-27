@@ -27,68 +27,82 @@ raw_hidden_ability = "WEAKARMOR"
 
 [[raw_level_up_moves]]
 at_level = 1
+name = "CURSE"
+
+[[raw_level_up_moves]]
+at_level = 1
 name = "FURYCUTTER"
 
 [[raw_level_up_moves]]
-at_level = 5
-name = "ROCKBLAST"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "WITHDRAW"
-
-[[raw_level_up_moves]]
-at_level = 11
+at_level = 1
 name = "SANDATTACK"
 
 [[raw_level_up_moves]]
-at_level = 13
-name = "FEINTATTACK"
+at_level = 4
+name = "WITHDRAW"
 
 [[raw_level_up_moves]]
-at_level = 17
-name = "SMACKDOWN"
+at_level = 8
+name = "ROCKTOMB"
 
 [[raw_level_up_moves]]
-at_level = 19
-name = "ROCKPOLISH"
-
-[[raw_level_up_moves]]
-at_level = 23
+at_level = 12
 name = "BUGBITE"
 
 [[raw_level_up_moves]]
-at_level = 24
-name = "STEALTHROCK"
-
-[[raw_level_up_moves]]
-at_level = 29
-name = "ROCKSLIDE"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "SLASH"
-
-[[raw_level_up_moves]]
-at_level = 35
-name = "XSCISSOR"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "SHELLSMASH"
-
-[[raw_level_up_moves]]
-at_level = 41
+at_level = 16
 name = "FLAIL"
 
 [[raw_level_up_moves]]
-at_level = 43
+at_level = 19
+name = "FEINTATTACK"
+
+[[raw_level_up_moves]]
+at_level = 22
+name = "SPIKES"
+
+[[raw_level_up_moves]]
+at_level = 24
+name = "ROCKSLIDE"
+
+[[raw_level_up_moves]]
+at_level = 27
+name = "SLASH"
+
+[[raw_level_up_moves]]
+at_level = 27
+name = "NIGHTSLASH"
+
+[[raw_level_up_moves]]
+at_level = 30
+name = "ROCKPOLISH"
+
+[[raw_level_up_moves]]
+at_level = 34
+name = "ROCKBLAST"
+
+[[raw_level_up_moves]]
+at_level = 38
+name = "XSCISSOR"
+
+[[raw_level_up_moves]]
+at_level = 42
+name = "STEALTHROCK"
+
+[[raw_level_up_moves]]
+at_level = 46
+name = "SHELLSMASH"
+
+[[raw_level_up_moves]]
+at_level = 50
 name = "ROCKWRECKER"
 
 [[evolutions]]
 into_name = "CRUSTLE"
 condition = "Level"
 parameter = "34"
+
+
 
 [base_stats]
 hp = 50

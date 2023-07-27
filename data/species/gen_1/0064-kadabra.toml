@@ -27,73 +27,89 @@ raw_hidden_ability = "MAGICGUARD"
 habitat = "Urban"
 
 [[raw_level_up_moves]]
-at_level = 0
-name = "KINESIS"
-
-[[raw_level_up_moves]]
 at_level = 1
 name = "TELEPORT"
 
 [[raw_level_up_moves]]
 at_level = 1
-name = "CONFUSION"
+name = "HIDDENPOWER"
+
+[[raw_level_up_moves]]
+at_level = 1
+name = "KINESIS"
 
 [[raw_level_up_moves]]
 at_level = 16
 name = "CONFUSION"
 
 [[raw_level_up_moves]]
-at_level = 18
+at_level = 19
 name = "DISABLE"
 
 [[raw_level_up_moves]]
-at_level = 21
-name = "PSYBEAM"
+at_level = 20
+name = "SHOCKWAVE"
 
 [[raw_level_up_moves]]
-at_level = 23
+at_level = 22
 name = "MIRACLEEYE"
 
 [[raw_level_up_moves]]
-at_level = 26
-name = "REFLECT"
+at_level = 23
+name = "ALLYSWITCH"
 
 [[raw_level_up_moves]]
-at_level = 28
-name = "PSYCHOCUT"
+at_level = 26
+name = "WONDERROOM"
+
+[[raw_level_up_moves]]
+at_level = 29
+name = "PSYBEAM"
 
 [[raw_level_up_moves]]
 at_level = 31
-name = "RECOVER"
+name = "GRAVITY"
 
 [[raw_level_up_moves]]
-at_level = 33
+at_level = 34
 name = "TELEKINESIS"
 
 [[raw_level_up_moves]]
 at_level = 36
-name = "ALLYSWITCH"
+name = "RECOVER"
 
 [[raw_level_up_moves]]
-at_level = 38
-name = "PSYCHIC"
-
-[[raw_level_up_moves]]
-at_level = 41
-name = "ROLEPLAY"
-
-[[raw_level_up_moves]]
-at_level = 43
+at_level = 39
 name = "FUTURESIGHT"
 
 [[raw_level_up_moves]]
+at_level = 42
+name = "ROLEPLAY"
+
+[[raw_level_up_moves]]
 at_level = 46
+name = "PSYCHIC"
+
+[[raw_level_up_moves]]
+at_level = 49
 name = "TRICK"
+
+[[raw_level_up_moves]]
+at_level = 52
+name = "STOREDPOWER"
+
+[[raw_level_up_moves]]
+at_level = 56
+name = "NASTYPLOT"
 
 [[evolutions]]
 into_name = "ALAKAZAM"
 condition = "Trade"
 parameter = ""
+
+
+
+
 
 [base_stats]
 hp = 40

@@ -25,24 +25,20 @@ dex_number = 603
 internal_name = "EELEKTRIK"
 
 [[raw_level_up_moves]]
-at_level = 0
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "THUNDERWAVE"
-
-[[raw_level_up_moves]]
 at_level = 1
 name = "SPARK"
 
 [[raw_level_up_moves]]
 at_level = 1
-name = "CHARGEBEAM"
+name = "MAGNETRISE"
+
+[[raw_level_up_moves]]
+at_level = 1
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = 1
+name = "NUZZLE"
 
 [[raw_level_up_moves]]
 at_level = 9
@@ -53,41 +49,59 @@ at_level = 19
 name = "ACID"
 
 [[raw_level_up_moves]]
-at_level = 29
-name = "DISCHARGE"
+at_level = 30
+name = "CRUNCH"
 
 [[raw_level_up_moves]]
-at_level = 44
-name = "THUNDERBOLT"
+at_level = 32
+name = "SPARK"
 
 [[raw_level_up_moves]]
-at_level = 49
-name = "ACIDSPRAY"
+at_level = 34
+name = "DRAININGKISS"
 
 [[raw_level_up_moves]]
-at_level = 54
-name = "COIL"
-
-[[raw_level_up_moves]]
-at_level = 59
-name = "WILDCHARGE"
-
-[[raw_level_up_moves]]
-at_level = 64
+at_level = 36
 name = "GASTROACID"
 
 [[raw_level_up_moves]]
-at_level = 69
-name = "ZAPCANNON"
+at_level = 38
+name = "BREAKINGSWIPE"
 
 [[raw_level_up_moves]]
-at_level = 74
-name = "THRASH"
+at_level = 40
+name = "CHARGEBEAM"
+
+[[raw_level_up_moves]]
+at_level = 42
+name = "ACIDSPRAY"
+
+[[raw_level_up_moves]]
+at_level = 45
+name = "DISCHARGE"
+
+[[raw_level_up_moves]]
+at_level = 48
+name = "PSYCHICFANGS"
+
+[[raw_level_up_moves]]
+at_level = 52
+name = "COIL"
+
+[[raw_level_up_moves]]
+at_level = 56
+name = "LEECHLIFE"
+
+[[raw_level_up_moves]]
+at_level = 60
+name = "ZAPCANNON"
 
 [[evolutions]]
 into_name = "EELEKTROSS"
 condition = "Item"
 parameter = "THUNDERSTONE"
+
+
 
 [base_stats]
 hp = 65

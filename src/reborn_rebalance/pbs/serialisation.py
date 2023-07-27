@@ -44,6 +44,14 @@ GENERATIONS = [
 ]
 
 
+def generation_for(dex_number: int) -> int:
+    for gen, range in enumerate(GENERATIONS):
+        if dex_number in range:
+            return gen
+
+    raise ValueError(dex_number)
+
+
 def create_cattrs_converter() -> cattrs.Converter:
     converter = cattrs.Converter()
 

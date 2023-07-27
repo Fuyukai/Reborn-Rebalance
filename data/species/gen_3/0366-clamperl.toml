@@ -27,7 +27,7 @@ habitat = "Sea"
 
 [[raw_level_up_moves]]
 at_level = 1
-name = "CLAMP"
+name = "AQUARING"
 
 [[raw_level_up_moves]]
 at_level = 1
@@ -42,6 +42,18 @@ at_level = 1
 name = "IRONDEFENSE"
 
 [[raw_level_up_moves]]
+at_level = 15
+name = "WATERPULSE"
+
+[[raw_level_up_moves]]
+at_level = 30
+name = "MUDDYWATER"
+
+[[raw_level_up_moves]]
+at_level = 40
+name = "CONFUSERAY"
+
+[[raw_level_up_moves]]
 at_level = 50
 name = "SHELLSMASH"
 
@@ -54,6 +66,8 @@ parameter = "DEEPSEATOOTH"
 into_name = "GOREBYSS"
 condition = "TradeItem"
 parameter = "DEEPSEASCALE"
+
+
 
 [base_stats]
 hp = 35

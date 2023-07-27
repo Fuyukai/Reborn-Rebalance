@@ -30,57 +30,75 @@ at_level = 1
 name = "POUND"
 
 [[raw_level_up_moves]]
-at_level = 4
-name = "ECHOEDVOICE"
-
-[[raw_level_up_moves]]
-at_level = 8
+at_level = 1
 name = "ASTONISH"
 
 [[raw_level_up_moves]]
-at_level = 11
+at_level = 1
 name = "HOWL"
 
 [[raw_level_up_moves]]
-at_level = 15
-name = "SCREECH"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "SUPERSONIC"
-
-[[raw_level_up_moves]]
-at_level = 22
+at_level = 7
 name = "STOMP"
 
 [[raw_level_up_moves]]
-at_level = 25
+at_level = 10
+name = "ECHOEDVOICE"
+
+[[raw_level_up_moves]]
+at_level = 13
+name = "SCREECH"
+
+[[raw_level_up_moves]]
+at_level = 16
+name = "DISARMINGVOICE"
+
+[[raw_level_up_moves]]
+at_level = 19
 name = "UPROAR"
 
 [[raw_level_up_moves]]
-at_level = 29
-name = "ROAR"
+at_level = 22
+name = "FAKETEARS"
 
 [[raw_level_up_moves]]
-at_level = 32
-name = "REST"
+at_level = 25
+name = "CHATTER"
 
 [[raw_level_up_moves]]
-at_level = 36
-name = "SLEEPTALK"
+at_level = 28
+name = "TAKEDOWN"
 
 [[raw_level_up_moves]]
-at_level = 39
+at_level = 31
+name = "ENDURE"
+
+[[raw_level_up_moves]]
+at_level = 34
 name = "HYPERVOICE"
 
 [[raw_level_up_moves]]
-at_level = 43
+at_level = 37
+name = "ENDEAVOR"
+
+[[raw_level_up_moves]]
+at_level = 40
+name = "EXTRASENSORY"
+
+[[raw_level_up_moves]]
+at_level = 44
+name = "FLING"
+
+[[raw_level_up_moves]]
+at_level = 48
 name = "SYNCHRONOISE"
 
 [[evolutions]]
 into_name = "LOUDRED"
 condition = "Level"
 parameter = "20"
+
+
 
 [base_stats]
 hp = 64

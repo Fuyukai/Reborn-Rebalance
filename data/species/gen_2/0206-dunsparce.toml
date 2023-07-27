@@ -28,6 +28,10 @@ habitat = "Cave"
 
 [[raw_level_up_moves]]
 at_level = 1
+name = "STOREDPOWER"
+
+[[raw_level_up_moves]]
+at_level = 1
 name = "RAGE"
 
 [[raw_level_up_moves]]
@@ -35,93 +39,99 @@ at_level = 1
 name = "DEFENSECURL"
 
 [[raw_level_up_moves]]
-at_level = 3
+at_level = 1
+name = "MUDSLAP"
+
+[[raw_level_up_moves]]
+at_level = 1
 name = "ROLLOUT"
 
 [[raw_level_up_moves]]
-at_level = 6
+at_level = 4
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = 7
 name = "SPITE"
 
 [[raw_level_up_moves]]
-at_level = 8
+at_level = 10
 name = "PURSUIT"
 
 [[raw_level_up_moves]]
-at_level = 11
-name = "SCREECH"
-
-[[raw_level_up_moves]]
 at_level = 13
-name = "MUDSLAP"
+name = "SCREECH"
 
 [[raw_level_up_moves]]
 at_level = 16
 name = "YAWN"
 
 [[raw_level_up_moves]]
-at_level = 18
-name = "ANCIENTPOWER"
+at_level = 19
+name = "HEADBUTT"
 
 [[raw_level_up_moves]]
-at_level = 21
-name = "BODYSLAM"
+at_level = 22
+name = "HEX"
 
 [[raw_level_up_moves]]
-at_level = 23
-name = "DRILLRUN"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "ROOST"
+at_level = 25
+name = "CURSE"
 
 [[raw_level_up_moves]]
 at_level = 28
+name = "ANCIENTPOWER"
+
+[[raw_level_up_moves]]
+at_level = 31
 name = "TAKEDOWN"
 
 [[raw_level_up_moves]]
-at_level = 30
-name = "COIL"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "HYPERDRILL"
-
-[[raw_level_up_moves]]
 at_level = 34
-name = "DIG"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "GLARE"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "DOUBLEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 41
 name = "ENDEAVOR"
 
 [[raw_level_up_moves]]
+at_level = 37
+name = "BODYSLAM"
+
+[[raw_level_up_moves]]
+at_level = 40
+name = "COIL"
+
+[[raw_level_up_moves]]
 at_level = 43
-name = "AIRSLASH"
+name = "DUALWINGBEAT"
 
 [[raw_level_up_moves]]
 at_level = 46
+name = "AIRSLASH"
+
+[[raw_level_up_moves]]
+at_level = 49
+name = "GLARE"
+
+[[raw_level_up_moves]]
+at_level = 52
 name = "DRAGONRUSH"
 
 [[raw_level_up_moves]]
-at_level = 48
-name = "ENDURE"
+at_level = 55
+name = "AGILITY"
 
 [[raw_level_up_moves]]
-at_level = 51
-name = "FLAIL"
+at_level = 58
+name = "DOUBLEEDGE"
+
+[[raw_level_up_moves]]
+at_level = 61
+name = "LASTRESORT"
 
 [[evolutions]]
 into_name = "DUDUNSPARCE"
 condition = "HasMove"
 parameter = "HYPERDRILL"
+
+
 
 [base_stats]
 hp = 100

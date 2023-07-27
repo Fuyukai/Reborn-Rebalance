@@ -28,14 +28,26 @@ habitat = "Forest"
 
 [[raw_level_up_moves]]
 at_level = 1
-name = "MEFIRST"
+name = "EXTRASENSORY"
 
 [[raw_level_up_moves]]
 at_level = 1
-name = "TACKLE"
+name = "SUCKERPUNCH"
 
 [[raw_level_up_moves]]
-at_level = 3
+at_level = 1
+name = "MEGAHORN"
+
+[[raw_level_up_moves]]
+at_level = 1
+name = "ENTRAINMENT"
+
+[[raw_level_up_moves]]
+at_level = 1
+name = "HYPNOSIS"
+
+[[raw_level_up_moves]]
+at_level = 1
 name = "LEER"
 
 [[raw_level_up_moves]]
@@ -44,7 +56,7 @@ name = "ASTONISH"
 
 [[raw_level_up_moves]]
 at_level = 10
-name = "HYPNOSIS"
+name = "SANDATTACK"
 
 [[raw_level_up_moves]]
 at_level = 13
@@ -52,52 +64,70 @@ name = "STOMP"
 
 [[raw_level_up_moves]]
 at_level = 16
-name = "SANDATTACK"
+name = "MEFIRST"
 
 [[raw_level_up_moves]]
-at_level = 21
-name = "TAKEDOWN"
-
-[[raw_level_up_moves]]
-at_level = 23
+at_level = 19
 name = "CONFUSERAY"
 
 [[raw_level_up_moves]]
-at_level = 27
-name = "CALMMIND"
+at_level = 22
+name = "TAKEDOWN"
 
 [[raw_level_up_moves]]
-at_level = 33
+at_level = 25
+name = "SPITE"
+
+[[raw_level_up_moves]]
+at_level = 27
+name = "PSYSHIELDBASH"
+
+[[raw_level_up_moves]]
+at_level = 30
 name = "ROLEPLAY"
 
 [[raw_level_up_moves]]
-at_level = 36
-name = "ZENHEADBUTT"
+at_level = 33
+name = "DETECT"
 
 [[raw_level_up_moves]]
-at_level = 40
-name = "PSYSHIELDBASH"
+at_level = 36
+name = "BODYSLAM"
+
+[[raw_level_up_moves]]
+at_level = 39
+name = "DISABLE"
+
+[[raw_level_up_moves]]
+at_level = 42
+name = "LUNGE"
 
 [[raw_level_up_moves]]
 at_level = 45
 name = "JUMPKICK"
 
 [[raw_level_up_moves]]
-at_level = 49
-name = "IMPRISON"
+at_level = 48
+name = "NIGHTMARE"
 
 [[raw_level_up_moves]]
-at_level = 50
-name = "CAPTIVATE"
+at_level = 51
+name = "BOUNCE"
 
 [[raw_level_up_moves]]
-at_level = 55
-name = "MEFIRST"
+at_level = 54
+name = "DOUBLEEDGE"
+
+[[raw_level_up_moves]]
+at_level = 58
+name = "LASTRESORT"
 
 [[evolutions]]
 into_name = "WYRDEER"
 condition = "HasMove"
 parameter = "PSYSHIELDBASH"
+
+
 
 [base_stats]
 hp = 73

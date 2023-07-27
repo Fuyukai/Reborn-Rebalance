@@ -213,7 +213,11 @@ class EssentialsCatalog:
         )
 
     @classmethod
-    def load_from_toml(cls, path: Path) -> Self:
+    def load_from_toml(
+        cls,
+        path: Path,
+        skip_species: bool = False,
+    ) -> Self:
         """
         Loads all objects from toml files in the provided ``data`` directory.
         """
@@ -232,7 +236,10 @@ class EssentialsCatalog:
         tms = load_tms_from_toml(tm_path)
 
         species_dir = path / "species"
-        species = load_all_species_from_toml(species_dir)
+        if skip_species:
+            species = []
+        else:
+            species = load_all_species_from_toml(species_dir)
 
         encounters_path = path / "encounters"
         encounters = load_encounters_from_toml(encounters_path)

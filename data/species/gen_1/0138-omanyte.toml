@@ -28,7 +28,7 @@ habitat = "Sea"
 
 [[raw_level_up_moves]]
 at_level = 1
-name = "CONSTRICT"
+name = "WATERGUN"
 
 [[raw_level_up_moves]]
 at_level = 1
@@ -44,27 +44,27 @@ name = "WATERGUN"
 
 [[raw_level_up_moves]]
 at_level = 16
-name = "ROLLOUT"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 25
 name = "MUDSHOT"
 
 [[raw_level_up_moves]]
-at_level = 28
+at_level = 19
+name = "AURORABEAM"
+
+[[raw_level_up_moves]]
+at_level = 25
 name = "BRINE"
 
 [[raw_level_up_moves]]
-at_level = 34
+at_level = 28
+name = "ANCIENTPOWER"
+
+[[raw_level_up_moves]]
+at_level = 33
 name = "PROTECT"
 
 [[raw_level_up_moves]]
-at_level = 37
-name = "ANCIENTPOWER"
+at_level = 38
+name = "ACCELEROCK"
 
 [[raw_level_up_moves]]
 at_level = 43
@@ -72,20 +72,26 @@ name = "TICKLE"
 
 [[raw_level_up_moves]]
 at_level = 46
-name = "ROCKBLAST"
+name = "POWERGEM"
 
 [[raw_level_up_moves]]
-at_level = 50
+at_level = 52
 name = "SHELLSMASH"
 
 [[raw_level_up_moves]]
 at_level = 55
 name = "HYDROPUMP"
 
+[[raw_level_up_moves]]
+at_level = 58
+name = "EARTHPOWER"
+
 [[evolutions]]
 into_name = "OMASTAR"
 condition = "Level"
 parameter = "40"
+
+
 
 [base_stats]
 hp = 35

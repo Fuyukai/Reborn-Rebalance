@@ -27,72 +27,102 @@ raw_hidden_ability = "SWARM"
 
 [[raw_level_up_moves]]
 at_level = 1
-name = "STRINGSHOT"
+name = "ABSORB"
 
 [[raw_level_up_moves]]
 at_level = 1
-name = "ABSORB"
+name = "INFESTATION"
 
 [[raw_level_up_moves]]
 at_level = 1
 name = "SPIDERWEB"
 
 [[raw_level_up_moves]]
+at_level = 1
+name = "POISONSTING"
+
+[[raw_level_up_moves]]
 at_level = 4
-name = "THUNDERWAVE"
+name = "CAMOUFLAGE"
 
 [[raw_level_up_moves]]
 at_level = 7
 name = "SCREECH"
 
 [[raw_level_up_moves]]
-at_level = 12
-name = "FURYCUTTER"
+at_level = 10
+name = "NUZZLE"
 
 [[raw_level_up_moves]]
-at_level = 15
-name = "ELECTROWEB"
+at_level = 13
+name = "PURSUIT"
 
 [[raw_level_up_moves]]
-at_level = 18
-name = "BUGBITE"
+at_level = 16
+name = "PINMISSILE"
 
 [[raw_level_up_moves]]
-at_level = 23
-name = "GASTROACID"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "SLASH"
-
-[[raw_level_up_moves]]
-at_level = 29
-name = "ELECTROBALL"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "SIGNALBEAM"
-
-[[raw_level_up_moves]]
-at_level = 37
+at_level = 19
 name = "AGILITY"
 
 [[raw_level_up_moves]]
-at_level = 40
-name = "SUCKERPUNCH"
+at_level = 22
+name = "MEGADRAIN"
 
 [[raw_level_up_moves]]
-at_level = 45
-name = "DISCHARGE"
+at_level = 25
+name = "ELECTROBALL"
+
+[[raw_level_up_moves]]
+at_level = 28
+name = "ELECTROWEB"
+
+[[raw_level_up_moves]]
+at_level = 31
+name = "STRUGGLEBUG"
+
+[[raw_level_up_moves]]
+at_level = 34
+name = "DISABLE"
+
+[[raw_level_up_moves]]
+at_level = 37
+name = "SLASH"
+
+[[raw_level_up_moves]]
+at_level = 37
+name = "NIGHTSLASH"
+
+[[raw_level_up_moves]]
+at_level = 40
+name = "GASTROACID"
+
+[[raw_level_up_moves]]
+at_level = 44
+name = "LUNGE"
 
 [[raw_level_up_moves]]
 at_level = 48
-name = "BUGBUZZ"
+name = "SUCKERPUNCH"
+
+[[raw_level_up_moves]]
+at_level = 52
+name = "CROSSPOISON"
+
+[[raw_level_up_moves]]
+at_level = 56
+name = "DISCHARGE"
+
+[[raw_level_up_moves]]
+at_level = 60
+name = "LEECHLIFE"
 
 [[evolutions]]
 into_name = "GALVANTULA"
 condition = "Level"
 parameter = "36"
+
+
 
 [base_stats]
 hp = 50

@@ -26,8 +26,8 @@ internal_name = "SWADLOON"
 raw_hidden_ability = "OVERCOAT"
 
 [[raw_level_up_moves]]
-at_level = 0
-name = "PROTECT"
+at_level = 1
+name = "TACKLE"
 
 [[raw_level_up_moves]]
 at_level = 1
@@ -35,7 +35,7 @@ name = "GRASSWHISTLE"
 
 [[raw_level_up_moves]]
 at_level = 1
-name = "TACKLE"
+name = "RAZORLEAF"
 
 [[raw_level_up_moves]]
 at_level = 1
@@ -46,13 +46,23 @@ at_level = 1
 name = "BUGBITE"
 
 [[raw_level_up_moves]]
-at_level = 1
-name = "RAZORLEAF"
+at_level = 21
+name = "PROTECT"
+
+[[raw_level_up_moves]]
+at_level = 21
+name = "SYNTHESIS"
+
+[[raw_level_up_moves]]
+at_level = 23
+name = "IRONDEFENSE"
 
 [[evolutions]]
 into_name = "LEAVANNY"
 condition = "Happiness"
 parameter = ""
+
+
 
 [base_stats]
 hp = 55

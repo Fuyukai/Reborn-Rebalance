@@ -27,16 +27,8 @@ raw_hidden_ability = "OBLIVIOUS"
 habitat = "Sea"
 
 [[raw_level_up_moves]]
-at_level = 0
-name = "SWAGGER"
-
-[[raw_level_up_moves]]
 at_level = 1
 name = "DEFENSECURL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "POWDERSNOW"
 
 [[raw_level_up_moves]]
 at_level = 1
@@ -44,56 +36,94 @@ name = "GROWL"
 
 [[raw_level_up_moves]]
 at_level = 1
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = 1
 name = "WATERGUN"
 
 [[raw_level_up_moves]]
-at_level = 5
-name = "ROLLOUT"
+at_level = 4
+name = "WHIRLPOOL"
 
 [[raw_level_up_moves]]
-at_level = 9
-name = "ENCORE"
+at_level = 7
+name = "POWDERSNOW"
+
+[[raw_level_up_moves]]
+at_level = 10
+name = "SUPERFANG"
 
 [[raw_level_up_moves]]
 at_level = 13
-name = "ICEBALL"
+name = "WATERPULSE"
 
 [[raw_level_up_moves]]
-at_level = 17
-name = "BRINE"
+at_level = 16
+name = "YAWN"
+
+[[raw_level_up_moves]]
+at_level = 19
+name = "BUBBLEBEAM"
 
 [[raw_level_up_moves]]
 at_level = 21
+name = "ICICLESPEAR"
+
+[[raw_level_up_moves]]
+at_level = 23
 name = "AURORABEAM"
 
 [[raw_level_up_moves]]
 at_level = 26
+name = "ROLLOUT"
+
+[[raw_level_up_moves]]
+at_level = 29
+name = "SLACKOFF"
+
+[[raw_level_up_moves]]
+at_level = 32
+name = "BRINE"
+
+[[raw_level_up_moves]]
+at_level = 36
 name = "BODYSLAM"
 
 [[raw_level_up_moves]]
-at_level = 31
-name = "REST"
+at_level = 40
+name = "AQUARING"
 
 [[raw_level_up_moves]]
-at_level = 31
-name = "SNORE"
+at_level = 44
+name = "AQUATAIL"
 
 [[raw_level_up_moves]]
-at_level = 38
-name = "HAIL"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "BLIZZARD"
+at_level = 48
+name = "BLOCK"
 
 [[raw_level_up_moves]]
 at_level = 52
+name = "CURSE"
+
+[[raw_level_up_moves]]
+at_level = 56
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = 60
+name = "FISSURE"
+
+[[raw_level_up_moves]]
+at_level = 64
 name = "SHEERCOLD"
 
 [[evolutions]]
 into_name = "WALREIN"
 condition = "Level"
 parameter = "44"
+
+
 
 [base_stats]
 hp = 90

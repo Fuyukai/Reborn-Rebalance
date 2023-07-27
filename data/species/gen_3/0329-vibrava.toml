@@ -26,8 +26,8 @@ internal_name = "VIBRAVA"
 habitat = "RoughTerrain"
 
 [[raw_level_up_moves]]
-at_level = 0
-name = "DRAGONBREATH"
+at_level = 1
+name = "ASTONISH"
 
 [[raw_level_up_moves]]
 at_level = 1
@@ -35,72 +35,94 @@ name = "SANDATTACK"
 
 [[raw_level_up_moves]]
 at_level = 1
-name = "SONICBOOM"
+name = "BITE"
 
 [[raw_level_up_moves]]
-at_level = 1
-name = "FEINTATTACK"
+at_level = 4
+name = "QUICKATTACK"
 
 [[raw_level_up_moves]]
-at_level = 1
-name = "BIDE"
-
-[[raw_level_up_moves]]
-at_level = 5
+at_level = 7
 name = "MUDSLAP"
 
 [[raw_level_up_moves]]
-at_level = 8
-name = "BULLDOZE"
+at_level = 10
+name = "FLAIL"
 
 [[raw_level_up_moves]]
-at_level = 12
-name = "SANDTOMB"
+at_level = 13
+name = "MUDSHOT"
 
 [[raw_level_up_moves]]
-at_level = 15
-name = "ROCKSLIDE"
+at_level = 16
+name = "SONICBOOM"
 
 [[raw_level_up_moves]]
 at_level = 19
-name = "SUPERSONIC"
+name = "BUGBITE"
 
 [[raw_level_up_moves]]
 at_level = 22
-name = "SCREECH"
+name = "TWISTER"
 
 [[raw_level_up_moves]]
-at_level = 26
-name = "EARTHPOWER"
+at_level = 25
+name = "CRUNCH"
 
 [[raw_level_up_moves]]
-at_level = 29
-name = "BUGBUZZ"
+at_level = 28
+name = "FURYCUTTER"
+
+[[raw_level_up_moves]]
+at_level = 30
+name = "GUST"
+
+[[raw_level_up_moves]]
+at_level = 31
+name = "STRUGGLEBUG"
 
 [[raw_level_up_moves]]
 at_level = 33
-name = "EARTHQUAKE"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "SANDSTORM"
-
-[[raw_level_up_moves]]
-at_level = 40
 name = "UPROAR"
 
 [[raw_level_up_moves]]
-at_level = 43
-name = "HYPERBEAM"
+at_level = 36
+name = "DRAGONBREATH"
 
 [[raw_level_up_moves]]
-at_level = 47
-name = "BOOMBURST"
+at_level = 39
+name = "SIGNALBEAM"
+
+[[raw_level_up_moves]]
+at_level = 42
+name = "SCORCHINGSANDS"
+
+[[raw_level_up_moves]]
+at_level = 45
+name = "SANDSTORM"
+
+[[raw_level_up_moves]]
+at_level = 48
+name = "HYPERVOICE"
+
+[[raw_level_up_moves]]
+at_level = 51
+name = "BUGBUZZ"
+
+[[raw_level_up_moves]]
+at_level = 54
+name = "TAILWIND"
+
+[[raw_level_up_moves]]
+at_level = 57
+name = "DOUBLEEDGE"
 
 [[evolutions]]
 into_name = "FLYGON"
 condition = "Level"
 parameter = "45"
+
+
 
 [base_stats]
 hp = 50

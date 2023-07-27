@@ -25,10 +25,6 @@ dex_number = 444
 internal_name = "GABITE"
 
 [[raw_level_up_moves]]
-at_level = 0
-name = "DUALCHOP"
-
-[[raw_level_up_moves]]
 at_level = 1
 name = "TACKLE"
 
@@ -37,49 +33,75 @@ at_level = 1
 name = "SANDATTACK"
 
 [[raw_level_up_moves]]
-at_level = 1
-name = "DRAGONRAGE"
-
-[[raw_level_up_moves]]
-at_level = 3
-name = "SANDATTACK"
-
-[[raw_level_up_moves]]
 at_level = 7
-name = "DRAGONRAGE"
+name = "DRAGONBREATH"
+
+[[raw_level_up_moves]]
+at_level = 10
+name = "MUDSHOT"
 
 [[raw_level_up_moves]]
 at_level = 13
-name = "SANDSTORM"
-
-[[raw_level_up_moves]]
-at_level = 15
 name = "TAKEDOWN"
 
 [[raw_level_up_moves]]
-at_level = 19
-name = "SANDTOMB"
+at_level = 16
+name = "BREAKINGSWIPE"
 
 [[raw_level_up_moves]]
-at_level = 28
+at_level = 19
+name = "SCORCHINGSANDS"
+
+[[raw_level_up_moves]]
+at_level = 22
+name = "BULLDOZE"
+
+[[raw_level_up_moves]]
+at_level = 24
+name = "METALCLAW"
+
+[[raw_level_up_moves]]
+at_level = 27
 name = "SLASH"
 
 [[raw_level_up_moves]]
-at_level = 33
-name = "DRAGONCLAW"
+at_level = 30
+name = "SCARYFACE"
 
 [[raw_level_up_moves]]
-at_level = 40
-name = "DIG"
+at_level = 34
+name = "DUALCHOP"
 
 [[raw_level_up_moves]]
-at_level = 49
+at_level = 38
+name = "ROCKSLIDE"
+
+[[raw_level_up_moves]]
+at_level = 42
+name = "SANDSTORM"
+
+[[raw_level_up_moves]]
+at_level = 46
 name = "DRAGONRUSH"
+
+[[raw_level_up_moves]]
+at_level = 50
+name = "RAGINGFURY"
+
+[[raw_level_up_moves]]
+at_level = 55
+name = "STONEEDGE"
+
+[[raw_level_up_moves]]
+at_level = 60
+name = "OUTRAGE"
 
 [[evolutions]]
 into_name = "GARCHOMP"
 condition = "Level"
 parameter = "48"
+
+
 
 [base_stats]
 hp = 68

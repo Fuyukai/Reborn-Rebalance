@@ -26,20 +26,32 @@ internal_name = "METANG"
 habitat = "RoughTerrain"
 
 [[raw_level_up_moves]]
-at_level = 0
+at_level = 1
+name = "REFRESH"
+
+[[raw_level_up_moves]]
+at_level = 1
+name = "IRONDEFENSE"
+
+[[raw_level_up_moves]]
+at_level = 1
 name = "CONFUSION"
 
 [[raw_level_up_moves]]
-at_level = 0
-name = "METALCLAW"
+at_level = 1
+name = "MIRRORSHOT"
 
 [[raw_level_up_moves]]
 at_level = 1
-name = "MAGNETRISE"
+name = "HEADBUTT"
 
 [[raw_level_up_moves]]
-at_level = 1
+at_level = 15
 name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = 20
+name = "METALCLAW"
 
 [[raw_level_up_moves]]
 at_level = 23
@@ -51,11 +63,11 @@ name = "BULLETPUNCH"
 
 [[raw_level_up_moves]]
 at_level = 29
-name = "MIRACLEEYE"
+name = "PSYCHIC"
 
 [[raw_level_up_moves]]
 at_level = 32
-name = "ZENHEADBUTT"
+name = "SMARTSTRIKE"
 
 [[raw_level_up_moves]]
 at_level = 35
@@ -63,7 +75,7 @@ name = "SCARYFACE"
 
 [[raw_level_up_moves]]
 at_level = 38
-name = "PSYCHIC"
+name = "ZENHEADBUTT"
 
 [[raw_level_up_moves]]
 at_level = 41
@@ -74,17 +86,27 @@ at_level = 44
 name = "METEORMASH"
 
 [[raw_level_up_moves]]
-at_level = 47
-name = "IRONDEFENSE"
+at_level = 48
+name = "GRAVITY"
 
 [[raw_level_up_moves]]
-at_level = 50
+at_level = 52
+name = "COSMICPOWER"
+
+[[raw_level_up_moves]]
+at_level = 56
 name = "HYPERBEAM"
+
+[[raw_level_up_moves]]
+at_level = 60
+name = "EXPLOSION"
 
 [[evolutions]]
 into_name = "METAGROSS"
 condition = "Level"
 parameter = "45"
+
+
 
 [base_stats]
 hp = 60

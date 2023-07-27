@@ -35,31 +35,39 @@ at_level = 1
 name = "TAILWHIP"
 
 [[raw_level_up_moves]]
-at_level = 4
+at_level = 1
 name = "SANDATTACK"
 
 [[raw_level_up_moves]]
-at_level = 8
+at_level = 5
 name = "ASTONISH"
+
+[[raw_level_up_moves]]
+at_level = 8
+name = "TICKLE"
 
 [[raw_level_up_moves]]
 at_level = 11
 name = "BATONPASS"
 
 [[raw_level_up_moves]]
-at_level = 15
-name = "TICKLE"
+at_level = 14
+name = "PURSUIT"
 
 [[raw_level_up_moves]]
-at_level = 18
+at_level = 17
 name = "FURYSWIPES"
 
 [[raw_level_up_moves]]
-at_level = 22
-name = "SWIFT"
+at_level = 20
+name = "COVET"
 
 [[raw_level_up_moves]]
-at_level = 25
+at_level = 23
+name = "QUICKATTACK"
+
+[[raw_level_up_moves]]
+at_level = 26
 name = "SCREECH"
 
 [[raw_level_up_moves]]
@@ -71,21 +79,31 @@ at_level = 32
 name = "DOUBLEHIT"
 
 [[raw_level_up_moves]]
-at_level = 36
+at_level = 35
+name = "FAKEOUT"
+
+[[raw_level_up_moves]]
+at_level = 38
 name = "FLING"
 
 [[raw_level_up_moves]]
-at_level = 39
-name = "NASTYPLOT"
+at_level = 41
+name = "BOUNCE"
 
 [[raw_level_up_moves]]
-at_level = 43
+at_level = 45
+name = "SWITCHEROO"
+
+[[raw_level_up_moves]]
+at_level = 50
 name = "LASTRESORT"
 
 [[evolutions]]
 into_name = "AMBIPOM"
 condition = "HasMove"
 parameter = "DOUBLEHIT"
+
+
 
 [base_stats]
 hp = 55

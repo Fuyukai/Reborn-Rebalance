@@ -30,69 +30,95 @@ at_level = 1
 name = "ABSORB"
 
 [[raw_level_up_moves]]
-at_level = 4
-name = "GROWTH"
+at_level = 1
+name = "SYNTHESIS"
 
 [[raw_level_up_moves]]
-at_level = 8
-name = "LEECHSEED"
+at_level = 1
+name = "FOCUSENERGY"
+
+[[raw_level_up_moves]]
+at_level = 4
+name = "RAZORLEAF"
+
+[[raw_level_up_moves]]
+at_level = 7
+name = "WORRYSEED"
+
+[[raw_level_up_moves]]
+at_level = 10
+name = "POISONPOWDER"
 
 [[raw_level_up_moves]]
 at_level = 10
 name = "SLEEPPOWDER"
 
 [[raw_level_up_moves]]
-at_level = 13
-name = "MEGADRAIN"
-
-[[raw_level_up_moves]]
-at_level = 17
-name = "SYNTHESIS"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "MAGICALLEAF"
-
-[[raw_level_up_moves]]
-at_level = 22
+at_level = 10
 name = "STUNSPORE"
 
 [[raw_level_up_moves]]
-at_level = 26
-name = "GIGADRAIN"
+at_level = 13
+name = "GROWTH"
 
 [[raw_level_up_moves]]
-at_level = 28
+at_level = 16
+name = "MEGADRAIN"
+
+[[raw_level_up_moves]]
+at_level = 19
 name = "AROMATHERAPY"
 
 [[raw_level_up_moves]]
-at_level = 31
+at_level = 22
 name = "HELPINGHAND"
 
 [[raw_level_up_moves]]
-at_level = 35
-name = "ENERGYBALL"
+at_level = 25
+name = "LEECHSEED"
 
 [[raw_level_up_moves]]
-at_level = 37
+at_level = 28
+name = "EXTRASENSORY"
+
+[[raw_level_up_moves]]
+at_level = 31
+name = "CHARM"
+
+[[raw_level_up_moves]]
+at_level = 34
 name = "ENTRAINMENT"
 
 [[raw_level_up_moves]]
-at_level = 40
-name = "SUNNYDAY"
+at_level = 37
+name = "RECOVER"
 
 [[raw_level_up_moves]]
-at_level = 44
-name = "AFTERYOU"
+at_level = 41
+name = "INGRAIN"
 
 [[raw_level_up_moves]]
-at_level = 46
+at_level = 45
+name = "ENERGYBALL"
+
+[[raw_level_up_moves]]
+at_level = 49
+name = "HEALINGWISH"
+
+[[raw_level_up_moves]]
+at_level = 53
+name = "QUIVERDANCE"
+
+[[raw_level_up_moves]]
+at_level = 57
 name = "LEAFSTORM"
 
 [[evolutions]]
 into_name = "LILLIGANT"
 condition = "Item"
 parameter = "SUNSTONE"
+
+
 
 [base_stats]
 hp = 45

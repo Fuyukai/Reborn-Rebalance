@@ -35,69 +35,85 @@ at_level = 1
 name = "TACKLE"
 
 [[raw_level_up_moves]]
-at_level = 4
-name = "SONICBOOM"
-
-[[raw_level_up_moves]]
-at_level = 6
-name = "EERIEIMPULSE"
-
-[[raw_level_up_moves]]
-at_level = 9
+at_level = 1
 name = "SPARK"
 
 [[raw_level_up_moves]]
-at_level = 11
-name = "ROLLOUT"
+at_level = 4
+name = "AGILITY"
 
 [[raw_level_up_moves]]
-at_level = 13
+at_level = 7
+name = "THUNDERWAVE"
+
+[[raw_level_up_moves]]
+at_level = 10
 name = "SCREECH"
 
 [[raw_level_up_moves]]
+at_level = 13
+name = "THUNDERSHOCK"
+
+[[raw_level_up_moves]]
 at_level = 16
+name = "SONICBOOM"
+
+[[raw_level_up_moves]]
+at_level = 19
 name = "CHARGEBEAM"
 
 [[raw_level_up_moves]]
-at_level = 20
+at_level = 22
+name = "ROLLOUT"
+
+[[raw_level_up_moves]]
+at_level = 25
 name = "SWIFT"
 
 [[raw_level_up_moves]]
-at_level = 22
-name = "ELECTROBALL"
+at_level = 28
+name = "VOLTSWITCH"
 
 [[raw_level_up_moves]]
-at_level = 26
-name = "SELFDESTRUCT"
+at_level = 31
+name = "SUCKERPUNCH"
 
 [[raw_level_up_moves]]
-at_level = 29
-name = "LIGHTSCREEN"
+at_level = 35
+name = "SIGNALBEAM"
 
 [[raw_level_up_moves]]
-at_level = 34
+at_level = 39
 name = "MAGNETRISE"
 
 [[raw_level_up_moves]]
-at_level = 37
+at_level = 43
+name = "MIRRORCOAT"
+
+[[raw_level_up_moves]]
+at_level = 47
 name = "DISCHARGE"
 
 [[raw_level_up_moves]]
-at_level = 41
+at_level = 51
+name = "FOULPLAY"
+
+[[raw_level_up_moves]]
+at_level = 55
+name = "ZAPCANNON"
+
+[[raw_level_up_moves]]
+at_level = 59
 name = "EXPLOSION"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "GYROBALL"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "MIRRORCOAT"
 
 [[evolutions]]
 into_name = "ELECTRODE"
 condition = "Level"
 parameter = "30"
+
+
+
+
 
 [base_stats]
 hp = 40

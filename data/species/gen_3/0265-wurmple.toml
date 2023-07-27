@@ -34,12 +34,16 @@ at_level = 1
 name = "STRINGSHOT"
 
 [[raw_level_up_moves]]
-at_level = 5
+at_level = 1
 name = "POISONSTING"
 
 [[raw_level_up_moves]]
-at_level = 15
-name = "BUGBITE"
+at_level = 1
+name = "STRUGGLEBUG"
+
+[[raw_level_up_moves]]
+at_level = 5
+name = "ELECTROWEB"
 
 [[evolutions]]
 into_name = "SILCOON"
@@ -50,6 +54,8 @@ parameter = "7"
 into_name = "CASCOON"
 condition = "Cascoon"
 parameter = "7"
+
+
 
 [base_stats]
 hp = 45

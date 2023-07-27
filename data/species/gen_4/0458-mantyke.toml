@@ -31,22 +31,26 @@ name = "TACKLE"
 
 [[raw_level_up_moves]]
 at_level = 1
-name = "BUBBLE"
+name = "SPLASH"
 
 [[raw_level_up_moves]]
-at_level = 3
+at_level = 1
+name = "WATERGUN"
+
+[[raw_level_up_moves]]
+at_level = 4
 name = "SUPERSONIC"
 
 [[raw_level_up_moves]]
 at_level = 7
-name = "BUBBLEBEAM"
-
-[[raw_level_up_moves]]
-at_level = 11
 name = "CONFUSERAY"
 
 [[raw_level_up_moves]]
-at_level = 14
+at_level = 10
+name = "WATERPULSE"
+
+[[raw_level_up_moves]]
+at_level = 13
 name = "WINGATTACK"
 
 [[raw_level_up_moves]]
@@ -55,40 +59,62 @@ name = "HEADBUTT"
 
 [[raw_level_up_moves]]
 at_level = 19
-name = "WATERPULSE"
+name = "BUBBLEBEAM"
 
 [[raw_level_up_moves]]
-at_level = 23
-name = "WIDEGUARD"
+at_level = 22
+name = "AIRCUTTER"
 
 [[raw_level_up_moves]]
-at_level = 27
-name = "TAKEDOWN"
+at_level = 25
+name = "TWISTER"
 
 [[raw_level_up_moves]]
-at_level = 32
+at_level = 28
 name = "AGILITY"
 
 [[raw_level_up_moves]]
-at_level = 36
-name = "AIRSLASH"
+at_level = 31
+name = "BULLETSEED"
 
 [[raw_level_up_moves]]
-at_level = 39
+at_level = 34
 name = "AQUARING"
 
 [[raw_level_up_moves]]
-at_level = 46
+at_level = 37
+name = "MIRRORCOAT"
+
+[[raw_level_up_moves]]
+at_level = 40
 name = "BOUNCE"
 
 [[raw_level_up_moves]]
+at_level = 43
+name = "TAILWIND"
+
+[[raw_level_up_moves]]
+at_level = 46
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
 at_level = 49
+name = "AIRSLASH"
+
+[[raw_level_up_moves]]
+at_level = 53
+name = "HAZE"
+
+[[raw_level_up_moves]]
+at_level = 56
 name = "HYDROPUMP"
 
 [[evolutions]]
 into_name = "MANTINE"
 condition = "HasInParty"
 parameter = "REMORAID"
+
+
 
 [base_stats]
 hp = 45

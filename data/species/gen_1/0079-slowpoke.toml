@@ -39,56 +39,76 @@ at_level = 1
 name = "TACKLE"
 
 [[raw_level_up_moves]]
-at_level = 5
+at_level = 4
 name = "GROWL"
 
 [[raw_level_up_moves]]
-at_level = 9
+at_level = 7
 name = "WATERGUN"
 
 [[raw_level_up_moves]]
-at_level = 14
+at_level = 10
 name = "CONFUSION"
 
 [[raw_level_up_moves]]
-at_level = 19
+at_level = 13
 name = "DISABLE"
 
 [[raw_level_up_moves]]
-at_level = 23
+at_level = 16
+name = "BRINE"
+
+[[raw_level_up_moves]]
+at_level = 19
 name = "HEADBUTT"
 
 [[raw_level_up_moves]]
-at_level = 28
-name = "WATERPULSE"
-
-[[raw_level_up_moves]]
-at_level = 32
+at_level = 22
 name = "ZENHEADBUTT"
 
 [[raw_level_up_moves]]
-at_level = 36
-name = "SLACKOFF"
-
-[[raw_level_up_moves]]
-at_level = 41
+at_level = 25
 name = "AMNESIA"
 
 [[raw_level_up_moves]]
-at_level = 45
-name = "PSYCHIC"
+at_level = 28
+name = "WONDERROOM"
 
 [[raw_level_up_moves]]
-at_level = 49
-name = "RAINDANCE"
+at_level = 31
+name = "AQUATAIL"
 
 [[raw_level_up_moves]]
-at_level = 54
+at_level = 33
+name = "WITHDRAW"
+
+[[raw_level_up_moves]]
+at_level = 35
+name = "BELLYDRUM"
+
+[[raw_level_up_moves]]
+at_level = 38
+name = "BUBBLEBEAM"
+
+[[raw_level_up_moves]]
+at_level = 41
 name = "PSYCHUP"
 
 [[raw_level_up_moves]]
-at_level = 58
+at_level = 44
+name = "FUTURESIGHT"
+
+[[raw_level_up_moves]]
+at_level = 47
+name = "SKILLSWAP"
+
+[[raw_level_up_moves]]
+at_level = 50
 name = "HEALPULSE"
+
+[[raw_level_up_moves]]
+at_level = 53
+name = "BODYSLAM"
 
 [[evolutions]]
 into_name = "SLOWBRO"
@@ -99,6 +119,10 @@ parameter = "37"
 into_name = "SLOWKING"
 condition = "TradeItem"
 parameter = "KINGSROCK"
+
+
+
+
 
 [base_stats]
 hp = 90

@@ -26,17 +26,19 @@ internal_name = "CASCOON"
 habitat = "Forest"
 
 [[raw_level_up_moves]]
-at_level = 0
+at_level = 1
 name = "HARDEN"
 
 [[raw_level_up_moves]]
-at_level = 12
-name = "SILKTRAP"
+at_level = 7
+name = "IRONDEFENSE"
 
 [[evolutions]]
 into_name = "DUSTOX"
 condition = "Level"
 parameter = "10"
+
+
 
 [base_stats]
 hp = 50

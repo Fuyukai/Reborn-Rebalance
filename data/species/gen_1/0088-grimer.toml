@@ -31,10 +31,6 @@ at_level = 1
 name = "POUND"
 
 [[raw_level_up_moves]]
-at_level = 1
-name = "POISONGAS"
-
-[[raw_level_up_moves]]
 at_level = 4
 name = "HARDEN"
 
@@ -43,57 +39,85 @@ at_level = 7
 name = "MUDSLAP"
 
 [[raw_level_up_moves]]
-at_level = 12
+at_level = 10
 name = "DISABLE"
 
 [[raw_level_up_moves]]
-at_level = 15
+at_level = 13
 name = "SLUDGE"
 
 [[raw_level_up_moves]]
-at_level = 18
+at_level = 15
 name = "MUDBOMB"
 
 [[raw_level_up_moves]]
-at_level = 21
+at_level = 17
 name = "MINIMIZE"
 
 [[raw_level_up_moves]]
-at_level = 26
+at_level = 19
+name = "SLUDGE"
+
+[[raw_level_up_moves]]
+at_level = 21
+name = "SHADOWSNEAK"
+
+[[raw_level_up_moves]]
+at_level = 23
+name = "HAZE"
+
+[[raw_level_up_moves]]
+at_level = 25
+name = "POISONJAB"
+
+[[raw_level_up_moves]]
+at_level = 27
 name = "FLING"
 
 [[raw_level_up_moves]]
 at_level = 29
-name = "SLUDGEBOMB"
+name = "ACIDSPRAY"
 
 [[raw_level_up_moves]]
 at_level = 32
-name = "SLUDGEWAVE"
+name = "PAYBACK"
 
 [[raw_level_up_moves]]
-at_level = 37
+at_level = 35
 name = "SCREECH"
 
 [[raw_level_up_moves]]
-at_level = 40
-name = "GUNKSHOT"
+at_level = 38
+name = "SLUDGEWAVE"
 
 [[raw_level_up_moves]]
-at_level = 43
+at_level = 42
 name = "ACIDARMOR"
 
 [[raw_level_up_moves]]
 at_level = 46
-name = "BELCH"
+name = "MEANLOOK"
 
 [[raw_level_up_moves]]
-at_level = 48
+at_level = 50
+name = "IMPRISON"
+
+[[raw_level_up_moves]]
+at_level = 54
+name = "GUNKSHOT"
+
+[[raw_level_up_moves]]
+at_level = 58
 name = "MEMENTO"
 
 [[evolutions]]
 into_name = "MUK"
 condition = "Level"
 parameter = "38"
+
+
+
+
 
 [base_stats]
 hp = 80

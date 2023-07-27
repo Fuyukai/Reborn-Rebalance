@@ -28,7 +28,11 @@ habitat = "Grassland"
 
 [[raw_level_up_moves]]
 at_level = 1
-name = "TACKLE"
+name = "CHARGE"
+
+[[raw_level_up_moves]]
+at_level = 1
+name = "COTTONSPORE"
 
 [[raw_level_up_moves]]
 at_level = 1
@@ -36,60 +40,90 @@ name = "GROWL"
 
 [[raw_level_up_moves]]
 at_level = 4
-name = "THUNDERWAVE"
+name = "TACKLE"
 
 [[raw_level_up_moves]]
-at_level = 8
+at_level = 6
 name = "THUNDERSHOCK"
 
 [[raw_level_up_moves]]
-at_level = 11
-name = "COTTONSPORE"
+at_level = 8
+name = "SANDATTACK"
 
 [[raw_level_up_moves]]
-at_level = 15
-name = "CHARGE"
+at_level = 10
+name = "SWIFT"
+
+[[raw_level_up_moves]]
+at_level = 12
+name = "THUNDERWAVE"
+
+[[raw_level_up_moves]]
+at_level = 14
+name = "ELECTROWEB"
+
+[[raw_level_up_moves]]
+at_level = 16
+name = "SEISMICTOSS"
 
 [[raw_level_up_moves]]
 at_level = 18
-name = "TAKEDOWN"
-
-[[raw_level_up_moves]]
-at_level = 22
 name = "ELECTROBALL"
 
 [[raw_level_up_moves]]
-at_level = 25
-name = "CONFUSERAY"
-
-[[raw_level_up_moves]]
-at_level = 29
-name = "POWERGEM"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "DISCHARGE"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "COTTONGUARD"
-
-[[raw_level_up_moves]]
-at_level = 39
+at_level = 20
 name = "SIGNALBEAM"
 
 [[raw_level_up_moves]]
-at_level = 43
-name = "LIGHTSCREEN"
+at_level = 23
+name = "HEALBELL"
 
 [[raw_level_up_moves]]
-at_level = 46
-name = "THUNDER"
+at_level = 26
+name = "DISCHARGE"
+
+[[raw_level_up_moves]]
+at_level = 29
+name = "CONFUSERAY"
+
+[[raw_level_up_moves]]
+at_level = 32
+name = "AGILITY"
+
+[[raw_level_up_moves]]
+at_level = 36
+name = "TAKEDOWN"
+
+[[raw_level_up_moves]]
+at_level = 40
+name = "CHARGEBEAM"
+
+[[raw_level_up_moves]]
+at_level = 44
+name = "SCREECH"
+
+[[raw_level_up_moves]]
+at_level = 48
+name = "BODYSLAM"
+
+[[raw_level_up_moves]]
+at_level = 52
+name = "NUZZLE"
+
+[[raw_level_up_moves]]
+at_level = 56
+name = "DOUBLEEDGE"
+
+[[raw_level_up_moves]]
+at_level = 60
+name = "ZAPCANNON"
 
 [[evolutions]]
 into_name = "FLAAFFY"
 condition = "Level"
 parameter = "15"
+
+
 
 [base_stats]
 hp = 55

@@ -31,15 +31,27 @@ name = "ABSORB"
 
 [[raw_level_up_moves]]
 at_level = 1
-name = "FAIRYWIND"
+name = "BEATUP"
+
+[[raw_level_up_moves]]
+at_level = 1
+name = "FAKETEARS"
 
 [[raw_level_up_moves]]
 at_level = 4
-name = "GROWTH"
+name = "RAZORLEAF"
 
 [[raw_level_up_moves]]
-at_level = 8
-name = "LEECHSEED"
+at_level = 7
+name = "WORRYSEED"
+
+[[raw_level_up_moves]]
+at_level = 10
+name = "POISONPOWDER"
+
+[[raw_level_up_moves]]
+at_level = 10
+name = "SLEEPPOWDER"
 
 [[raw_level_up_moves]]
 at_level = 10
@@ -47,56 +59,66 @@ name = "STUNSPORE"
 
 [[raw_level_up_moves]]
 at_level = 13
+name = "GROWTH"
+
+[[raw_level_up_moves]]
+at_level = 16
 name = "MEGADRAIN"
 
 [[raw_level_up_moves]]
-at_level = 17
-name = "COTTONSPORE"
-
-[[raw_level_up_moves]]
 at_level = 19
-name = "RAZORLEAF"
+name = "TICKLE"
 
 [[raw_level_up_moves]]
 at_level = 22
-name = "POISONPOWDER"
+name = "COTTONSPORE"
 
 [[raw_level_up_moves]]
-at_level = 26
-name = "GIGADRAIN"
+at_level = 25
+name = "LEECHSEED"
 
 [[raw_level_up_moves]]
 at_level = 28
-name = "CHARM"
+name = "SWITCHEROO"
 
 [[raw_level_up_moves]]
 at_level = 31
-name = "HELPINGHAND"
+name = "CHARM"
 
 [[raw_level_up_moves]]
-at_level = 35
-name = "ENERGYBALL"
+at_level = 34
+name = "DAZZLINGGLEAM"
 
 [[raw_level_up_moves]]
 at_level = 37
 name = "COTTONGUARD"
 
 [[raw_level_up_moves]]
-at_level = 40
-name = "SUNNYDAY"
+at_level = 41
+name = "HELPINGHAND"
 
 [[raw_level_up_moves]]
-at_level = 44
+at_level = 45
+name = "ENERGYBALL"
+
+[[raw_level_up_moves]]
+at_level = 49
 name = "ENDEAVOR"
 
 [[raw_level_up_moves]]
-at_level = 46
-name = "SOLARBEAM"
+at_level = 53
+name = "TAILWIND"
+
+[[raw_level_up_moves]]
+at_level = 57
+name = "MEMENTO"
 
 [[evolutions]]
 into_name = "WHIMSICOTT"
 condition = "Item"
 parameter = "SUNSTONE"
+
+
 
 [base_stats]
 hp = 40

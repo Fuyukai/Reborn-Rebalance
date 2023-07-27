@@ -27,84 +27,98 @@ raw_hidden_ability = "TECHNICIAN"
 
 [[raw_level_up_moves]]
 at_level = 1
-name = "TICKLE"
-
-[[raw_level_up_moves]]
-at_level = 1
 name = "BARRIER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "POUND"
 
 [[raw_level_up_moves]]
 at_level = 1
 name = "CONFUSION"
 
 [[raw_level_up_moves]]
-at_level = 4
+at_level = 1
 name = "COPYCAT"
 
 [[raw_level_up_moves]]
-at_level = 8
+at_level = 1
+name = "TICKLE"
+
+[[raw_level_up_moves]]
+at_level = 4
 name = "MEDITATE"
 
 [[raw_level_up_moves]]
-at_level = 11
-name = "DOUBLESLAP"
-
-[[raw_level_up_moves]]
-at_level = 15
+at_level = 7
 name = "MIMIC"
 
 [[raw_level_up_moves]]
-at_level = 18
-name = "ENCORE"
+at_level = 10
+name = "DISARMINGVOICE"
 
 [[raw_level_up_moves]]
-at_level = 22
-name = "LIGHTSCREEN"
+at_level = 13
+name = "HYPNOSIS"
 
 [[raw_level_up_moves]]
-at_level = 22
-name = "REFLECT"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "PSYBEAM"
-
-[[raw_level_up_moves]]
-at_level = 29
-name = "SUBSTITUTE"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "RECYCLE"
-
-[[raw_level_up_moves]]
-at_level = 36
+at_level = 16
 name = "TRICK"
 
 [[raw_level_up_moves]]
-at_level = 39
-name = "PSYCHIC"
+at_level = 19
+name = "PSYBEAM"
 
 [[raw_level_up_moves]]
-at_level = 43
+at_level = 22
+name = "FAKEOUT"
+
+[[raw_level_up_moves]]
+at_level = 25
+name = "HEALINGWISH"
+
+[[raw_level_up_moves]]
+at_level = 28
+name = "HEALPULSE"
+
+[[raw_level_up_moves]]
+at_level = 31
+name = "MAGICALLEAF"
+
+[[raw_level_up_moves]]
+at_level = 34
+name = "DAZZLINGGLEAM"
+
+[[raw_level_up_moves]]
+at_level = 38
+name = "FUTURESIGHT"
+
+[[raw_level_up_moves]]
+at_level = 42
 name = "ROLEPLAY"
 
 [[raw_level_up_moves]]
 at_level = 46
-name = "BATONPASS"
+name = "QUICKGUARD"
+
+[[raw_level_up_moves]]
+at_level = 46
+name = "WIDEGUARD"
 
 [[raw_level_up_moves]]
 at_level = 50
-name = "SAFEGUARD"
+name = "PSYCHIC"
+
+[[raw_level_up_moves]]
+at_level = 54
+name = "CONFUSERAY"
+
+[[raw_level_up_moves]]
+at_level = 58
+name = "NASTYPLOT"
 
 [[evolutions]]
 into_name = "MRMIME"
 condition = "HasMove"
 parameter = "MIMIC"
+
+
 
 [base_stats]
 hp = 20
