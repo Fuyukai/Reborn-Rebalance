@@ -1,6 +1,10 @@
 {% extends "_meta/_root.html" %}
 {% from "changelog/macros.html" import gen_changelog_list %}
 
+{% block title %}
+Changelog
+{% endblock %}
+
 {#
 the changelog format is optimised for display in pokemon views, NOT here.
 this means we need to do some gross iteration hacks.

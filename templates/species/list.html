@@ -2,6 +2,8 @@
 {% extends "_meta/_root.html" %}
 {% from "helpers.html" import small_sprite %}
 
+{% block title %} All Pokémon {% endblock %}
+
 {%- macro table_half(is_second_half) -%}
 {% if not is_second_half %}
 {% set start_idx = 0 %}
