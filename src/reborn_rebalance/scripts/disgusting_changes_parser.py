@@ -1,5 +1,5 @@
 import sys
-from math import log, ceil
+from math import ceil, log
 from pathlib import Path
 
 import prettyprinter
@@ -18,12 +18,10 @@ CORRECTIONS = {
     "Acid Armour": "Acid Armor",
     "Will-O-Wiisp": "Will-O-Wisp",
     "Ominous Mind": "Ominous Wind",  # my fav so far
-    "V-Create": "V-create"
+    "V-Create": "V-create",
 }
 
-NAME_CORRECTIONS = {
-    "mr. mime": "mr"  # ?
-}
+NAME_CORRECTIONS = {"mr. mime": "mr"}  # ?
 
 
 def get_leading_int(line: str) -> int:
@@ -95,7 +93,7 @@ def main(catalog: EssentialsCatalog):
         elif (level := get_leading_int(initial_line)) > 0 and is_reading_moves:
             # extra condition is here to prevent e.g. wormadam from fucking up
             # move data!
-            move_name = initial_line[page_length(level) + 3:].strip()
+            move_name = initial_line[page_length(level) + 3 :].strip()
             # [*]
             if move_name.endswith("]"):
                 move_name = move_name[:-4]
@@ -115,7 +113,7 @@ def main(catalog: EssentialsCatalog):
             idx += 1
 
     # manually load species from toml
-    for (key, moves) in files.items():
+    for key, moves in files.items():
         number, name = key
 
         if name == "mr. mime":
@@ -151,5 +149,5 @@ def main(catalog: EssentialsCatalog):
 if __name__ == "__main__":
     print("loading catalog...")
     catalog = EssentialsCatalog.load_from_toml(Path("./data"), skip_species=True)
-    print("\"parsing\" changes file...")
+    print('"parsing" changes file...')
     main(catalog)

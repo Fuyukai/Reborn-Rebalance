@@ -3,7 +3,7 @@ from io import StringIO
 from pathlib import Path
 
 import prettyprinter
-from prettyprinter import pprint, pretty_call_alt, pretty_call
+from prettyprinter import pprint, pretty_call, pretty_call_alt
 from prettyprinter.prettyprinter import pretty_dict
 from rubymarshal.classes import RubyObject
 from rubymarshal.reader import loads

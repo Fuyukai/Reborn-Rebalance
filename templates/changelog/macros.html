@@ -72,9 +72,9 @@
 
         {% elif key == "move" %}
             {% set type = change["type"] %}
-            {% set move = catalog.move_mapping[change["move"]] %}
 
             {% if type == "level" %}
+                {% set move = catalog.move_mapping[change["move"]] %}
                 {% set level = change.get("level", None) %}
 
                 {% if level is none %}
@@ -92,10 +92,10 @@
                 </b>
                 {% endif %}
 
-            {% elif type == "tm_add" %}
+            {% elif type == "tm" %}
                 {% set move = catalog.tm_move_for(change["number"]) %}
 
-                {% if change["action"] == add %}
+                {% if change.action == "add" %}
                 <b class="has-text-success">Added TM
                     <a href="/moves/{{ move.internal_name.lower() }}">{{ move.display_name }}</a>
                 </b>
@@ -105,7 +105,16 @@
                 </b>
                 {% endif %}
             {% endif %}
-
+        {% elif key == "ability" %}
+            {% set new_ability = catalog.ability_name_mapping[change.new] %}
+            {% if not change.replaces %}
+            Added ability <b>{{ new_ability.display_name }}</b>
+            {% else %}
+            {% set old_ability = catalog.ability_name_mapping[change.replaces] %}
+            Replaced <i>{{ old_ability.display_name }}</i> with <b>{{ new_ability.display_name }}</b>
+            {% endif %}
+        {% else %}
+            <span class="has-text-danger">Unknown key {{ key }}</span>
         {% endif %}
         </li>
         {% endfor %}

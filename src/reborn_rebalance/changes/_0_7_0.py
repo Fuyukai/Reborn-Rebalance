@@ -15,7 +15,7 @@ def build_changes(builder: ChangelogBuilder):
         Mega Launcher Shell Smash Blastoise is disgustingly overpowered and easily carves through
         most enemies. Whilst it was fine in BB2R, it's been removed from Reborn Rebalanced for this
         reason.
-        """
+        """,
     )
     blastoise.remove_level_up_move("SHELLSMASH")
     del blastoise
@@ -25,16 +25,13 @@ def build_changes(builder: ChangelogBuilder):
         """
         Butterfree has had a stat buff to 425BST, and as such is now evolved into at Level 14
         instead. 
-        """
+        """,
     )
     butterfree.add_base_stat_change("spa", 90, 100)
     butterfree.add_base_stat_change("spe", 70, 90)
     del butterfree
 
-    beedrill = builder.pokemon(
-        "BEEDRILL",
-        "Similar changes to Butterfree."
-    )
+    beedrill = builder.pokemon("BEEDRILL", "Similar changes to Butterfree.")
     beedrill.add_base_stat_change("atk", 90, 110)
     beedrill.add_base_stat_change("spe", 75, 85)
 
@@ -43,7 +40,7 @@ def build_changes(builder: ChangelogBuilder):
         """
         This cool little Pokémon previously ditched its cool typing of Bug/Water when evolving. 
         That has been restored, and it also has been given a stat buff to take advantage of it.
-        """
+        """,
     )
     masquerain.add_base_stat_change("hp", 70, 80)
     masquerain.add_base_stat_change("def", 55, 87)
@@ -56,17 +53,6 @@ def build_changes(builder: ChangelogBuilder):
     builder.pokemon("FLYGON", "Now a psuedo-Legend like it was always meant to be.")
     builder.pokemon("LUVDISC", "Now evolves into Alomomola at Level 25.")
 
-    for mon in ["starly", "staravia"]:
-        star_builder = builder.pokemon(mon)
-        star_builder.remove_level_up_move("TAKEDOWN")
-        star_builder.remove_level_up_move("FINALGAMBIT")
-
-        if mon == "staravia":
-            star_builder.add_level_up_move(29, "STEELWING")
-            star_builder.add_level_up_move(33, "DOUBLEEDGE")
-        else:
-            star_builder.add_level_up_move(33, "DOUBLEEDGE")
-
     staraptor = builder.pokemon(
         "staraptor",
         """
@@ -78,8 +64,19 @@ def build_changes(builder: ChangelogBuilder):
     staraptor.add_base_stat_change("def", 70, 65)
     staraptor.add_base_stat_change("spd", 60, 50)
     staraptor.add_base_stat_change("spe", 100, 115)
-    staraptor.remove_level_up_move("TAKEDOWN")
-    staraptor.remove_level_up_move("FINALGAMBIT")
-    staraptor.add_level_up_move(29, "STEELWING")
-    staraptor.add_level_up_move(33, "DOUBLEEDGE")
-    staraptor.add_level_up_move(57, "HIJUMPKICK")
+    staraptor.add_level_up_move(70, "HIJUMPKICK")
+
+    luxray = builder.pokemon(
+        "LUXRAY",
+        """
+        Electric/Dark Luxray is the most common "rebalance" for Luxray. Electric/Fairy is way 
+        cooler. It already learns Play Rough in the base game, too.
+        """,
+    )
+    luxray.add_type_change(None, PokemonType.FAIRY)
+
+    purugly = builder.pokemon(
+        "PURUGLY", "It's an alarmingly fast, angry cat. Angry cats are pretty sharp."
+    )
+    purugly.add_ability_change("OWNTEMPO", "SHARPNESS")
+    purugly.add_tm_move(75)

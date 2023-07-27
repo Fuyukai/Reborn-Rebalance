@@ -10,12 +10,7 @@ from tomlkit import dump, load
 
 from reborn_rebalance.pbs.ability import PokemonAbility
 from reborn_rebalance.pbs.move import MoveCategory, MoveFlag, MoveTarget, PokemonMove
-from reborn_rebalance.pbs.pokemon import (
-    EggGroup,
-    GenderRatio,
-    GrowthRate,
-    PokemonSpecies,
-)
+from reborn_rebalance.pbs.pokemon import EggGroup, GrowthRate, PokemonSpecies, SexRatio
 from reborn_rebalance.pbs.raw.encounters import EncounterParser, MapEncounters
 from reborn_rebalance.pbs.raw.item import PokemonItem
 from reborn_rebalance.pbs.raw.pokemon import raw_parse_pokemon_pbs
@@ -60,7 +55,7 @@ def create_cattrs_converter() -> cattrs.Converter:
     for enum in (
         PokemonType,
         EggGroup,
-        GenderRatio,
+        SexRatio,
         GrowthRate,
         MoveCategory,
         MoveTarget,

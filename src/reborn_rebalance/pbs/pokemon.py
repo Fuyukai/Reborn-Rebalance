@@ -84,7 +84,7 @@ class StatWrapper:
             raise NotImplementedError("not yet")
 
 
-class GenderRatio(enum.Enum):
+class SexRatio(enum.Enum):
     AlwaysMale = 0
     FemaleOneEighth = 1
     Female25Percent = 2
@@ -230,7 +230,7 @@ class PokemonSpecies:
     secondary_type: PokemonType = attr.ib(kw_only=True)
 
     #: The gender ratio for this species. Governs random encounters.
-    gender_ratio: GenderRatio = attr.ib(kw_only=True)
+    gender_ratio: SexRatio = attr.ib(kw_only=True)
     #: The XP growth curve for this species.
     growth_rate: GrowthRate = attr.ib(kw_only=True)
 
@@ -338,9 +338,9 @@ class PokemonSpecies:
                 secondary_type = primary_type
 
         if "GenderRatio" in data:  # newer essentials versions
-            gender_ratio = GenderRatio[data.pop("GenderRatio")]
+            gender_ratio = SexRatio[data.pop("GenderRatio")]
         else:
-            gender_ratio = GenderRatio[data.pop("GenderRate")]
+            gender_ratio = SexRatio[data.pop("GenderRate")]
 
         growth_rate = GrowthRate[data.pop("GrowthRate")]
         exp_yield = data.pop("BaseEXP")

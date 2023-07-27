@@ -150,16 +150,19 @@
                 </div>
 
                 <footer class="card-footer">
-                    {% for ability in species.raw_abilities %}
-                    <a href="#" class="card-footer-item">
-                        {{ ability }}
+                    {%- macro ab(iname) -%}
+                    {% set ability_name = catalog.ability_name_mapping[iname].display_name %}
+                    <a href="/abilities/{{ iname.lower() }}.html" class="card-footer-item">
+                        {{ ability_name }}
                     </a>
+                    {%- endmacro -%}
+
+                    {% for ability in species.raw_abilities %}
+                    {{ ab(ability) }}
                     {% endfor %}
 
                     {% if species.raw_hidden_ability %}
-                    <a href="#" class="card-footer-item">
-                        <i>{{ species.raw_hidden_ability }}</i>
-                    </a>
+                    {{ ab(species.raw_hidden_ability) }}
                     {% endif %}
                 </footer>
             </div>
