@@ -203,10 +203,6 @@
 
                 <div class="column is-full" style="margin-top: auto;">
                     <div class="card">
-                        <div class="card-header">
-                            <p class="card-header-title has-text-centered">Base Stats</p>
-                        </div>
-
                         <div class="card-content" style="padding: 0.25rem;">
                             <table class="table is-fullwidth">
                                 <!--thead>
@@ -223,6 +219,10 @@
                                     {{ stat("spa", "SpA", "Special Attack") }}
                                     {{ stat("spd", "SpD", "Special Defence") }}
                                     {{ stat("spe", "Spe", "Speed") }}
+                                <tr>
+                                    <td class="has-text-right">Total</td>
+                                    <td class="has-text-right">{{ species.base_stats.sum() }}</td>
+                                </tr>
                                 </tbody>
                             </table>
                         </div>
