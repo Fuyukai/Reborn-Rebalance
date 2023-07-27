@@ -37,10 +37,26 @@
 </nav>
 </div>
 
+<main id="content">
 {% block content %}
 {% endblock %}
+</main>
+
+<div style="display: hidden" id="antichrome" class="modal">
+    <div class="modal-content">
+        Google Chrome users are blacklisted from this website due to Google's support for
+        <a href="https://arstechnica.com/gadgets/2023/07/googles-web-integrity-api-sounds-like-drm-for-the-web/">
+            a hostile, anti-user web.
+        </a>
+        <br/>
+
+        If you wish to continue using this site, install an alternative browser such as
+        <a href="https://www.mozilla.org/en-GB/firefox/new/">Mozilla Firefox</a>.
+    </div>
+</div>
 
 <script src="https://cdn.jsdelivr.net/gh/tofsjonas/sortable@latest/sortable.min.js" async></script>
 <script src="/static/shiny.js" async></script>
+<script src="/static/dechromify.js"></script>
 </body>
 </HTML>
