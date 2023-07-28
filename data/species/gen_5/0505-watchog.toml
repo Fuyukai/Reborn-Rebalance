@@ -6,7 +6,7 @@ growth_rate = "Medium"
 exp_yield = 147
 catch_rate = 255
 caught_happiness = 70
-raw_abilities = ["ILLUMINATE", "KEENEYE"]
+raw_abilities = ["ANALYTIC", "KEENEYE"]
 raw_egg_moves = []
 raw_tms = ["WORKUP", "CUT", "STRENGTH", "TOXIC", "ROCKSMASH", "FLASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "SHADOWBALL", "DOUBLETEAM", "FLAMETHROWER", "FACADE", "REST", "ATTRACT", "ROUND", "FOCUSBLAST", "FLING", "GIGAIMPACT", "THUNDERWAVE", "SWORDSDANCE", "PSYCHUP", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "DIG", "SCREECH", "REVENGE", "BULLETSEED", "ASSURANCE", "CRUNCH", "FOCUSENERGY", "ENDURE", "BATONPASS", "NASTYPLOT", "RETALIATE"]
 raw_tutor_moves = ["AFTERYOU", "AQUATAIL", "COVET", "ENDEAVOR", "FIREPUNCH", "FOCUSPUNCH", "GUNKSHOT", "HELPINGHAND", "ICEPUNCH", "IRONTAIL", "KNOCKOFF", "LASERFOCUS", "LASTRESORT", "LOWKICK", "SEEDBOMB", "SHOCKWAVE", "SIGNALBEAM", "SNORE", "STOMPINGTANTRUM", "SUPERFANG", "THUNDERPUNCH", "ZENHEADBUTT", "MIMIC"]
@@ -24,7 +24,6 @@ evolutions = []
 form_names = []
 dex_number = 505
 internal_name = "WATCHOG"
-raw_hidden_ability = "ANALYTIC"
 
 [[raw_level_up_moves]]
 at_level = 1
@@ -128,11 +127,11 @@ name = "DOUBLEEDGE"
 
 [base_stats]
 hp = 60
-atk = 85
-def_ = 69
+atk = 90
+def_ = 75
 spa = 60
-spd = 69
-spe = 77
+spd = 75
+spe = 79
 
 [ev_yield]
 hp = 0

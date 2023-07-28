@@ -6,7 +6,7 @@ growth_rate = "Medium"
 exp_yield = 65
 catch_rate = 190
 caught_happiness = 70
-raw_abilities = ["UNAWARE", "KLUTZ"]
+raw_abilities = ["UNAWARE", "SIMPLE"]
 raw_egg_moves = ["CAPTIVATE", "CHARM", "FAKETEARS", "FLATTER", "HELPINGHAND", "KNOCKOFF", "PSYCHOSHIFT", "ROOST", "STOREDPOWER", "SUPERSONIC", "SYNCHRONOISE", "VENOMDRENCH"]
 raw_tms = ["FLY", "PSYSHOCK", "CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "TAUNT", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "SAFEGUARD", "FRUSTRATION", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "STEELWING", "ENERGYBALL", "CHARGEBEAM", "ACROBATICS", "EMBARGO", "THUNDERWAVE", "GYROBALL", "PSYCHUP", "DREAMEATER", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "CONFIDE", "CHARM", "IMPRISON", "FAKETEARS", "ASSURANCE", "SPEEDSWAP", "PSYCHOCUT", "AIRSLASH", "AMNESIA", "ENDURE", "BATONPASS", "FUTURESIGHT", "NASTYPLOT", "STOREDPOWER", "VENOMDRENCH", "SWIFT"]
 raw_tutor_moves = ["AFTERYOU", "AIRCUTTER", "ALLYSWITCH", "DEFOG", "ENDEAVOR", "HEATWAVE", "HELPINGHAND", "KNOCKOFF", "SHOCKWAVE", "SIGNALBEAM", "SKILLSWAP", "SNORE", "SUPERFANG", "TAILWIND", "TELEKINESIS", "TRICK", "UPROAR", "ZENHEADBUTT", "DUALWINGBEAT", "EXPANDINGFORCE", "ESPERWING", "MIMIC"]
@@ -23,7 +23,6 @@ battler_altitude = 5
 form_names = []
 dex_number = 527
 internal_name = "WOOBAT"
-raw_hidden_ability = "SIMPLE"
 
 [[raw_level_up_moves]]
 at_level = 1
@@ -111,8 +110,8 @@ name = "NASTYPLOT"
 
 [[evolutions]]
 into_name = "SWOOBAT"
-condition = "Happiness"
-parameter = ""
+condition = "Level"
+parameter = "25"
 
 
 
@@ -120,7 +119,7 @@ parameter = ""
 hp = 65
 atk = 45
 def_ = 43
-spa = 55
+spa = 65
 spd = 43
 spe = 72
 

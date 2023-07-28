@@ -6,7 +6,7 @@ growth_rate = "Parabolic"
 exp_yield = 179
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["INNERFOCUS", "REGENERATOR"]
+raw_abilities = ["RECKLESS", "REGENERATOR"]
 raw_egg_moves = []
 raw_tms = ["WORKUP", "CALMMIND", "STRENGTH", "TOXIC", "ROCKSMASH", "BULKUP", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "LOWSWEEP", "ROUND", "FOCUSBLAST", "FLING", "ACROBATICS", "PAYBACK", "GIGAIMPACT", "STONEEDGE", "SWORDSDANCE", "PSYCHUP", "ROCKSLIDE", "POISONJAB", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "REVENGE", "ASSURANCE", "FLAREBLITZ", "CLOSECOMBAT", "AGILITY", "FOCUSENERGY", "REVERSAL", "ENDURE", "BATONPASS", "BLAZEKICK", "AURASPHERE", "RETALIATE"]
 raw_tutor_moves = ["ALLYSWITCH", "BOUNCE", "DRAINPUNCH", "DUALCHOP", "FOCUSPUNCH", "HELPINGHAND", "KNOCKOFF", "LASERFOCUS", "LOWKICK", "ROLEPLAY", "SNORE", "COACHING", "MIMIC"]
@@ -24,7 +24,10 @@ evolutions = []
 form_names = []
 dex_number = 620
 internal_name = "MIENSHAO"
-raw_hidden_ability = "RECKLESS"
+
+[[raw_level_up_moves]]
+at_level = 0
+name = "JUMPKICK"
 
 [[raw_level_up_moves]]
 at_level = 1
@@ -93,10 +96,6 @@ name = "HONECLAWS"
 [[raw_level_up_moves]]
 at_level = 46
 name = "AURASPHERE"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "JUMPKICK"
 
 [[raw_level_up_moves]]
 at_level = 55

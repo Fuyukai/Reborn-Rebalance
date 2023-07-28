@@ -1,14 +1,14 @@
 name = "Vanilluxe"
 primary_type = "ICE"
-secondary_type = "ICE"
+secondary_type = "FAIRY"
 gender_ratio = "Female50Percent"
 growth_rate = "Slow"
 exp_yield = 241
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["ICEBODY", "SNOWWARNING"]
+raw_abilities = ["ICEBODY", "SNOWWARNING", "WEAKARMOR"]
 raw_egg_moves = []
-raw_tms = ["TOXIC", "HAIL", "HIDDENPOWER", "TAUNT", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "ROUND", "EXPLOSION", "GIGAIMPACT", "AURORAVEIL", "FROSTBREATH", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "CONFIDE", "SELFDESTRUCT", "BEATUP", "IMPRISON", "WEATHERBALL", "ICICLESPEAR", "AVALANCHE", "ENDURE"]
+raw_tms = ["TOXIC", "HAIL", "HIDDENPOWER", "TAUNT", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "ROUND", "EXPLOSION", "GIGAIMPACT", "AURORAVEIL", "FROSTBREATH", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "CONFIDE", "SELFDESTRUCT", "BEATUP", "IMPRISON", "WEATHERBALL", "ICICLESPEAR", "AVALANCHE", "ENDURE", "DAZZLINGGLEAM", "POWERGEM"]
 raw_tutor_moves = ["ALLYSWITCH", "HYPERVOICE", "ICYWIND", "IRONDEFENSE", "MAGICCOAT", "MAGNETRISE", "SIGNALBEAM", "SNORE", "UPROAR", "WATERPULSE", "MIMIC"]
 compatible_egg_groups = ["Mineral"]
 steps_to_hatch = 5120
@@ -24,7 +24,6 @@ evolutions = []
 form_names = []
 dex_number = 584
 internal_name = "VANILLUXE"
-raw_hidden_ability = "WEAKARMOR"
 
 [[raw_level_up_moves]]
 at_level = 1

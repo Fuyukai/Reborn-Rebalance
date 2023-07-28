@@ -6,9 +6,9 @@ growth_rate = "Parabolic"
 exp_yield = 125
 catch_rate = 120
 caught_happiness = 70
-raw_abilities = ["BIGPECKS", "SUPERLUCK"]
+raw_abilities = ["UNAWARE", "SUPERLUCK", "RIVALRY"]
 raw_egg_moves = []
-raw_tms = ["WORKUP", "FLY", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "FRUSTRATION", "RETURN", "DOUBLETEAM", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "STEELWING", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "AIRSLASH", "AGILITY", "FOCUSENERGY", "ENDURE", "SWIFT"]
+raw_tms = ["WORKUP", "FLY", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "FRUSTRATION", "RETURN", "DOUBLETEAM", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "STEELWING", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "AIRSLASH", "AGILITY", "FOCUSENERGY", "ENDURE", "SWIFT", "HURRICANE"]
 raw_tutor_moves = ["AIRCUTTER", "DEFOG", "HEATWAVE", "SKYATTACK", "SNORE", "TAILWIND", "UPROAR", "DUALWINGBEAT", "MIMIC"]
 compatible_egg_groups = ["Flying"]
 steps_to_hatch = 3840
@@ -23,7 +23,6 @@ battler_altitude = 0
 form_names = []
 dex_number = 520
 internal_name = "TRANQUILL"
-raw_hidden_ability = "RIVALRY"
 
 [[raw_level_up_moves]]
 at_level = 1
@@ -121,10 +120,10 @@ parameter = "32"
 
 
 [base_stats]
-hp = 62
-atk = 77
+hp = 65
+atk = 50
 def_ = 62
-spa = 50
+spa = 77
 spd = 42
 spe = 65
 

@@ -84,3 +84,71 @@ def build_changes(builder: ChangelogBuilder):
     )
     purugly.add_ability_change("OWNTEMPO", "SHARPNESS")
     purugly.add_tm_move(75)
+
+    leavanny = builder.pokemon(
+        "LEAVANNY",
+        """
+        Leavanny has a nice movepool with cutting moves that can take advantage of Sharpness,
+        which is a big improvement over the middling Swarm.
+        """,
+    )
+    leavanny.add_ability_change("SWARM", "SHARPNESS")
+
+    crustle = builder.pokemon(
+        "CRUSTLE",
+        """
+        Crustle can now use that massive rock it resides in to smash other Pokémon's brains in
+        without suffering any recoil damage.
+        """,
+    )
+    crustle.add_ability_change("WEAKARMOR", "ROCKHEAD")
+    crustle.add_level_up_move(60, "HEADSMASH")
+    crustle.add_level_up_move(70, "ROCKPOLISH")
+    crustle.add_base_stat_change("def", 125, 135)
+    crustle.add_base_stat_change("spd", 75, 95)
+
+    sigilyph = builder.pokemon("SIGILYPH")
+    sigilyph.add_base_stat_change("hp", 82, 87)
+    sigilyph.add_base_stat_change("spa", 103, 113)
+
+    archeops = builder.pokemon("ARCHEOPS", "Fuck Defeatist.")
+    archeops.add_ability_change(None, "KLUTZ")
+
+    garbodor = builder.pokemon(
+        "GARBODOR", "Garbodor is awesome but its vanilla abilities leave a bit to be desired."
+    )
+    garbodor.add_ability_change("STENCH", "GOOEY")
+    garbodor.add_ability_change("WEAKARMOR", "INNARDSOUT")
+
+    cinccino = builder.pokemon(
+        "CINCCINO", "There's no reason to ever use this, but it matches the Pokédex entry."
+    )
+    cinccino.add_ability_change("CUTECHARM", "LIMBER")
+
+    builder.pokemon("JELLICENT", "Now uses stupid strats.")
+    builder.pokemon("KLINKLANG").add_ability_change(None, "SPEEDBOOST")
+    builder.pokemon("CHANDELURE", "You are absolutely fucking not getting Shadow Tag on this.")
+
+    haxorus = builder.pokemon("HAXORUS", "Is now the psuedo-Legend it was always destined to be.")
+    haxorus.add_base_stat_change("hp", 76, 96)
+    haxorus.add_base_stat_change("atk", 147, 150)
+    haxorus.add_base_stat_change("spa", 60, 67)
+    haxorus.add_base_stat_change("spd", 70, 90)
+    haxorus.add_base_stat_change("spe", 97, 107)
+    haxorus.add_ability_change("RIVALRY", "STRONGJAW")
+    haxorus.add_ability_change("UNNERVE", "SHARPNESS")
+    haxorus.add_level_up_move(52, "JAWLOCK")
+
+    builder.pokemon("CUBCHOO", "We've got you surrounded! Come miss every single move!") \
+        .add_ability_change("SNOWCLOAK", "TOUGHCLAWS")
+
+    builder.pokemon("BEARTIC", "I hate evasion abilities! I hate evasion abilities!") \
+        .add_ability_change("SNOWCLOAK", "TOUGHCLAWS") \
+        .add_ability_change("SWIFTSWIM", "SLUSHRUSH")
+
+    builder.pokemon("STUNFISK", "Shoutouts to /r/stunfisk") \
+        .add_ability_change("SANDVEIL", "COMPETITIVE")
+
+    builder.pokemon("BOUFFALANT", "The raging bull Pokémon now gets an appropriate ability.") \
+        .add_ability_change("SOUNDPROOF", "BERSERK")
+

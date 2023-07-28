@@ -6,7 +6,7 @@ growth_rate = "Slow"
 exp_yield = 74
 catch_rate = 190
 caught_happiness = 35
-raw_abilities = ["BIGPECKS", "OVERCOAT"]
+raw_abilities = ["OVERCOAT", "WEAKARMOR"]
 raw_egg_moves = ["FAKETEARS", "FOULPLAY", "KNOCKOFF", "MEANLOOK", "ROOST", "SCARYFACE", "STEELWING"]
 raw_tms = ["CUT", "FLY", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "FRUSTRATION", "RETURN", "SHADOWBALL", "DOUBLETEAM", "ROCKTOMB", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "STEELWING", "EMBARGO", "PAYBACK", "PSYCHUP", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "SNARL", "DARKPULSE", "CONFIDE", "SCARYFACE", "FAKETEARS", "ASSURANCE", "AIRSLASH", "BRAVEBIRD", "ENDURE", "NASTYPLOT", "RETALIATE", "SWIFT"]
 raw_tutor_moves = ["AIRCUTTER", "BLOCK", "DEFOG", "FOULPLAY", "HEATWAVE", "IRONDEFENSE", "KNOCKOFF", "SNATCH", "SNORE", "TAILWIND", "DUALWINGBEAT", "LASHOUT", "MIMIC"]
@@ -23,7 +23,6 @@ battler_altitude = 0
 form_names = []
 dex_number = 629
 internal_name = "VULLABY"
-raw_hidden_ability = "WEAKARMOR"
 
 [[raw_level_up_moves]]
 at_level = 1
@@ -116,7 +115,7 @@ name = "SUPERPOWER"
 [[evolutions]]
 into_name = "MANDIBUZZ"
 condition = "Level"
-parameter = "54"
+parameter = "40"
 
 
 

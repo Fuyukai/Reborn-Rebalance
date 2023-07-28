@@ -6,7 +6,7 @@ growth_rate = "Slow"
 exp_yield = 70
 catch_rate = 190
 caught_happiness = 70
-raw_abilities = ["KEENEYE", "SHEERFORCE"]
+raw_abilities = ["HUSTLE", "SHEERFORCE"]
 raw_egg_moves = []
 raw_tms = ["WORKUP", "CUT", "FLY", "STRENGTH", "TOXIC", "ROCKSMASH", "BULKUP", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "FRUSTRATION", "RETURN", "DOUBLETEAM", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "STEELWING", "SKYDROP", "SHADOWCLAW", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "SCARYFACE", "ASSURANCE", "AIRSLASH", "HURRICANE", "CLOSECOMBAT", "BRAVEBIRD", "AGILITY", "ENDURE", "RETALIATE", "SWIFT"]
 raw_tutor_moves = ["DEFOG", "HEATWAVE", "SNORE", "SUPERPOWER", "TAILWIND", "ZENHEADBUTT", "DUALWINGBEAT", "MIMIC"]
@@ -23,7 +23,6 @@ battler_altitude = 0
 form_names = []
 dex_number = 627
 internal_name = "RUFFLET"
-raw_hidden_ability = "HUSTLE"
 
 [[raw_level_up_moves]]
 at_level = 1
@@ -120,7 +119,7 @@ name = "CLOSECOMBAT"
 [[evolutions]]
 into_name = "BRAVIARY"
 condition = "Level"
-parameter = "54"
+parameter = "40"
 
 
 

@@ -6,7 +6,7 @@ growth_rate = "Parabolic"
 exp_yield = 60
 catch_rate = 130
 caught_happiness = 70
-raw_abilities = ["PLUS", "MINUS"]
+raw_abilities = ["LEVITATE"]
 raw_egg_moves = []
 raw_tms = ["TOXIC", "ROCKSMASH", "HIDDENPOWER", "HYPERBEAM", "PROTECT", "FRUSTRATION", "THUNDERBOLT", "RETURN", "DOUBLETEAM", "SANDSTORM", "FACADE", "REST", "ROUND", "CHARGEBEAM", "ROCKPOLISH", "VOLTSWITCH", "THUNDERWAVE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "WILDCHARGE", "SECRETPOWER", "CONFIDE", "SCREECH", "ASSURANCE", "ENDURE", "POWERGEM"]
 raw_tutor_moves = ["BIND", "GRAVITY", "IRONDEFENSE", "MAGNETRISE", "RECYCLE", "SHOCKWAVE", "SIGNALBEAM", "SNORE", "TELEKINESIS", "UPROAR", "RISINGVOLTAGE", "STEELROLLER", "STEELBEAM", "MIMIC"]
@@ -23,7 +23,6 @@ battler_altitude = 10
 form_names = []
 dex_number = 599
 internal_name = "KLINK"
-raw_hidden_ability = "CLEARBODY"
 
 [[raw_level_up_moves]]
 at_level = 1
@@ -104,7 +103,7 @@ name = "HYPERBEAM"
 [[evolutions]]
 into_name = "KLANG"
 condition = "Level"
-parameter = "38"
+parameter = "30"
 
 
 

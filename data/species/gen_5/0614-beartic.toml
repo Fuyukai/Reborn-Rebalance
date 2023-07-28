@@ -6,7 +6,7 @@ growth_rate = "Medium"
 exp_yield = 177
 catch_rate = 60
 caught_happiness = 70
-raw_abilities = ["SNOWCLOAK", "SLUSHRUSH"]
+raw_abilities = ["TOUGHCLAWS", "SHEERFORCE", "SLUSHRUSH"]
 raw_egg_moves = []
 raw_tms = ["CUT", "SURF", "STRENGTH", "ROAR", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "BULKUP", "HIDDENPOWER", "TAUNT", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "BRICKBREAK", "DOUBLETEAM", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "FOCUSBLAST", "FLING", "SHADOWCLAW", "GIGAIMPACT", "STONEEDGE", "SWORDSDANCE", "BULLDOZE", "FROSTBREATH", "ROCKSLIDE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "SCARYFACE", "CHARM", "ICICLESPEAR", "BRINE", "ASSURANCE", "AVALANCHE", "ICEFANG", "ENDURE", "ENCORE", "HEAVYSLAM", "PLAYROUGH", "BODYPRESS", "SNOWSCAPE", "TRAILBLAZE", "CHILLINGWATER"]
 raw_tutor_moves = ["COVET", "FOCUSPUNCH", "ICEPUNCH", "ICYWIND", "LIQUIDATION", "LOWKICK", "SNORE", "SUPERPOWER", "THROATCHOP", "WATERPULSE", "MOUNTAINGALE", "MIMIC"]
@@ -24,7 +24,6 @@ evolutions = []
 form_names = []
 dex_number = 614
 internal_name = "BEARTIC"
-raw_hidden_ability = "SWIFTSWIM"
 
 [[raw_level_up_moves]]
 at_level = 1
@@ -123,12 +122,12 @@ at_level = 61
 name = "CLOSECOMBAT"
 
 [base_stats]
-hp = 95
+hp = 105
 atk = 130
 def_ = 80
 spa = 70
 spd = 80
-spe = 50
+spe = 55
 
 [ev_yield]
 hp = 0
