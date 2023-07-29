@@ -27,6 +27,6 @@ def load_and_dump(
 
 
 to_pbs = partial(
-    load_and_dump, EssentialsCatalog.load_from_toml, EssentialsCatalog.save_to_pbs
+    load_and_dump, EssentialsCatalog.load_from_toml, EssentialsCatalog.save_to_essentials
 )  # type: ignore
 to_toml = partial(load_and_dump, EssentialsCatalog.load_from_pbs, EssentialsCatalog.save_to_toml)

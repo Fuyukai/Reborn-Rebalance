@@ -1,0 +1,75 @@
+internal_name = "LILLIGANT"
+form_mapping = { "1" = "Dev", "2" = "Hisui" }
+
+# what is this used for?
+[forms.Dev]
+form_name = "Dev"
+raw_abilities = ["SIMPLE"]
+
+
+[forms.Hisui]
+form_name = "Hisui"
+secondary_type = "FIGHTING"
+base_stats = { hp = 70, atk = 105, def_ = 75, spa = 50, spd = 75, spe = 105 }
+raw_abilities = ["CHLOROPHYLL", "HUSTLE", "LEAFGUARD"]
+pokedex_entry = "No matter how much time and money is spent raising it, its flowers are the most beautiful when they bloom in the wild."
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 0
+name = "VICTORYDANCE"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 1
+name = "ROCKSMASH"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 1
+name = "ABSORB"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 1
+name = "LEAFAGE"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 5
+name = "AXEKICK"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 9
+name = "STUNSPORE"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 15
+name = "POISONPOWDER"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 21
+name = "ENERGYBALL"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 29
+name = "SLEEPPOWDER"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 34
+name = "DRAINPUNCH"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 37
+name = "LEAFBLADE"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 37
+name = "RECOVER"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 42
+name = "VICTORYDANCE"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 47
+name = "LEAFSTORM"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 57
+name = "CLOSECOMBAT"

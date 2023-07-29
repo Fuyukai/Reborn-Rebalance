@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import enum
+from functools import cached_property
 from pathlib import Path
 
 import attr
@@ -27,6 +28,53 @@ from reborn_rebalance.util import PbsBuffer, chunks
 class PbsStatFormat(enum.Enum):
     REBORN_STYLE = 0
     NEW_EV_STYLE = 1
+
+
+@attr.s(frozen=True, slots=True, kw_only=True)
+class FormAttributes:
+    """
+    The attributes for a specific Pokémon form.
+    """
+
+    #: The root display name for the Pokémon this is a form of.
+    name: str = attr.ib()
+
+    #: The display name for this form.
+    form_name: str = attr.ib(default="Normal")
+
+    #: The internal name for this Pokémon.
+    internal_name: str = attr.ib()
+
+    #: The base stats for this Pokémon.
+    base_stats: StatWrapper = attr.ib()
+
+    #: The primary type for this species, e.g. ``PokemonType.FLYING``.
+    primary_type: PokemonType = attr.ib()
+    #: The secondary type for this species, e.g. ``PokemonType.FAIRY``.
+    #: May be the same as the primary type if this Pokémon has only one type.
+    secondary_type: PokemonType = attr.ib()
+
+    #: The list of raw abilities this Pokémon can have. Non-empty.
+    raw_abilities: list[str] = attr.ib()
+
+    #: The list of moves learned upon level up.
+    raw_level_up_moves: list[RawLevelUpMove] = attr.ib()
+
+    #: The Pokédex entry for this form.
+    pokedex_entry: str | None = attr.ib()
+
+    def has_stab_on(self, move: PokemonMove) -> bool:
+        """
+        Checks if this Pokémon has STAB (Same Type Advantage Bonus) on the given move.
+        """
+
+        if move.category == MoveCategory.STATUS:
+            return False
+
+        if move.base_power <= 0:
+            return False
+
+        return move.type == self.primary_type or move.type == self.secondary_type
 
 
 @attr.s(slots=True, frozen=True)
@@ -182,7 +230,7 @@ class PokemonEvolution:
     parameter: str | None = attr.ib(default=None)
 
 
-@attr.s(slots=True, kw_only=True)
+@attr.s(kw_only=True)
 class PokemonSpecies:
     """
     A single species as stored in a YAML file.
@@ -274,7 +322,7 @@ class PokemonSpecies:
     colour: str = attr.ib()
     #: Unused.
     habitat: str | None = attr.ib(default=None)
-    #: Type listed in the Pokédex, e.g. 'Jubilee' (whatever the fuck that means).
+    #: Type listed in the Pokédex, e.g. 'Jubilee' (whatever that means).
     kind: str = attr.ib()
 
     #: The Pokédex entry for this species.
@@ -291,11 +339,32 @@ class PokemonSpecies:
     #: The list of possible evolutions for this species.
     evolutions: list[PokemonEvolution] = attr.ib()
 
-    # used internally. fuck dealing with that
+    # used internally ig?
     form_names: list[str] = attr.ib()
     # ? gen 8 nonsense. we keep it for round-tripping
     regional_numbers: int | None = attr.ib(default=None)
     shape: int | None = attr.ib(default=None)
+
+    @cached_property
+    def default_attributes(self) -> FormAttributes:
+        return FormAttributes(
+            name=self.name,
+            form_name="Normal",
+            primary_type=self.primary_type,
+            secondary_type=self.secondary_type,
+            base_stats=self.base_stats,
+            raw_abilities=self.full_abilities,
+            raw_level_up_moves=self.raw_level_up_moves,
+            pokedex_entry=self.pokedex_entry,
+            internal_name=self.internal_name,
+        )
+
+    @cached_property
+    def full_abilities(self) -> list[str]:
+        if self.raw_hidden_ability:
+            return [*self.raw_abilities, self.raw_hidden_ability]
+        else:
+            return self.raw_abilities
 
     @classmethod
     def from_pbs(cls, data: dict[str, str | int]) -> PokemonSpecies:
@@ -517,19 +586,6 @@ class PokemonSpecies:
         for evolution in self.evolutions:
             evos.append(f"{evolution.into_name},{evolution.condition},{evolution.parameter}")
         buffer.write_key_value("Evolutions", ",".join(evos))
-
-    def has_stab_on(self, move: PokemonMove):
-        """
-        Checks if this Pokémon has STAB (Same Type Advantage Bonus) on the given move.
-        """
-
-        if move.category == MoveCategory.STATUS:
-            return False
-
-        if move.base_power <= 0:
-            return False
-
-        return move.type == self.primary_type or move.type == self.secondary_type
 
 
 if __name__ == "__main__":

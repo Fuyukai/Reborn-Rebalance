@@ -1,3 +1,4 @@
+from contextlib import contextmanager
 from enum import Enum
 from io import StringIO
 from typing import Any, Collection, Iterable, TypeVar
@@ -46,4 +47,30 @@ class PbsBuffer(object):
         self.backing.write(key)
         self.backing.write("=")
         self.backing.write(",".join(value))
+        self.backing.write("\n")
+
+
+class RubyBuffer:
+    """
+    A buffer for Ruby code generation.
+    """
+
+    def __init__(self):
+        self._indent = 0
+        self.backing = StringIO()
+
+    @contextmanager
+    def indented(self) -> None:
+        try:
+            self._indent += 4
+            yield
+        finally:
+            self._indent -= 4
+
+    def write(self, data: str):
+        self.backing.write(data)
+
+    def write_line(self, data: str):
+        self.backing.write(" " * self._indent)
+        self.backing.write(data)
         self.backing.write("\n")

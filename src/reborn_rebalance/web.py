@@ -56,7 +56,8 @@ def main():
 
     # copy both sets of static data over
     shutil.copytree(Path("./templates/static"), output_dir / "static", dirs_exist_ok=True)
-    shutil.copytree(Path("./sprites"), output_dir / "sprites", dirs_exist_ok=True)
+    shutil.copytree(Path("./sprites/auto"), output_dir / "sprites", dirs_exist_ok=True)
+    shutil.copytree(Path("./sprites/custom"), output_dir / "sprites", dirs_exist_ok=True)
 
 
 if __name__ == "__main__":

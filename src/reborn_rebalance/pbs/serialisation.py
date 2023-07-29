@@ -9,6 +9,7 @@ import tomlkit
 from tomlkit import dump, load
 
 from reborn_rebalance.pbs.ability import PokemonAbility
+from reborn_rebalance.pbs.form import PokemonForms, SinglePokemonForm
 from reborn_rebalance.pbs.move import MoveCategory, MoveFlag, MoveTarget, PokemonMove
 from reborn_rebalance.pbs.pokemon import EggGroup, GrowthRate, PokemonSpecies, SexRatio
 from reborn_rebalance.pbs.raw.encounters import EncounterParser, MapEncounters
@@ -67,6 +68,8 @@ def create_cattrs_converter() -> cattrs.Converter:
     TechnicalMachine.add_unstructuring_hook(converter)
     PokemonSpecies.add_unstructuring_hook(converter)
     PokemonItem.add_unstructuring_hook(converter)
+    PokemonForms.add_unstructure_hook(converter)
+    SinglePokemonForm.add_unstructure_hook(converter)
 
     return converter
 
@@ -174,6 +177,23 @@ def save_all_species_to_toml(output_path: Path, input_pokemon: list[PokemonSpeci
 
         save_single_species_to_toml(toml_path, species)
         print(f"Saved {name}")
+
+
+def load_all_forms(path: Path) -> dict[str, PokemonForms]:
+    """
+    Loads all forms from the provided path.
+    """
+
+    all_forms = {}
+
+    for subfile in path.iterdir():
+        with subfile.open(mode="r", encoding="utf-8") as f:
+            forms_for_mon = tomlkit.load(f)
+
+        forms_for_mon = CONVERTER.structure(forms_for_mon, PokemonForms)
+        all_forms[forms_for_mon.internal_name] = forms_for_mon
+
+    return all_forms
 
 
 def load_moves_from_pbs(path: Path) -> list[PokemonMove]:

@@ -1,0 +1,270 @@
+{# Contains macros for the species view. #}
+
+{%- macro stat(name, loc_name, full_name, stat_value) -%}
+
+<tr>
+    <td class="has-text-right">
+        <abbr title="{{ full_name }}">{{ loc_name }}</abbr>
+    </td>
+    <td class="has-text-right">
+        {{ stat_value }}
+    </td>
+    <td class="centre">
+        {% if stat_value < 60 %}
+        {% set class = "is-danger" %}
+        {% elif 60 <= stat_value < 90 %}
+        {% set class = "is-warning" %}
+        {% elif 90 <= stat_value < 135 %}
+        {% set class = "is-success" %}
+        {% else %}
+        {% set class = "is-info" %}
+        {% endif %}
+
+        <progress class="progress {{ class }}" value="{{ stat_value }}" max="255"></progress>
+    </td>
+</tr>
+{%- endmacro -%}
+
+{%- macro move_table_header(level_col_name) -%}
+<tr class="is-primary">
+    {% if level_col_name is not none %}
+    <th class="has-text-right">{{ level_col_name }}</th>
+    {% endif %}
+    <th class="has-text-center">Move</th>
+    <th class="has-text-center">Type</th>
+    <th class="has-text-center"><abbr title="Category, physical or special">Cat</abbr></th>
+    <th class="has-text-right"><abbr title="Base Power">BP</abbr></th>
+    <th class="has-text-right"><abbr title="Accuracy">Acc</abbr></th>
+</tr>
+{%- endmacro -%}
+
+{%- macro move_entry(attributes, level_up_at, internal_name) -%}
+{% set move = catalog.move_by_name(internal_name) %}
+{% if move is none %}
+<tr>
+    <td class="has-text-right">{{ level_up_at }}</td>
+    <td class="has-text-center"> {{ internal_name }}</td>
+    <td colspan="4" class="has-text-center">
+        <span class="tag is-danger">Missing move</span>
+    </td>
+</tr>
+{% else %}
+
+<tr>
+    {% if level_up_at is not none %}
+    <td>
+        {% if level_up_at == "Start" %}
+        <abbr title="Only via the Move Relearner">{{ level_up_at }}</abbr>
+        {% else %}
+        {{ level_up_at }}
+        {% endif %}
+    </td>
+    {% endif %}
+    <td class="has-text-center">
+        <a href="/moves/{{ move.internal_name }}">
+            {% if attributes.has_stab_on(move) %}
+            <strong>{{ move.display_name }}</strong>
+            {% else %}
+            {{ move.display_name }}
+            {% endif %}
+        </a>
+    </td>
+    <td class="bg-{{ move.type.name.lower() }} has-text-centered no-border" style="color: white">
+        {{ move.type.localised_name }}
+    </td>
+    <td class="has-text-centered center">
+        <img
+                src="https://img.pokemondb.net/images/icons/move-{{ move.category.name.lower() }}.png"
+                alt="{{ move.category.name.title() }}"
+                height="42" width="28"
+                loading="lazy"
+        />
+    </td>
+    <td class="has-text-right">
+        {# BP with 0 is no power, with 1 is "custom power" (whatever the fuck that means) #}
+        {% if move.base_power < 2 %}
+        -
+        {% else %}
+        {{ move.base_power }}
+        {% endif %}
+    </td>
+    <td class="has-text-right">
+        {% if move.accuracy == 0 %}
+        {% if move.category == MoveCategory.STATUS %}
+        -
+        {% else %}
+        ∞
+        {% endif %}
+        {% else %}
+        {{ move.accuracy }}
+        {% endif %}
+    </td>
+</tr>
+{% endif %}
+{%- endmacro -%}
+
+<!-- Generates tab headers for multi-form Pokémon. -->
+{%- macro tab_headers(species) -%}
+{% set forms = catalog.forms.get(species.internal_name) %}
+{% if forms %}
+<div class="tabs is-centered is-bordered is-boxed">
+    <ul>
+        {% if forms.default_form == 0 %}
+        {% set default_form_name = forms.form_mapping.get(0, "Normal") %}
+        <li data-form-idx="0" data-form-name="{{ default_form_name }}">
+            <a class="form-tab" href="#" onclick="selectTab(this);">{{ default_form_name }}</a>
+        </li>
+        {% endif %}
+
+        {% for idx, form in forms.form_mapping.items() %}
+        <li data-form-idx="{{ idx }}" data-form-name="{{ form }}">
+            <a class="form-tab" onclick="selectTab(this);">{{ form }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+{% endif %}
+{%- endmacro -%}
+
+<!-- Generates the Pokémon data header for the provided root species and attributes. -->
+{%- macro gen_battler_box(name, dex_idx, attributes) %}
+{% set s_idx = "{:04d}".format(dex_idx) %}
+
+<div class="column is-4 jsify-hidden" data-form="{{ attributes.form_name }}" data-type="battler">
+    <div class="card">
+        <div class="card-header" style="display: block;">
+            <p class="card-header-title has-text-centered">
+                {% if attributes.form_name == "Normal" %}
+                {{ attributes.name }}
+                {% else %}
+                {{ attributes.name }}-{{ attributes.form_name }}
+                {% endif %}
+
+                (<code>{{ attributes.internal_name }}</code>)
+            </p>
+        </div>
+
+        <div class="card-image">
+            <figure class="image is-square">
+                {% set img_src = "/sprites/battler_" + s_idx + ".png" %}
+                {% if attributes.form_name != "Normal" %}
+                {% set img_src = "/sprites/battler_" + s_idx + "_" + attributes.form_name + ".png" %}
+                {% endif %}
+
+                <img
+                        data-idx="{{ s_idx }}"
+                        data-form="{{ attributes.form_name }}"
+                        style="image-rendering: pixelated;"
+                        src="{{ img_src }}"
+                        alt="Battler sprite for {{ attributes.name }}"
+                        height="192"
+                        width="192"
+                        onmouseover="swapWithShinyBattler(this);"
+                        onmouseleave="unswapWithShinyBattler(this);"
+                        class=""
+                >
+            </figure>
+        </div>
+
+        <footer class="card-footer">
+            {%- macro ab(iname) -%}
+            {% set ability_name = catalog.ability_name_mapping[iname].display_name %}
+            <a href="/abilities/{{ iname.lower() }}.html" class="card-footer-item">
+                {{ ability_name }}
+            </a>
+            {%- endmacro -%}
+
+            {% for ability in attributes.raw_abilities %}
+            {{ ab(ability) }}
+            {% endfor %}
+        </footer>
+    </div>
+</div>
+{%- endmacro -%}
+
+{%- macro gen_type_col(attributes) -%}
+<div class="column is-4 jsify-hidden" data-form="{{ attributes.form_name }}" data-type="type">
+    <div class="columns is-multiline" style="margin-top: 0; height: 100%">
+        <div class="column is-full" style="margin-bottom: auto">
+            <div class="card">
+                <div class="card-header">
+                    <p class="card-header-title has-text-centered">Type</p>
+                </div>
+
+                <footer class="card-footer">
+                    <a href="#" class="card-footer-item bg-{{ attributes.primary_type.name.lower() }}"
+                       style="color: white; border-right: 0px;"
+                    >
+                        <strong>{{ attributes.primary_type.localised_name }}</strong>
+                        &nbsp;
+                        <i class="bi bi-link-45deg"></i>
+                    </a>
+
+                    {% if attributes.primary_type != attributes.secondary_type %}
+                    <a href="#" class="card-footer-item bg-{{ attributes.secondary_type.name.lower() }}" style="color: white;">
+                        <strong>{{ attributes.secondary_type.localised_name }}</strong>
+                        &nbsp;
+                        <i class="bi bi-link-45deg"></i>
+                    </a>
+                    {% endif %}
+                </footer>
+            </div>
+        </div>
+
+        <div class="column is-full">
+            <div class="box">
+                <div class="content">
+                    <p>{{ attributes.pokedex_entry }}</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column is-full" style="margin-top: auto;">
+            <div class="card">
+                <div class="card-content" style="padding: 0.25rem;">
+                    <table class="table is-fullwidth">
+                        <tbody>
+                        {{ stat("hp", "HP", "Hit Points", attributes.base_stats.hp) }}
+                        {{ stat("atk", "Atk", "Physical Attack", attributes.base_stats.atk) }}
+                        {{ stat("def_", "Def", "Physical Defence", attributes.base_stats.def_) }}
+                        {{ stat("spa", "SpA", "Special Attack", attributes.base_stats.spa) }}
+                        {{ stat("spd", "SpD", "Special Defence", attributes.base_stats.spd) }}
+                        {{ stat("spe", "Spe", "Speed", attributes.base_stats.spe) }}
+                        <tr>
+                            <td class="has-text-right"><b>Total</b></td>
+                            <td class="has-text-right"><b>{{ attributes.base_stats.sum() }}</b></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{%- endmacro -%}
+
+{%- macro gen_level_up_table(attributes, egg_moves) -%}
+<div class="jsify-hidden" data-form="{{ attributes.form_name }}" data-type="tm">
+<table class="table is-fullwidth is-striped sortable">
+    <thead>
+    {{ move_table_header("Level") }}
+    </thead>
+
+    <tbody>
+    {% for move_name in egg_moves %}
+    {{ move_entry(attributes, "Egg", move_name) }}
+    {% endfor %}
+
+    {% for lvl_up_move in attributes.raw_level_up_moves %}
+    {% if lvl_up_move.at_level == 0 %}
+    {{ move_entry(attributes, "Evolution", lvl_up_move.name) }}
+    {% elif lvl_up_move.at_level == 1 %}
+    {{ move_entry(attributes, "Start", lvl_up_move.name) }}
+    {% else %}
+    {{ move_entry(attributes, lvl_up_move.at_level, lvl_up_move.name) }}
+    {% endif %}
+    {% endfor %}
+    </tbody>
+</table>
+</div>
+{%- endmacro -%}

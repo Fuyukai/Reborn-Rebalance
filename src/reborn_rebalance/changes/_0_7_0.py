@@ -139,16 +139,18 @@ def build_changes(builder: ChangelogBuilder):
     haxorus.add_ability_change("UNNERVE", "SHARPNESS")
     haxorus.add_level_up_move(52, "JAWLOCK")
 
-    builder.pokemon("CUBCHOO", "We've got you surrounded! Come miss every single move!") \
-        .add_ability_change("SNOWCLOAK", "TOUGHCLAWS")
+    builder.pokemon(
+        "CUBCHOO", "We've got you surrounded! Come miss every single move!"
+    ).add_ability_change("SNOWCLOAK", "TOUGHCLAWS")
 
-    builder.pokemon("BEARTIC", "I hate evasion abilities! I hate evasion abilities!") \
-        .add_ability_change("SNOWCLOAK", "TOUGHCLAWS") \
-        .add_ability_change("SWIFTSWIM", "SLUSHRUSH")
+    builder.pokemon(
+        "BEARTIC", "I hate evasion abilities! I hate evasion abilities!"
+    ).add_ability_change("SNOWCLOAK", "TOUGHCLAWS").add_ability_change("SWIFTSWIM", "SLUSHRUSH")
 
-    builder.pokemon("STUNFISK", "Shoutouts to /r/stunfisk") \
-        .add_ability_change("SANDVEIL", "COMPETITIVE")
+    builder.pokemon("STUNFISK", "Shoutouts to /r/stunfisk").add_ability_change(
+        "SANDVEIL", "COMPETITIVE"
+    )
 
-    builder.pokemon("BOUFFALANT", "The raging bull Pokémon now gets an appropriate ability.") \
-        .add_ability_change("SOUNDPROOF", "BERSERK")
-
+    builder.pokemon(
+        "BOUFFALANT", "The raging bull Pokémon now gets an appropriate ability."
+    ).add_ability_change("SOUNDPROOF", "BERSERK")

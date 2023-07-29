@@ -3,14 +3,19 @@ from collections import defaultdict
 from collections.abc import Mapping
 from functools import cached_property
 from pathlib import Path
-from typing import Optional, Self
+from typing import List, Optional, Self, Tuple
 
 import attr
 import tomlkit
 
 from reborn_rebalance.pbs.ability import PokemonAbility
+from reborn_rebalance.pbs.form import PokemonForms, save_forms_to_ruby
 from reborn_rebalance.pbs.move import PokemonMove
-from reborn_rebalance.pbs.pokemon import PokemonEvolution, PokemonSpecies
+from reborn_rebalance.pbs.pokemon import (
+    FormAttributes,
+    PokemonEvolution,
+    PokemonSpecies,
+)
 from reborn_rebalance.pbs.raw.encounters import (
     ENCOUNTER_SLOTS,
     MapEncounters,
@@ -21,6 +26,7 @@ from reborn_rebalance.pbs.raw.tm import TechnicalMachine, tm_number_for
 from reborn_rebalance.pbs.serialisation import (
     load_abilities_from_pbs,
     load_abilities_from_toml,
+    load_all_forms,
     load_all_species_from_pbs,
     load_all_species_from_toml,
     load_encounters_from_pbs,
@@ -90,6 +96,9 @@ class EssentialsCatalog:
 
     #: The list of all known species.
     species: list[PokemonSpecies] = attr.ib()
+
+    #: The mapping of all known {internal name -> list of forms}.
+    forms: dict[str, PokemonForms] = attr.ib()
 
     #: The list of all known moves.
     moves: list[PokemonMove] = attr.ib()
@@ -219,6 +228,7 @@ class EssentialsCatalog:
 
         return cls(
             species=all_species,
+            forms={},
             moves=moves,
             items=items,
             tms=tms,
@@ -259,11 +269,15 @@ class EssentialsCatalog:
         else:
             species = load_all_species_from_toml(species_dir)
 
+        forms_path = path / "forms"
+        forms = load_all_forms(forms_path)
+
         encounters_path = path / "encounters"
         encounters = load_encounters_from_toml(encounters_path)
 
         instance = cls(
             species=species,
+            forms=forms,
             moves=moves,
             items=items,
             tms=tms,
@@ -312,10 +326,16 @@ class EssentialsCatalog:
         encounters_path.mkdir(exist_ok=True, parents=True)
         save_encounters_to_toml(encounters_path, self.map_names, self.encounters)
 
-    def save_to_pbs(self, pbs_dir: Path):
+    def save_to_essentials(self, output_dir: Path):
         """
-        Serialises all objects within this catalog to PBS format.
+        Saves this catalog into the format ready for Essentials ingestion.
         """
+
+        pbs_dir = output_dir / "PBS"
+        pbs_dir.mkdir(parents=True, exist_ok=True)
+
+        scripts_dir = output_dir / "Scripts"
+        scripts_dir.mkdir(parents=True, exist_ok=True)
 
         pokemon_txt = pbs_dir / "pokemon.txt"
         save_all_species_to_pbs(pokemon_txt, self.species)
@@ -336,25 +356,80 @@ class EssentialsCatalog:
         tm_txt = pbs_dir / "tm.txt"
         save_tms_to_pbs(tm_txt, self.tms)
 
+        forms_file = scripts_dir / "MultipleForms.rb"
+        save_forms_to_ruby(forms_file, self.forms)
+
     def _validate(self):
         for species in self.species:
-            for tm in species.raw_tms:
-                if tm not in self.tm_name_mapping:
-                    raise ValueError(f"no such TM: {tm} / when validating {species.internal_name}")
+            errors = []
 
-            for move in species.raw_level_up_moves:
-                if move.name not in self.move_mapping:
-                    raise ValueError(
-                        f"no such move: {move.name} / when validating {species.internal_name}"
-                    )
+            for _, _, attrs in self.all_forms_for(species):
+                for tm in species.raw_tms:
+                    if tm not in self.tm_name_mapping:
+                        errors.append(ValueError(f"no such TM: {tm} / when validating {attrs.internal_name}"))
 
-            for ability in species.raw_abilities:
-                if ability not in self.ability_name_mapping:
-                    raise ValueError(
-                        f"no such ability: {ability} / when validating {species.internal_name}"
-                    )
+                for move in species.raw_level_up_moves:
+                    if move.name not in self.move_mapping:
+                        errors.append(ValueError(
+                            f"no such move: {move.name} / when validating {attrs.internal_name}"
+                        ))
+
+                for ability in species.raw_abilities:
+                    if ability not in self.ability_name_mapping:
+                        errors.append(ValueError(
+                            f"no such ability: {ability} / when validating {attrs.internal_name}"
+                        ))
+
+            if errors:
+                raise ExceptionGroup("Validation error", *errors)
 
     # == Helper methods == #
+    def get_attribs_for_form(self, species_name: str | PokemonSpecies, form_idx: int) -> FormAttributes:
+        """
+        Gets the attributes for the specified form idx of the provided Pokémon species.
+        """
+
+        if isinstance(species_name, PokemonSpecies):
+            root_species = species_name
+        else:
+            root_species = self.species_mapping[species_name]
+
+        if (forms := self.forms.get(root_species.internal_name)) is None:
+            return root_species.default_attributes
+
+        if forms.default_form == form_idx:
+            return root_species.default_attributes
+
+        form_name = forms.form_mapping[form_idx]
+        return forms.forms[form_name].combined_attributes(root_species)
+
+    def all_forms_for(self, species_name: str | PokemonSpecies) -> list[tuple[int, str, FormAttributes]]:
+        """
+        Gets all of the forms for the provided species.
+        """
+
+        if isinstance(species_name, PokemonSpecies):
+            root_species = species_name
+        else:
+            root_species = self.species_mapping[species_name]
+
+        if (forms := self.forms.get(root_species.internal_name)) is None:
+            return [(0, "Normal", root_species.default_attributes)]
+
+        items: list[tuple[int, str, FormAttributes]] = []
+
+        # make sure all multi-form species with no zero-form existing (i.e. most of them) have
+        # the default attributes.
+        # some pokes have the zero-form explicit, like zama and zacian.
+        if 0 not in forms.form_mapping:
+            items.append((0, "Normal", root_species.default_attributes))
+
+        for idx, name in forms.form_mapping.items():
+            form = forms.forms[name]
+            items.append((idx, name, form.combined_attributes(root_species)))
+
+        return items
+
     def move_by_name(self, internal_name: str) -> Optional[PokemonMove]:
         """
         Finds a move by name, or None if no such move exists.
