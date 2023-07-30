@@ -8,7 +8,7 @@ catch_rate = 255
 caught_happiness = 70
 raw_abilities = ["STURDY", "WEAKARMOR"]
 raw_egg_moves = ["AUTOTOMIZE", "CURSE", "GRAVITY", "HEAVYSLAM", "LOCKON", "MAGNITUDE", "ROCKTOMB", "TAKEDOWN", "WIDEGUARD"]
-raw_tms = ["STRENGTH", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "PROTECT", "FRUSTRATION", "SMACKDOWN", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "SANDSTORM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "EXPLOSION", "ROCKPOLISH", "STONEEDGE", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "SANDTOMB", "ROCKBLAST", "ENDURE", "HEAVYSLAM", "BODYPRESS", "POWERUPPUNCH"]
+raw_tms = ["STRENGTH", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "PROTECT", "FRUSTRATION", "SMACKDOWN", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "SANDSTORM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "EXPLOSION", "ROCKPOLISH", "STONEEDGE", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "SANDTOMB", "ROCKBLAST", "ENDURE", "HEAVYSLAM", "BODYPRESS", "POWERUPPUNCH", "THUNDERBOLT", "DAZZLINGGLEAM"]
 raw_tutor_moves = ["BLOCK", "EARTHPOWER", "GRAVITY", "IRONDEFENSE", "MUDSLAP", "SNORE", "STEALTHROCK", "METEORBEAM", "MIMIC"]
 compatible_egg_groups = ["Mineral"]
 steps_to_hatch = 3840
@@ -27,88 +27,78 @@ raw_hidden_ability = "SANDFORCE"
 
 [[raw_level_up_moves]]
 at_level = 1
-name = "HARDEN"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SANDATTACK"
-
-[[raw_level_up_moves]]
-at_level = 1
 name = "TACKLE"
 
 [[raw_level_up_moves]]
+at_level = 4
+name = "HARDEN"
+
+[[raw_level_up_moves]]
 at_level = 7
-name = "MUDSLAP"
+name = "SANDATTACK"
 
 [[raw_level_up_moves]]
 at_level = 10
 name = "HEADBUTT"
 
 [[raw_level_up_moves]]
-at_level = 13
-name = "CURSE"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "MAGNITUDE"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "ROCKTOMB"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "GRAVITY"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "IRONDEFENSE"
-
-[[raw_level_up_moves]]
-at_level = 28
+at_level = 14
 name = "ROCKBLAST"
 
 [[raw_level_up_moves]]
+at_level = 15
+name = "MUDSHOT"
+
+[[raw_level_up_moves]]
+at_level = 17
+name = "MUDSLAP"
+
+[[raw_level_up_moves]]
+at_level = 20
+name = "IRONDEFENSE"
+
+[[raw_level_up_moves]]
+at_level = 23
+name = "SMACKDOWN"
+
+[[raw_level_up_moves]]
+at_level = 27
+name = "ROCKSLIDE"
+
+[[raw_level_up_moves]]
+at_level = 30
+name = "STEALTHROCK"
+
+[[raw_level_up_moves]]
 at_level = 31
-name = "TAKEDOWN"
+name = "DISCHARGE"
 
 [[raw_level_up_moves]]
-at_level = 34
-name = "HEAVYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 38
+at_level = 33
 name = "SANDSTORM"
 
 [[raw_level_up_moves]]
-at_level = 42
-name = "AUTOTOMIZE"
-
-[[raw_level_up_moves]]
-at_level = 46
+at_level = 36
 name = "STONEEDGE"
 
 [[raw_level_up_moves]]
-at_level = 51
+at_level = 40
 name = "EXPLOSION"
 
 [[raw_level_up_moves]]
-at_level = 56
-name = "WIDEGUARD"
+at_level = 42
+name = "EARTHPOWER"
 
 [[evolutions]]
 into_name = "BOLDORE"
 condition = "Level"
 parameter = "25"
 
-
-
 [base_stats]
 hp = 55
-atk = 75
+atk = 25
 def_ = 85
-spa = 25
+spa = 75
 spd = 25
 spe = 15
 

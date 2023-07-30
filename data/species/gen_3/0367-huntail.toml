@@ -6,7 +6,7 @@ growth_rate = "Erratic"
 exp_yield = 170
 catch_rate = 60
 caught_happiness = 70
-raw_abilities = ["SWIFTSWIM", "WATERVEIL"]
+raw_abilities = ["SWIFTSWIM", "STRONGJAW", "WATERVEIL"]
 raw_egg_moves = []
 raw_tms = ["SURF", "WATERFALL", "TOXIC", "DIVE", "HAIL", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "DOUBLETEAM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "SCALD", "GIGAIMPACT", "INFESTATION", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "SCREECH", "SCARYFACE", "WHIRLPOOL", "BRINE", "ICEFANG", "CRUNCH", "BODYSLAM", "HYDROPUMP", "ENDURE", "BATONPASS", "MUDDYWATER", "SWIFT"]
 raw_tutor_moves = ["AQUATAIL", "BIND", "BOUNCE", "ICYWIND", "MUDSLAP", "SNATCH", "SNORE", "SUCKERPUNCH", "SUPERFANG", "WATERPULSE", "MIMIC", "WAVECRASH"]
@@ -108,9 +108,9 @@ name = "HYDROPUMP"
 
 [base_stats]
 hp = 55
-atk = 104
+atk = 114
 def_ = 105
-spa = 94
+spa = 84
 spd = 75
 spe = 52
 

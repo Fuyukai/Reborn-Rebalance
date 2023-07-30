@@ -129,7 +129,6 @@ def main(catalog: EssentialsCatalog):
             # idc
             idx += 1
 
-
     # manually load species from toml
     for key, moves in files.items():
         number, name = key

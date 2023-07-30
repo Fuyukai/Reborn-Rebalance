@@ -6,7 +6,7 @@ growth_rate = "Medium"
 exp_yield = 166
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["FRIENDGUARD", "BIGPECKS"]
+raw_abilities = ["COMPETITIVE", "FRIENDGUARD", "HYDRATION"]
 raw_egg_moves = []
 raw_tms = ["FLY", "SURF", "TOXIC", "DIVE", "HAIL", "HIDDENPOWER", "ICEBEAM", "HYPERBEAM", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "FRUSTRATION", "RETURN", "DOUBLETEAM", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "STEELWING", "SCALD", "GIGAIMPACT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "BRINE", "AIRSLASH", "HURRICANE", "BRAVEBIRD", "ENDURE"]
 raw_tutor_moves = ["AIRCUTTER", "DEFOG", "ENDEAVOR", "ICYWIND", "LIQUIDATION", "SKYATTACK", "SNORE", "TAILWIND", "UPROAR", "WATERPULSE", "MIMIC"]
@@ -24,7 +24,6 @@ evolutions = []
 form_names = []
 dex_number = 581
 internal_name = "SWANNA"
-raw_hidden_ability = "HYDRATION"
 
 [[raw_level_up_moves]]
 at_level = 1
@@ -122,9 +121,9 @@ name = "SKYATTACK"
 hp = 75
 atk = 87
 def_ = 63
-spa = 87
+spa = 107
 spd = 63
-spe = 98
+spe = 103
 
 [ev_yield]
 hp = 0

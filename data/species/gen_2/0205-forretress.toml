@@ -114,13 +114,17 @@ name = "EXPLOSION"
 at_level = 58
 name = "ZAPCANNON"
 
+[[raw_level_up_moves]]
+at_level = 65
+name = "STICKYWEB"
+
 [base_stats]
 hp = 75
-atk = 90
+atk = 100
 def_ = 140
 spa = 60
-spd = 60
-spe = 40
+spd = 80
+spe = 20
 
 [ev_yield]
 hp = 0

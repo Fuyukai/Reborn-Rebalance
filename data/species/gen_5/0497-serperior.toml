@@ -6,7 +6,7 @@ growth_rate = "Parabolic"
 exp_yield = 238
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["OVERGROW", "CONTRARY"]
+raw_abilities = ["OVERGROW", "SHEDSKIN", "CONTRARY"]
 raw_egg_moves = []
 raw_tms = ["WORKUP", "CUT", "CALMMIND", "STRENGTH", "TOXIC", "ROCKSMASH", "FLASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "REFLECT", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "BRUTALSWING", "GIGAIMPACT", "SWORDSDANCE", "DRAGONTAIL", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "MAGICALLEAF", "LEAFBLADE", "GRASSYTERRAIN", "LEAFSTORM", "ENDURE"]
 raw_tutor_moves = ["AQUATAIL", "BIND", "DEFOG", "DRAGONPULSE", "FRENZYPLANT", "GASTROACID", "GIGADRAIN", "GRASSPLEDGE", "IRONTAIL", "KNOCKOFF", "OUTRAGE", "SEEDBOMB", "SNATCH", "SNORE", "SYNTHESIS", "WORRYSEED", "MIMIC", "DRACOMETEOR"]
@@ -24,6 +24,10 @@ evolutions = []
 form_names = []
 dex_number = 497
 internal_name = "SERPERIOR"
+
+[[raw_level_up_moves]]
+at_level = 0
+name = "LEAFSTORM"
 
 [[raw_level_up_moves]]
 at_level = 1
@@ -120,10 +124,6 @@ name = "POWERWHIP"
 [[raw_level_up_moves]]
 at_level = 62
 name = "WRINGOUT"
-
-[[raw_level_up_moves]]
-at_level = 66
-name = "LEAFSTORM"
 
 [base_stats]
 hp = 75

@@ -241,6 +241,7 @@ class EssentialsCatalog:
     def load_from_toml(
         cls,
         path: Path,
+        *,
         skip_species: bool = False,
     ) -> Self:
         """
@@ -448,6 +449,17 @@ class EssentialsCatalog:
 
         for move in self.moves:
             if move.internal_name == internal_name:
+                return move
+
+        return None
+
+    def move_by_display_name(self, display_name: str) -> Optional[PokemonMove]:
+        """
+        Finds a move by display name, or None if no such move exists.
+        """
+
+        for move in self.moves:
+            if move.display_name == display_name:
                 return move
 
         return None

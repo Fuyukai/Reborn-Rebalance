@@ -1,6 +1,6 @@
 name = "Sunflora"
 primary_type = "GRASS"
-secondary_type = "GRASS"
+secondary_type = "FIRE"
 gender_ratio = "Female50Percent"
 growth_rate = "Parabolic"
 exp_yield = 149
@@ -8,7 +8,7 @@ catch_rate = 120
 caught_happiness = 70
 raw_abilities = ["DROUGHT", "CHLOROPHYLL", "SOLARPOWER"]
 raw_egg_moves = []
-raw_tms = ["CUT", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "SLUDGEBOMB", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "GIGAIMPACT", "SWORDSDANCE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "WEATHERBALL", "BULLETSEED", "LEAFBLADE", "GRASSYTERRAIN", "HYDROPUMP", "LEAFSTORM", "ENDURE", "ENCORE", "TRAILBLAZE"]
+raw_tms = ["CUT", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "SLUDGEBOMB", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "GIGAIMPACT", "SWORDSDANCE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "WEATHERBALL", "BULLETSEED", "LEAFBLADE", "GRASSYTERRAIN", "HYDROPUMP", "LEAFSTORM", "ENDURE", "ENCORE", "TRAILBLAZE", "MYSTICALFIRE", ]
 raw_tutor_moves = ["AFTERYOU", "EARTHPOWER", "ENDEAVOR", "GIGADRAIN", "HELPINGHAND", "SEEDBOMB", "SNORE", "SYNTHESIS", "UPROAR", "WORRYSEED", "MIMIC"]
 compatible_egg_groups = ["Grass"]
 steps_to_hatch = 5355
@@ -111,6 +111,10 @@ at_level = 50
 name = "DOUBLEEDGE"
 
 [[raw_level_up_moves]]
+at_level = 52
+name = "SEEDFLARE"
+
+[[raw_level_up_moves]]
 at_level = 54
 name = "LEAFSTORM"
 
@@ -123,7 +127,7 @@ at_level = 62
 name = "FIERYDANCE"
 
 [base_stats]
-hp = 75
+hp = 95
 atk = 75
 def_ = 85
 spa = 125

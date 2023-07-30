@@ -6,10 +6,10 @@ growth_rate = "Parabolic"
 exp_yield = 238
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["TORRENT", "SHELLARMOR"]
+raw_abilities = ["TORRENT", "SHELLARMOR", "DEFIANT"]
 raw_egg_moves = []
 raw_tms = ["WORKUP", "CUT", "SURF", "STRENGTH", "WATERFALL", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "HIDDENPOWER", "TAUNT", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "DOUBLETEAM", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "FALSESWIPE", "SCALD", "FLING", "SMARTSTRIKE", "GIGAIMPACT", "SWORDSDANCE", "XSCISSOR", "DRAGONTAIL", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "SCREECH", "REVENGE", "BRINE", "ASSURANCE", "AIRSLASH", "RAZORSHELL", "HYDROPUMP", "MEGAHORN", "FOCUSENERGY", "ENDURE", "ENCORE", "RETALIATE", "SNOWSCAPE", "CHILLINGWATER", "LOWSWEEP"]
-raw_tutor_moves = ["AQUATAIL", "BLOCK", "COVET", "HELPINGHAND", "HYDROCANNON", "ICYWIND", "IRONTAIL", "KNOCKOFF", "LIQUIDATION", "SNORE", "SUPERPOWER", "WATERPLEDGE", "WATERPULSE", "WAVECRASH", "MIMIC"]
+raw_tutor_moves = ["AQUATAIL", "BLOCK", "COVET", "HELPINGHAND", "HYDROCANNON", "ICYWIND", "IRONTAIL", "KNOCKOFF", "LIQUIDATION", "SNORE", "SUPERPOWER", "WATERPLEDGE", "WATERPULSE", "WAVECRASH", "MIMIC", "SECRETSWORD"]
 compatible_egg_groups = ["Field"]
 steps_to_hatch = 5120
 height = 1.5
@@ -24,6 +24,10 @@ evolutions = []
 form_names = []
 dex_number = 503
 internal_name = "SAMUROTT"
+
+[[raw_level_up_moves]]
+at_level = 0
+name = "SACREDSWORD"
 
 [[raw_level_up_moves]]
 at_level = 1
@@ -80,10 +84,6 @@ name = "SLASH"
 [[raw_level_up_moves]]
 at_level = 34
 name = "NIGHTSLASH"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "SACREDSWORD"
 
 [[raw_level_up_moves]]
 at_level = 37

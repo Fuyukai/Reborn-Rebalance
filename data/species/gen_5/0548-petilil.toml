@@ -1,6 +1,6 @@
 name = "Petilil"
 primary_type = "GRASS"
-secondary_type = "GRASS"
+secondary_type = "FAIRY"
 gender_ratio = "AlwaysFemale"
 growth_rate = "Medium"
 exp_yield = 56
@@ -8,7 +8,7 @@ catch_rate = 190
 caught_happiness = 70
 raw_abilities = ["CHLOROPHYLL", "OWNTEMPO"]
 raw_egg_moves = ["BIDE", "CHARM", "ENCORE", "ENDURE", "GRASSWHISTLE", "HEALINGWISH", "INGRAIN", "NATURALGIFT", "SWEETSCENT", "WORRYSEED"]
-raw_tms = ["CUT", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "MAGICALLEAF", "CHARM", "LEAFSTORM", "ENDURE", "ENCORE", "POLLENPUFF", "TRAILBLAZE"]
+raw_tms = ["CUT", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "MAGICALLEAF", "CHARM", "LEAFSTORM", "ENDURE", "ENCORE", "POLLENPUFF", "TRAILBLAZE", "DAZZLINGGLEAM"]
 raw_tutor_moves = ["AFTERYOU", "COVET", "GIGADRAIN", "HEALBELL", "HELPINGHAND", "LASERFOCUS", "SEEDBOMB", "SNORE", "SYNTHESIS", "WORRYSEED", "GRASSYGLIDE", "MIMIC"]
 compatible_egg_groups = ["Grass"]
 steps_to_hatch = 5120
@@ -30,88 +30,77 @@ at_level = 1
 name = "ABSORB"
 
 [[raw_level_up_moves]]
-at_level = 1
-name = "SYNTHESIS"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FOCUSENERGY"
-
-[[raw_level_up_moves]]
 at_level = 4
-name = "RAZORLEAF"
+name = "GROWTH"
 
 [[raw_level_up_moves]]
-at_level = 7
-name = "WORRYSEED"
+at_level = 6
+name = "FAIRYWIND"
 
 [[raw_level_up_moves]]
-at_level = 10
-name = "POISONPOWDER"
+at_level = 8
+name = "LEECHSEED"
 
 [[raw_level_up_moves]]
 at_level = 10
 name = "SLEEPPOWDER"
 
 [[raw_level_up_moves]]
-at_level = 10
-name = "STUNSPORE"
-
-[[raw_level_up_moves]]
 at_level = 13
-name = "GROWTH"
-
-[[raw_level_up_moves]]
-at_level = 16
 name = "MEGADRAIN"
 
 [[raw_level_up_moves]]
+at_level = 17
+name = "SYNTHESIS"
+
+[[raw_level_up_moves]]
 at_level = 19
-name = "AROMATHERAPY"
+name = "MAGICALLEAF"
 
 [[raw_level_up_moves]]
 at_level = 22
-name = "HELPINGHAND"
+name = "STUNSPORE"
 
 [[raw_level_up_moves]]
-at_level = 25
-name = "LEECHSEED"
+at_level = 24
+name = "DRAININGKISS"
+
+[[raw_level_up_moves]]
+at_level = 26
+name = "GIGADRAIN"
 
 [[raw_level_up_moves]]
 at_level = 28
-name = "EXTRASENSORY"
+name = "AROMATHERAPY"
 
 [[raw_level_up_moves]]
 at_level = 31
-name = "CHARM"
+name = "HELPINGHAND"
 
 [[raw_level_up_moves]]
-at_level = 34
-name = "ENTRAINMENT"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "RECOVER"
-
-[[raw_level_up_moves]]
-at_level = 41
-name = "INGRAIN"
-
-[[raw_level_up_moves]]
-at_level = 45
+at_level = 35
 name = "ENERGYBALL"
 
 [[raw_level_up_moves]]
-at_level = 49
-name = "HEALINGWISH"
+at_level = 37
+name = "ENTRAINMENT"
 
 [[raw_level_up_moves]]
-at_level = 53
-name = "QUIVERDANCE"
+at_level = 40
+name = "SUNNYDAY"
 
 [[raw_level_up_moves]]
-at_level = 57
+at_level = 44
+name = "AFTERYOU"
+
+[[raw_level_up_moves]]
+at_level = 46
 name = "LEAFSTORM"
+
+[[raw_level_up_moves]]
+at_level = 50
+name = "MOONBLAST"
+
 
 [[evolutions]]
 into_name = "LILLIGANT"

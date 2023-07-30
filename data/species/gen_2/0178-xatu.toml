@@ -36,6 +36,10 @@ internal_name = "XATU"
 habitat = "Forest"
 
 [[raw_level_up_moves]]
+at_level = 0
+name = "FUTURESIGHT"
+
+[[raw_level_up_moves]]
 at_level = 1
 name = "HAZE"
 
@@ -88,10 +92,6 @@ at_level = 22
 name = "OMINOUSWIND"
 
 [[raw_level_up_moves]]
-at_level = 25
-name = "FUTURESIGHT"
-
-[[raw_level_up_moves]]
 at_level = 26
 name = "MIRACLEEYE"
 
@@ -139,9 +139,9 @@ name = "FOULPLAY"
 hp = 65
 atk = 75
 def_ = 70
-spa = 105
+spa = 115
 spd = 70
-spe = 95
+spe = 105
 
 [ev_yield]
 hp = 0

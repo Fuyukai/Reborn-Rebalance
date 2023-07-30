@@ -1,6 +1,6 @@
 name = "Lilligant"
 primary_type = "GRASS"
-secondary_type = "GRASS"
+secondary_type = "FAIRY"
 gender_ratio = "AlwaysFemale"
 growth_rate = "Medium"
 exp_yield = 168
@@ -8,7 +8,7 @@ catch_rate = 75
 caught_happiness = 70
 raw_abilities = ["CHLOROPHYLL", "OWNTEMPO"]
 raw_egg_moves = []
-raw_tms = ["CUT", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "GIGAIMPACT", "SWORDSDANCE", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "MAGICALLEAF", "SOLARBLADE", "CHARM", "LEAFBLADE", "GRASSYTERRAIN", "LEAFSTORM", "ENDURE", "ENCORE", "POLLENPUFF", "ICESPINNER", "TRAILBLAZE"]
+raw_tms = ["CUT", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "GIGAIMPACT", "SWORDSDANCE", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "MAGICALLEAF", "SOLARBLADE", "CHARM", "LEAFBLADE", "GRASSYTERRAIN", "LEAFSTORM", "ENDURE", "ENCORE", "POLLENPUFF", "ICESPINNER", "TRAILBLAZE", "DAZZLINGGLEAM"]
 raw_tutor_moves = ["AFTERYOU", "COVET", "GIGADRAIN", "HEALBELL", "HELPINGHAND", "LASERFOCUS", "ROLEPLAY", "SEEDBOMB", "SNORE", "SYNTHESIS", "WORRYSEED", "GRASSYGLIDE", "MIMIC"]
 compatible_egg_groups = ["Grass"]
 steps_to_hatch = 5120
@@ -27,8 +27,24 @@ internal_name = "LILLIGANT"
 raw_hidden_ability = "LEAFGUARD"
 
 [[raw_level_up_moves]]
+at_level = 0
+name = "QUIVERDANCE"
+
+[[raw_level_up_moves]]
 at_level = 1
-name = "POISONPOWDER"
+name = "MEGADRAIN"
+
+[[raw_level_up_moves]]
+at_level = 1
+name = "SYNTHESIS"
+
+[[raw_level_up_moves]]
+at_level = 1
+name = "QUIVERDANCE"
+
+[[raw_level_up_moves]]
+at_level = 1
+name = "GIGADRAIN"
 
 [[raw_level_up_moves]]
 at_level = 1
@@ -36,35 +52,51 @@ name = "SLEEPPOWDER"
 
 [[raw_level_up_moves]]
 at_level = 1
-name = "STUNSPORE"
-
-[[raw_level_up_moves]]
-at_level = 1
 name = "GROWTH"
 
 [[raw_level_up_moves]]
 at_level = 1
-name = "HEALINGWISH"
+name = "LEECHSEED"
 
 [[raw_level_up_moves]]
-at_level = 25
+at_level = 10
+name = "TEETERDANCE"
+
+[[raw_level_up_moves]]
+at_level = 24
+name = "DRAININGKISS"
+
+[[raw_level_up_moves]]
+at_level = 32
 name = "PETALDANCE"
 
 [[raw_level_up_moves]]
-at_level = 35
-name = "EXTRASENSORY"
+at_level = 38
+name = "POLLENPUFF"
 
 [[raw_level_up_moves]]
-at_level = 40
-name = "HELPINGHAND"
+at_level = 44
+name = "EARTHPOWER"
 
 [[raw_level_up_moves]]
 at_level = 50
+name = "PETALBLIZZARD"
+
+[[raw_level_up_moves]]
+at_level = 52
+name = "ENCORE"
+
+[[raw_level_up_moves]]
+at_level = 56
+name = "MOONBLAST"
+
+[[raw_level_up_moves]]
+at_level = 65
 name = "QUIVERDANCE"
 
 [[raw_level_up_moves]]
-at_level = 55
-name = "FIERYDANCE"
+at_level = 68
+name = "SLEEPPOWDER"
 
 [base_stats]
 hp = 70
