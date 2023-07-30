@@ -6,7 +6,7 @@ growth_rate = "Medium"
 exp_yield = 67
 catch_rate = 190
 caught_happiness = 70
-raw_abilities = ["PICKUP", "FRISK"]
+raw_abilities = ["PICKUP", "FLAREBOOST", "INSOMNIA"]
 raw_egg_moves = ["BESTOW", "CURSE", "DESTINYBOND", "DISABLE"]
 raw_tms = ["TOXIC", "ROCKSMASH", "FLASH", "HIDDENPOWER", "SUNNYDAY", "LIGHTSCREEN", "PROTECT", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "FLAMETHROWER", "SLUDGEBOMB", "FIREBLAST", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "THIEF", "ROUND", "ENERGYBALL", "CHARGEBEAM", "WILLOWISP", "EXPLOSION", "GYROBALL", "ROCKSLIDE", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "NATUREPOWER", "DARKPULSE", "CONFIDE", "SCARYFACE", "IMPRISON", "BULLETSEED", "HEX", "MYSTICALFIRE", "ENDURE"]
 raw_tutor_moves = ["ALLYSWITCH", "FOULPLAY", "GIGADRAIN", "MAGICCOAT", "PAINSPLIT", "ROLEPLAY", "SEEDBOMB", "SKILLSWAP", "SNORE", "SPITE", "SYNTHESIS", "TELEKINESIS", "TRICK", "WORRYSEED", "GRASSYGLIDE", "SKITTERSMACK", "POLTERGEIST", "MIMIC"]
@@ -23,7 +23,6 @@ battler_altitude = 3
 form_names = []
 dex_number = 710
 internal_name = "PUMPKABOO"
-raw_hidden_ability = "INSOMNIA"
 
 [[raw_level_up_moves]]
 at_level = 1
@@ -98,9 +97,9 @@ parameter = ""
 
 [base_stats]
 hp = 59
-atk = 66
+atk = 44
 def_ = 70
-spa = 44
+spa = 66
 spd = 55
 spe = 41
 

@@ -18,10 +18,10 @@ def _inner_move(move_slice: str):
 # input: raw movelist, e.g. ``[[0, PBMoves::ROCKSMASH], ...]``
 def parse_ruby(catalog: EssentialsCatalog, raw_data: str):
     all_moves = raw_data.replace("\n", "").replace("\r", "").strip()
-    if all_moves[0] == '[':
+    if all_moves[0] == "[":
         all_moves = all_moves[1:]
 
-    if all_moves[-1] == ']':
+    if all_moves[-1] == "]":
         all_moves = all_moves[:-1]
 
     moves = []
@@ -48,7 +48,7 @@ def parse_ruby(catalog: EssentialsCatalog, raw_data: str):
     return tomlkit.dumps(raw_data)
 
 
-def parse_buffel_salt(catalog: EssentialsCatalog, data: str):
+def parse_buffel_salt(catalog: EssentialsCatalog, form: str, data: str):
     lines = data.splitlines()
     moves = []
 
@@ -60,14 +60,41 @@ def parse_buffel_salt(catalog: EssentialsCatalog, data: str):
         move = catalog.move_by_display_name(move)
         moves.append(RawLevelUpMove(at_level=int(level), name=move.internal_name))
 
-    data = {"raw_level_up_moves": cattrs.unstructure(moves)}
+    data = {"forms": {form: {"raw_level_up_moves": cattrs.unstructure(moves)}}}
     return tomlkit.dumps(data)
 
 
 if __name__ == "__main__":
     loaded = EssentialsCatalog.load_from_toml(Path("./data"), skip_species=True)
-    print(parse_ruby(loaded, """
-    [[1,PBMoves::GROWTH],[10,PBMoves::MAGICALLEAF],[19,PBMoves::LEECHSEED],[28,PBMoves::QUICKATTACK],
-		[37,PBMoves::SWEETSCENT],[46,PBMoves::NATURALGIFT],[55,PBMoves::WORRYSEED],[64,PBMoves::AIRSLASH],
-		[73,PBMoves::ENERGYBALL],[82,PBMoves::SWEETKISS],[91,PBMoves::LEAFSTORM],[100,PBMoves::SEEDFLARE]]
-    """))
+    print(
+        parse_buffel_salt(
+            loaded,
+            "Female",
+            """
+    1 - Stored Power
+1 - Me First
+1 - Magical Leaf
+1 - Scratch
+1 - Leer
+1 - Covet
+1 - Confusion
+5 - Covet
+9 - Confusion
+13 - Light Screen
+17 - Psybeam
+19 - Fake Out
+22 - Disarming Voice
+25 - Psyshock
+28 - Charge Beam
+31 - Shadow Ball
+33 - Assist
+35 - Extrasensory
+40 - Psychic
+43 - Role Play
+45 - Signal Beam
+48 - Sucker Punch
+50 - Future Sight
+53 - Stored Power
+56 - Nasty Plot""",
+        )
+    )

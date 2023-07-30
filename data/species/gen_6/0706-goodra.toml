@@ -6,7 +6,7 @@ growth_rate = "Slow"
 exp_yield = 270
 catch_rate = 20
 caught_happiness = 70
-raw_abilities = ["SAPSIPPER", "HYDRATION"]
+raw_abilities = ["SAPSIPPER", "POISONHEAL", "GOOEY"]
 raw_egg_moves = []
 raw_tms = ["SURF", "STRENGTH", "TOXIC", "HAIL", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "SLUDGEWAVE", "FLAMETHROWER", "SLUDGEBOMB", "FIREBLAST", "FACADE", "REST", "ATTRACT", "ROUND", "FOCUSBLAST", "BRUTALSWING", "GIGAIMPACT", "BULLDOZE", "ROCKSLIDE", "DRAGONTAIL", "INFESTATION", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "WEATHERBALL", "MUDSHOT", "ASSURANCE", "BREAKINGSWIPE", "BODYSLAM", "HYDROPUMP", "POWERWHIP", "ENDURE", "MUDDYWATER", "BODYPRESS", "ICESPINNER", "CHILLINGWATER"]
 raw_tutor_moves = ["AQUATAIL", "DRACOMETEOR", "DRAGONPULSE", "FIREPUNCH", "FOCUSPUNCH", "IRONTAIL", "LASERFOCUS", "OUTRAGE", "SHOCKWAVE", "SNORE", "STOMPINGTANTRUM", "SUPERPOWER", "THUNDERPUNCH", "WATERPULSE", "SKITTERSMACK", "MIMIC", "POISONTAIL"]
@@ -24,7 +24,6 @@ evolutions = []
 form_names = []
 dex_number = 706
 internal_name = "GOODRA"
-raw_hidden_ability = "GOOEY"
 
 [[raw_level_up_moves]]
 at_level = 1
@@ -109,9 +108,9 @@ name = "HYDROPUMP"
 [base_stats]
 hp = 90
 atk = 100
-def_ = 70
+def_ = 85
 spa = 110
-spd = 150
+spd = 135
 spe = 80
 
 [ev_yield]

@@ -156,3 +156,8 @@ def build_changes(builder: ChangelogBuilder):
     builder.pokemon(
         "BOUFFALANT", "The raging bull Pokémon now gets an appropriate ability."
     ).add_ability_change("SOUNDPROOF", "BERSERK")
+
+    builder.pokemon(
+        "CHARGABUG", "Now evolves inside Shade's Gym (location 281), similar to old Magneton."
+    )
+    builder.pokemon("VIKAVOLT", "Now Alola's second psuedo-Legend.")

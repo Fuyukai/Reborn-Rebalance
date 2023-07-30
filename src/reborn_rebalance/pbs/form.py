@@ -81,7 +81,7 @@ class SinglePokemonForm:
             secondary_type=self.secondary_type or species.secondary_type,
             base_stats=self.base_stats or species.base_stats,
             pokedex_entry=self.pokedex_entry or species.pokedex_entry,
-            raw_abilities=self.raw_abilities or species.abilities,
+            raw_abilities=self.raw_abilities or species.raw_abilities,
             raw_level_up_moves=self.raw_level_up_moves or species.raw_level_up_moves,
             internal_name=species.internal_name,
         )
