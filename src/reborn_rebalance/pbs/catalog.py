@@ -1,7 +1,8 @@
+import concurrent.futures
 import types
 from collections import defaultdict
 from collections.abc import Mapping
-from functools import cached_property
+from functools import cached_property, partial
 from pathlib import Path
 from typing import List, Optional, Self, Tuple
 
@@ -33,6 +34,7 @@ from reborn_rebalance.pbs.serialisation import (
     load_encounters_from_toml,
     load_items_from_pbs,
     load_items_from_toml,
+    load_map_names,
     load_moves_from_pbs,
     load_moves_from_toml,
     load_tms_from_pbs,
@@ -250,8 +252,14 @@ class EssentialsCatalog:
         forms = load_all_forms(forms_path)
 
         return cls(
-            species=species, forms=forms, moves=[], items=[], map_names=[], encounters=[],
-            abilities=[], tms=[]
+            species=species,
+            forms=forms,
+            moves=[],
+            items=[],
+            map_names=[],
+            encounters=[],
+            abilities=[],
+            tms=[],
         )
 
     @classmethod
@@ -265,21 +273,25 @@ class EssentialsCatalog:
         Loads all objects from toml files in the provided ``data`` directory.
         """
 
-        maps_path = path / "map_names.toml"
-        with maps_path.open(encoding="utf-8") as f:
-            maps = {int(k): v for (k, v) in tomlkit.load(f).items()}
+        # processpoolexecutor over threadpoolexecutor
+        with concurrent.futures.ProcessPoolExecutor() as executor:
+            maps_path = path / "map_names.toml"
+            maps_fut = executor.submit(partial(load_map_names, maps_path))
 
-        moves_file = path / "moves.toml"
-        moves = load_moves_from_toml(moves_file)
+            moves_file = path / "moves.toml"
+            moves_fut = executor.submit(partial(load_moves_from_toml, moves_file))
 
-        items_path = path / "items.toml"
-        items = load_items_from_toml(items_path)
+            items_path = path / "items.toml"
+            items_fut = executor.submit(partial(load_items_from_toml, items_path))
 
-        tm_path = path / "tms.toml"
-        tms = load_tms_from_toml(tm_path)
+            tm_path = path / "tms.toml"
+            tms_fut = executor.submit(partial(load_tms_from_toml, tm_path))
 
-        ability_path = path / "abilities.toml"
-        abilities = load_abilities_from_toml(ability_path)
+            ability_path = path / "abilities.toml"
+            abilities_fut = executor.submit(partial(load_abilities_from_toml, ability_path))
+
+            encounters_path = path / "encounters"
+            encounters_fut = executor.submit(partial(load_encounters_from_toml, encounters_path))
 
         species_dir = path / "species"
         forms_path = path / "forms"
@@ -291,21 +303,19 @@ class EssentialsCatalog:
             species = load_all_species_from_toml(species_dir)
             forms = load_all_forms(forms_path)
 
-        encounters_path = path / "encounters"
-        encounters = load_encounters_from_toml(encounters_path)
-
         instance = cls(
             species=species,
             forms=forms,
-            moves=moves,
-            items=items,
-            tms=tms,
-            abilities=abilities,
-            map_names=maps,
-            encounters=encounters,
+            moves=moves_fut.result(),
+            items=items_fut.result(),
+            tms=tms_fut.result(),
+            abilities=abilities_fut.result(),
+            map_names=maps_fut.result(),
+            encounters=encounters_fut.result(),
         )
 
         instance._validate()
+        print("loaded and validated catalog")
         return instance
 
     def save_to_toml(self, path: Path):

@@ -1,6 +1,8 @@
 from __future__ import annotations
 
+import concurrent.futures
 import csv
+from functools import partial
 from io import StringIO
 from pathlib import Path
 
@@ -84,6 +86,8 @@ def load_single_species_toml(path: Path) -> (int, PokemonSpecies):
     :return A tuple of (dex number, parsed species).
     """
 
+    print(f"LOAD: {path}")
+
     with path.open(encoding="utf-8", mode="r") as f:
         data = load(f)
 
@@ -113,10 +117,11 @@ def load_all_species_from_toml(path: Path) -> list[PokemonSpecies]:
             to_read.append(subpath)
 
     species: list[PokemonSpecies] = [None] * len(to_read)  # type: ignore
-    for path in to_read:
-        print(f"LOAD: {path}")
-        idx, decoded = load_single_species_toml(path)
-        species[idx - 1] = decoded
+    futures = []
+
+    with concurrent.futures.ProcessPoolExecutor() as executor:
+        for idx, decoded in executor.map(load_single_species_toml, to_read):
+            species[idx - 1] = decoded
 
     if __debug__:
         for idx, read_in in enumerate(species):
@@ -532,3 +537,12 @@ def save_encounters_to_toml(path: Path, map_names: dict[int, str], data: dict[in
 
         with filename.open(mode="w", encoding="utf-8") as f:
             tomlkit.dump(CONVERTER.unstructure(encounter), f)
+
+
+def load_map_names(path: Path) -> dict[int, str]:
+    """
+    Loads the map names from TOML.
+    """
+
+    with path.open(encoding="utf-8") as f:
+        return {int(k): v for (k, v) in tomlkit.load(f).items()}
