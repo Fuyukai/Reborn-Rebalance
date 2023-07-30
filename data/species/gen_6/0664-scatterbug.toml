@@ -41,10 +41,16 @@ name = "STUNSPORE"
 at_level = 15
 name = "BUGBITE"
 
+[[raw_level_up_moves]]
+at_level = 15
+name = "RAGEPOWDER"
+
 [[evolutions]]
 into_name = "SPEWPA"
 condition = "Level"
 parameter = "9"
+
+
 
 [base_stats]
 hp = 38

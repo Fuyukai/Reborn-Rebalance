@@ -77,10 +77,16 @@ name = "ELECTRIFY"
 at_level = 49
 name = "THUNDERBOLT"
 
+[[raw_level_up_moves]]
+at_level = 53
+name = "PARABOLICCHARGE"
+
 [[evolutions]]
 into_name = "HELIOLISK"
 condition = "Item"
 parameter = "SUNSTONE"
+
+
 
 [base_stats]
 hp = 44

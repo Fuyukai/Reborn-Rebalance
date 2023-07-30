@@ -51,7 +51,7 @@ name = "BITE"
 
 [[raw_level_up_moves]]
 at_level = 16
-name = "WINGATTACK"
+name = "AIRCUTTER"
 
 [[raw_level_up_moves]]
 at_level = 18
@@ -59,19 +59,23 @@ name = "AGILITY"
 
 [[raw_level_up_moves]]
 at_level = 23
-name = "AIRCUTTER"
+name = "WINGATTACK"
+
+[[raw_level_up_moves]]
+at_level = 25
+name = "OUTRAGE"
 
 [[raw_level_up_moves]]
 at_level = 27
-name = "ROOST"
+name = "TAILWIND"
 
 [[raw_level_up_moves]]
 at_level = 31
-name = "RAZORWIND"
+name = "AIRSLASH"
 
 [[raw_level_up_moves]]
 at_level = 35
-name = "TAILWIND"
+name = "DRAGONDANCE"
 
 [[raw_level_up_moves]]
 at_level = 40
@@ -83,7 +87,7 @@ name = "SUPERFANG"
 
 [[raw_level_up_moves]]
 at_level = 48
-name = "AIRSLASH"
+name = "HEATWAVE"
 
 [[raw_level_up_moves]]
 at_level = 58
@@ -93,6 +97,8 @@ name = "HURRICANE"
 into_name = "NOIVERN"
 condition = "Level"
 parameter = "48"
+
+
 
 [base_stats]
 hp = 40

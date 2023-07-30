@@ -171,7 +171,7 @@ class PokemonForms:
 
             with buffer.indented():
                 for idx, form_name in self.form_mapping.items():
-                    buffer.write_line(f"{idx} => \"{form_name}\",")
+                    buffer.write_line(f'{idx} => "{form_name}",')
 
             buffer.write_line("},")
 

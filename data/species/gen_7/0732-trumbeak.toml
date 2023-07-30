@@ -82,6 +82,10 @@ at_level = 32
 name = "DRILLPECK"
 
 [[raw_level_up_moves]]
+at_level = 35
+name = "ROCKBLAST"
+
+[[raw_level_up_moves]]
 at_level = 37
 name = "BULLETSEED"
 
@@ -93,10 +97,16 @@ name = "FEATHERDANCE"
 at_level = 45
 name = "HYPERVOICE"
 
+[[raw_level_up_moves]]
+at_level = 50
+name = "BRAVEBIRD"
+
 [[evolutions]]
 into_name = "TOUCANNON"
 condition = "Level"
 parameter = "28"
+
+
 
 [base_stats]
 hp = 55

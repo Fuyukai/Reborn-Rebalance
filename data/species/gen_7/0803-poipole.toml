@@ -76,10 +76,16 @@ name = "TOXIC"
 at_level = 47
 name = "FELLSTINGER"
 
+[[raw_level_up_moves]]
+at_level = 57
+name = "DRAGONPULSE"
+
 [[evolutions]]
 into_name = "NAGANADEL"
 condition = "HasMove"
 parameter = "DRAGONPULSE"
+
+
 
 [base_stats]
 hp = 67

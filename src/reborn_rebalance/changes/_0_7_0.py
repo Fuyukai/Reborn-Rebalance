@@ -54,7 +54,9 @@ def build_changes(builder: ChangelogBuilder):
     masquerain.add_type_change(PokemonType.FLYING, PokemonType.WATER)
     masquerain.add_ability_change("UNNERVE", "ADAPTABILITY")
 
-    builder.pokemon("FLYGON", "Now a psuedo-Legend like it was always meant to be.")
+    builder.pokemon(
+        "FLYGON", "Now a psuedo-Legend like it was always meant to be."
+    ).add_ability_change(None, "TINTEDLENS")
     builder.pokemon("LUVDISC", "Now evolves into Alomomola at Level 25.")
 
     staraptor = builder.pokemon(

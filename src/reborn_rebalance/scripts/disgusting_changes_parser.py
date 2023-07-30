@@ -4,6 +4,7 @@ from pathlib import Path
 
 import prettyprinter
 import tomlkit
+import unidecode
 
 from reborn_rebalance.pbs.catalog import EssentialsCatalog
 from reborn_rebalance.pbs.move import PokemonMove
@@ -48,11 +49,12 @@ def find_move_by_display(catalog: EssentialsCatalog, move_name: str) -> PokemonM
 
 def main(catalog: EssentialsCatalog):
     changes_file = Path(sys.argv[1])
-    changes_data = changes_file.read_text().splitlines()[58:]
+    # why?
+    changes_data = changes_file.read_text(encoding="utf-16").splitlines()
 
     # fuck the enum
     cached_move_mapping = {}
-    is_reading_moves = False
+    is_reading_moves = True
     files = {}
     current_file = None
     current_moves = []
@@ -69,12 +71,22 @@ def main(catalog: EssentialsCatalog):
 
         elif initial_line.startswith("="):
             if current_moves:
-                files[current_file] = current_moves
-                print(f"parsed {current_file}")
+                if (
+                    not any(current_file[1].endswith(str(it)) for it in range(1, 11))
+                    and current_file[0] >= 650
+                    or current_file[0] in (524, 525, 526)
+                ):
+                    files[current_file] = current_moves
+                    print(f"parsed {current_file}")
+
                 current_moves = []
 
-            pdx_idx, name = changes_data[idx + 1].split(" - ")
-            current_file = (int(pdx_idx), name.lower())
+            pdx_idx, name = changes_data[idx + 1].split(" ", 1)
+            pdx_idx = int(pdx_idx)
+
+            # skip extra forms
+            current_file: tuple[int, str] = (int(pdx_idx), unidecode.unidecode(name.lower()))
+
             # skip past the next line, otherwise it'll trigger this if block again
             idx += 3
         # reading off the moves now
@@ -98,19 +110,25 @@ def main(catalog: EssentialsCatalog):
             if move_name.endswith("]"):
                 move_name = move_name[:-4]
 
-            move_name = CORRECTIONS.get(move_name, move_name)
-            if move_name in cached_move_mapping:
-                internal_name = cached_move_mapping[move_name]
-            else:
-                internal_name = cached_move_mapping.setdefault(
-                    move_name, find_move_by_display(catalog, move_name)
-                )
+            # remove fancy apostrophes
+            move_name = unidecode.unidecode(move_name)
 
-            current_moves.append((level, internal_name))
+            # ech. hardcode it for now
+            if move_name != "Light of Ruin":
+                move_name = CORRECTIONS.get(move_name, move_name)
+                if move_name in cached_move_mapping:
+                    internal_name = cached_move_mapping[move_name]
+                else:
+                    internal_name = cached_move_mapping.setdefault(
+                        move_name, find_move_by_display(catalog, move_name)
+                    )
+
+                current_moves.append((level, internal_name))
             idx += 1
         else:
             # idc
             idx += 1
+
 
     # manually load species from toml
     for key, moves in files.items():
@@ -123,7 +141,7 @@ def main(catalog: EssentialsCatalog):
             number = 646
 
         # stupid fucking files that I edited manually
-        if number < 52 or number in range(397, 399):
+        if number not in (524, 525, 526) and number < 650:
             print("skipping", number)
             continue
 

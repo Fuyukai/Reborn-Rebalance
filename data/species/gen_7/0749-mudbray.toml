@@ -81,10 +81,16 @@ name = "MEGAKICK"
 at_level = 45
 name = "SUPERPOWER"
 
+[[raw_level_up_moves]]
+at_level = 50
+name = "CLOSECOMBAT"
+
 [[evolutions]]
 into_name = "MUDSDALE"
 condition = "Level"
 parameter = "30"
+
+
 
 [base_stats]
 hp = 70

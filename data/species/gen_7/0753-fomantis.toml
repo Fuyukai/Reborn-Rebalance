@@ -68,10 +68,20 @@ name = "SOLARBEAM"
 at_level = 46
 name = "SUNNYDAY"
 
+[[raw_level_up_moves]]
+at_level = 50
+name = "LEAFSTORM"
+
+[[raw_level_up_moves]]
+at_level = 54
+name = "WEATHERBALL"
+
 [[evolutions]]
 into_name = "LURANTIS"
 condition = "LevelDay"
 parameter = "34"
+
+
 
 [base_stats]
 hp = 40

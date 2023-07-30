@@ -366,25 +366,34 @@ class EssentialsCatalog:
             for _, _, attrs in self.all_forms_for(species):
                 for tm in species.raw_tms:
                     if tm not in self.tm_name_mapping:
-                        errors.append(ValueError(f"no such TM: {tm} / when validating {attrs.internal_name}"))
+                        errors.append(
+                            ValueError(f"no such TM: {tm} / when validating {attrs.internal_name}")
+                        )
 
                 for move in species.raw_level_up_moves:
                     if move.name not in self.move_mapping:
-                        errors.append(ValueError(
-                            f"no such move: {move.name} / when validating {attrs.internal_name}"
-                        ))
+                        errors.append(
+                            ValueError(
+                                f"no such move: {move.name} / when validating {attrs.internal_name}"
+                            )
+                        )
 
                 for ability in species.raw_abilities:
                     if ability not in self.ability_name_mapping:
-                        errors.append(ValueError(
-                            f"no such ability: {ability} / when validating {attrs.internal_name}"
-                        ))
+                        errors.append(
+                            ValueError(
+                                f"no such ability: {ability} / when validating"
+                                f" {attrs.internal_name}"
+                            )
+                        )
 
             if errors:
                 raise ExceptionGroup("Validation error", *errors)
 
     # == Helper methods == #
-    def get_attribs_for_form(self, species_name: str | PokemonSpecies, form_idx: int) -> FormAttributes:
+    def get_attribs_for_form(
+        self, species_name: str | PokemonSpecies, form_idx: int
+    ) -> FormAttributes:
         """
         Gets the attributes for the specified form idx of the provided Pokémon species.
         """
@@ -403,7 +412,9 @@ class EssentialsCatalog:
         form_name = forms.form_mapping[form_idx]
         return forms.forms[form_name].combined_attributes(root_species)
 
-    def all_forms_for(self, species_name: str | PokemonSpecies) -> list[tuple[int, str, FormAttributes]]:
+    def all_forms_for(
+        self, species_name: str | PokemonSpecies
+    ) -> list[tuple[int, str, FormAttributes]]:
         """
         Gets all of the forms for the provided species.
         """

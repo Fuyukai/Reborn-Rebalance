@@ -32,10 +32,20 @@ name = "STRUGGLEBUG"
 at_level = 1
 name = "SANDATTACK"
 
+[[raw_level_up_moves]]
+at_level = 15
+name = "AQUAJET"
+
+[[raw_level_up_moves]]
+at_level = 20
+name = "SPIKES"
+
 [[evolutions]]
 into_name = "GOLISOPOD"
 condition = "Level"
 parameter = "30"
+
+
 
 [base_stats]
 hp = 25
