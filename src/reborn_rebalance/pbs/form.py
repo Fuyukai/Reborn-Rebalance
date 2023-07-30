@@ -1,4 +1,3 @@
-import textwrap
 from pathlib import Path
 
 import attr
@@ -19,16 +18,16 @@ from reborn_rebalance.util import RubyBuffer
 
 HEADER = """
 FormCopy = [
-	[PBSpecies::FLABEBE,PBSpecies::FLOETTE],
-	[PBSpecies::FLABEBE,PBSpecies::FLORGES],
-	[PBSpecies::SHELLOS,PBSpecies::GASTRODON],
-	[PBSpecies::DEERLING,PBSpecies::SAWSBUCK]
+    [PBSpecies::FLABEBE,PBSpecies::FLOETTE],
+    [PBSpecies::FLABEBE,PBSpecies::FLORGES],
+    [PBSpecies::SHELLOS,PBSpecies::GASTRODON],
+    [PBSpecies::DEERLING,PBSpecies::SAWSBUCK]
 ]
 """
 
 FOOTER = """
 for form in FormCopy
-	PokemonForms[form[1]] = PokemonForms[form[0]].clone
+    PokemonForms[form[1]] = PokemonForms[form[0]].clone
 end
 """
 
@@ -138,7 +137,7 @@ class PokemonForms:
     internal_name: str = attr.ib()
 
     #: The mapping of form name -> form ID.
-    form_mapping: dict[int, str] = attr.ib()
+    form_mapping: dict[int, str] = attr.ib(factory=dict)
 
     #: The custom initialiser code to use for this species.
     #: Used to create different forms during encounters, for example.

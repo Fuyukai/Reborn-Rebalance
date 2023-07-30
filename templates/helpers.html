@@ -78,6 +78,10 @@ Evolves when levelled up holding a(n) <b>{{ item_name }}</b> during the <i>day</
 {% elif type == "nightholditem" %}
 {% set item_name = catalog.item_loc_name(evo.parameter) %}
 Evolves when levelled up holding a(n) <b>{{ item_name }}</b> during the <i>night</i>.
+{% elif type == "location" %}
+{% set loc_id = evo.parameter|int %}
+{% set loc_name = catalog.map_names[loc_id] %}
+Evolves at location <b>{{ loc_name }}</b>
 {% else %}
 Unknown evolution <code>{{ type }}</code> (param: <code>{{ evo.parameter }}</code>)
 {% endif %}
