@@ -76,6 +76,19 @@ class FormAttributes:
 
         return move.type == self.primary_type or move.type == self.secondary_type
 
+    def renamed(self, name: str) -> FormAttributes:
+        return FormAttributes(
+            internal_name=self.internal_name,
+            name=self.name,
+            form_name=name,
+            base_stats=self.base_stats,
+            primary_type=self.primary_type,
+            secondary_type=self.secondary_type,
+            raw_abilities=self.raw_abilities,
+            raw_level_up_moves=self.raw_level_up_moves,
+            pokedex_entry=self.pokedex_entry,
+        )
+
 
 @attr.s(slots=True, frozen=True)
 class StatWrapper:

@@ -117,9 +117,12 @@
         {% endif %}
 
         {% for idx, form in forms.form_mapping.items() %}
+        {# bleghhhh #}
+        {% if idx != 0 %}
         <li data-form-idx="{{ idx }}" data-form-name="{{ form }}">
             <a class="form-tab" onclick="selectTab(this);">{{ form }}</a>
         </li>
+        {% endif %}
         {% endfor %}
     </ul>
 </div>

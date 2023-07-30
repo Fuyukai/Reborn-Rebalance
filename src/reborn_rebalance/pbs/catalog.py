@@ -238,6 +238,23 @@ class EssentialsCatalog:
         )
 
     @classmethod
+    def load_only_species(cls, path: Path):
+        """
+        Loads only species and forms data. Does *no* validation.
+        """
+
+        species_dir = path / "species"
+        forms_path = path / "forms"
+
+        species = load_all_species_from_toml(species_dir)
+        forms = load_all_forms(forms_path)
+
+        return cls(
+            species=species, forms=forms, moves=[], items=[], map_names=[], encounters=[],
+            abilities=[], tms=[]
+        )
+
+    @classmethod
     def load_from_toml(
         cls,
         path: Path,
@@ -265,13 +282,14 @@ class EssentialsCatalog:
         abilities = load_abilities_from_toml(ability_path)
 
         species_dir = path / "species"
+        forms_path = path / "forms"
+
         if skip_species:
             species = []
+            forms = {}
         else:
             species = load_all_species_from_toml(species_dir)
-
-        forms_path = path / "forms"
-        forms = load_all_forms(forms_path)
+            forms = load_all_forms(forms_path)
 
         encounters_path = path / "encounters"
         encounters = load_encounters_from_toml(encounters_path)
@@ -389,7 +407,16 @@ class EssentialsCatalog:
                         )
 
             if errors:
-                raise ExceptionGroup("Validation error", *errors)
+                raise ExceptionGroup(f"Validation error for {species.name}", errors)
+
+        for form in self.forms.keys():
+            errors = []
+
+            if form not in self.species_mapping:
+                errors.append(ValueError(f"Form for non-existent Pokémon '{form}'"))
+
+            if errors:
+                raise ExceptionGroup(f"Validation error for forms", errors)
 
     # == Helper methods == #
     def get_attribs_for_form(
@@ -437,8 +464,13 @@ class EssentialsCatalog:
             items.append((0, "Normal", root_species.default_attributes))
 
         for idx, name in forms.form_mapping.items():
-            form = forms.forms[name]
-            items.append((idx, name, form.combined_attributes(root_species)))
+            try:
+                form = forms.forms[name]
+            except KeyError:
+                # visual-only form.
+                items.append((idx, name, root_species.default_attributes.renamed(name)))
+            else:
+                items.append((idx, name, form.combined_attributes(root_species)))
 
         return items
 

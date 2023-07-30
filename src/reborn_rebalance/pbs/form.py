@@ -80,7 +80,7 @@ class SinglePokemonForm:
             secondary_type=self.secondary_type or species.secondary_type,
             base_stats=self.base_stats or species.base_stats,
             pokedex_entry=self.pokedex_entry or species.pokedex_entry,
-            raw_abilities=self.raw_abilities or species.raw_abilities,
+            raw_abilities=self.raw_abilities or species.full_abilities,
             raw_level_up_moves=self.raw_level_up_moves or species.raw_level_up_moves,
             internal_name=species.internal_name,
         )
@@ -163,16 +163,18 @@ class PokemonForms:
         buffer.write_line(f"PBSpecies::{self.internal_name} => {{")
 
         with buffer.indented():
-            buffer.write_line(":FormName => {")
+            # e.g. unown has multiple different forms, but only one form name.
+            if self.form_mapping:
+                buffer.write_line(":FormName => {")
 
-            # some forms have a 0 => "Normal"...
-            # not sure why.
+                # some forms have a 0 => "Normal"...
+                # not sure why.
 
-            with buffer.indented():
-                for idx, form_name in self.form_mapping.items():
-                    buffer.write_line(f'{idx} => "{form_name}",')
+                with buffer.indented():
+                    for idx, form_name in self.form_mapping.items():
+                        buffer.write_line(f'{idx} => "{form_name}",')
 
-            buffer.write_line("},")
+                buffer.write_line("},")
 
             if self.custom_init:
                 with buffer.indented():

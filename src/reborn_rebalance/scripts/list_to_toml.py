@@ -60,7 +60,11 @@ def parse_buffel_salt(catalog: EssentialsCatalog, form: str, data: str):
         move = catalog.move_by_display_name(move)
         moves.append(RawLevelUpMove(at_level=int(level), name=move.internal_name))
 
-    data = {"forms": {form: {"raw_level_up_moves": cattrs.unstructure(moves)}}}
+    if form:
+        data = {"forms": {form: {"raw_level_up_moves": cattrs.unstructure(moves)}}}
+    else:
+        data = {"raw_level_up_moves": cattrs.unstructure(moves)}
+
     return tomlkit.dumps(data)
 
 
@@ -69,32 +73,28 @@ if __name__ == "__main__":
     print(
         parse_buffel_salt(
             loaded,
-            "Female",
+            "Trash Cloak",
             """
-    1 - Stored Power
-1 - Me First
-1 - Magical Leaf
-1 - Scratch
-1 - Leer
-1 - Covet
-1 - Confusion
-5 - Covet
-9 - Confusion
-13 - Light Screen
-17 - Psybeam
-19 - Fake Out
-22 - Disarming Voice
-25 - Psyshock
-28 - Charge Beam
-31 - Shadow Ball
-33 - Assist
-35 - Extrasensory
-40 - Psychic
-43 - Role Play
-45 - Signal Beam
-48 - Sucker Punch
-50 - Future Sight
-53 - Stored Power
-56 - Nasty Plot""",
+1 - Rapid Spin
+1 - Tackle
+1 - Hidden Power
+1 - String Shot
+1 - Protect
+1 - Bug Bite
+1 - Electroweb
+1 - Struggle Bug
+25 - Mirror Shot
+27 - Sucker Punch
+29 - Ally Switch
+32 - Stealth Rock
+35 - Growth
+38 - Iron Head
+41 - Bug Buzz
+44 - Psychic
+48 - Captivate
+52 - Endeavor
+56 - Quiver Dance
+60 - Metal Burst
+""",
         )
     )

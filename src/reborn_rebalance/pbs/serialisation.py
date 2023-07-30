@@ -50,7 +50,7 @@ def generation_for(dex_number: int) -> int:
 
 
 def create_cattrs_converter() -> cattrs.Converter:
-    converter = cattrs.Converter()
+    converter = cattrs.Converter(forbid_extra_keys=True)
 
     # dump enums via name rather than by value
     for enum in (
@@ -187,6 +187,7 @@ def load_all_forms(path: Path) -> dict[str, PokemonForms]:
     all_forms = {}
 
     for subfile in path.iterdir():
+        print(f"LOAD: {subfile.absolute()}")
         with subfile.open(mode="r", encoding="utf-8") as f:
             forms_for_mon = tomlkit.load(f)
 
