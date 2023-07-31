@@ -191,12 +191,24 @@ def load_all_forms(path: Path) -> dict[str, PokemonForms]:
 
     all_forms = {}
 
-    for subfile in path.iterdir():
+    for subfile in path.glob("**/*"):
+        if subfile.is_dir():
+            continue
+
         print(f"LOAD: {subfile.absolute()}")
         with subfile.open(mode="r", encoding="utf-8") as f:
             forms_for_mon = tomlkit.load(f)
 
+        if "internal_name" not in forms_for_mon:
+            name = subfile.stem
+            forms_for_mon["internal_name"] = name.upper()
+
         forms_for_mon = CONVERTER.structure(forms_for_mon, PokemonForms)
+
+        # backfill in form name. why did I type this into 100 files manually? im gonna kill myself.
+        for name, form in forms_for_mon.forms.items():
+            form.form_name = name
+
         all_forms[forms_for_mon.internal_name] = forms_for_mon
 
     return all_forms

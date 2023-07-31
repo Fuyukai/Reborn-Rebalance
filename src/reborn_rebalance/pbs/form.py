@@ -32,7 +32,7 @@ end
 """
 
 
-@attr.s(frozen=True, slots=True, kw_only=True)
+@attr.s(slots=True, kw_only=True)
 class SinglePokemonForm:
     """
     A single individual form for a Pokémon. This contains a set of *overrides* to the base
@@ -49,7 +49,7 @@ class SinglePokemonForm:
         converter.register_unstructure_hook(cls, unst_hook)
 
     #: The name for this form, e.g. 'Hisui'.
-    form_name: str = attr.ib()
+    form_name: str = attr.ib(default=None)
 
     #: The primary type override for this form.
     primary_type: PokemonType | None = attr.ib(default=None)
@@ -67,6 +67,10 @@ class SinglePokemonForm:
 
     #: The moveset overrides for this form.
     raw_level_up_moves: list[RawLevelUpMove] = attr.ib(factory=list)
+
+    # ofc evos are done in the stupidest possible way too
+    #: Raw evolution data.
+    evo_data: list[tuple[int, int, int]] = attr.ib(factory=list)
 
     def combined_attributes(self, species: PokemonSpecies) -> FormAttributes:
         """
@@ -117,6 +121,15 @@ class SinglePokemonForm:
 
             buffer.write_line("],")
 
+        if self.evo_data:
+            buffer.write_line(":GetEvo => [")
+
+            with buffer.indented():
+                for evo in self.evo_data:
+                    buffer.write_line(f"[{evo[0]},{evo[1]},{evo[2]}]")
+
+            buffer.write_line("],")
+
 
 @attr.s(frozen=True, slots=True, kw_only=True)
 class PokemonForms:
@@ -151,6 +164,12 @@ class PokemonForms:
     #: May be None if this species has no mega evolutions.
     mega_form: int | None = attr.ib(default=None)
 
+    #: The... ultra (?) form for this species.
+    ultra_form: int | None = attr.ib(default=None)
+
+    #: The PULSE form for this species.
+    pulse_form: int | None = attr.ib(default=None)
+
     #: The mapping of form name -> form data for this species.
     #: Needs to match the ``form_names`` properties in the species definition.
     #: Please note that form IDs and the indexes in here are unrelated to each other.
@@ -176,15 +195,24 @@ class PokemonForms:
 
                 buffer.write_line("},")
 
-            if self.custom_init:
-                with buffer.indented():
-                    buffer.write_line(":OnCreation => proc{")
+            if self.mega_form is not None:
+                buffer.write_line(f":MegaForm => {self.mega_form},")
 
+            if self.ultra_form is not None:
+                buffer.write_line(f":UltraForm => {self.ultra_form},")
+
+            if self.pulse_form is not None:
+                buffer.write_line(f":PulseForm => {self.pulse_form},")
+
+            if self.custom_init:
+                buffer.write_line(":OnCreation => proc{")
+
+                with buffer.indented():
                     lines = self.custom_init.splitlines()
                     for line in lines:
                         buffer.write_line(line)
 
-                    buffer.write_line("},")
+                buffer.write_line("},")
 
             for form_name, form in self.forms.items():
                 buffer.write_line(f'"{form.form_name}" => {{')
