@@ -1,0 +1,17 @@
+form_mapping = { 1 = "PULSE A", 2 = "PULSE B", 3 = "PULSE C" }
+pulse_form = 1
+
+[forms."PULSE A"]
+base_stats = { hp = 100, atk = 70, def_ = 200, spa = 70, spd = 160, spe = 10 }
+raw_abilities = ["STAMINA"]
+secondary_type = "ROCK"
+
+[forms."PULSE B"]
+base_stats = { hp = 100, atk = 70, def_ = 200, spa = 70, spd = 160, spe = 10 }
+raw_abilities = ["ARENATRAP"]  # wow, that's evil!
+secondary_type = "GROUND"
+
+[forms."PULSE C"]
+base_stats = { hp = 100, atk = 70, def_ = 200, spa = 70, spd = 160, spe = 10 }
+raw_abilities = ["FILTER"]
+secondary_type = "POISON"

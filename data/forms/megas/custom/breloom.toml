@@ -1,0 +1,10 @@
+form_mapping = { 1 = "Bot", 2 = "Mega" }
+mega_form = 2
+
+[forms.Bot]
+base_stats = { hp = 210, atk = 160, def_ = 140, spa = 100, spd = 60, spe = 100 }
+primary_type = "STEEL"
+
+[forms.Mega]
+base_stats = { hp = 80, atk = 145, def_ = 80, spa = 70, spd = 80, spe = 105 }
+raw_abilities = ["NOGUARD"]

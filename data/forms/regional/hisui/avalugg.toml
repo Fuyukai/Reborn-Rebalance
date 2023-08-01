@@ -1,0 +1,69 @@
+form_mapping = { 1 = "PULSE", 2 = "Hisui" }
+pulse_form = 1
+custom_init = """
+chancemaps=[749,750,870,894,914]
+# Map IDs for galarian form
+if $game_map && chancemaps.include?($game_map.map_id)
+    randomnum = rand(2)
+    if randomnum == 1
+        next 2
+    elsif randomnum == 0
+        next 0
+    end
+else
+    next 0
+end
+"""
+
+[forms.PULSE]
+base_stats = { hp = 105, atk = 160, def_ = 255, spa = 97, spd = 255, spe = 10 }
+raw_abilities = ["SOLIDROCK"]
+
+[forms.Hisui]
+base_stats = { hp = 95, atk = 127, def_ = 184, spa = 34, spd = 36, spe = 38 }
+secondary_type = "ROCK"
+raw_abilities = ["STRONGJAW", "ICEBODY", "STURDY"]
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 0
+name = "ROCKSLIDE"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 1
+name = "TACKLE"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 5
+name = "POWDERSNOW"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 9
+name = "ICESHARD"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 15
+name = "BITE"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 21
+name = "IRONDEFENSE"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 29
+name = "CRUNCH"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 29
+name = "EARTHPOWER"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 37
+name = "BLIZZARD"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 37
+name = "MOUNTAINGALE"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 47
+name = "DOUBLEEDGE"

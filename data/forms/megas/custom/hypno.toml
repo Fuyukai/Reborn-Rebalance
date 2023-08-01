@@ -1,0 +1,13 @@
+form_mapping = { 1 = "PULSE", 2 = "Mega" }
+pulse_form = 1
+mega_form = 2
+
+[forms.PULSE]
+base_stats = { hp = 120, atk = 65, def_ = 190, spa = 125, spd = 225, spe = 80 }
+raw_abilities = ["NOGUARD"]
+secondary_type = "DARK"
+
+[forms.Mega]
+base_stats = { hp = 95, atk = 73, def_ = 70, spa = 123, spd = 125, spe = 125 }
+secondary_type = "GHOST"
+raw_abilities = ["NEUROFORCE"]

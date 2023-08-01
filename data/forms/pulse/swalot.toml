@@ -1,0 +1,7 @@
+form_mapping = { 1 = "PULSE" }
+pulse_form = 1
+
+[forms.PULSE]
+base_stats = { hp = 100, atk = 73, def_ = 210, spa = 110, spd = 210, spe = 40 }
+raw_abilities = ["WATERABSORB"]
+secondary_type = "WATER"

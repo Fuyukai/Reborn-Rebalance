@@ -1,0 +1,7 @@
+form_mapping = { 1 = "PULSE", 2 = "PULSE" }
+pulse_form = 1
+
+[forms.PULSE]
+base_stats = { hp = 25, atk = 20, def_ = 115, spa = 195, spd = 155, spe = 140 }
+raw_abilities = ["MAGICGUARD"]
+secondary_type = "STEEL"

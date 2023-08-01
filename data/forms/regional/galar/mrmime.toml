@@ -1,0 +1,134 @@
+form_mapping = { 0 = "Kanto", 1 = "PULSE", 2 = "Galar" }
+pulse_form = 1
+custom_init = """
+chancemaps=[526,866,894]
+# Map IDs for galarian form
+if $game_map && chancemaps.include?($game_map.map_id)
+    randomnum = rand(2)
+    if randomnum == 1
+        next 2
+    elsif randomnum == 0
+        next 0
+    end
+else
+    next 0
+end
+"""
+
+[forms.PULSE]
+base_stats = { hp = 252, atk = 1, def_ = 190, spa = 1, spd = 190, spe = 252 }
+raw_abilities = ["WONDERGUARD"]
+primary_type = "DARK"
+secondary_type = "GHOST"
+
+[forms.Galar]
+base_stats = { hp = 50, atk = 65, def_ = 65, spa = 100, spd = 90, spe = 90 }
+primary_type = "ICE"
+secondary_type = "FAIRY"
+raw_abilities = ["VITALSPIRIT", "SCREENCLEANER", "ICEBODY"]
+evo_data = [[866, 4, 42]]
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "BATONPASS"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "COPYCAT"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "DAZZLINGGLEAM"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "ENCORE"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "ICESHARD"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "LIGHTSCREEN"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "MIMIC"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "MISTYTERRAIN"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "POUND"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "PROTECT"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "RAPIDSPIN"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "RECYCLE"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "REFLECT"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "ROLEPLAY"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "SAFEGUARD"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 12
+name = "CONFUSION"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 16
+name = "ALLYSWITCH"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 20
+name = "ICYWIND"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 24
+name = "DOUBLEKICK"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 28
+name = "PSYBEAM"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 32
+name = "HYPNOSIS"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 36
+name = "MIRRORCOAT"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 40
+name = "SUCKERPUNCH"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 44
+name = "FREEZEDRY"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 48
+name = "PSYCHIC"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 52
+name = "TEETERDANCE"
+
