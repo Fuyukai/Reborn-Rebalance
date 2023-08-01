@@ -3,7 +3,7 @@ from pathlib import Path
 
 from PIL import Image
 
-from reborn_rebalance.pbs.serialisation import load_all_species_from_yaml
+from reborn_rebalance.pbs.serialisation import load_all_species_from_toml
 
 BLACKLISTED = [
     "eeveon",
@@ -26,7 +26,7 @@ def gen_all_sprites():
     output_path = Path("./sprites").absolute()
     output_path.mkdir(parents=True, exist_ok=True)
 
-    for idx, species in enumerate(load_all_species_from_yaml(data_dir)):
+    for idx, species in enumerate(load_all_species_from_toml(data_dir)):
         idx += 1
         input_mini_sprite = graphics_dir / "Icons" / f"icon{idx:03d}.png"
 
