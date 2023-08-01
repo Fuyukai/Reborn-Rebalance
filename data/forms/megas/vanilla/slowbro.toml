@@ -1,0 +1,89 @@
+form_mapping = { 1 = "Mega", 2 = "Galar" }
+custom_mega_mapping = { "SLOWBRONITE" = 1 }
+
+[forms.Mega]
+base_stats = { hp = 95, atk = 75, def_ = 180, spa = 130, spd = 80, spe = 30 }
+
+[forms.Galar]
+secondary_type = "POISON"
+raw_abilities = ["QUICKDRAW", "OWNTEMPO", "REGENERATOR"]
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 0
+name = "SHELLSIDEARM"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "SHELLSIDEARM"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "WITHDRAW"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "TACKLE"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "CURSE"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "GROWL"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "ACID"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 9
+name = "YAWN"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 12
+name = "CONFUSION"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 15
+name = "DISABLE"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 18
+name = "WATERPULSE"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 21
+name = "HEADBUTT"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 24
+name = "ZENHEADBUTT"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 27
+name = "AMNESIA"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 30
+name = "SURF"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 33
+name = "SLACKOFF"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 36
+name = "PSYCHIC"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 39
+name = "PSYCHUP"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 42
+name = "RAINDANCE"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 45
+name = "HEALPULSE"

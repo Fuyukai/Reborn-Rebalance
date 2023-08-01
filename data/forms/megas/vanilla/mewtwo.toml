@@ -1,0 +1,11 @@
+form_mapping = { 1 = "Mega X", 2 = "Mega Y" }
+mega_form = 1
+
+[forms."Mega X"]
+base_stats = { hp = 106, atk = 190, def_ = 100, spa = 154, spd = 100, spe = 130 }
+raw_abilities = ["STEADFAST"]
+secondary_type = "FIGHTING"
+
+[forms."Mega Y"]
+base_stats = { hp = 106, atk = 150, def_ = 70, spa = 194, spd = 120, spe = 140 }
+raw_abilities = ["INSOMNIA"]

@@ -1,0 +1,12 @@
+form_mapping = { 1 = "Mega", 2 = "Pulse" }
+mega_form = 1
+pulse_form = 2
+
+[forms.Mega]
+base_stats = { hp = 70, atk = 120, def_ = 100, spa = 145, spd = 105, spe = 20 }
+
+[forms.Pulse]
+# le mold breaker has arrived
+base_stats = { hp = 1, atk = 10, def_ = 10, spa = 170, spd = 10, spe = 10 }
+raw_abilities = ["STURDY"]
+secondary_type = "GHOST"

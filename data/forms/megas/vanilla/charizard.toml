@@ -1,0 +1,11 @@
+form_mapping = { 1 = "Mega X", 2 = "Mega Y" }
+has_dynamax_form = true
+custom_mega_mapping = { "CHARIZARDITEX" = 1, "CHARIZARDITEY" = 2 }
+
+[forms."Mega X"]
+base_stats = { hp = 78, atk = 130, def_ = 111, spa = 130, spd = 85, spe = 100 }
+raw_abilities = ["TOUGHCLAWS"]
+
+[forms."Mega Y"]
+base_stats = { hp = 78, atk = 104, def_ = 78, spa = 159, spd = 115, spe = 100 }
+raw_abilities = ["DROUGHT"]

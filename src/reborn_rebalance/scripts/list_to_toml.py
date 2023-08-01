@@ -78,10 +78,11 @@ if __name__ == "__main__":
             loaded,
             "Galar",
             """
-[[1,PBMoves::MUDSLAP],[1,PBMoves::TACKLE],[1,PBMoves::WATERGUN],[1,PBMoves::METALCLAW],
-									[5,PBMoves::ENDURE],[10,PBMoves::MUDSHOT],[15,PBMoves::REVENGE],[20,PBMoves::METALSOUND],[25,PBMoves::SUCKERPUNCH],
-									[30,PBMoves::IRONDEFENSE],[35,PBMoves::BOUNCE],[40,PBMoves::MUDDYWATER],[45,PBMoves::SNAPTRAP],[50,PBMoves::FLAIL],
-									[55,PBMoves::FISSURE]]
+[[0,PBMoves::SHELLSIDEARM],[1,PBMoves::SHELLSIDEARM],[1,PBMoves::WITHDRAW],
+      [1,PBMoves::TACKLE],[1,PBMoves::CURSE],[1,PBMoves::GROWL],[1,PBMoves::ACID],[9,PBMoves::YAWN],[12,PBMoves::CONFUSION],
+      [15,PBMoves::DISABLE],[18,PBMoves::WATERPULSE],[21,PBMoves::HEADBUTT],[24,PBMoves::ZENHEADBUTT],
+      [27,PBMoves::AMNESIA],[30,PBMoves::SURF],[33,PBMoves::SLACKOFF],[36,PBMoves::PSYCHIC],[39,PBMoves::PSYCHUP],
+      [42,PBMoves::RAINDANCE],[45,PBMoves::HEALPULSE]]
         """,
         )
     )
