@@ -32,8 +32,8 @@ Pre-built versions are available from the Releases tab of the repository.
 2. Download the `All-Gen`_ patch, and extract it over Pokémon Reborn. (The pre-patched version will
    work fine).
 
-  * This was built on top of version 3.5.0a, but any version should theoretically work. This mod
-    mostly contains new game data and new events, but minimal code changes.
+   This was built on top of version 3.5.0a, but any version should theoretically work. This mod
+   mostly contains new game data and new events, but minimal code changes.
 
 3. Add any other mods you might want on top, provided that they are compatible with All-Gen Patch.
 4. Download a pre-built release, and extract it over your patched Pokémon Reborn.
