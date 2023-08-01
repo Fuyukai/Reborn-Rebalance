@@ -164,16 +164,38 @@ class PokemonForms:
     #: May be None if this species has no mega evolutions.
     mega_form: int | None = attr.ib(default=None)
 
+    #: A custom mapping of {mega stone => mega form}. Overrides ``mega_form``.
+    custom_mega_mapping: dict[str, int] = attr.ib(factory=dict)
+
     #: The... ultra (?) form for this species.
     ultra_form: int | None = attr.ib(default=None)
 
     #: The PULSE form for this species.
     pulse_form: int | None = attr.ib(default=None)
 
+    #: If true, this has a dynamax form. Used strictly for sprite generation.
+    has_dynamax_form: bool = attr.ib(default=False)
+
     #: The mapping of form name -> form data for this species.
     #: Needs to match the ``form_names`` properties in the species definition.
     #: Please note that form IDs and the indexes in here are unrelated to each other.
     forms: dict[str, SinglePokemonForm] = attr.ib(factory=dict)
+
+    def _validate(self):
+        errors = []
+
+        for form_name in self.forms.keys():
+            if form_name not in self.form_mapping.values():
+                errors.append(ValueError(f"extraneous form: {form_name}"))
+
+        if self.mega_form is not None and self.mega_form not in self.form_mapping:
+            errors.append(ValueError(f"no such mega form: {self.mega_form}"))
+
+        if self.pulse_form is not None and self.pulse_form not in self.form_mapping:
+            errors.append(ValueError(f"no such pulse form: {self.pulse_form}"))
+
+        if errors:
+            return ExceptionGroup(f"Error validating {self.internal_name}", errors)
 
     def generate_ruby_code(self, buffer: RubyBuffer):
         """
@@ -195,7 +217,16 @@ class PokemonForms:
 
                 buffer.write_line("},")
 
-            if self.mega_form is not None:
+            if self.custom_mega_mapping:
+                buffer.write_line(":MegaForm => {")
+
+                with buffer.indented():
+                    for name, idx in self.custom_mega_mapping.items():
+                        buffer.write_line(f"PBItems::{name} => {idx},")
+
+                buffer.write_line("},")
+
+            elif self.mega_form is not None:
                 buffer.write_line(f":MegaForm => {self.mega_form},")
 
             if self.ultra_form is not None:

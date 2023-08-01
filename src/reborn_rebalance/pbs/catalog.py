@@ -419,11 +419,14 @@ class EssentialsCatalog:
             if errors:
                 raise ExceptionGroup(f"Validation error for {species.name}", errors)
 
-        for form in self.forms.keys():
+        for form_key, form in self.forms.items():
             errors = []
 
-            if form not in self.species_mapping:
-                errors.append(ValueError(f"Form for non-existent Pokémon '{form}'"))
+            if ferr := form._validate():
+                errors.append(ferr)
+
+            if form_key not in self.species_mapping:
+                errors.append(ValueError(f"Form for non-existent Pokémon '{form_key}'"))
 
             if errors:
                 raise ExceptionGroup(f"Validation error for forms", errors)
