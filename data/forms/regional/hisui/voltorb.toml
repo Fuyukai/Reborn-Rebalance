@@ -1,0 +1,53 @@
+internal_name = "VOLTORB"
+form_mapping = { 0 = "Kanto", 1 = "Hisui" }
+custom_init = """
+chancemaps=[198,281]
+# Map IDs for galarian form
+if $game_map && chancemaps.include?($game_map.map_id)
+    randomnum = rand(2)
+    if randomnum == 1
+        next 1
+    elsif randomnum == 0
+        next 0
+    end
+else
+    next 0
+end
+"""
+
+[forms.Hisui]
+form_name = "Hisui"
+secondary_type = "GRASS"
+evo_data = [[101, 7, 15]]
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 1
+name = "THUNDERSHOCK"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 5
+name = "TACKLE"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 9
+name = "THUNDERWAVE"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 15
+name = "SPARK"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 21
+name = "ENERGYBALL"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 29
+name = "THUNDERBOLT"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 37
+name = "THUNDER"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 47
+name = "SELFDESTRUCT"

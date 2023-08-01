@@ -1,0 +1,68 @@
+form_mapping = { 1 = "Galar" }
+custom_init = "rand(2)"
+
+[forms.Galar]
+pokedex_entry = "Living in mud with a high iron content has given it a strong steel body."
+secondary_type = "STEEL"
+base_stats = { hp = 109, atk = 81, def_ = 108, spa = 66, spd = 84, spe = 32 }
+raw_abilities = ["MIMICRY", "COMPETITIVE"]
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "MUDSLAP"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "TACKLE"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "WATERGUN"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "METALCLAW"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 5
+name = "ENDURE"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 10
+name = "MUDSHOT"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 15
+name = "REVENGE"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 20
+name = "METALSOUND"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 25
+name = "SUCKERPUNCH"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 30
+name = "IRONDEFENSE"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 35
+name = "BOUNCE"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 40
+name = "MUDDYWATER"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 45
+name = "SNAPTRAP"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 50
+name = "FLAIL"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 55
+name = "FISSURE"

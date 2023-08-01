@@ -6,7 +6,7 @@ growth_rate = "Medium"
 exp_yield = 148
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["ANTICIPATION", "OVERCOAT"]
+raw_abilities = ["SHIELDDUST", "OVERCOAT"]
 raw_egg_moves = []
 raw_tms = ["TOXIC", "FLASH", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "EARTHQUAKE", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "SANDSTORM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ENERGYBALL", "GIGAIMPACT", "GYROBALL", "STRUGGLEBUG", "PSYCHUP", "BULLDOZE", "INFESTATION", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "CONFIDE", "DIG", "BULLETSEED", "ROCKBLAST", "LEAFSTORM", "ENDURE", "FUTURESIGHT", "COSMICPOWER", "BUGBUZZ"]
 raw_tutor_moves = ["ALLYSWITCH", "BUGBITE", "EARTHPOWER", "ELECTROWEB", "ENDEAVOR", "GIGADRAIN", "GUNKSHOT", "IRONDEFENSE", "IRONHEAD", "MAGNETRISE", "MIMIC", "MUDSLAP", "ROLLOUT", "SEEDBOMB", "SIGNALBEAM", "SKILLSWAP", "SNORE", "STEALTHROCK", "STRINGSHOT", "SUCKERPUNCH", "SYNTHESIS", "TELEKINESIS", "UPROAR", "WORRYSEED"]
@@ -58,88 +58,8 @@ at_level = 1
 name = "STRUGGLEBUG"
 
 [[raw_level_up_moves]]
-at_level = 1
-name = "RAPIDSPIN"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HIDDENPOWER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "STRINGSHOT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "PROTECT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BUGBITE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ELECTROWEB"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "STRUGGLEBUG"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "RAPIDSPIN"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HIDDENPOWER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "STRINGSHOT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "PROTECT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BUGBITE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ELECTROWEB"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "STRUGGLEBUG"
-
-[[raw_level_up_moves]]
 at_level = 25
 name = "LEAFTORNADO"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "MUDBOMB"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "MIRRORSHOT"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "SUCKERPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "SUCKERPUNCH"
 
 [[raw_level_up_moves]]
 at_level = 27
@@ -150,32 +70,8 @@ at_level = 29
 name = "RAGEPOWDER"
 
 [[raw_level_up_moves]]
-at_level = 29
-name = "ROCKBLAST"
-
-[[raw_level_up_moves]]
-at_level = 29
-name = "ALLYSWITCH"
-
-[[raw_level_up_moves]]
 at_level = 32
 name = "TOXICSPIKES"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "SPIKES"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "STEALTHROCK"
-
-[[raw_level_up_moves]]
-at_level = 35
-name = "GROWTH"
-
-[[raw_level_up_moves]]
-at_level = 35
-name = "GROWTH"
 
 [[raw_level_up_moves]]
 at_level = 35
@@ -186,22 +82,6 @@ at_level = 38
 name = "ENERGYBALL"
 
 [[raw_level_up_moves]]
-at_level = 38
-name = "BULLDOZE"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "IRONHEAD"
-
-[[raw_level_up_moves]]
-at_level = 41
-name = "BUGBUZZ"
-
-[[raw_level_up_moves]]
-at_level = 41
-name = "BUGBUZZ"
-
-[[raw_level_up_moves]]
 at_level = 41
 name = "BUGBUZZ"
 
@@ -210,44 +90,12 @@ at_level = 44
 name = "PSYCHIC"
 
 [[raw_level_up_moves]]
-at_level = 44
-name = "ZENHEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "PSYCHIC"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "CAPTIVATE"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "CAPTIVATE"
-
-[[raw_level_up_moves]]
 at_level = 48
 name = "CAPTIVATE"
 
 [[raw_level_up_moves]]
 at_level = 52
 name = "ENDEAVOR"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "ENDEAVOR"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "ENDEAVOR"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "QUIVERDANCE"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "QUIVERDANCE"
 
 [[raw_level_up_moves]]
 at_level = 56
@@ -257,19 +105,11 @@ name = "QUIVERDANCE"
 at_level = 60
 name = "LEAFSTORM"
 
-[[raw_level_up_moves]]
-at_level = 60
-name = "EARTHQUAKE"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "METALBURST"
-
 [base_stats]
-hp = 60
+hp = 66
 atk = 59
 def_ = 85
-spa = 79
+spa = 99
 spd = 105
 spe = 36
 

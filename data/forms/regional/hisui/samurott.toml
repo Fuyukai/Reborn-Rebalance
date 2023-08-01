@@ -1,0 +1,50 @@
+form_mapping = { 0 = "Unova", 1 = "Hisui" }
+
+[forms.Hisui]
+secondary_type = "DARK"
+raw_abilities = ["TORRENT", "SHARPNESS"]
+base_stats = { hp = 90, atk = 115, def_ = 80, spa = 100, spd = 65, spe = 85 }
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 0
+name = "CEASELESSEDGE"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 1
+name = "NIGHTSLASH"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 1
+name = "TACKLE"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 6
+name = "AQUAJET"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 11
+name = "SWORDSDANCE"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 18
+name = "WATERPULSE"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 21
+name = "CEASELESSEDGE"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 25
+name = "SLASH"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 34
+name = "AQUACUTTER"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 40
+name = "DARKPULSE"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 43
+name = "HYDROPUMP"

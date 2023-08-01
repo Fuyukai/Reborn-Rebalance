@@ -1,0 +1,71 @@
+form_mapping = { 0 = "Kanto", 1 = "Galar" }
+
+[forms.Galar]
+primary_type = "DARK"
+pokedex_entry = "This Pokémon's sinister, flame-like aura will consume the spirit of any creature it hits. Victims become burned-out shadows of themselves."
+base_stats = { hp = 90, atk = 85, def_ = 90, spa = 100, spd = 125, spe = 90 }
+raw_abilities = ["BERSERK"]
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "GUST"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "LEER"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 5
+name = "PAYBACK"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 10
+name = "SAFEGUARD"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 15
+name = "WINGATTACK"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 20
+name = "AGILITY"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 25
+name = "ANCIENTPOWER"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 30
+name = "SUCKERPUNCH"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 35
+name = "AIRSLASH"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 40
+name = "AFTERYOU"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 45
+name = "FIERYWRATH"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 50
+name = "NASTYPLOT"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 55
+name = "HURRICANE"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 60
+name = "ENDURE"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 65
+name = "MEMENTO"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 70
+name = "SKYATTACK"

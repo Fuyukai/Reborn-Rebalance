@@ -1,0 +1,121 @@
+form_mapping = { 0 = "Kanto", 1 = "Galar" }
+custom_init = """
+chancemaps=[285,286,287,290,291,696,697,700,783,788,796,798,812,813]
+# Map IDs for galarian form
+if $game_map && chancemaps.include?($game_map.map_id)
+    randomnum = rand(2)
+    if randomnum == 1
+        next 1
+    elsif randomnum == 0
+        next 0
+    end
+else
+    next 0
+end
+"""
+
+[forms.Galar]
+secondary_type = "PSYCHIC"
+raw_abilities = ["RECKLESS", "FLASHFIRE", "PASTELVEIL"]
+pokedex_entry = "Brave and prideful, this Pokémon dashes airily through the forest, its steps aided by the psychic power stored in the fur on its fetlocks."
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 0
+name = "BLAZEKICK"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "MEGAHORN"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "GROWL"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "TAILWHIP"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "TACKLE"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 4
+name = "QUICKATTACK"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 6
+name = "EMBER"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 9
+name = "DOUBLEHIT"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 12
+name = "STOMP"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 14
+name = "FIRESPIN"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 16
+name = "FLAMEWHEEL"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 18
+name = "DOUBLEKICK"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 20
+name = "CHARM"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 23
+name = "FLAMECHARGE"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 26
+name = "AGILITY"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 29
+name = "ZENHEADBUTT"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 32
+name = "HYPNOSIS"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 39
+name = "SMARTSTRIKE"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 42
+name = "PLAYROUGH"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 45
+name = "HIGHHORSEPOWER"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 49
+name = "JUMPKICK"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 53
+name = "MORNINGSUN"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 57
+name = "PSYCHICFANGS"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 61
+name = "FLAREBLITZ"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 70
+name = "MISTYEXPLOSION"
+

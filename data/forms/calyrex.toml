@@ -1,0 +1,254 @@
+internal_name = "CALYREX"
+form_mapping = { 1 = "Ice Rider", 2 = "Shadow Rider" }
+
+[forms."Ice Rider"]
+form_name = "Ice Rider"
+secondary_type = "ICE"
+base_stats = { hp = 100, atk = 165, def_ = 150, spa = 85, spd = 130, spe = 50 }
+raw_abilities = ["ASONE"]
+
+[[forms."Ice Rider".raw_level_up_moves]]
+at_level = 1
+name = "GLACIALLANCE"
+
+[[forms."Ice Rider".raw_level_up_moves]]
+at_level = 1
+name = "TACKLE"
+
+[[forms."Ice Rider".raw_level_up_moves]]
+at_level = 1
+name = "TAILWHIP"
+
+[[forms."Ice Rider".raw_level_up_moves]]
+at_level = 1
+name = "DOUBLEKICK"
+
+[[forms."Ice Rider".raw_level_up_moves]]
+at_level = 1
+name = "AVALANCHE"
+
+[[forms."Ice Rider".raw_level_up_moves]]
+at_level = 1
+name = "STOMP"
+
+[[forms."Ice Rider".raw_level_up_moves]]
+at_level = 1
+name = "TORMENT"
+
+[[forms."Ice Rider".raw_level_up_moves]]
+at_level = 1
+name = "MIST"
+
+[[forms."Ice Rider".raw_level_up_moves]]
+at_level = 1
+name = "ICICLECRASH"
+
+[[forms."Ice Rider".raw_level_up_moves]]
+at_level = 1
+name = "TAKEDOWN"
+
+[[forms."Ice Rider".raw_level_up_moves]]
+at_level = 1
+name = "IRONDEFENSE"
+
+[[forms."Ice Rider".raw_level_up_moves]]
+at_level = 1
+name = "THRASH"
+
+[[forms."Ice Rider".raw_level_up_moves]]
+at_level = 1
+name = "TAUNT"
+
+[[forms."Ice Rider".raw_level_up_moves]]
+at_level = 1
+name = "DOUBLEEDGE"
+
+[[forms."Ice Rider".raw_level_up_moves]]
+at_level = 1
+name = "SWORDSDANCE"
+
+[[forms."Ice Rider".raw_level_up_moves]]
+at_level = 1
+name = "POUND"
+
+[[forms."Ice Rider".raw_level_up_moves]]
+at_level = 1
+name = "MEGADRAIN"
+
+[[forms."Ice Rider".raw_level_up_moves]]
+at_level = 1
+name = "CONFUSION"
+
+[[forms."Ice Rider".raw_level_up_moves]]
+at_level = 1
+name = "GROWTH"
+
+[[forms."Ice Rider".raw_level_up_moves]]
+at_level = 8
+name = "LIFEDEW"
+
+[[forms."Ice Rider".raw_level_up_moves]]
+at_level = 16
+name = "GIGADRAIN"
+
+[[forms."Ice Rider".raw_level_up_moves]]
+at_level = 24
+name = "PSYSHOCK"
+
+[[forms."Ice Rider".raw_level_up_moves]]
+at_level = 32
+name = "HELPINGHAND"
+
+[[forms."Ice Rider".raw_level_up_moves]]
+at_level = 40
+name = "AROMATHERAPY"
+
+[[forms."Ice Rider".raw_level_up_moves]]
+at_level = 48
+name = "ENERGYBALL"
+
+[[forms."Ice Rider".raw_level_up_moves]]
+at_level = 56
+name = "PSYCHIC"
+
+[[forms."Ice Rider".raw_level_up_moves]]
+at_level = 64
+name = "LEECHSEED"
+
+[[forms."Ice Rider".raw_level_up_moves]]
+at_level = 72
+name = "HEALPULSE"
+
+[[forms."Ice Rider".raw_level_up_moves]]
+at_level = 80
+name = "SOLARBEAM"
+
+[[forms."Ice Rider".raw_level_up_moves]]
+at_level = 88
+name = "FUTURESIGHT"
+
+[forms."Shadow Rider"]
+form_name = "Shadow Rider"
+secondary_type = "GHOST"
+base_stats = { hp = 100, atk = 85, def_ = 80, spa = 165, spd = 100, spe = 150 }
+raw_abilities = ["ASONE"]
+
+[[forms."Shadow Rider".raw_level_up_moves]]
+at_level = 1
+name = "ASTRALBARRAGE"
+
+[[forms."Shadow Rider".raw_level_up_moves]]
+at_level = 1
+name = "TACKLE"
+
+[[forms."Shadow Rider".raw_level_up_moves]]
+at_level = 1
+name = "TAILWHIP"
+
+[[forms."Shadow Rider".raw_level_up_moves]]
+at_level = 1
+name = "DOUBLEKICK"
+
+[[forms."Shadow Rider".raw_level_up_moves]]
+at_level = 1
+name = "HEX"
+
+[[forms."Shadow Rider".raw_level_up_moves]]
+at_level = 1
+name = "STOMP"
+
+[[forms."Shadow Rider".raw_level_up_moves]]
+at_level = 1
+name = "CONFUSERAY"
+
+[[forms."Shadow Rider".raw_level_up_moves]]
+at_level = 1
+name = "HAZE"
+
+[[forms."Shadow Rider".raw_level_up_moves]]
+at_level = 1
+name = "SHADOWBALL"
+
+[[forms."Shadow Rider".raw_level_up_moves]]
+at_level = 1
+name = "TAKEDOWN"
+
+[[forms."Shadow Rider".raw_level_up_moves]]
+at_level = 1
+name = "AGILITY"
+
+[[forms."Shadow Rider".raw_level_up_moves]]
+at_level = 1
+name = "THRASH"
+
+[[forms."Shadow Rider".raw_level_up_moves]]
+at_level = 1
+name = "DISABLE"
+
+[[forms."Shadow Rider".raw_level_up_moves]]
+at_level = 1
+name = "DOUBLEEDGE"
+
+[[forms."Shadow Rider".raw_level_up_moves]]
+at_level = 1
+name = "NASTYPLOT"
+
+[[forms."Shadow Rider".raw_level_up_moves]]
+at_level = 1
+name = "POUND"
+
+[[forms."Shadow Rider".raw_level_up_moves]]
+at_level = 1
+name = "MEGADRAIN"
+
+[[forms."Shadow Rider".raw_level_up_moves]]
+at_level = 1
+name = "CONFUSION"
+
+[[forms."Shadow Rider".raw_level_up_moves]]
+at_level = 1
+name = "GROWTH"
+
+[[forms."Shadow Rider".raw_level_up_moves]]
+at_level = 8
+name = "LIFEDEW"
+
+[[forms."Shadow Rider".raw_level_up_moves]]
+at_level = 16
+name = "GIGADRAIN"
+
+[[forms."Shadow Rider".raw_level_up_moves]]
+at_level = 24
+name = "PSYSHOCK"
+
+[[forms."Shadow Rider".raw_level_up_moves]]
+at_level = 32
+name = "HELPINGHAND"
+
+[[forms."Shadow Rider".raw_level_up_moves]]
+at_level = 40
+name = "AROMATHERAPY"
+
+[[forms."Shadow Rider".raw_level_up_moves]]
+at_level = 48
+name = "ENERGYBALL"
+
+[[forms."Shadow Rider".raw_level_up_moves]]
+at_level = 56
+name = "PSYCHIC"
+
+[[forms."Shadow Rider".raw_level_up_moves]]
+at_level = 64
+name = "LEECHSEED"
+
+[[forms."Shadow Rider".raw_level_up_moves]]
+at_level = 72
+name = "HEALPULSE"
+
+[[forms."Shadow Rider".raw_level_up_moves]]
+at_level = 80
+name = "SOLARBEAM"
+
+[[forms."Shadow Rider".raw_level_up_moves]]
+at_level = 88
+name = "FUTURESIGHT"

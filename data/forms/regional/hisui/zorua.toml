@@ -1,0 +1,63 @@
+form_mapping = { 0 = "Unova", 1 = "Hisui" }
+
+[forms.Hisui]
+primary_type = "NORMAL"
+secondary_type = "GHOST"
+base_stats = { hp = 35, atk = 60, def_ = 40, spa = 85, spd = 40, spe = 70 }
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 1
+name = "LEER"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 1
+name = "SCRATCH"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 4
+name = "TORMENT"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 8
+name = "HONECLAWS"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 12
+name = "SHADOWSNEAK"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 16
+name = "CURSE"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 20
+name = "TAUNT"
+
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 24
+name = "KNOCKOFF"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 28
+name = "SPITE"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 32
+name = "AGILITY"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 36
+name = "SHADOWBALL"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 40
+name = "BITTERMALICE"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 44
+name = "NASTYPLOT"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 48
+name = "FOULPLAY"

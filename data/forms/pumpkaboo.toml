@@ -1,0 +1,7 @@
+internal_name = "PUMPKABOO"
+custom_init = "rand(2)"
+form_mapping = { 1 = "Small" }
+
+[forms.Small]
+form_name = "Small"
+base_stats = { hp = 44, atk = 44, def_ = 70, spa = 66, spd = 55, spe = 56 }

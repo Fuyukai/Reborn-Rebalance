@@ -16,7 +16,7 @@ def _inner_move(move_slice: str):
 
 
 # input: raw movelist, e.g. ``[[0, PBMoves::ROCKSMASH], ...]``
-def parse_ruby(catalog: EssentialsCatalog, raw_data: str):
+def parse_ruby(catalog: EssentialsCatalog, form: str, raw_data: str):
     all_moves = raw_data.replace("\n", "").replace("\r", "").strip()
     if all_moves[0] == "[":
         all_moves = all_moves[1:]
@@ -44,7 +44,10 @@ def parse_ruby(catalog: EssentialsCatalog, raw_data: str):
         else:
             raise ValueError(f"Unexpected char '{next_char}' ({hex(ord(next_char))})")
 
-    raw_data = {"raw_level_up_moves": cattrs.unstructure(moves)}
+    if form is not None:
+        raw_data = {"forms": {form: {"raw_level_up_moves": cattrs.unstructure(moves)}}}
+    else:
+        raw_data = {"raw_level_up_moves": cattrs.unstructure(moves)}
     return tomlkit.dumps(raw_data)
 
 
@@ -71,30 +74,14 @@ def parse_buffel_salt(catalog: EssentialsCatalog, form: str, data: str):
 if __name__ == "__main__":
     loaded = EssentialsCatalog.load_from_toml(Path("./data"), skip_species=True)
     print(
-        parse_buffel_salt(
+        parse_ruby(
             loaded,
-            "Trash Cloak",
+            "Galar",
             """
-1 - Rapid Spin
-1 - Tackle
-1 - Hidden Power
-1 - String Shot
-1 - Protect
-1 - Bug Bite
-1 - Electroweb
-1 - Struggle Bug
-25 - Mirror Shot
-27 - Sucker Punch
-29 - Ally Switch
-32 - Stealth Rock
-35 - Growth
-38 - Iron Head
-41 - Bug Buzz
-44 - Psychic
-48 - Captivate
-52 - Endeavor
-56 - Quiver Dance
-60 - Metal Burst
-""",
+[[1,PBMoves::MUDSLAP],[1,PBMoves::TACKLE],[1,PBMoves::WATERGUN],[1,PBMoves::METALCLAW],
+									[5,PBMoves::ENDURE],[10,PBMoves::MUDSHOT],[15,PBMoves::REVENGE],[20,PBMoves::METALSOUND],[25,PBMoves::SUCKERPUNCH],
+									[30,PBMoves::IRONDEFENSE],[35,PBMoves::BOUNCE],[40,PBMoves::MUDDYWATER],[45,PBMoves::SNAPTRAP],[50,PBMoves::FLAIL],
+									[55,PBMoves::FISSURE]]
+        """,
         )
     )

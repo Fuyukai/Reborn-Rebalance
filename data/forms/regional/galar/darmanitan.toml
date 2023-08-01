@@ -1,0 +1,150 @@
+internal_name = "DARMANITAN"
+form_mapping = { 0 = "Unova", 1 = "Unova Zen", 2 = "Galar", 3 = "Galar Zen" }
+
+[forms."Unova Zen"]
+form_name = "Unova Zen"
+pokedex_entry = "When wounded, it stops moving. It goes as still as stone to meditate, sharpening its mind and spirit."
+secondary_type = "PSYCHIC"
+base_stats = { hp = 105, atk = 30, def_ = 105, spa = 140, spd = 105, spe = 55 }
+
+[forms.Galar]
+form_name = "Galar"
+pokedex_entry = "Though it has a gentle disposition, it's also very strong. It will quickly freeze the snowball on its head before going for a headbutt."
+primary_type = "ICE"
+secondary_type = "ICE"
+raw_abilities = ["GORILLATACTICS", "ZENMODE"]
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 0
+name = "ICICLECRASH"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "ICICLECRASH"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "POWDERSNOW"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "TACKLE"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "TAUNT"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "BITE"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 12
+name = "AVALANCHE"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 16
+name = "WORKUP"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 20
+name = "ICEFANG"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 24
+name = "HEADBUTT"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 28
+name = "ICEPUNCH"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 32
+name = "UPROAR"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 38
+name = "BELLYDRUM"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 44
+name = "BLIZZARD"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 50
+name = "THRASH"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 56
+name = "SUPERPOWER"
+
+[forms."Galar Zen"]
+form_name = "Galar Zen"
+pokedex_entry = "Darmanitan takes this form when enraged. It won't stop spewing flames until its rage has settled, even if its body starts to melt."
+primary_type = "ICE"
+secondary_type = "FIRE"
+raw_abilities = ["GORILLATACTICS", "ZENMODE"]
+
+[[forms."Galar Zen".raw_level_up_moves]]
+at_level = 0
+name = "ICICLECRASH"
+
+[[forms."Galar Zen".raw_level_up_moves]]
+at_level = 1
+name = "ICICLECRASH"
+
+[[forms."Galar Zen".raw_level_up_moves]]
+at_level = 1
+name = "POWDERSNOW"
+
+[[forms."Galar Zen".raw_level_up_moves]]
+at_level = 1
+name = "TACKLE"
+
+[[forms."Galar Zen".raw_level_up_moves]]
+at_level = 1
+name = "TAUNT"
+
+[[forms."Galar Zen".raw_level_up_moves]]
+at_level = 1
+name = "BITE"
+
+[[forms."Galar Zen".raw_level_up_moves]]
+at_level = 12
+name = "AVALANCHE"
+
+[[forms."Galar Zen".raw_level_up_moves]]
+at_level = 16
+name = "WORKUP"
+
+[[forms."Galar Zen".raw_level_up_moves]]
+at_level = 20
+name = "ICEFANG"
+
+[[forms."Galar Zen".raw_level_up_moves]]
+at_level = 24
+name = "HEADBUTT"
+
+[[forms."Galar Zen".raw_level_up_moves]]
+at_level = 28
+name = "ICEPUNCH"
+
+[[forms."Galar Zen".raw_level_up_moves]]
+at_level = 32
+name = "UPROAR"
+
+[[forms."Galar Zen".raw_level_up_moves]]
+at_level = 38
+name = "BELLYDRUM"
+
+[[forms."Galar Zen".raw_level_up_moves]]
+at_level = 44
+name = "BLIZZARD"
+
+[[forms."Galar Zen".raw_level_up_moves]]
+at_level = 50
+name = "THRASH"
+
+[[forms."Galar Zen".raw_level_up_moves]]
+at_level = 56
+name = "SUPERPOWER"

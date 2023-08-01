@@ -1,0 +1,81 @@
+internal_name = "GRIMER"
+form_mapping = { 0 = "Kanto", 1 = "Alola" }
+custom_init = """
+maps=[467, 468, 469, 470, 471, 472, 473, 474, 475, 476, 477, 478, 479, 480, 481, 482, 483, 484, 485, 486, 487, 488, 489, 490, 491, 492, 493, 494, 495, 496, 497, 498, 499, 500, 501, 502, 503, 504, 505]
+# Map IDs for alolan form
+if $game_map && maps.include?($game_map.map_id)
+    next 1
+else
+    next 0
+end
+"""
+
+[forms.Alola]
+form_name = "Alola"
+secondary_type = "DARK"
+raw_abilities = ["POISONTOUCH", "GLUTTONY", "POWEROFALCHEMY"]
+pokedex_entry = "The crystals on Grimer's body are lumps of toxins. If one falls off, lethal poisons leak out."
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "POUND"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "POISONGAS"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 4
+name = "HARDEN"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 7
+name = "BITE"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 12
+name = "DISABLE"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 15
+name = "ACIDSPRAY"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 18
+name = "POISONFANG"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 21
+name = "MINIMIZE"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 26
+name = "FLING"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 29
+name = "KNOCKOFF"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 32
+name = "CRUNCH"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 37
+name = "SCREECH"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 40
+name = "GUNKSHOT"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 43
+name = "ACIDARMOR"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 46
+name = "BELCH"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 48
+name = "MEMENTO"

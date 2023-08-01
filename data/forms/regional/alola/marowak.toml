@@ -1,0 +1,114 @@
+internal_name = "MAROWAK"
+form_mapping = { 0 = "Kanto", 1 = "Alola", 2 = "Mega" }
+mega_form = 2
+custom_init = """
+chancemaps=[669,880]
+# Map IDs for alolan form
+if $game_map && chancemaps.include?($game_map.map_id)
+    randomnum = rand(2)
+    if randomnum == 1
+        next 1
+    elsif randomnum == 0
+        next 0
+    end
+else
+    next 0
+end
+"""
+
+[forms.Alola]
+form_name = "Alola"
+pokedex_entry = "The bones it possesses were once its mother's. Its mother's regrets have become like a vengeful spirit protecting this Pokémon."
+primary_type = "FIRE"
+secondary_type = "GHOST"
+base_stats = { hp = 75, atk = 80, def_ = 110, spa = 50, spd = 80, spe = 45 }
+raw_abilities = ["CURSEDBODY", "LIGHTNINGROD", "ROCKHEAD"]
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 0
+name = "SHADOWBONE"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "SHADOWBONE"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "PERISHSONG"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "BELLYDRUM"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "CURSE"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "GROWL"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "TAILWHIP"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "BONECLUB"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 11
+name = "FLAMEWHEEL"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 13
+name = "LEER"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 17
+name = "HEX"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 21
+name = "BONEMERANG"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 23
+name = "WILLOWISP"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 33
+name = "THRASH"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 35
+name = "SHADOWSNEAK"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 37
+name = "FLING"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 43
+name = "STOMPINGTANTRUM"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 49
+name = "ENDEAVOR"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 53
+name = "FLAREBLITZ"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 59
+name = "RETALIATE"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 65
+name = "BONERUSH"
+
+[forms.Mega]
+form_name = "Mega"
+base_stats = { hp = 85, atk = 110, def_ = 120, spa = 50, spd = 80, spe = 95 }
+raw_abilities = ["STAMINA"]

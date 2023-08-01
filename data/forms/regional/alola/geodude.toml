@@ -1,0 +1,72 @@
+internal_name = "GEODUDE"
+form_mapping = { 0 = "Kanto", 1 = "Alola" }
+
+[forms.Alola]
+form_name = "Alola"
+secondary_type = "ELECTRIC"
+pokedex_entry = "If you accidentally step on a Geodude sleeping on the ground, you'll hear a crunching sound and feel a shock ripple through your entire body."
+raw_abilities = ["MAGNETPULL", "STURDY", "GALVANIZE"]
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "TACKLE"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "DEFENSECURL"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 4
+name = "CHARGE"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 6
+name = "ROCKPOLISH"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 10
+name = "ROLLOUT"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 12
+name = "SPARK"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 16
+name = "ROCKTHROW"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 18
+name = "SMACKDOWN"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 22
+name = "THUNDERPUNCH"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 24
+name = "SELFDESTRUCT"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 28
+name = "STEALTHROCK"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 30
+name = "ROCKBLAST"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 34
+name = "DISCHARGE"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 36
+name = "EXPLOSION"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 40
+name = "DOUBLEEDGE"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 42
+name = "STONEEDGE"

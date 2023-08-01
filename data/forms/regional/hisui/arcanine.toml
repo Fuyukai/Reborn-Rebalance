@@ -1,0 +1,99 @@
+internal_name = "ARCANINE"
+form_mapping = { 0 = "Kanto", 1 = "Hisui", 2 = "Mega" }
+custom_init = """
+maps=[913]
+# Map IDs for galarian form
+if $game_map && maps.include?($game_map.map_id)
+        next 1
+else
+    next 0
+end
+"""
+mega_form = 2
+
+[forms.Hisui]
+form_name = "Hisui"
+secondary_type = "ROCK"
+raw_abilities = ["INTIMIDATE", "FLASHFIRE", "ROCKHEAD"]
+base_stats = { hp = 95, atk = 115, def_ = 80, spa = 95, spd = 80, spe = 90 }
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 0
+name = "EXTREMESPEED"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 1
+name = "LEER"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 1
+name = "ROCKTHROW"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 1
+name = "FIREFANG"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 1
+name = "EMBER"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 1
+name = "HOWL"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 1
+name = "BITE"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 1
+name = "FLAMEWHEEL"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 1
+name = "HELPINGHAND"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 1
+name = "FIREFANG"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 1
+name = "RETALIATE"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 1
+name = "CRUNCH"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 1
+name = "ROAR"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 1
+name = "ROCKSLIDE"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 1
+name = "REVERSAL"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 1
+name = "FLAREBLITZ"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 5
+name = "FLAMETHROWER"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 50
+name = "HEADSMASH"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 64
+name = "RAGINGFURY"
+
+[forms.Mega]
+form_name = "Mega"
+base_stats = { hp = 100, atk = 130, def_ = 95, spa = 130, spd = 95, spe = 105 }
+raw_abilities = ["DROUGHT"]

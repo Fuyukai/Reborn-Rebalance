@@ -1,0 +1,15 @@
+internal_name = "BASCULIN"
+custom_init = "rand(3)"
+form_mapping = { 0 = "White-Striped", 1 = "Red-Striped", 2 = "Blue-Striped" }
+
+# unlike the base game, and also photonic sun, they have the same moveset.
+[forms.White-Striped]
+form_name = "White-Striped"
+
+[forms.Red-Striped]
+form_name = "Red-Striped"
+raw_abilities = ["RECKLESS", "ADAPTABILITY", "MOLDBREAKER"]
+
+[forms.Blue-Striped]
+form_name = "Blue-Striped"
+raw_abilities = ["ROCKHEAD", "ADAPTABILITY", "MOLDBREAKER"]

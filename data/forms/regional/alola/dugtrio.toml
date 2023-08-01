@@ -1,0 +1,104 @@
+internal_name = "DUGTRIO"
+form_mapping = { 0 = "Kanto", 1 = "Alola", 2 = "Mega" }
+mega_form = 2
+custom_init = """
+maps=[33, 34, 35, 199, 201, 202, 203, 204]
+# Map IDs for alolan form
+next $game_map && maps.include?($game_map.map_id) ? 1 : 0
+"""
+
+[forms.Alola]
+form_name = "Alola"
+pokedex_entry = "Its shining gold hair provides it with protection. It's reputed that keeping any of its fallen hairs will bring bad luck."
+secondary_type = "STEEL"
+base_stats = { hp = 35, atk = 100, def_ = 60, spa = 50, spd = 70, spe = 110 }
+raw_abilities = ["TANGLINGHAIR", "SANDFORCE"]
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 0
+name = "SANDTOMB"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "SANDTOMB"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "ROTOTILLER"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "NIGHTSLASH"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "TRIATTACK"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "SANDATTACK"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "METALCLAW"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "GROWL"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 4
+name = "GROWL"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 7
+name = "ASTONISH"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 10
+name = "MUDSLAP"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 14
+name = "MAGNITUDE"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 18
+name = "BULLDOZE"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 22
+name = "SUCKERPUNCH"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 25
+name = "MUDBOMB"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 30
+name = "EARTHPOWER"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 35
+name = "DIG"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 41
+name = "IRONHEAD"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 47
+name = "EARTHQUAKE"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 53
+name = "FISSURE"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 55
+name = "MEMENTO"
+
+[forms.Mega]
+form_name = "Mega"
+raw_abilities = ["MOLDBREAKER"]
+base_stats = { hp = 75, atk = 120, def_ = 75, spa = 60, spd = 70, spe = 125 }

@@ -1,0 +1,58 @@
+form_mapping = { 0 = "Alola", 1 = "Hisui" }
+
+[forms.Hisui]
+secondary_type = "FIGHTING"
+raw_abilities = ["OVERGROW", "SCRAPPY"]
+base_stats = { hp = 88, atk = 112, def_ = 80, spa = 95, spd = 95, spe = 60 }
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 0
+name = "ROCKSMASH"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 1
+name = "ROCKSMASH"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 1
+name = "GUST"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 6
+name = "LEAFAGE"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 11
+name = "ROOST"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 18
+name = "AERIALACE"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 21
+name = "MAGICALLEAF"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 25
+name = "AIRSLASH"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 30
+name = "AURASPHERE"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 34
+name = "LEAFBLADE"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 34
+name = "TRIPLEARROWS"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 40
+name = "BRAVEBIRD"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 43
+name = "LEAFSTORM"

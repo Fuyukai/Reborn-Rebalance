@@ -1,0 +1,107 @@
+internal_name = "RATICATE"
+form_mapping = { 0 = "Kanto", 1 = "Alola" }
+custom_init = """
+maps=[170, 524]
+# Map IDs for alolan form
+next $game_map && maps.include?($game_map.map_id) ? 1 : 0
+"""
+
+[forms.Alola]
+form_name = "Alola"
+primary_type = "DARK"
+secondary_type = "NORMAL"
+pokedex_entry = "It forms a group of Rattata, which it assumes command of. Each group has its own territory, and disputes over food happen often."
+base_stats = { hp = 75, atk = 86, def_ = 80, spa = 40, spd = 80, spe = 77 }
+raw_abilities = ["GLUTTONY", "STRONGJAW", "THICKFAT"]
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 0
+name = "THUNDERFANG"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 0
+name = "FIREFANG"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 0
+name = "ICEFANG"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 0
+name = "SCARYFACE"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "SCARYFACE"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "THUNDERFANG"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "FIREFANG"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "ICEFANG"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "SWORDSDANCE"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "TACKLE"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 4
+name = "QUICKATTACK"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 7
+name = "FOCUSENERGY"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 10
+name = "BITE"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 13
+name = "PURSUIT"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 16
+name = "HYPERFANG"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 19
+name = "ASSURANCE"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 24
+name = "CRUNCH"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 29
+name = "SUCKERPUNCH"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 34
+name = "SUPERFANG"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 37
+name = "PSYCHICFANGS"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 39
+name = "DOUBLEEDGE"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 44
+name = "ENDEAVOR"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 47
+name = "CLOSECOMBAT"

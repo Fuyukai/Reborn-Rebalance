@@ -1,0 +1,14 @@
+internal_name = "SQUAWKABILLY"
+form_mapping = { "2" = "Blue", "3" = "Yellow", "4" = "White" }
+custom_init = "rand(4)"
+
+[forms.Blue]
+form_name = "Blue"
+
+[forms.Yellow]
+form_name = "Yellow"
+raw_abilities = ["INTIMIDATE", "HUSTLE", "SHEERFORCE"]
+
+[forms.White]
+form_name = "White"
+raw_abilities = ["INTIMIDATE", "HUSTLE", "SHEERFORCE"]

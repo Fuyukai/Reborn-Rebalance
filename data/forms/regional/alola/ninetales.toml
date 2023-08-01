@@ -1,0 +1,77 @@
+internal_name = "NINETALES"
+form_mapping = { 0 = "Kanto", 1 = "Alola", 2 = "Mega" }
+custom_init = """
+maps=[439,721,723,725,726,727,729,794]
+# Map IDs for alolan form
+next $game_map && maps.include?($game_map.map_id) ? 1 : 0
+"""
+
+[forms.Alola]
+form_name = "Alola"
+primary_type = "ICE"
+secondary_type = "FAIRY"
+pokedex_entry = "Possessing a calm demeanor, this Pokémon was revered as a deity incarnate before it was identified as a regional variant of Ninetales."
+raw_abilities = ["SNOWWARNING"]
+base_stats = { hp = 73, atk = 67, def_ = 75, spa = 91, spd = 100, spe = 109 }
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 0
+name = "DAZZLINGGLEAM"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 0
+name = "NASTYPLOT"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "DAZZLINGGLEAM"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "NASTYPLOT"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "ICEBEAM"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "ICESHARD"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "CONFUSERAY"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "SAFEGUARD"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "CAPTIVATE"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 37
+name = "DRAININGKISS"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 42
+name = "HYPNOSIS"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 45
+name = "FREEZEDRY"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 58
+name = "MOONBLAST"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 62
+name = "WEATHERBALL"
+
+[forms.Mega]
+form_name = "Mega"
+secondary_type = "GHOST"
+base_stats = { hp = 73, atk = 86, def_ = 75, spa = 141, spd = 130, spe = 110 }
+raw_abilities = ["TRACE"]

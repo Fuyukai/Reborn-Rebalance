@@ -1,0 +1,76 @@
+internal_name = "DARUMAKA"
+# not really sure what form 1 is for.
+form_mapping = { 0 = "Unova", 1 = "?", 2 = "Galar" }
+custom_init = """
+maps=[412]
+# Map IDs for Galarian form
+if $game_map && maps.include?($game_map.map_id)
+    next 1
+else
+    next 0
+end
+"""
+
+[forms.Galar]
+form_name = "Galar"
+pokedex_entry = "It lived in snowy areas for so long that its fire sac cooled off and atrophied. It now has an organ that generates cold instead."
+primary_type = "ICE"
+secondary_type = "ICE"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "POWDERSNOW"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "TACKLE"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "TAUNT"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "BITE"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 12
+name = "AVALANCHE"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 16
+name = "WORKUP"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 20
+name = "ICEFANG"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 24
+name = "HEADBUTT"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 28
+name = "ICEPUNCH"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 32
+name = "UPROAR"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 36
+name = "BELLYDRUM"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 40
+name = "BLIZZARD"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 44
+name = "THRASH"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 48
+name = "SUPERPOWER"
+
+

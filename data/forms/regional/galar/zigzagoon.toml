@@ -1,0 +1,74 @@
+form_mapping = { 0 = "Hoenn", 1 = "Galarian" }
+custom_init = """
+chancemaps=[153,519]
+# Map IDs for galarian form
+if $game_map && chancemaps.include?($game_map.map_id)
+    randomnum = rand(2)
+    if randomnum == 1
+        next 1
+    elsif randomnum == 0
+        next 0
+    end
+else
+    next 0
+end
+"""
+
+[forms.Galar]
+pokedex_entry = "Thought to be the oldest form of Zigzagoon, it moves in zigzags and wreaks havoc upon its surroundings."
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "LEER"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "TACKLE"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 3
+name = "SANDATTACK"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 6
+name = "LICK"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 9
+name = "SNARL"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 12
+name = "HEADBUTT"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 15
+name = "BABYDOLLEYES"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 18
+name = "PINMISSILE"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 21
+name = "REST"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 24
+name = "TAKEDOWN"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 27
+name = "SCARYFACE"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 30
+name = "COUNTER"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 33
+name = "TAUNT"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 36
+name = "DOUBLEEDGE"

@@ -1,0 +1,12 @@
+internal_name = "AEGISLASH"
+form_mapping = { 1 = "Blade", 2 = "Crystal" }
+
+[forms.Blade]
+form_name = "Blade"
+base_stats = { hp = 60, atk = 150, def_ = 50, spa = 150, spd = 50, spe = 60 }
+
+[forms.Crystal]
+form_name = "Crystal"
+secondary_type = "FAIRY"
+raw_abilities = ["FRIENDGUARD"]
+base_stats = { hp = 200, atk = 150, def_ = 150, spa = 150, spd = 150, spe = 70 }

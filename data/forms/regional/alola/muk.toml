@@ -1,0 +1,103 @@
+internal_name = "MUK"
+form_mapping = { 0 = "Kanto", 1 = "Alola", 2 = "PULSE" }
+pulse_form = 2
+custom_init = """
+maps=[467, 468, 469, 470, 471, 472, 473, 474, 475, 476, 477, 478, 479, 480, 481, 482, 483, 484, 485, 486, 487, 488, 489, 490, 491, 492, 493, 494, 495, 496, 497, 498, 499, 500, 501, 502, 503, 504, 505, 879]
+# Map IDs for alolan form
+if $game_map && maps.include?($game_map.map_id)
+    next 1
+else
+    next 0
+end
+"""
+
+[forms.Alola]
+form_name = "Alola"
+pokedex_entry = "While it's unexpectedly quiet and friendly, if it's not fed any trash for a while, it will smash its Trainer's furnishings and eat up the fragments."
+base_stats = { hp = 105, atk = 115, def_ = 85, spa = 65, spd = 100, spe = 50 }
+raw_abilities = ["POISONTOUCH", "GLUTTONY", "POWEROFALCHEMY"]
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 0
+name = "VENOMDRENCH"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "VENOMDRENCH"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "POUND"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "POISONGAS"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "HARDEN"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "BITE"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 4
+name = "HARDEN"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 7
+name = "BITE"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 12
+name = "DISABLE"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 15
+name = "ACIDSPRAY"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 18
+name = "POISONFANG"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 21
+name = "MINIMIZE"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 26
+name = "FLING"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 29
+name = "KNOCKOFF"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 32
+name = "CRUNCH"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 37
+name = "SCREECH"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 40
+name = "GUNKSHOT"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 46
+name = "ACIDARMOR"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 52
+name = "BELCH"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 57
+name = "MEMENTO"
+
+[forms.PULSE]
+form_name = "PULSE"
+base_stats = { hp = 105, atk = 105, def_ = 70, spa = 97, spd = 250, spe = 70 }
+raw_abilities = ["PROTEAN"]

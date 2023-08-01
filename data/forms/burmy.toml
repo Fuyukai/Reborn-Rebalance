@@ -1,0 +1,25 @@
+internal_name = "BURMY"
+form_mapping = { 0 = "Plant Cloak", 1 = "Sandy Cloak", 2 = "Trash Cloak" }
+custom_init = """
+begin #horribly stupid section to make the battle stress test work
+case $fefieldeffect
+    when 1,5,6,10,11,17,18,19,24,26,29,30,35,36,37
+        next 2 # Trash Cloak
+    when 2,3,7,8,9,15,21,22,31,33,34
+        next 0 # Plant Cloak
+    when 4,12,13,14,16,20,23,25,27,28,32
+        next 1 # Sandy CloaK
+end
+env=pbGetEnvironment()
+if env==PBEnvironment::Sand || env==PBEnvironment::Rock || env==PBEnvironment::Cave
+    next 1 # Sandy Cloak
+elsif !pbGetMetadata($game_map.map_id,MetadataOutdoor)
+    next 2 # Trash Cloak
+else
+    next 0 # Plant Cloak
+end
+rescue
+    next 0
+end
+"""
+

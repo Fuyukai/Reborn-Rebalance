@@ -1,0 +1,119 @@
+internal_name = "PERSIAN"
+form_mapping = { 0 = "Kanto", 1 = "Alola" }
+custom_init = """
+maps=[170, 524, 866]
+# Map IDs for alolan form
+if $game_map && maps.include?($game_map.map_id)
+    next 1
+else
+    next 0
+end
+"""
+
+[forms.Alola]
+form_name = "Alola"
+pokedex_entry = "It looks down on everyone other than itself. Its preferred tactics are sucker punches and blindside attacks."
+primary_type = "DARK"
+secondary_type = "DARK"
+base_stats = { hp = 65, atk = 60, def_ = 70, spa = 105, spd = 65, spe = 115 }
+raw_abilities = ["FURCOAT", "TECHNICIAN", "RATTLED"]
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 0
+name = "PARTINGSHOT"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 0
+name = "SWIFT"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "QUASH"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "SWIFT"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "SWITCHEROO"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "SCRATCH"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "PARTINGSHOT"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "FAKEOUT"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "GROWL"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 6
+name = "BITE"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 9
+name = "FAKEOUT"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 14
+name = "FURYSWIPES"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 17
+name = "SCREECH"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 22
+name = "FEINTATTACK"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 25
+name = "TAUNT"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 32
+name = "POWERGEM"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 37
+name = "SLASH"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 40
+name = "FOULPLAY"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 44
+name = "NASTYPLOT"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 49
+name = "ASSURANCE"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 56
+name = "CAPTIVATE"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 58
+name = "PLAYROUGH"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 61
+name = "NIGHTSLASH"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 65
+name = "FEINT"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 69
+name = "DARKPULSE"

@@ -1,0 +1,64 @@
+internal_name = "SHAYMIN"
+form_mapping = { 1 = "Sky" }
+
+[forms.Sky]
+form_name = "Sky"
+secondary_type = "FLYING"
+raw_abilities = ["SERENEGRACE"]
+base_stats = { hp = 100, atk = 103, def_ = 75, spa = 120, spd = 75, spe = 127 }
+
+[[forms.Sky.raw_level_up_moves]]
+at_level = 1
+name = "HEALINGWISH"
+
+[[forms.Sky.raw_level_up_moves]]
+at_level = 1
+name = "GROWTH"
+
+[[forms.Sky.raw_level_up_moves]]
+at_level = 6
+name = "MAGICALLEAF"
+
+[[forms.Sky.raw_level_up_moves]]
+at_level = 10
+name = "LEECHSEED"
+
+[[forms.Sky.raw_level_up_moves]]
+at_level = 14
+name = "QUICKATTACK"
+
+[[forms.Sky.raw_level_up_moves]]
+at_level = 18
+name = "ZENHEADBUTT"
+
+[[forms.Sky.raw_level_up_moves]]
+at_level = 22
+name = "NATURALGIFT"
+
+[[forms.Sky.raw_level_up_moves]]
+at_level = 26
+name = "RECOVER"
+
+[[forms.Sky.raw_level_up_moves]]
+at_level = 30
+name = "AROMATHERAPY"
+
+[[forms.Sky.raw_level_up_moves]]
+at_level = 34
+name = "SLEEPPOWDER"
+
+[[forms.Sky.raw_level_up_moves]]
+at_level = 38
+name = "AIRSLASH"
+
+[[forms.Sky.raw_level_up_moves]]
+at_level = 42
+name = "DRAININGKISS"
+
+[[forms.Sky.raw_level_up_moves]]
+at_level = 46
+name = "LEAFSTORM"
+
+[[forms.Sky.raw_level_up_moves]]
+at_level = 50
+name = "SEEDFLARE"

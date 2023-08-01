@@ -1,0 +1,215 @@
+internal_name = "LYCANROC"
+form_mapping = { 0 = "Midday", 1 = "Midnight", 2 = "Dusk" }
+
+[forms.Midnight]
+form_name = "Midnight"
+secondary_type = "DARK"
+raw_abilities = ["STURDY", "DEFIANT", "NOGUARD"]
+base_stats = { hp = 95, atk = 115, def_ = 85, spa = 55, spd = 75, spe = 82 }
+pokedex_entry = "It goads its enemies into attacking, withstands the hits, and in return, delivers a headbutt, crushing their bones with its rocky mane."
+
+[[forms.Midnight.raw_level_up_moves]]
+at_level = 0
+name = "CROSSCHOP"
+
+[[forms.Midnight.raw_level_up_moves]]
+at_level = 0
+name = "COUNTER"
+
+[[forms.Midnight.raw_level_up_moves]]
+at_level = 1
+name = "COUNTER"
+
+[[forms.Midnight.raw_level_up_moves]]
+at_level = 1
+name = "CROSSCHOP"
+
+[[forms.Midnight.raw_level_up_moves]]
+at_level = 1
+name = "REVERSAL"
+
+[[forms.Midnight.raw_level_up_moves]]
+at_level = 1
+name = "LEER"
+
+[[forms.Midnight.raw_level_up_moves]]
+at_level = 1
+name = "BITE"
+
+[[forms.Midnight.raw_level_up_moves]]
+at_level = 1
+name = "SANDATTACK"
+
+[[forms.Midnight.raw_level_up_moves]]
+at_level = 1
+name = "TAUNT"
+
+[[forms.Midnight.raw_level_up_moves]]
+at_level = 12
+name = "HOWL"
+
+[[forms.Midnight.raw_level_up_moves]]
+at_level = 18
+name = "ODORSLEUTH"
+
+[[forms.Midnight.raw_level_up_moves]]
+at_level = 23
+name = "ROCKTOMB"
+
+[[forms.Midnight.raw_level_up_moves]]
+at_level = 26
+name = "ROAR"
+
+[[forms.Midnight.raw_level_up_moves]]
+at_level = 29
+name = "STEALTHROCK"
+
+[[forms.Midnight.raw_level_up_moves]]
+at_level = 34
+name = "ROCKSLIDE"
+
+[[forms.Midnight.raw_level_up_moves]]
+at_level = 37
+name = "SCARYFACE"
+
+[[forms.Midnight.raw_level_up_moves]]
+at_level = 40
+name = "CRUNCH"
+
+[[forms.Midnight.raw_level_up_moves]]
+at_level = 40
+name = "THUNDERFANG"
+
+[[forms.Midnight.raw_level_up_moves]]
+at_level = 40
+name = "FIREFANG"
+
+[[forms.Midnight.raw_level_up_moves]]
+at_level = 43
+name = "PLAYROUGH"
+
+[[forms.Midnight.raw_level_up_moves]]
+at_level = 45
+name = "PSYCHICFANGS"
+
+[[forms.Midnight.raw_level_up_moves]]
+at_level = 48
+name = "STONEEDGE"
+
+[[forms.Midnight.raw_level_up_moves]]
+at_level = 52
+name = "DYNAMICPUNCH"
+
+[[forms.Midnight.raw_level_up_moves]]
+at_level = 56
+name = "CLOSECOMBAT"
+
+[[forms.Midnight.raw_level_up_moves]]
+at_level = 60
+name = "HEADSMASH"
+
+[forms.Dusk]
+form_name = "Dusk"
+base_stats = { hp = 75, atk = 127, def_ = 70, spa = 55, spd = 70, spe = 110 }
+raw_abilities = ["TOUGHCLAWS"]
+pokedex_entry = "Bathed in the setting sun of evening, Lycanroc has undergone a special kind of evolution. An intense fighting spirit underlies its calmness."
+
+[[forms.Dusk.raw_level_up_moves]]
+at_level = 0
+name = "ACCELEROCK"
+
+[[forms.Dusk.raw_level_up_moves]]
+at_level = 0
+name = "THRASH"
+
+[[forms.Dusk.raw_level_up_moves]]
+at_level = 0
+name = "COUNTER"
+
+[[forms.Dusk.raw_level_up_moves]]
+at_level = 1
+name = "THRASH"
+
+[[forms.Dusk.raw_level_up_moves]]
+at_level = 1
+name = "ACCELEROCK"
+
+[[forms.Dusk.raw_level_up_moves]]
+at_level = 1
+name = "LEER"
+
+[[forms.Dusk.raw_level_up_moves]]
+at_level = 1
+name = "TACKLE"
+
+[[forms.Dusk.raw_level_up_moves]]
+at_level = 1
+name = "SANDATTACK"
+
+[[forms.Dusk.raw_level_up_moves]]
+at_level = 1
+name = "BITE"
+
+[[forms.Dusk.raw_level_up_moves]]
+at_level = 1
+name = "COUNTER"
+
+[[forms.Dusk.raw_level_up_moves]]
+at_level = 12
+name = "HOWL"
+
+[[forms.Dusk.raw_level_up_moves]]
+at_level = 15
+name = "ROCKTHROW"
+
+[[forms.Dusk.raw_level_up_moves]]
+at_level = 18
+name = "ODORSLEUTH"
+
+[[forms.Dusk.raw_level_up_moves]]
+at_level = 23
+name = "ROCKTOMB"
+
+[[forms.Dusk.raw_level_up_moves]]
+at_level = 26
+name = "ROAR"
+
+[[forms.Dusk.raw_level_up_moves]]
+at_level = 29
+name = "STEALTHROCK"
+
+[[forms.Dusk.raw_level_up_moves]]
+at_level = 34
+name = "ROCKSLIDE"
+
+[[forms.Dusk.raw_level_up_moves]]
+at_level = 37
+name = "SCARYFACE"
+
+[[forms.Dusk.raw_level_up_moves]]
+at_level = 40
+name = "CRUNCH"
+
+[[forms.Dusk.raw_level_up_moves]]
+at_level = 40
+name = "FIREFANG"
+
+[[forms.Dusk.raw_level_up_moves]]
+at_level = 40
+name = "THUNDERFANG"
+
+[[forms.Dusk.raw_level_up_moves]]
+at_level = 43
+name = "PLAYROUGH"
+
+[[forms.Dusk.raw_level_up_moves]]
+at_level = 45
+name = "PSYCHICFANGS"
+
+[[forms.Dusk.raw_level_up_moves]]
+at_level = 48
+name = "STONEEDGE"
+
+[[forms.Dusk.raw_level_up_moves]]
+at_level = 52
+name = "CLOSECOMBAT"

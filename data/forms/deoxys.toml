@@ -1,0 +1,217 @@
+internal_name = "DEOXYS"
+form_mapping = { 1 = "Attack", 2 = "Defense", 3 = "Speed" }
+
+[forms.Attack]
+form_name = "Attack"
+raw_abilities = ["DOWNLOAD", "PRESSURE"]
+base_stats = { hp = 50, atk = 180, def_ = 20, spa = 180, spd = 20, spe = 150 }
+
+[[forms.Attack.raw_level_up_moves]]
+at_level = 1
+name = "METEORMASH"
+
+[[forms.Attack.raw_level_up_moves]]
+at_level = 1
+name = "DARKPULSE"
+
+[[forms.Attack.raw_level_up_moves]]
+at_level = 1
+name = "LEER"
+
+[[forms.Attack.raw_level_up_moves]]
+at_level = 1
+name = "WRAP"
+
+[[forms.Attack.raw_level_up_moves]]
+at_level = 6
+name = "NIGHTSHADE"
+
+[[forms.Attack.raw_level_up_moves]]
+at_level = 10
+name = "TELEPORT"
+
+[[forms.Attack.raw_level_up_moves]]
+at_level = 14
+name = "TAUNT"
+
+[[forms.Attack.raw_level_up_moves]]
+at_level = 18
+name = "PURSUIT"
+
+[[forms.Attack.raw_level_up_moves]]
+at_level = 22
+name = "PSYCHIC"
+
+[[forms.Attack.raw_level_up_moves]]
+at_level = 26
+name = "SUPERPOWER"
+
+[[forms.Attack.raw_level_up_moves]]
+at_level = 30
+name = "PSYCHOSHIFT"
+
+[[forms.Attack.raw_level_up_moves]]
+at_level = 34
+name = "ZENHEADBUTT"
+
+[[forms.Attack.raw_level_up_moves]]
+at_level = 38
+name = "COSMICPOWER"
+
+[[forms.Attack.raw_level_up_moves]]
+at_level = 42
+name = "ZAPCANNON"
+
+[[forms.Attack.raw_level_up_moves]]
+at_level = 46
+name = "PSYCHOBOOST"
+
+[[forms.Attack.raw_level_up_moves]]
+at_level = 50
+name = "HYPERBEAM"
+
+[forms.Defense]
+form_name = "Defense"
+raw_abilities = ["DOWNLOAD", "PRESSURE"]
+base_stats = { hp = 50, atk = 70, def_ = 160, spa = 70, spd = 160, spe = 90 }
+
+[[forms.Defense.raw_level_up_moves]]
+at_level = 1
+name = "METEORMASH"
+
+[[forms.Defense.raw_level_up_moves]]
+at_level = 1
+name = "DARKPULSE"
+
+[[forms.Defense.raw_level_up_moves]]
+at_level = 1
+name = "LEER"
+
+[[forms.Defense.raw_level_up_moves]]
+at_level = 1
+name = "WRAP"
+
+[[forms.Defense.raw_level_up_moves]]
+at_level = 6
+name = "NIGHTSHADE"
+
+[[forms.Defense.raw_level_up_moves]]
+at_level = 10
+name = "TELEPORT"
+
+[[forms.Defense.raw_level_up_moves]]
+at_level = 14
+name = "KNOCKOFF"
+
+[[forms.Defense.raw_level_up_moves]]
+at_level = 18
+name = "SPIKES"
+
+[[forms.Defense.raw_level_up_moves]]
+at_level = 22
+name = "PSYCHIC"
+
+[[forms.Defense.raw_level_up_moves]]
+at_level = 26
+name = "SNATCH"
+
+[[forms.Defense.raw_level_up_moves]]
+at_level = 30
+name = "PSYCHOSHIFT"
+
+[[forms.Defense.raw_level_up_moves]]
+at_level = 34
+name = "ZENHEADBUTT"
+
+[[forms.Defense.raw_level_up_moves]]
+at_level = 38
+name = "IRONDEFENSE"
+
+[[forms.Defense.raw_level_up_moves]]
+at_level = 38
+name = "AMNESIA"
+
+[[forms.Defense.raw_level_up_moves]]
+at_level = 42
+name = "RECOVER"
+
+[[forms.Defense.raw_level_up_moves]]
+at_level = 46
+name = "PSYCHOBOOST"
+
+[[forms.Defense.raw_level_up_moves]]
+at_level = 50
+name = "COUNTER"
+
+[[forms.Defense.raw_level_up_moves]]
+at_level = 50
+name = "MIRRORCOAT"
+
+[forms.Speed]
+form_name = "Speed"
+raw_abilities = ["INNERFOCUS", "PRESSURE"]
+base_stats = { hp = 50, atk = 95, def_ = 90, spa = 95, spd = 90, spe = 180 }
+
+[[forms.Speed.raw_level_up_moves]]
+at_level = 1
+name = "METEORMASH"
+
+[[forms.Speed.raw_level_up_moves]]
+at_level = 1
+name = "DARKPULSE"
+
+[[forms.Speed.raw_level_up_moves]]
+at_level = 1
+name = "LEER"
+
+[[forms.Speed.raw_level_up_moves]]
+at_level = 1
+name = "WRAP"
+
+[[forms.Speed.raw_level_up_moves]]
+at_level = 6
+name = "NIGHTSHADE"
+
+[[forms.Speed.raw_level_up_moves]]
+at_level = 10
+name = "DOUBLETEAM"
+
+[[forms.Speed.raw_level_up_moves]]
+at_level = 14
+name = "KNOCKOFF"
+
+[[forms.Speed.raw_level_up_moves]]
+at_level = 18
+name = "PURSUIT"
+
+[[forms.Speed.raw_level_up_moves]]
+at_level = 22
+name = "PSYCHIC"
+
+[[forms.Speed.raw_level_up_moves]]
+at_level = 26
+name = "SWIFT"
+
+[[forms.Speed.raw_level_up_moves]]
+at_level = 30
+name = "PSYCHOSHIFT"
+
+[[forms.Speed.raw_level_up_moves]]
+at_level = 34
+name = "ZENHEADBUTT"
+
+[[forms.Speed.raw_level_up_moves]]
+at_level = 38
+name = "AGILITY"
+
+[[forms.Speed.raw_level_up_moves]]
+at_level = 42
+name = "RECOVER"
+
+[[forms.Speed.raw_level_up_moves]]
+at_level = 46
+name = "PSYCHOBOOST"
+
+[[forms.Speed.raw_level_up_moves]]
+at_level = 50
+name = "EXTREMESPEED"

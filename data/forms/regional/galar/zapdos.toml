@@ -1,0 +1,71 @@
+form_mapping = { 0 = "Kanto", 1 = "Galar" }
+
+[forms.Galar]
+pokedex_entry = "One kick from its powerful legs will pulverize a dump truck. Supposedly, this Pokémon runs through the mountains at over 180 mph."
+primary_type = "FIGHTING"
+base_stats = { hp = 90, atk = 125, def_ = 90, spa = 85, spd = 90, spe = 100 }
+raw_abilities = ["DEFIANT"]
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "PECK"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "FOCUSENERGY"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 5
+name = "ROCKSMASH"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 10
+name = "LIGHTSCREEN"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 15
+name = "PLUCK"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 20
+name = "AGILITY"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 25
+name = "ANCIENTPOWER"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 30
+name = "BRICKBREAK"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 35
+name = "DRILLPECK"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 40
+name = "QUICKGUARD"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 45
+name = "THUNDEROUSKICK"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 50
+name = "BULKUP"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 55
+name = "COUNTER"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 60
+name = "DETECT"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 65
+name = "CLOSECOMBAT"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 70
+name = "REVERSAL"

@@ -1,0 +1,56 @@
+internal_name = "MISMAGIUS"
+form_mapping = { 1 = "Aevian", 2 = "Mega" }
+
+[forms.Aevian]
+form_name = "Aevian"
+# u guys gotta learn how to write
+pokedex_entry = "A gentle but misleadingly strong Pokémon, it helps those who got lost in the wetlands find their way out... At the cost of a little of their life force."
+primary_type = "GRASS"
+secondary_type = "GHOST"
+base_stats = { hp = 60, atk = 105, def_ = 60, spa = 105, spd = 60, spe = 105 }
+raw_abilities = ["MAGICBOUNCE", "POISONPOINT", "TANGLINGHAIR"]
+
+[[forms.Aevian.raw_level_up_moves]]
+at_level = 0
+name = "SHADOWCLAW"
+
+[[forms.Aevian.raw_level_up_moves]]
+at_level = 1
+name = "POISONJAB"
+
+[[forms.Aevian.raw_level_up_moves]]
+at_level = 1
+name = "POWERGEM"
+
+[[forms.Aevian.raw_level_up_moves]]
+at_level = 1
+name = "PHANTOMFORCE"
+
+[[forms.Aevian.raw_level_up_moves]]
+at_level = 1
+name = "LUCKYCHANT"
+
+[[forms.Aevian.raw_level_up_moves]]
+at_level = 1
+name = "MAGICALLEAF"
+
+[[forms.Aevian.raw_level_up_moves]]
+at_level = 1
+name = "GROWL"
+
+[[forms.Aevian.raw_level_up_moves]]
+at_level = 1
+name = "VINEWHIP"
+
+[[forms.Aevian.raw_level_up_moves]]
+at_level = 1
+name = "POISONPOWDER"
+
+[[forms.Aevian.raw_level_up_moves]]
+at_level = 1
+name = "ASTONISH"
+
+[forms.Mega]
+form_name = "Mega"
+base_stats = { hp = 70, atk = 60, def_ = 70, spa = 140, spd = 130, spe = 125 }
+raw_abilities = ["INFILTRATOR"]

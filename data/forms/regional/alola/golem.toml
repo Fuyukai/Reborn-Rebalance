@@ -1,0 +1,102 @@
+internal_name = "GOLEM"
+form_mapping = { 0 = "Kanto", 1 = "Alola" }
+custom_init = """
+maps=[231, 247, 251, 258, 259, 260, 261, 262, 263, 264, 340, 341, 342, 343, 344, 346, 347, 348, 349, 371, 614, 615, 616, 618, 847]
+# Map IDs for alolan form
+if $game_map && maps.include?($game_map.map_id)
+    next 1
+else
+    next 0
+end
+"""
+
+[forms.Alola]
+form_name = "Alola"
+pokedex_entry = "Because it can't fire boulders at a rapid pace, it's been known to seize nearby Geodude and fire them from its back."
+secondary_type = "ELECTRIC"
+raw_abilities = ["MAGNETPULL", "STURDY", "GALVANIZE"]
+base_stats = { hp = 90, atk = 135, def_ = 130, spa = 55, spd = 65, spe = 45 }
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 0
+name = "ROCKCLIMB"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "ROCKCLIMB"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "DEFENSECURL"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "TACKLE"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "ROCKPOLISH"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 4
+name = "CHARGE"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 6
+name = "ROCKPOLISH"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 10
+name = "STEAMROLLER"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 12
+name = "SPARK"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 16
+name = "ROCKTHROW"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 18
+name = "SMACKDOWN"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 22
+name = "THUNDERPUNCH"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 24
+name = "SELFDESTRUCT"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 30
+name = "STEALTHROCK"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 34
+name = "ROCKBLAST"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 40
+name = "DISCHARGE"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 44
+name = "EXPLOSION"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 50
+name = "DOUBLEEDGE"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 54
+name = "STONEEDGE"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 60
+name = "HEAVYSLAM"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 64
+name = "HEADSMASH"

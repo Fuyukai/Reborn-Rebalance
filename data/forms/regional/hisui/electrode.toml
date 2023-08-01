@@ -1,0 +1,92 @@
+internal_name = "ELECTRODE"
+form_mapping = { 0 = "Kanto", 1 = "Hisui" }
+custom_init = """
+chancemaps=[455,857]
+# Map IDs for galarian form
+if $game_map && chancemaps.include?($game_map.map_id)
+    randomnum = rand(2)
+    if randomnum == 1
+        next 1
+    elsif randomnum == 0
+        next 0
+    end
+else
+    next 0
+end
+"""
+
+[forms.Hisui]
+form_name = "Hisui"
+secondary_type = "GRASS"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 1
+name = "CHARGE"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 1
+name = "TACKLE"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 4
+name = "THUNDERSHOCK"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 6
+name = "STUNSPORE"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 9
+name = "BULLETSEED"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 11
+name = "ROLLOUT"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 13
+name = "SCREECH"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 16
+name = "CHARGEBEAM"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 20
+name = "SWIFT"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 22
+name = "ELECTROBALL"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 26
+name = "SELFDESTRUCT"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 29
+name = "ENERGYBALL"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 34
+name = "SEEDBOMB"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 34
+name = "DISCHARGE"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 41
+name = "EXPLOSION"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 46
+name = "GYROBALL"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 50
+name = "GRASSYTERRAIN"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 57
+name = "CHLOROBLAST"

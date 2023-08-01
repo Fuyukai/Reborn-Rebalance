@@ -1,0 +1,12 @@
+internal_name = "GOURGEIST"
+form_mapping = { 1 = "Small", 2 = "Mega" }
+mega_form = 2
+
+[forms.Small]
+form_name = "Small"
+base_stats = { hp = 55, atk = 58, def_ = 122, spa = 85, spd = 75, spe = 99 }
+
+[forms.Mega]
+form_name = "Mega"
+base_stats = { hp = 85, atk = 78, def_ = 132, spa = 130, spd = 85, spe = 84 }
+raw_abilities = ["PRANKSTER"]

@@ -1,0 +1,59 @@
+form_mapping = { 0 = "Johto", 1 = "Hisui" }
+custom_init = """
+chancemaps=[364,366,373,374,375,376,377,378,379,380,381,382,383,384,385,386,387,390,430,433,434]
+# Map IDs for galarian form
+if $game_map && chancemaps.include?($game_map.map_id)
+    randomnum = rand(2)
+    if randomnum == 1
+        next 1
+    elsif randomnum == 0
+        next 0
+    end
+else
+    next 0
+end
+"""
+
+[forms.Hisui]
+primary_type = "DARK"
+raw_abilities = ["TOXICDEBRIS", "SWIFTSWIM", "INTIMIDATE"]
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 1
+name = "POISONSTING"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 5
+name = "SPIKES"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 9
+name = "PINMISSILE"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 15
+name = "BARBBARRAGE"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 21
+name = "WATERPULSE"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 26
+name = "DARKPULSE"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 29
+name = "POISONJAB"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 37
+name = "AQUATAIL"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 47
+name = "DOUBLEEDGE"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 57
+name = "SELFDESTRUCT"

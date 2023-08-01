@@ -1,0 +1,79 @@
+internal_name = "HOOPA"
+form_mapping = { 1 = "Unbound" }
+
+[forms.Unbound]
+form_name = "Unbound"
+secondary_type = "DARK"
+base_stats = { hp = 80, atk = 160, def_ = 60, spa = 170, spd = 130, spe = 80 }
+
+[[forms.Unbound.raw_level_up_moves]]
+at_level = 1
+name = "HYPERSPACEFURY"
+
+[[forms.Unbound.raw_level_up_moves]]
+at_level = 1
+name = "TRICK"
+
+[[forms.Unbound.raw_level_up_moves]]
+at_level = 1
+name = "DESTINYBOND"
+
+[[forms.Unbound.raw_level_up_moves]]
+at_level = 1
+name = "ALLYSWITCH"
+
+[[forms.Unbound.raw_level_up_moves]]
+at_level = 1
+name = "CONFUSION"
+
+[[forms.Unbound.raw_level_up_moves]]
+at_level = 6
+name = "ASTONISH"
+
+[[forms.Unbound.raw_level_up_moves]]
+at_level = 10
+name = "MAGICCOAT"
+
+[[forms.Unbound.raw_level_up_moves]]
+at_level = 15
+name = "LIGHTSCREEN"
+
+[[forms.Unbound.raw_level_up_moves]]
+at_level = 19
+name = "PSYBEAM"
+
+[[forms.Unbound.raw_level_up_moves]]
+at_level = 25
+name = "SKILLSWAP"
+
+[[forms.Unbound.raw_level_up_moves]]
+at_level = 29
+name = "POWERSPLIT"
+
+[[forms.Unbound.raw_level_up_moves]]
+at_level = 29
+name = "GUARDSPLIT"
+
+[[forms.Unbound.raw_level_up_moves]]
+at_level = 46
+name = "KNOCKOFF"
+
+[[forms.Unbound.raw_level_up_moves]]
+at_level = 50
+name = "WONDERROOM"
+
+[[forms.Unbound.raw_level_up_moves]]
+at_level = 50
+name = "TRICKROOM"
+
+[[forms.Unbound.raw_level_up_moves]]
+at_level = 55
+name = "DARKPULSE"
+
+[[forms.Unbound.raw_level_up_moves]]
+at_level = 75
+name = "PSYCHIC"
+
+[[forms.Unbound.raw_level_up_moves]]
+at_level = 85
+name = "HYPERSPACEFURY"

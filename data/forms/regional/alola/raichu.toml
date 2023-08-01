@@ -1,0 +1,49 @@
+internal_name = "RAICHU"
+form_mapping = { 0 = "Kanto", 1 = "Alola" }
+
+[forms.Alola]
+form_name = "Alola"
+secondary_type = "PSYCHIC"
+base_stats = { hp = 60, atk = 90, def_ = 50, spa = 115, spd = 85, spe = 110 }
+raw_abilities = ["SURGESURFER"]
+pokedex_entry = "It uses psychokinesis to control electricity. It hops aboard its own tail, using psychic power to lift the tail and move about while riding it."
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 0
+name = "PSYCHIC"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "PSYCHIC"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "SPEEDSWAP"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "THUNDERSHOCK"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "TAILWHIP"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "QUICKATTACK"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "THUNDERBOLT"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 35
+name = "ELECTRICTERRAIN"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 48
+name = "NASTYPLOT"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 54
+name = "VOLTTACKLE"

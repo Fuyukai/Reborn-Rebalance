@@ -1,0 +1,22 @@
+internal_name = "NECROZMA"
+form_mapping = { 1 = "Dusk Mane", 2 = "Dawn Wings", 3 = "Ultra" }
+ultra_form = 3
+
+[forms."Dusk Mane"]
+form_name = "Dusk Mane"
+secondary_type = "STEEL"
+base_stats = { hp = 97, atk = 157, def_ = 127, spa = 113, spd = 109, spe = 77 }
+pokedex_entry = "This is its form while it is devouring the light of Solgaleo. It pounces on foes and then slashes them with the claws on its four limbs and back."
+
+[forms."Dawn Wings"]
+form_name = "Dawn Wings"
+secondary_type = "GHOST"
+base_stats = { hp = 97, atk = 113, def_ = 109, spa = 157, spd = 127, spe = 77 }
+pokedex_entry = "This is its form while it's devouring the light of Lunala. It grasps foes in its giant claws and rips them apart with brute force."
+
+[forms.Ultra]
+form_name = "Ultra"
+secondary_type = "DRAGON"
+pokedex_entry = "The light pouring out from all over its body affects living things and nature, impacting them in various ways."
+raw_abilities = ["NEUROFORCE"]
+base_stats = { hp = 97, atk = 167, def_ = 97, spa = 167, spd = 97, spe = 129 }

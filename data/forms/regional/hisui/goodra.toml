@@ -1,0 +1,82 @@
+form_mapping = { 0 = "Kalos", 1 = "Hisui" }
+
+[forms.Hisui]
+secondary_type = "STEEL"
+base_stats = { hp = 80, atk = 100, def_ = 100, spa = 110, spd = 150, spe = 60  }
+raw_abilities = ["SAPSIPPER", "SHELLARMOR", "GOOEY"]
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 0
+name = "IRONTAIL"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 0
+name = "SHELTER"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 1
+name = "ABSORB"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 1
+name = "ACIDSPRAY"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 1
+name = "DRAGONBREATH"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 1
+name = "FEINT"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 1
+name = "SHELTER"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 1
+name = "TACKLE"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 1
+name = "TEARFULLOOK"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 1
+name = "WATERGUN"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 15
+name = "PROTECT"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 20
+name = "FLAIL"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 30
+name = "RAINDANCE"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 35
+name = "DRAGONDANCE"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 43
+name = "CURSE"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 49
+name = "BODYSLAM"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 49
+name = "IRONHEAD"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 58
+name = "MUDDYWATER"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 67
+name = "HEAVYSLAM"

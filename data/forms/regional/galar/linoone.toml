@@ -1,0 +1,92 @@
+form_mapping = { 1 = "Galar" }
+custom_init = """
+chancemaps=[285,286,287,290,291,519,831]
+# Map IDs for galarian form
+if $game_map && chancemaps.include?($game_map.map_id)
+    randomnum = rand(2)
+    if randomnum == 1
+        next 1
+    elsif randomnum == 0
+        next 0
+    end
+else
+    next 0
+end
+"""
+
+[forms.Galar]
+pokedex_entry = "It uses its long tongue to taunt opponents. Once the opposition is enraged, this Pokémon hurls itself at the opponent, tackling them forcefully."
+primary_type = "DARK"
+evo_data = [[862, 30, 35]]
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 0
+name = "NIGHTSLASH"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "BABYDOLLEYES"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "PINMISSILE"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "LEER"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "TACKLE"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "SANDATTACK"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "LICK"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "SWITCHEROO"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 9
+name = "SNARL"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 12
+name = "HEADBUTT"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 15
+name = "HONECLAWS"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 18
+name = "FURYSWIPES"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 23
+name = "REST"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 28
+name = "TAKEDOWN"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 33
+name = "SCARYFACE"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 38
+name = "COUNTER"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 43
+name = "TAUNT"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 48
+name = "DOUBLEEDGE"

@@ -1,0 +1,54 @@
+form_mapping = { 0 = "Johto", 1 = "Hisui" }
+
+[forms.Hisui]
+secondary_type = "GHOST"
+raw_abilities = ["BLAZE", "ANGERPOINT", "INFILTRATOR"]
+base_stats = { hp = 73, atk = 84, def_ = 78, spa = 119, spd = 85, spe = 96 }
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 0
+name = "HEX"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 1
+name = "HEX"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 1
+name = "QUICKATTACK"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 1
+name = "WILLOWISP"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 6
+name = "EMBER"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 11
+name = "ROLLOUT"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 18
+name = "FLAMEWHEEL"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 25
+name = "SWIFT"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 34
+name = "FLAMETHROWER"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 40
+name = "INFERNALPARADE"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 43
+name = "OVERHEAT"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 43
+name = "SHADOWBALL"

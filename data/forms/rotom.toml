@@ -1,0 +1,27 @@
+internal_name = "ROTOM"
+form_mapping = { 1 = "Heat", 2 = "Wash", 3 = "Frost", 4 = "Fan", 5 = "Mow" }
+
+[forms.Heat]
+form_name = "Heat"
+secondary_type = "FIRE"
+raw_abilities = ["LEVITATE", "SOLARPOWER"]
+
+[forms.Wash]
+form_name = "Wash"
+secondary_type = "WATER"
+raw_abilities = ["LEVITATE", "WATERABSORB"]
+
+[forms.Frost]
+form_name = "Frost"
+secondary_type = "ICE"
+raw_abilities = ["LEVITATE", "SNOWWARNING"]
+
+[forms.Fan]
+form_name = "Fan"
+secondary_type = "FLYING"
+raw_abilities = ["LEVITATE", "MOTORDRIVE"]
+
+[forms.Mow]
+form_name = "Mow"
+secondary_type = "GRASS"
+raw_abilities = ["LEVITATE", "GRASSYSURGE"]

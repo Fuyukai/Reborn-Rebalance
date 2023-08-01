@@ -1,0 +1,99 @@
+internal_name = "VULPIX"
+form_mapping = { 0 = "Kanto", 1 = "Alola" }
+custom_init = """
+maps=[439,721,723,725,726,727,729,794]
+# Map IDs for alolan form
+next $game_map && maps.include?($game_map.map_id) ? 1 : 0
+"""
+
+[forms.Alola]
+form_name = "Alola"
+pokedex_entry = "In hot weather, this Pokémon makes ice shards with its six tails and sprays them around to cool itself off."
+primary_type = "ICE"
+secondary_type = "ICE"
+raw_abilities = ["SNOWWARNING"]
+evo_data = [[38, 7, 692]]
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "POWDERSNOW"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 4
+name = "TAILWHIP"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 7
+name = "ROAR"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 9
+name = "BABYDOLLEYES"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 10
+name = "ICESHARD"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 12
+name = "CONFUSERAY"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 15
+name = "ICYWIND"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 18
+name = "PAYBACK"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 20
+name = "MIST"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 23
+name = "FEINTATTACK"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 26
+name = "HEX"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 28
+name = "AURORABEAM"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 31
+name = "EXTRASENSORY"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 34
+name = "SAFEGUARD"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 36
+name = "ICEBEAM"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 39
+name = "IMPRISON"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 42
+name = "BLIZZARD"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 44
+name = "GRUDGE"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 47
+name = "CAPTIVATE"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 50
+name = "SHEERCOLD"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 52
+name = "WEATHERBALL"

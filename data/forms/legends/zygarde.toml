@@ -1,0 +1,12 @@
+internal_name = "ZYGARDE"
+form_mapping = { 0 = "50%", 1 = "10%", 2 = "100%" }
+
+[forms."10%"]
+form_name = "50%"
+pokedex_entry = "Its sharp fangs make short work of finishing off its enemies, but it's unable to maintain this body indefinitely. After a period of time, it falls apart."
+base_stats = { hp = 54, atk = 100, def_ = 71, spa = 61, spd = 85, spe = 115 }
+
+[forms."100%"]
+form_name = "100%"
+pokedex_entry = "This is Zygarde's form at times when it uses its overwhelming power to suppress those who endanger the ecosystem."
+base_stats = { hp = 216, atk = 100, def_ = 121, spa = 91, spd = 95, spe = 85 }

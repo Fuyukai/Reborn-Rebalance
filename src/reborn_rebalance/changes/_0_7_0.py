@@ -161,3 +161,11 @@ def build_changes(builder: ChangelogBuilder):
         "CHARJABUG", "Now evolves inside Shade's Gym (location 281), similar to old Magneton."
     )
     builder.pokemon("VIKAVOLT", "Now Alola's second psuedo-Legend.")
+
+    builder.pokemon(
+        "RAPIDASH",
+        """
+        Rapidash-G is now Fire/Psychic instead of the overused Psychic/Fairy. It has a much more
+        similar movepool to its Kantoian form, too.
+        """,
+    )

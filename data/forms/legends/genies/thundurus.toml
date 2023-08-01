@@ -1,0 +1,7 @@
+internal_name = "THUNDURUS"
+form_mapping = { 0 = "Incarnate", 1 = "Therian" }
+
+[forms.Therian]
+form_name = "Therian"
+base_stats = { hp = 79, atk = 105, def_ = 70, spa = 145, spd = 80, spe = 101 }
+raw_abilities = ["VOLTABSORB"]

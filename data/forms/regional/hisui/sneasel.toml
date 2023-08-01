@@ -1,0 +1,52 @@
+form_mapping = { 0 = "Johto", 1 = "Hisui" }
+custom_init = """
+maps=[361,404]
+# Map IDs for galarian form
+if $game_map && maps.include?($game_map.map_id)
+        next 1
+else
+    next 0
+end
+"""
+
+[forms.Johto]
+evo_data = [[461, 19, 105]]
+
+[forms.Hisui]
+primary_type = "FIGHTING"
+secondary_type = "POISON"
+raw_abilities = ["INNERFOCUS", "SHARPNESS", "PICKPOCKET"]
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 1
+name = "QUICKATTACK"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 6
+name = "ROCKSMASH"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 11
+name = "SWIFT"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 18
+name = "SLASH"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 25
+name = "POISONJAB"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 34
+name = "SWORDSDANCE"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 43
+name = "CLOSECOMBAT"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 50
+name = "DRAINPUNCH"
+
+

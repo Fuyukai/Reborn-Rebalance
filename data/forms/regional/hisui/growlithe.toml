@@ -1,0 +1,79 @@
+# lura update. im like 60 forms in and my brain is going to mush.
+internal_name = "GROWLITHE"
+form_mapping = { 0 = "Kanto", 1 = "Hisui" }
+custom_init = """
+chancemaps=[523]
+# Map IDs for hisuian form
+if $game_map && chancemaps.include?($game_map.map_id)
+    randomnum = rand(2)
+    if randomnum == 1
+        next 1
+    elsif randomnum == 0
+        next 0
+    end
+else
+    next 0
+end
+"""
+
+[forms.Hisui]
+form_name = "Hisui"
+raw_abilities = ["INTIMIDATE", "FLASHFIRE", "ROCKHEAD"]
+secondary_type = "ROCK"
+base_stats = { hp = 60, atk = 75, def_ = 45, spa = 65, spd = 50, spe = 55 }
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 1
+name = "LEER"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 1
+name = "EMBER"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 4
+name = "HOWL"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 8
+name = "BITE"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 12
+name = "FLAMEWHEEL"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 16
+name = "HELPINGHAND"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 24
+name = "FIREFANG"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 28
+name = "RETALIATE"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 32
+name = "CRUNCH"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 40
+name = "FLAMETHROWER"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 44
+name = "ROAR"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 48
+name = "ROCKSLIDE"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 52
+name = "REVERSAL"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 56
+name = "FLAREBLITZ"

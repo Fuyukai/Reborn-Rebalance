@@ -1,0 +1,147 @@
+internal_name = "MEOWTH"
+form_mapping = { 0 = "Kanto", 1 = "Alola", 2 = "Galar" }
+custom_init = """
+aMaps=[170, 524]
+gMaps=[439]
+# Map IDs for alolan and galarian forms respectively
+if $game_map && aMaps.include?($game_map.map_id)
+    next 1
+elsif $game_map && gMaps.include?($game_map.map_id)
+    next 2
+else
+    next 0
+end
+"""
+
+[forms.Alola]
+form_name = "Alola"
+pokedex_entry = "When its delicate pride is wounded, or when the gold coin on its forehead is dirtied, it flies into a hysterical rage."
+primary_type = "DARK"
+secondary_type = "DARK"
+base_stats = { hp = 40, atk = 35, def_ = 35, spa = 50, spd = 40, spe = 90 }
+raw_abilities = ["PICKUP", "TECHNICIAN", "RATTLED"]
+evo_data = [[53, 1, 0]]
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "SCRATCH"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "GROWL"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 6
+name = "BITE"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 9
+name = "FAKEOUT"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 14
+name = "FURYSWIPES"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 17
+name = "SCREECH"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 22
+name = "FEINTATTACK"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 25
+name = "TAUNT"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 30
+name = "PAYDAY"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 33
+name = "SLASH"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 38
+name = "NASTYPLOT"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 41
+name = "ASSURANCE"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 46
+name = "CAPTIVATE"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 49
+name = "NIGHTSLASH"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 50
+name = "FEINT"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 55
+name = "DARKPULSE"
+
+[forms.Galar]
+form_name = "Galar"
+pokedex_entry = "These daring Pokémon have coins on their foreheads. Darker coins are harder, and harder coins garner more respect among Meowth."
+primary_type = "STEEL"
+secondary_type = "STEEL"
+base_stats = { hp = 50, atk = 65, def_ = 55, spa = 40, spd = 40, spe = 40 }
+evo_data = [[863, 4, 28]]
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "FAKEOUT"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "GROWL"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 4
+name = "HONECLAWS"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 8
+name = "SCRATCH"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 12
+name = "PAYDAY"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 16
+name = "METALCLAW"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 20
+name = "TAUNT"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 24
+name = "SWAGGER"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 29
+name = "FURYSWIPES"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 32
+name = "SCREECH"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 36
+name = "SLASH"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 40
+name = "METALSOUND"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 44
+name = "THRASH"

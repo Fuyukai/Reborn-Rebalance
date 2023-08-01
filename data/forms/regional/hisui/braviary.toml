@@ -1,0 +1,112 @@
+form_mapping = { 0 = "Unova", 1 = "Hisui" }
+custom_init = """
+chancemaps=[642,643,646,836,837]
+# Map IDs for galarian form
+if $game_map && chancemaps.include?($game_map.map_id)
+    randomnum = rand(2)
+    if randomnum == 1
+        next 1
+    elsif randomnum == 0
+        next 0
+    end
+else
+    next 0
+end
+"""
+
+[forms.Hisui]
+primary_type = "PSYCHIC"
+raw_abilities = ["KEENEYE", "SHEERFORCE", "TINTEDLENS"]
+
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 0
+name = "ESPERWING"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 1
+name = "LEER"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 1
+name = "PECK"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 6
+name = "HONECLAWS"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 12
+name = "WINGATTACK"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 15
+name = "ESPERWING"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 18
+name = "TAILWIND"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 21
+name = "AERIALACE"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 24
+name = "SCARYFACE"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 27
+name = "WHIRLWIND"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 30
+name = "BULKUP"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 33
+name = "AIRSLASH"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 36
+name = "SLASH"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 36
+name = "NIGHTSLASH"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 39
+name = "AGILITY"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 44
+name = "SUPERPOWER"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 47
+name = "DUALWINGBEAT"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 51
+name = "QUICKATTACK"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 55
+name = "STEELWING"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 58
+name = "BRAVEBIRD"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 62
+name = "ZENHEADBUTT"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 66
+name = "DEFOG"
+
+[[forms.Hisui.raw_level_up_moves]]
+at_level = 70
+name = "CLOSECOMBAT"

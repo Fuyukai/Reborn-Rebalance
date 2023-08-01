@@ -1,0 +1,92 @@
+# original code says form 2, but the spritesheet is duplicated?
+form_mapping = { 0 = "Kanto", 2 = "Galar" }
+custom_init = """
+chancemaps=[238,412,545,546,713,715,716,718,726,742,763]
+# Map IDs for galarian form
+if $game_map && chancemaps.include?($game_map.map_id)
+    randomnum = rand(2)
+    if randomnum == 1
+        next 2
+    elsif randomnum == 0
+        next 0
+    end
+else
+    next 0
+end
+"""
+
+[forms.Galar]
+primary_type = "PSYCHIC"
+pokedex_entry = "Although this Pokémon is normally zoned out, its expression abruptly sharpens on occasion. The cause for this seems to lie in Slowpoke’s diet."
+raw_abilities = ["GLUTTONY", "OWNTEMPO", "REGENERATOR"]
+evo_data = [[80, 7, 900], [199, 7, 901]]
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "TACKLE"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "CURSE"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 3
+name = "GROWL"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 6
+name = "ACID"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 9
+name = "YAWN"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 12
+name = "CONFUSION"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 15
+name = "DISABLE"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 18
+name = "WATERPULSE"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 21
+name = "HEADBUTT"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 24
+name = "ZENHEADBUTT"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 27
+name = "AMNESIA"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 30
+name = "SURF"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 33
+name = "SLACKOFF"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 36
+name = "PSYCHIC"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 39
+name = "PSYCHUP"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 42
+name = "RAINDANCE"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 45
+name = "HEALPULSE"
+
+

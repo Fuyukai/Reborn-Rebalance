@@ -1,0 +1,63 @@
+internal_name = "SANDSLASH"
+form_mapping = { 0 = "Kanto", 1 = "Alola" }
+custom_init = """
+maps=[364, 366, 373, 374, 375, 376, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 387, 390, 396, 430, 433, 434, 440, 441, 442, 749, 750, 834, 882]
+# Map IDs for alolan form
+next $game_map && maps.include?($game_map.map_id) ? 1 : 0
+"""
+
+[forms.Alola]
+form_name = "Alola"
+pokedex_entry = "This Pokémon's steel spikes are sheathed in ice. Stabs from these spikes cause deep wounds and severe frostbite as well."
+primary_type = "ICE"
+secondary_type = "STEEL"
+base_stats = { hp = 95, atk = 110, def_ = 120, spa = 25, spd = 65, spe = 65 }
+raw_abilities = ["SLUSHRUSH"]
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 0
+name = "ICICLESPEAR"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 0
+name = "ICICLECRASH"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "ICICLESPEAR"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "ICICLECRASH"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "METALBURST"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "SLASH"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "DEFENSECURL"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "ICEBALL"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "METALCLAW"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 30
+name = "IRONHEAD"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 40
+name = "SPIKYSHIELD"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 44
+name = "SPIKES"

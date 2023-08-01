@@ -1,0 +1,8 @@
+internal_name = "DEERLING"
+custom_init = """
+maps=[710,711,712,713,714,715,716,717,718,719,720,721,722,723,724,725,726,727,728,729,742]
+case rand(2)
+    when 0 then next $game_map && maps.include?($game_map.map_id) ? 2 : 0
+    when 1 then next $game_map && maps.include?($game_map.map_id) ? 3 : 1
+end
+"""

@@ -1,0 +1,68 @@
+internal_name = "RATTATA"
+form_mapping = { 0 = "Kanto", 1 = "Alola" }
+custom_init = """
+maps=[170, 524]
+# Map IDs for alolan form
+next $game_map && maps.include?($game_map.map_id) ? 1 : 0
+"""
+
+[forms.Alola]
+form_name = "Alola"
+primary_type = "DARK"
+secondary_type = "NORMAL"
+raw_abilities = ["GLUTTONY", "HUSTLE", "THICKFAT"]
+pokedex_entry = "With its incisors, it gnaws through doors and infiltrates people's homes. Then, with a twitch of its whiskers, it steals whatever food it finds."
+# what could this mean??
+evo_data = [[20, 30, 20]]
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "TACKLE"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "TAILWHIP"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 4
+name = "QUICKATTACK"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 7
+name = "FOCUSENERGY"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 10
+name = "BITE"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 13
+name = "PURSUIT"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 16
+name = "HYPERFANG"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 19
+name = "ASSURANCE"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 22
+name = "CRUNCH"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 25
+name = "SUCKERPUNCH"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 28
+name = "SUPERFANG"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 31
+name = "DOUBLEEDGE"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 34
+name = "ENDEAVOR"

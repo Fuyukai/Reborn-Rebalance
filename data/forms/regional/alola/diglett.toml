@@ -1,0 +1,70 @@
+internal_name = "DIGLETT"
+form_mapping = { 0 = "Kanto", 1 = "Alola" }
+custom_init = """
+maps=[33, 34, 35, 199, 201, 202, 203, 204]
+# Map IDs for alolan form
+next $game_map && maps.include?($game_map.map_id) ? 1 : 0
+"""
+
+[forms.Alola]
+form_name = "Alola"
+pokedex_entry = "Its head sports an altered form of whiskers made of metal. When in communication with its comrades, its whiskers wobble to and fro."
+secondary_type = "STEEL"
+base_stats = { hp = 10, atk = 55, def_ = 30, spa = 35, spd = 40, spe = 90 }
+raw_abilities = ["TANGLINGHAIR", "SANDFORCE"]
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "SANDATTACK"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 1
+name = "METALCLAW"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 4
+name = "GROWL"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 7
+name = "ASTONISH"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 10
+name = "MUDSLAP"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 14
+name = "MAGNITUDE"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 18
+name = "BULLDOZE"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 22
+name = "SUCKERPUNCH"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 25
+name = "MUDBOMB"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 28
+name = "EARTHPOWER"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 31
+name = "DIG"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 35
+name = "IRONHEAD"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 39
+name = "EARTHQUAKE"
+
+[[forms.Alola.raw_level_up_moves]]
+at_level = 43
+name = "FISSURE"
