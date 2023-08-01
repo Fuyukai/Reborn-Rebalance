@@ -1,0 +1,66 @@
+form_mapping = { 1 = "Sow" }
+
+[forms.Sow]
+raw_abilities = ["AROMAVEIL", "GLUTTONY", "THICKFAT"]
+pokedex_entry = "This is a meticulous Pokémon that likes to keep things tidy. It shrouds itself in a floral aroma that soothes the Pokémon around it."
+base_stats = { hp = 115, atk = 90, def_ = 70, spa = 59, spd = 90, spe = 65 }
+
+[[forms.Paldea.raw_level_up_moves]]
+at_level = 1
+name = "TACKLE"
+
+[[forms.Paldea.raw_level_up_moves]]
+at_level = 1
+name = "TAILWHIP"
+
+[[forms.Paldea.raw_level_up_moves]]
+at_level = 3
+name = "DISARMINGVOICE"
+
+[[forms.Paldea.raw_level_up_moves]]
+at_level = 6
+name = "ECHOEDVOICE"
+
+[[forms.Paldea.raw_level_up_moves]]
+at_level = 9
+name = "MUDSHOT"
+
+[[forms.Paldea.raw_level_up_moves]]
+at_level = 12
+name = "COVET"
+
+[[forms.Paldea.raw_level_up_moves]]
+at_level = 15
+name = "DIG"
+
+[[forms.Paldea.raw_level_up_moves]]
+at_level = 17
+name = "HEADBUTT"
+
+[[forms.Paldea.raw_level_up_moves]]
+at_level = 23
+name = "YAWN"
+
+[[forms.Paldea.raw_level_up_moves]]
+at_level = 28
+name = "TAKEDOWN"
+
+[[forms.Paldea.raw_level_up_moves]]
+at_level = 30
+name = "WORKUP"
+
+[[forms.Paldea.raw_level_up_moves]]
+at_level = 34
+name = "UPROAR"
+
+[[forms.Paldea.raw_level_up_moves]]
+at_level = 39
+name = "DOUBLEEDGE"
+
+[[forms.Paldea.raw_level_up_moves]]
+at_level = 45
+name = "EARTHPOWER"
+
+[[forms.Paldea.raw_level_up_moves]]
+at_level = 51
+name = "BELCH"

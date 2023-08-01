@@ -25,6 +25,10 @@ the form mapping) that override properties of the base species. The valid proper
 The transpiler will convert these into Ruby code and place them into ``MultipleForms.rb``
 automatically.
 
+There's no auto-import tool for forms like there is for species. You'll have to write them by
+hand. Note that the base stat total format is [HP, ATK, DEF, SPE, SPA, SPD] in the original Ruby
+files.
+
 Layout
 ------
 

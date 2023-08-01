@@ -1,0 +1,9 @@
+form_mapping = { 0 = "Double", 1 = "Triple" }
+custom_init = """
+randomnum = rand(10)
+if randomnum == 9
+    next 1
+else
+    next 0
+end
+"""

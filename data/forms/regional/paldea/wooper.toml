@@ -1,0 +1,57 @@
+form_mapping = { 0 = "Johto", 1 = "Paldea" }
+custom_init = """rand(2)"""
+
+[forms.Paldea]
+primary_type = "POISON"
+secondary_type = "GROUND"
+pokedex_entry = "After losing a territorial struggle, Wooper began living on land. The Pokémon changed over time, developing a poisonous film to protect its body."
+raw_abilities = ["POISONPOINT", "WATERABSORB", "UNAWARE"]
+evo_data = [[994, 4, 20]]
+
+[[forms.Paldea.raw_level_up_moves]]
+at_level = 1
+name = "TAILWHIP"
+
+[[forms.Paldea.raw_level_up_moves]]
+at_level = 1
+name = "MUDSHOT"
+
+[[forms.Paldea.raw_level_up_moves]]
+at_level = 4
+name = "TACKLE"
+
+[[forms.Paldea.raw_level_up_moves]]
+at_level = 8
+name = "POISONTAIL"
+
+[[forms.Paldea.raw_level_up_moves]]
+at_level = 12
+name = "TOXICSPIKES"
+
+[[forms.Paldea.raw_level_up_moves]]
+at_level = 16
+name = "SLAM"
+
+[[forms.Paldea.raw_level_up_moves]]
+at_level = 21
+name = "YAWN"
+
+[[forms.Paldea.raw_level_up_moves]]
+at_level = 24
+name = "POISONJAB"
+
+[[forms.Paldea.raw_level_up_moves]]
+at_level = 28
+name = "SLUDGEWAVE"
+
+[[forms.Paldea.raw_level_up_moves]]
+at_level = 32
+name = "AMNESIA"
+
+[[forms.Paldea.raw_level_up_moves]]
+at_level = 36
+name = "TOXIC"
+
+[[forms.Paldea.raw_level_up_moves]]
+at_level = 40
+name = "EARTHQUAKE"
