@@ -1,0 +1,106 @@
+form_mapping = { 0 = "Amped", 1 = "Lowkey" }
+custom_init = "rand(2)"
+has_dynamax_form = true
+
+[forms.Lowkey]
+raw_abilities = ["PUNKROCK", "MINUS", "TECHNICIAN"]
+
+[[forms.Lowkey.raw_level_up_moves]]
+at_level = 1
+name = "SPARK"
+
+[[forms.Lowkey.raw_level_up_moves]]
+at_level = 1
+name = "EERIEIMPULSE"
+
+[[forms.Lowkey.raw_level_up_moves]]
+at_level = 1
+name = "BELCH"
+
+[[forms.Lowkey.raw_level_up_moves]]
+at_level = 1
+name = "TEARFULLOOK"
+
+[[forms.Lowkey.raw_level_up_moves]]
+at_level = 1
+name = "NUZZLE"
+
+[[forms.Lowkey.raw_level_up_moves]]
+at_level = 1
+name = "GROWL"
+
+[[forms.Lowkey.raw_level_up_moves]]
+at_level = 1
+name = "FLAIL"
+
+[[forms.Lowkey.raw_level_up_moves]]
+at_level = 1
+name = "ACID"
+
+[[forms.Lowkey.raw_level_up_moves]]
+at_level = 1
+name = "THUNDERSHOCK"
+
+[[forms.Lowkey.raw_level_up_moves]]
+at_level = 1
+name = "ACIDSPRAY"
+
+[[forms.Lowkey.raw_level_up_moves]]
+at_level = 1
+name = "LEER"
+
+[[forms.Lowkey.raw_level_up_moves]]
+at_level = 1
+name = "NOBLEROAR"
+
+[[forms.Lowkey.raw_level_up_moves]]
+at_level = 4
+name = "CHARGE"
+
+[[forms.Lowkey.raw_level_up_moves]]
+at_level = 8
+name = "SHOCKWAVE"
+
+[[forms.Lowkey.raw_level_up_moves]]
+at_level = 12
+name = "SCARYFACE"
+
+[[forms.Lowkey.raw_level_up_moves]]
+at_level = 16
+name = "TAUNT"
+
+[[forms.Lowkey.raw_level_up_moves]]
+at_level = 20
+name = "VENOMDRENCH"
+
+[[forms.Lowkey.raw_level_up_moves]]
+at_level = 24
+name = "SCREECH"
+
+[[forms.Lowkey.raw_level_up_moves]]
+at_level = 28
+name = "SWAGGER"
+
+[[forms.Lowkey.raw_level_up_moves]]
+at_level = 32
+name = "TOXIC"
+
+[[forms.Lowkey.raw_level_up_moves]]
+at_level = 36
+name = "DISCHARGE"
+
+[[forms.Lowkey.raw_level_up_moves]]
+at_level = 40
+name = "POISONJAB"
+
+[[forms.Lowkey.raw_level_up_moves]]
+at_level = 44
+name = "OVERDRIVE"
+
+[[forms.Lowkey.raw_level_up_moves]]
+at_level = 48
+name = "BOOMBURST"
+
+[[forms.Lowkey.raw_level_up_moves]]
+at_level = 52
+name = "MAGNETICFLUX"

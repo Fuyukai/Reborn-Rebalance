@@ -19,7 +19,10 @@ def main(
         form_count = max(forms.form_mapping.keys()) + 1
 
         # dynamax forms add an extra 4 tiles, so imagemagick will crop it but we discard it.
-        if forms.has_dynamax_form:
+        if root_species.internal_name == "URSHIFU":
+            form_count += 2
+
+        elif forms.has_dynamax_form:
             form_count += 1
 
         input_file = reborn_path / "Graphics" / "Battlers" / f"{root_species.dex_number:03d}.png"
