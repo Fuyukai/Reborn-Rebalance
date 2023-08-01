@@ -195,6 +195,9 @@ def load_all_forms(path: Path) -> dict[str, PokemonForms]:
         if subfile.is_dir():
             continue
 
+        if subfile.suffix != ".toml":
+            continue
+
         print(f"LOAD: {subfile.absolute()}")
         with subfile.open(mode="r", encoding="utf-8") as f:
             forms_for_mon = tomlkit.load(f)
