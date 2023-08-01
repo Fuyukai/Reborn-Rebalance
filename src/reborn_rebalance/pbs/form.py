@@ -97,20 +97,20 @@ class SinglePokemonForm:
         """
 
         if self.primary_type:
-            buffer.write_line(f":Type1 => PBTypes::{self.primary_type.name}")
+            buffer.write_line(f":Type1 => PBTypes::{self.primary_type.name},")
 
         if self.secondary_type:
-            buffer.write_line(f":Type2 => PBTypes::{self.secondary_type.name}")
+            buffer.write_line(f":Type2 => PBTypes::{self.secondary_type.name},")
 
         if self.base_stats:
-            buffer.write_line(f":BaseStats => [{self.base_stats.to_pbs()}]")
+            buffer.write_line(f":BaseStats => [{self.base_stats.to_pbs()}],")
 
         if self.pokedex_entry:
-            buffer.write_line(f':DexEntry => "{self.pokedex_entry}"')
+            buffer.write_line(f':DexEntry => "{self.pokedex_entry}",')
 
         if self.raw_abilities:
             ability_line = ", ".join([f"PBAbilities::{ability}" for ability in self.raw_abilities])
-            buffer.write_line(f":Ability => [{ability_line}]")
+            buffer.write_line(f":Ability => [{ability_line}],")
 
         if self.raw_level_up_moves:
             buffer.write_line(":Movelist => [")
@@ -126,7 +126,7 @@ class SinglePokemonForm:
 
             with buffer.indented():
                 for evo in self.evo_data:
-                    buffer.write_line(f"[{evo[0]},{evo[1]},{evo[2]}]")
+                    buffer.write_line(f"[{evo[0]},{evo[1]},{evo[2]}],")
 
             buffer.write_line("],")
 
