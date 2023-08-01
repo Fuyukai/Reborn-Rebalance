@@ -22,8 +22,10 @@ unidecode = "^1.3.6"
 [tool.poetry.scripts]
 into-pbs = "reborn_rebalance.scripts.dumping:to_pbs"
 into-toml = "reborn_rebalance.scripts.dumping:to_toml"
+gen-sprites = "reborn_rebalance.scripts.gen_sprites:gen_all_sprites"
 ruby-unmarshal = "reborn_rebalance.scripts.unmarshal:main"
 gen-sprite = "reborn_rebalance.scripts.crop_form:run"
+gen-web = "reborn_rebalance.web:main"
 
 [tool.isort]
 profile = "black"
