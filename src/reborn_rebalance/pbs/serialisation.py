@@ -110,14 +110,15 @@ def load_all_species_from_toml(path: Path) -> list[PokemonSpecies]:
     Loads all species from the TOML directory, and returns them in Pokédex order.
     """
 
-    to_read = []
+    to_read: list[Path] = []
 
-    for dir in path.iterdir():
-        for subpath in dir.iterdir():
-            to_read.append(subpath)
+    for f in path.rglob("*"):
+        if f.is_dir():
+            continue
+
+        to_read.append(f)
 
     species: list[PokemonSpecies] = [None] * len(to_read)  # type: ignore
-    futures = []
 
     with concurrent.futures.ProcessPoolExecutor() as executor:
         for idx, decoded in executor.map(load_single_species_toml, to_read):
@@ -184,12 +185,35 @@ def save_all_species_to_toml(output_path: Path, input_pokemon: list[PokemonSpeci
         print(f"Saved {name}")
 
 
+def load_single_form(path: Path) -> PokemonForms:
+    """
+    Loads a single form from the provided path.
+    """
+
+    print(f"LOAD (form): {path}")
+    with path.open(mode="r", encoding="utf-8") as f:
+        forms_for_mon = tomlkit.load(f)
+
+    if "internal_name" not in forms_for_mon:
+        name = path.stem
+        forms_for_mon["internal_name"] = name.upper()
+
+    forms_for_mon = CONVERTER.structure(forms_for_mon, PokemonForms)
+
+    # backfill in form name. why did I type this into 100 files manually? im gonna kill myself.
+    for name, form in forms_for_mon.forms.items():
+        form.form_name = name
+
+    return forms_for_mon
+
+
 def load_all_forms(path: Path) -> dict[str, PokemonForms]:
     """
     Loads all forms from the provided path.
     """
 
     all_forms = {}
+    to_load: list[Path] = []
 
     for subfile in path.glob("**/*"):
         if subfile.is_dir():
@@ -198,21 +222,11 @@ def load_all_forms(path: Path) -> dict[str, PokemonForms]:
         if subfile.suffix != ".toml":
             continue
 
-        print(f"LOAD: {subfile.absolute()}")
-        with subfile.open(mode="r", encoding="utf-8") as f:
-            forms_for_mon = tomlkit.load(f)
+        to_load.append(subfile)
 
-        if "internal_name" not in forms_for_mon:
-            name = subfile.stem
-            forms_for_mon["internal_name"] = name.upper()
-
-        forms_for_mon = CONVERTER.structure(forms_for_mon, PokemonForms)
-
-        # backfill in form name. why did I type this into 100 files manually? im gonna kill myself.
-        for name, form in forms_for_mon.forms.items():
-            form.form_name = name
-
-        all_forms[forms_for_mon.internal_name] = forms_for_mon
+    with concurrent.futures.ProcessPoolExecutor() as executor:
+        for forms in executor.map(load_single_form, to_load):
+            all_forms[forms.internal_name] = forms
 
     return all_forms
 
