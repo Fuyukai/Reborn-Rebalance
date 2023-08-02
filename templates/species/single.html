@@ -201,7 +201,11 @@
                 {% set map_name = catalog.map_names[map_id] %}
                 {% for type, encounter in encounter_mapping.items() %}
                 <tr>
-                    <td><abbr title="Map ID {{ map_id }}">{{ map_name }}</abbr></td>
+                    <td>
+                        <span title="Map ID {{ map_id }}">
+                            <a href="/maps/{{ map_id }}">{{ map_name }}</a>
+                        </span>
+                    </td>
                     <td>{{ type }}</td>
                     <td>{{ encounter.min_level }} - {{ encounter.max_level }}</td>
                     <td>{{ encounter.chance }}%</td>
@@ -213,6 +217,18 @@
             {% if not encounters %}
             <h2 class="subtitle has-text-centered">This Pokémon does not appear in the wild.</h2>
             {% endif %}
+
+            <hr/>
+
+            <h2 class="subtitle">Event Encounters</h2>
+            <table class="table is-fullwidth is-striped">
+                <thead>
+                <tr class="is-primary">
+                    <th>Map</th>
+                    <th>Before?</th>
+                </tr>
+                </thead>
+            </table>
         </div>
     </div>
 </div>
