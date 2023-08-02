@@ -270,14 +270,14 @@ class PokemonSpecies:
             raise ValueError(f"catch rate {rate} is > 255 (not allowed)")
 
     #: The Pokédex number of this species. Backfilled.
-    dex_number: int = attr.ib(default=0)
+    dex_number: int = attr.ib()
 
     #: The name for this species, e.g. 'Togekiss'.
     name: str = attr.ib(kw_only=True)
 
     #: The internal name for this species. Defaults to the uppercase of ``name``.
     internal_name: str = attr.ib(
-        default=attrs.Factory(lambda it: it.name, takes_self=True),
+        default=attrs.Factory(lambda it: it.name.upper(), takes_self=True),
         kw_only=True,
     )
 
@@ -309,12 +309,13 @@ class PokemonSpecies:
     #: The list of raw abilities this Pokémon can have. Non-empty.
     raw_abilities: list[str] = attr.ib()
     #: The hidden ability for this Pokémon, or None if it has no specific hidden ability.
+    #: Deprecated.
     raw_hidden_ability: str | None = attr.ib(default=None)
 
     #: The list of moves learned upon level up.
     raw_level_up_moves: list[RawLevelUpMove] = attr.ib()
     #: The list of egg moves this species can learn.
-    raw_egg_moves: list[str] = attr.ib()
+    raw_egg_moves: list[str] = attr.ib(factory=list)
     #: The list of TMs this species can learn.
     raw_tms: list[str] = attr.ib()
     #: The list of tutor moves this species can learn.
@@ -350,10 +351,10 @@ class PokemonSpecies:
     battler_altitude: int = attr.ib()
 
     #: The list of possible evolutions for this species.
-    evolutions: list[PokemonEvolution] = attr.ib()
+    evolutions: list[PokemonEvolution] = attr.ib(factory=list)
 
     # used internally ig?
-    form_names: list[str] = attr.ib()
+    form_names: list[str] = attr.ib(factory=list)
     # ? gen 8 nonsense. we keep it for round-tripping
     regional_numbers: int | None = attr.ib(default=None)
     shape: int | None = attr.ib(default=None)
