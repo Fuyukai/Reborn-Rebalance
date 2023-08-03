@@ -536,7 +536,9 @@ def save_encounters_to_pbs(path: Path, data: dict[int, MapEncounters]):
     with path.open(mode="w", encoding="utf-8") as f:
         # aaaaaaaaahHHHH
 
-        for map_id, map_data in data.items():
+        sorted_encounters = sorted(data.items(), key=lambda it: it[0])
+
+        for map_id, map_data in sorted_encounters:
             # no clue if this is needed!
             f.write("#########################\n")
             f.write(f"{map_id:03d}\n")
@@ -609,7 +611,7 @@ def load_map_metadata_from_toml(path: Path) -> dict[int, MapMetadata]:
     return maps
 
 
-def save_map_metadata_to_pbs(path: Path, maps: list[MapMetadata]):
+def save_map_metadata_to_pbs(path: Path, maps: dict[int, MapMetadata]):
     """
     Saves all map metadata to PBS format.
     """
@@ -619,8 +621,9 @@ def save_map_metadata_to_pbs(path: Path, maps: list[MapMetadata]):
     with path.open(mode="w", encoding="utf-8") as f:
         buffer.backing.write(MAP_DATA_HEADER)
 
-        for meta in maps:
-            buffer.write_id_header(meta.id)
+        s_maps: list[MapMetadata] = sorted(maps.values(), key=lambda it: it.id)
+        for meta in s_maps:
+            buffer.write_id_header(f"{meta.id:03d}")
             meta.to_pbs(buffer)
 
         f.write(buffer.backing.getvalue())

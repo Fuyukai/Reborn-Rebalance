@@ -223,7 +223,7 @@ class MapMetadata:
             buffer.write_key_value("HealingSpot", ",".join(map(str, self.healing_spot)))
 
         if self.weather:
-            buffer.write_key_value("Weather", ",".join(self.weather))
+            buffer.write_key_value("Weather", ",".join([str(s) for s in self.weather]))
 
         if self.dive_map_id:
             buffer.write_key_value("DiveMap", self.dive_map_id)

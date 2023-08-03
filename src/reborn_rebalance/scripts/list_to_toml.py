@@ -78,11 +78,12 @@ if __name__ == "__main__":
             loaded,
             "Galar",
             """
-[[0,PBMoves::SHELLSIDEARM],[1,PBMoves::SHELLSIDEARM],[1,PBMoves::WITHDRAW],
-      [1,PBMoves::TACKLE],[1,PBMoves::CURSE],[1,PBMoves::GROWL],[1,PBMoves::ACID],[9,PBMoves::YAWN],[12,PBMoves::CONFUSION],
-      [15,PBMoves::DISABLE],[18,PBMoves::WATERPULSE],[21,PBMoves::HEADBUTT],[24,PBMoves::ZENHEADBUTT],
-      [27,PBMoves::AMNESIA],[30,PBMoves::SURF],[33,PBMoves::SLACKOFF],[36,PBMoves::PSYCHIC],[39,PBMoves::PSYCHUP],
-      [42,PBMoves::RAINDANCE],[45,PBMoves::HEALPULSE]]
+[[1,PBMoves::BATONPASS],[1,PBMoves::COPYCAT],[1,PBMoves::DAZZLINGGLEAM],[1,PBMoves::ENCORE],
+      				 [1,PBMoves::ICESHARD],[1,PBMoves::LIGHTSCREEN],[1,PBMoves::MIMIC],[1,PBMoves::MISTYTERRAIN],[1,PBMoves::POUND],
+     				  [1,PBMoves::PROTECT],[1,PBMoves::RAPIDSPIN],[1,PBMoves::RECYCLE],[1,PBMoves::REFLECT],[1,PBMoves::ROLEPLAY],
+     				  [1,PBMoves::SAFEGUARD],[12,PBMoves::CONFUSION],[16,PBMoves::ALLYSWITCH],[20,PBMoves::ICYWIND],[24,PBMoves::DOUBLEKICK],
+      				  [28,PBMoves::PSYBEAM],[32,PBMoves::HYPNOSIS],[36,PBMoves::MIRRORCOAT],[40,PBMoves::SUCKERPUNCH],[44,PBMoves::FREEZEDRY],
+      				  [48,PBMoves::PSYCHIC],[52,PBMoves::TEETERDANCE]]
         """,
         )
     )

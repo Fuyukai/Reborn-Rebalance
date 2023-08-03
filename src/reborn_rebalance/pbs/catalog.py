@@ -35,12 +35,15 @@ from reborn_rebalance.pbs.serialisation import (
     load_moves_from_toml,
     load_tms_from_pbs,
     load_tms_from_toml,
+    save_abilities_to_pbs,
     save_abilities_to_toml,
     save_all_species_to_pbs,
     save_all_species_to_toml,
+    save_encounters_to_pbs,
     save_encounters_to_toml,
     save_items_to_pbs,
     save_items_to_toml,
+    save_map_metadata_to_pbs,
     save_map_metadata_to_toml,
     save_moves_to_pbs,
     save_moves_to_toml,
@@ -387,6 +390,15 @@ class EssentialsCatalog:
 
         tm_txt = pbs_dir / "tm.txt"
         save_tms_to_pbs(tm_txt, self.tms)
+
+        ability_txt = pbs_dir / "abilities.txt"
+        save_abilities_to_pbs(ability_txt, self.abilities)
+
+        encounters_txt = pbs_dir / "encounters.txt"
+        save_encounters_to_pbs(encounters_txt, self.encounters)
+
+        map_metadata_txt = pbs_dir / "metadata.txt"
+        save_map_metadata_to_pbs(map_metadata_txt, self.maps)
 
         forms_file = scripts_dir / "MultipleForms.rb"
         save_forms_to_ruby(forms_file, self.forms)
