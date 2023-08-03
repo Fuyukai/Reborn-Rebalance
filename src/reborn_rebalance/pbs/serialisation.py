@@ -2,22 +2,27 @@ from __future__ import annotations
 
 import concurrent.futures
 import csv
-from functools import partial
 from io import StringIO
 from pathlib import Path
 
 import cattrs
 import tomlkit
+from cattrs.preconf.tomlkit import configure_converter
 from tomlkit import dump, load
 
 from reborn_rebalance.pbs.ability import PokemonAbility
+from reborn_rebalance.pbs.encounters import EncounterParser, MapEncounters
 from reborn_rebalance.pbs.form import PokemonForms, SinglePokemonForm
+from reborn_rebalance.pbs.item import PokemonItem
 from reborn_rebalance.pbs.move import MoveCategory, MoveFlag, MoveTarget, PokemonMove
-from reborn_rebalance.pbs.pokemon import EggGroup, GrowthRate, PokemonSpecies, SexRatio
-from reborn_rebalance.pbs.raw.encounters import EncounterParser, MapEncounters
-from reborn_rebalance.pbs.raw.item import PokemonItem
-from reborn_rebalance.pbs.raw.pokemon import raw_parse_pokemon_pbs
-from reborn_rebalance.pbs.raw.tm import TechnicalMachine
+from reborn_rebalance.pbs.pokemon import (
+    EggGroup,
+    GrowthRate,
+    PokemonSpecies,
+    SexRatio,
+    raw_parse_kv,
+)
+from reborn_rebalance.pbs.tm import TechnicalMachine
 from reborn_rebalance.pbs.type import PokemonType
 from reborn_rebalance.util import PbsBuffer, chunks
 
@@ -53,6 +58,7 @@ def generation_for(dex_number: int) -> int:
 
 def create_cattrs_converter() -> cattrs.Converter:
     converter = cattrs.Converter(forbid_extra_keys=True)
+    configure_converter(converter)
 
     # dump enums via name rather than by value
     for enum in (
@@ -101,7 +107,7 @@ def load_all_species_from_pbs(path: Path) -> list[PokemonSpecies]:
     Loads all Pokémon species from the provided PBS file.
     """
 
-    raw_data = raw_parse_pokemon_pbs(path)
+    raw_data = raw_parse_kv(path)
     return [PokemonSpecies.from_pbs(it) for it in raw_data]
 
 

@@ -96,9 +96,7 @@ class RpgMakerTileset:
         col_pos = col * 32
         row_pos = row * 32
 
-        cropped = self.tileset_image.crop(
-            (row_pos, col_pos, row_pos + 32, col_pos + 32)
-        )
+        cropped = self.tileset_image.crop((row_pos, col_pos, row_pos + 32, col_pos + 32))
         self._tileset_cache[index] = cropped
         return cropped
 

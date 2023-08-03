@@ -4,26 +4,21 @@ from collections import defaultdict
 from collections.abc import Mapping
 from functools import cached_property, partial
 from pathlib import Path
-from typing import List, Optional, Self, Tuple
+from typing import Optional, Self
 
 import attr
 import tomlkit
 
 from reborn_rebalance.pbs.ability import PokemonAbility
+from reborn_rebalance.pbs.encounters import ENCOUNTER_SLOTS, MapEncounters, parse_maps
 from reborn_rebalance.pbs.form import PokemonForms, save_forms_to_ruby
+from reborn_rebalance.pbs.item import PokemonItem
 from reborn_rebalance.pbs.move import PokemonMove
 from reborn_rebalance.pbs.pokemon import (
     FormAttributes,
     PokemonEvolution,
     PokemonSpecies,
 )
-from reborn_rebalance.pbs.raw.encounters import (
-    ENCOUNTER_SLOTS,
-    MapEncounters,
-    parse_maps,
-)
-from reborn_rebalance.pbs.raw.item import PokemonItem
-from reborn_rebalance.pbs.raw.tm import TechnicalMachine, tm_number_for
 from reborn_rebalance.pbs.serialisation import (
     load_abilities_from_pbs,
     load_abilities_from_toml,
@@ -50,6 +45,7 @@ from reborn_rebalance.pbs.serialisation import (
     save_tms_to_pbs,
     save_tms_to_toml,
 )
+from reborn_rebalance.pbs.tm import TechnicalMachine, tm_number_for
 
 
 @attr.s(frozen=True, slots=True, kw_only=True)
@@ -256,8 +252,8 @@ class EssentialsCatalog:
             forms=forms,
             moves=[],
             items=[],
-            map_names=[],
-            encounters=[],
+            map_names={},
+            encounters={},
             abilities=[],
             tms=[],
         )

@@ -7,7 +7,6 @@ from pathlib import Path
 import attr
 from PIL import Image
 from PIL.Image import Image as ImageKlass
-from rubymarshal.classes import RubyObject
 
 from reborn_rebalance.map.tileset import AllTilesets, load_all_tilesets
 from reborn_rebalance.scripts.unmarshal import RgssTable, unmarshal
@@ -143,6 +142,7 @@ def render_map(
 
 
 if __name__ == "__main__":
+
     def main():
         root_path = Path(sys.argv[1])
         map_path = root_path / "Data" / f"Map{int(sys.argv[2]):03d}.rxdata"

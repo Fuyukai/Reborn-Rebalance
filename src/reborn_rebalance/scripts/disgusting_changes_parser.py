@@ -2,7 +2,6 @@ import sys
 from math import ceil, log
 from pathlib import Path
 
-import prettyprinter
 import tomlkit
 import unidecode
 

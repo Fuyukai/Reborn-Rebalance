@@ -11,7 +11,7 @@ from cattrs import Converter
 from cattrs.gen import make_dict_unstructure_fn
 
 from reborn_rebalance.pbs.move import MoveCategory, PokemonMove
-from reborn_rebalance.pbs.raw.pokemon import raw_parse_pokemon_pbs
+from reborn_rebalance.pbs.raw.pokemon import raw_parse_kv
 from reborn_rebalance.pbs.type import PokemonType
 from reborn_rebalance.util import PbsBuffer, chunks
 
@@ -607,7 +607,7 @@ if __name__ == "__main__":
     def main():
         prettyprinter.install_extras(include=["attrs"])
 
-        pbs = raw_parse_pokemon_pbs(Path.home() / "aur/pokemon/reborn/PBS/pokemon.txt")
+        pbs = raw_parse_kv(Path.home() / "aur/pokemon/reborn/PBS/pokemon.txt")
 
         pbs_buffer = PbsBuffer()
         for idx, entry in enumerate(pbs):

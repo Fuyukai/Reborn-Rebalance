@@ -35,6 +35,9 @@ def _raw_parse_inner(f: TextIO) -> list[dict[str, str | int]]:
             has_started = True
 
     while read_line := f.readline().rstrip():
+        if read_line.startswith("#"):
+            continue
+
         if read_line.startswith("["):
             handle_number(read_line)
         else:
@@ -46,9 +49,9 @@ def _raw_parse_inner(f: TextIO) -> list[dict[str, str | int]]:
     return entries
 
 
-def raw_parse_pokemon_pbs(path: Path) -> list[dict[str, str | int]]:
+def raw_parse_kv(path: Path) -> list[dict[str, str | int]]:
     """
-    Parses the ``pokemon.txt`` into a list of dictionaries.
+    Parses a Key/Value PBS file into a list of dictionaries.
     """
 
     with path.open(mode="r", encoding="utf-8") as f:
@@ -58,5 +61,5 @@ def raw_parse_pokemon_pbs(path: Path) -> list[dict[str, str | int]]:
 if __name__ == "__main__":
     from pprint import pp
 
-    for entry in raw_parse_pokemon_pbs(Path.home() / "aur/pokemon/reborn/PBS/pokemon.txt"):
+    for entry in raw_parse_kv(Path.home() / "aur/pokemon/reborn/PBS/pokemon.txt"):
         pp(entry)

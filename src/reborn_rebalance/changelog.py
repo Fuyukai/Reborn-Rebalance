@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-import abc
 import textwrap
 from collections import defaultdict
 from typing import KeysView, Self

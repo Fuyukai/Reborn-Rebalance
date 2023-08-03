@@ -1,9 +1,6 @@
 from contextlib import contextmanager
-from enum import Enum
 from io import StringIO
 from typing import Any, Collection, Iterable, TypeVar
-
-import cattrs
 
 _ChunkType = TypeVar("_ChunkType")
 
