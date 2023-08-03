@@ -7,12 +7,12 @@ from pathlib import Path
 from typing import Optional, Self
 
 import attr
-import tomlkit
 
 from reborn_rebalance.pbs.ability import PokemonAbility
 from reborn_rebalance.pbs.encounters import ENCOUNTER_SLOTS, MapEncounters, parse_maps
 from reborn_rebalance.pbs.form import PokemonForms, save_forms_to_ruby
 from reborn_rebalance.pbs.item import PokemonItem
+from reborn_rebalance.pbs.map import MapMetadata
 from reborn_rebalance.pbs.move import PokemonMove
 from reborn_rebalance.pbs.pokemon import (
     FormAttributes,
@@ -29,7 +29,8 @@ from reborn_rebalance.pbs.serialisation import (
     load_encounters_from_toml,
     load_items_from_pbs,
     load_items_from_toml,
-    load_map_names,
+    load_map_metadata_from_pbs,
+    load_map_metadata_from_toml,
     load_moves_from_pbs,
     load_moves_from_toml,
     load_tms_from_pbs,
@@ -40,6 +41,7 @@ from reborn_rebalance.pbs.serialisation import (
     save_encounters_to_toml,
     save_items_to_pbs,
     save_items_to_toml,
+    save_map_metadata_to_toml,
     save_moves_to_pbs,
     save_moves_to_toml,
     save_tms_to_pbs,
@@ -110,8 +112,8 @@ class EssentialsCatalog:
     #: The list of all known abilities.
     abilities: list[PokemonAbility] = attr.ib()
 
-    #: The mapping of map IDs to map names.
-    map_names: dict[int, str] = attr.ib()
+    #: The mapping of map IDs to map metadata.
+    maps: dict[int, MapMetadata] = attr.ib()
 
     #: The mapping of encounters for map IDs to encounter data.
     encounters: dict[int, MapEncounters] = attr.ib()
@@ -219,7 +221,17 @@ class EssentialsCatalog:
 
         # 🍳
         map_file_path = (path / ".." / "Data" / "MapInfos.rxdata").absolute()
-        map_data = parse_maps(map_file_path)
+        map_names = parse_maps(map_file_path)
+
+        # backfill names into the map metadata
+        map_metadata = load_map_metadata_from_pbs(path / "metadata.txt")
+        for info in map_metadata.values():
+            try:
+                name = map_names[info.id]
+            except KeyError:
+                name = "REMOVED"
+
+            info.name = name
 
         encounter_path = path / "encounters.txt"
         encounter_data = load_encounters_from_pbs(encounter_path)
@@ -231,7 +243,7 @@ class EssentialsCatalog:
             items=items,
             tms=tms,
             abilities=abilities,
-            map_names=map_data,
+            maps=map_metadata,
             encounters=encounter_data,
         )
 
@@ -252,7 +264,7 @@ class EssentialsCatalog:
             forms=forms,
             moves=[],
             items=[],
-            map_names={},
+            maps={},
             encounters={},
             abilities=[],
             tms=[],
@@ -271,9 +283,6 @@ class EssentialsCatalog:
 
         # processpoolexecutor over threadpoolexecutor
         with concurrent.futures.ProcessPoolExecutor() as executor:
-            maps_path = path / "map_names.toml"
-            maps_fut = executor.submit(partial(load_map_names, maps_path))
-
             moves_file = path / "moves.toml"
             moves_fut = executor.submit(partial(load_moves_from_toml, moves_file))
 
@@ -288,6 +297,11 @@ class EssentialsCatalog:
 
             encounters_path = path / "encounters"
             encounters_fut = executor.submit(partial(load_encounters_from_toml, encounters_path))
+
+            map_metadata_path = path / "maps.toml"
+            map_metadata_fut = executor.submit(
+                partial(load_map_metadata_from_toml, map_metadata_path)
+            )
 
         species_dir = path / "species"
         forms_path = path / "forms"
@@ -306,7 +320,7 @@ class EssentialsCatalog:
             items=items_fut.result(),
             tms=tms_fut.result(),
             abilities=abilities_fut.result(),
-            map_names=maps_fut.result(),
+            maps=map_metadata_fut.result(),
             encounters=encounters_fut.result(),
         )
 
@@ -337,19 +351,12 @@ class EssentialsCatalog:
         abilities_path = path / "abilities.toml"
         save_abilities_to_toml(abilities_path, self.abilities)
 
-        # practically speaking, this file will never change Reborn-side.
-        # so we don't bother updating it.
-        maps_path = path / "map_names.toml"
-        if not maps_path.exists():
-            with maps_path.open(mode="w", encoding="utf-8") as f:
-                tomlkit.dump(
-                    {str(k): v for (k, v) in sorted(self.map_names.items(), key=lambda it: it[0])},
-                    f,
-                )
+        maps_path = path / "maps.toml"
+        save_map_metadata_to_toml(maps_path, self.maps)
 
         encounters_path = path / "encounters"
         encounters_path.mkdir(exist_ok=True, parents=True)
-        save_encounters_to_toml(encounters_path, self.map_names, self.encounters)
+        save_encounters_to_toml(encounters_path, self.maps, self.encounters)
 
     def save_to_essentials(self, output_dir: Path):
         """

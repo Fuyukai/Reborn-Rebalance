@@ -381,7 +381,7 @@ class PokemonSpecies:
             return self.raw_abilities
 
     @classmethod
-    def from_pbs(cls, data: dict[str, str | int]) -> PokemonSpecies:
+    def from_pbs(cls, dex_number: int, data: dict[str, str | int]) -> PokemonSpecies:
         """
         Creates a new :class:`.PokemonSpecies` from the raw ``pokemon.txt`` data.
 
@@ -497,7 +497,7 @@ class PokemonSpecies:
             raise ValueError(f"Unparsed Pokémon data: {list(data.keys())}")
 
         return PokemonSpecies(
-            dex_number=0,
+            dex_number=dex_number,
             name=name,
             internal_name=internal_name,
             base_stats=base_stats,
@@ -610,9 +610,9 @@ if __name__ == "__main__":
         pbs = raw_parse_kv(Path.home() / "aur/pokemon/reborn/PBS/pokemon.txt")
 
         pbs_buffer = PbsBuffer()
-        for idx, entry in enumerate(pbs):
-            parsed = PokemonSpecies.from_pbs(entry)
-            pbs_buffer.write_id_header(idx + 1)
+        for idx, entry in pbs.items():
+            parsed = PokemonSpecies.from_pbs(idx, entry)
+            pbs_buffer.write_id_header(idx)
             parsed.to_pbs(pbs_buffer)
 
         Path("./pokemon.txt").write_text(pbs_buffer.backing.getvalue())

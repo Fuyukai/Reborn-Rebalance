@@ -27,13 +27,18 @@ class PbsBuffer(object):
         self.backing.write(str(id))
         self.backing.write("]\n")
 
+    def write_comment(self, comment: str):
+        self.backing.write("# ")
+        self.backing.write(comment)
+        self.backing.write("\n")
+
     def write_key_value(self, key: str, value: Any):
         self.backing.write(key)
         self.backing.write("=")
         self.backing.write(str(value))
         self.backing.write("\n")
 
-    def write_list(self, key: str, value: list[Any]):
+    def write_list(self, key: str, value: Iterable[Any]):
         """
         Writes a comma-joined list.
         """

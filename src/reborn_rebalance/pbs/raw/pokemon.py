@@ -1,61 +1,56 @@
 from pathlib import Path
-from typing import TextIO
+from typing import Iterator
 
 # basically only used for generating the input files.
 
 
-def _raw_parse_inner(f: TextIO) -> list[dict[str, str | int]]:
-    # TODO: reorder according to the number?
+class KeyValueParser:
+    def __init__(self):
+        # clever trick we do here wrt to mutability
+        # _entries stores the actual value of _current when we see a number.
+        # fjdsfy im mentally overstimulated tonight so just pretend you know what im talking about.
 
-    has_started = False
-    last_entry = {}
-    entries: list[dict[str, str | int]] = []
+        self._entries: dict[int, dict[str, str | int]] = {}
+        self._current: dict[str, str | int] = {}
 
-    def handle_kv(line: str) -> (str, str | int):
-        if not has_started:
-            raise ValueError("expected a [num] as first entry, not a key-value pair")
+    def reset(self):
+        self._entries = {}
+        self._current = {}
 
-        key, value = line.split("=", 1)
-        try:
-            value = int(value)
-        except ValueError:
-            pass
+    def parse(self, lines: Iterator[str]) -> dict[int, dict[str, str | int]]:
+        for line in lines:
+            line = line.strip()
 
-        # thanks, wingull
-        last_entry[key.strip()] = value
+            # le number line
+            if line.startswith("["):
+                number = int(line[1:-1])
+                self._current = {}
+                self._entries[number] = self._current
+                continue
 
-    def handle_number(line: str):
-        nonlocal has_started
-        num = int(line[1:-1])
+            if line.startswith("#"):
+                continue
 
-        if has_started:
-            entries.append(last_entry.copy())
-            last_entry.clear()
-        else:
-            has_started = True
+            key, value = line.split("=", 1)
+            try:
+                value = int(value.strip())
+            except ValueError:
+                pass
 
-    while read_line := f.readline().rstrip():
-        if read_line.startswith("#"):
-            continue
+            self._current[key.strip()] = value
 
-        if read_line.startswith("["):
-            handle_number(read_line)
-        else:
-            handle_kv(read_line)
-
-    if last_entry:
-        entries.append(last_entry)
-
-    return entries
+        return self._entries
 
 
-def raw_parse_kv(path: Path) -> list[dict[str, str | int]]:
+def raw_parse_kv(path: Path) -> dict[int, dict[str, str | int]]:
     """
     Parses a Key/Value PBS file into a list of dictionaries.
     """
 
+    parser = KeyValueParser()
+
     with path.open(mode="r", encoding="utf-8") as f:
-        return _raw_parse_inner(f)
+        return parser.parse(iter(f.readline, ""))
 
 
 if __name__ == "__main__":

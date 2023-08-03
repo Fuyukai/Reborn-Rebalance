@@ -198,12 +198,12 @@
                 </tr>
                 </thead>
                 {% for map_id, encounter_mapping in encounters.items() %}
-                {% set map_name = catalog.map_names[map_id] %}
+                {% set map = catalog.maps[map_id] %}
                 {% for type, encounter in encounter_mapping.items() %}
                 <tr>
                     <td>
                         <span title="Map ID {{ map_id }}">
-                            <a href="/maps/{{ map_id }}">{{ map_name }}</a>
+                            <a href="/maps/{{ map_id }}.html">{{ map.name }}</a>
                         </span>
                     </td>
                     <td>{{ type }}</td>

@@ -14,6 +14,7 @@ from reborn_rebalance.pbs.ability import PokemonAbility
 from reborn_rebalance.pbs.encounters import EncounterParser, MapEncounters
 from reborn_rebalance.pbs.form import PokemonForms, SinglePokemonForm
 from reborn_rebalance.pbs.item import PokemonItem
+from reborn_rebalance.pbs.map import MAP_DATA_HEADER, MapMetadata
 from reborn_rebalance.pbs.move import MoveCategory, MoveFlag, MoveTarget, PokemonMove
 from reborn_rebalance.pbs.pokemon import (
     EggGroup,
@@ -78,6 +79,7 @@ def create_cattrs_converter() -> cattrs.Converter:
     PokemonItem.add_unstructuring_hook(converter)
     PokemonForms.add_unstructure_hook(converter)
     SinglePokemonForm.add_unstructure_hook(converter)
+    MapMetadata.add_unstructure_hook(converter)
 
     return converter
 
@@ -108,7 +110,7 @@ def load_all_species_from_pbs(path: Path) -> list[PokemonSpecies]:
     """
 
     raw_data = raw_parse_kv(path)
-    return [PokemonSpecies.from_pbs(it) for it in raw_data]
+    return [PokemonSpecies.from_pbs(key, it) for key, it in raw_data.items()]
 
 
 def load_all_species_from_toml(path: Path) -> list[PokemonSpecies]:
@@ -541,7 +543,9 @@ def save_encounters_to_pbs(path: Path, data: dict[int, MapEncounters]):
             map_data.write_out(f)
 
 
-def save_encounters_to_toml(path: Path, map_names: dict[int, str], data: dict[int, MapEncounters]):
+def save_encounters_to_toml(
+    path: Path, maps: dict[int, MapMetadata], data: dict[int, MapEncounters]
+):
     """
     Saves the encounters data to TOML.
     """
@@ -561,8 +565,13 @@ def save_encounters_to_toml(path: Path, map_names: dict[int, str], data: dict[in
         # we skip those as there's no way to get there without save editing.
 
         try:
-            name = map_names[idx]
-        except KeyError:
+            info = maps[idx]
+            name = info.name
+        except IndexError:
+            print(f"skipping encounter for removed map '{idx}'")
+            continue
+
+        if name == "REMOVED":
             print(f"skipping encounter for removed map '{idx}'")
             continue
 
@@ -572,6 +581,64 @@ def save_encounters_to_toml(path: Path, map_names: dict[int, str], data: dict[in
 
         with filename.open(mode="w", encoding="utf-8") as f:
             tomlkit.dump(CONVERTER.unstructure(encounter), f)
+
+
+def load_map_metadata_from_pbs(path: Path) -> dict[int, MapMetadata]:
+    """
+    Loads all map metadata from the PBS files.
+    """
+
+    raw_data = raw_parse_kv(path)
+    raw_data.pop(0)
+
+    return {id: MapMetadata.from_pbs(id, line) for id, line in raw_data.items()}
+
+
+def load_map_metadata_from_toml(path: Path) -> dict[int, MapMetadata]:
+    """
+    Loads all map metadata from the TOML file.
+    """
+
+    with path.open(encoding="utf-8", mode="r") as f:
+        data = load(f)["maps"]
+
+    maps: dict[int, MapMetadata] = {}
+    for s_idx, raw_map in data.items():
+        maps[int(s_idx)] = CONVERTER.structure(raw_map, MapMetadata)
+
+    return maps
+
+
+def save_map_metadata_to_pbs(path: Path, maps: list[MapMetadata]):
+    """
+    Saves all map metadata to PBS format.
+    """
+
+    buffer = PbsBuffer()
+
+    with path.open(mode="w", encoding="utf-8") as f:
+        buffer.backing.write(MAP_DATA_HEADER)
+
+        for meta in maps:
+            buffer.write_id_header(meta.id)
+            meta.to_pbs(buffer)
+
+        f.write(buffer.backing.getvalue())
+
+
+def save_map_metadata_to_toml(path: Path, maps: dict[int, MapMetadata]):
+    """
+    Saves all map metadata to TOML format.
+    """
+
+    if path.exists():
+        print(f"Not overwriting: {path}")
+        return
+
+    output = {"maps": CONVERTER.unstructure(maps)}
+
+    with path.open(encoding="utf-8", mode="w") as f:
+        dump(output, f)
 
 
 def load_map_names(path: Path) -> dict[int, str]:
