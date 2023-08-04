@@ -51,7 +51,9 @@ from reborn_rebalance.pbs.serialisation import (
     save_moves_to_pbs,
     save_moves_to_toml,
     save_tms_to_pbs,
-    save_tms_to_toml, save_trainer_types_to_toml, save_trainer_types_to_pbs,
+    save_tms_to_toml,
+    save_trainer_types_to_pbs,
+    save_trainer_types_to_toml,
 )
 from reborn_rebalance.pbs.tm import TechnicalMachine, tm_number_for
 from reborn_rebalance.pbs.trainer import TrainerType
@@ -276,7 +278,7 @@ class EssentialsCatalog:
             abilities=abilities,
             maps=map_metadata,
             encounters=encounter_data,
-            trainer_types=trainer_type_data
+            trainer_types=trainer_type_data,
         )
 
     @classmethod
@@ -300,7 +302,7 @@ class EssentialsCatalog:
             encounters={},
             abilities=[],
             tms=[],
-            trainer_types={}
+            trainer_types={},
         )
 
     @classmethod
@@ -314,7 +316,9 @@ class EssentialsCatalog:
         Loads all objects from toml files in the provided ``data`` directory.
         """
 
-        # processpoolexecutor over threadpoolexecutor cos this is mostly cpu bound tomlkit stuff
+        # processpoolexecutor over threadpoolexecutor cos this is mostly cpu bound tomli stuff
+
+        before = time.perf_counter()
         with concurrent.futures.ProcessPoolExecutor() as executor:
             moves_file = path / "moves.toml"
             load_moves = partial(load_moves_from_toml, moves_file)
@@ -342,9 +346,13 @@ class EssentialsCatalog:
                 load_with_print, "trainer types", load_trainer_types
             )
 
+        after = time.perf_counter()
+        print(f"Loaded all non-species data in {after - before:.2f}s")
+
         species_dir = path / "species"
         forms_path = path / "forms"
 
+        before = time.perf_counter()
         if skip_species:
             species = []
             forms = {}
@@ -354,6 +362,9 @@ class EssentialsCatalog:
 
         encounters_path = path / "encounters"
         encounters = load_encounters_from_toml(encounters_path)
+        after = time.perf_counter()
+
+        print(f"Loaded species, forms, and encounters in {after - before:.2f}s")
 
         instance = cls(
             species=species,

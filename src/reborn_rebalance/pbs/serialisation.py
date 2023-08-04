@@ -7,9 +7,7 @@ from io import StringIO
 from pathlib import Path
 
 import cattrs
-import tomlkit
-from cattrs.preconf.tomlkit import configure_converter
-from tomlkit import dump, load
+from rtoml import dump, load
 
 from reborn_rebalance.pbs.ability import PokemonAbility
 from reborn_rebalance.pbs.encounters import EncounterParser, MapEncounters
@@ -61,7 +59,6 @@ def generation_for(dex_number: int) -> int:
 
 def create_cattrs_converter() -> cattrs.Converter:
     converter = cattrs.Converter(forbid_extra_keys=True)
-    configure_converter(converter)
 
     # dump enums via name rather than by value
     for enum in (
@@ -203,7 +200,7 @@ def load_single_form(path: Path) -> PokemonForms:
 
     print(f"LOAD (form): {path}")
     with path.open(mode="r", encoding="utf-8") as f:
-        forms_for_mon = tomlkit.load(f)
+        forms_for_mon = load(f)
 
     if "internal_name" not in forms_for_mon:
         name = path.stem
@@ -522,7 +519,7 @@ def load_single_encounter(path: Path) -> tuple[int, MapEncounters]:
     id = int(path.name.split("_", 1)[0])
 
     with path.open(mode="r", encoding="utf-8") as f:
-        data = tomlkit.load(f)
+        data = load(f)
 
     encounter = CONVERTER.structure(data, MapEncounters)
     return id, encounter
@@ -607,7 +604,7 @@ def save_encounters_to_toml(
             continue
 
         with filename.open(mode="w", encoding="utf-8") as f:
-            tomlkit.dump(CONVERTER.unstructure(encounter), f)
+            dump(CONVERTER.unstructure(encounter), f)
 
 
 def load_map_metadata_from_pbs(path: Path) -> dict[int, MapMetadata]:
@@ -730,4 +727,4 @@ def load_map_names(path: Path) -> dict[int, str]:
     """
 
     with path.open(encoding="utf-8") as f:
-        return {int(k): v for (k, v) in tomlkit.load(f).items()}
+        return {int(k): v for (k, v) in load(f).items()}
