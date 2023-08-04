@@ -101,10 +101,6 @@ class MapMetadata:
     #: The width (?) of the map? Not used by Reborn.
     map_size: str | None = attr.ib(default=None)
 
-    def __attrs_post_init__(self):
-        if self.battle_background is None:
-            print(f"warning: map {self.id} has missing battle background")
-
     @classmethod
     def add_unstructure_hook(cls, converter: Converter):
         unst_hook = make_dict_unstructure_fn(
@@ -154,6 +150,9 @@ class MapMetadata:
         snap_edges = data.pop("SnapEdges", "false") == "true"
         is_dungeon = data.pop("Dungeon", "false") == "true"
         battle_background = data.pop("BattleBack", None)
+        if battle_background is None:
+            print(f"warning: map {id} has missing battle background")
+
         wild_victory_sfx = data.pop("WildVictoryME", None)
         trainer_victory_sfx = data.pop("TrainerVictoryME", None)
         map_size = data.pop("MapSize", None)

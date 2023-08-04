@@ -1,10 +1,11 @@
 import concurrent.futures
+import time
 import types
 from collections import defaultdict
 from collections.abc import Mapping
 from functools import cached_property, partial
 from pathlib import Path
-from typing import Optional, Self
+from typing import Callable, Optional, Self, TypeVar
 
 import attr
 
@@ -35,6 +36,8 @@ from reborn_rebalance.pbs.serialisation import (
     load_moves_from_toml,
     load_tms_from_pbs,
     load_tms_from_toml,
+    load_trainer_types_from_pbs,
+    load_trainer_types_from_toml,
     save_abilities_to_pbs,
     save_abilities_to_toml,
     save_all_species_to_pbs,
@@ -48,9 +51,28 @@ from reborn_rebalance.pbs.serialisation import (
     save_moves_to_pbs,
     save_moves_to_toml,
     save_tms_to_pbs,
-    save_tms_to_toml,
+    save_tms_to_toml, save_trainer_types_to_toml, save_trainer_types_to_pbs,
 )
 from reborn_rebalance.pbs.tm import TechnicalMachine, tm_number_for
+from reborn_rebalance.pbs.trainer import TrainerType
+
+LoadWithPrintT = TypeVar("LoadWithPrintT")
+
+
+def load_with_print(type_: str, fn: Callable[[], LoadWithPrintT]) -> LoadWithPrintT:
+    """
+    Loads the provided object, printing the time taken.
+    """
+
+    start = time.perf_counter()
+    print(f"LOAD: {type_}...")
+
+    result = fn()
+
+    end = time.perf_counter()
+    print(f"Loaded {type_} in {end - start:.2f}s")
+
+    return result
 
 
 @attr.s(frozen=True, slots=True, kw_only=True)
@@ -120,6 +142,9 @@ class EssentialsCatalog:
 
     #: The mapping of encounters for map IDs to encounter data.
     encounters: dict[int, MapEncounters] = attr.ib()
+
+    #: The mapping of trainer type ID -> trainer type.
+    trainer_types: dict[int, TrainerType] = attr.ib()
 
     @cached_property
     def species_mapping(self) -> Mapping[str, PokemonSpecies]:
@@ -239,6 +264,9 @@ class EssentialsCatalog:
         encounter_path = path / "encounters.txt"
         encounter_data = load_encounters_from_pbs(encounter_path)
 
+        trainer_types = path / "trainertypes.txt"
+        trainer_type_data = load_trainer_types_from_pbs(trainer_types)
+
         return cls(
             species=all_species,
             forms={},
@@ -248,6 +276,7 @@ class EssentialsCatalog:
             abilities=abilities,
             maps=map_metadata,
             encounters=encounter_data,
+            trainer_types=trainer_type_data
         )
 
     @classmethod
@@ -271,6 +300,7 @@ class EssentialsCatalog:
             encounters={},
             abilities=[],
             tms=[],
+            trainer_types={}
         )
 
     @classmethod
@@ -284,26 +314,32 @@ class EssentialsCatalog:
         Loads all objects from toml files in the provided ``data`` directory.
         """
 
-        # processpoolexecutor over threadpoolexecutor
+        # processpoolexecutor over threadpoolexecutor cos this is mostly cpu bound tomlkit stuff
         with concurrent.futures.ProcessPoolExecutor() as executor:
             moves_file = path / "moves.toml"
-            moves_fut = executor.submit(partial(load_moves_from_toml, moves_file))
+            load_moves = partial(load_moves_from_toml, moves_file)
+            moves_fut = executor.submit(load_with_print, "moves", load_moves)
 
             items_path = path / "items.toml"
-            items_fut = executor.submit(partial(load_items_from_toml, items_path))
+            load_items = partial(load_items_from_toml, items_path)
+            items_fut = executor.submit(load_with_print, "items", load_items)
 
             tm_path = path / "tms.toml"
-            tms_fut = executor.submit(partial(load_tms_from_toml, tm_path))
+            load_tms = partial(load_tms_from_toml, tm_path)
+            tms_fut = executor.submit(load_with_print, "tms", load_tms)
 
             ability_path = path / "abilities.toml"
-            abilities_fut = executor.submit(partial(load_abilities_from_toml, ability_path))
-
-            encounters_path = path / "encounters"
-            encounters_fut = executor.submit(partial(load_encounters_from_toml, encounters_path))
+            load_abilities = partial(load_abilities_from_toml, ability_path)
+            abilities_fut = executor.submit(load_with_print, "abilities", load_abilities)
 
             map_metadata_path = path / "maps.toml"
-            map_metadata_fut = executor.submit(
-                partial(load_map_metadata_from_toml, map_metadata_path)
+            load_map_metadata = partial(load_map_metadata_from_toml, map_metadata_path)
+            map_metadata_fut = executor.submit(load_with_print, "map metadata", load_map_metadata)
+
+            trainer_types_path = path / "trainer_types.toml"
+            load_trainer_types = partial(load_trainer_types_from_toml, trainer_types_path)
+            trainer_types_fut = executor.submit(
+                load_with_print, "trainer types", load_trainer_types
             )
 
         species_dir = path / "species"
@@ -316,6 +352,9 @@ class EssentialsCatalog:
             species = load_all_species_from_toml(species_dir)
             forms = load_all_forms(forms_path)
 
+        encounters_path = path / "encounters"
+        encounters = load_encounters_from_toml(encounters_path)
+
         instance = cls(
             species=species,
             forms=forms,
@@ -324,7 +363,8 @@ class EssentialsCatalog:
             tms=tms_fut.result(),
             abilities=abilities_fut.result(),
             maps=map_metadata_fut.result(),
-            encounters=encounters_fut.result(),
+            encounters=encounters,
+            trainer_types=trainer_types_fut.result(),
         )
 
         instance._validate()
@@ -360,6 +400,9 @@ class EssentialsCatalog:
         encounters_path = path / "encounters"
         encounters_path.mkdir(exist_ok=True, parents=True)
         save_encounters_to_toml(encounters_path, self.maps, self.encounters)
+
+        trainer_types_path = path / "trainer_types.toml"
+        save_trainer_types_to_toml(trainer_types_path, self.trainer_types)
 
     def save_to_essentials(self, output_dir: Path):
         """
@@ -399,6 +442,9 @@ class EssentialsCatalog:
 
         map_metadata_txt = pbs_dir / "metadata.txt"
         save_map_metadata_to_pbs(map_metadata_txt, self.maps)
+
+        trainer_types_txt = pbs_dir / "trainertypes.txt"
+        save_trainer_types_to_pbs(trainer_types_txt, self.trainer_types)
 
         forms_file = scripts_dir / "MultipleForms.rb"
         save_forms_to_ruby(forms_file, self.forms)
