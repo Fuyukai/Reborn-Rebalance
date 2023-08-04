@@ -11,7 +11,7 @@ from cattrs import Converter
 from cattrs.gen import make_dict_unstructure_fn
 
 from reborn_rebalance.pbs.move import MoveCategory, PokemonMove
-from reborn_rebalance.pbs.raw.pokemon import raw_parse_kv
+from reborn_rebalance.pbs.raw.kv import raw_parse_kv
 from reborn_rebalance.pbs.type import PokemonType
 from reborn_rebalance.util import PbsBuffer, chunks
 

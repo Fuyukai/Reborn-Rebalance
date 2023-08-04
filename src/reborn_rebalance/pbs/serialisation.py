@@ -15,13 +15,8 @@ from reborn_rebalance.pbs.form import PokemonForms, SinglePokemonForm
 from reborn_rebalance.pbs.item import PokemonItem
 from reborn_rebalance.pbs.map import MAP_DATA_HEADER, MapMetadata
 from reborn_rebalance.pbs.move import MoveCategory, MoveFlag, MoveTarget, PokemonMove
-from reborn_rebalance.pbs.pokemon import (
-    EggGroup,
-    GrowthRate,
-    PokemonSpecies,
-    SexRatio,
-    raw_parse_kv,
-)
+from reborn_rebalance.pbs.pokemon import EggGroup, GrowthRate, PokemonSpecies, SexRatio
+from reborn_rebalance.pbs.raw.kv import raw_parse_kv
 from reborn_rebalance.pbs.tm import TechnicalMachine
 from reborn_rebalance.pbs.trainer import TrainerType
 from reborn_rebalance.pbs.type import PokemonType
