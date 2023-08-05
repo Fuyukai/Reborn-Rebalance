@@ -1,0 +1,100 @@
+[trainers.0]
+raw_trainer_class = "Casanova"
+battler_name = "Carmen"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "PERSIAN"
+level = 74
+raw_item = "WISEGLASSES"
+raw_moves = [
+    "POWERGEM",
+    "NASTYPLOT",
+    "THUNDERBOLT",
+    "DARKPULSE",
+]
+sex = "F"
+form_number = 1
+nature = "MODEST"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "KLEFKI"
+level = 76
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "SUBSTITUTE",
+    "THUNDERWAVE",
+    "SWAGGER",
+    "FOULPLAY",
+]
+sex = "F"
+nature = "BOLD"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.1]
+raw_trainer_class = "Casanova"
+battler_name = "Carmen"
+battler_id = 1
+raw_battle_items = []
+
+[[trainers.1.pokemon]]
+internal_name = "WEEZING"
+level = 75
+raw_item = "BLACKSLUDGE"
+raw_moves = [
+    "SLUDGEBOMB",
+    "EXPLOSION",
+    "CLEARSMOG",
+    "FLAMETHROWER",
+]
+ability_number = 1
+sex = ""
+nature = "BOLD"
+iv = 31
+
+[trainers.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.1.pokemon]]
+internal_name = "GENGAR"
+level = 77
+raw_item = "WISEGLASSES"
+raw_moves = [
+    "CLEARSMOG",
+    "SLUDGEBOMB",
+    "SHADOWBALL",
+    "DAZZLINGGLEAM",
+]
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0

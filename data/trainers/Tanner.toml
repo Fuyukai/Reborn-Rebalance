@@ -1,0 +1,91 @@
+[trainers.0]
+raw_trainer_class = "Cultist"
+battler_name = "Tanner"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "PIDGEOT"
+level = 61
+iv = 0
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.1]
+raw_trainer_class = "Cultist"
+battler_name = "Tanner"
+battler_id = 1
+raw_battle_items = []
+
+[[trainers.1.pokemon]]
+internal_name = "AURORUS"
+level = 126
+raw_item = "STONEPLATE"
+raw_moves = [
+    "ROUND",
+    "EARTHPOWER",
+    "STEALTHROCK",
+    "NATUREPOWER",
+]
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.1.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.1.pokemon]]
+internal_name = "PRIMARINA"
+level = 126
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "ROUND",
+    "ICEBEAM",
+    "PSYCHIC",
+    "DAZZLINGGLEAM",
+]
+ability_number = 1
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.1.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.1.pokemon]]
+internal_name = "PIDGEOT"
+level = 126
+raw_item = "PIDGEOTITE"
+raw_moves = [
+    "HURRICANE",
+    "HEATWAVE",
+    "ROUND",
+    "ROOST",
+]
+ability_number = 2
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.1.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0

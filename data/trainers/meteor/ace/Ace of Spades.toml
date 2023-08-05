@@ -1,0 +1,288 @@
+[trainers.0]
+raw_trainer_class = "ACESPADES"
+battler_name = "Ace of Spades"
+raw_battle_items = [
+    "MAXPOTION",
+]
+
+[[trainers.0.pokemon]]
+internal_name = "ROSERADE"
+level = 70
+raw_moves = [
+    "NATUREPOWER",
+    "GIGADRAIN",
+    "DAZZLINGGLEAM",
+    "TOXICSPIKES",
+]
+ability_number = 2
+sex = "F"
+is_shiny = true
+nature = "RASH"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "ZOROARK"
+level = 72
+raw_item = "FOCUSSASH"
+raw_moves = [
+    "NIGHTDAZE",
+    "NASTYPLOT",
+    "FLAMETHROWER",
+    "EXTRASENSORY",
+]
+sex = "F"
+nature = "TIMID"
+iv = 31
+happiness = 255
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "DELPHOX"
+level = 72
+raw_item = "SYNTHETICSEED"
+raw_moves = [
+    "MYSTICALFIRE",
+    "PSYSHOCK",
+    "DAZZLINGGLEAM",
+    "SHADOWBALL",
+]
+ability_number = 1
+nature = "TIMID"
+iv = 31
+happiness = 255
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "NIDOQUEEN"
+level = 71
+raw_item = "WISEGLASSES"
+raw_moves = [
+    "EARTHPOWER",
+    "FLAMETHROWER",
+    "THUNDERBOLT",
+    "SLUDGEBOMB",
+]
+ability_number = 2
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 252
+spe = 4
+
+[[trainers.0.pokemon]]
+internal_name = "KLINKLANG"
+level = 70
+raw_moves = [
+    "GEARGRIND",
+    "SHIFTGEAR",
+    "ZAPCANNON",
+    "WILDCHARGE",
+]
+ability_number = 2
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "METAGROSS"
+level = 72
+raw_item = "ENIGMABERRY"
+raw_moves = [
+    "EARTHQUAKE",
+    "IRONHEAD",
+    "ZENHEADBUTT",
+    "BULLETPUNCH",
+]
+sex = "F"
+is_shiny = true
+nature = "ADAMANT"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.20]
+raw_trainer_class = "ACESPADES"
+battler_name = "Ace of Spades"
+battler_id = 20
+raw_battle_items = [
+    "MAXPOTION",
+]
+
+[[trainers.20.pokemon]]
+internal_name = "CLODSIRE"
+level = 71
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "EARTHQUAKE",
+    "STEALTHROCK",
+    "RECOVER",
+    "TOXIC",
+]
+ability_number = 1
+sex = "F"
+nature = "CAREFUL"
+iv = 31
+
+[trainers.20.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 4
+
+[[trainers.20.pokemon]]
+internal_name = "ZOROARK"
+level = 72
+raw_item = "FOCUSSASH"
+raw_moves = [
+    "SHADOWBALL",
+    "NASTYPLOT",
+    "FLAMETHROWER",
+    "SLUDGEBOMB",
+]
+sex = "F"
+form_number = 1
+nature = "TIMID"
+iv = 31
+happiness = 255
+
+[trainers.20.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.20.pokemon]]
+internal_name = "DELPHOX"
+level = 72
+raw_item = "SYNTHETICSEED"
+raw_moves = [
+    "MYSTICALFIRE",
+    "PSYSHOCK",
+    "DAZZLINGGLEAM",
+    "SHADOWBALL",
+]
+ability_number = 1
+nature = "TIMID"
+iv = 31
+happiness = 255
+
+[trainers.20.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.20.pokemon]]
+internal_name = "METAGROSS"
+level = 72
+raw_item = "ENIGMABERRY"
+raw_moves = [
+    "EARTHQUAKE",
+    "IRONHEAD",
+    "ZENHEADBUTT",
+    "BULLETPUNCH",
+]
+sex = "F"
+is_shiny = true
+nature = "ADAMANT"
+iv = 31
+
+[trainers.20.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.20.pokemon]]
+internal_name = "MEOWSCARADA"
+level = 70
+raw_moves = [
+    "PLAYROUGH",
+    "FLOWERTRICK",
+    "SUCKERPUNCH",
+    "SHADOWCLAW",
+]
+ability_number = 1
+is_shiny = true
+nature = "JOLLY"
+iv = 31
+
+[trainers.20.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.20.pokemon]]
+internal_name = "KLINKLANG"
+level = 70
+raw_moves = [
+    "GEARGRIND",
+    "SHIFTGEAR",
+    "ZAPCANNON",
+    "WILDCHARGE",
+]
+ability_number = 2
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.20.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0

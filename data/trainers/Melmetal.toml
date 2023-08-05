@@ -1,0 +1,25 @@
+[trainers.0]
+raw_trainer_class = "MELMETAL"
+battler_name = "Melmetal"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "MELMETAL"
+level = 100
+raw_moves = [
+    "DOUBLEIRONBASH",
+    "THUNDERPUNCH",
+    "HIGHHORSEPOWER",
+    "BODYPRESS",
+]
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 780
+def_ = 252
+spa = 252
+spd = 252
+spe = 252

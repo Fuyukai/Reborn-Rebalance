@@ -1,8 +1,11 @@
 from contextlib import contextmanager
 from io import StringIO
-from typing import Any, Collection, Iterable, TypeVar
+from typing import Any, Collection, Iterable, Iterator, Sequence, TypeVar
+
+import attr
 
 _ChunkType = TypeVar("_ChunkType")
+_GetSafelyType = TypeVar("_GetSafelyType")
 
 
 def chunks(lst: Collection[_ChunkType], n: int) -> Iterable[list[_ChunkType]]:
@@ -12,6 +15,15 @@ def chunks(lst: Collection[_ChunkType], n: int) -> Iterable[list[_ChunkType]]:
 
     for i in range(0, len(lst), n):
         yield lst[i : i + n]
+
+
+def get_safely(
+    thing: Sequence[_GetSafelyType], index: int, default: _GetSafelyType = None
+) -> _GetSafelyType | None:
+    try:
+        return thing[index]
+    except IndexError:
+        return default
 
 
 class PbsBuffer(object):
@@ -76,3 +88,22 @@ class RubyBuffer:
         self.backing.write(" " * self._indent)
         self.backing.write(data)
         self.backing.write("\n")
+
+
+@attr.s()
+class StupidFuckingIterationWrapper:
+    what_the_fuck_iterator: Iterator[str] = attr.ib()
+
+    def __iter__(self):
+        return self
+
+    def __next__(self):
+        while True:
+            fucking_next = next(self.what_the_fuck_iterator).strip()
+            if fucking_next.startswith("#"):
+                continue
+
+            if not fucking_next:
+                continue
+
+            return fucking_next

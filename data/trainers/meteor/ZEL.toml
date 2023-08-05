@@ -1,0 +1,516 @@
+[trainers.0]
+raw_trainer_class = "ZEL"
+battler_name = "ZEL"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "TANGROWTH"
+level = 22
+raw_item = "PULSEHOLD"
+raw_moves = [
+    "WRAP",
+    "VINEWHIP",
+    "ACIDSPRAY",
+    "MEGADRAIN",
+]
+ability_number = 1
+sex = "F"
+nature = "CALM"
+iv = 7
+happiness = 0
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.1]
+raw_trainer_class = "ZEL"
+battler_name = "ZEL"
+battler_id = 1
+raw_battle_items = []
+
+[[trainers.1.pokemon]]
+internal_name = "GLACEON"
+level = 24
+raw_moves = [
+    "ICEFANG",
+    "ICYWIND",
+    "QUICKATTACK",
+    "BITE",
+]
+ability_number = 1
+sex = "F"
+nature = "MODEST"
+iv = 5
+
+[trainers.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.1.pokemon]]
+internal_name = "ESPEON"
+level = 24
+raw_moves = [
+    "SWIFT",
+    "PSYBEAM",
+    "QUICKATTACK",
+    "FUTURESIGHT",
+]
+ability_number = 2
+sex = "F"
+nature = "MODEST"
+iv = 5
+
+[trainers.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.1.pokemon]]
+internal_name = "UMBREON"
+level = 25
+raw_moves = [
+    "SANDATTACK",
+    "FEINTATTACK",
+    "QUICKATTACK",
+    "CONFUSERAY",
+]
+ability_number = 1
+nature = "CAREFUL"
+iv = 20
+
+[trainers.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.2]
+raw_trainer_class = "ZEL"
+battler_name = "ZEL"
+battler_id = 2
+raw_battle_items = [
+    "HYPERPOTION",
+    "HYPERPOTION",
+]
+
+[[trainers.2.pokemon]]
+internal_name = "GLACEON"
+level = 37
+raw_item = "NEVERMELTICE"
+raw_moves = [
+    "ICESHARD",
+    "ICYWIND",
+    "MIRRORCOAT",
+    "BITE",
+]
+ability_number = 1
+sex = "F"
+iv = 31
+
+[trainers.2.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.2.pokemon]]
+internal_name = "ESPEON"
+level = 37
+raw_item = "TWISTEDSPOON"
+raw_moves = [
+    "MORNINGSUN",
+    "PSYCHIC",
+    "SIGNALBEAM",
+    "YAWN",
+]
+ability_number = 2
+sex = "F"
+nature = "MODEST"
+iv = 31
+
+[trainers.2.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.2.pokemon]]
+internal_name = "UMBREON"
+level = 37
+raw_item = "LUMBERRY"
+raw_moves = [
+    "MOONLIGHT",
+    "ASSURANCE",
+    "QUICKATTACK",
+    "CONFUSERAY",
+]
+ability_number = 1
+nature = "ADAMANT"
+iv = 31
+
+[trainers.2.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.2.pokemon]]
+internal_name = "MUK"
+level = 42
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "SLUDGEWAVE",
+    "MUDBOMB",
+    "MUDDYWATER",
+    "DISCHARGE",
+]
+form_number = 2
+nature = "MODEST"
+iv = 31
+happiness = 0
+
+[trainers.2.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.3]
+raw_trainer_class = "ZEL"
+battler_name = "ZEL"
+battler_id = 3
+raw_battle_items = []
+
+[[trainers.3.pokemon]]
+internal_name = "ABRA"
+level = 75
+raw_item = "SILKSCARF"
+raw_moves = [
+    "HYPERBEAM",
+    "DARKPULSE",
+    "HYPERBEAM",
+    "HYPERBEAM",
+]
+ability_number = 2
+form_number = 1
+nature = "MODEST"
+iv = 31
+happiness = 0
+
+[trainers.3.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.4]
+raw_trainer_class = "ZEL"
+battler_name = "ZEL"
+battler_id = 4
+raw_battle_items = [
+    "ULTRAPOTION",
+    "ULTRAPOTION",
+]
+
+[[trainers.4.pokemon]]
+internal_name = "AURORUS"
+level = 74
+raw_item = "FOCUSSASH"
+raw_moves = [
+    "FLASHCANNON",
+    "STEALTHROCK",
+    "ICEBEAM",
+    "THUNDERBOLT",
+]
+ability_number = 1
+sex = "F"
+nature = "MODEST"
+iv = 31
+
+[trainers.4.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 252
+spe = 4
+
+[[trainers.4.pokemon]]
+internal_name = "GLACEON"
+level = 77
+raw_item = "SYNTHETICSEED"
+raw_moves = [
+    "BLIZZARD",
+    "SHADOWBALL",
+    "YAWN",
+    "WISH",
+]
+sex = "F"
+nature = "MODEST"
+iv = 31
+
+[trainers.4.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 252
+spe = 4
+
+[[trainers.4.pokemon]]
+internal_name = "ALAKAZAM"
+level = 74
+raw_item = "TWISTEDSPOON"
+raw_moves = [
+    "PSYSHOCK",
+    "RECOVER",
+    "SHADOWBALL",
+    "CHARGEBEAM",
+]
+ability_number = 2
+sex = "F"
+nature = "TIMID"
+iv = 31
+
+[trainers.4.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.4.pokemon]]
+internal_name = "ESPEON"
+level = 77
+raw_item = "SYNTHETICSEED"
+raw_moves = [
+    "DAZZLINGGLEAM",
+    "LIGHTSCREEN",
+    "REFLECT",
+    "PSYSHOCK",
+]
+ability_number = 2
+sex = "F"
+nature = "MODEST"
+iv = 31
+
+[trainers.4.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 4
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.4.pokemon]]
+internal_name = "UMBREON"
+level = 77
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "DOUBLETEAM",
+    "WISH",
+    "FOULPLAY",
+    "TOXIC",
+]
+nature = "CALM"
+iv = 31
+
+[trainers.4.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 252
+
+[[trainers.4.pokemon]]
+internal_name = "MAGNEZONE"
+level = 83
+raw_item = "WIKIBERRY"
+raw_moves = [
+    "MAGNETBOMB",
+    "DISCHARGE",
+    "AUTOTOMIZE",
+    "HIDDENPOWERFIR",
+]
+form_number = 1
+nature = "TIMID"
+iv = 31
+happiness = 0
+
+[trainers.4.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 252
+spe = 0
+
+[trainers.24]
+raw_trainer_class = "ZEL"
+battler_name = "ZEL"
+battler_id = 24
+raw_battle_items = [
+    "ULTRAPOTION",
+    "ULTRAPOTION",
+]
+
+[[trainers.24.pokemon]]
+internal_name = "AVALUGG"
+level = 74
+raw_item = "ASSAULTVEST"
+raw_moves = [
+    "AVALANCHE",
+    "STONEEDGE",
+    "BODYPRESS",
+    "IRONHEAD",
+]
+ability_number = 2
+form_number = 1
+nature = "TIMID"
+iv = 31
+
+[trainers.24.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 104
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.24.pokemon]]
+internal_name = "GLACEON"
+level = 77
+raw_item = "SYNTHETICSEED"
+raw_moves = [
+    "BLIZZARD",
+    "SHADOWBALL",
+    "YAWN",
+    "WISH",
+]
+ability_number = 1
+sex = "F"
+nature = "MODEST"
+iv = 31
+
+[trainers.24.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 252
+spe = 4
+
+[[trainers.24.pokemon]]
+internal_name = "VELUZA"
+level = 74
+raw_item = "NORMALIUMZ2"
+raw_moves = [
+    "PSYCHOCUT",
+    "FILLETAWAY",
+    "AQUAJET",
+    "NIGHTSLASH",
+]
+nature = "ADAMANT"
+iv = 31
+
+[trainers.24.pokemon.evs]
+hp = 0
+atk = 152
+def_ = 104
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.24.pokemon]]
+internal_name = "ESPEON"
+level = 77
+raw_item = "SYNTHETICSEED"
+raw_moves = [
+    "DAZZLINGGLEAM",
+    "LIGHTSCREEN",
+    "REFLECT",
+    "PSYSHOCK",
+]
+ability_number = 2
+sex = "F"
+nature = "TIMID"
+iv = 31
+
+[trainers.24.pokemon.evs]
+hp = 0
+atk = 104
+def_ = 0
+spa = 252
+spd = 152
+spe = 0
+
+[[trainers.24.pokemon]]
+internal_name = "UMBREON"
+level = 77
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "DOUBLETEAM",
+    "WISH",
+    "FOULPLAY",
+    "TOXIC",
+]
+ability_number = 1
+nature = "CALM"
+iv = 31
+
+[trainers.24.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 252
+
+[[trainers.24.pokemon]]
+internal_name = "MAGNEZONE"
+level = 83
+raw_item = "WIKIBERRY"
+raw_moves = [
+    "MAGNETBOMB",
+    "DISCHARGE",
+    "AUTOTOMIZE",
+    "HIDDENPOWERFIR",
+]
+form_number = 1
+nature = "TIMID"
+iv = 31
+happiness = 0
+
+[trainers.24.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 252
+spe = 0

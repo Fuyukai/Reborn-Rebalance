@@ -1,0 +1,712 @@
+[trainers.0]
+raw_trainer_class = "LUMI"
+battler_name = "Lumi"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "NINETALES"
+level = 93
+raw_item = "LIGHTCLAY"
+raw_moves = [
+    "AURORAVEIL",
+    "PROTECT",
+    "ICYWIND",
+    "DAZZLINGGLEAM",
+]
+ability_number = 1
+sex = "F"
+form_number = 1
+nature = "TIMID"
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "MAMOSWINE"
+level = 93
+raw_item = "CHOICEBAND"
+raw_moves = [
+    "ICICLECRASH",
+    "STEALTHROCK",
+    "RETURN",
+    "EARTHQUAKE",
+]
+ability_number = 1
+nature = "ADAMANT"
+happiness = 255
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "LAPRAS"
+level = 94
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "BLIZZARD",
+    "HYDROPUMP",
+    "PSYCHIC",
+    "DRAGONPULSE",
+]
+sex = ""
+nature = "MODEST"
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 252
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "AURORUS"
+level = 94
+raw_item = "CHOICESPECS"
+raw_moves = [
+    "BLIZZARD",
+    "EARTHPOWER",
+    "FLASHCANNON",
+    "HIDDENPOWERROC",
+]
+ability_number = 1
+sex = "F"
+nature = "MODEST"
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "GOODRA"
+level = 94
+raw_item = "ASSAULTVEST"
+raw_moves = [
+    "DRAGONPULSE",
+    "MUDDYWATER",
+    "THUNDERBOLT",
+    "FOCUSBLAST",
+]
+sex = "F"
+nature = "MODEST"
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 252
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "GLACEON"
+level = 95
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "BLIZZARD",
+    "WISH",
+    "HYPERVOICE",
+    "HELPINGHAND",
+]
+sex = "F"
+nature = "MODEST"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 0
+spe = 252
+
+[trainers.1]
+raw_trainer_class = "LUMI"
+battler_name = "Lumi"
+battler_id = 1
+raw_battle_items = []
+
+[[trainers.1.pokemon]]
+internal_name = "NINETALES"
+level = 130
+raw_item = "LIGHTCLAY"
+raw_moves = [
+    "AURORAVEIL",
+    "NASTYPLOT",
+    "BLIZZARD",
+    "DAZZLINGGLEAM",
+]
+ability_number = 1
+sex = "F"
+form_number = 1
+nature = "TIMID"
+iv = 31
+
+[trainers.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.1.pokemon]]
+internal_name = "GLACEON"
+level = 130
+raw_item = "LIFEORB"
+raw_moves = [
+    "BLIZZARD",
+    "WISH",
+    "SHADOWBALL",
+    "SIGNALBEAM",
+]
+sex = "F"
+nature = "MODEST"
+iv = 31
+
+[trainers.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 0
+spe = 252
+
+[[trainers.1.pokemon]]
+internal_name = "LAPRAS"
+level = 130
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "DRAGONDANCE",
+    "WATERFALL",
+    "ICESHARD",
+    "SMARTSTRIKE",
+]
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.1.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 4
+spd = 0
+spe = 0
+
+[[trainers.1.pokemon]]
+internal_name = "AURORUS"
+level = 130
+raw_item = "ASSAULTVEST"
+raw_moves = [
+    "BLIZZARD",
+    "EARTHPOWER",
+    "THUNDERBOLT",
+    "NATUREPOWER",
+]
+ability_number = 1
+sex = "F"
+nature = "QUIET"
+iv = 31
+
+[trainers.1.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 252
+spe = 0
+
+[[trainers.1.pokemon]]
+internal_name = "GOODRA"
+level = 130
+raw_item = "ASSAULTVEST"
+raw_moves = [
+    "POWERWHIP",
+    "MUDDYWATER",
+    "SLUDGEBOMB",
+    "DRAGONPULSE",
+]
+ability_number = 2
+sex = "F"
+nature = "SERIOUS"
+iv = 31
+
+[trainers.1.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 252
+spe = 0
+
+[[trainers.1.pokemon]]
+internal_name = "LATIAS"
+level = 130
+raw_item = "TELLURICSEED"
+raw_moves = [
+    "PSYCHOSHIFT",
+    "MISTBALL",
+    "DRAGONPULSE",
+    "SURF",
+]
+ability_number = 1
+nature = "TIMID"
+iv = 31
+happiness = 255
+
+[trainers.1.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[trainers.10]
+raw_trainer_class = "LUMI"
+battler_name = "Lumi"
+battler_id = 10
+raw_battle_items = []
+
+[[trainers.10.pokemon]]
+internal_name = "RIBOMBEE"
+level = 100
+raw_item = "FOCUSSASH"
+raw_moves = [
+    "STICKYWEB",
+    "QUIVERDANCE",
+    "BATONPASS",
+    "POLLENPUFF",
+]
+ability_number = 2
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.10.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 252
+spd = 0
+spe = 4
+
+[[trainers.10.pokemon]]
+internal_name = "LOPUNNY"
+level = 100
+raw_item = "LOPUNNITE"
+raw_moves = [
+    "BATONPASS",
+    "POWERUPPUNCH",
+    "RETURN",
+    "DRAINPUNCH",
+]
+ability_number = 1
+sex = ""
+nature = "JOLLY"
+iv = 31
+happiness = 255
+
+[trainers.10.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.10.pokemon]]
+internal_name = "MEW"
+level = 100
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "SOFTBOILED",
+    "BATONPASS",
+    "CALMMIND",
+    "PSYCHIC",
+]
+ability_number = 1
+sex = ""
+nature = "CALM"
+iv = 31
+
+[trainers.10.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 200
+
+[[trainers.10.pokemon]]
+internal_name = "DELCATTY"
+level = 100
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "COSMICPOWER",
+    "BATONPASS",
+    "WISH",
+    "RETURN",
+]
+ability_number = 1
+sex = ""
+nature = "ADAMANT"
+iv = 31
+happiness = 255
+
+[trainers.10.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 128
+
+[[trainers.10.pokemon]]
+internal_name = "BLAZIKEN"
+level = 100
+raw_item = "LIFEORB"
+raw_moves = [
+    "PROTECT",
+    "BULKUP",
+    "BATONPASS",
+    "HIJUMPKICK",
+]
+ability_number = 2
+sex = ""
+nature = "JOLLY"
+iv = 31
+
+[trainers.10.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.10.pokemon]]
+internal_name = "GLACEON"
+level = 100
+raw_item = "LIFEORB"
+raw_moves = [
+    "BARRIER",
+    "BATONPASS",
+    "BLIZZARD",
+    "WISH",
+]
+ability_number = 1
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.10.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 252
+spe = 0
+
+[trainers.11]
+raw_trainer_class = "LUMI"
+battler_name = "Lumi"
+battler_id = 11
+raw_battle_items = []
+
+[[trainers.11.pokemon]]
+internal_name = "CLOYSTER"
+level = 100
+raw_item = "FOCUSSASH"
+raw_moves = [
+    "SHELLSMASH",
+    "ICICLECRASH",
+    "LIQUIDATION",
+    "ROCKBLAST",
+]
+ability_number = 1
+sex = ""
+nature = "ADAMANT"
+iv = 31
+happiness = 255
+
+[trainers.11.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.11.pokemon]]
+internal_name = "KYOGRE"
+level = 100
+raw_item = "DAMPROCK"
+raw_moves = [
+    "THUNDER",
+    "SURF",
+    "ICEBEAM",
+    "ANCIENTPOWER",
+]
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.11.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 252
+spe = 4
+
+[[trainers.11.pokemon]]
+internal_name = "ROTOM"
+level = 100
+raw_item = "ELEMENTALSEED"
+raw_moves = [
+    "HEX",
+    "PAINSPLIT",
+    "BLIZZARD",
+    "THUNDER",
+]
+sex = ""
+form_number = 3
+nature = "MODEST"
+iv = 31
+happiness = 255
+
+[trainers.11.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.11.pokemon]]
+internal_name = "TOGEKISS"
+level = 100
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "SHOCKWAVE",
+    "AIRSLASH",
+    "ROOST",
+    "AURASPHERE",
+]
+ability_number = 1
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.11.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 252
+spe = 4
+
+[[trainers.11.pokemon]]
+internal_name = "BEARTIC"
+level = 100
+raw_item = "LIFEORB"
+raw_moves = [
+    "ICICLECRASH",
+    "PLAYROUGH",
+    "AQUAJET",
+    "STONEEDGE",
+]
+ability_number = 2
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.11.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.11.pokemon]]
+internal_name = "LAPRAS"
+level = 100
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "THUNDER",
+    "SURF",
+    "ICEBEAM",
+    "PERISHSONG",
+]
+sex = ""
+nature = "CALM"
+iv = 31
+
+[trainers.11.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 252
+spe = 4
+
+[trainers.12]
+raw_trainer_class = "LUMI"
+battler_name = "Lumi"
+battler_id = 12
+raw_battle_items = []
+
+[[trainers.12.pokemon]]
+internal_name = "NINETALES"
+level = 100
+raw_item = "LIGHTCLAY"
+raw_moves = [
+    "AURORAVEIL",
+    "DAZZLINGGLEAM",
+    "FREEZEDRY",
+    "BLIZZARD",
+]
+ability_number = 1
+sex = ""
+form_number = 1
+nature = "TIMID"
+iv = 31
+
+[trainers.12.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.12.pokemon]]
+internal_name = "DELPHOX"
+level = 100
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "MYSTICALFIRE",
+    "DAZZLINGGLEAM",
+    "SHADOWBALL",
+    "PSYSHOCK",
+]
+ability_number = 1
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.12.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4
+
+[[trainers.12.pokemon]]
+internal_name = "SOLGALEO"
+level = 100
+raw_item = "ASSAULTVEST"
+raw_moves = [
+    "SUNSTEELSTRIKE",
+    "FLAREBLITZ",
+    "EARTHQUAKE",
+    "ZENHEADBUTT",
+]
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.12.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.12.pokemon]]
+internal_name = "XERNEAS"
+level = 100
+raw_item = "POWERHERB"
+raw_moves = [
+    "GEOMANCY",
+    "MOONBLAST",
+    "NATUREPOWER",
+    "THUNDERBOLT",
+]
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.12.pokemon.evs]
+hp = 0
+atk = 156
+def_ = 0
+spa = 252
+spd = 100
+spe = 0
+
+[[trainers.12.pokemon]]
+internal_name = "SANDSLASH"
+level = 100
+raw_item = "LIFEORB"
+raw_moves = [
+    "ICICLECRASH",
+    "IRONHEAD",
+    "SWORDSDANCE",
+    "AQUATAIL",
+]
+ability_number = 1
+sex = ""
+form_number = 1
+nature = "ADAMANT"
+iv = 31
+
+[trainers.12.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.12.pokemon]]
+internal_name = "GOODRA"
+level = 100
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "ACIDARMOR",
+    "DRAGONPULSE",
+    "FLAMETHROWER",
+    "SLUDGEBOMB",
+]
+ability_number = 2
+sex = ""
+nature = "CALM"
+iv = 31
+
+[trainers.12.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 56
+spe = 0

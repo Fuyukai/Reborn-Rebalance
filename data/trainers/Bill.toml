@@ -1,0 +1,90 @@
+[trainers.0]
+raw_trainer_class = "TechNerd"
+battler_name = "Bill"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "MAREEP"
+level = 14
+iv = 0
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.1000]
+raw_trainer_class = "BUFF"
+battler_name = "Bill"
+battler_id = 1000
+raw_battle_items = []
+
+[[trainers.1000.pokemon]]
+internal_name = "BOUFFALANT"
+level = 100
+raw_item = "CHOICEBAND"
+raw_moves = [
+    "THRASH",
+    "MEGAHORN",
+    "OUTRAGE",
+    "SUPERPOWER",
+]
+ability_number = 1
+nature = "ADAMANT"
+iv = 31
+
+[trainers.1000.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.1000.pokemon]]
+internal_name = "TAUROS"
+level = 100
+raw_item = "CHOICEBAND"
+raw_moves = [
+    "THRASH",
+    "WILDCHARGE",
+    "ZENHEADBUTT",
+    "STONEEDGE",
+]
+ability_number = 1
+nature = "ADAMANT"
+iv = 31
+
+[trainers.1000.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.1000.pokemon]]
+internal_name = "MILTANK"
+level = 100
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "RETURN",
+    "MILKDRINK",
+    "IRONHEAD",
+    "BRICKBREAK",
+]
+ability_number = 2
+sex = "F"
+nature = "ADAMANT"
+iv = 31
+
+[trainers.1000.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 0

@@ -1,0 +1,139 @@
+[trainers.0]
+raw_trainer_class = "GROUDON"
+battler_name = "Groudon"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "VENUSAUR"
+level = 145
+raw_item = "ELEMENTALSEED"
+raw_moves = [
+    "SLUDGEBOMB",
+    "SOLARBEAM",
+    "WEATHERBALL",
+    "GRASSWHISTLE",
+]
+ability_number = 1
+sex = "F"
+nature = "HASTY"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "SHAYMIN"
+level = 145
+raw_item = "LIFEORB"
+raw_moves = [
+    "SEEDFLARE",
+    "AIRSLASH",
+    "EARTHPOWER",
+    "DAZZLINGGLEAM",
+]
+sex = ""
+form_number = 1
+nature = "TIMID"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "PHEROMOSA"
+level = 145
+raw_item = "ELEMENTALSEED"
+raw_moves = [
+    "UTURN",
+    "BLIZZARD",
+    "SILVERWIND",
+    "HIJUMPKICK",
+]
+sex = ""
+nature = "HASTY"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 4
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "XURKITREE"
+level = 145
+raw_item = "ELEMENTALSEED"
+raw_moves = [
+    "SOLARBEAM",
+    "NATUREPOWER",
+    "TAILGLOW",
+    "DAZZLINGGLEAM",
+]
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "BLAZIKEN"
+level = 145
+raw_item = "BLAZIKENITE"
+raw_moves = [
+    "PROTECT",
+    "SOLARBEAM",
+    "HEATWAVE",
+    "HIJUMPKICK",
+]
+ability_number = 1
+sex = "F"
+nature = "LONELY"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 0
+spd = 4
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "GROUDON"
+level = 145
+raw_item = "REDORB"
+raw_moves = [
+    "ERUPTION",
+    "PRECIPICEBLADES",
+    "SOLARBEAM",
+    "ROCKSLIDE",
+]
+sex = ""
+nature = "NAIVE"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252

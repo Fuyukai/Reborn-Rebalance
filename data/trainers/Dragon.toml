@@ -1,0 +1,26 @@
+[trainers.0]
+raw_trainer_class = "STATZEKROM"
+battler_name = "Dragon"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "ZEKROM"
+level = 90
+raw_item = "GROUNDIUMZ2"
+raw_moves = [
+    "BOLTSTRIKE",
+    "ROOST",
+    "OUTRAGE",
+    "EARTHPOWER",
+]
+sex = ""
+nature = "JOLLY"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 4
+spa = 252
+spd = 0
+spe = 0

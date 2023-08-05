@@ -1,0 +1,138 @@
+[trainers.0]
+raw_trainer_class = "KYOGRE"
+battler_name = "Kyogre"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "VOLCANION"
+level = 142
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "HEATWAVE",
+    "SURF",
+    "EARTHPOWER",
+    "PROTECT",
+]
+sex = ""
+nature = "MODEST"
+iv = 15
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 4
+spd = 252
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "MANAPHY"
+level = 141
+raw_item = "ELEMENTALSEED"
+raw_moves = [
+    "REST",
+    "TAILGLOW",
+    "SURF",
+    "DAZZLINGGLEAM",
+]
+sex = ""
+nature = "MODEST"
+iv = 15
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "SWAMPERT"
+level = 141
+raw_item = "SWAMPERTITE"
+raw_moves = [
+    "ROCKSLIDE",
+    "EARTHQUAKE",
+    "DIVE",
+    "SUPERPOWER",
+]
+sex = "F"
+nature = "ADAMANT"
+iv = 15
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 4
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "TENTACRUEL"
+level = 142
+raw_item = "BLACKSLUDGE"
+raw_moves = [
+    "WHIRLPOOL",
+    "SLUDGEBOMB",
+    "HEX",
+    "RAPIDSPIN",
+]
+ability_number = 2
+sex = "F"
+nature = "CALM"
+iv = 15
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "KYUREM"
+level = 143
+raw_item = "ELEMENTALSEED"
+raw_moves = [
+    "FUSIONBOLT",
+    "ICEBEAM",
+    "ROCKSLIDE",
+    "ROOST",
+]
+sex = ""
+form_number = 2
+nature = "RASH"
+iv = 15
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 252
+spe = 4
+
+[[trainers.0.pokemon]]
+internal_name = "KYOGRE"
+level = 145
+raw_item = "BLUEORB"
+raw_moves = [
+    "THUNDER",
+    "ORIGINPULSE",
+    "CALMMIND",
+    "ICEBEAM",
+]
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252

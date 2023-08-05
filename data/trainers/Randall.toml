@@ -1,0 +1,72 @@
+[trainers.1000]
+raw_trainer_class = "RANDALL"
+battler_name = "Randall"
+battler_id = 1000
+raw_battle_items = []
+
+[[trainers.1000.pokemon]]
+internal_name = "ZOROARK"
+level = 100
+raw_item = "CHOICESPECS"
+raw_moves = [
+    "DARKPULSE",
+    "FOCUSBLAST",
+    "FLAMETHROWER",
+    "SLUDGEBOMB",
+]
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.1000.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4
+
+[[trainers.1000.pokemon]]
+internal_name = "ZANGOOSE"
+level = 100
+raw_item = "TOXICORB"
+raw_moves = [
+    "FACADE",
+    "KNOCKOFF",
+    "QUICKATTACK",
+    "CLOSECOMBAT",
+]
+ability_number = 1
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.1000.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.1000.pokemon]]
+internal_name = "ZAPDOS"
+level = 100
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "ROOST",
+    "HEATWAVE",
+    "DISCHARGE",
+    "HIDDENPOWERICE",
+]
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.1000.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4

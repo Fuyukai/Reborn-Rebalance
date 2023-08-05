@@ -1,0 +1,143 @@
+[trainers.0]
+raw_trainer_class = "TAUBE"
+battler_name = "Taube"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "FURRET"
+level = 120
+raw_item = "FOCUSSASH"
+raw_moves = [
+    "FOLLOWME",
+    "TOXIC",
+    "SUPERFANG",
+    "RETURN",
+]
+ability_number = 1
+sex = ""
+nature = "CAREFUL"
+iv = 31
+happiness = 255
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 4
+
+[[trainers.0.pokemon]]
+internal_name = "BIBAREL"
+level = 120
+raw_item = "LIFEORB"
+raw_moves = [
+    "SWORDSDANCE",
+    "AQUAJET",
+    "QUICKATTACK",
+    "BULLDOZE",
+]
+sex = ""
+nature = "ADAMANT"
+iv = 31
+happiness = 255
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 0
+spd = 0
+spe = 4
+
+[[trainers.0.pokemon]]
+internal_name = "LUCARIO"
+level = 120
+raw_item = "LUCARIONITE"
+raw_moves = [
+    "BULLETPUNCH",
+    "EXTREMESPEED",
+    "VACUUMWAVE",
+    "POWERUPPUNCH",
+]
+ability_number = 1
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 4
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "RIBOMBEE"
+level = 120
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "POLLENPUFF",
+    "DAZZLINGGLEAM",
+    "NATUREPOWER",
+    "QUIVERDANCE",
+]
+ability_number = 1
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "CHATOT"
+level = 120
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "BOOMBURST",
+    "NASTYPLOT",
+    "HEATWAVE",
+    "PROTECT",
+]
+ability_number = 1
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "GARCHOMP"
+level = 120
+raw_item = "ROCKYHELMET"
+raw_moves = [
+    "DRAGONCLAW",
+    "EARTHQUAKE",
+    "ROCKSLIDE",
+    "SWORDSDANCE",
+]
+ability_number = 2
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 4
+spa = 252
+spd = 0
+spe = 0

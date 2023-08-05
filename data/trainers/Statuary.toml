@@ -1,0 +1,26 @@
+[trainers.0]
+raw_trainer_class = "GARCHOMP"
+battler_name = "Statuary"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "GARCHOMP"
+level = 75
+raw_item = "MUSCLEBAND"
+raw_moves = [
+    "EARTHQUAKE",
+    "DRAGONRUSH",
+    "CRUNCH",
+    "STONEEDGE",
+]
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252

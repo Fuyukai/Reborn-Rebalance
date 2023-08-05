@@ -1,0 +1,139 @@
+[trainers.0]
+raw_trainer_class = "KYUREM1"
+battler_name = "Kyurem"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "MANECTRIC"
+level = 134
+raw_item = "MANECTITE"
+raw_moves = [
+    "VOLTSWITCH",
+    "OVERHEAT",
+    "SNARL",
+    "SWIFT",
+]
+ability_number = 1
+sex = ""
+nature = "MODEST"
+iv = 3
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "MAGEARNA"
+level = 134
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "HEARTSWAP",
+    "FLEURCANNON",
+    "FLASHCANNON",
+    "THUNDERWAVE",
+]
+sex = ""
+nature = "CALM"
+iv = 3
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 4
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "SHAYMIN"
+level = 134
+raw_item = "CHOICESPECS"
+raw_moves = [
+    "NATUREPOWER",
+    "SEEDFLARE",
+    "DAZZLINGGLEAM",
+    "AIRSLASH",
+]
+sex = ""
+form_number = 1
+nature = "MODEST"
+iv = 3
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "VICTINI"
+level = 134
+raw_item = "CHOICEBAND"
+raw_moves = [
+    "FUSIONBOLT",
+    "VCREATE",
+    "ZENHEADBUTT",
+    "UTURN",
+]
+sex = ""
+nature = "ADAMANT"
+iv = 3
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "ZEKROM"
+level = 135
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "FUSIONBOLT",
+    "ROOST",
+    "DRAGONTAIL",
+    "THUNDERWAVE",
+]
+sex = ""
+nature = "ADAMANT"
+iv = 3
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 4
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "KYUREM"
+level = 135
+raw_item = "POWERHERB"
+raw_moves = [
+    "FUSIONBOLT",
+    "FREEZESHOCK",
+    "ROCKSLIDE",
+    "OUTRAGE",
+]
+sex = ""
+form_number = 2
+nature = "ADAMANT"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252

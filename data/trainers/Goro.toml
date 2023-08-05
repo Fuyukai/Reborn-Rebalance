@@ -1,0 +1,42 @@
+[trainers.0]
+raw_trainer_class = "HIKER"
+battler_name = "Goro"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "LICKITUNG"
+level = 70
+raw_moves = [
+    "BODYSLAM",
+    "LICK",
+    "DRAGONTAIL",
+    "FIREBLAST",
+]
+iv = 0
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "COFAGRIGUS"
+level = 69
+raw_moves = [
+    "SHADOWBALL",
+    "TRICKROOM",
+    "WILLOWISP",
+    "PSYCHIC",
+]
+iv = 0
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0

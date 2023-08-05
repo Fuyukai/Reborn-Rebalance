@@ -38,6 +38,8 @@ from reborn_rebalance.pbs.serialisation import (
     load_tms_from_toml,
     load_trainer_types_from_pbs,
     load_trainer_types_from_toml,
+    load_trainers_from_pbs,
+    load_trainers_from_toml,
     save_abilities_to_pbs,
     save_abilities_to_toml,
     save_all_species_to_pbs,
@@ -54,9 +56,11 @@ from reborn_rebalance.pbs.serialisation import (
     save_tms_to_toml,
     save_trainer_types_to_pbs,
     save_trainer_types_to_toml,
+    save_trainers_to_pbs,
+    save_trainers_to_toml,
 )
 from reborn_rebalance.pbs.tm import TechnicalMachine, tm_number_for
-from reborn_rebalance.pbs.trainer import TrainerType
+from reborn_rebalance.pbs.trainer import Trainer, TrainerType
 
 LoadWithPrintT = TypeVar("LoadWithPrintT")
 
@@ -147,6 +151,9 @@ class EssentialsCatalog:
 
     #: The mapping of trainer type ID -> trainer type.
     trainer_types: dict[int, TrainerType] = attr.ib()
+
+    #: The mapping of trainer name -> list of trainers.
+    trainers: dict[str, list[Trainer]] = attr.ib()
 
     @cached_property
     def species_mapping(self) -> Mapping[str, PokemonSpecies]:
@@ -266,8 +273,11 @@ class EssentialsCatalog:
         encounter_path = path / "encounters.txt"
         encounter_data = load_encounters_from_pbs(encounter_path)
 
-        trainer_types = path / "trainertypes.txt"
-        trainer_type_data = load_trainer_types_from_pbs(trainer_types)
+        trainer_type_path = path / "trainertypes.txt"
+        trainer_type_data = load_trainer_types_from_pbs(trainer_type_path)
+
+        trainers = path / "trainers.txt"
+        trainers_data = load_trainers_from_pbs(trainers)
 
         return cls(
             species=all_species,
@@ -279,6 +289,7 @@ class EssentialsCatalog:
             maps=map_metadata,
             encounters=encounter_data,
             trainer_types=trainer_type_data,
+            trainers=trainers_data,
         )
 
     @classmethod
@@ -303,6 +314,7 @@ class EssentialsCatalog:
             abilities=[],
             tms=[],
             trainer_types={},
+            trainers={},
         )
 
     @classmethod
@@ -361,10 +373,12 @@ class EssentialsCatalog:
             forms = load_all_forms(forms_path)
 
         encounters_path = path / "encounters"
+        trainers_path = path / "trainers"
         encounters = load_encounters_from_toml(encounters_path)
+        trainers = load_trainers_from_toml(trainers_path)
         after = time.perf_counter()
 
-        print(f"Loaded species, forms, and encounters in {after - before:.2f}s")
+        print(f"Loaded species, forms, encounters, and trainers in {after - before:.2f}s")
 
         instance = cls(
             species=species,
@@ -376,6 +390,7 @@ class EssentialsCatalog:
             maps=map_metadata_fut.result(),
             encounters=encounters,
             trainer_types=trainer_types_fut.result(),
+            trainers=trainers,
         )
 
         instance._validate()
@@ -414,6 +429,10 @@ class EssentialsCatalog:
 
         trainer_types_path = path / "trainer_types.toml"
         save_trainer_types_to_toml(trainer_types_path, self.trainer_types)
+
+        trainers_path = path / "trainers"
+        trainers_path.mkdir(parents=True, exist_ok=True)
+        save_trainers_to_toml(trainers_path, self.trainers)
 
     def save_to_essentials(self, output_dir: Path):
         """
@@ -456,6 +475,9 @@ class EssentialsCatalog:
 
         trainer_types_txt = pbs_dir / "trainertypes.txt"
         save_trainer_types_to_pbs(trainer_types_txt, self.trainer_types)
+
+        trainers_txt = pbs_dir / "trainers.txt"
+        save_trainers_to_pbs(trainers_txt, self.trainers)
 
         forms_file = scripts_dir / "MultipleForms.rb"
         save_forms_to_ruby(forms_file, self.forms)

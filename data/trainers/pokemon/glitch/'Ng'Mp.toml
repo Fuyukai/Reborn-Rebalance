@@ -1,0 +1,43 @@
+[trainers.0]
+raw_trainer_class = "GLITCH1"
+battler_name = "'Ng'Mp"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "WEEPINBELL"
+level = 75
+raw_moves = [
+    "SLUDGEBOMB",
+    "NATUREPOWER",
+    "SWORDSDANCE",
+    "SLEEPPOWDER",
+]
+iv = 0
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "GOLDUCK"
+level = 76
+raw_moves = [
+    "AMNESIA",
+    "HYDROPUMP",
+    "BLIZZARD",
+    "PSYCHIC",
+]
+ability_number = 1
+iv = 0
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0

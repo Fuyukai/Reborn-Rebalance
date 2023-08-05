@@ -1,0 +1,139 @@
+[trainers.0]
+raw_trainer_class = "TAPUFINI"
+battler_name = "Tapu-Fini"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "RIBOMBEE"
+level = 125
+raw_item = "FOCUSSASH"
+raw_moves = [
+    "SILVERWIND",
+    "MOONBLAST",
+    "STICKYWEB",
+    "NATUREPOWER",
+]
+ability_number = 1
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "AZUMARILL"
+level = 125
+raw_item = "ELEMENTALSEED"
+raw_moves = [
+    "BELLYDRUM",
+    "AQUAJET",
+    "PLAYROUGH",
+    "SUPERPOWER",
+]
+ability_number = 1
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 4
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "MILOTIC"
+level = 125
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "AQUARING",
+    "RECOVER",
+    "ICYWIND",
+    "BRINE",
+]
+sex = ""
+nature = "CALM"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 200
+
+[[trainers.0.pokemon]]
+internal_name = "SYLVEON"
+level = 125
+raw_item = "ELEMENTALSEED"
+raw_moves = [
+    "HYPERVOICE",
+    "WISH",
+    "PROTECT",
+    "PSYSHOCK",
+]
+ability_number = 2
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 252
+spe = 4
+
+[[trainers.0.pokemon]]
+internal_name = "MAGEARNA"
+level = 125
+raw_item = "ASSAULTVEST"
+raw_moves = [
+    "AURASPHERE",
+    "FLEURCANNON",
+    "ICEBEAM",
+    "VOLTSWITCH",
+]
+sex = ""
+nature = "CALM"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "TAPUFINI"
+level = 125
+raw_item = "ELEMENTALSEED"
+raw_moves = [
+    "MOONBLAST",
+    "HYDROPUMP",
+    "AQUARING",
+    "CALMMIND",
+]
+sex = ""
+nature = "CALM"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252

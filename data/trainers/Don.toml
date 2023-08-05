@@ -1,0 +1,52 @@
+[trainers.0]
+raw_trainer_class = "PANGORO"
+battler_name = "Don"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "PANGORO"
+level = 45
+raw_moves = [
+    "BODYSLAM",
+    "CIRCLETHROW",
+    "CRUNCH",
+    "VITALTHROW",
+]
+ability_number = 2
+nature = "ADAMANT"
+iv = 20
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.1]
+raw_trainer_class = "PANGORO"
+battler_name = "Don"
+battler_id = 1
+raw_battle_items = []
+
+[[trainers.1.pokemon]]
+internal_name = "PANGORO"
+level = 50
+raw_item = "SITRUSBERRY"
+raw_moves = [
+    "BODYSLAM",
+    "CIRCLETHROW",
+    "CRUNCH",
+    "HAMMERARM",
+]
+nature = "ADAMANT"
+iv = 30
+
+[trainers.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0

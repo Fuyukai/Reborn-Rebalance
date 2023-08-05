@@ -1,0 +1,27 @@
+[trainers.0]
+raw_trainer_class = "SHIINOTIC"
+battler_name = "Pokémon"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "SHIINOTIC"
+level = 104
+raw_item = "BIGROOT"
+raw_moves = [
+    "SPORE",
+    "STRENGTHSAP",
+    "DREAMEATER",
+    "MOONBLAST",
+]
+ability_number = 1
+sex = ""
+nature = "SASSY"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252

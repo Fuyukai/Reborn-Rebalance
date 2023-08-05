@@ -1,0 +1,49 @@
+[trainers.0]
+raw_trainer_class = "BLACKBELT"
+battler_name = "Makami"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "DARMANITAN"
+level = 127
+raw_item = "WISEGLASSES"
+raw_moves = [
+    "PSYCHIC",
+    "FIREBLAST",
+    "FOCUSBLAST",
+    "HIDDENPOWERGHO",
+]
+ability_number = 1
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 252
+spe = 4
+
+[[trainers.0.pokemon]]
+internal_name = "CACTURNE"
+level = 127
+raw_item = "FOCUSSASH"
+raw_moves = [
+    "NATUREPOWER",
+    "SANDATTACK",
+    "SUCKERPUNCH",
+    "SEEDBOMB",
+]
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 4

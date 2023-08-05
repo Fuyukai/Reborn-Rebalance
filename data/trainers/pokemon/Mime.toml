@@ -1,0 +1,145 @@
+[trainers.0]
+raw_trainer_class = "MIME"
+battler_name = "Mime"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "MRMIME"
+level = 100
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "INSTRUCT",
+    "NIGHTSHADE",
+    "MOONLIGHT",
+    "ENTRAINMENT",
+]
+sex = "F"
+form_number = 1
+nature = "CAREFUL"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 236
+def_ = 0
+spa = 0
+spd = 0
+spe = 16
+
+[trainers.1]
+raw_trainer_class = "MIME2"
+battler_name = "Mime"
+battler_id = 1
+raw_battle_items = []
+
+[[trainers.1.pokemon]]
+internal_name = "ABRA"
+level = 130
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "PRISMATICLASER",
+    "FRENZYPLANT",
+    "METRONOME",
+    "BLASTBURN",
+]
+sex = ""
+form_number = 1
+nature = "TIMID"
+iv = 31
+
+[trainers.1.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.1.pokemon]]
+internal_name = "CLAWITZER"
+level = 130
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "ORIGINPULSE",
+    "DRACOMETEOR",
+    "OVERHEAT",
+    "HYDROCANNON",
+]
+sex = ""
+form_number = 1
+nature = "TIMID"
+iv = 0
+
+[trainers.1.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 252
+spd = 4
+spe = 0
+
+[[trainers.1.pokemon]]
+internal_name = "MAGNEZONE"
+level = 130
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "PARABOLICCHARGE",
+    "COREENFORCER",
+    "BOLTSTRIKE",
+    "RECOVER",
+]
+sex = ""
+form_number = 1
+nature = "TIMID"
+iv = 31
+
+[trainers.1.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 4
+spd = 252
+spe = 0
+
+[[trainers.1.pokemon]]
+internal_name = "MRMIME"
+level = 130
+raw_item = "LIFEORB"
+raw_moves = [
+    "PSYCHOBOOST",
+]
+sex = ""
+form_number = 1
+nature = "TIMID"
+iv = 31
+
+[trainers.1.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 4
+
+[[trainers.1.pokemon]]
+internal_name = "MUK"
+level = 130
+raw_item = "ASSAULTVEST"
+raw_moves = [
+    "GIGADRAIN",
+    "SHADOWSNEAK",
+    "FIREBLAST",
+    "EXPLOSION",
+]
+sex = ""
+form_number = 2
+nature = "ADAMANT"
+iv = 31
+
+[trainers.1.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 4
+spd = 0
+spe = 0

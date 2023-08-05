@@ -1,0 +1,47 @@
+[trainers.0]
+raw_trainer_class = "PREDATORS"
+battler_name = "Predators"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "HUNTAIL"
+level = 78
+raw_item = "WHITEHERB"
+raw_moves = [
+    "AQUATAIL",
+    "CRUNCH",
+    "ICEFANG",
+    "SHELLSMASH",
+]
+nature = "ADAMANT"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 4
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "GOREBYSS"
+level = 78
+raw_item = "BRIGHTPOWDER"
+raw_moves = [
+    "MUDDYWATER",
+    "BLIZZARD",
+    "REST",
+    "DOUBLETEAM",
+]
+sex = "F"
+nature = "MODEST"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 4
+spd = 252
+spe = 0

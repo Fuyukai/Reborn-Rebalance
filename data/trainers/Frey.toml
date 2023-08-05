@@ -1,0 +1,73 @@
+[trainers.0]
+raw_trainer_class = "KNIGHT"
+battler_name = "Frey"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "ALTARIA"
+level = 87
+raw_item = "CHOICEBAND"
+raw_moves = [
+    "DRAGONRUSH",
+    "EARTHQUAKE",
+    "PLAYROUGH",
+    "IRONTAIL",
+]
+ability_number = 1
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 4
+
+[[trainers.0.pokemon]]
+internal_name = "MAWILE"
+level = 87
+raw_item = "LIFEORB"
+raw_moves = [
+    "SUCKERPUNCH",
+    "IRONHEAD",
+    "PLAYROUGH",
+    "SWORDSDANCE",
+]
+ability_number = 1
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 4
+
+[[trainers.0.pokemon]]
+internal_name = "GARCHOMP"
+level = 87
+raw_item = "CHOICESCARF"
+raw_moves = [
+    "EARTHQUAKE",
+    "OUTRAGE",
+    "POISONJAB",
+    "IRONHEAD",
+]
+ability_number = 1
+sex = ""
+nature = "JOLLY"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0

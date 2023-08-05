@@ -1,0 +1,116 @@
+[trainers.0]
+raw_trainer_class = "SEACREST"
+battler_name = "Seacrest"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "CATERPIE"
+level = 9
+iv = 0
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "WURMPLE"
+level = 9
+iv = 0
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "WEEDLE"
+level = 9
+iv = 0
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.1000]
+raw_trainer_class = "SEACREST"
+battler_name = "Seacrest"
+battler_id = 1000
+raw_battle_items = []
+
+[[trainers.1000.pokemon]]
+internal_name = "FERROTHORN"
+level = 100
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "KNOCKOFF",
+    "LEECHSEED",
+    "STEALTHROCK",
+    "THUNDERWAVE",
+]
+sex = ""
+nature = "CAREFUL"
+iv = 31
+
+[trainers.1000.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 4
+
+[[trainers.1000.pokemon]]
+internal_name = "DHELMISE"
+level = 100
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "POWERWHIP",
+    "ANCHORSHOT",
+    "SYNTHESIS",
+    "EARTHQUAKE",
+]
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.1000.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 0
+spd = 0
+spe = 4
+
+[[trainers.1000.pokemon]]
+internal_name = "NIDOKING"
+level = 100
+raw_item = "ELEMENTALSEED"
+raw_moves = [
+    "SLUDGEBOMB",
+    "WATERPULSE",
+    "THUNDERBOLT",
+    "EARTHPOWER",
+]
+ability_number = 2
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.1000.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4

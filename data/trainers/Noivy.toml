@@ -1,0 +1,48 @@
+[trainers.0]
+raw_trainer_class = "GUITARIST"
+battler_name = "Noivy"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "TYRANITAR"
+level = 87
+raw_item = "CHOICEBAND"
+raw_moves = [
+    "STONEEDGE",
+    "CRUNCH",
+    "EARTHQUAKE",
+    "FIREPUNCH",
+]
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 80
+def_ = 252
+spa = 176
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "TYRANTRUM"
+level = 88
+raw_item = "LIFEORB"
+raw_moves = [
+    "ROCKPOLISH",
+    "HEADSMASH",
+    "OUTRAGE",
+    "EARTHQUAKE",
+]
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 6
+spd = 0
+spe = 0

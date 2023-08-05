@@ -1,0 +1,582 @@
+[trainers.0]
+raw_trainer_class = "LADY"
+battler_name = "Eve"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "SHUCKLE"
+level = 32
+ability_number = 2
+iv = 0
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.1]
+raw_trainer_class = "EVE"
+battler_name = "Eve"
+battler_id = 1
+raw_battle_items = []
+
+[[trainers.1.pokemon]]
+internal_name = "ALAKAZAM"
+level = 130
+raw_item = "LIFEORB"
+raw_moves = [
+    "FOCUSBLAST",
+    "PSYCHIC",
+    "CALMMIND",
+    "DAZZLINGGLEAM",
+]
+ability_number = 2
+nature = "TIMID"
+iv = 31
+
+[trainers.1.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.1.pokemon]]
+internal_name = "ESPEON"
+level = 130
+raw_item = "LIFEORB"
+raw_moves = [
+    "PSYCHIC",
+    "SHADOWBALL",
+    "DAZZLINGGLEAM",
+    "CALMMIND",
+]
+ability_number = 1
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.1.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.1.pokemon]]
+internal_name = "PORYGONZ"
+level = 130
+raw_item = "NORMALIUMZ2"
+raw_moves = [
+    "CONVERSION",
+    "THUNDERBOLT",
+    "TRIATTACK",
+    "SHADOWBALL",
+]
+ability_number = 1
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.1.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.1.pokemon]]
+internal_name = "SIGILYPH"
+level = 130
+raw_item = "TELLURICSEED"
+raw_moves = [
+    "PSYCHOSHIFT",
+    "ROOST",
+    "COSMICPOWER",
+    "STOREDPOWER",
+]
+ability_number = 1
+sex = "F"
+nature = "MODEST"
+iv = 31
+
+[trainers.1.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 252
+spe = 4
+
+[[trainers.1.pokemon]]
+internal_name = "METAGROSS"
+level = 130
+raw_item = "METAGROSSITE"
+raw_moves = [
+    "METEORMASH",
+    "BULLETPUNCH",
+    "ZENHEADBUTT",
+    "HAMMERARM",
+]
+sex = ""
+nature = "ADAMANT"
+iv = 31
+happiness = 255
+
+[trainers.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.1.pokemon]]
+internal_name = "LATIOS"
+level = 130
+raw_item = "TELLURICSEED"
+raw_moves = [
+    "PSYCHOSHIFT",
+    "DRAGONPULSE",
+    "LUSTERPURGE",
+    "THUNDERBOLT",
+]
+nature = "TIMID"
+iv = 31
+
+[trainers.1.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[trainers.10]
+raw_trainer_class = "EVE"
+battler_name = "Eve"
+battler_id = 10
+raw_battle_items = []
+
+[[trainers.10.pokemon]]
+internal_name = "ROSERADE"
+level = 100
+raw_item = "LIFEORB"
+raw_moves = [
+    "GIGADRAIN",
+    "DAZZLINGGLEAM",
+    "VENOSHOCK",
+    "SHADOWBALL",
+]
+ability_number = 2
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.10.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4
+
+[[trainers.10.pokemon]]
+internal_name = "CINCCINO"
+level = 100
+raw_item = "LIFEORB"
+raw_moves = [
+    "TAILSLAP",
+    "UTURN",
+    "SEEDBOMB",
+    "WAKEUPSLAP",
+]
+ability_number = 1
+sex = ""
+nature = "JOLLY"
+iv = 31
+
+[trainers.10.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.10.pokemon]]
+internal_name = "SCIZOR"
+level = 100
+raw_item = "SCIZORITE"
+raw_moves = [
+    "SWORDSDANCE",
+    "BULLETPUNCH",
+    "XSCISSOR",
+    "ROOST",
+]
+ability_number = 1
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.10.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.10.pokemon]]
+internal_name = "MARSHADOW"
+level = 100
+raw_item = "ELECTRIUMZ2"
+raw_moves = [
+    "SHADOWSNEAK",
+    "SHADOWPUNCH",
+    "THUNDERPUNCH",
+    "DRAINPUNCH",
+]
+ability_number = 1
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.10.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 4
+
+[[trainers.10.pokemon]]
+internal_name = "MRMIME"
+level = 100
+raw_item = "LIFEORB"
+raw_moves = [
+    "SHADOWBALL",
+    "DAZZLINGGLEAM",
+    "CHARGEBEAM",
+    "PSYSHOCK",
+]
+ability_number = 2
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.10.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.10.pokemon]]
+internal_name = "BRELOOM"
+level = 100
+raw_item = "LIFEORB"
+raw_moves = [
+    "SWORDSDANCE",
+    "MACHPUNCH",
+    "SPORE",
+    "SEEDBOMB",
+]
+ability_number = 1
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.10.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[trainers.11]
+raw_trainer_class = "EVE"
+battler_name = "Eve"
+battler_id = 11
+raw_battle_items = []
+
+[[trainers.11.pokemon]]
+internal_name = "BLACEPHALON"
+level = 100
+raw_item = "CHOICESCARF"
+raw_moves = [
+    "FIREBLAST",
+    "SHADOWBALL",
+    "PSYCHIC",
+    "HIDDENPOWERGRA",
+]
+sex = ""
+nature = "RASH"
+iv = 31
+
+[trainers.11.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4
+
+[[trainers.11.pokemon]]
+internal_name = "NAGANADEL"
+level = 100
+raw_item = "CHOICESPECS"
+raw_moves = [
+    "OUTRAGE",
+    "FIREBLAST",
+    "THUNDERBOLT",
+    "UTURN",
+]
+sex = ""
+nature = "NAIVE"
+iv = 31
+
+[trainers.11.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.11.pokemon]]
+internal_name = "GUZZLORD"
+level = 100
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "OUTRAGE",
+    "FIREBLAST",
+    "REST",
+    "HIDDENPOWERPSY",
+]
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.11.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 0
+spd = 252
+spe = 252
+
+[[trainers.11.pokemon]]
+internal_name = "PHEROMOSA"
+level = 100
+raw_item = "LIFEORB"
+raw_moves = [
+    "UTURN",
+    "HIJUMPKICK",
+    "BLIZZARD",
+    "OUTRAGE",
+]
+sex = ""
+nature = "NAIVE"
+iv = 31
+
+[trainers.11.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.11.pokemon]]
+internal_name = "XURKITREE"
+level = 100
+raw_item = "FOCUSSASH"
+raw_moves = [
+    "POWERWHIP",
+    "THUNDERBOLT",
+    "TAILGLOW",
+    "INGRAIN",
+]
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.11.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 0
+spe = 252
+
+[[trainers.11.pokemon]]
+internal_name = "STAKATAKA"
+level = 100
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "EARTHQUAKE",
+    "STONEEDGE",
+    "STEALTHROCK",
+    "REST",
+]
+sex = ""
+nature = "CAREFUL"
+iv = 31
+
+[trainers.11.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 4
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.12]
+raw_trainer_class = "EVE"
+battler_name = "Eve"
+battler_id = 12
+raw_battle_items = []
+
+[[trainers.12.pokemon]]
+internal_name = "MUSHARNA"
+level = 100
+raw_item = "SYNTHETICSEED"
+raw_moves = [
+    "CALMMIND",
+    "BATONPASS",
+    "PSYCHIC",
+    "MOONLIGHT",
+]
+ability_number = 1
+sex = ""
+nature = "BOLD"
+iv = 31
+
+[trainers.12.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 56
+spe = 200
+
+[[trainers.12.pokemon]]
+internal_name = "UMBREON"
+level = 100
+raw_item = "NORMALIUMZ2"
+raw_moves = [
+    "CELEBRATE",
+    "BATONPASS",
+    "FOULPLAY",
+    "WISH",
+]
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.12.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 252
+spd = 0
+spe = 4
+
+[[trainers.12.pokemon]]
+internal_name = "TOGEKISS"
+level = 100
+raw_item = "SYNTHETICSEED"
+raw_moves = [
+    "BATONPASS",
+    "ANCIENTPOWER",
+    "AIRSLASH",
+    "NASTYPLOT",
+]
+ability_number = 1
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.12.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.12.pokemon]]
+internal_name = "BLACEPHALON"
+level = 100
+raw_item = "SYNTHETICSEED"
+raw_moves = [
+    "HEATWAVE",
+    "STOREDPOWER",
+    "HIDDENPOWERGRA",
+    "SHADOWBALL",
+]
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.12.pokemon.evs]
+hp = 0
+atk = 104
+def_ = 0
+spa = 152
+spd = 0
+spe = 252
+
+[[trainers.12.pokemon]]
+internal_name = "ESPEON"
+level = 100
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "STOREDPOWER",
+    "SHADOWBALL",
+    "DAZZLINGGLEAM",
+    "MORNINGSUN",
+]
+ability_number = 2
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.12.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 0
+spd = 252
+spe = 252
+
+[[trainers.12.pokemon]]
+internal_name = "LUNALA"
+level = 100
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "PSYCHIC",
+    "MOONGEISTBEAM",
+    "MOONLIGHT",
+    "CALMMIND",
+]
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.12.pokemon.evs]
+hp = 0
+atk = 200
+def_ = 0
+spa = 52
+spd = 252
+spe = 4

@@ -1,0 +1,64 @@
+[trainers.0]
+raw_trainer_class = "Swarm"
+battler_name = "Swarm"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "VENIPEDE"
+level = 34
+raw_moves = [
+    "TOXIC",
+    "PROTECT",
+    "VENOSHOCK",
+    "BUGBITE",
+]
+iv = 0
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "VENIPEDE"
+level = 34
+raw_moves = [
+    "POISONTAIL",
+    "PURSUIT",
+    "ROLLOUT",
+    "BUGBITE",
+]
+ability_number = 1
+iv = 0
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "SCOLIPEDE"
+level = 42
+raw_item = "MUSCLEBAND"
+raw_moves = [
+    "STEAMROLLER",
+    "POISONTAIL",
+    "PURSUIT",
+    "ROLLOUT",
+]
+ability_number = 2
+iv = 0
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0

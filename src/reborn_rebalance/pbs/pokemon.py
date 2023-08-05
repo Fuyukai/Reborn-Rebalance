@@ -2,18 +2,15 @@ from __future__ import annotations
 
 import enum
 from functools import cached_property
-from pathlib import Path
 
 import attr
 import attrs
-import prettyprinter
 from cattrs import Converter
 from cattrs.gen import make_dict_unstructure_fn
 
 from reborn_rebalance.pbs.move import MoveCategory, PokemonMove
-from reborn_rebalance.pbs.raw.kv import raw_parse_kv
 from reborn_rebalance.pbs.type import PokemonType
-from reborn_rebalance.util import PbsBuffer, chunks
+from reborn_rebalance.util import PbsBuffer, chunks, get_safely
 
 # XXX: This currently has *some* code to support non-Reborn pokemon.txt, but practically speaking
 #      it only supports Reborn pokemon.txt. Keep that in mind.
@@ -96,20 +93,18 @@ class StatWrapper:
     Wrapper class for a set of six stats, e.g. base stats or EV yield.
     """
 
-    @staticmethod
-    def validate_base_stat(_, __, stat: int):
-        if stat < 0:
-            raise ValueError("Stats cannot be less than zero")
+    # there used to be validators here.
+    # gargantuan steelix has 3252 hp evs. (or 1104 hp)
+    hp: int = attr.ib()
+    atk: int = attr.ib()
+    def_: int = attr.ib()
+    spa: int = attr.ib()
+    spd: int = attr.ib()
+    spe: int = attr.ib()
 
-        elif stat > 255:
-            raise ValueError("Stats cannot be greater than 255")
-
-    hp: int = attr.ib(validator=validate_base_stat)
-    atk: int = attr.ib(validator=validate_base_stat)
-    def_: int = attr.ib(validator=validate_base_stat)
-    spa: int = attr.ib(validator=validate_base_stat)
-    spd: int = attr.ib(validator=validate_base_stat)
-    spe: int = attr.ib(validator=validate_base_stat)
+    @classmethod
+    def empty(cls) -> StatWrapper:
+        return StatWrapper(hp=0, atk=0, def_=0, spa=0, spd=0, spe=0)
 
     @classmethod
     def from_pbs(cls, line: str, for_format: PbsStatFormat = PbsStatFormat.REBORN_STYLE):
@@ -125,6 +120,22 @@ class StatWrapper:
         else:
             # new-style EV format...
             raise NotImplementedError("not yet")
+
+    @classmethod
+    def from_incomplete_list(cls, items: list[int | str]) -> StatWrapper:
+        """
+        Creates a new stat wrapper from an incomplete list.
+        """
+
+        # this is alwways coming from some nonsense like the trainer class
+        hp = int(get_safely(items, 0, 0))
+        atk = int(get_safely(items, 1, 0))
+        def_ = int(get_safely(items, 2, 0))
+        spe = int(get_safely(items, 3, 0))
+        spa = int(get_safely(items, 4, 0))
+        spd = int(get_safely(items, 5, 0))
+
+        return StatWrapper(hp=hp, atk=atk, def_=def_, spe=spe, spa=spa, spd=spd)
 
     def sum(self) -> int:
         """
@@ -600,21 +611,3 @@ class PokemonSpecies:
         for evolution in self.evolutions:
             evos.append(f"{evolution.into_name},{evolution.condition},{evolution.parameter}")
         buffer.write_key_value("Evolutions", ",".join(evos))
-
-
-if __name__ == "__main__":
-
-    def main():
-        prettyprinter.install_extras(include=["attrs"])
-
-        pbs = raw_parse_kv(Path.home() / "aur/pokemon/reborn/PBS/pokemon.txt")
-
-        pbs_buffer = PbsBuffer()
-        for idx, entry in pbs.items():
-            parsed = PokemonSpecies.from_pbs(idx, entry)
-            pbs_buffer.write_id_header(idx)
-            parsed.to_pbs(pbs_buffer)
-
-        Path("./pokemon.txt").write_text(pbs_buffer.backing.getvalue())
-
-    main()

@@ -1,0 +1,117 @@
+[trainers.0]
+raw_trainer_class = "RUINV"
+battler_name = "Vessel"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "CLAYDOL"
+level = 115
+raw_item = "WIKIBERRY"
+raw_moves = [
+    "COSMICPOWER",
+    "STEALTHROCK",
+    "BODYPRESS",
+    "PSYCHIC",
+]
+sex = ""
+is_shiny = true
+nature = "BOLD"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 252
+
+[[trainers.0.pokemon]]
+internal_name = "CRADILY"
+level = 115
+raw_item = "GRASSIUMZ2"
+raw_moves = [
+    "ANCIENTPOWER",
+    "GIGADRAIN",
+    "RECOVER",
+    "AMNESIA",
+]
+ability_number = 1
+sex = ""
+nature = "CALM"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 4
+spe = 252
+
+[[trainers.0.pokemon]]
+internal_name = "JOLTEON"
+level = 115
+raw_item = "LIFEORB"
+raw_moves = [
+    "THUNDERBOLT",
+    "SIGNALBEAM",
+    "SWIFT",
+    "SHADOWBALL",
+]
+ability_number = 1
+sex = "F"
+nature = "TIMID"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "HITMONCHAN"
+level = 117
+raw_item = "LOADEDDICE"
+raw_moves = [
+    "ICEPUNCH",
+    "COMETPUNCH",
+    "BULLETPUNCH",
+    "THUNDERPUNCH",
+]
+ability_number = 1
+nature = "ADAMANT"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 4
+spd = 0
+spe = 252
+
+[[trainers.0.pokemon]]
+internal_name = "TINGLU"
+level = 117
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "RUINATION",
+    "HEAVYSLAM",
+    "STONEEDGE",
+    "STOMPINGTANTRUM",
+]
+sex = ""
+nature = "CAREFUL"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 0
+spd = 0
+spe = 0

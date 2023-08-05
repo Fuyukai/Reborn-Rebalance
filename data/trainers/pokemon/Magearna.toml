@@ -1,0 +1,142 @@
+[trainers.0]
+raw_trainer_class = "MAGEARNA"
+battler_name = "Magearna"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "ROSERADE"
+level = 120
+raw_item = "LIFEORB"
+raw_moves = [
+    "TOXICSPIKES",
+    "GIGADRAIN",
+    "DAZZLINGGLEAM",
+    "SHADOWBALL",
+]
+ability_number = 2
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "BRELOOM"
+level = 120
+raw_item = "LIFEORB"
+raw_moves = [
+    "DRAINPUNCH",
+    "THUNDERPUNCH",
+    "BULLETPUNCH",
+    "GEARGRIND",
+]
+ability_number = 2
+sex = ""
+form_number = 1
+nature = "ADAMANT"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 4
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "KLINKLANG"
+level = 120
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "SHIFTGEAR",
+    "GEARGRIND",
+    "WILDCHARGE",
+    "IRONDEFENSE",
+]
+ability_number = 2
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 4
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "FERROTHORN"
+level = 120
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "NATUREPOWER",
+    "STEALTHROCK",
+    "LEECHSEED",
+    "KNOCKOFF",
+]
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 252
+
+[[trainers.0.pokemon]]
+internal_name = "CINCCINO"
+level = 120
+raw_item = "LIFEORB"
+raw_moves = [
+    "WAKEUPSLAP",
+    "RETURN",
+    "SEEDBOMB",
+    "UTURN",
+]
+ability_number = 1
+sex = ""
+nature = "JOLLY"
+iv = 31
+happiness = 200
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "MAGEARNA"
+level = 120
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "SHIFTGEAR",
+    "FLEURCANNON",
+    "BRICKBREAK",
+    "IRONHEAD",
+]
+sex = ""
+nature = "QUIET"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252

@@ -1,0 +1,222 @@
+[trainers.1000]
+raw_trainer_class = "KANAYA"
+battler_name = "Kanaya"
+battler_id = 1000
+raw_battle_items = []
+
+[[trainers.1000.pokemon]]
+internal_name = "BLAZIKEN"
+level = 100
+raw_item = "LIFEORB"
+raw_moves = [
+    "HEATWAVE",
+    "HIDDENPOWERICE",
+    "KNOCKOFF",
+    "PROTECT",
+]
+ability_number = 1
+sex = "F"
+nature = "RASH"
+iv = 31
+
+[trainers.1000.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.1000.pokemon]]
+internal_name = "GARCHOMP"
+level = 100
+raw_item = "TELLURICSEED"
+raw_moves = [
+    "DRAGONCLAW",
+    "EARTHQUAKE",
+    "STONEEDGE",
+    "SWORDSDANCE",
+]
+ability_number = 1
+sex = "F"
+nature = "ADAMANT"
+iv = 31
+
+[trainers.1000.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.1000.pokemon]]
+internal_name = "LYCANROC"
+level = 100
+raw_item = "CHOICEBAND"
+raw_moves = [
+    "FIREFANG",
+    "STONEEDGE",
+    "DRILLRUN",
+    "CRUNCH",
+]
+ability_number = 1
+sex = "F"
+nature = "ADAMANT"
+iv = 31
+
+[trainers.1000.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[trainers.0]
+raw_trainer_class = "SPIRITF"
+battler_name = "Kanaya"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "GARCHOMP"
+level = 100
+raw_item = "ASSAULTVEST"
+raw_moves = [
+    "STEALTHROCK",
+    "PRECIPICEBLADES",
+    "DIAMONDSTORM",
+    "CRABHAMMER",
+]
+sex = "F"
+form_number = 1
+nature = "ADAMANT"
+iv = 31
+nickname = "Razgriz"
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.0.pokemon]]
+internal_name = "LYCANROC"
+level = 100
+raw_item = "LIFEORB"
+raw_moves = [
+    "ACCELEROCK",
+    "METEORMASH",
+    "SWORDSDANCE",
+    "PRECIPICEBLADES",
+]
+sex = "F"
+nature = "ADAMANT"
+iv = 31
+nickname = "Fenra"
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.0.pokemon]]
+internal_name = "ARCANINE"
+level = 100
+raw_item = "LIFEORB"
+raw_moves = [
+    "VCREATE",
+    "BOLTSTRIKE",
+    "EXTREMESPEED",
+    "MORNINGSUN",
+]
+sex = "F"
+nature = "ADAMANT"
+iv = 31
+nickname = "Akane"
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.0.pokemon]]
+internal_name = "GARDEVOIR"
+level = 100
+raw_item = "LIFEORB"
+raw_moves = [
+    "BOOMBURST",
+    "PSYSTRIKE",
+    "MOONGEISTBEAM",
+    "SEEDFLARE",
+]
+sex = "F"
+form_number = 1
+nature = "MODEST"
+iv = 31
+nickname = "Misery"
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.0.pokemon]]
+internal_name = "ABSOL"
+level = 100
+raw_item = "DARKINIUMZ2"
+raw_moves = [
+    "KNOCKOFF",
+    "MEGAHORN",
+    "SACREDSWORD",
+    "METEORMASH",
+]
+sex = "F"
+form_number = 1
+nature = "ADAMANT"
+iv = 31
+nickname = "Junko"
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.0.pokemon]]
+internal_name = "BLAZIKEN"
+level = 100
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "SWORDSDANCE",
+    "SACREDSWORD",
+    "DRAGONASCENT",
+    "FLAREBLITZ",
+]
+ability_number = 1
+sex = "F"
+form_number = 1
+nature = "ADAMANT"
+iv = 31
+nickname = "Valkyrie"
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252

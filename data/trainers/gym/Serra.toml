@@ -1,0 +1,868 @@
+[trainers.0]
+raw_trainer_class = "SERRA"
+battler_name = "Serra"
+raw_battle_items = [
+    "HYPERPOTION",
+    "HYPERPOTION",
+    "HYPERPOTION",
+]
+
+[[trainers.0.pokemon]]
+internal_name = "GLACEON"
+level = 48
+raw_item = "LIGHTCLAY"
+raw_moves = [
+    "WISH",
+    "ICEBEAM",
+    "SIGNALBEAM",
+    "AURORAVEIL",
+]
+sex = "F"
+nature = "CALM"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "NINETALES"
+level = 48
+raw_item = "ICYROCK"
+raw_moves = [
+    "NASTYPLOT",
+    "DAZZLINGGLEAM",
+    "AURORABEAM",
+    "AURORAVEIL",
+]
+ability_number = 1
+sex = "F"
+form_number = 1
+nature = "CALM"
+iv = 25
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "LAPRAS"
+level = 48
+raw_item = "SYNTHETICSEED"
+raw_moves = [
+    "THUNDERBOLT",
+    "SURF",
+    "SIGNALBEAM",
+    "ICEBEAM",
+]
+ability_number = 1
+sex = "F"
+nature = "MODEST"
+iv = 15
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "SANDSLASH"
+level = 47
+raw_item = "WIDELENS"
+raw_moves = [
+    "IRONHEAD",
+    "ICICLECRASH",
+    "BRICKBREAK",
+    "SWORDSDANCE",
+]
+ability_number = 1
+sex = "F"
+form_number = 1
+nature = "ADAMANT"
+iv = 25
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "JYNX"
+level = 49
+raw_item = "BRIGHTPOWDER"
+raw_moves = [
+    "NASTYPLOT",
+    "FOCUSBLAST",
+    "PSYSHOCK",
+    "ICEBEAM",
+]
+ability_number = 2
+sex = "F"
+nature = "TIMID"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "FROSLASS"
+level = 50
+raw_item = "BRIGHTPOWDER"
+raw_moves = [
+    "ICEBEAM",
+    "DOUBLETEAM",
+    "PAINSPLIT",
+    "SHADOWBALL",
+]
+sex = "F"
+nature = "TIMID"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[trainers.10]
+raw_trainer_class = "SERRA"
+battler_name = "Serra"
+battler_id = 10
+raw_battle_items = []
+
+[[trainers.10.pokemon]]
+internal_name = "NINETALES"
+level = 100
+raw_item = "LIGHTCLAY"
+raw_moves = [
+    "AURORAVEIL",
+    "FREEZEDRY",
+    "MOONBLAST",
+    "ICYWIND",
+]
+ability_number = 1
+sex = ""
+form_number = 1
+nature = "TIMID"
+iv = 31
+
+[trainers.10.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 252
+spd = 4
+spe = 0
+
+[[trainers.10.pokemon]]
+internal_name = "KYUREM"
+level = 100
+raw_item = "LIFEORB"
+raw_moves = [
+    "FUSIONFLARE",
+    "GLACIATE",
+    "DRACOMETEOR",
+    "ROCKSLIDE",
+]
+sex = ""
+form_number = 1
+nature = "MODEST"
+iv = 31
+
+[trainers.10.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.10.pokemon]]
+internal_name = "WEAVILE"
+level = 100
+raw_item = "CHOICEBAND"
+raw_moves = [
+    "KNOCKOFF",
+    "ICICLECRASH",
+    "ICESHARD",
+    "BRICKBREAK",
+]
+ability_number = 1
+sex = ""
+nature = "JOLLY"
+iv = 31
+
+[trainers.10.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.10.pokemon]]
+internal_name = "MAMOSWINE"
+level = 100
+raw_item = "CHOICEBAND"
+raw_moves = [
+    "ICICLECRASH",
+    "EARTHQUAKE",
+    "ICESHARD",
+    "ROCKSLIDE",
+]
+ability_number = 2
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.10.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.10.pokemon]]
+internal_name = "BEARTIC"
+level = 100
+raw_item = "LIFEORB"
+raw_moves = [
+    "ICICLECRASH",
+    "AQUAJET",
+    "PLAYROUGH",
+    "SWORDSDANCE",
+]
+ability_number = 2
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.10.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.10.pokemon]]
+internal_name = "ROTOM"
+level = 100
+raw_item = "ICIUMZ2"
+raw_moves = [
+    "BLIZZARD",
+    "VOLTSWITCH",
+    "DARKPULSE",
+    "THUNDER",
+]
+sex = ""
+form_number = 3
+nature = "MODEST"
+iv = 31
+
+[trainers.10.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 252
+spe = 0
+
+[trainers.11]
+raw_trainer_class = "SERRA"
+battler_name = "Serra"
+battler_id = 11
+raw_battle_items = []
+
+[[trainers.11.pokemon]]
+internal_name = "NINETALES"
+level = 100
+raw_item = "ICYROCK"
+raw_moves = [
+    "SHADOWBALL",
+    "BLIZZARD",
+    "DAZZLINGGLEAM",
+    "HIDDENPOWERPOI",
+]
+ability_number = 1
+sex = ""
+form_number = 1
+nature = "TIMID"
+iv = 31
+
+[trainers.11.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.11.pokemon]]
+internal_name = "ARTICUNO"
+level = 100
+raw_item = "LIGHTCLAY"
+raw_moves = [
+    "HURRICANE",
+    "BLIZZARD",
+    "AURORAVEIL",
+    "SIGNALBEAM",
+]
+ability_number = 1
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.11.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.11.pokemon]]
+internal_name = "KYUREM"
+level = 100
+raw_item = "LIFEORB"
+raw_moves = [
+    "FUSIONFLARE",
+    "BLIZZARD",
+    "DRACOMETEOR",
+    "ROCKSLIDE",
+]
+sex = ""
+form_number = 1
+nature = "TIMID"
+iv = 31
+
+[trainers.11.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.11.pokemon]]
+internal_name = "KYUREM"
+level = 100
+raw_item = "ICIUMZ2"
+raw_moves = [
+    "FUSIONBOLT",
+    "FREEZESHOCK",
+    "OUTRAGE",
+    "ROCKSLIDE",
+]
+sex = ""
+form_number = 2
+nature = "JOLLY"
+iv = 31
+
+[trainers.11.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.11.pokemon]]
+internal_name = "WEAVILE"
+level = 100
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "KNOCKOFF",
+    "ICICLECRASH",
+    "ICESHARD",
+    "BRICKBREAK",
+]
+ability_number = 2
+sex = ""
+nature = "JOLLY"
+iv = 31
+
+[trainers.11.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.11.pokemon]]
+internal_name = "GLACEON"
+level = 100
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "BLIZZARD",
+    "SHADOWBALL",
+    "SIGNALBEAM",
+    "HYPERVOICE",
+]
+ability_number = 1
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.11.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[trainers.12]
+raw_trainer_class = "SERRA"
+battler_name = "Serra"
+battler_id = 12
+raw_battle_items = []
+
+[[trainers.12.pokemon]]
+internal_name = "AURORUS"
+level = 100
+raw_item = "AMPLIFIELDROCK"
+raw_moves = [
+    "NATUREPOWER",
+    "HYPERVOICE",
+    "DISCHARGE",
+    "ROCKSLIDE",
+]
+sex = ""
+nature = "SASSY"
+iv = 32
+
+[trainers.12.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 252
+spe = 4
+
+[[trainers.12.pokemon]]
+internal_name = "ABOMASNOW"
+level = 100
+raw_item = "ABOMASITE"
+raw_moves = [
+    "BLIZZARD",
+    "ROCKSLIDE",
+    "EARTHQUAKE",
+    "FOCUSBLAST",
+]
+ability_number = 1
+sex = ""
+nature = "SASSY"
+iv = 32
+
+[trainers.12.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 4
+
+[[trainers.12.pokemon]]
+internal_name = "AVALUGG"
+level = 100
+raw_item = "IAPAPABERRY"
+raw_moves = [
+    "IRONHEAD",
+    "ROCKSLIDE",
+    "RECOVER",
+    "ICEBALL",
+]
+ability_number = 1
+sex = ""
+nature = "BRAVE"
+iv = 32
+
+[trainers.12.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.12.pokemon]]
+internal_name = "CRABOMINABLE"
+level = 100
+raw_item = "LIFEORB"
+raw_moves = [
+    "ICEHAMMER",
+    "CLOSECOMBAT",
+    "ROCKSLIDE",
+    "CRABHAMMER",
+]
+ability_number = 1
+sex = ""
+nature = "BRAVE"
+iv = 32
+
+[trainers.12.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.12.pokemon]]
+internal_name = "REGICE"
+level = 100
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "BLIZZARD",
+    "AURORAVEIL",
+    "SIGNALBEAM",
+    "EXPLOSION",
+]
+ability_number = 1
+sex = ""
+nature = "SASSY"
+iv = 32
+
+[trainers.12.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 4
+
+[[trainers.12.pokemon]]
+internal_name = "ARTICUNO"
+level = 100
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "AIRCUTTER",
+    "BLIZZARD",
+    "ICESHARD",
+    "ROOST",
+]
+ability_number = 1
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.12.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[trainers.13]
+raw_trainer_class = "SERRA"
+battler_name = "Serra"
+battler_id = 13
+raw_battle_items = []
+
+[[trainers.13.pokemon]]
+internal_name = "GLALIE"
+level = 100
+raw_item = "GLALITITE"
+raw_moves = [
+    "SPIKES",
+    "EXPLOSION",
+    "HYPERBEAM",
+    "HIDDENPOWERFIR",
+]
+sex = ""
+nature = "NAIVE"
+iv = 31
+
+[trainers.13.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4
+
+[[trainers.13.pokemon]]
+internal_name = "ARTICUNO"
+level = 100
+raw_item = "ASSAULTVEST"
+raw_moves = [
+    "FREEZEDRY",
+    "BLIZZARD",
+    "EXTRASENSORY",
+    "BUBBLEBEAM",
+]
+sex = ""
+nature = "CAREFUL"
+iv = 31
+
+[trainers.13.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 0
+spe = 4
+
+[[trainers.13.pokemon]]
+internal_name = "GLACEON"
+level = 100
+raw_item = "SYNTHETICSEED"
+raw_moves = [
+    "AQUATAIL",
+    "BLIZZARD",
+    "ICESHARD",
+    "WISH",
+]
+sex = ""
+nature = "RASH"
+iv = 31
+
+[trainers.13.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4
+
+[[trainers.13.pokemon]]
+internal_name = "KYUREM"
+level = 100
+raw_item = "DRAGONIUMZ2"
+raw_moves = [
+    "FUSIONFLARE",
+    "OUTRAGE",
+    "BLIZZARD",
+    "ROOST",
+]
+sex = ""
+form_number = 1
+nature = "RASH"
+iv = 31
+
+[trainers.13.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4
+
+[[trainers.13.pokemon]]
+internal_name = "CLOYSTER"
+level = 100
+raw_item = "WIKIBERRY"
+raw_moves = [
+    "SHELLSMASH",
+    "ICICLESPEAR",
+    "POISONJAB",
+    "ROCKBLAST",
+]
+ability_number = 1
+sex = ""
+nature = "NAIVE"
+iv = 31
+
+[trainers.13.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4
+
+[[trainers.13.pokemon]]
+internal_name = "REGICE"
+level = 100
+raw_item = "SYNTHETICSEED"
+raw_moves = [
+    "ROCKPOLISH",
+    "AMNESIA",
+    "BLIZZARD",
+    "THUNDERBOLT",
+]
+sex = ""
+nature = "CALM"
+iv = 31
+
+[trainers.13.pokemon.evs]
+hp = 0
+atk = 128
+def_ = 0
+spa = 128
+spd = 0
+spe = 0
+
+[trainers.20]
+raw_trainer_class = "SERRA"
+battler_name = "Serra"
+battler_id = 20
+raw_battle_items = [
+    "HYPERPOTION",
+    "HYPERPOTION",
+    "HYPERPOTION",
+]
+
+[[trainers.20.pokemon]]
+internal_name = "GLACEON"
+level = 48
+raw_item = "BRIGHTPOWDER"
+raw_moves = [
+    "WISH",
+    "ICEBEAM",
+    "SIGNALBEAM",
+    "AURORAVEIL",
+]
+ability_number = 1
+sex = "F"
+nature = "CALM"
+iv = 31
+
+[trainers.20.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.20.pokemon]]
+internal_name = "NINETALES"
+level = 48
+raw_item = "ICYROCK"
+raw_moves = [
+    "NASTYPLOT",
+    "DAZZLINGGLEAM",
+    "AURORABEAM",
+    "AURORAVEIL",
+]
+ability_number = 1
+sex = "F"
+form_number = 1
+nature = "CALM"
+iv = 25
+
+[trainers.20.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.20.pokemon]]
+internal_name = "LAPRAS"
+level = 48
+raw_item = "SYNTHETICSEED"
+raw_moves = [
+    "THUNDERBOLT",
+    "SURF",
+    "SIGNALBEAM",
+    "ICEBEAM",
+]
+ability_number = 1
+sex = "F"
+nature = "MODEST"
+iv = 15
+
+[trainers.20.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.20.pokemon]]
+internal_name = "SANDSLASH"
+level = 47
+raw_item = "SYNTHETICSEED"
+raw_moves = [
+    "IRONHEAD",
+    "ICICLECRASH",
+    "BRICKBREAK",
+    "SWORDSDANCE",
+]
+sex = "F"
+form_number = 1
+nature = "ADAMANT"
+iv = 25
+
+[trainers.20.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.20.pokemon]]
+internal_name = "FROSMOTH"
+level = 49
+raw_item = "LAXINCENSE"
+raw_moves = [
+    "DAZZLINGGLEAM",
+    "QUIVERDANCE",
+    "SIGNALBEAM",
+    "ICEBEAM",
+]
+ability_number = 1
+sex = "F"
+nature = "TIMID"
+iv = 31
+
+[trainers.20.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.20.pokemon]]
+internal_name = "FROSLASS"
+level = 50
+raw_item = "FROSLASSITE"
+raw_moves = [
+    "ICEBEAM",
+    "DOUBLETEAM",
+    "PAINSPLIT",
+    "SHADOWBALL",
+]
+ability_number = 1
+sex = "F"
+nature = "TIMID"
+iv = 31
+
+[trainers.20.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0

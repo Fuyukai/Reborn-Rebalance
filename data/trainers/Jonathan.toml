@@ -1,0 +1,140 @@
+[trainers.0]
+raw_trainer_class = "SPIRITM"
+battler_name = "Jonathan"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "TOGEKISS"
+level = 95
+raw_item = "SYNTHETICSEED"
+raw_moves = [
+    "AIRSLASH",
+    "DAZZLINGGLEAM",
+    "HEATWAVE",
+    "DEFOG",
+]
+ability_number = 1
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 252
+spe = 4
+
+[[trainers.0.pokemon]]
+internal_name = "CHANDELURE"
+level = 95
+raw_item = "SYNTHETICSEED"
+raw_moves = [
+    "SHADOWBALL",
+    "HEATWAVE",
+    "TRICKROOM",
+    "HIDDENPOWERICE",
+]
+ability_number = 1
+sex = ""
+nature = "MODEST"
+iv = 32
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 252
+spe = 4
+
+[[trainers.0.pokemon]]
+internal_name = "TALONFLAME"
+level = 95
+raw_item = "IAPAPABERRY"
+raw_moves = [
+    "BRAVEBIRD",
+    "SWORDSDANCE",
+    "FLAREBLITZ",
+    "QUICKGUARD",
+]
+ability_number = 1
+sex = ""
+nature = "BRAVE"
+iv = 32
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 4
+
+[[trainers.0.pokemon]]
+internal_name = "CONKELDURR"
+level = 95
+raw_item = "FLAMEORB"
+raw_moves = [
+    "MACHPUNCH",
+    "DRAINPUNCH",
+    "KNOCKOFF",
+    "ROCKSLIDE",
+]
+sex = ""
+nature = "BRAVE"
+iv = 32
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 0
+spd = 0
+spe = 4
+
+[[trainers.0.pokemon]]
+internal_name = "ROTOM"
+level = 95
+raw_item = "WIKIBERRY"
+raw_moves = [
+    "HYDROPUMP",
+    "THUNDERBOLT",
+    "WILLOWISP",
+    "HIDDENPOWERGRA",
+]
+sex = ""
+form_number = 2
+nature = "QUIET"
+iv = 32
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 252
+spe = 128
+
+[[trainers.0.pokemon]]
+internal_name = "PORYGON2"
+level = 95
+raw_item = "EVIOLITE"
+raw_moves = [
+    "RECOVER",
+    "TRICKROOM",
+    "BLIZZARD",
+    "THUNDERBOLT",
+]
+sex = ""
+nature = "RELAXED"
+iv = 32
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 128

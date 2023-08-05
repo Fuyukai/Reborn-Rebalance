@@ -1,0 +1,117 @@
+[trainers.0]
+raw_trainer_class = "RUINT"
+battler_name = "Tablets"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "YANMEGA"
+level = 115
+raw_item = "LIFEORB"
+raw_moves = [
+    "SIGNALBEAM",
+    "ANCIENTPOWER",
+    "AIRSLASH",
+    "GIGADRAIN",
+]
+ability_number = 1
+nature = "TIMID"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "BRONZONG"
+level = 115
+raw_item = "AMPLIFIELDROCK"
+raw_moves = [
+    "GYROBALL",
+    "TRICKROOM",
+    "FUTURESIGHT",
+    "STEELBEAM",
+]
+ability_number = 1
+sex = ""
+nature = "RELAXED"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 96
+
+[[trainers.0.pokemon]]
+internal_name = "VAPOREON"
+level = 115
+raw_item = "WATERIUMZ2"
+raw_moves = [
+    "HYDROPUMP",
+    "AURORABEAM",
+    "SIGNALBEAM",
+    "SHADOWBALL",
+]
+ability_number = 1
+sex = "F"
+nature = "QUIET"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 252
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "CURSOLA"
+level = 117
+raw_item = "WIKIBERRY"
+raw_moves = [
+    "NATUREPOWER",
+    "ANCIENTPOWER",
+    "EARTHPOWER",
+    "STRENGTHSAP",
+]
+ability_number = 1
+sex = "F"
+nature = "QUIET"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 4
+spe = 252
+
+[[trainers.0.pokemon]]
+internal_name = "WOCHIEN"
+level = 117
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "RUINATION",
+    "LEECHSEED",
+    "SUBSTITUTE",
+    "PROTECT",
+]
+sex = ""
+nature = "SASSY"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 252

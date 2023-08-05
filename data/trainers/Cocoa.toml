@@ -1,0 +1,117 @@
+[trainers.0]
+raw_trainer_class = "NatureGirl"
+battler_name = "Cocoa"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "HITMONCHAN"
+level = 37
+iv = 0
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.1]
+raw_trainer_class = "NatureGirl"
+battler_name = "Cocoa"
+battler_id = 1
+raw_battle_items = []
+
+[[trainers.1.pokemon]]
+internal_name = "GOLEM"
+level = 127
+raw_item = "CUSTAPBERRY"
+raw_moves = [
+    "NATUREPOWER",
+    "STRENGTH",
+    "STONEEDGE",
+    "EARTHQUAKE",
+]
+ability_number = 1
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.1.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 0
+spd = 0
+spe = 4
+
+[[trainers.1.pokemon]]
+internal_name = "STOUTLAND"
+level = 127
+raw_item = "CHOICEBAND"
+raw_moves = [
+    "PSYCHICFANGS",
+    "PLAYROUGH",
+    "RETURN",
+    "STRENGTH",
+]
+ability_number = 1
+sex = ""
+nature = "ADAMANT"
+iv = 31
+happiness = 255
+
+[trainers.1.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.1.pokemon]]
+internal_name = "DUGTRIO"
+level = 127
+raw_item = "LIFEORB"
+raw_moves = [
+    "SANDTOMB",
+    "SUCKERPUNCH",
+    "EARTHQUAKE",
+    "IRONHEAD",
+]
+ability_number = 2
+sex = ""
+form_number = 1
+nature = "ADAMANT"
+iv = 31
+
+[trainers.1.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.1.pokemon]]
+internal_name = "HITMONCHAN"
+level = 127
+raw_item = "MUSCLEBAND"
+raw_moves = [
+    "STRENGTH",
+    "BULLDOZE",
+    "BULLETPUNCH",
+    "ICEPUNCH",
+]
+ability_number = 2
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.1.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 0
+spd = 0
+spe = 4

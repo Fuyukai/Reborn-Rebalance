@@ -1,0 +1,185 @@
+[trainers.0]
+raw_trainer_class = "AQUA2"
+battler_name = "Pierce"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "CARVANHA"
+level = 32
+iv = 0
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "CLAUNCHER"
+level = 33
+iv = 0
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "LUDICOLO"
+level = 33
+iv = 0
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.1]
+raw_trainer_class = "AQUA2"
+battler_name = "Pierce"
+battler_id = 1
+raw_battle_items = []
+
+[[trainers.1.pokemon]]
+internal_name = "SHARPEDO"
+level = 54
+iv = 0
+
+[trainers.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.1.pokemon]]
+internal_name = "CLAWITZER"
+level = 55
+iv = 0
+
+[trainers.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.1.pokemon]]
+internal_name = "LUDICOLO"
+level = 55
+iv = 0
+
+[trainers.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.2]
+raw_trainer_class = "AQUA2"
+battler_name = "Pierce"
+battler_id = 2
+raw_battle_items = []
+
+[[trainers.2.pokemon]]
+internal_name = "CLAWITZER"
+level = 128
+raw_item = "ASSAULTVEST"
+raw_moves = [
+    "DARKPULSE",
+    "AURASPHERE",
+    "DRAGONPULSE",
+    "SURF",
+]
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.2.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 252
+spe = 4
+
+[[trainers.2.pokemon]]
+internal_name = "LUDICOLO"
+level = 128
+raw_item = "FOCUSSASH"
+raw_moves = [
+    "NATUREPOWER",
+    "ZENHEADBUTT",
+    "DRAINPUNCH",
+    "SEEDBOMB",
+]
+ability_number = 2
+sex = ""
+nature = "JOLLY"
+iv = 31
+
+[trainers.2.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 4
+
+[[trainers.2.pokemon]]
+internal_name = "GASTRODON"
+level = 128
+raw_item = "WISEGLASSES"
+raw_moves = [
+    "SURF",
+    "RECOVER",
+    "MUDBOMB",
+    "HIDDENPOWERFLY",
+]
+ability_number = 2
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.2.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 252
+spe = 4
+
+[[trainers.2.pokemon]]
+internal_name = "SHARPEDO"
+level = 128
+raw_item = "SHARPEDONITE"
+raw_moves = [
+    "PROTECT",
+    "POISONJAB",
+    "EARTHQUAKE",
+    "WATERFALL",
+]
+ability_number = 1
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.2.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0

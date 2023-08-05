@@ -1,0 +1,27 @@
+[trainers.0]
+raw_trainer_class = "TEST"
+battler_name = "Tahm the Tench Tengine"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "CLAWITZER"
+level = 95
+raw_item = "WISEGLASSES"
+raw_moves = [
+    "OVERHEAT",
+    "ORIGINPULSE",
+    "DRACOMETEOR",
+    "FLEURCANNON",
+]
+form_number = 1
+nature = "TIMID"
+iv = 31
+happiness = 0
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 252
+spe = 0

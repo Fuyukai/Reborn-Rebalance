@@ -1,0 +1,146 @@
+[trainers.0]
+raw_trainer_class = "SHANNON"
+battler_name = "Shannon"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "EXPLOUD"
+level = 120
+raw_item = "CHOICESPECS"
+raw_moves = [
+    "BOOMBURST",
+    "ICEBEAM",
+    "FOCUSBLAST",
+    "FLAMETHROWER",
+]
+sex = ""
+nature = "MODEST"
+iv = 31
+nickname = "No.1"
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 252
+spe = 4
+
+[[trainers.0.pokemon]]
+internal_name = "HIPPOWDON"
+level = 120
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "SLACKOFF",
+    "STOMPINGTANTRUM",
+    "FIREFANG",
+    "YAWN",
+]
+sex = "F"
+nature = "ADAMANT"
+iv = 31
+nickname = "No.2"
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 0
+spd = 0
+spe = 4
+
+[[trainers.0.pokemon]]
+internal_name = "MUDSDALE"
+level = 120
+raw_item = "ASSAULTVEST"
+raw_moves = [
+    "HIGHHORSEPOWER",
+    "IRONHEAD",
+    "LOWKICK",
+    "ROCKSLIDE",
+]
+ability_number = 1
+sex = ""
+nature = "ADAMANT"
+iv = 31
+nickname = "No.3"
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 0
+spd = 0
+spe = 4
+
+[[trainers.0.pokemon]]
+internal_name = "DARMANITAN"
+level = 120
+raw_item = "CHOICEBAND"
+raw_moves = [
+    "FIREPUNCH",
+    "ROCKSLIDE",
+    "UTURN",
+    "HAMMERARM",
+]
+sex = ""
+nature = "ADAMANT"
+iv = 31
+nickname = "No.4"
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 4
+
+[[trainers.0.pokemon]]
+internal_name = "MAROWAK"
+level = 120
+raw_item = "SITRUSBERRY"
+raw_moves = [
+    "BONEMERANG",
+    "SHADOWBONE",
+    "STONEEDGE",
+    "FLAREBLITZ",
+]
+ability_number = 1
+sex = ""
+form_number = 1
+nature = "ADAMANT"
+iv = 31
+nickname = "No.5"
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "SCEPTILE"
+level = 120
+raw_item = "SCEPTILITE"
+raw_moves = [
+    "FOCUSBLAST",
+    "GIGADRAIN",
+    "DRAGONPULSE",
+    "HIDDENPOWERFIR",
+]
+ability_number = 1
+sex = ""
+nature = "MODEST"
+iv = 31
+nickname = "No.6"
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0

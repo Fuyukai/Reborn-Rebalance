@@ -1,0 +1,712 @@
+[trainers.0]
+raw_trainer_class = "ZEL3"
+battler_name = "Zero"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "HONCHKROW"
+level = 133
+raw_item = "LIFEORB"
+raw_moves = [
+    "TAILWIND",
+    "BRAVEBIRD",
+    "SUCKERPUNCH",
+    "NIGHTSLASH",
+]
+ability_number = 2
+sex = "F"
+nature = "JOLLY"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "ARTICUNO"
+level = 134
+raw_item = "LIGHTCLAY"
+raw_moves = [
+    "AURORAVEIL",
+    "TAILWIND",
+    "BLIZZARD",
+    "REFLECT",
+]
+nature = "TIMID"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "WEAVILE"
+level = 134
+raw_item = "FOCUSSASH"
+raw_moves = [
+    "KNOCKOFF",
+    "ICICLECRASH",
+    "ICESHARD",
+    "BRICKBREAK",
+]
+ability_number = 2
+sex = "F"
+nature = "ADAMANT"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "DODRIO"
+level = 134
+raw_item = "LIFEORB"
+raw_moves = [
+    "ENDEAVOR",
+    "BRAVEBIRD",
+    "KNOCKOFF",
+    "STOMPINGTANTRUM",
+]
+ability_number = 1
+form_number = 1
+is_shiny = true
+nature = "JOLLY"
+iv = 31
+happiness = 0
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "UMBREON"
+level = 135
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "SNARL",
+    "YAWN",
+    "HEALBELL",
+    "FOULPLAY",
+]
+nature = "CALM"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 252
+spe = 4
+
+[[trainers.0.pokemon]]
+internal_name = "HOUNDOOM"
+level = 134
+raw_item = "HOUNDOOMINITE"
+raw_moves = [
+    "HEATWAVE",
+    "DARKPULSE",
+    "NASTYPLOT",
+    "SLUDGEBOMB",
+]
+ability_number = 1
+nature = "TIMID"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[trainers.1000]
+raw_trainer_class = "ZEL3"
+battler_name = "Zero"
+battler_id = 1000
+raw_battle_items = []
+
+[[trainers.1000.pokemon]]
+internal_name = "SABLEYE"
+level = 100
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "TAUNT",
+    "WILLOWISP",
+    "RECOVER",
+    "FOULPLAY",
+]
+ability_number = 2
+sex = ""
+nature = "BOLD"
+iv = 31
+
+[trainers.1000.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 252
+
+[[trainers.1000.pokemon]]
+internal_name = "SPIRITOMB"
+level = 100
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "CALMMIND",
+    "DARKPULSE",
+    "REST",
+    "SLEEPTALK",
+]
+sex = ""
+nature = "BOLD"
+iv = 31
+
+[trainers.1000.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 252
+
+[[trainers.1000.pokemon]]
+internal_name = "UMBREON"
+level = 100
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "WISH",
+    "PROTECT",
+    "HEALBELL",
+    "FOULPLAY",
+]
+sex = ""
+nature = "CALM"
+iv = 31
+
+[trainers.1000.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 4
+
+[trainers.1001]
+raw_trainer_class = "ZEL3"
+battler_name = "Zero"
+battler_id = 1001
+raw_battle_items = []
+
+[[trainers.1001.pokemon]]
+internal_name = "SPIRITOMB"
+level = 100
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "CALMMIND",
+    "DARKPULSE",
+    "REST",
+    "SLEEPTALK",
+]
+sex = ""
+nature = "BOLD"
+iv = 31
+
+[trainers.1001.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 252
+
+[[trainers.1001.pokemon]]
+internal_name = "UMBREON"
+level = 100
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "WISH",
+    "PROTECT",
+    "HEALBELL",
+    "FOULPLAY",
+]
+sex = ""
+nature = "CALM"
+iv = 31
+
+[trainers.1001.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 4
+
+[[trainers.1001.pokemon]]
+internal_name = "DARKRAI"
+level = 100
+raw_item = "AIRBALLOON"
+raw_moves = [
+    "DARKVOID",
+    "THUNDERBOLT",
+    "NASTYPLOT",
+    "DARKPULSE",
+]
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.1001.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4
+
+[trainers.10]
+raw_trainer_class = "ZEL3"
+battler_name = "Zero"
+battler_id = 10
+raw_battle_items = []
+
+[[trainers.10.pokemon]]
+internal_name = "ZOROARK"
+level = 100
+raw_item = "FOCUSSASH"
+raw_moves = [
+    "NASTYPLOT",
+    "NIGHTDAZE",
+    "FLAMETHROWER",
+    "SLUDGEBOMB",
+]
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.10.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 252
+spe = 0
+
+[[trainers.10.pokemon]]
+internal_name = "ZAPDOS"
+level = 100
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "ROOST",
+    "HEATWAVE",
+    "HIDDENPOWERICE",
+    "DISCHARGE",
+]
+ability_number = 1
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.10.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 252
+spe = 4
+
+[[trainers.10.pokemon]]
+internal_name = "ZEBSTRIKA"
+level = 100
+raw_item = "LIGHTCLAY"
+raw_moves = [
+    "WILDCHARGE",
+    "LOWKICK",
+    "LIGHTSCREEN",
+    "OVERHEAT",
+]
+ability_number = 1
+sex = ""
+nature = "HASTY"
+iv = 31
+
+[trainers.10.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.10.pokemon]]
+internal_name = "ZEKROM"
+level = 100
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "BOLTSTRIKE",
+    "ROOST",
+    "TOXIC",
+    "DRAGONTAIL",
+]
+sex = ""
+nature = "IMPISH"
+iv = 31
+happiness = 255
+
+[trainers.10.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 56
+
+[[trainers.10.pokemon]]
+internal_name = "ZERAORA"
+level = 100
+raw_item = "CHOICEBAND"
+raw_moves = [
+    "PLASMAFISTS",
+    "CLOSECOMBAT",
+    "OUTRAGE",
+    "THROATCHOP",
+]
+sex = ""
+nature = "JOLLY"
+iv = 31
+
+[trainers.10.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.10.pokemon]]
+internal_name = "ZYGARDE"
+level = 100
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "THOUSANDARROWS",
+    "COREENFORCER",
+    "HIDDENPOWERICE",
+    "BRICKBREAK",
+]
+ability_number = 1
+sex = ""
+nature = "QUIET"
+iv = 31
+happiness = 255
+
+[trainers.10.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 128
+spa = 0
+spd = 128
+spe = 0
+
+[trainers.11]
+raw_trainer_class = "ZEL3"
+battler_name = "Zero"
+battler_id = 11
+raw_battle_items = []
+
+[[trainers.11.pokemon]]
+internal_name = "YVELTAL"
+level = 100
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "OBLIVIONWING",
+    "SUCKERPUNCH",
+    "ROOST",
+    "DARKPULSE",
+]
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.11.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.11.pokemon]]
+internal_name = "UMBREON"
+level = 100
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "FOULPLAY",
+    "BATONPASS",
+    "WISH",
+    "PROTECT",
+]
+sex = ""
+nature = "BOLD"
+iv = 31
+
+[trainers.11.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 56
+
+[[trainers.11.pokemon]]
+internal_name = "HOUNDOOM"
+level = 100
+raw_item = "HOUNDOOMINITE"
+raw_moves = [
+    "DARKPULSE",
+    "WILLOWISP",
+    "FLAMETHROWER",
+    "SLUDGEBOMB",
+]
+ability_number = 1
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.11.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.11.pokemon]]
+internal_name = "ARTICUNO"
+level = 100
+raw_item = "LIGHTCLAY"
+raw_moves = [
+    "TAILWIND",
+    "REFLECT",
+    "ICEBEAM",
+    "ANCIENTPOWER",
+]
+sex = ""
+nature = "CALM"
+iv = 31
+happiness = 255
+
+[trainers.11.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.11.pokemon]]
+internal_name = "HONCHKROW"
+level = 100
+raw_item = "DARKINIUMZ2"
+raw_moves = [
+    "SUCKERPUNCH",
+    "BRAVEBIRD",
+    "NIGHTSLASH",
+    "SUPERPOWER",
+]
+ability_number = 2
+sex = ""
+nature = "JOLLY"
+iv = 31
+
+[trainers.11.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.11.pokemon]]
+internal_name = "SHAYMIN"
+level = 100
+raw_item = "YACHEBERRY"
+raw_moves = [
+    "SEEDFLARE",
+    "AIRSLASH",
+    "DAZZLINGGLEAM",
+    "SWIFT",
+]
+sex = ""
+form_number = 1
+nature = "TIMID"
+iv = 31
+happiness = 255
+
+[trainers.11.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[trainers.12]
+raw_trainer_class = "ZEL3"
+battler_name = "Zero"
+battler_id = 12
+raw_battle_items = []
+
+[[trainers.12.pokemon]]
+internal_name = "EEVEE"
+level = 100
+raw_item = "EEVIUMZ2"
+raw_moves = [
+    "LASTRESORT",
+    "PROTECT",
+    "BATONPASS",
+    "RETURN",
+]
+ability_number = 1
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.12.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 252
+spe = 0
+
+[[trainers.12.pokemon]]
+internal_name = "UMBREON"
+level = 100
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "FOULPLAY",
+    "WISH",
+    "PROTECT",
+    "TOXIC",
+]
+sex = ""
+nature = "CALM"
+iv = 31
+
+[trainers.12.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 4
+
+[[trainers.12.pokemon]]
+internal_name = "ESPEON"
+level = 100
+raw_item = "CHOICESPECS"
+raw_moves = [
+    "PSYSHOCK",
+    "SIGNALBEAM",
+    "TRICK",
+    "DAZZLINGGLEAM",
+]
+ability_number = 2
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.12.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.12.pokemon]]
+internal_name = "GLACEON"
+level = 100
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "ICEBEAM",
+    "STOREDPOWER",
+    "WISH",
+    "HIDDENPOWERFIG",
+]
+sex = ""
+nature = "MODEST"
+iv = 31
+happiness = 255
+
+[trainers.12.pokemon.evs]
+hp = 0
+atk = 128
+def_ = 0
+spa = 128
+spd = 252
+spe = 0
+
+[[trainers.12.pokemon]]
+internal_name = "VAPOREON"
+level = 100
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "SCALD",
+    "HEALBELL",
+    "WISH",
+    "PROTECT",
+]
+sex = ""
+nature = "CALM"
+iv = 31
+
+[trainers.12.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 252
+
+[[trainers.12.pokemon]]
+internal_name = "JOLTEON"
+level = 100
+raw_item = "LIFEORB"
+raw_moves = [
+    "VOLTSWITCH",
+    "SHADOWBALL",
+    "HYPERVOICE",
+    "THUNDER",
+]
+sex = ""
+nature = "MODEST"
+iv = 31
+happiness = 255
+
+[trainers.12.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0

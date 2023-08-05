@@ -1,0 +1,50 @@
+[trainers.0]
+raw_trainer_class = "SAMUROTT"
+battler_name = "Daishou"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "SAMUROTT"
+level = 78
+raw_item = "SITRUSBERRY"
+raw_moves = [
+    "WATERFALL",
+    "SCALD",
+    "GRASSKNOT",
+    "ICEBEAM",
+]
+ability_number = 1
+nature = "LONELY"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 0
+spd = 4
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "SAMUROTT"
+level = 83
+raw_item = "LUMBERRY"
+raw_moves = [
+    "AQUACUTTER",
+    "CEASELESSEDGE",
+    "SUCKERPUNCH",
+    "BLIZZARD",
+]
+ability_number = 1
+sex = "F"
+form_number = 1
+nature = "RASH"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 4
+spa = 0
+spd = 252
+spe = 0

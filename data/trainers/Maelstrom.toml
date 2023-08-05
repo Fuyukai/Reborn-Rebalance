@@ -1,0 +1,72 @@
+[trainers.1000]
+raw_trainer_class = "MAEL"
+battler_name = "Maelstrom"
+battler_id = 1000
+raw_battle_items = []
+
+[[trainers.1000.pokemon]]
+internal_name = "TORKOAL"
+level = 100
+raw_item = "ELEMENTALSEED"
+raw_moves = [
+    "LAVAPLUME",
+    "SOLARBEAM",
+    "TOXIC",
+    "CLEARSMOG",
+]
+ability_number = 1
+sex = ""
+nature = "BOLD"
+iv = 31
+
+[trainers.1000.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 252
+spe = 4
+
+[[trainers.1000.pokemon]]
+internal_name = "TURTONATOR"
+level = 100
+raw_item = "ELEMENTALSEED"
+raw_moves = [
+    "HEATWAVE",
+    "DRACOMETEOR",
+    "SOLARBEAM",
+    "FOCUSBLAST",
+]
+sex = ""
+nature = "BOLD"
+iv = 31
+
+[trainers.1000.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 252
+spe = 4
+
+[[trainers.1000.pokemon]]
+internal_name = "HEATRAN"
+level = 100
+raw_item = "ELEMENTALSEED"
+raw_moves = [
+    "LAVAPLUME",
+    "EARTHPOWER",
+    "DARKPULSE",
+    "FLASHCANNON",
+]
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.1000.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0

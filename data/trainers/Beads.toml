@@ -1,0 +1,114 @@
+[trainers.0]
+raw_trainer_class = "RUINB"
+battler_name = "Beads"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "GRIMMSNARL"
+level = 115
+raw_item = "LIGHTCLAY"
+raw_moves = [
+    "REFLECT",
+    "LIGHTSCREEN",
+    "SUCKERPUNCH",
+    "THUNDERWAVE",
+]
+nature = "IMPISH"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 0
+spd = 0
+spe = 4
+
+[[trainers.0.pokemon]]
+internal_name = "HAXORUS"
+level = 115
+raw_item = "LIFEORB"
+raw_moves = [
+    "DRAGONDANCE",
+    "FIRSTIMPRESSION",
+    "OUTRAGE",
+    "POISONJAB",
+]
+ability_number = 1
+sex = ""
+nature = "JOLLY"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "ESPEON"
+level = 115
+raw_item = "ASSAULTVEST"
+raw_moves = [
+    "DAZZLINGGLEAM",
+    "PSYCHIC",
+    "POWERGEM",
+    "GRASSKNOT",
+]
+ability_number = 1
+sex = "F"
+nature = "TIMID"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "DITTO"
+level = 117
+raw_item = "CHOICESCARF"
+raw_moves = [
+    "TRANSFORM",
+]
+ability_number = 1
+sex = ""
+nature = "TIMID"
+iv = 31
+happiness = 255
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "CHIYU"
+level = 117
+raw_item = "FIRIUMZ2"
+raw_moves = [
+    "NASTYPLOT",
+    "PSYCHIC",
+    "DARKPULSE",
+    "OVERHEAT",
+]
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0

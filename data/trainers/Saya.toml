@@ -1,0 +1,136 @@
+[trainers.0]
+raw_trainer_class = "SPIRITF"
+battler_name = "Saya"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "GENGAR"
+level = 95
+raw_item = "SYNTHETICSEED"
+raw_moves = [
+    "PSYCHIC",
+    "THUNDERBOLT",
+    "ENERGYBALL",
+    "HIDDENPOWERFIR",
+]
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4
+
+[[trainers.0.pokemon]]
+internal_name = "EMPOLEON"
+level = 95
+raw_item = "LIFEORB"
+raw_moves = [
+    "AQUAJET",
+    "SCALD",
+    "BLIZZARD",
+    "GRASSKNOT",
+]
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4
+
+[[trainers.0.pokemon]]
+internal_name = "DITTO"
+level = 95
+raw_item = "CHOICESCARF"
+raw_moves = [
+    "TRANSFORM",
+]
+ability_number = 1
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "CHANDELURE"
+level = 95
+raw_item = "SYNTHETICSEED"
+raw_moves = [
+    "PSYCHIC",
+    "HEATWAVE",
+    "HIDDENPOWERICE",
+    "ENERGYBALL",
+]
+ability_number = 1
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4
+
+[[trainers.0.pokemon]]
+internal_name = "TYRANITAR"
+level = 95
+raw_item = "ASSAULTVEST"
+raw_moves = [
+    "EARTHQUAKE",
+    "STONEEDGE",
+    "SUPERPOWER",
+    "CRUNCH",
+]
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 4
+
+[[trainers.0.pokemon]]
+internal_name = "HAXORUS"
+level = 95
+raw_item = "MUSCLEBAND"
+raw_moves = [
+    "POISONJAB",
+    "DRAGONDANCE",
+    "EARTHQUAKE",
+    "BRICKBREAK",
+]
+ability_number = 1
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 4
+spe = 252

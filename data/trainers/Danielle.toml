@@ -1,0 +1,175 @@
+[trainers.0]
+raw_trainer_class = "NWOrderlyF"
+battler_name = "Danielle"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "SLOWBRO"
+level = 74
+raw_moves = [
+    "SURF",
+    "PSYSHOCK",
+    "FLAMETHROWER",
+    "BULLDOZE",
+]
+ability_number = 1
+iv = 0
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "SIGILYPH"
+level = 74
+raw_moves = [
+    "PSYCHIC",
+    "DAZZLINGGLEAM",
+    "ANCIENTPOWER",
+    "AIRSLASH",
+]
+ability_number = 1
+iv = 0
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "PROBOPASS"
+level = 76
+raw_moves = [
+    "DISCHARGE",
+    "ZAPCANNON",
+    "ROCKSLIDE",
+    "BULLDOZE",
+]
+iv = 0
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "EMPOLEON"
+level = 76
+raw_moves = [
+    "SURF",
+    "FLASHCANNON",
+    "ICYWIND",
+    "MIST",
+]
+ability_number = 1
+iv = 0
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "KINGDRA"
+level = 75
+raw_moves = [
+    "SURF",
+    "DRAGONPULSE",
+    "DRAGONDANCE",
+    "ICEBEAM",
+]
+iv = 0
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.1000]
+raw_trainer_class = "SEER"
+battler_name = "Danielle"
+battler_id = 1000
+raw_battle_items = []
+
+[[trainers.1000.pokemon]]
+internal_name = "DEOXYS"
+level = 100
+raw_item = "SYNTHETICSEED"
+raw_moves = [
+    "DOUBLETEAM",
+    "PSYCHOBOOST",
+    "STEALTHROCK",
+    "REFLECT",
+]
+sex = ""
+form_number = 3
+nature = "TIMID"
+iv = 31
+
+[trainers.1000.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 252
+spd = 0
+spe = 4
+
+[[trainers.1000.pokemon]]
+internal_name = "AEGISLASH"
+level = 100
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "FLASHCANNON",
+    "SHADOWBALL",
+    "KINGSSHIELD",
+    "TOXIC",
+]
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.1000.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 0
+spd = 0
+spe = 128
+
+[[trainers.1000.pokemon]]
+internal_name = "ALAKAZAM"
+level = 100
+raw_item = "ALAKAZITE"
+raw_moves = [
+    "PSYCHIC",
+    "FOCUSBLAST",
+    "DAZZLINGGLEAM",
+    "RECOVER",
+]
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.1000.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4

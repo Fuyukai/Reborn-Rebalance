@@ -1,0 +1,64 @@
+[trainers.0]
+raw_trainer_class = "AceTrainerM"
+battler_name = "Altimis"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "GLISCOR"
+level = 74
+raw_item = "TOXICORB"
+raw_moves = [
+    "TOXIC",
+    "METALCLAW",
+    "SUBSTITUTE",
+    "PROTECT",
+]
+ability_number = 2
+iv = 0
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "VOLCARONA"
+level = 75
+raw_moves = [
+    "HEATWAVE",
+    "QUIVERDANCE",
+    "GIGADRAIN",
+    "BUGBUZZ",
+]
+iv = 0
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "ABSOL"
+level = 76
+raw_moves = [
+    "NIGHTSLASH",
+    "PSYCHOCUT",
+    "STONEEDGE",
+    "SHADOWCLAW",
+]
+sex = "F"
+iv = 0
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0

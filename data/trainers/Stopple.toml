@@ -1,0 +1,28 @@
+[trainers.0]
+raw_trainer_class = "SWALOT"
+battler_name = "Stopple"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "SWALOT"
+level = 80
+raw_item = "BLACKSLUDGE"
+raw_moves = [
+    "SLUDGEWAVE",
+    "RECOVER",
+    "INFESTATION",
+    "DISCHARGE",
+]
+form_number = 1
+is_shiny = true
+nature = "CALM"
+iv = 27
+happiness = 0
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 252

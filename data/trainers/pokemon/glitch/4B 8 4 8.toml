@@ -1,0 +1,43 @@
+[trainers.0]
+raw_trainer_class = "GLITCH1"
+battler_name = "4B 8 4 8"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "PARASECT"
+level = 74
+raw_moves = [
+    "SPORE",
+    "NATUREPOWER",
+    "LEECHSEED",
+    "DOUBLETEAM",
+]
+iv = 0
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "DUGTRIO"
+level = 75
+raw_moves = [
+    "EARTHQUAKE",
+    "SLUDGEWAVE",
+    "HYPERBEAM",
+    "TRIATTACK",
+]
+ability_number = 1
+iv = 0
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0

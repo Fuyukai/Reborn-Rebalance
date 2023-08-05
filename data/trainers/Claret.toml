@@ -1,0 +1,49 @@
+[trainers.0]
+raw_trainer_class = "Casanova"
+battler_name = "Claret"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "ZOROARK"
+level = 74
+raw_item = "FOCUSSASH"
+raw_moves = [
+    "DARKPULSE",
+    "FLAMETHROWER",
+    "FOCUSBLAST",
+    "NASTYPLOT",
+]
+sex = ""
+nature = "JOLLY"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "NINETALES"
+level = 76
+raw_item = "HEATROCK"
+raw_moves = [
+    "SOLARBEAM",
+    "HEATWAVE",
+    "NASTYPLOT",
+    "DARKPULSE",
+]
+ability_number = 1
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0

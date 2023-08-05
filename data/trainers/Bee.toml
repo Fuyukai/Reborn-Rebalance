@@ -1,0 +1,72 @@
+[trainers.1000]
+raw_trainer_class = "BEE"
+battler_name = "Bee"
+battler_id = 1000
+raw_battle_items = []
+
+[[trainers.1000.pokemon]]
+internal_name = "RIBOMBEE"
+level = 100
+raw_item = "FOCUSSASH"
+raw_moves = [
+    "STICKYWEB",
+    "STUNSPORE",
+    "MOONBLAST",
+    "QUIVERDANCE",
+]
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.1000.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4
+
+[[trainers.1000.pokemon]]
+internal_name = "BEEDRILL"
+level = 100
+raw_item = "BEEDRILLITE"
+raw_moves = [
+    "POISONJAB",
+    "FELLSTINGER",
+    "DRILLRUN",
+    "KNOCKOFF",
+]
+sex = ""
+nature = "JOLLY"
+iv = 31
+
+[trainers.1000.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 4
+
+[[trainers.1000.pokemon]]
+internal_name = "NAGANADEL"
+level = 100
+raw_item = "DRAGONIUMZ2"
+raw_moves = [
+    "SLUDGEWAVE",
+    "DRACOMETEOR",
+    "NASTYPLOT",
+    "FIREBLAST",
+]
+sex = ""
+is_shiny = true
+nature = "TIMID"
+iv = 31
+
+[trainers.1000.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4

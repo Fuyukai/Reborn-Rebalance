@@ -1,0 +1,44 @@
+[trainers.0]
+raw_trainer_class = "KNIGHT"
+battler_name = "Lancelot"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "PYROAR"
+level = 76
+raw_moves = [
+    "NOBLEROAR",
+    "BULLDOZE",
+    "FLAREBLITZ",
+    "CRUNCH",
+]
+ability_number = 2
+iv = 0
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "DELPHOX"
+level = 76
+raw_moves = [
+    "MYSTICALFIRE",
+    "WISH",
+    "PSYSHOCK",
+    "DAZZLINGGLEAM",
+]
+ability_number = 1
+iv = 0
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0

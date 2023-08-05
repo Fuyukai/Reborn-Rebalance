@@ -1,0 +1,74 @@
+[trainers.0]
+raw_trainer_class = "KNIGHT"
+battler_name = "Kalezis"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "KOMMOO"
+level = 87
+raw_item = "LIFEORB"
+raw_moves = [
+    "DRAGONDANCE",
+    "OUTRAGE",
+    "CLOSECOMBAT",
+    "POISONJAB",
+]
+ability_number = 1
+sex = ""
+nature = "JOLLY"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "KLINKLANG"
+level = 87
+raw_item = "LIFEORB"
+raw_moves = [
+    "SHIFTGEAR",
+    "GEARGRIND",
+    "RETURN",
+    "WILDCHARGE",
+]
+ability_number = 1
+sex = ""
+nature = "ADAMANT"
+iv = 31
+happiness = 255
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 4
+
+[[trainers.0.pokemon]]
+internal_name = "SALAMENCE"
+level = 87
+raw_item = "LUMBERRY"
+raw_moves = [
+    "DRAGONDANCE",
+    "DRAGONCLAW",
+    "EARTHQUAKE",
+    "FIREFANG",
+]
+ability_number = 1
+sex = ""
+nature = "JOLLY"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0

@@ -7,7 +7,8 @@ from io import StringIO
 from pathlib import Path
 
 import cattrs
-from rtoml import dump, load
+from rtoml import load
+from tomli_w import dump
 
 from reborn_rebalance.pbs.ability import PokemonAbility
 from reborn_rebalance.pbs.encounters import EncounterParser, MapEncounters
@@ -18,9 +19,9 @@ from reborn_rebalance.pbs.move import MoveCategory, MoveFlag, MoveTarget, Pokemo
 from reborn_rebalance.pbs.pokemon import EggGroup, GrowthRate, PokemonSpecies, SexRatio
 from reborn_rebalance.pbs.raw.kv import raw_parse_kv
 from reborn_rebalance.pbs.tm import TechnicalMachine
-from reborn_rebalance.pbs.trainer import TrainerType
+from reborn_rebalance.pbs.trainer import SingleTrainerPokemon, Trainer, TrainerType
 from reborn_rebalance.pbs.type import PokemonType
-from reborn_rebalance.util import PbsBuffer, chunks
+from reborn_rebalance.util import PbsBuffer, StupidFuckingIterationWrapper, chunks
 
 GENERATIONS = [
     # Bulbasaur -> Mew
@@ -75,6 +76,8 @@ def create_cattrs_converter() -> cattrs.Converter:
     SinglePokemonForm.add_unstructure_hook(converter)
     MapMetadata.add_unstructure_hook(converter)
     TrainerType.add_unstructure_hook(converter)
+    SingleTrainerPokemon.add_unstructure_hook(converter)
+    Trainer.add_unstructure_hook(converter)
 
     return converter
 
@@ -156,7 +159,7 @@ def save_single_species_to_toml(output_path: Path, species: PokemonSpecies):
 
     output = CONVERTER.unstructure(species)
 
-    with output_path.open(encoding="utf-8", mode="w") as f:
+    with output_path.open(mode="wb") as f:
         dump(output, f)
 
 
@@ -278,7 +281,7 @@ def save_moves_to_toml(path: Path, moves: list[PokemonMove]):
 
     output = {"moves": CONVERTER.unstructure(moves)}
 
-    with path.open(encoding="utf-8", mode="w") as f:
+    with path.open(mode="wb") as f:
         dump(output, f)
 
 
@@ -353,7 +356,7 @@ def save_items_to_toml(path: Path, items: list[PokemonItem]):
     items = sorted(items, key=lambda it: it.id)
     output = {"items": CONVERTER.unstructure(items)}
 
-    with path.open(encoding="utf-8", mode="w") as f:
+    with path.open(mode="wb") as f:
         dump(output, f)
 
 
@@ -420,7 +423,7 @@ def save_tms_to_toml(path: Path, tms: list[TechnicalMachine]):
 
     output = CONVERTER.unstructure(real_dict)
 
-    with path.open(encoding="utf-8", mode="w") as f:
+    with path.open(mode="wb") as f:
         dump(output, f)
 
 
@@ -492,7 +495,7 @@ def save_abilities_to_toml(path: Path, abilities: list[PokemonAbility]):
 
     output = {"abilities": CONVERTER.unstructure(abilities)}
 
-    with path.open(encoding="utf-8", mode="w") as f:
+    with path.open(mode="wb") as f:
         dump(output, f)
 
 
@@ -598,7 +601,7 @@ def save_encounters_to_toml(
         if filename.exists():
             continue
 
-        with filename.open(mode="w", encoding="utf-8") as f:
+        with filename.open(mode="wb") as f:
             dump(CONVERTER.unstructure(encounter), f)
 
 
@@ -657,7 +660,7 @@ def save_map_metadata_to_toml(path: Path, maps: dict[int, MapMetadata]):
 
     output = {"maps": CONVERTER.unstructure(maps)}
 
-    with path.open(encoding="utf-8", mode="w") as f:
+    with path.open(mode="wb") as f:
         dump(output, f)
 
 
@@ -712,8 +715,119 @@ def save_trainer_types_to_toml(path: Path, types: dict[int, TrainerType]):
 
     output = {"trainer_types": CONVERTER.unstructure(types)}
 
-    with path.open(encoding="utf-8", mode="w") as f:
+    with path.open(mode="wb") as f:
         dump(output, f)
+
+
+def load_single_trainer_file_toml(path: Path) -> tuple[str, list[Trainer]]:
+    """
+    Loads a single trainer file from TOML.
+    """
+
+    with path.open(encoding="utf-8", mode="r") as f:
+        data = load(f)["trainers"]
+
+    trainers: list[Trainer] = []
+    # load values cos we don't care about the ids. only there for disambiguation.
+    for trainer in data.values():
+        trainers.append(CONVERTER.structure(trainer, Trainer))
+
+    return path.stem, trainers
+
+
+def load_trainers_from_toml(path: Path) -> dict[str, list[Trainer]]:
+    """
+    Loads all trainers from TOML.
+    """
+
+    trainers: dict[str, list[Trainer]] = {}
+    futures: list[Future[list[Trainer]]] = []
+
+    with concurrent.futures.ProcessPoolExecutor() as executor:
+        for file in path.rglob("*"):
+            if file.is_dir():
+                continue
+
+            if file.suffix != ".toml":
+                continue
+
+            fut = executor.submit(load_single_trainer_file_toml, file)
+            futures.append(fut)
+
+    for fut in futures:
+        name, all_trainers = fut.result()
+        trainers[name] = all_trainers
+
+    return trainers
+
+
+def load_trainers_from_pbs(path: Path) -> dict[str, list[Trainer]]:
+    """
+    Loads all trainers from PBS. Returns a dict of {trainer name: list of Trainer object}.
+    """
+
+    trainers = {}
+
+    with path.open(mode="r", encoding="utf-8") as f:
+        # because there are *commented out lines* in the middle of entries.
+        line_iterator = StupidFuckingIterationWrapper(f)
+
+        while True:
+            try:
+                next_line = next(line_iterator)
+            except StopIteration:
+                break
+
+            if next_line.startswith("#"):
+                continue
+
+            trainer_obb = Trainer.from_single_section(next_line, line_iterator)
+            trainers.setdefault(trainer_obb.battler_name, []).append(trainer_obb)
+
+    return trainers
+
+
+def save_trainers_to_toml(path: Path, trainers: dict[str, list[Trainer]]):
+    """
+    Saves all trainer data to TOML files.
+    """
+
+    existing_files = path.glob("**/*")
+    existing_names = {i.stem for i in existing_files if not i.is_dir() and i.suffix == ".toml"}
+
+    for key, all_trainers in trainers.items():
+        key = key.replace(".", "_")
+        toml_path = (path / key).with_suffix(".toml")
+
+        if key in existing_names:
+            print("Not overwriting", key)
+            continue
+
+        raw_trainer_list = CONVERTER.unstructure(all_trainers)
+        output_data = {
+            "trainers": {
+                str(orig.battler_id): value for orig, value in zip(all_trainers, raw_trainer_list)
+            }
+        }
+
+        with toml_path.open(mode="wb") as f:
+            dump(output_data, f)
+
+
+def save_trainers_to_pbs(path: Path, trainers: dict[str, list[Trainer]]):
+    """
+    Saves all trainer data to the PBS file.
+    """
+
+    # yikes
+    buffer = StringIO()
+
+    for _, all_trainers in trainers.items():
+        for trainer in all_trainers:
+            buffer.write("#-------------------\n")
+            trainer.into_pbs(buffer)
+
+    path.write_text(buffer.getvalue(), encoding="utf-8")
 
 
 def load_map_names(path: Path) -> dict[int, str]:

@@ -1,0 +1,133 @@
+[trainers.0]
+raw_trainer_class = "MUSKETEER3"
+battler_name = "Swords of Justice"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "COBALION"
+level = 115
+raw_moves = [
+    "STEALTHROCK",
+    "STRENGTH",
+    "ZENHEADBUTT",
+    "IRONHEAD",
+]
+sex = ""
+nature = "JOLLY"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "TERRAKION"
+level = 115
+raw_moves = [
+    "ROCKSLIDE",
+    "EARTHQUAKE",
+    "STRENGTH",
+    "ROCKPOLISH",
+]
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "VIRIZION"
+level = 115
+raw_moves = [
+    "CALMMIND",
+    "FOCUSBLAST",
+    "GIGADRAIN",
+    "HIDDENPOWERROC",
+]
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4
+
+[[trainers.0.pokemon]]
+internal_name = "SEISMITOAD"
+level = 115
+raw_moves = [
+    "MUDDYWATER",
+    "MUDBOMB",
+    "FOCUSBLAST",
+    "HIDDENPOWERBUG",
+]
+ability_number = 2
+sex = ""
+nature = "MODEST"
+iv = 20
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 252
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "VAPOREON"
+level = 115
+raw_item = "CHOICESPECS"
+raw_moves = [
+    "BLIZZARD",
+    "MUDDYWATER",
+    "HIDDENPOWERGRO",
+    "SHADOWBALL",
+]
+sex = ""
+nature = "BOLD"
+iv = 20
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 4
+spd = 252
+spe = 252
+
+[[trainers.0.pokemon]]
+internal_name = "LUCARIO"
+level = 115
+raw_item = "LUCARIONITE"
+raw_moves = [
+    "DARKPULSE",
+    "FOCUSBLAST",
+    "CALMMIND",
+    "PSYCHIC",
+]
+sex = ""
+nature = "TIMID"
+iv = 20
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0

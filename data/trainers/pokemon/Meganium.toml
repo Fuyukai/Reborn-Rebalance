@@ -1,0 +1,71 @@
+[trainers.1000]
+raw_trainer_class = "MEGANIUM"
+battler_name = "Meganium"
+battler_id = 1000
+raw_battle_items = []
+
+[[trainers.1000.pokemon]]
+internal_name = "MEGANIUM"
+level = 100
+raw_item = "AMPLIFIELDROCK"
+raw_moves = [
+    "NATUREPOWER",
+    "GIGADRAIN",
+    "IRONTAIL",
+    "BODYSLAM",
+]
+sex = ""
+nature = "QUIET"
+iv = 32
+
+[trainers.1000.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 4
+
+[[trainers.1000.pokemon]]
+internal_name = "AVALUGG"
+level = 100
+raw_item = "CHOICEBAND"
+raw_moves = [
+    "SUPERPOWER",
+    "ICEFANG",
+    "ROCKSLIDE",
+    "EARTHQUAKE",
+]
+sex = ""
+nature = "BRAVE"
+iv = 32
+
+[trainers.1000.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 0
+spd = 0
+spe = 4
+
+[[trainers.1000.pokemon]]
+internal_name = "ABOMASNOW"
+level = 100
+raw_item = "LIFEORB"
+raw_moves = [
+    "FOCUSBLAST",
+    "FROSTBREATH",
+    "GIGADRAIN",
+    "SHADOWBALL",
+]
+sex = ""
+nature = "QUIET"
+iv = 32
+
+[trainers.1000.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 252
+spe = 4

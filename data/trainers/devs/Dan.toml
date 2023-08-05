@@ -1,0 +1,25 @@
+[trainers.0]
+raw_trainer_class = "SPIRITM"
+battler_name = "Dan"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "ROWLET"
+level = 100
+raw_item = "METRONOME"
+raw_moves = [
+    "RAGE",
+]
+sex = ""
+form_number = 1
+nature = "JOLLY"
+iv = 31
+nickname = "Grumpy"
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 2522
+def_ = 252
+spa = 252
+spd = 252
+spe = 2522

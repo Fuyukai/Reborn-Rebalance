@@ -1,0 +1,880 @@
+[trainers.0]
+raw_trainer_class = "LUNA"
+battler_name = "Luna"
+raw_battle_items = [
+    "ULTRAPOTION",
+    "ULTRAPOTION",
+    "ULTRAPOTION",
+]
+
+[[trainers.0.pokemon]]
+internal_name = "BISHARP"
+level = 63
+raw_item = "ROCKYHELMET"
+raw_moves = [
+    "IRONHEAD",
+    "NIGHTSLASH",
+    "SUCKERPUNCH",
+    "STEALTHROCK",
+]
+nature = "IMPISH"
+iv = 31
+nickname = "Carpenter"
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 0
+spd = 0
+spe = 4
+
+[[trainers.0.pokemon]]
+internal_name = "ABSOL"
+level = 64
+raw_item = "LIFEORB"
+raw_moves = [
+    "SWORDSDANCE",
+    "SUCKERPUNCH",
+    "PLAYROUGH",
+    "NIGHTSLASH",
+]
+nature = "ADAMANT"
+iv = 31
+nickname = "White Rabbit"
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "HONCHKROW"
+level = 63
+raw_item = "MUSCLEBAND"
+raw_moves = [
+    "SUCKERPUNCH",
+    "NIGHTSLASH",
+    "ROOST",
+    "BRAVEBIRD",
+]
+ability_number = 2
+sex = "F"
+nature = "JOLLY"
+iv = 31
+nickname = "Jubjub Bird"
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "WEAVILE"
+level = 64
+raw_item = "FOCUSSASH"
+raw_moves = [
+    "POWERUPPUNCH",
+    "POISONJAB",
+    "ICESHARD",
+    "NIGHTSLASH",
+]
+ability_number = 2
+sex = "F"
+is_shiny = true
+nature = "JOLLY"
+iv = 31
+nickname = "KnaveOfHearts"
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "TYRANITAR"
+level = 63
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "BRICKBREAK",
+    "IRONHEAD",
+    "CRUNCH",
+    "STONEEDGE",
+]
+ability_number = 1
+nature = "ADAMANT"
+iv = 31
+nickname = "Bandersnatch"
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "UMBREON"
+level = 65
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "MOONLIGHT",
+    "DARKPULSE",
+    "DOUBLETEAM",
+    "TOXIC",
+]
+nature = "CALM"
+iv = 31
+nickname = "Cheshire"
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 252
+
+[trainers.10]
+raw_trainer_class = "LUNA"
+battler_name = "Luna"
+battler_id = 10
+raw_battle_items = []
+
+[[trainers.10.pokemon]]
+internal_name = "BISHARP"
+level = 100
+raw_item = "FOCUSSASH"
+raw_moves = [
+    "STEALTHROCK",
+    "SUCKERPUNCH",
+    "IRONHEAD",
+    "BRICKBREAK",
+]
+sex = ""
+nature = "ADAMANT"
+iv = 31
+nickname = "Carpenter"
+
+[trainers.10.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.10.pokemon]]
+internal_name = "GRENINJA"
+level = 100
+raw_item = "LIFEORB"
+raw_moves = [
+    "DARKPULSE",
+    "HYDROPUMP",
+    "ICEBEAM",
+    "UTURN",
+]
+ability_number = 1
+sex = ""
+nature = "TIMID"
+iv = 31
+nickname = "Bill"
+
+[trainers.10.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.10.pokemon]]
+internal_name = "DARKRAI"
+level = 100
+raw_item = "LIFEORB"
+raw_moves = [
+    "DARKVOID",
+    "NASTYPLOT",
+    "DARKPULSE",
+    "SLUDGEBOMB",
+]
+sex = ""
+nature = "TIMID"
+iv = 31
+nickname = "Red Queen"
+
+[trainers.10.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4
+
+[[trainers.10.pokemon]]
+internal_name = "TYRANITAR"
+level = 100
+raw_item = "TYRANITARITE"
+raw_moves = [
+    "DRAGONDANCE",
+    "CRUNCH",
+    "STONEEDGE",
+    "SUPERPOWER",
+]
+sex = ""
+nature = "JOLLY"
+iv = 31
+nickname = "Bandersnatch"
+
+[trainers.10.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.10.pokemon]]
+internal_name = "WEAVILE"
+level = 100
+raw_item = "LIFEORB"
+raw_moves = [
+    "ICICLECRASH",
+    "ICESHARD",
+    "KNOCKOFF",
+    "POISONJAB",
+]
+sex = ""
+nature = "JOLLY"
+iv = 31
+nickname = "KnaveOfHearts"
+
+[trainers.10.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 4
+
+[[trainers.10.pokemon]]
+internal_name = "HYDREIGON"
+level = 100
+raw_item = "CHOICESPECS"
+raw_moves = [
+    "HEATWAVE",
+    "SURF",
+    "DARKPULSE",
+    "DRACOMETEOR",
+]
+sex = ""
+nature = "MODEST"
+iv = 31
+nickname = "Jabberwocky"
+
+[trainers.10.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[trainers.11]
+raw_trainer_class = "LUNA"
+battler_name = "Luna"
+battler_id = 11
+raw_battle_items = []
+
+[[trainers.11.pokemon]]
+internal_name = "TYRANITAR"
+level = 100
+raw_item = "TYRANITARITE"
+raw_moves = [
+    "DRAGONDANCE",
+    "CRUNCH",
+    "STONEEDGE",
+    "STEALTHROCK",
+]
+sex = ""
+nature = "JOLLY"
+iv = 31
+nickname = "Bandersnatch"
+
+[trainers.11.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.11.pokemon]]
+internal_name = "GRENINJA"
+level = 100
+raw_item = "LIFEORB"
+raw_moves = [
+    "DARKPULSE",
+    "HYDROPUMP",
+    "ICEBEAM",
+    "UTURN",
+]
+ability_number = 1
+sex = ""
+nature = "TIMID"
+iv = 31
+nickname = "Bill"
+
+[trainers.11.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.11.pokemon]]
+internal_name = "DARKRAI"
+level = 100
+raw_item = "LIFEORB"
+raw_moves = [
+    "DARKVOID",
+    "NASTYPLOT",
+    "DARKPULSE",
+    "SLUDGEBOMB",
+]
+sex = ""
+nature = "TIMID"
+iv = 31
+nickname = "Red Queen"
+
+[trainers.11.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4
+
+[[trainers.11.pokemon]]
+internal_name = "HYDREIGON"
+level = 100
+raw_item = "CHOICESPECS"
+raw_moves = [
+    "HEATWAVE",
+    "SURF",
+    "DARKPULSE",
+    "DRACOMETEOR",
+]
+sex = ""
+nature = "MODEST"
+iv = 31
+nickname = "Jabberwocky"
+
+[trainers.11.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.11.pokemon]]
+internal_name = "YVELTAL"
+level = 100
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "OBLIVIONWING",
+    "HEATWAVE",
+    "DARKPULSE",
+    "ROOST",
+]
+sex = ""
+nature = "MODEST"
+iv = 31
+nickname = "Duchess"
+
+[trainers.11.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.11.pokemon]]
+internal_name = "HOOPA"
+level = 100
+raw_item = "DARKINIUMZ2"
+raw_moves = [
+    "HYPERSPACEHOLE",
+    "ZENHEADBUTT",
+    "GUNKSHOT",
+    "DRAINPUNCH",
+]
+sex = ""
+form_number = 1
+nature = "JOLLY"
+iv = 31
+nickname = "Snark"
+
+[trainers.11.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 4
+
+[trainers.12]
+raw_trainer_class = "LUNA"
+battler_name = "Luna"
+battler_id = 12
+raw_battle_items = []
+
+[[trainers.12.pokemon]]
+internal_name = "CRAWDAUNT"
+level = 100
+raw_item = "LIFEORB"
+raw_moves = [
+    "CRABHAMMER",
+    "KNOCKOFF",
+    "SWORDSDANCE",
+    "AQUAJET",
+]
+ability_number = 2
+sex = ""
+nature = "ADAMANT"
+iv = 31
+nickname = "Mock Turtle"
+
+[trainers.12.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.12.pokemon]]
+internal_name = "YVELTAL"
+level = 100
+raw_item = "LIFEORB"
+raw_moves = [
+    "OBLIVIONWING",
+    "HEATWAVE",
+    "DARKPULSE",
+    "ROOST",
+]
+sex = ""
+nature = "MODEST"
+iv = 31
+nickname = "Duchess"
+
+[trainers.12.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.12.pokemon]]
+internal_name = "HYDREIGON"
+level = 100
+raw_item = "DRAGONIUMZ2"
+raw_moves = [
+    "HEATWAVE",
+    "SURF",
+    "DARKPULSE",
+    "DRACOMETEOR",
+]
+sex = ""
+nature = "MODEST"
+iv = 31
+nickname = "Jabberwocky"
+
+[trainers.12.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.12.pokemon]]
+internal_name = "GRENINJA"
+level = 100
+raw_item = "ELEMENTALSEED"
+raw_moves = [
+    "GUNKSHOT",
+    "ICEBEAM",
+    "HYDROPUMP",
+    "WHIRLPOOL",
+]
+ability_number = 1
+sex = ""
+nature = "MILD"
+iv = 31
+nickname = "Bill"
+
+[trainers.12.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.12.pokemon]]
+internal_name = "GYARADOS"
+level = 100
+raw_item = "GYARADOSITE"
+raw_moves = [
+    "DRAGONDANCE",
+    "CRUNCH",
+    "AQUATAIL",
+    "STONEEDGE",
+]
+sex = ""
+nature = "JOLLY"
+iv = 31
+nickname = "Borogove"
+
+[trainers.12.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.12.pokemon]]
+internal_name = "SHARPEDO"
+level = 100
+raw_item = "LIFEORB"
+raw_moves = [
+    "PROTECT",
+    "CRUNCH",
+    "WATERFALL",
+    "POISONJAB",
+]
+ability_number = 1
+sex = ""
+nature = "ADAMANT"
+iv = 31
+nickname = "Rath"
+
+[trainers.12.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[trainers.13]
+raw_trainer_class = "LUNA"
+battler_name = "Luna"
+battler_id = 13
+raw_battle_items = []
+
+[[trainers.13.pokemon]]
+internal_name = "MUK"
+level = 100
+raw_item = "ASSAULTVEST"
+raw_moves = [
+    "GUNKSHOT",
+    "KNOCKOFF",
+    "POISONJAB",
+    "FIREPUNCH",
+]
+ability_number = 2
+sex = ""
+form_number = 1
+nature = "ADAMANT"
+iv = 31
+nickname = "HumptyDumpty"
+
+[trainers.13.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 0
+spd = 0
+spe = 4
+
+[[trainers.13.pokemon]]
+internal_name = "HYDREIGON"
+level = 100
+raw_item = "CHOICESCARF"
+raw_moves = [
+    "FLASHCANNON",
+    "DRAGONPULSE",
+    "DARKPULSE",
+    "FIREBLAST",
+]
+sex = ""
+nature = "TIMID"
+iv = 31
+nickname = "Jabberwocky"
+
+[trainers.13.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4
+
+[[trainers.13.pokemon]]
+internal_name = "HOOPA"
+level = 100
+raw_item = "ASSAULTVEST"
+raw_moves = [
+    "DARKPULSE",
+    "PSYSHOCK",
+    "THUNDERBOLT",
+    "FOCUSBLAST",
+]
+sex = ""
+form_number = 1
+nature = "TIMID"
+iv = 31
+nickname = "Snark"
+
+[trainers.13.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4
+
+[[trainers.13.pokemon]]
+internal_name = "ABSOL"
+level = 100
+raw_item = "ABSOLITE"
+raw_moves = [
+    "NIGHTSLASH",
+    "SLASH",
+    "SUPERPOWER",
+    "PLAYROUGH",
+]
+sex = ""
+nature = "JOLLY"
+iv = 31
+nickname = "White Rabbit"
+
+[trainers.13.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.13.pokemon]]
+internal_name = "BISHARP"
+level = 100
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "SWORDSDANCE",
+    "SUCKERPUNCH",
+    "IRONHEAD",
+    "KNOCKOFF",
+]
+sex = ""
+nature = "JOLLY"
+iv = 31
+nickname = "Carpenter"
+
+[trainers.13.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.13.pokemon]]
+internal_name = "WEAVILE"
+level = 100
+raw_item = "CHOICEBAND"
+raw_moves = [
+    "SLASH",
+    "NIGHTSLASH",
+    "ICICLECRASH",
+    "ICESHARD",
+]
+ability_number = 1
+sex = ""
+nature = "JOLLY"
+iv = 31
+nickname = "KnaveOfHearts"
+
+[trainers.13.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 4
+
+[trainers.20]
+raw_trainer_class = "LUNA"
+battler_name = "Luna"
+battler_id = 20
+raw_battle_items = [
+    "ULTRAPOTION",
+    "ULTRAPOTION",
+    "ULTRAPOTION",
+]
+
+[[trainers.20.pokemon]]
+internal_name = "GRIMMSNARL"
+level = 63
+raw_item = "LIGHTCLAY"
+raw_moves = [
+    "SUCKERPUNCH",
+    "REFLECT",
+    "SPIRITBREAK",
+    "LIGHTSCREEN",
+]
+nature = "IMPISH"
+iv = 31
+nickname = "Mincer"
+
+[trainers.20.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 0
+spd = 0
+spe = 4
+
+[[trainers.20.pokemon]]
+internal_name = "ABSOL"
+level = 64
+raw_item = "LIFEORB"
+raw_moves = [
+    "SWORDSDANCE",
+    "SUCKERPUNCH",
+    "PLAYROUGH",
+    "NIGHTSLASH",
+]
+nature = "ADAMANT"
+iv = 31
+nickname = "White Rabbit"
+
+[trainers.20.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.20.pokemon]]
+internal_name = "MORPEKO"
+level = 63
+raw_moves = [
+    "AURAWHEELPLUS",
+    "PSYCHICFANGS",
+    "FAKEOUT",
+    "SEEDBOMB",
+]
+ability_number = 1
+sex = "F"
+nature = "JOLLY"
+iv = 31
+nickname = "Chikapu"
+
+[trainers.20.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.20.pokemon]]
+internal_name = "HONCHKROW"
+level = 63
+raw_item = "MUSCLEBAND"
+raw_moves = [
+    "SUCKERPUNCH",
+    "NIGHTSLASH",
+    "ROOST",
+    "BRAVEBIRD",
+]
+ability_number = 2
+sex = "F"
+nature = "JOLLY"
+iv = 31
+nickname = "Jubjub Bird"
+
+[trainers.20.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.20.pokemon]]
+internal_name = "WEAVILE"
+level = 64
+raw_item = "WEAVILITE"
+raw_moves = [
+    "POWERUPPUNCH",
+    "POISONJAB",
+    "ICESHARD",
+    "NIGHTSLASH",
+]
+ability_number = 2
+sex = "F"
+is_shiny = true
+nature = "JOLLY"
+iv = 31
+nickname = "KnaveOfHearts"
+
+[trainers.20.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.20.pokemon]]
+internal_name = "UMBREON"
+level = 65
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "MOONLIGHT",
+    "DARKPULSE",
+    "DOUBLETEAM",
+    "TOXIC",
+]
+nature = "CALM"
+iv = 31
+nickname = "Cheshire"
+
+[trainers.20.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 252

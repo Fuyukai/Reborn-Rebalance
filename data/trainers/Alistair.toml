@@ -1,0 +1,72 @@
+[trainers.0]
+raw_trainer_class = "GUITARIST"
+battler_name = "Alistair"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "LUNATONE"
+level = 85
+raw_item = "DAMPROCK"
+raw_moves = [
+    "PSYCHIC",
+    "POWERGEM",
+    "RAINDANCE",
+    "ICYWIND",
+]
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 252
+
+[[trainers.0.pokemon]]
+internal_name = "CARRACOSTA"
+level = 86
+raw_item = "WHITEHERB"
+raw_moves = [
+    "SHELLSMASH",
+    "LIQUIDATION",
+    "ROCKSLIDE",
+    "AQUAJET",
+]
+ability_number = 2
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 0
+spd = 0
+spe = 4
+
+[[trainers.0.pokemon]]
+internal_name = "ARMALDO"
+level = 89
+raw_item = "CHOICEBAND"
+raw_moves = [
+    "LIQUIDATION",
+    "XSCISSOR",
+    "STONEEDGE",
+    "BRICKBREAK",
+]
+ability_number = 1
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 0
+spd = 0
+spe = 4

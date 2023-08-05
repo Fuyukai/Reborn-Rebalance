@@ -1,0 +1,279 @@
+[trainers.0]
+raw_trainer_class = "UMBKIKI"
+battler_name = "Kiki"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "PALOSSAND"
+level = 130
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "STEALTHROCK",
+    "SHOREUP",
+    "HIDDENPOWERGHO",
+    "EARTHPOWER",
+]
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.0.pokemon]]
+internal_name = "GARCHOMP"
+level = 130
+raw_item = "LIFEORB"
+raw_moves = [
+    "POISONJAB",
+    "STONEEDGE",
+    "EARTHQUAKE",
+    "SANDATTACK",
+]
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.0.pokemon]]
+internal_name = "SUICUNE"
+level = 130
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "CALMMIND",
+    "REST",
+    "WHIRLPOOL",
+    "HIDDENPOWERFLY",
+]
+ability_number = 1
+sex = ""
+nature = "BOLD"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.0.pokemon]]
+internal_name = "KINGDRA"
+level = 130
+raw_item = "TELLURICSEED"
+raw_moves = [
+    "SURF",
+    "DRACOMETEOR",
+    "HIDDENPOWERFIR",
+    "ICEBEAM",
+]
+ability_number = 1
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.0.pokemon]]
+internal_name = "GALLADE"
+level = 130
+raw_item = "GALLADITE"
+raw_moves = [
+    "ZENHEADBUTT",
+    "POISONJAB",
+    "SWORDSDANCE",
+    "DRAINPUNCH",
+]
+ability_number = 1
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.0.pokemon]]
+internal_name = "MARSHADOW"
+level = 130
+raw_item = "MARSHADIUMZ2"
+raw_moves = [
+    "SPECTRALTHIEF",
+    "FORCEPALM",
+    "BULKUP",
+    "SHADOWSNEAK",
+]
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[trainers.20]
+raw_trainer_class = "Sensei"
+battler_name = "Kiki"
+battler_id = 20
+raw_battle_items = [
+    "HYPERPOTION",
+    "HYPERPOTION",
+]
+
+[[trainers.20.pokemon]]
+internal_name = "GRAPPLOCT"
+level = 42
+raw_item = "ASSAULTVEST"
+raw_moves = [
+    "STORMTHROW",
+    "SUCKERPUNCH",
+    "SMACKDOWN",
+    "POWERUPPUNCH",
+]
+ability_number = 1
+nature = "ADAMANT"
+iv = 20
+
+[trainers.20.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.20.pokemon]]
+internal_name = "HITMONLEE"
+level = 42
+raw_item = "NORMALGEM"
+raw_moves = [
+    "FAKEOUT",
+    "MEDITATE",
+    "KNOCKOFF",
+    "HIJUMPKICK",
+]
+ability_number = 2
+sex = "F"
+nature = "JOLLY"
+iv = 20
+
+[trainers.20.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.20.pokemon]]
+internal_name = "ANNIHILAPE"
+level = 41
+raw_moves = [
+    "MEDITATE",
+    "RAGEFIST",
+    "STRENGTH",
+    "ICEPUNCH",
+]
+ability_number = 2
+nature = "ADAMANT"
+iv = 20
+
+[trainers.20.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.20.pokemon]]
+internal_name = "TAUROS"
+level = 41
+raw_item = "TELLURICSEED"
+raw_moves = [
+    "RAGINGBULL",
+    "STRENGTH",
+    "SMARTSTRIKE",
+    "ROCKSLIDE",
+]
+form_number = 3
+nature = "ADAMANT"
+iv = 30
+
+[trainers.20.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.20.pokemon]]
+internal_name = "LUCARIO"
+level = 42
+raw_moves = [
+    "AURASPHERE",
+    "PSYCHIC",
+    "CALMMIND",
+    "HIDDENPOWERDAR",
+]
+sex = "F"
+nature = "TIMID"
+iv = 30
+
+[trainers.20.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.20.pokemon]]
+internal_name = "MEDICHAM"
+level = 43
+raw_item = "TELLURICSEED"
+raw_moves = [
+    "DRAINPUNCH",
+    "MEDITATE",
+    "STRENGTH",
+    "ICEPUNCH",
+]
+sex = "F"
+nature = "JOLLY"
+iv = 31
+
+[trainers.20.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0

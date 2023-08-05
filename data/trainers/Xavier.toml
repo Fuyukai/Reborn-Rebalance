@@ -1,0 +1,50 @@
+[trainers.0]
+raw_trainer_class = "GUITARIST"
+battler_name = "Xavier"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "AURORUS"
+level = 87
+raw_item = "ICYROCK"
+raw_moves = [
+    "BLIZZARD",
+    "ANCIENTPOWER",
+    "FREEZEDRY",
+    "THUNDERBOLT",
+]
+ability_number = 1
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 252
+
+[[trainers.0.pokemon]]
+internal_name = "MAMOSWINE"
+level = 87
+raw_item = "TELLURICSEED"
+raw_moves = [
+    "ICESHARD",
+    "EARTHQUAKE",
+    "ICICLECRASH",
+    "STONEEDGE",
+]
+ability_number = 1
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 0
+spd = 0
+spe = 4

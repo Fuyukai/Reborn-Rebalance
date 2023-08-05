@@ -1,0 +1,26 @@
+[trainers.0]
+raw_trainer_class = "HIKER"
+battler_name = "Rhett"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "VESPIQUEN"
+level = 78
+raw_item = "TELLURICSEED"
+raw_moves = [
+    "ATTACKORDER",
+    "ACROBATICS",
+    "BUGBUZZ",
+    "TAILWIND",
+]
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 0
+spd = 0
+spe = 4

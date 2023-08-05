@@ -1,0 +1,28 @@
+[trainers.0]
+raw_trainer_class = "AVALUGG"
+battler_name = "Redoubt"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "AVALUGG"
+level = 70
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "HAMMERARM",
+    "EARTHQUAKE",
+    "RECOVER",
+    "AVALANCHE",
+]
+ability_number = 1
+form_number = 1
+nature = "BRAVE"
+iv = 31
+happiness = 0
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 252

@@ -1,0 +1,302 @@
+[trainers.0]
+raw_trainer_class = "AME"
+battler_name = "Amethyst"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "NINETALES"
+level = 120
+raw_item = "LIGHTCLAY"
+raw_moves = [
+    "AURORAVEIL",
+    "MOONBLAST",
+    "AURORABEAM",
+    "EXTRASENSORY",
+]
+sex = "F"
+form_number = 1
+nature = "TIMID"
+iv = 31
+nickname = "Shimmer"
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "LOPUNNY"
+level = 120
+raw_item = "LOPUNNITE"
+raw_moves = [
+    "COSMICPOWER",
+    "POWERUPPUNCH",
+    "RETURN",
+    "DRAINPUNCH",
+]
+ability_number = 2
+sex = "F"
+nature = "ADAMANT"
+iv = 31
+happiness = 255
+nickname = "Lustbunny"
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "SYLVEON"
+level = 120
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "WISH",
+    "PROTECT",
+    "SWIFT",
+    "YAWN",
+]
+ability_number = 2
+sex = "F"
+is_shiny = true
+nature = "MODEST"
+iv = 31
+happiness = 255
+nickname = "Invidia"
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 4
+spd = 252
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "PRIMARINA"
+level = 120
+raw_item = "ASSAULTVEST"
+raw_moves = [
+    "MOONBLAST",
+    "SPARKLINGARIA",
+    "HYPERVOICE",
+    "PSYCHIC",
+]
+sex = "F"
+nature = "BOLD"
+iv = 31
+happiness = 255
+nickname = "Althena"
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 4
+
+[[trainers.0.pokemon]]
+internal_name = "WHIMSICOTT"
+level = 120
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "SUBSTITUTE",
+    "LEECHSEED",
+    "MOONBLAST",
+    "ENCORE",
+]
+sex = "F"
+nature = "BOLD"
+iv = 31
+happiness = 255
+nickname = "Topaz"
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 252
+spe = 4
+
+[[trainers.0.pokemon]]
+internal_name = "ABSOL"
+level = 120
+raw_item = "DARKINIUMZ2"
+raw_moves = [
+    "SUCKERPUNCH",
+    "SWORDSDANCE",
+    "NIGHTSLASH",
+    "PSYCHOCUT",
+]
+ability_number = 1
+sex = "F"
+nature = "ADAMANT"
+iv = 31
+happiness = 255
+nickname = "Misery"
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[trainers.1]
+raw_trainer_class = "AME"
+battler_name = "Amethyst"
+battler_id = 1
+raw_battle_items = []
+
+[[trainers.1.pokemon]]
+internal_name = "NINETALES"
+level = 100
+raw_item = "LIGHTCLAY"
+raw_moves = [
+    "AURORAVEIL",
+    "FREEZEDRY",
+    "MOONBLAST",
+    "PSYSTRIKE",
+]
+ability_number = 1
+sex = "F"
+form_number = 1
+nature = "TIMID"
+iv = 31
+nickname = "Shimmer"
+
+[trainers.1.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.1.pokemon]]
+internal_name = "SYLVEON"
+level = 100
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "WISH",
+    "PROTECT",
+    "MOONBLAST",
+    "PSYSTRIKE",
+]
+ability_number = 2
+sex = "F"
+nature = "MODEST"
+iv = 31
+nickname = "Invidia"
+
+[trainers.1.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.1.pokemon]]
+internal_name = "GARDEVOIR"
+level = 100
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "BOOMBURST",
+    "PSYSTRIKE",
+    "MOONGEISTBEAM",
+    "SEEDFLARE",
+]
+sex = "F"
+form_number = 1
+nature = "MODEST"
+iv = 31
+nickname = "Despair"
+
+[trainers.1.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.1.pokemon]]
+internal_name = "WHIMSICOTT"
+level = 100
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "LEECHSEED",
+    "SUBSTITUTE",
+    "ENCORE",
+    "MOONBLAST",
+]
+sex = "F"
+nature = "MODEST"
+iv = 31
+nickname = "Topaz"
+
+[trainers.1.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.1.pokemon]]
+internal_name = "LOPUNNY"
+level = 100
+raw_item = "LIFEORB"
+raw_moves = [
+    "DRAINPUNCH",
+    "RETURN",
+    "ENCORE",
+    "POWERUPPUNCH",
+]
+sex = "F"
+form_number = 1
+nature = "JOLLY"
+iv = 31
+happiness = 255
+nickname = "Lustbunny"
+
+[trainers.1.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.1.pokemon]]
+internal_name = "PRIMARINA"
+level = 100
+raw_item = "ELEMENTALSEED"
+raw_moves = [
+    "STEAMERUPTION",
+    "MOONBLAST",
+    "PSYSTRIKE",
+    "SEEDFLARE",
+]
+sex = "F"
+nature = "MODEST"
+iv = 31
+nickname = "Althena"
+
+[trainers.1.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252

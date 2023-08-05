@@ -1,0 +1,71 @@
+[trainers.0]
+raw_trainer_class = "GLITCH1"
+battler_name = "5Sj"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "ROSERADE"
+level = 140
+raw_item = "ASSAULTVEST"
+raw_moves = [
+    "GIGADRAIN",
+    "EXTRASENSORY",
+    "LEAFSTORM",
+    "HIDDENPOWERICE",
+]
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 0
+spe = 4
+
+[[trainers.0.pokemon]]
+internal_name = "NIDOKING"
+level = 141
+raw_item = "SYNTHETICSEED"
+raw_moves = [
+    "AMNESIA",
+    "FLAMETHROWER",
+    "BLIZZARD",
+    "THUNDERBOLT",
+]
+ability_number = 2
+sex = ""
+nature = "CALM"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 4
+spd = 0
+spe = 252
+
+[[trainers.0.pokemon]]
+internal_name = "JIRACHI"
+level = 141
+raw_item = "CHESTOBERRY"
+raw_moves = [
+    "ENERGYBALL",
+    "REST",
+    "METRONOME",
+    "PSYCHIC",
+]
+sex = ""
+nature = "CAREFUL"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 4

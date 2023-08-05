@@ -1,0 +1,44 @@
+[trainers.0]
+raw_trainer_class = "GLITCH1"
+battler_name = "u"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "HORSEA"
+level = 75
+raw_moves = [
+    "HYDROPUMP",
+    "BLIZZARD",
+    "DRAGONPULSE",
+    "SWAGGER",
+]
+ability_number = 1
+iv = 0
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "SEADRA"
+level = 75
+raw_moves = [
+    "DRAGONDANCE",
+    "HYPERBEAM",
+    "FOCUSENERGY",
+    "CLEARSMOG",
+]
+ability_number = 1
+iv = 0
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0

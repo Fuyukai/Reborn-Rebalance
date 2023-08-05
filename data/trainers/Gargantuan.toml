@@ -1,0 +1,58 @@
+[trainers.0]
+raw_trainer_class = "Steelix"
+battler_name = "Gargantuan"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "STEELIX"
+level = 75
+raw_item = "SITRUSBERRY"
+raw_moves = [
+    "EARTHQUAKE",
+    "STONEEDGE",
+    "CRUNCH",
+    "HEAVYSLAM",
+]
+ability_number = 2
+sex = "F"
+form_number = 2
+nature = "CAREFUL"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 4
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.1]
+raw_trainer_class = "Steelix"
+battler_name = "Gargantuan"
+battler_id = 1
+raw_battle_items = []
+
+[[trainers.1.pokemon]]
+internal_name = "STEELIX"
+level = 100
+raw_item = "ASSAULTVEST"
+raw_moves = [
+    "EARTHQUAKE",
+    "DRAGONTAIL",
+    "FIREFANG",
+    "HEAVYSLAM",
+]
+ability_number = 2
+sex = "F"
+form_number = 2
+nature = "ADAMANT"
+iv = 31
+
+[trainers.1.pokemon.evs]
+hp = 0
+atk = 3252
+def_ = 252
+spa = 0
+spd = 0
+spe = 4

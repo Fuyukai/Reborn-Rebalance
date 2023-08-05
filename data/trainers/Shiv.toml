@@ -1,0 +1,139 @@
+[trainers.0]
+raw_trainer_class = "SHIV"
+battler_name = "Shiv"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "ROSERADE"
+level = 130
+raw_item = "FOCUSSASH"
+raw_moves = [
+    "NATUREPOWER",
+    "SLEEPPOWDER",
+    "TOXICSPIKES",
+    "GIGADRAIN",
+]
+sex = "F"
+nature = "TIMID"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "CHARIZARD"
+level = 130
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "FIREBLAST",
+    "SOLARBEAM",
+    "DRAGONPULSE",
+    "FOCUSBLAST",
+]
+sex = "F"
+nature = "TIMID"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "WEAVILE"
+level = 130
+raw_item = "DARKGEM"
+raw_moves = [
+    "ICESHARD",
+    "ICEPUNCH",
+    "NIGHTSLASH",
+    "POISONJAB",
+]
+ability_number = 2
+sex = "F"
+nature = "JOLLY"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "METAGROSS"
+level = 130
+raw_item = "METAGROSSITE"
+raw_moves = [
+    "METEORMASH",
+    "BULLETPUNCH",
+    "ZENHEADBUTT",
+    "EARTHQUAKE",
+]
+sex = "F"
+nature = "ADAMANT"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "GYARADOS"
+level = 130
+raw_item = "DARKINIUMZ2"
+raw_moves = [
+    "DRAGONDANCE",
+    "EARTHQUAKE",
+    "WATERFALL",
+    "CRUNCH",
+]
+ability_number = 1
+sex = "F"
+nature = "ADAMANT"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "AIPOM"
+level = 130
+raw_item = "KINGSROCK"
+raw_moves = [
+    "KNOCKOFF",
+    "LOWSWEEP",
+    "TAILSLAP",
+    "BOUNCE",
+]
+ability_number = 2
+sex = "F"
+nature = "JOLLY"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 1000
+def_ = 1252
+spa = 252
+spd = 0
+spe = 0

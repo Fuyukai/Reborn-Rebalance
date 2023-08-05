@@ -1,0 +1,575 @@
+[trainers.0]
+raw_trainer_class = "Solaris"
+battler_name = "Solaris"
+raw_battle_items = [
+    "FULLHEAL",
+    "FULLHEAL",
+]
+
+[[trainers.0.pokemon]]
+internal_name = "GARCHOMP"
+level = 75
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "DRAGONRUSH",
+    "EARTHQUAKE",
+    "FIREFANG",
+    "STONEEDGE",
+]
+ability_number = 1
+nature = "ADAMANT"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.1]
+raw_trainer_class = "Solaris"
+battler_name = "Solaris"
+battler_id = 1
+raw_battle_items = []
+
+[[trainers.1.pokemon]]
+internal_name = "SCIZOR"
+level = 72
+raw_moves = [
+    "BULLETPUNCH",
+    "UTURN",
+    "ROOST",
+    "SUPERPOWER",
+]
+ability_number = 1
+nature = "ADAMANT"
+iv = 31
+
+[trainers.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.1.pokemon]]
+internal_name = "MANDIBUZZ"
+level = 72
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "ROOST",
+    "SNARL",
+    "TOXIC",
+    "FOULPLAY",
+]
+ability_number = 1
+sex = "F"
+nature = "BOLD"
+iv = 31
+
+[trainers.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.1.pokemon]]
+internal_name = "GYARADOS"
+level = 73
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "DRAGONDANCE",
+    "EARTHQUAKE",
+    "WATERFALL",
+    "OUTRAGE",
+]
+nature = "ADAMANT"
+iv = 31
+
+[trainers.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.1.pokemon]]
+internal_name = "TYRANITAR"
+level = 73
+raw_item = "SMOOTHROCK"
+raw_moves = [
+    "DRAGONDANCE",
+    "EARTHQUAKE",
+    "SUPERPOWER",
+    "ROCKSLIDE",
+]
+nature = "ADAMANT"
+iv = 31
+
+[trainers.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.1.pokemon]]
+internal_name = "EXCADRILL"
+level = 72
+raw_item = "LIFEORB"
+raw_moves = [
+    "EARTHQUAKE",
+    "ROCKSLIDE",
+    "SWORDSDANCE",
+    "IRONHEAD",
+]
+nature = "ADAMANT"
+iv = 31
+
+[trainers.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.1.pokemon]]
+internal_name = "GARCHOMP"
+level = 76
+raw_moves = [
+    "DRAGONRUSH",
+    "EARTHQUAKE",
+    "FIREFANG",
+    "STONEEDGE",
+]
+ability_number = 1
+nature = "ADAMANT"
+iv = 31
+
+[trainers.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.2]
+raw_trainer_class = "Solaris"
+battler_name = "Solaris"
+battler_id = 2
+raw_battle_items = [
+    "FULLRESTORE",
+]
+
+[[trainers.2.pokemon]]
+internal_name = "STARAPTOR"
+level = 89
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "RETURN",
+    "CLOSECOMBAT",
+    "UTURN",
+    "BRAVEBIRD",
+]
+sex = "F"
+nature = "ADAMANT"
+iv = 31
+happiness = 255
+
+[trainers.2.pokemon.evs]
+hp = 0
+atk = 156
+def_ = 100
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.2.pokemon]]
+internal_name = "SCIZOR"
+level = 88
+raw_item = "LIFEORB"
+raw_moves = [
+    "BULLETPUNCH",
+    "UTURN",
+    "SUPERPOWER",
+    "KNOCKOFF",
+]
+ability_number = 1
+nature = "ADAMANT"
+iv = 31
+
+[trainers.2.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 0
+spd = 0
+spe = 4
+
+[[trainers.2.pokemon]]
+internal_name = "GYARADOS"
+level = 90
+raw_item = "WACANBERRY"
+raw_moves = [
+    "DRAGONDANCE",
+    "EARTHQUAKE",
+    "WATERFALL",
+    "OUTRAGE",
+]
+ability_number = 1
+nature = "JOLLY"
+iv = 31
+
+[trainers.2.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.2.pokemon]]
+internal_name = "TYRANITAR"
+level = 89
+raw_item = "SMOOTHROCK"
+raw_moves = [
+    "STONEEDGE",
+    "EARTHQUAKE",
+    "CRUNCH",
+    "FIREPUNCH",
+]
+nature = "ADAMANT"
+iv = 31
+
+[trainers.2.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 0
+spd = 0
+spe = 4
+
+[[trainers.2.pokemon]]
+internal_name = "EXCADRILL"
+level = 90
+raw_item = "FOCUSSASH"
+raw_moves = [
+    "EARTHQUAKE",
+    "ROCKSLIDE",
+    "SWORDSDANCE",
+    "IRONHEAD",
+]
+nature = "ADAMANT"
+iv = 31
+
+[trainers.2.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.2.pokemon]]
+internal_name = "GARCHOMP"
+level = 93
+raw_item = "GARCHOMPITE"
+raw_moves = [
+    "SWORDSDANCE",
+    "EARTHQUAKE",
+    "DRAGONCLAW",
+    "STONEEDGE",
+]
+ability_number = 1
+nature = "ADAMANT"
+iv = 31
+
+[trainers.2.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[trainers.21]
+raw_trainer_class = "Solaris"
+battler_name = "Solaris"
+battler_id = 21
+raw_battle_items = []
+
+[[trainers.21.pokemon]]
+internal_name = "REVAVROOM"
+level = 72
+raw_item = "FOCUSSASH"
+raw_moves = [
+    "SPINOUT",
+    "COMBATTORQUE",
+    "SHIFTGEAR",
+    "NOXIOUSTORQUE",
+]
+ability_number = 1
+nature = "ADAMANT"
+iv = 31
+
+[trainers.21.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.21.pokemon]]
+internal_name = "BOMBIRDIER"
+level = 72
+raw_item = "CHOICESCARF"
+raw_moves = [
+    "BRAVEBIRD",
+    "STONEEDGE",
+    "SUCKERPUNCH",
+    "UTURN",
+]
+ability_number = 2
+sex = "F"
+nature = "ADAMANT"
+iv = 31
+
+[trainers.21.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.21.pokemon]]
+internal_name = "BARRASKEWDA"
+level = 73
+raw_item = "LIFEORB"
+raw_moves = [
+    "ICEFANG",
+    "PSYCHICFANGS",
+    "WATERFALL",
+    "CLOSECOMBAT",
+]
+nature = "ADAMANT"
+iv = 31
+
+[trainers.21.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.21.pokemon]]
+internal_name = "TYRANITAR"
+level = 73
+raw_item = "SMOOTHROCK"
+raw_moves = [
+    "DRAGONDANCE",
+    "EARTHQUAKE",
+    "SUPERPOWER",
+    "ROCKSLIDE",
+]
+nature = "ADAMANT"
+iv = 31
+
+[trainers.21.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.21.pokemon]]
+internal_name = "COPPERAJAH"
+level = 72
+raw_item = "ASSAULTVEST"
+raw_moves = [
+    "EARTHQUAKE",
+    "ROCKSLIDE",
+    "PLAYROUGH",
+    "IRONHEAD",
+]
+nature = "ADAMANT"
+iv = 31
+
+[trainers.21.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.21.pokemon]]
+internal_name = "GARCHOMP"
+level = 76
+raw_moves = [
+    "DRAGONRUSH",
+    "EARTHQUAKE",
+    "FIREFANG",
+    "STONEEDGE",
+]
+ability_number = 1
+nature = "BRAVE"
+iv = 31
+
+[trainers.21.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.22]
+raw_trainer_class = "Solaris"
+battler_name = "Solaris"
+battler_id = 22
+raw_battle_items = [
+    "FULLRESTORE",
+]
+
+[[trainers.22.pokemon]]
+internal_name = "STARAPTOR"
+level = 89
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "RETURN",
+    "CLOSECOMBAT",
+    "UTURN",
+    "BRAVEBIRD",
+]
+sex = "F"
+nature = "ADAMANT"
+iv = 31
+happiness = 255
+
+[trainers.22.pokemon.evs]
+hp = 0
+atk = 156
+def_ = 100
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.22.pokemon]]
+internal_name = "REVAVROOM"
+level = 88
+raw_item = "AIRBALLOON"
+raw_moves = [
+    "COMBATTORQUE",
+    "SPINOUT",
+    "NOXIOUSTORQUE",
+    "SHIFTGEAR",
+]
+ability_number = 1
+nature = "ADAMANT"
+iv = 31
+
+[trainers.22.pokemon.evs]
+hp = 0
+atk = 200
+def_ = 252
+spa = 56
+spd = 0
+spe = 0
+
+[[trainers.22.pokemon]]
+internal_name = "BARRASKEWDA"
+level = 90
+raw_item = "LIFEORB"
+raw_moves = [
+    "ICEFANG",
+    "PSYCHICFANGS",
+    "WATERFALL",
+    "CLOSECOMBAT",
+]
+nature = "JOLLY"
+iv = 31
+
+[trainers.22.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.22.pokemon]]
+internal_name = "TYRANITAR"
+level = 89
+raw_item = "SMOOTHROCK"
+raw_moves = [
+    "STONEEDGE",
+    "EARTHQUAKE",
+    "CRUNCH",
+    "FIREPUNCH",
+]
+nature = "ADAMANT"
+iv = 31
+
+[trainers.22.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 0
+spd = 0
+spe = 4
+
+[[trainers.22.pokemon]]
+internal_name = "COPPERAJAH"
+level = 90
+raw_item = "ASSAULTVEST"
+raw_moves = [
+    "EARTHQUAKE",
+    "ROCKSLIDE",
+    "PLAYROUGH",
+    "IRONHEAD",
+]
+nature = "ADAMANT"
+iv = 31
+
+[trainers.22.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.22.pokemon]]
+internal_name = "GARCHOMP"
+level = 93
+raw_item = "GARCHOMPITE"
+raw_moves = [
+    "SWORDSDANCE",
+    "EARTHQUAKE",
+    "DRAGONCLAW",
+    "STONEEDGE",
+]
+ability_number = 1
+nature = "ADAMANT"
+iv = 31
+
+[trainers.22.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252

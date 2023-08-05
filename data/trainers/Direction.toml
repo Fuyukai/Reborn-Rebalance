@@ -1,0 +1,148 @@
+[trainers.1000]
+raw_trainer_class = "MISSDIRECTION"
+battler_name = "Direction"
+battler_id = 1000
+raw_battle_items = []
+
+[[trainers.1000.pokemon]]
+internal_name = "CHANSEY"
+level = 100
+raw_item = "EVIOLITE"
+raw_moves = [
+    "METRONOME",
+    "BLIZZARD",
+    "SOFTBOILED",
+    "TOXIC",
+]
+ability_number = 1
+sex = ""
+nature = "CALM"
+iv = 31
+
+[trainers.1000.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 0
+spd = 0
+spe = 252
+
+[[trainers.1000.pokemon]]
+internal_name = "TOGETIC"
+level = 100
+raw_item = "EVIOLITE"
+raw_moves = [
+    "METRONOME",
+    "PSYSHOCK",
+    "FLAMETHROWER",
+    "ROOST",
+]
+ability_number = 1
+sex = ""
+nature = "CALM"
+iv = 31
+
+[trainers.1000.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 4
+
+[[trainers.1000.pokemon]]
+internal_name = "DUSCLOPS"
+level = 100
+raw_item = "EVIOLITE"
+raw_moves = [
+    "METRONOME",
+    "BLIZZARD",
+    "PSYCHIC",
+    "PAINSPLIT",
+]
+sex = ""
+nature = "CALM"
+iv = 31
+
+[trainers.1000.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 4
+
+[trainers.1001]
+raw_trainer_class = "MISSDIRECTION"
+battler_name = "Direction"
+battler_id = 1001
+raw_battle_items = []
+
+[[trainers.1001.pokemon]]
+internal_name = "PURUGLY"
+level = 100
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "HYPNOSIS",
+    "DREAMEATER",
+    "HYPERVOICE",
+    "SHADOWBALL",
+]
+ability_number = 1
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.1001.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.1001.pokemon]]
+internal_name = "SLOWKING"
+level = 100
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "PSYCHIC",
+    "SCALD",
+    "ICEBEAM",
+    "CALMMIND",
+]
+ability_number = 1
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.1001.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 252
+spe = 252
+
+[[trainers.1001.pokemon]]
+internal_name = "LILLIGANT"
+level = 100
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "QUIVERDANCE",
+    "MAGICALLEAF",
+    "NATUREPOWER",
+    "HIDDENPOWERROC",
+]
+ability_number = 1
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.1001.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0

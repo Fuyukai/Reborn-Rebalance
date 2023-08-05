@@ -1,0 +1,415 @@
+[trainers.0]
+raw_trainer_class = "NWCultist"
+battler_name = "Arcturus"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "VAPOREON"
+level = 72
+raw_moves = [
+    "SURF",
+    "BLIZZARD",
+    "WISH",
+    "PROTECT",
+]
+iv = 0
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "JOLTEON"
+level = 73
+raw_moves = [
+    "DISCHARGE",
+    "SHADOWBALL",
+    "SIGNALBEAM",
+    "VOLTSWITCH",
+]
+iv = 0
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "DRAMPA"
+level = 74
+raw_moves = [
+    "NATUREPOWER",
+    "DRAGONPULSE",
+    "THUNDER",
+    "EXTRASENSORY",
+]
+iv = 0
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.1]
+raw_trainer_class = "Cultist"
+battler_name = "Arcturus"
+battler_id = 1
+raw_battle_items = []
+
+[[trainers.1.pokemon]]
+internal_name = "LANTURN"
+level = 127
+raw_item = "ASSAULTVEST"
+raw_moves = [
+    "SURF",
+    "VOLTSWITCH",
+    "DISCHARGE",
+    "BLIZZARD",
+]
+ability_number = 1
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.1.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 252
+spe = 4
+
+[[trainers.1.pokemon]]
+internal_name = "JOLTEON"
+level = 127
+raw_item = "LIFEORB"
+raw_moves = [
+    "DISCHARGE",
+    "SHADOWBALL",
+    "SIGNALBEAM",
+    "VOLTSWITCH",
+]
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4
+
+[[trainers.1.pokemon]]
+internal_name = "VAPOREON"
+level = 127
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "SURF",
+    "BLIZZARD",
+    "WISH",
+    "PROTECT",
+]
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.1.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 252
+spe = 4
+
+[[trainers.1.pokemon]]
+internal_name = "ROTOM"
+level = 127
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "HYDROPUMP",
+    "DISCHARGE",
+    "DARKPULSE",
+    "WILLOWISP",
+]
+sex = ""
+form_number = 2
+nature = "MODEST"
+iv = 31
+
+[trainers.1.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 252
+spe = 4
+
+[[trainers.1.pokemon]]
+internal_name = "DRAMPA"
+level = 127
+raw_item = "LIFEORB"
+raw_moves = [
+    "HEATWAVE",
+    "BLIZZARD",
+    "SURF",
+    "HYPERVOICE",
+]
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.1.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 252
+spe = 0
+
+[[trainers.1.pokemon]]
+internal_name = "ALTARIA"
+level = 127
+raw_item = "ALTARIANITE"
+raw_moves = [
+    "HYPERVOICE",
+    "DRAGONPULSE",
+    "HEATWAVE",
+    "EARTHQUAKE",
+]
+ability_number = 1
+sex = ""
+nature = "SERIOUS"
+iv = 31
+
+[trainers.1.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 4
+spa = 252
+spd = 0
+spe = 0
+
+[trainers.2]
+raw_trainer_class = "NWCultist"
+battler_name = "Arcturus"
+battler_id = 2
+raw_battle_items = []
+
+[[trainers.2.pokemon]]
+internal_name = "LANTURN"
+level = 89
+raw_item = "ASSAULTVEST"
+raw_moves = [
+    "SURF",
+    "VOLTSWITCH",
+    "DISCHARGE",
+    "BLIZZARD",
+]
+ability_number = 1
+sex = ""
+nature = "MODEST"
+iv = 0
+
+[trainers.2.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.2.pokemon]]
+internal_name = "JOLTEON"
+level = 89
+raw_item = "LIFEORB"
+raw_moves = [
+    "DISCHARGE",
+    "SHADOWBALL",
+    "SIGNALBEAM",
+    "VOLTSWITCH",
+]
+sex = ""
+nature = "TIMID"
+iv = 0
+
+[trainers.2.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.2.pokemon]]
+internal_name = "VAPOREON"
+level = 89
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "SURF",
+    "BLIZZARD",
+    "WISH",
+    "PROTECT",
+]
+sex = ""
+nature = "MODEST"
+iv = 0
+
+[trainers.2.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.2.pokemon]]
+internal_name = "ROTOM"
+level = 89
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "HYDROPUMP",
+    "DISCHARGE",
+    "DARKPULSE",
+    "WILLOWISP",
+]
+sex = ""
+form_number = 2
+nature = "MODEST"
+iv = 0
+
+[trainers.2.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.2.pokemon]]
+internal_name = "DRAMPA"
+level = 89
+raw_item = "LIFEORB"
+raw_moves = [
+    "HEATWAVE",
+    "BLIZZARD",
+    "SURF",
+    "HYPERVOICE",
+]
+sex = ""
+nature = "MODEST"
+iv = 0
+
+[trainers.2.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[trainers.3]
+raw_trainer_class = "NWCultist"
+battler_name = "Arcturus"
+battler_id = 3
+raw_battle_items = []
+
+[[trainers.3.pokemon]]
+internal_name = "LANTURN"
+level = 89
+raw_item = "ASSAULTVEST"
+raw_moves = [
+    "SURF",
+    "VOLTSWITCH",
+    "DISCHARGE",
+    "BLIZZARD",
+]
+ability_number = 1
+sex = ""
+nature = "MODEST"
+iv = 0
+
+[trainers.3.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.3.pokemon]]
+internal_name = "JOLTEON"
+level = 89
+raw_item = "LIFEORB"
+raw_moves = [
+    "DISCHARGE",
+    "SHADOWBALL",
+    "SIGNALBEAM",
+    "VOLTSWITCH",
+]
+sex = ""
+nature = "MODEST"
+iv = 0
+
+[trainers.3.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.3.pokemon]]
+internal_name = "VAPOREON"
+level = 89
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "SURF",
+    "BLIZZARD",
+    "WISH",
+    "PROTECT",
+]
+sex = ""
+nature = "MODEST"
+iv = 0
+
+[trainers.3.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.3.pokemon]]
+internal_name = "DRAMPA"
+level = 89
+raw_item = "LIFEORB"
+raw_moves = [
+    "HEATWAVE",
+    "BLIZZARD",
+    "SURF",
+    "HYPERVOICE",
+]
+sex = ""
+nature = "MODEST"
+iv = 0
+
+[trainers.3.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252

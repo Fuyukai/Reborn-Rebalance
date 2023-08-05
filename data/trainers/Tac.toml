@@ -1,0 +1,136 @@
+[trainers.0]
+raw_trainer_class = "PkMnRANGER_Male"
+battler_name = "Tac"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "CHANSEY"
+level = 109
+raw_item = "EVIOLITE"
+raw_moves = [
+    "SEISMICTOSS",
+    "SOFTBOILED",
+    "TOXIC",
+    "STEALTHROCK",
+]
+sex = ""
+nature = "CALM"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 248
+def_ = 0
+spa = 0
+spd = 0
+spe = 252
+
+[[trainers.0.pokemon]]
+internal_name = "DITTO"
+level = 110
+raw_item = "CHOICESCARF"
+raw_moves = [
+    "TRANSFORM",
+]
+ability_number = 1
+sex = ""
+nature = "BOLD"
+iv = 31
+happiness = 255
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 4
+spa = 0
+spd = 0
+spe = 252
+
+[[trainers.0.pokemon]]
+internal_name = "CLEFABLE"
+level = 110
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "MOONBLAST",
+    "SOFTBOILED",
+    "STEALTHROCK",
+    "WISH",
+]
+ability_number = 1
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 252
+
+[[trainers.0.pokemon]]
+internal_name = "DRAGONITE"
+level = 109
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "FLY",
+    "DRAGONDANCE",
+    "ROOST",
+    "SUBSTITUTE",
+]
+ability_number = 1
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "PERSIAN"
+level = 108
+raw_item = "AMULETCOIN"
+raw_moves = [
+    "PAYDAY",
+]
+ability_number = 1
+sex = ""
+nature = "JOLLY"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "SNORLAX"
+level = 111
+raw_item = "BIGNUGGET"
+raw_moves = [
+    "FLING",
+    "DEFENSECURL",
+    "ROLLOUT",
+    "PROTECT",
+]
+ability_number = 1
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 252
+spd = 0
+spe = 0

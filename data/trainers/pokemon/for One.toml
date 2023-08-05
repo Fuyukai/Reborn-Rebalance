@@ -1,0 +1,70 @@
+[trainers.0]
+raw_trainer_class = "MUSKETEER2"
+battler_name = "for One"
+raw_battle_items = []
+
+[[trainers.0.pokemon]]
+internal_name = "SILVALLY"
+level = 114
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "TAILWIND",
+    "SNARL",
+    "PARTINGSHOT",
+    "ICYWIND",
+]
+sex = ""
+nature = "BOLD"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.0.pokemon]]
+internal_name = "SILVALLY"
+level = 114
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "SNARL",
+    "MULTIATTACK",
+    "HEATWAVE",
+    "ROCKSLIDE",
+]
+sex = ""
+nature = "QUIET"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 0
+spd = 0
+spe = 4
+
+[[trainers.0.pokemon]]
+internal_name = "SILVALLY"
+level = 114
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "SNARL",
+    "MULTIATTACK",
+    "DRACOMETEOR",
+    "PARTINGSHOT",
+]
+sex = ""
+nature = "QUIET"
+iv = 31
+
+[trainers.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 0
+spd = 0
+spe = 4
