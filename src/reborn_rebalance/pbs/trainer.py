@@ -266,6 +266,18 @@ class SingleTrainerPokemon:
         Writes this Pokémon to a CSV line.
         """
 
+        if len(self.raw_moves) == 0:
+            # fuck
+            return [self.internal_name, str(self.level)]
+
+        # pad moves out if its less than 4
+        moves = []
+        for idx in range(0, 4):
+            try:
+                moves.append(self.raw_moves[idx])
+            except IndexError:
+                moves.append("")
+
         if self.evs:
             ev_data = [
                 str(self.evs.hp),
@@ -282,7 +294,7 @@ class SingleTrainerPokemon:
             self.internal_name,
             str(self.level),
             self.raw_item or "",
-            *self.raw_moves,
+            *moves,
             str(self.ability_number),
             self.sex,
             str(self.form_number),
