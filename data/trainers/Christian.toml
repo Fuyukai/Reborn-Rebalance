@@ -1,14 +1,16 @@
-[trainers.0]
+trainer_name = "Christian"
+
+[trainers.Casanova.0]
 raw_trainer_class = "Casanova"
 battler_name = "Christian"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.Casanova.0.pokemon]]
 internal_name = "MIMIKYU"
 level = 44
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.Casanova.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

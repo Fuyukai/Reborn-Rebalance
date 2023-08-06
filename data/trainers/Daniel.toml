@@ -1,14 +1,47 @@
-[trainers.0]
+trainer_name = "Daniel"
+
+[trainers.Casanova.0]
+raw_trainer_class = "Casanova"
+battler_name = "Daniel"
+raw_battle_items = []
+
+[[trainers.Casanova.0.pokemon]]
+internal_name = "SHEDINJA"
+level = 31
+iv = 0
+
+[trainers.Casanova.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.Casanova.0.pokemon]]
+internal_name = "DEINO"
+level = 32
+iv = 0
+
+[trainers.Casanova.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.FISHERMAN.0]
 raw_trainer_class = "FISHERMAN"
 battler_name = "Daniel"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.FISHERMAN.0.pokemon]]
 internal_name = "WISHIWASHI"
 level = 37
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.FISHERMAN.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

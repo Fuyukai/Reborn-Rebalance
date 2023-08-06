@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "5Sj"
+
+[trainers.GLITCH1.0]
 raw_trainer_class = "GLITCH1"
 battler_name = "5Sj"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.GLITCH1.0.pokemon]]
 internal_name = "ROSERADE"
 level = 140
 raw_item = "ASSAULTVEST"
@@ -17,7 +19,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.GLITCH1.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -25,7 +27,7 @@ spa = 252
 spd = 0
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.GLITCH1.0.pokemon]]
 internal_name = "NIDOKING"
 level = 141
 raw_item = "SYNTHETICSEED"
@@ -40,7 +42,7 @@ sex = ""
 nature = "CALM"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.GLITCH1.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -48,7 +50,7 @@ spa = 4
 spd = 0
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.GLITCH1.0.pokemon]]
 internal_name = "JIRACHI"
 level = 141
 raw_item = "CHESTOBERRY"
@@ -62,7 +64,7 @@ sex = ""
 nature = "CAREFUL"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.GLITCH1.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0

@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Moon"
+
+[trainers.PAST.0]
 raw_trainer_class = "PAST"
 battler_name = "Moon"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.PAST.0.pokemon]]
 internal_name = "SCREAMTAIL"
 level = 100
 raw_item = "LIGHTCLAY"
@@ -17,7 +19,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.PAST.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -25,7 +27,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.PAST.0.pokemon]]
 internal_name = "GREATTUSK"
 level = 100
 raw_item = "WIDELENS"
@@ -39,7 +41,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.PAST.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -47,7 +49,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.PAST.0.pokemon]]
 internal_name = "SLITHERWING"
 level = 100
 raw_item = "ELEMENTALSEED"
@@ -61,7 +63,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.PAST.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -69,7 +71,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.PAST.0.pokemon]]
 internal_name = "SANDYSHOCKS"
 level = 100
 raw_item = "TELLURICSEED"
@@ -83,7 +85,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.PAST.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -91,7 +93,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.PAST.0.pokemon]]
 internal_name = "FLUTTERMANE"
 level = 100
 raw_item = "FIRIUMZ2"
@@ -105,7 +107,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.PAST.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -113,7 +115,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.PAST.0.pokemon]]
 internal_name = "BRUTEBONNET"
 level = 100
 raw_item = "LOADEDDICE"
@@ -127,7 +129,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.PAST.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252

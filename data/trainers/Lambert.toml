@@ -1,14 +1,16 @@
-[trainers.0]
+trainer_name = "Lambert"
+
+[trainers.PoliceOfficer.0]
 raw_trainer_class = "PoliceOfficer"
 battler_name = "Lambert"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.PoliceOfficer.0.pokemon]]
 internal_name = "YAMPER"
 level = 27
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.PoliceOfficer.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -16,12 +18,12 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.PoliceOfficer.0.pokemon]]
 internal_name = "GROWLITHE"
 level = 27
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.PoliceOfficer.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

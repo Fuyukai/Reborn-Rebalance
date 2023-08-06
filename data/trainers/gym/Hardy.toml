@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Hardy"
+
+[trainers.HARDY.0]
 raw_trainer_class = "HARDY"
 battler_name = "Hardy"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.HARDY.0.pokemon]]
 internal_name = "LYCANROC"
 level = 92
 raw_moves = [
@@ -17,7 +19,7 @@ sex = "F"
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.HARDY.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -25,7 +27,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.HARDY.0.pokemon]]
 internal_name = "GIGALITH"
 level = 90
 raw_moves = [
@@ -38,7 +40,7 @@ ability_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.HARDY.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -46,7 +48,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.HARDY.0.pokemon]]
 internal_name = "ARCHEOPS"
 level = 91
 raw_item = "SITRUSBERRY"
@@ -60,7 +62,7 @@ is_shiny = true
 nature = "JOLLY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.HARDY.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -68,7 +70,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.HARDY.0.pokemon]]
 internal_name = "RAMPARDOS"
 level = 91
 raw_moves = [
@@ -81,7 +83,7 @@ ability_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.HARDY.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -89,7 +91,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.HARDY.0.pokemon]]
 internal_name = "AERODACTYL"
 level = 92
 raw_moves = [
@@ -102,7 +104,7 @@ ability_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.HARDY.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -110,7 +112,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.HARDY.0.pokemon]]
 internal_name = "LYCANROC"
 level = 97
 raw_moves = [
@@ -123,7 +125,7 @@ form_number = 2
 nature = "JOLLY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.HARDY.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -131,7 +133,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[trainers.1]
+[trainers.HARDY.1]
 raw_trainer_class = "HARDY"
 battler_name = "Hardy"
 battler_id = 1
@@ -140,7 +142,7 @@ raw_battle_items = [
     "FULLRESTORE",
 ]
 
-[[trainers.1.pokemon]]
+[[trainers.HARDY.1.pokemon]]
 internal_name = "GIGALITH"
 level = 90
 raw_item = "CHOICEBAND"
@@ -154,7 +156,7 @@ ability_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.HARDY.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -162,7 +164,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.HARDY.1.pokemon]]
 internal_name = "AERODACTYL"
 level = 92
 raw_item = "AERODACTYLITE"
@@ -176,7 +178,7 @@ ability_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.HARDY.1.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -184,7 +186,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.HARDY.1.pokemon]]
 internal_name = "LYCANROC"
 level = 92
 raw_item = "CHOICEBAND"
@@ -199,7 +201,7 @@ sex = "F"
 nature = "ADAMANT"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.HARDY.1.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -207,7 +209,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.HARDY.1.pokemon]]
 internal_name = "ARCHEOPS"
 level = 91
 raw_item = "FLYINGGEM"
@@ -221,7 +223,7 @@ is_shiny = true
 nature = "JOLLY"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.HARDY.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -229,7 +231,7 @@ spa = 252
 spd = 0
 spe = 4
 
-[[trainers.1.pokemon]]
+[[trainers.HARDY.1.pokemon]]
 internal_name = "RAMPARDOS"
 level = 91
 raw_item = "CHOICESCARF"
@@ -243,7 +245,7 @@ ability_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.HARDY.1.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -251,7 +253,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.HARDY.1.pokemon]]
 internal_name = "LYCANROC"
 level = 97
 raw_item = "TELLURICSEED"
@@ -265,7 +267,7 @@ form_number = 2
 nature = "JOLLY"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.HARDY.1.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -273,13 +275,13 @@ spa = 252
 spd = 0
 spe = 0
 
-[trainers.2]
+[trainers.HARDY.2]
 raw_trainer_class = "HARDY"
 battler_name = "Hardy"
 battler_id = 2
 raw_battle_items = []
 
-[[trainers.2.pokemon]]
+[[trainers.HARDY.2.pokemon]]
 internal_name = "AERODACTYL"
 level = 127
 raw_item = "AERODACTYLITE"
@@ -293,7 +295,7 @@ ability_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.HARDY.2.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -301,7 +303,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.HARDY.2.pokemon]]
 internal_name = "GIGALITH"
 level = 127
 raw_item = "SYNTHETICSEED"
@@ -315,7 +317,7 @@ ability_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.HARDY.2.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -323,7 +325,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.HARDY.2.pokemon]]
 internal_name = "NIHILEGO"
 level = 130
 raw_item = "LEFTOVERS"
@@ -338,7 +340,7 @@ sex = "F"
 nature = "TIMID"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.HARDY.2.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -346,7 +348,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.HARDY.2.pokemon]]
 internal_name = "ARCHEOPS"
 level = 128
 raw_item = "FLYINGGEM"
@@ -360,7 +362,7 @@ is_shiny = true
 nature = "JOLLY"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.HARDY.2.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -368,7 +370,7 @@ spa = 252
 spd = 0
 spe = 4
 
-[[trainers.2.pokemon]]
+[[trainers.HARDY.2.pokemon]]
 internal_name = "RAMPARDOS"
 level = 128
 raw_item = "CHOICESCARF"
@@ -382,7 +384,7 @@ ability_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.HARDY.2.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -390,7 +392,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.HARDY.2.pokemon]]
 internal_name = "LYCANROC"
 level = 130
 raw_item = "LYCANIUMZ2"
@@ -404,7 +406,7 @@ form_number = 2
 nature = "JOLLY"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.HARDY.2.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -412,13 +414,13 @@ spa = 252
 spd = 0
 spe = 0
 
-[trainers.10]
+[trainers.HARDY.10]
 raw_trainer_class = "HARDY"
 battler_name = "Hardy"
 battler_id = 10
 raw_battle_items = []
 
-[[trainers.10.pokemon]]
+[[trainers.HARDY.10.pokemon]]
 internal_name = "GIGALITH"
 level = 100
 raw_item = "TELLURICSEED"
@@ -433,7 +435,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.HARDY.10.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -441,7 +443,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.HARDY.10.pokemon]]
 internal_name = "AERODACTYL"
 level = 100
 raw_item = "AERODACTYLITE"
@@ -456,7 +458,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.HARDY.10.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -464,7 +466,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.HARDY.10.pokemon]]
 internal_name = "TERRAKION"
 level = 100
 raw_item = "LIFEORB"
@@ -478,7 +480,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.HARDY.10.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -486,7 +488,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.HARDY.10.pokemon]]
 internal_name = "LYCANROC"
 level = 100
 raw_item = "LIFEORB"
@@ -501,7 +503,7 @@ form_number = 2
 nature = "JOLLY"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.HARDY.10.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -509,7 +511,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.HARDY.10.pokemon]]
 internal_name = "LYCANROC"
 level = 100
 raw_item = "WIDELENS"
@@ -524,7 +526,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.HARDY.10.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -532,7 +534,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.HARDY.10.pokemon]]
 internal_name = "TYRANITAR"
 level = 100
 raw_item = "ASSAULTVEST"
@@ -546,7 +548,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.HARDY.10.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -554,13 +556,13 @@ spa = 252
 spd = 0
 spe = 0
 
-[trainers.11]
+[trainers.HARDY.11]
 raw_trainer_class = "HARDY"
 battler_name = "Hardy"
 battler_id = 11
 raw_battle_items = []
 
-[[trainers.11.pokemon]]
+[[trainers.HARDY.11.pokemon]]
 internal_name = "GIGALITH"
 level = 100
 raw_item = "TELLURICSEED"
@@ -575,7 +577,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.HARDY.11.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -583,7 +585,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.HARDY.11.pokemon]]
 internal_name = "AERODACTYL"
 level = 100
 raw_item = "LIFEORB"
@@ -598,7 +600,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.HARDY.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -606,7 +608,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.HARDY.11.pokemon]]
 internal_name = "TERRAKION"
 level = 100
 raw_item = "LIFEORB"
@@ -620,7 +622,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.HARDY.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -628,7 +630,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.HARDY.11.pokemon]]
 internal_name = "DIANCIE"
 level = 100
 raw_item = "DIANCITE"
@@ -642,7 +644,7 @@ sex = ""
 nature = "HASTY"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.HARDY.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -650,7 +652,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.11.pokemon]]
+[[trainers.HARDY.11.pokemon]]
 internal_name = "NIHILEGO"
 level = 100
 raw_item = "FOCUSSASH"
@@ -664,7 +666,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.HARDY.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -672,7 +674,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.11.pokemon]]
+[[trainers.HARDY.11.pokemon]]
 internal_name = "TYRANITAR"
 level = 100
 raw_item = "ASSAULTVEST"
@@ -686,7 +688,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.HARDY.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -694,13 +696,13 @@ spa = 252
 spd = 0
 spe = 0
 
-[trainers.12]
+[trainers.HARDY.12]
 raw_trainer_class = "HARDY"
 battler_name = "Hardy"
 battler_id = 12
 raw_battle_items = []
 
-[[trainers.12.pokemon]]
+[[trainers.HARDY.12.pokemon]]
 internal_name = "ARMALDO"
 level = 100
 raw_item = "LEFTOVERS"
@@ -715,7 +717,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.HARDY.12.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -723,7 +725,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.HARDY.12.pokemon]]
 internal_name = "AERODACTYL"
 level = 100
 raw_item = "AERODACTYLITE"
@@ -738,7 +740,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.HARDY.12.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -746,7 +748,7 @@ spa = 252
 spd = 0
 spe = 4
 
-[[trainers.12.pokemon]]
+[[trainers.HARDY.12.pokemon]]
 internal_name = "NIHILEGO"
 level = 100
 raw_item = "CHOICESPECS"
@@ -760,7 +762,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.HARDY.12.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -768,7 +770,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.12.pokemon]]
+[[trainers.HARDY.12.pokemon]]
 internal_name = "KABUTOPS"
 level = 100
 raw_item = "LIFEORB"
@@ -782,7 +784,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.HARDY.12.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -790,7 +792,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.HARDY.12.pokemon]]
 internal_name = "OMASTAR"
 level = 100
 raw_item = "WHITEHERB"
@@ -804,7 +806,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.HARDY.12.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -812,7 +814,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.HARDY.12.pokemon]]
 internal_name = "ARCHEOPS"
 level = 100
 raw_item = "FLYINGGEM"
@@ -826,7 +828,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.HARDY.12.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -834,13 +836,13 @@ spa = 252
 spd = 0
 spe = 0
 
-[trainers.13]
+[trainers.HARDY.13]
 raw_trainer_class = "HARDY"
 battler_name = "Hardy"
 battler_id = 13
 raw_battle_items = []
 
-[[trainers.13.pokemon]]
+[[trainers.HARDY.13.pokemon]]
 internal_name = "MINIOR"
 level = 100
 raw_item = "WHITEHERB"
@@ -854,7 +856,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.HARDY.13.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -862,7 +864,7 @@ spa = 252
 spd = 0
 spe = 4
 
-[[trainers.13.pokemon]]
+[[trainers.HARDY.13.pokemon]]
 internal_name = "AERODACTYL"
 level = 100
 raw_item = "AERODACTYLITE"
@@ -876,7 +878,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.HARDY.13.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -884,7 +886,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.13.pokemon]]
+[[trainers.HARDY.13.pokemon]]
 internal_name = "NIHILEGO"
 level = 100
 raw_item = "CHOICESPECS"
@@ -898,7 +900,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.HARDY.13.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -906,7 +908,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.13.pokemon]]
+[[trainers.HARDY.13.pokemon]]
 internal_name = "AURORUS"
 level = 100
 raw_item = "ASSAULTVEST"
@@ -920,7 +922,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.HARDY.13.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -928,7 +930,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.13.pokemon]]
+[[trainers.HARDY.13.pokemon]]
 internal_name = "TERRAKION"
 level = 100
 raw_item = "FIGHTINIUMZ2"
@@ -942,7 +944,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.HARDY.13.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -950,7 +952,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.13.pokemon]]
+[[trainers.HARDY.13.pokemon]]
 internal_name = "LYCANROC"
 level = 100
 raw_item = "LIFEORB"
@@ -965,7 +967,7 @@ form_number = 2
 nature = "JOLLY"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.HARDY.13.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -973,13 +975,13 @@ spa = 252
 spd = 0
 spe = 0
 
-[trainers.14]
+[trainers.HARDY.14]
 raw_trainer_class = "HARDY"
 battler_name = "Hardy"
 battler_id = 14
 raw_battle_items = []
 
-[[trainers.14.pokemon]]
+[[trainers.HARDY.14.pokemon]]
 internal_name = "DIANCIE"
 level = 100
 raw_item = "DIANCITE"
@@ -993,7 +995,7 @@ sex = ""
 nature = "HASTY"
 iv = 31
 
-[trainers.14.pokemon.evs]
+[trainers.HARDY.14.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -1001,7 +1003,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.14.pokemon]]
+[[trainers.HARDY.14.pokemon]]
 internal_name = "TYRANITAR"
 level = 100
 raw_item = "IAPAPABERRY"
@@ -1015,7 +1017,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.14.pokemon.evs]
+[trainers.HARDY.14.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -1023,7 +1025,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.14.pokemon]]
+[[trainers.HARDY.14.pokemon]]
 internal_name = "AURORUS"
 level = 100
 raw_item = "MAGICALSEED"
@@ -1037,7 +1039,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.14.pokemon.evs]
+[trainers.HARDY.14.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1045,7 +1047,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.14.pokemon]]
+[[trainers.HARDY.14.pokemon]]
 internal_name = "RAMPARDOS"
 level = 100
 raw_item = "CHOICESCARF"
@@ -1060,7 +1062,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.14.pokemon.evs]
+[trainers.HARDY.14.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -1068,7 +1070,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.14.pokemon]]
+[[trainers.HARDY.14.pokemon]]
 internal_name = "RHYPERIOR"
 level = 100
 raw_item = "CHOICEBAND"
@@ -1083,7 +1085,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.14.pokemon.evs]
+[trainers.HARDY.14.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -1091,7 +1093,7 @@ spa = 252
 spd = 0
 spe = 4
 
-[[trainers.14.pokemon]]
+[[trainers.HARDY.14.pokemon]]
 internal_name = "REGIROCK"
 level = 100
 raw_item = "LEFTOVERS"
@@ -1106,7 +1108,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.14.pokemon.evs]
+[trainers.HARDY.14.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -1114,13 +1116,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.15]
+[trainers.HARDY.15]
 raw_trainer_class = "HARDY"
 battler_name = "Hardy"
 battler_id = 15
 raw_battle_items = []
 
-[[trainers.15.pokemon]]
+[[trainers.HARDY.15.pokemon]]
 internal_name = "TYRANITAR"
 level = 100
 raw_item = "ASSAULTVEST"
@@ -1134,7 +1136,7 @@ sex = ""
 nature = "CAREFUL"
 iv = 31
 
-[trainers.15.pokemon.evs]
+[trainers.HARDY.15.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -1142,7 +1144,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.15.pokemon]]
+[[trainers.HARDY.15.pokemon]]
 internal_name = "LYCANROC"
 level = 100
 raw_item = "LIFEORB"
@@ -1157,7 +1159,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.15.pokemon.evs]
+[trainers.HARDY.15.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -1165,7 +1167,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.15.pokemon]]
+[[trainers.HARDY.15.pokemon]]
 internal_name = "GIGALITH"
 level = 100
 raw_item = "ASSAULTVEST"
@@ -1180,7 +1182,7 @@ sex = ""
 nature = "CAREFUL"
 iv = 31
 
-[trainers.15.pokemon.evs]
+[trainers.HARDY.15.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -1188,7 +1190,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.15.pokemon]]
+[[trainers.HARDY.15.pokemon]]
 internal_name = "RHYPERIOR"
 level = 100
 raw_item = "ASSAULTVEST"
@@ -1203,7 +1205,7 @@ sex = ""
 nature = "CAREFUL"
 iv = 31
 
-[trainers.15.pokemon.evs]
+[trainers.HARDY.15.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -1211,7 +1213,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.15.pokemon]]
+[[trainers.HARDY.15.pokemon]]
 internal_name = "GOLEM"
 level = 100
 raw_item = "ASSAULTVEST"
@@ -1226,7 +1228,7 @@ sex = ""
 nature = "CAREFUL"
 iv = 31
 
-[trainers.15.pokemon.evs]
+[trainers.HARDY.15.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -1234,7 +1236,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.15.pokemon]]
+[[trainers.HARDY.15.pokemon]]
 internal_name = "DIANCIE"
 level = 100
 raw_item = "DIANCITE"
@@ -1248,7 +1250,7 @@ sex = ""
 nature = "HASTY"
 iv = 31
 
-[trainers.15.pokemon.evs]
+[trainers.HARDY.15.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -1256,13 +1258,13 @@ spa = 252
 spd = 252
 spe = 0
 
-[trainers.20]
+[trainers.HARDY.20]
 raw_trainer_class = "HARDY"
 battler_name = "Hardy"
 battler_id = 20
 raw_battle_items = []
 
-[[trainers.20.pokemon]]
+[[trainers.HARDY.20.pokemon]]
 internal_name = "LYCANROC"
 level = 95
 raw_moves = [
@@ -1275,7 +1277,7 @@ form_number = 2
 nature = "JOLLY"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.HARDY.20.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -1283,7 +1285,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.HARDY.20.pokemon]]
 internal_name = "KLAWF"
 level = 92
 raw_item = "ASSAULTVEST"
@@ -1296,7 +1298,7 @@ raw_moves = [
 nature = "ADAMANT"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.HARDY.20.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -1304,7 +1306,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.HARDY.20.pokemon]]
 internal_name = "GIGALITH"
 level = 90
 raw_moves = [
@@ -1317,7 +1319,7 @@ ability_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.HARDY.20.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -1325,7 +1327,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.HARDY.20.pokemon]]
 internal_name = "GARGANACL"
 level = 91
 raw_moves = [
@@ -1338,7 +1340,7 @@ sex = "F"
 nature = "CAREFUL"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.HARDY.20.pokemon.evs]
 hp = 0
 atk = 128
 def_ = 128
@@ -1346,7 +1348,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.HARDY.20.pokemon]]
 internal_name = "TORTERRA"
 level = 91
 raw_item = "TORTERRANITE"
@@ -1361,7 +1363,7 @@ is_shiny = true
 nature = "ADAMANT"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.HARDY.20.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -1369,7 +1371,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.20.pokemon]]
+[[trainers.HARDY.20.pokemon]]
 internal_name = "AERODACTYL"
 level = 92
 raw_moves = [
@@ -1382,7 +1384,7 @@ ability_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.HARDY.20.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -1390,7 +1392,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[trainers.21]
+[trainers.HARDY.21]
 raw_trainer_class = "HARDY"
 battler_name = "Hardy"
 battler_id = 21
@@ -1399,7 +1401,7 @@ raw_battle_items = [
     "FULLRESTORE",
 ]
 
-[[trainers.21.pokemon]]
+[[trainers.HARDY.21.pokemon]]
 internal_name = "GIGALITH"
 level = 90
 raw_item = "SMOOTHROCK"
@@ -1413,7 +1415,7 @@ ability_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.21.pokemon.evs]
+[trainers.HARDY.21.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -1421,7 +1423,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.21.pokemon]]
+[[trainers.HARDY.21.pokemon]]
 internal_name = "AERODACTYL"
 level = 92
 raw_item = "LIFEORB"
@@ -1435,7 +1437,7 @@ ability_number = 1
 nature = "JOLLY"
 iv = 31
 
-[trainers.21.pokemon.evs]
+[trainers.HARDY.21.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -1443,7 +1445,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.21.pokemon]]
+[[trainers.HARDY.21.pokemon]]
 internal_name = "GARGANACL"
 level = 92
 raw_item = "LEFTOVERS"
@@ -1457,7 +1459,7 @@ sex = "F"
 nature = "CAREFUL"
 iv = 31
 
-[trainers.21.pokemon.evs]
+[trainers.HARDY.21.pokemon.evs]
 hp = 0
 atk = 128
 def_ = 128
@@ -1465,7 +1467,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.21.pokemon]]
+[[trainers.HARDY.21.pokemon]]
 internal_name = "TORTERRA"
 level = 91
 raw_item = "TORTERRANITE"
@@ -1480,7 +1482,7 @@ is_shiny = true
 nature = "ADAMANT"
 iv = 31
 
-[trainers.21.pokemon.evs]
+[trainers.HARDY.21.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -1488,7 +1490,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.21.pokemon]]
+[[trainers.HARDY.21.pokemon]]
 internal_name = "KLAWF"
 level = 92
 raw_item = "ASSAULTVEST"
@@ -1501,7 +1503,7 @@ raw_moves = [
 nature = "ADAMANT"
 iv = 31
 
-[trainers.21.pokemon.evs]
+[trainers.HARDY.21.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -1509,7 +1511,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.21.pokemon]]
+[[trainers.HARDY.21.pokemon]]
 internal_name = "LYCANROC"
 level = 97
 raw_item = "CHOICEBAND"
@@ -1523,7 +1525,7 @@ form_number = 2
 nature = "JOLLY"
 iv = 31
 
-[trainers.21.pokemon.evs]
+[trainers.HARDY.21.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252

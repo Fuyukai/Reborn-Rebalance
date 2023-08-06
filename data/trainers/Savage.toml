@@ -1,9 +1,29 @@
-[trainers.0]
+trainer_name = "Savage"
+
+[trainers.BEARTIC.0]
+raw_trainer_class = "BEARTIC"
+battler_name = "Savage"
+raw_battle_items = []
+
+[[trainers.BEARTIC.0.pokemon]]
+internal_name = "BEARTIC"
+level = 65
+iv = 0
+
+[trainers.BEARTIC.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.SPIRITM.0]
 raw_trainer_class = "SPIRITM"
 battler_name = "Savage"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.SPIRITM.0.pokemon]]
 internal_name = "POLITOED"
 level = 95
 raw_item = "DAMPROCK"
@@ -18,7 +38,7 @@ sex = ""
 nature = "BOLD"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SPIRITM.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -26,7 +46,7 @@ spa = 0
 spd = 0
 spe = 128
 
-[[trainers.0.pokemon]]
+[[trainers.SPIRITM.0.pokemon]]
 internal_name = "LAPRAS"
 level = 95
 raw_item = "ELEMENTALSEED"
@@ -41,7 +61,7 @@ sex = ""
 nature = "CAREFUL"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SPIRITM.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 4
@@ -49,7 +69,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.SPIRITM.0.pokemon]]
 internal_name = "LUDICOLO"
 level = 95
 raw_item = "LIFEORB"
@@ -63,7 +83,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SPIRITM.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -71,7 +91,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.SPIRITM.0.pokemon]]
 internal_name = "SEISMITOAD"
 level = 95
 raw_item = "CHOICESPECS"
@@ -85,7 +105,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SPIRITM.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -93,7 +113,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.SPIRITM.0.pokemon]]
 internal_name = "KINGDRA"
 level = 95
 raw_item = "LEFTOVERS"
@@ -107,7 +127,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SPIRITM.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -115,7 +135,7 @@ spa = 252
 spd = 0
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.SPIRITM.0.pokemon]]
 internal_name = "GOREBYSS"
 level = 95
 raw_item = "WHITEHERB"
@@ -129,7 +149,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SPIRITM.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

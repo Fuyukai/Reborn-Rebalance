@@ -1,14 +1,16 @@
-[trainers.0]
+trainer_name = "Kriz"
+
+[trainers.MAGMA1.0]
 raw_trainer_class = "MAGMA1"
 battler_name = "Kriz"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.MAGMA1.0.pokemon]]
 internal_name = "NUMEL"
 level = 31
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.MAGMA1.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -16,12 +18,12 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.MAGMA1.0.pokemon]]
 internal_name = "FENNEKIN"
 level = 31
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.MAGMA1.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -29,12 +31,12 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.MAGMA1.0.pokemon]]
 internal_name = "HOUNDOUR"
 level = 32
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.MAGMA1.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

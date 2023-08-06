@@ -1,11 +1,13 @@
-[trainers.0]
+trainer_name = "Goomy"
+
+[trainers.Clown.0]
 raw_trainer_class = "Clown"
 battler_name = "Goomy"
 raw_battle_items = [
     "",
 ]
 
-[[trainers.0.pokemon]]
+[[trainers.Clown.0.pokemon]]
 internal_name = "GOOMY"
 level = 85
 raw_item = "AIRBALLOON"
@@ -20,7 +22,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.Clown.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

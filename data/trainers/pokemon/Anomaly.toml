@@ -1,9 +1,149 @@
-[trainers.0]
+trainer_name = "Anomaly"
+
+[trainers.REGIS.0]
+raw_trainer_class = "REGIS"
+battler_name = "Anomaly"
+raw_battle_items = []
+
+[[trainers.REGIS.0.pokemon]]
+internal_name = "STAKATAKA"
+level = 106
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "TRICKROOM",
+    "GYROBALL",
+    "STONEEDGE",
+    "STEALTHROCK",
+]
+sex = ""
+nature = "BRAVE"
+iv = 32
+
+[trainers.REGIS.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.REGIS.0.pokemon]]
+internal_name = "TYRANITAR"
+level = 107
+raw_item = "DARKINIUMZ2"
+raw_moves = [
+    "DARKPULSE",
+    "EARTHPOWER",
+    "ANCIENTPOWER",
+    "ICEBEAM",
+]
+ability_number = 1
+sex = ""
+nature = "QUIET"
+iv = 32
+
+[trainers.REGIS.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.REGIS.0.pokemon]]
+internal_name = "MAWILE"
+level = 107
+raw_item = "MAWILITE"
+raw_moves = [
+    "PLAYROUGH",
+    "SUCKERPUNCH",
+    "POWERUPPUNCH",
+    "THUNDERPUNCH",
+]
+sex = ""
+nature = "BRAVE"
+iv = 32
+
+[trainers.REGIS.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.REGIS.0.pokemon]]
+internal_name = "REGIROCK"
+level = 109
+raw_item = "CHOICEBAND"
+raw_moves = [
+    "HAMMERARM",
+    "STONEEDGE",
+    "FIREPUNCH",
+    "STOMPINGTANTRUM",
+]
+sex = ""
+nature = "BRAVE"
+iv = 32
+
+[trainers.REGIS.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 0
+spd = 252
+spe = 252
+
+[[trainers.REGIS.0.pokemon]]
+internal_name = "REGICE"
+level = 109
+raw_item = "CHOICESPECS"
+raw_moves = [
+    "ICEBEAM",
+    "ANCIENTPOWER",
+    "THUNDERBOLT",
+    "SIGNALBEAM",
+]
+sex = ""
+nature = "QUIET"
+iv = 32
+
+[trainers.REGIS.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 0
+spd = 252
+spe = 252
+
+[[trainers.REGIS.0.pokemon]]
+internal_name = "REGISTEEL"
+level = 109
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "SEISMICTOSS",
+    "PROTECT",
+    "TOXIC",
+    "REST",
+]
+sex = ""
+nature = "CALM"
+iv = 31
+
+[trainers.REGIS.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[trainers.GENIES.0]
 raw_trainer_class = "GENIES"
 battler_name = "Anomaly"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.GENIES.0.pokemon]]
 internal_name = "TORNADUS"
 level = 115
 raw_item = "LIFEORB"
@@ -17,7 +157,7 @@ sex = ""
 nature = "HASTY"
 iv = 23
 
-[trainers.0.pokemon.evs]
+[trainers.GENIES.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -25,7 +165,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.GENIES.0.pokemon]]
 internal_name = "THUNDURUS"
 level = 115
 raw_item = "DARKINIUMZ2"
@@ -39,7 +179,7 @@ sex = ""
 nature = "TIMID"
 iv = 23
 
-[trainers.0.pokemon.evs]
+[trainers.GENIES.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -47,7 +187,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.GENIES.0.pokemon]]
 internal_name = "LANDORUS"
 level = 115
 raw_item = "LIFEORB"
@@ -62,7 +202,7 @@ sex = ""
 nature = "NAIVE"
 iv = 23
 
-[trainers.0.pokemon.evs]
+[trainers.GENIES.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -70,7 +210,7 @@ spa = 252
 spd = 4
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.GENIES.0.pokemon]]
 internal_name = "THUNDURUS"
 level = 115
 raw_item = "MAGICALSEED"
@@ -85,7 +225,7 @@ form_number = 1
 nature = "MODEST"
 iv = 23
 
-[trainers.0.pokemon.evs]
+[trainers.GENIES.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -93,7 +233,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.GENIES.0.pokemon]]
 internal_name = "TORNADUS"
 level = 115
 raw_item = "ROCKYHELMET"
@@ -108,7 +248,7 @@ form_number = 1
 nature = "TIMID"
 iv = 23
 
-[trainers.0.pokemon.evs]
+[trainers.GENIES.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -116,7 +256,7 @@ spa = 252
 spd = 0
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.GENIES.0.pokemon]]
 internal_name = "LANDORUS"
 level = 115
 raw_item = "MAGICALSEED"
@@ -131,7 +271,7 @@ form_number = 1
 nature = "JOLLY"
 iv = 23
 
-[trainers.0.pokemon.evs]
+[trainers.GENIES.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252

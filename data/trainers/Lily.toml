@@ -1,14 +1,16 @@
-[trainers.0]
+trainer_name = "Lily"
+
+[trainers.LADY.0]
 raw_trainer_class = "LADY"
 battler_name = "Lily"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.LADY.0.pokemon]]
 internal_name = "SWADLOON"
 level = 31
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.LADY.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

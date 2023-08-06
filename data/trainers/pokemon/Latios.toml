@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Latios"
+
+[trainers.LATIOS.0]
 raw_trainer_class = "LATIOS"
 battler_name = "Latios"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.LATIOS.0.pokemon]]
 internal_name = "AERODACTYL"
 level = 125
 raw_item = "FOCUSSASH"
@@ -16,7 +18,7 @@ raw_moves = [
 sex = ""
 nature = "JOLLY"
 
-[trainers.0.pokemon.evs]
+[trainers.LATIOS.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -24,7 +26,7 @@ spa = 252
 spd = 0
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.LATIOS.0.pokemon]]
 internal_name = "TYRANITAR"
 level = 125
 raw_item = "ASSAULTVEST"
@@ -37,7 +39,7 @@ raw_moves = [
 sex = ""
 nature = "ADAMANT"
 
-[trainers.0.pokemon.evs]
+[trainers.LATIOS.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -45,7 +47,7 @@ spa = 4
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.LATIOS.0.pokemon]]
 internal_name = "RHYPERIOR"
 level = 125
 raw_item = "TELLURICSEED"
@@ -58,7 +60,7 @@ raw_moves = [
 sex = ""
 nature = "ADAMANT"
 
-[trainers.0.pokemon.evs]
+[trainers.LATIOS.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -66,7 +68,7 @@ spa = 4
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.LATIOS.0.pokemon]]
 internal_name = "DECIDUEYE"
 level = 125
 raw_item = "DECIDIUMZ2"
@@ -80,7 +82,7 @@ ability_number = 1
 sex = ""
 nature = "LONELY"
 
-[trainers.0.pokemon.evs]
+[trainers.LATIOS.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -88,7 +90,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.LATIOS.0.pokemon]]
 internal_name = "TYPHLOSION"
 level = 125
 raw_item = "ASSAULTVEST"
@@ -101,7 +103,7 @@ raw_moves = [
 sex = ""
 nature = "TIMID"
 
-[trainers.0.pokemon.evs]
+[trainers.LATIOS.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -109,7 +111,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.LATIOS.0.pokemon]]
 internal_name = "LATIOS"
 level = 125
 raw_item = "LATIOSITE"
@@ -123,7 +125,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.LATIOS.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252

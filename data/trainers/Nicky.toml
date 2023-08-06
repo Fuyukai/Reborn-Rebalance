@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Nicky"
+
+[trainers.HIKER.0]
 raw_trainer_class = "HIKER"
 battler_name = "Nicky"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.HIKER.0.pokemon]]
 internal_name = "GLACEON"
 level = 82
 raw_moves = [
@@ -14,7 +16,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.HIKER.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -22,7 +24,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.HIKER.0.pokemon]]
 internal_name = "FLYGON"
 level = 82
 raw_item = "TELLURICSEED"
@@ -34,7 +36,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.HIKER.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

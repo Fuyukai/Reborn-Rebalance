@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Keldeo"
+
+[trainers.KELDEO.0]
 raw_trainer_class = "KELDEO"
 battler_name = "Keldeo"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.KELDEO.0.pokemon]]
 internal_name = "WEAVILE"
 level = 115
 raw_item = "LIFEORB"
@@ -17,7 +19,7 @@ sex = ""
 nature = "JOLLY"
 iv = 20
 
-[trainers.0.pokemon.evs]
+[trainers.KELDEO.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -25,7 +27,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.KELDEO.0.pokemon]]
 internal_name = "CHARIZARD"
 level = 115
 raw_item = "CHARIZARDITEY"
@@ -39,7 +41,7 @@ sex = ""
 nature = "TIMID"
 iv = 20
 
-[trainers.0.pokemon.evs]
+[trainers.KELDEO.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -47,7 +49,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.KELDEO.0.pokemon]]
 internal_name = "TOGEKISS"
 level = 115
 raw_item = "CHOICESPECS"
@@ -61,7 +63,7 @@ sex = ""
 nature = "TIMID"
 iv = 20
 
-[trainers.0.pokemon.evs]
+[trainers.KELDEO.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -69,7 +71,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.KELDEO.0.pokemon]]
 internal_name = "ZOROARK"
 level = 115
 raw_item = "CHOICESPECS"
@@ -83,7 +85,7 @@ sex = ""
 nature = "TIMID"
 iv = 20
 
-[trainers.0.pokemon.evs]
+[trainers.KELDEO.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -91,7 +93,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.KELDEO.0.pokemon]]
 internal_name = "KOMMOO"
 level = 115
 raw_item = "KOMMONIUMZ2"
@@ -106,7 +108,7 @@ sex = ""
 nature = "TIMID"
 iv = 20
 
-[trainers.0.pokemon.evs]
+[trainers.KELDEO.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -114,7 +116,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.KELDEO.0.pokemon]]
 internal_name = "KELDEO"
 level = 115
 raw_item = "LEFTOVERS"
@@ -128,7 +130,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.KELDEO.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252

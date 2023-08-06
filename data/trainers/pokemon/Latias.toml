@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Latias"
+
+[trainers.LATIAS.0]
 raw_trainer_class = "LATIAS"
 battler_name = "Latias"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.LATIAS.0.pokemon]]
 internal_name = "COBALION"
 level = 125
 raw_item = "LIGHTCLAY"
@@ -16,7 +18,7 @@ raw_moves = [
 sex = ""
 nature = "JOLLY"
 
-[trainers.0.pokemon.evs]
+[trainers.LATIAS.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 4
@@ -24,7 +26,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.LATIAS.0.pokemon]]
 internal_name = "TERRAKION"
 level = 125
 raw_item = "ASSAULTVEST"
@@ -37,7 +39,7 @@ raw_moves = [
 sex = ""
 nature = "ADAMANT"
 
-[trainers.0.pokemon.evs]
+[trainers.LATIAS.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -45,7 +47,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.LATIAS.0.pokemon]]
 internal_name = "TALONFLAME"
 level = 125
 raw_item = "FOCUSSASH"
@@ -59,7 +61,7 @@ ability_number = 1
 sex = ""
 nature = "HASTY"
 
-[trainers.0.pokemon.evs]
+[trainers.LATIAS.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 4
@@ -67,7 +69,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.LATIAS.0.pokemon]]
 internal_name = "EXCADRILL"
 level = 125
 raw_item = "TELLURICSEED"
@@ -80,7 +82,7 @@ raw_moves = [
 sex = ""
 nature = "ADAMANT"
 
-[trainers.0.pokemon.evs]
+[trainers.LATIAS.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -88,7 +90,7 @@ spa = 252
 spd = 0
 spe = 156
 
-[[trainers.0.pokemon]]
+[[trainers.LATIAS.0.pokemon]]
 internal_name = "ZAPDOS"
 level = 125
 raw_item = "LIFEORB"
@@ -102,7 +104,7 @@ ability_number = 1
 sex = ""
 nature = "MODEST"
 
-[trainers.0.pokemon.evs]
+[trainers.LATIAS.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -110,7 +112,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.LATIAS.0.pokemon]]
 internal_name = "LATIAS"
 level = 125
 raw_item = "LATIASITE"
@@ -124,7 +126,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.LATIAS.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252

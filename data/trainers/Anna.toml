@@ -1,148 +1,157 @@
-[trainers.0]
-raw_trainer_class = "ANNA2"
+trainer_name = "Anna"
+
+[trainers.ANNA.0]
+raw_trainer_class = "ANNA"
 battler_name = "Anna"
-raw_battle_items = []
-
-[[trainers.0.pokemon]]
-internal_name = "XURKITREE"
-level = 150
-raw_item = "LEFTOVERS"
-raw_moves = [
-    "TAILGLOW",
-    "POWERWHIP",
-    "THUNDERBOLT",
-    "THUNDERWAVE",
+raw_battle_items = [
+    "FULLRESTORE",
+    "FULLRESTORE",
 ]
-sex = ""
+
+[[trainers.ANNA.0.pokemon]]
+internal_name = "NINETALES"
+level = 100
+raw_item = "LIGHTCLAY"
+raw_moves = [
+    "AURORAVEIL",
+    "MOONBLAST",
+    "AURORABEAM",
+    "EXTRASENSORY",
+]
+sex = "F"
+form_number = 1
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.ANNA.0.pokemon.evs]
 hp = 0
-atk = 252
-def_ = 252
+atk = 4
+def_ = 0
 spa = 252
 spd = 252
-spe = 252
+spe = 0
 
-[[trainers.0.pokemon]]
-internal_name = "NIHILEGO"
-level = 150
-raw_item = "SYNTHETICSEED"
+[[trainers.ANNA.0.pokemon]]
+internal_name = "STARMIE"
+level = 100
+raw_item = "MAGICALSEED"
 raw_moves = [
     "PSYCHIC",
+    "FLASHCANNON",
+    "SCALD",
     "THUNDERBOLT",
-    "STEALTHROCK",
-    "TOXICSPIKES",
 ]
 sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.ANNA.0.pokemon.evs]
 hp = 0
-atk = 252
-def_ = 252
+atk = 4
+def_ = 0
 spa = 252
 spd = 252
-spe = 252
+spe = 0
 
-[[trainers.0.pokemon]]
-internal_name = "NAGANADEL"
-level = 150
-raw_item = "LEFTOVERS"
+[[trainers.ANNA.0.pokemon]]
+internal_name = "GARDEVOIR"
+level = 100
+raw_item = "MAGICALSEED"
 raw_moves = [
-    "NASTYPLOT",
-    "OUTRAGE",
-    "FIREBLAST",
-    "PROTECT",
-]
-sex = ""
-nature = "TIMID"
-iv = 31
-
-[trainers.0.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 252
-spa = 252
-spd = 252
-spe = 252
-
-[[trainers.0.pokemon]]
-internal_name = "ZYGARDE"
-level = 150
-raw_item = "ASSAULTVEST"
-raw_moves = [
-    "THOUSANDARROWS",
-    "COREENFORCER",
-    "EXTREMESPEED",
-    "BRICKBREAK",
-]
-ability_number = 1
-sex = ""
-nature = "JOLLY"
-iv = 31
-
-[trainers.0.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 252
-spa = 252
-spd = 252
-spe = 252
-
-[[trainers.0.pokemon]]
-internal_name = "GALLADE"
-level = 150
-raw_item = "GALLADITE"
-raw_moves = [
-    "DRAINPUNCH",
     "PSYCHIC",
-    "EARTHQUAKE",
-    "VACUUMWAVE",
+    "MOONBLAST",
+    "FOCUSBLAST",
+    "SIGNALBEAM",
 ]
-sex = ""
-nature = "JOLLY"
+ability_number = 2
+sex = "F"
+is_shiny = true
+nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.ANNA.0.pokemon.evs]
 hp = 0
-atk = 252
-def_ = 252
+atk = 4
+def_ = 0
 spa = 252
 spd = 252
-spe = 252
+spe = 0
 
-[[trainers.0.pokemon]]
-internal_name = "JIRACHI"
-level = 150
+[[trainers.ANNA.0.pokemon]]
+internal_name = "SYLVEON"
+level = 100
 raw_item = "LEFTOVERS"
 raw_moves = [
+    "SWIFT",
     "WISH",
-    "COSMICPOWER",
-    "DRACOMETEOR",
+    "SHADOWBALL",
     "PROTECT",
 ]
-sex = ""
+ability_number = 2
+sex = "F"
 nature = "CALM"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.ANNA.0.pokemon.evs]
 hp = 0
 atk = 252
-def_ = 252
-spa = 252
-spd = 252
+def_ = 0
+spa = 0
+spd = 4
 spe = 252
 
-[trainers.1]
+[[trainers.ANNA.0.pokemon]]
+internal_name = "METAGROSS"
+level = 100
+raw_item = "METAGROSSITE"
+raw_moves = [
+    "METEORMASH",
+    "EARTHQUAKE",
+    "ZENHEADBUTT",
+    "BULLETPUNCH",
+]
+sex = ""
+nature = "JOLLY"
+iv = 31
+
+[trainers.ANNA.0.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.ANNA.0.pokemon]]
+internal_name = "JIRACHI"
+level = 100
+raw_item = "PSYCHIUMZ2"
+raw_moves = [
+    "FLASHCANNON",
+    "WISH",
+    "PSYCHIC",
+    "COSMICPOWER",
+]
+sex = ""
+nature = "MODEST"
+iv = 31
+nickname = "Nostra"
+
+[trainers.ANNA.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 252
+spe = 4
+
+[trainers.ANNA.1]
 raw_trainer_class = "ANNA"
 battler_name = "Anna"
 battler_id = 1
 raw_battle_items = []
 
-[[trainers.1.pokemon]]
+[[trainers.ANNA.1.pokemon]]
 internal_name = "NINETALES"
 level = 125
 raw_item = "EJECTBUTTON"
@@ -158,7 +167,7 @@ form_number = 1
 nature = "TIMID"
 iv = 5
 
-[trainers.1.pokemon.evs]
+[trainers.ANNA.1.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -166,7 +175,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.ANNA.1.pokemon]]
 internal_name = "DIANCIE"
 level = 125
 raw_item = "DIANCITE"
@@ -180,7 +189,7 @@ sex = ""
 nature = "SERIOUS"
 iv = 5
 
-[trainers.1.pokemon.evs]
+[trainers.ANNA.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -188,7 +197,7 @@ spa = 100
 spd = 156
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.ANNA.1.pokemon]]
 internal_name = "SLOWBRO"
 level = 125
 raw_item = "MAGICALSEED"
@@ -203,7 +212,7 @@ sex = ""
 nature = "MODEST"
 iv = 5
 
-[trainers.1.pokemon.evs]
+[trainers.ANNA.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -211,7 +220,7 @@ spa = 0
 spd = 100
 spe = 52
 
-[[trainers.1.pokemon]]
+[[trainers.ANNA.1.pokemon]]
 internal_name = "GARDEVOIR"
 level = 125
 raw_item = "LEFTOVERS"
@@ -227,7 +236,7 @@ is_shiny = true
 nature = "MODEST"
 iv = 5
 
-[trainers.1.pokemon.evs]
+[trainers.ANNA.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -235,7 +244,7 @@ spa = 0
 spd = 252
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.ANNA.1.pokemon]]
 internal_name = "MELOETTA"
 level = 125
 raw_item = "LEFTOVERS"
@@ -249,7 +258,7 @@ sex = ""
 nature = "TIMID"
 iv = 5
 
-[trainers.1.pokemon.evs]
+[trainers.ANNA.1.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -257,7 +266,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.ANNA.1.pokemon]]
 internal_name = "JIRACHI"
 level = 125
 raw_item = "LEFTOVERS"
@@ -272,7 +281,7 @@ nature = "ADAMANT"
 iv = 31
 nickname = "Nostra"
 
-[trainers.1.pokemon.evs]
+[trainers.ANNA.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -280,426 +289,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[trainers.10]
-raw_trainer_class = "ANNA3"
-battler_name = "Anna"
-battler_id = 10
-raw_battle_items = []
-
-[[trainers.10.pokemon]]
-internal_name = "VICTINI"
-level = 100
-raw_item = "MAGICALSEED"
-raw_moves = [
-    "BLUEFLARE",
-    "DAZZLINGGLEAM",
-    "PSYSHOCK",
-    "GLACIATE",
-]
-sex = ""
-nature = "TIMID"
-iv = 31
-
-[trainers.10.pokemon.evs]
-hp = 0
-atk = 4
-def_ = 0
-spa = 252
-spd = 252
-spe = 0
-
-[[trainers.10.pokemon]]
-internal_name = "GARDEVOIR"
-level = 100
-raw_item = "GARDEVOIRITE"
-raw_moves = [
-    "SWIFT",
-    "PSYCHIC",
-    "HIDDENPOWERDAR",
-    "SIGNALBEAM",
-]
-sex = ""
-nature = "TIMID"
-iv = 31
-
-[trainers.10.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 4
-
-[[trainers.10.pokemon]]
-internal_name = "SYLVEON"
-level = 100
-raw_item = "MAGICALSEED"
-raw_moves = [
-    "SWIFT",
-    "CALMMIND",
-    "PSYSHOCK",
-    "WISH",
-]
-ability_number = 2
-sex = ""
-nature = "BOLD"
-iv = 31
-
-[trainers.10.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 0
-spa = 0
-spd = 4
-spe = 252
-
-[[trainers.10.pokemon]]
-internal_name = "JIRACHI"
-level = 100
-raw_item = "MAGICALSEED"
-raw_moves = [
-    "SWIFT",
-    "DOOMDESIRE",
-    "ICYWIND",
-    "WISH",
-]
-sex = ""
-nature = "BOLD"
-iv = 31
-
-[trainers.10.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 0
-spa = 0
-spd = 128
-spe = 128
-
-[[trainers.10.pokemon]]
-internal_name = "PORYGONZ"
-level = 100
-raw_item = "MAGICALSEED"
-raw_moves = [
-    "SWIFT",
-    "PSYCHIC",
-    "SIGNALBEAM",
-    "DARKPULSE",
-]
-sex = ""
-nature = "TIMID"
-iv = 31
-
-[trainers.10.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 4
-
-[[trainers.10.pokemon]]
-internal_name = "DARKRAI"
-level = 100
-raw_item = "DARKINIUMZ2"
-raw_moves = [
-    "SWIFT",
-    "DARKPULSE",
-    "NASTYPLOT",
-    "DARKVOID",
-]
-sex = ""
-nature = "TIMID"
-iv = 31
-
-[trainers.10.pokemon.evs]
-hp = 0
-atk = 4
-def_ = 0
-spa = 252
-spd = 252
-spe = 0
-
-[trainers.11]
-raw_trainer_class = "ANNA3"
-battler_name = "Anna"
-battler_id = 11
-raw_battle_items = []
-
-[[trainers.11.pokemon]]
-internal_name = "DIANCIE"
-level = 100
-raw_item = "DIANCITE"
-raw_moves = [
-    "STEALTHROCK",
-    "ANCIENTPOWER",
-    "PSYCHIC",
-    "MOONBLAST",
-]
-sex = ""
-nature = "MODEST"
-iv = 31
-
-[trainers.11.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 0
-spa = 252
-spd = 4
-spe = 0
-
-[[trainers.11.pokemon]]
-internal_name = "STAKATAKA"
-level = 100
-raw_item = "ROCKIUMZ2"
-raw_moves = [
-    "TRICKROOM",
-    "GYROBALL",
-    "STONEEDGE",
-    "EARTHQUAKE",
-]
-sex = ""
-nature = "BRAVE"
-iv = 32
-
-[trainers.11.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 252
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.11.pokemon]]
-internal_name = "AURORUS"
-level = 100
-raw_item = "SYNTHETICSEED"
-raw_moves = [
-    "ANCIENTPOWER",
-    "RETURN",
-    "PSYCHIC",
-    "DISCHARGE",
-]
-sex = ""
-nature = "MODEST"
-iv = 31
-
-[trainers.11.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 4
-
-[[trainers.11.pokemon]]
-internal_name = "BISHARP"
-level = 100
-raw_item = "BLACKGLASSES"
-raw_moves = [
-    "SWORDSDANCE",
-    "KNOCKOFF",
-    "IRONHEAD",
-    "STRENGTH",
-]
-sex = ""
-nature = "JOLLY"
-iv = 31
-
-[trainers.11.pokemon.evs]
-hp = 0
-atk = 4
-def_ = 252
-spa = 252
-spd = 0
-spe = 0
-
-[[trainers.11.pokemon]]
-internal_name = "PYUKUMUKU"
-level = 100
-raw_item = "LEFTOVERS"
-raw_moves = [
-    "RECOVER",
-    "SOAK",
-    "TOXIC",
-    "BLOCK",
-]
-ability_number = 1
-nature = "BOLD"
-iv = 31
-nickname = "Pyukmuk"
-
-[trainers.11.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 0
-spa = 0
-spd = 0
-spe = 100
-
-[[trainers.11.pokemon]]
-internal_name = "REGIROCK"
-level = 100
-raw_item = "LEFTOVERS"
-raw_moves = [
-    "STONEEDGE",
-    "EARTHQUAKE",
-    "DRAINPUNCH",
-    "PROTECT",
-]
-sex = ""
-nature = "IMPISH"
-iv = 31
-
-[trainers.11.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 0
-spa = 0
-spd = 0
-spe = 4
-
-[trainers.12]
-raw_trainer_class = "ANNA3"
-battler_name = "Anna"
-battler_id = 12
-raw_battle_items = []
-
-[[trainers.12.pokemon]]
-internal_name = "TOGEKISS"
-level = 100
-raw_item = "ASSAULTVEST"
-raw_moves = [
-    "FUTURESIGHT",
-    "DAZZLINGGLEAM",
-    "SWIFT",
-    "AIRSLASH",
-]
-ability_number = 1
-sex = ""
-nature = "TIMID"
-iv = 31
-
-[trainers.12.pokemon.evs]
-hp = 0
-atk = 4
-def_ = 0
-spa = 252
-spd = 252
-spe = 0
-
-[[trainers.12.pokemon]]
-internal_name = "CRESSELIA"
-level = 100
-raw_item = "LEFTOVERS"
-raw_moves = [
-    "FUTURESIGHT",
-    "MOONBLAST",
-    "MOONLIGHT",
-    "CALMMIND",
-]
-sex = ""
-nature = "BOLD"
-iv = 31
-
-[trainers.12.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 0
-spa = 0
-spd = 0
-spe = 200
-
-[[trainers.12.pokemon]]
-internal_name = "SIGILYPH"
-level = 100
-raw_item = "MINDPLATE"
-raw_moves = [
-    "FUTURESIGHT",
-    "COSMICPOWER",
-    "ROOST",
-    "ANCIENTPOWER",
-]
-ability_number = 1
-sex = ""
-nature = "TIMID"
-iv = 31
-
-[trainers.12.pokemon.evs]
-hp = 0
-atk = 4
-def_ = 0
-spa = 252
-spd = 0
-spe = 252
-
-[[trainers.12.pokemon]]
-internal_name = "GARDEVOIR"
-level = 100
-raw_item = "GARDEVOIRITE"
-raw_moves = [
-    "FUTURESIGHT",
-    "MOONBLAST",
-    "HIDDENPOWERDAR",
-    "PSYSHOCK",
-]
-ability_number = 1
-sex = ""
-nature = "TIMID"
-iv = 31
-
-[trainers.12.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 4
-
-[[trainers.12.pokemon]]
-internal_name = "XATU"
-level = 100
-raw_item = "LEFTOVERS"
-raw_moves = [
-    "FUTURESIGHT",
-    "DAZZLINGGLEAM",
-    "TAILWIND",
-    "ROOST",
-]
-sex = ""
-nature = "CALM"
-iv = 31
-
-[trainers.12.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 0
-spa = 200
-spd = 56
-spe = 0
-
-[[trainers.12.pokemon]]
-internal_name = "JIRACHI"
-level = 100
-raw_item = "MAGICALSEED"
-raw_moves = [
-    "FUTURESIGHT",
-    "DOOMDESIRE",
-    "ANCIENTPOWER",
-    "METEORMASH",
-]
-sex = ""
-nature = "HASTY"
-iv = 31
-
-[trainers.12.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 56
-spa = 252
-spd = 200
-spe = 0
-
-[trainers.20]
+[trainers.ANNA.20]
 raw_trainer_class = "ANNA"
 battler_name = "Anna"
 battler_id = 20
@@ -708,7 +298,7 @@ raw_battle_items = [
     "FULLRESTORE",
 ]
 
-[[trainers.20.pokemon]]
+[[trainers.ANNA.20.pokemon]]
 internal_name = "NINETALES"
 level = 100
 raw_item = "LIGHTCLAY"
@@ -723,7 +313,7 @@ form_number = 1
 nature = "TIMID"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.ANNA.20.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -731,7 +321,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.ANNA.20.pokemon]]
 internal_name = "HATTERENE"
 level = 100
 raw_item = "MAGICALSEED"
@@ -747,7 +337,7 @@ is_shiny = true
 nature = "BOLD"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.ANNA.20.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -755,7 +345,7 @@ spa = 0
 spd = 252
 spe = 4
 
-[[trainers.20.pokemon]]
+[[trainers.ANNA.20.pokemon]]
 internal_name = "SYLVEON"
 level = 100
 raw_item = "LEFTOVERS"
@@ -770,7 +360,7 @@ sex = "F"
 nature = "CALM"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.ANNA.20.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -778,7 +368,7 @@ spa = 0
 spd = 4
 spe = 252
 
-[[trainers.20.pokemon]]
+[[trainers.ANNA.20.pokemon]]
 internal_name = "METAGROSS"
 level = 100
 raw_item = "LIFEORB"
@@ -792,7 +382,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.ANNA.20.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -800,7 +390,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.ANNA.20.pokemon]]
 internal_name = "MISMAGIUS"
 level = 100
 raw_item = "MISMAGIUSITE"
@@ -815,7 +405,7 @@ nature = "MODEST"
 iv = 31
 nickname = "Shalia"
 
-[trainers.20.pokemon.evs]
+[trainers.ANNA.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -823,7 +413,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.20.pokemon]]
+[[trainers.ANNA.20.pokemon]]
 internal_name = "JIRACHI"
 level = 100
 raw_item = "PSYCHIUMZ2"
@@ -838,10 +428,567 @@ nature = "MODEST"
 iv = 31
 nickname = "Nostra"
 
-[trainers.20.pokemon.evs]
+[trainers.ANNA.20.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
 spa = 0
 spd = 252
 spe = 4
+
+[trainers.ANNA2.0]
+raw_trainer_class = "ANNA2"
+battler_name = "Anna"
+raw_battle_items = []
+
+[[trainers.ANNA2.0.pokemon]]
+internal_name = "XURKITREE"
+level = 150
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "TAILGLOW",
+    "POWERWHIP",
+    "THUNDERBOLT",
+    "THUNDERWAVE",
+]
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.ANNA2.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.ANNA2.0.pokemon]]
+internal_name = "NIHILEGO"
+level = 150
+raw_item = "SYNTHETICSEED"
+raw_moves = [
+    "PSYCHIC",
+    "THUNDERBOLT",
+    "STEALTHROCK",
+    "TOXICSPIKES",
+]
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.ANNA2.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.ANNA2.0.pokemon]]
+internal_name = "NAGANADEL"
+level = 150
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "NASTYPLOT",
+    "OUTRAGE",
+    "FIREBLAST",
+    "PROTECT",
+]
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.ANNA2.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.ANNA2.0.pokemon]]
+internal_name = "ZYGARDE"
+level = 150
+raw_item = "ASSAULTVEST"
+raw_moves = [
+    "THOUSANDARROWS",
+    "COREENFORCER",
+    "EXTREMESPEED",
+    "BRICKBREAK",
+]
+ability_number = 1
+sex = ""
+nature = "JOLLY"
+iv = 31
+
+[trainers.ANNA2.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.ANNA2.0.pokemon]]
+internal_name = "GALLADE"
+level = 150
+raw_item = "GALLADITE"
+raw_moves = [
+    "DRAINPUNCH",
+    "PSYCHIC",
+    "EARTHQUAKE",
+    "VACUUMWAVE",
+]
+sex = ""
+nature = "JOLLY"
+iv = 31
+
+[trainers.ANNA2.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.ANNA2.0.pokemon]]
+internal_name = "JIRACHI"
+level = 150
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "WISH",
+    "COSMICPOWER",
+    "DRACOMETEOR",
+    "PROTECT",
+]
+sex = ""
+nature = "CALM"
+iv = 31
+
+[trainers.ANNA2.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[trainers.ANNA3.10]
+raw_trainer_class = "ANNA3"
+battler_name = "Anna"
+battler_id = 10
+raw_battle_items = []
+
+[[trainers.ANNA3.10.pokemon]]
+internal_name = "VICTINI"
+level = 100
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "BLUEFLARE",
+    "DAZZLINGGLEAM",
+    "PSYSHOCK",
+    "GLACIATE",
+]
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.ANNA3.10.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.ANNA3.10.pokemon]]
+internal_name = "GARDEVOIR"
+level = 100
+raw_item = "GARDEVOIRITE"
+raw_moves = [
+    "SWIFT",
+    "PSYCHIC",
+    "HIDDENPOWERDAR",
+    "SIGNALBEAM",
+]
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.ANNA3.10.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4
+
+[[trainers.ANNA3.10.pokemon]]
+internal_name = "SYLVEON"
+level = 100
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "SWIFT",
+    "CALMMIND",
+    "PSYSHOCK",
+    "WISH",
+]
+ability_number = 2
+sex = ""
+nature = "BOLD"
+iv = 31
+
+[trainers.ANNA3.10.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 4
+spe = 252
+
+[[trainers.ANNA3.10.pokemon]]
+internal_name = "JIRACHI"
+level = 100
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "SWIFT",
+    "DOOMDESIRE",
+    "ICYWIND",
+    "WISH",
+]
+sex = ""
+nature = "BOLD"
+iv = 31
+
+[trainers.ANNA3.10.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 128
+spe = 128
+
+[[trainers.ANNA3.10.pokemon]]
+internal_name = "PORYGONZ"
+level = 100
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "SWIFT",
+    "PSYCHIC",
+    "SIGNALBEAM",
+    "DARKPULSE",
+]
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.ANNA3.10.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4
+
+[[trainers.ANNA3.10.pokemon]]
+internal_name = "DARKRAI"
+level = 100
+raw_item = "DARKINIUMZ2"
+raw_moves = [
+    "SWIFT",
+    "DARKPULSE",
+    "NASTYPLOT",
+    "DARKVOID",
+]
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.ANNA3.10.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[trainers.ANNA3.11]
+raw_trainer_class = "ANNA3"
+battler_name = "Anna"
+battler_id = 11
+raw_battle_items = []
+
+[[trainers.ANNA3.11.pokemon]]
+internal_name = "DIANCIE"
+level = 100
+raw_item = "DIANCITE"
+raw_moves = [
+    "STEALTHROCK",
+    "ANCIENTPOWER",
+    "PSYCHIC",
+    "MOONBLAST",
+]
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.ANNA3.11.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 252
+spd = 4
+spe = 0
+
+[[trainers.ANNA3.11.pokemon]]
+internal_name = "STAKATAKA"
+level = 100
+raw_item = "ROCKIUMZ2"
+raw_moves = [
+    "TRICKROOM",
+    "GYROBALL",
+    "STONEEDGE",
+    "EARTHQUAKE",
+]
+sex = ""
+nature = "BRAVE"
+iv = 32
+
+[trainers.ANNA3.11.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.ANNA3.11.pokemon]]
+internal_name = "AURORUS"
+level = 100
+raw_item = "SYNTHETICSEED"
+raw_moves = [
+    "ANCIENTPOWER",
+    "RETURN",
+    "PSYCHIC",
+    "DISCHARGE",
+]
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.ANNA3.11.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4
+
+[[trainers.ANNA3.11.pokemon]]
+internal_name = "BISHARP"
+level = 100
+raw_item = "BLACKGLASSES"
+raw_moves = [
+    "SWORDSDANCE",
+    "KNOCKOFF",
+    "IRONHEAD",
+    "STRENGTH",
+]
+sex = ""
+nature = "JOLLY"
+iv = 31
+
+[trainers.ANNA3.11.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.ANNA3.11.pokemon]]
+internal_name = "PYUKUMUKU"
+level = 100
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "RECOVER",
+    "SOAK",
+    "TOXIC",
+    "BLOCK",
+]
+ability_number = 1
+nature = "BOLD"
+iv = 31
+nickname = "Pyukmuk"
+
+[trainers.ANNA3.11.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 100
+
+[[trainers.ANNA3.11.pokemon]]
+internal_name = "REGIROCK"
+level = 100
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "STONEEDGE",
+    "EARTHQUAKE",
+    "DRAINPUNCH",
+    "PROTECT",
+]
+sex = ""
+nature = "IMPISH"
+iv = 31
+
+[trainers.ANNA3.11.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 4
+
+[trainers.ANNA3.12]
+raw_trainer_class = "ANNA3"
+battler_name = "Anna"
+battler_id = 12
+raw_battle_items = []
+
+[[trainers.ANNA3.12.pokemon]]
+internal_name = "TOGEKISS"
+level = 100
+raw_item = "ASSAULTVEST"
+raw_moves = [
+    "FUTURESIGHT",
+    "DAZZLINGGLEAM",
+    "SWIFT",
+    "AIRSLASH",
+]
+ability_number = 1
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.ANNA3.12.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.ANNA3.12.pokemon]]
+internal_name = "CRESSELIA"
+level = 100
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "FUTURESIGHT",
+    "MOONBLAST",
+    "MOONLIGHT",
+    "CALMMIND",
+]
+sex = ""
+nature = "BOLD"
+iv = 31
+
+[trainers.ANNA3.12.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 200
+
+[[trainers.ANNA3.12.pokemon]]
+internal_name = "SIGILYPH"
+level = 100
+raw_item = "MINDPLATE"
+raw_moves = [
+    "FUTURESIGHT",
+    "COSMICPOWER",
+    "ROOST",
+    "ANCIENTPOWER",
+]
+ability_number = 1
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.ANNA3.12.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 0
+spe = 252
+
+[[trainers.ANNA3.12.pokemon]]
+internal_name = "GARDEVOIR"
+level = 100
+raw_item = "GARDEVOIRITE"
+raw_moves = [
+    "FUTURESIGHT",
+    "MOONBLAST",
+    "HIDDENPOWERDAR",
+    "PSYSHOCK",
+]
+ability_number = 1
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.ANNA3.12.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4
+
+[[trainers.ANNA3.12.pokemon]]
+internal_name = "XATU"
+level = 100
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "FUTURESIGHT",
+    "DAZZLINGGLEAM",
+    "TAILWIND",
+    "ROOST",
+]
+sex = ""
+nature = "CALM"
+iv = 31
+
+[trainers.ANNA3.12.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 200
+spd = 56
+spe = 0
+
+[[trainers.ANNA3.12.pokemon]]
+internal_name = "JIRACHI"
+level = 100
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "FUTURESIGHT",
+    "DOOMDESIRE",
+    "ANCIENTPOWER",
+    "METEORMASH",
+]
+sex = ""
+nature = "HASTY"
+iv = 31
+
+[trainers.ANNA3.12.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 56
+spa = 252
+spd = 200
+spe = 0

@@ -1,9 +1,29 @@
-[trainers.0]
+trainer_name = "Wes"
+
+[trainers.Cultist.0]
+raw_trainer_class = "Cultist"
+battler_name = "Wes"
+raw_battle_items = []
+
+[[trainers.Cultist.0.pokemon]]
+internal_name = "ALAKAZAM"
+level = 61
+iv = 0
+
+[trainers.Cultist.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.NWCultist.0]
 raw_trainer_class = "NWCultist"
 battler_name = "Wes"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.NWCultist.0.pokemon]]
 internal_name = "JUMPLUFF"
 level = 72
 raw_moves = [
@@ -15,7 +35,7 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.NWCultist.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -23,7 +43,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.NWCultist.0.pokemon]]
 internal_name = "ARMALDO"
 level = 73
 raw_moves = [
@@ -34,7 +54,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.NWCultist.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -42,7 +62,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.NWCultist.0.pokemon]]
 internal_name = "ALAKAZAM"
 level = 74
 raw_moves = [
@@ -54,7 +74,7 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.NWCultist.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

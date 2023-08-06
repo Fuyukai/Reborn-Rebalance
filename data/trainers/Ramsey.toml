@@ -1,9 +1,55 @@
-[trainers.0]
+trainer_name = "Ramsey"
+
+[trainers.Orderly.0]
+raw_trainer_class = "Orderly"
+battler_name = "Ramsey"
+raw_battle_items = []
+
+[[trainers.Orderly.0.pokemon]]
+internal_name = "PIKACHU"
+level = 33
+iv = 0
+
+[trainers.Orderly.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.Orderly.0.pokemon]]
+internal_name = "MAGNEMITE"
+level = 33
+iv = 0
+
+[trainers.Orderly.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.Orderly.0.pokemon]]
+internal_name = "ELGYEM"
+level = 34
+iv = 0
+
+[trainers.Orderly.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.NWOrderly.0]
 raw_trainer_class = "NWOrderly"
 battler_name = "Ramsey"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.NWOrderly.0.pokemon]]
 internal_name = "MAGNETON"
 level = 75
 raw_moves = [
@@ -15,7 +61,7 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.NWOrderly.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -23,7 +69,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.NWOrderly.0.pokemon]]
 internal_name = "RAICHU"
 level = 74
 raw_moves = [
@@ -35,7 +81,7 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.NWOrderly.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -43,7 +89,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.NWOrderly.0.pokemon]]
 internal_name = "REUNICLUS"
 level = 74
 raw_moves = [
@@ -55,7 +101,7 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.NWOrderly.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -63,7 +109,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.NWOrderly.0.pokemon]]
 internal_name = "BEHEEYEM"
 level = 76
 raw_moves = [
@@ -75,7 +121,7 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.NWOrderly.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -83,7 +129,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.NWOrderly.0.pokemon]]
 internal_name = "BLISSEY"
 level = 75
 raw_moves = [
@@ -95,7 +141,7 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.NWOrderly.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

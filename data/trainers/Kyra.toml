@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Kyra"
+
+[trainers.KYRA.0]
 raw_trainer_class = "KYRA"
 battler_name = "Kyra"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.KYRA.0.pokemon]]
 internal_name = "PURRLOIN"
 level = 100
 raw_item = "NORMALGEM"
@@ -19,7 +21,7 @@ nature = "ADAMANT"
 iv = 31
 happiness = 0
 
-[trainers.0.pokemon.evs]
+[trainers.KYRA.0.pokemon.evs]
 hp = 0
 atk = 628
 def_ = 732
@@ -27,7 +29,7 @@ spa = 1020
 spd = 252
 spe = 560
 
-[[trainers.0.pokemon]]
+[[trainers.KYRA.0.pokemon]]
 internal_name = "SKITTY"
 level = 100
 raw_item = "LEFTOVERS"
@@ -43,7 +45,7 @@ nature = "JOLLY"
 iv = 31
 happiness = 0
 
-[trainers.0.pokemon.evs]
+[trainers.KYRA.0.pokemon.evs]
 hp = 0
 atk = 312
 def_ = 980
@@ -51,7 +53,7 @@ spa = 1024
 spd = 252
 spe = 644
 
-[[trainers.0.pokemon]]
+[[trainers.KYRA.0.pokemon]]
 internal_name = "EEVEE"
 level = 100
 raw_item = "EEVIUMZ2"
@@ -67,7 +69,7 @@ nature = "JOLLY"
 iv = 31
 happiness = 0
 
-[trainers.0.pokemon.evs]
+[trainers.KYRA.0.pokemon.evs]
 hp = 0
 atk = 312
 def_ = 912
@@ -75,7 +77,7 @@ spa = 692
 spd = 252
 spe = 484
 
-[[trainers.0.pokemon]]
+[[trainers.KYRA.0.pokemon]]
 internal_name = "FENNEKIN"
 level = 100
 raw_item = "LIFEORB"
@@ -90,7 +92,7 @@ nature = "MODEST"
 iv = 31
 happiness = 0
 
-[trainers.0.pokemon.evs]
+[trainers.KYRA.0.pokemon.evs]
 hp = 0
 atk = 532
 def_ = 252
@@ -98,7 +100,7 @@ spa = 604
 spd = 728
 spe = 508
 
-[[trainers.0.pokemon]]
+[[trainers.KYRA.0.pokemon]]
 internal_name = "GLAMEOW"
 level = 100
 raw_item = "LIFEORB"
@@ -113,7 +115,7 @@ nature = "JOLLY"
 iv = 31
 happiness = 0
 
-[trainers.0.pokemon.evs]
+[trainers.KYRA.0.pokemon.evs]
 hp = 0
 atk = 780
 def_ = 860
@@ -121,7 +123,7 @@ spa = 292
 spd = 252
 spe = 596
 
-[[trainers.0.pokemon]]
+[[trainers.KYRA.0.pokemon]]
 internal_name = "ABSOL"
 level = 100
 raw_item = "CHOICEBAND"
@@ -137,7 +139,7 @@ nature = "JOLLY"
 iv = 31
 happiness = 0
 
-[trainers.0.pokemon.evs]
+[trainers.KYRA.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252

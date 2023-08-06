@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Hypno"
+
+[trainers.HYPNO.0]
 raw_trainer_class = "HYPNO"
 battler_name = "Hypno"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.HYPNO.0.pokemon]]
 internal_name = "HYPNO"
 level = 100
 raw_item = "BIGROOT"
@@ -19,7 +21,7 @@ nature = "CALM"
 iv = 31
 happiness = 0
 
-[trainers.0.pokemon.evs]
+[trainers.HYPNO.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -27,155 +29,13 @@ spa = 0
 spd = 4
 spe = 252
 
-[trainers.1]
-raw_trainer_class = "HYPNO2"
-battler_name = "Hypno"
-battler_id = 1
-raw_battle_items = []
-
-[[trainers.1.pokemon]]
-internal_name = "SWOOBAT"
-level = 130
-raw_item = "WISEGLASSES"
-raw_moves = [
-    "NASTYPLOT",
-    "PSYCHIC",
-    "HEATWAVE",
-    "AIRSLASH",
-]
-ability_number = 2
-sex = ""
-nature = "TIMID"
-iv = 31
-
-[trainers.1.pokemon.evs]
-hp = 0
-atk = 4
-def_ = 0
-spa = 252
-spd = 252
-spe = 0
-
-[[trainers.1.pokemon]]
-internal_name = "GOLISOPOD"
-level = 130
-raw_item = "ASSAULTVEST"
-raw_moves = [
-    "FIRSTIMPRESSION",
-    "STRENGTH",
-    "LIQUIDATION",
-    "KNOCKOFF",
-]
-sex = ""
-nature = "ADAMANT"
-iv = 31
-
-[trainers.1.pokemon.evs]
-hp = 0
-atk = 4
-def_ = 252
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.1.pokemon]]
-internal_name = "AEGISLASH"
-level = 130
-raw_item = "LEFTOVERS"
-raw_moves = [
-    "KINGSSHIELD",
-    "SHADOWSNEAK",
-    "IRONHEAD",
-    "WIDEGUARD",
-]
-sex = ""
-nature = "ADAMANT"
-iv = 31
-
-[trainers.1.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 252
-spa = 0
-spd = 0
-spe = 4
-
-[[trainers.1.pokemon]]
-internal_name = "HYPNO"
-level = 130
-raw_item = "LUMBERRY"
-raw_moves = [
-    "DARKVOID",
-    "DREAMEATER",
-    "ANCIENTPOWER",
-    "FOULPLAY",
-]
-sex = ""
-form_number = 1
-nature = "SASSY"
-iv = 31
-
-[trainers.1.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 0
-spa = 0
-spd = 252
-spe = 4
-
-[[trainers.1.pokemon]]
-internal_name = "RHYPERIOR"
-level = 130
-raw_item = "KINGSROCK"
-raw_moves = [
-    "SMARTSTRIKE",
-    "SWORDSDANCE",
-    "ROCKSLIDE",
-    "DRILLRUN",
-]
-ability_number = 1
-sex = ""
-nature = "ADAMANT"
-iv = 31
-
-[trainers.1.pokemon.evs]
-hp = 0
-atk = 4
-def_ = 252
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.1.pokemon]]
-internal_name = "BANETTE"
-level = 130
-raw_item = "BANETTITEX"
-raw_moves = [
-    "SUCKERPUNCH",
-    "SHADOWSNEAK",
-    "DESTINYBOND",
-    "GUNKSHOT",
-]
-ability_number = 2
-sex = ""
-nature = "ADAMANT"
-iv = 31
-
-[trainers.1.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 0
-spa = 252
-spd = 0
-spe = 4
-
-[trainers.20]
+[trainers.HYPNO.20]
 raw_trainer_class = "HYPNO"
 battler_name = "Hypno"
 battler_id = 20
 raw_battle_items = []
 
-[[trainers.20.pokemon]]
+[[trainers.HYPNO.20.pokemon]]
 internal_name = "ZOROARK"
 level = 100
 raw_moves = [
@@ -189,7 +49,7 @@ nature = "TIMID"
 iv = 31
 happiness = 0
 
-[trainers.20.pokemon.evs]
+[trainers.HYPNO.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -197,7 +57,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.HYPNO.20.pokemon]]
 internal_name = "SPIRITOMB"
 level = 90
 raw_moves = [
@@ -211,7 +71,7 @@ nature = "ADAMANT"
 iv = 31
 happiness = 0
 
-[trainers.20.pokemon.evs]
+[trainers.HYPNO.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -219,7 +79,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.HYPNO.20.pokemon]]
 internal_name = "SIGILYPH"
 level = 90
 raw_moves = [
@@ -233,7 +93,7 @@ nature = "MODEST"
 iv = 31
 happiness = 0
 
-[trainers.20.pokemon.evs]
+[trainers.HYPNO.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -241,7 +101,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.HYPNO.20.pokemon]]
 internal_name = "MALAMAR"
 level = 90
 raw_item = "IRONBALL"
@@ -255,7 +115,7 @@ nature = "ADAMANT"
 iv = 31
 happiness = 0
 
-[trainers.20.pokemon.evs]
+[trainers.HYPNO.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -263,7 +123,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.HYPNO.20.pokemon]]
 internal_name = "HYPNO"
 level = 100
 raw_item = "HYPNOTITE"
@@ -280,7 +140,7 @@ iv = 31
 happiness = 0
 pokeball_type = 252
 
-[trainers.20.pokemon.evs]
+[trainers.HYPNO.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -288,7 +148,7 @@ spa = 0
 spd = 0
 spe = 252
 
-[[trainers.20.pokemon]]
+[[trainers.HYPNO.20.pokemon]]
 internal_name = "HYPNO"
 level = 100
 raw_item = "BIGROOT"
@@ -304,10 +164,152 @@ nature = "CALM"
 iv = 31
 happiness = 0
 
-[trainers.20.pokemon.evs]
+[trainers.HYPNO.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
 spa = 0
 spd = 4
 spe = 252
+
+[trainers.HYPNO2.1]
+raw_trainer_class = "HYPNO2"
+battler_name = "Hypno"
+battler_id = 1
+raw_battle_items = []
+
+[[trainers.HYPNO2.1.pokemon]]
+internal_name = "SWOOBAT"
+level = 130
+raw_item = "WISEGLASSES"
+raw_moves = [
+    "NASTYPLOT",
+    "PSYCHIC",
+    "HEATWAVE",
+    "AIRSLASH",
+]
+ability_number = 2
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.HYPNO2.1.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.HYPNO2.1.pokemon]]
+internal_name = "GOLISOPOD"
+level = 130
+raw_item = "ASSAULTVEST"
+raw_moves = [
+    "FIRSTIMPRESSION",
+    "STRENGTH",
+    "LIQUIDATION",
+    "KNOCKOFF",
+]
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.HYPNO2.1.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.HYPNO2.1.pokemon]]
+internal_name = "AEGISLASH"
+level = 130
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "KINGSSHIELD",
+    "SHADOWSNEAK",
+    "IRONHEAD",
+    "WIDEGUARD",
+]
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.HYPNO2.1.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 0
+spd = 0
+spe = 4
+
+[[trainers.HYPNO2.1.pokemon]]
+internal_name = "HYPNO"
+level = 130
+raw_item = "LUMBERRY"
+raw_moves = [
+    "DARKVOID",
+    "DREAMEATER",
+    "ANCIENTPOWER",
+    "FOULPLAY",
+]
+sex = ""
+form_number = 1
+nature = "SASSY"
+iv = 31
+
+[trainers.HYPNO2.1.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 252
+spe = 4
+
+[[trainers.HYPNO2.1.pokemon]]
+internal_name = "RHYPERIOR"
+level = 130
+raw_item = "KINGSROCK"
+raw_moves = [
+    "SMARTSTRIKE",
+    "SWORDSDANCE",
+    "ROCKSLIDE",
+    "DRILLRUN",
+]
+ability_number = 1
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.HYPNO2.1.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.HYPNO2.1.pokemon]]
+internal_name = "BANETTE"
+level = 130
+raw_item = "BANETTITEX"
+raw_moves = [
+    "SUCKERPUNCH",
+    "SHADOWSNEAK",
+    "DESTINYBOND",
+    "GUNKSHOT",
+]
+ability_number = 2
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.HYPNO2.1.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 252
+spd = 0
+spe = 4

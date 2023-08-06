@@ -1,9 +1,123 @@
-[trainers.0]
+trainer_name = "Antoine"
+
+[trainers.MeteorGrunt.0]
+raw_trainer_class = "MeteorGrunt"
+battler_name = "Antoine"
+raw_battle_items = []
+
+[[trainers.MeteorGrunt.0.pokemon]]
+internal_name = "POOCHYENA"
+level = 12
+iv = 0
+
+[trainers.MeteorGrunt.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.MeteorGrunt.1]
+raw_trainer_class = "MeteorGrunt"
+battler_name = "Antoine"
+battler_id = 1
+raw_battle_items = []
+
+[[trainers.MeteorGrunt.1.pokemon]]
+internal_name = "MIGHTYENA"
+level = 40
+iv = 0
+
+[trainers.MeteorGrunt.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.MeteorGrunt.1.pokemon]]
+internal_name = "LIEPARD"
+level = 40
+iv = 0
+
+[trainers.MeteorGrunt.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.MeteorDame.0]
+raw_trainer_class = "MeteorDame"
+battler_name = "Antoine"
+raw_battle_items = []
+
+[[trainers.MeteorDame.0.pokemon]]
+internal_name = "LURANTIS"
+level = 66
+raw_moves = [
+    "SOLARBLADE",
+    "XSCISSOR",
+    "BRICKBREAK",
+    "POISONJAB",
+]
+iv = 0
+
+[trainers.MeteorDame.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.MeteorDame.0.pokemon]]
+internal_name = "LIEPARD"
+level = 65
+raw_moves = [
+    "FAKEOUT",
+    "SWAGGER",
+    "FOULPLAY",
+    "SUBSTITUTE",
+]
+iv = 0
+
+[trainers.MeteorDame.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.MeteorDame.0.pokemon]]
+internal_name = "MIGHTYENA"
+level = 66
+raw_moves = [
+    "PLAYROUGH",
+    "SUCKERPUNCH",
+    "CRUNCH",
+    "FIREFANG",
+]
+iv = 0
+
+[trainers.MeteorDame.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.MeteorAceF.0]
 raw_trainer_class = "MeteorAceF"
 battler_name = "Antoine"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.MeteorAceF.0.pokemon]]
 internal_name = "MAMOSWINE"
 level = 71
 raw_moves = [
@@ -15,7 +129,7 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.MeteorAceF.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -23,7 +137,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.MeteorAceF.0.pokemon]]
 internal_name = "LURANTIS"
 level = 71
 raw_moves = [
@@ -35,7 +149,7 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.MeteorAceF.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -43,7 +157,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.MeteorAceF.0.pokemon]]
 internal_name = "LIEPARD"
 level = 72
 raw_moves = [
@@ -55,7 +169,7 @@ raw_moves = [
 ability_number = 2
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.MeteorAceF.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -63,7 +177,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.MeteorAceF.0.pokemon]]
 internal_name = "MIGHTYENA"
 level = 73
 raw_moves = [
@@ -74,7 +188,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.MeteorAceF.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -82,7 +196,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.MeteorAceF.0.pokemon]]
 internal_name = "TYRANITAR"
 level = 73
 raw_moves = [
@@ -93,7 +207,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.MeteorAceF.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -101,13 +215,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.1]
+[trainers.MeteorAceF.1]
 raw_trainer_class = "MeteorAceF"
 battler_name = "Antoine"
 battler_id = 1
 raw_battle_items = []
 
-[[trainers.1.pokemon]]
+[[trainers.MeteorAceF.1.pokemon]]
 internal_name = "MAMOSWINE"
 level = 86
 raw_moves = [
@@ -119,7 +233,7 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.MeteorAceF.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -127,7 +241,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.MeteorAceF.1.pokemon]]
 internal_name = "LURANTIS"
 level = 86
 raw_moves = [
@@ -139,7 +253,7 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.MeteorAceF.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -147,7 +261,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.MeteorAceF.1.pokemon]]
 internal_name = "LIEPARD"
 level = 87
 raw_moves = [
@@ -159,7 +273,7 @@ raw_moves = [
 ability_number = 2
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.MeteorAceF.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -167,7 +281,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.MeteorAceF.1.pokemon]]
 internal_name = "MIGHTYENA"
 level = 88
 raw_moves = [
@@ -178,7 +292,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.MeteorAceF.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -186,7 +300,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.MeteorAceF.1.pokemon]]
 internal_name = "TYRANITAR"
 level = 88
 raw_moves = [
@@ -197,7 +311,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.MeteorAceF.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

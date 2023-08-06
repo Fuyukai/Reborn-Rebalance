@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Meloetta"
+
+[trainers.MELOETTA.0]
 raw_trainer_class = "MELOETTA"
 battler_name = "Meloetta"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.MELOETTA.0.pokemon]]
 internal_name = "MALAMAR"
 level = 120
 raw_item = "AMPLIFIELDROCK"
@@ -17,7 +19,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.MELOETTA.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 4
@@ -25,7 +27,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.MELOETTA.0.pokemon]]
 internal_name = "ARTICUNO"
 level = 120
 raw_item = "CHOICESPECS"
@@ -39,7 +41,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.MELOETTA.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -47,7 +49,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.MELOETTA.0.pokemon]]
 internal_name = "ABOMASNOW"
 level = 120
 raw_item = "ABOMASITE"
@@ -61,7 +63,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.MELOETTA.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -69,7 +71,7 @@ spa = 252
 spd = 0
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.MELOETTA.0.pokemon]]
 internal_name = "MALAMAR"
 level = 120
 raw_item = "AMPLIFIELDROCK"
@@ -83,7 +85,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.MELOETTA.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 4
@@ -91,7 +93,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.MELOETTA.0.pokemon]]
 internal_name = "NINETALES"
 level = 120
 raw_item = "EJECTBUTTON"
@@ -107,7 +109,7 @@ form_number = 1
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.MELOETTA.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 4
@@ -115,7 +117,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.MELOETTA.0.pokemon]]
 internal_name = "MELOETTA"
 level = 120
 raw_item = "LEFTOVERS"
@@ -129,7 +131,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.MELOETTA.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252

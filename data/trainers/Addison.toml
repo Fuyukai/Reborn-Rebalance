@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Addison"
+
+[trainers.RANGERF.0]
 raw_trainer_class = "RANGERF"
 battler_name = "Addison"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.RANGERF.0.pokemon]]
 internal_name = "MAROWAK"
 level = 77
 raw_item = "THICKCLUB"
@@ -15,7 +17,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.RANGERF.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Raikou"
+
+[trainers.RAIKOU.0]
 raw_trainer_class = "RAIKOU"
 battler_name = "Raikou"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.RAIKOU.0.pokemon]]
 internal_name = "ROTOM"
 level = 103
 raw_item = "ICIUMZ2"
@@ -18,7 +20,7 @@ form_number = 3
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.RAIKOU.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -26,7 +28,7 @@ spa = 0
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.RAIKOU.0.pokemon]]
 internal_name = "FROSLASS"
 level = 103
 raw_item = "FOCUSSASH"
@@ -40,7 +42,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.RAIKOU.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -48,7 +50,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.RAIKOU.0.pokemon]]
 internal_name = "PORYGONZ"
 level = 104
 raw_item = "CHOICESPECS"
@@ -62,7 +64,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.RAIKOU.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -70,7 +72,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.RAIKOU.0.pokemon]]
 internal_name = "SANDSLASH"
 level = 104
 raw_item = "CHOICEBAND"
@@ -86,7 +88,7 @@ form_number = 1
 nature = "JOLLY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.RAIKOU.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -94,7 +96,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.RAIKOU.0.pokemon]]
 internal_name = "TOGEKISS"
 level = 105
 raw_item = "LEFTOVERS"
@@ -108,7 +110,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.RAIKOU.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -116,7 +118,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.RAIKOU.0.pokemon]]
 internal_name = "RAIKOU"
 level = 107
 raw_item = "TELLURICSEED"
@@ -130,7 +132,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.RAIKOU.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252

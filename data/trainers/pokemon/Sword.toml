@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Sword"
+
+[trainers.RUINS.0]
 raw_trainer_class = "RUINS"
 battler_name = "Sword"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.RUINS.0.pokemon]]
 internal_name = "NOIVERN"
 level = 115
 raw_item = "WHITEHERB"
@@ -18,7 +20,7 @@ sex = "F"
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.RUINS.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -26,7 +28,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.RUINS.0.pokemon]]
 internal_name = "ZOROARK"
 level = 117
 raw_item = "AIRBALLOON"
@@ -41,7 +43,7 @@ form_number = 1
 nature = "JOLLY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.RUINS.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -49,7 +51,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.RUINS.0.pokemon]]
 internal_name = "UMBREON"
 level = 115
 raw_item = "MAGICALSEED"
@@ -63,7 +65,7 @@ ability_number = 1
 nature = "RELAXED"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.RUINS.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -71,7 +73,7 @@ spa = 0
 spd = 4
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.RUINS.0.pokemon]]
 internal_name = "WEAVILE"
 level = 115
 raw_item = "FOCUSSASH"
@@ -85,7 +87,7 @@ ability_number = 1
 nature = "JOLLY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.RUINS.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -93,7 +95,7 @@ spa = 252
 spd = 0
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.RUINS.0.pokemon]]
 internal_name = "CHIENPAO"
 level = 117
 raw_item = "ICIUMZ2"
@@ -107,7 +109,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.RUINS.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252

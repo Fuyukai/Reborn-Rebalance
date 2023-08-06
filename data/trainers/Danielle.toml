@@ -1,9 +1,55 @@
-[trainers.0]
+trainer_name = "Danielle"
+
+[trainers.OrderlyF.0]
+raw_trainer_class = "OrderlyF"
+battler_name = "Danielle"
+raw_battle_items = []
+
+[[trainers.OrderlyF.0.pokemon]]
+internal_name = "PIPLUP"
+level = 33
+iv = 0
+
+[trainers.OrderlyF.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.OrderlyF.0.pokemon]]
+internal_name = "NOSEPASS"
+level = 34
+iv = 0
+
+[trainers.OrderlyF.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.OrderlyF.0.pokemon]]
+internal_name = "PRINPLUP"
+level = 35
+iv = 0
+
+[trainers.OrderlyF.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.NWOrderlyF.0]
 raw_trainer_class = "NWOrderlyF"
 battler_name = "Danielle"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.NWOrderlyF.0.pokemon]]
 internal_name = "SLOWBRO"
 level = 74
 raw_moves = [
@@ -15,7 +61,7 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.NWOrderlyF.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -23,7 +69,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.NWOrderlyF.0.pokemon]]
 internal_name = "SIGILYPH"
 level = 74
 raw_moves = [
@@ -35,7 +81,7 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.NWOrderlyF.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -43,7 +89,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.NWOrderlyF.0.pokemon]]
 internal_name = "PROBOPASS"
 level = 76
 raw_moves = [
@@ -54,7 +100,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.NWOrderlyF.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -62,7 +108,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.NWOrderlyF.0.pokemon]]
 internal_name = "EMPOLEON"
 level = 76
 raw_moves = [
@@ -74,7 +120,7 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.NWOrderlyF.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -82,7 +128,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.NWOrderlyF.0.pokemon]]
 internal_name = "KINGDRA"
 level = 75
 raw_moves = [
@@ -93,7 +139,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.NWOrderlyF.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -101,13 +147,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.1000]
+[trainers.SEER.1000]
 raw_trainer_class = "SEER"
 battler_name = "Danielle"
 battler_id = 1000
 raw_battle_items = []
 
-[[trainers.1000.pokemon]]
+[[trainers.SEER.1000.pokemon]]
 internal_name = "DEOXYS"
 level = 100
 raw_item = "SYNTHETICSEED"
@@ -122,7 +168,7 @@ form_number = 3
 nature = "TIMID"
 iv = 31
 
-[trainers.1000.pokemon.evs]
+[trainers.SEER.1000.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -130,7 +176,7 @@ spa = 252
 spd = 0
 spe = 4
 
-[[trainers.1000.pokemon]]
+[[trainers.SEER.1000.pokemon]]
 internal_name = "AEGISLASH"
 level = 100
 raw_item = "LEFTOVERS"
@@ -144,7 +190,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.1000.pokemon.evs]
+[trainers.SEER.1000.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -152,7 +198,7 @@ spa = 0
 spd = 0
 spe = 128
 
-[[trainers.1000.pokemon]]
+[[trainers.SEER.1000.pokemon]]
 internal_name = "ALAKAZAM"
 level = 100
 raw_item = "ALAKAZITE"
@@ -166,7 +212,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.1000.pokemon.evs]
+[trainers.SEER.1000.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

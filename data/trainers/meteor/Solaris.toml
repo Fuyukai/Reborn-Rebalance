@@ -1,4 +1,6 @@
-[trainers.0]
+trainer_name = "Solaris"
+
+[trainers.Solaris.0]
 raw_trainer_class = "Solaris"
 battler_name = "Solaris"
 raw_battle_items = [
@@ -6,7 +8,7 @@ raw_battle_items = [
     "FULLHEAL",
 ]
 
-[[trainers.0.pokemon]]
+[[trainers.Solaris.0.pokemon]]
 internal_name = "GARCHOMP"
 level = 75
 raw_item = "LEFTOVERS"
@@ -20,7 +22,7 @@ ability_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.Solaris.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -28,13 +30,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.1]
+[trainers.Solaris.1]
 raw_trainer_class = "Solaris"
 battler_name = "Solaris"
 battler_id = 1
 raw_battle_items = []
 
-[[trainers.1.pokemon]]
+[[trainers.Solaris.1.pokemon]]
 internal_name = "SCIZOR"
 level = 72
 raw_moves = [
@@ -47,7 +49,7 @@ ability_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.Solaris.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -55,7 +57,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.Solaris.1.pokemon]]
 internal_name = "MANDIBUZZ"
 level = 72
 raw_item = "LEFTOVERS"
@@ -70,7 +72,7 @@ sex = "F"
 nature = "BOLD"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.Solaris.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -78,7 +80,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.Solaris.1.pokemon]]
 internal_name = "GYARADOS"
 level = 73
 raw_item = "LEFTOVERS"
@@ -91,7 +93,7 @@ raw_moves = [
 nature = "ADAMANT"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.Solaris.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -99,7 +101,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.Solaris.1.pokemon]]
 internal_name = "TYRANITAR"
 level = 73
 raw_item = "SMOOTHROCK"
@@ -112,7 +114,7 @@ raw_moves = [
 nature = "ADAMANT"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.Solaris.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -120,7 +122,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.Solaris.1.pokemon]]
 internal_name = "EXCADRILL"
 level = 72
 raw_item = "LIFEORB"
@@ -133,7 +135,7 @@ raw_moves = [
 nature = "ADAMANT"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.Solaris.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -141,7 +143,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.Solaris.1.pokemon]]
 internal_name = "GARCHOMP"
 level = 76
 raw_moves = [
@@ -154,7 +156,7 @@ ability_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.Solaris.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -162,7 +164,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.2]
+[trainers.Solaris.2]
 raw_trainer_class = "Solaris"
 battler_name = "Solaris"
 battler_id = 2
@@ -170,7 +172,7 @@ raw_battle_items = [
     "FULLRESTORE",
 ]
 
-[[trainers.2.pokemon]]
+[[trainers.Solaris.2.pokemon]]
 internal_name = "STARAPTOR"
 level = 89
 raw_item = "LEFTOVERS"
@@ -185,7 +187,7 @@ nature = "ADAMANT"
 iv = 31
 happiness = 255
 
-[trainers.2.pokemon.evs]
+[trainers.Solaris.2.pokemon.evs]
 hp = 0
 atk = 156
 def_ = 100
@@ -193,7 +195,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.Solaris.2.pokemon]]
 internal_name = "SCIZOR"
 level = 88
 raw_item = "LIFEORB"
@@ -207,7 +209,7 @@ ability_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.Solaris.2.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -215,7 +217,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.2.pokemon]]
+[[trainers.Solaris.2.pokemon]]
 internal_name = "GYARADOS"
 level = 90
 raw_item = "WACANBERRY"
@@ -229,7 +231,7 @@ ability_number = 1
 nature = "JOLLY"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.Solaris.2.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -237,7 +239,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.Solaris.2.pokemon]]
 internal_name = "TYRANITAR"
 level = 89
 raw_item = "SMOOTHROCK"
@@ -250,7 +252,7 @@ raw_moves = [
 nature = "ADAMANT"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.Solaris.2.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -258,7 +260,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.2.pokemon]]
+[[trainers.Solaris.2.pokemon]]
 internal_name = "EXCADRILL"
 level = 90
 raw_item = "FOCUSSASH"
@@ -271,7 +273,7 @@ raw_moves = [
 nature = "ADAMANT"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.Solaris.2.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -279,7 +281,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.Solaris.2.pokemon]]
 internal_name = "GARCHOMP"
 level = 93
 raw_item = "GARCHOMPITE"
@@ -293,7 +295,7 @@ ability_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.Solaris.2.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -301,13 +303,13 @@ spa = 252
 spd = 252
 spe = 252
 
-[trainers.21]
+[trainers.Solaris.21]
 raw_trainer_class = "Solaris"
 battler_name = "Solaris"
 battler_id = 21
 raw_battle_items = []
 
-[[trainers.21.pokemon]]
+[[trainers.Solaris.21.pokemon]]
 internal_name = "REVAVROOM"
 level = 72
 raw_item = "FOCUSSASH"
@@ -321,7 +323,7 @@ ability_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.21.pokemon.evs]
+[trainers.Solaris.21.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -329,7 +331,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.21.pokemon]]
+[[trainers.Solaris.21.pokemon]]
 internal_name = "BOMBIRDIER"
 level = 72
 raw_item = "CHOICESCARF"
@@ -344,7 +346,7 @@ sex = "F"
 nature = "ADAMANT"
 iv = 31
 
-[trainers.21.pokemon.evs]
+[trainers.Solaris.21.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -352,7 +354,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.21.pokemon]]
+[[trainers.Solaris.21.pokemon]]
 internal_name = "BARRASKEWDA"
 level = 73
 raw_item = "LIFEORB"
@@ -365,7 +367,7 @@ raw_moves = [
 nature = "ADAMANT"
 iv = 31
 
-[trainers.21.pokemon.evs]
+[trainers.Solaris.21.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -373,7 +375,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.21.pokemon]]
+[[trainers.Solaris.21.pokemon]]
 internal_name = "TYRANITAR"
 level = 73
 raw_item = "SMOOTHROCK"
@@ -386,7 +388,7 @@ raw_moves = [
 nature = "ADAMANT"
 iv = 31
 
-[trainers.21.pokemon.evs]
+[trainers.Solaris.21.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -394,7 +396,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.21.pokemon]]
+[[trainers.Solaris.21.pokemon]]
 internal_name = "COPPERAJAH"
 level = 72
 raw_item = "ASSAULTVEST"
@@ -407,7 +409,7 @@ raw_moves = [
 nature = "ADAMANT"
 iv = 31
 
-[trainers.21.pokemon.evs]
+[trainers.Solaris.21.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -415,7 +417,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.21.pokemon]]
+[[trainers.Solaris.21.pokemon]]
 internal_name = "GARCHOMP"
 level = 76
 raw_moves = [
@@ -428,7 +430,7 @@ ability_number = 1
 nature = "BRAVE"
 iv = 31
 
-[trainers.21.pokemon.evs]
+[trainers.Solaris.21.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -436,7 +438,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.22]
+[trainers.Solaris.22]
 raw_trainer_class = "Solaris"
 battler_name = "Solaris"
 battler_id = 22
@@ -444,7 +446,7 @@ raw_battle_items = [
     "FULLRESTORE",
 ]
 
-[[trainers.22.pokemon]]
+[[trainers.Solaris.22.pokemon]]
 internal_name = "STARAPTOR"
 level = 89
 raw_item = "LEFTOVERS"
@@ -459,7 +461,7 @@ nature = "ADAMANT"
 iv = 31
 happiness = 255
 
-[trainers.22.pokemon.evs]
+[trainers.Solaris.22.pokemon.evs]
 hp = 0
 atk = 156
 def_ = 100
@@ -467,7 +469,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.22.pokemon]]
+[[trainers.Solaris.22.pokemon]]
 internal_name = "REVAVROOM"
 level = 88
 raw_item = "AIRBALLOON"
@@ -481,7 +483,7 @@ ability_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.22.pokemon.evs]
+[trainers.Solaris.22.pokemon.evs]
 hp = 0
 atk = 200
 def_ = 252
@@ -489,7 +491,7 @@ spa = 56
 spd = 0
 spe = 0
 
-[[trainers.22.pokemon]]
+[[trainers.Solaris.22.pokemon]]
 internal_name = "BARRASKEWDA"
 level = 90
 raw_item = "LIFEORB"
@@ -502,7 +504,7 @@ raw_moves = [
 nature = "JOLLY"
 iv = 31
 
-[trainers.22.pokemon.evs]
+[trainers.Solaris.22.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -510,7 +512,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.22.pokemon]]
+[[trainers.Solaris.22.pokemon]]
 internal_name = "TYRANITAR"
 level = 89
 raw_item = "SMOOTHROCK"
@@ -523,7 +525,7 @@ raw_moves = [
 nature = "ADAMANT"
 iv = 31
 
-[trainers.22.pokemon.evs]
+[trainers.Solaris.22.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -531,7 +533,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.22.pokemon]]
+[[trainers.Solaris.22.pokemon]]
 internal_name = "COPPERAJAH"
 level = 90
 raw_item = "ASSAULTVEST"
@@ -544,7 +546,7 @@ raw_moves = [
 nature = "ADAMANT"
 iv = 31
 
-[trainers.22.pokemon.evs]
+[trainers.Solaris.22.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -552,7 +554,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.22.pokemon]]
+[[trainers.Solaris.22.pokemon]]
 internal_name = "GARCHOMP"
 level = 93
 raw_item = "GARCHOMPITE"
@@ -566,7 +568,7 @@ ability_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.22.pokemon.evs]
+[trainers.Solaris.22.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252

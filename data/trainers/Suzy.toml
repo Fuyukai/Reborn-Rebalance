@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Suzy"
+
+[trainers.BEAUTY.0]
 raw_trainer_class = "BEAUTY"
 battler_name = "Suzy"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.BEAUTY.0.pokemon]]
 internal_name = "TSAREENA"
 level = 45
 raw_moves = [
@@ -17,7 +19,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.BEAUTY.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

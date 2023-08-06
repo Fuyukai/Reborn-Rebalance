@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Antics"
+
+[trainers.ANTICS.0]
 raw_trainer_class = "ANTICS"
 battler_name = "Antics"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.ANTICS.0.pokemon]]
 internal_name = "TOGEKISS"
 level = 125
 raw_item = "POWERHERB"
@@ -18,7 +20,7 @@ sex = ""
 nature = "CALM"
 iv = 20
 
-[trainers.0.pokemon.evs]
+[trainers.ANTICS.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -26,7 +28,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.ANTICS.0.pokemon]]
 internal_name = "TOGEKISS"
 level = 125
 raw_item = "KINGSROCK"
@@ -41,7 +43,7 @@ sex = ""
 nature = "CALM"
 iv = 20
 
-[trainers.0.pokemon.evs]
+[trainers.ANTICS.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -49,7 +51,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.ANTICS.0.pokemon]]
 internal_name = "TOGEKISS"
 level = 125
 raw_item = "LUMBERRY"
@@ -64,7 +66,7 @@ sex = ""
 nature = "CALM"
 iv = 20
 
-[trainers.0.pokemon.evs]
+[trainers.ANTICS.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -72,7 +74,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.ANTICS.0.pokemon]]
 internal_name = "BLISSEY"
 level = 125
 raw_item = "KINGSROCK"
@@ -87,7 +89,7 @@ sex = ""
 nature = "CALM"
 iv = 20
 
-[trainers.0.pokemon.evs]
+[trainers.ANTICS.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -95,7 +97,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.ANTICS.0.pokemon]]
 internal_name = "ELECTIVIRE"
 level = 125
 raw_item = "POWERHERB"
@@ -109,7 +111,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.ANTICS.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -117,7 +119,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.ANTICS.0.pokemon]]
 internal_name = "ALAKAZAM"
 level = 125
 raw_item = "ALAKAZITE"
@@ -130,7 +132,7 @@ sex = ""
 nature = "TIMID"
 iv = 20
 
-[trainers.0.pokemon.evs]
+[trainers.ANTICS.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252

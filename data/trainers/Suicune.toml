@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Suicune"
+
+[trainers.SUICUNE.0]
 raw_trainer_class = "SUICUNE"
 battler_name = "Suicune"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.SUICUNE.0.pokemon]]
 internal_name = "LUDICOLO"
 level = 103
 raw_item = "ELEMENTALSEED"
@@ -17,7 +19,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SUICUNE.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -25,7 +27,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.SUICUNE.0.pokemon]]
 internal_name = "ALOMOMOLA"
 level = 103
 raw_item = "ELEMENTALSEED"
@@ -40,7 +42,7 @@ sex = ""
 nature = "BOLD"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SUICUNE.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -48,7 +50,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.SUICUNE.0.pokemon]]
 internal_name = "GOODRA"
 level = 104
 raw_item = "ELEMENTALSEED"
@@ -62,7 +64,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SUICUNE.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -70,7 +72,7 @@ spa = 0
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.SUICUNE.0.pokemon]]
 internal_name = "LAPRAS"
 level = 104
 raw_item = "ELEMENTALSEED"
@@ -85,7 +87,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SUICUNE.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -93,7 +95,7 @@ spa = 4
 spd = 0
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.SUICUNE.0.pokemon]]
 internal_name = "VAPOREON"
 level = 105
 raw_item = "ELEMENTALSEED"
@@ -108,7 +110,7 @@ sex = ""
 nature = "CALM"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SUICUNE.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -116,7 +118,7 @@ spa = 4
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.SUICUNE.0.pokemon]]
 internal_name = "SUICUNE"
 level = 107
 raw_item = "ELEMENTALSEED"
@@ -130,7 +132,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SUICUNE.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252

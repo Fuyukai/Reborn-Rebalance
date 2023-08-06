@@ -1,16 +1,18 @@
-[trainers.0]
+trainer_name = "Juan"
+
+[trainers.PSYCHIC_Male.0]
 raw_trainer_class = "PSYCHIC_Male"
 battler_name = "Juan"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.PSYCHIC_Male.0.pokemon]]
 internal_name = "RAICHU"
 level = 38
 sex = ""
 form_number = 1
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.PSYCHIC_Male.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

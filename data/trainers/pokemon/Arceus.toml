@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Arceus"
+
+[trainers.ARCEUS.0]
 raw_trainer_class = "ARCEUS"
 battler_name = "Arceus"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.ARCEUS.0.pokemon]]
 internal_name = "TORNADUS"
 level = 150
 raw_item = "FOCUSSASH"
@@ -18,7 +20,7 @@ form_number = 1
 nature = "HASTY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.ARCEUS.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -26,7 +28,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.ARCEUS.0.pokemon]]
 internal_name = "HOOH"
 level = 150
 raw_item = "LEFTOVERS"
@@ -40,7 +42,7 @@ sex = ""
 nature = "CAREFUL"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.ARCEUS.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -48,7 +50,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.ARCEUS.0.pokemon]]
 internal_name = "RAYQUAZA"
 level = 150
 raw_item = "MAGICALSEED"
@@ -62,7 +64,7 @@ sex = ""
 nature = "HASTY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.ARCEUS.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -70,7 +72,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.ARCEUS.0.pokemon]]
 internal_name = "YVELTAL"
 level = 150
 raw_item = "DARKINIUMZ2"
@@ -84,7 +86,7 @@ sex = ""
 nature = "HASTY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.ARCEUS.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -92,7 +94,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.ARCEUS.0.pokemon]]
 internal_name = "CRESSELIA"
 level = 150
 raw_item = "FOCUSSASH"
@@ -105,7 +107,7 @@ raw_moves = [
 sex = ""
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.ARCEUS.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -113,7 +115,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.ARCEUS.0.pokemon]]
 internal_name = "ARCEUS"
 level = 150
 raw_item = "MAGICALSEED"
@@ -128,7 +130,7 @@ form_number = 19
 nature = "CALM"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.ARCEUS.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -136,13 +138,13 @@ spa = 252
 spd = 252
 spe = 252
 
-[trainers.1]
+[trainers.ARCEUS.1]
 raw_trainer_class = "ARCEUS"
 battler_name = "Arceus"
 battler_id = 1
 raw_battle_items = []
 
-[[trainers.1.pokemon]]
+[[trainers.ARCEUS.1.pokemon]]
 internal_name = "JIRACHI"
 level = 150
 raw_item = "LEFTOVERS"
@@ -156,7 +158,7 @@ sex = ""
 nature = "CALM"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.ARCEUS.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -164,7 +166,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.1.pokemon]]
+[[trainers.ARCEUS.1.pokemon]]
 internal_name = "DEOXYS"
 level = 150
 raw_item = "SYNTHETICSEED"
@@ -179,7 +181,7 @@ form_number = 2
 nature = "CALM"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.ARCEUS.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -187,7 +189,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.1.pokemon]]
+[[trainers.ARCEUS.1.pokemon]]
 internal_name = "KYUREM"
 level = 150
 raw_item = "LIFEORB"
@@ -202,7 +204,7 @@ form_number = 1
 nature = "RASH"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.ARCEUS.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -210,7 +212,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.1.pokemon]]
+[[trainers.ARCEUS.1.pokemon]]
 internal_name = "GROUDON"
 level = 150
 raw_item = "REDORB"
@@ -224,7 +226,7 @@ sex = ""
 nature = "RASH"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.ARCEUS.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -232,7 +234,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.1.pokemon]]
+[[trainers.ARCEUS.1.pokemon]]
 internal_name = "NECROZMA"
 level = 150
 raw_item = "ULTRANECROZIUMZ2"
@@ -247,7 +249,7 @@ form_number = 2
 nature = "RASH"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.ARCEUS.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -255,7 +257,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.1.pokemon]]
+[[trainers.ARCEUS.1.pokemon]]
 internal_name = "ARCEUS"
 level = 150
 raw_item = "SYNTHETICSEED"
@@ -270,7 +272,7 @@ form_number = 19
 nature = "CALM"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.ARCEUS.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252

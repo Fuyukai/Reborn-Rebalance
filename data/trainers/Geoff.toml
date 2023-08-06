@@ -1,9 +1,92 @@
-[trainers.0]
+trainer_name = "Geoff"
+
+[trainers.MeteorGrunt.0]
+raw_trainer_class = "MeteorGrunt"
+battler_name = "Geoff"
+raw_battle_items = []
+
+[[trainers.MeteorGrunt.0.pokemon]]
+internal_name = "DUSKULL"
+level = 11
+iv = 0
+
+[trainers.MeteorGrunt.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.MeteorGrunt.1]
+raw_trainer_class = "MeteorGrunt"
+battler_name = "Geoff"
+battler_id = 1
+raw_battle_items = []
+
+[[trainers.MeteorGrunt.1.pokemon]]
+internal_name = "LICKILICKY"
+level = 64
+raw_moves = [
+    "POWERWHIP",
+    "GYROBALL",
+    "EXPLOSION",
+    "BLIZZARD",
+]
+iv = 0
+
+[trainers.MeteorGrunt.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.MeteorGrunt.1.pokemon]]
+internal_name = "BARBARACLE"
+level = 65
+raw_moves = [
+    "SHELLSMASH",
+    "ROCKSLIDE",
+    "RAZORSHELL",
+    "NIGHTSLASH",
+]
+iv = 0
+
+[trainers.MeteorGrunt.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.MeteorGrunt.1.pokemon]]
+internal_name = "DUSCLOPS"
+level = 66
+raw_moves = [
+    "WILLOWISP",
+    "SHADOWPUNCH",
+    "REST",
+    "CONFUSERAY",
+]
+iv = 0
+
+[trainers.MeteorGrunt.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.MeteorAceM.0]
 raw_trainer_class = "MeteorAceM"
 battler_name = "Geoff"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.MeteorAceM.0.pokemon]]
 internal_name = "LICKILICKY"
 level = 71
 raw_moves = [
@@ -14,7 +97,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.MeteorAceM.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -22,7 +105,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.MeteorAceM.0.pokemon]]
 internal_name = "BARBARACLE"
 level = 71
 raw_moves = [
@@ -33,7 +116,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.MeteorAceM.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -41,7 +124,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.MeteorAceM.0.pokemon]]
 internal_name = "DUSKNOIR"
 level = 72
 raw_moves = [
@@ -52,7 +135,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.MeteorAceM.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -60,13 +143,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.1]
+[trainers.MeteorAceM.1]
 raw_trainer_class = "MeteorAceM"
 battler_name = "Geoff"
 battler_id = 1
 raw_battle_items = []
 
-[[trainers.1.pokemon]]
+[[trainers.MeteorAceM.1.pokemon]]
 internal_name = "LICKILICKY"
 level = 81
 raw_moves = [
@@ -77,7 +160,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.MeteorAceM.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -85,7 +168,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.MeteorAceM.1.pokemon]]
 internal_name = "BARBARACLE"
 level = 80
 raw_moves = [
@@ -96,7 +179,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.MeteorAceM.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -104,7 +187,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.MeteorAceM.1.pokemon]]
 internal_name = "DUSKNOIR"
 level = 80
 raw_moves = [
@@ -115,7 +198,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.MeteorAceM.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -123,7 +206,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.MeteorAceM.1.pokemon]]
 internal_name = "AGGRON"
 level = 80
 raw_moves = [
@@ -135,7 +218,7 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.MeteorAceM.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

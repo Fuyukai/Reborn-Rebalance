@@ -1,9 +1,74 @@
-[trainers.0]
+trainer_name = "Gang"
+
+[trainers.Pokemon.0]
+raw_trainer_class = "Pokemon"
+battler_name = "Gang"
+raw_battle_items = []
+
+[[trainers.Pokemon.0.pokemon]]
+internal_name = "SCRAGGY"
+level = 15
+ability_number = 2
+nature = ""
+iv = 15
+
+[trainers.Pokemon.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.Pokemon.0.pokemon]]
+internal_name = "SCRAGGY"
+level = 16
+ability_number = 1
+nature = ""
+
+[trainers.Pokemon.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.Pokemon.0.pokemon]]
+internal_name = "SCRAGGY"
+level = 17
+nature = ""
+
+[trainers.Pokemon.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.Pokemon.0.pokemon]]
+internal_name = "SCRAFTY"
+level = 20
+ability_number = 1
+sex = "F"
+nature = ""
+iv = 12
+
+[trainers.Pokemon.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.CRABRAVE.0]
 raw_trainer_class = "CRABRAVE"
 battler_name = "Gang"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.CRABRAVE.0.pokemon]]
 internal_name = "CRABOMINABLE"
 level = 85
 raw_item = "ICIUMZ2"
@@ -17,7 +82,7 @@ ability_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.CRABRAVE.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 104
@@ -25,7 +90,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.CRABRAVE.0.pokemon]]
 internal_name = "KLAWF"
 level = 83
 raw_item = "TELLURICSEED"
@@ -38,7 +103,7 @@ raw_moves = [
 nature = "CAREFUL"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.CRABRAVE.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -46,7 +111,7 @@ spa = 0
 spd = 0
 spe = 104
 
-[[trainers.0.pokemon]]
+[[trainers.CRABRAVE.0.pokemon]]
 internal_name = "KINGLER"
 level = 81
 raw_moves = [
@@ -59,7 +124,7 @@ ability_number = 2
 nature = "CAREFUL"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.CRABRAVE.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 4
@@ -67,7 +132,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.CRABRAVE.0.pokemon]]
 internal_name = "CRAWDAUNT"
 level = 82
 raw_item = "FOCUSSASH"
@@ -81,7 +146,7 @@ ability_number = 2
 nature = "JOLLY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.CRABRAVE.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 4
@@ -89,7 +154,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.CRABRAVE.0.pokemon]]
 internal_name = "CRUSTLE"
 level = 84
 raw_item = "WEAKNESSPOLICY"
@@ -102,7 +167,7 @@ raw_moves = [
 nature = "JOLLY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.CRABRAVE.0.pokemon.evs]
 hp = 0
 atk = 152
 def_ = 104
@@ -110,7 +175,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.CRABRAVE.0.pokemon]]
 internal_name = "KINGLER"
 level = 88
 raw_item = "ASSAULTVEST"
@@ -124,7 +189,7 @@ form_number = 1
 nature = "JOLLY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.CRABRAVE.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252

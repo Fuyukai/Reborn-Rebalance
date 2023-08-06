@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Karim"
+
+[trainers.HIKER.0]
 raw_trainer_class = "HIKER"
 battler_name = "Karim"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.HIKER.0.pokemon]]
 internal_name = "GOLEM"
 level = 88
 raw_item = "CUSTAPBERRY"
@@ -17,7 +19,7 @@ ability_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.HIKER.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -25,7 +27,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.HIKER.0.pokemon]]
 internal_name = "ALTARIA"
 level = 89
 raw_item = "LEFTOVERS"
@@ -39,7 +41,7 @@ sex = "F"
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.HIKER.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -47,7 +49,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.HIKER.0.pokemon]]
 internal_name = "RHYPERIOR"
 level = 90
 raw_item = "ASSAULTVEST"
@@ -61,7 +63,7 @@ ability_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.HIKER.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -69,7 +71,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.HIKER.0.pokemon]]
 internal_name = "THROH"
 level = 90
 raw_item = "LEFTOVERS"
@@ -83,7 +85,7 @@ ability_number = 2
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.HIKER.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -91,7 +93,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.HIKER.0.pokemon]]
 internal_name = "KOMMOO"
 level = 91
 raw_item = "SITRUSBERRY"
@@ -106,7 +108,7 @@ sex = "F"
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.HIKER.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

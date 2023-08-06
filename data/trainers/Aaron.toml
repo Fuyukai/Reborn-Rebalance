@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Aaron"
+
+[trainers.Clown.0]
 raw_trainer_class = "Clown"
 battler_name = "Aaron"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.Clown.0.pokemon]]
 internal_name = "SABLEYE"
 level = 64
 raw_item = "AIRBALLOON"
@@ -15,7 +17,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.Clown.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

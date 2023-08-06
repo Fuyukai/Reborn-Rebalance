@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Nathaniel"
+
+[trainers.BLACKBELT.0]
 raw_trainer_class = "BLACKBELT"
 battler_name = "Nathaniel"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.BLACKBELT.0.pokemon]]
 internal_name = "POLITOED"
 level = 75
 raw_moves = [
@@ -17,7 +19,7 @@ sex = ""
 nature = "BASHFUL"
 iv = 15
 
-[trainers.0.pokemon.evs]
+[trainers.BLACKBELT.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -25,7 +27,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.BLACKBELT.0.pokemon]]
 internal_name = "AMPHAROS"
 level = 75
 raw_moves = [
@@ -38,7 +40,7 @@ sex = ""
 nature = "QUIRKY"
 iv = 15
 
-[trainers.0.pokemon.evs]
+[trainers.BLACKBELT.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -46,7 +48,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.BLACKBELT.0.pokemon]]
 internal_name = "POLIWRATH"
 level = 75
 raw_moves = [
@@ -61,7 +63,7 @@ is_shiny = true
 nature = "SERIOUS"
 iv = 15
 
-[trainers.0.pokemon.evs]
+[trainers.BLACKBELT.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -69,7 +71,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.BLACKBELT.0.pokemon]]
 internal_name = "TOXICROAK"
 level = 75
 raw_moves = [
@@ -83,7 +85,7 @@ sex = ""
 nature = "DOCILE"
 iv = 15
 
-[trainers.0.pokemon.evs]
+[trainers.BLACKBELT.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

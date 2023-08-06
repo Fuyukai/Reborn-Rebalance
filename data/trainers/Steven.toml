@@ -1,9 +1,150 @@
-[trainers.0]
+trainer_name = "Steven"
+
+[trainers.MeteorKnight.0]
+raw_trainer_class = "MeteorKnight"
+battler_name = "Steven"
+raw_battle_items = []
+
+[[trainers.MeteorKnight.0.pokemon]]
+internal_name = "CHARJABUG"
+level = 34
+iv = 0
+
+[trainers.MeteorKnight.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.MeteorKnight.0.pokemon]]
+internal_name = "MUDSDALE"
+level = 34
+iv = 0
+
+[trainers.MeteorKnight.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.MeteorKnight.1]
+raw_trainer_class = "MeteorKnight"
+battler_name = "Steven"
+battler_id = 1
+raw_battle_items = []
+
+[[trainers.MeteorKnight.1.pokemon]]
+internal_name = "VIKAVOLT"
+level = 53
+iv = 0
+
+[trainers.MeteorKnight.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.MeteorKnight.1.pokemon]]
+internal_name = "PILOSWINE"
+level = 53
+iv = 0
+
+[trainers.MeteorKnight.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.MeteorKnight.1.pokemon]]
+internal_name = "MUDSDALE"
+level = 53
+iv = 0
+
+[trainers.MeteorKnight.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.MeteorKnight.2]
+raw_trainer_class = "MeteorKnight"
+battler_name = "Steven"
+battler_id = 2
+raw_battle_items = []
+
+[[trainers.MeteorKnight.2.pokemon]]
+internal_name = "MAMOSWINE"
+level = 66
+raw_moves = [
+    "ICICLECRASH",
+    "EARTHQUAKE",
+    "ICESHARD",
+    "ROCKSLIDE",
+]
+iv = 0
+
+[trainers.MeteorKnight.2.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.MeteorKnight.2.pokemon]]
+internal_name = "VIKAVOLT"
+level = 67
+raw_moves = [
+    "BUGBUZZ",
+    "ZAPCANNON",
+    "VOLTSWITCH",
+    "FLASHCANNON",
+]
+iv = 0
+
+[trainers.MeteorKnight.2.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.MeteorKnight.2.pokemon]]
+internal_name = "MUDSDALE"
+level = 68
+raw_moves = [
+    "SUPERPOWER",
+    "HIGHHORSEPOWER",
+    "COUNTER",
+    "ROCKSLIDE",
+]
+iv = 0
+
+[trainers.MeteorKnight.2.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.MeteorAceM.0]
 raw_trainer_class = "MeteorAceM"
 battler_name = "Steven"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.MeteorAceM.0.pokemon]]
 internal_name = "TYRANITAR"
 level = 89
 raw_item = "WEAKNESSPOLICY"
@@ -17,7 +158,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.MeteorAceM.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -25,7 +166,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.MeteorAceM.0.pokemon]]
 internal_name = "VIKAVOLT"
 level = 89
 raw_item = "CHOICESPECS"
@@ -39,7 +180,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.MeteorAceM.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -47,7 +188,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.MeteorAceM.0.pokemon]]
 internal_name = "EXCADRILL"
 level = 89
 raw_item = "CHOPLEBERRY"
@@ -61,7 +202,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.MeteorAceM.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -69,7 +210,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.MeteorAceM.0.pokemon]]
 internal_name = "MAMOSWINE"
 level = 89
 raw_item = "LIFEORB"
@@ -84,7 +225,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.MeteorAceM.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -92,7 +233,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.MeteorAceM.0.pokemon]]
 internal_name = "MUDSDALE"
 level = 90
 raw_item = "ASSAULTVEST"
@@ -107,118 +248,10 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.MeteorAceM.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
 spa = 252
 spd = 252
 spe = 252
-
-[trainers.1]
-raw_trainer_class = "MeteorKnight"
-battler_name = "Steven"
-battler_id = 1
-raw_battle_items = []
-
-[[trainers.1.pokemon]]
-internal_name = "VIKAVOLT"
-level = 53
-iv = 0
-
-[trainers.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.1.pokemon]]
-internal_name = "PILOSWINE"
-level = 53
-iv = 0
-
-[trainers.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.1.pokemon]]
-internal_name = "MUDSDALE"
-level = 53
-iv = 0
-
-[trainers.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[trainers.2]
-raw_trainer_class = "MeteorKnight"
-battler_name = "Steven"
-battler_id = 2
-raw_battle_items = []
-
-[[trainers.2.pokemon]]
-internal_name = "MAMOSWINE"
-level = 66
-raw_moves = [
-    "ICICLECRASH",
-    "EARTHQUAKE",
-    "ICESHARD",
-    "ROCKSLIDE",
-]
-iv = 0
-
-[trainers.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.2.pokemon]]
-internal_name = "VIKAVOLT"
-level = 67
-raw_moves = [
-    "BUGBUZZ",
-    "ZAPCANNON",
-    "VOLTSWITCH",
-    "FLASHCANNON",
-]
-iv = 0
-
-[trainers.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.2.pokemon]]
-internal_name = "MUDSDALE"
-level = 68
-raw_moves = [
-    "SUPERPOWER",
-    "HIGHHORSEPOWER",
-    "COUNTER",
-    "ROCKSLIDE",
-]
-iv = 0
-
-[trainers.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0

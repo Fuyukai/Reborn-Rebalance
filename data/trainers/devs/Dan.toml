@@ -1,9 +1,85 @@
-[trainers.0]
+trainer_name = "Dan"
+
+[trainers.KNIGHT.0]
+raw_trainer_class = "KNIGHT"
+battler_name = "Dan"
+raw_battle_items = []
+
+[[trainers.KNIGHT.0.pokemon]]
+internal_name = "HITMONCHAN"
+level = 87
+raw_item = "ASSAULTVEST"
+raw_moves = [
+    "SUCKERPUNCH",
+    "DRAINPUNCH",
+    "MACHPUNCH",
+    "THUNDERPUNCH",
+]
+ability_number = 1
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.KNIGHT.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 4
+
+[[trainers.KNIGHT.0.pokemon]]
+internal_name = "VAPOREON"
+level = 87
+raw_item = "CHOICESPECS"
+raw_moves = [
+    "SCALD",
+    "ICEBEAM",
+    "SHADOWBALL",
+    "SIGNALBEAM",
+]
+ability_number = 1
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.KNIGHT.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4
+
+[[trainers.KNIGHT.0.pokemon]]
+internal_name = "NOIVERN"
+level = 87
+raw_item = "ELEMENTALSEED"
+raw_moves = [
+    "BOOMBURST",
+    "DRAGONPULSE",
+    "FLAMETHROWER",
+    "ROOST",
+]
+ability_number = 1
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.KNIGHT.0.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[trainers.SPIRITM.0]
 raw_trainer_class = "SPIRITM"
 battler_name = "Dan"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.SPIRITM.0.pokemon]]
 internal_name = "ROWLET"
 level = 100
 raw_item = "METRONOME"
@@ -16,7 +92,7 @@ nature = "JOLLY"
 iv = 31
 nickname = "Grumpy"
 
-[trainers.0.pokemon.evs]
+[trainers.SPIRITM.0.pokemon.evs]
 hp = 0
 atk = 2522
 def_ = 252

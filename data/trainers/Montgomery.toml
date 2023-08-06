@@ -1,14 +1,16 @@
-[trainers.0]
+trainer_name = "Montgomery"
+
+[trainers.HIKER.0]
 raw_trainer_class = "HIKER"
 battler_name = "Montgomery"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.HIKER.0.pokemon]]
 internal_name = "TAUROS"
 level = 51
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.HIKER.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

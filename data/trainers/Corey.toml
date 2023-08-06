@@ -1,9 +1,283 @@
-[trainers.0]
+trainer_name = "Corey"
+
+[trainers.Corey.0]
+raw_trainer_class = "Corey"
+battler_name = "Corey"
+raw_battle_items = [
+    "SUPERPOTION",
+    "SUPERPOTION",
+]
+
+[[trainers.Corey.0.pokemon]]
+internal_name = "SKRELP"
+level = 26
+raw_item = "FOCUSSASH"
+raw_moves = [
+    "ACID",
+    "TOXICSPIKES",
+    "WATERPULSE",
+    "VENOMDRENCH",
+]
+ability_number = 2
+nature = "MODEST"
+
+[trainers.Corey.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.Corey.0.pokemon]]
+internal_name = "MAREANIE"
+level = 26
+raw_item = "TELLURICSEED"
+raw_moves = [
+    "PECK",
+    "BITE",
+    "VENOSHOCK",
+    "TOXIC",
+]
+sex = "F"
+nature = "SASSY"
+iv = 20
+
+[trainers.Corey.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.Corey.0.pokemon]]
+internal_name = "NIDORINA"
+level = 27
+raw_moves = [
+    "DOUBLEKICK",
+    "VENOMDRENCH",
+    "BITE",
+    "DISABLE",
+]
+ability_number = 2
+sex = "F"
+nature = "IMPISH"
+iv = 20
+
+[trainers.Corey.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.Corey.0.pokemon]]
+internal_name = "CROAGUNK"
+level = 27
+raw_item = "BLACKGLASSES"
+raw_moves = [
+    "SUCKERPUNCH",
+    "DRAINPUNCH",
+    "VENOSHOCK",
+    "MUDBOMB",
+]
+ability_number = 1
+nature = "BASHFUL"
+
+[trainers.Corey.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.Corey.0.pokemon]]
+internal_name = "SKUNTANK"
+level = 27
+raw_moves = [
+    "PURSUIT",
+    "INCINERATE",
+    "SMOKESCREEN",
+    "ACIDSPRAY",
+]
+ability_number = 1
+nature = "CAREFUL"
+iv = 15
+
+[trainers.Corey.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.Corey.0.pokemon]]
+internal_name = "CROBAT"
+level = 30
+raw_moves = [
+    "VENOMDRENCH",
+    "VENOSHOCK",
+    "AIRCUTTER",
+    "ROOST",
+]
+ability_number = 1
+nature = "TIMID"
+iv = 20
+happiness = 255
+
+[trainers.Corey.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.Corey.20]
+raw_trainer_class = "Corey"
+battler_name = "Corey"
+battler_id = 20
+raw_battle_items = [
+    "SUPERPOTION",
+    "SUPERPOTION",
+]
+
+[[trainers.Corey.20.pokemon]]
+internal_name = "GLIMMET"
+level = 26
+raw_item = "FOCUSSASH"
+raw_moves = [
+    "STEALTHROCK",
+    "VENOSHOCK",
+    "SELFDESTRUCT",
+    "VENOMDRENCH",
+]
+nature = "MODEST"
+
+[trainers.Corey.20.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.Corey.20.pokemon]]
+internal_name = "MAREANIE"
+level = 26
+raw_item = "TELLURICSEED"
+raw_moves = [
+    "PECK",
+    "BITE",
+    "VENOSHOCK",
+    "TOXIC",
+]
+sex = "F"
+nature = "SASSY"
+iv = 20
+
+[trainers.Corey.20.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.Corey.20.pokemon]]
+internal_name = "VAROOM"
+level = 27
+raw_moves = [
+    "GYROBALL",
+    "ACIDSPRAY",
+    "TORMENT",
+    "ASSURANCE",
+]
+nature = "IMPISH"
+iv = 20
+
+[trainers.Corey.20.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.Corey.20.pokemon]]
+internal_name = "CROAGUNK"
+level = 27
+raw_item = "BLACKGLASSES"
+raw_moves = [
+    "SUCKERPUNCH",
+    "DRAINPUNCH",
+    "VENOSHOCK",
+    "MUDBOMB",
+]
+ability_number = 1
+nature = "BASHFUL"
+
+[trainers.Corey.20.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.Corey.20.pokemon]]
+internal_name = "OVERQWIL"
+level = 27
+raw_moves = [
+    "POISONTAIL",
+    "PINMISSILE",
+    "MUDSHOT",
+    "AQUAJET",
+]
+ability_number = 2
+nature = "MODEST"
+iv = 15
+
+[trainers.Corey.20.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.Corey.20.pokemon]]
+internal_name = "CROBAT"
+level = 30
+raw_moves = [
+    "VENOMDRENCH",
+    "VENOSHOCK",
+    "AIRCUTTER",
+    "ROOST",
+]
+ability_number = 1
+nature = "TIMID"
+iv = 20
+happiness = 255
+
+[trainers.Corey.20.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.UMBCOREY.0]
 raw_trainer_class = "UMBCOREY"
 battler_name = "Corey"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.UMBCOREY.0.pokemon]]
 internal_name = "NIDOQUEEN"
 level = 130
 raw_item = "LIFEORB"
@@ -18,7 +292,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.UMBCOREY.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -26,7 +300,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.UMBCOREY.0.pokemon]]
 internal_name = "CROBAT"
 level = 130
 raw_item = "MUSCLEBAND"
@@ -41,7 +315,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.UMBCOREY.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -49,7 +323,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.UMBCOREY.0.pokemon]]
 internal_name = "TOXAPEX"
 level = 130
 raw_item = "BLACKSLUDGE"
@@ -63,7 +337,7 @@ sex = ""
 nature = "BOLD"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.UMBCOREY.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -71,7 +345,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.UMBCOREY.0.pokemon]]
 internal_name = "DRAGALGE"
 level = 130
 raw_item = "DRAGONIUMZ2"
@@ -86,7 +360,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.UMBCOREY.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -94,7 +368,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.UMBCOREY.0.pokemon]]
 internal_name = "SKUNTANK"
 level = 130
 raw_item = "LIFEORB"
@@ -109,7 +383,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.UMBCOREY.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -117,7 +391,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.UMBCOREY.0.pokemon]]
 internal_name = "TOXICROAK"
 level = 130
 raw_item = "LIFEORB"
@@ -132,145 +406,10 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.UMBCOREY.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
 spa = 252
 spd = 252
 spe = 252
-
-[trainers.20]
-raw_trainer_class = "Corey"
-battler_name = "Corey"
-battler_id = 20
-raw_battle_items = [
-    "SUPERPOTION",
-    "SUPERPOTION",
-]
-
-[[trainers.20.pokemon]]
-internal_name = "GLIMMET"
-level = 26
-raw_item = "FOCUSSASH"
-raw_moves = [
-    "STEALTHROCK",
-    "VENOSHOCK",
-    "SELFDESTRUCT",
-    "VENOMDRENCH",
-]
-nature = "MODEST"
-
-[trainers.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.20.pokemon]]
-internal_name = "MAREANIE"
-level = 26
-raw_item = "TELLURICSEED"
-raw_moves = [
-    "PECK",
-    "BITE",
-    "VENOSHOCK",
-    "TOXIC",
-]
-sex = "F"
-nature = "SASSY"
-iv = 20
-
-[trainers.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.20.pokemon]]
-internal_name = "VAROOM"
-level = 27
-raw_moves = [
-    "GYROBALL",
-    "ACIDSPRAY",
-    "TORMENT",
-    "ASSURANCE",
-]
-nature = "IMPISH"
-iv = 20
-
-[trainers.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.20.pokemon]]
-internal_name = "CROAGUNK"
-level = 27
-raw_item = "BLACKGLASSES"
-raw_moves = [
-    "SUCKERPUNCH",
-    "DRAINPUNCH",
-    "VENOSHOCK",
-    "MUDBOMB",
-]
-ability_number = 1
-nature = "BASHFUL"
-
-[trainers.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.20.pokemon]]
-internal_name = "OVERQWIL"
-level = 27
-raw_moves = [
-    "POISONTAIL",
-    "PINMISSILE",
-    "MUDSHOT",
-    "AQUAJET",
-]
-ability_number = 2
-nature = "MODEST"
-iv = 15
-
-[trainers.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.20.pokemon]]
-internal_name = "CROBAT"
-level = 30
-raw_moves = [
-    "VENOMDRENCH",
-    "VENOSHOCK",
-    "AIRCUTTER",
-    "ROOST",
-]
-ability_number = 1
-nature = "TIMID"
-iv = 20
-happiness = 255
-
-[trainers.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0

@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Zekrom"
+
+[trainers.ZEKROM.0]
 raw_trainer_class = "ZEKROM"
 battler_name = "Zekrom"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.ZEKROM.0.pokemon]]
 internal_name = "NINETALES"
 level = 133
 raw_item = "LIGHTCLAY"
@@ -19,7 +21,7 @@ form_number = 1
 nature = "TIMID"
 iv = 3
 
-[trainers.0.pokemon.evs]
+[trainers.ZEKROM.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -27,7 +29,7 @@ spa = 252
 spd = 4
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.ZEKROM.0.pokemon]]
 internal_name = "KANGASKHAN"
 level = 132
 raw_item = "KANGASKHANITE"
@@ -42,7 +44,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 3
 
-[trainers.0.pokemon.evs]
+[trainers.ZEKROM.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -50,7 +52,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.ZEKROM.0.pokemon]]
 internal_name = "GOLEM"
 level = 133
 raw_item = "CUSTAPBERRY"
@@ -65,7 +67,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 3
 
-[trainers.0.pokemon.evs]
+[trainers.ZEKROM.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -73,7 +75,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.ZEKROM.0.pokemon]]
 internal_name = "MIMIKYU"
 level = 133
 raw_item = "LIFEORB"
@@ -87,7 +89,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 3
 
-[trainers.0.pokemon.evs]
+[trainers.ZEKROM.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -95,7 +97,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.ZEKROM.0.pokemon]]
 internal_name = "LYCANROC"
 level = 133
 raw_item = "LYCANIUMZ2"
@@ -111,7 +113,7 @@ form_number = 2
 nature = "ADAMANT"
 iv = 3
 
-[trainers.0.pokemon.evs]
+[trainers.ZEKROM.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -119,7 +121,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.ZEKROM.0.pokemon]]
 internal_name = "ZEKROM"
 level = 135
 raw_item = "LIFEORB"
@@ -133,7 +135,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 3
 
-[trainers.0.pokemon.evs]
+[trainers.ZEKROM.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252

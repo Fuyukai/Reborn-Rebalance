@@ -1,149 +1,153 @@
-[trainers.0]
-raw_trainer_class = "ANAMSHADE"
+trainer_name = "Shade"
+
+[trainers.SHADE.0]
+raw_trainer_class = "SHADE"
 battler_name = "Shade"
-raw_battle_items = []
-
-[[trainers.0.pokemon]]
-internal_name = "LUGIA"
-level = 150
-raw_item = "ASSAULTVEST"
-raw_moves = [
-    "BLIZZARD",
-    "PSYSHOCK",
-    "GIGADRAIN",
-    "SURF",
+raw_battle_items = [
+    "HYPERPOTION",
+    "HYPERPOTION",
 ]
-ability_number = 1
-sex = ""
-nature = "CALM"
-iv = 31
 
-[trainers.0.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 252
-spa = 252
-spd = 252
-spe = 252
-
-[[trainers.0.pokemon]]
-internal_name = "ARTICUNO"
-level = 150
-raw_item = "ASSAULTVEST"
+[[trainers.SHADE.0.pokemon]]
+internal_name = "GENGAR"
+level = 35
+raw_item = "WIDELENS"
 raw_moves = [
-    "BLIZZARD",
-    "BUBBLEBEAM",
-    "EXTRASENSORY",
-    "HIDDENPOWERFIR",
-]
-ability_number = 1
-sex = ""
-nature = "CALM"
-iv = 31
-
-[trainers.0.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 252
-spa = 252
-spd = 252
-spe = 252
-
-[[trainers.0.pokemon]]
-internal_name = "GIRATINA"
-level = 150
-raw_item = "ASSAULTVEST"
-raw_moves = [
-    "DRACOMETEOR",
-    "PSYCHIC",
-    "SHADOWSNEAK",
-    "AQUATAIL",
-]
-sex = ""
-nature = "CAREFUL"
-iv = 31
-
-[trainers.0.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 252
-spa = 252
-spd = 252
-spe = 252
-
-[[trainers.0.pokemon]]
-internal_name = "MIMIKYU"
-level = 150
-raw_item = "ASSAULTVEST"
-raw_moves = [
-    "SHADOWSNEAK",
-    "GIGADRAIN",
-    "PSYCHIC",
+    "HYPNOSIS",
+    "DREAMEATER",
+    "SHADOWBALL",
     "THUNDERBOLT",
 ]
-sex = ""
-nature = "CAREFUL"
+nature = "BASHFUL"
 iv = 31
+happiness = 0
+nickname = "Corey"
 
-[trainers.0.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 252
-spa = 252
-spd = 252
-spe = 252
+[trainers.SHADE.0.pokemon.evs]
+hp = 12
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
 
-[[trainers.0.pokemon]]
-internal_name = "GENGAR"
-level = 150
-raw_item = "GENGARITE"
+[[trainers.SHADE.0.pokemon]]
+internal_name = "DHELMISE"
+level = 35
+raw_item = "LUMBERRY"
 raw_moves = [
+    "BRICKBREAK",
     "GIGADRAIN",
-    "ICEPUNCH",
-    "FIREPUNCH",
-    "PSYCHIC",
+    "ANCHORSHOT",
+    "SHADOWCLAW",
+]
+nature = "BRAVE"
+iv = 25
+
+[trainers.SHADE.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.SHADE.0.pokemon]]
+internal_name = "ROTOM"
+level = 37
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "PAINSPLIT",
+    "CONFUSERAY",
+    "SHADOWBALL",
+    "DISCHARGE",
 ]
 sex = ""
-nature = "TIMID"
-iv = 31
+nature = "BOLD"
+iv = 25
 
-[trainers.0.pokemon.evs]
+[trainers.SHADE.0.pokemon.evs]
 hp = 0
-atk = 252
-def_ = 252
-spa = 252
-spd = 252
-spe = 252
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
 
-[[trainers.0.pokemon]]
-internal_name = "AEGISLASH"
-level = 150
+[[trainers.SHADE.0.pokemon]]
+internal_name = "BANETTE"
+level = 36
 raw_item = "SYNTHETICSEED"
 raw_moves = [
-    "SACREDSWORD",
-    "KINGSSHIELD",
-    "SWORDSDANCE",
-    "GIGAIMPACT",
+    "SHADOWCLAW",
+    "KNOCKOFF",
+    "DAZZLINGGLEAM",
+    "DESTINYBOND",
 ]
-sex = ""
-nature = "ADAMANT"
+ability_number = 2
+sex = "F"
+nature = "BASHFUL"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SHADE.0.pokemon.evs]
 hp = 0
-atk = 252
-def_ = 252
-spa = 252
-spd = 252
-spe = 252
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
 
-[trainers.10]
+[[trainers.SHADE.0.pokemon]]
+internal_name = "DOUBLADE"
+level = 37
+raw_item = "SYNTHETICSEED"
+raw_moves = [
+    "GYROBALL",
+    "SHADOWCLAW",
+    "BRICKBREAK",
+    "SWORDSDANCE",
+]
+nature = "BRAVE"
+iv = 32
+
+[trainers.SHADE.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.SHADE.0.pokemon]]
+internal_name = "MIMIKYU"
+level = 38
+raw_item = "SITRUSBERRY"
+raw_moves = [
+    "THUNDERBOLT",
+    "SWORDSDANCE",
+    "SHADOWCLAW",
+    "PLAYROUGH",
+]
+sex = "F"
+is_shiny = true
+nature = "JOLLY"
+iv = 31
+
+[trainers.SHADE.0.pokemon.evs]
+hp = 12
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.SHADE.10]
 raw_trainer_class = "SHADE"
 battler_name = "Shade"
 battler_id = 10
 raw_battle_items = []
 
-[[trainers.10.pokemon]]
+[[trainers.SHADE.10.pokemon]]
 internal_name = "NECROZMA"
 level = 100
 raw_item = "LUNALIUMZ2"
@@ -159,7 +163,7 @@ is_shiny = true
 nature = "MODEST"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.SHADE.10.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -167,7 +171,7 @@ spa = 0
 spd = 252
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.SHADE.10.pokemon]]
 internal_name = "GENGAR"
 level = 100
 raw_item = "GENGARITE"
@@ -181,7 +185,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.SHADE.10.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -189,7 +193,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.SHADE.10.pokemon]]
 internal_name = "CHANDELURE"
 level = 100
 raw_item = "CHOICESPECS"
@@ -203,7 +207,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.SHADE.10.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -211,7 +215,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.SHADE.10.pokemon]]
 internal_name = "MIMIKYU"
 level = 100
 raw_item = "LIFEORB"
@@ -226,7 +230,7 @@ is_shiny = true
 nature = "ADAMANT"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.SHADE.10.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -234,7 +238,7 @@ spa = 0
 spd = 4
 spe = 252
 
-[[trainers.10.pokemon]]
+[[trainers.SHADE.10.pokemon]]
 internal_name = "MISMAGIUS"
 level = 100
 raw_item = "LIFEORB"
@@ -248,7 +252,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.SHADE.10.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -256,7 +260,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.SHADE.10.pokemon]]
 internal_name = "AEGISLASH"
 level = 100
 raw_item = "LEFTOVERS"
@@ -270,7 +274,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.SHADE.10.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -278,13 +282,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.11]
+[trainers.SHADE.11]
 raw_trainer_class = "SHADE"
 battler_name = "Shade"
 battler_id = 11
 raw_battle_items = []
 
-[[trainers.11.pokemon]]
+[[trainers.SHADE.11.pokemon]]
 internal_name = "NECROZMA"
 level = 100
 raw_item = "LUNALIUMZ2"
@@ -300,7 +304,7 @@ is_shiny = true
 nature = "MODEST"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.SHADE.11.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -308,7 +312,7 @@ spa = 0
 spd = 252
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.SHADE.11.pokemon]]
 internal_name = "GENGAR"
 level = 100
 raw_item = "GENGARITE"
@@ -322,7 +326,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.SHADE.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -330,7 +334,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.SHADE.11.pokemon]]
 internal_name = "GIRATINA"
 level = 100
 raw_item = "GRISEOUSORB"
@@ -345,7 +349,7 @@ form_number = 1
 nature = "MODEST"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.SHADE.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -353,7 +357,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.SHADE.11.pokemon]]
 internal_name = "MIMIKYU"
 level = 100
 raw_item = "LIFEORB"
@@ -368,7 +372,7 @@ is_shiny = true
 nature = "ADAMANT"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.SHADE.11.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -376,7 +380,7 @@ spa = 0
 spd = 4
 spe = 252
 
-[[trainers.11.pokemon]]
+[[trainers.SHADE.11.pokemon]]
 internal_name = "MARSHADOW"
 level = 100
 raw_item = "FOCUSSASH"
@@ -391,7 +395,7 @@ is_shiny = true
 nature = "ADAMANT"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.SHADE.11.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 4
@@ -399,7 +403,7 @@ spa = 0
 spd = 0
 spe = 252
 
-[[trainers.11.pokemon]]
+[[trainers.SHADE.11.pokemon]]
 internal_name = "AEGISLASH"
 level = 100
 raw_item = "LEFTOVERS"
@@ -413,7 +417,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.SHADE.11.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -421,13 +425,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.12]
+[trainers.SHADE.12]
 raw_trainer_class = "SHADE"
 battler_name = "Shade"
 battler_id = 12
 raw_battle_items = []
 
-[[trainers.12.pokemon]]
+[[trainers.SHADE.12.pokemon]]
 internal_name = "DECIDUEYE"
 level = 100
 raw_item = "DECIDIUMZ2"
@@ -442,7 +446,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.SHADE.12.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -450,7 +454,7 @@ spa = 252
 spd = 0
 spe = 4
 
-[[trainers.12.pokemon]]
+[[trainers.SHADE.12.pokemon]]
 internal_name = "DHELMISE"
 level = 100
 raw_item = "IAPAPABERRY"
@@ -465,7 +469,7 @@ nature = "ADAMANT"
 iv = 31
 happiness = 255
 
-[trainers.12.pokemon.evs]
+[trainers.SHADE.12.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -473,7 +477,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.SHADE.12.pokemon]]
 internal_name = "TREVENANT"
 level = 100
 raw_item = "ELEMENTALSEED"
@@ -489,7 +493,7 @@ nature = "ADAMANT"
 iv = 31
 happiness = 255
 
-[trainers.12.pokemon.evs]
+[trainers.SHADE.12.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -497,7 +501,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.SHADE.12.pokemon]]
 internal_name = "MAROWAK"
 level = 100
 raw_item = "THICKCLUB"
@@ -514,7 +518,7 @@ nature = "ADAMANT"
 iv = 31
 happiness = 255
 
-[trainers.12.pokemon.evs]
+[trainers.SHADE.12.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -522,7 +526,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.SHADE.12.pokemon]]
 internal_name = "CHANDELURE"
 level = 100
 raw_item = "CHOICESCARF"
@@ -536,7 +540,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.SHADE.12.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -544,7 +548,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.SHADE.12.pokemon]]
 internal_name = "BLACEPHALON"
 level = 100
 raw_item = "CHOICESPECS"
@@ -558,7 +562,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.SHADE.12.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -566,13 +570,13 @@ spa = 252
 spd = 252
 spe = 0
 
-[trainers.13]
+[trainers.SHADE.13]
 raw_trainer_class = "SHADE"
 battler_name = "Shade"
 battler_id = 13
 raw_battle_items = []
 
-[[trainers.13.pokemon]]
+[[trainers.SHADE.13.pokemon]]
 internal_name = "FROSLASS"
 level = 100
 raw_item = "FOCUSSASH"
@@ -586,7 +590,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.SHADE.13.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -594,7 +598,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.13.pokemon]]
+[[trainers.SHADE.13.pokemon]]
 internal_name = "MIMIKYU"
 level = 100
 raw_item = "LIFEORB"
@@ -610,7 +614,7 @@ nature = "ADAMANT"
 iv = 31
 happiness = 255
 
-[trainers.13.pokemon.evs]
+[trainers.SHADE.13.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -618,7 +622,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.13.pokemon]]
+[[trainers.SHADE.13.pokemon]]
 internal_name = "GIRATINA"
 level = 100
 raw_item = "GRISEOUSORB"
@@ -632,7 +636,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.SHADE.13.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -640,7 +644,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.13.pokemon]]
+[[trainers.SHADE.13.pokemon]]
 internal_name = "AEGISLASH"
 level = 100
 raw_item = "WEAKNESSPOLICY"
@@ -655,7 +659,7 @@ nature = "ADAMANT"
 iv = 31
 happiness = 255
 
-[trainers.13.pokemon.evs]
+[trainers.SHADE.13.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -663,7 +667,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.13.pokemon]]
+[[trainers.SHADE.13.pokemon]]
 internal_name = "LUNALA"
 level = 100
 raw_item = "LUNALIUMZ2"
@@ -677,7 +681,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.SHADE.13.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -685,7 +689,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.13.pokemon]]
+[[trainers.SHADE.13.pokemon]]
 internal_name = "TREVENANT"
 level = 100
 raw_item = "IAPAPABERRY"
@@ -701,7 +705,7 @@ nature = "ADAMANT"
 iv = 31
 happiness = 255
 
-[trainers.13.pokemon.evs]
+[trainers.SHADE.13.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -709,7 +713,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.20]
+[trainers.SHADE.20]
 raw_trainer_class = "SHADE"
 battler_name = "Shade"
 battler_id = 20
@@ -718,7 +722,7 @@ raw_battle_items = [
     "HYPERPOTION",
 ]
 
-[[trainers.20.pokemon]]
+[[trainers.SHADE.20.pokemon]]
 internal_name = "CORSOLA"
 level = 35
 raw_item = "EVIOLITE"
@@ -734,7 +738,7 @@ form_number = 1
 nature = "BOLD"
 iv = 25
 
-[trainers.20.pokemon.evs]
+[trainers.SHADE.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -742,7 +746,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.SHADE.20.pokemon]]
 internal_name = "RUNERIGUS"
 level = 35
 raw_item = "LUMBERRY"
@@ -755,7 +759,7 @@ raw_moves = [
 nature = "BRAVE"
 iv = 25
 
-[trainers.20.pokemon.evs]
+[trainers.SHADE.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -763,7 +767,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.SHADE.20.pokemon]]
 internal_name = "HOUNDSTONE"
 level = 35
 raw_item = "LEFTOVERS"
@@ -778,7 +782,7 @@ nature = "SASSY"
 iv = 25
 happiness = 0
 
-[trainers.20.pokemon.evs]
+[trainers.SHADE.20.pokemon.evs]
 hp = 12
 atk = 0
 def_ = 0
@@ -786,7 +790,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.SHADE.20.pokemon]]
 internal_name = "TYPHLOSION"
 level = 37
 raw_item = "SYNTHETICSEED"
@@ -801,7 +805,7 @@ form_number = 1
 nature = "QUIET"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.SHADE.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -809,7 +813,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.SHADE.20.pokemon]]
 internal_name = "GENGAR"
 level = 36
 raw_item = "GENGARITEG"
@@ -824,7 +828,7 @@ iv = 25
 happiness = 0
 nickname = "Corey"
 
-[trainers.20.pokemon.evs]
+[trainers.SHADE.20.pokemon.evs]
 hp = 12
 atk = 0
 def_ = 0
@@ -832,7 +836,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.SHADE.20.pokemon]]
 internal_name = "MIMIKYU"
 level = 38
 raw_item = "SITRUSBERRY"
@@ -847,10 +851,149 @@ is_shiny = true
 nature = "JOLLY"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.SHADE.20.pokemon.evs]
 hp = 12
 atk = 0
 def_ = 0
 spa = 0
 spd = 0
 spe = 0
+
+[trainers.ANAMSHADE.0]
+raw_trainer_class = "ANAMSHADE"
+battler_name = "Shade"
+raw_battle_items = []
+
+[[trainers.ANAMSHADE.0.pokemon]]
+internal_name = "LUGIA"
+level = 150
+raw_item = "ASSAULTVEST"
+raw_moves = [
+    "BLIZZARD",
+    "PSYSHOCK",
+    "GIGADRAIN",
+    "SURF",
+]
+ability_number = 1
+sex = ""
+nature = "CALM"
+iv = 31
+
+[trainers.ANAMSHADE.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.ANAMSHADE.0.pokemon]]
+internal_name = "ARTICUNO"
+level = 150
+raw_item = "ASSAULTVEST"
+raw_moves = [
+    "BLIZZARD",
+    "BUBBLEBEAM",
+    "EXTRASENSORY",
+    "HIDDENPOWERFIR",
+]
+ability_number = 1
+sex = ""
+nature = "CALM"
+iv = 31
+
+[trainers.ANAMSHADE.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.ANAMSHADE.0.pokemon]]
+internal_name = "GIRATINA"
+level = 150
+raw_item = "ASSAULTVEST"
+raw_moves = [
+    "DRACOMETEOR",
+    "PSYCHIC",
+    "SHADOWSNEAK",
+    "AQUATAIL",
+]
+sex = ""
+nature = "CAREFUL"
+iv = 31
+
+[trainers.ANAMSHADE.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.ANAMSHADE.0.pokemon]]
+internal_name = "MIMIKYU"
+level = 150
+raw_item = "ASSAULTVEST"
+raw_moves = [
+    "SHADOWSNEAK",
+    "GIGADRAIN",
+    "PSYCHIC",
+    "THUNDERBOLT",
+]
+sex = ""
+nature = "CAREFUL"
+iv = 31
+
+[trainers.ANAMSHADE.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.ANAMSHADE.0.pokemon]]
+internal_name = "GENGAR"
+level = 150
+raw_item = "GENGARITE"
+raw_moves = [
+    "GIGADRAIN",
+    "ICEPUNCH",
+    "FIREPUNCH",
+    "PSYCHIC",
+]
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.ANAMSHADE.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.ANAMSHADE.0.pokemon]]
+internal_name = "AEGISLASH"
+level = 150
+raw_item = "SYNTHETICSEED"
+raw_moves = [
+    "SACREDSWORD",
+    "KINGSSHIELD",
+    "SWORDSDANCE",
+    "GIGAIMPACT",
+]
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.ANAMSHADE.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252

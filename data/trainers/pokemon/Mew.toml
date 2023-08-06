@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Mew"
+
+[trainers.MEW.0]
 raw_trainer_class = "MEW"
 battler_name = "Mew"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.MEW.0.pokemon]]
 internal_name = "TERRAKION"
 level = 145
 raw_item = "LEFTOVERS"
@@ -17,7 +19,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.MEW.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 4
@@ -25,7 +27,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.MEW.0.pokemon]]
 internal_name = "KELDEO"
 level = 145
 raw_item = "LIFEORB"
@@ -39,7 +41,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.MEW.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -47,7 +49,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.MEW.0.pokemon]]
 internal_name = "NECROZMA"
 level = 145
 raw_item = "MAGICALSEED"
@@ -62,7 +64,7 @@ form_number = 2
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.MEW.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -70,7 +72,7 @@ spa = 4
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.MEW.0.pokemon]]
 internal_name = "MELOETTA"
 level = 145
 raw_item = "MAGICALSEED"
@@ -84,7 +86,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.MEW.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -92,7 +94,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.MEW.0.pokemon]]
 internal_name = "MEW"
 level = 145
 raw_item = "MEWNIUMZ2"
@@ -106,7 +108,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.MEW.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -114,7 +116,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.MEW.0.pokemon]]
 internal_name = "MEWTWO"
 level = 145
 raw_item = "MEWTWONITEX"
@@ -128,7 +130,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.MEW.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252

@@ -60,7 +60,7 @@ from reborn_rebalance.pbs.serialisation import (
     save_trainers_to_toml,
 )
 from reborn_rebalance.pbs.tm import TechnicalMachine, tm_number_for
-from reborn_rebalance.pbs.trainer import Trainer, TrainerType
+from reborn_rebalance.pbs.trainer import TrainerCatalog, TrainerType
 
 LoadWithPrintT = TypeVar("LoadWithPrintT")
 
@@ -153,7 +153,7 @@ class EssentialsCatalog:
     trainer_types: dict[int, TrainerType] = attr.ib()
 
     #: The mapping of trainer name -> list of trainers.
-    trainers: dict[str, list[Trainer]] = attr.ib()
+    trainers: dict[str, TrainerCatalog] = attr.ib()
 
     @cached_property
     def species_mapping(self) -> Mapping[str, PokemonSpecies]:

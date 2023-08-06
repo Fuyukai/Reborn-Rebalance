@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Diancie"
+
+[trainers.DIANCIE.0]
 raw_trainer_class = "DIANCIE"
 battler_name = "Diancie"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.DIANCIE.0.pokemon]]
 internal_name = "DIANCIE"
 level = 125
 raw_item = "DIANCITE"
@@ -17,7 +19,7 @@ sex = ""
 nature = "SERIOUS"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.DIANCIE.0.pokemon.evs]
 hp = 0
 atk = 852
 def_ = 252

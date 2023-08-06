@@ -1,14 +1,47 @@
-[trainers.0]
+trainer_name = "Gretchen"
+
+[trainers.MeteorGrunt_090.0]
+raw_trainer_class = "MeteorGrunt_090"
+battler_name = "Gretchen"
+raw_battle_items = []
+
+[[trainers.MeteorGrunt_090.0.pokemon]]
+internal_name = "SKITTY"
+level = 20
+iv = 0
+
+[trainers.MeteorGrunt_090.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.MeteorGrunt_090.0.pokemon]]
+internal_name = "HELIOPTILE"
+level = 21
+iv = 0
+
+[trainers.MeteorGrunt_090.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.MeteorDame.0]
 raw_trainer_class = "MeteorDame"
 battler_name = "Gretchen"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.MeteorDame.0.pokemon]]
 internal_name = "DELCATTY"
 level = 40
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.MeteorDame.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -16,12 +49,12 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.MeteorDame.0.pokemon]]
 internal_name = "LUNATONE"
 level = 40
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.MeteorDame.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -29,12 +62,12 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.MeteorDame.0.pokemon]]
 internal_name = "HELIOLISK"
 level = 41
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.MeteorDame.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -42,18 +75,18 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.1]
+[trainers.MeteorDame.1]
 raw_trainer_class = "MeteorDame"
 battler_name = "Gretchen"
 battler_id = 1
 raw_battle_items = []
 
-[[trainers.1.pokemon]]
+[[trainers.MeteorDame.1.pokemon]]
 internal_name = "DELCATTY"
 level = 48
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.MeteorDame.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -61,12 +94,12 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.MeteorDame.1.pokemon]]
 internal_name = "LUNATONE"
 level = 49
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.MeteorDame.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -74,12 +107,12 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.MeteorDame.1.pokemon]]
 internal_name = "HELIOLISK"
 level = 49
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.MeteorDame.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -87,13 +120,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.2]
+[trainers.MeteorDame.2]
 raw_trainer_class = "MeteorDame"
 battler_name = "Gretchen"
 battler_id = 2
 raw_battle_items = []
 
-[[trainers.2.pokemon]]
+[[trainers.MeteorDame.2.pokemon]]
 internal_name = "HOUNDOOM"
 level = 71
 raw_moves = [
@@ -105,7 +138,7 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.2.pokemon.evs]
+[trainers.MeteorDame.2.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -113,7 +146,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.MeteorDame.2.pokemon]]
 internal_name = "LUNATONE"
 level = 72
 raw_moves = [
@@ -125,7 +158,7 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.2.pokemon.evs]
+[trainers.MeteorDame.2.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -133,7 +166,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.MeteorDame.2.pokemon]]
 internal_name = "GOTHITELLE"
 level = 71
 raw_moves = [
@@ -145,7 +178,7 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.2.pokemon.evs]
+[trainers.MeteorDame.2.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -153,7 +186,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.MeteorDame.2.pokemon]]
 internal_name = "HELIOLISK"
 level = 72
 raw_moves = [
@@ -164,7 +197,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.2.pokemon.evs]
+[trainers.MeteorDame.2.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

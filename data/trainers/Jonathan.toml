@@ -1,9 +1,29 @@
-[trainers.0]
+trainer_name = "Jonathan"
+
+[trainers.TechNerd.0]
+raw_trainer_class = "TechNerd"
+battler_name = "Jonathan"
+raw_battle_items = []
+
+[[trainers.TechNerd.0.pokemon]]
+internal_name = "YUNGOOS"
+level = 4
+iv = 0
+
+[trainers.TechNerd.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.SPIRITM.0]
 raw_trainer_class = "SPIRITM"
 battler_name = "Jonathan"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.SPIRITM.0.pokemon]]
 internal_name = "TOGEKISS"
 level = 95
 raw_item = "SYNTHETICSEED"
@@ -18,7 +38,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SPIRITM.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -26,7 +46,7 @@ spa = 0
 spd = 252
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.SPIRITM.0.pokemon]]
 internal_name = "CHANDELURE"
 level = 95
 raw_item = "SYNTHETICSEED"
@@ -41,7 +61,7 @@ sex = ""
 nature = "MODEST"
 iv = 32
 
-[trainers.0.pokemon.evs]
+[trainers.SPIRITM.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -49,7 +69,7 @@ spa = 0
 spd = 252
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.SPIRITM.0.pokemon]]
 internal_name = "TALONFLAME"
 level = 95
 raw_item = "IAPAPABERRY"
@@ -64,7 +84,7 @@ sex = ""
 nature = "BRAVE"
 iv = 32
 
-[trainers.0.pokemon.evs]
+[trainers.SPIRITM.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -72,7 +92,7 @@ spa = 252
 spd = 0
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.SPIRITM.0.pokemon]]
 internal_name = "CONKELDURR"
 level = 95
 raw_item = "FLAMEORB"
@@ -86,7 +106,7 @@ sex = ""
 nature = "BRAVE"
 iv = 32
 
-[trainers.0.pokemon.evs]
+[trainers.SPIRITM.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -94,7 +114,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.SPIRITM.0.pokemon]]
 internal_name = "ROTOM"
 level = 95
 raw_item = "WIKIBERRY"
@@ -109,7 +129,7 @@ form_number = 2
 nature = "QUIET"
 iv = 32
 
-[trainers.0.pokemon.evs]
+[trainers.SPIRITM.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -117,7 +137,7 @@ spa = 0
 spd = 252
 spe = 128
 
-[[trainers.0.pokemon]]
+[[trainers.SPIRITM.0.pokemon]]
 internal_name = "PORYGON2"
 level = 95
 raw_item = "EVIOLITE"
@@ -131,7 +151,7 @@ sex = ""
 nature = "RELAXED"
 iv = 32
 
-[trainers.0.pokemon.evs]
+[trainers.SPIRITM.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0

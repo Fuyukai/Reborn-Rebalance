@@ -1,4 +1,6 @@
-[trainers.0]
+trainer_name = "Florinia"
+
+[trainers.FLORINIA.0]
 raw_trainer_class = "FLORINIA"
 battler_name = "Florinia"
 raw_battle_items = [
@@ -6,7 +8,7 @@ raw_battle_items = [
     "SUPERPOTION",
 ]
 
-[[trainers.0.pokemon]]
+[[trainers.FLORINIA.0.pokemon]]
 internal_name = "MARACTUS"
 level = 22
 raw_moves = [
@@ -19,7 +21,7 @@ sex = "F"
 nature = "QUIRKY"
 iv = 1
 
-[trainers.0.pokemon.evs]
+[trainers.FLORINIA.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -27,7 +29,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.FLORINIA.0.pokemon]]
 internal_name = "COTTONEE"
 level = 24
 raw_moves = [
@@ -40,7 +42,7 @@ sex = "F"
 nature = "IMPISH"
 iv = 25
 
-[trainers.0.pokemon.evs]
+[trainers.FLORINIA.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -48,7 +50,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.FLORINIA.0.pokemon]]
 internal_name = "FERROSEED"
 level = 22
 raw_item = "TELLURICSEED"
@@ -62,7 +64,7 @@ sex = "F"
 nature = ""
 iv = 5
 
-[trainers.0.pokemon.evs]
+[trainers.FLORINIA.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -70,7 +72,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.FLORINIA.0.pokemon]]
 internal_name = "BRELOOM"
 level = 23
 raw_moves = [
@@ -84,7 +86,7 @@ sex = "F"
 nature = "BASHFUL"
 iv = 1
 
-[trainers.0.pokemon.evs]
+[trainers.FLORINIA.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -92,7 +94,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.FLORINIA.0.pokemon]]
 internal_name = "CACNEA"
 level = 23
 raw_item = "BIGROOT"
@@ -106,7 +108,7 @@ sex = "F"
 nature = "ADAMANT"
 iv = 15
 
-[trainers.0.pokemon.evs]
+[trainers.FLORINIA.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -114,7 +116,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.FLORINIA.0.pokemon]]
 internal_name = "CRADILY"
 level = 24
 raw_moves = [
@@ -127,7 +129,7 @@ sex = "F"
 nature = "CAREFUL"
 iv = 15
 
-[trainers.0.pokemon.evs]
+[trainers.FLORINIA.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -135,13 +137,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.1]
+[trainers.FLORINIA.1]
 raw_trainer_class = "FLORINIA"
 battler_name = "Florinia"
 battler_id = 1
 raw_battle_items = []
 
-[[trainers.1.pokemon]]
+[[trainers.FLORINIA.1.pokemon]]
 internal_name = "HIPPOWDON"
 level = 68
 raw_item = "YACHEBERRY"
@@ -156,7 +158,7 @@ sex = "F"
 nature = "IMPISH"
 iv = 30
 
-[trainers.1.pokemon.evs]
+[trainers.FLORINIA.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -164,7 +166,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.FLORINIA.1.pokemon]]
 internal_name = "TORTERRA"
 level = 68
 raw_item = "YACHEBERRY"
@@ -177,7 +179,7 @@ raw_moves = [
 nature = "ADAMANT"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.FLORINIA.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -185,7 +187,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.FLORINIA.1.pokemon]]
 internal_name = "FERROTHORN"
 level = 69
 raw_item = "ROCKYHELMET"
@@ -199,7 +201,7 @@ sex = "F"
 nature = "BRAVE"
 iv = 32
 
-[trainers.1.pokemon.evs]
+[trainers.FLORINIA.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -207,7 +209,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.FLORINIA.1.pokemon]]
 internal_name = "BRELOOM"
 level = 70
 raw_item = "TOXICORB"
@@ -222,7 +224,7 @@ sex = "F"
 nature = "ADAMANT"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.FLORINIA.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -230,7 +232,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.FLORINIA.1.pokemon]]
 internal_name = "TANGROWTH"
 level = 70
 raw_item = "ASSAULTVEST"
@@ -245,7 +247,7 @@ sex = "F"
 nature = "QUIET"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.FLORINIA.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -253,7 +255,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.FLORINIA.1.pokemon]]
 internal_name = "CRADILY"
 level = 71
 raw_item = "LEFTOVERS"
@@ -267,7 +269,7 @@ sex = "F"
 nature = "CAREFUL"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.FLORINIA.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -275,13 +277,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.2]
+[trainers.FLORINIA.2]
 raw_trainer_class = "FLORINIA"
 battler_name = "Florinia"
 battler_id = 2
 raw_battle_items = []
 
-[[trainers.2.pokemon]]
+[[trainers.FLORINIA.2.pokemon]]
 internal_name = "HIPPOWDON"
 level = 93
 raw_item = "SMOOTHROCK"
@@ -295,7 +297,7 @@ sex = "F"
 nature = "IMPISH"
 iv = 30
 
-[trainers.2.pokemon.evs]
+[trainers.FLORINIA.2.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -303,7 +305,7 @@ spa = 4
 spd = 0
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.FLORINIA.2.pokemon]]
 internal_name = "TORTERRA"
 level = 94
 raw_item = "LEFTOVERS"
@@ -317,7 +319,7 @@ nature = "ADAMANT"
 iv = 31
 happiness = 255
 
-[trainers.2.pokemon.evs]
+[trainers.FLORINIA.2.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -325,7 +327,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.FLORINIA.2.pokemon]]
 internal_name = "FERROTHORN"
 level = 93
 raw_item = "NORMALGEM"
@@ -339,7 +341,7 @@ sex = "F"
 nature = "BRAVE"
 iv = 32
 
-[trainers.2.pokemon.evs]
+[trainers.FLORINIA.2.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -347,7 +349,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.FLORINIA.2.pokemon]]
 internal_name = "SANDSLASH"
 level = 94
 raw_item = "FOCUSSASH"
@@ -362,7 +364,7 @@ sex = "F"
 nature = "ADAMANT"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.FLORINIA.2.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -370,7 +372,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.FLORINIA.2.pokemon]]
 internal_name = "TANGROWTH"
 level = 94
 raw_item = "ASSAULTVEST"
@@ -385,7 +387,7 @@ sex = "F"
 nature = "SASSY"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.FLORINIA.2.pokemon.evs]
 hp = 0
 atk = 248
 def_ = 0
@@ -393,7 +395,7 @@ spa = 0
 spd = 0
 spe = 8
 
-[[trainers.2.pokemon]]
+[[trainers.FLORINIA.2.pokemon]]
 internal_name = "CRADILY"
 level = 95
 raw_item = "MAGICALSEED"
@@ -407,7 +409,7 @@ sex = "F"
 nature = "CAREFUL"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.FLORINIA.2.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 4
@@ -415,13 +417,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.3]
+[trainers.FLORINIA.3]
 raw_trainer_class = "FLORINIA"
 battler_name = "Florinia"
 battler_id = 3
 raw_battle_items = []
 
-[[trainers.3.pokemon]]
+[[trainers.FLORINIA.3.pokemon]]
 internal_name = "HIPPOWDON"
 level = 93
 raw_item = "SMOOTHROCK"
@@ -435,7 +437,7 @@ sex = "F"
 nature = "IMPISH"
 iv = 30
 
-[trainers.3.pokemon.evs]
+[trainers.FLORINIA.3.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -443,7 +445,7 @@ spa = 4
 spd = 0
 spe = 0
 
-[[trainers.3.pokemon]]
+[[trainers.FLORINIA.3.pokemon]]
 internal_name = "TORTERRA"
 level = 94
 raw_item = "SYNTHETICSEED"
@@ -457,7 +459,7 @@ ability_number = 1
 nature = "CAREFUL"
 iv = 31
 
-[trainers.3.pokemon.evs]
+[trainers.FLORINIA.3.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 4
@@ -465,7 +467,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.3.pokemon]]
+[[trainers.FLORINIA.3.pokemon]]
 internal_name = "FERROTHORN"
 level = 94
 raw_item = "ASSAULTVEST"
@@ -479,7 +481,7 @@ sex = "F"
 nature = "CAREFUL"
 iv = 31
 
-[trainers.3.pokemon.evs]
+[trainers.FLORINIA.3.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -487,7 +489,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.3.pokemon]]
+[[trainers.FLORINIA.3.pokemon]]
 internal_name = "SANDSLASH"
 level = 94
 raw_item = "FOCUSSASH"
@@ -502,7 +504,7 @@ sex = "F"
 nature = "ADAMANT"
 iv = 31
 
-[trainers.3.pokemon.evs]
+[trainers.FLORINIA.3.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -510,7 +512,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.3.pokemon]]
+[[trainers.FLORINIA.3.pokemon]]
 internal_name = "TANGROWTH"
 level = 94
 raw_item = "SYNTHETICSEED"
@@ -525,7 +527,7 @@ sex = "F"
 nature = "MODEST"
 iv = 31
 
-[trainers.3.pokemon.evs]
+[trainers.FLORINIA.3.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -533,7 +535,7 @@ spa = 0
 spd = 252
 spe = 4
 
-[[trainers.3.pokemon]]
+[[trainers.FLORINIA.3.pokemon]]
 internal_name = "CRADILY"
 level = 95
 raw_item = "SYNTHETICSEED"
@@ -547,7 +549,7 @@ sex = "F"
 nature = "CAREFUL"
 iv = 31
 
-[trainers.3.pokemon.evs]
+[trainers.FLORINIA.3.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 4
@@ -555,13 +557,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.4]
+[trainers.FLORINIA.4]
 raw_trainer_class = "FLORINIA"
 battler_name = "Florinia"
 battler_id = 4
 raw_battle_items = []
 
-[[trainers.4.pokemon]]
+[[trainers.FLORINIA.4.pokemon]]
 internal_name = "HIPPOWDON"
 level = 124
 raw_item = "SMOOTHROCK"
@@ -576,7 +578,7 @@ sex = "F"
 nature = "IMPISH"
 iv = 30
 
-[trainers.4.pokemon.evs]
+[trainers.FLORINIA.4.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -584,7 +586,7 @@ spa = 4
 spd = 0
 spe = 0
 
-[[trainers.4.pokemon]]
+[[trainers.FLORINIA.4.pokemon]]
 internal_name = "TORTERRA"
 level = 123
 raw_item = "LIFEORB"
@@ -598,7 +600,7 @@ ability_number = 1
 nature = "CAREFUL"
 iv = 31
 
-[trainers.4.pokemon.evs]
+[trainers.FLORINIA.4.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 2
@@ -606,7 +608,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.4.pokemon]]
+[[trainers.FLORINIA.4.pokemon]]
 internal_name = "FERROTHORN"
 level = 123
 raw_item = "LEFTOVERS"
@@ -620,7 +622,7 @@ sex = "F"
 nature = "BRAVE"
 iv = 31
 
-[trainers.4.pokemon.evs]
+[trainers.FLORINIA.4.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -628,7 +630,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.4.pokemon]]
+[[trainers.FLORINIA.4.pokemon]]
 internal_name = "VIRIZION"
 level = 124
 raw_item = "LIFEORB"
@@ -642,7 +644,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.4.pokemon.evs]
+[trainers.FLORINIA.4.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -650,7 +652,7 @@ spa = 252
 spd = 0
 spe = 4
 
-[[trainers.4.pokemon]]
+[[trainers.FLORINIA.4.pokemon]]
 internal_name = "CRADILY"
 level = 124
 raw_item = "LEFTOVERS"
@@ -664,7 +666,7 @@ sex = "F"
 nature = "CAREFUL"
 iv = 31
 
-[trainers.4.pokemon.evs]
+[trainers.FLORINIA.4.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 4
@@ -672,7 +674,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.4.pokemon]]
+[[trainers.FLORINIA.4.pokemon]]
 internal_name = "KARTANA"
 level = 125
 raw_item = "TELLURICSEED"
@@ -686,7 +688,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.4.pokemon.evs]
+[trainers.FLORINIA.4.pokemon.evs]
 hp = 4
 atk = 252
 def_ = 0
@@ -694,13 +696,13 @@ spa = 0
 spd = 0
 spe = 252
 
-[trainers.10]
+[trainers.FLORINIA.10]
 raw_trainer_class = "FLORINIA"
 battler_name = "Florinia"
 battler_id = 10
 raw_battle_items = []
 
-[[trainers.10.pokemon]]
+[[trainers.FLORINIA.10.pokemon]]
 internal_name = "WHIMSICOTT"
 level = 100
 raw_item = "LIFEORB"
@@ -714,7 +716,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.FLORINIA.10.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -722,7 +724,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.10.pokemon]]
+[[trainers.FLORINIA.10.pokemon]]
 internal_name = "FERROTHORN"
 level = 100
 raw_item = "LEFTOVERS"
@@ -736,7 +738,7 @@ sex = ""
 nature = "SASSY"
 iv = 32
 
-[trainers.10.pokemon.evs]
+[trainers.FLORINIA.10.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -744,7 +746,7 @@ spa = 0
 spd = 0
 spe = 128
 
-[[trainers.10.pokemon]]
+[[trainers.FLORINIA.10.pokemon]]
 internal_name = "BRELOOM"
 level = 100
 raw_item = "LIFEORB"
@@ -759,7 +761,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.FLORINIA.10.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -767,7 +769,7 @@ spa = 0
 spd = 4
 spe = 252
 
-[[trainers.10.pokemon]]
+[[trainers.FLORINIA.10.pokemon]]
 internal_name = "SHAYMIN"
 level = 100
 raw_item = "LIFEORB"
@@ -782,7 +784,7 @@ form_number = 1
 nature = "TIMID"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.FLORINIA.10.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -790,7 +792,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.10.pokemon]]
+[[trainers.FLORINIA.10.pokemon]]
 internal_name = "VENUSAUR"
 level = 100
 raw_item = "VENUSAURITE"
@@ -804,7 +806,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.FLORINIA.10.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -812,7 +814,7 @@ spa = 0
 spd = 0
 spe = 128
 
-[[trainers.10.pokemon]]
+[[trainers.FLORINIA.10.pokemon]]
 internal_name = "DECIDUEYE"
 level = 100
 raw_item = "DECIDIUMZ2"
@@ -826,7 +828,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.FLORINIA.10.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -834,13 +836,13 @@ spa = 0
 spd = 4
 spe = 252
 
-[trainers.11]
+[trainers.FLORINIA.11]
 raw_trainer_class = "FLORINIA"
 battler_name = "Florinia"
 battler_id = 11
 raw_battle_items = []
 
-[[trainers.11.pokemon]]
+[[trainers.FLORINIA.11.pokemon]]
 internal_name = "FERROTHORN"
 level = 100
 raw_item = "LEFTOVERS"
@@ -854,7 +856,7 @@ sex = ""
 nature = "SASSY"
 iv = 32
 
-[trainers.11.pokemon.evs]
+[trainers.FLORINIA.11.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -862,7 +864,7 @@ spa = 0
 spd = 0
 spe = 128
 
-[[trainers.11.pokemon]]
+[[trainers.FLORINIA.11.pokemon]]
 internal_name = "SHAYMIN"
 level = 100
 raw_item = "LIFEORB"
@@ -877,7 +879,7 @@ form_number = 1
 nature = "TIMID"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.FLORINIA.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -885,7 +887,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.11.pokemon]]
+[[trainers.FLORINIA.11.pokemon]]
 internal_name = "VENUSAUR"
 level = 100
 raw_item = "VENUSAURITE"
@@ -899,7 +901,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.FLORINIA.11.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -907,7 +909,7 @@ spa = 0
 spd = 0
 spe = 128
 
-[[trainers.11.pokemon]]
+[[trainers.FLORINIA.11.pokemon]]
 internal_name = "TAPUBULU"
 level = 100
 raw_item = "LIFEORB"
@@ -921,7 +923,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.FLORINIA.11.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -929,7 +931,7 @@ spa = 0
 spd = 4
 spe = 252
 
-[[trainers.11.pokemon]]
+[[trainers.FLORINIA.11.pokemon]]
 internal_name = "KARTANA"
 level = 100
 raw_item = "TELLURICSEED"
@@ -943,7 +945,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.FLORINIA.11.pokemon.evs]
 hp = 4
 atk = 252
 def_ = 0
@@ -951,7 +953,7 @@ spa = 0
 spd = 0
 spe = 252
 
-[[trainers.11.pokemon]]
+[[trainers.FLORINIA.11.pokemon]]
 internal_name = "CELEBI"
 level = 100
 raw_item = "GRASSIUMZ2"
@@ -965,7 +967,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.FLORINIA.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -973,13 +975,13 @@ spa = 252
 spd = 252
 spe = 4
 
-[trainers.12]
+[trainers.FLORINIA.12]
 raw_trainer_class = "FLORINIA"
 battler_name = "Florinia"
 battler_id = 12
 raw_battle_items = []
 
-[[trainers.12.pokemon]]
+[[trainers.FLORINIA.12.pokemon]]
 internal_name = "WHIMSICOTT"
 level = 100
 raw_item = "HEATROCK"
@@ -993,7 +995,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.FLORINIA.12.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1001,7 +1003,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.12.pokemon]]
+[[trainers.FLORINIA.12.pokemon]]
 internal_name = "LEAFEON"
 level = 100
 raw_item = "CHOICEBAND"
@@ -1016,7 +1018,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.FLORINIA.12.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -1024,7 +1026,7 @@ spa = 0
 spd = 4
 spe = 252
 
-[[trainers.12.pokemon]]
+[[trainers.FLORINIA.12.pokemon]]
 internal_name = "TANGROWTH"
 level = 100
 raw_item = "ASSAULTVEST"
@@ -1038,7 +1040,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.FLORINIA.12.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1046,7 +1048,7 @@ spa = 4
 spd = 252
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.FLORINIA.12.pokemon]]
 internal_name = "VILEPLUME"
 level = 100
 raw_item = "HEATROCK"
@@ -1060,7 +1062,7 @@ sex = ""
 nature = "CALM"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.FLORINIA.12.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1068,7 +1070,7 @@ spa = 4
 spd = 252
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.FLORINIA.12.pokemon]]
 internal_name = "SAWSBUCK"
 level = 100
 raw_item = "FOCUSSASH"
@@ -1083,7 +1085,7 @@ nature = "ADAMANT"
 iv = 31
 happiness = 255
 
-[trainers.12.pokemon.evs]
+[trainers.FLORINIA.12.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -1091,7 +1093,7 @@ spa = 0
 spd = 4
 spe = 252
 
-[[trainers.12.pokemon]]
+[[trainers.FLORINIA.12.pokemon]]
 internal_name = "LILLIGANT"
 level = 100
 raw_item = "FOCUSSASH"
@@ -1105,7 +1107,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.FLORINIA.12.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1113,13 +1115,13 @@ spa = 252
 spd = 252
 spe = 4
 
-[trainers.13]
+[trainers.FLORINIA.13]
 raw_trainer_class = "FLORINIA"
 battler_name = "Florinia"
 battler_id = 13
 raw_battle_items = []
 
-[[trainers.13.pokemon]]
+[[trainers.FLORINIA.13.pokemon]]
 internal_name = "CHESNAUGHT"
 level = 100
 raw_item = "LEFTOVERS"
@@ -1133,7 +1135,7 @@ sex = ""
 nature = "CAREFUL"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.FLORINIA.13.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -1141,7 +1143,7 @@ spa = 4
 spd = 0
 spe = 0
 
-[[trainers.13.pokemon]]
+[[trainers.FLORINIA.13.pokemon]]
 internal_name = "MEGANIUM"
 level = 100
 raw_item = "LEFTOVERS"
@@ -1155,7 +1157,7 @@ sex = ""
 nature = "CAREFUL"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.FLORINIA.13.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -1163,7 +1165,7 @@ spa = 4
 spd = 0
 spe = 0
 
-[[trainers.13.pokemon]]
+[[trainers.FLORINIA.13.pokemon]]
 internal_name = "VENUSAUR"
 level = 100
 raw_item = "ASSAULTVEST"
@@ -1177,7 +1179,7 @@ sex = ""
 nature = "CAREFUL"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.FLORINIA.13.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -1185,7 +1187,7 @@ spa = 4
 spd = 0
 spe = 0
 
-[[trainers.13.pokemon]]
+[[trainers.FLORINIA.13.pokemon]]
 internal_name = "SCEPTILE"
 level = 100
 raw_item = "SCEPTILITE"
@@ -1199,7 +1201,7 @@ sex = ""
 nature = "RASH"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.FLORINIA.13.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1207,7 +1209,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.13.pokemon]]
+[[trainers.FLORINIA.13.pokemon]]
 internal_name = "DECIDUEYE"
 level = 100
 raw_item = "GRASSIUMZ2"
@@ -1221,7 +1223,7 @@ sex = ""
 nature = "RASH"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.FLORINIA.13.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1229,7 +1231,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.13.pokemon]]
+[[trainers.FLORINIA.13.pokemon]]
 internal_name = "SERPERIOR"
 level = 100
 raw_item = "ASSAULTVEST"
@@ -1243,7 +1245,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.FLORINIA.13.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1251,13 +1253,13 @@ spa = 252
 spd = 252
 spe = 4
 
-[trainers.14]
+[trainers.FLORINIA.14]
 raw_trainer_class = "FLORINIA"
 battler_name = "Florinia"
 battler_id = 14
 raw_battle_items = []
 
-[[trainers.14.pokemon]]
+[[trainers.FLORINIA.14.pokemon]]
 internal_name = "DECIDUEYE"
 level = 100
 raw_item = "DECIDIUMZ2"
@@ -1272,7 +1274,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.14.pokemon.evs]
+[trainers.FLORINIA.14.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -1280,7 +1282,7 @@ spa = 0
 spd = 4
 spe = 252
 
-[[trainers.14.pokemon]]
+[[trainers.FLORINIA.14.pokemon]]
 internal_name = "FERROTHORN"
 level = 100
 raw_item = "TELLURICSEED"
@@ -1294,7 +1296,7 @@ sex = ""
 nature = "BRAVE"
 iv = 32
 
-[trainers.14.pokemon.evs]
+[trainers.FLORINIA.14.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -1302,7 +1304,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.14.pokemon]]
+[[trainers.FLORINIA.14.pokemon]]
 internal_name = "SHAYMIN"
 level = 100
 raw_item = "LIFEORB"
@@ -1317,7 +1319,7 @@ form_number = 1
 nature = "HASTY"
 iv = 31
 
-[trainers.14.pokemon.evs]
+[trainers.FLORINIA.14.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1325,7 +1327,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.14.pokemon]]
+[[trainers.FLORINIA.14.pokemon]]
 internal_name = "CRADILY"
 level = 100
 raw_item = "LEFTOVERS"
@@ -1339,7 +1341,7 @@ sex = ""
 nature = "CAREFUL"
 iv = 31
 
-[trainers.14.pokemon.evs]
+[trainers.FLORINIA.14.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -1347,7 +1349,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.14.pokemon]]
+[[trainers.FLORINIA.14.pokemon]]
 internal_name = "ROTOM"
 level = 100
 raw_item = "WIKIBERRY"
@@ -1362,7 +1364,7 @@ form_number = 5
 nature = "MODEST"
 iv = 31
 
-[trainers.14.pokemon.evs]
+[trainers.FLORINIA.14.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -1370,7 +1372,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.14.pokemon]]
+[[trainers.FLORINIA.14.pokemon]]
 internal_name = "ABOMASNOW"
 level = 100
 raw_item = "ABOMASITE"
@@ -1384,7 +1386,7 @@ sex = ""
 nature = "BRAVE"
 iv = 31
 
-[trainers.14.pokemon.evs]
+[trainers.FLORINIA.14.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -1392,13 +1394,13 @@ spa = 0
 spd = 0
 spe = 4
 
-[trainers.15]
+[trainers.FLORINIA.15]
 raw_trainer_class = "FLORINIA"
 battler_name = "Florinia"
 battler_id = 15
 raw_battle_items = []
 
-[[trainers.15.pokemon]]
+[[trainers.FLORINIA.15.pokemon]]
 internal_name = "FERROTHORN"
 level = 100
 raw_item = "TELLURICSEED"
@@ -1412,7 +1414,7 @@ sex = ""
 nature = "SASSY"
 iv = 32
 
-[trainers.15.pokemon.evs]
+[trainers.FLORINIA.15.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -1420,7 +1422,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.15.pokemon]]
+[[trainers.FLORINIA.15.pokemon]]
 internal_name = "LUDICOLO"
 level = 100
 raw_item = "WATERIUMZ2"
@@ -1434,7 +1436,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.15.pokemon.evs]
+[trainers.FLORINIA.15.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1442,7 +1444,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.15.pokemon]]
+[[trainers.FLORINIA.15.pokemon]]
 internal_name = "JUMPLUFF"
 level = 100
 raw_item = "FLYINGGEM"
@@ -1457,7 +1459,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.15.pokemon.evs]
+[trainers.FLORINIA.15.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1465,7 +1467,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.15.pokemon]]
+[[trainers.FLORINIA.15.pokemon]]
 internal_name = "VENUSAUR"
 level = 100
 raw_item = "TELLURICSEED"
@@ -1479,7 +1481,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.15.pokemon.evs]
+[trainers.FLORINIA.15.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1487,7 +1489,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.15.pokemon]]
+[[trainers.FLORINIA.15.pokemon]]
 internal_name = "VILEPLUME"
 level = 100
 raw_item = "TELLURICSEED"
@@ -1501,7 +1503,7 @@ sex = ""
 nature = "CALM"
 iv = 31
 
-[trainers.15.pokemon.evs]
+[trainers.FLORINIA.15.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -1509,7 +1511,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.15.pokemon]]
+[[trainers.FLORINIA.15.pokemon]]
 internal_name = "ROSERADE"
 level = 100
 raw_item = "TELLURICSEED"
@@ -1523,7 +1525,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.15.pokemon.evs]
+[trainers.FLORINIA.15.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1531,13 +1533,13 @@ spa = 252
 spd = 252
 spe = 4
 
-[trainers.16]
+[trainers.FLORINIA.16]
 raw_trainer_class = "FLORINIA"
 battler_name = "Florinia"
 battler_id = 16
 raw_battle_items = []
 
-[[trainers.16.pokemon]]
+[[trainers.FLORINIA.16.pokemon]]
 internal_name = "LILLIGANT"
 level = 100
 raw_item = "FOCUSSASH"
@@ -1552,7 +1554,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.16.pokemon.evs]
+[trainers.FLORINIA.16.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1560,7 +1562,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.16.pokemon]]
+[[trainers.FLORINIA.16.pokemon]]
 internal_name = "TSAREENA"
 level = 100
 raw_item = "SYNTHETICSEED"
@@ -1575,7 +1577,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.16.pokemon.evs]
+[trainers.FLORINIA.16.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -1583,7 +1585,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.16.pokemon]]
+[[trainers.FLORINIA.16.pokemon]]
 internal_name = "BRELOOM"
 level = 100
 raw_item = "SYNTHETICSEED"
@@ -1598,7 +1600,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.16.pokemon.evs]
+[trainers.FLORINIA.16.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -1606,7 +1608,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.16.pokemon]]
+[[trainers.FLORINIA.16.pokemon]]
 internal_name = "SHAYMIN"
 level = 100
 raw_item = "LIFEORB"
@@ -1620,7 +1622,7 @@ sex = ""
 nature = "HASTY"
 iv = 31
 
-[trainers.16.pokemon.evs]
+[trainers.FLORINIA.16.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1628,7 +1630,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.16.pokemon]]
+[[trainers.FLORINIA.16.pokemon]]
 internal_name = "TROPIUS"
 level = 100
 raw_item = "SITRUSBERRY"
@@ -1643,7 +1645,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.16.pokemon.evs]
+[trainers.FLORINIA.16.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -1651,7 +1653,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.16.pokemon]]
+[[trainers.FLORINIA.16.pokemon]]
 internal_name = "CHESNAUGHT"
 level = 100
 raw_item = "SITRUSBERRY"
@@ -1666,7 +1668,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.16.pokemon.evs]
+[trainers.FLORINIA.16.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -1674,7 +1676,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[trainers.20]
+[trainers.FLORINIA.20]
 raw_trainer_class = "FLORINIA"
 battler_name = "Florinia"
 battler_id = 20
@@ -1683,7 +1685,7 @@ raw_battle_items = [
     "SUPERPOTION",
 ]
 
-[[trainers.20.pokemon]]
+[[trainers.FLORINIA.20.pokemon]]
 internal_name = "BRAMBLEGHAST"
 level = 23
 raw_moves = [
@@ -1694,7 +1696,7 @@ raw_moves = [
 ]
 nature = "BRAVE"
 
-[trainers.20.pokemon.evs]
+[trainers.FLORINIA.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1702,7 +1704,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.FLORINIA.20.pokemon]]
 internal_name = "DOLLIV"
 level = 22
 raw_item = "HEATROCK"
@@ -1715,7 +1717,7 @@ raw_moves = [
 sex = "F"
 nature = "IMPISH"
 
-[trainers.20.pokemon.evs]
+[trainers.FLORINIA.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1723,7 +1725,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.FLORINIA.20.pokemon]]
 internal_name = "ELDEGOSS"
 level = 21
 raw_moves = [
@@ -1734,7 +1736,7 @@ raw_moves = [
 ]
 sex = "F"
 
-[trainers.20.pokemon.evs]
+[trainers.FLORINIA.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1742,7 +1744,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.FLORINIA.20.pokemon]]
 internal_name = "FERROSEED"
 level = 22
 raw_item = "TELLURICSEED"
@@ -1756,7 +1758,7 @@ sex = "F"
 nature = ""
 iv = 5
 
-[trainers.20.pokemon.evs]
+[trainers.FLORINIA.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1764,7 +1766,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.FLORINIA.20.pokemon]]
 internal_name = "GROTLE"
 level = 22
 raw_item = "TELLURICSEED"
@@ -1778,7 +1780,7 @@ ability_number = 1
 nature = ""
 iv = 15
 
-[trainers.20.pokemon.evs]
+[trainers.FLORINIA.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1786,7 +1788,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.FLORINIA.20.pokemon]]
 internal_name = "CRADILY"
 level = 24
 raw_moves = [
@@ -1799,7 +1801,7 @@ sex = "F"
 nature = "CAREFUL"
 iv = 15
 
-[trainers.20.pokemon.evs]
+[trainers.FLORINIA.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1807,13 +1809,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.21]
+[trainers.FLORINIA.21]
 raw_trainer_class = "FLORINIA"
 battler_name = "Florinia"
 battler_id = 21
 raw_battle_items = []
 
-[[trainers.21.pokemon]]
+[[trainers.FLORINIA.21.pokemon]]
 internal_name = "BRAMBLEGHAST"
 level = 70
 raw_item = "DARKGEM"
@@ -1826,7 +1828,7 @@ raw_moves = [
 nature = "JOLLY"
 iv = 31
 
-[trainers.21.pokemon.evs]
+[trainers.FLORINIA.21.pokemon.evs]
 hp = 0
 atk = 152
 def_ = 0
@@ -1834,7 +1836,7 @@ spa = 152
 spd = 0
 spe = 0
 
-[[trainers.21.pokemon]]
+[[trainers.FLORINIA.21.pokemon]]
 internal_name = "ARBOLIVA"
 level = 70
 raw_item = "LEFTOVERS"
@@ -1848,7 +1850,7 @@ sex = "F"
 nature = "CALM"
 iv = 31
 
-[trainers.21.pokemon.evs]
+[trainers.FLORINIA.21.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1856,7 +1858,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.21.pokemon]]
+[[trainers.FLORINIA.21.pokemon]]
 internal_name = "TORTERRA"
 level = 68
 raw_item = "YACHEBERRY"
@@ -1870,7 +1872,7 @@ ability_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.21.pokemon.evs]
+[trainers.FLORINIA.21.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1878,7 +1880,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.21.pokemon]]
+[[trainers.FLORINIA.21.pokemon]]
 internal_name = "FERROTHORN"
 level = 69
 raw_item = "ROCKYHELMET"
@@ -1892,7 +1894,7 @@ sex = "F"
 nature = "BRAVE"
 iv = 32
 
-[trainers.21.pokemon.evs]
+[trainers.FLORINIA.21.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1900,7 +1902,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.21.pokemon]]
+[[trainers.FLORINIA.21.pokemon]]
 internal_name = "TANGROWTH"
 level = 70
 raw_item = "ASSAULTVEST"
@@ -1915,7 +1917,7 @@ sex = "F"
 nature = "QUIET"
 iv = 31
 
-[trainers.21.pokemon.evs]
+[trainers.FLORINIA.21.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1923,7 +1925,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.21.pokemon]]
+[[trainers.FLORINIA.21.pokemon]]
 internal_name = "CRADILY"
 level = 71
 raw_item = "LEFTOVERS"
@@ -1937,7 +1939,7 @@ sex = "F"
 nature = "CAREFUL"
 iv = 31
 
-[trainers.21.pokemon.evs]
+[trainers.FLORINIA.21.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1945,13 +1947,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.22]
+[trainers.FLORINIA.22]
 raw_trainer_class = "FLORINIA"
 battler_name = "Florinia"
 battler_id = 22
 raw_battle_items = []
 
-[[trainers.22.pokemon]]
+[[trainers.FLORINIA.22.pokemon]]
 internal_name = "HIPPOWDON"
 level = 93
 raw_item = "SMOOTHROCK"
@@ -1965,7 +1967,7 @@ sex = "F"
 nature = "IMPISH"
 iv = 30
 
-[trainers.22.pokemon.evs]
+[trainers.FLORINIA.22.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -1973,7 +1975,7 @@ spa = 4
 spd = 0
 spe = 0
 
-[[trainers.22.pokemon]]
+[[trainers.FLORINIA.22.pokemon]]
 internal_name = "TORTERRA"
 level = 94
 raw_item = "LEFTOVERS"
@@ -1987,7 +1989,7 @@ nature = "ADAMANT"
 iv = 31
 happiness = 255
 
-[trainers.22.pokemon.evs]
+[trainers.FLORINIA.22.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -1995,7 +1997,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.22.pokemon]]
+[[trainers.FLORINIA.22.pokemon]]
 internal_name = "FERROTHORN"
 level = 93
 raw_item = "NORMALGEM"
@@ -2009,7 +2011,7 @@ sex = "F"
 nature = "BRAVE"
 iv = 32
 
-[trainers.22.pokemon.evs]
+[trainers.FLORINIA.22.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -2017,7 +2019,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.22.pokemon]]
+[[trainers.FLORINIA.22.pokemon]]
 internal_name = "DUGTRIO"
 level = 94
 raw_item = "DUGTRIONITE"
@@ -2032,7 +2034,7 @@ sex = "F"
 nature = "ADAMANT"
 iv = 31
 
-[trainers.22.pokemon.evs]
+[trainers.FLORINIA.22.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -2040,7 +2042,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.22.pokemon]]
+[[trainers.FLORINIA.22.pokemon]]
 internal_name = "ARBOLIVA"
 level = 94
 raw_item = "AMPLIFIELDROCK"
@@ -2054,7 +2056,7 @@ sex = "F"
 nature = "CALM"
 iv = 31
 
-[trainers.22.pokemon.evs]
+[trainers.FLORINIA.22.pokemon.evs]
 hp = 0
 atk = 248
 def_ = 0
@@ -2062,7 +2064,7 @@ spa = 0
 spd = 0
 spe = 8
 
-[[trainers.22.pokemon]]
+[[trainers.FLORINIA.22.pokemon]]
 internal_name = "CRADILY"
 level = 95
 raw_item = "MAGICALSEED"
@@ -2076,7 +2078,7 @@ sex = "F"
 nature = "CAREFUL"
 iv = 31
 
-[trainers.22.pokemon.evs]
+[trainers.FLORINIA.22.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 4
@@ -2084,13 +2086,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.23]
+[trainers.FLORINIA.23]
 raw_trainer_class = "FLORINIA"
 battler_name = "Florinia"
 battler_id = 23
 raw_battle_items = []
 
-[[trainers.23.pokemon]]
+[[trainers.FLORINIA.23.pokemon]]
 internal_name = "HIPPOWDON"
 level = 93
 raw_item = "SMOOTHROCK"
@@ -2104,7 +2106,7 @@ sex = "F"
 nature = "IMPISH"
 iv = 30
 
-[trainers.23.pokemon.evs]
+[trainers.FLORINIA.23.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -2112,7 +2114,7 @@ spa = 4
 spd = 0
 spe = 0
 
-[[trainers.23.pokemon]]
+[[trainers.FLORINIA.23.pokemon]]
 internal_name = "TORTERRA"
 level = 94
 raw_item = "SYNTHETICSEED"
@@ -2126,7 +2128,7 @@ ability_number = 1
 nature = "CAREFUL"
 iv = 31
 
-[trainers.23.pokemon.evs]
+[trainers.FLORINIA.23.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 4
@@ -2134,7 +2136,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.23.pokemon]]
+[[trainers.FLORINIA.23.pokemon]]
 internal_name = "FERROTHORN"
 level = 94
 raw_item = "ASSAULTVEST"
@@ -2148,7 +2150,7 @@ sex = "F"
 nature = "CAREFUL"
 iv = 31
 
-[trainers.23.pokemon.evs]
+[trainers.FLORINIA.23.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -2156,7 +2158,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.23.pokemon]]
+[[trainers.FLORINIA.23.pokemon]]
 internal_name = "DUGTRIO"
 level = 94
 raw_item = "DUGTRIONITE"
@@ -2171,7 +2173,7 @@ sex = "F"
 nature = "ADAMANT"
 iv = 31
 
-[trainers.23.pokemon.evs]
+[trainers.FLORINIA.23.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -2179,7 +2181,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.23.pokemon]]
+[[trainers.FLORINIA.23.pokemon]]
 internal_name = "ARBOLIVA"
 level = 94
 raw_item = "SYNTHETICSEED"
@@ -2193,7 +2195,7 @@ sex = "F"
 nature = "MODEST"
 iv = 31
 
-[trainers.23.pokemon.evs]
+[trainers.FLORINIA.23.pokemon.evs]
 hp = 0
 atk = 248
 def_ = 0
@@ -2201,7 +2203,7 @@ spa = 0
 spd = 252
 spe = 8
 
-[[trainers.23.pokemon]]
+[[trainers.FLORINIA.23.pokemon]]
 internal_name = "CRADILY"
 level = 95
 raw_item = "SYNTHETICSEED"
@@ -2215,7 +2217,7 @@ sex = "F"
 nature = "CAREFUL"
 iv = 31
 
-[trainers.23.pokemon.evs]
+[trainers.FLORINIA.23.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 4

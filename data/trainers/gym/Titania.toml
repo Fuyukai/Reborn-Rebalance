@@ -1,428 +1,605 @@
-[trainers.0]
-raw_trainer_class = "UMBTITANIA"
+trainer_name = "Titania"
+
+[trainers.TITANIA.0]
+raw_trainer_class = "TITANIA"
 battler_name = "Titania"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
-internal_name = "TOGEKISS"
-level = 135
-raw_item = "TELLURICSEED"
-raw_moves = [
-    "ANCIENTPOWER",
-    "AIRSLASH",
-    "THUNDERWAVE",
-    "ROOST",
-]
-ability_number = 1
-sex = "F"
-nature = "TIMID"
-iv = 31
-
-[trainers.0.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 252
-spa = 252
-spd = 252
-spe = 252
-
-[[trainers.0.pokemon]]
-internal_name = "DIANCIE"
-level = 135
-raw_item = "DIANCITE"
-raw_moves = [
-    "DIAMONDSTORM",
-    "STEALTHROCK",
-    "MOONBLAST",
-    "EARTHPOWER",
-]
-sex = ""
-nature = "HASTY"
-iv = 31
-
-[trainers.0.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 252
-spa = 252
-spd = 252
-spe = 252
-
-[[trainers.0.pokemon]]
-internal_name = "REGIGIGAS"
-level = 135
+[[trainers.TITANIA.0.pokemon]]
+internal_name = "AEGISLASH"
+level = 80
 raw_item = "LEFTOVERS"
 raw_moves = [
-    "SECRETPOWER",
+    "FLASHCANNON",
+    "KINGSSHIELD",
+    "SHADOWBALL",
     "WIDEGUARD",
-    "THUNDERWAVE",
-    "DOUBLETEAM",
 ]
-sex = ""
-nature = "IMPISH"
+nature = "QUIET"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.TITANIA.0.pokemon.evs]
 hp = 0
-atk = 252
-def_ = 252
-spa = 252
-spd = 252
-spe = 252
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
 
-[[trainers.0.pokemon]]
-internal_name = "MARSHADOW"
-level = 135
-raw_item = "MARSHADIUMZ2"
-raw_moves = [
-    "SPECTRALTHIEF",
-    "ROCKTOMB",
-    "ROLLINGKICK",
-    "SHADOWSNEAK",
+[trainers.TITANIA1.0]
+raw_trainer_class = "TITANIA1"
+battler_name = "Titania"
+raw_battle_items = [
+    "ULTRAPOTION",
+    "ULTRAPOTION",
+    "ULTRAPOTION",
 ]
-sex = ""
+
+[[trainers.TITANIA1.0.pokemon]]
+internal_name = "SANDSLASH"
+level = 83
+raw_item = "LIGHTCLAY"
+raw_moves = [
+    "AURORAVEIL",
+    "ICICLECRASH",
+    "EARTHQUAKE",
+    "IRONHEAD",
+]
+ability_number = 1
+form_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.TITANIA1.0.pokemon.evs]
 hp = 0
-atk = 252
+atk = 128
 def_ = 252
-spa = 252
-spd = 252
-spe = 252
+spa = 128
+spd = 0
+spe = 0
 
-[[trainers.0.pokemon]]
-internal_name = "DIALGA"
-level = 135
-raw_item = "TELLURICSEED"
+[[trainers.TITANIA1.0.pokemon]]
+internal_name = "EMPOLEON"
+level = 85
+raw_item = "PETAYABERRY"
 raw_moves = [
-    "HYPERVOICE",
-    "DRACOMETEOR",
-    "POWERGEM",
-    "ICEBEAM",
+    "AGILITY",
+    "SCALD",
+    "FLASHCANNON",
+    "BLIZZARD",
 ]
-sex = ""
+sex = "F"
 nature = "MODEST"
-
-[trainers.0.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 252
-spa = 252
-spd = 252
-spe = 252
-
-[[trainers.0.pokemon]]
-internal_name = "GROUDON"
-level = 135
-raw_item = "REDORB"
-raw_moves = [
-    "ROCKTOMB",
-    "PRECIPICEBLADES",
-    "ROCKPOLISH",
-    "HEATWAVE",
-]
-sex = ""
-nature = "NAIVE"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.TITANIA1.0.pokemon.evs]
 hp = 0
-atk = 252
+atk = 128
+def_ = 0
+spa = 128
+spd = 252
+spe = 0
+
+[[trainers.TITANIA1.0.pokemon]]
+internal_name = "EXCADRILL"
+level = 86
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "SANDSTORM",
+    "EARTHQUAKE",
+    "SWORDSDANCE",
+    "SMARTSTRIKE",
+]
+sex = "F"
+nature = "ADAMANT"
+iv = 31
+
+[trainers.TITANIA1.0.pokemon.evs]
+hp = 0
+atk = 4
 def_ = 252
 spa = 252
-spd = 252
+spd = 0
+spe = 0
+
+[[trainers.TITANIA1.0.pokemon]]
+internal_name = "KLEFKI"
+level = 84
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "THUNDERWAVE",
+    "FLASHCANNON",
+    "DRAININGKISS",
+    "CALMMIND",
+]
+sex = "F"
+nature = "BOLD"
+iv = 31
+
+[trainers.TITANIA1.0.pokemon.evs]
+hp = 0
+atk = 192
+def_ = 0
+spa = 0
+spd = 0
 spe = 252
 
-[trainers.1]
-raw_trainer_class = "UMBTITANIA"
+[[trainers.TITANIA1.0.pokemon]]
+internal_name = "SCIZOR"
+level = 86
+raw_item = "SCIZORITE"
+raw_moves = [
+    "SWORDSDANCE",
+    "ROOST",
+    "BULLETPUNCH",
+    "BUGBITE",
+]
+ability_number = 1
+sex = "F"
+nature = "CAREFUL"
+iv = 31
+
+[trainers.TITANIA1.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 4
+
+[[trainers.TITANIA1.0.pokemon]]
+internal_name = "AEGISLASH"
+level = 90
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "KINGSSHIELD",
+    "SHADOWSNEAK",
+    "SWORDSDANCE",
+    "SACREDSWORD",
+]
+ability_number = 1
+nature = "ADAMANT"
+iv = 31
+
+[trainers.TITANIA1.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 4
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.TITANIA1.1]
+raw_trainer_class = "TITANIA1"
 battler_name = "Titania"
 battler_id = 1
 raw_battle_items = []
 
-[[trainers.1.pokemon]]
-internal_name = "HELIOLISK"
-level = 137
-raw_item = "LIFEORB"
+[[trainers.TITANIA1.1.pokemon]]
+internal_name = "KLEFKI"
+level = 129
+raw_item = "LIGHTCLAY"
 raw_moves = [
-    "PARABOLICCHARGE",
-    "SURF",
-    "HYPERVOICE",
-    "DARKPULSE",
+    "LIGHTSCREEN",
+    "FLASHCANNON",
+    "DAZZLINGGLEAM",
+    "REFLECT",
 ]
-ability_number = 2
 sex = "F"
-nature = "MILD"
-iv = 0
+nature = "BOLD"
+iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.TITANIA1.1.pokemon.evs]
+hp = 0
+atk = 192
+def_ = 0
+spa = 0
+spd = 0
+spe = 252
+
+[[trainers.TITANIA1.1.pokemon]]
+internal_name = "CELESTEELA"
+level = 127
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "WIDEGUARD",
+    "FLASHCANNON",
+    "GIGADRAIN",
+    "FLAMETHROWER",
+]
+form_number = 1
+nature = "MODEST"
+iv = 31
+
+[trainers.TITANIA1.1.pokemon.evs]
+hp = 0
+atk = 128
+def_ = 252
+spa = 128
+spd = 0
+spe = 0
+
+[[trainers.TITANIA1.1.pokemon]]
+internal_name = "COBALION"
+level = 127
+raw_item = "ASSAULTVEST"
+raw_moves = [
+    "SACREDSWORD",
+    "VOLTSWITCH",
+    "FLASHCANNON",
+    "ZENHEADBUTT",
+]
+sex = "F"
+nature = "ADAMANT"
+iv = 31
+
+[trainers.TITANIA1.1.pokemon.evs]
+hp = 0
+atk = 128
+def_ = 0
+spa = 128
+spd = 252
+spe = 0
+
+[[trainers.TITANIA1.1.pokemon]]
+internal_name = "EXCADRILL"
+level = 128
+raw_item = "SYNTHETICSEED"
+raw_moves = [
+    "SANDSTORM",
+    "EARTHQUAKE",
+    "ROCKSLIDE",
+    "IRONHEAD",
+]
+sex = "F"
+nature = "ADAMANT"
+iv = 31
+
+[trainers.TITANIA1.1.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.TITANIA1.1.pokemon]]
+internal_name = "SCIZOR"
+level = 130
+raw_item = "SCIZORITE"
+raw_moves = [
+    "KNOCKOFF",
+    "ROOST",
+    "BULLETPUNCH",
+    "UTURN",
+]
+ability_number = 1
+sex = "F"
+nature = "CAREFUL"
+iv = 31
+
+[trainers.TITANIA1.1.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 4
+
+[[trainers.TITANIA1.1.pokemon]]
+internal_name = "AEGISLASH"
+level = 130
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "KINGSSHIELD",
+    "WIDEGUARD",
+    "SHADOWBALL",
+    "FLASHCANNON",
+]
+ability_number = 1
+nature = "ADAMANT"
+iv = 31
+
+[trainers.TITANIA1.1.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 4
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.TITANIA1.20]
+raw_trainer_class = "TITANIA1"
+battler_name = "Titania"
+battler_id = 20
+raw_battle_items = [
+    "ULTRAPOTION",
+    "ULTRAPOTION",
+    "ULTRAPOTION",
+]
+
+[[trainers.TITANIA1.20.pokemon]]
+internal_name = "SANDSLASH"
+level = 83
+raw_item = "LIGHTCLAY"
+raw_moves = [
+    "AURORAVEIL",
+    "ICICLECRASH",
+    "EARTHQUAKE",
+    "IRONHEAD",
+]
+ability_number = 1
+form_number = 1
+nature = "ADAMANT"
+iv = 31
+
+[trainers.TITANIA1.20.pokemon.evs]
+hp = 0
+atk = 128
+def_ = 252
+spa = 128
+spd = 0
+spe = 0
+
+[[trainers.TITANIA1.20.pokemon]]
+internal_name = "TITANEON"
+level = 84
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "HONECLAWS",
+    "IRONTAIL",
+    "PLAYROUGH",
+    "THUNDERFANG",
+]
+sex = "F"
+nature = "ADAMANT"
+iv = 31
+
+[trainers.TITANIA1.20.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 100
+spd = 0
+spe = 0
+
+[[trainers.TITANIA1.20.pokemon]]
+internal_name = "DURALUDON"
+level = 84
+raw_moves = [
+    "STEELBEAM",
+    "DRACOMETEOR",
+    "BODYPRESS",
+    "THUNDER",
+]
+sex = "F"
+nature = "CALM"
+iv = 31
+
+[trainers.TITANIA1.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
-spa = 252
-spd = 252
-spe = 4
+spa = 0
+spd = 128
+spe = 128
 
-[[trainers.1.pokemon]]
-internal_name = "GENGAR"
-level = 138
-raw_item = "LIFEORB"
+[[trainers.TITANIA1.20.pokemon]]
+internal_name = "CORVIKNIGHT"
+level = 86
+raw_item = "CORVINITE"
 raw_moves = [
-    "EXPLOSION",
-    "SLUDGEWAVE",
-    "PERISHSONG",
-    "SHADOWBALL",
-]
-sex = "F"
-nature = "MILD"
-iv = 0
-
-[trainers.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 52
-spa = 252
-spd = 200
-spe = 4
-
-[[trainers.1.pokemon]]
-internal_name = "FLYGON"
-level = 139
-raw_item = "LIFEORB"
-raw_moves = [
-    "BOOMBURST",
-    "EARTHQUAKE",
-    "BRUTALSWING",
-    "HEATWAVE",
-]
-sex = "F"
-nature = "MILD"
-iv = 0
-
-[trainers.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 200
-spa = 252
-spd = 52
-spe = 4
-
-[[trainers.1.pokemon]]
-internal_name = "EXPLOUD"
-level = 139
-raw_item = "LIFEORB"
-raw_moves = [
-    "BOOMBURST",
-    "TEETERDANCE",
-    "EARTHQUAKE",
-    "SURF",
-]
-ability_number = 1
-sex = "F"
-nature = "NAUGHTY"
-iv = 0
-
-[trainers.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 52
-spa = 252
-spd = 200
-spe = 4
-
-[[trainers.1.pokemon]]
-internal_name = "VICTINI"
-level = 141
-raw_item = "LIFEORB"
-raw_moves = [
-    "SEARINGSHOT",
-    "BOLTSTRIKE",
-    "UTURN",
-    "ZENHEADBUTT",
-]
-sex = ""
-nature = "MILD"
-iv = 0
-
-[trainers.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 200
-spa = 252
-spd = 52
-spe = 4
-
-[[trainers.1.pokemon]]
-internal_name = "GROUDON"
-level = 141
-raw_item = "REDORB"
-raw_moves = [
-    "EARTHQUAKE",
-    "BRUTALSWING",
-    "SWORDSDANCE",
-    "LAVAPLUME",
-]
-sex = ""
-nature = "LONELY"
-iv = 0
-
-[trainers.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 200
-spa = 252
-spd = 52
-spe = 4
-
-[trainers.2]
-raw_trainer_class = "UMBTITANIA"
-battler_name = "Titania"
-battler_id = 2
-raw_battle_items = []
-
-[[trainers.2.pokemon]]
-internal_name = "NINETALES"
-level = 143
-raw_item = "HEATROCK"
-raw_moves = [
-    "SOLARBEAM",
-    "FIREBLAST",
-    "DARKPULSE",
-    "HIDDENPOWERICE",
-]
-ability_number = 1
-sex = "F"
-nature = "TIMID"
-iv = 20
-
-[trainers.2.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 252
-spa = 252
-spd = 252
-spe = 252
-
-[[trainers.2.pokemon]]
-internal_name = "HOUNDOOM"
-level = 143
-raw_item = "HOUNDOOMINITE"
-raw_moves = [
-    "SOLARBEAM",
-    "FIREBLAST",
-    "DARKPULSE",
-    "SLUDGEBOMB",
-]
-ability_number = 1
-sex = "F"
-nature = "TIMID"
-iv = 20
-
-[trainers.2.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 252
-spa = 252
-spd = 252
-spe = 252
-
-[[trainers.2.pokemon]]
-internal_name = "HOOH"
-level = 143
-raw_item = "LIFEORB"
-raw_moves = [
-    "SACREDFIRE",
+    "BODYPRESS",
     "BRAVEBIRD",
-    "EARTHPOWER",
-    "RECOVER",
+    "IRONHEAD",
+    "BULKUP",
+]
+ability_number = 2
+nature = "IMPISH"
+iv = 28
+
+[trainers.TITANIA1.20.pokemon.evs]
+hp = 0
+atk = 192
+def_ = 0
+spa = 0
+spd = 0
+spe = 64
+
+[[trainers.TITANIA1.20.pokemon]]
+internal_name = "KINGAMBIT"
+level = 88
+raw_item = "CHOPLEBERRY"
+raw_moves = [
+    "SUCKERPUNCH",
+    "PSYCHOCUT",
+    "IRONHEAD",
+    "KOWTOWCLEAVE",
 ]
 ability_number = 1
-sex = ""
-nature = "HASTY"
-iv = 20
+nature = "ADAMANT"
+iv = 28
 
-[trainers.2.pokemon.evs]
+[trainers.TITANIA1.20.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
-spa = 252
-spd = 252
-spe = 252
+spa = 0
+spd = 0
+spe = 0
 
-[[trainers.2.pokemon]]
-internal_name = "LUNALA"
-level = 144
-raw_item = "LUNALIUMZ2"
-raw_moves = [
-    "SOLARBEAM",
-    "MOONGEISTBEAM",
-    "MOONBLAST",
-    "PSYSHOCK",
-]
-sex = ""
-nature = "CALM"
-iv = 20
-
-[trainers.2.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 252
-spa = 252
-spd = 252
-spe = 252
-
-[[trainers.2.pokemon]]
-internal_name = "RESHIRAM"
-level = 145
-raw_item = "LIFEORB"
-raw_moves = [
-    "SOLARBEAM",
-    "BLUEFLARE",
-    "ROCKSLIDE",
-    "ROOST",
-]
-sex = ""
-nature = "HASTY"
-iv = 20
-
-[trainers.2.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 252
-spa = 252
-spd = 252
-spe = 252
-
-[[trainers.2.pokemon]]
+[[trainers.TITANIA1.20.pokemon]]
 internal_name = "AEGISLASH"
-level = 145
+level = 90
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "KINGSSHIELD",
+    "SHADOWSNEAK",
+    "SWORDSDANCE",
+    "SACREDSWORD",
+]
+ability_number = 1
+nature = "ADAMANT"
+iv = 31
+
+[trainers.TITANIA1.20.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 4
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.TITANIA2.0]
+raw_trainer_class = "TITANIA2"
+battler_name = "Titania"
+raw_battle_items = [
+    "ULTRAPOTION",
+    "ULTRAPOTION",
+    "ULTRAPOTION",
+]
+
+[[trainers.TITANIA2.0.pokemon]]
+internal_name = "SANDSLASH"
+level = 83
+raw_item = "LIGHTCLAY"
+raw_moves = [
+    "AURORAVEIL",
+    "ICICLECRASH",
+    "EARTHQUAKE",
+    "IRONHEAD",
+]
+ability_number = 1
+form_number = 1
+nature = "ADAMANT"
+iv = 31
+
+[trainers.TITANIA2.0.pokemon.evs]
+hp = 0
+atk = 128
+def_ = 252
+spa = 128
+spd = 0
+spe = 0
+
+[[trainers.TITANIA2.0.pokemon]]
+internal_name = "EMPOLEON"
+level = 85
+raw_item = "PETAYABERRY"
+raw_moves = [
+    "AGILITY",
+    "SCALD",
+    "FLASHCANNON",
+    "BLIZZARD",
+]
+sex = "F"
+nature = "MODEST"
+iv = 31
+
+[trainers.TITANIA2.0.pokemon.evs]
+hp = 0
+atk = 128
+def_ = 0
+spa = 128
+spd = 252
+spe = 0
+
+[[trainers.TITANIA2.0.pokemon]]
+internal_name = "EXCADRILL"
+level = 86
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "SANDSTORM",
+    "EARTHQUAKE",
+    "SWORDSDANCE",
+    "SMARTSTRIKE",
+]
+sex = "F"
+nature = "ADAMANT"
+iv = 31
+
+[trainers.TITANIA2.0.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.TITANIA2.0.pokemon]]
+internal_name = "KLEFKI"
+level = 84
 raw_item = "LEFTOVERS"
 raw_moves = [
-    "SHADOWBALL",
+    "THUNDERWAVE",
     "FLASHCANNON",
-    "WIDEGUARD",
-    "KINGSSHIELD",
+    "DRAININGKISS",
+    "CALMMIND",
 ]
-sex = ""
-nature = "MODEST"
-iv = 20
+sex = "F"
+nature = "BOLD"
+iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.TITANIA2.0.pokemon.evs]
 hp = 0
-atk = 252
-def_ = 252
-spa = 252
-spd = 252
+atk = 192
+def_ = 0
+spa = 0
+spd = 0
 spe = 252
 
-[trainers.10]
+[[trainers.TITANIA2.0.pokemon]]
+internal_name = "SCIZOR"
+level = 86
+raw_item = "SCIZORITE"
+raw_moves = [
+    "SWORDSDANCE",
+    "ROOST",
+    "BULLETPUNCH",
+    "BUGBITE",
+]
+ability_number = 1
+sex = "F"
+nature = "CAREFUL"
+iv = 31
+
+[trainers.TITANIA2.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 4
+
+[[trainers.TITANIA2.0.pokemon]]
+internal_name = "AEGISLASH"
+level = 90
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "KINGSSHIELD",
+    "SHADOWSNEAK",
+    "SWORDSDANCE",
+    "SACREDSWORD",
+]
+ability_number = 1
+nature = "ADAMANT"
+iv = 31
+
+[trainers.TITANIA2.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 4
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.TITANIA2.10]
 raw_trainer_class = "TITANIA2"
 battler_name = "Titania"
 battler_id = 10
 raw_battle_items = []
 
-[[trainers.10.pokemon]]
+[[trainers.TITANIA2.10.pokemon]]
 internal_name = "EXCADRILL"
 level = 100
 raw_item = "MAGICALSEED"
@@ -437,7 +614,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.TITANIA2.10.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -445,7 +622,7 @@ spa = 252
 spd = 0
 spe = 4
 
-[[trainers.10.pokemon]]
+[[trainers.TITANIA2.10.pokemon]]
 internal_name = "DIALGA"
 level = 100
 raw_item = "LIFEORB"
@@ -459,7 +636,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.TITANIA2.10.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -467,7 +644,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.TITANIA2.10.pokemon]]
 internal_name = "AEGISLASH"
 level = 100
 raw_item = "MAGICALSEED"
@@ -481,7 +658,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.TITANIA2.10.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 4
@@ -489,7 +666,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.TITANIA2.10.pokemon]]
 internal_name = "METAGROSS"
 level = 100
 raw_item = "METAGROSSITE"
@@ -503,7 +680,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.TITANIA2.10.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -511,7 +688,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.TITANIA2.10.pokemon]]
 internal_name = "LUCARIO"
 level = 100
 raw_item = "MAGICALSEED"
@@ -525,7 +702,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.TITANIA2.10.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -533,7 +710,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.TITANIA2.10.pokemon]]
 internal_name = "SCIZOR"
 level = 100
 raw_item = "MAGICALSEED"
@@ -548,7 +725,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.TITANIA2.10.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -556,13 +733,13 @@ spa = 252
 spd = 0
 spe = 0
 
-[trainers.11]
+[trainers.TITANIA2.11]
 raw_trainer_class = "TITANIA2"
 battler_name = "Titania"
 battler_id = 11
 raw_battle_items = []
 
-[[trainers.11.pokemon]]
+[[trainers.TITANIA2.11.pokemon]]
 internal_name = "DIALGA"
 level = 100
 raw_item = "LIFEORB"
@@ -576,7 +753,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.TITANIA2.11.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -584,7 +761,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.TITANIA2.11.pokemon]]
 internal_name = "AEGISLASH"
 level = 100
 raw_item = "MAGICALSEED"
@@ -598,7 +775,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.TITANIA2.11.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 4
@@ -606,7 +783,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.TITANIA2.11.pokemon]]
 internal_name = "LUCARIO"
 level = 100
 raw_item = "LUCARIONITE"
@@ -620,7 +797,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.TITANIA2.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -628,7 +805,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.TITANIA2.11.pokemon]]
 internal_name = "MAGEARNA"
 level = 100
 raw_item = "ASSAULTVEST"
@@ -642,7 +819,7 @@ sex = ""
 nature = "CALM"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.TITANIA2.11.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -650,7 +827,7 @@ spa = 0
 spd = 104
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.TITANIA2.11.pokemon]]
 internal_name = "NECROZMA"
 level = 100
 raw_item = "SOLGANIUMZ2"
@@ -665,7 +842,7 @@ form_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.TITANIA2.11.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -673,7 +850,7 @@ spa = 4
 spd = 0
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.TITANIA2.11.pokemon]]
 internal_name = "KARTANA"
 level = 100
 raw_item = "MAGICALSEED"
@@ -687,7 +864,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.TITANIA2.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -695,13 +872,13 @@ spa = 252
 spd = 0
 spe = 0
 
-[trainers.12]
+[trainers.TITANIA2.12]
 raw_trainer_class = "TITANIA2"
 battler_name = "Titania"
 battler_id = 12
 raw_battle_items = []
 
-[[trainers.12.pokemon]]
+[[trainers.TITANIA2.12.pokemon]]
 internal_name = "HEATRAN"
 level = 100
 raw_item = "LIFEORB"
@@ -715,7 +892,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.TITANIA2.12.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -723,7 +900,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.TITANIA2.12.pokemon]]
 internal_name = "EXCADRILL"
 level = 100
 raw_item = "LIFEORB"
@@ -737,7 +914,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.TITANIA2.12.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -745,7 +922,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.TITANIA2.12.pokemon]]
 internal_name = "SOLGALEO"
 level = 100
 raw_item = "SOLGANIUMZ2"
@@ -759,7 +936,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.TITANIA2.12.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -767,7 +944,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.TITANIA2.12.pokemon]]
 internal_name = "STEELIX"
 level = 100
 raw_item = "STEELIXITE"
@@ -781,7 +958,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.TITANIA2.12.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -789,7 +966,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.TITANIA2.12.pokemon]]
 internal_name = "DUGTRIO"
 level = 100
 raw_item = "LIFEORB"
@@ -805,7 +982,7 @@ form_number = 1
 nature = "JOLLY"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.TITANIA2.12.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -813,7 +990,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.TITANIA2.12.pokemon]]
 internal_name = "FERROTHORN"
 level = 100
 raw_item = "TELLURICSEED"
@@ -827,7 +1004,7 @@ sex = ""
 nature = "CAREFUL"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.TITANIA2.12.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -835,13 +1012,13 @@ spa = 0
 spd = 0
 spe = 128
 
-[trainers.13]
+[trainers.TITANIA2.13]
 raw_trainer_class = "TITANIA2"
 battler_name = "Titania"
 battler_id = 13
 raw_battle_items = []
 
-[[trainers.13.pokemon]]
+[[trainers.TITANIA2.13.pokemon]]
 internal_name = "SKARMORY"
 level = 100
 raw_item = "ELEMENTALSEED"
@@ -855,7 +1032,7 @@ sex = ""
 nature = "IMPISH"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.TITANIA2.13.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -863,7 +1040,7 @@ spa = 4
 spd = 252
 spe = 0
 
-[[trainers.13.pokemon]]
+[[trainers.TITANIA2.13.pokemon]]
 internal_name = "EMPOLEON"
 level = 100
 raw_item = "ELEMENTALSEED"
@@ -877,7 +1054,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.TITANIA2.13.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -885,7 +1062,7 @@ spa = 4
 spd = 252
 spe = 0
 
-[[trainers.13.pokemon]]
+[[trainers.TITANIA2.13.pokemon]]
 internal_name = "CELESTEELA"
 level = 100
 raw_item = "ELEMENTALSEED"
@@ -899,7 +1076,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.TITANIA2.13.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -907,7 +1084,7 @@ spa = 0
 spd = 252
 spe = 0
 
-[[trainers.13.pokemon]]
+[[trainers.TITANIA2.13.pokemon]]
 internal_name = "FERROTHORN"
 level = 100
 raw_item = "ELEMENTALSEED"
@@ -921,7 +1098,7 @@ sex = ""
 nature = "CAREFUL"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.TITANIA2.13.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -929,7 +1106,7 @@ spa = 0
 spd = 0
 spe = 128
 
-[[trainers.13.pokemon]]
+[[trainers.TITANIA2.13.pokemon]]
 internal_name = "AEGISLASH"
 level = 100
 raw_item = "ELEMENTALSEED"
@@ -943,7 +1120,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.TITANIA2.13.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -951,7 +1128,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.13.pokemon]]
+[[trainers.TITANIA2.13.pokemon]]
 internal_name = "MAGNEZONE"
 level = 100
 raw_item = "ELEMENTALSEED"
@@ -965,7 +1142,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.TITANIA2.13.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -973,13 +1150,13 @@ spa = 252
 spd = 252
 spe = 0
 
-[trainers.14]
+[trainers.TITANIA2.14]
 raw_trainer_class = "TITANIA2"
 battler_name = "Titania"
 battler_id = 14
 raw_battle_items = []
 
-[[trainers.14.pokemon]]
+[[trainers.TITANIA2.14.pokemon]]
 internal_name = "HEATRAN"
 level = 100
 raw_item = "CHOICESCARF"
@@ -993,7 +1170,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.14.pokemon.evs]
+[trainers.TITANIA2.14.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1001,7 +1178,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.14.pokemon]]
+[[trainers.TITANIA2.14.pokemon]]
 internal_name = "HEATRAN"
 level = 100
 raw_item = "AIRBALLOON"
@@ -1015,7 +1192,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.14.pokemon.evs]
+[trainers.TITANIA2.14.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1023,7 +1200,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.14.pokemon]]
+[[trainers.TITANIA2.14.pokemon]]
 internal_name = "HEATRAN"
 level = 100
 raw_item = "CHOICESCARF"
@@ -1037,7 +1214,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.14.pokemon.evs]
+[trainers.TITANIA2.14.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1045,7 +1222,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.14.pokemon]]
+[[trainers.TITANIA2.14.pokemon]]
 internal_name = "HEATRAN"
 level = 100
 raw_item = "AIRBALLOON"
@@ -1059,7 +1236,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.14.pokemon.evs]
+[trainers.TITANIA2.14.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1067,7 +1244,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.14.pokemon]]
+[[trainers.TITANIA2.14.pokemon]]
 internal_name = "HEATRAN"
 level = 100
 raw_item = "CHOICESCARF"
@@ -1081,7 +1258,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.14.pokemon.evs]
+[trainers.TITANIA2.14.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1089,7 +1266,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.14.pokemon]]
+[[trainers.TITANIA2.14.pokemon]]
 internal_name = "HEATRAN"
 level = 100
 raw_item = "AIRBALLOON"
@@ -1103,7 +1280,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.14.pokemon.evs]
+[trainers.TITANIA2.14.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1111,13 +1288,13 @@ spa = 252
 spd = 252
 spe = 4
 
-[trainers.15]
+[trainers.TITANIA2.15]
 raw_trainer_class = "TITANIA2"
 battler_name = "Titania"
 battler_id = 15
 raw_battle_items = []
 
-[[trainers.15.pokemon]]
+[[trainers.TITANIA2.15.pokemon]]
 internal_name = "METAGROSS"
 level = 100
 raw_item = "WEAKNESSPOLICY"
@@ -1131,7 +1308,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.15.pokemon.evs]
+[trainers.TITANIA2.15.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -1139,7 +1316,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.15.pokemon]]
+[[trainers.TITANIA2.15.pokemon]]
 internal_name = "BRONZONG"
 level = 100
 raw_item = "LEFTOVERS"
@@ -1153,7 +1330,7 @@ sex = ""
 nature = "BRAVE"
 iv = 32
 
-[trainers.15.pokemon.evs]
+[trainers.TITANIA2.15.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -1161,7 +1338,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.15.pokemon]]
+[[trainers.TITANIA2.15.pokemon]]
 internal_name = "NECROZMA"
 level = 100
 raw_item = "LIFEORB"
@@ -1176,7 +1353,7 @@ form_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.15.pokemon.evs]
+[trainers.TITANIA2.15.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -1184,7 +1361,7 @@ spa = 4
 spd = 0
 spe = 0
 
-[[trainers.15.pokemon]]
+[[trainers.TITANIA2.15.pokemon]]
 internal_name = "STAKATAKA"
 level = 100
 raw_item = "ASSAULTVEST"
@@ -1198,7 +1375,7 @@ sex = ""
 nature = "BRAVE"
 iv = 32
 
-[trainers.15.pokemon.evs]
+[trainers.TITANIA2.15.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -1206,7 +1383,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.15.pokemon]]
+[[trainers.TITANIA2.15.pokemon]]
 internal_name = "MAGEARNA"
 level = 100
 raw_item = "LEFTOVERS"
@@ -1220,7 +1397,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.15.pokemon.evs]
+[trainers.TITANIA2.15.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -1228,7 +1405,7 @@ spa = 0
 spd = 252
 spe = 4
 
-[[trainers.15.pokemon]]
+[[trainers.TITANIA2.15.pokemon]]
 internal_name = "FERROTHORN"
 level = 100
 raw_item = "LEFTOVERS"
@@ -1242,7 +1419,7 @@ sex = ""
 nature = "BRAVE"
 iv = 32
 
-[trainers.15.pokemon.evs]
+[trainers.TITANIA2.15.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -1250,13 +1427,13 @@ spa = 4
 spd = 0
 spe = 0
 
-[trainers.16]
+[trainers.TITANIA2.16]
 raw_trainer_class = "TITANIA2"
 battler_name = "Titania"
 battler_id = 16
 raw_battle_items = []
 
-[[trainers.16.pokemon]]
+[[trainers.TITANIA2.16.pokemon]]
 internal_name = "FERROTHORN"
 level = 100
 raw_item = "TELLURICSEED"
@@ -1270,7 +1447,7 @@ sex = ""
 nature = "BRAVE"
 iv = 32
 
-[trainers.16.pokemon.evs]
+[trainers.TITANIA2.16.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -1278,7 +1455,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.16.pokemon]]
+[[trainers.TITANIA2.16.pokemon]]
 internal_name = "EMPOLEON"
 level = 100
 raw_item = "TELLURICSEED"
@@ -1293,7 +1470,7 @@ sex = ""
 nature = "BRAVE"
 iv = 31
 
-[trainers.16.pokemon.evs]
+[trainers.TITANIA2.16.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -1301,7 +1478,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.16.pokemon]]
+[[trainers.TITANIA2.16.pokemon]]
 internal_name = "GENESECT"
 level = 100
 raw_item = "LIFEORB"
@@ -1315,7 +1492,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.16.pokemon.evs]
+[trainers.TITANIA2.16.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -1323,7 +1500,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.16.pokemon]]
+[[trainers.TITANIA2.16.pokemon]]
 internal_name = "BISHARP"
 level = 100
 raw_item = "TELLURICSEED"
@@ -1337,7 +1514,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.16.pokemon.evs]
+[trainers.TITANIA2.16.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -1345,7 +1522,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.16.pokemon]]
+[[trainers.TITANIA2.16.pokemon]]
 internal_name = "CELESTEELA"
 level = 100
 raw_item = "TELLURICSEED"
@@ -1359,7 +1536,7 @@ sex = ""
 nature = "SERIOUS"
 iv = 31
 
-[trainers.16.pokemon.evs]
+[trainers.TITANIA2.16.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -1367,7 +1544,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.16.pokemon]]
+[[trainers.TITANIA2.16.pokemon]]
 internal_name = "AEGISLASH"
 level = 100
 raw_item = "TELLURICSEED"
@@ -1381,7 +1558,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.16.pokemon.evs]
+[trainers.TITANIA2.16.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -1389,7 +1566,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.20]
+[trainers.TITANIA2.20]
 raw_trainer_class = "TITANIA2"
 battler_name = "Titania"
 battler_id = 20
@@ -1399,7 +1576,7 @@ raw_battle_items = [
     "ULTRAPOTION",
 ]
 
-[[trainers.20.pokemon]]
+[[trainers.TITANIA2.20.pokemon]]
 internal_name = "EXCADRILL"
 level = 83
 raw_item = "MAGICALSEED"
@@ -1413,7 +1590,7 @@ sex = "F"
 nature = "ADAMANT"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.TITANIA2.20.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -1421,7 +1598,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.TITANIA2.20.pokemon]]
 internal_name = "CORVIKNIGHT"
 level = 84
 raw_item = "LEFTOVERS"
@@ -1435,7 +1612,7 @@ ability_number = 2
 nature = "IMPISH"
 iv = 28
 
-[trainers.20.pokemon.evs]
+[trainers.TITANIA2.20.pokemon.evs]
 hp = 0
 atk = 192
 def_ = 0
@@ -1443,7 +1620,7 @@ spa = 0
 spd = 0
 spe = 64
 
-[[trainers.20.pokemon]]
+[[trainers.TITANIA2.20.pokemon]]
 internal_name = "TITANEON"
 level = 85
 raw_item = "WIDELENS"
@@ -1458,7 +1635,7 @@ sex = "F"
 nature = "JOLLY"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.TITANIA2.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 128
@@ -1466,7 +1643,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.TITANIA2.20.pokemon]]
 internal_name = "KINGAMBIT"
 level = 86
 raw_item = "CHOPLEBERRY"
@@ -1480,7 +1657,7 @@ ability_number = 1
 nature = "ADAMANT"
 iv = 28
 
-[trainers.20.pokemon.evs]
+[trainers.TITANIA2.20.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -1488,7 +1665,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.TITANIA2.20.pokemon]]
 internal_name = "DURALUDON"
 level = 86
 raw_item = "ASSAULTVEST"
@@ -1502,7 +1679,7 @@ sex = "F"
 nature = "MODEST"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.TITANIA2.20.pokemon.evs]
 hp = 0
 atk = 128
 def_ = 0
@@ -1510,7 +1687,7 @@ spa = 0
 spd = 252
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.TITANIA2.20.pokemon]]
 internal_name = "AEGISLASH"
 level = 90
 raw_item = "MAGICALSEED"
@@ -1524,10 +1701,428 @@ ability_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.TITANIA2.20.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 4
 spa = 0
 spd = 0
 spe = 0
+
+[trainers.UMBTITANIA.0]
+raw_trainer_class = "UMBTITANIA"
+battler_name = "Titania"
+raw_battle_items = []
+
+[[trainers.UMBTITANIA.0.pokemon]]
+internal_name = "TOGEKISS"
+level = 135
+raw_item = "TELLURICSEED"
+raw_moves = [
+    "ANCIENTPOWER",
+    "AIRSLASH",
+    "THUNDERWAVE",
+    "ROOST",
+]
+ability_number = 1
+sex = "F"
+nature = "TIMID"
+iv = 31
+
+[trainers.UMBTITANIA.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.UMBTITANIA.0.pokemon]]
+internal_name = "DIANCIE"
+level = 135
+raw_item = "DIANCITE"
+raw_moves = [
+    "DIAMONDSTORM",
+    "STEALTHROCK",
+    "MOONBLAST",
+    "EARTHPOWER",
+]
+sex = ""
+nature = "HASTY"
+iv = 31
+
+[trainers.UMBTITANIA.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.UMBTITANIA.0.pokemon]]
+internal_name = "REGIGIGAS"
+level = 135
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "SECRETPOWER",
+    "WIDEGUARD",
+    "THUNDERWAVE",
+    "DOUBLETEAM",
+]
+sex = ""
+nature = "IMPISH"
+iv = 31
+
+[trainers.UMBTITANIA.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.UMBTITANIA.0.pokemon]]
+internal_name = "MARSHADOW"
+level = 135
+raw_item = "MARSHADIUMZ2"
+raw_moves = [
+    "SPECTRALTHIEF",
+    "ROCKTOMB",
+    "ROLLINGKICK",
+    "SHADOWSNEAK",
+]
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.UMBTITANIA.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.UMBTITANIA.0.pokemon]]
+internal_name = "DIALGA"
+level = 135
+raw_item = "TELLURICSEED"
+raw_moves = [
+    "HYPERVOICE",
+    "DRACOMETEOR",
+    "POWERGEM",
+    "ICEBEAM",
+]
+sex = ""
+nature = "MODEST"
+
+[trainers.UMBTITANIA.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.UMBTITANIA.0.pokemon]]
+internal_name = "GROUDON"
+level = 135
+raw_item = "REDORB"
+raw_moves = [
+    "ROCKTOMB",
+    "PRECIPICEBLADES",
+    "ROCKPOLISH",
+    "HEATWAVE",
+]
+sex = ""
+nature = "NAIVE"
+iv = 31
+
+[trainers.UMBTITANIA.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[trainers.UMBTITANIA.1]
+raw_trainer_class = "UMBTITANIA"
+battler_name = "Titania"
+battler_id = 1
+raw_battle_items = []
+
+[[trainers.UMBTITANIA.1.pokemon]]
+internal_name = "HELIOLISK"
+level = 137
+raw_item = "LIFEORB"
+raw_moves = [
+    "PARABOLICCHARGE",
+    "SURF",
+    "HYPERVOICE",
+    "DARKPULSE",
+]
+ability_number = 2
+sex = "F"
+nature = "MILD"
+iv = 0
+
+[trainers.UMBTITANIA.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4
+
+[[trainers.UMBTITANIA.1.pokemon]]
+internal_name = "GENGAR"
+level = 138
+raw_item = "LIFEORB"
+raw_moves = [
+    "EXPLOSION",
+    "SLUDGEWAVE",
+    "PERISHSONG",
+    "SHADOWBALL",
+]
+sex = "F"
+nature = "MILD"
+iv = 0
+
+[trainers.UMBTITANIA.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 52
+spa = 252
+spd = 200
+spe = 4
+
+[[trainers.UMBTITANIA.1.pokemon]]
+internal_name = "FLYGON"
+level = 139
+raw_item = "LIFEORB"
+raw_moves = [
+    "BOOMBURST",
+    "EARTHQUAKE",
+    "BRUTALSWING",
+    "HEATWAVE",
+]
+sex = "F"
+nature = "MILD"
+iv = 0
+
+[trainers.UMBTITANIA.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 200
+spa = 252
+spd = 52
+spe = 4
+
+[[trainers.UMBTITANIA.1.pokemon]]
+internal_name = "EXPLOUD"
+level = 139
+raw_item = "LIFEORB"
+raw_moves = [
+    "BOOMBURST",
+    "TEETERDANCE",
+    "EARTHQUAKE",
+    "SURF",
+]
+ability_number = 1
+sex = "F"
+nature = "NAUGHTY"
+iv = 0
+
+[trainers.UMBTITANIA.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 52
+spa = 252
+spd = 200
+spe = 4
+
+[[trainers.UMBTITANIA.1.pokemon]]
+internal_name = "VICTINI"
+level = 141
+raw_item = "LIFEORB"
+raw_moves = [
+    "SEARINGSHOT",
+    "BOLTSTRIKE",
+    "UTURN",
+    "ZENHEADBUTT",
+]
+sex = ""
+nature = "MILD"
+iv = 0
+
+[trainers.UMBTITANIA.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 200
+spa = 252
+spd = 52
+spe = 4
+
+[[trainers.UMBTITANIA.1.pokemon]]
+internal_name = "GROUDON"
+level = 141
+raw_item = "REDORB"
+raw_moves = [
+    "EARTHQUAKE",
+    "BRUTALSWING",
+    "SWORDSDANCE",
+    "LAVAPLUME",
+]
+sex = ""
+nature = "LONELY"
+iv = 0
+
+[trainers.UMBTITANIA.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 200
+spa = 252
+spd = 52
+spe = 4
+
+[trainers.UMBTITANIA.2]
+raw_trainer_class = "UMBTITANIA"
+battler_name = "Titania"
+battler_id = 2
+raw_battle_items = []
+
+[[trainers.UMBTITANIA.2.pokemon]]
+internal_name = "NINETALES"
+level = 143
+raw_item = "HEATROCK"
+raw_moves = [
+    "SOLARBEAM",
+    "FIREBLAST",
+    "DARKPULSE",
+    "HIDDENPOWERICE",
+]
+ability_number = 1
+sex = "F"
+nature = "TIMID"
+iv = 20
+
+[trainers.UMBTITANIA.2.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.UMBTITANIA.2.pokemon]]
+internal_name = "HOUNDOOM"
+level = 143
+raw_item = "HOUNDOOMINITE"
+raw_moves = [
+    "SOLARBEAM",
+    "FIREBLAST",
+    "DARKPULSE",
+    "SLUDGEBOMB",
+]
+ability_number = 1
+sex = "F"
+nature = "TIMID"
+iv = 20
+
+[trainers.UMBTITANIA.2.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.UMBTITANIA.2.pokemon]]
+internal_name = "HOOH"
+level = 143
+raw_item = "LIFEORB"
+raw_moves = [
+    "SACREDFIRE",
+    "BRAVEBIRD",
+    "EARTHPOWER",
+    "RECOVER",
+]
+ability_number = 1
+sex = ""
+nature = "HASTY"
+iv = 20
+
+[trainers.UMBTITANIA.2.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.UMBTITANIA.2.pokemon]]
+internal_name = "LUNALA"
+level = 144
+raw_item = "LUNALIUMZ2"
+raw_moves = [
+    "SOLARBEAM",
+    "MOONGEISTBEAM",
+    "MOONBLAST",
+    "PSYSHOCK",
+]
+sex = ""
+nature = "CALM"
+iv = 20
+
+[trainers.UMBTITANIA.2.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.UMBTITANIA.2.pokemon]]
+internal_name = "RESHIRAM"
+level = 145
+raw_item = "LIFEORB"
+raw_moves = [
+    "SOLARBEAM",
+    "BLUEFLARE",
+    "ROCKSLIDE",
+    "ROOST",
+]
+sex = ""
+nature = "HASTY"
+iv = 20
+
+[trainers.UMBTITANIA.2.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.UMBTITANIA.2.pokemon]]
+internal_name = "AEGISLASH"
+level = 145
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "SHADOWBALL",
+    "FLASHCANNON",
+    "WIDEGUARD",
+    "KINGSSHIELD",
+]
+sex = ""
+nature = "MODEST"
+iv = 20
+
+[trainers.UMBTITANIA.2.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252

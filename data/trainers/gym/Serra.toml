@@ -1,4 +1,6 @@
-[trainers.0]
+trainer_name = "Serra"
+
+[trainers.SERRA.0]
 raw_trainer_class = "SERRA"
 battler_name = "Serra"
 raw_battle_items = [
@@ -7,7 +9,7 @@ raw_battle_items = [
     "HYPERPOTION",
 ]
 
-[[trainers.0.pokemon]]
+[[trainers.SERRA.0.pokemon]]
 internal_name = "GLACEON"
 level = 48
 raw_item = "LIGHTCLAY"
@@ -21,7 +23,7 @@ sex = "F"
 nature = "CALM"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SERRA.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -29,7 +31,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.SERRA.0.pokemon]]
 internal_name = "NINETALES"
 level = 48
 raw_item = "ICYROCK"
@@ -45,7 +47,7 @@ form_number = 1
 nature = "CALM"
 iv = 25
 
-[trainers.0.pokemon.evs]
+[trainers.SERRA.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -53,7 +55,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.SERRA.0.pokemon]]
 internal_name = "LAPRAS"
 level = 48
 raw_item = "SYNTHETICSEED"
@@ -68,7 +70,7 @@ sex = "F"
 nature = "MODEST"
 iv = 15
 
-[trainers.0.pokemon.evs]
+[trainers.SERRA.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -76,7 +78,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.SERRA.0.pokemon]]
 internal_name = "SANDSLASH"
 level = 47
 raw_item = "WIDELENS"
@@ -92,7 +94,7 @@ form_number = 1
 nature = "ADAMANT"
 iv = 25
 
-[trainers.0.pokemon.evs]
+[trainers.SERRA.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -100,7 +102,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.SERRA.0.pokemon]]
 internal_name = "JYNX"
 level = 49
 raw_item = "BRIGHTPOWDER"
@@ -115,7 +117,7 @@ sex = "F"
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SERRA.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -123,7 +125,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.SERRA.0.pokemon]]
 internal_name = "FROSLASS"
 level = 50
 raw_item = "BRIGHTPOWDER"
@@ -137,7 +139,7 @@ sex = "F"
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SERRA.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -145,13 +147,13 @@ spa = 252
 spd = 252
 spe = 0
 
-[trainers.10]
+[trainers.SERRA.10]
 raw_trainer_class = "SERRA"
 battler_name = "Serra"
 battler_id = 10
 raw_battle_items = []
 
-[[trainers.10.pokemon]]
+[[trainers.SERRA.10.pokemon]]
 internal_name = "NINETALES"
 level = 100
 raw_item = "LIGHTCLAY"
@@ -167,7 +169,7 @@ form_number = 1
 nature = "TIMID"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.SERRA.10.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -175,7 +177,7 @@ spa = 252
 spd = 4
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.SERRA.10.pokemon]]
 internal_name = "KYUREM"
 level = 100
 raw_item = "LIFEORB"
@@ -190,7 +192,7 @@ form_number = 1
 nature = "MODEST"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.SERRA.10.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -198,7 +200,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.SERRA.10.pokemon]]
 internal_name = "WEAVILE"
 level = 100
 raw_item = "CHOICEBAND"
@@ -213,7 +215,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.SERRA.10.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -221,7 +223,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.SERRA.10.pokemon]]
 internal_name = "MAMOSWINE"
 level = 100
 raw_item = "CHOICEBAND"
@@ -236,7 +238,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.SERRA.10.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -244,7 +246,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.SERRA.10.pokemon]]
 internal_name = "BEARTIC"
 level = 100
 raw_item = "LIFEORB"
@@ -259,7 +261,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.SERRA.10.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -267,7 +269,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.SERRA.10.pokemon]]
 internal_name = "ROTOM"
 level = 100
 raw_item = "ICIUMZ2"
@@ -282,7 +284,7 @@ form_number = 3
 nature = "MODEST"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.SERRA.10.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -290,13 +292,13 @@ spa = 0
 spd = 252
 spe = 0
 
-[trainers.11]
+[trainers.SERRA.11]
 raw_trainer_class = "SERRA"
 battler_name = "Serra"
 battler_id = 11
 raw_battle_items = []
 
-[[trainers.11.pokemon]]
+[[trainers.SERRA.11.pokemon]]
 internal_name = "NINETALES"
 level = 100
 raw_item = "ICYROCK"
@@ -312,7 +314,7 @@ form_number = 1
 nature = "TIMID"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.SERRA.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -320,7 +322,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.SERRA.11.pokemon]]
 internal_name = "ARTICUNO"
 level = 100
 raw_item = "LIGHTCLAY"
@@ -335,7 +337,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.SERRA.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -343,7 +345,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.SERRA.11.pokemon]]
 internal_name = "KYUREM"
 level = 100
 raw_item = "LIFEORB"
@@ -358,7 +360,7 @@ form_number = 1
 nature = "TIMID"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.SERRA.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -366,7 +368,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.SERRA.11.pokemon]]
 internal_name = "KYUREM"
 level = 100
 raw_item = "ICIUMZ2"
@@ -381,7 +383,7 @@ form_number = 2
 nature = "JOLLY"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.SERRA.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -389,7 +391,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.SERRA.11.pokemon]]
 internal_name = "WEAVILE"
 level = 100
 raw_item = "MAGICALSEED"
@@ -404,7 +406,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.SERRA.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -412,7 +414,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.SERRA.11.pokemon]]
 internal_name = "GLACEON"
 level = 100
 raw_item = "MAGICALSEED"
@@ -427,7 +429,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.SERRA.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -435,13 +437,13 @@ spa = 252
 spd = 252
 spe = 0
 
-[trainers.12]
+[trainers.SERRA.12]
 raw_trainer_class = "SERRA"
 battler_name = "Serra"
 battler_id = 12
 raw_battle_items = []
 
-[[trainers.12.pokemon]]
+[[trainers.SERRA.12.pokemon]]
 internal_name = "AURORUS"
 level = 100
 raw_item = "AMPLIFIELDROCK"
@@ -455,7 +457,7 @@ sex = ""
 nature = "SASSY"
 iv = 32
 
-[trainers.12.pokemon.evs]
+[trainers.SERRA.12.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -463,7 +465,7 @@ spa = 0
 spd = 252
 spe = 4
 
-[[trainers.12.pokemon]]
+[[trainers.SERRA.12.pokemon]]
 internal_name = "ABOMASNOW"
 level = 100
 raw_item = "ABOMASITE"
@@ -478,7 +480,7 @@ sex = ""
 nature = "SASSY"
 iv = 32
 
-[trainers.12.pokemon.evs]
+[trainers.SERRA.12.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -486,7 +488,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.12.pokemon]]
+[[trainers.SERRA.12.pokemon]]
 internal_name = "AVALUGG"
 level = 100
 raw_item = "IAPAPABERRY"
@@ -501,7 +503,7 @@ sex = ""
 nature = "BRAVE"
 iv = 32
 
-[trainers.12.pokemon.evs]
+[trainers.SERRA.12.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -509,7 +511,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.SERRA.12.pokemon]]
 internal_name = "CRABOMINABLE"
 level = 100
 raw_item = "LIFEORB"
@@ -524,7 +526,7 @@ sex = ""
 nature = "BRAVE"
 iv = 32
 
-[trainers.12.pokemon.evs]
+[trainers.SERRA.12.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -532,7 +534,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.SERRA.12.pokemon]]
 internal_name = "REGICE"
 level = 100
 raw_item = "MAGICALSEED"
@@ -547,7 +549,7 @@ sex = ""
 nature = "SASSY"
 iv = 32
 
-[trainers.12.pokemon.evs]
+[trainers.SERRA.12.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -555,7 +557,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.12.pokemon]]
+[[trainers.SERRA.12.pokemon]]
 internal_name = "ARTICUNO"
 level = 100
 raw_item = "LEFTOVERS"
@@ -570,7 +572,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.SERRA.12.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -578,13 +580,13 @@ spa = 252
 spd = 252
 spe = 0
 
-[trainers.13]
+[trainers.SERRA.13]
 raw_trainer_class = "SERRA"
 battler_name = "Serra"
 battler_id = 13
 raw_battle_items = []
 
-[[trainers.13.pokemon]]
+[[trainers.SERRA.13.pokemon]]
 internal_name = "GLALIE"
 level = 100
 raw_item = "GLALITITE"
@@ -598,7 +600,7 @@ sex = ""
 nature = "NAIVE"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.SERRA.13.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -606,7 +608,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.13.pokemon]]
+[[trainers.SERRA.13.pokemon]]
 internal_name = "ARTICUNO"
 level = 100
 raw_item = "ASSAULTVEST"
@@ -620,7 +622,7 @@ sex = ""
 nature = "CAREFUL"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.SERRA.13.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -628,7 +630,7 @@ spa = 252
 spd = 0
 spe = 4
 
-[[trainers.13.pokemon]]
+[[trainers.SERRA.13.pokemon]]
 internal_name = "GLACEON"
 level = 100
 raw_item = "SYNTHETICSEED"
@@ -642,7 +644,7 @@ sex = ""
 nature = "RASH"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.SERRA.13.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -650,7 +652,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.13.pokemon]]
+[[trainers.SERRA.13.pokemon]]
 internal_name = "KYUREM"
 level = 100
 raw_item = "DRAGONIUMZ2"
@@ -665,7 +667,7 @@ form_number = 1
 nature = "RASH"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.SERRA.13.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -673,7 +675,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.13.pokemon]]
+[[trainers.SERRA.13.pokemon]]
 internal_name = "CLOYSTER"
 level = 100
 raw_item = "WIKIBERRY"
@@ -688,7 +690,7 @@ sex = ""
 nature = "NAIVE"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.SERRA.13.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -696,7 +698,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.13.pokemon]]
+[[trainers.SERRA.13.pokemon]]
 internal_name = "REGICE"
 level = 100
 raw_item = "SYNTHETICSEED"
@@ -710,7 +712,7 @@ sex = ""
 nature = "CALM"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.SERRA.13.pokemon.evs]
 hp = 0
 atk = 128
 def_ = 0
@@ -718,7 +720,7 @@ spa = 128
 spd = 0
 spe = 0
 
-[trainers.20]
+[trainers.SERRA.20]
 raw_trainer_class = "SERRA"
 battler_name = "Serra"
 battler_id = 20
@@ -728,7 +730,7 @@ raw_battle_items = [
     "HYPERPOTION",
 ]
 
-[[trainers.20.pokemon]]
+[[trainers.SERRA.20.pokemon]]
 internal_name = "GLACEON"
 level = 48
 raw_item = "BRIGHTPOWDER"
@@ -743,7 +745,7 @@ sex = "F"
 nature = "CALM"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.SERRA.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -751,7 +753,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.SERRA.20.pokemon]]
 internal_name = "NINETALES"
 level = 48
 raw_item = "ICYROCK"
@@ -767,7 +769,7 @@ form_number = 1
 nature = "CALM"
 iv = 25
 
-[trainers.20.pokemon.evs]
+[trainers.SERRA.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -775,7 +777,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.SERRA.20.pokemon]]
 internal_name = "LAPRAS"
 level = 48
 raw_item = "SYNTHETICSEED"
@@ -790,7 +792,7 @@ sex = "F"
 nature = "MODEST"
 iv = 15
 
-[trainers.20.pokemon.evs]
+[trainers.SERRA.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -798,7 +800,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.SERRA.20.pokemon]]
 internal_name = "SANDSLASH"
 level = 47
 raw_item = "SYNTHETICSEED"
@@ -813,7 +815,7 @@ form_number = 1
 nature = "ADAMANT"
 iv = 25
 
-[trainers.20.pokemon.evs]
+[trainers.SERRA.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -821,7 +823,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.SERRA.20.pokemon]]
 internal_name = "FROSMOTH"
 level = 49
 raw_item = "LAXINCENSE"
@@ -836,7 +838,7 @@ sex = "F"
 nature = "TIMID"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.SERRA.20.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -844,7 +846,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.SERRA.20.pokemon]]
 internal_name = "FROSLASS"
 level = 50
 raw_item = "FROSLASSITE"
@@ -859,7 +861,7 @@ sex = "F"
 nature = "TIMID"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.SERRA.20.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0

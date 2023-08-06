@@ -1,14 +1,22 @@
-[trainers.0]
-raw_trainer_class = "StreetRat"
+trainer_name = "Andy"
+
+[trainers.Casanova.0]
+raw_trainer_class = "Casanova"
 battler_name = "Andy"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
-internal_name = "DODUO"
-level = 58
+[[trainers.Casanova.0.pokemon]]
+internal_name = "PURRLOIN"
+level = 8
+raw_moves = [
+    "SCRATCH",
+    "SCRATCH",
+    "SCRATCH",
+    "GROWL",
+]
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.Casanova.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -16,12 +24,30 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[trainers.StreetRat.0]
+raw_trainer_class = "StreetRat"
+battler_name = "Andy"
+raw_battle_items = []
+
+[[trainers.StreetRat.0.pokemon]]
+internal_name = "DODUO"
+level = 58
+iv = 0
+
+[trainers.StreetRat.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.StreetRat.0.pokemon]]
 internal_name = "DODRIO"
 level = 59
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.StreetRat.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

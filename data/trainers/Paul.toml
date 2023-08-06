@@ -1,14 +1,16 @@
-[trainers.0]
-raw_trainer_class = "BLACKBELT"
+trainer_name = "Paul"
+
+[trainers.YOUNGSTER.0]
+raw_trainer_class = "YOUNGSTER"
 battler_name = "Paul"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
-internal_name = "TYROGUE"
-level = 34
+[[trainers.YOUNGSTER.0.pokemon]]
+internal_name = "BELLSPROUT"
+level = 4
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.YOUNGSTER.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -16,12 +18,30 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[trainers.BLACKBELT.0]
+raw_trainer_class = "BLACKBELT"
+battler_name = "Paul"
+raw_battle_items = []
+
+[[trainers.BLACKBELT.0.pokemon]]
+internal_name = "TYROGUE"
+level = 34
+iv = 0
+
+[trainers.BLACKBELT.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.BLACKBELT.0.pokemon]]
 internal_name = "HITMONTOP"
 level = 37
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.BLACKBELT.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

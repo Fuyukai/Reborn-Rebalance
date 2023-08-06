@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Regigigas"
+
+[trainers.REGIGIGAS.0]
 raw_trainer_class = "REGIGIGAS"
 battler_name = "Regigigas"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.REGIGIGAS.0.pokemon]]
 internal_name = "REGIDRAGO"
 level = 111
 raw_item = "WHITEHERB"
@@ -17,7 +19,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 32
 
-[trainers.0.pokemon.evs]
+[trainers.REGIGIGAS.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 128
@@ -25,7 +27,7 @@ spa = 0
 spd = 128
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.REGIGIGAS.0.pokemon]]
 internal_name = "REGIELEKI"
 level = 112
 raw_item = "LIFEORB"
@@ -39,7 +41,7 @@ sex = ""
 nature = "MODEST"
 iv = 32
 
-[trainers.0.pokemon.evs]
+[trainers.REGIGIGAS.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -47,7 +49,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.REGIGIGAS.0.pokemon]]
 internal_name = "REGISTEEL"
 level = 114
 raw_item = "MAGICALSEED"
@@ -61,7 +63,7 @@ sex = ""
 nature = "SASSY"
 iv = 32
 
-[trainers.0.pokemon.evs]
+[trainers.REGIGIGAS.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -69,7 +71,7 @@ spa = 0
 spd = 0
 spe = 128
 
-[[trainers.0.pokemon]]
+[[trainers.REGIGIGAS.0.pokemon]]
 internal_name = "REGIROCK"
 level = 114
 raw_item = "CHOICEBAND"
@@ -83,7 +85,7 @@ sex = ""
 nature = "BRAVE"
 iv = 32
 
-[trainers.0.pokemon.evs]
+[trainers.REGIGIGAS.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -91,7 +93,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.REGIGIGAS.0.pokemon]]
 internal_name = "REGICE"
 level = 114
 raw_item = "CHOICESPECS"
@@ -105,7 +107,7 @@ sex = ""
 nature = "QUIET"
 iv = 32
 
-[trainers.0.pokemon.evs]
+[trainers.REGIGIGAS.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -113,7 +115,7 @@ spa = 0
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.REGIGIGAS.0.pokemon]]
 internal_name = "REGIGIGAS"
 level = 114
 raw_item = "MAGICALSEED"
@@ -127,7 +129,7 @@ sex = ""
 nature = "NAUGHTY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.REGIGIGAS.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252

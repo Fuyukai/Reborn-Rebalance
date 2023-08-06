@@ -1,9 +1,780 @@
-[trainers.0]
+trainer_name = "Sigmund Connal"
+
+[trainers.DOCTOR.0]
+raw_trainer_class = "DOCTOR"
+battler_name = "Sigmund Connal"
+raw_battle_items = [
+    "HYPERPOTION",
+    "HYPERPOTION",
+]
+
+[[trainers.DOCTOR.0.pokemon]]
+internal_name = "MUSHARNA"
+level = 45
+raw_item = "AMPLIFIELDROCK"
+raw_moves = [
+    "PSYCHICTERRAIN",
+    "MOONLIGHT",
+    "PSYSHOCK",
+    "DAZZLINGGLEAM",
+]
+ability_number = 2
+nature = "MODEST"
+iv = 25
+
+[trainers.DOCTOR.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.DOCTOR.0.pokemon]]
+internal_name = "DRAMPA"
+level = 46
+raw_moves = [
+    "THUNDERBOLT",
+    "DRAGONPULSE",
+    "NATUREPOWER",
+    "HYPERVOICE",
+]
+nature = "MODEST"
+iv = 25
+
+[trainers.DOCTOR.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.DOCTOR.0.pokemon]]
+internal_name = "RAICHU"
+level = 46
+raw_moves = [
+    "VOLTSWITCH",
+    "PSYCHIC",
+    "NASTYPLOT",
+    "THUNDERBOLT",
+]
+sex = "F"
+form_number = 1
+nature = "MODEST"
+iv = 25
+
+[trainers.DOCTOR.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.DOCTOR.0.pokemon]]
+internal_name = "HYPNO"
+level = 47
+raw_item = "WIDELENS"
+raw_moves = [
+    "HYPNOSIS",
+    "NASTYPLOT",
+    "PSYCHIC",
+    "DAZZLINGGLEAM",
+]
+nature = "MODEST"
+iv = 25
+
+[trainers.DOCTOR.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.DOCTOR.0.pokemon]]
+internal_name = "ROTOM"
+level = 47
+raw_moves = [
+    "THUNDERBOLT",
+    "HEX",
+    "WILLOWISP",
+    "FOULPLAY",
+]
+sex = ""
+nature = "TIMID"
+iv = 25
+
+[trainers.DOCTOR.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.DOCTOR.0.pokemon]]
+internal_name = "ELECTIVIRE"
+level = 48
+raw_moves = [
+    "THUNDERPUNCH",
+    "FIREPUNCH",
+    "LOWKICK",
+    "ICEPUNCH",
+]
+nature = "JOLLY"
+iv = 31
+
+[trainers.DOCTOR.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.DOCTOR.1]
+raw_trainer_class = "DOCTOR"
+battler_name = "Sigmund Connal"
+battler_id = 1
+raw_battle_items = [
+    "HYPERPOTION",
+    "HYPERPOTION",
+]
+
+[[trainers.DOCTOR.1.pokemon]]
+internal_name = "MUSHARNA"
+level = 48
+raw_item = "AMPLIFIELDROCK"
+raw_moves = [
+    "PSYCHICTERRAIN",
+    "MOONLIGHT",
+    "PSYSHOCK",
+    "DAZZLINGGLEAM",
+]
+ability_number = 2
+nature = "MODEST"
+iv = 25
+
+[trainers.DOCTOR.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.DOCTOR.1.pokemon]]
+internal_name = "DRAMPA"
+level = 49
+raw_moves = [
+    "THUNDERBOLT",
+    "DRAGONPULSE",
+    "NATUREPOWER",
+    "HYPERVOICE",
+]
+nature = "MODEST"
+iv = 25
+
+[trainers.DOCTOR.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.DOCTOR.1.pokemon]]
+internal_name = "RAICHU"
+level = 49
+raw_moves = [
+    "VOLTSWITCH",
+    "PSYCHIC",
+    "NASTYPLOT",
+    "THUNDERBOLT",
+]
+sex = "F"
+form_number = 1
+nature = "MODEST"
+iv = 25
+
+[trainers.DOCTOR.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.DOCTOR.1.pokemon]]
+internal_name = "HYPNO"
+level = 50
+raw_item = "WIDELENS"
+raw_moves = [
+    "HYPNOSIS",
+    "NASTYPLOT",
+    "PSYCHIC",
+    "DAZZLINGGLEAM",
+]
+nature = "MODEST"
+iv = 25
+
+[trainers.DOCTOR.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.DOCTOR.1.pokemon]]
+internal_name = "ROTOM"
+level = 50
+raw_moves = [
+    "THUNDERBOLT",
+    "HEX",
+    "WILLOWISP",
+    "FOULPLAY",
+]
+sex = ""
+nature = "TIMID"
+iv = 25
+
+[trainers.DOCTOR.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.DOCTOR.1.pokemon]]
+internal_name = "ELECTIVIRE"
+level = 51
+raw_moves = [
+    "THUNDERPUNCH",
+    "FIREPUNCH",
+    "LOWKICK",
+    "ICEPUNCH",
+]
+nature = "JOLLY"
+iv = 31
+
+[trainers.DOCTOR.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.DOCTOR.2]
+raw_trainer_class = "DOCTOR"
+battler_name = "Sigmund Connal"
+battler_id = 2
+raw_battle_items = []
+
+[[trainers.DOCTOR.2.pokemon]]
+internal_name = "ELECTIVIRE"
+level = 38
+raw_moves = [
+    "VOLTSWITCH",
+    "THUNDERWAVE",
+    "LOWKICK",
+    "ICEPUNCH",
+]
+nature = "JOLLY"
+iv = 31
+
+[trainers.DOCTOR.2.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.DOCTOR.2.pokemon]]
+internal_name = "MUSHARNA"
+level = 34
+raw_item = "AMPLIFIELDROCK"
+raw_moves = [
+    "PSYCHICTERRAIN",
+    "MOONLIGHT",
+    "PSYBEAM",
+    "SIGNALBEAM",
+]
+ability_number = 2
+nature = "SERIOUS"
+iv = 15
+
+[trainers.DOCTOR.2.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.DOCTOR.2.pokemon]]
+internal_name = "HYPNO"
+level = 35
+raw_moves = [
+    "HYPNOSIS",
+    "PSYCHICTERRAIN",
+    "PSYCHIC",
+    "SIGNALBEAM",
+]
+nature = "MODEST"
+iv = 15
+
+[trainers.DOCTOR.2.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.DOCTOR.2.pokemon]]
+internal_name = "ROTOM"
+level = 35
+raw_moves = [
+    "VOLTSWITCH",
+    "OMINOUSWIND",
+    "THUNDERWAVE",
+    "CONFUSERAY",
+]
+sex = ""
+nature = "TIMID"
+iv = 15
+
+[trainers.DOCTOR.2.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.DOCTOR.2.pokemon]]
+internal_name = "RAICHU"
+level = 36
+raw_moves = [
+    "VOLTSWITCH",
+    "PSYCHIC",
+    "NUZZLE",
+    "FAKEOUT",
+]
+sex = "F"
+form_number = 1
+nature = "MODEST"
+iv = 15
+
+[trainers.DOCTOR.2.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.DOCTOR.20]
+raw_trainer_class = "DOCTOR"
+battler_name = "Sigmund Connal"
+battler_id = 20
+raw_battle_items = [
+    "HYPERPOTION",
+    "HYPERPOTION",
+]
+
+[[trainers.DOCTOR.20.pokemon]]
+internal_name = "PINCURCHIN"
+level = 45
+raw_item = "AMPLIFIELDROCK"
+raw_moves = [
+    "ZINGZAP",
+    "POISONJAB",
+    "SUCKERPUNCH",
+    "SPIKES",
+]
+ability_number = 1
+nature = "CAREFUL"
+iv = 25
+
+[trainers.DOCTOR.20.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.DOCTOR.20.pokemon]]
+internal_name = "SLOWKING"
+level = 45
+raw_item = "WISEGLASSES"
+raw_moves = [
+    "HIDDENPOWERELE",
+    "SLUDGEBOMB",
+    "EERIESPELL",
+    "SCALD",
+]
+form_number = 2
+nature = "MODEST"
+iv = 15
+
+[trainers.DOCTOR.20.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.DOCTOR.20.pokemon]]
+internal_name = "DUSCLOPS"
+level = 46
+raw_item = "EVIOLITE"
+raw_moves = [
+    "CALMMIND",
+    "SHADOWBALL",
+    "ICEBEAM",
+    "WILLOWISP",
+]
+ability_number = 1
+nature = "BOLD"
+iv = 25
+
+[trainers.DOCTOR.20.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.DOCTOR.20.pokemon]]
+internal_name = "RAICHU"
+level = 46
+raw_moves = [
+    "VOLTSWITCH",
+    "PSYCHIC",
+    "NASTYPLOT",
+    "THUNDERBOLT",
+]
+sex = "F"
+form_number = 1
+nature = "MODEST"
+iv = 25
+
+[trainers.DOCTOR.20.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.DOCTOR.20.pokemon]]
+internal_name = "HYPNO"
+level = 47
+raw_item = "WIDELENS"
+raw_moves = [
+    "HYPNOSIS",
+    "NASTYPLOT",
+    "PSYCHIC",
+    "DAZZLINGGLEAM",
+]
+nature = "MODEST"
+iv = 25
+
+[trainers.DOCTOR.20.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.DOCTOR.20.pokemon]]
+internal_name = "ELECTIVIRE"
+level = 48
+raw_moves = [
+    "THUNDERPUNCH",
+    "FIREPUNCH",
+    "LOWKICK",
+    "ICEPUNCH",
+]
+nature = "JOLLY"
+iv = 31
+
+[trainers.DOCTOR.20.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.DOCTOR.21]
+raw_trainer_class = "DOCTOR"
+battler_name = "Sigmund Connal"
+battler_id = 21
+raw_battle_items = [
+    "HYPERPOTION",
+    "HYPERPOTION",
+]
+
+[[trainers.DOCTOR.21.pokemon]]
+internal_name = "PINCURCHIN"
+level = 48
+raw_item = "AMPLIFIELDROCK"
+raw_moves = [
+    "ZINGZAP",
+    "POISONJAB",
+    "SUCKERPUNCH",
+    "SPIKES",
+]
+ability_number = 1
+nature = "CAREFUL"
+iv = 25
+
+[trainers.DOCTOR.21.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.DOCTOR.21.pokemon]]
+internal_name = "DUSCLOPS"
+level = 49
+raw_item = "EVIOLITE"
+raw_moves = [
+    "CALMMIND",
+    "SHADOWBALL",
+    "ICEBEAM",
+    "WILLOWISP",
+]
+ability_number = 1
+nature = "BOLD"
+iv = 25
+
+[trainers.DOCTOR.21.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.DOCTOR.21.pokemon]]
+internal_name = "RAICHU"
+level = 49
+raw_moves = [
+    "VOLTSWITCH",
+    "PSYCHIC",
+    "NASTYPLOT",
+    "THUNDERBOLT",
+]
+sex = "F"
+form_number = 1
+nature = "MODEST"
+iv = 25
+
+[trainers.DOCTOR.21.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.DOCTOR.21.pokemon]]
+internal_name = "HYPNO"
+level = 50
+raw_item = "HYPNOTITE"
+raw_moves = [
+    "GRASSKNOT",
+    "NASTYPLOT",
+    "PSYCHIC",
+    "DAZZLINGGLEAM",
+]
+nature = "TIMID"
+iv = 25
+
+[trainers.DOCTOR.21.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.DOCTOR.21.pokemon]]
+internal_name = "SLOWKING"
+level = 48
+raw_item = "WISEGLASSES"
+raw_moves = [
+    "HIDDENPOWERELE",
+    "SLUDGEBOMB",
+    "EERIESPELL",
+    "SCALD",
+]
+form_number = 2
+nature = "MODEST"
+iv = 15
+
+[trainers.DOCTOR.21.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.DOCTOR.21.pokemon]]
+internal_name = "ELECTIVIRE"
+level = 51
+raw_moves = [
+    "THUNDERPUNCH",
+    "FIREPUNCH",
+    "LOWKICK",
+    "ICEPUNCH",
+]
+nature = "JOLLY"
+iv = 31
+
+[trainers.DOCTOR.21.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.DOCTOR.22]
+raw_trainer_class = "DOCTOR"
+battler_name = "Sigmund Connal"
+battler_id = 22
+raw_battle_items = []
+
+[[trainers.DOCTOR.22.pokemon]]
+internal_name = "ELECTIVIRE"
+level = 38
+raw_moves = [
+    "VOLTSWITCH",
+    "THUNDERWAVE",
+    "LOWKICK",
+    "ICEPUNCH",
+]
+nature = "JOLLY"
+iv = 31
+
+[trainers.DOCTOR.22.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.DOCTOR.22.pokemon]]
+internal_name = "PINCURCHIN"
+level = 35
+raw_item = "AMPLIFIELDROCK"
+raw_moves = [
+    "ZINGZAP",
+    "POISONJAB",
+    "SUCKERPUNCH",
+    "SPIKES",
+]
+ability_number = 1
+nature = "CAREFUL"
+iv = 25
+
+[trainers.DOCTOR.22.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.DOCTOR.22.pokemon]]
+internal_name = "DUSCLOPS"
+level = 34
+raw_item = "EVIOLITE"
+raw_moves = [
+    "CALMMIND",
+    "SHADOWBALL",
+    "ICEBEAM",
+    "WILLOWISP",
+]
+ability_number = 1
+nature = "BOLD"
+iv = 25
+
+[trainers.DOCTOR.22.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.DOCTOR.22.pokemon]]
+internal_name = "SLOWKING"
+level = 35
+raw_moves = [
+    "POWERGEM",
+    "SLUDGEBOMB",
+    "EERIESPELL",
+    "SCALD",
+]
+form_number = 2
+nature = "MODEST"
+iv = 15
+
+[trainers.DOCTOR.22.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.DOCTOR.22.pokemon]]
+internal_name = "RAICHU"
+level = 36
+raw_moves = [
+    "VOLTSWITCH",
+    "PSYCHIC",
+    "NUZZLE",
+    "FAKEOUT",
+]
+sex = "F"
+form_number = 1
+nature = "MODEST"
+iv = 15
+
+[trainers.DOCTOR.22.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.FRIEND.0]
 raw_trainer_class = "FRIEND"
 battler_name = "Sigmund Connal"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.FRIEND.0.pokemon]]
 internal_name = "AROMATISSE"
 level = 93
 raw_item = "AMPLIFIELDROCK"
@@ -18,7 +789,7 @@ sex = "F"
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.FRIEND.0.pokemon.evs]
 hp = 0
 atk = 200
 def_ = 0
@@ -26,7 +797,7 @@ spa = 0
 spd = 252
 spe = 56
 
-[[trainers.0.pokemon]]
+[[trainers.FRIEND.0.pokemon]]
 internal_name = "DRAMPA"
 level = 94
 raw_item = "LIFEORB"
@@ -39,7 +810,7 @@ raw_moves = [
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.FRIEND.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -47,7 +818,7 @@ spa = 0
 spd = 252
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.FRIEND.0.pokemon]]
 internal_name = "RAICHU"
 level = 94
 raw_item = "SYNTHETICSEED"
@@ -62,7 +833,7 @@ form_number = 1
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.FRIEND.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -70,7 +841,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.FRIEND.0.pokemon]]
 internal_name = "ROTOM"
 level = 94
 raw_item = "ICIUMZ2"
@@ -85,7 +856,7 @@ form_number = 3
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.FRIEND.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -93,7 +864,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.FRIEND.0.pokemon]]
 internal_name = "ALAKAZAM"
 level = 95
 raw_item = "ALAKAZITE"
@@ -107,7 +878,7 @@ sex = "F"
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.FRIEND.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -115,7 +886,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.FRIEND.0.pokemon]]
 internal_name = "ELECTIVIRE"
 level = 95
 raw_item = "LIFEORB"
@@ -128,7 +899,7 @@ raw_moves = [
 nature = "JOLLY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.FRIEND.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -136,259 +907,13 @@ spa = 252
 spd = 0
 spe = 4
 
-[trainers.1]
-raw_trainer_class = "DOCTOR"
-battler_name = "Sigmund Connal"
-battler_id = 1
-raw_battle_items = [
-    "HYPERPOTION",
-    "HYPERPOTION",
-]
-
-[[trainers.1.pokemon]]
-internal_name = "MUSHARNA"
-level = 48
-raw_item = "AMPLIFIELDROCK"
-raw_moves = [
-    "PSYCHICTERRAIN",
-    "MOONLIGHT",
-    "PSYSHOCK",
-    "DAZZLINGGLEAM",
-]
-ability_number = 2
-nature = "MODEST"
-iv = 25
-
-[trainers.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.1.pokemon]]
-internal_name = "DRAMPA"
-level = 49
-raw_moves = [
-    "THUNDERBOLT",
-    "DRAGONPULSE",
-    "NATUREPOWER",
-    "HYPERVOICE",
-]
-nature = "MODEST"
-iv = 25
-
-[trainers.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.1.pokemon]]
-internal_name = "RAICHU"
-level = 49
-raw_moves = [
-    "VOLTSWITCH",
-    "PSYCHIC",
-    "NASTYPLOT",
-    "THUNDERBOLT",
-]
-sex = "F"
-form_number = 1
-nature = "MODEST"
-iv = 25
-
-[trainers.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.1.pokemon]]
-internal_name = "HYPNO"
-level = 50
-raw_item = "WIDELENS"
-raw_moves = [
-    "HYPNOSIS",
-    "NASTYPLOT",
-    "PSYCHIC",
-    "DAZZLINGGLEAM",
-]
-nature = "MODEST"
-iv = 25
-
-[trainers.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.1.pokemon]]
-internal_name = "ROTOM"
-level = 50
-raw_moves = [
-    "THUNDERBOLT",
-    "HEX",
-    "WILLOWISP",
-    "FOULPLAY",
-]
-sex = ""
-nature = "TIMID"
-iv = 25
-
-[trainers.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.1.pokemon]]
-internal_name = "ELECTIVIRE"
-level = 51
-raw_moves = [
-    "THUNDERPUNCH",
-    "FIREPUNCH",
-    "LOWKICK",
-    "ICEPUNCH",
-]
-nature = "JOLLY"
-iv = 31
-
-[trainers.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[trainers.2]
-raw_trainer_class = "DOCTOR"
-battler_name = "Sigmund Connal"
-battler_id = 2
-raw_battle_items = []
-
-[[trainers.2.pokemon]]
-internal_name = "ELECTIVIRE"
-level = 38
-raw_moves = [
-    "VOLTSWITCH",
-    "THUNDERWAVE",
-    "LOWKICK",
-    "ICEPUNCH",
-]
-nature = "JOLLY"
-iv = 31
-
-[trainers.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.2.pokemon]]
-internal_name = "MUSHARNA"
-level = 34
-raw_item = "AMPLIFIELDROCK"
-raw_moves = [
-    "PSYCHICTERRAIN",
-    "MOONLIGHT",
-    "PSYBEAM",
-    "SIGNALBEAM",
-]
-ability_number = 2
-nature = "SERIOUS"
-iv = 15
-
-[trainers.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.2.pokemon]]
-internal_name = "HYPNO"
-level = 35
-raw_moves = [
-    "HYPNOSIS",
-    "PSYCHICTERRAIN",
-    "PSYCHIC",
-    "SIGNALBEAM",
-]
-nature = "MODEST"
-iv = 15
-
-[trainers.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.2.pokemon]]
-internal_name = "ROTOM"
-level = 35
-raw_moves = [
-    "VOLTSWITCH",
-    "OMINOUSWIND",
-    "THUNDERWAVE",
-    "CONFUSERAY",
-]
-sex = ""
-nature = "TIMID"
-iv = 15
-
-[trainers.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.2.pokemon]]
-internal_name = "RAICHU"
-level = 36
-raw_moves = [
-    "VOLTSWITCH",
-    "PSYCHIC",
-    "NUZZLE",
-    "FAKEOUT",
-]
-sex = "F"
-form_number = 1
-nature = "MODEST"
-iv = 15
-
-[trainers.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[trainers.20]
+[trainers.FRIEND.20]
 raw_trainer_class = "FRIEND"
 battler_name = "Sigmund Connal"
 battler_id = 20
 raw_battle_items = []
 
-[[trainers.20.pokemon]]
+[[trainers.FRIEND.20.pokemon]]
 internal_name = "AROMATISSE"
 level = 93
 raw_item = "AMPLIFIELDROCK"
@@ -403,7 +928,7 @@ sex = "F"
 nature = "MODEST"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.FRIEND.20.pokemon.evs]
 hp = 0
 atk = 200
 def_ = 0
@@ -411,7 +936,7 @@ spa = 0
 spd = 252
 spe = 56
 
-[[trainers.20.pokemon]]
+[[trainers.FRIEND.20.pokemon]]
 internal_name = "SLOWKING"
 level = 94
 raw_item = "POISONIUMZ2"
@@ -425,7 +950,7 @@ form_number = 2
 nature = "MODEST"
 iv = 15
 
-[trainers.20.pokemon.evs]
+[trainers.FRIEND.20.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -433,7 +958,7 @@ spa = 0
 spd = 252
 spe = 4
 
-[[trainers.20.pokemon]]
+[[trainers.FRIEND.20.pokemon]]
 internal_name = "RAICHU"
 level = 94
 raw_item = "SYNTHETICSEED"
@@ -448,7 +973,7 @@ form_number = 1
 nature = "TIMID"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.FRIEND.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -456,7 +981,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.20.pokemon]]
+[[trainers.FRIEND.20.pokemon]]
 internal_name = "PINCURCHIN"
 level = 94
 raw_item = "AMPLIFIELDROCK"
@@ -470,7 +995,7 @@ ability_number = 1
 nature = "TIMID"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.FRIEND.20.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -478,7 +1003,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.FRIEND.20.pokemon]]
 internal_name = "DUSKNOIR"
 level = 95
 raw_item = "DUSKNOIRITE"
@@ -492,7 +1017,7 @@ ability_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.FRIEND.20.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -500,7 +1025,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.20.pokemon]]
+[[trainers.FRIEND.20.pokemon]]
 internal_name = "ELECTIVIRE"
 level = 95
 raw_item = "LIFEORB"
@@ -513,261 +1038,10 @@ raw_moves = [
 nature = "JOLLY"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.FRIEND.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
 spa = 252
 spd = 0
 spe = 4
-
-[trainers.21]
-raw_trainer_class = "DOCTOR"
-battler_name = "Sigmund Connal"
-battler_id = 21
-raw_battle_items = [
-    "HYPERPOTION",
-    "HYPERPOTION",
-]
-
-[[trainers.21.pokemon]]
-internal_name = "PINCURCHIN"
-level = 48
-raw_item = "AMPLIFIELDROCK"
-raw_moves = [
-    "ZINGZAP",
-    "POISONJAB",
-    "SUCKERPUNCH",
-    "SPIKES",
-]
-ability_number = 1
-nature = "CAREFUL"
-iv = 25
-
-[trainers.21.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.21.pokemon]]
-internal_name = "DUSCLOPS"
-level = 49
-raw_item = "EVIOLITE"
-raw_moves = [
-    "CALMMIND",
-    "SHADOWBALL",
-    "ICEBEAM",
-    "WILLOWISP",
-]
-ability_number = 1
-nature = "BOLD"
-iv = 25
-
-[trainers.21.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.21.pokemon]]
-internal_name = "RAICHU"
-level = 49
-raw_moves = [
-    "VOLTSWITCH",
-    "PSYCHIC",
-    "NASTYPLOT",
-    "THUNDERBOLT",
-]
-sex = "F"
-form_number = 1
-nature = "MODEST"
-iv = 25
-
-[trainers.21.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.21.pokemon]]
-internal_name = "HYPNO"
-level = 50
-raw_item = "HYPNOTITE"
-raw_moves = [
-    "GRASSKNOT",
-    "NASTYPLOT",
-    "PSYCHIC",
-    "DAZZLINGGLEAM",
-]
-nature = "TIMID"
-iv = 25
-
-[trainers.21.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.21.pokemon]]
-internal_name = "SLOWKING"
-level = 48
-raw_item = "WISEGLASSES"
-raw_moves = [
-    "HIDDENPOWERELE",
-    "SLUDGEBOMB",
-    "EERIESPELL",
-    "SCALD",
-]
-form_number = 2
-nature = "MODEST"
-iv = 15
-
-[trainers.21.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.21.pokemon]]
-internal_name = "ELECTIVIRE"
-level = 51
-raw_moves = [
-    "THUNDERPUNCH",
-    "FIREPUNCH",
-    "LOWKICK",
-    "ICEPUNCH",
-]
-nature = "JOLLY"
-iv = 31
-
-[trainers.21.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[trainers.22]
-raw_trainer_class = "DOCTOR"
-battler_name = "Sigmund Connal"
-battler_id = 22
-raw_battle_items = []
-
-[[trainers.22.pokemon]]
-internal_name = "ELECTIVIRE"
-level = 38
-raw_moves = [
-    "VOLTSWITCH",
-    "THUNDERWAVE",
-    "LOWKICK",
-    "ICEPUNCH",
-]
-nature = "JOLLY"
-iv = 31
-
-[trainers.22.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.22.pokemon]]
-internal_name = "PINCURCHIN"
-level = 35
-raw_item = "AMPLIFIELDROCK"
-raw_moves = [
-    "ZINGZAP",
-    "POISONJAB",
-    "SUCKERPUNCH",
-    "SPIKES",
-]
-ability_number = 1
-nature = "CAREFUL"
-iv = 25
-
-[trainers.22.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.22.pokemon]]
-internal_name = "DUSCLOPS"
-level = 34
-raw_item = "EVIOLITE"
-raw_moves = [
-    "CALMMIND",
-    "SHADOWBALL",
-    "ICEBEAM",
-    "WILLOWISP",
-]
-ability_number = 1
-nature = "BOLD"
-iv = 25
-
-[trainers.22.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.22.pokemon]]
-internal_name = "SLOWKING"
-level = 35
-raw_moves = [
-    "POWERGEM",
-    "SLUDGEBOMB",
-    "EERIESPELL",
-    "SCALD",
-]
-form_number = 2
-nature = "MODEST"
-iv = 15
-
-[trainers.22.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.22.pokemon]]
-internal_name = "RAICHU"
-level = 36
-raw_moves = [
-    "VOLTSWITCH",
-    "PSYCHIC",
-    "NUZZLE",
-    "FAKEOUT",
-]
-sex = "F"
-form_number = 1
-nature = "MODEST"
-iv = 15
-
-[trainers.22.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0

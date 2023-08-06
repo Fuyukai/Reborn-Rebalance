@@ -1,14 +1,16 @@
-[trainers.0]
+trainer_name = "Cocoa"
+
+[trainers.NatureGirl.0]
 raw_trainer_class = "NatureGirl"
 battler_name = "Cocoa"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.NatureGirl.0.pokemon]]
 internal_name = "HITMONCHAN"
 level = 37
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.NatureGirl.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -16,13 +18,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.1]
+[trainers.NatureGirl.1]
 raw_trainer_class = "NatureGirl"
 battler_name = "Cocoa"
 battler_id = 1
 raw_battle_items = []
 
-[[trainers.1.pokemon]]
+[[trainers.NatureGirl.1.pokemon]]
 internal_name = "GOLEM"
 level = 127
 raw_item = "CUSTAPBERRY"
@@ -37,7 +39,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.NatureGirl.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -45,7 +47,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.1.pokemon]]
+[[trainers.NatureGirl.1.pokemon]]
 internal_name = "STOUTLAND"
 level = 127
 raw_item = "CHOICEBAND"
@@ -61,7 +63,7 @@ nature = "ADAMANT"
 iv = 31
 happiness = 255
 
-[trainers.1.pokemon.evs]
+[trainers.NatureGirl.1.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -69,7 +71,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.NatureGirl.1.pokemon]]
 internal_name = "DUGTRIO"
 level = 127
 raw_item = "LIFEORB"
@@ -85,7 +87,7 @@ form_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.NatureGirl.1.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -93,7 +95,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.NatureGirl.1.pokemon]]
 internal_name = "HITMONCHAN"
 level = 127
 raw_item = "MUSCLEBAND"
@@ -108,7 +110,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.NatureGirl.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252

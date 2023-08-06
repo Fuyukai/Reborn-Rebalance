@@ -1,14 +1,16 @@
-[trainers.0]
+trainer_name = "Davinson"
+
+[trainers.COOLTRAINER_Male.0]
 raw_trainer_class = "COOLTRAINER_Male"
 battler_name = "Davinson"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.COOLTRAINER_Male.0.pokemon]]
 internal_name = "SNIVY"
 level = 16
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.COOLTRAINER_Male.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

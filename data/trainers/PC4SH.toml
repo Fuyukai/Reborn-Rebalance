@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "PC4SH"
+
+[trainers.GLITCH4.0]
 raw_trainer_class = "GLITCH4"
 battler_name = "PC4SH"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.GLITCH4.0.pokemon]]
 internal_name = "POLIWRATH"
 level = 75
 raw_moves = [
@@ -14,7 +16,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.GLITCH4.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

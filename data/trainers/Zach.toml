@@ -1,15 +1,17 @@
-[trainers.3]
+trainer_name = "Zach"
+
+[trainers.Casanova.3]
 raw_trainer_class = "Casanova"
 battler_name = "Zach"
 battler_id = 3
 raw_battle_items = []
 
-[[trainers.3.pokemon]]
+[[trainers.Casanova.3.pokemon]]
 internal_name = "BULBASAUR"
 level = 11
 iv = 0
 
-[trainers.3.pokemon.evs]
+[trainers.Casanova.3.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -17,12 +19,12 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.3.pokemon]]
+[[trainers.Casanova.3.pokemon]]
 internal_name = "SOLOSIS"
 level = 12
 iv = 0
 
-[trainers.3.pokemon.evs]
+[trainers.Casanova.3.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -30,17 +32,17 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.0]
+[trainers.Casanova.0]
 raw_trainer_class = "Casanova"
 battler_name = "Zach"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.Casanova.0.pokemon]]
 internal_name = "IVYSAUR"
 level = 35
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.Casanova.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -48,12 +50,12 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.Casanova.0.pokemon]]
 internal_name = "DUOSION"
 level = 36
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.Casanova.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -61,18 +63,18 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.1]
+[trainers.Casanova.1]
 raw_trainer_class = "Casanova"
 battler_name = "Zach"
 battler_id = 1
 raw_battle_items = []
 
-[[trainers.1.pokemon]]
+[[trainers.Casanova.1.pokemon]]
 internal_name = "VENUSAUR"
 level = 50
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.Casanova.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -80,12 +82,12 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.Casanova.1.pokemon]]
 internal_name = "REUNICLUS"
 level = 51
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.Casanova.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -93,18 +95,18 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.2]
+[trainers.Casanova.2]
 raw_trainer_class = "Casanova"
 battler_name = "Zach"
 battler_id = 2
 raw_battle_items = []
 
-[[trainers.2.pokemon]]
+[[trainers.Casanova.2.pokemon]]
 internal_name = "KOMALA"
 level = 54
 iv = 0
 
-[trainers.2.pokemon.evs]
+[trainers.Casanova.2.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -112,12 +114,12 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.Casanova.2.pokemon]]
 internal_name = "VENUSAUR"
 level = 60
 iv = 0
 
-[trainers.2.pokemon.evs]
+[trainers.Casanova.2.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -125,12 +127,12 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.Casanova.2.pokemon]]
 internal_name = "REUNICLUS"
 level = 61
 iv = 0
 
-[trainers.2.pokemon.evs]
+[trainers.Casanova.2.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -138,13 +140,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.4]
+[trainers.Casanova.4]
 raw_trainer_class = "Casanova"
 battler_name = "Zach"
 battler_id = 4
 raw_battle_items = []
 
-[[trainers.4.pokemon]]
+[[trainers.Casanova.4.pokemon]]
 internal_name = "KOMALA"
 level = 85
 raw_item = "ASSAULTVEST"
@@ -156,7 +158,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.4.pokemon.evs]
+[trainers.Casanova.4.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -164,7 +166,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.4.pokemon]]
+[[trainers.Casanova.4.pokemon]]
 internal_name = "ARCANINE"
 level = 85
 raw_item = "CHOICEBAND"
@@ -177,7 +179,7 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.4.pokemon.evs]
+[trainers.Casanova.4.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -185,7 +187,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.4.pokemon]]
+[[trainers.Casanova.4.pokemon]]
 internal_name = "REUNICLUS"
 level = 85
 raw_item = "LEFTOVERS"
@@ -198,7 +200,7 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.4.pokemon.evs]
+[trainers.Casanova.4.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -206,7 +208,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.4.pokemon]]
+[[trainers.Casanova.4.pokemon]]
 internal_name = "VENUSAUR"
 level = 85
 raw_item = "VENUSAURITE"
@@ -220,7 +222,7 @@ sex = ""
 nature = "MODEST"
 iv = 15
 
-[trainers.4.pokemon.evs]
+[trainers.Casanova.4.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -228,18 +230,18 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.5]
+[trainers.Casanova.5]
 raw_trainer_class = "Casanova"
 battler_name = "Zach"
 battler_id = 5
 raw_battle_items = []
 
-[[trainers.5.pokemon]]
+[[trainers.Casanova.5.pokemon]]
 internal_name = "SOLOSIS"
 level = 21
 iv = 0
 
-[trainers.5.pokemon.evs]
+[trainers.Casanova.5.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -247,12 +249,12 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.5.pokemon]]
+[[trainers.Casanova.5.pokemon]]
 internal_name = "IVYSAUR"
 level = 23
 iv = 0
 
-[trainers.5.pokemon.evs]
+[trainers.Casanova.5.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

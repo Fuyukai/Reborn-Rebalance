@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Melmetal"
+
+[trainers.MELMETAL.0]
 raw_trainer_class = "MELMETAL"
 battler_name = "Melmetal"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.MELMETAL.0.pokemon]]
 internal_name = "MELMETAL"
 level = 100
 raw_moves = [
@@ -16,7 +18,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.MELMETAL.0.pokemon.evs]
 hp = 0
 atk = 780
 def_ = 252

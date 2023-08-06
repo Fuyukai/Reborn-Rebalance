@@ -1,9 +1,75 @@
-[trainers.0]
+trainer_name = "Audrey"
+
+[trainers.MeteorGrunt_090.0]
+raw_trainer_class = "MeteorGrunt_090"
+battler_name = "Audrey"
+raw_battle_items = []
+
+[[trainers.MeteorGrunt_090.0.pokemon]]
+internal_name = "CUBONE"
+level = 11
+iv = 0
+
+[trainers.MeteorGrunt_090.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.MeteorGrunt_090.1]
+raw_trainer_class = "MeteorGrunt_090"
+battler_name = "Audrey"
+battler_id = 1
+raw_battle_items = []
+
+[[trainers.MeteorGrunt_090.1.pokemon]]
+internal_name = "CORSOLA"
+level = 65
+raw_moves = [
+    "MIRRORCOAT",
+    "SCALD",
+    "HEADSMASH",
+    "ANCIENTPOWER",
+]
+sex = ""
+form_number = 1
+iv = 0
+
+[trainers.MeteorGrunt_090.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.MeteorGrunt_090.1.pokemon]]
+internal_name = "MAROWAK"
+level = 66
+raw_moves = [
+    "EARTHQUAKE",
+    "IRONHEAD",
+    "STONEEDGE",
+    "SMACKDOWN",
+]
+iv = 0
+
+[trainers.MeteorGrunt_090.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.MeteorAceF.0]
 raw_trainer_class = "MeteorAceF"
 battler_name = "Audrey"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.MeteorAceF.0.pokemon]]
 internal_name = "VANILLUXE"
 level = 71
 raw_moves = [
@@ -14,7 +80,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.MeteorAceF.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -22,7 +88,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.MeteorAceF.0.pokemon]]
 internal_name = "CORSOLA"
 level = 71
 raw_moves = [
@@ -35,7 +101,7 @@ sex = ""
 form_number = 1
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.MeteorAceF.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -43,7 +109,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.MeteorAceF.0.pokemon]]
 internal_name = "MAROWAK"
 level = 72
 raw_moves = [
@@ -55,7 +121,7 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.MeteorAceF.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -63,13 +129,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.1]
+[trainers.MeteorAceF.1]
 raw_trainer_class = "MeteorAceF"
 battler_name = "Audrey"
 battler_id = 1
 raw_battle_items = []
 
-[[trainers.1.pokemon]]
+[[trainers.MeteorAceF.1.pokemon]]
 internal_name = "TENTACRUEL"
 level = 88
 raw_item = "BLACKSLUDGE"
@@ -83,7 +149,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.MeteorAceF.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -91,7 +157,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.1.pokemon]]
+[[trainers.MeteorAceF.1.pokemon]]
 internal_name = "VANILLUXE"
 level = 88
 raw_item = "CHOICESPECS"
@@ -105,7 +171,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.MeteorAceF.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -113,7 +179,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.1.pokemon]]
+[[trainers.MeteorAceF.1.pokemon]]
 internal_name = "CORSOLA"
 level = 89
 raw_item = "RINDOBERRY"
@@ -128,7 +194,7 @@ sex = ""
 nature = "CALM"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.MeteorAceF.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -136,7 +202,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.1.pokemon]]
+[[trainers.MeteorAceF.1.pokemon]]
 internal_name = "HERACROSS"
 level = 89
 raw_item = "FLAMEORB"
@@ -151,7 +217,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.MeteorAceF.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -159,7 +225,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.1.pokemon]]
+[[trainers.MeteorAceF.1.pokemon]]
 internal_name = "MAROWAK"
 level = 90
 raw_item = "THICKCLUB"
@@ -174,7 +240,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.MeteorAceF.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252

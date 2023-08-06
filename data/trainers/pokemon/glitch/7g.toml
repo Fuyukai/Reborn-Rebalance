@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "7g"
+
+[trainers.GLITCH2.0]
 raw_trainer_class = "GLITCH2"
 battler_name = "7g"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.GLITCH2.0.pokemon]]
 internal_name = "VAPOREON"
 level = 74
 raw_moves = [
@@ -14,7 +16,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.GLITCH2.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

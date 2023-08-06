@@ -1,10 +1,12 @@
-[trainers.1]
+trainer_name = "Aster"
+
+[trainers.AsterKnight.1]
 raw_trainer_class = "AsterKnight"
 battler_name = "Aster"
 battler_id = 1
 raw_battle_items = []
 
-[[trainers.1.pokemon]]
+[[trainers.AsterKnight.1.pokemon]]
 internal_name = "ROCKRUFF"
 level = 16
 raw_moves = [
@@ -17,7 +19,7 @@ ability_number = 2
 nature = ""
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.AsterKnight.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -25,7 +27,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.2]
+[trainers.AsterKnight.2]
 raw_trainer_class = "AsterKnight"
 battler_name = "Aster"
 battler_id = 2
@@ -33,7 +35,7 @@ raw_battle_items = [
     "SUPERPOTION",
 ]
 
-[[trainers.2.pokemon]]
+[[trainers.AsterKnight.2.pokemon]]
 internal_name = "SOLROCK"
 level = 30
 raw_moves = [
@@ -44,7 +46,7 @@ raw_moves = [
 ]
 nature = ""
 
-[trainers.2.pokemon.evs]
+[trainers.AsterKnight.2.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -52,7 +54,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.AsterKnight.2.pokemon]]
 internal_name = "LYCANROC"
 level = 32
 raw_moves = [
@@ -66,7 +68,7 @@ form_number = 1
 nature = "ADAMANT"
 iv = 20
 
-[trainers.2.pokemon.evs]
+[trainers.AsterKnight.2.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -74,7 +76,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.3]
+[trainers.AsterKnight.3]
 raw_trainer_class = "AsterKnight"
 battler_name = "Aster"
 battler_id = 3
@@ -82,7 +84,7 @@ raw_battle_items = [
     "HYPERPOTION",
 ]
 
-[[trainers.3.pokemon]]
+[[trainers.AsterKnight.3.pokemon]]
 internal_name = "SOLROCK"
 level = 38
 raw_moves = [
@@ -94,7 +96,7 @@ raw_moves = [
 nature = "BASHFUL"
 iv = 20
 
-[trainers.3.pokemon.evs]
+[trainers.AsterKnight.3.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -102,7 +104,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.3.pokemon]]
+[[trainers.AsterKnight.3.pokemon]]
 internal_name = "PASSIMIAN"
 level = 39
 raw_moves = [
@@ -113,7 +115,7 @@ raw_moves = [
 ]
 nature = "ADAMANT"
 
-[trainers.3.pokemon.evs]
+[trainers.AsterKnight.3.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -121,7 +123,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.3.pokemon]]
+[[trainers.AsterKnight.3.pokemon]]
 internal_name = "LYCANROC"
 level = 41
 raw_moves = [
@@ -135,7 +137,7 @@ form_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.3.pokemon.evs]
+[trainers.AsterKnight.3.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -143,14 +145,14 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.0]
+[trainers.AsterKnight.0]
 raw_trainer_class = "AsterKnight"
 battler_name = "Aster"
 raw_battle_items = [
     "ULTRAPOTION",
 ]
 
-[[trainers.0.pokemon]]
+[[trainers.AsterKnight.0.pokemon]]
 internal_name = "SOLROCK"
 level = 65
 raw_item = "LIGHTCLAY"
@@ -163,7 +165,7 @@ raw_moves = [
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.AsterKnight.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -171,7 +173,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.AsterKnight.0.pokemon]]
 internal_name = "GOLURK"
 level = 66
 raw_moves = [
@@ -184,7 +186,7 @@ ability_number = 2
 nature = "BASHFUL"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.AsterKnight.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -192,7 +194,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.AsterKnight.0.pokemon]]
 internal_name = "PASSIMIAN"
 level = 66
 raw_item = "LIFEORB"
@@ -205,7 +207,7 @@ raw_moves = [
 nature = "BASHFUL"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.AsterKnight.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -213,7 +215,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.AsterKnight.0.pokemon]]
 internal_name = "KROOKODILE"
 level = 67
 raw_item = "MUSCLEBAND"
@@ -226,7 +228,7 @@ raw_moves = [
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.AsterKnight.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -234,7 +236,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.AsterKnight.0.pokemon]]
 internal_name = "LYCANROC"
 level = 68
 raw_item = "LIFEORB"
@@ -249,7 +251,7 @@ form_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.AsterKnight.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -257,7 +259,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.4]
+[trainers.AsterKnight.4]
 raw_trainer_class = "AsterKnight"
 battler_name = "Aster"
 battler_id = 4
@@ -266,7 +268,7 @@ raw_battle_items = [
     "ULTRAPOTION",
 ]
 
-[[trainers.4.pokemon]]
+[[trainers.AsterKnight.4.pokemon]]
 internal_name = "SOLROCK"
 level = 68
 raw_item = "LIGHTCLAY"
@@ -279,7 +281,7 @@ raw_moves = [
 nature = "ADAMANT"
 iv = 31
 
-[trainers.4.pokemon.evs]
+[trainers.AsterKnight.4.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -287,7 +289,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.4.pokemon]]
+[[trainers.AsterKnight.4.pokemon]]
 internal_name = "GOLURK"
 level = 68
 raw_moves = [
@@ -300,7 +302,7 @@ ability_number = 2
 nature = "BASHFUL"
 iv = 31
 
-[trainers.4.pokemon.evs]
+[trainers.AsterKnight.4.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -308,7 +310,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.4.pokemon]]
+[[trainers.AsterKnight.4.pokemon]]
 internal_name = "KROOKODILE"
 level = 69
 raw_item = "MUSCLEBAND"
@@ -321,7 +323,7 @@ raw_moves = [
 nature = "ADAMANT"
 iv = 31
 
-[trainers.4.pokemon.evs]
+[trainers.AsterKnight.4.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -329,7 +331,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.4.pokemon]]
+[[trainers.AsterKnight.4.pokemon]]
 internal_name = "PASSIMIAN"
 level = 69
 raw_item = "LIFEORB"
@@ -343,7 +345,7 @@ ability_number = 1
 nature = "JOLLY"
 iv = 31
 
-[trainers.4.pokemon.evs]
+[trainers.AsterKnight.4.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -351,7 +353,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.4.pokemon]]
+[[trainers.AsterKnight.4.pokemon]]
 internal_name = "LYCANROC"
 level = 70
 raw_item = "LIFEORB"
@@ -366,7 +368,7 @@ sex = "F"
 nature = "JOLLY"
 iv = 31
 
-[trainers.4.pokemon.evs]
+[trainers.AsterKnight.4.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -374,7 +376,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.4.pokemon]]
+[[trainers.AsterKnight.4.pokemon]]
 internal_name = "LYCANROC"
 level = 73
 raw_item = "ELEMENTALSEED"
@@ -389,7 +391,7 @@ form_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.4.pokemon.evs]
+[trainers.AsterKnight.4.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -397,7 +399,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[trainers.5]
+[trainers.AsterKnight.5]
 raw_trainer_class = "AsterKnight"
 battler_name = "Aster"
 battler_id = 5
@@ -406,7 +408,7 @@ raw_battle_items = [
     "ULTRAPOTION",
 ]
 
-[[trainers.5.pokemon]]
+[[trainers.AsterKnight.5.pokemon]]
 internal_name = "SOLROCK"
 level = 84
 raw_item = "LIGHTCLAY"
@@ -419,7 +421,7 @@ raw_moves = [
 nature = "ADAMANT"
 iv = 31
 
-[trainers.5.pokemon.evs]
+[trainers.AsterKnight.5.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -427,7 +429,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.5.pokemon]]
+[[trainers.AsterKnight.5.pokemon]]
 internal_name = "GOLURK"
 level = 84
 raw_moves = [
@@ -440,7 +442,7 @@ ability_number = 2
 nature = "BASHFUL"
 iv = 31
 
-[trainers.5.pokemon.evs]
+[trainers.AsterKnight.5.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -448,7 +450,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.5.pokemon]]
+[[trainers.AsterKnight.5.pokemon]]
 internal_name = "KROOKODILE"
 level = 85
 raw_item = "MUSCLEBAND"
@@ -461,7 +463,7 @@ raw_moves = [
 nature = "ADAMANT"
 iv = 31
 
-[trainers.5.pokemon.evs]
+[trainers.AsterKnight.5.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -469,7 +471,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.5.pokemon]]
+[[trainers.AsterKnight.5.pokemon]]
 internal_name = "PASSIMIAN"
 level = 85
 raw_item = "LIFEORB"
@@ -483,7 +485,7 @@ ability_number = 1
 nature = "JOLLY"
 iv = 31
 
-[trainers.5.pokemon.evs]
+[trainers.AsterKnight.5.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -491,7 +493,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.5.pokemon]]
+[[trainers.AsterKnight.5.pokemon]]
 internal_name = "LYCANROC"
 level = 86
 raw_item = "LIFEORB"
@@ -506,7 +508,7 @@ sex = "F"
 nature = "JOLLY"
 iv = 31
 
-[trainers.5.pokemon.evs]
+[trainers.AsterKnight.5.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -514,7 +516,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.5.pokemon]]
+[[trainers.AsterKnight.5.pokemon]]
 internal_name = "LYCANROC"
 level = 88
 raw_item = "ELEMENTALSEED"
@@ -529,7 +531,7 @@ form_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.5.pokemon.evs]
+[trainers.AsterKnight.5.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -537,13 +539,529 @@ spa = 252
 spd = 0
 spe = 0
 
-[trainers.1000]
+[trainers.AsterKnight.22]
+raw_trainer_class = "AsterKnight"
+battler_name = "Aster"
+battler_id = 22
+raw_battle_items = [
+    "SUPERPOTION",
+]
+
+[[trainers.AsterKnight.22.pokemon]]
+internal_name = "SOLROCK"
+level = 30
+raw_moves = [
+    "ROCKPOLISH",
+    "PSYWAVE",
+    "FIRESPIN",
+    "ROCKSLIDE",
+]
+nature = ""
+
+[trainers.AsterKnight.22.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.AsterKnight.22.pokemon]]
+internal_name = "LYCANROC"
+level = 32
+raw_moves = [
+    "THUNDERFANG",
+    "ROCKTOMB",
+    "BITE",
+    "HOWL",
+]
+ability_number = 2
+form_number = 1
+nature = "ADAMANT"
+iv = 20
+
+[trainers.AsterKnight.22.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.AsterKnight.23]
+raw_trainer_class = "AsterKnight"
+battler_name = "Aster"
+battler_id = 23
+raw_battle_items = [
+    "HYPERPOTION",
+]
+
+[[trainers.AsterKnight.23.pokemon]]
+internal_name = "SOLROCK"
+level = 38
+raw_moves = [
+    "COSMICPOWER",
+    "PSYWAVE",
+    "FIRESPIN",
+    "ROCKSLIDE",
+]
+nature = "BASHFUL"
+iv = 20
+
+[trainers.AsterKnight.23.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.AsterKnight.23.pokemon]]
+internal_name = "MORGREM"
+level = 39
+raw_item = "EVIOLITE"
+raw_moves = [
+    "LIGHTSCREEN",
+    "FALSESURRENDER",
+    "FAKEOUT",
+    "DRAINPUNCH",
+]
+nature = "ADAMANT"
+
+[trainers.AsterKnight.23.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.AsterKnight.23.pokemon]]
+internal_name = "LYCANROC"
+level = 41
+raw_moves = [
+    "THUNDERFANG",
+    "ROCKSLIDE",
+    "CRUNCH",
+    "SWORDSDANCE",
+]
+ability_number = 2
+form_number = 1
+nature = "ADAMANT"
+iv = 31
+
+[trainers.AsterKnight.23.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.AsterKnight.20]
+raw_trainer_class = "AsterKnight"
+battler_name = "Aster"
+battler_id = 20
+raw_battle_items = [
+    "ULTRAPOTION",
+]
+
+[[trainers.AsterKnight.20.pokemon]]
+internal_name = "SOLROCK"
+level = 65
+raw_item = "LIGHTCLAY"
+raw_moves = [
+    "ROCKSLIDE",
+    "REFLECT",
+    "BULLDOZE",
+    "WILLOWISP",
+]
+nature = "ADAMANT"
+iv = 31
+
+[trainers.AsterKnight.20.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.AsterKnight.20.pokemon]]
+internal_name = "SIRFETCHD"
+level = 66
+raw_moves = [
+    "BRICKBREAK",
+    "LEAFBLADE",
+    "FIRSTIMPRESSION",
+    "POISONJAB",
+]
+ability_number = 1
+nature = "ADAMANT"
+iv = 31
+
+[trainers.AsterKnight.20.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.AsterKnight.20.pokemon]]
+internal_name = "CERULEDGE"
+level = 66
+raw_item = "SITRUSBERRY"
+raw_moves = [
+    "BITTERBLADE",
+    "SHADOWCLAW",
+    "IRONHEAD",
+    "PSYCHOCUT",
+]
+nature = "BASHFUL"
+iv = 31
+
+[trainers.AsterKnight.20.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.AsterKnight.20.pokemon]]
+internal_name = "GRIMMSNARL"
+level = 67
+raw_item = "GRIMMSNARLITE"
+raw_moves = [
+    "SUCKERPUNCH",
+    "REFLECT",
+    "SPIRITBREAK",
+    "FAKEOUT",
+]
+nature = "ADAMANT"
+iv = 31
+
+[trainers.AsterKnight.20.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.AsterKnight.20.pokemon]]
+internal_name = "LYCANROC"
+level = 68
+raw_item = "LIFEORB"
+raw_moves = [
+    "THUNDERFANG",
+    "STONEEDGE",
+    "SUCKERPUNCH",
+    "SWORDSDANCE",
+]
+ability_number = 2
+form_number = 1
+nature = "ADAMANT"
+iv = 31
+
+[trainers.AsterKnight.20.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.AsterKnight.24]
+raw_trainer_class = "AsterKnight"
+battler_name = "Aster"
+battler_id = 24
+raw_battle_items = [
+    "ULTRAPOTION",
+    "ULTRAPOTION",
+]
+
+[[trainers.AsterKnight.24.pokemon]]
+internal_name = "SOLROCK"
+level = 68
+raw_item = "LIGHTCLAY"
+raw_moves = [
+    "STEALTHROCK",
+    "REFLECT",
+    "EXPLOSION",
+    "LIGHTSCREEN",
+]
+nature = "ADAMANT"
+iv = 31
+
+[trainers.AsterKnight.24.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.AsterKnight.24.pokemon]]
+internal_name = "SIRFETCHD"
+level = 69
+raw_item = "MUSCLEBAND"
+raw_moves = [
+    "METEORASSAULT",
+    "LEAFBLADE",
+    "FIRSTIMPRESSION",
+    "BRAVEBIRD",
+]
+ability_number = 1
+nature = "ADAMANT"
+iv = 31
+
+[trainers.AsterKnight.24.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.AsterKnight.24.pokemon]]
+internal_name = "GRIMMSNARL"
+level = 69
+raw_item = "GRIMMSNARLITE"
+raw_moves = [
+    "SUCKERPUNCH",
+    "DRAINPUNCH",
+    "SPIRITBREAK",
+    "LIGHTSCREEN",
+]
+nature = "ADAMANT"
+iv = 31
+
+[trainers.AsterKnight.24.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.AsterKnight.24.pokemon]]
+internal_name = "CERULEDGE"
+level = 68
+raw_item = "SITRUSBERRY"
+raw_moves = [
+    "BITTERBLADE",
+    "PSYCHOCUT",
+    "IRONHEAD",
+    "SHADOWCLAW",
+]
+ability_number = 1
+nature = "JOLLY"
+iv = 31
+
+[trainers.AsterKnight.24.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.AsterKnight.24.pokemon]]
+internal_name = "LYCANROC"
+level = 70
+raw_item = "LIFEORB"
+raw_moves = [
+    "BRICKBREAK",
+    "ROCKSLIDE",
+    "CRUNCH",
+    "DRILLRUN",
+]
+ability_number = 1
+sex = "F"
+nature = "JOLLY"
+iv = 31
+
+[trainers.AsterKnight.24.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.AsterKnight.24.pokemon]]
+internal_name = "LYCANROC"
+level = 73
+raw_item = "ELEMENTALSEED"
+raw_moves = [
+    "THUNDERFANG",
+    "STONEEDGE",
+    "THROATCHOP",
+    "SWORDSDANCE",
+]
+ability_number = 2
+form_number = 1
+nature = "ADAMANT"
+iv = 31
+
+[trainers.AsterKnight.24.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[trainers.AsterKnight.25]
+raw_trainer_class = "AsterKnight"
+battler_name = "Aster"
+battler_id = 25
+raw_battle_items = [
+    "ULTRAPOTION",
+    "ULTRAPOTION",
+]
+
+[[trainers.AsterKnight.25.pokemon]]
+internal_name = "SOLROCK"
+level = 84
+raw_item = "LIGHTCLAY"
+raw_moves = [
+    "STEALTHROCK",
+    "REFLECT",
+    "EXPLOSION",
+    "LIGHTSCREEN",
+]
+nature = "ADAMANT"
+iv = 31
+
+[trainers.AsterKnight.25.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.AsterKnight.25.pokemon]]
+internal_name = "SIRFETCHD"
+level = 85
+raw_item = "MUSCLEBAND"
+raw_moves = [
+    "METEORASSAULT",
+    "LEAFBLADE",
+    "FIRSTIMPRESSION",
+    "BRAVEBIRD",
+]
+ability_number = 1
+nature = "ADAMANT"
+iv = 31
+
+[trainers.AsterKnight.25.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.AsterKnight.25.pokemon]]
+internal_name = "CERULEDGE"
+level = 86
+raw_item = "LIFEORB"
+raw_moves = [
+    "BITTERBLADE",
+    "PSYCHOCUT",
+    "IRONHEAD",
+    "SHADOWCLAW",
+]
+ability_number = 1
+nature = "JOLLY"
+iv = 31
+
+[trainers.AsterKnight.25.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.AsterKnight.25.pokemon]]
+internal_name = "GRIMMSNARL"
+level = 86
+raw_item = "GRIMMSNARLITE"
+raw_moves = [
+    "SUCKERPUNCH",
+    "REFLECT",
+    "SPIRITBREAK",
+    "LIGHTSCREEN",
+]
+nature = "ADAMANT"
+iv = 31
+
+[trainers.AsterKnight.25.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.AsterKnight.25.pokemon]]
+internal_name = "LYCANROC"
+level = 86
+raw_item = "LIFEORB"
+raw_moves = [
+    "BRICKBREAK",
+    "ROCKSLIDE",
+    "CRUNCH",
+    "DRILLRUN",
+]
+ability_number = 1
+sex = "F"
+nature = "JOLLY"
+iv = 31
+
+[trainers.AsterKnight.25.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.AsterKnight.25.pokemon]]
+internal_name = "LYCANROC"
+level = 88
+raw_item = "ELEMENTALSEED"
+raw_moves = [
+    "THUNDERPUNCH",
+    "STONEEDGE",
+    "THROATCHOP",
+    "SWORDSDANCE",
+]
+ability_number = 2
+form_number = 1
+nature = "ADAMANT"
+iv = 31
+
+[trainers.AsterKnight.25.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[trainers.ASTER.1000]
 raw_trainer_class = "ASTER"
 battler_name = "Aster"
 battler_id = 1000
 raw_battle_items = []
 
-[[trainers.1000.pokemon]]
+[[trainers.ASTER.1000.pokemon]]
 internal_name = "KROOKODILE"
 level = 100
 raw_item = "SMOOTHROCK"
@@ -557,7 +1075,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.1000.pokemon.evs]
+[trainers.ASTER.1000.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -565,7 +1083,7 @@ spa = 252
 spd = 0
 spe = 4
 
-[[trainers.1000.pokemon]]
+[[trainers.ASTER.1000.pokemon]]
 internal_name = "RHYPERIOR"
 level = 100
 raw_item = "ASSAULTVEST"
@@ -580,7 +1098,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.1000.pokemon.evs]
+[trainers.ASTER.1000.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -588,7 +1106,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.1000.pokemon]]
+[[trainers.ASTER.1000.pokemon]]
 internal_name = "LYCANROC"
 level = 100
 raw_item = "LEFTOVERS"
@@ -602,526 +1120,10 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.1000.pokemon.evs]
+[trainers.ASTER.1000.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
 spa = 252
 spd = 0
 spe = 4
-
-[trainers.22]
-raw_trainer_class = "AsterKnight"
-battler_name = "Aster"
-battler_id = 22
-raw_battle_items = [
-    "SUPERPOTION",
-]
-
-[[trainers.22.pokemon]]
-internal_name = "SOLROCK"
-level = 30
-raw_moves = [
-    "ROCKPOLISH",
-    "PSYWAVE",
-    "FIRESPIN",
-    "ROCKSLIDE",
-]
-nature = ""
-
-[trainers.22.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.22.pokemon]]
-internal_name = "LYCANROC"
-level = 32
-raw_moves = [
-    "THUNDERFANG",
-    "ROCKTOMB",
-    "BITE",
-    "HOWL",
-]
-ability_number = 2
-form_number = 1
-nature = "ADAMANT"
-iv = 20
-
-[trainers.22.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[trainers.23]
-raw_trainer_class = "AsterKnight"
-battler_name = "Aster"
-battler_id = 23
-raw_battle_items = [
-    "HYPERPOTION",
-]
-
-[[trainers.23.pokemon]]
-internal_name = "SOLROCK"
-level = 38
-raw_moves = [
-    "COSMICPOWER",
-    "PSYWAVE",
-    "FIRESPIN",
-    "ROCKSLIDE",
-]
-nature = "BASHFUL"
-iv = 20
-
-[trainers.23.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.23.pokemon]]
-internal_name = "MORGREM"
-level = 39
-raw_item = "EVIOLITE"
-raw_moves = [
-    "LIGHTSCREEN",
-    "FALSESURRENDER",
-    "FAKEOUT",
-    "DRAINPUNCH",
-]
-nature = "ADAMANT"
-
-[trainers.23.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.23.pokemon]]
-internal_name = "LYCANROC"
-level = 41
-raw_moves = [
-    "THUNDERFANG",
-    "ROCKSLIDE",
-    "CRUNCH",
-    "SWORDSDANCE",
-]
-ability_number = 2
-form_number = 1
-nature = "ADAMANT"
-iv = 31
-
-[trainers.23.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[trainers.20]
-raw_trainer_class = "AsterKnight"
-battler_name = "Aster"
-battler_id = 20
-raw_battle_items = [
-    "ULTRAPOTION",
-]
-
-[[trainers.20.pokemon]]
-internal_name = "SOLROCK"
-level = 65
-raw_item = "LIGHTCLAY"
-raw_moves = [
-    "ROCKSLIDE",
-    "REFLECT",
-    "BULLDOZE",
-    "WILLOWISP",
-]
-nature = "ADAMANT"
-iv = 31
-
-[trainers.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.20.pokemon]]
-internal_name = "SIRFETCHD"
-level = 66
-raw_moves = [
-    "BRICKBREAK",
-    "LEAFBLADE",
-    "FIRSTIMPRESSION",
-    "POISONJAB",
-]
-ability_number = 1
-nature = "ADAMANT"
-iv = 31
-
-[trainers.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.20.pokemon]]
-internal_name = "CERULEDGE"
-level = 66
-raw_item = "SITRUSBERRY"
-raw_moves = [
-    "BITTERBLADE",
-    "SHADOWCLAW",
-    "IRONHEAD",
-    "PSYCHOCUT",
-]
-nature = "BASHFUL"
-iv = 31
-
-[trainers.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.20.pokemon]]
-internal_name = "GRIMMSNARL"
-level = 67
-raw_item = "GRIMMSNARLITE"
-raw_moves = [
-    "SUCKERPUNCH",
-    "REFLECT",
-    "SPIRITBREAK",
-    "FAKEOUT",
-]
-nature = "ADAMANT"
-iv = 31
-
-[trainers.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.20.pokemon]]
-internal_name = "LYCANROC"
-level = 68
-raw_item = "LIFEORB"
-raw_moves = [
-    "THUNDERFANG",
-    "STONEEDGE",
-    "SUCKERPUNCH",
-    "SWORDSDANCE",
-]
-ability_number = 2
-form_number = 1
-nature = "ADAMANT"
-iv = 31
-
-[trainers.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[trainers.24]
-raw_trainer_class = "AsterKnight"
-battler_name = "Aster"
-battler_id = 24
-raw_battle_items = [
-    "ULTRAPOTION",
-    "ULTRAPOTION",
-]
-
-[[trainers.24.pokemon]]
-internal_name = "SOLROCK"
-level = 68
-raw_item = "LIGHTCLAY"
-raw_moves = [
-    "STEALTHROCK",
-    "REFLECT",
-    "EXPLOSION",
-    "LIGHTSCREEN",
-]
-nature = "ADAMANT"
-iv = 31
-
-[trainers.24.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.24.pokemon]]
-internal_name = "SIRFETCHD"
-level = 69
-raw_item = "MUSCLEBAND"
-raw_moves = [
-    "METEORASSAULT",
-    "LEAFBLADE",
-    "FIRSTIMPRESSION",
-    "BRAVEBIRD",
-]
-ability_number = 1
-nature = "ADAMANT"
-iv = 31
-
-[trainers.24.pokemon.evs]
-hp = 0
-atk = 4
-def_ = 0
-spa = 252
-spd = 0
-spe = 0
-
-[[trainers.24.pokemon]]
-internal_name = "GRIMMSNARL"
-level = 69
-raw_item = "GRIMMSNARLITE"
-raw_moves = [
-    "SUCKERPUNCH",
-    "DRAINPUNCH",
-    "SPIRITBREAK",
-    "LIGHTSCREEN",
-]
-nature = "ADAMANT"
-iv = 31
-
-[trainers.24.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.24.pokemon]]
-internal_name = "CERULEDGE"
-level = 68
-raw_item = "SITRUSBERRY"
-raw_moves = [
-    "BITTERBLADE",
-    "PSYCHOCUT",
-    "IRONHEAD",
-    "SHADOWCLAW",
-]
-ability_number = 1
-nature = "JOLLY"
-iv = 31
-
-[trainers.24.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.24.pokemon]]
-internal_name = "LYCANROC"
-level = 70
-raw_item = "LIFEORB"
-raw_moves = [
-    "BRICKBREAK",
-    "ROCKSLIDE",
-    "CRUNCH",
-    "DRILLRUN",
-]
-ability_number = 1
-sex = "F"
-nature = "JOLLY"
-iv = 31
-
-[trainers.24.pokemon.evs]
-hp = 0
-atk = 4
-def_ = 252
-spa = 252
-spd = 0
-spe = 0
-
-[[trainers.24.pokemon]]
-internal_name = "LYCANROC"
-level = 73
-raw_item = "ELEMENTALSEED"
-raw_moves = [
-    "THUNDERFANG",
-    "STONEEDGE",
-    "THROATCHOP",
-    "SWORDSDANCE",
-]
-ability_number = 2
-form_number = 1
-nature = "ADAMANT"
-iv = 31
-
-[trainers.24.pokemon.evs]
-hp = 0
-atk = 4
-def_ = 252
-spa = 252
-spd = 0
-spe = 0
-
-[trainers.25]
-raw_trainer_class = "AsterKnight"
-battler_name = "Aster"
-battler_id = 25
-raw_battle_items = [
-    "ULTRAPOTION",
-    "ULTRAPOTION",
-]
-
-[[trainers.25.pokemon]]
-internal_name = "SOLROCK"
-level = 84
-raw_item = "LIGHTCLAY"
-raw_moves = [
-    "STEALTHROCK",
-    "REFLECT",
-    "EXPLOSION",
-    "LIGHTSCREEN",
-]
-nature = "ADAMANT"
-iv = 31
-
-[trainers.25.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.25.pokemon]]
-internal_name = "SIRFETCHD"
-level = 85
-raw_item = "MUSCLEBAND"
-raw_moves = [
-    "METEORASSAULT",
-    "LEAFBLADE",
-    "FIRSTIMPRESSION",
-    "BRAVEBIRD",
-]
-ability_number = 1
-nature = "ADAMANT"
-iv = 31
-
-[trainers.25.pokemon.evs]
-hp = 0
-atk = 4
-def_ = 0
-spa = 252
-spd = 0
-spe = 0
-
-[[trainers.25.pokemon]]
-internal_name = "CERULEDGE"
-level = 86
-raw_item = "LIFEORB"
-raw_moves = [
-    "BITTERBLADE",
-    "PSYCHOCUT",
-    "IRONHEAD",
-    "SHADOWCLAW",
-]
-ability_number = 1
-nature = "JOLLY"
-iv = 31
-
-[trainers.25.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.25.pokemon]]
-internal_name = "GRIMMSNARL"
-level = 86
-raw_item = "GRIMMSNARLITE"
-raw_moves = [
-    "SUCKERPUNCH",
-    "REFLECT",
-    "SPIRITBREAK",
-    "LIGHTSCREEN",
-]
-nature = "ADAMANT"
-iv = 31
-
-[trainers.25.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.25.pokemon]]
-internal_name = "LYCANROC"
-level = 86
-raw_item = "LIFEORB"
-raw_moves = [
-    "BRICKBREAK",
-    "ROCKSLIDE",
-    "CRUNCH",
-    "DRILLRUN",
-]
-ability_number = 1
-sex = "F"
-nature = "JOLLY"
-iv = 31
-
-[trainers.25.pokemon.evs]
-hp = 0
-atk = 4
-def_ = 252
-spa = 252
-spd = 0
-spe = 0
-
-[[trainers.25.pokemon]]
-internal_name = "LYCANROC"
-level = 88
-raw_item = "ELEMENTALSEED"
-raw_moves = [
-    "THUNDERPUNCH",
-    "STONEEDGE",
-    "THROATCHOP",
-    "SWORDSDANCE",
-]
-ability_number = 2
-form_number = 1
-nature = "ADAMANT"
-iv = 31
-
-[trainers.25.pokemon.evs]
-hp = 0
-atk = 4
-def_ = 252
-spa = 252
-spd = 0
-spe = 0

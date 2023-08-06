@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Bosses"
+
+[trainers.PARADOX.0]
 raw_trainer_class = "PARADOX"
 battler_name = "Bosses"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.PARADOX.0.pokemon]]
 internal_name = "WALKINGWAKE"
 level = 115
 raw_item = "LEFTOVERS"
@@ -17,7 +19,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.PARADOX.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -25,7 +27,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.PARADOX.0.pokemon]]
 internal_name = "IRONLEAVES"
 level = 115
 raw_item = "FOCUSSASH"
@@ -39,7 +41,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.PARADOX.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -47,7 +49,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.PARADOX.0.pokemon]]
 internal_name = "IRONVALIANT"
 level = 115
 raw_item = "LIFEORB"
@@ -61,7 +63,7 @@ sex = ""
 nature = "NAIVE"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.PARADOX.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -69,7 +71,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.PARADOX.0.pokemon]]
 internal_name = "ROARINGMOON"
 level = 115
 raw_item = "ELEMENTALSEED"
@@ -83,7 +85,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.PARADOX.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -91,7 +93,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.PARADOX.0.pokemon]]
 internal_name = "KORAIDON"
 level = 120
 raw_item = "ASSAULTVEST"
@@ -105,7 +107,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.PARADOX.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -113,7 +115,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.PARADOX.0.pokemon]]
 internal_name = "MIRAIDON"
 level = 120
 raw_item = "ELEMENTALSEED"
@@ -127,7 +129,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.PARADOX.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252

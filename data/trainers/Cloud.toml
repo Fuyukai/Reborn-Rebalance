@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Cloud"
+
+[trainers.SPIRITM.0]
 raw_trainer_class = "SPIRITM"
 battler_name = "Cloud"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.SPIRITM.0.pokemon]]
 internal_name = "POLITOED"
 level = 95
 raw_item = "DAMPROCK"
@@ -18,7 +20,7 @@ sex = ""
 nature = "BOLD"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SPIRITM.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -26,7 +28,7 @@ spa = 0
 spd = 0
 spe = 128
 
-[[trainers.0.pokemon]]
+[[trainers.SPIRITM.0.pokemon]]
 internal_name = "TENTACRUEL"
 level = 95
 raw_item = "BLACKSLUDGE"
@@ -41,7 +43,7 @@ sex = ""
 nature = "BOLD"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SPIRITM.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -49,7 +51,7 @@ spa = 0
 spd = 0
 spe = 128
 
-[[trainers.0.pokemon]]
+[[trainers.SPIRITM.0.pokemon]]
 internal_name = "FERROTHORN"
 level = 95
 raw_item = "LEFTOVERS"
@@ -63,7 +65,7 @@ sex = ""
 nature = "SASSY"
 iv = 32
 
-[trainers.0.pokemon.evs]
+[trainers.SPIRITM.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -71,7 +73,7 @@ spa = 0
 spd = 0
 spe = 128
 
-[[trainers.0.pokemon]]
+[[trainers.SPIRITM.0.pokemon]]
 internal_name = "LUDICOLO"
 level = 95
 raw_item = "LIFEORB"
@@ -85,7 +87,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SPIRITM.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -93,7 +95,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.SPIRITM.0.pokemon]]
 internal_name = "KABUTOPS"
 level = 95
 raw_item = "ASSAULTVEST"
@@ -107,7 +109,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SPIRITM.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -115,7 +117,7 @@ spa = 252
 spd = 0
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.SPIRITM.0.pokemon]]
 internal_name = "SALAMENCE"
 level = 95
 raw_item = "ELEMENTALSEED"
@@ -130,7 +132,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SPIRITM.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252

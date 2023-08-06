@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Tapu-Bulu"
+
+[trainers.TAPUBULU.0]
 raw_trainer_class = "TAPUBULU"
 battler_name = "Tapu-Bulu"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.TAPUBULU.0.pokemon]]
 internal_name = "FERROTHORN"
 level = 125
 raw_item = "ELEMENTALSEED"
@@ -17,7 +19,7 @@ sex = ""
 nature = "IMPISH"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.TAPUBULU.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -25,7 +27,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.TAPUBULU.0.pokemon]]
 internal_name = "GENGAR"
 level = 125
 raw_item = "GENGARITE"
@@ -39,7 +41,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.TAPUBULU.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -47,7 +49,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.TAPUBULU.0.pokemon]]
 internal_name = "ROSERADE"
 level = 125
 raw_item = "LIFEORB"
@@ -62,7 +64,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.TAPUBULU.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -70,7 +72,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.TAPUBULU.0.pokemon]]
 internal_name = "SALAZZLE"
 level = 125
 raw_item = "LIFEORB"
@@ -84,7 +86,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.TAPUBULU.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -92,7 +94,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.TAPUBULU.0.pokemon]]
 internal_name = "ZANGOOSE"
 level = 125
 raw_item = "TOXICORB"
@@ -107,7 +109,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.TAPUBULU.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -115,7 +117,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.TAPUBULU.0.pokemon]]
 internal_name = "TAPUBULU"
 level = 125
 raw_item = "ELEMENTALSEED"
@@ -129,7 +131,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.TAPUBULU.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252

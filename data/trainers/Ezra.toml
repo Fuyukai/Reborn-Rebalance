@@ -1,21 +1,16 @@
-[trainers.0]
-raw_trainer_class = "NWCultist"
+trainer_name = "Ezra"
+
+[trainers.Cultist.0]
+raw_trainer_class = "Cultist"
 battler_name = "Ezra"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.Cultist.0.pokemon]]
 internal_name = "DITTO"
-level = 73
-raw_moves = [
-    "TRANSFORM",
-    "TRANSFORM",
-    "TRANSFORM",
-    "TRANSFORM",
-]
-ability_number = 1
+level = 64
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.Cultist.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -23,51 +18,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
-internal_name = "BELLOSSOM"
-level = 74
-raw_moves = [
-    "SYNTHESIS",
-    "NATUREPOWER",
-    "STUNSPORE",
-    "LEAFSTORM",
-]
-iv = 0
-
-[trainers.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.0.pokemon]]
-internal_name = "MANTINE"
-level = 75
-raw_moves = [
-    "SCALD",
-    "AIRSLASH",
-    "ROOST",
-    "SEEDBOMB",
-]
-iv = 0
-
-[trainers.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[trainers.1]
+[trainers.Cultist.1]
 raw_trainer_class = "Cultist"
 battler_name = "Ezra"
 battler_id = 1
 raw_battle_items = []
 
-[[trainers.1.pokemon]]
+[[trainers.Cultist.1.pokemon]]
 internal_name = "BELLOSSOM"
 level = 127
 raw_item = "WIDELENS"
@@ -82,7 +39,7 @@ nature = "MODEST"
 iv = 31
 happiness = 255
 
-[trainers.1.pokemon.evs]
+[trainers.Cultist.1.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -90,7 +47,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.Cultist.1.pokemon]]
 internal_name = "DITTO"
 level = 127
 raw_item = "CHOICESCARF"
@@ -106,7 +63,7 @@ nature = "ADAMANT"
 iv = 31
 happiness = 255
 
-[trainers.1.pokemon.evs]
+[trainers.Cultist.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -114,7 +71,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.Cultist.1.pokemon]]
 internal_name = "MANTINE"
 level = 127
 raw_item = "LEFTOVERS"
@@ -129,7 +86,7 @@ nature = "CALM"
 iv = 31
 happiness = 255
 
-[trainers.1.pokemon.evs]
+[trainers.Cultist.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -137,7 +94,7 @@ spa = 0
 spd = 252
 spe = 4
 
-[[trainers.1.pokemon]]
+[[trainers.Cultist.1.pokemon]]
 internal_name = "KOMMOO"
 level = 127
 raw_item = "LIFEORB"
@@ -152,10 +109,156 @@ nature = "SERIOUS"
 iv = 31
 happiness = 255
 
-[trainers.1.pokemon.evs]
+[trainers.Cultist.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 4
 spa = 0
 spd = 252
+spe = 0
+
+[trainers.NWCultist.0]
+raw_trainer_class = "NWCultist"
+battler_name = "Ezra"
+raw_battle_items = []
+
+[[trainers.NWCultist.0.pokemon]]
+internal_name = "DITTO"
+level = 73
+raw_moves = [
+    "TRANSFORM",
+    "TRANSFORM",
+    "TRANSFORM",
+    "TRANSFORM",
+]
+ability_number = 1
+iv = 0
+
+[trainers.NWCultist.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.NWCultist.0.pokemon]]
+internal_name = "BELLOSSOM"
+level = 74
+raw_moves = [
+    "SYNTHESIS",
+    "NATUREPOWER",
+    "STUNSPORE",
+    "LEAFSTORM",
+]
+iv = 0
+
+[trainers.NWCultist.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.NWCultist.0.pokemon]]
+internal_name = "MANTINE"
+level = 75
+raw_moves = [
+    "SCALD",
+    "AIRSLASH",
+    "ROOST",
+    "SEEDBOMB",
+]
+iv = 0
+
+[trainers.NWCultist.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.NWCultist.1]
+raw_trainer_class = "NWCultist"
+battler_name = "Ezra"
+battler_id = 1
+raw_battle_items = []
+
+[[trainers.NWCultist.1.pokemon]]
+internal_name = "DITTO"
+level = 87
+raw_moves = [
+    "TRANSFORM",
+    "TRANSFORM",
+    "TRANSFORM",
+    "TRANSFORM",
+]
+ability_number = 1
+iv = 0
+
+[trainers.NWCultist.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.NWCultist.1.pokemon]]
+internal_name = "BELLOSSOM"
+level = 87
+raw_moves = [
+    "SYNTHESIS",
+    "NATUREPOWER",
+    "STUNSPORE",
+    "LEAFSTORM",
+]
+iv = 0
+
+[trainers.NWCultist.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.NWCultist.1.pokemon]]
+internal_name = "MANTINE"
+level = 87
+raw_moves = [
+    "SCALD",
+    "AIRSLASH",
+    "ROOST",
+    "SEEDBOMB",
+]
+iv = 0
+
+[trainers.NWCultist.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.NWCultist.1.pokemon]]
+internal_name = "KOMMOO"
+level = 87
+raw_moves = [
+    "CLANGINGSCALES",
+    "CLOSECOMBAT",
+    "POISONJAB",
+    "FLAMETHROWER",
+]
+iv = 0
+
+[trainers.NWCultist.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
 spe = 0

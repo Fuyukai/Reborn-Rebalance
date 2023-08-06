@@ -1,14 +1,16 @@
-[trainers.0]
+trainer_name = "Cameron"
+
+[trainers.TechNerd.0]
 raw_trainer_class = "TechNerd"
 battler_name = "Cameron"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.TechNerd.0.pokemon]]
 internal_name = "GARDEVOIR"
 level = 53
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.TechNerd.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -16,12 +18,12 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.TechNerd.0.pokemon]]
 internal_name = "AMPHAROS"
 level = 55
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.TechNerd.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

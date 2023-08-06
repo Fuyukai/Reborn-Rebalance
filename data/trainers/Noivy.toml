@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Noivy"
+
+[trainers.GUITARIST.0]
 raw_trainer_class = "GUITARIST"
 battler_name = "Noivy"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.GUITARIST.0.pokemon]]
 internal_name = "TYRANITAR"
 level = 87
 raw_item = "CHOICEBAND"
@@ -17,7 +19,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.GUITARIST.0.pokemon.evs]
 hp = 0
 atk = 80
 def_ = 252
@@ -25,7 +27,7 @@ spa = 176
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.GUITARIST.0.pokemon]]
 internal_name = "TYRANTRUM"
 level = 88
 raw_item = "LIFEORB"
@@ -39,7 +41,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.GUITARIST.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252

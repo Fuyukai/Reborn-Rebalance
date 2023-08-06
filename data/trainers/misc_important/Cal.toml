@@ -1,9 +1,493 @@
-[trainers.0]
+trainer_name = "Cal"
+
+[trainers.OLDCAL.0]
+raw_trainer_class = "OLDCAL"
+battler_name = "Cal"
+raw_battle_items = []
+
+[[trainers.OLDCAL.0.pokemon]]
+internal_name = "TORKOAL"
+level = 30
+raw_item = "HEATROCK"
+raw_moves = [
+    "STEALTHROCK",
+    "FIRESPIN",
+    "NATUREPOWER",
+    "HIDDENPOWERELE",
+]
+ability_number = 1
+nature = "MILD"
+iv = 5
+
+[trainers.OLDCAL.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.OLDCAL.0.pokemon]]
+internal_name = "HOUNDOOM"
+level = 31
+raw_moves = [
+    "INFERNO",
+    "BEATUP",
+    "SNARL",
+    "SMOG",
+]
+ability_number = 1
+nature = "HASTY"
+iv = 20
+
+[trainers.OLDCAL.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.OLDCAL.0.pokemon]]
+internal_name = "QUILAVA"
+level = 32
+raw_moves = [
+    "NATUREPOWER",
+    "INCINERATE",
+    "HIDDENPOWERELE",
+    "FLAMECHARGE",
+]
+nature = "MODEST"
+iv = 20
+
+[trainers.OLDCAL.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.OLDCAL.0.pokemon]]
+internal_name = "CHARMELEON"
+level = 33
+raw_moves = [
+    "FLAMEBURST",
+    "DRAGONRAGE",
+    "MEGAPUNCH",
+    "SMOKESCREEN",
+]
+nature = "SERIOUS"
+iv = 20
+
+[trainers.OLDCAL.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.OLDCAL.0.pokemon]]
+internal_name = "MAGMORTAR"
+level = 34
+raw_item = "ORANBERRY"
+raw_moves = [
+    "MACHPUNCH",
+    "BELCH",
+    "FEINTATTACK",
+    "FIREPUNCH",
+]
+nature = "ADAMANT"
+iv = 31
+
+[trainers.OLDCAL.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.OLDCAL.20]
+raw_trainer_class = "OLDCAL"
+battler_name = "Cal"
+battler_id = 20
+raw_battle_items = []
+
+[[trainers.OLDCAL.20.pokemon]]
+internal_name = "TORKOAL"
+level = 30
+raw_item = "HEATROCK"
+raw_moves = [
+    "STEALTHROCK",
+    "FIRESPIN",
+    "NATUREPOWER",
+    "HIDDENPOWERELE",
+]
+ability_number = 1
+nature = "MILD"
+iv = 5
+
+[trainers.OLDCAL.20.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.OLDCAL.20.pokemon]]
+internal_name = "MONFERNO"
+level = 31
+raw_moves = [
+    "MACHPUNCH",
+    "FIREPUNCH",
+    "THUNDERPUNCH",
+    "FAKEOUT",
+]
+ability_number = 1
+nature = "BASHFUL"
+iv = 30
+
+[trainers.OLDCAL.20.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.OLDCAL.20.pokemon]]
+internal_name = "QUILAVA"
+level = 32
+raw_moves = [
+    "NATUREPOWER",
+    "INCINERATE",
+    "HIDDENPOWERELE",
+    "FLAMECHARGE",
+]
+nature = "MODEST"
+iv = 20
+
+[trainers.OLDCAL.20.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.OLDCAL.20.pokemon]]
+internal_name = "CHARMELEON"
+level = 33
+raw_moves = [
+    "FLAMEBURST",
+    "DRAGONRAGE",
+    "MEGAPUNCH",
+    "SMOKESCREEN",
+]
+nature = "SERIOUS"
+iv = 20
+
+[trainers.OLDCAL.20.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.OLDCAL.20.pokemon]]
+internal_name = "MAGMORTAR"
+level = 34
+raw_item = "ORANBERRY"
+raw_moves = [
+    "MACHPUNCH",
+    "BELCH",
+    "FEINTATTACK",
+    "FIREPUNCH",
+]
+nature = "ADAMANT"
+iv = 31
+
+[trainers.OLDCAL.20.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.Exleader.0]
+raw_trainer_class = "Exleader"
+battler_name = "Cal"
+raw_battle_items = [
+    "HYPERPOTION",
+    "HYPERPOTION",
+]
+
+[[trainers.Exleader.0.pokemon]]
+internal_name = "BARBARACLE"
+level = 38
+raw_moves = [
+    "STEALTHROCK",
+    "SLASH",
+    "SCALD",
+    "ROCKSLIDE",
+]
+nature = "BRAVE"
+iv = 20
+
+[trainers.Exleader.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.Exleader.0.pokemon]]
+internal_name = "TURTONATOR"
+level = 38
+raw_moves = [
+    "DRAGONPULSE",
+    "FLAMETHROWER",
+    "HEADSMASH",
+    "REVENGE",
+]
+sex = "F"
+nature = "BASHFUL"
+iv = 20
+
+[trainers.Exleader.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.Exleader.0.pokemon]]
+internal_name = "HAKAMOO"
+level = 39
+raw_moves = [
+    "SKYUPPERCUT",
+    "DUALCHOP",
+    "HEADBUTT",
+    "ROCKTOMB",
+]
+ability_number = 1
+nature = "ADAMANT"
+iv = 31
+
+[trainers.Exleader.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.Exleader.0.pokemon]]
+internal_name = "TYPHLOSION"
+level = 40
+raw_moves = [
+    "SOLARBEAM",
+    "HIDDENPOWERROC",
+    "SUNNYDAY",
+    "FLAMECHARGE",
+]
+nature = "MODEST"
+iv = 20
+
+[trainers.Exleader.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.Exleader.0.pokemon]]
+internal_name = "CHARIZARD"
+level = 39
+raw_moves = [
+    "THUNDERPUNCH",
+    "FIREPUNCH",
+    "DRAGONCLAW",
+    "WINGATTACK",
+]
+nature = "ADAMANT"
+iv = 20
+
+[trainers.Exleader.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.Exleader.0.pokemon]]
+internal_name = "MAGMORTAR"
+level = 41
+raw_moves = [
+    "FOCUSBLAST",
+    "THUNDERBOLT",
+    "SOLARBEAM",
+    "LAVAPLUME",
+]
+nature = "MODEST"
+iv = 31
+
+[trainers.Exleader.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.Exleader.20]
+raw_trainer_class = "Exleader"
+battler_name = "Cal"
+battler_id = 20
+raw_battle_items = [
+    "HYPERPOTION",
+    "HYPERPOTION",
+]
+
+[[trainers.Exleader.20.pokemon]]
+internal_name = "INFERNAPE"
+level = 38
+raw_item = "FIGHTINGGEM"
+raw_moves = [
+    "MACHPUNCH",
+    "FIREPUNCH",
+    "THUNDERPUNCH",
+    "FAKEOUT",
+]
+ability_number = 1
+nature = "ADAMANT"
+iv = 30
+
+[trainers.Exleader.20.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.Exleader.20.pokemon]]
+internal_name = "TURTONATOR"
+level = 38
+raw_moves = [
+    "DRAGONPULSE",
+    "FLAMETHROWER",
+    "HEADSMASH",
+    "REVENGE",
+]
+sex = "F"
+nature = "BASHFUL"
+iv = 20
+
+[trainers.Exleader.20.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.Exleader.20.pokemon]]
+internal_name = "HAKAMOO"
+level = 39
+raw_moves = [
+    "SKYUPPERCUT",
+    "DUALCHOP",
+    "HEADBUTT",
+    "ROCKTOMB",
+]
+ability_number = 1
+nature = "ADAMANT"
+iv = 31
+
+[trainers.Exleader.20.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.Exleader.20.pokemon]]
+internal_name = "TYPHLOSION"
+level = 40
+raw_moves = [
+    "SOLARBEAM",
+    "SHADOWBALL",
+    "SUNNYDAY",
+    "FLAMEBURST",
+]
+nature = "MODEST"
+iv = 20
+
+[trainers.Exleader.20.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.Exleader.20.pokemon]]
+internal_name = "CHARIZARD"
+level = 39
+raw_moves = [
+    "THUNDERPUNCH",
+    "FIREPUNCH",
+    "DRAGONCLAW",
+    "WINGATTACK",
+]
+nature = "ADAMANT"
+iv = 20
+
+[trainers.Exleader.20.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.Exleader.20.pokemon]]
+internal_name = "MAGMORTAR"
+level = 41
+raw_moves = [
+    "FOCUSBLAST",
+    "THUNDERBOLT",
+    "SOLARBEAM",
+    "LAVAPLUME",
+]
+nature = "MODEST"
+iv = 31
+
+[trainers.Exleader.20.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.REBORN.0]
 raw_trainer_class = "REBORN"
 battler_name = "Cal"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.REBORN.0.pokemon]]
 internal_name = "MAGMORTAR"
 level = 71
 raw_moves = [
@@ -15,7 +499,7 @@ raw_moves = [
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.REBORN.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -23,7 +507,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.REBORN.0.pokemon]]
 internal_name = "MEDICHAM"
 level = 72
 raw_item = "MUSCLEBAND"
@@ -36,7 +520,7 @@ raw_moves = [
 nature = "JOLLY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.REBORN.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -44,7 +528,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.REBORN.0.pokemon]]
 internal_name = "ARCANINE"
 level = 70
 raw_moves = [
@@ -56,7 +540,7 @@ raw_moves = [
 nature = "JOLLY"
 iv = 20
 
-[trainers.0.pokemon.evs]
+[trainers.REBORN.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -64,7 +548,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.REBORN.0.pokemon]]
 internal_name = "KINGDRA"
 level = 72
 raw_item = "WISEGLASSES"
@@ -78,7 +562,7 @@ ability_number = 1
 nature = "MODEST"
 iv = 20
 
-[trainers.0.pokemon.evs]
+[trainers.REBORN.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -86,7 +570,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.REBORN.0.pokemon]]
 internal_name = "KOMMOO"
 level = 71
 raw_moves = [
@@ -99,7 +583,7 @@ ability_number = 1
 nature = "ADAMANT"
 iv = 15
 
-[trainers.0.pokemon.evs]
+[trainers.REBORN.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -107,7 +591,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.REBORN.0.pokemon]]
 internal_name = "CHARIZARD"
 level = 73
 raw_moves = [
@@ -119,7 +603,7 @@ raw_moves = [
 nature = "ADAMANT"
 iv = 20
 
-[trainers.0.pokemon.evs]
+[trainers.REBORN.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -127,13 +611,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.1]
+[trainers.REBORN.1]
 raw_trainer_class = "REBORN"
 battler_name = "Cal"
 battler_id = 1
 raw_battle_items = []
 
-[[trainers.1.pokemon]]
+[[trainers.REBORN.1.pokemon]]
 internal_name = "MAGMORTAR"
 level = 67
 raw_moves = [
@@ -145,7 +629,7 @@ raw_moves = [
 nature = "MODEST"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.REBORN.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -153,7 +637,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.REBORN.1.pokemon]]
 internal_name = "MEDICHAM"
 level = 68
 raw_item = "MUSCLEBAND"
@@ -166,7 +650,7 @@ raw_moves = [
 nature = "JOLLY"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.REBORN.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -174,7 +658,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.REBORN.1.pokemon]]
 internal_name = "ARCANINE"
 level = 66
 raw_moves = [
@@ -186,7 +670,7 @@ raw_moves = [
 nature = "TIMID"
 iv = 20
 
-[trainers.1.pokemon.evs]
+[trainers.REBORN.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -194,7 +678,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.REBORN.1.pokemon]]
 internal_name = "KINGDRA"
 level = 66
 raw_item = "WISEGLASSES"
@@ -208,7 +692,7 @@ ability_number = 1
 nature = "MODEST"
 iv = 20
 
-[trainers.1.pokemon.evs]
+[trainers.REBORN.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -216,7 +700,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.REBORN.1.pokemon]]
 internal_name = "KOMMOO"
 level = 67
 raw_moves = [
@@ -229,7 +713,7 @@ ability_number = 1
 nature = "ADAMANT"
 iv = 15
 
-[trainers.1.pokemon.evs]
+[trainers.REBORN.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -237,7 +721,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.REBORN.1.pokemon]]
 internal_name = "CHARIZARD"
 level = 68
 raw_moves = [
@@ -249,7 +733,7 @@ raw_moves = [
 nature = "ADAMANT"
 iv = 20
 
-[trainers.1.pokemon.evs]
+[trainers.REBORN.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -257,13 +741,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.2]
+[trainers.REBORN.2]
 raw_trainer_class = "REBORN"
 battler_name = "Cal"
 battler_id = 2
 raw_battle_items = []
 
-[[trainers.2.pokemon]]
+[[trainers.REBORN.2.pokemon]]
 internal_name = "MAGMORTAR"
 level = 93
 raw_item = "ELEMENTALSEED"
@@ -276,7 +760,7 @@ raw_moves = [
 nature = "TIMID"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.REBORN.2.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -284,7 +768,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.REBORN.2.pokemon]]
 internal_name = "ARCANINE"
 level = 93
 raw_item = "LIFEORB"
@@ -297,7 +781,7 @@ raw_moves = [
 nature = "JOLLY"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.REBORN.2.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -305,7 +789,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.REBORN.2.pokemon]]
 internal_name = "CAMERUPT"
 level = 93
 raw_item = "ELEMENTALSEED"
@@ -318,7 +802,7 @@ raw_moves = [
 nature = "MODEST"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.REBORN.2.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -326,7 +810,7 @@ spa = 0
 spd = 252
 spe = 4
 
-[[trainers.2.pokemon]]
+[[trainers.REBORN.2.pokemon]]
 internal_name = "KOMMOO"
 level = 94
 raw_item = "FOCUSSASH"
@@ -339,7 +823,7 @@ raw_moves = [
 nature = "ADAMANT"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.REBORN.2.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -347,7 +831,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.REBORN.2.pokemon]]
 internal_name = "CHARIZARD"
 level = 94
 raw_item = "CHOICESCARF"
@@ -360,7 +844,7 @@ raw_moves = [
 nature = "MODEST"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.REBORN.2.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -368,7 +852,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.REBORN.2.pokemon]]
 internal_name = "MEDICHAM"
 level = 95
 raw_item = "MEDICHAMITE"
@@ -381,7 +865,7 @@ raw_moves = [
 nature = "JOLLY"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.REBORN.2.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -389,13 +873,13 @@ spa = 252
 spd = 0
 spe = 0
 
-[trainers.3]
+[trainers.REBORN.3]
 raw_trainer_class = "REBORN"
 battler_name = "Cal"
 battler_id = 3
 raw_battle_items = []
 
-[[trainers.3.pokemon]]
+[[trainers.REBORN.3.pokemon]]
 internal_name = "MAGMORTAR"
 level = 93
 raw_item = "ASSAULTVEST"
@@ -408,7 +892,7 @@ raw_moves = [
 nature = "TIMID"
 iv = 31
 
-[trainers.3.pokemon.evs]
+[trainers.REBORN.3.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -416,7 +900,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.3.pokemon]]
+[[trainers.REBORN.3.pokemon]]
 internal_name = "ARCANINE"
 level = 93
 raw_item = "LIFEORB"
@@ -429,7 +913,7 @@ raw_moves = [
 nature = "JOLLY"
 iv = 31
 
-[trainers.3.pokemon.evs]
+[trainers.REBORN.3.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -437,7 +921,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.3.pokemon]]
+[[trainers.REBORN.3.pokemon]]
 internal_name = "CAMERUPT"
 level = 93
 raw_item = "LEFTOVERS"
@@ -450,7 +934,7 @@ raw_moves = [
 nature = "MODEST"
 iv = 31
 
-[trainers.3.pokemon.evs]
+[trainers.REBORN.3.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -458,7 +942,7 @@ spa = 0
 spd = 252
 spe = 4
 
-[[trainers.3.pokemon]]
+[[trainers.REBORN.3.pokemon]]
 internal_name = "KOMMOO"
 level = 94
 raw_item = "LUMBERRY"
@@ -471,7 +955,7 @@ raw_moves = [
 nature = "JOLLY"
 iv = 31
 
-[trainers.3.pokemon.evs]
+[trainers.REBORN.3.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -479,7 +963,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.3.pokemon]]
+[[trainers.REBORN.3.pokemon]]
 internal_name = "CHARIZARD"
 level = 94
 raw_item = "ASSAULTVEST"
@@ -492,7 +976,7 @@ raw_moves = [
 nature = "TIMID"
 iv = 31
 
-[trainers.3.pokemon.evs]
+[trainers.REBORN.3.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -500,7 +984,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.3.pokemon]]
+[[trainers.REBORN.3.pokemon]]
 internal_name = "MEDICHAM"
 level = 95
 raw_item = "MEDICHAMITE"
@@ -513,7 +997,7 @@ raw_moves = [
 nature = "JOLLY"
 iv = 31
 
-[trainers.3.pokemon.evs]
+[trainers.REBORN.3.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -521,13 +1005,13 @@ spa = 252
 spd = 0
 spe = 0
 
-[trainers.10]
+[trainers.REBORN.10]
 raw_trainer_class = "REBORN"
 battler_name = "Cal"
 battler_id = 10
 raw_battle_items = []
 
-[[trainers.10.pokemon]]
+[[trainers.REBORN.10.pokemon]]
 internal_name = "DELPHOX"
 level = 100
 raw_item = "LEFTOVERS"
@@ -541,7 +1025,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.REBORN.10.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -549,7 +1033,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.REBORN.10.pokemon]]
 internal_name = "LUCARIO"
 level = 100
 raw_item = "LUCARIONITE"
@@ -563,7 +1047,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.REBORN.10.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -571,7 +1055,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.REBORN.10.pokemon]]
 internal_name = "DARMANITAN"
 level = 100
 raw_item = "CHOICESPECS"
@@ -586,7 +1070,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.REBORN.10.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -594,7 +1078,7 @@ spa = 0
 spd = 252
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.REBORN.10.pokemon]]
 internal_name = "BLAZIKEN"
 level = 100
 raw_item = "TELLURICSEED"
@@ -609,7 +1093,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.REBORN.10.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -617,7 +1101,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.REBORN.10.pokemon]]
 internal_name = "MARSHADOW"
 level = 100
 raw_item = "TELLURICSEED"
@@ -631,7 +1115,7 @@ sex = ""
 nature = "NAIVE"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.REBORN.10.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -639,7 +1123,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.10.pokemon]]
+[[trainers.REBORN.10.pokemon]]
 internal_name = "KELDEO"
 level = 100
 raw_item = "LEFTOVERS"
@@ -653,7 +1137,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.REBORN.10.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -661,13 +1145,13 @@ spa = 252
 spd = 252
 spe = 0
 
-[trainers.11]
+[trainers.REBORN.11]
 raw_trainer_class = "REBORN"
 battler_name = "Cal"
 battler_id = 11
 raw_battle_items = []
 
-[[trainers.11.pokemon]]
+[[trainers.REBORN.11.pokemon]]
 internal_name = "VICTINI"
 level = 100
 raw_item = "AMPLIFIELDROCK"
@@ -681,7 +1165,7 @@ sex = ""
 nature = "BRAVE"
 iv = 32
 
-[trainers.11.pokemon.evs]
+[trainers.REBORN.11.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -689,7 +1173,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.REBORN.11.pokemon]]
 internal_name = "DRAMPA"
 level = 100
 raw_item = "ELEMENTALSEED"
@@ -703,7 +1187,7 @@ sex = ""
 nature = "QUIET"
 iv = 32
 
-[trainers.11.pokemon.evs]
+[trainers.REBORN.11.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -711,7 +1195,7 @@ spa = 0
 spd = 252
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.REBORN.11.pokemon]]
 internal_name = "TORKOAL"
 level = 100
 raw_item = "FIRIUMZ2"
@@ -725,7 +1209,7 @@ sex = ""
 nature = "QUIET"
 iv = 32
 
-[trainers.11.pokemon.evs]
+[trainers.REBORN.11.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -733,7 +1217,7 @@ spa = 0
 spd = 252
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.REBORN.11.pokemon]]
 internal_name = "CAMERUPT"
 level = 100
 raw_item = "CAMERUPTITE"
@@ -747,7 +1231,7 @@ sex = ""
 nature = "QUIET"
 iv = 32
 
-[trainers.11.pokemon.evs]
+[trainers.REBORN.11.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -755,7 +1239,7 @@ spa = 0
 spd = 252
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.REBORN.11.pokemon]]
 internal_name = "FLAREON"
 level = 100
 raw_item = "ELEMENTALSEED"
@@ -769,7 +1253,7 @@ sex = ""
 nature = "QUIET"
 iv = 32
 
-[trainers.11.pokemon.evs]
+[trainers.REBORN.11.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -777,7 +1261,7 @@ spa = 0
 spd = 252
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.REBORN.11.pokemon]]
 internal_name = "TURTONATOR"
 level = 100
 raw_item = "ELEMENTALSEED"
@@ -791,7 +1275,7 @@ sex = ""
 nature = "QUIET"
 iv = 32
 
-[trainers.11.pokemon.evs]
+[trainers.REBORN.11.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -799,13 +1283,13 @@ spa = 0
 spd = 252
 spe = 0
 
-[trainers.12]
+[trainers.REBORN.12]
 raw_trainer_class = "REBORN"
 battler_name = "Cal"
 battler_id = 12
 raw_battle_items = []
 
-[[trainers.12.pokemon]]
+[[trainers.REBORN.12.pokemon]]
 internal_name = "ENTEI"
 level = 100
 raw_item = "ASSAULTVEST"
@@ -819,7 +1303,7 @@ sex = ""
 nature = "NAIVE"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.REBORN.12.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 80
@@ -827,7 +1311,7 @@ spa = 176
 spd = 252
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.REBORN.12.pokemon]]
 internal_name = "MEDICHAM"
 level = 100
 raw_item = "MEDICHAMITE"
@@ -841,7 +1325,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.REBORN.12.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -849,7 +1333,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.REBORN.12.pokemon]]
 internal_name = "DELPHOX"
 level = 100
 raw_item = "MAGICALSEED"
@@ -864,7 +1348,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.REBORN.12.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -872,7 +1356,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.REBORN.12.pokemon]]
 internal_name = "VOLCARONA"
 level = 100
 raw_item = "MAGICALSEED"
@@ -886,7 +1370,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.REBORN.12.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -894,7 +1378,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.REBORN.12.pokemon]]
 internal_name = "MAGMORTAR"
 level = 100
 raw_item = "MAGICALSEED"
@@ -908,7 +1392,7 @@ sex = ""
 nature = "NAIVE"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.REBORN.12.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -916,7 +1400,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.12.pokemon]]
+[[trainers.REBORN.12.pokemon]]
 internal_name = "VICTINI"
 level = 100
 raw_item = "LEFTOVERS"
@@ -930,7 +1414,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.REBORN.12.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -938,13 +1422,13 @@ spa = 252
 spd = 252
 spe = 0
 
-[trainers.20]
+[trainers.REBORN.20]
 raw_trainer_class = "REBORN"
 battler_name = "Cal"
 battler_id = 20
 raw_battle_items = []
 
-[[trainers.20.pokemon]]
+[[trainers.REBORN.20.pokemon]]
 internal_name = "MAGMORTAR"
 level = 71
 raw_moves = [
@@ -956,7 +1440,7 @@ raw_moves = [
 nature = "MODEST"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.REBORN.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -964,7 +1448,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.REBORN.20.pokemon]]
 internal_name = "MEDICHAM"
 level = 72
 raw_item = "MUSCLEBAND"
@@ -977,7 +1461,7 @@ raw_moves = [
 nature = "JOLLY"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.REBORN.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -985,7 +1469,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.REBORN.20.pokemon]]
 internal_name = "INFERNAPE"
 level = 70
 raw_item = "INFERNAPITE"
@@ -999,7 +1483,7 @@ ability_number = 1
 nature = "JOLLY"
 iv = 20
 
-[trainers.20.pokemon.evs]
+[trainers.REBORN.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1007,7 +1491,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.REBORN.20.pokemon]]
 internal_name = "KINGDRA"
 level = 72
 raw_item = "WISEGLASSES"
@@ -1021,7 +1505,7 @@ ability_number = 1
 nature = "MODEST"
 iv = 20
 
-[trainers.20.pokemon.evs]
+[trainers.REBORN.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1029,7 +1513,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.REBORN.20.pokemon]]
 internal_name = "KOMMOO"
 level = 71
 raw_moves = [
@@ -1042,7 +1526,7 @@ ability_number = 1
 nature = "ADAMANT"
 iv = 15
 
-[trainers.20.pokemon.evs]
+[trainers.REBORN.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1050,7 +1534,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.REBORN.20.pokemon]]
 internal_name = "CHARIZARD"
 level = 73
 raw_moves = [
@@ -1062,7 +1546,7 @@ raw_moves = [
 nature = "ADAMANT"
 iv = 20
 
-[trainers.20.pokemon.evs]
+[trainers.REBORN.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1070,13 +1554,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.21]
+[trainers.REBORN.21]
 raw_trainer_class = "REBORN"
 battler_name = "Cal"
 battler_id = 21
 raw_battle_items = []
 
-[[trainers.21.pokemon]]
+[[trainers.REBORN.21.pokemon]]
 internal_name = "MAGMORTAR"
 level = 67
 raw_moves = [
@@ -1088,7 +1572,7 @@ raw_moves = [
 nature = "MODEST"
 iv = 31
 
-[trainers.21.pokemon.evs]
+[trainers.REBORN.21.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1096,7 +1580,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.21.pokemon]]
+[[trainers.REBORN.21.pokemon]]
 internal_name = "MEDICHAM"
 level = 68
 raw_item = "MUSCLEBAND"
@@ -1109,7 +1593,7 @@ raw_moves = [
 nature = "JOLLY"
 iv = 31
 
-[trainers.21.pokemon.evs]
+[trainers.REBORN.21.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1117,7 +1601,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.21.pokemon]]
+[[trainers.REBORN.21.pokemon]]
 internal_name = "INFERNAPE"
 level = 66
 raw_item = "INFERNAPITE"
@@ -1131,7 +1615,7 @@ ability_number = 1
 nature = "JOLLY"
 iv = 20
 
-[trainers.21.pokemon.evs]
+[trainers.REBORN.21.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1139,7 +1623,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.21.pokemon]]
+[[trainers.REBORN.21.pokemon]]
 internal_name = "KINGDRA"
 level = 66
 raw_item = "WISEGLASSES"
@@ -1153,7 +1637,7 @@ ability_number = 1
 nature = "MODEST"
 iv = 20
 
-[trainers.21.pokemon.evs]
+[trainers.REBORN.21.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1161,7 +1645,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.21.pokemon]]
+[[trainers.REBORN.21.pokemon]]
 internal_name = "KOMMOO"
 level = 67
 raw_moves = [
@@ -1174,7 +1658,7 @@ ability_number = 1
 nature = "ADAMANT"
 iv = 15
 
-[trainers.21.pokemon.evs]
+[trainers.REBORN.21.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1182,7 +1666,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.21.pokemon]]
+[[trainers.REBORN.21.pokemon]]
 internal_name = "CHARIZARD"
 level = 68
 raw_moves = [
@@ -1194,7 +1678,7 @@ raw_moves = [
 nature = "ADAMANT"
 iv = 20
 
-[trainers.21.pokemon.evs]
+[trainers.REBORN.21.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1202,13 +1686,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.22]
+[trainers.REBORN.22]
 raw_trainer_class = "REBORN"
 battler_name = "Cal"
 battler_id = 22
 raw_battle_items = []
 
-[[trainers.22.pokemon]]
+[[trainers.REBORN.22.pokemon]]
 internal_name = "MAGMORTAR"
 level = 93
 raw_item = "ELEMENTALSEED"
@@ -1221,7 +1705,7 @@ raw_moves = [
 nature = "TIMID"
 iv = 31
 
-[trainers.22.pokemon.evs]
+[trainers.REBORN.22.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -1229,7 +1713,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.22.pokemon]]
+[[trainers.REBORN.22.pokemon]]
 internal_name = "INFERNAPE"
 level = 93
 raw_item = "INFERNAPITE"
@@ -1243,7 +1727,7 @@ ability_number = 1
 nature = "JOLLY"
 iv = 31
 
-[trainers.22.pokemon.evs]
+[trainers.REBORN.22.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -1251,7 +1735,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.22.pokemon]]
+[[trainers.REBORN.22.pokemon]]
 internal_name = "CAMERUPT"
 level = 93
 raw_item = "ELEMENTALSEED"
@@ -1264,7 +1748,7 @@ raw_moves = [
 nature = "MODEST"
 iv = 31
 
-[trainers.22.pokemon.evs]
+[trainers.REBORN.22.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -1272,7 +1756,7 @@ spa = 0
 spd = 252
 spe = 4
 
-[[trainers.22.pokemon]]
+[[trainers.REBORN.22.pokemon]]
 internal_name = "KOMMOO"
 level = 94
 raw_item = "FOCUSSASH"
@@ -1285,7 +1769,7 @@ raw_moves = [
 nature = "ADAMANT"
 iv = 31
 
-[trainers.22.pokemon.evs]
+[trainers.REBORN.22.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -1293,7 +1777,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.22.pokemon]]
+[[trainers.REBORN.22.pokemon]]
 internal_name = "CHARIZARD"
 level = 94
 raw_item = "CHOICESCARF"
@@ -1306,7 +1790,7 @@ raw_moves = [
 nature = "MODEST"
 iv = 31
 
-[trainers.22.pokemon.evs]
+[trainers.REBORN.22.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -1314,7 +1798,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.22.pokemon]]
+[[trainers.REBORN.22.pokemon]]
 internal_name = "MEDICHAM"
 level = 95
 raw_item = "MEDICHAMITE"
@@ -1327,7 +1811,7 @@ raw_moves = [
 nature = "JOLLY"
 iv = 31
 
-[trainers.22.pokemon.evs]
+[trainers.REBORN.22.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -1335,13 +1819,13 @@ spa = 252
 spd = 0
 spe = 0
 
-[trainers.23]
+[trainers.REBORN.23]
 raw_trainer_class = "REBORN"
 battler_name = "Cal"
 battler_id = 23
 raw_battle_items = []
 
-[[trainers.23.pokemon]]
+[[trainers.REBORN.23.pokemon]]
 internal_name = "MAGMORTAR"
 level = 93
 raw_item = "ASSAULTVEST"
@@ -1354,7 +1838,7 @@ raw_moves = [
 nature = "TIMID"
 iv = 31
 
-[trainers.23.pokemon.evs]
+[trainers.REBORN.23.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -1362,7 +1846,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.23.pokemon]]
+[[trainers.REBORN.23.pokemon]]
 internal_name = "INFERNAPE"
 level = 93
 raw_item = "INFERNAPITE"
@@ -1376,7 +1860,7 @@ ability_number = 1
 nature = "JOLLY"
 iv = 31
 
-[trainers.23.pokemon.evs]
+[trainers.REBORN.23.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -1384,7 +1868,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.23.pokemon]]
+[[trainers.REBORN.23.pokemon]]
 internal_name = "CAMERUPT"
 level = 93
 raw_item = "LEFTOVERS"
@@ -1397,7 +1881,7 @@ raw_moves = [
 nature = "MODEST"
 iv = 31
 
-[trainers.23.pokemon.evs]
+[trainers.REBORN.23.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -1405,7 +1889,7 @@ spa = 0
 spd = 252
 spe = 4
 
-[[trainers.23.pokemon]]
+[[trainers.REBORN.23.pokemon]]
 internal_name = "KOMMOO"
 level = 94
 raw_item = "LUMBERRY"
@@ -1418,7 +1902,7 @@ raw_moves = [
 nature = "JOLLY"
 iv = 31
 
-[trainers.23.pokemon.evs]
+[trainers.REBORN.23.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -1426,7 +1910,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.23.pokemon]]
+[[trainers.REBORN.23.pokemon]]
 internal_name = "CHARIZARD"
 level = 94
 raw_item = "ASSAULTVEST"
@@ -1439,7 +1923,7 @@ raw_moves = [
 nature = "TIMID"
 iv = 31
 
-[trainers.23.pokemon.evs]
+[trainers.REBORN.23.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -1447,7 +1931,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.23.pokemon]]
+[[trainers.REBORN.23.pokemon]]
 internal_name = "MEDICHAM"
 level = 95
 raw_item = "MEDICHAMITE"
@@ -1460,7 +1944,7 @@ raw_moves = [
 nature = "JOLLY"
 iv = 31
 
-[trainers.23.pokemon.evs]
+[trainers.REBORN.23.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252

@@ -1,14 +1,16 @@
-[trainers.0]
+trainer_name = "Andreas"
+
+[trainers.StreetRat.0]
 raw_trainer_class = "StreetRat"
 battler_name = "Andreas"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.StreetRat.0.pokemon]]
 internal_name = "AIPOM"
 level = 5
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.StreetRat.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

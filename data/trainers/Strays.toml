@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Strays"
+
+[trainers.MIGHTYENA.0]
 raw_trainer_class = "MIGHTYENA"
 battler_name = "Strays"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.MIGHTYENA.0.pokemon]]
 internal_name = "MIGHTYENA"
 level = 25
 raw_moves = [
@@ -14,7 +16,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.MIGHTYENA.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -22,7 +24,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.MIGHTYENA.0.pokemon]]
 internal_name = "MIGHTYENA"
 level = 25
 raw_moves = [
@@ -33,7 +35,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.MIGHTYENA.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

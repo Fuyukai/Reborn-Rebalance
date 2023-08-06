@@ -1,9 +1,55 @@
-[trainers.0]
+trainer_name = "Bishop"
+
+[trainers.Orderly.0]
+raw_trainer_class = "Orderly"
+battler_name = "Bishop"
+raw_battle_items = []
+
+[[trainers.Orderly.0.pokemon]]
+internal_name = "CLEFAIRY"
+level = 34
+iv = 0
+
+[trainers.Orderly.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.Orderly.0.pokemon]]
+internal_name = "PERSIAN"
+level = 34
+iv = 0
+
+[trainers.Orderly.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.Orderly.0.pokemon]]
+internal_name = "GOLETT"
+level = 34
+iv = 0
+
+[trainers.Orderly.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.NWOrderly.0]
 raw_trainer_class = "NWOrderly"
 battler_name = "Bishop"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.NWOrderly.0.pokemon]]
 internal_name = "CLEFABLE"
 level = 73
 raw_moves = [
@@ -15,7 +61,7 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.NWOrderly.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -23,7 +69,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.NWOrderly.0.pokemon]]
 internal_name = "PERSIAN"
 level = 73
 raw_moves = [
@@ -34,7 +80,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.NWOrderly.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -42,7 +88,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.NWOrderly.0.pokemon]]
 internal_name = "DURANT"
 level = 74
 raw_moves = [
@@ -54,7 +100,7 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.NWOrderly.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -62,7 +108,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.NWOrderly.0.pokemon]]
 internal_name = "GOLURK"
 level = 75
 raw_moves = [
@@ -74,7 +120,7 @@ raw_moves = [
 ability_number = 2
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.NWOrderly.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -82,7 +128,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.NWOrderly.0.pokemon]]
 internal_name = "RIBOMBEE"
 level = 75
 raw_moves = [
@@ -94,7 +140,7 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.NWOrderly.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

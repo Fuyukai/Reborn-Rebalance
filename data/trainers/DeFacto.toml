@@ -1,14 +1,16 @@
-[trainers.0]
+trainer_name = "DeFacto"
+
+[trainers.AQUA2.0]
 raw_trainer_class = "AQUA2"
 battler_name = "DeFacto"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.AQUA2.0.pokemon]]
 internal_name = "SLOWPOKE"
 level = 32
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.AQUA2.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -16,12 +18,12 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.AQUA2.0.pokemon]]
 internal_name = "CARVANHA"
 level = 33
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.AQUA2.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -29,12 +31,12 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.AQUA2.0.pokemon]]
 internal_name = "STARYU"
 level = 33
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.AQUA2.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

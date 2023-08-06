@@ -1,9 +1,130 @@
-[trainers.0]
+trainer_name = "Refugees"
+
+[trainers.KECLEONS.0]
+raw_trainer_class = "KECLEONS"
+battler_name = "Refugees"
+raw_battle_items = []
+
+[[trainers.KECLEONS.0.pokemon]]
+internal_name = "KECLEON"
+level = 67
+raw_moves = [
+    "FOULPLAY",
+    "ROCKTOMB",
+    "DIZZYPUNCH",
+    "ICYWIND",
+]
+iv = 0
+
+[trainers.KECLEONS.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.KECLEONS.0.pokemon]]
+internal_name = "KECLEON"
+level = 65
+raw_moves = [
+    "SHADOWSNEAK",
+    "ANCIENTPOWER",
+    "THUNDERWAVE",
+    "SUCKERPUNCH",
+]
+iv = 0
+
+[trainers.KECLEONS.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.KECLEONS.0.pokemon]]
+internal_name = "KECLEON"
+level = 64
+raw_moves = [
+    "THIEF",
+    "ROCKTOMB",
+    "FAKEOUT",
+    "DRAINPUNCH",
+]
+iv = 0
+
+[trainers.KECLEONS.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.KECLEONS.0.pokemon]]
+internal_name = "KECLEON"
+level = 66
+raw_moves = [
+    "DIZZYPUNCH",
+    "ROCKTOMB",
+    "FAKEOUT",
+    "KNOCKOFF",
+]
+iv = 0
+
+[trainers.KECLEONS.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.KECLEONS.0.pokemon]]
+internal_name = "KECLEON"
+level = 68
+raw_moves = [
+    "SUCKERPUNCH",
+    "ROCKSLIDE",
+    "SHADOWSNEAK",
+    "BRICKBREAK",
+]
+iv = 0
+
+[trainers.KECLEONS.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.KECLEONS.0.pokemon]]
+internal_name = "KECLEON"
+level = 69
+raw_moves = [
+    "ROCKSLIDE",
+    "FOULPLAY",
+    "RECOVER",
+    "THUNDERBOLT",
+]
+iv = 0
+
+[trainers.KECLEONS.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.AGGRON.0]
 raw_trainer_class = "AGGRON"
 battler_name = "Refugees"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.AGGRON.0.pokemon]]
 internal_name = "ARON"
 level = 20
 raw_item = "CUSTAPBERRY"
@@ -14,7 +135,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.AGGRON.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -22,7 +143,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.AGGRON.0.pokemon]]
 internal_name = "ARON"
 level = 20
 raw_item = "CUSTAPBERRY"
@@ -33,7 +154,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.AGGRON.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -41,7 +162,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.AGGRON.0.pokemon]]
 internal_name = "ARON"
 level = 20
 raw_item = "CUSTAPBERRY"
@@ -52,7 +173,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.AGGRON.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -60,7 +181,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.AGGRON.0.pokemon]]
 internal_name = "ARON"
 level = 20
 raw_item = "CUSTAPBERRY"
@@ -71,7 +192,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.AGGRON.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -79,7 +200,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.AGGRON.0.pokemon]]
 internal_name = "LAIRON"
 level = 35
 raw_item = "CUSTAPBERRY"
@@ -90,7 +211,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.AGGRON.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -98,7 +219,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.AGGRON.0.pokemon]]
 internal_name = "LAIRON"
 level = 35
 raw_item = "CUSTAPBERRY"
@@ -109,7 +230,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.AGGRON.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -117,13 +238,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.1]
+[trainers.AGGRON.1]
 raw_trainer_class = "AGGRON"
 battler_name = "Refugees"
 battler_id = 1
 raw_battle_items = []
 
-[[trainers.1.pokemon]]
+[[trainers.AGGRON.1.pokemon]]
 internal_name = "AGGRON"
 level = 75
 raw_item = "ROCKIUMZ2"
@@ -136,7 +257,7 @@ sex = ""
 nature = "BOLD"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.AGGRON.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -144,7 +265,7 @@ spa = 0
 spd = 0
 spe = 252
 
-[[trainers.1.pokemon]]
+[[trainers.AGGRON.1.pokemon]]
 internal_name = "AGGRON"
 level = 75
 raw_item = "TELLURICSEED"
@@ -156,7 +277,7 @@ sex = ""
 nature = "BOLD"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.AGGRON.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -164,7 +285,7 @@ spa = 0
 spd = 0
 spe = 252
 
-[[trainers.1.pokemon]]
+[[trainers.AGGRON.1.pokemon]]
 internal_name = "AGGRON"
 level = 75
 raw_item = "TELLURICSEED"
@@ -176,7 +297,7 @@ sex = ""
 nature = "BOLD"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.AGGRON.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -184,7 +305,7 @@ spa = 0
 spd = 0
 spe = 252
 
-[[trainers.1.pokemon]]
+[[trainers.AGGRON.1.pokemon]]
 internal_name = "AGGRON"
 level = 75
 raw_item = "TELLURICSEED"
@@ -196,7 +317,7 @@ sex = ""
 nature = "BOLD"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.AGGRON.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -204,13 +325,13 @@ spa = 0
 spd = 0
 spe = 252
 
-[trainers.2]
+[trainers.AGGRON.2]
 raw_trainer_class = "AGGRON"
 battler_name = "Refugees"
 battler_id = 2
 raw_battle_items = []
 
-[[trainers.2.pokemon]]
+[[trainers.AGGRON.2.pokemon]]
 internal_name = "AGGRON"
 level = 75
 raw_item = "TELLURICSEED"
@@ -222,7 +343,7 @@ sex = ""
 nature = "BOLD"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.AGGRON.2.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -230,7 +351,7 @@ spa = 0
 spd = 0
 spe = 252
 
-[[trainers.2.pokemon]]
+[[trainers.AGGRON.2.pokemon]]
 internal_name = "AGGRON"
 level = 75
 raw_item = "TELLURICSEED"
@@ -242,7 +363,7 @@ sex = ""
 nature = "BOLD"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.AGGRON.2.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -250,7 +371,7 @@ spa = 0
 spd = 0
 spe = 252
 
-[[trainers.2.pokemon]]
+[[trainers.AGGRON.2.pokemon]]
 internal_name = "AGGRON"
 level = 75
 raw_item = "TELLURICSEED"
@@ -262,7 +383,7 @@ sex = ""
 nature = "BOLD"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.AGGRON.2.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -270,7 +391,7 @@ spa = 0
 spd = 0
 spe = 252
 
-[[trainers.2.pokemon]]
+[[trainers.AGGRON.2.pokemon]]
 internal_name = "AGGRON"
 level = 75
 raw_item = "ROCKIUMZ2"
@@ -283,7 +404,7 @@ sex = ""
 nature = "BOLD"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.AGGRON.2.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0

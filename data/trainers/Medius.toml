@@ -1,14 +1,16 @@
-[trainers.0]
+trainer_name = "Medius"
+
+[trainers.RANGERF.0]
 raw_trainer_class = "RANGERF"
 battler_name = "Medius"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.RANGERF.0.pokemon]]
 internal_name = "KARRABLAST"
 level = 52
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.RANGERF.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -16,12 +18,12 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.RANGERF.0.pokemon]]
 internal_name = "MILTANK"
 level = 52
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.RANGERF.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

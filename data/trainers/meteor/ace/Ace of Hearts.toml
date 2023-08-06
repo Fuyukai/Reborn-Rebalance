@@ -1,11 +1,13 @@
-[trainers.0]
+trainer_name = "Ace of Hearts"
+
+[trainers.ACEHEARTS.0]
 raw_trainer_class = "ACEHEARTS"
 battler_name = "Ace of Hearts"
 raw_battle_items = [
     "ULTRAPOTION",
 ]
 
-[[trainers.0.pokemon]]
+[[trainers.ACEHEARTS.0.pokemon]]
 internal_name = "ALAKAZAM"
 level = 60
 raw_item = "CHOICESCARF"
@@ -20,7 +22,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.ACEHEARTS.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -28,7 +30,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.ACEHEARTS.0.pokemon]]
 internal_name = "ZOROARK"
 level = 62
 raw_item = "BLACKGLASSES"
@@ -43,7 +45,7 @@ nature = "TIMID"
 iv = 31
 happiness = 255
 
-[trainers.0.pokemon.evs]
+[trainers.ACEHEARTS.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -51,7 +53,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.ACEHEARTS.0.pokemon]]
 internal_name = "TOGEKISS"
 level = 60
 raw_item = "LEFTOVERS"
@@ -67,7 +69,7 @@ is_shiny = true
 nature = "QUIET"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.ACEHEARTS.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -75,7 +77,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.ACEHEARTS.0.pokemon]]
 internal_name = "PRIMARINA"
 level = 61
 raw_moves = [
@@ -88,7 +90,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.ACEHEARTS.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -96,7 +98,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.ACEHEARTS.0.pokemon]]
 internal_name = "PORYGONZ"
 level = 60
 raw_moves = [
@@ -111,7 +113,7 @@ is_shiny = true
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.ACEHEARTS.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -119,7 +121,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.ACEHEARTS.0.pokemon]]
 internal_name = "DELPHOX"
 level = 62
 raw_item = "SITRUSBERRY"
@@ -134,7 +136,7 @@ nature = "MODEST"
 iv = 31
 happiness = 255
 
-[trainers.0.pokemon.evs]
+[trainers.ACEHEARTS.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -142,7 +144,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.20]
+[trainers.ACEHEARTS.20]
 raw_trainer_class = "ACEHEARTS"
 battler_name = "Ace of Hearts"
 battler_id = 20
@@ -150,7 +152,7 @@ raw_battle_items = [
     "ULTRAPOTION",
 ]
 
-[[trainers.20.pokemon]]
+[[trainers.ACEHEARTS.20.pokemon]]
 internal_name = "ZOROARK"
 level = 62
 raw_item = "BLACKGLASSES"
@@ -166,7 +168,7 @@ nature = "TIMID"
 iv = 31
 happiness = 255
 
-[trainers.20.pokemon.evs]
+[trainers.ACEHEARTS.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -174,7 +176,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.ACEHEARTS.20.pokemon]]
 internal_name = "TOGEKISS"
 level = 60
 raw_item = "LEFTOVERS"
@@ -190,7 +192,7 @@ is_shiny = true
 nature = "QUIET"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.ACEHEARTS.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -198,7 +200,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.ACEHEARTS.20.pokemon]]
 internal_name = "PRIMARINA"
 level = 61
 raw_moves = [
@@ -211,7 +213,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.ACEHEARTS.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -219,7 +221,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.ACEHEARTS.20.pokemon]]
 internal_name = "MEOWSCARADA"
 level = 60
 raw_item = "TANGABERRY"
@@ -235,7 +237,7 @@ nature = "ADAMANT"
 iv = 31
 happiness = 255
 
-[trainers.20.pokemon.evs]
+[trainers.ACEHEARTS.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -243,7 +245,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.ACEHEARTS.20.pokemon]]
 internal_name = "DELPHOX"
 level = 62
 raw_item = "SITRUSBERRY"
@@ -258,7 +260,7 @@ nature = "MODEST"
 iv = 31
 happiness = 255
 
-[trainers.20.pokemon.evs]
+[trainers.ACEHEARTS.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -266,7 +268,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.ACEHEARTS.20.pokemon]]
 internal_name = "ARCANINE"
 level = 60
 raw_item = "MUSCLEBAND"
@@ -281,7 +283,7 @@ form_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.ACEHEARTS.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

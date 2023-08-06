@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Indra"
+
+[trainers.INDRA.0]
 raw_trainer_class = "INDRA"
 battler_name = "Indra"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.INDRA.0.pokemon]]
 internal_name = "SCIZOR"
 level = 58
 raw_item = "AIRBALLOON"
@@ -17,7 +19,7 @@ ability_number = 2
 nature = "ADAMANT"
 happiness = 255
 
-[trainers.0.pokemon.evs]
+[trainers.INDRA.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -25,7 +27,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.INDRA.0.pokemon]]
 internal_name = "TALONFLAME"
 level = 58
 raw_item = "AIRBALLOON"
@@ -40,7 +42,7 @@ sex = "F"
 nature = "ADAMANT"
 happiness = 255
 
-[trainers.0.pokemon.evs]
+[trainers.INDRA.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -48,7 +50,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.INDRA.0.pokemon]]
 internal_name = "PORYGONZ"
 level = 58
 raw_item = "AIRBALLOON"
@@ -63,7 +65,7 @@ sex = ""
 nature = "TIMID"
 happiness = 255
 
-[trainers.0.pokemon.evs]
+[trainers.INDRA.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -71,13 +73,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.1]
+[trainers.INDRA.1]
 raw_trainer_class = "INDRA"
 battler_name = "Indra"
 battler_id = 1
 raw_battle_items = []
 
-[[trainers.1.pokemon]]
+[[trainers.INDRA.1.pokemon]]
 internal_name = "EMPOLEON"
 level = 58
 raw_item = "AIRBALLOON"
@@ -91,7 +93,7 @@ sex = "F"
 nature = "CALM"
 happiness = 255
 
-[trainers.1.pokemon.evs]
+[trainers.INDRA.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -99,7 +101,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.INDRA.1.pokemon]]
 internal_name = "SIMIPOUR"
 level = 58
 raw_item = "AIRBALLOON"
@@ -113,7 +115,7 @@ ability_number = 1
 nature = "TIMID"
 happiness = 255
 
-[trainers.1.pokemon.evs]
+[trainers.INDRA.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -121,7 +123,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.INDRA.1.pokemon]]
 internal_name = "WAILORD"
 level = 58
 raw_item = "AIRBALLOON"
@@ -134,7 +136,7 @@ raw_moves = [
 nature = "MODEST"
 happiness = 255
 
-[trainers.1.pokemon.evs]
+[trainers.INDRA.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -142,13 +144,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.2]
+[trainers.INDRA.2]
 raw_trainer_class = "INDRA"
 battler_name = "Indra"
 battler_id = 2
 raw_battle_items = []
 
-[[trainers.2.pokemon]]
+[[trainers.INDRA.2.pokemon]]
 internal_name = "RIBOMBEE"
 level = 58
 raw_item = "AIRBALLOON"
@@ -162,7 +164,7 @@ ability_number = 1
 nature = "MODEST"
 happiness = 255
 
-[trainers.2.pokemon.evs]
+[trainers.INDRA.2.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -170,7 +172,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.INDRA.2.pokemon]]
 internal_name = "NINJASK"
 level = 58
 raw_item = "AIRBALLOON"
@@ -185,7 +187,7 @@ sex = "F"
 nature = "JOLLY"
 happiness = 255
 
-[trainers.2.pokemon.evs]
+[trainers.INDRA.2.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -193,7 +195,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.INDRA.2.pokemon]]
 internal_name = "DEDENNE"
 level = 58
 raw_item = "AIRBALLOON"
@@ -207,7 +209,7 @@ sex = "F"
 nature = "JOLLY"
 happiness = 255
 
-[trainers.2.pokemon.evs]
+[trainers.INDRA.2.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -215,13 +217,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.3]
+[trainers.INDRA.3]
 raw_trainer_class = "INDRA"
 battler_name = "Indra"
 battler_id = 3
 raw_battle_items = []
 
-[[trainers.3.pokemon]]
+[[trainers.INDRA.3.pokemon]]
 internal_name = "HAWLUCHA"
 level = 58
 raw_item = "AIRBALLOON"
@@ -235,7 +237,7 @@ ability_number = 1
 nature = "JOLLY"
 happiness = 255
 
-[trainers.3.pokemon.evs]
+[trainers.INDRA.3.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -243,7 +245,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.3.pokemon]]
+[[trainers.INDRA.3.pokemon]]
 internal_name = "LILLIGANT"
 level = 58
 raw_item = "AIRBALLOON"
@@ -258,7 +260,7 @@ sex = "F"
 nature = "MODEST"
 happiness = 255
 
-[trainers.3.pokemon.evs]
+[trainers.INDRA.3.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -266,7 +268,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.3.pokemon]]
+[[trainers.INDRA.3.pokemon]]
 internal_name = "FLYGON"
 level = 58
 raw_item = "AIRBALLOON"
@@ -279,7 +281,7 @@ raw_moves = [
 nature = "JOLLY"
 happiness = 255
 
-[trainers.3.pokemon.evs]
+[trainers.INDRA.3.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -287,13 +289,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.4]
+[trainers.INDRA.4]
 raw_trainer_class = "INDRA"
 battler_name = "Indra"
 battler_id = 4
 raw_battle_items = []
 
-[[trainers.4.pokemon]]
+[[trainers.INDRA.4.pokemon]]
 internal_name = "TOUCANNON"
 level = 58
 raw_item = "AIRBALLOON"
@@ -308,7 +310,7 @@ sex = "F"
 nature = "ADAMANT"
 happiness = 255
 
-[trainers.4.pokemon.evs]
+[trainers.INDRA.4.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -316,7 +318,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.4.pokemon]]
+[[trainers.INDRA.4.pokemon]]
 internal_name = "DUSKNOIR"
 level = 58
 raw_item = "AIRBALLOON"
@@ -329,7 +331,7 @@ raw_moves = [
 nature = "ADAMANT"
 happiness = 255
 
-[trainers.4.pokemon.evs]
+[trainers.INDRA.4.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -337,7 +339,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.4.pokemon]]
+[[trainers.INDRA.4.pokemon]]
 internal_name = "SNORLAX"
 level = 58
 raw_item = "AIRBALLOON"
@@ -351,7 +353,7 @@ ability_number = 2
 nature = "CAREFUL"
 happiness = 255
 
-[trainers.4.pokemon.evs]
+[trainers.INDRA.4.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -359,13 +361,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.5]
+[trainers.INDRA.5]
 raw_trainer_class = "INDRA"
 battler_name = "Indra"
 battler_id = 5
 raw_battle_items = []
 
-[[trainers.5.pokemon]]
+[[trainers.INDRA.5.pokemon]]
 internal_name = "URSARING"
 level = 58
 raw_item = "AIRBALLOON"
@@ -379,7 +381,7 @@ sex = "F"
 nature = "JOLLY"
 happiness = 255
 
-[trainers.5.pokemon.evs]
+[trainers.INDRA.5.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -387,7 +389,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.5.pokemon]]
+[[trainers.INDRA.5.pokemon]]
 internal_name = "DRAGONITE"
 level = 58
 raw_item = "AIRBALLOON"
@@ -401,7 +403,7 @@ ability_number = 1
 nature = "ADAMANT"
 happiness = 255
 
-[trainers.5.pokemon.evs]
+[trainers.INDRA.5.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -409,7 +411,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.5.pokemon]]
+[[trainers.INDRA.5.pokemon]]
 internal_name = "SAWSBUCK"
 level = 58
 raw_item = "AIRBALLOON"
@@ -423,7 +425,7 @@ sex = "F"
 nature = "JOLLY"
 happiness = 255
 
-[trainers.5.pokemon.evs]
+[trainers.INDRA.5.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -431,13 +433,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.6]
+[trainers.INDRA.6]
 raw_trainer_class = "INDRA"
 battler_name = "Indra"
 battler_id = 6
 raw_battle_items = []
 
-[[trainers.6.pokemon]]
+[[trainers.INDRA.6.pokemon]]
 internal_name = "TSAREENA"
 level = 58
 raw_item = "AIRBALLOON"
@@ -452,7 +454,7 @@ sex = "F"
 nature = "JOLLY"
 happiness = 255
 
-[trainers.6.pokemon.evs]
+[trainers.INDRA.6.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -460,7 +462,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.6.pokemon]]
+[[trainers.INDRA.6.pokemon]]
 internal_name = "MISMAGIUS"
 level = 58
 raw_item = "AIRBALLOON"
@@ -475,7 +477,7 @@ sex = "F"
 nature = "TIMID"
 happiness = 255
 
-[trainers.6.pokemon.evs]
+[trainers.INDRA.6.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -483,7 +485,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.6.pokemon]]
+[[trainers.INDRA.6.pokemon]]
 internal_name = "MIENSHAO"
 level = 58
 raw_item = "AIRBALLOON"
@@ -498,7 +500,7 @@ sex = "F"
 nature = "JOLLY"
 happiness = 255
 
-[trainers.6.pokemon.evs]
+[trainers.INDRA.6.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -506,13 +508,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.7]
+[trainers.INDRA.7]
 raw_trainer_class = "INDRA"
 battler_name = "Indra"
 battler_id = 7
 raw_battle_items = []
 
-[[trainers.7.pokemon]]
+[[trainers.INDRA.7.pokemon]]
 internal_name = "CARBINK"
 level = 58
 raw_item = "AIRBALLOON"
@@ -527,7 +529,7 @@ sex = ""
 nature = "BOLD"
 happiness = 255
 
-[trainers.7.pokemon.evs]
+[trainers.INDRA.7.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -535,7 +537,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.7.pokemon]]
+[[trainers.INDRA.7.pokemon]]
 internal_name = "KLINKLANG"
 level = 58
 raw_item = "AIRBALLOON"
@@ -550,7 +552,7 @@ sex = ""
 nature = "ADAMANT"
 happiness = 255
 
-[trainers.7.pokemon.evs]
+[trainers.INDRA.7.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -558,7 +560,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.7.pokemon]]
+[[trainers.INDRA.7.pokemon]]
 internal_name = "DONPHAN"
 level = 58
 raw_item = "AIRBALLOON"
@@ -573,7 +575,7 @@ sex = "F"
 nature = "ADAMANT"
 happiness = 255
 
-[trainers.7.pokemon.evs]
+[trainers.INDRA.7.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -581,13 +583,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.8]
+[trainers.INDRA.8]
 raw_trainer_class = "INDRA"
 battler_name = "Indra"
 battler_id = 8
 raw_battle_items = []
 
-[[trainers.8.pokemon]]
+[[trainers.INDRA.8.pokemon]]
 internal_name = "CASTFORM"
 level = 58
 raw_item = "AIRBALLOON"
@@ -600,7 +602,7 @@ raw_moves = [
 nature = "TIMID"
 happiness = 255
 
-[trainers.8.pokemon.evs]
+[trainers.INDRA.8.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -608,7 +610,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.8.pokemon]]
+[[trainers.INDRA.8.pokemon]]
 internal_name = "SWANNA"
 level = 58
 raw_item = "AIRBALLOON"
@@ -623,7 +625,7 @@ sex = "F"
 nature = "TIMID"
 happiness = 255
 
-[trainers.8.pokemon.evs]
+[trainers.INDRA.8.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -631,7 +633,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.8.pokemon]]
+[[trainers.INDRA.8.pokemon]]
 internal_name = "AMOONGUSS"
 level = 58
 raw_item = "AIRBALLOON"
@@ -645,7 +647,7 @@ ability_number = 1
 nature = "BOLD"
 happiness = 255
 
-[trainers.8.pokemon.evs]
+[trainers.INDRA.8.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -653,13 +655,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.9]
+[trainers.INDRA.9]
 raw_trainer_class = "INDRA"
 battler_name = "Indra"
 battler_id = 9
 raw_battle_items = []
 
-[[trainers.9.pokemon]]
+[[trainers.INDRA.9.pokemon]]
 internal_name = "MUSHARNA"
 level = 58
 raw_item = "AIRBALLOON"
@@ -674,7 +676,7 @@ sex = "F"
 nature = "BOLD"
 happiness = 255
 
-[trainers.9.pokemon.evs]
+[trainers.INDRA.9.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -682,7 +684,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.9.pokemon]]
+[[trainers.INDRA.9.pokemon]]
 internal_name = "BEWEAR"
 level = 58
 raw_item = "AIRBALLOON"
@@ -696,7 +698,7 @@ sex = "F"
 nature = "CALM"
 happiness = 255
 
-[trainers.9.pokemon.evs]
+[trainers.INDRA.9.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -704,7 +706,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.9.pokemon]]
+[[trainers.INDRA.9.pokemon]]
 internal_name = "BLISSEY"
 level = 58
 raw_item = "AIRBALLOON"
@@ -719,7 +721,7 @@ sex = "F"
 nature = "BOLD"
 happiness = 255
 
-[trainers.9.pokemon.evs]
+[trainers.INDRA.9.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -727,13 +729,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.10]
+[trainers.INDRA.10]
 raw_trainer_class = "INDRA"
 battler_name = "Indra"
 battler_id = 10
 raw_battle_items = []
 
-[[trainers.10.pokemon]]
+[[trainers.INDRA.10.pokemon]]
 internal_name = "SCIZOR"
 level = 68
 raw_item = "LIFEORB"
@@ -747,7 +749,7 @@ ability_number = 2
 nature = "ADAMANT"
 happiness = 255
 
-[trainers.10.pokemon.evs]
+[trainers.INDRA.10.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -755,7 +757,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.INDRA.10.pokemon]]
 internal_name = "TALONFLAME"
 level = 68
 raw_item = "FLYINGGEM"
@@ -770,7 +772,7 @@ sex = "F"
 nature = "ADAMANT"
 happiness = 255
 
-[trainers.10.pokemon.evs]
+[trainers.INDRA.10.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -778,7 +780,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.INDRA.10.pokemon]]
 internal_name = "PORYGONZ"
 level = 68
 raw_item = "CHOICESPECS"
@@ -793,7 +795,7 @@ sex = ""
 nature = "TIMID"
 happiness = 255
 
-[trainers.10.pokemon.evs]
+[trainers.INDRA.10.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -801,13 +803,13 @@ spa = 252
 spd = 252
 spe = 0
 
-[trainers.11]
+[trainers.INDRA.11]
 raw_trainer_class = "INDRA"
 battler_name = "Indra"
 battler_id = 11
 raw_battle_items = []
 
-[[trainers.11.pokemon]]
+[[trainers.INDRA.11.pokemon]]
 internal_name = "EMPOLEON"
 level = 68
 raw_item = "LEFTOVERS"
@@ -821,7 +823,7 @@ sex = "F"
 nature = "CALM"
 happiness = 255
 
-[trainers.11.pokemon.evs]
+[trainers.INDRA.11.pokemon.evs]
 hp = 0
 atk = 248
 def_ = 0
@@ -829,7 +831,7 @@ spa = 0
 spd = 0
 spe = 8
 
-[[trainers.11.pokemon]]
+[[trainers.INDRA.11.pokemon]]
 internal_name = "SIMIPOUR"
 level = 68
 raw_item = "LIFEORB"
@@ -843,7 +845,7 @@ ability_number = 1
 nature = "TIMID"
 happiness = 255
 
-[trainers.11.pokemon.evs]
+[trainers.INDRA.11.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -851,7 +853,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.INDRA.11.pokemon]]
 internal_name = "WAILORD"
 level = 68
 raw_item = "CHOICESCARF"
@@ -864,7 +866,7 @@ raw_moves = [
 nature = "MODEST"
 happiness = 255
 
-[trainers.11.pokemon.evs]
+[trainers.INDRA.11.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -872,13 +874,13 @@ spa = 252
 spd = 252
 spe = 0
 
-[trainers.12]
+[trainers.INDRA.12]
 raw_trainer_class = "INDRA"
 battler_name = "Indra"
 battler_id = 12
 raw_battle_items = []
 
-[[trainers.12.pokemon]]
+[[trainers.INDRA.12.pokemon]]
 internal_name = "RIBOMBEE"
 level = 68
 raw_item = "FOCUSSASH"
@@ -892,7 +894,7 @@ ability_number = 1
 nature = "MODEST"
 happiness = 255
 
-[trainers.12.pokemon.evs]
+[trainers.INDRA.12.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -900,7 +902,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.INDRA.12.pokemon]]
 internal_name = "NINJASK"
 level = 68
 raw_item = "CHOICEBAND"
@@ -915,7 +917,7 @@ sex = "F"
 nature = "JOLLY"
 happiness = 255
 
-[trainers.12.pokemon.evs]
+[trainers.INDRA.12.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -923,7 +925,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.INDRA.12.pokemon]]
 internal_name = "DEDENNE"
 level = 68
 raw_item = "LEFTOVERS"
@@ -937,7 +939,7 @@ sex = "F"
 nature = "JOLLY"
 happiness = 255
 
-[trainers.12.pokemon.evs]
+[trainers.INDRA.12.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -945,13 +947,13 @@ spa = 252
 spd = 0
 spe = 0
 
-[trainers.13]
+[trainers.INDRA.13]
 raw_trainer_class = "INDRA"
 battler_name = "Indra"
 battler_id = 13
 raw_battle_items = []
 
-[[trainers.13.pokemon]]
+[[trainers.INDRA.13.pokemon]]
 internal_name = "HAWLUCHA"
 level = 68
 raw_item = "POWERHERB"
@@ -965,7 +967,7 @@ ability_number = 1
 nature = "JOLLY"
 happiness = 255
 
-[trainers.13.pokemon.evs]
+[trainers.INDRA.13.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -973,7 +975,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.13.pokemon]]
+[[trainers.INDRA.13.pokemon]]
 internal_name = "LILLIGANT"
 level = 68
 raw_item = "LIFEORB"
@@ -988,7 +990,7 @@ sex = "F"
 nature = "MODEST"
 happiness = 255
 
-[trainers.13.pokemon.evs]
+[trainers.INDRA.13.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -996,7 +998,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.13.pokemon]]
+[[trainers.INDRA.13.pokemon]]
 internal_name = "FLYGON"
 level = 68
 raw_item = "CHOICESCARF"
@@ -1009,7 +1011,7 @@ raw_moves = [
 nature = "JOLLY"
 happiness = 255
 
-[trainers.13.pokemon.evs]
+[trainers.INDRA.13.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -1017,13 +1019,13 @@ spa = 252
 spd = 0
 spe = 0
 
-[trainers.14]
+[trainers.INDRA.14]
 raw_trainer_class = "INDRA"
 battler_name = "Indra"
 battler_id = 14
 raw_battle_items = []
 
-[[trainers.14.pokemon]]
+[[trainers.INDRA.14.pokemon]]
 internal_name = "TOUCANNON"
 level = 68
 raw_item = "LIFEORB"
@@ -1038,7 +1040,7 @@ sex = "F"
 nature = "ADAMANT"
 happiness = 255
 
-[trainers.14.pokemon.evs]
+[trainers.INDRA.14.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -1046,7 +1048,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.14.pokemon]]
+[[trainers.INDRA.14.pokemon]]
 internal_name = "DUSKNOIR"
 level = 68
 raw_item = "CHOICEBAND"
@@ -1059,7 +1061,7 @@ raw_moves = [
 nature = "ADAMANT"
 happiness = 255
 
-[trainers.14.pokemon.evs]
+[trainers.INDRA.14.pokemon.evs]
 hp = 0
 atk = 212
 def_ = 252
@@ -1067,7 +1069,7 @@ spa = 44
 spd = 0
 spe = 0
 
-[[trainers.14.pokemon]]
+[[trainers.INDRA.14.pokemon]]
 internal_name = "SNORLAX"
 level = 68
 raw_item = "LEFTOVERS"
@@ -1081,7 +1083,7 @@ ability_number = 2
 nature = "CAREFUL"
 happiness = 255
 
-[trainers.14.pokemon.evs]
+[trainers.INDRA.14.pokemon.evs]
 hp = 0
 atk = 144
 def_ = 0
@@ -1089,13 +1091,13 @@ spa = 0
 spd = 176
 spe = 188
 
-[trainers.15]
+[trainers.INDRA.15]
 raw_trainer_class = "INDRA"
 battler_name = "Indra"
 battler_id = 15
 raw_battle_items = []
 
-[[trainers.15.pokemon]]
+[[trainers.INDRA.15.pokemon]]
 internal_name = "URSARING"
 level = 68
 raw_item = "TOXICORB"
@@ -1109,7 +1111,7 @@ sex = "F"
 nature = "JOLLY"
 happiness = 255
 
-[trainers.15.pokemon.evs]
+[trainers.INDRA.15.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -1117,7 +1119,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.15.pokemon]]
+[[trainers.INDRA.15.pokemon]]
 internal_name = "DRAGONITE"
 level = 68
 raw_item = "CHOICEBAND"
@@ -1131,7 +1133,7 @@ ability_number = 1
 nature = "ADAMANT"
 happiness = 255
 
-[trainers.15.pokemon.evs]
+[trainers.INDRA.15.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -1139,7 +1141,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.15.pokemon]]
+[[trainers.INDRA.15.pokemon]]
 internal_name = "SAWSBUCK"
 level = 68
 raw_item = "LIFEORB"
@@ -1153,7 +1155,7 @@ sex = "F"
 nature = "JOLLY"
 happiness = 255
 
-[trainers.15.pokemon.evs]
+[trainers.INDRA.15.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -1161,13 +1163,13 @@ spa = 252
 spd = 0
 spe = 0
 
-[trainers.16]
+[trainers.INDRA.16]
 raw_trainer_class = "INDRA"
 battler_name = "Indra"
 battler_id = 16
 raw_battle_items = []
 
-[[trainers.16.pokemon]]
+[[trainers.INDRA.16.pokemon]]
 internal_name = "TSAREENA"
 level = 68
 raw_item = "CHOICEBAND"
@@ -1182,7 +1184,7 @@ sex = "F"
 nature = "JOLLY"
 happiness = 255
 
-[trainers.16.pokemon.evs]
+[trainers.INDRA.16.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -1190,7 +1192,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.16.pokemon]]
+[[trainers.INDRA.16.pokemon]]
 internal_name = "MISMAGIUS"
 level = 68
 raw_item = "SPOOKYPLATE"
@@ -1205,7 +1207,7 @@ sex = "F"
 nature = "TIMID"
 happiness = 255
 
-[trainers.16.pokemon.evs]
+[trainers.INDRA.16.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -1213,7 +1215,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.16.pokemon]]
+[[trainers.INDRA.16.pokemon]]
 internal_name = "MIENSHAO"
 level = 68
 raw_item = "LIFEORB"
@@ -1228,7 +1230,7 @@ sex = "F"
 nature = "JOLLY"
 happiness = 255
 
-[trainers.16.pokemon.evs]
+[trainers.INDRA.16.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -1236,13 +1238,13 @@ spa = 252
 spd = 0
 spe = 0
 
-[trainers.17]
+[trainers.INDRA.17]
 raw_trainer_class = "INDRA"
 battler_name = "Indra"
 battler_id = 17
 raw_battle_items = []
 
-[[trainers.17.pokemon]]
+[[trainers.INDRA.17.pokemon]]
 internal_name = "CARBINK"
 level = 68
 raw_item = "LEFTOVERS"
@@ -1257,7 +1259,7 @@ sex = ""
 nature = "BOLD"
 happiness = 255
 
-[trainers.17.pokemon.evs]
+[trainers.INDRA.17.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -1265,7 +1267,7 @@ spa = 0
 spd = 4
 spe = 252
 
-[[trainers.17.pokemon]]
+[[trainers.INDRA.17.pokemon]]
 internal_name = "KLINKLANG"
 level = 68
 raw_item = "LEFTOVERS"
@@ -1280,7 +1282,7 @@ sex = ""
 nature = "ADAMANT"
 happiness = 255
 
-[trainers.17.pokemon.evs]
+[trainers.INDRA.17.pokemon.evs]
 hp = 0
 atk = 136
 def_ = 252
@@ -1288,7 +1290,7 @@ spa = 120
 spd = 0
 spe = 0
 
-[[trainers.17.pokemon]]
+[[trainers.INDRA.17.pokemon]]
 internal_name = "DONPHAN"
 level = 68
 raw_item = "CHOICEBAND"
@@ -1303,7 +1305,7 @@ sex = "F"
 nature = "ADAMANT"
 happiness = 255
 
-[trainers.17.pokemon.evs]
+[trainers.INDRA.17.pokemon.evs]
 hp = 0
 atk = 52
 def_ = 252
@@ -1311,13 +1313,13 @@ spa = 204
 spd = 0
 spe = 0
 
-[trainers.18]
+[trainers.INDRA.18]
 raw_trainer_class = "INDRA"
 battler_name = "Indra"
 battler_id = 18
 raw_battle_items = []
 
-[[trainers.18.pokemon]]
+[[trainers.INDRA.18.pokemon]]
 internal_name = "CASTFORM"
 level = 68
 raw_item = "DAMPROCK"
@@ -1330,7 +1332,7 @@ raw_moves = [
 nature = "TIMID"
 happiness = 255
 
-[trainers.18.pokemon.evs]
+[trainers.INDRA.18.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -1338,7 +1340,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.18.pokemon]]
+[[trainers.INDRA.18.pokemon]]
 internal_name = "SWANNA"
 level = 68
 raw_item = "LIFEORB"
@@ -1353,7 +1355,7 @@ sex = "F"
 nature = "TIMID"
 happiness = 255
 
-[trainers.18.pokemon.evs]
+[trainers.INDRA.18.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -1361,7 +1363,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.18.pokemon]]
+[[trainers.INDRA.18.pokemon]]
 internal_name = "AMOONGUSS"
 level = 68
 raw_item = "BLACKSLUDGE"
@@ -1375,7 +1377,7 @@ ability_number = 1
 nature = "BOLD"
 happiness = 255
 
-[trainers.18.pokemon.evs]
+[trainers.INDRA.18.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -1383,13 +1385,13 @@ spa = 0
 spd = 0
 spe = 136
 
-[trainers.19]
+[trainers.INDRA.19]
 raw_trainer_class = "INDRA"
 battler_name = "Indra"
 battler_id = 19
 raw_battle_items = []
 
-[[trainers.19.pokemon]]
+[[trainers.INDRA.19.pokemon]]
 internal_name = "MUSHARNA"
 level = 68
 raw_item = "LEFTOVERS"
@@ -1404,7 +1406,7 @@ sex = "F"
 nature = "BOLD"
 happiness = 255
 
-[trainers.19.pokemon.evs]
+[trainers.INDRA.19.pokemon.evs]
 hp = 0
 atk = 240
 def_ = 0
@@ -1412,7 +1414,7 @@ spa = 0
 spd = 0
 spe = 252
 
-[[trainers.19.pokemon]]
+[[trainers.INDRA.19.pokemon]]
 internal_name = "BEWEAR"
 level = 68
 raw_item = "CHOICEBAND"
@@ -1426,7 +1428,7 @@ sex = "F"
 nature = "CALM"
 happiness = 255
 
-[trainers.19.pokemon.evs]
+[trainers.INDRA.19.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -1434,7 +1436,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.19.pokemon]]
+[[trainers.INDRA.19.pokemon]]
 internal_name = "BLISSEY"
 level = 68
 raw_item = "LEFTOVERS"
@@ -1449,7 +1451,7 @@ sex = "F"
 nature = "BOLD"
 happiness = 255
 
-[trainers.19.pokemon.evs]
+[trainers.INDRA.19.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -1457,19 +1459,19 @@ spa = 0
 spd = 0
 spe = 252
 
-[trainers.1000]
+[trainers.INDRA.1000]
 raw_trainer_class = "INDRA"
 battler_name = "Indra"
 battler_id = 1000
 raw_battle_items = []
 
-[[trainers.1000.pokemon]]
+[[trainers.INDRA.1000.pokemon]]
 internal_name = "DELIBIRD"
 level = 100
 raw_item = "AIRBALLOON"
 iv = 0
 
-[trainers.1000.pokemon.evs]
+[trainers.INDRA.1000.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1477,13 +1479,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1000.pokemon]]
+[[trainers.INDRA.1000.pokemon]]
 internal_name = "ZUBAT"
 level = 100
 raw_item = "AIRBALLOON"
 iv = 0
 
-[trainers.1000.pokemon.evs]
+[trainers.INDRA.1000.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1491,7 +1493,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1000.pokemon]]
+[[trainers.INDRA.1000.pokemon]]
 internal_name = "ROTOM"
 level = 100
 raw_item = "AIRBALLOON"
@@ -1506,7 +1508,7 @@ form_number = 4
 nature = "MODEST"
 iv = 31
 
-[trainers.1000.pokemon.evs]
+[trainers.INDRA.1000.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -1514,13 +1516,13 @@ spa = 0
 spd = 252
 spe = 0
 
-[trainers.1001]
+[trainers.INDRA.1001]
 raw_trainer_class = "INDRA"
 battler_name = "Indra"
 battler_id = 1001
 raw_battle_items = []
 
-[[trainers.1001.pokemon]]
+[[trainers.INDRA.1001.pokemon]]
 internal_name = "MEW"
 level = 100
 raw_item = "MAGICALSEED"
@@ -1534,7 +1536,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.1001.pokemon.evs]
+[trainers.INDRA.1001.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1542,7 +1544,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.1001.pokemon]]
+[[trainers.INDRA.1001.pokemon]]
 internal_name = "NECROZMA"
 level = 100
 raw_item = "MAGICALSEED"
@@ -1556,7 +1558,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.1001.pokemon.evs]
+[trainers.INDRA.1001.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1564,7 +1566,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.1001.pokemon]]
+[[trainers.INDRA.1001.pokemon]]
 internal_name = "MILOTIC"
 level = 100
 raw_item = "MAGICALSEED"
@@ -1579,7 +1581,7 @@ sex = ""
 nature = "CALM"
 iv = 31
 
-[trainers.1001.pokemon.evs]
+[trainers.INDRA.1001.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -1587,13 +1589,13 @@ spa = 0
 spd = 0
 spe = 4
 
-[trainers.1002]
+[trainers.INDRA.1002]
 raw_trainer_class = "INDRA"
 battler_name = "Indra"
 battler_id = 1002
 raw_battle_items = []
 
-[[trainers.1002.pokemon]]
+[[trainers.INDRA.1002.pokemon]]
 internal_name = "MEW"
 level = 100
 raw_item = "MAGICALSEED"
@@ -1607,7 +1609,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.1002.pokemon.evs]
+[trainers.INDRA.1002.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1615,7 +1617,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.1002.pokemon]]
+[[trainers.INDRA.1002.pokemon]]
 internal_name = "MEW"
 level = 100
 raw_item = "MAGICALSEED"
@@ -1629,7 +1631,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.1002.pokemon.evs]
+[trainers.INDRA.1002.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1637,7 +1639,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.1002.pokemon]]
+[[trainers.INDRA.1002.pokemon]]
 internal_name = "MEW"
 level = 100
 raw_item = "LEFTOVERS"
@@ -1651,7 +1653,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.1002.pokemon.evs]
+[trainers.INDRA.1002.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252

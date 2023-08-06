@@ -1,148 +1,150 @@
-[trainers.0]
-raw_trainer_class = "UMBSAMSON"
-battler_name = "Samson"
-raw_battle_items = []
+trainer_name = "Samson"
 
-[[trainers.0.pokemon]]
-internal_name = "BLAZIKEN"
-level = 115
-raw_item = "FOCUSSASH"
+[trainers.SAMSON.0]
+raw_trainer_class = "SAMSON"
+battler_name = "Samson"
+raw_battle_items = [
+    "ULTRAPOTION",
+    "ULTRAPOTION",
+]
+
+[[trainers.SAMSON.0.pokemon]]
+internal_name = "HARIYAMA"
+level = 67
+raw_item = "ROCKYHELMET"
 raw_moves = [
-    "PROTECT",
-    "FLAMETHROWER",
-    "FOCUSBLAST",
-    "HIDDENPOWERICE",
+    "HEAVYSLAM",
+    "SMACKDOWN",
+    "BRICKBREAK",
+    "KNOCKOFF",
 ]
 ability_number = 1
-sex = "F"
-nature = "MODEST"
-iv = 31
-
-[trainers.0.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 252
-spa = 252
-spd = 252
-spe = 252
-
-[[trainers.0.pokemon]]
-internal_name = "PHEROMOSA"
-level = 115
-raw_item = "LIFEORB"
-raw_moves = [
-    "FOCUSBLAST",
-    "BUGBUZZ",
-    "ICEBEAM",
-    "QUIVERDANCE",
-]
-sex = ""
-nature = "MODEST"
-iv = 31
-
-[trainers.0.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 252
-spa = 252
-spd = 252
-spe = 252
-
-[[trainers.0.pokemon]]
-internal_name = "GARDEVOIR"
-level = 115
-raw_item = "SITRUSBERRY"
-raw_moves = [
-    "FOCUSBLAST",
-    "MOONBLAST",
-    "PSYCHIC",
-    "HIDDENPOWERGRO",
-]
-sex = "F"
-nature = "MODEST"
-iv = 31
-
-[trainers.0.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 252
-spa = 252
-spd = 252
-spe = 252
-
-[[trainers.0.pokemon]]
-internal_name = "LOPUNNY"
-level = 115
-raw_item = "LOPUNNITE"
-raw_moves = [
-    "FAKEOUT",
-    "STRENGTH",
-    "ICEPUNCH",
-    "QUICKATTACK",
-]
-sex = "F"
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SAMSON.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
-spa = 252
-spd = 252
-spe = 252
+spa = 0
+spd = 0
+spe = 0
 
-[[trainers.0.pokemon]]
-internal_name = "MISMAGIUS"
-level = 115
-raw_item = "COLBURBERRY"
+[[trainers.SAMSON.0.pokemon]]
+internal_name = "MIENSHAO"
+level = 68
+raw_item = "LIFEORB"
 raw_moves = [
-    "CALMMIND",
-    "PSYCHIC",
-    "SHADOWBALL",
-    "HIDDENPOWERROC",
+    "ACROBATICS",
+    "UTURN",
+    "BRICKBREAK",
+    "POISONJAB",
 ]
+ability_number = 1
 sex = "F"
-nature = "TIMID"
+nature = "JOLLY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SAMSON.0.pokemon.evs]
 hp = 0
-atk = 252
+atk = 4
 def_ = 252
 spa = 252
-spd = 252
-spe = 252
+spd = 0
+spe = 0
 
-[[trainers.0.pokemon]]
-internal_name = "JYNX"
-level = 115
-raw_item = "CHOICESCARF"
+[[trainers.SAMSON.0.pokemon]]
+internal_name = "LUCARIO"
+level = 68
+raw_item = "FOCUSSASH"
 raw_moves = [
-    "FOCUSBLAST",
-    "PSYCHIC",
-    "ICEBEAM",
-    "HIDDENPOWERFIR",
+    "SWORDSDANCE",
+    "EXTREMESPEED",
+    "BRICKBREAK",
+    "METEORMASH",
 ]
-sex = "F"
-nature = "MODEST"
+nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SAMSON.0.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.SAMSON.0.pokemon]]
+internal_name = "HAWLUCHA"
+level = 66
+raw_item = "SYNTHETICSEED"
+raw_moves = [
+    "ROOST",
+    "FLYINGPRESS",
+    "ACROBATICS",
+    "POISONJAB",
+]
+nature = "JOLLY"
+iv = 23
+
+[trainers.SAMSON.0.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.SAMSON.0.pokemon]]
+internal_name = "BLAZIKEN"
+level = 69
+raw_item = "SYNTHETICSEED"
+raw_moves = [
+    "ACROBATICS",
+    "PROTECT",
+    "BRICKBREAK",
+    "BLAZEKICK",
+]
+ability_number = 1
+nature = "ADAMANT"
+iv = 31
+
+[trainers.SAMSON.0.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.SAMSON.0.pokemon]]
+internal_name = "CONKELDURR"
+level = 71
+raw_item = "SYNTHETICSEED"
+raw_moves = [
+    "DRAINPUNCH",
+    "POISONJAB",
+    "KNOCKOFF",
+    "BULKUP",
+]
+nature = "ADAMANT"
+iv = 31
+
+[trainers.SAMSON.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
-spa = 252
-spd = 252
-spe = 252
+spa = 0
+spd = 0
+spe = 0
 
-[trainers.10]
+[trainers.SAMSON.10]
 raw_trainer_class = "SAMSON"
 battler_name = "Samson"
 battler_id = 10
 raw_battle_items = []
 
-[[trainers.10.pokemon]]
+[[trainers.SAMSON.10.pokemon]]
 internal_name = "BRELOOM"
 level = 100
 raw_item = "LIFEORB"
@@ -157,7 +159,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.SAMSON.10.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -165,7 +167,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.SAMSON.10.pokemon]]
 internal_name = "HAWLUCHA"
 level = 100
 raw_item = "SYNTHETICSEED"
@@ -179,7 +181,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.SAMSON.10.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -187,7 +189,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.SAMSON.10.pokemon]]
 internal_name = "KOMMOO"
 level = 100
 raw_item = "KOMMONIUMZ2"
@@ -201,7 +203,7 @@ sex = ""
 nature = "HASTY"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.SAMSON.10.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -209,7 +211,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.SAMSON.10.pokemon]]
 internal_name = "BLAZIKEN"
 level = 100
 raw_item = "BLAZIKENITE"
@@ -223,7 +225,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.SAMSON.10.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -231,7 +233,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.SAMSON.10.pokemon]]
 internal_name = "MARSHADOW"
 level = 100
 raw_item = "LIFEORB"
@@ -245,7 +247,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.SAMSON.10.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -253,7 +255,7 @@ spa = 252
 spd = 0
 spe = 4
 
-[[trainers.10.pokemon]]
+[[trainers.SAMSON.10.pokemon]]
 internal_name = "LUCARIO"
 level = 100
 raw_item = "LIFEORB"
@@ -267,7 +269,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.SAMSON.10.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -275,13 +277,13 @@ spa = 252
 spd = 0
 spe = 0
 
-[trainers.11]
+[trainers.SAMSON.11]
 raw_trainer_class = "SAMSON"
 battler_name = "Samson"
 battler_id = 11
 raw_battle_items = []
 
-[[trainers.11.pokemon]]
+[[trainers.SAMSON.11.pokemon]]
 internal_name = "TERRAKION"
 level = 100
 raw_item = "FOCUSSASH"
@@ -295,7 +297,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.SAMSON.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -303,7 +305,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.SAMSON.11.pokemon]]
 internal_name = "HAWLUCHA"
 level = 100
 raw_item = "SYNTHETICSEED"
@@ -317,7 +319,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.SAMSON.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -325,7 +327,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.SAMSON.11.pokemon]]
 internal_name = "KOMMOO"
 level = 100
 raw_item = "KOMMONIUMZ2"
@@ -339,7 +341,7 @@ sex = ""
 nature = "HASTY"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.SAMSON.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -347,7 +349,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.SAMSON.11.pokemon]]
 internal_name = "PHEROMOSA"
 level = 100
 raw_item = "LIFEORB"
@@ -361,7 +363,7 @@ sex = ""
 nature = "RASH"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.SAMSON.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -369,7 +371,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.SAMSON.11.pokemon]]
 internal_name = "MARSHADOW"
 level = 100
 raw_item = "LIFEORB"
@@ -383,7 +385,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.SAMSON.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -391,7 +393,7 @@ spa = 252
 spd = 0
 spe = 4
 
-[[trainers.11.pokemon]]
+[[trainers.SAMSON.11.pokemon]]
 internal_name = "LUCARIO"
 level = 100
 raw_item = "LUCARIONITE"
@@ -405,7 +407,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.SAMSON.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -413,13 +415,13 @@ spa = 252
 spd = 0
 spe = 0
 
-[trainers.12]
+[trainers.SAMSON.12]
 raw_trainer_class = "SAMSON"
 battler_name = "Samson"
 battler_id = 12
 raw_battle_items = []
 
-[[trainers.12.pokemon]]
+[[trainers.SAMSON.12.pokemon]]
 internal_name = "KOMMOO"
 level = 100
 raw_item = "KOMMONIUMZ2"
@@ -433,7 +435,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.SAMSON.12.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -441,7 +443,7 @@ spa = 0
 spd = 252
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.SAMSON.12.pokemon]]
 internal_name = "INFERNAPE"
 level = 100
 raw_item = "WIKIBERRY"
@@ -455,7 +457,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.SAMSON.12.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -463,7 +465,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.SAMSON.12.pokemon]]
 internal_name = "MEDICHAM"
 level = 100
 raw_item = "MEDICHAMITE"
@@ -477,7 +479,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.SAMSON.12.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -485,7 +487,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.SAMSON.12.pokemon]]
 internal_name = "KELDEO"
 level = 100
 raw_item = "WIKIBERRY"
@@ -499,7 +501,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.SAMSON.12.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -507,7 +509,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.SAMSON.12.pokemon]]
 internal_name = "LUCARIO"
 level = 100
 raw_item = "WIKIBERRY"
@@ -522,7 +524,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.SAMSON.12.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -530,7 +532,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.SAMSON.12.pokemon]]
 internal_name = "VIRIZION"
 level = 100
 raw_item = "WIKIBERRY"
@@ -544,7 +546,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.SAMSON.12.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -552,13 +554,13 @@ spa = 252
 spd = 252
 spe = 0
 
-[trainers.13]
+[trainers.SAMSON.13]
 raw_trainer_class = "SAMSON"
 battler_name = "Samson"
 battler_id = 13
 raw_battle_items = []
 
-[[trainers.13.pokemon]]
+[[trainers.SAMSON.13.pokemon]]
 internal_name = "CHESNAUGHT"
 level = 100
 raw_item = "TELLURICSEED"
@@ -572,7 +574,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.SAMSON.13.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -580,7 +582,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.13.pokemon]]
+[[trainers.SAMSON.13.pokemon]]
 internal_name = "HERACROSS"
 level = 100
 raw_item = "HERACRONITE"
@@ -594,7 +596,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.SAMSON.13.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -602,7 +604,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.13.pokemon]]
+[[trainers.SAMSON.13.pokemon]]
 internal_name = "HARIYAMA"
 level = 100
 raw_item = "TELLURICSEED"
@@ -616,7 +618,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.SAMSON.13.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -624,7 +626,7 @@ spa = 0
 spd = 0
 spe = 128
 
-[[trainers.13.pokemon]]
+[[trainers.SAMSON.13.pokemon]]
 internal_name = "BRELOOM"
 level = 100
 raw_item = "TELLURICSEED"
@@ -638,7 +640,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.SAMSON.13.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -646,7 +648,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.13.pokemon]]
+[[trainers.SAMSON.13.pokemon]]
 internal_name = "PHEROMOSA"
 level = 100
 raw_item = "TELLURICSEED"
@@ -660,7 +662,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.SAMSON.13.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -668,7 +670,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.13.pokemon]]
+[[trainers.SAMSON.13.pokemon]]
 internal_name = "VIRIZION"
 level = 100
 raw_item = "TELLURICSEED"
@@ -682,7 +684,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.SAMSON.13.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -690,7 +692,7 @@ spa = 252
 spd = 0
 spe = 4
 
-[trainers.20]
+[trainers.SAMSON.20]
 raw_trainer_class = "SAMSON"
 battler_name = "Samson"
 battler_id = 20
@@ -699,7 +701,7 @@ raw_battle_items = [
     "ULTRAPOTION",
 ]
 
-[[trainers.20.pokemon]]
+[[trainers.SAMSON.20.pokemon]]
 internal_name = "TAUROS"
 level = 68
 raw_item = "SYNTHETICSEED"
@@ -713,7 +715,7 @@ form_number = 1
 nature = "JOLLY"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.SAMSON.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -721,7 +723,7 @@ spa = 252
 spd = 0
 spe = 4
 
-[[trainers.20.pokemon]]
+[[trainers.SAMSON.20.pokemon]]
 internal_name = "LUCARIO"
 level = 68
 raw_item = "FOCUSSASH"
@@ -734,7 +736,7 @@ raw_moves = [
 nature = "ADAMANT"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.SAMSON.20.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -742,7 +744,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.SAMSON.20.pokemon]]
 internal_name = "HAWLUCHA"
 level = 66
 raw_item = "SYNTHETICSEED"
@@ -755,7 +757,7 @@ raw_moves = [
 nature = "JOLLY"
 iv = 23
 
-[trainers.20.pokemon.evs]
+[trainers.SAMSON.20.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -763,7 +765,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.SAMSON.20.pokemon]]
 internal_name = "LILLIGANT"
 level = 69
 raw_item = "SYNTHETICSEED"
@@ -780,7 +782,7 @@ nature = "JOLLY"
 iv = 31
 nickname = "Ciel"
 
-[trainers.20.pokemon.evs]
+[trainers.SAMSON.20.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -788,7 +790,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.SAMSON.20.pokemon]]
 internal_name = "CONKELDURR"
 level = 68
 raw_item = "SYNTHETICSEED"
@@ -801,7 +803,7 @@ raw_moves = [
 nature = "ADAMANT"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.SAMSON.20.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -809,7 +811,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.SAMSON.20.pokemon]]
 internal_name = "MACHAMP"
 level = 71
 raw_item = "MACHAMPITE"
@@ -824,10 +826,148 @@ sex = "F"
 nature = "JOLLY"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.SAMSON.20.pokemon.evs]
 hp = 0
 atk = 156
 def_ = 252
 spa = 100
 spd = 0
 spe = 0
+
+[trainers.UMBSAMSON.0]
+raw_trainer_class = "UMBSAMSON"
+battler_name = "Samson"
+raw_battle_items = []
+
+[[trainers.UMBSAMSON.0.pokemon]]
+internal_name = "BLAZIKEN"
+level = 115
+raw_item = "FOCUSSASH"
+raw_moves = [
+    "PROTECT",
+    "FLAMETHROWER",
+    "FOCUSBLAST",
+    "HIDDENPOWERICE",
+]
+ability_number = 1
+sex = "F"
+nature = "MODEST"
+iv = 31
+
+[trainers.UMBSAMSON.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.UMBSAMSON.0.pokemon]]
+internal_name = "PHEROMOSA"
+level = 115
+raw_item = "LIFEORB"
+raw_moves = [
+    "FOCUSBLAST",
+    "BUGBUZZ",
+    "ICEBEAM",
+    "QUIVERDANCE",
+]
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.UMBSAMSON.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.UMBSAMSON.0.pokemon]]
+internal_name = "GARDEVOIR"
+level = 115
+raw_item = "SITRUSBERRY"
+raw_moves = [
+    "FOCUSBLAST",
+    "MOONBLAST",
+    "PSYCHIC",
+    "HIDDENPOWERGRO",
+]
+sex = "F"
+nature = "MODEST"
+iv = 31
+
+[trainers.UMBSAMSON.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.UMBSAMSON.0.pokemon]]
+internal_name = "LOPUNNY"
+level = 115
+raw_item = "LOPUNNITE"
+raw_moves = [
+    "FAKEOUT",
+    "STRENGTH",
+    "ICEPUNCH",
+    "QUICKATTACK",
+]
+sex = "F"
+nature = "ADAMANT"
+iv = 31
+
+[trainers.UMBSAMSON.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.UMBSAMSON.0.pokemon]]
+internal_name = "MISMAGIUS"
+level = 115
+raw_item = "COLBURBERRY"
+raw_moves = [
+    "CALMMIND",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "HIDDENPOWERROC",
+]
+sex = "F"
+nature = "TIMID"
+iv = 31
+
+[trainers.UMBSAMSON.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.UMBSAMSON.0.pokemon]]
+internal_name = "JYNX"
+level = 115
+raw_item = "CHOICESCARF"
+raw_moves = [
+    "FOCUSBLAST",
+    "PSYCHIC",
+    "ICEBEAM",
+    "HIDDENPOWERFIR",
+]
+sex = "F"
+nature = "MODEST"
+iv = 31
+
+[trainers.UMBSAMSON.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252

@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Redoubt"
+
+[trainers.AVALUGG.0]
 raw_trainer_class = "AVALUGG"
 battler_name = "Redoubt"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.AVALUGG.0.pokemon]]
 internal_name = "AVALUGG"
 level = 70
 raw_item = "LEFTOVERS"
@@ -19,7 +21,7 @@ nature = "BRAVE"
 iv = 31
 happiness = 0
 
-[trainers.0.pokemon.evs]
+[trainers.AVALUGG.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0

@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Sandy"
+
+[trainers.SANDY.0]
 raw_trainer_class = "SANDY"
 battler_name = "Sandy"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.SANDY.0.pokemon]]
 internal_name = "PELIPPER"
 level = 75
 raw_item = "DAMPROCK"
@@ -18,7 +20,7 @@ sex = "F"
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SANDY.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -26,7 +28,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.SANDY.0.pokemon]]
 internal_name = "SEISMITOAD"
 level = 75
 raw_moves = [
@@ -39,7 +41,7 @@ sex = "F"
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SANDY.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -47,7 +49,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.SANDY.0.pokemon]]
 internal_name = "LUDICOLO"
 level = 76
 raw_moves = [
@@ -59,7 +61,7 @@ raw_moves = [
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SANDY.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -67,7 +69,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.SANDY.0.pokemon]]
 internal_name = "TORTERRA"
 level = 76
 raw_item = "LEFTOVERS"
@@ -80,7 +82,7 @@ raw_moves = [
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SANDY.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -88,7 +90,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.SANDY.0.pokemon]]
 internal_name = "SANDSLASH"
 level = 76
 raw_moves = [
@@ -102,7 +104,7 @@ sex = "F"
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SANDY.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -110,7 +112,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.SANDY.0.pokemon]]
 internal_name = "MUDSDALE"
 level = 77
 raw_item = "ASSAULTVEST"
@@ -124,7 +126,7 @@ ability_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SANDY.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -132,13 +134,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.1]
+[trainers.SANDY.1]
 raw_trainer_class = "SANDY"
 battler_name = "Sandy"
 battler_id = 1
 raw_battle_items = []
 
-[[trainers.1.pokemon]]
+[[trainers.SANDY.1.pokemon]]
 internal_name = "PELIPPER"
 level = 120
 raw_item = "DAMPROCK"
@@ -153,7 +155,7 @@ sex = "F"
 nature = "MODEST"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.SANDY.1.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -161,7 +163,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.SANDY.1.pokemon]]
 internal_name = "SEISMITOAD"
 level = 120
 raw_item = "CHOICESPECS"
@@ -175,7 +177,7 @@ sex = "F"
 nature = "MODEST"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.SANDY.1.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -183,7 +185,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.SANDY.1.pokemon]]
 internal_name = "LUDICOLO"
 level = 120
 raw_item = "CHOICESPECS"
@@ -196,7 +198,7 @@ raw_moves = [
 nature = "MODEST"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.SANDY.1.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -204,7 +206,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.SANDY.1.pokemon]]
 internal_name = "TORTERRA"
 level = 120
 raw_item = "LEFTOVERS"
@@ -217,7 +219,7 @@ raw_moves = [
 nature = "ADAMANT"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.SANDY.1.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -225,7 +227,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.SANDY.1.pokemon]]
 internal_name = "SANDSLASH"
 level = 120
 raw_item = "CHOICEBAND"
@@ -240,7 +242,7 @@ sex = "F"
 nature = "ADAMANT"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.SANDY.1.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -248,7 +250,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.SANDY.1.pokemon]]
 internal_name = "MUDSDALE"
 level = 120
 raw_item = "ASSAULTVEST"
@@ -262,7 +264,7 @@ ability_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.SANDY.1.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -270,13 +272,13 @@ spa = 0
 spd = 0
 spe = 252
 
-[trainers.1000]
+[trainers.SANDY.1000]
 raw_trainer_class = "SANDY"
 battler_name = "Sandy"
 battler_id = 1000
 raw_battle_items = []
 
-[[trainers.1000.pokemon]]
+[[trainers.SANDY.1000.pokemon]]
 internal_name = "PELIPPER"
 level = 100
 raw_item = "DAMPROCK"
@@ -291,7 +293,7 @@ sex = "F"
 nature = "MODEST"
 iv = 31
 
-[trainers.1000.pokemon.evs]
+[trainers.SANDY.1000.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -299,7 +301,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.1000.pokemon]]
+[[trainers.SANDY.1000.pokemon]]
 internal_name = "SEISMITOAD"
 level = 100
 raw_item = "CHOICESPECS"
@@ -313,7 +315,7 @@ sex = "F"
 nature = "MODEST"
 iv = 31
 
-[trainers.1000.pokemon.evs]
+[trainers.SANDY.1000.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -321,7 +323,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.1000.pokemon]]
+[[trainers.SANDY.1000.pokemon]]
 internal_name = "LUDICOLO"
 level = 100
 raw_item = "CHOICESPECS"
@@ -334,7 +336,7 @@ raw_moves = [
 nature = "MODEST"
 iv = 31
 
-[trainers.1000.pokemon.evs]
+[trainers.SANDY.1000.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

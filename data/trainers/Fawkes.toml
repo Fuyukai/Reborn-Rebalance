@@ -1,40 +1,24 @@
-[trainers.0]
-raw_trainer_class = "COOLTRAINER_Male"
+trainer_name = "Fawkes"
+
+[trainers.Casanova.0]
+raw_trainer_class = "Casanova"
 battler_name = "Fawkes"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
-internal_name = "HONEDGE"
-level = 33
-iv = 0
-
-[trainers.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.0.pokemon]]
-internal_name = "QUILAVA"
-level = 35
-iv = 0
-
-[trainers.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.0.pokemon]]
+[[trainers.Casanova.0.pokemon]]
 internal_name = "GRENINJA"
-level = 37
+level = 81
+raw_item = "LIFEORB"
+raw_moves = [
+    "HYDROPUMP",
+    "DARKPULSE",
+    "EXTRASENSORY",
+    "ICEBEAM",
+]
+ability_number = 1
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.Casanova.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -42,18 +26,59 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.3]
+[[trainers.Casanova.0.pokemon]]
+internal_name = "TYPHLOSION"
+level = 82
+raw_item = "CHOICESCARF"
+raw_moves = [
+    "ERUPTION",
+    "FIREBLAST",
+    "FOCUSBLAST",
+    "EXTRASENSORY",
+]
+iv = 0
+
+[trainers.Casanova.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.Casanova.0.pokemon]]
+internal_name = "LEAFEON"
+level = 81
+raw_item = "ASSAULTVEST"
+raw_moves = [
+    "LEAFBLADE",
+    "XSCISSOR",
+    "KNOCKOFF",
+    "IRONTAIL",
+]
+ability_number = 2
+iv = 0
+
+[trainers.Casanova.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.COOLTRAINER_Male.3]
 raw_trainer_class = "COOLTRAINER_Male"
 battler_name = "Fawkes"
 battler_id = 3
 raw_battle_items = []
 
-[[trainers.3.pokemon]]
+[[trainers.COOLTRAINER_Male.3.pokemon]]
 internal_name = "FROAKIE"
 level = 14
 iv = 0
 
-[trainers.3.pokemon.evs]
+[trainers.COOLTRAINER_Male.3.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -61,18 +86,62 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.1]
+[trainers.COOLTRAINER_Male.0]
+raw_trainer_class = "COOLTRAINER_Male"
+battler_name = "Fawkes"
+raw_battle_items = []
+
+[[trainers.COOLTRAINER_Male.0.pokemon]]
+internal_name = "HONEDGE"
+level = 33
+iv = 0
+
+[trainers.COOLTRAINER_Male.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.COOLTRAINER_Male.0.pokemon]]
+internal_name = "QUILAVA"
+level = 35
+iv = 0
+
+[trainers.COOLTRAINER_Male.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.COOLTRAINER_Male.0.pokemon]]
+internal_name = "GRENINJA"
+level = 37
+iv = 0
+
+[trainers.COOLTRAINER_Male.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.COOLTRAINER_Male.1]
 raw_trainer_class = "COOLTRAINER_Male"
 battler_name = "Fawkes"
 battler_id = 1
 raw_battle_items = []
 
-[[trainers.1.pokemon]]
+[[trainers.COOLTRAINER_Male.1.pokemon]]
 internal_name = "DOUBLADE"
 level = 47
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.COOLTRAINER_Male.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -80,12 +149,12 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.COOLTRAINER_Male.1.pokemon]]
 internal_name = "TYPHLOSION"
 level = 49
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.COOLTRAINER_Male.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -93,12 +162,12 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.COOLTRAINER_Male.1.pokemon]]
 internal_name = "GRENINJA"
 level = 50
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.COOLTRAINER_Male.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -106,18 +175,18 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.2]
+[trainers.COOLTRAINER_Male.2]
 raw_trainer_class = "COOLTRAINER_Male"
 battler_name = "Fawkes"
 battler_id = 2
 raw_battle_items = []
 
-[[trainers.2.pokemon]]
+[[trainers.COOLTRAINER_Male.2.pokemon]]
 internal_name = "DRAGALGE"
 level = 56
 iv = 0
 
-[trainers.2.pokemon.evs]
+[trainers.COOLTRAINER_Male.2.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -125,12 +194,12 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.COOLTRAINER_Male.2.pokemon]]
 internal_name = "AEGISLASH"
 level = 57
 iv = 0
 
-[trainers.2.pokemon.evs]
+[trainers.COOLTRAINER_Male.2.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -138,12 +207,12 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.COOLTRAINER_Male.2.pokemon]]
 internal_name = "TYPHLOSION"
 level = 59
 iv = 0
 
-[trainers.2.pokemon.evs]
+[trainers.COOLTRAINER_Male.2.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -151,12 +220,12 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.COOLTRAINER_Male.2.pokemon]]
 internal_name = "GRENINJA"
 level = 60
 iv = 0
 
-[trainers.2.pokemon.evs]
+[trainers.COOLTRAINER_Male.2.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -164,13 +233,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.4]
+[trainers.COOLTRAINER_Male.4]
 raw_trainer_class = "COOLTRAINER_Male"
 battler_name = "Fawkes"
 battler_id = 4
 raw_battle_items = []
 
-[[trainers.4.pokemon]]
+[[trainers.COOLTRAINER_Male.4.pokemon]]
 internal_name = "DRAGALGE"
 level = 83
 raw_item = "ASSAULTVEST"
@@ -183,7 +252,7 @@ raw_moves = [
 ability_number = 2
 iv = 0
 
-[trainers.4.pokemon.evs]
+[trainers.COOLTRAINER_Male.4.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -191,7 +260,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.4.pokemon]]
+[[trainers.COOLTRAINER_Male.4.pokemon]]
 internal_name = "AEGISLASH"
 level = 83
 raw_item = "LEFTOVERS"
@@ -203,7 +272,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.4.pokemon.evs]
+[trainers.COOLTRAINER_Male.4.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -211,7 +280,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.4.pokemon]]
+[[trainers.COOLTRAINER_Male.4.pokemon]]
 internal_name = "TYPHLOSION"
 level = 84
 raw_item = "SITRUSBERRY"
@@ -224,7 +293,7 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.4.pokemon.evs]
+[trainers.COOLTRAINER_Male.4.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -232,7 +301,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.4.pokemon]]
+[[trainers.COOLTRAINER_Male.4.pokemon]]
 internal_name = "GRENINJA"
 level = 85
 raw_item = "LIFEORB"
@@ -245,7 +314,7 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.4.pokemon.evs]
+[trainers.COOLTRAINER_Male.4.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -253,18 +322,18 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.5]
+[trainers.COOLTRAINER_Male.5]
 raw_trainer_class = "COOLTRAINER_Male"
 battler_name = "Fawkes"
 battler_id = 5
 raw_battle_items = []
 
-[[trainers.5.pokemon]]
+[[trainers.COOLTRAINER_Male.5.pokemon]]
 internal_name = "HONEDGE"
 level = 20
 iv = 0
 
-[trainers.5.pokemon.evs]
+[trainers.COOLTRAINER_Male.5.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -272,12 +341,12 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.5.pokemon]]
+[[trainers.COOLTRAINER_Male.5.pokemon]]
 internal_name = "QUILAVA"
 level = 21
 iv = 0
 
-[trainers.5.pokemon.evs]
+[trainers.COOLTRAINER_Male.5.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -285,12 +354,12 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.5.pokemon]]
+[[trainers.COOLTRAINER_Male.5.pokemon]]
 internal_name = "FROGADIER"
 level = 22
 iv = 0
 
-[trainers.5.pokemon.evs]
+[trainers.COOLTRAINER_Male.5.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

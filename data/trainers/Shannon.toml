@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Shannon"
+
+[trainers.SHANNON.0]
 raw_trainer_class = "SHANNON"
 battler_name = "Shannon"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.SHANNON.0.pokemon]]
 internal_name = "EXPLOUD"
 level = 120
 raw_item = "CHOICESPECS"
@@ -18,7 +20,7 @@ nature = "MODEST"
 iv = 31
 nickname = "No.1"
 
-[trainers.0.pokemon.evs]
+[trainers.SHANNON.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -26,7 +28,7 @@ spa = 0
 spd = 252
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.SHANNON.0.pokemon]]
 internal_name = "HIPPOWDON"
 level = 120
 raw_item = "LEFTOVERS"
@@ -41,7 +43,7 @@ nature = "ADAMANT"
 iv = 31
 nickname = "No.2"
 
-[trainers.0.pokemon.evs]
+[trainers.SHANNON.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -49,7 +51,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.SHANNON.0.pokemon]]
 internal_name = "MUDSDALE"
 level = 120
 raw_item = "ASSAULTVEST"
@@ -65,7 +67,7 @@ nature = "ADAMANT"
 iv = 31
 nickname = "No.3"
 
-[trainers.0.pokemon.evs]
+[trainers.SHANNON.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -73,7 +75,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.SHANNON.0.pokemon]]
 internal_name = "DARMANITAN"
 level = 120
 raw_item = "CHOICEBAND"
@@ -88,7 +90,7 @@ nature = "ADAMANT"
 iv = 31
 nickname = "No.4"
 
-[trainers.0.pokemon.evs]
+[trainers.SHANNON.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -96,7 +98,7 @@ spa = 252
 spd = 0
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.SHANNON.0.pokemon]]
 internal_name = "MAROWAK"
 level = 120
 raw_item = "SITRUSBERRY"
@@ -113,7 +115,7 @@ nature = "ADAMANT"
 iv = 31
 nickname = "No.5"
 
-[trainers.0.pokemon.evs]
+[trainers.SHANNON.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -121,7 +123,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.SHANNON.0.pokemon]]
 internal_name = "SCEPTILE"
 level = 120
 raw_item = "SCEPTILITE"
@@ -137,7 +139,7 @@ nature = "MODEST"
 iv = 31
 nickname = "No.6"
 
-[trainers.0.pokemon.evs]
+[trainers.SHANNON.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0

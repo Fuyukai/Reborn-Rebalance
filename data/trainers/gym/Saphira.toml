@@ -1,4 +1,6 @@
-[trainers.0]
+trainer_name = "Saphira"
+
+[trainers.SAPHIRA.0]
 raw_trainer_class = "SAPHIRA"
 battler_name = "Saphira"
 raw_battle_items = [
@@ -7,7 +9,7 @@ raw_battle_items = [
     "FULLRESTORE",
 ]
 
-[[trainers.0.pokemon]]
+[[trainers.SAPHIRA.0.pokemon]]
 internal_name = "NOIVERN"
 level = 95
 raw_item = "ELEMENTALSEED"
@@ -22,7 +24,7 @@ sex = "F"
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SAPHIRA.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -30,7 +32,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.SAPHIRA.0.pokemon]]
 internal_name = "SALAMENCE"
 level = 96
 raw_item = "FOCUSSASH"
@@ -45,7 +47,7 @@ sex = "F"
 nature = "JOLLY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SAPHIRA.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -53,7 +55,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.SAPHIRA.0.pokemon]]
 internal_name = "GARCHOMP"
 level = 96
 raw_item = "CHOICESCARF"
@@ -68,7 +70,7 @@ sex = "F"
 nature = "JOLLY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SAPHIRA.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -76,7 +78,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.SAPHIRA.0.pokemon]]
 internal_name = "HAXORUS"
 level = 95
 raw_item = "FOCUSSASH"
@@ -91,7 +93,7 @@ sex = "F"
 nature = "JOLLY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SAPHIRA.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -99,7 +101,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.SAPHIRA.0.pokemon]]
 internal_name = "CHARIZARD"
 level = 97
 raw_item = "CHARIZARDITEX"
@@ -113,7 +115,7 @@ sex = "F"
 nature = "JOLLY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SAPHIRA.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -121,7 +123,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.SAPHIRA.0.pokemon]]
 internal_name = "DRAGONITE"
 level = 100
 raw_item = "IAPAPABERRY"
@@ -136,7 +138,7 @@ sex = "F"
 nature = "JOLLY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SAPHIRA.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 64
@@ -144,13 +146,13 @@ spa = 192
 spd = 0
 spe = 0
 
-[trainers.10]
+[trainers.SAPHIRA.10]
 raw_trainer_class = "SAPHIRA"
 battler_name = "Saphira"
 battler_id = 10
 raw_battle_items = []
 
-[[trainers.10.pokemon]]
+[[trainers.SAPHIRA.10.pokemon]]
 internal_name = "NOIVERN"
 level = 100
 raw_item = "ELEMENTALSEED"
@@ -165,7 +167,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.SAPHIRA.10.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -173,7 +175,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.SAPHIRA.10.pokemon]]
 internal_name = "GARCHOMP"
 level = 100
 raw_item = "DRAGONIUMZ2"
@@ -188,7 +190,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.SAPHIRA.10.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -196,7 +198,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.SAPHIRA.10.pokemon]]
 internal_name = "ALTARIA"
 level = 100
 raw_item = "ALTARIANITE"
@@ -210,7 +212,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.SAPHIRA.10.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -218,7 +220,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.SAPHIRA.10.pokemon]]
 internal_name = "NAGANADEL"
 level = 100
 raw_item = "ELEMENTALSEED"
@@ -232,7 +234,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.SAPHIRA.10.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -240,7 +242,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.SAPHIRA.10.pokemon]]
 internal_name = "HYDREIGON"
 level = 100
 raw_item = "ELEMENTALSEED"
@@ -254,7 +256,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.SAPHIRA.10.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -262,7 +264,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.SAPHIRA.10.pokemon]]
 internal_name = "DRAGONITE"
 level = 100
 raw_item = "IAPAPABERRY"
@@ -277,7 +279,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.SAPHIRA.10.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 64
@@ -285,13 +287,13 @@ spa = 192
 spd = 0
 spe = 0
 
-[trainers.11]
+[trainers.SAPHIRA.11]
 raw_trainer_class = "SAPHIRA"
 battler_name = "Saphira"
 battler_id = 11
 raw_battle_items = []
 
-[[trainers.11.pokemon]]
+[[trainers.SAPHIRA.11.pokemon]]
 internal_name = "DIALGA"
 level = 100
 raw_item = "ELEMENTALSEED"
@@ -306,7 +308,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.SAPHIRA.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -314,7 +316,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.11.pokemon]]
+[[trainers.SAPHIRA.11.pokemon]]
 internal_name = "NECROZMA"
 level = 100
 raw_item = "ULTRANECROZIUMZ2"
@@ -329,7 +331,7 @@ form_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.SAPHIRA.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -337,7 +339,7 @@ spa = 252
 spd = 0
 spe = 4
 
-[[trainers.11.pokemon]]
+[[trainers.SAPHIRA.11.pokemon]]
 internal_name = "RAYQUAZA"
 level = 100
 raw_item = "LIFEORB"
@@ -351,7 +353,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.SAPHIRA.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -359,7 +361,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.SAPHIRA.11.pokemon]]
 internal_name = "KYUREM"
 level = 100
 raw_item = "ELEMENTALSEED"
@@ -374,7 +376,7 @@ form_number = 1
 nature = "TIMID"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.SAPHIRA.11.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -382,7 +384,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.SAPHIRA.11.pokemon]]
 internal_name = "GIRATINA"
 level = 100
 raw_item = "GRISEOUSORB"
@@ -397,7 +399,7 @@ form_number = 1
 nature = "MODEST"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.SAPHIRA.11.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -405,7 +407,7 @@ spa = 4
 spd = 252
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.SAPHIRA.11.pokemon]]
 internal_name = "NAGANADEL"
 level = 100
 raw_item = "ELEMENTALSEED"
@@ -419,7 +421,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.SAPHIRA.11.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -427,13 +429,13 @@ spa = 252
 spd = 252
 spe = 0
 
-[trainers.12]
+[trainers.SAPHIRA.12]
 raw_trainer_class = "SAPHIRA"
 battler_name = "Saphira"
 battler_id = 12
 raw_battle_items = []
 
-[[trainers.12.pokemon]]
+[[trainers.SAPHIRA.12.pokemon]]
 internal_name = "DIALGA"
 level = 100
 raw_item = "WIDELENS"
@@ -448,7 +450,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.SAPHIRA.12.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -456,7 +458,7 @@ spa = 4
 spd = 252
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.SAPHIRA.12.pokemon]]
 internal_name = "PALKIA"
 level = 100
 raw_item = "LUSTROUSORB"
@@ -471,7 +473,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.SAPHIRA.12.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -479,7 +481,7 @@ spa = 4
 spd = 252
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.SAPHIRA.12.pokemon]]
 internal_name = "GIRATINA"
 level = 100
 raw_item = "GRISEOUSORB"
@@ -494,7 +496,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.SAPHIRA.12.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -502,7 +504,7 @@ spa = 4
 spd = 252
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.SAPHIRA.12.pokemon]]
 internal_name = "NOIVERN"
 level = 100
 raw_item = "CHOICESPECS"
@@ -517,7 +519,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.SAPHIRA.12.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -525,7 +527,7 @@ spa = 4
 spd = 252
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.SAPHIRA.12.pokemon]]
 internal_name = "NECROZMA"
 level = 100
 raw_item = "ULTRANECROZIUMZ2"
@@ -540,7 +542,7 @@ form_number = 2
 nature = "MODEST"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.SAPHIRA.12.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -548,7 +550,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.12.pokemon]]
+[[trainers.SAPHIRA.12.pokemon]]
 internal_name = "LATIAS"
 level = 100
 raw_item = "LATIASITE"
@@ -562,7 +564,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.SAPHIRA.12.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -570,13 +572,13 @@ spa = 252
 spd = 252
 spe = 4
 
-[trainers.13]
+[trainers.SAPHIRA.13]
 raw_trainer_class = "SAPHIRA"
 battler_name = "Saphira"
 battler_id = 13
 raw_battle_items = []
 
-[[trainers.13.pokemon]]
+[[trainers.SAPHIRA.13.pokemon]]
 internal_name = "KINGDRA"
 level = 100
 raw_item = "LIFEORB"
@@ -590,7 +592,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.SAPHIRA.13.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -598,7 +600,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.13.pokemon]]
+[[trainers.SAPHIRA.13.pokemon]]
 internal_name = "PALKIA"
 level = 100
 raw_item = "LUSTROUSORB"
@@ -612,7 +614,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.SAPHIRA.13.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -620,7 +622,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.13.pokemon]]
+[[trainers.SAPHIRA.13.pokemon]]
 internal_name = "LATIAS"
 level = 100
 raw_item = "LATIASITE"
@@ -634,7 +636,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.SAPHIRA.13.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -642,7 +644,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.13.pokemon]]
+[[trainers.SAPHIRA.13.pokemon]]
 internal_name = "LATIOS"
 level = 100
 raw_item = "SOULDEW"
@@ -656,7 +658,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.SAPHIRA.13.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -664,7 +666,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.13.pokemon]]
+[[trainers.SAPHIRA.13.pokemon]]
 internal_name = "GIRATINA"
 level = 100
 raw_item = "GRISEOUSORB"
@@ -679,7 +681,7 @@ form_number = 1
 nature = "MODEST"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.SAPHIRA.13.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -687,7 +689,7 @@ spa = 4
 spd = 252
 spe = 0
 
-[[trainers.13.pokemon]]
+[[trainers.SAPHIRA.13.pokemon]]
 internal_name = "HYDREIGON"
 level = 100
 raw_item = "ELEMENTALSEED"
@@ -701,7 +703,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.SAPHIRA.13.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -709,13 +711,13 @@ spa = 252
 spd = 252
 spe = 4
 
-[trainers.14]
+[trainers.SAPHIRA.14]
 raw_trainer_class = "SAPHIRA"
 battler_name = "Saphira"
 battler_id = 14
 raw_battle_items = []
 
-[[trainers.14.pokemon]]
+[[trainers.SAPHIRA.14.pokemon]]
 internal_name = "DIALGA"
 level = 100
 raw_item = "WIDELENS"
@@ -730,7 +732,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.14.pokemon.evs]
+[trainers.SAPHIRA.14.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -738,7 +740,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.14.pokemon]]
+[[trainers.SAPHIRA.14.pokemon]]
 internal_name = "ALTARIA"
 level = 100
 raw_item = "ALTARIANITE"
@@ -752,7 +754,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.14.pokemon.evs]
+[trainers.SAPHIRA.14.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -760,7 +762,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.14.pokemon]]
+[[trainers.SAPHIRA.14.pokemon]]
 internal_name = "NECROZMA"
 level = 100
 raw_item = "ULTRANECROZIUMZ2"
@@ -775,7 +777,7 @@ form_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.14.pokemon.evs]
+[trainers.SAPHIRA.14.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -783,7 +785,7 @@ spa = 252
 spd = 0
 spe = 4
 
-[[trainers.14.pokemon]]
+[[trainers.SAPHIRA.14.pokemon]]
 internal_name = "LATIAS"
 level = 100
 raw_item = "SOULDEW"
@@ -797,7 +799,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.14.pokemon.evs]
+[trainers.SAPHIRA.14.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -805,7 +807,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.14.pokemon]]
+[[trainers.SAPHIRA.14.pokemon]]
 internal_name = "GARCHOMP"
 level = 100
 raw_item = "MAGICALSEED"
@@ -819,7 +821,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.14.pokemon.evs]
+[trainers.SAPHIRA.14.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -827,7 +829,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.14.pokemon]]
+[[trainers.SAPHIRA.14.pokemon]]
 internal_name = "RAYQUAZA"
 level = 100
 raw_item = "LIFEORB"
@@ -841,7 +843,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.14.pokemon.evs]
+[trainers.SAPHIRA.14.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -849,13 +851,13 @@ spa = 252
 spd = 0
 spe = 0
 
-[trainers.15]
+[trainers.SAPHIRA.15]
 raw_trainer_class = "SAPHIRA"
 battler_name = "Saphira"
 battler_id = 15
 raw_battle_items = []
 
-[[trainers.15.pokemon]]
+[[trainers.SAPHIRA.15.pokemon]]
 internal_name = "DIALGA"
 level = 100
 raw_item = "WIDELENS"
@@ -870,7 +872,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.15.pokemon.evs]
+[trainers.SAPHIRA.15.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -878,7 +880,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.15.pokemon]]
+[[trainers.SAPHIRA.15.pokemon]]
 internal_name = "LATIAS"
 level = 100
 raw_item = "SOULDEW"
@@ -892,7 +894,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.15.pokemon.evs]
+[trainers.SAPHIRA.15.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -900,7 +902,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.15.pokemon]]
+[[trainers.SAPHIRA.15.pokemon]]
 internal_name = "DRAMPA"
 level = 100
 raw_item = "WIKIBERRY"
@@ -913,7 +915,7 @@ raw_moves = [
 nature = "MODEST"
 iv = 31
 
-[trainers.15.pokemon.evs]
+[trainers.SAPHIRA.15.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -921,7 +923,7 @@ spa = 0
 spd = 252
 spe = 4
 
-[[trainers.15.pokemon]]
+[[trainers.SAPHIRA.15.pokemon]]
 internal_name = "PALKIA"
 level = 100
 raw_item = "LUSTROUSORB"
@@ -935,7 +937,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.15.pokemon.evs]
+[trainers.SAPHIRA.15.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -943,7 +945,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.15.pokemon]]
+[[trainers.SAPHIRA.15.pokemon]]
 internal_name = "LATIOS"
 level = 100
 raw_item = "SOULDEW"
@@ -957,7 +959,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.15.pokemon.evs]
+[trainers.SAPHIRA.15.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -965,7 +967,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.15.pokemon]]
+[[trainers.SAPHIRA.15.pokemon]]
 internal_name = "RAYQUAZA"
 level = 100
 raw_item = "LIFEORB"
@@ -979,7 +981,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.15.pokemon.evs]
+[trainers.SAPHIRA.15.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -987,7 +989,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[trainers.20]
+[trainers.SAPHIRA.20]
 raw_trainer_class = "SAPHIRA"
 battler_name = "Saphira"
 battler_id = 20
@@ -997,7 +999,7 @@ raw_battle_items = [
     "FULLRESTORE",
 ]
 
-[[trainers.20.pokemon]]
+[[trainers.SAPHIRA.20.pokemon]]
 internal_name = "NOIVERN"
 level = 95
 raw_item = "ELEMENTALSEED"
@@ -1012,7 +1014,7 @@ sex = "F"
 nature = "TIMID"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.SAPHIRA.20.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -1020,7 +1022,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.SAPHIRA.20.pokemon]]
 internal_name = "DRAGAPULT"
 level = 95
 raw_item = "POWERHERB"
@@ -1035,7 +1037,7 @@ sex = "F"
 nature = "JOLLY"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.SAPHIRA.20.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -1043,7 +1045,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.SAPHIRA.20.pokemon]]
 internal_name = "SALAMENCE"
 level = 96
 raw_item = "FOCUSSASH"
@@ -1058,7 +1060,7 @@ sex = "F"
 nature = "JOLLY"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.SAPHIRA.20.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -1066,7 +1068,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.SAPHIRA.20.pokemon]]
 internal_name = "DRACOZOLT"
 level = 96
 raw_item = "CHOICESCARF"
@@ -1081,7 +1083,7 @@ sex = "F"
 nature = "JOLLY"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.SAPHIRA.20.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -1089,7 +1091,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.SAPHIRA.20.pokemon]]
 internal_name = "CHARIZARD"
 level = 97
 raw_item = "CHARIZARDITEX"
@@ -1103,7 +1105,7 @@ sex = "F"
 nature = "JOLLY"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.SAPHIRA.20.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -1111,7 +1113,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.SAPHIRA.20.pokemon]]
 internal_name = "DRAGONITE"
 level = 100
 raw_item = "IAPAPABERRY"
@@ -1126,7 +1128,7 @@ sex = "F"
 nature = "JOLLY"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.SAPHIRA.20.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 64

@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Dax"
+
+[trainers.StreetRat.0]
 raw_trainer_class = "StreetRat"
 battler_name = "Dax"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.StreetRat.0.pokemon]]
 internal_name = "SILCOON"
 level = 16
 raw_moves = [
@@ -12,7 +14,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.StreetRat.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -20,12 +22,12 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.StreetRat.0.pokemon]]
 internal_name = "SEEDOT"
 level = 17
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.StreetRat.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

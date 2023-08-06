@@ -1,9 +1,57 @@
-[trainers.0]
+trainer_name = "Callie"
+
+[trainers.OrderlyF.0]
+raw_trainer_class = "OrderlyF"
+battler_name = "Callie"
+raw_battle_items = []
+
+[[trainers.OrderlyF.0.pokemon]]
+internal_name = "DIGLETT"
+level = 33
+sex = ""
+form_number = 1
+iv = 0
+
+[trainers.OrderlyF.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.OrderlyF.0.pokemon]]
+internal_name = "ARROKUDA"
+level = 33
+iv = 0
+
+[trainers.OrderlyF.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.OrderlyF.0.pokemon]]
+internal_name = "HYPNO"
+level = 34
+iv = 0
+
+[trainers.OrderlyF.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.NWOrderlyF.0]
 raw_trainer_class = "NWOrderlyF"
 battler_name = "Callie"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.NWOrderlyF.0.pokemon]]
 internal_name = "DUGTRIO"
 level = 75
 raw_moves = [
@@ -17,7 +65,7 @@ sex = ""
 form_number = 1
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.NWOrderlyF.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -25,7 +73,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.NWOrderlyF.0.pokemon]]
 internal_name = "HYPNO"
 level = 74
 raw_moves = [
@@ -37,7 +85,7 @@ raw_moves = [
 ability_number = 2
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.NWOrderlyF.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -45,7 +93,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.NWOrderlyF.0.pokemon]]
 internal_name = "SKUNTANK"
 level = 74
 raw_moves = [
@@ -57,7 +105,7 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.NWOrderlyF.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -65,7 +113,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.NWOrderlyF.0.pokemon]]
 internal_name = "BARRASKEWDA"
 level = 75
 raw_moves = [
@@ -77,7 +125,7 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.NWOrderlyF.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -85,7 +133,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.NWOrderlyF.0.pokemon]]
 internal_name = "FLORGES"
 level = 75
 raw_moves = [
@@ -96,7 +144,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.NWOrderlyF.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

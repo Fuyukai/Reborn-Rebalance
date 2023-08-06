@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Darkrai"
+
+[trainers.DARKRAI.0]
 raw_trainer_class = "DARKRAI"
 battler_name = "Darkrai"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.DARKRAI.0.pokemon]]
 internal_name = "DARKRAI"
 level = 130
 raw_item = "AIRBALLOON"
@@ -17,7 +19,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.DARKRAI.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -25,7 +27,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.DARKRAI.0.pokemon]]
 internal_name = "BRELOOM"
 level = 130
 raw_item = "TOXICORB"
@@ -40,7 +42,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.DARKRAI.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -48,7 +50,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.DARKRAI.0.pokemon]]
 internal_name = "SABLEYE"
 level = 130
 raw_item = "SABLENITE"
@@ -63,7 +65,7 @@ sex = ""
 nature = "RELAXED"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.DARKRAI.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -71,7 +73,7 @@ spa = 0
 spd = 0
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.DARKRAI.0.pokemon]]
 internal_name = "DARKRAI"
 level = 130
 raw_item = "MAGICALSEED"
@@ -85,7 +87,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.DARKRAI.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -93,7 +95,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.DARKRAI.0.pokemon]]
 internal_name = "MELOETTA"
 level = 130
 raw_item = "MAGICALSEED"
@@ -108,7 +110,7 @@ form_number = 1
 nature = "NAIVE"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.DARKRAI.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -116,7 +118,7 @@ spa = 252
 spd = 0
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.DARKRAI.0.pokemon]]
 internal_name = "HYPNO"
 level = 130
 raw_item = "SITRUSBERRY"
@@ -131,7 +133,7 @@ form_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.DARKRAI.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252

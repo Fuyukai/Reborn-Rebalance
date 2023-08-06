@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Hubert"
+
+[trainers.SWIMMERBOI.0]
 raw_trainer_class = "SWIMMERBOI"
 battler_name = "Hubert"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.SWIMMERBOI.0.pokemon]]
 internal_name = "KINGDRA"
 level = 72
 raw_item = "CHOICESPECS"
@@ -18,7 +20,7 @@ sex = ""
 nature = "MODEST"
 iv = 20
 
-[trainers.0.pokemon.evs]
+[trainers.SWIMMERBOI.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -26,7 +28,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.SWIMMERBOI.0.pokemon]]
 internal_name = "WISHIWASHI"
 level = 73
 raw_item = "ELEMENTALSEED"
@@ -40,7 +42,7 @@ sex = ""
 nature = "QUIET"
 iv = 20
 
-[trainers.0.pokemon.evs]
+[trainers.SWIMMERBOI.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -48,7 +50,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.SWIMMERBOI.0.pokemon]]
 internal_name = "TENTACRUEL"
 level = 73
 raw_item = "ELEMENTALSEED"
@@ -62,7 +64,7 @@ sex = ""
 nature = "MODEST"
 iv = 20
 
-[trainers.0.pokemon.evs]
+[trainers.SWIMMERBOI.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

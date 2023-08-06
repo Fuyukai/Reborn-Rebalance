@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Camerupt"
+
+[trainers.CAMERUPT.0]
 raw_trainer_class = "CAMERUPT"
 battler_name = "Camerupt"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.CAMERUPT.0.pokemon]]
 internal_name = "CAMERUPT"
 level = 130
 raw_item = "LUMBERRY"
@@ -18,7 +20,7 @@ form_number = 2
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.CAMERUPT.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -26,7 +28,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.CAMERUPT.0.pokemon]]
 internal_name = "WHIMSICOTT"
 level = 130
 raw_item = "LEFTOVERS"
@@ -40,7 +42,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.CAMERUPT.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -48,7 +50,7 @@ spa = 252
 spd = 0
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.CAMERUPT.0.pokemon]]
 internal_name = "MEOWSTIC"
 level = 130
 raw_item = "LEFTOVERS"
@@ -62,7 +64,7 @@ ability_number = 2
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.CAMERUPT.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -70,7 +72,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.CAMERUPT.0.pokemon]]
 internal_name = "KLEFKI"
 level = 130
 raw_item = "LEFTOVERS"
@@ -85,7 +87,7 @@ form_number = 1
 nature = "BOLD"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.CAMERUPT.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -93,7 +95,7 @@ spa = 0
 spd = 4
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.CAMERUPT.0.pokemon]]
 internal_name = "AMOONGUSS"
 level = 130
 raw_item = "BLACKSLUDGE"
@@ -107,7 +109,7 @@ sex = ""
 nature = "BOLD"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.CAMERUPT.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0

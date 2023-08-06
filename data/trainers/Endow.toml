@@ -1,14 +1,16 @@
-[trainers.0]
+trainer_name = "Endow"
+
+[trainers.PkMnRANGER_Male.0]
 raw_trainer_class = "PkMnRANGER_Male"
 battler_name = "Endow"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.PkMnRANGER_Male.0.pokemon]]
 internal_name = "TRANQUILL"
 level = 25
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.PkMnRANGER_Male.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -16,12 +18,12 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.PkMnRANGER_Male.0.pokemon]]
 internal_name = "IVYSAUR"
 level = 26
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.PkMnRANGER_Male.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

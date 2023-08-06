@@ -1,9 +1,106 @@
-[trainers.0]
+trainer_name = "Sanchez"
+
+[trainers.MeteorGrunt.0]
+raw_trainer_class = "MeteorGrunt"
+battler_name = "Sanchez"
+raw_battle_items = []
+
+[[trainers.MeteorGrunt.0.pokemon]]
+internal_name = "TYMPOLE"
+level = 12
+iv = 0
+
+[trainers.MeteorGrunt.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.MeteorGrunt.1]
+raw_trainer_class = "MeteorGrunt"
+battler_name = "Sanchez"
+battler_id = 1
+raw_battle_items = []
+
+[[trainers.MeteorGrunt.1.pokemon]]
+internal_name = "SHELMET"
+level = 34
+iv = 0
+
+[trainers.MeteorGrunt.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.MeteorGrunt.1.pokemon]]
+internal_name = "PALPITOAD"
+level = 35
+iv = 0
+
+[trainers.MeteorGrunt.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.MeteorGrunt.2]
+raw_trainer_class = "MeteorGrunt"
+battler_name = "Sanchez"
+battler_id = 2
+raw_battle_items = []
+
+[[trainers.MeteorGrunt.2.pokemon]]
+internal_name = "LUNATONE"
+level = 44
+iv = 0
+
+[trainers.MeteorGrunt.2.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.MeteorGrunt.2.pokemon]]
+internal_name = "ACCELGOR"
+level = 45
+iv = 0
+
+[trainers.MeteorGrunt.2.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.MeteorGrunt.2.pokemon]]
+internal_name = "SEISMITOAD"
+level = 46
+iv = 0
+
+[trainers.MeteorGrunt.2.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.MeteorAceM.0]
 raw_trainer_class = "MeteorAceM"
 battler_name = "Sanchez"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.MeteorAceM.0.pokemon]]
 internal_name = "ARIADOS"
 level = 69
 raw_moves = [
@@ -15,7 +112,7 @@ raw_moves = [
 ability_number = 2
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.MeteorAceM.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -23,7 +120,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.MeteorAceM.0.pokemon]]
 internal_name = "LUNATONE"
 level = 70
 raw_moves = [
@@ -34,7 +131,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.MeteorAceM.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -42,7 +139,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.MeteorAceM.0.pokemon]]
 internal_name = "ACCELGOR"
 level = 70
 raw_moves = [
@@ -53,7 +150,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.MeteorAceM.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -61,7 +158,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.MeteorAceM.0.pokemon]]
 internal_name = "SEISMITOAD"
 level = 71
 raw_moves = [
@@ -73,7 +170,7 @@ raw_moves = [
 ability_number = 2
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.MeteorAceM.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -81,13 +178,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.1]
+[trainers.MeteorAceM.1]
 raw_trainer_class = "MeteorAceM"
 battler_name = "Sanchez"
 battler_id = 1
 raw_battle_items = []
 
-[[trainers.1.pokemon]]
+[[trainers.MeteorAceM.1.pokemon]]
 internal_name = "ARIADOS"
 level = 80
 raw_moves = [
@@ -99,7 +196,7 @@ raw_moves = [
 ability_number = 2
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.MeteorAceM.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -107,7 +204,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.MeteorAceM.1.pokemon]]
 internal_name = "LUNATONE"
 level = 81
 raw_moves = [
@@ -118,7 +215,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.MeteorAceM.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -126,7 +223,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.MeteorAceM.1.pokemon]]
 internal_name = "ACCELGOR"
 level = 81
 raw_moves = [
@@ -137,7 +234,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.MeteorAceM.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -145,7 +242,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.MeteorAceM.1.pokemon]]
 internal_name = "SEISMITOAD"
 level = 82
 raw_moves = [
@@ -157,7 +254,7 @@ raw_moves = [
 ability_number = 2
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.MeteorAceM.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -165,7 +262,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.MeteorAceM.1.pokemon]]
 internal_name = "AURORUS"
 level = 82
 raw_moves = [
@@ -177,52 +274,7 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[trainers.2]
-raw_trainer_class = "MeteorGrunt"
-battler_name = "Sanchez"
-battler_id = 2
-raw_battle_items = []
-
-[[trainers.2.pokemon]]
-internal_name = "LUNATONE"
-level = 44
-iv = 0
-
-[trainers.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.2.pokemon]]
-internal_name = "ACCELGOR"
-level = 45
-iv = 0
-
-[trainers.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.2.pokemon]]
-internal_name = "SEISMITOAD"
-level = 46
-iv = 0
-
-[trainers.2.pokemon.evs]
+[trainers.MeteorAceM.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

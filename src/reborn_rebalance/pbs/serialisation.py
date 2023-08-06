@@ -19,7 +19,12 @@ from reborn_rebalance.pbs.move import MoveCategory, MoveFlag, MoveTarget, Pokemo
 from reborn_rebalance.pbs.pokemon import EggGroup, GrowthRate, PokemonSpecies, SexRatio
 from reborn_rebalance.pbs.raw.kv import raw_parse_kv
 from reborn_rebalance.pbs.tm import TechnicalMachine
-from reborn_rebalance.pbs.trainer import SingleTrainerPokemon, Trainer, TrainerType
+from reborn_rebalance.pbs.trainer import (
+    SingleTrainerPokemon,
+    Trainer,
+    TrainerCatalog,
+    TrainerType,
+)
 from reborn_rebalance.pbs.type import PokemonType
 from reborn_rebalance.util import PbsBuffer, StupidFuckingIterationWrapper, chunks
 
@@ -78,6 +83,7 @@ def create_cattrs_converter() -> cattrs.Converter:
     TrainerType.add_unstructure_hook(converter)
     SingleTrainerPokemon.add_unstructure_hook(converter)
     Trainer.add_unstructure_hook(converter)
+    TrainerCatalog.add_unstructure_hook(converter)
 
     return converter
 
@@ -719,29 +725,35 @@ def save_trainer_types_to_toml(path: Path, types: dict[int, TrainerType]):
         dump(output, f)
 
 
-def load_single_trainer_file_toml(path: Path) -> tuple[str, list[Trainer]]:
+def load_single_trainer_file_toml(path: Path) -> tuple[str, dict[str, dict[int, Trainer]]]:
     """
     Loads a single trainer file from TOML.
     """
 
     with path.open(encoding="utf-8", mode="r") as f:
+        print(f"LOAD (Trainer): {path}")
         data = load(f)["trainers"]
 
-    trainers: list[Trainer] = []
-    # load values cos we don't care about the ids. only there for disambiguation.
-    for trainer in data.values():
-        trainers.append(CONVERTER.structure(trainer, Trainer))
+    trainers: dict[str, dict[int, Trainer]] = {}
+
+    # skip keys for both, the data is duplicated on the table object itself anyway.
+    for all_values in data.values():
+        for trainer in all_values.values():
+            trainer_obb = CONVERTER.structure(trainer, Trainer)
+            by_battler_id = trainers.setdefault(trainer_obb.raw_trainer_class, {})
+            by_battler_id[trainer_obb.battler_id] = trainer_obb
 
     return path.stem, trainers
 
 
-def load_trainers_from_toml(path: Path) -> dict[str, list[Trainer]]:
+def load_trainers_from_toml(path: Path) -> dict[str, TrainerCatalog]:
     """
     Loads all trainers from TOML.
     """
 
-    trainers: dict[str, list[Trainer]] = {}
-    futures: list[Future[list[Trainer]]] = []
+    trainers: dict[str, TrainerCatalog] = {}
+    # yikes!
+    futures: list[Future[tuple[str, dict[str, dict[int, Trainer]]]]] = []
 
     with concurrent.futures.ProcessPoolExecutor() as executor:
         for file in path.rglob("*"):
@@ -755,18 +767,21 @@ def load_trainers_from_toml(path: Path) -> dict[str, list[Trainer]]:
             futures.append(fut)
 
     for fut in futures:
-        name, all_trainers = fut.result()
-        trainers[name] = all_trainers
+        name, mapping = fut.result()
+        catalog = TrainerCatalog(trainer_name=name, trainers=mapping)
+        trainers[name] = catalog
 
     return trainers
 
 
-def load_trainers_from_pbs(path: Path) -> dict[str, list[Trainer]]:
+def load_trainers_from_pbs(path: Path) -> dict[str, TrainerCatalog]:
     """
-    Loads all trainers from PBS. Returns a dict of {trainer name: list of Trainer object}.
+    Loads all trainers from PBS.
     """
 
-    trainers = {}
+    # turns out trainer names aren't the sole key. yay!
+
+    catalogs: dict[str, TrainerCatalog] = {}
 
     with path.open(mode="r", encoding="utf-8") as f:
         # because there are *commented out lines* in the middle of entries.
@@ -782,39 +797,40 @@ def load_trainers_from_pbs(path: Path) -> dict[str, list[Trainer]]:
                 continue
 
             trainer_obb = Trainer.from_single_section(next_line, line_iterator)
-            trainers.setdefault(trainer_obb.battler_name, []).append(trainer_obb)
+            if (chosen_cat := catalogs.get(trainer_obb.battler_name)) is None:
+                chosen_cat = TrainerCatalog(trainer_name=trainer_obb.battler_name)
+                catalogs[trainer_obb.battler_name] = chosen_cat
 
-    return trainers
+            trainer_mapping = chosen_cat.trainers.setdefault(trainer_obb.raw_trainer_class, {})
+            trainer_mapping[trainer_obb.battler_id] = trainer_obb
+
+    return catalogs
 
 
-def save_trainers_to_toml(path: Path, trainers: dict[str, list[Trainer]]):
+def save_trainers_to_toml(path: Path, trainers: dict[str, TrainerCatalog]):
     """
     Saves all trainer data to TOML files.
     """
 
     existing_files = path.glob("**/*")
-    existing_names = {i.stem for i in existing_files if not i.is_dir() and i.suffix == ".toml"}
+    existing_names = {i.stem: i for i in existing_files if not i.is_dir() and i.suffix == ".toml"}
 
-    for key, all_trainers in trainers.items():
+    for key, catalog in trainers.items():
         key = key.replace(".", "_")
         toml_path = (path / key).with_suffix(".toml")
 
         if key in existing_names:
-            print("Not overwriting", key)
+            toml_path = existing_names[key]
+            print("Writing to", toml_path)
             continue
 
-        raw_trainer_list = CONVERTER.unstructure(all_trainers)
-        output_data = {
-            "trainers": {
-                str(orig.battler_id): value for orig, value in zip(all_trainers, raw_trainer_list)
-            }
-        }
+        raw_data = CONVERTER.unstructure(catalog)
 
         with toml_path.open(mode="wb") as f:
-            dump(output_data, f)
+            dump(raw_data, f)
 
 
-def save_trainers_to_pbs(path: Path, trainers: dict[str, list[Trainer]]):
+def save_trainers_to_pbs(path: Path, trainers: dict[str, TrainerCatalog]):
     """
     Saves all trainer data to the PBS file.
     """
@@ -822,8 +838,8 @@ def save_trainers_to_pbs(path: Path, trainers: dict[str, list[Trainer]]):
     # yikes
     buffer = StringIO()
 
-    for _, all_trainers in trainers.items():
-        for trainer in all_trainers:
+    for klass, catalog in trainers.items():
+        for trainer in catalog.all_trainers():
             buffer.write("#-------------------\n")
             trainer.into_pbs(buffer)
 

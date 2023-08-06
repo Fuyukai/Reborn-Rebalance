@@ -1,10 +1,12 @@
 from __future__ import annotations
 
 import csv
+from functools import partial
 from io import StringIO
-from typing import Iterator
+from typing import Iterator, Iterable
 
 import attr
+import cattrs.gen
 from cattrs import Converter
 from cattrs.gen import make_dict_unstructure_fn, override
 
@@ -398,3 +400,35 @@ class Trainer:
         for poke in self.pokemon:
             buffer.write(",".join(poke.into_csv_line()))
             buffer.write("\n")
+
+
+@attr.s(kw_only=True)
+class TrainerCatalog:
+    @staticmethod
+    def trainers_structure_hook(converter: Converter, data: dict[str, dict[int, Trainer]]):
+        new_dict = {}
+
+        for key, value in data.items():
+            inner = {str(k): v for (k, v) in value.items()}
+            new_dict[key] = converter.unstructure(inner)
+
+        return new_dict
+
+    @classmethod
+    def add_unstructure_hook(cls, converter: Converter):
+        hook = cattrs.gen.make_dict_unstructure_fn(
+            cls, converter, trainers=override(
+                unstruct_hook=partial(cls.trainers_structure_hook, converter)
+            )
+        )
+        converter.register_unstructure_hook(cls, hook)
+
+    #: The name of this trainer, e.g. 'Victoria'.
+    trainer_name: str = attr.ib()
+
+    #: The mapping of trainer klass -> dict of trainer objects, keyed by number.
+    trainers: dict[str, dict[int, Trainer]] = attr.ib(factory=dict)
+
+    def all_trainers(self) -> Iterable[Trainer]:
+        for values in self.trainers.values():
+            yield from values.values()

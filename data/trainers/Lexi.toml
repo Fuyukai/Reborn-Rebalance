@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Lexi"
+
+[trainers.SPIRITF.0]
 raw_trainer_class = "SPIRITF"
 battler_name = "Lexi"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.SPIRITF.0.pokemon]]
 internal_name = "POLITOED"
 level = 95
 raw_item = "DAMPROCK"
@@ -18,7 +20,7 @@ sex = ""
 nature = "BOLD"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SPIRITF.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -26,7 +28,7 @@ spa = 0
 spd = 0
 spe = 128
 
-[[trainers.0.pokemon]]
+[[trainers.SPIRITF.0.pokemon]]
 internal_name = "LAPRAS"
 level = 95
 raw_item = "LEFTOVERS"
@@ -41,7 +43,7 @@ sex = ""
 nature = "CAREFUL"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SPIRITF.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 4
@@ -49,7 +51,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.SPIRITF.0.pokemon]]
 internal_name = "SCIZOR"
 level = 95
 raw_item = "FOCUSSASH"
@@ -64,7 +66,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SPIRITF.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 100
@@ -72,7 +74,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.SPIRITF.0.pokemon]]
 internal_name = "DRAGONITE"
 level = 95
 raw_item = "LEFTOVERS"
@@ -87,7 +89,7 @@ sex = ""
 nature = "QUIET"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SPIRITF.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -95,7 +97,7 @@ spa = 0
 spd = 252
 spe = 128
 
-[[trainers.0.pokemon]]
+[[trainers.SPIRITF.0.pokemon]]
 internal_name = "JOLTEON"
 level = 95
 raw_item = "CHOICESPECS"
@@ -109,7 +111,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SPIRITF.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -117,7 +119,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.SPIRITF.0.pokemon]]
 internal_name = "AMOONGUSS"
 level = 95
 raw_item = "BLACKSLUDGE"
@@ -132,7 +134,7 @@ sex = ""
 nature = "BOLD"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SPIRITF.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0

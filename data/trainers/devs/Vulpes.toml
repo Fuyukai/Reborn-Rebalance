@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Vulpes"
+
+[trainers.VULPES.0]
 raw_trainer_class = "VULPES"
 battler_name = "Vulpes"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.VULPES.0.pokemon]]
 internal_name = "ZOROARK"
 level = 100
 raw_item = "DARKINIUMZ2"
@@ -18,7 +20,7 @@ nature = "MODEST"
 iv = 31
 nickname = "Silvia"
 
-[trainers.0.pokemon.evs]
+[trainers.VULPES.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -26,7 +28,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.VULPES.0.pokemon]]
 internal_name = "NOIVERN"
 level = 100
 raw_item = "CHOICESCARF"
@@ -40,7 +42,7 @@ nature = "TIMID"
 iv = 31
 nickname = "Orion"
 
-[trainers.0.pokemon.evs]
+[trainers.VULPES.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -48,7 +50,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.VULPES.0.pokemon]]
 internal_name = "NINETALES"
 level = 100
 raw_item = "MAGICALSEED"
@@ -63,7 +65,7 @@ nature = "TIMID"
 iv = 31
 nickname = "Alina"
 
-[trainers.0.pokemon.evs]
+[trainers.VULPES.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -71,7 +73,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.VULPES.0.pokemon]]
 internal_name = "SILVALLY"
 level = 100
 raw_item = "CHOICEBAND"
@@ -88,7 +90,7 @@ nature = "ADAMANT"
 iv = 31
 nickname = "Amandus"
 
-[trainers.0.pokemon.evs]
+[trainers.VULPES.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -96,7 +98,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.VULPES.0.pokemon]]
 internal_name = "LAPRAS"
 level = 100
 raw_item = "MAGICALSEED"
@@ -111,7 +113,7 @@ nature = "TIMID"
 iv = 31
 nickname = "Peace"
 
-[trainers.0.pokemon.evs]
+[trainers.VULPES.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -119,7 +121,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.VULPES.0.pokemon]]
 internal_name = "MAWILE"
 level = 100
 raw_item = "MAGICALSEED"
@@ -136,7 +138,7 @@ nature = "ADAMANT"
 iv = 31
 nickname = "Fay"
 
-[trainers.0.pokemon.evs]
+[trainers.VULPES.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -144,13 +146,13 @@ spa = 252
 spd = 252
 spe = 252
 
-[trainers.1]
+[trainers.VULPES.1]
 raw_trainer_class = "VULPES"
 battler_name = "Vulpes"
 battler_id = 1
 raw_battle_items = []
 
-[[trainers.1.pokemon]]
+[[trainers.VULPES.1.pokemon]]
 internal_name = "PRIMARINA"
 level = 100
 raw_item = "STEELIUMZ2"
@@ -165,7 +167,7 @@ nature = "TIMID"
 iv = 31
 nickname = "Alto"
 
-[trainers.1.pokemon.evs]
+[trainers.VULPES.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -173,7 +175,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.1.pokemon]]
+[[trainers.VULPES.1.pokemon]]
 internal_name = "PALOSSAND"
 level = 100
 raw_item = "LEFTOVERS"
@@ -187,7 +189,7 @@ nature = "JOLLY"
 iv = 31
 nickname = "Windsor"
 
-[trainers.1.pokemon.evs]
+[trainers.VULPES.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -195,7 +197,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.1.pokemon]]
+[[trainers.VULPES.1.pokemon]]
 internal_name = "TOUCANNON"
 level = 100
 raw_item = "WACANBERRY"
@@ -209,7 +211,7 @@ nature = "JOLLY"
 iv = 31
 nickname = "Puffin"
 
-[trainers.1.pokemon.evs]
+[trainers.VULPES.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -217,7 +219,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.1.pokemon]]
+[[trainers.VULPES.1.pokemon]]
 internal_name = "ORICORIO"
 level = 100
 raw_item = "SKYPLATE"
@@ -233,7 +235,7 @@ nature = "TIMID"
 iv = 31
 nickname = "Waltz"
 
-[trainers.1.pokemon.evs]
+[trainers.VULPES.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -241,7 +243,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.1.pokemon]]
+[[trainers.VULPES.1.pokemon]]
 internal_name = "DIALGA"
 level = 100
 raw_item = "SHUCABERRY"
@@ -256,7 +258,7 @@ nature = "TIMID"
 iv = 31
 nickname = "Diamond"
 
-[trainers.1.pokemon.evs]
+[trainers.VULPES.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -264,7 +266,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.1.pokemon]]
+[[trainers.VULPES.1.pokemon]]
 internal_name = "SILVALLY"
 level = 100
 raw_item = "MUSCLEBAND"
@@ -281,7 +283,7 @@ nature = "JOLLY"
 iv = 31
 nickname = "Acacia"
 
-[trainers.1.pokemon.evs]
+[trainers.VULPES.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252

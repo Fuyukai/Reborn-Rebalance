@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Mike"
+
+[trainers.SPIRITM.0]
 raw_trainer_class = "SPIRITM"
 battler_name = "Mike"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.SPIRITM.0.pokemon]]
 internal_name = "CHARIZARD"
 level = 100
 raw_item = "LIFEORB"
@@ -18,7 +20,7 @@ form_number = 2
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SPIRITM.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -26,7 +28,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.SPIRITM.0.pokemon]]
 internal_name = "PALOSSAND"
 level = 100
 raw_item = "LEFTOVERS"
@@ -40,7 +42,7 @@ sex = ""
 nature = "CALM"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SPIRITM.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -48,7 +50,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.SPIRITM.0.pokemon]]
 internal_name = "EXCADRILL"
 level = 100
 raw_item = "SOLGANIUMZ2"
@@ -62,7 +64,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SPIRITM.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -70,7 +72,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.SPIRITM.0.pokemon]]
 internal_name = "FLYGON"
 level = 100
 raw_item = "LIFEORB"
@@ -84,7 +86,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SPIRITM.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -92,7 +94,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.SPIRITM.0.pokemon]]
 internal_name = "MAMOSWINE"
 level = 100
 raw_item = "LIFEORB"
@@ -106,7 +108,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SPIRITM.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -114,7 +116,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.SPIRITM.0.pokemon]]
 internal_name = "STOUTLAND"
 level = 100
 raw_item = "LIFEORB"
@@ -130,7 +132,7 @@ nature = "ADAMANT"
 iv = 31
 happiness = 255
 
-[trainers.0.pokemon.evs]
+[trainers.SPIRITM.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252

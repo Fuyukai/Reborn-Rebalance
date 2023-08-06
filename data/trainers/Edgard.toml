@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Edgard"
+
+[trainers.KNIGHT.0]
 raw_trainer_class = "KNIGHT"
 battler_name = "Edgard"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.KNIGHT.0.pokemon]]
 internal_name = "BISHARP"
 level = 87
 raw_item = "LIFEORB"
@@ -17,7 +19,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.KNIGHT.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -25,7 +27,7 @@ spa = 252
 spd = 0
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.KNIGHT.0.pokemon]]
 internal_name = "ARCANINE"
 level = 87
 raw_item = "LIFEORB"
@@ -39,7 +41,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.KNIGHT.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -47,7 +49,7 @@ spa = 252
 spd = 0
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.KNIGHT.0.pokemon]]
 internal_name = "HAXORUS"
 level = 87
 raw_item = "LUMBERRY"
@@ -62,7 +64,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.KNIGHT.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252

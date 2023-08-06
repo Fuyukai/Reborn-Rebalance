@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Tablets"
+
+[trainers.RUINT.0]
 raw_trainer_class = "RUINT"
 battler_name = "Tablets"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.RUINT.0.pokemon]]
 internal_name = "YANMEGA"
 level = 115
 raw_item = "LIFEORB"
@@ -17,7 +19,7 @@ ability_number = 1
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.RUINT.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -25,7 +27,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.RUINT.0.pokemon]]
 internal_name = "BRONZONG"
 level = 115
 raw_item = "AMPLIFIELDROCK"
@@ -40,7 +42,7 @@ sex = ""
 nature = "RELAXED"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.RUINT.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -48,7 +50,7 @@ spa = 0
 spd = 0
 spe = 96
 
-[[trainers.0.pokemon]]
+[[trainers.RUINT.0.pokemon]]
 internal_name = "VAPOREON"
 level = 115
 raw_item = "WATERIUMZ2"
@@ -63,7 +65,7 @@ sex = "F"
 nature = "QUIET"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.RUINT.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -71,7 +73,7 @@ spa = 0
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.RUINT.0.pokemon]]
 internal_name = "CURSOLA"
 level = 117
 raw_item = "WIKIBERRY"
@@ -86,7 +88,7 @@ sex = "F"
 nature = "QUIET"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.RUINT.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -94,7 +96,7 @@ spa = 0
 spd = 4
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.RUINT.0.pokemon]]
 internal_name = "WOCHIEN"
 level = 117
 raw_item = "MAGICALSEED"
@@ -108,7 +110,7 @@ sex = ""
 nature = "SASSY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.RUINT.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0

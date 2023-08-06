@@ -1,9 +1,55 @@
-[trainers.0]
+trainer_name = "Angela"
+
+[trainers.CultistF.0]
+raw_trainer_class = "CultistF"
+battler_name = "Angela"
+raw_battle_items = []
+
+[[trainers.CultistF.0.pokemon]]
+internal_name = "FLABEBE"
+level = 59
+iv = 0
+
+[trainers.CultistF.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.CultistF.0.pokemon]]
+internal_name = "FLOETTE"
+level = 60
+iv = 0
+
+[trainers.CultistF.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.CultistF.0.pokemon]]
+internal_name = "POLITOED"
+level = 62
+iv = 0
+
+[trainers.CultistF.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.NWCultistF.0]
 raw_trainer_class = "NWCultistF"
 battler_name = "Angela"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.NWCultistF.0.pokemon]]
 internal_name = "CACTURNE"
 level = 72
 raw_moves = [
@@ -15,7 +61,7 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.NWCultistF.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -23,7 +69,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.NWCultistF.0.pokemon]]
 internal_name = "FLORGES"
 level = 73
 raw_moves = [
@@ -34,7 +80,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.NWCultistF.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -42,7 +88,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.NWCultistF.0.pokemon]]
 internal_name = "SYLVEON"
 level = 74
 raw_moves = [
@@ -54,7 +100,7 @@ raw_moves = [
 ability_number = 2
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.NWCultistF.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -62,13 +108,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.1]
+[trainers.NWCultistF.1]
 raw_trainer_class = "NWCultistF"
 battler_name = "Angela"
 battler_id = 1
 raw_battle_items = []
 
-[[trainers.1.pokemon]]
+[[trainers.NWCultistF.1.pokemon]]
 internal_name = "CRADILY"
 level = 89
 raw_item = "LEFTOVERS"
@@ -83,7 +129,7 @@ sex = ""
 nature = "QUIET"
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.NWCultistF.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -91,7 +137,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.1.pokemon]]
+[[trainers.NWCultistF.1.pokemon]]
 internal_name = "GOODRA"
 level = 89
 raw_item = "WIDELENS"
@@ -106,7 +152,7 @@ sex = ""
 nature = "MILD"
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.NWCultistF.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -114,7 +160,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.1.pokemon]]
+[[trainers.NWCultistF.1.pokemon]]
 internal_name = "CACTURNE"
 level = 89
 raw_item = "LIFEORB"
@@ -129,7 +175,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.NWCultistF.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -137,7 +183,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.1.pokemon]]
+[[trainers.NWCultistF.1.pokemon]]
 internal_name = "SYLVEON"
 level = 89
 raw_item = "LEFTOVERS"
@@ -152,7 +198,7 @@ sex = ""
 nature = "BOLD"
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.NWCultistF.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -160,7 +206,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.1.pokemon]]
+[[trainers.NWCultistF.1.pokemon]]
 internal_name = "FLORGES"
 level = 89
 raw_item = "LEFTOVERS"
@@ -175,7 +221,7 @@ sex = ""
 nature = "BOLD"
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.NWCultistF.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -183,13 +229,13 @@ spa = 252
 spd = 252
 spe = 252
 
-[trainers.2]
+[trainers.NWCultistF.2]
 raw_trainer_class = "NWCultistF"
 battler_name = "Angela"
 battler_id = 2
 raw_battle_items = []
 
-[[trainers.2.pokemon]]
+[[trainers.NWCultistF.2.pokemon]]
 internal_name = "GOODRA"
 level = 89
 raw_item = "WIDELENS"
@@ -204,7 +250,7 @@ sex = ""
 nature = "MILD"
 iv = 0
 
-[trainers.2.pokemon.evs]
+[trainers.NWCultistF.2.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -212,7 +258,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.2.pokemon]]
+[[trainers.NWCultistF.2.pokemon]]
 internal_name = "CACTURNE"
 level = 89
 raw_item = "LIFEORB"
@@ -227,7 +273,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 0
 
-[trainers.2.pokemon.evs]
+[trainers.NWCultistF.2.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -235,7 +281,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.2.pokemon]]
+[[trainers.NWCultistF.2.pokemon]]
 internal_name = "SYLVEON"
 level = 89
 raw_item = "LEFTOVERS"
@@ -250,7 +296,7 @@ sex = ""
 nature = "BOLD"
 iv = 0
 
-[trainers.2.pokemon.evs]
+[trainers.NWCultistF.2.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -258,7 +304,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.2.pokemon]]
+[[trainers.NWCultistF.2.pokemon]]
 internal_name = "FLORGES"
 level = 89
 raw_item = "LEFTOVERS"
@@ -273,7 +319,7 @@ sex = ""
 nature = "BOLD"
 iv = 0
 
-[trainers.2.pokemon.evs]
+[trainers.NWCultistF.2.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252

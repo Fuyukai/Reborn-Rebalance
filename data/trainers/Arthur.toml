@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Arthur"
+
+[trainers.Clown.0]
 raw_trainer_class = "Clown"
 battler_name = "Arthur"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.Clown.0.pokemon]]
 internal_name = "VENUSAUR"
 level = 65
 raw_item = "AIRBALLOON"
@@ -15,7 +17,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.Clown.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -23,7 +25,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.Clown.0.pokemon]]
 internal_name = "UNFEZANT"
 level = 65
 raw_item = "AIRBALLOON"
@@ -35,7 +37,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.Clown.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Alphonso"
+
+[trainers.StreetRat.0]
 raw_trainer_class = "StreetRat"
 battler_name = "Alphonso"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.StreetRat.0.pokemon]]
 internal_name = "ARCHEOPS"
 level = 75
 raw_item = "SITRUSBERRY"
@@ -17,7 +19,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.StreetRat.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -25,7 +27,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.StreetRat.0.pokemon]]
 internal_name = "RHYPERIOR"
 level = 75
 raw_item = "PASSHOBERRY"
@@ -39,7 +41,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.StreetRat.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -47,7 +49,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.StreetRat.0.pokemon]]
 internal_name = "ARAQUANID"
 level = 77
 raw_item = "ASSAULTVEST"
@@ -61,7 +63,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.StreetRat.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

@@ -1,14 +1,16 @@
-[trainers.0]
+trainer_name = "Nihil"
+
+[trainers.MAGMA1.0]
 raw_trainer_class = "MAGMA1"
 battler_name = "Nihil"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.MAGMA1.0.pokemon]]
 internal_name = "VULPIX"
 level = 31
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.MAGMA1.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -16,12 +18,12 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.MAGMA1.0.pokemon]]
 internal_name = "SLUGMA"
 level = 31
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.MAGMA1.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -29,12 +31,12 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.MAGMA1.0.pokemon]]
 internal_name = "HOUNDOUR"
 level = 32
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.MAGMA1.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -42,18 +44,18 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.1]
+[trainers.MAGMA1.1]
 raw_trainer_class = "MAGMA1"
 battler_name = "Nihil"
 battler_id = 1
 raw_battle_items = []
 
-[[trainers.1.pokemon]]
+[[trainers.MAGMA1.1.pokemon]]
 internal_name = "NINETALES"
 level = 54
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.MAGMA1.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -61,12 +63,12 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.MAGMA1.1.pokemon]]
 internal_name = "MAGCARGO"
 level = 54
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.MAGMA1.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -74,12 +76,12 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.MAGMA1.1.pokemon]]
 internal_name = "HOUNDOOM"
 level = 55
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.MAGMA1.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

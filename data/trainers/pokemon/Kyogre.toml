@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Kyogre"
+
+[trainers.KYOGRE.0]
 raw_trainer_class = "KYOGRE"
 battler_name = "Kyogre"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.KYOGRE.0.pokemon]]
 internal_name = "VOLCANION"
 level = 142
 raw_item = "LEFTOVERS"
@@ -17,7 +19,7 @@ sex = ""
 nature = "MODEST"
 iv = 15
 
-[trainers.0.pokemon.evs]
+[trainers.KYOGRE.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -25,7 +27,7 @@ spa = 4
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.KYOGRE.0.pokemon]]
 internal_name = "MANAPHY"
 level = 141
 raw_item = "ELEMENTALSEED"
@@ -39,7 +41,7 @@ sex = ""
 nature = "MODEST"
 iv = 15
 
-[trainers.0.pokemon.evs]
+[trainers.KYOGRE.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -47,7 +49,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.KYOGRE.0.pokemon]]
 internal_name = "SWAMPERT"
 level = 141
 raw_item = "SWAMPERTITE"
@@ -61,7 +63,7 @@ sex = "F"
 nature = "ADAMANT"
 iv = 15
 
-[trainers.0.pokemon.evs]
+[trainers.KYOGRE.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -69,7 +71,7 @@ spa = 4
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.KYOGRE.0.pokemon]]
 internal_name = "TENTACRUEL"
 level = 142
 raw_item = "BLACKSLUDGE"
@@ -84,7 +86,7 @@ sex = "F"
 nature = "CALM"
 iv = 15
 
-[trainers.0.pokemon.evs]
+[trainers.KYOGRE.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -92,7 +94,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.KYOGRE.0.pokemon]]
 internal_name = "KYUREM"
 level = 143
 raw_item = "ELEMENTALSEED"
@@ -107,7 +109,7 @@ form_number = 2
 nature = "RASH"
 iv = 15
 
-[trainers.0.pokemon.evs]
+[trainers.KYOGRE.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -115,7 +117,7 @@ spa = 0
 spd = 252
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.KYOGRE.0.pokemon]]
 internal_name = "KYOGRE"
 level = 145
 raw_item = "BLUEORB"
@@ -129,7 +131,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.KYOGRE.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252

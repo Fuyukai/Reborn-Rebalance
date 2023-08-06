@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Troy"
+
+[trainers.SPIRITM.0]
 raw_trainer_class = "SPIRITM"
 battler_name = "Troy"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.SPIRITM.0.pokemon]]
 internal_name = "ROTOM"
 level = 95
 raw_item = "WIKIBERRY"
@@ -18,7 +20,7 @@ form_number = 2
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SPIRITM.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -26,7 +28,7 @@ spa = 0
 spd = 252
 spe = 128
 
-[[trainers.0.pokemon]]
+[[trainers.SPIRITM.0.pokemon]]
 internal_name = "DRAGONITE"
 level = 95
 raw_item = "TELLURICSEED"
@@ -41,7 +43,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SPIRITM.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -49,7 +51,7 @@ spa = 4
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.SPIRITM.0.pokemon]]
 internal_name = "SERPERIOR"
 level = 95
 raw_item = "LIFEORB"
@@ -64,7 +66,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SPIRITM.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -72,7 +74,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.SPIRITM.0.pokemon]]
 internal_name = "SCIZOR"
 level = 95
 raw_item = "FLYINGGEM"
@@ -87,7 +89,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SPIRITM.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -95,7 +97,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.SPIRITM.0.pokemon]]
 internal_name = "ALAKAZAM"
 level = 95
 raw_item = "LIFEORB"
@@ -110,7 +112,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SPIRITM.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -118,7 +120,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.SPIRITM.0.pokemon]]
 internal_name = "INFERNAPE"
 level = 95
 raw_item = "TELLURICSEED"
@@ -132,7 +134,7 @@ sex = ""
 nature = "NAIVE"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SPIRITM.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252

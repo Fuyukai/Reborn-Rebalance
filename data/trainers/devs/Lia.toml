@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Lia"
+
+[trainers.SPIRITF.0]
 raw_trainer_class = "SPIRITF"
 battler_name = "Lia"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.SPIRITF.0.pokemon]]
 internal_name = "BRELOOM"
 level = 100
 raw_item = "LEFTOVERS"
@@ -19,7 +21,7 @@ nature = "JOLLY"
 iv = 31
 pokeball_type = 2
 
-[trainers.0.pokemon.evs]
+[trainers.SPIRITF.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -27,7 +29,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.SPIRITF.0.pokemon]]
 internal_name = "MILOTIC"
 level = 100
 raw_item = "LEFTOVERS"
@@ -42,7 +44,7 @@ nature = "BOLD"
 iv = 31
 pokeball_type = 6
 
-[trainers.0.pokemon.evs]
+[trainers.SPIRITF.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -50,7 +52,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.SPIRITF.0.pokemon]]
 internal_name = "MANECTRIC"
 level = 100
 raw_item = "CHOICESCARF"
@@ -66,7 +68,7 @@ nature = "TIMID"
 iv = 31
 pokeball_type = 14
 
-[trainers.0.pokemon.evs]
+[trainers.SPIRITF.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -74,7 +76,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.SPIRITF.0.pokemon]]
 internal_name = "ARAQUANID"
 level = 100
 raw_item = "IAPAPABERRY"
@@ -90,7 +92,7 @@ nature = "CALM"
 iv = 31
 pokeball_type = 5
 
-[trainers.0.pokemon.evs]
+[trainers.SPIRITF.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -98,7 +100,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.SPIRITF.0.pokemon]]
 internal_name = "MAWILE"
 level = 100
 raw_item = "SYNTHETICSEED"
@@ -114,7 +116,7 @@ nature = "ADAMANT"
 iv = 31
 pokeball_type = 19
 
-[trainers.0.pokemon.evs]
+[trainers.SPIRITF.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -122,7 +124,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.SPIRITF.0.pokemon]]
 internal_name = "PORYGONZ"
 level = 100
 raw_item = "NORMALIUMZ2"
@@ -137,7 +139,7 @@ nature = "TIMID"
 iv = 31
 pokeball_type = 4
 
-[trainers.0.pokemon.evs]
+[trainers.SPIRITF.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252

@@ -1,10 +1,12 @@
-[trainers.1000]
+trainer_name = "Smeargletail"
+
+[trainers.SMEARGLE.1000]
 raw_trainer_class = "SMEARGLE"
 battler_name = "Smeargletail"
 battler_id = 1000
 raw_battle_items = []
 
-[[trainers.1000.pokemon]]
+[[trainers.SMEARGLE.1000.pokemon]]
 internal_name = "SMEARGLE"
 level = 100
 raw_item = "FOCUSSASH"
@@ -19,7 +21,7 @@ nature = "JOLLY"
 iv = 31
 nickname = "Bastian"
 
-[trainers.1000.pokemon.evs]
+[trainers.SMEARGLE.1000.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -27,7 +29,7 @@ spa = 252
 spd = 0
 spe = 4
 
-[[trainers.1000.pokemon]]
+[[trainers.SMEARGLE.1000.pokemon]]
 internal_name = "ZYGARDE"
 level = 100
 raw_item = "CHOICEBAND"
@@ -42,7 +44,7 @@ nature = "JOLLY"
 iv = 31
 nickname = "Argus"
 
-[trainers.1000.pokemon.evs]
+[trainers.SMEARGLE.1000.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -50,7 +52,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.1000.pokemon]]
+[[trainers.SMEARGLE.1000.pokemon]]
 internal_name = "ZYGARDE"
 level = 100
 raw_item = "LEFTOVERS"
@@ -66,7 +68,7 @@ nature = "CALM"
 iv = 31
 nickname = "Medusa"
 
-[trainers.1000.pokemon.evs]
+[trainers.SMEARGLE.1000.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -74,12 +76,12 @@ spa = 0
 spd = 0
 spe = 4
 
-[trainers.0]
+[trainers.SMEARGLE.0]
 raw_trainer_class = "SMEARGLE"
 battler_name = "Smeargletail"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.SMEARGLE.0.pokemon]]
 internal_name = "SMEARGLE"
 level = 100
 raw_item = "FOCUSSASH"
@@ -94,7 +96,7 @@ nature = "JOLLY"
 iv = 31
 nickname = "Bastian"
 
-[trainers.0.pokemon.evs]
+[trainers.SMEARGLE.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -102,7 +104,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.SMEARGLE.0.pokemon]]
 internal_name = "SANDSLASH"
 level = 100
 raw_item = "FOCUSSASH"
@@ -119,7 +121,7 @@ nature = "ADAMANT"
 iv = 31
 nickname = "Khione"
 
-[trainers.0.pokemon.evs]
+[trainers.SMEARGLE.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -127,7 +129,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.SMEARGLE.0.pokemon]]
 internal_name = "ZOROARK"
 level = 100
 raw_item = "FOCUSSASH"
@@ -143,7 +145,7 @@ nature = "MODEST"
 iv = 31
 nickname = "Eris"
 
-[trainers.0.pokemon.evs]
+[trainers.SMEARGLE.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -151,7 +153,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.SMEARGLE.0.pokemon]]
 internal_name = "SAWSBUCK"
 level = 100
 raw_item = "FOCUSSASH"
@@ -168,7 +170,7 @@ nature = "ADAMANT"
 iv = 31
 nickname = "Demeter"
 
-[trainers.0.pokemon.evs]
+[trainers.SMEARGLE.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -176,7 +178,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.SMEARGLE.0.pokemon]]
 internal_name = "ZYGARDE"
 level = 100
 raw_item = "CHOICEBAND"
@@ -191,7 +193,7 @@ nature = "JOLLY"
 iv = 31
 nickname = "Argus"
 
-[trainers.0.pokemon.evs]
+[trainers.SMEARGLE.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -199,7 +201,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.SMEARGLE.0.pokemon]]
 internal_name = "LUNALA"
 level = 100
 raw_item = "LUNALIUMZ2"
@@ -214,7 +216,7 @@ nature = "MODEST"
 iv = 31
 nickname = "Nyx"
 
-[trainers.0.pokemon.evs]
+[trainers.SMEARGLE.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252

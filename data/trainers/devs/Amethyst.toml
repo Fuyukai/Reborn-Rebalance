@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Amethyst"
+
+[trainers.AME.0]
 raw_trainer_class = "AME"
 battler_name = "Amethyst"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.AME.0.pokemon]]
 internal_name = "NINETALES"
 level = 120
 raw_item = "LIGHTCLAY"
@@ -19,7 +21,7 @@ nature = "TIMID"
 iv = 31
 nickname = "Shimmer"
 
-[trainers.0.pokemon.evs]
+[trainers.AME.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -27,7 +29,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.AME.0.pokemon]]
 internal_name = "LOPUNNY"
 level = 120
 raw_item = "LOPUNNITE"
@@ -44,7 +46,7 @@ iv = 31
 happiness = 255
 nickname = "Lustbunny"
 
-[trainers.0.pokemon.evs]
+[trainers.AME.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -52,7 +54,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.AME.0.pokemon]]
 internal_name = "SYLVEON"
 level = 120
 raw_item = "LEFTOVERS"
@@ -70,7 +72,7 @@ iv = 31
 happiness = 255
 nickname = "Invidia"
 
-[trainers.0.pokemon.evs]
+[trainers.AME.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -78,7 +80,7 @@ spa = 4
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.AME.0.pokemon]]
 internal_name = "PRIMARINA"
 level = 120
 raw_item = "ASSAULTVEST"
@@ -94,7 +96,7 @@ iv = 31
 happiness = 255
 nickname = "Althena"
 
-[trainers.0.pokemon.evs]
+[trainers.AME.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -102,7 +104,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.AME.0.pokemon]]
 internal_name = "WHIMSICOTT"
 level = 120
 raw_item = "LEFTOVERS"
@@ -118,7 +120,7 @@ iv = 31
 happiness = 255
 nickname = "Topaz"
 
-[trainers.0.pokemon.evs]
+[trainers.AME.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -126,7 +128,7 @@ spa = 0
 spd = 252
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.AME.0.pokemon]]
 internal_name = "ABSOL"
 level = 120
 raw_item = "DARKINIUMZ2"
@@ -143,7 +145,7 @@ iv = 31
 happiness = 255
 nickname = "Misery"
 
-[trainers.0.pokemon.evs]
+[trainers.AME.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -151,13 +153,13 @@ spa = 252
 spd = 0
 spe = 0
 
-[trainers.1]
+[trainers.AME.1]
 raw_trainer_class = "AME"
 battler_name = "Amethyst"
 battler_id = 1
 raw_battle_items = []
 
-[[trainers.1.pokemon]]
+[[trainers.AME.1.pokemon]]
 internal_name = "NINETALES"
 level = 100
 raw_item = "LIGHTCLAY"
@@ -174,7 +176,7 @@ nature = "TIMID"
 iv = 31
 nickname = "Shimmer"
 
-[trainers.1.pokemon.evs]
+[trainers.AME.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -182,7 +184,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.1.pokemon]]
+[[trainers.AME.1.pokemon]]
 internal_name = "SYLVEON"
 level = 100
 raw_item = "LEFTOVERS"
@@ -198,7 +200,7 @@ nature = "MODEST"
 iv = 31
 nickname = "Invidia"
 
-[trainers.1.pokemon.evs]
+[trainers.AME.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -206,7 +208,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.1.pokemon]]
+[[trainers.AME.1.pokemon]]
 internal_name = "GARDEVOIR"
 level = 100
 raw_item = "MAGICALSEED"
@@ -222,7 +224,7 @@ nature = "MODEST"
 iv = 31
 nickname = "Despair"
 
-[trainers.1.pokemon.evs]
+[trainers.AME.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -230,7 +232,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.1.pokemon]]
+[[trainers.AME.1.pokemon]]
 internal_name = "WHIMSICOTT"
 level = 100
 raw_item = "LEFTOVERS"
@@ -245,7 +247,7 @@ nature = "MODEST"
 iv = 31
 nickname = "Topaz"
 
-[trainers.1.pokemon.evs]
+[trainers.AME.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -253,7 +255,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.1.pokemon]]
+[[trainers.AME.1.pokemon]]
 internal_name = "LOPUNNY"
 level = 100
 raw_item = "LIFEORB"
@@ -270,7 +272,7 @@ iv = 31
 happiness = 255
 nickname = "Lustbunny"
 
-[trainers.1.pokemon.evs]
+[trainers.AME.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -278,7 +280,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.1.pokemon]]
+[[trainers.AME.1.pokemon]]
 internal_name = "PRIMARINA"
 level = 100
 raw_item = "ELEMENTALSEED"
@@ -293,7 +295,7 @@ nature = "MODEST"
 iv = 31
 nickname = "Althena"
 
-[trainers.1.pokemon.evs]
+[trainers.AME.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252

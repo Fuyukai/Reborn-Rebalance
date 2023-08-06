@@ -1,9 +1,55 @@
-[trainers.0]
+trainer_name = "Christina"
+
+[trainers.OrderlyF.0]
+raw_trainer_class = "OrderlyF"
+battler_name = "Christina"
+raw_battle_items = []
+
+[[trainers.OrderlyF.0.pokemon]]
+internal_name = "ELGYEM"
+level = 32
+iv = 0
+
+[trainers.OrderlyF.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.OrderlyF.0.pokemon]]
+internal_name = "EELEKTRIK"
+level = 33
+iv = 0
+
+[trainers.OrderlyF.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.OrderlyF.0.pokemon]]
+internal_name = "CRYOGONAL"
+level = 34
+iv = 0
+
+[trainers.OrderlyF.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.NWOrderlyF.0]
 raw_trainer_class = "NWOrderlyF"
 battler_name = "Christina"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.NWOrderlyF.0.pokemon]]
 internal_name = "BEHEEYEM"
 level = 87
 raw_moves = [
@@ -14,7 +60,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.NWOrderlyF.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -22,7 +68,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.NWOrderlyF.0.pokemon]]
 internal_name = "EELEKTROSS"
 level = 87
 raw_item = "AMPLIFIELDROCK"
@@ -34,7 +80,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.NWOrderlyF.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -42,7 +88,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.NWOrderlyF.0.pokemon]]
 internal_name = "CRYOGONAL"
 level = 88
 raw_moves = [
@@ -53,7 +99,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.NWOrderlyF.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -61,7 +107,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.NWOrderlyF.0.pokemon]]
 internal_name = "SEISMITOAD"
 level = 89
 raw_item = "ZOOMLENS"
@@ -73,7 +119,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.NWOrderlyF.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -81,7 +127,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.NWOrderlyF.0.pokemon]]
 internal_name = "CLEFABLE"
 level = 89
 raw_item = "CHARCOAL"
@@ -94,7 +140,7 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.NWOrderlyF.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

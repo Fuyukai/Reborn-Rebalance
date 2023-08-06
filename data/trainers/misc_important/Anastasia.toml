@@ -1,11 +1,13 @@
-[trainers.0]
+trainer_name = "Anastasia"
+
+[trainers.LADY.0]
 raw_trainer_class = "LADY"
 battler_name = "Anastasia"
 raw_battle_items = [
     "FULLRESTORE",
 ]
 
-[[trainers.0.pokemon]]
+[[trainers.LADY.0.pokemon]]
 internal_name = "MUDKIP"
 level = 25
 raw_moves = [
@@ -16,7 +18,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.LADY.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -24,12 +26,12 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.LADY.0.pokemon]]
 internal_name = "MARSHTOMP"
 level = 25
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.LADY.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -37,12 +39,12 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.LADY.0.pokemon]]
 internal_name = "WAILMER"
 level = 26
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.LADY.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

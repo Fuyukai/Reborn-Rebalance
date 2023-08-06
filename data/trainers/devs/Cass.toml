@@ -1,10 +1,12 @@
-[trainers.1]
+trainer_name = "Cass"
+
+[trainers.CASS.1]
 raw_trainer_class = "CASS"
 battler_name = "Cass"
 battler_id = 1
 raw_battle_items = []
 
-[[trainers.1.pokemon]]
+[[trainers.CASS.1.pokemon]]
 internal_name = "NINETALES"
 level = 120
 raw_item = "EJECTBUTTON"
@@ -21,7 +23,7 @@ nature = "TIMID"
 iv = 31
 nickname = "Amethyst"
 
-[trainers.1.pokemon.evs]
+[trainers.CASS.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -29,7 +31,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.1.pokemon]]
+[[trainers.CASS.1.pokemon]]
 internal_name = "CINCCINO"
 level = 120
 raw_item = "CHOICEBAND"
@@ -45,7 +47,7 @@ nature = "JOLLY"
 iv = 31
 nickname = "Meech"
 
-[trainers.1.pokemon.evs]
+[trainers.CASS.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -53,7 +55,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.CASS.1.pokemon]]
 internal_name = "GARDEVOIR"
 level = 120
 raw_item = "GARDEVOIRITE"
@@ -68,7 +70,7 @@ is_shiny = true
 nature = "TIMID"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.CASS.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -76,13 +78,13 @@ spa = 252
 spd = 252
 spe = 4
 
-[trainers.2]
+[trainers.CASS.2]
 raw_trainer_class = "CASS"
 battler_name = "Cass"
 battler_id = 2
 raw_battle_items = []
 
-[[trainers.2.pokemon]]
+[[trainers.CASS.2.pokemon]]
 internal_name = "NAGANADEL"
 level = 120
 raw_item = "LEFTOVERS"
@@ -97,7 +99,7 @@ form_number = 2
 nature = "TIMID"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.CASS.2.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -105,7 +107,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.2.pokemon]]
+[[trainers.CASS.2.pokemon]]
 internal_name = "NECROZMA"
 level = 120
 raw_item = "ULTRANECROZIUMZ2"
@@ -120,7 +122,7 @@ form_number = 2
 nature = "TIMID"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.CASS.2.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -128,7 +130,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.2.pokemon]]
+[[trainers.CASS.2.pokemon]]
 internal_name = "RAYQUAZA"
 level = 120
 raw_item = "CHOICEBAND"
@@ -143,7 +145,7 @@ is_shiny = true
 nature = "JOLLY"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.CASS.2.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -151,13 +153,13 @@ spa = 252
 spd = 0
 spe = 0
 
-[trainers.1000]
+[trainers.CASS.1000]
 raw_trainer_class = "CASS"
 battler_name = "Cass"
 battler_id = 1000
 raw_battle_items = []
 
-[[trainers.1000.pokemon]]
+[[trainers.CASS.1000.pokemon]]
 internal_name = "SHAYMIN"
 level = 100
 raw_item = "LIFEORB"
@@ -172,7 +174,7 @@ form_number = 1
 nature = "TIMID"
 iv = 31
 
-[trainers.1000.pokemon.evs]
+[trainers.CASS.1000.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -180,7 +182,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.1000.pokemon]]
+[[trainers.CASS.1000.pokemon]]
 internal_name = "DIANCIE"
 level = 100
 raw_item = "LIFEORB"
@@ -194,7 +196,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.1000.pokemon.evs]
+[trainers.CASS.1000.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -202,7 +204,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.1000.pokemon]]
+[[trainers.CASS.1000.pokemon]]
 internal_name = "DARKRAI"
 level = 100
 raw_item = "AIRBALLOON"
@@ -216,7 +218,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.1000.pokemon.evs]
+[trainers.CASS.1000.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -224,13 +226,13 @@ spa = 252
 spd = 252
 spe = 4
 
-[trainers.1001]
+[trainers.CASS.1001]
 raw_trainer_class = "CASS"
 battler_name = "Cass"
 battler_id = 1001
 raw_battle_items = []
 
-[[trainers.1001.pokemon]]
+[[trainers.CASS.1001.pokemon]]
 internal_name = "CINCCINO"
 level = 100
 raw_item = "CHOICEBAND"
@@ -246,7 +248,7 @@ nature = "JOLLY"
 iv = 31
 nickname = "Meech"
 
-[trainers.1001.pokemon.evs]
+[trainers.CASS.1001.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -254,7 +256,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.1001.pokemon]]
+[[trainers.CASS.1001.pokemon]]
 internal_name = "MELOETTA"
 level = 100
 raw_item = "MAGICALSEED"
@@ -269,7 +271,7 @@ nature = "TIMID"
 iv = 31
 nickname = "Melo"
 
-[trainers.1001.pokemon.evs]
+[trainers.CASS.1001.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -277,7 +279,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.1001.pokemon]]
+[[trainers.CASS.1001.pokemon]]
 internal_name = "GARDEVOIR"
 level = 100
 raw_item = "MAGICALSEED"
@@ -291,7 +293,7 @@ sex = "F"
 nature = "TIMID"
 iv = 31
 
-[trainers.1001.pokemon.evs]
+[trainers.CASS.1001.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -299,13 +301,13 @@ spa = 252
 spd = 252
 spe = 4
 
-[trainers.3]
+[trainers.CASS.3]
 raw_trainer_class = "CASS"
 battler_name = "Cass"
 battler_id = 3
 raw_battle_items = []
 
-[[trainers.3.pokemon]]
+[[trainers.CASS.3.pokemon]]
 internal_name = "NINETALES"
 level = 100
 raw_item = "LIGHTCLAY"
@@ -322,7 +324,7 @@ nature = "TIMID"
 iv = 31
 nickname = "Amethyst"
 
-[trainers.3.pokemon.evs]
+[trainers.CASS.3.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -330,7 +332,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.3.pokemon]]
+[[trainers.CASS.3.pokemon]]
 internal_name = "GLACEON"
 level = 100
 raw_item = "MAGICALSEED"
@@ -346,7 +348,7 @@ nature = "TIMID"
 iv = 31
 nickname = "Crystal"
 
-[trainers.3.pokemon.evs]
+[trainers.CASS.3.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -354,7 +356,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.3.pokemon]]
+[[trainers.CASS.3.pokemon]]
 internal_name = "MELOETTA"
 level = 100
 raw_item = "LIFEORB"
@@ -370,7 +372,7 @@ nature = "JOLLY"
 iv = 31
 nickname = "Mello"
 
-[trainers.3.pokemon.evs]
+[trainers.CASS.3.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -378,7 +380,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.3.pokemon]]
+[[trainers.CASS.3.pokemon]]
 internal_name = "LILLIGANT"
 level = 100
 raw_item = "POWERHERB"
@@ -394,7 +396,7 @@ nature = "TIMID"
 iv = 31
 nickname = "Flora"
 
-[trainers.3.pokemon.evs]
+[trainers.CASS.3.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -402,7 +404,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.3.pokemon]]
+[[trainers.CASS.3.pokemon]]
 internal_name = "CINCCINO"
 level = 100
 raw_item = "KINGSROCK"
@@ -419,7 +421,7 @@ nature = "ADAMANT"
 iv = 31
 nickname = "Meech"
 
-[trainers.3.pokemon.evs]
+[trainers.CASS.3.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -427,7 +429,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.3.pokemon]]
+[[trainers.CASS.3.pokemon]]
 internal_name = "GARDEVOIR"
 level = 100
 raw_item = "LEFTOVERS"
@@ -443,7 +445,7 @@ nature = "TIMID"
 iv = 31
 nickname = "Monika"
 
-[trainers.3.pokemon.evs]
+[trainers.CASS.3.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252

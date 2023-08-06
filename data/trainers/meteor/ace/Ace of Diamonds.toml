@@ -1,11 +1,13 @@
-[trainers.0]
+trainer_name = "Ace of Diamonds"
+
+[trainers.ACEDIAMONDS.0]
 raw_trainer_class = "ACEDIAMONDS"
 battler_name = "Ace of Diamonds"
 raw_battle_items = [
     "HYPERPOTION",
 ]
 
-[[trainers.0.pokemon]]
+[[trainers.ACEDIAMONDS.0.pokemon]]
 internal_name = "ZOROARK"
 level = 41
 raw_moves = [
@@ -19,7 +21,7 @@ nature = "JOLLY"
 iv = 20
 happiness = 255
 
-[trainers.0.pokemon.evs]
+[trainers.ACEDIAMONDS.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -27,7 +29,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.ACEDIAMONDS.0.pokemon]]
 internal_name = "CLEFABLE"
 level = 41
 raw_item = "SITRUSBERRY"
@@ -43,7 +45,7 @@ is_shiny = true
 nature = "ADAMANT"
 iv = 20
 
-[trainers.0.pokemon.evs]
+[trainers.ACEDIAMONDS.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -51,7 +53,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.ACEDIAMONDS.0.pokemon]]
 internal_name = "HONCHKROW"
 level = 41
 raw_item = "ENIGMABERRY"
@@ -66,7 +68,7 @@ is_shiny = true
 nature = "ADAMANT"
 iv = 20
 
-[trainers.0.pokemon.evs]
+[trainers.ACEDIAMONDS.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -74,7 +76,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.ACEDIAMONDS.0.pokemon]]
 internal_name = "BRONZONG"
 level = 42
 raw_item = "TELLURICSEED"
@@ -89,7 +91,7 @@ nature = "BRAVE"
 iv = 25
 happiness = 0
 
-[trainers.0.pokemon.evs]
+[trainers.ACEDIAMONDS.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -97,7 +99,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.ACEDIAMONDS.0.pokemon]]
 internal_name = "MISMAGIUS"
 level = 41
 raw_moves = [
@@ -110,7 +112,7 @@ sex = "F"
 nature = "MODEST"
 iv = 25
 
-[trainers.0.pokemon.evs]
+[trainers.ACEDIAMONDS.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -118,7 +120,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.ACEDIAMONDS.0.pokemon]]
 internal_name = "DELPHOX"
 level = 43
 raw_moves = [
@@ -132,7 +134,7 @@ nature = "MODEST"
 iv = 31
 happiness = 255
 
-[trainers.0.pokemon.evs]
+[trainers.ACEDIAMONDS.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -140,7 +142,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.20]
+[trainers.ACEDIAMONDS.20]
 raw_trainer_class = "ACEDIAMONDS"
 battler_name = "Ace of Diamonds"
 battler_id = 20
@@ -148,7 +150,7 @@ raw_battle_items = [
     "HYPERPOTION",
 ]
 
-[[trainers.20.pokemon]]
+[[trainers.ACEDIAMONDS.20.pokemon]]
 internal_name = "ZOROARK"
 level = 41
 raw_moves = [
@@ -163,7 +165,7 @@ nature = "JOLLY"
 iv = 20
 happiness = 255
 
-[trainers.20.pokemon.evs]
+[trainers.ACEDIAMONDS.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -171,7 +173,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.ACEDIAMONDS.20.pokemon]]
 internal_name = "WEEZING"
 level = 41
 raw_item = "BLACKSLUDGE"
@@ -186,7 +188,7 @@ form_number = 1
 nature = "BOLD"
 iv = 20
 
-[trainers.20.pokemon.evs]
+[trainers.ACEDIAMONDS.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -194,7 +196,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.ACEDIAMONDS.20.pokemon]]
 internal_name = "HONCHKROW"
 level = 41
 raw_item = "ENIGMABERRY"
@@ -209,7 +211,7 @@ is_shiny = true
 nature = "ADAMANT"
 iv = 20
 
-[trainers.20.pokemon.evs]
+[trainers.ACEDIAMONDS.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -217,7 +219,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.ACEDIAMONDS.20.pokemon]]
 internal_name = "BRONZONG"
 level = 42
 raw_item = "TELLURICSEED"
@@ -232,7 +234,7 @@ nature = "BRAVE"
 iv = 25
 happiness = 0
 
-[trainers.20.pokemon.evs]
+[trainers.ACEDIAMONDS.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -240,7 +242,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.ACEDIAMONDS.20.pokemon]]
 internal_name = "MEOWSCARADA"
 level = 41
 raw_item = "FLYINGGEM"
@@ -254,7 +256,7 @@ ability_number = 1
 nature = "ADAMANT"
 iv = 25
 
-[trainers.20.pokemon.evs]
+[trainers.ACEDIAMONDS.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -262,7 +264,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.ACEDIAMONDS.20.pokemon]]
 internal_name = "DELPHOX"
 level = 43
 raw_moves = [
@@ -276,7 +278,7 @@ nature = "MODEST"
 iv = 31
 happiness = 255
 
-[trainers.20.pokemon.evs]
+[trainers.ACEDIAMONDS.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

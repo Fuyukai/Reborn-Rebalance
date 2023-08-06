@@ -1,4 +1,6 @@
-[trainers.0]
+trainer_name = "Bennett & Laura"
+
+[trainers.BENNETTLAURA.0]
 raw_trainer_class = "BENNETTLAURA"
 battler_name = "Bennett & Laura"
 raw_battle_items = [
@@ -6,7 +8,7 @@ raw_battle_items = [
     "FULLRESTORE",
 ]
 
-[[trainers.0.pokemon]]
+[[trainers.BENNETTLAURA.0.pokemon]]
 internal_name = "GALVANTULA"
 level = 100
 raw_item = "SYNTHETICSEED"
@@ -21,7 +23,7 @@ sex = "F"
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.BENNETTLAURA.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -29,7 +31,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.BENNETTLAURA.0.pokemon]]
 internal_name = "WHIMSICOTT"
 level = 100
 raw_item = "SYNTHETICSEED"
@@ -43,7 +45,7 @@ sex = "F"
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.BENNETTLAURA.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -51,7 +53,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.BENNETTLAURA.0.pokemon]]
 internal_name = "VENUSAUR"
 level = 100
 raw_item = "GRASSIUMZ2"
@@ -66,7 +68,7 @@ sex = "F"
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.BENNETTLAURA.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -74,7 +76,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.BENNETTLAURA.0.pokemon]]
 internal_name = "LEAVANNY"
 level = 100
 raw_item = "SYNTHETICSEED"
@@ -88,7 +90,7 @@ ability_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.BENNETTLAURA.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -96,7 +98,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.BENNETTLAURA.0.pokemon]]
 internal_name = "VOLCARONA"
 level = 100
 raw_item = "SYNTHETICSEED"
@@ -110,7 +112,7 @@ ability_number = 1
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.BENNETTLAURA.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -118,7 +120,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.BENNETTLAURA.0.pokemon]]
 internal_name = "LILLIGANT"
 level = 100
 raw_item = "SYNTHETICSEED"
@@ -132,7 +134,7 @@ sex = "F"
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.BENNETTLAURA.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -140,7 +142,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[trainers.20]
+[trainers.BENNETTLAURA.20]
 raw_trainer_class = "BENNETTLAURA"
 battler_name = "Bennett & Laura"
 battler_id = 20
@@ -149,7 +151,7 @@ raw_battle_items = [
     "FULLRESTORE",
 ]
 
-[[trainers.20.pokemon]]
+[[trainers.BENNETTLAURA.20.pokemon]]
 internal_name = "LOKIX"
 level = 100
 raw_item = "SYNTHETICSEED"
@@ -162,7 +164,7 @@ raw_moves = [
 nature = "ADAMANT"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.BENNETTLAURA.20.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -170,7 +172,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.BENNETTLAURA.20.pokemon]]
 internal_name = "WHIMSICOTT"
 level = 100
 raw_item = "SYNTHETICSEED"
@@ -184,7 +186,7 @@ sex = "F"
 nature = "MODEST"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.BENNETTLAURA.20.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -192,7 +194,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.BENNETTLAURA.20.pokemon]]
 internal_name = "VENUSAUR"
 level = 100
 raw_item = "VENUSAURITEG"
@@ -207,7 +209,7 @@ sex = "F"
 nature = "MODEST"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.BENNETTLAURA.20.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -215,7 +217,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.BENNETTLAURA.20.pokemon]]
 internal_name = "EPHEMEON"
 level = 100
 raw_item = "SYNTHETICSEED"
@@ -230,7 +232,7 @@ sex = "F"
 nature = "JOLLY"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.BENNETTLAURA.20.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -238,7 +240,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.BENNETTLAURA.20.pokemon]]
 internal_name = "VOLCARONA"
 level = 100
 raw_item = "SYNTHETICSEED"
@@ -252,7 +254,7 @@ ability_number = 1
 nature = "TIMID"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.BENNETTLAURA.20.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -260,7 +262,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.BENNETTLAURA.20.pokemon]]
 internal_name = "LILLIGANT"
 level = 100
 raw_item = "GRASSIUMZ2"
@@ -274,7 +276,7 @@ sex = "F"
 nature = "MODEST"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.BENNETTLAURA.20.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0

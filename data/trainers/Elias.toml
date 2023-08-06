@@ -1,4 +1,6 @@
-[trainers.0]
+trainer_name = "Elias"
+
+[trainers.ELIAS.0]
 raw_trainer_class = "ELIAS"
 battler_name = "Elias"
 raw_battle_items = [
@@ -6,7 +8,7 @@ raw_battle_items = [
     "FULLRESTORE",
 ]
 
-[[trainers.0.pokemon]]
+[[trainers.ELIAS.0.pokemon]]
 internal_name = "NOIVERN"
 level = 100
 raw_item = "MAGICALSEED"
@@ -20,7 +22,7 @@ ability_number = 1
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.ELIAS.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -28,7 +30,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.ELIAS.0.pokemon]]
 internal_name = "KOMMOO"
 level = 100
 raw_item = "KOMMONIUMZ2"
@@ -42,7 +44,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.ELIAS.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -50,7 +52,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.ELIAS.0.pokemon]]
 internal_name = "DRAGONITE"
 level = 100
 raw_item = "CHOICEBAND"
@@ -64,7 +66,7 @@ ability_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.ELIAS.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -72,7 +74,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.ELIAS.0.pokemon]]
 internal_name = "DRAMPA"
 level = 100
 raw_item = "WIKIBERRY"
@@ -85,7 +87,7 @@ raw_moves = [
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.ELIAS.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -93,7 +95,7 @@ spa = 0
 spd = 252
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.ELIAS.0.pokemon]]
 internal_name = "DITTO"
 level = 100
 raw_item = "CHOICESCARF"
@@ -106,7 +108,7 @@ nature = "TIMID"
 iv = 31
 happiness = 255
 
-[trainers.0.pokemon.evs]
+[trainers.ELIAS.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -114,7 +116,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.ELIAS.0.pokemon]]
 internal_name = "KANGASKHAN"
 level = 100
 raw_item = "KANGASKHANITE"
@@ -128,7 +130,7 @@ nature = "JOLLY"
 iv = 31
 happiness = 255
 
-[trainers.0.pokemon.evs]
+[trainers.ELIAS.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -136,13 +138,13 @@ spa = 252
 spd = 0
 spe = 0
 
-[trainers.2]
+[trainers.ELIAS.2]
 raw_trainer_class = "ELIAS"
 battler_name = "Elias"
 battler_id = 2
 raw_battle_items = []
 
-[[trainers.2.pokemon]]
+[[trainers.ELIAS.2.pokemon]]
 internal_name = "NOIVERN"
 level = 100
 raw_item = "MAGICALSEED"
@@ -156,7 +158,7 @@ ability_number = 1
 nature = "TIMID"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.ELIAS.2.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -164,7 +166,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.ELIAS.2.pokemon]]
 internal_name = "KOMMOO"
 level = 100
 raw_item = "KOMMONIUMZ2"
@@ -178,7 +180,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.ELIAS.2.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -186,7 +188,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.ELIAS.2.pokemon]]
 internal_name = "DRAGONITE"
 level = 100
 raw_item = "CHOICEBAND"
@@ -200,7 +202,7 @@ ability_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.ELIAS.2.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -208,7 +210,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.ELIAS.2.pokemon]]
 internal_name = "DRAMPA"
 level = 100
 raw_item = "WIKIBERRY"
@@ -221,7 +223,7 @@ raw_moves = [
 nature = "MODEST"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.ELIAS.2.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -229,7 +231,7 @@ spa = 0
 spd = 252
 spe = 4
 
-[[trainers.2.pokemon]]
+[[trainers.ELIAS.2.pokemon]]
 internal_name = "REGIGIGAS"
 level = 100
 raw_item = "LEFTOVERS"
@@ -243,7 +245,7 @@ sex = ""
 nature = "BOLD"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.ELIAS.2.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 132
@@ -251,7 +253,7 @@ spa = 0
 spd = 124
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.ELIAS.2.pokemon]]
 internal_name = "KANGASKHAN"
 level = 100
 raw_item = "KANGASKHANITE"
@@ -265,7 +267,7 @@ nature = "JOLLY"
 iv = 31
 happiness = 255
 
-[trainers.2.pokemon.evs]
+[trainers.ELIAS.2.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -273,13 +275,13 @@ spa = 252
 spd = 0
 spe = 0
 
-[trainers.1]
+[trainers.ELIAS.1]
 raw_trainer_class = "ELIAS"
 battler_name = "Elias"
 battler_id = 1
 raw_battle_items = []
 
-[[trainers.1.pokemon]]
+[[trainers.ELIAS.1.pokemon]]
 internal_name = "NOIVERN"
 level = 120
 raw_item = "MAGICALSEED"
@@ -293,7 +295,7 @@ ability_number = 1
 nature = "TIMID"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.ELIAS.1.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -301,7 +303,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.ELIAS.1.pokemon]]
 internal_name = "KOMMOO"
 level = 120
 raw_item = "KOMMONIUMZ2"
@@ -315,7 +317,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.ELIAS.1.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -323,7 +325,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.ELIAS.1.pokemon]]
 internal_name = "DRAGONITE"
 level = 120
 raw_item = "CHOICEBAND"
@@ -337,7 +339,7 @@ ability_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.ELIAS.1.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -345,7 +347,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.ELIAS.1.pokemon]]
 internal_name = "DRAMPA"
 level = 120
 raw_item = "WIKIBERRY"
@@ -358,7 +360,7 @@ raw_moves = [
 nature = "MODEST"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.ELIAS.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -366,7 +368,7 @@ spa = 0
 spd = 252
 spe = 4
 
-[[trainers.1.pokemon]]
+[[trainers.ELIAS.1.pokemon]]
 internal_name = "DITTO"
 level = 120
 raw_item = "CHOICESCARF"
@@ -378,7 +380,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.ELIAS.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -386,7 +388,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.ELIAS.1.pokemon]]
 internal_name = "KANGASKHAN"
 level = 120
 raw_item = "KANGASKHANITE"
@@ -400,7 +402,7 @@ nature = "JOLLY"
 iv = 31
 happiness = 255
 
-[trainers.1.pokemon.evs]
+[trainers.ELIAS.1.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -408,13 +410,13 @@ spa = 252
 spd = 0
 spe = 0
 
-[trainers.10]
+[trainers.ELIAS.10]
 raw_trainer_class = "ELIAS"
 battler_name = "Elias"
 battler_id = 10
 raw_battle_items = []
 
-[[trainers.10.pokemon]]
+[[trainers.ELIAS.10.pokemon]]
 internal_name = "DITTO"
 level = 100
 raw_item = "CHOICESCARF"
@@ -426,7 +428,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.ELIAS.10.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -434,7 +436,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.ELIAS.10.pokemon]]
 internal_name = "DITTO"
 level = 100
 raw_item = "CHOICESCARF"
@@ -446,7 +448,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.ELIAS.10.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -454,7 +456,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.ELIAS.10.pokemon]]
 internal_name = "DITTO"
 level = 100
 raw_item = "CHOICESCARF"
@@ -466,7 +468,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.ELIAS.10.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -474,7 +476,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.ELIAS.10.pokemon]]
 internal_name = "DITTO"
 level = 100
 raw_item = "CHOICESCARF"
@@ -486,7 +488,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.ELIAS.10.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -494,7 +496,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.ELIAS.10.pokemon]]
 internal_name = "DITTO"
 level = 100
 raw_item = "CHOICESCARF"
@@ -506,7 +508,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.ELIAS.10.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -514,7 +516,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.ELIAS.10.pokemon]]
 internal_name = "MEW"
 level = 100
 raw_item = "MEWNIUMZ2"
@@ -528,7 +530,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.ELIAS.10.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -536,13 +538,13 @@ spa = 252
 spd = 252
 spe = 0
 
-[trainers.11]
+[trainers.ELIAS.11]
 raw_trainer_class = "ELIAS"
 battler_name = "Elias"
 battler_id = 11
 raw_battle_items = []
 
-[[trainers.11.pokemon]]
+[[trainers.ELIAS.11.pokemon]]
 internal_name = "XERNEAS"
 level = 100
 raw_item = "PIXIEPLATE"
@@ -556,7 +558,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.ELIAS.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -564,7 +566,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.11.pokemon]]
+[[trainers.ELIAS.11.pokemon]]
 internal_name = "DRAMPA"
 level = 100
 raw_item = "WIKIBERRY"
@@ -577,7 +579,7 @@ raw_moves = [
 nature = "MODEST"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.ELIAS.11.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -585,7 +587,7 @@ spa = 0
 spd = 252
 spe = 4
 
-[[trainers.11.pokemon]]
+[[trainers.ELIAS.11.pokemon]]
 internal_name = "XURKITREE"
 level = 100
 raw_item = "ZAPPLATE"
@@ -599,7 +601,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.ELIAS.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -607,7 +609,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.11.pokemon]]
+[[trainers.ELIAS.11.pokemon]]
 internal_name = "CELEBI"
 level = 100
 raw_item = "MINDPLATE"
@@ -621,7 +623,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.ELIAS.11.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -629,7 +631,7 @@ spa = 252
 spd = 0
 spe = 4
 
-[[trainers.11.pokemon]]
+[[trainers.ELIAS.11.pokemon]]
 internal_name = "HEATRAN"
 level = 100
 raw_item = "IRONPLATE"
@@ -643,7 +645,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.ELIAS.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -651,7 +653,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.11.pokemon]]
+[[trainers.ELIAS.11.pokemon]]
 internal_name = "SHAYMIN"
 level = 100
 raw_item = "SKYPLATE"
@@ -666,7 +668,7 @@ form_number = 1
 nature = "TIMID"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.ELIAS.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -674,13 +676,13 @@ spa = 252
 spd = 252
 spe = 4
 
-[trainers.12]
+[trainers.ELIAS.12]
 raw_trainer_class = "ELIAS"
 battler_name = "Elias"
 battler_id = 12
 raw_battle_items = []
 
-[[trainers.12.pokemon]]
+[[trainers.ELIAS.12.pokemon]]
 internal_name = "NOIVERN"
 level = 100
 raw_item = "CHOICESPECS"
@@ -694,7 +696,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.ELIAS.12.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -702,7 +704,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.ELIAS.12.pokemon]]
 internal_name = "PORYGONZ"
 level = 100
 raw_item = "CHOICESCARF"
@@ -716,7 +718,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.ELIAS.12.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -724,7 +726,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.ELIAS.12.pokemon]]
 internal_name = "MELOETTA"
 level = 100
 raw_item = "LEFTOVERS"
@@ -738,7 +740,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.ELIAS.12.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -746,7 +748,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.ELIAS.12.pokemon]]
 internal_name = "GARCHOMP"
 level = 100
 raw_item = "MAGICALSEED"
@@ -761,7 +763,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.ELIAS.12.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -769,7 +771,7 @@ spa = 252
 spd = 0
 spe = 4
 
-[[trainers.12.pokemon]]
+[[trainers.ELIAS.12.pokemon]]
 internal_name = "DRAMPA"
 level = 100
 raw_item = "DRACOPLATE"
@@ -783,7 +785,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.ELIAS.12.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -791,7 +793,7 @@ spa = 0
 spd = 252
 spe = 4
 
-[[trainers.12.pokemon]]
+[[trainers.ELIAS.12.pokemon]]
 internal_name = "KANGASKHAN"
 level = 100
 raw_item = "KANGASKHANITE"
@@ -807,7 +809,7 @@ nature = "JOLLY"
 iv = 31
 happiness = 255
 
-[trainers.12.pokemon.evs]
+[trainers.ELIAS.12.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -815,13 +817,13 @@ spa = 252
 spd = 0
 spe = 0
 
-[trainers.13]
+[trainers.ELIAS.13]
 raw_trainer_class = "ELIAS"
 battler_name = "Elias"
 battler_id = 13
 raw_battle_items = []
 
-[[trainers.13.pokemon]]
+[[trainers.ELIAS.13.pokemon]]
 internal_name = "ZYGARDE"
 level = 100
 raw_item = "CHOICESCARF"
@@ -833,7 +835,7 @@ form_number = 1
 nature = "JOLLY"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.ELIAS.13.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -841,7 +843,7 @@ spa = 252
 spd = 0
 spe = 4
 
-[[trainers.13.pokemon]]
+[[trainers.ELIAS.13.pokemon]]
 internal_name = "GARCHOMP"
 level = 100
 raw_item = "GROUNDIUMZ2"
@@ -854,7 +856,7 @@ raw_moves = [
 nature = "SERIOUS"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.ELIAS.13.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -862,7 +864,7 @@ spa = 252
 spd = 0
 spe = 4
 
-[[trainers.13.pokemon]]
+[[trainers.ELIAS.13.pokemon]]
 internal_name = "TAPUBULU"
 level = 100
 raw_item = "AMPLIFIELDROCK"
@@ -876,7 +878,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.ELIAS.13.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -884,7 +886,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.13.pokemon]]
+[[trainers.ELIAS.13.pokemon]]
 internal_name = "SAWSBUCK"
 level = 100
 raw_item = "FOCUSSASH"
@@ -899,7 +901,7 @@ nature = "JOLLY"
 iv = 31
 happiness = 255
 
-[trainers.13.pokemon.evs]
+[trainers.ELIAS.13.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -907,7 +909,7 @@ spa = 252
 spd = 0
 spe = 4
 
-[[trainers.13.pokemon]]
+[[trainers.ELIAS.13.pokemon]]
 internal_name = "PYROAR"
 level = 100
 raw_item = "FLAMEPLATE"
@@ -920,7 +922,7 @@ raw_moves = [
 nature = "MODEST"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.ELIAS.13.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -928,7 +930,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.13.pokemon]]
+[[trainers.ELIAS.13.pokemon]]
 internal_name = "KOMMOO"
 level = 100
 raw_item = "ASSAULTVEST"
@@ -942,7 +944,7 @@ sex = ""
 nature = "NAIVE"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.ELIAS.13.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -950,7 +952,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[trainers.20]
+[trainers.ELIAS.20]
 raw_trainer_class = "ELIAS"
 battler_name = "Elias"
 battler_id = 20
@@ -959,7 +961,7 @@ raw_battle_items = [
     "FULLRESTORE",
 ]
 
-[[trainers.20.pokemon]]
+[[trainers.ELIAS.20.pokemon]]
 internal_name = "CYCLIZAR"
 level = 100
 raw_item = "FOCUSSASH"
@@ -974,7 +976,7 @@ nature = "JOLLY"
 iv = 31
 happiness = 255
 
-[trainers.20.pokemon.evs]
+[trainers.ELIAS.20.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -982,7 +984,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.ELIAS.20.pokemon]]
 internal_name = "NOIVERN"
 level = 100
 raw_item = "MAGICALSEED"
@@ -996,7 +998,7 @@ ability_number = 1
 nature = "TIMID"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.ELIAS.20.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -1004,7 +1006,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.ELIAS.20.pokemon]]
 internal_name = "KOMMOO"
 level = 100
 raw_item = "KOMMONIUMZ2"
@@ -1018,7 +1020,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.ELIAS.20.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -1026,7 +1028,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.ELIAS.20.pokemon]]
 internal_name = "DRAGONITE"
 level = 100
 raw_item = "CHOICEBAND"
@@ -1040,7 +1042,7 @@ ability_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.ELIAS.20.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -1048,7 +1050,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.ELIAS.20.pokemon]]
 internal_name = "NOCTOWL"
 level = 100
 raw_item = "NOCTOWLITE"
@@ -1061,7 +1063,7 @@ raw_moves = [
 nature = "TIMID"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.ELIAS.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1069,7 +1071,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.20.pokemon]]
+[[trainers.ELIAS.20.pokemon]]
 internal_name = "DITTO"
 level = 100
 raw_item = "CHOICESCARF"
@@ -1082,7 +1084,7 @@ nature = "TIMID"
 iv = 31
 happiness = 255
 
-[trainers.20.pokemon.evs]
+[trainers.ELIAS.20.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0

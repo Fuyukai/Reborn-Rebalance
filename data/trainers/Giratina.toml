@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Giratina"
+
+[trainers.GIRATINA.0]
 raw_trainer_class = "GIRATINA"
 battler_name = "Giratina"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.GIRATINA.0.pokemon]]
 internal_name = "JYNX"
 level = 140
 raw_item = "FOCUSSASH"
@@ -18,7 +20,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.GIRATINA.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -26,7 +28,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.GIRATINA.0.pokemon]]
 internal_name = "WEAVILE"
 level = 140
 raw_item = "FOCUSSASH"
@@ -41,7 +43,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.GIRATINA.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -49,7 +51,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.GIRATINA.0.pokemon]]
 internal_name = "LUGIA"
 level = 140
 raw_item = "MAGICALSEED"
@@ -64,7 +66,7 @@ sex = ""
 nature = "BOLD"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.GIRATINA.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -72,7 +74,7 @@ spa = 0
 spd = 0
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.GIRATINA.0.pokemon]]
 internal_name = "MELOETTA"
 level = 140
 raw_item = "MAGICALSEED"
@@ -87,7 +89,7 @@ form_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.GIRATINA.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -95,7 +97,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.GIRATINA.0.pokemon]]
 internal_name = "YVELTAL"
 level = 140
 raw_item = "CHOICESCARF"
@@ -109,7 +111,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.GIRATINA.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -117,7 +119,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.GIRATINA.0.pokemon]]
 internal_name = "GIRATINA"
 level = 140
 raw_item = "MAGICALSEED"
@@ -132,7 +134,7 @@ form_number = 1
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.GIRATINA.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252

@@ -1,10 +1,12 @@
-[trainers.1000]
+trainer_name = "Direction"
+
+[trainers.MISSDIRECTION.1000]
 raw_trainer_class = "MISSDIRECTION"
 battler_name = "Direction"
 battler_id = 1000
 raw_battle_items = []
 
-[[trainers.1000.pokemon]]
+[[trainers.MISSDIRECTION.1000.pokemon]]
 internal_name = "CHANSEY"
 level = 100
 raw_item = "EVIOLITE"
@@ -19,7 +21,7 @@ sex = ""
 nature = "CALM"
 iv = 31
 
-[trainers.1000.pokemon.evs]
+[trainers.MISSDIRECTION.1000.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -27,7 +29,7 @@ spa = 0
 spd = 0
 spe = 252
 
-[[trainers.1000.pokemon]]
+[[trainers.MISSDIRECTION.1000.pokemon]]
 internal_name = "TOGETIC"
 level = 100
 raw_item = "EVIOLITE"
@@ -42,7 +44,7 @@ sex = ""
 nature = "CALM"
 iv = 31
 
-[trainers.1000.pokemon.evs]
+[trainers.MISSDIRECTION.1000.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -50,7 +52,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.1000.pokemon]]
+[[trainers.MISSDIRECTION.1000.pokemon]]
 internal_name = "DUSCLOPS"
 level = 100
 raw_item = "EVIOLITE"
@@ -64,7 +66,7 @@ sex = ""
 nature = "CALM"
 iv = 31
 
-[trainers.1000.pokemon.evs]
+[trainers.MISSDIRECTION.1000.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -72,13 +74,13 @@ spa = 0
 spd = 0
 spe = 4
 
-[trainers.1001]
+[trainers.MISSDIRECTION.1001]
 raw_trainer_class = "MISSDIRECTION"
 battler_name = "Direction"
 battler_id = 1001
 raw_battle_items = []
 
-[[trainers.1001.pokemon]]
+[[trainers.MISSDIRECTION.1001.pokemon]]
 internal_name = "PURUGLY"
 level = 100
 raw_item = "MAGICALSEED"
@@ -93,7 +95,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.1001.pokemon.evs]
+[trainers.MISSDIRECTION.1001.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -101,7 +103,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.1001.pokemon]]
+[[trainers.MISSDIRECTION.1001.pokemon]]
 internal_name = "SLOWKING"
 level = 100
 raw_item = "MAGICALSEED"
@@ -116,7 +118,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.1001.pokemon.evs]
+[trainers.MISSDIRECTION.1001.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -124,7 +126,7 @@ spa = 0
 spd = 252
 spe = 252
 
-[[trainers.1001.pokemon]]
+[[trainers.MISSDIRECTION.1001.pokemon]]
 internal_name = "LILLIGANT"
 level = 100
 raw_item = "MAGICALSEED"
@@ -139,7 +141,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.1001.pokemon.evs]
+[trainers.MISSDIRECTION.1001.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

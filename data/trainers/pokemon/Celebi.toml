@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Celebi"
+
+[trainers.CELEBI.0]
 raw_trainer_class = "CELEBI"
 battler_name = "Celebi"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.CELEBI.0.pokemon]]
 internal_name = "CELEBI"
 level = 120
 raw_item = "SYNTHETICSEED"
@@ -18,7 +20,7 @@ nature = "JOLLY"
 iv = 31
 happiness = 255
 
-[trainers.0.pokemon.evs]
+[trainers.CELEBI.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -26,7 +28,7 @@ spa = 252
 spd = 0
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.CELEBI.0.pokemon]]
 internal_name = "CELEBI"
 level = 120
 raw_item = "BIGROOT"
@@ -41,7 +43,7 @@ nature = "ADAMANT"
 iv = 31
 happiness = 255
 
-[trainers.0.pokemon.evs]
+[trainers.CELEBI.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -49,7 +51,7 @@ spa = 4
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.CELEBI.0.pokemon]]
 internal_name = "CELEBI"
 level = 120
 raw_item = "BIGROOT"
@@ -64,7 +66,7 @@ nature = "MODEST"
 iv = 31
 happiness = 255
 
-[trainers.0.pokemon.evs]
+[trainers.CELEBI.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -72,7 +74,7 @@ spa = 4
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.CELEBI.0.pokemon]]
 internal_name = "CELEBI"
 level = 120
 raw_item = "SYNTHETICSEED"
@@ -87,7 +89,7 @@ nature = "MODEST"
 iv = 31
 happiness = 255
 
-[trainers.0.pokemon.evs]
+[trainers.CELEBI.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -95,7 +97,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.CELEBI.0.pokemon]]
 internal_name = "CELEBI"
 level = 120
 raw_item = "CHOICESCARF"
@@ -110,7 +112,7 @@ nature = "JOLLY"
 iv = 31
 happiness = 255
 
-[trainers.0.pokemon.evs]
+[trainers.CELEBI.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -118,7 +120,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.CELEBI.0.pokemon]]
 internal_name = "CELEBI"
 level = 120
 raw_item = "SYNTHETICSEED"
@@ -133,7 +135,7 @@ nature = "MODEST"
 iv = 31
 happiness = 255
 
-[trainers.0.pokemon.evs]
+[trainers.CELEBI.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0

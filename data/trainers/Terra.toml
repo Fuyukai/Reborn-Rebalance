@@ -1,9 +1,156 @@
-[trainers.0]
+trainer_name = "Terra"
+
+[trainers.UMBTERRA.0]
+raw_trainer_class = "UMBTERRA"
+battler_name = "Terra"
+raw_battle_items = []
+
+[[trainers.UMBTERRA.0.pokemon]]
+internal_name = "CLAYDOL"
+level = 120
+raw_item = "LIGHTCLAY"
+raw_moves = [
+    "REFLECT",
+    "LIGHTSCREEN",
+    "STEALTHROCK",
+    "PSYCHIC",
+]
+sex = "F"
+nature = "MODEST"
+iv = 31
+nickname = "pot"
+
+[trainers.UMBTERRA.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.UMBTERRA.0.pokemon]]
+internal_name = "PALOSSAND"
+level = 120
+raw_item = "LIFEORB"
+raw_moves = [
+    "SHOREUP",
+    "EARTHPOWER",
+    "SHADOWBALL",
+    "HIDDENPOWERFIR",
+]
+sex = "F"
+nature = "MODEST"
+iv = 31
+nickname = "castle"
+
+[trainers.UMBTERRA.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.UMBTERRA.0.pokemon]]
+internal_name = "GOLURK"
+level = 120
+raw_item = "CHOICEBAND"
+raw_moves = [
+    "DYNAMICPUNCH",
+    "STONEEDGE",
+    "ZENHEADBUTT",
+    "ICEPUNCH",
+]
+ability_number = 2
+sex = "F"
+nature = "ADAMANT"
+iv = 31
+nickname = "toy"
+
+[trainers.UMBTERRA.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.UMBTERRA.0.pokemon]]
+internal_name = "SWAMPERT"
+level = 120
+raw_item = "TELLURICSEED"
+raw_moves = [
+    "FOCUSBLAST",
+    "SURF",
+    "MUDBOMB",
+    "HIDDENPOWERFIR",
+]
+sex = "F"
+nature = "MODEST"
+iv = 31
+nickname = "mudkip"
+
+[trainers.UMBTERRA.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.UMBTERRA.0.pokemon]]
+internal_name = "QUAGSIRE"
+level = 120
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "MUDBOMB",
+    "SURF",
+    "RECOVER",
+    "TOXIC",
+]
+ability_number = 2
+sex = "F"
+nature = "CALM"
+iv = 31
+nickname = ":)"
+
+[trainers.UMBTERRA.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.UMBTERRA.0.pokemon]]
+internal_name = "GARCHOMP"
+level = 120
+raw_item = "GARCHOMPITE"
+raw_moves = [
+    "STRENGTH",
+    "STONEEDGE",
+    "DRAGONCLAW",
+    "EARTHQUAKE",
+]
+sex = "F"
+nature = "ADAMANT"
+iv = 31
+nickname = "bite"
+
+[trainers.UMBTERRA.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[trainers.ANAMTERRA.0]
 raw_trainer_class = "ANAMTERRA"
 battler_name = "Terra"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.ANAMTERRA.0.pokemon]]
 internal_name = "LYCANROC"
 level = 150
 raw_item = "LIFEORB"
@@ -18,7 +165,7 @@ form_number = 2
 nature = "JOLLY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.ANAMTERRA.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -26,7 +173,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.ANAMTERRA.0.pokemon]]
 internal_name = "LANDORUS"
 level = 150
 raw_item = "SYNTHETICSEED"
@@ -41,7 +188,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.ANAMTERRA.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -49,7 +196,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.ANAMTERRA.0.pokemon]]
 internal_name = "ALTARIA"
 level = 150
 raw_item = "ALTARIANITE"
@@ -63,7 +210,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.ANAMTERRA.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -71,7 +218,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.ANAMTERRA.0.pokemon]]
 internal_name = "MELOETTA"
 level = 150
 raw_item = "SYNTHETICSEED"
@@ -87,7 +234,7 @@ nature = "JOLLY"
 iv = 31
 happiness = 255
 
-[trainers.0.pokemon.evs]
+[trainers.ANAMTERRA.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -95,7 +242,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.ANAMTERRA.0.pokemon]]
 internal_name = "KOMMOO"
 level = 150
 raw_item = "SYNTHETICSEED"
@@ -110,7 +257,7 @@ sex = ""
 nature = "NAIVE"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.ANAMTERRA.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -118,7 +265,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.ANAMTERRA.0.pokemon]]
 internal_name = "XERNEAS"
 level = 150
 raw_item = "SYNTHETICSEED"
@@ -132,7 +279,7 @@ sex = ""
 nature = "HASTY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.ANAMTERRA.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -140,13 +287,13 @@ spa = 252
 spd = 252
 spe = 252
 
-[trainers.10]
+[trainers.TERRA.10]
 raw_trainer_class = "TERRA"
 battler_name = "Terra"
 battler_id = 10
 raw_battle_items = []
 
-[[trainers.10.pokemon]]
+[[trainers.TERRA.10.pokemon]]
 internal_name = "HIPPOWDON"
 level = 100
 raw_item = "TELLURICSEED"
@@ -162,7 +309,7 @@ nature = "CAREFUL"
 iv = 31
 nickname = "HIPHOPOTAMUS"
 
-[trainers.10.pokemon.evs]
+[trainers.TERRA.10.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -170,7 +317,7 @@ spa = 0
 spd = 0
 spe = 128
 
-[[trainers.10.pokemon]]
+[[trainers.TERRA.10.pokemon]]
 internal_name = "FLYGON"
 level = 100
 raw_item = "CHOICESCARF"
@@ -185,7 +332,7 @@ nature = "LONELY"
 iv = 31
 nickname = "FLYGONDEEZ"
 
-[trainers.10.pokemon.evs]
+[trainers.TERRA.10.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -193,7 +340,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.TERRA.10.pokemon]]
 internal_name = "LANDORUS"
 level = 100
 raw_item = "LIFEORB"
@@ -208,7 +355,7 @@ nature = "JOLLY"
 iv = 31
 nickname = "STEVE"
 
-[trainers.10.pokemon.evs]
+[trainers.TERRA.10.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -216,7 +363,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.TERRA.10.pokemon]]
 internal_name = "EXCADRILL"
 level = 100
 raw_item = "LIFEORB"
@@ -231,7 +378,7 @@ nature = "ADAMANT"
 iv = 31
 nickname = "EXCAKILL"
 
-[trainers.10.pokemon.evs]
+[trainers.TERRA.10.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -239,7 +386,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.TERRA.10.pokemon]]
 internal_name = "GARCHOMP"
 level = 100
 raw_item = "GARCHOMPITE"
@@ -254,7 +401,7 @@ nature = "JOLLY"
 iv = 31
 nickname = "RAWRCHOMP"
 
-[trainers.10.pokemon.evs]
+[trainers.TERRA.10.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -262,7 +409,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.TERRA.10.pokemon]]
 internal_name = "GLISCOR"
 level = 100
 raw_item = "TOXICORB"
@@ -278,7 +425,7 @@ nature = "JOLLY"
 iv = 31
 nickname = "GLISWHORE"
 
-[trainers.10.pokemon.evs]
+[trainers.TERRA.10.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -286,13 +433,13 @@ spa = 252
 spd = 0
 spe = 0
 
-[trainers.11]
+[trainers.TERRA.11]
 raw_trainer_class = "TERRA"
 battler_name = "Terra"
 battler_id = 11
 raw_battle_items = []
 
-[[trainers.11.pokemon]]
+[[trainers.TERRA.11.pokemon]]
 internal_name = "HIPPOWDON"
 level = 100
 raw_item = "TELLURICSEED"
@@ -308,7 +455,7 @@ nature = "CAREFUL"
 iv = 31
 nickname = "HIPHOPOTAMUS"
 
-[trainers.11.pokemon.evs]
+[trainers.TERRA.11.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -316,7 +463,7 @@ spa = 0
 spd = 0
 spe = 128
 
-[[trainers.11.pokemon]]
+[[trainers.TERRA.11.pokemon]]
 internal_name = "LANDORUS"
 level = 100
 raw_item = "LIFEORB"
@@ -331,7 +478,7 @@ nature = "JOLLY"
 iv = 31
 nickname = "STEVE"
 
-[trainers.11.pokemon.evs]
+[trainers.TERRA.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -339,7 +486,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.TERRA.11.pokemon]]
 internal_name = "EXCADRILL"
 level = 100
 raw_item = "LIFEORB"
@@ -354,7 +501,7 @@ nature = "ADAMANT"
 iv = 31
 nickname = "EXCAKILL"
 
-[trainers.11.pokemon.evs]
+[trainers.TERRA.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -362,7 +509,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.TERRA.11.pokemon]]
 internal_name = "GARCHOMP"
 level = 100
 raw_item = "GARCHOMPITE"
@@ -377,7 +524,7 @@ nature = "JOLLY"
 iv = 31
 nickname = "RAWRCHOMP"
 
-[trainers.11.pokemon.evs]
+[trainers.TERRA.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -385,7 +532,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.TERRA.11.pokemon]]
 internal_name = "GROUDON"
 level = 100
 raw_item = "REDORB"
@@ -400,7 +547,7 @@ nature = "MILD"
 iv = 31
 nickname = "POUNDON"
 
-[trainers.11.pokemon.evs]
+[trainers.TERRA.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -408,7 +555,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.TERRA.11.pokemon]]
 internal_name = "ZYGARDE"
 level = 100
 raw_item = "TELLURICSEED"
@@ -423,7 +570,7 @@ nature = "ADAMANT"
 iv = 31
 nickname = "MEGAZ0RD"
 
-[trainers.11.pokemon.evs]
+[trainers.TERRA.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -431,13 +578,13 @@ spa = 252
 spd = 0
 spe = 0
 
-[trainers.12]
+[trainers.TERRA.12]
 raw_trainer_class = "TERRA"
 battler_name = "Terra"
 battler_id = 12
 raw_battle_items = []
 
-[[trainers.12.pokemon]]
+[[trainers.TERRA.12.pokemon]]
 internal_name = "GLISCOR"
 level = 100
 raw_item = "ELEMENTALSEED"
@@ -452,7 +599,7 @@ nature = "JOLLY"
 iv = 31
 nickname = "GLISWHORE"
 
-[trainers.12.pokemon.evs]
+[trainers.TERRA.12.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -460,7 +607,7 @@ spa = 252
 spd = 0
 spe = 128
 
-[[trainers.12.pokemon]]
+[[trainers.TERRA.12.pokemon]]
 internal_name = "NIDOQUEEN"
 level = 100
 raw_item = "ELEMENTALSEED"
@@ -476,7 +623,7 @@ nature = "TIMID"
 iv = 31
 nickname = "GlOVANl"
 
-[trainers.12.pokemon.evs]
+[trainers.TERRA.12.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -484,7 +631,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.TERRA.12.pokemon]]
 internal_name = "NIDOKING"
 level = 100
 raw_item = "ELEMENTALSEED"
@@ -500,7 +647,7 @@ nature = "TIMID"
 iv = 31
 nickname = "GIOVANNI"
 
-[trainers.12.pokemon.evs]
+[trainers.TERRA.12.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -508,7 +655,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.TERRA.12.pokemon]]
 internal_name = "STEELIX"
 level = 100
 raw_item = "STEELIXITE"
@@ -523,7 +670,7 @@ nature = "BRAVE"
 iv = 32
 nickname = "YOUR MOM"
 
-[trainers.12.pokemon.evs]
+[trainers.TERRA.12.pokemon.evs]
 hp = 0
 atk = 128
 def_ = 252
@@ -531,7 +678,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.TERRA.12.pokemon]]
 internal_name = "EXCADRILL"
 level = 100
 raw_item = "ELEMENTALSEED"
@@ -546,7 +693,7 @@ nature = "ADAMANT"
 iv = 31
 nickname = "EXCAKILL"
 
-[trainers.12.pokemon.evs]
+[trainers.TERRA.12.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -554,7 +701,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.TERRA.12.pokemon]]
 internal_name = "DUGTRIO"
 level = 100
 raw_item = "ELEMENTALSEED"
@@ -570,7 +717,7 @@ nature = "ADAMANT"
 iv = 31
 nickname = "3MEN1HOLE"
 
-[trainers.12.pokemon.evs]
+[trainers.TERRA.12.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -578,13 +725,13 @@ spa = 252
 spd = 0
 spe = 0
 
-[trainers.13]
+[trainers.TERRA.13]
 raw_trainer_class = "TERRA"
 battler_name = "Terra"
 battler_id = 13
 raw_battle_items = []
 
-[[trainers.13.pokemon]]
+[[trainers.TERRA.13.pokemon]]
 internal_name = "PALOSSAND"
 level = 100
 raw_item = "LEFTOVERS"
@@ -599,7 +746,7 @@ nature = "MODEST"
 iv = 31
 nickname = "GIVE SANDY"
 
-[trainers.13.pokemon.evs]
+[trainers.TERRA.13.pokemon.evs]
 hp = 0
 atk = 128
 def_ = 0
@@ -607,7 +754,7 @@ spa = 0
 spd = 252
 spe = 0
 
-[[trainers.13.pokemon]]
+[[trainers.TERRA.13.pokemon]]
 internal_name = "GASTRODON"
 level = 100
 raw_item = "LEFTOVERS"
@@ -622,7 +769,7 @@ nature = "MODEST"
 iv = 31
 nickname = "GASTRODONG"
 
-[trainers.13.pokemon.evs]
+[trainers.TERRA.13.pokemon.evs]
 hp = 0
 atk = 128
 def_ = 0
@@ -630,7 +777,7 @@ spa = 0
 spd = 252
 spe = 0
 
-[[trainers.13.pokemon]]
+[[trainers.TERRA.13.pokemon]]
 internal_name = "EXCADRILL"
 level = 100
 raw_item = "LIFEORB"
@@ -645,7 +792,7 @@ nature = "ADAMANT"
 iv = 31
 nickname = "EXCAKILL"
 
-[trainers.13.pokemon.evs]
+[trainers.TERRA.13.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -653,7 +800,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.13.pokemon]]
+[[trainers.TERRA.13.pokemon]]
 internal_name = "LANDORUS"
 level = 100
 raw_item = "LIFEORB"
@@ -668,7 +815,7 @@ nature = "MODEST"
 iv = 31
 nickname = "STEVE"
 
-[trainers.13.pokemon.evs]
+[trainers.TERRA.13.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -676,7 +823,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.13.pokemon]]
+[[trainers.TERRA.13.pokemon]]
 internal_name = "GARCHOMP"
 level = 100
 raw_item = "GARCHOMPITE"
@@ -691,7 +838,7 @@ nature = "JOLLY"
 iv = 31
 nickname = "RAWRCHOMP"
 
-[trainers.13.pokemon.evs]
+[trainers.TERRA.13.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -699,7 +846,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.13.pokemon]]
+[[trainers.TERRA.13.pokemon]]
 internal_name = "ZYGARDE"
 level = 100
 raw_item = "TELLURICSEED"
@@ -714,7 +861,7 @@ nature = "ADAMANT"
 iv = 31
 nickname = "MEGAZ0RD"
 
-[trainers.13.pokemon.evs]
+[trainers.TERRA.13.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -722,13 +869,13 @@ spa = 252
 spd = 0
 spe = 0
 
-[trainers.14]
+[trainers.TERRA.14]
 raw_trainer_class = "TERRA"
 battler_name = "Terra"
 battler_id = 14
 raw_battle_items = []
 
-[[trainers.14.pokemon]]
+[[trainers.TERRA.14.pokemon]]
 internal_name = "SEISMITOAD"
 level = 100
 raw_item = "FOCUSSASH"
@@ -744,7 +891,7 @@ nature = "MODEST"
 iv = 31
 nickname = "SWAMPERT"
 
-[trainers.14.pokemon.evs]
+[trainers.TERRA.14.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -752,7 +899,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.14.pokemon]]
+[[trainers.TERRA.14.pokemon]]
 internal_name = "SWAMPERT"
 level = 100
 raw_item = "SWAMPERTITE"
@@ -767,7 +914,7 @@ nature = "ADAMANT"
 iv = 31
 nickname = "PIKACHU"
 
-[trainers.14.pokemon.evs]
+[trainers.TERRA.14.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -775,7 +922,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.14.pokemon]]
+[[trainers.TERRA.14.pokemon]]
 internal_name = "QUAGSIRE"
 level = 100
 raw_item = "LEFTOVERS"
@@ -791,7 +938,7 @@ nature = "BOLD"
 iv = 31
 nickname = "SWAGSIRE"
 
-[trainers.14.pokemon.evs]
+[trainers.TERRA.14.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -799,7 +946,7 @@ spa = 0
 spd = 0
 spe = 252
 
-[[trainers.14.pokemon]]
+[[trainers.TERRA.14.pokemon]]
 internal_name = "WHISCASH"
 level = 100
 raw_item = "RINDOBERRY"
@@ -815,7 +962,7 @@ nature = "JOLLY"
 iv = 31
 nickname = "CASHMONEY"
 
-[trainers.14.pokemon.evs]
+[trainers.TERRA.14.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -823,7 +970,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.14.pokemon]]
+[[trainers.TERRA.14.pokemon]]
 internal_name = "GASTRODON"
 level = 100
 raw_item = "LEFTOVERS"
@@ -839,7 +986,7 @@ nature = "MODEST"
 iv = 31
 nickname = "GASTRODONG"
 
-[trainers.14.pokemon.evs]
+[trainers.TERRA.14.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -847,7 +994,7 @@ spa = 0
 spd = 252
 spe = 4
 
-[[trainers.14.pokemon]]
+[[trainers.TERRA.14.pokemon]]
 internal_name = "GROUDON"
 level = 100
 raw_item = "REDORB"
@@ -863,7 +1010,7 @@ nature = "MILD"
 iv = 31
 nickname = "KYOGRE"
 
-[trainers.14.pokemon.evs]
+[trainers.TERRA.14.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -871,13 +1018,13 @@ spa = 252
 spd = 0
 spe = 0
 
-[trainers.15]
+[trainers.TERRA.15]
 raw_trainer_class = "TERRA"
 battler_name = "Terra"
 battler_id = 15
 raw_battle_items = []
 
-[[trainers.15.pokemon]]
+[[trainers.TERRA.15.pokemon]]
 internal_name = "ZYGARDE"
 level = 100
 raw_item = "LEFTOVERS"
@@ -892,7 +1039,7 @@ nature = "RASH"
 iv = 31
 nickname = "MEGAZORD"
 
-[trainers.15.pokemon.evs]
+[trainers.TERRA.15.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 168
@@ -900,7 +1047,7 @@ spa = 88
 spd = 252
 spe = 0
 
-[[trainers.15.pokemon]]
+[[trainers.TERRA.15.pokemon]]
 internal_name = "LANDORUS"
 level = 100
 raw_item = "POWERHERB"
@@ -916,7 +1063,7 @@ nature = "JOLLY"
 iv = 31
 nickname = "STEVE"
 
-[trainers.15.pokemon.evs]
+[trainers.TERRA.15.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -924,7 +1071,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.15.pokemon]]
+[[trainers.TERRA.15.pokemon]]
 internal_name = "GLISCOR"
 level = 100
 raw_item = "TOXICORB"
@@ -940,7 +1087,7 @@ nature = "IMPISH"
 iv = 31
 nickname = "GLISWHORE"
 
-[trainers.15.pokemon.evs]
+[trainers.TERRA.15.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 200
@@ -948,7 +1095,7 @@ spa = 56
 spd = 0
 spe = 0
 
-[[trainers.15.pokemon]]
+[[trainers.TERRA.15.pokemon]]
 internal_name = "MAROWAK"
 level = 100
 raw_item = "THICKCLUB"
@@ -963,7 +1110,7 @@ nature = "JOLLY"
 iv = 31
 nickname = "GET BONED"
 
-[trainers.15.pokemon.evs]
+[trainers.TERRA.15.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -971,7 +1118,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.15.pokemon]]
+[[trainers.TERRA.15.pokemon]]
 internal_name = "GARCHOMP"
 level = 100
 raw_item = "ROCKYHELMET"
@@ -987,7 +1134,7 @@ nature = "JOLLY"
 iv = 31
 nickname = "RAWRCHOMP"
 
-[trainers.15.pokemon.evs]
+[trainers.TERRA.15.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -995,7 +1142,7 @@ spa = 252
 spd = 0
 spe = 4
 
-[[trainers.15.pokemon]]
+[[trainers.TERRA.15.pokemon]]
 internal_name = "SEISMITOAD"
 level = 100
 raw_item = "SYNTHETICSEED"
@@ -1010,7 +1157,7 @@ nature = "MILD"
 iv = 31
 nickname = "SWAMPERT"
 
-[trainers.15.pokemon.evs]
+[trainers.TERRA.15.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 200

@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Nova"
+
+[trainers.AceTrainerF.0]
 raw_trainer_class = "AceTrainerF"
 battler_name = "Nova"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.AceTrainerF.0.pokemon]]
 internal_name = "ARCANINE"
 level = 70
 raw_moves = [
@@ -14,7 +16,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.AceTrainerF.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

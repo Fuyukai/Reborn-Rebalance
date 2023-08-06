@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Predators"
+
+[trainers.PREDATORS.0]
 raw_trainer_class = "PREDATORS"
 battler_name = "Predators"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.PREDATORS.0.pokemon]]
 internal_name = "HUNTAIL"
 level = 78
 raw_item = "WHITEHERB"
@@ -16,7 +18,7 @@ raw_moves = [
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.PREDATORS.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -24,7 +26,7 @@ spa = 4
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.PREDATORS.0.pokemon]]
 internal_name = "GOREBYSS"
 level = 78
 raw_item = "BRIGHTPOWDER"
@@ -38,7 +40,7 @@ sex = "F"
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.PREDATORS.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0

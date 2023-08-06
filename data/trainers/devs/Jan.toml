@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Jan"
+
+[trainers.JAN.0]
 raw_trainer_class = "JAN"
 battler_name = "Jan"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.JAN.0.pokemon]]
 internal_name = "BANETTE"
 level = 100
 raw_item = "LEFTOVERS"
@@ -19,7 +21,7 @@ is_shiny = true
 nature = "NAUGHTY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.JAN.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -27,7 +29,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.JAN.0.pokemon]]
 internal_name = "GENGAR"
 level = 100
 raw_item = "SYNTHETICSEED"
@@ -43,7 +45,7 @@ is_shiny = true
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.JAN.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -51,7 +53,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.JAN.0.pokemon]]
 internal_name = "DUSKNOIR"
 level = 100
 raw_item = "ASSAULTVEST"
@@ -66,7 +68,7 @@ is_shiny = true
 nature = "CAREFUL"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.JAN.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -74,7 +76,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.JAN.0.pokemon]]
 internal_name = "GIRATINA"
 level = 100
 raw_item = "GHOSTIUMZ2"
@@ -89,7 +91,7 @@ is_shiny = true
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.JAN.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -97,7 +99,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.JAN.0.pokemon]]
 internal_name = "BLACEPHALON"
 level = 100
 raw_item = "LIFEORB"
@@ -112,7 +114,7 @@ is_shiny = true
 nature = "RASH"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.JAN.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -120,7 +122,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.JAN.0.pokemon]]
 internal_name = "CORSOLA"
 level = 100
 raw_item = "SYNTHETICSEED"
@@ -137,7 +139,7 @@ nature = "ADAMANT"
 iv = 31
 nickname = "Carrie"
 
-[trainers.0.pokemon.evs]
+[trainers.JAN.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252

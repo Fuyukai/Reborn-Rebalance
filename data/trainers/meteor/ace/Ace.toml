@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Ace"
+
+[trainers.UMBACE.0]
 raw_trainer_class = "UMBACE"
 battler_name = "Ace"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.UMBACE.0.pokemon]]
 internal_name = "LATIAS"
 level = 135
 raw_item = "EJECTBUTTON"
@@ -17,7 +19,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.UMBACE.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -25,7 +27,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.UMBACE.0.pokemon]]
 internal_name = "LATIOS"
 level = 135
 raw_item = "SOULDEW"
@@ -39,7 +41,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.UMBACE.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -47,7 +49,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.UMBACE.0.pokemon]]
 internal_name = "MESPRIT"
 level = 135
 raw_item = "MAGICALSEED"
@@ -61,7 +63,7 @@ sex = ""
 nature = "MILD"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.UMBACE.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -69,7 +71,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.UMBACE.0.pokemon]]
 internal_name = "HOOPA"
 level = 135
 raw_item = "MAGICALSEED"
@@ -83,7 +85,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.UMBACE.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -91,7 +93,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.UMBACE.0.pokemon]]
 internal_name = "SABLEYE"
 level = 135
 raw_item = "SABLENITE"
@@ -106,7 +108,7 @@ sex = ""
 nature = "CALM"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.UMBACE.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -114,7 +116,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.UMBACE.0.pokemon]]
 internal_name = "ZOROARK"
 level = 135
 raw_item = "DARKINIUMZ2"
@@ -129,7 +131,7 @@ nature = "TIMID"
 iv = 31
 happiness = 255
 
-[trainers.0.pokemon.evs]
+[trainers.UMBACE.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252

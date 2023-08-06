@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Santiago"
+
+[trainers.CUEBALL.0]
 raw_trainer_class = "CUEBALL"
 battler_name = "Santiago"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.CUEBALL.0.pokemon]]
 internal_name = "AZUMARILL"
 level = 79
 raw_moves = [
@@ -17,7 +19,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.CUEBALL.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -25,7 +27,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.CUEBALL.0.pokemon]]
 internal_name = "SYLVEON"
 level = 80
 raw_moves = [
@@ -39,7 +41,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.CUEBALL.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -47,7 +49,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.CUEBALL.0.pokemon]]
 internal_name = "LOPUNNY"
 level = 82
 raw_item = "SITRUSBERRY"
@@ -62,7 +64,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.CUEBALL.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -70,13 +72,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.1000]
+[trainers.CUEBALL.1000]
 raw_trainer_class = "CUEBALL"
 battler_name = "Santiago"
 battler_id = 1000
 raw_battle_items = []
 
-[[trainers.1000.pokemon]]
+[[trainers.CUEBALL.1000.pokemon]]
 internal_name = "SYLVEON"
 level = 100
 raw_item = "LEFTOVERS"
@@ -91,7 +93,7 @@ sex = "F"
 nature = "CALM"
 iv = 31
 
-[trainers.1000.pokemon.evs]
+[trainers.CUEBALL.1000.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -99,7 +101,7 @@ spa = 0
 spd = 4
 spe = 252
 
-[[trainers.1000.pokemon]]
+[[trainers.CUEBALL.1000.pokemon]]
 internal_name = "AZUMARILL"
 level = 100
 raw_item = "SITRUSBERRY"
@@ -113,7 +115,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.1000.pokemon.evs]
+[trainers.CUEBALL.1000.pokemon.evs]
 hp = 0
 atk = 8
 def_ = 252
@@ -121,7 +123,7 @@ spa = 0
 spd = 0
 spe = 125
 
-[[trainers.1000.pokemon]]
+[[trainers.CUEBALL.1000.pokemon]]
 internal_name = "JIRACHI"
 level = 100
 raw_item = "LEFTOVERS"
@@ -135,7 +137,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.1000.pokemon.evs]
+[trainers.CUEBALL.1000.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0

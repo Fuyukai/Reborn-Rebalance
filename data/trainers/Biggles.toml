@@ -1,10 +1,12 @@
-[trainers.1000]
+trainer_name = "Biggles"
+
+[trainers.LAHVER.1000]
 raw_trainer_class = "LAHVER"
 battler_name = "Biggles"
 battler_id = 1000
 raw_battle_items = []
 
-[[trainers.1000.pokemon]]
+[[trainers.LAHVER.1000.pokemon]]
 internal_name = "FERROTHORN"
 level = 100
 raw_item = "LEFTOVERS"
@@ -18,7 +20,7 @@ sex = ""
 nature = "CAREFUL"
 iv = 31
 
-[trainers.1000.pokemon.evs]
+[trainers.LAHVER.1000.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -26,7 +28,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1000.pokemon]]
+[[trainers.LAHVER.1000.pokemon]]
 internal_name = "GOODRA"
 level = 100
 raw_item = "CHOICESCARF"
@@ -40,7 +42,7 @@ sex = ""
 nature = "HASTY"
 iv = 31
 
-[trainers.1000.pokemon.evs]
+[trainers.LAHVER.1000.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -48,7 +50,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.1000.pokemon]]
+[[trainers.LAHVER.1000.pokemon]]
 internal_name = "GARBODOR"
 level = 100
 raw_item = "ROCKYHELMET"
@@ -63,7 +65,7 @@ nature = "ADAMANT"
 iv = 31
 nickname = "Mr.Biggles"
 
-[trainers.1000.pokemon.evs]
+[trainers.LAHVER.1000.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252

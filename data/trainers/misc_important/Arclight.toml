@@ -1,4 +1,6 @@
-[trainers.0]
+trainer_name = "Arclight"
+
+[trainers.ARCLIGHT.0]
 raw_trainer_class = "ARCLIGHT"
 battler_name = "Arclight"
 raw_battle_items = [
@@ -6,7 +8,7 @@ raw_battle_items = [
     "HYPERPOTION",
 ]
 
-[[trainers.0.pokemon]]
+[[trainers.ARCLIGHT.0.pokemon]]
 internal_name = "LUXRAY"
 level = 75
 raw_item = "AMPLIFIELDROCK"
@@ -20,7 +22,7 @@ ability_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.ARCLIGHT.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -28,7 +30,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.ARCLIGHT.0.pokemon]]
 internal_name = "RAICHU"
 level = 76
 raw_item = "WISEGLASSES"
@@ -42,7 +44,7 @@ ability_number = 1
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.ARCLIGHT.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 4
@@ -50,7 +52,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.ARCLIGHT.0.pokemon]]
 internal_name = "EXPLOUD"
 level = 75
 raw_item = "SITRUSBERRY"
@@ -63,7 +65,7 @@ raw_moves = [
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.ARCLIGHT.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 52
@@ -71,7 +73,7 @@ spa = 0
 spd = 200
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.ARCLIGHT.0.pokemon]]
 internal_name = "NOIVERN"
 level = 77
 raw_item = "WIDELENS"
@@ -85,7 +87,7 @@ ability_number = 1
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.ARCLIGHT.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -93,7 +95,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.ARCLIGHT.0.pokemon]]
 internal_name = "JOLTEON"
 level = 78
 raw_item = "PETAYABERRY"
@@ -106,7 +108,7 @@ raw_moves = [
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.ARCLIGHT.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -114,7 +116,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.ARCLIGHT.0.pokemon]]
 internal_name = "AMPHAROS"
 level = 79
 raw_item = "AMPHAROSITE"
@@ -128,7 +130,7 @@ sex = "F"
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.ARCLIGHT.0.pokemon.evs]
 hp = 0
 atk = 32
 def_ = 0
@@ -136,13 +138,13 @@ spa = 224
 spd = 252
 spe = 0
 
-[trainers.1]
+[trainers.ARCLIGHT.1]
 raw_trainer_class = "ARCLIGHT"
 battler_name = "Arclight"
 battler_id = 1
 raw_battle_items = []
 
-[[trainers.1.pokemon]]
+[[trainers.ARCLIGHT.1.pokemon]]
 internal_name = "JOLTEON"
 level = 77
 raw_moves = [
@@ -154,7 +156,7 @@ raw_moves = [
 nature = "MODEST"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.ARCLIGHT.1.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -162,7 +164,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.ARCLIGHT.1.pokemon]]
 internal_name = "LUXRAY"
 level = 75
 raw_item = "AMPLIFIELDROCK"
@@ -176,7 +178,7 @@ ability_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.ARCLIGHT.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -184,7 +186,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.ARCLIGHT.1.pokemon]]
 internal_name = "RAICHU"
 level = 75
 raw_item = "WISEGLASSES"
@@ -198,7 +200,7 @@ ability_number = 1
 nature = "MODEST"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.ARCLIGHT.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 4
@@ -206,7 +208,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.ARCLIGHT.1.pokemon]]
 internal_name = "EXPLOUD"
 level = 75
 raw_moves = [
@@ -218,7 +220,7 @@ raw_moves = [
 nature = "MODEST"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.ARCLIGHT.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 52
@@ -226,7 +228,7 @@ spa = 0
 spd = 200
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.ARCLIGHT.1.pokemon]]
 internal_name = "NOIVERN"
 level = 76
 raw_item = "WIDELENS"
@@ -240,7 +242,7 @@ ability_number = 1
 nature = "MODEST"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.ARCLIGHT.1.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -248,7 +250,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.ARCLIGHT.1.pokemon]]
 internal_name = "AMPHAROS"
 level = 78
 raw_item = "AMPHAROSITE"
@@ -262,7 +264,7 @@ sex = "F"
 nature = "MODEST"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.ARCLIGHT.1.pokemon.evs]
 hp = 0
 atk = 32
 def_ = 0
@@ -270,13 +272,13 @@ spa = 224
 spd = 252
 spe = 0
 
-[trainers.2]
+[trainers.ARCLIGHT.2]
 raw_trainer_class = "ARCLIGHT"
 battler_name = "Arclight"
 battler_id = 2
 raw_battle_items = []
 
-[[trainers.2.pokemon]]
+[[trainers.ARCLIGHT.2.pokemon]]
 internal_name = "JOLTEON"
 level = 130
 raw_item = "LIFEORB"
@@ -289,7 +291,7 @@ raw_moves = [
 nature = "MODEST"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.ARCLIGHT.2.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -297,7 +299,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.ARCLIGHT.2.pokemon]]
 internal_name = "XURKITREE"
 level = 128
 raw_item = "LIFEORB"
@@ -311,7 +313,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.ARCLIGHT.2.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -319,7 +321,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.ARCLIGHT.2.pokemon]]
 internal_name = "RAICHU"
 level = 128
 raw_item = "WISEGLASSES"
@@ -334,7 +336,7 @@ form_number = 1
 nature = "MODEST"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.ARCLIGHT.2.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 4
@@ -342,7 +344,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.ARCLIGHT.2.pokemon]]
 internal_name = "EXPLOUD"
 level = 127
 raw_item = "ASSAULTVEST"
@@ -355,7 +357,7 @@ raw_moves = [
 nature = "MODEST"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.ARCLIGHT.2.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 52
@@ -363,7 +365,7 @@ spa = 0
 spd = 200
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.ARCLIGHT.2.pokemon]]
 internal_name = "NOIVERN"
 level = 127
 raw_item = "WIDELENS"
@@ -377,7 +379,7 @@ ability_number = 1
 nature = "MODEST"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.ARCLIGHT.2.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -385,7 +387,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.ARCLIGHT.2.pokemon]]
 internal_name = "AMPHAROS"
 level = 130
 raw_item = "AMPHAROSITE"
@@ -399,7 +401,7 @@ sex = "F"
 nature = "MODEST"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.ARCLIGHT.2.pokemon.evs]
 hp = 0
 atk = 32
 def_ = 0
@@ -407,13 +409,291 @@ spa = 224
 spd = 252
 spe = 0
 
-[trainers.10]
+[trainers.ARCLIGHT.20]
+raw_trainer_class = "ARCLIGHT"
+battler_name = "Arclight"
+battler_id = 20
+raw_battle_items = [
+    "HYPERPOTION",
+    "HYPERPOTION",
+]
+
+[[trainers.ARCLIGHT.20.pokemon]]
+internal_name = "LUXRAY"
+level = 75
+raw_item = "AMPLIFIELDROCK"
+raw_moves = [
+    "ELECTRICTERRAIN",
+    "WILDCHARGE",
+    "SUPERPOWER",
+    "THROATCHOP",
+]
+ability_number = 1
+nature = "ADAMANT"
+iv = 31
+
+[trainers.ARCLIGHT.20.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.ARCLIGHT.20.pokemon]]
+internal_name = "TOXTRICITY"
+level = 76
+raw_item = "THROATSPRAY"
+raw_moves = [
+    "SLUDGEWAVE",
+    "OVERDRIVE",
+    "SNARL",
+    "BOOMBURST",
+]
+form_number = 1
+nature = "TIMID"
+iv = 31
+
+[trainers.ARCLIGHT.20.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4
+
+[[trainers.ARCLIGHT.20.pokemon]]
+internal_name = "NOIVERN"
+level = 77
+raw_item = "WIDELENS"
+raw_moves = [
+    "DRAGONPULSE",
+    "BOOMBURST",
+    "HURRICANE",
+    "HEATWAVE",
+]
+ability_number = 1
+nature = "MODEST"
+iv = 31
+
+[trainers.ARCLIGHT.20.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.ARCLIGHT.20.pokemon]]
+internal_name = "JOLTEON"
+level = 78
+raw_item = "PETAYABERRY"
+raw_moves = [
+    "SHADOWBALL",
+    "SIGNALBEAM",
+    "HIDDENPOWERICE",
+    "DISCHARGE",
+]
+ability_number = 1
+nature = "MODEST"
+iv = 31
+
+[trainers.ARCLIGHT.20.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.ARCLIGHT.20.pokemon]]
+internal_name = "ELECTRODE"
+level = 75
+raw_item = "LIFEORB"
+raw_moves = [
+    "EXPLOSION",
+    "CHLOROBLAST",
+    "THUNDERBOLT",
+    "EERIEIMPULSE",
+]
+ability_number = 2
+sex = ""
+form_number = 1
+nature = "MODEST"
+iv = 31
+
+[trainers.ARCLIGHT.20.pokemon.evs]
+hp = 0
+atk = 32
+def_ = 0
+spa = 224
+spd = 252
+spe = 0
+
+[[trainers.ARCLIGHT.20.pokemon]]
+internal_name = "EXPLOUD"
+level = 79
+raw_item = "EXPLOUDITE"
+raw_moves = [
+    "BOOMBURST",
+    "ICEBEAM",
+    "OVERDRIVE",
+    "SURF",
+]
+nature = "MODEST"
+iv = 31
+
+[trainers.ARCLIGHT.20.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 56
+spd = 200
+spe = 0
+
+[trainers.ARCLIGHT.21]
+raw_trainer_class = "ARCLIGHT"
+battler_name = "Arclight"
+battler_id = 21
+raw_battle_items = []
+
+[[trainers.ARCLIGHT.21.pokemon]]
+internal_name = "JOLTEON"
+level = 77
+raw_moves = [
+    "SHADOWBALL",
+    "SIGNALBEAM",
+    "HIDDENPOWERICE",
+    "DISCHARGE",
+]
+nature = "MODEST"
+iv = 31
+
+[trainers.ARCLIGHT.21.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.ARCLIGHT.21.pokemon]]
+internal_name = "LUXRAY"
+level = 75
+raw_item = "AMPLIFIELDROCK"
+raw_moves = [
+    "ELECTRICTERRAIN",
+    "WILDCHARGE",
+    "SUPERPOWER",
+    "THROATCHOP",
+]
+ability_number = 1
+nature = "ADAMANT"
+iv = 31
+
+[trainers.ARCLIGHT.21.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.ARCLIGHT.21.pokemon]]
+internal_name = "TOXTRICITY"
+level = 76
+raw_item = "THROATSPRAY"
+raw_moves = [
+    "SLUDGEWAVE",
+    "OVERDRIVE",
+    "SNARL",
+    "BOOMBURST",
+]
+nature = "TIMID"
+iv = 31
+
+[trainers.ARCLIGHT.21.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4
+
+[[trainers.ARCLIGHT.21.pokemon]]
+internal_name = "NOIVERN"
+level = 76
+raw_item = "WIDELENS"
+raw_moves = [
+    "DRAGONPULSE",
+    "BOOMBURST",
+    "HURRICANE",
+    "HEATWAVE",
+]
+ability_number = 1
+nature = "MODEST"
+iv = 31
+
+[trainers.ARCLIGHT.21.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.ARCLIGHT.21.pokemon]]
+internal_name = "ELECTRODE"
+level = 75
+raw_item = "LIFEORB"
+raw_moves = [
+    "EXPLOSION",
+    "CHLOROBLAST",
+    "THUNDERBOLT",
+    "EERIEIMPULSE",
+]
+ability_number = 2
+sex = ""
+form_number = 1
+nature = "MODEST"
+iv = 31
+
+[trainers.ARCLIGHT.21.pokemon.evs]
+hp = 0
+atk = 32
+def_ = 0
+spa = 224
+spd = 252
+spe = 0
+
+[[trainers.ARCLIGHT.21.pokemon]]
+internal_name = "EXPLOUD"
+level = 78
+raw_item = "EXPLOUDITE"
+raw_moves = [
+    "BOOMBURST",
+    "ICEBEAM",
+    "OVERDRIVE",
+    "SURF",
+]
+nature = "MODEST"
+iv = 31
+
+[trainers.ARCLIGHT.21.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 200
+spe = 56
+
+[trainers.ARCLIGHT2.10]
 raw_trainer_class = "ARCLIGHT2"
 battler_name = "Arclight"
 battler_id = 10
 raw_battle_items = []
 
-[[trainers.10.pokemon]]
+[[trainers.ARCLIGHT2.10.pokemon]]
 internal_name = "EXPLOUD"
 level = 100
 raw_item = "LIFEORB"
@@ -427,7 +707,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.ARCLIGHT2.10.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -435,7 +715,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.ARCLIGHT2.10.pokemon]]
 internal_name = "KOMMOO"
 level = 100
 raw_item = "KOMMONIUMZ2"
@@ -450,7 +730,7 @@ sex = ""
 nature = "HASTY"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.ARCLIGHT2.10.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -458,7 +738,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.ARCLIGHT2.10.pokemon]]
 internal_name = "PRIMARINA"
 level = 100
 raw_item = "LIFEORB"
@@ -472,7 +752,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.ARCLIGHT2.10.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -480,7 +760,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.10.pokemon]]
+[[trainers.ARCLIGHT2.10.pokemon]]
 internal_name = "NOIVERN"
 level = 100
 raw_item = "LIFEORB"
@@ -495,7 +775,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.ARCLIGHT2.10.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -503,7 +783,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.ARCLIGHT2.10.pokemon]]
 internal_name = "MELOETTA"
 level = 100
 raw_item = "SYNTHETICSEED"
@@ -518,7 +798,7 @@ form_number = 1
 nature = "JOLLY"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.ARCLIGHT2.10.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -526,7 +806,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.ARCLIGHT2.10.pokemon]]
 internal_name = "VOLCARONA"
 level = 100
 raw_item = "WIKIBERRY"
@@ -541,7 +821,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.ARCLIGHT2.10.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -549,13 +829,13 @@ spa = 252
 spd = 252
 spe = 0
 
-[trainers.11]
+[trainers.ARCLIGHT2.11]
 raw_trainer_class = "ARCLIGHT2"
 battler_name = "Arclight"
 battler_id = 11
 raw_battle_items = []
 
-[[trainers.11.pokemon]]
+[[trainers.ARCLIGHT2.11.pokemon]]
 internal_name = "STARMIE"
 level = 100
 raw_item = "MAGICALSEED"
@@ -570,7 +850,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.ARCLIGHT2.11.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -578,7 +858,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.ARCLIGHT2.11.pokemon]]
 internal_name = "DUSKNOIR"
 level = 100
 raw_item = "AMPLIFIELDROCK"
@@ -592,7 +872,7 @@ sex = ""
 nature = "BRAVE"
 iv = 32
 
-[trainers.11.pokemon.evs]
+[trainers.ARCLIGHT2.11.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -600,7 +880,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.ARCLIGHT2.11.pokemon]]
 internal_name = "AEGISLASH"
 level = 100
 raw_item = "MAGICALSEED"
@@ -614,7 +894,7 @@ sex = ""
 nature = "BRAVE"
 iv = 32
 
-[trainers.11.pokemon.evs]
+[trainers.ARCLIGHT2.11.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -622,7 +902,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.ARCLIGHT2.11.pokemon]]
 internal_name = "DHELMISE"
 level = 100
 raw_item = "MAGICALSEED"
@@ -636,7 +916,7 @@ sex = ""
 nature = "BRAVE"
 iv = 32
 
-[trainers.11.pokemon.evs]
+[trainers.ARCLIGHT2.11.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -644,7 +924,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.ARCLIGHT2.11.pokemon]]
 internal_name = "DOUBLADE"
 level = 100
 raw_item = "EVIOLITE"
@@ -658,7 +938,7 @@ sex = ""
 nature = "BRAVE"
 iv = 32
 
-[trainers.11.pokemon.evs]
+[trainers.ARCLIGHT2.11.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -666,7 +946,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.ARCLIGHT2.11.pokemon]]
 internal_name = "DUSCLOPS"
 level = 100
 raw_item = "EVIOLITE"
@@ -680,7 +960,7 @@ sex = ""
 nature = "QUIET"
 iv = 32
 
-[trainers.11.pokemon.evs]
+[trainers.ARCLIGHT2.11.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -688,13 +968,13 @@ spa = 0
 spd = 252
 spe = 0
 
-[trainers.12]
+[trainers.ARCLIGHT2.12]
 raw_trainer_class = "ARCLIGHT2"
 battler_name = "Arclight"
 battler_id = 12
 raw_battle_items = []
 
-[[trainers.12.pokemon]]
+[[trainers.ARCLIGHT2.12.pokemon]]
 internal_name = "RAICHU"
 level = 100
 raw_item = "FOCUSSASH"
@@ -709,7 +989,7 @@ form_number = 1
 nature = "TIMID"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.ARCLIGHT2.12.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -717,7 +997,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.ARCLIGHT2.12.pokemon]]
 internal_name = "NOIVERN"
 level = 100
 raw_item = "ELEMENTALSEED"
@@ -731,7 +1011,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.ARCLIGHT2.12.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -739,7 +1019,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.ARCLIGHT2.12.pokemon]]
 internal_name = "LANTURN"
 level = 100
 raw_item = "LEFTOVERS"
@@ -753,7 +1033,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.ARCLIGHT2.12.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -761,7 +1041,7 @@ spa = 0
 spd = 252
 spe = 4
 
-[[trainers.12.pokemon]]
+[[trainers.ARCLIGHT2.12.pokemon]]
 internal_name = "PRIMARINA"
 level = 100
 raw_item = "ASSAULTVEST"
@@ -775,7 +1055,7 @@ sex = ""
 nature = "CALM"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.ARCLIGHT2.12.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -783,7 +1063,7 @@ spa = 252
 spd = 0
 spe = 4
 
-[[trainers.12.pokemon]]
+[[trainers.ARCLIGHT2.12.pokemon]]
 internal_name = "JOLTEON"
 level = 100
 raw_item = "ELEMENTALSEED"
@@ -797,7 +1077,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.ARCLIGHT2.12.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -805,7 +1085,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.ARCLIGHT2.12.pokemon]]
 internal_name = "AMPHAROS"
 level = 100
 raw_item = "AMPHAROSITE"
@@ -819,7 +1099,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.ARCLIGHT2.12.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -827,13 +1107,13 @@ spa = 0
 spd = 252
 spe = 0
 
-[trainers.13]
+[trainers.ARCLIGHT2.13]
 raw_trainer_class = "ARCLIGHT2"
 battler_name = "Arclight"
 battler_id = 13
 raw_battle_items = []
 
-[[trainers.13.pokemon]]
+[[trainers.ARCLIGHT2.13.pokemon]]
 internal_name = "MAROWAK"
 level = 100
 raw_item = "THICKCLUB"
@@ -848,7 +1128,7 @@ form_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.ARCLIGHT2.13.pokemon.evs]
 hp = 0
 atk = 204
 def_ = 252
@@ -856,7 +1136,7 @@ spa = 44
 spd = 0
 spe = 0
 
-[[trainers.13.pokemon]]
+[[trainers.ARCLIGHT2.13.pokemon]]
 internal_name = "MANECTRIC"
 level = 100
 raw_item = "MANECTITE"
@@ -870,7 +1150,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.ARCLIGHT2.13.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -878,7 +1158,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.13.pokemon]]
+[[trainers.ARCLIGHT2.13.pokemon]]
 internal_name = "MAGEARNA"
 level = 100
 raw_item = "SYNTHETICSEED"
@@ -892,7 +1172,7 @@ sex = ""
 nature = "HASTY"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.ARCLIGHT2.13.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 196
@@ -900,7 +1180,7 @@ spa = 252
 spd = 60
 spe = 0
 
-[[trainers.13.pokemon]]
+[[trainers.ARCLIGHT2.13.pokemon]]
 internal_name = "ROTOM"
 level = 100
 raw_item = "LEFTOVERS"
@@ -915,7 +1195,7 @@ form_number = 2
 nature = "CALM"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.ARCLIGHT2.13.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -923,7 +1203,7 @@ spa = 252
 spd = 0
 spe = 4
 
-[[trainers.13.pokemon]]
+[[trainers.ARCLIGHT2.13.pokemon]]
 internal_name = "ZAPDOS"
 level = 100
 raw_item = "LEFTOVERS"
@@ -937,7 +1217,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.ARCLIGHT2.13.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -945,7 +1225,7 @@ spa = 252
 spd = 4
 spe = 0
 
-[[trainers.13.pokemon]]
+[[trainers.ARCLIGHT2.13.pokemon]]
 internal_name = "JOLTEON"
 level = 100
 raw_item = "SYNTHETICSEED"
@@ -959,288 +1239,10 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.ARCLIGHT2.13.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
 spa = 252
 spd = 252
 spe = 0
-
-[trainers.20]
-raw_trainer_class = "ARCLIGHT"
-battler_name = "Arclight"
-battler_id = 20
-raw_battle_items = [
-    "HYPERPOTION",
-    "HYPERPOTION",
-]
-
-[[trainers.20.pokemon]]
-internal_name = "LUXRAY"
-level = 75
-raw_item = "AMPLIFIELDROCK"
-raw_moves = [
-    "ELECTRICTERRAIN",
-    "WILDCHARGE",
-    "SUPERPOWER",
-    "THROATCHOP",
-]
-ability_number = 1
-nature = "ADAMANT"
-iv = 31
-
-[trainers.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 252
-spa = 252
-spd = 0
-spe = 0
-
-[[trainers.20.pokemon]]
-internal_name = "TOXTRICITY"
-level = 76
-raw_item = "THROATSPRAY"
-raw_moves = [
-    "SLUDGEWAVE",
-    "OVERDRIVE",
-    "SNARL",
-    "BOOMBURST",
-]
-form_number = 1
-nature = "TIMID"
-iv = 31
-
-[trainers.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 4
-
-[[trainers.20.pokemon]]
-internal_name = "NOIVERN"
-level = 77
-raw_item = "WIDELENS"
-raw_moves = [
-    "DRAGONPULSE",
-    "BOOMBURST",
-    "HURRICANE",
-    "HEATWAVE",
-]
-ability_number = 1
-nature = "MODEST"
-iv = 31
-
-[trainers.20.pokemon.evs]
-hp = 0
-atk = 4
-def_ = 0
-spa = 252
-spd = 252
-spe = 0
-
-[[trainers.20.pokemon]]
-internal_name = "JOLTEON"
-level = 78
-raw_item = "PETAYABERRY"
-raw_moves = [
-    "SHADOWBALL",
-    "SIGNALBEAM",
-    "HIDDENPOWERICE",
-    "DISCHARGE",
-]
-ability_number = 1
-nature = "MODEST"
-iv = 31
-
-[trainers.20.pokemon.evs]
-hp = 0
-atk = 4
-def_ = 0
-spa = 252
-spd = 252
-spe = 0
-
-[[trainers.20.pokemon]]
-internal_name = "ELECTRODE"
-level = 75
-raw_item = "LIFEORB"
-raw_moves = [
-    "EXPLOSION",
-    "CHLOROBLAST",
-    "THUNDERBOLT",
-    "EERIEIMPULSE",
-]
-ability_number = 2
-sex = ""
-form_number = 1
-nature = "MODEST"
-iv = 31
-
-[trainers.20.pokemon.evs]
-hp = 0
-atk = 32
-def_ = 0
-spa = 224
-spd = 252
-spe = 0
-
-[[trainers.20.pokemon]]
-internal_name = "EXPLOUD"
-level = 79
-raw_item = "EXPLOUDITE"
-raw_moves = [
-    "BOOMBURST",
-    "ICEBEAM",
-    "OVERDRIVE",
-    "SURF",
-]
-nature = "MODEST"
-iv = 31
-
-[trainers.20.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 0
-spa = 56
-spd = 200
-spe = 0
-
-[trainers.21]
-raw_trainer_class = "ARCLIGHT"
-battler_name = "Arclight"
-battler_id = 21
-raw_battle_items = []
-
-[[trainers.21.pokemon]]
-internal_name = "JOLTEON"
-level = 77
-raw_moves = [
-    "SHADOWBALL",
-    "SIGNALBEAM",
-    "HIDDENPOWERICE",
-    "DISCHARGE",
-]
-nature = "MODEST"
-iv = 31
-
-[trainers.21.pokemon.evs]
-hp = 0
-atk = 4
-def_ = 0
-spa = 252
-spd = 252
-spe = 0
-
-[[trainers.21.pokemon]]
-internal_name = "LUXRAY"
-level = 75
-raw_item = "AMPLIFIELDROCK"
-raw_moves = [
-    "ELECTRICTERRAIN",
-    "WILDCHARGE",
-    "SUPERPOWER",
-    "THROATCHOP",
-]
-ability_number = 1
-nature = "ADAMANT"
-iv = 31
-
-[trainers.21.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 252
-spa = 252
-spd = 0
-spe = 0
-
-[[trainers.21.pokemon]]
-internal_name = "TOXTRICITY"
-level = 76
-raw_item = "THROATSPRAY"
-raw_moves = [
-    "SLUDGEWAVE",
-    "OVERDRIVE",
-    "SNARL",
-    "BOOMBURST",
-]
-nature = "TIMID"
-iv = 31
-
-[trainers.21.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 4
-
-[[trainers.21.pokemon]]
-internal_name = "NOIVERN"
-level = 76
-raw_item = "WIDELENS"
-raw_moves = [
-    "DRAGONPULSE",
-    "BOOMBURST",
-    "HURRICANE",
-    "HEATWAVE",
-]
-ability_number = 1
-nature = "MODEST"
-iv = 31
-
-[trainers.21.pokemon.evs]
-hp = 0
-atk = 4
-def_ = 0
-spa = 252
-spd = 252
-spe = 0
-
-[[trainers.21.pokemon]]
-internal_name = "ELECTRODE"
-level = 75
-raw_item = "LIFEORB"
-raw_moves = [
-    "EXPLOSION",
-    "CHLOROBLAST",
-    "THUNDERBOLT",
-    "EERIEIMPULSE",
-]
-ability_number = 2
-sex = ""
-form_number = 1
-nature = "MODEST"
-iv = 31
-
-[trainers.21.pokemon.evs]
-hp = 0
-atk = 32
-def_ = 0
-spa = 224
-spd = 252
-spe = 0
-
-[[trainers.21.pokemon]]
-internal_name = "EXPLOUD"
-level = 78
-raw_item = "EXPLOUDITE"
-raw_moves = [
-    "BOOMBURST",
-    "ICEBEAM",
-    "OVERDRIVE",
-    "SURF",
-]
-nature = "MODEST"
-iv = 31
-
-[trainers.21.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 0
-spa = 0
-spd = 200
-spe = 56

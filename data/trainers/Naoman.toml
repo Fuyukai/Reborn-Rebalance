@@ -1,14 +1,16 @@
-[trainers.0]
+trainer_name = "Naoman"
+
+[trainers.TechNerd.0]
 raw_trainer_class = "TechNerd"
 battler_name = "Naoman"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.TechNerd.0.pokemon]]
 internal_name = "ZORUA"
 level = 34
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.TechNerd.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -16,12 +18,12 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.TechNerd.0.pokemon]]
 internal_name = "SPOINK"
 level = 35
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.TechNerd.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -29,18 +31,18 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.1]
+[trainers.TechNerd.1]
 raw_trainer_class = "TechNerd"
 battler_name = "Naoman"
 battler_id = 1
 raw_battle_items = []
 
-[[trainers.1.pokemon]]
+[[trainers.TechNerd.1.pokemon]]
 internal_name = "ZOROARK"
 level = 53
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.TechNerd.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -48,12 +50,12 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.TechNerd.1.pokemon]]
 internal_name = "GRUMPIG"
 level = 53
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.TechNerd.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -61,13 +63,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.2]
+[trainers.TechNerd.2]
 raw_trainer_class = "TechNerd"
 battler_name = "Naoman"
 battler_id = 2
 raw_battle_items = []
 
-[[trainers.2.pokemon]]
+[[trainers.TechNerd.2.pokemon]]
 internal_name = "MAGNEZONE"
 level = 82
 raw_item = "CHOICESPECS"
@@ -79,7 +81,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.2.pokemon.evs]
+[trainers.TechNerd.2.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -87,7 +89,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.TechNerd.2.pokemon]]
 internal_name = "ZOROARK"
 level = 82
 raw_item = "CHOICESCARF"
@@ -99,7 +101,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.2.pokemon.evs]
+[trainers.TechNerd.2.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -107,7 +109,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.TechNerd.2.pokemon]]
 internal_name = "GRUMPIG"
 level = 83
 raw_item = "LIGHTCLAY"
@@ -119,7 +121,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.2.pokemon.evs]
+[trainers.TechNerd.2.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -127,13 +129,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.3]
+[trainers.TechNerd.3]
 raw_trainer_class = "TechNerd"
 battler_name = "Naoman"
 battler_id = 3
 raw_battle_items = []
 
-[[trainers.3.pokemon]]
+[[trainers.TechNerd.3.pokemon]]
 internal_name = "ZOROARK"
 level = 88
 raw_item = "CHOICESCARF"
@@ -147,7 +149,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.3.pokemon.evs]
+[trainers.TechNerd.3.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -155,7 +157,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.3.pokemon]]
+[[trainers.TechNerd.3.pokemon]]
 internal_name = "GRUMPIG"
 level = 89
 raw_item = "LIGHTCLAY"
@@ -169,7 +171,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.3.pokemon.evs]
+[trainers.TechNerd.3.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -177,7 +179,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.3.pokemon]]
+[[trainers.TechNerd.3.pokemon]]
 internal_name = "MAGNEZONE"
 level = 89
 raw_item = "CHOICESPECS"
@@ -192,7 +194,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.3.pokemon.evs]
+[trainers.TechNerd.3.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252

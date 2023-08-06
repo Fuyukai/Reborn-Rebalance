@@ -1,14 +1,16 @@
-[trainers.0]
+trainer_name = "Lennon"
+
+[trainers.COOLTRAINER_Male.0]
 raw_trainer_class = "COOLTRAINER_Male"
 battler_name = "Lennon"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.COOLTRAINER_Male.0.pokemon]]
 internal_name = "SHINX"
 level = 12
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.COOLTRAINER_Male.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

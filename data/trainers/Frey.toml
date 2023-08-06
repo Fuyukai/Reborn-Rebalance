@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Frey"
+
+[trainers.KNIGHT.0]
 raw_trainer_class = "KNIGHT"
 battler_name = "Frey"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.KNIGHT.0.pokemon]]
 internal_name = "ALTARIA"
 level = 87
 raw_item = "CHOICEBAND"
@@ -18,7 +20,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.KNIGHT.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -26,7 +28,7 @@ spa = 252
 spd = 0
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.KNIGHT.0.pokemon]]
 internal_name = "MAWILE"
 level = 87
 raw_item = "LIFEORB"
@@ -41,7 +43,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.KNIGHT.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -49,7 +51,7 @@ spa = 252
 spd = 0
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.KNIGHT.0.pokemon]]
 internal_name = "GARCHOMP"
 level = 87
 raw_item = "CHOICESCARF"
@@ -64,7 +66,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.KNIGHT.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252

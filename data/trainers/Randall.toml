@@ -1,10 +1,12 @@
-[trainers.1000]
+trainer_name = "Randall"
+
+[trainers.RANDALL.1000]
 raw_trainer_class = "RANDALL"
 battler_name = "Randall"
 battler_id = 1000
 raw_battle_items = []
 
-[[trainers.1000.pokemon]]
+[[trainers.RANDALL.1000.pokemon]]
 internal_name = "ZOROARK"
 level = 100
 raw_item = "CHOICESPECS"
@@ -18,7 +20,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.1000.pokemon.evs]
+[trainers.RANDALL.1000.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -26,7 +28,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.1000.pokemon]]
+[[trainers.RANDALL.1000.pokemon]]
 internal_name = "ZANGOOSE"
 level = 100
 raw_item = "TOXICORB"
@@ -41,7 +43,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.1000.pokemon.evs]
+[trainers.RANDALL.1000.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -49,7 +51,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.1000.pokemon]]
+[[trainers.RANDALL.1000.pokemon]]
 internal_name = "ZAPDOS"
 level = 100
 raw_item = "LEFTOVERS"
@@ -63,7 +65,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.1000.pokemon.evs]
+[trainers.RANDALL.1000.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

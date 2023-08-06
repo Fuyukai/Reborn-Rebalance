@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Mirian"
+
+[trainers.CultistF.0]
 raw_trainer_class = "CultistF"
 battler_name = "Mirian"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.CultistF.0.pokemon]]
 internal_name = "WIGGLYTUFF"
 level = 127
 raw_item = "MAGICALSEED"
@@ -17,7 +19,7 @@ sex = ""
 nature = "CALM"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.CultistF.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -25,7 +27,7 @@ spa = 0
 spd = 252
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.CultistF.0.pokemon]]
 internal_name = "BLISSEY"
 level = 127
 raw_item = "MAGICALSEED"
@@ -39,7 +41,7 @@ sex = ""
 nature = "CALM"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.CultistF.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -47,7 +49,7 @@ spa = 0
 spd = 0
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.CultistF.0.pokemon]]
 internal_name = "AZUMARILL"
 level = 127
 raw_item = "MAGICALSEED"
@@ -62,7 +64,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.CultistF.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -70,7 +72,7 @@ spa = 0
 spd = 252
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.CultistF.0.pokemon]]
 internal_name = "AUDINO"
 level = 127
 raw_item = "AUDINITE"
@@ -85,7 +87,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.CultistF.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0

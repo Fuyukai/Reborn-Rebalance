@@ -1,14 +1,16 @@
-[trainers.0]
+trainer_name = "Ginelle"
+
+[trainers.Punk.0]
 raw_trainer_class = "Punk"
 battler_name = "Ginelle"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.Punk.0.pokemon]]
 internal_name = "AZURILL"
 level = 18
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.Punk.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

@@ -1,9 +1,132 @@
-[trainers.0]
+trainer_name = "Ama"
+
+[trainers.MeteorGrunt.0]
+raw_trainer_class = "MeteorGrunt"
+battler_name = "Ama"
+raw_battle_items = []
+
+[[trainers.MeteorGrunt.0.pokemon]]
+internal_name = "HOOTHOOT"
+level = 17
+iv = 0
+
+[trainers.MeteorGrunt.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.MeteorGrunt.1]
+raw_trainer_class = "MeteorGrunt"
+battler_name = "Ama"
+battler_id = 1
+raw_battle_items = []
+
+[[trainers.MeteorGrunt.1.pokemon]]
+internal_name = "NOCTOWL"
+level = 39
+iv = 0
+
+[trainers.MeteorGrunt.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.MeteorGrunt.1.pokemon]]
+internal_name = "DODRIO"
+level = 39
+iv = 0
+
+[trainers.MeteorGrunt.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.MeteorGrunt.1.pokemon]]
+internal_name = "KLANG"
+level = 40
+iv = 0
+
+[trainers.MeteorGrunt.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.MeteorGrunt.2]
+raw_trainer_class = "MeteorGrunt"
+battler_name = "Ama"
+battler_id = 2
+raw_battle_items = []
+
+[[trainers.MeteorGrunt.2.pokemon]]
+internal_name = "NOCTOWL"
+level = 55
+iv = 0
+
+[trainers.MeteorGrunt.2.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.MeteorGrunt.2.pokemon]]
+internal_name = "DODRIO"
+level = 56
+iv = 0
+
+[trainers.MeteorGrunt.2.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.MeteorGrunt.2.pokemon]]
+internal_name = "FEAROW"
+level = 57
+iv = 0
+
+[trainers.MeteorGrunt.2.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.MeteorGrunt.2.pokemon]]
+internal_name = "KLINKLANG"
+level = 58
+iv = 0
+
+[trainers.MeteorGrunt.2.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.MeteorAceM.0]
 raw_trainer_class = "MeteorAceM"
 battler_name = "Ama"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.MeteorAceM.0.pokemon]]
 internal_name = "DODRIO"
 level = 87
 raw_moves = [
@@ -15,7 +138,7 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.MeteorAceM.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -23,7 +146,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.MeteorAceM.0.pokemon]]
 internal_name = "NOCTOWL"
 level = 88
 raw_moves = [
@@ -35,7 +158,7 @@ raw_moves = [
 ability_number = 2
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.MeteorAceM.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -43,7 +166,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.MeteorAceM.0.pokemon]]
 internal_name = "FEAROW"
 level = 88
 raw_moves = [
@@ -55,7 +178,7 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.MeteorAceM.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -63,7 +186,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.MeteorAceM.0.pokemon]]
 internal_name = "SKARMORY"
 level = 87
 raw_moves = [
@@ -75,7 +198,7 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.MeteorAceM.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -83,7 +206,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.MeteorAceM.0.pokemon]]
 internal_name = "KLINKLANG"
 level = 89
 raw_moves = [
@@ -95,110 +218,7 @@ raw_moves = [
 ability_number = 2
 iv = 0
 
-[trainers.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[trainers.1]
-raw_trainer_class = "MeteorGrunt"
-battler_name = "Ama"
-battler_id = 1
-raw_battle_items = []
-
-[[trainers.1.pokemon]]
-internal_name = "NOCTOWL"
-level = 39
-iv = 0
-
-[trainers.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.1.pokemon]]
-internal_name = "DODRIO"
-level = 39
-iv = 0
-
-[trainers.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.1.pokemon]]
-internal_name = "KLANG"
-level = 40
-iv = 0
-
-[trainers.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[trainers.2]
-raw_trainer_class = "MeteorGrunt"
-battler_name = "Ama"
-battler_id = 2
-raw_battle_items = []
-
-[[trainers.2.pokemon]]
-internal_name = "NOCTOWL"
-level = 55
-iv = 0
-
-[trainers.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.2.pokemon]]
-internal_name = "DODRIO"
-level = 56
-iv = 0
-
-[trainers.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.2.pokemon]]
-internal_name = "FEAROW"
-level = 57
-iv = 0
-
-[trainers.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.2.pokemon]]
-internal_name = "KLINKLANG"
-level = 58
-iv = 0
-
-[trainers.2.pokemon.evs]
+[trainers.MeteorAceM.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

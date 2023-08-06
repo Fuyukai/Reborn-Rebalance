@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Fulgor"
+
+[trainers.VOLCARONA.0]
 raw_trainer_class = "VOLCARONA"
 battler_name = "Fulgor"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.VOLCARONA.0.pokemon]]
 internal_name = "VOLCARONA"
 level = 100
 raw_item = "SITRUSBERRY"
@@ -18,7 +20,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.VOLCARONA.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252

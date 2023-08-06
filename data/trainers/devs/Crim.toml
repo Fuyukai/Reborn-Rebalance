@@ -1,10 +1,12 @@
-[trainers.1000]
+trainer_name = "Crim"
+
+[trainers.CRIM.1000]
 raw_trainer_class = "CRIM"
 battler_name = "Crim"
 battler_id = 1000
 raw_battle_items = []
 
-[[trainers.1000.pokemon]]
+[[trainers.CRIM.1000.pokemon]]
 internal_name = "PRIMARINA"
 level = 100
 raw_item = "PRIMARIUMZ2"
@@ -18,7 +20,7 @@ sex = "F"
 nature = "TIMID"
 iv = 31
 
-[trainers.1000.pokemon.evs]
+[trainers.CRIM.1000.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -26,7 +28,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.1000.pokemon]]
+[[trainers.CRIM.1000.pokemon]]
 internal_name = "DELPHOX"
 level = 100
 raw_item = "ASSAULTVEST"
@@ -40,7 +42,7 @@ ability_number = 1
 nature = "TIMID"
 iv = 31
 
-[trainers.1000.pokemon.evs]
+[trainers.CRIM.1000.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -48,7 +50,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.1000.pokemon]]
+[[trainers.CRIM.1000.pokemon]]
 internal_name = "NAGANADEL"
 level = 100
 raw_item = "MAGICALSEED"
@@ -62,7 +64,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.1000.pokemon.evs]
+[trainers.CRIM.1000.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -70,12 +72,12 @@ spa = 252
 spd = 252
 spe = 4
 
-[trainers.0]
+[trainers.CRIM.0]
 raw_trainer_class = "CRIM"
 battler_name = "Crim"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.CRIM.0.pokemon]]
 internal_name = "RIBOMBEE"
 level = 100
 raw_item = "FOCUSSASH"
@@ -92,7 +94,7 @@ nature = "TIMID"
 iv = 31
 nickname = "Dahlia"
 
-[trainers.0.pokemon.evs]
+[trainers.CRIM.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -100,7 +102,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.CRIM.0.pokemon]]
 internal_name = "ALTARIA"
 level = 100
 raw_item = "LEFTOVERS"
@@ -117,7 +119,7 @@ nature = "SERIOUS"
 iv = 31
 nickname = "Tempest"
 
-[trainers.0.pokemon.evs]
+[trainers.CRIM.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -125,7 +127,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.CRIM.0.pokemon]]
 internal_name = "DELPHOX"
 level = 100
 raw_item = "WEAKNESSPOLICY"
@@ -141,7 +143,7 @@ nature = "TIMID"
 iv = 31
 nickname = "Ace"
 
-[trainers.0.pokemon.evs]
+[trainers.CRIM.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -149,7 +151,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.CRIM.0.pokemon]]
 internal_name = "JIRACHI"
 level = 100
 raw_item = "LEFTOVERS"
@@ -165,7 +167,7 @@ nature = "BRAVE"
 iv = 31
 nickname = "Altair"
 
-[trainers.0.pokemon.evs]
+[trainers.CRIM.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -173,7 +175,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.CRIM.0.pokemon]]
 internal_name = "KYUREM"
 level = 100
 raw_item = "ASSAULTVEST"
@@ -190,7 +192,7 @@ nature = "MODEST"
 iv = 31
 nickname = "Sagitta"
 
-[trainers.0.pokemon.evs]
+[trainers.CRIM.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -198,7 +200,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.CRIM.0.pokemon]]
 internal_name = "VULPIX"
 level = 100
 raw_item = "LEFTOVERS"
@@ -215,7 +217,7 @@ nature = "TIMID"
 iv = 31
 nickname = "Eclipse"
 
-[trainers.0.pokemon.evs]
+[trainers.CRIM.0.pokemon.evs]
 hp = 0
 atk = 2520
 def_ = 252
@@ -223,13 +225,13 @@ spa = 416
 spd = 2520
 spe = 692
 
-[trainers.1]
+[trainers.CRIM.1]
 raw_trainer_class = "CRIM"
 battler_name = "Crim"
 battler_id = 1
 raw_battle_items = []
 
-[[trainers.1.pokemon]]
+[[trainers.CRIM.1.pokemon]]
 internal_name = "MANAPHY"
 level = 100
 raw_item = "MAGICALSEED"
@@ -246,7 +248,7 @@ nature = "TIMID"
 iv = 31
 nickname = "Soleil"
 
-[trainers.1.pokemon.evs]
+[trainers.CRIM.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -254,7 +256,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.1.pokemon]]
+[[trainers.CRIM.1.pokemon]]
 internal_name = "AEGISLASH"
 level = 100
 raw_item = "LEFTOVERS"
@@ -271,7 +273,7 @@ nature = "SERIOUS"
 iv = 31
 nickname = "Nashira"
 
-[trainers.1.pokemon.evs]
+[trainers.CRIM.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -279,7 +281,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.1.pokemon]]
+[[trainers.CRIM.1.pokemon]]
 internal_name = "ALTARIA"
 level = 100
 raw_item = "LEFTOVERS"
@@ -296,7 +298,7 @@ nature = "SERIOUS"
 iv = 31
 nickname = "Tempest"
 
-[trainers.1.pokemon.evs]
+[trainers.CRIM.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -304,7 +306,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.1.pokemon]]
+[[trainers.CRIM.1.pokemon]]
 internal_name = "DELPHOX"
 level = 100
 raw_item = "WEAKNESSPOLICY"
@@ -320,7 +322,7 @@ nature = "TIMID"
 iv = 31
 nickname = "Ace"
 
-[trainers.1.pokemon.evs]
+[trainers.CRIM.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -328,7 +330,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.1.pokemon]]
+[[trainers.CRIM.1.pokemon]]
 internal_name = "KYUREM"
 level = 100
 raw_item = "ASSAULTVEST"
@@ -345,7 +347,7 @@ nature = "MODEST"
 iv = 31
 nickname = "Sagitta"
 
-[trainers.1.pokemon.evs]
+[trainers.CRIM.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -353,7 +355,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.1.pokemon]]
+[[trainers.CRIM.1.pokemon]]
 internal_name = "VULPIX"
 level = 100
 raw_item = "LEFTOVERS"
@@ -370,7 +372,7 @@ nature = "TIMID"
 iv = 31
 nickname = "Eclipse"
 
-[trainers.1.pokemon.evs]
+[trainers.CRIM.1.pokemon.evs]
 hp = 0
 atk = 2520
 def_ = 252

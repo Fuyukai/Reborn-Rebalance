@@ -1,9 +1,104 @@
-[trainers.0]
+trainer_name = "Autumn"
+
+[trainers.AceTrainerF.0]
+raw_trainer_class = "AceTrainerF"
+battler_name = "Autumn"
+raw_battle_items = []
+
+[[trainers.AceTrainerF.0.pokemon]]
+internal_name = "NINETALES"
+level = 84
+raw_item = "REDCARD"
+raw_moves = [
+    "HYPNOSIS",
+    "FREEZEDRY",
+    "BLIZZARD",
+    "MOONBLAST",
+]
+sex = "F"
+form_number = 1
+nature = "TIMID"
+iv = 31
+
+[trainers.AceTrainerF.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.AceTrainerF.0.pokemon]]
+internal_name = "METAGROSS"
+level = 85
+raw_item = "EJECTBUTTON"
+raw_moves = [
+    "METEORMASH",
+    "BULLETPUNCH",
+    "ZENHEADBUTT",
+    "ICEPUNCH",
+]
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.AceTrainerF.0.pokemon.evs]
+hp = 0
+atk = 240
+def_ = 252
+spa = 0
+spd = 0
+spe = 16
+
+[[trainers.AceTrainerF.0.pokemon]]
+internal_name = "FLYGON"
+level = 84
+raw_item = "LIFEORB"
+raw_moves = [
+    "DRAGONDANCE",
+    "DRAGONCLAW",
+    "EARTHQUAKE",
+    "IRONTAIL",
+]
+nature = "ADAMANT"
+iv = 31
+
+[trainers.AceTrainerF.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.AceTrainerF.0.pokemon]]
+internal_name = "AZUMARILL"
+level = 85
+raw_item = "ASSAULTVEST"
+raw_moves = [
+    "PLAYROUGH",
+    "LIQUIDATION",
+    "AQUAJET",
+    "SUPERPOWER",
+]
+ability_number = 1
+nature = "ADAMANT"
+iv = 31
+
+[trainers.AceTrainerF.0.pokemon.evs]
+hp = 0
+atk = 240
+def_ = 252
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.AUTUMN.0]
 raw_trainer_class = "AUTUMN"
 battler_name = "Autumn"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.AUTUMN.0.pokemon]]
 internal_name = "AEGISLASH"
 level = 100
 raw_item = "WEAKNESSPOLICY"
@@ -20,7 +115,7 @@ nature = "NAUGHTY"
 iv = 31
 nickname = "Kyana"
 
-[trainers.0.pokemon.evs]
+[trainers.AUTUMN.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -28,7 +123,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.AUTUMN.0.pokemon]]
 internal_name = "RIBOMBEE"
 level = 100
 raw_item = "POWERHERB"
@@ -45,7 +140,7 @@ nature = "TIMID"
 iv = 31
 nickname = "Pibb"
 
-[trainers.0.pokemon.evs]
+[trainers.AUTUMN.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -53,7 +148,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.AUTUMN.0.pokemon]]
 internal_name = "NECROZMA"
 level = 100
 raw_item = "ULTRANECROZIUMZ2"
@@ -69,7 +164,7 @@ nature = "JOLLY"
 iv = 31
 nickname = "Azem"
 
-[trainers.0.pokemon.evs]
+[trainers.AUTUMN.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -77,7 +172,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.AUTUMN.0.pokemon]]
 internal_name = "DIANCIE"
 level = 100
 raw_item = "DIANCITE"
@@ -92,7 +187,7 @@ nature = "HASTY"
 iv = 31
 nickname = "Deneb"
 
-[trainers.0.pokemon.evs]
+[trainers.AUTUMN.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -100,7 +195,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.AUTUMN.0.pokemon]]
 internal_name = "TOGEKISS"
 level = 100
 raw_item = "SCOPELENS"
@@ -117,7 +212,7 @@ nature = "TIMID"
 iv = 31
 nickname = "Cygnus"
 
-[trainers.0.pokemon.evs]
+[trainers.AUTUMN.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -125,7 +220,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.AUTUMN.0.pokemon]]
 internal_name = "DITTO"
 level = 100
 raw_item = "LIFEORB"
@@ -139,7 +234,7 @@ iv = 31
 nickname = "Vega"
 pokeball_type = 4
 
-[trainers.0.pokemon.evs]
+[trainers.AUTUMN.0.pokemon.evs]
 hp = 0
 atk = 512
 def_ = 0
@@ -147,13 +242,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.1]
+[trainers.AUTUMN.1]
 raw_trainer_class = "AUTUMN"
 battler_name = "Autumn"
 battler_id = 1
 raw_battle_items = []
 
-[[trainers.1.pokemon]]
+[[trainers.AUTUMN.1.pokemon]]
 internal_name = "GROUDON"
 level = 100
 raw_item = "REDORB"
@@ -167,7 +262,7 @@ sex = ""
 nature = "NAUGHTY"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.AUTUMN.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -175,7 +270,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.1.pokemon]]
+[[trainers.AUTUMN.1.pokemon]]
 internal_name = "CHERRIM"
 level = 100
 raw_item = "FOCUSSASH"
@@ -191,7 +286,7 @@ nature = "TIMID"
 iv = 31
 nickname = "Kyana"
 
-[trainers.1.pokemon.evs]
+[trainers.AUTUMN.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -199,7 +294,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.1.pokemon]]
+[[trainers.AUTUMN.1.pokemon]]
 internal_name = "NECROZMA"
 level = 100
 raw_item = "ULTRANECROZIUMZ2"
@@ -215,7 +310,7 @@ nature = "JOLLY"
 iv = 31
 nickname = "Azem"
 
-[trainers.1.pokemon.evs]
+[trainers.AUTUMN.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -223,7 +318,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.1.pokemon]]
+[[trainers.AUTUMN.1.pokemon]]
 internal_name = "DIANCIE"
 level = 100
 raw_item = "DIANCITE"
@@ -238,7 +333,7 @@ nature = "HASTY"
 iv = 31
 nickname = "Deneb"
 
-[trainers.1.pokemon.evs]
+[trainers.AUTUMN.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -246,7 +341,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.1.pokemon]]
+[[trainers.AUTUMN.1.pokemon]]
 internal_name = "TOGEKISS"
 level = 100
 raw_item = "SCOPELENS"
@@ -263,7 +358,7 @@ nature = "TIMID"
 iv = 31
 nickname = "Cygnus"
 
-[trainers.1.pokemon.evs]
+[trainers.AUTUMN.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -271,7 +366,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.1.pokemon]]
+[[trainers.AUTUMN.1.pokemon]]
 internal_name = "DITTO"
 level = 100
 raw_item = "LIFEORB"
@@ -285,7 +380,7 @@ iv = 31
 nickname = "Vega"
 pokeball_type = 4
 
-[trainers.1.pokemon.evs]
+[trainers.AUTUMN.1.pokemon.evs]
 hp = 0
 atk = 512
 def_ = 0

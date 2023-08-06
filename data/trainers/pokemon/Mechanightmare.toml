@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Mechanightmare"
+
+[trainers.KLINKLANG.0]
 raw_trainer_class = "KLINKLANG"
 battler_name = "Mechanightmare"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.KLINKLANG.0.pokemon]]
 internal_name = "KLINKLANG"
 level = 35
 raw_moves = [
@@ -17,7 +19,7 @@ sex = ""
 nature = "MODEST"
 iv = 30
 
-[trainers.0.pokemon.evs]
+[trainers.KLINKLANG.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

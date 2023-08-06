@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Parsley"
+
+[trainers.PSYCHIC_Female.0]
 raw_trainer_class = "PSYCHIC_Female"
 battler_name = "Parsley"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.PSYCHIC_Female.0.pokemon]]
 internal_name = "SIGILYPH"
 level = 55
 raw_moves = [
@@ -14,7 +16,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.PSYCHIC_Female.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

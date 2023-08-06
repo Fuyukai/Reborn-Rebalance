@@ -1,14 +1,16 @@
-[trainers.0]
+trainer_name = "Darm"
+
+[trainers.MAGMA2.0]
 raw_trainer_class = "MAGMA2"
 battler_name = "Darm"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.MAGMA2.0.pokemon]]
 internal_name = "DARUMAKA"
 level = 32
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.MAGMA2.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -16,12 +18,12 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.MAGMA2.0.pokemon]]
 internal_name = "HOUNDOUR"
 level = 33
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.MAGMA2.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -29,12 +31,12 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.MAGMA2.0.pokemon]]
 internal_name = "DARUMAKA"
 level = 33
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.MAGMA2.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -42,18 +44,18 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.1]
+[trainers.MAGMA2.1]
 raw_trainer_class = "MAGMA2"
 battler_name = "Darm"
 battler_id = 1
 raw_battle_items = []
 
-[[trainers.1.pokemon]]
+[[trainers.MAGMA2.1.pokemon]]
 internal_name = "HOUNDOOM"
 level = 54
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.MAGMA2.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -61,12 +63,12 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.MAGMA2.1.pokemon]]
 internal_name = "DARMANITAN"
 level = 55
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.MAGMA2.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -74,12 +76,12 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.MAGMA2.1.pokemon]]
 internal_name = "DARMANITAN"
 level = 55
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.MAGMA2.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

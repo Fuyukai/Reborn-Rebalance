@@ -1,14 +1,16 @@
-[trainers.0]
+trainer_name = "Jacee"
+
+[trainers.COOLTRAINER_Female.0]
 raw_trainer_class = "COOLTRAINER_Female"
 battler_name = "Jacee"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.COOLTRAINER_Female.0.pokemon]]
 internal_name = "CUTIEFLY"
 level = 16
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.COOLTRAINER_Female.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -16,12 +18,12 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.COOLTRAINER_Female.0.pokemon]]
 internal_name = "PONYTA"
 level = 16
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.COOLTRAINER_Female.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

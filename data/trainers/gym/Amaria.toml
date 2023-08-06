@@ -1,1307 +1,42 @@
-[trainers.0]
-raw_trainer_class = "UMBAMARIA"
+trainer_name = "Amaria"
+
+[trainers.Fiancee.0]
+raw_trainer_class = "Fiancee"
 battler_name = "Amaria"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
-internal_name = "TAPUBULU"
-level = 135
-raw_item = "ELEMENTALSEED"
-raw_moves = [
-    "WOODHAMMER",
-    "SUPERPOWER",
-    "ROCKSLIDE",
-    "NATUREPOWER",
-]
-sex = ""
-nature = "ADAMANT"
-iv = 31
-
-[trainers.0.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 252
-spa = 252
-spd = 252
-spe = 252
-
-[[trainers.0.pokemon]]
-internal_name = "CELESTEELA"
-level = 135
-raw_item = "ELEMENTALSEED"
-raw_moves = [
-    "FLAMETHROWER",
-    "LEECHSEED",
-    "PROTECT",
-    "GIGADRAIN",
-]
-sex = ""
-nature = "MODEST"
-iv = 31
-
-[trainers.0.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 252
-spa = 252
-spd = 252
-spe = 252
-
-[[trainers.0.pokemon]]
-internal_name = "VOLCARONA"
-level = 135
-raw_item = "ELEMENTALSEED"
-raw_moves = [
-    "GIGADRAIN",
-    "BUGBUZZ",
-    "HEATWAVE",
-    "QUIVERDANCE",
-]
-ability_number = 1
-sex = "F"
-nature = "TIMID"
-iv = 31
-
-[trainers.0.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 252
-spa = 252
-spd = 252
-spe = 252
-
-[[trainers.0.pokemon]]
-internal_name = "VOLCANION"
-level = 135
-raw_item = "ELEMENTALSEED"
-raw_moves = [
-    "SLUDGEBOMB",
-    "STEAMERUPTION",
-    "EARTHPOWER",
-    "HEATWAVE",
-]
-sex = ""
-nature = "MODEST"
-iv = 31
-
-[trainers.0.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 252
-spa = 252
-spd = 252
-spe = 252
-
-[[trainers.0.pokemon]]
-internal_name = "PALKIA"
-level = 135
-raw_item = "ELECTRIUMZ2"
-raw_moves = [
-    "THUNDER",
-    "SPACIALREND",
-    "SURF",
-    "AURASPHERE",
-]
-ability_number = 1
-sex = ""
-nature = "TIMID"
-
-[trainers.0.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 252
-spa = 252
-spd = 252
-spe = 252
-
-[[trainers.0.pokemon]]
-internal_name = "KYOGRE"
-level = 135
-raw_item = "BLUEORB"
-raw_moves = [
-    "THUNDER",
-    "ORIGINPULSE",
-    "CALMMIND",
-    "ICEBEAM",
-]
-sex = ""
-nature = "MODEST"
-iv = 31
-
-[trainers.0.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 252
-spa = 252
-spd = 252
-spe = 252
-
-[trainers.1]
-raw_trainer_class = "UMBAMARIA"
-battler_name = "Amaria"
-battler_id = 1
-raw_battle_items = []
-
-[[trainers.1.pokemon]]
-internal_name = "JOLTEON"
-level = 137
-raw_item = "LIFEORB"
-raw_moves = [
-    "DISCHARGE",
-    "SYNCHRONOISE",
-    "ROAR",
-    "HYPERBEAM",
-]
-ability_number = 1
-sex = "F"
-nature = "MILD"
-iv = 0
-
-[trainers.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 4
-
-[[trainers.1.pokemon]]
-internal_name = "PRIMARINA"
-level = 138
-raw_item = "LIFEORB"
-raw_moves = [
-    "SPARKLINGARIA",
-    "PERISHSONG",
-    "BLIZZARD",
-    "DAZZLINGGLEAM",
-]
-sex = "F"
-nature = "MILD"
-iv = 0
-
-[trainers.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 4
-
-[[trainers.1.pokemon]]
-internal_name = "MEGANIUM"
-level = 139
-raw_item = "LIFEORB"
-raw_moves = [
-    "EARTHQUAKE",
-    "PETALBLIZZARD",
-    "OUTRAGE",
-    "DOUBLEEDGE",
-]
-sex = "F"
-nature = "NAUGHTY"
-iv = 0
-
-[trainers.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 252
-spa = 252
-spd = 0
-spe = 4
-
-[[trainers.1.pokemon]]
-internal_name = "QUAGSIRE"
-level = 139
-raw_item = "LIFEORB"
-raw_moves = [
-    "SURF",
-    "EARTHQUAKE",
-    "SLUDGEWAVE",
-    "RECOVER",
-]
-ability_number = 2
-sex = "F"
-nature = "RASH"
-iv = 0
-
-[trainers.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 128
-spa = 252
-spd = 128
-spe = 4
-
-[[trainers.1.pokemon]]
+[[trainers.Fiancee.0.pokemon]]
 internal_name = "LAPRAS"
-level = 141
-raw_item = "LIFEORB"
-raw_moves = [
-    "PERISHSONG",
-    "BULLDOZE",
-    "SURF",
-    "BLIZZARD",
-]
-ability_number = 2
-sex = "F"
-nature = "RASH"
-iv = 0
-
-[trainers.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 4
-
-[[trainers.1.pokemon]]
-internal_name = "KYOGRE"
-level = 141
-raw_item = "BLUEORB"
-raw_moves = [
-    "SURF",
-    "EARTHQUAKE",
-    "CALMMIND",
-    "BLIZZARD",
-]
-sex = ""
-nature = "RASH"
-iv = 0
-
-[trainers.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 52
-spa = 252
-spd = 200
-spe = 4
-
-[trainers.2]
-raw_trainer_class = "UMBAMARIA"
-battler_name = "Amaria"
-battler_id = 2
-raw_battle_items = []
-
-[[trainers.2.pokemon]]
-internal_name = "KINGDRA"
-level = 141
-raw_item = "WIDELENS"
-raw_moves = [
-    "BLIZZARD",
-    "MUDDYWATER",
-    "DRACOMETEOR",
-    "FLASHCANNON",
-]
-sex = "F"
-nature = "MODEST"
-
-[trainers.2.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 252
-spa = 252
-spd = 252
-spe = 252
-
-[[trainers.2.pokemon]]
-internal_name = "NINETALES"
-level = 141
-raw_item = "LIGHTCLAY"
-raw_moves = [
-    "AURORAVEIL",
-    "MOONBLAST",
-    "BLIZZARD",
-    "DARKPULSE",
-]
-ability_number = 1
-sex = "F"
-form_number = 1
-nature = "TIMID"
-
-[trainers.2.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 252
-spa = 252
-spd = 252
-spe = 252
-
-[[trainers.2.pokemon]]
-internal_name = "ZAPDOS"
-level = 142
-raw_item = "CHARTIBERRY"
-raw_moves = [
-    "THUNDER",
-    "HEATWAVE",
-    "TAILWIND",
-    "HIDDENPOWERICE",
-]
-ability_number = 1
-sex = ""
-nature = "MODEST"
-
-[trainers.2.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 252
-spa = 252
-spd = 252
-spe = 252
-
-[[trainers.2.pokemon]]
-internal_name = "TOXAPEX"
-level = 142
-raw_item = "ELEMENTALSEED"
-raw_moves = [
-    "RECOVER",
-    "WHIRLPOOL",
-    "BANEFULBUNKER",
-    "WIDEGUARD",
-]
-sex = "F"
-nature = "CALM"
-
-[trainers.2.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 252
-spa = 252
-spd = 252
-spe = 252
-
-[[trainers.2.pokemon]]
-internal_name = "PALKIA"
-level = 143
-raw_item = "LIFEORB"
-raw_moves = [
-    "THUNDER",
-    "SURF",
-    "INCINERATE",
-    "SPACIALREND",
-]
-ability_number = 1
-sex = ""
-nature = "MODEST"
-
-[trainers.2.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 252
-spa = 252
-spd = 252
-spe = 252
-
-[[trainers.2.pokemon]]
-internal_name = "SALAMENCE"
-level = 145
-raw_item = "SALAMENCITE"
-raw_moves = [
-    "HYPERVOICE",
-    "ROOST",
-    "PROTECT",
-    "HEATWAVE",
-]
-sex = "F"
-nature = "MODEST"
-iv = 20
-
-[trainers.2.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 252
-spa = 252
-spd = 252
-spe = 252
-
-[trainers.10]
-raw_trainer_class = "AMARIA1"
-battler_name = "Amaria"
-battler_id = 10
-raw_battle_items = []
-
-[[trainers.10.pokemon]]
-internal_name = "SWAMPERT"
-level = 100
-raw_item = "SWAMPERTITE"
+level = 87
 raw_moves = [
     "WATERFALL",
-    "EARTHQUAKE",
-    "ICEPUNCH",
-    "STEALTHROCK",
-]
-ability_number = 1
-sex = ""
-nature = "ADAMANT"
-iv = 31
-nickname = "Kipkip"
-
-[trainers.10.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 252
-spa = 252
-spd = 0
-spe = 0
-
-[[trainers.10.pokemon]]
-internal_name = "ROTOM"
-level = 100
-raw_item = "WIKIBERRY"
-raw_moves = [
-    "HYDROPUMP",
-    "VOLTSWITCH",
-    "DARKPULSE",
-    "WILLOWISP",
-]
-sex = ""
-form_number = 2
-nature = "BOLD"
-iv = 31
-nickname = "Arcus"
-
-[trainers.10.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 0
-spa = 0
-spd = 0
-spe = 252
-
-[[trainers.10.pokemon]]
-internal_name = "KYOGRE"
-level = 100
-raw_item = "BLUEORB"
-raw_moves = [
-    "SURF",
-    "CALMMIND",
-    "THUNDER",
     "ICEBEAM",
-]
-sex = ""
-nature = "MODEST"
-iv = 31
-nickname = "Lemuria"
-
-[trainers.10.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 0
-
-[[trainers.10.pokemon]]
-internal_name = "TOXAPEX"
-level = 100
-raw_item = "ELEMENTALSEED"
-raw_moves = [
-    "RECOVER",
-    "TOXIC",
-    "SCALD",
-    "WHIRLPOOL",
+    "SING",
+    "ICESHARD",
 ]
 ability_number = 2
-sex = ""
-nature = "CALM"
+sex = "F"
+nature = "BASHFUL"
 iv = 31
-nickname = "Mammatus"
+nickname = "Deliverance"
 
-[trainers.10.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 0
-spa = 0
-spd = 0
-spe = 4
-
-[[trainers.10.pokemon]]
-internal_name = "GRENINJA"
-level = 100
-raw_item = "CHOICESCARF"
-raw_moves = [
-    "SURF",
-    "ICEBEAM",
-    "GUNKSHOT",
-    "DARKPULSE",
-]
-ability_number = 1
-sex = ""
-nature = "MILD"
-iv = 31
-nickname = "Lenticula"
-
-[trainers.10.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 0
-
-[[trainers.10.pokemon]]
-internal_name = "PRIMARINA"
-level = 100
-raw_item = "CHOICESPECS"
-raw_moves = [
-    "SCALD",
-    "PSYCHIC",
-    "MOONBLAST",
-    "ICEBEAM",
-]
-sex = ""
-nature = "MODEST"
-iv = 31
-nickname = "LaReine"
-
-[trainers.10.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 4
-
-[trainers.11]
-raw_trainer_class = "AMARIA1"
-battler_name = "Amaria"
-battler_id = 11
-raw_battle_items = []
-
-[[trainers.11.pokemon]]
-internal_name = "GRENINJA"
-level = 100
-raw_item = "ELEMENTALSEED"
-raw_moves = [
-    "SURF",
-    "BLIZZARD",
-    "SPIKES",
-    "DARKPULSE",
-]
-ability_number = 1
-sex = ""
-nature = "MODEST"
-iv = 31
-nickname = "Lenticula"
-
-[trainers.11.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 0
-
-[[trainers.11.pokemon]]
-internal_name = "TAPUFINI"
-level = 100
-raw_item = "LEFTOVERS"
-raw_moves = [
-    "MOONBLAST",
-    "WATERPULSE",
-    "NATURESMADNESS",
-    "HIDDENPOWERELE",
-]
-ability_number = 1
-sex = ""
-nature = "MODEST"
-iv = 31
-nickname = "Avalon"
-
-[trainers.11.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 0
-
-[[trainers.11.pokemon]]
-internal_name = "KELDEO"
-level = 100
-raw_item = "LEFTOVERS"
-raw_moves = [
-    "CALMMIND",
-    "SACREDSWORD",
-    "SURF",
-    "ICYWIND",
-]
-sex = ""
-nature = "TIMID"
-iv = 31
-nickname = "Thule"
-
-[trainers.11.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 0
-
-[[trainers.11.pokemon]]
-internal_name = "SWAMPERT"
-level = 100
-raw_item = "SWAMPERTITE"
-raw_moves = [
-    "DIVE",
-    "AQUATAIL",
-    "STEALTHROCK",
-    "SUPERPOWER",
-]
-ability_number = 1
-sex = ""
-nature = "ADAMANT"
-iv = 31
-nickname = "Kipkip"
-
-[trainers.11.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 252
-spa = 252
-spd = 0
-spe = 0
-
-[[trainers.11.pokemon]]
-internal_name = "PALKIA"
-level = 100
-raw_item = "LIFEORB"
-raw_moves = [
-    "SURF",
-    "DRACOMETEOR",
-    "AURASPHERE",
-    "THUNDER",
-]
-sex = ""
-nature = "TIMID"
-iv = 31
-nickname = "Mu"
-
-[trainers.11.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 0
-
-[[trainers.11.pokemon]]
-internal_name = "KYOGRE"
-level = 100
-raw_item = "BLUEORB"
-raw_moves = [
-    "ORIGINPULSE",
-    "ICEBEAM",
-    "THUNDER",
-    "CALMMIND",
-]
-sex = ""
-nature = "MODEST"
-iv = 31
-nickname = "Lemuria"
-
-[trainers.11.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 0
-
-[trainers.12]
-raw_trainer_class = "AMARIA1"
-battler_name = "Amaria"
-battler_id = 12
-raw_battle_items = []
-
-[[trainers.12.pokemon]]
-internal_name = "EMPOLEON"
-level = 100
-raw_item = "FOCUSSASH"
-raw_moves = [
-    "STEALTHROCK",
-    "HYDROCANNON",
-    "BLIZZARD",
-    "HIDDENPOWERFIR",
-]
-sex = ""
-nature = "MODEST"
-iv = 31
-nickname = "Cumulus"
-
-[trainers.12.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 4
-
-[[trainers.12.pokemon]]
-internal_name = "GRENINJA"
-level = 100
-raw_item = "SYNTHETICSEED"
-raw_moves = [
-    "HYDROCANNON",
-    "BLIZZARD",
-    "GUNKSHOT",
-    "ACROBATICS",
-]
-ability_number = 1
-sex = ""
-nature = "RASH"
-iv = 31
-nickname = "Lenticula"
-
-[trainers.12.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 4
-
-[[trainers.12.pokemon]]
-internal_name = "BLASTOISE"
-level = 100
-raw_item = "ASSAULTVEST"
-raw_moves = [
-    "HYDROCANNON",
-    "BLIZZARD",
-    "AQUAJET",
-    "ZENHEADBUTT",
-]
-sex = ""
-nature = "CALM"
-iv = 31
-nickname = "Shellebelle"
-
-[trainers.12.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 0
-spe = 4
-
-[[trainers.12.pokemon]]
-internal_name = "SWAMPERT"
-level = 100
-raw_item = "SWAMPERTITE"
-raw_moves = [
-    "HYDROCANNON",
-    "EARTHQUAKE",
-    "SUPERPOWER",
-    "STONEEDGE",
-]
-sex = ""
-nature = "CAREFUL"
-iv = 31
-nickname = "Kipkip"
-
-[trainers.12.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 0
-spe = 4
-
-[[trainers.12.pokemon]]
-internal_name = "SAMUROTT"
-level = 100
-raw_item = "LIFEORB"
-raw_moves = [
-    "HYDROPUMP",
-    "AQUAJET",
-    "BLIZZARD",
-    "MEGAHORN",
-]
-sex = ""
-nature = "RASH"
-iv = 31
-nickname = "Alto"
-
-[trainers.12.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 4
-
-[[trainers.12.pokemon]]
-internal_name = "PRIMARINA"
-level = 100
-raw_item = "LIFEORB"
-raw_moves = [
-    "HYDROCANNON",
-    "BLIZZARD",
-    "PSYCHIC",
-    "ENERGYBALL",
-]
-sex = ""
-nature = "MODEST"
-iv = 31
-nickname = "LaReine"
-
-[trainers.12.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 4
-
-[trainers.13]
-raw_trainer_class = "AMARIA1"
-battler_name = "Amaria"
-battler_id = 13
-raw_battle_items = []
-
-[[trainers.13.pokemon]]
-internal_name = "QWILFISH"
-level = 100
-raw_item = "TELLURICSEED"
-raw_moves = [
-    "TOXICSPIKES",
-    "POISONJAB",
-    "KNOCKOFF",
-    "SWORDSDANCE",
-]
-ability_number = 1
-sex = ""
-nature = "ADAMANT"
-iv = 31
-nickname = "Southerna"
-
-[trainers.13.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 252
-spa = 252
-spd = 0
-spe = 0
-
-[[trainers.13.pokemon]]
-internal_name = "SWAMPERT"
-level = 100
-raw_item = "SWAMPERTITE"
-raw_moves = [
-    "WATERFALL",
-    "EARTHQUAKE",
-    "SUPERPOWER",
-    "STEALTHROCK",
-]
-sex = ""
-nature = "CAREFUL"
-iv = 31
-nickname = "Kipkip"
-
-[trainers.13.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 0
-spe = 4
-
-[[trainers.13.pokemon]]
-internal_name = "GRENINJA"
-level = 100
-raw_item = "ASSAULTVEST"
-raw_moves = [
-    "SURF",
-    "ICEBEAM",
-    "GUNKSHOT",
-    "DARKPULSE",
-]
-ability_number = 1
-sex = ""
-nature = "HASTY"
-iv = 31
-nickname = "Lenticula"
-
-[trainers.13.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 0
-
-[[trainers.13.pokemon]]
-internal_name = "VOLCANION"
-level = 100
-raw_item = "ASSAULTVEST"
-raw_moves = [
-    "STEAMERUPTION",
-    "FLAMETHROWER",
-    "EARTHPOWER",
-    "SLUDGEWAVE",
-]
-sex = ""
-nature = "MODEST"
-iv = 31
-nickname = "Agartha"
-
-[trainers.13.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 0
-
-[[trainers.13.pokemon]]
-internal_name = "OMASTAR"
-level = 100
-raw_item = "WHITEHERB"
-raw_moves = [
-    "SHELLSMASH",
-    "SURF",
-    "MUDSHOT",
-    "ICEBEAM",
-]
-sex = ""
-nature = "MODEST"
-iv = 31
-nickname = "Nacreous"
-
-[trainers.13.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 4
-
-[[trainers.13.pokemon]]
-internal_name = "TOXAPEX"
-level = 100
-raw_item = "TELLURICSEED"
-raw_moves = [
-    "RECOVER",
-    "TOXIC",
-    "GUNKSHOT",
-    "SMACKDOWN",
-]
-ability_number = 2
-sex = ""
-nature = "CALM"
-iv = 31
-nickname = "Mammatus"
-
-[trainers.13.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 0
-spa = 0
-spd = 0
-spe = 4
-
-[trainers.14]
-raw_trainer_class = "AMARIA1"
-battler_name = "Amaria"
-battler_id = 14
-raw_battle_items = []
-
-[[trainers.14.pokemon]]
-internal_name = "KYOGRE"
-level = 100
-raw_item = "BLUEORB"
-raw_moves = [
-    "SURF",
-    "CALMMIND",
-    "THUNDER",
-    "ICEBEAM",
-]
-sex = ""
-nature = "MODEST"
-iv = 31
-nickname = "Lemuria"
-
-[trainers.14.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 0
-
-[[trainers.14.pokemon]]
-internal_name = "KELDEO"
-level = 100
-raw_item = "LEFTOVERS"
-raw_moves = [
-    "CALMMIND",
-    "FOCUSBLAST",
-    "SURF",
-    "HIDDENPOWERICE",
-]
-sex = ""
-nature = "TIMID"
-iv = 31
-nickname = "Thule"
-
-[trainers.14.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 0
-
-[[trainers.14.pokemon]]
-internal_name = "SLOWBRO"
-level = 100
-raw_item = "ASSAULTVEST"
-raw_moves = [
-    "FOCUSBLAST",
-    "SURF",
-    "PSYCHIC",
-    "FLAMETHROWER",
-]
-ability_number = 2
-sex = ""
-nature = "MODEST"
-iv = 31
-nickname = "Stratus"
-
-[trainers.14.pokemon.evs]
+[trainers.Fiancee.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
 spa = 0
-spd = 252
-spe = 4
-
-[[trainers.14.pokemon]]
-internal_name = "BLASTOISE"
-level = 100
-raw_item = "BLASTOISINITE"
-raw_moves = [
-    "AURASPHERE",
-    "DARKPULSE",
-    "SURF",
-    "HIDDENPOWERGRO",
-]
-sex = ""
-nature = "MODEST"
-iv = 31
-nickname = "Shellebelle"
-
-[trainers.14.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
+spd = 0
 spe = 0
 
-[[trainers.14.pokemon]]
-internal_name = "STARMIE"
-level = 100
-raw_item = "LIFEORB"
-raw_moves = [
-    "SURF",
-    "ICEBEAM",
-    "PSYCHIC",
-    "HIDDENPOWERBUG",
-]
-sex = ""
-nature = "TIMID"
-iv = 31
-nickname = "Twinkle"
-
-[trainers.14.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 0
-
-[[trainers.14.pokemon]]
-internal_name = "PALKIA"
-level = 100
-raw_item = "LIFEORB"
-raw_moves = [
-    "SURF",
-    "DRACOMETEOR",
-    "FOCUSBLAST",
-    "FIREBLAST",
-]
-sex = ""
-nature = "TIMID"
-iv = 31
-nickname = "Mu"
-
-[trainers.14.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 0
-
-[trainers.15]
+[trainers.AMARIA1.0]
 raw_trainer_class = "AMARIA1"
 battler_name = "Amaria"
-battler_id = 15
-raw_battle_items = []
-
-[[trainers.15.pokemon]]
-internal_name = "TAPUFINI"
-level = 100
-raw_item = "LEFTOVERS"
-raw_moves = [
-    "MOONBLAST",
-    "SCALD",
-    "CALMMIND",
-    "REFLECT",
-]
-sex = ""
-nature = "TIMID"
-iv = 31
-nickname = "Avalon"
-
-[trainers.15.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 0
-spa = 252
-spd = 4
-spe = 0
-
-[[trainers.15.pokemon]]
-internal_name = "PALKIA"
-level = 100
-raw_item = "LIFEORB"
-raw_moves = [
-    "SURF",
-    "DRACOMETEOR",
-    "AURASPHERE",
-    "FIREBLAST",
-]
-sex = ""
-nature = "TIMID"
-iv = 31
-nickname = "Mu"
-
-[trainers.15.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 0
-
-[[trainers.15.pokemon]]
-internal_name = "SLOWBRO"
-level = 100
-raw_item = "SLOWBRONITE"
-raw_moves = [
-    "FOCUSBLAST",
-    "SURF",
-    "PSYCHIC",
-    "FLAMETHROWER",
-]
-ability_number = 2
-sex = ""
-nature = "MODEST"
-iv = 31
-nickname = "Stratus"
-
-[trainers.15.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 252
-spe = 4
-
-[[trainers.15.pokemon]]
-internal_name = "STARMIE"
-level = 100
-raw_item = "LIFEORB"
-raw_moves = [
-    "SURF",
-    "ICEBEAM",
-    "PSYCHIC",
-    "CALMMIND",
-]
-sex = ""
-nature = "TIMID"
-iv = 31
-nickname = "Twinkle"
-
-[trainers.15.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 0
-
-[[trainers.15.pokemon]]
-internal_name = "MILOTIC"
-level = 100
-raw_item = "LEFTOVERS"
-raw_moves = [
-    "SCALD",
-    "ICEBEAM",
-    "RECOVER",
-    "HYPNOSIS",
-]
-sex = ""
-nature = "BOLD"
-iv = 31
-nickname = "Virga"
-
-[trainers.15.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 0
-spa = 0
-spd = 0
-spe = 252
-
-[[trainers.15.pokemon]]
-internal_name = "KYOGRE"
-level = 100
-raw_item = "BLUEORB"
-raw_moves = [
-    "SURF",
-    "CALMMIND",
-    "THUNDER",
-    "ICEBEAM",
-]
-sex = ""
-nature = "MODEST"
-iv = 31
-nickname = "Lemuria"
-
-[trainers.15.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 0
-
-[trainers.20]
-raw_trainer_class = "AMARIA2"
-battler_name = "Amaria"
-battler_id = 20
 raw_battle_items = [
     "ULTRAPOTION",
     "ULTRAPOTION",
-    "ULTRAPOTION",
 ]
 
-[[trainers.20.pokemon]]
+[[trainers.AMARIA1.0.pokemon]]
 internal_name = "STARMIE"
 level = 86
 raw_item = "LIGHTCLAY"
@@ -1317,7 +52,7 @@ nature = "MODEST"
 iv = 31
 nickname = "Twinkle"
 
-[trainers.20.pokemon.evs]
+[trainers.AMARIA1.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -1325,53 +60,53 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.20.pokemon]]
-internal_name = "PALAFIN"
+[[trainers.AMARIA1.0.pokemon]]
+internal_name = "WISHIWASHI"
 level = 86
 raw_item = "WIKIBERRY"
 raw_moves = [
-    "FLIPTURN",
-    "DRAINPUNCH",
-    "JETPUNCH",
     "DIVE",
+    "HIDDENPOWERELE",
+    "ICEBEAM",
+    "WHIRLPOOL",
 ]
-nature = "JOLLY"
+ability_number = 2
+nature = "MODEST"
 iv = 31
-nickname = "Poseidon"
+nickname = "Wishbuckler"
 
-[trainers.20.pokemon.evs]
+[trainers.AMARIA1.0.pokemon.evs]
 hp = 0
-atk = 100
-def_ = 152
+atk = 252
+def_ = 0
 spa = 252
-spd = 0
+spd = 4
 spe = 0
 
-[[trainers.20.pokemon]]
-internal_name = "BASCULEGION"
+[[trainers.AMARIA1.0.pokemon]]
+internal_name = "LUDICOLO"
 level = 87
 raw_item = "CHOICESPECS"
 raw_moves = [
     "ICEBEAM",
-    "PSYCHIC",
-    "SHADOWBALL",
+    "GIGADRAIN",
+    "FOCUSBLAST",
     "SURF",
 ]
-sex = "F"
 nature = "MODEST"
 iv = 31
-nickname = "Taimen"
+nickname = "Indiana"
 
-[trainers.20.pokemon.evs]
+[trainers.AMARIA1.0.pokemon.evs]
 hp = 0
-atk = 182
+atk = 252
 def_ = 0
-spa = 128
-spd = 200
+spa = 52
+spd = 206
 spe = 0
 
-[[trainers.20.pokemon]]
-internal_name = "DREDNAW"
+[[trainers.AMARIA1.0.pokemon]]
+internal_name = "SWAMPERT"
 level = 87
 raw_item = "ASSAULTVEST"
 raw_moves = [
@@ -1380,23 +115,22 @@ raw_moves = [
     "STONEEDGE",
     "WHIRLPOOL",
 ]
-ability_number = 2
 nature = "ADAMANT"
 iv = 31
-nickname = "Nibbles"
+nickname = "Kipkip"
 
-[trainers.20.pokemon.evs]
+[trainers.AMARIA1.0.pokemon.evs]
 hp = 0
-atk = 128
-def_ = 252
-spa = 128
+atk = 252
+def_ = 4
+spa = 0
 spd = 0
-spe = 0
+spe = 252
 
-[[trainers.20.pokemon]]
+[[trainers.AMARIA1.0.pokemon]]
 internal_name = "KINGDRA"
 level = 88
-raw_item = "KINGDRANITE"
+raw_item = "DRAGONIUMZ2"
 raw_moves = [
     "SCALD",
     "DRAGONPULSE",
@@ -1408,7 +142,7 @@ nature = "MODEST"
 iv = 31
 nickname = "Atlantica"
 
-[trainers.20.pokemon.evs]
+[trainers.AMARIA1.0.pokemon.evs]
 hp = 0
 atk = 100
 def_ = 0
@@ -1416,7 +150,7 @@ spa = 156
 spd = 252
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.AMARIA1.0.pokemon]]
 internal_name = "LAPRAS"
 level = 92
 raw_item = "ELEMENTALSEED"
@@ -1432,7 +166,7 @@ nature = "CAREFUL"
 iv = 31
 nickname = "Deliverance"
 
-[trainers.20.pokemon.evs]
+[trainers.AMARIA1.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -1440,62 +174,16 @@ spa = 0
 spd = 0
 spe = 4
 
-[trainers.21]
-raw_trainer_class = "AMARIA2"
+[trainers.AMARIA1.1]
+raw_trainer_class = "AMARIA1"
 battler_name = "Amaria"
-battler_id = 21
+battler_id = 1
 raw_battle_items = [
     "ULTRAPOTION",
     "ULTRAPOTION",
-    "ULTRAPOTION",
 ]
 
-[[trainers.21.pokemon]]
-internal_name = "LANTURN"
-level = 87
-raw_item = "ASSAULTVEST"
-raw_moves = [
-    "VOLTSWITCH",
-    "SURF",
-    "THUNDERBOLT",
-    "WHIRLPOOL",
-]
-nature = "MODEST"
-iv = 31
-nickname = "Nimbus"
-
-[trainers.21.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 0
-spa = 0
-spd = 200
-spe = 56
-
-[[trainers.21.pokemon]]
-internal_name = "INTELEON"
-level = 87
-raw_item = "CHOICESPECS"
-raw_moves = [
-    "SNIPESHOT",
-    "AURASPHERE",
-    "DARKPULSE",
-    "SHADOWBALL",
-]
-sex = "F"
-nature = "MODEST"
-iv = 31
-nickname = "Daphne"
-
-[trainers.21.pokemon.evs]
-hp = 0
-atk = 4
-def_ = 0
-spa = 252
-spd = 252
-spe = 0
-
-[[trainers.21.pokemon]]
+[[trainers.AMARIA1.1.pokemon]]
 internal_name = "VAPOREON"
 level = 86
 raw_item = "ASSAULTVEST"
@@ -1510,7 +198,7 @@ nature = "MODEST"
 iv = 31
 nickname = "Cirrus"
 
-[trainers.21.pokemon.evs]
+[trainers.AMARIA1.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -1518,7 +206,7 @@ spa = 0
 spd = 156
 spe = 100
 
-[[trainers.21.pokemon]]
+[[trainers.AMARIA1.1.pokemon]]
 internal_name = "SEISMITOAD"
 level = 86
 raw_item = "LIFEORB"
@@ -1533,7 +221,7 @@ nature = "MODEST"
 iv = 31
 nickname = "Cumulus"
 
-[trainers.21.pokemon.evs]
+[trainers.AMARIA1.1.pokemon.evs]
 hp = 0
 atk = 128
 def_ = 0
@@ -1541,22 +229,22 @@ spa = 128
 spd = 252
 spe = 0
 
-[[trainers.21.pokemon]]
-internal_name = "MILOTIC"
-level = 88
-raw_item = "MILOTICITE"
+[[trainers.AMARIA1.1.pokemon]]
+internal_name = "PRIMARINA"
+level = 87
+raw_item = "ELEMENTALSEED"
 raw_moves = [
-    "LIFEDEW",
-    "TOXIC",
+    "ENERGYBALL",
+    "DAZZLINGGLEAM",
+    "SURF",
     "ICEBEAM",
-    "WHIRLPOOL",
 ]
 sex = "F"
-nature = "BOLD"
+nature = "MODEST"
 iv = 31
-nickname = "Miracle"
+nickname = "LaReine"
 
-[trainers.21.pokemon.evs]
+[trainers.AMARIA1.1.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -1564,7 +252,52 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.21.pokemon]]
+[[trainers.AMARIA1.1.pokemon]]
+internal_name = "LANTURN"
+level = 87
+raw_item = "ASSAULTVEST"
+raw_moves = [
+    "VOLTSWITCH",
+    "SURF",
+    "THUNDERBOLT",
+    "WHIRLPOOL",
+]
+nature = "MODEST"
+iv = 31
+nickname = "Nimbus"
+
+[trainers.AMARIA1.1.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 200
+spe = 56
+
+[[trainers.AMARIA1.1.pokemon]]
+internal_name = "BLASTOISE"
+level = 88
+raw_item = "FIGHTINIUMZ2"
+raw_moves = [
+    "AURASPHERE",
+    "SURF",
+    "ICEBEAM",
+    "WHIRLPOOL",
+]
+sex = "F"
+nature = "MODEST"
+iv = 31
+nickname = "Shellebelle"
+
+[trainers.AMARIA1.1.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.AMARIA1.1.pokemon]]
 internal_name = "LAPRAS"
 level = 92
 raw_item = "ELEMENTALSEED"
@@ -1580,7 +313,7 @@ nature = "CALM"
 iv = 31
 nickname = "Deliverance"
 
-[trainers.21.pokemon.evs]
+[trainers.AMARIA1.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -1588,59 +321,1504 @@ spa = 0
 spd = 0
 spe = 156
 
-[trainers.22]
-raw_trainer_class = "AMARIA2"
+[trainers.AMARIA1.10]
+raw_trainer_class = "AMARIA1"
 battler_name = "Amaria"
-battler_id = 22
+battler_id = 10
 raw_battle_items = []
 
-[[trainers.22.pokemon]]
-internal_name = "PALAFIN"
-level = 94
-raw_item = "LIFEORB"
+[[trainers.AMARIA1.10.pokemon]]
+internal_name = "SWAMPERT"
+level = 100
+raw_item = "SWAMPERTITE"
 raw_moves = [
-    "IRONHEAD",
-    "JETPUNCH",
-    "ZENHEADBUTT",
-    "CLOSECOMBAT",
+    "WATERFALL",
+    "EARTHQUAKE",
+    "ICEPUNCH",
+    "STEALTHROCK",
 ]
-sex = "F"
-nature = "MODEST"
+ability_number = 1
+sex = ""
+nature = "ADAMANT"
 iv = 31
-nickname = "Poseidon"
+nickname = "Kipkip"
 
-[trainers.22.pokemon.evs]
+[trainers.AMARIA1.10.pokemon.evs]
 hp = 0
-atk = 4
+atk = 0
 def_ = 252
 spa = 252
 spd = 0
 spe = 0
 
-[[trainers.22.pokemon]]
-internal_name = "MILOTIC"
-level = 93
-raw_item = "DAMPROCK"
+[[trainers.AMARIA1.10.pokemon]]
+internal_name = "ROTOM"
+level = 100
+raw_item = "WIKIBERRY"
+raw_moves = [
+    "HYDROPUMP",
+    "VOLTSWITCH",
+    "DARKPULSE",
+    "WILLOWISP",
+]
+sex = ""
+form_number = 2
+nature = "BOLD"
+iv = 31
+nickname = "Arcus"
+
+[trainers.AMARIA1.10.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 252
+
+[[trainers.AMARIA1.10.pokemon]]
+internal_name = "KYOGRE"
+level = 100
+raw_item = "BLUEORB"
+raw_moves = [
+    "SURF",
+    "CALMMIND",
+    "THUNDER",
+    "ICEBEAM",
+]
+sex = ""
+nature = "MODEST"
+iv = 31
+nickname = "Lemuria"
+
+[trainers.AMARIA1.10.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.AMARIA1.10.pokemon]]
+internal_name = "TOXAPEX"
+level = 100
+raw_item = "ELEMENTALSEED"
 raw_moves = [
     "RECOVER",
-    "SCALD",
     "TOXIC",
-    "RAINDANCE",
+    "SCALD",
+    "WHIRLPOOL",
+]
+ability_number = 2
+sex = ""
+nature = "CALM"
+iv = 31
+nickname = "Mammatus"
+
+[trainers.AMARIA1.10.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 4
+
+[[trainers.AMARIA1.10.pokemon]]
+internal_name = "GRENINJA"
+level = 100
+raw_item = "CHOICESCARF"
+raw_moves = [
+    "SURF",
+    "ICEBEAM",
+    "GUNKSHOT",
+    "DARKPULSE",
+]
+ability_number = 1
+sex = ""
+nature = "MILD"
+iv = 31
+nickname = "Lenticula"
+
+[trainers.AMARIA1.10.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.AMARIA1.10.pokemon]]
+internal_name = "PRIMARINA"
+level = 100
+raw_item = "CHOICESPECS"
+raw_moves = [
+    "SCALD",
+    "PSYCHIC",
+    "MOONBLAST",
+    "ICEBEAM",
+]
+sex = ""
+nature = "MODEST"
+iv = 31
+nickname = "LaReine"
+
+[trainers.AMARIA1.10.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4
+
+[trainers.AMARIA1.11]
+raw_trainer_class = "AMARIA1"
+battler_name = "Amaria"
+battler_id = 11
+raw_battle_items = []
+
+[[trainers.AMARIA1.11.pokemon]]
+internal_name = "GRENINJA"
+level = 100
+raw_item = "ELEMENTALSEED"
+raw_moves = [
+    "SURF",
+    "BLIZZARD",
+    "SPIKES",
+    "DARKPULSE",
+]
+ability_number = 1
+sex = ""
+nature = "MODEST"
+iv = 31
+nickname = "Lenticula"
+
+[trainers.AMARIA1.11.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.AMARIA1.11.pokemon]]
+internal_name = "TAPUFINI"
+level = 100
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "MOONBLAST",
+    "WATERPULSE",
+    "NATURESMADNESS",
+    "HIDDENPOWERELE",
+]
+ability_number = 1
+sex = ""
+nature = "MODEST"
+iv = 31
+nickname = "Avalon"
+
+[trainers.AMARIA1.11.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.AMARIA1.11.pokemon]]
+internal_name = "KELDEO"
+level = 100
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "CALMMIND",
+    "SACREDSWORD",
+    "SURF",
+    "ICYWIND",
+]
+sex = ""
+nature = "TIMID"
+iv = 31
+nickname = "Thule"
+
+[trainers.AMARIA1.11.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.AMARIA1.11.pokemon]]
+internal_name = "SWAMPERT"
+level = 100
+raw_item = "SWAMPERTITE"
+raw_moves = [
+    "DIVE",
+    "AQUATAIL",
+    "STEALTHROCK",
+    "SUPERPOWER",
+]
+ability_number = 1
+sex = ""
+nature = "ADAMANT"
+iv = 31
+nickname = "Kipkip"
+
+[trainers.AMARIA1.11.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.AMARIA1.11.pokemon]]
+internal_name = "PALKIA"
+level = 100
+raw_item = "LIFEORB"
+raw_moves = [
+    "SURF",
+    "DRACOMETEOR",
+    "AURASPHERE",
+    "THUNDER",
+]
+sex = ""
+nature = "TIMID"
+iv = 31
+nickname = "Mu"
+
+[trainers.AMARIA1.11.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.AMARIA1.11.pokemon]]
+internal_name = "KYOGRE"
+level = 100
+raw_item = "BLUEORB"
+raw_moves = [
+    "ORIGINPULSE",
+    "ICEBEAM",
+    "THUNDER",
+    "CALMMIND",
+]
+sex = ""
+nature = "MODEST"
+iv = 31
+nickname = "Lemuria"
+
+[trainers.AMARIA1.11.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[trainers.AMARIA1.12]
+raw_trainer_class = "AMARIA1"
+battler_name = "Amaria"
+battler_id = 12
+raw_battle_items = []
+
+[[trainers.AMARIA1.12.pokemon]]
+internal_name = "EMPOLEON"
+level = 100
+raw_item = "FOCUSSASH"
+raw_moves = [
+    "STEALTHROCK",
+    "HYDROCANNON",
+    "BLIZZARD",
+    "HIDDENPOWERFIR",
+]
+sex = ""
+nature = "MODEST"
+iv = 31
+nickname = "Cumulus"
+
+[trainers.AMARIA1.12.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4
+
+[[trainers.AMARIA1.12.pokemon]]
+internal_name = "GRENINJA"
+level = 100
+raw_item = "SYNTHETICSEED"
+raw_moves = [
+    "HYDROCANNON",
+    "BLIZZARD",
+    "GUNKSHOT",
+    "ACROBATICS",
+]
+ability_number = 1
+sex = ""
+nature = "RASH"
+iv = 31
+nickname = "Lenticula"
+
+[trainers.AMARIA1.12.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4
+
+[[trainers.AMARIA1.12.pokemon]]
+internal_name = "BLASTOISE"
+level = 100
+raw_item = "ASSAULTVEST"
+raw_moves = [
+    "HYDROCANNON",
+    "BLIZZARD",
+    "AQUAJET",
+    "ZENHEADBUTT",
+]
+sex = ""
+nature = "CALM"
+iv = 31
+nickname = "Shellebelle"
+
+[trainers.AMARIA1.12.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 0
+spe = 4
+
+[[trainers.AMARIA1.12.pokemon]]
+internal_name = "SWAMPERT"
+level = 100
+raw_item = "SWAMPERTITE"
+raw_moves = [
+    "HYDROCANNON",
+    "EARTHQUAKE",
+    "SUPERPOWER",
+    "STONEEDGE",
+]
+sex = ""
+nature = "CAREFUL"
+iv = 31
+nickname = "Kipkip"
+
+[trainers.AMARIA1.12.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 0
+spe = 4
+
+[[trainers.AMARIA1.12.pokemon]]
+internal_name = "SAMUROTT"
+level = 100
+raw_item = "LIFEORB"
+raw_moves = [
+    "HYDROPUMP",
+    "AQUAJET",
+    "BLIZZARD",
+    "MEGAHORN",
+]
+sex = ""
+nature = "RASH"
+iv = 31
+nickname = "Alto"
+
+[trainers.AMARIA1.12.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4
+
+[[trainers.AMARIA1.12.pokemon]]
+internal_name = "PRIMARINA"
+level = 100
+raw_item = "LIFEORB"
+raw_moves = [
+    "HYDROCANNON",
+    "BLIZZARD",
+    "PSYCHIC",
+    "ENERGYBALL",
+]
+sex = ""
+nature = "MODEST"
+iv = 31
+nickname = "LaReine"
+
+[trainers.AMARIA1.12.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4
+
+[trainers.AMARIA1.13]
+raw_trainer_class = "AMARIA1"
+battler_name = "Amaria"
+battler_id = 13
+raw_battle_items = []
+
+[[trainers.AMARIA1.13.pokemon]]
+internal_name = "QWILFISH"
+level = 100
+raw_item = "TELLURICSEED"
+raw_moves = [
+    "TOXICSPIKES",
+    "POISONJAB",
+    "KNOCKOFF",
+    "SWORDSDANCE",
+]
+ability_number = 1
+sex = ""
+nature = "ADAMANT"
+iv = 31
+nickname = "Southerna"
+
+[trainers.AMARIA1.13.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.AMARIA1.13.pokemon]]
+internal_name = "SWAMPERT"
+level = 100
+raw_item = "SWAMPERTITE"
+raw_moves = [
+    "WATERFALL",
+    "EARTHQUAKE",
+    "SUPERPOWER",
+    "STEALTHROCK",
+]
+sex = ""
+nature = "CAREFUL"
+iv = 31
+nickname = "Kipkip"
+
+[trainers.AMARIA1.13.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 0
+spe = 4
+
+[[trainers.AMARIA1.13.pokemon]]
+internal_name = "GRENINJA"
+level = 100
+raw_item = "ASSAULTVEST"
+raw_moves = [
+    "SURF",
+    "ICEBEAM",
+    "GUNKSHOT",
+    "DARKPULSE",
+]
+ability_number = 1
+sex = ""
+nature = "HASTY"
+iv = 31
+nickname = "Lenticula"
+
+[trainers.AMARIA1.13.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.AMARIA1.13.pokemon]]
+internal_name = "VOLCANION"
+level = 100
+raw_item = "ASSAULTVEST"
+raw_moves = [
+    "STEAMERUPTION",
+    "FLAMETHROWER",
+    "EARTHPOWER",
+    "SLUDGEWAVE",
+]
+sex = ""
+nature = "MODEST"
+iv = 31
+nickname = "Agartha"
+
+[trainers.AMARIA1.13.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.AMARIA1.13.pokemon]]
+internal_name = "OMASTAR"
+level = 100
+raw_item = "WHITEHERB"
+raw_moves = [
+    "SHELLSMASH",
+    "SURF",
+    "MUDSHOT",
+    "ICEBEAM",
+]
+sex = ""
+nature = "MODEST"
+iv = 31
+nickname = "Nacreous"
+
+[trainers.AMARIA1.13.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4
+
+[[trainers.AMARIA1.13.pokemon]]
+internal_name = "TOXAPEX"
+level = 100
+raw_item = "TELLURICSEED"
+raw_moves = [
+    "RECOVER",
+    "TOXIC",
+    "GUNKSHOT",
+    "SMACKDOWN",
+]
+ability_number = 2
+sex = ""
+nature = "CALM"
+iv = 31
+nickname = "Mammatus"
+
+[trainers.AMARIA1.13.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 4
+
+[trainers.AMARIA1.14]
+raw_trainer_class = "AMARIA1"
+battler_name = "Amaria"
+battler_id = 14
+raw_battle_items = []
+
+[[trainers.AMARIA1.14.pokemon]]
+internal_name = "KYOGRE"
+level = 100
+raw_item = "BLUEORB"
+raw_moves = [
+    "SURF",
+    "CALMMIND",
+    "THUNDER",
+    "ICEBEAM",
+]
+sex = ""
+nature = "MODEST"
+iv = 31
+nickname = "Lemuria"
+
+[trainers.AMARIA1.14.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.AMARIA1.14.pokemon]]
+internal_name = "KELDEO"
+level = 100
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "CALMMIND",
+    "FOCUSBLAST",
+    "SURF",
+    "HIDDENPOWERICE",
+]
+sex = ""
+nature = "TIMID"
+iv = 31
+nickname = "Thule"
+
+[trainers.AMARIA1.14.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.AMARIA1.14.pokemon]]
+internal_name = "SLOWBRO"
+level = 100
+raw_item = "ASSAULTVEST"
+raw_moves = [
+    "FOCUSBLAST",
+    "SURF",
+    "PSYCHIC",
+    "FLAMETHROWER",
+]
+ability_number = 2
+sex = ""
+nature = "MODEST"
+iv = 31
+nickname = "Stratus"
+
+[trainers.AMARIA1.14.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 252
+spe = 4
+
+[[trainers.AMARIA1.14.pokemon]]
+internal_name = "BLASTOISE"
+level = 100
+raw_item = "BLASTOISINITE"
+raw_moves = [
+    "AURASPHERE",
+    "DARKPULSE",
+    "SURF",
+    "HIDDENPOWERGRO",
+]
+sex = ""
+nature = "MODEST"
+iv = 31
+nickname = "Shellebelle"
+
+[trainers.AMARIA1.14.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.AMARIA1.14.pokemon]]
+internal_name = "STARMIE"
+level = 100
+raw_item = "LIFEORB"
+raw_moves = [
+    "SURF",
+    "ICEBEAM",
+    "PSYCHIC",
+    "HIDDENPOWERBUG",
+]
+sex = ""
+nature = "TIMID"
+iv = 31
+nickname = "Twinkle"
+
+[trainers.AMARIA1.14.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.AMARIA1.14.pokemon]]
+internal_name = "PALKIA"
+level = 100
+raw_item = "LIFEORB"
+raw_moves = [
+    "SURF",
+    "DRACOMETEOR",
+    "FOCUSBLAST",
+    "FIREBLAST",
+]
+sex = ""
+nature = "TIMID"
+iv = 31
+nickname = "Mu"
+
+[trainers.AMARIA1.14.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[trainers.AMARIA1.15]
+raw_trainer_class = "AMARIA1"
+battler_name = "Amaria"
+battler_id = 15
+raw_battle_items = []
+
+[[trainers.AMARIA1.15.pokemon]]
+internal_name = "TAPUFINI"
+level = 100
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "MOONBLAST",
+    "SCALD",
+    "CALMMIND",
+    "REFLECT",
+]
+sex = ""
+nature = "TIMID"
+iv = 31
+nickname = "Avalon"
+
+[trainers.AMARIA1.15.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 252
+spd = 4
+spe = 0
+
+[[trainers.AMARIA1.15.pokemon]]
+internal_name = "PALKIA"
+level = 100
+raw_item = "LIFEORB"
+raw_moves = [
+    "SURF",
+    "DRACOMETEOR",
+    "AURASPHERE",
+    "FIREBLAST",
+]
+sex = ""
+nature = "TIMID"
+iv = 31
+nickname = "Mu"
+
+[trainers.AMARIA1.15.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.AMARIA1.15.pokemon]]
+internal_name = "SLOWBRO"
+level = 100
+raw_item = "SLOWBRONITE"
+raw_moves = [
+    "FOCUSBLAST",
+    "SURF",
+    "PSYCHIC",
+    "FLAMETHROWER",
+]
+ability_number = 2
+sex = ""
+nature = "MODEST"
+iv = 31
+nickname = "Stratus"
+
+[trainers.AMARIA1.15.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 252
+spe = 4
+
+[[trainers.AMARIA1.15.pokemon]]
+internal_name = "STARMIE"
+level = 100
+raw_item = "LIFEORB"
+raw_moves = [
+    "SURF",
+    "ICEBEAM",
+    "PSYCHIC",
+    "CALMMIND",
+]
+sex = ""
+nature = "TIMID"
+iv = 31
+nickname = "Twinkle"
+
+[trainers.AMARIA1.15.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.AMARIA1.15.pokemon]]
+internal_name = "MILOTIC"
+level = 100
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "SCALD",
+    "ICEBEAM",
+    "RECOVER",
+    "HYPNOSIS",
+]
+sex = ""
+nature = "BOLD"
+iv = 31
+nickname = "Virga"
+
+[trainers.AMARIA1.15.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 252
+
+[[trainers.AMARIA1.15.pokemon]]
+internal_name = "KYOGRE"
+level = 100
+raw_item = "BLUEORB"
+raw_moves = [
+    "SURF",
+    "CALMMIND",
+    "THUNDER",
+    "ICEBEAM",
+]
+sex = ""
+nature = "MODEST"
+iv = 31
+nickname = "Lemuria"
+
+[trainers.AMARIA1.15.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[trainers.AMARIA1.20]
+raw_trainer_class = "AMARIA1"
+battler_name = "Amaria"
+battler_id = 20
+raw_battle_items = [
+    "ULTRAPOTION",
+    "ULTRAPOTION",
+]
+
+[[trainers.AMARIA1.20.pokemon]]
+internal_name = "STARMIE"
+level = 86
+raw_item = "LIGHTCLAY"
+raw_moves = [
+    "SCALD",
+    "THUNDERBOLT",
+    "LIGHTSCREEN",
+    "ICEBEAM",
+]
+sex = ""
+form_number = 2
+nature = "MODEST"
+iv = 31
+nickname = "Twinkle"
+
+[trainers.AMARIA1.20.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.AMARIA1.20.pokemon]]
+internal_name = "PALAFIN"
+level = 86
+raw_item = "LIFEORB"
+raw_moves = [
+    "FLIPTURN",
+    "DRAINPUNCH",
+    "JETPUNCH",
+    "DIVE",
+]
+nature = "JOLLY"
+iv = 31
+nickname = "Poseidon"
+
+[trainers.AMARIA1.20.pokemon.evs]
+hp = 0
+atk = 100
+def_ = 152
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.AMARIA1.20.pokemon]]
+internal_name = "BASCULEGION"
+level = 87
+raw_item = "CHOICESPECS"
+raw_moves = [
+    "ICEBEAM",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "SURF",
+]
+sex = "F"
+nature = "MODEST"
+iv = 31
+nickname = "Taimen"
+
+[trainers.AMARIA1.20.pokemon.evs]
+hp = 0
+atk = 182
+def_ = 0
+spa = 128
+spd = 200
+spe = 0
+
+[[trainers.AMARIA1.20.pokemon]]
+internal_name = "DREDNAW"
+level = 87
+raw_item = "ASSAULTVEST"
+raw_moves = [
+    "DIVE",
+    "EARTHQUAKE",
+    "STONEEDGE",
+    "WHIRLPOOL",
+]
+ability_number = 2
+nature = "ADAMANT"
+iv = 31
+nickname = "Nibbles"
+
+[trainers.AMARIA1.20.pokemon.evs]
+hp = 0
+atk = 128
+def_ = 252
+spa = 128
+spd = 0
+spe = 0
+
+[[trainers.AMARIA1.20.pokemon]]
+internal_name = "KINGDRA"
+level = 88
+raw_item = "DRAGONIUMZ2"
+raw_moves = [
+    "SCALD",
+    "DRAGONPULSE",
+    "ICEBEAM",
+    "WHIRLPOOL",
+]
+sex = "F"
+nature = "MODEST"
+iv = 31
+nickname = "Atlantica"
+
+[trainers.AMARIA1.20.pokemon.evs]
+hp = 0
+atk = 100
+def_ = 0
+spa = 156
+spd = 252
+spe = 0
+
+[[trainers.AMARIA1.20.pokemon]]
+internal_name = "LAPRAS"
+level = 92
+raw_item = "ELEMENTALSEED"
+raw_moves = [
+    "CURSE",
+    "REST",
+    "DIVE",
+    "ICESHARD",
+]
+ability_number = 2
+sex = "F"
+nature = "CAREFUL"
+iv = 31
+nickname = "Deliverance"
+
+[trainers.AMARIA1.20.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 4
+
+[trainers.AMARIA1.21]
+raw_trainer_class = "AMARIA1"
+battler_name = "Amaria"
+battler_id = 21
+raw_battle_items = [
+    "ULTRAPOTION",
+    "ULTRAPOTION",
+]
+
+[[trainers.AMARIA1.21.pokemon]]
+internal_name = "VAPOREON"
+level = 86
+raw_item = "ASSAULTVEST"
+raw_moves = [
+    "SHADOWBALL",
+    "ICEBEAM",
+    "DIVE",
+    "SURF",
+]
+sex = "F"
+nature = "MODEST"
+iv = 31
+nickname = "Cirrus"
+
+[trainers.AMARIA1.21.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 156
+spe = 100
+
+[[trainers.AMARIA1.21.pokemon]]
+internal_name = "SEISMITOAD"
+level = 86
+raw_item = "LIFEORB"
+raw_moves = [
+    "SLUDGEBOMB",
+    "SURF",
+    "EARTHQUAKE",
+    "FOCUSBLAST",
+]
+ability_number = 2
+nature = "MODEST"
+iv = 31
+nickname = "Cumulus"
+
+[trainers.AMARIA1.21.pokemon.evs]
+hp = 0
+atk = 128
+def_ = 0
+spa = 128
+spd = 252
+spe = 0
+
+[[trainers.AMARIA1.21.pokemon]]
+internal_name = "INTELEON"
+level = 87
+raw_item = "CHOICESPECS"
+raw_moves = [
+    "SNIPESHOT",
+    "AURASPHERE",
+    "DARKPULSE",
+    "SHADOWBALL",
+]
+sex = "F"
+nature = "MODEST"
+iv = 31
+nickname = "Daphne"
+
+[trainers.AMARIA1.21.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.AMARIA1.21.pokemon]]
+internal_name = "LANTURN"
+level = 87
+raw_item = "ASSAULTVEST"
+raw_moves = [
+    "VOLTSWITCH",
+    "SURF",
+    "THUNDERBOLT",
+    "WHIRLPOOL",
+]
+nature = "MODEST"
+iv = 31
+nickname = "Nimbus"
+
+[trainers.AMARIA1.21.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 200
+spe = 56
+
+[[trainers.AMARIA1.21.pokemon]]
+internal_name = "MILOTIC"
+level = 88
+raw_item = "POISONIUMZ2"
+raw_moves = [
+    "TOXIC",
+    "LIFEDEW",
+    "ICEBEAM",
+    "WHIRLPOOL",
 ]
 sex = "F"
 nature = "BOLD"
 iv = 31
 nickname = "Miracle"
 
-[trainers.22.pokemon.evs]
+[trainers.AMARIA1.21.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 158
+spe = 100
+
+[[trainers.AMARIA1.21.pokemon]]
+internal_name = "LAPRAS"
+level = 92
+raw_item = "ELEMENTALSEED"
+raw_moves = [
+    "PROTECT",
+    "REST",
+    "PERISHSONG",
+    "SURF",
+]
+ability_number = 2
+sex = "F"
+nature = "CALM"
+iv = 31
+nickname = "Deliverance"
+
+[trainers.AMARIA1.21.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 156
+
+[trainers.AMARIA2.0]
+raw_trainer_class = "AMARIA2"
+battler_name = "Amaria"
+raw_battle_items = [
+    "ULTRAPOTION",
+    "ULTRAPOTION",
+    "ULTRAPOTION",
+]
+
+[[trainers.AMARIA2.0.pokemon]]
+internal_name = "STARMIE"
+level = 86
+raw_item = "LIGHTCLAY"
+raw_moves = [
+    "SCALD",
+    "THUNDERBOLT",
+    "LIGHTSCREEN",
+    "ICEBEAM",
+]
+sex = ""
+form_number = 2
+nature = "MODEST"
+iv = 31
+nickname = "Twinkle"
+
+[trainers.AMARIA2.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
-spa = 0
+spa = 252
 spd = 252
-spe = 252
+spe = 0
 
-[[trainers.22.pokemon]]
+[[trainers.AMARIA2.0.pokemon]]
+internal_name = "WISHIWASHI"
+level = 86
+raw_item = "WIKIBERRY"
+raw_moves = [
+    "DIVE",
+    "HIDDENPOWERELE",
+    "ICEBEAM",
+    "WHIRLPOOL",
+]
+ability_number = 2
+nature = "MODEST"
+iv = 31
+nickname = "Wishbuckler"
+
+[trainers.AMARIA2.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 252
+spd = 4
+spe = 0
+
+[[trainers.AMARIA2.0.pokemon]]
+internal_name = "LUDICOLO"
+level = 87
+raw_item = "CHOICESPECS"
+raw_moves = [
+    "ICEBEAM",
+    "GIGADRAIN",
+    "FOCUSBLAST",
+    "SURF",
+]
+nature = "MODEST"
+iv = 31
+nickname = "Indiana"
+
+[trainers.AMARIA2.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 52
+spd = 206
+spe = 0
+
+[[trainers.AMARIA2.0.pokemon]]
+internal_name = "SWAMPERT"
+level = 87
+raw_item = "SWAMPERTITE"
+raw_moves = [
+    "DIVE",
+    "EARTHQUAKE",
+    "STONEEDGE",
+    "WHIRLPOOL",
+]
+nature = "ADAMANT"
+iv = 31
+nickname = "Kipkip"
+
+[trainers.AMARIA2.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 0
+spd = 0
+spe = 4
+
+[[trainers.AMARIA2.0.pokemon]]
+internal_name = "KINGDRA"
+level = 88
+raw_item = "LIFEORB"
+raw_moves = [
+    "SCALD",
+    "DRAGONPULSE",
+    "ICEBEAM",
+    "WHIRLPOOL",
+]
+sex = "F"
+nature = "MODEST"
+iv = 31
+nickname = "Atlantica"
+
+[trainers.AMARIA2.0.pokemon.evs]
+hp = 0
+atk = 100
+def_ = 0
+spa = 156
+spd = 252
+spe = 0
+
+[[trainers.AMARIA2.0.pokemon]]
+internal_name = "LAPRAS"
+level = 92
+raw_item = "ELEMENTALSEED"
+raw_moves = [
+    "CURSE",
+    "REST",
+    "DIVE",
+    "ICESHARD",
+]
+ability_number = 2
+sex = "F"
+nature = "CAREFUL"
+iv = 31
+nickname = "Deliverance"
+
+[trainers.AMARIA2.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 4
+
+[trainers.AMARIA2.1]
+raw_trainer_class = "AMARIA2"
+battler_name = "Amaria"
+battler_id = 1
+raw_battle_items = [
+    "ULTRAPOTION",
+    "ULTRAPOTION",
+    "ULTRAPOTION",
+]
+
+[[trainers.AMARIA2.1.pokemon]]
+internal_name = "VAPOREON"
+level = 86
+raw_item = "ASSAULTVEST"
+raw_moves = [
+    "SHADOWBALL",
+    "ICEBEAM",
+    "DIVE",
+    "SURF",
+]
+sex = "F"
+nature = "MODEST"
+iv = 31
+nickname = "Cirrus"
+
+[trainers.AMARIA2.1.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 156
+spe = 100
+
+[[trainers.AMARIA2.1.pokemon]]
+internal_name = "SEISMITOAD"
+level = 86
+raw_item = "LIFEORB"
+raw_moves = [
+    "SLUDGEBOMB",
+    "SURF",
+    "EARTHQUAKE",
+    "FOCUSBLAST",
+]
+ability_number = 2
+nature = "MODEST"
+iv = 31
+nickname = "Cumulus"
+
+[trainers.AMARIA2.1.pokemon.evs]
+hp = 0
+atk = 128
+def_ = 0
+spa = 128
+spd = 252
+spe = 0
+
+[[trainers.AMARIA2.1.pokemon]]
+internal_name = "PRIMARINA"
+level = 87
+raw_item = "ELEMENTALSEED"
+raw_moves = [
+    "ENERGYBALL",
+    "DAZZLINGGLEAM",
+    "SURF",
+    "ICEBEAM",
+]
+sex = "F"
+nature = "MODEST"
+iv = 31
+nickname = "LaReine"
+
+[trainers.AMARIA2.1.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.AMARIA2.1.pokemon]]
+internal_name = "LANTURN"
+level = 87
+raw_item = "ASSAULTVEST"
+raw_moves = [
+    "VOLTSWITCH",
+    "SURF",
+    "THUNDERBOLT",
+    "WHIRLPOOL",
+]
+nature = "MODEST"
+iv = 31
+nickname = "Nimbus"
+
+[trainers.AMARIA2.1.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 200
+spe = 56
+
+[[trainers.AMARIA2.1.pokemon]]
+internal_name = "BLASTOISE"
+level = 88
+raw_item = "BLASTOISINITE"
+raw_moves = [
+    "AURASPHERE",
+    "SURF",
+    "ICEBEAM",
+    "WHIRLPOOL",
+]
+sex = "F"
+nature = "MODEST"
+iv = 31
+nickname = "Shellebelle"
+
+[trainers.AMARIA2.1.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.AMARIA2.1.pokemon]]
+internal_name = "LAPRAS"
+level = 92
+raw_item = "ELEMENTALSEED"
+raw_moves = [
+    "PROTECT",
+    "REST",
+    "PERISHSONG",
+    "SURF",
+]
+ability_number = 2
+sex = "F"
+nature = "CALM"
+iv = 31
+nickname = "Deliverance"
+
+[trainers.AMARIA2.1.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 156
+
+[trainers.AMARIA2.2]
+raw_trainer_class = "AMARIA2"
+battler_name = "Amaria"
+battler_id = 2
+raw_battle_items = []
+
+[[trainers.AMARIA2.2.pokemon]]
+internal_name = "STARMIE"
+level = 93
+raw_item = "LIGHTCLAY"
+raw_moves = [
+    "HYDROPUMP",
+    "THUNDER",
+    "LIGHTSCREEN",
+    "REFLECT",
+]
+sex = ""
+form_number = 2
+nature = "MODEST"
+iv = 31
+nickname = "Twinkle"
+
+[trainers.AMARIA2.2.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.AMARIA2.2.pokemon]]
 internal_name = "KINGDRA"
 level = 94
 raw_item = "DRAGONIUMZ2"
@@ -1655,7 +1833,7 @@ nature = "MODEST"
 iv = 31
 nickname = "Atlantica"
 
-[trainers.22.pokemon.evs]
+[trainers.AMARIA2.2.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -1663,7 +1841,471 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.22.pokemon]]
+[[trainers.AMARIA2.2.pokemon]]
+internal_name = "PRIMARINA"
+level = 94
+raw_item = "WISEGLASSES"
+raw_moves = [
+    "ENERGYBALL",
+    "DAZZLINGGLEAM",
+    "HYDROPUMP",
+    "ICEBEAM",
+]
+sex = "F"
+nature = "MODEST"
+iv = 31
+nickname = "LaReine"
+
+[trainers.AMARIA2.2.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.AMARIA2.2.pokemon]]
+internal_name = "SWAMPERT"
+level = 94
+raw_item = "SWAMPERTITE"
+raw_moves = [
+    "WATERFALL",
+    "EARTHQUAKE",
+    "HAMMERARM",
+    "ROCKSLIDE",
+]
+nature = "ADAMANT"
+iv = 31
+nickname = "Kipkip"
+
+[trainers.AMARIA2.2.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 0
+spd = 0
+spe = 4
+
+[[trainers.AMARIA2.2.pokemon]]
+internal_name = "TENTACRUEL"
+level = 94
+raw_item = "CHOICESPECS"
+raw_moves = [
+    "SLUDGEBOMB",
+    "DAZZLINGGLEAM",
+    "MUDDYWATER",
+    "BLIZZARD",
+]
+sex = "F"
+nature = "MODEST"
+iv = 31
+nickname = "WhirlGirl"
+
+[trainers.AMARIA2.2.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.AMARIA2.2.pokemon]]
+internal_name = "LAPRAS"
+level = 95
+raw_item = "WIDELENS"
+raw_moves = [
+    "BLIZZARD",
+    "THUNDER",
+    "HYDROPUMP",
+    "PSYCHIC",
+]
+ability_number = 2
+sex = "F"
+nature = "MODEST"
+iv = 31
+nickname = "Deliverance"
+
+[trainers.AMARIA2.2.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 252
+spe = 4
+
+[trainers.AMARIA2.20]
+raw_trainer_class = "AMARIA2"
+battler_name = "Amaria"
+battler_id = 20
+raw_battle_items = [
+    "ULTRAPOTION",
+    "ULTRAPOTION",
+    "ULTRAPOTION",
+]
+
+[[trainers.AMARIA2.20.pokemon]]
+internal_name = "STARMIE"
+level = 86
+raw_item = "LIGHTCLAY"
+raw_moves = [
+    "SCALD",
+    "THUNDERBOLT",
+    "LIGHTSCREEN",
+    "ICEBEAM",
+]
+sex = ""
+form_number = 2
+nature = "MODEST"
+iv = 31
+nickname = "Twinkle"
+
+[trainers.AMARIA2.20.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.AMARIA2.20.pokemon]]
+internal_name = "PALAFIN"
+level = 86
+raw_item = "WIKIBERRY"
+raw_moves = [
+    "FLIPTURN",
+    "DRAINPUNCH",
+    "JETPUNCH",
+    "DIVE",
+]
+nature = "JOLLY"
+iv = 31
+nickname = "Poseidon"
+
+[trainers.AMARIA2.20.pokemon.evs]
+hp = 0
+atk = 100
+def_ = 152
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.AMARIA2.20.pokemon]]
+internal_name = "BASCULEGION"
+level = 87
+raw_item = "CHOICESPECS"
+raw_moves = [
+    "ICEBEAM",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "SURF",
+]
+sex = "F"
+nature = "MODEST"
+iv = 31
+nickname = "Taimen"
+
+[trainers.AMARIA2.20.pokemon.evs]
+hp = 0
+atk = 182
+def_ = 0
+spa = 128
+spd = 200
+spe = 0
+
+[[trainers.AMARIA2.20.pokemon]]
+internal_name = "DREDNAW"
+level = 87
+raw_item = "ASSAULTVEST"
+raw_moves = [
+    "DIVE",
+    "EARTHQUAKE",
+    "STONEEDGE",
+    "WHIRLPOOL",
+]
+ability_number = 2
+nature = "ADAMANT"
+iv = 31
+nickname = "Nibbles"
+
+[trainers.AMARIA2.20.pokemon.evs]
+hp = 0
+atk = 128
+def_ = 252
+spa = 128
+spd = 0
+spe = 0
+
+[[trainers.AMARIA2.20.pokemon]]
+internal_name = "KINGDRA"
+level = 88
+raw_item = "KINGDRANITE"
+raw_moves = [
+    "SCALD",
+    "DRAGONPULSE",
+    "ICEBEAM",
+    "WHIRLPOOL",
+]
+sex = "F"
+nature = "MODEST"
+iv = 31
+nickname = "Atlantica"
+
+[trainers.AMARIA2.20.pokemon.evs]
+hp = 0
+atk = 100
+def_ = 0
+spa = 156
+spd = 252
+spe = 0
+
+[[trainers.AMARIA2.20.pokemon]]
+internal_name = "LAPRAS"
+level = 92
+raw_item = "ELEMENTALSEED"
+raw_moves = [
+    "CURSE",
+    "REST",
+    "DIVE",
+    "ICESHARD",
+]
+ability_number = 2
+sex = "F"
+nature = "CAREFUL"
+iv = 31
+nickname = "Deliverance"
+
+[trainers.AMARIA2.20.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 4
+
+[trainers.AMARIA2.21]
+raw_trainer_class = "AMARIA2"
+battler_name = "Amaria"
+battler_id = 21
+raw_battle_items = [
+    "ULTRAPOTION",
+    "ULTRAPOTION",
+    "ULTRAPOTION",
+]
+
+[[trainers.AMARIA2.21.pokemon]]
+internal_name = "LANTURN"
+level = 87
+raw_item = "ASSAULTVEST"
+raw_moves = [
+    "VOLTSWITCH",
+    "SURF",
+    "THUNDERBOLT",
+    "WHIRLPOOL",
+]
+nature = "MODEST"
+iv = 31
+nickname = "Nimbus"
+
+[trainers.AMARIA2.21.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 200
+spe = 56
+
+[[trainers.AMARIA2.21.pokemon]]
+internal_name = "INTELEON"
+level = 87
+raw_item = "CHOICESPECS"
+raw_moves = [
+    "SNIPESHOT",
+    "AURASPHERE",
+    "DARKPULSE",
+    "SHADOWBALL",
+]
+sex = "F"
+nature = "MODEST"
+iv = 31
+nickname = "Daphne"
+
+[trainers.AMARIA2.21.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.AMARIA2.21.pokemon]]
+internal_name = "VAPOREON"
+level = 86
+raw_item = "ASSAULTVEST"
+raw_moves = [
+    "SHADOWBALL",
+    "ICEBEAM",
+    "DIVE",
+    "SURF",
+]
+sex = "F"
+nature = "MODEST"
+iv = 31
+nickname = "Cirrus"
+
+[trainers.AMARIA2.21.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 156
+spe = 100
+
+[[trainers.AMARIA2.21.pokemon]]
+internal_name = "SEISMITOAD"
+level = 86
+raw_item = "LIFEORB"
+raw_moves = [
+    "SLUDGEBOMB",
+    "SURF",
+    "EARTHQUAKE",
+    "FOCUSBLAST",
+]
+ability_number = 2
+nature = "MODEST"
+iv = 31
+nickname = "Cumulus"
+
+[trainers.AMARIA2.21.pokemon.evs]
+hp = 0
+atk = 128
+def_ = 0
+spa = 128
+spd = 252
+spe = 0
+
+[[trainers.AMARIA2.21.pokemon]]
+internal_name = "MILOTIC"
+level = 88
+raw_item = "MILOTICITE"
+raw_moves = [
+    "LIFEDEW",
+    "TOXIC",
+    "ICEBEAM",
+    "WHIRLPOOL",
+]
+sex = "F"
+nature = "BOLD"
+iv = 31
+nickname = "Miracle"
+
+[trainers.AMARIA2.21.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.AMARIA2.21.pokemon]]
+internal_name = "LAPRAS"
+level = 92
+raw_item = "ELEMENTALSEED"
+raw_moves = [
+    "PROTECT",
+    "REST",
+    "PERISHSONG",
+    "SURF",
+]
+ability_number = 2
+sex = "F"
+nature = "CALM"
+iv = 31
+nickname = "Deliverance"
+
+[trainers.AMARIA2.21.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 156
+
+[trainers.AMARIA2.22]
+raw_trainer_class = "AMARIA2"
+battler_name = "Amaria"
+battler_id = 22
+raw_battle_items = []
+
+[[trainers.AMARIA2.22.pokemon]]
+internal_name = "PALAFIN"
+level = 94
+raw_item = "LIFEORB"
+raw_moves = [
+    "IRONHEAD",
+    "JETPUNCH",
+    "ZENHEADBUTT",
+    "CLOSECOMBAT",
+]
+sex = "F"
+nature = "MODEST"
+iv = 31
+nickname = "Poseidon"
+
+[trainers.AMARIA2.22.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.AMARIA2.22.pokemon]]
+internal_name = "MILOTIC"
+level = 93
+raw_item = "DAMPROCK"
+raw_moves = [
+    "RECOVER",
+    "SCALD",
+    "TOXIC",
+    "RAINDANCE",
+]
+sex = "F"
+nature = "BOLD"
+iv = 31
+nickname = "Miracle"
+
+[trainers.AMARIA2.22.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 0
+spd = 252
+spe = 252
+
+[[trainers.AMARIA2.22.pokemon]]
+internal_name = "KINGDRA"
+level = 94
+raw_item = "DRAGONIUMZ2"
+raw_moves = [
+    "MUDDYWATER",
+    "DRACOMETEOR",
+    "ICEBEAM",
+    "HIDDENPOWERFIG",
+]
+sex = "F"
+nature = "MODEST"
+iv = 31
+nickname = "Atlantica"
+
+[trainers.AMARIA2.22.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.AMARIA2.22.pokemon]]
 internal_name = "BASCULEGION"
 level = 94
 raw_item = "ASSAULTVEST"
@@ -1678,7 +2320,7 @@ nature = "MODEST"
 iv = 31
 nickname = "Taimen"
 
-[trainers.22.pokemon.evs]
+[trainers.AMARIA2.22.pokemon.evs]
 hp = 0
 atk = 182
 def_ = 0
@@ -1686,7 +2328,7 @@ spa = 128
 spd = 200
 spe = 0
 
-[[trainers.22.pokemon]]
+[[trainers.AMARIA2.22.pokemon]]
 internal_name = "DREDNAW"
 level = 87
 raw_item = "CHOICEBAND"
@@ -1701,7 +2343,7 @@ nature = "ADAMANT"
 iv = 31
 nickname = "Nibbles"
 
-[trainers.22.pokemon.evs]
+[trainers.AMARIA2.22.pokemon.evs]
 hp = 0
 atk = 128
 def_ = 252
@@ -1709,7 +2351,7 @@ spa = 128
 spd = 0
 spe = 0
 
-[[trainers.22.pokemon]]
+[[trainers.AMARIA2.22.pokemon]]
 internal_name = "LAPRAS"
 level = 95
 raw_item = "LAPRASITE"
@@ -1725,10 +2367,426 @@ nature = "ADAMANT"
 iv = 31
 nickname = "Deliverance"
 
-[trainers.22.pokemon.evs]
+[trainers.AMARIA2.22.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
 spa = 0
 spd = 0
 spe = 4
+
+[trainers.UMBAMARIA.0]
+raw_trainer_class = "UMBAMARIA"
+battler_name = "Amaria"
+raw_battle_items = []
+
+[[trainers.UMBAMARIA.0.pokemon]]
+internal_name = "TAPUBULU"
+level = 135
+raw_item = "ELEMENTALSEED"
+raw_moves = [
+    "WOODHAMMER",
+    "SUPERPOWER",
+    "ROCKSLIDE",
+    "NATUREPOWER",
+]
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.UMBAMARIA.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.UMBAMARIA.0.pokemon]]
+internal_name = "CELESTEELA"
+level = 135
+raw_item = "ELEMENTALSEED"
+raw_moves = [
+    "FLAMETHROWER",
+    "LEECHSEED",
+    "PROTECT",
+    "GIGADRAIN",
+]
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.UMBAMARIA.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.UMBAMARIA.0.pokemon]]
+internal_name = "VOLCARONA"
+level = 135
+raw_item = "ELEMENTALSEED"
+raw_moves = [
+    "GIGADRAIN",
+    "BUGBUZZ",
+    "HEATWAVE",
+    "QUIVERDANCE",
+]
+ability_number = 1
+sex = "F"
+nature = "TIMID"
+iv = 31
+
+[trainers.UMBAMARIA.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.UMBAMARIA.0.pokemon]]
+internal_name = "VOLCANION"
+level = 135
+raw_item = "ELEMENTALSEED"
+raw_moves = [
+    "SLUDGEBOMB",
+    "STEAMERUPTION",
+    "EARTHPOWER",
+    "HEATWAVE",
+]
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.UMBAMARIA.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.UMBAMARIA.0.pokemon]]
+internal_name = "PALKIA"
+level = 135
+raw_item = "ELECTRIUMZ2"
+raw_moves = [
+    "THUNDER",
+    "SPACIALREND",
+    "SURF",
+    "AURASPHERE",
+]
+ability_number = 1
+sex = ""
+nature = "TIMID"
+
+[trainers.UMBAMARIA.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.UMBAMARIA.0.pokemon]]
+internal_name = "KYOGRE"
+level = 135
+raw_item = "BLUEORB"
+raw_moves = [
+    "THUNDER",
+    "ORIGINPULSE",
+    "CALMMIND",
+    "ICEBEAM",
+]
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.UMBAMARIA.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[trainers.UMBAMARIA.1]
+raw_trainer_class = "UMBAMARIA"
+battler_name = "Amaria"
+battler_id = 1
+raw_battle_items = []
+
+[[trainers.UMBAMARIA.1.pokemon]]
+internal_name = "JOLTEON"
+level = 137
+raw_item = "LIFEORB"
+raw_moves = [
+    "DISCHARGE",
+    "SYNCHRONOISE",
+    "ROAR",
+    "HYPERBEAM",
+]
+ability_number = 1
+sex = "F"
+nature = "MILD"
+iv = 0
+
+[trainers.UMBAMARIA.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4
+
+[[trainers.UMBAMARIA.1.pokemon]]
+internal_name = "PRIMARINA"
+level = 138
+raw_item = "LIFEORB"
+raw_moves = [
+    "SPARKLINGARIA",
+    "PERISHSONG",
+    "BLIZZARD",
+    "DAZZLINGGLEAM",
+]
+sex = "F"
+nature = "MILD"
+iv = 0
+
+[trainers.UMBAMARIA.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4
+
+[[trainers.UMBAMARIA.1.pokemon]]
+internal_name = "MEGANIUM"
+level = 139
+raw_item = "LIFEORB"
+raw_moves = [
+    "EARTHQUAKE",
+    "PETALBLIZZARD",
+    "OUTRAGE",
+    "DOUBLEEDGE",
+]
+sex = "F"
+nature = "NAUGHTY"
+iv = 0
+
+[trainers.UMBAMARIA.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 4
+
+[[trainers.UMBAMARIA.1.pokemon]]
+internal_name = "QUAGSIRE"
+level = 139
+raw_item = "LIFEORB"
+raw_moves = [
+    "SURF",
+    "EARTHQUAKE",
+    "SLUDGEWAVE",
+    "RECOVER",
+]
+ability_number = 2
+sex = "F"
+nature = "RASH"
+iv = 0
+
+[trainers.UMBAMARIA.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 128
+spa = 252
+spd = 128
+spe = 4
+
+[[trainers.UMBAMARIA.1.pokemon]]
+internal_name = "LAPRAS"
+level = 141
+raw_item = "LIFEORB"
+raw_moves = [
+    "PERISHSONG",
+    "BULLDOZE",
+    "SURF",
+    "BLIZZARD",
+]
+ability_number = 2
+sex = "F"
+nature = "RASH"
+iv = 0
+
+[trainers.UMBAMARIA.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4
+
+[[trainers.UMBAMARIA.1.pokemon]]
+internal_name = "KYOGRE"
+level = 141
+raw_item = "BLUEORB"
+raw_moves = [
+    "SURF",
+    "EARTHQUAKE",
+    "CALMMIND",
+    "BLIZZARD",
+]
+sex = ""
+nature = "RASH"
+iv = 0
+
+[trainers.UMBAMARIA.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 52
+spa = 252
+spd = 200
+spe = 4
+
+[trainers.UMBAMARIA.2]
+raw_trainer_class = "UMBAMARIA"
+battler_name = "Amaria"
+battler_id = 2
+raw_battle_items = []
+
+[[trainers.UMBAMARIA.2.pokemon]]
+internal_name = "KINGDRA"
+level = 141
+raw_item = "WIDELENS"
+raw_moves = [
+    "BLIZZARD",
+    "MUDDYWATER",
+    "DRACOMETEOR",
+    "FLASHCANNON",
+]
+sex = "F"
+nature = "MODEST"
+
+[trainers.UMBAMARIA.2.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.UMBAMARIA.2.pokemon]]
+internal_name = "NINETALES"
+level = 141
+raw_item = "LIGHTCLAY"
+raw_moves = [
+    "AURORAVEIL",
+    "MOONBLAST",
+    "BLIZZARD",
+    "DARKPULSE",
+]
+ability_number = 1
+sex = "F"
+form_number = 1
+nature = "TIMID"
+
+[trainers.UMBAMARIA.2.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.UMBAMARIA.2.pokemon]]
+internal_name = "ZAPDOS"
+level = 142
+raw_item = "CHARTIBERRY"
+raw_moves = [
+    "THUNDER",
+    "HEATWAVE",
+    "TAILWIND",
+    "HIDDENPOWERICE",
+]
+ability_number = 1
+sex = ""
+nature = "MODEST"
+
+[trainers.UMBAMARIA.2.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.UMBAMARIA.2.pokemon]]
+internal_name = "TOXAPEX"
+level = 142
+raw_item = "ELEMENTALSEED"
+raw_moves = [
+    "RECOVER",
+    "WHIRLPOOL",
+    "BANEFULBUNKER",
+    "WIDEGUARD",
+]
+sex = "F"
+nature = "CALM"
+
+[trainers.UMBAMARIA.2.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.UMBAMARIA.2.pokemon]]
+internal_name = "PALKIA"
+level = 143
+raw_item = "LIFEORB"
+raw_moves = [
+    "THUNDER",
+    "SURF",
+    "INCINERATE",
+    "SPACIALREND",
+]
+ability_number = 1
+sex = ""
+nature = "MODEST"
+
+[trainers.UMBAMARIA.2.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.UMBAMARIA.2.pokemon]]
+internal_name = "SALAMENCE"
+level = 145
+raw_item = "SALAMENCITE"
+raw_moves = [
+    "HYPERVOICE",
+    "ROOST",
+    "PROTECT",
+    "HEATWAVE",
+]
+sex = "F"
+nature = "MODEST"
+iv = 20
+
+[trainers.UMBAMARIA.2.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252

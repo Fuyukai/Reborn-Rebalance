@@ -1,9 +1,29 @@
-[trainers.0]
+trainer_name = "Elena"
+
+[trainers.Doxy.0]
+raw_trainer_class = "Doxy"
+battler_name = "Elena"
+raw_battle_items = []
+
+[[trainers.Doxy.0.pokemon]]
+internal_name = "SEWADDLE"
+level = 15
+iv = 0
+
+[trainers.Doxy.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.ELENA.0]
 raw_trainer_class = "ELENA"
 battler_name = "Elena"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.ELENA.0.pokemon]]
 internal_name = "DRIFBLIM"
 level = 120
 raw_item = "SITRUSBERRY"
@@ -18,7 +38,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.ELENA.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -26,7 +46,7 @@ spa = 0
 spd = 0
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.ELENA.0.pokemon]]
 internal_name = "DRAGONITE"
 level = 120
 raw_item = "LIGHTCLAY"
@@ -41,7 +61,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.ELENA.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -49,7 +69,7 @@ spa = 4
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.ELENA.0.pokemon]]
 internal_name = "MAROWAK"
 level = 120
 raw_item = "ASSAULTVEST"
@@ -65,7 +85,7 @@ form_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.ELENA.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -73,7 +93,7 @@ spa = 0
 spd = 0
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.ELENA.0.pokemon]]
 internal_name = "AERODACTYL"
 level = 120
 raw_item = "CHOICEBAND"
@@ -88,7 +108,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.ELENA.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -96,7 +116,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.ELENA.0.pokemon]]
 internal_name = "DECIDUEYE"
 level = 120
 raw_item = "LIFEORB"
@@ -111,7 +131,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.ELENA.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -119,7 +139,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.ELENA.0.pokemon]]
 internal_name = "SALAMENCE"
 level = 120
 raw_item = "SALAMENCITE"
@@ -133,7 +153,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.ELENA.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0

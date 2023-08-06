@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Tapu-Fini"
+
+[trainers.TAPUFINI.0]
 raw_trainer_class = "TAPUFINI"
 battler_name = "Tapu-Fini"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.TAPUFINI.0.pokemon]]
 internal_name = "RIBOMBEE"
 level = 125
 raw_item = "FOCUSSASH"
@@ -18,7 +20,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.TAPUFINI.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -26,7 +28,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.TAPUFINI.0.pokemon]]
 internal_name = "AZUMARILL"
 level = 125
 raw_item = "ELEMENTALSEED"
@@ -41,7 +43,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.TAPUFINI.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 4
@@ -49,7 +51,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.TAPUFINI.0.pokemon]]
 internal_name = "MILOTIC"
 level = 125
 raw_item = "LEFTOVERS"
@@ -63,7 +65,7 @@ sex = ""
 nature = "CALM"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.TAPUFINI.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -71,7 +73,7 @@ spa = 0
 spd = 0
 spe = 200
 
-[[trainers.0.pokemon]]
+[[trainers.TAPUFINI.0.pokemon]]
 internal_name = "SYLVEON"
 level = 125
 raw_item = "ELEMENTALSEED"
@@ -86,7 +88,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.TAPUFINI.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -94,7 +96,7 @@ spa = 0
 spd = 252
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.TAPUFINI.0.pokemon]]
 internal_name = "MAGEARNA"
 level = 125
 raw_item = "ASSAULTVEST"
@@ -108,7 +110,7 @@ sex = ""
 nature = "CALM"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.TAPUFINI.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -116,7 +118,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.TAPUFINI.0.pokemon]]
 internal_name = "TAPUFINI"
 level = 125
 raw_item = "ELEMENTALSEED"
@@ -130,7 +132,7 @@ sex = ""
 nature = "CALM"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.TAPUFINI.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252

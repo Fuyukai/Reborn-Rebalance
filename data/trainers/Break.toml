@@ -1,14 +1,16 @@
-[trainers.0]
+trainer_name = "Break"
+
+[trainers.MAGMA2.0]
 raw_trainer_class = "MAGMA2"
 battler_name = "Break"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.MAGMA2.0.pokemon]]
 internal_name = "HOUNDOUR"
 level = 32
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.MAGMA2.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -16,12 +18,12 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.MAGMA2.0.pokemon]]
 internal_name = "LITLEO"
 level = 33
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.MAGMA2.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -29,12 +31,12 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.MAGMA2.0.pokemon]]
 internal_name = "LAMPENT"
 level = 33
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.MAGMA2.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

@@ -1,17 +1,19 @@
-[trainers.3]
+trainer_name = "Jonah"
+
+[trainers.YOUNGSTER.3]
 raw_trainer_class = "YOUNGSTER"
 battler_name = "Jonah"
 battler_id = 3
 raw_battle_items = []
 
-[[trainers.3.pokemon]]
+[[trainers.YOUNGSTER.3.pokemon]]
 internal_name = "SQUIRTLE"
 level = 14
 is_shiny = true
 nature = "DOCILE"
 iv = 15
 
-[trainers.3.pokemon.evs]
+[trainers.YOUNGSTER.3.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -19,153 +21,78 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.0]
-raw_trainer_class = "SPIRITM"
+[trainers.YOUNGSTER.0]
+raw_trainer_class = "YOUNGSTER"
 battler_name = "Jonah"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
-internal_name = "NOIVERN"
-level = 95
-raw_item = "MAGICALSEED"
-raw_moves = [
-    "BOOMBURST",
-    "DRAGONPULSE",
-    "FLAMETHROWER",
-    "AIRCUTTER",
-]
-ability_number = 1
-sex = ""
-nature = "TIMID"
-iv = 31
+[[trainers.YOUNGSTER.0.pokemon]]
+internal_name = "SQUIRTLE"
+level = 30
+is_shiny = true
+nature = "QUIRKY"
+iv = 15
 
-[trainers.0.pokemon.evs]
-hp = 0
-atk = 4
-def_ = 0
-spa = 252
-spd = 252
-spe = 0
-
-[[trainers.0.pokemon]]
-internal_name = "CHANDELURE"
-level = 95
-raw_item = "MAGICALSEED"
-raw_moves = [
-    "SHADOWBALL",
-    "HEATWAVE",
-    "HIDDENPOWERFIG",
-    "ENERGYBALL",
-]
-ability_number = 1
-sex = ""
-nature = "QUIET"
-iv = 32
-
-[trainers.0.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 0
-spa = 0
-spd = 252
-spe = 4
-
-[[trainers.0.pokemon]]
-internal_name = "PORYGON2"
-level = 95
-raw_item = "EVIOLITE"
-raw_moves = [
-    "RECOVER",
-    "TRICKROOM",
-    "BLIZZARD",
-    "THUNDERBOLT",
-]
-sex = ""
-nature = "RELAXED"
-iv = 32
-
-[trainers.0.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 0
-spa = 0
-spd = 0
-spe = 128
-
-[[trainers.0.pokemon]]
-internal_name = "AZUMARILL"
-level = 95
-raw_item = "SITRUSBERRY"
-raw_moves = [
-    "BELLYDRUM",
-    "AQUAJET",
-    "PLAYROUGH",
-    "BRICKBREAK",
-]
-ability_number = 1
-sex = ""
-nature = "BRAVE"
-iv = 32
-
-[trainers.0.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 128
-spa = 0
-spd = 128
-spe = 0
-
-[[trainers.0.pokemon]]
-internal_name = "AEGISLASH"
-level = 95
-raw_item = "LEFTOVERS"
-raw_moves = [
-    "SACREDSWORD",
-    "KINGSSHIELD",
-    "SHADOWSNEAK",
-    "ROCKSLIDE",
-]
-sex = ""
-nature = "BRAVE"
-iv = 32
-
-[trainers.0.pokemon.evs]
+[trainers.YOUNGSTER.0.pokemon.evs]
 hp = 0
 atk = 0
-def_ = 252
+def_ = 0
 spa = 0
 spd = 0
-spe = 128
+spe = 0
 
-[[trainers.0.pokemon]]
-internal_name = "MALAMAR"
-level = 95
-raw_item = "FIGHTINIUMZ2"
-raw_moves = [
-    "TRICKROOM",
-    "NIGHTSLASH",
-    "PSYCHOCUT",
-    "SUPERPOWER",
-]
-sex = ""
-nature = "BRAVE"
-iv = 32
+[[trainers.YOUNGSTER.0.pokemon]]
+internal_name = "SQUIRTLE"
+level = 34
+is_shiny = true
+nature = "SERIOUS"
+iv = 15
 
-[trainers.0.pokemon.evs]
+[trainers.YOUNGSTER.0.pokemon.evs]
 hp = 0
 atk = 0
-def_ = 252
+def_ = 0
 spa = 0
 spd = 0
-spe = 128
+spe = 0
 
-[trainers.1]
+[[trainers.YOUNGSTER.0.pokemon]]
+internal_name = "WARTORTLE"
+level = 38
+is_shiny = true
+nature = "BASHFUL"
+iv = 15
+
+[trainers.YOUNGSTER.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.YOUNGSTER.0.pokemon]]
+internal_name = "WARTORTLE"
+level = 42
+is_shiny = true
+nature = "DOCILE"
+iv = 15
+
+[trainers.YOUNGSTER.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.YOUNGSTER.1]
 raw_trainer_class = "YOUNGSTER"
 battler_name = "Jonah"
 battler_id = 1
 raw_battle_items = []
 
-[[trainers.1.pokemon]]
+[[trainers.YOUNGSTER.1.pokemon]]
 internal_name = "SQUIRTLE"
 level = 45
 raw_item = "LEFTOVERS"
@@ -179,7 +106,7 @@ is_shiny = true
 nature = "QUIRKY"
 iv = 15
 
-[trainers.1.pokemon.evs]
+[trainers.YOUNGSTER.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -187,7 +114,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.YOUNGSTER.1.pokemon]]
 internal_name = "WARTORTLE"
 level = 47
 raw_item = "LEFTOVERS"
@@ -201,7 +128,7 @@ is_shiny = true
 nature = "SERIOUS"
 iv = 15
 
-[trainers.1.pokemon.evs]
+[trainers.YOUNGSTER.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -209,7 +136,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.YOUNGSTER.1.pokemon]]
 internal_name = "WARTORTLE"
 level = 50
 raw_item = "LEFTOVERS"
@@ -223,7 +150,7 @@ is_shiny = true
 nature = "BASHFUL"
 iv = 15
 
-[trainers.1.pokemon.evs]
+[trainers.YOUNGSTER.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -231,7 +158,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.YOUNGSTER.1.pokemon]]
 internal_name = "BLASTOISE"
 level = 52
 raw_item = "LEFTOVERS"
@@ -245,7 +172,7 @@ is_shiny = true
 nature = "DOCILE"
 iv = 15
 
-[trainers.1.pokemon.evs]
+[trainers.YOUNGSTER.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -253,13 +180,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.2]
+[trainers.YOUNGSTER.2]
 raw_trainer_class = "YOUNGSTER"
 battler_name = "Jonah"
 battler_id = 2
 raw_battle_items = []
 
-[[trainers.2.pokemon]]
+[[trainers.YOUNGSTER.2.pokemon]]
 internal_name = "SQUIRTLE"
 level = 55
 raw_item = "LEFTOVERS"
@@ -273,7 +200,7 @@ is_shiny = true
 nature = "QUIRKY"
 iv = 15
 
-[trainers.2.pokemon.evs]
+[trainers.YOUNGSTER.2.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -281,7 +208,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.YOUNGSTER.2.pokemon]]
 internal_name = "WARTORTLE"
 level = 57
 raw_item = "LEFTOVERS"
@@ -295,7 +222,7 @@ is_shiny = true
 nature = "SERIOUS"
 iv = 15
 
-[trainers.2.pokemon.evs]
+[trainers.YOUNGSTER.2.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -303,7 +230,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.YOUNGSTER.2.pokemon]]
 internal_name = "BLASTOISE"
 level = 60
 raw_item = "LEFTOVERS"
@@ -317,7 +244,7 @@ is_shiny = true
 nature = "BASHFUL"
 iv = 15
 
-[trainers.2.pokemon.evs]
+[trainers.YOUNGSTER.2.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -325,7 +252,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.YOUNGSTER.2.pokemon]]
 internal_name = "BLASTOISE"
 level = 62
 raw_item = "LEFTOVERS"
@@ -339,7 +266,7 @@ is_shiny = true
 nature = "DOCILE"
 iv = 15
 
-[trainers.2.pokemon.evs]
+[trainers.YOUNGSTER.2.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -347,13 +274,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.4]
+[trainers.YOUNGSTER.4]
 raw_trainer_class = "YOUNGSTER"
 battler_name = "Jonah"
 battler_id = 4
 raw_battle_items = []
 
-[[trainers.4.pokemon]]
+[[trainers.YOUNGSTER.4.pokemon]]
 internal_name = "SQUIRTLE"
 level = 82
 raw_item = "LEFTOVERS"
@@ -368,7 +295,7 @@ is_shiny = true
 nature = "QUIRKY"
 iv = 15
 
-[trainers.4.pokemon.evs]
+[trainers.YOUNGSTER.4.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -376,7 +303,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.4.pokemon]]
+[[trainers.YOUNGSTER.4.pokemon]]
 internal_name = "WARTORTLE"
 level = 83
 raw_item = "LEFTOVERS"
@@ -391,7 +318,7 @@ is_shiny = true
 nature = "SERIOUS"
 iv = 15
 
-[trainers.4.pokemon.evs]
+[trainers.YOUNGSTER.4.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -399,7 +326,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.4.pokemon]]
+[[trainers.YOUNGSTER.4.pokemon]]
 internal_name = "BLASTOISE"
 level = 84
 raw_item = "LEFTOVERS"
@@ -414,7 +341,7 @@ is_shiny = true
 nature = "BASHFUL"
 iv = 15
 
-[trainers.4.pokemon.evs]
+[trainers.YOUNGSTER.4.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -422,7 +349,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.4.pokemon]]
+[[trainers.YOUNGSTER.4.pokemon]]
 internal_name = "BLASTOISE"
 level = 85
 raw_item = "BLASTOISINITE"
@@ -437,7 +364,7 @@ is_shiny = true
 nature = "DOCILE"
 iv = 15
 
-[trainers.4.pokemon.evs]
+[trainers.YOUNGSTER.4.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -445,18 +372,18 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.5]
+[trainers.YOUNGSTER.5]
 raw_trainer_class = "YOUNGSTER"
 battler_name = "Jonah"
 battler_id = 5
 raw_battle_items = []
 
-[[trainers.5.pokemon]]
+[[trainers.YOUNGSTER.5.pokemon]]
 internal_name = "SQUIRTLE"
 level = 20
 iv = 0
 
-[trainers.5.pokemon.evs]
+[trainers.YOUNGSTER.5.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -464,12 +391,12 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.5.pokemon]]
+[[trainers.YOUNGSTER.5.pokemon]]
 internal_name = "SQUIRTLE"
 level = 21
 iv = 0
 
-[trainers.5.pokemon.evs]
+[trainers.YOUNGSTER.5.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -477,15 +404,155 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.5.pokemon]]
+[[trainers.YOUNGSTER.5.pokemon]]
 internal_name = "WARTORTLE"
 level = 22
 iv = 0
 
-[trainers.5.pokemon.evs]
+[trainers.YOUNGSTER.5.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
 spa = 0
 spd = 0
 spe = 0
+
+[trainers.SPIRITM.0]
+raw_trainer_class = "SPIRITM"
+battler_name = "Jonah"
+raw_battle_items = []
+
+[[trainers.SPIRITM.0.pokemon]]
+internal_name = "NOIVERN"
+level = 95
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "BOOMBURST",
+    "DRAGONPULSE",
+    "FLAMETHROWER",
+    "AIRCUTTER",
+]
+ability_number = 1
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.SPIRITM.0.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.SPIRITM.0.pokemon]]
+internal_name = "CHANDELURE"
+level = 95
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "SHADOWBALL",
+    "HEATWAVE",
+    "HIDDENPOWERFIG",
+    "ENERGYBALL",
+]
+ability_number = 1
+sex = ""
+nature = "QUIET"
+iv = 32
+
+[trainers.SPIRITM.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 252
+spe = 4
+
+[[trainers.SPIRITM.0.pokemon]]
+internal_name = "PORYGON2"
+level = 95
+raw_item = "EVIOLITE"
+raw_moves = [
+    "RECOVER",
+    "TRICKROOM",
+    "BLIZZARD",
+    "THUNDERBOLT",
+]
+sex = ""
+nature = "RELAXED"
+iv = 32
+
+[trainers.SPIRITM.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 128
+
+[[trainers.SPIRITM.0.pokemon]]
+internal_name = "AZUMARILL"
+level = 95
+raw_item = "SITRUSBERRY"
+raw_moves = [
+    "BELLYDRUM",
+    "AQUAJET",
+    "PLAYROUGH",
+    "BRICKBREAK",
+]
+ability_number = 1
+sex = ""
+nature = "BRAVE"
+iv = 32
+
+[trainers.SPIRITM.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 128
+spa = 0
+spd = 128
+spe = 0
+
+[[trainers.SPIRITM.0.pokemon]]
+internal_name = "AEGISLASH"
+level = 95
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "SACREDSWORD",
+    "KINGSSHIELD",
+    "SHADOWSNEAK",
+    "ROCKSLIDE",
+]
+sex = ""
+nature = "BRAVE"
+iv = 32
+
+[trainers.SPIRITM.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 0
+spd = 0
+spe = 128
+
+[[trainers.SPIRITM.0.pokemon]]
+internal_name = "MALAMAR"
+level = 95
+raw_item = "FIGHTINIUMZ2"
+raw_moves = [
+    "TRICKROOM",
+    "NIGHTSLASH",
+    "PSYCHOCUT",
+    "SUPERPOWER",
+]
+sex = ""
+nature = "BRAVE"
+iv = 32
+
+[trainers.SPIRITM.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 0
+spd = 0
+spe = 128

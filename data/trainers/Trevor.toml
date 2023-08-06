@@ -1,9 +1,153 @@
-[trainers.0]
+trainer_name = "Trevor"
+
+[trainers.SPIRITM.0]
+raw_trainer_class = "SPIRITM"
+battler_name = "Trevor"
+raw_battle_items = []
+
+[[trainers.SPIRITM.0.pokemon]]
+internal_name = "ROTOM"
+level = 95
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "HYDROPUMP",
+    "THUNDERBOLT",
+    "RAINDANCE",
+    "PAINSPLIT",
+]
+sex = ""
+form_number = 2
+nature = "MODEST"
+iv = 31
+
+[trainers.SPIRITM.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 252
+spe = 128
+
+[[trainers.SPIRITM.0.pokemon]]
+internal_name = "DRAGONITE"
+level = 95
+raw_item = "CHOICEBAND"
+raw_moves = [
+    "ROCKSLIDE",
+    "DRAGONCLAW",
+    "FIREPUNCH",
+    "EXTREMESPEED",
+]
+ability_number = 1
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.SPIRITM.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 4
+spd = 0
+spe = 0
+
+[[trainers.SPIRITM.0.pokemon]]
+internal_name = "INFERNAPE"
+level = 95
+raw_item = "LIFEORB"
+raw_moves = [
+    "HEATWAVE",
+    "ROCKSLIDE",
+    "CLOSECOMBAT",
+    "FAKEOUT",
+]
+sex = ""
+nature = "NAIVE"
+iv = 31
+
+[trainers.SPIRITM.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 4
+
+[[trainers.SPIRITM.0.pokemon]]
+internal_name = "SERPERIOR"
+level = 95
+raw_item = "LIFEORB"
+raw_moves = [
+    "LEAFSTORM",
+    "DRAGONPULSE",
+    "HIDDENPOWERFIR",
+    "SUNNYDAY",
+]
+ability_number = 1
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.SPIRITM.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4
+
+[[trainers.SPIRITM.0.pokemon]]
+internal_name = "STARMIE"
+level = 95
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "ICEBEAM",
+    "HYDROPUMP",
+    "THUNDERBOLT",
+    "RAPIDSPIN",
+]
+ability_number = 2
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.SPIRITM.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4
+
+[[trainers.SPIRITM.0.pokemon]]
+internal_name = "HONCHKROW"
+level = 95
+raw_item = "LIFEORB"
+raw_moves = [
+    "SUCKERPUNCH",
+    "HEATWAVE",
+    "BRAVEBIRD",
+    "SUPERPOWER",
+]
+ability_number = 2
+sex = ""
+nature = "JOLLY"
+iv = 31
+
+[trainers.SPIRITM.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[trainers.AceTrainerM.0]
 raw_trainer_class = "AceTrainerM"
 battler_name = "Trevor"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.AceTrainerM.0.pokemon]]
 internal_name = "GARDEVOIR"
 level = 109
 raw_item = "SITRUSBERRY"
@@ -18,7 +162,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.AceTrainerM.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -26,7 +170,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.AceTrainerM.0.pokemon]]
 internal_name = "GYARADOS"
 level = 110
 raw_item = "LUMBERRY"
@@ -42,7 +186,7 @@ nature = "ADAMANT"
 iv = 31
 happiness = 255
 
-[trainers.0.pokemon.evs]
+[trainers.AceTrainerM.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -50,7 +194,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.AceTrainerM.0.pokemon]]
 internal_name = "SALAMENCE"
 level = 110
 raw_item = "YACHEBERRY"
@@ -65,7 +209,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.AceTrainerM.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -73,7 +217,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.AceTrainerM.0.pokemon]]
 internal_name = "CHARIZARD"
 level = 109
 raw_item = "CHARTIBERRY"
@@ -88,7 +232,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.AceTrainerM.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -96,7 +240,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.AceTrainerM.0.pokemon]]
 internal_name = "EMPOLEON"
 level = 108
 raw_item = "SALACBERRY"
@@ -110,7 +254,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.AceTrainerM.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -118,7 +262,7 @@ spa = 0
 spd = 252
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.AceTrainerM.0.pokemon]]
 internal_name = "HONCHKROW"
 level = 111
 raw_item = "LIECHIBERRY"
@@ -133,7 +277,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.AceTrainerM.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252

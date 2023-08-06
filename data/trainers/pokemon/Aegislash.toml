@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Aegislash"
+
+[trainers.DIASWORD.0]
 raw_trainer_class = "DIASWORD"
 battler_name = "Aegislash"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.DIASWORD.0.pokemon]]
 internal_name = "AEGISLASH"
 level = 125
 raw_item = "EXPERTBELT"
@@ -18,7 +20,7 @@ form_number = 2
 nature = "SERIOUS"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.DIASWORD.0.pokemon.evs]
 hp = 0
 atk = 1508
 def_ = 252

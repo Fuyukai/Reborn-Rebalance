@@ -1,14 +1,16 @@
-[trainers.0]
+trainer_name = "Yagami"
+
+[trainers.EXPERT_Male.0]
 raw_trainer_class = "EXPERT_Male"
 battler_name = "Yagami"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.EXPERT_Male.0.pokemon]]
 internal_name = "SPHEAL"
 level = 32
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.EXPERT_Male.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Flora"
+
+[trainers.FLORA.0]
 raw_trainer_class = "FLORA"
 battler_name = "Flora"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.FLORA.0.pokemon]]
 internal_name = "TSAREENA"
 level = 120
 raw_item = "ASSAULTVEST"
@@ -18,7 +20,7 @@ sex = "F"
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.FLORA.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -26,7 +28,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.FLORA.0.pokemon]]
 internal_name = "MISMAGIUS"
 level = 120
 raw_item = "EXPERTBELT"
@@ -41,7 +43,7 @@ form_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.FLORA.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -49,7 +51,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.FLORA.0.pokemon]]
 internal_name = "FERROTHORN"
 level = 120
 raw_item = "LEFTOVERS"
@@ -63,7 +65,7 @@ sex = ""
 nature = "BRAVE"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.FLORA.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -71,7 +73,7 @@ spa = 0
 spd = 0
 spe = 128
 
-[[trainers.0.pokemon]]
+[[trainers.FLORA.0.pokemon]]
 internal_name = "ROSERADE"
 level = 120
 raw_item = "COBABERRY"
@@ -86,7 +88,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.FLORA.0.pokemon.evs]
 hp = 0
 atk = 148
 def_ = 0
@@ -94,7 +96,7 @@ spa = 252
 spd = 100
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.FLORA.0.pokemon]]
 internal_name = "ROTOM"
 level = 120
 raw_item = "WHITEHERB"
@@ -110,7 +112,7 @@ form_number = 5
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.FLORA.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -118,7 +120,7 @@ spa = 252
 spd = 0
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.FLORA.0.pokemon]]
 internal_name = "VENUSAUR"
 level = 120
 raw_item = "VENUSAURITE"
@@ -133,7 +135,7 @@ is_shiny = true
 nature = "BOLD"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.FLORA.0.pokemon.evs]
 hp = 0
 atk = 232
 def_ = 0
@@ -141,13 +143,13 @@ spa = 20
 spd = 4
 spe = 128
 
-[trainers.1]
+[trainers.FLORA.1]
 raw_trainer_class = "FLORA"
 battler_name = "Flora"
 battler_id = 1
 raw_battle_items = []
 
-[[trainers.1.pokemon]]
+[[trainers.FLORA.1.pokemon]]
 internal_name = "FERROTHORN"
 level = 120
 raw_item = "LEFTOVERS"
@@ -161,7 +163,7 @@ sex = ""
 nature = "BRAVE"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.FLORA.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -169,7 +171,7 @@ spa = 0
 spd = 0
 spe = 128
 
-[[trainers.1.pokemon]]
+[[trainers.FLORA.1.pokemon]]
 internal_name = "TSAREENA"
 level = 120
 raw_item = "ASSAULTVEST"
@@ -184,7 +186,7 @@ sex = "F"
 nature = "ADAMANT"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.FLORA.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -192,7 +194,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.1.pokemon]]
+[[trainers.FLORA.1.pokemon]]
 internal_name = "ROTOM"
 level = 120
 raw_item = "WHITEHERB"
@@ -208,7 +210,7 @@ form_number = 5
 nature = "TIMID"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.FLORA.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -216,13 +218,13 @@ spa = 252
 spd = 0
 spe = 4
 
-[trainers.2]
+[trainers.FLORA.2]
 raw_trainer_class = "FLORA"
 battler_name = "Flora"
 battler_id = 2
 raw_battle_items = []
 
-[[trainers.2.pokemon]]
+[[trainers.FLORA.2.pokemon]]
 internal_name = "FERROTHORN"
 level = 120
 raw_item = "LEFTOVERS"
@@ -236,7 +238,7 @@ sex = ""
 nature = "BRAVE"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.FLORA.2.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -244,7 +246,7 @@ spa = 0
 spd = 0
 spe = 128
 
-[[trainers.2.pokemon]]
+[[trainers.FLORA.2.pokemon]]
 internal_name = "MISMAGIUS"
 level = 120
 raw_item = "FOCUSSASH"
@@ -259,7 +261,7 @@ form_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.FLORA.2.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -267,7 +269,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.FLORA.2.pokemon]]
 internal_name = "VENUSAUR"
 level = 120
 raw_item = "VENUSAURITE"
@@ -282,7 +284,7 @@ is_shiny = true
 nature = "BOLD"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.FLORA.2.pokemon.evs]
 hp = 0
 atk = 232
 def_ = 0
@@ -290,13 +292,13 @@ spa = 20
 spd = 4
 spe = 128
 
-[trainers.3]
+[trainers.FLORA.3]
 raw_trainer_class = "FLORA"
 battler_name = "Flora"
 battler_id = 3
 raw_battle_items = []
 
-[[trainers.3.pokemon]]
+[[trainers.FLORA.3.pokemon]]
 internal_name = "ROTOM"
 level = 120
 raw_item = "WHITEHERB"
@@ -312,7 +314,7 @@ form_number = 5
 nature = "TIMID"
 iv = 31
 
-[trainers.3.pokemon.evs]
+[trainers.FLORA.3.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -320,7 +322,7 @@ spa = 252
 spd = 0
 spe = 4
 
-[[trainers.3.pokemon]]
+[[trainers.FLORA.3.pokemon]]
 internal_name = "TSAREENA"
 level = 120
 raw_item = "ASSAULTVEST"
@@ -335,7 +337,7 @@ sex = "F"
 nature = "ADAMANT"
 iv = 31
 
-[trainers.3.pokemon.evs]
+[trainers.FLORA.3.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -343,7 +345,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.3.pokemon]]
+[[trainers.FLORA.3.pokemon]]
 internal_name = "ROSERADE"
 level = 120
 raw_item = "COBABERRY"
@@ -358,7 +360,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.3.pokemon.evs]
+[trainers.FLORA.3.pokemon.evs]
 hp = 0
 atk = 148
 def_ = 0
@@ -366,13 +368,13 @@ spa = 252
 spd = 100
 spe = 4
 
-[trainers.4]
+[trainers.FLORA.4]
 raw_trainer_class = "FLORA"
 battler_name = "Flora"
 battler_id = 4
 raw_battle_items = []
 
-[[trainers.4.pokemon]]
+[[trainers.FLORA.4.pokemon]]
 internal_name = "MISMAGIUS"
 level = 120
 raw_item = "FOCUSSASH"
@@ -387,7 +389,7 @@ form_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.4.pokemon.evs]
+[trainers.FLORA.4.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -395,7 +397,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.4.pokemon]]
+[[trainers.FLORA.4.pokemon]]
 internal_name = "FERROTHORN"
 level = 120
 raw_item = "LEFTOVERS"
@@ -409,7 +411,7 @@ sex = ""
 nature = "BRAVE"
 iv = 31
 
-[trainers.4.pokemon.evs]
+[trainers.FLORA.4.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -417,7 +419,7 @@ spa = 0
 spd = 0
 spe = 128
 
-[[trainers.4.pokemon]]
+[[trainers.FLORA.4.pokemon]]
 internal_name = "VENUSAUR"
 level = 120
 raw_item = "VENUSAURITE"
@@ -432,7 +434,7 @@ is_shiny = true
 nature = "BOLD"
 iv = 31
 
-[trainers.4.pokemon.evs]
+[trainers.FLORA.4.pokemon.evs]
 hp = 0
 atk = 232
 def_ = 0

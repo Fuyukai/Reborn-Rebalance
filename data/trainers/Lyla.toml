@@ -1,9 +1,29 @@
-[trainers.0]
+trainer_name = "Lyla"
+
+[trainers.CultistF.0]
+raw_trainer_class = "CultistF"
+battler_name = "Lyla"
+raw_battle_items = []
+
+[[trainers.CultistF.0.pokemon]]
+internal_name = "WIGGLYTUFF"
+level = 62
+iv = 0
+
+[trainers.CultistF.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.NWCultistF.0]
 raw_trainer_class = "NWCultistF"
 battler_name = "Lyla"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.NWCultistF.0.pokemon]]
 internal_name = "NOIVERN"
 level = 73
 raw_moves = [
@@ -15,7 +35,7 @@ raw_moves = [
 ability_number = 2
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.NWCultistF.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -23,7 +43,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.NWCultistF.0.pokemon]]
 internal_name = "WHIMSICOTT"
 level = 74
 raw_moves = [
@@ -35,7 +55,7 @@ raw_moves = [
 ability_number = 2
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.NWCultistF.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -43,7 +63,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.NWCultistF.0.pokemon]]
 internal_name = "WIGGLYTUFF"
 level = 75
 raw_moves = [
@@ -54,7 +74,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.NWCultistF.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -62,13 +82,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.1]
+[trainers.NWCultistF.1]
 raw_trainer_class = "NWCultistF"
 battler_name = "Lyla"
 battler_id = 1
 raw_battle_items = []
 
-[[trainers.1.pokemon]]
+[[trainers.NWCultistF.1.pokemon]]
 internal_name = "NOIVERN"
 level = 87
 raw_moves = [
@@ -80,7 +100,7 @@ raw_moves = [
 ability_number = 2
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.NWCultistF.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -88,7 +108,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.NWCultistF.1.pokemon]]
 internal_name = "WHIMSICOTT"
 level = 87
 raw_moves = [
@@ -100,7 +120,7 @@ raw_moves = [
 ability_number = 2
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.NWCultistF.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -108,7 +128,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.NWCultistF.1.pokemon]]
 internal_name = "WIGGLYTUFF"
 level = 87
 raw_moves = [
@@ -119,7 +139,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.NWCultistF.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -127,7 +147,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.NWCultistF.1.pokemon]]
 internal_name = "HAXORUS"
 level = 87
 raw_moves = [
@@ -139,7 +159,7 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.NWCultistF.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

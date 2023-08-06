@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Manwe"
+
+[trainers.HARDHAT.0]
 raw_trainer_class = "HARDHAT"
 battler_name = "Manwe"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.HARDHAT.0.pokemon]]
 internal_name = "BISHARP"
 level = 74
 raw_item = "CHOICEBAND"
@@ -17,7 +19,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.HARDHAT.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -25,7 +27,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.HARDHAT.0.pokemon]]
 internal_name = "TORTERRA"
 level = 75
 raw_item = "TELLURICSEED"
@@ -39,7 +41,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.HARDHAT.0.pokemon.evs]
 hp = 0
 atk = 6
 def_ = 252
@@ -47,7 +49,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.HARDHAT.0.pokemon]]
 internal_name = "SCYTHER"
 level = 77
 raw_item = "LIFEORB"
@@ -63,7 +65,7 @@ is_shiny = true
 nature = "JOLLY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.HARDHAT.0.pokemon.evs]
 hp = 0
 atk = 6
 def_ = 252
@@ -71,7 +73,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.HARDHAT.0.pokemon]]
 internal_name = "HAWLUCHA"
 level = 78
 raw_item = "TELLURICSEED"
@@ -86,7 +88,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.HARDHAT.0.pokemon.evs]
 hp = 0
 atk = 6
 def_ = 252
@@ -94,7 +96,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.HARDHAT.0.pokemon]]
 internal_name = "FARFETCHD"
 level = 100
 raw_item = "STICK"
@@ -109,7 +111,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.HARDHAT.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -117,13 +119,13 @@ spa = 0
 spd = 0
 spe = 4
 
-[trainers.20]
+[trainers.HARDHAT.20]
 raw_trainer_class = "HARDHAT"
 battler_name = "Manwe"
 battler_id = 20
 raw_battle_items = []
 
-[[trainers.20.pokemon]]
+[[trainers.HARDHAT.20.pokemon]]
 internal_name = "BISHARP"
 level = 74
 raw_item = "CHOICEBAND"
@@ -137,7 +139,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.HARDHAT.20.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -145,7 +147,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.20.pokemon]]
+[[trainers.HARDHAT.20.pokemon]]
 internal_name = "TORTERRA"
 level = 75
 raw_item = "TELLURICSEED"
@@ -159,7 +161,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.HARDHAT.20.pokemon.evs]
 hp = 0
 atk = 6
 def_ = 252
@@ -167,7 +169,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.HARDHAT.20.pokemon]]
 internal_name = "KLEAVOR"
 level = 77
 raw_item = "LIFEORB"
@@ -182,7 +184,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.HARDHAT.20.pokemon.evs]
 hp = 0
 atk = 6
 def_ = 252
@@ -190,7 +192,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.HARDHAT.20.pokemon]]
 internal_name = "HAWLUCHA"
 level = 78
 raw_item = "TELLURICSEED"
@@ -205,7 +207,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.HARDHAT.20.pokemon.evs]
 hp = 0
 atk = 6
 def_ = 252
@@ -213,7 +215,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.HARDHAT.20.pokemon]]
 internal_name = "FARFETCHD"
 level = 100
 raw_item = "STICK"
@@ -228,7 +230,7 @@ form_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.HARDHAT.20.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252

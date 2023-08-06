@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Saya"
+
+[trainers.SPIRITF.0]
 raw_trainer_class = "SPIRITF"
 battler_name = "Saya"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.SPIRITF.0.pokemon]]
 internal_name = "GENGAR"
 level = 95
 raw_item = "SYNTHETICSEED"
@@ -17,7 +19,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SPIRITF.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -25,7 +27,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.SPIRITF.0.pokemon]]
 internal_name = "EMPOLEON"
 level = 95
 raw_item = "LIFEORB"
@@ -39,7 +41,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SPIRITF.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -47,7 +49,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.SPIRITF.0.pokemon]]
 internal_name = "DITTO"
 level = 95
 raw_item = "CHOICESCARF"
@@ -59,7 +61,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SPIRITF.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -67,7 +69,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.SPIRITF.0.pokemon]]
 internal_name = "CHANDELURE"
 level = 95
 raw_item = "SYNTHETICSEED"
@@ -82,7 +84,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SPIRITF.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -90,7 +92,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.SPIRITF.0.pokemon]]
 internal_name = "TYRANITAR"
 level = 95
 raw_item = "ASSAULTVEST"
@@ -104,7 +106,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SPIRITF.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -112,7 +114,7 @@ spa = 252
 spd = 0
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.SPIRITF.0.pokemon]]
 internal_name = "HAXORUS"
 level = 95
 raw_item = "MUSCLEBAND"
@@ -127,7 +129,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.SPIRITF.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0

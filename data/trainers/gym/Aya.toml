@@ -1,4 +1,6 @@
-[trainers.0]
+trainer_name = "Aya"
+
+[trainers.AYA.0]
 raw_trainer_class = "AYA"
 battler_name = "Aya"
 raw_battle_items = [
@@ -6,7 +8,7 @@ raw_battle_items = [
     "HYPERPOTION",
 ]
 
-[[trainers.0.pokemon]]
+[[trainers.AYA.0.pokemon]]
 internal_name = "NIDOQUEEN"
 level = 41
 raw_item = "BLACKSLUDGE"
@@ -20,7 +22,7 @@ sex = "F"
 nature = "BASHFUL"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.AYA.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -28,7 +30,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.AYA.0.pokemon]]
 internal_name = "TOXAPEX"
 level = 41
 raw_item = "BLACKSLUDGE"
@@ -42,7 +44,7 @@ sex = "F"
 nature = "CALM"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.AYA.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -50,7 +52,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.AYA.0.pokemon]]
 internal_name = "VENUSAUR"
 level = 42
 raw_moves = [
@@ -63,7 +65,7 @@ sex = "F"
 nature = "BASHFUL"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.AYA.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -71,7 +73,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.AYA.0.pokemon]]
 internal_name = "DRAPION"
 level = 42
 raw_item = "MUSCLEBAND"
@@ -84,7 +86,7 @@ raw_moves = [
 nature = "CAREFUL"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.AYA.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -92,7 +94,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.AYA.0.pokemon]]
 internal_name = "SALAZZLE"
 level = 42
 raw_item = "FOCUSSASH"
@@ -106,7 +108,7 @@ sex = "F"
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.AYA.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -114,7 +116,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.AYA.0.pokemon]]
 internal_name = "DRAGALGE"
 level = 45
 raw_item = "BLACKSLUDGE"
@@ -129,7 +131,7 @@ sex = "F"
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.AYA.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -137,13 +139,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.1]
+[trainers.AYA.1]
 raw_trainer_class = "AYA"
 battler_name = "Aya"
 battler_id = 1
 raw_battle_items = []
 
-[[trainers.1.pokemon]]
+[[trainers.AYA.1.pokemon]]
 internal_name = "DRAGALGE"
 level = 69
 raw_item = "BLACKSLUDGE"
@@ -158,7 +160,7 @@ sex = "F"
 nature = "MODEST"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.AYA.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -166,7 +168,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.AYA.1.pokemon]]
 internal_name = "VENUSAUR"
 level = 65
 raw_moves = [
@@ -179,7 +181,7 @@ sex = "F"
 nature = "CALM"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.AYA.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -187,7 +189,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.AYA.1.pokemon]]
 internal_name = "TOXAPEX"
 level = 66
 raw_item = "ROCKYHELMET"
@@ -201,7 +203,7 @@ sex = "F"
 nature = "CALM"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.AYA.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -209,7 +211,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.AYA.1.pokemon]]
 internal_name = "SALAZZLE"
 level = 68
 raw_moves = [
@@ -222,7 +224,7 @@ sex = "F"
 nature = "TIMID"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.AYA.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -230,7 +232,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.AYA.1.pokemon]]
 internal_name = "LYCANROC"
 level = 66
 raw_moves = [
@@ -244,7 +246,7 @@ form_number = 2
 nature = "JOLLY"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.AYA.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -252,7 +254,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.AYA.1.pokemon]]
 internal_name = "DRAPION"
 level = 67
 raw_item = "BLACKSLUDGE"
@@ -265,7 +267,7 @@ raw_moves = [
 nature = "CAREFUL"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.AYA.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -273,13 +275,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.2]
+[trainers.AYA.2]
 raw_trainer_class = "AYA"
 battler_name = "Aya"
 battler_id = 2
 raw_battle_items = []
 
-[[trainers.2.pokemon]]
+[[trainers.AYA.2.pokemon]]
 internal_name = "DRAGALGE"
 level = 130
 raw_item = "BLACKSLUDGE"
@@ -294,7 +296,7 @@ sex = "F"
 nature = "MODEST"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.AYA.2.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -302,7 +304,7 @@ spa = 0
 spd = 4
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.AYA.2.pokemon]]
 internal_name = "VENUSAUR"
 level = 127
 raw_item = "VENUSAURITE"
@@ -316,7 +318,7 @@ sex = "F"
 nature = "ADAMANT"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.AYA.2.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -324,7 +326,7 @@ spa = 4
 spd = 0
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.AYA.2.pokemon]]
 internal_name = "SALAZZLE"
 level = 129
 raw_item = "LIFEORB"
@@ -338,7 +340,7 @@ sex = "F"
 nature = "TIMID"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.AYA.2.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -346,7 +348,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.AYA.2.pokemon]]
 internal_name = "LYCANROC"
 level = 130
 raw_item = "SWEETHEART"
@@ -361,7 +363,7 @@ form_number = 2
 nature = "JOLLY"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.AYA.2.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -369,7 +371,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.AYA.2.pokemon]]
 internal_name = "NAGANADEL"
 level = 128
 raw_item = "BLACKSLUDGE"
@@ -383,7 +385,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.AYA.2.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -391,7 +393,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.AYA.2.pokemon]]
 internal_name = "TOXAPEX"
 level = 128
 raw_item = "ROCKYHELMET"
@@ -405,7 +407,7 @@ sex = "F"
 nature = "CALM"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.AYA.2.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -413,13 +415,13 @@ spa = 0
 spd = 0
 spe = 4
 
-[trainers.10]
+[trainers.AYA.10]
 raw_trainer_class = "AYA"
 battler_name = "Aya"
 battler_id = 10
 raw_battle_items = []
 
-[[trainers.10.pokemon]]
+[[trainers.AYA.10.pokemon]]
 internal_name = "NIHILEGO"
 level = 100
 raw_item = "TELLURICSEED"
@@ -433,7 +435,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.AYA.10.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -441,7 +443,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.AYA.10.pokemon]]
 internal_name = "DRAGALGE"
 level = 100
 raw_item = "TELLURICSEED"
@@ -456,7 +458,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.AYA.10.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -464,7 +466,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.10.pokemon]]
+[[trainers.AYA.10.pokemon]]
 internal_name = "VILEPLUME"
 level = 100
 raw_item = "TELLURICSEED"
@@ -479,7 +481,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.AYA.10.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -487,7 +489,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.10.pokemon]]
+[[trainers.AYA.10.pokemon]]
 internal_name = "GENGAR"
 level = 100
 raw_item = "GENGARITE"
@@ -501,7 +503,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.AYA.10.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -509,7 +511,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.AYA.10.pokemon]]
 internal_name = "TOXAPEX"
 level = 100
 raw_item = "TELLURICSEED"
@@ -524,7 +526,7 @@ sex = ""
 nature = "CALM"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.AYA.10.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -532,7 +534,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.10.pokemon]]
+[[trainers.AYA.10.pokemon]]
 internal_name = "MUK"
 level = 100
 raw_item = "TELLURICSEED"
@@ -547,7 +549,7 @@ form_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.AYA.10.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -555,13 +557,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.11]
+[trainers.AYA.11]
 raw_trainer_class = "AYA"
 battler_name = "Aya"
 battler_id = 11
 raw_battle_items = []
 
-[[trainers.11.pokemon]]
+[[trainers.AYA.11.pokemon]]
 internal_name = "SCOLIPEDE"
 level = 100
 raw_item = "FOCUSSASH"
@@ -576,7 +578,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.AYA.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -584,7 +586,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.AYA.11.pokemon]]
 internal_name = "GENGAR"
 level = 100
 raw_item = "GENGARITE"
@@ -598,7 +600,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.AYA.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -606,7 +608,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.AYA.11.pokemon]]
 internal_name = "NAGANADEL"
 level = 100
 raw_item = "DRAGONIUMZ2"
@@ -620,7 +622,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.AYA.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -628,7 +630,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.AYA.11.pokemon]]
 internal_name = "NIHILEGO"
 level = 100
 raw_item = "LIFEORB"
@@ -642,7 +644,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.AYA.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -650,7 +652,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.AYA.11.pokemon]]
 internal_name = "TOXAPEX"
 level = 100
 raw_item = "BLACKSLUDGE"
@@ -665,7 +667,7 @@ sex = ""
 nature = "CALM"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.AYA.11.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -673,7 +675,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.11.pokemon]]
+[[trainers.AYA.11.pokemon]]
 internal_name = "MUK"
 level = 100
 raw_item = "BLACKSLUDGE"
@@ -688,7 +690,7 @@ form_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.AYA.11.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -696,13 +698,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.12]
+[trainers.AYA.12]
 raw_trainer_class = "AYA"
 battler_name = "Aya"
 battler_id = 12
 raw_battle_items = []
 
-[[trainers.12.pokemon]]
+[[trainers.AYA.12.pokemon]]
 internal_name = "TENTACRUEL"
 level = 100
 raw_item = "CHOICESPECS"
@@ -717,7 +719,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.AYA.12.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -725,7 +727,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.12.pokemon]]
+[[trainers.AYA.12.pokemon]]
 internal_name = "TOXAPEX"
 level = 100
 raw_item = "ELEMENTALSEED"
@@ -740,7 +742,7 @@ sex = ""
 nature = "CALM"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.AYA.12.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -748,7 +750,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.12.pokemon]]
+[[trainers.AYA.12.pokemon]]
 internal_name = "DRAGALGE"
 level = 100
 raw_item = "ELEMENTALSEED"
@@ -763,7 +765,7 @@ sex = ""
 nature = "CALM"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.AYA.12.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -771,7 +773,7 @@ spa = 0
 spd = 252
 spe = 4
 
-[[trainers.12.pokemon]]
+[[trainers.AYA.12.pokemon]]
 internal_name = "QWILFISH"
 level = 100
 raw_item = "ELEMENTALSEED"
@@ -786,7 +788,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.AYA.12.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -794,7 +796,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.AYA.12.pokemon]]
 internal_name = "TOXICROAK"
 level = 100
 raw_item = "ELEMENTALSEED"
@@ -809,7 +811,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.AYA.12.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -817,7 +819,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.AYA.12.pokemon]]
 internal_name = "CROBAT"
 level = 100
 raw_item = "FLYINGGEM"
@@ -832,7 +834,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.AYA.12.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -840,13 +842,13 @@ spa = 252
 spd = 0
 spe = 0
 
-[trainers.13]
+[trainers.AYA.13]
 raw_trainer_class = "AYA"
 battler_name = "Aya"
 battler_id = 13
 raw_battle_items = []
 
-[[trainers.13.pokemon]]
+[[trainers.AYA.13.pokemon]]
 internal_name = "ROSERADE"
 level = 100
 raw_item = "LIFEORB"
@@ -860,7 +862,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.AYA.13.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -868,7 +870,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.13.pokemon]]
+[[trainers.AYA.13.pokemon]]
 internal_name = "SALAZZLE"
 level = 100
 raw_item = "TELLURICSEED"
@@ -882,7 +884,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.AYA.13.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -890,7 +892,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.13.pokemon]]
+[[trainers.AYA.13.pokemon]]
 internal_name = "TOXAPEX"
 level = 100
 raw_item = "BLACKSLUDGE"
@@ -905,7 +907,7 @@ sex = ""
 nature = "CALM"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.AYA.13.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -913,7 +915,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.13.pokemon]]
+[[trainers.AYA.13.pokemon]]
 internal_name = "VENUSAUR"
 level = 100
 raw_item = "VENUSAURITE"
@@ -927,7 +929,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.AYA.13.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -935,7 +937,7 @@ spa = 0
 spd = 252
 spe = 128
 
-[[trainers.13.pokemon]]
+[[trainers.AYA.13.pokemon]]
 internal_name = "VILEPLUME"
 level = 100
 raw_item = "BLACKSLUDGE"
@@ -949,7 +951,7 @@ sex = ""
 nature = "CALM"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.AYA.13.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -957,7 +959,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.13.pokemon]]
+[[trainers.AYA.13.pokemon]]
 internal_name = "TENTACRUEL"
 level = 100
 raw_item = "BLACKSLUDGE"
@@ -972,7 +974,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.AYA.13.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -980,7 +982,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[trainers.20]
+[trainers.AYA.20]
 raw_trainer_class = "AYA"
 battler_name = "Aya"
 battler_id = 20
@@ -989,7 +991,7 @@ raw_battle_items = [
     "HYPERPOTION",
 ]
 
-[[trainers.20.pokemon]]
+[[trainers.AYA.20.pokemon]]
 internal_name = "SLOWBRO"
 level = 41
 raw_item = "TELLURICSEED"
@@ -1004,7 +1006,7 @@ form_number = 2
 nature = "ADAMANT"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.AYA.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1012,7 +1014,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.AYA.20.pokemon]]
 internal_name = "GLIMMORA"
 level = 41
 raw_item = "WISEGLASSES"
@@ -1026,7 +1028,7 @@ sex = "F"
 nature = "CALM"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.AYA.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1034,7 +1036,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.AYA.20.pokemon]]
 internal_name = "VENUSAUR"
 level = 42
 raw_moves = [
@@ -1047,7 +1049,7 @@ sex = "F"
 nature = "BASHFUL"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.AYA.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1055,7 +1057,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.AYA.20.pokemon]]
 internal_name = "GRAFAIAI"
 level = 42
 raw_item = "DARKGEM"
@@ -1069,7 +1071,7 @@ ability_number = 2
 nature = "CAREFUL"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.AYA.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1077,7 +1079,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.AYA.20.pokemon]]
 internal_name = "TOXEON"
 level = 42
 raw_item = "FOCUSSASH"
@@ -1091,7 +1093,7 @@ ability_number = 1
 sex = "F"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.AYA.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1099,7 +1101,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.AYA.20.pokemon]]
 internal_name = "DRAGALGE"
 level = 45
 raw_item = "BLACKSLUDGE"
@@ -1114,7 +1116,7 @@ sex = "F"
 nature = "MODEST"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.AYA.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1122,13 +1124,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.21]
+[trainers.AYA.21]
 raw_trainer_class = "AYA"
 battler_name = "Aya"
 battler_id = 21
 raw_battle_items = []
 
-[[trainers.21.pokemon]]
+[[trainers.AYA.21.pokemon]]
 internal_name = "DRAGALGE"
 level = 69
 raw_item = "BLACKSLUDGE"
@@ -1143,7 +1145,7 @@ sex = "F"
 nature = "MODEST"
 iv = 31
 
-[trainers.21.pokemon.evs]
+[trainers.AYA.21.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1151,7 +1153,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.21.pokemon]]
+[[trainers.AYA.21.pokemon]]
 internal_name = "VENUSAUR"
 level = 65
 raw_moves = [
@@ -1164,7 +1166,7 @@ sex = "F"
 nature = "CALM"
 iv = 31
 
-[trainers.21.pokemon.evs]
+[trainers.AYA.21.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1172,7 +1174,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.21.pokemon]]
+[[trainers.AYA.21.pokemon]]
 internal_name = "GLIMMORA"
 level = 66
 raw_item = "WISEGLASSES"
@@ -1186,7 +1188,7 @@ sex = "F"
 nature = "CALM"
 iv = 31
 
-[trainers.21.pokemon.evs]
+[trainers.AYA.21.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1194,7 +1196,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.21.pokemon]]
+[[trainers.AYA.21.pokemon]]
 internal_name = "TOXEON"
 level = 68
 raw_item = "FOCUSSASH"
@@ -1208,7 +1210,7 @@ sex = "F"
 nature = "ADAMANT"
 iv = 31
 
-[trainers.21.pokemon.evs]
+[trainers.AYA.21.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1216,7 +1218,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.21.pokemon]]
+[[trainers.AYA.21.pokemon]]
 internal_name = "LYCANROC"
 level = 66
 raw_moves = [
@@ -1230,7 +1232,7 @@ form_number = 2
 nature = "JOLLY"
 iv = 31
 
-[trainers.21.pokemon.evs]
+[trainers.AYA.21.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1238,7 +1240,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.21.pokemon]]
+[[trainers.AYA.21.pokemon]]
 internal_name = "GRAFAIAI"
 level = 65
 raw_item = "DARKGEM"
@@ -1252,7 +1254,7 @@ ability_number = 2
 nature = "CAREFUL"
 iv = 31
 
-[trainers.21.pokemon.evs]
+[trainers.AYA.21.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

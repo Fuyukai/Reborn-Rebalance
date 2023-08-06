@@ -1,9 +1,38 @@
-[trainers.0]
+trainer_name = "Dragon"
+
+[trainers.STATRESHIRAM.0]
+raw_trainer_class = "STATRESHIRAM"
+battler_name = "Dragon"
+raw_battle_items = []
+
+[[trainers.STATRESHIRAM.0.pokemon]]
+internal_name = "RESHIRAM"
+level = 90
+raw_item = "ELEMENTALSEED"
+raw_moves = [
+    "BLUEFLARE",
+    "ROOST",
+    "DRAGONPULSE",
+    "SOLARBEAM",
+]
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.STATRESHIRAM.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 252
+spd = 4
+spe = 0
+
+[trainers.STATZEKROM.0]
 raw_trainer_class = "STATZEKROM"
 battler_name = "Dragon"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.STATZEKROM.0.pokemon]]
 internal_name = "ZEKROM"
 level = 90
 raw_item = "GROUNDIUMZ2"
@@ -17,7 +46,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.STATZEKROM.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 4

@@ -1,14 +1,34 @@
-[trainers.0]
+trainer_name = "Yan"
+
+[trainers.TechNerd.0]
+raw_trainer_class = "TechNerd"
+battler_name = "Yan"
+raw_battle_items = []
+
+[[trainers.TechNerd.0.pokemon]]
+internal_name = "TYNAMO"
+level = 14
+iv = 0
+
+[trainers.TechNerd.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.StreetRat.0]
 raw_trainer_class = "StreetRat"
 battler_name = "Yan"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.StreetRat.0.pokemon]]
 internal_name = "CHIMECHO"
 level = 60
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.StreetRat.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

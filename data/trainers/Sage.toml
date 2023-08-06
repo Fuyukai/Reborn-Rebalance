@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Sage"
+
+[trainers.PSYCHIC_Male.0]
 raw_trainer_class = "PSYCHIC_Male"
 battler_name = "Sage"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.PSYCHIC_Male.0.pokemon]]
 internal_name = "MEOWSTIC"
 level = 56
 raw_moves = [
@@ -15,7 +17,7 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.PSYCHIC_Male.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -23,7 +25,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.PSYCHIC_Male.0.pokemon]]
 internal_name = "MEOWSTIC"
 level = 52
 raw_moves = [
@@ -36,7 +38,7 @@ ability_number = 2
 sex = "F"
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.PSYCHIC_Male.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

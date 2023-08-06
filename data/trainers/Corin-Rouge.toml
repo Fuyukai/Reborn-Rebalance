@@ -1,11 +1,13 @@
-[trainers.0]
+trainer_name = "Corin-Rouge"
+
+[trainers.CORINROUGE.0]
 raw_trainer_class = "CORINROUGE"
 battler_name = "Corin-Rouge"
 raw_battle_items = [
     "ULTRAPOTION",
 ]
 
-[[trainers.0.pokemon]]
+[[trainers.CORINROUGE.0.pokemon]]
 internal_name = "KLEFKI"
 level = 81
 raw_item = "LEFTOVERS"
@@ -19,7 +21,7 @@ sex = "F"
 nature = "BOLD"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.CORINROUGE.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -27,7 +29,7 @@ spa = 4
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.CORINROUGE.0.pokemon]]
 internal_name = "CACTURNE"
 level = 82
 raw_item = "BRIGHTPOWDER"
@@ -41,7 +43,7 @@ sex = "F"
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.CORINROUGE.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -49,7 +51,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.CORINROUGE.0.pokemon]]
 internal_name = "LIEPARD"
 level = 82
 raw_item = "MUSCLEBAND"
@@ -64,7 +66,7 @@ form_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.CORINROUGE.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -72,7 +74,7 @@ spa = 4
 spd = 0
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.CORINROUGE.0.pokemon]]
 internal_name = "SANDSLASH"
 level = 83
 raw_item = "MUSCLEBAND"
@@ -87,7 +89,7 @@ sex = "F"
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.CORINROUGE.0.pokemon.evs]
 hp = 0
 atk = 128
 def_ = 128
@@ -95,7 +97,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.CORINROUGE.0.pokemon]]
 internal_name = "DELPHOX"
 level = 86
 raw_item = "FIRIUMZ2"
@@ -110,7 +112,7 @@ sex = "F"
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.CORINROUGE.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -118,7 +120,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.CORINROUGE.0.pokemon]]
 internal_name = "MAGIKARP"
 level = 5
 raw_moves = [
@@ -129,7 +131,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.CORINROUGE.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -137,7 +139,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.1]
+[trainers.CORINROUGE.1]
 raw_trainer_class = "CORINROUGE"
 battler_name = "Corin-Rouge"
 battler_id = 1
@@ -145,7 +147,7 @@ raw_battle_items = [
     "ULTRAPOTION",
 ]
 
-[[trainers.1.pokemon]]
+[[trainers.CORINROUGE.1.pokemon]]
 internal_name = "KLEFKI"
 level = 120
 raw_item = "LEFTOVERS"
@@ -159,7 +161,7 @@ sex = "F"
 nature = "BOLD"
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.CORINROUGE.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -167,7 +169,7 @@ spa = 4
 spd = 252
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.CORINROUGE.1.pokemon]]
 internal_name = "CACTURNE"
 level = 120
 raw_item = "BRIGHTPOWDER"
@@ -181,7 +183,7 @@ sex = "F"
 nature = "ADAMANT"
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.CORINROUGE.1.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -189,7 +191,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.CORINROUGE.1.pokemon]]
 internal_name = "LIEPARD"
 level = 120
 raw_item = "MUSCLEBAND"
@@ -204,7 +206,7 @@ form_number = 1
 nature = "ADAMANT"
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.CORINROUGE.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -212,7 +214,7 @@ spa = 4
 spd = 0
 spe = 252
 
-[[trainers.1.pokemon]]
+[[trainers.CORINROUGE.1.pokemon]]
 internal_name = "SANDSLASH"
 level = 120
 raw_item = "MUSCLEBAND"
@@ -227,7 +229,7 @@ sex = "F"
 nature = "ADAMANT"
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.CORINROUGE.1.pokemon.evs]
 hp = 0
 atk = 128
 def_ = 128
@@ -235,7 +237,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.CORINROUGE.1.pokemon]]
 internal_name = "DELPHOX"
 level = 120
 raw_item = "FIRIUMZ2"
@@ -250,7 +252,7 @@ sex = "F"
 nature = "TIMID"
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.CORINROUGE.1.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -258,7 +260,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.CORINROUGE.1.pokemon]]
 internal_name = "GYARADOS"
 level = 120
 raw_item = "GYARADOSITE"
@@ -272,7 +274,7 @@ sex = "F"
 nature = "ADAMANT"
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.CORINROUGE.1.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -280,13 +282,13 @@ spa = 252
 spd = 0
 spe = 0
 
-[trainers.1000]
+[trainers.CORINROUGE.1000]
 raw_trainer_class = "CORINROUGE"
 battler_name = "Corin-Rouge"
 battler_id = 1000
 raw_battle_items = []
 
-[[trainers.1000.pokemon]]
+[[trainers.CORINROUGE.1000.pokemon]]
 internal_name = "KLEFKI"
 level = 100
 raw_item = "MAGICALSEED"
@@ -301,7 +303,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.1000.pokemon.evs]
+[trainers.CORINROUGE.1000.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -309,7 +311,7 @@ spa = 4
 spd = 252
 spe = 0
 
-[[trainers.1000.pokemon]]
+[[trainers.CORINROUGE.1000.pokemon]]
 internal_name = "HOOPA"
 level = 100
 raw_item = "MAGICALSEED"
@@ -323,7 +325,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.1000.pokemon.evs]
+[trainers.CORINROUGE.1000.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -331,7 +333,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.1000.pokemon]]
+[[trainers.CORINROUGE.1000.pokemon]]
 internal_name = "DELPHOX"
 level = 100
 raw_item = "CHOICESCARF"
@@ -346,7 +348,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.1000.pokemon.evs]
+[trainers.CORINROUGE.1000.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -354,7 +356,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[trainers.20]
+[trainers.CORINROUGE.20]
 raw_trainer_class = "CORINROUGE"
 battler_name = "Corin-Rouge"
 battler_id = 20
@@ -362,7 +364,7 @@ raw_battle_items = [
     "ULTRAPOTION",
 ]
 
-[[trainers.20.pokemon]]
+[[trainers.CORINROUGE.20.pokemon]]
 internal_name = "CACTURNE"
 level = 82
 raw_item = "BRIGHTPOWDER"
@@ -376,7 +378,7 @@ sex = "F"
 nature = "ADAMANT"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.CORINROUGE.20.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -384,7 +386,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.CORINROUGE.20.pokemon]]
 internal_name = "GHOLDENGO"
 level = 81
 raw_item = "AIRBALLOON"
@@ -398,7 +400,7 @@ sex = ""
 nature = "BOLD"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.CORINROUGE.20.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -406,7 +408,7 @@ spa = 0
 spd = 4
 spe = 252
 
-[[trainers.20.pokemon]]
+[[trainers.CORINROUGE.20.pokemon]]
 internal_name = "THIEVUL"
 level = 82
 raw_item = "FOCUSSASH"
@@ -421,7 +423,7 @@ form_number = 1
 nature = "MODEST"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.CORINROUGE.20.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -429,7 +431,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.20.pokemon]]
+[[trainers.CORINROUGE.20.pokemon]]
 internal_name = "SANDSLASH"
 level = 83
 raw_item = "MUSCLEBAND"
@@ -444,7 +446,7 @@ sex = "F"
 nature = "ADAMANT"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.CORINROUGE.20.pokemon.evs]
 hp = 0
 atk = 128
 def_ = 128
@@ -452,7 +454,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.CORINROUGE.20.pokemon]]
 internal_name = "DELPHOX"
 level = 86
 raw_item = "FIRIUMZ2"
@@ -467,7 +469,7 @@ sex = "F"
 nature = "TIMID"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.CORINROUGE.20.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -475,7 +477,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.CORINROUGE.20.pokemon]]
 internal_name = "MAGIKARP"
 level = 5
 raw_moves = [
@@ -486,7 +488,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.20.pokemon.evs]
+[trainers.CORINROUGE.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

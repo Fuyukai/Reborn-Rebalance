@@ -1,10 +1,12 @@
-[trainers.2]
+trainer_name = "?????"
+
+[trainers.QMARK.2]
 raw_trainer_class = "QMARK"
 battler_name = "?????"
 battler_id = 2
 raw_battle_items = []
 
-[[trainers.2.pokemon]]
+[[trainers.QMARK.2.pokemon]]
 internal_name = "NINETALES"
 level = 81
 raw_item = "LIGHTCLAY"
@@ -20,7 +22,7 @@ form_number = 1
 nature = "TIMID"
 iv = 15
 
-[trainers.2.pokemon.evs]
+[trainers.QMARK.2.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -28,7 +30,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.QMARK.2.pokemon]]
 internal_name = "SANDSLASH"
 level = 82
 raw_item = "MUSCLEBAND"
@@ -44,7 +46,7 @@ form_number = 1
 nature = "ADAMANT"
 iv = 15
 
-[trainers.2.pokemon.evs]
+[trainers.QMARK.2.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -52,7 +54,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.QMARK.2.pokemon]]
 internal_name = "BRONZONG"
 level = 82
 raw_item = "LEFTOVERS"
@@ -66,7 +68,7 @@ sex = ""
 nature = "BRAVE"
 iv = 15
 
-[trainers.2.pokemon.evs]
+[trainers.QMARK.2.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -74,7 +76,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.QMARK.2.pokemon]]
 internal_name = "JYNX"
 level = 82
 raw_item = "SYNTHETICSEED"
@@ -89,7 +91,7 @@ sex = "F"
 nature = "MODEST"
 iv = 25
 
-[trainers.2.pokemon.evs]
+[trainers.QMARK.2.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -97,7 +99,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.QMARK.2.pokemon]]
 internal_name = "GLACEON"
 level = 83
 raw_item = "LIGHTCLAY"
@@ -112,7 +114,7 @@ sex = "F"
 nature = "MODEST"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.QMARK.2.pokemon.evs]
 hp = 0
 atk = 100
 def_ = 0
@@ -120,7 +122,7 @@ spa = 252
 spd = 156
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.QMARK.2.pokemon]]
 internal_name = "FROSLASS"
 level = 84
 raw_item = "ICIUMZ2"
@@ -134,7 +136,7 @@ sex = "F"
 nature = "TIMID"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.QMARK.2.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -142,13 +144,13 @@ spa = 252
 spd = 252
 spe = 0
 
-[trainers.1]
+[trainers.QMARK.1]
 raw_trainer_class = "QMARK"
 battler_name = "?????"
 battler_id = 1
 raw_battle_items = []
 
-[[trainers.1.pokemon]]
+[[trainers.QMARK.1.pokemon]]
 internal_name = "CLEFABLE"
 level = 81
 raw_item = "LEFTOVERS"
@@ -161,7 +163,7 @@ raw_moves = [
 ability_number = 1
 iv = 15
 
-[trainers.1.pokemon.evs]
+[trainers.QMARK.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -169,7 +171,7 @@ spa = 0
 spd = 252
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.QMARK.1.pokemon]]
 internal_name = "BISHARP"
 level = 83
 raw_item = "DREADPLATE"
@@ -183,7 +185,7 @@ sex = "F"
 nature = "ADAMANT"
 iv = 15
 
-[trainers.1.pokemon.evs]
+[trainers.QMARK.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -191,7 +193,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.QMARK.1.pokemon]]
 internal_name = "METAGROSS"
 level = 82
 raw_item = "LEFTOVERS"
@@ -205,7 +207,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 15
 
-[trainers.1.pokemon.evs]
+[trainers.QMARK.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -213,7 +215,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.1.pokemon]]
+[[trainers.QMARK.1.pokemon]]
 internal_name = "ALAKAZAM"
 level = 82
 raw_item = "AMPLIFIELDROCK"
@@ -227,7 +229,7 @@ ability_number = 2
 nature = "MODEST"
 iv = 15
 
-[trainers.1.pokemon.evs]
+[trainers.QMARK.1.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -235,7 +237,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.QMARK.1.pokemon]]
 internal_name = "ESPEON"
 level = 83
 raw_item = "TWISTEDSPOON"
@@ -249,7 +251,7 @@ ability_number = 2
 nature = "TIMID"
 iv = 30
 
-[trainers.1.pokemon.evs]
+[trainers.QMARK.1.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -257,7 +259,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.QMARK.1.pokemon]]
 internal_name = "GARDEVOIR"
 level = 85
 raw_item = "GARDEVOIRITE"
@@ -272,7 +274,7 @@ sex = "F"
 nature = "TIMID"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.QMARK.1.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -280,12 +282,12 @@ spa = 252
 spd = 252
 spe = 0
 
-[trainers.0]
+[trainers.QMARK.0]
 raw_trainer_class = "QMARK"
 battler_name = "?????"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.QMARK.0.pokemon]]
 internal_name = "WEAVILE"
 level = 83
 raw_item = "FOCUSSASH"
@@ -301,7 +303,7 @@ is_shiny = true
 nature = "JOLLY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.QMARK.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -309,7 +311,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.QMARK.0.pokemon]]
 internal_name = "GOTHITELLE"
 level = 83
 raw_item = "LEFTOVERS"
@@ -324,7 +326,7 @@ sex = "F"
 nature = "CALM"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.QMARK.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -332,7 +334,7 @@ spa = 0
 spd = 0
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.QMARK.0.pokemon]]
 internal_name = "MISMAGIUS"
 level = 84
 raw_item = "SYNTHETICSEED"
@@ -348,7 +350,7 @@ is_shiny = true
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.QMARK.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -356,7 +358,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.QMARK.0.pokemon]]
 internal_name = "HONCHKROW"
 level = 84
 raw_item = "LIFEORB"
@@ -371,7 +373,7 @@ sex = "F"
 nature = "JOLLY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.QMARK.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -379,7 +381,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.QMARK.0.pokemon]]
 internal_name = "ABSOL"
 level = 85
 raw_item = "ABSOLITE"
@@ -392,7 +394,7 @@ raw_moves = [
 nature = "JOLLY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.QMARK.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -400,7 +402,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.QMARK.0.pokemon]]
 internal_name = "UMBREON"
 level = 86
 raw_item = "LEFTOVERS"
@@ -413,7 +415,7 @@ raw_moves = [
 nature = "CALM"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.QMARK.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -421,13 +423,13 @@ spa = 0
 spd = 0
 spe = 252
 
-[trainers.22]
+[trainers.QMARK.22]
 raw_trainer_class = "QMARK"
 battler_name = "?????"
 battler_id = 22
 raw_battle_items = []
 
-[[trainers.22.pokemon]]
+[[trainers.QMARK.22.pokemon]]
 internal_name = "NINETALES"
 level = 81
 raw_item = "LIGHTCLAY"
@@ -443,7 +445,7 @@ form_number = 1
 nature = "TIMID"
 iv = 15
 
-[trainers.22.pokemon.evs]
+[trainers.QMARK.22.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -451,7 +453,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.22.pokemon]]
+[[trainers.QMARK.22.pokemon]]
 internal_name = "SANDSLASH"
 level = 82
 raw_item = "MUSCLEBAND"
@@ -467,7 +469,7 @@ form_number = 1
 nature = "ADAMANT"
 iv = 15
 
-[trainers.22.pokemon.evs]
+[trainers.QMARK.22.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -475,7 +477,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.22.pokemon]]
+[[trainers.QMARK.22.pokemon]]
 internal_name = "BRONZONG"
 level = 82
 raw_item = "LEFTOVERS"
@@ -489,7 +491,7 @@ sex = ""
 nature = "BRAVE"
 iv = 15
 
-[trainers.22.pokemon.evs]
+[trainers.QMARK.22.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -497,7 +499,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.22.pokemon]]
+[[trainers.QMARK.22.pokemon]]
 internal_name = "FROSMOTH"
 level = 82
 raw_item = "SYNTHETICSEED"
@@ -512,7 +514,7 @@ sex = "F"
 nature = "TIMID"
 iv = 31
 
-[trainers.22.pokemon.evs]
+[trainers.QMARK.22.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -520,7 +522,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.22.pokemon]]
+[[trainers.QMARK.22.pokemon]]
 internal_name = "GLACEON"
 level = 83
 raw_item = "LIGHTCLAY"
@@ -535,7 +537,7 @@ sex = "F"
 nature = "MODEST"
 iv = 31
 
-[trainers.22.pokemon.evs]
+[trainers.QMARK.22.pokemon.evs]
 hp = 0
 atk = 100
 def_ = 0
@@ -543,7 +545,7 @@ spa = 252
 spd = 156
 spe = 0
 
-[[trainers.22.pokemon]]
+[[trainers.QMARK.22.pokemon]]
 internal_name = "FROSLASS"
 level = 84
 raw_item = "FROSLASSITE"
@@ -558,7 +560,7 @@ sex = "F"
 nature = "TIMID"
 iv = 31
 
-[trainers.22.pokemon.evs]
+[trainers.QMARK.22.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -566,13 +568,13 @@ spa = 252
 spd = 252
 spe = 0
 
-[trainers.21]
+[trainers.QMARK.21]
 raw_trainer_class = "QMARK"
 battler_name = "?????"
 battler_id = 21
 raw_battle_items = []
 
-[[trainers.21.pokemon]]
+[[trainers.QMARK.21.pokemon]]
 internal_name = "CLEFABLE"
 level = 81
 raw_item = "LEFTOVERS"
@@ -585,7 +587,7 @@ raw_moves = [
 ability_number = 1
 iv = 15
 
-[trainers.21.pokemon.evs]
+[trainers.QMARK.21.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -593,7 +595,7 @@ spa = 0
 spd = 252
 spe = 0
 
-[[trainers.21.pokemon]]
+[[trainers.QMARK.21.pokemon]]
 internal_name = "BISHARP"
 level = 83
 raw_item = "EVIOLITE"
@@ -607,7 +609,7 @@ sex = "F"
 nature = "ADAMANT"
 iv = 15
 
-[trainers.21.pokemon.evs]
+[trainers.QMARK.21.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -615,7 +617,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.21.pokemon]]
+[[trainers.QMARK.21.pokemon]]
 internal_name = "METAGROSS"
 level = 82
 raw_item = "LEFTOVERS"
@@ -629,7 +631,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 15
 
-[trainers.21.pokemon.evs]
+[trainers.QMARK.21.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -637,7 +639,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.21.pokemon]]
+[[trainers.QMARK.21.pokemon]]
 internal_name = "INDEEDEE"
 level = 82
 raw_item = "AMPLIFIELDROCK"
@@ -651,7 +653,7 @@ ability_number = 1
 nature = "TIMID"
 iv = 15
 
-[trainers.21.pokemon.evs]
+[trainers.QMARK.21.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -659,7 +661,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.21.pokemon]]
+[[trainers.QMARK.21.pokemon]]
 internal_name = "ESPEON"
 level = 83
 raw_item = "TWISTEDSPOON"
@@ -673,7 +675,7 @@ ability_number = 1
 nature = "TIMID"
 iv = 30
 
-[trainers.21.pokemon.evs]
+[trainers.QMARK.21.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -681,7 +683,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.21.pokemon]]
+[[trainers.QMARK.21.pokemon]]
 internal_name = "GARDEVOIR"
 level = 85
 raw_item = "GARDEVOIRITE"
@@ -696,7 +698,7 @@ sex = "F"
 nature = "TIMID"
 iv = 31
 
-[trainers.21.pokemon.evs]
+[trainers.QMARK.21.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -704,13 +706,13 @@ spa = 252
 spd = 252
 spe = 0
 
-[trainers.20]
+[trainers.QMARK.20]
 raw_trainer_class = "QMARK"
 battler_name = "?????"
 battler_id = 20
 raw_battle_items = []
 
-[[trainers.20.pokemon]]
+[[trainers.QMARK.20.pokemon]]
 internal_name = "WEAVILE"
 level = 83
 raw_item = "FOCUSSASH"
@@ -726,7 +728,7 @@ is_shiny = true
 nature = "JOLLY"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.QMARK.20.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -734,7 +736,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.QMARK.20.pokemon]]
 internal_name = "GRIMMSNARL"
 level = 83
 raw_item = "LIGHTCLAY"
@@ -747,7 +749,7 @@ raw_moves = [
 nature = "IMPISH"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.QMARK.20.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -755,7 +757,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.20.pokemon]]
+[[trainers.QMARK.20.pokemon]]
 internal_name = "POLTEAGEIST"
 level = 84
 raw_item = "WHITEHERB"
@@ -769,7 +771,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.QMARK.20.pokemon.evs]
 hp = 0
 atk = 104
 def_ = 0
@@ -777,7 +779,7 @@ spa = 252
 spd = 152
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.QMARK.20.pokemon]]
 internal_name = "HONCHKROW"
 level = 84
 raw_item = "LIFEORB"
@@ -792,7 +794,7 @@ sex = "F"
 nature = "JOLLY"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.QMARK.20.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -800,7 +802,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.QMARK.20.pokemon]]
 internal_name = "ABSOL"
 level = 85
 raw_item = "ABSOLITE"
@@ -813,7 +815,7 @@ raw_moves = [
 nature = "JOLLY"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.QMARK.20.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -821,7 +823,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.QMARK.20.pokemon]]
 internal_name = "UMBREON"
 level = 86
 raw_item = "LEFTOVERS"
@@ -834,7 +836,7 @@ raw_moves = [
 nature = "CALM"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.QMARK.20.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0

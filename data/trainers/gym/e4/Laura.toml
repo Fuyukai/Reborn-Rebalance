@@ -1,10 +1,12 @@
-[trainers.1]
+trainer_name = "Laura"
+
+[trainers.LAURA.1]
 raw_trainer_class = "LAURA"
 battler_name = "Laura"
 battler_id = 1
 raw_battle_items = []
 
-[[trainers.1.pokemon]]
+[[trainers.LAURA.1.pokemon]]
 internal_name = "CHERRIM"
 level = 100
 raw_item = "GRASSIUMZ2"
@@ -19,7 +21,7 @@ sex = "F"
 nature = "HASTY"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.LAURA.1.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 200
@@ -27,7 +29,7 @@ spa = 252
 spd = 52
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.LAURA.1.pokemon]]
 internal_name = "VENUSAUR"
 level = 100
 raw_item = "SYNTHETICSEED"
@@ -42,7 +44,7 @@ sex = "F"
 nature = "ADAMANT"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.LAURA.1.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -50,7 +52,7 @@ spa = 0
 spd = 252
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.LAURA.1.pokemon]]
 internal_name = "COMFEY"
 level = 100
 raw_item = "SYNTHETICSEED"
@@ -63,7 +65,7 @@ raw_moves = [
 nature = "TIMID"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.LAURA.1.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -71,7 +73,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.LAURA.1.pokemon]]
 internal_name = "WHIMSICOTT"
 level = 100
 raw_item = "LIFEORB"
@@ -85,7 +87,7 @@ sex = "F"
 nature = "MODEST"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.LAURA.1.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -93,7 +95,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.LAURA.1.pokemon]]
 internal_name = "FLORGES"
 level = 100
 raw_item = "SYNTHETICSEED"
@@ -106,7 +108,7 @@ raw_moves = [
 nature = "MODEST"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.LAURA.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -114,7 +116,7 @@ spa = 0
 spd = 252
 spe = 4
 
-[[trainers.1.pokemon]]
+[[trainers.LAURA.1.pokemon]]
 internal_name = "LILLIGANT"
 level = 100
 raw_item = "LIFEORB"
@@ -128,7 +130,7 @@ sex = "F"
 nature = "TIMID"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.LAURA.1.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -136,12 +138,12 @@ spa = 252
 spd = 252
 spe = 0
 
-[trainers.0]
+[trainers.LAURA.0]
 raw_trainer_class = "LAURA"
 battler_name = "Laura"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.LAURA.0.pokemon]]
 internal_name = "CHERRIM"
 level = 120
 raw_item = "GRASSIUMZ2"
@@ -156,7 +158,7 @@ sex = "F"
 nature = "HASTY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.LAURA.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 200
@@ -164,7 +166,7 @@ spa = 252
 spd = 52
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.LAURA.0.pokemon]]
 internal_name = "VENUSAUR"
 level = 120
 raw_item = "SYNTHETICSEED"
@@ -179,7 +181,7 @@ sex = "F"
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.LAURA.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -187,7 +189,7 @@ spa = 0
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.LAURA.0.pokemon]]
 internal_name = "COMFEY"
 level = 120
 raw_item = "SYNTHETICSEED"
@@ -200,7 +202,7 @@ raw_moves = [
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.LAURA.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -208,7 +210,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.LAURA.0.pokemon]]
 internal_name = "WHIMSICOTT"
 level = 120
 raw_item = "LIFEORB"
@@ -222,7 +224,7 @@ sex = "F"
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.LAURA.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -230,7 +232,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.LAURA.0.pokemon]]
 internal_name = "FLORGES"
 level = 120
 raw_item = "SYNTHETICSEED"
@@ -243,7 +245,7 @@ raw_moves = [
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.LAURA.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -251,7 +253,7 @@ spa = 0
 spd = 252
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.LAURA.0.pokemon]]
 internal_name = "LILLIGANT"
 level = 120
 raw_item = "LIFEORB"
@@ -265,7 +267,7 @@ sex = "F"
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.LAURA.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -273,13 +275,13 @@ spa = 252
 spd = 252
 spe = 0
 
-[trainers.2]
+[trainers.LAURA.2]
 raw_trainer_class = "LAURA"
 battler_name = "Laura"
 battler_id = 2
 raw_battle_items = []
 
-[[trainers.2.pokemon]]
+[[trainers.LAURA.2.pokemon]]
 internal_name = "WHIMSICOTT"
 level = 125
 raw_item = "FOCUSSASH"
@@ -294,7 +296,7 @@ sex = ""
 nature = "MODEST"
 iv = 5
 
-[trainers.2.pokemon.evs]
+[trainers.LAURA.2.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -302,7 +304,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.LAURA.2.pokemon]]
 internal_name = "LILLIGANT"
 level = 125
 raw_item = "MAGICALSEED"
@@ -317,7 +319,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.LAURA.2.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -325,7 +327,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.LAURA.2.pokemon]]
 internal_name = "MAGEARNA"
 level = 125
 raw_item = "MAGICALSEED"
@@ -339,7 +341,7 @@ sex = ""
 nature = "TIMID"
 iv = 5
 
-[trainers.2.pokemon.evs]
+[trainers.LAURA.2.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -347,7 +349,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.LAURA.2.pokemon]]
 internal_name = "CELEBI"
 level = 125
 raw_item = "MAGICALSEED"
@@ -361,7 +363,7 @@ sex = ""
 nature = "TIMID"
 iv = 5
 
-[trainers.2.pokemon.evs]
+[trainers.LAURA.2.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -369,7 +371,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.LAURA.2.pokemon]]
 internal_name = "TANGROWTH"
 level = 125
 raw_item = "LIFEORB"
@@ -384,7 +386,7 @@ sex = ""
 nature = "MODEST"
 iv = 5
 
-[trainers.2.pokemon.evs]
+[trainers.LAURA.2.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -392,7 +394,7 @@ spa = 0
 spd = 252
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.LAURA.2.pokemon]]
 internal_name = "SCEPTILE"
 level = 125
 raw_item = "SCEPTILITE"
@@ -407,7 +409,7 @@ sex = ""
 nature = "MODEST"
 iv = 5
 
-[trainers.2.pokemon.evs]
+[trainers.LAURA.2.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -415,13 +417,13 @@ spa = 252
 spd = 252
 spe = 0
 
-[trainers.10]
+[trainers.LAURA.10]
 raw_trainer_class = "LAURA"
 battler_name = "Laura"
 battler_id = 10
 raw_battle_items = []
 
-[[trainers.10.pokemon]]
+[[trainers.LAURA.10.pokemon]]
 internal_name = "FLORGES"
 level = 100
 raw_item = "SYNTHETICSEED"
@@ -435,7 +437,7 @@ sex = ""
 nature = "CALM"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.LAURA.10.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -443,7 +445,7 @@ spa = 0
 spd = 4
 spe = 252
 
-[[trainers.10.pokemon]]
+[[trainers.LAURA.10.pokemon]]
 internal_name = "WHIMSICOTT"
 level = 100
 raw_item = "FOCUSSASH"
@@ -457,7 +459,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.LAURA.10.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -465,7 +467,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.LAURA.10.pokemon]]
 internal_name = "COMFEY"
 level = 100
 raw_item = "SYNTHETICSEED"
@@ -479,7 +481,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.LAURA.10.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -487,7 +489,7 @@ spa = 0
 spd = 252
 spe = 4
 
-[[trainers.10.pokemon]]
+[[trainers.LAURA.10.pokemon]]
 internal_name = "LILLIGANT"
 level = 100
 raw_item = "SYNTHETICSEED"
@@ -501,7 +503,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.LAURA.10.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -509,7 +511,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.LAURA.10.pokemon]]
 internal_name = "TAPUBULU"
 level = 100
 raw_item = "SYNTHETICSEED"
@@ -524,7 +526,7 @@ form_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.LAURA.10.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -532,7 +534,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.LAURA.10.pokemon]]
 internal_name = "ROSERADE"
 level = 100
 raw_item = "CHOICESPECS"
@@ -546,7 +548,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.LAURA.10.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -554,13 +556,13 @@ spa = 252
 spd = 252
 spe = 0
 
-[trainers.11]
+[trainers.LAURA.11]
 raw_trainer_class = "LAURA"
 battler_name = "Laura"
 battler_id = 11
 raw_battle_items = []
 
-[[trainers.11.pokemon]]
+[[trainers.LAURA.11.pokemon]]
 internal_name = "WHIMSICOTT"
 level = 100
 raw_item = "FOCUSSASH"
@@ -574,7 +576,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.LAURA.11.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -582,7 +584,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.LAURA.11.pokemon]]
 internal_name = "TSAREENA"
 level = 100
 raw_item = "CHOICESCARF"
@@ -597,7 +599,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.LAURA.11.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -605,7 +607,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.LAURA.11.pokemon]]
 internal_name = "KARTANA"
 level = 100
 raw_item = "CHOICEBAND"
@@ -619,7 +621,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.LAURA.11.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -627,7 +629,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.LAURA.11.pokemon]]
 internal_name = "MAWILE"
 level = 100
 raw_item = "MAWILITE"
@@ -642,7 +644,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.LAURA.11.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -650,7 +652,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.11.pokemon]]
+[[trainers.LAURA.11.pokemon]]
 internal_name = "MAGEARNA"
 level = 100
 raw_item = "ASSAULTVEST"
@@ -664,7 +666,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.LAURA.11.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -672,7 +674,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.LAURA.11.pokemon]]
 internal_name = "TOGEKISS"
 level = 100
 raw_item = "LEFTOVERS"
@@ -687,7 +689,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.LAURA.11.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -695,13 +697,13 @@ spa = 252
 spd = 252
 spe = 0
 
-[trainers.12]
+[trainers.LAURA.12]
 raw_trainer_class = "LAURA"
 battler_name = "Laura"
 battler_id = 12
 raw_battle_items = []
 
-[[trainers.12.pokemon]]
+[[trainers.LAURA.12.pokemon]]
 internal_name = "BELLOSSOM"
 level = 100
 raw_item = "LIFEORB"
@@ -715,7 +717,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.LAURA.12.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -723,7 +725,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.LAURA.12.pokemon]]
 internal_name = "TOGEKISS"
 level = 100
 raw_item = "LEFTOVERS"
@@ -737,7 +739,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.LAURA.12.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -745,7 +747,7 @@ spa = 252
 spd = 4
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.LAURA.12.pokemon]]
 internal_name = "GARDEVOIR"
 level = 100
 raw_item = "GARDEVOIRITE"
@@ -759,7 +761,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.LAURA.12.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -767,7 +769,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.LAURA.12.pokemon]]
 internal_name = "CRESSELIA"
 level = 100
 raw_item = "LEFTOVERS"
@@ -781,7 +783,7 @@ sex = ""
 nature = "BOLD"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.LAURA.12.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -789,7 +791,7 @@ spa = 0
 spd = 0
 spe = 200
 
-[[trainers.12.pokemon]]
+[[trainers.LAURA.12.pokemon]]
 internal_name = "SIMISAGE"
 level = 100
 raw_item = "DARKINIUMZ2"
@@ -803,7 +805,7 @@ sex = ""
 nature = "NAIVE"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.LAURA.12.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 128
@@ -811,7 +813,7 @@ spa = 252
 spd = 128
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.LAURA.12.pokemon]]
 internal_name = "NECROZMA"
 level = 100
 raw_item = "LEFTOVERS"
@@ -826,7 +828,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.LAURA.12.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0

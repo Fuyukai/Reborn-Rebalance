@@ -1,150 +1,160 @@
-[trainers.0]
-raw_trainer_class = "UMBCIEL"
+trainer_name = "Ciel"
+
+[trainers.CIEL.0]
+raw_trainer_class = "CIEL"
 battler_name = "Ciel"
-raw_battle_items = []
-
-[[trainers.0.pokemon]]
-internal_name = "ARCHEOPS"
-level = 115
-raw_item = "FOCUSSASH"
-raw_moves = [
-    "UTURN",
-    "ANCIENTPOWER",
-    "CRUNCH",
-    "TAILWIND",
+raw_battle_items = [
+    "ULTRAPOTION",
+    "ULTRAPOTION",
+    "ULTRAPOTION",
 ]
-sex = ""
-nature = "ADAMANT"
-iv = 31
 
-[trainers.0.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 252
-spa = 252
-spd = 252
-spe = 252
-
-[[trainers.0.pokemon]]
-internal_name = "CELESTEELA"
-level = 115
-raw_item = "MAGICALSEED"
-raw_moves = [
-    "FLASHCANNON",
-    "LEECHSEED",
-    "PROTECT",
-    "FLAMETHROWER",
-]
-sex = ""
-nature = "MODEST"
-iv = 31
-
-[trainers.0.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 252
-spa = 252
-spd = 252
-spe = 252
-
-[[trainers.0.pokemon]]
-internal_name = "GYARADOS"
-level = 115
-raw_item = "DARKINIUMZ2"
-raw_moves = [
-    "WATERFALL",
-    "CRUNCH",
-    "STONEEDGE",
-    "DRAGONDANCE",
-]
-ability_number = 1
-sex = ""
-nature = "ADAMANT"
-iv = 31
-
-[trainers.0.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 252
-spa = 252
-spd = 252
-spe = 252
-
-[[trainers.0.pokemon]]
-internal_name = "ZAPDOS"
-level = 115
+[[trainers.CIEL.0.pokemon]]
+internal_name = "TOGEKISS"
+level = 75
 raw_item = "LEFTOVERS"
 raw_moves = [
-    "VOLTSWITCH",
-    "HEATWAVE",
-    "ANCIENTPOWER",
     "ROOST",
+    "AIRSLASH",
+    "AURASPHERE",
+    "THUNDERWAVE",
 ]
 ability_number = 1
-sex = ""
+sex = "F"
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.CIEL.0.pokemon.evs]
 hp = 0
 atk = 252
-def_ = 252
+def_ = 0
 spa = 252
-spd = 252
-spe = 252
+spd = 0
+spe = 4
 
-[[trainers.0.pokemon]]
-internal_name = "PINSIR"
-level = 115
-raw_item = "PINSIRITE"
+[[trainers.CIEL.0.pokemon]]
+internal_name = "MINIOR"
+level = 75
+raw_item = "FOCUSSASH"
 raw_moves = [
-    "KNOCKOFF",
-    "CLOSECOMBAT",
-    "QUICKATTACK",
-    "SECRETPOWER",
+    "ACROBATICS",
+    "EARTHQUAKE",
+    "ROCKSLIDE",
+    "SHELLSMASH",
 ]
-sex = ""
+ability_number = 2
+sex = "F"
+form_number = 4
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.CIEL.0.pokemon.evs]
 hp = 0
-atk = 252
+atk = 4
 def_ = 252
 spa = 252
-spd = 252
-spe = 252
+spd = 0
+spe = 0
 
-[[trainers.0.pokemon]]
-internal_name = "LANDORUS"
-level = 115
-raw_item = "MAGICALSEED"
+[[trainers.CIEL.0.pokemon]]
+internal_name = "NOIVERN"
+level = 75
+raw_item = "ASSAULTVEST"
 raw_moves = [
-    "EARTHPOWER",
-    "FOCUSBLAST",
-    "PSYCHIC",
-    "SLUDGEWAVE",
+    "ACROBATICS",
+    "BOOMBURST",
+    "DRAGONPULSE",
+    "HEATWAVE",
 ]
 ability_number = 1
-sex = ""
-nature = "MODEST"
+sex = "F"
+nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.CIEL.0.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.CIEL.0.pokemon]]
+internal_name = "GLISCOR"
+level = 75
+raw_item = "TOXICORB"
+raw_moves = [
+    "EARTHQUAKE",
+    "ACROBATICS",
+    "ROOST",
+    "DEFOG",
+]
+ability_number = 2
+sex = "F"
+form_number = 1
+nature = "ADAMANT"
+iv = 31
+
+[trainers.CIEL.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
-spa = 252
-spd = 252
-spe = 252
+spa = 0
+spd = 0
+spe = 4
 
-[trainers.10]
+[[trainers.CIEL.0.pokemon]]
+internal_name = "ORICORIO"
+level = 75
+raw_item = "SYNTHETICSEED"
+raw_moves = [
+    "REVELATIONDANCE",
+    "ROOST",
+    "AIRSLASH",
+    "BATONPASS",
+]
+sex = "F"
+nature = "TIMID"
+iv = 31
+
+[trainers.CIEL.0.pokemon.evs]
+hp = 0
+atk = 100
+def_ = 0
+spa = 156
+spd = 252
+spe = 0
+
+[[trainers.CIEL.0.pokemon]]
+internal_name = "ALTARIA"
+level = 78
+raw_item = "ALTARIANITE"
+raw_moves = [
+    "EARTHQUAKE",
+    "HYPERVOICE",
+    "ROOST",
+    "SING",
+]
+ability_number = 1
+sex = "F"
+nature = "RASH"
+iv = 31
+
+[trainers.CIEL.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 252
+spd = 0
+spe = 0
+
+[trainers.CIEL.10]
 raw_trainer_class = "CIEL"
 battler_name = "Ciel"
 battler_id = 10
 raw_battle_items = []
 
-[[trainers.10.pokemon]]
+[[trainers.CIEL.10.pokemon]]
 internal_name = "YANMEGA"
 level = 100
 raw_item = "FOCUSSASH"
@@ -158,7 +168,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.CIEL.10.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -166,7 +176,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.CIEL.10.pokemon]]
 internal_name = "TOGEKISS"
 level = 100
 raw_item = "WIKIBERRY"
@@ -181,7 +191,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.CIEL.10.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -189,7 +199,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.10.pokemon]]
+[[trainers.CIEL.10.pokemon]]
 internal_name = "GLISCOR"
 level = 100
 raw_item = "TOXICORB"
@@ -204,7 +214,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.CIEL.10.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -212,7 +222,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.CIEL.10.pokemon]]
 internal_name = "SALAMENCE"
 level = 100
 raw_item = "SALAMENCITE"
@@ -227,7 +237,7 @@ nature = "JOLLY"
 iv = 31
 happiness = 255
 
-[trainers.10.pokemon.evs]
+[trainers.CIEL.10.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -235,7 +245,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.CIEL.10.pokemon]]
 internal_name = "HAWLUCHA"
 level = 100
 raw_item = "TELLURICSEED"
@@ -250,7 +260,7 @@ nature = "ADAMANT"
 iv = 31
 happiness = 255
 
-[trainers.10.pokemon.evs]
+[trainers.CIEL.10.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -258,7 +268,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.CIEL.10.pokemon]]
 internal_name = "SHAYMIN"
 level = 100
 raw_item = "ASSAULTVEST"
@@ -273,7 +283,7 @@ form_number = 1
 nature = "TIMID"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.CIEL.10.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -281,13 +291,13 @@ spa = 252
 spd = 252
 spe = 0
 
-[trainers.11]
+[trainers.CIEL.11]
 raw_trainer_class = "CIEL"
 battler_name = "Ciel"
 battler_id = 11
 raw_battle_items = []
 
-[[trainers.11.pokemon]]
+[[trainers.CIEL.11.pokemon]]
 internal_name = "LUGIA"
 level = 100
 raw_item = "LEFTOVERS"
@@ -302,7 +312,7 @@ sex = ""
 nature = "NAUGHTY"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.CIEL.11.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -310,7 +320,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.11.pokemon]]
+[[trainers.CIEL.11.pokemon]]
 internal_name = "LANDORUS"
 level = 100
 raw_item = "FLYINIUMZ2"
@@ -325,7 +335,7 @@ nature = "JOLLY"
 iv = 31
 happiness = 255
 
-[trainers.11.pokemon.evs]
+[trainers.CIEL.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -333,7 +343,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.CIEL.11.pokemon]]
 internal_name = "YVELTAL"
 level = 100
 raw_item = "LIFEORB"
@@ -348,7 +358,7 @@ sex = ""
 nature = "MILD"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.CIEL.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -356,7 +366,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.11.pokemon]]
+[[trainers.CIEL.11.pokemon]]
 internal_name = "HOOH"
 level = 100
 raw_item = "ASSAULTVEST"
@@ -371,7 +381,7 @@ sex = ""
 nature = "MILD"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.CIEL.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -379,7 +389,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.11.pokemon]]
+[[trainers.CIEL.11.pokemon]]
 internal_name = "SALAMENCE"
 level = 100
 raw_item = "SALAMENCITE"
@@ -394,7 +404,7 @@ nature = "JOLLY"
 iv = 31
 happiness = 255
 
-[trainers.11.pokemon.evs]
+[trainers.CIEL.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -402,7 +412,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.CIEL.11.pokemon]]
 internal_name = "SHAYMIN"
 level = 100
 raw_item = "ASSAULTVEST"
@@ -417,7 +427,7 @@ form_number = 1
 nature = "TIMID"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.CIEL.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -425,13 +435,13 @@ spa = 252
 spd = 252
 spe = 0
 
-[trainers.12]
+[trainers.CIEL.12]
 raw_trainer_class = "CIEL"
 battler_name = "Ciel"
 battler_id = 12
 raw_battle_items = []
 
-[[trainers.12.pokemon]]
+[[trainers.CIEL.12.pokemon]]
 internal_name = "PELIPPER"
 level = 100
 raw_item = "DAMPROCK"
@@ -446,7 +456,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.CIEL.12.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -454,7 +464,7 @@ spa = 252
 spd = 4
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.CIEL.12.pokemon]]
 internal_name = "THUNDURUS"
 level = 100
 raw_item = "WIKIBERRY"
@@ -469,7 +479,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.CIEL.12.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -477,7 +487,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.12.pokemon]]
+[[trainers.CIEL.12.pokemon]]
 internal_name = "LUGIA"
 level = 100
 raw_item = "LEFTOVERS"
@@ -492,7 +502,7 @@ sex = ""
 nature = "NAUGHTY"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.CIEL.12.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -500,7 +510,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.12.pokemon]]
+[[trainers.CIEL.12.pokemon]]
 internal_name = "ZAPDOS"
 level = 100
 raw_item = "LEFTOVERS"
@@ -514,7 +524,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.CIEL.12.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -522,7 +532,7 @@ spa = 252
 spd = 4
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.CIEL.12.pokemon]]
 internal_name = "CELESTEELA"
 level = 100
 raw_item = "LEFTOVERS"
@@ -536,7 +546,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.CIEL.12.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -544,7 +554,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.12.pokemon]]
+[[trainers.CIEL.12.pokemon]]
 internal_name = "GYARADOS"
 level = 100
 raw_item = "FLYINIUMZ2"
@@ -558,7 +568,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.CIEL.12.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -566,13 +576,13 @@ spa = 252
 spd = 0
 spe = 0
 
-[trainers.13]
+[trainers.CIEL.13]
 raw_trainer_class = "CIEL"
 battler_name = "Ciel"
 battler_id = 13
 raw_battle_items = []
 
-[[trainers.13.pokemon]]
+[[trainers.CIEL.13.pokemon]]
 internal_name = "TOGEKISS"
 level = 100
 raw_item = "CHOICESPECS"
@@ -587,7 +597,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.CIEL.13.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -595,7 +605,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.13.pokemon]]
+[[trainers.CIEL.13.pokemon]]
 internal_name = "YVELTAL"
 level = 100
 raw_item = "DARKINIUMZ2"
@@ -609,7 +619,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.CIEL.13.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -617,7 +627,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.13.pokemon]]
+[[trainers.CIEL.13.pokemon]]
 internal_name = "HOOH"
 level = 100
 raw_item = "MAGICALSEED"
@@ -632,7 +642,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.CIEL.13.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -640,7 +650,7 @@ spa = 252
 spd = 0
 spe = 4
 
-[[trainers.13.pokemon]]
+[[trainers.CIEL.13.pokemon]]
 internal_name = "LUGIA"
 level = 100
 raw_item = "MAGICALSEED"
@@ -655,7 +665,7 @@ sex = ""
 nature = "NAUGHTY"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.CIEL.13.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -663,7 +673,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.13.pokemon]]
+[[trainers.CIEL.13.pokemon]]
 internal_name = "SHAYMIN"
 level = 100
 raw_item = "LIFEORB"
@@ -678,7 +688,7 @@ form_number = 1
 nature = "TIMID"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.CIEL.13.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -686,7 +696,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.13.pokemon]]
+[[trainers.CIEL.13.pokemon]]
 internal_name = "RAYQUAZA"
 level = 100
 raw_item = "LIFEORB"
@@ -700,7 +710,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.CIEL.13.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -708,13 +718,13 @@ spa = 252
 spd = 0
 spe = 4
 
-[trainers.14]
+[trainers.CIEL.14]
 raw_trainer_class = "CIEL"
 battler_name = "Ciel"
 battler_id = 14
 raw_battle_items = []
 
-[[trainers.14.pokemon]]
+[[trainers.CIEL.14.pokemon]]
 internal_name = "CHARIZARD"
 level = 100
 raw_item = "CHARIZARDITEY"
@@ -728,7 +738,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.14.pokemon.evs]
+[trainers.CIEL.14.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -736,7 +746,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.14.pokemon]]
+[[trainers.CIEL.14.pokemon]]
 internal_name = "HOOH"
 level = 100
 raw_item = "ELEMENTALSEED"
@@ -751,7 +761,7 @@ sex = ""
 nature = "HASTY"
 iv = 31
 
-[trainers.14.pokemon.evs]
+[trainers.CIEL.14.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -759,7 +769,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.14.pokemon]]
+[[trainers.CIEL.14.pokemon]]
 internal_name = "SALAMENCE"
 level = 100
 raw_item = "FLYINIUMZ2"
@@ -773,7 +783,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.14.pokemon.evs]
+[trainers.CIEL.14.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -781,7 +791,7 @@ spa = 252
 spd = 0
 spe = 4
 
-[[trainers.14.pokemon]]
+[[trainers.CIEL.14.pokemon]]
 internal_name = "NOIVERN"
 level = 100
 raw_item = "ELEMENTALSEED"
@@ -796,7 +806,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.14.pokemon.evs]
+[trainers.CIEL.14.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -804,7 +814,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.14.pokemon]]
+[[trainers.CIEL.14.pokemon]]
 internal_name = "DRAGONITE"
 level = 100
 raw_item = "IAPAPABERRY"
@@ -819,7 +829,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.14.pokemon.evs]
+[trainers.CIEL.14.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -827,7 +837,7 @@ spa = 252
 spd = 0
 spe = 4
 
-[[trainers.14.pokemon]]
+[[trainers.CIEL.14.pokemon]]
 internal_name = "RAYQUAZA"
 level = 100
 raw_item = "LIFEORB"
@@ -841,7 +851,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.14.pokemon.evs]
+[trainers.CIEL.14.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -849,13 +859,13 @@ spa = 252
 spd = 0
 spe = 4
 
-[trainers.15]
+[trainers.CIEL.15]
 raw_trainer_class = "CIEL"
 battler_name = "Ciel"
 battler_id = 15
 raw_battle_items = []
 
-[[trainers.15.pokemon]]
+[[trainers.CIEL.15.pokemon]]
 internal_name = "NOIVERN"
 level = 100
 raw_item = "CHOICESCARF"
@@ -870,7 +880,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.15.pokemon.evs]
+[trainers.CIEL.15.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -878,7 +888,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.15.pokemon]]
+[[trainers.CIEL.15.pokemon]]
 internal_name = "SWOOBAT"
 level = 100
 raw_item = "FOCUSSASH"
@@ -893,7 +903,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.15.pokemon.evs]
+[trainers.CIEL.15.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -901,7 +911,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.15.pokemon]]
+[[trainers.CIEL.15.pokemon]]
 internal_name = "LUGIA"
 level = 100
 raw_item = "LEFTOVERS"
@@ -916,7 +926,7 @@ sex = ""
 nature = "NAUGHTY"
 iv = 31
 
-[trainers.15.pokemon.evs]
+[trainers.CIEL.15.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -924,7 +934,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.15.pokemon]]
+[[trainers.CIEL.15.pokemon]]
 internal_name = "SIGILYPH"
 level = 100
 raw_item = "LEFTOVERS"
@@ -939,7 +949,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.15.pokemon.evs]
+[trainers.CIEL.15.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -947,7 +957,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.15.pokemon]]
+[[trainers.CIEL.15.pokemon]]
 internal_name = "TOGEKISS"
 level = 100
 raw_item = "WIKIBERRY"
@@ -962,7 +972,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.15.pokemon.evs]
+[trainers.CIEL.15.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -970,7 +980,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.15.pokemon]]
+[[trainers.CIEL.15.pokemon]]
 internal_name = "THUNDURUS"
 level = 100
 raw_item = "WIKIBERRY"
@@ -985,7 +995,7 @@ form_number = 1
 nature = "TIMID"
 iv = 31
 
-[trainers.15.pokemon.evs]
+[trainers.CIEL.15.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -993,13 +1003,13 @@ spa = 252
 spd = 252
 spe = 4
 
-[trainers.16]
+[trainers.CIEL.16]
 raw_trainer_class = "CIEL"
 battler_name = "Ciel"
 battler_id = 16
 raw_battle_items = []
 
-[[trainers.16.pokemon]]
+[[trainers.CIEL.16.pokemon]]
 internal_name = "VOLCARONA"
 level = 100
 raw_item = "FOCUSSASH"
@@ -1015,7 +1025,7 @@ nature = "TIMID"
 iv = 31
 happiness = 255
 
-[trainers.16.pokemon.evs]
+[trainers.CIEL.16.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -1023,7 +1033,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.16.pokemon]]
+[[trainers.CIEL.16.pokemon]]
 internal_name = "ORICORIO"
 level = 100
 raw_item = "SYNTHETICSEED"
@@ -1038,7 +1048,7 @@ form_number = 1
 nature = "MODEST"
 iv = 31
 
-[trainers.16.pokemon.evs]
+[trainers.CIEL.16.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -1046,7 +1056,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.16.pokemon]]
+[[trainers.CIEL.16.pokemon]]
 internal_name = "ORICORIO"
 level = 100
 raw_item = "SYNTHETICSEED"
@@ -1061,7 +1071,7 @@ form_number = 2
 nature = "MODEST"
 iv = 31
 
-[trainers.16.pokemon.evs]
+[trainers.CIEL.16.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -1069,7 +1079,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.16.pokemon]]
+[[trainers.CIEL.16.pokemon]]
 internal_name = "LILLIGANT"
 level = 100
 raw_item = "WIDELENS"
@@ -1085,7 +1095,7 @@ nature = "TIMID"
 iv = 31
 happiness = 255
 
-[trainers.16.pokemon.evs]
+[trainers.CIEL.16.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -1093,7 +1103,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.16.pokemon]]
+[[trainers.CIEL.16.pokemon]]
 internal_name = "ORICORIO"
 level = 100
 raw_item = "SYNTHETICSEED"
@@ -1107,7 +1117,7 @@ sex = "F"
 nature = "MODEST"
 iv = 31
 
-[trainers.16.pokemon.evs]
+[trainers.CIEL.16.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -1115,7 +1125,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.16.pokemon]]
+[[trainers.CIEL.16.pokemon]]
 internal_name = "ORICORIO"
 level = 100
 raw_item = "SYNTHETICSEED"
@@ -1130,7 +1140,7 @@ form_number = 3
 nature = "MODEST"
 iv = 31
 
-[trainers.16.pokemon.evs]
+[trainers.CIEL.16.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -1138,7 +1148,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[trainers.20]
+[trainers.CIEL.20]
 raw_trainer_class = "CIEL"
 battler_name = "Ciel"
 battler_id = 20
@@ -1148,7 +1158,7 @@ raw_battle_items = [
     "ULTRAPOTION",
 ]
 
-[[trainers.20.pokemon]]
+[[trainers.CIEL.20.pokemon]]
 internal_name = "TOGEKISS"
 level = 75
 raw_item = "LEFTOVERS"
@@ -1163,7 +1173,7 @@ sex = "F"
 nature = "MODEST"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.CIEL.20.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -1171,7 +1181,7 @@ spa = 252
 spd = 0
 spe = 4
 
-[[trainers.20.pokemon]]
+[[trainers.CIEL.20.pokemon]]
 internal_name = "SQUAWKABILLY"
 level = 75
 raw_item = "FLAMEORB"
@@ -1187,7 +1197,7 @@ form_number = 1
 nature = "JOLLY"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.CIEL.20.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -1195,7 +1205,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.CIEL.20.pokemon]]
 internal_name = "NOIVERN"
 level = 75
 raw_item = "ASSAULTVEST"
@@ -1210,7 +1220,7 @@ sex = "F"
 nature = "TIMID"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.CIEL.20.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -1218,7 +1228,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.CIEL.20.pokemon]]
 internal_name = "ORICORIO"
 level = 75
 raw_item = "FOCUSSASH"
@@ -1232,7 +1242,7 @@ sex = "F"
 nature = "TIMID"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.CIEL.20.pokemon.evs]
 hp = 0
 atk = 100
 def_ = 0
@@ -1240,7 +1250,7 @@ spa = 156
 spd = 252
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.CIEL.20.pokemon]]
 internal_name = "FLAMIGO"
 level = 75
 raw_item = "LAXINCENSE"
@@ -1255,7 +1265,7 @@ sex = "F"
 nature = "JOLLY"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.CIEL.20.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -1263,7 +1273,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.CIEL.20.pokemon]]
 internal_name = "ALTARIA"
 level = 78
 raw_item = "ALTARIANITE"
@@ -1278,10 +1288,150 @@ sex = "F"
 nature = "RASH"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.CIEL.20.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
 spa = 0
 spd = 252
 spe = 0
+
+[trainers.UMBCIEL.0]
+raw_trainer_class = "UMBCIEL"
+battler_name = "Ciel"
+raw_battle_items = []
+
+[[trainers.UMBCIEL.0.pokemon]]
+internal_name = "ARCHEOPS"
+level = 115
+raw_item = "FOCUSSASH"
+raw_moves = [
+    "UTURN",
+    "ANCIENTPOWER",
+    "CRUNCH",
+    "TAILWIND",
+]
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.UMBCIEL.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.UMBCIEL.0.pokemon]]
+internal_name = "CELESTEELA"
+level = 115
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "FLASHCANNON",
+    "LEECHSEED",
+    "PROTECT",
+    "FLAMETHROWER",
+]
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.UMBCIEL.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.UMBCIEL.0.pokemon]]
+internal_name = "GYARADOS"
+level = 115
+raw_item = "DARKINIUMZ2"
+raw_moves = [
+    "WATERFALL",
+    "CRUNCH",
+    "STONEEDGE",
+    "DRAGONDANCE",
+]
+ability_number = 1
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.UMBCIEL.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.UMBCIEL.0.pokemon]]
+internal_name = "ZAPDOS"
+level = 115
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "VOLTSWITCH",
+    "HEATWAVE",
+    "ANCIENTPOWER",
+    "ROOST",
+]
+ability_number = 1
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.UMBCIEL.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.UMBCIEL.0.pokemon]]
+internal_name = "PINSIR"
+level = 115
+raw_item = "PINSIRITE"
+raw_moves = [
+    "KNOCKOFF",
+    "CLOSECOMBAT",
+    "QUICKATTACK",
+    "SECRETPOWER",
+]
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.UMBCIEL.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.UMBCIEL.0.pokemon]]
+internal_name = "LANDORUS"
+level = 115
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "EARTHPOWER",
+    "FOCUSBLAST",
+    "PSYCHIC",
+    "SLUDGEWAVE",
+]
+ability_number = 1
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.UMBCIEL.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252

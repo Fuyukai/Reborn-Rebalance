@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Jirachi"
+
+[trainers.JIRACHI.0]
 raw_trainer_class = "JIRACHI"
 battler_name = "Jirachi"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.JIRACHI.0.pokemon]]
 internal_name = "LUCARIO"
 level = 125
 raw_item = "LIFEORB"
@@ -18,7 +20,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.JIRACHI.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -26,7 +28,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.JIRACHI.0.pokemon]]
 internal_name = "DELPHOX"
 level = 125
 raw_item = "FOCUSSASH"
@@ -41,7 +43,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.JIRACHI.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -49,7 +51,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.JIRACHI.0.pokemon]]
 internal_name = "SYLVEON"
 level = 125
 raw_item = "LEFTOVERS"
@@ -63,7 +65,7 @@ sex = ""
 nature = "SASSY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.JIRACHI.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -71,7 +73,7 @@ spa = 0
 spd = 200
 spe = 56
 
-[[trainers.0.pokemon]]
+[[trainers.JIRACHI.0.pokemon]]
 internal_name = "STARMIE"
 level = 125
 raw_item = "LEFTOVERS"
@@ -86,7 +88,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.JIRACHI.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -94,7 +96,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.JIRACHI.0.pokemon]]
 internal_name = "GALLADE"
 level = 125
 raw_item = "GALLADITE"
@@ -109,7 +111,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.JIRACHI.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -117,7 +119,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.JIRACHI.0.pokemon]]
 internal_name = "JIRACHI"
 level = 125
 raw_item = "LEFTOVERS"
@@ -131,7 +133,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.JIRACHI.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252

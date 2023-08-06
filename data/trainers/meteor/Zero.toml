@@ -1,9 +1,153 @@
-[trainers.0]
+trainer_name = "Zero"
+
+[trainers.ZEL2.0]
+raw_trainer_class = "ZEL2"
+battler_name = "Zero"
+raw_battle_items = [
+    "FULLRESTORE",
+    "FULLRESTORE",
+]
+
+[[trainers.ZEL2.0.pokemon]]
+internal_name = "SPIRITOMB"
+level = 92
+raw_item = "BLACKGLASSES"
+raw_moves = [
+    "WILLOWISP",
+    "PURSUIT",
+    "SHADOWSNEAK",
+    "FOULPLAY",
+]
+nature = "CAREFUL"
+iv = 31
+
+[trainers.ZEL2.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.ZEL2.0.pokemon]]
+internal_name = "HOUNDOOM"
+level = 92
+raw_item = "FOCUSSASH"
+raw_moves = [
+    "FLAMETHROWER",
+    "DARKPULSE",
+    "NASTYPLOT",
+    "SLUDGEBOMB",
+]
+ability_number = 1
+nature = "TIMID"
+iv = 31
+
+[trainers.ZEL2.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.ZEL2.0.pokemon]]
+internal_name = "HONCHKROW"
+level = 93
+raw_item = "LIFEORB"
+raw_moves = [
+    "SUPERPOWER",
+    "BRAVEBIRD",
+    "SUCKERPUNCH",
+    "NIGHTSLASH",
+]
+ability_number = 2
+sex = "F"
+nature = "ADAMANT"
+iv = 31
+
+[trainers.ZEL2.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.ZEL2.0.pokemon]]
+internal_name = "WEAVILE"
+level = 93
+raw_item = "LIFEORB"
+raw_moves = [
+    "KNOCKOFF",
+    "ICICLECRASH",
+    "ICESHARD",
+    "BRICKBREAK",
+]
+ability_number = 1
+sex = "F"
+nature = "ADAMANT"
+iv = 31
+
+[trainers.ZEL2.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.ZEL2.0.pokemon]]
+internal_name = "UMBREON"
+level = 94
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "WISH",
+    "PROTECT",
+    "TOXIC",
+    "FOULPLAY",
+]
+ability_number = 1
+nature = "CALM"
+iv = 31
+
+[trainers.ZEL2.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.ZEL2.0.pokemon]]
+internal_name = "CLAWITZER"
+level = 95
+raw_item = "WISEGLASSES"
+raw_moves = [
+    "OVERHEAT",
+    "ORIGINPULSE",
+    "DRACOMETEOR",
+    "FLEURCANNON",
+]
+form_number = 1
+nature = "TIMID"
+iv = 31
+happiness = 0
+
+[trainers.ZEL2.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 252
+spe = 0
+
+[trainers.ZEL3.0]
 raw_trainer_class = "ZEL3"
 battler_name = "Zero"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.ZEL3.0.pokemon]]
 internal_name = "HONCHKROW"
 level = 133
 raw_item = "LIFEORB"
@@ -18,7 +162,7 @@ sex = "F"
 nature = "JOLLY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.ZEL3.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -26,7 +170,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.ZEL3.0.pokemon]]
 internal_name = "ARTICUNO"
 level = 134
 raw_item = "LIGHTCLAY"
@@ -39,7 +183,7 @@ raw_moves = [
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.ZEL3.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -47,7 +191,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.ZEL3.0.pokemon]]
 internal_name = "WEAVILE"
 level = 134
 raw_item = "FOCUSSASH"
@@ -62,7 +206,7 @@ sex = "F"
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.ZEL3.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -70,7 +214,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.ZEL3.0.pokemon]]
 internal_name = "DODRIO"
 level = 134
 raw_item = "LIFEORB"
@@ -87,7 +231,7 @@ nature = "JOLLY"
 iv = 31
 happiness = 0
 
-[trainers.0.pokemon.evs]
+[trainers.ZEL3.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -95,7 +239,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.ZEL3.0.pokemon]]
 internal_name = "UMBREON"
 level = 135
 raw_item = "LEFTOVERS"
@@ -108,7 +252,7 @@ raw_moves = [
 nature = "CALM"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.ZEL3.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -116,7 +260,7 @@ spa = 0
 spd = 252
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.ZEL3.0.pokemon]]
 internal_name = "HOUNDOOM"
 level = 134
 raw_item = "HOUNDOOMINITE"
@@ -130,7 +274,7 @@ ability_number = 1
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.ZEL3.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -138,13 +282,13 @@ spa = 252
 spd = 252
 spe = 0
 
-[trainers.1000]
+[trainers.ZEL3.1000]
 raw_trainer_class = "ZEL3"
 battler_name = "Zero"
 battler_id = 1000
 raw_battle_items = []
 
-[[trainers.1000.pokemon]]
+[[trainers.ZEL3.1000.pokemon]]
 internal_name = "SABLEYE"
 level = 100
 raw_item = "LEFTOVERS"
@@ -159,7 +303,7 @@ sex = ""
 nature = "BOLD"
 iv = 31
 
-[trainers.1000.pokemon.evs]
+[trainers.ZEL3.1000.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -167,7 +311,7 @@ spa = 0
 spd = 0
 spe = 252
 
-[[trainers.1000.pokemon]]
+[[trainers.ZEL3.1000.pokemon]]
 internal_name = "SPIRITOMB"
 level = 100
 raw_item = "LEFTOVERS"
@@ -181,7 +325,7 @@ sex = ""
 nature = "BOLD"
 iv = 31
 
-[trainers.1000.pokemon.evs]
+[trainers.ZEL3.1000.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -189,7 +333,7 @@ spa = 0
 spd = 0
 spe = 252
 
-[[trainers.1000.pokemon]]
+[[trainers.ZEL3.1000.pokemon]]
 internal_name = "UMBREON"
 level = 100
 raw_item = "LEFTOVERS"
@@ -203,7 +347,7 @@ sex = ""
 nature = "CALM"
 iv = 31
 
-[trainers.1000.pokemon.evs]
+[trainers.ZEL3.1000.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -211,13 +355,13 @@ spa = 0
 spd = 0
 spe = 4
 
-[trainers.1001]
+[trainers.ZEL3.1001]
 raw_trainer_class = "ZEL3"
 battler_name = "Zero"
 battler_id = 1001
 raw_battle_items = []
 
-[[trainers.1001.pokemon]]
+[[trainers.ZEL3.1001.pokemon]]
 internal_name = "SPIRITOMB"
 level = 100
 raw_item = "LEFTOVERS"
@@ -231,7 +375,7 @@ sex = ""
 nature = "BOLD"
 iv = 31
 
-[trainers.1001.pokemon.evs]
+[trainers.ZEL3.1001.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -239,7 +383,7 @@ spa = 0
 spd = 0
 spe = 252
 
-[[trainers.1001.pokemon]]
+[[trainers.ZEL3.1001.pokemon]]
 internal_name = "UMBREON"
 level = 100
 raw_item = "LEFTOVERS"
@@ -253,7 +397,7 @@ sex = ""
 nature = "CALM"
 iv = 31
 
-[trainers.1001.pokemon.evs]
+[trainers.ZEL3.1001.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -261,7 +405,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.1001.pokemon]]
+[[trainers.ZEL3.1001.pokemon]]
 internal_name = "DARKRAI"
 level = 100
 raw_item = "AIRBALLOON"
@@ -275,7 +419,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.1001.pokemon.evs]
+[trainers.ZEL3.1001.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -283,13 +427,13 @@ spa = 252
 spd = 252
 spe = 4
 
-[trainers.10]
+[trainers.ZEL3.10]
 raw_trainer_class = "ZEL3"
 battler_name = "Zero"
 battler_id = 10
 raw_battle_items = []
 
-[[trainers.10.pokemon]]
+[[trainers.ZEL3.10.pokemon]]
 internal_name = "ZOROARK"
 level = 100
 raw_item = "FOCUSSASH"
@@ -303,7 +447,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.ZEL3.10.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -311,7 +455,7 @@ spa = 0
 spd = 252
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.ZEL3.10.pokemon]]
 internal_name = "ZAPDOS"
 level = 100
 raw_item = "LEFTOVERS"
@@ -326,7 +470,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.ZEL3.10.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -334,7 +478,7 @@ spa = 0
 spd = 252
 spe = 4
 
-[[trainers.10.pokemon]]
+[[trainers.ZEL3.10.pokemon]]
 internal_name = "ZEBSTRIKA"
 level = 100
 raw_item = "LIGHTCLAY"
@@ -349,7 +493,7 @@ sex = ""
 nature = "HASTY"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.ZEL3.10.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -357,7 +501,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.ZEL3.10.pokemon]]
 internal_name = "ZEKROM"
 level = 100
 raw_item = "LEFTOVERS"
@@ -372,7 +516,7 @@ nature = "IMPISH"
 iv = 31
 happiness = 255
 
-[trainers.10.pokemon.evs]
+[trainers.ZEL3.10.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -380,7 +524,7 @@ spa = 0
 spd = 0
 spe = 56
 
-[[trainers.10.pokemon]]
+[[trainers.ZEL3.10.pokemon]]
 internal_name = "ZERAORA"
 level = 100
 raw_item = "CHOICEBAND"
@@ -394,7 +538,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.ZEL3.10.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -402,7 +546,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.ZEL3.10.pokemon]]
 internal_name = "ZYGARDE"
 level = 100
 raw_item = "MAGICALSEED"
@@ -418,7 +562,7 @@ nature = "QUIET"
 iv = 31
 happiness = 255
 
-[trainers.10.pokemon.evs]
+[trainers.ZEL3.10.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 128
@@ -426,13 +570,13 @@ spa = 0
 spd = 128
 spe = 0
 
-[trainers.11]
+[trainers.ZEL3.11]
 raw_trainer_class = "ZEL3"
 battler_name = "Zero"
 battler_id = 11
 raw_battle_items = []
 
-[[trainers.11.pokemon]]
+[[trainers.ZEL3.11.pokemon]]
 internal_name = "YVELTAL"
 level = 100
 raw_item = "MAGICALSEED"
@@ -446,7 +590,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.ZEL3.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -454,7 +598,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.ZEL3.11.pokemon]]
 internal_name = "UMBREON"
 level = 100
 raw_item = "LEFTOVERS"
@@ -468,7 +612,7 @@ sex = ""
 nature = "BOLD"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.ZEL3.11.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -476,7 +620,7 @@ spa = 0
 spd = 0
 spe = 56
 
-[[trainers.11.pokemon]]
+[[trainers.ZEL3.11.pokemon]]
 internal_name = "HOUNDOOM"
 level = 100
 raw_item = "HOUNDOOMINITE"
@@ -491,7 +635,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.ZEL3.11.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -499,7 +643,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.ZEL3.11.pokemon]]
 internal_name = "ARTICUNO"
 level = 100
 raw_item = "LIGHTCLAY"
@@ -514,7 +658,7 @@ nature = "CALM"
 iv = 31
 happiness = 255
 
-[trainers.11.pokemon.evs]
+[trainers.ZEL3.11.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -522,7 +666,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.ZEL3.11.pokemon]]
 internal_name = "HONCHKROW"
 level = 100
 raw_item = "DARKINIUMZ2"
@@ -537,7 +681,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.ZEL3.11.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -545,7 +689,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.ZEL3.11.pokemon]]
 internal_name = "SHAYMIN"
 level = 100
 raw_item = "YACHEBERRY"
@@ -561,7 +705,7 @@ nature = "TIMID"
 iv = 31
 happiness = 255
 
-[trainers.11.pokemon.evs]
+[trainers.ZEL3.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -569,13 +713,13 @@ spa = 252
 spd = 252
 spe = 0
 
-[trainers.12]
+[trainers.ZEL3.12]
 raw_trainer_class = "ZEL3"
 battler_name = "Zero"
 battler_id = 12
 raw_battle_items = []
 
-[[trainers.12.pokemon]]
+[[trainers.ZEL3.12.pokemon]]
 internal_name = "EEVEE"
 level = 100
 raw_item = "EEVIUMZ2"
@@ -590,7 +734,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.ZEL3.12.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -598,7 +742,7 @@ spa = 0
 spd = 252
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.ZEL3.12.pokemon]]
 internal_name = "UMBREON"
 level = 100
 raw_item = "LEFTOVERS"
@@ -612,7 +756,7 @@ sex = ""
 nature = "CALM"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.ZEL3.12.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -620,7 +764,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.12.pokemon]]
+[[trainers.ZEL3.12.pokemon]]
 internal_name = "ESPEON"
 level = 100
 raw_item = "CHOICESPECS"
@@ -635,7 +779,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.ZEL3.12.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -643,7 +787,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.ZEL3.12.pokemon]]
 internal_name = "GLACEON"
 level = 100
 raw_item = "MAGICALSEED"
@@ -658,7 +802,7 @@ nature = "MODEST"
 iv = 31
 happiness = 255
 
-[trainers.12.pokemon.evs]
+[trainers.ZEL3.12.pokemon.evs]
 hp = 0
 atk = 128
 def_ = 0
@@ -666,7 +810,7 @@ spa = 128
 spd = 252
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.ZEL3.12.pokemon]]
 internal_name = "VAPOREON"
 level = 100
 raw_item = "MAGICALSEED"
@@ -680,7 +824,7 @@ sex = ""
 nature = "CALM"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.ZEL3.12.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -688,7 +832,7 @@ spa = 0
 spd = 0
 spe = 252
 
-[[trainers.12.pokemon]]
+[[trainers.ZEL3.12.pokemon]]
 internal_name = "JOLTEON"
 level = 100
 raw_item = "LIFEORB"
@@ -703,7 +847,7 @@ nature = "MODEST"
 iv = 31
 happiness = 255
 
-[trainers.12.pokemon.evs]
+[trainers.ZEL3.12.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0

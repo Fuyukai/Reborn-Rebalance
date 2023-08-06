@@ -1,4 +1,6 @@
-[trainers.0]
+trainer_name = "El"
+
+[trainers.EL.0]
 raw_trainer_class = "EL"
 battler_name = "El"
 raw_battle_items = [
@@ -7,7 +9,7 @@ raw_battle_items = [
     "",
 ]
 
-[[trainers.0.pokemon]]
+[[trainers.EL.0.pokemon]]
 internal_name = "ARCEUS"
 level = 75
 raw_item = "LEFTOVERS"
@@ -21,7 +23,7 @@ sex = ""
 nature = "QUIET"
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.EL.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -29,13 +31,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.20]
+[trainers.EL.20]
 raw_trainer_class = "EL"
 battler_name = "El"
 battler_id = 20
 raw_battle_items = []
 
-[[trainers.20.pokemon]]
+[[trainers.EL.20.pokemon]]
 internal_name = "TINGLU"
 level = 60
 raw_item = "LEFTOVERS"
@@ -49,7 +51,7 @@ sex = ""
 nature = "CAREFUL"
 iv = 0
 
-[trainers.20.pokemon.evs]
+[trainers.EL.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -57,7 +59,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.EL.20.pokemon]]
 internal_name = "CHIENPAO"
 level = 60
 raw_moves = [
@@ -69,7 +71,7 @@ raw_moves = [
 sex = ""
 iv = 0
 
-[trainers.20.pokemon.evs]
+[trainers.EL.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -77,7 +79,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.EL.20.pokemon]]
 internal_name = "WOCHIEN"
 level = 60
 raw_item = "LEFTOVERS"
@@ -91,7 +93,7 @@ sex = ""
 nature = "BOLD"
 iv = 0
 
-[trainers.20.pokemon.evs]
+[trainers.EL.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -99,7 +101,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.EL.20.pokemon]]
 internal_name = "CHIYU"
 level = 60
 raw_item = "WISEGLASSES"
@@ -113,7 +115,7 @@ sex = ""
 nature = "MODEST"
 iv = 0
 
-[trainers.20.pokemon.evs]
+[trainers.EL.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -121,7 +123,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.EL.20.pokemon]]
 internal_name = "ARCEUS"
 level = 65
 raw_item = "LEFTOVERS"
@@ -135,7 +137,7 @@ sex = ""
 nature = "QUIET"
 iv = 0
 
-[trainers.20.pokemon.evs]
+[trainers.EL.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

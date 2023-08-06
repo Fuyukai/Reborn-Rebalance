@@ -1,4 +1,6 @@
-[trainers.0]
+trainer_name = "Archer"
+
+[trainers.Archer.0]
 raw_trainer_class = "Archer"
 battler_name = "Archer"
 raw_battle_items = [
@@ -6,7 +8,7 @@ raw_battle_items = [
     "STRAWBIC",
 ]
 
-[[trainers.0.pokemon]]
+[[trainers.Archer.0.pokemon]]
 internal_name = "PELIPPER"
 level = 41
 raw_moves = [
@@ -19,7 +21,7 @@ ability_number = 1
 nature = "MODEST"
 iv = 20
 
-[trainers.0.pokemon.evs]
+[trainers.Archer.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -27,7 +29,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.Archer.0.pokemon]]
 internal_name = "BLASTOISE"
 level = 42
 raw_moves = [
@@ -39,7 +41,7 @@ raw_moves = [
 nature = "ADAMANT"
 iv = 20
 
-[trainers.0.pokemon.evs]
+[trainers.Archer.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -47,7 +49,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.Archer.0.pokemon]]
 internal_name = "SHARPEDO"
 level = 45
 raw_moves = [
@@ -60,7 +62,7 @@ ability_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.Archer.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -68,13 +70,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.1]
+[trainers.Archer.1]
 raw_trainer_class = "Archer"
 battler_name = "Archer"
 battler_id = 1
 raw_battle_items = []
 
-[[trainers.1.pokemon]]
+[[trainers.Archer.1.pokemon]]
 internal_name = "PELIPPER"
 level = 58
 raw_moves = [
@@ -87,7 +89,7 @@ ability_number = 1
 nature = "MODEST"
 iv = 20
 
-[trainers.1.pokemon.evs]
+[trainers.Archer.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -95,7 +97,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.Archer.1.pokemon]]
 internal_name = "RELICANTH"
 level = 58
 raw_moves = [
@@ -108,7 +110,7 @@ ability_number = 1
 nature = "BASHFUL"
 iv = 30
 
-[trainers.1.pokemon.evs]
+[trainers.Archer.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -116,7 +118,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.Archer.1.pokemon]]
 internal_name = "SEAKING"
 level = 59
 raw_moves = [
@@ -129,7 +131,7 @@ ability_number = 2
 nature = "ADAMANT"
 iv = 30
 
-[trainers.1.pokemon.evs]
+[trainers.Archer.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -137,7 +139,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.Archer.1.pokemon]]
 internal_name = "BLASTOISE"
 level = 60
 raw_moves = [
@@ -149,7 +151,7 @@ raw_moves = [
 nature = "MODEST"
 iv = 20
 
-[trainers.1.pokemon.evs]
+[trainers.Archer.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -157,7 +159,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.Archer.1.pokemon]]
 internal_name = "SHARPEDO"
 level = 62
 raw_moves = [
@@ -170,7 +172,7 @@ ability_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.Archer.1.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -178,13 +180,13 @@ spa = 252
 spd = 0
 spe = 0
 
-[trainers.2]
+[trainers.Archer.2]
 raw_trainer_class = "Archer"
 battler_name = "Archer"
 battler_id = 2
 raw_battle_items = []
 
-[[trainers.2.pokemon]]
+[[trainers.Archer.2.pokemon]]
 internal_name = "PELIPPER"
 level = 120
 raw_item = "DAMPROCK"
@@ -198,7 +200,7 @@ ability_number = 1
 nature = "MODEST"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.Archer.2.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -206,7 +208,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.Archer.2.pokemon]]
 internal_name = "RELICANTH"
 level = 120
 raw_item = "LEFTOVERS"
@@ -220,7 +222,7 @@ ability_number = 1
 nature = "BASHFUL"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.Archer.2.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 4
@@ -228,7 +230,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.Archer.2.pokemon]]
 internal_name = "SEAKING"
 level = 120
 raw_item = "CHOICEBAND"
@@ -242,7 +244,7 @@ ability_number = 2
 nature = "ADAMANT"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.Archer.2.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -250,7 +252,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.Archer.2.pokemon]]
 internal_name = "BLASTOISE"
 level = 120
 raw_item = "LEFTOVERS"
@@ -263,7 +265,7 @@ raw_moves = [
 nature = "MODEST"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.Archer.2.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -271,7 +273,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.Archer.2.pokemon]]
 internal_name = "MANTINE"
 level = 120
 raw_item = "LEFTOVERS"
@@ -285,7 +287,7 @@ ability_number = 1
 nature = "CALM"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.Archer.2.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -293,7 +295,7 @@ spa = 4
 spd = 0
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.Archer.2.pokemon]]
 internal_name = "SHARPEDO"
 level = 120
 raw_item = "SHARPEDONITE"
@@ -307,7 +309,7 @@ ability_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.Archer.2.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -315,13 +317,13 @@ spa = 252
 spd = 0
 spe = 0
 
-[trainers.1000]
+[trainers.Archer.1000]
 raw_trainer_class = "Archer"
 battler_name = "Archer"
 battler_id = 1000
 raw_battle_items = []
 
-[[trainers.1000.pokemon]]
+[[trainers.Archer.1000.pokemon]]
 internal_name = "PELIPPER"
 level = 100
 raw_item = "DAMPROCK"
@@ -335,7 +337,7 @@ ability_number = 1
 nature = "MODEST"
 iv = 31
 
-[trainers.1000.pokemon.evs]
+[trainers.Archer.1000.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -343,7 +345,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.1000.pokemon]]
+[[trainers.Archer.1000.pokemon]]
 internal_name = "SWAMPERT"
 level = 100
 raw_item = "CHOICESPECS"
@@ -356,7 +358,7 @@ raw_moves = [
 nature = "ADAMANT"
 iv = 31
 
-[trainers.1000.pokemon.evs]
+[trainers.Archer.1000.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -364,7 +366,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.1000.pokemon]]
+[[trainers.Archer.1000.pokemon]]
 internal_name = "SHARPEDO"
 level = 100
 raw_item = "AIRBALLOON"
@@ -378,7 +380,7 @@ ability_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.1000.pokemon.evs]
+[trainers.Archer.1000.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -386,13 +388,13 @@ spa = 252
 spd = 0
 spe = 0
 
-[trainers.21]
+[trainers.Archer.21]
 raw_trainer_class = "Archer"
 battler_name = "Archer"
 battler_id = 21
 raw_battle_items = []
 
-[[trainers.21.pokemon]]
+[[trainers.Archer.21.pokemon]]
 internal_name = "PELIPPER"
 level = 58
 raw_moves = [
@@ -405,7 +407,7 @@ ability_number = 1
 nature = "MODEST"
 iv = 20
 
-[trainers.21.pokemon.evs]
+[trainers.Archer.21.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -413,7 +415,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.21.pokemon]]
+[[trainers.Archer.21.pokemon]]
 internal_name = "DREDNAW"
 level = 58
 raw_moves = [
@@ -426,7 +428,7 @@ ability_number = 2
 nature = "ADAMANT"
 iv = 30
 
-[trainers.21.pokemon.evs]
+[trainers.Archer.21.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -434,7 +436,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.21.pokemon]]
+[[trainers.Archer.21.pokemon]]
 internal_name = "DONDOZO"
 level = 59
 raw_item = "ASSAULTVEST"
@@ -447,7 +449,7 @@ raw_moves = [
 nature = "ADAMANT"
 iv = 30
 
-[trainers.21.pokemon.evs]
+[trainers.Archer.21.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 4
@@ -455,7 +457,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.21.pokemon]]
+[[trainers.Archer.21.pokemon]]
 internal_name = "BLASTOISE"
 level = 60
 raw_moves = [
@@ -467,7 +469,7 @@ raw_moves = [
 nature = "MODEST"
 iv = 20
 
-[trainers.21.pokemon.evs]
+[trainers.Archer.21.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -475,7 +477,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.21.pokemon]]
+[[trainers.Archer.21.pokemon]]
 internal_name = "SHARPEDO"
 level = 62
 raw_item = "SHARPEDONITE"
@@ -489,7 +491,7 @@ ability_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.21.pokemon.evs]
+[trainers.Archer.21.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252

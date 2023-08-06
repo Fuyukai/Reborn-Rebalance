@@ -1,14 +1,16 @@
-[trainers.0]
+trainer_name = "Michael"
+
+[trainers.PSYCHIC_Male.0]
 raw_trainer_class = "PSYCHIC_Male"
 battler_name = "Michael"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.PSYCHIC_Male.0.pokemon]]
 internal_name = "INKAY"
 level = 32
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.PSYCHIC_Male.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -16,12 +18,12 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.PSYCHIC_Male.0.pokemon]]
 internal_name = "MISDREAVUS"
 level = 32
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.PSYCHIC_Male.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

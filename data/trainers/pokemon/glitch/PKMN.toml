@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "PKMN"
+
+[trainers.GLITCH3.0]
 raw_trainer_class = "GLITCH3"
 battler_name = "PKMN"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.GLITCH3.0.pokemon]]
 internal_name = "SANDSLASH"
 level = 75
 raw_moves = [
@@ -15,7 +17,7 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.GLITCH3.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

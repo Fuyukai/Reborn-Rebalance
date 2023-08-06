@@ -1,15 +1,17 @@
-[trainers.3]
+trainer_name = "Gibson"
+
+[trainers.Casanova.3]
 raw_trainer_class = "Casanova"
 battler_name = "Gibson"
 battler_id = 3
 raw_battle_items = []
 
-[[trainers.3.pokemon]]
+[[trainers.Casanova.3.pokemon]]
 internal_name = "KABUTO"
 level = 14
 iv = 0
 
-[trainers.3.pokemon.evs]
+[trainers.Casanova.3.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -17,17 +19,17 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.0]
+[trainers.Casanova.0]
 raw_trainer_class = "Casanova"
 battler_name = "Gibson"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.Casanova.0.pokemon]]
 internal_name = "CRANIDOS"
 level = 37
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.Casanova.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -35,13 +37,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.Casanova.0.pokemon]]
 internal_name = "SAWK"
 level = 37
 ability_number = 1
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.Casanova.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -49,12 +51,12 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.Casanova.0.pokemon]]
 internal_name = "KABUTO"
 level = 37
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.Casanova.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -62,18 +64,18 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.1]
+[trainers.Casanova.1]
 raw_trainer_class = "Casanova"
 battler_name = "Gibson"
 battler_id = 1
 raw_battle_items = []
 
-[[trainers.1.pokemon]]
+[[trainers.Casanova.1.pokemon]]
 internal_name = "RAMPARDOS"
 level = 50
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.Casanova.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -81,13 +83,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.Casanova.1.pokemon]]
 internal_name = "SAWK"
 level = 50
 ability_number = 1
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.Casanova.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -95,12 +97,12 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.Casanova.1.pokemon]]
 internal_name = "KABUTOPS"
 level = 50
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.Casanova.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -108,18 +110,18 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.2]
+[trainers.Casanova.2]
 raw_trainer_class = "Casanova"
 battler_name = "Gibson"
 battler_id = 2
 raw_battle_items = []
 
-[[trainers.2.pokemon]]
+[[trainers.Casanova.2.pokemon]]
 internal_name = "BASTIODON"
 level = 59
 iv = 0
 
-[trainers.2.pokemon.evs]
+[trainers.Casanova.2.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -127,12 +129,12 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.Casanova.2.pokemon]]
 internal_name = "RAMPARDOS"
 level = 60
 iv = 0
 
-[trainers.2.pokemon.evs]
+[trainers.Casanova.2.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -140,13 +142,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.Casanova.2.pokemon]]
 internal_name = "SAWK"
 level = 60
 ability_number = 1
 iv = 0
 
-[trainers.2.pokemon.evs]
+[trainers.Casanova.2.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -154,12 +156,12 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.Casanova.2.pokemon]]
 internal_name = "KABUTOPS"
 level = 60
 iv = 0
 
-[trainers.2.pokemon.evs]
+[trainers.Casanova.2.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -167,13 +169,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.4]
+[trainers.Casanova.4]
 raw_trainer_class = "Casanova"
 battler_name = "Gibson"
 battler_id = 4
 raw_battle_items = []
 
-[[trainers.4.pokemon]]
+[[trainers.Casanova.4.pokemon]]
 internal_name = "BASTIODON"
 level = 85
 raw_item = "CUSTAPBERRY"
@@ -185,7 +187,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.4.pokemon.evs]
+[trainers.Casanova.4.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -193,7 +195,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.4.pokemon]]
+[[trainers.Casanova.4.pokemon]]
 internal_name = "RAMPARDOS"
 level = 85
 raw_item = "CHOICESCARF"
@@ -206,7 +208,7 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.4.pokemon.evs]
+[trainers.Casanova.4.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -214,7 +216,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.4.pokemon]]
+[[trainers.Casanova.4.pokemon]]
 internal_name = "SAWK"
 level = 85
 raw_item = "MUSCLEBAND"
@@ -227,7 +229,7 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.4.pokemon.evs]
+[trainers.Casanova.4.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -235,7 +237,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.4.pokemon]]
+[[trainers.Casanova.4.pokemon]]
 internal_name = "AURORUS"
 level = 85
 raw_item = "ASSAULTVEST"
@@ -247,7 +249,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.4.pokemon.evs]
+[trainers.Casanova.4.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -255,7 +257,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.4.pokemon]]
+[[trainers.Casanova.4.pokemon]]
 internal_name = "KABUTOPS"
 level = 86
 raw_item = "FOCUSSASH"
@@ -268,7 +270,7 @@ raw_moves = [
 ability_number = 2
 iv = 0
 
-[trainers.4.pokemon.evs]
+[trainers.Casanova.4.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -276,18 +278,18 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.5]
+[trainers.Casanova.5]
 raw_trainer_class = "Casanova"
 battler_name = "Gibson"
 battler_id = 5
 raw_battle_items = []
 
-[[trainers.5.pokemon]]
+[[trainers.Casanova.5.pokemon]]
 internal_name = "CRANIDOS"
 level = 20
 iv = 0
 
-[trainers.5.pokemon.evs]
+[trainers.Casanova.5.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -295,13 +297,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.5.pokemon]]
+[[trainers.Casanova.5.pokemon]]
 internal_name = "SAWK"
 level = 20
 ability_number = 1
 iv = 0
 
-[trainers.5.pokemon.evs]
+[trainers.Casanova.5.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -309,12 +311,12 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.5.pokemon]]
+[[trainers.Casanova.5.pokemon]]
 internal_name = "KABUTO"
 level = 22
 iv = 0
 
-[trainers.5.pokemon.evs]
+[trainers.Casanova.5.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

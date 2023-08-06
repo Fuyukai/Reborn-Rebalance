@@ -1,1147 +1,17 @@
-[trainers.0]
-raw_trainer_class = "UMBRADOMUS"
-battler_name = "Radomus"
-raw_battle_items = []
+trainer_name = "Radomus"
 
-[[trainers.0.pokemon]]
-internal_name = "BISHARP"
-level = 115
-raw_item = "DREADPLATE"
-raw_moves = [
-    "STEALTHROCK",
-    "IRONHEAD",
-    "SUCKERPUNCH",
-    "SWORDSDANCE",
-]
-sex = ""
-nature = "ADAMANT"
-iv = 0
-
-[trainers.0.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 252
-spa = 252
-spd = 252
-spe = 252
-
-[[trainers.0.pokemon]]
-internal_name = "SAMUROTT"
-level = 115
-raw_item = "EXPERTBELT"
-raw_moves = [
-    "SMARTSTRIKE",
-    "SACREDSWORD",
-    "LIQUIDATION",
-    "MEGAHORN",
-]
-ability_number = 1
-sex = ""
-nature = "SERIOUS"
-iv = 0
-
-[trainers.0.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 252
-spa = 252
-spd = 252
-spe = 252
-
-[[trainers.0.pokemon]]
-internal_name = "KARTANA"
-level = 115
-raw_item = "LIFEORB"
-raw_moves = [
-    "SMARTSTRIKE",
-    "KNOCKOFF",
-    "BRICKBREAK",
-    "LEAFBLADE",
-]
-sex = ""
-nature = "JOLLY"
-iv = 0
-
-[trainers.0.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 252
-spa = 252
-spd = 252
-spe = 252
-
-[[trainers.0.pokemon]]
-internal_name = "LOPUNNY"
-level = 115
-raw_item = "LOPUNNITE"
-raw_moves = [
-    "FAKEOUT",
-    "SECRETPOWER",
-    "DRAINPUNCH",
-    "POWERUPPUNCH",
-]
-ability_number = 2
-sex = ""
-nature = "ADAMANT"
-iv = 0
-
-[trainers.0.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 252
-spa = 252
-spd = 252
-spe = 252
-
-[[trainers.0.pokemon]]
-internal_name = "ESCAVALIER"
-level = 116
-raw_item = "KINGSROCK"
-raw_moves = [
-    "SMARTSTRIKE",
-    "MEGAHORN",
-    "FELLSTINGER",
-    "DRILLRUN",
-]
-ability_number = 2
-sex = ""
-nature = "ADAMANT"
-iv = 0
-
-[trainers.0.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 252
-spa = 252
-spd = 252
-spe = 252
-
-[[trainers.0.pokemon]]
-internal_name = "ALAKAZAM"
-level = 117
-raw_item = "PSYCHIUMZ2"
-raw_moves = [
-    "PSYCHIC",
-    "CALMMIND",
-    "DAZZLINGGLEAM",
-    "RECOVER",
-]
-ability_number = 2
-sex = ""
-nature = "TIMID"
-iv = 0
-
-[trainers.0.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 252
-spa = 252
-spd = 252
-spe = 252
-
-[trainers.10]
+[trainers.RADOMUS.0]
 raw_trainer_class = "RADOMUS"
 battler_name = "Radomus"
-battler_id = 10
-raw_battle_items = []
-
-[[trainers.10.pokemon]]
-internal_name = "ESPEON"
-level = 100
-raw_item = "CHOICESPECS"
-raw_moves = [
-    "SHADOWBALL",
-    "SIGNALBEAM",
-    "DAZZLINGGLEAM",
-    "PSYCHIC",
-]
-ability_number = 2
-sex = ""
-nature = "TIMID"
-iv = 31
-
-[trainers.10.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 4
-
-[[trainers.10.pokemon]]
-internal_name = "STARMIE"
-level = 100
-raw_item = "LIFEORB"
-raw_moves = [
-    "SCALD",
-    "RAPIDSPIN",
-    "PSYSHOCK",
-    "DAZZLINGGLEAM",
-]
-sex = ""
-nature = "TIMID"
-iv = 31
-
-[trainers.10.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 4
-
-[[trainers.10.pokemon]]
-internal_name = "LUNALA"
-level = 100
-raw_item = "LUNALIUMZ2"
-raw_moves = [
-    "MOONGEISTBEAM",
-    "PSYCHIC",
-    "ROOST",
-    "WILLOWISP",
-]
-sex = ""
-nature = "MODEST"
-iv = 31
-
-[trainers.10.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 4
-
-[[trainers.10.pokemon]]
-internal_name = "ALAKAZAM"
-level = 100
-raw_item = "CHOICESPECS"
-raw_moves = [
-    "PSYSHOCK",
-    "DAZZLINGGLEAM",
-    "SIGNALBEAM",
-    "ENERGYBALL",
-]
-ability_number = 2
-sex = ""
-nature = "TIMID"
-iv = 31
-
-[trainers.10.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 4
-
-[[trainers.10.pokemon]]
-internal_name = "DELPHOX"
-level = 100
-raw_item = "LEFTOVERS"
-raw_moves = [
-    "WISH",
-    "PROTECT",
-    "TOXIC",
-    "MYSTICALFIRE",
-]
-ability_number = 1
-sex = ""
-nature = "TIMID"
-iv = 31
-
-[trainers.10.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 0
-spa = 252
-spd = 4
-spe = 0
-
-[[trainers.10.pokemon]]
-internal_name = "METAGROSS"
-level = 100
-raw_item = "METAGROSSITE"
-raw_moves = [
-    "METEORMASH",
-    "ZENHEADBUTT",
-    "EARTHQUAKE",
-    "BRICKBREAK",
-]
-ability_number = 1
-sex = ""
-nature = "JOLLY"
-iv = 31
-
-[trainers.10.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 252
-spa = 252
-spd = 0
-spe = 0
-
-[trainers.11]
-raw_trainer_class = "RADOMUS"
-battler_name = "Radomus"
-battler_id = 11
-raw_battle_items = []
-
-[[trainers.11.pokemon]]
-internal_name = "HOOPA"
-level = 100
-raw_item = "CHOICEBAND"
-raw_moves = [
-    "HYPERSPACEHOLE",
-    "ZENHEADBUTT",
-    "GUNKSHOT",
-    "DRAINPUNCH",
-]
-sex = ""
-form_number = 1
-nature = "JOLLY"
-iv = 31
-
-[trainers.11.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 252
-spa = 252
-spd = 0
-spe = 0
-
-[[trainers.11.pokemon]]
-internal_name = "DEOXYS"
-level = 100
-raw_item = "LIFEORB"
-raw_moves = [
-    "PSYCHOBOOST",
-    "DARKPULSE",
-    "EXTREMESPEED",
-    "METEORMASH",
-]
-sex = ""
-form_number = 1
-nature = "NAIVE"
-iv = 31
-
-[trainers.11.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 4
-
-[[trainers.11.pokemon]]
-internal_name = "LUNALA"
-level = 100
-raw_item = "LEFTOVERS"
-raw_moves = [
-    "MOONGEISTBEAM",
-    "PSYCHIC",
-    "ROOST",
-    "WILLOWISP",
-]
-sex = ""
-nature = "MODEST"
-iv = 31
-
-[trainers.11.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 4
-spd = 252
-spe = 252
-
-[[trainers.11.pokemon]]
-internal_name = "MEWTWO"
-level = 100
-raw_item = "MEWTWONITEX"
-raw_moves = [
-    "DRAINPUNCH",
-    "ZENHEADBUTT",
-    "ICEPUNCH",
-    "POISONJAB",
-]
-sex = ""
-nature = "ADAMANT"
-iv = 31
-
-[trainers.11.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 252
-spa = 252
-spd = 0
-spe = 0
-
-[[trainers.11.pokemon]]
-internal_name = "LUGIA"
-level = 100
-raw_item = "LEFTOVERS"
-raw_moves = [
-    "ROOST",
-    "TOXIC",
-    "PSYCHIC",
-    "DRAGONTAIL",
-]
-ability_number = 1
-sex = ""
-nature = "CALM"
-iv = 31
-
-[trainers.11.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 0
-spa = 0
-spd = 0
-spe = 128
-
-[[trainers.11.pokemon]]
-internal_name = "NECROZMA"
-level = 100
-raw_item = "ULTRANECROZIUMZ2"
-raw_moves = [
-    "PHOTONGEYSER",
-    "EARTHQUAKE",
-    "STONEEDGE",
-    "SWORDSDANCE",
-]
-sex = ""
-form_number = 1
-is_shiny = true
-nature = "JOLLY"
-iv = 31
-
-[trainers.11.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 252
-spa = 252
-spd = 0
-spe = 0
-
-[trainers.12]
-raw_trainer_class = "RADOMUS"
-battler_name = "Radomus"
-battler_id = 12
-raw_battle_items = []
-
-[[trainers.12.pokemon]]
-internal_name = "TAPULELE"
-level = 100
-raw_item = "CHOICESPECS"
-raw_moves = [
-    "PSYSHOCK",
-    "MOONBLAST",
-    "THUNDERBOLT",
-    "SHADOWBALL",
-]
-ability_number = 1
-sex = ""
-nature = "MODEST"
-iv = 31
-
-[trainers.12.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 0
-
-[[trainers.12.pokemon]]
-internal_name = "GARDEVOIR"
-level = 100
-raw_item = "FOCUSSASH"
-raw_moves = [
-    "CALMMIND",
-    "MOONBLAST",
-    "MAGICALLEAF",
-    "PSYCHIC",
-]
-ability_number = 2
-sex = "F"
-nature = "MODEST"
-iv = 31
-nickname = "G.Gardevoir"
-
-[trainers.12.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 0
-
-[[trainers.12.pokemon]]
-internal_name = "BEHEEYEM"
-level = 100
-raw_item = "FOCUSSASH"
-raw_moves = [
-    "CALMMIND",
-    "ENERGYBALL",
-    "PSYSHOCK",
-    "DARKPULSE",
-]
-sex = ""
-nature = "TIMID"
-iv = 31
-
-[trainers.12.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 0
-
-[[trainers.12.pokemon]]
-internal_name = "ORANGURU"
-level = 100
-raw_item = "FOCUSSASH"
-raw_moves = [
-    "NASTYPLOT",
-    "PSYCHIC",
-    "HYPERVOICE",
-    "ENERGYBALL",
-]
-ability_number = 1
-sex = ""
-nature = "MODEST"
-iv = 31
-
-[trainers.12.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 0
-
-[[trainers.12.pokemon]]
-internal_name = "MUSHARNA"
-level = 100
-raw_item = "FOCUSSASH"
-raw_moves = [
-    "CALMMIND",
-    "MOONBLAST",
-    "PSYSHOCK",
-    "HYPNOSIS",
-]
-ability_number = 2
-sex = ""
-nature = "TIMID"
-iv = 31
-
-[trainers.12.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 0
-
-[[trainers.12.pokemon]]
-internal_name = "ALAKAZAM"
-level = 100
-raw_item = "ALAKAZITE"
-raw_moves = [
-    "PSYCHIC",
-    "FOCUSBLAST",
-    "RECOVER",
-    "CALMMIND",
-]
-ability_number = 2
-sex = ""
-nature = "TIMID"
-iv = 31
-
-[trainers.12.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 0
-
-[trainers.13]
-raw_trainer_class = "RADOMUS"
-battler_name = "Radomus"
-battler_id = 13
-raw_battle_items = []
-
-[[trainers.13.pokemon]]
-internal_name = "REUNICLUS"
-level = 100
-raw_item = "LIFEORB"
-raw_moves = [
-    "CALMMIND",
-    "PSYSHOCK",
-    "SHADOWBALL",
-    "FOCUSBLAST",
-]
-sex = ""
-nature = "QUIET"
-iv = 32
-
-[trainers.13.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 252
-spe = 4
-
-[[trainers.13.pokemon]]
-internal_name = "BRONZONG"
-level = 100
-raw_item = "WIKIBERRY"
-raw_moves = [
-    "STEALTHROCK",
-    "GYROBALL",
-    "ROCKSLIDE",
-    "TRICKROOM",
-]
-sex = ""
-nature = "RELAXED"
-iv = 32
-
-[trainers.13.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 0
-spa = 0
-spd = 0
-spe = 252
-
-[[trainers.13.pokemon]]
-internal_name = "BEHEEYEM"
-level = 100
-raw_item = "LIFEORB"
-raw_moves = [
-    "PSYCHIC",
-    "NASTYPLOT",
-    "DARKPULSE",
-    "THUNDERBOLT",
-]
-sex = ""
-nature = "QUIET"
-iv = 32
-
-[trainers.13.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 252
-spe = 4
-
-[[trainers.13.pokemon]]
-internal_name = "MUSHARNA"
-level = 100
-raw_item = "WIKIBERRY"
-raw_moves = [
-    "CALMMIND",
-    "PSYCHIC",
-    "DAZZLINGGLEAM",
-    "TRICKROOM",
-]
-sex = ""
-nature = "SASSY"
-iv = 32
-
-[trainers.13.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 0
-spa = 0
-spd = 0
-spe = 4
-
-[[trainers.13.pokemon]]
-internal_name = "SLOWBRO"
-level = 100
-raw_item = "SLOWBRONITE"
-raw_moves = [
-    "BLIZZARD",
-    "SURF",
-    "PSYSHOCK",
-    "SLACKOFF",
-]
-sex = ""
-nature = "RELAXED"
-iv = 32
-
-[trainers.13.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 0
-spa = 0
-spd = 0
-spe = 252
-
-[[trainers.13.pokemon]]
-internal_name = "MALAMAR"
-level = 100
-raw_item = "LIFEORB"
-raw_moves = [
-    "ROCKSLIDE",
-    "SUPERPOWER",
-    "KNOCKOFF",
-    "PSYCHOCUT",
-]
-sex = ""
-nature = "BRAVE"
-iv = 32
-
-[trainers.13.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 0
-spa = 0
-spd = 0
-spe = 252
-
-[trainers.14]
-raw_trainer_class = "RADOMUS"
-battler_name = "Radomus"
-battler_id = 14
-raw_battle_items = []
-
-[[trainers.14.pokemon]]
-internal_name = "UXIE"
-level = 100
-raw_item = "IAPAPABERRY"
-raw_moves = [
-    "THUNDERBOLT",
-    "PSYSHOCK",
-    "ENERGYBALL",
-    "STEALTHROCK",
-]
-sex = ""
-nature = "CAREFUL"
-iv = 31
-
-[trainers.14.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 0
-spa = 0
-spd = 0
-spe = 4
-
-[[trainers.14.pokemon]]
-internal_name = "LUNALA"
-level = 100
-raw_item = "LEFTOVERS"
-raw_moves = [
-    "MOONGEISTBEAM",
-    "PSYCHIC",
-    "ROOST",
-    "BLIZZARD",
-]
-sex = ""
-nature = "RASH"
-iv = 31
-
-[trainers.14.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 4
-spd = 252
-spe = 252
-
-[[trainers.14.pokemon]]
-internal_name = "DEOXYS"
-level = 100
-raw_item = "SYNTHETICSEED"
-raw_moves = [
-    "PSYCHOBOOST",
-    "ICEBEAM",
-    "RECOVER",
-    "TOXIC",
-]
-sex = ""
-form_number = 2
-nature = "CAREFUL"
-iv = 31
-
-[trainers.14.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 0
-spa = 0
-spd = 0
-spe = 4
-
-[[trainers.14.pokemon]]
-internal_name = "CRESSELIA"
-level = 100
-raw_item = "LEFTOVERS"
-raw_moves = [
-    "PSYSHOCK",
-    "CALMMIND",
-    "TOXIC",
-    "MOONLIGHT",
-]
-sex = ""
-nature = "CAREFUL"
-iv = 31
-
-[trainers.14.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 0
-spa = 0
-spd = 0
-spe = 4
-
-[[trainers.14.pokemon]]
-internal_name = "LUGIA"
-level = 100
-raw_item = "SYNTHETICSEED"
-raw_moves = [
-    "ROOST",
-    "TOXIC",
-    "PSYCHIC",
-    "BLIZZARD",
-]
-ability_number = 1
-sex = ""
-nature = "CAREFUL"
-iv = 31
-
-[trainers.14.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 0
-spa = 0
-spd = 0
-spe = 4
-
-[[trainers.14.pokemon]]
-internal_name = "NECROZMA"
-level = 100
-raw_item = "ULTRANECROZIUMZ2"
-raw_moves = [
-    "PHOTONGEYSER",
-    "EARTHQUAKE",
-    "STONEEDGE",
-    "SWORDSDANCE",
-]
-sex = ""
-form_number = 1
-is_shiny = true
-nature = "NAUGHTY"
-iv = 31
-
-[trainers.14.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 4
-
-[trainers.15]
-raw_trainer_class = "RADOMUS"
-battler_name = "Radomus"
-battler_id = 15
-raw_battle_items = []
-
-[[trainers.15.pokemon]]
-internal_name = "CELEBI"
-level = 100
-raw_item = "FOCUSSASH"
-raw_moves = [
-    "STEALTHROCK",
-    "PSYCHIC",
-    "UTURN",
-    "HIDDENPOWERROC",
-]
-sex = ""
-nature = "BOLD"
-iv = 31
-
-[trainers.15.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 0
-spa = 0
-spd = 0
-spe = 252
-
-[[trainers.15.pokemon]]
-internal_name = "MEDICHAM"
-level = 100
-raw_item = "MEDICHAMITE"
-raw_moves = [
-    "FAKEOUT",
-    "ZENHEADBUTT",
-    "BULLETPUNCH",
-    "HIJUMPKICK",
-]
-ability_number = 1
-sex = ""
-nature = "JOLLY"
-iv = 31
-
-[trainers.15.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 252
-spa = 252
-spd = 0
-spe = 0
-
-[[trainers.15.pokemon]]
-internal_name = "MEWTWO"
-level = 100
-raw_item = "MEWTWONITEY"
-raw_moves = [
-    "PSYSTRIKE",
-    "FOCUSBLAST",
-    "CALMMIND",
-    "ICEBEAM",
-]
-sex = ""
-nature = "TIMID"
-iv = 31
-
-[trainers.15.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 0
-
-[[trainers.15.pokemon]]
-internal_name = "LUGIA"
-level = 100
-raw_item = "LEFTOVERS"
-raw_moves = [
-    "ROOST",
-    "TOXIC",
-    "PSYCHIC",
-    "DRAGONTAIL",
-]
-ability_number = 1
-sex = ""
-nature = "CALM"
-iv = 31
-
-[trainers.15.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 0
-spa = 0
-spd = 0
-spe = 4
-
-[[trainers.15.pokemon]]
-internal_name = "STARMIE"
-level = 100
-raw_item = "LIFEORB"
-raw_moves = [
-    "SURF",
-    "PSYCHIC",
-    "HIDDENPOWERGHO",
-    "RAPIDSPIN",
-]
-sex = ""
-nature = "TIMID"
-iv = 31
-
-[trainers.15.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 0
-
-[[trainers.15.pokemon]]
-internal_name = "GARDEVOIR"
-level = 100
-raw_item = "CHOICESPECS"
-raw_moves = [
-    "MOONBLAST",
-    "PSYCHIC",
-    "FOCUSBLAST",
-    "HIDDENPOWERGRO",
-]
-ability_number = 1
-sex = "F"
-nature = "TIMID"
-iv = 31
-nickname = "G.Gardevoir"
-
-[trainers.15.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 4
-
-[trainers.16]
-raw_trainer_class = "RADOMUS"
-battler_name = "Radomus"
-battler_id = 16
-raw_battle_items = []
-
-[[trainers.16.pokemon]]
-internal_name = "MELOETTA"
-level = 100
-raw_item = "MAGICALSEED"
-raw_moves = [
-    "HYPERVOICE",
-    "PSYSHOCK",
-    "DAZZLINGGLEAM",
-    "THUNDERBOLT",
-]
-sex = ""
-nature = "TIMID"
-iv = 31
-
-[trainers.16.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 4
-
-[[trainers.16.pokemon]]
-internal_name = "MEWTWO"
-level = 100
-raw_item = "MEWTWONITEY"
-raw_moves = [
-    "PSYSTRIKE",
-    "FIREBLAST",
-    "ICEBEAM",
-    "CALMMIND",
-]
-sex = ""
-nature = "TIMID"
-iv = 31
-
-[trainers.16.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 4
-
-[[trainers.16.pokemon]]
-internal_name = "LUNALA"
-level = 100
-raw_item = "MAGICALSEED"
-raw_moves = [
-    "PSYSHOCK",
-    "MOONBLAST",
-    "ICEBEAM",
-    "AIRSLASH",
-]
-sex = ""
-nature = "TIMID"
-iv = 31
-
-[trainers.16.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 4
-
-[[trainers.16.pokemon]]
-internal_name = "TAPULELE"
-level = 100
-raw_item = "PIXIEPLATE"
-raw_moves = [
-    "NATUREPOWER",
-    "PSYSHOCK",
-    "FOCUSBLAST",
-    "HIDDENPOWERGRO",
-]
-sex = ""
-form_number = 1
-nature = "TIMID"
-iv = 31
-
-[trainers.16.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 4
-
-[[trainers.16.pokemon]]
-internal_name = "LATIOS"
-level = 100
-raw_item = "MAGICALSEED"
-raw_moves = [
-    "LUSTERPURGE",
-    "DRAGONPULSE",
-    "SURF",
-    "ENERGYBALL",
-]
-sex = ""
-nature = "TIMID"
-iv = 31
-
-[trainers.16.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 4
-
-[[trainers.16.pokemon]]
-internal_name = "MEW"
-level = 100
-raw_item = "MEWNIUMZ2"
-raw_moves = [
-    "NASTYPLOT",
-    "PSYCHIC",
-    "FIREBLAST",
-    "SOFTBOILED",
-]
-sex = ""
-nature = "TIMID"
-iv = 31
-
-[trainers.16.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 4
-
-[trainers.20]
-raw_trainer_class = "RADOMUS"
-battler_name = "Radomus"
-battler_id = 20
 raw_battle_items = [
     "ULTRAPOTION",
     "ULTRAPOTION",
 ]
 
-[[trainers.20.pokemon]]
+[[trainers.RADOMUS.0.pokemon]]
 internal_name = "REUNICLUS"
 level = 57
-raw_item = "REUNICLUSITE"
+raw_item = "SYNTHETICSEED"
 raw_moves = [
     "TRICKROOM",
     "PSYCHIC",
@@ -1152,7 +22,7 @@ ability_number = 1
 nature = "QUIET"
 iv = 32
 
-[trainers.20.pokemon.evs]
+[trainers.RADOMUS.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1160,20 +30,21 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
-internal_name = "WYRDEER"
+[[trainers.RADOMUS.0.pokemon]]
+internal_name = "MALAMAR"
 level = 58
-raw_item = "SYNTHETICSEED"
+raw_item = "ROCKYHELMET"
 raw_moves = [
-    "DOUBLEEDGE",
-    "PSYSHIELDBASH",
+    "SUPERPOWER",
+    "THROATCHOP",
     "TRICKROOM",
-    "MEGAHORN",
+    "ROCKSLIDE",
 ]
+sex = "F"
 nature = "BRAVE"
 iv = 32
 
-[trainers.20.pokemon.evs]
+[trainers.RADOMUS.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1181,45 +52,21 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
-internal_name = "BRAVIARY"
+[[trainers.RADOMUS.0.pokemon]]
+internal_name = "GALLADE"
 level = 58
-raw_item = "WIDELENS"
+raw_item = "MUSCLEBAND"
 raw_moves = [
-    "ESPERWING",
-    "HEATWAVE",
-    "DAZZLINGGLEAM",
-    "HURRICANE",
-]
-ability_number = 2
-form_number = 1
-nature = "QUIET"
-iv = 32
-
-[trainers.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.20.pokemon]]
-internal_name = "MRRIME"
-level = 58
-raw_item = "LIGHTCLAY"
-raw_moves = [
-    "FREEZEDRY",
-    "ENCORE",
-    "REFLECT",
-    "LIGHTSCREEN",
+    "STRENGTH",
+    "CLOSECOMBAT",
+    "KNOCKOFF",
+    "FIREPUNCH",
 ]
 ability_number = 1
-sex = "F"
-nature = "QUIET"
-iv = 31
+nature = "BRAVE"
+iv = 32
 
-[trainers.20.pokemon.evs]
+[trainers.RADOMUS.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1227,7 +74,29 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.RADOMUS.0.pokemon]]
+internal_name = "SLOWKING"
+level = 57
+raw_item = "WISEGLASSES"
+raw_moves = [
+    "TRICKROOM",
+    "NASTYPLOT",
+    "SCALD",
+    "PSYCHIC",
+]
+ability_number = 2
+nature = "SASSY"
+iv = 32
+
+[trainers.RADOMUS.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.RADOMUS.0.pokemon]]
 internal_name = "METAGROSS"
 level = 59
 raw_item = "KINGSROCK"
@@ -1241,7 +110,7 @@ sex = ""
 nature = "BRAVE"
 iv = 32
 
-[trainers.20.pokemon.evs]
+[trainers.RADOMUS.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1249,7 +118,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.RADOMUS.0.pokemon]]
 internal_name = "GARDEVOIR"
 level = 60
 raw_item = "SITRUSBERRY"
@@ -1265,10 +134,1285 @@ nature = "SASSY"
 iv = 32
 nickname = "G.Gardevoir"
 
-[trainers.20.pokemon.evs]
+[trainers.RADOMUS.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
 spa = 0
 spd = 252
 spe = 0
+
+[trainers.RADOMUS.10]
+raw_trainer_class = "RADOMUS"
+battler_name = "Radomus"
+battler_id = 10
+raw_battle_items = []
+
+[[trainers.RADOMUS.10.pokemon]]
+internal_name = "ESPEON"
+level = 100
+raw_item = "CHOICESPECS"
+raw_moves = [
+    "SHADOWBALL",
+    "SIGNALBEAM",
+    "DAZZLINGGLEAM",
+    "PSYCHIC",
+]
+ability_number = 2
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.RADOMUS.10.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4
+
+[[trainers.RADOMUS.10.pokemon]]
+internal_name = "STARMIE"
+level = 100
+raw_item = "LIFEORB"
+raw_moves = [
+    "SCALD",
+    "RAPIDSPIN",
+    "PSYSHOCK",
+    "DAZZLINGGLEAM",
+]
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.RADOMUS.10.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4
+
+[[trainers.RADOMUS.10.pokemon]]
+internal_name = "LUNALA"
+level = 100
+raw_item = "LUNALIUMZ2"
+raw_moves = [
+    "MOONGEISTBEAM",
+    "PSYCHIC",
+    "ROOST",
+    "WILLOWISP",
+]
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.RADOMUS.10.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4
+
+[[trainers.RADOMUS.10.pokemon]]
+internal_name = "ALAKAZAM"
+level = 100
+raw_item = "CHOICESPECS"
+raw_moves = [
+    "PSYSHOCK",
+    "DAZZLINGGLEAM",
+    "SIGNALBEAM",
+    "ENERGYBALL",
+]
+ability_number = 2
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.RADOMUS.10.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4
+
+[[trainers.RADOMUS.10.pokemon]]
+internal_name = "DELPHOX"
+level = 100
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "WISH",
+    "PROTECT",
+    "TOXIC",
+    "MYSTICALFIRE",
+]
+ability_number = 1
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.RADOMUS.10.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 252
+spd = 4
+spe = 0
+
+[[trainers.RADOMUS.10.pokemon]]
+internal_name = "METAGROSS"
+level = 100
+raw_item = "METAGROSSITE"
+raw_moves = [
+    "METEORMASH",
+    "ZENHEADBUTT",
+    "EARTHQUAKE",
+    "BRICKBREAK",
+]
+ability_number = 1
+sex = ""
+nature = "JOLLY"
+iv = 31
+
+[trainers.RADOMUS.10.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[trainers.RADOMUS.11]
+raw_trainer_class = "RADOMUS"
+battler_name = "Radomus"
+battler_id = 11
+raw_battle_items = []
+
+[[trainers.RADOMUS.11.pokemon]]
+internal_name = "HOOPA"
+level = 100
+raw_item = "CHOICEBAND"
+raw_moves = [
+    "HYPERSPACEHOLE",
+    "ZENHEADBUTT",
+    "GUNKSHOT",
+    "DRAINPUNCH",
+]
+sex = ""
+form_number = 1
+nature = "JOLLY"
+iv = 31
+
+[trainers.RADOMUS.11.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.RADOMUS.11.pokemon]]
+internal_name = "DEOXYS"
+level = 100
+raw_item = "LIFEORB"
+raw_moves = [
+    "PSYCHOBOOST",
+    "DARKPULSE",
+    "EXTREMESPEED",
+    "METEORMASH",
+]
+sex = ""
+form_number = 1
+nature = "NAIVE"
+iv = 31
+
+[trainers.RADOMUS.11.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4
+
+[[trainers.RADOMUS.11.pokemon]]
+internal_name = "LUNALA"
+level = 100
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "MOONGEISTBEAM",
+    "PSYCHIC",
+    "ROOST",
+    "WILLOWISP",
+]
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.RADOMUS.11.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 4
+spd = 252
+spe = 252
+
+[[trainers.RADOMUS.11.pokemon]]
+internal_name = "MEWTWO"
+level = 100
+raw_item = "MEWTWONITEX"
+raw_moves = [
+    "DRAINPUNCH",
+    "ZENHEADBUTT",
+    "ICEPUNCH",
+    "POISONJAB",
+]
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.RADOMUS.11.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.RADOMUS.11.pokemon]]
+internal_name = "LUGIA"
+level = 100
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "ROOST",
+    "TOXIC",
+    "PSYCHIC",
+    "DRAGONTAIL",
+]
+ability_number = 1
+sex = ""
+nature = "CALM"
+iv = 31
+
+[trainers.RADOMUS.11.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 128
+
+[[trainers.RADOMUS.11.pokemon]]
+internal_name = "NECROZMA"
+level = 100
+raw_item = "ULTRANECROZIUMZ2"
+raw_moves = [
+    "PHOTONGEYSER",
+    "EARTHQUAKE",
+    "STONEEDGE",
+    "SWORDSDANCE",
+]
+sex = ""
+form_number = 1
+is_shiny = true
+nature = "JOLLY"
+iv = 31
+
+[trainers.RADOMUS.11.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[trainers.RADOMUS.12]
+raw_trainer_class = "RADOMUS"
+battler_name = "Radomus"
+battler_id = 12
+raw_battle_items = []
+
+[[trainers.RADOMUS.12.pokemon]]
+internal_name = "TAPULELE"
+level = 100
+raw_item = "CHOICESPECS"
+raw_moves = [
+    "PSYSHOCK",
+    "MOONBLAST",
+    "THUNDERBOLT",
+    "SHADOWBALL",
+]
+ability_number = 1
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.RADOMUS.12.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.RADOMUS.12.pokemon]]
+internal_name = "GARDEVOIR"
+level = 100
+raw_item = "FOCUSSASH"
+raw_moves = [
+    "CALMMIND",
+    "MOONBLAST",
+    "MAGICALLEAF",
+    "PSYCHIC",
+]
+ability_number = 2
+sex = "F"
+nature = "MODEST"
+iv = 31
+nickname = "G.Gardevoir"
+
+[trainers.RADOMUS.12.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.RADOMUS.12.pokemon]]
+internal_name = "BEHEEYEM"
+level = 100
+raw_item = "FOCUSSASH"
+raw_moves = [
+    "CALMMIND",
+    "ENERGYBALL",
+    "PSYSHOCK",
+    "DARKPULSE",
+]
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.RADOMUS.12.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.RADOMUS.12.pokemon]]
+internal_name = "ORANGURU"
+level = 100
+raw_item = "FOCUSSASH"
+raw_moves = [
+    "NASTYPLOT",
+    "PSYCHIC",
+    "HYPERVOICE",
+    "ENERGYBALL",
+]
+ability_number = 1
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.RADOMUS.12.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.RADOMUS.12.pokemon]]
+internal_name = "MUSHARNA"
+level = 100
+raw_item = "FOCUSSASH"
+raw_moves = [
+    "CALMMIND",
+    "MOONBLAST",
+    "PSYSHOCK",
+    "HYPNOSIS",
+]
+ability_number = 2
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.RADOMUS.12.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.RADOMUS.12.pokemon]]
+internal_name = "ALAKAZAM"
+level = 100
+raw_item = "ALAKAZITE"
+raw_moves = [
+    "PSYCHIC",
+    "FOCUSBLAST",
+    "RECOVER",
+    "CALMMIND",
+]
+ability_number = 2
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.RADOMUS.12.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[trainers.RADOMUS.13]
+raw_trainer_class = "RADOMUS"
+battler_name = "Radomus"
+battler_id = 13
+raw_battle_items = []
+
+[[trainers.RADOMUS.13.pokemon]]
+internal_name = "REUNICLUS"
+level = 100
+raw_item = "LIFEORB"
+raw_moves = [
+    "CALMMIND",
+    "PSYSHOCK",
+    "SHADOWBALL",
+    "FOCUSBLAST",
+]
+sex = ""
+nature = "QUIET"
+iv = 32
+
+[trainers.RADOMUS.13.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 252
+spe = 4
+
+[[trainers.RADOMUS.13.pokemon]]
+internal_name = "BRONZONG"
+level = 100
+raw_item = "WIKIBERRY"
+raw_moves = [
+    "STEALTHROCK",
+    "GYROBALL",
+    "ROCKSLIDE",
+    "TRICKROOM",
+]
+sex = ""
+nature = "RELAXED"
+iv = 32
+
+[trainers.RADOMUS.13.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 252
+
+[[trainers.RADOMUS.13.pokemon]]
+internal_name = "BEHEEYEM"
+level = 100
+raw_item = "LIFEORB"
+raw_moves = [
+    "PSYCHIC",
+    "NASTYPLOT",
+    "DARKPULSE",
+    "THUNDERBOLT",
+]
+sex = ""
+nature = "QUIET"
+iv = 32
+
+[trainers.RADOMUS.13.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 252
+spe = 4
+
+[[trainers.RADOMUS.13.pokemon]]
+internal_name = "MUSHARNA"
+level = 100
+raw_item = "WIKIBERRY"
+raw_moves = [
+    "CALMMIND",
+    "PSYCHIC",
+    "DAZZLINGGLEAM",
+    "TRICKROOM",
+]
+sex = ""
+nature = "SASSY"
+iv = 32
+
+[trainers.RADOMUS.13.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 4
+
+[[trainers.RADOMUS.13.pokemon]]
+internal_name = "SLOWBRO"
+level = 100
+raw_item = "SLOWBRONITE"
+raw_moves = [
+    "BLIZZARD",
+    "SURF",
+    "PSYSHOCK",
+    "SLACKOFF",
+]
+sex = ""
+nature = "RELAXED"
+iv = 32
+
+[trainers.RADOMUS.13.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 252
+
+[[trainers.RADOMUS.13.pokemon]]
+internal_name = "MALAMAR"
+level = 100
+raw_item = "LIFEORB"
+raw_moves = [
+    "ROCKSLIDE",
+    "SUPERPOWER",
+    "KNOCKOFF",
+    "PSYCHOCUT",
+]
+sex = ""
+nature = "BRAVE"
+iv = 32
+
+[trainers.RADOMUS.13.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 252
+
+[trainers.RADOMUS.14]
+raw_trainer_class = "RADOMUS"
+battler_name = "Radomus"
+battler_id = 14
+raw_battle_items = []
+
+[[trainers.RADOMUS.14.pokemon]]
+internal_name = "UXIE"
+level = 100
+raw_item = "IAPAPABERRY"
+raw_moves = [
+    "THUNDERBOLT",
+    "PSYSHOCK",
+    "ENERGYBALL",
+    "STEALTHROCK",
+]
+sex = ""
+nature = "CAREFUL"
+iv = 31
+
+[trainers.RADOMUS.14.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 4
+
+[[trainers.RADOMUS.14.pokemon]]
+internal_name = "LUNALA"
+level = 100
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "MOONGEISTBEAM",
+    "PSYCHIC",
+    "ROOST",
+    "BLIZZARD",
+]
+sex = ""
+nature = "RASH"
+iv = 31
+
+[trainers.RADOMUS.14.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 4
+spd = 252
+spe = 252
+
+[[trainers.RADOMUS.14.pokemon]]
+internal_name = "DEOXYS"
+level = 100
+raw_item = "SYNTHETICSEED"
+raw_moves = [
+    "PSYCHOBOOST",
+    "ICEBEAM",
+    "RECOVER",
+    "TOXIC",
+]
+sex = ""
+form_number = 2
+nature = "CAREFUL"
+iv = 31
+
+[trainers.RADOMUS.14.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 4
+
+[[trainers.RADOMUS.14.pokemon]]
+internal_name = "CRESSELIA"
+level = 100
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "PSYSHOCK",
+    "CALMMIND",
+    "TOXIC",
+    "MOONLIGHT",
+]
+sex = ""
+nature = "CAREFUL"
+iv = 31
+
+[trainers.RADOMUS.14.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 4
+
+[[trainers.RADOMUS.14.pokemon]]
+internal_name = "LUGIA"
+level = 100
+raw_item = "SYNTHETICSEED"
+raw_moves = [
+    "ROOST",
+    "TOXIC",
+    "PSYCHIC",
+    "BLIZZARD",
+]
+ability_number = 1
+sex = ""
+nature = "CAREFUL"
+iv = 31
+
+[trainers.RADOMUS.14.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 4
+
+[[trainers.RADOMUS.14.pokemon]]
+internal_name = "NECROZMA"
+level = 100
+raw_item = "ULTRANECROZIUMZ2"
+raw_moves = [
+    "PHOTONGEYSER",
+    "EARTHQUAKE",
+    "STONEEDGE",
+    "SWORDSDANCE",
+]
+sex = ""
+form_number = 1
+is_shiny = true
+nature = "NAUGHTY"
+iv = 31
+
+[trainers.RADOMUS.14.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4
+
+[trainers.RADOMUS.15]
+raw_trainer_class = "RADOMUS"
+battler_name = "Radomus"
+battler_id = 15
+raw_battle_items = []
+
+[[trainers.RADOMUS.15.pokemon]]
+internal_name = "CELEBI"
+level = 100
+raw_item = "FOCUSSASH"
+raw_moves = [
+    "STEALTHROCK",
+    "PSYCHIC",
+    "UTURN",
+    "HIDDENPOWERROC",
+]
+sex = ""
+nature = "BOLD"
+iv = 31
+
+[trainers.RADOMUS.15.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 252
+
+[[trainers.RADOMUS.15.pokemon]]
+internal_name = "MEDICHAM"
+level = 100
+raw_item = "MEDICHAMITE"
+raw_moves = [
+    "FAKEOUT",
+    "ZENHEADBUTT",
+    "BULLETPUNCH",
+    "HIJUMPKICK",
+]
+ability_number = 1
+sex = ""
+nature = "JOLLY"
+iv = 31
+
+[trainers.RADOMUS.15.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.RADOMUS.15.pokemon]]
+internal_name = "MEWTWO"
+level = 100
+raw_item = "MEWTWONITEY"
+raw_moves = [
+    "PSYSTRIKE",
+    "FOCUSBLAST",
+    "CALMMIND",
+    "ICEBEAM",
+]
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.RADOMUS.15.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.RADOMUS.15.pokemon]]
+internal_name = "LUGIA"
+level = 100
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "ROOST",
+    "TOXIC",
+    "PSYCHIC",
+    "DRAGONTAIL",
+]
+ability_number = 1
+sex = ""
+nature = "CALM"
+iv = 31
+
+[trainers.RADOMUS.15.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 4
+
+[[trainers.RADOMUS.15.pokemon]]
+internal_name = "STARMIE"
+level = 100
+raw_item = "LIFEORB"
+raw_moves = [
+    "SURF",
+    "PSYCHIC",
+    "HIDDENPOWERGHO",
+    "RAPIDSPIN",
+]
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.RADOMUS.15.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.RADOMUS.15.pokemon]]
+internal_name = "GARDEVOIR"
+level = 100
+raw_item = "CHOICESPECS"
+raw_moves = [
+    "MOONBLAST",
+    "PSYCHIC",
+    "FOCUSBLAST",
+    "HIDDENPOWERGRO",
+]
+ability_number = 1
+sex = "F"
+nature = "TIMID"
+iv = 31
+nickname = "G.Gardevoir"
+
+[trainers.RADOMUS.15.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4
+
+[trainers.RADOMUS.16]
+raw_trainer_class = "RADOMUS"
+battler_name = "Radomus"
+battler_id = 16
+raw_battle_items = []
+
+[[trainers.RADOMUS.16.pokemon]]
+internal_name = "MELOETTA"
+level = 100
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "HYPERVOICE",
+    "PSYSHOCK",
+    "DAZZLINGGLEAM",
+    "THUNDERBOLT",
+]
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.RADOMUS.16.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4
+
+[[trainers.RADOMUS.16.pokemon]]
+internal_name = "MEWTWO"
+level = 100
+raw_item = "MEWTWONITEY"
+raw_moves = [
+    "PSYSTRIKE",
+    "FIREBLAST",
+    "ICEBEAM",
+    "CALMMIND",
+]
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.RADOMUS.16.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4
+
+[[trainers.RADOMUS.16.pokemon]]
+internal_name = "LUNALA"
+level = 100
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "PSYSHOCK",
+    "MOONBLAST",
+    "ICEBEAM",
+    "AIRSLASH",
+]
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.RADOMUS.16.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4
+
+[[trainers.RADOMUS.16.pokemon]]
+internal_name = "TAPULELE"
+level = 100
+raw_item = "PIXIEPLATE"
+raw_moves = [
+    "NATUREPOWER",
+    "PSYSHOCK",
+    "FOCUSBLAST",
+    "HIDDENPOWERGRO",
+]
+sex = ""
+form_number = 1
+nature = "TIMID"
+iv = 31
+
+[trainers.RADOMUS.16.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4
+
+[[trainers.RADOMUS.16.pokemon]]
+internal_name = "LATIOS"
+level = 100
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "LUSTERPURGE",
+    "DRAGONPULSE",
+    "SURF",
+    "ENERGYBALL",
+]
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.RADOMUS.16.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4
+
+[[trainers.RADOMUS.16.pokemon]]
+internal_name = "MEW"
+level = 100
+raw_item = "MEWNIUMZ2"
+raw_moves = [
+    "NASTYPLOT",
+    "PSYCHIC",
+    "FIREBLAST",
+    "SOFTBOILED",
+]
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.RADOMUS.16.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4
+
+[trainers.RADOMUS.20]
+raw_trainer_class = "RADOMUS"
+battler_name = "Radomus"
+battler_id = 20
+raw_battle_items = [
+    "ULTRAPOTION",
+    "ULTRAPOTION",
+]
+
+[[trainers.RADOMUS.20.pokemon]]
+internal_name = "REUNICLUS"
+level = 57
+raw_item = "REUNICLUSITE"
+raw_moves = [
+    "TRICKROOM",
+    "PSYCHIC",
+    "FOCUSBLAST",
+    "TOXIC",
+]
+ability_number = 1
+nature = "QUIET"
+iv = 32
+
+[trainers.RADOMUS.20.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.RADOMUS.20.pokemon]]
+internal_name = "WYRDEER"
+level = 58
+raw_item = "SYNTHETICSEED"
+raw_moves = [
+    "DOUBLEEDGE",
+    "PSYSHIELDBASH",
+    "TRICKROOM",
+    "MEGAHORN",
+]
+nature = "BRAVE"
+iv = 32
+
+[trainers.RADOMUS.20.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.RADOMUS.20.pokemon]]
+internal_name = "BRAVIARY"
+level = 58
+raw_item = "WIDELENS"
+raw_moves = [
+    "ESPERWING",
+    "HEATWAVE",
+    "DAZZLINGGLEAM",
+    "HURRICANE",
+]
+ability_number = 2
+form_number = 1
+nature = "QUIET"
+iv = 32
+
+[trainers.RADOMUS.20.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.RADOMUS.20.pokemon]]
+internal_name = "MRRIME"
+level = 58
+raw_item = "LIGHTCLAY"
+raw_moves = [
+    "FREEZEDRY",
+    "ENCORE",
+    "REFLECT",
+    "LIGHTSCREEN",
+]
+ability_number = 1
+sex = "F"
+nature = "QUIET"
+iv = 31
+
+[trainers.RADOMUS.20.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.RADOMUS.20.pokemon]]
+internal_name = "METAGROSS"
+level = 59
+raw_item = "KINGSROCK"
+raw_moves = [
+    "ZENHEADBUTT",
+    "METEORMASH",
+    "ICEPUNCH",
+    "STRENGTH",
+]
+sex = ""
+nature = "BRAVE"
+iv = 32
+
+[trainers.RADOMUS.20.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.RADOMUS.20.pokemon]]
+internal_name = "GARDEVOIR"
+level = 60
+raw_item = "SITRUSBERRY"
+raw_moves = [
+    "CALMMIND",
+    "WISH",
+    "PSYCHIC",
+    "MOONBLAST",
+]
+ability_number = 1
+sex = "F"
+nature = "SASSY"
+iv = 32
+nickname = "G.Gardevoir"
+
+[trainers.RADOMUS.20.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 252
+spe = 0
+
+[trainers.UMBRADOMUS.0]
+raw_trainer_class = "UMBRADOMUS"
+battler_name = "Radomus"
+raw_battle_items = []
+
+[[trainers.UMBRADOMUS.0.pokemon]]
+internal_name = "BISHARP"
+level = 115
+raw_item = "DREADPLATE"
+raw_moves = [
+    "STEALTHROCK",
+    "IRONHEAD",
+    "SUCKERPUNCH",
+    "SWORDSDANCE",
+]
+sex = ""
+nature = "ADAMANT"
+iv = 0
+
+[trainers.UMBRADOMUS.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.UMBRADOMUS.0.pokemon]]
+internal_name = "SAMUROTT"
+level = 115
+raw_item = "EXPERTBELT"
+raw_moves = [
+    "SMARTSTRIKE",
+    "SACREDSWORD",
+    "LIQUIDATION",
+    "MEGAHORN",
+]
+ability_number = 1
+sex = ""
+nature = "SERIOUS"
+iv = 0
+
+[trainers.UMBRADOMUS.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.UMBRADOMUS.0.pokemon]]
+internal_name = "KARTANA"
+level = 115
+raw_item = "LIFEORB"
+raw_moves = [
+    "SMARTSTRIKE",
+    "KNOCKOFF",
+    "BRICKBREAK",
+    "LEAFBLADE",
+]
+sex = ""
+nature = "JOLLY"
+iv = 0
+
+[trainers.UMBRADOMUS.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.UMBRADOMUS.0.pokemon]]
+internal_name = "LOPUNNY"
+level = 115
+raw_item = "LOPUNNITE"
+raw_moves = [
+    "FAKEOUT",
+    "SECRETPOWER",
+    "DRAINPUNCH",
+    "POWERUPPUNCH",
+]
+ability_number = 2
+sex = ""
+nature = "ADAMANT"
+iv = 0
+
+[trainers.UMBRADOMUS.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.UMBRADOMUS.0.pokemon]]
+internal_name = "ESCAVALIER"
+level = 116
+raw_item = "KINGSROCK"
+raw_moves = [
+    "SMARTSTRIKE",
+    "MEGAHORN",
+    "FELLSTINGER",
+    "DRILLRUN",
+]
+ability_number = 2
+sex = ""
+nature = "ADAMANT"
+iv = 0
+
+[trainers.UMBRADOMUS.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.UMBRADOMUS.0.pokemon]]
+internal_name = "ALAKAZAM"
+level = 117
+raw_item = "PSYCHIUMZ2"
+raw_moves = [
+    "PSYCHIC",
+    "CALMMIND",
+    "DAZZLINGGLEAM",
+    "RECOVER",
+]
+ability_number = 2
+sex = ""
+nature = "TIMID"
+iv = 0
+
+[trainers.UMBRADOMUS.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252

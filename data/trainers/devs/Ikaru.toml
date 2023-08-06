@@ -1,9 +1,152 @@
-[trainers.0]
+trainer_name = "Ikaru"
+
+[trainers.SPIRITM.0]
+raw_trainer_class = "SPIRITM"
+battler_name = "Ikaru"
+raw_battle_items = []
+
+[[trainers.SPIRITM.0.pokemon]]
+internal_name = "BRONZONG"
+level = 95
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "STEALTHROCK",
+    "TOXIC",
+    "GYROBALL",
+    "LIGHTSCREEN",
+]
+sex = ""
+nature = "SASSY"
+iv = 31
+
+[trainers.SPIRITM.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 4
+
+[[trainers.SPIRITM.0.pokemon]]
+internal_name = "ALAKAZAM"
+level = 95
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "PSYCHIC",
+    "FOCUSBLAST",
+    "SHADOWBALL",
+    "ENERGYBALL",
+]
+ability_number = 2
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.SPIRITM.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4
+
+[[trainers.SPIRITM.0.pokemon]]
+internal_name = "WEAVILE"
+level = 95
+raw_item = "LIFEORB"
+raw_moves = [
+    "AERIALACE",
+    "ICEPUNCH",
+    "NIGHTSLASH",
+    "LOWKICK",
+]
+ability_number = 1
+sex = ""
+nature = "JOLLY"
+iv = 31
+
+[trainers.SPIRITM.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 4
+
+[[trainers.SPIRITM.0.pokemon]]
+internal_name = "MISMAGIUS"
+level = 95
+raw_item = "FOCUSSASH"
+raw_moves = [
+    "NASTYPLOT",
+    "THUNDERBOLT",
+    "SHADOWBALL",
+    "HIDDENPOWERFIG",
+]
+sex = "F"
+nature = "TIMID"
+iv = 31
+
+[trainers.SPIRITM.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4
+
+[[trainers.SPIRITM.0.pokemon]]
+internal_name = "DRAGONITE"
+level = 95
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "DRAGONDANCE",
+    "DRAGONCLAW",
+    "FIREPUNCH",
+    "ROOST",
+]
+ability_number = 1
+sex = ""
+nature = "JOLLY"
+iv = 31
+
+[trainers.SPIRITM.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 4
+spd = 0
+spe = 0
+
+[[trainers.SPIRITM.0.pokemon]]
+internal_name = "CARRACOSTA"
+level = 95
+raw_item = "WHITEHERB"
+raw_moves = [
+    "SHELLSMASH",
+    "STONEEDGE",
+    "WATERFALL",
+    "EARTHQUAKE",
+]
+ability_number = 1
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.SPIRITM.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[trainers.IKARU.0]
 raw_trainer_class = "IKARU"
 battler_name = "Ikaru"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.IKARU.0.pokemon]]
 internal_name = "GALLADE"
 level = 100
 raw_item = "ASSAULTVEST"
@@ -19,7 +162,7 @@ nature = "ADAMANT"
 iv = 31
 nickname = "Pollux"
 
-[trainers.0.pokemon.evs]
+[trainers.IKARU.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -27,7 +170,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.IKARU.0.pokemon]]
 internal_name = "LUNALA"
 level = 100
 raw_item = "LUNALIUMZ2"
@@ -42,7 +185,7 @@ nature = "MODEST"
 iv = 31
 nickname = "Polaris"
 
-[trainers.0.pokemon.evs]
+[trainers.IKARU.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -50,7 +193,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.IKARU.0.pokemon]]
 internal_name = "SALAMENCE"
 level = 100
 raw_item = "LIFEORB"
@@ -65,7 +208,7 @@ nature = "JOLLY"
 iv = 31
 nickname = "Thuban"
 
-[trainers.0.pokemon.evs]
+[trainers.IKARU.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -73,7 +216,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.IKARU.0.pokemon]]
 internal_name = "MELOETTA"
 level = 100
 raw_item = "LIFEORB"
@@ -89,7 +232,7 @@ nature = "JOLLY"
 iv = 31
 nickname = "Lyra"
 
-[trainers.0.pokemon.evs]
+[trainers.IKARU.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -97,7 +240,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.IKARU.0.pokemon]]
 internal_name = "MISMAGIUS"
 level = 100
 raw_item = "WIKIBERRY"
@@ -113,7 +256,7 @@ nature = "MODEST"
 iv = 31
 nickname = "Castor"
 
-[trainers.0.pokemon.evs]
+[trainers.IKARU.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -121,7 +264,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.IKARU.0.pokemon]]
 internal_name = "CRESSELIA"
 level = 100
 raw_item = "LEFTOVERS"
@@ -137,7 +280,7 @@ nature = "BOLD"
 iv = 31
 nickname = "Selene"
 
-[trainers.0.pokemon.evs]
+[trainers.IKARU.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252

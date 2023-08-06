@@ -1,15 +1,17 @@
-[trainers.3]
+trainer_name = "Beau"
+
+[trainers.LADY.3]
 raw_trainer_class = "LADY"
 battler_name = "Beau"
 battler_id = 3
 raw_battle_items = []
 
-[[trainers.3.pokemon]]
+[[trainers.LADY.3.pokemon]]
 internal_name = "JIGGLYPUFF"
 level = 12
 iv = 0
 
-[trainers.3.pokemon.evs]
+[trainers.LADY.3.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -17,12 +19,12 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.3.pokemon]]
+[[trainers.LADY.3.pokemon]]
 internal_name = "TOGEPI"
 level = 12
 iv = 0
 
-[trainers.3.pokemon.evs]
+[trainers.LADY.3.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -30,17 +32,17 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.0]
+[trainers.LADY.0]
 raw_trainer_class = "LADY"
 battler_name = "Beau"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.LADY.0.pokemon]]
 internal_name = "JIGGLYPUFF"
 level = 35
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.LADY.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -48,12 +50,12 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.LADY.0.pokemon]]
 internal_name = "TOGETIC"
 level = 36
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.LADY.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -61,18 +63,18 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.1]
+[trainers.LADY.1]
 raw_trainer_class = "LADY"
 battler_name = "Beau"
 battler_id = 1
 raw_battle_items = []
 
-[[trainers.1.pokemon]]
+[[trainers.LADY.1.pokemon]]
 internal_name = "WIGGLYTUFF"
 level = 50
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.LADY.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -80,12 +82,12 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.LADY.1.pokemon]]
 internal_name = "TOGEKISS"
 level = 51
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.LADY.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -93,18 +95,18 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.2]
+[trainers.LADY.2]
 raw_trainer_class = "LADY"
 battler_name = "Beau"
 battler_id = 2
 raw_battle_items = []
 
-[[trainers.2.pokemon]]
+[[trainers.LADY.2.pokemon]]
 internal_name = "CHANSEY"
 level = 57
 iv = 0
 
-[trainers.2.pokemon.evs]
+[trainers.LADY.2.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -112,12 +114,12 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.LADY.2.pokemon]]
 internal_name = "WIGGLYTUFF"
 level = 58
 iv = 0
 
-[trainers.2.pokemon.evs]
+[trainers.LADY.2.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -125,12 +127,12 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.LADY.2.pokemon]]
 internal_name = "TOGEKISS"
 level = 59
 iv = 0
 
-[trainers.2.pokemon.evs]
+[trainers.LADY.2.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -138,13 +140,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.4]
+[trainers.LADY.4]
 raw_trainer_class = "LADY"
 battler_name = "Beau"
 battler_id = 4
 raw_battle_items = []
 
-[[trainers.4.pokemon]]
+[[trainers.LADY.4.pokemon]]
 internal_name = "BLISSEY"
 level = 85
 raw_item = "LEFTOVERS"
@@ -157,7 +159,7 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.4.pokemon.evs]
+[trainers.LADY.4.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -165,7 +167,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.4.pokemon]]
+[[trainers.LADY.4.pokemon]]
 internal_name = "TOGEKISS"
 level = 83
 raw_item = "LEFTOVERS"
@@ -178,7 +180,7 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.4.pokemon.evs]
+[trainers.LADY.4.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -186,7 +188,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.4.pokemon]]
+[[trainers.LADY.4.pokemon]]
 internal_name = "WIGGLYTUFF"
 level = 85
 raw_item = "ASSAULTVEST"
@@ -199,7 +201,7 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.4.pokemon.evs]
+[trainers.LADY.4.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -207,7 +209,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.4.pokemon]]
+[[trainers.LADY.4.pokemon]]
 internal_name = "GOTHITELLE"
 level = 86
 raw_item = "LEFTOVERS"
@@ -220,7 +222,7 @@ raw_moves = [
 ability_number = 2
 iv = 0
 
-[trainers.4.pokemon.evs]
+[trainers.LADY.4.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -228,18 +230,18 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.5]
+[trainers.LADY.5]
 raw_trainer_class = "LADY"
 battler_name = "Beau"
 battler_id = 5
 raw_battle_items = []
 
-[[trainers.5.pokemon]]
+[[trainers.LADY.5.pokemon]]
 internal_name = "JIGGLYPUFF"
 level = 23
 iv = 0
 
-[trainers.5.pokemon.evs]
+[trainers.LADY.5.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -247,12 +249,12 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.5.pokemon]]
+[[trainers.LADY.5.pokemon]]
 internal_name = "TOGETIC"
 level = 24
 iv = 0
 
-[trainers.5.pokemon.evs]
+[trainers.LADY.5.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

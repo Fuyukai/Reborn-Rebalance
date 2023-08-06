@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Mewtwo"
+
+[trainers.MEWTWO.0]
 raw_trainer_class = "MEWTWO"
 battler_name = "Mewtwo"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.MEWTWO.0.pokemon]]
 internal_name = "VICTINI"
 level = 130
 raw_item = "MAGICALSEED"
@@ -17,7 +19,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.MEWTWO.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -25,7 +27,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.MEWTWO.0.pokemon]]
 internal_name = "TAPULELE"
 level = 130
 raw_item = "MAGICALSEED"
@@ -40,7 +42,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.MEWTWO.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -48,7 +50,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.MEWTWO.0.pokemon]]
 internal_name = "LATIOS"
 level = 130
 raw_item = "LATIOSITE"
@@ -62,7 +64,7 @@ sex = ""
 nature = "HASTY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.MEWTWO.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -70,7 +72,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.MEWTWO.0.pokemon]]
 internal_name = "HOOPA"
 level = 130
 raw_item = "CHOICESCARF"
@@ -85,7 +87,7 @@ form_number = 1
 nature = "HASTY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.MEWTWO.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -93,7 +95,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.MEWTWO.0.pokemon]]
 internal_name = "SYLVEON"
 level = 130
 raw_item = "MAGICALSEED"
@@ -108,7 +110,7 @@ sex = ""
 nature = "BOLD"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.MEWTWO.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -116,7 +118,7 @@ spa = 4
 spd = 0
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.MEWTWO.0.pokemon]]
 internal_name = "MEWTWO"
 level = 130
 raw_item = "MAGICALSEED"
@@ -130,7 +132,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.MEWTWO.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -138,13 +140,13 @@ spa = 252
 spd = 252
 spe = 252
 
-[trainers.1]
+[trainers.MEWTWO.1]
 raw_trainer_class = "MEWTWO"
 battler_name = "Mewtwo"
 battler_id = 1
 raw_battle_items = []
 
-[[trainers.1.pokemon]]
+[[trainers.MEWTWO.1.pokemon]]
 internal_name = "TYRANITAR"
 level = 145
 raw_item = "ASSAULTVEST"
@@ -158,7 +160,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.MEWTWO.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -166,7 +168,7 @@ spa = 4
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.MEWTWO.1.pokemon]]
 internal_name = "KOMMOO"
 level = 145
 raw_item = "KOMMONIUMZ2"
@@ -181,7 +183,7 @@ sex = ""
 nature = "NAIVE"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.MEWTWO.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -189,7 +191,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.MEWTWO.1.pokemon]]
 internal_name = "LUNALA"
 level = 145
 raw_item = "MAGICALSEED"
@@ -203,7 +205,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.MEWTWO.1.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -211,7 +213,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.MEWTWO.1.pokemon]]
 internal_name = "GROUDON"
 level = 145
 raw_item = "REDORB"
@@ -225,7 +227,7 @@ sex = ""
 nature = "NAUGHTY"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.MEWTWO.1.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -233,7 +235,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.MEWTWO.1.pokemon]]
 internal_name = "MAGEARNA"
 level = 145
 raw_item = "MAGICALSEED"
@@ -247,7 +249,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.MEWTWO.1.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -255,7 +257,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.MEWTWO.1.pokemon]]
 internal_name = "MEWTWO"
 level = 145
 raw_item = "MEWTWONITEY"
@@ -269,7 +271,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.MEWTWO.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -277,13 +279,13 @@ spa = 252
 spd = 252
 spe = 252
 
-[trainers.1000]
+[trainers.DEFNOT.1000]
 raw_trainer_class = "DEFNOT"
 battler_name = "Mewtwo"
 battler_id = 1000
 raw_battle_items = []
 
-[[trainers.1000.pokemon]]
+[[trainers.DEFNOT.1000.pokemon]]
 internal_name = "PROBOPASS"
 level = 100
 raw_item = "AIRBALLOON"
@@ -295,7 +297,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.1000.pokemon.evs]
+[trainers.DEFNOT.1000.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -303,7 +305,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1000.pokemon]]
+[[trainers.DEFNOT.1000.pokemon]]
 internal_name = "AMOONGUSS"
 level = 100
 raw_item = "BLACKSLUDGE"
@@ -315,7 +317,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.1000.pokemon.evs]
+[trainers.DEFNOT.1000.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -323,7 +325,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1000.pokemon]]
+[[trainers.DEFNOT.1000.pokemon]]
 internal_name = "MEWTWO"
 level = 100
 raw_item = "MEWTWONITEX"
@@ -335,7 +337,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.1000.pokemon.evs]
+[trainers.DEFNOT.1000.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

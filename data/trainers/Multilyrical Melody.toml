@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Multilyrical Melody"
+
+[trainers.ANTICS.0]
 raw_trainer_class = "ANTICS"
 battler_name = "Multilyrical Melody"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.ANTICS.0.pokemon]]
 internal_name = "FURRET"
 level = 120
 raw_item = "MAGICALSEED"
@@ -17,7 +19,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.ANTICS.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -25,7 +27,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.ANTICS.0.pokemon]]
 internal_name = "CELEBI"
 level = 120
 raw_item = "MAGICALSEED"
@@ -39,7 +41,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.ANTICS.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -47,7 +49,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.ANTICS.0.pokemon]]
 internal_name = "BLAZIKEN"
 level = 120
 raw_item = "MAGICALSEED"
@@ -62,7 +64,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.ANTICS.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -70,7 +72,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.ANTICS.0.pokemon]]
 internal_name = "GLACEON"
 level = 120
 raw_item = "MAGICALSEED"
@@ -84,7 +86,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.ANTICS.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -92,7 +94,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.ANTICS.0.pokemon]]
 internal_name = "ABSOL"
 level = 120
 raw_item = "ABSOLITE"
@@ -106,7 +108,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.ANTICS.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -114,7 +116,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.ANTICS.0.pokemon]]
 internal_name = "MELOETTA"
 level = 120
 raw_item = "MAGICALSEED"
@@ -130,7 +132,7 @@ nature = "JOLLY"
 iv = 31
 happiness = 255
 
-[trainers.0.pokemon.evs]
+[trainers.ANTICS.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252

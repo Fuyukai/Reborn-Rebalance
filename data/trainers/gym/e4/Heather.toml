@@ -1,4 +1,6 @@
-[trainers.0]
+trainer_name = "Heather"
+
+[trainers.HEATHER.0]
 raw_trainer_class = "HEATHER"
 battler_name = "Heather"
 raw_battle_items = [
@@ -6,7 +8,7 @@ raw_battle_items = [
     "FULLRESTORE",
 ]
 
-[[trainers.0.pokemon]]
+[[trainers.HEATHER.0.pokemon]]
 internal_name = "CROBAT"
 level = 100
 raw_item = "FOCUSSASH"
@@ -20,7 +22,7 @@ ability_number = 1
 nature = "JOLLY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.HEATHER.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -28,7 +30,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.HEATHER.0.pokemon]]
 internal_name = "NIDOKING"
 level = 100
 raw_item = "LIFEORB"
@@ -42,7 +44,7 @@ ability_number = 2
 nature = "HASTY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.HEATHER.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -50,7 +52,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.HEATHER.0.pokemon]]
 internal_name = "GYARADOS"
 level = 100
 raw_item = "FLYINIUMZ2"
@@ -65,7 +67,7 @@ sex = "F"
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.HEATHER.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -73,7 +75,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.HEATHER.0.pokemon]]
 internal_name = "ARCHEOPS"
 level = 100
 raw_item = "FLYINGGEM"
@@ -86,7 +88,7 @@ raw_moves = [
 nature = "JOLLY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.HEATHER.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -94,7 +96,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.HEATHER.0.pokemon]]
 internal_name = "GENGAR"
 level = 100
 raw_item = "LIFEORB"
@@ -107,7 +109,7 @@ raw_moves = [
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.HEATHER.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -115,7 +117,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.HEATHER.0.pokemon]]
 internal_name = "SALAMENCE"
 level = 100
 raw_item = "SALAMENCITE"
@@ -129,7 +131,7 @@ nature = "JOLLY"
 iv = 31
 happiness = 252
 
-[trainers.0.pokemon.evs]
+[trainers.HEATHER.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -137,7 +139,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[trainers.2]
+[trainers.HEATHER.2]
 raw_trainer_class = "HEATHER"
 battler_name = "Heather"
 battler_id = 2
@@ -145,7 +147,7 @@ raw_battle_items = [
     "",
 ]
 
-[[trainers.2.pokemon]]
+[[trainers.HEATHER.2.pokemon]]
 internal_name = "CROBAT"
 level = 100
 raw_item = "FLYINGGEM"
@@ -159,7 +161,7 @@ ability_number = 1
 nature = "JOLLY"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.HEATHER.2.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -167,7 +169,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.HEATHER.2.pokemon]]
 internal_name = "NIHILEGO"
 level = 100
 raw_item = "LIFEORB"
@@ -182,7 +184,7 @@ sex = ""
 nature = "HASTY"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.HEATHER.2.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -190,7 +192,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.HEATHER.2.pokemon]]
 internal_name = "GYARADOS"
 level = 100
 raw_item = "FLYINIUMZ2"
@@ -205,7 +207,7 @@ sex = "F"
 nature = "ADAMANT"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.HEATHER.2.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -213,7 +215,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.HEATHER.2.pokemon]]
 internal_name = "LANDORUS"
 level = 100
 raw_item = "LIFEORB"
@@ -227,7 +229,7 @@ form_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.HEATHER.2.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -235,7 +237,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.HEATHER.2.pokemon]]
 internal_name = "GENGAR"
 level = 100
 raw_item = "LIFEORB"
@@ -248,7 +250,7 @@ raw_moves = [
 nature = "TIMID"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.HEATHER.2.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -256,7 +258,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.HEATHER.2.pokemon]]
 internal_name = "SALAMENCE"
 level = 100
 raw_item = "SALAMENCITE"
@@ -270,7 +272,7 @@ nature = "JOLLY"
 iv = 31
 happiness = 252
 
-[trainers.2.pokemon.evs]
+[trainers.HEATHER.2.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -278,7 +280,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[trainers.1]
+[trainers.HEATHER.1]
 raw_trainer_class = "HEATHER"
 battler_name = "Heather"
 battler_id = 1
@@ -286,7 +288,7 @@ raw_battle_items = [
     "",
 ]
 
-[[trainers.1.pokemon]]
+[[trainers.HEATHER.1.pokemon]]
 internal_name = "CROBAT"
 level = 120
 raw_item = "FLYINGGEM"
@@ -300,7 +302,7 @@ ability_number = 1
 nature = "JOLLY"
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.HEATHER.1.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -308,7 +310,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.HEATHER.1.pokemon]]
 internal_name = "LANDORUS"
 level = 120
 raw_moves = [
@@ -320,7 +322,7 @@ raw_moves = [
 nature = "ADAMANT"
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.HEATHER.1.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -328,7 +330,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.HEATHER.1.pokemon]]
 internal_name = "NIDOKING"
 level = 120
 raw_moves = [
@@ -341,7 +343,7 @@ ability_number = 2
 nature = "HASTY"
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.HEATHER.1.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -349,7 +351,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.HEATHER.1.pokemon]]
 internal_name = "GYARADOS"
 level = 120
 raw_item = "FLYINIUMZ2"
@@ -364,7 +366,7 @@ sex = "F"
 nature = "ADAMANT"
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.HEATHER.1.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -372,7 +374,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.HEATHER.1.pokemon]]
 internal_name = "GENGAR"
 level = 120
 raw_moves = [
@@ -384,7 +386,7 @@ raw_moves = [
 nature = "TIMID"
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.HEATHER.1.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -392,7 +394,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.HEATHER.1.pokemon]]
 internal_name = "SALAMENCE"
 level = 120
 raw_item = "SALAMENCITE"
@@ -406,7 +408,7 @@ nature = "JOLLY"
 iv = 0
 happiness = 252
 
-[trainers.1.pokemon.evs]
+[trainers.HEATHER.1.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -414,13 +416,13 @@ spa = 252
 spd = 0
 spe = 0
 
-[trainers.10]
+[trainers.HEATHER.10]
 raw_trainer_class = "HEATHER"
 battler_name = "Heather"
 battler_id = 10
 raw_battle_items = []
 
-[[trainers.10.pokemon]]
+[[trainers.HEATHER.10.pokemon]]
 internal_name = "CROBAT"
 level = 100
 raw_item = "FOCUSSASH"
@@ -434,7 +436,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.HEATHER.10.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -442,7 +444,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.HEATHER.10.pokemon]]
 internal_name = "ARTICUNO"
 level = 100
 raw_item = "TELLURICSEED"
@@ -457,7 +459,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.HEATHER.10.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -465,7 +467,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.HEATHER.10.pokemon]]
 internal_name = "RAYQUAZA"
 level = 100
 raw_item = "TELLURICSEED"
@@ -479,7 +481,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.HEATHER.10.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -487,7 +489,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.HEATHER.10.pokemon]]
 internal_name = "SALAMENCE"
 level = 100
 raw_item = "SALAMENCITE"
@@ -501,7 +503,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.HEATHER.10.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -509,7 +511,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.HEATHER.10.pokemon]]
 internal_name = "GENGAR"
 level = 100
 raw_item = "TELLURICSEED"
@@ -523,7 +525,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.HEATHER.10.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -531,7 +533,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.HEATHER.10.pokemon]]
 internal_name = "YANMEGA"
 level = 100
 raw_item = "FOCUSSASH"
@@ -545,7 +547,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.10.pokemon.evs]
+[trainers.HEATHER.10.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -553,13 +555,13 @@ spa = 252
 spd = 252
 spe = 0
 
-[trainers.11]
+[trainers.HEATHER.11]
 raw_trainer_class = "HEATHER"
 battler_name = "Heather"
 battler_id = 11
 raw_battle_items = []
 
-[[trainers.11.pokemon]]
+[[trainers.HEATHER.11.pokemon]]
 internal_name = "SALAZZLE"
 level = 100
 raw_item = "TELLURICSEED"
@@ -573,7 +575,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.HEATHER.11.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -581,7 +583,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.HEATHER.11.pokemon]]
 internal_name = "TOXAPEX"
 level = 100
 raw_item = "BLACKSLUDGE"
@@ -595,7 +597,7 @@ sex = ""
 nature = "CALM"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.HEATHER.11.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -603,7 +605,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.11.pokemon]]
+[[trainers.HEATHER.11.pokemon]]
 internal_name = "NIHILEGO"
 level = 100
 raw_item = "LIFEORB"
@@ -617,7 +619,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.HEATHER.11.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -625,7 +627,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.HEATHER.11.pokemon]]
 internal_name = "ZANGOOSE"
 level = 100
 raw_item = "TELLURICSEED"
@@ -640,7 +642,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.HEATHER.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -648,7 +650,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.HEATHER.11.pokemon]]
 internal_name = "BRELOOM"
 level = 100
 raw_item = "LEFTOVERS"
@@ -663,7 +665,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.HEATHER.11.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -671,7 +673,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.HEATHER.11.pokemon]]
 internal_name = "VENOMOTH"
 level = 100
 raw_item = "TELLURICSEED"
@@ -685,7 +687,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.11.pokemon.evs]
+[trainers.HEATHER.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -693,13 +695,13 @@ spa = 252
 spd = 252
 spe = 0
 
-[trainers.12]
+[trainers.HEATHER.12]
 raw_trainer_class = "HEATHER"
 battler_name = "Heather"
 battler_id = 12
 raw_battle_items = []
 
-[[trainers.12.pokemon]]
+[[trainers.HEATHER.12.pokemon]]
 internal_name = "SALAMENCE"
 level = 100
 raw_item = "SALAMENCITE"
@@ -713,7 +715,7 @@ nature = "ADAMANT"
 iv = 31
 happiness = 255
 
-[trainers.12.pokemon.evs]
+[trainers.HEATHER.12.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -721,7 +723,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.HEATHER.12.pokemon]]
 internal_name = "DRAGALGE"
 level = 100
 raw_item = "BLACKSLUDGE"
@@ -735,7 +737,7 @@ sex = ""
 nature = "BOLD"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.HEATHER.12.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -743,7 +745,7 @@ spa = 0
 spd = 252
 spe = 4
 
-[[trainers.12.pokemon]]
+[[trainers.HEATHER.12.pokemon]]
 internal_name = "DRAGONITE"
 level = 100
 raw_item = "WIKIBERRY"
@@ -758,7 +760,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.HEATHER.12.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -766,7 +768,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.HEATHER.12.pokemon]]
 internal_name = "SALAZZLE"
 level = 100
 raw_item = "FOCUSSASH"
@@ -780,7 +782,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.HEATHER.12.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -788,7 +790,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.HEATHER.12.pokemon]]
 internal_name = "RAYQUAZA"
 level = 100
 raw_item = "LIFEORB"
@@ -802,7 +804,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.HEATHER.12.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -810,7 +812,7 @@ spa = 252
 spd = 0
 spe = 4
 
-[[trainers.12.pokemon]]
+[[trainers.HEATHER.12.pokemon]]
 internal_name = "CROBAT"
 level = 100
 raw_item = "ELEMENTALSEED"
@@ -825,7 +827,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.12.pokemon.evs]
+[trainers.HEATHER.12.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -833,13 +835,13 @@ spa = 252
 spd = 252
 spe = 0
 
-[trainers.13]
+[trainers.HEATHER.13]
 raw_trainer_class = "HEATHER"
 battler_name = "Heather"
 battler_id = 13
 raw_battle_items = []
 
-[[trainers.13.pokemon]]
+[[trainers.HEATHER.13.pokemon]]
 internal_name = "DRIFBLIM"
 level = 100
 raw_item = "SITRUSBERRY"
@@ -853,7 +855,7 @@ sex = ""
 nature = "SERIOUS"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.HEATHER.13.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 56
@@ -861,7 +863,7 @@ spa = 252
 spd = 200
 spe = 0
 
-[[trainers.13.pokemon]]
+[[trainers.HEATHER.13.pokemon]]
 internal_name = "MAROWAK"
 level = 100
 raw_item = "THICKCLUB"
@@ -877,7 +879,7 @@ form_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.HEATHER.13.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -885,7 +887,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.13.pokemon]]
+[[trainers.HEATHER.13.pokemon]]
 internal_name = "DECIDUEYE"
 level = 100
 raw_item = "DARKINIUMZ2"
@@ -900,7 +902,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.HEATHER.13.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -908,7 +910,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.13.pokemon]]
+[[trainers.HEATHER.13.pokemon]]
 internal_name = "TOXICROAK"
 level = 100
 raw_item = "ASSAULTVEST"
@@ -922,7 +924,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.HEATHER.13.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -930,7 +932,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.13.pokemon]]
+[[trainers.HEATHER.13.pokemon]]
 internal_name = "CROBAT"
 level = 100
 raw_item = "WACANBERRY"
@@ -945,7 +947,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.HEATHER.13.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -953,7 +955,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.13.pokemon]]
+[[trainers.HEATHER.13.pokemon]]
 internal_name = "AERODACTYL"
 level = 100
 raw_item = "FOCUSSASH"
@@ -967,7 +969,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.HEATHER.13.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -975,7 +977,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[trainers.20]
+[trainers.HEATHER.20]
 raw_trainer_class = "HEATHER"
 battler_name = "Heather"
 battler_id = 20
@@ -984,7 +986,7 @@ raw_battle_items = [
     "FULLRESTORE",
 ]
 
-[[trainers.20.pokemon]]
+[[trainers.HEATHER.20.pokemon]]
 internal_name = "CROBAT"
 level = 100
 raw_item = "FOCUSSASH"
@@ -998,7 +1000,7 @@ ability_number = 1
 nature = "JOLLY"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.HEATHER.20.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -1006,7 +1008,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.HEATHER.20.pokemon]]
 internal_name = "NIDOKING"
 level = 100
 raw_item = "LIFEORB"
@@ -1020,7 +1022,7 @@ ability_number = 2
 nature = "HASTY"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.HEATHER.20.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -1028,7 +1030,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.HEATHER.20.pokemon]]
 internal_name = "CORVIKNIGHT"
 level = 100
 raw_item = "LEFTOVERS"
@@ -1041,7 +1043,7 @@ raw_moves = [
 nature = "IMPISH"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.HEATHER.20.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -1049,7 +1051,7 @@ spa = 0
 spd = 0
 spe = 88
 
-[[trainers.20.pokemon]]
+[[trainers.HEATHER.20.pokemon]]
 internal_name = "KILOWATTREL"
 level = 100
 raw_item = "FLYINIUMZ2"
@@ -1063,7 +1065,7 @@ sex = "F"
 nature = "TIMID"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.HEATHER.20.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -1071,7 +1073,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.HEATHER.20.pokemon]]
 internal_name = "GENGAR"
 level = 100
 raw_item = "LIFEORB"
@@ -1084,7 +1086,7 @@ raw_moves = [
 nature = "TIMID"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.HEATHER.20.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -1092,7 +1094,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.HEATHER.20.pokemon]]
 internal_name = "SALAMENCE"
 level = 100
 raw_item = "SALAMENCITE"
@@ -1106,7 +1108,7 @@ nature = "JOLLY"
 iv = 31
 happiness = 252
 
-[trainers.20.pokemon.evs]
+[trainers.HEATHER.20.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252

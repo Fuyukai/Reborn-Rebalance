@@ -1,9 +1,55 @@
-[trainers.0]
+trainer_name = "Howaya"
+
+[trainers.Orderly.0]
+raw_trainer_class = "Orderly"
+battler_name = "Howaya"
+raw_battle_items = []
+
+[[trainers.Orderly.0.pokemon]]
+internal_name = "LOMBRE"
+level = 33
+iv = 0
+
+[trainers.Orderly.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.Orderly.0.pokemon]]
+internal_name = "MAGNEMITE"
+level = 33
+iv = 0
+
+[trainers.Orderly.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.Orderly.0.pokemon]]
+internal_name = "CHEWTLE"
+level = 34
+iv = 0
+
+[trainers.Orderly.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.NWOrderly.0]
 raw_trainer_class = "NWOrderly"
 battler_name = "Howaya"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.NWOrderly.0.pokemon]]
 internal_name = "LUDICOLO"
 level = 74
 raw_moves = [
@@ -14,7 +60,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.NWOrderly.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -22,7 +68,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.NWOrderly.0.pokemon]]
 internal_name = "LAPRAS"
 level = 74
 raw_moves = [
@@ -33,7 +79,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.NWOrderly.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -41,7 +87,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.NWOrderly.0.pokemon]]
 internal_name = "MAGNETON"
 level = 75
 raw_moves = [
@@ -53,7 +99,7 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.NWOrderly.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -61,7 +107,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.NWOrderly.0.pokemon]]
 internal_name = "DREDNAW"
 level = 73
 raw_moves = [
@@ -72,7 +118,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.NWOrderly.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -80,7 +126,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.NWOrderly.0.pokemon]]
 internal_name = "PORYGONZ"
 level = 74
 raw_moves = [
@@ -91,7 +137,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.NWOrderly.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -99,13 +145,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.1]
+[trainers.NWOrderly.1]
 raw_trainer_class = "NWOrderly"
 battler_name = "Howaya"
 battler_id = 1
 raw_battle_items = []
 
-[[trainers.1.pokemon]]
+[[trainers.NWOrderly.1.pokemon]]
 internal_name = "LUDICOLO"
 level = 87
 raw_moves = [
@@ -116,7 +162,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.NWOrderly.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -124,7 +170,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.NWOrderly.1.pokemon]]
 internal_name = "LAPRAS"
 level = 87
 raw_moves = [
@@ -135,7 +181,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.NWOrderly.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -143,7 +189,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.NWOrderly.1.pokemon]]
 internal_name = "MAGNETON"
 level = 88
 raw_moves = [
@@ -155,7 +201,7 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.NWOrderly.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -163,7 +209,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.NWOrderly.1.pokemon]]
 internal_name = "LANTURN"
 level = 89
 raw_moves = [
@@ -174,7 +220,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.NWOrderly.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -182,7 +228,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.NWOrderly.1.pokemon]]
 internal_name = "PORYGONZ"
 level = 89
 raw_moves = [
@@ -193,7 +239,7 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.NWOrderly.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

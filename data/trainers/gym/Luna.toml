@@ -1,4 +1,6 @@
-[trainers.0]
+trainer_name = "Luna"
+
+[trainers.LUNA.0]
 raw_trainer_class = "LUNA"
 battler_name = "Luna"
 raw_battle_items = [
@@ -7,7 +9,7 @@ raw_battle_items = [
     "ULTRAPOTION",
 ]
 
-[[trainers.0.pokemon]]
+[[trainers.LUNA.0.pokemon]]
 internal_name = "BISHARP"
 level = 63
 raw_item = "ROCKYHELMET"
@@ -21,7 +23,7 @@ nature = "IMPISH"
 iv = 31
 nickname = "Carpenter"
 
-[trainers.0.pokemon.evs]
+[trainers.LUNA.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -29,7 +31,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.LUNA.0.pokemon]]
 internal_name = "ABSOL"
 level = 64
 raw_item = "LIFEORB"
@@ -43,7 +45,7 @@ nature = "ADAMANT"
 iv = 31
 nickname = "White Rabbit"
 
-[trainers.0.pokemon.evs]
+[trainers.LUNA.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -51,7 +53,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.LUNA.0.pokemon]]
 internal_name = "HONCHKROW"
 level = 63
 raw_item = "MUSCLEBAND"
@@ -67,7 +69,7 @@ nature = "JOLLY"
 iv = 31
 nickname = "Jubjub Bird"
 
-[trainers.0.pokemon.evs]
+[trainers.LUNA.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -75,7 +77,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.LUNA.0.pokemon]]
 internal_name = "WEAVILE"
 level = 64
 raw_item = "FOCUSSASH"
@@ -92,7 +94,7 @@ nature = "JOLLY"
 iv = 31
 nickname = "KnaveOfHearts"
 
-[trainers.0.pokemon.evs]
+[trainers.LUNA.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -100,7 +102,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.LUNA.0.pokemon]]
 internal_name = "TYRANITAR"
 level = 63
 raw_item = "MAGICALSEED"
@@ -115,7 +117,7 @@ nature = "ADAMANT"
 iv = 31
 nickname = "Bandersnatch"
 
-[trainers.0.pokemon.evs]
+[trainers.LUNA.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -123,7 +125,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.LUNA.0.pokemon]]
 internal_name = "UMBREON"
 level = 65
 raw_item = "LEFTOVERS"
@@ -137,7 +139,7 @@ nature = "CALM"
 iv = 31
 nickname = "Cheshire"
 
-[trainers.0.pokemon.evs]
+[trainers.LUNA.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -145,13 +147,13 @@ spa = 0
 spd = 0
 spe = 252
 
-[trainers.10]
+[trainers.LUNA.10]
 raw_trainer_class = "LUNA"
 battler_name = "Luna"
 battler_id = 10
 raw_battle_items = []
 
-[[trainers.10.pokemon]]
+[[trainers.LUNA.10.pokemon]]
 internal_name = "BISHARP"
 level = 100
 raw_item = "FOCUSSASH"
@@ -166,7 +168,7 @@ nature = "ADAMANT"
 iv = 31
 nickname = "Carpenter"
 
-[trainers.10.pokemon.evs]
+[trainers.LUNA.10.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -174,7 +176,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.LUNA.10.pokemon]]
 internal_name = "GRENINJA"
 level = 100
 raw_item = "LIFEORB"
@@ -190,7 +192,7 @@ nature = "TIMID"
 iv = 31
 nickname = "Bill"
 
-[trainers.10.pokemon.evs]
+[trainers.LUNA.10.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -198,7 +200,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.LUNA.10.pokemon]]
 internal_name = "DARKRAI"
 level = 100
 raw_item = "LIFEORB"
@@ -213,7 +215,7 @@ nature = "TIMID"
 iv = 31
 nickname = "Red Queen"
 
-[trainers.10.pokemon.evs]
+[trainers.LUNA.10.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -221,7 +223,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.10.pokemon]]
+[[trainers.LUNA.10.pokemon]]
 internal_name = "TYRANITAR"
 level = 100
 raw_item = "TYRANITARITE"
@@ -236,7 +238,7 @@ nature = "JOLLY"
 iv = 31
 nickname = "Bandersnatch"
 
-[trainers.10.pokemon.evs]
+[trainers.LUNA.10.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -244,7 +246,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.LUNA.10.pokemon]]
 internal_name = "WEAVILE"
 level = 100
 raw_item = "LIFEORB"
@@ -259,7 +261,7 @@ nature = "JOLLY"
 iv = 31
 nickname = "KnaveOfHearts"
 
-[trainers.10.pokemon.evs]
+[trainers.LUNA.10.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -267,7 +269,7 @@ spa = 252
 spd = 0
 spe = 4
 
-[[trainers.10.pokemon]]
+[[trainers.LUNA.10.pokemon]]
 internal_name = "HYDREIGON"
 level = 100
 raw_item = "CHOICESPECS"
@@ -282,7 +284,7 @@ nature = "MODEST"
 iv = 31
 nickname = "Jabberwocky"
 
-[trainers.10.pokemon.evs]
+[trainers.LUNA.10.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -290,13 +292,13 @@ spa = 252
 spd = 252
 spe = 0
 
-[trainers.11]
+[trainers.LUNA.11]
 raw_trainer_class = "LUNA"
 battler_name = "Luna"
 battler_id = 11
 raw_battle_items = []
 
-[[trainers.11.pokemon]]
+[[trainers.LUNA.11.pokemon]]
 internal_name = "TYRANITAR"
 level = 100
 raw_item = "TYRANITARITE"
@@ -311,7 +313,7 @@ nature = "JOLLY"
 iv = 31
 nickname = "Bandersnatch"
 
-[trainers.11.pokemon.evs]
+[trainers.LUNA.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -319,7 +321,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.LUNA.11.pokemon]]
 internal_name = "GRENINJA"
 level = 100
 raw_item = "LIFEORB"
@@ -335,7 +337,7 @@ nature = "TIMID"
 iv = 31
 nickname = "Bill"
 
-[trainers.11.pokemon.evs]
+[trainers.LUNA.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -343,7 +345,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.LUNA.11.pokemon]]
 internal_name = "DARKRAI"
 level = 100
 raw_item = "LIFEORB"
@@ -358,7 +360,7 @@ nature = "TIMID"
 iv = 31
 nickname = "Red Queen"
 
-[trainers.11.pokemon.evs]
+[trainers.LUNA.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -366,7 +368,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.11.pokemon]]
+[[trainers.LUNA.11.pokemon]]
 internal_name = "HYDREIGON"
 level = 100
 raw_item = "CHOICESPECS"
@@ -381,7 +383,7 @@ nature = "MODEST"
 iv = 31
 nickname = "Jabberwocky"
 
-[trainers.11.pokemon.evs]
+[trainers.LUNA.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -389,7 +391,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.LUNA.11.pokemon]]
 internal_name = "YVELTAL"
 level = 100
 raw_item = "MAGICALSEED"
@@ -404,7 +406,7 @@ nature = "MODEST"
 iv = 31
 nickname = "Duchess"
 
-[trainers.11.pokemon.evs]
+[trainers.LUNA.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -412,7 +414,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.LUNA.11.pokemon]]
 internal_name = "HOOPA"
 level = 100
 raw_item = "DARKINIUMZ2"
@@ -428,7 +430,7 @@ nature = "JOLLY"
 iv = 31
 nickname = "Snark"
 
-[trainers.11.pokemon.evs]
+[trainers.LUNA.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -436,13 +438,13 @@ spa = 252
 spd = 0
 spe = 4
 
-[trainers.12]
+[trainers.LUNA.12]
 raw_trainer_class = "LUNA"
 battler_name = "Luna"
 battler_id = 12
 raw_battle_items = []
 
-[[trainers.12.pokemon]]
+[[trainers.LUNA.12.pokemon]]
 internal_name = "CRAWDAUNT"
 level = 100
 raw_item = "LIFEORB"
@@ -458,7 +460,7 @@ nature = "ADAMANT"
 iv = 31
 nickname = "Mock Turtle"
 
-[trainers.12.pokemon.evs]
+[trainers.LUNA.12.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -466,7 +468,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.LUNA.12.pokemon]]
 internal_name = "YVELTAL"
 level = 100
 raw_item = "LIFEORB"
@@ -481,7 +483,7 @@ nature = "MODEST"
 iv = 31
 nickname = "Duchess"
 
-[trainers.12.pokemon.evs]
+[trainers.LUNA.12.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -489,7 +491,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.LUNA.12.pokemon]]
 internal_name = "HYDREIGON"
 level = 100
 raw_item = "DRAGONIUMZ2"
@@ -504,7 +506,7 @@ nature = "MODEST"
 iv = 31
 nickname = "Jabberwocky"
 
-[trainers.12.pokemon.evs]
+[trainers.LUNA.12.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -512,7 +514,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.LUNA.12.pokemon]]
 internal_name = "GRENINJA"
 level = 100
 raw_item = "ELEMENTALSEED"
@@ -528,7 +530,7 @@ nature = "MILD"
 iv = 31
 nickname = "Bill"
 
-[trainers.12.pokemon.evs]
+[trainers.LUNA.12.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -536,7 +538,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.LUNA.12.pokemon]]
 internal_name = "GYARADOS"
 level = 100
 raw_item = "GYARADOSITE"
@@ -551,7 +553,7 @@ nature = "JOLLY"
 iv = 31
 nickname = "Borogove"
 
-[trainers.12.pokemon.evs]
+[trainers.LUNA.12.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -559,7 +561,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.LUNA.12.pokemon]]
 internal_name = "SHARPEDO"
 level = 100
 raw_item = "LIFEORB"
@@ -575,7 +577,7 @@ nature = "ADAMANT"
 iv = 31
 nickname = "Rath"
 
-[trainers.12.pokemon.evs]
+[trainers.LUNA.12.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -583,13 +585,13 @@ spa = 252
 spd = 0
 spe = 0
 
-[trainers.13]
+[trainers.LUNA.13]
 raw_trainer_class = "LUNA"
 battler_name = "Luna"
 battler_id = 13
 raw_battle_items = []
 
-[[trainers.13.pokemon]]
+[[trainers.LUNA.13.pokemon]]
 internal_name = "MUK"
 level = 100
 raw_item = "ASSAULTVEST"
@@ -606,7 +608,7 @@ nature = "ADAMANT"
 iv = 31
 nickname = "HumptyDumpty"
 
-[trainers.13.pokemon.evs]
+[trainers.LUNA.13.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -614,7 +616,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.13.pokemon]]
+[[trainers.LUNA.13.pokemon]]
 internal_name = "HYDREIGON"
 level = 100
 raw_item = "CHOICESCARF"
@@ -629,7 +631,7 @@ nature = "TIMID"
 iv = 31
 nickname = "Jabberwocky"
 
-[trainers.13.pokemon.evs]
+[trainers.LUNA.13.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -637,7 +639,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.13.pokemon]]
+[[trainers.LUNA.13.pokemon]]
 internal_name = "HOOPA"
 level = 100
 raw_item = "ASSAULTVEST"
@@ -653,7 +655,7 @@ nature = "TIMID"
 iv = 31
 nickname = "Snark"
 
-[trainers.13.pokemon.evs]
+[trainers.LUNA.13.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -661,7 +663,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.13.pokemon]]
+[[trainers.LUNA.13.pokemon]]
 internal_name = "ABSOL"
 level = 100
 raw_item = "ABSOLITE"
@@ -676,7 +678,7 @@ nature = "JOLLY"
 iv = 31
 nickname = "White Rabbit"
 
-[trainers.13.pokemon.evs]
+[trainers.LUNA.13.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -684,7 +686,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.13.pokemon]]
+[[trainers.LUNA.13.pokemon]]
 internal_name = "BISHARP"
 level = 100
 raw_item = "MAGICALSEED"
@@ -699,7 +701,7 @@ nature = "JOLLY"
 iv = 31
 nickname = "Carpenter"
 
-[trainers.13.pokemon.evs]
+[trainers.LUNA.13.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -707,7 +709,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.13.pokemon]]
+[[trainers.LUNA.13.pokemon]]
 internal_name = "WEAVILE"
 level = 100
 raw_item = "CHOICEBAND"
@@ -723,7 +725,7 @@ nature = "JOLLY"
 iv = 31
 nickname = "KnaveOfHearts"
 
-[trainers.13.pokemon.evs]
+[trainers.LUNA.13.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -731,7 +733,7 @@ spa = 252
 spd = 0
 spe = 4
 
-[trainers.20]
+[trainers.LUNA.20]
 raw_trainer_class = "LUNA"
 battler_name = "Luna"
 battler_id = 20
@@ -741,7 +743,7 @@ raw_battle_items = [
     "ULTRAPOTION",
 ]
 
-[[trainers.20.pokemon]]
+[[trainers.LUNA.20.pokemon]]
 internal_name = "GRIMMSNARL"
 level = 63
 raw_item = "LIGHTCLAY"
@@ -755,7 +757,7 @@ nature = "IMPISH"
 iv = 31
 nickname = "Mincer"
 
-[trainers.20.pokemon.evs]
+[trainers.LUNA.20.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -763,7 +765,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.20.pokemon]]
+[[trainers.LUNA.20.pokemon]]
 internal_name = "ABSOL"
 level = 64
 raw_item = "LIFEORB"
@@ -777,7 +779,7 @@ nature = "ADAMANT"
 iv = 31
 nickname = "White Rabbit"
 
-[trainers.20.pokemon.evs]
+[trainers.LUNA.20.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -785,7 +787,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.LUNA.20.pokemon]]
 internal_name = "MORPEKO"
 level = 63
 raw_moves = [
@@ -800,7 +802,7 @@ nature = "JOLLY"
 iv = 31
 nickname = "Chikapu"
 
-[trainers.20.pokemon.evs]
+[trainers.LUNA.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -808,7 +810,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.LUNA.20.pokemon]]
 internal_name = "HONCHKROW"
 level = 63
 raw_item = "MUSCLEBAND"
@@ -824,7 +826,7 @@ nature = "JOLLY"
 iv = 31
 nickname = "Jubjub Bird"
 
-[trainers.20.pokemon.evs]
+[trainers.LUNA.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -832,7 +834,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.LUNA.20.pokemon]]
 internal_name = "WEAVILE"
 level = 64
 raw_item = "WEAVILITE"
@@ -849,7 +851,7 @@ nature = "JOLLY"
 iv = 31
 nickname = "KnaveOfHearts"
 
-[trainers.20.pokemon.evs]
+[trainers.LUNA.20.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -857,7 +859,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.LUNA.20.pokemon]]
 internal_name = "UMBREON"
 level = 65
 raw_item = "LEFTOVERS"
@@ -871,7 +873,7 @@ nature = "CALM"
 iv = 31
 nickname = "Cheshire"
 
-[trainers.20.pokemon.evs]
+[trainers.LUNA.20.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0

@@ -1,14 +1,16 @@
-[trainers.0]
+trainer_name = "Morey"
+
+[trainers.FISHERMAN.0]
 raw_trainer_class = "FISHERMAN"
 battler_name = "Morey"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.FISHERMAN.0.pokemon]]
 internal_name = "GOLDEEN"
 level = 10
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.FISHERMAN.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

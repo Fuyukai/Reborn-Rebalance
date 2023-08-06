@@ -1,4 +1,6 @@
-[trainers.0]
+trainer_name = "Maxwell"
+
+[trainers.Maxwell.0]
 raw_trainer_class = "Maxwell"
 battler_name = "Maxwell"
 raw_battle_items = [
@@ -6,7 +8,7 @@ raw_battle_items = [
     "STRAWBIC",
 ]
 
-[[trainers.0.pokemon]]
+[[trainers.Maxwell.0.pokemon]]
 internal_name = "NINETALES"
 level = 41
 raw_moves = [
@@ -20,7 +22,7 @@ sex = "F"
 nature = "MODEST"
 iv = 20
 
-[trainers.0.pokemon.evs]
+[trainers.Maxwell.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -28,7 +30,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.Maxwell.0.pokemon]]
 internal_name = "CHARIZARD"
 level = 42
 raw_moves = [
@@ -42,7 +44,7 @@ sex = "F"
 nature = "MODEST"
 iv = 20
 
-[trainers.0.pokemon.evs]
+[trainers.Maxwell.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -50,7 +52,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.Maxwell.0.pokemon]]
 internal_name = "HOUNDOOM"
 level = 45
 raw_moves = [
@@ -65,7 +67,7 @@ nature = "ADAMANT"
 iv = 31
 happiness = 255
 
-[trainers.0.pokemon.evs]
+[trainers.Maxwell.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -73,13 +75,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.1]
+[trainers.Maxwell.1]
 raw_trainer_class = "Maxwell"
 battler_name = "Maxwell"
 battler_id = 1
 raw_battle_items = []
 
-[[trainers.1.pokemon]]
+[[trainers.Maxwell.1.pokemon]]
 internal_name = "NINETALES"
 level = 58
 raw_item = "WISEGLASSES"
@@ -94,7 +96,7 @@ sex = "F"
 nature = "MODEST"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.Maxwell.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -102,7 +104,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.Maxwell.1.pokemon]]
 internal_name = "HEATMOR"
 level = 58
 raw_item = "MUSCLEBAND"
@@ -117,7 +119,7 @@ sex = "F"
 nature = "ADAMANT"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.Maxwell.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -125,7 +127,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.Maxwell.1.pokemon]]
 internal_name = "TURTONATOR"
 level = 59
 raw_item = "WISEGLASSES"
@@ -140,7 +142,7 @@ sex = "F"
 nature = "BASHFUL"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.Maxwell.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -148,7 +150,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.Maxwell.1.pokemon]]
 internal_name = "CHARIZARD"
 level = 60
 raw_item = "WISEGLASSES"
@@ -163,7 +165,7 @@ sex = "F"
 nature = "MODEST"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.Maxwell.1.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -171,7 +173,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.Maxwell.1.pokemon]]
 internal_name = "HOUNDOOM"
 level = 62
 raw_item = "WISEGLASSES"
@@ -187,7 +189,7 @@ nature = "MODEST"
 iv = 31
 happiness = 255
 
-[trainers.1.pokemon.evs]
+[trainers.Maxwell.1.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -195,13 +197,13 @@ spa = 252
 spd = 252
 spe = 0
 
-[trainers.2]
+[trainers.Maxwell.2]
 raw_trainer_class = "Maxwell"
 battler_name = "Maxwell"
 battler_id = 2
 raw_battle_items = []
 
-[[trainers.2.pokemon]]
+[[trainers.Maxwell.2.pokemon]]
 internal_name = "NINETALES"
 level = 120
 raw_item = "HEATROCK"
@@ -216,7 +218,7 @@ sex = "F"
 nature = "MODEST"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.Maxwell.2.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -224,7 +226,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.Maxwell.2.pokemon]]
 internal_name = "HEATMOR"
 level = 120
 raw_item = "MUSCLEBAND"
@@ -239,7 +241,7 @@ sex = "F"
 nature = "ADAMANT"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.Maxwell.2.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -247,7 +249,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.Maxwell.2.pokemon]]
 internal_name = "TURTONATOR"
 level = 120
 raw_item = "WISEGLASSES"
@@ -262,7 +264,7 @@ sex = "F"
 nature = "BASHFUL"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.Maxwell.2.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -270,7 +272,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.Maxwell.2.pokemon]]
 internal_name = "CHARIZARD"
 level = 120
 raw_item = "LEFTOVERS"
@@ -285,7 +287,7 @@ sex = "F"
 nature = "MODEST"
 iv = 31
 
-[trainers.2.pokemon.evs]
+[trainers.Maxwell.2.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -293,7 +295,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.Maxwell.2.pokemon]]
 internal_name = "CHANDELURE"
 level = 120
 raw_item = "LEFTOVERS"
@@ -308,7 +310,7 @@ nature = "MODEST"
 iv = 31
 happiness = 255
 
-[trainers.2.pokemon.evs]
+[trainers.Maxwell.2.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -316,7 +318,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.Maxwell.2.pokemon]]
 internal_name = "HOUNDOOM"
 level = 120
 raw_item = "HOUNDOOMINITE"
@@ -332,7 +334,7 @@ nature = "MODEST"
 iv = 31
 happiness = 255
 
-[trainers.2.pokemon.evs]
+[trainers.Maxwell.2.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -340,13 +342,13 @@ spa = 252
 spd = 252
 spe = 0
 
-[trainers.1000]
+[trainers.Maxwell.1000]
 raw_trainer_class = "Maxwell"
 battler_name = "Maxwell"
 battler_id = 1000
 raw_battle_items = []
 
-[[trainers.1000.pokemon]]
+[[trainers.Maxwell.1000.pokemon]]
 internal_name = "NINETALES"
 level = 100
 raw_item = "HEATROCK"
@@ -361,7 +363,7 @@ sex = "F"
 nature = "TIMID"
 iv = 31
 
-[trainers.1000.pokemon.evs]
+[trainers.Maxwell.1000.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -369,7 +371,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.1000.pokemon]]
+[[trainers.Maxwell.1000.pokemon]]
 internal_name = "CHARIZARD"
 level = 100
 raw_item = "ELEMENTALSEED"
@@ -384,7 +386,7 @@ sex = "F"
 nature = "MODEST"
 iv = 31
 
-[trainers.1000.pokemon.evs]
+[trainers.Maxwell.1000.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -392,7 +394,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.1000.pokemon]]
+[[trainers.Maxwell.1000.pokemon]]
 internal_name = "HOUNDOOM"
 level = 100
 raw_item = "ELEMENTALSEED"
@@ -408,7 +410,7 @@ nature = "TIMID"
 iv = 31
 happiness = 255
 
-[trainers.1000.pokemon.evs]
+[trainers.Maxwell.1000.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

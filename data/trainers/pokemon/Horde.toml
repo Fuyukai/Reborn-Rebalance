@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Horde"
+
+[trainers.BUGCATCHER.0]
 raw_trainer_class = "BUGCATCHER"
 battler_name = "Horde"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.BUGCATCHER.0.pokemon]]
 internal_name = "TRUBBISH"
 level = 30
 raw_moves = [
@@ -16,7 +18,7 @@ ability_number = 2
 nature = "BASHFUL"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.BUGCATCHER.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -24,7 +26,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.BUGCATCHER.0.pokemon]]
 internal_name = "TRUBBISH"
 level = 30
 raw_moves = [
@@ -37,7 +39,7 @@ ability_number = 2
 nature = "BASHFUL"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.BUGCATCHER.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -45,7 +47,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.BUGCATCHER.0.pokemon]]
 internal_name = "GARBODOR"
 level = 65
 raw_item = "BLACKSLUDGE"
@@ -60,7 +62,7 @@ nature = "ADAMANT"
 iv = 31
 nickname = "Mr.Biggles"
 
-[trainers.0.pokemon.evs]
+[trainers.BUGCATCHER.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252

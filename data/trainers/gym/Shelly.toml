@@ -1,182 +1,19 @@
-[trainers.0]
-raw_trainer_class = "FUTURESHELLY"
-battler_name = "Shelly"
-raw_battle_items = []
+trainer_name = "Shelly"
 
-[[trainers.0.pokemon]]
-internal_name = "MUK"
-level = 120
-raw_item = "MAGICALSEED"
-raw_moves = [
-    "ACIDARMOR",
-    "CRUNCH",
-    "POISONJAB",
-    "POWERUPPUNCH",
-]
-ability_number = 2
-form_number = 1
-nature = "CAREFUL"
-iv = 31
-nickname = "Cain"
-
-[trainers.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 252
-spa = 4
-spd = 0
-spe = 0
-
-[[trainers.0.pokemon]]
-internal_name = "SCIZOR"
-level = 120
-raw_item = "SCIZORITE"
-raw_moves = [
-    "SWORDSDANCE",
-    "ROOST",
-    "BULLETPUNCH",
-    "NIGHTSLASH",
-]
-ability_number = 1
-sex = "F"
-nature = "CAREFUL"
-iv = 31
-nickname = "Titania"
-
-[trainers.0.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 0
-spa = 0
-spd = 0
-spe = 4
-
-[[trainers.0.pokemon]]
-internal_name = "YANMEGA"
-level = 120
-raw_item = "LIFEORB"
-raw_moves = [
-    "DETECT",
-    "BUGBUZZ",
-    "AIRSLASH",
-    "HIDDENPOWERDRA",
-]
-sex = "F"
-nature = "MODEST"
-iv = 31
-nickname = "Heather"
-
-[trainers.0.pokemon.evs]
-hp = 0
-atk = 4
-def_ = 0
-spa = 252
-spd = 252
-spe = 0
-
-[[trainers.0.pokemon]]
-internal_name = "PRIMARINA"
-level = 120
-raw_item = "PRIMARIUMZ2"
-raw_moves = [
-    "SPARKLINGARIA",
-    "MOONBLAST",
-    "AMNESIA",
-    "SUBSTITUTE",
-]
-sex = ""
-nature = "MODEST"
-iv = 31
-nickname = "Adrienn"
-
-[trainers.0.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 0
-spa = 4
-spd = 252
-spe = 0
-
-[[trainers.0.pokemon]]
-internal_name = "XERNEAS"
-level = 120
-raw_item = "POWERHERB"
-raw_moves = [
-    "MOONBLAST",
-    "GEOMANCY",
-    "NATUREPOWER",
-    "FOCUSBLAST",
-]
-sex = ""
-nature = "MODEST"
-iv = 31
-nickname = "Noel"
-
-[trainers.0.pokemon.evs]
-hp = 0
-atk = 4
-def_ = 0
-spa = 252
-spd = 252
-spe = 0
-
-[[trainers.0.pokemon]]
-internal_name = "LEAVANNY"
-level = 120
-raw_item = "MAGICALSEED"
-raw_moves = [
-    "SWORDSDANCE",
-    "SLASH",
-    "LEAFBLADE",
-    "XSCISSOR",
-]
-ability_number = 2
-sex = "F"
-nature = "JOLLY"
-iv = 31
-nickname = "Player"
-
-[trainers.0.pokemon.evs]
-hp = 0
-atk = 4
-def_ = 252
-spa = 252
-spd = 0
-spe = 0
-
-[trainers.1]
+[trainers.SHELLY.0]
 raw_trainer_class = "SHELLY"
 battler_name = "Shelly"
-battler_id = 1
-raw_battle_items = []
-
-[[trainers.1.pokemon]]
-internal_name = "YANMEGA"
-level = 33
-raw_moves = [
-    "STRUGGLEBUG",
-    "GIGADRAIN",
-    "AIRCUTTER",
-    "ANCIENTPOWER",
+raw_battle_items = [
+    "HYPERPOTION",
+    "HYPERPOTION",
 ]
-sex = "F"
-nature = "MODEST"
-iv = 2
-nickname = "Heather"
 
-[trainers.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.1.pokemon]]
+[[trainers.SHELLY.0.pokemon]]
 internal_name = "ILLUMISE"
 level = 32
+raw_item = "DAMPROCK"
 raw_moves = [
-    "STRUGGLEBUG",
+    "RAINDANCE",
     "STRUGGLEBUG",
     "DAZZLINGGLEAM",
     "CONFUSERAY",
@@ -186,7 +23,7 @@ sex = "F"
 nature = "MODEST"
 iv = 2
 
-[trainers.1.pokemon.evs]
+[trainers.SHELLY.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -194,7 +31,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.SHELLY.0.pokemon]]
 internal_name = "MASQUERAIN"
 level = 31
 raw_item = "SILVERPOWDER"
@@ -208,7 +45,7 @@ sex = "F"
 nature = "ADAMANT"
 iv = 4
 
-[trainers.1.pokemon.evs]
+[trainers.SHELLY.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -216,10 +53,10 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.SHELLY.0.pokemon]]
 internal_name = "ANORITH"
 level = 32
-raw_item = "MUSCLEBAND"
+raw_item = "TELLURICSEED"
 raw_moves = [
     "AQUAJET",
     "RAPIDSPIN",
@@ -228,10 +65,10 @@ raw_moves = [
 ]
 ability_number = 1
 sex = "F"
-nature = "ADAMANT"
-iv = 20
+nature = "QUIRKY"
+iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.SHELLY.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -239,9 +76,10 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.SHELLY.0.pokemon]]
 internal_name = "ARAQUANID"
-level = 32
+level = 31
+raw_item = "DAMPROCK"
 raw_moves = [
     "RAINDANCE",
     "BUBBLEBEAM",
@@ -250,8 +88,9 @@ raw_moves = [
 ]
 sex = "F"
 nature = "BASHFUL"
+iv = 0
 
-[trainers.1.pokemon.evs]
+[trainers.SHELLY.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -259,7 +98,29 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.SHELLY.0.pokemon]]
+internal_name = "YANMEGA"
+level = 33
+raw_moves = [
+    "STRUGGLEBUG",
+    "GIGADRAIN",
+    "AIRCUTTER",
+    "ANCIENTPOWER",
+]
+sex = "F"
+nature = "MODEST"
+iv = 2
+nickname = "Heather"
+
+[trainers.SHELLY.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.SHELLY.0.pokemon]]
 internal_name = "VOLBEAT"
 level = 35
 raw_item = "LEFTOVERS"
@@ -274,7 +135,7 @@ nature = "BOLD"
 iv = 31
 nickname = "Bugsy"
 
-[trainers.1.pokemon.evs]
+[trainers.SHELLY.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -282,13 +143,151 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.2]
+[trainers.SHELLY.1]
+raw_trainer_class = "SHELLY"
+battler_name = "Shelly"
+battler_id = 1
+raw_battle_items = []
+
+[[trainers.SHELLY.1.pokemon]]
+internal_name = "YANMEGA"
+level = 33
+raw_moves = [
+    "STRUGGLEBUG",
+    "GIGADRAIN",
+    "AIRCUTTER",
+    "ANCIENTPOWER",
+]
+sex = "F"
+nature = "MODEST"
+iv = 2
+nickname = "Heather"
+
+[trainers.SHELLY.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.SHELLY.1.pokemon]]
+internal_name = "ILLUMISE"
+level = 32
+raw_moves = [
+    "STRUGGLEBUG",
+    "STRUGGLEBUG",
+    "DAZZLINGGLEAM",
+    "CONFUSERAY",
+]
+ability_number = 2
+sex = "F"
+nature = "MODEST"
+iv = 2
+
+[trainers.SHELLY.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.SHELLY.1.pokemon]]
+internal_name = "MASQUERAIN"
+level = 31
+raw_item = "SILVERPOWDER"
+raw_moves = [
+    "STRUGGLEBUG",
+    "ICYWIND",
+    "BUBBLEBEAM",
+    "ENERGYBALL",
+]
+sex = "F"
+nature = "ADAMANT"
+iv = 4
+
+[trainers.SHELLY.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.SHELLY.1.pokemon]]
+internal_name = "ANORITH"
+level = 32
+raw_item = "MUSCLEBAND"
+raw_moves = [
+    "AQUAJET",
+    "RAPIDSPIN",
+    "KNOCKOFF",
+    "ROCKSLIDE",
+]
+ability_number = 1
+sex = "F"
+nature = "ADAMANT"
+iv = 20
+
+[trainers.SHELLY.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.SHELLY.1.pokemon]]
+internal_name = "ARAQUANID"
+level = 32
+raw_moves = [
+    "RAINDANCE",
+    "BUBBLEBEAM",
+    "ICYWIND",
+    "BUGBITE",
+]
+sex = "F"
+nature = "BASHFUL"
+
+[trainers.SHELLY.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.SHELLY.1.pokemon]]
+internal_name = "VOLBEAT"
+level = 35
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "TAILGLOW",
+    "MOONLIGHT",
+    "STRUGGLEBUG",
+    "DAZZLINGGLEAM",
+]
+ability_number = 2
+nature = "BOLD"
+iv = 31
+nickname = "Bugsy"
+
+[trainers.SHELLY.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.SHELLY.2]
 raw_trainer_class = "SHELLY"
 battler_name = "Shelly"
 battler_id = 2
 raw_battle_items = []
 
-[[trainers.2.pokemon]]
+[[trainers.SHELLY.2.pokemon]]
 internal_name = "YANMEGA"
 level = 70
 raw_moves = [
@@ -302,7 +301,7 @@ nature = "MODEST"
 iv = 2
 nickname = "Heather"
 
-[trainers.2.pokemon.evs]
+[trainers.SHELLY.2.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -310,7 +309,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.SHELLY.2.pokemon]]
 internal_name = "VIVILLON"
 level = 71
 raw_moves = [
@@ -325,7 +324,7 @@ nature = "MODEST"
 iv = 16
 nickname = "Noel"
 
-[trainers.2.pokemon.evs]
+[trainers.SHELLY.2.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -333,7 +332,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.SHELLY.2.pokemon]]
 internal_name = "RIBOMBEE"
 level = 70
 raw_item = "SILVERPOWDER"
@@ -349,7 +348,7 @@ nature = "MODEST"
 iv = 4
 nickname = "Anna"
 
-[trainers.2.pokemon.evs]
+[trainers.SHELLY.2.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -357,7 +356,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.SHELLY.2.pokemon]]
 internal_name = "SCOLIPEDE"
 level = 69
 raw_item = "MUSCLEBAND"
@@ -372,7 +371,7 @@ nature = "ADAMANT"
 iv = 20
 nickname = "Cain"
 
-[trainers.2.pokemon.evs]
+[trainers.SHELLY.2.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -380,7 +379,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.SHELLY.2.pokemon]]
 internal_name = "VOLBEAT"
 level = 70
 raw_item = "LEFTOVERS"
@@ -395,7 +394,7 @@ nature = "BOLD"
 iv = 31
 nickname = "Bugsy"
 
-[trainers.2.pokemon.evs]
+[trainers.SHELLY.2.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -403,7 +402,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.2.pokemon]]
+[[trainers.SHELLY.2.pokemon]]
 internal_name = "ILLUMISE"
 level = 69
 raw_item = "LEFTOVERS"
@@ -418,7 +417,7 @@ sex = "F"
 nature = "MODEST"
 iv = 2
 
-[trainers.2.pokemon.evs]
+[trainers.SHELLY.2.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -426,13 +425,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.3]
+[trainers.SHELLY.3]
 raw_trainer_class = "SHELLY"
 battler_name = "Shelly"
 battler_id = 3
 raw_battle_items = []
 
-[[trainers.3.pokemon]]
+[[trainers.SHELLY.3.pokemon]]
 internal_name = "RIBOMBEE"
 level = 81
 raw_item = "BABIRIBERRY"
@@ -449,7 +448,7 @@ nature = "TIMID"
 iv = 31
 nickname = "Anna"
 
-[trainers.3.pokemon.evs]
+[trainers.SHELLY.3.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -457,7 +456,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.3.pokemon]]
+[[trainers.SHELLY.3.pokemon]]
 internal_name = "VIVILLON"
 level = 80
 raw_item = "SYNTHETICSEED"
@@ -473,7 +472,7 @@ nature = "MODEST"
 iv = 31
 nickname = "Noel"
 
-[trainers.3.pokemon.evs]
+[trainers.SHELLY.3.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -481,7 +480,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.3.pokemon]]
+[[trainers.SHELLY.3.pokemon]]
 internal_name = "SCOLIPEDE"
 level = 81
 raw_item = "MUSCLEBAND"
@@ -496,7 +495,7 @@ nature = "ADAMANT"
 iv = 31
 nickname = "Cain"
 
-[trainers.3.pokemon.evs]
+[trainers.SHELLY.3.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -504,7 +503,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.3.pokemon]]
+[[trainers.SHELLY.3.pokemon]]
 internal_name = "VOLCARONA"
 level = 82
 raw_item = "LEFTOVERS"
@@ -519,7 +518,7 @@ nature = "MODEST"
 iv = 31
 nickname = "Cal"
 
-[trainers.3.pokemon.evs]
+[trainers.SHELLY.3.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -527,7 +526,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.3.pokemon]]
+[[trainers.SHELLY.3.pokemon]]
 internal_name = "YANMEGA"
 level = 83
 raw_item = "WISEGLASSES"
@@ -542,7 +541,7 @@ nature = "MODEST"
 iv = 31
 nickname = "Heather"
 
-[trainers.3.pokemon.evs]
+[trainers.SHELLY.3.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -550,7 +549,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.3.pokemon]]
+[[trainers.SHELLY.3.pokemon]]
 internal_name = "LEAVANNY"
 level = 83
 raw_item = "ASSAULTVEST"
@@ -565,7 +564,7 @@ nature = "JOLLY"
 iv = 31
 nickname = "Player"
 
-[trainers.3.pokemon.evs]
+[trainers.SHELLY.3.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -573,13 +572,13 @@ spa = 252
 spd = 0
 spe = 0
 
-[trainers.10]
+[trainers.SHELLY.10]
 raw_trainer_class = "SHELLY"
 battler_name = "Shelly"
 battler_id = 10
 raw_battle_items = []
 
-[[trainers.10.pokemon]]
+[[trainers.SHELLY.10.pokemon]]
 internal_name = "RIBOMBEE"
 level = 100
 raw_item = "TELLURICSEED"
@@ -594,7 +593,7 @@ nature = "TIMID"
 iv = 31
 nickname = "Anna"
 
-[trainers.10.pokemon.evs]
+[trainers.SHELLY.10.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -602,7 +601,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.10.pokemon]]
+[[trainers.SHELLY.10.pokemon]]
 internal_name = "SCIZOR"
 level = 100
 raw_item = "LIFEORB"
@@ -618,7 +617,7 @@ nature = "ADAMANT"
 iv = 31
 nickname = "Titania"
 
-[trainers.10.pokemon.evs]
+[trainers.SHELLY.10.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -626,7 +625,7 @@ spa = 0
 spd = 4
 spe = 252
 
-[[trainers.10.pokemon]]
+[[trainers.SHELLY.10.pokemon]]
 internal_name = "GENESECT"
 level = 100
 raw_item = "LIFEORB"
@@ -641,7 +640,7 @@ nature = "MODEST"
 iv = 31
 nickname = "Saphira"
 
-[trainers.10.pokemon.evs]
+[trainers.SHELLY.10.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -649,7 +648,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.10.pokemon]]
+[[trainers.SHELLY.10.pokemon]]
 internal_name = "VOLCARONA"
 level = 100
 raw_item = "TELLURICSEED"
@@ -664,7 +663,7 @@ nature = "TIMID"
 iv = 31
 nickname = "Cal"
 
-[trainers.10.pokemon.evs]
+[trainers.SHELLY.10.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -672,7 +671,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.10.pokemon]]
+[[trainers.SHELLY.10.pokemon]]
 internal_name = "HERACROSS"
 level = 100
 raw_item = "WIDELENS"
@@ -687,7 +686,7 @@ nature = "ADAMANT"
 iv = 31
 nickname = "Victoria"
 
-[trainers.10.pokemon.evs]
+[trainers.SHELLY.10.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -695,7 +694,7 @@ spa = 0
 spd = 4
 spe = 252
 
-[[trainers.10.pokemon]]
+[[trainers.SHELLY.10.pokemon]]
 internal_name = "PINSIR"
 level = 100
 raw_item = "PINSIRITE"
@@ -710,7 +709,7 @@ nature = "ADAMANT"
 iv = 31
 happiness = 255
 
-[trainers.10.pokemon.evs]
+[trainers.SHELLY.10.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -718,13 +717,13 @@ spa = 0
 spd = 4
 spe = 252
 
-[trainers.11]
+[trainers.SHELLY.11]
 raw_trainer_class = "SHELLY"
 battler_name = "Shelly"
 battler_id = 11
 raw_battle_items = []
 
-[[trainers.11.pokemon]]
+[[trainers.SHELLY.11.pokemon]]
 internal_name = "RIBOMBEE"
 level = 100
 raw_item = "TELLURICSEED"
@@ -740,7 +739,7 @@ nature = "TIMID"
 iv = 31
 nickname = "Anna"
 
-[trainers.11.pokemon.evs]
+[trainers.SHELLY.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -748,7 +747,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.11.pokemon]]
+[[trainers.SHELLY.11.pokemon]]
 internal_name = "SCIZOR"
 level = 100
 raw_item = "LIFEORB"
@@ -764,7 +763,7 @@ nature = "ADAMANT"
 iv = 31
 nickname = "Titania"
 
-[trainers.11.pokemon.evs]
+[trainers.SHELLY.11.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -772,7 +771,7 @@ spa = 0
 spd = 4
 spe = 252
 
-[[trainers.11.pokemon]]
+[[trainers.SHELLY.11.pokemon]]
 internal_name = "GENESECT"
 level = 100
 raw_item = "LIFEORB"
@@ -787,7 +786,7 @@ nature = "MODEST"
 iv = 31
 nickname = "Saphira"
 
-[trainers.11.pokemon.evs]
+[trainers.SHELLY.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -795,7 +794,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.11.pokemon]]
+[[trainers.SHELLY.11.pokemon]]
 internal_name = "VOLCARONA"
 level = 100
 raw_item = "TELLURICSEED"
@@ -810,7 +809,7 @@ nature = "TIMID"
 iv = 31
 nickname = "Cal"
 
-[trainers.11.pokemon.evs]
+[trainers.SHELLY.11.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -818,7 +817,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.11.pokemon]]
+[[trainers.SHELLY.11.pokemon]]
 internal_name = "PHEROMOSA"
 level = 100
 raw_item = "LIFEORB"
@@ -833,7 +832,7 @@ nature = "ADAMANT"
 iv = 31
 nickname = "Serra"
 
-[trainers.11.pokemon.evs]
+[trainers.SHELLY.11.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -841,7 +840,7 @@ spa = 0
 spd = 4
 spe = 252
 
-[[trainers.11.pokemon]]
+[[trainers.SHELLY.11.pokemon]]
 internal_name = "PINSIR"
 level = 100
 raw_item = "PINSIRITE"
@@ -856,7 +855,7 @@ nature = "ADAMANT"
 iv = 31
 happiness = 255
 
-[trainers.11.pokemon.evs]
+[trainers.SHELLY.11.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -864,13 +863,13 @@ spa = 0
 spd = 4
 spe = 252
 
-[trainers.12]
+[trainers.SHELLY.12]
 raw_trainer_class = "SHELLY"
 battler_name = "Shelly"
 battler_id = 12
 raw_battle_items = []
 
-[[trainers.12.pokemon]]
+[[trainers.SHELLY.12.pokemon]]
 internal_name = "RIBOMBEE"
 level = 100
 raw_item = "FOCUSSASH"
@@ -885,7 +884,7 @@ nature = "TIMID"
 iv = 31
 nickname = "Anna"
 
-[trainers.12.pokemon.evs]
+[trainers.SHELLY.12.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -893,7 +892,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.12.pokemon]]
+[[trainers.SHELLY.12.pokemon]]
 internal_name = "LILLIGANT"
 level = 100
 raw_item = "FOCUSSASH"
@@ -908,7 +907,7 @@ nature = "TIMID"
 iv = 31
 nickname = "Laura"
 
-[trainers.12.pokemon.evs]
+[trainers.SHELLY.12.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -916,7 +915,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.12.pokemon]]
+[[trainers.SHELLY.12.pokemon]]
 internal_name = "PHEROMOSA"
 level = 100
 raw_item = "FOCUSSASH"
@@ -931,7 +930,7 @@ nature = "HASTY"
 iv = 31
 nickname = "Serra"
 
-[trainers.12.pokemon.evs]
+[trainers.SHELLY.12.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -939,7 +938,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.12.pokemon]]
+[[trainers.SHELLY.12.pokemon]]
 internal_name = "VENOMOTH"
 level = 100
 raw_item = "FOCUSSASH"
@@ -955,7 +954,7 @@ nature = "TIMID"
 iv = 31
 nickname = "Eve"
 
-[trainers.12.pokemon.evs]
+[trainers.SHELLY.12.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -963,7 +962,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.12.pokemon]]
+[[trainers.SHELLY.12.pokemon]]
 internal_name = "VOLCARONA"
 level = 100
 raw_item = "FOCUSSASH"
@@ -979,7 +978,7 @@ nature = "TIMID"
 iv = 31
 nickname = "Cal"
 
-[trainers.12.pokemon.evs]
+[trainers.SHELLY.12.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -987,7 +986,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.12.pokemon]]
+[[trainers.SHELLY.12.pokemon]]
 internal_name = "VIVILLON"
 level = 100
 raw_item = "FOCUSSASH"
@@ -1003,7 +1002,7 @@ nature = "TIMID"
 iv = 31
 nickname = "Noel"
 
-[trainers.12.pokemon.evs]
+[trainers.SHELLY.12.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1011,13 +1010,13 @@ spa = 252
 spd = 252
 spe = 4
 
-[trainers.13]
+[trainers.SHELLY.13]
 raw_trainer_class = "SHELLY"
 battler_name = "Shelly"
 battler_id = 13
 raw_battle_items = []
 
-[[trainers.13.pokemon]]
+[[trainers.SHELLY.13.pokemon]]
 internal_name = "VIKAVOLT"
 level = 100
 raw_item = "LIFEORB"
@@ -1032,7 +1031,7 @@ nature = "MODEST"
 iv = 31
 nickname = "Charlotte"
 
-[trainers.13.pokemon.evs]
+[trainers.SHELLY.13.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -1040,7 +1039,7 @@ spa = 0
 spd = 252
 spe = 0
 
-[[trainers.13.pokemon]]
+[[trainers.SHELLY.13.pokemon]]
 internal_name = "ARMALDO"
 level = 100
 raw_item = "ELEMENTALSEED"
@@ -1055,7 +1054,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.SHELLY.13.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -1063,7 +1062,7 @@ spa = 0
 spd = 4
 spe = 252
 
-[[trainers.13.pokemon]]
+[[trainers.SHELLY.13.pokemon]]
 internal_name = "ARAQUANID"
 level = 100
 raw_item = "SPLASHPLATE"
@@ -1077,7 +1076,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.SHELLY.13.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -1085,7 +1084,7 @@ spa = 0
 spd = 4
 spe = 252
 
-[[trainers.13.pokemon]]
+[[trainers.SHELLY.13.pokemon]]
 internal_name = "GOLISOPOD"
 level = 100
 raw_item = "LIFEORB"
@@ -1099,7 +1098,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.13.pokemon.evs]
+[trainers.SHELLY.13.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -1107,7 +1106,7 @@ spa = 0
 spd = 4
 spe = 252
 
-[[trainers.13.pokemon]]
+[[trainers.SHELLY.13.pokemon]]
 internal_name = "PINSIR"
 level = 100
 raw_item = "PINSIRITE"
@@ -1123,7 +1122,7 @@ nature = "JOLLY"
 iv = 31
 happiness = 255
 
-[trainers.13.pokemon.evs]
+[trainers.SHELLY.13.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -1131,7 +1130,7 @@ spa = 0
 spd = 4
 spe = 252
 
-[[trainers.13.pokemon]]
+[[trainers.SHELLY.13.pokemon]]
 internal_name = "YANMEGA"
 level = 100
 raw_item = "LIFEORB"
@@ -1146,7 +1145,7 @@ nature = "MODEST"
 iv = 31
 nickname = "Heather"
 
-[trainers.13.pokemon.evs]
+[trainers.SHELLY.13.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1154,13 +1153,13 @@ spa = 252
 spd = 252
 spe = 0
 
-[trainers.14]
+[trainers.SHELLY.14]
 raw_trainer_class = "SHELLY"
 battler_name = "Shelly"
 battler_id = 14
 raw_battle_items = []
 
-[[trainers.14.pokemon]]
+[[trainers.SHELLY.14.pokemon]]
 internal_name = "RIBOMBEE"
 level = 100
 raw_item = "FOCUSSASH"
@@ -1175,7 +1174,7 @@ nature = "TIMID"
 iv = 31
 nickname = "Anna"
 
-[trainers.14.pokemon.evs]
+[trainers.SHELLY.14.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1183,7 +1182,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.14.pokemon]]
+[[trainers.SHELLY.14.pokemon]]
 internal_name = "BEEDRILL"
 level = 100
 raw_item = "BEEDRILLITE"
@@ -1198,7 +1197,7 @@ nature = "ADAMANT"
 iv = 31
 nickname = "Aya"
 
-[trainers.14.pokemon.evs]
+[trainers.SHELLY.14.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -1206,7 +1205,7 @@ spa = 0
 spd = 4
 spe = 252
 
-[[trainers.14.pokemon]]
+[[trainers.SHELLY.14.pokemon]]
 internal_name = "NINJASK"
 level = 100
 raw_item = "FOCUSSASH"
@@ -1220,7 +1219,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.14.pokemon.evs]
+[trainers.SHELLY.14.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1228,7 +1227,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.14.pokemon]]
+[[trainers.SHELLY.14.pokemon]]
 internal_name = "PHEROMOSA"
 level = 100
 raw_item = "LIFEORB"
@@ -1244,7 +1243,7 @@ iv = 31
 happiness = 255
 nickname = "Serra"
 
-[trainers.14.pokemon.evs]
+[trainers.SHELLY.14.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -1252,7 +1251,7 @@ spa = 0
 spd = 4
 spe = 252
 
-[[trainers.14.pokemon]]
+[[trainers.SHELLY.14.pokemon]]
 internal_name = "ACCELGOR"
 level = 100
 raw_item = "CHOICESPECS"
@@ -1266,7 +1265,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.14.pokemon.evs]
+[trainers.SHELLY.14.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1274,7 +1273,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.14.pokemon]]
+[[trainers.SHELLY.14.pokemon]]
 internal_name = "SCOLIPEDE"
 level = 100
 raw_item = "FOCUSSASH"
@@ -1290,7 +1289,7 @@ iv = 31
 happiness = 255
 nickname = "Cain"
 
-[trainers.14.pokemon.evs]
+[trainers.SHELLY.14.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -1298,13 +1297,13 @@ spa = 0
 spd = 4
 spe = 252
 
-[trainers.15]
+[trainers.SHELLY.15]
 raw_trainer_class = "SHELLY"
 battler_name = "Shelly"
 battler_id = 15
 raw_battle_items = []
 
-[[trainers.15.pokemon]]
+[[trainers.SHELLY.15.pokemon]]
 internal_name = "SHUCKLE"
 level = 100
 raw_item = "WATMELBERRY"
@@ -1319,7 +1318,7 @@ nature = "CALM"
 iv = 31
 nickname = "Hardy"
 
-[trainers.15.pokemon.evs]
+[trainers.SHELLY.15.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -1327,7 +1326,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.15.pokemon]]
+[[trainers.SHELLY.15.pokemon]]
 internal_name = "LEDIAN"
 level = 100
 raw_item = "ASSAULTVEST"
@@ -1343,7 +1342,7 @@ nature = "CALM"
 iv = 31
 nickname = "Lumi"
 
-[trainers.15.pokemon.evs]
+[trainers.SHELLY.15.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1351,7 +1350,7 @@ spa = 252
 spd = 0
 spe = 4
 
-[[trainers.15.pokemon]]
+[[trainers.SHELLY.15.pokemon]]
 internal_name = "ARAQUANID"
 level = 100
 raw_item = "ASSAULTVEST"
@@ -1365,7 +1364,7 @@ sex = ""
 nature = "CALM"
 iv = 31
 
-[trainers.15.pokemon.evs]
+[trainers.SHELLY.15.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -1373,7 +1372,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.15.pokemon]]
+[[trainers.SHELLY.15.pokemon]]
 internal_name = "SHEDINJA"
 level = 100
 raw_item = "SYNTHETICSEED"
@@ -1389,7 +1388,7 @@ iv = 31
 happiness = 255
 nickname = "Shade"
 
-[trainers.15.pokemon.evs]
+[trainers.SHELLY.15.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -1397,7 +1396,7 @@ spa = 0
 spd = 4
 spe = 252
 
-[[trainers.15.pokemon]]
+[[trainers.SHELLY.15.pokemon]]
 internal_name = "PHEROMOSA"
 level = 100
 raw_item = "LIFEORB"
@@ -1412,7 +1411,7 @@ nature = "NAUGHTY"
 iv = 31
 happiness = 255
 
-[trainers.15.pokemon.evs]
+[trainers.SHELLY.15.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 4
@@ -1420,7 +1419,7 @@ spa = 0
 spd = 0
 spe = 252
 
-[[trainers.15.pokemon]]
+[[trainers.SHELLY.15.pokemon]]
 internal_name = "WORMADAM"
 level = 100
 raw_item = "ASSAULTVEST"
@@ -1436,7 +1435,7 @@ iv = 31
 happiness = 255
 nickname = "Florinia"
 
-[trainers.15.pokemon.evs]
+[trainers.SHELLY.15.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 4
@@ -1444,7 +1443,7 @@ spa = 0
 spd = 252
 spe = 252
 
-[trainers.20]
+[trainers.SHELLY.20]
 raw_trainer_class = "SHELLY"
 battler_name = "Shelly"
 battler_id = 20
@@ -1453,7 +1452,7 @@ raw_battle_items = [
     "HYPERPOTION",
 ]
 
-[[trainers.20.pokemon]]
+[[trainers.SHELLY.20.pokemon]]
 internal_name = "ARAQUANID"
 level = 31
 raw_item = "DAMPROCK"
@@ -1467,7 +1466,7 @@ sex = "F"
 nature = "BASHFUL"
 iv = 0
 
-[trainers.20.pokemon.evs]
+[trainers.SHELLY.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1475,7 +1474,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.SHELLY.20.pokemon]]
 internal_name = "DOTTLER"
 level = 32
 raw_item = "EVIOLITE"
@@ -1489,7 +1488,7 @@ nature = "BOLD"
 iv = 2
 nickname = "Bugsy"
 
-[trainers.20.pokemon.evs]
+[trainers.SHELLY.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1497,7 +1496,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.SHELLY.20.pokemon]]
 internal_name = "SPIDOPS"
 level = 35
 raw_item = "LEFTOVERS"
@@ -1511,7 +1510,7 @@ ability_number = 1
 nature = "ADAMANT"
 iv = 30
 
-[trainers.20.pokemon.evs]
+[trainers.SHELLY.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1519,7 +1518,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.SHELLY.20.pokemon]]
 internal_name = "ANORITH"
 level = 32
 raw_item = "TELLURICSEED"
@@ -1534,7 +1533,7 @@ sex = "F"
 nature = "QUIRKY"
 iv = 0
 
-[trainers.20.pokemon.evs]
+[trainers.SHELLY.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1542,7 +1541,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.SHELLY.20.pokemon]]
 internal_name = "YANMEGA"
 level = 33
 raw_item = "HEAVYDUTYBOOTS"
@@ -1557,7 +1556,7 @@ nature = "MODEST"
 iv = 2
 nickname = "Heather"
 
-[trainers.20.pokemon.evs]
+[trainers.SHELLY.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1565,7 +1564,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.SHELLY.20.pokemon]]
 internal_name = "MOTHIM"
 level = 35
 raw_item = "TELLURICSEED"
@@ -1579,7 +1578,7 @@ ability_number = 1
 nature = "BOLD"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.SHELLY.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1587,13 +1586,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.21]
+[trainers.SHELLY.21]
 raw_trainer_class = "SHELLY"
 battler_name = "Shelly"
 battler_id = 21
 raw_battle_items = []
 
-[[trainers.21.pokemon]]
+[[trainers.SHELLY.21.pokemon]]
 internal_name = "YANMEGA"
 level = 33
 raw_item = "HEAVYDUTYBOOTS"
@@ -1608,7 +1607,7 @@ nature = "MODEST"
 iv = 2
 nickname = "Heather"
 
-[trainers.21.pokemon.evs]
+[trainers.SHELLY.21.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1616,7 +1615,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.21.pokemon]]
+[[trainers.SHELLY.21.pokemon]]
 internal_name = "DOTTLER"
 level = 32
 raw_item = "EVIOLITE"
@@ -1630,7 +1629,7 @@ nature = "BOLD"
 iv = 2
 nickname = "Bugsy"
 
-[trainers.21.pokemon.evs]
+[trainers.SHELLY.21.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1638,7 +1637,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.21.pokemon]]
+[[trainers.SHELLY.21.pokemon]]
 internal_name = "SPIDOPS"
 level = 35
 raw_item = "LEFTOVERS"
@@ -1652,7 +1651,7 @@ ability_number = 1
 nature = "ADAMANT"
 iv = 30
 
-[trainers.21.pokemon.evs]
+[trainers.SHELLY.21.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1660,7 +1659,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.21.pokemon]]
+[[trainers.SHELLY.21.pokemon]]
 internal_name = "ANORITH"
 level = 32
 raw_item = "MUSCLEBAND"
@@ -1675,7 +1674,7 @@ sex = "F"
 nature = "ADAMANT"
 iv = 20
 
-[trainers.21.pokemon.evs]
+[trainers.SHELLY.21.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1683,7 +1682,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.21.pokemon]]
+[[trainers.SHELLY.21.pokemon]]
 internal_name = "ARAQUANID"
 level = 32
 raw_moves = [
@@ -1695,7 +1694,7 @@ raw_moves = [
 sex = "F"
 nature = "BASHFUL"
 
-[trainers.21.pokemon.evs]
+[trainers.SHELLY.21.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1703,7 +1702,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.21.pokemon]]
+[[trainers.SHELLY.21.pokemon]]
 internal_name = "MOTHIM"
 level = 35
 raw_moves = [
@@ -1716,7 +1715,7 @@ ability_number = 1
 nature = "BOLD"
 iv = 31
 
-[trainers.21.pokemon.evs]
+[trainers.SHELLY.21.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1724,13 +1723,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.22]
+[trainers.SHELLY.22]
 raw_trainer_class = "SHELLY"
 battler_name = "Shelly"
 battler_id = 22
 raw_battle_items = []
 
-[[trainers.22.pokemon]]
+[[trainers.SHELLY.22.pokemon]]
 internal_name = "YANMEGA"
 level = 70
 raw_item = "HEAVYDUTYBOOTS"
@@ -1745,7 +1744,7 @@ nature = "MODEST"
 iv = 2
 nickname = "Heather"
 
-[trainers.22.pokemon.evs]
+[trainers.SHELLY.22.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1753,7 +1752,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.22.pokemon]]
+[[trainers.SHELLY.22.pokemon]]
 internal_name = "SPIDOPS"
 level = 71
 raw_moves = [
@@ -1767,7 +1766,7 @@ nature = "ADAMANT"
 iv = 16
 nickname = "Noel"
 
-[trainers.22.pokemon.evs]
+[trainers.SHELLY.22.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1775,7 +1774,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.22.pokemon]]
+[[trainers.SHELLY.22.pokemon]]
 internal_name = "RIBOMBEE"
 level = 70
 raw_item = "SILVERPOWDER"
@@ -1791,7 +1790,7 @@ nature = "MODEST"
 iv = 4
 nickname = "Anna"
 
-[trainers.22.pokemon.evs]
+[trainers.SHELLY.22.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1799,7 +1798,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.22.pokemon]]
+[[trainers.SHELLY.22.pokemon]]
 internal_name = "SCOLIPEDE"
 level = 69
 raw_item = "MUSCLEBAND"
@@ -1814,7 +1813,7 @@ nature = "ADAMANT"
 iv = 20
 nickname = "Cain"
 
-[trainers.22.pokemon.evs]
+[trainers.SHELLY.22.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1822,7 +1821,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.22.pokemon]]
+[[trainers.SHELLY.22.pokemon]]
 internal_name = "MOTHIM"
 level = 70
 raw_item = "MOTHIMITE"
@@ -1835,7 +1834,7 @@ raw_moves = [
 nature = "MODEST"
 iv = 31
 
-[trainers.22.pokemon.evs]
+[trainers.SHELLY.22.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1843,7 +1842,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.22.pokemon]]
+[[trainers.SHELLY.22.pokemon]]
 internal_name = "ORBEETLE"
 level = 69
 raw_item = "LIGHTCLAY"
@@ -1857,7 +1856,7 @@ nature = "BOLD"
 iv = 20
 nickname = "Bugsy"
 
-[trainers.22.pokemon.evs]
+[trainers.SHELLY.22.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1865,13 +1864,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.23]
+[trainers.SHELLY.23]
 raw_trainer_class = "SHELLY"
 battler_name = "Shelly"
 battler_id = 23
 raw_battle_items = []
 
-[[trainers.23.pokemon]]
+[[trainers.SHELLY.23.pokemon]]
 internal_name = "RIBOMBEE"
 level = 81
 raw_item = "BABIRIBERRY"
@@ -1888,7 +1887,7 @@ nature = "TIMID"
 iv = 31
 nickname = "Anna"
 
-[trainers.23.pokemon.evs]
+[trainers.SHELLY.23.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -1896,7 +1895,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.23.pokemon]]
+[[trainers.SHELLY.23.pokemon]]
 internal_name = "SPIDOPS"
 level = 80
 raw_item = "SYNTHETICSEED"
@@ -1912,7 +1911,7 @@ nature = "MODEST"
 iv = 31
 nickname = "Noel"
 
-[trainers.23.pokemon.evs]
+[trainers.SHELLY.23.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -1920,7 +1919,7 @@ spa = 4
 spd = 0
 spe = 0
 
-[[trainers.23.pokemon]]
+[[trainers.SHELLY.23.pokemon]]
 internal_name = "SCOLIPEDE"
 level = 81
 raw_item = "MUSCLEBAND"
@@ -1935,7 +1934,7 @@ nature = "ADAMANT"
 iv = 31
 nickname = "Cain"
 
-[trainers.23.pokemon.evs]
+[trainers.SHELLY.23.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -1943,7 +1942,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.23.pokemon]]
+[[trainers.SHELLY.23.pokemon]]
 internal_name = "VOLCARONA"
 level = 82
 raw_item = "LEFTOVERS"
@@ -1958,7 +1957,7 @@ nature = "MODEST"
 iv = 31
 nickname = "Cal"
 
-[trainers.23.pokemon.evs]
+[trainers.SHELLY.23.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -1966,7 +1965,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.23.pokemon]]
+[[trainers.SHELLY.23.pokemon]]
 internal_name = "YANMEGA"
 level = 83
 raw_item = "HEAVYDUTYBOOTS"
@@ -1981,7 +1980,7 @@ nature = "MODEST"
 iv = 31
 nickname = "Heather"
 
-[trainers.23.pokemon.evs]
+[trainers.SHELLY.23.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -1989,7 +1988,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.23.pokemon]]
+[[trainers.SHELLY.23.pokemon]]
 internal_name = "MOTHIM"
 level = 83
 raw_item = "MOTHIMITE"
@@ -2002,10 +2001,156 @@ raw_moves = [
 nature = "TIMID"
 iv = 31
 
-[trainers.23.pokemon.evs]
+[trainers.SHELLY.23.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
 spa = 252
 spd = 252
+spe = 0
+
+[trainers.FUTURESHELLY.0]
+raw_trainer_class = "FUTURESHELLY"
+battler_name = "Shelly"
+raw_battle_items = []
+
+[[trainers.FUTURESHELLY.0.pokemon]]
+internal_name = "MUK"
+level = 120
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "ACIDARMOR",
+    "CRUNCH",
+    "POISONJAB",
+    "POWERUPPUNCH",
+]
+ability_number = 2
+form_number = 1
+nature = "CAREFUL"
+iv = 31
+nickname = "Cain"
+
+[trainers.FUTURESHELLY.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 4
+spd = 0
+spe = 0
+
+[[trainers.FUTURESHELLY.0.pokemon]]
+internal_name = "SCIZOR"
+level = 120
+raw_item = "SCIZORITE"
+raw_moves = [
+    "SWORDSDANCE",
+    "ROOST",
+    "BULLETPUNCH",
+    "NIGHTSLASH",
+]
+ability_number = 1
+sex = "F"
+nature = "CAREFUL"
+iv = 31
+nickname = "Titania"
+
+[trainers.FUTURESHELLY.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 4
+
+[[trainers.FUTURESHELLY.0.pokemon]]
+internal_name = "YANMEGA"
+level = 120
+raw_item = "LIFEORB"
+raw_moves = [
+    "DETECT",
+    "BUGBUZZ",
+    "AIRSLASH",
+    "HIDDENPOWERDRA",
+]
+sex = "F"
+nature = "MODEST"
+iv = 31
+nickname = "Heather"
+
+[trainers.FUTURESHELLY.0.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.FUTURESHELLY.0.pokemon]]
+internal_name = "PRIMARINA"
+level = 120
+raw_item = "PRIMARIUMZ2"
+raw_moves = [
+    "SPARKLINGARIA",
+    "MOONBLAST",
+    "AMNESIA",
+    "SUBSTITUTE",
+]
+sex = ""
+nature = "MODEST"
+iv = 31
+nickname = "Adrienn"
+
+[trainers.FUTURESHELLY.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 4
+spd = 252
+spe = 0
+
+[[trainers.FUTURESHELLY.0.pokemon]]
+internal_name = "XERNEAS"
+level = 120
+raw_item = "POWERHERB"
+raw_moves = [
+    "MOONBLAST",
+    "GEOMANCY",
+    "NATUREPOWER",
+    "FOCUSBLAST",
+]
+sex = ""
+nature = "MODEST"
+iv = 31
+nickname = "Noel"
+
+[trainers.FUTURESHELLY.0.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.FUTURESHELLY.0.pokemon]]
+internal_name = "LEAVANNY"
+level = 120
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "SWORDSDANCE",
+    "SLASH",
+    "LEAFBLADE",
+    "XSCISSOR",
+]
+ability_number = 2
+sex = "F"
+nature = "JOLLY"
+iv = 31
+nickname = "Player"
+
+[trainers.FUTURESHELLY.0.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
 spe = 0

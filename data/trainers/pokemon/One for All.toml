@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "One for All"
+
+[trainers.MUSKETEER1.0]
 raw_trainer_class = "MUSKETEER1"
 battler_name = "One for All"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.MUSKETEER1.0.pokemon]]
 internal_name = "COBALION"
 level = 112
 raw_item = "SITRUSBERRY"
@@ -17,7 +19,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.MUSKETEER1.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -25,7 +27,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.MUSKETEER1.0.pokemon]]
 internal_name = "TERRAKION"
 level = 111
 raw_item = "MAGICALSEED"
@@ -39,7 +41,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.MUSKETEER1.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -47,7 +49,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.MUSKETEER1.0.pokemon]]
 internal_name = "VIRIZION"
 level = 112
 raw_item = "MAGICALSEED"
@@ -61,7 +63,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.MUSKETEER1.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252

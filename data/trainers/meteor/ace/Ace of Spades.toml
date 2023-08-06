@@ -1,11 +1,13 @@
-[trainers.0]
+trainer_name = "Ace of Spades"
+
+[trainers.ACESPADES.0]
 raw_trainer_class = "ACESPADES"
 battler_name = "Ace of Spades"
 raw_battle_items = [
     "MAXPOTION",
 ]
 
-[[trainers.0.pokemon]]
+[[trainers.ACESPADES.0.pokemon]]
 internal_name = "ROSERADE"
 level = 70
 raw_moves = [
@@ -20,7 +22,7 @@ is_shiny = true
 nature = "RASH"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.ACESPADES.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -28,7 +30,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.ACESPADES.0.pokemon]]
 internal_name = "ZOROARK"
 level = 72
 raw_item = "FOCUSSASH"
@@ -43,7 +45,7 @@ nature = "TIMID"
 iv = 31
 happiness = 255
 
-[trainers.0.pokemon.evs]
+[trainers.ACESPADES.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -51,7 +53,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.ACESPADES.0.pokemon]]
 internal_name = "DELPHOX"
 level = 72
 raw_item = "SYNTHETICSEED"
@@ -66,7 +68,7 @@ nature = "TIMID"
 iv = 31
 happiness = 255
 
-[trainers.0.pokemon.evs]
+[trainers.ACESPADES.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -74,7 +76,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.ACESPADES.0.pokemon]]
 internal_name = "NIDOQUEEN"
 level = 71
 raw_item = "WISEGLASSES"
@@ -89,7 +91,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.ACESPADES.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -97,7 +99,7 @@ spa = 0
 spd = 252
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.ACESPADES.0.pokemon]]
 internal_name = "KLINKLANG"
 level = 70
 raw_moves = [
@@ -111,7 +113,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.ACESPADES.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -119,7 +121,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.ACESPADES.0.pokemon]]
 internal_name = "METAGROSS"
 level = 72
 raw_item = "ENIGMABERRY"
@@ -134,7 +136,7 @@ is_shiny = true
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.ACESPADES.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -142,7 +144,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.20]
+[trainers.ACESPADES.20]
 raw_trainer_class = "ACESPADES"
 battler_name = "Ace of Spades"
 battler_id = 20
@@ -150,7 +152,7 @@ raw_battle_items = [
     "MAXPOTION",
 ]
 
-[[trainers.20.pokemon]]
+[[trainers.ACESPADES.20.pokemon]]
 internal_name = "CLODSIRE"
 level = 71
 raw_item = "LEFTOVERS"
@@ -165,7 +167,7 @@ sex = "F"
 nature = "CAREFUL"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.ACESPADES.20.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -173,7 +175,7 @@ spa = 0
 spd = 0
 spe = 4
 
-[[trainers.20.pokemon]]
+[[trainers.ACESPADES.20.pokemon]]
 internal_name = "ZOROARK"
 level = 72
 raw_item = "FOCUSSASH"
@@ -189,7 +191,7 @@ nature = "TIMID"
 iv = 31
 happiness = 255
 
-[trainers.20.pokemon.evs]
+[trainers.ACESPADES.20.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -197,7 +199,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.ACESPADES.20.pokemon]]
 internal_name = "DELPHOX"
 level = 72
 raw_item = "SYNTHETICSEED"
@@ -212,7 +214,7 @@ nature = "TIMID"
 iv = 31
 happiness = 255
 
-[trainers.20.pokemon.evs]
+[trainers.ACESPADES.20.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -220,7 +222,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.ACESPADES.20.pokemon]]
 internal_name = "METAGROSS"
 level = 72
 raw_item = "ENIGMABERRY"
@@ -235,7 +237,7 @@ is_shiny = true
 nature = "ADAMANT"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.ACESPADES.20.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -243,7 +245,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.ACESPADES.20.pokemon]]
 internal_name = "MEOWSCARADA"
 level = 70
 raw_moves = [
@@ -257,7 +259,7 @@ is_shiny = true
 nature = "JOLLY"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.ACESPADES.20.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -265,7 +267,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.ACESPADES.20.pokemon]]
 internal_name = "KLINKLANG"
 level = 70
 raw_moves = [
@@ -279,7 +281,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.ACESPADES.20.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252

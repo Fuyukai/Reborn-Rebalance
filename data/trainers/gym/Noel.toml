@@ -1,1157 +1,15 @@
-[trainers.0]
-raw_trainer_class = "UMBNOEL"
-battler_name = "Noel"
-raw_battle_items = []
+trainer_name = "Noel"
 
-[[trainers.0.pokemon]]
-internal_name = "RIBOMBEE"
-level = 145
-raw_item = "FOCUSSASH"
-raw_moves = [
-    "AFTERYOU",
-    "POLLENPUFF",
-    "DAZZLINGGLEAM",
-    "PSYCHUP",
-]
-ability_number = 2
-sex = ""
-nature = "TIMID"
-iv = 31
-
-[trainers.0.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 252
-spa = 252
-spd = 252
-spe = 252
-
-[[trainers.0.pokemon]]
-internal_name = "GIRATINA"
-level = 145
-raw_item = "GRISEOUSORB"
-raw_moves = [
-    "PSYCHUP",
-    "HEX",
-    "DRACOMETEOR",
-    "WILLOWISP",
-]
-sex = ""
-form_number = 1
-nature = "TIMID"
-iv = 31
-
-[trainers.0.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 252
-spa = 252
-spd = 252
-spe = 252
-
-[[trainers.0.pokemon]]
-internal_name = "TAPULELE"
-level = 145
-raw_item = "LUMBERRY"
-raw_moves = [
-    "PSYSHOCK",
-    "DRAININGKISS",
-    "PSYCHUP",
-    "FOCUSBLAST",
-]
-sex = ""
-nature = "TIMID"
-iv = 31
-
-[trainers.0.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 252
-spa = 252
-spd = 252
-spe = 252
-
-[[trainers.0.pokemon]]
-internal_name = "MEW"
-level = 145
-raw_item = "MEWNIUMZ2"
-raw_moves = [
-    "PSYCHIC",
-    "PSYCHUP",
-    "FROSTBREATH",
-    "HEALPULSE",
-]
-sex = ""
-nature = "TIMID"
-iv = 31
-
-[trainers.0.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 252
-spa = 252
-spd = 252
-spe = 252
-
-[[trainers.0.pokemon]]
-internal_name = "SYLVEON"
-level = 145
-raw_item = "LEFTOVERS"
-raw_moves = [
-    "WISH",
-    "PSYCHUP",
-    "SWIFT",
-    "PSYSHOCK",
-]
-ability_number = 2
-sex = ""
-nature = "CALM"
-iv = 31
-
-[trainers.0.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 252
-spa = 252
-spd = 252
-spe = 252
-
-[[trainers.0.pokemon]]
-internal_name = "CLEFABLE"
-level = 145
-raw_item = "LIFEORB"
-raw_moves = [
-    "MOONBLAST",
-    "SOFTBOILED",
-    "PSYCHUP",
-    "FIREBLAST",
-]
-ability_number = 1
-sex = ""
-nature = "TIMID"
-iv = 31
-
-[trainers.0.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 252
-spa = 252
-spd = 252
-spe = 252
-
-[trainers.1]
-raw_trainer_class = "NOEL2"
-battler_name = "Noel"
-battler_id = 1
-raw_battle_items = []
-
-[[trainers.1.pokemon]]
-internal_name = "PURUGLY"
-level = 125
-raw_item = "MAGICALSEED"
-raw_moves = [
-    "HYPERVOICE",
-    "SHADOWBALL",
-    "DREAMEATER",
-    "HYPNOSIS",
-]
-ability_number = 1
-sex = ""
-nature = "TIMID"
-iv = 15
-
-[trainers.1.pokemon.evs]
-hp = 0
-atk = 4
-def_ = 0
-spa = 0
-spd = 252
-spe = 128
-
-[[trainers.1.pokemon]]
-internal_name = "LICKILICKY"
-level = 125
-raw_item = "MAGICALSEED"
-raw_moves = [
-    "BLIZZARD",
-    "FLAMETHROWER",
-    "MUDDYWATER",
-    "THUNDERBOLT",
-]
-sex = ""
-nature = "MODEST"
-iv = 15
-
-[trainers.1.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 0
-spa = 0
-spd = 252
-spe = 4
-
-[[trainers.1.pokemon]]
-internal_name = "PORYGONZ"
-level = 125
-raw_item = "NORMALIUMZ2"
-raw_moves = [
-    "PSYSHOCK",
-    "BLIZZARD",
-    "DARKPULSE",
-    "CONVERSION",
-]
-ability_number = 1
-sex = ""
-nature = "TIMID"
-iv = 15
-
-[trainers.1.pokemon.evs]
-hp = 0
-atk = 4
-def_ = 0
-spa = 252
-spd = 252
-spe = 0
-
-[[trainers.1.pokemon]]
-internal_name = "MELOETTA"
-level = 125
-raw_item = "CHOICEBAND"
-raw_moves = [
-    "CLOSECOMBAT",
-    "SECRETPOWER",
-    "ZENHEADBUTT",
-    "KNOCKOFF",
-]
-sex = ""
-form_number = 1
-nature = "ADAMANT"
-iv = 15
-
-[trainers.1.pokemon.evs]
-hp = 0
-atk = 4
-def_ = 252
-spa = 252
-spd = 0
-spe = 0
-
-[[trainers.1.pokemon]]
-internal_name = "AUDINO"
-level = 125
-raw_item = "AUDINITE"
-raw_moves = [
-    "HYPERVOICE",
-    "BLIZZARD",
-    "DAZZLINGGLEAM",
-    "CALMMIND",
-]
-ability_number = 1
-sex = ""
-nature = "MODEST"
-iv = 15
-
-[trainers.1.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 0
-spa = 0
-spd = 252
-spe = 4
-
-[[trainers.1.pokemon]]
-internal_name = "CLEFABLE"
-level = 125
-raw_item = "LEFTOVERS"
-raw_moves = [
-    "MOONBLAST",
-    "SOFTBOILED",
-    "PSYCHUP",
-    "PSYSHOCK",
-]
-sex = ""
-nature = "BOLD"
-iv = 15
-
-[trainers.1.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 0
-spa = 0
-spd = 252
-spe = 0
-
-[trainers.10]
-raw_trainer_class = "NOEL2"
-battler_name = "Noel"
-battler_id = 10
-raw_battle_items = []
-
-[[trainers.10.pokemon]]
-internal_name = "PYROAR"
-level = 100
-raw_item = "MAGICALSEED"
-raw_moves = [
-    "FLAMETHROWER",
-    "HYPERVOICE",
-    "SOLARBEAM",
-    "SUNNYDAY",
-]
-sex = ""
-nature = "TIMID"
-iv = 31
-
-[trainers.10.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 0
-
-[[trainers.10.pokemon]]
-internal_name = "PORYGONZ"
-level = 100
-raw_item = "NORMALIUMZ2"
-raw_moves = [
-    "PSYCHIC",
-    "CONVERSION",
-    "TRIATTACK",
-    "ICEBEAM",
-]
-sex = ""
-nature = "TIMID"
-iv = 31
-
-[trainers.10.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 0
-
-[[trainers.10.pokemon]]
-internal_name = "CHANSEY"
-level = 100
-raw_item = "EVIOLITE"
-raw_moves = [
-    "TOXIC",
-    "SOFTBOILED",
-    "SEISMICTOSS",
-    "AROMATHERAPY",
-]
-sex = ""
-nature = "BOLD"
-iv = 31
-
-[trainers.10.pokemon.evs]
-hp = 0
-atk = 4
-def_ = 0
-spa = 0
-spd = 0
-spe = 252
-
-[[trainers.10.pokemon]]
-internal_name = "PIDGEOT"
-level = 100
-raw_item = "PIDGEOTITE"
-raw_moves = [
-    "HURRICANE",
-    "UPROAR",
-    "ROOST",
-    "HEATWAVE",
-]
-sex = ""
-nature = "TIMID"
-iv = 31
-
-[trainers.10.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 0
-
-[[trainers.10.pokemon]]
-internal_name = "MELOETTA"
-level = 100
-raw_item = "MAGICALSEED"
-raw_moves = [
-    "HYPERVOICE",
-    "PSYSHOCK",
-    "DAZZLINGGLEAM",
-    "ENERGYBALL",
-]
-sex = ""
-nature = "MODEST"
-iv = 31
-
-[trainers.10.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 0
-
-[[trainers.10.pokemon]]
-internal_name = "HELIOLISK"
-level = 100
-raw_item = "CHOICESPECS"
-raw_moves = [
-    "VOLTSWITCH",
-    "HYPERVOICE",
-    "SURF",
-    "DRAGONPULSE",
-]
-ability_number = 2
-sex = ""
-nature = "TIMID"
-iv = 31
-
-[trainers.10.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 4
-
-[trainers.11]
-raw_trainer_class = "NOEL2"
-battler_name = "Noel"
-battler_id = 11
-raw_battle_items = []
-
-[[trainers.11.pokemon]]
-internal_name = "PORYGONZ"
-level = 100
-raw_item = "NORMALIUMZ2"
-raw_moves = [
-    "PSYCHIC",
-    "CONVERSION",
-    "TRIATTACK",
-    "ICEBEAM",
-]
-sex = ""
-nature = "TIMID"
-iv = 31
-
-[trainers.11.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 0
-
-[[trainers.11.pokemon]]
-internal_name = "CHANSEY"
-level = 100
-raw_item = "EVIOLITE"
-raw_moves = [
-    "TOXIC",
-    "SOFTBOILED",
-    "SEISMICTOSS",
-    "AROMATHERAPY",
-]
-sex = ""
-nature = "BOLD"
-iv = 31
-
-[trainers.11.pokemon.evs]
-hp = 0
-atk = 4
-def_ = 0
-spa = 0
-spd = 0
-spe = 252
-
-[[trainers.11.pokemon]]
-internal_name = "PIDGEOT"
-level = 100
-raw_item = "PIDGEOTITE"
-raw_moves = [
-    "HURRICANE",
-    "UPROAR",
-    "ROOST",
-    "HEATWAVE",
-]
-sex = ""
-nature = "TIMID"
-iv = 31
-
-[trainers.11.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 0
-
-[[trainers.11.pokemon]]
-internal_name = "MELOETTA"
-level = 100
-raw_item = "MAGICALSEED"
-raw_moves = [
-    "HYPERVOICE",
-    "PSYSHOCK",
-    "DAZZLINGGLEAM",
-    "ENERGYBALL",
-]
-sex = ""
-nature = "MODEST"
-iv = 31
-
-[trainers.11.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 0
-
-[[trainers.11.pokemon]]
-internal_name = "PYROAR"
-level = 100
-raw_item = "MAGICALSEED"
-raw_moves = [
-    "FLAMETHROWER",
-    "HYPERVOICE",
-    "TAUNT",
-    "TOXIC",
-]
-sex = ""
-nature = "TIMID"
-iv = 31
-
-[trainers.11.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 0
-
-[[trainers.11.pokemon]]
-internal_name = "CLEFABLE"
-level = 100
-raw_item = "LEFTOVERS"
-raw_moves = [
-    "MOONBLAST",
-    "PROTECT",
-    "WISH",
-    "AROMATHERAPY",
-]
-ability_number = 2
-sex = ""
-nature = "BOLD"
-iv = 31
-
-[trainers.11.pokemon.evs]
-hp = 0
-atk = 4
-def_ = 0
-spa = 0
-spd = 0
-spe = 252
-
-[trainers.12]
-raw_trainer_class = "NOEL2"
-battler_name = "Noel"
-battler_id = 12
-raw_battle_items = []
-
-[[trainers.12.pokemon]]
-internal_name = "CINCCINO"
-level = 100
-raw_item = "CHOICESCARF"
-raw_moves = [
-    "TAILSLAP",
-    "BULLETSEED",
-    "ROCKBLAST",
-    "KNOCKOFF",
-]
-ability_number = 2
-sex = ""
-nature = "ADAMANT"
-iv = 31
-
-[trainers.12.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 252
-spa = 252
-spd = 0
-spe = 0
-
-[[trainers.12.pokemon]]
-internal_name = "REGIGIGAS"
-level = 100
-raw_item = "MAGICALSEED"
-raw_moves = [
-    "THUNDERPUNCH",
-    "DRAINPUNCH",
-    "RETURN",
-    "KNOCKOFF",
-]
-sex = ""
-nature = "ADAMANT"
-iv = 31
-
-[trainers.12.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 252
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.12.pokemon]]
-internal_name = "MELOETTA"
-level = 100
-raw_item = "MAGICALSEED"
-raw_moves = [
-    "HYPERVOICE",
-    "ENERGYBALL",
-    "PSYCHIC",
-    "FOCUSBLAST",
-]
-sex = ""
-nature = "MODEST"
-iv = 31
-
-[trainers.12.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 0
-
-[[trainers.12.pokemon]]
-internal_name = "BEWEAR"
-level = 100
-raw_item = "CHOICEBAND"
-raw_moves = [
-    "DOUBLEEDGE",
-    "HAMMERARM",
-    "THUNDERPUNCH",
-    "IRONHEAD",
-]
-sex = ""
-nature = "ADAMANT"
-iv = 31
-
-[trainers.12.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 252
-spa = 252
-spd = 0
-spe = 0
-
-[[trainers.12.pokemon]]
-internal_name = "STARAPTOR"
-level = 100
-raw_item = "CHOICESCARF"
-raw_moves = [
-    "UTURN",
-    "BRAVEBIRD",
-    "DOUBLEEDGE",
-    "CLOSECOMBAT",
-]
-ability_number = 1
-sex = ""
-nature = "ADAMANT"
-iv = 31
-
-[trainers.12.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 252
-spa = 252
-spd = 0
-spe = 0
-
-[[trainers.12.pokemon]]
-internal_name = "LOPUNNY"
-level = 100
-raw_item = "LOPUNNITE"
-raw_moves = [
-    "FAKEOUT",
-    "HIJUMPKICK",
-    "QUICKATTACK",
-    "RETURN",
-]
-sex = ""
-nature = "JOLLY"
-iv = 31
-
-[trainers.12.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 252
-spa = 252
-spd = 0
-spe = 0
-
-[trainers.13]
-raw_trainer_class = "NOEL2"
-battler_name = "Noel"
-battler_id = 13
-raw_battle_items = []
-
-[[trainers.13.pokemon]]
-internal_name = "STARAPTOR"
-level = 100
-raw_item = "LIFEORB"
-raw_moves = [
-    "UTURN",
-    "BRAVEBIRD",
-    "GIGAIMPACT",
-    "CLOSECOMBAT",
-]
-ability_number = 1
-sex = ""
-nature = "ADAMANT"
-iv = 31
-
-[trainers.13.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 252
-spa = 252
-spd = 0
-spe = 0
-
-[[trainers.13.pokemon]]
-internal_name = "LOPUNNY"
-level = 100
-raw_item = "LOPUNNITE"
-raw_moves = [
-    "FAKEOUT",
-    "HIJUMPKICK",
-    "QUICKATTACK",
-    "GIGAIMPACT",
-]
-sex = ""
-nature = "JOLLY"
-iv = 31
-
-[trainers.13.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 252
-spa = 252
-spd = 0
-spe = 0
-
-[[trainers.13.pokemon]]
-internal_name = "CINCCINO"
-level = 100
-raw_item = "CHOICESCARF"
-raw_moves = [
-    "TAILSLAP",
-    "GIGAIMPACT",
-    "ROCKBLAST",
-    "KNOCKOFF",
-]
-ability_number = 2
-sex = ""
-nature = "ADAMANT"
-iv = 31
-
-[trainers.13.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 252
-spa = 252
-spd = 0
-spe = 0
-
-[[trainers.13.pokemon]]
-internal_name = "DODRIO"
-level = 100
-raw_item = "LIFEORB"
-raw_moves = [
-    "BRAVEBIRD",
-    "SWORDSDANCE",
-    "JUMPKICK",
-    "GIGAIMPACT",
-]
-sex = ""
-nature = "ADAMANT"
-iv = 31
-
-[trainers.13.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 252
-spa = 252
-spd = 0
-spe = 0
-
-[[trainers.13.pokemon]]
-internal_name = "SAWSBUCK"
-level = 100
-raw_item = "LIFEORB"
-raw_moves = [
-    "SWORDSDANCE",
-    "GIGAIMPACT",
-    "MEGAHORN",
-    "JUMPKICK",
-]
-sex = ""
-nature = "ADAMANT"
-iv = 31
-
-[trainers.13.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 252
-spa = 252
-spd = 0
-spe = 0
-
-[[trainers.13.pokemon]]
-internal_name = "SWELLOW"
-level = 100
-raw_item = "LIFEORB"
-raw_moves = [
-    "UTURN",
-    "BOOMBURST",
-    "GIGAIMPACT",
-    "AIRSLASH",
-]
-ability_number = 1
-sex = ""
-nature = "ADAMANT"
-iv = 31
-
-[trainers.13.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 252
-spa = 252
-spd = 0
-spe = 0
-
-[trainers.14]
-raw_trainer_class = "NOEL2"
-battler_name = "Noel"
-battler_id = 14
-raw_battle_items = []
-
-[[trainers.14.pokemon]]
-internal_name = "SMEARGLE"
-level = 100
-raw_item = "FOCUSSASH"
-raw_moves = [
-    "ENTRAINMENT",
-    "SPORE",
-    "STICKYWEB",
-    "STEALTHROCK",
-]
-sex = ""
-nature = "JOLLY"
-iv = 31
-
-[trainers.14.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 0
-spa = 252
-spd = 0
-spe = 0
-
-[[trainers.14.pokemon]]
-internal_name = "SLAKING"
-level = 100
-raw_item = "LIFEORB"
-raw_moves = [
-    "SUCKERPUNCH",
-    "RETURN",
-    "GUNKSHOT",
-    "ROCKSLIDE",
-]
-sex = ""
-nature = "ADAMANT"
-iv = 31
-
-[trainers.14.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 252
-spa = 252
-spd = 0
-spe = 0
-
-[[trainers.14.pokemon]]
-internal_name = "REGIGIGAS"
-level = 100
-raw_item = "MAGICALSEED"
-raw_moves = [
-    "DRAINPUNCH",
-    "RETURN",
-    "STONEEDGE",
-    "KNOCKOFF",
-]
-sex = ""
-nature = "ADAMANT"
-iv = 31
-
-[trainers.14.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 252
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.14.pokemon]]
-internal_name = "PORYGONZ"
-level = 100
-raw_item = "NORMALIUMZ2"
-raw_moves = [
-    "BLIZZARD",
-    "CONVERSION",
-    "RECOVER",
-    "SIGNALBEAM",
-]
-sex = ""
-nature = "TIMID"
-iv = 31
-
-[trainers.14.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 0
-
-[[trainers.14.pokemon]]
-internal_name = "LOPUNNY"
-level = 100
-raw_item = "LOPUNNITE"
-raw_moves = [
-    "ENTRAINMENT",
-    "FAKEOUT",
-    "HIJUMPKICK",
-    "RETURN",
-]
-sex = ""
-nature = "JOLLY"
-iv = 31
-
-[trainers.14.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 252
-spa = 252
-spd = 0
-spe = 0
-
-[[trainers.14.pokemon]]
-internal_name = "PYROAR"
-level = 100
-raw_item = "LIFEORB"
-raw_moves = [
-    "HEATWAVE",
-    "SNARL",
-    "ENTRAINMENT",
-    "HYPERVOICE",
-]
-ability_number = 2
-sex = ""
-nature = "TIMID"
-iv = 31
-
-[trainers.14.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 0
-
-[trainers.15]
-raw_trainer_class = "NOEL2"
-battler_name = "Noel"
-battler_id = 15
-raw_battle_items = []
-
-[[trainers.15.pokemon]]
-internal_name = "PORYGONZ"
-level = 100
-raw_item = "MAGICALSEED"
-raw_moves = [
-    "RECOVER",
-    "NASTYPLOT",
-    "TRIATTACK",
-    "HIDDENPOWERGHO",
-]
-sex = ""
-nature = "TIMID"
-iv = 31
-
-[trainers.15.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 0
-
-[[trainers.15.pokemon]]
-internal_name = "DRAMPA"
-level = 100
-raw_item = "MAGICALSEED"
-raw_moves = [
-    "DRAGONPULSE",
-    "HYPERVOICE",
-    "HIDDENPOWERFIG",
-    "FLAMETHROWER",
-]
-ability_number = 2
-sex = ""
-nature = "MODEST"
-iv = 31
-
-[trainers.15.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 0
-spa = 0
-spd = 252
-spe = 0
-
-[[trainers.15.pokemon]]
-internal_name = "MELOETTA"
-level = 100
-raw_item = "MAGICALSEED"
-raw_moves = [
-    "PSYCHIC",
-    "HYPERVOICE",
-    "HIDDENPOWERGRO",
-    "DAZZLINGGLEAM",
-]
-sex = ""
-nature = "MODEST"
-iv = 31
-
-[trainers.15.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 252
-spd = 252
-spe = 0
-
-[[trainers.15.pokemon]]
-internal_name = "BLISSEY"
-level = 100
-raw_item = "MAGICALSEED"
-raw_moves = [
-    "TRIATTACK",
-    "TOXIC",
-    "SOFTBOILED",
-    "STEALTHROCK",
-]
-sex = ""
-nature = "BOLD"
-iv = 31
-
-[trainers.15.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 4
-spe = 252
-
-[[trainers.15.pokemon]]
-internal_name = "AUDINO"
-level = 100
-raw_item = "AUDINITE"
-raw_moves = [
-    "WISH",
-    "PROTECT",
-    "TOXIC",
-    "HYPERVOICE",
-]
-sex = ""
-nature = "BOLD"
-iv = 31
-
-[trainers.15.pokemon.evs]
-hp = 0
-atk = 4
-def_ = 0
-spa = 0
-spd = 0
-spe = 252
-
-[[trainers.15.pokemon]]
-internal_name = "LICKILICKY"
-level = 100
-raw_item = "MAGICALSEED"
-raw_moves = [
-    "WISH",
-    "PROTECT",
-    "TOXIC",
-    "HYPERVOICE",
-]
-ability_number = 2
-sex = ""
-nature = "BOLD"
-iv = 31
-
-[trainers.15.pokemon.evs]
-hp = 0
-atk = 4
-def_ = 0
-spa = 0
-spd = 0
-spe = 252
-
-[trainers.20]
+[trainers.NOEL.0]
 raw_trainer_class = "NOEL"
 battler_name = "Noel"
-battler_id = 20
 raw_battle_items = [
     "HYPERPOTION",
     "HYPERPOTION",
     "HYPERPOTION",
 ]
 
-[[trainers.20.pokemon]]
-internal_name = "CYCLIZAR"
-level = 54
-raw_item = "LEFTOVERS"
-raw_moves = [
-    "SHEDTAIL",
-    "DOUBLEEDGE",
-    "POWERWHIP",
-    "DRAGONCLAW",
-]
-ability_number = 1
-nature = "JOLLY"
-iv = 31
-
-[trainers.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.20.pokemon]]
+[[trainers.NOEL.0.pokemon]]
 internal_name = "CINCCINO"
 level = 54
 raw_item = "KINGSROCK"
@@ -1166,7 +24,7 @@ sex = "F"
 nature = "ADAMANT"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.NOEL.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1174,7 +32,172 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.NOEL.0.pokemon]]
+internal_name = "PORYGONZ"
+level = 54
+raw_item = "ELEMENTALSEED"
+raw_moves = [
+    "NASTYPLOT",
+    "PSYCHIC",
+    "HIDDENPOWERFIR",
+    "TRIATTACK",
+]
+ability_number = 1
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.NOEL.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.NOEL.0.pokemon]]
+internal_name = "BEWEAR"
+level = 54
+raw_item = "MUSCLEBAND"
+raw_moves = [
+    "HAMMERARM",
+    "ZENHEADBUTT",
+    "STOMPINGTANTRUM",
+    "ICEPUNCH",
+]
+nature = "ADAMANT"
+iv = 31
+happiness = 255
+
+[trainers.NOEL.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.NOEL.0.pokemon]]
+internal_name = "GIRAFARIG"
+level = 54
+raw_item = "TWISTEDSPOON"
+raw_moves = [
+    "PSYCHIC",
+    "THUNDERBOLT",
+    "THUNDERWAVE",
+    "HIDDENPOWERFIR",
+]
+ability_number = 2
+nature = "TIMID"
+iv = 31
+
+[trainers.NOEL.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.NOEL.0.pokemon]]
+internal_name = "SWELLOW"
+level = 54
+raw_item = "FLAMEORB"
+raw_moves = [
+    "UTURN",
+    "BRAVEBIRD",
+    "STEELWING",
+    "FACADE",
+]
+nature = "JOLLY"
+iv = 31
+
+[trainers.NOEL.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.NOEL.0.pokemon]]
+internal_name = "CLEFABLE"
+level = 55
+raw_item = "ELEMENTALSEED"
+raw_moves = [
+    "MOONBLAST",
+    "CALMMIND",
+    "SOFTBOILED",
+    "STOREDPOWER",
+]
+ability_number = 1
+nature = "CALM"
+iv = 31
+
+[trainers.NOEL.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 52
+spe = 204
+
+[trainers.NOEL.20]
+raw_trainer_class = "NOEL"
+battler_name = "Noel"
+battler_id = 20
+raw_battle_items = [
+    "HYPERPOTION",
+    "HYPERPOTION",
+    "HYPERPOTION",
+]
+
+[[trainers.NOEL.20.pokemon]]
+internal_name = "CYCLIZAR"
+level = 54
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "SHEDTAIL",
+    "DOUBLEEDGE",
+    "POWERWHIP",
+    "DRAGONCLAW",
+]
+ability_number = 1
+nature = "JOLLY"
+iv = 31
+
+[trainers.NOEL.20.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.NOEL.20.pokemon]]
+internal_name = "CINCCINO"
+level = 54
+raw_item = "KINGSROCK"
+raw_moves = [
+    "TAILSLAP",
+    "UTURN",
+    "ROCKBLAST",
+    "BULLETSEED",
+]
+ability_number = 2
+sex = "F"
+nature = "ADAMANT"
+iv = 31
+
+[trainers.NOEL.20.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.NOEL.20.pokemon]]
 internal_name = "MAUSHOLD"
 level = 54
 raw_item = "WIDELENS"
@@ -1189,7 +212,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.NOEL.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1197,7 +220,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.NOEL.20.pokemon]]
 internal_name = "DUBWOOL"
 level = 54
 raw_item = "ELEMENTALSEED"
@@ -1211,7 +234,7 @@ nature = "ADAMANT"
 iv = 31
 happiness = 255
 
-[trainers.20.pokemon.evs]
+[trainers.NOEL.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1219,7 +242,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.NOEL.20.pokemon]]
 internal_name = "FARIGIRAF"
 level = 54
 raw_item = "TWISTEDSPOON"
@@ -1233,7 +256,7 @@ ability_number = 2
 nature = "MODEST"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.NOEL.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -1241,7 +264,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.20.pokemon]]
+[[trainers.NOEL.20.pokemon]]
 internal_name = "CLEFABLE"
 level = 55
 raw_item = "ELEMENTALSEED"
@@ -1255,10 +278,1131 @@ ability_number = 1
 nature = "CALM"
 iv = 31
 
-[trainers.20.pokemon.evs]
+[trainers.NOEL.20.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
 spa = 0
 spd = 52
 spe = 204
+
+[trainers.NOEL2.1]
+raw_trainer_class = "NOEL2"
+battler_name = "Noel"
+battler_id = 1
+raw_battle_items = []
+
+[[trainers.NOEL2.1.pokemon]]
+internal_name = "PURUGLY"
+level = 125
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "HYPERVOICE",
+    "SHADOWBALL",
+    "DREAMEATER",
+    "HYPNOSIS",
+]
+ability_number = 1
+sex = ""
+nature = "TIMID"
+iv = 15
+
+[trainers.NOEL2.1.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 0
+spd = 252
+spe = 128
+
+[[trainers.NOEL2.1.pokemon]]
+internal_name = "LICKILICKY"
+level = 125
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "BLIZZARD",
+    "FLAMETHROWER",
+    "MUDDYWATER",
+    "THUNDERBOLT",
+]
+sex = ""
+nature = "MODEST"
+iv = 15
+
+[trainers.NOEL2.1.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 252
+spe = 4
+
+[[trainers.NOEL2.1.pokemon]]
+internal_name = "PORYGONZ"
+level = 125
+raw_item = "NORMALIUMZ2"
+raw_moves = [
+    "PSYSHOCK",
+    "BLIZZARD",
+    "DARKPULSE",
+    "CONVERSION",
+]
+ability_number = 1
+sex = ""
+nature = "TIMID"
+iv = 15
+
+[trainers.NOEL2.1.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.NOEL2.1.pokemon]]
+internal_name = "MELOETTA"
+level = 125
+raw_item = "CHOICEBAND"
+raw_moves = [
+    "CLOSECOMBAT",
+    "SECRETPOWER",
+    "ZENHEADBUTT",
+    "KNOCKOFF",
+]
+sex = ""
+form_number = 1
+nature = "ADAMANT"
+iv = 15
+
+[trainers.NOEL2.1.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.NOEL2.1.pokemon]]
+internal_name = "AUDINO"
+level = 125
+raw_item = "AUDINITE"
+raw_moves = [
+    "HYPERVOICE",
+    "BLIZZARD",
+    "DAZZLINGGLEAM",
+    "CALMMIND",
+]
+ability_number = 1
+sex = ""
+nature = "MODEST"
+iv = 15
+
+[trainers.NOEL2.1.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 252
+spe = 4
+
+[[trainers.NOEL2.1.pokemon]]
+internal_name = "CLEFABLE"
+level = 125
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "MOONBLAST",
+    "SOFTBOILED",
+    "PSYCHUP",
+    "PSYSHOCK",
+]
+sex = ""
+nature = "BOLD"
+iv = 15
+
+[trainers.NOEL2.1.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 252
+spe = 0
+
+[trainers.NOEL2.10]
+raw_trainer_class = "NOEL2"
+battler_name = "Noel"
+battler_id = 10
+raw_battle_items = []
+
+[[trainers.NOEL2.10.pokemon]]
+internal_name = "PYROAR"
+level = 100
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "FLAMETHROWER",
+    "HYPERVOICE",
+    "SOLARBEAM",
+    "SUNNYDAY",
+]
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.NOEL2.10.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.NOEL2.10.pokemon]]
+internal_name = "PORYGONZ"
+level = 100
+raw_item = "NORMALIUMZ2"
+raw_moves = [
+    "PSYCHIC",
+    "CONVERSION",
+    "TRIATTACK",
+    "ICEBEAM",
+]
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.NOEL2.10.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.NOEL2.10.pokemon]]
+internal_name = "CHANSEY"
+level = 100
+raw_item = "EVIOLITE"
+raw_moves = [
+    "TOXIC",
+    "SOFTBOILED",
+    "SEISMICTOSS",
+    "AROMATHERAPY",
+]
+sex = ""
+nature = "BOLD"
+iv = 31
+
+[trainers.NOEL2.10.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 0
+spd = 0
+spe = 252
+
+[[trainers.NOEL2.10.pokemon]]
+internal_name = "PIDGEOT"
+level = 100
+raw_item = "PIDGEOTITE"
+raw_moves = [
+    "HURRICANE",
+    "UPROAR",
+    "ROOST",
+    "HEATWAVE",
+]
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.NOEL2.10.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.NOEL2.10.pokemon]]
+internal_name = "MELOETTA"
+level = 100
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "HYPERVOICE",
+    "PSYSHOCK",
+    "DAZZLINGGLEAM",
+    "ENERGYBALL",
+]
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.NOEL2.10.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.NOEL2.10.pokemon]]
+internal_name = "HELIOLISK"
+level = 100
+raw_item = "CHOICESPECS"
+raw_moves = [
+    "VOLTSWITCH",
+    "HYPERVOICE",
+    "SURF",
+    "DRAGONPULSE",
+]
+ability_number = 2
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.NOEL2.10.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 4
+
+[trainers.NOEL2.11]
+raw_trainer_class = "NOEL2"
+battler_name = "Noel"
+battler_id = 11
+raw_battle_items = []
+
+[[trainers.NOEL2.11.pokemon]]
+internal_name = "PORYGONZ"
+level = 100
+raw_item = "NORMALIUMZ2"
+raw_moves = [
+    "PSYCHIC",
+    "CONVERSION",
+    "TRIATTACK",
+    "ICEBEAM",
+]
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.NOEL2.11.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.NOEL2.11.pokemon]]
+internal_name = "CHANSEY"
+level = 100
+raw_item = "EVIOLITE"
+raw_moves = [
+    "TOXIC",
+    "SOFTBOILED",
+    "SEISMICTOSS",
+    "AROMATHERAPY",
+]
+sex = ""
+nature = "BOLD"
+iv = 31
+
+[trainers.NOEL2.11.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 0
+spd = 0
+spe = 252
+
+[[trainers.NOEL2.11.pokemon]]
+internal_name = "PIDGEOT"
+level = 100
+raw_item = "PIDGEOTITE"
+raw_moves = [
+    "HURRICANE",
+    "UPROAR",
+    "ROOST",
+    "HEATWAVE",
+]
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.NOEL2.11.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.NOEL2.11.pokemon]]
+internal_name = "MELOETTA"
+level = 100
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "HYPERVOICE",
+    "PSYSHOCK",
+    "DAZZLINGGLEAM",
+    "ENERGYBALL",
+]
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.NOEL2.11.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.NOEL2.11.pokemon]]
+internal_name = "PYROAR"
+level = 100
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "FLAMETHROWER",
+    "HYPERVOICE",
+    "TAUNT",
+    "TOXIC",
+]
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.NOEL2.11.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.NOEL2.11.pokemon]]
+internal_name = "CLEFABLE"
+level = 100
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "MOONBLAST",
+    "PROTECT",
+    "WISH",
+    "AROMATHERAPY",
+]
+ability_number = 2
+sex = ""
+nature = "BOLD"
+iv = 31
+
+[trainers.NOEL2.11.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 0
+spd = 0
+spe = 252
+
+[trainers.NOEL2.12]
+raw_trainer_class = "NOEL2"
+battler_name = "Noel"
+battler_id = 12
+raw_battle_items = []
+
+[[trainers.NOEL2.12.pokemon]]
+internal_name = "CINCCINO"
+level = 100
+raw_item = "CHOICESCARF"
+raw_moves = [
+    "TAILSLAP",
+    "BULLETSEED",
+    "ROCKBLAST",
+    "KNOCKOFF",
+]
+ability_number = 2
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.NOEL2.12.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.NOEL2.12.pokemon]]
+internal_name = "REGIGIGAS"
+level = 100
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "THUNDERPUNCH",
+    "DRAINPUNCH",
+    "RETURN",
+    "KNOCKOFF",
+]
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.NOEL2.12.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.NOEL2.12.pokemon]]
+internal_name = "MELOETTA"
+level = 100
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "HYPERVOICE",
+    "ENERGYBALL",
+    "PSYCHIC",
+    "FOCUSBLAST",
+]
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.NOEL2.12.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.NOEL2.12.pokemon]]
+internal_name = "BEWEAR"
+level = 100
+raw_item = "CHOICEBAND"
+raw_moves = [
+    "DOUBLEEDGE",
+    "HAMMERARM",
+    "THUNDERPUNCH",
+    "IRONHEAD",
+]
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.NOEL2.12.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.NOEL2.12.pokemon]]
+internal_name = "STARAPTOR"
+level = 100
+raw_item = "CHOICESCARF"
+raw_moves = [
+    "UTURN",
+    "BRAVEBIRD",
+    "DOUBLEEDGE",
+    "CLOSECOMBAT",
+]
+ability_number = 1
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.NOEL2.12.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.NOEL2.12.pokemon]]
+internal_name = "LOPUNNY"
+level = 100
+raw_item = "LOPUNNITE"
+raw_moves = [
+    "FAKEOUT",
+    "HIJUMPKICK",
+    "QUICKATTACK",
+    "RETURN",
+]
+sex = ""
+nature = "JOLLY"
+iv = 31
+
+[trainers.NOEL2.12.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[trainers.NOEL2.13]
+raw_trainer_class = "NOEL2"
+battler_name = "Noel"
+battler_id = 13
+raw_battle_items = []
+
+[[trainers.NOEL2.13.pokemon]]
+internal_name = "STARAPTOR"
+level = 100
+raw_item = "LIFEORB"
+raw_moves = [
+    "UTURN",
+    "BRAVEBIRD",
+    "GIGAIMPACT",
+    "CLOSECOMBAT",
+]
+ability_number = 1
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.NOEL2.13.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.NOEL2.13.pokemon]]
+internal_name = "LOPUNNY"
+level = 100
+raw_item = "LOPUNNITE"
+raw_moves = [
+    "FAKEOUT",
+    "HIJUMPKICK",
+    "QUICKATTACK",
+    "GIGAIMPACT",
+]
+sex = ""
+nature = "JOLLY"
+iv = 31
+
+[trainers.NOEL2.13.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.NOEL2.13.pokemon]]
+internal_name = "CINCCINO"
+level = 100
+raw_item = "CHOICESCARF"
+raw_moves = [
+    "TAILSLAP",
+    "GIGAIMPACT",
+    "ROCKBLAST",
+    "KNOCKOFF",
+]
+ability_number = 2
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.NOEL2.13.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.NOEL2.13.pokemon]]
+internal_name = "DODRIO"
+level = 100
+raw_item = "LIFEORB"
+raw_moves = [
+    "BRAVEBIRD",
+    "SWORDSDANCE",
+    "JUMPKICK",
+    "GIGAIMPACT",
+]
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.NOEL2.13.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.NOEL2.13.pokemon]]
+internal_name = "SAWSBUCK"
+level = 100
+raw_item = "LIFEORB"
+raw_moves = [
+    "SWORDSDANCE",
+    "GIGAIMPACT",
+    "MEGAHORN",
+    "JUMPKICK",
+]
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.NOEL2.13.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.NOEL2.13.pokemon]]
+internal_name = "SWELLOW"
+level = 100
+raw_item = "LIFEORB"
+raw_moves = [
+    "UTURN",
+    "BOOMBURST",
+    "GIGAIMPACT",
+    "AIRSLASH",
+]
+ability_number = 1
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.NOEL2.13.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[trainers.NOEL2.14]
+raw_trainer_class = "NOEL2"
+battler_name = "Noel"
+battler_id = 14
+raw_battle_items = []
+
+[[trainers.NOEL2.14.pokemon]]
+internal_name = "SMEARGLE"
+level = 100
+raw_item = "FOCUSSASH"
+raw_moves = [
+    "ENTRAINMENT",
+    "SPORE",
+    "STICKYWEB",
+    "STEALTHROCK",
+]
+sex = ""
+nature = "JOLLY"
+iv = 31
+
+[trainers.NOEL2.14.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.NOEL2.14.pokemon]]
+internal_name = "SLAKING"
+level = 100
+raw_item = "LIFEORB"
+raw_moves = [
+    "SUCKERPUNCH",
+    "RETURN",
+    "GUNKSHOT",
+    "ROCKSLIDE",
+]
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.NOEL2.14.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.NOEL2.14.pokemon]]
+internal_name = "REGIGIGAS"
+level = 100
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "DRAINPUNCH",
+    "RETURN",
+    "STONEEDGE",
+    "KNOCKOFF",
+]
+sex = ""
+nature = "ADAMANT"
+iv = 31
+
+[trainers.NOEL2.14.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.NOEL2.14.pokemon]]
+internal_name = "PORYGONZ"
+level = 100
+raw_item = "NORMALIUMZ2"
+raw_moves = [
+    "BLIZZARD",
+    "CONVERSION",
+    "RECOVER",
+    "SIGNALBEAM",
+]
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.NOEL2.14.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.NOEL2.14.pokemon]]
+internal_name = "LOPUNNY"
+level = 100
+raw_item = "LOPUNNITE"
+raw_moves = [
+    "ENTRAINMENT",
+    "FAKEOUT",
+    "HIJUMPKICK",
+    "RETURN",
+]
+sex = ""
+nature = "JOLLY"
+iv = 31
+
+[trainers.NOEL2.14.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 252
+spa = 252
+spd = 0
+spe = 0
+
+[[trainers.NOEL2.14.pokemon]]
+internal_name = "PYROAR"
+level = 100
+raw_item = "LIFEORB"
+raw_moves = [
+    "HEATWAVE",
+    "SNARL",
+    "ENTRAINMENT",
+    "HYPERVOICE",
+]
+ability_number = 2
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.NOEL2.14.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[trainers.NOEL2.15]
+raw_trainer_class = "NOEL2"
+battler_name = "Noel"
+battler_id = 15
+raw_battle_items = []
+
+[[trainers.NOEL2.15.pokemon]]
+internal_name = "PORYGONZ"
+level = 100
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "RECOVER",
+    "NASTYPLOT",
+    "TRIATTACK",
+    "HIDDENPOWERGHO",
+]
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.NOEL2.15.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.NOEL2.15.pokemon]]
+internal_name = "DRAMPA"
+level = 100
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "DRAGONPULSE",
+    "HYPERVOICE",
+    "HIDDENPOWERFIG",
+    "FLAMETHROWER",
+]
+ability_number = 2
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.NOEL2.15.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 252
+spe = 0
+
+[[trainers.NOEL2.15.pokemon]]
+internal_name = "MELOETTA"
+level = 100
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "PSYCHIC",
+    "HYPERVOICE",
+    "HIDDENPOWERGRO",
+    "DAZZLINGGLEAM",
+]
+sex = ""
+nature = "MODEST"
+iv = 31
+
+[trainers.NOEL2.15.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 252
+spd = 252
+spe = 0
+
+[[trainers.NOEL2.15.pokemon]]
+internal_name = "BLISSEY"
+level = 100
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "TRIATTACK",
+    "TOXIC",
+    "SOFTBOILED",
+    "STEALTHROCK",
+]
+sex = ""
+nature = "BOLD"
+iv = 31
+
+[trainers.NOEL2.15.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 4
+spe = 252
+
+[[trainers.NOEL2.15.pokemon]]
+internal_name = "AUDINO"
+level = 100
+raw_item = "AUDINITE"
+raw_moves = [
+    "WISH",
+    "PROTECT",
+    "TOXIC",
+    "HYPERVOICE",
+]
+sex = ""
+nature = "BOLD"
+iv = 31
+
+[trainers.NOEL2.15.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 0
+spd = 0
+spe = 252
+
+[[trainers.NOEL2.15.pokemon]]
+internal_name = "LICKILICKY"
+level = 100
+raw_item = "MAGICALSEED"
+raw_moves = [
+    "WISH",
+    "PROTECT",
+    "TOXIC",
+    "HYPERVOICE",
+]
+ability_number = 2
+sex = ""
+nature = "BOLD"
+iv = 31
+
+[trainers.NOEL2.15.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 0
+spd = 0
+spe = 252
+
+[trainers.UMBNOEL.0]
+raw_trainer_class = "UMBNOEL"
+battler_name = "Noel"
+raw_battle_items = []
+
+[[trainers.UMBNOEL.0.pokemon]]
+internal_name = "RIBOMBEE"
+level = 145
+raw_item = "FOCUSSASH"
+raw_moves = [
+    "AFTERYOU",
+    "POLLENPUFF",
+    "DAZZLINGGLEAM",
+    "PSYCHUP",
+]
+ability_number = 2
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.UMBNOEL.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.UMBNOEL.0.pokemon]]
+internal_name = "GIRATINA"
+level = 145
+raw_item = "GRISEOUSORB"
+raw_moves = [
+    "PSYCHUP",
+    "HEX",
+    "DRACOMETEOR",
+    "WILLOWISP",
+]
+sex = ""
+form_number = 1
+nature = "TIMID"
+iv = 31
+
+[trainers.UMBNOEL.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.UMBNOEL.0.pokemon]]
+internal_name = "TAPULELE"
+level = 145
+raw_item = "LUMBERRY"
+raw_moves = [
+    "PSYSHOCK",
+    "DRAININGKISS",
+    "PSYCHUP",
+    "FOCUSBLAST",
+]
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.UMBNOEL.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.UMBNOEL.0.pokemon]]
+internal_name = "MEW"
+level = 145
+raw_item = "MEWNIUMZ2"
+raw_moves = [
+    "PSYCHIC",
+    "PSYCHUP",
+    "FROSTBREATH",
+    "HEALPULSE",
+]
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.UMBNOEL.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.UMBNOEL.0.pokemon]]
+internal_name = "SYLVEON"
+level = 145
+raw_item = "LEFTOVERS"
+raw_moves = [
+    "WISH",
+    "PSYCHUP",
+    "SWIFT",
+    "PSYSHOCK",
+]
+ability_number = 2
+sex = ""
+nature = "CALM"
+iv = 31
+
+[trainers.UMBNOEL.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.UMBNOEL.0.pokemon]]
+internal_name = "CLEFABLE"
+level = 145
+raw_item = "LIFEORB"
+raw_moves = [
+    "MOONBLAST",
+    "SOFTBOILED",
+    "PSYCHUP",
+    "FIREBLAST",
+]
+ability_number = 1
+sex = ""
+nature = "TIMID"
+iv = 31
+
+[trainers.UMBNOEL.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252

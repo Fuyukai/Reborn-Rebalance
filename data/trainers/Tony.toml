@@ -1,14 +1,16 @@
-[trainers.0]
+trainer_name = "Tony"
+
+[trainers.YOUNGSTER.0]
 raw_trainer_class = "YOUNGSTER"
 battler_name = "Tony"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.YOUNGSTER.0.pokemon]]
 internal_name = "KRICKETOT"
 level = 7
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.YOUNGSTER.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -16,12 +18,12 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.YOUNGSTER.0.pokemon]]
 internal_name = "EKANS"
 level = 8
 iv = 0
 
-[trainers.0.pokemon.evs]
+[trainers.YOUNGSTER.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

@@ -1,10 +1,12 @@
-[trainers.1000]
+trainer_name = "Bee"
+
+[trainers.BEE.1000]
 raw_trainer_class = "BEE"
 battler_name = "Bee"
 battler_id = 1000
 raw_battle_items = []
 
-[[trainers.1000.pokemon]]
+[[trainers.BEE.1000.pokemon]]
 internal_name = "RIBOMBEE"
 level = 100
 raw_item = "FOCUSSASH"
@@ -18,7 +20,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.1000.pokemon.evs]
+[trainers.BEE.1000.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -26,7 +28,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.1000.pokemon]]
+[[trainers.BEE.1000.pokemon]]
 internal_name = "BEEDRILL"
 level = 100
 raw_item = "BEEDRILLITE"
@@ -40,7 +42,7 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.1000.pokemon.evs]
+[trainers.BEE.1000.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -48,7 +50,7 @@ spa = 252
 spd = 0
 spe = 4
 
-[[trainers.1000.pokemon]]
+[[trainers.BEE.1000.pokemon]]
 internal_name = "NAGANADEL"
 level = 100
 raw_item = "DRAGONIUMZ2"
@@ -63,7 +65,7 @@ is_shiny = true
 nature = "TIMID"
 iv = 31
 
-[trainers.1000.pokemon.evs]
+[trainers.BEE.1000.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0

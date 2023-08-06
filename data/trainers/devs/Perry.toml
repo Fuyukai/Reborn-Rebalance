@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Perry"
+
+[trainers.PERRY.0]
 raw_trainer_class = "PERRY"
 battler_name = "Perry"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.PERRY.0.pokemon]]
 internal_name = "ARCHEOPS"
 level = 101
 raw_item = "FIGYBERRY"
@@ -19,7 +21,7 @@ iv = 31
 happiness = 255
 nickname = "ded birb"
 
-[trainers.0.pokemon.evs]
+[trainers.PERRY.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -27,7 +29,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.PERRY.0.pokemon]]
 internal_name = "SCEPTILE"
 level = 101
 raw_item = "FIGHTINIUMZ2"
@@ -43,7 +45,7 @@ nature = "MODEST"
 iv = 31
 happiness = 255
 
-[trainers.0.pokemon.evs]
+[trainers.PERRY.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -51,7 +53,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.PERRY.0.pokemon]]
 internal_name = "VOLCARONA"
 level = 101
 raw_item = "FOCUSSASH"
@@ -66,7 +68,7 @@ nature = "TIMID"
 iv = 31
 happiness = 255
 
-[trainers.0.pokemon.evs]
+[trainers.PERRY.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -74,7 +76,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.PERRY.0.pokemon]]
 internal_name = "MARSHADOW"
 level = 101
 raw_item = "FOCUSSASH"
@@ -90,7 +92,7 @@ iv = 31
 happiness = 255
 nickname = "angsty kid"
 
-[trainers.0.pokemon.evs]
+[trainers.PERRY.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -98,7 +100,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.PERRY.0.pokemon]]
 internal_name = "PRIMARINA"
 level = 101
 raw_item = "POWERHERB"
@@ -115,7 +117,7 @@ iv = 31
 happiness = 255
 nickname = "rudolph"
 
-[trainers.0.pokemon.evs]
+[trainers.PERRY.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -123,7 +125,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.0.pokemon]]
+[[trainers.PERRY.0.pokemon]]
 internal_name = "AEGISLASH"
 level = 101
 raw_item = "LEFTOVERS"
@@ -139,7 +141,7 @@ iv = 32
 happiness = 255
 nickname = "iron bar"
 
-[trainers.0.pokemon.evs]
+[trainers.PERRY.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252

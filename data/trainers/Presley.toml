@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Presley"
+
+[trainers.Cultist.0]
 raw_trainer_class = "Cultist"
 battler_name = "Presley"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.Cultist.0.pokemon]]
 internal_name = "MILTANK"
 level = 127
 raw_item = "LEFTOVERS"
@@ -19,7 +21,7 @@ nature = "ADAMANT"
 iv = 31
 happiness = 255
 
-[trainers.0.pokemon.evs]
+[trainers.Cultist.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 128
@@ -27,7 +29,7 @@ spa = 0
 spd = 0
 spe = 128
 
-[[trainers.0.pokemon]]
+[[trainers.Cultist.0.pokemon]]
 internal_name = "DRAGALGE"
 level = 127
 raw_item = "MAGICALSEED"
@@ -43,7 +45,7 @@ nature = "MODEST"
 iv = 31
 happiness = 255
 
-[trainers.0.pokemon.evs]
+[trainers.Cultist.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -51,7 +53,7 @@ spa = 0
 spd = 252
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.Cultist.0.pokemon]]
 internal_name = "AROMATISSE"
 level = 127
 raw_item = "LEFTOVERS"
@@ -67,7 +69,7 @@ nature = "MODEST"
 iv = 31
 happiness = 255
 
-[trainers.0.pokemon.evs]
+[trainers.Cultist.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -75,7 +77,7 @@ spa = 0
 spd = 252
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.Cultist.0.pokemon]]
 internal_name = "KOMALA"
 level = 127
 raw_item = "CHOICEBAND"
@@ -88,7 +90,7 @@ nature = "ADAMANT"
 iv = 31
 happiness = 255
 
-[trainers.0.pokemon.evs]
+[trainers.Cultist.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252

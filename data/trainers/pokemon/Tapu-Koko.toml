@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Tapu-Koko"
+
+[trainers.TAPUKOKO.0]
 raw_trainer_class = "TAPUKOKO"
 battler_name = "Tapu-Koko"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.TAPUKOKO.0.pokemon]]
 internal_name = "ZERAORA"
 level = 125
 raw_item = "ELEMENTALSEED"
@@ -17,7 +19,7 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.TAPUKOKO.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -25,7 +27,7 @@ spa = 252
 spd = 0
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.TAPUKOKO.0.pokemon]]
 internal_name = "XURKITREE"
 level = 125
 raw_item = "ELEMENTALSEED"
@@ -39,7 +41,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.TAPUKOKO.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -47,7 +49,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.TAPUKOKO.0.pokemon]]
 internal_name = "GENESECT"
 level = 125
 raw_item = "SHOCKDRIVE"
@@ -62,7 +64,7 @@ form_number = 1
 nature = "HASTY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.TAPUKOKO.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -70,7 +72,7 @@ spa = 252
 spd = 4
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.TAPUKOKO.0.pokemon]]
 internal_name = "RAICHU"
 level = 125
 raw_item = "ALORAICHIUMZ2"
@@ -85,7 +87,7 @@ form_number = 1
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.TAPUKOKO.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -93,7 +95,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.0.pokemon]]
+[[trainers.TAPUKOKO.0.pokemon]]
 internal_name = "SWAMPERT"
 level = 125
 raw_item = "SWAMPERTITE"
@@ -108,7 +110,7 @@ sex = ""
 nature = "SERIOUS"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.TAPUKOKO.0.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -116,7 +118,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.TAPUKOKO.0.pokemon]]
 internal_name = "TAPUKOKO"
 level = 125
 raw_item = "ELEMENTALSEED"
@@ -130,7 +132,7 @@ sex = ""
 nature = "HASTY"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.TAPUKOKO.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252

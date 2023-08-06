@@ -1,9 +1,158 @@
-[trainers.0]
+trainer_name = "John"
+
+[trainers.Orderly.0]
+raw_trainer_class = "Orderly"
+battler_name = "John"
+raw_battle_items = []
+
+[[trainers.Orderly.0.pokemon]]
+internal_name = "SLOWPOKE"
+level = 31
+iv = 0
+
+[trainers.Orderly.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.Orderly.0.pokemon]]
+internal_name = "EELEKTRIK"
+level = 31
+iv = 0
+
+[trainers.Orderly.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.Orderly.0.pokemon]]
+internal_name = "MAGNETON"
+level = 32
+iv = 0
+
+[trainers.Orderly.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.Orderly.1]
+raw_trainer_class = "Orderly"
+battler_name = "John"
+battler_id = 1
+raw_battle_items = []
+
+[[trainers.Orderly.1.pokemon]]
+internal_name = "EELEKTRIK"
+level = 33
+iv = 0
+
+[trainers.Orderly.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.Orderly.1.pokemon]]
+internal_name = "SLOWPOKE"
+level = 34
+iv = 0
+
+[trainers.Orderly.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.Orderly.1.pokemon]]
+internal_name = "MAGNETON"
+level = 35
+iv = 0
+
+[trainers.Orderly.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.Orderly.2]
+raw_trainer_class = "Orderly"
+battler_name = "John"
+battler_id = 2
+raw_battle_items = []
+
+[[trainers.Orderly.2.pokemon]]
+internal_name = "TOUCANNON"
+level = 43
+iv = 0
+
+[trainers.Orderly.2.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.Orderly.2.pokemon]]
+internal_name = "EELEKTROSS"
+level = 43
+iv = 0
+
+[trainers.Orderly.2.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.Orderly.2.pokemon]]
+internal_name = "SLOWBRO"
+level = 44
+iv = 0
+
+[trainers.Orderly.2.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.Orderly.2.pokemon]]
+internal_name = "MAGNETON"
+level = 45
+iv = 0
+
+[trainers.Orderly.2.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[trainers.NWOrderly.0]
 raw_trainer_class = "NWOrderly"
 battler_name = "John"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.NWOrderly.0.pokemon]]
 internal_name = "WHISCASH"
 level = 70
 raw_item = "SITRUSBERRY"
@@ -16,7 +165,7 @@ raw_moves = [
 nature = "ADAMANT"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.NWOrderly.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -24,7 +173,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.NWOrderly.0.pokemon]]
 internal_name = "MAGNEZONE"
 level = 72
 raw_item = "AIRBALLOON"
@@ -39,7 +188,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.NWOrderly.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -47,7 +196,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.NWOrderly.0.pokemon]]
 internal_name = "EELEKTROSS"
 level = 71
 raw_item = "ASSAULTVEST"
@@ -60,7 +209,7 @@ raw_moves = [
 nature = "MODEST"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.NWOrderly.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -68,7 +217,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.NWOrderly.0.pokemon]]
 internal_name = "TOUCANNON"
 level = 71
 raw_item = "MUSCLEBAND"
@@ -83,7 +232,7 @@ sex = "F"
 nature = "BRAVE"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.NWOrderly.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -91,7 +240,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.0.pokemon]]
+[[trainers.NWOrderly.0.pokemon]]
 internal_name = "SLOWBRO"
 level = 71
 raw_item = "LEFTOVERS"
@@ -105,7 +254,7 @@ ability_number = 1
 nature = "BOLD"
 iv = 31
 
-[trainers.0.pokemon.evs]
+[trainers.NWOrderly.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -113,13 +262,13 @@ spa = 0
 spd = 0
 spe = 0
 
-[trainers.1]
+[trainers.NWOrderly.1]
 raw_trainer_class = "NWOrderly"
 battler_name = "John"
 battler_id = 1
 raw_battle_items = []
 
-[[trainers.1.pokemon]]
+[[trainers.NWOrderly.1.pokemon]]
 internal_name = "WHISCASH"
 level = 120
 raw_item = "SITRUSBERRY"
@@ -132,7 +281,7 @@ raw_moves = [
 nature = "ADAMANT"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.NWOrderly.1.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -140,7 +289,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.NWOrderly.1.pokemon]]
 internal_name = "MAGNEZONE"
 level = 120
 raw_item = "AIRBALLOON"
@@ -155,7 +304,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.NWOrderly.1.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -163,7 +312,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.NWOrderly.1.pokemon]]
 internal_name = "EELEKTROSS"
 level = 120
 raw_item = "ASSAULTVEST"
@@ -176,7 +325,7 @@ raw_moves = [
 nature = "MODEST"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.NWOrderly.1.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -184,7 +333,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.NWOrderly.1.pokemon]]
 internal_name = "TOUCANNON"
 level = 120
 raw_item = "MUSCLEBAND"
@@ -199,7 +348,7 @@ sex = "F"
 nature = "ADAMANT"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.NWOrderly.1.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 252
@@ -207,7 +356,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.NWOrderly.1.pokemon]]
 internal_name = "EXEGGUTOR"
 level = 120
 raw_item = "SITRUSBERRY"
@@ -222,7 +371,7 @@ form_number = 1
 nature = "MODEST"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.NWOrderly.1.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -230,7 +379,7 @@ spa = 0
 spd = 252
 spe = 0
 
-[[trainers.1.pokemon]]
+[[trainers.NWOrderly.1.pokemon]]
 internal_name = "SLOWBRO"
 level = 120
 raw_item = "SLOWBRONITE"
@@ -244,7 +393,7 @@ ability_number = 1
 nature = "BOLD"
 iv = 31
 
-[trainers.1.pokemon.evs]
+[trainers.NWOrderly.1.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -252,71 +401,13 @@ spa = 0
 spd = 252
 spe = 252
 
-[trainers.2]
-raw_trainer_class = "Orderly"
-battler_name = "John"
-battler_id = 2
-raw_battle_items = []
-
-[[trainers.2.pokemon]]
-internal_name = "TOUCANNON"
-level = 43
-iv = 0
-
-[trainers.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.2.pokemon]]
-internal_name = "EELEKTROSS"
-level = 43
-iv = 0
-
-[trainers.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.2.pokemon]]
-internal_name = "SLOWBRO"
-level = 44
-iv = 0
-
-[trainers.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.2.pokemon]]
-internal_name = "MAGNETON"
-level = 45
-iv = 0
-
-[trainers.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[trainers.1000]
+[trainers.NWOrderly.1000]
 raw_trainer_class = "NWOrderly"
 battler_name = "John"
 battler_id = 1000
 raw_battle_items = []
 
-[[trainers.1000.pokemon]]
+[[trainers.NWOrderly.1000.pokemon]]
 internal_name = "MAGNEZONE"
 level = 100
 raw_item = "MAGICALSEED"
@@ -330,7 +421,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.1000.pokemon.evs]
+[trainers.NWOrderly.1000.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -338,7 +429,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.1000.pokemon]]
+[[trainers.NWOrderly.1000.pokemon]]
 internal_name = "STARMIE"
 level = 100
 raw_item = "MAGICALSEED"
@@ -352,7 +443,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.1000.pokemon.evs]
+[trainers.NWOrderly.1000.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -360,7 +451,7 @@ spa = 252
 spd = 252
 spe = 4
 
-[[trainers.1000.pokemon]]
+[[trainers.NWOrderly.1000.pokemon]]
 internal_name = "DEOXYS"
 level = 100
 raw_item = "FOCUSSASH"
@@ -374,7 +465,7 @@ sex = ""
 nature = "HASTY"
 iv = 31
 
-[trainers.1000.pokemon.evs]
+[trainers.NWOrderly.1000.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 4

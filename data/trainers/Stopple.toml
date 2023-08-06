@@ -1,9 +1,11 @@
-[trainers.0]
+trainer_name = "Stopple"
+
+[trainers.SWALOT.0]
 raw_trainer_class = "SWALOT"
 battler_name = "Stopple"
 raw_battle_items = []
 
-[[trainers.0.pokemon]]
+[[trainers.SWALOT.0.pokemon]]
 internal_name = "SWALOT"
 level = 80
 raw_item = "BLACKSLUDGE"
@@ -19,7 +21,7 @@ nature = "CALM"
 iv = 27
 happiness = 0
 
-[trainers.0.pokemon.evs]
+[trainers.SWALOT.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
