@@ -7,7 +7,9 @@ def build_changes(builder: ChangelogBuilder):
     builder.custom("Imported most Pokémon changes for Gen 6-7 from Photonic Sun.")
 
     builder.move("DRAGONRUSH").change_move_base_power(100, 85).change_move_accuracy(75, 90)
-    builder.move("WILDCHARGE").change_move_base_power(90, 120)
+    builder.move("WILDCHARGE", "No longer causes recoil.")
+    builder.move("ESPERWING", "Now has +1 priority, but no extra crits or speed boost.") \
+        .change_move_base_power(80, 70)
 
     blastoise = builder.pokemon(
         "BLASTOISE",
@@ -63,7 +65,7 @@ def build_changes(builder: ChangelogBuilder):
         "staraptor",
         """
         Staraptor has always had potential but 100 base speed is annoyingly low. Gen 7 gave it
-        a buff in the form of ten extra SpD, which is useless. 
+        a buff in the form of ten extra SpD, which is useless. (Yes, I am biased.)
         """,
     )
     staraptor.add_type_change(PokemonType.NORMAL, PokemonType.FIGHTING)
