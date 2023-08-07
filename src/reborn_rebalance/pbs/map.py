@@ -5,7 +5,7 @@ from typing import Any
 
 import attr
 from cattrs import Converter
-from cattrs.gen import make_dict_unstructure_fn
+from cattrs.gen import make_dict_unstructure_fn, override
 from rubymarshal.classes import RubyString
 from rubymarshal.reader import loads
 
@@ -149,11 +149,15 @@ class MapMetadata:
     #: The width (?) of the map? Not used by Reborn.
     map_size: str | None = attr.ib(default=None)
 
+    # used to avoid O(N^2) loop in the map template rendering code.
+    child_maps: set[int] = attr.ib(init=False, factory=set)
+
     @classmethod
     def add_unstructure_hook(cls, converter: Converter):
         unst_hook = make_dict_unstructure_fn(
             cls,
             converter,
+            child_maps=override(omit=True),  # virtual field
             _cattrs_omit_if_default=True,
         )
         converter.register_unstructure_hook(cls, unst_hook)

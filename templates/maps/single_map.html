@@ -22,6 +22,31 @@
                         <li>
                             <b style="padding: 0 0.75em">{{ map.name }}</b>
                         </li>
+
+                        {% if map.child_maps %}
+
+                        <li>
+                            <div class="dropdown is-hoverable" style="padding: 0 0.75em">
+                                <div class="dropdown-trigger">
+                                    <button class="button" aria-haspopup="true" aria-controls="child-map-down">
+                                        Child maps...
+                                    </button>
+                                </div>
+
+                                <div class="dropdown-menu" id="child-map-down" role="menu">
+                                    <div class="dropdown-content">
+                                        {% for child_id in map.child_maps %}
+                                        {% set child = catalog.maps[child_id] %}
+                                        <a class="dropdown-item" href="/maps/{{ '{:03d}'.format(child.id) }}.html">
+                                            {{ child.name }}
+                                        </a>
+                                        {% endfor %}
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        {% endif %}
                     </ul>
                 </nav>
             </div>

@@ -8,13 +8,12 @@ from pathlib import Path
 from typing import Callable, Optional, Self, TypeVar
 
 import attr
-import prettyprinter
 
 from reborn_rebalance.pbs.ability import PokemonAbility
 from reborn_rebalance.pbs.encounters import ENCOUNTER_SLOTS, MapEncounters
 from reborn_rebalance.pbs.form import PokemonForms, save_forms_to_ruby
 from reborn_rebalance.pbs.item import PokemonItem
-from reborn_rebalance.pbs.map import MapMetadata, parse_rpg_maker_mapinfo, RawMapInfo
+from reborn_rebalance.pbs.map import MapMetadata, parse_rpg_maker_mapinfo
 from reborn_rebalance.pbs.move import PokemonMove
 from reborn_rebalance.pbs.pokemon import (
     FormAttributes,
@@ -192,6 +191,18 @@ class EssentialsCatalog:
                     mapping[entry.name].add(map_id)
 
         return types.MappingProxyType(mapping)
+
+    def __attrs_post_init__(self):
+        # apply children maps in a single pass.
+        # if we didn't do this, we'd have to iterate over all maps to find backrefs on the parent_id
+        # attribute, for every single map.
+        for map in self.maps.values():
+            if map.parent_id == 0:  # root map, skip
+                continue
+
+            parent = self.maps[map.parent_id]
+            # has to use the id because map is unhashable.
+            parent.child_maps.add(map.id)
 
     @classmethod
     def load_from_pbs(cls, path: Path) -> Self:
