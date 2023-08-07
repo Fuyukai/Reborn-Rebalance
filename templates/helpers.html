@@ -13,6 +13,10 @@
 >
 {%- endmacro -%}
 
+{%- macro species_link(obb) -%}
+<a href="/species/specific/{{ obb.internal_name.lower() }}.html">{{ obb.name }}</a>
+{%- endmacro -%}
+
 {%- macro base_stat_name(stat) -%}
 {% if stat == "hp" %}
 <abbr title="Hit Points">HP</abbr>

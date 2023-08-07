@@ -6,6 +6,7 @@ import jinja2
 
 from reborn_rebalance.changes import build_changelog
 from reborn_rebalance.pbs.catalog import EssentialsCatalog
+from reborn_rebalance.pbs.encounters import ENCOUNTER_SLOTS
 from reborn_rebalance.pbs.move import MoveCategory
 
 
@@ -31,6 +32,7 @@ def main():
     output_dir.mkdir(exist_ok=True, parents=True)
     (output_dir / "species").mkdir(exist_ok=True, parents=True)
     (output_dir / "species" / "specific").mkdir(exist_ok=True, parents=True)
+    (output_dir / "maps").mkdir(exist_ok=True)
 
     catalog = EssentialsCatalog.load_from_toml(Path("./data"))
     changelog = build_changelog(catalog)
@@ -41,11 +43,12 @@ def main():
     env.globals["changelog"] = changelog
     env.globals["MoveCategory"] = MoveCategory
     env.globals["changelog_klass"] = changelog_klass
+    env.globals["ENCOUNTER_SLOTS"] = ENCOUNTER_SLOTS
 
     with (output_dir / "changelog.html").open(mode="w", encoding="utf-8") as f:
         f.write(env.get_template("changelog/page.html").render())
 
-    with (output_dir / "species" / "list.html").open(mode="w", encoding="utf-8") as f:
+    with (output_dir / "species" / "index.html").open(mode="w", encoding="utf-8") as f:
         f.write(env.get_template("species/list.html").render(species_definitions=catalog.species))
 
     specific_mon_template = env.get_template("species/single.html")
@@ -54,10 +57,16 @@ def main():
         path = path.with_suffix(".html")
         path.write_text(specific_mon_template.render(species=species, pokedex_number=idx + 1))
 
+    maps_template = env.get_template("maps/single_map.html")
+    for map in catalog.maps.values():
+        path = output_dir / "maps" / f"{map.id:03d}.html"
+        path.write_text(maps_template.render(map=map))
+
     # copy both sets of static data over
     shutil.copytree(Path("./templates/static"), output_dir / "static", dirs_exist_ok=True)
     shutil.copytree(Path("./sprites/auto"), output_dir / "sprites", dirs_exist_ok=True)
     shutil.copytree(Path("./sprites/custom"), output_dir / "sprites", dirs_exist_ok=True)
+    shutil.copytree(Path("./sprites/maps"), output_dir / "static" / "maps", dirs_exist_ok=True)
 
 
 if __name__ == "__main__":
