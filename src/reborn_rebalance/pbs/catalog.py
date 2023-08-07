@@ -8,12 +8,13 @@ from pathlib import Path
 from typing import Callable, Optional, Self, TypeVar
 
 import attr
+import prettyprinter
 
 from reborn_rebalance.pbs.ability import PokemonAbility
-from reborn_rebalance.pbs.encounters import ENCOUNTER_SLOTS, MapEncounters, parse_maps
+from reborn_rebalance.pbs.encounters import ENCOUNTER_SLOTS, MapEncounters
 from reborn_rebalance.pbs.form import PokemonForms, save_forms_to_ruby
 from reborn_rebalance.pbs.item import PokemonItem
-from reborn_rebalance.pbs.map import MapMetadata
+from reborn_rebalance.pbs.map import MapMetadata, parse_rpg_maker_mapinfo, RawMapInfo
 from reborn_rebalance.pbs.move import PokemonMove
 from reborn_rebalance.pbs.pokemon import (
     FormAttributes,
@@ -258,17 +259,21 @@ class EssentialsCatalog:
 
         # 🍳
         map_file_path = (path / ".." / "Data" / "MapInfos.rxdata").absolute()
-        map_names = parse_maps(map_file_path)
+        map_names = parse_rpg_maker_mapinfo(map_file_path)
 
         # backfill names into the map metadata
         map_metadata = load_map_metadata_from_pbs(path / "metadata.txt")
         for info in map_metadata.values():
-            try:
-                name = map_names[info.id]
-            except KeyError:
-                name = "REMOVED"
+            raw_info = map_names.pop(info.id)
 
-            info.name = name
+            info.name = raw_info.name
+            info.parent_id = raw_info.parent_id
+
+        for id, info in map_names.items():
+            # fix up metadata for missing maps
+            print("warning: missing metadata for", id, f"({info.name})")
+            missing_metadata = MapMetadata(id=id, name=info.name, parent_id=info.parent_id)
+            map_metadata[id] = missing_metadata
 
         encounter_path = path / "encounters.txt"
         encounter_data = load_encounters_from_pbs(encounter_path)
@@ -700,3 +705,20 @@ class EssentialsCatalog:
                         )
 
         return found_encounters
+
+    def get_map_chain_for(self, map: MapMetadata) -> list[MapMetadata]:
+        """
+        Gets the map chain for the provided map.
+        """
+
+        chain = [map]
+
+        while True:
+            next_parent_id = chain[-1].parent_id
+            if next_parent_id == 0:
+                break
+
+            next_parent = self.maps[next_parent_id]
+            chain.append(next_parent)
+
+        return chain

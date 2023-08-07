@@ -7,6 +7,7 @@ import jinja2
 from reborn_rebalance.changes import build_changelog
 from reborn_rebalance.pbs.catalog import EssentialsCatalog
 from reborn_rebalance.pbs.encounters import ENCOUNTER_SLOTS
+from reborn_rebalance.pbs.map import FIELD_NAMES
 from reborn_rebalance.pbs.move import MoveCategory
 
 
@@ -44,6 +45,7 @@ def main():
     env.globals["MoveCategory"] = MoveCategory
     env.globals["changelog_klass"] = changelog_klass
     env.globals["ENCOUNTER_SLOTS"] = ENCOUNTER_SLOTS
+    env.globals["FIELD_NAMES"] = FIELD_NAMES
 
     with (output_dir / "changelog.html").open(mode="w", encoding="utf-8") as f:
         f.write(env.get_template("changelog/page.html").render())

@@ -1,5 +1,5 @@
 {% extends "_meta/_root.html" %}
-{% from "helpers.html" import small_sprite, species_link %}
+{% from "helpers.html" import small_sprite, species_link, map_link %}
 {# passed a mapmetadata object as ``map``. #}
 
 {% block title %}{{ map.name }}{% endblock %}
@@ -9,7 +9,24 @@
 
 <section class="section">
     <div class="container-fluid">
-        <h1 class="title has-text-centered">{{ map.name }}</h1>
+        {% set chain = catalog.get_map_chain_for(map) %}
+        <div class="columns is-centered">
+            <div class="column is-narrow">
+                <nav class="breadcrumb is-large has-arrow-separator">
+                    <ul>
+                        {% for entry in chain[1:]|reverse %}
+                        <li>
+                            {{ map_link(entry.id, entry.name) }}
+                        </li>
+                        {% endfor %}
+                        <li>
+                            <b style="padding: 0 0.75em">{{ map.name }}</b>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
         <hr/>
 
         <div class="columns is-centered">

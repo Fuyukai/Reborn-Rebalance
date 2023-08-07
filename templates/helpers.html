@@ -17,6 +17,11 @@
 <a href="/species/specific/{{ obb.internal_name.lower() }}.html">{{ obb.name }}</a>
 {%- endmacro -%}
 
+{%- macro map_link(id, name) -%}
+<a href="/maps/{{ '{:03d}'.format(id) }}.html">{{ name }}</a>
+{%- endmacro -%}
+
+
 {%- macro base_stat_name(stat) -%}
 {% if stat == "hp" %}
 <abbr title="Hit Points">HP</abbr>

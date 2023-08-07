@@ -1,10 +1,8 @@
 import enum
 from pathlib import Path
-from typing import Any, TextIO
+from typing import TextIO
 
 import attr
-import rubymarshal.reader
-from rubymarshal.classes import RubyString
 
 # like five days into this project I found a lib that can parse ruby marshal files.
 # im going to actually for real kill myself.
@@ -34,37 +32,6 @@ ENCOUNTER_SLOTS = {
     "LandDay": [20, 15, 12, 10, 10, 10, 5, 5, 5, 4, 2, 2],
     "LandNight": [20, 15, 12, 10, 10, 10, 5, 5, 5, 4, 2, 2],
 }
-
-
-def parse_maps(map_info_path: Path) -> dict[int, str]:
-    """
-    Parses the map info file and returns a dict of {map id: map name}.
-    """
-
-    content = map_info_path.read_bytes()
-    unmarshalled = rubymarshal.reader.loads(content)
-
-    items = {}
-    for id, obb in unmarshalled.items():
-        attrs: dict[str, Any] = obb.attributes
-
-        raw_name = attrs["@name"]
-        if isinstance(raw_name, RubyString):
-            name: str = raw_name.text
-        elif isinstance(raw_name, bytes):
-            # wtf?
-            name: str = raw_name.decode(encoding="utf-8")
-        else:
-            raise ValueError(f"illegal map name: {raw_name}")
-
-        if name == "REMOVED":
-            print(f"Removed map: {id}")
-            continue
-
-        items[id] = name
-
-    items = {key: value for (key, value) in sorted(items.items())}
-    return items
 
 
 class EncounterParsingState(enum.Enum):

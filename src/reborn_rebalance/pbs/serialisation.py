@@ -664,7 +664,8 @@ def save_map_metadata_to_toml(path: Path, maps: dict[int, MapMetadata]):
         print(f"Not overwriting: {path}")
         return
 
-    output = {"maps": CONVERTER.unstructure(maps)}
+    actual_data = {str(k): v for (k, v) in CONVERTER.unstructure(maps).items()}
+    output = {"maps": actual_data}
 
     with path.open(mode="wb") as f:
         dump(output, f)
@@ -821,7 +822,7 @@ def save_trainers_to_toml(path: Path, trainers: dict[str, TrainerCatalog]):
 
         if key in existing_names:
             toml_path = existing_names[key]
-            print("Writing to", toml_path)
+            print("Not overwriting", toml_path)
             continue
 
         raw_data = CONVERTER.unstructure(catalog)

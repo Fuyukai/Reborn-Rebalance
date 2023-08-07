@@ -1,8 +1,13 @@
 from __future__ import annotations
 
+from pathlib import Path
+from typing import Any
+
 import attr
 from cattrs import Converter
 from cattrs.gen import make_dict_unstructure_fn
+from rubymarshal.classes import RubyString
+from rubymarshal.reader import loads
 
 from reborn_rebalance.util import PbsBuffer
 
@@ -33,6 +38,46 @@ BicycleBGM=Atmosphere- Rush.ogg
 WildBattleBGM=Battle- Wild.ogg
 """
 
+FIELD_NAMES = {
+    "Electric": "Electric Terrain",
+    "Grassy": "Grassy Terrain",
+    "Misty": "Misty Terrain",
+    "DarkCrystalCavern": "Dark Crystal Cavern",
+    "Chess": "Chess Board",
+    "BigTop": "Big Top Arena",
+    "Burning": "Burning Field",
+    "Swamp": "Swamp Field",
+    "Rainbow": "Rainbow Field",
+    "Corrosive": "Corrosive Field",
+    "CorrosiveMist": "Corrosive Mist Field",
+    "Desert": "Desert Field",
+    "Icy": "Icy Field",
+    "Rocky": "Rocky Field",
+    "Forest": "Forest Field",
+    "Superheated": "Super-Heated Field",
+    "Factory": "Factory Field",
+    "Shortcircuit": "Short-Circuit Field",
+    "Wasteland": "Wasteland",
+    "AshenBeach": "Ashen Beach",
+    "WaterSurface": "Water Surface",
+    "Underwater": "Underwater",
+    "Cave": "Cave",
+    "Glitch": "Glitch Field",
+    "CrystalCavern": "Crystal Cavern",
+    "MurkwaterSurface": "Murkwater Surface",
+    "Mountain": "Mountain",
+    "SnowyMountain": "Snowy Mountain",
+    "Holy Field": "Holy",  # is that a fucking toaru reference??????!!!?!?!?
+    "Mirror": "Mirror Arena",
+    "FairyTale": "Fairy Tale Field",
+    "DragonsDen": "Dragon's Den",
+    "FlowerGarden0": "Flower Garden Field",
+    "Starlight": "Starlight Arena",
+    "NewWorld": "New World",
+    "Inverse": "Inverse Field",
+    "Psychic": "Psychic Terrain",
+}
+
 
 @attr.s(kw_only=True)
 class MapMetadata:
@@ -42,6 +87,9 @@ class MapMetadata:
 
     #: The ID of this map.
     id: int = attr.ib()
+
+    #: The parent ID of this map. Backfilled.
+    parent_id: int = attr.ib(default=None)
 
     # backfilled from MapInfos.rxdata
     #: The name of this map.
@@ -247,3 +295,49 @@ class MapMetadata:
 
         if self.map_size:
             buffer.write_key_value("MapSize", self.map_size)
+
+
+@attr.s(slots=True, frozen=True, kw_only=True)
+class RawMapInfo:
+    """
+    Raw RPG maker map info for a single map.
+    """
+
+    #: The name of this map in the editor.
+    name: str = attr.ib()
+
+    #: The parent ID for this map.
+    parent_id: int = attr.ib()
+
+
+def parse_rpg_maker_mapinfo(map_info_path: Path) -> dict[int, RawMapInfo]:
+    """
+    Parses the map info file and returns a dict of {map id: map name}.
+    """
+
+    content = map_info_path.read_bytes()
+    unmarshalled = loads(content)
+
+    items = {}
+    for id, obb in unmarshalled.items():
+        attrs: dict[str, Any] = obb.attributes
+
+        raw_name = attrs["@name"]
+        if isinstance(raw_name, RubyString):
+            name: str = raw_name.text
+        elif isinstance(raw_name, bytes):
+            # wtf?
+            name: str = raw_name.decode(encoding="utf-8")
+        else:
+            raise ValueError(f"illegal map name: {raw_name}")
+
+        parent = int(attrs["@parent_id"])
+
+        if name == "REMOVED":
+            print(f"warning: removed map: {id}")
+
+        print("loaded map", name, parent)
+        items[id] = RawMapInfo(name=name, parent_id=parent)
+
+    items = {key: value for (key, value) in sorted(items.items())}
+    return items
