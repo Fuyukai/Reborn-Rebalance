@@ -74,6 +74,10 @@ def build_changes(builder: ChangelogBuilder):
     staraptor.add_base_stat_change("spe", 100, 115)
     staraptor.add_level_up_move(70, "HIJUMPKICK")
 
+    builder.pokemon("BASTIODON")\
+        .add_ability_change(None, "EARTHEATER")\
+        .add_base_stat_change("hp", 60, 65)
+
     luxray = builder.pokemon(
         "LUXRAY",
         """
