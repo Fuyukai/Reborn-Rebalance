@@ -31,9 +31,26 @@
 
         <div class="column is-4">
             {# eugh, this is terrible. this needs to go into a macro... #}
-            {% set chain = catalog.evolutionary_chain_for(species) %}
+
             <div class="mt-auto mb-auto">
             <div class="list">
+            {% if species.internal_name == "EEVEE" %}
+                <div class="list-item box">
+                    <div class="list-item-image">
+                        <figure class="image is-64x64">
+                            {{ small_sprite(species.dex_number, species.name) }}
+                        </figure>
+                    </div>
+
+                    <div class="list-item-content">
+                        <div class="list-item-title">Too many to list</div>
+                        <div class="list-item-content">
+                            Check the individual Eeveelution pages for more information.
+                        </div>
+                    </div>
+                </div>
+            {% else %}
+            {% set chain = catalog.evolutionary_chain_for(species) %}
             {% if chain is none %}
                 <div class="list-item box">
                     <div class="list-item-image">
@@ -127,6 +144,7 @@
                     </div>
                 </div>
                 {% endif %}
+            {% endif %}
             {% endif %}
             </div>
             </div>
