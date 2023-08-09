@@ -150,9 +150,11 @@ def build_changes(builder: ChangelogBuilder):
 
     builder.pokemon(
         "BARBARACLE",
-        "All-Gen Patch's custom mega bafflingly makes this a special attacker, despite having a "
-        "primarily physical movepool. This has been fixed and now Barbaracle-M is a physical "
-        "attacker again."
+        """
+        All-Gen Patch's custom mega bafflingly makes this a special attacker, despite having a
+        primarily physical movepool. This has been fixed and now Barbaracle-M is a physical
+        attacker again.
+        """,
     )
 
     builder.pokemon(
