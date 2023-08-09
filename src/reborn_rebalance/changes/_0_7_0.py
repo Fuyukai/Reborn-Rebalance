@@ -149,6 +149,13 @@ def build_changes(builder: ChangelogBuilder):
     haxorus.add_level_up_move(52, "JAWLOCK")
 
     builder.pokemon(
+        "BARBARACLE",
+        "All-Gen Patch's custom mega bafflingly makes this a special attacker, despite having a "
+        "primarily physical movepool. This has been fixed and now Barbaracle-M is a physical "
+        "attacker again."
+    )
+
+    builder.pokemon(
         "CUBCHOO", "We've got you surrounded! Come miss every single move!"
     ).add_ability_change("SNOWCLOAK", "TOUGHCLAWS")
 
