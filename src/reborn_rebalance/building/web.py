@@ -236,7 +236,8 @@ def main():
     )
 
     args = parser.parse_args()
-    if not args.INPUT.exists():
+    input_dir: Path = args.INPUT
+    if not input_dir.exists():
         parser.error(f"no such directory: {args.INPUT}")
 
     template_dir: Path = args.TEMPLATES
@@ -249,7 +250,7 @@ def main():
 
     output_dir.mkdir(exist_ok=True, parents=True)
 
-    catalog = EssentialsCatalog.load_from_toml(args.INPUT)
+    catalog = EssentialsCatalog.load_from_toml(input_dir)
 
     game_dir: Path | None = args.game_dir
     image_cache_location: Path = args.image_cache_location
@@ -287,7 +288,7 @@ def main():
     env.globals["MoveCategory"] = MoveCategory
     env.globals["ENCOUNTER_SLOTS"] = ENCOUNTER_SLOTS
     env.globals["FIELD_NAMES"] = FIELD_NAMES
-    env.globals["navbar_maps"] = load_navbar_maps(catalog, args.INPUT / "web" / "navbar_maps.toml")
+    env.globals["navbar_maps"] = load_navbar_maps(catalog, input_dir / "web" / "navbar_maps.toml")
 
     # build single-file templates
     with (output_dir / "changelog.html").open(mode="w", encoding="utf-8") as f:
