@@ -44,6 +44,9 @@ Pre-built versions are available from the Releases tab of the repository.
    ``trainertypes.dat``, it's going to be overwritten in a minute. Don't get the compatibility
    patch with All-Gen either, as once again, it's going to be overwritten in a minute.
 
+   Alternatively, you can rebuild the ``trainer_types.toml`` file yourself so that it references
+   Vanilla music.
+
 3. Add any other mods you might want on top, provided that they are compatible with All-Gen Patch.
 4. Download a pre-built release, and extract it over your patched Pokémon Reborn.
 
@@ -55,32 +58,31 @@ mod easily. Edit the files in ``data`` as appropriate, then do the following:
 
 .. highlight:: fish
 
-1. Clone the repository:::
+1. Clone the repository::
 
     git clone https://github.com/Fuyukai/Reborn-Rebalance.git
 
-2. Install with Poetry:::
+2. Install with Poetry::
 
     cd Reborn-Rebalance; poetry install
 
-3. (Optional, if you're building the web documentation) Generate the standard sprites:::
-
-    poetry run gen-sprites <path to your installation directory>
-
-4. Transpile the data into Reborn's format:::
+3. Transpile the data into Reborn's format::
 
     poetry run into-pbs ./data ./build
 
-5. Copy everything inside ``./build`` to your Reborn directory:::
+4. Copy everything inside ``./build`` to your Reborn directory::
 
     cp -rv ./build/* ~/Games/Reborn  # or whatever
 
-6. (Optional) Generate the web documentation:::
+5. (Optional) Generate the web documentation::
 
-    poetry run gen-web
+    poetry run build-web \
+        --crop-regular-sprites --crop-form-sprites --render-maps \  # first time only
+        --game-dir <path to Reborn directory> \
+        ./data ./templates ./website
 
-Then, you need to run Pokémon Reborn in debug mode (or, with Debug enabled), and run the
-``pbCompilePokemonData`` command.
+Then, you need to run Pokémon Reborn in debug mode, go to the Debug menu, and press
+Compile All Data.
 
 Future Plans
 ------------

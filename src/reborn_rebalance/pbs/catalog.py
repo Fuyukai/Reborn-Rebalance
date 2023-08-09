@@ -210,22 +210,21 @@ class EssentialsCatalog:
         Loads all objects from PBS files in the provided Reborn ``PBS`` directory.
         """
 
-        pokemon_path = path / "pokemon.txt"
+        pbs_path = path / "PBS"
+
+        pokemon_path = pbs_path / "pokemon.txt"
         all_species = load_all_species_from_pbs(pokemon_path)
 
-        for idx, sp in enumerate(all_species):
-            sp.dex_number = idx + 1
-
-        moves_path = path / "moves.txt"
+        moves_path = pbs_path / "moves.txt"
         moves = load_moves_from_pbs(moves_path)
 
-        items_path = path / "items.txt"
+        items_path = pbs_path / "items.txt"
         items = load_items_from_pbs(items_path)
 
-        tm_path = path / "tm.txt"
+        tm_path = pbs_path / "tm.txt"
         tms = load_tms_from_pbs(tm_path)
 
-        ability_path = path / "abilities.txt"
+        ability_path = pbs_path / "abilities.txt"
         abilities = load_abilities_from_pbs(ability_path)
 
         # now, backfill in the TMs fields from tms and items
@@ -268,31 +267,32 @@ class EssentialsCatalog:
         for poke in all_species:
             poke.raw_tms = [it.move for it in sorted(poke.raw_tms, key=lambda it: it.number)]
 
-        # 🍳
-        map_file_path = (path / ".." / "Data" / "MapInfos.rxdata").absolute()
+        map_file_path = (path / "Data" / "MapInfos.rxdata").absolute()
         map_names = parse_rpg_maker_mapinfo(map_file_path)
 
-        # backfill names into the map metadata
-        map_metadata = load_map_metadata_from_pbs(path / "metadata.txt")
+        map_metadata = load_map_metadata_from_pbs(pbs_path / "metadata.txt")
+
+        # backfill names into the map metadata, as the file only contains the map number.
         for info in map_metadata.values():
             raw_info = map_names.pop(info.id)
 
             info.name = raw_info.name
             info.parent_id = raw_info.parent_id
 
+        # for the sake of my sanity just add the missing items in.
         for id, info in map_names.items():
             # fix up metadata for missing maps
             print("warning: missing metadata for", id, f"({info.name})")
             missing_metadata = MapMetadata(id=id, name=info.name, parent_id=info.parent_id)
             map_metadata[id] = missing_metadata
 
-        encounter_path = path / "encounters.txt"
+        encounter_path = pbs_path / "encounters.txt"
         encounter_data = load_encounters_from_pbs(encounter_path)
 
-        trainer_type_path = path / "trainertypes.txt"
+        trainer_type_path = pbs_path / "trainertypes.txt"
         trainer_type_data = load_trainer_types_from_pbs(trainer_type_path)
 
-        trainers = path / "trainers.txt"
+        trainers = pbs_path / "trainers.txt"
         trainers_data = load_trainers_from_pbs(trainers)
 
         return cls(

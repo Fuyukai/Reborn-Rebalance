@@ -210,7 +210,10 @@ def load_single_form(path: Path) -> PokemonForms:
         name = path.stem
         forms_for_mon["internal_name"] = name.upper()
 
-    forms_for_mon = CONVERTER.structure(forms_for_mon, PokemonForms)
+    try:
+        forms_for_mon = CONVERTER.structure(forms_for_mon, PokemonForms)
+    except Exception as e:
+        raise ValueError(f"Failed to load form {path.name}") from e
 
     # backfill in form name. why did I type this into 100 files manually? im gonna kill myself.
     for name, form in forms_for_mon.forms.items():

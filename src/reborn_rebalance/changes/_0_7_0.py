@@ -8,8 +8,9 @@ def build_changes(builder: ChangelogBuilder):
 
     builder.move("DRAGONRUSH").change_move_base_power(100, 85).change_move_accuracy(75, 90)
     builder.move("WILDCHARGE", "No longer causes recoil.")
-    builder.move("ESPERWING", "Now has +1 priority, but no extra crits or speed boost.") \
-        .change_move_base_power(80, 70)
+    builder.move(
+        "ESPERWING", "Now has +1 priority, but no extra crits or speed boost."
+    ).change_move_base_power(80, 70)
 
     blastoise = builder.pokemon(
         "BLASTOISE",
@@ -74,9 +75,9 @@ def build_changes(builder: ChangelogBuilder):
     staraptor.add_base_stat_change("spe", 100, 115)
     staraptor.add_level_up_move(70, "HIJUMPKICK")
 
-    builder.pokemon("BASTIODON")\
-        .add_ability_change(None, "EARTHEATER")\
-        .add_base_stat_change("hp", 60, 65)
+    builder.pokemon("BASTIODON").add_ability_change(None, "EARTHEATER").add_base_stat_change(
+        "hp", 60, 65
+    )
 
     luxray = builder.pokemon(
         "LUXRAY",

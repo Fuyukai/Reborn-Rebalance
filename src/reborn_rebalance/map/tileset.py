@@ -125,6 +125,8 @@ def load_all_tilesets(root_game_path: Path) -> AllTilesets:
     executable.)
     """
 
+    # TODO: figure out how the fuck to load auto tiles so there's not massive holes
+
     images_path = root_game_path / "Graphics" / "Tilesets"
 
     try:

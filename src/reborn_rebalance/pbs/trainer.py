@@ -3,7 +3,7 @@ from __future__ import annotations
 import csv
 from functools import partial
 from io import StringIO
-from typing import Iterator, Iterable
+from typing import Iterable, Iterator
 
 import attr
 import cattrs.gen
@@ -417,9 +417,9 @@ class TrainerCatalog:
     @classmethod
     def add_unstructure_hook(cls, converter: Converter):
         hook = cattrs.gen.make_dict_unstructure_fn(
-            cls, converter, trainers=override(
-                unstruct_hook=partial(cls.trainers_structure_hook, converter)
-            )
+            cls,
+            converter,
+            trainers=override(unstruct_hook=partial(cls.trainers_structure_hook, converter)),
         )
         converter.register_unstructure_hook(cls, hook)
 

@@ -1,6 +1,10 @@
 {# Contains macros shared between the Pokémon and dedicated Changelog pages. #}
 {% from "helpers.html" import base_stat_name, type_link %}
 
+{%- macro changelog_klass(before, after) %}
+{% if before > after %} has-text-danger {% else %} has-text-success {% endif %}
+{%- endmacro -%}
+
 {%- macro version_comments(changeset, version) -%}
 {% if version in changeset._comments %}
 <li>
