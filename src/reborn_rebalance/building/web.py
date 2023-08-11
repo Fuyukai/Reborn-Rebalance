@@ -281,7 +281,11 @@ def main():
 
     changelog = build_changelog(catalog)
 
-    loader = jinja2.FileSystemLoader(searchpath=template_dir)
+    search_paths = [template_dir]
+    if (wdir := input_dir / "walkthroughs").exists():
+        search_paths.append(wdir)
+
+    loader = jinja2.FileSystemLoader(searchpath=search_paths)
     env = jinja2.Environment(loader=loader, undefined=jinja2.StrictUndefined)
     env.globals["catalog"] = catalog
     env.globals["changelog"] = changelog
@@ -311,6 +315,16 @@ def main():
     for map in tqdm(catalog.maps.values(), desc="Map Page Rendering"):
         path = output_dir / "maps" / f"{map.id:03d}.html"
         path.write_text(maps_template.render(map=map))
+
+    (output_dir / "walkthroughs").mkdir(exist_ok=True, parents=True)
+    if wdir.exists():
+        for path in wdir.iterdir():
+            if not path.is_dir():
+                continue
+
+            template = env.get_template(f"{path.name}/page.html")
+            output = (output_dir / "walkthroughs" / path.name).with_suffix(".html")
+            output.write_text(template.render())
 
     # now make sure the sprites and static data are all there
     shutil.copytree(template_dir / "static", output_dir / "static", dirs_exist_ok=True)
