@@ -171,9 +171,13 @@
 
         <footer class="card-footer">
             {%- macro ab(iname) -%}
-            {% set ability_name = catalog.ability_name_mapping[iname].display_name %}
-            <a href="/abilities/{{ iname.lower() }}.html" class="card-footer-item">
-                {{ ability_name }}
+            {% set ability = catalog.ability_name_mapping[iname] %}
+            <a
+                    href="/abilities/{{ iname.lower() }}.html"
+                    class="card-footer-item"
+                    title="{{ ability.description }}"
+            >
+                {{ ability.display_name }}
             </a>
             {%- endmacro -%}
 
