@@ -33,7 +33,7 @@
                 <div class="navbar-dropdown">
                     {% for entry in navbar_maps %}
                     {% if not entry.submaps %}
-                    <a class="navbar-item" href="/maps/{{ entry.id }}.html">{{ entry.name }}</a>
+                    <a class="navbar-item" href="/maps/{{ '{:03d}'.format(entry.id) }}.html">{{ entry.name }}</a>
                     {% else %}
                     <div class="nested dropdown">
                         <a class="navbar-item override-colour">
@@ -46,7 +46,7 @@
                         <div class="dropdown-menu" role="menu">
                             <div class="dropdown-content">
                                 {% for submap in entry.submaps %}
-                                <a class="dropdown-item" href="/maps/{{ submap.id }}.html">{{ submap.name }}</a>
+                                <a class="dropdown-item" href="/maps/{{ '{:03d}'.format(submap.id) }}.html">{{ submap.name }}</a>
                                 {% endfor %}
                             </div>
                         </div>
