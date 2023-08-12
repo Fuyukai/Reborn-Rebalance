@@ -6,17 +6,17 @@ growth_rate = "Medium"
 exp_yield = 173
 catch_rate = 225
 caught_happiness = 70
-raw_abilities = ["POISONPOINT", "POISONTOUCH"]
+raw_abilities = ["POISONPOINT", "CORROSION", "TOXICDEBRIS"]
 raw_egg_moves = []
 raw_tms = ["SURF", "WATERFALL", "TOXIC", "DIVE", "HAIL", "VENOSHOCK", "HIDDENPOWER", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "SHADOWBALL", "DOUBLETEAM", "SLUDGEWAVE", "SLUDGEBOMB", "FACADE", "REST", "ATTRACT", "ROUND", "FOCUSBLAST", "SCALD", "GIGAIMPACT", "DRAGONTAIL", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "LEAFBLADE", "HYDROPUMP", "LEAFSTORM", "ENDURE", "TOXICSPIKES", "PLAYROUGH", "VENOMDRENCH", "SNOWSCAPE", "CHILLINGWATER"]
-raw_tutor_moves = ["AQUATAIL", "BOUNCE", "DRACOMETEOR", "DRAGONPULSE", "GUNKSHOT", "ICYWIND", "IRONTAIL", "OUTRAGE", "SHOCKWAVE", "SNORE", "WATERPULSE", "FLIPTURN", "SCALESHOT", "MIMIC", "POISONTAIL"]
+raw_tutor_moves = ["AQUATAIL", "BOUNCE", "DRACOMETEOR", "DRAGONPULSE", "GUNKSHOT", "ICYWIND", "IRONTAIL", "OUTRAGE", "SHOCKWAVE", "SNORE", "WATERPULSE", "FLIPTURN", "SCALESHOT", "MIMIC", "POISONTAIL", "SYNTHESIS"]
 compatible_egg_groups = ["Water1", "Dragon"]
 steps_to_hatch = 5120
 height = 1.8
 weight = 81.5
 colour = "Brown"
 kind = "Mock Kelp"
-pokedex_entry = "Tales are told of ships that wander into seas where Dragalge live, never to return."
+pokedex_entry = "It blends in with seaweed to ambush its prey and then takes them down with a poisonous liquid strong enough to melt metal."
 battler_player_y = 1
 battler_enemy_y = -4
 battler_altitude = 2
@@ -24,7 +24,6 @@ evolutions = []
 form_names = []
 dex_number = 691
 internal_name = "DRAGALGE"
-raw_hidden_ability = "ADAPTABILITY"
 
 [[raw_level_up_moves]]
 at_level = 1
@@ -111,10 +110,10 @@ at_level = 59
 name = "DRAGONTAIL"
 
 [base_stats]
-hp = 65
+hp = 80
 atk = 75
-def_ = 90
-spa = 97
+def_ = 94
+spa = 119
 spd = 123
 spe = 44
 

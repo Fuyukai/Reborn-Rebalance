@@ -138,6 +138,14 @@ def build_changes(builder: ChangelogBuilder):
     builder.pokemon("KLINKLANG").add_ability_change(None, "SPEEDBOOST")
     builder.pokemon("CHANDELURE", "You are absolutely fucking not getting Shadow Tag on this.")
 
+    builder.pokemon("STUNFISK", "Shoutouts to /r/stunfisk").add_ability_change(
+        "SANDVEIL", "COMPETITIVE"
+    )
+
+    builder.pokemon(
+        "BOUFFALANT", "The raging bull Pokémon now gets an appropriate ability."
+    ).add_ability_change("SOUNDPROOF", "BERSERK")
+
     haxorus = builder.pokemon("HAXORUS", "Is now the psuedo-Legend it was always destined to be.")
     haxorus.add_base_stat_change("hp", 76, 96)
     haxorus.add_base_stat_change("atk", 147, 150)
@@ -149,6 +157,14 @@ def build_changes(builder: ChangelogBuilder):
     haxorus.add_level_up_move(52, "JAWLOCK")
 
     builder.pokemon(
+        "CUBCHOO", "We've got you surrounded! Come miss every single move!"
+    ).add_ability_change("SNOWCLOAK", "TOUGHCLAWS")
+
+    builder.pokemon(
+        "BEARTIC", "I hate evasion abilities! I hate evasion abilities!"
+    ).add_ability_change("SNOWCLOAK", "TOUGHCLAWS").add_ability_change("SWIFTSWIM", "SLUSHRUSH")
+
+    builder.pokemon(
         "BARBARACLE",
         """
         All-Gen Patch's custom mega bafflingly makes this a special attacker, despite having a
@@ -158,20 +174,18 @@ def build_changes(builder: ChangelogBuilder):
     )
 
     builder.pokemon(
-        "CUBCHOO", "We've got you surrounded! Come miss every single move!"
-    ).add_ability_change("SNOWCLOAK", "TOUGHCLAWS")
-
-    builder.pokemon(
-        "BEARTIC", "I hate evasion abilities! I hate evasion abilities!"
-    ).add_ability_change("SNOWCLOAK", "TOUGHCLAWS").add_ability_change("SWIFTSWIM", "SLUSHRUSH")
-
-    builder.pokemon("STUNFISK", "Shoutouts to /r/stunfisk").add_ability_change(
-        "SANDVEIL", "COMPETITIVE"
-    )
-
-    builder.pokemon(
-        "BOUFFALANT", "The raging bull Pokémon now gets an appropriate ability."
-    ).add_ability_change("SOUNDPROOF", "BERSERK")
+        "DRAGALGE",
+        """
+        For a Pokémon that evolves at level 48, it sure does have a sad BST. Its been given a 
+        stat buff, as well as more appropriate abilities than a duplicate one.
+        """
+    )\
+        .add_base_stat_change("hp", 65, 80)\
+        .add_base_stat_change("def", 90, 94)\
+        .add_base_stat_change("spa", 97, 119)\
+        .add_ability_change("POISONTOUCH", "CORROSION")\
+        .add_ability_change("ADAPTABILITY", "TOXICDEBRIS")\
+        .add_tutor_move("SYNTHESIS")
 
     builder.pokemon(
         "CHARJABUG", "Now evolves inside Shade's Gym (location 281), similar to old Magneton."
