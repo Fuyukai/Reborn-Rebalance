@@ -183,8 +183,7 @@ def build_changes(builder: ChangelogBuilder):
         .add_base_stat_change("hp", 65, 80)\
         .add_base_stat_change("def", 90, 94)\
         .add_base_stat_change("spa", 97, 119)\
-        .add_ability_change("POISONTOUCH", "CORROSION")\
-        .add_ability_change("ADAPTABILITY", "TOXICDEBRIS")\
+        .add_ability_change("POISONTOUCH", "TOXICDEBRIS")\
         .add_tutor_move("SYNTHESIS")
 
     builder.pokemon(
