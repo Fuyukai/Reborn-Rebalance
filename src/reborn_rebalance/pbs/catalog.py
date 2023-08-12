@@ -178,9 +178,9 @@ class EssentialsCatalog:
         return types.MappingProxyType({it.name: it for it in self.abilities})
 
     @cached_property
-    def pre_evolutionary_cache(self) -> Mapping[str, PokemonEvolution]:
+    def pre_evolutionary_cache(self) -> Mapping[str, tuple[PokemonSpecies, PokemonEvolution]]:
         """
-        Gets a mapping of (species -> pre-evolution).
+        Gets a mapping of (species -> (pre-evo species, pre-evolution)).
         """
 
         # luckily, there's no cases of multiple species eevolving into one pokemon.
@@ -188,7 +188,7 @@ class EssentialsCatalog:
 
         for species in self.species:
             for evo in species.evolutions:
-                d[evo.into_name] = evo
+                d[evo.into_name] = (species, evo)
 
         return types.MappingProxyType(d)
 
@@ -670,7 +670,8 @@ class EssentialsCatalog:
         """
 
         before: PokemonSpecies | None = None
-        before_evo: PokemonEvolution | None = self.pre_evolutionary_cache.get(species.internal_name)
+        before_evo: PokemonEvolution | None = None
+        before, before_evo = self.pre_evolutionary_cache.get(species.internal_name, (None, None))
 
         after = []
         for into in species.evolutions:
