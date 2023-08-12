@@ -105,6 +105,14 @@ class PokemonChangeSet(BaseChangeSet):
         self._add_change({"key": "move", "type": "tm", "action": "remove", "number": tm})
         return self
 
+    def add_tutor_move(self, name: str) -> Self:
+        """
+        Adds a tutor move to this Pokémon's learnset.
+        """
+
+        self._add_change({"key": "move", "type": "tutor", "action": "add", "move": name})
+        return self
+
 
 class MoveChangeSet(BaseChangeSet):
     """

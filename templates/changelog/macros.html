@@ -108,6 +108,19 @@
                     <a href="/moves/{{ move.internal_name.lower() }}">{{ move.display_name }}</a>
                 </b>
                 {% endif %}
+            {% elif type == "tutor" %}
+                {% set move = catalog.move_mapping[change.move] %}
+
+                {% if change.action == "add" %}
+                <b class="has-text-success">Added tutor move
+                    <a href="/moves/{{ move.internal_name.lower() }}">{{ move.display_name }}</a>
+                </b>
+
+                {% else %}
+                <b class="has-text-success">Removed tutor move
+                    <a href="/moves/{{ move.internal_name.lower() }}">{{ move.display_name }}</a>
+                </b>
+                {% endif %}
             {% endif %}
         {% elif key == "ability" %}
             {% set new_ability = catalog.ability_name_mapping[change.new] %}
