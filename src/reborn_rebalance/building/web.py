@@ -281,9 +281,11 @@ def main():
 
     changelog = build_changelog(catalog)
 
+    walkthru_statics = []
     search_paths = [template_dir]
     if (wdir := input_dir / "walkthroughs").exists():
         search_paths.append(wdir)
+
 
     loader = jinja2.FileSystemLoader(searchpath=search_paths)
     env = jinja2.Environment(loader=loader, undefined=jinja2.StrictUndefined)
@@ -322,6 +324,9 @@ def main():
             if not path.is_dir():
                 continue
 
+            if (wdir_static := path / "static").exists():
+                walkthru_statics.append(wdir_static)
+
             template = env.get_template(f"{path.name}/page.html")
             output = (output_dir / "walkthroughs" / path.name).with_suffix(".html")
             output.write_text(template.render())
@@ -330,6 +335,10 @@ def main():
     shutil.copytree(template_dir / "static", output_dir / "static", dirs_exist_ok=True)
     shutil.copytree(pokesprites, output_dir / "sprites", dirs_exist_ok=True)
     shutil.copytree(maps_dir, output_dir / "static" / "maps", dirs_exist_ok=True)
+
+    for static_dir in walkthru_statics:
+        output = output_dir / "static" / static_dir.parent.name
+        shutil.copytree(static_dir, output, dirs_exist_ok=True)
 
 
 if __name__ == "__main__":
