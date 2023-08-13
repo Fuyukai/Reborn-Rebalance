@@ -20,7 +20,6 @@ from reborn_rebalance.pbs.catalog import EssentialsCatalog
 from reborn_rebalance.pbs.encounters import ENCOUNTER_SLOTS
 from reborn_rebalance.pbs.map import FIELD_NAMES
 from reborn_rebalance.pbs.move import MoveCategory
-from reborn_rebalance.template_util import TemplateUtil
 
 
 @attr.s(slots=True, kw_only=True)
@@ -332,8 +331,6 @@ def main():
         env.globals["navbar_walkthroughs"] = load_navbar_walkthroughs(wdir / "navbar.toml")
     else:
         env.globals["navbar_walkthroughs"] = None
-
-    env.globals["TemplateUtil"] = TemplateUtil(catalog)
 
     # build single-file templates
     with (output_dir / "changelog.html").open(mode="w", encoding="utf-8") as f:
