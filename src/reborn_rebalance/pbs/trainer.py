@@ -202,7 +202,7 @@ class SingleTrainerPokemon:
             ability_number = int(line[7])
         except (IndexError, ValueError):
             # aaaaaa
-            ability_number = 0
+            ability_number = 1
 
         sex = get_safely(line, 8, "M")
         try:

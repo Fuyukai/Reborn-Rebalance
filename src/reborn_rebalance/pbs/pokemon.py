@@ -102,6 +102,14 @@ class StatWrapper:
     spd: int = attr.ib()
     spe: int = attr.ib()
 
+    def __iter__(self):
+        yield self.hp
+        yield self.atk
+        yield self.def_
+        yield self.spa
+        yield self.spd
+        yield self.spe
+
     @classmethod
     def empty(cls) -> StatWrapper:
         return StatWrapper(hp=0, atk=0, def_=0, spa=0, spd=0, spe=0)
@@ -136,6 +144,9 @@ class StatWrapper:
         spd = int(get_safely(items, 5, 0))
 
         return StatWrapper(hp=hp, atk=atk, def_=def_, spe=spe, spa=spa, spd=spd)
+
+    def to_slashed_list(self) -> str:
+        return "/".join(map(str, self))
 
     def sum(self) -> int:
         """

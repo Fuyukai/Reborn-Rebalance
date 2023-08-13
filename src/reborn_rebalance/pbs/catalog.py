@@ -178,6 +178,10 @@ class EssentialsCatalog:
         return types.MappingProxyType({it.name: it for it in self.abilities})
 
     @cached_property
+    def item_mapping(self) -> Mapping[str, PokemonItem]:
+        return types.MappingProxyType({it.internal_name: it for it in self.items})
+
+    @cached_property
     def pre_evolutionary_cache(self) -> Mapping[str, tuple[PokemonSpecies, PokemonEvolution]]:
         """
         Gets a mapping of (species -> (pre-evo species, pre-evolution)).

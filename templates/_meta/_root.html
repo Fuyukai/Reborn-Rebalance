@@ -55,6 +55,32 @@
                     {% endfor %}
                 </div>
             </div>
+
+            {% if navbar_walkthroughs %}
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link" href="#">Walkthroughs</a>
+                <div class="navbar-dropdown">
+                    {% for entry in navbar_walkthroughs %}
+                    <div class="nested dropdown">
+                        <a class="navbar-item override-colour">
+                            <span>
+                                {{ entry.name }}
+                                <i class="bi bi-chevron-right"></i>
+                            </span>
+                        </a>
+
+                        <div class="dropdown-menu" role="menu">
+                            <div class="dropdown-content">
+                                {% for iname, name in entry.chapters %}
+                                <a class="dropdown-item" href="/walkthroughs/{{ iname }}.html">{{ name }}</a>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endif %}
         </div>
 
         <div class="navbar-end">

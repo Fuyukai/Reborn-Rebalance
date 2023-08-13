@@ -20,6 +20,7 @@ from reborn_rebalance.pbs.catalog import EssentialsCatalog
 from reborn_rebalance.pbs.encounters import ENCOUNTER_SLOTS
 from reborn_rebalance.pbs.map import FIELD_NAMES
 from reborn_rebalance.pbs.move import MoveCategory
+from reborn_rebalance.template_util import TemplateUtil
 
 
 @attr.s(slots=True, kw_only=True)
@@ -61,6 +62,38 @@ def load_navbar_maps(catalog: EssentialsCatalog, path: Path) -> list[MapSidebarE
         entires.append(parsed)
 
     return entires
+
+
+@attr.s(kw_only=True)
+class WalkthroughEntry:
+    """
+    A root entry in the navbar walkthrough view.
+    """
+
+    #: The name for this entry.
+    name: str = attr.ib()
+
+    #: The list of chapters for this entry.
+    #: Tuple of (internal name, display name).
+    chapters: list[tuple[str, str]] = attr.ib(factory=list)
+
+
+def load_navbar_walkthroughs(path: Path) -> list[WalkthroughEntry]:
+    """
+    Loads the walkthrough links for the navigation bar.
+    """
+
+    raw_data = rtoml.loads(path.read_text())
+    entries: list[WalkthroughEntry] = []
+
+    for name, data in raw_data["section"].items():
+        entry = WalkthroughEntry(name=name)
+        for chapter in data.get("chapters", []):
+            entry.chapters.append((chapter["name"], chapter["text"]))
+
+        entries.append(entry)
+
+    return entries
 
 
 def crop_form_sprites(catalog: EssentialsCatalog, game_dir: Path, output_dir: Path):
@@ -286,7 +319,6 @@ def main():
     if (wdir := input_dir / "walkthroughs").exists():
         search_paths.append(wdir)
 
-
     loader = jinja2.FileSystemLoader(searchpath=search_paths)
     env = jinja2.Environment(loader=loader, undefined=jinja2.StrictUndefined)
     env.globals["catalog"] = catalog
@@ -295,6 +327,13 @@ def main():
     env.globals["ENCOUNTER_SLOTS"] = ENCOUNTER_SLOTS
     env.globals["FIELD_NAMES"] = FIELD_NAMES
     env.globals["navbar_maps"] = load_navbar_maps(catalog, input_dir / "web" / "navbar_maps.toml")
+
+    if wdir.exists():
+        env.globals["navbar_walkthroughs"] = load_navbar_walkthroughs(wdir / "navbar.toml")
+    else:
+        env.globals["navbar_walkthroughs"] = None
+
+    env.globals["TemplateUtil"] = TemplateUtil(catalog)
 
     # build single-file templates
     with (output_dir / "changelog.html").open(mode="w", encoding="utf-8") as f:
