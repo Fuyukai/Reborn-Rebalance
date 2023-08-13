@@ -269,16 +269,15 @@ class SingleTrainerPokemon:
         """
 
         if len(self.raw_moves) == 0:
-            # fuck
-            return [self.internal_name, str(self.level)]
-
-        # pad moves out if its less than 4
-        moves = []
-        for idx in range(0, 4):
-            try:
-                moves.append(self.raw_moves[idx])
-            except IndexError:
-                moves.append("")
+            moves = [""] * 4
+        else:
+            # pad moves out if its less than 4
+            moves = []
+            for idx in range(0, 4):
+                try:
+                    moves.append(self.raw_moves[idx])
+                except IndexError:
+                    moves.append("")
 
         if self.evs:
             ev_data = [
