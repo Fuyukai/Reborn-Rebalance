@@ -39,7 +39,7 @@
 {%- endmacro -%}
 
 {%- macro move_entry(attributes, level_up_at, internal_name) -%}
-{% set move = catalog.move_by_name(internal_name) %}
+{% set move = catalog.move_mapping[internal_name] %}
 {% if move is none %}
 <tr>
     <td class="has-text-right">{{ level_up_at }}</td>

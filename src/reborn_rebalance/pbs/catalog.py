@@ -149,8 +149,8 @@ class EssentialsCatalog:
     #: The mapping of encounters for map IDs to encounter data.
     encounters: dict[int, MapEncounters] = attr.ib()
 
-    #: The mapping of trainer type ID -> trainer type.
-    trainer_types: dict[int, TrainerType] = attr.ib()
+    #: The mapping of trainer type name -> trainer type.
+    trainer_types: dict[str, TrainerType] = attr.ib()
 
     #: The mapping of trainer name -> list of trainers.
     trainers: dict[str, TrainerCatalog] = attr.ib()
@@ -639,11 +639,10 @@ class EssentialsCatalog:
         Finds a TM's number by its move's internal name.
         """
 
-        for tm in self.tms:
-            if tm.move == tm_name:
-                return tm.number
-
-        return None
+        try:
+            return self.tm_name_mapping[tm_name].number
+        except KeyError:
+            return None
 
     def tm_move_for(self, id: int) -> PokemonMove:
         """

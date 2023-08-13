@@ -674,7 +674,7 @@ def save_map_metadata_to_toml(path: Path, maps: dict[int, MapMetadata]):
         dump(output, f)
 
 
-def load_trainer_types_from_pbs(path: Path) -> dict[int, TrainerType]:
+def load_trainer_types_from_pbs(path: Path) -> dict[str, TrainerType]:
     """
     Loads all trainer types from PBS.
     """
@@ -683,10 +683,10 @@ def load_trainer_types_from_pbs(path: Path) -> dict[int, TrainerType]:
         reader = csv.reader(row for row in f if not row.startswith("#"))
         types = [TrainerType.from_csv_row(it) for it in reader]
 
-    return {it.id: it for it in types}
+    return {it.internal_name: it for it in types}
 
 
-def load_trainer_types_from_toml(path: Path) -> dict[int, TrainerType]:
+def load_trainer_types_from_toml(path: Path) -> dict[str, TrainerType]:
     """
     Loads all trainer types from TOML.
     """
@@ -694,14 +694,15 @@ def load_trainer_types_from_toml(path: Path) -> dict[int, TrainerType]:
     with path.open(encoding="utf-8", mode="r") as f:
         data = load(f)["trainer_types"]
 
-    types: dict[int, TrainerType] = {}
+    types: dict[str, TrainerType] = {}
     for s_idx, raw_type in data.items():
-        types[int(s_idx)] = CONVERTER.structure(raw_type, TrainerType)
+        structured = CONVERTER.structure(raw_type, TrainerType)
+        types[structured.internal_name] = structured
 
     return types
 
 
-def save_trainer_types_to_pbs(path: Path, types: dict[int, TrainerType]):
+def save_trainer_types_to_pbs(path: Path, types: dict[str, TrainerType]):
     """
     Saves all trainer types to PBS.
     """
@@ -714,7 +715,7 @@ def save_trainer_types_to_pbs(path: Path, types: dict[int, TrainerType]):
             writer.writerow(type.into_csv_row())
 
 
-def save_trainer_types_to_toml(path: Path, types: dict[int, TrainerType]):
+def save_trainer_types_to_toml(path: Path, types: dict[str, TrainerType]):
     """
     Saves all trainer types to TOML.
     """

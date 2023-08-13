@@ -1,19 +1,18 @@
-[trainer_types]
-[trainer_types.0]
+[trainer_types.PkMnTRAINER_Male]
 id = 0
 internal_name = "PkMnTRAINER_Male"
 name_prefix = "PkMn Trainer"
 money_per_level = 100
 gender = "Male"
 
-[trainer_types.1]
+[trainer_types.PkMnTRAINER_Female]
 id = 1
 internal_name = "PkMnTRAINER_Female"
 name_prefix = "PkMn Trainer"
 money_per_level = 100
 gender = "Female"
 
-[trainer_types.2]
+[trainer_types.Punk]
 id = 2
 internal_name = "Punk"
 name_prefix = "Punk"
@@ -21,7 +20,7 @@ money_per_level = 7
 gender = "Female"
 skill_level = 50
 
-[trainer_types.3]
+[trainer_types.YOUNGSTER]
 id = 3
 internal_name = "YOUNGSTER"
 name_prefix = "Youngster"
@@ -29,7 +28,7 @@ money_per_level = 4
 gender = "Male"
 skill_level = 20
 
-[trainer_types.4]
+[trainer_types.HIKER]
 id = 4
 internal_name = "HIKER"
 name_prefix = "Hiker"
@@ -37,7 +36,7 @@ money_per_level = 9
 gender = "Male"
 skill_level = 35
 
-[trainer_types.5]
+[trainer_types.BEAUTY]
 id = 5
 internal_name = "BEAUTY"
 name_prefix = "Posh"
@@ -45,7 +44,7 @@ money_per_level = 12
 gender = "Female"
 skill_level = 35
 
-[trainer_types.6]
+[trainer_types.FISHERMAN]
 id = 6
 internal_name = "FISHERMAN"
 name_prefix = "Fisherman"
@@ -53,7 +52,7 @@ money_per_level = 9
 gender = "Male"
 skill_level = 31
 
-[trainer_types.7]
+[trainer_types.LADY]
 id = 7
 internal_name = "LADY"
 name_prefix = "Lady"
@@ -61,7 +60,7 @@ money_per_level = 16
 gender = "Female"
 skill_level = 50
 
-[trainer_types.8]
+[trainer_types.NatureGirl]
 id = 8
 internal_name = "NatureGirl"
 name_prefix = "Nature Girl"
@@ -69,7 +68,7 @@ money_per_level = 11
 gender = "Female"
 skill_level = 35
 
-[trainer_types.9]
+[trainer_types.Exleader]
 id = 9
 internal_name = "Exleader"
 name_prefix = "Igneous"
@@ -78,7 +77,7 @@ bgm = "CBattle- Caliente.ogg"
 end_sfx = "Victory2"
 gender = "Male"
 
-[trainer_types.10]
+[trainer_types.Doxy]
 id = 10
 internal_name = "Doxy"
 name_prefix = "Doxy"
@@ -86,7 +85,7 @@ money_per_level = 7
 gender = "Female"
 skill_level = 35
 
-[trainer_types.11]
+[trainer_types.Solaris]
 id = 11
 internal_name = "Solaris"
 name_prefix = "Meteor Leader"
@@ -95,7 +94,7 @@ bgm = "CBattle- Supreme.ogg"
 end_sfx = "Victory2"
 gender = "Male"
 
-[trainer_types.12]
+[trainer_types.BUGCATCHER]
 id = 12
 internal_name = "BUGCATCHER"
 name_prefix = "Pokemon"
@@ -104,7 +103,7 @@ bgm = "Battle- Wild2.ogg"
 gender = "Male"
 skill_level = 75
 
-[trainer_types.13]
+[trainer_types.AYA]
 id = 13
 internal_name = "AYA"
 name_prefix = "Wasteland Punk"
@@ -113,7 +112,7 @@ bgm = "CBattle- Cyanide.ogg"
 end_sfx = "Victory2"
 gender = "Female"
 
-[trainer_types.14]
+[trainer_types.DOCTOR]
 id = 14
 internal_name = "DOCTOR"
 name_prefix = "Dr."
@@ -122,7 +121,7 @@ bgm = "CBattle- Authority.ogg"
 end_sfx = "Victory2"
 gender = "Male"
 
-[trainer_types.15]
+[trainer_types.Sirius]
 id = 15
 internal_name = "Sirius"
 name_prefix = "Meteor Admin"
@@ -131,7 +130,7 @@ bgm = "CBattle- Vengeance.ogg"
 end_sfx = "Victory2"
 gender = "Male"
 
-[trainer_types.16]
+[trainer_types.BLACKBELT]
 id = 16
 internal_name = "BLACKBELT"
 name_prefix = "Black Belt"
@@ -139,7 +138,7 @@ money_per_level = 11
 gender = "Male"
 skill_level = 35
 
-[trainer_types.17]
+[trainer_types.RANGERF]
 id = 17
 internal_name = "RANGERF"
 name_prefix = "Ranger"
@@ -147,7 +146,7 @@ money_per_level = 13
 gender = "Female"
 skill_level = 50
 
-[trainer_types.18]
+[trainer_types.BENNETT]
 id = 18
 internal_name = "BENNETT"
 name_prefix = "Lepidopterist"
@@ -156,7 +155,7 @@ bgm = "CBattle- Antennae.ogg"
 end_sfx = "Victory2"
 gender = "Male"
 
-[trainer_types.19]
+[trainer_types.EL]
 id = 19
 internal_name = "EL"
 name_prefix = "Parson"
@@ -165,7 +164,7 @@ bgm = "Battle- Legendary.ogg"
 end_sfx = "Victory2"
 gender = "Male"
 
-[trainer_types.20]
+[trainer_types.SERRA]
 id = 20
 internal_name = "SERRA"
 name_prefix = "Beauty Queen"
@@ -174,7 +173,7 @@ bgm = "CBattle- Mirror.ogg"
 end_sfx = "Victory2"
 gender = "Female"
 
-[trainer_types.21]
+[trainer_types.Steelix]
 id = 21
 internal_name = "Steelix"
 name_prefix = "Pokemon"
@@ -184,7 +183,7 @@ end_sfx = "Victory2"
 gender = "Male"
 skill_level = 75
 
-[trainer_types.22]
+[trainer_types.NOEL]
 id = 22
 internal_name = "NOEL"
 name_prefix = "Prodigy"
@@ -193,7 +192,7 @@ bgm = "CBattle- Prodigy.ogg"
 end_sfx = "Victory2"
 gender = "Male"
 
-[trainer_types.23]
+[trainer_types.RADOMUS]
 id = 23
 internal_name = "RADOMUS"
 name_prefix = "Grandmaster"
@@ -202,21 +201,21 @@ bgm = "CBattle- Checkmate.ogg"
 end_sfx = "Victory2"
 gender = "Male"
 
-[trainer_types.24]
+[trainer_types.PkMnTRAINER_Male2]
 id = 24
 internal_name = "PkMnTRAINER_Male2"
 name_prefix = "PkMn Trainer"
 money_per_level = 100
 gender = "Male"
 
-[trainer_types.25]
+[trainer_types.PkMnTRAINER_Female2]
 id = 25
 internal_name = "PkMnTRAINER_Female2"
 name_prefix = "PkMn Trainer"
 money_per_level = 100
 gender = "Female"
 
-[trainer_types.26]
+[trainer_types.PANGORO]
 id = 26
 internal_name = "PANGORO"
 name_prefix = "Pokemon"
@@ -224,7 +223,7 @@ money_per_level = 0
 gender = "Male"
 skill_level = 90
 
-[trainer_types.27]
+[trainer_types.KLINKLANG]
 id = 27
 internal_name = "KLINKLANG"
 name_prefix = "Pokemon"
@@ -232,7 +231,7 @@ money_per_level = 0
 gender = "Male"
 skill_level = 50
 
-[trainer_types.28]
+[trainer_types.GENTLEMAN]
 id = 28
 internal_name = "GENTLEMAN"
 name_prefix = "Gentleman"
@@ -240,7 +239,7 @@ money_per_level = 20
 gender = "Male"
 skill_level = 50
 
-[trainer_types.29]
+[trainer_types.HARRIDAN]
 id = 29
 internal_name = "HARRIDAN"
 name_prefix = "Harridan"
@@ -248,7 +247,7 @@ money_per_level = 36
 gender = "Male"
 skill_level = 90
 
-[trainer_types.30]
+[trainer_types.Cultist]
 id = 30
 internal_name = "Cultist"
 name_prefix = "Acolyte"
@@ -256,7 +255,7 @@ money_per_level = 12
 gender = "Male"
 skill_level = 50
 
-[trainer_types.31]
+[trainer_types.Maxwell]
 id = 31
 internal_name = "Maxwell"
 name_prefix = "Magma Kingpin"
@@ -265,7 +264,7 @@ bgm = "Battle- Upbeat.ogg"
 gender = "Male"
 skill_level = 90
 
-[trainer_types.32]
+[trainer_types.Archer]
 id = 32
 internal_name = "Archer"
 name_prefix = "Aqua Mastermind"
@@ -274,7 +273,7 @@ bgm = "Battle- Upbeat.ogg"
 gender = "Male"
 skill_level = 90
 
-[trainer_types.33]
+[trainer_types.BATTLEGIRL]
 id = 33
 internal_name = "BATTLEGIRL"
 name_prefix = "Battle Girl"
@@ -282,7 +281,7 @@ money_per_level = 12
 gender = "Female"
 skill_level = 50
 
-[trainer_types.34]
+[trainer_types.LUNA]
 id = 34
 internal_name = "LUNA"
 name_prefix = "Dark Dreamer"
@@ -291,7 +290,7 @@ bgm = "CBattle- Threads.ogg"
 end_sfx = "Victory2"
 gender = "Female"
 
-[trainer_types.35]
+[trainer_types.MAGMA2]
 id = 35
 internal_name = "MAGMA2"
 name_prefix = "Magma Gang"
@@ -299,7 +298,7 @@ money_per_level = 9
 gender = "Male"
 skill_level = 50
 
-[trainer_types.36]
+[trainer_types.BEARTIC]
 id = 36
 internal_name = "BEARTIC"
 name_prefix = "Pokemon"
@@ -307,7 +306,7 @@ money_per_level = 0
 gender = "Male"
 skill_level = 50
 
-[trainer_types.37]
+[trainer_types.EXPERT_Male]
 id = 37
 internal_name = "EXPERT_Male"
 name_prefix = "Elder"
@@ -315,7 +314,7 @@ money_per_level = 13
 gender = "Male"
 skill_level = 75
 
-[trainer_types.38]
+[trainer_types.Clown]
 id = 38
 internal_name = "Clown"
 name_prefix = "Clown"
@@ -323,7 +322,7 @@ money_per_level = 13
 gender = "Male"
 skill_level = 35
 
-[trainer_types.39]
+[trainer_types.SAMSON]
 id = 39
 internal_name = "SAMSON"
 name_prefix = "Strongman"
@@ -332,7 +331,7 @@ bgm = "CBattle- Strongman.ogg"
 end_sfx = "Victory2"
 gender = "Male"
 
-[trainer_types.40]
+[trainer_types.AQUA2]
 id = 40
 internal_name = "AQUA2"
 name_prefix = "Aqua Gang"
@@ -340,7 +339,7 @@ money_per_level = 9
 gender = "Male"
 skill_level = 50
 
-[trainer_types.41]
+[trainer_types.AQUA1]
 id = 41
 internal_name = "AQUA1"
 name_prefix = "Aqua Gang"
@@ -348,7 +347,7 @@ money_per_level = 7
 gender = "Male"
 skill_level = 35
 
-[trainer_types.42]
+[trainer_types.MAGMA1]
 id = 42
 internal_name = "MAGMA1"
 name_prefix = "Magma Gang"
@@ -356,14 +355,14 @@ money_per_level = 7
 gender = "Male"
 skill_level = 35
 
-[trainer_types.43]
+[trainer_types.HAXORUS]
 id = 43
 internal_name = "HAXORUS"
 name_prefix = "Pokemon"
 money_per_level = 0
 skill_level = 90
 
-[trainer_types.44]
+[trainer_types.AsterKnight]
 id = 44
 internal_name = "AsterKnight"
 name_prefix = "Meteor Private"
@@ -373,7 +372,7 @@ end_sfx = "Victory2"
 gender = "Male"
 skill_level = 90
 
-[trainer_types.45]
+[trainer_types.EclipseDame]
 id = 45
 internal_name = "EclipseDame"
 name_prefix = "Meteor Private"
@@ -383,7 +382,7 @@ end_sfx = "Victory2"
 gender = "Female"
 skill_level = 90
 
-[trainer_types.46]
+[trainer_types.AceTrainerF]
 id = 46
 internal_name = "AceTrainerF"
 name_prefix = "Ace Trainer"
@@ -391,7 +390,7 @@ money_per_level = 13
 gender = "Female"
 skill_level = 75
 
-[trainer_types.47]
+[trainer_types.AceTrainerM]
 id = 47
 internal_name = "AceTrainerM"
 name_prefix = "Ace Trainer"
@@ -399,7 +398,7 @@ money_per_level = 13
 gender = "Male"
 skill_level = 75
 
-[trainer_types.48]
+[trainer_types.CHARLOTTE]
 id = 48
 internal_name = "CHARLOTTE"
 name_prefix = "Firebug"
@@ -408,7 +407,7 @@ bgm = "CBattle- Pyromania.ogg"
 end_sfx = "Victory2"
 gender = "Female"
 
-[trainer_types.49]
+[trainer_types.PkMnRANGER_Male]
 id = 49
 internal_name = "PkMnRANGER_Male"
 name_prefix = "Ranger"
@@ -416,7 +415,7 @@ money_per_level = 13
 gender = "Male"
 skill_level = 50
 
-[trainer_types.50]
+[trainer_types.PkMnRANGER_Female]
 id = 50
 internal_name = "PkMnRANGER_Female"
 name_prefix = "Ranger"
@@ -424,7 +423,7 @@ money_per_level = 13
 gender = "Female"
 skill_level = 50
 
-[trainer_types.51]
+[trainer_types.AVALUGG]
 id = 51
 internal_name = "AVALUGG"
 name_prefix = "Pokemon"
@@ -432,19 +431,19 @@ money_per_level = 0
 bgm = "Battle- Misc.ogg"
 skill_level = 75
 
-[trainer_types.52]
+[trainer_types.PkMnTRAINER_NB]
 id = 52
 internal_name = "PkMnTRAINER_NB"
 name_prefix = "PkMn Trainer"
 money_per_level = 3
 
-[trainer_types.53]
+[trainer_types.PkMnTRAINER_NB2]
 id = 53
 internal_name = "PkMnTRAINER_NB2"
 name_prefix = "PkMn Trainer"
 money_per_level = 3
 
-[trainer_types.54]
+[trainer_types.REBORN]
 id = 54
 internal_name = "REBORN"
 name_prefix = "Reborn"
@@ -453,7 +452,7 @@ bgm = "CBattle- Caliente.ogg"
 end_sfx = "Victory2"
 gender = "Male"
 
-[trainer_types.55]
+[trainer_types.COOLTRAINER_Male]
 id = 55
 internal_name = "COOLTRAINER_Male"
 name_prefix = "Hotshot"
@@ -461,7 +460,7 @@ money_per_level = 8
 gender = "Male"
 skill_level = 35
 
-[trainer_types.56]
+[trainer_types.COOLTRAINER_Female]
 id = 56
 internal_name = "COOLTRAINER_Female"
 name_prefix = "Arcade Star"
@@ -469,7 +468,7 @@ money_per_level = 10
 gender = "Female"
 skill_level = 35
 
-[trainer_types.57]
+[trainer_types.MeteorAceM]
 id = 57
 internal_name = "MeteorAceM"
 name_prefix = "Meteor Ace"
@@ -478,7 +477,7 @@ bgm = "Battle- Meteor.ogg"
 gender = "Male"
 skill_level = 75
 
-[trainer_types.58]
+[trainer_types.MeteorAceF]
 id = 58
 internal_name = "MeteorAceF"
 name_prefix = "Meteor Ace"
@@ -487,7 +486,7 @@ bgm = "Battle- Meteor.ogg"
 gender = "Female"
 skill_level = 75
 
-[trainer_types.59]
+[trainer_types.AsterAce]
 id = 59
 internal_name = "AsterAce"
 name_prefix = "Meteor Ace"
@@ -497,7 +496,7 @@ end_sfx = "Victory2"
 gender = "Male"
 skill_level = 90
 
-[trainer_types.60]
+[trainer_types.BLAKE]
 id = 60
 internal_name = "BLAKE"
 name_prefix = "Agent"
@@ -506,7 +505,7 @@ bgm = "CBattle- Chill.ogg"
 end_sfx = "Victory2"
 gender = "Male"
 
-[trainer_types.61]
+[trainer_types.PSYCHIC_Male]
 id = 61
 internal_name = "PSYCHIC_Male"
 name_prefix = "Psychic"
@@ -514,7 +513,7 @@ money_per_level = 12
 gender = "Male"
 skill_level = 50
 
-[trainer_types.62]
+[trainer_types.PSYCHIC_Female]
 id = 62
 internal_name = "PSYCHIC_Female"
 name_prefix = "Psychic"
@@ -522,7 +521,7 @@ money_per_level = 12
 gender = "Female"
 skill_level = 50
 
-[trainer_types.63]
+[trainer_types.GLITCH1]
 id = 63
 internal_name = "GLITCH1"
 name_prefix = "MIS5INGN0"
@@ -531,7 +530,7 @@ bgm = "RBY Battle- Trainer"
 end_sfx = "RBY Victory Trainer.ogg"
 skill_level = 20
 
-[trainer_types.64]
+[trainer_types.GLITCH2]
 id = 64
 internal_name = "GLITCH2"
 name_prefix = "PKMNPKMNT"
@@ -540,7 +539,7 @@ bgm = "RBY Battle- Trainer"
 end_sfx = "RBY Victory Trainer.ogg"
 skill_level = 20
 
-[trainer_types.65]
+[trainer_types.GLITCH3]
 id = 65
 internal_name = "GLITCH3"
 name_prefix = "OPKMN4X"
@@ -549,7 +548,7 @@ bgm = "RBY Battle- Trainer"
 end_sfx = "RBY Victory Trainer.ogg"
 skill_level = 50
 
-[trainer_types.66]
+[trainer_types.GLITCH4]
 id = 66
 internal_name = "GLITCH4"
 name_prefix = "M1SS1NGO"
@@ -558,7 +557,7 @@ bgm = "RBY Battle- Trainer"
 end_sfx = "RBY Victory Trainer.ogg"
 skill_level = 50
 
-[trainer_types.67]
+[trainer_types.LUCARIO]
 id = 67
 internal_name = "LUCARIO"
 name_prefix = "Pokemon"
@@ -566,7 +565,7 @@ money_per_level = 0
 gender = "Female"
 skill_level = 90
 
-[trainer_types.68]
+[trainer_types.TERRA]
 id = 68
 internal_name = "TERRA"
 name_prefix = "M3G4"
@@ -575,7 +574,7 @@ bgm = "CBattle- Quake.ogg"
 end_sfx = "Victory2.ogg"
 gender = "Female"
 
-[trainer_types.69]
+[trainer_types.NWCultist]
 id = 69
 internal_name = "NWCultist"
 name_prefix = "New World Cultist"
@@ -584,7 +583,7 @@ bgm = "Battle- Meteor.ogg"
 gender = "Male"
 skill_level = 75
 
-[trainer_types.70]
+[trainer_types.NWOrderly]
 id = 70
 internal_name = "NWOrderly"
 name_prefix = "New World Orderly"
@@ -593,14 +592,14 @@ bgm = "Battle- Meteor.ogg"
 gender = "Male"
 skill_level = 75
 
-[trainer_types.71]
+[trainer_types.MIGHTYENA]
 id = 71
 internal_name = "MIGHTYENA"
 name_prefix = "Pokemon"
 money_per_level = 0
 skill_level = 35
 
-[trainer_types.72]
+[trainer_types.TITANIA]
 id = 72
 internal_name = "TITANIA"
 name_prefix = "Guardian"
@@ -608,7 +607,7 @@ money_per_level = 21
 end_sfx = "Victory2"
 gender = "Female"
 
-[trainer_types.73]
+[trainer_types.SWALOT]
 id = 73
 internal_name = "SWALOT"
 name_prefix = "Pokemon"
@@ -616,7 +615,7 @@ money_per_level = 0
 bgm = "Battle- Misc.ogg"
 skill_level = 90
 
-[trainer_types.74]
+[trainer_types.CIEL]
 id = 74
 internal_name = "CIEL"
 name_prefix = "Skydancer"
@@ -625,7 +624,7 @@ bgm = "CBattle- Aerial.ogg"
 end_sfx = "Victory2"
 gender = "Female"
 
-[trainer_types.75]
+[trainer_types.NWOrderlyF]
 id = 75
 internal_name = "NWOrderlyF"
 name_prefix = "New World Orderly"
@@ -634,7 +633,7 @@ bgm = "Battle- Meteor.ogg"
 gender = "Female"
 skill_level = 75
 
-[trainer_types.76]
+[trainer_types.OrderlyF]
 id = 76
 internal_name = "OrderlyF"
 name_prefix = "Orderly"
@@ -642,7 +641,7 @@ money_per_level = 9
 gender = "Female"
 skill_level = 50
 
-[trainer_types.77]
+[trainer_types.NWCultistF]
 id = 77
 internal_name = "NWCultistF"
 name_prefix = "New World Cultist"
@@ -651,7 +650,7 @@ bgm = "Battle- Meteor.ogg"
 gender = "Female"
 skill_level = 75
 
-[trainer_types.78]
+[trainer_types.CultistF]
 id = 78
 internal_name = "CultistF"
 name_prefix = "Acolyte"
@@ -659,7 +658,7 @@ money_per_level = 13
 gender = "Female"
 skill_level = 50
 
-[trainer_types.79]
+[trainer_types.SAMUROTT]
 id = 79
 internal_name = "SAMUROTT"
 name_prefix = "Pokemon"
@@ -667,7 +666,7 @@ money_per_level = 0
 bgm = "Battle- Wild3.ogg"
 skill_level = 90
 
-[trainer_types.80]
+[trainer_types.CUEBALL]
 id = 80
 internal_name = "CUEBALL"
 name_prefix = "Q Gang"
@@ -675,14 +674,14 @@ money_per_level = 9
 gender = "Male"
 skill_level = 75
 
-[trainer_types.81]
+[trainer_types.MASTERMIND]
 id = 81
 internal_name = "MASTERMIND"
 name_prefix = "Mastermind"
 money_per_level = 20
 gender = "Male"
 
-[trainer_types.82]
+[trainer_types.KECLEON]
 id = 82
 internal_name = "KECLEON"
 name_prefix = "Purple"
@@ -691,7 +690,7 @@ bgm = "Battle- Wild.ogg"
 gender = "Male"
 skill_level = 90
 
-[trainer_types.83]
+[trainer_types.Cain]
 id = 83
 internal_name = "Cain"
 name_prefix = "Pretty Boy"
@@ -700,7 +699,7 @@ bgm = "CBattle- Venom.ogg"
 end_sfx = "Victory2"
 gender = "Male"
 
-[trainer_types.84]
+[trainer_types.Victoria]
 id = 84
 internal_name = "Victoria"
 name_prefix = "Apprentice"
@@ -709,7 +708,7 @@ bgm = "CBattle- Braver.ogg"
 end_sfx = "Victory2"
 gender = "Female"
 
-[trainer_types.85]
+[trainer_types.TechNerd]
 id = 85
 internal_name = "TechNerd"
 name_prefix = "Techie"
@@ -717,7 +716,7 @@ money_per_level = 16
 gender = "Male"
 skill_level = 50
 
-[trainer_types.86]
+[trainer_types.StreetRat]
 id = 86
 internal_name = "StreetRat"
 name_prefix = "Street Rat"
@@ -725,7 +724,7 @@ money_per_level = 2
 gender = "Male"
 skill_level = 20
 
-[trainer_types.87]
+[trainer_types.PoliceOfficer]
 id = 87
 internal_name = "PoliceOfficer"
 name_prefix = "Police Officer"
@@ -733,7 +732,7 @@ money_per_level = 13
 gender = "Male"
 skill_level = 50
 
-[trainer_types.88]
+[trainer_types.Casanova]
 id = 88
 internal_name = "Casanova"
 name_prefix = "Casanova"
@@ -741,7 +740,7 @@ money_per_level = 14
 gender = "Male"
 skill_level = 35
 
-[trainer_types.89]
+[trainer_types.MeteorGrunt]
 id = 89
 internal_name = "MeteorGrunt"
 name_prefix = "Meteor Grunt"
@@ -750,7 +749,7 @@ bgm = "Battle- Meteor.ogg"
 gender = "Male"
 skill_level = 35
 
-[trainer_types.90]
+[trainer_types.MeteorGrunt_090]
 id = 90
 internal_name = "MeteorGrunt_090"
 name_prefix = "Meteor Grunt"
@@ -759,7 +758,7 @@ bgm = "Battle- Meteor.ogg"
 gender = "Female"
 skill_level = 35
 
-[trainer_types.91]
+[trainer_types.Hotshot]
 id = 91
 internal_name = "Hotshot"
 name_prefix = "Swag Jockey"
@@ -768,7 +767,7 @@ bgm = "CBattle- Thorns.ogg"
 end_sfx = "Victory2"
 gender = "Male"
 
-[trainer_types.92]
+[trainer_types.MeteorGrunts]
 id = 92
 internal_name = "MeteorGrunts"
 name_prefix = "Meteor Privates"
@@ -776,7 +775,7 @@ money_per_level = 10
 bgm = "Battle- Meteor.ogg"
 skill_level = 50
 
-[trainer_types.93]
+[trainer_types.JULIA]
 id = 93
 internal_name = "JULIA"
 name_prefix = "Cheer Captain"
@@ -785,14 +784,14 @@ bgm = "CBattle- Fireworks.ogg"
 end_sfx = "Victory2"
 gender = "Female"
 
-[trainer_types.94]
+[trainer_types.Pokemon]
 id = 94
 internal_name = "Pokemon"
 name_prefix = "Pokemon"
 money_per_level = 0
 skill_level = 35
 
-[trainer_types.95]
+[trainer_types.ZEL]
 id = 95
 internal_name = "ZEL"
 name_prefix = "Meteor Admin"
@@ -801,7 +800,7 @@ bgm = "CBattle- Chimera.ogg"
 end_sfx = "Victory2"
 gender = "Male"
 
-[trainer_types.96]
+[trainer_types.FLORINIA]
 id = 96
 internal_name = "FLORINIA"
 name_prefix = "Head Instructor"
@@ -810,7 +809,7 @@ bgm = "CBattle- Desert Rose.ogg"
 end_sfx = "Victory2"
 gender = "Female"
 
-[trainer_types.97]
+[trainer_types.Taka]
 id = 97
 internal_name = "Taka"
 name_prefix = "Meteor Admin"
@@ -819,7 +818,7 @@ bgm = "CBattle- Roost.ogg"
 end_sfx = "Victory2"
 gender = "Male"
 
-[trainer_types.98]
+[trainer_types.Corey]
 id = 98
 internal_name = "Corey"
 name_prefix = "Agent"
@@ -828,7 +827,7 @@ bgm = "CBattle- Toxicity.ogg"
 end_sfx = "Victory2"
 gender = "Male"
 
-[trainer_types.99]
+[trainer_types.Swarm]
 id = 99
 internal_name = "Swarm"
 name_prefix = "Pokemon"
@@ -836,7 +835,7 @@ money_per_level = 0
 bgm = "Battle- Wild.ogg"
 skill_level = 50
 
-[trainer_types.100]
+[trainer_types.Orderly]
 id = 100
 internal_name = "Orderly"
 name_prefix = "Orderly"
@@ -844,7 +843,7 @@ money_per_level = 9
 gender = "Male"
 skill_level = 50
 
-[trainer_types.101]
+[trainer_types.SHELLY]
 id = 101
 internal_name = "SHELLY"
 name_prefix = "Bookworm"
@@ -853,7 +852,7 @@ bgm = "CBattle- Dragonfly.ogg"
 end_sfx = "Victory2"
 gender = "Female"
 
-[trainer_types.102]
+[trainer_types.Tribe]
 id = 102
 internal_name = "Tribe"
 name_prefix = "Pokemon"
@@ -861,7 +860,7 @@ money_per_level = 0
 bgm = "Battle- Wild.ogg"
 skill_level = 75
 
-[trainer_types.103]
+[trainer_types.SHADE]
 id = 103
 internal_name = "SHADE"
 name_prefix = "Entity"
@@ -870,7 +869,7 @@ bgm = "Battle- ReverseGym.ogg"
 end_sfx = "Victory2"
 gender = "Male"
 
-[trainer_types.104]
+[trainer_types.Fiancee]
 id = 104
 internal_name = "Fiancee"
 name_prefix = "Beau"
@@ -878,7 +877,7 @@ money_per_level = 26
 end_sfx = "Victory2"
 gender = "Female"
 
-[trainer_types.105]
+[trainer_types.MeteorKnight]
 id = 105
 internal_name = "MeteorKnight"
 name_prefix = "Meteor Knight"
@@ -887,7 +886,7 @@ bgm = "Battle- Meteor.ogg"
 gender = "Male"
 skill_level = 50
 
-[trainer_types.106]
+[trainer_types.MeteorDame]
 id = 106
 internal_name = "MeteorDame"
 name_prefix = "Meteor Dame"
@@ -896,7 +895,7 @@ bgm = "Battle- Meteor.ogg"
 gender = "Female"
 skill_level = 50
 
-[trainer_types.107]
+[trainer_types.Sensei]
 id = 107
 internal_name = "Sensei"
 name_prefix = "Sensei"
@@ -905,7 +904,7 @@ bgm = "Battle- Inner Peace.ogg"
 end_sfx = "Victory2"
 gender = "Female"
 
-[trainer_types.108]
+[trainer_types.Spectral]
 id = 108
 internal_name = "Spectral"
 name_prefix = "Spectral"
@@ -915,7 +914,7 @@ end_sfx = "Victory2"
 gender = "Female"
 skill_level = 75
 
-[trainer_types.109]
+[trainer_types.KECLEONS]
 id = 109
 internal_name = "KECLEONS"
 name_prefix = "Kecleon"
@@ -923,7 +922,7 @@ money_per_level = 0
 bgm = "Battle- Wild.ogg"
 skill_level = 50
 
-[trainer_types.110]
+[trainer_types.ARCLIGHT]
 id = 110
 internal_name = "ARCLIGHT"
 name_prefix = "DJ"
@@ -932,7 +931,7 @@ bgm = "CBattle- High Voltage.ogg"
 end_sfx = "Victory2"
 gender = "Male"
 
-[trainer_types.111]
+[trainer_types.ADRIENN]
 id = 111
 internal_name = "ADRIENN"
 name_prefix = "Visionary"
@@ -940,7 +939,7 @@ money_per_level = 14
 bgm = "CBattle- Faerie.ogg"
 end_sfx = "Victory2"
 
-[trainer_types.112]
+[trainer_types.TEST]
 id = 112
 internal_name = "TEST"
 name_prefix = "Test Train"
@@ -948,7 +947,7 @@ money_per_level = 14
 bgm = "Battle- Gym.ogg"
 end_sfx = "Victory2"
 
-[trainer_types.113]
+[trainer_types.PREDATORS]
 id = 113
 internal_name = "PREDATORS"
 name_prefix = "Pokemon"
@@ -956,14 +955,14 @@ money_per_level = 0
 bgm = "Battle- Wild3.ogg"
 skill_level = 90
 
-[trainer_types.114]
+[trainer_types.CORINROUGE]
 id = 114
 internal_name = "CORINROUGE"
 name_prefix = "Dashing Rogue"
 money_per_level = 21
 gender = "Male"
 
-[trainer_types.115]
+[trainer_types.KNIGHT]
 id = 115
 internal_name = "KNIGHT"
 name_prefix = "Knight"
@@ -971,7 +970,7 @@ money_per_level = 14
 gender = "Male"
 skill_level = 70
 
-[trainer_types.116]
+[trainer_types.STATRESHIRAM]
 id = 116
 internal_name = "STATRESHIRAM"
 name_prefix = "The Legendary"
@@ -979,7 +978,7 @@ money_per_level = 0
 bgm = "Battle- Legendary.ogg"
 end_sfx = "Victory2"
 
-[trainer_types.117]
+[trainer_types.STATZEKROM]
 id = 117
 internal_name = "STATZEKROM"
 name_prefix = "The Legendary"
@@ -987,7 +986,7 @@ money_per_level = 0
 bgm = "Battle- Legendary.ogg"
 end_sfx = "Victory2"
 
-[trainer_types.118]
+[trainer_types.TITANIA1]
 id = 118
 internal_name = "TITANIA1"
 name_prefix = "Guardian Princess"
@@ -996,7 +995,7 @@ bgm = "CBattle- Queen.ogg"
 end_sfx = "Victory2"
 gender = "Female"
 
-[trainer_types.119]
+[trainer_types.TITANIA2]
 id = 119
 internal_name = "TITANIA2"
 name_prefix = "Guardian Exile"
@@ -1005,7 +1004,7 @@ bgm = "CBattle- Titanium.ogg"
 end_sfx = "Victory2"
 gender = "Female"
 
-[trainer_types.120]
+[trainer_types.AMARIA1]
 id = 120
 internal_name = "AMARIA1"
 name_prefix = "Flotsam"
@@ -1014,7 +1013,7 @@ bgm = "CBattle- Cascades.ogg"
 end_sfx = "Victory2"
 gender = "Female"
 
-[trainer_types.121]
+[trainer_types.AMARIA2]
 id = 121
 internal_name = "AMARIA2"
 name_prefix = "Jetsam"
@@ -1023,14 +1022,14 @@ bgm = "CBattle- Drowning.ogg"
 end_sfx = "Victory2"
 gender = "Female"
 
-[trainer_types.122]
+[trainer_types.GARCHOMP]
 id = 122
 internal_name = "GARCHOMP"
 name_prefix = "Pokemon"
 money_per_level = 0
 bgm = "Battle- Wild3.ogg"
 
-[trainer_types.123]
+[trainer_types.Taka2]
 id = 123
 internal_name = "Taka2"
 name_prefix = "Vagrant Scion"
@@ -1039,14 +1038,14 @@ bgm = "CBattle- Roost.ogg"
 end_sfx = "Victory2"
 gender = "Male"
 
-[trainer_types.124]
+[trainer_types.BRELOOM]
 id = 124
 internal_name = "BRELOOM"
 name_prefix = "BreloomBot"
 money_per_level = 0
 bgm = "Battle- Wild3.ogg"
 
-[trainer_types.125]
+[trainer_types.Victoria2]
 id = 125
 internal_name = "Victoria2"
 name_prefix = "Sensei"
@@ -1055,21 +1054,21 @@ bgm = "CBattle- Braver.ogg"
 end_sfx = "Victory2"
 gender = "Female"
 
-[trainer_types.126]
+[trainer_types.VOLCARONA]
 id = 126
 internal_name = "VOLCARONA"
 name_prefix = "Pokemon"
 money_per_level = 0
 bgm = "Battle- Wild3.ogg"
 
-[trainer_types.127]
+[trainer_types.PYUKMUK]
 id = 127
 internal_name = "PYUKMUK"
 name_prefix = "High King"
 money_per_level = 0
 bgm = "Battle- Wild3.ogg"
 
-[trainer_types.128]
+[trainer_types.QMARK]
 id = 128
 internal_name = "QMARK"
 name_prefix = "???"
@@ -1077,7 +1076,7 @@ money_per_level = 26
 bgm = "CBattle- Void.ogg"
 end_sfx = "Victory2"
 
-[trainer_types.129]
+[trainer_types.SANDY]
 id = 129
 internal_name = "SANDY"
 name_prefix = "Activist"
@@ -1086,7 +1085,7 @@ bgm = "Battle- Upbeat.ogg"
 end_sfx = "Victory2"
 gender = "Female"
 
-[trainer_types.130]
+[trainer_types.HARDHAT]
 id = 130
 internal_name = "HARDHAT"
 name_prefix = "Hard Hat"
@@ -1094,7 +1093,7 @@ money_per_level = 20
 bgm = "Battle- Trainer3.ogg"
 skill_level = 91
 
-[trainer_types.131]
+[trainer_types.HARDY]
 id = 131
 internal_name = "HARDY"
 name_prefix = "Rockstar"
@@ -1103,21 +1102,21 @@ bgm = "CBattle- Rockstar.ogg"
 end_sfx = "Victory2"
 gender = "Male"
 
-[trainer_types.132]
+[trainer_types.AGGRON]
 id = 132
 internal_name = "AGGRON"
 name_prefix = "Pokemon"
 money_per_level = 0
 bgm = "Battle- Wild3.ogg"
 
-[trainer_types.133]
+[trainer_types.GULPIN]
 id = 133
 internal_name = "GULPIN"
 name_prefix = "Pokemon"
 money_per_level = 0
 bgm = "Battle- Wild3.ogg"
 
-[trainer_types.134]
+[trainer_types.GUITARIST]
 id = 134
 internal_name = "GUITARIST"
 name_prefix = "Guitarist"
@@ -1126,7 +1125,7 @@ bgm = "Battle- Trainer3.ogg"
 gender = "Male"
 skill_level = 60
 
-[trainer_types.135]
+[trainer_types.ZEL2]
 id = 135
 internal_name = "ZEL2"
 name_prefix = "Meteor Grunt"
@@ -1135,7 +1134,7 @@ bgm = "CBattle- Umbra.ogg"
 end_sfx = "Victory2"
 gender = "Male"
 
-[trainer_types.136]
+[trainer_types.FRIEND]
 id = 136
 internal_name = "FRIEND"
 name_prefix = "Dr."
@@ -1144,7 +1143,7 @@ bgm = "FindmEEE.ogg"
 end_sfx = "Victory2"
 gender = "Male"
 
-[trainer_types.137]
+[trainer_types.MIME]
 id = 137
 internal_name = "MIME"
 name_prefix = "Master"
@@ -1152,7 +1151,7 @@ money_per_level = 0
 bgm = "FindmEEE.ogg"
 end_sfx = "Victory2"
 
-[trainer_types.138]
+[trainer_types.LUMI]
 id = 138
 internal_name = "LUMI"
 name_prefix = "Snow Angel"
@@ -1161,7 +1160,7 @@ bgm = "CBattle- Freedom.ogg"
 end_sfx = "Victory2"
 gender = "Female"
 
-[trainer_types.139]
+[trainer_types.EVE]
 id = 139
 internal_name = "EVE"
 name_prefix = "Sunray"
@@ -1170,7 +1169,7 @@ bgm = "CBattle- Freedom.ogg"
 end_sfx = "Victory2"
 gender = "Female"
 
-[trainer_types.140]
+[trainer_types.SAPHIRA]
 id = 140
 internal_name = "SAPHIRA"
 name_prefix = "Keeper"
@@ -1179,7 +1178,7 @@ bgm = "CBattle- Draconian.ogg"
 end_sfx = "Victory2"
 gender = "Female"
 
-[trainer_types.141]
+[trainer_types.SPIRITM]
 id = 141
 internal_name = "SPIRITM"
 name_prefix = "Wandering Spirit"
@@ -1187,7 +1186,7 @@ money_per_level = 20
 bgm = "Battle- Trainer3.ogg"
 gender = "Male"
 
-[trainer_types.142]
+[trainer_types.SPIRITF]
 id = 142
 internal_name = "SPIRITF"
 name_prefix = "Wandering Spirit"
@@ -1195,7 +1194,7 @@ money_per_level = 20
 bgm = "Battle- Trainer3.ogg"
 gender = "Female"
 
-[trainer_types.143]
+[trainer_types.PGB]
 id = 143
 internal_name = "PGB"
 name_prefix = "Post-Game Battle"
@@ -1203,14 +1202,14 @@ money_per_level = 20
 bgm = "Battle- PGB.ogg"
 gender = "Female"
 
-[trainer_types.144]
+[trainer_types.Developer]
 id = 144
 internal_name = "Developer"
 name_prefix = "Developer"
 money_per_level = 20
 bgm = "Battle- Trainer3.ogg"
 
-[trainer_types.145]
+[trainer_types.HEATHER]
 id = 145
 internal_name = "HEATHER"
 name_prefix = "Elite Four Wind Maiden"
@@ -1219,7 +1218,7 @@ bgm = "Battle- Elite.ogg"
 end_sfx = "Victory2"
 gender = "Female"
 
-[trainer_types.146]
+[trainer_types.BENNETTLAURA]
 id = 146
 internal_name = "BENNETTLAURA"
 name_prefix = "Elite Four Tag Team"
@@ -1228,7 +1227,7 @@ bgm = "CBattle- Growth.ogg"
 end_sfx = "Victory2"
 gender = "Female"
 
-[trainer_types.147]
+[trainer_types.ELIAS]
 id = 147
 internal_name = "ELIAS"
 name_prefix = "Elite Four Agent"
@@ -1237,7 +1236,7 @@ bgm = "CBattle- Holy.ogg"
 end_sfx = "Victory2"
 gender = "Female"
 
-[trainer_types.148]
+[trainer_types.ANNA]
 id = 148
 internal_name = "ANNA"
 name_prefix = "Elite Four Starcrosser"
@@ -1246,7 +1245,7 @@ bgm = "CBattle- Midnight.ogg"
 end_sfx = "Victory2"
 gender = "Female"
 
-[trainer_types.149]
+[trainer_types.LIN]
 id = 149
 internal_name = "LIN"
 name_prefix = "Meteor Champion"
@@ -1255,7 +1254,7 @@ bgm = "Battle- Champion.ogg"
 end_sfx = "Battle- Champion.ogg"
 gender = "Female"
 
-[trainer_types.150]
+[trainer_types.CHILDLIN]
 id = 150
 internal_name = "CHILDLIN"
 name_prefix = "Mordant Urchin"
@@ -1264,7 +1263,7 @@ bgm = "Battle- Champion.ogg"
 end_sfx = "Battle- Champion.ogg"
 gender = "Female"
 
-[trainer_types.151]
+[trainer_types.LAURA]
 id = 151
 internal_name = "LAURA"
 name_prefix = "Elite Four Floral Artist"
@@ -1273,21 +1272,21 @@ bgm = "CBattle- Growth.ogg"
 end_sfx = "Victory2"
 gender = "Female"
 
-[trainer_types.152]
+[trainer_types.SHIINOTIC]
 id = 152
 internal_name = "SHIINOTIC"
 name_prefix = "Creeping"
 money_per_level = 0
 bgm = "Battle- Wild4.ogg"
 
-[trainer_types.153]
+[trainer_types.CRESSELIA]
 id = 153
 internal_name = "CRESSELIA"
 name_prefix = "Anomaly"
 money_per_level = 0
 bgm = "CLBattle- Sinnoh Misc.ogg"
 
-[trainer_types.154]
+[trainer_types.SWIMMERBOI]
 id = 154
 internal_name = "SWIMMERBOI"
 name_prefix = "Swimmer"
@@ -1296,7 +1295,7 @@ bgm = "Battle- Trainer2.ogg"
 gender = "Male"
 skill_level = 75
 
-[trainer_types.155]
+[trainer_types.SWIMMERGRIL]
 id = 155
 internal_name = "SWIMMERGRIL"
 name_prefix = "Swimmer"
@@ -1305,28 +1304,28 @@ bgm = "Battle- Trainer2.ogg"
 gender = "Female"
 skill_level = 75
 
-[trainer_types.156]
+[trainer_types.RAIKOU]
 id = 156
 internal_name = "RAIKOU"
 name_prefix = "Anomaly"
 money_per_level = 0
 bgm = "CLBattle- Raikou.ogg"
 
-[trainer_types.157]
+[trainer_types.ENTEI]
 id = 157
 internal_name = "ENTEI"
 name_prefix = "Anomaly"
 money_per_level = 0
 bgm = "CLBattle- Entei.ogg"
 
-[trainer_types.158]
+[trainer_types.SUICUNE]
 id = 158
 internal_name = "SUICUNE"
 name_prefix = "Anomaly"
 money_per_level = 0
 bgm = "CLBattle- Suicune.ogg"
 
-[trainer_types.159]
+[trainer_types.CASS]
 id = 159
 internal_name = "CASS"
 name_prefix = "Friendly Local"
@@ -1334,7 +1333,7 @@ money_per_level = 8
 bgm = "Battle- Postgame.ogg"
 gender = "Female"
 
-[trainer_types.160]
+[trainer_types.ASTER]
 id = 160
 internal_name = "ASTER"
 name_prefix = "Hotshot"
@@ -1342,28 +1341,28 @@ money_per_level = 6
 gender = "Male"
 skill_level = 90
 
-[trainer_types.161]
+[trainer_types.SIMON]
 id = 161
 internal_name = "SIMON"
 name_prefix = "Ace Trainer"
 money_per_level = 7
 gender = "Male"
 
-[trainer_types.162]
+[trainer_types.RANDALL]
 id = 162
 internal_name = "RANDALL"
 name_prefix = "Street Rat"
 money_per_level = 19
 gender = "Male"
 
-[trainer_types.163]
+[trainer_types.SEACREST]
 id = 163
 internal_name = "SEACREST"
 name_prefix = "Elder"
 money_per_level = 15
 gender = "Male"
 
-[trainer_types.164]
+[trainer_types.RINGMASTER]
 id = 164
 internal_name = "RINGMASTER"
 name_prefix = "Ringmaster"
@@ -1371,91 +1370,91 @@ money_per_level = 17
 bgm = "Battle- Upbeat.ogg"
 gender = "Female"
 
-[trainer_types.165]
+[trainer_types.MARCELLO]
 id = 165
 internal_name = "MARCELLO"
 name_prefix = "Not a Child; Just Short"
 money_per_level = 25
 gender = "Male"
 
-[trainer_types.166]
+[trainer_types.SMEARGLE]
 id = 166
 internal_name = "SMEARGLE"
 name_prefix = "Wandering Artist"
 money_per_level = 0
 gender = "Male"
 
-[trainer_types.167]
+[trainer_types.SEER]
 id = 167
 internal_name = "SEER"
 name_prefix = "Posh"
 money_per_level = 15
 gender = "Female"
 
-[trainer_types.168]
+[trainer_types.PIKANYU]
 id = 168
 internal_name = "PIKANYU"
 name_prefix = "Pokefan"
 money_per_level = 16
 gender = "Male"
 
-[trainer_types.169]
+[trainer_types.INDRA]
 id = 169
 internal_name = "INDRA"
 name_prefix = "Clown"
 money_per_level = 13
 gender = "Male"
 
-[trainer_types.170]
+[trainer_types.MCKREZZY]
 id = 170
 internal_name = "MCKREZZY"
 name_prefix = "Guitarist"
 money_per_level = 25
 gender = "Male"
 
-[trainer_types.171]
+[trainer_types.CHIEF]
 id = 171
 internal_name = "CHIEF"
 name_prefix = "Police Chief"
 money_per_level = 19
 gender = "Male"
 
-[trainer_types.172]
+[trainer_types.MISSDIRECTION]
 id = 172
 internal_name = "MISSDIRECTION"
 name_prefix = "Miss"
 money_per_level = 10
 gender = "Female"
 
-[trainer_types.173]
+[trainer_types.MEGANIUM]
 id = 173
 internal_name = "MEGANIUM"
 name_prefix = "Madame"
 money_per_level = 0
 gender = "Female"
 
-[trainer_types.174]
+[trainer_types.MURMINA]
 id = 174
 internal_name = "MURMINA"
 name_prefix = "Doxy"
 money_per_level = 4
 gender = "Female"
 
-[trainer_types.175]
+[trainer_types.KANAYA]
 id = 175
 internal_name = "KANAYA"
 name_prefix = "Lone Wolf"
 money_per_level = 7
 gender = "Female"
 
-[trainer_types.176]
+[trainer_types.BEE]
 id = 176
 internal_name = "BEE"
 name_prefix = "Ranger"
 money_per_level = 15
 gender = "Female"
 
-[trainer_types.177]
+[trainer_types.BUFF]
 id = 177
 internal_name = "BUFF"
 name_prefix = "Bouffalant"
@@ -1463,28 +1462,28 @@ money_per_level = 3
 gender = "Male"
 skill_level = 90
 
-[trainer_types.178]
+[trainer_types.EUROPA]
 id = 178
 internal_name = "EUROPA"
 name_prefix = "Ranger"
 money_per_level = 6
 gender = "Female"
 
-[trainer_types.179]
+[trainer_types.LAHVER]
 id = 179
 internal_name = "LAHVER"
 name_prefix = "Mr."
 money_per_level = 0
 gender = "Male"
 
-[trainer_types.180]
+[trainer_types.MAEL]
 id = 180
 internal_name = "MAEL"
 name_prefix = "Inspector"
 money_per_level = 17
 gender = "Male"
 
-[trainer_types.181]
+[trainer_types.AME]
 id = 181
 internal_name = "AME"
 name_prefix = "League Manager"
@@ -1493,42 +1492,42 @@ bgm = "Battle- Postgame.ogg"
 end_sfx = "Victory2"
 gender = "Female"
 
-[trainer_types.182]
+[trainer_types.REGIS]
 id = 182
 internal_name = "REGIS"
 name_prefix = "Golem"
 money_per_level = 0
 bgm = "CLBattle- Regis.ogg"
 
-[trainer_types.183]
+[trainer_types.MUSKETEER1]
 id = 183
 internal_name = "MUSKETEER1"
 name_prefix = "Anomaly"
 money_per_level = 0
 bgm = "CLBattle- Unova Misc.ogg"
 
-[trainer_types.184]
+[trainer_types.MUSKETEER2]
 id = 184
 internal_name = "MUSKETEER2"
 name_prefix = "All"
 money_per_level = 0
 bgm = "CLBattle- Unova Misc.ogg"
 
-[trainer_types.185]
+[trainer_types.KELDEO]
 id = 185
 internal_name = "KELDEO"
 name_prefix = "Anomaly"
 money_per_level = 0
 bgm = "CLBattle- Mythicals 1.ogg"
 
-[trainer_types.186]
+[trainer_types.MUSKETEER3]
 id = 186
 internal_name = "MUSKETEER3"
 name_prefix = "the Spectral"
 money_per_level = 0
 bgm = "CLBattle- Mythicals 1.ogg"
 
-[trainer_types.187]
+[trainer_types.UMBSAMSON]
 id = 187
 internal_name = "UMBSAMSON"
 name_prefix = "Umbral"
@@ -1537,21 +1536,21 @@ bgm = "Battle- Umbral.ogg"
 end_sfx = "Victory2"
 gender = "Male"
 
-[trainer_types.188]
+[trainer_types.REGIGIGAS]
 id = 188
 internal_name = "REGIGIGAS"
 name_prefix = "Anomaly"
 money_per_level = 0
 bgm = "CLBattle- Regis.ogg"
 
-[trainer_types.189]
+[trainer_types.GENIES]
 id = 189
 internal_name = "GENIES"
 name_prefix = "Djinn"
 money_per_level = 0
 bgm = "CLBattle- Unova Misc.ogg"
 
-[trainer_types.190]
+[trainer_types.UMBCIEL]
 id = 190
 internal_name = "UMBCIEL"
 name_prefix = "Umbral"
@@ -1560,7 +1559,7 @@ bgm = "Battle- Umbral.ogg"
 end_sfx = "Victory2"
 gender = "Female"
 
-[trainer_types.191]
+[trainer_types.ZEL3]
 id = 191
 internal_name = "ZEL3"
 name_prefix = "Rogue"
@@ -1569,7 +1568,7 @@ bgm = "CBattle- Umbra.ogg"
 end_sfx = "Victory2"
 gender = "Male"
 
-[trainer_types.192]
+[trainer_types.BENNETT2]
 id = 192
 internal_name = "BENNETT2"
 name_prefix = "Elite Four Imago"
@@ -1578,7 +1577,7 @@ bgm = "CBattle- Antennae.ogg"
 end_sfx = "Victory2"
 gender = "Male"
 
-[trainer_types.193]
+[trainer_types.FLORA]
 id = 193
 internal_name = "FLORA"
 name_prefix = "Axis High Senior"
@@ -1587,14 +1586,14 @@ bgm = "CBattle- Rejuvenation.ogg"
 end_sfx = "Victory2"
 gender = "Female"
 
-[trainer_types.194]
+[trainer_types.VOLCANION]
 id = 194
 internal_name = "VOLCANION"
 name_prefix = "Anomaly"
 money_per_level = 0
 bgm = "CLBattle- Mythicals 2.ogg"
 
-[trainer_types.195]
+[trainer_types.POACHERM]
 id = 195
 internal_name = "POACHERM"
 name_prefix = "Poacher"
@@ -1602,7 +1601,7 @@ money_per_level = 13
 gender = "Male"
 skill_level = 80
 
-[trainer_types.196]
+[trainer_types.POACHERF]
 id = 196
 internal_name = "POACHERF"
 name_prefix = "Poacher"
@@ -1610,21 +1609,21 @@ money_per_level = 13
 gender = "Female"
 skill_level = 80
 
-[trainer_types.197]
+[trainer_types.POACHERB]
 id = 197
 internal_name = "POACHERB"
 name_prefix = "Poacher"
 money_per_level = 18
 skill_level = 92
 
-[trainer_types.198]
+[trainer_types.SHANNON]
 id = 198
 internal_name = "SHANNON"
 name_prefix = "Commissioner"
 money_per_level = 33
 gender = "Female"
 
-[trainer_types.199]
+[trainer_types.SIGMUND]
 id = 199
 internal_name = "SIGMUND"
 name_prefix = "Schoolboy"
@@ -1633,7 +1632,7 @@ bgm = "Battle- Upbeat.ogg"
 end_sfx = "Victory2"
 gender = "Male"
 
-[trainer_types.200]
+[trainer_types.EUPHIE]
 id = 200
 internal_name = "EUPHIE"
 name_prefix = "Umbral"
@@ -1641,14 +1640,14 @@ money_per_level = 14
 bgm = "Battle- Umbral.ogg"
 end_sfx = "Victory2"
 
-[trainer_types.201]
+[trainer_types.JIRACHI]
 id = 201
 internal_name = "JIRACHI"
 name_prefix = "Anomaly"
 money_per_level = 0
 bgm = "CLBattle- Mythicals 1.ogg"
 
-[trainer_types.202]
+[trainer_types.ANTICS]
 id = 202
 internal_name = "ANTICS"
 name_prefix = "Her"
@@ -1657,63 +1656,63 @@ bgm = "CLBattle- Mythicals 1.ogg"
 end_sfx = "CLBattle- Mythicals 1.ogg"
 gender = "Female"
 
-[trainer_types.203]
+[trainer_types.TAPUKOKO]
 id = 203
 internal_name = "TAPUKOKO"
 name_prefix = "Anomaly"
 money_per_level = 0
 bgm = "CLBattle- Tapus.ogg"
 
-[trainer_types.204]
+[trainer_types.TAPULELE]
 id = 204
 internal_name = "TAPULELE"
 name_prefix = "Anomaly"
 money_per_level = 0
 bgm = "CLBattle- Tapus.ogg"
 
-[trainer_types.205]
+[trainer_types.TAPUBULU]
 id = 205
 internal_name = "TAPUBULU"
 name_prefix = "Anomaly"
 money_per_level = 0
 bgm = "CLBattle- Tapus.ogg"
 
-[trainer_types.206]
+[trainer_types.TAPUFINI]
 id = 206
 internal_name = "TAPUFINI"
 name_prefix = "Anomaly"
 money_per_level = 0
 bgm = "CLBattle- Tapus.ogg"
 
-[trainer_types.207]
+[trainer_types.LATIAS]
 id = 207
 internal_name = "LATIAS"
 name_prefix = "Anomaly"
 money_per_level = 0
 bgm = "CLBattle- Lati Twins.ogg"
 
-[trainer_types.208]
+[trainer_types.LATIOS]
 id = 208
 internal_name = "LATIOS"
 name_prefix = "Anomaly"
 money_per_level = 0
 bgm = "CLBattle- Lati Twins.ogg"
 
-[trainer_types.209]
+[trainer_types.DIANCIE]
 id = 209
 internal_name = "DIANCIE"
 name_prefix = "Anomaly"
 money_per_level = 0
 bgm = "CLBattle- Mythicals 2.ogg"
 
-[trainer_types.210]
+[trainer_types.DIASWORD]
 id = 210
 internal_name = "DIASWORD"
 name_prefix = "the Crystal"
 money_per_level = 0
 bgm = "CLBattle- Mythicals 2.ogg"
 
-[trainer_types.211]
+[trainer_types.UMBCAIN]
 id = 211
 internal_name = "UMBCAIN"
 name_prefix = "Umbral"
@@ -1722,7 +1721,7 @@ bgm = "Battle- Umbral.ogg"
 end_sfx = "Victory2"
 gender = "Male"
 
-[trainer_types.212]
+[trainer_types.UMBTERRA]
 id = 212
 internal_name = "UMBTERRA"
 name_prefix = "Umbral"
@@ -1731,14 +1730,14 @@ bgm = "Battle- Umbral.ogg"
 end_sfx = "Victory2"
 gender = "Female"
 
-[trainer_types.213]
+[trainer_types.HOOPA]
 id = 213
 internal_name = "HOOPA"
 name_prefix = "Anomaly"
 money_per_level = 0
 bgm = "CLBattle- Mythicals 2.ogg"
 
-[trainer_types.214]
+[trainer_types.TAUBE]
 id = 214
 internal_name = "TAUBE"
 name_prefix = "Guiding Star"
@@ -1747,7 +1746,7 @@ bgm = "Battle- Upbeat.ogg"
 end_sfx = "Victory2"
 gender = "Male"
 
-[trainer_types.215]
+[trainer_types.ELENA]
 id = 215
 internal_name = "ELENA"
 name_prefix = "Elite Four Skyspectre"
@@ -1756,7 +1755,7 @@ bgm = "Battle- Elite.ogg"
 end_sfx = "Victory2"
 gender = "Female"
 
-[trainer_types.216]
+[trainer_types.FUTURESHELLY]
 id = 216
 internal_name = "FUTURESHELLY"
 name_prefix = "Reborn Champion"
@@ -1765,28 +1764,28 @@ bgm = "CBattle- Dragonfly.ogg"
 end_sfx = "Victory2"
 gender = "Female"
 
-[trainer_types.217]
+[trainer_types.MELOETTA]
 id = 217
 internal_name = "MELOETTA"
 name_prefix = "Anomaly"
 money_per_level = 0
 bgm = "CLBattle- Mythicals 1.ogg"
 
-[trainer_types.218]
+[trainer_types.PALKIA]
 id = 218
 internal_name = "PALKIA"
 name_prefix = "Anomaly"
 money_per_level = 0
 bgm = "CLBattle- Dialga-Palkia.ogg"
 
-[trainer_types.219]
+[trainer_types.DIALGA]
 id = 219
 internal_name = "DIALGA"
 name_prefix = "Anomaly"
 money_per_level = 0
 bgm = "CLBattle- Dialga-Palkia.ogg"
 
-[trainer_types.220]
+[trainer_types.UMBTAKA]
 id = 220
 internal_name = "UMBTAKA"
 name_prefix = "Umbral"
@@ -1795,28 +1794,28 @@ bgm = "Battle- Umbral.ogg"
 end_sfx = "Victory2"
 gender = "Male"
 
-[trainer_types.221]
+[trainer_types.HEATRAN]
 id = 221
 internal_name = "HEATRAN"
 name_prefix = "Anomaly"
 money_per_level = 0
 bgm = "CLBattle- Sinnoh Misc.ogg"
 
-[trainer_types.222]
+[trainer_types.MANAPHY]
 id = 222
 internal_name = "MANAPHY"
 name_prefix = "Anomaly"
 money_per_level = 0
 bgm = "CLBattle- Mythicals 1.ogg"
 
-[trainer_types.223]
+[trainer_types.CELEBI]
 id = 223
 internal_name = "CELEBI"
 name_prefix = "Anomaly"
 money_per_level = 0
 bgm = "CLBattle- Mythicals 1.ogg"
 
-[trainer_types.224]
+[trainer_types.ACECLUBS]
 id = 224
 internal_name = "ACECLUBS"
 name_prefix = "Meteor Manager"
@@ -1824,7 +1823,7 @@ money_per_level = 10
 bgm = "CBattle- Deception.ogg"
 end_sfx = "Victory2"
 
-[trainer_types.225]
+[trainer_types.ACEDIAMONDS]
 id = 225
 internal_name = "ACEDIAMONDS"
 name_prefix = "Meteor Agent"
@@ -1832,7 +1831,7 @@ money_per_level = 18
 bgm = "CBattle- Deception.ogg"
 end_sfx = "Victory2"
 
-[trainer_types.226]
+[trainer_types.ACEHEARTS]
 id = 226
 internal_name = "ACEHEARTS"
 name_prefix = "Meteor Agent"
@@ -1840,7 +1839,7 @@ money_per_level = 26
 bgm = "CBattle- Deception.ogg"
 end_sfx = "Victory2"
 
-[trainer_types.227]
+[trainer_types.ACESPADES]
 id = 227
 internal_name = "ACESPADES"
 name_prefix = "Meteor Agent"
@@ -1848,7 +1847,7 @@ money_per_level = 34
 bgm = "CBattle- Deception.ogg"
 end_sfx = "Victory2"
 
-[trainer_types.228]
+[trainer_types.UMBKIKI]
 id = 228
 internal_name = "UMBKIKI"
 name_prefix = "Umbral"
@@ -1857,7 +1856,7 @@ bgm = "Battle- Inner Peace.ogg"
 end_sfx = "Victory2"
 gender = "Female"
 
-[trainer_types.229]
+[trainer_types.FERN2]
 id = 229
 internal_name = "FERN2"
 name_prefix = "Swag Jockey"
@@ -1866,14 +1865,14 @@ bgm = "CBattle- Thorns.ogg"
 end_sfx = "Victory2"
 gender = "Male"
 
-[trainer_types.230]
+[trainer_types.MEWTWO]
 id = 230
 internal_name = "MEWTWO"
 name_prefix = "Anomaly"
 money_per_level = 0
 bgm = "CLBattle- Mewtwo-Mew.ogg"
 
-[trainer_types.231]
+[trainer_types.ZTAKA2]
 id = 231
 internal_name = "ZTAKA2"
 name_prefix = "Vagrant Scion"
@@ -1882,28 +1881,28 @@ bgm = "CBattle- Roost.ogg"
 end_sfx = "Victory2"
 gender = "Male"
 
-[trainer_types.232]
+[trainer_types.GENESECT]
 id = 232
 internal_name = "GENESECT"
 name_prefix = "Anomaly"
 money_per_level = 0
 bgm = "CLBattle- Genesect.ogg"
 
-[trainer_types.233]
+[trainer_types.HOOH]
 id = 233
 internal_name = "HOOH"
 name_prefix = "Anomaly"
 money_per_level = 0
 bgm = "CLBattle- Ho-Oh.ogg"
 
-[trainer_types.234]
+[trainer_types.LUGIA]
 id = 234
 internal_name = "LUGIA"
 name_prefix = "Anomaly"
 money_per_level = 0
 bgm = "CLBattle- Lugia.ogg"
 
-[trainer_types.235]
+[trainer_types.UMBTITANIA]
 id = 235
 internal_name = "UMBTITANIA"
 name_prefix = "Umbral"
@@ -1912,7 +1911,7 @@ bgm = "Battle- Umbral.ogg"
 end_sfx = "Victory2"
 gender = "Female"
 
-[trainer_types.236]
+[trainer_types.UMBAMARIA]
 id = 236
 internal_name = "UMBAMARIA"
 name_prefix = "Umbral"
@@ -1921,14 +1920,14 @@ bgm = "Battle- Umbral.ogg"
 end_sfx = "Victory2"
 gender = "Female"
 
-[trainer_types.237]
+[trainer_types.DEOXYS]
 id = 237
 internal_name = "DEOXYS"
 name_prefix = "Anomaly"
 money_per_level = 0
 bgm = "CLBattle- Deoxys.ogg"
 
-[trainer_types.238]
+[trainer_types.ZINA]
 id = 238
 internal_name = "ZINA"
 name_prefix = "Lost Starscaper"
@@ -1937,21 +1936,21 @@ bgm = "CBattle- Midnight.ogg"
 end_sfx = "CBattle- Midnight.ogg"
 gender = "Female"
 
-[trainer_types.239]
+[trainer_types.SHAYMIN1]
 id = 239
 internal_name = "SHAYMIN1"
 name_prefix = "Anomaly"
 money_per_level = 0
 bgm = "CLBattle- Mythicals 1.ogg"
 
-[trainer_types.240]
+[trainer_types.SHAYMIN2]
 id = 240
 internal_name = "SHAYMIN2"
 name_prefix = "Gracidea"
 money_per_level = 0
 bgm = "CLBattle- Mythicals 1.ogg"
 
-[trainer_types.241]
+[trainer_types.UMBRADOMUS]
 id = 241
 internal_name = "UMBRADOMUS"
 name_prefix = "Umbral"
@@ -1960,7 +1959,7 @@ bgm = "Battle- Umbral.ogg"
 end_sfx = "Victory2"
 gender = "Male"
 
-[trainer_types.242]
+[trainer_types.ANOMGARDEVOIR]
 id = 242
 internal_name = "ANOMGARDEVOIR"
 name_prefix = "Anomaly"
@@ -1968,49 +1967,49 @@ money_per_level = 0
 bgm = "Battle- Umbral.ogg"
 gender = "Female"
 
-[trainer_types.243]
+[trainer_types.MAGEARNA]
 id = 243
 internal_name = "MAGEARNA"
 name_prefix = "Anomaly"
 money_per_level = 0
 bgm = "CLBattle- Mythicals 2.ogg"
 
-[trainer_types.244]
+[trainer_types.NAGANADEL]
 id = 244
 internal_name = "NAGANADEL"
 name_prefix = "Anomaly"
 money_per_level = 0
 bgm = "Battle- Postgame.ogg"
 
-[trainer_types.245]
+[trainer_types.RESHIRAM]
 id = 245
 internal_name = "RESHIRAM"
 name_prefix = "Anomaly"
 money_per_level = 0
 bgm = "CLBattle- Reshiram-Zekrom.ogg"
 
-[trainer_types.246]
+[trainer_types.ZEKROM]
 id = 246
 internal_name = "ZEKROM"
 name_prefix = "Anomaly"
 money_per_level = 0
 bgm = "CLBattle- Reshiram-Zekrom.ogg"
 
-[trainer_types.247]
+[trainer_types.KYUREM1]
 id = 247
 internal_name = "KYUREM1"
 name_prefix = "Anomaly"
 money_per_level = 0
 bgm = "CLBattle- Kyurem.ogg"
 
-[trainer_types.248]
+[trainer_types.KYUREM2]
 id = 248
 internal_name = "KYUREM2"
 name_prefix = "Multi-iterative"
 money_per_level = 0
 bgm = "CLBattle- Kyurem.ogg"
 
-[trainer_types.249]
+[trainer_types.UMBACE]
 id = 249
 internal_name = "UMBACE"
 name_prefix = "Umbral Agent"
@@ -2018,49 +2017,49 @@ money_per_level = 14
 bgm = "Battle- Umbral.ogg"
 end_sfx = "Victory2"
 
-[trainer_types.250]
+[trainer_types.GIRATINA]
 id = 250
 internal_name = "GIRATINA"
 name_prefix = "Anomalized"
 money_per_level = 0
 bgm = "CLBattle- Giratina.ogg"
 
-[trainer_types.251]
+[trainer_types.ZYGARDE]
 id = 251
 internal_name = "ZYGARDE"
 name_prefix = "Anomalized"
 money_per_level = 0
 bgm = "CLBattle- Aura Trio.ogg"
 
-[trainer_types.252]
+[trainer_types.RAYQUAZA]
 id = 252
 internal_name = "RAYQUAZA"
 name_prefix = "Anomaly"
 money_per_level = 0
 bgm = "CLBattle- Weather Trio.ogg"
 
-[trainer_types.253]
+[trainer_types.HYPNO]
 id = 253
 internal_name = "HYPNO"
 name_prefix = "PULSE"
 money_per_level = 0
 bgm = "Battle- Meteor Admin.ogg"
 
-[trainer_types.254]
+[trainer_types.TANGROWTH]
 id = 254
 internal_name = "TANGROWTH"
 name_prefix = "PULSE"
 money_per_level = 0
 bgm = "Battle- Meteor Admin.ogg"
 
-[trainer_types.255]
+[trainer_types.CAMERUPT]
 id = 255
 internal_name = "CAMERUPT"
 name_prefix = "PULSE"
 money_per_level = 0
 bgm = "Battle- Meteor Admin.ogg"
 
-[trainer_types.256]
+[trainer_types.SHIV]
 id = 256
 internal_name = "SHIV"
 name_prefix = "Dreamer"
@@ -2069,7 +2068,7 @@ bgm = "CBattle- Desolation.ogg"
 end_sfx = "Victory2"
 gender = "Male"
 
-[trainer_types.257]
+[trainer_types.UMBCOREY]
 id = 257
 internal_name = "UMBCOREY"
 name_prefix = "Umbral"
@@ -2078,21 +2077,21 @@ bgm = "Battle- Rival.ogg"
 end_sfx = "Victory2"
 gender = "Male"
 
-[trainer_types.258]
+[trainer_types.DARKRAI]
 id = 258
 internal_name = "DARKRAI"
 name_prefix = "Anomaly"
 money_per_level = 0
 bgm = "CLBattle- Sinnoh Misc.ogg"
 
-[trainer_types.259]
+[trainer_types.HYPNO2]
 id = 259
 internal_name = "HYPNO2"
 name_prefix = "PULSE"
 money_per_level = 0
 bgm = "Battle- Meteor Admin.ogg"
 
-[trainer_types.260]
+[trainer_types.MIME2]
 id = 260
 internal_name = "MIME2"
 name_prefix = "Master"
@@ -2100,35 +2099,35 @@ money_per_level = 0
 bgm = "FindmEEE.ogg"
 end_sfx = "Victory2"
 
-[trainer_types.261]
+[trainer_types.KYOGRE]
 id = 261
 internal_name = "KYOGRE"
 name_prefix = "Anomaly"
 money_per_level = 0
 bgm = "CLBattle- Weather Trio.ogg"
 
-[trainer_types.262]
+[trainer_types.GROUDON]
 id = 262
 internal_name = "GROUDON"
 name_prefix = "Anomaly"
 money_per_level = 0
 bgm = "CLBattle- Weather Trio.ogg"
 
-[trainer_types.263]
+[trainer_types.YVELTAL]
 id = 263
 internal_name = "YVELTAL"
 name_prefix = "Anomaly"
 money_per_level = 0
 bgm = "CLBattle- Aura Trio.ogg"
 
-[trainer_types.264]
+[trainer_types.XERNEAS]
 id = 264
 internal_name = "XERNEAS"
 name_prefix = "Anomaly"
 money_per_level = 0
 bgm = "CLBattle- Aura Trio.ogg"
 
-[trainer_types.265]
+[trainer_types.NOEL2]
 id = 265
 internal_name = "NOEL2"
 name_prefix = "Prodigy"
@@ -2137,7 +2136,7 @@ bgm = "CBattle- Prodigy.ogg"
 end_sfx = "Victory2"
 gender = "Male"
 
-[trainer_types.266]
+[trainer_types.UMBECLIPSE]
 id = 266
 internal_name = "UMBECLIPSE"
 name_prefix = "Umbral"
@@ -2146,7 +2145,7 @@ bgm = "Battle- Umbral.ogg"
 end_sfx = "Victory2"
 gender = "Female"
 
-[trainer_types.267]
+[trainer_types.UMBNOEL]
 id = 267
 internal_name = "UMBNOEL"
 name_prefix = "Umbral"
@@ -2155,21 +2154,21 @@ bgm = "Battle- Umbral.ogg"
 end_sfx = "Victory2"
 gender = "Male"
 
-[trainer_types.268]
+[trainer_types.NECROZMA]
 id = 268
 internal_name = "NECROZMA"
 name_prefix = "Anomaly"
 money_per_level = 0
 bgm = "CLBattle- Necrozma.ogg"
 
-[trainer_types.269]
+[trainer_types.MEW]
 id = 269
 internal_name = "MEW"
 name_prefix = "Anomaly"
 money_per_level = 0
 bgm = "CLBattle- Mewtwo-Mew.ogg"
 
-[trainer_types.270]
+[trainer_types.ALTVERO]
 id = 270
 internal_name = "ALTVERO"
 name_prefix = "Alter"
@@ -2178,7 +2177,7 @@ bgm = "Battle- Upbeat.ogg"
 end_sfx = "Victory2"
 gender = "Male"
 
-[trainer_types.271]
+[trainer_types.ALTALICE]
 id = 271
 internal_name = "ALTALICE"
 name_prefix = "Alter"
@@ -2187,7 +2186,7 @@ bgm = "Battle- Upbeat.ogg"
 end_sfx = "Victory2"
 gender = "Female"
 
-[trainer_types.272]
+[trainer_types.ALTKURO]
 id = 272
 internal_name = "ALTKURO"
 name_prefix = "Alter"
@@ -2196,7 +2195,7 @@ bgm = "Battle- Upbeat.ogg"
 end_sfx = "Victory2"
 gender = "Male"
 
-[trainer_types.273]
+[trainer_types.ALTLUCIA]
 id = 273
 internal_name = "ALTLUCIA"
 name_prefix = "Alter"
@@ -2205,7 +2204,7 @@ bgm = "Battle- Upbeat.ogg"
 end_sfx = "Victory2"
 gender = "Female"
 
-[trainer_types.274]
+[trainer_types.ALTARI]
 id = 274
 internal_name = "ALTARI"
 name_prefix = "Alter"
@@ -2213,7 +2212,7 @@ money_per_level = 20
 bgm = "Battle- Upbeat.ogg"
 end_sfx = "Victory2"
 
-[trainer_types.275]
+[trainer_types.ALTDECIBEL]
 id = 275
 internal_name = "ALTDECIBEL"
 name_prefix = "Alter"
@@ -2221,7 +2220,7 @@ money_per_level = 20
 bgm = "Battle- Upbeat.ogg"
 end_sfx = "Victory2"
 
-[trainer_types.276]
+[trainer_types.UMBFERN]
 id = 276
 internal_name = "UMBFERN"
 name_prefix = "Umbral"
@@ -2230,7 +2229,7 @@ bgm = "Battle- Umbral.ogg"
 end_sfx = "Victory2"
 gender = "Male"
 
-[trainer_types.277]
+[trainer_types.ANAMSHADE]
 id = 277
 internal_name = "ANAMSHADE"
 name_prefix = "Anamnestic"
@@ -2239,7 +2238,7 @@ bgm = "Battle- Gym.ogg"
 end_sfx = "Battle- Gym.ogg"
 gender = "Male"
 
-[trainer_types.278]
+[trainer_types.ANAMTERRA]
 id = 278
 internal_name = "ANAMTERRA"
 name_prefix = "Anamnestic"
@@ -2248,7 +2247,7 @@ bgm = "Battle- Gym.ogg"
 end_sfx = "Battle- Gym.ogg"
 gender = "Female"
 
-[trainer_types.279]
+[trainer_types.ANNA2]
 id = 279
 internal_name = "ANNA2"
 name_prefix = "Dreamsick"
@@ -2257,7 +2256,7 @@ bgm = "Battle- Champion.ogg"
 end_sfx = "Victory2"
 gender = "Female"
 
-[trainer_types.280]
+[trainer_types.ARCEUS]
 id = 280
 internal_name = "ARCEUS"
 name_prefix = "Anomaly"
@@ -2265,13 +2264,13 @@ money_per_level = 0
 bgm = "Battle- Champion.ogg"
 end_sfx = "Victory2"
 
-[trainer_types.281]
+[trainer_types.DEFNOT]
 id = 281
 internal_name = "DEFNOT"
 name_prefix = "Definitely Not"
 money_per_level = 0
 
-[trainer_types.282]
+[trainer_types.OLDCAL]
 id = 282
 internal_name = "OLDCAL"
 name_prefix = "Volcanic"
@@ -2280,7 +2279,7 @@ bgm = "CBattle- Caliente"
 end_sfx = "Victory2"
 gender = "Male"
 
-[trainer_types.283]
+[trainer_types.ARCLIGHT2]
 id = 283
 internal_name = "ARCLIGHT2"
 name_prefix = "DJ"
@@ -2289,7 +2288,7 @@ bgm = "CBattle- High Voltage.ogg"
 end_sfx = "Victory2"
 gender = "Male"
 
-[trainer_types.284]
+[trainer_types.ACEALLSUITS]
 id = 284
 internal_name = "ACEALLSUITS"
 name_prefix = "Meteor Agent"
@@ -2297,7 +2296,7 @@ money_per_level = 34
 bgm = "CBattle- Deception.ogg"
 end_sfx = "Victory2"
 
-[trainer_types.285]
+[trainer_types.IKARU]
 id = 285
 internal_name = "IKARU"
 name_prefix = "Starchaser"
@@ -2306,7 +2305,7 @@ bgm = "Battle- Upbeat.ogg"
 end_sfx = "Victory2"
 gender = "Male"
 
-[trainer_types.286]
+[trainer_types.CRIM]
 id = 286
 internal_name = "CRIM"
 name_prefix = "Daydreamer"
@@ -2315,7 +2314,7 @@ bgm = "Battle- Upbeat.ogg"
 end_sfx = "Victory2"
 gender = "Female"
 
-[trainer_types.287]
+[trainer_types.AUTUMN]
 id = 287
 internal_name = "AUTUMN"
 name_prefix = "Buttercups and Butterflies"
@@ -2324,7 +2323,7 @@ bgm = "Battle- Upbeat.ogg"
 end_sfx = "Victory2"
 gender = "Female"
 
-[trainer_types.288]
+[trainer_types.VULPES]
 id = 288
 internal_name = "VULPES"
 name_prefix = "Emerging Violet"
@@ -2333,7 +2332,7 @@ bgm = "Battle- Upbeat.ogg"
 end_sfx = "Victory2"
 gender = "Female"
 
-[trainer_types.289]
+[trainer_types.KUROTSUNE]
 id = 289
 internal_name = "KUROTSUNE"
 name_prefix = "Illusory Spirit"
@@ -2341,7 +2340,7 @@ money_per_level = 15
 bgm = "Battle- Trainer3.ogg"
 end_sfx = "Victory2"
 
-[trainer_types.290]
+[trainer_types.JAN]
 id = 290
 internal_name = "JAN"
 name_prefix = "Intern"
@@ -2350,7 +2349,7 @@ bgm = "Battle- Upbeat.ogg"
 end_sfx = "Victory2"
 gender = "Male"
 
-[trainer_types.291]
+[trainer_types.PERRY]
 id = 291
 internal_name = "PERRY"
 name_prefix = "Held at Gunpoint"
@@ -2359,7 +2358,7 @@ bgm = "Battle- Upbeat.ogg"
 end_sfx = "Victory2"
 gender = "Male"
 
-[trainer_types.292]
+[trainer_types.AZZIE]
 id = 292
 internal_name = "AZZIE"
 name_prefix = "Storyteller"
@@ -2368,7 +2367,7 @@ bgm = "Battle- Upbeat.ogg"
 end_sfx = "Victory2"
 gender = "Male"
 
-[trainer_types.293]
+[trainer_types.ANNA3]
 id = 293
 internal_name = "ANNA3"
 name_prefix = "Starcrosser"
@@ -2377,14 +2376,14 @@ bgm = "CBattle- Midnight.ogg"
 end_sfx = "Victory2"
 gender = "Female"
 
-[trainer_types.294]
+[trainer_types.KYRA]
 id = 294
 internal_name = "KYRA"
 name_prefix = "Brat Child"
 money_per_level = 0
 bgm = "Battle- Postgame.ogg"
 
-[trainer_types.306]
+[trainer_types.MELMETAL]
 id = 306
 internal_name = "MELMETAL"
 name_prefix = "Glutton"
@@ -2393,7 +2392,7 @@ bgm = "Battle- Legendary.ogg"
 end_sfx = "Victory2"
 gender = "Male"
 
-[trainer_types.307]
+[trainer_types.CRABRAVE]
 id = 307
 internal_name = "CRABRAVE"
 name_prefix = "Kingler"
@@ -2402,7 +2401,7 @@ bgm = "Battle- Misc.ogg"
 end_sfx = "Victory2"
 gender = "Male"
 
-[trainer_types.308]
+[trainer_types.FUTURE]
 id = 308
 internal_name = "FUTURE"
 name_prefix = "Paradox"
@@ -2410,7 +2409,7 @@ money_per_level = 0
 bgm = "Battle- Legendary.ogg"
 end_sfx = "Victory2"
 
-[trainer_types.309]
+[trainer_types.PAST]
 id = 309
 internal_name = "PAST"
 name_prefix = "Paradox"
@@ -2418,7 +2417,7 @@ money_per_level = 0
 bgm = "Battle- Legendary.ogg"
 end_sfx = "Victory2"
 
-[trainer_types.310]
+[trainer_types.PARADOX]
 id = 310
 internal_name = "PARADOX"
 name_prefix = "Paradox"
@@ -2426,7 +2425,7 @@ money_per_level = 0
 bgm = "Battle- Legendary.ogg"
 end_sfx = "Victory2"
 
-[trainer_types.311]
+[trainer_types.RUINV]
 id = 311
 internal_name = "RUINV"
 name_prefix = "Treasure of Ruin"
@@ -2434,7 +2433,7 @@ money_per_level = 0
 bgm = "Battle- Treasures of Ruin.ogg"
 end_sfx = "Victory2"
 
-[trainer_types.312]
+[trainer_types.RUINS]
 id = 312
 internal_name = "RUINS"
 name_prefix = "Treasure of Ruin"
@@ -2442,7 +2441,7 @@ money_per_level = 0
 bgm = "Battle- Treasures of Ruin.ogg"
 end_sfx = "Victory2"
 
-[trainer_types.313]
+[trainer_types.RUINT]
 id = 313
 internal_name = "RUINT"
 name_prefix = "Treasure of Ruin"
@@ -2450,7 +2449,7 @@ money_per_level = 0
 bgm = "Battle- Treasures of Ruin.ogg"
 end_sfx = "Victory2"
 
-[trainer_types.314]
+[trainer_types.RUINB]
 id = 314
 internal_name = "RUINB"
 name_prefix = "Treasure of Ruin"
