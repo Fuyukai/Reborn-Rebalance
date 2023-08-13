@@ -84,6 +84,7 @@ table.vcentre td {
     vertical-align: middle;
 }
 
+
 /* gotta have a fancy navbar! */
 .navbar {
     background: linear-gradient(90deg, rgba(203,17,224,1) 0%, rgba(255,107,129,1) 100%);;
@@ -172,4 +173,29 @@ td.no-border { border: none; }
   border: 0px;
   font-size: 14px;
   font-weight: 400;
+}
+
+/* make the walkthrough text narrower, but allow the details text to be bigger */
+.walkthrough .content p, .walkthrough .content h1, .walkthrough .content h2, .walkthrough .content h3, .walkthrough .content h4, .walkthrough .content ul, .walkthrough .content ol, .walkthrough .content span, .walkthrough .content figure.image, .walkthrough .content div.notification, .walkthrough summary {
+  max-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.walkthrough .content ul > li, .walkthrough .content ol > li {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.walkthrough summary {
+    border: 2px solid black;
+    border-radius: 1em;
+    padding: 1em;
+
+    color: #485fc7;
+}
+
+.walkthrough summary:hover {
+    color: #363636;
+    cursor: pointer;  /** WHY is this not the default */
 }
