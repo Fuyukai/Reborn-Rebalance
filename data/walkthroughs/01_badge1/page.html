@@ -1,0 +1,453 @@
+{% extends "_meta/walkthrough_page.html" %}
+{% set NAME = "01_badge1" %}
+{% block title %}Badge #1{% endblock %}
+
+{% block walkthrough %}
+<div class="content has-text-justified">
+    <h1 class="has-text-centered">Badge #1</h1>
+
+    {{ ss("portraits") }}
+    <p>
+        Welcome to the Reborn Region! The first thing you need to do is to fill out your name and
+        character portrait. I recommend naming yourself "Leavanny". Most of the portraits have a
+        bad case of Fetal Alcohol Syndrome - something that seems to plague Pokémon games - so
+        I also recommend picking either the second or last portrait.
+    </p>
+
+    <a href="#passwords" id="passwords"><h2 class="subtitle">Passwords</h2></a>
+    <p>
+        You'll board the train towards Reborn City through the Toumaline Desert, and you will be
+        asked for "special instructions or passwords". Say <strong>YES</strong> here, because
+        this is where you can enable certain QOL functionality that the game ridiculously doesn't
+        have enabled by default. There's a few passwords you absolutely should enable no matter
+        what; and a few that I prefer to be enabled, but it's up to personal taste.
+    </p>
+
+    <h3>Must-haves</h3>
+    <ul>
+        <li>
+            <em>easyhms</em> - enables Gen 7 style HMs; that is, you don't need to have a
+            Pokémon learn a HM to be able to use it outside of battle. Why this isn't the default
+            I really don't know.
+        </li>
+        <li>
+            <em>hardcap</em> - enables a hard level cap. Pokémon won't obey you beyond the level cap
+            anyway, so this just means you can't accidentally overlevel and fuck yourself.
+        </li>
+        <li>
+            <em>weathermod</em> - lets you just set the weather. Waiting multiple real-life days
+            to get the right weather for an encounter or evolution is not engaging gameplay.
+        </li>
+        <li>
+            <em>unrealtime</em> - similar to above, lets you just set the time.
+        </li>
+        <li>
+            <em>antidote</em> - enables Gen 5 style poison damage; that is, none at all outside
+            of battle. Fuck that.
+        </li>
+        <li>
+            <em>freeremotepc</em> - gives you a Gen 8 style box link significantly earlier. The
+            most cheaty of the essential codes, but let's be honest, it's no worse than the standard
+            Gym Strat of running back to the PC after every battle.
+        </li>
+        <li>
+            <em>pinata</em> - Free EXP candy from the trainers in the Grand Hall. This just saves
+            a ton of time compared to grinding them out. Not for true JRPG fans.
+        </li>
+
+    </ul>
+
+    <h3>Good to have</h3>
+    <ul>
+        <li>
+            <em>freeexpall</em> - Gives you Gen 7+ style EXP Share right away. Past a certain
+            point you'll just be using EXP Candies anyway, but this is good for the early game.
+        </li>
+        <li>
+            <em>shinycharm</em> - With the Shiny Charm, shiny rates are boosted so that it takes
+            around ten to fifteen minutes of encounters to get a shiny. I think that's a fair
+            tradeoff.
+        </li>
+        <li>
+            <em>fullivs</em> - I'm not grinding for fucking bottle caps.
+        </li>
+        <li>
+            <em>noitems</em> and <em>stopitems</em> - No Hyper Potion cheese in battle. For a more
+            competitive experience.
+        </li>
+        <li>
+            <em>fieldnotes</em> - You'll just look them up online anyway.
+        </li>
+        <li>
+            <em>norolls</em> - Removes damage rolls from the game, so every move does the same
+            damage every time. This gives less "Unfortunate" moments.
+        </li>
+    </ul>
+
+    <p>
+        You can also enter any type name as a password, which will let you get some good Pokémon
+        much earlier than normal, via early game events. You'll get an explanation
+        of what events these are as you can access them. These passwords <strong>must</strong> must
+        be entered during the starting sequence, as certain parts of your RNG is baked into the game
+        as soon as you enter the Grand Hall.
+    </p>
+    <p>
+        I highly recommend you pick one of these codes instead of leeaving it up to chance and
+        getting an Elekid and a Ducklett.
+    </p>
+
+    <ul>
+        <li>
+            <em>monowoke</em> - Porygon (starter), Bronzor (Slums), Staryu (Mystery), Zizagoon
+            in Opal Ward
+        </li>
+        <li>
+            <em>normal</em> - Starly (Mystery)
+        </li>
+        <li>
+            <em>fire</em> - Vulpix/Larvesta/Litwick (Mystery)
+        </li>
+        <li>
+            <em>water</em> - Azurill/Mareanie/Staryu (Mystery), Ducklett (Slums)
+        </li>
+        <li>
+            <em>grass</em> - Shroomish/Cottonee (Mystery)
+        </li>
+        <li>
+            <em>electric</em> - Elekid (Mystery), Pachiritsu in Opal Ward (yikes!)
+        </li>
+        <li>
+            <em>ice</em> - Sneasel/Vulpix-A (Mystery), Cryogonal (Traded)
+        </li>
+        <li>
+            <em>poison</em> - Mareanie/Gastly (Mystery)
+        </li>
+        <li>
+            <em>fighting</em> - Shroomish (Mystery)
+        </li>
+        <li>
+            <em>ground</em> - Trapinch (Mystery)
+        </li>
+        <li>
+            <em>flying</em> - Starly/Togepi (Mystery), Ducklett (Slums)
+        </li>
+        <li>
+            <em>bug</em> - Larvesta (Mystery)
+        </li>
+        <li>
+            <em>psychic</em> - Staryu (Mystery)
+        </li>
+        <li>
+            <em>rock</em> - Rockruff (Mystery), Carbink (Traded)
+        </li>
+        <li>
+            <em>ghost</em> - Gastly/Litwick (Mystery)
+        </li>
+        <li>
+            <em>dragon</em> - Axew/Trapinch (Mystery)
+        </li>
+        <li>
+            <em>steel</em> - Pawniard (Mystery), Bronzor (Slums) (probably the best choice)
+        </li>
+        <li>
+            <em>fairy</em> - Azurill/Togepi/Vulpix-A/Cottonee (Mystery), Mime Jr/Carbink (Traded)
+        </li>
+    </ul>
+
+    <a href="#" id="reborn-city"><h2 class="subtitle">Welcome To Reborn City</h2></a>
+    <p><i>♫ Pokémon Reborn - Peridot Ward</i></p>
+
+    {{ ss("peridot_1") }}
+
+    <p>
+        After entering all of your passwords, the train you're on will crash into the station
+        shortly after you jump out through the window. You'll wake up... in the
+        <strong>Peridot Ward</strong> of Reborn City. Sadly, all of the other portraits on
+        the train but you were killed.
+    </p>
+
+    <p>
+        You then meet your first leader - Julia - who talks like a baby about explosions. She asks
+        you if you're challenging the Reborn League (yes) and then runs away. You're now free to
+        explore the city!
+    </p>
+
+    <p>
+        Well, not really. Most of Lower Peridot Ward is blocked from you to stop you from walking
+        up and getting into battles with no Pokémon. Talk to everyone here for some nice flavour
+        text - you should be talking to absolutely everyone you see, anyway - and proceed to
+        the right to make it to the <strong>Opal Ward</strong>.
+    </p>
+
+    {{ ss("shinycharm") }}
+    <p>
+        Talk to the purple-haired person at the bottom next to the river to get a single
+        <i>Potion</i>. It doesn't work on humans, but she knows that! There are two staircases
+        to either side, but they're blocked off by two trainers who won't let you past unless you
+        have a Pokémon. If you used the early shiny charm password, there will be an item to
+        the side of the middle staircases that contains it.
+    </p>
+
+    <p>
+        You have nowhere else to go but up the middle staircase and into the Grand Hall, where you
+        will meet <strong>Victoria</strong>, your first rival! She'll take you inside the
+        Grand Hall to the registration desk (hilariously, you walk a little bit faster than she
+        does so this sequence looks pretty glitchy). And now it is time for.....
+    </p>
+
+    <a href="#starters" id="starters"><h2 class="subtitle">Choosing Your Starter</h2></a>
+
+    <div class="notification is-warning">
+        In the starter room, you will find a Sunkern Switcher. <strong>You must switch teams</strong>,
+        to the All-Gen Teams, as those are the ones editeed by the balance mod. Additionally, I
+        don't provide any guarantees that the original teams will still exist, causing crashes
+        or other issues.
+    </div>
+
+    <p>
+        Reborn is a <i>hard</i> game. Every major boss battle has a team that hits hard, and
+        usually has a cheaty field effect that directly advantages their type and shuts down
+        the most common counters.
+    </p>
+    <p>
+        The starter Pokémon are usually some of the best Pokémon available until the encounter
+        tables open up around the third badge. All starters are also available via either
+        the wild or events so you don't have to worry about missing out on any of them.
+    </p>
+    <p>
+        Whilst you can get away with any starter, some are very obviously better than others.
+    </p>
+    <ul>
+        <li>
+            {{ sp("froakie") }}, {{ sp("scorbunny") }}, or {{ sp("sprigatito") }} are great
+            choices overall due to their ability Protean which is one of the best abilities
+            in the game. That said, Sprigatito is especially weak to some of the first gyms;
+            you can get it via event at Spinel Town after the 5th Gym, after which it is one of the
+            best mons available.
+        </li>
+        <li>
+            {{ sp("torchic") }} used to be the best starter hands down, but with the removal of
+            Speed Boost it loses a lot of its previous advantage. You can get it via event near
+            the end of the game.
+        </li>
+        <li>
+            Starter Porygon with the <em>monowoke</em> password,
+            Starter Eeevee with the <em>eevee</em> password, or starter Alolatales with the
+            <em>vulpixpls</em> password also make great choices.
+        </li>
+    </ul>
+
+    <p>
+        Beyond that, the game relies very heavily on team composition; don't expect to coast along
+        with an overlevelled starter like the main series games! You'll usually end up switching
+        out your starter for a lot of the boss fights anyway.
+    </p>
+
+    <a href="#grand-beginnings" id="grand-beginnings"><h2 class="subtitle">Grand Beginnings</h2></a>
+
+    <p>
+        Once you've picked your starter, you'll be led back downstairs and Victoria will go upstairs
+        to pick her starter (always a Litten). Unfortunately, your second rival -
+        <strong>Cain</strong> - will barge in, corner you, make inappropriate sexual remarks at you,
+        and then force you into a battle. At least it's an easy battle this time. I think there
+        should be an option to use your Pokémon to target him directly and kill him permanently.
+    </p>
+
+    {{ trainer_battle_content("Cain", "Cain", 0) }}
+
+    <p>
+        After beating him, Victoria comes back, victim blames you for Cain's sexual comments, and
+        then has another battle with you.
+    </p>
+
+    {{ trainer_battle_content("Victoria", "Victoria", 0) }}
+
+    {{ ss("items") }}
+
+    <p>
+        After the battle has finished, you have free movement again and can explore! If you used
+        the shiny charm or remote PC passwords, they will be found as items to the immediate
+        left of the Grand Hall. Don't forget to pick them up before you leave.
+    </p>
+
+    <p>
+        At the very bottom of the Grand Hall, next to the exit, there are two NPCs. The one to the
+        right will offer to sell you a rare Pokémon for only 500 dollarpounds; spoilers - its a
+        Magikarp. You won't get this Magikarp for a very long time, either - not until nearly the
+        end of the game. To his credit, in the Reborn region, Magikarp is actually extinct; so
+        he's not lying when he says its rare. It's your choice to go for it or not.
+    </p>
+
+    <p>
+        If you do choose to buy it, it'll be stolen immediately. No refunds!
+    </p>
+
+    <div class="notification is-info">
+        If you've installed the NG+ mod correctly, then there will be a Silver Shard at the
+        bottom left of the Grand Hall. It doesn't do anything except tell you its installed.
+    </div>
+
+    <a href="#opal-ward" id="opal-ward"><h2 class="subtitle">Opal Ward</h2></a>
+
+    <p>
+        Exit the Grand Hall to the south. Before you can go anywhere you're treated to a quick
+        explanation about the soft level cap and disobedient Pokémon - the specific Pokémon varies
+        depending on your save between either an {{ sp("STUFFUL") }} or an {{ sp("SNUBBULL") }}.
+        Stufful isn't available again until Route 1 (via Bewear), and Snubbull isn't available
+        again until after the 13th Badge.
+    </p>
+
+    {{ ss("softguestcap") }}
+
+    <p>
+        If you enabled the hard level cap, then Pokémon simply won't level past your level cap. This
+        makes it a whole lot less annoying as you don't have to worry about over-levelling and
+        having to use Common Candies to bring the levels back in line.
+    </p>
+
+    <p>
+        On both sides of the Grand Hall is a small wild area. There's nothing here really worth
+        wasting your first set of Pokéballs on, but there is a single Green Shard available if
+        you interact with the furthest left statue. Battle the single trainer, he tells you about
+        Hidden Abilities and how they appear on wild Pokémon in Reborn. This isn't strictly
+        true because hidden abilities have been (mostly) removed in favour of just adding them to the
+        regular ability list, but nevertheless. Go back down the stairs to the south.
+    </p>
+
+    {{ trainer_battle_content("Jonathan", "TechNerd") }}
+
+    <p>
+        If you try going up the staircases again, you will be again be blocked by the bridge
+        guards - but this time, you can battle them!
+    </p>
+
+    <p>
+        For the left stairs:
+    </p>
+
+    {{ trainer_battle_content("Paul", "YOUNGSTER") }}
+
+    <p>
+        And then for the right stairs:
+    </p>
+
+    {{ trainer_battle_content("Eric", "COOLTRAINER_Male") }}
+
+    {{ ss("randeeznuts") }}
+
+    <p>
+        On the bridge itself are some battleable NPCs; actually, the bridge slowly gains newer
+        NPCs as the first part of the story progresses. This makes for a fun surprise when you're
+        traversing back to the Grand Hall to get more EXP candies. There's also a set of guys
+        bullying a Pokémon; this is either a {{ sp("ZIGZAGOON") }} or a {{ sp("PACHIRISU") }}.
+        You can't defend it right now (although, if its a Pachirisu, you should let them throw
+        it into the river) so just make a note and move on.
+    </p>
+
+    <p>
+        If you go up north of the bridge, you will find... a pig. Blocking your way through.
+        Damn rozzers! There's another pig on the right; meaning that all routes into Obsidia Ward
+        are completely blocked off. Your only option is to go southeast into Lower Peridot Ward
+        which is now unblocked. Just be warned - there are a whole bunch of trainers ready
+        to battle you.
+    </p>
+
+    <a href="#peridot-events" id="peridot-events"><h2 class="subtitle">Peridot Ward Eventing</h2></a>
+
+    {{ ss("snaxhouse") }}
+
+    <p>
+        Enter this house in Lower Peridot and pick up the <em>Pokesnax</em> within. This will give
+        you access to at least four different event Pokémon.
+    </p>
+
+    {{ ss("moneybags") }}
+
+    <p>
+        On the left-most alleyway of Lower Peridot Ward, there will be a guy asking for money.
+        Give him three donations of 50 dollarpounds and he'll move out of the way. You can enter
+        a house along the alleyway to pick up ether a {{ sp("MINCCINO") }} or an {{ sp("ESPURR") }}
+        (or, perhaps something else, depending on your passwords?).
+    </p>
+
+    {{ ss("whismer") }}
+
+    <p>
+        This house contains an {{ sp("WHISMUR") }} (provided you have a Pokesnax). This is your
+        only chance to get one or its evolutions before you make it onto Route 1 again.
+    </p>
+
+    {{ ss("gulpin") }}
+
+    <p>
+        Interact with this dumpster for a {{ sp("GULPIN") }}.
+    </p>
+
+    <p>
+        Next, above the Pokécentre, there is a Doxy trainer who will battle you. Defeat her, and
+        then talk to her again to get a <em>Rose Incense</em>. You can also interact with the
+        rock below to get a single <em>Antidote</em>. The house to the left directly above
+        has an event {{ sp("SKITTY") }}, although I can't paticularly recommend you bother with
+        that.
+    </p>
+
+    <p>
+        To the right is a conspicious alleyway guarded by a single trainer. Defeat him to gain
+        access to the alley; inside, you will find a <em>Super Potion</em> guarded by another
+        trainer. This alley also has some very decent earlygame encounters, like
+        {{ sp("TRUBBISH") }} and {{ sp("STUNKY") }}.
+    </p>
+
+    <p>
+        Even further to the right, just before the upper entrance to the Opal Ward, is a flat
+        with a {{ sp("KRICKETOT") }} in it. <strong>I highly recommend you get this Pokémon</strong>, as
+        Technician Kricketune can carry you really hard throughout the first few gyms, even in the
+        base game. Just remember that its not a good Pokémon for most of the later game,
+        unfortunately, even with the stat boost.
+    </p>
+
+    <p>
+        Finally, to the left of the train tracks up to North Peridot Ward is a building with a
+        flower field next to it. Go inside, beat up the old man, and you'll get access to the
+        garden. The only thing worth catching here is a {{ sp("SWABLU") }}, which has Cloud Nine
+        that can majorly fuck certain story battles up by cancelling their weather effect.
+    </p>
+
+    {{ ss("charm") }}
+
+    <p>
+        Follow the train tracks up into North Peridot Ward. You will want to move further up in
+        the ward to find a vendor that sells Pokésnax, which you can buy three of to get the
+        rest of the event Pokémon. But first, the way, enter this house to get the TM for Charm.
+        You can also go left into another alley, where you will find a <em>Data Chip</em>
+        guarded by two other trainers.
+    </p>
+
+    <p>
+        If you travel all the way north to the gate, on days with clear weather (or if you have
+        weather mod enabled and set the weather to clear), you can use the Rose Incense you found
+        earlier to catch a {{ sp("BUDEW") }}. I once again <strong>strongly recommend</strong> you
+        get this, as Growth Roselia is really really good at these early stages of the game.
+    </p>
+
+    <p>
+        Now, we're almost done with all of the available event Pokémon. If you have the weather mod,
+        set the weather to Rainy or Stormy and interact with the fountain to the right of the
+        railway to catch a {{ sp("SURSKIT") }}. Finally, set the time to night, go down to the
+        left of the house with Charm in it, and enter the building to catch a {{ sp("JOLTIK") }}
+        (provided you have a Pokésnax.)
+    </p>
+
+    {{ ss("pokesnax") }}
+
+    <p>
+        In clear weather, this guy will appear and will sell Pokésnax for 650 dollarpounds, letting
+        you go back and get all of the event Pokémon that you missed. With that, you've finally
+        caught all of the event Pokémon available to you! For now. (Hehee).
+    </p>
+
+    <a href="#blacksteam-factory" id="blacksteam-factory">
+        <h2 class="subtitle">Blacksteam Factory</h2>
+    </a>
+</div>
+{% endblock %}

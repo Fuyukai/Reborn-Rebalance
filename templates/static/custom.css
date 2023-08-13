@@ -176,6 +176,10 @@ td.no-border { border: none; }
 }
 
 /* make the walkthrough text narrower, but allow the details text to be bigger */
+.walkthrough .content {
+    margin-top: 1.5rem;
+}
+
 .walkthrough .content p, .walkthrough .content h1, .walkthrough .content h2, .walkthrough .content h3, .walkthrough .content h4, .walkthrough .content ul, .walkthrough .content ol, .walkthrough .content span, .walkthrough .content figure.image, .walkthrough .content div.notification, .walkthrough summary {
   max-width: 75%;
   margin-left: auto;

@@ -1,11 +1,101 @@
 {% extends "_meta/_root.html" %}
+{# must set the NAME var. #}
+
+{% from "helpers.html" import small_sprite_obb, species_link %}
+
+{%- macro sp(name) -%}
+{% set s = catalog.species_mapping[name.upper()] %}
+<a href="/species/specific/{{ s.internal_name.lower() }}.html">{{ s.name }}</a>
+{%- endmacro -%}
+
+{%- macro ss(name, title="") -%}
+<figure class="image">
+    {% if title %}
+    <img src="/static/{{ NAME }}/{{ name }}.png" alt="{{ title }}">
+    {% else %}
+    <img src="/static/{{ NAME }}/{{ name }}.png">
+    {% endif %}
+</figure>
+{%- endmacro -%}
+
+{%- macro trainer_battle(name, klass, id=0) -%}
+{% set trainer = catalog.trainers[name].trainers[klass][id] %}
+{% if name == "Cain" %}
+{% set prefix = "Sex Pest" %}
+{% else %}
+{% set prefix = catalog.trainer_types[klass].name_prefix %}
+{% endif %}
+
+<details>
+    <summary class="has-text-centered">
+        {{ prefix }} {{ trainer.battler_name }}
+    </summary>
+
+    <table class="table is-hoverable is-fullwidth is-striped" style="margin-top: 1rem">
+        <thead>
+        <tr class="is-primary">
+            <th class="has-text-centered">Sprite</th>
+            <th class="has-text-centered">Name</th>
+            <th class="has-text-centered">Level</th>
+            <th class="has-text-centered">Ability</th>
+            <th class="has-text-centered">Held Item</th>
+            <th class="has-text-centered">Moves</th>
+            <th class="has-text-centered">EVs</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        {% for raw_poke in trainer.pokemon %}
+        {% set species = catalog.species_mapping[raw_poke.internal_name] %}
+        <tr>
+            <td class="has-text-centered" style="vertical-align: middle">{{ small_sprite_obb(species) }}</td>
+            <td class="has-text-centered" style="vertical-align: middle">{{ species_link(species) }}</td>
+            <td class="has-text-centered" style="vertical-align: middle">{{ raw_poke.level }}</td>
+            {# why the FUCK is this 1-indexed. KILL YOURSELF #}
+            {% set ability_name = species.raw_abilities[raw_poke.ability_number - 1] %}
+            <td class="has-text-centered" style="vertical-align: middle">
+                {{ catalog.ability_name_mapping[ability_name].display_name }}
+            </td>
+            {% if raw_poke.raw_item %}
+            <td class="has-text-centered" style="vertical-align: middle">
+                {{ catalog.item_mapping[raw_poke.raw_item].display_name }}
+            </td>
+            {% else %}
+            <td class="has-text-centered" style="vertical-align: middle">
+                --
+            </td>
+            {% endif %}
+            <td class="has-text-centered" style="vertical-align: middle">
+                <ul>
+                    {% for move_name in raw_poke.raw_moves %}
+                    <li>
+                        {{ catalog.move_mapping[move_name].display_name }}
+                    </li>
+                    {% endfor %}
+                </ul>
+            </td>
+            <td class="has-text-centered" style="vertical-align: middle">
+                {{ raw_poke.evs.to_slashed_list() }}
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+</details>
+{%- endmacro -%}
+
+{# purely to make intellij happier. #}
+{%- macro trainer_battle_content(name, klass, id=0) -%}
+</div>
+{{ trainer_battle(name, klass, id=id) }}
+<div class="content has-text-justified">
+{%- endmacro -%}
 
 {% block content %}
 <section class="section">
     <div class="container">
         <div class="columns is-centered">
-            <div class="column is-half">
-                <article>
+            <div class="column is-three-quarters">
+                <article class="walkthrough">
                 {% block walkthrough %}
 
                 {% endblock %}
