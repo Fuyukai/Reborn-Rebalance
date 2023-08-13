@@ -221,7 +221,7 @@
                 <tr>
                     <td>
                         <span title="Map ID {{ map_id }}">
-                            <a href="/maps/{{ map_id }}.html">{{ map.name }}</a>
+                            <a href="/maps/{{ '{:03d}'.format(map_id) }}.html">{{ map.name }}</a>
                         </span>
                     </td>
                     <td>{{ type }}</td>
