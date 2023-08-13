@@ -7,7 +7,7 @@ exp_yield = 140
 catch_rate = 150
 caught_happiness = 70
 raw_abilities = ["NATURALCURE", "POISONPOINT"]
-raw_egg_moves = ["BULLETSEED", "COTTONSPORE", "GIGADRAIN", "GRASSWHISTLE", "LEAFSTORM", "MINDREADER", "NATURALGIFT", "PINMISSILE", "POWERWHIP", "RAZORLEAF", "SEEDBOMB", "SLEEPPOWDER", "SPIKES", "SYNTHESIS", "LIFEDEW"]
+raw_egg_moves = []
 raw_tms = ["CUT", "TOXIC", "FLASH", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "RAINDANCE", "FRUSTRATION", "SOLARBEAM", "RETURN", "SHADOWBALL", "DOUBLETEAM", "SLUDGEBOMB", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "SWORDSDANCE", "PSYCHUP", "POISONJAB", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "DAZZLINGGLEAM", "CONFIDE", "PINMISSILE", "MAGICALLEAF", "WEATHERBALL", "BULLETSEED", "BODYSLAM", "POWERWHIP", "LEAFSTORM", "SPIKES", "ENDURE", "TOXICSPIKES", "SWIFT"]
 raw_tutor_moves = ["COVET", "FURYCUTTER", "GIGADRAIN", "MUDSLAP", "SEEDBOMB", "SNORE", "SYNTHESIS", "UPROAR", "WORRYSEED", "GRASSYGLIDE", "MIMIC"]
 compatible_egg_groups = ["Fairy", "Grass"]
@@ -25,6 +25,10 @@ dex_number = 315
 internal_name = "ROSELIA"
 raw_hidden_ability = "LEAFGUARD"
 habitat = "Grassland"
+
+[[raw_level_up_moves]]
+at_level = 0
+name = "GROWTH"
 
 [[raw_level_up_moves]]
 at_level = 1
