@@ -135,7 +135,6 @@ def build_changes(builder: ChangelogBuilder):
     cinccino.add_ability_change("CUTECHARM", "LIMBER")
 
     builder.pokemon("JELLICENT", "Now uses stupid strats.")
-    builder.pokemon("KLINKLANG").add_ability_change(None, "SPEEDBOOST")
     builder.pokemon("CHANDELURE", "You are absolutely fucking not getting Shadow Tag on this.")
 
     builder.pokemon("STUNFISK", "Shoutouts to /r/stunfisk").add_ability_change(
@@ -176,7 +175,7 @@ def build_changes(builder: ChangelogBuilder):
     builder.pokemon(
         "DRAGALGE",
         """
-        For a Pokémon that evolves at level 48, it sure does have a sad BST. Its been given a 
+        For a Pokémon that evolves at level 48, it sure does have a sad BST. It's been given a 
         stat buff, as well as more appropriate abilities than a duplicate one.
         """
     )\
