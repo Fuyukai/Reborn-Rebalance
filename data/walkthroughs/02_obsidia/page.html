@@ -1,0 +1,240 @@
+{% extends "_meta/walkthrough_page.html" %}
+{% set NAME = "02_obsidia" %}
+{% block title %}Badge 2 Pt 1: Obsidia Ward{% endblock %}
+
+{% block walkthrough %}
+<div class="content has-text-justified">
+    <h1 class="has-text-centered">Obsidia Ward</h1>
+
+    {{ ss("vicky") }}
+
+    <p>
+        Okay, actually, before going anywhere - we need to make a stop in front of the Grand Hall.
+        Set the weather to Sunny and there will be an ice cream vendor down below the stairs
+        to the Grand Hall. Buy a Chocolate Ice Cream from her, and continue up Opal Bridge towards
+        the east-most piggy, where Victoria will be arguing with him to let us through. Sheldon
+        Cooper will show up and successfully convince the piggy to let us through.
+    </p>
+
+    <p>
+        We could advance the plot here... but fuck that! Let's do some exploring. First,
+        ignore everything and beeline straight towards the candy shop with a Swirl on the
+        outside (it's next to one of the piggies). There's a little girl standing next to the
+        vending machine at the top right; talk to her and give her the chocolate ice cream
+        you just bought to get her out of the way. Interact with the vending machine and select
+        Vanilla to get a {{ sp("VANILLITE") }}.
+    </p>
+
+    <div class="notification is-info">
+        As a side note; yes, that music does sound like the Magic Roundabout.
+    </div>
+
+    <p>
+        Back-tracking a bit, go up the second alley from the left to a small area. On the right
+        is the Pokémon Centre, and the daycare - but they're not letting you use it yet. We'll
+        come back to that. On the left is two houses; the one closest to the alleyway has someone
+        asking to trade their Castform for a Furret. Why you would want either of those is a mystery
+        to me, but you can't do it anyway.
+    </p>
+
+    <p>
+        Then, to the left and up is a house with a staircase down into the Obsidia side of the
+        Underground Railnet. It's blocked off by a gate, and the switch is very inconveniently on
+        the other side of it. Drat! However, there is one very valuable encounter here:
+        {{ sp("KLINK") }}. Klink (and, by extension, {{ sp("KLINKLANG") }}) is one of the best
+        Pokémon available purely because it is heavily helped out by the Factory Field, which is
+        used in most Team Nazi encounters. Its signature moves (Gear Grind and Shift gear) are
+        massively boosted up. Plus, Motor Drive and Levitate are two great abilities.
+        <strong>I highly recommend you catch a Klink.</strong>
+    </p>
+
+    {{ ss("sheldoncooper") }}
+
+    <p>
+        Now, return to the right of Obsidia and talk to Sheldon Cooper to advance the plot forwards.
+        She tells you that you will need Cut to go inside the park-turned-forest and stop Team Nazi
+        from destroying the entire ward; you can get Cut from somebody called Amaria (one of my
+        favourite characters in the game!) in the Coral Ward. The only problem: the Coral Ward is
+        blocked off! There's a cuttable tree above the right path, and the indirect route has
+        the road completely destroyed. We're going to have to go around. Your only route is
+        through the Obsidia Slums, which is available through a narrow alleyway at the southwest
+        of the map.
+    </p>
+
+    <a href="#obsidia-slums" id="obsidia-slums"><h2 class="subtitle">Obsidia Slums</h2></a>
+
+    {{ ss("slums1") }}
+
+    <p>
+        This is a long and winding dungeon, where the route isn't immediately obvious. To your
+        left is a bin with a single <em>Potion</em> in it. To the left is a fence, and behind that
+        fence is an Egg! You can't get to it yet, though. Your only option is to go upwards. Carry
+        on straight left and go straight up to find... an elevator door! It's locked. There's a gate
+        next to it blocking off access to the upper part of the slum. Again, your only option here
+        is to go left. Next to the guy running in place is a hidden Pokésnax (damn, that would've
+        been useful an hour ago!)
+    </p>
+
+    <p>
+        Further left, there's another elevator door blocked by guy, and a <em>Light Shard</em>.
+        These are special shards that fully restore your team when interacted with, and are usually
+        put right before an important story trainer. Heal your team using it, and then continue
+        upwards to meet with Victoria! She'll challenge you to a fight. This can be a tricky fight;
+        I wiped out to her twice in a row in my first playthrough. Here's some tips:
+    </p>
+
+    <ul>
+        <li>
+            All her Pokémon have boosting moves in their moveset. If they get to +3 or +4, it's
+            over; so consider resetting and catching something else to slot in.
+        </li>
+        <li>
+            Again, Growth Roselia (now with Mega Drain) muscles straight through her team at +1, with
+            the exception of Torracat.
+        </li>
+    </ul>
+
+    {{ trainer_battle_content("Victoria", "Victoria", 21) }}
+
+    <p>
+        After beating her, an observer to the left makes some misogynistic comments before being
+        bullied into opening the gate up above you. If you wish, you can go down the broken
+        escalator to a small subsection of B1F, where a <em>Great Ball</em> will be waiting on the
+        floor for you. You can also catch a {{ sp("PANCHAM") }} here - a great earlygame Pokémon.
+        In my first run, I found Pancham/Pangoro helped out a lot with some trickier sections. This
+        subsection is cut off from the rest of the basement, however, so go back up and through the
+        entrance now exposed by the open gate.
+    </p>
+
+    {{ ss("slums2") }}
+
+    <p>
+        And now we come to a true staple of Pokémon Reborn. This one small feature is what this
+        game is really known for. It's one of the most pervasive design decisions in the game,
+        and dramatically affects every part of it, from the story, to the difficulty, to the level
+        design. Countless Reborn players have banged their head on the wall in frustration,
+        seemingly being softlocked with no possible way forward - no matter how hard they try. This
+        is in my mind, what Pokémon Reborn is all about. No, I don't mean the field effects; I mean
+        the fucking jumping puzzles. They have a few "simple" rules:
+    </p>
+
+    <ul>
+        <li>
+            You can either move exactly one tile along the two axis, or jump exactly two tiles along
+            the two axis.
+        </li>
+        <li>
+            You can't jump through obstacles. (Duh.)
+        </li>
+        <li>
+            Some platforms are wobbly, which causes you to stop in place for a second. (Later on
+            it has other effects, but not here in the Slums).
+        </li>
+    </ul>
+
+    <p>
+        The solution here is really simple; jump down once, move to the left, jump down twice.
+        Great! Keep going along for a trainer guarding a hidden Rawst Berry in the topmost rock,
+        and then go through the door to continue. In the next room, if you continue straight
+        downwards, a crate will skedaddle away!
+    </p>
+
+    {{ ss("slums2_arrows") }}
+
+    <p>
+        On the other hand, immediately to the left is another jumping puzzle. You want to follow
+        that first. There are two possible routes; the red arrow route and the blue arrow route. The blue arrow route leads
+        to a hidden Extra-Small Exp Candy in the box to the right but nothing else. The red arrow
+        route leads to the same room as the blue arrow route, but you can jump straight across to
+        find a <em>Moon Stone</em>, and an entrance to another floor. Go through it for a small
+        cutscene with Sephiroth the Moral Doctor; you can steal some
+        <a href="https://www.youtube.com/watch?v=U1iCZpFMYd0">Zinc</a> from his office, and a small
+        Exp Candy from the conspicuous area behind a fence at the bottom of the room. Besides
+        that, there's nothing really of value in this area.
+    </p>
+
+    <p>
+        Go back across the jumping puzzle and down where the moving crate went. You'll exit out onto
+        the roof of the Slums, with a light shard nearby. Take it to heal your team, and re-enter
+        the Slums to find a corridor; the left side has a TM but is blocked off. The right side has
+        a lift door constantly opeening and closing; you can enter it to find a Mankey fiddling with
+        the controls. Interact with it and it'll skedaddle, letting you interact with the lift.
+        You can go down to floor 1, which will unlock the mysterious blocked off door next to
+        the gate, but not much else; so go down to floor B1F.
+    </p>
+
+    {{ ss("slums3") }}
+
+    <p>
+        This floor is a bit of a bastard to navigate due to all the debris. First of all,
+        at the far left side of the room is another lift door. Interact with it to have another
+        crate scurry away, and then enter it to access both the TM60 on floor 2F and a Net Ball
+        behind the youngster previously blocking you on floor 1F. (Make sure to talk to him
+        as well, he'll move out of the way and let you access the lift freely.)
+    </p>
+
+    <p>
+        Then, travel upwards into the big void door in the centre of the room. Inside is a light
+        shard, the crate that keeps running away, and a single trainer to fight. (Use the light
+        shard after you fight the trainer.) Navigating through the debris and floor cracks,
+        you'll find a door at the very top... and then a fight with the source of the moving
+        crates: a gang of Scraggy!
+    </p>
+
+    {{ trainer_battle_content("Gang", "Pokemon", 0) }}
+
+    <p>
+        You can then pass through a gate onto the left side of the previous building, which lets
+        you out into the right-most half of B1F. Before going up the the escalator to floor 1F
+        again, travel through the right side of the screen here. Yes, that's a door!
+    </p>
+
+    {{ ss("slums4") }}
+
+    <p>
+        If you travel through these rooms, you will find... your way blocked off by two smashable
+        rocks! You can talk to the trainer for some lore; there's a Pokémon that comes through here
+        occasionally, but only when it smells food. You can't go through the door, but if you could,
+        it would lead you to another (and the coolest section of) the Underground Railnet. Make a
+        mental or physical note of this for later, as we'll want to come back to the slums several
+        times.
+    </p>
+
+    <p>
+        Return back to the escalator and go up it to access the right side of the Slums. Go down and talk to
+        the guy nearest the gate and he'll open it up so that you don't have to go the long way
+        around next time. Before going up, immediately to your left is another "hidden" doorway
+        that you should go through... and another jumping puzzle! This one is a bit annoying as you
+        can't easily see the lower platforms, but you can follow this route:
+    </p>
+
+    {{ ss("slums5_arrows") }}
+
+    <p>
+        Go down the path from the puzzle and down into the previously fenced off corridor that was
+        inaccessible from the main entrance. At the bottom is an <strong>Egg</strong>! This egg
+        contains one of three Pokémon, determined either at random or by certain monotype passwords
+        entered at the start of the game:
+    </p>
+
+    <ul>
+        <li>
+            Ducklett, for water or flying
+        </li>
+        <li>
+            Bronzor, for steel, monowoke, or psychic
+        </li>
+        <li>
+            Drowzee, for psychic
+        </li>
+    </ul>
+
+    <p>
+        Pick up your egg and head back to the gate room, then up from the gate to the right-most
+        exit of the slums. With that, you can head down to the pathway to the Coral Ward!
+    </p>
+
+    <a href="#coral-ward" id="coral-ward"></a>
+
+</div>
+{% endblock %}
