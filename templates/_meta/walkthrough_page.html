@@ -5,7 +5,7 @@
 
 {%- macro sp(name) -%}
 {% set s = catalog.species_mapping[name.upper()] %}
-<a href="/species/specific/{{ s.internal_name.lower() }}.html">{{ s.name }}</a>
+<a href="/species/specific/{{ s.internal_name.lower() }}.html" target="_blank">{{ s.name }}</a>
 {%- endmacro -%}
 
 {%- macro ss(name, title="") -%}
