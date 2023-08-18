@@ -1726,13 +1726,13 @@ spd = 0
 spe = 0
 
 [[trainers.FLORINIA.20.pokemon]]
-internal_name = "ELDEGOSS"
-level = 21
+internal_name = "CRADILY"
+level = 24
 raw_moves = [
-    "SYNTHESIS",
-    "MAGICALLEAF",
-    "POISONPOWDER",
-    "LEECHSEED",
+    "ROCKTOMB",
+    "INFESTATION",
+    "MEGADRAIN",
+    "SANDSTORM",
 ]
 sex = "F"
 
@@ -1789,16 +1789,17 @@ spd = 0
 spe = 0
 
 [[trainers.FLORINIA.20.pokemon]]
-internal_name = "CRADILY"
+internal_name = "CACNEA"
 level = 24
 raw_moves = [
-    "STOCKPILE",
-    "SMACKDOWN",
-    "RECOVER",
+    "PINMISSILE",
+    "BULLETSEED",
+    "ROTOTILLER",
     "SANDSTORM",
 ]
 sex = "F"
 nature = "CAREFUL"
+ability_number = 3
 iv = 15
 
 [trainers.FLORINIA.20.pokemon.evs]
