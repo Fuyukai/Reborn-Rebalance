@@ -17,8 +17,12 @@
 {{ small_sprite(obb.dex_number, obb.name) }}
 {%- endmacro -%}
 
-{%- macro species_link(obb) -%}
+{%- macro species_link(obb, form_name=None) -%}
+{% if form_name is not none %}
+<a href="/species/specific/{{ obb.internal_name.lower() }}.html">{{ obb.name }}-{{ form_name }}</a>
+{% else %}
 <a href="/species/specific/{{ obb.internal_name.lower() }}.html">{{ obb.name }}</a>
+{% endif %}
 {%- endmacro -%}
 
 {%- macro map_link(id, name) -%}

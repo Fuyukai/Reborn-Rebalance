@@ -51,7 +51,13 @@
         {% set species = catalog.species_mapping[raw_poke.internal_name] %}
         <tr>
             <td class="has-text-centered" style="vertical-align: middle">{{ small_sprite_obb(species) }}</td>
+            {% if raw_poke.internal_name in catalog.forms and raw_poke.form_number %}
+            {% set all_forms = catalog.forms[raw_poke.internal_name] %}
+            {% set form = all_forms.by_id(raw_poke.form_number) %}
+            <td class="has-text-centered" style="vertical-align: middle">{{ species_link(species, form.form_name) }}</td>
+            {% else %}
             <td class="has-text-centered" style="vertical-align: middle">{{ species_link(species) }}</td>
+            {% endif %}
             <td class="has-text-centered" style="vertical-align: middle">{{ raw_poke.level }}</td>
             {# why the FUCK is this 1-indexed. KILL YOURSELF #}
             {% set ability_name = species.raw_abilities[raw_poke.ability_number - 1] %}

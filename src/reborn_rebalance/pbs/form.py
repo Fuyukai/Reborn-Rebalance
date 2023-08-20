@@ -197,6 +197,13 @@ class PokemonForms:
         if errors:
             return ExceptionGroup(f"Error validating {self.internal_name}", errors)
 
+    def by_id(self, id: int) -> SinglePokemonForm | None:
+        try:
+            form_name = self.form_mapping[id]
+            return self.forms[form_name]
+        except KeyError:
+            return None
+
     def generate_ruby_code(self, buffer: RubyBuffer):
         """
         Generates the Ruby code for this form.
