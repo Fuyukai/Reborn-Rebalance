@@ -62,6 +62,13 @@ def build_changes(builder: ChangelogBuilder):
     ).add_ability_change(None, "TINTEDLENS")
     builder.pokemon("LUVDISC", "Now evolves into Alomomola at Level 25.")
 
+    builder.pokemon("CHIMECHO", "Now has a less bad movepool.") \
+        .add_level_up_move(25, "BUGBUZZ") \
+        .add_level_up_move(44, "AIRCUTTER") \
+        .add_level_up_move(48, "EERIESPELL") \
+        .add_tm_move(177) \
+        .add_tutor_move("OMINOUSWIND")
+
     staraptor = builder.pokemon(
         "staraptor",
         """

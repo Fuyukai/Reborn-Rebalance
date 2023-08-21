@@ -7,16 +7,16 @@ exp_yield = 159
 catch_rate = 45
 caught_happiness = 70
 raw_abilities = ["LEVITATE"]
-raw_egg_moves = ["COSMICPOWER", "CRAFTYSHIELD", "CURSE", "DISABLE", "FUTURESIGHT", "HYPNOSIS", "PERISHSONG", "RECOVER", "SKILLSWAP", "STOREDPOWER", "WISH"]
-raw_tms = ["PSYSHOCK", "CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "TORMENT", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "ENERGYBALL", "CHARGEBEAM", "THUNDERWAVE", "PSYCHUP", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "DAZZLINGGLEAM", "CONFIDE", "LEAFSTORM", "ENDURE", "FUTURESIGHT", "COSMICPOWER", "STOREDPOWER", "POWERGEM"]
-raw_tutor_moves = ["ALLYSWITCH", "BIND", "DEFOG", "GRAVITY", "HEALBELL", "HELPINGHAND", "HYPERVOICE", "ICYWIND", "KNOCKOFF", "LASERFOCUS", "LASTRESORT", "MAGICCOAT", "RECYCLE", "ROLLOUT", "SHOCKWAVE", "SIGNALBEAM", "SKILLSWAP", "SNATCH", "SNORE", "TELEKINESIS", "TRICK", "UPROAR", "ZENHEADBUTT", "MIMIC"]
+raw_egg_moves = []
+raw_tms = ["PSYSHOCK", "CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "TORMENT", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "ENERGYBALL", "CHARGEBEAM", "THUNDERWAVE", "PSYCHUP", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "DAZZLINGGLEAM", "CONFIDE", "LEAFSTORM", "ENDURE", "FUTURESIGHT", "COSMICPOWER", "BUGBUZZ", "POWERGEM", "STOREDPOWER"]
+raw_tutor_moves = ["ALLYSWITCH", "BIND", "DEFOG", "GRAVITY", "HEALBELL", "HELPINGHAND", "HYPERVOICE", "ICYWIND", "KNOCKOFF", "LASERFOCUS", "LASTRESORT", "MAGICCOAT", "RECYCLE", "ROLLOUT", "SHOCKWAVE", "SIGNALBEAM", "SKILLSWAP", "SNATCH", "SNORE", "TELEKINESIS", "TRICK", "UPROAR", "ZENHEADBUTT", "MIMIC", "OMINOUSWIND"]
 compatible_egg_groups = ["Amorphous"]
 steps_to_hatch = 6630
 height = 0.6
 weight = 1.0
 colour = "Blue"
 kind = "Wind Chime"
-pokedex_entry = "They fly about very actively when the hot season arrives. They communicate among themselves using seven different and distinguishing cries."
+pokedex_entry = "Its cries echo inside its hollow body to emerge as beautiful notes for startling and repelling foes."
 battler_player_y = 20
 battler_enemy_y = 14
 battler_altitude = 10
@@ -80,7 +80,7 @@ name = "YAWN"
 
 [[raw_level_up_moves]]
 at_level = 25
-name = "ENTRAINMENT"
+name = "BUGBUZZ"
 
 [[raw_level_up_moves]]
 at_level = 28
@@ -100,11 +100,11 @@ name = "COSMICPOWER"
 
 [[raw_level_up_moves]]
 at_level = 44
-name = "HEALPULSE"
+name = "AIRCUTTER"
 
 [[raw_level_up_moves]]
 at_level = 48
-name = "SYNCHRONOISE"
+name = "EERIESPELL"
 
 [[raw_level_up_moves]]
 at_level = 52
