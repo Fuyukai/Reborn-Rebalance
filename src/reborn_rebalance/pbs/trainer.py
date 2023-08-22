@@ -142,7 +142,7 @@ class SingleTrainerPokemon:
     raw_moves: tuple[str, ...] = attr.ib(factory=tuple)
 
     #: The ability number this Pokémon has.
-    ability_number: int = attr.ib(default=0)
+    ability_number: int = attr.ib(default=1)
 
     #: The sex of this Pokémon.
     sex: str = attr.ib(default="M")
