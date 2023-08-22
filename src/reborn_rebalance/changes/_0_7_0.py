@@ -204,3 +204,9 @@ def build_changes(builder: ChangelogBuilder):
         similar movepool to its Kantoian form, too.
         """,
     )
+
+    builder.pokemon("HOUNDSTONE", "Now it's a rocky doggy!") \
+        .add_type_change(None, PokemonType.ROCK) \
+        .add_level_up_move(16, "ROCKTOMB") \
+        .add_level_up_move(20, "ANCIENTPOWER") \
+        .add_tm_move(39).add_tm_move(71).add_tm_move(80)
