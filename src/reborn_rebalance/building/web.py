@@ -277,8 +277,8 @@ def main():
         parser.error(f"no such directory: {args.TEMPLATES}")
 
     output_dir: Path = args.OUTPUT
-    if output_dir.exists():
-        shutil.rmtree(output_dir)
+    # if output_dir.exists():
+    #    shutil.rmtree(output_dir)
 
     output_dir.mkdir(exist_ok=True, parents=True)
 
