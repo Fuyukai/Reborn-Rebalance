@@ -117,6 +117,8 @@ def build_changes(builder: ChangelogBuilder):
     )
     leavanny.add_ability_change("SWARM", "SHARPNESS")
 
+    builder.pokemon("SEISMITOAD").add_level_up_move(0, "BRICKBREAK")
+
     crustle = builder.pokemon(
         "CRUSTLE",
         """
