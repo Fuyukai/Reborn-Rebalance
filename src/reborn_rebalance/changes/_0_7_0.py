@@ -38,9 +38,17 @@ def build_changes(builder: ChangelogBuilder):
     beedrill.add_base_stat_change("atk", 90, 110)
     beedrill.add_base_stat_change("spe", 75, 85)
 
-    magneton = builder.pokemon(
+    builder.pokemon(
         "MAGNETON", "Now evolves using a Thunder Stone instead of a location."
     )
+
+    # both get it via TM, but no ground TMs are available until route 2 (sand tomb).
+    builder.pokemon("PHANPY", "Now gets ground STAB much earlier!") \
+        .add_level_up_move(16, "BULLDOZE") \
+        .add_ability_change("SANDVEIL", "BULLETPROOF")
+    builder.pokemon("DONPHAN", "Now gets ground STAB much earlier!") \
+        .add_level_up_move(16, "BULLDOZE") \
+        .add_ability_change("SANDVEIL", "BULLETPROOF")
 
     masquerain = builder.pokemon(
         "MASQUERAIN",
