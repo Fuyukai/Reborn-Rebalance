@@ -38,17 +38,15 @@ def build_changes(builder: ChangelogBuilder):
     beedrill.add_base_stat_change("atk", 90, 110)
     beedrill.add_base_stat_change("spe", 75, 85)
 
-    builder.pokemon(
-        "MAGNETON", "Now evolves using a Thunder Stone instead of a location."
-    )
+    builder.pokemon("MAGNETON", "Now evolves using a Thunder Stone instead of a location.")
 
     # both get it via TM, but no ground TMs are available until route 2 (sand tomb).
-    builder.pokemon("PHANPY", "Now gets ground STAB much earlier!") \
-        .add_level_up_move(16, "BULLDOZE") \
-        .add_ability_change("SANDVEIL", "BULLETPROOF")
-    builder.pokemon("DONPHAN", "Now gets ground STAB much earlier!") \
-        .add_level_up_move(16, "BULLDOZE") \
-        .add_ability_change("SANDVEIL", "BULLETPROOF")
+    builder.pokemon("PHANPY", "Now gets ground STAB much earlier!").add_level_up_move(
+        16, "BULLDOZE"
+    ).add_ability_change("SANDVEIL", "BULLETPROOF")
+    builder.pokemon("DONPHAN", "Now gets ground STAB much earlier!").add_level_up_move(
+        16, "BULLDOZE"
+    ).add_ability_change("SANDVEIL", "BULLETPROOF")
 
     masquerain = builder.pokemon(
         "MASQUERAIN",
@@ -70,12 +68,13 @@ def build_changes(builder: ChangelogBuilder):
     ).add_ability_change(None, "TINTEDLENS")
     builder.pokemon("LUVDISC", "Now evolves into Alomomola at Level 25.")
 
-    builder.pokemon("CHIMECHO", "Now has a less bad movepool.") \
-        .add_level_up_move(25, "BUGBUZZ") \
-        .add_level_up_move(44, "AIRCUTTER") \
-        .add_level_up_move(48, "EERIESPELL") \
-        .add_tm_move(177) \
-        .add_tutor_move("OMINOUSWIND")
+    builder.pokemon("CHIMECHO", "Now has a less bad movepool.").add_level_up_move(
+        25, "BUGBUZZ"
+    ).add_level_up_move(44, "AIRCUTTER").add_level_up_move(48, "EERIESPELL").add_tm_move(
+        177
+    ).add_tutor_move(
+        "OMINOUSWIND"
+    )
 
     staraptor = builder.pokemon(
         "staraptor",
@@ -195,13 +194,14 @@ def build_changes(builder: ChangelogBuilder):
         """
         For a Pokémon that evolves at level 48, it sure does have a sad BST. It's been given a 
         stat buff, as well as more appropriate abilities than a duplicate one.
-        """
-    )\
-        .add_base_stat_change("hp", 65, 80)\
-        .add_base_stat_change("def", 90, 94)\
-        .add_base_stat_change("spa", 97, 119)\
-        .add_ability_change("POISONTOUCH", "TOXICDEBRIS")\
-        .add_tutor_move("SYNTHESIS")
+        """,
+    ).add_base_stat_change("hp", 65, 80).add_base_stat_change("def", 90, 94).add_base_stat_change(
+        "spa", 97, 119
+    ).add_ability_change(
+        "POISONTOUCH", "TOXICDEBRIS"
+    ).add_tutor_move(
+        "SYNTHESIS"
+    )
 
     builder.pokemon(
         "CHARJABUG", "Now evolves inside Shade's Gym (location 281), similar to old Magneton."
@@ -216,8 +216,12 @@ def build_changes(builder: ChangelogBuilder):
         """,
     )
 
-    builder.pokemon("HOUNDSTONE", "Now it's a rocky doggy!") \
-        .add_type_change(None, PokemonType.ROCK) \
-        .add_level_up_move(16, "ROCKTOMB") \
-        .add_level_up_move(20, "ANCIENTPOWER") \
-        .add_tm_move(39).add_tm_move(71).add_tm_move(80)
+    builder.pokemon("HOUNDSTONE", "Now it's a rocky doggy!").add_type_change(
+        None, PokemonType.ROCK
+    ).add_level_up_move(16, "ROCKTOMB").add_level_up_move(20, "ANCIENTPOWER").add_tm_move(
+        39
+    ).add_tm_move(
+        71
+    ).add_tm_move(
+        80
+    )

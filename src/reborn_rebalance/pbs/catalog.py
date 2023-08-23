@@ -523,8 +523,7 @@ class EssentialsCatalog:
 
         for sp in self.species:
             sorted_tms = sorted(
-                sp.raw_tms,
-                key=lambda tm_name: self.tm_name_mapping[tm_name].number
+                sp.raw_tms, key=lambda tm_name: self.tm_name_mapping[tm_name].number
             )
 
             sp.raw_tms = sorted_tms
