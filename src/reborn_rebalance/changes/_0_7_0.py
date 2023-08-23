@@ -130,6 +130,9 @@ def build_changes(builder: ChangelogBuilder):
     archeops = builder.pokemon("ARCHEOPS", "Fuck Defeatist.")
     archeops.add_ability_change(None, "KLUTZ")
 
+    builder.pokemon("ESCAVALIER").add_tm_move(89)
+    builder.pokemon("ACCELGOR", "Now learns Extreme Speed on evolution.")
+
     garbodor = builder.pokemon(
         "GARBODOR", "Garbodor is awesome but its vanilla abilities leave a bit to be desired."
     )
