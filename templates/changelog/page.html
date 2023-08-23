@@ -15,18 +15,24 @@ this means we need to do some gross iteration hacks.
     <div class="container">
         <h1 class="title has-text-centered">Changelog</h1>
         <hr/>
-        <div class="content">
-            {% for version in changelog.versions %}
-            <h2 class="subtitle has-text-centered">
-                <a href="#version-{{ version }}" id="version-{{ version }}">
-                    {{ version }} <i class="bi bi-link-45deg"></i>
-                </a>
-            </h2>
-            <hr/>
-            {{ gen_changelog_list(changelog, "general", version) }}
-            {{ gen_changelog_list(changelog, "pokemon", version) }}
-            {{ gen_changelog_list(changelog, "moves", version) }}
-            {% endfor %}
+        <div class="columns is-centered">
+            <div class="column is-three-quarters">
+                <article>
+                    <div class="content">
+                        {% for version in changelog.versions %}
+                        <h2 class="subtitle has-text-centered">
+                            <a href="#version-{{ version }}" id="version-{{ version }}">
+                                {{ version }} <i class="bi bi-link-45deg"></i>
+                            </a>
+                        </h2>
+                        <hr/>
+                        {{ gen_changelog_list(changelog, "general", version) }}
+                        {{ gen_changelog_list(changelog, "pokemon", version) }}
+                        {{ gen_changelog_list(changelog, "moves", version) }}
+                        {% endfor %}
+                    </div>
+                </article>
+            </div>
         </div>
     </div>
 </section>
