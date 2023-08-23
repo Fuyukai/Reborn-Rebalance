@@ -93,6 +93,8 @@ def build_changes(builder: ChangelogBuilder):
         "hp", 60, 65
     )
 
+    builder.pokemon("LUMINEON").add_level_up_move(0, "TAILGLOW")
+
     luxray = builder.pokemon(
         "LUXRAY",
         """
