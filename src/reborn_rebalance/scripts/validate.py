@@ -1,4 +1,5 @@
 import contextlib
+import json
 import sys
 from io import StringIO
 from pathlib import Path
@@ -79,6 +80,17 @@ def extended_validate_abilities(catalog: EssentialsCatalog):
                 )
 
 
+def extended_validate_tms(catalog: EssentialsCatalog):
+    for species in catalog.species:
+        for tm in species.raw_tms:
+            if not catalog.tm_name_mapping[tm].number:
+                print(f"warning: TM '{tm}' is not valid inside species '{species.name}'")
+
+        for tutor in species.raw_tutor_moves:
+            if not catalog.tm_name_mapping[tutor].is_tutor:
+                print(f"warning: tutor move '{tutor}' is not valid inside species '{species.name}'")
+
+
 def do_extended_validation():
     with contextlib.redirect_stdout(StringIO()):
         catalog = EssentialsCatalog.load_from_toml(Path(sys.argv[1]))
@@ -87,6 +99,8 @@ def do_extended_validation():
     extended_validate_megas(catalog)
     print()
     extended_validate_abilities(catalog)
+    print()
+    extended_validate_tms(catalog)
 
 
 if __name__ == "__main__":

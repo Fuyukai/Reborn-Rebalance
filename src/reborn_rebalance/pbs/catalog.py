@@ -428,6 +428,7 @@ class EssentialsCatalog:
             trainers=trainers,
         )
 
+        instance._sort()
         instance._validate()
         print("loaded and validated catalog")
         return instance
@@ -516,6 +517,22 @@ class EssentialsCatalog:
 
         forms_file = scripts_dir / "MultipleForms.rb"
         save_forms_to_ruby(forms_file, self.forms)
+
+    def _sort(self):
+        print("Sorting TMs and tutor moves...")
+
+        for sp in self.species:
+            sorted_tms = sorted(
+                sp.raw_tms,
+                key=lambda tm_name: self.tm_name_mapping[tm_name].number
+            )
+
+            sp.raw_tms = sorted_tms
+
+            sorted_tutors = sorted(sp.raw_tutor_moves)
+            sp.raw_tutor_moves = sorted_tutors
+
+        print("Done!")
 
     def _validate(self):
         for species in self.species:
