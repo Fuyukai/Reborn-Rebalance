@@ -1,10 +1,10 @@
 {% extends "_meta/walkthrough_page.html" %}
 {% set NAME = "06_badge3" %}
-{% block title %}Badge #3, Pt 3: Lapis Gym{% endblock %}
+{% block title %}Badge #3 & Badge #4: Lapis Gym{% endblock %}
 
 {% block walkthrough %}
 <div class="content has-text-justified">
-    <h1 class="title">Lapis Gym</h1>
+    <h1 class="title">Lapis Gym & Abandoned Power Plant</h1>
 
     {{ ss("specialhell", "Oh no!") }}
 
@@ -135,13 +135,72 @@
     <div class="notification is-info">
         Editor's note: During the writing of this, I assumed that you would need an Arcanine to
         breed Growlithe eggs. Turns out - you don't! So, uh, you should breed your Growlithe from
-        the Jasper police and get an egg, then return to the officer to get a Mystery Egg.
+        the Jasper police and get an egg, then return to the officer to get a Mystery Egg. You
+        could've done this at any time since. Oops!
     </div>
 
     <p>
         Now that you're done with that, you can proceed to the north part of the Opal Ward to
         re-enter the Underground Railnet.
     </p>
+
+    {{ ss("gymtexty", "The funny dark and edgy man.") }}
+
+    <p>
+        Down in the Underground Railnet, you will find your motley crew of runaway orphans waiting
+        by a gate. They can't get it open because there's no power. On the right side is the
+        door to Obsidia Ward blocked off by another gate; you can open it up using the switch right
+        next to it. To the bottom right is the Dull Key which you should collect to unlock an extra
+        event soon.
+    </p>
+
+    <p>
+        Unlike most other badges, we're going beeline straight to the next gym before doing any
+        events - in the Abandoned Power Plant to the west of Beryl Ward. There's no gym puzzle here;
+        just activate all of the computers on both sides. Then, you can travel upwards to fight
+        Shade. A few tips here:
+    </p>
+
+    <ol>
+        <li>
+            Cursola <i>will</i> get Stealth Rocks up on you. Try and get a Rapid Spinner to avoid
+            this, and Knock Off its Eviolite so that it isn't ridiculously bulky.
+        </li>
+        <li>
+            Your Klink (Klang, by now) that you should've caught in Obsidia can learn Discharge,
+            which heavily neuters his whole team. Just be aware that Mimikyu knows Thunderbolt
+            and can fuck you easily.
+        </li>
+        <li>
+            Houndstone here is incredibly dangerous, with Last Respects acting as an emergency
+            kill card against you. Make sure you have a Normal type ready to stop that;
+            {{ sp("PURUGLY") }} can deal with it with Knock Off. (Be warned of Body Press).
+        </li>
+        <li>
+            {{ sp("FEAROW") }} is an incredible catch here - <strong>just be sure not to
+            evolve it until after Level 22</strong>. Fearow learns Assurance at Level 22, which
+            is both reliable Dark STAB and an emergency revenge killer.
+        </li>
+        <li>
+            His most dangerous Pokémon by far is his Mimikyu; Disguise lets it tank a hit and
+            set up with Swords Dance. Like I said before, it also has Thunderbolt which means it
+            benefits heavily from you removing the field. Multi-hit moves like Gear Grind are
+            essential here.
+        </li>
+        <li>
+            You have no Fake Out control here, so try and find something with Sucker Punch to act
+            as priority; {{ sp("MIGHTYENA") }}, for example.
+        </li>
+    </ol>
+
+    {{ trainer_battle_content("Shade", "SHADE", 20) }}
+
+    <p>
+        You'll get a cutscene where your gang of orphans are stolen by Team Meloni; so obviously,
+        its your job to rescue them. Fuck that! Now that we've got Rock Smash
+        we've got a <i>lot</i> of things to catch up with.
+    </p>
+
 </div>
 
 <div class="columns">
@@ -154,8 +213,8 @@
     <div class="column is-one-third has-text-centered" ></div>
 
     <div class="column is-one-third has-text-right">
-        <a href="/walkthroughs/07_badge4.html">
-            Next: Badge #4 <i class="bi bi-chevron-double-right"></i>
+        <a href="/walkthroughs/07_blacksteam.html">
+            Next: Blacksteam Factory <i class="bi bi-chevron-double-right"></i>
         </a>
     </div>
 </div>
