@@ -208,3 +208,11 @@ td.no-border { border: none; }
     color: #363636;
     cursor: pointer;  /** WHY is this not the default */
 }
+
+.walkthrough li > ol, .walkthrough li > ul {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-bottom: 0.5rem;
+    margin-top: 0 !important;
+    padding-top: 0.5rem;
+}
