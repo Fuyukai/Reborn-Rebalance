@@ -1,4 +1,5 @@
 import enum
+from collections.abc import Iterable
 from pathlib import Path
 from typing import TextIO
 
@@ -77,6 +78,9 @@ class MapEncounters:
 
     #: The actual mapping of {type: list of encounters} for this map.
     encounters: dict[str, list[RawEncounter]] = attr.ib()
+
+    def has_fishing_encounters(self) -> bool:
+        return any(i in self.encounters for i in ("OldRod", "GoodRod", "SuperRod"))
 
     def write_out(self, buffer: TextIO):
         """

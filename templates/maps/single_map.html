@@ -4,6 +4,18 @@
 
 {% block title %}{{ map.name }}{% endblock %}
 
+{%- macro generate_encounter_body(type, encounter, chance) -%}
+{% set species = catalog.species_mapping[encounter.name] %}
+
+<tr>
+    <td>{{ small_sprite(species.dex_number, species.name) }}</td>
+    <td>{{ species_link(species) }}</td>
+    <td>{{ type }}</td>
+    <td>{{ encounter.minimum_level }} - {{ encounter.maximum_level }}</td>
+    <td>{{ chance }}</td>
+</tr>
+{%- endmacro -%}
+
 {% block content %}
 {% set encounters = catalog.encounters.get(map.id) %}
 
@@ -54,7 +66,19 @@
 
         <hr/>
 
-        <div class="columns is-centered">
+        <figure class="image" style="margin: auto;">
+            <img src="/static/maps/Map{{ '{:03d}.png'.format(map.id) }}" class="pp">
+        </figure>
+
+        <hr/>
+
+        <div class="columns is-centered is-multiline">
+            {% if encounters is not none %}
+
+            {% for type, all_encounters in encounters.encounters.items() %}
+            {% set slots = ENCOUNTER_SLOTS[type] %}
+
+            {% if not type.endswith("Rod") %}
             <div class="column is-4">
                 <table class="table is-fullwidth is-striped">
                     <thead>
@@ -68,34 +92,52 @@
                     </thead>
 
                     <tbody>
-                    {% if encounters is not none %}
-                    {% for type, all_encounters in encounters.encounters.items() %}
-                    {% set slots = ENCOUNTER_SLOTS[type] %}
-
                     {% for encounter in all_encounters %}
-                    {% set species = catalog.species_mapping[encounter.name] %}
-
-                    <tr>
-                        <td>{{ small_sprite(species.dex_number, species.name) }}</td>
-                        <td>{{ species_link(species) }}</td>
-                        <td>{{ type }}</td>
-                        <td>{{ encounter.minimum_level }} - {{ encounter.maximum_level }}</td>
-                        <td>{{ slots[loop.index0] }}%</td>
-                    </tr>
+                    {{ generate_encounter_body(type, encounter, slots[loop.index0]) }}
                     {% endfor %}
-                    {% endfor %}
-                    {% endif %}
                     </tbody>
                 </table>
+            </div>
+            {% endif %}
 
-                {% if encounters is none %}
+            {% endfor %}
+
+            <!-- separate the fishing encounters into one table, kinda gross -->
+            {% if encounters.has_fishing_encounters() %}
+            <div class="column is-4">
+                <table class="table is-fullwidth is-striped">
+                    <thead>
+                    <tr>
+                        <th></th>
+                        <th>Species</th>
+                        <th>Encounter Type</th>
+                        <th>Level Range</th>
+                        <th>Probability</th>
+                    </tr>
+                    </thead>
+
+                    <tbody>
+                    {% for t in encounters.encounters.get("OldRod", []) %}
+                    {{ generate_encounter_body("OldRod", t, ENCOUNTER_SLOTS["OldRod"][loop.index0]) }}
+                    {% endfor %}
+
+                    {% for t in encounters.encounters.get("GoodRod", []) %}
+                    {{ generate_encounter_body("GoodRod", t, ENCOUNTER_SLOTS["GoodRod"][loop.index0]) }}
+                    {% endfor %}
+
+                    {% for t in encounters.encounters.get("SuperRod", []) %}
+                    {{ generate_encounter_body("SuperRod", t, ENCOUNTER_SLOTS["SuperRod"][loop.index0]) }}
+                    {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            {% endif %}
+
+            {% else %}
+            <div class="column is-4 has-text-centered">
                 <h2 class="subtitle">This map has no wild encounters.</h2>
-                {% endif %}
             </div>
-
-            <div class="column">
-                <img src="/static/maps/Map{{ '{:03d}.png'.format(map.id) }}">
-            </div>
+            {% endif %}
         </div>
     </div>
 </section>
