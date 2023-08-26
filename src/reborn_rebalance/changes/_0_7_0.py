@@ -6,6 +6,12 @@ def build_changes(builder: ChangelogBuilder):
     builder.custom("Imported most Pokémon changes from Blaze Black 2 Redux.")
     builder.custom("Imported most Pokémon changes for Gen 6-7 from Photonic Sun.")
 
+    builder.custom(
+        "Moved the Move Reminder to after Badge 3 so you have less terrible movepools. (Map368)"
+    )
+    builder.custom("Added an event to get a Greavard early in the Beryl Cemetery. (Map152)")
+    builder.custom("Added a 'hotfix' for the Natu event seemingly not working properly. (Map150)")
+
     builder.move("DRAGONRUSH").change_move_base_power(100, 85).change_move_accuracy(75, 90)
     builder.move("WILDCHARGE", "No longer causes recoil.")
     builder.move(
