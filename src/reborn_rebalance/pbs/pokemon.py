@@ -580,13 +580,14 @@ class PokemonSpecies:
 
         if len(self.raw_abilities) <= 2:
             buffer.write_list("Abilities", self.raw_abilities)
-        else:
-            buffer.write_list("Abilities", self.raw_abilities[:2])
 
-            if not self.raw_hidden_ability:
-                buffer.write_key_value("HiddenAbility", self.raw_abilities[2])
-            else:
+            if self.raw_hidden_ability:
                 buffer.write_key_value("HiddenAbility", self.raw_hidden_ability)
+
+        else:
+            # merged hidden abilities
+            buffer.write_list("Abilities", self.raw_abilities[:2])
+            buffer.write_key_value("HiddenAbility", self.raw_abilities[2])
 
         moves = [f"{move.at_level},{move.name}" for move in self.raw_level_up_moves]
         buffer.write_list("Moves", moves)
