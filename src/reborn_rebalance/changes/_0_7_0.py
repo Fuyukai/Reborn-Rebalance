@@ -226,12 +226,20 @@ def build_changes(builder: ChangelogBuilder):
         """,
     )
 
-    builder.pokemon("HOUNDSTONE", "Now it's a rocky doggy!").add_type_change(
-        None, PokemonType.ROCK
-    ).add_level_up_move(16, "ROCKTOMB").add_level_up_move(20, "ANCIENTPOWER").add_tm_move(
-        39
-    ).add_tm_move(
-        71
-    ).add_tm_move(
-        80
-    )
+    sandaconda = builder.pokemon("SANDACONDA", "Has an expanded movepool.")
+    sandaconda.add_level_up_move(0, "SANDTOMB")
+    sandaconda.add_level_up_move(12, "STEAMROLLER")
+    sandaconda.remove_level_up_move("HEADBUTT")
+    sandaconda.add_level_up_move(19, "POISONFANG")
+    sandaconda.add_level_up_move(32, "SCORCHINGSANDS")
+    sandaconda.remove_level_up_move("SLAM")
+    sandaconda.add_level_up_move(41, "ROCKBLAST")
+    sandaconda.add_level_up_move(50, "EXTREMESPEED")
+    sandaconda.add_level_up_move(55, "HEADLONGRUSH")
+    sandaconda.add_level_up_move(60, "HEADSMASH")
+
+    houndstone = builder.pokemon("HOUNDSTONE", "Now it's a rocky doggy!")
+    houndstone.add_type_change(None, PokemonType.ROCK)
+    houndstone.add_level_up_move(16, "ROCKTOMB")
+    houndstone.add_level_up_move(20, "ANCIENTPOWER")
+    houndstone.add_tm_move(39).add_tm_move(71).add_tm_move(80)
