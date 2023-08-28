@@ -24,7 +24,7 @@
 
 {%- macro trainer_battle(name, klass, id=0) -%}
 {% set trainer = catalog.trainers[name].trainers[klass][id] %}
-{% if name == "Cain" %}
+{% if name == "Cain" and id <= 22 %}
 {% set prefix = "Sex Pest" %}
 {% elif name == "Fern" %}
 {% set prefix = "Incel" %}
