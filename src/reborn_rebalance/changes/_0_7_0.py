@@ -172,6 +172,8 @@ def build_changes(builder: ChangelogBuilder):
         "BOUFFALANT", "The raging bull Pokémon now gets an appropriate ability."
     ).add_ability_change("SOUNDPROOF", "BERSERK")
 
+    builder.pokemon("MARACTUS").add_level_up_move(48, "VICTORYDANCE")
+
     haxorus = builder.pokemon("HAXORUS", "Is now the psuedo-Legend it was always destined to be.")
     haxorus.add_base_stat_change("hp", 76, 96)
     haxorus.add_base_stat_change("atk", 147, 150)
