@@ -1,0 +1,156 @@
+{% extends "_meta/walkthrough_page.html" %}
+{% set NAME = "09_ayaya" %}
+{% block title %}Badge #5, Pt 3: The Wasteland {% endblock %}
+
+{% block walkthrough %}
+<div class="content has-text-justified">
+    <h1 class="title">Byxbysion Wasteland</h1>
+
+    <div class="video-container has-text-centered">
+        <iframe
+                width="560" height="315"
+                src="https://www.youtube-nocookie.com/embed/d3h7d6LidWk?si=iEaZ-VwR1dsE4C5B"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+        ></iframe>
+    </div>
+
+    <p>
+        Welcome to the {{ mp(209, "Byxbysion Wasteland") }}! This is another very wide open area
+        that's annoying to navigate. Allegedly, you're here to stop a PULSE Pokémon... but it's
+        an optional battle so we'll come back to that. Instead, you need to navigate across the
+        map to get to the fifth gym: the Poison Gym.
+    </p>
+
+    {{ ss("wastelandarrows1", "Damn, it looks much scarier in game.") }}
+
+    <p>
+        Follow the red arrow to the right into the building (and then follow the red arrow out of it
+        again) to a computer... blocked off by Ace! Who has returned after betraying you a few hours
+        ago! The computer (in the middle of the wasteland) controls a door that you need to unlock
+        to proceed, so I guess you should talk to them (and then fight them).
+    </p>
+
+    <div class="notification is-warning">
+        From here onwards, the game does begin to get noticeably harder. Your team choices will
+        become more about hard counters than what you like, especially for this run of three
+        battles.
+    </div>
+
+    {{ trainer_battle_content("Ace of Diamonds", "ACEDIAMONDS", 20) }}
+
+    <p>
+        After beating them, you can go into the newly-unlocked second building, and then follow the
+        only path up to the gym. Heal your Pokémon and save your game before going into the
+        side room for the gym; you'll get another cutscene and a battle with Fern.
+    </p>
+
+    {{ trainer_battle_content("Fern", "Hotshot", 24) }}
+
+    <p>
+        After beating him down, you can finally take your place and battle Ayaya. This is a hard
+        as hell battle, and arguably even more of a difficulty spike than Shelly. Some tips:
+    </p>
+
+    <ul>
+        <li>
+            High Horsepower is <i>not</i> nerfed by the Wasteland field. {{ sp("PHANPY") }}
+            learns it as an egg move; you can find it inside the {{ mp(382, "Citrine Mountain") }} area
+            accessible from Beryl Ward. This completely eviscerates her team.
+            Same with Earth Power, or Scorching Sands (learned by {{ sp("SANDYGAST") }} at
+            level 45. Think about how to get it onto a Palossand.).
+        </li>
+        <li>
+            Fake Out support is essential here, as it lets you gang up on a problematic Pokémon
+            whilst the other one does ineffective attacks. I'm going to keep singing the praises
+            of {{ sp("PURUGLY") }}, which gets both Fake Out and U-Turn.
+        </li>
+        <li>
+            Offensive Toxapex is a sight to behold, with Toxic Spikes on the wasteland getting
+            1/8th chip damage and a guaranteed poison on you. Kill it as soon as possible.
+        </li>
+        <li>
+            This fight does rely a little bit on good luck; if you get Blizzard frozen turn 1
+            it's game over. Just F12 and try again. Likewise, if she switches in the wrong order
+            you'll need to adjust your game plan.
+        </li>
+    </ul>
+
+    {{ trainer_battle_content("Aya", "AYA", 20) }}
+
+    <a href="#wall" id="wall">
+        <h2 class="subtitle">Wall, wall, wall, what do we have here?</h2>
+    </a>
+
+    <p>
+        Before doing anything, we need to actually go and get the HMX for Strength. Trudge your way
+        back through the wasteland... to find Cain edgeguarding the door. You have to beat him to
+        get through, so...
+    </p>
+
+    {{ trainer_battle_content("Cain", "Cain", 23) }}
+
+    <p>
+        Leave the wasteland to find Cal, who will reveal he sabotaged the PULSE all along; and
+        will then give you the TMX for Strength! We're not going to go and rescue the kids yet;
+        instead, we're going back into the Wasteland for something.
+    </p>
+
+    {{ ss("wall", "Totally unsuspicious.") }}
+
+    <p>
+        You might have noticed this suspicious hole in the wall whilst exploring the wasteland.
+        If not, you can get to it by jumping down off the ledge to the north left of the building
+        that takes you higher up after you slide down (that's a mouthful). It's the left hole,
+        not the right hole; the left hole becomes useful once you shove the Strength boulder down
+        the massive gap in the floor. Jump down behind it to find a small grotto.
+    </p>
+
+    <p>
+        Within this grotto is the <em>Mismagiusite</em>, and a grave. Interact with it.. it's
+        Kiki's grave? What could this mean? It means that you need to fight a level 65 Medicham.
+        This isn't that hard of a fight, it's merely 15 levels above you, so you can beat it
+        legitimately if you so desire. (Or you can Murkrow cheese it.) Either way, after beating it,
+        the fake Kiki reveals herself to be a {{ sp("MISDREAVUS") }}. And that's it for the
+        wasteland for a few badges! (Well, there's also a Squirtle here. Flip all the tubes from
+        blue to red, then find a door. I ain't walking you through it.)
+    </p>
+
+    {{ ss("chime", "I also like Chimecho.") }}
+
+    <p>
+        If you didn't already, catch a Chimecho (via Chingling) from the Obsidia Stairs;
+        then, head to Azurine Island once again. Make your way to the former Meteor building and
+        show the guy hanging out there your Chimecho. If you go into the back room, you
+        will find a {{ sp("CHIKORITA") }}! This is the second of our three trips here, but the last
+        for a while. Goodbye, Azurine Island!
+    </p>
+
+    <p>
+        Next stop is Pyrous Mountain, at Apophyll Beach. Don't go down to floor B1F (you might
+        remember a boulder there), but instead go straight up to floor 3F to find a different
+        Strength boulder.
+    </p>
+
+    {{ ss("pyrousarrows", "Hey, at least it's not a jumping puzzle! Hold on, I'm getting a message..") }}
+
+    <p>
+        You need to push the boulder into the hole. It's pretty easy to screw yourself here, so save
+        beforehand and then follow the red arrow to push it. Jump down into the hole yourself to
+        find... a Tepig? If you talk to it, it skedaddles down to B1F again; now you should go
+        and find that Strength boulder you remembered. If you push it out of the way, you'll
+        find the Tepig again, as well as <em>TM101 Fire Spin</em> and <em>TM37 Sandstorm</em>.
+        It flees once again; this time to the top of the mountain. If you interact with it
+        again.. it'll battle you! I warn you, though, it's only level 15 so its a bastard to catch.
+        Make sure you have a good supply of Pokéballs.
+    </p>
+
+    <p>
+        Finally, if you travel to North Obsidia alleyway - provided you've done all of the
+        Gang Quests so far - you will find a {{ sp("HOUNDOUR") }}, which will fight you if you have
+        a Pokésnax.
+    </p>
+</div>
+
+{% endblock %}
