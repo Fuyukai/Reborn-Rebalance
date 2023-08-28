@@ -1045,6 +1045,7 @@ raw_moves = [
     "NATUREPOWER",
     "LEECHSEED",
 ]
+ability_number = 0
 sex = "F"
 nature = "BASHFUL"
 iv = 31
@@ -1058,16 +1059,16 @@ spd = 0
 spe = 0
 
 [[trainers.AYA.20.pokemon]]
-internal_name = "GRAFAIAI"
+internal_name = "DRAPION"
 level = 42
-raw_item = "DARKGEM"
+raw_item = "MUSCLEBAND"
 raw_moves = [
-    "PARTINGSHOT",
     "KNOCKOFF",
-    "ENCORE",
-    "VENOSHOCK",
+    "FIREFANG",
+    "POISONTAIL",
+    "AQUATAIL",
 ]
-ability_number = 2
+ability_number = 1
 nature = "CAREFUL"
 iv = 31
 
@@ -1080,17 +1081,18 @@ spd = 0
 spe = 0
 
 [[trainers.AYA.20.pokemon]]
-internal_name = "TOXEON"
-level = 42
-raw_item = "FOCUSSASH"
+internal_name = "TOXAPEX"
+level = 41
+raw_item = "BLACKSLUDGE"
 raw_moves = [
-    "CROSSPOISON",
-    "UTURN",
-    "QUICKATTACK",
-    "CORROSIVEGAS",
+    "SLUDGEWAVE",
+    "RECOVER",
+    "SCALD",
+    "TOXICSPIKES",
 ]
-ability_number = 1
 sex = "F"
+nature = "CALM"
+ability_number = 1
 iv = 31
 
 [trainers.AYA.20.pokemon.evs]
