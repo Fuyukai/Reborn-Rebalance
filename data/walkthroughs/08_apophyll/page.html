@@ -1,0 +1,237 @@
+{% extends "_meta/walkthrough_page.html" %}
+{% set NAME = "08_apophyll" %}
+{% block title %}Badge #5, Pt 2: Apophyll Island {% endblock %}
+
+{% block walkthrough %}
+<div class="content has-text-justified">
+    <h1 class="title">Apophyll & Azurine Island</h1>
+
+    {{ ss("riverthames", "This is what it feels like to sit on the Erith Pier.") }}
+
+    <p>
+        Welcome to {{ mp(15, "Apophyll Island") }}! It's a sandy ashen island around a volcano, with nothing
+        but endless waves of pollution lapping at your feet. Truly, this is one of the
+        Reborn Region's natural wonders.
+    </p>
+
+    <div class="notification is-info">
+        This is the place to evolve your Petilil into Hisuian Lilligant. As I said before, I really
+        highly recommend having a Lilligant-H.
+    </div>
+
+    <div class="notification is-warning">
+        This area is made up of a few conjoined maps with silent map transistions. If you're
+        hunting for encounters, you should do it in the section of the beach halfway between
+        the academy and the boat; or at the very top of the island near the cave.
+    </div>
+
+    {{ ss("pyukumuku", "Pyukumukii.") }}
+
+    <p>
+        There's... really not much to do here, aside from fight some Pyukumuku. Well, that's not
+        true; you can get another Department Store sticker! Make your way up to the academy to
+        the north of the beach (curse you, lack of diagonal movement!), then go through the front
+        entrance and back out through the front exit.
+    </p>
+
+    <p>
+        Inside the inner part of the academy there are a series of stairs on both sides which lead
+        to individual rooms. Go up the stairs at the bottom left and talk to the girl inside; she
+        wants you to bring her a TV. (Wow, this is dated.)
+    </p>
+
+    {{ ss("stealthetv", "Oi mate, you got a licence for that TV?") }}
+
+    <p>
+        Your heist target is immediately upstairs; interact with the TV to steal it. Bring it back
+        to the girl to get your fifth sticker. I also lied about not having much; you can get a
+        Meditite here. There are four NPCs standing in front of bookshelves across the academy top
+        floors. If you talk to all four, they will spout some quack shit about zen and auras or
+        similar; you can then talk to the lady standing on the top left rafter (go out through the
+        left upper doors in the main buildings) who will give you a {{ sp("MEDITITE") }}.
+    </p>
+
+    <a href="#kiki" id="kiki">
+        <h2 class="subtitle">Kiki Time</h2>
+    </a>
+
+    <p>
+        Again, other than that, there's still really not much to do here. Let's just advance the
+        plot; go straight south from the academy to find a summoning circle. Talk to the
+        suspiciously pink woman (Kiki) to warn her about the PULSE machine that's being set up on
+        her island. Go back to her room (the very furthest back room of the academy) and talk to
+        her again for another cutscene. She spouts some shit about being calm before refusing to
+        give you the next TMX that you need to progress.
+    </p>
+
+    <p>
+        From here, you have a choice to battle either Victoria or Cal (who's fucked off somewhere).
+        Practically speaking, you're going to fight Victoria and her team of starter Pokémon.
+        If you still have a Fearow from Shade's gym battle, her team goes down pretty easily.
+    </p>
+
+    {{ trainer_battle_content("Victoria", "Victoria", 24) }}
+
+    <p>
+        Your next challenge is to battle Kiki herself to "graduate". This is essentially a mini-gym
+        battle, being on a custom field and also a 6v6 battle. A few tips:
+    </p>
+
+    <ul>
+        <li>
+            Go back to the Slums and find a Primeape; with Rage Fist and the awesome Fighting/Ghost
+            type after evolving into {{ sp("ANNIHILAPE") }} it completely shits on her team.
+        </li>
+        <li>
+            If you picked Fuecoco as your starter, it also puts in major work here.
+        </li>
+        <li>
+            Really, any Ghost type does well here.
+        </li>
+    </ul>
+
+    {{ trainer_battle_content("Kiki", "Sensei", 20) }}
+
+    <p>
+        Cue a few cutscenes... Kiki doesn't have Strength. Rats! It's time to go to Azurine Island
+        instead.
+    </p>
+
+    <a href="#azurine" id="#azurine">
+        <h2 class="subtitle">Azurine Island</h2>
+    </a>
+
+    <p>
+        Welcome to {{ mp(206, "Azurine Island") }}! This is another annoying as hell map to walk through.
+        About half of the items on the floor are legitimate, and the other half are sussy (Foongus and
+        Amoguses); they're level 30, so it doesn't really matter. Pick em all up.
+    </p>
+
+    {{ ss("azurinearrows1") }}
+
+    <p>
+        Follow the blue arrow to find <em>TM83 Infestation</em>, and then the red arrow to a ledge
+        that you need to jump down from.
+    </p>
+
+    {{ ss("azurinearrows2") }}
+
+    <p>
+        Again, follow the red arrow to another ledge.
+    </p>
+
+    {{ ss("azurinearrows3") }}
+
+    <p>
+        Follow this set of red arrows to find... a Light Shard? Uh oh. Then a battle with the silly
+        duo of Eclipse and Aster, who give you the hint you need to know about how to find the
+        hidden door in the building you've just found (I'm not drawing another arrow. There's only
+        one route.) It's the machine at the back left of the building.
+    </p>
+
+    <p>
+        Waltz your way in, heal your team, and go straight upwards to fight Taka again and rescue
+        the Sex Pest.
+    </p>
+
+    {{ trainer_battle_content("Taka", "Taka", 21) }}
+
+    <p>
+        After some more bad cutscenery, accept Cain's offer to walk back (yuck) and you'll be
+        transported back to Apophyll Island. Great detour.
+    </p>
+
+    <a href="#cal" id="cal">
+        <h2 class="subtitle">Return to Apophyll Island</h2>
+    </a>
+
+    <div class="notification is-warning">
+        Get your Prankster Murkrow out now. Make sure it knows Perish Song. If it doesn't, go back
+        to Reborn City and have the Move Relearner teach it Perish Song. If you have to, soft reset
+        grind in front of a mineable rock to get more Heart Scales.
+        <strong>This is not optional</strong>. You need the Murkrow in your party before going into
+        Pyrous Mountain! Don't bother levelling it up, <strong>do NOT evolve it</strong>, just
+        stick it into a back slot and call it a day.
+    </div>
+
+    <p>
+        Once you return to Apophyll Island, heal your team in the academy and head to the right
+        and downwards to the entrance to {{ mp(34, "Pyrous Mountain") }}.
+        Once inside, Victoria will be your partner throughout the dungeon.
+    </p>
+
+    {{ ss("warioland4", "Watch out for the frog switches.") }}
+
+    <p>
+        There's four paths here; the left-most one has some breakable rocks that spawn a
+        {{ sp("MAGCARGO") }}. The middle left one is blocked off by a ledge. The middle right is
+        blocked off by a lava lake. That leaves the right-most path! The goal through here is to
+        drain the various lava lakes into lower levels of the map by breaking rocks... sort of.
+    </p>
+
+    <p>
+        Take the right-most path down to B1F. The path to the right here is also blocked off by
+        a lava lake... so take the path down and to the left to floor B2F. You'll find
+        <em>TM108 Dig</em> and a breakable rock down here which will let the lava drain from B1F.
+        Go back upstairs and into the former lava lake; the bottommost stairs takes you to an area
+        with a {{ sp("HEATMOR") }} and a <em>Fire Stone</em>. The rightmost stairs leads to a
+        Strength rock (make a mental note here)... and the conspicuous hole in the ground
+        leads to a <em>Flame Orb</em> and the <em>Arcanite</em>.
+    </p>
+
+    <p>
+        Break the breakable rock on B1F (to the right of the forked path with the two grunts) and
+        go back upstairs where the lava lake has now receded.
+    </p>
+
+    {{ ss("nicetry"", "Don't fall in!") }}
+
+    <p>
+        Don't fall into the conspicuous hole here, but proceed up past the double battle to
+        the next floor instead. Likewise, don't fall down the conspicuous hole but continue onwards
+        upwards to the third floor - which, once again, has a lava lake blocking you. Jump down the
+        ledge to make it to the other side of 2F which has another breakable rock on the left side
+        of the room. Go down the ladder to the area before the ledge on the first floor and
+        jump down to break the final rock, allowing the lava from floor 3 to flow all the way
+        down. (You may have to go back down to B1F and B2F and break the rocks there to let the
+        lava flow properly.)
+    </p>
+
+    <div class="notification is-danger">
+        If you put off getting out the Murkrow, now is the time to get it out. Put it in your lead
+        slot. I mean it. Save the game here, too.
+    </div>
+
+    <p>
+        You can now climb to the top of the mountain and exit; walk towards Cain for a short
+        cutscene and a battle with Sirius... and his <strong>Level 75 Garchomp</strong>. Yeah,
+        you're not beating this one legitimately. Use Perish Song on your Murkrow and sac three
+        Pokémon to win this battle. <strong>Losing this battle will stop you getting the good
+        ending eventually, and you'll have to replay the whole game.</strong> (You also gain
+        a whole load of relationship points here, if you care about it).
+    </p>
+
+    <p>
+        After beating him (or losing, if you disregarded my repeated advice, this is one of those
+        rare losable fights), you get another cutscene and Kiki fucking dies. This is an adult game
+        for adults!!!!! Then, another long cutscene; and it's time to go to the Byxblysion
+        Wasteland. There's another PULSE there.
+    </p>
+</div>
+
+<div class="columns">
+    <div class="column is-one-third has-text-left">
+        <a href="/walkthroughs/07_blacksteam.html">
+            <i class="bi bi-chevron-double-left"></i> Prev: Blacksteam Factory
+        </a>
+    </div>
+
+    <div class="column is-one-third has-text-centered" ></div>
+
+    <div class="column is-one-third has-text-right">
+        <a href="/walkthroughs/09_ayaya.html">
+            Next: Badge #5 <i class="bi bi-chevron-double-right"></i>
+        </a>
+    </div>
+</div>
+{% endblock %}

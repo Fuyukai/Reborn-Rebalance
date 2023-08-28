@@ -18,6 +18,10 @@
 </figure>
 {%- endmacro -%}
 
+{%- macro mp(id, name) -%}
+<a href="/maps/{{ '{:03d}'.format(id) }}.html">{{ name }}</a>
+{%- endmacro -%}
+
 {%- macro trainer_battle(name, klass, id=0) -%}
 {% set trainer = catalog.trainers[name].trainers[klass][id] %}
 {% if name == "Cain" %}
