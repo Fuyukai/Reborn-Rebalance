@@ -52,20 +52,26 @@
 
         <tbody>
         {% for raw_poke in trainer.pokemon %}
-
         {% set species = catalog.species_mapping[raw_poke.internal_name] %}
 
         {% if raw_poke.internal_name in catalog.forms and raw_poke.form_number %}
 
-        {% set all_forms = catalog.forms[raw_poke.internal_name] %}
-        {% set form = all_forms.by_id(raw_poke.form_number) %}
-        {% set form_name = form.form_name %}
-        {% set attrs = form.combined_attributes(species) %}
+            {% set all_forms = catalog.forms[raw_poke.internal_name] %}
+            {% set form = all_forms.by_id(raw_poke.form_number) %}
+
+            {% if form is not none %}
+            {% set form_name = form.form_name %}
+            {% set attrs = form.combined_attributes(species) %}
+            {% else %}
+            {# le sirius. #}
+            {% set form_name = None %}
+            {% set attrs = species.default_attributes %}
+            {% endif %}
 
         {% else %}
 
-        {% set form_name = None %}
-        {% set attrs = species.default_attributes %}
+            {% set form_name = None %}
+            {% set attrs = species.default_attributes %}
 
         {% endif %}
 
