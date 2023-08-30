@@ -154,7 +154,7 @@ raw_battle_items = [
 
 [[trainers.NOEL.20.pokemon]]
 internal_name = "CYCLIZAR"
-level = 54
+level = 55
 raw_item = "LEFTOVERS"
 raw_moves = [
     "SHEDTAIL",
@@ -176,8 +176,9 @@ spe = 0
 
 [[trainers.NOEL.20.pokemon]]
 internal_name = "CINCCINO"
-level = 54
-raw_item = "KINGSROCK"
+level = 55
+# dont let it kill itself via tail-slap
+raw_item = "PROTECTIVEPADS"
 raw_moves = [
     "TAILSLAP",
     "UTURN",
@@ -198,18 +199,18 @@ spd = 0
 spe = 0
 
 [[trainers.NOEL.20.pokemon]]
-internal_name = "MAUSHOLD"
+internal_name = "PORYGONZ"
 level = 54
-raw_item = "WIDELENS"
+raw_item = "ELEMENTALSEED"
 raw_moves = [
-    "POPULATIONBOMB",
-    "PLAYROUGH",
-    "SEEDBOMB",
-    "UTURN",
+    "NASTYPLOT",
+    "PSYCHIC",
+    "HIDDENPOWERFIR",
+    "TRIATTACK",
 ]
-ability_number = 2
+ability_number = 1
 sex = ""
-nature = "JOLLY"
+nature = "TIMID"
 iv = 31
 
 [trainers.NOEL.20.pokemon.evs]
@@ -245,9 +246,9 @@ spe = 0
 [[trainers.NOEL.20.pokemon]]
 internal_name = "FARIGIRAF"
 level = 54
-raw_item = "TWISTEDSPOON"
+raw_item = "PSYCHICGEM"
 raw_moves = [
-    "TWINBEAM",
+    "PSYBEAM",
     "AGILITY",
     "ENERGYBALL",
     "SHADOWBALL",
