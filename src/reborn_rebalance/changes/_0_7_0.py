@@ -245,3 +245,5 @@ def build_changes(builder: ChangelogBuilder):
     houndstone.add_level_up_move(16, "ROCKTOMB")
     houndstone.add_level_up_move(20, "ANCIENTPOWER")
     houndstone.add_tm_move(39).add_tm_move(71).add_tm_move(80)
+
+    builder.pokemon("CETITAN").add_tm_move(8)
