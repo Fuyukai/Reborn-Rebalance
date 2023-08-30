@@ -69,6 +69,8 @@ def build_changes(builder: ChangelogBuilder):
     masquerain.add_type_change(PokemonType.FLYING, PokemonType.WATER)
     masquerain.add_ability_change("UNNERVE", "ADAPTABILITY")
 
+    builder.pokemon("ALTARIA", "Mega Altaria now has Delta Stream.")
+
     builder.pokemon(
         "FLYGON", "Now a psuedo-Legend like it was always meant to be."
     ).add_ability_change(None, "TINTEDLENS")
