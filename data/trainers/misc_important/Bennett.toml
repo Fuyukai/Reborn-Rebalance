@@ -377,23 +377,22 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.BENNETT.20.pokemon]]
-internal_name = "EPHEMEON"
+[[trainers.BENNETT.0.pokemon]]
+internal_name = "MASQUERAIN"
 level = 49
-raw_item = "LOADEDDICE"
+raw_item = "LEFTOVERS"
 raw_moves = [
-    "PINMISSILE",
-    "FELLSTINGER",
-    "DUALWINGBEAT",
-    "DRILLRUN",
+    "QUIVERDANCE",
+    "ROOST",
+    "HYDROPUMP",
+    "SIGNALBEAM",
 ]
 sex = "F"
-is_shiny = true
-nature = "JOLLY"
+nature = "MODEST"
 iv = 31
-nickname = "Beedrill"
+ability_number = 1
 
-[trainers.BENNETT.20.pokemon.evs]
+[trainers.BENNETT.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
