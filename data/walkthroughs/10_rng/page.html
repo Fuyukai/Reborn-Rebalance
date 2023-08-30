@@ -1,0 +1,322 @@
+{% extends "_meta/walkthrough_page.html" %}
+{% set NAME = "10_rng" %}
+{% block title %}Badge #6 & #7{% endblock %}
+
+{% block walkthrough %}
+<div class="content has-text-justified">
+    <h1 class="title">Badge #6 & Badge #7</h1>
+
+    {{ ss("unfortunate", "shoutouts to finchinator") }}
+
+    <p>
+        Remember the little rascals? They got captured by Team Estado Novo? We should probably go
+        rescue them. Now that you have Strength, you can get back into the Underground Railnet.
+        There's only one way to go here, so go up the stairs to the bit of Obsidia Ward blocked
+        off at both ends and into the Yureyu HQ.
+    </p>
+
+    <p>
+        The route here is extremely linear; just follow the stairs up to the third floor where
+        you'll get a cutscene with Shelly being held hostage. Nothing you can do right now, so
+        go upstairs to find Charlotte instead. After beating the grunts, they reveal their true
+        plan: Team Meteor will make a new world, and they're part of a fucked up pyramid scheme
+        to make it to the top of said world. Go back downstairs to rescue Shelly for real, then
+        back upstairs to find Noel. Another double battle, and then up to the fourth floor.
+    </p>
+
+    <div class="notification is-danger is-light">
+        You will meet Dr Connal here. <strong>Say no when he says you will battle him.</strong>
+        You'll drop a few relationship points, but this is one of the route criteria.
+    </div>
+
+    <p>
+        Once you go upstairs, you'll have a small cutscene, and then a 2v1 against Edgy Boy Sirius.
+        His team feels almost perfectly designed to beat Cain's team, so keep that in mind.
+    </p>
+
+    {{ trainer_battle_content("Sirius", "Sirius", 20) }}
+
+    {{ ss("explosion", "I hope you were paying attention at Mosswater!") }}
+
+    <p>
+        Everyone will retreat to the Underground Railnet, and Charlotte will unlock the door
+        to the previously blocked off area. Make your way through the "maze" to find the other
+        orphans down at a blocked off exit. You could climb over it... but some of the kids are
+        too sick to do so. Instead, talk to Shelly who will propose crashing a train through it.
+        (Sadly, you won't get to see this actually happen.) If you already found the train
+        and went inside it, you'll get teleported over; otherwise, you'll need to find it to the
+        very left of the map. You should also find the other side of the gate that you pressed
+        the switch for, creating a much more convenient route into the Obsidia Slums than going
+        all the way around in the Opal Ward.
+    </p>
+
+    <p>
+        As they explain, the goal is the connect the switches to the exit. This puzzle is so trivial
+        I'm not going to bother explaining it. Once you've connected everything up, you can talk to
+        Noel who will verify your solution (this is clearly NP-hard) and you can enter the train
+        to proceed. Talk to Shelly to either validate her or bully her, then talk to Charlotte to
+        drive the train outside.
+    </p>
+
+    <a href="#the-great-outdoors" id="the-great-outdoors">
+        <h2 class="subtitle">The Great Outdoors</h2>
+    </a>
+
+    {{ ss("theeternalq", "Somehow, she's a gym leader too.") }}
+
+    <p>
+        What's this? Blue sky? Green grass? The outside world! No longer are you trapped in Reborn
+        City's shithole-ness! There's a forest to the right, but there's not much point going
+        there just yet... instead, proceed upwards to go through the {{ mp(231, "Tanzan Mountain") }}.
+    </p>
+
+    <div class="notification is-success is-light">
+        Inside Tanzan Mountain you will find possibly one of the best Pokémon in the game -
+        {{ sp("SANDILE") }}. Well, its evolution is, anyway. Moxie Krookodile is one of the S-tier
+        Pokémon in this game, with incredible stats, typing, and movepool. Whilst ironically it
+        doesn't come in handy in the next gym specifically, it's useful in nearly all of the
+        rest.
+    </div>
+
+    <p>
+        All of the other routes are blocked off by Team Estado Novo gates, so talk to Charlotte
+        and continue upwards into {{ mp(232, "Tanzan Cove") }}; a relaxing, flower-filled getaway.
+        Go upwards into the house (and, on your way, feel scammed if you got a Ducklett from the
+        Slums egg) for some more cutscenery. Your next goal is Spinel Town, which is through the
+        {{ mp(234, "Chrysolia Forest") }}.
+    </p>
+
+    {{ ss("forest", "I hate this fucking forest.") }}
+
+    <div class="notification is-warning">
+        I'm gonna be real with you here; I have no clue how the puzzle in this fucking forest works.
+        It's not, like, the worst puzzle in the game, but it's definitely up there, given how
+        you'll only ever solve it by chance rather than by logic. <br/>
+        Either bruteforce your way through, or talk to the Pansage "hidden" by the entrance to
+        disable most of the trees.
+    </div>
+
+    <p>
+        If you figure out how to get down there, you can find a {{ sp("GROOKEY") }} egg inside
+        a second train to the south of the forest. Otherwise, make your way to the northeast of
+        the forest to find Spinel Town.
+    </p>
+
+    {{ ss("lavashark", "I guess that's why they put up the first sign.") }}
+
+    <p>
+        First, walk up to the tree immediately in front of the first house to have it disappear.
+        Go inside the house to find the <em>Good Rod</em>! If you wish, you can go back into the
+        Cove, or Reborn City, and use it to catch things. Enter the Pokémart so that you can buy
+        some herbal extract to help cure Anna. Or, at least, that's what you should do.. but the
+        Pokémart skedaddles before you can enter it. Further up, near the Pokécentre, there is
+        a woman talking on the bench; who will be teleported away. Oops.
+    </p>
+
+    <p>
+        If you then go into the gym building at the west of the town, you'll find... that the
+        Pokémart has been teleported up onto its balcony. Oops! Before talking to anyone, go
+        upstairs and go into the left room to find <em>TM85 Dream Eater</em>, then the right
+        room to find <em>TM109 Screech</em>. Talk to Serra for some cutscenery (including
+        introducing the absolutely bizarre and weird Luna relationship nonsense) before
+        going into the gym.
+    </p>
+
+    {{ ss("glass", "The shattered glass hurt Lura 2!") }}
+
+    <p>
+        The Gym puzzle here is... not actually a puzzle. Again, just brute force your way through
+        by smashing all of the mirrors until you find the right one. There are three intermediate
+        rooms here; the third one will have Bennett in it who will challenge you to a battle
+        immediately. The broken mirrors do damage you a little bit, so make sure to heal up fully
+        before you challenge him.
+    </p>
+
+    {{ trainer_battle_content("Bennett", "BENNETT", 20) }}
+
+    <p>
+        Now you can move onto Serra to fight her. Quite bluntly, this is the worst gym in the game
+        by far; the field effect is heavily based around evasion. Yikes! This is basically RNG
+        for if either your moves hit or her moves hit and fuck you or not, so don't feel ashamed
+        to reset and grind it out. Fixing this would require some script fixes, which I would
+        prefer to avoid; I've tried to remove as much evasion bullshit as possible without that.
+        As usual, some tips:
+    </p>
+
+    <ul>
+        <li>
+            Honestly, this is a gym based entirely around hax. If it's going to be unfair, switch
+            off of Set mode. There's really no shame in doing so.
+        </li>
+        <li>
+            Mirror Shot hits everything she has super-effectively, and due to the field effect
+            it'll do extra damage as well. It's available via level up on {{ sp("VANILLUXE") }}
+            and {{ sp("KLINKLANG") }}. (You can get another Vanillite by buying Vanilla Ice Cream
+            in Spinel Town.)
+        </li>
+        <li>
+            If her Ninetales gets Aurora Veil up, it's game over. It's 4x weak to Steel and
+            physically not very bulky, so a good STAB hEAVY sLAM will one-shot it. Alternatively,
+            you can use Smart Strike for a never-misses alternative, if you get screwed
+            by RNG too many times. {{ sp("AGGRON") }} learns Smart Strike via level-up, as an
+            easily obtainable example - but it is pretty weak on the special side.
+        </li>
+        <li>
+            Her Beam moves can muscle straight through even neutral mons easily due to the damage
+            boost. Your defence stats won't save you here.
+        </li>
+    </ul>
+
+    {{ trainer_battle_content("Serra", "SERRA", 20) }}
+
+    <a href="#tanzan" id="tanzan">
+        <h2 class="subtitle">Tanzan Cave</h2>
+    </a>
+
+    {{ ss("bart", "I didn't do it.") }}
+
+    <p>
+        After beating her, you'll get a small cutscene with El and Bennett before you can leave.
+        The Pokémart will also teleport away into the ether. If you wish, you can go into the
+        museum for some cool lore, as well as the ability to revive fossils upstairs.
+        If you touch the house below the Pokécentre, it'll teleport away into Chrysolia Forest.
+        Finally, there will be a {{ sp("SPRIGATITO") }} walking about; talk to it and it'll
+        teleport away. If you find the house inside the forest then go inside and talk to the
+        Hiker, he'll offer to trade you a Mothim for a {{ sp("BRUXISH") }}.
+    </p>
+
+    <p>
+        You can find the teleported Pokémart outside the forest, just before the Tanzan Cave.
+        The lower NPC is selling Herbal Extracts; you will want to buy three of them rather than
+        just one. The regular shop NPC is also <i>finally</i> selling <em>Great Balls</em>!
+        After buying the medicine, go back into the forest and go straight upwards to find the
+        lady who got teleported off of her bench earlier. If you give her the Herbal Extract,
+        she'll thank you by giving you the Chansey sticker for the Obsidia Department Store.
+        Five down, five to go!
+    </p>
+
+    {{ ss("bipedalism", "At least it's not Bara Daddy Incineroar.") }}
+
+    <p>
+        Next, if you find this little area next to the exit from Spinel Town, you can use your
+        second herbal extract that you bought to heal the {{ sp("SPRIGATITO") }} from before,
+        and have it join you. Finally, at the very bottom right of the forest is a disappearing
+        tree that will vanish when you walk into it; if you keep on walking you will find the
+        {{ mp(251, "Lost Railcave") }}! This is a cute little puzzle; walk into the door that the
+        rails are <em>not</em> facing. If you keep doing this, you will find a {{ sp("EEVEE") }}!
+        One of the only two(/three, if you took the password) naturally available within the game!
+        You can also catch a {{ sp("SWINUB") }} here early via wild encounters; it isn't available
+        until after the eighth badge otherwise.
+    </p>
+
+    <p>
+        Return to the Belrose Mansion and go upstairs to give Anna the medicine. After a small
+        cute cutscene, she says that you should try and get the next badge now. Go outside and talk
+        to Noel to start his Gym Battle. He's a Normal type trainer; somebody else interrupts you
+        to tell you that the fucking psykkkiatrist is on his way to abduct you again. There's
+        another <strong>very important choice</strong> here; but first, you need to battle Dr
+        Connal.
+    </p>
+
+    {{ trainer_battle_content("Sigmund Connal", "DOCTOR", 21) }}
+
+    <p>
+        After beating <span title="le annihilape has arrived">him down</span>, you must
+        <strong>choose to stop the Doctor</strong>. Failing to do this will stop you from being able
+        to get on the good ending route eventually. After some more cutscenery, Saphira
+        (the dragonite lady) will be abducted; its your job to go and rescue her! You can find the
+        gate inside Tanzan Mountain with Laura in front of it; talk to her to open the gate. The
+        guards will be asleep at their posts, so sneak into the Tanzan Base.
+    </p>
+
+    {{ ss("papyrus", "Oh no!") }}
+
+    <p>
+        Yeah, this chapter has a really bad track record with puzzles. Walking straight on the twisty
+        thing will make you go in the directions the arrows are; then going into the door on the
+        left will take you to a coloured tile "puzzle". Walking on a coloured tile will teleport
+        you to the other side with a computer on the opposite side. Bruteforce your way to the
+        top to interact with both computers, then exit the room when <strong>the computer is on
+        the right</strong> to continue. (If you're on the wrong side, move to the other white tile.)
+    </p>
+
+    <p>
+        The next room is more straightforward; go straight left and talk to Laura to see that
+        Saphira broke her way out of the cave. Follow the upper stairs and the twisty things down
+        to a teleporting tile, then do another loop to find yourself at a split with two teleporting
+        colour tiles (cyan to the left, and pink to the right). Take the <i>pink</i> tile to make
+        it to the right side of the room; going further right will let you talk to Saphira who will
+        disable the gate after a double battle with some grunts.
+    </p>
+
+    <p>
+        Finally, the very upper room has three computers guarded by grunts and scientists in it.
+        I think you only need to activate the ones guarded by scientists, not the open one.
+        Go upwards for a small cutscene... and you get teleported away! To the
+        {{ mp(257, "Tanzan Depths") }}! Find Laura and talk to her again for some lore,
+        and <em>TM111 Scary Face</em>. Keep going until you find Laura and then Saphira (who is
+        in a cavern); then walk back downwards. Hold on a second...
+    </p>
+
+    {{ ss("hmmm", "Nurse, I'm bored.") }}
+
+    <p>
+        If you go back, the path has suddenly changed! Go down the new path to find Laura for
+        a fifth time... then go back again and down at the first exit to find yet another new
+        path. After the next cutscene, go up and to the first right instead. Find Laura knocked
+        out on the floor... and then a massive fucking Mega Steelix appears to fight you. Fuck!
+        Beat it down, then re-enter the Meteor base to fight the PULSE Abra. It constantly
+        uses Hyper Beam, so you can easily kill it on its recharge turns. After some more
+        cutscenery, you can finally leave the base (by walking through all of the puzzles
+        again... sigh...) and return to Tanzan Cove.
+    </p>
+
+    <p>
+        Once you go inside the house, you have to speak to Anna (not anyone else, annoyingly) to
+        trigger the cutscene here. Rest in the bed upstairs and then go outside to battle Noel,
+        the Normal-type gym leader (autism, represent!) Some more tips:
+    </p>
+
+    <ul>
+        <li>
+            Lilligant-H absolutely shits on this team like nothing else. Victory Dance to +4,
+            Drain Punch your way through his team.
+        </li>
+        <li>
+            I don't really have any other tips because that strategy is so hilariously effective
+            there's not much point doing anything else. He had a fucking Girafarig in the unpatched
+            game! He was fucking throwing!
+        </li>
+    </ul>
+
+    {{ trainer_battle_content("Noel", "NOEL", 20) }}
+
+    <p>
+        After beating him up, go back inside the house and talk to Noel in the side room. He tells
+        you to go find the very-likely-dead Saphira... and then Tanzan Mountain explodes. Go back
+        into the mountain, but this time take the left lower path instead, where the gate before
+        has been slashed wide open. As you pass upwards, Saphira will burst out of the wall and
+        give you the <em>Ruby Ring</em> as well as the <em>Amethyst Pendant</em>, then tell you
+        to make your way to Calcenon City. Finally, you can proceed upwards out of the cave
+        to finally enter South Aventurine Woods. The path from here is pretty obvious as everywhere
+        else is blocked off, so walk straight upwards through the grasses to exit out onto...
+        ROUTE ONE.
+    </p>
+</div>
+
+<div class="columns">
+    <div class="column is-one-third has-text-left">
+        <a href="/walkthroughs/08_apophyll.html">
+            <i class="bi bi-chevron-double-left"></i> Prev: Byxbysion Wasteland
+        </a>
+    </div>
+
+    <div class="column is-one-third has-text-centered" ></div>
+
+    <div class="column is-one-third has-text-right">
+        <a href="/walkthroughs/10_rng.html">
+            Next: Route One <i class="bi bi-chevron-double-right"></i>
+        </a>
+    </div>
+</div>
+{% endblock %}
