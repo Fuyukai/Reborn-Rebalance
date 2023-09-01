@@ -61,6 +61,10 @@ Evolves when reaching a happiness of at least <b>{{ evo.parameter }}</b> during 
 Evolves when reaching a happiness of at least <b>{{ evo.parameter }}</b> during the <i>night</i>.
 {% elif type == "level" or type == "ninjask" %}
 Evolves when levelling up at level <b>{{ evo.parameter }}</b> or higher.
+{% elif type == "levelday" %}
+Evolves when levelling up at level <b>{{ evo.parameter }}</b> or higher, during the day.
+{% elif type == "levelnight" %}
+Evolves when levelling up at level <b>{{ evo.parameter }}</b> or higher, during the night.
 {% elif type == "trade" %}
 Evolves when traded, or using a <i>Link Cable</i>.
 {% elif type == "tradeitem" %}
