@@ -1,0 +1,342 @@
+{% extends "_meta/walkthrough_page.html" %}
+{% set NAME = "11_route_1" %}
+{% block title %}Badge #8, Pt 1: Route One{% endblock %}
+
+{% block walkthrough %}
+<div class="content has-text-justified">
+    <h1 class="title">Route One</h1>
+
+    {{ ss("worstpuzzle", "I'm being teased.") }}
+
+    <p>
+        Welcome to {{ mp(290, "Route One") }}!
+    </p>
+
+    <p>
+        Maybe it's just me, but finally stepping out into a numbered route after ten hours was a
+        massive relief. We're finally out of that fucking city! The game starts to get really
+        good from here on out, with the Pokémon choice opening up pretty widely from here on out.
+        It's a shame the writing is pretty fucking bad for the next two gyms. Also, there's the
+        infamous Route 1 puzzle.
+    </p>
+
+    <p>
+        Oh yeah, and also there's fucking Fern.
+    </p>
+
+    {{ trainer_battle_content("Fern", "Hotshot", 25) }}
+
+    <p>
+        The first thing you might notice is that there's a lot of ledges here stopping your
+        progress. Don't worry about that; go all the way to the left of Route 1 to find the Nature
+        Centre, which acts as a Pokécentre. Inside, you can find <em>TM162 Metronome</em>, as well
+        as a man offering to trade you a {{ sp("TYROGUE") }} for a {{ sp("DUNSPARCE") }} on the
+        roof (yikes). At the very south of Route 1 is the Grand Gate... which is only open on
+        this side. If you didn't get the Item Finder early in the Slums, you can also get it by
+        talking to a scientist inside the Nature Centre.
+    </p>
+
+    {{ ss("stuck", "Shit, I'm stuck!") }}
+
+    <p>
+        If you go all the way down... you're softlocked. Your save is ruined. Thanks for playing
+        Pokémon Reborn! The rest of the game isn't finished yet; come back in a few years.
+    </p>
+
+    <p>
+        I kid, of course. Here's the gimmick of Route 1; as you would have noticed, there are
+        varying Bouffalant and Tauros battling eachother throughout the route. If you talk to one,
+        and defeat it, the opposite Pokémon will be available for you; you can ride the Tauros
+        whereas the Bouffalant will charge off in the opposite direction and break things. Tauros
+        can hop over ledges but can't go into really tall grass. Defeat a Bouffalant to ride the
+        Tauros up again to where the Nature Centre is; you may need to dismount (with X, on my
+        Pro Controller) to have a Bouffalant move logs for you.
+    </p>
+
+    <a href="#fucking-honey" id="#fucking-honey">
+        <h2 class="subtitle">Another Bad Puzzle</h2>
+    </a>
+
+    <p>
+        I fucking lied. We're not out of that city yet. We're going back to it to do two things.
+        First, make your way up to North Obsidia Ward and go down the staircase again. On the bottom
+        floor, where you originally found the random Karate Guy who was smashing rocks, instead
+        you will find a {{ sp("TINKATUFF") }}. Smash the rocks behind it to impress it, then talk to it to
+        enter a battle where you can catch it.
+    </p>
+
+    {{ ss("herbalextract") }}
+
+    <div class="notification is-success is-light">
+        You don't actually have to do this yet. You'll get a sticker for the Department Store,
+        and either a Heracross or a Pinsir, but since you can't get to floor 9 or 11 yet (and you
+        can't for a long time) this is the most skippable sticker, and the Pokémon are available
+        later anyway. <br/>
+        Still, if you want access to the Penthouse and a few TMs, you're gonna have to do this
+        puzzle eventually.
+    </div>
+
+    <p>
+        Next, you need to buy like fifty honey from the flower shop in Lapis Ward. Once you've
+        done that, you can travel ALL the way back to Route 1 to begin solving this fucking puzzle.
+    </p>
+
+    <details style="padding-bottom: 1rem">
+        <summary style="margin-bottom: 1rem">
+            FULL Route 1 Heracross Sticker puzzle solution
+        </summary>
+
+        <div class="notification is-info is-light">
+            At any point, you can reset the Tauros/Bouffalant pairs by stepping in one of those
+            dancing red+white flower pairs. <br/>
+
+            A lot of this info is taken straight from the Wikia article. Not linking it because
+            fuck Wikia, but thanks to the Wikia contributors for the original guide. No skips here,
+            either, because at least this logically feels like a puzzle.
+        </div>
+
+        {{ ss("heracross/fuckthispuzzle1") }}
+
+        <p>
+            Start at the left-most entrance to South Aventurine Woods. Defeat the Tauros to have
+            the Bouffalant move the log out of the way, then go to the right to find another pair
+            and ride the Tauros down.
+        </p>
+
+        {{ ss("heracross/fuckthispuzzle2") }}
+
+        <p>
+            Use the Tauros to jump up the ledge below the entrance (not the one in this screenshot)
+            and walk across the tall grass. Walk up to this tree and interact with it to put honey
+            over the bark, attracting a pair of fighting Heracross/Pinsir. Fight the <i>Pinsir</i>
+            to have the Heracross destroy the spiderweb next to you.
+        </p>
+
+        {{ ss("heracross/fuckthispuzzle3") }}
+
+        <p>
+            If you jump down and walk up again onto Route 1, you can find another Tauros to ride
+            up to the ledge that's closer to the second entry to South Aventurine Woods. Jump up
+            the ledge again and find this tree after walking through; once again, put honey on
+            it and kill the Pinsir to break the spider web next to you.
+        </p>
+
+        {{ ss("heracross/fuckthispuzzle4") }}
+
+        <p>
+            Breaking that spider web lets you come up to this ledge with the Tauros; dismount it
+            here and walk through the tall grass to find <i>another</i> honey tree slightly to
+            the left. Slather it and then defeat the <i>Heracross</i> in order for the Pinsir to
+            break the log immediately to your right.
+        </p>
+
+        {{ ss("heracross/fuckthispuzzle5") }}
+
+        <p>
+            Make your way to the third exit. Directly above you is a Tauros/Bouffalant pair;
+            defeat the Tauros so that the Bouffalant will move the log otherwise blocking you out
+            of the way.
+        </p>
+
+        {{ ss("heracross/fuckthispuzzle6") }}
+
+        <p>
+            Return to the second exit once again whilst riding a Tauros. If you go all the way down
+            to where the ledges are on this photo, you can jump over the lower ledge to find a
+            <em>Link Stone</em>; then jump up over the right ledge and dismount the Tauros. Walk
+            through both patches of Tall Grass here to find another tree; slathering honey over it
+            and defeating the Heracross will cause it to the destroy the log.
+        </p>
+
+        {{ ss("heracross/fuckthispuzzle7") }}
+
+        <p>
+            Take yet another Tauros down through the third exit (where the previously destroyed log
+            was). Travel all the way down and jump up this ledge, which has another honey-containing
+            tree; defeat the Pinsir for Heracross to break the spider web. Return to Route 1 and
+            make your way to the fourth exit to South Aventurine Woods.
+        </p>
+
+        {{ ss("heracross/fuckthispuzzle8") }}
+
+        <p>
+            There's a few honey trees here, but the goal is actually the very lowest one - right
+            next to the exit to Tanzan Mountain. Honeyify the tree, then have the Pinsir destroy
+            the log.
+        </p>
+
+        {{ ss("heracross/fuckthispuzzle9") }}
+
+        <p>
+            Go up north to find the immediate next tree. Slather it, then defeat one of each bug
+            to destroy both the web and the log (for an extra TM). Going down through the new
+            path of tall grass, make the Pinsir destroy the tiny baby log next to you, then proceed
+            downwards to the final honey tree. Have Heracross destroy the spider web here, unlocking
+            a shortcut to the fifth exit as well as a hidden <em>Escape Rope</em>.
+        </p>
+
+        <p>
+            Almost done, I promise!
+        </p>
+
+        {{ ss("heracross/fuckthispuzzle10") }}
+
+        <p>
+            Immediately above the fifth exit is another Bouffalant/Tauros pair. Kill the Tauros
+            to have the Bouffalant move the log blocking the fifth exit. Then walk down through the
+            fifth exit, up the ledge, and through the patch of tall grass to find another
+            tree that needs to be honey'd. Destroy the log, et cetera.
+        </p>
+
+        {{ ss("heracross/fuckthispuzzle11") }}
+
+        <p>
+            Now for a bit of walking; make your way to the rightmost entrance to the south. Defeat
+            the Tauros to have the Bouffalant move the log, then walk down through the open
+            entrance to find another unhoneyed tree. You'll need to have both Pinsir and Heracross
+            destroy the log and web, respectively. Now, the path is finally fucking clear.
+        </p>
+
+        {{ ss("heracross/fuckthispuzzle12") }}
+
+        <p>
+            Go to the third entrance from the right, and follow the available path with Tauros.
+            You can find <em>TM51 Steel Wing</em> here as well as the <em>Vileplumite</em>.
+        </p>
+
+        {{ ss("heracross/fuckthispuzzle13") }}
+        <p>
+            Once you reach this junction, go to the left to find some fucking cunt's glasses lying
+            on the floor (HOW the hell did you drop them HERE), then carry on to the right to make
+            it to the Bug Grove (or don't. The TM is shit anyway and you can catch the bugs later.
+            But it would be silly not to.)
+        </p>
+
+        {{ ss("heracross/FUCKINGFINALLY") }}
+
+        <p>
+            In this grove, you'll find <em>TM40 Aerial Ace</em>, as well as two battling
+            Heracross/Pinsir (again). Defeat the <strong>opposite one to the one you want</strong>;
+            the surviving Pokémon will then join you.
+        </p>
+
+        {{ ss("heracross/KILLYOURSELF", "Fuck you, four eyed cunt!") }}
+
+        <p>
+            After doing all this, return to the binoclard bastard in the Nature Centre to get
+            the 8th Department Store sticker. I hope it was worth the effort.
+        </p>
+    </details>
+
+    <a href="#north-aventurine" id="north-aventurine">
+        <h2 class="subtitle">North Aventurine Woods</h2>
+    </a>
+
+    <p>
+        After solving the South Aventurine Woods puzzle, we turn our focus to the north of the
+        woods. There's nowhere near as much content here, but nevertheless. These woods will be
+        the death of me.
+    </p>
+
+    <details style="padding-bottom: 1rem">
+        <summary style="margin-bottom: 1rem">
+            North Aventurine Woods puzzles
+        </summary>
+
+        {{ ss("northwoods/northwoods1") }}
+
+        <p>
+            The first and second entrance to North Aventurine Woods just connect to eachother,
+            so we'll skip them. Instead, go to the third entrance from the left; directly below is
+            a Tauros/Bouffalant pair. Defeat the Tauros to have the Bouffalant move the log inside
+            the third entrance upwards.
+        </p>
+
+        {{ ss("northwoods/north2") }}
+
+        <p>
+            Hop on a Tauros and travel up the first ledge only; then dismount it and walk through
+            the tall grass to the left. Honey the tree and have the Heracross destroy the spider
+            web; you can then ride a Tauros up both ledges to some more tall grass, whereupon
+            you will find the entrance to {{ mp(387, "Celestine Mountain B2F") }}.
+        </p>
+
+        {{ ss("northwoods/mountain") }}
+
+        <p>
+            If you proceed along the ice puzzle here, you will find <em>TM22 Smack Down</em> on a
+            ledge further up, as well as an <em>Ice Stone</em>. There's an icy strength boulder
+            preventing you from going anywhere else.
+        </p>
+
+        {{ ss("northwoods/north3") }}
+
+        <p>
+            The right-sided tall grass has another honeyable tree available; defeat both Pokemon
+            here to access <em>TM86 Grass Knot</em> on the left side, and <em>TM188 Pollen Puff</em>
+            as well as a <em>Leaf Stone</em> on the right side.
+        </p>
+
+        {{ ss("northwoods/north4") }}
+
+        <p>
+            Next, make your way over to the 4th exit from the left. Directly below is a Bouffalant
+            that you can use to remove the log blocking you; this will open up an area to the left
+            that leads to a house. Go inside the house to find... hundreds of Pikachu, as well as
+            an NPC on the upper floor who will heal your Pokemon. You can also find the
+            <em>Pikanium-Z</em> behind said house.
+        </p>
+
+        {{ ss("northwoods/north5") }}
+
+        <p>
+            To the right of the entrance is another unhoneyed tree; you can have the Pinsir
+            destroy the log if you want but there's obviously nothing there. Behind the spider
+            web is... another log. The fifth and sixth entrances both connect to eachother,
+            so go to the 7th entrance instead (the very last exit).
+        </p>
+
+        {{ ss("nortwoods/north6") }}
+
+        <p>
+            Bouffalant, log, etc. The left tall grass will lead you to the honey tree you can use
+            to destroy the log blocking the route from the 4th exit; if you then ride a Tauros up
+            over the ledge you then get access to a small grove with some mints. (This is also
+            a mandatory post-game area, so it's good to have it accessible.)
+        </p>
+
+        {{ ss("northwoods/north7") }}
+
+        <p>
+            Finally, if you make it to this tree you can have the log you just moved out of the way
+            destroyed. Ride a Tauros all the way up to the top to find a small set of (fishable)
+            pools; this is the only place you can find {{ sp("DEWPIDER") }} or
+            {{ sp("ARAQUANID") }} until the postgame.
+        </p>
+    </details>
+
+    {{ ss("incelfern", "kys") }}
+
+    <p>
+        After all of that effort, you can finally go all the way to the right side of Route 1 to
+        find a fork. To the north is Agate City... which is inaccessible due to the guards sleeping
+        on the job. To the south, however, is Vanhanen "Labyrinth"; the location of your next gym!
+    </p>
+</div>
+
+<div class="columns">
+    <div class="column is-one-third has-text-left">
+        <a href="/walkthroughs/10_rng.html">
+            <i class="bi bi-chevron-double-left"></i> Prev: Byxbysion Wasteland
+        </a>
+    </div>
+
+    <div class="column is-one-third has-text-centered" ></div>
+
+    <div class="column is-one-third has-text-right">
+        <a href="/walkthroughs/12_badge8.html">
+            Next: Badge #8 <i class="bi bi-chevron-double-right"></i>
+        </a>
+    </div>
+</div>
+{% endblock %}
