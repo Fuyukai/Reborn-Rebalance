@@ -332,8 +332,6 @@ def main():
     else:
         env.globals["navbar_walkthroughs"] = None
 
-    env.globals["navbar_walkthroughs"] = None
-
     # build single-file templates
     with (output_dir / "changelog.html").open(mode="w", encoding="utf-8") as f:
         f.write(env.get_template("changelog/page.html").render())
@@ -356,27 +354,27 @@ def main():
         path = output_dir / "maps" / f"{map.id:03d}.html"
         path.write_text(maps_template.render(map=map))
 
-    # (output_dir / "walkthroughs").mkdir(exist_ok=True, parents=True)
-    # if wdir.exists():
-    #     for path in wdir.iterdir():
-    #         if not path.is_dir():
-    #             continue
-    #
-    #         if (wdir_static := path / "static").exists():
-    #             walkthru_statics.append(wdir_static)
-    #
-    #         template = env.get_template(f"{path.name}/page.html")
-    #         output = (output_dir / "walkthroughs" / path.name).with_suffix(".html")
-    #         output.write_text(template.render())
+    (output_dir / "walkthroughs").mkdir(exist_ok=True, parents=True)
+    if wdir.exists():
+        for path in wdir.iterdir():
+            if not path.is_dir():
+                continue
+
+            if (wdir_static := path / "static").exists():
+                walkthru_statics.append(wdir_static)
+
+            template = env.get_template(f"{path.name}/page.html")
+            output = (output_dir / "walkthroughs" / path.name).with_suffix(".html")
+            output.write_text(template.render())
 
     # now make sure the sprites and static data are all there
     shutil.copytree(template_dir / "static", output_dir / "static", dirs_exist_ok=True)
     shutil.copytree(pokesprites, output_dir / "sprites", dirs_exist_ok=True)
     shutil.copytree(maps_dir, output_dir / "static" / "maps", dirs_exist_ok=True)
 
-    # for static_dir in walkthru_statics:
-    #    output = output_dir / "static" / static_dir.parent.name
-    #    shutil.copytree(static_dir, output, dirs_exist_ok=True)
+    for static_dir in walkthru_statics:
+        output = output_dir / "static" / static_dir.parent.name
+        shutil.copytree(static_dir, output, dirs_exist_ok=True)
 
 
 if __name__ == "__main__":
