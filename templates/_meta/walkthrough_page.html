@@ -79,7 +79,7 @@
             <td class="has-text-centered" style="vertical-align: middle">{{ small_sprite_obb(species) }}</td>
             <td class="has-text-centered" style="vertical-align: middle">{{ species_link(species, form_name) }}</td>
             <td class="has-text-centered" style="vertical-align: middle">{{ raw_poke.level }}</td>
-            {% set ability_name = attrs.raw_abilities[raw_poke.ability_number] %}
+            {% set ability_name = attrs.get_ability_name(raw_poke.ability_number) %}
             <td class="has-text-centered" style="vertical-align: middle">
                 {{ catalog.ability_name_mapping[ability_name].display_name }}
             </td>

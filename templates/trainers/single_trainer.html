@@ -1,0 +1,31 @@
+{% extends "_meta/_root.html" %}
+{% block title %}{{ trainers.trainer_name }} - All Battles{% endblock %}
+
+{% from "_meta/walkthrough_page.html" import trainer_battle %}
+
+{% block content %}
+<section class="section">
+    <div class="columns centered">
+        <div class="column is-6">
+            <h1 class="has-text-centered title">{{ trainers.trainer_name }}</h1>
+
+            {% for klass, subdict in trainers.trainers.items() %}
+            {% for id, trainer_obb in subdict.items() %}
+            <ol>
+                <li>
+                    <b>Class</b>: {{ klass }}
+                </li>
+                <li>
+                    <b>ID</b>: <code>{{ id }}</code>
+                </li>
+            </ol>
+
+            {{ trainer_battle(trainer_obb.battler_name, klass, id) }}
+
+            <hr/>
+            {% endfor %}
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endblock %}

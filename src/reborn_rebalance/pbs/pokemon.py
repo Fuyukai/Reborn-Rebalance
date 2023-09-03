@@ -73,6 +73,14 @@ class FormAttributes:
 
         return move.type == self.primary_type or move.type == self.secondary_type
 
+    def get_ability_name(self, number: int) -> str:
+        try:
+            return self.raw_abilities[number]
+        except IndexError:
+            raise IndexError(
+                f"Pokemon '{self.internal_name}' has no such ability #{number}"
+            ) from None
+
     def renamed(self, name: str) -> FormAttributes:
         return FormAttributes(
             internal_name=self.internal_name,
