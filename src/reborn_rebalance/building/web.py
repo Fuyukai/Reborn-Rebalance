@@ -342,6 +342,19 @@ def main():
     with (output_dir / "species" / "index.html").open(mode="w", encoding="utf-8") as f:
         f.write(env.get_template("species/list.html").render(species_definitions=catalog.species))
 
+    # build the looped templates
+    specific_mon_template = env.get_template("species/single.html")
+    for species in tqdm(catalog.species, desc="Species Page Rendering"):
+        path = output_dir / "species" / "specific" / species.internal_name.lower()
+        path = path.with_suffix(".html")
+        path.write_text(specific_mon_template.render(species=species))
+
+    (output_dir / "maps").mkdir(exist_ok=True, parents=True)
+    maps_template = env.get_template("maps/single_map.html")
+    for map in tqdm(catalog.maps.values(), desc="Map Page Rendering"):
+        path = output_dir / "maps" / f"{map.id:03d}.html"
+        path.write_text(maps_template.render(map=map))
+
     (output_dir / "trainers").mkdir(exist_ok=True, parents=True)
     trainer_template = env.get_template("trainers/single_trainer.html")
     for tr in tqdm(catalog.trainers.values(), desc="Trainer Page Rendering"):
