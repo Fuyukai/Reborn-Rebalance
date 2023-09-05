@@ -377,7 +377,7 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.BENNETT.0.pokemon]]
+[[trainers.BENNETT.20.pokemon]]
 internal_name = "MASQUERAIN"
 level = 49
 raw_item = "LEFTOVERS"
@@ -392,7 +392,7 @@ nature = "MODEST"
 iv = 31
 ability_number = 1
 
-[trainers.BENNETT.0.pokemon.evs]
+[trainers.BENNETT.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
@@ -497,18 +497,17 @@ spd = 0
 spe = 0
 
 [[trainers.BENNETT.21.pokemon]]
-internal_name = "EPHEMEON"
-level = 62
-raw_item = "LOADEDDICE"
+internal_name = "YANMEGA"
+level = 63
+raw_item = "LIFEORB"
 raw_moves = [
-    "PINMISSILE",
-    "FELLSTINGER",
-    "DUALWINGBEAT",
-    "DRILLRUN",
+    "PROTECT",
+    "AIRSLASH",
+    "ANCIENTPOWER",
+    "SIGNALBEAM",
 ]
 sex = "F"
-is_shiny = true
-nature = "JOLLY"
+nature = "MODEST"
 iv = 31
 
 [trainers.BENNETT.21.pokemon.evs]
