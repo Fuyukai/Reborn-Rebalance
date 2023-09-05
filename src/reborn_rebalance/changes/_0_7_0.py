@@ -251,6 +251,11 @@ def build_changes(builder: ChangelogBuilder):
     houndstone.add_tm_move(39).add_tm_move(71).add_tm_move(80)
 
     builder.pokemon("CETITAN").add_tm_move(8)
-    builder.pokemon("VAROOM").add_tm_move(89)
-    builder.pokemon("REVAVROOM").add_tm_move(89)
+
+    builder.pokemon("VAROOM").add_tm_move(89).add_ability_change(None, "SPEEDBOOST")
+
+    revavroom = builder.pokemon("REVAVROOM", "Now ten times as punny.")
+    revavroom.add_tm_move(89)
+    revavroom.add_ability_change(None, "SPEEDBOOST")
+    revavroom.add_level_up_move(0, "HIGHHORSEPOWER")
 

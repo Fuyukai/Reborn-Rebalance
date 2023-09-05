@@ -6,7 +6,7 @@ growth_rate = "Medium"
 exp_yield = 168
 catch_rate = 75
 caught_happiness = 50
-raw_abilities = ["OVERCOAT", "FILTER"]
+raw_abilities = ["OVERCOAT", "FILTER", "SPEEDBOOST"]
 raw_egg_moves = []
 raw_tms = ["WORKUP", "STRENGTH", "TOXIC", "ROCKSMASH", "VENOSHOCK", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "DOUBLETEAM", "SLUDGEBOMB", "SANDSTORM", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "OVERHEAT", "BRUTALSWING", "EXPLOSION", "GIGAIMPACT", "BULLDOZE", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "CONFIDE", "SCREECH", "SELFDESTRUCT", "SCARYFACE", "BODYSLAM", "ENDURE", "TOXICSPIKES", "HEATCRASH", "HEAVYSLAM", "HIGHHORSEPOWER", "UTURN"]
 raw_tutor_moves = ["BLOCK", "GASTROACID", "GUNKSHOT", "IRONDEFENSE", "IRONHEAD", "UPROAR", "ZENHEADBUTT", "CORROSIVEGAS", "STEELROLLER", "STEELBEAM"]
@@ -24,6 +24,10 @@ evolutions = []
 form_names = []
 dex_number = 953
 internal_name = "REVAVROOM"
+
+[[raw_level_up_moves]]
+at_level = 0
+name = "HIGHHORSEPOWER"  # hehe.
 
 [[raw_level_up_moves]]
 at_level = 0
