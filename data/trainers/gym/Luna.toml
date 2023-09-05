@@ -103,29 +103,6 @@ spd = 0
 spe = 0
 
 [[trainers.LUNA.0.pokemon]]
-internal_name = "TYRANITAR"
-level = 63
-raw_item = "MAGICALSEED"
-raw_moves = [
-    "BRICKBREAK",
-    "IRONHEAD",
-    "CRUNCH",
-    "STONEEDGE",
-]
-ability_number = 1
-nature = "ADAMANT"
-iv = 31
-nickname = "Bandersnatch"
-
-[trainers.LUNA.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 252
-spa = 252
-spd = 0
-spe = 0
-
-[[trainers.LUNA.0.pokemon]]
 internal_name = "UMBREON"
 level = 65
 raw_item = "LEFTOVERS"
@@ -788,19 +765,19 @@ spd = 0
 spe = 0
 
 [[trainers.LUNA.20.pokemon]]
-internal_name = "MORPEKO"
+internal_name = "TYRANITAR"
 level = 63
+raw_item = "MAGICALSEED"
 raw_moves = [
-    "AURAWHEELPLUS",
-    "PSYCHICFANGS",
-    "FAKEOUT",
-    "SEEDBOMB",
+    "BRICKBREAK",
+    "IRONHEAD",
+    "CRUNCH",
+    "STONEEDGE",
 ]
-ability_number = 0
-sex = "F"
-nature = "JOLLY"
+ability_number = 1
+nature = "ADAMANT"
 iv = 31
-nickname = "Chikapu"
+nickname = "Bandersnatch"
 
 [trainers.LUNA.20.pokemon.evs]
 hp = 0
@@ -837,14 +814,13 @@ spe = 0
 [[trainers.LUNA.20.pokemon]]
 internal_name = "WEAVILE"
 level = 64
-raw_item = "WEAVILITE"
 raw_moves = [
     "POWERUPPUNCH",
     "POISONJAB",
     "ICESHARD",
     "NIGHTSLASH",
 ]
-ability_number = 2
+ability_number = 0
 sex = "F"
 is_shiny = true
 nature = "JOLLY"
