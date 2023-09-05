@@ -217,6 +217,8 @@ def build_changes(builder: ChangelogBuilder):
         "SYNTHESIS"
     )
 
+    builder.pokemon("GOODRA", "Goodra-H now gets Shell Smash at level 62.")
+
     builder.pokemon(
         "CHARJABUG", "Now evolves inside Shade's Gym (location 281), similar to old Magneton."
     )
@@ -249,3 +251,4 @@ def build_changes(builder: ChangelogBuilder):
     houndstone.add_tm_move(39).add_tm_move(71).add_tm_move(80)
 
     builder.pokemon("CETITAN").add_tm_move(8)
+
