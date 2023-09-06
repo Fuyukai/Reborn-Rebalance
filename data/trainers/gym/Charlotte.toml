@@ -9,27 +9,6 @@ raw_battle_items = [
 ]
 
 [[trainers.CHARLOTTE.0.pokemon]]
-internal_name = "DARMANITAN"
-level = 68
-raw_moves = [
-    "ROCKSLIDE",
-    "FLAREBLITZ",
-    "UTURN",
-    "HAMMERARM",
-]
-sex = "F"
-nature = "ADAMANT"
-iv = 31
-
-[trainers.CHARLOTTE.0.pokemon.evs]
-hp = 0
-atk = 4
-def_ = 252
-spa = 252
-spd = 0
-spe = 0
-
-[[trainers.CHARLOTTE.0.pokemon]]
 internal_name = "TYPHLOSION"
 level = 69
 raw_item = "SITRUSBERRY"
@@ -86,28 +65,6 @@ raw_moves = [
 ]
 sex = "F"
 nature = "TIMID"
-iv = 31
-
-[trainers.CHARLOTTE.0.pokemon.evs]
-hp = 0
-atk = 4
-def_ = 0
-spa = 252
-spd = 252
-spe = 0
-
-[[trainers.CHARLOTTE.0.pokemon]]
-internal_name = "VOLCARONA"
-level = 70
-raw_item = "CHARTIBERRY"
-raw_moves = [
-    "GIGADRAIN",
-    "QUIVERDANCE",
-    "HEATWAVE",
-    "HIDDENPOWERROC",
-]
-sex = "F"
-nature = "MODEST"
 iv = 31
 
 [trainers.CHARLOTTE.0.pokemon.evs]
@@ -989,16 +946,15 @@ raw_battle_items = [
 ]
 
 [[trainers.CHARLOTTE.20.pokemon]]
-internal_name = "TAUROS"
+internal_name = "DARMANITAN"
 level = 68
-raw_item = "ELECTRICGEM"
 raw_moves = [
     "ROCKSLIDE",
     "FLAREBLITZ",
-    "CLOSECOMBAT",
-    "WILDCHARGE",
+    "UTURN",
+    "HAMMERARM",
 ]
-form_number = 2
+sex = "F"
 nature = "ADAMANT"
 iv = 31
 
@@ -1013,7 +969,7 @@ spe = 0
 [[trainers.CHARLOTTE.20.pokemon]]
 internal_name = "COALOSSAL"
 level = 68
-raw_item = "TELLURICSEED"
+raw_item = "FOCUSSASH"
 raw_moves = [
     "ERUPTION",
     "EARTHPOWER",
@@ -1056,25 +1012,25 @@ spd = 252
 spe = 0
 
 [[trainers.CHARLOTTE.20.pokemon]]
-internal_name = "CENTISKORCH"
-level = 69
-raw_item = "ELEMENTALSEED"
+internal_name = "VOLCARONA"
+level = 70
+raw_item = "CHARTIBERRY"
 raw_moves = [
-    "FLAREBLITZ",
-    "POWERWHIP",
-    "LEECHLIFE",
-    "CRUNCH",
+    "GIGADRAIN",
+    "QUIVERDANCE",
+    "HEATWAVE",
+    "HIDDENPOWERROC",
 ]
 sex = "F"
-nature = "JOLLY"
+nature = "MODEST"
 iv = 31
 
 [trainers.CHARLOTTE.20.pokemon.evs]
 hp = 0
 atk = 4
-def_ = 252
+def_ = 0
 spa = 252
-spd = 0
+spd = 252
 spe = 0
 
 [[trainers.CHARLOTTE.20.pokemon]]
@@ -1103,7 +1059,7 @@ spe = 0
 [[trainers.CHARLOTTE.20.pokemon]]
 internal_name = "NINETALES"
 level = 72
-raw_item = "NINETALITE"
+raw_item = "HEATROCK"
 raw_moves = [
     "HEATWAVE",
     "SOLARBEAM",
