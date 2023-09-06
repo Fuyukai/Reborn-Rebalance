@@ -344,7 +344,7 @@ raw_moves = [
     "THUNDERBOLT",
     "FLAMETHROWER",
 ]
-ability_number = 2
+ability_number = 1
 sex = "F"
 nature = "TIMID"
 iv = 31
@@ -361,12 +361,12 @@ spe = 0
 [[trainers.TERRA.20.pokemon]]
 internal_name = "SANDACONDA"
 level = 72
-raw_item = "SANDACONDITE"
+raw_item = "BUGGEM"
 raw_moves = [
     "BULLDOZE",
     "STEALTHROCK",
     "GLARE",
-    "STONEEDGE",
+    "STEAMROLLER",
 ]
 ability_number = 1
 sex = "F"
@@ -407,21 +407,21 @@ spd = 0
 spe = 0
 
 [[trainers.TERRA.20.pokemon]]
-internal_name = "URSALUNA"
+internal_name = "HIPPOWDON"
 level = 74
-raw_item = "ASSAULTVEST"
+raw_item = "SMOOTHROCK"
 raw_moves = [
-    "HEADLONGRUSH",
-    "CLOSECOMBAT",
-    "DOUBLEEDGE",
+    "BULLDOZE",
+    "STEALTHROCK",
+    "YAWN",
     "STONEEDGE",
 ]
-ability_number = 1
-nature = "CAREFUL"
+sex = "F"
+nature = "ADAMANT"
 iv = 31
-nickname = "CHUNKY"
+nickname = "HIPHOPOTAMUS"
 
-[trainers.TERRA.20.pokemon.evs]
+[trainers.TERRA.0.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
