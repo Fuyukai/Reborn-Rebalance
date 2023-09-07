@@ -119,7 +119,7 @@ raw_moves = [
     "EXTRASENSORY",
     "WATERPULSE",
 ]
-ability_number = 1
+ability_number = 2
 nature = "TIMID"
 sex = "F"
 iv = 31
@@ -165,7 +165,7 @@ raw_moves = [
     "MYSTICALFIRE",
     "CONFUSERAY",
 ]
-ability_number = 1
+ability_number = 0
 nature = "CALM"
 iv = 31
 
@@ -393,7 +393,7 @@ raw_moves = [
     "IRONHEAD",
 ]
 ability_number = 0
-form_number = 1
+form_number = 0
 nature = "TIMID"
 iv = 31
 
@@ -410,12 +410,12 @@ internal_name = "GLACEON"
 level = 77
 raw_item = "SYNTHETICSEED"
 raw_moves = [
-    "BLIZZARD",
+    "AURORABEAM",
     "SHADOWBALL",
-    "YAWN",
+    "EXTRASENSORY",
     "WISH",
 ]
-ability_number = 1
+ability_number = 2
 sex = "F"
 nature = "MODEST"
 iv = 31
@@ -429,24 +429,26 @@ spd = 252
 spe = 4
 
 [[trainers.ZEL.24.pokemon]]
-internal_name = "VELUZA"
+internal_name = "ALAKAZAM"
 level = 74
-raw_item = "NORMALIUMZ2"
+raw_item = "ALAKAZITE"
 raw_moves = [
-    "PSYCHOCUT",
-    "FILLETAWAY",
-    "AQUAJET",
-    "NIGHTSLASH",
+    "PSYSHOCK",
+    "RECOVER",
+    "SHADOWBALL",
+    "CHARGEBEAM",
 ]
-nature = "ADAMANT"
+ability_number = 2
+sex = "F"
+nature = "TIMID"
 iv = 31
 
 [trainers.ZEL.24.pokemon.evs]
 hp = 0
-atk = 152
-def_ = 104
+atk = 4
+def_ = 0
 spa = 252
-spd = 0
+spd = 252
 spe = 0
 
 [[trainers.ZEL.24.pokemon]]
@@ -477,12 +479,12 @@ internal_name = "UMBREON"
 level = 77
 raw_item = "LEFTOVERS"
 raw_moves = [
-    "DOUBLETEAM",
+    "MOONLIGHT",
     "WISH",
     "FOULPLAY",
     "TOXIC",
 ]
-ability_number = 1
+ability_number = 0
 nature = "CALM"
 iv = 31
 
