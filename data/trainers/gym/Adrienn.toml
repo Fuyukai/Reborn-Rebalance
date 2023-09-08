@@ -1181,142 +1181,101 @@ raw_battle_items = [
     "ULTRAPOTION",
 ]
 
+# this is a totally rebuilt team.
 [[trainers.ADRIENN.20.pokemon]]
-internal_name = "RAPIDASH"
+internal_name = "MISMAGIUS"
 level = 77
+raw_item = "MISMAGIUSITE"
+raw_moves = [
+    "NASTYPLOT",
+    "HYPERVOICE",
+    "SHADOWBALL",
+    "MYSTICALFIRE"
+]
+ability_number = 1  # pixilate + hyper voice. obviously.
+nature = "TIMID"
+iv = 31
+sex = "F"
+# designed to live a jolly tinkaton's 252 ev gigaton hammer. NP turn 1, mystical fire turn 2.
+# they won't see it coming.
+evs = { hp = 0, atk = 0, def_ = 80, spa = 116, spd = 0, spe = 252 }
+
+[[trainers.ADRIENN.20.pokemon]]
+internal_name = "NINETALES"
+level = 79
 raw_item = "ELEMENTALSEED"
 raw_moves = [
-    "PSYCHOCUT",
-    "SMARTSTRIKE",
-    "PLAYROUGH",
-    "HIGHHORSEPOWER",
+    "NASTYPLOT",
+    "MYSTICALFIRE",
+    "MOONBLAST",
+    "PROTECT"
+]
+ability_number = 0
+nature = "TIMID"
+iv = 31
+sex = "F"
+evs = { hp = 4, atk = 0, def_ = 0, spa = 252, spd = 0, spe = 252 }
+
+[[trainers.ADRIENN.20.pokemon]]
+internal_name = "TOGEKISS"
+level = 77
+raw_item = "BABIRIBERRY"
+raw_moves = [
+    "AIRSLASH",
+    "AURASPHERE",
+    "MOONBLAST",
+    "MYSTICALFIRE"
 ]
 ability_number = 1
-form_number = 1
-nature = "JOLLY"
+nature = "TIMID"
 iv = 31
-nickname = "Elidyr"
-
-[trainers.ADRIENN.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 252
-spa = 252
-spd = 0
-spe = 4
+sex = "M"
+evs = { hp = 0, atk = 0, def_ = 4, spa = 252, spd = 0, spe = 252 }
 
 [[trainers.ADRIENN.20.pokemon]]
 internal_name = "WHIMSICOTT"
-level = 76
-raw_item = "WIDELENS"
+level = 77
+raw_item = "FOCUSSASH"
 raw_moves = [
-    "DAZZLINGGLEAM",
     "TAILWIND",
-    "HURRICANE",
-    "NATUREPOWER",
+    "ENCORE",  # to cuck fake out users, e.g. tinkaton
+    "MOONBLAST",
+    "FAKETEARS"
 ]
-nature = "MODEST"
+ability_number = 0
+nature = "TIMID"
 iv = 31
-nickname = "Pryderi"
+sex = "M"
+evs = { hp = 4, atk = 0, def_ = 0, spa = 252, spd = 0, spe = 252 }
 
-[trainers.ADRIENN.20.pokemon.evs]
-hp = 0
-atk = 4
-def_ = 0
-spa = 252
-spd = 252
-spe = 0
+[[trainers.ADRIENN.20.pokemon]]
+internal_name = "GARDEVOIR"
+level = 78
+raw_item = "ELEMENTALSEED"
+raw_moves = [
+    "ICYWIND",
+    "NASTYPLOT",
+    "STOREDPOWER",
+    "MOONBLAST"
+]
+ability_number = 2  # wow, actually useful in doubles!
+nature = "TIMID"
+iv = 31
+sex = "F"
+evs = { hp = 0, atk = 0, def_ = 4, spa = 252, spd = 0, spe = 252 }
 
 [[trainers.ADRIENN.20.pokemon]]
 internal_name = "GRANBULL"
-level = 76
-raw_item = "MAGICALSEED"
+level = 82
+raw_item = "FOCUSSASH"  # it has no bulk, might as well let it get a revenge kill lol lmao!
 raw_moves = [
-    "EARTHQUAKE",
     "CLOSECOMBAT",
     "PLAYROUGH",
-    "ROCKSLIDE",
-]
-sex = "F"
-nature = "ADAMANT"
-iv = 31
-nickname = "Eolande"
-
-[trainers.ADRIENN.20.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 252
-spa = 0
-spd = 0
-spe = 4
-
-[[trainers.ADRIENN.20.pokemon]]
-internal_name = "ALCREMIE"
-level = 78
-raw_item = "LEFTOVERS"
-raw_moves = [
-    "DECORATE",
-    "DAZZLINGGLEAM",
-    "PSYSHOCK",
-    "RECOVER",
-]
-sex = "F"
-nature = "BOLD"
-iv = 31
-nickname = "Faylen"
-
-[trainers.ADRIENN.20.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 0
-spa = 0
-spd = 0
-spe = 252
-
-[[trainers.ADRIENN.20.pokemon]]
-internal_name = "TINKATON"
-level = 77
-raw_item = "MAGICALSEED"
-raw_moves = [
-    "SWORDSDANCE",
-    "FAKEOUT",
-    "GIGATONHAMMER",
-    "ICEHAMMER",
-]
-sex = "F"
-nature = "CAREFUL"
-iv = 31
-nickname = "Nuala"
-
-[trainers.ADRIENN.20.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 84
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.ADRIENN.20.pokemon]]
-internal_name = "TSAREENA"
-level = 80
-raw_item = "TSAREENITE"
-raw_moves = [
-    "POWERWHIP",
-    "PLAYROUGH",
-    "TRIPLEAXEL",
-    "LOWSWEEP",
+    "FIREFANG",
+    "EARTHQUAKE"
 ]
 ability_number = 2
-sex = "F"
-is_shiny = true
-nature = "JOLLY"
+nature = "ADAMANT"
 iv = 31
-nickname = "Sheila"
-
-[trainers.ADRIENN.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 252
-spa = 252
-spd = 0
-spe = 4
+sex = "F"
+evs = { hp = 74, atk = 252, def_ = 184, spa = 0, spd = 0, spe = 0 }
