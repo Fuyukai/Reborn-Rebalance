@@ -1570,6 +1570,32 @@ raw_battle_items = [
 ]
 
 [[trainers.TITANIA2.20.pokemon]]
+internal_name = "CORVIKNIGHT"
+level = 84
+raw_item = "LEFTOVERS"
+
+# brave bird meant it would often immediately kill itself, and roost lets it pressure
+# grounds/fightings much more easily.
+raw_moves = [
+    "BODYPRESS",
+    "ROOST",
+    "IRONHEAD",
+    "BULKUP",
+]
+ability_number = 0
+nature = "IMPISH"
+iv = 28
+
+[trainers.TITANIA2.20.pokemon.evs]
+hp = 0
+atk = 192
+def_ = 252
+spa = 0
+spd = 0
+spe = 64
+
+
+[[trainers.TITANIA2.20.pokemon]]
 internal_name = "EXCADRILL"
 level = 83
 raw_item = "MAGICALSEED"
@@ -1577,7 +1603,7 @@ raw_moves = [
     "SANDSTORM",
     "EARTHQUAKE",
     "SWORDSDANCE",
-    "SMARTSTRIKE",
+    "IRONHEAD",  # no sand veil means no issues w/ using this over no-miss smart strike.
 ]
 sex = "F"
 nature = "ADAMANT"
@@ -1592,28 +1618,6 @@ spd = 0
 spe = 0
 
 [[trainers.TITANIA2.20.pokemon]]
-internal_name = "CORVIKNIGHT"
-level = 84
-raw_item = "LEFTOVERS"
-raw_moves = [
-    "BODYPRESS",
-    "BRAVEBIRD",
-    "IRONHEAD",
-    "BULKUP",
-]
-ability_number = 2
-nature = "IMPISH"
-iv = 28
-
-[trainers.TITANIA2.20.pokemon.evs]
-hp = 0
-atk = 192
-def_ = 0
-spa = 0
-spd = 0
-spe = 64
-
-[[trainers.TITANIA2.20.pokemon]]
 internal_name = "TITANEON"
 level = 85
 raw_item = "WIDELENS"
@@ -1621,7 +1625,7 @@ raw_moves = [
     "AQUATAIL",
     "BULLETPUNCH",
     "PLAYROUGH",
-    "THUNDERFANG",
+    "WILDCHARGE",  # thunder fang wasn't even close to being legal!!
 ]
 ability_number = 1
 sex = "F"
@@ -1636,26 +1640,27 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.TITANIA2.20.pokemon]]
-internal_name = "KINGAMBIT"
-level = 86
-raw_item = "CHOPLEBERRY"
+[[trainers.TITANIA2.0.pokemon]]
+internal_name = "EMPOLEON"
+level = 85
+raw_item = "EMPOLEONITE"
+# wtf does blizzard hit that scald doesn't? grasses suck against steel anyway.
 raw_moves = [
-    "SUCKERPUNCH",
-    "PSYCHOCUT",
-    "IRONHEAD",
-    "KOWTOWCLEAVE",
+    "AGILITY",
+    "SCALD",
+    "FLASHCANNON",
+    "ROOST",
 ]
-ability_number = 1
-nature = "ADAMANT"
-iv = 28
+sex = "F"
+nature = "MODEST"
+iv = 31
 
-[trainers.TITANIA2.20.pokemon.evs]
+[trainers.TITANIA2.0.pokemon.evs]
 hp = 0
-atk = 252
-def_ = 252
-spa = 0
-spd = 0
+atk = 128
+def_ = 0
+spa = 128
+spd = 252
 spe = 0
 
 [[trainers.TITANIA2.20.pokemon]]
@@ -1673,8 +1678,8 @@ nature = "MODEST"
 iv = 31
 
 [trainers.TITANIA2.20.pokemon.evs]
-hp = 0
-atk = 128
+hp = 4
+atk = 252
 def_ = 0
 spa = 0
 spd = 252
