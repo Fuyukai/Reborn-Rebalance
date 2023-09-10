@@ -1837,14 +1837,16 @@ battler_name = "Cain"
 battler_id = 26
 raw_battle_items = []
 
+# this thing was rightly banned to uberss for being really fucking stupid.
+# vetoing this as you have to fight a 6v30 against it and no.
 [[trainers.Cain.26.pokemon]]
 internal_name = "ESPATHRA"
 level = 81
-raw_item = "FOCUSSASH"
+raw_item = "PSYCHICGEM"
 raw_moves = [
     "ENERGYBALL",
     "LUMINACRASH",
-    "PROTECT",
+    "ROOST",
     "FLASHCANNON",
 ]
 ability_number = 2
