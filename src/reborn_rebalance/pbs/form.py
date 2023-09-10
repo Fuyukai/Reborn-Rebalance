@@ -232,9 +232,11 @@ class PokemonForms:
                         buffer.write_line(f"PBItems::{name} => {idx},")
 
                 buffer.write_line("},")
+                buffer.write_line(":DefaultForm => 0,")
 
             elif self.mega_form is not None:
                 buffer.write_line(f":MegaForm => {self.mega_form},")
+                buffer.write_line(":DefaultForm => 0,")
 
             if self.ultra_form is not None:
                 buffer.write_line(f":UltraForm => {self.ultra_form},")
