@@ -281,15 +281,23 @@ battler_name = "Elias"
 battler_id = 1
 raw_battle_items = []
 
+# FUCK YOU FLORA
+# I don't know who thought this was a good idea. Her AI is so bad that she literally drags you
+# down. Noivern has been nerfed *twice* so that it doesn't OHKO her pokemon three times in a row
+# whilst she misses will-o-wisps.
+# Drampa has been moved up to second instead of Kommo-o so that he can't Z-move you and wipe
+# you out instantly.
+# And even then it's very RNG dependent.
+
 [[trainers.ELIAS.1.pokemon]]
 internal_name = "NOIVERN"
 level = 120
 raw_item = "MAGICALSEED"
 raw_moves = [
     "BOOMBURST",
-    "FLAMETHROWER",
+    "NASTYPLOT",
     "DRAGONPULSE",
-    "PSYCHIC",
+    "SHADOWBALL",
 ]
 ability_number = 1
 nature = "TIMID"
@@ -302,6 +310,27 @@ def_ = 0
 spa = 252
 spd = 252
 spe = 0
+
+[[trainers.ELIAS.1.pokemon]]
+internal_name = "DRAMPA"
+level = 120
+raw_item = "WIKIBERRY"
+raw_moves = [
+    "NATUREPOWER",
+    "DRAGONPULSE",
+    "SURF",
+    "HEATWAVE",
+]
+nature = "MODEST"
+iv = 31
+
+[trainers.ELIAS.1.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 252
+spe = 4
 
 [[trainers.ELIAS.1.pokemon]]
 internal_name = "KOMMOO"
@@ -348,27 +377,6 @@ spd = 0
 spe = 0
 
 [[trainers.ELIAS.1.pokemon]]
-internal_name = "DRAMPA"
-level = 120
-raw_item = "WIKIBERRY"
-raw_moves = [
-    "NATUREPOWER",
-    "DRAGONPULSE",
-    "SURF",
-    "HEATWAVE",
-]
-nature = "MODEST"
-iv = 31
-
-[trainers.ELIAS.1.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 0
-spa = 0
-spd = 252
-spe = 4
-
-[[trainers.ELIAS.1.pokemon]]
 internal_name = "DITTO"
 level = 120
 raw_item = "CHOICESCARF"
@@ -391,7 +399,7 @@ spe = 0
 [[trainers.ELIAS.1.pokemon]]
 internal_name = "KANGASKHAN"
 level = 120
-raw_item = "KANGASKHANITE"
+raw_item = "LIFEORB"
 raw_moves = [
     "POWERUPPUNCH",
     "EARTHQUAKE",
