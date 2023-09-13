@@ -221,6 +221,13 @@ def main():
     parser = argparse.ArgumentParser(description="Automatic web documentation builder")
 
     parser.add_argument(
+        "--force-single-threaded",
+        help="Forces building to be done single-threaded for easier error reporting",
+        action="store_true",
+        default=False,
+    )
+
+    parser.add_argument(
         "--game-dir", help="The game directory to load sprites from.", type=Path, default=None
     )
     parser.add_argument(
@@ -283,7 +290,7 @@ def main():
 
     output_dir.mkdir(exist_ok=True, parents=True)
 
-    catalog = EssentialsCatalog.load_from_toml(input_dir)
+    catalog = EssentialsCatalog.load_from_toml(input_dir, single_threaded=args.force_single_threaded)
 
     game_dir: Path | None = args.game_dir
     image_cache_location: Path = args.image_cache_location
@@ -347,7 +354,12 @@ def main():
     for species in tqdm(catalog.species, desc="Species Page Rendering"):
         path = output_dir / "species" / "specific" / species.internal_name.lower()
         path = path.with_suffix(".html")
-        path.write_text(specific_mon_template.render(species=species))
+
+        try:
+            path.write_text(specific_mon_template.render(species=species))
+        except Exception:
+            print("Error rendering", species.internal_name, file=sys.stderr)
+            raise
 
     (output_dir / "maps").mkdir(exist_ok=True, parents=True)
     maps_template = env.get_template("maps/single_map.html")

@@ -117,7 +117,7 @@ def load_all_species_from_pbs(path: Path) -> list[PokemonSpecies]:
     return [PokemonSpecies.from_pbs(key, it) for key, it in raw_data.items()]
 
 
-def load_all_species_from_toml(path: Path) -> list[PokemonSpecies]:
+def load_all_species_from_toml(path: Path, *, singlethreaded: bool = False) -> list[PokemonSpecies]:
     """
     Loads all species from the TOML directory, and returns them in Pokédex order.
     """
@@ -133,7 +133,9 @@ def load_all_species_from_toml(path: Path) -> list[PokemonSpecies]:
     species: list[PokemonSpecies] = [None] * len(to_read)  # type: ignore
 
     with concurrent.futures.ProcessPoolExecutor() as executor:
-        for idx, decoded in executor.map(load_single_species_toml, to_read):
+        mapping_fn = map if singlethreaded else executor.map
+
+        for idx, decoded in mapping_fn(load_single_species_toml, to_read):
             species[idx - 1] = decoded
 
     if __debug__:
@@ -222,7 +224,7 @@ def load_single_form(path: Path) -> PokemonForms:
     return forms_for_mon
 
 
-def load_all_forms(path: Path) -> dict[str, PokemonForms]:
+def load_all_forms(path: Path, *, singlethreaded: bool = False) -> dict[str, PokemonForms]:
     """
     Loads all forms from the provided path.
     """
@@ -240,7 +242,9 @@ def load_all_forms(path: Path) -> dict[str, PokemonForms]:
         to_load.append(subfile)
 
     with concurrent.futures.ProcessPoolExecutor() as executor:
-        for forms in executor.map(load_single_form, to_load):
+        mapping_fn = map if singlethreaded else executor.map
+
+        for forms in mapping_fn(load_single_form, to_load):
             all_forms[forms.internal_name] = forms
 
     return all_forms
@@ -532,27 +536,18 @@ def load_single_encounter(path: Path) -> tuple[int, MapEncounters]:
     return id, encounter
 
 
-def load_encounters_from_toml(path: Path) -> dict[int, MapEncounters]:
+def load_encounters_from_toml(path: Path, *, singlethread: bool = False) -> dict[int, MapEncounters]:
     """
     Loads the encounters data from the ``encounters.toml`` file.
     """
 
     encounters = {}
-    futures: list[Future[tuple[int, MapEncounters]]] = []
-
     with concurrent.futures.ProcessPoolExecutor() as executor:
-        for file in path.rglob("*"):
-            if file.is_dir():
-                continue
+        mapping_fn = map if singlethread else executor.map
+        filtered_encounters = filter(lambda it: it.suffix == ".toml", path.rglob("*"))
 
-            if file.suffix != ".toml":
-                continue
-
-            futures.append(executor.submit(load_single_encounter, file))
-
-    for fut in futures:
-        id, encounter = fut.result()
-        encounters[id] = encounter
+        for (id, encounter) in mapping_fn(load_single_encounter, filtered_encounters):
+            encounters[id] = encounter
 
     return encounters
 
@@ -751,7 +746,8 @@ def load_single_trainer_file_toml(path: Path) -> tuple[str, dict[str, dict[int, 
     return path.stem, trainers
 
 
-def load_trainers_from_toml(path: Path) -> dict[str, TrainerCatalog]:
+
+def load_trainers_from_toml(path: Path, *, singlethread: bool = False) -> dict[str, TrainerCatalog]:
     """
     Loads all trainers from TOML.
     """
@@ -761,20 +757,12 @@ def load_trainers_from_toml(path: Path) -> dict[str, TrainerCatalog]:
     futures: list[Future[tuple[str, dict[str, dict[int, Trainer]]]]] = []
 
     with concurrent.futures.ProcessPoolExecutor() as executor:
-        for file in path.rglob("*"):
-            if file.is_dir():
-                continue
+        filtered_trainers = filter(lambda it: it.suffix == ".toml", path.rglob("*"))
+        mapping_fn = map if singlethread else executor.map
 
-            if file.suffix != ".toml":
-                continue
-
-            fut = executor.submit(load_single_trainer_file_toml, file)
-            futures.append(fut)
-
-    for fut in futures:
-        name, mapping = fut.result()
-        catalog = TrainerCatalog(trainer_name=name, trainers=mapping)
-        trainers[name] = catalog
+        for (name, mapping) in mapping_fn(load_single_trainer_file_toml, filtered_trainers):
+            catalog = TrainerCatalog(trainer_name=name, trainers=mapping)
+            trainers[name] = catalog
 
     return trainers
 

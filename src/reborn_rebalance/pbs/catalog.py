@@ -353,15 +353,81 @@ class EssentialsCatalog:
         )
 
     @classmethod
+    def load_from_toml_st(cls, path: Path, *, skip_species: bool = False) -> Self:
+        """
+        Like :func:`load_from_toml`, but only runs in a single thread.
+        """
+
+        before = time.perf_counter()
+
+        moves_file = path / "moves.toml"
+        moves = load_moves_from_toml(moves_file)
+
+        items_path = path / "items.toml"
+        items = load_items_from_toml(items_path)
+
+        tm_path = path / "tms.toml"
+        tms = load_tms_from_toml(tm_path)
+
+        ability_path = path / "abilities.toml"
+        abilities = load_abilities_from_toml(ability_path)
+
+        map_metadata_path = path / "maps.toml"
+        map_metadata = load_map_metadata_from_toml(map_metadata_path)
+
+        trainer_types_path = path / "trainer_types.toml"
+        trainer_types = load_trainer_types_from_toml(trainer_types_path)
+
+        encounters_path = path / "encounters"
+        encounters = load_encounters_from_toml(encounters_path, singlethread=True)
+
+        trainers_path = path / "trainers"
+        trainers = load_trainers_from_toml(trainers_path, singlethread=True)
+
+        if skip_species:
+            species = []
+            forms = {}
+        else:
+            species_dir = path / "species"
+            forms_path = path / "forms"
+
+            species = load_all_species_from_toml(species_dir, singlethreaded=True)
+            forms = load_all_forms(forms_path, singlethreaded=True)
+
+        instance = cls(
+            species=species,
+            forms=forms,
+            moves=moves,
+            items=items,
+            tms=tms,
+            abilities=abilities,
+            maps=map_metadata,
+            encounters=encounters,
+            trainer_types=trainer_types,
+            trainers=trainers,
+        )
+
+        instance._sort()
+        instance._validate()
+        after = time.perf_counter()
+
+        print(f"loaded and validated catalog (single-threaded!) in {after - before:.2f}s")
+        return instance
+
+    @classmethod
     def load_from_toml(
         cls,
         path: Path,
         *,
         skip_species: bool = False,
+        single_threaded: bool = False,
     ) -> Self:
         """
         Loads all objects from toml files in the provided ``data`` directory.
         """
+
+        if single_threaded:
+            return cls.load_from_toml_st(path, skip_species=skip_species)
 
         # processpoolexecutor over threadpoolexecutor cos this is mostly cpu bound tomli stuff
 
