@@ -1760,25 +1760,26 @@ spe = 0
 [[trainers.FERN2.0.pokemon]]
 internal_name = "SERPERIOR"
 level = 129
-raw_item = "LIFEORB"
+raw_item = "LEFTOVERS"
 raw_moves = [
     "LEAFSTORM",
-    "GIGADRAIN",
-    "DRAGONPULSE",
-    "HIDDENPOWERFIR",
+    "GLARE",
+    "DRACOMETEOR",
+    "LEECHSEED",
 ]
-ability_number = 1
+ability_number = 2
 sex = "F"
 nature = "TIMID"
 iv = 31
 
 [trainers.FERN2.0.pokemon.evs]
-hp = 0
-atk = 4
+# got dat gen 5 spread
+hp = 56
+atk = 0
 def_ = 0
-spa = 252
-spd = 252
-spe = 0
+spa = 200
+spd = 0
+spe = 252
 
 [[trainers.FERN2.0.pokemon]]
 internal_name = "BUZZWOLE"
@@ -1802,14 +1803,14 @@ spd = 0
 spe = 128
 
 [[trainers.FERN2.0.pokemon]]
-internal_name = "KROOKODILE"
-level = 130
-raw_item = "CHOICESCARF"
+internal_name = "SNEASLER"
+level = 132
+raw_item = "AIRBALLOON"
 raw_moves = [
-    "OUTRAGE",
-    "KNOCKOFF",
-    "STONEEDGE",
-    "STOMPINGTANTRUM",
+    "SWORDSDANCE",
+    "CLOSECOMBAT",
+    "DIRECLAW",
+    "ACROBATICS",
 ]
 ability_number = 1
 nature = "ADAMANT"
@@ -1817,11 +1818,11 @@ iv = 31
 
 [trainers.FERN2.0.pokemon.evs]
 hp = 0
-atk = 4
-def_ = 252
-spa = 252
+atk = 252
+def_ = 4
+spa = 0
 spd = 0
-spe = 0
+spe = 252
 
 [[trainers.FERN2.0.pokemon]]
 internal_name = "DECIDUEYE"
