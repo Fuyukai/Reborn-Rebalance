@@ -158,7 +158,7 @@
                         data-idx="{{ s_idx }}"
                         data-form="{{ attributes.form_name }}"
                         style="image-rendering: pixelated;"
-                        src="{{ img_src }}"
+                        src="{{ img_src | urlencode }}"
                         alt="Battler sprite for {{ attributes.name }}"
                         height="192"
                         width="192"

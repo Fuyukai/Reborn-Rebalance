@@ -8,7 +8,7 @@ function unswapWithShinyIcon(el) {
 
 function swapWithShinyBattler(el) {
     if (el.dataset.form !== "Normal") {
-        el.setAttribute("src", "/sprites/battler_" + el.dataset.idx + "_" + el.dataset.form + "_shiny.png")
+        el.setAttribute("src", "/sprites/battler_" + el.dataset.idx + "_" + encodeURIComponent(el.dataset.form) + "_shiny.png");
     } else {
         el.setAttribute("src", "/sprites/battler_" + el.dataset.idx + "_shiny.png");
     }
@@ -16,7 +16,7 @@ function swapWithShinyBattler(el) {
 
 function unswapWithShinyBattler(el) {
     if (el.dataset.form !== "Normal") {
-        el.setAttribute("src", "/sprites/battler_" + el.dataset.idx + "_" + el.dataset.form + ".png")
+        el.setAttribute("src", "/sprites/battler_" + el.dataset.idx + "_" + encodeURIComponent(el.dataset.form) + ".png");
     } else {
         el.setAttribute("src", "/sprites/battler_" + el.dataset.idx + ".png");
     }
