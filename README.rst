@@ -6,7 +6,7 @@ Reborn Rebalance
 This project is two parts:
 
 - A rebalance mod for Pokémon Reborn...
-- ... implemented via a 🏳️‍⚧️piler from TOML data into Essentials PBS (2010 ver) and Ruby code.
+- ... implemented via a transpiler from TOML data into Essentials PBS (2010 ver) and Ruby code.
 
 This project is fully documented; you can find the
 `documentation online <https://reborn.veriny.tf/>`_.
@@ -22,6 +22,10 @@ Currently Rebalanced
   * Finally, my own tweaks are used on top of the base tweaks.
 
 - A small number of moves. See the list above.
+
+- Most gym teams and other major boss teams, excluding most post-game teams.
+
+- A small amount of encounter table tweaks.
 
 Why?
 ----
@@ -87,6 +91,9 @@ Compile All Data.
 Future Plans
 ------------
 
+- Add proper custom events for the Gen 8 + 9 legends so you can't shithouse the endgame with them.
+- More boss tweaks, especially post-game.
+- Try and make most of the movesets legal... (they're mostly not even legal in the vanilla game).
 - Add more events for freshly rebalanced Pokémon.
 - Add the ability to directly compile into the game formats, instead of requiring the game to
   recompile it.
