@@ -45,8 +45,8 @@ GENERATIONS = [
     range(722, 810),
     # Grookey -> Enamorus
     range(810, 906),
-    # Sprigatito -> Iron Leaves
-    range(906, 1021),
+    # Sprigatito -> Terapagos
+    range(906, 1036),
 ]
 
 

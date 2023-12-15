@@ -28,6 +28,7 @@ into-pbs = "reborn_rebalance.building.to_pbs:build_to_pbs"
 into-toml = "reborn_rebalance.building.to_toml:import_to_toml"
 ruby-unmarshal = "reborn_rebalance.scripts.unmarshal:main"
 build-web = "reborn_rebalance.building.web:main"
+unfuck = "reborn_rebalance.scripts.unfuck:main"
 
 [tool.isort]
 profile = "black"

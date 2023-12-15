@@ -513,11 +513,12 @@ class PokemonSpecies:
                     PokemonEvolution(into_name=into, condition=cond, parameter=cond_param)
                 )
 
-        forms = data.pop("FormNames", "")
-        if forms:
-            forms = forms.split(",")
-        else:
-            forms = []
+        forms = []
+        for key_name in ("FormNames", "Formnames"):  # !!!
+            raw_forms = data.pop(key_name, "")
+            if forms:
+                forms = raw_forms.split(",")
+                continue
 
         regional_num = data.pop("RegionalNumbers", None)
         shape = data.pop("Shape", None)

@@ -1,0 +1,110 @@
+dex_number = 1025
+name = "Munkidori"
+primary_type = "POISON"
+secondary_type = "PSYCHIC"
+gender_ratio = "AlwaysMale"
+growth_rate = "Slow"
+exp_yield = 170
+catch_rate = 5
+caught_happiness = 0
+raw_abilities = [
+    "TOXICCHAIN",
+    "FRISK",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "SCRATCH" },
+    { at_level = 1, name = "CONFUSION" },
+    { at_level = 1, name = "FAKEOUT" },
+    { at_level = 8, name = "FLATTER" },
+    { at_level = 16, name = "HELPINGHAND" },
+    { at_level = 24, name = "PSYBEAM" },
+    { at_level = 32, name = "CLEARSMOG" },
+    { at_level = 40, name = "PSYCHIC" },
+    { at_level = 48, name = "SLUDGEWAVE" },
+    { at_level = 56, name = "NASTYPLOT" },
+    { at_level = 64, name = "FUTURESIGHT" },
+    { at_level = 72, name = "PARTINGSHOT" },
+]
+raw_tms = [
+    "PSYSHOCK",
+    "CALMMIND",
+    "TOXIC",
+    "VENOSHOCK",
+    "HIDDENPOWER",
+    "TAUNT",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "SLUDGEWAVE",
+    "SLUDGEBOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "FOCUSBLAST",
+    "FLING",
+    "SHADOWCLAW",
+    "GIGAIMPACT",
+    "POISONJAB",
+    "GRASSKNOT",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "IMPRISON",
+    "HEX",
+    "PSYCHICTERRAIN",
+    "METRONOME",
+    "ENDURE",
+    "BATONPASS",
+    "FUTURESIGHT",
+    "NASTYPLOT",
+    "STOREDPOWER",
+    "TRAILBLAZE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "GUNKSHOT",
+    "HELPINGHAND",
+    "MUDSLAP",
+    "TRICK",
+    "UPROAR",
+    "POLTERGEIST",
+    "LASHOUT",
+    "MIMIC",
+]
+compatible_egg_groups = [
+    "Undiscovered",
+]
+steps_to_hatch = 12800
+height = 1.0
+weight = 12.2
+colour = "Black"
+kind = "Retainer"
+pokedex_entry = "Munkidori keeps itself somewhere safe while it toys with its foes, using psychokinesis to induce intense dizziness."
+battler_player_y = 15
+battler_enemy_y = 20
+battler_altitude = 0
+regional_numbers = 1015
+
+[base_stats]
+hp = 88
+atk = 75
+def_ = 66
+spa = 130
+spd = 90
+spe = 106
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 3
+spd = 0
+spe = 0

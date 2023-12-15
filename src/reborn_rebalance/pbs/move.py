@@ -29,6 +29,7 @@ class MoveTarget(enum.Enum):
     SINGLE_ON_SIDE = 200  # what?
     SINGLE_OPPOSING = 400  # NOT random
     DIRECTLY_OPPOSITE = 800
+    WHO_KNOWS = 1000
 
 
 class MoveFlag(enum.Enum):

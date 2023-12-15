@@ -10796,7 +10796,7 @@ internal_name = "TM191"
 display_name = "TM191"
 pocket = "4"
 price = 4000
-description = "The user twirls around, slamming into the target. Also destroys temporary created terrain."
+description = "Twirl around and slam into the target. Destroys temporary created terrain."
 bag_usage = 3
 battle_usage = 0
 type = 0
@@ -10808,7 +10808,7 @@ internal_name = "TM192"
 display_name = "TM192"
 pocket = "4"
 price = 4000
-description = "The user summons a snowstorm, turning the field into a Snowscape for five turns."
+description = "Summon a snowstorm, turning the field into a Snowscape for five turns."
 bag_usage = 3
 battle_usage = 0
 type = 0
@@ -10832,7 +10832,7 @@ internal_name = "TM194"
 display_name = "TM194"
 pocket = "4"
 price = 4000
-description = "The user attacks suddenly as if leaping out from tall grass. The user also boosts its Speed stat."
+description = "The user attacks suddenly as if leaping out from tall grass. Also boosts Speed."
 bag_usage = 3
 battle_usage = 0
 type = 0
@@ -10844,7 +10844,7 @@ internal_name = "TM195"
 display_name = "TM195"
 pocket = "4"
 price = 4000
-description = "Showers the target with extremely cold water. Also lowers the target's Attack stat."
+description = "Shower the target with extremely cold water. Lowers the target's Attack stat."
 bag_usage = 3
 battle_usage = 0
 type = 0
@@ -11644,11 +11644,11 @@ type = 0
 
 [[items]]
 id = 1088
-internal_name = "NIDOTITE"
-display_name = "Nidotite"
+internal_name = "NIDOTITEX"
+display_name = "Nidotite X"
 pocket = "6"
 price = 500
-description = "Have Nidoking hold it, and this stone will enable it to Mega-evolve during battle."
+description = "Have Nidoking or Nidoqueen hold it, and this stone will enable it to Mega-evolve during battle."
 bag_usage = 0
 battle_usage = 0
 type = 0
@@ -11719,3 +11719,281 @@ description = "A beautiful tiny ribbon. A special token to symbolize true friend
 bag_usage = 5
 battle_usage = 0
 type = 6
+
+[[items]]
+id = 1095
+internal_name = "VOIDSTONE"
+display_name = "Voidstone"
+pocket = "6"
+price = 500
+description = "An ominous stone containing the energy of the Void. Maybe someone can utilize this power?"
+bag_usage = 0
+battle_usage = 0
+type = 0
+
+[[items]]
+id = 1096
+internal_name = "SYRUPYAPPLE"
+display_name = "Syrupy Apple"
+pocket = "1"
+price = 1100
+description = "A peculiar apple that can make a certain species of Pokémon evolve. It's exceptionally syrupy."
+bag_usage = 1
+battle_usage = 0
+type = 0
+
+[[items]]
+id = 1097
+internal_name = "UNREMARKABLETEACUP"
+display_name = "Unremarkable Teacup"
+pocket = "1"
+price = 800
+description = "A peculiar teacup that can make a certain species of Pokémon evolve. It may be cracked, but tea drunk from it is delicious."
+bag_usage = 1
+battle_usage = 0
+type = 0
+
+[[items]]
+id = 1098
+internal_name = "MASTERPIECETEACUP"
+display_name = "Masterpiece Teacup"
+pocket = "1"
+price = 800
+description = "A peculiar teacup that can make a certain species of Pokémon evolve. It may be chipped, but tea drunk from it is delicious."
+bag_usage = 1
+battle_usage = 0
+type = 0
+
+[[items]]
+id = 1099
+internal_name = "WELLSPRINGMASK"
+display_name = "Wellspring Mask"
+pocket = "1"
+price = 500
+description = "An item to be held by Ogerpon. This carved wooden mask is adorned with crystals and allows Ogerpon to wield the Water type during battle."
+bag_usage = 0
+battle_usage = 0
+type = 0
+
+[[items]]
+id = 1100
+internal_name = "HEARTHFLAMEMASK"
+display_name = "Hearthflame Mask"
+pocket = "1"
+price = 500
+description = "An item to be held by Ogerpon. This carved wooden mask is adorned with crystals and allows Ogerpon to wield the Fire type during battle."
+bag_usage = 0
+battle_usage = 0
+type = 0
+
+[[items]]
+id = 1101
+internal_name = "CORNERSTONEMASK"
+display_name = "Cornerstone Mask"
+pocket = "1"
+price = 500
+description = "An item to be held by Ogerpon. This carved wooden mask is adorned with crystals and allows Ogerpon to wield the Rock type during battle."
+bag_usage = 0
+battle_usage = 0
+type = 0
+
+[[items]]
+id = 1102
+internal_name = "TM197"
+display_name = "TM197"
+pocket = "4"
+price = 4000
+description = "The user boosts an Electric-type move for use on the next turn. It raises the user's Sp. Def stat."
+bag_usage = 3
+battle_usage = 0
+type = 0
+move = "CHARGE"
+
+[[items]]
+id = 1103
+internal_name = "TM198"
+display_name = "TM198"
+pocket = "4"
+price = 4000
+description = "The user creates a haze that eliminates every stat change among all the Pokémon engaged in battle."
+bag_usage = 3
+battle_usage = 0
+type = 0
+move = "HAZE"
+
+[[items]]
+id = 1104
+internal_name = "TM199"
+display_name = "TM199"
+pocket = "4"
+price = 8000
+description = "The user lunges at the target with full force. This also lowers the target's Attack stat."
+bag_usage = 3
+battle_usage = 0
+type = 0
+move = "LUNGE"
+
+[[items]]
+id = 1105
+internal_name = "MATCHAPOWDER"
+display_name = "Matcha Powder"
+pocket = "1"
+price = 500
+description = "A small bag containing matcha powder for brewing tea."
+bag_usage = 0
+battle_usage = 0
+type = 0
+
+[[items]]
+id = 1106
+internal_name = "NIDOTITEY"
+display_name = "Nidotite Y"
+pocket = "6"
+price = 500
+description = "Have Nidoking or Nidoqueen hold it, and this stone will enable it to Mega-evolve during battle."
+bag_usage = 0
+battle_usage = 0
+type = 0
+
+[[items]]
+id = 1107
+internal_name = "CLAYDOLITE"
+display_name = "Claydolite"
+pocket = "6"
+price = 500
+description = "Have Claydol hold it, and this stone will enable it to Mega-evolve during battle."
+bag_usage = 0
+battle_usage = 0
+type = 0
+
+[[items]]
+id = 1108
+internal_name = "SANDSLASHNITE"
+display_name = "Sandslashnite"
+pocket = "6"
+price = 500
+description = "Have Sandslash hold it, and this stone will enable it to Mega-evolve during battle."
+bag_usage = 0
+battle_usage = 0
+type = 0
+
+[[items]]
+id = 1109
+internal_name = "LANTURNITE"
+display_name = "Lanturnite"
+pocket = "6"
+price = 500
+description = "Have Lanturn hold it, and this stone will enable it to Mega-evolve during battle."
+bag_usage = 0
+battle_usage = 0
+type = 0
+
+[[items]]
+id = 1110
+internal_name = "TORKOALITE"
+display_name = "Torkoalite"
+pocket = "6"
+price = 500
+description = "Have Torkoal hold it, and this stone will enable it to Mega-evolve during battle."
+bag_usage = 0
+battle_usage = 0
+type = 0
+
+[[items]]
+id = 1111
+internal_name = "TYPHLOSINITEX"
+display_name = "Typhlosinite X"
+pocket = "6"
+price = 500
+description = "Have Typhlosion hold it, and this stone will enable it to Mega-evolve during battle."
+bag_usage = 0
+battle_usage = 0
+type = 0
+
+[[items]]
+id = 1112
+internal_name = "TYPHLOSINITEY"
+display_name = "Typhlosinite Y"
+pocket = "6"
+price = 500
+description = "Have Typhlosion hold it, and this stone will enable it to Mega-evolve during battle."
+bag_usage = 0
+battle_usage = 0
+type = 0
+
+[[items]]
+id = 1113
+internal_name = "MEGANIUMITE"
+display_name = "Meganiumite"
+pocket = "6"
+price = 500
+description = "Have Meganium hold it, and this stone will enable it to Mega-evolve during battle."
+bag_usage = 0
+battle_usage = 0
+type = 0
+
+[[items]]
+id = 1114
+internal_name = "FERALIGATITE"
+display_name = "Feraligatite"
+pocket = "6"
+price = 500
+description = "Have Feraligatr hold it, and this stone will enable it to Mega-evolve during battle."
+bag_usage = 0
+battle_usage = 0
+type = 0
+
+[[items]]
+id = 1115
+internal_name = "EMBOARNITE"
+display_name = "Emboarnite"
+pocket = "6"
+price = 500
+description = "Have Emboar hold it, and this stone will enable it to Mega-evolve during battle."
+bag_usage = 0
+battle_usage = 0
+type = 0
+
+[[items]]
+id = 1116
+internal_name = "SERPERIORNITE"
+display_name = "Serperiornite"
+pocket = "6"
+price = 500
+description = "Have Serperior hold it, and this stone will enable it to Mega-evolve during battle."
+bag_usage = 0
+battle_usage = 0
+type = 0
+
+[[items]]
+id = 1117
+internal_name = "SAMUROTTITE"
+display_name = "Samurottite"
+pocket = "6"
+price = 500
+description = "Have Samurott hold it, and this stone will enable it to Mega-evolve during battle."
+bag_usage = 0
+battle_usage = 0
+type = 0
+
+[[items]]
+id = 1118
+internal_name = "TEALMASK"
+display_name = "Teal Mask"
+pocket = "1"
+price = 800
+description = "An item to be held by Ogerpon. A teal mask patterned after the face of an ogre."
+bag_usage = 0
+battle_usage = 0
+type = 0
+
+[[items]]
+id = 1119
+internal_name = "CACTURNITE"
+display_name = "Cacturnite"
+pocket = "6"
+price = 500
+description = "Have Cacturne hold it, and this stone will enable it to Mega-evolve during battle."
+bag_usage = 0
+battle_usage = 0
+type = 0
