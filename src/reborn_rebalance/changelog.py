@@ -23,10 +23,11 @@ class BaseChangeSet:
         # simple mapping of {version: list of changes}.
         self._changes: dict[str, list[dict]] = {}
         self._comments: dict[str, str] = {}
-        self._current_version = None
+        self._current_version: str | None = None
 
     def _add_change(self, change: dict):
         assert "key" in change, "missing changelog entry key"
+        assert self._current_version is not None, "current version should've been set"
 
         self._changes[self._current_version].append(change)
 

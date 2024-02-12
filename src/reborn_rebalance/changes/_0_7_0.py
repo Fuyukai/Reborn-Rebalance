@@ -174,7 +174,7 @@ def build_changes(builder: ChangelogBuilder):
 
     builder.pokemon("MARACTUS").add_level_up_move(48, "VICTORYDANCE")
 
-    haxorus = builder.pokemon("HAXORUS", "Is now the psuedo-Legend it was always destined to be.")
+    haxorus = builder.pokemon("HAXORUS", "Is now the pseudo-Legend it was always destined to be.")
     haxorus.add_base_stat_change("hp", 76, 96)
     haxorus.add_base_stat_change("atk", 147, 150)
     haxorus.add_base_stat_change("spa", 60, 67)
@@ -216,7 +216,7 @@ def build_changes(builder: ChangelogBuilder):
     builder.pokemon(
         "CHARJABUG", "Now evolves inside Shade's Gym (location 281), similar to old Magneton."
     )
-    builder.pokemon("VIKAVOLT", "Now Alola's second psuedo-Legend.")
+    builder.pokemon("VIKAVOLT", "Now Alola's second pseudo-Legend.")
 
     builder.pokemon(
         "RAPIDASH",
@@ -252,3 +252,8 @@ def build_changes(builder: ChangelogBuilder):
     revavroom.add_tm_move(89)
     revavroom.add_ability_change(None, "SPEEDBOOST")
     revavroom.add_level_up_move(0, "HIGHHORSEPOWER")
+
+    lurantis = builder.pokemon("LURANTIS", "The Bloom Sickle Pokémon is now sharper.")
+    lurantis.add_type_change(None, PokemonType.FIGHTING)
+    lurantis.add_ability_change(None, "SHARPNESS")
+    lurantis.add_base_stat_change("atk", 115, 120)
