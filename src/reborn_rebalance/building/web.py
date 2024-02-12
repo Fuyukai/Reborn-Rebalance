@@ -290,7 +290,9 @@ def main():
 
     output_dir.mkdir(exist_ok=True, parents=True)
 
-    catalog = EssentialsCatalog.load_from_toml(input_dir, single_threaded=args.force_single_threaded)
+    catalog = EssentialsCatalog.load_from_toml(
+        input_dir, single_threaded=args.force_single_threaded
+    )
 
     game_dir: Path | None = args.game_dir
     image_cache_location: Path = args.image_cache_location

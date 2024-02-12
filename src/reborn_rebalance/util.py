@@ -1,6 +1,6 @@
 from contextlib import contextmanager
 from io import StringIO
-from typing import Any, Collection, Iterable, Iterator, Sequence, TypeVar
+from typing import Any, Iterable, Iterator, Sequence, TypeVar
 
 import attr
 
@@ -8,7 +8,7 @@ _ChunkType = TypeVar("_ChunkType")
 _GetSafelyType = TypeVar("_GetSafelyType")
 
 
-def chunks(lst: Collection[_ChunkType], n: int) -> Iterable[list[_ChunkType]]:
+def chunks(lst: list[_ChunkType], n: int) -> Iterable[list[_ChunkType]]:
     """
     Yield successive n-sized chunks from lst.
     """

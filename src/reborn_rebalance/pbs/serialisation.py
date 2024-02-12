@@ -536,7 +536,9 @@ def load_single_encounter(path: Path) -> tuple[int, MapEncounters]:
     return id, encounter
 
 
-def load_encounters_from_toml(path: Path, *, singlethread: bool = False) -> dict[int, MapEncounters]:
+def load_encounters_from_toml(
+    path: Path, *, singlethread: bool = False
+) -> dict[int, MapEncounters]:
     """
     Loads the encounters data from the ``encounters.toml`` file.
     """
@@ -546,7 +548,7 @@ def load_encounters_from_toml(path: Path, *, singlethread: bool = False) -> dict
         mapping_fn = map if singlethread else executor.map
         filtered_encounters = filter(lambda it: it.suffix == ".toml", path.rglob("*"))
 
-        for (id, encounter) in mapping_fn(load_single_encounter, filtered_encounters):
+        for id, encounter in mapping_fn(load_single_encounter, filtered_encounters):
             encounters[id] = encounter
 
     return encounters
@@ -746,7 +748,6 @@ def load_single_trainer_file_toml(path: Path) -> tuple[str, dict[str, dict[int, 
     return path.stem, trainers
 
 
-
 def load_trainers_from_toml(path: Path, *, singlethread: bool = False) -> dict[str, TrainerCatalog]:
     """
     Loads all trainers from TOML.
@@ -760,7 +761,7 @@ def load_trainers_from_toml(path: Path, *, singlethread: bool = False) -> dict[s
         filtered_trainers = filter(lambda it: it.suffix == ".toml", path.rglob("*"))
         mapping_fn = map if singlethread else executor.map
 
-        for (name, mapping) in mapping_fn(load_single_trainer_file_toml, filtered_trainers):
+        for name, mapping in mapping_fn(load_single_trainer_file_toml, filtered_trainers):
             catalog = TrainerCatalog(trainer_name=name, trainers=mapping)
             trainers[name] = catalog
 

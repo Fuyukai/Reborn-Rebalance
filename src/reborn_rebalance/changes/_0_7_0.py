@@ -80,9 +80,7 @@ def build_changes(builder: ChangelogBuilder):
         25, "BUGBUZZ"
     ).add_level_up_move(44, "AIRCUTTER").add_level_up_move(48, "EERIESPELL").add_tm_move(
         177
-    ).add_tutor_move(
-        "OMINOUSWIND"
-    )
+    ).add_tutor_move("OMINOUSWIND")
 
     staraptor = builder.pokemon(
         "staraptor",
@@ -211,11 +209,7 @@ def build_changes(builder: ChangelogBuilder):
         """,
     ).add_base_stat_change("hp", 65, 80).add_base_stat_change("def", 90, 94).add_base_stat_change(
         "spa", 97, 119
-    ).add_ability_change(
-        "POISONTOUCH", "TOXICDEBRIS"
-    ).add_tutor_move(
-        "SYNTHESIS"
-    )
+    ).add_ability_change("POISONTOUCH", "TOXICDEBRIS").add_tutor_move("SYNTHESIS")
 
     builder.pokemon("GOODRA", "Goodra-H now gets Shell Smash at level 62.")
 
@@ -258,4 +252,3 @@ def build_changes(builder: ChangelogBuilder):
     revavroom.add_tm_move(89)
     revavroom.add_ability_change(None, "SPEEDBOOST")
     revavroom.add_level_up_move(0, "HIGHHORSEPOWER")
-
