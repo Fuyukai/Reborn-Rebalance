@@ -70,7 +70,7 @@ class PokemonType(enum.Enum):
         self,
         weaknesses: list[str],
         resistances: list[str],
-        immunities: list[str] = None,
+        immunities: list[str] | None = None,
         special_type: bool = False,
     ):
         """

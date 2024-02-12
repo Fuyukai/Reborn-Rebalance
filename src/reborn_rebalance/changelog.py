@@ -162,7 +162,7 @@ class ChangelogBuilder:
 
         self._log.custom_comments[self._version].append(comment)
 
-    def pokemon(self, internal_name: str, comment: str = None) -> PokemonChangeSet:
+    def pokemon(self, internal_name: str, comment: str | None = None) -> PokemonChangeSet:
         """
         Gets the Pokémon changes builder for the provided Pokémon species.
         """
@@ -183,7 +183,7 @@ class ChangelogBuilder:
 
         return changes
 
-    def move(self, internal_name: str, comment: str = None) -> MoveChangeSet:
+    def move(self, internal_name: str, comment: str | None = None) -> MoveChangeSet:
         """
         Gets the move changes builder for the provided move.
         """

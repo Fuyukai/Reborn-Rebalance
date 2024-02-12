@@ -187,10 +187,7 @@ class MapMetadata:
 
         can_use_bicycle = data.pop("Bicycle", "false") == "true"
         raw_healing_spot = data.pop("HealingSpot", None)
-        if raw_healing_spot:
-            healing_spot = tuple(map(int, raw_healing_spot.split(",")))
-        else:
-            healing_spot = None
+        healing_spot = tuple(map(int, raw_healing_spot.split(","))) if raw_healing_spot else None
 
         weather = data.pop("Weather", None)
         if weather:
@@ -216,7 +213,7 @@ class MapMetadata:
         if data:
             raise ValueError(f"unknown map metadata: {data}")
 
-        instance = cls(
+        return cls(
             id=id,
             name=None,  # type: ignore
             map_position=map_position,  # type: ignore
@@ -238,7 +235,6 @@ class MapMetadata:
             map_size=map_size,
         )
 
-        return instance
 
     def to_pbs(self, buffer: PbsBuffer):
         """
@@ -343,5 +339,4 @@ def parse_rpg_maker_mapinfo(map_info_path: Path) -> dict[int, RawMapInfo]:
         print("loaded map", name, parent)
         items[id] = RawMapInfo(name=name, parent_id=parent)
 
-    items = {key: value for (key, value) in sorted(items.items())}
-    return items
+    return dict(sorted(items.items()))

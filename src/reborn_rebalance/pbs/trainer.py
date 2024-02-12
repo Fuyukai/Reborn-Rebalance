@@ -240,10 +240,7 @@ class SingleTrainerPokemon:
         # yay for slices
         ev_slice = line[17:23]
         ev_slice = [it if it else "0" for it in ev_slice]
-        if not ev_slice:
-            evs = StatWrapper.empty()
-        else:
-            evs = StatWrapper.from_incomplete_list(ev_slice)
+        evs = StatWrapper.empty() if not ev_slice else StatWrapper.from_incomplete_list(ev_slice)
 
         return cls(
             internal_name=pokemon_name,

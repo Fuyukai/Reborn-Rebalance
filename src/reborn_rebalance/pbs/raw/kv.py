@@ -1,3 +1,4 @@
+import contextlib
 from collections.abc import Iterator
 from pathlib import Path
 
@@ -32,10 +33,8 @@ class KeyValueParser:
                 continue
 
             key, value = line.split("=", 1)
-            try:
+            with contextlib.suppress(ValueError):
                 value = int(value.strip())
-            except ValueError:
-                pass
 
             self._current[key.strip()] = value
 

@@ -34,6 +34,8 @@ def build_to_pbs() -> int:
             print(f"Copying map {map.stem}")
             new_path = data_dir / map.name
             shutil.copy2(map, new_path)
+        return None
+    return None
 
 
 if __name__ == "__main__":

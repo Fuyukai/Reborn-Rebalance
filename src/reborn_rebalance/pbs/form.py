@@ -77,7 +77,7 @@ class SinglePokemonForm:
         Gets the combined attributes of this form and the provided species.
         """
 
-        attribs = FormAttributes(
+        return FormAttributes(
             name=species.name,
             form_name=self.form_name,
             primary_type=self.primary_type or species.primary_type,
@@ -89,7 +89,6 @@ class SinglePokemonForm:
             internal_name=species.internal_name,
         )
 
-        return attribs
 
     def generate_ruby_code(self, buffer: RubyBuffer):
         """
@@ -184,7 +183,7 @@ class PokemonForms:
     def _validate(self):
         errors = []
 
-        for form_name in self.forms.keys():
+        for form_name in self.forms:
             if form_name not in self.form_mapping.values():
                 errors.append(ValueError(f"extraneous form: {form_name}"))
 
@@ -196,6 +195,7 @@ class PokemonForms:
 
         if errors:
             return ExceptionGroup(f"Error validating {self.internal_name}", errors)
+        return None
 
     def by_id(self, id: int) -> SinglePokemonForm | None:
         try:

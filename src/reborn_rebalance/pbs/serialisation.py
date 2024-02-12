@@ -2,7 +2,6 @@ from __future__ import annotations
 
 import concurrent.futures
 import csv
-from concurrent.futures import Future
 from io import StringIO
 from pathlib import Path
 
@@ -465,9 +464,8 @@ def load_abilities_from_pbs(path: Path) -> list[PokemonAbility]:
 
     with path.open(mode="r", encoding="utf-8") as f:
         reader = csv.reader(f)
-        abilities = [PokemonAbility.from_pbs(it) for it in reader]
+        return [PokemonAbility.from_pbs(it) for it in reader]
 
-    return abilities
 
 
 def load_abilities_from_toml(path: Path) -> list[PokemonAbility]:
@@ -692,7 +690,7 @@ def load_trainer_types_from_toml(path: Path) -> dict[str, TrainerType]:
         data = load(f)["trainer_types"]
 
     types: dict[str, TrainerType] = {}
-    for s_idx, raw_type in data.items():
+    for raw_type in data.values():
         structured = CONVERTER.structure(raw_type, TrainerType)
         types[structured.internal_name] = structured
 
@@ -755,7 +753,6 @@ def load_trainers_from_toml(path: Path, *, singlethread: bool = False) -> dict[s
 
     trainers: dict[str, TrainerCatalog] = {}
     # yikes!
-    futures: list[Future[tuple[str, dict[str, dict[int, Trainer]]]]] = []
 
     with concurrent.futures.ProcessPoolExecutor() as executor:
         filtered_trainers = filter(lambda it: it.suffix == ".toml", path.rglob("*"))
@@ -832,7 +829,7 @@ def save_trainers_to_pbs(path: Path, trainers: dict[str, TrainerCatalog]):
     # yikes
     buffer = StringIO()
 
-    for klass, catalog in trainers.items():
+    for catalog in trainers.values():
         for trainer in catalog.all_trainers():
             buffer.write("#-------------------\n")
             trainer.into_pbs(buffer)

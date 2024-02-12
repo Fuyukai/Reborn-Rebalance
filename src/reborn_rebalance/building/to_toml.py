@@ -21,6 +21,7 @@ def import_to_toml():
     catalog.save_to_toml(output_dir)
 
     print(f"Imported game data to {output_dir} successfully")
+    return None
 
 
 if __name__ == "__main__":

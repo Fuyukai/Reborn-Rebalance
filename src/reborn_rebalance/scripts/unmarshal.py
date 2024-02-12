@@ -46,7 +46,7 @@ class RgssTable(UserDef):
         if len(map_data) // 2 != size:
             raise ValueError(f"expected {size} bytes, got {len(map_data)}")
 
-        self.raw_data = list(i[0] for i in struct.iter_unpack("<H", map_data))
+        self.raw_data = [i[0] for i in struct.iter_unpack("<H", map_data)]
 
     def to_dict(self) -> dict[str, Any]:
         return {"dim": self.dim, "x": self.x, "y": self.y, "z": self.z, "raw": self.raw_data}

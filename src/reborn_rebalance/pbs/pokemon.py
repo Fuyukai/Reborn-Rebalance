@@ -437,10 +437,7 @@ class PokemonSpecies:
             types = [i.strip() for i in data.pop("types").split(",")]
             primary_type = PokemonType[types[0]]
 
-            if len(types) >= 1:
-                secondary_type = PokemonType[types[1]]
-            else:
-                secondary_type = primary_type
+            secondary_type = PokemonType[types[1]] if len(types) >= 1 else primary_type
         else:
             primary_type = PokemonType[data.pop("Type1")]
             secondary_type_name = data.pop("Type2", None)
