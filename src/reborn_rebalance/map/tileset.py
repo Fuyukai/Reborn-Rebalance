@@ -1,8 +1,8 @@
 import traceback
+from collections.abc import Mapping
 from functools import cached_property
 from pathlib import Path
 from types import MappingProxyType
-from typing import Mapping
 
 import attr
 from PIL import Image
@@ -160,7 +160,7 @@ def load_all_tilesets(root_game_path: Path) -> AllTilesets:
         )
         try:
             tileset.load_image(images_path)
-        except FileNotFoundError as e:
+        except FileNotFoundError:
             print(f"couldn't load tileset {id} {name}")
             traceback.print_exc()
         else:

@@ -1,9 +1,9 @@
 from __future__ import annotations
 
 import csv
+from collections.abc import Iterable, Iterator
 from functools import partial
 from io import StringIO
-from typing import Iterable, Iterator
 
 import attr
 import cattrs.gen
@@ -193,7 +193,7 @@ class SingleTrainerPokemon:
             item = None
 
         moves = []
-        for name_idx in range(0, 4):
+        for name_idx in range(4):
             real_idx = 3 + name_idx
             if (len(line) > real_idx) and (move := line[real_idx]):
                 moves.append(move)
@@ -273,7 +273,7 @@ class SingleTrainerPokemon:
         else:
             # pad moves out if its less than 4
             moves = []
-            for idx in range(0, 4):
+            for idx in range(4):
                 try:
                     moves.append(self.raw_moves[idx])
                 except IndexError:
@@ -364,7 +364,7 @@ class Trainer:
             count = int(count_and_items)
             items = ()
 
-        lines = [next(reader) for _ in range(0, count)]
+        lines = [next(reader) for _ in range(count)]
         reader = csv.reader(lines)
         pokes = [SingleTrainerPokemon.from_csv_line(line) for line in reader]
 

@@ -2,10 +2,10 @@ import concurrent.futures
 import time
 import types
 from collections import defaultdict
-from collections.abc import Mapping
+from collections.abc import Callable, Mapping
 from functools import cached_property, partial
 from pathlib import Path
-from typing import Callable, Optional, Self, TypeVar
+from typing import Self, TypeVar
 
 import attr
 
@@ -640,7 +640,7 @@ class EssentialsCatalog:
                 errors.append(ValueError(f"Form for non-existent Pokémon '{form_key}'"))
 
             if errors:
-                raise ExceptionGroup(f"Validation error for forms", errors)
+                raise ExceptionGroup("Validation error for forms", errors)
 
     # == Helper methods == #
     def get_attribs_for_form(
@@ -698,7 +698,7 @@ class EssentialsCatalog:
 
         return items
 
-    def move_by_name(self, internal_name: str) -> Optional[PokemonMove]:
+    def move_by_name(self, internal_name: str) -> PokemonMove | None:
         """
         Finds a move by name, or None if no such move exists.
         """
@@ -709,7 +709,7 @@ class EssentialsCatalog:
 
         return None
 
-    def move_by_display_name(self, display_name: str) -> Optional[PokemonMove]:
+    def move_by_display_name(self, display_name: str) -> PokemonMove | None:
         """
         Finds a move by display name, or None if no such move exists.
         """
@@ -720,7 +720,7 @@ class EssentialsCatalog:
 
         return None
 
-    def tm_id_for(self, tm_name: str) -> Optional[int]:
+    def tm_id_for(self, tm_name: str) -> int | None:
         """
         Finds a TM's number by its move's internal name.
         """

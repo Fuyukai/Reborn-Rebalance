@@ -1,6 +1,7 @@
+from collections.abc import Iterable, Iterator, Sequence
 from contextlib import contextmanager
 from io import StringIO
-from typing import Any, Iterable, Iterator, Sequence, TypeVar
+from typing import Any, TypeVar
 
 import attr
 
@@ -26,7 +27,7 @@ def get_safely(
         return default
 
 
-class PbsBuffer(object):
+class PbsBuffer:
     """
     A buffer-like object that supports writing PBS-formatted data.
     """

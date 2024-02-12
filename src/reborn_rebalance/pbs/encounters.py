@@ -1,5 +1,4 @@
 import enum
-from collections.abc import Iterable
 from pathlib import Path
 from typing import TextIO
 
@@ -103,7 +102,7 @@ class MapEncounters:
                 buffer.write("\n")
 
 
-class EncounterParser(object):
+class EncounterParser:
     """
     Parses the ``encounters.txt`` file.
     """

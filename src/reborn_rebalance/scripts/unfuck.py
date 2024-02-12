@@ -16,7 +16,7 @@ def main():
     for move in new:
         try:
             old_move = by_name[move["internal_name"]]
-        except KeyError as e:
+        except KeyError:
             rewritten.append(move)
         else:
             print(f"reassigning {old_move['id']}/{old_move['internal_name']} to {move['id']}")

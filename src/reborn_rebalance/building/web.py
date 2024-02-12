@@ -39,7 +39,7 @@ def _recursive_navbar_entry(catalog: EssentialsCatalog, entry: dict[str, Any]) -
     if isinstance(entry, int):
         return MapSidebarEntry(id=entry, name=catalog.maps[entry].name, submaps=[])
 
-    id = entry.get("id", None)  # fake maps have no id and are just used for grouping
+    id = entry.get("id")  # fake maps have no id and are just used for grouping
     name = entry.get("name")
     if not name and id:
         name = catalog.maps[id].name

@@ -121,8 +121,8 @@ def render_map(
     for layer in (0, 1, 2):
         layer = MapLayer(layer)
 
-        for xpos in range(0, rpg_map.width):
-            for ypos in range(0, rpg_map.height):
+        for xpos in range(rpg_map.width):
+            for ypos in range(rpg_map.height):
                 tile_idx = rpg_map.get_tile_idx(layer, xpos, ypos)
                 tile_image = tileset.get_tile_image(tile_idx)
 

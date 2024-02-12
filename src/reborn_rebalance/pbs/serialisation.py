@@ -176,7 +176,7 @@ def save_all_species_to_toml(output_path: Path, input_pokemon: list[PokemonSpeci
     Saves all species to the provided ``output_path`` in TOML format, divided by generation.
     """
 
-    for gen in range(0, 9):
+    for gen in range(9):
         (output_path / f"gen_{gen + 1}").mkdir(exist_ok=True)
 
     for idx, species in enumerate(input_pokemon):

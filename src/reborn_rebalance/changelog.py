@@ -2,7 +2,8 @@ from __future__ import annotations
 
 import textwrap
 from collections import defaultdict
-from typing import KeysView, Self
+from collections.abc import KeysView
+from typing import Self
 
 import attr
 
@@ -136,7 +137,7 @@ class MoveChangeSet(BaseChangeSet):
         return self
 
 
-class ChangelogBuilder(object):
+class ChangelogBuilder:
     """
     Progressively builds a changelog up.
     """
