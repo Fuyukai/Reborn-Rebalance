@@ -166,7 +166,11 @@ class EssentialsCatalog:
     @cached_property
     def regular_tm_mapping(self) -> Mapping[int, TechnicalMachine]:
         return types.MappingProxyType(
-            {it.number: it for it in self.tms if not (it.is_tmx or it.is_tutor)}
+            {
+                it.number: it
+                for it in self.tms
+                if not (it.is_tmx or it.is_tutor) and it.number is not None
+            }
         )
 
     @cached_property
@@ -250,7 +254,7 @@ class EssentialsCatalog:
         # (this is saved in the actual toml)
         # use the display names
         tm_move_mapping: dict[str, PokemonMove] = {it.internal_name: it for it in moves}
-        tm_item_mapping: dict[str, PokemonItem] = {
+        tm_item_mapping: dict[str | None, PokemonItem] = {
             it.move: it for it in items if it.display_name.startswith("TM")
         }
         tm_poke_mapping: dict[str, PokemonSpecies] = {it.internal_name: it for it in all_species}
@@ -606,13 +610,13 @@ class EssentialsCatalog:
             for _, _, attrs in self.all_forms_for(species):
                 for tm in species.raw_tms:
                     if tm not in self.tm_name_mapping:
-                        errors.append(
+                        errors.append(  # noqa: PERF401
                             ValueError(f"no such TM: {tm} / when validating {attrs.internal_name}")
                         )
 
                 for move in species.raw_level_up_moves:
                     if move.name not in self.move_mapping:
-                        errors.append(
+                        errors.append(  # noqa: PERF401
                             ValueError(
                                 f"no such move: {move.name} / when validating {attrs.internal_name}"
                             )
@@ -620,7 +624,7 @@ class EssentialsCatalog:
 
                 for ability in species.raw_abilities:
                     if ability not in self.ability_name_mapping:
-                        errors.append(
+                        errors.append(  # noqa: PERF401
                             ValueError(
                                 f"no such ability: {ability} / when validating"
                                 f" {attrs.internal_name}"

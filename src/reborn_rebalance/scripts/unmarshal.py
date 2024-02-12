@@ -6,11 +6,16 @@ from typing import Any, TypeVar
 
 from rubymarshal.classes import ClassRegistry, RubyObject, RubyString, UserDef
 from rubymarshal.reader import load, loads
+from typing_extensions import override
+
+from reborn_rebalance import _hotpatch
 
 registry = ClassRegistry()
 
 AnyRubyObject = TypeVar("AnyRubyObject", contravariant=True)
 
+# disgusting hotpatch
+_hotpatch._patch()
 
 # https://github.com/Solistra/rvpacker/blob/develop/lib/rvpacker/rgss.rb#L27
 class RgssTable(UserDef):
@@ -36,6 +41,7 @@ class RgssTable(UserDef):
         # layer count, always 3 for XP...
         self.z = 0
 
+    @override
     def _load(self, private_data: bytes):
         # native endian, lol. why.
         header = struct.calcsize("<5L")

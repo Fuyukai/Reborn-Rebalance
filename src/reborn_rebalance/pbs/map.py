@@ -235,7 +235,6 @@ class MapMetadata:
             map_size=map_size,
         )
 
-
     def to_pbs(self, buffer: PbsBuffer):
         """
         Writes this map metadata to the provided PBS buffer.

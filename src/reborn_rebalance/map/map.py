@@ -80,8 +80,8 @@ def load_map(map_path: Path) -> RpgMakerMap:
     Loads a single map from the provided path.
     """
 
-    map_id = re.findall(r"Map([0-9]{3,})\.rxdata", map_path.name)[0]
-    raw_data = unmarshal(map_path).attributes
+    map_id: int = int(re.findall(r"Map([0-9]{3,})\.rxdata", map_path.name)[0])
+    raw_data = unmarshal(map_path).attributes  # type: ignore
     tileset_id = raw_data["@tileset_id"]
 
     raw_bgm = raw_data["@bgm"].attributes
@@ -116,6 +116,7 @@ def render_map(
 
     rpg_map = load_map(map_path)
     tileset = tilesets.tilesets[rpg_map.tileset_id]
+    assert tileset
     image = Image.new(mode="RGBA", size=(rpg_map.width * 32, rpg_map.height * 32))
 
     for layer in (0, 1, 2):
@@ -124,6 +125,7 @@ def render_map(
         for xpos in range(rpg_map.width):
             for ypos in range(rpg_map.height):
                 tile_idx = rpg_map.get_tile_idx(layer, xpos, ypos)
+
                 tile_image = tileset.get_tile_image(tile_idx)
 
                 if tile_image is None:

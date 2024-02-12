@@ -89,7 +89,6 @@ class SinglePokemonForm:
             internal_name=species.internal_name,
         )
 
-
     def generate_ruby_code(self, buffer: RubyBuffer):
         """
         Generates the ruby code for this form.

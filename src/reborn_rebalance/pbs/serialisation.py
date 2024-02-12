@@ -467,7 +467,6 @@ def load_abilities_from_pbs(path: Path) -> list[PokemonAbility]:
         return [PokemonAbility.from_pbs(it) for it in reader]
 
 
-
 def load_abilities_from_toml(path: Path) -> list[PokemonAbility]:
     """
     Loads all abilities from TOML format.
@@ -476,9 +475,9 @@ def load_abilities_from_toml(path: Path) -> list[PokemonAbility]:
     with path.open(encoding="utf-8", mode="r") as f:
         data = load(f)["abilities"]
 
-    abilities: list[PokemonAbility] = []
-    for ability in data:
-        abilities.append(CONVERTER.structure(ability, PokemonAbility))
+    abilities: list[PokemonAbility] = [
+        CONVERTER.structure(ability, PokemonAbility) for ability in data
+    ]
 
     return abilities
 

@@ -21,17 +21,17 @@ class RpgMakerTileset:
     A single tileset in the tileset mapping.
     """
 
-    TRANSPARENT = Image.new(mode="RGBA", size=(32, 32), color=None)
+    TRANSPARENT = Image.new(mode="RGBA", size=(32, 32), color=0xFFFFFF)  #
 
     @staticmethod
     def _decode_tileset(name: bytes | str) -> str:
         if isinstance(name, RubyString):
             return name.text
 
-        elif isinstance(name, str):
+        if isinstance(name, str):
             return name
 
-        return name.decode(encoding="utf-8")
+        return name.decode(encoding="utf-8")  # type: ignore
 
     #: The numeric ID for this tileset.
     numeric_id: int = attr.ib()
@@ -111,12 +111,12 @@ class AllTilesets:
     tilesets: list[RpgMakerTileset | None] = attr.ib()
 
     @cached_property
-    def by_name(self) -> Mapping[str, RpgMakerTileset | None]:
+    def by_name(self) -> Mapping[str, RpgMakerTileset]:
         """
         A mapping of tilesets by name.
         """
 
-        return MappingProxyType({it.name: it for it in self.tilesets})
+        return MappingProxyType({it.name: it for it in self.tilesets if it is not None})
 
 
 def load_all_tilesets(root_game_path: Path) -> AllTilesets:
@@ -131,10 +131,10 @@ def load_all_tilesets(root_game_path: Path) -> AllTilesets:
 
     try:
         tilesets_path = root_game_path / "Data" / "tilesets.rxdata"
-        tileset_data: list[RubyObject] = unmarshal(tilesets_path)
+        tileset_data: list[RubyObject] = unmarshal(tilesets_path)  # type: ignore
     except FileNotFoundError:
         tilesets_path = root_game_path / "Data" / "Tilesets.rxdata"
-        tileset_data: list[RubyObject] = unmarshal(tilesets_path)
+        tileset_data: list[RubyObject] = unmarshal(tilesets_path)  # type: ignore
 
     tilesets: list[RpgMakerTileset | None] = [None] * len(tileset_data)
 
