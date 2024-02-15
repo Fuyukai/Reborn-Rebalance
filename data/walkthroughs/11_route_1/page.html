@@ -1,6 +1,11 @@
 {% extends "_meta/walkthrough_page.html" %}
 {% set NAME = "11_route_1" %}
-{% block title %}Badge #8, Pt 1: Route One{% endblock %}
+{% set LEFTLINK_ID = "10_rng" %}
+{% set LEFTLINK_NAME = "Badge #6 & #7" %}
+{% set RIGHTLINK_ID = "12_gang_violence" %}
+{% set RIGHTLINK_NAME = "Badge #9" %}
+
+{% block title %}Badge #8: Route One{% endblock %}
 
 {% block walkthrough %}
 <div class="content has-text-justified">
@@ -404,21 +409,5 @@
         on the very left - it's actually Radomus - then escape the maze by walking over the hedges.
         Next destination: Reborn City, for 7th Street!
     </p>
-</div>
-
-<div class="columns">
-    <div class="column is-one-third has-text-left">
-        <a href="/walkthroughs/10_rng.html">
-            <i class="bi bi-chevron-double-left"></i> Prev: Badge #6 and Badge #7
-        </a>
-    </div>
-
-    <div class="column is-one-third has-text-centered" ></div>
-
-    <div class="column is-one-third has-text-right">
-        <a href="/walkthroughs/12_badge9.html">
-            Next: Badge #9 <i class="bi bi-chevron-double-right"></i>
-        </a>
-    </div>
 </div>
 {% endblock %}

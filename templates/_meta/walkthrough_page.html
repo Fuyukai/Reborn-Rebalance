@@ -2,6 +2,7 @@
 {# must set the NAME var. #}
 
 {% from "helpers.html" import small_sprite_obb, species_link %}
+{% from "_meta/_trainer.html" import trainer_battle %}
 
 {%- macro sp(name) -%}
 {% set s = catalog.species_mapping[name.upper()] %}
@@ -22,93 +23,6 @@
 <a href="/maps/{{ '{:03d}'.format(id) }}.html">{{ name }}</a>
 {%- endmacro -%}
 
-{%- macro trainer_battle(name, klass, id=0) -%}
-{% set trainer = catalog.trainers[name].trainers[klass][id] %}
-{% if name == "Cain" and id <= 22 %}
-{% set prefix = "Sex Pest" %}
-{% elif name == "Fern" %}
-{% set prefix = "Incel" %}
-{% else %}
-{% set prefix = catalog.trainer_types[klass].name_prefix %}
-{% endif %}
-
-<details>
-    <summary class="has-text-centered">
-        {{ prefix }} {{ trainer.battler_name }}
-    </summary>
-
-    <table class="table is-hoverable is-fullwidth is-striped" style="margin-top: 1rem">
-        <thead>
-        <tr class="is-primary">
-            <th class="has-text-centered">Sprite</th>
-            <th class="has-text-centered">Name</th>
-            <th class="has-text-centered">Level</th>
-            <th class="has-text-centered">Ability</th>
-            <th class="has-text-centered">Held Item</th>
-            <th class="has-text-centered">Moves</th>
-            <th class="has-text-centered">EVs</th>
-        </tr>
-        </thead>
-
-        <tbody>
-        {% for raw_poke in trainer.pokemon %}
-        {% set species = catalog.species_mapping[raw_poke.internal_name] %}
-
-        {% if raw_poke.internal_name in catalog.forms and raw_poke.form_number %}
-
-            {% set all_forms = catalog.forms[raw_poke.internal_name] %}
-            {% set form = all_forms.by_id(raw_poke.form_number) %}
-
-            {% if form is not none %}
-            {% set form_name = form.form_name %}
-            {% set attrs = form.combined_attributes(species) %}
-            {% else %}
-            {# le sirius. #}
-            {% set form_name = None %}
-            {% set attrs = species.default_attributes %}
-            {% endif %}
-
-        {% else %}
-
-            {% set form_name = None %}
-            {% set attrs = species.default_attributes %}
-
-        {% endif %}
-
-        <tr>
-            <td class="has-text-centered" style="vertical-align: middle">{{ small_sprite_obb(species) }}</td>
-            <td class="has-text-centered" style="vertical-align: middle">{{ species_link(species, form_name) }}</td>
-            <td class="has-text-centered" style="vertical-align: middle">{{ raw_poke.level }}</td>
-            {% set ability_name = attrs.get_ability_name(raw_poke.ability_number) %}
-            <td class="has-text-centered" style="vertical-align: middle">
-                {{ catalog.ability_name_mapping[ability_name].display_name }}
-            </td>
-            {% if raw_poke.raw_item %}
-            <td class="has-text-centered" style="vertical-align: middle">
-                {{ catalog.item_mapping[raw_poke.raw_item].display_name }}
-            </td>
-            {% else %}
-            <td class="has-text-centered" style="vertical-align: middle">
-                --
-            </td>
-            {% endif %}
-            <td class="has-text-centered" style="vertical-align: middle">
-                <ul>
-                    {% for move_name in raw_poke.raw_moves %}
-                    <li>
-                        {{ catalog.move_mapping[move_name].display_name }}
-                    </li>
-                    {% endfor %}
-                </ul>
-            </td>
-            <td class="has-text-centered" style="vertical-align: middle">
-                {{ raw_poke.evs.to_slashed_list() }}
-            </td>
-        </tr>
-        {% endfor %}
-    </table>
-</details>
-{%- endmacro -%}
 
 {# purely to make intellij happier. #}
 {%- macro trainer_battle_content(name, klass, id=0) -%}
@@ -117,15 +31,40 @@
 <div class="content has-text-justified">
 {%- endmacro -%}
 
+{%- macro leftlink(id, name) %}
+
+
+{%- endmacro -%}
+
+{% block links %}
+<div class="columns">
+    <div class="column is-one-third has-text-left">
+        <a href="/walkthroughs/{{ LEFTLINK_ID }}.html">
+            <i class="bi bi-chevron-double-left"></i> Prev: {{ LEFTLINK_NAME }}
+        </a>
+    </div>
+
+    <div class="column is-one-third has-text-centered" >{{ self.title() }}</div>
+
+    <div class="column is-one-third has-text-right">
+        <a href="/walkthroughs/{{ RIGHTLINK_ID }}.html">
+            Next: {{ RIGHTLINK_NAME }} <i class="bi bi-chevron-double-right"></i>
+        </a>
+</div>
+</div>
+{% endblock %}
+
 {% block content %}
 <section class="section">
     <div class="container">
         <div class="columns is-centered">
             <div class="column is-three-quarters">
                 <article class="walkthrough">
+                {{ self.links() }}
                 {% block walkthrough %}
 
                 {% endblock %}
+                {{ self.links() }}
                 </article>
             </div>
         </div>

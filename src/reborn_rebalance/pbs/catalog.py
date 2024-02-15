@@ -288,7 +288,7 @@ class EssentialsCatalog:
             tm.pokemon.clear()
 
         for poke in all_species:
-            poke.raw_tms = [it.move for it in sorted(poke.raw_tms, key=lambda it: it.number)]
+            poke.raw_tms = [it.move for it in sorted(poke.raw_tms, key=lambda it: it.number)]  # type: ignore
 
         map_file_path = (path / "Data" / "MapInfos.rxdata").absolute()
         map_names = parse_rpg_maker_mapinfo(map_file_path)
@@ -593,7 +593,7 @@ class EssentialsCatalog:
 
         for sp in self.species:
             sorted_tms = sorted(
-                sp.raw_tms, key=lambda tm_name: self.tm_name_mapping[tm_name].number
+                sp.raw_tms, key=lambda tm_name: self.tm_name_mapping[tm_name].number or 0
             )
 
             sp.raw_tms = sorted_tms
@@ -763,9 +763,8 @@ class EssentialsCatalog:
         before, before_evo = self.pre_evolutionary_cache.get(species.internal_name, (None, None))
 
         after = []
-        for into in species.evolutions:
-            after.append((self.species_mapping[into.into_name], into))
-
+        after = [(self.species_mapping[into.into_name], into) for into in species.evolutions]
+        
         if not (before or after):
             return None
 

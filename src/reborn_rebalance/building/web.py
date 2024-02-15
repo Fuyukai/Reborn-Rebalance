@@ -55,13 +55,13 @@ def load_navbar_maps(catalog: EssentialsCatalog, path: Path) -> list[MapSidebarE
     """
 
     raw_data = rtoml.loads(path.read_text())
-    entires: list[MapSidebarEntry] = []
+    entries: list[MapSidebarEntry] = []
 
     for entry in raw_data["maps"]:
         parsed = _recursive_navbar_entry(catalog, entry)
-        entires.append(parsed)
+        entries.append(parsed)
 
-    return entires
+    return entries
 
 
 @attr.s(kw_only=True)

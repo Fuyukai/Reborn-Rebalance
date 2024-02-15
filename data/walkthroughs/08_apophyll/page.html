@@ -1,6 +1,10 @@
 {% extends "_meta/walkthrough_page.html" %}
 {% set NAME = "08_apophyll" %}
-{% block title %}Badge #5, Pt 2: Apophyll Island {% endblock %}
+{% set LEFTLINK_ID = "07_blacksteam" %}
+{% set LEFTLINK_NAME = "Badge #5, Pt 1: Blacksteam Factory" %}
+{% set RIGHTLINK_ID = "09_ayaya" %}
+{% set RIGHTLINK_NAME = "Badge #5, Pt 3: The Wasteland" %}
+{% block title %}Badge #5, Pt 2: Apophyll Island{% endblock %}
 
 {% block walkthrough %}
 <div class="content has-text-justified">
@@ -20,7 +24,7 @@
     </div>
 
     <div class="notification is-warning">
-        This area is made up of a few conjoined maps with silent map transistions. If you're
+        This area is made up of a few conjoined maps with silent map transitions. If you're
         hunting for encounters, you should do it in the section of the beach halfway between
         the academy and the boat; or at the very top of the island near the cave.
     </div>
@@ -219,19 +223,4 @@
     </p>
 </div>
 
-<div class="columns">
-    <div class="column is-one-third has-text-left">
-        <a href="/walkthroughs/07_blacksteam.html">
-            <i class="bi bi-chevron-double-left"></i> Prev: Blacksteam Factory
-        </a>
-    </div>
-
-    <div class="column is-one-third has-text-centered" ></div>
-
-    <div class="column is-one-third has-text-right">
-        <a href="/walkthroughs/09_ayaya.html">
-            Next: Badge #5 <i class="bi bi-chevron-double-right"></i>
-        </a>
-    </div>
-</div>
 {% endblock %}
