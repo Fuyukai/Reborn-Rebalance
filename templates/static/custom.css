@@ -8,6 +8,10 @@ body, p, li, strong, em, a {
     font-family: "Cabin" !important;
 }
 
+hr {
+    background-color: #AFAFAF;
+}
+
 .bg-grass {
     background-color: #78C850;
 }
@@ -208,6 +212,13 @@ td.no-border { border: none; }
 .walkthrough summary:hover {
     color: #363636;
     cursor: pointer;  /** WHY is this not the default */
+}
+
+
+.walkthrough details > hr {
+    width: 75%;
+    color: #AFAFAF;
+    margin: 1.5rem auto;
 }
 
 .walkthrough li > ol, .walkthrough li > ul {
