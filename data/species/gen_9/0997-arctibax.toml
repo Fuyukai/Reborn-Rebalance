@@ -1,0 +1,102 @@
+dex_number = 997
+name = "Arctibax"
+primary_type = "DRAGON"
+secondary_type = "ICE"
+gender_ratio = "Female50Percent"
+growth_rate = "Slow"
+exp_yield = 147
+catch_rate = 25
+caught_happiness = 50
+raw_abilities = [
+    "THERMALEXCHANGE",
+    "ICEBODY",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 1, name = "LEER" },
+    { at_level = 1, name = "DRAGONTAIL" },
+    { at_level = 6, name = "ICYWIND" },
+    { at_level = 12, name = "DRAGONBREATH" },
+    { at_level = 18, name = "FOCUSENERGY" },
+    { at_level = 24, name = "BITE" },
+    { at_level = 29, name = "ICEFANG" },
+    { at_level = 40, name = "TAKEDOWN" },
+    { at_level = 45, name = "ICEBEAM" },
+    { at_level = 50, name = "CRUNCH" },
+    { at_level = 55, name = "ICICLECRASH" },
+]
+raw_tms = [
+    "DRAGONCLAW",
+    "ROAR",
+    "TOXIC",
+    "HAIL",
+    "HIDDENPOWER",
+    "ICEBEAM",
+    "BLIZZARD",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "SWORDSDANCE",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "DIG",
+    "AVALANCHE",
+    "ICEFANG",
+    "CRUNCH",
+    "BODYSLAM",
+    "ENDURE",
+    "SNOWSCAPE",
+]
+raw_tutor_moves = [
+    "AQUATAIL",
+    "DRACOMETEOR",
+    "DRAGONPULSE",
+    "HELPINGHAND",
+    "ICYWIND",
+    "IRONHEAD",
+    "OUTRAGE",
+    "SCALESHOT",
+    "DOUBLEEDGE",
+]
+compatible_egg_groups = [
+    "Dragon",
+    "Mineral",
+]
+steps_to_hatch = 10280
+height = 0.8
+weight = 30.0
+colour = "Gray"
+kind = "Ice Fin"
+pokedex_entry = "Arctibax freezes the air around it, protecting its face with an ice mask and turning its dorsal fin into a blade of ice."
+battler_player_y = 14
+battler_enemy_y = 12
+battler_altitude = 0
+evolutions = [
+    { into_name = "BAXCALIBUR", condition = "Level", parameter = "54" },
+]
+regional_numbers = 997
+
+[base_stats]
+hp = 90
+atk = 95
+def_ = 66
+spa = 45
+spd = 65
+spe = 62
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 0
+spa = 0
+spd = 0
+spe = 0

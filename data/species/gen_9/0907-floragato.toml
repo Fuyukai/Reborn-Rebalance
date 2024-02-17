@@ -1,0 +1,110 @@
+dex_number = 907
+name = "Floragato"
+primary_type = "GRASS"
+secondary_type = "GRASS"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+exp_yield = 142
+catch_rate = 45
+caught_happiness = 50
+raw_abilities = [
+    "OVERGROW",
+    "PROTEAN",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "SCRATCH" },
+    { at_level = 1, name = "TAILWHIP" },
+    { at_level = 1, name = "LEAFAGE" },
+    { at_level = 7, name = "BITE" },
+    { at_level = 10, name = "HONECLAWS" },
+    { at_level = 13, name = "MAGICALLEAF" },
+    { at_level = 15, name = "QUICKATTACK" },
+    { at_level = 20, name = "SEEDBOMB" },
+    { at_level = 24, name = "UTURN" },
+    { at_level = 28, name = "WORRYSEED" },
+    { at_level = 33, name = "SLASH" },
+    { at_level = 38, name = "ENERGYBALL" },
+    { at_level = 42, name = "PLAYROUGH" },
+    { at_level = 46, name = "LEAFSTORM" },
+]
+raw_tms = [
+    "TOXIC",
+    "HIDDENPOWER",
+    "TAUNT",
+    "PROTECT",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "DOUBLETEAM",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ENERGYBALL",
+    "ACROBATICS",
+    "SHADOWCLAW",
+    "GRASSKNOT",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "MAGICALLEAF",
+    "CHARM",
+    "FAKETEARS",
+    "BULLETSEED",
+    "GRASSYTERRAIN",
+    "LEAFSTORM",
+    "AGILITY",
+    "ENDURE",
+    "NASTYPLOT",
+    "PLAYROUGH",
+    "TRAILBLAZE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "ALLYSWITCH",
+    "COVET",
+    "GIGADRAIN",
+    "GRASSPLEDGE",
+    "HELPINGHAND",
+    "LOWKICK",
+    "MUDSLAP",
+    "SEEDBOMB",
+    "SUCKERPUNCH",
+    "SYNTHESIS",
+    "WORRYSEED",
+    "DOUBLEEDGE",
+]
+compatible_egg_groups = [
+    "Field",
+    "Grass",
+]
+steps_to_hatch = 5140
+height = 0.9
+weight = 12.2
+colour = "Green"
+kind = "Grass Cat"
+pokedex_entry = "The hardness of Floragato's fur depends on the Pokémon's mood. When Floragato is prepared to battle, its fur becomes pointed and needle sharp."
+battler_player_y = 18
+battler_enemy_y = 12
+battler_altitude = 0
+evolutions = [
+    { into_name = "MEOWSCARADA", condition = "Level", parameter = "36" },
+]
+regional_numbers = 907
+
+[base_stats]
+hp = 61
+atk = 80
+def_ = 63
+spa = 60
+spd = 63
+spe = 83
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 2

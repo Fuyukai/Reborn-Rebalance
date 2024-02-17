@@ -1,0 +1,147 @@
+dex_number = 1030
+name = "Zirconeon"
+primary_type = "ROCK"
+secondary_type = "ROCK"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Medium"
+exp_yield = 184
+catch_rate = 45
+caught_happiness = 50
+raw_abilities = [
+    "FILTER",
+    "LIGHTNINGROD",
+]
+raw_level_up_moves = [
+    { at_level = 0, name = "ACCELEROCK" },
+    { at_level = 1, name = "BATONPASS" },
+    { at_level = 1, name = "ACCELEROCK" },
+    { at_level = 1, name = "HELPINGHAND" },
+    { at_level = 1, name = "TAILWHIP" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 1, name = "SANDATTACK" },
+    { at_level = 3, name = "GROWL" },
+    { at_level = 6, name = "QUICKATTACK" },
+    { at_level = 9, name = "BITE" },
+    { at_level = 14, name = "CONFUSERAY" },
+    { at_level = 19, name = "ANCIENTPOWER" },
+    { at_level = 24, name = "ROCKPOLISH" },
+    { at_level = 28, name = "SANDSTORM" },
+    { at_level = 32, name = "SHOCKWAVE" },
+    { at_level = 35, name = "STEALTHROCK" },
+    { at_level = 38, name = "SIGNALBEAM" },
+    { at_level = 43, name = "POWERGEM" },
+    { at_level = 48, name = "DARKPULSE" },
+    { at_level = 53, name = "AURASPHERE" },
+    { at_level = 60, name = "DISCHARGE" },
+    { at_level = 68, name = "METEORBEAM" },
+]
+raw_tms = [
+    "WORKUP",
+    "CALMMIND",
+    "ROAR",
+    "TOXIC",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "ICEBEAM",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "SMACKDOWN",
+    "RETURN",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "REFLECT",
+    "SANDSTORM",
+    "ROCKTOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ECHOEDVOICE",
+    "CHARGEBEAM",
+    "GIGAIMPACT",
+    "ROCKPOLISH",
+    "STONEEDGE",
+    "THUNDERWAVE",
+    "ROCKSLIDE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "FLASHCANNON",
+    "SECRETPOWER",
+    "NATUREPOWER",
+    "DAZZLINGGLEAM",
+    "CONFIDE",
+    "PAYDAY",
+    "DIG",
+    "SCREECH",
+    "SELFDESTRUCT",
+    "CHARM",
+    "WEATHERBALL",
+    "FAKETEARS",
+    "BODYSLAM",
+    "FOCUSENERGY",
+    "ENDURE",
+    "BATONPASS",
+    "ENCORE",
+    "AURASPHERE",
+    "POWERGEM",
+    "STOREDPOWER",
+    "RETALIATE",
+    "TRAILBLAZE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "ANCIENTPOWER",
+    "COVET",
+    "HEADBUTT",
+    "HEALBELL",
+    "HELPINGHAND",
+    "HYPERVOICE",
+    "IRONTAIL",
+    "LASTRESORT",
+    "MAGNETRISE",
+    "MUDSLAP",
+    "SHOCKWAVE",
+    "SIGNALBEAM",
+    "SNORE",
+    "STEALTHROCK",
+    "ZENHEADBUTT",
+    "BURNINGJEALOUSY",
+    "DOUBLEEDGE",
+    "CELEBRATE",
+]
+compatible_egg_groups = [
+    "Field",
+]
+steps_to_hatch = 5255
+height = 1.0
+weight = 34.0
+colour = "Black"
+kind = "Gem"
+pokedex_entry = "The crystals on its head radiates in various colours depending on its mood. They turn black when it gets irritated."
+battler_player_y = 24
+battler_enemy_y = 17
+battler_altitude = 0
+raw_hidden_ability = "WONDERSKIN"
+habitat = "Urban"
+
+[base_stats]
+hp = 130
+atk = 60
+def_ = 65
+spa = 110
+spd = 65
+spe = 95
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0

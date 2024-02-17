@@ -99,6 +99,7 @@ def raw_parse_kv(path: Path) -> dict[int, KvResultDict]:
 
         return {key: KvResultDict(value) for (key, value) in result.items()}
 
+
 if __name__ == "__main__":
     from pprint import pp
 

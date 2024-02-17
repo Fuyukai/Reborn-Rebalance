@@ -1,0 +1,28 @@
+trainer_name = "Mr. Meow Mix"
+
+[trainers.TEST.0]
+raw_trainer_class = "TEST"
+battler_name = "Mr. Meow Mix"
+
+[[trainers.TEST.0.pokemon]]
+internal_name = "SWALOT"
+level = 80
+raw_item = "BLACKSLUDGE"
+raw_moves = [
+    "SLUDGEWAVE",
+    "RECOVER",
+    "INFESTATION",
+    "DISCHARGE",
+]
+form_number = 1
+nature = "CALM"
+iv = 27
+happiness = 0
+
+[trainers.TEST.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 0
+spe = 252

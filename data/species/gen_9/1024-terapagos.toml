@@ -1,0 +1,122 @@
+dex_number = 1024
+name = "Terapagos"
+primary_type = "NORMAL"
+secondary_type = "NORMAL"
+gender_ratio = "Female50Percent"
+growth_rate = "Slow"
+exp_yield = 100
+catch_rate = 255
+caught_happiness = 50
+raw_abilities = [
+    "TERASHIFT",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "WITHDRAW" },
+    { at_level = 1, name = "TRIATTACK" },
+    { at_level = 1, name = "RAPIDSPIN" },
+    { at_level = 10, name = "ANCIENTPOWER" },
+    { at_level = 20, name = "HEADBUTT" },
+    { at_level = 30, name = "PROTECT" },
+    { at_level = 40, name = "EARTHPOWER" },
+    { at_level = 50, name = "HEAVYSLAM" },
+    { at_level = 60, name = "TERASTARSTORM" },
+    { at_level = 70, name = "DOUBLEEDGE" },
+    { at_level = 80, name = "ROCKPOLISH" },
+    { at_level = 90, name = "GYROBALL" },
+]
+raw_tms = [
+    "SURF",
+    "CALMMIND",
+    "ROAR",
+    "TOXIC",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "ICEBEAM",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "THUNDERBOLT",
+    "THUNDER",
+    "EARTHQUAKE",
+    "RETURN",
+    "DOUBLETEAM",
+    "FLAMETHROWER",
+    "FACADE",
+    "REST",
+    "ROUND",
+    "ENERGYBALL",
+    "GIGAIMPACT",
+    "ROCKPOLISH",
+    "STONEEDGE",
+    "GYROBALL",
+    "ROCKSLIDE",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "FLASHCANNON",
+    "WILDCHARGE",
+    "SECRETPOWER",
+    "DARKPULSE",
+    "DAZZLINGGLEAM",
+    "CONFIDE",
+    "WEATHERBALL",
+    "CRUNCH",
+    "BODYSLAM",
+    "FLAREBLITZ",
+    "ENDURE",
+    "AURASPHERE",
+    "BUGBUZZ",
+    "POWERGEM",
+    "STOREDPOWER",
+    "HEATCRASH",
+    "HEAVYSLAM",
+    "BODYPRESS",
+    "ICESPINNER",
+    "SUPERCELLSLAM",
+]
+raw_tutor_moves = [
+    "ANCIENTPOWER",
+    "DRAGONPULSE",
+    "EARTHPOWER",
+    "GRAVITY",
+    "HEADBUTT",
+    "HELPINGHAND",
+    "IRONHEAD",
+    "STEALTHROCK",
+    "WATERPULSE",
+    "ZENHEADBUTT",
+    "SCORCHINGSANDS",
+    "METEORBEAM",
+    "MIMIC",
+    "DOUBLEEDGE",
+]
+compatible_egg_groups = [
+    "Undiscovered",
+]
+steps_to_hatch = 640
+height = 0.2
+weight = 6.5
+colour = "Blue"
+kind = "Tera"
+pokedex_entry = "TBA"
+battler_player_y = 10
+battler_enemy_y = 14
+battler_altitude = 0
+regional_numbers = 1024
+
+[base_stats]
+hp = 90
+atk = 65
+def_ = 85
+spa = 65
+spd = 85
+spe = 60
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 1
+spa = 0
+spd = 0
+spe = 0

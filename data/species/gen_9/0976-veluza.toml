@@ -1,0 +1,114 @@
+dex_number = 976
+name = "Veluza"
+primary_type = "WATER"
+secondary_type = "PSYCHIC"
+gender_ratio = "Female50Percent"
+growth_rate = "Fast"
+exp_yield = 142
+catch_rate = 100
+caught_happiness = 50
+raw_abilities = [
+    "MOLDBREAKER",
+    "SHARPNESS",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 1, name = "AQUAJET" },
+    { at_level = 7, name = "PLUCK" },
+    { at_level = 11, name = "WATERPULSE" },
+    { at_level = 15, name = "FOCUSENERGY" },
+    { at_level = 20, name = "SLASH" },
+    { at_level = 25, name = "AQUACUTTER" },
+    { at_level = 30, name = "FILLETAWAY" },
+    { at_level = 35, name = "NIGHTSLASH" },
+    { at_level = 40, name = "PSYCHOCUT" },
+    { at_level = 45, name = "LIQUIDATION" },
+    { at_level = 50, name = "CRUNCH" },
+    { at_level = 55, name = "FINALGAMBIT" },
+]
+raw_tms = [
+    "SURF",
+    "WATERFALL",
+    "TOXIC",
+    "DIVE",
+    "HIDDENPOWER",
+    "ICEBEAM",
+    "BLIZZARD",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "RETURN",
+    "PSYCHIC",
+    "DOUBLETEAM",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "GIGAIMPACT",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "WHIRLPOOL",
+    "BRINE",
+    "ICEFANG",
+    "PSYCHICFANGS",
+    "CRUNCH",
+    "PSYCHOCUT",
+    "PSYCHICTERRAIN",
+    "BODYSLAM",
+    "HYDROPUMP",
+    "AGILITY",
+    "ENDURE",
+    "FUTURESIGHT",
+    "STOREDPOWER",
+    "SNOWSCAPE",
+    "CHILLINGWATER",
+]
+raw_tutor_moves = [
+    "DRILLRUN",
+    "FURYCUTTER",
+    "ICYWIND",
+    "LIQUIDATION",
+    "MAGICCOAT",
+    "WATERPULSE",
+    "WONDERROOM",
+    "ZENHEADBUTT",
+    "FLIPTURN",
+    "SCALESHOT",
+    "WAVECRASH",
+    "DOUBLEEDGE",
+]
+compatible_egg_groups = [
+    "Water2",
+]
+steps_to_hatch = 5140
+height = 2.5
+weight = 90.0
+colour = "Gray"
+kind = "Jettison"
+pokedex_entry = "When Veluza discards unnecessary flesh, its mind becomes honed and its psychic power increases. The spare flesh has a mild but delicious flavor."
+battler_player_y = 10
+battler_enemy_y = 12
+battler_altitude = 0
+raw_egg_moves = [
+    "THRASH",
+    "RECOVER",
+]
+regional_numbers = 976
+
+[base_stats]
+hp = 90
+atk = 102
+def_ = 73
+spa = 78
+spd = 65
+spe = 70
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 0
+spa = 0
+spd = 0
+spe = 0

@@ -1,0 +1,107 @@
+dex_number = 938
+name = "Tadbulb"
+primary_type = "ELECTRIC"
+secondary_type = "ELECTRIC"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 59
+catch_rate = 190
+caught_happiness = 50
+raw_abilities = [
+    "OWNTEMPO",
+    "STATIC",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 1, name = "MUDSLAP" },
+    { at_level = 7, name = "THUNDERSHOCK" },
+    { at_level = 11, name = "WATERGUN" },
+    { at_level = 17, name = "CHARGE" },
+    { at_level = 21, name = "SPARK" },
+    { at_level = 24, name = "MUDSHOT" },
+    { at_level = 25, name = "FLAIL" },
+    { at_level = 32, name = "DISCHARGE" },
+    { at_level = 36, name = "WEATHERBALL" },
+    { at_level = 40, name = "ELECTRICTERRAIN" },
+    { at_level = 45, name = "SUCKERPUNCH" },
+    { at_level = 50, name = "ZAPCANNON" },
+]
+raw_tms = [
+    "TOXIC",
+    "FLASH",
+    "HIDDENPOWER",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "THUNDERBOLT",
+    "THUNDER",
+    "RETURN",
+    "DOUBLETEAM",
+    "REFLECT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "CHARGEBEAM",
+    "VOLTSWITCH",
+    "THUNDERWAVE",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "WILDCHARGE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "MUDSHOT",
+    "ELECTRICTERRAIN",
+    "EERIEIMPULSE",
+    "ENDURE",
+    "ELECTROBALL",
+    "CHILLINGWATER",
+    "SWIFT",
+    "CHARGE",
+]
+raw_tutor_moves = [
+    "HYPERVOICE",
+    "MUDSLAP",
+    "SHOCKWAVE",
+    "SIGNALBEAM",
+    "WATERPULSE",
+    "DOUBLEEDGE",
+]
+compatible_egg_groups = [
+    "Water1",
+]
+steps_to_hatch = 5140
+height = 0.3
+weight = 0.4
+colour = "Yellow"
+kind = "EleTadpole"
+pokedex_entry = "It floats using the electricity stored in its body. When thunderclouds are around, Tadbulb will float higher off the ground."
+battler_player_y = 10
+battler_enemy_y = 12
+battler_altitude = 0
+raw_hidden_ability = "DAMP"
+raw_egg_moves = [
+    "MUDDYWATER",
+    "SOAK",
+    "PARABOLICCHARGE",
+]
+evolutions = [
+    { into_name = "BELLIBOLT", condition = "Item", parameter = "THUNDERSTONE" },
+]
+regional_numbers = 938
+
+[base_stats]
+hp = 61
+atk = 31
+def_ = 41
+spa = 59
+spd = 35
+spe = 45
+
+[ev_yield]
+hp = 1
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0

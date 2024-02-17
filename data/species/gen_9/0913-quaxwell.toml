@@ -1,0 +1,110 @@
+dex_number = 913
+name = "Quaxwell"
+primary_type = "WATER"
+secondary_type = "WATER"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+exp_yield = 142
+catch_rate = 45
+caught_happiness = 50
+raw_abilities = [
+    "TORRENT",
+    "MOXIE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "DOUBLEHIT" },
+    { at_level = 1, name = "POUND" },
+    { at_level = 1, name = "GROWL" },
+    { at_level = 1, name = "WATERGUN" },
+    { at_level = 7, name = "WORKUP" },
+    { at_level = 10, name = "WINGATTACK" },
+    { at_level = 13, name = "AQUAJET" },
+    { at_level = 17, name = "WATERPULSE" },
+    { at_level = 19, name = "LOWSWEEP" },
+    { at_level = 21, name = "AQUACUTTER" },
+    { at_level = 27, name = "AIRSLASH" },
+    { at_level = 32, name = "FOCUSENERGY" },
+    { at_level = 38, name = "ACROBATICS" },
+    { at_level = 43, name = "LIQUIDATION" },
+    { at_level = 48, name = "FEATHERDANCE" },
+]
+raw_tms = [
+    "SURF",
+    "TOXIC",
+    "DIVE",
+    "HAIL",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "PROTECT",
+    "RAINDANCE",
+    "ROOST",
+    "FRUSTRATION",
+    "RETURN",
+    "DOUBLETEAM",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "LOWSWEEP",
+    "SCALD",
+    "ACROBATICS",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "WHIRLPOOL",
+    "BRINE",
+    "AIRSLASH",
+    "MISTYTERRAIN",
+    "HYDROPUMP",
+    "BRAVEBIRD",
+    "ENDURE",
+    "BATONPASS",
+    "ENCORE",
+    "CHILLINGWATER",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AIRCUTTER",
+    "BOUNCE",
+    "HELPINGHAND",
+    "LIQUIDATION",
+    "LOWKICK",
+    "WATERPLEDGE",
+    "WATERPULSE",
+    "DUALWINGBEAT",
+    "DOUBLEEDGE",
+]
+compatible_egg_groups = [
+    "Flying",
+    "Water1",
+]
+steps_to_hatch = 5140
+height = 1.2
+weight = 21.5
+colour = "Blue"
+kind = "Practicing"
+pokedex_entry = "These Pokémon constantly run through shallow waters to train their legs, then compete with each other to see which of them kicks most gracefully."
+battler_player_y = 18
+battler_enemy_y = 12
+battler_altitude = 0
+evolutions = [
+    { into_name = "QUAQUAVAL", condition = "Level", parameter = "36" },
+]
+regional_numbers = 913
+
+[base_stats]
+hp = 70
+atk = 85
+def_ = 65
+spa = 65
+spd = 60
+spe = 65
+
+[ev_yield]
+hp = 0
+atk = 2
+def_ = 0
+spa = 0
+spd = 0
+spe = 0

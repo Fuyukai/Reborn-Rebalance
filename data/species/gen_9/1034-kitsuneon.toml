@@ -1,0 +1,157 @@
+dex_number = 1034
+name = "Kitsuneon"
+primary_type = "GHOST"
+secondary_type = "GHOST"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Medium"
+exp_yield = 184
+catch_rate = 45
+caught_happiness = 50
+raw_abilities = [
+    "CURSEDBODY",
+    "PRANKSTER",
+]
+raw_level_up_moves = [
+    { at_level = 0, name = "OMINOUSWIND" },
+    { at_level = 1, name = "OMINOUSWIND" },
+    { at_level = 1, name = "HELPINGHAND" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 1, name = "SANDATTACK" },
+    { at_level = 1, name = "TAILWHIP" },
+    { at_level = 3, name = "LICK" },
+    { at_level = 6, name = "BABYDOLLEYES" },
+    { at_level = 9, name = "SHADOWSNEAK" },
+    { at_level = 14, name = "SPITE" },
+    { at_level = 24, name = "GRUDGE" },
+    { at_level = 28, name = "DRAININGKISS" },
+    { at_level = 32, name = "WILLOWISP" },
+    { at_level = 35, name = "HEX" },
+    { at_level = 35, name = "INFERNALPARADE" },
+    { at_level = 35, name = "BITTERMALICE" },
+    { at_level = 38, name = "CURSE" },
+    { at_level = 43, name = "DESTINYBOND" },
+    { at_level = 48, name = "SHADOWBALL" },
+    { at_level = 53, name = "NIGHTDAZE" },
+    { at_level = 60, name = "NASTYPLOT" },
+    { at_level = 68, name = "PERISHSONG" },
+]
+raw_tms = [
+    "WORKUP",
+    "CALMMIND",
+    "ROAR",
+    "TOXIC",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "REFLECT",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "ECHOEDVOICE",
+    "ENERGYBALL",
+    "WILLOWISP",
+    "SHADOWCLAW",
+    "GIGAIMPACT",
+    "DREAMEATER",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "SNARL",
+    "NATUREPOWER",
+    "DARKPULSE",
+    "DAZZLINGGLEAM",
+    "CONFIDE",
+    "PAYDAY",
+    "DIG",
+    "SCREECH",
+    "CHARM",
+    "IMPRISON",
+    "WEATHERBALL",
+    "FAKETEARS",
+    "HEX",
+    "DRAININGKISS",
+    "MYSTICALFIRE",
+    "BODYSLAM",
+    "FOCUSENERGY",
+    "METRONOME",
+    "AMNESIA",
+    "ENDURE",
+    "BATONPASS",
+    "ENCORE",
+    "AURASPHERE",
+    "NASTYPLOT",
+    "STOREDPOWER",
+    "RETALIATE",
+    "TRAILBLAZE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "COVET",
+    "FOULPLAY",
+    "GUNKSHOT",
+    "HEADBUTT",
+    "HEALBELL",
+    "HEATWAVE",
+    "HELPINGHAND",
+    "HYPERVOICE",
+    "IRONTAIL",
+    "LASTRESORT",
+    "MAGICCOAT",
+    "MUDSLAP",
+    "OMINOUSWIND",
+    "PAINSPLIT",
+    "SIGNALBEAM",
+    "SNATCH",
+    "SNORE",
+    "SPITE",
+    "SUCKERPUNCH",
+    "TRICK",
+    "MYSTICALPOWER",
+    "DOUBLEEDGE",
+    "POISONTAIL",
+    "CELEBRATE",
+]
+compatible_egg_groups = [
+    "Field",
+]
+steps_to_hatch = 5255
+height = 1.3
+weight = 27.0
+colour = "White"
+kind = "Myth"
+pokedex_entry = "Kitsuneon are gifted with high intelligence and strong spiritual powers. They are notorious of playing pranks, but also punish those who derserve judgement."
+battler_player_y = 24
+battler_enemy_y = 17
+battler_altitude = 0
+raw_hidden_ability = "MAGICGUARD"
+habitat = "Urban"
+
+[base_stats]
+hp = 60
+atk = 65
+def_ = 65
+spa = 110
+spd = 130
+spe = 95
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 2
+spe = 0

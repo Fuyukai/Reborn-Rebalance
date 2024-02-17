@@ -1,0 +1,98 @@
+dex_number = 919
+name = "Nymble"
+primary_type = "BUG"
+secondary_type = "BUG"
+gender_ratio = "Female50Percent"
+growth_rate = "Medium"
+exp_yield = 64
+catch_rate = 190
+caught_happiness = 20
+raw_abilities = [
+    "SWARM",
+    "TINTEDLENS",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 1, name = "LEER" },
+    { at_level = 4, name = "STRUGGLEBUG" },
+    { at_level = 6, name = "ASTONISH" },
+    { at_level = 9, name = "ASSURANCE" },
+    { at_level = 11, name = "DOUBLEKICK" },
+    { at_level = 14, name = "SCREECH" },
+    { at_level = 18, name = "ENDURE" },
+    { at_level = 22, name = "BUGBITE" },
+    { at_level = 26, name = "FEINT" },
+    { at_level = 30, name = "AGILITY" },
+    { at_level = 38, name = "SUCKERPUNCH" },
+    { at_level = 41, name = "FIRSTIMPRESSION" },
+]
+raw_tms = [
+    "CUT",
+    "TOXIC",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "RETURN",
+    "LEECHLIFE",
+    "DOUBLETEAM",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "STRUGGLEBUG",
+    "XSCISSOR",
+    "INFESTATION",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "AGILITY",
+    "ENDURE",
+    "BUGBUZZ",
+    "POUNCE",
+    "TRAILBLAZE",
+    "LUNGE",
+]
+raw_tutor_moves = [
+    "BUGBITE",
+    "DOUBLEEDGE",
+]
+compatible_egg_groups = [
+    "Bug",
+]
+steps_to_hatch = 5140
+height = 0.2
+weight = 1.0
+colour = "Gray"
+kind = "Grasshopper"
+pokedex_entry = "It has its third set of legs folded up. When it’s in a tough spot, this Pokémon jumps over 30 feet using the strength of its legs."
+battler_player_y = 12
+battler_enemy_y = 12
+battler_altitude = 0
+raw_egg_moves = [
+    "COUNTER",
+    "SKITTERSMACK",
+]
+evolutions = [
+    { into_name = "LOKIX", condition = "Level", parameter = "24" },
+]
+regional_numbers = 919
+
+[base_stats]
+hp = 33
+atk = 46
+def_ = 40
+spa = 21
+spd = 25
+spe = 45
+
+[ev_yield]
+hp = 0
+atk = 1
+def_ = 0
+spa = 0
+spd = 0
+spe = 0

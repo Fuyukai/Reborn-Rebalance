@@ -14285,3 +14285,377 @@ target_selection = "ANY_OTHER"
 priority = 0
 description = "Shoots six needle-like bullets at the target. May flinch for each hit."
 flags = ["PROTECTABLE", "MIRRORABLE"]
+
+
+[[moves]]
+id = 894
+internal_name = "BURNINGBULWARK"
+display_name = "Burning Bulwark"
+move_function = "283"
+base_power = 0
+type = "FIRE"
+category = "STATUS"
+accuracy = 0
+max_pp = 10
+secondary_effect_chance = 0
+target_selection = "BOTH_SIDES"
+priority = 4
+flags = []
+description = "User protects itself from attacks. Contact burns the target."
+
+[[moves]]
+id = 895
+internal_name = "THUNDERCLAP"
+display_name = "Thunder Clap"
+move_function = "116"
+base_power = 70
+type = "ELECTRIC"
+category = "SPECIAL"
+accuracy = 100
+max_pp = 5
+secondary_effect_chance = 0
+target_selection = "ANY_OTHER"
+priority = 1
+flags = [
+    "PROTECTABLE",
+    "MIRRORABLE",
+    "FLINCH",
+]
+description = "User attacks first. It fails if the target is not readying a damaging move."
+
+[[moves]]
+id = 896
+internal_name = "TACHYONCUTTER"
+display_name = "Tachyon Cutter"
+move_function = "284"
+base_power = 50
+type = "STEEL"
+category = "SPECIAL"
+accuracy = 0
+max_pp = 10
+secondary_effect_chance = 0
+target_selection = "ANY_OTHER"
+priority = 0
+flags = [
+    "PROTECTABLE",
+    "MIRRORABLE",
+    "FLINCH",
+]
+description = "The user launches particle blades at the target twice. This attack never misses."
+
+[[moves]]
+id = 897
+internal_name = "MIGHTYCLEAVE"
+display_name = "Mighty Cleave"
+move_function = "285"
+base_power = 95
+type = "ROCK"
+category = "PHYSICAL"
+accuracy = 100
+max_pp = 5
+secondary_effect_chance = 0
+target_selection = "ANY_OTHER"
+priority = 0
+flags = [
+    "MAKES_CONTACT",
+    "MIRRORABLE",
+    "FLINCH",
+]
+description = "Cleaves the target. Ignores protecting moves."
+
+[[moves]]
+id = 898
+internal_name = "HARDPRESS"
+display_name = "Hard Press"
+move_function = "08C"
+base_power = 1
+type = "STEEL"
+category = "PHYSICAL"
+accuracy = 100
+max_pp = 10
+secondary_effect_chance = 0
+target_selection = "ANY_OTHER"
+priority = 0
+flags = [
+    "MAKES_CONTACT",
+    "PROTECTABLE",
+    "MIRRORABLE",
+    "FLINCH",
+]
+description = "The target is crushed with great force. The more HP the target has left, the greater this move's power."
+
+[[moves]]
+id = 899
+internal_name = "ELECTROSHOT"
+display_name = "Electro Shot"
+move_function = "203"
+base_power = 130
+type = "ELECTRIC"
+category = "SPECIAL"
+accuracy = 100
+max_pp = 10
+secondary_effect_chance = 0
+target_selection = "ANY_OTHER"
+priority = 0
+flags = [
+    "PROTECTABLE",
+    "MIRRORABLE",
+    "FLINCH",
+]
+description = "First turn boost Sp.Atk, second turn attack the target. No charge during rain."
+
+[[moves]]
+id = 900
+internal_name = "TERASTARSTORM"
+display_name = "Tera Starform"
+move_function = "000"
+base_power = 120
+type = "NORMAL"
+category = "SPECIAL"
+accuracy = 100
+max_pp = 5
+secondary_effect_chance = 0
+target_selection = "ANY_OTHER"
+priority = 0
+flags = [
+    "PROTECTABLE",
+    "MIRRORABLE",
+    "FLINCH",
+]
+description = "Attacks the target with crystals. Hits all opposing Pokémon in Stellar Form."
+
+[[moves]]
+id = 901
+internal_name = "SUPERCELLSLAM"
+display_name = "Supercell Slam"
+move_function = "10B"
+base_power = 100
+type = "ELECTRIC"
+category = "PHYSICAL"
+accuracy = 95
+max_pp = 15
+secondary_effect_chance = 0
+target_selection = "ANY_OTHER"
+priority = 0
+flags = [
+    "MAKES_CONTACT",
+    "PROTECTABLE",
+    "MIRRORABLE",
+    "FLINCH",
+    "POWDERY",
+]
+description = "The user slams down on the target. If it misses, the user is hurt instead."
+
+[[moves]]
+id = 902
+internal_name = "MALIGNANTCHAIN"
+display_name = "Malignant Chain"
+move_function = "006"
+base_power = 100
+type = "POISON"
+category = "SPECIAL"
+accuracy = 100
+max_pp = 5
+secondary_effect_chance = 50
+target_selection = "ANY_OTHER"
+priority = 0
+flags = [
+    "PROTECTABLE",
+    "MIRRORABLE",
+]
+description = "The user pours toxins into the target with chains. May leave the target badly poisoned."
+
+[[moves]]
+id = 903
+internal_name = "TEMPERFLARE"
+display_name = "Temper Flare"
+move_function = "171"
+base_power = 75
+type = "FIRE"
+category = "PHYSICAL"
+accuracy = 100
+max_pp = 10
+secondary_effect_chance = 0
+target_selection = "ANY_OTHER"
+priority = 0
+flags = [
+    "MAKES_CONTACT",
+    "PROTECTABLE",
+    "MIRRORABLE",
+    "FLINCH",
+]
+description = "Spurred by desperation, the user attacks. If the previous move failed, the power of this move doubles."
+
+[[moves]]
+id = 904
+internal_name = "ALLURINGVOICE"
+display_name = "Alluring Voice"
+move_function = "207"
+base_power = 80
+type = "FAIRY"
+category = "SPECIAL"
+accuracy = 100
+max_pp = 10
+secondary_effect_chance = 100
+target_selection = "ALL_OPPOSING"
+priority = 0
+flags = [
+    "PROTECTABLE",
+    "MIRRORABLE",
+    "FLINCH",
+]
+description = "Attack the target with an angelic voice. Confuses all opponents that boosted their stats this turn."
+
+[[moves]]
+id = 905
+internal_name = "DRAGONCHEER"
+display_name = "Dragon Cheer"
+move_function = "286"
+base_power = 0
+type = "DRAGON"
+category = "STATUS"
+accuracy = 0
+max_pp = 15
+secondary_effect_chance = 0
+target_selection = "USER_PARTNER"
+priority = 0
+flags = []
+description = "Encourages ally Pokémon, boosting their Critical Strike chance."
+
+[[moves]]
+id = 906
+internal_name = "PSYCHICNOISE"
+display_name = "Psychic Noise"
+move_function = "287"
+base_power = 75
+type = "PSYCHIC"
+category = "SPECIAL"
+accuracy = 100
+max_pp = 10
+secondary_effect_chance = 100
+target_selection = "ANY_OTHER"
+priority = 0
+flags = [
+    "PROTECTABLE",
+    "MIRRORABLE",
+    "SOUND",
+]
+description = "Damages the target and prevents it from healing for two turns."
+
+[[moves]]
+id = 907
+internal_name = "FICKLEBEAM"
+display_name = "Fickle Beam"
+move_function = "288"
+base_power = 80
+type = "DRAGON"
+category = "SPECIAL"
+accuracy = 100
+max_pp = 5
+secondary_effect_chance = 0
+target_selection = "ANY_OTHER"
+priority = 0
+flags = [
+    "PROTECTABLE",
+    "MIRRORABLE",
+    "FLINCH",
+]
+description = "Deals damage that has a 30% chance to double in power."
+
+[[moves]]
+id = 908
+internal_name = "UPPERHAND"
+display_name = "Upper Hand"
+move_function = "289"
+base_power = 65
+type = "FIGHTING"
+category = "PHYSICAL"
+accuracy = 100
+max_pp = 15
+secondary_effect_chance = 100
+target_selection = "ANY_OTHER"
+priority = 3
+flags = [
+    "MAKES_CONTACT",
+    "PROTECTABLE",
+    "MIRRORABLE",
+    "FLINCH",
+]
+description = "Only works when target uses priority move. Flinches the target."
+
+[[moves]]
+id = 909
+internal_name = "UNOWNPOWER"
+display_name = "Unown Power"
+move_function = "000"
+base_power = 50
+type = "QMARKS"
+category = "SPECIAL"
+accuracy = 100
+max_pp = 10
+secondary_effect_chance = 0
+target_selection = "ANY_OTHER"
+priority = 0
+flags = [
+    "PROTECTABLE",
+    "MIRRORABLE",
+    "FLINCH",
+]
+description = "Damages the target. Hits the target always super effective."
+
+[[moves]]
+id = 910
+internal_name = "HOLDBACK"
+display_name = "Hold Back"
+move_function = "0E9"
+base_power = 40
+type = "NORMAL"
+category = "PHYSICAL"
+accuracy = 100
+max_pp = 40
+secondary_effect_chance = 0
+target_selection = "ANY_OTHER"
+priority = 0
+flags = [
+    "MAKES_CONTACT",
+    "PROTECTABLE",
+    "MIRRORABLE",
+    "FLINCH",
+]
+description = "The user holds back when it attacks and the target is left with at least 1 HP."
+
+[[moves]]
+id = 911
+internal_name = "HAPPYHOUR"
+display_name = "Happy Hour"
+move_function = "109"
+base_power = 0
+type = "NORMAL"
+category = "STATUS"
+accuracy = 0
+max_pp = 30
+secondary_effect_chance = 0
+target_selection = "BOTH_SIDES"
+priority = 0
+flags = []
+description = "Using Happy Hour doubles the amount of prize money received after battle."
+
+[[moves]]
+id = 912
+internal_name = "LIGHTOFRUIN"
+display_name = "Light of Ruin"
+move_function = "0FC"
+base_power = 140
+type = "FAIRY"
+category = "SPECIAL"
+accuracy = 90
+max_pp = 5
+secondary_effect_chance = 0
+target_selection = "ANY_OTHER"
+priority = 0
+flags = [
+    "PROTECTABLE",
+    "MIRRORABLE",
+    "FLINCH",
+]
+description = "Drawing power from the Eternal Flower, firing a beam of light. Damages the user terribly."

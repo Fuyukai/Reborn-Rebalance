@@ -1,0 +1,120 @@
+dex_number = 967
+name = "Cyclizar"
+primary_type = "DRAGON"
+secondary_type = "NORMAL"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 164
+catch_rate = 190
+caught_happiness = 50
+raw_abilities = [
+    "SHEDSKIN",
+    "REGENERATOR",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 1, name = "GROWL" },
+    { at_level = 7, name = "RAPIDSPIN" },
+    { at_level = 11, name = "TAUNT" },
+    { at_level = 14, name = "BREAKINGSWIPE" },
+    { at_level = 18, name = "QUICKATTACK" },
+    { at_level = 23, name = "BITE" },
+    { at_level = 27, name = "UTURN" },
+    { at_level = 31, name = "SHEDTAIL" },
+    { at_level = 36, name = "DRAGONCLAW" },
+    { at_level = 40, name = "SHIFTGEAR" },
+    { at_level = 45, name = "DRAGONPULSE" },
+    { at_level = 51, name = "DOUBLEEDGE" },
+    { at_level = 57, name = "DRAGONRUSH" },
+]
+raw_tms = [
+    "DRAGONCLAW",
+    "TOXIC",
+    "ROCKSMASH",
+    "ROCKCLIMB",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "THUNDERBOLT",
+    "RETURN",
+    "DOUBLETEAM",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "OVERHEAT",
+    "ACROBATICS",
+    "GIGAIMPACT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "WILDCHARGE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "MUDSHOT",
+    "THUNDERFANG",
+    "FIREFANG",
+    "CRUNCH",
+    "BODYSLAM",
+    "AGILITY",
+    "ENDURE",
+    "HIGHHORSEPOWER",
+    "ICESPINNER",
+    "TRAILBLAZE",
+    "TEMPERFLARE",
+    "SUPERCELLSLAM",
+    "DRAGONCHEER",
+]
+raw_tutor_moves = [
+    "BLOCK",
+    "DRACOMETEOR",
+    "DRAGONPULSE",
+    "HYPERVOICE",
+    "IRONHEAD",
+    "MUDSLAP",
+    "OUTRAGE",
+    "SCALESHOT",
+    "DOUBLEEDGE",
+]
+compatible_egg_groups = [
+    "Field",
+]
+steps_to_hatch = 7710
+height = 1.6
+weight = 63.0
+colour = "Green"
+kind = "Mount"
+pokedex_entry = "It can sprint at over 70 mph while carrying a human. The rider's body heat warms Cyclizar's back and lifts the Pokémon's spirit."
+battler_player_y = 14
+battler_enemy_y = 12
+battler_altitude = 0
+raw_egg_moves = [
+    "IRONTAIL",
+    "KNOCKOFF",
+    "AQUATAIL",
+    "POWERWHIP",
+]
+regional_numbers = 967
+
+[base_stats]
+hp = 70
+atk = 95
+def_ = 65
+spa = 85
+spd = 65
+spe = 121
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 2

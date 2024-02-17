@@ -1,0 +1,124 @@
+dex_number = 1008
+name = "Miraidon"
+primary_type = "ELECTRIC"
+secondary_type = "DRAGON"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 300
+catch_rate = 3
+caught_happiness = 50
+raw_abilities = [
+    "HADRONENGINE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "THUNDERSHOCK" },
+    { at_level = 1, name = "DRAGONBREATH" },
+    { at_level = 1, name = "ELECTRICTERRAIN" },
+    { at_level = 7, name = "SHOCKWAVE" },
+    { at_level = 14, name = "CHARGE" },
+    { at_level = 21, name = "PARABOLICCHARGE" },
+    { at_level = 28, name = "DISCHARGE" },
+    { at_level = 35, name = "AGILITY" },
+    { at_level = 42, name = "DRAGONPULSE" },
+    { at_level = 56, name = "ELECTRODRIFT" },
+    { at_level = 63, name = "METALSOUND" },
+    { at_level = 70, name = "MIRRORCOAT" },
+    { at_level = 77, name = "OUTRAGE" },
+    { at_level = 84, name = "THUNDER" },
+    { at_level = 91, name = "OVERHEAT" },
+    { at_level = 98, name = "HYPERBEAM" },
+]
+raw_tms = [
+    "DRAGONCLAW",
+    "CALMMIND",
+    "ROAR",
+    "TOXIC",
+    "FLASH",
+    "HIDDENPOWER",
+    "TAUNT",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "THUNDERBOLT",
+    "THUNDER",
+    "RETURN",
+    "DOUBLETEAM",
+    "REFLECT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "OVERHEAT",
+    "CHARGEBEAM",
+    "ACROBATICS",
+    "GIGAIMPACT",
+    "VOLTSWITCH",
+    "THUNDERWAVE",
+    "SWORDSDANCE",
+    "DRAGONTAIL",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "FLASHCANNON",
+    "WILDCHARGE",
+    "SECRETPOWER",
+    "SNARL",
+    "DAZZLINGGLEAM",
+    "CONFIDE",
+    "SCREECH",
+    "SCARYFACE",
+    "CRUNCH",
+    "ELECTRICTERRAIN",
+    "EERIEIMPULSE",
+    "BODYSLAM",
+    "AGILITY",
+    "FOCUSENERGY",
+    "ENDURE",
+    "POWERGEM",
+    "ELECTROBALL",
+    "HEAVYSLAM",
+    "CHARGE",
+    "SUPERCELLSLAM",
+    "DRAGONCHEER",
+]
+raw_tutor_moves = [
+    "DRACOMETEOR",
+    "DRAGONPULSE",
+    "HELPINGHAND",
+    "OUTRAGE",
+    "SHOCKWAVE",
+    "UPROAR",
+    "ZENHEADBUTT",
+    "RISINGVOLTAGE",
+    "DOUBLEEDGE",
+]
+compatible_egg_groups = [
+    "Undiscovered",
+]
+steps_to_hatch = 12850
+height = 3.5
+weight = 240.0
+colour = "Blue"
+kind = "Paradox"
+pokedex_entry = "Much remains unknown about this creature. It resembles Cyclizar, but it is far more ruthless and powerful."
+battler_player_y = 15
+battler_enemy_y = 12
+battler_altitude = 0
+regional_numbers = 1008
+
+[base_stats]
+hp = 100
+atk = 85
+def_ = 100
+spa = 135
+spd = 115
+spe = 135
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 3
+spd = 0
+spe = 0

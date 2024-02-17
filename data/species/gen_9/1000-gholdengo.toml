@@ -1,0 +1,105 @@
+dex_number = 1000
+name = "Gholdengo"
+primary_type = "STEEL"
+secondary_type = "GHOST"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 177
+catch_rate = 45
+caught_happiness = 50
+raw_abilities = [
+    "GOODASGOLD",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 1, name = "ASTONISH" },
+    { at_level = 7, name = "NIGHTSHADE" },
+    { at_level = 14, name = "CONFUSERAY" },
+    { at_level = 21, name = "SUBSTITUTE" },
+    { at_level = 28, name = "METALSOUND" },
+    { at_level = 35, name = "SHADOWBALL" },
+    { at_level = 42, name = "RECOVER" },
+    { at_level = 49, name = "POWERGEM" },
+    { at_level = 56, name = "MAKEITRAIN" },
+    { at_level = 63, name = "NASTYPLOT" },
+    { at_level = 70, name = "MEMENTO" },
+]
+raw_tms = [
+    "PSYSHOCK",
+    "TOXIC",
+    "HIDDENPOWER",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "FRUSTRATION",
+    "THUNDERBOLT",
+    "THUNDER",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "REFLECT",
+    "SANDSTORM",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "LOWSWEEP",
+    "FOCUSBLAST",
+    "FLING",
+    "CHARGEBEAM",
+    "GIGAIMPACT",
+    "THUNDERWAVE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "FLASHCANNON",
+    "SECRETPOWER",
+    "DAZZLINGGLEAM",
+    "CONFIDE",
+    "PAYDAY",
+    "HEX",
+    "ENDURE",
+    "POWERGEM",
+    "NASTYPLOT",
+    "ELECTROBALL",
+    "HEAVYSLAM",
+]
+raw_tutor_moves = [
+    "IRONHEAD",
+    "LOWKICK",
+    "SPITE",
+    "THUNDERPUNCH",
+    "TRICK",
+    "STEELBEAM",
+    "DOUBLEEDGE",
+]
+compatible_egg_groups = [
+    "Undiscovered",
+]
+steps_to_hatch = 12850
+height = 1.2
+weight = 30.0
+colour = "Yellow"
+kind = "Coin Entity"
+pokedex_entry = "Its body seems to be made up of 1,000 coins. This Pokémon gets along well with others and is quick to make friends with anybody."
+battler_player_y = 14
+battler_enemy_y = 12
+battler_altitude = 0
+regional_numbers = 1000
+
+[base_stats]
+hp = 87
+atk = 60
+def_ = 95
+spa = 133
+spd = 91
+spe = 84
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 2
+spd = 0
+spe = 0

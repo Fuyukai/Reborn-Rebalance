@@ -1,0 +1,126 @@
+dex_number = 988
+name = "Slither Wing"
+primary_type = "BUG"
+secondary_type = "FIGHTING"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 248
+catch_rate = 50
+caught_happiness = 0
+raw_abilities = [
+    "PROTOSYNTHESIS",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "GUST" },
+    { at_level = 1, name = "EMBER" },
+    { at_level = 1, name = "SUNNYDAY" },
+    { at_level = 1, name = "BUGBITE" },
+    { at_level = 7, name = "POISONPOWDER" },
+    { at_level = 7, name = "STUNSPORE" },
+    { at_level = 14, name = "FLAMECHARGE" },
+    { at_level = 21, name = "STOMP" },
+    { at_level = 28, name = "LOWSWEEP" },
+    { at_level = 35, name = "MORNINGSUN" },
+    { at_level = 42, name = "LUNGE" },
+    { at_level = 49, name = "SUPERPOWER" },
+    { at_level = 56, name = "BULKUP" },
+    { at_level = 63, name = "DUALWINGBEAT" },
+    { at_level = 70, name = "FIRSTIMPRESSION" },
+    { at_level = 77, name = "WHIRLWIND" },
+    { at_level = 84, name = "LEECHLIFE" },
+    { at_level = 91, name = "THRASH" },
+]
+raw_tms = [
+    "WORKUP",
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "BULKUP",
+    "ROCKCLIMB",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "SMACKDOWN",
+    "EARTHQUAKE",
+    "RETURN",
+    "LEECHLIFE",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "FLAMETHROWER",
+    "SANDSTORM",
+    "AERIALACE",
+    "FACADE",
+    "FLAMECHARGE",
+    "REST",
+    "THIEF",
+    "LOWSWEEP",
+    "ROUND",
+    "QUASH",
+    "ACROBATICS",
+    "GIGAIMPACT",
+    "STRUGGLEBUG",
+    "SWAGGER",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "WILDCHARGE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "BODYSLAM",
+    "HURRICANE",
+    "FLAREBLITZ",
+    "CLOSECOMBAT",
+    "REVERSAL",
+    "ENDURE",
+    "BUGBUZZ",
+    "HEAVYSLAM",
+    "BODYPRESS",
+    "POUNCE",
+    "TRAILBLAZE",
+    "LUNGE",
+    "TEMPERFLARE",
+]
+raw_tutor_moves = [
+    "GIGADRAIN",
+    "HEATWAVE",
+    "LOWKICK",
+    "STOMPINGTANTRUM",
+    "ZENHEADBUTT",
+    "SKITTERSMACK",
+    "RAGINGFURY",
+    "MIMIC",
+    "DOUBLEEDGE",
+]
+compatible_egg_groups = [
+    "Undiscovered",
+]
+steps_to_hatch = 12800
+height = 1.2
+weight = 36.0
+colour = "Red"
+kind = "Paradox"
+pokedex_entry = "This mysterious Pokémon has some similarities to a creature that an old book introduced as Slither Wing."
+battler_player_y = 15
+battler_enemy_y = 20
+battler_altitude = 0
+internal_name = "SLITHERWING"
+regional_numbers = 988
+
+[base_stats]
+hp = 85
+atk = 135
+def_ = 79
+spa = 85
+spd = 105
+spe = 81
+
+[ev_yield]
+hp = 0
+atk = 3
+def_ = 0
+spa = 0
+spd = 0
+spe = 0

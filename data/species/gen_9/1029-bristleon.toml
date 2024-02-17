@@ -1,0 +1,147 @@
+dex_number = 1029
+name = "Bristleon"
+primary_type = "GROUND"
+secondary_type = "GROUND"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Medium"
+exp_yield = 184
+catch_rate = 45
+caught_happiness = 50
+raw_abilities = [
+    "ARENATRAP",
+    "SKILLLINK",
+]
+raw_level_up_moves = [
+    { at_level = 0, name = "SANDTOMB" },
+    { at_level = 1, name = "BATONPASS" },
+    { at_level = 1, name = "SANDTOMB" },
+    { at_level = 1, name = "HELPINGHAND" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 1, name = "TAILWHIP" },
+    { at_level = 1, name = "SANDATTACK" },
+    { at_level = 3, name = "BABYDOLLEYES" },
+    { at_level = 6, name = "QUICKATTACK" },
+    { at_level = 9, name = "MUDSPORT" },
+    { at_level = 14, name = "MUDSLAP" },
+    { at_level = 19, name = "DIG" },
+    { at_level = 24, name = "TAILSLAP" },
+    { at_level = 28, name = "SANDSTORM" },
+    { at_level = 32, name = "SLASH" },
+    { at_level = 35, name = "EARTHPOWER" },
+    { at_level = 38, name = "BONERUSH" },
+    { at_level = 43, name = "MAGNITUDE" },
+    { at_level = 48, name = "SHOREUP" },
+    { at_level = 53, name = "BULLDOZE" },
+    { at_level = 60, name = "IRONTAIL" },
+    { at_level = 68, name = "HIGHHORSEPOWER" },
+]
+raw_tms = [
+    "WORKUP",
+    "CUT",
+    "CALMMIND",
+    "ROAR",
+    "TOXIC",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "EARTHQUAKE",
+    "RETURN",
+    "SHADOWBALL",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "REFLECT",
+    "SANDSTORM",
+    "ROCKTOMB",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "LOWSWEEP",
+    "ROUND",
+    "ECHOEDVOICE",
+    "ACROBATICS",
+    "GIGAIMPACT",
+    "BULLDOZE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "PAYDAY",
+    "DIG",
+    "CHARM",
+    "WEATHERBALL",
+    "FAKETEARS",
+    "SANDTOMB",
+    "PSYCHOCUT",
+    "BODYSLAM",
+    "FOCUSENERGY",
+    "SPIKES",
+    "ENDURE",
+    "BATONPASS",
+    "ENCORE",
+    "STOREDPOWER",
+    "PLAYROUGH",
+    "RETALIATE",
+    "POUNCE",
+    "TRAILBLAZE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "BOUNCE",
+    "COVET",
+    "EARTHPOWER",
+    "FURYCUTTER",
+    "HEADBUTT",
+    "HEALBELL",
+    "HELPINGHAND",
+    "HYPERVOICE",
+    "IRONTAIL",
+    "KNOCKOFF",
+    "LASTRESORT",
+    "LOWKICK",
+    "MUDSLAP",
+    "SNATCH",
+    "SNORE",
+    "STEALTHROCK",
+    "SCORCHINGSANDS",
+    "TRIPLEAXEL",
+    "DOUBLEEDGE",
+    "CELEBRATE",
+]
+compatible_egg_groups = [
+    "Field",
+]
+steps_to_hatch = 5255
+height = 1.0
+weight = 24.0
+colour = "Brown"
+kind = "Brush"
+pokedex_entry = "The dark brown part of its brush-like tail can be hardened. With a quick, fast stroke, it can cut rocks."
+battler_player_y = 24
+battler_enemy_y = 17
+battler_altitude = 0
+raw_hidden_ability = "SANDSTREAM"
+habitat = "Urban"
+
+[base_stats]
+hp = 65
+atk = 95
+def_ = 65
+spa = 60
+spd = 110
+spe = 130
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 2

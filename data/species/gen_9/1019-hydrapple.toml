@@ -1,0 +1,120 @@
+dex_number = 1019
+name = "Hydrapple"
+primary_type = "GRASS"
+secondary_type = "DRAGON"
+gender_ratio = "Female50Percent"
+growth_rate = "Erratic"
+exp_yield = 170
+catch_rate = 10
+caught_happiness = 50
+raw_abilities = [
+    "SUPERSWEETSYRUP",
+    "REGENERATOR",
+]
+raw_level_up_moves = [
+    { at_level = 0, name = "FICKLEBEAM" },
+    { at_level = 1, name = "WITHDRAW" },
+    { at_level = 1, name = "SWEETSCENT" },
+    { at_level = 1, name = "RECYCLE" },
+    { at_level = 1, name = "ASTONISH" },
+    { at_level = 4, name = "DRAGONTAIL" },
+    { at_level = 8, name = "GROWTH" },
+    { at_level = 12, name = "DRAGONBREATH" },
+    { at_level = 16, name = "PROTECT" },
+    { at_level = 20, name = "BULLETSEED" },
+    { at_level = 28, name = "SYRUPBOMB" },
+    { at_level = 32, name = "DRAGONPULSE" },
+    { at_level = 36, name = "RECOVER" },
+    { at_level = 40, name = "ENERGYBALL" },
+    { at_level = 44, name = "SUBSTITUTE" },
+    { at_level = 54, name = "POWERWHIP" },
+]
+raw_tms = [
+    "TOXIC",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "EARTHQUAKE",
+    "RETURN",
+    "DOUBLETEAM",
+    "REFLECT",
+    "FACADE",
+    "REST",
+    "ROUND",
+    "ENERGYBALL",
+    "GIGAIMPACT",
+    "GYROBALL",
+    "DRAGONTAIL",
+    "INFESTATION",
+    "GRASSKNOT",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "MAGICALLEAF",
+    "BULLETSEED",
+    "GRASSYTERRAIN",
+    "BREAKINGSWIPE",
+    "BODYSLAM",
+    "HYDROPUMP",
+    "POWERWHIP",
+    "LEAFSTORM",
+    "ENDURE",
+    "NASTYPLOT",
+    "HEAVYSLAM",
+    "POLLENPUFF",
+    "BODYPRESS",
+    "POUNCE",
+    "DRAGONCHEER",
+]
+raw_tutor_moves = [
+    "BUGBITE",
+    "DRACOMETEOR",
+    "DRAGONPULSE",
+    "EARTHPOWER",
+    "GIGADRAIN",
+    "HELPINGHAND",
+    "OUTRAGE",
+    "ROLLOUT",
+    "SEEDBOMB",
+    "SUCKERPUNCH",
+    "UPROAR",
+    "GRASSYGLIDE",
+    "MIMIC",
+    "DOUBLEEDGE",
+]
+compatible_egg_groups = [
+    "Grass",
+    "Dragon",
+]
+steps_to_hatch = 2560
+height = 1.8
+weight = 93.0
+colour = "Green"
+kind = "Apple Hydra"
+pokedex_entry = "Seven syrpents live inside an apple made of syrup. The syrpent in the center is the commander."
+battler_player_y = 15
+battler_enemy_y = 20
+battler_altitude = 0
+raw_hidden_ability = "STICKYHOLD"
+regional_numbers = 1019
+
+[base_stats]
+hp = 106
+atk = 80
+def_ = 110
+spa = 120
+spd = 80
+spe = 44
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 3
+spd = 0
+spe = 0

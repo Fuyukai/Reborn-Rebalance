@@ -1,0 +1,69 @@
+trainer_name = "Loyal Three"
+
+[trainers.LOYALS.0]
+raw_trainer_class = "LOYALS"
+battler_name = "Loyal Three"
+
+[[trainers.LOYALS.0.pokemon]]
+internal_name = "OKIDOGI"
+level = 120
+raw_item = "ASSAULTVEST"
+raw_moves = [
+    "FAKEOUT",
+    "FIREPUNCH",
+    "DRAINPUNCH",
+    "HIGHHORSEPOWER",
+]
+nature = "JOLLY"
+iv = 31
+
+[trainers.LOYALS.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.LOYALS.0.pokemon]]
+internal_name = "FEZANDIPITI"
+level = 120
+raw_item = "FOCUSSASH"
+raw_moves = [
+    "TAILWIND",
+    "DUALWINGBEAT",
+    "GUNKSHOT",
+    "ICYWIND",
+]
+ability_number = 1
+nature = "ADAMANT"
+iv = 31
+
+[trainers.LOYALS.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.LOYALS.0.pokemon]]
+internal_name = "MUNKIDORI"
+level = 120
+raw_item = "TELLURICSEED"
+raw_moves = [
+    "CALMMIND",
+    "PSYCHICNOISE",
+    "FAKEOUT",
+    "CLEARSMOG",
+]
+nature = "TIMID"
+iv = 31
+
+[trainers.LOYALS.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252

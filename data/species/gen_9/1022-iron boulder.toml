@@ -1,0 +1,112 @@
+dex_number = 1022
+name = "Iron Boulder"
+primary_type = "ROCK"
+secondary_type = "PSYCHIC"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 261
+catch_rate = 10
+caught_happiness = 0
+raw_abilities = [
+    "QUARKDRIVE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "HORNATTACK" },
+    { at_level = 1, name = "LEER" },
+    { at_level = 1, name = "ROCKTHROW" },
+    { at_level = 1, name = "ELECTRICTERRAIN" },
+    { at_level = 7, name = "QUICKATTACK" },
+    { at_level = 14, name = "SLASH" },
+    { at_level = 21, name = "AGILITY" },
+    { at_level = 28, name = "PSYCHOCUT" },
+    { at_level = 35, name = "COUNTER" },
+    { at_level = 42, name = "ROCKTOMB" },
+    { at_level = 49, name = "SACREDSWORD" },
+    { at_level = 56, name = "MIGHTYCLEAVE" },
+    { at_level = 63, name = "SWORDSDANCE" },
+    { at_level = 70, name = "MEGAHORN" },
+    { at_level = 77, name = "QUICKGUARD" },
+    { at_level = 84, name = "STONEEDGE" },
+    { at_level = 91, name = "GIGAIMPACT" },
+]
+raw_tms = [
+    "PSYSHOCK",
+    "TOXIC",
+    "HIDDENPOWER",
+    "TAUNT",
+    "HYPERBEAM",
+    "PROTECT",
+    "FRUSTRATION",
+    "EARTHQUAKE",
+    "RETURN",
+    "PSYCHIC",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "SANDSTORM",
+    "ROCKTOMB",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ROUND",
+    "GIGAIMPACT",
+    "STONEEDGE",
+    "SWORDSDANCE",
+    "BULLDOZE",
+    "XSCISSOR",
+    "POISONJAB",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "WILDCHARGE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "SOLARBLADE",
+    "SCARYFACE",
+    "ROCKBLAST",
+    "PSYCHOCUT",
+    "AIRSLASH",
+    "ELECTRICTERRAIN",
+    "BODYSLAM",
+    "CLOSECOMBAT",
+    "AGILITY",
+    "ENDURE",
+]
+raw_tutor_moves = [
+    "HELPINGHAND",
+    "IRONDEFENSE",
+    "IRONHEAD",
+    "THROATCHOP",
+    "ZENHEADBUTT",
+    "METEORBEAM",
+    "MIMIC",
+    "DOUBLEEDGE",
+]
+compatible_egg_groups = [
+    "Undiscovered",
+]
+steps_to_hatch = 20480
+height = 1.5
+weight = 162.5
+colour = "Gray"
+kind = "Paradox"
+pokedex_entry = "TBA"
+battler_player_y = 10
+battler_enemy_y = 14
+battler_altitude = 0
+internal_name = "IRONBOULDER"
+regional_numbers = 1022
+
+[base_stats]
+hp = 90
+atk = 120
+def_ = 80
+spa = 68
+spd = 108
+spe = 124
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 3
+spd = 0
+spe = 0

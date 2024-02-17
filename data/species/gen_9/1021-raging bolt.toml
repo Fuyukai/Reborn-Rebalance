@@ -1,0 +1,120 @@
+dex_number = 1021
+name = "Raging Bolt"
+primary_type = "ELECTRIC"
+secondary_type = "DRAGON"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 261
+catch_rate = 10
+caught_happiness = 0
+raw_abilities = [
+    "PROTOSYNTHESIS",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "TWISTER" },
+    { at_level = 1, name = "SUNNYDAY" },
+    { at_level = 1, name = "SHOCKWAVE" },
+    { at_level = 1, name = "STOMP" },
+    { at_level = 7, name = "CHARGE" },
+    { at_level = 14, name = "DRAGONBREATH" },
+    { at_level = 21, name = "ELECTRICTERRAIN" },
+    { at_level = 28, name = "DISCHARGE" },
+    { at_level = 35, name = "DRAGONTAIL" },
+    { at_level = 42, name = "CALMMIND" },
+    { at_level = 49, name = "THUNDERCLAP" },
+    { at_level = 56, name = "DRAGONHAMMER" },
+    { at_level = 63, name = "RISINGVOLTAGE" },
+    { at_level = 70, name = "DRAGONPULSE" },
+    { at_level = 77, name = "ZAPCANNON" },
+    { at_level = 84, name = "BODYPRESS" },
+    { at_level = 91, name = "THUNDER" },
+]
+raw_tms = [
+    "CALMMIND",
+    "ROAR",
+    "TOXIC",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "HYPERBEAM",
+    "PROTECT",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "THUNDERBOLT",
+    "THUNDER",
+    "EARTHQUAKE",
+    "RETURN",
+    "DOUBLETEAM",
+    "FACADE",
+    "REST",
+    "ROUND",
+    "CHARGEBEAM",
+    "GIGAIMPACT",
+    "VOLTSWITCH",
+    "THUNDERWAVE",
+    "DRAGONTAIL",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "WILDCHARGE",
+    "SECRETPOWER",
+    "SNARL",
+    "CONFIDE",
+    "SCARYFACE",
+    "WEATHERBALL",
+    "THUNDERFANG",
+    "CRUNCH",
+    "ELECTRICTERRAIN",
+    "EERIEIMPULSE",
+    "BREAKINGSWIPE",
+    "BODYSLAM",
+    "ENDURE",
+    "ELECTROBALL",
+    "HEAVYSLAM",
+    "BODYPRESS",
+    "CHARGE",
+    "SUPERCELLSLAM",
+    "DRAGONCHEER",
+]
+raw_tutor_moves = [
+    "ANCIENTPOWER",
+    "DRACOMETEOR",
+    "DRAGONPULSE",
+    "HELPINGHAND",
+    "HYPERVOICE",
+    "OUTRAGE",
+    "SHOCKWAVE",
+    "STOMPINGTANTRUM",
+    "RISINGVOLTAGE",
+    "MIMIC",
+    "DOUBLEEDGE",
+]
+compatible_egg_groups = [
+    "Undiscovered",
+]
+steps_to_hatch = 20655
+height = 5.2
+weight = 480.0
+colour = "Yellow"
+kind = "Paradox"
+pokedex_entry = "TBA"
+battler_player_y = 16
+battler_enemy_y = 11
+battler_altitude = 0
+internal_name = "RAGINGBOLT"
+regional_numbers = 1021
+
+[base_stats]
+hp = 125
+atk = 73
+def_ = 91
+spa = 137
+spd = 89
+spe = 75
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 2

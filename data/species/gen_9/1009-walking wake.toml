@@ -1,0 +1,93 @@
+dex_number = 1009
+name = "Walking Wake"
+primary_type = "WATER"
+secondary_type = "DRAGON"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 295
+catch_rate = 5
+caught_happiness = 0
+raw_abilities = [
+    "PROTOSYNTHESIS",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "AQUAJET" },
+    { at_level = 1, name = "SUNNYDAY" },
+    { at_level = 1, name = "LEER" },
+    { at_level = 1, name = "ROAR" },
+    { at_level = 1, name = "TWISTER" },
+    { at_level = 7, name = "BITE" },
+    { at_level = 14, name = "WATERPULSE" },
+    { at_level = 21, name = "NOBLEROAR" },
+    { at_level = 28, name = "DRAGONBREATH" },
+    { at_level = 35, name = "BREAKINGSWIPE" },
+    { at_level = 42, name = "DRAGONRUSH" },
+    { at_level = 56, name = "HYDROSTEAM" },
+    { at_level = 63, name = "DRAGONPULSE" },
+    { at_level = 70, name = "OUTRAGE" },
+    { at_level = 77, name = "FLAMETHROWER" },
+    { at_level = 84, name = "HYDROPUMP" },
+]
+raw_tms = [
+    "DRAGONCLAW",
+    "SURF",
+    "WATERFALL",
+    "FLAMETHROWER",
+    "GIGAIMPACT",
+    "DRAGONTAIL",
+    "SNARL",
+    "SCARYFACE",
+    "WHIRLPOOL",
+    "MUDSHOT",
+    "FIREFANG",
+    "CRUNCH",
+    "BREAKINGSWIPE",
+    "BODYSLAM",
+    "HYDROPUMP",
+    "HURRICANE",
+    "AGILITY",
+    "ENDURE",
+    "DRAGONDANCE",
+    "SWIFT",
+    "DRAGONCHEER",
+]
+raw_tutor_moves = [
+    "AQUATAIL",
+    "DRACOMETEOR",
+    "DRAGONPULSE",
+    "IRONTAIL",
+    "LIQUIDATION",
+    "LOWKICK",
+    "OUTRAGE",
+    "WATERPULSE",
+]
+compatible_egg_groups = [
+    "Undiscovered",
+]
+steps_to_hatch = 12800
+height = 3.5
+weight = 280.0
+colour = "Blue"
+kind = "Paradox"
+pokedex_entry = "This Pokémon seems to have a striking resemblance to another Pokèmon called Suicune."
+battler_player_y = 15
+battler_enemy_y = 20
+battler_altitude = 0
+internal_name = "WALKINGWAKE"
+regional_numbers = 1009
+
+[base_stats]
+hp = 99
+atk = 83
+def_ = 91
+spa = 125
+spd = 83
+spe = 109
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 3
+spd = 0
+spe = 0

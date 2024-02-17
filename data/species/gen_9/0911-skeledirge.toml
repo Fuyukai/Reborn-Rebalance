@@ -1,0 +1,126 @@
+dex_number = 911
+name = "Skeledirge"
+primary_type = "FIRE"
+secondary_type = "GHOST"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+exp_yield = 240
+catch_rate = 45
+caught_happiness = 50
+raw_abilities = [
+    "BLAZE",
+    "UNAWARE",
+]
+raw_level_up_moves = [
+    { at_level = 0, name = "TORCHSONG" },
+    { at_level = 1, name = "SING" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 1, name = "LEER" },
+    { at_level = 1, name = "EMBER" },
+    { at_level = 7, name = "LICK" },
+    { at_level = 10, name = "ROUND" },
+    { at_level = 12, name = "SCARYFACE" },
+    { at_level = 15, name = "BITE" },
+    { at_level = 17, name = "INCINERATE" },
+    { at_level = 24, name = "SNARL" },
+    { at_level = 28, name = "ROAR" },
+    { at_level = 32, name = "FLAMETHROWER" },
+    { at_level = 38, name = "SHADOWBALL" },
+    { at_level = 42, name = "HYPERVOICE" },
+    { at_level = 47, name = "WILLOWISP" },
+    { at_level = 47, name = "HEX" },
+    { at_level = 58, name = "FIREBLAST" },
+    { at_level = 64, name = "OVERHEAT" },
+]
+raw_tms = [
+    "STRENGTH",
+    "ROAR",
+    "TOXIC",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "PROTECT",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "FLAMETHROWER",
+    "FIREBLAST",
+    "FACADE",
+    "FLAMECHARGE",
+    "REST",
+    "ATTRACT",
+    "OVERHEAT",
+    "WILLOWISP",
+    "SHADOWCLAW",
+    "GIGAIMPACT",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "SNARL",
+    "CONFIDE",
+    "FIRESPIN",
+    "DIG",
+    "SCREECH",
+    "SCARYFACE",
+    "IMPRISON",
+    "THUNDERFANG",
+    "FIREFANG",
+    "CRUNCH",
+    "HEX",
+    "MYSTICALFIRE",
+    "BODYSLAM",
+    "FLAREBLITZ",
+    "ENDURE",
+    "ENCORE",
+    "TEMPERFLARE",
+    "ALLURINGVOICE",
+]
+raw_tutor_moves = [
+    "BLASTBURN",
+    "EARTHPOWER",
+    "FIREPLEDGE",
+    "HEADBUTT",
+    "HEATWAVE",
+    "HELPINGHAND",
+    "HYPERVOICE",
+    "MUDSLAP",
+    "OUTRAGE",
+    "SEEDBOMB",
+    "SPITE",
+    "STOMPINGTANTRUM",
+    "SUPERPOWER",
+    "ZENHEADBUTT",
+    "SCORCHINGSANDS",
+    "DOUBLEEDGE",
+]
+compatible_egg_groups = [
+    "Field",
+]
+steps_to_hatch = 5140
+height = 0.7
+weight = 6.9
+colour = "Red"
+kind = "Singer"
+pokedex_entry = "Skeledirge’s gentle singing soothes the souls of all that hear it. It burns its enemies to a crisp with flames of over 5,400 degrees Fahrenheit."
+battler_player_y = 18
+battler_enemy_y = 12
+battler_altitude = 0
+regional_numbers = 911
+
+[base_stats]
+hp = 104
+atk = 75
+def_ = 100
+spa = 110
+spd = 75
+spe = 66
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 3
+spd = 0
+spe = 0

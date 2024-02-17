@@ -1,0 +1,97 @@
+dex_number = 1010
+name = "Iron Leaves"
+primary_type = "GRASS"
+secondary_type = "PSYCHIC"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 295
+catch_rate = 5
+caught_happiness = 0
+raw_abilities = [
+    "QUARKDRIVE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "HELPINGHAND" },
+    { at_level = 1, name = "ELECTRICTERRAIN" },
+    { at_level = 1, name = "LEER" },
+    { at_level = 1, name = "QUICKATTACK" },
+    { at_level = 1, name = "WORKUP" },
+    { at_level = 7, name = "MAGICALLEAF" },
+    { at_level = 14, name = "RETALIATE" },
+    { at_level = 21, name = "QUICKGUARD" },
+    { at_level = 28, name = "NIGHTSLASH" },
+    { at_level = 35, name = "SWORDSDANCE" },
+    { at_level = 42, name = "SACREDSWORD" },
+    { at_level = 49, name = "LEAFBLADE" },
+    { at_level = 56, name = "PSYBLADE" },
+    { at_level = 63, name = "CLOSECOMBAT" },
+    { at_level = 70, name = "IMPRISON" },
+    { at_level = 77, name = "MEGAHORN" },
+    { at_level = 84, name = "ALLYSWITCH" },
+    { at_level = 91, name = "SOLARBLADE" },
+]
+raw_tms = [
+    "CALMMIND",
+    "TAUNT",
+    "BRICKBREAK",
+    "AERIALACE",
+    "FOCUSBLAST",
+    "ENERGYBALL",
+    "FALSESWIPE",
+    "SMARTSTRIKE",
+    "GIGAIMPACT",
+    "SWORDSDANCE",
+    "XSCISSOR",
+    "GRASSKNOT",
+    "WILDCHARGE",
+    "MAGICALLEAF",
+    "SOLARBLADE",
+    "SCARYFACE",
+    "IMPRISON",
+    "LEAFBLADE",
+    "AIRSLASH",
+    "GRASSYTERRAIN",
+    "ELECTRICTERRAIN",
+    "PSYCHICTERRAIN",
+    "CLOSECOMBAT",
+    "AGILITY",
+    "REVERSAL",
+    "ENDURE",
+    "FUTURESIGHT",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "GIGADRAIN",
+    "HELPINGHAND",
+    "IRONDEFENSE",
+]
+compatible_egg_groups = [
+    "Undiscovered",
+]
+steps_to_hatch = 12800
+height = 1.5
+weight = 125.0
+colour = "Green"
+kind = "Paradox"
+pokedex_entry = "This Pokémon resembles an unknown object described in a paranormal magazine as a UFO sent to observe humanity."
+battler_player_y = 15
+battler_enemy_y = 20
+battler_altitude = 0
+internal_name = "IRONLEAVES"
+regional_numbers = 1010
+
+[base_stats]
+hp = 90
+atk = 130
+def_ = 88
+spa = 70
+spd = 108
+spe = 104
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 3
+spd = 0
+spe = 0

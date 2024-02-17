@@ -1,0 +1,118 @@
+dex_number = 1020
+name = "Gouging Fire"
+primary_type = "FIRE"
+secondary_type = "DRAGON"
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+exp_yield = 261
+catch_rate = 10
+caught_happiness = 0
+raw_abilities = [
+    "PROTOSYNTHESIS",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "STOMP" },
+    { at_level = 1, name = "LEER" },
+    { at_level = 1, name = "INCINERATE" },
+    { at_level = 1, name = "SUNNYDAY" },
+    { at_level = 7, name = "FIREFANG" },
+    { at_level = 14, name = "HOWL" },
+    { at_level = 21, name = "BITE" },
+    { at_level = 28, name = "DRAGONCLAW" },
+    { at_level = 35, name = "CRUSHCLAW" },
+    { at_level = 42, name = "MORNINGSUN" },
+    { at_level = 49, name = "BURNINGBULWARK" },
+    { at_level = 56, name = "DRAGONRUSH" },
+    { at_level = 63, name = "FIREBLAST" },
+    { at_level = 70, name = "LAVAPLUME" },
+    { at_level = 77, name = "OUTRAGE" },
+    { at_level = 84, name = "FLAREBLITZ" },
+    { at_level = 91, name = "RAGINGFURY" },
+]
+raw_tms = [
+    "DRAGONCLAW",
+    "ROAR",
+    "TOXIC",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "PROTECT",
+    "FRUSTRATION",
+    "EARTHQUAKE",
+    "RETURN",
+    "DOUBLETEAM",
+    "FLAMETHROWER",
+    "FIREBLAST",
+    "FACADE",
+    "FLAMECHARGE",
+    "REST",
+    "ROUND",
+    "OVERHEAT",
+    "SMARTSTRIKE",
+    "GIGAIMPACT",
+    "STONEEDGE",
+    "BULLDOZE",
+    "DRAGONTAIL",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "SNARL",
+    "CONFIDE",
+    "SCARYFACE",
+    "WEATHERBALL",
+    "THUNDERFANG",
+    "FIREFANG",
+    "PSYCHICFANGS",
+    "CRUNCH",
+    "BREAKINGSWIPE",
+    "BODYSLAM",
+    "FLAREBLITZ",
+    "REVERSAL",
+    "ENDURE",
+    "DRAGONDANCE",
+    "TEMPERFLARE",
+    "DRAGONCHEER",
+]
+raw_tutor_moves = [
+    "ANCIENTPOWER",
+    "DRACOMETEOR",
+    "HEATWAVE",
+    "HELPINGHAND",
+    "IRONHEAD",
+    "OUTRAGE",
+    "STOMPINGTANTRUM",
+    "SCORCHINGSANDS",
+    "SCALESHOT",
+    "MIMIC",
+    "DOUBLEEDGE",
+]
+compatible_egg_groups = [
+    "Undiscovered",
+]
+steps_to_hatch = 20655
+height = 3.5
+weight = 590.0
+colour = "Brown"
+kind = "Paradox"
+pokedex_entry = "TBA"
+battler_player_y = 16
+battler_enemy_y = 11
+battler_altitude = 0
+internal_name = "GOUGINGFIRE"
+regional_numbers = 1020
+
+[base_stats]
+hp = 105
+atk = 115
+def_ = 121
+spa = 65
+spd = 93
+spe = 91
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 3
+spa = 0
+spd = 0
+spe = 0

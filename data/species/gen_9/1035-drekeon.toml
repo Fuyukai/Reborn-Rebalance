@@ -1,0 +1,162 @@
+dex_number = 1035
+name = "Drekeon"
+primary_type = "DRAGON"
+secondary_type = "DRAGON"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Medium"
+exp_yield = 184
+catch_rate = 45
+caught_happiness = 50
+raw_abilities = [
+    "MOLDBREAKER",
+    "SWIFTSWIM",
+]
+raw_level_up_moves = [
+    { at_level = 0, name = "DRAGONRAGE" },
+    { at_level = 1, name = "DRAGONRAGE" },
+    { at_level = 1, name = "HELPINGHAND" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 1, name = "SANDATTACK" },
+    { at_level = 1, name = "TAILWHIP" },
+    { at_level = 3, name = "SWIFT" },
+    { at_level = 6, name = "BABYDOLLEYES" },
+    { at_level = 9, name = "DRAGONTAIL" },
+    { at_level = 14, name = "BITE" },
+    { at_level = 19, name = "DRAGONBREATH" },
+    { at_level = 24, name = "RECOVER" },
+    { at_level = 28, name = "CALMMIND" },
+    { at_level = 32, name = "SCALESHOT" },
+    { at_level = 35, name = "WISH" },
+    { at_level = 38, name = "GLARE" },
+    { at_level = 43, name = "DRAGONPULSE" },
+    { at_level = 53, name = "DRAGONDANCE" },
+    { at_level = 60, name = "CLANGINGSCALES" },
+    { at_level = 68, name = "HYDROPUMP" },
+    { at_level = 68, name = "FIREBLAST" },
+    { at_level = 68, name = "THUNDER" },
+]
+raw_tms = [
+    "WORKUP",
+    "DRAGONCLAW",
+    "SURF",
+    "CALMMIND",
+    "STRENGTH",
+    "ROAR",
+    "TOXIC",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "SMACKDOWN",
+    "EARTHQUAKE",
+    "RETURN",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "REFLECT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ECHOEDVOICE",
+    "BRUTALSWING",
+    "SHADOWCLAW",
+    "GIGAIMPACT",
+    "STONEEDGE",
+    "SWORDSDANCE",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "DRAGONTAIL",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "PAYDAY",
+    "DIG",
+    "SCARYFACE",
+    "CHARM",
+    "WHIRLPOOL",
+    "WEATHERBALL",
+    "FAKETEARS",
+    "BRINE",
+    "THUNDERFANG",
+    "ICEFANG",
+    "CRUNCH",
+    "BREAKINGSWIPE",
+    "BODYSLAM",
+    "FOCUSENERGY",
+    "AMNESIA",
+    "ENDURE",
+    "BATONPASS",
+    "ENCORE",
+    "DRAGONDANCE",
+    "AURASPHERE",
+    "STOREDPOWER",
+    "BODYPRESS",
+    "RETALIATE",
+    "TRAILBLAZE",
+    "CHILLINGWATER",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "ANCIENTPOWER",
+    "AQUATAIL",
+    "COVET",
+    "DRACOMETEOR",
+    "DRAGONPULSE",
+    "EARTHPOWER",
+    "HEADBUTT",
+    "HEALBELL",
+    "HELPINGHAND",
+    "HYPERVOICE",
+    "IRONHEAD",
+    "IRONTAIL",
+    "LASTRESORT",
+    "MUDSLAP",
+    "OUTRAGE",
+    "SNORE",
+    "STOMPINGTANTRUM",
+    "SUPERPOWER",
+    "THROATCHOP",
+    "TWISTER",
+    "WATERPULSE",
+    "ZENHEADBUTT",
+    "FLIPTURN",
+    "SCALESHOT",
+    "WAVECRASH",
+    "DOUBLEEDGE",
+    "CELEBRATE",
+]
+compatible_egg_groups = [
+    "Field",
+]
+steps_to_hatch = 5255
+height = 1.3
+weight = 26.0
+colour = "Green"
+kind = "Scale"
+pokedex_entry = "Drekeons scales are hard like diamond. It is said that its scales contain magical powers to create miracles."
+battler_player_y = 24
+battler_enemy_y = 17
+battler_altitude = 0
+raw_hidden_ability = "MULTISCALE"
+habitat = "Urban"
+
+[base_stats]
+hp = 95
+atk = 60
+def_ = 110
+spa = 130
+spd = 65
+spe = 65
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 2
+spd = 0
+spe = 0

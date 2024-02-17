@@ -1,0 +1,136 @@
+dex_number = 956
+name = "Espathra"
+primary_type = "PSYCHIC"
+secondary_type = "PSYCHIC"
+gender_ratio = "Female50Percent"
+growth_rate = "Parabolic"
+exp_yield = 155
+catch_rate = 60
+caught_happiness = 50
+raw_abilities = [
+    "OPPORTUNIST",
+    "FRISK",
+]
+raw_level_up_moves = [
+    { at_level = 0, name = "LUMINACRASH" },
+    { at_level = 1, name = "DRILLPECK" },
+    { at_level = 1, name = "FEATHERDANCE" },
+    { at_level = 1, name = "PECK" },
+    { at_level = 1, name = "GROWL" },
+    { at_level = 5, name = "CONFUSION" },
+    { at_level = 8, name = "BABYDOLLEYES" },
+    { at_level = 11, name = "DISARMINGVOICE" },
+    { at_level = 15, name = "QUICKATTACK" },
+    { at_level = 19, name = "PSYBEAM" },
+    { at_level = 24, name = "PLUCK" },
+    { at_level = 29, name = "AGILITY" },
+    { at_level = 34, name = "UPROAR" },
+    { at_level = 43, name = "DAZZLINGGLEAM" },
+    { at_level = 49, name = "PSYCHIC" },
+    { at_level = 54, name = "LASTRESORT" },
+]
+raw_tms = [
+    "PSYSHOCK",
+    "CALMMIND",
+    "TOXIC",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "REFLECT",
+    "SANDSTORM",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ENERGYBALL",
+    "EMBARGO",
+    "GIGAIMPACT",
+    "PSYCHUP",
+    "DREAMEATER",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "FLASHCANNON",
+    "TRICKROOM",
+    "SECRETPOWER",
+    "DAZZLINGGLEAM",
+    "CONFIDE",
+    "POWERSWAP",
+    "GUARDSWAP",
+    "SPEEDSWAP",
+    "HEX",
+    "PSYCHICTERRAIN",
+    "BODYSLAM",
+    "BRAVEBIRD",
+    "AGILITY",
+    "ENDURE",
+    "BATONPASS",
+    "FUTURESIGHT",
+    "COSMICPOWER",
+    "STOREDPOWER",
+    "POUNCE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AFTERYOU",
+    "DEFOG",
+    "FOULPLAY",
+    "GRAVITY",
+    "HELPINGHAND",
+    "HYPERVOICE",
+    "LOWKICK",
+    "MAGICCOAT",
+    "MAGICROOM",
+    "MUDSLAP",
+    "OMINOUSWIND",
+    "ROLEPLAY",
+    "SEEDBOMB",
+    "SKILLSWAP",
+    "TELEKINESIS",
+    "TRICK",
+    "WONDERROOM",
+    "ZENHEADBUTT",
+    "EXPANDINGFORCE",
+    "MYSTICALPOWER",
+    "ESPERWING",
+    "DOUBLEEDGE",
+]
+compatible_egg_groups = [
+    "Flying",
+]
+steps_to_hatch = 5140
+height = 1.9
+weight = 90.0
+colour = "Yellow"
+kind = "Ostrich"
+pokedex_entry = "It immobilizes opponents by bathing them in psychic power from its large eyes. Despite its appearance, it has a vicious temperament."
+battler_player_y = 14
+battler_enemy_y = 12
+battler_altitude = 0
+raw_hidden_ability = "SPEEDBOOST"
+regional_numbers = 956
+
+[base_stats]
+hp = 95
+atk = 60
+def_ = 60
+spa = 101
+spd = 60
+spe = 105
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 2

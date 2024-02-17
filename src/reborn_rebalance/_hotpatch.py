@@ -78,7 +78,7 @@ def read(self: Reader, token=None):
             options = ord(self.fd.read(1))
             flags = 0
             if options & 1:
-                flags |= re.IGNORECASE
+                flags |= re.IGNORECASE  # type: ignore
             if options & 4:
                 flags |= re.MULTILINE
 

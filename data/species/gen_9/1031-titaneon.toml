@@ -1,0 +1,151 @@
+dex_number = 1031
+name = "Titaneon"
+primary_type = "STEEL"
+secondary_type = "STEEL"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Medium"
+exp_yield = 184
+catch_rate = 45
+caught_happiness = 50
+raw_abilities = [
+    "UNBURDEN",
+    "MOXIE",
+]
+raw_level_up_moves = [
+    { at_level = 0, name = "METALCLAW" },
+    { at_level = 1, name = "BATONPASS" },
+    { at_level = 1, name = "METALCLAW" },
+    { at_level = 1, name = "HELPINGHAND" },
+    { at_level = 1, name = "TAILWHIP" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 1, name = "SANDATTACK" },
+    { at_level = 3, name = "METALSOUND" },
+    { at_level = 6, name = "BITE" },
+    { at_level = 9, name = "SWAGGER" },
+    { at_level = 14, name = "SCARYFACE" },
+    { at_level = 19, name = "BULLETPUNCH" },
+    { at_level = 24, name = "HONECLAWS" },
+    { at_level = 28, name = "SLASH" },
+    { at_level = 32, name = "AUTOTOMIZE" },
+    { at_level = 35, name = "TAKEDOWN" },
+    { at_level = 38, name = "NIGHTSLASH" },
+    { at_level = 43, name = "IRONTAIL" },
+    { at_level = 48, name = "DOUBLEEDGE" },
+    { at_level = 53, name = "IRONHEAD" },
+    { at_level = 60, name = "PLAYROUGH" },
+    { at_level = 68, name = "METEORMASH" },
+]
+raw_tms = [
+    "WORKUP",
+    "CUT",
+    "CALMMIND",
+    "ROAR",
+    "TOXIC",
+    "ROCKSMASH",
+    "BULKUP",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "SMACKDOWN",
+    "RETURN",
+    "SHADOWBALL",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "REFLECT",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "LOWSWEEP",
+    "ROUND",
+    "ECHOEDVOICE",
+    "BRUTALSWING",
+    "SHADOWCLAW",
+    "GIGAIMPACT",
+    "SWORDSDANCE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "FLASHCANNON",
+    "WILDCHARGE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "MEGAKICK",
+    "PAYDAY",
+    "DIG",
+    "SCARYFACE",
+    "CHARM",
+    "BEATUP",
+    "WEATHERBALL",
+    "FAKETEARS",
+    "ASSURANCE",
+    "CRUNCH",
+    "PSYCHOCUT",
+    "BODYSLAM",
+    "CLOSECOMBAT",
+    "FOCUSENERGY",
+    "ENDURE",
+    "BATONPASS",
+    "ENCORE",
+    "STOREDPOWER",
+    "PLAYROUGH",
+    "RETALIATE",
+    "TRAILBLAZE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AQUATAIL",
+    "COVET",
+    "FURYCUTTER",
+    "HEADBUTT",
+    "HEALBELL",
+    "HELPINGHAND",
+    "HYPERVOICE",
+    "IRONDEFENSE",
+    "IRONHEAD",
+    "IRONTAIL",
+    "KNOCKOFF",
+    "LASTRESORT",
+    "LOWKICK",
+    "MUDSLAP",
+    "OUTRAGE",
+    "SNORE",
+    "THROATCHOP",
+    "DOUBLEEDGE",
+    "CELEBRATE",
+]
+compatible_egg_groups = [
+    "Field",
+]
+steps_to_hatch = 5255
+height = 1.1
+weight = 25.3
+colour = "Green"
+kind = "Blade"
+pokedex_entry = "A formidable fighter using its sharp blade-like tail and claws. Its body is armored with very light but sturdy metal for attack and defense."
+battler_player_y = 24
+battler_enemy_y = 17
+battler_altitude = 0
+raw_hidden_ability = "NOGUARD"
+habitat = "Urban"
+
+[base_stats]
+hp = 65
+atk = 110
+def_ = 130
+spa = 60
+spd = 65
+spe = 95
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 2
+spa = 0
+spd = 0
+spe = 0

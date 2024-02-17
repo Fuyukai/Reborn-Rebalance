@@ -5536,7 +5536,7 @@ show_area_tooltip = true
 can_use_bicycle = true
 weather = [
     "Snow",
-    "100",
+    100,
 ]
 battle_background = "SnowyMountain"
 
@@ -11420,6 +11420,14 @@ trainer_battle_music = "Battle- Trainer3.ogg"
 wild_battle_music = "Battle- Wild3.ogg"
 battle_background = "NewWorld"
 
+[maps.918]
+id = 918
+parent_id = 209
+name = "Pecha Hideout"
+trainer_battle_music = "Battle- Trainer3.ogg"
+wild_battle_music = "Battle- Wild3.ogg"
+battle_background = "Wasteland"
+
 [maps.28]
 id = 28
 parent_id = 24
@@ -11519,3 +11527,13 @@ name = "Ending Handler"
 id = 902
 parent_id = 306
 name = "Citae Astrae"
+
+[maps.916]
+id = 916
+parent_id = 735
+name = "Void"
+
+[maps.917]
+id = 917
+parent_id = 439
+name = "Ogerpon Cave"

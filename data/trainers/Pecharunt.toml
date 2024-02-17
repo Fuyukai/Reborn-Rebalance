@@ -1,0 +1,27 @@
+trainer_name = "Pecharunt"
+
+[trainers.PECHARUNT.0]
+raw_trainer_class = "PECHARUNT"
+battler_name = "Pecharunt"
+
+[[trainers.PECHARUNT.0.pokemon]]
+internal_name = "PECHARUNT"
+level = 125
+raw_item = "FOCUSSASH"
+raw_moves = [
+    "RECOVER",
+    "POISONGAS",
+    "SUBSTITUTE",
+    "NIGHTSHADE",
+]
+sex = ""
+nature = "CALM"
+iv = 31
+
+[trainers.PECHARUNT.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252

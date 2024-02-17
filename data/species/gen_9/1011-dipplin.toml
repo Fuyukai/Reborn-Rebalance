@@ -1,0 +1,111 @@
+dex_number = 1011
+name = "Dipplin"
+primary_type = "GRASS"
+secondary_type = "DRAGON"
+gender_ratio = "Female50Percent"
+growth_rate = "Erratic"
+exp_yield = 170
+catch_rate = 45
+caught_happiness = 50
+raw_abilities = [
+    "SUPERSWEETSYRUP",
+    "GLUTTONY",
+]
+raw_level_up_moves = [
+    { at_level = 0, name = "DOUBLEHIT" },
+    { at_level = 1, name = "RECYCLE" },
+    { at_level = 1, name = "WITHDRAW" },
+    { at_level = 1, name = "ASTONISH" },
+    { at_level = 1, name = "SWEETSCENT" },
+    { at_level = 4, name = "DRAGONTAIL" },
+    { at_level = 8, name = "GROWTH" },
+    { at_level = 12, name = "DRAGONBREATH" },
+    { at_level = 16, name = "PROTECT" },
+    { at_level = 20, name = "BULLETSEED" },
+    { at_level = 28, name = "SYRUPBOMB" },
+    { at_level = 32, name = "DRAGONPULSE" },
+    { at_level = 36, name = "RECOVER" },
+    { at_level = 40, name = "ENERGYBALL" },
+    { at_level = 44, name = "SUBSTITUTE" },
+]
+raw_tms = [
+    "TOXIC",
+    "HIDDENPOWER",
+    "HYPERBEAM",
+    "PROTECT",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "DOUBLETEAM",
+    "REFLECT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ENERGYBALL",
+    "GIGAIMPACT",
+    "GYROBALL",
+    "DRAGONTAIL",
+    "INFESTATION",
+    "GRASSKNOT",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "MAGICALLEAF",
+    "BULLETSEED",
+    "GRASSYTERRAIN",
+    "BODYSLAM",
+    "LEAFSTORM",
+    "POLLENPUFF",
+    "POUNCE",
+    "DRAGONCHEER",
+]
+raw_tutor_moves = [
+    "BUGBITE",
+    "DRACOMETEOR",
+    "DRAGONPULSE",
+    "DUALCHOP",
+    "GIGADRAIN",
+    "OUTRAGE",
+    "RECYCLE",
+    "SEEDBOMB",
+    "SUCKERPUNCH",
+    "GRASSYGLIDE",
+    "MIMIC",
+    "DOUBLEEDGE",
+]
+compatible_egg_groups = [
+    "Grass",
+    "Dragon",
+]
+steps_to_hatch = 2560
+height = 0.4
+weight = 4.4
+colour = "Green"
+kind = "Candy Apple"
+pokedex_entry = "Dipplin is two creatures in one Pokémon. Its evolution was triggered by a special apple grown only in one place."
+battler_player_y = 15
+battler_enemy_y = 20
+battler_altitude = 0
+raw_hidden_ability = "STICKYHOLD"
+evolutions = [
+    { into_name = "HYDRAPPLE", condition = "HasMove", parameter = "DRAGONCHEER" },
+]
+regional_numbers = 1011
+
+[base_stats]
+hp = 80
+atk = 80
+def_ = 110
+spa = 95
+spd = 80
+spe = 40
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 2
+spa = 0
+spd = 0
+spe = 0

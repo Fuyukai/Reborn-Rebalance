@@ -1,0 +1,149 @@
+dex_number = 1028
+name = "Hawkeon"
+primary_type = "FLYING"
+secondary_type = "FLYING"
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Medium"
+exp_yield = 184
+catch_rate = 45
+caught_happiness = 50
+raw_abilities = [
+    "INFILTRATOR",
+    "SERENEGRACE",
+]
+raw_level_up_moves = [
+    { at_level = 0, name = "AIRCUTTER" },
+    { at_level = 1, name = "BATONPASS" },
+    { at_level = 1, name = "AIRCUTTER" },
+    { at_level = 1, name = "HELPINGHAND" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 1, name = "TAILWHIP" },
+    { at_level = 1, name = "SANDATTACK" },
+    { at_level = 3, name = "CHARM" },
+    { at_level = 6, name = "GUST" },
+    { at_level = 9, name = "DEFOG" },
+    { at_level = 14, name = "SWIFT" },
+    { at_level = 19, name = "AGILITY" },
+    { at_level = 24, name = "ICYWIND" },
+    { at_level = 28, name = "DOUBLETEAM" },
+    { at_level = 32, name = "AIRSLASH" },
+    { at_level = 35, name = "WHIRLWIND" },
+    { at_level = 38, name = "ROOST" },
+    { at_level = 43, name = "BODYSLAM" },
+    { at_level = 48, name = "TAILWIND" },
+    { at_level = 53, name = "BRAVEBIRD" },
+    { at_level = 60, name = "FEATHERDANCE" },
+    { at_level = 68, name = "HURRICANE" },
+]
+raw_tms = [
+    "WORKUP",
+    "FLY",
+    "CALMMIND",
+    "ROAR",
+    "TOXIC",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "ROOST",
+    "FRUSTRATION",
+    "RETURN",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "REFLECT",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ECHOEDVOICE",
+    "STEELWING",
+    "SKYDROP",
+    "ACROBATICS",
+    "GIGAIMPACT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "NATUREPOWER",
+    "CONFIDE",
+    "PAYDAY",
+    "DIG",
+    "SCREECH",
+    "CHARM",
+    "WEATHERBALL",
+    "FAKETEARS",
+    "AIRSLASH",
+    "BREAKINGSWIPE",
+    "BODYSLAM",
+    "HURRICANE",
+    "BRAVEBIRD",
+    "AGILITY",
+    "FOCUSENERGY",
+    "ENDURE",
+    "BATONPASS",
+    "ENCORE",
+    "NASTYPLOT",
+    "STOREDPOWER",
+    "BODYPRESS",
+    "RETALIATE",
+    "TRAILBLAZE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AFTERYOU",
+    "COVET",
+    "DEFOG",
+    "HEADBUTT",
+    "HEALBELL",
+    "HEATWAVE",
+    "HELPINGHAND",
+    "HYPERVOICE",
+    "ICYWIND",
+    "IRONTAIL",
+    "LASTRESORT",
+    "MUDSLAP",
+    "OMINOUSWIND",
+    "SKYATTACK",
+    "SNATCH",
+    "SNORE",
+    "TAILWIND",
+    "TWISTER",
+    "UPROAR",
+    "DUALWINGBEAT",
+    "SKITTERSMACK",
+    "DOUBLEEDGE",
+    "CELEBRATE",
+]
+compatible_egg_groups = [
+    "Field",
+]
+steps_to_hatch = 5255
+height = 1.3
+weight = 19.1
+colour = "Brown"
+kind = "Turbulence"
+pokedex_entry = "With its wing-like ears it is able to create strong gusts of wind and can stay in mid-flight for hours."
+battler_player_y = 24
+battler_enemy_y = 17
+battler_altitude = 0
+raw_hidden_ability = "GALEWINGS"
+habitat = "Urban"
+
+[base_stats]
+hp = 110
+atk = 60
+def_ = 65
+spa = 95
+spd = 65
+spe = 130
+
+[ev_yield]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 2
