@@ -346,6 +346,9 @@ def main():
     with (output_dir / "changelog.html").open(mode="w", encoding="utf-8") as f:
         f.write(env.get_template("changelog/page.html").render())
 
+    with (output_dir / "index.html").open(mode="w", encoding="utf-8") as f:
+        f.write(env.get_template("index.html").render())
+
     (output_dir / "species").mkdir(exist_ok=True, parents=True)
     (output_dir / "species" / "specific").mkdir(exist_ok=True, parents=True)
     with (output_dir / "species" / "index.html").open(mode="w", encoding="utf-8") as f:

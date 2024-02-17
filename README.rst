@@ -41,8 +41,8 @@ Pre-built versions are available from the Releases tab of the repository.
 2. Download the `All-Gen`_ patch, and extract it over Pokémon Reborn. (The pre-patched version will
    work fine).
 
-   This was built on top of version 3.5.0a, but any version should theoretically work. This mod
-   mostly contains new game data and new events, but minimal code changes.
+   This was built on top of version 6.5.0a. **Versions must match!** Otherwise, you will get cryptic
+   errors due to trainer teams not matching.
 
 3. Download the `E19 Music Pack`_ and install it over the All-Gen patch. Don't bother with
    ``trainertypes.dat``, it's going to be overwritten in a minute. Don't get the compatibility
