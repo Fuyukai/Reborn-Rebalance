@@ -90,7 +90,7 @@ def create_cattrs_converter() -> cattrs.Converter:
 CONVERTER = create_cattrs_converter()
 
 
-def load_single_species_toml(path: Path) -> (int, PokemonSpecies):
+def load_single_species_toml(path: Path) -> tuple[int, PokemonSpecies]:
     """
     Loads a single species from the provided TOML file.
 
@@ -181,7 +181,7 @@ def save_all_species_to_toml(output_path: Path, input_pokemon: list[PokemonSpeci
     for idx, species in enumerate(input_pokemon):
         idx += 1
 
-        for gidx, gen_range in enumerate(GENERATIONS):
+        for gidx, gen_range in enumerate(GENERATIONS):  # noqa: B007
             if idx in gen_range:
                 break
         else:
@@ -254,15 +254,10 @@ def load_moves_from_pbs(path: Path) -> list[PokemonMove]:
     Loads all moves from the provided ``PBS/moves.txt`` file.
     """
 
-    moves: list[PokemonMove] = []
-
     with path.open(mode="r", encoding="utf-8") as f:
         reader = csv.reader(f)
 
-        for line in reader:
-            moves.append(PokemonMove.load_from_pbs_line(line))
-
-    return moves
+        return [PokemonMove.load_from_pbs_line(line) for line in reader]
 
 
 def load_moves_from_toml(path: Path) -> list[PokemonMove]:
@@ -273,11 +268,7 @@ def load_moves_from_toml(path: Path) -> list[PokemonMove]:
     with path.open(encoding="utf-8", mode="r") as f:
         data = load(f)["moves"]
 
-    moves: list[PokemonMove] = []
-    for move in data:
-        moves.append(CONVERTER.structure(move, PokemonMove))
-
-    return moves
+    return [CONVERTER.structure(move, PokemonMove) for move in data]
 
 
 def save_moves_to_toml(path: Path, moves: list[PokemonMove]):
@@ -321,8 +312,7 @@ def load_items_from_pbs(path: Path) -> list[PokemonItem]:
     with path.open(mode="r", encoding="utf-8") as f:
         reader = csv.reader(f)
 
-        for line in reader:
-            items.append(PokemonItem.from_row(line))
+        return [PokemonItem.from_row(i) for i in reader]
 
     return items
 
@@ -335,11 +325,7 @@ def load_items_from_toml(path: Path) -> list[PokemonItem]:
     with path.open(encoding="utf-8", mode="r") as f:
         data = load(f)["items"]
 
-    items: list[PokemonItem] = []
-    for item in data:
-        items.append(CONVERTER.structure(item, PokemonItem))
-
-    return items
+    return [CONVERTER.structure(i, PokemonItem) for i in data]
 
 
 def save_items_to_pbs(output_path: Path, items: list[PokemonItem]):
@@ -407,16 +393,11 @@ def load_tms_from_toml(path: Path) -> list[TechnicalMachine]:
     This produces full, complete TM objects.
     """
 
-    tms: list[TechnicalMachine] = []
-
     with path.open(encoding="utf-8", mode="r") as f:
         data = load(f)
         real_data = data["tm"] + data["tutor"]
 
-        for tm in real_data:
-            tms.append(CONVERTER.structure(tm, TechnicalMachine))
-
-    return tms
+        return [CONVERTER.structure(tm, TechnicalMachine) for tm in real_data]
 
 
 def save_tms_to_toml(path: Path, tms: list[TechnicalMachine]):
@@ -429,7 +410,7 @@ def save_tms_to_toml(path: Path, tms: list[TechnicalMachine]):
         return
 
     real_dict = {
-        "tm": sorted([it for it in tms if not it.is_tutor], key=lambda it: it.number),
+        "tm": sorted([it for it in tms if not it.is_tutor], key=lambda it: it.number or 0),
         "tutor": sorted([it for it in tms if it.is_tutor], key=lambda it: it.move),
     }
 
