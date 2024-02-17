@@ -764,7 +764,7 @@ class EssentialsCatalog:
 
         after = []
         after = [(self.species_mapping[into.into_name], into) for into in species.evolutions]
-        
+
         if not (before or after):
             return None
 

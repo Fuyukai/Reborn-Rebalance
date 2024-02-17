@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from pathlib import Path
-from typing import Any
+from typing import Any, cast
 
 import attr
 from cattrs import Converter
@@ -172,12 +172,12 @@ class MapMetadata:
         is_outdoors = data.pop("Outdoor", "false") == "true"
 
         if "MapPosition" in data:
-            map_position = tuple(map(int, data.pop("MapPosition").split(",")))
+            map_position = tuple(map(int, cast(str, data.pop("MapPosition")).split(",")))
         else:
             map_position = None
 
-        trainer_battle_music = data.pop("TrainerBattleBGM", None)
-        wild_battle_music = data.pop("WildBattleBGM", None)
+        trainer_battle_music: str | None = cast(str | None, data.pop("TrainerBattleBGM", None))
+        wild_battle_music: str | None = cast(str | None, data.pop("WildBattleBGM", None))
 
         # thanks, all-gen patch guy
         if "Showarea" in data:
@@ -187,24 +187,28 @@ class MapMetadata:
 
         can_use_bicycle = data.pop("Bicycle", "false") == "true"
         raw_healing_spot = data.pop("HealingSpot", None)
-        healing_spot = tuple(map(int, raw_healing_spot.split(","))) if raw_healing_spot else None
+        healing_spot = (
+            tuple(map(int, cast(str, raw_healing_spot).split(","))) if raw_healing_spot else None
+        )
 
-        weather = data.pop("Weather", None)
-        if weather:
-            weather = tuple(weather.split(","))
+        weather: tuple[str, int] | None = None
+        raw_weather = data.pop("Weather", None)
+        if isinstance(raw_weather, str):
+            weather_split = raw_weather.split(",", 2)
+            weather = (weather_split[0], int(weather_split[1]))
 
-        dive_map_id = data.pop("DiveMap", None)
+        dive_map_id = cast(int | None, data.pop("DiveMap", None))
         safari_zone = data.pop("SafariMap", "false") == "true"
         is_dark = data.pop("DarkMap", "false") == "true"
         snap_edges = data.pop("SnapEdges", "false") == "true"
         is_dungeon = data.pop("Dungeon", "false") == "true"
-        battle_background = data.pop("BattleBack", None)
+        battle_background = cast(str | None, data.pop("BattleBack", None))
         if battle_background is None:
             print(f"warning: map {id} has missing battle background")
 
-        wild_victory_sfx = data.pop("WildVictoryME", None)
-        trainer_victory_sfx = data.pop("TrainerVictoryME", None)
-        map_size = data.pop("MapSize", None)
+        wild_victory_sfx = cast(str | None, data.pop("WildVictoryME", None))
+        trainer_victory_sfx = cast(str | None, data.pop("TrainerVictoryME", None))
+        map_size = cast(str | None, data.pop("MapSize", None))
 
         # always false in the reborn metadata.
         # TODO: maybe store this for other games?
@@ -222,7 +226,7 @@ class MapMetadata:
             is_outdoors=is_outdoors,
             show_area_tooltip=show_area_tooltip,
             can_use_bicycle=can_use_bicycle,
-            healing_spot=healing_spot,
+            healing_spot=cast(tuple[int, int, int], healing_spot),
             weather=weather,
             dive_map_id=dive_map_id,
             is_dark=is_dark,

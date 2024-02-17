@@ -17,6 +17,7 @@ AnyRubyObject = TypeVar("AnyRubyObject", contravariant=True)
 # disgusting hotpatch
 _hotpatch._patch()
 
+
 # https://github.com/Solistra/rvpacker/blob/develop/lib/rvpacker/rgss.rb#L27
 class RgssTable(UserDef):
     """

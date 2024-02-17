@@ -154,7 +154,7 @@ def read(self: Reader, token=None):
             raise ValueError(
                 "invalid link destination: %d should be lower than %d." % (link_id, object_index)
             )
-        
+
         try:
             result = self.objects[link_id]
         except IndexError:
