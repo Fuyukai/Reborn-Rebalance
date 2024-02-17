@@ -22,14 +22,14 @@ rtoml = ">=0.10.0"
 tomli-w = ">=1.0.0"
 tomlkit = ">=0.12.3"
 tqdm = ">=4.66.2"
-typing-extensions = "^4.9.0"
+typing-extensions = ">=4.9.0"
 
 [tool.poetry.scripts]
 into-pbs = "reborn_rebalance.building.to_pbs:build_to_pbs"
 into-toml = "reborn_rebalance.building.to_toml:import_to_toml"
 ruby-unmarshal = "reborn_rebalance.scripts.unmarshal:main"
 build-web = "reborn_rebalance.building.web:main"
-unfuck = "reborn_rebalance.scripts.unfuck:main"
+copy-compiled-files = "reborn_rebalance.scripts.copy_changes:main"
 
 [tool.poetry.group.dev.dependencies]
 ruff = ">=0.2.1"

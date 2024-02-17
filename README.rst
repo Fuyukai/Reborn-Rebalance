@@ -85,13 +85,11 @@ mod easily. Edit the files in ``data`` as appropriate, then do the following:
         --game-dir <path to Reborn directory> \
         ./data ./templates ./website
 
-Then, you need to run Pokémon Reborn in debug mode, go to the Debug menu, and press
-Compile All Data.
+6. Load the game into Debug mode and run "Compile All Data".
 
 Future Plans
 ------------
 
-- Add proper custom events for the Gen 8 + 9 legends so you can't shithouse the endgame with them.
 - More boss tweaks, especially post-game.
 - Try and make most of the movesets legal... (they're mostly not even legal in the vanilla game).
 - Add more events for freshly rebalanced Pokémon.
