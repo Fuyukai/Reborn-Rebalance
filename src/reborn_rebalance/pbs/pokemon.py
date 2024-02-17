@@ -476,8 +476,8 @@ class PokemonSpecies:
         compatibility = [EggGroup[it] for it in raw_compatibility]
 
         steps_to_hatch = data.pop_int("StepsToHatch", 128)
-        height = float(data.pop_int("Height"))
-        weight = float(data.pop_int("Weight"))
+        height = float(data.pop("Height"))
+        weight = float(data.pop("Weight"))
         colour = data.pop_str("Color", "White")
         habitat = data.pop_str("Habitat", None)
         kind = data.pop_str("Kind", "???")

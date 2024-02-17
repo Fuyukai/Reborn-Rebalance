@@ -57,22 +57,22 @@ class KeyValueParser:
         # _entries stores the actual value of _current when we see a number.
         # fjdsfy im mentally overstimulated tonight so just pretend you know what im talking about.
 
-        self._entries: dict[int, KvResultDict] = {}
-        self._current: KvResultDict = KvResultDict()
+        self._entries: dict[int, dict[str, str | int]] = {}
+        self._current: dict[str, str | int] = {}
 
     def reset(self):
         self._entries = {}
-        self._current = KvResultDict()
+        self._current = {}
 
-    def parse(self, lines: Iterator[str]) -> dict[int, KvResultDict]:
+    def parse(self, lines: Iterator[str]) -> dict[int, dict[str, str | int]]:
         for line in lines:
             line = line.strip()
 
             # le number line
             if line.startswith("["):
                 number = int(line[1:-1])
-                self._current = KvResultDict()
-                self._entries[number] = KvResultDict(self._current)
+                self._current = {}
+                self._entries[number] = self._current
                 continue
 
             if line.startswith("#"):
@@ -95,8 +95,9 @@ def raw_parse_kv(path: Path) -> dict[int, KvResultDict]:
     parser = KeyValueParser()
 
     with path.open(mode="r", encoding="utf-8") as f:
-        return parser.parse(iter(f.readline, ""))
+        result = parser.parse(iter(f.readline, ""))
 
+        return {key: KvResultDict(value) for (key, value) in result.items()}
 
 if __name__ == "__main__":
     from pprint import pp

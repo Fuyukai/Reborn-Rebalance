@@ -113,7 +113,7 @@ def load_all_species_from_pbs(path: Path) -> list[PokemonSpecies]:
     """
 
     raw_data = raw_parse_kv(path)
-    return [PokemonSpecies.from_pbs(key, it) for key, it in raw_data.items()]
+    return [PokemonSpecies.from_pbs(key, it) for key, it in raw_data.items() if it]
 
 
 def load_all_species_from_toml(path: Path, *, singlethreaded: bool = False) -> list[PokemonSpecies]:
@@ -257,7 +257,7 @@ def load_moves_from_pbs(path: Path) -> list[PokemonMove]:
     with path.open(mode="r", encoding="utf-8") as f:
         reader = csv.reader(f)
 
-        return [PokemonMove.load_from_pbs_line(line) for line in reader]
+        return [PokemonMove.load_from_pbs_line(line) for line in reader if line]
 
 
 def load_moves_from_toml(path: Path) -> list[PokemonMove]:
