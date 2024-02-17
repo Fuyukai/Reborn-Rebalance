@@ -1,4 +1,4 @@
-from collections.abc import Iterable, Iterator, Sequence
+from collections.abc import Generator, Iterable, Iterator, Sequence
 from contextlib import contextmanager
 from io import StringIO
 from typing import Any, TypeVar
@@ -20,7 +20,7 @@ def chunks(lst: list[_ChunkType], n: int) -> Iterable[list[_ChunkType]]:
 
 def get_safely(
     thing: Sequence[_GetSafelyType], index: int, default: _GetSafelyType = None
-) -> _GetSafelyType | None:
+) -> _GetSafelyType:
     try:
         return thing[index]
     except IndexError:
@@ -75,7 +75,7 @@ class RubyBuffer:
         self.backing = StringIO()
 
     @contextmanager
-    def indented(self) -> None:
+    def indented(self) -> Generator[None, None, None]:
         try:
             self._indent += 4
             yield

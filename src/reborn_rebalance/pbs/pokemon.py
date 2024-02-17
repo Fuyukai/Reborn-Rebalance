@@ -9,6 +9,7 @@ from cattrs import Converter
 from cattrs.gen import make_dict_unstructure_fn
 
 from reborn_rebalance.pbs.move import MoveCategory, PokemonMove
+from reborn_rebalance.pbs.raw.kv import KvResultDict
 from reborn_rebalance.pbs.type import PokemonType
 from reborn_rebalance.util import PbsBuffer, chunks, get_safely
 
@@ -133,12 +134,11 @@ class StatWrapper:
             stats = [stats[0], stats[1], stats[2], stats[4], stats[5], stats[3]]
             return cls(*stats)
 
-        else:
-            # new-style EV format...
-            raise NotImplementedError("not yet")
+        # new-style EV format...
+        raise NotImplementedError("not yet")
 
     @classmethod
-    def from_incomplete_list(cls, items: list[int | str]) -> StatWrapper:
+    def from_incomplete_list(cls, items: list[int]) -> StatWrapper:
         """
         Creates a new stat wrapper from an incomplete list.
         """
@@ -171,8 +171,7 @@ class StatWrapper:
         if for_format == PbsStatFormat.REBORN_STYLE:
             return f"{self.hp},{self.atk},{self.def_},{self.spe},{self.spa},{self.spd}"
 
-        else:
-            raise NotImplementedError("not yet")
+        raise NotImplementedError("not yet")
 
 
 class SexRatio(enum.Enum):
@@ -407,25 +406,25 @@ class PokemonSpecies:
     def full_abilities(self) -> list[str]:
         if self.raw_hidden_ability:
             return [*self.raw_abilities, self.raw_hidden_ability]
-        else:
-            return self.raw_abilities
+
+        return self.raw_abilities
 
     @classmethod
-    def from_pbs(cls, dex_number: int, data: dict[str, str | int]) -> PokemonSpecies:
+    def from_pbs(cls, dex_number: int, data: KvResultDict) -> PokemonSpecies:
         """
         Creates a new :class:`.PokemonSpecies` from the raw ``pokemon.txt`` data.
 
         Note that you will need to backfill the TMs field manually after calling this.
         """
 
-        name = data.pop("Name")
-        internal_name = data.pop("InternalName", name.upper())
+        name = data.pop_str("Name")
+        internal_name = data.pop_str("InternalName", name.upper())
 
         # annoyingly, the base stats are in the WRONG ORDER
         # normal order: hp,atk,def,spa,spd,spe
         # PBS order: hp,atk,def,spe,spa,spd
         base_stats = StatWrapper.from_pbs(
-            data.pop("BaseStats"), for_format=PbsStatFormat.REBORN_STYLE
+            data.pop_str("BaseStats"), for_format=PbsStatFormat.REBORN_STYLE
         )
 
         primary_type: PokemonType
@@ -434,13 +433,13 @@ class PokemonSpecies:
         # new essentials: Types=FLYING,FAIRY
         # old (reborn) essentials: Type1=Flying ; Type2=Fairy
         if "Types" in data:
-            types = [i.strip() for i in data.pop("types").split(",")]
+            types = [i.strip() for i in data.pop_str("types").split(",")]
             primary_type = PokemonType[types[0]]
 
             secondary_type = PokemonType[types[1]] if len(types) >= 1 else primary_type
         else:
-            primary_type = PokemonType[data.pop("Type1")]
-            secondary_type_name = data.pop("Type2", None)
+            primary_type = PokemonType[data.pop_str("Type1")]
+            secondary_type_name = data.pop_str("Type2", None)
 
             if secondary_type_name:
                 secondary_type = PokemonType[secondary_type_name]
@@ -448,53 +447,55 @@ class PokemonSpecies:
                 secondary_type = primary_type
 
         if "GenderRatio" in data:  # newer essentials versions
-            gender_ratio = SexRatio[data.pop("GenderRatio")]
+            gender_ratio = SexRatio[data.pop_str("GenderRatio")]
         else:
-            gender_ratio = SexRatio[data.pop("GenderRate")]
+            gender_ratio = SexRatio[data.pop_str("GenderRate")]
 
-        growth_rate = GrowthRate[data.pop("GrowthRate")]
-        exp_yield = data.pop("BaseEXP")
-        evs = StatWrapper.from_pbs(data.pop("EffortPoints"), for_format=PbsStatFormat.REBORN_STYLE)
-        catch_rate = data.pop("Rareness")
-        happiness = data.pop("Happiness")
+        growth_rate = GrowthRate[data.pop_str("GrowthRate")]
+        exp_yield = data.pop_int("BaseEXP")
+        evs = StatWrapper.from_pbs(
+            data.pop_str("EffortPoints"), for_format=PbsStatFormat.REBORN_STYLE
+        )
+        catch_rate = data.pop_int("Rareness")
+        happiness = data.pop_int("Happiness")
 
-        raw_abilities = [it.upper() for it in data.pop("Abilities").split(",")]
-        hidden_ability: str | None = data.pop("HiddenAbility", None)
+        raw_abilities = [it.upper() for it in data.pop_str("Abilities").split(",")]
+        hidden_ability: str | None = data.pop_str("HiddenAbility", None)
 
-        unparsed_moves = chunks(data.pop("Moves").split(","), 2)
+        unparsed_moves = chunks(data.pop_str("Moves").split(","), 2)
         raw_moves: list[RawLevelUpMove] = []
         for level, move_name in unparsed_moves:
             move = RawLevelUpMove(at_level=int(level), name=move_name)
             raw_moves.append(move)
 
-        raw_egg_moves = data.pop("EggMoves", "").split(",")
+        raw_egg_moves = data.pop_str("EggMoves", "").split(",")
         if not any(raw_egg_moves):
             raw_egg_moves = []
 
-        raw_compatibility = data.pop("Compatibility").split(",")
+        raw_compatibility = data.pop_str("Compatibility").split(",")
         compatibility = [EggGroup[it] for it in raw_compatibility]
 
-        steps_to_hatch = data.pop("StepsToHatch", 128)
-        height = float(data.pop("Height"))
-        weight = float(data.pop("Weight"))
-        colour = data.pop("Color", "White")
-        habitat = data.pop("Habitat", None)
-        kind = data.pop("Kind", "???")
-        pokedex = data.pop("Pokedex")
+        steps_to_hatch = data.pop_int("StepsToHatch", 128)
+        height = float(data.pop_int("Height"))
+        weight = float(data.pop_int("Weight"))
+        colour = data.pop_str("Color", "White")
+        habitat = data.pop_str("Habitat", None)
+        kind = data.pop_str("Kind", "???")
+        pokedex = data.pop_str("Pokedex")
 
         item_data = WildItems(
-            common=data.pop("WildItemCommon", None),
-            uncommon=data.pop("WildItemUncommon", None),
-            rare=data.pop("WildItemRare", None),
+            common=data.pop_str("WildItemCommon", None),
+            uncommon=data.pop_str("WildItemUncommon", None),
+            rare=data.pop_str("WildItemRare", None),
         )
 
-        battler_player_y = data.pop("BattlerPlayerY")
-        battler_enemy_y = data.pop("BattlerEnemyY")
-        battler_altitude = data.pop("BattlerAltitude")
+        battler_player_y = data.pop_int("BattlerPlayerY")
+        battler_enemy_y = data.pop_int("BattlerEnemyY")
+        battler_altitude = data.pop_int("BattlerAltitude")
 
         raw_evos: list[PokemonEvolution] = []
 
-        pbs_evos = data.pop("Evolutions", "")
+        pbs_evos = data.pop_str("Evolutions", "")
         if pbs_evos:
             unparsed_evos = list(chunks(pbs_evos.split(","), 3))
 
@@ -512,13 +513,13 @@ class PokemonSpecies:
 
         forms = []
         for key_name in ("FormNames", "Formnames"):  # !!!
-            raw_forms = data.pop(key_name, "")
+            raw_forms = data.pop_str(key_name, "")
             if forms:
                 forms = raw_forms.split(",")
                 continue
 
-        regional_num = data.pop("RegionalNumbers", None)
-        shape = data.pop("Shape", None)
+        regional_num = data.pop_int("RegionalNumbers", None)
+        shape = data.pop_int("Shape", None)
 
         # FINALLY, construction the object
         if data:
@@ -631,7 +632,8 @@ class PokemonSpecies:
         buffer.write_key_value("BattlerEnemyY", self.battler_enemy_y)
         buffer.write_key_value("BattlerAltitude", self.battler_altitude)
 
-        evos = []
-        for evolution in self.evolutions:
-            evos.append(f"{evolution.into_name},{evolution.condition},{evolution.parameter}")
+        evos = [
+            f"{evolution.into_name},{evolution.condition},{evolution.parameter}"
+            for evolution in self.evolutions
+        ]
         buffer.write_key_value("Evolutions", ",".join(evos))

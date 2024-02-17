@@ -63,6 +63,7 @@ registry.register(RgssTable)
 
 
 class RubyJsonEncoder(json.JSONEncoder):
+    @override
     def default(self, o: Any) -> Any:
         if isinstance(o, bytes):
             try:

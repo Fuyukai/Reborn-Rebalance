@@ -124,13 +124,10 @@ class PokemonMove:
         priority = int(line[11])
 
         raw_flags = line[12]
-        flags: list[MoveFlag] = []
-        for char in raw_flags:
-            flags.append(MoveFlag(char))
-
+        flags: list[MoveFlag] = [MoveFlag(c) for c in raw_flags]
         description = line[13]
 
-        return PokemonMove(
+        return cls(
             id=id,
             internal_name=internal_name,
             display_name=display_name,

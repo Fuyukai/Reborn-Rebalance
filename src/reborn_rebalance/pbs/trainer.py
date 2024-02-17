@@ -239,7 +239,7 @@ class SingleTrainerPokemon:
         # weh, evs are optional and not all of them have to be there
         # yay for slices
         ev_slice = line[17:23]
-        ev_slice = [it if it else "0" for it in ev_slice]
+        ev_slice = [int(it) if it else 0 for it in ev_slice]
         evs = StatWrapper.empty() if not ev_slice else StatWrapper.from_incomplete_list(ev_slice)
 
         return cls(
@@ -359,11 +359,11 @@ class Trainer:
             count = int(count)
         else:
             count = int(count_and_items)
-            items = ()
+            items = []
 
         lines = [next(reader) for _ in range(count)]
-        reader = csv.reader(lines)
-        pokes = [SingleTrainerPokemon.from_csv_line(line) for line in reader]
+        csv_reader = csv.reader(lines)
+        pokes = [SingleTrainerPokemon.from_csv_line(line) for line in csv_reader]
 
         return Trainer(
             raw_trainer_class=trainer_klass,

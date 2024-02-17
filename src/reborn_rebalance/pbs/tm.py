@@ -14,7 +14,10 @@ TM_NUMBER_REGEXP = re.compile(r"^(TMX?|HM)(\d{1,3})$")
 
 
 def tm_number_for(name: str) -> int:
-    return int(TM_NUMBER_REGEXP.match(name).group(2))
+    match = TM_NUMBER_REGEXP.match(name)
+    assert match is not None, "hwat"
+
+    return int(match.group(2))
 
 
 @attr.s(kw_only=True, slots=True)
@@ -57,4 +60,4 @@ class TechnicalMachine:
         Creates an (incomplete) TM from the provided PBS data.
         """
 
-        return TechnicalMachine(move=move, pokemon=set(line))
+        return cls(move=move, pokemon=set(line))

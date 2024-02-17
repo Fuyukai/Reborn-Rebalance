@@ -184,7 +184,7 @@ class PokemonForms:
 
         for form_name in self.forms:
             if form_name not in self.form_mapping.values():
-                errors.append(ValueError(f"extraneous form: {form_name}"))
+                errors.append(ValueError(f"extraneous form: {form_name}"))  # noqa: PERF401
 
         if self.mega_form is not None and self.mega_form not in self.form_mapping:
             errors.append(ValueError(f"no such mega form: {self.mega_form}"))
@@ -253,7 +253,7 @@ class PokemonForms:
 
                 buffer.write_line("},")
 
-            for form_name, form in self.forms.items():
+            for form in self.forms.values():
                 buffer.write_line(f'"{form.form_name}" => {{')
 
                 with buffer.indented():

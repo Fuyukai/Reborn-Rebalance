@@ -1,6 +1,6 @@
 import enum
 from pathlib import Path
-from typing import TextIO
+from typing import ClassVar, TextIO
 
 import attr
 
@@ -108,7 +108,7 @@ class EncounterParser:
     """
 
     #: The available encounter types.
-    ENCOUNTER_TYPES = {
+    ENCOUNTER_TYPES: ClassVar[set[str]] = {
         "Land",
         "Cave",
         "Water",
@@ -216,9 +216,9 @@ class EncounterParser:
                     land, cave, water = map(int, line.split(","))
                     self.last_encounter_rate = (land, cave, water)
                     continue
-                else:
-                    # apparently the default values?
-                    self.last_encounter_rate = (25, 10, 10)
+
+                # apparently the default values?
+                self.last_encounter_rate = (25, 10, 10)
 
             if self.state == EncounterParsingState.READING_NAME:
                 # This is only set after a READING_CHANCES so we don't need to validate.
