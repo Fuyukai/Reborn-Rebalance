@@ -5,7 +5,7 @@
 {% set RIGHTLINK_ID = "12_gang_violence" %}
 {% set RIGHTLINK_NAME = "Badge #9" %}
 
-{% block title %}Badge #8: Route One{% endblock %}
+{% block title %}Badge #8: Route One & Vanhanen Castle{% endblock %}
 
 {% block walkthrough %}
 <div class="content has-text-justified">
@@ -38,6 +38,12 @@
     </p>
 
     {{ trainer_battle_content("Fern", "Hotshot", 25) }}
+
+    <div class="notification is-info is-light">
+        Route 1 is made up of several (five? I think) conjoined maps that transition smoothly
+        into each other. This means you may get different weather on one of the sub-maps if you
+        try changing it with the Pokégear.
+    </div>
 
     <p>
         The first thing you might notice is that there's a lot of ledges here stopping your
@@ -382,69 +388,284 @@
     </div>
 
     <p>
-        You can make your way through the "maze" here into the castle to find Luna, the mystery
-        runaway from Spinel Town. Talk to her again for some cutscenery (hold B to text skip)...
-        and then Cain arrives once again. (Yay). Cue forced battle.
+        The "maze" here is nothing special; your goal is to the bottom left. You can look at the
+        map overview provided above if you get lost. You can find the <em>Hypnotite</em> just
+        before the exit to the castle as well. Once you get to the castle, you find Luna,
+        the mystery runaway from Spinel Town. Talk to her for a cutscene, whereupon Cain will
+        arrive... and you have another mandatory battle.
     </p>
+
+    <div class="notification is-info is-light">
+        The field effect is here is... very interesting, to put it lightly. It's based around the
+        positions of your Pokémon in your party, and each one gets a different boost based on it.
+        If you're having trouble with one of the battles here, I recommend switching the order
+        of your Pokémon in your party around and trying again. Check the field notes for the
+        specifics.
+    </div>
 
     {{ trainer_battle_content("Cain", "Cain", 25) }}
 
     <p>
-        I don't understand the field effect here. Nobody does, I'm pretty sure; not even the devs.
         After beating him, Radomus (if you held text skip - he's the gym leader) receives a message
         from El (the guy who abducted Bennett in Spinel Town!) that his annoying weird Gardevoir
-        has been captured (hopefully, killed too!) I guess it's up to you to go rescue it.
+        has been captured (hopefully, killed too!) so I guess it's up to you to go rescue it.
     </p>
 
     <p>
-        Next destination: the Grand Gate at Reborn City. Run all the way across Route 1 to get there
-        (somehow overtaking Cain and stupid hat guy on the way); peek into the side area of the
-        Grand Gate to jump down into... the crystal cave underneath Reborn City (again). It's not
-        obvious here, but there are stairs here that you can climb down through. Make your
-        way up and along some familiar areas to find... the Citae Astrae! More fucking terrible
-        cutscenes until you can enter the Citae Astrae itself. Use the Ruby Ring to open the
-        Ruby Tower. (It's a shame the writing here sucks, because the Citae Astrae is so 
-        cool both as a location and a concept!)
+        Your next destination is Reborn City (again). You don't have to go the long way around 
+        through the railnet; instead, go through Route 1 to the Grand Gate. (I'm not sure exactly
+        why everyone decided this was the best place to go, given that Reborn City isn't accessible
+        through here yet, but nevertheless!) Go into the side room with the broken cogwheel 
+        and once the cutscene finishes talk to Radomus to jump down into the cave below.
+    </p>
+
+    {{ ss("stairs", "Oops, my portrait mysteriously changed.") }}
+
+    <p>
+        The tile sprites don't make it obvious, but there <i>are</i> stairs here that you can follow
+        down all the way to a ladder; then follow the path all the way to a cave entry at the
+        right side of the new map. Eventually, you'll make it to a tunnel that's behind the sealed
+        door you saw earlier in chapter 5. Move forwards to make it to the {{ mp(305, "Citae Astrae") }}!!
+    </p>
+
+    <details style="padding-bottom: 1rem">
+        <summary>SPOILERS for End Game content! Don't open until then! I am not joking!</summary>
+
+        If you've played the game before, this seemingly opens up a bit of a plot hole. Lin needed 
+        to get behind the gate to the Citae Astrae to let her child self out... but the Citae
+        Astrae has always been accessible, as evidenced by Elias going down the hole. So why does
+        she still have the PULSE Abra at the end of the game? Yeah, she's just playing with you
+        for a lot of the game... but that seems like a bit of a waste? <br/><br/>
+
+        Additionally, the timeline doesn't match up. I think it's meant to be that the events with
+        Lin at the orphanage took place around two years ago, but Adrienne has been stuck down
+        the Citae Astrae for ten years, when Reborn became ruined.
+    </details>
+
+    <p>
+        Once you've finished the cutscenes, you can make it up through the Citae Astrae using
+        your Ruby Ring on the ruby door.
     </p>
 
     {{ ss("pgtips", "MONKEHHH") }}
 
     <p>
-        There's a riddle here before you can go up any further; Chimchar is Dark, Monferno is
-        Dark, and Infernape is Light. Very obviously tell Adrienn (the weird guy) to fuck off when
-        they ask you to hand the Ruby Ring over, then go into the next Ruby Tower room. Tyrogue
-        is Light, Hitmonchan is Dark, Hitmonlee is Light, and Hitmontop is Dark. Take the Light
-        Shard here and proceed out into the upper level of the Citae Astrae. Save your game, then
-        proceed to find El. <strong>Side with Radomus during this cutscene; it's another route
-        requirement.</strong> (His argument is shit, but whatever. You don't know these people, and
-        the El guy is a cultist.)
+        Talk to all of the statues to activate the teleporter. Chimchar is Dark, Monferno is Dark,
+        and Infernape is Light. If you go back into the Amethyst teleporter, you can get an
+        <em>EXP Candy XL</em>. Proceed upwards to talk to Adrienn, saying you won't give away
+        your Ruby Ring. (This is a silly cutscene.) Use the ring again and solve the second riddle:
+        Tyrogue is Light, Hitmonchan is Dark, Hitmonlee is Light, and Hitmontop is Dark. Walk
+        forwards and talk to El for more cutscene; <strong>Side with Radomus during this cutscene
+        as it's another part of the route requirements.</strong> You'll be drawn into a battle
+        with El, and this is a <em>hard as hell</em> battle.
     </p>
 
     {{ trainer_battle_content("El", "EL", 20) }}
 
     <p>
-        He has a team of all four Swords of Ruin and a fake Arceus! After defeating him, choose
-        not to exit alongside everyone else and walk down to the Grand... Somewhere for a little
-        easter egg. After walking all the way back up... the Grand Gate has opened! Go down to
-        the Coral Ward for EVEN MORE cutscenes; Adrienn promises to rebuild the city. (We'll get
-        back to that later). From here onwards, a Tauros is unlocked at the bottom of Route 1 that
-        will teleport you to Vanhanen Castle (and vice-versa). Return to the castle to face the next
-        gym.
+        After defeating him, choose not to exit with everyone else and walk back down to the bottom
+        of the tunnel to get a small easter egg that only really makes sense if you've beat the
+        game before. Once you return to the surface, you find that the Grand Gates are now
+        open, finally giving you an easier route between Route 1 and Reborn City. Go to the Coral
+        Ward for another cutscene, and then agree with Cain to teleport back to the Castle.
     </p>
+
+    <div class="notification is-info is-light">
+        After the events at the Citae Prisma, a raging Tauros will appear at both ends of Route 1
+        which will teleport you between them.
+    </div>
+
+    <h2 class="subtitle">Psychic Gym</h2>
 
     {{ ss("gymfight", "AAA!") }}
 
     <p>
-        I'm not explaining the Gym Puzzle to you. Good fucking luck. My hands hurt too much to
-        type it all out.
+        This one is a doozy. The goal is to put the Black King in checkmate by moving all of your
+        pieces. Cute puzzle, but very unintuitive. The room on the left will show you what the
+        fancy Pokémon pieces actually correspond to as it isn't immediately clear. If you don't
+        know anything about chess, the pieces will also explain which each piece does in a game.
+    </p>
+
+    <p>
+        Luckily, I know things about chess, so this is a solution to all of the puzzles. If you
+        get stuck, you can leave and re-enter the room to reeset the pposition of all the pieces. 
+        The controls here are a bit terrible, so here's a guide:
+    </p>
+
+    <ul>
+        <li>
+            All pieces except the Bishop and Pawn are pushed into place by walking up to them in the 
+            direction you wish and pressing A.
+        </li>
+        <li>
+            The <i>Bishop</i> is pushed by either pressing it from its left/right sides and pressing
+            up/down, or pressing it from its top/bottom sides and pressing left/right. It moves in
+            the combination direction of <code>(side, button)</code>.
+        </li>
+        <li>
+            Pawns can only move straight upwards.
+        </li>
+        <li>
+            If you want to do this the easy way, recreate the board in the <a href="https://lichess.org/editor/8/8/8/8/8/8/8/8_w_-_-_0_1?color=white">
+            Lichess Editor</a> and move the pieces around until the "Continue from Here" button is
+            disabled.
+        </li>
+    </ul>
+
+    <h3 class="subtitle">Checkmate #1</h3>
+
+    <p>
+        Your pieces are a <i>king</i> and a <i>rook</i>.
+    </p>
+
+    <details style="padding-bottom: 1rem;">
+        <summary>Solution for the first puzzle</summary>
+
+        {{ ss("checkmate1", "The second easiest, after King + Queen checkmates.") }}
+
+        <p>
+            This is a simple checkmate; box the black king in with your king and then place the 
+            rook immediately below it.
+        </p>
+
+    </details>
+
+    <h3 class="subtitle">Checkmate #2</h3>
+
+    <p>
+        Your pieces are a rook, a knight, and a bishop. The problem is that your pieces can
+        be captured by Black's pieces too, so the King needs to be in check multiple times.
+        Additionally, the bishop is on the black squares so it can't move onto the white ones.
+    </p>
+
+    <p>
+        You also need to consider that you can't maneuver your pieces around to the right side of
+        the chessboard properly, which presents an additional challenge.
+    </p>
+
+    <details style="padding-bottom: 1rem">
+        <summary>Solution for the second puzzle</summary>
+
+        {{ ss("checkmate2", "This one took me a while to see.")}}
+
+        <p>(Sorry, I forgot to take an in-game screenshot. Take this one in its place.)</p>
+
+        <p>
+            The rook needs to be at the top to place the King in check, but it also needs to not
+            be on a square that can be captured by the queen instantly. The bishop can't be 
+            manuevered to the right side, so it needs to protect the square immediately below
+            the king. Finally, the knight can be slotted in next to the black knight to protect the
+            two diagonal squares that the king can move to.
+        </p>
+    </details>
+
+    <h3 class="subtitle">Checkmate #3</h3>
+
+    <p>
+        There's a LOT of pieces here, but the solution is deceptively simple.
+    </p>
+
+    <details style="padding-bottom: 1rem">
+        <summary>Solution for the third puzzle</summary>
+
+        {{ ss("checkmate3", "I love smothered mates.")}}
+
+        <p>
+            If you're even slightly good at chess, you see that King in the corner and immediately
+            recognised this is a <i>smothered mate</i> situation. The problem is you need two knights
+            but you only have one.
+        </p>
+
+        <p>
+            If you move the second to right most pawn up to the top of the board, you can promote
+            it into a knight. From there, you can move both of your knights into position to achieve
+            checkmate. Make sure not to accidentally softlock yourself by putting the knights next
+            to a piece so you can't move it. You'll have to reset the room again.
+        </p>
+    </details>
+
+    <h3 class="subtitle">Checkmate #4</h3>
+
+    <p>
+        The Rule of 3 sadly doesn't apply here. There's a lot of noise in this puzzle that you'll
+        need to tune out to win.
+    </p>
+
+    <details style="padding-bottom: 1rem">
+        <summary>Solution for the fourth puzzle</summary>
+
+        {{ ss("checkmate4")}}
+
+        <p>
+            Like the second puzzle, the difficulty here comes from manuevering your pieces around. 
+            You need to get something that can block the top-right most square but you can't get 
+            your knights into position.
+        </p>
+
+        <p>
+            The bishop's odd movement comes in handy here; the pawn can promote into a bishop
+            on the that can be moved into position covering the top left square and the square
+            in front of the king. Next, one of your knights needs to be manuvered into the gap
+            above the pawn on the E rank to block off all of the squares directly diagonally to
+            the king.
+        </p>
+
+        <p>
+            Next, your white bishop needs to go below the black knight on the D rank to actually
+            place the king into check. Finally, you need to block check from the black queen
+            with one of your knights. 
+        </p>
+    </details>
+
+    <h3 class="subtitle">The Gym Fight</h3>
+
+    <div class="notification is-warning">
+        From here on out, every Gym Leader will have a single Pokémon that doesn't strictly fit their
+        type theme, but does fit their game theme instead. Make sure you're prepared for this.
+    </div>
+
+    <p>
+        Now it's time for the actual boss fight, Radomus. In the gym room there are two random
+        vendor NPCs who sell some TMs as well as some battle items.
     </p>
 
     {{ trainer_battle_content("Radomus", "RADOMUS", 20) }}
 
     <p>
-        After beating him, stuff happens with Team Meteor, etc etc. Go outside, talk to the grunt
-        on the very left - it's actually Radomus - then escape the maze by walking over the hedges.
-        Next destination: Reborn City, for 7th Street!
+        This is a hard fight with the field effect, but it's not insurmountable. Kingambit and 
+        Gardevoir means you can't cheese it with six dark types. Some tips:
+    </p>
+
+    <ul>
+        <li>
+            His Reuniclus is bulky as hell and will set up Trick Room if it you let it, which playss
+            well with his team of slower Pokémon and the focus on HO teams that you're kinda forced
+            into by the game, especially with his Kingambit.
+        </li>
+        <li>
+            Sucker Punch is a must. There's lots of Pokémon that have it at this point, but you can
+            try out {{ sp("SKUNTANK") }} like I did. Just beware of his Metagross.
+        </li>
+        <li>
+            Nasty Plot gives a +4 boost in this field, not a +2. Don't let his Noctowl get it up,
+            and if he does rely on priority moves to avoid getting swept.
+        </li>
+        <li>
+            Fake Out doesn't work in this field! It still has priority but won't cause a flinch.
+            It can still be useful to break the automatic sash that all pawns have.
+        </li>
+        <li>
+            His Gardevoir is neutral to Bug and Dark, and will copy your ability. Make sure to 
+            dispatch of it quickly.
+        </li>
+    </ul>
+
+    <p>
+        Once you exit the gym, you find that the hypnosis on El didn't really work (the least surprising
+        twist ever...) Use the light shard outside and proceed back through the maze. Walk straight
+        into the Meteor Grunt to the left instead to find out thatt it's Radomus in disguise. He'll
+        show you to a set of stairs that you can use to walk over the hedges to escape the maze.
+        Your next destination is once again Reborn City!
     </p>
 </div>
 {% endblock %}
