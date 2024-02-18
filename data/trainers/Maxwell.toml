@@ -79,7 +79,6 @@ spe = 0
 raw_trainer_class = "Maxwell"
 battler_name = "Maxwell"
 battler_id = 1
-raw_battle_items = []
 
 [[trainers.Maxwell.1.pokemon]]
 internal_name = "NINETALES"
@@ -201,7 +200,6 @@ spe = 0
 raw_trainer_class = "Maxwell"
 battler_name = "Maxwell"
 battler_id = 2
-raw_battle_items = []
 
 [[trainers.Maxwell.2.pokemon]]
 internal_name = "NINETALES"
@@ -346,7 +344,6 @@ spe = 0
 raw_trainer_class = "Maxwell"
 battler_name = "Maxwell"
 battler_id = 1000
-raw_battle_items = []
 
 [[trainers.Maxwell.1000.pokemon]]
 internal_name = "NINETALES"
@@ -417,3 +414,118 @@ def_ = 0
 spa = 252
 spd = 252
 spe = 4
+
+[trainers.Maxwell.21]
+raw_trainer_class = "Maxwell"
+battler_name = "Maxwell"
+battler_id = 21
+
+[[trainers.Maxwell.21.pokemon]]
+internal_name = "TORKOAL"
+level = 58
+raw_item = "HEATROCK"
+raw_moves = [
+    "YAWN",
+    "STEALTHROCK",
+    "EXPLOSION",
+    "WILLOWISP",
+]
+ability_number = 1
+nature = "CALM"
+iv = 31
+
+[trainers.Maxwell.21.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.Maxwell.21.pokemon]]
+internal_name = "CERULEDGE"
+level = 58
+raw_moves = [
+    "SHADOWSNEAK",
+    "BITTERBLADE",
+    "PSYCHOCUT",
+    "CLOSECOMBAT",
+]
+ability_number = 1
+sex = ""
+nature = "JOLLY"
+iv = 31
+
+[trainers.Maxwell.21.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.Maxwell.21.pokemon]]
+internal_name = "MAGCARGO"
+level = 59
+raw_item = "ASSAULTVEST"
+raw_moves = [
+    "SCORCHINGSANDS",
+    "POWERGEM",
+    "FIREBLAST",
+    "SOLARBEAM",
+]
+nature = "MODEST"
+iv = 31
+
+[trainers.Maxwell.21.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.Maxwell.21.pokemon]]
+internal_name = "CHARIZARD"
+level = 60
+raw_moves = [
+    "FLAREBLITZ",
+    "DRAGONDANCE",
+    "EARTHQUAKE",
+    "THUNDERPUNCH",
+]
+ability_number = 1
+nature = "JOLLY"
+iv = 31
+
+[trainers.Maxwell.21.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.Maxwell.21.pokemon]]
+internal_name = "HOUNDOOM"
+level = 62
+raw_item = "WISEGLASSES"
+raw_moves = [
+    "NASTYPLOT",
+    "FLAMETHROWER",
+    "DARKPULSE",
+    "SLUDGEBOMB",
+]
+ability_number = 1
+sex = "F"
+nature = "MODEST"
+iv = 31
+happiness = 255
+
+[trainers.Maxwell.21.pokemon.evs]
+hp = 0
+atk = 4
+def_ = 0
+spa = 252
+spd = 252
+spe = 0

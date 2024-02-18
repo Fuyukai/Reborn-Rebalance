@@ -74,7 +74,6 @@ spe = 0
 raw_trainer_class = "Archer"
 battler_name = "Archer"
 battler_id = 1
-raw_battle_items = []
 
 [[trainers.Archer.1.pokemon]]
 internal_name = "PELIPPER"
@@ -184,7 +183,6 @@ spe = 0
 raw_trainer_class = "Archer"
 battler_name = "Archer"
 battler_id = 2
-raw_battle_items = []
 
 [[trainers.Archer.2.pokemon]]
 internal_name = "PELIPPER"
@@ -321,7 +319,6 @@ spe = 0
 raw_trainer_class = "Archer"
 battler_name = "Archer"
 battler_id = 1000
-raw_battle_items = []
 
 [[trainers.Archer.1000.pokemon]]
 internal_name = "PELIPPER"
@@ -392,11 +389,11 @@ spe = 0
 raw_trainer_class = "Archer"
 battler_name = "Archer"
 battler_id = 21
-raw_battle_items = []
 
 [[trainers.Archer.21.pokemon]]
 internal_name = "PELIPPER"
 level = 58
+raw_item = "DAMPROCK"
 raw_moves = [
     "HYDROPUMP",
     "HURRICANE",
@@ -461,7 +458,7 @@ spe = 0
 internal_name = "BLASTOISE"
 level = 60
 raw_moves = [
-    "HYDROPUMP",
+    "FLASHCANNON",
     "HYDROCANNON",
     "ICEBEAM",
     "SHELLSMASH",
@@ -485,7 +482,7 @@ raw_moves = [
     "AQUAJET",
     "CRUNCH",
     "PSYCHICFANGS",
-    "ICEFANG",
+    "EARTHQUAKE",
 ]
 ability_number = 1
 nature = "ADAMANT"
