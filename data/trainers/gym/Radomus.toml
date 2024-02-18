@@ -1152,15 +1152,15 @@ raw_moves = [
     "TOXIC",
 ]
 ability_number = 1
-nature = "QUIET"
-iv = 32
+nature = "SASSY"
+iv = 31
 
 [trainers.RADOMUS.20.pokemon.evs]
-hp = 0
+hp = 72
 atk = 0
-def_ = 0
+def_ = 72
 spa = 0
-spd = 0
+spd = 72
 spe = 0
 
 [[trainers.RADOMUS.20.pokemon]]
@@ -1175,7 +1175,7 @@ raw_moves = [
 ]
 nature = "BRAVE"
 ability_number = 2
-iv = 32
+iv = 31
 
 [trainers.RADOMUS.20.pokemon.evs]
 hp = 0
@@ -1198,29 +1198,6 @@ raw_moves = [
 ability_number = 1
 form_number = 1
 nature = "QUIET"
-iv = 32
-
-[trainers.RADOMUS.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.RADOMUS.20.pokemon]]
-internal_name = "MRRIME"
-level = 58
-raw_item = "LIGHTCLAY"
-raw_moves = [
-    "FREEZEDRY",
-    "ENCORE",
-    "REFLECT",
-    "LIGHTSCREEN",
-]
-ability_number = 1
-sex = "F"
-nature = "QUIET"
 iv = 31
 
 [trainers.RADOMUS.20.pokemon.evs]
@@ -1232,6 +1209,22 @@ spd = 0
 spe = 0
 
 [[trainers.RADOMUS.20.pokemon]]
+internal_name = "KINGAMBIT"
+level = 61
+raw_item = "KINGSROCK"  # for the field effect
+raw_moves = [
+    "SWORDSDANCE",
+    "KOWTOWCLEAVE",
+    "IRONHEAD",
+    "SUCKERPUNCH"
+]
+ability_number = 0
+sex = ""
+nature = "ADAMANT"
+iv = 31
+evs = { hp = 72, atk = 72, def_ = 0, spa = 0, spd = 0, spe = 72 }
+
+[[trainers.RADOMUS.20.pokemon]]
 internal_name = "METAGROSS"
 level = 59
 raw_item = "MUSCLEBAND"  # not a choice band, as the reborn AI is too stupid to switch
@@ -1239,12 +1232,12 @@ raw_moves = [
     "ZENHEADBUTT",
     "METEORMASH",
     "ICEPUNCH",
-    "BODYPRESS",
+    "EARTHQUAKE",
 ]
 sex = ""
 ability_number = 1  # le iron fist
 nature = "BRAVE"
-iv = 32
+iv = 31
 
 [trainers.RADOMUS.20.pokemon.evs]
 hp = 0
