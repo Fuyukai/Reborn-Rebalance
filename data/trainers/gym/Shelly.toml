@@ -31,27 +31,6 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.SHELLY.0.pokemon]]
-internal_name = "MASQUERAIN"
-level = 31
-raw_item = "SILVERPOWDER"
-raw_moves = [
-    "STRUGGLEBUG",
-    "ICYWIND",
-    "BUBBLEBEAM",
-    "ENERGYBALL",
-]
-sex = "F"
-nature = "ADAMANT"
-iv = 4
-
-[trainers.SHELLY.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.SHELLY.0.pokemon]]
 internal_name = "ANORITH"
@@ -1497,18 +1476,18 @@ spd = 0
 spe = 0
 
 [[trainers.SHELLY.20.pokemon]]
-internal_name = "SPIDOPS"
-level = 35
-raw_item = "LEFTOVERS"
+internal_name = "MASQUERAIN"
+level = 31
+raw_item = "SILVERPOWDER"
 raw_moves = [
-    "FIRSTIMPRESSION",
-    "SUCKERPUNCH",
-    "SKITTERSMACK",
-    "SILKTRAP",
+    "STRUGGLEBUG",
+    "ICYWIND",
+    "BUBBLEBEAM",
+    "ENERGYBALL",
 ]
-ability_number = 1
+sex = "F"
 nature = "ADAMANT"
-iv = 30
+iv = 4
 
 [trainers.SHELLY.20.pokemon.evs]
 hp = 0
