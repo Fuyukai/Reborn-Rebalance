@@ -1,0 +1,348 @@
+{% extends "_meta/walkthrough_page.html" %}
+{% set NAME = "12_gang_violence" %}
+{% set LEFTLINK_ID = "11_route_1" %}
+{% set LEFTLINK_NAME = "Badge #8: Route One & Vanhanen Castle" %}
+{% set RIGHTLINK_ID = "13_agate_circus" %}
+{% set RIGHTLINK_NAME = "Badge 10, Pt 1: Agate Circus" %}
+
+{% block title %}Badge #9: Subseven Sanctum & Iolia Valley{% endblock %}
+
+{% block walkthrough %}
+<div class="content has-text-justified">
+    <h1 class="title">Badge #9: 7th Street/Sanctum/Iolia Valley</h1>
+
+    {{ ss("residents", "Rats!") }}
+
+    <p>
+        Once you've returned to Reborn City, talk to your gang leader (If you didn't join a gang
+        yet, you need to join a gang and do all of their quests. See Chapter 7 for more information
+        on that) who will tell you about the existence of 7th Street, Reborn City's shady unground
+        black market. (You may have to talk twice.) They'll direct you to one of two buildings
+        in Lapis Ward (at the far right of the ward), where you can enter to find the lift to 7th
+        Street.
+    </p>
+
+    <div class="notification is-warning">
+        If you haven't been mining rocks for shards/heart scales, you should go back and do that 
+        now. One of the upcoming quests requires a ton of shards, and all of the vendors here 
+        operate in shards rather than dollarpounds. You can talk to one of the gang members near
+        the bottom of the map to get <em>Blast Powder</em>, which will let you mine rocks twice.
+    </div>
+
+    <p>
+        There's a few things to do here down under. First, make your way to the market to find
+        the tory bint from the first gang quest trying to buy stolen Pokémon. Another member of
+        the gang will talk to you and tell you that you need to teach her a lesson; you can find
+        him loitering outside her house and he tells you that he'll leave the dirty work
+        to you (thanks, mate?).
+    </p>
+
+    {{ trainer_battle_content("Craudburry", "HARRIDAN", 20) }}
+
+    <p>
+        After you've done that, talk to your gang member outside again to get 
+        <span style="colour: aqua">TM16 Rain Dance</span> or <span style="orangered">TM11 Rain Dance</span>.
+    </p>
+
+    {{ ss("aint", "Innit.") }}
+
+    <p>
+        There's quite a few things here in 7th Street, so let's go from bottom to top. At the
+        bottom right of 7th Street is an illegal Pokémon market, selling all of the Pokémon that
+        were in the cages from before. You need to buy <strong>all of them</strong>. Once you've
+        partaken in illegal Pokémon trafficking, walk out of the market to talk to DJ Arclight,
+        who will tell you that they're illegal Pokémon and that he's going to track down the
+        original owners. 
+    </p>
+
+    <div class="notification is-danger is-light">
+        Put all of these Pokémon in a box out of the way. Do not use them. Do not evolve them.
+        Do not touch them. You will need them all for the Mega-Z ring later after the 13th badge!
+    </div>
+
+    <p>
+        Above the market is a building with a sign on it saying "POKÉMON PSYCHOLOGY". This has a
+        Paldean TM vendor, and a doctor who will forcibly change the nature of any of your Pokémon
+        in exchange for heart scales. To the right of this building is a hazy den with a handful
+        of battleable NPCs in it, as well as the leader of the <i>opposite</i> gang to the one
+        you joined. Beating him will get you <span style="colour: orangered">TM16 Rain Dance</span> 
+        or <span style="aqua">TM11 Sunny Day</span>. 
+    </p>
+
+    {{ ss("sivally1", "So true!") }}
+
+    <p>
+        Near the middle of 7th Street is a small building with a healing chamber, a PC, and a 
+        blocked-off ladder. Make a mental note of this. At the top to the right is an alleyway that
+        leads to a secret building with a small handful of scientists in it. Talk to the top one
+        staring into the cage for a battle, and she will then ask you to help assemble their 
+        creature. You need to get the following Pokémon:
+    </p>
+
+    <ol>
+        <li>{{ sp("CARVANHA") }}. You already have one if you joined Aqua Gang. </li>
+        <li>{{ sp("UNFEZANT") }}. You can get a {{ sp("PIDOVE") }} from the Obsidia Slums and evolve it.</li>
+        <li>
+            {{ sp("LUXRAY") }}. You can get a {{ sp("SHINX") }} from the arcade.
+            <br/>
+
+            You can either be stupid, like I am, and gamble for an hour to get the 5000 dabloons you
+            need. Or you can just buy the 5000 dabloons for merely 100k dollarpounds and get the
+            Shinx like that. Make sure to force feed it the EXP candies in front of the attendants
+            for best effect.
+        </li>
+    </ol>
+
+    <p>
+        After that, it'll take some time for the mysterious assembly to be ready, so we'll come
+        back later.
+    </p>
+
+    {{ ss("button", "Who needs Bennett?") }}
+
+    <p>
+        Press the button on this bin to move it to the side, and enter the Beryl Wall. After
+        a small cutscene with Bennett go all the way to the right to mine the rock; use some
+        blast powder to mine it again. Activate the now available second rock to get some 
+        "Rare Candy"... and go outside to get it stolen. The thief is at the bottom left corner of
+        7th Street, in a little caged off cubby. Battle him to take it back, and then go to the
+        upper drug den on the right side of 7th Street. You can offer it to the guy on the lower
+        left in exchange for a {{ sp("PIPLUP")  }}.
+    </p>
+
+    <p>
+        To actually begin progressing the plot, you want to go all the way to the right of Beryl
+        Wall and enter the Subseven Scantum below... where you will promptly be captured by
+        Bug Retard and Elias. Blast it! If you read the cult book in your cell then the guy next
+        to you will notice and use his Klefki to let you out. (We can steal it later, don't worry.)
+    </p>
+
+    <p>
+        The goal here is to sneak out to the upper layer of the Sanctum without being seen by any
+        of the orderlies. I can't give an exact path because RPG Maker's editor doesn't zoom in
+        properly (and Luminol can't open the maps) but it's pretty trivial and straightforward. If
+        you do get spotted, then you'll get reset back to the bottom, so consider saving often
+        (and if you're using speedup, disable it temporarily).
+    </p>
+
+    {{ ss("index", "Is that a freaking Toaru Majutsu no Index reference??? Shoutouts to Mel ")}}
+
+    <p>
+        Once you've made it up to the second floor, you can actually battle the orderlies. All of
+        the battles here are on the <em>Holy Field</em> which is possibly the most annoying field
+        in the game after the Glitch field. The "puzzle" here is that you're meant to read the
+        books to find out the passage names when interacting with each coloured Arceus statue,
+        but I can just tell you the answers instead.
+    </p>
+
+    <ul>
+        <li>Green/Emerald Arceus: <code>3827</code></li>
+        <li>Blue/Sapphire Arceus: <code>1605</code></li>
+        <li>Red/Ruby Arceus: <code>2303</code></li>
+        <li>Purple/Amethyst Arceus: <code>0204</code></li>
+    </ul>
+
+    <p>
+        Save the game and heal before continuing up the middle passageway! You'll encounter
+        Ace (for some reason). This fight is pretty obnoxious but tolerable; Extreme Speed on your
+        own Pokémon is super effective against Dark/Ghost types which handily dispatches theirs.
+    </p>
+
+    {{ trainer_battle_content("Ace of Hearts", "ACEHEARTS", 20) }}
+
+    <p>
+        After a very uncomfortable cutscene that is about two steps away from saying a slur, you
+        get teleported back outside and are subjected to some really terrible dialogue. 
+        Say no to Cain's offer to walking back as there's a few things you need to do yet. 
+        If you haven't already gotten one, go down to the bottom of the map to buy a 
+        <em>Soul Candle</em> from the man standing on a box in the cage. Return to the Sanctum 
+        and interact with the chain table to encounter a {{ sp("LITWICK") }}.
+    </p>
+    
+    <p>
+        If you return to the alleyway from before, the scientist is finished creating their new
+        Pokémon. Talk to her for a small cutscene... before she gets killed by the {{ sp("TYPENULL") }}.
+        You helped make this, so you can add "brutally frankensteined a bunch of Pokémon together"
+        to your list of crimes (after trafficking and gangooning).
+    </p>
+
+    <p>
+        Next stop: the Iolia Valley! Normally, you would need Rock Climb to get there... but you can
+        instead use the conspicious tree you find in the Vanhanen Labyrinth and transit through
+        a small cave, then use the Crystal Key on the rock to open the entrance.
+    </p>
+
+    <h2 class="subtitle">Iolia Valley</h2>
+
+    {{ ss("rocky") }}
+
+    <div class="notification is-warning is-light">
+        You might want to stock up on Repels here, as there are wild Wynauts with Shadow Tag.
+    </div>
+
+    <details>
+        <summary>Full Iolia Valley puzzle solution</summary>
+
+        {{ ss("valley1") }}
+
+        <p>
+            The gimmick of this gigantic, map-wide puzzle is the usage of the <em>crystal keys</em>
+            to change the environment. Right now, you only have the red key, so you can only interact
+            with red glowing rocks. There's only one of these available and it's on the top-most path,
+            which will reveal another red rock door in the cliff face when done. 
+        </p>
+        <hr/>
+
+        {{ ss("valley2") }}
+
+        <p>
+            After passing through the small cave, you get spat out in another area in the valley.
+            Walk along the path to find this red rock, which will open a rock smashable door to
+            another cave.
+        </p>
+
+        <hr/>
+
+        {{ ss("valley3") }}
+        <p>
+            This will lead you to an area on the cliff face that contains the green crystal key. 
+            Pick it up and walk back through the caves all the way to the <i>first</i> area in the 
+            valley.
+        </p>
+
+        <hr/>
+
+        {{ ss("valley4") }}
+        <p>
+            Green rocks will replace certain objects such as bushes around them with rock 
+            smashable green rocks. This one is available on the second pathway in the first area; 
+            activate it, and smash the rock in front of you to proceed forwards. This will
+            lead to a red rock, as well as a small cutscene with Bennett.
+        </p>
+
+        <hr/>
+
+        {{ ss("valley5") }}
+        <p>
+            Continue through the next cave to finds yourself in the second valley area again. Here
+            you will find the blue crystal key, as well as a Hisuian {{ sp("RUFFLET") }} that will
+            join you if you have a Pokesnax.
+        </p>
+
+        <hr/>
+
+        {{ ss("valley6") }}
+        <p>
+            Return back to the <i>first</i> valley area again and proceed to the bottom-most path
+            to find a blue glowing rock. Blue rocks will build bridges over water when interacteed
+            with, so interact with the rock to get to the other side of the valley.
+        </p>
+        <hr/>
+
+        {{ ss("valley7") }}
+        <p>
+            There's two paths here to follow, but the bottom one is blocked off eventually by
+            an impassable bush. Activate the green rock at the top of the map and proceed
+            to the red rock to open a path through a cave. This cave has a purple rock in it
+            that can't be activated yet, so continue through into the other door.
+        </p>
+
+        <hr/>
+
+        {{ ss("valley8") }}
+        <p>
+            Proceeding through the cave will expel you out on the bottom upper side of the first
+            area; walk the entire way until you find this green rock and activate it. This will
+            unblock the lower route on the right side of the first area. 
+        </p>
+        <hr/>
+
+        {{ ss("valley9") }}
+        <p>
+            Return back to the lower route on the first area, and activate all of the rocks you 
+            find until you can make this door. Enter the cave to find the purple crystal key,
+            and a cutscene with Bennett. You can tell him either yes (+1 relationship point) or no
+            (-1 relationship point); this doesn't affect anything else, so feel free to pick either.
+        </p>
+        <hr/>
+
+        {{ ss("valley10") }}
+        <p>
+            Purple rocks will change the layout of certain caves inside the valley. Activate the
+            purple rock in this cave to proceed out of the bottom, and then activate a blue and
+            red rock to find another door in the second area of the valley. This leads to a single
+            purple rock that will change the layout of a <i>different</i> cave.
+        </p>
+
+        <hr/>
+        {{ ss("valley11") }}
+        <p>
+            After activating that rock, backtrack all the way to this door in the second area.
+            There's now a slightly narrow cave exit to an area on the clifftop, as well as a light
+            shard. Proceed around the corner to find Luna's gym.
+        </p>
+    </details>
+
+    <p>
+        After solving the puzzle and making it to the Gym, you will get a very awkward cutscene
+        between Bennett and Luna... and then Bennett challenges you to a battle for your Crystal
+        Keys.
+    </p>
+
+    {{ trainer_battle_content("Bennett", "BENNETT", 21) }}
+
+    <p>
+        After beating him down, a teleporter appears that will take you back to the start of the
+        valley, which saves you trekking through all of the caves. When you're ready, activate
+        the purple crystal to switch to Luna's gym room and talk to her to fight her. As per
+        usual, some tips:
+    </p>
+
+    <ul>
+        <li>
+            Her Grimmsnarl will set up screens for eight terms on you which massively reduces the
+            damage all of her Pokémon take. As she has some relatively bulky ones which can heal
+            and spread status, consider packing something with Brick Break, or stall it out with
+            healing.
+        </li>
+        <li>
+            Her field gives a nice boost to her Dark-type moves, but you can break it easily with
+            Earthquake to get the Cave field. The cave field amplifies Bug Buzz... which lets you
+            easily dismantle her team of dark types.
+        </li>
+    </ul>
+
+    {{ trainer_battle_content("Luna", "LUNA", 20) }}
+
+    <h2 class="subtitle">Missed Events</h2>
+
+    <p>
+        Now that you have all four parts of the Crystal Key, there's a handful of optional events 
+        to do across the rest of the lower Reborn region before we proceed to Agate City. If you
+        don't care for any of these Pokémon, you can go to the next chapter.
+    </p>
+
+    <p>
+        In the Grand Hall, there will be an Old Man sitting on a sofa next to the middle left wall.
+        Talk to him three times to get an egg for {{ sp("BRAMBLIN") }}, {{ sp("WATTREL") }}, and
+        {{ sp("TATSUGIRI") }}. (You could've done this before, but I didn't know this event
+        existed until now.)
+    </p>
+
+    {{ ss("jungle", "Junglist Massive.") }}
+
+    <p>
+        With the crystal key in hand, make your way back to the Rhidochrine Jungle via its lower
+        entrance in Beryl Ward, and jump down into the Nuzleaf cage. Find this rock and activate
+        it to open a path to several cuttable trees that you haven't been able to cut down yet.
+        There's three more green glowing rocks; activating them and cutting the trees down will
+        let you access the <em>Ampharosite</em>, as well as an {{ sp("AXEW") }} egg.
+    </p>
+
+    <div class="notification is-success is-light">
+        {{ sp("HAXORUS") }} has been changed to be a pseudo-legendary in this mod, making it an
+        exceptionally good catch at this stage of the game. Your first pseudo wouldn't otherwise
+        be available until after the 13th Badge.
+    </div>
+</div>
+{% endblock %}
