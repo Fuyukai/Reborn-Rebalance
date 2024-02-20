@@ -257,3 +257,7 @@ def build_changes(builder: ChangelogBuilder):
     lurantis.add_type_change(None, PokemonType.FIGHTING)
     lurantis.add_ability_change(None, "SHARPNESS")
     lurantis.add_base_stat_change("atk", 115, 120)
+
+    builder.pokemon(
+        "STEELIX", "Mega Steelix now has a more appropriate ability."
+    ).add_ability_change("SANDFORCE", "EARTHEATER")

@@ -1,4 +1,3 @@
-
 import shutil
 import sys
 from pathlib import Path
@@ -26,6 +25,7 @@ CHANGE_FILES = [
     "Scripts/Reborn/PBSpecies.rb",
     "Scripts/Reborn/PBTrainers.rb",
 ]
+
 
 def main() -> int:
     """
