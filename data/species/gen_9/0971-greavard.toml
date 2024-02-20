@@ -1,4 +1,3 @@
-dex_number = 971
 name = "Greavard"
 primary_type = "GHOST"
 secondary_type = "GHOST"
@@ -7,77 +6,11 @@ growth_rate = "Parabolic"
 exp_yield = 87
 catch_rate = 120
 caught_happiness = 50
-raw_abilities = [
-    "PICKUP",
-    "FLUFFY",
-]
-raw_level_up_moves = [
-    { at_level = 1, name = "TACKLE" },
-    { at_level = 1, name = "GROWL" },
-    { at_level = 3, name = "LICK" },
-    { at_level = 6, name = "TAILWHIP" },
-    { at_level = 6, name = "BITE" },
-    { at_level = 9, name = "ROAR" },
-    { at_level = 12, name = "HEADBUTT" },
-    { at_level = 16, name = "DIG" },
-    { at_level = 24, name = "REST" },
-    { at_level = 28, name = "CRUNCH" },
-    { at_level = 32, name = "PLAYROUGH" },
-    { at_level = 37, name = "HELPINGHAND" },
-    { at_level = 41, name = "PHANTOMFORCE" },
-    { at_level = 46, name = "CHARM" },
-    { at_level = 52, name = "DOUBLEEDGE" },
-]
-raw_tms = [
-    "ROAR",
-    "TOXIC",
-    "HIDDENPOWER",
-    "SUNNYDAY",
-    "PROTECT",
-    "RAINDANCE",
-    "FRUSTRATION",
-    "RETURN",
-    "SHADOWBALL",
-    "DOUBLETEAM",
-    "SANDSTORM",
-    "FACADE",
-    "REST",
-    "ATTRACT",
-    "THIEF",
-    "BULLDOZE",
-    "SLEEPTALK",
-    "SUBSTITUTE",
-    "SECRETPOWER",
-    "SNARL",
-    "CONFIDE",
-    "DIG",
-    "SCARYFACE",
-    "CHARM",
-    "MUDSHOT",
-    "THUNDERFANG",
-    "ICEFANG",
-    "FIREFANG",
-    "PSYCHICFANGS",
-    "CRUNCH",
-    "HEX",
-    "PHANTOMFORCE",
-    "ENDURE",
-    "PLAYROUGH",
-    "RETALIATE",
-]
-raw_tutor_moves = [
-    "ENDEAVOR",
-    "HELPINGHAND",
-    "MUDSLAP",
-    "SPITE",
-    "STOMPINGTANTRUM",
-    "SUPERPOWER",
-    "TRICK",
-    "DOUBLEEDGE",
-]
-compatible_egg_groups = [
-    "Field",
-]
+raw_abilities = ["PICKUP", "FLUFFY"]
+raw_egg_moves = ["ALLYSWITCH", "DESTINYBOND", "DISABLE", "HOWL", "MEMENTO", "SHADOWSNEAK", "YAWN"]
+raw_tms = ["ROAR", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "SHADOWBALL", "DOUBLETEAM", "SANDSTORM", "FACADE", "REST", "ATTRACT", "THIEF", "BULLDOZE", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "SNARL", "CONFIDE", "DIG", "SCARYFACE", "CHARM", "MUDSHOT", "THUNDERFANG", "ICEFANG", "FIREFANG", "PSYCHICFANGS", "CRUNCH", "HEX", "PHANTOMFORCE", "ENDURE", "PLAYROUGH", "RETALIATE"]
+raw_tutor_moves = ["ENDEAVOR", "HELPINGHAND", "MUDSLAP", "SPITE", "STOMPINGTANTRUM", "SUPERPOWER", "TRICK"]
+compatible_egg_groups = ["Field"]
 steps_to_hatch = 5140
 height = 0.6
 weight = 35.0
@@ -87,19 +20,79 @@ pokedex_entry = "This friendly Pokémon doesn't like being alone. Pay it even th
 battler_player_y = 10
 battler_enemy_y = 12
 battler_altitude = 0
-raw_egg_moves = [
-    "ALLYSWITCH",
-    "DESTINYBOND",
-    "DISABLE",
-    "HOWL",
-    "MEMENTO",
-    "SHADOWSNEAK",
-    "YAWN",
-]
-evolutions = [
-    { into_name = "HOUNDSTONE", condition = "LevelNight", parameter = "30" },
-]
-regional_numbers = 971
+form_names = []
+dex_number = 971
+internal_name = "GREAVARD"
+
+[[raw_level_up_moves]]
+at_level = 1
+name = "TACKLE"
+
+[[raw_level_up_moves]]
+at_level = 1
+name = "GROWL"
+
+[[raw_level_up_moves]]
+at_level = 3
+name = "LICK"
+
+[[raw_level_up_moves]]
+at_level = 6
+name = "TAILWHIP"
+
+[[raw_level_up_moves]]
+at_level = 6
+name = "BITE"
+
+[[raw_level_up_moves]]
+at_level = 9
+name = "ROAR"
+
+[[raw_level_up_moves]]
+at_level = 12
+name = "HEADBUTT"
+
+[[raw_level_up_moves]]
+at_level = 16
+name = "ROCKTOMB"
+
+[[raw_level_up_moves]]
+at_level = 20
+name = "ANCIENTPOWER"
+
+[[raw_level_up_moves]]
+at_level = 24
+name = "REST"
+
+[[raw_level_up_moves]]
+at_level = 28
+name = "CRUNCH"
+
+[[raw_level_up_moves]]
+at_level = 32
+name = "PLAYROUGH"
+
+[[raw_level_up_moves]]
+at_level = 37
+name = "HELPINGHAND"
+
+[[raw_level_up_moves]]
+at_level = 41
+name = "PHANTOMFORCE"
+
+[[raw_level_up_moves]]
+at_level = 46
+name = "CHARM"
+
+[[evolutions]]
+into_name = "HOUNDSTONE"
+condition = "Location"
+parameter = "152"
+
+[[evolutions]]
+into_name = "HOUNDSTONE"
+condition = "Location"
+parameter = "552"
 
 [base_stats]
 hp = 50
@@ -116,3 +109,5 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
+
+[wild_items]
