@@ -228,6 +228,10 @@ td.no-border { border: none; }
     max-width: 95%;
 }
 
+.walkthrough details[open] > summary {
+    border-bottom: 1px solid black;
+}
+
 
 .walkthrough details > hr {
     width: 75%;
