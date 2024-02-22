@@ -184,13 +184,12 @@ td.no-border { border: none; }
     margin-top: 1.5rem;
 }
 
-.walkthrough
-.content p,
+.walkthrough .content p,
 .walkthrough .content h1, .walkthrough .content h2, .walkthrough .content h3, .walkthrough .content h4,
 .walkthrough .content ul, .walkthrough .content ol, .walkthrough .content span,
 .walkthrough .content figure.image, .walkthrough .content div.notification,
 .walkthrough summary, .walkthrough .content div.video-container,
-.walkthrough iframe {
+.walkthrough iframe, .walkthrough table {
   max-width: 75%;
   margin-left: auto;
   margin-right: auto;
@@ -206,16 +205,27 @@ td.no-border { border: none; }
 }
 
 .walkthrough summary {
-    border: 2px solid black;
-    border-radius: 1em;
     padding: 1em;
+    text-align: center !important;
 
     color: #485fc7;
 }
 
 .walkthrough summary:hover {
-    color: #363636;
+    text-decoration: underline;
     cursor: pointer;  /** WHY is this not the default */
+}
+
+.walkthrough details[open] {
+    border: 4px solid black;
+    border-radius: 1rem;
+    background-color: #efefef;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.walkthrough details[open] > * {
+    max-width: 95%;
 }
 
 
