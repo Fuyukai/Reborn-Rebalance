@@ -1,25 +1,26 @@
 trainer_name = "Alistasia"
 
-[trainers.RINGMASTER.2]
+[trainers.RINGMASTER.20]
 raw_trainer_class = "RINGMASTER"
 battler_name = "Alistasia"
-battler_id = 2
+battler_id = 20
 raw_battle_items = []
 
-[[trainers.RINGMASTER.2.pokemon]]
+[[trainers.RINGMASTER.20.pokemon]]
 internal_name = "PYROAR"
 level = 64
 raw_item = "POWERHERB"
 raw_moves = [
-    "HEATWAVE",
+    "OVERHEAT",
     "SOLARBEAM",
     "SNARL",
     "HYPERVOICE",
 ]
 nature = "TIMID"
 iv = 31
+ability_number = 2
 
-[trainers.RINGMASTER.2.pokemon.evs]
+[trainers.RINGMASTER.20.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -27,22 +28,22 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.RINGMASTER.2.pokemon]]
+[[trainers.RINGMASTER.20.pokemon]]
 internal_name = "LUXRAY"
 level = 65
 raw_item = "CHOICESCARF"
 raw_moves = [
     "VOLTSWITCH",
-    "SUPERPOWER",
+    "PLAYROUGH",
     "IRONTAIL",
     "SNARL",
 ]
-ability_number = 1
+ability_number = 2
 sex = ""
 nature = "SERIOUS"
 iv = 31
 
-[trainers.RINGMASTER.2.pokemon.evs]
+[trainers.RINGMASTER.20.pokemon.evs]
 hp = 0
 atk = 128
 def_ = 252
@@ -50,43 +51,44 @@ spa = 0
 spd = 128
 spe = 4
 
-[[trainers.RINGMASTER.2.pokemon]]
-internal_name = "DONPHAN"
-level = 66
-raw_item = "SYNTHETICSEED"
+[[trainers.RINGMASTER.20.pokemon]]
+internal_name = "COPPERAJAH"
+level = 67
+raw_item = "WIDELENS"
 raw_moves = [
-    "EARTHQUAKE",
-    "ICESHARD",
     "HEAVYSLAM",
-    "BRUTALSWING",
+    "HEATCRASH",
+    "POWERWHIP",
+    "STONEEDGE",
 ]
-sex = ""
+ability_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.RINGMASTER.2.pokemon.evs]
+[trainers.RINGMASTER.20.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
 spa = 0
 spd = 0
-spe = 4
+spe = 0
 
-[[trainers.RINGMASTER.2.pokemon]]
+[[trainers.RINGMASTER.20.pokemon]]
 internal_name = "PRIMARINA"
 level = 66
 raw_item = "LEFTOVERS"
 raw_moves = [
     "SPARKLINGARIA",
     "MOONBLAST",
-    "SING",
+    "PSYCHIC",
     "ICEBEAM",
 ]
 sex = ""
+ability_number = 1
 nature = "MODEST"
 iv = 31
 
-[trainers.RINGMASTER.2.pokemon.evs]
+[trainers.RINGMASTER.20.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -94,28 +96,50 @@ spa = 0
 spd = 252
 spe = 4
 
-[[trainers.RINGMASTER.2.pokemon]]
+[[trainers.RINGMASTER.20.pokemon]]
 internal_name = "BLAZIKEN"
 level = 67
 raw_item = "FOCUSSASH"
 raw_moves = [
     "SWORDSDANCE",
     "ACROBATICS",
-    "BRICKBREAK",
-    "BULLDOZE",
+    "HIJUMPKICK",
+    "FLAREBLITZ",
 ]
 ability_number = 1
 sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.RINGMASTER.2.pokemon.evs]
+[trainers.RINGMASTER.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
 spa = 252
 spd = 0
 spe = 0
+
+[[trainers.RINGMASTER.20.pokemon]]
+internal_name = "EXPLOUD"
+level = 66
+raw_item = "THROATSPRAY"
+raw_moves = [
+    "BOOMBURST",
+    "ICYWIND",
+    "WHIRLWIND",
+    "SURF",
+]
+nature = "MODEST"
+iv = 31
+
+[trainers.RINGMASTER.20.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 0
+spa = 0
+spd = 252
+spe = 4
+
 
 [trainers.RINGMASTER.0]
 raw_trainer_class = "RINGMASTER"
