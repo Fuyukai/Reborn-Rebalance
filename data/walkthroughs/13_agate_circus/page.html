@@ -2,10 +2,10 @@
 {% set NAME = "13_agate_circus" %}
 {% set LEFTLINK_ID = "12_gang_violence" %}
 {% set LEFTLINK_NAME = "Badge #9: Subseven Sanctum & Iolia Valley" %}
-{% set RIGHTLINK_ID = "14_fucking_rng" %}
-{% set RIGHTLINK_NAME = "Badge 10, Pt 2: Fighting Gym" %}
+{% set RIGHTLINK_ID = "14_charlottification" %}
+{% set RIGHTLINK_NAME = "Badge #11: Oh God Oh Fuck" %}
 
-{% block title %}Badge #10, Pt 1: Agate Circus{% endblock %}
+{% block title %}Badge #10: Agate Circus{% endblock %}
 
 {% block walkthrough %}
 <div class="content has-text-justified">
@@ -263,7 +263,61 @@
     </p>
 
     <p>
-        You get the battle pass required to fight Samson from Titania (why do gym leaders have it?)
-        Next step: return to the circus!
+        You get the battle pass required to fight Samson from Titania (why do gym leaders have it?),
+        so let's go back to the circus and fight him.
     </p>
+
+    <h2 class="subtitle">Fightin Time</h2>
+
+    <p>
+        There's two fights here between you and your tenth badge, and they're both in the Big Top. 
+        Walk through the front door to get forced into a fight with the Ringmaster.
+    </p>
+
+    <p>
+        This fight and the next fight take place on the <strong>Big Top</strong> field, arguably
+        the stupidest field in the game. Amongst other effects, this converts certain types of
+        moves into <i>striker</i> moves, which get random additional damage. Great!
+    </p>
+
+    <div class="notification is-danger is-light">
+        This isn't the most difficult gym in the game, but it's arguably the stupidest gym in the
+        game, as it's entirely RNG based. Don't let the game get you down; turn 
+        on <code>litemode</code> at a PC with a data chip!
+    </div>
+
+    {{ trainer_battle_content("Alistasia", "RINGMASTER", 20) }}
+
+    <p>
+        After beating her and her cheesy Pokémon into a pulp, go into the side room to progress.
+        Talk to everyone but Samson for some free relationship points, then talk to Samson to
+        start the gym battle. As usual, some tips, again:
+    </p>
+    
+    <ul>
+        <li> 
+            This battle is literally pure chance. Find a game plan, stick to it, reset until your
+            moves don't randomly do 1/4th damage.
+        </li>
+        <li>
+            Did you catch a Talonflame? With Gale Wings + Brave Bird, it acts as an emergency check
+            against some of his stronger or faster Pokémon like Hawlucha.
+        </li>
+        <li>
+            This battle begins Reborn's hyper-offensive fetish in earnest, with every Pokémon
+            here having one-hit kill power levels. Don't even think about trying to use resists.
+        </li>
+        <li>
+            I don't know, man. Use a psychic type or a fairy type. Or both. You'll get through
+            this.
+        </li>
+    </ul>
+
+    {{ trainer_battle_content("Samson", "SAMSON", 20) }}
+
+    <p>
+        You now get the badge to use Surf, but you don't have surf. Back to the Fiore Mansion to
+        get it.
+    </p>
+</div>
 {% endblock %}
