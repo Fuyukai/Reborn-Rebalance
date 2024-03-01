@@ -120,7 +120,16 @@
         {# bleghhhh #}
         {% if idx != 0 %}
         <li data-form-idx="{{ idx }}" data-form-name="{{ form }}">
-            <a class="form-tab" onclick="selectTab(this);">{{ form }}</a>
+            {% if form == "PULSE" %}
+                <a class="form-tab" onclick="selectTab(this);">
+                    <i class="bi bi-heart-pulse-fill"></i> &nbsp;
+                    {{ form }}
+                </a>
+            {% else %}
+                <a class="form-tab" onclick="selectTab(this);">
+                    {{ form }}
+                </a>
+            {% endif %}
         </li>
         {% endif %}
         {% endfor %}
@@ -217,7 +226,7 @@
                 </footer>
             </div>
         </div>
-
+        
         <div class="column is-full">
             <div class="box">
                 <div class="content">
