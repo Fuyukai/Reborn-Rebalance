@@ -1,16 +1,11 @@
 {% extends "_meta/walkthrough_page.html" %}
-{% set NAME = "08_apophyll" %}
-{% set LEFTLINK_ID = "07_blacksteam" %}
-{% set LEFTLINK_NAME = "Badge #5, Pt 1: Blacksteam Factory" %}
-{% set RIGHTLINK_ID = "09_ayaya" %}
-{% set RIGHTLINK_NAME = "Badge #5, Pt 3: The Wasteland" %}
-{% block title %}Badge #5, Pt 2: Apophyll Island{% endblock %}
+{% block hero %}
+    {{ ss("riverthames", "This is what it feels like to sit on the Erith Pier.") }}
+{% endblock %}
 
 {% block walkthrough %}
 <div class="content has-text-justified">
-    <h1 class="title">Apophyll & Azurine Island</h1>
 
-    {{ ss("riverthames", "This is what it feels like to sit on the Erith Pier.") }}
 
     <p>
         Welcome to {{ mp(15, "Apophyll Island") }}! It's a sandy ashen island around a volcano, with nothing

@@ -54,13 +54,21 @@
 </div>
 {% endblock %}
 
+{% block title %} {{ TITLE }} {% endblock %}
+
 {% block content %}
 <section class="section">
     <div class="container">
         <div class="columns is-centered">
             <div class="column is-three-quarters">
-                <article class="walkthrough">
+                <article class="walkthrough" id="walkthrough">
                 {{ self.links() }}
+                <div class="walkthrough-hero">
+                    {% block hero %} {% endblock %}
+                </div>
+
+                <h1 class="title has-text-centered">{{ self.title() }}</h1>
+
                 {% block walkthrough %}
 
                 {% endblock %}

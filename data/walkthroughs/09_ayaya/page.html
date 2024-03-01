@@ -1,15 +1,5 @@
 {% extends "_meta/walkthrough_page.html" %}
-{% set NAME = "09_ayaya" %}
-{% set LEFTLINK_ID = "08_apophyll" %}
-{% set LEFTLINK_NAME = "Badge #5, Pt 2: Apophyll Island " %}
-{% set RIGHTLINK_ID = "10_rng" %}
-{% set RIGHTLINK_NAME = "Badge #6 & #7" %}
-{% block title %}Badge #5, Pt 3: The Wasteland{% endblock %}
-
-{% block walkthrough %}
-<div class="content has-text-justified">
-    <h1 class="title">Byxbysion Wasteland</h1>
-
+{% block hero %}
     <div class="video-container has-text-centered">
         <iframe
                 width="560" height="315"
@@ -19,7 +9,10 @@
                 allowfullscreen
         ></iframe>
     </div>
+{% endblock %}
 
+{% block walkthrough %}
+<div class="content has-text-justified">
     <p>
         Welcome to the {{ mp(209, "Byxbysion Wasteland") }}! This is another very wide open area
         that's annoying to navigate. Allegedly, you're here to stop a PULSE Pokémon... but it's

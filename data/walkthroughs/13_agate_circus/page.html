@@ -1,17 +1,11 @@
 {% extends "_meta/walkthrough_page.html" %}
-{% set NAME = "13_agate_circus" %}
-{% set LEFTLINK_ID = "12_gang_violence" %}
-{% set LEFTLINK_NAME = "Badge #9: Subseven Sanctum & Iolia Valley" %}
-{% set RIGHTLINK_ID = "14_charlottification" %}
-{% set RIGHTLINK_NAME = "Badge #11: Oh God Oh Fuck" %}
-
-{% block title %}Badge #10: Agate Circus{% endblock %}
+{% block hero %}
+    {{ ss("header") }}
+{% endblock %}
 
 {% block walkthrough %}
 <div class="content has-text-justified">
-    <h1 class="title">{{ self.title() }}</h1>
 
-    {{ ss("header") }}
 
     <h2 class="subtitle">Danger! Danger!</h2>
 

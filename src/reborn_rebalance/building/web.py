@@ -337,10 +337,11 @@ def main():
     env.globals["FIELD_NAMES"] = FIELD_NAMES
     env.globals["navbar_maps"] = load_navbar_maps(catalog, input_dir / "web" / "navbar_maps.toml")
 
+    walkthru_entries: list[WalkthroughEntry] = []
     if wdir.exists():
-        env.globals["navbar_walkthroughs"] = load_navbar_walkthroughs(wdir / "navbar.toml")
-    else:
-        env.globals["navbar_walkthroughs"] = None
+        walkthru_entries = load_navbar_walkthroughs(wdir / "navbar.toml")
+
+    env.globals["navbar_walkthroughs"] = walkthru_entries
 
     # build single-file templates
     with (output_dir / "changelog.html").open(mode="w", encoding="utf-8") as f:
@@ -383,17 +384,33 @@ def main():
             raise
 
     (output_dir / "walkthroughs").mkdir(exist_ok=True, parents=True)
-    if wdir.exists():
-        for path in wdir.iterdir():
-            if not path.is_dir():
-                continue
 
-            if (wdir_static := path / "static").exists():
-                walkthru_statics.append(wdir_static)
+    flattened_entries = [chap for e in walkthru_entries for chap in e.chapters]
+    for n, entry in tqdm(
+        enumerate(flattened_entries), desc="Walkthru Page Rendering", total=len(flattened_entries)
+    ):
+        wpath = wdir / entry[0]
+        if not (wpath / "page.html").exists():
+            continue
 
-            template = env.get_template(f"{path.name}/page.html")
-            output = (output_dir / "walkthroughs" / path.name).with_suffix(".html")
-            output.write_text(template.render())
+        extra_env = {}
+
+        if n > 0:
+            prev_entry = flattened_entries[n - 1]
+            extra_env["LEFTLINK_ID"], extra_env["LEFTLINK_NAME"] = prev_entry
+
+        extra_env["NAME"], extra_env["TITLE"] = entry
+
+        if n < len(flattened_entries):
+            next_entry = flattened_entries[n + 1]
+            extra_env["RIGHTLINK_ID"], extra_env["RIGHTLINK_NAME"] = next_entry
+
+        if (wdir_static := wpath / "static").exists():
+            walkthru_statics.append(wdir_static)
+
+        template = env.get_template(f"{wpath.name}/page.html")
+        output = (output_dir / "walkthroughs" / wpath.name).with_suffix(".html")
+        output.write_text(template.render(**extra_env))
 
     # now make sure the sprites and static data are all there
     shutil.copytree(template_dir / "static", output_dir / "static", dirs_exist_ok=True)

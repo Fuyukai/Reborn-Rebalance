@@ -1,16 +1,8 @@
 {% extends "_meta/walkthrough_page.html" %}
-{% set NAME = "01_badge1" %}
-{% set LEFTLINK_ID = "00_preface" %}
-{% set LEFTLINK_NAME = "Preface" %}
-{% set RIGHTLINK_ID = "02_obsidia" %}
-{% set RIGHTLINK_NAME = "Badge #2 Pt 1: Obsidia Ward" %}
-{% block title %}Badge #1: Peridot{% endblock %}
+{% block hero %} {{ ss("portraits") }} {% endblock %}
 
 {% block walkthrough %}
 <div class="content has-text-justified">
-    <h1 class="has-text-centered">Badge #1</h1>
-
-    {{ ss("portraits") }}
     <p>
         Welcome to the Reborn Region! The first thing you need to do is to fill out your name and
         character portrait. I recommend naming yourself "Leavanny". Most of the portraits have a

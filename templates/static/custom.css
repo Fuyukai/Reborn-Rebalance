@@ -169,9 +169,7 @@ td.no-border { border: none; }
   top: -12px;
   margin-left: 100%;
 }
-.nested.dropdown .dropdown-trigger button::after {
 
-}
 .nested.dropdown .dropdown-trigger button {
   padding: 0px 0px;
   border: 0px;
@@ -189,10 +187,15 @@ td.no-border { border: none; }
 .walkthrough .content ul, .walkthrough .content ol, .walkthrough .content span,
 .walkthrough .content figure.image, .walkthrough .content div.notification,
 .walkthrough summary, .walkthrough .content div.video-container,
-.walkthrough iframe, .walkthrough table {
+.walkthrough iframe, .walkthrough table,
+.walkthrough-hero {
   max-width: 75%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.walkthrough-hero {
+    padding-bottom: 1rem;
 }
 
 .walkthrough .content ul > li, .walkthrough .content ol > li {

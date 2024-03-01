@@ -1,16 +1,10 @@
 {% extends "_meta/walkthrough_page.html" %}
-{% set NAME = "07_blacksteam" %}
-{% set LEFTLINK_ID = "06_badge3"%}
-{% set LEFTLINK_NAME = "Badge #3 & Badge #4: Lapis Gym" %}
-{% set RIGHTLINK_ID = "08_apophyll" %}
-{% set RIGHTLINK_NAME = "Badge #5, Pt 2: Apophyll Island" %}
-
-{% block title %}Badge #5, Pt 1: Blacksteam Factory{% endblock %}
+{% block hero %}
+    {{ ss("piggystation2") }}
+{% endblock %}
 
 {% block walkthrough %}
 <div class="content has-text-justified">
-    <h1 class="title">Catching Up On Events</h1>
-
     <p>
         Go up to the top of Beryl Ward to the Beryl Cemetery and talk to the spirit.
         If you have a Mabostiff, she'll give you a {{ sp("GREAVARD") }}
@@ -19,7 +13,6 @@
         where to find it so make your way back down to the Obsidia Slum.
     </p>
 
-    {{ ss("piggystation2") }}
 
     <p>
         You can't make it all the way down as Cain will jump out at you at the gate to Peridot and

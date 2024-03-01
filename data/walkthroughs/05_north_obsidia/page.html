@@ -1,17 +1,11 @@
 {% extends "_meta/walkthrough_page.html" %}
-{% set NAME = "05_north_obsidia" %}
-{% set LEFTLINK_ID = "04_rhidochrine"%}
-{% set LEFTLINK_NAME = "Badge 3 Pt 1: Rhidochrine Jungle" %}
-{% set RIGHTLINK_ID = "06_badge3" %}
-{% set RIGHTLINK_NAME = "Badge #3 & Badge #4: Lapis Gym" %}
-{% block title %}Badge #3, Pt 2: North Obsidia{% endblock %}
+
+{% block hero %}
+    {{ ss("gen5represent", title="Save in front of this sign to softlock your game.") }}
+{% endblock %}
 
 {% block walkthrough %}
 <div class="content has-text-justified">
-    <h1 class="has-text-centered title">North Obsidia Ward</h1>
-
-    {{ ss("gen5represent", title="Save in front of this sign to softlock your game.") }}
-
     <p>
         It's time to get going to North Obisida Ward. There's a bunch of gaping holes in regular
         Obsidia ward blocking you, but now the piggy that was previously blocking you has
