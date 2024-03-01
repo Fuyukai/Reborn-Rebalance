@@ -162,6 +162,9 @@ class PokemonForms:
     #: May be None if this species has no mega evolutions.
     mega_form: int | None = attr.ib(default=None)
 
+    #: A custom mapping of {item => form}. Overrides ``default_form``.
+    custom_default_mapping: dict[str, int] = attr.ib(factory=dict)
+
     #: A custom mapping of {mega stone => mega form}. Overrides ``mega_form``.
     custom_mega_mapping: dict[str, int] = attr.ib(factory=dict)
 
@@ -223,6 +226,14 @@ class PokemonForms:
 
                 buffer.write_line("},")
 
+            if self.custom_default_mapping:
+                buffer.write_line(":DefaultForm => {")
+                with buffer.indented():
+                    for name, idx in self.custom_default_mapping.items():
+                          buffer.write_line(f"PBItems::{name} => {idx},")
+                
+                buffer.write_line("},")
+
             if self.custom_mega_mapping:
                 buffer.write_line(":MegaForm => {")
 
@@ -231,11 +242,15 @@ class PokemonForms:
                         buffer.write_line(f"PBItems::{name} => {idx},")
 
                 buffer.write_line("},")
-                buffer.write_line(":DefaultForm => 0,")
+
+                if not self.custom_default_mapping:
+                    buffer.write_line(":DefaultForm => 0,")
 
             elif self.mega_form is not None:
                 buffer.write_line(f":MegaForm => {self.mega_form},")
-                buffer.write_line(":DefaultForm => 0,")
+
+                if not self.custom_default_mapping:
+                    buffer.write_line(":DefaultForm => 0,")
 
             if self.ultra_form is not None:
                 buffer.write_line(f":UltraForm => {self.ultra_form},")

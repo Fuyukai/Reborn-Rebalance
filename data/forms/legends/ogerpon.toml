@@ -1,0 +1,58 @@
+internal_name = "OGERPON"
+
+[form_mapping]
+0 = "Unmasked"
+1 = "Teal Mask"
+2 = "Wellspring Mask"
+3 = "Hearthflame Mask"
+4 = "Cornerstone Mask"
+5 = "Mega Teal"
+6 = "Mega Wellspring"
+7 = "Mega Hearthflame"
+8 = "Mega Cornerstone"
+
+[custom_default_mapping]
+TEALMASK = 1
+WELLSPRINGMASK = 2
+HEARTHFLAMEMASK = 3
+CORNERSTONEMASK = 4
+
+[custom_mega_mapping]
+TEALMASK = 5
+WELLSPRINGMASK = 6
+HEARTHFLAMEMASK = 7
+CORNERSTONEMASK = 8
+
+[forms."Teal Mask"]
+pokedex_entry = "This mischief-loving Pokémon is full of curiosity. It battles by drawing out the type-based energy contained within its masks."
+raw_abilities = ["DEFIANT"]
+
+[forms."Wellspring Mask"]
+pokedex_entry = "This form excels in both attack and defense. It ceaselessly unleashes moves like a spring gushes water."
+secondary_type = "WATER"
+raw_abilities = ["WATERABSORB"]
+
+[forms."Hearthflame Mask"]
+pokedex_entry = "This form is the most aggressive, bombarding enemies with the intensity of flames blazing within a hearth."
+secondary_type = "FIRE"
+raw_abilities = ["MOLDBREAKER"]
+
+[forms."Cornerstone Mask"]
+pokedex_entry = "This form has excellent defenses, absorbing impacts solidly like the cornerstones that support houses."
+secondary_type = "ROCK"
+raw_abilities = ["STURDY"]
+
+[forms."Mega Teal"]
+raw_abilities = ["EMBODYASPECT"]
+
+[forms."Mega Wellspring"]
+secondary_type = "WATER"
+raw_abilities = ["EMBODYASPECT"]
+
+[forms."Mega Hearthflame"]
+secondary_type = "FIRE"
+raw_abilities = ["EMBODYASPECT"]
+
+[forms."Mega Cornerstone"]
+secondary_type = "ROCK"
+raw_abilities = ["EMBODYASPECT"]

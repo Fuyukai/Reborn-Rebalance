@@ -111,6 +111,10 @@ def crop_form_sprites(catalog: EssentialsCatalog, game_dir: Path, output_dir: Pa
         except KeyError:
             continue
 
+        # comically broken as-is.
+        if species.dex_number == 493:
+            continue
+
         # weh
         if not forms.form_mapping:
             continue

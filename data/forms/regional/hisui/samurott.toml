@@ -1,4 +1,5 @@
-form_mapping = { 0 = "Unova", 1 = "Hisui" }
+form_mapping = { 0 = "Unova", 1 = "Hisui", 2 = "Mega" }
+mega_form = 2
 
 [forms.Hisui]
 secondary_type = "DARK"
@@ -48,3 +49,7 @@ name = "DARKPULSE"
 [[forms.Hisui.raw_level_up_moves]]
 at_level = 43
 name = "HYDROPUMP"
+
+[forms.Mega]
+base_stats = { hp = 95, atk = 140, def_ = 105, spa = 108, spd = 90, spe = 90 }
+raw_abilities = ["SHARPNESS"]

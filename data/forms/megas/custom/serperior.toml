@@ -1,0 +1,8 @@
+internal_name = "SERPERIOR"
+form_mapping = { 1 = "Mega" }
+mega_form = 1
+
+[forms.Mega]
+base_stats = { hp = 75, atk = 95, def_ = 115, spa = 95, spd = 115, spe = 133 }
+# FUCK giving it adaptability?
+raw_abilities = ["CONTRARY"]
