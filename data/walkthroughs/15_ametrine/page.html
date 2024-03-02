@@ -1,1 +1,178 @@
 {% extends "_meta/walkthrough_page.html" %}
+
+{% block hero %}
+<iframe 
+    width="560" height="315" 
+    src="https://www.youtube-nocookie.com/embed/Ss5IOZpnV1o?si=sNPHTDyzf-9apl13" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen>
+</iframe>
+{% endblock %}
+
+{% block walkthrough %}
+<div class="content has-text-justified">
+    <p>
+        You should consider picking up some strong fighting or fire types before you return
+        to Ametrine Mountain. Once you're ready, exit out to Route 3 from Calcenon and go back
+        into the mountain; there's a surf spot to the immediate north of the ice you find across
+        the river. Go into it, then press A in the dark patch to dive. Take a minute to appreciate
+        the best music in the game, then go to the left and press A in the light patch to surface.
+        (Congrats, you now how to dive.)
+    </p>
+
+    <p>
+        Keep going down to the south and dive again to find a small cave entry. Surface in the
+        next room to find PULSE Avalugg, which is the cause of the massive ice wall.
+    </p>
+
+    {{ ss("avalugg", "Hisui's favourite monstrosity.") }}
+
+    <p>
+        Activate the PULSE machine and select the option to fight it. This is actually a much
+        harder fight than it seems on the surface as the field effect heavily nullifies fire type
+        attacks and PULSE Avalugg has 105/255/255 bulk. (I think that one is more important.)
+        Try melting the field with Heat Wave (or similar moves) to nullify Earthquake.
+    </p>
+
+    {{ trainer_battle_content("Redoubt", "AVALUGG", 0) }}
+
+    <p>
+        As soon as you beat it, you'll get a small cutscene with Heather. Use the light shard
+        above to heal your team, and then go straight up to get to Ametrine Mountain 3F. Go to
+        the left, and then up the stairs to find an ice puzzle.
+    </p>
+
+    {{ ss("ice1") }}
+
+    <p>
+        This one looks worse than it is. Go up the ladder to find <i>another</i> ice puzzle.
+    </p>
+
+    {{ ss("ice2") }}
+
+    <p>
+        Exit out to the right to enter {{ mp(439, "Ametrine City") }}. There's a bit of path there
+        before you enter the city proper, but once you do you can talk to Shelly for a brief 
+        cutscene, where she tells you to ask around for Heather. Before doing that, there's a few
+        things you can find here; one of the houses to the far west of the town has <i>TM140 Hex</i>
+        in it. The open apartment building at the northwest has a kid in it that asks you for a
+        {{ sp("PIDOVE")}} in exchange for an Old Amber. Finally, if you go down to the lower
+        part of town and find the Pokécentre, next to it is a house with a single NPC. Talk to them
+        and battle all of the Pokémon in the PC to get another Department Store sticker 
+        (and the most important one, allowing you access to the evolution stones!)
+    </p>
+
+    <p>
+        In addition, if you caught a Rotom before, directly below the two left-most apartment 
+        buildings is a house with a PC where you can change Rotom forms.
+    </p>
+
+    {{ ss("creepyhouse") }}
+
+    <p>
+        To advance the plot some more, find the creepy house in the main area of town. (One of the
+        child NPCs will tell you where it is.) When you walk in, you'll be treated to a long 
+        cutscene with some backstory for a major story character (no props for figuring out who it 
+        is). Go outside and talk to the kid Shelly is interrogating to find out the blue-haired soy
+        guy you saw is called Blake, and he's probably evil. Go up to the now freshly-opened 
+        apartment building and talk to Shelly to get a long cutscene.
+    </p>
+
+    <div class="notification is-warning is-light">
+        When prompted to give him the ring, say no every time if you want the good route. You
+        get what he's offering in about five minutes anyway.
+    </div>
+
+    <h2 class="subtitle">Ametrine Fight</h2>
+
+    <p>
+        This puzzle is really, really stupid. It's very tedious and there's lots of little 
+        interlocking steps that you need to follow. First, go back outside to trigger a cutscene,
+        then go back up to the apartment and talk to Shelly again.
+    </p>
+
+    <details>
+        <summary>FULL Apartment Puzzle Walkthrough</summary>
+
+        {{ ss("blp1") }}
+        <p>
+            Activate the console to get the Program Disc.
+        </p>
+        <hr/>
+
+        {{ ss("blp2") }}
+        <p>
+            Activate the rubbish bin to get the head of a key.
+        </p>
+        <hr/>
+
+        {{ ss("blp3") }}
+        <p>
+            Activate the drawers to get the shaft of a key. This gets you the full key. (You can do
+            these steps in either order.)
+        </p>
+        <hr/>
+
+        {{ ss("blp4") }}
+        <p>
+            Activate the cupboard to unlock it and get the Power Cable.
+        </p>
+        <hr/>
+
+        {{ ss("blp5") }}
+        <p>
+            Activate the computer twice to power it on, and insert the Program Disc. Finally,
+            you can enter the code 5083164 when activating the monitor to open the secret door.
+        </p>
+    </details>
+
+    <p>
+        After solving the puzzle, this spits you out in Ametrine Mountain again. Follow the
+        (linear) path and talk to Shelly for a long cutscene. There's a Flying Gem in the 
+        conspicious rock to the north east. Now, you need to walk all the way back down and to the
+        far west of the city into the area previously blocked off by an NPC. There's a few double
+        battles up on this path (six, I think) with Cal for the first half and Shelly for the
+        latter half.
+    </p>
+
+    {{ ss("aster", "Look who's back!") }}
+
+    <p>
+        After fighting your way back into the mountain, you will be greeted by Aster. (Well, this
+        is only true if you did NOT give Blake the ring. If you did, he won't be there.) 
+    </p>
+
+    {{ trainer_battle_content("Aster", "AsterKnight", 24) }}
+
+    <p>
+        Proceed up the mountain to find Blake at the top. If you walk into the tile next to Shelly,
+        it'll trigger a battle with him, and a hard one too. Some tips:
+    </p>
+
+    <ul>
+        <li>
+            Use a move such as Heat Wave to remove the advantageous field effect. This makes the 
+            fight a lot easier.
+        </li>
+        <li>
+            Get a strong electric type to counter his Gyrados and Walrein, who are otherwise
+            neutral or resist both Ice counters.
+        </li>
+        <li>
+            Otherwise, just throw strong fighting/fire types at him until you win. This is a double
+            battle, so be prepared.
+        </li>
+    </ul>
+
+    {{ trainer_battle_content("Blake", "Agent", 20) }}
+
+    <p>
+        After a small cutscene, you find out that Terra is the inside agent all along (oh no!). 
+        Accept Cal's offer to take you down as there's really nothing here to see. And that was
+        Ametrine City! There's sweet fuck-all here for the rest of the game! Next step: Back to the
+        Circus. Climb you way back down through the mountains of doom and back to Route 2.
+    </p>
+</div>
+{% endblock %}
