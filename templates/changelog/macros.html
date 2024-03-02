@@ -83,15 +83,15 @@
 
                 {% if level is none %}
                 <b class="has-text-danger">Removed level-up move
-                    <a href="/moves/{{ move.internal_name.lower() }}">{{ move.display_name }}</a>
+                    <a href="/moves/{{ move.internal_name.lower() }}.html">{{ move.display_name }}</a>
                 </b>
                 {% elif level == 0 %}
                 <b class="has-text-success">Added evolution move
-                    <a href="/moves/{{ move.internal_name.lower() }}">{{ move.display_name }}</a>
+                    <a href="/moves/{{ move.internal_name.lower() }}.html">{{ move.display_name }}</a>
                 </b>
                 {% else %}
                 <b class="has-text-success">Added level-up move
-                    <a href="/moves/{{ move.internal_name.lower() }}">{{ move.display_name }}</a>
+                    <a href="/moves/{{ move.internal_name.lower() }}.html">{{ move.display_name }}</a>
                     at level {{ level }}
                 </b>
                 {% endif %}
@@ -101,11 +101,11 @@
 
                 {% if change.action == "add" %}
                 <b class="has-text-success">Added TM
-                    <a href="/moves/{{ move.internal_name.lower() }}">{{ move.display_name }}</a>
+                    <a href="/moves/{{ move.internal_name.lower() }}.html">{{ move.display_name }}</a>
                 </b>
                 {% else %}
                 <b class="has-text-success">Removed TM
-                    <a href="/moves/{{ move.internal_name.lower() }}">{{ move.display_name }}</a>
+                    <a href="/moves/{{ move.internal_name.lower() }}.html">{{ move.display_name }}</a>
                 </b>
                 {% endif %}
             {% elif type == "tutor" %}
@@ -113,12 +113,12 @@
 
                 {% if change.action == "add" %}
                 <b class="has-text-success">Added tutor move
-                    <a href="/moves/{{ move.internal_name.lower() }}">{{ move.display_name }}</a>
+                    <a href="/moves/{{ move.internal_name.lower() }}.html">{{ move.display_name }}</a>
                 </b>
 
                 {% else %}
                 <b class="has-text-success">Removed tutor move
-                    <a href="/moves/{{ move.internal_name.lower() }}">{{ move.display_name }}</a>
+                    <a href="/moves/{{ move.internal_name.lower() }}.html">{{ move.display_name }}</a>
                 </b>
                 {% endif %}
             {% endif %}

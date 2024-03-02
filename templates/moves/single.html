@@ -1,0 +1,263 @@
+{% extends "_meta/_root.html" %}
+{% from "helpers.html" import small_sprite, small_sprite_obb, species_link %}
+
+{% set tm_number = catalog.tm_id_for(move.internal_name) %}
+{% set is_tutor = move in catalog.tutor_moves %}
+{% set bg = "bg-" + move.type.name.lower() %}
+
+{% block title %}{{ move.display_name }}{% endblock %}
+
+{% block move_left %}
+<div class="columns is-multiline is-centered" style="margin-top: 0; height: 100%">
+<div class="column is-full" style="margin-bottom: auto;">
+<div class="card">
+    <div class="card-header {{ bg }}">
+        <p class="card-header-title has-text-centered" style="color: white;">
+            {{ move.display_name }}
+        </p>
+    </div>
+
+    <div class="card-content">
+        <p class="content">
+            {{ move.description }}
+        </p>
+    </div>
+</div>
+</div>
+
+<div class="column is-full" style="margin-bottom: auto;">
+<div class="box">
+    <div class="content">
+        <table class="table is-fullwidth">
+            <tbody>
+                <tr>
+                    <td class="has-text-centered">TM Number</td>
+                    {% if tm_number is not none %}
+                    <td class="is-success has-text-centered">{{ tm_number }}</td>
+                    {% else %}
+                    <td class="is-danger has-text-centered">N/A</td>
+                    {% endif %}
+                </tr>
+                <tr>
+                    <td class="has-text-centered">Tutor Move?</td>
+                    {% if is_tutor %}
+                    <td class="is-success has-text-centered">Yes</td>
+                    {% else %}
+                    <td class="is-danger has-text-centered">No</td>
+                    {% endif %}
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+</div>
+</div>
+{% endblock %}
+
+{% block move_middle %}
+<div class="box">
+    <table class="table is-fullwidth">
+        <tr>
+            <td class="has-text-centered">Type</td>
+            <td class="has-text-centered {{ bg }}" style="color: white">{{ move.type.localised_name }}</td>
+        </tr>
+        <tr>
+            <td class="has-text-centered">Category</td>
+            <td class="has-text-centered">
+                <img
+                    src="https://img.pokemondb.net/images/icons/move-{{ move.category.name.lower() }}.png"
+                    alt="{{ move.category.name.title() }}"
+                    height="42" width="28"
+                    loading="lazy"/>
+                </td>
+        </tr>
+        <tr>
+            <td class="has-text-centered">Base Power</td>
+            {% if move.base_power == 0 %}
+            <td class="has-text-centered">N/A</td>
+            {% else %}
+            <td class="has-text-centered">{{ move.base_power }}</td>
+            {% endif %}
+        </tr>
+        <tr>
+            <td class="has-text-centered">Accuracy</td>
+            {% if move.accuracy == 0 %}
+            <td class="has-text-centered">
+                <abbr title="Never misses.">--</abbr>
+            </td>
+            {% else %}
+            <td class="has-text-centered">{{ move.accuracy }}</td>
+            {% endif %}
+        </tr>
+        <tr>
+            <td class="has-text-centered">
+                <abbr title="After PP Max is used">Max PP</abbr>
+            </td>
+            <td class="has-text-centered">
+                {% if move.max_pp == 0 %} 0 {% else %} {{ move.final_max_pp }} {% endif %}
+            </td>
+        </tr>
+        <tr>
+            <td class="has-text-centered">Secondary effect chance</td>
+            <td class="has-text-centered">
+                {% if move.secondary_effect_chance == 0 %} 
+                N/A
+                {% else %}
+                {{ move.secondary_effect_chance }}%
+                {% endif %}
+            </td>
+        </tr>
+    </table>
+</div>
+{% endblock %}
+
+{% block move_right %}
+<div class="card">
+    <div class="card-header">
+        <p class="card-header-title has-text-centered">
+            Move Flags
+        </p>
+    </div>
+
+    <div class="card-content">
+    <table class="table is-fullwidth" id="flag-table">
+        <tr>
+            {% for flag in MoveFlag if flag.name != "BOMBER_HARRIS" %}
+            <td class="has-text-centered" style="font-family: monospace;">
+                <abbr title="{{ flag.template_name }}">
+                    {% if flag in move.flags %}
+                    <b>{{ flag.value }}</b>
+                    {% else %}
+                    <i style="color: grey;">{{ flag.value }}</i>
+                    {% endif %}
+                </abbr>
+
+            </td>
+            {% endfor %}
+        </tr>
+        <tr>
+            {% for flag in MoveFlag if flag.name != "BOMBER_HARRIS" %}
+            <td class="has-text-centered" style="font-family: monospace;">
+                {% if flag in move.flags %}
+                <abbr title="Yes" class="has-text-success">Y</abbr>
+                {% else %}
+                <abbr title="No" class="has-text-danger">N</abbr>
+                {% endif %}
+            </td>
+            {% endfor %}
+        </tr>
+    </table>
+    </div>
+</div>
+
+<div class="box">
+    <strong>Move target</strong>: {{ move.target_selection.template_name }}
+</div>
+{% endblock %}
+
+{# type: 0 = level-up, 1 = TM/Tutor/Egg, 2 = Egg #}
+{%- macro learnset_table(subset, type) -%}
+<table class="table is-fullwidth learnset-table">
+    <thead>
+    <tr class="is-primary">
+        <td class="has-text-centered">Sprite</td>
+        <td class="has-text-centered">Name</td>
+        {% if type == 0 %}
+        <td class="has-text-centered">Level</td>
+        {% else %}
+        <td class="has-text-centered">Learned How</td>
+        {% endif %}
+    </tr>
+    </thead>
+    <tbody>
+    {% for entry in subset %}
+    {% set species = catalog.species_mapping[entry.species_name] %}
+
+    <tr>
+        <td class="has-text-centered">{{ small_sprite_obb(species) }}</td>
+        <td class="has-text-centered">
+            {% if entry.form_id != 0 %}
+            {% set form = catalog.get_attribs_for_form(species, entry.form_id) %}
+            {{ species_link(species, form.form_name)}}
+            {% else %}
+            {{ species_link(species) }}
+            {% endif %}
+        </td>
+        <td class="has-text-centered">
+            {% if type == 0 %}
+                {% if entry.learned_at == 0 %}
+                Evolution
+                {% elif entry.learned_at == 1 %}
+                <abbr title="Via the Move Relearner">Start</abbr>
+                {% else %}
+                {{ entry.learned_at }}
+                {% endif %}
+            {% else %}
+                {% if entry.type == MoveMappingEntryType.TM %}
+                Via TM
+                {% elif entry.type == MoveMappingEntryType.EGG %}
+                Egg Move
+                {% elif entry.type == MoveMappingEntryType.TUTOR %}
+                Via Tutor
+                {% else %}
+                {{ entry.type }}
+                {% endif %}
+            {% endif %}
+        </td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+
+{%- endmacro -%}
+
+{% block content %}
+<section class="section">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-one-third">{{ self.move_left() }}</div>
+            <div class="column is-one-third">{{ self.move_middle() }}</div>
+            <div class="column is-one-third">{{ self.move_right() }}</div>
+        </div>
+    </div>
+</section>
+
+{# yay, three-pass! #}
+
+<section class="section">
+    <div class="container">
+        <div class="columns">
+            {% if lvl_up_learnset %}
+            <div class="column is-half">
+                <h1 class="title has-text-centered">Level-up Learners</h1>
+                <hr/>
+
+                {{ learnset_table(lvl_up_learnset, type=0) }}
+            </div>
+            {% endif %}
+
+            {% if taught_learnset %}
+            <div class="column is-half">
+                <h1 class="title has-text-centered">Taught Learners</h1>
+                <hr/>
+                {{ learnset_table(taught_learnset, type=1) }}
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</section>
+
+<style>
+    p.card-header-title.has-text-centered {
+        display: block;
+    }
+
+    table#flag-table td {
+        padding: 0.25rem;
+    }
+
+    table.learnset-table td {
+        vertical-align: middle;
+    }
+</style>
+{% endblock %}

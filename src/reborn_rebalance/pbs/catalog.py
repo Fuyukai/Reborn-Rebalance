@@ -2,7 +2,7 @@ import concurrent.futures
 import time
 import types
 from collections import defaultdict
-from collections.abc import Callable, Mapping
+from collections.abc import Callable, Mapping, MutableMapping
 from functools import cached_property, partial
 from pathlib import Path
 from typing import Self, TypeVar
@@ -14,7 +14,11 @@ from reborn_rebalance.pbs.encounters import ENCOUNTER_SLOTS, MapEncounters
 from reborn_rebalance.pbs.form import PokemonForms, save_forms_to_ruby
 from reborn_rebalance.pbs.item import PokemonItem
 from reborn_rebalance.pbs.map import MapMetadata, parse_rpg_maker_mapinfo
-from reborn_rebalance.pbs.move import PokemonMove
+from reborn_rebalance.pbs.move import (
+    MoveMappingEntry,
+    MoveMappingEntryType,
+    PokemonMove,
+)
 from reborn_rebalance.pbs.pokemon import (
     FormAttributes,
     PokemonEvolution,
@@ -184,6 +188,20 @@ class EssentialsCatalog:
     @cached_property
     def item_mapping(self) -> Mapping[str, PokemonItem]:
         return types.MappingProxyType({it.internal_name: it for it in self.items})
+    
+    @cached_property
+    def tutor_moves(self) -> set[PokemonMove]:
+        """
+        The set of tutor moves.
+        """
+
+        items = set()
+
+        for species in self.species:
+            for move in species.raw_tutor_moves:
+                items.add(move)
+
+        return items
 
     @cached_property
     def pre_evolutionary_cache(self) -> Mapping[str, tuple[PokemonSpecies, PokemonEvolution]]:
@@ -191,7 +209,7 @@ class EssentialsCatalog:
         Gets a mapping of (species -> (pre-evo species, pre-evolution)).
         """
 
-        # luckily, there's no cases of multiple species eevolving into one pokemon.
+        # luckily, there's no cases of multiple species evolving into one pokemon.
         d = {}
 
         for species in self.species:
@@ -648,16 +666,14 @@ class EssentialsCatalog:
 
     # == Helper methods == #
     def get_attribs_for_form(
-        self, species_name: str | PokemonSpecies, form_idx: int
+        self, root_species: str | PokemonSpecies, form_idx: int
     ) -> FormAttributes:
         """
         Gets the attributes for the specified form idx of the provided Pokémon species.
         """
 
-        if isinstance(species_name, PokemonSpecies):
-            root_species = species_name
-        else:
-            root_species = self.species_mapping[species_name]
+        if isinstance(root_species, str):
+            root_species = self.species_mapping[root_species]
 
         if (forms := self.forms.get(root_species.internal_name)) is None:
             return root_species.default_attributes
@@ -666,13 +682,18 @@ class EssentialsCatalog:
             return root_species.default_attributes
 
         form_name = forms.form_mapping[form_idx]
-        return forms.forms[form_name].combined_attributes(root_species)
+        try:
+            return forms.forms[form_name].combined_attributes(root_species)
+        except KeyError:  # e.g. pokemon with visual-only forms.
+            return root_species.default_attributes
 
     def all_forms_for(
         self, species_name: str | PokemonSpecies
     ) -> list[tuple[int, str, FormAttributes]]:
         """
         Gets all of the forms for the provided species.
+
+        Returns a tuple of (form ID, form name, form attributes).
         """
 
         if isinstance(species_name, PokemonSpecies):
@@ -831,3 +852,75 @@ class EssentialsCatalog:
             chain.append(next_parent)
 
         return chain
+
+    def build_move_mapping(self) -> Mapping[PokemonMove, list[MoveMappingEntry]]:
+        """
+        Builds the reverse move mapping (i.e. a dict of move => list of Pokémon that learn it).
+        """
+
+        mapping: MutableMapping[PokemonMove, list[MoveMappingEntry]] = defaultdict(list)
+
+        for species in self.species:
+            for move in species.raw_egg_moves:
+                mapped = self.move_mapping[move]
+                mapping[mapped].append(
+                    MoveMappingEntry(
+                        internal_name=mapped.internal_name,
+                        type=MoveMappingEntryType.EGG,
+                        species_name=species.internal_name,
+                    )
+                )
+
+            for tm in species.raw_tms:
+                mapped = self.move_mapping[tm]
+                mapping[mapped].append(
+                    MoveMappingEntry(
+                        internal_name=mapped.internal_name,
+                        type=MoveMappingEntryType.TM,
+                        species_name=species.internal_name,
+                    )
+                )
+
+            for tutor in species.raw_tutor_moves:
+                mapped = self.move_mapping[tutor]
+                mapping[mapped].append(
+                    MoveMappingEntry(
+                        internal_name=mapped.internal_name,
+                        type=MoveMappingEntryType.TUTOR,
+                        species_name=species.internal_name,
+                    )
+                )
+
+            for id, _, attrs in self.all_forms_for(species):
+                # skip forms with identical level up movesets
+                if id > 0 and attrs.raw_level_up_moves == species.raw_level_up_moves:
+                    continue
+
+                for lvl in attrs.raw_level_up_moves:
+                    mapped = self.move_mapping[lvl.name]
+                    type: MoveMappingEntryType
+
+                    match lvl.at_level:
+                        case 0:
+                            type = MoveMappingEntryType.EVOLUTION
+
+                        case 1:
+                            type = MoveMappingEntryType.START
+
+                        case _:
+                            type = MoveMappingEntryType.LEVEL_UP
+
+                    mapping[mapped].append(
+                        MoveMappingEntry(
+                            internal_name=mapped.internal_name,
+                            type=type,
+                            species_name=species.internal_name,
+                            form_id=id,
+                            learned_at=lvl.at_level,
+                        )
+                    )
+
+        for sublist in mapping.values():
+            sublist.sort(key=lambda it: self.species_mapping[it.species_name].dex_number)
+
+        return mapping

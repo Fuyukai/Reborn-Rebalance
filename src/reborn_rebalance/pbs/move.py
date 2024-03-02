@@ -4,6 +4,7 @@ import enum
 from typing import Self
 
 import attr
+from typing_extensions import override
 
 from reborn_rebalance.pbs.type import PokemonType
 
@@ -31,6 +32,10 @@ class MoveTarget(enum.Enum):
     DIRECTLY_OPPOSITE = 800
     WHO_KNOWS = 1000
 
+    @property
+    def template_name(self) -> str:
+        return self.name.replace("_", " ").capitalize()
+
 
 class MoveFlag(enum.Enum):
     MAKES_CONTACT = "a"
@@ -48,8 +53,11 @@ class MoveFlag(enum.Enum):
     PULSING = "m"
     BOMBER_HARRIS = "n"
 
+    @property
+    def template_name(self) -> str:
+        return self.name.replace("_", " ").capitalize()
 
-@attr.s(kw_only=True, frozen=True, slots=True)
+@attr.s(kw_only=True, frozen=True, slots=True, eq=False, hash=False)
 class PokemonMove:
     """
     A single Pokémon move.
@@ -165,3 +173,58 @@ class PokemonMove:
             "".join([flag.value for flag in self.flags]),
             self.description,
         ]
+    
+    @property
+    def final_max_pp(self) -> int:
+        """
+        Gets the final max PP of this move, after PP Max.
+        """
+
+        return int(self.max_pp * 8/5)
+
+    @override
+    def __eq__(self, other: object, /) -> bool:
+        if not isinstance(other, PokemonMove):
+            return NotImplemented
+
+        return other.internal_name == self.internal_name
+    
+    @override
+    def __hash__(self) -> int:
+        return hash(self.internal_name)
+
+
+class MoveMappingEntryType(enum.Enum):
+    """
+    The type (i.e. learning type) of an entry in the move mapping.
+    """
+
+    START = 0
+    EVOLUTION = 1
+    LEVEL_UP = 2
+    TM = 3
+    TUTOR = 4
+    EGG = 5
+
+
+@attr.s(slots=True, kw_only=True, frozen=True)
+class MoveMappingEntry:
+    """
+    A single entry in the reverse move mapping dict.
+    """
+
+    #: The internal name of the move.
+    internal_name: str = attr.ib()
+
+    #: The way this move is learned.
+    type: MoveMappingEntryType = attr.ib()
+
+    #: The internal name of the Pokémon this move is learned by.
+    species_name: str = attr.ib()
+
+    #: The form ID of the Pokémon that this move is learned by.
+    form_id: int = attr.ib(default=0)
+
+    #: If this is a level-up move, the level at which this move is learned.
+    #: This will be '0' for evolution moves, and '1' for starting moves.
+    learned_at: int | None = attr.ib(default=None)

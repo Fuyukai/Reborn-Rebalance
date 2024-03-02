@@ -20,7 +20,7 @@ from reborn_rebalance.map.tileset import load_all_tilesets
 from reborn_rebalance.pbs.catalog import EssentialsCatalog
 from reborn_rebalance.pbs.encounters import ENCOUNTER_SLOTS
 from reborn_rebalance.pbs.map import FIELD_NAMES
-from reborn_rebalance.pbs.move import MoveCategory
+from reborn_rebalance.pbs.move import MoveCategory, MoveFlag, MoveMappingEntryType
 
 
 @attr.s(slots=True, kw_only=True)
@@ -165,6 +165,7 @@ def crop_regular_sprites(catalog: EssentialsCatalog, original_dir: Path, output_
 
     for species in tqdm(catalog.species, desc="Species Sprites"):
         idx = species.dex_number
+
         input_mini_sprite = original_dir / "Graphics" / "Icons" / f"icon{idx:03d}.png"
 
         with Image.open(input_mini_sprite) as input_1, Image.open(input_mini_sprite) as input_2:
@@ -340,6 +341,8 @@ def main():
     env.globals["ENCOUNTER_SLOTS"] = ENCOUNTER_SLOTS
     env.globals["FIELD_NAMES"] = FIELD_NAMES
     env.globals["navbar_maps"] = load_navbar_maps(catalog, input_dir / "web" / "navbar_maps.toml")
+    env.globals["MoveMappingEntryType"] = MoveMappingEntryType
+    env.globals["MoveFlag"] = MoveFlag
 
     walkthru_entries: list[WalkthroughEntry] = []
     if wdir.exists():
@@ -370,6 +373,22 @@ def main():
         except Exception:
             print("Error rendering", species.internal_name, file=sys.stderr)
             raise
+
+    (output_dir / "moves").mkdir(exist_ok=True, parents=True)
+    built_move_mapping = catalog.build_move_mapping()
+    move_template = env.get_template("moves/single.html")
+    for move, entries in tqdm(
+        built_move_mapping.items(), desc="Move Page Rendering", total=len(built_move_mapping)
+    ):
+        lvl_up_learnset = [e for e in entries if e.type.value <= 2]
+        taught_learnset = [e for e in entries if e.type.value >= 3]
+
+        path = (output_dir / "moves" / move.internal_name.lower()).with_suffix(".html")
+        path.write_text(move_template.render(
+            move=move, 
+            lvl_up_learnset=lvl_up_learnset,
+            taught_learnset=taught_learnset,
+        ))
 
     (output_dir / "maps").mkdir(exist_ok=True, parents=True)
     maps_template = env.get_template("maps/single_map.html")

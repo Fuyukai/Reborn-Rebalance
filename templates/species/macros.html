@@ -61,7 +61,7 @@
     </td>
     {% endif %}
     <td>
-        <a href="/moves/{{ move.internal_name }}.html" style="text-decoration-style: dashed" title="{{ move.description }} ">
+        <a href="/moves/{{ move.internal_name.lower() }}.html" style="text-decoration-style: dashed" title="{{ move.description }} ">
             {% if attributes.has_stab_on(move) %}
             <strong>{{ move.display_name }}</strong>
             {% else %}
