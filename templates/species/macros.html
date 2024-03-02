@@ -60,8 +60,8 @@
         {% endif %}
     </td>
     {% endif %}
-    <td class="has-text-center">
-        <a href="/moves/{{ move.internal_name }}" style="text-decoration-style: dashed" title="{{ move.description }} ">
+    <td>
+        <a href="/moves/{{ move.internal_name }}.html" style="text-decoration-style: dashed" title="{{ move.description }} ">
             {% if attributes.has_stab_on(move) %}
             <strong>{{ move.display_name }}</strong>
             {% else %}
