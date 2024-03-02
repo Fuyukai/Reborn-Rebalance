@@ -29,26 +29,6 @@ spa = 0
 spd = 0
 spe = 0
 
-[[trainers.BLAKE.0.pokemon]]
-internal_name = "MAMOSWINE"
-level = 72
-raw_moves = [
-    "EARTHQUAKE",
-    "STEALTHROCK",
-    "ICESHARD",
-    "ICICLECRASH",
-]
-ability_number = 1
-nature = "ADAMANT"
-iv = 20
-
-[trainers.BLAKE.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.BLAKE.0.pokemon]]
 internal_name = "WEAVILE"
@@ -917,23 +897,23 @@ spd = 0
 spe = 0
 
 [[trainers.BLAKE.20.pokemon]]
-internal_name = "BAXCALIBUR"
-level = 73
-raw_item = "LOADEDDICE"
+internal_name = "MAMOSWINE"
+level = 72
 raw_moves = [
-    "DRAGONDANCE",
-    "GLAIVERUSH",
-    "ICICLESPEAR",
-    "IRONHEAD",
+    "EARTHQUAKE",
+    "STEALTHROCK",
+    "ICESHARD",
+    "ICICLECRASH",
 ]
-nature = "JOLLY"
-iv = 15
+ability_number = 1
+nature = "ADAMANT"
+iv = 20
 
 [trainers.BLAKE.20.pokemon.evs]
 hp = 0
-atk = 4
-def_ = 252
-spa = 252
+atk = 0
+def_ = 0
+spa = 0
 spd = 0
 spe = 0
 
