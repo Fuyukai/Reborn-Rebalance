@@ -1,0 +1,58 @@
+{% extends "_meta/_root.html" %}
+
+{% block title %} All Moves {% endblock %}
+
+{%- macro render_moves_table(moves) %}
+<table class="table is-fullwidth is-bordered">
+    <thead>
+        <tr>
+            <th class="has-text-centered">Name</th>
+            <th class="has-text-centered">Type</th>
+            <th class="has-text-centered">Category</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for move in moves %}
+        <tr>
+            <td class="has-text-centered">
+                <a href="/moves/{{ move.internal_name.lower() }}.html">
+                    {{ move.display_name }}
+                </a>
+            </td>
+            <td class="bg-{{ move.type.name.lower() }} has-text-centered" style="color: white">
+                {{ move.type.localised_name }}
+            </td>
+            <td class="has-text-centered">
+                {{ move.category.name.capitalize() }}
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{%- endmacro -%}
+
+{% block content %}
+<section class="section">
+<div class="container">
+    <div class="columns is-centered">
+        <div class="column is-6">
+            <div class="content">
+                <h1 class="title has-text-centered">Full Move list</h1>
+                <p class="has-text-centered">
+                    Click on a move's name to see its full details page, including who learns it.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="columns is-centered">
+        <div class="column is-one-half">
+            {{ render_moves_table(left) }}
+        </div>
+        <div class="column is-one-half">
+            {{ render_moves_table(right) }}
+        </div>
+    </div>
+</div>
+</section>
+{% endblock %}

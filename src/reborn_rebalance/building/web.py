@@ -401,6 +401,13 @@ def main():
             next_move=next_move,
         ))
 
+    moves_by_name = sorted(catalog.moves, key=lambda it: it.display_name)
+    moves_left = moves_by_name[:len(moves_by_name)//2]
+    moves_right = moves_by_name[len(moves_by_name)//2:]
+    (output_dir / "moves" / "index.html").write_text(
+        env.get_template("moves/list.html").render(left=moves_left, right=moves_right)
+    )
+
     (output_dir / "maps").mkdir(exist_ok=True, parents=True)
     maps_template = env.get_template("maps/single_map.html")
     for map in tqdm(catalog.maps.values(), desc="Map Page Rendering"):
