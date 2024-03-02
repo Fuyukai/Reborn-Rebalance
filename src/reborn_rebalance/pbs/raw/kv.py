@@ -13,12 +13,10 @@ class KvResultDict(dict[str, str | int]):
     """
 
     @overload
-    def pop_str(self, key: str) -> str:
-        ...
+    def pop_str(self, key: str) -> str: ...
 
     @overload
-    def pop_str(self, key: str, default: _DefaultV) -> str | _DefaultV:
-        ...
+    def pop_str(self, key: str, default: _DefaultV) -> str | _DefaultV: ...
 
     def pop_str(self, key: str, default: _DefaultV = None) -> str | _DefaultV:
         """
@@ -32,12 +30,10 @@ class KvResultDict(dict[str, str | int]):
         return result
 
     @overload
-    def pop_int(self, key: str) -> int:
-        ...
+    def pop_int(self, key: str) -> int: ...
 
     @overload
-    def pop_int(self, key: str, default: _DefaultV) -> int | _DefaultV:
-        ...
+    def pop_int(self, key: str, default: _DefaultV) -> int | _DefaultV: ...
 
     def pop_int(self, key: str, default: _DefaultV = None) -> int | _DefaultV:
         """

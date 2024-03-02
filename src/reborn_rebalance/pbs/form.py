@@ -230,8 +230,8 @@ class PokemonForms:
                 buffer.write_line(":DefaultForm => {")
                 with buffer.indented():
                     for name, idx in self.custom_default_mapping.items():
-                          buffer.write_line(f"PBItems::{name} => {idx},")
-                
+                        buffer.write_line(f"PBItems::{name} => {idx},")
+
                 buffer.write_line("},")
 
             if self.custom_mega_mapping:
