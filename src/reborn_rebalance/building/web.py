@@ -20,7 +20,7 @@ from reborn_rebalance.map.tileset import load_all_tilesets
 from reborn_rebalance.pbs.catalog import EssentialsCatalog
 from reborn_rebalance.pbs.encounters import ENCOUNTER_SLOTS
 from reborn_rebalance.pbs.map import FIELD_NAMES
-from reborn_rebalance.pbs.move import MoveCategory, MoveFlag, MoveMappingEntryType
+from reborn_rebalance.pbs.move import MoveCategory, MoveFlag, MoveMappingEntryType, PokemonMove
 
 
 @attr.s(slots=True, kw_only=True)
@@ -375,19 +375,30 @@ def main():
             raise
 
     (output_dir / "moves").mkdir(exist_ok=True, parents=True)
-    built_move_mapping = catalog.build_move_mapping()
+    built_move_mapping = list(catalog.build_move_mapping().items())
     move_template = env.get_template("moves/single.html")
-    for move, entries in tqdm(
-        built_move_mapping.items(), desc="Move Page Rendering", total=len(built_move_mapping)
+    for idx, (move, entries) in tqdm(
+        enumerate(built_move_mapping), desc="Move Page Rendering", total=len(built_move_mapping)
     ):
         lvl_up_learnset = [e for e in entries if e.type.value <= 2]
         taught_learnset = [e for e in entries if e.type.value >= 3]
 
+        prev_move: PokemonMove | None = None
+        next_move: PokemonMove | None = None
+        
+        if idx > 0:
+            prev_move = built_move_mapping[idx - 1][0]
+        
+        if idx < len(built_move_mapping) - 1:
+            next_move = built_move_mapping[idx + 1][0]
+        
         path = (output_dir / "moves" / move.internal_name.lower()).with_suffix(".html")
         path.write_text(move_template.render(
             move=move, 
             lvl_up_learnset=lvl_up_learnset,
             taught_learnset=taught_learnset,
+            prev_move=prev_move,
+            next_move=next_move,
         ))
 
     (output_dir / "maps").mkdir(exist_ok=True, parents=True)
