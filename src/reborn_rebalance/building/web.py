@@ -409,13 +409,13 @@ def main():
     )
 
     (output_dir / "maps").mkdir(exist_ok=True, parents=True)
-    maps_template = env.get_template("maps/single_map.html")
+    maps_template = env.get_template("maps/single.html")
     for map in tqdm(catalog.maps.values(), desc="Map Page Rendering"):
         path = output_dir / "maps" / f"{map.id:03d}.html"
         path.write_text(maps_template.render(map=map))
 
     (output_dir / "trainers").mkdir(exist_ok=True, parents=True)
-    trainer_template = env.get_template("trainers/single_trainer.html")
+    trainer_template = env.get_template("trainers/single.html")
     for tr in tqdm(catalog.trainers.values(), desc="Trainer Page Rendering"):
         path = (output_dir / "trainers" / tr.trainer_name).with_suffix(".html")
         try:
