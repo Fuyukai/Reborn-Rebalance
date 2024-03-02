@@ -20,9 +20,9 @@ inflection = ">=0.5.1"
 unidecode = ">=1.3.8"
 rtoml = ">=0.10.0"
 tomli-w = ">=1.0.0"
-tomlkit = ">=0.12.3"
+tomlkit = ">=0.12.4"
 tqdm = ">=4.66.2"
-typing-extensions = ">=4.9.0"
+typing-extensions = ">=4.10.0"
 
 [tool.poetry.scripts]
 into-pbs = "reborn_rebalance.building.to_pbs:build_to_pbs"
@@ -32,8 +32,8 @@ build-web = "reborn_rebalance.building.web:main"
 copy-compiled-files = "reborn_rebalance.scripts.copy_changes:main"
 
 [tool.poetry.group.dev.dependencies]
-ruff = ">=0.2.1"
-pyright = ">=1.1.350"
+ruff = ">=0.3.0"
+pyright = ">=1.1.352"
 
 [tool.isort]
 profile = "black"
