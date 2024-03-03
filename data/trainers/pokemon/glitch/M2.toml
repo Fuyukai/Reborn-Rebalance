@@ -1,11 +1,12 @@
 trainer_name = "M2"
 
-[trainers.GLITCH2.0]
+[trainers.GLITCH2.20]
 raw_trainer_class = "GLITCH2"
 battler_name = "M2"
 raw_battle_items = []
+battler_id = 20
 
-[[trainers.GLITCH2.0.pokemon]]
+[[trainers.GLITCH2.20.pokemon]]
 internal_name = "MEWTWO"
 level = 75
 raw_item = "LEFTOVERS"
@@ -19,7 +20,7 @@ sex = ""
 nature = "MODEST"
 iv = 31
 
-[trainers.GLITCH2.0.pokemon.evs]
+[trainers.GLITCH2.20.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
