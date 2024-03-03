@@ -1,1 +1,132 @@
 {% extends "_meta/walkthrough_page.html" %}
+
+{% block walkthrough %}
+<div class="content has-text-justified">
+    <p>(No screenshots this time, sorry.)</p>
+
+    <p>
+        In order to get back from past the circus, you need Fly. To get Fly, you need to beat the
+        Flying gym. (This is the only gym-HM association that makes sense.) But... Ciel isn't in
+        the Circus. 
+    </p>
+
+    <p>
+        Your only path now is to go to the Fiore Mansion. (It's not stated anywhere, but you can
+        deduce it from going to check on Titania/Amaria). <strong>Make sure to save before you enter
+        the mansion</strong>, as there is a long fight coming up.
+    </p>
+
+    <h2 class="subtitle">The Gauntlet</h2>
+
+    <p>
+        As soon as you make your way up to the mansion, you'll be intercepted by Julia and Florinia
+        (remember these guys? from 20 hours ago?) who make a very silly fourth wall breaking joke,
+        before a helicopter arrives at the mansion. As soon as you enter the front door, you will
+        be subjugated to a very long cutscenee that includes three back-to-back double battles
+        (you will be healed inbetween, thanks to them being double battles).
+    </p>
+
+    <p>
+        This is one of Reborn's two infamous gauntlets, and the easier of the two (as it's 18v18).
+        Sadly, Florinia is your partner for the first two and she does <i>not</i> pull her weight
+        (albeit she's much better with the All-Gen changes than the base game). At least Julia
+        does.
+    </p>
+
+    <h3>Florinia's Team</h3>
+
+    {{ trainer_battle_content("Florinia", "FLORINIA", 21)}}
+
+    <h3>Julia's Team</h3>
+
+    {{ trainer_battle_content("Julia", "JULIA", 21)}}
+
+    <h2 class="subtitle">Fiore Gauntlet</h2>
+
+    <p>
+        You'll face off against a pair of Meteor grunts first. This is the easiest of the three
+        battles (obviously). I don't really have any tips for this section because all of the
+        Pokémon are so different there's no one good strategy. Try to have a well-rounded team;
+        the only truly monotype trainer here is Blake so make sure you have fighting or fire types
+        at your disposal. 
+    </p>
+
+    {{ trainer_battle_content("Diana", "MeteorAceF", 0) }}
+    {{ trainer_battle_content("Kenan", "MeteorAceM", 0) }}
+
+    <p>
+        Next, you'll have to fight Blake and Fern. (Yeah, a grass monotype leader vs an ice-themed
+        guy). Just be wary of Blake's Eiscue, as it has a built-in physical Sturdy that activates
+        at any percentage and can easily reverse sweep you. This is the hardest of the three
+        battles.
+    </p>
+
+    {{ trainer_battle_content("Fern", "Hotshot", 26) }}
+    {{ trainer_battle_content("Blake", "BLAKE", 21) }}
+
+    <p>
+        Finally, you have to fight Solaris and a grunt.
+    </p>
+
+    {{ trainer_battle_content("John", "NWOrderly", 0) }}
+    {{ trainer_battle_content("Solaris", "Solaris", 21)}}
+
+    <p>
+        After you've done all of that, Titania will blow up the mansion and flood it. Talk to her
+        outside and she'll leave for the skies, promising Team Meteor won't get the bracelets.
+        Now that you have Fly, it's back to the circus to beat up Ciel for the badge to let you
+        actually use Fly.
+    </p>
+
+    <div class="notification is-info is-light">
+        Now's the time to do the sticker quest in the Route 2 checkpoint if you forgot about it.
+        It's the kid in the one by the circus. Just do what they say and you'll end up with a sticker
+        at the end.
+    </div>
+
+    <h2 class="subtitle">Flying Gym</h2>
+
+    <p>
+        Return back to the side room of the Big Top and talk to Samson for a cutscene. You'll get
+        the final battle pass you need, and then it's finally time to fight Ciel; talk to her to
+        start the gym battle.
+    </p>
+
+    <p>
+        Is this battle stupid? Absolutely. Is it stupider than Samson's battle? Debatable. It's
+        on the same evil RNG field but Ciel doesn't rely on RNG moves like he did. Nevertheless,
+        she leads with a Serene Grace Air Slash Togekiss, so this is a pretty evil battle. Some
+        tips:
+    </p>
+
+    <ul>
+        <li>
+            Do you still have that {{ sp("LYCANROC") }}? If you get very lucky, Sand + Stone Edge handily 
+            dispatches her.
+        </li>
+        <li>
+            Brave Bird {{ sp("TALONFLAME") }} acts as an emergency splash of damage, as Flying
+            doesn't resist Flying.
+        </li>
+        <li>
+            A solid ghost type neuters the otherwise terrifying Boomburst Noivern. You can find
+            a {{ sp("SNORUNT") }} in the Mountains of Doom and evolve it into {{ sp("FROSLASS") }},
+            for one example.
+        </li>
+        <li>
+            A strong {{ mv("ICESHARD") }} user like {{ sp("MAMOSWINE") }} can eke some kills out
+            that you might miss without priority.
+        </li>
+    </ul>
+
+    {{ trainer_battle_content("Ciel", "CIEL", 20) }}
+
+    <p>
+        You'll be brought back into the side room for a brief cutscene; when you exit the room
+        again, you'll have another cutscene with Ace. If you re-enter the previous room, then you 
+        can finally access the item on the table. Exit the Circus, open the Pokémon menu,
+        select a Pokémon, select Fly, and select the Beryl Ward on the map. Welcome back to
+        Neo Reborn City.
+    </p>
+</div>
+{% endblock %}
