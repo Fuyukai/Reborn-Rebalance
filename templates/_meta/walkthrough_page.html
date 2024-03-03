@@ -24,8 +24,8 @@
 {%- endmacro -%}
 
 {%- macro mv(id) -%}
-{% set name = catalog.moves[id].display_name %}
-<a href="/moves/{{ id }}.html" target="_blank">{{ name }}</a>
+{% set name = catalog.move_mapping[id].display_name %}
+<a href="/moves/{{ id.lower() }}.html" target="_blank">{{ name }}</a>
 {%- endmacro -%}
 
 
