@@ -1,11 +1,12 @@
 trainer_name = "Stopple"
 
-[trainers.SWALOT.0]
+[trainers.SWALOT.20]
 raw_trainer_class = "SWALOT"
 battler_name = "Stopple"
 raw_battle_items = []
+battler_id = 20
 
-[[trainers.SWALOT.0.pokemon]]
+[[trainers.SWALOT.20.pokemon]]
 internal_name = "SWALOT"
 level = 80
 raw_item = "BLACKSLUDGE"
@@ -18,10 +19,10 @@ raw_moves = [
 form_number = 1
 is_shiny = true
 nature = "CALM"
-iv = 27
+iv = 31
 happiness = 0
 
-[trainers.SWALOT.0.pokemon.evs]
+[trainers.SWALOT.20.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
