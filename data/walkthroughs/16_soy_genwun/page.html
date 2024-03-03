@@ -1,1 +1,109 @@
 {% extends "_meta/walkthrough_page.html" %}
+
+{% block hero %} 
+<iframe 
+    width="560" height="315" 
+    src="https://www.youtube-nocookie.com/embed/Ot3CzyRIGdE?si=Ezmovk_Y_YKAmiIK" 
+    title="YouTube video player" frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen
+>
+</iframe>
+{% endblock %}
+
+{% block walkthrough %}
+<div class="content has-text-justified">
+    <p>
+        Have you ever played a Gen 1 game? No? You're not missing out on anything. The games were
+        borderline unplayable until Gen 4, and even then they take it a bit far with the HM shit
+        until Gen 7. (You should play Photonic Sun/Prismatic Moon.)
+    </p>
+
+    {{ ss("header") }}
+
+    <p>
+        Back to the circus. Enter the side room of the circus and talk to Samson for a cutscene,
+        then talk to him again to enter the computer. Welcome to Kanto, I guess? Keep going straight
+        forward (where you will be rudely interrupted by all of the NPCs) until Terra fucks
+        up the path in front of you. Unfortunately for her, her corruption left a ladder there, so
+        go straight down it to make it to Mt Moon. There's a bit of corruption here too, so just
+        walk straight left, down, sneak past the NPC, and down again to escape it. (The ladders and
+        NPCs here are completely fake.)
+    </p>
+
+    <p>
+        You'll be spat out in Reborn City, back in the Opal Ward. The scientist from the very
+        beginning is actually still there to the side, which is a neat detail. Walk down past
+        the NPC guarding the stairs and go down the stairs where the exit to Peridot Ward 
+        otherwise would be. Now we enter... I'm not really sure. Team Rocket's hideout? I never 
+        played RBY. Sneak past the NPC guarding the puzzle to access the puzzle (the stairs don't
+        do anything.) This puzzle blows!
+    </p>
+
+    {{ ss("rocket", "Why!!!")}}
+
+    <p>
+        Follow the path set out by the red arrow to make it to the exit. (Or turn on walk through
+        walls and walk straight down.) Don't get tricked by the stairs (which will reset you back
+        to the beginning) and go out the door instead; this will put you in Lavender Town (I think?)
+        The only door here that works is the house in the centre of the town. That door will spit
+        you out in a Gen Wun version of the Byxbysion Wasteland; continue upwards and then to the
+        southwest to find an open door. Going through here will have you find... I don't know
+        what this area is.
+    </p>
+
+    <p>
+        Activate the dragon statue immediately next to the exit (who would've found this naturally,
+        seriously?) to open a door to the southeast. There's an NPC guarding your way forward
+        (with a fucking sand veil Sandslash, seriously x2? You've been spared from that); after
+        getting past him, go down the stairs to teleport to the blocked off area and find a
+        <i>Dubious Disc</i>. Go back and exit out of the one-tile-wide door below the NPC to
+        find the fake Citae Astrae. (You can catch more Porygon here!)
+    </p>
+
+    {{ ss("mates", "Me and my friends.") }}
+
+    <p>
+        Exit out of the bottom to get a small easter-egg (if you found the previous one), and you'll
+        be put on the map that haunts my nightmares. At the top is a door that teleports you to
+        Cerulean Cave (allegedly); the path here is very linear, so just follow it down until you
+        find the Creature. Talk to it to battle a Level 75 Mewtwo. (Yes, this is an extraordinarily
+        stupid fight especially with the field effect, but as a fellow creative I approve of
+        the dickheadedness).
+    </p>
+
+    <p>
+        Pass through the gates to find a Light Shard, and then open up into the next room to find
+        Terra. Talk to her to start the gym battle. Whilst, yes, this is a very stupid fight,
+        it's also arguably the free-est gym in the game as this field effect simply does not work
+        at all. Some tips:
+    </p>
+
+    <ul>
+        <li>
+            The field effect here is really fucking stupid. It reintroduces the physical/special
+            split screwing over a lot of Pokémon, and the Synthetic Seed forces Pokémon to switch
+            to the QMARKS type which takes neutral damage from all hits. 
+        </li>
+        <li>
+            This does mean you can cheese it with something with very high SpDef, as special attacks
+            calculate on the <i>highest</i> stat.
+        </li>
+        <li>
+            Toedscruel will troll you if you don't lead with a grass type. It's neutral to hits,
+            so don't worry about spamming Leaf Storm.
+        </li>
+        <li>
+            Aside from that... this is (and always has been) a free gym. Stock up on grass types,
+            kill everything.
+        </li>
+    </ul>
+
+    {{ trainer_battle_content("T3RR4", "TERRA", 20) }}
+
+    <p>
+        Collect your badge, then exit through both doors to the south to get a cutscene back
+        in the real world with Ciel. Now that you have waterfall, it's time to go rescue Amaria.
+    </p>
+</div>
+{% endblock %}
