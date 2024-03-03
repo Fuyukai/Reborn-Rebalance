@@ -20,7 +20,12 @@
 {%- endmacro -%}
 
 {%- macro mp(id, name) -%}
-<a href="/maps/{{ '{:03d}'.format(id) }}.html">{{ name }}</a>
+<a href="/maps/{{ '{:03d}'.format(id) }}.html" target="_blank">{{ name }}</a>
+{%- endmacro -%}
+
+{%- macro mv(id) -%}
+{% set name = catalog.moves[id].display_name %}
+<a href="/moves/{{ id }}.html" target="_blank">{{ name }}</a>
 {%- endmacro -%}
 
 
@@ -29,11 +34,6 @@
 </div>
 {{ trainer_battle(name, klass, id=id) }}
 <div class="content has-text-justified">
-{%- endmacro -%}
-
-{%- macro leftlink(id, name) %}
-
-
 {%- endmacro -%}
 
 {% block links %}
