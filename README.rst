@@ -44,6 +44,8 @@ Pre-built versions are available from the Releases tab of the repository.
    This was built on top of version 6.5.0a. **Versions must match!** Otherwise, you will get cryptic
    errors due to trainer teams not matching.
 
+   (`Direct link to v6.5a <https://mega.nz/file/2ooSnSAY#hxkPf4rDICnRNr-rUz0fqsLR-L4DVMrrOtI1wZ91ka4>`__)
+
 3. Download the `E19 Music Pack`_ and install it over the All-Gen patch. Don't bother with
    ``trainertypes.dat``, it's going to be overwritten in a minute. Don't get the compatibility
    patch with All-Gen either, as once again, it's going to be overwritten in a minute.
