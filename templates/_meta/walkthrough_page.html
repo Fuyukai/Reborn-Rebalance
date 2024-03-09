@@ -37,6 +37,7 @@
 {%- endmacro -%}
 
 {% block links %}
+<div class="container">
 <div class="columns">
     <div class="column is-one-third has-text-left">
         <a href="/walkthroughs/{{ LEFTLINK_ID }}.html">
@@ -52,17 +53,18 @@
         </a>
 </div>
 </div>
+</div>
 {% endblock %}
 
 {% block title %} {{ TITLE }} {% endblock %}
 
 {% block content %}
 <section class="section">
+    {{ self.links() }}
     <div class="container">
         <div class="columns is-centered">
             <div class="column is-three-quarters">
                 <article class="walkthrough" id="walkthrough">
-                {{ self.links() }}
                 <div class="walkthrough-hero">
                     {% block hero %} {% endblock %}
                 </div>
@@ -72,10 +74,10 @@
                 {% block walkthrough %}
 
                 {% endblock %}
-                {{ self.links() }}
                 </article>
             </div>
         </div>
     </div>
+    {{ self.links() }}
 </section>
 {% endblock %}
