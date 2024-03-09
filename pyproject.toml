@@ -1,11 +1,11 @@
 [tool.poetry]
 name = "reborn-rebalance"
 version = "0.7.0"
-description = ""
+description = "Pokémon Reborn rebalancing mod"
 authors = ["Lura Skye <l@veriny.tf>"]
 readme = "README.rst"
 packages = [{include = "reborn_rebalance", from = "src"}]
-license = "CC0"
+license = "GPL-3.0-or-later"
 
 [tool.poetry.dependencies]
 python = "^3.11"

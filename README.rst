@@ -110,8 +110,7 @@ Future Plans
 
 - Add the ability to splice events into the game code without needing to use the RPG Maker editor.
 
-  * This also achieves semi-universal compatibility with all future versions of All-Gen Patch,
-    as I don't have to worry about overwritten maps not including new changes.
+- Add merging code to allow importing All-Gen updates more easily.
 
 - Add support for Rejuvenation and Desolation.
 
@@ -140,7 +139,7 @@ Future Plans
 Licence
 -------
 
-This project is licenced under the CC0. You can do whatever you want with it! I don't mind.
+This project is licenced under the GPL, version 3.0 or later.
 
 Credits
 -------
