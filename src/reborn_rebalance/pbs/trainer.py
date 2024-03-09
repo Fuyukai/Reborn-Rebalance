@@ -211,7 +211,7 @@ class SingleTrainerPokemon:
             # again, what?
             form_number = 0
 
-        # all the following are just f-ing not there sometimes???
+        # all the following are just fucking not there sometimes???
         is_shiny = get_safely(line, 10, "false").lower() == "true"
         nature = get_safely(line, 11, "HARDY")
 

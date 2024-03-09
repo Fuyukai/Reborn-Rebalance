@@ -275,7 +275,7 @@ class PokemonEvolution:
 @attr.s(kw_only=True)
 class PokemonSpecies:
     """
-    A single species as stored in a YAML file.
+    A single Pokémon species.
     """
 
     @classmethod
@@ -302,38 +302,37 @@ class PokemonSpecies:
     dex_number: int = attr.ib()
 
     #: The name for this species, e.g. 'Togekiss'.
-    name: str = attr.ib(kw_only=True)
+    name: str = attr.ib()
 
     #: The internal name for this species. Defaults to the uppercase of ``name``.
     internal_name: str = attr.ib(
         default=attrs.Factory(lambda it: it.name.upper(), takes_self=True),
-        kw_only=True,
     )
 
     #: The base stats for this species.
-    base_stats: StatWrapper = attr.ib(kw_only=True)
+    base_stats: StatWrapper = attr.ib()
 
     #: The primary type for this species, e.g. ``PokemonType.FLYING``.
-    primary_type: PokemonType = attr.ib(kw_only=True)
+    primary_type: PokemonType = attr.ib()
     #: The secondary type for this species, e.g. ``PokemonType.FAIRY``.
     #: May be the same as the primary type if this Pokémon has only one type.
-    secondary_type: PokemonType = attr.ib(kw_only=True)
+    secondary_type: PokemonType = attr.ib()
 
     #: The gender ratio for this species. Governs random encounters.
-    gender_ratio: SexRatio = attr.ib(kw_only=True)
+    gender_ratio: SexRatio = attr.ib()
     #: The XP growth curve for this species.
-    growth_rate: GrowthRate = attr.ib(kw_only=True)
+    growth_rate: GrowthRate = attr.ib()
 
     #: The base EXP yielded when a Pokémon of this type is killed.
-    exp_yield: int = attr.ib(kw_only=True)
+    exp_yield: int = attr.ib()
     #: The EVs yielded when a Pokémon of this type is killed.
-    ev_yield: StatWrapper = attr.ib(kw_only=True)
+    ev_yield: StatWrapper = attr.ib()
 
     #: The base catch rate for this species. Must be a positive number below 256.
-    catch_rate: int = attr.ib(validator=validate_catch_rate, kw_only=True)
+    catch_rate: int = attr.ib(validator=validate_catch_rate, )
 
     #: The base happiness when caught for this species. Most have this set to 70.
-    caught_happiness: int = attr.ib(kw_only=True)
+    caught_happiness: int = attr.ib()
 
     #: The list of raw abilities this Pokémon can have. Non-empty.
     raw_abilities: list[str] = attr.ib()

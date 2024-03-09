@@ -18,10 +18,10 @@ from reborn_rebalance.util import RubyBuffer
 
 HEADER = """
 FormCopy = [
-    [PBSpecies::FLABEBE,PBSpecies::FLOETTE],
-    [PBSpecies::FLABEBE,PBSpecies::FLORGES],
-    [PBSpecies::SHELLOS,PBSpecies::GASTRODON],
-    [PBSpecies::DEERLING,PBSpecies::SAWSBUCK]
+    [PBSpecies::FLABEBE,  PBSpecies::FLOETTE],
+    [PBSpecies::FLABEBE,  PBSpecies::FLORGES],
+    [PBSpecies::SHELLOS,  PBSpecies::GASTRODON],
+    [PBSpecies::DEERLING, PBSpecies::SAWSBUCK]
 ]
 """
 
@@ -35,8 +35,10 @@ end
 @attr.s(slots=True, kw_only=True)
 class SinglePokemonForm:
     """
-    A single individual form for a Pokémon. This contains a set of *overrides* to the base
-    species; any overrides that are empty are ignored.
+    A single individual form for a Pokémon. 
+
+    This contains a set of *overrides* to the base species; any overrides that are empty are 
+    ignored.
     """
 
     @classmethod
@@ -151,14 +153,17 @@ class PokemonForms:
     form_mapping: dict[int, str] = attr.ib(factory=dict)
 
     #: The custom initialiser code to use for this species.
+    #: 
     #: Used to create different forms during encounters, for example.
     custom_init: str = attr.ib(default=None)
 
     #: The default form ID for this species.
-    #: Not sure what this is used for.
+    #:
+    #: Used to return Mega Evolved Pokémon to their default form after exiting a battle.
     default_form: int = attr.ib(default=0)
 
     #: The mega-evolution form ID for this species.
+    #:
     #: May be None if this species has no mega evolutions.
     mega_form: int | None = attr.ib(default=None)
 
@@ -197,6 +202,7 @@ class PokemonForms:
 
         if errors:
             return ExceptionGroup(f"Error validating {self.internal_name}", errors)
+
         return None
 
     def by_id(self, id: int) -> SinglePokemonForm | None:
