@@ -1,0 +1,329 @@
+{% extends "_meta/walkthrough_page.html" %}
+
+{% block hero %} {{ ss("hero") }} {% endblock %}
+
+{% block walkthrough %}
+<div class="content has-text-justified">
+    <div class="notification is-danger is-light">
+        If your eyes glazed over at the Mega-Z Ring puzzle from the last chapter, this is your
+        last chance to get it until you get your 16th Badge.
+    </div>
+
+    <p>
+        As soon as you're ready to advance the story, fly to the Grand Hall and talk to Ame in front
+        of the bench. You'll need to find three others: DJ Arclite is out in front of the nightclub,
+        Adrienn is in front of xer gym in the Coral Ward, and Victoria is in the Beryl Cemetery.
+        Talk to all three to get them back to the Grand Hall. Return back to the Grand Hall and
+        talk to Ame again for a cutscene.
+    </p>
+
+    <p>
+        The plan: Infiltrate Devon Corp. You, Arclight, and Victoria will take the underground
+        section and the others will do a full-frontal assault. The actual place you need to
+        meet up is in a rather inconvenient section of the Railnet: you can either pass through
+        the Slums and go up into the dark area (where you found Flash before); or you can go
+        through the entrance in the Obsidia Ward (or Peridot Ward) into the train puzzle and 
+        exit next to where you found the pair of switches before. Whichever one you pick,
+        you'll meet up with Victoria and Arclight down there; talk to Arclight to advance the
+        plot.
+    </p>
+
+    <h2 class="subtitle">Devon Corp?</h2>
+
+    <p>(No collapsible this time; there's a few boss battles here.)</p>
+
+    {{ ss("devon1", "No! My Mega Stone!") }}
+
+    <p>
+        As soon as you walk up, you'll get locked into a double battle with some orderlies.
+        Go upstairs to advance the plot; then, check the shop front to find the Radio 
+        Transceiver. Then go back upstairs again for another cutscene; you can press A (on my
+        controller, it's 'X' - or the top button) to change the patterns on the floor. If you
+        step <i>onto</i> a dark coloured tile, you'll get zapped and all of your Pokémon will take
+        damage (but not if you step onto a light coloured tile). Manipulate the patterns to make it
+        to the top stairs without getting zapped. Sorry, but you're not getting screenshots for 
+        these ones as the "puzzle" is too trivial.
+    </p>
+
+    <div class="notification is-success">
+        You can leave if you want and go buy some Full Restores if you keep fucking up and getting
+        zapped. Or use a full team of ground types (who don't get zapped).
+    </div>
+
+    {{ ss("devon2") }}
+
+    <p>
+        On the next floor, you get roped into another double battle as soon as you enter; solve
+        the slightly lengthier puzzle and fight the orderlies at the door (with Victoria helpfully
+        teleporting to your side). There's a small cutscene, and the next room is done by yourself.
+        There's two other orderlies here you need to fight, but they're pushovers. Onto the
+        next room...
+    </p>
+
+    {{ ss("devon3") }}
+    <p>
+        Fall for the obvious trap here to get teleported to a healing room. This isn't a good sign.
+        When you walk out to the left, you'll find an arena... and if you walk to the side, you'll
+        have to fight Victoria. To the death. Mwa ha ha.
+    </p>
+
+    {{ trainer_battle_content("Victoria", "Victoria2", 21) }}
+
+    <p>
+        Yeah, that's pretty brutal - and not just the battle. Now we get into the really bad part
+        of the puzzle. For some reason, the radio transceiver is still connected to the panels,
+        so you can avoid being shocked here. 
+    </p>
+
+    <details>
+        <summary>Devon Corp? Sub-Puzzle 1 Solution</summary>
+
+        {{ ss("devon10") }}
+
+        <p>
+            First, activate this computer and turn on the grey tiles to avoid being shocked, then
+            walk on the panels to be shifteed upwards. Switch to the red tiles and walk all the way
+            to the right to return to the starting area, then activate the lower computer again to 
+            continue.
+        </p>
+
+        {{ ss("devon11", "Fuck you, whoever made this.") }}
+
+        <p>
+            Hop onto the next transport belt section, and after going through the <i>second</i> 
+            red panel, press A/X twice to swap the shock panels again. Activate the computer
+            but continue on to the <i>right</i>, swapping the shock panels again.
+        </p>
+
+        {{ ss("devon12", "Fuck you again.") }}
+
+        <p>
+            Follow this path to make it to the computer all the way to the right, being careful not
+            to shock yourself. Activate it, then loop back around to make your way up to the top left
+            section of the hell puzzle. It's hard to articulate it here with a screenshot.
+        </p>
+
+        <ol>
+            <li>Enter the left-most circular element from the top to drop you to the left.</li>
+            <li>Enter it again from the top to drop you to the right.</li>
+            <li>Enter the middle circular element from the left to drop you at the bottom.</li>
+            <li>Repeat Step 1 and 2 again.</li>
+            <li>The middle circular element will now be green; enter it to drop you at the top. </li>
+            <li>Enter the right-most circular element from the top to drop you at the left.</li>
+            <li>Enter the middle circular element from the right to drop you at the top.</li>
+            <li>Enteer the right-most circular element from the top to drop you at the right.</li>
+        </ol>
+
+        {{ ss("devon13", "Fantastic!") }}
+
+        <p>
+            If you activate this computer, all of the shock tiles in this room will become inactive.
+            There's nothing hidden in this room that warrants going back, but you can if you want?
+            Enter the stairs to find another arena.
+        </p>
+    </details>
+
+    <p>
+        Enter the obvious trap cage again to find DJ Ark this time; both dialogue options here lead
+        to the same battle, but differ in relationship points
+        (Fight: +Victoria, +Arc / Refuse: -Victoria, -Arc, ++Adrienn). 
+    </p>
+
+    {{ trainer_battle_content("Arclight", "ARCLIGHT", 20) }}
+
+    <p>
+        After beating him down, there's <i>Another</i> tile puzzle to suffer through. Yay.
+    </p>
+
+    <details>
+        <summary>FULL Devon Corp? Sub-Puzzle 2 Solution</summary>
+
+        {{ ss("devon20") }}
+        <p>
+            First, enter the circular element from the left side and travel upwards to activate
+            the computer. Walk down to the freshly switched transport belt and walk through the
+            circular element twice (you'll need to loop around).
+        </p>
+
+        {{ ss("devon21") }}
+
+        <p>
+            At this junction, walk to the <i>right</i>, then go up into the circular element 
+            <i>once</i> to be spat out to the left. Walk down and loop around once more to get
+            back to the junction, where upon you must go <i>down</i> and loop through the
+            circular element twice to get to the right.
+        </p>
+
+        {{ ss("devon22") }}
+
+        <p>
+            Walk up and along until you return to the upper circular element, then go through it to
+            access a computer, which toggles the conveyor belt above you. Do another set of loops
+            around the lower area circular elements until you reach the toggled conveyor belt, which
+            will let you access another computer at the top; this one toggles a conveyor belt below.
+            There's only one path, so follow it up until you reach said toggled belt.
+        </p>
+
+        {{ ss("devon23") }}
+        <p>
+            Finally, activate this computer to disable the shock panels, and the computer below to
+            toggle the conveyor belt that unblocks access to the exit from the room at the top.
+        </p>
+    </details>
+
+    {{ ss("adultgameforadults", "Rats") }}
+
+    <p>
+        You'll see Ame battling Lin. Ame dies (adult game for adults), which technically makes
+        Lin the Pokémon Champion (I don't think this should count, personally). Then ANOTHER puzzle
+        in the next room. (Fuck!)
+    </p>
+
+    <details>
+        <summary>Devon Corp? Sub-Puzzle 3</summary>
+
+        {{ ss("devon30") }}
+
+        <p>
+            This one is a straightforward maze. Follow the red line to get to the computer, then
+            toggle the computer to flip the direction of the green conveyor.
+        </p>
+
+        {{ ss("devon31") }}
+
+        <p>
+            The next segment is functionally linear. Use the lowest computer to flip the belts,
+            then walk through it to get to the second computer. Flip the lowest belt back again and
+            repeatedly walk onto the lowest conveyor.
+        </p>
+
+        {{ ss("devon32") }}
+        <p>
+            It'll spit you out up here; activate the computer then walk back onto the belts again
+            to get access to the upper computer. Activate it, walk onto the belt, and then walk
+            back onto the one at the bottom to get all the way to the top. Do this <i>again</i> to
+            spit you out at the very top section. Activate the computer here, walk onto the newly
+            flipped belt, then activate the second computer to get access to the right-most stairs.
+        </p>
+    </details>
+
+    {{ ss("zel") }}
+    <p>
+        Once you walk into the final room at the back, you'll be greeted with a cutscene. Say
+        No for somee free relationship points, before a boss fight with Zel.
+    </p>
+
+    {{ trainer_battle_content("ZEL", "ZEL", 24) }}
+
+    <p>
+        After defeating them, you can talk to Zero and then exit the room via the stairs; the exit
+        from Devon Corp is, mercifully, to the left side of the wall and not by tracking all the
+        way back through the puzzles.
+    </p>
+
+    <h2 class="subtitle">Devon Corp, Again</h2>
+
+    <p>
+        There's an optional quest you can do now, which will finally remove all of those annoying
+        invisible objects in the Jasper and Beryl Wards; plus, there's a handful of good items you
+        missed.
+    </p>
+
+    <details>
+        <summary>Devon Scope Walkthrough</summary>
+
+        <p>
+            The obvious trap room in the first Devon Corp building had some items in it, so let's
+            return there. The shock tiles here are now random, so enjoy being zapped all the way
+            through. There's also a really funny troll that I have no choice but to accept and not
+            tell you what it is.
+        </p>
+
+        {{ ss("devonscope") }}
+
+        <p>
+            At the top, you'll find the Devon Scope as well as <em>TM81 X-Scissor</em>.
+        </p>
+
+        {{ ss("silvonscope") }}
+        <p>
+            If you return to Silph Co, you can talk to the attendant and give it to her and she'll
+            give you the Silvon Scope. Armed with it, you can now interact with the invisible
+            objects in the Jasper and Beryl wards, and defeat them to unblock your path.
+        </p>
+
+        {{ ss("jungle") }}
+        <p>
+            Return to the jungle and jump down the hole into the Underroot. 
+        </p>
+
+        <p>
+            Make your way to the bottom of the Underroot to find a pool of water; armed with Surf
+            and Waterfall, you can make your way across it (you can also find the <em>Blastoisinite</em>
+            here to the side). The only path in the new area will be blocked off by a horde of
+            invisible Kecleon; activate it to reveal all of them. After fighting twelve Kecleon
+            (some of which know fucking Fake Out!) you'll then have to fight the mysterious Purple
+            Kecleon.
+        </p>
+
+        <p>
+            Finally, open the cage to find a {{ sp("TREECKO") }}. All the Kecleon in the wards will
+            be gone now.
+        </p>
+    </details>
+
+    <h2 class="subtitle">The Fairy Gym</h2>
+
+    {{ ss("champion", "What do you think I've been doing?")}}
+
+    <p>
+        After that ordeal, it's time for your next gym badge. You can find Adrienn in the Coral Gym;
+        if you talk to xem, you'll get asked to round up a bunch of volunteers to do some tasks
+        around the city. The rewards here are terrible, so say "no" and continue onto the gym
+        battle. Adrienn is the Fairy leader (very subtle!) and uses a team that <i>I</i> built from
+        the ground up (as the old team was terrible), including a very trolly lead designed 
+        specifically to screw a certain strategy.
+    </p>
+
+    <p>
+        As per usual, some tips:
+    </p>
+
+    <ul>
+        <li>
+            The field starts on Misty Terrain which neutralises status such as poison, gives Fairy
+            types extra special defence, boosts certain projectile moves, and makes Wish-Protect
+            extra powerful.
+        </li>
+        <li>
+            However, xer Whimsicott will blow away the mist with Tailwind, revealing the Fairy Tale
+            Field below, boosting Steel atttacks as well and giving Fire moves the Dragon type
+            (thus making them no longer work against Fairy types).
+        </li>
+        <li>
+            Nevertheless, Fire types are good to have as they resist Fairy type moves and still
+            put in work before Whimsicott comes onto the field. Try out Mega {{ sp("ARCANINE") }}.
+        </li>
+        <li>
+            This is a double battle, so Fake Out support helps a lot. {{ sp("PURUGLY") }} with
+            Fake Out and Sharpness-boosted Slash (which gets the Steel type on the Fairy Tail Field)
+            can put in some work.
+        </li>
+        <li>
+            {{ sp("TINKATON") }} is practically a golden ticket here. She hits hard with 
+            {{ mv("GIGATONHAMMER") }} and has Fake Out as well. Just don't get encored on your
+            recharge turn!
+        </li>
+        <li>
+            {{ sp("TOGEKISS") }} is deadly here; deal with it quickly because it will carve through
+            you on both fields.
+        </li>
+    </ul>
+
+    {{ trainer_battle_content("Adrienn", "ADRIENN", 20) }}
+
+    <p>
+        Next stop: The Toumaline Desert?
+    </p>
+</div>
+{% endblock %}
