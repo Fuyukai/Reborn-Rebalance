@@ -263,3 +263,5 @@ def build_changes(builder: ChangelogBuilder):
     ).add_ability_change("SANDFORCE", "EARTHEATER")
 
     builder.custom("The elemental monkeys now have weather/terrain setting abilities.")
+
+    builder.pokemon("RAMPARDOS").add_ability_change("MOLDBREAKER", "RECKLESS")
