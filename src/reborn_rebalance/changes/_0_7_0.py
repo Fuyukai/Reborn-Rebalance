@@ -261,3 +261,5 @@ def build_changes(builder: ChangelogBuilder):
     builder.pokemon(
         "STEELIX", "Mega Steelix now has a more appropriate ability."
     ).add_ability_change("SANDFORCE", "EARTHEATER")
+
+    builder.custom("The elemental monkeys now have weather/terrain setting abilities.")
