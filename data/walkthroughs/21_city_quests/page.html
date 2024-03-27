@@ -1,7 +1,15 @@
 {% extends "_meta/walkthrough_page.html" %}
 
 {% block hero %}
-
+<iframe 
+    width="560" height="315" 
+    src="https://www.youtube-nocookie.com/embed/WNkaLHCD08k?si=l6ujaZN_GoDJOB2H" 
+    title="YouTube video player" frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen
+    style="display: block;"
+></iframe>
 {% endblock %}
 
 {% block walkthrough %}
@@ -66,7 +74,20 @@
 
     <h2 class="title">GUM Room</h2>
 
-    <p>TODO.</p>
+    {{ ss("gumkey") }}
+
+    <p>
+        Restoring the Obsidia Slums will make everything in there permanently inaccessible. Return
+        to the building that was there and talk to this guy to get the GUM Key. Where do we use
+        the GUM Key? Well, there was a conspicious locked door in the Water Treatment Plant that
+        said "GUM Room".
+    </p>
+
+    {{ ss("gumroom", "Well, it says G.U.M anyway.") }}
+
+    <p>
+        Inside you will find some Contraption Zack level puzzle. Good luck! I'm not solving it!
+    </p>
 
     <h2 class="title">Neo Azurine Island</h2>
     
