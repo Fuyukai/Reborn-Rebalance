@@ -1,0 +1,270 @@
+{% extends "_meta/walkthrough_page.html" %}
+
+{% block hero %}
+<iframe 
+    width="560" height="315" 
+    src="https://www.youtube-nocookie.com/embed/iobfAcJcudg?si=YU0SXR6WEs5JQiMo" 
+    title="YouTube video player" frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen
+    style="display: block;"
+></iframe>
+{% endblock %}
+
+{% block walkthrough %}
+<div class="content has-text-justified">
+    <div class="notification is-danger">
+        I hate this desert. I <i>HATE</i> this part of the game. This is where the game really
+        starts to fall apart and it doesn't pick itself back up until around Victory Road.
+        <br/><br/>
+        I tried to interject less snarky comments up until now, but I genuinely fucking hate this
+        desert.
+    </div>
+
+    <p>
+        When you're ready, make your way to Grandview Station in the Peridot Ward. The left computer
+        can be activated to get your ticket to the desert; then walk through the turnstile at the 
+        top to get to the desert.
+    </p>
+
+    {{ ss("taka") }}
+    
+    <p>
+        If you did <i>not</i> fight Taka at the Water Treatment Plant, then he will appear here and
+        force you into a battle.
+    </p>
+
+    {{ trainer_battle_content("Taka", "Taka", 24) }}
+
+    <p>
+        From here, a very important choice opens up, which will determine your final game route.
+    </p>
+
+    <table class="table">
+        <thead>
+        <tr class="is-primary" style="color: white">
+            <th class="has-text-centered" style="color: white">#</th>
+            <th class="has-text-centered" style="color: white">Let him follow you</th>
+            <th class="has-text-centered" style="color: white">Don't let him follow you</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Fought in Water Treatment Plant</td>
+                <td colspan="2" class="has-text-centered">Zekrom Route</td>
+            </tr>
+            <tr>
+                <td>Didn't Fight in Water Treatment Plant</td>
+                <td class="has-text-centered">Reshiram Route</td>
+                <td class="has-text-centered">"Zero" Route</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>
+        Let him follow you to complete the second to last task for the good route (if you're 
+        intending to get it). In exchange for lugging around Hitler's repentant son, he'll heal you
+        after every battle out here... and given that this area is fucking massive, that's a pretty
+        nice bonus.
+    </p>
+
+    <h2 class="subtitle">Mirage Tower</h2>
+
+    <p>
+        There's three major areas out here in the desert: the Scrapyard, the handful of caves, and
+        the Mirage Tower. The tower is the most annoying one of the three, so let's get it out of
+        the way now. It's a mandatory post-game area (for one of the worse quests...) too.
+    </p>
+
+    <details>
+        <summary>Finding the Mirage Tower</summary>
+
+        <p>
+            By default, you can't actually get to the Mirage Tower as you're on the wrong map.
+            The path to it doesn't spawn until you get teleported over to the right map. In order to
+            get to the right map you need to activate four <i>oasises</i>, which are found in
+            various corners of the map.
+        </p>
+
+        <p>
+            Oh, and the order of the oasises is random! Surprise. This is how to find each one,
+            but you'll need to specifically search all four areas to find it. If you're running
+            the game from a console window, then it helpfully prints out the map IDs which you can
+            cross-reference here.
+        </p>
+
+        {{ ss("indicator") }}
+        <p>
+            By this set of train tracks (to the right and upwards from your starting station) there
+            is an indicator tower. If this exists, then the Mirage Tower has spawned; 
+            <strong>do not</strong> activate any other oasises after it as it'll despawn and you'll
+            have to go to all of them again.
+        </p>
+
+        <hr/>
+
+        {{ ss("oasis1") }}
+        <p class="has-text-centered"><i>This oasis is found on {{ mp(694, "Map 694") }}.</i></p>
+
+        <p>
+            The easiest way to do this is to start from the train station you spawned at. Hug
+            the left cliff wall of the desert and keep going upwards until you find the first oasis;
+            activate the Light Shard to change map.
+        </p>
+
+        {{ ss("oasis2") }}
+        <p class="has-text-centered"><i>This oasis is found on {{ mp(705, "Map 705") }}.</i></p>
+
+        <p>
+            Similar to before, start at the train station you spawned at; go to the right cliff 
+            wall and go down until you find the second oasis.
+        </p>
+
+        {{ ss("oasis3") }}
+        <p class="has-text-centered"><i>This oasis is found on {{ mp(703, "Map 703") }}.</i></p>
+
+        <p>
+            This one can be found by hugging the right cliff wall and going upwards instead. 
+            There's an Ace Trainer here too who gets vaporised when you switch map.
+        </p>
+
+        {{ ss("oasis4") }}
+        <p class="has-text-centered"><i>This oasis is found on {{ mp(704, "Map 704") }}.</i></p>
+
+        <p>
+            This oasis is found literally one screen to the left of the train station you spawn
+            at.
+        </p>
+
+        {{ ss("mirage") }}
+        <p>
+            After all of that, hug the right cliff wall of the desert and keep going up until you
+            find an area with normal sand; if you go through and into the subarea you'll find
+            the Mirage Tower.
+        </p>
+    </details>
+
+    <p>
+        After all of that work, you can enter the Mirage Tower. Ignore the puzzle and start smashing
+        the back walls of the tower instead; the <i>very last</i> tile that you break will open up
+        a hole to a secret area underneath. There's no puzzle here; just walk around to find some
+        Generation 8 TMs as well as a {{ sp("MIMIKYU") }}.
+    </p>
+
+    <details>
+        <summary>Solving the Mirage Tower</summary>
+
+        {{ ss("mpuzzle1") }}
+
+        <p>
+            In this puzzle, both of the blocksd are linked together; but you can only move one.
+            Your goal is to get both blocks into the lighter square to unlock the path to the next
+            room. The first room is obviously trivial; once you solve it, it'll open the stairs to
+            the next room. (Also, it exposes the map shenanigans by deleting all your broken glass.)
+        </p>
+        <hr/>
+
+        {{ ss("mpuzzle2") }}
+
+        <p>
+            The shenanigans begin in the second floor with the goal square being on different
+            tiles. Luckily, this one is relatively simple; move the block along the path of the red
+            arrow then activate the block three times. Even if the block on the left side is stuck,
+            the block on the right side will still move (and vice-versa). From there you can push
+            both blocks into their positions.
+        </p>
+        <hr/>
+
+        {{ ss("mpuzzle3") }}
+        
+        <p>
+            (These are hard to draw arrows for.)
+        </p>
+
+        <p>
+            This one is deceptively simple; the mirror images means that the left block can be 
+            manuevered into its spot whilst getting the right block stuck. Move it in the same way
+            as the red arrow, then manuver the right block by simply pressing on the left block
+            whilst the left block is stuck in its spot.
+        </p>
+
+        <hr/>
+
+        {{ ss("mpuzzle4") }}
+
+        <p>
+            First, manuever the block along the red arrow. Once it's stuck behind the block, you
+            can repeatedly activate it to move the right block into position, which will get it
+            stuck on the bottom row. Then, manuever the left block into position by only moving it
+            <i>down</i>. 
+        </p>
+
+        <hr/>
+
+        {{ ss("mpuzzle5") }}
+        <p>
+            There's no good way to represent this with arrows, so here's the steps for the fifth
+            puzzle.
+        </p>
+
+        <ol>
+            <li>
+                Move the block down one tile, right one tile, up one tile, and then all the way
+                to the right to align it with the hole. (This one does havee an arrow.)
+            </li>
+            <li>
+                Move the block down two spaces. The right-hand block should be two tiles from
+                the left, and three tiles from the top.
+            </li>
+            <li>
+                Move the block one tile to the right, and activate it again to move the right-hand
+                block one tile to the right of the opening on the right side.
+            </li>
+            <li>
+                Move the block one tile to the left to align it with the upper hole again. Both
+                blocks should be aligned to the hole now; push the block down three times to
+                align the right block with its spot.
+            </li>
+            <li>
+                Move the block left one tile, and up one tile to align the left block with its
+                spot. Both spots are the same distance away from the left edge with nothing blocking
+                them; move the block all the way to the left edge, then push it into the spott.
+            </li>
+        </ol>
+
+        <p>
+            Solving that one will open a hole in the glass at the back of the room.
+        </p>
+        <hr/>
+
+        {{ ss("mpuzzle6") }}
+        <p>
+            I don't want to do this one. It's actually made way harder by virtue of not being
+            able to see the other side. I'll just steal what the Wiki says.
+        </p>
+
+        <ol>
+            <li>Push right 5 times. Push left once. </li>
+            <li>Push down 6 times. Push left 5 times. </li>
+            <li>Push up 4 times. Push right once. </li>
+            <li>Push up 4 times. Push down twice. </li>
+        </ol>
+
+        <p>
+            Thanks, Wiki editor, for that one.
+        </p>
+
+        <hr/>
+
+        {{ ss("miragefake", "All that effort! For nothing!") }}
+
+        <p>
+            When you go through the door, it'll spit you out at a fake exit. Go straight south to 
+            find the terrain corrupting a bit; if you keep going, you'll find a door that leads to
+            the top floor of the Mirage Tower. Here you can find the <em>Normalium-Z</em>, 
+            <em>TM04 Calm Mind</em>, and a {{ sp("HONEDGE") }}. Once you exit, it'll take you
+            all the way outside.
+        </p>
+    </details>
+</div>
+{% endblock %}
