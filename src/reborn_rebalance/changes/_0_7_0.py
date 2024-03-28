@@ -11,6 +11,9 @@ def build_changes(builder: ChangelogBuilder):
     )
     builder.custom("Added an event to get a Greavard early in the Beryl Cemetery. (Map152)")
     builder.custom("Added a 'hotfix' for the Natu event seemingly not working properly. (Map150)")
+    builder.custom(
+        "The Glass Workstation gauntlet now has a Genie of Good Game Design. (Map732, Map734)"
+    )
 
     builder.move("DRAGONRUSH").change_move_base_power(100, 85).change_move_accuracy(75, 90)
     builder.move("WILDCHARGE", "No longer causes recoil.")
