@@ -1,4 +1,17 @@
-form_mapping = { 0 = "Johto", 1 = "Hisui" }
+form_mapping = { 0 = "Johto", 1 = "Hisui", 2 = "Mega X", 3 = "Mega Y" }
+
+[custom_mega_mapping]
+TYPHLOSINITEX = 2
+TYPHLOSINITEY = 3
+
+[forms."Mega X"]
+secondary_type = "FIGHTING"
+base_stats = { hp = 78, atk = 154, def_ = 118, spa = 99, spd = 95, spe = 90 }
+raw_abilities = ["RECKLESS"]
+
+[forms."Mega Y"]
+base_stats = { hp = 78, atk = 84, def_ = 88, spa = 149, spd = 115, spe = 120 }
+raw_abilities = ["BERSERK"]
 
 [forms.Hisui]
 secondary_type = "GHOST"

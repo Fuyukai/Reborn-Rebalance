@@ -1,0 +1,7 @@
+form_mapping = { 1 = "Mega" }
+mega_form = 1
+
+[forms.Mega]
+secondary_type = "FIRE"
+base_stats = { hp = 80, atk = 92, def_ = 130, spa = 103, spd = 130, spe = 90 }
+raw_abilities = ["HEATGENERATOR"]
