@@ -1,0 +1,200 @@
+{% extends "_meta/walkthrough_page.html" %}
+
+{% block hero %}
+<iframe 
+    width="560" 
+    height="315" src="https://www.youtube-nocookie.com/embed/BRh1pfMGl3I?si=ScgzA09lvCCOCzQP" 
+    title="YouTube video player" frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen
+    style="display: block;"
+></iframe>
+{% endblock %}
+
+{% block walkthrough %}
+<div class="content has-text-justified">
+    <p>
+        One of the carriages in the south of the village will lead you to a small area isolated
+        from the rest of the desert. Once you walk through it, you'll find another carriage that
+        eventually leads into the {{ mp(696, "One Upon a Somewhere") }}.
+    </p>
+
+    {{ ss("ouasexit") }}
+    <p>
+        Wander randomly until you find the bridge to the sky and enter the castle. The Sky Castle.
+        The NPC battles here all take place on the Fairy Tale field, which is definitely a troll
+        field. All of the writing in the castle is very angsty and silly, so it's best to ignore
+        it.
+    </p>
+
+    {{ ss("princessbed") }}
+    <p>
+        Just keep going through the castle until eventually you get teleported to a bed inside
+        a tower. You can find <em>TM176 Aura Sphere</em> here. Read all four books on all the
+        floors to find a path made of books, that lets you exit to the outside of the castle. You
+        can "climb" up the vines on the outside of the castle (fuck man, no wonder the Reborn
+        league has no challengers) and walk up through the sky bridge to find Titania; pick 
+        whichever option you like then proceed up into the cave.
+    </p>
+
+    <p>
+        Yeah, there's a fucking legendary guarding the way forward. One on an <i>extremely</i>
+        advantageous field effect. There's no point fighting this one legitimately; just get your
+        good old Murkrow out and Perish Song it. After getting through the cave, there's a small
+        route-dependent cutscene where somebody might die. Finally, you can walk up into the castle
+        to fight Titania.
+    </p>
+
+    <div class="notification is-info">
+        There's a different battle here depending on which route you're on; Guardian Princess
+        is used if Taka didn't follow you in the desert, whereas Guardian Exile is used if Taka
+        <i>did</i> follow you in the desert.
+    </div>
+
+    <p>
+        As per usual, some tips:
+    </p>
+
+    <ol>
+        <li>
+            This is a HARD battle. It took me about ten tries to figure out a battle plan. 
+            Don't be ashamed of going back and catching something that hard counters her a bit
+            harder.
+        </li>
+        <li>
+            The field here makes Fire types useless, as their Dragon co-type means they're resisted
+            by Steel. Instead, you need to rely on Ground or Fighting types.
+        </li>
+        <li>
+            Corviknight will troll you with Bulk Up and Roost. Use a special attacker to dispatch
+            of it, quickly.
+        </li>
+        <li>
+            Aegislash is by far your biggest problem, with its broken moves, ability, and priority
+            making it easy to fuck you. A strong Dark type can dispatch it, or substitutes can
+            troll her pretty hard.
+        </li>
+        <li>
+            On the alternative route, Kingambit can be a massive danger as it can sucker punch
+            you to death with a Supreme Overlord boost. Dispatch it as quickly as possible.
+        </li>
+    </ol>
+
+    {{ trainer_battle_content("Titania", "TITANIA1", 20) }}
+
+    {{ trainer_battle_content("Titania", "TITANIA2", 20) }}
+
+    <p>
+        After beating her, you get a small cutscene, and you can jump down the hole at the top of
+        the arena and go down to find a shortcut back to the Scrapyard. (Topology?)
+    </p>
+
+    <div class="notification is-success is-light">
+        Now is a good time to go back and fund another City Restoration project. If you don't do
+        it now, you'll have to wait until after Hardy to fund the third project, and that's going
+        to take a <i>long</i> time.
+    </div>
+
+    <h2 class="subtitle">NO! NO! NO! FUCK!</h2>
+
+    <p>
+        Beating Titania doesn't unlock anything, so we'll go straight to the next gym: Amaria's
+        Water gym.
+    </p>
+
+    {{ ss("FUCKFUCKFUCKFUCKFUCK", "AAAAAAAAAAAAAAAAAAAA") }}
+
+    <p style="font-size: 125%">
+        OH YEAH BY THE WAY IT'S AN UNDERWATER MAZE. AN UNDERWATER MAZE! THAT YOU HAVE TO MAKE YOUR
+        WAY THROUGH <EM><STRONG>FOUR</STRONG></EM> FUCKING TIMES. 
+    </p>
+
+    <p>
+        This isn't even a puzzle! This is a test of willpower! Do you keep going? Do you quit?
+        Do you send violent death threats to whoever came up with it? 
+    </p>
+
+    <p>
+        Luckily, I am not without mercy. Bundled with this patch is an overwrite that will 
+        automatically turn on the warp to the arena so that you don't have to find it first. 
+        Nevertheless, you still have to find Amaria three times. Underwater. In the maze.
+    </p>
+
+    <p>
+        You are on your own here. This thing is unnavigable. Not to mention, her position changes
+        on the different routes. Good fucking luck. Once you've found her three times in the maze
+        underwater, then she will either return to the arena for your Gym Battle (on the Z route)
+        or leave you there to die underwater (on the R route). You can return to the arena and talk
+        to Amaria to battle her.
+    </p>
+
+    <div class="notification is-warning is-light">
+        Before your battle, she'll ask you what type of battle you want. On the Z route, she'll
+        simply agree to that battle type (so, if you pick Singles, you'll fight in a Single battle 
+        format); on the R route, the battle will be the <i>opposite</i> of the one you pick.
+    </div>
+
+    <p>
+        There's four combinations of battles here; Singles Z, Doubles Z, Singles R, Doubles R.
+        I didn't care about rebalancing all of them, so enjoy the base All-Gen teams. This is
+        a free gym anyway, with the field effect having a solid hard counter in Electric types.
+        As usual, here's some tips:
+    </p>
+
+    <ul>
+        <li>
+            Troll her with Water Absorb. Rotom-Wash is pretty good for this purpose. If you go
+            underwater, {{ sp("SEISMITOAD") }} can still attack with Ground type moves and gains
+            extra STAB from them.
+        </li>
+        <li>
+            On her Singles team, Palafin is pretty scary, but it loves using single-turn Dive
+            which is immediately cucked by Water Absorb.
+        </li>
+        <li>
+            If you're having issues with speed, use Blizzard or poison attacks to turn the field
+            into the Frozen/Murkwater fields respectively. 
+        </li>
+        <li>
+            Singles is a bit easier than Doubles in my opinion, but if you go with Doubles, make
+            sure to bring Fake Out to control the battle's pace.
+        </li>
+        <li>
+            Honestly... there's not much strategy involved here? The Water Surface and Underwater
+            fields are both terrible; bulky Grass types will easily dispatch her, and some Electric
+            types are useful as backup for if you get Ice Beam'd.
+        </li>
+    </ul>
+
+    <hr/>
+
+    <h4 class="subtitle has-text-centered">Z Route Singles</h4>
+
+    {{ trainer_battle_content("Amaria", "AMARIA1", 20) }}
+
+    <h4 class="subtitle has-text-centered">Z Route Doubles</h4>
+
+    {{ trainer_battle_content("Amaria", "AMARIA1", 21)}}
+
+    <h4 class="subtitle has-text-centered">R Route Singles</h4>
+
+    {{ trainer_battle_content("Amaria", "AMARIA2", 20) }}
+
+    <h4 class="subtitle has-text-centered">R Route Doubles</h4>
+
+    {{ trainer_battle_content("Amaria", "AMARIA2", 21) }}
+
+    <hr/>
+
+    <p>
+        When you exit the gym, you'll get the shoehorned-in plot advancement cue: Julia will tell
+        you that things aren't going so well at Calcenon City. Ignore that and go back to Reborn
+        City to fund your third and final (or second, if you were silly and missed it) project.
+    </p>
+
+    <p>
+        Then, it's time to fly to Calcenon City.
+    </p>
+</div>
+{% endblock %}
