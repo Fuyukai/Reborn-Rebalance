@@ -6,11 +6,13 @@ def build_changes(builder: ChangelogBuilder):
     builder.custom("Imported most Pokémon changes from Blaze Black 2 Redux.")
     builder.custom("Imported most Pokémon changes for Gen 6-7 from Photonic Sun.")
 
+    builder.custom("Chrysolia Forest now has a skip button. (Map234)")
     builder.custom(
         "Moved the Move Reminder to after Badge 3 so you have less terrible movepools. (Map368)"
     )
     builder.custom("Added an event to get a Greavard early in the Beryl Cemetery. (Map152)")
     builder.custom("Added a 'hotfix' for the Natu event seemingly not working properly. (Map150)")
+    builder.custom("The teleporter in the Fiore Gym is now always activated. (Map678).")
     builder.custom(
         "The Glass Workstation gauntlet now has a Genie of Good Game Design. (Map732, Map734)"
     )
@@ -22,12 +24,7 @@ def build_changes(builder: ChangelogBuilder):
     ).change_move_base_power(80, 70)
 
     blastoise = builder.pokemon(
-        "BLASTOISE",
-        """
-        Mega Launcher Shell Smash Blastoise is disgustingly overpowered and easily carves through
-        most enemies. Whilst it was fine in BB2R, it's been removed from Reborn Rebalanced for this
-        reason.
-        """,
+        "BLASTOISE"
     )
     blastoise.remove_level_up_move("SHELLSMASH")
     del blastoise
