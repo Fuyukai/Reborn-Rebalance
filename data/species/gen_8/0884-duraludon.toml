@@ -20,7 +20,6 @@ pokedex_entry = "The special metal that composes its body is very light, so this
 battler_player_y = 21
 battler_enemy_y = 26
 battler_altitude = 0
-evolutions = []
 form_names = []
 dex_number = 884
 internal_name = "DURALUDON"
@@ -78,6 +77,11 @@ name = "METALBURST"
 [[raw_level_up_moves]]
 at_level = 66
 name = "HYPERBEAM"
+
+[[evolutions]]
+into_name = "ARCHALUDON"
+condition = "Item"
+parameter = "METALALLOY"
 
 [base_stats]
 hp = 70
