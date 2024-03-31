@@ -1,61 +1,21 @@
-chances = [20, 2, 28]
+chances = [
+    20,
+    2,
+    28,
+]
 
-[[encounters.Land]]
-name = "UNOWN"
-minimum_level = 95
-maximum_level = 110
-
-[[encounters.Land]]
-name = "UNOWN"
-minimum_level = 95
-maximum_level = 110
-
-[[encounters.Land]]
-name = "UNOWN"
-minimum_level = 95
-maximum_level = 110
-
-[[encounters.Land]]
-name = "UNOWN"
-minimum_level = 95
-maximum_level = 110
-
-[[encounters.Land]]
-name = "UNOWN"
-minimum_level = 95
-maximum_level = 110
-
-[[encounters.Land]]
-name = "UNOWN"
-minimum_level = 95
-maximum_level = 110
-
-[[encounters.Land]]
-name = "UNOWN"
-minimum_level = 95
-maximum_level = 110
-
-[[encounters.Land]]
-name = "UNOWN"
-minimum_level = 95
-maximum_level = 110
-
-[[encounters.Land]]
-name = "UNOWN"
-minimum_level = 95
-maximum_level = 110
-
-[[encounters.Land]]
-name = "UNOWN"
-minimum_level = 95
-maximum_level = 110
-
-[[encounters.Land]]
-name = "UNOWN"
-minimum_level = 95
-maximum_level = 110
-
-[[encounters.Land]]
-name = "UNOWN"
-minimum_level = 95
-maximum_level = 110
+[encounters]
+Land = [
+    { name = "UNOWN", minimum_level = 95, maximum_level = 110 },
+    { name = "UNOWN", minimum_level = 95, maximum_level = 110 },
+    { name = "UNOWN", minimum_level = 95, maximum_level = 110 },
+    { name = "UNOWN", minimum_level = 95, maximum_level = 110 },
+    { name = "UNOWN", minimum_level = 95, maximum_level = 110 },
+    { name = "UNOWN", minimum_level = 95, maximum_level = 110 },
+    { name = "UNOWN", minimum_level = 95, maximum_level = 110 },
+    { name = "UNOWN", minimum_level = 95, maximum_level = 110 },
+    { name = "UNOWN", minimum_level = 95, maximum_level = 110 },
+    { name = "UNOWN", minimum_level = 95, maximum_level = 110 },
+    { name = "UNOWN", minimum_level = 95, maximum_level = 110 },
+    { name = "UNOWN", minimum_level = 95, maximum_level = 110 },
+]

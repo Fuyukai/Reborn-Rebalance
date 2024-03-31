@@ -1,3 +1,4 @@
+dex_number = 521
 name = "Unfezant"
 primary_type = "NORMAL"
 secondary_type = "FLYING"
@@ -6,11 +7,89 @@ growth_rate = "Parabolic"
 exp_yield = 220
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["TOUGHCLAWS", "SUPERLUCK", "RIVALRY"]
-raw_egg_moves = []
-raw_tms = ["WORKUP", "FLY", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "FRUSTRATION", "RETURN", "DOUBLETEAM", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "STEELWING", "GIGAIMPACT", "PSYCHUP", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "AIRSLASH", "HURRICANE", "BRAVEBIRD", "AGILITY", "FOCUSENERGY", "ENDURE", "SWIFT"]
-raw_tutor_moves = ["AIRCUTTER", "DEFOG", "HEATWAVE", "SKYATTACK", "SNORE", "TAILWIND", "UPROAR", "DUALWINGBEAT", "MIMIC"]
-compatible_egg_groups = ["Flying"]
+raw_abilities = [
+    "TOUGHCLAWS",
+    "SUPERLUCK",
+    "RIVALRY",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "GROWL" },
+    { at_level = 1, name = "GUST" },
+    { at_level = 1, name = "MUDSLAP" },
+    { at_level = 4, name = "LEER" },
+    { at_level = 6, name = "QUICKATTACK" },
+    { at_level = 8, name = "HYPNOSIS" },
+    { at_level = 10, name = "SWIFT" },
+    { at_level = 12, name = "AIRCUTTER" },
+    { at_level = 14, name = "TAUNT" },
+    { at_level = 16, name = "FOCUSENERGY" },
+    { at_level = 18, name = "TAILWIND" },
+    { at_level = 21, name = "UPROAR" },
+    { at_level = 22, name = "MORNINGSUN" },
+    { at_level = 25, name = "DUALWINGBEAT" },
+    { at_level = 28, name = "WISH" },
+    { at_level = 32, name = "STEELWING" },
+    { at_level = 33, name = "NIGHTSLASH" },
+    { at_level = 37, name = "AIRSLASH" },
+    { at_level = 41, name = "LUCKYCHANT" },
+    { at_level = 45, name = "AGILITY" },
+    { at_level = 49, name = "DETECT" },
+    { at_level = 53, name = "BRAVEBIRD" },
+    { at_level = 58, name = "SKYATTACK" },
+    { at_level = 63, name = "BOOMBURST" },
+]
+raw_tms = [
+    "WORKUP",
+    "FLY",
+    "TOXIC",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "ROOST",
+    "ROOST",
+    "FRUSTRATION",
+    "RETURN",
+    "DOUBLETEAM",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ECHOEDVOICE",
+    "STEELWING",
+    "GIGAIMPACT",
+    "PSYCHUP",
+    "SWAGGER",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "AIRSLASH",
+    "HURRICANE",
+    "BRAVEBIRD",
+    "AGILITY",
+    "FOCUSENERGY",
+    "ENDURE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AIRCUTTER",
+    "DEFOG",
+    "DUALWINGBEAT",
+    "HEATWAVE",
+    "MIMIC",
+    "SKYATTACK",
+    "SNORE",
+    "TAILWIND",
+    "UPROAR",
+]
+compatible_egg_groups = [
+    "Flying",
+]
 steps_to_hatch = 3840
 height = 1.2
 weight = 29.0
@@ -20,106 +99,6 @@ pokedex_entry = "Males have plumage on their heads. They will never let themselv
 battler_player_y = 14
 battler_enemy_y = 21
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 521
-internal_name = "UNFEZANT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GUST"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "MUDSLAP"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 6
-name = "QUICKATTACK"
-
-[[raw_level_up_moves]]
-at_level = 8
-name = "HYPNOSIS"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "SWIFT"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "AIRCUTTER"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "TAUNT"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "FOCUSENERGY"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "TAILWIND"
-
-[[raw_level_up_moves]]
-at_level = 21
-name = "UPROAR"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "MORNINGSUN"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "DUALWINGBEAT"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "WISH"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "STEELWING"
-
-[[raw_level_up_moves]]
-at_level = 33
-name = "NIGHTSLASH"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "AIRSLASH"
-
-[[raw_level_up_moves]]
-at_level = 41
-name = "LUCKYCHANT"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "AGILITY"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "DETECT"
-
-[[raw_level_up_moves]]
-at_level = 53
-name = "BRAVEBIRD"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "SKYATTACK"
-
-[[raw_level_up_moves]]
-at_level = 63
-name = "BOOMBURST"
 
 [base_stats]
 hp = 100
@@ -136,5 +115,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

@@ -1,3 +1,4 @@
+dex_number = 143
 name = "Snorlax"
 primary_type = "NORMAL"
 secondary_type = "NORMAL"
@@ -6,11 +7,141 @@ growth_rate = "Slow"
 exp_yield = 189
 catch_rate = 25
 caught_happiness = 70
-raw_abilities = ["IMMUNITY", "THICKFAT"]
-raw_egg_moves = ["AFTERYOU", "BELCH", "CHARM", "COUNTER", "CURSE", "DOUBLEEDGE", "FISSURE", "LICK", "NATURALGIFT", "POWERUPPUNCH", "PURSUIT", "WHIRLWIND"]
-raw_tms = ["WORKUP", "SURF", "STRENGTH", "TOXIC", "ROCKSMASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "SOLARBEAM", "SMACKDOWN", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "PSYCHIC", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "SANDSTORM", "FIREBLAST", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "FOCUSBLAST", "FLING", "GIGAIMPACT", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "PAYDAY", "SCREECH", "SELFDESTRUCT", "CHARM", "WHIRLPOOL", "CRUNCH", "BODYSLAM", "HYDROPUMP", "METRONOME", "AMNESIA", "ENDURE", "ENCORE", "HEATCRASH", "HEAVYSLAM", "DARKESTLARIAT", "HIGHHORSEPOWER", "BODYPRESS", "RETALIATE"]
-raw_tutor_moves = ["AFTERYOU", "BLOCK", "COVET", "FIREPUNCH", "FOCUSPUNCH", "GUNKSHOT", "HEADBUTT", "HYPERVOICE", "ICEPUNCH", "ICYWIND", "IRONHEAD", "LASTRESORT", "MUDSLAP", "OUTRAGE", "RECYCLE", "ROLLOUT", "SEEDBOMB", "SHOCKWAVE", "SNATCH", "SNORE", "STOMPINGTANTRUM", "SUPERPOWER", "THUNDERPUNCH", "UPROAR", "WATERPULSE", "ZENHEADBUTT", "TERRAINPULSE", "STEELROLLER", "HEADLONGRUSH", "ICEBALL", "MIMIC", "CELEBRATE"]
-compatible_egg_groups = ["Monster"]
+raw_abilities = [
+    "IMMUNITY",
+    "THICKFAT",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "HEATCRASH" },
+    { at_level = 1, name = "HYDROPUMP" },
+    { at_level = 1, name = "DEFENSECURL" },
+    { at_level = 1, name = "LICK" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 4, name = "METRONOME" },
+    { at_level = 7, name = "PURSUIT" },
+    { at_level = 10, name = "RECYCLE" },
+    { at_level = 14, name = "CURSE" },
+    { at_level = 18, name = "CHIPAWAY" },
+    { at_level = 22, name = "WHIRLWIND" },
+    { at_level = 26, name = "GASTROACID" },
+    { at_level = 30, name = "BODYSLAM" },
+    { at_level = 33, name = "ROLLOUT" },
+    { at_level = 36, name = "AMNESIA" },
+    { at_level = 39, name = "BLOCK" },
+    { at_level = 42, name = "ZENHEADBUTT" },
+    { at_level = 46, name = "CRUNCH" },
+    { at_level = 50, name = "BELLYDRUM" },
+    { at_level = 54, name = "HEAVYSLAM" },
+    { at_level = 58, name = "HIGHHORSEPOWER" },
+    { at_level = 63, name = "HAMMERARM" },
+    { at_level = 68, name = "DOUBLEEDGE" },
+    { at_level = 74, name = "LASTRESORT" },
+    { at_level = 79, name = "SLACKOFF" },
+]
+raw_tms = [
+    "WORKUP",
+    "SURF",
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "ROCKCLIMB",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "ICEBEAM",
+    "BLIZZARD",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "SMACKDOWN",
+    "THUNDERBOLT",
+    "THUNDER",
+    "EARTHQUAKE",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "REFLECT",
+    "FLAMETHROWER",
+    "SANDSTORM",
+    "FIREBLAST",
+    "ROCKTOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "FOCUSBLAST",
+    "FLING",
+    "GIGAIMPACT",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "WILDCHARGE",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "PAYDAY",
+    "SCREECH",
+    "SELFDESTRUCT",
+    "CHARM",
+    "WHIRLPOOL",
+    "CRUNCH",
+    "BODYSLAM",
+    "HYDROPUMP",
+    "METRONOME",
+    "AMNESIA",
+    "ENDURE",
+    "ENCORE",
+    "HEATCRASH",
+    "HEAVYSLAM",
+    "DARKESTLARIAT",
+    "HIGHHORSEPOWER",
+    "BODYPRESS",
+    "RETALIATE",
+]
+raw_tutor_moves = [
+    "AFTERYOU",
+    "BLOCK",
+    "CELEBRATE",
+    "COVET",
+    "FIREPUNCH",
+    "FOCUSPUNCH",
+    "GUNKSHOT",
+    "HEADBUTT",
+    "HEADLONGRUSH",
+    "HYPERVOICE",
+    "ICEBALL",
+    "ICEPUNCH",
+    "ICYWIND",
+    "IRONHEAD",
+    "LASTRESORT",
+    "MIMIC",
+    "MUDSLAP",
+    "OUTRAGE",
+    "RECYCLE",
+    "ROLLOUT",
+    "SEEDBOMB",
+    "SHOCKWAVE",
+    "SNATCH",
+    "SNORE",
+    "STEELROLLER",
+    "STOMPINGTANTRUM",
+    "SUPERPOWER",
+    "TERRAINPULSE",
+    "THUNDERPUNCH",
+    "UPROAR",
+    "WATERPULSE",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Monster",
+]
 steps_to_hatch = 10455
 height = 2.1
 weight = 460.0
@@ -20,112 +151,22 @@ pokedex_entry = "Snorlax's typical day consists of eating and sleeping. It is su
 battler_player_y = 17
 battler_enemy_y = 15
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 143
-internal_name = "SNORLAX"
 raw_hidden_ability = "GLUTTONY"
+raw_egg_moves = [
+    "AFTERYOU",
+    "BELCH",
+    "CHARM",
+    "COUNTER",
+    "CURSE",
+    "DOUBLEEDGE",
+    "FISSURE",
+    "LICK",
+    "NATURALGIFT",
+    "POWERUPPUNCH",
+    "PURSUIT",
+    "WHIRLWIND",
+]
 habitat = "Mountain"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HEATCRASH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HYDROPUMP"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "DEFENSECURL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LICK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "METRONOME"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "PURSUIT"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "RECYCLE"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "CURSE"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "CHIPAWAY"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "WHIRLWIND"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "GASTROACID"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 33
-name = "ROLLOUT"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "AMNESIA"
-
-[[raw_level_up_moves]]
-at_level = 39
-name = "BLOCK"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "ZENHEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "BELLYDRUM"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "HEAVYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "HIGHHORSEPOWER"
-
-[[raw_level_up_moves]]
-at_level = 63
-name = "HAMMERARM"
-
-[[raw_level_up_moves]]
-at_level = 68
-name = "DOUBLEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 74
-name = "LASTRESORT"
-
-[[raw_level_up_moves]]
-at_level = 79
-name = "SLACKOFF"
 
 [base_stats]
 hp = 160

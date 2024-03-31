@@ -1,3 +1,4 @@
+dex_number = 399
 name = "Bidoof"
 primary_type = "NORMAL"
 secondary_type = "NORMAL"
@@ -6,11 +7,96 @@ growth_rate = "Medium"
 exp_yield = 50
 catch_rate = 255
 caught_happiness = 70
-raw_abilities = ["SIMPLE", "UNAWARE"]
-raw_egg_moves = ["AQUATAIL", "DEFENSECURL", "DOUBLEEDGE", "ENDURE", "FURYSWIPES", "MUDSPORT", "ODORSLEUTH", "QUICKATTACK", "ROCKCLIMB", "ROLLOUT", "SKULLBASH", "SLEEPTALK", "WATERSPORT"]
-raw_tms = ["WORKUP", "CUT", "TOXIC", "ROCKSMASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "SHADOWBALL", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "CHARGEBEAM", "THUNDERWAVE", "SWORDSDANCE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "CRUNCH", "AMNESIA", "ENDURE", "RETALIATE", "SWIFT"]
-raw_tutor_moves = ["AQUATAIL", "COVET", "FURYCUTTER", "HEADBUTT", "ICYWIND", "IRONTAIL", "LASTRESORT", "MUDSLAP", "ROLLOUT", "SHOCKWAVE", "SNORE", "STEALTHROCK", "SUPERFANG", "SUPERPOWER", "MIMIC"]
-compatible_egg_groups = ["Water1", "Field"]
+raw_abilities = [
+    "SIMPLE",
+    "UNAWARE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "GROWL" },
+    { at_level = 1, name = "DEFENSECURL" },
+    { at_level = 1, name = "ROLLOUT" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 4, name = "ENDURE" },
+    { at_level = 7, name = "COVET" },
+    { at_level = 10, name = "BITE" },
+    { at_level = 12, name = "HEADBUTT" },
+    { at_level = 14, name = "QUICKATTACK" },
+    { at_level = 16, name = "YAWN" },
+    { at_level = 18, name = "HYPERFANG" },
+    { at_level = 20, name = "CURSE" },
+    { at_level = 22, name = "SUPERFANG" },
+    { at_level = 25, name = "FLING" },
+    { at_level = 28, name = "SKULLBASH" },
+    { at_level = 31, name = "AQUATAIL" },
+    { at_level = 34, name = "CRUNCH" },
+    { at_level = 38, name = "AMNESIA" },
+    { at_level = 42, name = "TAKEDOWN" },
+    { at_level = 46, name = "SWORDSDANCE" },
+    { at_level = 50, name = "DOUBLEEDGE" },
+    { at_level = 54, name = "LASTRESORT" },
+]
+raw_tms = [
+    "WORKUP",
+    "CUT",
+    "TOXIC",
+    "ROCKSMASH",
+    "ROCKCLIMB",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "ICEBEAM",
+    "BLIZZARD",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "THUNDERBOLT",
+    "THUNDER",
+    "RETURN",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "ECHOEDVOICE",
+    "CHARGEBEAM",
+    "THUNDERWAVE",
+    "SWORDSDANCE",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "DIG",
+    "CRUNCH",
+    "AMNESIA",
+    "ENDURE",
+    "RETALIATE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AQUATAIL",
+    "COVET",
+    "FURYCUTTER",
+    "HEADBUTT",
+    "ICYWIND",
+    "IRONTAIL",
+    "LASTRESORT",
+    "MIMIC",
+    "MUDSLAP",
+    "ROLLOUT",
+    "SHOCKWAVE",
+    "SNORE",
+    "STEALTHROCK",
+    "SUPERFANG",
+    "SUPERPOWER",
+]
+compatible_egg_groups = [
+    "Water1",
+    "Field",
+]
 steps_to_hatch = 4080
 height = 0.5
 weight = 20.0
@@ -20,105 +106,25 @@ pokedex_entry = "With nerves of steel, nothing can perturb it. It is more agile 
 battler_player_y = 29
 battler_enemy_y = 22
 battler_altitude = 0
-form_names = []
-dex_number = 399
-internal_name = "BIDOOF"
 raw_hidden_ability = "MOODY"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "DEFENSECURL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ROLLOUT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "ENDURE"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "COVET"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "HEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "QUICKATTACK"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "YAWN"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "HYPERFANG"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "CURSE"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "SUPERFANG"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "FLING"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "SKULLBASH"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "AQUATAIL"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "AMNESIA"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "TAKEDOWN"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "SWORDSDANCE"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "DOUBLEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "LASTRESORT"
-
-[[evolutions]]
-into_name = "BIBAREL"
-condition = "Level"
-parameter = "15"
-
-
+raw_egg_moves = [
+    "AQUATAIL",
+    "DEFENSECURL",
+    "DOUBLEEDGE",
+    "ENDURE",
+    "FURYSWIPES",
+    "MUDSPORT",
+    "ODORSLEUTH",
+    "QUICKATTACK",
+    "ROCKCLIMB",
+    "ROLLOUT",
+    "SKULLBASH",
+    "SLEEPTALK",
+    "WATERSPORT",
+]
+evolutions = [
+    { into_name = "BIBAREL", condition = "Level", parameter = "15" },
+]
 
 [base_stats]
 hp = 59
@@ -135,5 +141,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

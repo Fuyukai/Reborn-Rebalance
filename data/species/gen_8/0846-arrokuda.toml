@@ -1,3 +1,4 @@
+dex_number = 846
 name = "Arrokuda"
 primary_type = "WATER"
 secondary_type = "WATER"
@@ -6,11 +7,64 @@ growth_rate = "Slow"
 exp_yield = 56
 catch_rate = 255
 caught_happiness = 50
-raw_abilities = ["SWIFTSWIM", "PROPELLERTAIL"]
-raw_egg_moves = ["THRASH", "ACUPRESSURE", "SLASH", "NIGHTSLASH"]
-raw_tms = ["WATERFALL", "DIVE", "PROTECT", "RAINDANCE", "BRICKBREAK", "FACADE", "REST", "ATTRACT", "ROUND", "SCALD", "POISONJAB", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "WHIRLPOOL", "ASSURANCE", "ICEFANG", "PSYCHICFANGS", "CRUNCH", "CLOSECOMBAT", "AGILITY", "FOCUSENERGY", "ENDURE", "CHILLINGWATER", "SWIFT"]
-raw_tutor_moves = ["AQUATAIL", "BOUNCE", "DRILLRUN", "LASERFOCUS", "LIQUIDATION", "SNORE", "THROATCHOP", "WATERPULSE", "SCALESHOT", "MIMIC"]
-compatible_egg_groups = ["Water2"]
+raw_abilities = [
+    "SWIFTSWIM",
+    "PROPELLERTAIL",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "PECK" },
+    { at_level = 1, name = "AQUAJET" },
+    { at_level = 6, name = "FURYATTACK" },
+    { at_level = 12, name = "BITE" },
+    { at_level = 18, name = "AGILITY" },
+    { at_level = 24, name = "DIVE" },
+    { at_level = 30, name = "LASERFOCUS" },
+    { at_level = 36, name = "CRUNCH" },
+    { at_level = 42, name = "LIQUIDATION" },
+    { at_level = 48, name = "DOUBLEEDGE" },
+]
+raw_tms = [
+    "WATERFALL",
+    "DIVE",
+    "PROTECT",
+    "RAINDANCE",
+    "BRICKBREAK",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "SCALD",
+    "POISONJAB",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "WHIRLPOOL",
+    "ASSURANCE",
+    "ICEFANG",
+    "PSYCHICFANGS",
+    "CRUNCH",
+    "CLOSECOMBAT",
+    "AGILITY",
+    "FOCUSENERGY",
+    "ENDURE",
+    "CHILLINGWATER",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AQUATAIL",
+    "BOUNCE",
+    "DRILLRUN",
+    "LASERFOCUS",
+    "LIQUIDATION",
+    "MIMIC",
+    "SCALESHOT",
+    "SNORE",
+    "THROATCHOP",
+    "WATERPULSE",
+]
+compatible_egg_groups = [
+    "Water2",
+]
 steps_to_hatch = 5120
 height = 0.5
 weight = 1.0
@@ -20,55 +74,16 @@ pokedex_entry = "After it's eaten its fill, its movements become extremely slugg
 battler_player_y = 21
 battler_enemy_y = 26
 battler_altitude = 0
-form_names = []
-dex_number = 846
-internal_name = "ARROKUDA"
+raw_egg_moves = [
+    "THRASH",
+    "ACUPRESSURE",
+    "SLASH",
+    "NIGHTSLASH",
+]
+evolutions = [
+    { into_name = "BARRASKEWDA", condition = "Level", parameter = "26" },
+]
 regional_numbers = 846
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "PECK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "AQUAJET"
-
-[[raw_level_up_moves]]
-at_level = 6
-name = "FURYATTACK"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "AGILITY"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "DIVE"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "LASERFOCUS"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "LIQUIDATION"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "DOUBLEEDGE"
-
-[[evolutions]]
-into_name = "BARRASKEWDA"
-condition = "Level"
-parameter = "26"
 
 [base_stats]
 hp = 41
@@ -85,5 +100,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 1
-
-[wild_items]

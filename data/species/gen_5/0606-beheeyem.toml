@@ -1,3 +1,4 @@
+dex_number = 606
 name = "Beheeyem"
 primary_type = "PSYCHIC"
 secondary_type = "PSYCHIC"
@@ -6,11 +7,126 @@ growth_rate = "Medium"
 exp_yield = 170
 catch_rate = 90
 caught_happiness = 70
-raw_abilities = ["PSYCHICSURGE", "ANALYTIC", "SYNCHRONIZE"]
-raw_egg_moves = []
-raw_tms = ["PSYSHOCK", "CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "THUNDERBOLT", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "STEELWING", "ENERGYBALL", "CHARGEBEAM", "EMBARGO", "GIGAIMPACT", "THUNDERWAVE", "PSYCHUP", "ROCKSLIDE", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "TRICKROOM", "SECRETPOWER", "DARKPULSE", "CONFIDE", "SCREECH", "IMPRISON", "POWERSWAP", "GUARDSWAP", "PSYCHICTERRAIN", "AGILITY", "TRIATTACK", "ENDURE", "FUTURESIGHT", "COSMICPOWER", "NASTYPLOT", "STOREDPOWER", "TRIATTACK", "DAZZLINGGLEAM", "MYSTICALFIRE", "POWERGEM", "BUGBUZZ", "WORKUP", "AURASPHERE"]
-raw_tutor_moves = ["AFTERYOU", "ALLYSWITCH", "GRAVITY", "MAGICCOAT", "PAINSPLIT", "RECYCLE", "ROLEPLAY", "SHOCKWAVE", "SIGNALBEAM", "SKILLSWAP", "SNATCH", "SNORE", "TELEKINESIS", "TRICK", "UPROAR", "WONDERROOM", "ZENHEADBUTT", "METEORBEAM", "EXPANDINGFORCE", "MYSTICALPOWER", "MIMIC"]
-compatible_egg_groups = ["Humanlike"]
+raw_abilities = [
+    "PSYCHICSURGE",
+    "ANALYTIC",
+    "SYNCHRONIZE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "CONFUSION" },
+    { at_level = 1, name = "GROWL" },
+    { at_level = 1, name = "TRICKROOM" },
+    { at_level = 6, name = "IMPRISON" },
+    { at_level = 8, name = "TELEPORT" },
+    { at_level = 11, name = "SHOCKWAVE" },
+    { at_level = 14, name = "DISABLE" },
+    { at_level = 17, name = "TRICKROOM" },
+    { at_level = 21, name = "PSYBEAM" },
+    { at_level = 24, name = "PAINSPLIT" },
+    { at_level = 27, name = "MYSTICALFIRE" },
+    { at_level = 30, name = "UPROAR" },
+    { at_level = 33, name = "WONDERROOM" },
+    { at_level = 36, name = "ZENHEADBUTT" },
+    { at_level = 37, name = "TRICK" },
+    { at_level = 41, name = "ROLEPLAY" },
+    { at_level = 45, name = "MOONBLAST" },
+    { at_level = 49, name = "GUARDSPLIT" },
+    { at_level = 49, name = "POWERSPLIT" },
+    { at_level = 52, name = "COSMICPOWER" },
+    { at_level = 55, name = "NASTYPLOT" },
+    { at_level = 58, name = "PSYCHIC" },
+    { at_level = 61, name = "RECOVER" },
+    { at_level = 65, name = "DESTINYBOND" },
+    { at_level = 69, name = "PSYCHOBOOST" },
+]
+raw_tms = [
+    "WORKUP",
+    "PSYSHOCK",
+    "CALMMIND",
+    "TOXIC",
+    "FLASH",
+    "HIDDENPOWER",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "THUNDERBOLT",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "REFLECT",
+    "ROCKTOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "ECHOEDVOICE",
+    "STEELWING",
+    "ENERGYBALL",
+    "CHARGEBEAM",
+    "EMBARGO",
+    "GIGAIMPACT",
+    "THUNDERWAVE",
+    "PSYCHUP",
+    "ROCKSLIDE",
+    "DREAMEATER",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "FLASHCANNON",
+    "TRICKROOM",
+    "SECRETPOWER",
+    "DARKPULSE",
+    "DAZZLINGGLEAM",
+    "CONFIDE",
+    "SCREECH",
+    "IMPRISON",
+    "POWERSWAP",
+    "GUARDSWAP",
+    "PSYCHICTERRAIN",
+    "MYSTICALFIRE",
+    "AGILITY",
+    "TRIATTACK",
+    "TRIATTACK",
+    "ENDURE",
+    "FUTURESIGHT",
+    "COSMICPOWER",
+    "AURASPHERE",
+    "BUGBUZZ",
+    "POWERGEM",
+    "NASTYPLOT",
+    "STOREDPOWER",
+]
+raw_tutor_moves = [
+    "AFTERYOU",
+    "ALLYSWITCH",
+    "EXPANDINGFORCE",
+    "GRAVITY",
+    "MAGICCOAT",
+    "METEORBEAM",
+    "MIMIC",
+    "MYSTICALPOWER",
+    "PAINSPLIT",
+    "RECYCLE",
+    "ROLEPLAY",
+    "SHOCKWAVE",
+    "SIGNALBEAM",
+    "SKILLSWAP",
+    "SNATCH",
+    "SNORE",
+    "TELEKINESIS",
+    "TRICK",
+    "UPROAR",
+    "WONDERROOM",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Humanlike",
+]
 steps_to_hatch = 5120
 height = 1.0
 weight = 34.5
@@ -20,110 +136,6 @@ pokedex_entry = "It uses psychic power to control an opponent's brain and tamper
 battler_player_y = 18
 battler_enemy_y = 11
 battler_altitude = 10
-evolutions = []
-form_names = []
-dex_number = 606
-internal_name = "BEHEEYEM"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "CONFUSION"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TRICKROOM"
-
-[[raw_level_up_moves]]
-at_level = 6
-name = "IMPRISON"
-
-[[raw_level_up_moves]]
-at_level = 8
-name = "TELEPORT"
-
-[[raw_level_up_moves]]
-at_level = 11
-name = "SHOCKWAVE"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "DISABLE"
-
-[[raw_level_up_moves]]
-at_level = 17
-name = "TRICKROOM"
-
-[[raw_level_up_moves]]
-at_level = 21
-name = "PSYBEAM"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "PAINSPLIT"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "MYSTICALFIRE"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "UPROAR"
-
-[[raw_level_up_moves]]
-at_level = 33
-name = "WONDERROOM"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "ZENHEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "TRICK"
-
-[[raw_level_up_moves]]
-at_level = 41
-name = "ROLEPLAY"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "MOONBLAST"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "GUARDSPLIT"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "POWERSPLIT"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "COSMICPOWER"
-
-[[raw_level_up_moves]]
-at_level = 55
-name = "NASTYPLOT"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "PSYCHIC"
-
-[[raw_level_up_moves]]
-at_level = 61
-name = "RECOVER"
-
-[[raw_level_up_moves]]
-at_level = 65
-name = "DESTINYBOND"
-
-[[raw_level_up_moves]]
-at_level = 69
-name = "PSYCHOBOOST"
 
 [base_stats]
 hp = 75
@@ -140,5 +152,3 @@ def_ = 0
 spa = 2
 spd = 0
 spe = 0
-
-[wild_items]

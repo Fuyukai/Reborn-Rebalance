@@ -1,3 +1,4 @@
+dex_number = 438
 name = "Bonsly"
 primary_type = "ROCK"
 secondary_type = "ROCK"
@@ -6,11 +7,89 @@ growth_rate = "Medium"
 exp_yield = 58
 catch_rate = 255
 caught_happiness = 70
-raw_abilities = ["STURDY", "ROCKHEAD"]
-raw_egg_moves = ["CURSE", "DEFENSECURL", "ENDURE", "HARDEN", "HEADBUTT", "ROLLOUT", "SANDTOMB", "SELFDESTRUCT", "STEALTHROCK"]
-raw_tms = ["CALMMIND", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "FRUSTRATION", "SMACKDOWN", "RETURN", "BRICKBREAK", "DOUBLETEAM", "SANDSTORM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "EXPLOSION", "ROCKPOLISH", "PSYCHUP", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "DIG", "SELFDESTRUCT", "FAKETEARS", "SANDTOMB", "ENDURE", "TRAILBLAZE"]
-raw_tutor_moves = ["AFTERYOU", "BLOCK", "COVET", "EARTHPOWER", "FOULPLAY", "HEADBUTT", "HELPINGHAND", "LOWKICK", "ROLEPLAY", "ROLLOUT", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "SUCKERPUNCH", "UPROAR", "MIMIC"]
-compatible_egg_groups = ["Undiscovered"]
+raw_abilities = [
+    "STURDY",
+    "ROCKHEAD",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "COPYCAT" },
+    { at_level = 1, name = "HARDEN" },
+    { at_level = 1, name = "ROCKTHROW" },
+    { at_level = 1, name = "TICKLE" },
+    { at_level = 4, name = "ROLLOUT" },
+    { at_level = 7, name = "MIMIC" },
+    { at_level = 10, name = "DISARMINGVOICE" },
+    { at_level = 13, name = "HEADBUTT" },
+    { at_level = 16, name = "SANDSTORM" },
+    { at_level = 19, name = "ROCKTOMB" },
+    { at_level = 22, name = "FOULPLAY" },
+    { at_level = 25, name = "SUCKERPUNCH" },
+    { at_level = 28, name = "STONEEDGE" },
+    { at_level = 31, name = "COUNTER" },
+    { at_level = 34, name = "ROCKSLIDE" },
+    { at_level = 38, name = "STEALTHROCK" },
+    { at_level = 42, name = "ROLEPLAY" },
+    { at_level = 46, name = "FAKETEARS" },
+    { at_level = 50, name = "HEADSMASH" },
+    { at_level = 54, name = "CURSE" },
+    { at_level = 58, name = "DOUBLEEDGE" },
+]
+raw_tms = [
+    "CALMMIND",
+    "TOXIC",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "PROTECT",
+    "FRUSTRATION",
+    "SMACKDOWN",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "SANDSTORM",
+    "ROCKTOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "EXPLOSION",
+    "ROCKPOLISH",
+    "PSYCHUP",
+    "ROCKSLIDE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "NATUREPOWER",
+    "CONFIDE",
+    "DIG",
+    "SELFDESTRUCT",
+    "FAKETEARS",
+    "SANDTOMB",
+    "ENDURE",
+    "TRAILBLAZE",
+]
+raw_tutor_moves = [
+    "AFTERYOU",
+    "BLOCK",
+    "COVET",
+    "EARTHPOWER",
+    "FOULPLAY",
+    "HEADBUTT",
+    "HELPINGHAND",
+    "LOWKICK",
+    "MIMIC",
+    "ROLEPLAY",
+    "ROLLOUT",
+    "SNORE",
+    "STEALTHROCK",
+    "STOMPINGTANTRUM",
+    "SUCKERPUNCH",
+    "UPROAR",
+]
+compatible_egg_groups = [
+    "Undiscovered",
+]
 steps_to_hatch = 5355
 height = 0.5
 weight = 15.0
@@ -20,101 +99,21 @@ pokedex_entry = "It looks as if it is always crying. It is actually adjusting it
 battler_player_y = 23
 battler_enemy_y = 19
 battler_altitude = 0
-form_names = []
-dex_number = 438
-internal_name = "BONSLY"
 raw_hidden_ability = "RATTLED"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "COPYCAT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HARDEN"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ROCKTHROW"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TICKLE"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "ROLLOUT"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "MIMIC"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "DISARMINGVOICE"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "HEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "SANDSTORM"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "ROCKTOMB"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "FOULPLAY"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "SUCKERPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "STONEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "COUNTER"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "ROCKSLIDE"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "STEALTHROCK"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "ROLEPLAY"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "FAKETEARS"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "HEADSMASH"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "CURSE"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "DOUBLEEDGE"
-
-[[evolutions]]
-into_name = "SUDOWOODO"
-condition = "Level"
-parameter = "25"
-
-
+raw_egg_moves = [
+    "CURSE",
+    "DEFENSECURL",
+    "ENDURE",
+    "HARDEN",
+    "HEADBUTT",
+    "ROLLOUT",
+    "SANDTOMB",
+    "SELFDESTRUCT",
+    "STEALTHROCK",
+]
+evolutions = [
+    { into_name = "SUDOWOODO", condition = "Level", parameter = "25" },
+]
 
 [base_stats]
 hp = 60
@@ -131,5 +130,3 @@ def_ = 1
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

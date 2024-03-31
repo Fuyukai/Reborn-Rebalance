@@ -1,3 +1,4 @@
+dex_number = 468
 name = "Togekiss"
 primary_type = "FAIRY"
 secondary_type = "FLYING"
@@ -6,11 +7,134 @@ growth_rate = "Fast"
 exp_yield = 245
 catch_rate = 30
 caught_happiness = 70
-raw_abilities = ["HUSTLE", "SERENEGRACE"]
-raw_egg_moves = []
-raw_tms = ["WORKUP", "FLY", "PSYSHOCK", "TOXIC", "ROCKSMASH", "FLASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "PSYCHIC", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "FIREBLAST", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "STEELWING", "FLING", "SMARTSTRIKE", "GIGAIMPACT", "THUNDERWAVE", "PSYCHUP", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "DAZZLINGGLEAM", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "MAGICALLEAF", "CHARM", "IMPRISON", "AIRSLASH", "DRAININGKISS", "MYSTICALFIRE", "BODYSLAM", "METRONOME", "AMNESIA", "TRIATTACK", "ENDURE", "BATONPASS", "ENCORE", "FUTURESIGHT", "AURASPHERE", "NASTYPLOT", "STOREDPOWER", "PLAYROUGH", "RETALIATE", "SWIFT", "HURRICANE"]
-raw_tutor_moves = ["AFTERYOU", "AIRCUTTER", "ALLYSWITCH", "ANCIENTPOWER", "COVET", "DEFOG", "DRAINPUNCH", "ENDEAVOR", "FOCUSPUNCH", "HEADBUTT", "HEALBELL", "HEATWAVE", "HELPINGHAND", "HYPERVOICE", "LASERFOCUS", "LASTRESORT", "MAGICCOAT", "MUDSLAP", "OMINOUSWIND", "ROLLOUT", "SHOCKWAVE", "SIGNALBEAM", "SKYATTACK", "SNORE", "TAILWIND", "TELEKINESIS", "TRICK", "TWISTER", "UPROAR", "WATERPULSE", "ZENHEADBUTT", "DUALWINGBEAT", "EXTREMESPEED", "MIMIC"]
-compatible_egg_groups = ["Flying", "Fairy"]
+raw_abilities = [
+    "HUSTLE",
+    "SERENEGRACE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "EXTREMESPEED" },
+    { at_level = 1, name = "FUTURESIGHT" },
+    { at_level = 1, name = "MAGICALLEAF" },
+    { at_level = 1, name = "SMARTSTRIKE" },
+    { at_level = 1, name = "OMINOUSWIND" },
+    { at_level = 1, name = "TWISTER" },
+    { at_level = 40, name = "WISH" },
+    { at_level = 45, name = "SKYATTACK" },
+    { at_level = 55, name = "EXTRASENSORY" },
+    { at_level = 60, name = "AIRSLASH" },
+    { at_level = 65, name = "MOONBLAST" },
+    { at_level = 70, name = "NASTYPLOT" },
+]
+raw_tms = [
+    "WORKUP",
+    "FLY",
+    "PSYSHOCK",
+    "TOXIC",
+    "ROCKSMASH",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "ROOST",
+    "ROOST",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "REFLECT",
+    "FLAMETHROWER",
+    "FIREBLAST",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ECHOEDVOICE",
+    "STEELWING",
+    "FLING",
+    "SMARTSTRIKE",
+    "GIGAIMPACT",
+    "THUNDERWAVE",
+    "PSYCHUP",
+    "DREAMEATER",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "DAZZLINGGLEAM",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "MAGICALLEAF",
+    "CHARM",
+    "IMPRISON",
+    "AIRSLASH",
+    "DRAININGKISS",
+    "MYSTICALFIRE",
+    "BODYSLAM",
+    "HURRICANE",
+    "METRONOME",
+    "AMNESIA",
+    "TRIATTACK",
+    "ENDURE",
+    "BATONPASS",
+    "ENCORE",
+    "FUTURESIGHT",
+    "AURASPHERE",
+    "NASTYPLOT",
+    "STOREDPOWER",
+    "PLAYROUGH",
+    "RETALIATE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AFTERYOU",
+    "AIRCUTTER",
+    "ALLYSWITCH",
+    "ANCIENTPOWER",
+    "COVET",
+    "DEFOG",
+    "DRAINPUNCH",
+    "DUALWINGBEAT",
+    "ENDEAVOR",
+    "EXTREMESPEED",
+    "FOCUSPUNCH",
+    "HEADBUTT",
+    "HEALBELL",
+    "HEATWAVE",
+    "HELPINGHAND",
+    "HYPERVOICE",
+    "LASERFOCUS",
+    "LASTRESORT",
+    "MAGICCOAT",
+    "MIMIC",
+    "MUDSLAP",
+    "OMINOUSWIND",
+    "ROLLOUT",
+    "SHOCKWAVE",
+    "SIGNALBEAM",
+    "SKYATTACK",
+    "SNORE",
+    "TAILWIND",
+    "TELEKINESIS",
+    "TRICK",
+    "TWISTER",
+    "UPROAR",
+    "WATERPULSE",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Flying",
+    "Fairy",
+]
 steps_to_hatch = 2805
 height = 1.5
 weight = 38.0
@@ -20,59 +144,7 @@ pokedex_entry = "It will never appear where there is strife. Its sightings have 
 battler_player_y = 26
 battler_enemy_y = 21
 battler_altitude = 18
-evolutions = []
-form_names = []
-dex_number = 468
-internal_name = "TOGEKISS"
 raw_hidden_ability = "SUPERLUCK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "EXTREMESPEED"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FUTURESIGHT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "MAGICALLEAF"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SMARTSTRIKE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "OMINOUSWIND"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TWISTER"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "WISH"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "SKYATTACK"
-
-[[raw_level_up_moves]]
-at_level = 55
-name = "EXTRASENSORY"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "AIRSLASH"
-
-[[raw_level_up_moves]]
-at_level = 65
-name = "MOONBLAST"
-
-[[raw_level_up_moves]]
-at_level = 70
-name = "NASTYPLOT"
 
 [base_stats]
 hp = 85
@@ -89,5 +161,3 @@ def_ = 0
 spa = 2
 spd = 1
 spe = 0
-
-[wild_items]

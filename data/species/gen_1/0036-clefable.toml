@@ -1,3 +1,4 @@
+dex_number = 36
 name = "Clefable"
 primary_type = "FAIRY"
 secondary_type = "FAIRY"
@@ -6,11 +7,136 @@ growth_rate = "Fast"
 exp_yield = 213
 catch_rate = 25
 caught_happiness = 140
-raw_abilities = ["UNAWARE", "MAGICGUARD"]
-raw_egg_moves = []
-raw_tms =["WORKUP", "PSYSHOCK", "CALMMIND", "STRENGTH", "TOXIC", "ROCKSMASH", "FLASH", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "THUNDERBOLT", "THUNDER", "RETURN", "PSYCHIC", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "FIREBLAST", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "FOCUSBLAST", "FLING", "CHARGEBEAM", "GIGAIMPACT", "THUNDERWAVE", "PSYCHUP", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "DAZZLINGGLEAM", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "MAGICALLEAF", "DIG", "CHARM", "IMPRISON", "FAKETEARS", "DRAININGKISS", "MISTYTERRAIN", "MYSTICALFIRE", "BODYSLAM", "METRONOME", "AMNESIA", "TRIATTACK", "ENDURE", "BATONPASS", "ENCORE", "COSMICPOWER", "POWERGEM", "STOREDPOWER", "PLAYROUGH", "RETALIATE"]
-raw_tutor_moves = ["AFTERYOU", "ALLYSWITCH", "BOUNCE", "COVET", "DRAINPUNCH", "ENDEAVOR", "FIREPUNCH", "FOCUSPUNCH", "GRAVITY", "HEADBUTT", "HEALBELL", "HELPINGHAND", "HYPERVOICE", "ICEPUNCH", "ICYWIND", "IRONTAIL", "KNOCKOFF", "LASERFOCUS", "LASTRESORT", "MAGICCOAT", "MUDSLAP", "RECYCLE", "ROLEPLAY", "ROLLOUT", "SHOCKWAVE", "SIGNALBEAM", "SNATCH", "SNORE", "STEALTHROCK", "TELEKINESIS", "THUNDERPUNCH", "TRICK", "UPROAR", "WATERPULSE", "WONDERROOM", "ZENHEADBUTT", "DUALWINGBEAT", "METEORBEAM", "MISTYEXPLOSION", "MIMIC"]
-compatible_egg_groups = ["Fairy"]
+raw_abilities = [
+    "UNAWARE",
+    "MAGICGUARD",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "AROMATHERAPY" },
+    { at_level = 1, name = "METRONOME" },
+    { at_level = 1, name = "SING" },
+    { at_level = 1, name = "SOFTBOILED" },
+    { at_level = 30, name = "WISH" },
+    { at_level = 50, name = "MOONBLAST" },
+    { at_level = 65, name = "LUNARDANCE" },
+]
+raw_tms = [
+    "WORKUP",
+    "PSYSHOCK",
+    "CALMMIND",
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "ICEBEAM",
+    "BLIZZARD",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "THUNDERBOLT",
+    "THUNDER",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "REFLECT",
+    "FLAMETHROWER",
+    "FIREBLAST",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ECHOEDVOICE",
+    "FOCUSBLAST",
+    "FLING",
+    "CHARGEBEAM",
+    "GIGAIMPACT",
+    "THUNDERWAVE",
+    "PSYCHUP",
+    "DREAMEATER",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "DAZZLINGGLEAM",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "MAGICALLEAF",
+    "DIG",
+    "CHARM",
+    "IMPRISON",
+    "FAKETEARS",
+    "DRAININGKISS",
+    "MISTYTERRAIN",
+    "MYSTICALFIRE",
+    "BODYSLAM",
+    "METRONOME",
+    "AMNESIA",
+    "TRIATTACK",
+    "ENDURE",
+    "BATONPASS",
+    "ENCORE",
+    "COSMICPOWER",
+    "POWERGEM",
+    "STOREDPOWER",
+    "PLAYROUGH",
+    "RETALIATE",
+]
+raw_tutor_moves = [
+    "AFTERYOU",
+    "ALLYSWITCH",
+    "BOUNCE",
+    "COVET",
+    "DRAINPUNCH",
+    "DUALWINGBEAT",
+    "ENDEAVOR",
+    "FIREPUNCH",
+    "FOCUSPUNCH",
+    "GRAVITY",
+    "HEADBUTT",
+    "HEALBELL",
+    "HELPINGHAND",
+    "HYPERVOICE",
+    "ICEPUNCH",
+    "ICYWIND",
+    "IRONTAIL",
+    "KNOCKOFF",
+    "LASERFOCUS",
+    "LASTRESORT",
+    "MAGICCOAT",
+    "METEORBEAM",
+    "MIMIC",
+    "MISTYEXPLOSION",
+    "MUDSLAP",
+    "RECYCLE",
+    "ROLEPLAY",
+    "ROLLOUT",
+    "SHOCKWAVE",
+    "SIGNALBEAM",
+    "SNATCH",
+    "SNORE",
+    "STEALTHROCK",
+    "TELEKINESIS",
+    "THUNDERPUNCH",
+    "TRICK",
+    "UPROAR",
+    "WATERPULSE",
+    "WONDERROOM",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Fairy",
+]
 steps_to_hatch = 2805
 height = 1.3
 weight = 40.0
@@ -20,39 +146,7 @@ pokedex_entry = "A Clefable uses its wings to skip lightly as if it were flying.
 battler_player_y = 19
 battler_enemy_y = 19
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 36
-internal_name = "CLEFABLE"
 habitat = "Mountain"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "AROMATHERAPY"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "METRONOME"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SING"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SOFTBOILED"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "WISH"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "MOONBLAST"
-
-[[raw_level_up_moves]]
-at_level = 65
-name = "LUNARDANCE"
 
 [base_stats]
 hp = 95

@@ -1,3 +1,4 @@
+dex_number = 102
 name = "Exeggcute"
 primary_type = "GRASS"
 secondary_type = "PSYCHIC"
@@ -6,11 +7,97 @@ growth_rate = "Slow"
 exp_yield = 65
 catch_rate = 90
 caught_happiness = 70
-raw_abilities = ["CHLOROPHYLL", "HARVEST"]
-raw_egg_moves = ["ANCIENTPOWER", "BLOCK", "CURSE", "GIGADRAIN", "GRASSYTERRAIN", "INGRAIN", "LEAFSTORM", "LUCKYCHANT", "MOONLIGHT", "NATURALGIFT", "NATUREPOWER", "POWERSWAP", "SKILLSWAP", "SYNTHESIS"]
-raw_tms = ["STRENGTH", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "LIGHTSCREEN", "PROTECT", "FRUSTRATION", "SOLARBEAM", "RETURN", "PSYCHIC", "DOUBLETEAM", "REFLECT", "SLUDGEBOMB", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ENERGYBALL", "EXPLOSION", "SWORDSDANCE", "PSYCHUP", "INFESTATION", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "SELFDESTRUCT", "BULLETSEED", "POWERSWAP", "GRASSYTERRAIN", "LEAFSTORM", "ENDURE"]
-raw_tutor_moves = ["ANCIENTPOWER", "BLOCK", "GIGADRAIN", "GRAVITY", "ROLLOUT", "SEEDBOMB", "SKILLSWAP", "SNORE", "SYNTHESIS", "TELEKINESIS", "UPROAR", "WORRYSEED", "GRASSYGLIDE", "MIMIC"]
-compatible_egg_groups = ["Grass"]
+raw_abilities = [
+    "CHLOROPHYLL",
+    "HARVEST",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "ABSORB" },
+    { at_level = 1, name = "INGRAIN" },
+    { at_level = 1, name = "WORRYSEED" },
+    { at_level = 4, name = "PSYWAVE" },
+    { at_level = 7, name = "NIGHTMARE" },
+    { at_level = 10, name = "HYPNOSIS" },
+    { at_level = 13, name = "MEGADRAIN" },
+    { at_level = 16, name = "UPROAR" },
+    { at_level = 19, name = "CONFUSION" },
+    { at_level = 22, name = "BULLETSEED" },
+    { at_level = 25, name = "LEECHSEED" },
+    { at_level = 28, name = "ANCIENTPOWER" },
+    { at_level = 31, name = "NATUREPOWER" },
+    { at_level = 34, name = "GRAVITY" },
+    { at_level = 37, name = "POISONPOWDER" },
+    { at_level = 37, name = "SLEEPPOWDER" },
+    { at_level = 37, name = "STUNSPORE" },
+    { at_level = 40, name = "FUTURESIGHT" },
+    { at_level = 43, name = "MOONLIGHT" },
+    { at_level = 46, name = "EXTRASENSORY" },
+    { at_level = 50, name = "SYNTHESIS" },
+    { at_level = 54, name = "BESTOW" },
+    { at_level = 58, name = "EXPLOSION" },
+    { at_level = 62, name = "LEAFSTORM" },
+    { at_level = 66, name = "SOFTBOILED" },
+]
+raw_tms = [
+    "STRENGTH",
+    "TOXIC",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "PSYCHIC",
+    "DOUBLETEAM",
+    "REFLECT",
+    "SLUDGEBOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "ENERGYBALL",
+    "EXPLOSION",
+    "SWORDSDANCE",
+    "PSYCHUP",
+    "INFESTATION",
+    "DREAMEATER",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "TRICKROOM",
+    "SECRETPOWER",
+    "NATUREPOWER",
+    "CONFIDE",
+    "SELFDESTRUCT",
+    "BULLETSEED",
+    "POWERSWAP",
+    "GRASSYTERRAIN",
+    "LEAFSTORM",
+    "ENDURE",
+]
+raw_tutor_moves = [
+    "ANCIENTPOWER",
+    "BLOCK",
+    "GIGADRAIN",
+    "GRASSYGLIDE",
+    "GRAVITY",
+    "MIMIC",
+    "ROLLOUT",
+    "SEEDBOMB",
+    "SKILLSWAP",
+    "SNORE",
+    "SYNTHESIS",
+    "TELEKINESIS",
+    "UPROAR",
+    "WORRYSEED",
+]
+compatible_egg_groups = [
+    "Grass",
+]
 steps_to_hatch = 5355
 height = 0.4
 weight = 2.5
@@ -20,119 +107,26 @@ pokedex_entry = "It consists of six eggs that care for each other. They attract 
 battler_player_y = 30
 battler_enemy_y = 32
 battler_altitude = 0
-form_names = []
-dex_number = 102
-internal_name = "EXEGGCUTE"
+raw_egg_moves = [
+    "ANCIENTPOWER",
+    "BLOCK",
+    "CURSE",
+    "GIGADRAIN",
+    "GRASSYTERRAIN",
+    "INGRAIN",
+    "LEAFSTORM",
+    "LUCKYCHANT",
+    "MOONLIGHT",
+    "NATURALGIFT",
+    "NATUREPOWER",
+    "POWERSWAP",
+    "SKILLSWAP",
+    "SYNTHESIS",
+]
 habitat = "Forest"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ABSORB"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "INGRAIN"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WORRYSEED"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "PSYWAVE"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "NIGHTMARE"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "HYPNOSIS"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "MEGADRAIN"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "UPROAR"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "CONFUSION"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "BULLETSEED"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "LEECHSEED"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "ANCIENTPOWER"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "NATUREPOWER"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "GRAVITY"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "POISONPOWDER"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "SLEEPPOWDER"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "STUNSPORE"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "FUTURESIGHT"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "MOONLIGHT"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "EXTRASENSORY"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "SYNTHESIS"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "BESTOW"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "EXPLOSION"
-
-[[raw_level_up_moves]]
-at_level = 62
-name = "LEAFSTORM"
-
-[[raw_level_up_moves]]
-at_level = 66
-name = "SOFTBOILED"
-
-[[evolutions]]
-into_name = "EXEGGUTOR"
-condition = "Item"
-parameter = "LEAFSTONE"
-
-
-
-
+evolutions = [
+    { into_name = "EXEGGUTOR", condition = "Item", parameter = "LEAFSTONE" },
+]
 
 [base_stats]
 hp = 60

@@ -1,3 +1,4 @@
+dex_number = 529
 name = "Drilbur"
 primary_type = "GROUND"
 secondary_type = "GROUND"
@@ -6,11 +7,82 @@ growth_rate = "Medium"
 exp_yield = 66
 catch_rate = 120
 caught_happiness = 70
-raw_abilities = ["SANDRUSH", "SANDFORCE"]
-raw_egg_moves = ["CRUSHCLAW", "EARTHPOWER", "IRONDEFENSE", "METALSOUND", "RAPIDSPIN", "ROCKCLIMB", "SKULLBASH", "SUBMISSION"]
-raw_tms = ["CUT", "STRENGTH", "TOXIC", "ROCKSMASH", "ROCKCLIMB", "HIDDENPOWER", "PROTECT", "FRUSTRATION", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "SLUDGEBOMB", "SANDSTORM", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "FLING", "SHADOWCLAW", "SWORDSDANCE", "BULLDOZE", "ROCKSLIDE", "XSCISSOR", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "SANDTOMB", "MUDSHOT", "ENDURE", "HIGHHORSEPOWER"]
-raw_tutor_moves = ["DRILLRUN", "EARTHPOWER", "IRONDEFENSE", "MUDSLAP", "SNORE", "STEALTHROCK", "SCORCHINGSANDS", "MIMIC"]
-compatible_egg_groups = ["Field"]
+raw_abilities = [
+    "SANDRUSH",
+    "SANDFORCE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "MUDSLAP" },
+    { at_level = 1, name = "SCRATCH" },
+    { at_level = 7, name = "FURYSWIPES" },
+    { at_level = 10, name = "RAPIDSPIN" },
+    { at_level = 13, name = "MUDSHOT" },
+    { at_level = 16, name = "FURYCUTTER" },
+    { at_level = 19, name = "METALCLAW" },
+    { at_level = 22, name = "SLASH" },
+    { at_level = 25, name = "ROCKBLAST" },
+    { at_level = 28, name = "SMARTSTRIKE" },
+    { at_level = 31, name = "IRONDEFENSE" },
+    { at_level = 34, name = "SCORCHINGSANDS" },
+    { at_level = 38, name = "CRUSHCLAW" },
+    { at_level = 42, name = "DRILLRUN" },
+    { at_level = 46, name = "SANDSTORM" },
+    { at_level = 50, name = "SKULLBASH" },
+    { at_level = 54, name = "HIGHHORSEPOWER" },
+    { at_level = 58, name = "FISSURE" },
+]
+raw_tms = [
+    "CUT",
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "ROCKCLIMB",
+    "HIDDENPOWER",
+    "PROTECT",
+    "FRUSTRATION",
+    "EARTHQUAKE",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "SLUDGEBOMB",
+    "SANDSTORM",
+    "ROCKTOMB",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "FLING",
+    "SHADOWCLAW",
+    "SWORDSDANCE",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "XSCISSOR",
+    "POISONJAB",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "DIG",
+    "SANDTOMB",
+    "MUDSHOT",
+    "ENDURE",
+    "HIGHHORSEPOWER",
+]
+raw_tutor_moves = [
+    "DRILLRUN",
+    "EARTHPOWER",
+    "IRONDEFENSE",
+    "MIMIC",
+    "MUDSLAP",
+    "SCORCHINGSANDS",
+    "SNORE",
+    "STEALTHROCK",
+]
+compatible_egg_groups = [
+    "Field",
+]
 steps_to_hatch = 5120
 height = 0.3
 weight = 8.5
@@ -20,89 +92,20 @@ pokedex_entry = "It makes its way swiftly through the soil by putting both claws
 battler_player_y = 26
 battler_enemy_y = 27
 battler_altitude = 0
-form_names = []
-dex_number = 529
-internal_name = "DRILBUR"
 raw_hidden_ability = "MOLDBREAKER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "MUDSLAP"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SCRATCH"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "FURYSWIPES"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "RAPIDSPIN"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "MUDSHOT"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "FURYCUTTER"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "METALCLAW"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "SLASH"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "ROCKBLAST"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "SMARTSTRIKE"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "IRONDEFENSE"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "SCORCHINGSANDS"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "CRUSHCLAW"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "DRILLRUN"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "SANDSTORM"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "SKULLBASH"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "HIGHHORSEPOWER"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "FISSURE"
-
-[[evolutions]]
-into_name = "EXCADRILL"
-condition = "Level"
-parameter = "31"
-
-
+raw_egg_moves = [
+    "CRUSHCLAW",
+    "EARTHPOWER",
+    "IRONDEFENSE",
+    "METALSOUND",
+    "RAPIDSPIN",
+    "ROCKCLIMB",
+    "SKULLBASH",
+    "SUBMISSION",
+]
+evolutions = [
+    { into_name = "EXCADRILL", condition = "Level", parameter = "31" },
+]
 
 [base_stats]
 hp = 60
@@ -119,5 +122,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

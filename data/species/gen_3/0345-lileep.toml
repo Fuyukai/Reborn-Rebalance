@@ -1,3 +1,4 @@
+dex_number = 345
 name = "Lileep"
 primary_type = "ROCK"
 secondary_type = "GRASS"
@@ -6,11 +7,88 @@ growth_rate = "Erratic"
 exp_yield = 71
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["SUCTIONCUPS", "STORMDRAIN"]
-raw_egg_moves = ["BARRIER", "CURSE", "ENDURE", "MEGADRAIN", "MIRRORCOAT", "RECOVER", "STEALTHROCK", "TICKLE", "WRINGOUT"]
-raw_tms = ["TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "FRUSTRATION", "SOLARBEAM", "SMACKDOWN", "RETURN", "DOUBLETEAM", "SLUDGEBOMB", "SANDSTORM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "ROCKPOLISH", "SWORDSDANCE", "ROCKSLIDE", "INFESTATION", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "BULLETSEED", "ROCKBLAST", "MUDSHOT", "BRINE", "BODYSLAM", "AMNESIA", "ENDURE"]
-raw_tutor_moves = ["BIND", "EARTHPOWER", "GASTROACID", "GIGADRAIN", "HEADBUTT", "MUDSLAP", "PAINSPLIT", "SEEDBOMB", "SNORE", "STEALTHROCK", "STRINGSHOT", "SYNTHESIS", "WORRYSEED", "METEORBEAM", "MIMIC"]
-compatible_egg_groups = ["Water3"]
+raw_abilities = [
+    "SUCTIONCUPS",
+    "STORMDRAIN",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "INGRAIN" },
+    { at_level = 1, name = "ASTONISH" },
+    { at_level = 5, name = "LEECHSEED" },
+    { at_level = 9, name = "INFESTATION" },
+    { at_level = 13, name = "ACID" },
+    { at_level = 17, name = "ANCIENTPOWER" },
+    { at_level = 21, name = "BRINE" },
+    { at_level = 25, name = "MEGADRAIN" },
+    { at_level = 28, name = "MUDSHOT" },
+    { at_level = 31, name = "GASTROACID" },
+    { at_level = 34, name = "TICKLE" },
+    { at_level = 37, name = "STRINGSHOT" },
+    { at_level = 40, name = "SYNTHESIS" },
+    { at_level = 43, name = "ENERGYBALL" },
+    { at_level = 46, name = "STOCKPILE" },
+    { at_level = 46, name = "SPITUP" },
+    { at_level = 46, name = "SWALLOW" },
+    { at_level = 49, name = "RECOVER" },
+    { at_level = 52, name = "WRINGOUT" },
+]
+raw_tms = [
+    "TOXIC",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "PROTECT",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "SMACKDOWN",
+    "RETURN",
+    "DOUBLETEAM",
+    "SLUDGEBOMB",
+    "SANDSTORM",
+    "ROCKTOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ENERGYBALL",
+    "ROCKPOLISH",
+    "SWORDSDANCE",
+    "ROCKSLIDE",
+    "INFESTATION",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "BULLETSEED",
+    "ROCKBLAST",
+    "MUDSHOT",
+    "BRINE",
+    "BODYSLAM",
+    "AMNESIA",
+    "ENDURE",
+]
+raw_tutor_moves = [
+    "BIND",
+    "EARTHPOWER",
+    "GASTROACID",
+    "GIGADRAIN",
+    "HEADBUTT",
+    "METEORBEAM",
+    "MIMIC",
+    "MUDSLAP",
+    "PAINSPLIT",
+    "SEEDBOMB",
+    "SNORE",
+    "STEALTHROCK",
+    "STRINGSHOT",
+    "SYNTHESIS",
+    "WORRYSEED",
+]
+compatible_egg_groups = [
+    "Water3",
+]
 steps_to_hatch = 7905
 height = 1.0
 weight = 23.8
@@ -20,93 +98,21 @@ pokedex_entry = "It disguises itself as seaweed by swaying its tentacles. Unsusp
 battler_player_y = 21
 battler_enemy_y = 15
 battler_altitude = 0
-form_names = []
-dex_number = 345
-internal_name = "LILEEP"
+raw_egg_moves = [
+    "BARRIER",
+    "CURSE",
+    "ENDURE",
+    "MEGADRAIN",
+    "MIRRORCOAT",
+    "RECOVER",
+    "STEALTHROCK",
+    "TICKLE",
+    "WRINGOUT",
+]
 habitat = "Sea"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "INGRAIN"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ASTONISH"
-
-[[raw_level_up_moves]]
-at_level = 5
-name = "LEECHSEED"
-
-[[raw_level_up_moves]]
-at_level = 9
-name = "INFESTATION"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "ACID"
-
-[[raw_level_up_moves]]
-at_level = 17
-name = "ANCIENTPOWER"
-
-[[raw_level_up_moves]]
-at_level = 21
-name = "BRINE"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "MEGADRAIN"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "MUDSHOT"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "GASTROACID"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "TICKLE"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "STRINGSHOT"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "SYNTHESIS"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "ENERGYBALL"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "STOCKPILE"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "SPITUP"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "SWALLOW"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "RECOVER"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "WRINGOUT"
-
-[[evolutions]]
-into_name = "CRADILY"
-condition = "Level"
-parameter = "30"
-
-
+evolutions = [
+    { into_name = "CRADILY", condition = "Level", parameter = "30" },
+]
 
 [base_stats]
 hp = 66

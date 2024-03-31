@@ -1,3 +1,4 @@
+dex_number = 738
 name = "Vikavolt"
 primary_type = "BUG"
 secondary_type = "ELECTRIC"
@@ -6,11 +7,99 @@ growth_rate = "Slow"
 exp_yield = 225
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["LEVITATE"]
-raw_egg_moves = []
-raw_tms = ["FLY", "TOXIC", "HIDDENPOWER", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "FRUSTRATION", "SOLARBEAM", "THUNDERBOLT", "THUNDER", "RETURN", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "CHARGEBEAM", "SKYDROP", "ACROBATICS", "GIGAIMPACT", "VOLTSWITCH", "THUNDERWAVE", "XSCISSOR", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "WILDCHARGE", "SECRETPOWER", "CONFIDE", "DIG", "SCREECH", "MUDSHOT", "CRUNCH", "AIRSLASH", "EERIEIMPULSE", "AGILITY", "ENDURE", "BUGBUZZ", "ELECTROBALL"]
-raw_tutor_moves = ["BUGBITE", "ELECTROWEB", "IRONDEFENSE", "LASERFOCUS", "MAGNETRISE", "MUDSLAP", "SHOCKWAVE", "SIGNALBEAM", "SNORE", "STRINGSHOT", "RISINGVOLTAGE", "DUALWINGBEAT", "SKITTERSMACK", "MIMIC"]
-compatible_egg_groups = ["Bug"]
+raw_abilities = [
+    "LEVITATE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "THUNDERBOLT" },
+    { at_level = 1, name = "BUGBUZZ" },
+    { at_level = 1, name = "AIRSLASH" },
+    { at_level = 1, name = "CHARGE" },
+    { at_level = 1, name = "VICEGRIP" },
+    { at_level = 1, name = "DISCHARGE" },
+    { at_level = 1, name = "MUDSHOT" },
+    { at_level = 1, name = "BITE" },
+    { at_level = 4, name = "STRINGSHOT" },
+    { at_level = 7, name = "MUDSLAP" },
+    { at_level = 10, name = "BITE" },
+    { at_level = 13, name = "BUGBITE" },
+    { at_level = 16, name = "SPARK" },
+    { at_level = 19, name = "ACROBATICS" },
+    { at_level = 25, name = "GUILLOTINE" },
+    { at_level = 31, name = "BUGBUZZ" },
+    { at_level = 37, name = "DIG" },
+    { at_level = 41, name = "ZAPCANNON" },
+    { at_level = 49, name = "AGILITY" },
+    { at_level = 58, name = "AIRSLASH" },
+    { at_level = 65, name = "ELECTROBALL" },
+    { at_level = 70, name = "STICKYWEB" },
+]
+raw_tms = [
+    "FLY",
+    "TOXIC",
+    "HIDDENPOWER",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "ROOST",
+    "ROOST",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "THUNDERBOLT",
+    "THUNDER",
+    "RETURN",
+    "DOUBLETEAM",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ENERGYBALL",
+    "CHARGEBEAM",
+    "SKYDROP",
+    "ACROBATICS",
+    "GIGAIMPACT",
+    "VOLTSWITCH",
+    "THUNDERWAVE",
+    "XSCISSOR",
+    "POISONJAB",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "FLASHCANNON",
+    "WILDCHARGE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "DIG",
+    "SCREECH",
+    "MUDSHOT",
+    "CRUNCH",
+    "AIRSLASH",
+    "EERIEIMPULSE",
+    "AGILITY",
+    "ENDURE",
+    "BUGBUZZ",
+    "ELECTROBALL",
+]
+raw_tutor_moves = [
+    "BUGBITE",
+    "DUALWINGBEAT",
+    "ELECTROWEB",
+    "IRONDEFENSE",
+    "LASERFOCUS",
+    "MAGNETRISE",
+    "MIMIC",
+    "MUDSLAP",
+    "RISINGVOLTAGE",
+    "SHOCKWAVE",
+    "SIGNALBEAM",
+    "SKITTERSMACK",
+    "SNORE",
+    "STRINGSHOT",
+]
+compatible_egg_groups = [
+    "Bug",
+]
 steps_to_hatch = 3840
 height = 1.5
 weight = 45.0
@@ -20,98 +109,6 @@ pokedex_entry = "It zips around, on sharp lookout for an opening. It concentrate
 battler_player_y = 8
 battler_enemy_y = 9
 battler_altitude = 4
-evolutions = []
-form_names = []
-dex_number = 738
-internal_name = "VIKAVOLT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "THUNDERBOLT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BUGBUZZ"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "AIRSLASH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "CHARGE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "VICEGRIP"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "DISCHARGE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "MUDSHOT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "STRINGSHOT"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "MUDSLAP"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "BUGBITE"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "SPARK"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "ACROBATICS"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "GUILLOTINE"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "BUGBUZZ"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "DIG"
-
-[[raw_level_up_moves]]
-at_level = 41
-name = "ZAPCANNON"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "AGILITY"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "AIRSLASH"
-
-[[raw_level_up_moves]]
-at_level = 65
-name = "ELECTROBALL"
-
-[[raw_level_up_moves]]
-at_level = 70
-name = "STICKYWEB"
 
 [base_stats]
 hp = 77
@@ -128,5 +125,3 @@ def_ = 0
 spa = 3
 spd = 0
 spe = 0
-
-[wild_items]

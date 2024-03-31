@@ -1,3 +1,4 @@
+dex_number = 253
 name = "Grovyle"
 primary_type = "GRASS"
 secondary_type = "GRASS"
@@ -6,11 +7,111 @@ growth_rate = "Parabolic"
 exp_yield = 142
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["OVERGROW", "UNBURDEN"]
-raw_egg_moves = []
-raw_tms = ["WORKUP", "CUT", "STRENGTH", "TOXIC", "ROCKSMASH", "FLASH", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "BRICKBREAK", "DOUBLETEAM", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "LOWSWEEP", "ROUND", "ENERGYBALL", "FALSESWIPE", "FLING", "ACROBATICS", "SWORDSDANCE", "ROCKSLIDE", "XSCISSOR", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "MAGICALLEAF", "SOLARBLADE", "DIG", "SCREECH", "BULLETSEED", "CRUNCH", "LEAFBLADE", "GRASSYTERRAIN", "BODYSLAM", "LEAFSTORM", "AGILITY", "ENDURE", "SWIFT"]
-raw_tutor_moves = ["DRAINPUNCH", "ENDEAVOR", "FOCUSPUNCH", "FURYCUTTER", "GIGADRAIN", "GRASSPLEDGE", "HEADBUTT", "IRONTAIL", "LOWKICK", "MUDSLAP", "SEEDBOMB", "SNORE", "SYNTHESIS", "THUNDERPUNCH", "WORRYSEED", "GRASSYGLIDE", "MIMIC"]
-compatible_egg_groups = ["Monster", "Dragon"]
+raw_abilities = [
+    "OVERGROW",
+    "UNBURDEN",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "POUND" },
+    { at_level = 1, name = "LEER" },
+    { at_level = 5, name = "ABSORB" },
+    { at_level = 7, name = "QUICKATTACK" },
+    { at_level = 10, name = "PURSUIT" },
+    { at_level = 13, name = "MAGICALLEAF" },
+    { at_level = 16, name = "FURYCUTTER" },
+    { at_level = 17, name = "AGILITY" },
+    { at_level = 20, name = "DOUBLEKICK" },
+    { at_level = 22, name = "MEGADRAIN" },
+    { at_level = 25, name = "ASSURANCE" },
+    { at_level = 28, name = "DRAGONTAIL" },
+    { at_level = 31, name = "GRASSWHISTLE" },
+    { at_level = 34, name = "SLASH" },
+    { at_level = 34, name = "NIGHTSLASH" },
+    { at_level = 37, name = "CRUSHCLAW" },
+    { at_level = 40, name = "SCREECH" },
+    { at_level = 43, name = "LEECHSEED" },
+    { at_level = 46, name = "SYNTHESIS" },
+    { at_level = 49, name = "LEAFBLADE" },
+    { at_level = 52, name = "QUICKGUARD" },
+    { at_level = 55, name = "LEAFSTORM" },
+]
+raw_tms = [
+    "WORKUP",
+    "CUT",
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "PROTECT",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "ROCKTOMB",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "LOWSWEEP",
+    "ROUND",
+    "ENERGYBALL",
+    "FALSESWIPE",
+    "FLING",
+    "ACROBATICS",
+    "SWORDSDANCE",
+    "ROCKSLIDE",
+    "XSCISSOR",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "NATUREPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "MAGICALLEAF",
+    "SOLARBLADE",
+    "DIG",
+    "SCREECH",
+    "BULLETSEED",
+    "CRUNCH",
+    "LEAFBLADE",
+    "GRASSYTERRAIN",
+    "BODYSLAM",
+    "LEAFSTORM",
+    "AGILITY",
+    "ENDURE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "DRAINPUNCH",
+    "ENDEAVOR",
+    "FOCUSPUNCH",
+    "FURYCUTTER",
+    "GIGADRAIN",
+    "GRASSPLEDGE",
+    "GRASSYGLIDE",
+    "HEADBUTT",
+    "IRONTAIL",
+    "LOWKICK",
+    "MIMIC",
+    "MUDSLAP",
+    "SEEDBOMB",
+    "SNORE",
+    "SYNTHESIS",
+    "THUNDERPUNCH",
+    "WORRYSEED",
+]
+compatible_egg_groups = [
+    "Monster",
+    "Dragon",
+]
 steps_to_hatch = 5355
 height = 0.9
 weight = 21.6
@@ -20,105 +121,10 @@ pokedex_entry = "Leaves grow out of this Pokémon's body. They help obscure a Gr
 battler_player_y = 18
 battler_enemy_y = 13
 battler_altitude = 0
-form_names = []
-dex_number = 253
-internal_name = "GROVYLE"
 habitat = "Forest"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "POUND"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 5
-name = "ABSORB"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "QUICKATTACK"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "PURSUIT"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "MAGICALLEAF"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "FURYCUTTER"
-
-[[raw_level_up_moves]]
-at_level = 17
-name = "AGILITY"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "DOUBLEKICK"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "MEGADRAIN"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "ASSURANCE"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "DRAGONTAIL"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "GRASSWHISTLE"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "SLASH"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "NIGHTSLASH"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "CRUSHCLAW"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "SCREECH"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "LEECHSEED"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "SYNTHESIS"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "LEAFBLADE"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "QUICKGUARD"
-
-[[raw_level_up_moves]]
-at_level = 55
-name = "LEAFSTORM"
-
-[[evolutions]]
-into_name = "SCEPTILE"
-condition = "Level"
-parameter = "36"
-
-
+evolutions = [
+    { into_name = "SCEPTILE", condition = "Level", parameter = "36" },
+]
 
 [base_stats]
 hp = 50
@@ -135,5 +141,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 2
-
-[wild_items]

@@ -1,3 +1,4 @@
+dex_number = 112
 name = "Rhydon"
 primary_type = "GROUND"
 secondary_type = "ROCK"
@@ -6,11 +7,149 @@ growth_rate = "Slow"
 exp_yield = 170
 catch_rate = 60
 caught_happiness = 70
-raw_abilities = ["LIGHTNINGROD", "ROCKHEAD"]
-raw_egg_moves = []
-raw_tms = ["CUT", "SURF", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "SMACKDOWN", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "FLAMETHROWER", "SANDSTORM", "FIREBLAST", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "FOCUSBLAST", "FLING", "BRUTALSWING", "SHADOWCLAW", "PAYBACK", "SMARTSTRIKE", "GIGAIMPACT", "ROCKPOLISH", "STONEEDGE", "SWORDSDANCE", "BULLDOZE", "ROCKSLIDE", "DRAGONTAIL", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "PAYDAY", "DIG", "SCARYFACE", "WHIRLPOOL", "ROCKBLAST", "MUDSHOT", "AVALANCHE", "THUNDERFANG", "ICEFANG", "FIREFANG", "CRUNCH", "BREAKINGSWIPE", "BODYSLAM", "HYDROPUMP", "MEGAHORN", "REVERSAL", "ENDURE", "HEATCRASH", "HEAVYSLAM", "HIGHHORSEPOWER", "BODYPRESS"]
-raw_tutor_moves = ["ANCIENTPOWER", "AQUATAIL", "BLOCK", "DRAGONPULSE", "DRILLRUN", "EARTHPOWER", "ENDEAVOR", "FIREPUNCH", "FOCUSPUNCH", "FURYCUTTER", "HEADBUTT", "HELPINGHAND", "ICEPUNCH", "ICYWIND", "IRONDEFENSE", "IRONTAIL", "MUDSLAP", "OUTRAGE", "ROLLOUT", "SHOCKWAVE", "SNORE", "SPITE", "STEALTHROCK", "STOMPINGTANTRUM", "SUPERPOWER", "THUNDERPUNCH", "UPROAR", "SCORCHINGSANDS", "METEORBEAM", "WAVECRASH", "MIMIC"]
-compatible_egg_groups = ["Monster", "Field"]
+raw_abilities = [
+    "LIGHTNINGROD",
+    "ROCKHEAD",
+]
+raw_level_up_moves = [
+    { at_level = 0, name = "HAMMERARM" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 1, name = "TAILWHIP" },
+    { at_level = 1, name = "FURYATTACK" },
+    { at_level = 4, name = "SCARYFACE" },
+    { at_level = 7, name = "STOMP" },
+    { at_level = 10, name = "HORNATTACK" },
+    { at_level = 13, name = "BULLDOZE" },
+    { at_level = 16, name = "CURSE" },
+    { at_level = 19, name = "ROCKBLAST" },
+    { at_level = 22, name = "CHIPAWAY" },
+    { at_level = 25, name = "REVERSAL" },
+    { at_level = 28, name = "CRUSHCLAW" },
+    { at_level = 31, name = "FIREFANG" },
+    { at_level = 31, name = "ICEFANG" },
+    { at_level = 31, name = "THUNDERFANG" },
+    { at_level = 34, name = "CRUNCH" },
+    { at_level = 39, name = "TAKEDOWN" },
+    { at_level = 43, name = "HIGHHORSEPOWER" },
+    { at_level = 47, name = "DRAGONRUSH" },
+    { at_level = 51, name = "MEGAHORN" },
+    { at_level = 55, name = "DOUBLEEDGE" },
+    { at_level = 59, name = "HEAVYSLAM" },
+    { at_level = 63, name = "ROCKWRECKER" },
+]
+raw_tms = [
+    "CUT",
+    "SURF",
+    "STRENGTH",
+    "ROAR",
+    "TOXIC",
+    "ROCKSMASH",
+    "ROCKCLIMB",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "ICEBEAM",
+    "BLIZZARD",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "SMACKDOWN",
+    "THUNDERBOLT",
+    "THUNDER",
+    "EARTHQUAKE",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "FLAMETHROWER",
+    "SANDSTORM",
+    "FIREBLAST",
+    "ROCKTOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "FOCUSBLAST",
+    "FLING",
+    "BRUTALSWING",
+    "SHADOWCLAW",
+    "PAYBACK",
+    "SMARTSTRIKE",
+    "GIGAIMPACT",
+    "ROCKPOLISH",
+    "STONEEDGE",
+    "SWORDSDANCE",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "DRAGONTAIL",
+    "POISONJAB",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "PAYDAY",
+    "DIG",
+    "SCARYFACE",
+    "WHIRLPOOL",
+    "ROCKBLAST",
+    "MUDSHOT",
+    "AVALANCHE",
+    "THUNDERFANG",
+    "ICEFANG",
+    "FIREFANG",
+    "CRUNCH",
+    "BREAKINGSWIPE",
+    "BODYSLAM",
+    "HYDROPUMP",
+    "MEGAHORN",
+    "REVERSAL",
+    "ENDURE",
+    "HEATCRASH",
+    "HEAVYSLAM",
+    "HIGHHORSEPOWER",
+    "BODYPRESS",
+]
+raw_tutor_moves = [
+    "ANCIENTPOWER",
+    "AQUATAIL",
+    "BLOCK",
+    "DRAGONPULSE",
+    "DRILLRUN",
+    "EARTHPOWER",
+    "ENDEAVOR",
+    "FIREPUNCH",
+    "FOCUSPUNCH",
+    "FURYCUTTER",
+    "HEADBUTT",
+    "HELPINGHAND",
+    "ICEPUNCH",
+    "ICYWIND",
+    "IRONDEFENSE",
+    "IRONTAIL",
+    "METEORBEAM",
+    "MIMIC",
+    "MUDSLAP",
+    "OUTRAGE",
+    "ROLLOUT",
+    "SCORCHINGSANDS",
+    "SHOCKWAVE",
+    "SNORE",
+    "SPITE",
+    "STEALTHROCK",
+    "STOMPINGTANTRUM",
+    "SUPERPOWER",
+    "THUNDERPUNCH",
+    "UPROAR",
+    "WAVECRASH",
+]
+compatible_egg_groups = [
+    "Monster",
+    "Field",
+]
 steps_to_hatch = 5355
 height = 1.9
 weight = 120.0
@@ -20,116 +159,11 @@ pokedex_entry = "Its horn, which rotates like a drill, destroys tall buildings w
 battler_player_y = 17
 battler_enemy_y = 9
 battler_altitude = 0
-form_names = []
-dex_number = 112
-internal_name = "RHYDON"
 raw_hidden_ability = "RECKLESS"
 habitat = "RoughTerrain"
-
-[[raw_level_up_moves]]
-at_level = 0
-name = "HAMMERARM"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TAILWHIP"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FURYATTACK"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "SCARYFACE"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "STOMP"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "HORNATTACK"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "BULLDOZE"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "CURSE"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "ROCKBLAST"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "CHIPAWAY"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "REVERSAL"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "CRUSHCLAW"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "FIREFANG"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "ICEFANG"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "THUNDERFANG"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 39
-name = "TAKEDOWN"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "HIGHHORSEPOWER"
-
-[[raw_level_up_moves]]
-at_level = 47
-name = "DRAGONRUSH"
-
-[[raw_level_up_moves]]
-at_level = 51
-name = "MEGAHORN"
-
-[[raw_level_up_moves]]
-at_level = 55
-name = "DOUBLEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 59
-name = "HEAVYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 63
-name = "ROCKWRECKER"
-
-[[evolutions]]
-into_name = "RHYPERIOR"
-condition = "TradeItem"
-parameter = "PROTECTOR"
-
-
-
-
+evolutions = [
+    { into_name = "RHYPERIOR", condition = "TradeItem", parameter = "PROTECTOR" },
+]
 
 [base_stats]
 hp = 105
@@ -146,5 +180,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

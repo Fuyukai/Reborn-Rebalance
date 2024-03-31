@@ -1,3 +1,4 @@
+dex_number = 353
 name = "Shuppet"
 primary_type = "GHOST"
 secondary_type = "NORMAL"
@@ -6,11 +7,100 @@ growth_rate = "Fast"
 exp_yield = 59
 catch_rate = 225
 caught_happiness = 35
-raw_abilities = ["CURSEDBODY", "FRISK"]
-raw_egg_moves = ["ASTONISH", "CONFUSERAY", "DESTINYBOND", "DISABLE", "FORESIGHT", "GUNKSHOT", "IMPRISON", "OMINOUSWIND", "PHANTOMFORCE", "PURSUIT", "SHADOWSNEAK"]
-raw_tms = ["CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "CHARGEBEAM", "WILLOWISP", "EMBARGO", "PAYBACK", "THUNDERWAVE", "PSYCHUP", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "DARKPULSE", "DAZZLINGGLEAM", "CONFIDE", "SCREECH", "IMPRISON", "HEX", "PHANTOMFORCE", "BODYSLAM", "ENDURE", "POUNCE"]
-raw_tutor_moves = ["ALLYSWITCH", "FOULPLAY", "GUNKSHOT", "HEADBUTT", "ICYWIND", "KNOCKOFF", "MAGICCOAT", "MAGICROOM", "OMINOUSWIND", "PAINSPLIT", "ROLEPLAY", "SHOCKWAVE", "SKILLSWAP", "SNATCH", "SNORE", "SPITE", "SUCKERPUNCH", "TELEKINESIS", "TRICK", "MIMIC"]
-compatible_egg_groups = ["Amorphous"]
+raw_abilities = [
+    "CURSEDBODY",
+    "FRISK",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "KNOCKOFF" },
+    { at_level = 1, name = "SCREECH" },
+    { at_level = 1, name = "SPITE" },
+    { at_level = 7, name = "NIGHTSHADE" },
+    { at_level = 10, name = "DISABLE" },
+    { at_level = 13, name = "SHADOWSNEAK" },
+    { at_level = 16, name = "WILLOWISP" },
+    { at_level = 19, name = "FEINTATTACK" },
+    { at_level = 22, name = "OMINOUSWIND" },
+    { at_level = 25, name = "CURSE" },
+    { at_level = 28, name = "HEX" },
+    { at_level = 31, name = "EMBARGO" },
+    { at_level = 34, name = "SUCKERPUNCH" },
+    { at_level = 37, name = "SNATCH" },
+    { at_level = 40, name = "TRICK" },
+    { at_level = 43, name = "GUNKSHOT" },
+    { at_level = 46, name = "GRUDGE" },
+    { at_level = 50, name = "DESTINYBOND" },
+]
+raw_tms = [
+    "CALMMIND",
+    "TOXIC",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "THUNDERBOLT",
+    "THUNDER",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "CHARGEBEAM",
+    "WILLOWISP",
+    "EMBARGO",
+    "PAYBACK",
+    "THUNDERWAVE",
+    "PSYCHUP",
+    "DREAMEATER",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "TRICKROOM",
+    "SECRETPOWER",
+    "DARKPULSE",
+    "DAZZLINGGLEAM",
+    "CONFIDE",
+    "SCREECH",
+    "IMPRISON",
+    "HEX",
+    "PHANTOMFORCE",
+    "BODYSLAM",
+    "ENDURE",
+    "POUNCE",
+]
+raw_tutor_moves = [
+    "ALLYSWITCH",
+    "FOULPLAY",
+    "GUNKSHOT",
+    "HEADBUTT",
+    "ICYWIND",
+    "KNOCKOFF",
+    "MAGICCOAT",
+    "MAGICROOM",
+    "MIMIC",
+    "OMINOUSWIND",
+    "PAINSPLIT",
+    "ROLEPLAY",
+    "SHOCKWAVE",
+    "SKILLSWAP",
+    "SNATCH",
+    "SNORE",
+    "SPITE",
+    "SUCKERPUNCH",
+    "TELEKINESIS",
+    "TRICK",
+]
+compatible_egg_groups = [
+    "Amorphous",
+]
 steps_to_hatch = 6630
 height = 0.6
 weight = 2.3
@@ -20,89 +110,23 @@ pokedex_entry = "This Pokémon roams about deep in the night seeking such negati
 battler_player_y = 29
 battler_enemy_y = 23
 battler_altitude = 17
-form_names = []
-dex_number = 353
-internal_name = "SHUPPET"
+raw_egg_moves = [
+    "ASTONISH",
+    "CONFUSERAY",
+    "DESTINYBOND",
+    "DISABLE",
+    "FORESIGHT",
+    "GUNKSHOT",
+    "IMPRISON",
+    "OMINOUSWIND",
+    "PHANTOMFORCE",
+    "PURSUIT",
+    "SHADOWSNEAK",
+]
 habitat = "Urban"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "KNOCKOFF"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SCREECH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SPITE"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "NIGHTSHADE"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "DISABLE"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "SHADOWSNEAK"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "WILLOWISP"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "FEINTATTACK"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "OMINOUSWIND"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "CURSE"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "HEX"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "EMBARGO"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "SUCKERPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "SNATCH"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "TRICK"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "GUNKSHOT"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "GRUDGE"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "DESTINYBOND"
-
-[[evolutions]]
-into_name = "BANETTE"
-condition = "Level"
-parameter = "32"
-
-
+evolutions = [
+    { into_name = "BANETTE", condition = "Level", parameter = "32" },
+]
 
 [base_stats]
 hp = 44

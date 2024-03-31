@@ -1,3 +1,4 @@
+dex_number = 55
 name = "Golduck"
 primary_type = "WATER"
 secondary_type = "PSYCHIC"
@@ -6,11 +7,127 @@ growth_rate = "Medium"
 exp_yield = 175
 catch_rate = 75
 caught_happiness = 70
-raw_abilities = ["TOUGHCLAWS", "CLOUDNINE", "SWIFTSWIM"]
-raw_egg_moves = []
-raw_tms = ["PSYSHOCK", "SURF", "CALMMIND", "STRENGTH", "WATERFALL", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "FLASH", "ROCKCLIMB", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "PSYCHIC", "BRICKBREAK", "DOUBLETEAM", "AERIALACE", "FACADE", "REST", "ATTRACT", "LOWSWEEP", "ROUND", "FOCUSBLAST", "SCALD", "FLING", "SHADOWCLAW", "GIGAIMPACT", "PSYCHUP", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "PAYDAY", "DIG", "SCREECH", "WHIRLPOOL", "BRINE", "BODYSLAM", "HYDROPUMP", "AMNESIA", "ENDURE", "ENCORE", "FUTURESIGHT", "MUDDYWATER", "POWERGEM", "TRAILBLAZE", "CHILLINGWATER", "SWIFT"]
-raw_tutor_moves = ["AQUATAIL", "FOCUSPUNCH", "FURYCUTTER", "HEADBUTT", "ICEPUNCH", "ICYWIND", "IRONTAIL", "LASERFOCUS", "LIQUIDATION", "LOWKICK", "MUDSLAP", "ROLEPLAY", "SIGNALBEAM", "SNORE", "TELEKINESIS", "WATERPULSE", "WONDERROOM", "WORRYSEED", "ZENHEADBUTT", "FLIPTURN", "MIMIC", "KNOCKOFF"]
-compatible_egg_groups = ["Water1", "Field"]
+raw_abilities = [
+    "TOUGHCLAWS",
+    "CLOUDNINE",
+    "SWIFTSWIM",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "AQUAJET" },
+    { at_level = 1, name = "FOCUSPUNCH" },
+    { at_level = 1, name = "ROLEPLAY" },
+    { at_level = 1, name = "WATERGUN" },
+    { at_level = 6, name = "DISABLE" },
+    { at_level = 8, name = "CLEARSMOG" },
+    { at_level = 10, name = "WATERPULSE" },
+    { at_level = 12, name = "YAWN" },
+    { at_level = 14, name = "PSYBEAM" },
+    { at_level = 16, name = "MUDBOMB" },
+    { at_level = 18, name = "ZENHEADBUTT" },
+    { at_level = 20, name = "BUBBLEBEAM" },
+    { at_level = 22, name = "SOAK" },
+    { at_level = 24, name = "HYPNOSIS" },
+    { at_level = 25, name = "REFRESH" },
+    { at_level = 27, name = "SIMPLEBEAM" },
+    { at_level = 29, name = "SYNCHRONOISE" },
+    { at_level = 31, name = "AQUATAIL" },
+    { at_level = 34, name = "FUTURESIGHT" },
+    { at_level = 37, name = "WORRYSEED" },
+    { at_level = 40, name = "AMNESIA" },
+    { at_level = 44, name = "CROSSCHOP" },
+    { at_level = 48, name = "WAVECRASH" },
+    { at_level = 52, name = "WONDERROOM" },
+    { at_level = 56, name = "HYDROPUMP" },
+]
+raw_tms = [
+    "PSYSHOCK",
+    "SURF",
+    "CALMMIND",
+    "STRENGTH",
+    "WATERFALL",
+    "TOXIC",
+    "DIVE",
+    "HAIL",
+    "ROCKSMASH",
+    "FLASH",
+    "ROCKCLIMB",
+    "HIDDENPOWER",
+    "ICEBEAM",
+    "BLIZZARD",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "RETURN",
+    "PSYCHIC",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "LOWSWEEP",
+    "ROUND",
+    "FOCUSBLAST",
+    "SCALD",
+    "FLING",
+    "SHADOWCLAW",
+    "GIGAIMPACT",
+    "PSYCHUP",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "PAYDAY",
+    "DIG",
+    "SCREECH",
+    "WHIRLPOOL",
+    "BRINE",
+    "BODYSLAM",
+    "HYDROPUMP",
+    "AMNESIA",
+    "ENDURE",
+    "ENCORE",
+    "FUTURESIGHT",
+    "MUDDYWATER",
+    "POWERGEM",
+    "TRAILBLAZE",
+    "CHILLINGWATER",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AQUATAIL",
+    "FLIPTURN",
+    "FOCUSPUNCH",
+    "FURYCUTTER",
+    "HEADBUTT",
+    "ICEPUNCH",
+    "ICYWIND",
+    "IRONTAIL",
+    "KNOCKOFF",
+    "LASERFOCUS",
+    "LIQUIDATION",
+    "LOWKICK",
+    "MIMIC",
+    "MUDSLAP",
+    "ROLEPLAY",
+    "SIGNALBEAM",
+    "SNORE",
+    "TELEKINESIS",
+    "WATERPULSE",
+    "WONDERROOM",
+    "WORRYSEED",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Water1",
+    "Field",
+]
 steps_to_hatch = 5355
 height = 1.7
 weight = 76.6
@@ -20,111 +137,7 @@ pokedex_entry = "A Golduck is an adept swimmer. It sometimes joins competitive s
 battler_player_y = 20
 battler_enemy_y = 13
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 55
-internal_name = "GOLDUCK"
 habitat = "WatersEdge"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "AQUAJET"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FOCUSPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ROLEPLAY"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WATERGUN"
-
-[[raw_level_up_moves]]
-at_level = 6
-name = "DISABLE"
-
-[[raw_level_up_moves]]
-at_level = 8
-name = "CLEARSMOG"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "WATERPULSE"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "YAWN"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "PSYBEAM"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "MUDBOMB"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "ZENHEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "BUBBLEBEAM"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "SOAK"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "HYPNOSIS"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "REFRESH"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "SIMPLEBEAM"
-
-[[raw_level_up_moves]]
-at_level = 29
-name = "SYNCHRONOISE"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "AQUATAIL"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "FUTURESIGHT"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "WORRYSEED"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "AMNESIA"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "CROSSCHOP"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "WAVECRASH"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "WONDERROOM"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "HYDROPUMP"
 
 [base_stats]
 hp = 80
@@ -141,5 +154,3 @@ def_ = 0
 spa = 2
 spd = 0
 spe = 0
-
-[wild_items]

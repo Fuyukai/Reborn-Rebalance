@@ -1,3 +1,4 @@
+dex_number = 381
 name = "Latios"
 primary_type = "DRAGON"
 secondary_type = "PSYCHIC"
@@ -6,11 +7,132 @@ growth_rate = "Slow"
 exp_yield = 270
 catch_rate = 3
 caught_happiness = 90
-raw_abilities = ["LEVITATE"]
-raw_egg_moves = []
-raw_tms = ["CUT", "DRAGONCLAW", "FLY", "PSYSHOCK", "SURF", "CALMMIND", "ROAR", "WATERFALL", "TOXIC", "DIVE", "FLASH", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "SANDSTORM", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "STEELWING", "ENERGYBALL", "CHARGEBEAM", "SHADOWCLAW", "GIGAIMPACT", "THUNDERWAVE", "PSYCHUP", "BULLDOZE", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "WHIRLPOOL", "PSYCHOCUT", "AIRSLASH", "MYSTICALFIRE", "BREAKINGSWIPE", "BODYSLAM", "AGILITY", "TRIATTACK", "ENDURE", "BATONPASS", "FUTURESIGHT", "DRAGONDANCE", "AURASPHERE", "STOREDPOWER", "RETALIATE", "SWIFT", "HURRICANE"]
-raw_tutor_moves = ["ALLYSWITCH", "DEFOG", "DRACOMETEOR", "DRAGONPULSE", "FURYCUTTER", "HELPINGHAND", "ICYWIND", "LASERFOCUS", "LASTRESORT", "MAGICCOAT", "MUDSLAP", "OUTRAGE", "SHOCKWAVE", "SNORE", "TAILWIND", "TELEKINESIS", "TRICK", "TWISTER", "WATERPULSE", "WONDERROOM", "ZENHEADBUTT", "DUALWINGBEAT", "SCALESHOT", "MIMIC"]
-compatible_egg_groups = ["Undiscovered"]
+raw_abilities = [
+    "LEVITATE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "DRAGONDANCE" },
+    { at_level = 1, name = "STOREDPOWER" },
+    { at_level = 1, name = "SIMPLEBEAM" },
+    { at_level = 1, name = "TAILWIND" },
+    { at_level = 1, name = "DUALWINGBEAT" },
+    { at_level = 1, name = "TRICK" },
+    { at_level = 1, name = "MEMENTO" },
+    { at_level = 1, name = "HEALBLOCK" },
+    { at_level = 1, name = "PSYWAVE" },
+    { at_level = 1, name = "SAFEGUARD" },
+    { at_level = 10, name = "DRAGONDANCE" },
+    { at_level = 14, name = "REFRESH" },
+    { at_level = 18, name = "BREAKINGSWIPE" },
+    { at_level = 22, name = "MAGICCOAT" },
+    { at_level = 26, name = "PSYCHOSHIFT" },
+    { at_level = 30, name = "HELPINGHAND" },
+    { at_level = 34, name = "ZENHEADBUTT" },
+    { at_level = 38, name = "RECOVER" },
+    { at_level = 42, name = "ESPERWING" },
+    { at_level = 46, name = "DRAGONPULSE" },
+    { at_level = 50, name = "AURASPHERE" },
+]
+raw_tms = [
+    "CUT",
+    "DRAGONCLAW",
+    "FLY",
+    "PSYSHOCK",
+    "SURF",
+    "CALMMIND",
+    "ROAR",
+    "WATERFALL",
+    "TOXIC",
+    "DIVE",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "ICEBEAM",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "ROOST",
+    "ROOST",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "THUNDERBOLT",
+    "THUNDER",
+    "EARTHQUAKE",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "REFLECT",
+    "SANDSTORM",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "STEELWING",
+    "ENERGYBALL",
+    "CHARGEBEAM",
+    "SHADOWCLAW",
+    "GIGAIMPACT",
+    "THUNDERWAVE",
+    "PSYCHUP",
+    "BULLDOZE",
+    "DREAMEATER",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "WHIRLPOOL",
+    "PSYCHOCUT",
+    "AIRSLASH",
+    "MYSTICALFIRE",
+    "BREAKINGSWIPE",
+    "BODYSLAM",
+    "HURRICANE",
+    "AGILITY",
+    "TRIATTACK",
+    "ENDURE",
+    "BATONPASS",
+    "FUTURESIGHT",
+    "DRAGONDANCE",
+    "AURASPHERE",
+    "STOREDPOWER",
+    "RETALIATE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "ALLYSWITCH",
+    "DEFOG",
+    "DRACOMETEOR",
+    "DRAGONPULSE",
+    "DUALWINGBEAT",
+    "FURYCUTTER",
+    "HELPINGHAND",
+    "ICYWIND",
+    "LASERFOCUS",
+    "LASTRESORT",
+    "MAGICCOAT",
+    "MIMIC",
+    "MUDSLAP",
+    "OUTRAGE",
+    "SCALESHOT",
+    "SHOCKWAVE",
+    "SNORE",
+    "TAILWIND",
+    "TELEKINESIS",
+    "TRICK",
+    "TWISTER",
+    "WATERPULSE",
+    "WONDERROOM",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Undiscovered",
+]
 steps_to_hatch = 30855
 height = 2.0
 weight = 60.0
@@ -20,95 +142,7 @@ pokedex_entry = "Even in hiding, it can detect the locations of others and sense
 battler_player_y = 12
 battler_enemy_y = 7
 battler_altitude = 10
-evolutions = []
-form_names = []
-dex_number = 381
-internal_name = "LATIOS"
 habitat = "WatersEdge"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "DRAGONDANCE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "STOREDPOWER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SIMPLEBEAM"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TAILWIND"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "DUALWINGBEAT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TRICK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "MEMENTO"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HEALBLOCK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "PSYWAVE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SAFEGUARD"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "DRAGONDANCE"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "REFRESH"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "BREAKINGSWIPE"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "MAGICCOAT"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "PSYCHOSHIFT"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "HELPINGHAND"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "ZENHEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "RECOVER"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "ESPERWING"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "DRAGONPULSE"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "AURASPHERE"
 
 [base_stats]
 hp = 80
@@ -125,5 +159,3 @@ def_ = 0
 spa = 3
 spd = 0
 spe = 0
-
-[wild_items]

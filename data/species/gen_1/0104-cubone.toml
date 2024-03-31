@@ -1,3 +1,4 @@
+dex_number = 104
 name = "Cubone"
 primary_type = "GROUND"
 secondary_type = "GROUND"
@@ -6,11 +7,106 @@ growth_rate = "Medium"
 exp_yield = 64
 catch_rate = 190
 caught_happiness = 70
-raw_abilities = ["ROCKHEAD", "LIGHTNINGROD", "BATTLEARMOR"]
-raw_egg_moves = ["ANCIENTPOWER", "BELLYDRUM", "CHIPAWAY", "CURSE", "DETECT", "DOUBLEKICK", "ENDURE", "IRONHEAD", "PERISHSONG", "SCREECH", "SKULLBASH"]
-raw_tms = ["STRENGTH", "TOXIC", "ROCKSMASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "PROTECT", "FRUSTRATION", "SMACKDOWN", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "FLAMETHROWER", "SANDSTORM", "FIREBLAST", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "FALSESWIPE", "FLING", "BRUTALSWING", "SWORDSDANCE", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "SCREECH", "BODYSLAM", "FOCUSENERGY", "ENDURE", "RETALIATE"]
-raw_tutor_moves = ["EARTHPOWER", "ENDEAVOR", "FIREPUNCH", "FOCUSPUNCH", "FURYCUTTER", "HEADBUTT", "ICYWIND", "IRONDEFENSE", "IRONHEAD", "IRONTAIL", "KNOCKOFF", "LOWKICK", "MUDSLAP", "SNORE", "STEALTHROCK", "THUNDERPUNCH", "UPROAR", "SCORCHINGSANDS", "MIMIC"]
-compatible_egg_groups = ["Monster"]
+raw_abilities = [
+    "ROCKHEAD",
+    "LIGHTNINGROD",
+    "BATTLEARMOR",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "RAGE" },
+    { at_level = 1, name = "LEER" },
+    { at_level = 1, name = "SCREECH" },
+    { at_level = 4, name = "HEADBUTT" },
+    { at_level = 7, name = "FOCUSENERGY" },
+    { at_level = 10, name = "BONECLUB" },
+    { at_level = 12, name = "ROCKTOMB" },
+    { at_level = 15, name = "FLING" },
+    { at_level = 17, name = "SCORCHINGSANDS" },
+    { at_level = 19, name = "BONEMERANG" },
+    { at_level = 21, name = "RETALIATE" },
+    { at_level = 24, name = "ENDEAVOR" },
+    { at_level = 27, name = "BONERUSH" },
+    { at_level = 30, name = "CURSE" },
+    { at_level = 33, name = "CHIPAWAY" },
+    { at_level = 36, name = "ROCKSLIDE" },
+    { at_level = 40, name = "BODYSLAM" },
+    { at_level = 44, name = "RAGINGFURY" },
+    { at_level = 48, name = "DOUBLEEDGE" },
+    { at_level = 52, name = "BELLYDRUM" },
+    { at_level = 56, name = "PERISHSONG" },
+]
+raw_tms = [
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "ROCKCLIMB",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "ICEBEAM",
+    "BLIZZARD",
+    "PROTECT",
+    "FRUSTRATION",
+    "SMACKDOWN",
+    "EARTHQUAKE",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "FLAMETHROWER",
+    "SANDSTORM",
+    "FIREBLAST",
+    "ROCKTOMB",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "ECHOEDVOICE",
+    "FALSESWIPE",
+    "FLING",
+    "BRUTALSWING",
+    "SWORDSDANCE",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "DIG",
+    "SCREECH",
+    "BODYSLAM",
+    "FOCUSENERGY",
+    "ENDURE",
+    "RETALIATE",
+]
+raw_tutor_moves = [
+    "EARTHPOWER",
+    "ENDEAVOR",
+    "FIREPUNCH",
+    "FOCUSPUNCH",
+    "FURYCUTTER",
+    "HEADBUTT",
+    "ICYWIND",
+    "IRONDEFENSE",
+    "IRONHEAD",
+    "IRONTAIL",
+    "KNOCKOFF",
+    "LOWKICK",
+    "MIMIC",
+    "MUDSLAP",
+    "SCORCHINGSANDS",
+    "SNORE",
+    "STEALTHROCK",
+    "THUNDERPUNCH",
+    "UPROAR",
+]
+compatible_egg_groups = [
+    "Monster",
+]
 steps_to_hatch = 5355
 height = 0.4
 weight = 6.5
@@ -20,103 +116,23 @@ pokedex_entry = "It pines for the mother it will never see again. Seeing a liken
 battler_player_y = 29
 battler_enemy_y = 23
 battler_altitude = 0
-form_names = []
-dex_number = 104
-internal_name = "CUBONE"
+raw_egg_moves = [
+    "ANCIENTPOWER",
+    "BELLYDRUM",
+    "CHIPAWAY",
+    "CURSE",
+    "DETECT",
+    "DOUBLEKICK",
+    "ENDURE",
+    "IRONHEAD",
+    "PERISHSONG",
+    "SCREECH",
+    "SKULLBASH",
+]
 habitat = "Mountain"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "RAGE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SCREECH"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "HEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "FOCUSENERGY"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "BONECLUB"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "ROCKTOMB"
-
-[[raw_level_up_moves]]
-at_level = 15
-name = "FLING"
-
-[[raw_level_up_moves]]
-at_level = 17
-name = "SCORCHINGSANDS"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "BONEMERANG"
-
-[[raw_level_up_moves]]
-at_level = 21
-name = "RETALIATE"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "ENDEAVOR"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "BONERUSH"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "CURSE"
-
-[[raw_level_up_moves]]
-at_level = 33
-name = "CHIPAWAY"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "ROCKSLIDE"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "RAGINGFURY"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "DOUBLEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "BELLYDRUM"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "PERISHSONG"
-
-[[evolutions]]
-into_name = "MAROWAK"
-condition = "Level"
-parameter = "27"
-
-
-
-
+evolutions = [
+    { into_name = "MAROWAK", condition = "Level", parameter = "27" },
+]
 
 [base_stats]
 hp = 50
@@ -133,4 +149,3 @@ def_ = 1
 spa = 0
 spd = 0
 spe = 0
-

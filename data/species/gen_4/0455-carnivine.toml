@@ -1,3 +1,4 @@
+dex_number = 455
 name = "Carnivine"
 primary_type = "GRASS"
 secondary_type = "GRASS"
@@ -6,11 +7,89 @@ growth_rate = "Slow"
 exp_yield = 159
 catch_rate = 200
 caught_happiness = 70
-raw_abilities = ["LEVITATE"]
-raw_egg_moves = ["ACIDSPRAY", "GIGADRAIN", "GRASSWHISTLE", "LEECHSEED", "MAGICALLEAF", "RAGEPOWDER", "RAZORLEAF", "SLAM", "SLEEPPOWDER", "STUNSPORE", "SYNTHESIS", "WORRYSEED"]
-raw_tms = ["CUT", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "SLUDGEBOMB", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ENERGYBALL", "FLING", "PAYBACK", "GIGAIMPACT", "SWORDSDANCE", "INFESTATION", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "MAGICALLEAF", "BULLETSEED", "CRUNCH", "POWERWHIP", "ENDURE", "HEAVYSLAM"]
-raw_tutor_moves = ["BIND", "BUGBITE", "DEFOG", "FURYCUTTER", "GASTROACID", "GIGADRAIN", "KNOCKOFF", "MUDSLAP", "SEEDBOMB", "SNORE", "SYNTHESIS", "THROATCHOP", "WORRYSEED", "MIMIC"]
-compatible_egg_groups = ["Grass"]
+raw_abilities = [
+    "LEVITATE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "BIND" },
+    { at_level = 1, name = "GROWTH" },
+    { at_level = 1, name = "BITE" },
+    { at_level = 6, name = "VINEWHIP" },
+    { at_level = 9, name = "BUGBITE" },
+    { at_level = 14, name = "RAZORLEAF" },
+    { at_level = 18, name = "INGRAIN" },
+    { at_level = 21, name = "FEINTATTACK" },
+    { at_level = 24, name = "SLEEPPOWDER" },
+    { at_level = 24, name = "STUNSPORE" },
+    { at_level = 27, name = "POISONFANG" },
+    { at_level = 30, name = "SEEDBOMB" },
+    { at_level = 33, name = "STOCKPILE" },
+    { at_level = 33, name = "SPITUP" },
+    { at_level = 33, name = "SWALLOW" },
+    { at_level = 36, name = "CRUNCH" },
+    { at_level = 39, name = "ENERGYBALL" },
+    { at_level = 42, name = "WRINGOUT" },
+    { at_level = 45, name = "LEAFTORNADO" },
+    { at_level = 49, name = "LEECHLIFE" },
+    { at_level = 54, name = "POWERWHIP" },
+]
+raw_tms = [
+    "CUT",
+    "TOXIC",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "PROTECT",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "DOUBLETEAM",
+    "SLUDGEBOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "ENERGYBALL",
+    "FLING",
+    "PAYBACK",
+    "GIGAIMPACT",
+    "SWORDSDANCE",
+    "INFESTATION",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "NATUREPOWER",
+    "CONFIDE",
+    "MAGICALLEAF",
+    "BULLETSEED",
+    "CRUNCH",
+    "POWERWHIP",
+    "ENDURE",
+    "HEAVYSLAM",
+]
+raw_tutor_moves = [
+    "BIND",
+    "BUGBITE",
+    "DEFOG",
+    "FURYCUTTER",
+    "GASTROACID",
+    "GIGADRAIN",
+    "KNOCKOFF",
+    "MIMIC",
+    "MUDSLAP",
+    "SEEDBOMB",
+    "SNORE",
+    "SYNTHESIS",
+    "THROATCHOP",
+    "WORRYSEED",
+]
+compatible_egg_groups = [
+    "Grass",
+]
 steps_to_hatch = 6630
 height = 1.4
 weight = 27.0
@@ -20,94 +99,20 @@ pokedex_entry = "It attracts prey with its sweet-smelling saliva, then chomps do
 battler_player_y = 19
 battler_enemy_y = 13
 battler_altitude = 10
-evolutions = []
-form_names = []
-dex_number = 455
-internal_name = "CARNIVINE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BIND"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWTH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 6
-name = "VINEWHIP"
-
-[[raw_level_up_moves]]
-at_level = 9
-name = "BUGBITE"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "RAZORLEAF"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "INGRAIN"
-
-[[raw_level_up_moves]]
-at_level = 21
-name = "FEINTATTACK"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "SLEEPPOWDER"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "STUNSPORE"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "POISONFANG"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "SEEDBOMB"
-
-[[raw_level_up_moves]]
-at_level = 33
-name = "STOCKPILE"
-
-[[raw_level_up_moves]]
-at_level = 33
-name = "SPITUP"
-
-[[raw_level_up_moves]]
-at_level = 33
-name = "SWALLOW"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 39
-name = "ENERGYBALL"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "WRINGOUT"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "LEAFTORNADO"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "LEECHLIFE"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "POWERWHIP"
+raw_egg_moves = [
+    "ACIDSPRAY",
+    "GIGADRAIN",
+    "GRASSWHISTLE",
+    "LEECHSEED",
+    "MAGICALLEAF",
+    "RAGEPOWDER",
+    "RAZORLEAF",
+    "SLAM",
+    "SLEEPPOWDER",
+    "STUNSPORE",
+    "SYNTHESIS",
+    "WORRYSEED",
+]
 
 [base_stats]
 hp = 74
@@ -124,5 +129,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

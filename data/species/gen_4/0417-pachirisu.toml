@@ -1,3 +1,4 @@
+dex_number = 417
 name = "Pachirisu"
 primary_type = "ELECTRIC"
 secondary_type = "ELECTRIC"
@@ -6,11 +7,93 @@ growth_rate = "Medium"
 exp_yield = 142
 catch_rate = 200
 caught_happiness = 100
-raw_abilities = ["RUNAWAY", "PICKUP"]
-raw_egg_moves = ["BABYDOLLEYES", "BESTOW", "BITE", "CHARGE", "COVET", "DEFENSECURL", "FAKETEARS", "FLAIL", "FLATTER", "FOLLOWME", "IONDELUGE", "IRONTAIL", "ROLLOUT", "TAILWHIP"]
-raw_tms = ["CUT", "TOXIC", "FLASH", "HIDDENPOWER", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "FLING", "CHARGEBEAM", "VOLTSWITCH", "THUNDERWAVE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "CHARM", "FAKETEARS", "ENDURE", "ELECTROBALL", "TRAILBLAZE", "SWIFT"]
-raw_tutor_moves = ["COVET", "ELECTROWEB", "GUNKSHOT", "HEADBUTT", "HELPINGHAND", "IRONTAIL", "LASERFOCUS", "LASTRESORT", "MAGNETRISE", "MUDSLAP", "ROLLOUT", "SEEDBOMB", "SHOCKWAVE", "SNORE", "SUPERFANG", "THUNDERPUNCH", "UPROAR", "MIMIC"]
-compatible_egg_groups = ["Field", "Fairy"]
+raw_abilities = [
+    "RUNAWAY",
+    "PICKUP",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "CHARGE" },
+    { at_level = 1, name = "BITE" },
+    { at_level = 1, name = "GROWL" },
+    { at_level = 4, name = "TAILWHIP" },
+    { at_level = 7, name = "SPARK" },
+    { at_level = 10, name = "DEFENSECURL" },
+    { at_level = 13, name = "COVET" },
+    { at_level = 16, name = "FAKETEARS" },
+    { at_level = 19, name = "ROLLOUT" },
+    { at_level = 22, name = "SWIFT" },
+    { at_level = 25, name = "ELECTROBALL" },
+    { at_level = 28, name = "NUZZLE" },
+    { at_level = 32, name = "FOLLOWME" },
+    { at_level = 36, name = "UPROAR" },
+    { at_level = 40, name = "CHARM" },
+    { at_level = 44, name = "HYPERFANG" },
+    { at_level = 48, name = "DISCHARGE" },
+    { at_level = 52, name = "HELPINGHAND" },
+    { at_level = 56, name = "MAGNETRISE" },
+    { at_level = 60, name = "LASTRESORT" },
+]
+raw_tms = [
+    "CUT",
+    "TOXIC",
+    "FLASH",
+    "HIDDENPOWER",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "THUNDERBOLT",
+    "THUNDER",
+    "RETURN",
+    "DOUBLETEAM",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ECHOEDVOICE",
+    "FLING",
+    "CHARGEBEAM",
+    "VOLTSWITCH",
+    "THUNDERWAVE",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "DIG",
+    "CHARM",
+    "FAKETEARS",
+    "ENDURE",
+    "ELECTROBALL",
+    "TRAILBLAZE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "COVET",
+    "ELECTROWEB",
+    "GUNKSHOT",
+    "HEADBUTT",
+    "HELPINGHAND",
+    "IRONTAIL",
+    "LASERFOCUS",
+    "LASTRESORT",
+    "MAGNETRISE",
+    "MIMIC",
+    "MUDSLAP",
+    "ROLLOUT",
+    "SEEDBOMB",
+    "SHOCKWAVE",
+    "SNORE",
+    "SUPERFANG",
+    "THUNDERPUNCH",
+    "UPROAR",
+]
+compatible_egg_groups = [
+    "Field",
+    "Fairy",
+]
 steps_to_hatch = 2805
 height = 0.4
 weight = 3.9
@@ -20,91 +103,23 @@ pokedex_entry = "It makes fur balls that crackle with static electricity. It sto
 battler_player_y = 28
 battler_enemy_y = 17
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 417
-internal_name = "PACHIRISU"
 raw_hidden_ability = "VOLTABSORB"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "CHARGE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWL"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "TAILWHIP"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "SPARK"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "DEFENSECURL"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "COVET"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "FAKETEARS"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "ROLLOUT"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "SWIFT"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "ELECTROBALL"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "NUZZLE"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "FOLLOWME"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "UPROAR"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "CHARM"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "HYPERFANG"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "DISCHARGE"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "HELPINGHAND"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "MAGNETRISE"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "LASTRESORT"
+raw_egg_moves = [
+    "BABYDOLLEYES",
+    "BESTOW",
+    "BITE",
+    "CHARGE",
+    "COVET",
+    "DEFENSECURL",
+    "FAKETEARS",
+    "FLAIL",
+    "FLATTER",
+    "FOLLOWME",
+    "IONDELUGE",
+    "IRONTAIL",
+    "ROLLOUT",
+    "TAILWHIP",
+]
 
 [base_stats]
 hp = 60
@@ -121,5 +136,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 1
-
-[wild_items]

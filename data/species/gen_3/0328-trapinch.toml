@@ -1,3 +1,4 @@
+dex_number = 328
 name = "Trapinch"
 primary_type = "BUG"
 secondary_type = "GROUND"
@@ -6,11 +7,87 @@ growth_rate = "Slow"
 exp_yield = 58
 catch_rate = 255
 caught_happiness = 70
-raw_abilities = ["EARTHEATER", "ARENATRAP"]
-raw_egg_moves = ["BUGBITE", "EARTHPOWER", "ENDURE", "FLAIL", "FOCUSENERGY", "FURYCUTTER", "GUST", "MUDSHOT", "QUICKATTACK", "SIGNALBEAM"]
-raw_tms = ["STRENGTH", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "FRUSTRATION", "SOLARBEAM", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "SANDSTORM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "STRUGGLEBUG", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "SANDTOMB", "MUDSHOT", "CRUNCH", "BODYSLAM", "FOCUSENERGY", "ENDURE", "BUGBUZZ"]
-raw_tutor_moves = ["BUGBITE", "EARTHPOWER", "FURYCUTTER", "GIGADRAIN", "HEADBUTT", "LASERFOCUS", "MUDSLAP", "SIGNALBEAM", "SNORE", "SUPERPOWER", "SCORCHINGSANDS", "MIMIC"]
-compatible_egg_groups = ["Bug"]
+raw_abilities = [
+    "EARTHEATER",
+    "ARENATRAP",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "ASTONISH" },
+    { at_level = 1, name = "SANDATTACK" },
+    { at_level = 1, name = "BITE" },
+    { at_level = 4, name = "QUICKATTACK" },
+    { at_level = 7, name = "MUDSLAP" },
+    { at_level = 10, name = "FLAIL" },
+    { at_level = 13, name = "MUDSHOT" },
+    { at_level = 16, name = "BULLDOZE" },
+    { at_level = 19, name = "BUGBITE" },
+    { at_level = 22, name = "ROCKTOMB" },
+    { at_level = 25, name = "CRUNCH" },
+    { at_level = 28, name = "FURYCUTTER" },
+    { at_level = 30, name = "GUST" },
+    { at_level = 33, name = "SIGNALBEAM" },
+    { at_level = 36, name = "DIG" },
+    { at_level = 39, name = "HIGHHORSEPOWER" },
+    { at_level = 42, name = "SCORCHINGSANDS" },
+    { at_level = 45, name = "SANDSTORM" },
+    { at_level = 48, name = "BODYSLAM" },
+    { at_level = 51, name = "HYPERBEAM" },
+    { at_level = 54, name = "FISSURE" },
+    { at_level = 57, name = "DOUBLEEDGE" },
+]
+raw_tms = [
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "PROTECT",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "EARTHQUAKE",
+    "RETURN",
+    "DOUBLETEAM",
+    "SANDSTORM",
+    "ROCKTOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "STRUGGLEBUG",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "DIG",
+    "SANDTOMB",
+    "MUDSHOT",
+    "CRUNCH",
+    "BODYSLAM",
+    "FOCUSENERGY",
+    "ENDURE",
+    "BUGBUZZ",
+]
+raw_tutor_moves = [
+    "BUGBITE",
+    "EARTHPOWER",
+    "FURYCUTTER",
+    "GIGADRAIN",
+    "HEADBUTT",
+    "LASERFOCUS",
+    "MIMIC",
+    "MUDSLAP",
+    "SCORCHINGSANDS",
+    "SIGNALBEAM",
+    "SNORE",
+    "SUPERPOWER",
+]
+compatible_egg_groups = [
+    "Bug",
+]
 steps_to_hatch = 5355
 height = 0.7
 weight = 15.0
@@ -20,106 +97,23 @@ pokedex_entry = "Its big jaws crunch through boulders. Because its head is so bi
 battler_player_y = 25
 battler_enemy_y = 25
 battler_altitude = 0
-form_names = []
-dex_number = 328
-internal_name = "TRAPINCH"
 raw_hidden_ability = "SHEERFORCE"
+raw_egg_moves = [
+    "BUGBITE",
+    "EARTHPOWER",
+    "ENDURE",
+    "FLAIL",
+    "FOCUSENERGY",
+    "FURYCUTTER",
+    "GUST",
+    "MUDSHOT",
+    "QUICKATTACK",
+    "SIGNALBEAM",
+]
 habitat = "RoughTerrain"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ASTONISH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SANDATTACK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "QUICKATTACK"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "MUDSLAP"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "FLAIL"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "MUDSHOT"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "BULLDOZE"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "BUGBITE"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "ROCKTOMB"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "FURYCUTTER"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "GUST"
-
-[[raw_level_up_moves]]
-at_level = 33
-name = "SIGNALBEAM"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "DIG"
-
-[[raw_level_up_moves]]
-at_level = 39
-name = "HIGHHORSEPOWER"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "SCORCHINGSANDS"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "SANDSTORM"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 51
-name = "HYPERBEAM"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "FISSURE"
-
-[[raw_level_up_moves]]
-at_level = 57
-name = "DOUBLEEDGE"
-
-[[evolutions]]
-into_name = "VIBRAVA"
-condition = "Level"
-parameter = "30"
-
-
+evolutions = [
+    { into_name = "VIBRAVA", condition = "Level", parameter = "30" },
+]
 
 [base_stats]
 hp = 55

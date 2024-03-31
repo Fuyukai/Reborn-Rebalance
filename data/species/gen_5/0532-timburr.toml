@@ -1,3 +1,4 @@
+dex_number = 532
 name = "Timburr"
 primary_type = "FIGHTING"
 secondary_type = "FIGHTING"
@@ -6,11 +7,99 @@ growth_rate = "Parabolic"
 exp_yield = 61
 catch_rate = 180
 caught_happiness = 70
-raw_abilities = ["SHEERFORCE", "IRONFIST"]
-raw_egg_moves = ["COMETPUNCH", "COUNTER", "DETECT", "DRAINPUNCH", "ENDURE", "FORCEPALM", "FORESIGHT", "MACHPUNCH", "POWERUPPUNCH", "REVERSAL", "SMELLINGSALTS", "WIDEGUARD"]
-raw_tms = ["WORKUP", "STRENGTH", "TOXIC", "ROCKSMASH", "BULKUP", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "PROTECT", "RAINDANCE", "FRUSTRATION", "SMACKDOWN", "RETURN", "BRICKBREAK", "DOUBLETEAM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "LOWSWEEP", "ROUND", "FOCUSBLAST", "FLING", "BRUTALSWING", "PAYBACK", "STONEEDGE", "ROCKSLIDE", "POISONJAB", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "SCARYFACE", "REVENGE", "FOCUSENERGY", "REVERSAL", "ENDURE", "PLAYROUGH", "RETALIATE"]
-raw_tutor_moves = ["BLOCK", "DEFOG", "DRAINPUNCH", "FIREPUNCH", "FOCUSPUNCH", "HELPINGHAND", "ICEPUNCH", "KNOCKOFF", "LOWKICK", "SNORE", "SUPERPOWER", "THUNDERPUNCH", "COACHING", "MIMIC"]
-compatible_egg_groups = ["Humanlike"]
+raw_abilities = [
+    "SHEERFORCE",
+    "IRONFIST",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "FOCUSENERGY" },
+    { at_level = 1, name = "LEER" },
+    { at_level = 1, name = "POUND" },
+    { at_level = 4, name = "BIDE" },
+    { at_level = 7, name = "FORESIGHT" },
+    { at_level = 10, name = "ROCKTHROW" },
+    { at_level = 13, name = "WAKEUPSLAP" },
+    { at_level = 16, name = "CHIPAWAY" },
+    { at_level = 19, name = "FORCEPALM" },
+    { at_level = 22, name = "COUNTER" },
+    { at_level = 25, name = "PAYBACK" },
+    { at_level = 28, name = "HELPINGHAND" },
+    { at_level = 31, name = "FLING" },
+    { at_level = 34, name = "ROCKBLAST" },
+    { at_level = 37, name = "REVENGE" },
+    { at_level = 40, name = "DYNAMICPUNCH" },
+    { at_level = 44, name = "FOCUSPUNCH" },
+    { at_level = 48, name = "HAMMERARM" },
+    { at_level = 52, name = "DRAINPUNCH" },
+    { at_level = 56, name = "WIDEGUARD" },
+    { at_level = 60, name = "MACHPUNCH" },
+]
+raw_tms = [
+    "WORKUP",
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "BULKUP",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "SMACKDOWN",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "ROCKTOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "LOWSWEEP",
+    "ROUND",
+    "FOCUSBLAST",
+    "FLING",
+    "BRUTALSWING",
+    "PAYBACK",
+    "STONEEDGE",
+    "ROCKSLIDE",
+    "POISONJAB",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "DIG",
+    "SCARYFACE",
+    "REVENGE",
+    "FOCUSENERGY",
+    "REVERSAL",
+    "ENDURE",
+    "PLAYROUGH",
+    "RETALIATE",
+]
+raw_tutor_moves = [
+    "BLOCK",
+    "COACHING",
+    "DEFOG",
+    "DRAINPUNCH",
+    "FIREPUNCH",
+    "FOCUSPUNCH",
+    "HELPINGHAND",
+    "ICEPUNCH",
+    "KNOCKOFF",
+    "LOWKICK",
+    "MIMIC",
+    "SNORE",
+    "SUPERPOWER",
+    "THUNDERPUNCH",
+]
+compatible_egg_groups = [
+    "Humanlike",
+]
 steps_to_hatch = 5120
 height = 0.6
 weight = 12.5
@@ -20,100 +109,23 @@ pokedex_entry = "These Pokémon appear at building sites and help out with const
 battler_player_y = 30
 battler_enemy_y = 33
 battler_altitude = 0
-form_names = []
-dex_number = 532
-internal_name = "TIMBURR"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FOCUSENERGY"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "POUND"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "BIDE"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "FORESIGHT"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "ROCKTHROW"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "WAKEUPSLAP"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "CHIPAWAY"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "FORCEPALM"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "COUNTER"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "PAYBACK"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "HELPINGHAND"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "FLING"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "ROCKBLAST"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "REVENGE"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "DYNAMICPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "FOCUSPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "HAMMERARM"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "DRAINPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "WIDEGUARD"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "MACHPUNCH"
-
-[[evolutions]]
-into_name = "GURDURR"
-condition = "Level"
-parameter = "25"
-
-
+raw_egg_moves = [
+    "COMETPUNCH",
+    "COUNTER",
+    "DETECT",
+    "DRAINPUNCH",
+    "ENDURE",
+    "FORCEPALM",
+    "FORESIGHT",
+    "MACHPUNCH",
+    "POWERUPPUNCH",
+    "REVERSAL",
+    "SMELLINGSALTS",
+    "WIDEGUARD",
+]
+evolutions = [
+    { into_name = "GURDURR", condition = "Level", parameter = "25" },
+]
 
 [base_stats]
 hp = 75
@@ -130,5 +142,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

@@ -1,3 +1,4 @@
+dex_number = 261
 name = "Poochyena"
 primary_type = "DARK"
 secondary_type = "DARK"
@@ -6,11 +7,97 @@ growth_rate = "Medium"
 exp_yield = 56
 catch_rate = 255
 caught_happiness = 70
-raw_abilities = ["RUNAWAY", "QUICKFEET"]
-raw_egg_moves = ["ASTONISH", "COVET", "FIREFANG", "ICEFANG", "LEER", "MEFIRST", "PLAYROUGH", "POISONFANG", "SLEEPTALK", "SNATCH", "SUCKERPUNCH", "THUNDERFANG", "YAWN"]
-raw_tms = ["ROAR", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "SHADOWBALL", "DOUBLETEAM", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "EMBARGO", "PAYBACK", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "SNARL", "DARKPULSE", "CONFIDE", "DIG", "SCARYFACE", "BEATUP", "ASSURANCE", "THUNDERFANG", "ICEFANG", "FIREFANG", "PSYCHICFANGS", "CRUNCH", "BODYSLAM", "ENDURE", "NASTYPLOT", "PLAYROUGH", "RETALIATE"]
-raw_tutor_moves = ["COVET", "FOULPLAY", "HEADBUTT", "HYPERVOICE", "IRONTAIL", "MUDSLAP", "SNATCH", "SNORE", "SPITE", "SUCKERPUNCH", "SUPERFANG", "UPROAR", "MIMIC"]
-compatible_egg_groups = ["Field"]
+raw_abilities = [
+    "RUNAWAY",
+    "QUICKFEET",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 1, name = "ASTONISH" },
+    { at_level = 1, name = "LICK" },
+    { at_level = 1, name = "SANDATTACK" },
+    { at_level = 4, name = "HOWL" },
+    { at_level = 6, name = "BITE" },
+    { at_level = 8, name = "MUDSLAP" },
+    { at_level = 10, name = "SPITE" },
+    { at_level = 12, name = "HEADBUTT" },
+    { at_level = 14, name = "FIREFANG" },
+    { at_level = 14, name = "ICEFANG" },
+    { at_level = 14, name = "THUNDERFANG" },
+    { at_level = 16, name = "SCARYFACE" },
+    { at_level = 18, name = "ASSURANCE" },
+    { at_level = 21, name = "POISONFANG" },
+    { at_level = 24, name = "YAWN" },
+    { at_level = 27, name = "SUCKERPUNCH" },
+    { at_level = 30, name = "SUPERFANG" },
+    { at_level = 33, name = "LUNGE" },
+    { at_level = 36, name = "PSYCHICFANGS" },
+    { at_level = 39, name = "PLAYROUGH" },
+    { at_level = 42, name = "CRUNCH" },
+    { at_level = 45, name = "BODYSLAM" },
+    { at_level = 49, name = "FOULPLAY" },
+]
+raw_tms = [
+    "ROAR",
+    "TOXIC",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "RETURN",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "EMBARGO",
+    "PAYBACK",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "SNARL",
+    "DARKPULSE",
+    "CONFIDE",
+    "DIG",
+    "SCARYFACE",
+    "BEATUP",
+    "ASSURANCE",
+    "THUNDERFANG",
+    "ICEFANG",
+    "FIREFANG",
+    "PSYCHICFANGS",
+    "CRUNCH",
+    "BODYSLAM",
+    "ENDURE",
+    "NASTYPLOT",
+    "PLAYROUGH",
+    "RETALIATE",
+]
+raw_tutor_moves = [
+    "COVET",
+    "FOULPLAY",
+    "HEADBUTT",
+    "HYPERVOICE",
+    "IRONTAIL",
+    "MIMIC",
+    "MUDSLAP",
+    "SNATCH",
+    "SNORE",
+    "SPITE",
+    "SUCKERPUNCH",
+    "SUPERFANG",
+    "UPROAR",
+]
+compatible_egg_groups = [
+    "Field",
+]
 steps_to_hatch = 4080
 height = 0.5
 weight = 13.6
@@ -20,114 +107,26 @@ pokedex_entry = "It savagely threatens foes with bared fangs. It chases after fl
 battler_player_y = 27
 battler_enemy_y = 22
 battler_altitude = 0
-form_names = []
-dex_number = 261
-internal_name = "POOCHYENA"
 raw_hidden_ability = "RATTLED"
+raw_egg_moves = [
+    "ASTONISH",
+    "COVET",
+    "FIREFANG",
+    "ICEFANG",
+    "LEER",
+    "MEFIRST",
+    "PLAYROUGH",
+    "POISONFANG",
+    "SLEEPTALK",
+    "SNATCH",
+    "SUCKERPUNCH",
+    "THUNDERFANG",
+    "YAWN",
+]
 habitat = "Grassland"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ASTONISH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LICK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SANDATTACK"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "HOWL"
-
-[[raw_level_up_moves]]
-at_level = 6
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 8
-name = "MUDSLAP"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "SPITE"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "HEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "FIREFANG"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "ICEFANG"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "THUNDERFANG"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "SCARYFACE"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "ASSURANCE"
-
-[[raw_level_up_moves]]
-at_level = 21
-name = "POISONFANG"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "YAWN"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "SUCKERPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "SUPERFANG"
-
-[[raw_level_up_moves]]
-at_level = 33
-name = "LUNGE"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "PSYCHICFANGS"
-
-[[raw_level_up_moves]]
-at_level = 39
-name = "PLAYROUGH"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "FOULPLAY"
-
-[[evolutions]]
-into_name = "MIGHTYENA"
-condition = "Level"
-parameter = "18"
-
-
+evolutions = [
+    { into_name = "MIGHTYENA", condition = "Level", parameter = "18" },
+]
 
 [base_stats]
 hp = 35
@@ -144,5 +143,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

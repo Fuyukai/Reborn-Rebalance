@@ -1,3 +1,4 @@
+dex_number = 848
 name = "Toxel"
 primary_type = "ELECTRIC"
 secondary_type = "POISON"
@@ -6,11 +7,40 @@ growth_rate = "Parabolic"
 exp_yield = 48
 catch_rate = 75
 caught_happiness = 50
-raw_abilities = ["RATTLED", "STATIC"]
-raw_egg_moves = ["ENDEAVOR", "METALSOUND", "POWERUPPUNCH"]
-raw_tms = ["FLASH", "PROTECT", "FACADE", "REST", "ATTRACT", "ROUND", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "ENDURE", "ENCORE"]
-raw_tutor_moves = ["ENDEAVOR", "SNORE", "MIMIC"]
-compatible_egg_groups = ["Undiscovered"]
+raw_abilities = [
+    "RATTLED",
+    "STATIC",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "BELCH" },
+    { at_level = 1, name = "TEARFULLOOK" },
+    { at_level = 1, name = "NUZZLE" },
+    { at_level = 1, name = "GROWL" },
+    { at_level = 1, name = "FLAIL" },
+    { at_level = 1, name = "ACID" },
+]
+raw_tms = [
+    "FLASH",
+    "PROTECT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "ENDURE",
+    "ENCORE",
+]
+raw_tutor_moves = [
+    "ENDEAVOR",
+    "MIMIC",
+    "SNORE",
+]
+compatible_egg_groups = [
+    "Undiscovered",
+]
 steps_to_hatch = 6400
 height = 0.4
 weight = 11.0
@@ -20,40 +50,16 @@ pokedex_entry = "It manipulates the chemical makeup of its poison to produce ele
 battler_player_y = 21
 battler_enemy_y = 26
 battler_altitude = 0
-form_names = []
-dex_number = 848
-internal_name = "TOXEL"
 raw_hidden_ability = "KLUTZ"
+raw_egg_moves = [
+    "ENDEAVOR",
+    "METALSOUND",
+    "POWERUPPUNCH",
+]
+evolutions = [
+    { into_name = "TOXTRICITY", condition = "Level", parameter = "30" },
+]
 regional_numbers = 848
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BELCH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TEARFULLOOK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "NUZZLE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FLAIL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ACID"
-
-[[evolutions]]
-into_name = "TOXTRICITY"
-condition = "Level"
-parameter = "30"
 
 [base_stats]
 hp = 40
@@ -70,5 +76,3 @@ def_ = 0
 spa = 1
 spd = 0
 spe = 0
-
-[wild_items]

@@ -1,3 +1,4 @@
+dex_number = 146
 name = "Moltres"
 primary_type = "FIRE"
 secondary_type = "FLYING"
@@ -6,11 +7,109 @@ growth_rate = "Slow"
 exp_yield = 261
 catch_rate = 3
 caught_happiness = 35
-raw_abilities = ["PRESSURE", "FLAMEBODY"]
-raw_egg_moves = []
-raw_tms = ["FLY", "ROAR", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "SANDSTORM", "FIREBLAST", "AERIALACE", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "ROUND", "OVERHEAT", "STEELWING", "SKYDROP", "WILLOWISP", "PAYBACK", "GIGAIMPACT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "SNARL", "DARKPULSE", "CONFIDE", "FIRESPIN", "SCARYFACE", "IMPRISON", "WEATHERBALL", "AIRSLASH", "HEX", "MYSTICALFIRE", "HURRICANE", "FLAREBLITZ", "BRAVEBIRD", "AGILITY", "ENDURE", "NASTYPLOT", "SWIFT"]
-raw_tutor_moves = ["AIRCUTTER", "ANCIENTPOWER", "DEFOG", "FOULPLAY", "HEATWAVE", "HYPERVOICE", "LASERFOCUS", "MUDSLAP", "OMINOUSWIND", "SKYATTACK", "SNORE", "TAILWIND", "TWISTER", "BURNINGJEALOUSY", "SCORCHINGSANDS", "DUALWINGBEAT", "LASHOUT", "MIMIC"]
-compatible_egg_groups = ["Undiscovered"]
+raw_abilities = [
+    "PRESSURE",
+    "FLAMEBODY",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "EXTRASENSORY" },
+    { at_level = 1, name = "WINGATTACK" },
+    { at_level = 1, name = "EMBER" },
+    { at_level = 8, name = "FIRESPIN" },
+    { at_level = 11, name = "AGILITY" },
+    { at_level = 14, name = "ENDURE" },
+    { at_level = 19, name = "ANCIENTPOWER" },
+    { at_level = 23, name = "FLAMETHROWER" },
+    { at_level = 27, name = "SAFEGUARD" },
+    { at_level = 30, name = "AIRSLASH" },
+    { at_level = 33, name = "SUNNYDAY" },
+    { at_level = 37, name = "HEATWAVE" },
+    { at_level = 40, name = "SOLARBEAM" },
+    { at_level = 43, name = "SKYATTACK" },
+    { at_level = 47, name = "SCORCHINGSANDS" },
+    { at_level = 50, name = "HURRICANE" },
+]
+raw_tms = [
+    "FLY",
+    "ROAR",
+    "TOXIC",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "ROOST",
+    "ROOST",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "REFLECT",
+    "FLAMETHROWER",
+    "SANDSTORM",
+    "FIREBLAST",
+    "AERIALACE",
+    "FACADE",
+    "FLAMECHARGE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "OVERHEAT",
+    "STEELWING",
+    "SKYDROP",
+    "WILLOWISP",
+    "PAYBACK",
+    "GIGAIMPACT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "SNARL",
+    "DARKPULSE",
+    "CONFIDE",
+    "FIRESPIN",
+    "SCARYFACE",
+    "IMPRISON",
+    "WEATHERBALL",
+    "AIRSLASH",
+    "HEX",
+    "MYSTICALFIRE",
+    "HURRICANE",
+    "FLAREBLITZ",
+    "BRAVEBIRD",
+    "AGILITY",
+    "ENDURE",
+    "NASTYPLOT",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AIRCUTTER",
+    "ANCIENTPOWER",
+    "BURNINGJEALOUSY",
+    "DEFOG",
+    "DUALWINGBEAT",
+    "FOULPLAY",
+    "HEATWAVE",
+    "HYPERVOICE",
+    "LASERFOCUS",
+    "LASHOUT",
+    "MIMIC",
+    "MUDSLAP",
+    "OMINOUSWIND",
+    "SCORCHINGSANDS",
+    "SKYATTACK",
+    "SNORE",
+    "TAILWIND",
+    "TWISTER",
+]
+compatible_egg_groups = [
+    "Undiscovered",
+]
 steps_to_hatch = 20655
 height = 2.0
 weight = 60.0
@@ -20,75 +119,7 @@ pokedex_entry = "Moltres is a legendary bird Pokémon that can control fire. If 
 battler_player_y = 17
 battler_enemy_y = 6
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 146
-internal_name = "MOLTRES"
 habitat = "Rare"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "EXTRASENSORY"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WINGATTACK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "EMBER"
-
-[[raw_level_up_moves]]
-at_level = 8
-name = "FIRESPIN"
-
-[[raw_level_up_moves]]
-at_level = 11
-name = "AGILITY"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "ENDURE"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "ANCIENTPOWER"
-
-[[raw_level_up_moves]]
-at_level = 23
-name = "FLAMETHROWER"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "SAFEGUARD"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "AIRSLASH"
-
-[[raw_level_up_moves]]
-at_level = 33
-name = "SUNNYDAY"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "HEATWAVE"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "SOLARBEAM"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "SKYATTACK"
-
-[[raw_level_up_moves]]
-at_level = 47
-name = "SCORCHINGSANDS"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "HURRICANE"
 
 [base_stats]
 hp = 90
@@ -105,5 +136,3 @@ def_ = 0
 spa = 3
 spd = 0
 spe = 0
-
-[wild_items]

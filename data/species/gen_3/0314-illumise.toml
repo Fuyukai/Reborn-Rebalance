@@ -1,3 +1,4 @@
+dex_number = 314
 name = "Illumise"
 primary_type = "BUG"
 secondary_type = "FAIRY"
@@ -6,11 +7,110 @@ growth_rate = "Fluctuating"
 exp_yield = 151
 catch_rate = 150
 caught_happiness = 70
-raw_abilities = ["OBLIVIOUS", "TINTEDLENS"]
-raw_egg_moves = ["AROMATHERAPY", "BATONPASS", "BUGBUZZ", "CAPTIVATE", "CONFUSERAY", "ENCORE", "FAKETEARS", "GROWTH", "SILVERWIND"]
-raw_tms = ["TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "FRUSTRATION", "SOLARBEAM", "THUNDERBOLT", "THUNDER", "RETURN", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "FLING", "CHARGEBEAM", "ACROBATICS", "THUNDERWAVE", "STRUGGLEBUG", "PSYCHUP", "INFESTATION", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "DAZZLINGGLEAM", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "CHARM", "FAKETEARS", "BODYSLAM", "METRONOME", "ENDURE", "BATONPASS", "ENCORE", "BUGBUZZ", "PLAYROUGH", "POLLENPUFF", "SWIFT", "MYSTICALFIRE"]
-raw_tutor_moves = ["AIRCUTTER", "BUGBITE", "COVET", "DEFOG", "FOCUSPUNCH", "GIGADRAIN", "HELPINGHAND", "ICEPUNCH", "MUDSLAP", "OMINOUSWIND", "SHOCKWAVE", "SNORE", "STRINGSHOT", "TAILWIND", "THUNDERPUNCH", "WATERPULSE", "ZENHEADBUTT", "MIMIC"]
-compatible_egg_groups = ["Bug", "Humanlike"]
+raw_abilities = [
+    "OBLIVIOUS",
+    "TINTEDLENS",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "TRICK" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 6, name = "INFESTATION" },
+    { at_level = 9, name = "CHARM" },
+    { at_level = 12, name = "QUICKATTACK" },
+    { at_level = 15, name = "STRUGGLEBUG" },
+    { at_level = 18, name = "DRAININGKISS" },
+    { at_level = 21, name = "MOONLIGHT" },
+    { at_level = 24, name = "AROMATHERAPY" },
+    { at_level = 27, name = "WISH" },
+    { at_level = 30, name = "FLATTER" },
+    { at_level = 33, name = "PLAYROUGH" },
+    { at_level = 36, name = "LUNGE" },
+    { at_level = 40, name = "ZENHEADBUTT" },
+    { at_level = 44, name = "MOONBLAST" },
+    { at_level = 48, name = "HELPINGHAND" },
+    { at_level = 52, name = "BUGBUZZ" },
+    { at_level = 56, name = "BATONPASS" },
+    { at_level = 61, name = "THUNDER" },
+    { at_level = 66, name = "QUIVERDANCE" },
+]
+raw_tms = [
+    "TOXIC",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "ROOST",
+    "ROOST",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "THUNDERBOLT",
+    "THUNDER",
+    "RETURN",
+    "SHADOWBALL",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "FLING",
+    "CHARGEBEAM",
+    "ACROBATICS",
+    "THUNDERWAVE",
+    "STRUGGLEBUG",
+    "PSYCHUP",
+    "INFESTATION",
+    "SWAGGER",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "DAZZLINGGLEAM",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "CHARM",
+    "FAKETEARS",
+    "MYSTICALFIRE",
+    "BODYSLAM",
+    "METRONOME",
+    "ENDURE",
+    "BATONPASS",
+    "ENCORE",
+    "BUGBUZZ",
+    "PLAYROUGH",
+    "POLLENPUFF",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AIRCUTTER",
+    "BUGBITE",
+    "COVET",
+    "DEFOG",
+    "FOCUSPUNCH",
+    "GIGADRAIN",
+    "HELPINGHAND",
+    "ICEPUNCH",
+    "MIMIC",
+    "MUDSLAP",
+    "OMINOUSWIND",
+    "SHOCKWAVE",
+    "SNORE",
+    "STRINGSHOT",
+    "TAILWIND",
+    "THUNDERPUNCH",
+    "WATERPULSE",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Bug",
+    "Humanlike",
+]
 steps_to_hatch = 4080
 height = 0.6
 weight = 17.7
@@ -20,92 +120,19 @@ pokedex_entry = "A nocturnal Pokémon that becomes active upon nightfall. It lea
 battler_player_y = 26
 battler_enemy_y = 20
 battler_altitude = 10
-evolutions = []
-form_names = []
-dex_number = 314
-internal_name = "ILLUMISE"
 raw_hidden_ability = "PRANKSTER"
+raw_egg_moves = [
+    "AROMATHERAPY",
+    "BATONPASS",
+    "BUGBUZZ",
+    "CAPTIVATE",
+    "CONFUSERAY",
+    "ENCORE",
+    "FAKETEARS",
+    "GROWTH",
+    "SILVERWIND",
+]
 habitat = "Forest"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TRICK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 6
-name = "INFESTATION"
-
-[[raw_level_up_moves]]
-at_level = 9
-name = "CHARM"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "QUICKATTACK"
-
-[[raw_level_up_moves]]
-at_level = 15
-name = "STRUGGLEBUG"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "DRAININGKISS"
-
-[[raw_level_up_moves]]
-at_level = 21
-name = "MOONLIGHT"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "AROMATHERAPY"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "WISH"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "FLATTER"
-
-[[raw_level_up_moves]]
-at_level = 33
-name = "PLAYROUGH"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "LUNGE"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "ZENHEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "MOONBLAST"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "HELPINGHAND"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "BUGBUZZ"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "BATONPASS"
-
-[[raw_level_up_moves]]
-at_level = 61
-name = "THUNDER"
-
-[[raw_level_up_moves]]
-at_level = 66
-name = "QUIVERDANCE"
 
 [base_stats]
 hp = 70

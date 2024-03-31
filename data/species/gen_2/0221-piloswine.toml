@@ -1,3 +1,4 @@
+dex_number = 221
 name = "Piloswine"
 primary_type = "ICE"
 secondary_type = "GROUND"
@@ -6,11 +7,98 @@ growth_rate = "Slow"
 exp_yield = 158
 catch_rate = 75
 caught_happiness = 70
-raw_abilities = ["OBLIVIOUS", "THICKFAT"]
-raw_egg_moves = []
-raw_tms = ["STRENGTH", "ROAR", "TOXIC", "HAIL", "ROCKSMASH", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "REFLECT", "SANDSTORM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "GIGAIMPACT", "STONEEDGE", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "SCARYFACE", "SANDTOMB", "ICICLESPEAR", "MUDSHOT", "AVALANCHE", "ICEFANG", "BODYSLAM", "AMNESIA", "ENDURE", "HIGHHORSEPOWER"]
-raw_tutor_moves = ["ANCIENTPOWER", "EARTHPOWER", "ENDEAVOR", "HEADBUTT", "ICYWIND", "MUDSLAP", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "SUPERPOWER", "MIMIC"]
-compatible_egg_groups = ["Field"]
+raw_abilities = [
+    "OBLIVIOUS",
+    "THICKFAT",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "ANCIENTPOWER" },
+    { at_level = 1, name = "ODORSLEUTH" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 4, name = "PECK" },
+    { at_level = 6, name = "BITE" },
+    { at_level = 8, name = "POWDERSNOW" },
+    { at_level = 10, name = "FLAIL" },
+    { at_level = 12, name = "MUDBOMB" },
+    { at_level = 14, name = "ICESHARD" },
+    { at_level = 16, name = "CURSE" },
+    { at_level = 18, name = "BULLDOZE" },
+    { at_level = 21, name = "KNOCKOFF" },
+    { at_level = 24, name = "ICICLESPEAR" },
+    { at_level = 27, name = "ENDEAVOR" },
+    { at_level = 30, name = "BODYSLAM" },
+    { at_level = 33, name = "AMNESIA" },
+    { at_level = 33, name = "DOUBLEHIT" },
+    { at_level = 37, name = "AVALANCHE" },
+    { at_level = 41, name = "ROAR" },
+    { at_level = 45, name = "TAKEDOWN" },
+    { at_level = 49, name = "EARTHQUAKE" },
+    { at_level = 53, name = "DOUBLEEDGE" },
+    { at_level = 57, name = "ICICLECRASH" },
+    { at_level = 61, name = "HIGHHORSEPOWER" },
+    { at_level = 65, name = "HEADLONGRUSH" },
+]
+raw_tms = [
+    "STRENGTH",
+    "ROAR",
+    "TOXIC",
+    "HAIL",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "ICEBEAM",
+    "BLIZZARD",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "EARTHQUAKE",
+    "RETURN",
+    "DOUBLETEAM",
+    "REFLECT",
+    "SANDSTORM",
+    "ROCKTOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "GIGAIMPACT",
+    "STONEEDGE",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "DIG",
+    "SCARYFACE",
+    "SANDTOMB",
+    "ICICLESPEAR",
+    "MUDSHOT",
+    "AVALANCHE",
+    "ICEFANG",
+    "BODYSLAM",
+    "AMNESIA",
+    "ENDURE",
+    "HIGHHORSEPOWER",
+]
+raw_tutor_moves = [
+    "ANCIENTPOWER",
+    "EARTHPOWER",
+    "ENDEAVOR",
+    "HEADBUTT",
+    "ICYWIND",
+    "MIMIC",
+    "MUDSLAP",
+    "SNORE",
+    "STEALTHROCK",
+    "STOMPINGTANTRUM",
+    "SUPERPOWER",
+]
+compatible_egg_groups = [
+    "Field",
+]
 steps_to_hatch = 5355
 height = 1.1
 weight = 55.8
@@ -20,117 +108,10 @@ pokedex_entry = "A Piloswine is covered by a thick coat of long hair for endurin
 battler_player_y = 17
 battler_enemy_y = 15
 battler_altitude = 0
-form_names = []
-dex_number = 221
-internal_name = "PILOSWINE"
 habitat = "Cave"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ANCIENTPOWER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ODORSLEUTH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "PECK"
-
-[[raw_level_up_moves]]
-at_level = 6
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 8
-name = "POWDERSNOW"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "FLAIL"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "MUDBOMB"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "ICESHARD"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "CURSE"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "BULLDOZE"
-
-[[raw_level_up_moves]]
-at_level = 21
-name = "KNOCKOFF"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "ICICLESPEAR"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "ENDEAVOR"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 33
-name = "AMNESIA"
-
-[[raw_level_up_moves]]
-at_level = 33
-name = "DOUBLEHIT"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "AVALANCHE"
-
-[[raw_level_up_moves]]
-at_level = 41
-name = "ROAR"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "TAKEDOWN"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "EARTHQUAKE"
-
-[[raw_level_up_moves]]
-at_level = 53
-name = "DOUBLEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 57
-name = "ICICLECRASH"
-
-[[raw_level_up_moves]]
-at_level = 61
-name = "HIGHHORSEPOWER"
-
-[[raw_level_up_moves]]
-at_level = 65
-name = "HEADLONGRUSH"
-
-[[evolutions]]
-into_name = "MAMOSWINE"
-condition = "HasMove"
-parameter = "ANCIENTPOWER"
-
-
+evolutions = [
+    { into_name = "MAMOSWINE", condition = "HasMove", parameter = "ANCIENTPOWER" },
+]
 
 [base_stats]
 hp = 100
@@ -147,5 +128,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

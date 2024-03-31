@@ -1,3 +1,4 @@
+dex_number = 360
 name = "Wynaut"
 primary_type = "PSYCHIC"
 secondary_type = "PSYCHIC"
@@ -6,11 +7,30 @@ growth_rate = "Medium"
 exp_yield = 52
 catch_rate = 125
 caught_happiness = 70
-raw_abilities = ["SHADOWTAG", "TELEPATHY"]
-raw_egg_moves = []
-raw_tms = ["SAFEGUARD", "CHARM", "AMNESIA", "ENCORE"]
+raw_abilities = [
+    "SHADOWTAG",
+    "TELEPATHY",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "AMNESIA" },
+    { at_level = 1, name = "CHARM" },
+    { at_level = 1, name = "COUNTER" },
+    { at_level = 1, name = "DESTINYBOND" },
+    { at_level = 1, name = "MIRRORCOAT" },
+    { at_level = 1, name = "SAFEGUARD" },
+    { at_level = 1, name = "TICKLE" },
+    { at_level = 16, name = "CELEBRATE" },
+]
+raw_tms = [
+    "SAFEGUARD",
+    "CHARM",
+    "AMNESIA",
+    "ENCORE",
+]
 raw_tutor_moves = []
-compatible_egg_groups = ["Undiscovered"]
+compatible_egg_groups = [
+    "Undiscovered",
+]
 steps_to_hatch = 5355
 height = 0.6
 weight = 14.0
@@ -20,49 +40,10 @@ pokedex_entry = "A Wynaut loves to eat sweet fruits. It cleverly picks fruits us
 battler_player_y = 27
 battler_enemy_y = 23
 battler_altitude = 0
-form_names = []
-dex_number = 360
-internal_name = "WYNAUT"
 habitat = "Cave"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "AMNESIA"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "CHARM"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "COUNTER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "DESTINYBOND"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "MIRRORCOAT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SAFEGUARD"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TICKLE"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "CELEBRATE"
-
-[[evolutions]]
-into_name = "WOBBUFFET"
-condition = "Level"
-parameter = "15"
-
-
+evolutions = [
+    { into_name = "WOBBUFFET", condition = "Level", parameter = "15" },
+]
 
 [base_stats]
 hp = 95
@@ -79,5 +60,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

@@ -1,3 +1,4 @@
+dex_number = 355
 name = "Duskull"
 primary_type = "GHOST"
 secondary_type = "GHOST"
@@ -6,11 +7,100 @@ growth_rate = "Fast"
 exp_yield = 59
 catch_rate = 190
 caught_happiness = 35
-raw_abilities = ["LEVITATE", "FRISK"]
-raw_egg_moves = ["DARKPULSE", "DESTINYBOND", "FEINTATTACK", "GRUDGE", "HAZE", "IMPRISON", "MEMENTO", "OMINOUSWIND", "PAINSPLIT", "SKILLSWAP"]
-raw_tms = ["CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "FLING", "CHARGEBEAM", "WILLOWISP", "EMBARGO", "PAYBACK", "PSYCHUP", "INFESTATION", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "DARKPULSE", "CONFIDE", "REVENGE", "IMPRISON", "HEX", "BODYSLAM", "ENDURE", "FUTURESIGHT"]
-raw_tutor_moves = ["ALLYSWITCH", "GRAVITY", "HEADBUTT", "HELPINGHAND", "ICYWIND", "OMINOUSWIND", "PAINSPLIT", "SKILLSWAP", "SNATCH", "SNORE", "SPITE", "TELEKINESIS", "TRICK", "WONDERROOM", "SKITTERSMACK", "POLTERGEIST", "MIMIC"]
-compatible_egg_groups = ["Amorphous"]
+raw_abilities = [
+    "LEVITATE",
+    "FRISK",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "ASTONISH" },
+    { at_level = 1, name = "LEER" },
+    { at_level = 1, name = "ABSORB" },
+    { at_level = 4, name = "DISABLE" },
+    { at_level = 7, name = "FORESIGHT" },
+    { at_level = 10, name = "CURSE" },
+    { at_level = 13, name = "NIGHTSHADE" },
+    { at_level = 16, name = "HAZE" },
+    { at_level = 19, name = "MEANLOOK" },
+    { at_level = 22, name = "IMPRISON" },
+    { at_level = 25, name = "WILLOWISP" },
+    { at_level = 28, name = "PAINSPLIT" },
+    { at_level = 31, name = "OMINOUSWIND" },
+    { at_level = 34, name = "SHADOWSNEAK" },
+    { at_level = 37, name = "FEINTATTACK" },
+    { at_level = 40, name = "SKILLSWAP" },
+    { at_level = 43, name = "HEX" },
+    { at_level = 46, name = "LEECHLIFE" },
+    { at_level = 49, name = "FUTURESIGHT" },
+    { at_level = 52, name = "SUCKERPUNCH" },
+    { at_level = 55, name = "MEMENTO" },
+    { at_level = 58, name = "GRUDGE" },
+]
+raw_tms = [
+    "CALMMIND",
+    "TOXIC",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "ICEBEAM",
+    "BLIZZARD",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "FLING",
+    "CHARGEBEAM",
+    "WILLOWISP",
+    "EMBARGO",
+    "PAYBACK",
+    "PSYCHUP",
+    "INFESTATION",
+    "DREAMEATER",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "TRICKROOM",
+    "SECRETPOWER",
+    "DARKPULSE",
+    "CONFIDE",
+    "REVENGE",
+    "IMPRISON",
+    "HEX",
+    "BODYSLAM",
+    "ENDURE",
+    "FUTURESIGHT",
+]
+raw_tutor_moves = [
+    "ALLYSWITCH",
+    "GRAVITY",
+    "HEADBUTT",
+    "HELPINGHAND",
+    "ICYWIND",
+    "MIMIC",
+    "OMINOUSWIND",
+    "PAINSPLIT",
+    "POLTERGEIST",
+    "SKILLSWAP",
+    "SKITTERSMACK",
+    "SNATCH",
+    "SNORE",
+    "SPITE",
+    "TELEKINESIS",
+    "TRICK",
+    "WONDERROOM",
+]
+compatible_egg_groups = [
+    "Amorphous",
+]
 steps_to_hatch = 6630
 height = 0.8
 weight = 15.0
@@ -20,105 +110,22 @@ pokedex_entry = "A glare from its single scarlet eye makes even burly grown-ups 
 battler_player_y = 26
 battler_enemy_y = 24
 battler_altitude = 11
-form_names = []
-dex_number = 355
-internal_name = "DUSKULL"
+raw_egg_moves = [
+    "DARKPULSE",
+    "DESTINYBOND",
+    "FEINTATTACK",
+    "GRUDGE",
+    "HAZE",
+    "IMPRISON",
+    "MEMENTO",
+    "OMINOUSWIND",
+    "PAINSPLIT",
+    "SKILLSWAP",
+]
 habitat = "Forest"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ASTONISH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ABSORB"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "DISABLE"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "FORESIGHT"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "CURSE"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "NIGHTSHADE"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "HAZE"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "MEANLOOK"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "IMPRISON"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "WILLOWISP"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "PAINSPLIT"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "OMINOUSWIND"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "SHADOWSNEAK"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "FEINTATTACK"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "SKILLSWAP"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "HEX"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "LEECHLIFE"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "FUTURESIGHT"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "SUCKERPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 55
-name = "MEMENTO"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "GRUDGE"
-
-[[evolutions]]
-into_name = "DUSCLOPS"
-condition = "Level"
-parameter = "32"
-
-
+evolutions = [
+    { into_name = "DUSCLOPS", condition = "Level", parameter = "32" },
+]
 
 [base_stats]
 hp = 20

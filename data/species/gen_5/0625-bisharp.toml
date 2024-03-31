@@ -1,3 +1,4 @@
+dex_number = 625
 name = "Bisharp"
 primary_type = "DARK"
 secondary_type = "STEEL"
@@ -6,11 +7,116 @@ growth_rate = "Medium"
 exp_yield = 172
 catch_rate = 45
 caught_happiness = 35
-raw_abilities = ["DEFIANT", "SHARPNESS"]
-raw_egg_moves = []
-raw_tms = ["CUT", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "TAUNT", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "BRICKBREAK", "DOUBLETEAM", "SANDSTORM", "ROCKTOMB", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "LOWSWEEP", "ROUND", "FOCUSBLAST", "FALSESWIPE", "FLING", "EMBARGO", "SHADOWCLAW", "PAYBACK", "GIGAIMPACT", "ROCKPOLISH", "STONEEDGE", "THUNDERWAVE", "SWORDSDANCE", "XSCISSOR", "POISONJAB", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "SNARL", "DARKPULSE", "POWERUPPUNCH", "CONFIDE", "DIG", "SCREECH", "SCARYFACE", "BEATUP", "REVENGE", "ASSURANCE", "PSYCHOCUT", "AIRSLASH", "ENDURE", "RETALIATE"]
-raw_tutor_moves = ["DUALCHOP", "FOULPLAY", "FURYCUTTER", "IRONDEFENSE", "IRONHEAD", "KNOCKOFF", "LASERFOCUS", "LOWKICK", "MAGNETRISE", "ROLEPLAY", "SNATCH", "SNORE", "SPITE", "STEALTHROCK", "SUCKERPUNCH", "THROATCHOP", "LASHOUT", "STEELBEAM", "MIMIC"]
-compatible_egg_groups = ["Humanlike"]
+raw_abilities = [
+    "DEFIANT",
+    "SHARPNESS",
+]
+raw_level_up_moves = [
+    { at_level = 0, name = "IRONHEAD" },
+    { at_level = 1, name = "LEAFBLADE" },
+    { at_level = 1, name = "METALBURST" },
+    { at_level = 1, name = "AIRSLASH" },
+    { at_level = 1, name = "LEER" },
+    { at_level = 1, name = "SCRATCH" },
+    { at_level = 5, name = "FURYCUTTER" },
+    { at_level = 10, name = "LOWKICK" },
+    { at_level = 13, name = "METALCLAW" },
+    { at_level = 16, name = "HONECLAWS" },
+    { at_level = 19, name = "SNARL" },
+    { at_level = 22, name = "TORMENT" },
+    { at_level = 26, name = "ASSURANCE" },
+    { at_level = 30, name = "BEATUP" },
+    { at_level = 34, name = "MEANLOOK" },
+    { at_level = 38, name = "REVENGE" },
+    { at_level = 43, name = "SLASH" },
+    { at_level = 43, name = "NIGHTSLASH" },
+    { at_level = 47, name = "QUICKGUARD" },
+    { at_level = 51, name = "PSYCHOCUT" },
+    { at_level = 55, name = "SUCKERPUNCH" },
+    { at_level = 59, name = "METALBURST" },
+    { at_level = 63, name = "FOULPLAY" },
+    { at_level = 67, name = "GUILLOTINE" },
+]
+raw_tms = [
+    "CUT",
+    "TOXIC",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "TAUNT",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "SANDSTORM",
+    "ROCKTOMB",
+    "AERIALACE",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "LOWSWEEP",
+    "ROUND",
+    "FOCUSBLAST",
+    "FALSESWIPE",
+    "FLING",
+    "EMBARGO",
+    "SHADOWCLAW",
+    "PAYBACK",
+    "GIGAIMPACT",
+    "ROCKPOLISH",
+    "STONEEDGE",
+    "THUNDERWAVE",
+    "SWORDSDANCE",
+    "XSCISSOR",
+    "POISONJAB",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "SNARL",
+    "DARKPULSE",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "DIG",
+    "SCREECH",
+    "SCARYFACE",
+    "BEATUP",
+    "REVENGE",
+    "ASSURANCE",
+    "PSYCHOCUT",
+    "AIRSLASH",
+    "ENDURE",
+    "RETALIATE",
+]
+raw_tutor_moves = [
+    "DUALCHOP",
+    "FOULPLAY",
+    "FURYCUTTER",
+    "IRONDEFENSE",
+    "IRONHEAD",
+    "KNOCKOFF",
+    "LASERFOCUS",
+    "LASHOUT",
+    "LOWKICK",
+    "MAGNETRISE",
+    "MIMIC",
+    "ROLEPLAY",
+    "SNATCH",
+    "SNORE",
+    "SPITE",
+    "STEALTHROCK",
+    "STEELBEAM",
+    "SUCKERPUNCH",
+    "THROATCHOP",
+]
+compatible_egg_groups = [
+    "Humanlike",
+]
 steps_to_hatch = 5120
 height = 1.6
 weight = 70.0
@@ -20,113 +126,10 @@ pokedex_entry = "Bisharp pursues prey in the company of a large group of Pawniar
 battler_player_y = 11
 battler_enemy_y = 15
 battler_altitude = 0
-form_names = []
-dex_number = 625
-internal_name = "BISHARP"
 raw_hidden_ability = "PRESSURE"
-
-[[raw_level_up_moves]]
-at_level = 0
-name = "IRONHEAD"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEAFBLADE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "METALBURST"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "AIRSLASH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SCRATCH"
-
-[[raw_level_up_moves]]
-at_level = 5
-name = "FURYCUTTER"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "LOWKICK"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "METALCLAW"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "HONECLAWS"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "SNARL"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "TORMENT"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "ASSURANCE"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "BEATUP"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "MEANLOOK"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "REVENGE"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "SLASH"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "NIGHTSLASH"
-
-[[raw_level_up_moves]]
-at_level = 47
-name = "QUICKGUARD"
-
-[[raw_level_up_moves]]
-at_level = 51
-name = "PSYCHOCUT"
-
-[[raw_level_up_moves]]
-at_level = 55
-name = "SUCKERPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 59
-name = "METALBURST"
-
-[[raw_level_up_moves]]
-at_level = 63
-name = "FOULPLAY"
-
-[[raw_level_up_moves]]
-at_level = 67
-name = "GUILLOTINE"
-
-[[evolutions]]
-into_name = "KINGAMBIT"
-condition = "Item"
-parameter = "LEADERSCREST"
-
-
+evolutions = [
+    { into_name = "KINGAMBIT", condition = "Item", parameter = "LEADERSCREST" },
+]
 
 [base_stats]
 hp = 65
@@ -143,5 +146,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

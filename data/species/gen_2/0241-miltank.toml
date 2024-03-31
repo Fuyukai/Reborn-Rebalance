@@ -1,3 +1,4 @@
+dex_number = 241
 name = "Miltank"
 primary_type = "NORMAL"
 secondary_type = "NORMAL"
@@ -6,11 +7,119 @@ growth_rate = "Slow"
 exp_yield = 172
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["THICKFAT", "SCRAPPY"]
-raw_egg_moves = ["BELCH", "CURSE", "DIZZYPUNCH", "DOUBLEEDGE", "ENDURE", "HAMMERARM", "HEARTSTAMP", "HELPINGHAND", "NATURALGIFT", "PRESENT", "PUNISHMENT", "REVERSAL", "SEISMICTOSS", "SLEEPTALK", "LOWSWEEP"]
-raw_tms = ["WORKUP", "SURF", "STRENGTH", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "SOLARBEAM", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "SANDSTORM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "FOCUSBLAST", "FLING", "GIGAIMPACT", "THUNDERWAVE", "GYROBALL", "PSYCHUP", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "CHARM", "WHIRLPOOL", "BODYSLAM", "METRONOME", "REVERSAL", "ENDURE", "HEAVYSLAM", "HIGHHORSEPOWER", "BODYPRESS", "RETALIATE"]
-raw_tutor_moves = ["AFTERYOU", "BLOCK", "FIREPUNCH", "FOCUSPUNCH", "HEADBUTT", "HEALBELL", "HELPINGHAND", "ICEPUNCH", "ICYWIND", "IRONHEAD", "IRONTAIL", "MUDSLAP", "ROLLOUT", "SHOCKWAVE", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "THUNDERPUNCH", "WATERPULSE", "ZENHEADBUTT", "STEELROLLER", "MIMIC"]
-compatible_egg_groups = ["Field"]
+raw_abilities = [
+    "THICKFAT",
+    "SCRAPPY",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "ZENHEADBUTT" },
+    { at_level = 1, name = "BIDE" },
+    { at_level = 1, name = "GROWL" },
+    { at_level = 1, name = "SEISMICTOSS" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 4, name = "CURSE" },
+    { at_level = 7, name = "CHARM" },
+    { at_level = 10, name = "PRESENT" },
+    { at_level = 13, name = "DEFENSECURL" },
+    { at_level = 16, name = "ROLLOUT" },
+    { at_level = 19, name = "HEADBUTT" },
+    { at_level = 22, name = "HELPINGHAND" },
+    { at_level = 25, name = "STOMP" },
+    { at_level = 28, name = "WAKEUPSLAP" },
+    { at_level = 31, name = "PLAYROUGH" },
+    { at_level = 34, name = "DIZZYPUNCH" },
+    { at_level = 37, name = "HEARTSTAMP" },
+    { at_level = 40, name = "MILKDRINK" },
+    { at_level = 44, name = "BODYSLAM" },
+    { at_level = 48, name = "HIGHHORSEPOWER" },
+    { at_level = 52, name = "HEAVYSLAM" },
+    { at_level = 56, name = "HEALBELL" },
+    { at_level = 60, name = "FOCUSPUNCH" },
+    { at_level = 64, name = "DOUBLEEDGE" },
+]
+raw_tms = [
+    "WORKUP",
+    "SURF",
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "ICEBEAM",
+    "BLIZZARD",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "THUNDERBOLT",
+    "THUNDER",
+    "EARTHQUAKE",
+    "RETURN",
+    "SHADOWBALL",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "SANDSTORM",
+    "ROCKTOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ECHOEDVOICE",
+    "FOCUSBLAST",
+    "FLING",
+    "GIGAIMPACT",
+    "THUNDERWAVE",
+    "GYROBALL",
+    "PSYCHUP",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "CHARM",
+    "WHIRLPOOL",
+    "BODYSLAM",
+    "METRONOME",
+    "REVERSAL",
+    "ENDURE",
+    "HEAVYSLAM",
+    "HIGHHORSEPOWER",
+    "BODYPRESS",
+    "RETALIATE",
+]
+raw_tutor_moves = [
+    "AFTERYOU",
+    "BLOCK",
+    "FIREPUNCH",
+    "FOCUSPUNCH",
+    "HEADBUTT",
+    "HEALBELL",
+    "HELPINGHAND",
+    "ICEPUNCH",
+    "ICYWIND",
+    "IRONHEAD",
+    "IRONTAIL",
+    "MIMIC",
+    "MUDSLAP",
+    "ROLLOUT",
+    "SHOCKWAVE",
+    "SNORE",
+    "STEALTHROCK",
+    "STEELROLLER",
+    "STOMPINGTANTRUM",
+    "THUNDERPUNCH",
+    "WATERPULSE",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Field",
+]
 steps_to_hatch = 5355
 height = 1.2
 weight = 75.5
@@ -20,108 +129,25 @@ pokedex_entry = "It gives over five gallons of milk daily. Its milk is enjoyed b
 battler_player_y = 24
 battler_enemy_y = 18
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 241
-internal_name = "MILTANK"
 raw_hidden_ability = "SAPSIPPER"
+raw_egg_moves = [
+    "BELCH",
+    "CURSE",
+    "DIZZYPUNCH",
+    "DOUBLEEDGE",
+    "ENDURE",
+    "HAMMERARM",
+    "HEARTSTAMP",
+    "HELPINGHAND",
+    "NATURALGIFT",
+    "PRESENT",
+    "PUNISHMENT",
+    "REVERSAL",
+    "SEISMICTOSS",
+    "SLEEPTALK",
+    "LOWSWEEP",
+]
 habitat = "Grassland"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ZENHEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BIDE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SEISMICTOSS"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "CURSE"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "CHARM"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "PRESENT"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "DEFENSECURL"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "ROLLOUT"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "HEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "HELPINGHAND"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "STOMP"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "WAKEUPSLAP"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "PLAYROUGH"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "DIZZYPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "HEARTSTAMP"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "MILKDRINK"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "HIGHHORSEPOWER"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "HEAVYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "HEALBELL"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "FOCUSPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 64
-name = "DOUBLEEDGE"
 
 [base_stats]
 hp = 95

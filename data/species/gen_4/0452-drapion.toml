@@ -1,3 +1,4 @@
+dex_number = 452
 name = "Drapion"
 primary_type = "POISON"
 secondary_type = "DARK"
@@ -6,11 +7,125 @@ growth_rate = "Slow"
 exp_yield = 175
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["BATTLEARMOR", "TOUGHCLAWS", "KEENEYE"]
-raw_egg_moves = []
-raw_tms = ["CUT", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "FLASH", "VENOSHOCK", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "EARTHQUAKE", "RETURN", "LEECHLIFE", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "SLUDGEBOMB", "ROCKTOMB", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "FALSESWIPE", "FLING", "BRUTALSWING", "PAYBACK", "GIGAIMPACT", "SWORDSDANCE", "STRUGGLEBUG", "BULLDOZE", "ROCKSLIDE", "XSCISSOR", "INFESTATION", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "SNARL", "DARKPULSE", "CONFIDE", "PINMISSILE", "DIG", "SCREECH", "SCARYFACE", "SANDTOMB", "ASSURANCE", "THUNDERFANG", "ICEFANG", "FIREFANG", "CRUNCH", "CROSSPOISON", "AGILITY", "ENDURE", "BUGBUZZ", "PLAYROUGH", "VENOMDRENCH", "RETALIATE"]
-raw_tutor_moves = ["AQUATAIL", "BUGBITE", "FURYCUTTER", "HEADBUTT", "IRONDEFENSE", "IRONTAIL", "KNOCKOFF", "MUDSLAP", "SNORE", "STOMPINGTANTRUM", "THROATCHOP", "SKITTERSMACK", "LASHOUT", "MIMIC", "POISONTAIL"]
-compatible_egg_groups = ["Bug", "Water3"]
+raw_abilities = [
+    "BATTLEARMOR",
+    "TOUGHCLAWS",
+    "KEENEYE",
+]
+raw_level_up_moves = [
+    { at_level = 0, name = "CRUNCH" },
+    { at_level = 1, name = "THUNDERFANG" },
+    { at_level = 1, name = "ICEFANG" },
+    { at_level = 1, name = "FIREFANG" },
+    { at_level = 1, name = "AGILITY" },
+    { at_level = 1, name = "WHIRLWIND" },
+    { at_level = 1, name = "LEER" },
+    { at_level = 6, name = "KNOCKOFF" },
+    { at_level = 9, name = "PINMISSILE" },
+    { at_level = 12, name = "ACUPRESSURE" },
+    { at_level = 15, name = "BUGBITE" },
+    { at_level = 18, name = "POISONFANG" },
+    { at_level = 21, name = "PURSUIT" },
+    { at_level = 24, name = "TOXICSPIKES" },
+    { at_level = 27, name = "TWINEEDLE" },
+    { at_level = 31, name = "FOCUSENERGY" },
+    { at_level = 35, name = "POISONTAIL" },
+    { at_level = 43, name = "STORMTHROW" },
+    { at_level = 47, name = "NIGHTSLASH" },
+    { at_level = 51, name = "CROSSPOISON" },
+    { at_level = 55, name = "LEECHLIFE" },
+    { at_level = 59, name = "FOULPLAY" },
+    { at_level = 61, name = "SUPERPOWER" },
+]
+raw_tms = [
+    "CUT",
+    "STRENGTH",
+    "ROAR",
+    "TOXIC",
+    "ROCKSMASH",
+    "FLASH",
+    "VENOSHOCK",
+    "ROCKCLIMB",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "EARTHQUAKE",
+    "RETURN",
+    "LEECHLIFE",
+    "SHADOWBALL",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "SLUDGEBOMB",
+    "ROCKTOMB",
+    "AERIALACE",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "FALSESWIPE",
+    "FLING",
+    "BRUTALSWING",
+    "PAYBACK",
+    "GIGAIMPACT",
+    "SWORDSDANCE",
+    "STRUGGLEBUG",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "XSCISSOR",
+    "INFESTATION",
+    "POISONJAB",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "SNARL",
+    "DARKPULSE",
+    "CONFIDE",
+    "PINMISSILE",
+    "DIG",
+    "SCREECH",
+    "SCARYFACE",
+    "SANDTOMB",
+    "ASSURANCE",
+    "THUNDERFANG",
+    "ICEFANG",
+    "FIREFANG",
+    "CRUNCH",
+    "CROSSPOISON",
+    "AGILITY",
+    "ENDURE",
+    "BUGBUZZ",
+    "PLAYROUGH",
+    "VENOMDRENCH",
+    "RETALIATE",
+]
+raw_tutor_moves = [
+    "AQUATAIL",
+    "BUGBITE",
+    "FURYCUTTER",
+    "HEADBUTT",
+    "IRONDEFENSE",
+    "IRONTAIL",
+    "KNOCKOFF",
+    "LASHOUT",
+    "MIMIC",
+    "MUDSLAP",
+    "POISONTAIL",
+    "SKITTERSMACK",
+    "SNORE",
+    "STOMPINGTANTRUM",
+    "THROATCHOP",
+]
+compatible_egg_groups = [
+    "Bug",
+    "Water3",
+]
 steps_to_hatch = 5355
 height = 1.3
 weight = 61.5
@@ -20,102 +135,6 @@ pokedex_entry = "It has the power in its clawed arms to make scrap of a car. The
 battler_player_y = 15
 battler_enemy_y = 11
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 452
-internal_name = "DRAPION"
-
-[[raw_level_up_moves]]
-at_level = 0
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "THUNDERFANG"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ICEFANG"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FIREFANG"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "AGILITY"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WHIRLWIND"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 6
-name = "KNOCKOFF"
-
-[[raw_level_up_moves]]
-at_level = 9
-name = "PINMISSILE"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "ACUPRESSURE"
-
-[[raw_level_up_moves]]
-at_level = 15
-name = "BUGBITE"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "POISONFANG"
-
-[[raw_level_up_moves]]
-at_level = 21
-name = "PURSUIT"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "TOXICSPIKES"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "TWINEEDLE"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "FOCUSENERGY"
-
-[[raw_level_up_moves]]
-at_level = 35
-name = "POISONTAIL"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "STORMTHROW"
-
-[[raw_level_up_moves]]
-at_level = 47
-name = "NIGHTSLASH"
-
-[[raw_level_up_moves]]
-at_level = 51
-name = "CROSSPOISON"
-
-[[raw_level_up_moves]]
-at_level = 55
-name = "LEECHLIFE"
-
-[[raw_level_up_moves]]
-at_level = 59
-name = "FOULPLAY"
-
-[[raw_level_up_moves]]
-at_level = 61
-name = "SUPERPOWER"
 
 [base_stats]
 hp = 70

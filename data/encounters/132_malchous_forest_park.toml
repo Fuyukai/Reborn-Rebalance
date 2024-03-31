@@ -1,182 +1,49 @@
-chances = [10, 20, 20]
+chances = [
+    10,
+    20,
+    20,
+]
 
 [encounters]
-[[encounters.LandMorning]]
-name = "BEEDRILL"
-minimum_level = 17
-maximum_level = 20
-
-[[encounters.LandMorning]]
-name = "SEWADDLE"
-minimum_level = 19
-maximum_level = 22
-
-[[encounters.LandMorning]]
-name = "SCATTERBUG"
-minimum_level = 19
-maximum_level = 22
-
-[[encounters.LandMorning]]
-name = "FOMANTIS"
-minimum_level = 19
-maximum_level = 22
-
-[[encounters.LandMorning]]
-name = "SCATTERBUG"
-minimum_level = 18
-maximum_level = 21
-
-[[encounters.LandMorning]]
-name = "LEDYBA"
-minimum_level = 18
-maximum_level = 21
-
-[[encounters.LandMorning]]
-name = "PIDGEY"
-minimum_level = 18
-maximum_level = 21
-
-[[encounters.LandMorning]]
-name = "SMOLIV"
-minimum_level = 18
-maximum_level = 21
-
-[[encounters.LandMorning]]
-name = "PIDGEY"
-minimum_level = 20
-maximum_level = 22
-
-[[encounters.LandMorning]]
-name = "LEDYBA"
-minimum_level = 20
-maximum_level = 22
-
-[[encounters.LandMorning]]
-name = "PIDGEY"
-minimum_level = 20
-maximum_level = 23
-
-[[encounters.LandMorning]]
-name = "PANSAGE"
-minimum_level = 20
-maximum_level = 25
-
-[[encounters.LandDay]]
-name = "BEEDRILL"
-minimum_level = 17
-maximum_level = 21
-
-[[encounters.LandDay]]
-name = "PIDGEY"
-minimum_level = 18
-maximum_level = 21
-
-[[encounters.LandDay]]
-name = "BEEDRILL"
-minimum_level = 17
-maximum_level = 20
-
-[[encounters.LandDay]]
-name = "FOMANTIS"
-minimum_level = 19
-maximum_level = 22
-
-[[encounters.LandDay]]
-name = "SCATTERBUG"
-minimum_level = 19
-maximum_level = 22
-
-[[encounters.LandDay]]
-name = "ODDISH"
-minimum_level = 18
-maximum_level = 21
-
-[[encounters.LandDay]]
-name = "BELLSPROUT"
-minimum_level = 19
-maximum_level = 22
-
-[[encounters.LandDay]]
-name = "SMOLIV"
-minimum_level = 18
-maximum_level = 21
-
-[[encounters.LandDay]]
-name = "PANSAGE"
-minimum_level = 20
-maximum_level = 22
-
-[[encounters.LandDay]]
-name = "PANSAGE"
-minimum_level = 20
-maximum_level = 23
-
-[[encounters.LandDay]]
-name = "PANSAGE"
-minimum_level = 20
-maximum_level = 24
-
-[[encounters.LandDay]]
-name = "CARNIVINE"
-minimum_level = 20
-maximum_level = 25
-
-[[encounters.LandNight]]
-name = "SCATTERBUG"
-minimum_level = 20
-maximum_level = 22
-
-[[encounters.LandNight]]
-name = "SPINARAK"
-minimum_level = 20
-maximum_level = 22
-
-[[encounters.LandNight]]
-name = "HOOTHOOT"
-minimum_level = 18
-maximum_level = 23
-
-[[encounters.LandNight]]
-name = "FOMANTIS"
-minimum_level = 18
-maximum_level = 20
-
-[[encounters.LandNight]]
-name = "HOOTHOOT"
-minimum_level = 20
-maximum_level = 23
-
-[[encounters.LandNight]]
-name = "PARAS"
-minimum_level = 20
-maximum_level = 23
-
-[[encounters.LandNight]]
-name = "PANSAGE"
-minimum_level = 20
-maximum_level = 23
-
-[[encounters.LandNight]]
-name = "PARAS"
-minimum_level = 18
-maximum_level = 21
-
-[[encounters.LandNight]]
-name = "PARAS"
-minimum_level = 19
-maximum_level = 22
-
-[[encounters.LandNight]]
-name = "CARNIVINE"
-minimum_level = 20
-maximum_level = 23
-
-[[encounters.LandNight]]
-name = "PANSAGE"
-minimum_level = 22
-maximum_level = 26
-
-[[encounters.LandNight]]
-name = "CARNIVINE"
-minimum_level = 21
-maximum_level = 24
+LandMorning = [
+    { name = "BEEDRILL", minimum_level = 17, maximum_level = 20 },
+    { name = "SEWADDLE", minimum_level = 19, maximum_level = 22 },
+    { name = "SCATTERBUG", minimum_level = 19, maximum_level = 22 },
+    { name = "FOMANTIS", minimum_level = 19, maximum_level = 22 },
+    { name = "SCATTERBUG", minimum_level = 18, maximum_level = 21 },
+    { name = "LEDYBA", minimum_level = 18, maximum_level = 21 },
+    { name = "PIDGEY", minimum_level = 18, maximum_level = 21 },
+    { name = "SMOLIV", minimum_level = 18, maximum_level = 21 },
+    { name = "PIDGEY", minimum_level = 20, maximum_level = 22 },
+    { name = "LEDYBA", minimum_level = 20, maximum_level = 22 },
+    { name = "PIDGEY", minimum_level = 20, maximum_level = 23 },
+    { name = "PANSAGE", minimum_level = 20, maximum_level = 25 },
+]
+LandDay = [
+    { name = "BEEDRILL", minimum_level = 17, maximum_level = 21 },
+    { name = "PIDGEY", minimum_level = 18, maximum_level = 21 },
+    { name = "BEEDRILL", minimum_level = 17, maximum_level = 20 },
+    { name = "FOMANTIS", minimum_level = 19, maximum_level = 22 },
+    { name = "SCATTERBUG", minimum_level = 19, maximum_level = 22 },
+    { name = "ODDISH", minimum_level = 18, maximum_level = 21 },
+    { name = "BELLSPROUT", minimum_level = 19, maximum_level = 22 },
+    { name = "SMOLIV", minimum_level = 18, maximum_level = 21 },
+    { name = "PANSAGE", minimum_level = 20, maximum_level = 22 },
+    { name = "PANSAGE", minimum_level = 20, maximum_level = 23 },
+    { name = "PANSAGE", minimum_level = 20, maximum_level = 24 },
+    { name = "CARNIVINE", minimum_level = 20, maximum_level = 25 },
+]
+LandNight = [
+    { name = "SCATTERBUG", minimum_level = 20, maximum_level = 22 },
+    { name = "SPINARAK", minimum_level = 20, maximum_level = 22 },
+    { name = "HOOTHOOT", minimum_level = 18, maximum_level = 23 },
+    { name = "FOMANTIS", minimum_level = 18, maximum_level = 20 },
+    { name = "HOOTHOOT", minimum_level = 20, maximum_level = 23 },
+    { name = "PARAS", minimum_level = 20, maximum_level = 23 },
+    { name = "PANSAGE", minimum_level = 20, maximum_level = 23 },
+    { name = "PARAS", minimum_level = 18, maximum_level = 21 },
+    { name = "PARAS", minimum_level = 19, maximum_level = 22 },
+    { name = "CARNIVINE", minimum_level = 20, maximum_level = 23 },
+    { name = "PANSAGE", minimum_level = 22, maximum_level = 26 },
+    { name = "CARNIVINE", minimum_level = 21, maximum_level = 24 },
+]

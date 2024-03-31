@@ -1,3 +1,4 @@
+dex_number = 432
 name = "Purugly"
 primary_type = "NORMAL"
 secondary_type = "NORMAL"
@@ -6,11 +7,113 @@ growth_rate = "Fast"
 exp_yield = 158
 catch_rate = 75
 caught_happiness = 70
-raw_abilities = ["THICKFAT", "SHARPNESS", "DEFIANT"]
-raw_egg_moves = []
-raw_tms = ["WORKUP", "CUT", "ROAR", "TOXIC", "FLASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "SHADOWBALL", "DOUBLETEAM", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "SHADOWCLAW", "PAYBACK", "GIGAIMPACT", "PSYCHUP", "BULLDOZE", "DREAMEATER", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "CHARM", "FAKETEARS", "ASSURANCE", "BODYSLAM", "ENDURE", "PLAYROUGH", "RETALIATE", "SWIFT", "SWORDSDANCE", "PSYCHOCUT"]
-raw_tutor_moves = ["COVET", "FOULPLAY", "FURYCUTTER", "HEADBUTT", "HYPERVOICE", "IRONTAIL", "KNOCKOFF", "LASTRESORT", "MUDSLAP", "ROLLOUT", "SHOCKWAVE", "SNATCH", "SNORE", "STOMPINGTANTRUM", "SUCKERPUNCH", "SUPERFANG", "THROATCHOP", "WATERPULSE", "MIMIC"]
-compatible_egg_groups = ["Field"]
+raw_abilities = [
+    "THICKFAT",
+    "SHARPNESS",
+    "DEFIANT",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "FURYCUTTER" },
+    { at_level = 1, name = "ROLLOUT" },
+    { at_level = 1, name = "ASSIST" },
+    { at_level = 1, name = "BITE" },
+    { at_level = 1, name = "GROWL" },
+    { at_level = 1, name = "SCRATCH" },
+    { at_level = 1, name = "QUICKATTACK" },
+    { at_level = 4, name = "FEINTATTACK" },
+    { at_level = 7, name = "FURYSWIPES" },
+    { at_level = 10, name = "HYPNOSIS" },
+    { at_level = 13, name = "CHARM" },
+    { at_level = 16, name = "KNOCKOFF" },
+    { at_level = 19, name = "FAKEOUT" },
+    { at_level = 22, name = "SLASH" },
+    { at_level = 25, name = "AERIALACE" },
+    { at_level = 26, name = "WAKEUPSLAP" },
+    { at_level = 29, name = "UTURN" },
+    { at_level = 33, name = "FLAIL" },
+    { at_level = 37, name = "COVET" },
+    { at_level = 41, name = "SUCKERPUNCH" },
+    { at_level = 45, name = "FOULPLAY" },
+    { at_level = 49, name = "BODYSLAM" },
+    { at_level = 53, name = "PLAYROUGH" },
+    { at_level = 57, name = "CRUNCH" },
+    { at_level = 61, name = "LASTRESORT" },
+]
+raw_tms = [
+    "WORKUP",
+    "CUT",
+    "ROAR",
+    "TOXIC",
+    "FLASH",
+    "ROCKCLIMB",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "THUNDERBOLT",
+    "THUNDER",
+    "RETURN",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "AERIALACE",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "ECHOEDVOICE",
+    "SHADOWCLAW",
+    "PAYBACK",
+    "GIGAIMPACT",
+    "SWORDSDANCE",
+    "PSYCHUP",
+    "BULLDOZE",
+    "DREAMEATER",
+    "SWAGGER",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "DIG",
+    "CHARM",
+    "FAKETEARS",
+    "ASSURANCE",
+    "PSYCHOCUT",
+    "BODYSLAM",
+    "ENDURE",
+    "PLAYROUGH",
+    "RETALIATE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "COVET",
+    "FOULPLAY",
+    "FURYCUTTER",
+    "HEADBUTT",
+    "HYPERVOICE",
+    "IRONTAIL",
+    "KNOCKOFF",
+    "LASTRESORT",
+    "MIMIC",
+    "MUDSLAP",
+    "ROLLOUT",
+    "SHOCKWAVE",
+    "SNATCH",
+    "SNORE",
+    "STOMPINGTANTRUM",
+    "SUCKERPUNCH",
+    "SUPERFANG",
+    "THROATCHOP",
+    "WATERPULSE",
+]
+compatible_egg_groups = [
+    "Field",
+]
 steps_to_hatch = 5355
 height = 1.0
 weight = 43.8
@@ -20,110 +123,6 @@ pokedex_entry = "Though impudent and difficult to tame, Purugly enjoys great pop
 battler_player_y = 19
 battler_enemy_y = 13
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 432
-internal_name = "PURUGLY"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FURYCUTTER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ROLLOUT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ASSIST"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SCRATCH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "QUICKATTACK"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "FEINTATTACK"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "FURYSWIPES"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "HYPNOSIS"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "CHARM"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "KNOCKOFF"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "FAKEOUT"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "SLASH"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "AERIALACE"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "WAKEUPSLAP"
-
-[[raw_level_up_moves]]
-at_level = 29
-name = "UTURN"
-
-[[raw_level_up_moves]]
-at_level = 33
-name = "FLAIL"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "COVET"
-
-[[raw_level_up_moves]]
-at_level = 41
-name = "SUCKERPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "FOULPLAY"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 53
-name = "PLAYROUGH"
-
-[[raw_level_up_moves]]
-at_level = 57
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 61
-name = "LASTRESORT"
 
 [base_stats]
 hp = 90
@@ -140,5 +139,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 2
-
-[wild_items]

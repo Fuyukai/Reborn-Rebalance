@@ -1,3 +1,4 @@
+dex_number = 103
 name = "Exeggutor"
 primary_type = "GRASS"
 secondary_type = "PSYCHIC"
@@ -6,11 +7,110 @@ growth_rate = "Slow"
 exp_yield = 186
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["CHLOROPHYLL", "HARVEST"]
-raw_egg_moves = []
-raw_tms = ["PSYSHOCK", "CALMMIND", "STRENGTH", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "FRUSTRATION", "SOLARBEAM", "EARTHQUAKE", "RETURN", "PSYCHIC", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "SLUDGEBOMB", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ENERGYBALL", "BRUTALSWING", "EXPLOSION", "GIGAIMPACT", "SWORDSDANCE", "PSYCHUP", "BULLDOZE", "DRAGONTAIL", "INFESTATION", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "MAGICALLEAF", "SELFDESTRUCT", "BULLETSEED", "POWERSWAP", "PSYCHOCUT", "GRASSYTERRAIN", "BREAKINGSWIPE", "POWERWHIP", "LEAFSTORM", "ENDURE", "FUTURESIGHT"]
-raw_tutor_moves = ["ANCIENTPOWER", "BLOCK", "DRACOMETEOR", "DRAGONPULSE", "GIGADRAIN", "GRAVITY", "HEADBUTT", "IRONHEAD", "IRONTAIL", "KNOCKOFF", "LOWKICK", "OUTRAGE", "ROLLOUT", "SEEDBOMB", "SKILLSWAP", "SNORE", "STOMPINGTANTRUM", "SUPERPOWER", "SYNTHESIS", "TELEKINESIS", "WORRYSEED", "ZENHEADBUTT", "TERRAINPULSE", "GRASSYGLIDE", "EXPANDINGFORCE", "MIMIC", "CELEBRATE"]
-compatible_egg_groups = ["Grass"]
+raw_abilities = [
+    "CHLOROPHYLL",
+    "HARVEST",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "ANCIENTPOWER" },
+    { at_level = 1, name = "HYPNOSIS" },
+    { at_level = 1, name = "LEECHSEED" },
+    { at_level = 35, name = "WOODHAMMER" },
+    { at_level = 40, name = "EXTRASENSORY" },
+    { at_level = 50, name = "POISONPOWDER" },
+    { at_level = 50, name = "SLEEPPOWDER" },
+    { at_level = 50, name = "STUNSPORE" },
+    { at_level = 60, name = "LEAFSTORM" },
+    { at_level = 70, name = "SOFTBOILED" },
+]
+raw_tms = [
+    "PSYSHOCK",
+    "CALMMIND",
+    "STRENGTH",
+    "TOXIC",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "EARTHQUAKE",
+    "RETURN",
+    "PSYCHIC",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "REFLECT",
+    "FLAMETHROWER",
+    "SLUDGEBOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "ENERGYBALL",
+    "BRUTALSWING",
+    "EXPLOSION",
+    "GIGAIMPACT",
+    "SWORDSDANCE",
+    "PSYCHUP",
+    "BULLDOZE",
+    "DRAGONTAIL",
+    "INFESTATION",
+    "DREAMEATER",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "TRICKROOM",
+    "SECRETPOWER",
+    "NATUREPOWER",
+    "CONFIDE",
+    "MAGICALLEAF",
+    "SELFDESTRUCT",
+    "BULLETSEED",
+    "POWERSWAP",
+    "PSYCHOCUT",
+    "GRASSYTERRAIN",
+    "BREAKINGSWIPE",
+    "POWERWHIP",
+    "LEAFSTORM",
+    "ENDURE",
+    "FUTURESIGHT",
+]
+raw_tutor_moves = [
+    "ANCIENTPOWER",
+    "BLOCK",
+    "CELEBRATE",
+    "DRACOMETEOR",
+    "DRAGONPULSE",
+    "EXPANDINGFORCE",
+    "GIGADRAIN",
+    "GRASSYGLIDE",
+    "GRAVITY",
+    "HEADBUTT",
+    "IRONHEAD",
+    "IRONTAIL",
+    "KNOCKOFF",
+    "LOWKICK",
+    "MIMIC",
+    "OUTRAGE",
+    "ROLLOUT",
+    "SEEDBOMB",
+    "SKILLSWAP",
+    "SNORE",
+    "STOMPINGTANTRUM",
+    "SUPERPOWER",
+    "SYNTHESIS",
+    "TELEKINESIS",
+    "TERRAINPULSE",
+    "WORRYSEED",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Grass",
+]
 steps_to_hatch = 5355
 height = 2.0
 weight = 120.0
@@ -20,51 +120,11 @@ pokedex_entry = "Originally from the tropics, Exeggutor's heads grow larger from
 battler_player_y = 14
 battler_enemy_y = 5
 battler_altitude = 0
-evolutions = []
-form_names = ["Normal", "Alternate"]
-dex_number = 103
-internal_name = "EXEGGUTOR"
 habitat = "Forest"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ANCIENTPOWER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HYPNOSIS"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEECHSEED"
-
-[[raw_level_up_moves]]
-at_level = 35
-name = "WOODHAMMER"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "EXTRASENSORY"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "POISONPOWDER"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "SLEEPPOWDER"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "STUNSPORE"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "LEAFSTORM"
-
-[[raw_level_up_moves]]
-at_level = 70
-name = "SOFTBOILED"
+form_names = [
+    "Normal",
+    "Alternate",
+]
 
 [base_stats]
 hp = 95
@@ -81,5 +141,3 @@ def_ = 0
 spa = 2
 spd = 0
 spe = 0
-
-[wild_items]

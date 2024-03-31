@@ -1,3 +1,4 @@
+dex_number = 91
 name = "Cloyster"
 primary_type = "WATER"
 secondary_type = "ICE"
@@ -6,11 +7,91 @@ growth_rate = "Slow"
 exp_yield = 184
 catch_rate = 60
 caught_happiness = 70
-raw_abilities = ["SHELLARMOR", "SKILLLINK"]
-raw_egg_moves = []
-raw_tms = ["SURF", "TOXIC", "DIVE", "HAIL", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "DOUBLETEAM", "REFLECT", "TORMENT", "FACADE", "REST", "ATTRACT", "ROUND", "EXPLOSION", "PAYBACK", "SMARTSTRIKE", "GIGAIMPACT", "FROSTBREATH", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "PINMISSILE", "SCREECH", "SELFDESTRUCT", "WHIRLPOOL", "WEATHERBALL", "ICICLESPEAR", "ROCKBLAST", "MUDSHOT", "BRINE", "AVALANCHE", "RAZORSHELL", "HYDROPUMP", "TRIATTACK", "SPIKES", "ENDURE", "TOXICSPIKES", "ICESPINNER", "SNOWSCAPE", "CHILLINGWATER", "SWIFT"]
-raw_tutor_moves = ["ICYWIND", "IRONDEFENSE", "LIQUIDATION", "SIGNALBEAM", "SNORE", "WATERPULSE", "STEELROLLER", "MIMIC"]
-compatible_egg_groups = ["Water3"]
+raw_abilities = [
+    "SHELLARMOR",
+    "SKILLLINK",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "AURORABEAM" },
+    { at_level = 1, name = "PINMISSILE" },
+    { at_level = 1, name = "RAPIDSPIN" },
+    { at_level = 1, name = "TOXICSPIKES" },
+    { at_level = 19, name = "SMARTSTRIKE" },
+    { at_level = 31, name = "SPIKES" },
+    { at_level = 40, name = "RAZORSHELL" },
+    { at_level = 50, name = "TWINEEDLE" },
+    { at_level = 58, name = "ICICLECRASH" },
+    { at_level = 63, name = "ROCKBLAST" },
+    { at_level = 69, name = "ICICLESPEAR" },
+    { at_level = 74, name = "ICESHARD" },
+    { at_level = 78, name = "SHELLSMASH" },
+]
+raw_tms = [
+    "SURF",
+    "TOXIC",
+    "DIVE",
+    "HAIL",
+    "HIDDENPOWER",
+    "ICEBEAM",
+    "BLIZZARD",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "RETURN",
+    "DOUBLETEAM",
+    "REFLECT",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "EXPLOSION",
+    "PAYBACK",
+    "SMARTSTRIKE",
+    "GIGAIMPACT",
+    "FROSTBREATH",
+    "POISONJAB",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "PINMISSILE",
+    "SCREECH",
+    "SELFDESTRUCT",
+    "WHIRLPOOL",
+    "WEATHERBALL",
+    "ICICLESPEAR",
+    "ROCKBLAST",
+    "MUDSHOT",
+    "BRINE",
+    "AVALANCHE",
+    "RAZORSHELL",
+    "HYDROPUMP",
+    "TRIATTACK",
+    "SPIKES",
+    "ENDURE",
+    "TOXICSPIKES",
+    "ICESPINNER",
+    "SNOWSCAPE",
+    "CHILLINGWATER",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "ICYWIND",
+    "IRONDEFENSE",
+    "LIQUIDATION",
+    "MIMIC",
+    "SIGNALBEAM",
+    "SNORE",
+    "STEELROLLER",
+    "WATERPULSE",
+]
+compatible_egg_groups = [
+    "Water3",
+]
 steps_to_hatch = 5355
 height = 1.5
 weight = 132.5
@@ -20,64 +101,8 @@ pokedex_entry = "It swims in the sea by swallowing water, then jetting it out to
 battler_player_y = 20
 battler_enemy_y = 12
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 91
-internal_name = "CLOYSTER"
 raw_hidden_ability = "OVERCOAT"
 habitat = "Sea"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "AURORABEAM"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "PINMISSILE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "RAPIDSPIN"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TOXICSPIKES"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "SMARTSTRIKE"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "SPIKES"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "RAZORSHELL"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "TWINEEDLE"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "ICICLECRASH"
-
-[[raw_level_up_moves]]
-at_level = 63
-name = "ROCKBLAST"
-
-[[raw_level_up_moves]]
-at_level = 69
-name = "ICICLESPEAR"
-
-[[raw_level_up_moves]]
-at_level = 74
-name = "ICESHARD"
-
-[[raw_level_up_moves]]
-at_level = 78
-name = "SHELLSMASH"
 
 [base_stats]
 hp = 50

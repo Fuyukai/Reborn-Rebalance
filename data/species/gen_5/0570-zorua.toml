@@ -1,3 +1,4 @@
+dex_number = 570
 name = "Zorua"
 primary_type = "DARK"
 secondary_type = "DARK"
@@ -6,11 +7,100 @@ growth_rate = "Parabolic"
 exp_yield = 66
 catch_rate = 75
 caught_happiness = 70
-raw_abilities = ["ILLUSION"]
-raw_egg_moves = ["COMEUPPANCE", "CAPTIVATE", "COPYCAT", "COUNTER", "DARKPULSE", "DETECT", "EXTRASENSORY", "MEMENTO", "SNATCH", "SUCKERPUNCH"]
-raw_tms = ["CUT", "CALMMIND", "ROAR", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "SHADOWBALL", "DOUBLETEAM", "SLUDGEBOMB", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "FLING", "EMBARGO", "PAYBACK", "SWORDSDANCE", "PSYCHUP", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "SNARL", "DARKPULSE", "CONFIDE", "DIG", "SCARYFACE", "REVENGE", "IMPRISON", "FAKETEARS", "ASSURANCE", "HEX", "AGILITY", "ENDURE", "NASTYPLOT", "RETALIATE", "SNOWSCAPE"]
-raw_tutor_moves = ["BOUNCE", "COVET", "FOULPLAY", "HYPERVOICE", "KNOCKOFF", "SNATCH", "SNORE", "SPITE", "TRICK", "UPROAR", "BURNINGJEALOUSY", "SKITTERSMACK", "LASHOUT", "MIMIC"]
-compatible_egg_groups = ["Field"]
+raw_abilities = [
+    "ILLUSION",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "LEER" },
+    { at_level = 1, name = "SCRATCH" },
+    { at_level = 4, name = "PURSUIT" },
+    { at_level = 7, name = "COVET" },
+    { at_level = 10, name = "FAKETEARS" },
+    { at_level = 13, name = "TORMENT" },
+    { at_level = 16, name = "FURYSWIPES" },
+    { at_level = 19, name = "IMPRISON" },
+    { at_level = 22, name = "SCARYFACE" },
+    { at_level = 25, name = "FEINTATTACK" },
+    { at_level = 28, name = "MEMENTO" },
+    { at_level = 31, name = "PAYBACK" },
+    { at_level = 34, name = "UPROAR" },
+    { at_level = 38, name = "CAPTIVATE" },
+    { at_level = 42, name = "SLASH" },
+    { at_level = 42, name = "NIGHTSLASH" },
+    { at_level = 46, name = "COUNTER" },
+    { at_level = 50, name = "SUCKERPUNCH" },
+    { at_level = 54, name = "HEX" },
+    { at_level = 58, name = "NIGHTDAZE" },
+    { at_level = 62, name = "EXTRASENSORY" },
+]
+raw_tms = [
+    "CUT",
+    "CALMMIND",
+    "ROAR",
+    "TOXIC",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "RETURN",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "SLUDGEBOMB",
+    "AERIALACE",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "FLING",
+    "EMBARGO",
+    "PAYBACK",
+    "SWORDSDANCE",
+    "PSYCHUP",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "SNARL",
+    "DARKPULSE",
+    "CONFIDE",
+    "DIG",
+    "SCARYFACE",
+    "REVENGE",
+    "IMPRISON",
+    "FAKETEARS",
+    "ASSURANCE",
+    "HEX",
+    "AGILITY",
+    "ENDURE",
+    "NASTYPLOT",
+    "RETALIATE",
+    "SNOWSCAPE",
+]
+raw_tutor_moves = [
+    "BOUNCE",
+    "BURNINGJEALOUSY",
+    "COVET",
+    "FOULPLAY",
+    "HYPERVOICE",
+    "KNOCKOFF",
+    "LASHOUT",
+    "MIMIC",
+    "SKITTERSMACK",
+    "SNATCH",
+    "SNORE",
+    "SPITE",
+    "TRICK",
+    "UPROAR",
+]
+compatible_egg_groups = [
+    "Field",
+]
 steps_to_hatch = 6400
 height = 0.7
 weight = 12.5
@@ -20,100 +110,21 @@ pokedex_entry = "To protect themselves from danger, they hide their true identit
 battler_player_y = 25
 battler_enemy_y = 30
 battler_altitude = 0
-form_names = []
-dex_number = 570
-internal_name = "ZORUA"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SCRATCH"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "PURSUIT"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "COVET"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "FAKETEARS"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "TORMENT"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "FURYSWIPES"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "IMPRISON"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "SCARYFACE"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "FEINTATTACK"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "MEMENTO"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "PAYBACK"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "UPROAR"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "CAPTIVATE"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "SLASH"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "NIGHTSLASH"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "COUNTER"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "SUCKERPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "HEX"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "NIGHTDAZE"
-
-[[raw_level_up_moves]]
-at_level = 62
-name = "EXTRASENSORY"
-
-[[evolutions]]
-into_name = "ZOROARK"
-condition = "Level"
-parameter = "30"
-
-
+raw_egg_moves = [
+    "COMEUPPANCE",
+    "CAPTIVATE",
+    "COPYCAT",
+    "COUNTER",
+    "DARKPULSE",
+    "DETECT",
+    "EXTRASENSORY",
+    "MEMENTO",
+    "SNATCH",
+    "SUCKERPUNCH",
+]
+evolutions = [
+    { into_name = "ZOROARK", condition = "Level", parameter = "30" },
+]
 
 [base_stats]
 hp = 40
@@ -130,5 +141,3 @@ def_ = 0
 spa = 1
 spd = 0
 spe = 0
-
-[wild_items]

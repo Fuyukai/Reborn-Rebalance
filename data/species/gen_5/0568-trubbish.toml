@@ -1,3 +1,4 @@
+dex_number = 568
 name = "Trubbish"
 primary_type = "POISON"
 secondary_type = "POISON"
@@ -6,11 +7,83 @@ growth_rate = "Medium"
 exp_yield = 66
 catch_rate = 190
 caught_happiness = 70
-raw_abilities = ["STENCH", "STICKYHOLD"]
-raw_egg_moves = ["AUTOTOMIZE", "CURSE", "HAZE", "MUDSPORT", "ROCKBLAST", "ROLLOUT", "SANDATTACK", "SELFDESTRUCT", "SPIKES", "CORROSIVEGAS"]
-raw_tms = ["TOXIC", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "DOUBLETEAM", "SLUDGEWAVE", "SLUDGEBOMB", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "EXPLOSION", "PAYBACK", "INFESTATION", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "DARKPULSE", "CONFIDE", "SELFDESTRUCT", "ROCKBLAST", "AMNESIA", "SPIKES", "ENDURE", "TOXICSPIKES", "VENOMDRENCH"]
-raw_tutor_moves = ["DRAINPUNCH", "GIGADRAIN", "GUNKSHOT", "PAINSPLIT", "RECYCLE", "SEEDBOMB", "SNORE", "SPITE", "CORROSIVEGAS", "MIMIC"]
-compatible_egg_groups = ["Mineral"]
+raw_abilities = [
+    "STENCH",
+    "STICKYHOLD",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "WIDEGUARD" },
+    { at_level = 1, name = "POUND" },
+    { at_level = 1, name = "SANDATTACK" },
+    { at_level = 4, name = "MUDSLAP" },
+    { at_level = 7, name = "CURSE" },
+    { at_level = 10, name = "ROCKBLAST" },
+    { at_level = 13, name = "ACIDSPRAY" },
+    { at_level = 16, name = "TOXIC" },
+    { at_level = 19, name = "ROLLOUT" },
+    { at_level = 22, name = "CLEARSMOG" },
+    { at_level = 25, name = "FLING" },
+    { at_level = 28, name = "SLUDGE" },
+    { at_level = 31, name = "RECYCLE" },
+    { at_level = 34, name = "STOCKPILE" },
+    { at_level = 34, name = "SWALLOW" },
+    { at_level = 37, name = "CROSSPOISON" },
+    { at_level = 40, name = "BODYSLAM" },
+    { at_level = 44, name = "PAINSPLIT" },
+    { at_level = 48, name = "AMNESIA" },
+    { at_level = 52, name = "PAYBACK" },
+    { at_level = 56, name = "DOUBLEEDGE" },
+    { at_level = 60, name = "SELFDESTRUCT" },
+]
+raw_tms = [
+    "TOXIC",
+    "VENOSHOCK",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "RETURN",
+    "DOUBLETEAM",
+    "SLUDGEWAVE",
+    "SLUDGEBOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "EXPLOSION",
+    "PAYBACK",
+    "INFESTATION",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "DARKPULSE",
+    "CONFIDE",
+    "SELFDESTRUCT",
+    "ROCKBLAST",
+    "AMNESIA",
+    "SPIKES",
+    "ENDURE",
+    "TOXICSPIKES",
+    "VENOMDRENCH",
+]
+raw_tutor_moves = [
+    "CORROSIVEGAS",
+    "DRAINPUNCH",
+    "GIGADRAIN",
+    "GUNKSHOT",
+    "MIMIC",
+    "PAINSPLIT",
+    "RECYCLE",
+    "SEEDBOMB",
+    "SNORE",
+    "SPITE",
+]
+compatible_egg_groups = [
+    "Mineral",
+]
 steps_to_hatch = 5120
 height = 0.6
 weight = 31.0
@@ -20,105 +93,22 @@ pokedex_entry = "The combination of garbage bags and industrial waste caused the
 battler_player_y = 30
 battler_enemy_y = 35
 battler_altitude = 0
-form_names = []
-dex_number = 568
-internal_name = "TRUBBISH"
 raw_hidden_ability = "AFTERMATH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WIDEGUARD"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "POUND"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SANDATTACK"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "MUDSLAP"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "CURSE"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "ROCKBLAST"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "ACIDSPRAY"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "TOXIC"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "ROLLOUT"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "CLEARSMOG"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "FLING"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "SLUDGE"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "RECYCLE"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "STOCKPILE"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "SWALLOW"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "CROSSPOISON"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "PAINSPLIT"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "AMNESIA"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "PAYBACK"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "DOUBLEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "SELFDESTRUCT"
-
-[[evolutions]]
-into_name = "GARBODOR"
-condition = "Level"
-parameter = "36"
-
-
+raw_egg_moves = [
+    "AUTOTOMIZE",
+    "CURSE",
+    "HAZE",
+    "MUDSPORT",
+    "ROCKBLAST",
+    "ROLLOUT",
+    "SANDATTACK",
+    "SELFDESTRUCT",
+    "SPIKES",
+    "CORROSIVEGAS",
+]
+evolutions = [
+    { into_name = "GARBODOR", condition = "Level", parameter = "36" },
+]
 
 [base_stats]
 hp = 65

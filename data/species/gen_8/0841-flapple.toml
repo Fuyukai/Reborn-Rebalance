@@ -1,3 +1,4 @@
+dex_number = 841
 name = "Flapple"
 primary_type = "GRASS"
 secondary_type = "DRAGON"
@@ -6,11 +7,78 @@ growth_rate = "Erratic"
 exp_yield = 170
 catch_rate = 45
 caught_happiness = 50
-raw_abilities = ["RIPEN", "GLUTTONY"]
-raw_egg_moves = ["SUCKERPUNCH", "ROLLOUT", "DEFENSECURL", "RECYCLE"]
-raw_tms = ["FLY", "SUNNYDAY", "HYPERBEAM", "PROTECT", "SOLARBEAM", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "ACROBATICS", "GIGAIMPACT", "GRASSKNOT", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "SCARYFACE", "BULLETSEED", "AIRSLASH", "FOCUSENERGY", "ENDURE", "DRAGONDANCE", "HEAVYSLAM", "POUNCE", "TRAILBLAZE"]
-raw_tutor_moves = ["DRACOMETEOR", "DRAGONPULSE", "GIGADRAIN", "IRONDEFENSE", "OUTRAGE", "RECYCLE", "ROLLOUT", "SEEDBOMB", "SNORE", "SUCKERPUNCH", "TWISTER", "GRASSYGLIDE", "DUALWINGBEAT", "MIMIC"]
-compatible_egg_groups = ["Grass", "Dragon"]
+raw_abilities = [
+    "RIPEN",
+    "GLUTTONY",
+]
+raw_level_up_moves = [
+    { at_level = 0, name = "WINGATTACK" },
+    { at_level = 1, name = "WINGATTACK" },
+    { at_level = 1, name = "RECYCLE" },
+    { at_level = 1, name = "WITHDRAW" },
+    { at_level = 1, name = "ASTONISH" },
+    { at_level = 1, name = "GROWTH" },
+    { at_level = 1, name = "TWISTER" },
+    { at_level = 4, name = "ACIDSPRAY" },
+    { at_level = 8, name = "ACROBATICS" },
+    { at_level = 12, name = "LEECHSEED" },
+    { at_level = 16, name = "PROTECT" },
+    { at_level = 20, name = "DRAGONBREATH" },
+    { at_level = 24, name = "DRAGONDANCE" },
+    { at_level = 28, name = "DRAGONPULSE" },
+    { at_level = 32, name = "GRAVAPPLE" },
+    { at_level = 36, name = "IRONDEFENSE" },
+    { at_level = 40, name = "FLY" },
+    { at_level = 44, name = "DRAGONRUSH" },
+]
+raw_tms = [
+    "FLY",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "PROTECT",
+    "SOLARBEAM",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ENERGYBALL",
+    "ACROBATICS",
+    "GIGAIMPACT",
+    "GRASSKNOT",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "SCARYFACE",
+    "BULLETSEED",
+    "AIRSLASH",
+    "FOCUSENERGY",
+    "ENDURE",
+    "DRAGONDANCE",
+    "HEAVYSLAM",
+    "POUNCE",
+    "TRAILBLAZE",
+]
+raw_tutor_moves = [
+    "DRACOMETEOR",
+    "DRAGONPULSE",
+    "DUALWINGBEAT",
+    "GIGADRAIN",
+    "GRASSYGLIDE",
+    "IRONDEFENSE",
+    "MIMIC",
+    "OUTRAGE",
+    "RECYCLE",
+    "ROLLOUT",
+    "SEEDBOMB",
+    "SNORE",
+    "SUCKERPUNCH",
+    "TWISTER",
+]
+compatible_egg_groups = [
+    "Grass",
+    "Dragon",
+]
 steps_to_hatch = 5120
 height = 0.3
 weight = 1.0
@@ -20,84 +88,14 @@ pokedex_entry = "It flies on wings of apple skin and spits a powerful acid. It c
 battler_player_y = 21
 battler_enemy_y = 26
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 841
-internal_name = "FLAPPLE"
 raw_hidden_ability = "HUSTLE"
+raw_egg_moves = [
+    "SUCKERPUNCH",
+    "ROLLOUT",
+    "DEFENSECURL",
+    "RECYCLE",
+]
 regional_numbers = 841
-
-[[raw_level_up_moves]]
-at_level = 0
-name = "WINGATTACK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WINGATTACK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "RECYCLE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WITHDRAW"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ASTONISH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWTH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TWISTER"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "ACIDSPRAY"
-
-[[raw_level_up_moves]]
-at_level = 8
-name = "ACROBATICS"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "LEECHSEED"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "PROTECT"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "DRAGONBREATH"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "DRAGONDANCE"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "DRAGONPULSE"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "GRAVAPPLE"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "IRONDEFENSE"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "FLY"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "DRAGONRUSH"
 
 [base_stats]
 hp = 70
@@ -114,5 +112,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

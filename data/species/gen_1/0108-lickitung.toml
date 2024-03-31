@@ -1,3 +1,4 @@
+dex_number = 108
 name = "Lickitung"
 primary_type = "NORMAL"
 secondary_type = "NORMAL"
@@ -6,11 +7,124 @@ growth_rate = "Medium"
 exp_yield = 77
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["CLOUDNINE", "GLUTTONY"]
-raw_egg_moves = ["AMNESIA", "BELCH", "BELLYDRUM", "BODYSLAM", "CURSE", "HAMMERARM", "MAGNITUDE", "MUDDYWATER", "SLEEPTALK", "SMELLINGSALTS", "SNORE", "THRASH", "ZENHEADBUTT"]
-raw_tms = ["WORKUP", "CUT", "SURF", "STRENGTH", "TOXIC", "ROCKSMASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "SOLARBEAM", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "FLAMETHROWER", "SANDSTORM", "FIREBLAST", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "FLING", "BRUTALSWING", "GIGAIMPACT", "SWORDSDANCE", "PSYCHUP", "BULLDOZE", "ROCKSLIDE", "DRAGONTAIL", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "SCREECH", "WHIRLPOOL", "BODYSLAM", "HYDROPUMP", "POWERWHIP", "AMNESIA", "ENDURE", "MUDDYWATER", "BODYPRESS", "RETALIATE"]
-raw_tutor_moves = ["AQUATAIL", "BIND", "FIREPUNCH", "FOCUSPUNCH", "HEADBUTT", "HELPINGHAND", "ICEPUNCH", "ICYWIND", "IRONTAIL", "KNOCKOFF", "MUDSLAP", "ROLLOUT", "SHOCKWAVE", "SNORE", "STOMPINGTANTRUM", "THUNDERPUNCH", "WATERPULSE", "ZENHEADBUTT", "TERRAINPULSE", "STEELROLLER", "ICEBALL", "MIMIC"]
-compatible_egg_groups = ["Monster"]
+raw_abilities = [
+    "CLOUDNINE",
+    "GLUTTONY",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "DEFENSECURL" },
+    { at_level = 1, name = "LICK" },
+    { at_level = 1, name = "WRAP" },
+    { at_level = 4, name = "AMNESIA" },
+    { at_level = 7, name = "REFRESH" },
+    { at_level = 10, name = "SCREECH" },
+    { at_level = 13, name = "MEFIRST" },
+    { at_level = 16, name = "CURSE" },
+    { at_level = 19, name = "STOMP" },
+    { at_level = 22, name = "HELPINGHAND" },
+    { at_level = 25, name = "DISABLE" },
+    { at_level = 28, name = "SCREECH" },
+    { at_level = 31, name = "CHIPAWAY" },
+    { at_level = 34, name = "MUDDYWATER" },
+    { at_level = 37, name = "ZENHEADBUTT" },
+    { at_level = 40, name = "ROLLOUT" },
+    { at_level = 43, name = "MAGNITUDE" },
+    { at_level = 46, name = "BODYSLAM" },
+    { at_level = 50, name = "HAMMERARM" },
+    { at_level = 54, name = "POWERWHIP" },
+    { at_level = 58, name = "DOUBLEEDGE" },
+    { at_level = 62, name = "BELLYDRUM" },
+    { at_level = 66, name = "WRINGOUT" },
+]
+raw_tms = [
+    "WORKUP",
+    "CUT",
+    "SURF",
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "ROCKCLIMB",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "ICEBEAM",
+    "BLIZZARD",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "THUNDERBOLT",
+    "THUNDER",
+    "EARTHQUAKE",
+    "RETURN",
+    "SHADOWBALL",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "FLAMETHROWER",
+    "SANDSTORM",
+    "FIREBLAST",
+    "ROCKTOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "FLING",
+    "BRUTALSWING",
+    "GIGAIMPACT",
+    "SWORDSDANCE",
+    "PSYCHUP",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "DRAGONTAIL",
+    "DREAMEATER",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "DIG",
+    "SCREECH",
+    "WHIRLPOOL",
+    "BODYSLAM",
+    "HYDROPUMP",
+    "POWERWHIP",
+    "AMNESIA",
+    "ENDURE",
+    "MUDDYWATER",
+    "BODYPRESS",
+    "RETALIATE",
+]
+raw_tutor_moves = [
+    "AQUATAIL",
+    "BIND",
+    "FIREPUNCH",
+    "FOCUSPUNCH",
+    "HEADBUTT",
+    "HELPINGHAND",
+    "ICEBALL",
+    "ICEPUNCH",
+    "ICYWIND",
+    "IRONTAIL",
+    "KNOCKOFF",
+    "MIMIC",
+    "MUDSLAP",
+    "ROLLOUT",
+    "SHOCKWAVE",
+    "SNORE",
+    "STEELROLLER",
+    "STOMPINGTANTRUM",
+    "TERRAINPULSE",
+    "THUNDERPUNCH",
+    "WATERPULSE",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Monster",
+]
 steps_to_hatch = 5355
 height = 1.2
 weight = 65.5
@@ -20,111 +134,25 @@ pokedex_entry = "Whenever it sees something unfamiliar, it always licks the obje
 battler_player_y = 19
 battler_enemy_y = 16
 battler_altitude = 0
-form_names = []
-dex_number = 108
-internal_name = "LICKITUNG"
+raw_egg_moves = [
+    "AMNESIA",
+    "BELCH",
+    "BELLYDRUM",
+    "BODYSLAM",
+    "CURSE",
+    "HAMMERARM",
+    "MAGNITUDE",
+    "MUDDYWATER",
+    "SLEEPTALK",
+    "SMELLINGSALTS",
+    "SNORE",
+    "THRASH",
+    "ZENHEADBUTT",
+]
 habitat = "Grassland"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "DEFENSECURL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LICK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WRAP"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "AMNESIA"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "REFRESH"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "SCREECH"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "MEFIRST"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "CURSE"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "STOMP"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "HELPINGHAND"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "DISABLE"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "SCREECH"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "CHIPAWAY"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "MUDDYWATER"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "ZENHEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "ROLLOUT"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "MAGNITUDE"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "HAMMERARM"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "POWERWHIP"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "DOUBLEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 62
-name = "BELLYDRUM"
-
-[[raw_level_up_moves]]
-at_level = 66
-name = "WRINGOUT"
-
-[[evolutions]]
-into_name = "LICKILICKY"
-condition = "HasMove"
-parameter = "ROLLOUT"
-
-
-
-
+evolutions = [
+    { into_name = "LICKILICKY", condition = "HasMove", parameter = "ROLLOUT" },
+]
 
 [base_stats]
 hp = 90

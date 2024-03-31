@@ -1,3 +1,4 @@
+dex_number = 431
 name = "Glameow"
 primary_type = "NORMAL"
 secondary_type = "NORMAL"
@@ -6,11 +7,98 @@ growth_rate = "Fast"
 exp_yield = 62
 catch_rate = 190
 caught_happiness = 70
-raw_abilities = ["LIMBER", "OWNTEMPO"]
-raw_egg_moves = ["ASSURANCE", "BITE", "FAKETEARS", "FLAIL", "LASTRESORT", "QUICKATTACK", "SANDATTACK", "SNATCH", "TAILWHIP", "WAKEUPSLAP"]
-raw_tms = ["WORKUP", "CUT", "TOXIC", "FLASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "SHADOWBALL", "DOUBLETEAM", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "SHADOWCLAW", "PAYBACK", "PSYCHUP", "DREAMEATER", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "CHARM", "FAKETEARS", "ASSURANCE", "ENDURE", "PLAYROUGH", "RETALIATE", "SWIFT"]
-raw_tutor_moves = ["COVET", "FOULPLAY", "FURYCUTTER", "HEADBUTT", "HYPERVOICE", "IRONTAIL", "KNOCKOFF", "LASTRESORT", "MUDSLAP", "SHOCKWAVE", "SNATCH", "SNORE", "SUCKERPUNCH", "SUPERFANG", "WATERPULSE", "MIMIC"]
-compatible_egg_groups = ["Field"]
+raw_abilities = [
+    "LIMBER",
+    "OWNTEMPO",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "BITE" },
+    { at_level = 1, name = "GROWL" },
+    { at_level = 1, name = "SCRATCH" },
+    { at_level = 1, name = "QUICKATTACK" },
+    { at_level = 4, name = "FEINTATTACK" },
+    { at_level = 7, name = "FURYSWIPES" },
+    { at_level = 10, name = "HYPNOSIS" },
+    { at_level = 13, name = "CHARM" },
+    { at_level = 16, name = "KNOCKOFF" },
+    { at_level = 19, name = "FAKEOUT" },
+    { at_level = 22, name = "SLASH" },
+    { at_level = 25, name = "AERIALACE" },
+    { at_level = 28, name = "UTURN" },
+    { at_level = 32, name = "FLAIL" },
+    { at_level = 36, name = "COVET" },
+    { at_level = 40, name = "SUCKERPUNCH" },
+    { at_level = 44, name = "FOULPLAY" },
+    { at_level = 48, name = "BODYSLAM" },
+    { at_level = 52, name = "PLAYROUGH" },
+    { at_level = 56, name = "CRUNCH" },
+    { at_level = 60, name = "LASTRESORT" },
+]
+raw_tms = [
+    "WORKUP",
+    "CUT",
+    "TOXIC",
+    "FLASH",
+    "ROCKCLIMB",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "THUNDERBOLT",
+    "THUNDER",
+    "RETURN",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "AERIALACE",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "ECHOEDVOICE",
+    "SHADOWCLAW",
+    "PAYBACK",
+    "PSYCHUP",
+    "DREAMEATER",
+    "SWAGGER",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "DIG",
+    "CHARM",
+    "FAKETEARS",
+    "ASSURANCE",
+    "ENDURE",
+    "PLAYROUGH",
+    "RETALIATE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "COVET",
+    "FOULPLAY",
+    "FURYCUTTER",
+    "HEADBUTT",
+    "HYPERVOICE",
+    "IRONTAIL",
+    "KNOCKOFF",
+    "LASTRESORT",
+    "MIMIC",
+    "MUDSLAP",
+    "SHOCKWAVE",
+    "SNATCH",
+    "SNORE",
+    "SUCKERPUNCH",
+    "SUPERFANG",
+    "WATERPULSE",
+]
+compatible_egg_groups = [
+    "Field",
+]
 steps_to_hatch = 5355
 height = 0.5
 weight = 3.9
@@ -20,101 +108,22 @@ pokedex_entry = "It claws if displeased and purrs when affectionate. Its ficklen
 battler_player_y = 22
 battler_enemy_y = 13
 battler_altitude = 0
-form_names = []
-dex_number = 431
-internal_name = "GLAMEOW"
 raw_hidden_ability = "KEENEYE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SCRATCH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "QUICKATTACK"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "FEINTATTACK"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "FURYSWIPES"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "HYPNOSIS"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "CHARM"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "KNOCKOFF"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "FAKEOUT"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "SLASH"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "AERIALACE"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "UTURN"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "FLAIL"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "COVET"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "SUCKERPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "FOULPLAY"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "PLAYROUGH"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "LASTRESORT"
-
-[[evolutions]]
-into_name = "PURUGLY"
-condition = "Level"
-parameter = "26"
-
-
+raw_egg_moves = [
+    "ASSURANCE",
+    "BITE",
+    "FAKETEARS",
+    "FLAIL",
+    "LASTRESORT",
+    "QUICKATTACK",
+    "SANDATTACK",
+    "SNATCH",
+    "TAILWHIP",
+    "WAKEUPSLAP",
+]
+evolutions = [
+    { into_name = "PURUGLY", condition = "Level", parameter = "26" },
+]
 
 [base_stats]
 hp = 50
@@ -131,5 +140,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 1
-
-[wild_items]

@@ -1,3 +1,4 @@
+dex_number = 762
 name = "Steenee"
 primary_type = "GRASS"
 secondary_type = "GRASS"
@@ -6,11 +7,83 @@ growth_rate = "Parabolic"
 exp_yield = 102
 catch_rate = 120
 caught_happiness = 70
-raw_abilities = ["LEAFGUARD", "OBLIVIOUS"]
-raw_egg_moves = []
-raw_tms = ["TOXIC", "HIDDENPOWER", "SUNNYDAY", "LIGHTSCREEN", "PROTECT", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "REFLECT", "FACADE", "REST", "ATTRACT", "LOWSWEEP", "ROUND", "ENERGYBALL", "FLING", "PAYBACK", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "DAZZLINGGLEAM", "CONFIDE", "MAGICALLEAF", "CHARM", "DRAININGKISS", "LEAFSTORM", "ENDURE", "PLAYROUGH", "TRAILBLAZE"]
-raw_tutor_moves = ["BOUNCE", "COVET", "ENDEAVOR", "GIGADRAIN", "HELPINGHAND", "KNOCKOFF", "SEEDBOMB", "SNORE", "SYNTHESIS", "WORRYSEED", "ZENHEADBUTT", "GRASSYGLIDE", "TRIPLEAXEL", "MIMIC"]
-compatible_egg_groups = ["Grass"]
+raw_abilities = [
+    "LEAFGUARD",
+    "OBLIVIOUS",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "DOUBLESLAP" },
+    { at_level = 1, name = "DOUBLEKICK" },
+    { at_level = 1, name = "SPLASH" },
+    { at_level = 1, name = "RAZORLEAF" },
+    { at_level = 1, name = "PLAYNICE" },
+    { at_level = 1, name = "RAPIDSPIN" },
+    { at_level = 13, name = "RAZORLEAF" },
+    { at_level = 17, name = "SWEETSCENT" },
+    { at_level = 21, name = "MAGICALLEAF" },
+    { at_level = 25, name = "TEETERDANCE" },
+    { at_level = 29, name = "STOMP" },
+    { at_level = 33, name = "AROMATICMIST" },
+    { at_level = 37, name = "CAPTIVATE" },
+    { at_level = 41, name = "AROMATHERAPY" },
+    { at_level = 45, name = "LEAFSTORM" },
+    { at_level = 50, name = "PLAYROUGH" },
+]
+raw_tms = [
+    "TOXIC",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "DOUBLETEAM",
+    "REFLECT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "LOWSWEEP",
+    "ROUND",
+    "ENERGYBALL",
+    "FLING",
+    "PAYBACK",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "NATUREPOWER",
+    "DAZZLINGGLEAM",
+    "CONFIDE",
+    "MAGICALLEAF",
+    "CHARM",
+    "DRAININGKISS",
+    "LEAFSTORM",
+    "ENDURE",
+    "PLAYROUGH",
+    "TRAILBLAZE",
+]
+raw_tutor_moves = [
+    "BOUNCE",
+    "COVET",
+    "ENDEAVOR",
+    "GIGADRAIN",
+    "GRASSYGLIDE",
+    "HELPINGHAND",
+    "KNOCKOFF",
+    "MIMIC",
+    "SEEDBOMB",
+    "SNORE",
+    "SYNTHESIS",
+    "TRIPLEAXEL",
+    "WORRYSEED",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Grass",
+]
 steps_to_hatch = 5120
 height = 0.7
 weight = 8.2
@@ -20,81 +93,10 @@ pokedex_entry = "This Pokémon is always bouncing around energetically. Other Po
 battler_player_y = 18
 battler_enemy_y = 15
 battler_altitude = 0
-form_names = []
-dex_number = 762
-internal_name = "STEENEE"
 raw_hidden_ability = "SWEETVEIL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "DOUBLESLAP"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "DOUBLEKICK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SPLASH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "RAZORLEAF"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "PLAYNICE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "RAPIDSPIN"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "RAZORLEAF"
-
-[[raw_level_up_moves]]
-at_level = 17
-name = "SWEETSCENT"
-
-[[raw_level_up_moves]]
-at_level = 21
-name = "MAGICALLEAF"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "TEETERDANCE"
-
-[[raw_level_up_moves]]
-at_level = 29
-name = "STOMP"
-
-[[raw_level_up_moves]]
-at_level = 33
-name = "AROMATICMIST"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "CAPTIVATE"
-
-[[raw_level_up_moves]]
-at_level = 41
-name = "AROMATHERAPY"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "LEAFSTORM"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "PLAYROUGH"
-
-[[evolutions]]
-into_name = "TSAREENA"
-condition = "HasMove"
-parameter = "STOMP"
-
-
+evolutions = [
+    { into_name = "TSAREENA", condition = "HasMove", parameter = "STOMP" },
+]
 
 [base_stats]
 hp = 52

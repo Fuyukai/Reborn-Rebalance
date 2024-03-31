@@ -1,3 +1,4 @@
+dex_number = 549
 name = "Lilligant"
 primary_type = "GRASS"
 secondary_type = "FAIRY"
@@ -6,11 +7,90 @@ growth_rate = "Medium"
 exp_yield = 168
 catch_rate = 75
 caught_happiness = 70
-raw_abilities = ["CHLOROPHYLL", "OWNTEMPO"]
-raw_egg_moves = []
-raw_tms = ["CUT", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "GIGAIMPACT", "SWORDSDANCE", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "MAGICALLEAF", "SOLARBLADE", "CHARM", "LEAFBLADE", "GRASSYTERRAIN", "LEAFSTORM", "ENDURE", "ENCORE", "POLLENPUFF", "ICESPINNER", "TRAILBLAZE", "DAZZLINGGLEAM"]
-raw_tutor_moves = ["AFTERYOU", "COVET", "GIGADRAIN", "HEALBELL", "HELPINGHAND", "LASERFOCUS", "ROLEPLAY", "SEEDBOMB", "SNORE", "SYNTHESIS", "WORRYSEED", "GRASSYGLIDE", "MIMIC"]
-compatible_egg_groups = ["Grass"]
+raw_abilities = [
+    "CHLOROPHYLL",
+    "OWNTEMPO",
+]
+raw_level_up_moves = [
+    { at_level = 0, name = "QUIVERDANCE" },
+    { at_level = 1, name = "MEGADRAIN" },
+    { at_level = 1, name = "SYNTHESIS" },
+    { at_level = 1, name = "QUIVERDANCE" },
+    { at_level = 1, name = "GIGADRAIN" },
+    { at_level = 1, name = "SLEEPPOWDER" },
+    { at_level = 1, name = "GROWTH" },
+    { at_level = 1, name = "LEECHSEED" },
+    { at_level = 10, name = "TEETERDANCE" },
+    { at_level = 24, name = "DRAININGKISS" },
+    { at_level = 32, name = "PETALDANCE" },
+    { at_level = 38, name = "POLLENPUFF" },
+    { at_level = 44, name = "EARTHPOWER" },
+    { at_level = 50, name = "PETALBLIZZARD" },
+    { at_level = 52, name = "ENCORE" },
+    { at_level = 56, name = "MOONBLAST" },
+    { at_level = 65, name = "QUIVERDANCE" },
+    { at_level = 68, name = "SLEEPPOWDER" },
+]
+raw_tms = [
+    "CUT",
+    "TOXIC",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "DOUBLETEAM",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ENERGYBALL",
+    "GIGAIMPACT",
+    "SWORDSDANCE",
+    "DREAMEATER",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "NATUREPOWER",
+    "DAZZLINGGLEAM",
+    "CONFIDE",
+    "MAGICALLEAF",
+    "SOLARBLADE",
+    "CHARM",
+    "LEAFBLADE",
+    "GRASSYTERRAIN",
+    "LEAFSTORM",
+    "ENDURE",
+    "ENCORE",
+    "POLLENPUFF",
+    "ICESPINNER",
+    "TRAILBLAZE",
+]
+raw_tutor_moves = [
+    "AFTERYOU",
+    "COVET",
+    "GIGADRAIN",
+    "GRASSYGLIDE",
+    "HEALBELL",
+    "HELPINGHAND",
+    "LASERFOCUS",
+    "MIMIC",
+    "ROLEPLAY",
+    "SEEDBOMB",
+    "SNORE",
+    "SYNTHESIS",
+    "WORRYSEED",
+]
+compatible_egg_groups = [
+    "Grass",
+]
 steps_to_hatch = 5120
 height = 1.1
 weight = 16.3
@@ -20,83 +100,7 @@ pokedex_entry = "The fragrance of the garland on its head has a relaxing effect.
 battler_player_y = 16
 battler_enemy_y = 19
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 549
-internal_name = "LILLIGANT"
 raw_hidden_ability = "LEAFGUARD"
-
-[[raw_level_up_moves]]
-at_level = 0
-name = "QUIVERDANCE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "MEGADRAIN"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SYNTHESIS"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "QUIVERDANCE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GIGADRAIN"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SLEEPPOWDER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWTH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEECHSEED"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "TEETERDANCE"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "DRAININGKISS"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "PETALDANCE"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "POLLENPUFF"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "EARTHPOWER"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "PETALBLIZZARD"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "ENCORE"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "MOONBLAST"
-
-[[raw_level_up_moves]]
-at_level = 65
-name = "QUIVERDANCE"
-
-[[raw_level_up_moves]]
-at_level = 68
-name = "SLEEPPOWDER"
 
 [base_stats]
 hp = 70

@@ -1,3 +1,4 @@
+dex_number = 316
 name = "Gulpin"
 primary_type = "POISON"
 secondary_type = "POISON"
@@ -6,11 +7,94 @@ growth_rate = "Fluctuating"
 exp_yield = 60
 catch_rate = 225
 caught_happiness = 70
-raw_abilities = ["LIQUIDOOZE", "STICKYHOLD"]
-raw_egg_moves = ["ACIDARMOR", "CURSE", "DESTINYBOND", "GUNKSHOT", "MUDSLAP", "PAINSPLIT", "SMOG", "VENOMDRENCH"]
-raw_tms = ["STRENGTH", "TOXIC", "ROCKSMASH", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "SOLARBEAM", "RETURN", "SHADOWBALL", "DOUBLETEAM", "SLUDGEWAVE", "SLUDGEBOMB", "FACADE", "REST", "ATTRACT", "ROUND", "EXPLOSION", "INFESTATION", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "SELFDESTRUCT", "BULLETSEED", "BODYSLAM", "AMNESIA", "ENDURE", "ENCORE", "VENOMDRENCH"]
-raw_tutor_moves = ["FIREPUNCH", "GASTROACID", "GIGADRAIN", "GUNKSHOT", "HEADBUTT", "ICEPUNCH", "MUDSLAP", "PAINSPLIT", "ROLLOUT", "SEEDBOMB", "SHOCKWAVE", "SNATCH", "SNORE", "THUNDERPUNCH", "WATERPULSE", "MIMIC"]
-compatible_egg_groups = ["Amorphous"]
+raw_abilities = [
+    "LIQUIDOOZE",
+    "STICKYHOLD",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "MUDSLAP" },
+    { at_level = 1, name = "POUND" },
+    { at_level = 1, name = "SMOG" },
+    { at_level = 4, name = "AMNESIA" },
+    { at_level = 7, name = "GASTROACID" },
+    { at_level = 10, name = "POISONGAS" },
+    { at_level = 13, name = "YAWN" },
+    { at_level = 16, name = "SLUDGE" },
+    { at_level = 19, name = "ROLLOUT" },
+    { at_level = 22, name = "ACIDSPRAY" },
+    { at_level = 24, name = "BULLETSEED" },
+    { at_level = 24, name = "SHOCKWAVE" },
+    { at_level = 24, name = "WATERPULSE" },
+    { at_level = 26, name = "BODYSLAM" },
+    { at_level = 28, name = "SLUDGEBOMB" },
+    { at_level = 31, name = "TOXIC" },
+    { at_level = 34, name = "CURSE" },
+    { at_level = 38, name = "PAINSPLIT" },
+    { at_level = 42, name = "ENCORE" },
+    { at_level = 46, name = "GUNKSHOT" },
+    { at_level = 50, name = "DESTINYBOND" },
+    { at_level = 54, name = "DOUBLEEDGE" },
+    { at_level = 58, name = "WRINGOUT" },
+]
+raw_tms = [
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "VENOSHOCK",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "ICEBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "SLUDGEWAVE",
+    "SLUDGEBOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "EXPLOSION",
+    "INFESTATION",
+    "DREAMEATER",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "SELFDESTRUCT",
+    "BULLETSEED",
+    "BODYSLAM",
+    "AMNESIA",
+    "ENDURE",
+    "ENCORE",
+    "VENOMDRENCH",
+]
+raw_tutor_moves = [
+    "FIREPUNCH",
+    "GASTROACID",
+    "GIGADRAIN",
+    "GUNKSHOT",
+    "HEADBUTT",
+    "ICEPUNCH",
+    "MIMIC",
+    "MUDSLAP",
+    "PAINSPLIT",
+    "ROLLOUT",
+    "SEEDBOMB",
+    "SHOCKWAVE",
+    "SNATCH",
+    "SNORE",
+    "THUNDERPUNCH",
+    "WATERPULSE",
+]
+compatible_egg_groups = [
+    "Amorphous",
+]
 steps_to_hatch = 5355
 height = 0.4
 weight = 10.3
@@ -20,110 +104,21 @@ pokedex_entry = "This Pokémon's stomach fluid can even digest scrap iron. In on
 battler_player_y = 30
 battler_enemy_y = 26
 battler_altitude = 0
-form_names = []
-dex_number = 316
-internal_name = "GULPIN"
 raw_hidden_ability = "GLUTTONY"
+raw_egg_moves = [
+    "ACIDARMOR",
+    "CURSE",
+    "DESTINYBOND",
+    "GUNKSHOT",
+    "MUDSLAP",
+    "PAINSPLIT",
+    "SMOG",
+    "VENOMDRENCH",
+]
 habitat = "Grassland"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "MUDSLAP"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "POUND"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SMOG"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "AMNESIA"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "GASTROACID"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "POISONGAS"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "YAWN"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "SLUDGE"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "ROLLOUT"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "ACIDSPRAY"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "BULLETSEED"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "SHOCKWAVE"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "WATERPULSE"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "SLUDGEBOMB"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "TOXIC"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "CURSE"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "PAINSPLIT"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "ENCORE"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "GUNKSHOT"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "DESTINYBOND"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "DOUBLEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "WRINGOUT"
-
-[[evolutions]]
-into_name = "SWALOT"
-condition = "Level"
-parameter = "26"
-
-
+evolutions = [
+    { into_name = "SWALOT", condition = "Level", parameter = "26" },
+]
 
 [base_stats]
 hp = 70

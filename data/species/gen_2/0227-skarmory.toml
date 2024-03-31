@@ -1,3 +1,4 @@
+dex_number = 227
 name = "Skarmory"
 primary_type = "STEEL"
 secondary_type = "FLYING"
@@ -6,11 +7,108 @@ growth_rate = "Slow"
 exp_yield = 163
 catch_rate = 25
 caught_happiness = 70
-raw_abilities = ["KEENEYE", "STURDY"]
-raw_egg_moves = ["ASSURANCE", "BRAVEBIRD", "CURSE", "DRILLPECK", "ENDURE", "GUARDSWAP", "PURSUIT", "SKYATTACK", "STEALTHROCK", "WHIRLWIND"]
-raw_tms = ["CUT", "FLY", "ROAR", "TOXIC", "ROCKSMASH", "FLASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "PROTECT", "ROOST", "ROOST", "FRUSTRATION", "RETURN", "DOUBLETEAM", "SANDSTORM", "ROCKTOMB", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "STEELWING", "SKYDROP", "PAYBACK", "SWORDSDANCE", "ROCKSLIDE", "XSCISSOR", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "DARKPULSE", "CONFIDE", "SANDTOMB", "ASSURANCE", "GUARDSWAP", "AIRSLASH", "BRAVEBIRD", "AGILITY", "SPIKES", "ENDURE", "BODYPRESS", "SWIFT", "HURRICANE"]
-raw_tutor_moves = ["AIRCUTTER", "DEFOG", "FURYCUTTER", "ICYWIND", "IRONDEFENSE", "IRONHEAD", "MUDSLAP", "OMINOUSWIND", "SKYATTACK", "SNORE", "STEALTHROCK", "TAILWIND", "TWISTER", "DUALWINGBEAT", "STEELBEAM", "MIMIC"]
-compatible_egg_groups = ["Flying"]
+raw_abilities = [
+    "KEENEYE",
+    "STURDY",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "COUNTER" },
+    { at_level = 1, name = "LEER" },
+    { at_level = 1, name = "PECK" },
+    { at_level = 1, name = "SANDATTACK" },
+    { at_level = 4, name = "CURSE" },
+    { at_level = 7, name = "FURYATTACK" },
+    { at_level = 10, name = "IRONDEFENSE" },
+    { at_level = 13, name = "AIRCUTTER" },
+    { at_level = 16, name = "PURSUIT" },
+    { at_level = 19, name = "AUTOTOMIZE" },
+    { at_level = 22, name = "WINGATTACK" },
+    { at_level = 25, name = "METALCLAW" },
+    { at_level = 28, name = "ASSURANCE" },
+    { at_level = 31, name = "STEELWING" },
+    { at_level = 34, name = "WHIRLWIND" },
+    { at_level = 37, name = "DUALWINGBEAT" },
+    { at_level = 40, name = "SLASH" },
+    { at_level = 40, name = "NIGHTSLASH" },
+    { at_level = 44, name = "SMARTSTRIKE" },
+    { at_level = 48, name = "SPIKES" },
+    { at_level = 52, name = "DRILLPECK" },
+    { at_level = 56, name = "IRONHEAD" },
+    { at_level = 60, name = "BRAVEBIRD" },
+    { at_level = 64, name = "TAILWIND" },
+    { at_level = 68, name = "SKYATTACK" },
+]
+raw_tms = [
+    "CUT",
+    "FLY",
+    "ROAR",
+    "TOXIC",
+    "ROCKSMASH",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "PROTECT",
+    "ROOST",
+    "ROOST",
+    "FRUSTRATION",
+    "RETURN",
+    "DOUBLETEAM",
+    "SANDSTORM",
+    "ROCKTOMB",
+    "AERIALACE",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "STEELWING",
+    "SKYDROP",
+    "PAYBACK",
+    "SWORDSDANCE",
+    "ROCKSLIDE",
+    "XSCISSOR",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "FLASHCANNON",
+    "SECRETPOWER",
+    "DARKPULSE",
+    "CONFIDE",
+    "SANDTOMB",
+    "ASSURANCE",
+    "GUARDSWAP",
+    "AIRSLASH",
+    "HURRICANE",
+    "BRAVEBIRD",
+    "AGILITY",
+    "SPIKES",
+    "ENDURE",
+    "BODYPRESS",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AIRCUTTER",
+    "DEFOG",
+    "DUALWINGBEAT",
+    "FURYCUTTER",
+    "ICYWIND",
+    "IRONDEFENSE",
+    "IRONHEAD",
+    "MIMIC",
+    "MUDSLAP",
+    "OMINOUSWIND",
+    "SKYATTACK",
+    "SNORE",
+    "STEALTHROCK",
+    "STEELBEAM",
+    "TAILWIND",
+    "TWISTER",
+]
+compatible_egg_groups = [
+    "Flying",
+]
 steps_to_hatch = 6630
 height = 1.7
 weight = 50.5
@@ -20,112 +118,20 @@ pokedex_entry = "A Pokémon that has a body and wings of steel. People in the pa
 battler_player_y = 14
 battler_enemy_y = 8
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 227
-internal_name = "SKARMORY"
 raw_hidden_ability = "WEAKARMOR"
+raw_egg_moves = [
+    "ASSURANCE",
+    "BRAVEBIRD",
+    "CURSE",
+    "DRILLPECK",
+    "ENDURE",
+    "GUARDSWAP",
+    "PURSUIT",
+    "SKYATTACK",
+    "STEALTHROCK",
+    "WHIRLWIND",
+]
 habitat = "RoughTerrain"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "COUNTER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "PECK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SANDATTACK"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "CURSE"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "FURYATTACK"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "IRONDEFENSE"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "AIRCUTTER"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "PURSUIT"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "AUTOTOMIZE"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "WINGATTACK"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "METALCLAW"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "ASSURANCE"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "STEELWING"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "WHIRLWIND"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "DUALWINGBEAT"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "SLASH"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "NIGHTSLASH"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "SMARTSTRIKE"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "SPIKES"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "DRILLPECK"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "IRONHEAD"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "BRAVEBIRD"
-
-[[raw_level_up_moves]]
-at_level = 64
-name = "TAILWIND"
-
-[[raw_level_up_moves]]
-at_level = 68
-name = "SKYATTACK"
 
 [base_stats]
 hp = 65

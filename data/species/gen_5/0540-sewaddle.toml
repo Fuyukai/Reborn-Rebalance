@@ -1,3 +1,4 @@
+dex_number = 540
 name = "Sewaddle"
 primary_type = "BUG"
 secondary_type = "GRASS"
@@ -6,11 +7,77 @@ growth_rate = "Parabolic"
 exp_yield = 62
 catch_rate = 255
 caught_happiness = 70
-raw_abilities = ["SWARM", "CHLOROPHYLL"]
-raw_egg_moves = ["AGILITY", "AIRSLASH", "BATONPASS", "CAMOUFLAGE", "GRASSYTERRAIN", "MEFIRST", "MINDREADER", "RAZORWIND", "SCREECH", "SILVERWIND"]
-raw_tms = ["CUT", "CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "LIGHTSCREEN", "PROTECT", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "PAYBACK", "STRUGGLEBUG", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "SCREECH", "AIRSLASH", "GRASSYTERRAIN", "AGILITY", "ENDURE", "BATONPASS"]
-raw_tutor_moves = ["BUGBITE", "ELECTROWEB", "GIGADRAIN", "IRONDEFENSE", "MAGICCOAT", "SEEDBOMB", "SIGNALBEAM", "SNORE", "SYNTHESIS", "WORRYSEED", "MIMIC"]
-compatible_egg_groups = ["Bug"]
+raw_abilities = [
+    "SWARM",
+    "CHLOROPHYLL",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "STRINGSHOT" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 4, name = "STRUGGLEBUG" },
+    { at_level = 7, name = "ELECTROWEB" },
+    { at_level = 9, name = "RAZORLEAF" },
+    { at_level = 11, name = "BUGBITE" },
+    { at_level = 14, name = "HONECLAWS" },
+    { at_level = 17, name = "WORRYSEED" },
+    { at_level = 20, name = "PSYCHICFANGS" },
+    { at_level = 25, name = "ENDURE" },
+    { at_level = 31, name = "AGILITY" },
+    { at_level = 36, name = "BUGBUZZ" },
+    { at_level = 43, name = "FLAIL" },
+]
+raw_tms = [
+    "CUT",
+    "CALMMIND",
+    "TOXIC",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "DOUBLETEAM",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ENERGYBALL",
+    "PAYBACK",
+    "STRUGGLEBUG",
+    "DREAMEATER",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "NATUREPOWER",
+    "CONFIDE",
+    "SCREECH",
+    "AIRSLASH",
+    "GRASSYTERRAIN",
+    "AGILITY",
+    "ENDURE",
+    "BATONPASS",
+]
+raw_tutor_moves = [
+    "BUGBITE",
+    "ELECTROWEB",
+    "GIGADRAIN",
+    "IRONDEFENSE",
+    "MAGICCOAT",
+    "MIMIC",
+    "SEEDBOMB",
+    "SIGNALBEAM",
+    "SNORE",
+    "SYNTHESIS",
+    "WORRYSEED",
+]
+compatible_egg_groups = [
+    "Bug",
+]
 steps_to_hatch = 3840
 height = 0.3
 weight = 2.5
@@ -20,69 +87,22 @@ pokedex_entry = "This Pokémon makes clothes for itself. It chews up leaves and 
 battler_player_y = 34
 battler_enemy_y = 33
 battler_altitude = 0
-form_names = []
-dex_number = 540
-internal_name = "SEWADDLE"
 raw_hidden_ability = "OVERCOAT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "STRINGSHOT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "STRUGGLEBUG"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "ELECTROWEB"
-
-[[raw_level_up_moves]]
-at_level = 9
-name = "RAZORLEAF"
-
-[[raw_level_up_moves]]
-at_level = 11
-name = "BUGBITE"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "HONECLAWS"
-
-[[raw_level_up_moves]]
-at_level = 17
-name = "WORRYSEED"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "PSYCHICFANGS"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "ENDURE"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "AGILITY"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "BUGBUZZ"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "FLAIL"
-
-[[evolutions]]
-into_name = "SWADLOON"
-condition = "Level"
-parameter = "21"
-
-
+raw_egg_moves = [
+    "AGILITY",
+    "AIRSLASH",
+    "BATONPASS",
+    "CAMOUFLAGE",
+    "GRASSYTERRAIN",
+    "MEFIRST",
+    "MINDREADER",
+    "RAZORWIND",
+    "SCREECH",
+    "SILVERWIND",
+]
+evolutions = [
+    { into_name = "SWADLOON", condition = "Level", parameter = "21" },
+]
 
 [base_stats]
 hp = 45

@@ -1,3 +1,4 @@
+dex_number = 369
 name = "Relicanth"
 primary_type = "WATER"
 secondary_type = "ROCK"
@@ -6,11 +7,106 @@ growth_rate = "Slow"
 exp_yield = 170
 catch_rate = 25
 caught_happiness = 70
-raw_abilities = ["SWIFTSWIM", "ROCKHEAD"]
-raw_egg_moves = ["AMNESIA", "AQUATAIL", "BRINE", "MAGNITUDE", "MUDSHOT", "MUDSLAP", "MUDDYWATER", "SKULLBASH", "SLEEPTALK", "SNORE", "WATERSPORT", "ZENHEADBUTT"]
-raw_tms = ["SURF", "CALMMIND", "WATERFALL", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "SMACKDOWN", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "SANDSTORM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "SCALD", "GIGAIMPACT", "ROCKPOLISH", "STONEEDGE", "PSYCHUP", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "WHIRLPOOL", "ROCKBLAST", "MUDSHOT", "BRINE", "BODYSLAM", "HYDROPUMP", "AMNESIA", "ENDURE", "MUDDYWATER", "BODYPRESS"]
-raw_tutor_moves = ["ANCIENTPOWER", "AQUATAIL", "BOUNCE", "EARTHPOWER", "HEADBUTT", "ICYWIND", "IRONDEFENSE", "LIQUIDATION", "MUDSLAP", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "WATERPULSE", "ZENHEADBUTT", "METEORBEAM", "SCALESHOT", "MIMIC", "WAVECRASH"]
-compatible_egg_groups = ["Water1", "Water2"]
+raw_abilities = [
+    "SWIFTSWIM",
+    "ROCKHEAD",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "HARDEN" },
+    { at_level = 1, name = "MUDSLAP" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 4, name = "HEADBUTT" },
+    { at_level = 7, name = "MUDSHOT" },
+    { at_level = 10, name = "WATERPULSE" },
+    { at_level = 13, name = "SAFEGUARD" },
+    { at_level = 16, name = "ANCIENTPOWER" },
+    { at_level = 19, name = "BRINE" },
+    { at_level = 22, name = "YAWN" },
+    { at_level = 25, name = "ROCKSLIDE" },
+    { at_level = 28, name = "MUDDYWATER" },
+    { at_level = 32, name = "TAKEDOWN" },
+    { at_level = 36, name = "ROCKBLAST" },
+    { at_level = 40, name = "AQUATAIL" },
+    { at_level = 44, name = "ZENHEADBUTT" },
+    { at_level = 48, name = "SKULLBASH" },
+    { at_level = 52, name = "FLAIL" },
+    { at_level = 56, name = "HYDROPUMP" },
+    { at_level = 60, name = "DOUBLEEDGE" },
+    { at_level = 64, name = "HEADSMASH" },
+]
+raw_tms = [
+    "SURF",
+    "CALMMIND",
+    "WATERFALL",
+    "TOXIC",
+    "DIVE",
+    "HAIL",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "ICEBEAM",
+    "BLIZZARD",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "SMACKDOWN",
+    "EARTHQUAKE",
+    "RETURN",
+    "DOUBLETEAM",
+    "SANDSTORM",
+    "ROCKTOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "SCALD",
+    "GIGAIMPACT",
+    "ROCKPOLISH",
+    "STONEEDGE",
+    "PSYCHUP",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "WHIRLPOOL",
+    "ROCKBLAST",
+    "MUDSHOT",
+    "BRINE",
+    "BODYSLAM",
+    "HYDROPUMP",
+    "AMNESIA",
+    "ENDURE",
+    "MUDDYWATER",
+    "BODYPRESS",
+]
+raw_tutor_moves = [
+    "ANCIENTPOWER",
+    "AQUATAIL",
+    "BOUNCE",
+    "EARTHPOWER",
+    "HEADBUTT",
+    "ICYWIND",
+    "IRONDEFENSE",
+    "LIQUIDATION",
+    "METEORBEAM",
+    "MIMIC",
+    "MUDSLAP",
+    "SCALESHOT",
+    "SNORE",
+    "STEALTHROCK",
+    "STOMPINGTANTRUM",
+    "WATERPULSE",
+    "WAVECRASH",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Water1",
+    "Water2",
+]
 steps_to_hatch = 10455
 height = 1.0
 weight = 23.4
@@ -20,96 +116,22 @@ pokedex_entry = "A Pokémon that was once believed to have been extinct. The spe
 battler_player_y = 24
 battler_enemy_y = 16
 battler_altitude = 11
-evolutions = []
-form_names = []
-dex_number = 369
-internal_name = "RELICANTH"
 raw_hidden_ability = "STURDY"
+raw_egg_moves = [
+    "AMNESIA",
+    "AQUATAIL",
+    "BRINE",
+    "MAGNITUDE",
+    "MUDSHOT",
+    "MUDSLAP",
+    "MUDDYWATER",
+    "SKULLBASH",
+    "SLEEPTALK",
+    "SNORE",
+    "WATERSPORT",
+    "ZENHEADBUTT",
+]
 habitat = "Sea"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HARDEN"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "MUDSLAP"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "HEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "MUDSHOT"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "WATERPULSE"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "SAFEGUARD"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "ANCIENTPOWER"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "BRINE"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "YAWN"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "ROCKSLIDE"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "MUDDYWATER"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "TAKEDOWN"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "ROCKBLAST"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "AQUATAIL"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "ZENHEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "SKULLBASH"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "FLAIL"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "HYDROPUMP"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "DOUBLEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 64
-name = "HEADSMASH"
 
 [base_stats]
 hp = 100

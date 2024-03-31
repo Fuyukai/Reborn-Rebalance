@@ -1,3 +1,4 @@
+dex_number = 288
 name = "Vigoroth"
 primary_type = "NORMAL"
 secondary_type = "NORMAL"
@@ -6,11 +7,116 @@ growth_rate = "Slow"
 exp_yield = 154
 catch_rate = 120
 caught_happiness = 70
-raw_abilities = ["VITALSPIRIT", "SHEERFORCE"]
-raw_egg_moves = []
-raw_tms = ["WORKUP", "CUT", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "BULKUP", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "SOLARBEAM", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "FLAMETHROWER", "FIREBLAST", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "LOWSWEEP", "ROUND", "FOCUSBLAST", "FLING", "SHADOWCLAW", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "BODYSLAM", "FOCUSENERGY", "AMNESIA", "REVERSAL", "ENDURE", "ENCORE", "PLAYROUGH", "RETALIATE", "TRAILBLAZE", "CHILLINGWATER"]
-raw_tutor_moves = ["AFTERYOU", "COVET", "FIREPUNCH", "FOCUSPUNCH", "FURYCUTTER", "GUNKSHOT", "HEADBUTT", "ICEPUNCH", "ICYWIND", "LOWKICK", "MUDSLAP", "SHOCKWAVE", "SNORE", "SUCKERPUNCH", "THUNDERPUNCH", "UPROAR", "WATERPULSE", "MIMIC"]
-compatible_egg_groups = ["Field"]
+raw_abilities = [
+    "VITALSPIRIT",
+    "SHEERFORCE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "SCRATCH" },
+    { at_level = 1, name = "AMNESIA" },
+    { at_level = 1, name = "MUDSLAP" },
+    { at_level = 7, name = "AFTERYOU" },
+    { at_level = 10, name = "PURSUIT" },
+    { at_level = 13, name = "COVET" },
+    { at_level = 16, name = "YAWN" },
+    { at_level = 18, name = "UPROAR" },
+    { at_level = 20, name = "TICKLE" },
+    { at_level = 22, name = "HEADBUTT" },
+    { at_level = 24, name = "FURYSWIPES" },
+    { at_level = 26, name = "LUNGE" },
+    { at_level = 28, name = "SLASH" },
+    { at_level = 28, name = "NIGHTSLASH" },
+    { at_level = 30, name = "RAGINGFURY" },
+    { at_level = 32, name = "CRUSHCLAW" },
+    { at_level = 35, name = "CHIPAWAY" },
+    { at_level = 38, name = "BODYSLAM" },
+    { at_level = 41, name = "HAMMERARM" },
+    { at_level = 44, name = "PLAYROUGH" },
+    { at_level = 47, name = "SLACKOFF" },
+    { at_level = 51, name = "FOCUSPUNCH" },
+    { at_level = 55, name = "DOUBLEEDGE" },
+]
+raw_tms = [
+    "WORKUP",
+    "CUT",
+    "STRENGTH",
+    "ROAR",
+    "TOXIC",
+    "ROCKSMASH",
+    "BULKUP",
+    "ROCKCLIMB",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "ICEBEAM",
+    "BLIZZARD",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "THUNDERBOLT",
+    "THUNDER",
+    "EARTHQUAKE",
+    "RETURN",
+    "SHADOWBALL",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "FLAMETHROWER",
+    "FIREBLAST",
+    "ROCKTOMB",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "LOWSWEEP",
+    "ROUND",
+    "FOCUSBLAST",
+    "FLING",
+    "SHADOWCLAW",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "BODYSLAM",
+    "FOCUSENERGY",
+    "AMNESIA",
+    "REVERSAL",
+    "ENDURE",
+    "ENCORE",
+    "PLAYROUGH",
+    "RETALIATE",
+    "TRAILBLAZE",
+    "CHILLINGWATER",
+]
+raw_tutor_moves = [
+    "AFTERYOU",
+    "COVET",
+    "FIREPUNCH",
+    "FOCUSPUNCH",
+    "FURYCUTTER",
+    "GUNKSHOT",
+    "HEADBUTT",
+    "ICEPUNCH",
+    "ICYWIND",
+    "LOWKICK",
+    "MIMIC",
+    "MUDSLAP",
+    "SHOCKWAVE",
+    "SNORE",
+    "SUCKERPUNCH",
+    "THUNDERPUNCH",
+    "UPROAR",
+    "WATERPULSE",
+]
+compatible_egg_groups = [
+    "Field",
+]
 steps_to_hatch = 4080
 height = 1.4
 weight = 46.5
@@ -20,109 +126,10 @@ pokedex_entry = "It can't keep still because its filled with energy. It runs thr
 battler_player_y = 21
 battler_enemy_y = 9
 battler_altitude = 0
-form_names = []
-dex_number = 288
-internal_name = "VIGOROTH"
 habitat = "Forest"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SCRATCH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "AMNESIA"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "MUDSLAP"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "AFTERYOU"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "PURSUIT"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "COVET"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "YAWN"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "UPROAR"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "TICKLE"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "HEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "FURYSWIPES"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "LUNGE"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "SLASH"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "NIGHTSLASH"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "RAGINGFURY"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "CRUSHCLAW"
-
-[[raw_level_up_moves]]
-at_level = 35
-name = "CHIPAWAY"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 41
-name = "HAMMERARM"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "PLAYROUGH"
-
-[[raw_level_up_moves]]
-at_level = 47
-name = "SLACKOFF"
-
-[[raw_level_up_moves]]
-at_level = 51
-name = "FOCUSPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 55
-name = "DOUBLEEDGE"
-
-[[evolutions]]
-into_name = "SLAKING"
-condition = "Level"
-parameter = "36"
-
-
+evolutions = [
+    { into_name = "SLAKING", condition = "Level", parameter = "36" },
+]
 
 [base_stats]
 hp = 80
@@ -139,5 +146,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 2
-
-[wild_items]

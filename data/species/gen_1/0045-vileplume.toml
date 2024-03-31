@@ -1,3 +1,4 @@
+dex_number = 45
 name = "Vileplume"
 primary_type = "GRASS"
 secondary_type = "POISON"
@@ -6,11 +7,84 @@ growth_rate = "Parabolic"
 exp_yield = 216
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["THICKFAT", "EFFECTSPORE"]
-raw_egg_moves = []
-raw_tms = ["CUT", "TOXIC", "FLASH", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "REFLECT", "SLUDGEWAVE", "SLUDGEBOMB", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "FLING", "GIGAIMPACT", "SWORDSDANCE", "INFESTATION", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "DAZZLINGGLEAM", "CONFIDE", "CHARM", "BULLETSEED", "GRASSYTERRAIN", "BODYSLAM", "ENDURE", "POLLENPUFF"]
-raw_tutor_moves = ["AFTERYOU", "DRAINPUNCH", "GASTROACID", "GIGADRAIN", "SEEDBOMB", "SNORE", "SYNTHESIS", "WORRYSEED", "GRASSYGLIDE", "CORROSIVEGAS", "MIMIC"]
-compatible_egg_groups = ["Grass"]
+raw_abilities = [
+    "THICKFAT",
+    "EFFECTSPORE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "DRAINPUNCH" },
+    { at_level = 1, name = "EARTHPOWER" },
+    { at_level = 1, name = "GROWTH" },
+    { at_level = 1, name = "NATUREPOWER" },
+    { at_level = 1, name = "POISONPOWDER" },
+    { at_level = 1, name = "SLEEPPOWDER" },
+    { at_level = 1, name = "STUNSPORE" },
+    { at_level = 1, name = "TOXIC" },
+    { at_level = 25, name = "SLUDGE" },
+    { at_level = 30, name = "SEEDBOMB" },
+    { at_level = 36, name = "GASTROACID" },
+    { at_level = 42, name = "MOONBLAST" },
+    { at_level = 48, name = "PETALDANCE" },
+    { at_level = 58, name = "AROMATHERAPY" },
+    { at_level = 68, name = "SOLARBEAM" },
+]
+raw_tms = [
+    "CUT",
+    "TOXIC",
+    "FLASH",
+    "VENOSHOCK",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "PROTECT",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "DOUBLETEAM",
+    "REFLECT",
+    "SLUDGEWAVE",
+    "SLUDGEBOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ENERGYBALL",
+    "FLING",
+    "GIGAIMPACT",
+    "SWORDSDANCE",
+    "INFESTATION",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "NATUREPOWER",
+    "DAZZLINGGLEAM",
+    "CONFIDE",
+    "CHARM",
+    "BULLETSEED",
+    "GRASSYTERRAIN",
+    "BODYSLAM",
+    "ENDURE",
+    "POLLENPUFF",
+]
+raw_tutor_moves = [
+    "AFTERYOU",
+    "CORROSIVEGAS",
+    "DRAINPUNCH",
+    "GASTROACID",
+    "GIGADRAIN",
+    "GRASSYGLIDE",
+    "MIMIC",
+    "SEEDBOMB",
+    "SNORE",
+    "SYNTHESIS",
+    "WORRYSEED",
+]
+compatible_egg_groups = [
+    "Grass",
+]
 steps_to_hatch = 5355
 height = 1.2
 weight = 18.6
@@ -20,71 +94,7 @@ pokedex_entry = "In seasons when it produces more pollen, the air around a Vilep
 battler_player_y = 23
 battler_enemy_y = 17
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 45
-internal_name = "VILEPLUME"
 habitat = "Grassland"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "DRAINPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "EARTHPOWER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWTH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "NATUREPOWER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "POISONPOWDER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SLEEPPOWDER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "STUNSPORE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TOXIC"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "SLUDGE"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "SEEDBOMB"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "GASTROACID"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "MOONBLAST"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "PETALDANCE"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "AROMATHERAPY"
-
-[[raw_level_up_moves]]
-at_level = 68
-name = "SOLARBEAM"
 
 [base_stats]
 hp = 75

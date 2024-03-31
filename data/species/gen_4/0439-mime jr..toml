@@ -1,3 +1,4 @@
+dex_number = 439
 name = "Mime Jr."
 primary_type = "PSYCHIC"
 secondary_type = "FAIRY"
@@ -6,11 +7,114 @@ growth_rate = "Medium"
 exp_yield = 62
 catch_rate = 145
 caught_happiness = 70
-raw_abilities = ["SOUNDPROOF", "FILTER"]
-raw_egg_moves = ["CHARM", "CONFUSERAY", "FAKEOUT", "FUTURESIGHT", "HEALINGWISH", "HYPNOSIS", "ICYWIND", "MAGICROOM", "MIMIC", "NASTYPLOT", "POWERSPLIT", "PSYCHICTERRAIN", "TEETERDANCE", "TRICK", "WAKEUPSLAP"]
-raw_tms = ["PSYSHOCK", "CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "THUNDERBOLT", "THUNDER", "RETURN", "PSYCHIC", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "FLING", "CHARGEBEAM", "THUNDERWAVE", "PSYCHUP", "INFESTATION", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "DAZZLINGGLEAM", "CONFIDE", "CHARM", "MISTYTERRAIN", "PSYCHICTERRAIN", "ENDURE", "BATONPASS", "ENCORE", "FUTURESIGHT", "NASTYPLOT", "STOREDPOWER", "TRIATTACK"]
-raw_tutor_moves = ["ALLYSWITCH", "COVET", "DRAINPUNCH", "FOCUSPUNCH", "HEADBUTT", "HELPINGHAND", "ICYWIND", "MAGICCOAT", "MAGICROOM", "MUDSLAP", "RECYCLE", "ROLEPLAY", "SHOCKWAVE", "SIGNALBEAM", "SKILLSWAP", "SNATCH", "SNORE", "TELEKINESIS", "TRICK", "UPROAR", "WONDERROOM", "MIMIC"]
-compatible_egg_groups = ["Undiscovered"]
+raw_abilities = [
+    "SOUNDPROOF",
+    "FILTER",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "BARRIER" },
+    { at_level = 1, name = "CONFUSION" },
+    { at_level = 1, name = "COPYCAT" },
+    { at_level = 1, name = "TICKLE" },
+    { at_level = 4, name = "MEDITATE" },
+    { at_level = 7, name = "MIMIC" },
+    { at_level = 10, name = "DISARMINGVOICE" },
+    { at_level = 13, name = "HYPNOSIS" },
+    { at_level = 16, name = "TRICK" },
+    { at_level = 19, name = "PSYBEAM" },
+    { at_level = 22, name = "FAKEOUT" },
+    { at_level = 25, name = "HEALINGWISH" },
+    { at_level = 28, name = "HEALPULSE" },
+    { at_level = 31, name = "MAGICALLEAF" },
+    { at_level = 34, name = "DAZZLINGGLEAM" },
+    { at_level = 38, name = "FUTURESIGHT" },
+    { at_level = 42, name = "ROLEPLAY" },
+    { at_level = 46, name = "QUICKGUARD" },
+    { at_level = 46, name = "WIDEGUARD" },
+    { at_level = 50, name = "PSYCHIC" },
+    { at_level = 54, name = "CONFUSERAY" },
+    { at_level = 58, name = "NASTYPLOT" },
+]
+raw_tms = [
+    "PSYSHOCK",
+    "CALMMIND",
+    "TOXIC",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "THUNDERBOLT",
+    "THUNDER",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "REFLECT",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "FLING",
+    "CHARGEBEAM",
+    "THUNDERWAVE",
+    "PSYCHUP",
+    "INFESTATION",
+    "DREAMEATER",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "TRICKROOM",
+    "SECRETPOWER",
+    "DAZZLINGGLEAM",
+    "CONFIDE",
+    "CHARM",
+    "MISTYTERRAIN",
+    "PSYCHICTERRAIN",
+    "TRIATTACK",
+    "ENDURE",
+    "BATONPASS",
+    "ENCORE",
+    "FUTURESIGHT",
+    "NASTYPLOT",
+    "STOREDPOWER",
+]
+raw_tutor_moves = [
+    "ALLYSWITCH",
+    "COVET",
+    "DRAINPUNCH",
+    "FOCUSPUNCH",
+    "HEADBUTT",
+    "HELPINGHAND",
+    "ICYWIND",
+    "MAGICCOAT",
+    "MAGICROOM",
+    "MIMIC",
+    "MUDSLAP",
+    "RECYCLE",
+    "ROLEPLAY",
+    "SHOCKWAVE",
+    "SIGNALBEAM",
+    "SKILLSWAP",
+    "SNATCH",
+    "SNORE",
+    "TELEKINESIS",
+    "TRICK",
+    "UPROAR",
+    "WONDERROOM",
+]
+compatible_egg_groups = [
+    "Undiscovered",
+]
 steps_to_hatch = 6630
 height = 0.6
 weight = 13.0
@@ -20,105 +124,28 @@ pokedex_entry = "It habitually mimics foes. Once mimicked, the foe cannot take i
 battler_player_y = 18
 battler_enemy_y = 15
 battler_altitude = 0
-form_names = []
-dex_number = 439
 internal_name = "MIMEJR"
 raw_hidden_ability = "TECHNICIAN"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BARRIER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "CONFUSION"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "COPYCAT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TICKLE"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "MEDITATE"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "MIMIC"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "DISARMINGVOICE"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "HYPNOSIS"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "TRICK"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "PSYBEAM"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "FAKEOUT"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "HEALINGWISH"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "HEALPULSE"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "MAGICALLEAF"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "DAZZLINGGLEAM"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "FUTURESIGHT"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "ROLEPLAY"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "QUICKGUARD"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "WIDEGUARD"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "PSYCHIC"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "CONFUSERAY"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "NASTYPLOT"
-
-[[evolutions]]
-into_name = "MRMIME"
-condition = "Level"
-parameter = "25"
-
-
+raw_egg_moves = [
+    "CHARM",
+    "CONFUSERAY",
+    "FAKEOUT",
+    "FUTURESIGHT",
+    "HEALINGWISH",
+    "HYPNOSIS",
+    "ICYWIND",
+    "MAGICROOM",
+    "MIMIC",
+    "NASTYPLOT",
+    "POWERSPLIT",
+    "PSYCHICTERRAIN",
+    "TEETERDANCE",
+    "TRICK",
+    "WAKEUPSLAP",
+]
+evolutions = [
+    { into_name = "MRMIME", condition = "Level", parameter = "25" },
+]
 
 [base_stats]
 hp = 20
@@ -135,5 +162,3 @@ def_ = 0
 spa = 0
 spd = 1
 spe = 0
-
-[wild_items]

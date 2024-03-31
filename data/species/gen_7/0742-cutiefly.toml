@@ -1,3 +1,4 @@
+dex_number = 742
 name = "Cutiefly"
 primary_type = "BUG"
 secondary_type = "FAIRY"
@@ -6,11 +7,92 @@ growth_rate = "Medium"
 exp_yield = 61
 catch_rate = 190
 caught_happiness = 70
-raw_abilities = ["HONEYGATHER", "SHIELDDUST"]
-raw_egg_moves = ["BATONPASS", "BESTOW", "MOONBLAST", "POWDER", "SKILLSWAP", "SPEEDSWAP", "STICKYWEB"]
-raw_tms = ["CALMMIND", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "LIGHTSCREEN", "PROTECT", "ROOST", "ROOST", "SAFEGUARD", "FRUSTRATION", "RETURN", "LEECHLIFE", "PSYCHIC", "DOUBLETEAM", "REFLECT", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ENERGYBALL", "ACROBATICS", "PSYCHUP", "INFESTATION", "DREAMEATER", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "DAZZLINGGLEAM", "CONFIDE", "CHARM", "IMPRISON", "FAKETEARS", "SPEEDSWAP", "DRAININGKISS", "ENDURE", "BATONPASS", "BUGBUZZ", "PLAYROUGH", "SWIFT"]
-raw_tutor_moves = ["AFTERYOU", "ALLYSWITCH", "BUGBITE", "COVET", "DEFOG", "HELPINGHAND", "LASTRESORT", "MAGICROOM", "SIGNALBEAM", "SKILLSWAP", "SNORE", "TAILWIND", "TELEKINESIS", "TRICK", "WONDERROOM", "DUALWINGBEAT", "MIMIC"]
-compatible_egg_groups = ["Bug", "Fairy"]
+raw_abilities = [
+    "HONEYGATHER",
+    "SHIELDDUST",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "ABSORB" },
+    { at_level = 4, name = "FAIRYWIND" },
+    { at_level = 7, name = "STUNSPORE" },
+    { at_level = 10, name = "STRUGGLEBUG" },
+    { at_level = 13, name = "SILVERWIND" },
+    { at_level = 16, name = "DRAININGKISS" },
+    { at_level = 21, name = "SWEETSCENT" },
+    { at_level = 26, name = "BUGBUZZ" },
+    { at_level = 31, name = "DAZZLINGGLEAM" },
+    { at_level = 36, name = "AROMATHERAPY" },
+    { at_level = 41, name = "QUIVERDANCE" },
+    { at_level = 45, name = "MOONBLAST" },
+]
+raw_tms = [
+    "CALMMIND",
+    "TOXIC",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "ROOST",
+    "ROOST",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "RETURN",
+    "LEECHLIFE",
+    "PSYCHIC",
+    "DOUBLETEAM",
+    "REFLECT",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "ENERGYBALL",
+    "ACROBATICS",
+    "PSYCHUP",
+    "INFESTATION",
+    "DREAMEATER",
+    "SWAGGER",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "DAZZLINGGLEAM",
+    "CONFIDE",
+    "CHARM",
+    "IMPRISON",
+    "FAKETEARS",
+    "SPEEDSWAP",
+    "DRAININGKISS",
+    "ENDURE",
+    "BATONPASS",
+    "BUGBUZZ",
+    "PLAYROUGH",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AFTERYOU",
+    "ALLYSWITCH",
+    "BUGBITE",
+    "COVET",
+    "DEFOG",
+    "DUALWINGBEAT",
+    "HELPINGHAND",
+    "LASTRESORT",
+    "MAGICROOM",
+    "MIMIC",
+    "SIGNALBEAM",
+    "SKILLSWAP",
+    "SNORE",
+    "TAILWIND",
+    "TELEKINESIS",
+    "TRICK",
+    "WONDERROOM",
+]
+compatible_egg_groups = [
+    "Bug",
+    "Fairy",
+]
 steps_to_hatch = 5120
 height = 0.1
 weight = 0.2
@@ -20,66 +102,19 @@ pokedex_entry = "Myriads of Cutiefly flutter above the heads of people who have 
 battler_player_y = 28
 battler_enemy_y = 25
 battler_altitude = 3
-form_names = []
-dex_number = 742
-internal_name = "CUTIEFLY"
 raw_hidden_ability = "SWEETVEIL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ABSORB"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "FAIRYWIND"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "STUNSPORE"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "STRUGGLEBUG"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "SILVERWIND"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "DRAININGKISS"
-
-[[raw_level_up_moves]]
-at_level = 21
-name = "SWEETSCENT"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "BUGBUZZ"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "DAZZLINGGLEAM"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "AROMATHERAPY"
-
-[[raw_level_up_moves]]
-at_level = 41
-name = "QUIVERDANCE"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "MOONBLAST"
-
-[[evolutions]]
-into_name = "RIBOMBEE"
-condition = "Level"
-parameter = "25"
-
-
-
+raw_egg_moves = [
+    "BATONPASS",
+    "BESTOW",
+    "MOONBLAST",
+    "POWDER",
+    "SKILLSWAP",
+    "SPEEDSWAP",
+    "STICKYWEB",
+]
+evolutions = [
+    { into_name = "RIBOMBEE", condition = "Level", parameter = "25" },
+]
 
 [base_stats]
 hp = 40

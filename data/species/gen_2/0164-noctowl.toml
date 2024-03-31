@@ -1,3 +1,4 @@
+dex_number = 164
 name = "Noctowl"
 primary_type = "PSYCHIC"
 secondary_type = "FLYING"
@@ -6,19 +7,108 @@ growth_rate = "Medium"
 exp_yield = 158
 catch_rate = 90
 caught_happiness = 70
-raw_abilities = ["INSOMNIA", "KEENEYE", "TINTEDLENS"]
-raw_egg_moves = []
-raw_tms = [
-    "WORKUP", "FLY", "CALMMIND", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT",
-    "RAINDANCE", "ROOST", "ROOST", "FRUSTRATION", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM",
-    "REFLECT", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE",
-    "STEELWING", "GIGAIMPACT", "PSYCHUP", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE",
-    "SECRETPOWER", "CONFIDE", "SCREECH", "IMPRISON", "AIRSLASH", "HURRICANE", "AGILITY",
-    "AMNESIA", "ENDURE", "FUTURESIGHT", "NASTYPLOT", "STOREDPOWER", "SWIFT",
-    "MYSTICALFIRE"
+raw_abilities = [
+    "INSOMNIA",
+    "KEENEYE",
+    "TINTEDLENS",
 ]
-raw_tutor_moves = ["AIRCUTTER", "DEFOG", "HEATWAVE", "HYPERVOICE", "LASERFOCUS", "MAGICCOAT", "MUDSLAP", "OMINOUSWIND", "RECYCLE", "SKYATTACK", "SNORE", "TAILWIND", "TWISTER", "UPROAR", "ZENHEADBUTT", "DUALWINGBEAT", "MIMIC"]
-compatible_egg_groups = ["Flying"]
+raw_level_up_moves = [
+    { at_level = 1, name = "FUTURESIGHT" },
+    { at_level = 1, name = "NASTYPLOT" },
+    { at_level = 1, name = "FORESIGHT" },
+    { at_level = 1, name = "GROWL" },
+    { at_level = 1, name = "MEANLOOK" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 4, name = "PECK" },
+    { at_level = 7, name = "CONFUSION" },
+    { at_level = 10, name = "MIRRORMOVE" },
+    { at_level = 13, name = "NIGHTSHADE" },
+    { at_level = 16, name = "UPROAR" },
+    { at_level = 19, name = "HYPNOSIS" },
+    { at_level = 20, name = "STOREDPOWER" },
+    { at_level = 23, name = "AIRCUTTER" },
+    { at_level = 26, name = "DREAMEATER" },
+    { at_level = 29, name = "WHIRLWIND" },
+    { at_level = 32, name = "EXTRASENSORY" },
+    { at_level = 35, name = "FEATHERDANCE" },
+    { at_level = 38, name = "AGILITY" },
+    { at_level = 42, name = "SYNCHRONOISE" },
+    { at_level = 46, name = "TAILWIND" },
+    { at_level = 50, name = "MOONBLAST" },
+    { at_level = 54, name = "AIRSLASH" },
+    { at_level = 58, name = "ESPERWING" },
+    { at_level = 62, name = "SKYATTACK" },
+    { at_level = 70, name = "BOOMBURST" },
+]
+raw_tms = [
+    "WORKUP",
+    "FLY",
+    "CALMMIND",
+    "TOXIC",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "ROOST",
+    "ROOST",
+    "FRUSTRATION",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "REFLECT",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "ECHOEDVOICE",
+    "STEELWING",
+    "GIGAIMPACT",
+    "PSYCHUP",
+    "DREAMEATER",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "SCREECH",
+    "IMPRISON",
+    "AIRSLASH",
+    "MYSTICALFIRE",
+    "HURRICANE",
+    "AGILITY",
+    "AMNESIA",
+    "ENDURE",
+    "FUTURESIGHT",
+    "NASTYPLOT",
+    "STOREDPOWER",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AIRCUTTER",
+    "DEFOG",
+    "DUALWINGBEAT",
+    "HEATWAVE",
+    "HYPERVOICE",
+    "LASERFOCUS",
+    "MAGICCOAT",
+    "MIMIC",
+    "MUDSLAP",
+    "OMINOUSWIND",
+    "RECYCLE",
+    "SKYATTACK",
+    "SNORE",
+    "TAILWIND",
+    "TWISTER",
+    "UPROAR",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Flying",
+]
 steps_to_hatch = 4080
 height = 1.6
 weight = 40.8
@@ -28,115 +118,7 @@ pokedex_entry = "It unfailingly catches prey in darkness. Noctowl owe their succ
 battler_player_y = 15
 battler_enemy_y = 9
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 164
-internal_name = "NOCTOWL"
 habitat = "Forest"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FUTURESIGHT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "NASTYPLOT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FORESIGHT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "MEANLOOK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "PECK"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "CONFUSION"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "MIRRORMOVE"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "NIGHTSHADE"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "UPROAR"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "HYPNOSIS"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "STOREDPOWER"
-
-[[raw_level_up_moves]]
-at_level = 23
-name = "AIRCUTTER"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "DREAMEATER"
-
-[[raw_level_up_moves]]
-at_level = 29
-name = "WHIRLWIND"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "EXTRASENSORY"
-
-[[raw_level_up_moves]]
-at_level = 35
-name = "FEATHERDANCE"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "AGILITY"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "SYNCHRONOISE"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "TAILWIND"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "MOONBLAST"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "AIRSLASH"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "ESPERWING"
-
-[[raw_level_up_moves]]
-at_level = 62
-name = "SKYATTACK"
-
-[[raw_level_up_moves]]
-at_level = 70
-name = "BOOMBURST"
 
 [base_stats]
 hp = 100
@@ -153,5 +135,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

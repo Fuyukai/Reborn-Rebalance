@@ -1,3 +1,4 @@
+dex_number = 67
 name = "Machoke"
 primary_type = "FIGHTING"
 secondary_type = "FIGHTING"
@@ -6,11 +7,113 @@ growth_rate = "Parabolic"
 exp_yield = 142
 catch_rate = 90
 caught_happiness = 70
-raw_abilities = ["GUTS", "NOGUARD"]
-raw_egg_moves = []
-raw_tms = ["WORKUP", "STRENGTH", "TOXIC", "ROCKSMASH", "BULKUP", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "SMACKDOWN", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "FLAMETHROWER", "FIREBLAST", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "THIEF", "LOWSWEEP", "ROUND", "FOCUSBLAST", "FLING", "PAYBACK", "BULLDOZE", "ROCKSLIDE", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "SCARYFACE", "REVENGE", "BODYSLAM", "CLOSECOMBAT", "FOCUSENERGY", "METRONOME", "REVERSAL", "ENDURE", "ENCORE", "HEAVYSLAM", "RETALIATE"]
-raw_tutor_moves = ["DUALCHOP", "FIREPUNCH", "FOCUSPUNCH", "HEADBUTT", "HELPINGHAND", "ICEPUNCH", "KNOCKOFF", "LOWKICK", "MUDSLAP", "ROLEPLAY", "SNORE", "STOMPINGTANTRUM", "SUPERPOWER", "THUNDERPUNCH", "VACUUMWAVE", "COACHING", "MIMIC"]
-compatible_egg_groups = ["Humanlike"]
+raw_abilities = [
+    "GUTS",
+    "NOGUARD",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "KARATECHOP" },
+    { at_level = 1, name = "LEER" },
+    { at_level = 1, name = "MEDITATE" },
+    { at_level = 4, name = "COUNTER" },
+    { at_level = 7, name = "LOWKICK" },
+    { at_level = 9, name = "MEDITATE" },
+    { at_level = 11, name = "SEISMICTOSS" },
+    { at_level = 13, name = "DOUBLEHIT" },
+    { at_level = 15, name = "DUALCHOP" },
+    { at_level = 17, name = "REVENGE" },
+    { at_level = 19, name = "TICKLE" },
+    { at_level = 21, name = "BULLETPUNCH" },
+    { at_level = 23, name = "VITALTHROW" },
+    { at_level = 25, name = "HELPINGHAND" },
+    { at_level = 27, name = "ROCKTOMB" },
+    { at_level = 30, name = "SCARYFACE" },
+    { at_level = 33, name = "MACHPUNCH" },
+    { at_level = 36, name = "DOUBLEEDGE" },
+    { at_level = 39, name = "DRAINPUNCH" },
+    { at_level = 42, name = "HEAVYSLAM" },
+    { at_level = 45, name = "CROSSCHOP" },
+    { at_level = 49, name = "HIGHHORSEPOWER" },
+    { at_level = 53, name = "DYNAMICPUNCH" },
+    { at_level = 57, name = "CROSSPOISON" },
+    { at_level = 61, name = "CLOSECOMBAT" },
+]
+raw_tms = [
+    "WORKUP",
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "BULKUP",
+    "ROCKCLIMB",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "SMACKDOWN",
+    "EARTHQUAKE",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "FLAMETHROWER",
+    "FIREBLAST",
+    "ROCKTOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "LOWSWEEP",
+    "ROUND",
+    "FOCUSBLAST",
+    "FLING",
+    "PAYBACK",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "POISONJAB",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "DIG",
+    "SCARYFACE",
+    "REVENGE",
+    "BODYSLAM",
+    "CLOSECOMBAT",
+    "FOCUSENERGY",
+    "METRONOME",
+    "REVERSAL",
+    "ENDURE",
+    "ENCORE",
+    "HEAVYSLAM",
+    "RETALIATE",
+]
+raw_tutor_moves = [
+    "COACHING",
+    "DUALCHOP",
+    "FIREPUNCH",
+    "FOCUSPUNCH",
+    "HEADBUTT",
+    "HELPINGHAND",
+    "ICEPUNCH",
+    "KNOCKOFF",
+    "LOWKICK",
+    "MIMIC",
+    "MUDSLAP",
+    "ROLEPLAY",
+    "SNORE",
+    "STOMPINGTANTRUM",
+    "SUPERPOWER",
+    "THUNDERPUNCH",
+    "VACUUMWAVE",
+]
+compatible_egg_groups = [
+    "Humanlike",
+]
 steps_to_hatch = 5355
 height = 1.5
 weight = 70.5
@@ -20,119 +123,10 @@ pokedex_entry = "A belt is worn by a Machoke to keep its overwhelming power unde
 battler_player_y = 14
 battler_enemy_y = 10
 battler_altitude = 0
-form_names = []
-dex_number = 67
-internal_name = "MACHOKE"
 habitat = "Mountain"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "KARATECHOP"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "MEDITATE"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "COUNTER"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "LOWKICK"
-
-[[raw_level_up_moves]]
-at_level = 9
-name = "MEDITATE"
-
-[[raw_level_up_moves]]
-at_level = 11
-name = "SEISMICTOSS"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "DOUBLEHIT"
-
-[[raw_level_up_moves]]
-at_level = 15
-name = "DUALCHOP"
-
-[[raw_level_up_moves]]
-at_level = 17
-name = "REVENGE"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "TICKLE"
-
-[[raw_level_up_moves]]
-at_level = 21
-name = "BULLETPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 23
-name = "VITALTHROW"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "HELPINGHAND"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "ROCKTOMB"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "SCARYFACE"
-
-[[raw_level_up_moves]]
-at_level = 33
-name = "MACHPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "DOUBLEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 39
-name = "DRAINPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "HEAVYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "CROSSCHOP"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "HIGHHORSEPOWER"
-
-[[raw_level_up_moves]]
-at_level = 53
-name = "DYNAMICPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 57
-name = "CROSSPOISON"
-
-[[raw_level_up_moves]]
-at_level = 61
-name = "CLOSECOMBAT"
-
-[[evolutions]]
-into_name = "MACHAMP"
-condition = "Trade"
-parameter = ""
-
-
-
-
+evolutions = [
+    { into_name = "MACHAMP", condition = "Trade", parameter = "" },
+]
 
 [base_stats]
 hp = 80

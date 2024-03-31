@@ -1,3 +1,4 @@
+dex_number = 520
 name = "Tranquill"
 primary_type = "NORMAL"
 secondary_type = "FLYING"
@@ -6,11 +7,83 @@ growth_rate = "Parabolic"
 exp_yield = 125
 catch_rate = 120
 caught_happiness = 70
-raw_abilities = ["UNAWARE", "SUPERLUCK", "RIVALRY"]
-raw_egg_moves = []
-raw_tms = ["WORKUP", "FLY", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "FRUSTRATION", "RETURN", "DOUBLETEAM", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "STEELWING", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "AIRSLASH", "AGILITY", "FOCUSENERGY", "ENDURE", "SWIFT", "HURRICANE"]
-raw_tutor_moves = ["AIRCUTTER", "DEFOG", "HEATWAVE", "SKYATTACK", "SNORE", "TAILWIND", "UPROAR", "DUALWINGBEAT", "MIMIC"]
-compatible_egg_groups = ["Flying"]
+raw_abilities = [
+    "UNAWARE",
+    "SUPERLUCK",
+    "RIVALRY",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "GROWL" },
+    { at_level = 1, name = "GUST" },
+    { at_level = 1, name = "MUDSLAP" },
+    { at_level = 4, name = "LEER" },
+    { at_level = 6, name = "QUICKATTACK" },
+    { at_level = 8, name = "HYPNOSIS" },
+    { at_level = 10, name = "SWIFT" },
+    { at_level = 12, name = "AIRCUTTER" },
+    { at_level = 14, name = "TAUNT" },
+    { at_level = 16, name = "FOCUSENERGY" },
+    { at_level = 18, name = "TAILWIND" },
+    { at_level = 21, name = "UPROAR" },
+    { at_level = 22, name = "MORNINGSUN" },
+    { at_level = 25, name = "DUALWINGBEAT" },
+    { at_level = 28, name = "WISH" },
+    { at_level = 32, name = "STEELWING" },
+    { at_level = 36, name = "AIRSLASH" },
+    { at_level = 40, name = "LUCKYCHANT" },
+    { at_level = 44, name = "AGILITY" },
+    { at_level = 48, name = "DETECT" },
+    { at_level = 52, name = "BRAVEBIRD" },
+    { at_level = 56, name = "SKYATTACK" },
+]
+raw_tms = [
+    "WORKUP",
+    "FLY",
+    "TOXIC",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "PROTECT",
+    "RAINDANCE",
+    "ROOST",
+    "ROOST",
+    "FRUSTRATION",
+    "RETURN",
+    "DOUBLETEAM",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ECHOEDVOICE",
+    "STEELWING",
+    "SWAGGER",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "AIRSLASH",
+    "HURRICANE",
+    "AGILITY",
+    "FOCUSENERGY",
+    "ENDURE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AIRCUTTER",
+    "DEFOG",
+    "DUALWINGBEAT",
+    "HEATWAVE",
+    "MIMIC",
+    "SKYATTACK",
+    "SNORE",
+    "TAILWIND",
+    "UPROAR",
+]
+compatible_egg_groups = [
+    "Flying",
+]
 steps_to_hatch = 3840
 height = 0.6
 weight = 15.0
@@ -20,104 +93,9 @@ pokedex_entry = "Many people believe that, deep in the forest where Tranquill li
 battler_player_y = 22
 battler_enemy_y = 29
 battler_altitude = 0
-form_names = []
-dex_number = 520
-internal_name = "TRANQUILL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GUST"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "MUDSLAP"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 6
-name = "QUICKATTACK"
-
-[[raw_level_up_moves]]
-at_level = 8
-name = "HYPNOSIS"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "SWIFT"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "AIRCUTTER"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "TAUNT"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "FOCUSENERGY"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "TAILWIND"
-
-[[raw_level_up_moves]]
-at_level = 21
-name = "UPROAR"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "MORNINGSUN"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "DUALWINGBEAT"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "WISH"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "STEELWING"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "AIRSLASH"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "LUCKYCHANT"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "AGILITY"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "DETECT"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "BRAVEBIRD"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "SKYATTACK"
-
-[[evolutions]]
-into_name = "UNFEZANT"
-condition = "Level"
-parameter = "32"
-
-
+evolutions = [
+    { into_name = "UNFEZANT", condition = "Level", parameter = "32" },
+]
 
 [base_stats]
 hp = 65
@@ -134,5 +112,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

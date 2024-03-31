@@ -1,3 +1,4 @@
+dex_number = 177
 name = "Natu"
 primary_type = "PSYCHIC"
 secondary_type = "FLYING"
@@ -6,11 +7,108 @@ growth_rate = "Medium"
 exp_yield = 64
 catch_rate = 190
 caught_happiness = 70
-raw_abilities = ["SYNCHRONIZE", "MAGICBOUNCE"]
-raw_egg_moves = ["ALLYSWITCH", "DRILLPECK", "FEATHERDANCE", "FEINTATTACK", "HAZE", "QUICKATTACK", "REFRESH", "ROOST", "SIMPLEBEAM", "SKILLSWAP", "STEELWING", "SUCKERPUNCH", "SYNCHRONOISE", "ZENHEADBUTT"]
-raw_tms = ["PSYSHOCK", "CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "FRUSTRATION", "SOLARBEAM", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "STEELWING", "THUNDERWAVE", "PSYCHUP", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "DAZZLINGGLEAM", "CONFIDE", "IMPRISON", "POWERSWAP", "GUARDSWAP", "AIRSLASH", "ENDURE", "BATONPASS", "FUTURESIGHT", "COSMICPOWER", "STOREDPOWER", "SWIFT"]
-raw_tutor_moves = ["AIRCUTTER", "ALLYSWITCH", "GIGADRAIN", "HEATWAVE", "MAGICCOAT", "MAGICROOM", "OMINOUSWIND", "PAINSPLIT", "SIGNALBEAM", "SKILLSWAP", "SKYATTACK", "SNORE", "SUCKERPUNCH", "TAILWIND", "TELEKINESIS", "TRICK", "TWISTER", "ZENHEADBUTT", "DUALWINGBEAT", "EXPANDINGFORCE", "ESPERWING", "MIMIC"]
-compatible_egg_groups = ["Flying"]
+raw_abilities = [
+    "SYNCHRONIZE",
+    "MAGICBOUNCE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "LEER" },
+    { at_level = 1, name = "PECK" },
+    { at_level = 1, name = "QUICKATTACK" },
+    { at_level = 4, name = "LUCKYCHANT" },
+    { at_level = 7, name = "NIGHTSHADE" },
+    { at_level = 10, name = "REFRESH" },
+    { at_level = 13, name = "CONFUSION" },
+    { at_level = 16, name = "WISH" },
+    { at_level = 19, name = "AIRCUTTER" },
+    { at_level = 22, name = "OMINOUSWIND" },
+    { at_level = 25, name = "FUTURESIGHT" },
+    { at_level = 28, name = "FEATHERDANCE" },
+    { at_level = 31, name = "DUALWINGBEAT" },
+    { at_level = 34, name = "SIMPLEBEAM" },
+    { at_level = 37, name = "TAILWIND" },
+    { at_level = 40, name = "PAINSPLIT" },
+    { at_level = 44, name = "SYNCHRONOISE" },
+    { at_level = 48, name = "AIRSLASH" },
+    { at_level = 52, name = "ESPERWING" },
+    { at_level = 56, name = "COSMICPOWER" },
+]
+raw_tms = [
+    "PSYSHOCK",
+    "CALMMIND",
+    "TOXIC",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "ROOST",
+    "ROOST",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "REFLECT",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "STEELWING",
+    "THUNDERWAVE",
+    "PSYCHUP",
+    "DREAMEATER",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "TRICKROOM",
+    "SECRETPOWER",
+    "DAZZLINGGLEAM",
+    "CONFIDE",
+    "IMPRISON",
+    "POWERSWAP",
+    "GUARDSWAP",
+    "AIRSLASH",
+    "ENDURE",
+    "BATONPASS",
+    "FUTURESIGHT",
+    "COSMICPOWER",
+    "STOREDPOWER",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AIRCUTTER",
+    "ALLYSWITCH",
+    "DUALWINGBEAT",
+    "ESPERWING",
+    "EXPANDINGFORCE",
+    "GIGADRAIN",
+    "HEATWAVE",
+    "MAGICCOAT",
+    "MAGICROOM",
+    "MIMIC",
+    "OMINOUSWIND",
+    "PAINSPLIT",
+    "SIGNALBEAM",
+    "SKILLSWAP",
+    "SKYATTACK",
+    "SNORE",
+    "SUCKERPUNCH",
+    "TAILWIND",
+    "TELEKINESIS",
+    "TRICK",
+    "TWISTER",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Flying",
+]
 steps_to_hatch = 5355
 height = 0.2
 weight = 2.0
@@ -20,97 +118,26 @@ pokedex_entry = "It runs up short trees that grow on the savanna to peck at new 
 battler_player_y = 33
 battler_enemy_y = 28
 battler_altitude = 0
-form_names = []
-dex_number = 177
-internal_name = "NATU"
+raw_egg_moves = [
+    "ALLYSWITCH",
+    "DRILLPECK",
+    "FEATHERDANCE",
+    "FEINTATTACK",
+    "HAZE",
+    "QUICKATTACK",
+    "REFRESH",
+    "ROOST",
+    "SIMPLEBEAM",
+    "SKILLSWAP",
+    "STEELWING",
+    "SUCKERPUNCH",
+    "SYNCHRONOISE",
+    "ZENHEADBUTT",
+]
 habitat = "Forest"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "PECK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "QUICKATTACK"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "LUCKYCHANT"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "NIGHTSHADE"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "REFRESH"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "CONFUSION"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "WISH"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "AIRCUTTER"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "OMINOUSWIND"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "FUTURESIGHT"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "FEATHERDANCE"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "DUALWINGBEAT"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "SIMPLEBEAM"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "TAILWIND"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "PAINSPLIT"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "SYNCHRONOISE"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "AIRSLASH"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "ESPERWING"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "COSMICPOWER"
-
-[[evolutions]]
-into_name = "XATU"
-condition = "Level"
-parameter = "25"
-
-
+evolutions = [
+    { into_name = "XATU", condition = "Level", parameter = "25" },
+]
 
 [base_stats]
 hp = 40
@@ -127,5 +154,3 @@ def_ = 0
 spa = 1
 spd = 0
 spe = 0
-
-[wild_items]

@@ -1,3 +1,4 @@
+dex_number = 315
 name = "Roselia"
 primary_type = "GRASS"
 secondary_type = "POISON"
@@ -6,11 +7,93 @@ growth_rate = "Parabolic"
 exp_yield = 140
 catch_rate = 150
 caught_happiness = 70
-raw_abilities = ["NATURALCURE", "POISONPOINT"]
-raw_egg_moves = []
-raw_tms = ["CUT", "TOXIC", "FLASH", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "RAINDANCE", "FRUSTRATION", "SOLARBEAM", "RETURN", "SHADOWBALL", "DOUBLETEAM", "SLUDGEBOMB", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "SWORDSDANCE", "PSYCHUP", "POISONJAB", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "DAZZLINGGLEAM", "CONFIDE", "PINMISSILE", "MAGICALLEAF", "WEATHERBALL", "BULLETSEED", "BODYSLAM", "POWERWHIP", "LEAFSTORM", "SPIKES", "ENDURE", "TOXICSPIKES", "SWIFT"]
-raw_tutor_moves = ["COVET", "FURYCUTTER", "GIGADRAIN", "MUDSLAP", "SEEDBOMB", "SNORE", "SYNTHESIS", "UPROAR", "WORRYSEED", "GRASSYGLIDE", "MIMIC"]
-compatible_egg_groups = ["Fairy", "Grass"]
+raw_abilities = [
+    "NATURALCURE",
+    "POISONPOINT",
+]
+raw_level_up_moves = [
+    { at_level = 0, name = "GROWTH" },
+    { at_level = 1, name = "ABSORB" },
+    { at_level = 1, name = "GROWTH" },
+    { at_level = 1, name = "POISONSTING" },
+    { at_level = 9, name = "MAGICALLEAF" },
+    { at_level = 12, name = "STUNSPORE" },
+    { at_level = 12, name = "GRASSWHISTLE" },
+    { at_level = 15, name = "VENOSHOCK" },
+    { at_level = 18, name = "MEGADRAIN" },
+    { at_level = 21, name = "LEECHSEED" },
+    { at_level = 24, name = "SPIKES" },
+    { at_level = 24, name = "TOXICSPIKES" },
+    { at_level = 27, name = "LEAFTORNADO" },
+    { at_level = 30, name = "INGRAIN" },
+    { at_level = 34, name = "SLUDGE" },
+    { at_level = 38, name = "SYNTHESIS" },
+    { at_level = 42, name = "PETALDANCE" },
+    { at_level = 46, name = "EXTRASENSORY" },
+    { at_level = 50, name = "AROMATHERAPY" },
+    { at_level = 54, name = "SLEEPPOWDER" },
+    { at_level = 58, name = "POWERWHIP" },
+]
+raw_tms = [
+    "CUT",
+    "TOXIC",
+    "FLASH",
+    "VENOSHOCK",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "SLUDGEBOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ENERGYBALL",
+    "SWORDSDANCE",
+    "PSYCHUP",
+    "POISONJAB",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "NATUREPOWER",
+    "DAZZLINGGLEAM",
+    "CONFIDE",
+    "PINMISSILE",
+    "MAGICALLEAF",
+    "WEATHERBALL",
+    "BULLETSEED",
+    "BODYSLAM",
+    "POWERWHIP",
+    "LEAFSTORM",
+    "SPIKES",
+    "ENDURE",
+    "TOXICSPIKES",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "COVET",
+    "FURYCUTTER",
+    "GIGADRAIN",
+    "GRASSYGLIDE",
+    "MIMIC",
+    "MUDSLAP",
+    "SEEDBOMB",
+    "SNORE",
+    "SYNTHESIS",
+    "UPROAR",
+    "WORRYSEED",
+]
+compatible_egg_groups = [
+    "Fairy",
+    "Grass",
+]
 steps_to_hatch = 5355
 height = 0.3
 weight = 2.0
@@ -20,102 +103,11 @@ pokedex_entry = "A Roselia that drinks nutritionally rich springwater blooms wit
 battler_player_y = 25
 battler_enemy_y = 20
 battler_altitude = 0
-form_names = []
-dex_number = 315
-internal_name = "ROSELIA"
 raw_hidden_ability = "LEAFGUARD"
 habitat = "Grassland"
-
-[[raw_level_up_moves]]
-at_level = 0
-name = "GROWTH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ABSORB"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWTH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "POISONSTING"
-
-[[raw_level_up_moves]]
-at_level = 9
-name = "MAGICALLEAF"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "STUNSPORE"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "GRASSWHISTLE"
-
-[[raw_level_up_moves]]
-at_level = 15
-name = "VENOSHOCK"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "MEGADRAIN"
-
-[[raw_level_up_moves]]
-at_level = 21
-name = "LEECHSEED"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "SPIKES"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "TOXICSPIKES"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "LEAFTORNADO"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "INGRAIN"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "SLUDGE"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "SYNTHESIS"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "PETALDANCE"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "EXTRASENSORY"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "AROMATHERAPY"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "SLEEPPOWDER"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "POWERWHIP"
-
-[[evolutions]]
-into_name = "ROSERADE"
-condition = "Item"
-parameter = "SHINYSTONE"
-
-
+evolutions = [
+    { into_name = "ROSERADE", condition = "Item", parameter = "SHINYSTONE" },
+]
 
 [base_stats]
 hp = 50

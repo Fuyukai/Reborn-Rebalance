@@ -1,3 +1,4 @@
+dex_number = 884
 name = "Duraludon"
 primary_type = "STEEL"
 secondary_type = "DRAGON"
@@ -6,11 +7,82 @@ growth_rate = "Medium"
 exp_yield = 187
 catch_rate = 45
 caught_happiness = 50
-raw_abilities = ["LIGHTMETAL", "HEAVYMETAL"]
-raw_egg_moves = ["SLASH", "NIGHTSLASH", "MIRRORCOAT"]
-raw_tms = ["DRAGONCLAW", "STRENGTH", "ROCKSMASH", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "SOLARBEAM", "THUNDERBOLT", "THUNDER", "BRICKBREAK", "REFLECT", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "GIGAIMPACT", "STONEEDGE", "THUNDERWAVE", "GYROBALL", "SWORDSDANCE", "ROCKSLIDE", "DRAGONTAIL", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "SNARL", "DARKPULSE", "SCREECH", "SCARYFACE", "BREAKINGSWIPE", "BODYSLAM", "ENDURE", "HEAVYSLAM", "BODYPRESS"]
-raw_tutor_moves = ["DRACOMETEOR", "DRAGONPULSE", "FOULPLAY", "IRONDEFENSE", "IRONHEAD", "LASERFOCUS", "OUTRAGE", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "STEELROLLER", "STEELBEAM", "MIMIC"]
-compatible_egg_groups = ["Mineral", "Dragon"]
+raw_abilities = [
+    "LIGHTMETAL",
+    "HEAVYMETAL",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "METALCLAW" },
+    { at_level = 1, name = "LEER" },
+    { at_level = 6, name = "ROCKSMASH" },
+    { at_level = 12, name = "HONECLAWS" },
+    { at_level = 18, name = "METALSOUND" },
+    { at_level = 24, name = "BREAKINGSWIPE" },
+    { at_level = 30, name = "DRAGONTAIL" },
+    { at_level = 36, name = "IRONDEFENSE" },
+    { at_level = 42, name = "LASERFOCUS" },
+    { at_level = 48, name = "DRAGONCLAW" },
+    { at_level = 54, name = "FLASHCANNON" },
+    { at_level = 60, name = "METALBURST" },
+    { at_level = 66, name = "HYPERBEAM" },
+]
+raw_tms = [
+    "DRAGONCLAW",
+    "STRENGTH",
+    "ROCKSMASH",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "SOLARBEAM",
+    "THUNDERBOLT",
+    "THUNDER",
+    "BRICKBREAK",
+    "REFLECT",
+    "ROCKTOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "GIGAIMPACT",
+    "STONEEDGE",
+    "THUNDERWAVE",
+    "GYROBALL",
+    "SWORDSDANCE",
+    "ROCKSLIDE",
+    "DRAGONTAIL",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "FLASHCANNON",
+    "SECRETPOWER",
+    "SNARL",
+    "DARKPULSE",
+    "SCREECH",
+    "SCARYFACE",
+    "BREAKINGSWIPE",
+    "BODYSLAM",
+    "ENDURE",
+    "HEAVYSLAM",
+    "BODYPRESS",
+]
+raw_tutor_moves = [
+    "DRACOMETEOR",
+    "DRAGONPULSE",
+    "FOULPLAY",
+    "IRONDEFENSE",
+    "IRONHEAD",
+    "LASERFOCUS",
+    "MIMIC",
+    "OUTRAGE",
+    "SNORE",
+    "STEALTHROCK",
+    "STEELBEAM",
+    "STEELROLLER",
+    "STOMPINGTANTRUM",
+]
+compatible_egg_groups = [
+    "Mineral",
+    "Dragon",
+]
 steps_to_hatch = 7680
 height = 1.8
 weight = 40.0
@@ -20,68 +92,16 @@ pokedex_entry = "The special metal that composes its body is very light, so this
 battler_player_y = 21
 battler_enemy_y = 26
 battler_altitude = 0
-form_names = []
-dex_number = 884
-internal_name = "DURALUDON"
 raw_hidden_ability = "STALWART"
+raw_egg_moves = [
+    "SLASH",
+    "NIGHTSLASH",
+    "MIRRORCOAT",
+]
+evolutions = [
+    { into_name = "ARCHALUDON", condition = "Item", parameter = "METALALLOY" },
+]
 regional_numbers = 884
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "METALCLAW"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 6
-name = "ROCKSMASH"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "HONECLAWS"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "METALSOUND"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "BREAKINGSWIPE"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "DRAGONTAIL"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "IRONDEFENSE"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "LASERFOCUS"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "DRAGONCLAW"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "FLASHCANNON"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "METALBURST"
-
-[[raw_level_up_moves]]
-at_level = 66
-name = "HYPERBEAM"
-
-[[evolutions]]
-into_name = "ARCHALUDON"
-condition = "Item"
-parameter = "METALALLOY"
 
 [base_stats]
 hp = 70
@@ -98,5 +118,3 @@ def_ = 0
 spa = 2
 spd = 0
 spe = 0
-
-[wild_items]

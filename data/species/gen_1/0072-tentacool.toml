@@ -1,3 +1,4 @@
+dex_number = 72
 name = "Tentacool"
 primary_type = "WATER"
 secondary_type = "POISON"
@@ -6,11 +7,91 @@ growth_rate = "Slow"
 exp_yield = 67
 catch_rate = 190
 caught_happiness = 70
-raw_abilities = ["CLEARBODY", "LIQUIDOOZE"]
-raw_egg_moves = ["ACUPRESSURE", "AQUARING", "AURORABEAM", "BUBBLE", "CONFUSERAY", "HAZE", "KNOCKOFF", "MIRRORCOAT", "MUDDYWATER", "RAPIDSPIN", "TICKLE"]
-raw_tms = ["CUT", "SURF", "WATERFALL", "TOXIC", "DIVE", "HAIL", "VENOSHOCK", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "RETURN", "DOUBLETEAM", "REFLECT", "SLUDGEWAVE", "SLUDGEBOMB", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "SCALD", "PAYBACK", "SWORDSDANCE", "INFESTATION", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "DAZZLINGGLEAM", "CONFIDE", "SCREECH", "WHIRLPOOL", "BRINE", "CROSSPOISON", "HEX", "HYDROPUMP", "ENDURE", "MUDDYWATER", "TOXICSPIKES"]
-raw_tutor_moves = ["BIND", "GIGADRAIN", "ICYWIND", "KNOCKOFF", "MAGICCOAT", "SNORE", "WATERPULSE", "MIMIC"]
-compatible_egg_groups = ["Water3"]
+raw_abilities = [
+    "CLEARBODY",
+    "LIQUIDOOZE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "POISONSTING" },
+    { at_level = 1, name = "SUPERSONIC" },
+    { at_level = 1, name = "WRAP" },
+    { at_level = 4, name = "SCREECH" },
+    { at_level = 7, name = "ACID" },
+    { at_level = 10, name = "TOXICSPIKES" },
+    { at_level = 13, name = "WATERPULSE" },
+    { at_level = 16, name = "RAPIDSPIN" },
+    { at_level = 19, name = "MEGADRAIN" },
+    { at_level = 22, name = "BUBBLEBEAM" },
+    { at_level = 25, name = "BARRIER" },
+    { at_level = 28, name = "HEX" },
+    { at_level = 31, name = "MUDDYWATER" },
+    { at_level = 34, name = "ACIDARMOR" },
+    { at_level = 37, name = "AURORABEAM" },
+    { at_level = 40, name = "AQUARING" },
+    { at_level = 43, name = "CROSSPOISON" },
+    { at_level = 46, name = "WRINGOUT" },
+    { at_level = 49, name = "ACUPRESSURE" },
+    { at_level = 52, name = "HYDROPUMP" },
+]
+raw_tms = [
+    "CUT",
+    "SURF",
+    "WATERFALL",
+    "TOXIC",
+    "DIVE",
+    "HAIL",
+    "VENOSHOCK",
+    "HIDDENPOWER",
+    "ICEBEAM",
+    "BLIZZARD",
+    "PROTECT",
+    "RAINDANCE",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "RETURN",
+    "DOUBLETEAM",
+    "REFLECT",
+    "SLUDGEWAVE",
+    "SLUDGEBOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "SCALD",
+    "PAYBACK",
+    "SWORDSDANCE",
+    "INFESTATION",
+    "POISONJAB",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "DAZZLINGGLEAM",
+    "CONFIDE",
+    "SCREECH",
+    "WHIRLPOOL",
+    "BRINE",
+    "CROSSPOISON",
+    "HEX",
+    "HYDROPUMP",
+    "ENDURE",
+    "MUDDYWATER",
+    "TOXICSPIKES",
+]
+raw_tutor_moves = [
+    "BIND",
+    "GIGADRAIN",
+    "ICYWIND",
+    "KNOCKOFF",
+    "MAGICCOAT",
+    "MIMIC",
+    "SNORE",
+    "WATERPULSE",
+]
+compatible_egg_groups = [
+    "Water3",
+]
 steps_to_hatch = 5355
 height = 0.9
 weight = 45.5
@@ -20,100 +101,24 @@ pokedex_entry = "Its body is almost entirely composed of water. It ensnares its 
 battler_player_y = 21
 battler_enemy_y = 13
 battler_altitude = 8
-form_names = []
-dex_number = 72
-internal_name = "TENTACOOL"
 raw_hidden_ability = "RAINDISH"
+raw_egg_moves = [
+    "ACUPRESSURE",
+    "AQUARING",
+    "AURORABEAM",
+    "BUBBLE",
+    "CONFUSERAY",
+    "HAZE",
+    "KNOCKOFF",
+    "MIRRORCOAT",
+    "MUDDYWATER",
+    "RAPIDSPIN",
+    "TICKLE",
+]
 habitat = "Sea"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "POISONSTING"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SUPERSONIC"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WRAP"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "SCREECH"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "ACID"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "TOXICSPIKES"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "WATERPULSE"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "RAPIDSPIN"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "MEGADRAIN"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "BUBBLEBEAM"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "BARRIER"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "HEX"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "MUDDYWATER"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "ACIDARMOR"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "AURORABEAM"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "AQUARING"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "CROSSPOISON"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "WRINGOUT"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "ACUPRESSURE"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "HYDROPUMP"
-
-[[evolutions]]
-into_name = "TENTACRUEL"
-condition = "Level"
-parameter = "30"
-
-
-
-
+evolutions = [
+    { into_name = "TENTACRUEL", condition = "Level", parameter = "30" },
+]
 
 [base_stats]
 hp = 40

@@ -1,3 +1,4 @@
+dex_number = 134
 name = "Vaporeon"
 primary_type = "WATER"
 secondary_type = "WATER"
@@ -6,11 +7,117 @@ growth_rate = "Medium"
 exp_yield = 184
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["WATERABSORB", "MARVELSCALE"]
-raw_egg_moves = []
-raw_tms = ["WORKUP", "SURF", "CALMMIND", "STRENGTH", "ROAR", "WATERFALL", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "SCALD", "GIGAIMPACT", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "CONFIDE", "PAYDAY", "DIG", "CHARM", "WHIRLPOOL", "WEATHERBALL", "FAKETEARS", "BRINE", "BODYSLAM", "HYDROPUMP", "FOCUSENERGY", "TRIATTACK", "ENDURE", "BATONPASS", "MUDDYWATER", "STOREDPOWER", "RETALIATE", "TRAILBLAZE", "CHILLINGWATER", "SWIFT"]
-raw_tutor_moves = ["AQUATAIL", "COVET", "HEADBUTT", "HEALBELL", "HELPINGHAND", "HYPERVOICE", "ICYWIND", "IRONTAIL", "LASERFOCUS", "LASTRESORT", "LIQUIDATION", "MUDSLAP", "SIGNALBEAM", "SNORE", "WATERPULSE", "FLIPTURN", "MIMIC", "CELEBRATE"]
-compatible_egg_groups = ["Field"]
+raw_abilities = [
+    "WATERABSORB",
+    "MARVELSCALE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "WATERSPOUT" },
+    { at_level = 1, name = "GROWTH" },
+    { at_level = 1, name = "SING" },
+    { at_level = 1, name = "CHARM" },
+    { at_level = 1, name = "EXTRASENSORY" },
+    { at_level = 1, name = "FAKETEARS" },
+    { at_level = 1, name = "STOREDPOWER" },
+    { at_level = 1, name = "TICKLE" },
+    { at_level = 5, name = "CAPTIVATE" },
+    { at_level = 7, name = "HELPINGHAND" },
+    { at_level = 10, name = "QUICKATTACK" },
+    { at_level = 13, name = "BITE" },
+    { at_level = 16, name = "SWIFT" },
+    { at_level = 19, name = "DOUBLEKICK" },
+    { at_level = 22, name = "COVET" },
+    { at_level = 24, name = "BRINE" },
+    { at_level = 28, name = "AURORABEAM" },
+    { at_level = 32, name = "BUBBLEBEAM" },
+    { at_level = 36, name = "AQUARING" },
+    { at_level = 40, name = "MUDDYWATER" },
+    { at_level = 45, name = "ACIDARMOR" },
+    { at_level = 50, name = "SYNCHRONOISE" },
+    { at_level = 55, name = "WISH" },
+    { at_level = 60, name = "HYDROPUMP" },
+    { at_level = 65, name = "LASTRESORT" },
+]
+raw_tms = [
+    "WORKUP",
+    "SURF",
+    "CALMMIND",
+    "STRENGTH",
+    "ROAR",
+    "WATERFALL",
+    "TOXIC",
+    "DIVE",
+    "HAIL",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "ICEBEAM",
+    "BLIZZARD",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "RETURN",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "REFLECT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ECHOEDVOICE",
+    "SCALD",
+    "GIGAIMPACT",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "WILDCHARGE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "PAYDAY",
+    "DIG",
+    "CHARM",
+    "WHIRLPOOL",
+    "WEATHERBALL",
+    "FAKETEARS",
+    "BRINE",
+    "BODYSLAM",
+    "HYDROPUMP",
+    "FOCUSENERGY",
+    "TRIATTACK",
+    "ENDURE",
+    "BATONPASS",
+    "MUDDYWATER",
+    "STOREDPOWER",
+    "RETALIATE",
+    "TRAILBLAZE",
+    "CHILLINGWATER",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AQUATAIL",
+    "CELEBRATE",
+    "COVET",
+    "FLIPTURN",
+    "HEADBUTT",
+    "HEALBELL",
+    "HELPINGHAND",
+    "HYPERVOICE",
+    "ICYWIND",
+    "IRONTAIL",
+    "LASERFOCUS",
+    "LASTRESORT",
+    "LIQUIDATION",
+    "MIMIC",
+    "MUDSLAP",
+    "SIGNALBEAM",
+    "SNORE",
+    "WATERPULSE",
+]
+compatible_egg_groups = [
+    "Field",
+]
 steps_to_hatch = 9180
 height = 1.0
 weight = 29.0
@@ -20,112 +127,8 @@ pokedex_entry = "Vaporeon underwent a spontaneous mutation and grew fins and gil
 battler_player_y = 22
 battler_enemy_y = 16
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 134
-internal_name = "VAPOREON"
 raw_hidden_ability = "HYDRATION"
 habitat = "Urban"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WATERSPOUT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWTH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SING"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "CHARM"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "EXTRASENSORY"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FAKETEARS"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "STOREDPOWER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TICKLE"
-
-[[raw_level_up_moves]]
-at_level = 5
-name = "CAPTIVATE"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "HELPINGHAND"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "QUICKATTACK"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "SWIFT"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "DOUBLEKICK"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "COVET"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "BRINE"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "AURORABEAM"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "BUBBLEBEAM"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "AQUARING"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "MUDDYWATER"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "ACIDARMOR"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "SYNCHRONOISE"
-
-[[raw_level_up_moves]]
-at_level = 55
-name = "WISH"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "HYDROPUMP"
-
-[[raw_level_up_moves]]
-at_level = 65
-name = "LASTRESORT"
 
 [base_stats]
 hp = 130
@@ -142,5 +145,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

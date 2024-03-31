@@ -1,3 +1,4 @@
+dex_number = 273
 name = "Seedot"
 primary_type = "GRASS"
 secondary_type = "GRASS"
@@ -6,11 +7,91 @@ growth_rate = "Parabolic"
 exp_yield = 44
 catch_rate = 255
 caught_happiness = 70
-raw_abilities = ["CHLOROPHYLL", "EARLYBIRD", "RATTLED"]
-raw_egg_moves = ["AMNESIA", "BEATUP", "BULLETSEED", "DEFOG", "FOULPLAY", "GRASSYTERRAIN", "LEECHSEED", "NASTYPLOT", "POWERSWAP", "QUICKATTACK", "RAZORWIND", "TAKEDOWN", "WORRYSEED"]
-raw_tms = ["TOXIC", "ROCKSMASH", "FLASH", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "FRUSTRATION", "SOLARBEAM", "RETURN", "SHADOWBALL", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "FALSESWIPE", "EXPLOSION", "PAYBACK", "SWORDSDANCE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "DIG", "SELFDESTRUCT", "BEATUP", "BULLETSEED", "POWERSWAP", "GRASSYTERRAIN", "BODYSLAM", "AMNESIA", "ENDURE", "NASTYPLOT", "RETALIATE"]
-raw_tutor_moves = ["DEFOG", "FOULPLAY", "GIGADRAIN", "HEADBUTT", "ROLLOUT", "SEEDBOMB", "SNORE", "SPITE", "SYNTHESIS", "WORRYSEED", "GRASSYGLIDE", "MIMIC"]
-compatible_egg_groups = ["Field", "Grass"]
+raw_abilities = [
+    "CHLOROPHYLL",
+    "EARLYBIRD",
+    "RATTLED",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "ABSORB" },
+    { at_level = 1, name = "HARDEN" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 4, name = "ROLLOUT" },
+    { at_level = 6, name = "COUNTER" },
+    { at_level = 8, name = "PAYBACK" },
+    { at_level = 10, name = "NATUREPOWER" },
+    { at_level = 12, name = "MEGADRAIN" },
+    { at_level = 15, name = "SYNTHESIS" },
+    { at_level = 18, name = "QUICKATTACK" },
+    { at_level = 22, name = "LEECHSEED" },
+    { at_level = 25, name = "WORRYSEED" },
+    { at_level = 28, name = "SUCKERPUNCH" },
+    { at_level = 31, name = "BEATUP" },
+    { at_level = 34, name = "ENERGYBALL" },
+    { at_level = 38, name = "TAKEDOWN" },
+    { at_level = 42, name = "AMNESIA" },
+    { at_level = 46, name = "FOULPLAY" },
+    { at_level = 50, name = "NASTYPLOT" },
+    { at_level = 54, name = "EXPLOSION" },
+]
+raw_tms = [
+    "TOXIC",
+    "ROCKSMASH",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "PROTECT",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ENERGYBALL",
+    "FALSESWIPE",
+    "EXPLOSION",
+    "PAYBACK",
+    "SWORDSDANCE",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "NATUREPOWER",
+    "CONFIDE",
+    "DIG",
+    "SELFDESTRUCT",
+    "BEATUP",
+    "BULLETSEED",
+    "POWERSWAP",
+    "GRASSYTERRAIN",
+    "BODYSLAM",
+    "AMNESIA",
+    "ENDURE",
+    "NASTYPLOT",
+    "RETALIATE",
+]
+raw_tutor_moves = [
+    "DEFOG",
+    "FOULPLAY",
+    "GIGADRAIN",
+    "GRASSYGLIDE",
+    "HEADBUTT",
+    "MIMIC",
+    "ROLLOUT",
+    "SEEDBOMB",
+    "SNORE",
+    "SPITE",
+    "SYNTHESIS",
+    "WORRYSEED",
+]
+compatible_egg_groups = [
+    "Field",
+    "Grass",
+]
 steps_to_hatch = 4080
 height = 0.5
 weight = 4.0
@@ -20,97 +101,25 @@ pokedex_entry = "It hangs off branches and absorbs nutrients. When it finishes e
 battler_player_y = 29
 battler_enemy_y = 24
 battler_altitude = 0
-form_names = []
-dex_number = 273
-internal_name = "SEEDOT"
+raw_egg_moves = [
+    "AMNESIA",
+    "BEATUP",
+    "BULLETSEED",
+    "DEFOG",
+    "FOULPLAY",
+    "GRASSYTERRAIN",
+    "LEECHSEED",
+    "NASTYPLOT",
+    "POWERSWAP",
+    "QUICKATTACK",
+    "RAZORWIND",
+    "TAKEDOWN",
+    "WORRYSEED",
+]
 habitat = "Forest"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ABSORB"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HARDEN"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "ROLLOUT"
-
-[[raw_level_up_moves]]
-at_level = 6
-name = "COUNTER"
-
-[[raw_level_up_moves]]
-at_level = 8
-name = "PAYBACK"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "NATUREPOWER"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "MEGADRAIN"
-
-[[raw_level_up_moves]]
-at_level = 15
-name = "SYNTHESIS"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "QUICKATTACK"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "LEECHSEED"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "WORRYSEED"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "SUCKERPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "BEATUP"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "ENERGYBALL"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "TAKEDOWN"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "AMNESIA"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "FOULPLAY"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "NASTYPLOT"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "EXPLOSION"
-
-[[evolutions]]
-into_name = "NUZLEAF"
-condition = "Level"
-parameter = "14"
-
-
+evolutions = [
+    { into_name = "NUZLEAF", condition = "Level", parameter = "14" },
+]
 
 [base_stats]
 hp = 40

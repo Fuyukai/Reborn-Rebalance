@@ -1,137 +1,44 @@
-chances = [0, 6, 20]
+chances = [
+    0,
+    6,
+    20,
+]
 
 [encounters]
-[[encounters.Cave]]
-name = "ORICORIO"
-minimum_level = 50
-maximum_level = 75
-
-[[encounters.Cave]]
-name = "NUMEL"
-minimum_level = 50
-maximum_level = 75
-
-[[encounters.Cave]]
-name = "PANPOUR"
-minimum_level = 50
-maximum_level = 75
-
-[[encounters.Cave]]
-name = "PANSEAR"
-minimum_level = 50
-maximum_level = 75
-
-[[encounters.Cave]]
-name = "NOIVERN"
-minimum_level = 50
-maximum_level = 65
-
-[[encounters.Cave]]
-name = "DARUMAKA"
-minimum_level = 30
-maximum_level = 50
-
-[[encounters.Cave]]
-name = "TORKOAL"
-minimum_level = 50
-maximum_level = 65
-
-[[encounters.Cave]]
-name = "KECLEON"
-minimum_level = 50
-maximum_level = 65
-
-[[encounters.Cave]]
-name = "SIMISEAR"
-minimum_level = 50
-maximum_level = 65
-
-[[encounters.Cave]]
-name = "SIMIPOUR"
-minimum_level = 50
-maximum_level = 65
-
-[[encounters.Cave]]
-name = "GASTRODON"
-minimum_level = 70
-maximum_level = 90
-
-[[encounters.Cave]]
-name = "CAMERUPT"
-minimum_level = 70
-maximum_level = 90
-
-[[encounters.Water]]
-name = "SHELLOS"
-minimum_level = 50
-maximum_level = 75
-
-[[encounters.Water]]
-name = "BARBOACH"
-minimum_level = 50
-maximum_level = 75
-
-[[encounters.Water]]
-name = "GASTRODON"
-minimum_level = 60
-maximum_level = 80
-
-[[encounters.Water]]
-name = "WHISCASH"
-minimum_level = 60
-maximum_level = 80
-
-[[encounters.Water]]
-name = "QUAGSIRE"
-minimum_level = 75
-maximum_level = 90
-
-[[encounters.OldRod]]
-name = "SHELLOS"
-minimum_level = 27
-maximum_level = 35
-
-[[encounters.OldRod]]
-name = "BARBOACH"
-minimum_level = 30
-maximum_level = 40
-
-[[encounters.GoodRod]]
-name = "SHELLOS"
-minimum_level = 27
-maximum_level = 45
-
-[[encounters.GoodRod]]
-name = "BARBOACH"
-minimum_level = 27
-maximum_level = 45
-
-[[encounters.GoodRod]]
-name = "CLAUNCHER"
-minimum_level = 25
-maximum_level = 35
-
-[[encounters.SuperRod]]
-name = "SLOWPOKE"
-minimum_level = 50
-maximum_level = 66
-
-[[encounters.SuperRod]]
-name = "GASTRODON"
-minimum_level = 50
-maximum_level = 65
-
-[[encounters.SuperRod]]
-name = "WHISCASH"
-minimum_level = 50
-maximum_level = 65
-
-[[encounters.SuperRod]]
-name = "QUAGSIRE"
-minimum_level = 60
-maximum_level = 75
-
-[[encounters.SuperRod]]
-name = "CLAWITZER"
-minimum_level = 70
-maximum_level = 90
+Cave = [
+    { name = "ORICORIO", minimum_level = 50, maximum_level = 75 },
+    { name = "NUMEL", minimum_level = 50, maximum_level = 75 },
+    { name = "PANPOUR", minimum_level = 50, maximum_level = 75 },
+    { name = "PANSEAR", minimum_level = 50, maximum_level = 75 },
+    { name = "NOIVERN", minimum_level = 50, maximum_level = 65 },
+    { name = "DARUMAKA", minimum_level = 30, maximum_level = 50 },
+    { name = "TORKOAL", minimum_level = 50, maximum_level = 65 },
+    { name = "KECLEON", minimum_level = 50, maximum_level = 65 },
+    { name = "SIMISEAR", minimum_level = 50, maximum_level = 65 },
+    { name = "SIMIPOUR", minimum_level = 50, maximum_level = 65 },
+    { name = "GASTRODON", minimum_level = 70, maximum_level = 90 },
+    { name = "CAMERUPT", minimum_level = 70, maximum_level = 90 },
+]
+Water = [
+    { name = "SHELLOS", minimum_level = 50, maximum_level = 75 },
+    { name = "BARBOACH", minimum_level = 50, maximum_level = 75 },
+    { name = "GASTRODON", minimum_level = 60, maximum_level = 80 },
+    { name = "WHISCASH", minimum_level = 60, maximum_level = 80 },
+    { name = "QUAGSIRE", minimum_level = 75, maximum_level = 90 },
+]
+OldRod = [
+    { name = "SHELLOS", minimum_level = 27, maximum_level = 35 },
+    { name = "BARBOACH", minimum_level = 30, maximum_level = 40 },
+]
+GoodRod = [
+    { name = "SHELLOS", minimum_level = 27, maximum_level = 45 },
+    { name = "BARBOACH", minimum_level = 27, maximum_level = 45 },
+    { name = "CLAUNCHER", minimum_level = 25, maximum_level = 35 },
+]
+SuperRod = [
+    { name = "SLOWPOKE", minimum_level = 50, maximum_level = 66 },
+    { name = "GASTRODON", minimum_level = 50, maximum_level = 65 },
+    { name = "WHISCASH", minimum_level = 50, maximum_level = 65 },
+    { name = "QUAGSIRE", minimum_level = 60, maximum_level = 75 },
+    { name = "CLAWITZER", minimum_level = 70, maximum_level = 90 },
+]

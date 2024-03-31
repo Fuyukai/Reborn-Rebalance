@@ -1,3 +1,4 @@
+dex_number = 589
 name = "Escavalier"
 primary_type = "BUG"
 secondary_type = "STEEL"
@@ -6,11 +7,102 @@ growth_rate = "Medium"
 exp_yield = 173
 catch_rate = 75
 caught_happiness = 70
-raw_abilities = ["SHELLARMOR", "OVERCOAT"]
-raw_egg_moves = []
-raw_tms = ["CUT", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "TAUNT", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "DOUBLETEAM", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "FOCUSBLAST", "ENERGYBALL", "FALSESWIPE", "BRUTALSWING", "SMARTSTRIKE", "GIGAIMPACT", "SWORDSDANCE", "STRUGGLEBUG", "XSCISSOR", "INFESTATION", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "SCREECH", "SCARYFACE", "REVENGE", "RAZORSHELL", "MEGAHORN", "CLOSECOMBAT", "AGILITY", "REVERSAL", "ENDURE", "ENCORE", "BUGBUZZ", "GYROBALL", "LEECHLIFE", "UTURN"]
-raw_tutor_moves = ["BUGBITE", "DRILLRUN", "FURYCUTTER", "GIGADRAIN", "IRONDEFENSE", "IRONHEAD", "KNOCKOFF", "LASERFOCUS", "SIGNALBEAM", "SNORE", "STEELBEAM", "MIMIC"]
-compatible_egg_groups = ["Bug"]
+raw_abilities = [
+    "SHELLARMOR",
+    "OVERCOAT",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "REVENGE" },
+    { at_level = 1, name = "QUICKGUARD" },
+    { at_level = 1, name = "HORNATTACK" },
+    { at_level = 1, name = "PECK" },
+    { at_level = 4, name = "ENDURE" },
+    { at_level = 7, name = "COUNTER" },
+    { at_level = 10, name = "FLAIL" },
+    { at_level = 13, name = "PURSUIT" },
+    { at_level = 16, name = "HEADBUTT" },
+    { at_level = 20, name = "ACIDSPRAY" },
+    { at_level = 24, name = "BUGBITE" },
+    { at_level = 28, name = "FEINTATTACK" },
+    { at_level = 32, name = "IRONDEFENSE" },
+    { at_level = 36, name = "FURYCUTTER" },
+    { at_level = 39, name = "SLASH" },
+    { at_level = 39, name = "NIGHTSLASH" },
+    { at_level = 42, name = "TWINEEDLE" },
+    { at_level = 45, name = "SMARTSTRIKE" },
+    { at_level = 48, name = "TAKEDOWN" },
+    { at_level = 51, name = "RAZORSHELL" },
+    { at_level = 54, name = "METALBURST" },
+    { at_level = 57, name = "MEGAHORN" },
+    { at_level = 60, name = "REVERSAL" },
+    { at_level = 63, name = "DOUBLEEDGE" },
+    { at_level = 66, name = "CLOSECOMBAT" },
+]
+raw_tms = [
+    "CUT",
+    "TOXIC",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "TAUNT",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "RETURN",
+    "LEECHLIFE",
+    "DOUBLETEAM",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "FOCUSBLAST",
+    "ENERGYBALL",
+    "FALSESWIPE",
+    "BRUTALSWING",
+    "SMARTSTRIKE",
+    "GIGAIMPACT",
+    "GYROBALL",
+    "SWORDSDANCE",
+    "STRUGGLEBUG",
+    "XSCISSOR",
+    "INFESTATION",
+    "POISONJAB",
+    "SWAGGER",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "SCREECH",
+    "SCARYFACE",
+    "REVENGE",
+    "RAZORSHELL",
+    "MEGAHORN",
+    "CLOSECOMBAT",
+    "AGILITY",
+    "REVERSAL",
+    "ENDURE",
+    "ENCORE",
+    "BUGBUZZ",
+]
+raw_tutor_moves = [
+    "BUGBITE",
+    "DRILLRUN",
+    "FURYCUTTER",
+    "GIGADRAIN",
+    "IRONDEFENSE",
+    "IRONHEAD",
+    "KNOCKOFF",
+    "LASERFOCUS",
+    "MIMIC",
+    "SIGNALBEAM",
+    "SNORE",
+    "STEELBEAM",
+]
+compatible_egg_groups = [
+    "Bug",
+]
 steps_to_hatch = 3840
 height = 1.0
 weight = 33.0
@@ -20,110 +112,6 @@ pokedex_entry = "These Pokémon evolve by wearing the shell covering of a Shelme
 battler_player_y = 17
 battler_enemy_y = 6
 battler_altitude = 5
-evolutions = []
-form_names = []
-dex_number = 589
-internal_name = "ESCAVALIER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "REVENGE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "QUICKGUARD"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HORNATTACK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "PECK"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "ENDURE"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "COUNTER"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "FLAIL"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "PURSUIT"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "HEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "ACIDSPRAY"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "BUGBITE"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "FEINTATTACK"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "IRONDEFENSE"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "FURYCUTTER"
-
-[[raw_level_up_moves]]
-at_level = 39
-name = "SLASH"
-
-[[raw_level_up_moves]]
-at_level = 39
-name = "NIGHTSLASH"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "TWINEEDLE"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "SMARTSTRIKE"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "TAKEDOWN"
-
-[[raw_level_up_moves]]
-at_level = 51
-name = "RAZORSHELL"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "METALBURST"
-
-[[raw_level_up_moves]]
-at_level = 57
-name = "MEGAHORN"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "REVERSAL"
-
-[[raw_level_up_moves]]
-at_level = 63
-name = "DOUBLEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 66
-name = "CLOSECOMBAT"
 
 [base_stats]
 hp = 70
@@ -140,5 +128,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

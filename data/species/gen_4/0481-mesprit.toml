@@ -1,3 +1,4 @@
+dex_number = 481
 name = "Mesprit"
 primary_type = "PSYCHIC"
 secondary_type = "FAIRY"
@@ -6,11 +7,119 @@ growth_rate = "Slow"
 exp_yield = 261
 catch_rate = 3
 caught_happiness = 140
-raw_abilities = ["LEVITATE"]
-raw_egg_moves = []
-raw_tms = ["PSYSHOCK", "CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "SANDSTORM", "FACADE", "REST", "ROUND", "ENERGYBALL", "FLING", "CHARGEBEAM", "ACROBATICS", "GIGAIMPACT", "THUNDERWAVE", "PSYCHUP", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "POWERUPPUNCH", "DAZZLINGGLEAM", "CONFIDE", "CHARM", "IMPRISON", "PSYCHOCUT", "DRAININGKISS", "METRONOME", "TRIATTACK", "ENDURE", "BATONPASS", "ENCORE", "FUTURESIGHT", "NASTYPLOT", "STOREDPOWER", "PLAYROUGH", "SWIFT"]
-raw_tutor_moves = ["ALLYSWITCH", "DRAINPUNCH", "FIREPUNCH", "HEADBUTT", "HELPINGHAND", "ICEPUNCH", "IRONTAIL", "KNOCKOFF", "LASERFOCUS", "MAGICCOAT", "MAGICROOM", "MUDSLAP", "RECYCLE", "ROLEPLAY", "SHOCKWAVE", "SIGNALBEAM", "SKILLSWAP", "SNORE", "STEALTHROCK", "TELEKINESIS", "THUNDERPUNCH", "TRICK", "WATERPULSE", "WONDERROOM", "ZENHEADBUTT", "EXPANDINGFORCE", "MYSTICALPOWER", "POWERSHIFT", "MIMIC"]
-compatible_egg_groups = ["Undiscovered"]
+raw_abilities = [
+    "LEVITATE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "MOONBLAST" },
+    { at_level = 1, name = "HEALINGWISH" },
+    { at_level = 1, name = "CONFUSION" },
+    { at_level = 6, name = "IMPRISON" },
+    { at_level = 10, name = "PROTECT" },
+    { at_level = 14, name = "SWIFT" },
+    { at_level = 18, name = "LUCKYCHANT" },
+    { at_level = 22, name = "FUTURESIGHT" },
+    { at_level = 26, name = "ZENHEADBUTT" },
+    { at_level = 30, name = "NATURALGIFT" },
+    { at_level = 34, name = "COPYCAT" },
+    { at_level = 38, name = "EXTRASENSORY" },
+    { at_level = 42, name = "CHARM" },
+    { at_level = 46, name = "RECOVER" },
+    { at_level = 50, name = "PSYCHIC" },
+]
+raw_tms = [
+    "PSYSHOCK",
+    "CALMMIND",
+    "TOXIC",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "ICEBEAM",
+    "BLIZZARD",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "THUNDERBOLT",
+    "THUNDER",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "REFLECT",
+    "SANDSTORM",
+    "FACADE",
+    "REST",
+    "ROUND",
+    "ENERGYBALL",
+    "FLING",
+    "CHARGEBEAM",
+    "ACROBATICS",
+    "GIGAIMPACT",
+    "THUNDERWAVE",
+    "PSYCHUP",
+    "DREAMEATER",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "TRICKROOM",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "DAZZLINGGLEAM",
+    "CONFIDE",
+    "CHARM",
+    "IMPRISON",
+    "PSYCHOCUT",
+    "DRAININGKISS",
+    "METRONOME",
+    "TRIATTACK",
+    "ENDURE",
+    "BATONPASS",
+    "ENCORE",
+    "FUTURESIGHT",
+    "NASTYPLOT",
+    "STOREDPOWER",
+    "PLAYROUGH",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "ALLYSWITCH",
+    "DRAINPUNCH",
+    "EXPANDINGFORCE",
+    "FIREPUNCH",
+    "HEADBUTT",
+    "HELPINGHAND",
+    "ICEPUNCH",
+    "IRONTAIL",
+    "KNOCKOFF",
+    "LASERFOCUS",
+    "MAGICCOAT",
+    "MAGICROOM",
+    "MIMIC",
+    "MUDSLAP",
+    "MYSTICALPOWER",
+    "POWERSHIFT",
+    "RECYCLE",
+    "ROLEPLAY",
+    "SHOCKWAVE",
+    "SIGNALBEAM",
+    "SKILLSWAP",
+    "SNORE",
+    "STEALTHROCK",
+    "TELEKINESIS",
+    "THUNDERPUNCH",
+    "TRICK",
+    "WATERPULSE",
+    "WONDERROOM",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Undiscovered",
+]
 steps_to_hatch = 20655
 height = 0.3
 weight = 0.3
@@ -20,70 +129,6 @@ pokedex_entry = "Known as “The Being of Emotion.” It taught humans the nobil
 battler_player_y = 23
 battler_enemy_y = 24
 battler_altitude = 18
-evolutions = []
-form_names = []
-dex_number = 481
-internal_name = "MESPRIT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "MOONBLAST"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HEALINGWISH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "CONFUSION"
-
-[[raw_level_up_moves]]
-at_level = 6
-name = "IMPRISON"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "PROTECT"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "SWIFT"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "LUCKYCHANT"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "FUTURESIGHT"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "ZENHEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "NATURALGIFT"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "COPYCAT"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "EXTRASENSORY"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "CHARM"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "RECOVER"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "PSYCHIC"
 
 [base_stats]
 hp = 80
@@ -100,5 +145,3 @@ def_ = 0
 spa = 1
 spd = 1
 spe = 0
-
-[wild_items]

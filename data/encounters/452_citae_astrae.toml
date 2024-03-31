@@ -1,61 +1,21 @@
-chances = [26, 20, 20]
+chances = [
+    26,
+    20,
+    20,
+]
 
-[[encounters.Land]]
-name = "PORYGON"
-minimum_level = 50
-maximum_level = 60
-
-[[encounters.Land]]
-name = "PORYGON"
-minimum_level = 50
-maximum_level = 60
-
-[[encounters.Land]]
-name = "PORYGON"
-minimum_level = 50
-maximum_level = 60
-
-[[encounters.Land]]
-name = "PORYGON"
-minimum_level = 50
-maximum_level = 60
-
-[[encounters.Land]]
-name = "PORYGON"
-minimum_level = 50
-maximum_level = 60
-
-[[encounters.Land]]
-name = "PORYGON"
-minimum_level = 50
-maximum_level = 60
-
-[[encounters.Land]]
-name = "PORYGON"
-minimum_level = 50
-maximum_level = 60
-
-[[encounters.Land]]
-name = "PORYGON"
-minimum_level = 50
-maximum_level = 60
-
-[[encounters.Land]]
-name = "PORYGON"
-minimum_level = 50
-maximum_level = 60
-
-[[encounters.Land]]
-name = "PORYGON"
-minimum_level = 50
-maximum_level = 60
-
-[[encounters.Land]]
-name = "PORYGON"
-minimum_level = 50
-maximum_level = 60
-
-[[encounters.Land]]
-name = "PORYGON"
-minimum_level = 50
-maximum_level = 60
+[encounters]
+Land = [
+    { name = "PORYGON", minimum_level = 50, maximum_level = 60 },
+    { name = "PORYGON", minimum_level = 50, maximum_level = 60 },
+    { name = "PORYGON", minimum_level = 50, maximum_level = 60 },
+    { name = "PORYGON", minimum_level = 50, maximum_level = 60 },
+    { name = "PORYGON", minimum_level = 50, maximum_level = 60 },
+    { name = "PORYGON", minimum_level = 50, maximum_level = 60 },
+    { name = "PORYGON", minimum_level = 50, maximum_level = 60 },
+    { name = "PORYGON", minimum_level = 50, maximum_level = 60 },
+    { name = "PORYGON", minimum_level = 50, maximum_level = 60 },
+    { name = "PORYGON", minimum_level = 50, maximum_level = 60 },
+    { name = "PORYGON", minimum_level = 50, maximum_level = 60 },
+    { name = "PORYGON", minimum_level = 50, maximum_level = 60 },
+]

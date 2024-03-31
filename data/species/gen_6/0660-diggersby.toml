@@ -1,3 +1,4 @@
+dex_number = 660
 name = "Diggersby"
 primary_type = "NORMAL"
 secondary_type = "GROUND"
@@ -6,11 +7,120 @@ growth_rate = "Medium"
 exp_yield = 148
 catch_rate = 255
 caught_happiness = 70
-raw_abilities = ["PICKUP", "CHEEKPOUCH"]
-raw_egg_moves = []
-raw_tms = ["WORKUP", "CUT", "SURF", "STRENGTH", "TOXIC", "ROCKSMASH", "BULKUP", "HIDDENPOWER", "HYPERBEAM", "PROTECT", "FRUSTRATION", "SMACKDOWN", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "SLUDGEBOMB", "SANDSTORM", "ROCKTOMB", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "FLING", "BRUTALSWING", "PAYBACK", "GIGAIMPACT", "STONEEDGE", "SWORDSDANCE", "BULLDOZE", "ROCKSLIDE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "NATUREPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "SANDTOMB", "MUDSHOT", "BODYSLAM", "AGILITY", "SPIKES", "ENDURE", "PLAYROUGH", "HIGHHORSEPOWER"]
-raw_tutor_moves = ["BOUNCE", "EARTHPOWER", "ENDEAVOR", "FIREPUNCH", "FOCUSPUNCH", "FOULPLAY", "GASTROACID", "GUNKSHOT", "ICEPUNCH", "IRONHEAD", "IRONTAIL", "KNOCKOFF", "LASTRESORT", "LOWKICK", "MUDSLAP", "RECYCLE", "SNATCH", "SNORE", "STOMPINGTANTRUM", "SUPERFANG", "SUPERPOWER", "THUNDERPUNCH", "UPROAR", "SCORCHINGSANDS", "MIMIC"]
-compatible_egg_groups = ["Field"]
+raw_abilities = [
+    "PICKUP",
+    "CHEEKPOUCH",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "HAMMERARM" },
+    { at_level = 1, name = "ROTOTILLER" },
+    { at_level = 1, name = "BULLDOZE" },
+    { at_level = 1, name = "SPIKES" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 1, name = "AGILITY" },
+    { at_level = 1, name = "LEER" },
+    { at_level = 7, name = "QUICKATTACK" },
+    { at_level = 13, name = "DOUBLESLAP" },
+    { at_level = 13, name = "MUDSLAP" },
+    { at_level = 15, name = "TAKEDOWN" },
+    { at_level = 18, name = "MUDSHOT" },
+    { at_level = 21, name = "DOUBLEKICK" },
+    { at_level = 27, name = "ODORSLEUTH" },
+    { at_level = 32, name = "FLAIL" },
+    { at_level = 37, name = "DIG" },
+    { at_level = 43, name = "BOUNCE" },
+    { at_level = 48, name = "SUPERFANG" },
+    { at_level = 54, name = "FACADE" },
+    { at_level = 57, name = "EARTHQUAKE" },
+    { at_level = 60, name = "HAMMERARM" },
+    { at_level = 65, name = "SWORDSDANCE" },
+]
+raw_tms = [
+    "WORKUP",
+    "CUT",
+    "SURF",
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "BULKUP",
+    "HIDDENPOWER",
+    "HYPERBEAM",
+    "PROTECT",
+    "FRUSTRATION",
+    "SMACKDOWN",
+    "EARTHQUAKE",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "SLUDGEBOMB",
+    "SANDSTORM",
+    "ROCKTOMB",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "FLING",
+    "BRUTALSWING",
+    "PAYBACK",
+    "GIGAIMPACT",
+    "STONEEDGE",
+    "SWORDSDANCE",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "WILDCHARGE",
+    "SECRETPOWER",
+    "NATUREPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "DIG",
+    "SANDTOMB",
+    "MUDSHOT",
+    "BODYSLAM",
+    "AGILITY",
+    "SPIKES",
+    "ENDURE",
+    "PLAYROUGH",
+    "HIGHHORSEPOWER",
+]
+raw_tutor_moves = [
+    "BOUNCE",
+    "EARTHPOWER",
+    "ENDEAVOR",
+    "FIREPUNCH",
+    "FOCUSPUNCH",
+    "FOULPLAY",
+    "GASTROACID",
+    "GUNKSHOT",
+    "ICEPUNCH",
+    "IRONHEAD",
+    "IRONTAIL",
+    "KNOCKOFF",
+    "LASTRESORT",
+    "LOWKICK",
+    "MIMIC",
+    "MUDSLAP",
+    "RECYCLE",
+    "SCORCHINGSANDS",
+    "SNATCH",
+    "SNORE",
+    "STOMPINGTANTRUM",
+    "SUPERFANG",
+    "SUPERPOWER",
+    "THUNDERPUNCH",
+    "UPROAR",
+]
+compatible_egg_groups = [
+    "Field",
+]
 steps_to_hatch = 3840
 height = 1.0
 weight = 42.4
@@ -20,99 +130,7 @@ pokedex_entry = "As powerful as an excavator, its ears can reduce dense bedrock 
 battler_player_y = 11
 battler_enemy_y = 16
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 660
-internal_name = "DIGGERSBY"
 raw_hidden_ability = "HUGEPOWER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HAMMERARM"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ROTOTILLER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BULLDOZE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SPIKES"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "AGILITY"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "QUICKATTACK"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "DOUBLESLAP"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "MUDSLAP"
-
-[[raw_level_up_moves]]
-at_level = 15
-name = "TAKEDOWN"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "MUDSHOT"
-
-[[raw_level_up_moves]]
-at_level = 21
-name = "DOUBLEKICK"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "ODORSLEUTH"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "FLAIL"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "DIG"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "BOUNCE"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "SUPERFANG"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "FACADE"
-
-[[raw_level_up_moves]]
-at_level = 57
-name = "EARTHQUAKE"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "HAMMERARM"
-
-[[raw_level_up_moves]]
-at_level = 65
-name = "SWORDSDANCE"
 
 [base_stats]
 hp = 85
@@ -129,5 +147,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

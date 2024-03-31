@@ -1,3 +1,4 @@
+dex_number = 565
 name = "Carracosta"
 primary_type = "WATER"
 secondary_type = "ROCK"
@@ -6,11 +7,108 @@ growth_rate = "Medium"
 exp_yield = 173
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["SOLIDROCK", "STURDY"]
-raw_egg_moves = []
-raw_tms = ["SURF", "STRENGTH", "WATERFALL", "TOXIC", "DIVE", "ROCKSMASH", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "SMACKDOWN", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "SANDSTORM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "FOCUSBLAST", "SCALD", "GIGAIMPACT", "ROCKPOLISH", "STONEEDGE", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "WHIRLPOOL", "ROCKBLAST", "MUDSHOT", "BRINE", "GUARDSWAP", "CRUNCH", "RAZORSHELL", "BODYSLAM", "HYDROPUMP", "ENDURE", "MUDDYWATER"]
-raw_tutor_moves = ["AQUATAIL", "BLOCK", "EARTHPOWER", "ICYWIND", "IRONDEFENSE", "IRONHEAD", "IRONTAIL", "KNOCKOFF", "LIQUIDATION", "LOWKICK", "SNORE", "STEALTHROCK", "SUPERPOWER", "WATERPULSE", "ZENHEADBUTT", "METEORBEAM", "WAVECRASH", "MIMIC", "WAVECRASH"]
-compatible_egg_groups = ["Water1", "Water3"]
+raw_abilities = [
+    "SOLIDROCK",
+    "STURDY",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "AQUAJET" },
+    { at_level = 1, name = "ACCELEROCK" },
+    { at_level = 1, name = "PSYCHICFANGS" },
+    { at_level = 1, name = "ICEFANG" },
+    { at_level = 1, name = "WATERGUN" },
+    { at_level = 1, name = "WITHDRAW" },
+    { at_level = 9, name = "SMACKDOWN" },
+    { at_level = 12, name = "ANCIENTPOWER" },
+    { at_level = 15, name = "BITE" },
+    { at_level = 18, name = "WHIRLPOOL" },
+    { at_level = 21, name = "RAZORSHELL" },
+    { at_level = 24, name = "ROCKSLIDE" },
+    { at_level = 27, name = "CRUNCH" },
+    { at_level = 30, name = "CURSE" },
+    { at_level = 33, name = "IRONDEFENSE" },
+    { at_level = 36, name = "AQUATAIL" },
+    { at_level = 37, name = "RAPIDSPIN" },
+    { at_level = 41, name = "BODYSLAM" },
+    { at_level = 45, name = "WIDEGUARD" },
+    { at_level = 49, name = "HYDROPUMP" },
+    { at_level = 53, name = "SHELLSMASH" },
+    { at_level = 58, name = "WAVECRASH" },
+]
+raw_tms = [
+    "SURF",
+    "STRENGTH",
+    "WATERFALL",
+    "TOXIC",
+    "DIVE",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "ICEBEAM",
+    "BLIZZARD",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "SMACKDOWN",
+    "EARTHQUAKE",
+    "RETURN",
+    "DOUBLETEAM",
+    "SANDSTORM",
+    "ROCKTOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "FOCUSBLAST",
+    "SCALD",
+    "GIGAIMPACT",
+    "ROCKPOLISH",
+    "STONEEDGE",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "DIG",
+    "WHIRLPOOL",
+    "ROCKBLAST",
+    "MUDSHOT",
+    "BRINE",
+    "GUARDSWAP",
+    "CRUNCH",
+    "RAZORSHELL",
+    "BODYSLAM",
+    "HYDROPUMP",
+    "ENDURE",
+    "MUDDYWATER",
+]
+raw_tutor_moves = [
+    "AQUATAIL",
+    "BLOCK",
+    "EARTHPOWER",
+    "ICYWIND",
+    "IRONDEFENSE",
+    "IRONHEAD",
+    "IRONTAIL",
+    "KNOCKOFF",
+    "LIQUIDATION",
+    "LOWKICK",
+    "METEORBEAM",
+    "MIMIC",
+    "SNORE",
+    "STEALTHROCK",
+    "SUPERPOWER",
+    "WATERPULSE",
+    "WAVECRASH",
+    "WAVECRASH",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Water1",
+    "Water3",
+]
 steps_to_hatch = 7680
 height = 1.2
 weight = 81.0
@@ -20,99 +118,7 @@ pokedex_entry = "Incredible jaw strength enables them to chew up steel beams and
 battler_player_y = 17
 battler_enemy_y = 25
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 565
-internal_name = "CARRACOSTA"
 raw_hidden_ability = "SWIFTSWIM"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "AQUAJET"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ACCELEROCK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "PSYCHICFANGS"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ICEFANG"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WATERGUN"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WITHDRAW"
-
-[[raw_level_up_moves]]
-at_level = 9
-name = "SMACKDOWN"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "ANCIENTPOWER"
-
-[[raw_level_up_moves]]
-at_level = 15
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "WHIRLPOOL"
-
-[[raw_level_up_moves]]
-at_level = 21
-name = "RAZORSHELL"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "ROCKSLIDE"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "CURSE"
-
-[[raw_level_up_moves]]
-at_level = 33
-name = "IRONDEFENSE"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "AQUATAIL"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "RAPIDSPIN"
-
-[[raw_level_up_moves]]
-at_level = 41
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "WIDEGUARD"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "HYDROPUMP"
-
-[[raw_level_up_moves]]
-at_level = 53
-name = "SHELLSMASH"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "WAVECRASH"
 
 [base_stats]
 hp = 74
@@ -129,5 +135,3 @@ def_ = 2
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

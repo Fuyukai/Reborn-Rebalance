@@ -1,287 +1,78 @@
-chances = [20, 20, 2]
+chances = [
+    20,
+    20,
+    2,
+]
 
 [encounters]
-[[encounters.OldRod]]
-name = "GRIMER"
-minimum_level = 2
-maximum_level = 8
-
-[[encounters.OldRod]]
-name = "GRIMER"
-minimum_level = 4
-maximum_level = 9
-
-[[encounters.GoodRod]]
-name = "MUK"
-minimum_level = 40
-maximum_level = 50
-
-[[encounters.GoodRod]]
-name = "TENTACOOL"
-minimum_level = 37
-maximum_level = 45
-
-[[encounters.GoodRod]]
-name = "SKRELP"
-minimum_level = 35
-maximum_level = 43
-
-[[encounters.HeadbuttLow]]
-name = "SWABLU"
-minimum_level = 10
-maximum_level = 17
-
-[[encounters.HeadbuttLow]]
-name = "SWABLU"
-minimum_level = 12
-maximum_level = 15
-
-[[encounters.HeadbuttLow]]
-name = "BURMY"
-minimum_level = 10
-maximum_level = 17
-
-[[encounters.HeadbuttLow]]
-name = "BURMY"
-minimum_level = 12
-maximum_level = 15
-
-[[encounters.HeadbuttLow]]
-name = "BURMY"
-minimum_level = 10
-maximum_level = 17
-
-[[encounters.HeadbuttLow]]
-name = "SKWOVET"
-minimum_level = 12
-maximum_level = 15
-
-[[encounters.HeadbuttLow]]
-name = "BURMY"
-minimum_level = 12
-maximum_level = 15
-
-[[encounters.HeadbuttLow]]
-name = "SKWOVET"
-minimum_level = 13
-maximum_level = 17
-
-[[encounters.HeadbuttHigh]]
-name = "SWABLU"
-minimum_level = 5
-maximum_level = 12
-
-[[encounters.HeadbuttHigh]]
-name = "SWABLU"
-minimum_level = 7
-maximum_level = 10
-
-[[encounters.HeadbuttHigh]]
-name = "BURMY"
-minimum_level = 5
-maximum_level = 12
-
-[[encounters.HeadbuttHigh]]
-name = "BURMY"
-minimum_level = 7
-maximum_level = 10
-
-[[encounters.HeadbuttHigh]]
-name = "SKWOVET"
-minimum_level = 5
-maximum_level = 12
-
-[[encounters.HeadbuttHigh]]
-name = "BURMY"
-minimum_level = 7
-maximum_level = 10
-
-[[encounters.HeadbuttHigh]]
-name = "BURMY"
-minimum_level = 5
-maximum_level = 10
-
-[[encounters.HeadbuttHigh]]
-name = "SKWOVET"
-minimum_level = 10
-maximum_level = 12
-
-[[encounters.LandMorning]]
-name = "WURMPLE"
-minimum_level = 2
-maximum_level = 5
-
-[[encounters.LandMorning]]
-name = "CATERPIE"
-minimum_level = 2
-maximum_level = 6
-
-[[encounters.LandMorning]]
-name = "LEDYBA"
-minimum_level = 3
-maximum_level = 5
-
-[[encounters.LandMorning]]
-name = "LEDYBA"
-minimum_level = 2
-maximum_level = 5
-
-[[encounters.LandMorning]]
-name = "LEDYBA"
-minimum_level = 3
-maximum_level = 6
-
-[[encounters.LandMorning]]
-name = "CHERUBI"
-minimum_level = 3
-maximum_level = 7
-
-[[encounters.LandMorning]]
-name = "CHERUBI"
-minimum_level = 3
-maximum_level = 6
-
-[[encounters.LandMorning]]
-name = "CHERUBI"
-minimum_level = 3
-maximum_level = 6
-
-[[encounters.LandMorning]]
-name = "CHERUBI"
-minimum_level = 4
-maximum_level = 6
-
-[[encounters.LandMorning]]
-name = "SUNKERN"
-minimum_level = 4
-maximum_level = 6
-
-[[encounters.LandMorning]]
-name = "SUNKERN"
-minimum_level = 6
-maximum_level = 8
-
-[[encounters.LandMorning]]
-name = "SUNKERN"
-minimum_level = 6
-maximum_level = 8
-
-[[encounters.LandDay]]
-name = "CATERPIE"
-minimum_level = 3
-maximum_level = 5
-
-[[encounters.LandDay]]
-name = "WURMPLE"
-minimum_level = 3
-maximum_level = 5
-
-[[encounters.LandDay]]
-name = "CATERPIE"
-minimum_level = 4
-maximum_level = 6
-
-[[encounters.LandDay]]
-name = "WURMPLE"
-minimum_level = 4
-maximum_level = 6
-
-[[encounters.LandDay]]
-name = "SUNKERN"
-minimum_level = 2
-maximum_level = 6
-
-[[encounters.LandDay]]
-name = "SUNKERN"
-minimum_level = 2
-maximum_level = 6
-
-[[encounters.LandDay]]
-name = "SUNKERN"
-minimum_level = 2
-maximum_level = 4
-
-[[encounters.LandDay]]
-name = "SUNKERN"
-minimum_level = 2
-maximum_level = 4
-
-[[encounters.LandDay]]
-name = "CHERUBI"
-minimum_level = 2
-maximum_level = 4
-
-[[encounters.LandDay]]
-name = "CHERUBI"
-minimum_level = 2
-maximum_level = 5
-
-[[encounters.LandDay]]
-name = "CHERUBI"
-minimum_level = 4
-maximum_level = 6
-
-[[encounters.LandDay]]
-name = "CHERUBI"
-minimum_level = 2
-maximum_level = 4
-
-[[encounters.LandNight]]
-name = "WURMPLE"
-minimum_level = 4
-maximum_level = 7
-
-[[encounters.LandNight]]
-name = "CATERPIE"
-minimum_level = 4
-maximum_level = 7
-
-[[encounters.LandNight]]
-name = "SPINARAK"
-minimum_level = 3
-maximum_level = 6
-
-[[encounters.LandNight]]
-name = "HOOTHOOT"
-minimum_level = 3
-maximum_level = 6
-
-[[encounters.LandNight]]
-name = "HOOTHOOT"
-minimum_level = 2
-maximum_level = 5
-
-[[encounters.LandNight]]
-name = "HOOTHOOT"
-minimum_level = 4
-maximum_level = 6
-
-[[encounters.LandNight]]
-name = "SPINARAK"
-minimum_level = 4
-maximum_level = 7
-
-[[encounters.LandNight]]
-name = "SPINARAK"
-minimum_level = 3
-maximum_level = 6
-
-[[encounters.LandNight]]
-name = "SPINARAK"
-minimum_level = 5
-maximum_level = 7
-
-[[encounters.LandNight]]
-name = "SUNKERN"
-minimum_level = 2
-maximum_level = 6
-
-[[encounters.LandNight]]
-name = "SUNKERN"
-minimum_level = 3
-maximum_level = 6
-
-[[encounters.LandNight]]
-name = "SUNKERN"
-minimum_level = 7
-maximum_level = 10
+OldRod = [
+    { name = "GRIMER", minimum_level = 2, maximum_level = 8 },
+    { name = "GRIMER", minimum_level = 4, maximum_level = 9 },
+]
+GoodRod = [
+    { name = "MUK", minimum_level = 40, maximum_level = 50 },
+    { name = "TENTACOOL", minimum_level = 37, maximum_level = 45 },
+    { name = "SKRELP", minimum_level = 35, maximum_level = 43 },
+]
+HeadbuttLow = [
+    { name = "SWABLU", minimum_level = 10, maximum_level = 17 },
+    { name = "SWABLU", minimum_level = 12, maximum_level = 15 },
+    { name = "BURMY", minimum_level = 10, maximum_level = 17 },
+    { name = "BURMY", minimum_level = 12, maximum_level = 15 },
+    { name = "BURMY", minimum_level = 10, maximum_level = 17 },
+    { name = "SKWOVET", minimum_level = 12, maximum_level = 15 },
+    { name = "BURMY", minimum_level = 12, maximum_level = 15 },
+    { name = "SKWOVET", minimum_level = 13, maximum_level = 17 },
+]
+HeadbuttHigh = [
+    { name = "SWABLU", minimum_level = 5, maximum_level = 12 },
+    { name = "SWABLU", minimum_level = 7, maximum_level = 10 },
+    { name = "BURMY", minimum_level = 5, maximum_level = 12 },
+    { name = "BURMY", minimum_level = 7, maximum_level = 10 },
+    { name = "SKWOVET", minimum_level = 5, maximum_level = 12 },
+    { name = "BURMY", minimum_level = 7, maximum_level = 10 },
+    { name = "BURMY", minimum_level = 5, maximum_level = 10 },
+    { name = "SKWOVET", minimum_level = 10, maximum_level = 12 },
+]
+LandMorning = [
+    { name = "WURMPLE", minimum_level = 2, maximum_level = 5 },
+    { name = "CATERPIE", minimum_level = 2, maximum_level = 6 },
+    { name = "LEDYBA", minimum_level = 3, maximum_level = 5 },
+    { name = "LEDYBA", minimum_level = 2, maximum_level = 5 },
+    { name = "LEDYBA", minimum_level = 3, maximum_level = 6 },
+    { name = "CHERUBI", minimum_level = 3, maximum_level = 7 },
+    { name = "CHERUBI", minimum_level = 3, maximum_level = 6 },
+    { name = "CHERUBI", minimum_level = 3, maximum_level = 6 },
+    { name = "CHERUBI", minimum_level = 4, maximum_level = 6 },
+    { name = "SUNKERN", minimum_level = 4, maximum_level = 6 },
+    { name = "SUNKERN", minimum_level = 6, maximum_level = 8 },
+    { name = "SUNKERN", minimum_level = 6, maximum_level = 8 },
+]
+LandDay = [
+    { name = "CATERPIE", minimum_level = 3, maximum_level = 5 },
+    { name = "WURMPLE", minimum_level = 3, maximum_level = 5 },
+    { name = "CATERPIE", minimum_level = 4, maximum_level = 6 },
+    { name = "WURMPLE", minimum_level = 4, maximum_level = 6 },
+    { name = "SUNKERN", minimum_level = 2, maximum_level = 6 },
+    { name = "SUNKERN", minimum_level = 2, maximum_level = 6 },
+    { name = "SUNKERN", minimum_level = 2, maximum_level = 4 },
+    { name = "SUNKERN", minimum_level = 2, maximum_level = 4 },
+    { name = "CHERUBI", minimum_level = 2, maximum_level = 4 },
+    { name = "CHERUBI", minimum_level = 2, maximum_level = 5 },
+    { name = "CHERUBI", minimum_level = 4, maximum_level = 6 },
+    { name = "CHERUBI", minimum_level = 2, maximum_level = 4 },
+]
+LandNight = [
+    { name = "WURMPLE", minimum_level = 4, maximum_level = 7 },
+    { name = "CATERPIE", minimum_level = 4, maximum_level = 7 },
+    { name = "SPINARAK", minimum_level = 3, maximum_level = 6 },
+    { name = "HOOTHOOT", minimum_level = 3, maximum_level = 6 },
+    { name = "HOOTHOOT", minimum_level = 2, maximum_level = 5 },
+    { name = "HOOTHOOT", minimum_level = 4, maximum_level = 6 },
+    { name = "SPINARAK", minimum_level = 4, maximum_level = 7 },
+    { name = "SPINARAK", minimum_level = 3, maximum_level = 6 },
+    { name = "SPINARAK", minimum_level = 5, maximum_level = 7 },
+    { name = "SUNKERN", minimum_level = 2, maximum_level = 6 },
+    { name = "SUNKERN", minimum_level = 3, maximum_level = 6 },
+    { name = "SUNKERN", minimum_level = 7, maximum_level = 10 },
+]

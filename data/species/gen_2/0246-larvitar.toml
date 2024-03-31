@@ -1,3 +1,4 @@
+dex_number = 246
 name = "Larvitar"
 primary_type = "ROCK"
 secondary_type = "GROUND"
@@ -6,11 +7,96 @@ growth_rate = "Slow"
 exp_yield = 60
 catch_rate = 45
 caught_happiness = 35
-raw_abilities = ["GUTS", "HUSTLE"]
-raw_egg_moves = ["ANCIENTPOWER", "ASSURANCE", "CURSE", "DRAGONDANCE", "FOCUSENERGY", "IRONDEFENSE", "IRONHEAD", "IRONTAIL", "OUTRAGE", "PURSUIT", "STEALTHROCK", "STOMP"]
-raw_tms = ["TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "SMACKDOWN", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "SANDSTORM", "ROCKTOMB", "TORMENT", "FACADE", "REST", "ATTRACT", "ROUND", "PAYBACK", "ROCKPOLISH", "STONEEDGE", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "SNARL", "DARKPULSE", "POWERUPPUNCH", "CONFIDE", "DIG", "SCREECH", "SCARYFACE", "SANDTOMB", "ASSURANCE", "CRUNCH", "BODYSLAM", "FOCUSENERGY", "ENDURE", "MUDDYWATER", "DRAGONDANCE", "POWERGEM", "RETALIATE"]
-raw_tutor_moves = ["ANCIENTPOWER", "EARTHPOWER", "HEADBUTT", "IRONDEFENSE", "IRONHEAD", "IRONTAIL", "OUTRAGE", "SNORE", "SPITE", "STEALTHROCK", "STOMPINGTANTRUM", "SUPERPOWER", "UPROAR", "MIMIC"]
-compatible_egg_groups = ["Monster"]
+raw_abilities = [
+    "GUTS",
+    "HUSTLE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "BITE" },
+    { at_level = 1, name = "LEER" },
+    { at_level = 5, name = "SANDSTORM" },
+    { at_level = 10, name = "SCREECH" },
+    { at_level = 13, name = "BULLDOZE" },
+    { at_level = 16, name = "ROCKTOMB" },
+    { at_level = 19, name = "SCARYFACE" },
+    { at_level = 22, name = "ROCKSLIDE" },
+    { at_level = 25, name = "PAYBACK" },
+    { at_level = 28, name = "CHIPAWAY" },
+    { at_level = 30, name = "WITHDRAW" },
+    { at_level = 34, name = "CURSE" },
+    { at_level = 38, name = "ASSURANCE" },
+    { at_level = 42, name = "EARTHQUAKE" },
+    { at_level = 46, name = "STONEEDGE" },
+    { at_level = 50, name = "HYPERBEAM" },
+]
+raw_tms = [
+    "TOXIC",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "SMACKDOWN",
+    "EARTHQUAKE",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "SANDSTORM",
+    "ROCKTOMB",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "PAYBACK",
+    "ROCKPOLISH",
+    "STONEEDGE",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "SNARL",
+    "DARKPULSE",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "DIG",
+    "SCREECH",
+    "SCARYFACE",
+    "SANDTOMB",
+    "ASSURANCE",
+    "CRUNCH",
+    "BODYSLAM",
+    "FOCUSENERGY",
+    "ENDURE",
+    "MUDDYWATER",
+    "DRAGONDANCE",
+    "POWERGEM",
+    "RETALIATE",
+]
+raw_tutor_moves = [
+    "ANCIENTPOWER",
+    "EARTHPOWER",
+    "HEADBUTT",
+    "IRONDEFENSE",
+    "IRONHEAD",
+    "IRONTAIL",
+    "MIMIC",
+    "OUTRAGE",
+    "SNORE",
+    "SPITE",
+    "STEALTHROCK",
+    "STOMPINGTANTRUM",
+    "SUPERPOWER",
+    "UPROAR",
+]
+compatible_egg_groups = [
+    "Monster",
+]
 steps_to_hatch = 10455
 height = 0.6
 weight = 72.0
@@ -20,81 +106,24 @@ pokedex_entry = "A Larvitar is born deep under the ground. It must eat its way t
 battler_player_y = 28
 battler_enemy_y = 20
 battler_altitude = 0
-form_names = []
-dex_number = 246
-internal_name = "LARVITAR"
+raw_egg_moves = [
+    "ANCIENTPOWER",
+    "ASSURANCE",
+    "CURSE",
+    "DRAGONDANCE",
+    "FOCUSENERGY",
+    "IRONDEFENSE",
+    "IRONHEAD",
+    "IRONTAIL",
+    "OUTRAGE",
+    "PURSUIT",
+    "STEALTHROCK",
+    "STOMP",
+]
 habitat = "Mountain"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 5
-name = "SANDSTORM"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "SCREECH"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "BULLDOZE"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "ROCKTOMB"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "SCARYFACE"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "ROCKSLIDE"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "PAYBACK"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "CHIPAWAY"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "WITHDRAW"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "CURSE"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "ASSURANCE"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "EARTHQUAKE"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "STONEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "HYPERBEAM"
-
-[[evolutions]]
-into_name = "PUPITAR"
-condition = "Level"
-parameter = "30"
-
-
+evolutions = [
+    { into_name = "PUPITAR", condition = "Level", parameter = "30" },
+]
 
 [base_stats]
 hp = 50
@@ -111,5 +140,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

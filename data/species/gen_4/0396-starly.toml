@@ -1,3 +1,4 @@
+dex_number = 396
 name = "Starly"
 primary_type = "NORMAL"
 secondary_type = "FLYING"
@@ -6,11 +7,79 @@ growth_rate = "Parabolic"
 exp_yield = 49
 catch_rate = 255
 caught_happiness = 70
-raw_abilities = ["KEENEYE", "RECKLESS"]
-raw_egg_moves = ["ASTONISH", "DETECT", "DOUBLEEDGE", "FEATHERDANCE", "FORESIGHT", "FURYATTACK", "MIRRORMOVE", "PURSUIT", "REVENGE", "ROOST", "SANDATTACK", "STEELWING", "UPROAR"]
-raw_tms = ["WORKUP", "FLY", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "FRUSTRATION", "RETURN", "DOUBLETEAM", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "STEELWING", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "REVENGE", "BRAVEBIRD", "AGILITY", "ENDURE", "SWIFT"]
-raw_tutor_moves = ["AIRCUTTER", "DEFOG", "ENDEAVOR", "HEATWAVE", "MUDSLAP", "OMINOUSWIND", "SNORE", "TAILWIND", "TWISTER", "UPROAR", "MIMIC"]
-compatible_egg_groups = ["Flying"]
+raw_abilities = [
+    "KEENEYE",
+    "RECKLESS",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "GROWL" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 1, name = "ASTONISH" },
+    { at_level = 1, name = "SANDATTACK" },
+    { at_level = 5, name = "QUICKATTACK" },
+    { at_level = 8, name = "WINGATTACK" },
+    { at_level = 10, name = "PURSUIT" },
+    { at_level = 12, name = "FORESIGHT" },
+    { at_level = 14, name = "FURYATTACK" },
+    { at_level = 17, name = "ENDEAVOR" },
+    { at_level = 20, name = "AERIALACE" },
+    { at_level = 23, name = "REVENGE" },
+    { at_level = 26, name = "RETALIATE" },
+    { at_level = 29, name = "STEELWING" },
+    { at_level = 32, name = "TAKEDOWN" },
+    { at_level = 35, name = "AGILITY" },
+    { at_level = 38, name = "TAILWIND" },
+    { at_level = 42, name = "SKYATTACK" },
+]
+raw_tms = [
+    "WORKUP",
+    "FLY",
+    "TOXIC",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "PROTECT",
+    "RAINDANCE",
+    "ROOST",
+    "ROOST",
+    "FRUSTRATION",
+    "RETURN",
+    "DOUBLETEAM",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "ECHOEDVOICE",
+    "STEELWING",
+    "SWAGGER",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "REVENGE",
+    "BRAVEBIRD",
+    "AGILITY",
+    "ENDURE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AIRCUTTER",
+    "DEFOG",
+    "ENDEAVOR",
+    "HEATWAVE",
+    "MIMIC",
+    "MUDSLAP",
+    "OMINOUSWIND",
+    "SNORE",
+    "TAILWIND",
+    "TWISTER",
+    "UPROAR",
+]
+compatible_egg_groups = [
+    "Flying",
+]
 steps_to_hatch = 4080
 height = 0.3
 weight = 2.0
@@ -20,88 +89,24 @@ pokedex_entry = "They flock in great numbers. Though small, they flap their wing
 battler_player_y = 28
 battler_enemy_y = 22
 battler_altitude = 0
-form_names = []
-dex_number = 396
-internal_name = "STARLY"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ASTONISH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SANDATTACK"
-
-[[raw_level_up_moves]]
-at_level = 5
-name = "QUICKATTACK"
-
-[[raw_level_up_moves]]
-at_level = 8
-name = "WINGATTACK"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "PURSUIT"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "FORESIGHT"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "FURYATTACK"
-
-[[raw_level_up_moves]]
-at_level = 17
-name = "ENDEAVOR"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "AERIALACE"
-
-[[raw_level_up_moves]]
-at_level = 23
-name = "REVENGE"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "RETALIATE"
-
-[[raw_level_up_moves]]
-at_level = 29
-name = "STEELWING"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "TAKEDOWN"
-
-[[raw_level_up_moves]]
-at_level = 35
-name = "AGILITY"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "TAILWIND"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "SKYATTACK"
-
-[[evolutions]]
-into_name = "STARAVIA"
-condition = "Level"
-parameter = "14"
-
-
+raw_egg_moves = [
+    "ASTONISH",
+    "DETECT",
+    "DOUBLEEDGE",
+    "FEATHERDANCE",
+    "FORESIGHT",
+    "FURYATTACK",
+    "MIRRORMOVE",
+    "PURSUIT",
+    "REVENGE",
+    "ROOST",
+    "SANDATTACK",
+    "STEELWING",
+    "UPROAR",
+]
+evolutions = [
+    { into_name = "STARAVIA", condition = "Level", parameter = "14" },
+]
 
 [base_stats]
 hp = 40
@@ -118,5 +123,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 1
-
-[wild_items]

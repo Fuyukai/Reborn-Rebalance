@@ -1,3 +1,4 @@
+dex_number = 178
 name = "Xatu"
 primary_type = "PSYCHIC"
 secondary_type = "FLYING"
@@ -6,20 +7,122 @@ growth_rate = "Medium"
 exp_yield = 165
 catch_rate = 75
 caught_happiness = 70
-raw_abilities = ["SYNCHRONIZE", "MAGICBOUNCE"]
-raw_egg_moves = []
-raw_tms = [
-    "FLY", "PSYSHOCK", "CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM",
-    "LIGHTSCREEN", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "FRUSTRATION", "SOLARBEAM", "RETURN",
-    "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "AERIALACE", "FACADE", "REST", "ATTRACT",
-    "THIEF", "ROUND", "STEELWING", "GIGAIMPACT", "THUNDERWAVE", "PSYCHUP", "DREAMEATER",
-    "GRASSKNOT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER",
-    "DAZZLINGGLEAM", "CONFIDE", "IMPRISON", "POWERSWAP", "GUARDSWAP", "AIRSLASH", "ENDURE",
-    "BATONPASS", "FUTURESIGHT", "COSMICPOWER", "STOREDPOWER", "SWIFT", "AURASPHERE", "MYSTICALFIRE",
-    "HURRICANE",
+raw_abilities = [
+    "SYNCHRONIZE",
+    "MAGICBOUNCE",
 ]
-raw_tutor_moves = ["AIRCUTTER", "ALLYSWITCH", "DEFOG", "FOULPLAY", "GIGADRAIN", "HEATWAVE", "LASERFOCUS", "MAGICCOAT", "MAGICROOM", "OMINOUSWIND", "PAINSPLIT", "SIGNALBEAM", "SKILLSWAP", "SKYATTACK", "SNORE", "SUCKERPUNCH", "TAILWIND", "TELEKINESIS", "TRICK", "TWISTER", "ZENHEADBUTT", "DUALWINGBEAT", "EXPANDINGFORCE", "ESPERWING", "MIMIC"]
-compatible_egg_groups = ["Flying"]
+raw_level_up_moves = [
+    { at_level = 0, name = "ESPERWING" },
+    { at_level = 0, name = "FUTURESIGHT" },
+    { at_level = 1, name = "HAZE" },
+    { at_level = 1, name = "SKILLSWAP" },
+    { at_level = 1, name = "TRICK" },
+    { at_level = 1, name = "LEER" },
+    { at_level = 1, name = "PECK" },
+    { at_level = 1, name = "QUICKATTACK" },
+    { at_level = 4, name = "LUCKYCHANT" },
+    { at_level = 7, name = "NIGHTSHADE" },
+    { at_level = 10, name = "REFRESH" },
+    { at_level = 13, name = "CONFUSION" },
+    { at_level = 16, name = "WISH" },
+    { at_level = 19, name = "AIRCUTTER" },
+    { at_level = 22, name = "OMINOUSWIND" },
+    { at_level = 26, name = "MIRACLEEYE" },
+    { at_level = 29, name = "FEATHERDANCE" },
+    { at_level = 32, name = "DUALWINGBEAT" },
+    { at_level = 35, name = "SIMPLEBEAM" },
+    { at_level = 38, name = "TAILWIND" },
+    { at_level = 42, name = "PAINSPLIT" },
+    { at_level = 46, name = "SYNCHRONOISE" },
+    { at_level = 50, name = "AIRSLASH" },
+    { at_level = 58, name = "COSMICPOWER" },
+    { at_level = 62, name = "FOULPLAY" },
+]
+raw_tms = [
+    "FLY",
+    "PSYSHOCK",
+    "CALMMIND",
+    "TOXIC",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "ROOST",
+    "ROOST",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "REFLECT",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "STEELWING",
+    "GIGAIMPACT",
+    "THUNDERWAVE",
+    "PSYCHUP",
+    "DREAMEATER",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "TRICKROOM",
+    "SECRETPOWER",
+    "DAZZLINGGLEAM",
+    "CONFIDE",
+    "IMPRISON",
+    "POWERSWAP",
+    "GUARDSWAP",
+    "AIRSLASH",
+    "MYSTICALFIRE",
+    "HURRICANE",
+    "ENDURE",
+    "BATONPASS",
+    "FUTURESIGHT",
+    "COSMICPOWER",
+    "AURASPHERE",
+    "STOREDPOWER",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AIRCUTTER",
+    "ALLYSWITCH",
+    "DEFOG",
+    "DUALWINGBEAT",
+    "ESPERWING",
+    "EXPANDINGFORCE",
+    "FOULPLAY",
+    "GIGADRAIN",
+    "HEATWAVE",
+    "LASERFOCUS",
+    "MAGICCOAT",
+    "MAGICROOM",
+    "MIMIC",
+    "OMINOUSWIND",
+    "PAINSPLIT",
+    "SIGNALBEAM",
+    "SKILLSWAP",
+    "SKYATTACK",
+    "SNORE",
+    "SUCKERPUNCH",
+    "TAILWIND",
+    "TELEKINESIS",
+    "TRICK",
+    "TWISTER",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Flying",
+]
 steps_to_hatch = 5355
 height = 1.5
 weight = 15.0
@@ -29,111 +132,7 @@ pokedex_entry = "It has the enigmatic power of foreseeing the future. Some peopl
 battler_player_y = 25
 battler_enemy_y = 14
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 178
-internal_name = "XATU"
 habitat = "Forest"
-
-[[raw_level_up_moves]]
-at_level = 0
-name = "ESPERWING"
-
-[[raw_level_up_moves]]
-at_level = 0
-name = "FUTURESIGHT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HAZE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SKILLSWAP"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TRICK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "PECK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "QUICKATTACK"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "LUCKYCHANT"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "NIGHTSHADE"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "REFRESH"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "CONFUSION"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "WISH"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "AIRCUTTER"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "OMINOUSWIND"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "MIRACLEEYE"
-
-[[raw_level_up_moves]]
-at_level = 29
-name = "FEATHERDANCE"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "DUALWINGBEAT"
-
-[[raw_level_up_moves]]
-at_level = 35
-name = "SIMPLEBEAM"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "TAILWIND"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "PAINSPLIT"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "SYNCHRONOISE"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "AIRSLASH"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "COSMICPOWER"
-
-[[raw_level_up_moves]]
-at_level = 62
-name = "FOULPLAY"
 
 [base_stats]
 hp = 65
@@ -150,5 +149,3 @@ def_ = 0
 spa = 1
 spd = 0
 spe = 1
-
-[wild_items]

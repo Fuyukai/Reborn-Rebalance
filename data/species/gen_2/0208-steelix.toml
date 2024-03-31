@@ -1,3 +1,4 @@
+dex_number = 208
 name = "Steelix"
 primary_type = "STEEL"
 secondary_type = "GROUND"
@@ -6,11 +7,133 @@ growth_rate = "Medium"
 exp_yield = 179
 catch_rate = 25
 caught_happiness = 70
-raw_abilities = ["ROCKHEAD", "STURDY"]
-raw_egg_moves = []
-raw_tms = ["CUT", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "FRUSTRATION", "SMACKDOWN", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "SANDSTORM", "ROCKTOMB", "TORMENT", "FACADE", "REST", "ATTRACT", "ROUND", "BRUTALSWING", "EXPLOSION", "PAYBACK", "GIGAIMPACT", "ROCKPOLISH", "STONEEDGE", "GYROBALL", "PSYCHUP", "BULLDOZE", "ROCKSLIDE", "DRAGONTAIL", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "NATUREPOWER", "DARKPULSE", "CONFIDE", "DIG", "SCREECH", "SELFDESTRUCT", "SCARYFACE", "SANDTOMB", "ROCKBLAST", "THUNDERFANG", "ICEFANG", "FIREFANG", "PSYCHICFANGS", "CRUNCH", "BREAKINGSWIPE", "BODYSLAM", "HURRICANE", "BRAVEBIRD", "ENDURE", "DRAGONDANCE", "HEAVYSLAM", "HIGHHORSEPOWER", "BODYPRESS"]
-raw_tutor_moves = ["ANCIENTPOWER", "AQUATAIL", "BIND", "BLOCK", "DRAGONPULSE", "DRILLRUN", "EARTHPOWER", "HEADBUTT", "IRONDEFENSE", "IRONHEAD", "IRONTAIL", "MAGNETRISE", "MUDSLAP", "ROLLOUT", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "TWISTER", "SCORCHINGSANDS", "METEORBEAM", "STEELROLLER", "STEELBEAM", "POWERSHIFT", "HEADLONGRUSH", "ICEBALL", "MIMIC"]
-compatible_egg_groups = ["Mineral"]
+raw_abilities = [
+    "ROCKHEAD",
+    "STURDY",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 1, name = "HARDEN" },
+    { at_level = 1, name = "BIND" },
+    { at_level = 4, name = "CURSE" },
+    { at_level = 7, name = "ROCKTHROW" },
+    { at_level = 10, name = "BULLDOZE" },
+    { at_level = 13, name = "ROLLOUT" },
+    { at_level = 16, name = "STEALTHROCK" },
+    { at_level = 19, name = "SCREECH" },
+    { at_level = 22, name = "SCORCHINGSANDS" },
+    { at_level = 25, name = "DRAGONBREATH" },
+    { at_level = 28, name = "COIL" },
+    { at_level = 31, name = "ROCKSLIDE" },
+    { at_level = 34, name = "ROCKBLAST" },
+    { at_level = 37, name = "IRONTAIL" },
+    { at_level = 40, name = "HIGHHORSEPOWER" },
+    { at_level = 44, name = "AUTOTOMIZE" },
+    { at_level = 48, name = "FIREFANG" },
+    { at_level = 48, name = "ICEFANG" },
+    { at_level = 48, name = "THUNDERFANG" },
+    { at_level = 52, name = "DOUBLEEDGE" },
+    { at_level = 56, name = "HEADSMASH" },
+    { at_level = 60, name = "WIDEGUARD" },
+    { at_level = 64, name = "HEAVYSLAM" },
+    { at_level = 68, name = "DRAGONDANCE" },
+    { at_level = 73, name = "SHOREUP" },
+]
+raw_tms = [
+    "CUT",
+    "STRENGTH",
+    "ROAR",
+    "TOXIC",
+    "ROCKSMASH",
+    "ROCKCLIMB",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "HYPERBEAM",
+    "PROTECT",
+    "FRUSTRATION",
+    "SMACKDOWN",
+    "EARTHQUAKE",
+    "RETURN",
+    "DOUBLETEAM",
+    "SANDSTORM",
+    "ROCKTOMB",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "BRUTALSWING",
+    "EXPLOSION",
+    "PAYBACK",
+    "GIGAIMPACT",
+    "ROCKPOLISH",
+    "STONEEDGE",
+    "GYROBALL",
+    "PSYCHUP",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "DRAGONTAIL",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "FLASHCANNON",
+    "SECRETPOWER",
+    "NATUREPOWER",
+    "DARKPULSE",
+    "CONFIDE",
+    "DIG",
+    "SCREECH",
+    "SELFDESTRUCT",
+    "SCARYFACE",
+    "SANDTOMB",
+    "ROCKBLAST",
+    "THUNDERFANG",
+    "ICEFANG",
+    "FIREFANG",
+    "PSYCHICFANGS",
+    "CRUNCH",
+    "BREAKINGSWIPE",
+    "BODYSLAM",
+    "HURRICANE",
+    "BRAVEBIRD",
+    "ENDURE",
+    "DRAGONDANCE",
+    "HEAVYSLAM",
+    "HIGHHORSEPOWER",
+    "BODYPRESS",
+]
+raw_tutor_moves = [
+    "ANCIENTPOWER",
+    "AQUATAIL",
+    "BIND",
+    "BLOCK",
+    "DRAGONPULSE",
+    "DRILLRUN",
+    "EARTHPOWER",
+    "HEADBUTT",
+    "HEADLONGRUSH",
+    "ICEBALL",
+    "IRONDEFENSE",
+    "IRONHEAD",
+    "IRONTAIL",
+    "MAGNETRISE",
+    "METEORBEAM",
+    "MIMIC",
+    "MUDSLAP",
+    "POWERSHIFT",
+    "ROLLOUT",
+    "SCORCHINGSANDS",
+    "SNORE",
+    "STEALTHROCK",
+    "STEELBEAM",
+    "STEELROLLER",
+    "STOMPINGTANTRUM",
+    "TWISTER",
+]
+compatible_egg_groups = [
+    "Mineral",
+]
 steps_to_hatch = 6630
 height = 9.2
 weight = 400.0
@@ -20,116 +143,8 @@ pokedex_entry = "Steelix live even further underground than Onix. This Pokémon 
 battler_player_y = 8
 battler_enemy_y = 4
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 208
-internal_name = "STEELIX"
 raw_hidden_ability = "SHEERFORCE"
 habitat = "Cave"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HARDEN"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BIND"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "CURSE"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "ROCKTHROW"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "BULLDOZE"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "ROLLOUT"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "STEALTHROCK"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "SCREECH"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "SCORCHINGSANDS"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "DRAGONBREATH"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "COIL"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "ROCKSLIDE"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "ROCKBLAST"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "IRONTAIL"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "HIGHHORSEPOWER"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "AUTOTOMIZE"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "FIREFANG"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "ICEFANG"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "THUNDERFANG"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "DOUBLEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "HEADSMASH"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "WIDEGUARD"
-
-[[raw_level_up_moves]]
-at_level = 64
-name = "HEAVYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 68
-name = "DRAGONDANCE"
-
-[[raw_level_up_moves]]
-at_level = 73
-name = "SHOREUP"
 
 [base_stats]
 hp = 75

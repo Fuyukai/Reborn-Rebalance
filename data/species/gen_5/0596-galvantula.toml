@@ -1,3 +1,4 @@
+dex_number = 596
 name = "Galvantula"
 primary_type = "BUG"
 secondary_type = "ELECTRIC"
@@ -6,11 +7,104 @@ growth_rate = "Medium"
 exp_yield = 165
 catch_rate = 70
 caught_happiness = 70
-raw_abilities = ["COMPOUNDEYES", "UNNERVE"]
-raw_egg_moves = []
-raw_tms = ["CUT", "TOXIC", "FLASH", "ROCKCLIMB", "HIDDENPOWER", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "LEECHLIFE", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ENERGYBALL", "CHARGEBEAM", "GIGAIMPACT", "VOLTSWITCH", "THUNDERWAVE", "STRUGGLEBUG", "XSCISSOR", "INFESTATION", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "CONFIDE", "PINMISSILE", "SCREECH", "SPEEDSWAP", "CROSSPOISON", "AGILITY", "ENDURE", "BUGBUZZ", "ELECTROBALL", "SWIFT"]
-raw_tutor_moves = ["BOUNCE", "BUGBITE", "ELECTROWEB", "FURYCUTTER", "GASTROACID", "GIGADRAIN", "MAGNETRISE", "SHOCKWAVE", "SIGNALBEAM", "SNORE", "SUCKERPUNCH", "THROATCHOP", "RISINGVOLTAGE", "SKITTERSMACK", "MIMIC"]
-compatible_egg_groups = ["Bug"]
+raw_abilities = [
+    "COMPOUNDEYES",
+    "UNNERVE",
+]
+raw_level_up_moves = [
+    { at_level = 0, name = "THUNDERBOLT" },
+    { at_level = 1, name = "FURYCUTTER" },
+    { at_level = 1, name = "ABSORB" },
+    { at_level = 1, name = "INFESTATION" },
+    { at_level = 1, name = "SPIDERWEB" },
+    { at_level = 1, name = "POISONSTING" },
+    { at_level = 4, name = "CAMOUFLAGE" },
+    { at_level = 7, name = "SCREECH" },
+    { at_level = 10, name = "NUZZLE" },
+    { at_level = 13, name = "PURSUIT" },
+    { at_level = 16, name = "PINMISSILE" },
+    { at_level = 19, name = "AGILITY" },
+    { at_level = 22, name = "MEGADRAIN" },
+    { at_level = 25, name = "ELECTROBALL" },
+    { at_level = 28, name = "ELECTROWEB" },
+    { at_level = 31, name = "STRUGGLEBUG" },
+    { at_level = 34, name = "DISABLE" },
+    { at_level = 37, name = "SLASH" },
+    { at_level = 37, name = "NIGHTSLASH" },
+    { at_level = 39, name = "SPIKES" },
+    { at_level = 42, name = "GASTROACID" },
+    { at_level = 45, name = "LUNGE" },
+    { at_level = 49, name = "SUCKERPUNCH" },
+    { at_level = 53, name = "CROSSPOISON" },
+    { at_level = 57, name = "DISCHARGE" },
+    { at_level = 61, name = "LEECHLIFE" },
+]
+raw_tms = [
+    "CUT",
+    "TOXIC",
+    "FLASH",
+    "ROCKCLIMB",
+    "HIDDENPOWER",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "THUNDERBOLT",
+    "THUNDER",
+    "RETURN",
+    "LEECHLIFE",
+    "DOUBLETEAM",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "ENERGYBALL",
+    "CHARGEBEAM",
+    "GIGAIMPACT",
+    "VOLTSWITCH",
+    "THUNDERWAVE",
+    "STRUGGLEBUG",
+    "XSCISSOR",
+    "INFESTATION",
+    "POISONJAB",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "WILDCHARGE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "PINMISSILE",
+    "SCREECH",
+    "SPEEDSWAP",
+    "CROSSPOISON",
+    "AGILITY",
+    "ENDURE",
+    "BUGBUZZ",
+    "ELECTROBALL",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "BOUNCE",
+    "BUGBITE",
+    "ELECTROWEB",
+    "FURYCUTTER",
+    "GASTROACID",
+    "GIGADRAIN",
+    "MAGNETRISE",
+    "MIMIC",
+    "RISINGVOLTAGE",
+    "SHOCKWAVE",
+    "SIGNALBEAM",
+    "SKITTERSMACK",
+    "SNORE",
+    "SUCKERPUNCH",
+    "THROATCHOP",
+]
+compatible_egg_groups = [
+    "Bug",
+]
 steps_to_hatch = 5120
 height = 0.8
 weight = 14.3
@@ -20,115 +114,7 @@ pokedex_entry = "They employ an electrically charged web to trap their prey. Whi
 battler_player_y = 29
 battler_enemy_y = 38
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 596
-internal_name = "GALVANTULA"
 raw_hidden_ability = "SWARM"
-
-[[raw_level_up_moves]]
-at_level = 0
-name = "THUNDERBOLT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FURYCUTTER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ABSORB"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "INFESTATION"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SPIDERWEB"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "POISONSTING"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "CAMOUFLAGE"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "SCREECH"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "NUZZLE"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "PURSUIT"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "PINMISSILE"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "AGILITY"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "MEGADRAIN"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "ELECTROBALL"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "ELECTROWEB"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "STRUGGLEBUG"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "DISABLE"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "SLASH"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "NIGHTSLASH"
-
-[[raw_level_up_moves]]
-at_level = 39
-name = "SPIKES"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "GASTROACID"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "LUNGE"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "SUCKERPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 53
-name = "CROSSPOISON"
-
-[[raw_level_up_moves]]
-at_level = 57
-name = "DISCHARGE"
-
-[[raw_level_up_moves]]
-at_level = 61
-name = "LEECHLIFE"
 
 [base_stats]
 hp = 70
@@ -145,5 +131,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 2
-
-[wild_items]

@@ -1,3 +1,4 @@
+dex_number = 194
 name = "Wooper"
 primary_type = "WATER"
 secondary_type = "GROUND"
@@ -6,11 +7,103 @@ growth_rate = "Medium"
 exp_yield = 42
 catch_rate = 255
 caught_happiness = 70
-raw_abilities = ["DAMP", "WATERABSORB"]
-raw_egg_moves = ["ACIDSPRAY", "AFTERYOU", "ANCIENTPOWER", "BODYSLAM", "COUNTER", "CURSE", "DOUBLEKICK", "EERIEIMPULSE", "ENCORE", "GUARDSWAP", "MUDSPORT", "POWERUPPUNCH", "RECOVER", "SLEEPTALK", "SPITUP", "STOCKPILE", "SWALLOW"]
-raw_tms = ["SURF", "WATERFALL", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "FLASH", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "SLUDGEWAVE", "SLUDGEBOMB", "SANDSTORM", "FACADE", "REST", "ATTRACT", "ROUND", "SCALD", "BULLDOZE", "INFESTATION", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "WHIRLPOOL", "MUDSHOT", "GUARDSWAP", "EERIEIMPULSE", "BODYSLAM", "HYDROPUMP", "AMNESIA", "ENDURE", "ENCORE", "MUDDYWATER", "SNOWSCAPE", "TRAILBLAZE", "CHILLINGWATER"]
-raw_tutor_moves = ["AFTERYOU", "ANCIENTPOWER", "AQUATAIL", "EARTHPOWER", "HEADBUTT", "ICEPUNCH", "ICYWIND", "IRONTAIL", "MUDSLAP", "ROLLOUT", "SNORE", "STOMPINGTANTRUM", "WATERPULSE", "MIMIC"]
-compatible_egg_groups = ["Water1", "Field"]
+raw_abilities = [
+    "DAMP",
+    "WATERABSORB",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "TOXICSPIKES" },
+    { at_level = 1, name = "TAILWHIP" },
+    { at_level = 1, name = "WATERGUN" },
+    { at_level = 4, name = "ACIDSPRAY" },
+    { at_level = 7, name = "MUDSHOT" },
+    { at_level = 10, name = "DOUBLEKICK" },
+    { at_level = 13, name = "HAZE" },
+    { at_level = 16, name = "MUDBOMB" },
+    { at_level = 18, name = "WATERPULSE" },
+    { at_level = 20, name = "BULLDOZE" },
+    { at_level = 22, name = "WHIRLPOOL" },
+    { at_level = 24, name = "YAWN" },
+    { at_level = 26, name = "AQUATAIL" },
+    { at_level = 28, name = "AMNESIA" },
+    { at_level = 30, name = "COUNTER" },
+    { at_level = 32, name = "BODYSLAM" },
+    { at_level = 35, name = "MUDDYWATER" },
+    { at_level = 38, name = "CURSE" },
+    { at_level = 41, name = "SPIKES" },
+    { at_level = 45, name = "DOUBLEEDGE" },
+    { at_level = 49, name = "FOCUSPUNCH" },
+    { at_level = 53, name = "HIGHHORSEPOWER" },
+    { at_level = 57, name = "RECOVER" },
+]
+raw_tms = [
+    "SURF",
+    "WATERFALL",
+    "TOXIC",
+    "DIVE",
+    "HAIL",
+    "ROCKSMASH",
+    "FLASH",
+    "HIDDENPOWER",
+    "ICEBEAM",
+    "BLIZZARD",
+    "PROTECT",
+    "RAINDANCE",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "EARTHQUAKE",
+    "RETURN",
+    "DOUBLETEAM",
+    "SLUDGEWAVE",
+    "SLUDGEBOMB",
+    "SANDSTORM",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "SCALD",
+    "BULLDOZE",
+    "INFESTATION",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "DIG",
+    "WHIRLPOOL",
+    "MUDSHOT",
+    "GUARDSWAP",
+    "EERIEIMPULSE",
+    "BODYSLAM",
+    "HYDROPUMP",
+    "AMNESIA",
+    "ENDURE",
+    "ENCORE",
+    "MUDDYWATER",
+    "SNOWSCAPE",
+    "TRAILBLAZE",
+    "CHILLINGWATER",
+]
+raw_tutor_moves = [
+    "AFTERYOU",
+    "ANCIENTPOWER",
+    "AQUATAIL",
+    "EARTHPOWER",
+    "HEADBUTT",
+    "ICEPUNCH",
+    "ICYWIND",
+    "IRONTAIL",
+    "MIMIC",
+    "MUDSLAP",
+    "ROLLOUT",
+    "SNORE",
+    "STOMPINGTANTRUM",
+    "WATERPULSE",
+]
+compatible_egg_groups = [
+    "Water1",
+    "Field",
+]
 steps_to_hatch = 5355
 height = 0.4
 weight = 8.5
@@ -20,115 +113,31 @@ pokedex_entry = "Wooper usually live in water but come out onto land seeking foo
 battler_player_y = 33
 battler_enemy_y = 27
 battler_altitude = 0
-form_names = []
-dex_number = 194
-internal_name = "WOOPER"
 raw_hidden_ability = "UNAWARE"
+raw_egg_moves = [
+    "ACIDSPRAY",
+    "AFTERYOU",
+    "ANCIENTPOWER",
+    "BODYSLAM",
+    "COUNTER",
+    "CURSE",
+    "DOUBLEKICK",
+    "EERIEIMPULSE",
+    "ENCORE",
+    "GUARDSWAP",
+    "MUDSPORT",
+    "POWERUPPUNCH",
+    "RECOVER",
+    "SLEEPTALK",
+    "SPITUP",
+    "STOCKPILE",
+    "SWALLOW",
+]
 habitat = "WatersEdge"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TOXICSPIKES"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TAILWHIP"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WATERGUN"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "ACIDSPRAY"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "MUDSHOT"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "DOUBLEKICK"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "HAZE"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "MUDBOMB"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "WATERPULSE"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "BULLDOZE"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "WHIRLPOOL"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "YAWN"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "AQUATAIL"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "AMNESIA"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "COUNTER"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 35
-name = "MUDDYWATER"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "CURSE"
-
-[[raw_level_up_moves]]
-at_level = 41
-name = "SPIKES"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "DOUBLEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "FOCUSPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 53
-name = "HIGHHORSEPOWER"
-
-[[raw_level_up_moves]]
-at_level = 57
-name = "RECOVER"
-
-[[evolutions]]
-into_name = "QUAGSIRE"
-condition = "Level"
-parameter = "20"
-
-[[evolutions]]
-into_name = "CLODSIRE"
-condition = "Level"
-parameter = "20"
-
-
+evolutions = [
+    { into_name = "QUAGSIRE", condition = "Level", parameter = "20" },
+    { into_name = "CLODSIRE", condition = "Level", parameter = "20" },
+]
 
 [base_stats]
 hp = 55
@@ -145,5 +154,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

@@ -1,3 +1,4 @@
+dex_number = 447
 name = "Riolu"
 primary_type = "FIGHTING"
 secondary_type = "FIGHTING"
@@ -6,11 +7,109 @@ growth_rate = "Parabolic"
 exp_yield = 57
 catch_rate = 75
 caught_happiness = 70
-raw_abilities = ["STEADFAST", "INNERFOCUS"]
-raw_egg_moves = ["AGILITY", "BITE", "BLAZEKICK", "BULLETPUNCH", "CIRCLETHROW", "CROSSCHOP", "CRUNCH", "DETECT", "FOLLOWME", "HIJUMPKICK", "IRONDEFENSE", "LOWKICK", "METEORMASH", "MINDREADER", "SKYUPPERCUT", "VACUUMWAVE"]
-raw_tms = ["WORKUP", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "BULKUP", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "RAINDANCE", "FRUSTRATION", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "LOWSWEEP", "ROUND", "FOCUSBLAST", "FLING", "SHADOWCLAW", "PAYBACK", "SWORDSDANCE", "BULLDOZE", "ROCKSLIDE", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "SCREECH", "REVENGE", "CRUNCH", "AGILITY", "REVERSAL", "ENDURE", "BLAZEKICK", "NASTYPLOT", "RETALIATE", "TRAILBLAZE", "SWIFT"]
-raw_tutor_moves = ["DRAINPUNCH", "DUALCHOP", "FOCUSPUNCH", "FURYCUTTER", "HEADBUTT", "HELPINGHAND", "ICEPUNCH", "IRONDEFENSE", "IRONTAIL", "LASERFOCUS", "LOWKICK", "MAGNETRISE", "MUDSLAP", "ROLEPLAY", "SNORE", "THUNDERPUNCH", "VACUUMWAVE", "ZENHEADBUTT", "COACHING", "MIMIC"]
-compatible_egg_groups = ["Undiscovered"]
+raw_abilities = [
+    "STEADFAST",
+    "INNERFOCUS",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "FORESIGHT" },
+    { at_level = 1, name = "MINDREADER" },
+    { at_level = 1, name = "BITE" },
+    { at_level = 1, name = "COPYCAT" },
+    { at_level = 4, name = "COUNTER" },
+    { at_level = 7, name = "FOLLOWME" },
+    { at_level = 10, name = "VACUUMWAVE" },
+    { at_level = 12, name = "HOWL" },
+    { at_level = 14, name = "METALCLAW" },
+    { at_level = 16, name = "FORCEPALM" },
+    { at_level = 18, name = "BITE" },
+    { at_level = 20, name = "REVERSAL" },
+    { at_level = 22, name = "SCREECH" },
+    { at_level = 24, name = "CRUNCH" },
+    { at_level = 26, name = "AURASPHERE" },
+    { at_level = 28, name = "FLING" },
+    { at_level = 30, name = "AGILITY" },
+    { at_level = 33, name = "CROSSCHOP" },
+    { at_level = 36, name = "HELPINGHAND" },
+    { at_level = 39, name = "ENDURE" },
+    { at_level = 42, name = "FINALGAMBIT" },
+]
+raw_tms = [
+    "WORKUP",
+    "STRENGTH",
+    "ROAR",
+    "TOXIC",
+    "ROCKSMASH",
+    "BULKUP",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "EARTHQUAKE",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "ROCKTOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "LOWSWEEP",
+    "ROUND",
+    "FOCUSBLAST",
+    "FLING",
+    "SHADOWCLAW",
+    "PAYBACK",
+    "SWORDSDANCE",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "POISONJAB",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "DIG",
+    "SCREECH",
+    "REVENGE",
+    "CRUNCH",
+    "AGILITY",
+    "REVERSAL",
+    "ENDURE",
+    "BLAZEKICK",
+    "NASTYPLOT",
+    "RETALIATE",
+    "TRAILBLAZE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "COACHING",
+    "DRAINPUNCH",
+    "DUALCHOP",
+    "FOCUSPUNCH",
+    "FURYCUTTER",
+    "HEADBUTT",
+    "HELPINGHAND",
+    "ICEPUNCH",
+    "IRONDEFENSE",
+    "IRONTAIL",
+    "LASERFOCUS",
+    "LOWKICK",
+    "MAGNETRISE",
+    "MIMIC",
+    "MUDSLAP",
+    "ROLEPLAY",
+    "SNORE",
+    "THUNDERPUNCH",
+    "VACUUMWAVE",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Undiscovered",
+]
 steps_to_hatch = 6630
 height = 0.7
 weight = 20.2
@@ -20,101 +119,28 @@ pokedex_entry = "The aura that emanates from its body intensifies to alert other
 battler_player_y = 27
 battler_enemy_y = 20
 battler_altitude = 0
-form_names = []
-dex_number = 447
-internal_name = "RIOLU"
 raw_hidden_ability = "PRANKSTER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FORESIGHT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "MINDREADER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "COPYCAT"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "COUNTER"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "FOLLOWME"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "VACUUMWAVE"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "HOWL"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "METALCLAW"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "FORCEPALM"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "REVERSAL"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "SCREECH"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "AURASPHERE"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "FLING"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "AGILITY"
-
-[[raw_level_up_moves]]
-at_level = 33
-name = "CROSSCHOP"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "HELPINGHAND"
-
-[[raw_level_up_moves]]
-at_level = 39
-name = "ENDURE"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "FINALGAMBIT"
-
-[[evolutions]]
-into_name = "LUCARIO"
-condition = "HasMove"
-parameter = "AURASPHERE"
-
-
+raw_egg_moves = [
+    "AGILITY",
+    "BITE",
+    "BLAZEKICK",
+    "BULLETPUNCH",
+    "CIRCLETHROW",
+    "CROSSCHOP",
+    "CRUNCH",
+    "DETECT",
+    "FOLLOWME",
+    "HIJUMPKICK",
+    "IRONDEFENSE",
+    "LOWKICK",
+    "METEORMASH",
+    "MINDREADER",
+    "SKYUPPERCUT",
+    "VACUUMWAVE",
+]
+evolutions = [
+    { into_name = "LUCARIO", condition = "HasMove", parameter = "AURASPHERE" },
+]
 
 [base_stats]
 hp = 40
@@ -131,5 +157,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

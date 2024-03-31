@@ -1,3 +1,4 @@
+dex_number = 497
 name = "Serperior"
 primary_type = "GRASS"
 secondary_type = "DRAGON"
@@ -6,11 +7,106 @@ growth_rate = "Parabolic"
 exp_yield = 238
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["OVERGROW", "SHEDSKIN", "CONTRARY"]
-raw_egg_moves = []
-raw_tms = ["WORKUP", "CUT", "CALMMIND", "STRENGTH", "TOXIC", "ROCKSMASH", "FLASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "REFLECT", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "BRUTALSWING", "GIGAIMPACT", "SWORDSDANCE", "DRAGONTAIL", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "MAGICALLEAF", "LEAFBLADE", "GRASSYTERRAIN", "LEAFSTORM", "ENDURE"]
-raw_tutor_moves = ["AQUATAIL", "BIND", "DEFOG", "DRAGONPULSE", "FRENZYPLANT", "GASTROACID", "GIGADRAIN", "GRASSPLEDGE", "IRONTAIL", "KNOCKOFF", "OUTRAGE", "SEEDBOMB", "SNATCH", "SNORE", "SYNTHESIS", "WORRYSEED", "MIMIC", "DRACOMETEOR"]
-compatible_egg_groups = ["Field", "Grass"]
+raw_abilities = [
+    "OVERGROW",
+    "SHEDSKIN",
+    "CONTRARY",
+]
+raw_level_up_moves = [
+    { at_level = 0, name = "LEAFSTORM" },
+    { at_level = 1, name = "OUTRAGE" },
+    { at_level = 1, name = "COIL" },
+    { at_level = 1, name = "LEER" },
+    { at_level = 5, name = "VINEWHIP" },
+    { at_level = 7, name = "TWISTER" },
+    { at_level = 10, name = "LEECHSEED" },
+    { at_level = 13, name = "LEAFTORNADO" },
+    { at_level = 16, name = "WORRYSEED" },
+    { at_level = 17, name = "CAPTIVATE" },
+    { at_level = 20, name = "DRAGONBREATH" },
+    { at_level = 22, name = "GLARE" },
+    { at_level = 25, name = "MIRRORCOAT" },
+    { at_level = 28, name = "DRAGONRAGE" },
+    { at_level = 31, name = "HEARTSTAMP" },
+    { at_level = 34, name = "BODYSLAM" },
+    { at_level = 36, name = "BREAKINGSWIPE" },
+    { at_level = 37, name = "NATURALGIFT" },
+    { at_level = 40, name = "LEAFBLADE" },
+    { at_level = 43, name = "GASTROACID" },
+    { at_level = 46, name = "SYNTHESIS" },
+    { at_level = 50, name = "PSYCHOCUT" },
+    { at_level = 54, name = "DRAGONRUSH" },
+    { at_level = 58, name = "POWERWHIP" },
+    { at_level = 62, name = "WRINGOUT" },
+]
+raw_tms = [
+    "WORKUP",
+    "CUT",
+    "CALMMIND",
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "DOUBLETEAM",
+    "REFLECT",
+    "AERIALACE",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ENERGYBALL",
+    "BRUTALSWING",
+    "GIGAIMPACT",
+    "SWORDSDANCE",
+    "DRAGONTAIL",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "NATUREPOWER",
+    "CONFIDE",
+    "MAGICALLEAF",
+    "LEAFBLADE",
+    "GRASSYTERRAIN",
+    "LEAFSTORM",
+    "ENDURE",
+]
+raw_tutor_moves = [
+    "AQUATAIL",
+    "BIND",
+    "DEFOG",
+    "DRACOMETEOR",
+    "DRAGONPULSE",
+    "FRENZYPLANT",
+    "GASTROACID",
+    "GIGADRAIN",
+    "GRASSPLEDGE",
+    "IRONTAIL",
+    "KNOCKOFF",
+    "MIMIC",
+    "OUTRAGE",
+    "SEEDBOMB",
+    "SNATCH",
+    "SNORE",
+    "SYNTHESIS",
+    "WORRYSEED",
+]
+compatible_egg_groups = [
+    "Field",
+    "Grass",
+]
 steps_to_hatch = 5120
 height = 3.3
 weight = 63.0
@@ -20,110 +116,6 @@ pokedex_entry = "They raise their heads to intimidate opponents but only give it
 battler_player_y = 12
 battler_enemy_y = 22
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 497
-internal_name = "SERPERIOR"
-
-[[raw_level_up_moves]]
-at_level = 0
-name = "LEAFSTORM"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "OUTRAGE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "COIL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 5
-name = "VINEWHIP"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "TWISTER"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "LEECHSEED"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "LEAFTORNADO"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "WORRYSEED"
-
-[[raw_level_up_moves]]
-at_level = 17
-name = "CAPTIVATE"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "DRAGONBREATH"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "GLARE"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "MIRRORCOAT"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "DRAGONRAGE"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "HEARTSTAMP"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "BREAKINGSWIPE"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "NATURALGIFT"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "LEAFBLADE"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "GASTROACID"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "SYNTHESIS"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "PSYCHOCUT"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "DRAGONRUSH"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "POWERWHIP"
-
-[[raw_level_up_moves]]
-at_level = 62
-name = "WRINGOUT"
 
 [base_stats]
 hp = 75
@@ -140,5 +132,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 3
-
-[wild_items]

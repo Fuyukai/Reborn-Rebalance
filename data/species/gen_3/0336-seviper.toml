@@ -1,3 +1,4 @@
+dex_number = 336
 name = "Seviper"
 primary_type = "POISON"
 secondary_type = "POISON"
@@ -6,11 +7,105 @@ growth_rate = "Fluctuating"
 exp_yield = 160
 catch_rate = 90
 caught_happiness = 70
-raw_abilities = ["SHEDSKIN", "INFILTRATOR"]
-raw_egg_moves = ["ASSURANCE", "BODYSLAM", "FINALGAMBIT", "IRONTAIL", "NIGHTSLASH", "PUNISHMENT", "SCARYFACE", "SPITUP", "STOCKPILE", "SWALLOW", "SWITCHEROO", "WRINGOUT"]
-raw_tms = ["STRENGTH", "TOXIC", "ROCKSMASH", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "PROTECT", "RAINDANCE", "FRUSTRATION", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "SLUDGEWAVE", "FLAMETHROWER", "SLUDGEBOMB", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "BRUTALSWING", "PAYBACK", "SWORDSDANCE", "BULLDOZE", "XSCISSOR", "DRAGONTAIL", "INFESTATION", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "DARKPULSE", "CONFIDE", "DIG", "SCREECH", "SCARYFACE", "ASSURANCE", "CRUNCH", "BODYSLAM", "POWERWHIP", "ENDURE", "VENOMDRENCH", "RETALIATE", "POUNCE", "TRAILBLAZE", "SWIFT"]
-raw_tutor_moves = ["AQUATAIL", "BIND", "FURYCUTTER", "GASTROACID", "GIGADRAIN", "HEADBUTT", "IRONTAIL", "KNOCKOFF", "MUDSLAP", "SNATCH", "SNORE", "SUCKERPUNCH", "THROATCHOP", "MIMIC", "POISONTAIL"]
-compatible_egg_groups = ["Field", "Dragon"]
+raw_abilities = [
+    "SHEDSKIN",
+    "INFILTRATOR",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "BITE" },
+    { at_level = 1, name = "LEER" },
+    { at_level = 1, name = "LICK" },
+    { at_level = 4, name = "SCREECH" },
+    { at_level = 7, name = "SCARYFACE" },
+    { at_level = 10, name = "ASSURANCE" },
+    { at_level = 13, name = "FURYCUTTER" },
+    { at_level = 16, name = "SUCKERPUNCH" },
+    { at_level = 19, name = "SLASH" },
+    { at_level = 19, name = "NIGHTSLASH" },
+    { at_level = 22, name = "GLARE" },
+    { at_level = 26, name = "HAZE" },
+    { at_level = 30, name = "POISONFANG" },
+    { at_level = 34, name = "GASTROACID" },
+    { at_level = 38, name = "SWITCHEROO" },
+    { at_level = 42, name = "LUNGE" },
+    { at_level = 46, name = "COIL" },
+    { at_level = 50, name = "POISONTAIL" },
+    { at_level = 54, name = "CRUNCH" },
+    { at_level = 58, name = "POWERWHIP" },
+    { at_level = 62, name = "WRINGOUT" },
+    { at_level = 66, name = "FINALGAMBIT" },
+]
+raw_tms = [
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "VENOSHOCK",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "EARTHQUAKE",
+    "RETURN",
+    "DOUBLETEAM",
+    "SLUDGEWAVE",
+    "FLAMETHROWER",
+    "SLUDGEBOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "BRUTALSWING",
+    "PAYBACK",
+    "SWORDSDANCE",
+    "BULLDOZE",
+    "XSCISSOR",
+    "DRAGONTAIL",
+    "INFESTATION",
+    "POISONJAB",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "DARKPULSE",
+    "CONFIDE",
+    "DIG",
+    "SCREECH",
+    "SCARYFACE",
+    "ASSURANCE",
+    "CRUNCH",
+    "BODYSLAM",
+    "POWERWHIP",
+    "ENDURE",
+    "VENOMDRENCH",
+    "RETALIATE",
+    "POUNCE",
+    "TRAILBLAZE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AQUATAIL",
+    "BIND",
+    "FURYCUTTER",
+    "GASTROACID",
+    "GIGADRAIN",
+    "HEADBUTT",
+    "IRONTAIL",
+    "KNOCKOFF",
+    "MIMIC",
+    "MUDSLAP",
+    "POISONTAIL",
+    "SNATCH",
+    "SNORE",
+    "SUCKERPUNCH",
+    "THROATCHOP",
+]
+compatible_egg_groups = [
+    "Field",
+    "Dragon",
+]
 steps_to_hatch = 5355
 height = 2.7
 weight = 52.5
@@ -20,99 +115,21 @@ pokedex_entry = "Seviper and Zangoose are eternal rivals. It counters a Zangoose
 battler_player_y = 19
 battler_enemy_y = 10
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 336
-internal_name = "SEVIPER"
+raw_egg_moves = [
+    "ASSURANCE",
+    "BODYSLAM",
+    "FINALGAMBIT",
+    "IRONTAIL",
+    "NIGHTSLASH",
+    "PUNISHMENT",
+    "SCARYFACE",
+    "SPITUP",
+    "STOCKPILE",
+    "SWALLOW",
+    "SWITCHEROO",
+    "WRINGOUT",
+]
 habitat = "Grassland"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LICK"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "SCREECH"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "SCARYFACE"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "ASSURANCE"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "FURYCUTTER"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "SUCKERPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "SLASH"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "NIGHTSLASH"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "GLARE"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "HAZE"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "POISONFANG"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "GASTROACID"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "SWITCHEROO"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "LUNGE"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "COIL"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "POISONTAIL"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "POWERWHIP"
-
-[[raw_level_up_moves]]
-at_level = 62
-name = "WRINGOUT"
-
-[[raw_level_up_moves]]
-at_level = 66
-name = "FINALGAMBIT"
 
 [base_stats]
 hp = 73

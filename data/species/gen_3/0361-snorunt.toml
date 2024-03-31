@@ -1,3 +1,4 @@
+dex_number = 361
 name = "Snorunt"
 primary_type = "ICE"
 secondary_type = "ICE"
@@ -6,11 +7,83 @@ growth_rate = "Medium"
 exp_yield = 60
 catch_rate = 190
 caught_happiness = 70
-raw_abilities = ["INNERFOCUS", "ICEBODY"]
-raw_egg_moves = ["AVALANCHE", "BIDE", "BLOCK", "DISABLE", "FAKETEARS", "HEX", "ROLLOUT", "SPIKES", "SWITCHEROO", "WEATHERBALL"]
-raw_tms = ["TOXIC", "HAIL", "FLASH", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "RETURN", "SHADOWBALL", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "ROUND", "FROSTBREATH", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "WEATHERBALL", "FAKETEARS", "AVALANCHE", "ICEFANG", "CRUNCH", "HEX", "BODYSLAM", "SPIKES", "ENDURE", "ICESPINNER", "SNOWSCAPE", "TRAILBLAZE", "CHILLINGWATER"]
-raw_tutor_moves = ["BLOCK", "HEADBUTT", "ICYWIND", "ROLLOUT", "SNORE", "SPITE", "WATERPULSE", "MIMIC"]
-compatible_egg_groups = ["Fairy", "Mineral"]
+raw_abilities = [
+    "INNERFOCUS",
+    "ICEBODY",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "POWDERSNOW" },
+    { at_level = 1, name = "LEER" },
+    { at_level = 6, name = "SPITE" },
+    { at_level = 9, name = "ICESHARD" },
+    { at_level = 12, name = "SPIKES" },
+    { at_level = 15, name = "BITE" },
+    { at_level = 18, name = "DISABLE" },
+    { at_level = 21, name = "ICEFANG" },
+    { at_level = 24, name = "HEADBUTT" },
+    { at_level = 27, name = "AVALANCHE" },
+    { at_level = 30, name = "CRUNCH" },
+    { at_level = 33, name = "FROSTBREATH" },
+    { at_level = 36, name = "FAKETEARS" },
+    { at_level = 40, name = "HEX" },
+    { at_level = 44, name = "HAIL" },
+    { at_level = 48, name = "SWITCHEROO" },
+    { at_level = 52, name = "ICICLECRASH" },
+    { at_level = 56, name = "BLIZZARD" },
+]
+raw_tms = [
+    "TOXIC",
+    "HAIL",
+    "FLASH",
+    "HIDDENPOWER",
+    "ICEBEAM",
+    "BLIZZARD",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "RETURN",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "FROSTBREATH",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "WEATHERBALL",
+    "FAKETEARS",
+    "AVALANCHE",
+    "ICEFANG",
+    "CRUNCH",
+    "HEX",
+    "BODYSLAM",
+    "SPIKES",
+    "ENDURE",
+    "ICESPINNER",
+    "SNOWSCAPE",
+    "TRAILBLAZE",
+    "CHILLINGWATER",
+]
+raw_tutor_moves = [
+    "BLOCK",
+    "HEADBUTT",
+    "ICYWIND",
+    "MIMIC",
+    "ROLLOUT",
+    "SNORE",
+    "SPITE",
+    "WATERPULSE",
+]
+compatible_egg_groups = [
+    "Fairy",
+    "Mineral",
+]
 steps_to_hatch = 5355
 height = 0.7
 weight = 16.8
@@ -20,95 +93,24 @@ pokedex_entry = "They tend to move about in groups of around five. In snowy regi
 battler_player_y = 29
 battler_enemy_y = 21
 battler_altitude = 0
-form_names = []
-dex_number = 361
-internal_name = "SNORUNT"
 raw_hidden_ability = "MOODY"
+raw_egg_moves = [
+    "AVALANCHE",
+    "BIDE",
+    "BLOCK",
+    "DISABLE",
+    "FAKETEARS",
+    "HEX",
+    "ROLLOUT",
+    "SPIKES",
+    "SWITCHEROO",
+    "WEATHERBALL",
+]
 habitat = "Cave"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "POWDERSNOW"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 6
-name = "SPITE"
-
-[[raw_level_up_moves]]
-at_level = 9
-name = "ICESHARD"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "SPIKES"
-
-[[raw_level_up_moves]]
-at_level = 15
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "DISABLE"
-
-[[raw_level_up_moves]]
-at_level = 21
-name = "ICEFANG"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "HEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "AVALANCHE"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 33
-name = "FROSTBREATH"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "FAKETEARS"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "HEX"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "HAIL"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "SWITCHEROO"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "ICICLECRASH"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "BLIZZARD"
-
-[[evolutions]]
-into_name = "GLALIE"
-condition = "Item"
-parameter = "ICESTONE"
-
-[[evolutions]]
-into_name = "FROSLASS"
-condition = "ItemFemale"
-parameter = "DAWNSTONE"
-
-
+evolutions = [
+    { into_name = "GLALIE", condition = "Item", parameter = "ICESTONE" },
+    { into_name = "FROSLASS", condition = "ItemFemale", parameter = "DAWNSTONE" },
+]
 
 [base_stats]
 hp = 50

@@ -1,3 +1,4 @@
+dex_number = 671
 name = "Florges"
 primary_type = "FAIRY"
 secondary_type = "FAIRY"
@@ -6,11 +7,85 @@ growth_rate = "Medium"
 exp_yield = 248
 catch_rate = 255
 caught_happiness = 70
-raw_abilities = ["FLOWERVEIL", "MISTYSURGE", "SYMBIOSIS"]
-raw_egg_moves = []
-raw_tms = ["CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "PSYCHIC", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "ENERGYBALL", "GIGAIMPACT", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "DAZZLINGGLEAM", "CONFIDE", "MAGICALLEAF", "GRASSYTERRAIN", "MISTYTERRAIN", "ENDURE", "TRAILBLAZE", "CHILLINGWATER"]
-raw_tutor_moves = ["AFTERYOU", "ALLYSWITCH", "COVET", "DEFOG", "ENDEAVOR", "GIGADRAIN", "HEALBELL", "HELPINGHAND", "MAGICCOAT", "SEEDBOMB", "SNORE", "SYNTHESIS", "WORRYSEED", "MIMIC", "EARTHPOWER"]
-compatible_egg_groups = ["Fairy"]
+raw_abilities = [
+    "FLOWERVEIL",
+    "MISTYSURGE",
+    "SYMBIOSIS",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "DRAININGKISS" },
+    { at_level = 1, name = "LUCKYCHANT" },
+    { at_level = 1, name = "WISH" },
+    { at_level = 1, name = "MAGICALLEAF" },
+    { at_level = 1, name = "FLOWERSHIELD" },
+    { at_level = 1, name = "GRASSKNOT" },
+    { at_level = 1, name = "GRASSYTERRAIN" },
+    { at_level = 1, name = "PETALBLIZZARD" },
+    { at_level = 1, name = "MISTYTERRAIN" },
+    { at_level = 1, name = "LEECHSEED" },
+    { at_level = 1, name = "PETALDANCE" },
+    { at_level = 1, name = "AROMATHERAPY" },
+    { at_level = 48, name = "MOONBLAST" },
+    { at_level = 56, name = "EARTHPOWER" },
+]
+raw_tms = [
+    "CALMMIND",
+    "TOXIC",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "PSYCHIC",
+    "DOUBLETEAM",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ECHOEDVOICE",
+    "ENERGYBALL",
+    "GIGAIMPACT",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "NATUREPOWER",
+    "DAZZLINGGLEAM",
+    "CONFIDE",
+    "MAGICALLEAF",
+    "GRASSYTERRAIN",
+    "MISTYTERRAIN",
+    "ENDURE",
+    "TRAILBLAZE",
+    "CHILLINGWATER",
+]
+raw_tutor_moves = [
+    "AFTERYOU",
+    "ALLYSWITCH",
+    "COVET",
+    "DEFOG",
+    "EARTHPOWER",
+    "ENDEAVOR",
+    "GIGADRAIN",
+    "HEALBELL",
+    "HELPINGHAND",
+    "MAGICCOAT",
+    "MIMIC",
+    "SEEDBOMB",
+    "SNORE",
+    "SYNTHESIS",
+    "WORRYSEED",
+]
+compatible_egg_groups = [
+    "Fairy",
+]
 steps_to_hatch = 5120
 height = 1.1
 weight = 10.0
@@ -20,66 +95,6 @@ pokedex_entry = "It claims exquisite flower gardens as its territory, and it obt
 battler_player_y = 13
 battler_enemy_y = 20
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 671
-internal_name = "FLORGES"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "DRAININGKISS"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LUCKYCHANT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WISH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "MAGICALLEAF"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FLOWERSHIELD"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GRASSKNOT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GRASSYTERRAIN"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "PETALBLIZZARD"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "MISTYTERRAIN"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEECHSEED"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "PETALDANCE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "AROMATHERAPY"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "MOONBLAST"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "EARTHPOWER"
 
 [base_stats]
 hp = 78
@@ -96,5 +111,3 @@ def_ = 0
 spa = 0
 spd = 3
 spe = 0
-
-[wild_items]

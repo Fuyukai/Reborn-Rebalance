@@ -1,3 +1,4 @@
+dex_number = 174
 name = "Igglybuff"
 primary_type = "NORMAL"
 secondary_type = "FAIRY"
@@ -6,11 +7,94 @@ growth_rate = "Fast"
 exp_yield = 42
 catch_rate = 170
 caught_happiness = 180
-raw_abilities = ["CUTECHARM", "COMPETITIVE"]
-raw_egg_moves = ["CAPTIVATE", "COVET", "FAKETEARS", "FEINTATTACK", "GRAVITY", "HEALPULSE", "LASTRESORT", "MISTYTERRAIN", "PERISHSONG", "PRESENT", "PUNISHMENT", "SLEEPTALK", "WISH"]
-raw_tms = ["WORKUP", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "FIREBLAST", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "FLING", "THUNDERWAVE", "PSYCHUP", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "SCREECH", "CHARM", "FAKETEARS", "DRAININGKISS", "MISTYTERRAIN", "BODYSLAM", "ENDURE", "PLAYROUGH", "TRAILBLAZE"]
-raw_tutor_moves = ["BOUNCE", "COVET", "ENDEAVOR", "GRAVITY", "HEADBUTT", "HEALBELL", "HELPINGHAND", "HYPERVOICE", "ICYWIND", "LASTRESORT", "MAGICCOAT", "MUDSLAP", "PAINSPLIT", "RECYCLE", "ROLEPLAY", "ROLLOUT", "SHOCKWAVE", "SNORE", "UPROAR", "WATERPULSE", "MIMIC"]
-compatible_egg_groups = ["Undiscovered"]
+raw_abilities = [
+    "CUTECHARM",
+    "COMPETITIVE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "SING" },
+    { at_level = 1, name = "CHARM" },
+    { at_level = 1, name = "DISARMINGVOICE" },
+    { at_level = 1, name = "DEFENSECURL" },
+    { at_level = 4, name = "POUND" },
+    { at_level = 7, name = "METRONOME" },
+    { at_level = 11, name = "COPYCAT" },
+    { at_level = 17, name = "DRAININGKISS" },
+]
+raw_tms = [
+    "WORKUP",
+    "TOXIC",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "REFLECT",
+    "FLAMETHROWER",
+    "FIREBLAST",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ECHOEDVOICE",
+    "FLING",
+    "THUNDERWAVE",
+    "PSYCHUP",
+    "DREAMEATER",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "WILDCHARGE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "DIG",
+    "SCREECH",
+    "CHARM",
+    "FAKETEARS",
+    "DRAININGKISS",
+    "MISTYTERRAIN",
+    "BODYSLAM",
+    "ENDURE",
+    "PLAYROUGH",
+    "TRAILBLAZE",
+]
+raw_tutor_moves = [
+    "BOUNCE",
+    "COVET",
+    "ENDEAVOR",
+    "GRAVITY",
+    "HEADBUTT",
+    "HEALBELL",
+    "HELPINGHAND",
+    "HYPERVOICE",
+    "ICYWIND",
+    "LASTRESORT",
+    "MAGICCOAT",
+    "MIMIC",
+    "MUDSLAP",
+    "PAINSPLIT",
+    "RECYCLE",
+    "ROLEPLAY",
+    "ROLLOUT",
+    "SHOCKWAVE",
+    "SNORE",
+    "UPROAR",
+    "WATERPULSE",
+]
+compatible_egg_groups = [
+    "Undiscovered",
+]
 steps_to_hatch = 2805
 height = 0.3
 weight = 1.0
@@ -20,50 +104,26 @@ pokedex_entry = "Its soft and pliable body is very bouncy. When it sings continu
 battler_player_y = 32
 battler_enemy_y = 27
 battler_altitude = 0
-form_names = []
-dex_number = 174
-internal_name = "IGGLYBUFF"
 raw_hidden_ability = "FRIENDGUARD"
+raw_egg_moves = [
+    "CAPTIVATE",
+    "COVET",
+    "FAKETEARS",
+    "FEINTATTACK",
+    "GRAVITY",
+    "HEALPULSE",
+    "LASTRESORT",
+    "MISTYTERRAIN",
+    "PERISHSONG",
+    "PRESENT",
+    "PUNISHMENT",
+    "SLEEPTALK",
+    "WISH",
+]
 habitat = "Grassland"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SING"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "CHARM"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "DISARMINGVOICE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "DEFENSECURL"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "POUND"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "METRONOME"
-
-[[raw_level_up_moves]]
-at_level = 11
-name = "COPYCAT"
-
-[[raw_level_up_moves]]
-at_level = 17
-name = "DRAININGKISS"
-
-[[evolutions]]
-into_name = "JIGGLYPUFF"
-condition = "Happiness"
-parameter = ""
-
-
+evolutions = [
+    { into_name = "JIGGLYPUFF", condition = "Happiness", parameter = "" },
+]
 
 [base_stats]
 hp = 90
@@ -80,5 +140,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

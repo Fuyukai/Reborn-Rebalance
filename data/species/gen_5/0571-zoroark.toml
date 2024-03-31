@@ -1,3 +1,4 @@
+dex_number = 571
 name = "Zoroark"
 primary_type = "DARK"
 secondary_type = "DARK"
@@ -6,11 +7,118 @@ growth_rate = "Parabolic"
 exp_yield = 179
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["ILLUSION"]
-raw_egg_moves = []
-raw_tms = ["CUT", "CALMMIND", "ROAR", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "SHADOWBALL", "DOUBLETEAM", "FLAMETHROWER", "SLUDGEBOMB", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "LOWSWEEP", "ROUND", "FOCUSBLAST", "FLING", "EMBARGO", "SHADOWCLAW", "PAYBACK", "GIGAIMPACT", "SWORDSDANCE", "PSYCHUP", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "SNARL", "DARKPULSE", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "SCARYFACE", "REVENGE", "IMPRISON", "FAKETEARS", "ASSURANCE", "HEX", "AGILITY", "ENDURE", "ENCORE", "NASTYPLOT", "RETALIATE", "SNOWSCAPE"]
-raw_tutor_moves = ["BOUNCE", "COVET", "FOULPLAY", "HYPERVOICE", "KNOCKOFF", "LASERFOCUS", "LOWKICK", "SNATCH", "SNORE", "SPITE", "THROATCHOP", "TRICK", "UPROAR", "BURNINGJEALOUSY", "SKITTERSMACK", "LASHOUT", "MIMIC", "POLTERGEIST"]
-compatible_egg_groups = ["Field"]
+raw_abilities = [
+    "ILLUSION",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "AGILITY" },
+    { at_level = 1, name = "SCRATCH" },
+    { at_level = 4, name = "PURSUIT" },
+    { at_level = 7, name = "COVET" },
+    { at_level = 10, name = "FAKETEARS" },
+    { at_level = 13, name = "TORMENT" },
+    { at_level = 16, name = "FURYSWIPES" },
+    { at_level = 19, name = "IMPRISON" },
+    { at_level = 22, name = "SCARYFACE" },
+    { at_level = 25, name = "FEINTATTACK" },
+    { at_level = 28, name = "MEMENTO" },
+    { at_level = 30, name = "SNARL" },
+    { at_level = 34, name = "PAYBACK" },
+    { at_level = 38, name = "UPROAR" },
+    { at_level = 42, name = "CAPTIVATE" },
+    { at_level = 45, name = "SLASH" },
+    { at_level = 45, name = "NIGHTSLASH" },
+    { at_level = 48, name = "COUNTER" },
+    { at_level = 51, name = "SUCKERPUNCH" },
+    { at_level = 54, name = "HEX" },
+    { at_level = 57, name = "LUNGE" },
+    { at_level = 60, name = "NIGHTDAZE" },
+    { at_level = 63, name = "EXTRASENSORY" },
+    { at_level = 66, name = "FOULPLAY" },
+    { at_level = 70, name = "NASTYPLOT" },
+]
+raw_tms = [
+    "CUT",
+    "CALMMIND",
+    "ROAR",
+    "TOXIC",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "RETURN",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "FLAMETHROWER",
+    "SLUDGEBOMB",
+    "AERIALACE",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "LOWSWEEP",
+    "ROUND",
+    "FOCUSBLAST",
+    "FLING",
+    "EMBARGO",
+    "SHADOWCLAW",
+    "PAYBACK",
+    "GIGAIMPACT",
+    "SWORDSDANCE",
+    "PSYCHUP",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "SNARL",
+    "DARKPULSE",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "DIG",
+    "SCARYFACE",
+    "REVENGE",
+    "IMPRISON",
+    "FAKETEARS",
+    "ASSURANCE",
+    "HEX",
+    "AGILITY",
+    "ENDURE",
+    "ENCORE",
+    "NASTYPLOT",
+    "RETALIATE",
+    "SNOWSCAPE",
+]
+raw_tutor_moves = [
+    "BOUNCE",
+    "BURNINGJEALOUSY",
+    "COVET",
+    "FOULPLAY",
+    "HYPERVOICE",
+    "KNOCKOFF",
+    "LASERFOCUS",
+    "LASHOUT",
+    "LOWKICK",
+    "MIMIC",
+    "POLTERGEIST",
+    "SKITTERSMACK",
+    "SNATCH",
+    "SNORE",
+    "SPITE",
+    "THROATCHOP",
+    "TRICK",
+    "UPROAR",
+]
+compatible_egg_groups = [
+    "Field",
+]
 steps_to_hatch = 5120
 height = 1.6
 weight = 81.1
@@ -20,110 +128,6 @@ pokedex_entry = "Each has the ability to fool a large group of people simultaneo
 battler_player_y = 17
 battler_enemy_y = 22
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 571
-internal_name = "ZOROARK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "AGILITY"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SCRATCH"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "PURSUIT"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "COVET"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "FAKETEARS"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "TORMENT"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "FURYSWIPES"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "IMPRISON"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "SCARYFACE"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "FEINTATTACK"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "MEMENTO"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "SNARL"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "PAYBACK"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "UPROAR"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "CAPTIVATE"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "SLASH"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "NIGHTSLASH"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "COUNTER"
-
-[[raw_level_up_moves]]
-at_level = 51
-name = "SUCKERPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "HEX"
-
-[[raw_level_up_moves]]
-at_level = 57
-name = "LUNGE"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "NIGHTDAZE"
-
-[[raw_level_up_moves]]
-at_level = 63
-name = "EXTRASENSORY"
-
-[[raw_level_up_moves]]
-at_level = 66
-name = "FOULPLAY"
-
-[[raw_level_up_moves]]
-at_level = 70
-name = "NASTYPLOT"
 
 [base_stats]
 hp = 60
@@ -140,5 +144,3 @@ def_ = 0
 spa = 2
 spd = 0
 spe = 0
-
-[wild_items]

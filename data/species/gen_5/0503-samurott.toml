@@ -1,3 +1,4 @@
+dex_number = 503
 name = "Samurott"
 primary_type = "WATER"
 secondary_type = "FIGHTING"
@@ -6,11 +7,116 @@ growth_rate = "Parabolic"
 exp_yield = 238
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["TORRENT", "SHELLARMOR", "DEFIANT"]
-raw_egg_moves = []
-raw_tms = ["WORKUP", "CUT", "SURF", "STRENGTH", "WATERFALL", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "HIDDENPOWER", "TAUNT", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "DOUBLETEAM", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "FALSESWIPE", "SCALD", "FLING", "SMARTSTRIKE", "GIGAIMPACT", "SWORDSDANCE", "XSCISSOR", "DRAGONTAIL", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "SCREECH", "REVENGE", "BRINE", "ASSURANCE", "AIRSLASH", "RAZORSHELL", "HYDROPUMP", "MEGAHORN", "FOCUSENERGY", "ENDURE", "ENCORE", "RETALIATE", "SNOWSCAPE", "CHILLINGWATER", "LOWSWEEP"]
-raw_tutor_moves = ["AQUATAIL", "BLOCK", "COVET", "HELPINGHAND", "HYDROCANNON", "ICYWIND", "IRONTAIL", "KNOCKOFF", "LIQUIDATION", "SNORE", "SUPERPOWER", "WATERPLEDGE", "WATERPULSE", "WAVECRASH", "MIMIC", "SECRETSWORD", "FLIPTURN"]
-compatible_egg_groups = ["Field"]
+raw_abilities = [
+    "TORRENT",
+    "SHELLARMOR",
+    "DEFIANT",
+]
+raw_level_up_moves = [
+    { at_level = 0, name = "SACREDSWORD" },
+    { at_level = 1, name = "TAILWHIP" },
+    { at_level = 5, name = "WATERGUN" },
+    { at_level = 7, name = "FURYCUTTER" },
+    { at_level = 10, name = "AQUAJET" },
+    { at_level = 13, name = "RAZORSHELL" },
+    { at_level = 16, name = "FOCUSENERGY" },
+    { at_level = 17, name = "ROCKSMASH" },
+    { at_level = 20, name = "BRINE" },
+    { at_level = 22, name = "REVENGE" },
+    { at_level = 25, name = "COVET" },
+    { at_level = 28, name = "AIRSLASH" },
+    { at_level = 31, name = "DRILLRUN" },
+    { at_level = 34, name = "SLASH" },
+    { at_level = 34, name = "NIGHTSLASH" },
+    { at_level = 37, name = "SMARTSTRIKE" },
+    { at_level = 40, name = "AQUATAIL" },
+    { at_level = 43, name = "SUCKERPUNCH" },
+    { at_level = 46, name = "PSYCHOCUT" },
+    { at_level = 50, name = "TRUMPCARD" },
+    { at_level = 54, name = "SUPERPOWER" },
+    { at_level = 58, name = "MEGAHORN" },
+    { at_level = 62, name = "HYDROPUMP" },
+    { at_level = 66, name = "CLOSECOMBAT" },
+    { at_level = 70, name = "SHELLSMASH" },
+]
+raw_tms = [
+    "WORKUP",
+    "CUT",
+    "SURF",
+    "STRENGTH",
+    "WATERFALL",
+    "TOXIC",
+    "DIVE",
+    "HAIL",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "TAUNT",
+    "ICEBEAM",
+    "BLIZZARD",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "RETURN",
+    "DOUBLETEAM",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "LOWSWEEP",
+    "ROUND",
+    "FALSESWIPE",
+    "SCALD",
+    "FLING",
+    "SMARTSTRIKE",
+    "GIGAIMPACT",
+    "SWORDSDANCE",
+    "XSCISSOR",
+    "DRAGONTAIL",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "DIG",
+    "SCREECH",
+    "REVENGE",
+    "BRINE",
+    "ASSURANCE",
+    "AIRSLASH",
+    "RAZORSHELL",
+    "HYDROPUMP",
+    "MEGAHORN",
+    "FOCUSENERGY",
+    "ENDURE",
+    "ENCORE",
+    "RETALIATE",
+    "SNOWSCAPE",
+    "CHILLINGWATER",
+]
+raw_tutor_moves = [
+    "AQUATAIL",
+    "BLOCK",
+    "COVET",
+    "FLIPTURN",
+    "HELPINGHAND",
+    "HYDROCANNON",
+    "ICYWIND",
+    "IRONTAIL",
+    "KNOCKOFF",
+    "LIQUIDATION",
+    "MIMIC",
+    "SECRETSWORD",
+    "SNORE",
+    "SUPERPOWER",
+    "WATERPLEDGE",
+    "WATERPULSE",
+    "WAVECRASH",
+]
+compatible_egg_groups = [
+    "Field",
+]
 steps_to_hatch = 5120
 height = 1.5
 weight = 94.6
@@ -20,110 +126,6 @@ pokedex_entry = "Part of the armor on its anterior legs becomes a giant sword. I
 battler_player_y = 9
 battler_enemy_y = 14
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 503
-internal_name = "SAMUROTT"
-
-[[raw_level_up_moves]]
-at_level = 0
-name = "SACREDSWORD"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TAILWHIP"
-
-[[raw_level_up_moves]]
-at_level = 5
-name = "WATERGUN"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "FURYCUTTER"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "AQUAJET"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "RAZORSHELL"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "FOCUSENERGY"
-
-[[raw_level_up_moves]]
-at_level = 17
-name = "ROCKSMASH"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "BRINE"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "REVENGE"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "COVET"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "AIRSLASH"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "DRILLRUN"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "SLASH"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "NIGHTSLASH"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "SMARTSTRIKE"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "AQUATAIL"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "SUCKERPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "PSYCHOCUT"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "TRUMPCARD"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "SUPERPOWER"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "MEGAHORN"
-
-[[raw_level_up_moves]]
-at_level = 62
-name = "HYDROPUMP"
-
-[[raw_level_up_moves]]
-at_level = 66
-name = "CLOSECOMBAT"
-
-[[raw_level_up_moves]]
-at_level = 70
-name = "SHELLSMASH"
 
 [base_stats]
 hp = 95
@@ -140,5 +142,3 @@ def_ = 0
 spa = 3
 spd = 0
 spe = 0
-
-[wild_items]

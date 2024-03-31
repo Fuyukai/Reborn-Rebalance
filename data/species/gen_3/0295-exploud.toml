@@ -1,3 +1,4 @@
+dex_number = 295
 name = "Exploud"
 primary_type = "NORMAL"
 secondary_type = "NORMAL"
@@ -6,11 +7,122 @@ growth_rate = "Parabolic"
 exp_yield = 221
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["SOUNDPROOF", "SCRAPPY", "RATTLED"]
-raw_egg_moves = []
-raw_tms = ["WORKUP", "SURF", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "SOLARBEAM", "SMACKDOWN", "EARTHQUAKE", "RETURN", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "FLAMETHROWER", "FIREBLAST", "ROCKTOMB", "TORMENT", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "OVERHEAT", "FOCUSBLAST", "FLING", "GIGAIMPACT", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "SCREECH", "WHIRLPOOL", "FAKETEARS", "AVALANCHE", "THUNDERFANG", "ICEFANG", "FIREFANG", "CRUNCH", "BODYSLAM", "HYDROPUMP", "ENDURE", "RETALIATE"]
-raw_tutor_moves = ["ENDEAVOR", "FIREPUNCH", "HEADBUTT", "HYPERVOICE", "ICEPUNCH", "ICYWIND", "LOWKICK", "MUDSLAP", "OUTRAGE", "ROLLOUT", "SHOCKWAVE", "SNORE", "STOMPINGTANTRUM", "THUNDERPUNCH", "UPROAR", "WATERPULSE", "ZENHEADBUTT", "TERRAINPULSE", "MIMIC"]
-compatible_egg_groups = ["Monster", "Field"]
+raw_abilities = [
+    "SOUNDPROOF",
+    "SCRAPPY",
+    "RATTLED",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "ZENHEADBUTT" },
+    { at_level = 1, name = "DYNAMICPUNCH" },
+    { at_level = 1, name = "SEISMICTOSS" },
+    { at_level = 1, name = "WATERPULSE" },
+    { at_level = 1, name = "POUND" },
+    { at_level = 1, name = "ASTONISH" },
+    { at_level = 1, name = "HOWL" },
+    { at_level = 7, name = "STOMP" },
+    { at_level = 10, name = "ECHOEDVOICE" },
+    { at_level = 13, name = "SCREECH" },
+    { at_level = 16, name = "DISARMINGVOICE" },
+    { at_level = 19, name = "UPROAR" },
+    { at_level = 20, name = "BITE" },
+    { at_level = 22, name = "FAKETEARS" },
+    { at_level = 26, name = "CHATTER" },
+    { at_level = 29, name = "TAKEDOWN" },
+    { at_level = 32, name = "CIRCLETHROW" },
+    { at_level = 35, name = "HYPERVOICE" },
+    { at_level = 38, name = "ENDEAVOR" },
+    { at_level = 40, name = "CRUNCH" },
+    { at_level = 44, name = "EXTRASENSORY" },
+    { at_level = 49, name = "FLING" },
+    { at_level = 54, name = "SYNCHRONOISE" },
+    { at_level = 59, name = "BOOMBURST" },
+]
+raw_tms = [
+    "WORKUP",
+    "SURF",
+    "STRENGTH",
+    "ROAR",
+    "TOXIC",
+    "ROCKSMASH",
+    "ROCKCLIMB",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "ICEBEAM",
+    "BLIZZARD",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "SMACKDOWN",
+    "EARTHQUAKE",
+    "RETURN",
+    "SHADOWBALL",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "FLAMETHROWER",
+    "FIREBLAST",
+    "ROCKTOMB",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ECHOEDVOICE",
+    "OVERHEAT",
+    "FOCUSBLAST",
+    "FLING",
+    "GIGAIMPACT",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "SCREECH",
+    "WHIRLPOOL",
+    "FAKETEARS",
+    "AVALANCHE",
+    "THUNDERFANG",
+    "ICEFANG",
+    "FIREFANG",
+    "CRUNCH",
+    "BODYSLAM",
+    "HYDROPUMP",
+    "ENDURE",
+    "RETALIATE",
+]
+raw_tutor_moves = [
+    "ENDEAVOR",
+    "FIREPUNCH",
+    "HEADBUTT",
+    "HYPERVOICE",
+    "ICEPUNCH",
+    "ICYWIND",
+    "LOWKICK",
+    "MIMIC",
+    "MUDSLAP",
+    "OUTRAGE",
+    "ROLLOUT",
+    "SHOCKWAVE",
+    "SNORE",
+    "STOMPINGTANTRUM",
+    "TERRAINPULSE",
+    "THUNDERPUNCH",
+    "UPROAR",
+    "WATERPULSE",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Monster",
+    "Field",
+]
 steps_to_hatch = 5355
 height = 1.5
 weight = 84.0
@@ -20,107 +132,7 @@ pokedex_entry = "It has sound-generating organs all over its body. It communicat
 battler_player_y = 13
 battler_enemy_y = 9
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 295
-internal_name = "EXPLOUD"
 habitat = "Cave"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ZENHEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "DYNAMICPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SEISMICTOSS"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WATERPULSE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "POUND"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ASTONISH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HOWL"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "STOMP"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "ECHOEDVOICE"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "SCREECH"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "DISARMINGVOICE"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "UPROAR"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "FAKETEARS"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "CHATTER"
-
-[[raw_level_up_moves]]
-at_level = 29
-name = "TAKEDOWN"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "CIRCLETHROW"
-
-[[raw_level_up_moves]]
-at_level = 35
-name = "HYPERVOICE"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "ENDEAVOR"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "EXTRASENSORY"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "FLING"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "SYNCHRONOISE"
-
-[[raw_level_up_moves]]
-at_level = 59
-name = "BOOMBURST"
 
 [base_stats]
 hp = 104
@@ -137,5 +149,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

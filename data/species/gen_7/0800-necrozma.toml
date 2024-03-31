@@ -1,3 +1,4 @@
+dex_number = 800
 name = "Necrozma"
 primary_type = "PSYCHIC"
 secondary_type = "PSYCHIC"
@@ -6,11 +7,115 @@ growth_rate = "Slow"
 exp_yield = 270
 catch_rate = 3
 caught_happiness = 0
-raw_abilities = ["PRISMARMOR"]
-raw_egg_moves = []
-raw_tms = ["PSYSHOCK", "CALMMIND", "TOXIC", "HIDDENPOWER", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "FRUSTRATION", "SOLARBEAM", "EARTHQUAKE", "RETURN", "PSYCHIC", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "THIEF", "ROUND", "FLING", "CHARGEBEAM", "BRUTALSWING", "EMBARGO", "SHADOWCLAW", "SMARTSTRIKE", "GIGAIMPACT", "ROCKPOLISH", "STONEEDGE", "THUNDERWAVE", "GYROBALL", "SWORDSDANCE", "BULLDOZE", "ROCKSLIDE", "XSCISSOR", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "TRICKROOM", "SECRETPOWER", "DARKPULSE", "CONFIDE", "SCARYFACE", "IMPRISON", "ROCKBLAST", "PSYCHICFANGS", "PSYCHOCUT", "BREAKINGSWIPE", "ENDURE", "FUTURESIGHT", "COSMICPOWER", "DRAGONDANCE", "POWERGEM", "STOREDPOWER"]
-raw_tutor_moves = ["ALLYSWITCH", "DRAGONPULSE", "EARTHPOWER", "GRAVITY", "HEATWAVE", "HYPERVOICE", "IRONDEFENSE", "IRONHEAD", "KNOCKOFF", "MAGNETRISE", "OUTRAGE", "RECYCLE", "SHOCKWAVE", "SIGNALBEAM", "SNORE", "STEALTHROCK", "TELEKINESIS", "METEORBEAM", "EXPANDINGFORCE", "MIMIC"]
-compatible_egg_groups = ["Undiscovered"]
+raw_abilities = [
+    "PRISMARMOR",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "MOONLIGHT" },
+    { at_level = 1, name = "MORNINGSUN" },
+    { at_level = 1, name = "CHARGEBEAM" },
+    { at_level = 1, name = "MIRRORSHOT" },
+    { at_level = 1, name = "METALCLAW" },
+    { at_level = 1, name = "CONFUSION" },
+    { at_level = 7, name = "SLASH" },
+    { at_level = 13, name = "STOREDPOWER" },
+    { at_level = 19, name = "ROCKBLAST" },
+    { at_level = 23, name = "NIGHTSLASH" },
+    { at_level = 31, name = "GRAVITY" },
+    { at_level = 37, name = "PSYCHOCUT" },
+    { at_level = 43, name = "POWERGEM" },
+    { at_level = 47, name = "AUTOTOMIZE" },
+    { at_level = 50, name = "PHOTONGEYSER" },
+    { at_level = 53, name = "STEALTHROCK" },
+    { at_level = 59, name = "IRONDEFENSE" },
+    { at_level = 67, name = "WRINGOUT" },
+    { at_level = 73, name = "PRISMATICLASER" },
+    { at_level = 80, name = "DRAGONDANCE" },
+    { at_level = 84, name = "PSYCHICFANGS" },
+]
+raw_tms = [
+    "PSYSHOCK",
+    "CALMMIND",
+    "TOXIC",
+    "HIDDENPOWER",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "EARTHQUAKE",
+    "RETURN",
+    "PSYCHIC",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "REFLECT",
+    "ROCKTOMB",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "THIEF",
+    "ROUND",
+    "FLING",
+    "CHARGEBEAM",
+    "BRUTALSWING",
+    "EMBARGO",
+    "SHADOWCLAW",
+    "SMARTSTRIKE",
+    "GIGAIMPACT",
+    "ROCKPOLISH",
+    "STONEEDGE",
+    "THUNDERWAVE",
+    "GYROBALL",
+    "SWORDSDANCE",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "XSCISSOR",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "FLASHCANNON",
+    "TRICKROOM",
+    "SECRETPOWER",
+    "DARKPULSE",
+    "CONFIDE",
+    "SCARYFACE",
+    "IMPRISON",
+    "ROCKBLAST",
+    "PSYCHICFANGS",
+    "PSYCHOCUT",
+    "BREAKINGSWIPE",
+    "ENDURE",
+    "FUTURESIGHT",
+    "COSMICPOWER",
+    "DRAGONDANCE",
+    "POWERGEM",
+    "STOREDPOWER",
+]
+raw_tutor_moves = [
+    "ALLYSWITCH",
+    "DRAGONPULSE",
+    "EARTHPOWER",
+    "EXPANDINGFORCE",
+    "GRAVITY",
+    "HEATWAVE",
+    "HYPERVOICE",
+    "IRONDEFENSE",
+    "IRONHEAD",
+    "KNOCKOFF",
+    "MAGNETRISE",
+    "METEORBEAM",
+    "MIMIC",
+    "OUTRAGE",
+    "RECYCLE",
+    "SHOCKWAVE",
+    "SIGNALBEAM",
+    "SNORE",
+    "STEALTHROCK",
+    "TELEKINESIS",
+]
+compatible_egg_groups = [
+    "Undiscovered",
+]
 steps_to_hatch = 30720
 height = 2.4
 weight = 230.0
@@ -20,94 +125,6 @@ pokedex_entry = "Light is the source of its energy. If it is not devouring light
 battler_player_y = 11
 battler_enemy_y = 11
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 800
-internal_name = "NECROZMA"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "MOONLIGHT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "MORNINGSUN"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "CHARGEBEAM"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "MIRRORSHOT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "METALCLAW"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "CONFUSION"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "SLASH"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "STOREDPOWER"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "ROCKBLAST"
-
-[[raw_level_up_moves]]
-at_level = 23
-name = "NIGHTSLASH"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "GRAVITY"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "PSYCHOCUT"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "POWERGEM"
-
-[[raw_level_up_moves]]
-at_level = 47
-name = "AUTOTOMIZE"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "PHOTONGEYSER"
-
-[[raw_level_up_moves]]
-at_level = 53
-name = "STEALTHROCK"
-
-[[raw_level_up_moves]]
-at_level = 59
-name = "IRONDEFENSE"
-
-[[raw_level_up_moves]]
-at_level = 67
-name = "WRINGOUT"
-
-[[raw_level_up_moves]]
-at_level = 73
-name = "PRISMATICLASER"
-
-[[raw_level_up_moves]]
-at_level = 80
-name = "DRAGONDANCE"
-
-[[raw_level_up_moves]]
-at_level = 84
-name = "PSYCHICFANGS"
 
 [base_stats]
 hp = 97
@@ -124,5 +141,3 @@ def_ = 0
 spa = 2
 spd = 0
 spe = 0
-
-[wild_items]

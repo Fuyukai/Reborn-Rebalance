@@ -1,3 +1,4 @@
+dex_number = 318
 name = "Carvanha"
 primary_type = "WATER"
 secondary_type = "DARK"
@@ -6,11 +7,99 @@ growth_rate = "Slow"
 exp_yield = 61
 catch_rate = 225
 caught_happiness = 35
-raw_abilities = ["ROUGHSKIN", "SPEEDBOOST"]
-raw_egg_moves = ["ANCIENTPOWER", "BRINE", "DESTINYBOND", "DOUBLEEDGE", "HYDROPUMP", "PSYCHICFANGS", "SWIFT", "THRASH"]
-raw_tms = ["SURF", "WATERFALL", "TOXIC", "DIVE", "HAIL", "HIDDENPOWER", "TAUNT", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "DOUBLETEAM", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "SCALD", "PAYBACK", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "SNARL", "DARKPULSE", "CONFIDE", "SCREECH", "SCARYFACE", "WHIRLPOOL", "BRINE", "ASSURANCE", "ICEFANG", "PSYCHICFANGS", "CRUNCH", "HYDROPUMP", "AGILITY", "FOCUSENERGY", "ENDURE", "RETALIATE", "SWIFT"]
-raw_tutor_moves = ["ANCIENTPOWER", "BOUNCE", "FURYCUTTER", "ICYWIND", "MUDSLAP", "SNORE", "SPITE", "SUPERFANG", "UPROAR", "WATERPULSE", "ZENHEADBUTT", "FLIPTURN", "SCALESHOT", "MIMIC", "WAVECRASH"]
-compatible_egg_groups = ["Water2"]
+raw_abilities = [
+    "ROUGHSKIN",
+    "SPEEDBOOST",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "BITE" },
+    { at_level = 1, name = "ENDURE" },
+    { at_level = 1, name = "FOCUSENERGY" },
+    { at_level = 4, name = "WATERPULSE" },
+    { at_level = 7, name = "SWIFT" },
+    { at_level = 11, name = "SCARYFACE" },
+    { at_level = 14, name = "AQUAJET" },
+    { at_level = 16, name = "ICEFANG" },
+    { at_level = 18, name = "POISONFANG" },
+    { at_level = 20, name = "ZENHEADBUTT" },
+    { at_level = 23, name = "BRINE" },
+    { at_level = 26, name = "SLASH" },
+    { at_level = 26, name = "NIGHTSLASH" },
+    { at_level = 29, name = "DESTINYBOND" },
+    { at_level = 32, name = "ASSURANCE" },
+    { at_level = 36, name = "BUBBLEBEAM" },
+    { at_level = 40, name = "PSYCHICFANGS" },
+    { at_level = 44, name = "AGILITY" },
+    { at_level = 48, name = "CRUNCH" },
+    { at_level = 52, name = "SKULLBASH" },
+    { at_level = 56, name = "HYDROPUMP" },
+    { at_level = 60, name = "DOUBLEEDGE" },
+]
+raw_tms = [
+    "SURF",
+    "WATERFALL",
+    "TOXIC",
+    "DIVE",
+    "HAIL",
+    "HIDDENPOWER",
+    "TAUNT",
+    "ICEBEAM",
+    "BLIZZARD",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "RETURN",
+    "DOUBLETEAM",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "SCALD",
+    "PAYBACK",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "SNARL",
+    "DARKPULSE",
+    "CONFIDE",
+    "SCREECH",
+    "SCARYFACE",
+    "WHIRLPOOL",
+    "BRINE",
+    "ASSURANCE",
+    "ICEFANG",
+    "PSYCHICFANGS",
+    "CRUNCH",
+    "HYDROPUMP",
+    "AGILITY",
+    "FOCUSENERGY",
+    "ENDURE",
+    "RETALIATE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "ANCIENTPOWER",
+    "BOUNCE",
+    "FLIPTURN",
+    "FURYCUTTER",
+    "ICYWIND",
+    "MIMIC",
+    "MUDSLAP",
+    "SCALESHOT",
+    "SNORE",
+    "SPITE",
+    "SUPERFANG",
+    "UPROAR",
+    "WATERPULSE",
+    "WAVECRASH",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Water2",
+]
 steps_to_hatch = 5355
 height = 0.8
 weight = 20.8
@@ -20,105 +109,20 @@ pokedex_entry = "Carvanha attack ships in swarms, making them sink. Although it 
 battler_player_y = 23
 battler_enemy_y = 17
 battler_altitude = 10
-form_names = []
-dex_number = 318
-internal_name = "CARVANHA"
+raw_egg_moves = [
+    "ANCIENTPOWER",
+    "BRINE",
+    "DESTINYBOND",
+    "DOUBLEEDGE",
+    "HYDROPUMP",
+    "PSYCHICFANGS",
+    "SWIFT",
+    "THRASH",
+]
 habitat = "Sea"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ENDURE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FOCUSENERGY"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "WATERPULSE"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "SWIFT"
-
-[[raw_level_up_moves]]
-at_level = 11
-name = "SCARYFACE"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "AQUAJET"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "ICEFANG"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "POISONFANG"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "ZENHEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 23
-name = "BRINE"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "SLASH"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "NIGHTSLASH"
-
-[[raw_level_up_moves]]
-at_level = 29
-name = "DESTINYBOND"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "ASSURANCE"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "BUBBLEBEAM"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "PSYCHICFANGS"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "AGILITY"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "SKULLBASH"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "HYDROPUMP"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "DOUBLEEDGE"
-
-[[evolutions]]
-into_name = "SHARPEDO"
-condition = "Level"
-parameter = "26"
-
-
+evolutions = [
+    { into_name = "SHARPEDO", condition = "Level", parameter = "26" },
+]
 
 [base_stats]
 hp = 45

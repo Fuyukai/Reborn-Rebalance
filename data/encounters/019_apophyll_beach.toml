@@ -1,26 +1,14 @@
-chances = [50, 20, 20]
+chances = [
+    50,
+    20,
+    20,
+]
 
-[[encounters.RockSmash]]
-name = "KRABBY"
-minimum_level = 31
-maximum_level = 35
-
-[[encounters.RockSmash]]
-name = "KRABBY"
-minimum_level = 31
-maximum_level = 34
-
-[[encounters.RockSmash]]
-name = "CORPHISH"
-minimum_level = 36
-maximum_level = 36
-
-[[encounters.RockSmash]]
-name = "PINCURCHIN"
-minimum_level = 31
-maximum_level = 31
-
-[[encounters.RockSmash]]
-name = "BINACLE"
-minimum_level = 32
-maximum_level = 32
+[encounters]
+RockSmash = [
+    { name = "KRABBY", minimum_level = 31, maximum_level = 35 },
+    { name = "KRABBY", minimum_level = 31, maximum_level = 34 },
+    { name = "CORPHISH", minimum_level = 36, maximum_level = 36 },
+    { name = "PINCURCHIN", minimum_level = 31, maximum_level = 31 },
+    { name = "BINACLE", minimum_level = 32, maximum_level = 32 },
+]

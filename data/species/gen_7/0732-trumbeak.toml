@@ -1,3 +1,4 @@
+dex_number = 732
 name = "Trumbeak"
 primary_type = "NORMAL"
 secondary_type = "FLYING"
@@ -6,11 +7,83 @@ growth_rate = "Medium"
 exp_yield = 124
 catch_rate = 120
 caught_happiness = 70
-raw_abilities = ["KEENEYE", "SKILLLINK"]
-raw_egg_moves = []
-raw_tms = ["WORKUP", "FLY", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "ROOST", "ROOST", "FRUSTRATION", "SMACKDOWN", "RETURN", "BRICKBREAK", "DOUBLETEAM", "AERIALACE", "FLAMECHARGE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "STEELWING", "SWORDSDANCE", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "SCREECH", "BULLETSEED", "ROCKBLAST", "BRAVEBIRD", "ENDURE"]
-raw_tutor_moves = ["AIRCUTTER", "DEFOG", "GUNKSHOT", "HEATWAVE", "HYPERVOICE", "KNOCKOFF", "SKYATTACK", "SNORE", "TAILWIND", "UPROAR", "MIMIC"]
-compatible_egg_groups = ["Flying"]
+raw_abilities = [
+    "KEENEYE",
+    "SKILLLINK",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "ROCKBLAST" },
+    { at_level = 1, name = "PECK" },
+    { at_level = 1, name = "GROWL" },
+    { at_level = 1, name = "ECHOEDVOICE" },
+    { at_level = 1, name = "ROCKSMASH" },
+    { at_level = 3, name = "GROWL" },
+    { at_level = 7, name = "ECHOEDVOICE" },
+    { at_level = 9, name = "ROCKSMASH" },
+    { at_level = 13, name = "SUPERSONIC" },
+    { at_level = 16, name = "PLUCK" },
+    { at_level = 21, name = "ROOST" },
+    { at_level = 24, name = "FURYATTACK" },
+    { at_level = 29, name = "SCREECH" },
+    { at_level = 32, name = "DRILLPECK" },
+    { at_level = 35, name = "ROCKBLAST" },
+    { at_level = 37, name = "BULLETSEED" },
+    { at_level = 40, name = "FEATHERDANCE" },
+    { at_level = 45, name = "HYPERVOICE" },
+    { at_level = 50, name = "BRAVEBIRD" },
+]
+raw_tms = [
+    "WORKUP",
+    "FLY",
+    "TOXIC",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "PROTECT",
+    "ROOST",
+    "ROOST",
+    "FRUSTRATION",
+    "SMACKDOWN",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "AERIALACE",
+    "FLAMECHARGE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "ECHOEDVOICE",
+    "STEELWING",
+    "SWORDSDANCE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "SCREECH",
+    "BULLETSEED",
+    "ROCKBLAST",
+    "BRAVEBIRD",
+    "ENDURE",
+]
+raw_tutor_moves = [
+    "AIRCUTTER",
+    "DEFOG",
+    "GUNKSHOT",
+    "HEATWAVE",
+    "HYPERVOICE",
+    "KNOCKOFF",
+    "MIMIC",
+    "SKYATTACK",
+    "SNORE",
+    "TAILWIND",
+    "UPROAR",
+]
+compatible_egg_groups = [
+    "Flying",
+]
 steps_to_hatch = 3840
 height = 0.6
 weight = 14.8
@@ -20,93 +93,10 @@ pokedex_entry = "By bending its beak, it can produce a variety of calls and bran
 battler_player_y = 19
 battler_enemy_y = 21
 battler_altitude = 0
-form_names = []
-dex_number = 732
-internal_name = "TRUMBEAK"
 raw_hidden_ability = "PICKUP"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ROCKBLAST"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "PECK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ECHOEDVOICE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ROCKSMASH"
-
-[[raw_level_up_moves]]
-at_level = 3
-name = "GROWL"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "ECHOEDVOICE"
-
-[[raw_level_up_moves]]
-at_level = 9
-name = "ROCKSMASH"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "SUPERSONIC"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "PLUCK"
-
-[[raw_level_up_moves]]
-at_level = 21
-name = "ROOST"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "FURYATTACK"
-
-[[raw_level_up_moves]]
-at_level = 29
-name = "SCREECH"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "DRILLPECK"
-
-[[raw_level_up_moves]]
-at_level = 35
-name = "ROCKBLAST"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "BULLETSEED"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "FEATHERDANCE"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "HYPERVOICE"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "BRAVEBIRD"
-
-[[evolutions]]
-into_name = "TOUCANNON"
-condition = "Level"
-parameter = "28"
-
-
+evolutions = [
+    { into_name = "TOUCANNON", condition = "Level", parameter = "28" },
+]
 
 [base_stats]
 hp = 55

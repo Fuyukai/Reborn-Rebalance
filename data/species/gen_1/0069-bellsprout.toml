@@ -1,3 +1,4 @@
+dex_number = 69
 name = "Bellsprout"
 primary_type = "GRASS"
 secondary_type = "POISON"
@@ -6,11 +7,87 @@ growth_rate = "Parabolic"
 exp_yield = 60
 catch_rate = 255
 caught_happiness = 70
-raw_abilities = ["CHLOROPHYLL", "GLUTTONY"]
-raw_egg_moves = ["ACIDSPRAY", "BELCH", "BULLETSEED", "CLEARSMOG", "ENCORE", "GIGADRAIN", "INGRAIN", "LEECHLIFE", "MAGICALLEAF", "NATURALGIFT", "POWERWHIP", "STRENGTHSAP", "SYNTHESIS", "TICKLE", "WEATHERBALL", "WORRYSEED"]
-raw_tms = ["CUT", "TOXIC", "FLASH", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "FRUSTRATION", "SOLARBEAM", "RETURN", "LEECHLIFE", "DOUBLETEAM", "REFLECT", "SLUDGEBOMB", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ENERGYBALL", "SWORDSDANCE", "INFESTATION", "POISONJAB", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "MAGICALLEAF", "WEATHERBALL", "BULLETSEED", "POWERWHIP", "ENDURE", "ENCORE"]
-raw_tutor_moves = ["BIND", "GASTROACID", "GIGADRAIN", "KNOCKOFF", "SEEDBOMB", "SNORE", "SUCKERPUNCH", "SYNTHESIS", "WORRYSEED", "GRASSYGLIDE", "MIMIC"]
-compatible_egg_groups = ["Grass"]
+raw_abilities = [
+    "CHLOROPHYLL",
+    "GLUTTONY",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "WRAP" },
+    { at_level = 1, name = "VINEWHIP" },
+    { at_level = 1, name = "INGRAIN" },
+    { at_level = 4, name = "TICKLE" },
+    { at_level = 6, name = "ACID" },
+    { at_level = 8, name = "RAZORLEAF" },
+    { at_level = 10, name = "POISONPOWDER" },
+    { at_level = 10, name = "STUNSPORE" },
+    { at_level = 12, name = "CLEARSMOG" },
+    { at_level = 14, name = "BULLETSEED" },
+    { at_level = 17, name = "ACIDSPRAY" },
+    { at_level = 20, name = "NATUREPOWER" },
+    { at_level = 24, name = "SEEDBOMB" },
+    { at_level = 27, name = "SUCKERPUNCH" },
+    { at_level = 30, name = "KNOCKOFF" },
+    { at_level = 34, name = "SYNTHESIS" },
+    { at_level = 38, name = "GASTROACID" },
+    { at_level = 42, name = "NATURALGIFT" },
+    { at_level = 46, name = "LEECHLIFE" },
+    { at_level = 50, name = "POWERWHIP" },
+    { at_level = 54, name = "GROWTH" },
+]
+raw_tms = [
+    "CUT",
+    "TOXIC",
+    "FLASH",
+    "VENOSHOCK",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "PROTECT",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "LEECHLIFE",
+    "DOUBLETEAM",
+    "REFLECT",
+    "SLUDGEBOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "ENERGYBALL",
+    "SWORDSDANCE",
+    "INFESTATION",
+    "POISONJAB",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "NATUREPOWER",
+    "CONFIDE",
+    "MAGICALLEAF",
+    "WEATHERBALL",
+    "BULLETSEED",
+    "POWERWHIP",
+    "ENDURE",
+    "ENCORE",
+]
+raw_tutor_moves = [
+    "BIND",
+    "GASTROACID",
+    "GIGADRAIN",
+    "GRASSYGLIDE",
+    "KNOCKOFF",
+    "MIMIC",
+    "SEEDBOMB",
+    "SNORE",
+    "SUCKERPUNCH",
+    "SYNTHESIS",
+    "WORRYSEED",
+]
+compatible_egg_groups = [
+    "Grass",
+]
 steps_to_hatch = 5355
 height = 0.7
 weight = 4.0
@@ -20,103 +97,28 @@ pokedex_entry = "A Bellsprout's thin and flexible body lets it bend and sway to 
 battler_player_y = 25
 battler_enemy_y = 23
 battler_altitude = 0
-form_names = []
-dex_number = 69
-internal_name = "BELLSPROUT"
+raw_egg_moves = [
+    "ACIDSPRAY",
+    "BELCH",
+    "BULLETSEED",
+    "CLEARSMOG",
+    "ENCORE",
+    "GIGADRAIN",
+    "INGRAIN",
+    "LEECHLIFE",
+    "MAGICALLEAF",
+    "NATURALGIFT",
+    "POWERWHIP",
+    "STRENGTHSAP",
+    "SYNTHESIS",
+    "TICKLE",
+    "WEATHERBALL",
+    "WORRYSEED",
+]
 habitat = "Forest"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WRAP"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "VINEWHIP"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "INGRAIN"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "TICKLE"
-
-[[raw_level_up_moves]]
-at_level = 6
-name = "ACID"
-
-[[raw_level_up_moves]]
-at_level = 8
-name = "RAZORLEAF"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "POISONPOWDER"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "STUNSPORE"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "CLEARSMOG"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "BULLETSEED"
-
-[[raw_level_up_moves]]
-at_level = 17
-name = "ACIDSPRAY"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "NATUREPOWER"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "SEEDBOMB"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "SUCKERPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "KNOCKOFF"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "SYNTHESIS"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "GASTROACID"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "NATURALGIFT"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "LEECHLIFE"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "POWERWHIP"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "GROWTH"
-
-[[evolutions]]
-into_name = "WEEPINBELL"
-condition = "Level"
-parameter = "21"
-
-
-
-
+evolutions = [
+    { into_name = "WEEPINBELL", condition = "Level", parameter = "21" },
+]
 
 [base_stats]
 hp = 50
@@ -133,5 +135,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

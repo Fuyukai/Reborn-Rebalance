@@ -1,3 +1,4 @@
+dex_number = 415
 name = "Combee"
 primary_type = "BUG"
 secondary_type = "FLYING"
@@ -6,11 +7,35 @@ growth_rate = "Parabolic"
 exp_yield = 49
 catch_rate = 120
 caught_happiness = 70
-raw_abilities = ["HONEYGATHER", "HUSTLE"]
-raw_egg_moves = []
-raw_tms = ["STRUGGLEBUG", "BUGBUZZ", "SWIFT"]
-raw_tutor_moves = ["AIRCUTTER", "BUGBITE", "ENDEAVOR", "MUDSLAP", "OMINOUSWIND", "STRINGSHOT", "TAILWIND", "DUALWINGBEAT"]
-compatible_egg_groups = ["Bug"]
+raw_abilities = [
+    "HONEYGATHER",
+    "HUSTLE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "SWEETSCENT" },
+    { at_level = 1, name = "GUST" },
+    { at_level = 1, name = "BUGBITE" },
+    { at_level = 1, name = "STRUGGLEBUG" },
+    { at_level = 15, name = "BUGBUZZ" },
+]
+raw_tms = [
+    "STRUGGLEBUG",
+    "BUGBUZZ",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AIRCUTTER",
+    "BUGBITE",
+    "DUALWINGBEAT",
+    "ENDEAVOR",
+    "MUDSLAP",
+    "OMINOUSWIND",
+    "STRINGSHOT",
+    "TAILWIND",
+]
+compatible_egg_groups = [
+    "Bug",
+]
 steps_to_hatch = 4080
 height = 0.3
 weight = 5.5
@@ -20,36 +45,9 @@ pokedex_entry = "A Pokémon formed by three others. It busily carries sweet flor
 battler_player_y = 31
 battler_enemy_y = 25
 battler_altitude = 13
-form_names = []
-dex_number = 415
-internal_name = "COMBEE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SWEETSCENT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GUST"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BUGBITE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "STRUGGLEBUG"
-
-[[raw_level_up_moves]]
-at_level = 15
-name = "BUGBUZZ"
-
-[[evolutions]]
-into_name = "VESPIQUEN"
-condition = "LevelFemale"
-parameter = "21"
-
-
+evolutions = [
+    { into_name = "VESPIQUEN", condition = "LevelFemale", parameter = "21" },
+]
 
 [base_stats]
 hp = 30

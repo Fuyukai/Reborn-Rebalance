@@ -1,3 +1,4 @@
+dex_number = 658
 name = "Greninja"
 primary_type = "WATER"
 secondary_type = "DARK"
@@ -6,11 +7,111 @@ growth_rate = "Parabolic"
 exp_yield = 239
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["TORRENT", "PROTEAN"]
-raw_egg_moves = []
-raw_tms = ["WORKUP", "CUT", "SURF", "STRENGTH", "WATERFALL", "TOXIC", "DIVE", "ROCKSMASH", "HIDDENPOWER", "TAUNT", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "SMACKDOWN", "RETURN", "DOUBLETEAM", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "SCALD", "FLING", "BRUTALSWING", "ACROBATICS", "GIGAIMPACT", "ROCKSLIDE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "DARKPULSE", "POWERUPPUNCH", "CONFIDE", "DIG", "REVENGE", "HYDROPUMP", "CLOSECOMBAT", "REVERSAL", "SPIKES", "ENDURE", "TOXICSPIKES", "AURASPHERE", "SNOWSCAPE", "TRAILBLAZE", "CHILLINGWATER"]
-raw_tutor_moves = ["BOUNCE", "GUNKSHOT", "HYDROCANNON", "ICEPUNCH", "ICYWIND", "LOWKICK", "ROLEPLAY", "SNATCH", "SNORE", "SPITE", "WATERPLEDGE", "WATERPULSE", "FLIPTURN", "MIMIC"]
-compatible_egg_groups = ["Water1"]
+raw_abilities = [
+    "TORRENT",
+    "PROTEAN",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "WATERSHURIKEN" },
+    { at_level = 1, name = "HAZE" },
+    { at_level = 1, name = "ROLEPLAY" },
+    { at_level = 1, name = "MATBLOCK" },
+    { at_level = 1, name = "QUICKATTACK" },
+    { at_level = 1, name = "TOXICSPIKES" },
+    { at_level = 1, name = "BUBBLE" },
+    { at_level = 1, name = "POUND" },
+    { at_level = 5, name = "BUBBLE" },
+    { at_level = 8, name = "QUICKATTACK" },
+    { at_level = 10, name = "LICK" },
+    { at_level = 14, name = "BUBBLEBEAM" },
+    { at_level = 19, name = "SMOKESCREEN" },
+    { at_level = 23, name = "SHADOWSNEAK" },
+    { at_level = 28, name = "SPIKES" },
+    { at_level = 33, name = "FEINTATTACK" },
+    { at_level = 39, name = "NIGHTSLASH" },
+    { at_level = 42, name = "SUBSTITUTE" },
+    { at_level = 49, name = "EXTRASENSORY" },
+    { at_level = 56, name = "DOUBLETEAM" },
+    { at_level = 61, name = "DARKPULSE" },
+    { at_level = 68, name = "HYDROPUMP" },
+    { at_level = 70, name = "HAZE" },
+    { at_level = 77, name = "NIGHTSLASH" },
+]
+raw_tms = [
+    "WORKUP",
+    "CUT",
+    "SURF",
+    "STRENGTH",
+    "WATERFALL",
+    "TOXIC",
+    "DIVE",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "TAUNT",
+    "ICEBEAM",
+    "BLIZZARD",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "SMACKDOWN",
+    "RETURN",
+    "DOUBLETEAM",
+    "ROCKTOMB",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "ECHOEDVOICE",
+    "SCALD",
+    "FLING",
+    "BRUTALSWING",
+    "ACROBATICS",
+    "GIGAIMPACT",
+    "ROCKSLIDE",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "DARKPULSE",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "DIG",
+    "REVENGE",
+    "HYDROPUMP",
+    "CLOSECOMBAT",
+    "REVERSAL",
+    "SPIKES",
+    "ENDURE",
+    "TOXICSPIKES",
+    "AURASPHERE",
+    "SNOWSCAPE",
+    "TRAILBLAZE",
+    "CHILLINGWATER",
+]
+raw_tutor_moves = [
+    "BOUNCE",
+    "FLIPTURN",
+    "GUNKSHOT",
+    "HYDROCANNON",
+    "ICEPUNCH",
+    "ICYWIND",
+    "LOWKICK",
+    "MIMIC",
+    "ROLEPLAY",
+    "SNATCH",
+    "SNORE",
+    "SPITE",
+    "WATERPLEDGE",
+    "WATERPULSE",
+]
+compatible_egg_groups = [
+    "Water1",
+]
 steps_to_hatch = 5120
 height = 1.5
 weight = 40.0
@@ -20,106 +121,6 @@ pokedex_entry = "It appears and vanishes with a ninja's grace. It toys with its 
 battler_player_y = 22
 battler_enemy_y = 13
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 658
-internal_name = "GRENINJA"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WATERSHURIKEN"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HAZE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ROLEPLAY"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "MATBLOCK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "QUICKATTACK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TOXICSPIKES"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BUBBLE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "POUND"
-
-[[raw_level_up_moves]]
-at_level = 5
-name = "BUBBLE"
-
-[[raw_level_up_moves]]
-at_level = 8
-name = "QUICKATTACK"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "LICK"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "BUBBLEBEAM"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "SMOKESCREEN"
-
-[[raw_level_up_moves]]
-at_level = 23
-name = "SHADOWSNEAK"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "SPIKES"
-
-[[raw_level_up_moves]]
-at_level = 33
-name = "FEINTATTACK"
-
-[[raw_level_up_moves]]
-at_level = 39
-name = "NIGHTSLASH"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "SUBSTITUTE"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "EXTRASENSORY"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "DOUBLETEAM"
-
-[[raw_level_up_moves]]
-at_level = 61
-name = "DARKPULSE"
-
-[[raw_level_up_moves]]
-at_level = 68
-name = "HYDROPUMP"
-
-[[raw_level_up_moves]]
-at_level = 70
-name = "HAZE"
-
-[[raw_level_up_moves]]
-at_level = 77
-name = "NIGHTSLASH"
 
 [base_stats]
 hp = 72
@@ -136,5 +137,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 3
-
-[wild_items]

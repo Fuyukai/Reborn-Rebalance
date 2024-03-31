@@ -1,3 +1,4 @@
+dex_number = 557
 name = "Dwebble"
 primary_type = "BUG"
 secondary_type = "ROCK"
@@ -6,11 +7,88 @@ growth_rate = "Medium"
 exp_yield = 65
 catch_rate = 190
 caught_happiness = 70
-raw_abilities = ["STURDY", "SHELLARMOR", "WEAKARMOR"]
-raw_egg_moves = ["BLOCK", "COUNTER", "CURSE", "ENDURE", "IRONDEFENSE", "NIGHTSLASH", "ROTOTILLER", "SANDTOMB", "SPIKES", "WIDEGUARD"]
-raw_tms = ["CUT", "STRENGTH", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "PROTECT", "FRUSTRATION", "SOLARBEAM", "SMACKDOWN", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "SANDSTORM", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "SHADOWCLAW", "ROCKPOLISH", "STONEEDGE", "SWORDSDANCE", "STRUGGLEBUG", "BULLDOZE", "ROCKSLIDE", "XSCISSOR", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "DIG", "SANDTOMB", "ROCKBLAST", "SPIKES", "ENDURE", "BUGBUZZ"]
-raw_tutor_moves = ["BLOCK", "BUGBITE", "FURYCUTTER", "IRONDEFENSE", "KNOCKOFF", "SNORE", "STEALTHROCK", "SKITTERSMACK", "MIMIC"]
-compatible_egg_groups = ["Bug", "Mineral"]
+raw_abilities = [
+    "STURDY",
+    "SHELLARMOR",
+    "WEAKARMOR",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "CURSE" },
+    { at_level = 1, name = "FURYCUTTER" },
+    { at_level = 1, name = "SANDATTACK" },
+    { at_level = 4, name = "WITHDRAW" },
+    { at_level = 8, name = "ROCKTOMB" },
+    { at_level = 12, name = "BUGBITE" },
+    { at_level = 16, name = "FLAIL" },
+    { at_level = 19, name = "FEINTATTACK" },
+    { at_level = 22, name = "SPIKES" },
+    { at_level = 24, name = "ROCKSLIDE" },
+    { at_level = 27, name = "SLASH" },
+    { at_level = 27, name = "NIGHTSLASH" },
+    { at_level = 30, name = "ROCKPOLISH" },
+    { at_level = 34, name = "ROCKBLAST" },
+    { at_level = 38, name = "XSCISSOR" },
+    { at_level = 42, name = "STEALTHROCK" },
+    { at_level = 46, name = "SHELLSMASH" },
+    { at_level = 50, name = "ROCKWRECKER" },
+]
+raw_tms = [
+    "CUT",
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "PROTECT",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "SMACKDOWN",
+    "EARTHQUAKE",
+    "RETURN",
+    "DOUBLETEAM",
+    "SANDSTORM",
+    "ROCKTOMB",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "SHADOWCLAW",
+    "ROCKPOLISH",
+    "STONEEDGE",
+    "SWORDSDANCE",
+    "STRUGGLEBUG",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "XSCISSOR",
+    "POISONJAB",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "NATUREPOWER",
+    "CONFIDE",
+    "DIG",
+    "SANDTOMB",
+    "ROCKBLAST",
+    "SPIKES",
+    "ENDURE",
+    "BUGBUZZ",
+]
+raw_tutor_moves = [
+    "BLOCK",
+    "BUGBITE",
+    "FURYCUTTER",
+    "IRONDEFENSE",
+    "KNOCKOFF",
+    "MIMIC",
+    "SKITTERSMACK",
+    "SNORE",
+    "STEALTHROCK",
+]
+compatible_egg_groups = [
+    "Bug",
+    "Mineral",
+]
 steps_to_hatch = 5120
 height = 0.3
 weight = 14.5
@@ -20,88 +98,21 @@ pokedex_entry = "It makes a hole in a suitable rock. If that rock breaks, the Po
 battler_player_y = 33
 battler_enemy_y = 39
 battler_altitude = 0
-form_names = []
-dex_number = 557
-internal_name = "DWEBBLE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "CURSE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FURYCUTTER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SANDATTACK"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "WITHDRAW"
-
-[[raw_level_up_moves]]
-at_level = 8
-name = "ROCKTOMB"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "BUGBITE"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "FLAIL"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "FEINTATTACK"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "SPIKES"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "ROCKSLIDE"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "SLASH"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "NIGHTSLASH"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "ROCKPOLISH"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "ROCKBLAST"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "XSCISSOR"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "STEALTHROCK"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "SHELLSMASH"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "ROCKWRECKER"
-
-[[evolutions]]
-into_name = "CRUSTLE"
-condition = "Level"
-parameter = "34"
-
-
+raw_egg_moves = [
+    "BLOCK",
+    "COUNTER",
+    "CURSE",
+    "ENDURE",
+    "IRONDEFENSE",
+    "NIGHTSLASH",
+    "ROTOTILLER",
+    "SANDTOMB",
+    "SPIKES",
+    "WIDEGUARD",
+]
+evolutions = [
+    { into_name = "CRUSTLE", condition = "Level", parameter = "34" },
+]
 
 [base_stats]
 hp = 50

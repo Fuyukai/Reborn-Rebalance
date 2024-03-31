@@ -1,3 +1,4 @@
+dex_number = 725
 name = "Litten"
 primary_type = "FIRE"
 secondary_type = "FIRE"
@@ -6,11 +7,83 @@ growth_rate = "Parabolic"
 exp_yield = 64
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["BLAZE", "INTIMIDATE"]
-raw_egg_moves = ["BODYSLAM", "CRUNCH", "FAKEOUT", "HEATWAVE", "NASTYPLOT", "POWERTRIP", "REVENGE", "PARTINGSHOT"]
-raw_tms = ["WORKUP", "ROAR", "TOXIC", "BULKUP", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "PROTECT", "FRUSTRATION", "RETURN", "LEECHLIFE", "DOUBLETEAM", "FLAMETHROWER", "FIREBLAST", "TORMENT", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "ROUND", "OVERHEAT", "WILLOWISP", "ACROBATICS", "SHADOWCLAW", "SWORDSDANCE", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "PAYDAY", "FIRESPIN", "SCARYFACE", "REVENGE", "FIREFANG", "CRUNCH", "BODYSLAM", "FLAREBLITZ", "ENDURE", "NASTYPLOT"]
-raw_tutor_moves = ["COVET", "ENDEAVOR", "FIREPLEDGE", "HEATWAVE", "OUTRAGE", "SNORE", "MIMIC"]
-compatible_egg_groups = ["Field"]
+raw_abilities = [
+    "BLAZE",
+    "INTIMIDATE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "SCRATCH" },
+    { at_level = 1, name = "EMBER" },
+    { at_level = 4, name = "GROWL" },
+    { at_level = 8, name = "LICK" },
+    { at_level = 11, name = "LEER" },
+    { at_level = 14, name = "FIREFANG" },
+    { at_level = 16, name = "DOUBLEKICK" },
+    { at_level = 18, name = "ROAR" },
+    { at_level = 22, name = "BITE" },
+    { at_level = 25, name = "SWAGGER" },
+    { at_level = 29, name = "FURYSWIPES" },
+    { at_level = 32, name = "THRASH" },
+    { at_level = 36, name = "FLAMETHROWER" },
+    { at_level = 39, name = "SCARYFACE" },
+    { at_level = 43, name = "FLAREBLITZ" },
+    { at_level = 46, name = "OUTRAGE" },
+]
+raw_tms = [
+    "WORKUP",
+    "ROAR",
+    "TOXIC",
+    "BULKUP",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "PROTECT",
+    "FRUSTRATION",
+    "RETURN",
+    "LEECHLIFE",
+    "DOUBLETEAM",
+    "FLAMETHROWER",
+    "FIREBLAST",
+    "TORMENT",
+    "FACADE",
+    "FLAMECHARGE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "OVERHEAT",
+    "WILLOWISP",
+    "ACROBATICS",
+    "SHADOWCLAW",
+    "SWORDSDANCE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "PAYDAY",
+    "FIRESPIN",
+    "SCARYFACE",
+    "REVENGE",
+    "FIREFANG",
+    "CRUNCH",
+    "BODYSLAM",
+    "FLAREBLITZ",
+    "ENDURE",
+    "NASTYPLOT",
+]
+raw_tutor_moves = [
+    "COVET",
+    "ENDEAVOR",
+    "FIREPLEDGE",
+    "HEATWAVE",
+    "MIMIC",
+    "OUTRAGE",
+    "SNORE",
+]
+compatible_egg_groups = [
+    "Field",
+]
 steps_to_hatch = 3840
 height = 0.4
 weight = 4.3
@@ -20,80 +93,19 @@ pokedex_entry = "It doesn't allow its emotions to be easily seen. Earning its tr
 battler_player_y = 19
 battler_enemy_y = 25
 battler_altitude = 0
-form_names = []
-dex_number = 725
-internal_name = "LITTEN"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SCRATCH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "EMBER"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "GROWL"
-
-[[raw_level_up_moves]]
-at_level = 8
-name = "LICK"
-
-[[raw_level_up_moves]]
-at_level = 11
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "FIREFANG"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "DOUBLEKICK"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "ROAR"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "SWAGGER"
-
-[[raw_level_up_moves]]
-at_level = 29
-name = "FURYSWIPES"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "THRASH"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "FLAMETHROWER"
-
-[[raw_level_up_moves]]
-at_level = 39
-name = "SCARYFACE"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "FLAREBLITZ"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "OUTRAGE"
-
-[[evolutions]]
-into_name = "TORRACAT"
-condition = "Level"
-parameter = "17"
-
-
+raw_egg_moves = [
+    "BODYSLAM",
+    "CRUNCH",
+    "FAKEOUT",
+    "HEATWAVE",
+    "NASTYPLOT",
+    "POWERTRIP",
+    "REVENGE",
+    "PARTINGSHOT",
+]
+evolutions = [
+    { into_name = "TORRACAT", condition = "Level", parameter = "17" },
+]
 
 [base_stats]
 hp = 45
@@ -110,5 +122,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 1
-
-[wild_items]

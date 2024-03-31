@@ -1,262 +1,69 @@
-chances = [22, 10, 20]
+chances = [
+    22,
+    10,
+    20,
+]
 
 [encounters]
-[[encounters.HeadbuttLow]]
-name = "PINECO"
-minimum_level = 22
-maximum_level = 26
-
-[[encounters.HeadbuttLow]]
-name = "PINECO"
-minimum_level = 22
-maximum_level = 26
-
-[[encounters.HeadbuttLow]]
-name = "BURMY"
-minimum_level = 22
-maximum_level = 26
-
-[[encounters.HeadbuttLow]]
-name = "BURMY"
-minimum_level = 22
-maximum_level = 26
-
-[[encounters.HeadbuttLow]]
-name = "AIPOM"
-minimum_level = 20
-maximum_level = 22
-
-[[encounters.HeadbuttLow]]
-name = "BURMY"
-minimum_level = 22
-maximum_level = 26
-
-[[encounters.HeadbuttLow]]
-name = "AIPOM"
-minimum_level = 20
-maximum_level = 23
-
-[[encounters.HeadbuttLow]]
-name = "AIPOM"
-minimum_level = 20
-maximum_level = 25
-
-[[encounters.HeadbuttHigh]]
-name = "PINECO"
-minimum_level = 22
-maximum_level = 26
-
-[[encounters.HeadbuttHigh]]
-name = "PINECO"
-minimum_level = 22
-maximum_level = 26
-
-[[encounters.HeadbuttHigh]]
-name = "BURMY"
-minimum_level = 22
-maximum_level = 26
-
-[[encounters.HeadbuttHigh]]
-name = "BURMY"
-minimum_level = 22
-maximum_level = 26
-
-[[encounters.HeadbuttHigh]]
-name = "AIPOM"
-minimum_level = 20
-maximum_level = 22
-
-[[encounters.HeadbuttHigh]]
-name = "BURMY"
-minimum_level = 22
-maximum_level = 26
-
-[[encounters.HeadbuttHigh]]
-name = "AIPOM"
-minimum_level = 20
-maximum_level = 23
-
-[[encounters.HeadbuttHigh]]
-name = "AIPOM"
-minimum_level = 20
-maximum_level = 25
-
-[[encounters.LandMorning]]
-name = "FEAROW"
-minimum_level = 21
-maximum_level = 25
-
-[[encounters.LandMorning]]
-name = "SPEAROW"
-minimum_level = 21
-maximum_level = 25
-
-[[encounters.LandMorning]]
-name = "DODUO"
-minimum_level = 21
-maximum_level = 25
-
-[[encounters.LandMorning]]
-name = "FLETCHLING"
-minimum_level = 21
-maximum_level = 25
-
-[[encounters.LandMorning]]
-name = "PHANPY"
-minimum_level = 21
-maximum_level = 24
-
-[[encounters.LandMorning]]
-name = "ARBOK"
-minimum_level = 22
-maximum_level = 23
-
-[[encounters.LandMorning]]
-name = "EKANS"
-minimum_level = 21
-maximum_level = 25
-
-[[encounters.LandMorning]]
-name = "EKANS"
-minimum_level = 21
-maximum_level = 25
-
-[[encounters.LandMorning]]
-name = "PHANPY"
-minimum_level = 21
-maximum_level = 25
-
-[[encounters.LandMorning]]
-name = "BUNNELBY"
-minimum_level = 21
-maximum_level = 25
-
-[[encounters.LandMorning]]
-name = "BUNNELBY"
-minimum_level = 22
-maximum_level = 26
-
-[[encounters.LandMorning]]
-name = "ARBOK"
-minimum_level = 22
-maximum_level = 24
-
-[[encounters.LandDay]]
-name = "FEAROW"
-minimum_level = 21
-maximum_level = 25
-
-[[encounters.LandDay]]
-name = "DODUO"
-minimum_level = 21
-maximum_level = 25
-
-[[encounters.LandDay]]
-name = "FLETCHLING"
-minimum_level = 21
-maximum_level = 25
-
-[[encounters.LandDay]]
-name = "EKANS"
-minimum_level = 21
-maximum_level = 25
-
-[[encounters.LandDay]]
-name = "PHANPY"
-minimum_level = 21
-maximum_level = 24
-
-[[encounters.LandDay]]
-name = "ARBOK"
-minimum_level = 22
-maximum_level = 23
-
-[[encounters.LandDay]]
-name = "EKANS"
-minimum_level = 21
-maximum_level = 25
-
-[[encounters.LandDay]]
-name = "EKANS"
-minimum_level = 21
-maximum_level = 25
-
-[[encounters.LandDay]]
-name = "PHANPY"
-minimum_level = 21
-maximum_level = 25
-
-[[encounters.LandDay]]
-name = "BUNNELBY"
-minimum_level = 21
-maximum_level = 25
-
-[[encounters.LandDay]]
-name = "BUNNELBY"
-minimum_level = 22
-maximum_level = 26
-
-[[encounters.LandDay]]
-name = "ARBOK"
-minimum_level = 22
-maximum_level = 24
-
-[[encounters.LandNight]]
-name = "MEOWTH"
-minimum_level = 21
-maximum_level = 25
-
-[[encounters.LandNight]]
-name = "NOCTOWL"
-minimum_level = 21
-maximum_level = 25
-
-[[encounters.LandNight]]
-name = "HOOTHOOT"
-minimum_level = 21
-maximum_level = 25
-
-[[encounters.LandNight]]
-name = "EKANS"
-minimum_level = 21
-maximum_level = 25
-
-[[encounters.LandNight]]
-name = "MEOWTH"
-minimum_level = 21
-maximum_level = 24
-
-[[encounters.LandNight]]
-name = "MEOWTH"
-minimum_level = 22
-maximum_level = 23
-
-[[encounters.LandNight]]
-name = "EKANS"
-minimum_level = 21
-maximum_level = 25
-
-[[encounters.LandNight]]
-name = "EKANS"
-minimum_level = 21
-maximum_level = 25
-
-[[encounters.LandNight]]
-name = "MEOWTH"
-minimum_level = 22
-maximum_level = 26
-
-[[encounters.LandNight]]
-name = "NOCTOWL"
-minimum_level = 22
-maximum_level = 24
-
-[[encounters.LandNight]]
-name = "NOCTOWL"
-minimum_level = 20
-maximum_level = 23
-
-[[encounters.LandNight]]
-name = "ARBOK"
-minimum_level = 22
-maximum_level = 24
+HeadbuttLow = [
+    { name = "PINECO", minimum_level = 22, maximum_level = 26 },
+    { name = "PINECO", minimum_level = 22, maximum_level = 26 },
+    { name = "BURMY", minimum_level = 22, maximum_level = 26 },
+    { name = "BURMY", minimum_level = 22, maximum_level = 26 },
+    { name = "AIPOM", minimum_level = 20, maximum_level = 22 },
+    { name = "BURMY", minimum_level = 22, maximum_level = 26 },
+    { name = "AIPOM", minimum_level = 20, maximum_level = 23 },
+    { name = "AIPOM", minimum_level = 20, maximum_level = 25 },
+]
+HeadbuttHigh = [
+    { name = "PINECO", minimum_level = 22, maximum_level = 26 },
+    { name = "PINECO", minimum_level = 22, maximum_level = 26 },
+    { name = "BURMY", minimum_level = 22, maximum_level = 26 },
+    { name = "BURMY", minimum_level = 22, maximum_level = 26 },
+    { name = "AIPOM", minimum_level = 20, maximum_level = 22 },
+    { name = "BURMY", minimum_level = 22, maximum_level = 26 },
+    { name = "AIPOM", minimum_level = 20, maximum_level = 23 },
+    { name = "AIPOM", minimum_level = 20, maximum_level = 25 },
+]
+LandMorning = [
+    { name = "FEAROW", minimum_level = 21, maximum_level = 25 },
+    { name = "SPEAROW", minimum_level = 21, maximum_level = 25 },
+    { name = "DODUO", minimum_level = 21, maximum_level = 25 },
+    { name = "FLETCHLING", minimum_level = 21, maximum_level = 25 },
+    { name = "PHANPY", minimum_level = 21, maximum_level = 24 },
+    { name = "ARBOK", minimum_level = 22, maximum_level = 23 },
+    { name = "EKANS", minimum_level = 21, maximum_level = 25 },
+    { name = "EKANS", minimum_level = 21, maximum_level = 25 },
+    { name = "PHANPY", minimum_level = 21, maximum_level = 25 },
+    { name = "BUNNELBY", minimum_level = 21, maximum_level = 25 },
+    { name = "BUNNELBY", minimum_level = 22, maximum_level = 26 },
+    { name = "ARBOK", minimum_level = 22, maximum_level = 24 },
+]
+LandDay = [
+    { name = "FEAROW", minimum_level = 21, maximum_level = 25 },
+    { name = "DODUO", minimum_level = 21, maximum_level = 25 },
+    { name = "FLETCHLING", minimum_level = 21, maximum_level = 25 },
+    { name = "EKANS", minimum_level = 21, maximum_level = 25 },
+    { name = "PHANPY", minimum_level = 21, maximum_level = 24 },
+    { name = "ARBOK", minimum_level = 22, maximum_level = 23 },
+    { name = "EKANS", minimum_level = 21, maximum_level = 25 },
+    { name = "EKANS", minimum_level = 21, maximum_level = 25 },
+    { name = "PHANPY", minimum_level = 21, maximum_level = 25 },
+    { name = "BUNNELBY", minimum_level = 21, maximum_level = 25 },
+    { name = "BUNNELBY", minimum_level = 22, maximum_level = 26 },
+    { name = "ARBOK", minimum_level = 22, maximum_level = 24 },
+]
+LandNight = [
+    { name = "MEOWTH", minimum_level = 21, maximum_level = 25 },
+    { name = "NOCTOWL", minimum_level = 21, maximum_level = 25 },
+    { name = "HOOTHOOT", minimum_level = 21, maximum_level = 25 },
+    { name = "EKANS", minimum_level = 21, maximum_level = 25 },
+    { name = "MEOWTH", minimum_level = 21, maximum_level = 24 },
+    { name = "MEOWTH", minimum_level = 22, maximum_level = 23 },
+    { name = "EKANS", minimum_level = 21, maximum_level = 25 },
+    { name = "EKANS", minimum_level = 21, maximum_level = 25 },
+    { name = "MEOWTH", minimum_level = 22, maximum_level = 26 },
+    { name = "NOCTOWL", minimum_level = 22, maximum_level = 24 },
+    { name = "NOCTOWL", minimum_level = 20, maximum_level = 23 },
+    { name = "ARBOK", minimum_level = 22, maximum_level = 24 },
+]

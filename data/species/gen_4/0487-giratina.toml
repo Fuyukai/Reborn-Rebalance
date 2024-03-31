@@ -1,3 +1,4 @@
+dex_number = 487
 name = "Giratina"
 primary_type = "GHOST"
 secondary_type = "DRAGON"
@@ -6,11 +7,117 @@ growth_rate = "Slow"
 exp_yield = 306
 catch_rate = 3
 caught_happiness = 0
-raw_abilities = ["PRESSURE", "TELEPATHY"]
-raw_egg_moves = []
-raw_tms = ["CUT", "DRAGONCLAW", "FLY", "CALMMIND", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "AERIALACE", "FACADE", "REST", "ROUND", "ECHOEDVOICE", "STEELWING", "ENERGYBALL", "CHARGEBEAM", "BRUTALSWING", "WILLOWISP", "SHADOWCLAW", "PAYBACK", "GIGAIMPACT", "STONEEDGE", "THUNDERWAVE", "PSYCHUP", "BULLDOZE", "DRAGONTAIL", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "DARKPULSE", "CONFIDE", "SCARYFACE", "HEX", "PHANTOMFORCE", "BREAKINGSWIPE", "BODYSLAM", "ENDURE", "AURASPHERE", "SWIFT"]
-raw_tutor_moves = ["AIRCUTTER", "ANCIENTPOWER", "AQUATAIL", "DEFOG", "DRACOMETEOR", "DRAGONPULSE", "EARTHPOWER", "FURYCUTTER", "GRAVITY", "HEADBUTT", "HYPERVOICE", "ICYWIND", "IRONHEAD", "IRONTAIL", "MAGICCOAT", "MUDSLAP", "OMINOUSWIND", "OUTRAGE", "PAINSPLIT", "SHOCKWAVE", "SNORE", "SPITE", "TAILWIND", "TELEKINESIS", "TWISTER", "DUALWINGBEAT", "POLTERGEIST", "MIMIC"]
-compatible_egg_groups = ["Undiscovered"]
+raw_abilities = [
+    "PRESSURE",
+    "TELEPATHY",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "BREAKINGSWIPE" },
+    { at_level = 1, name = "SCARYFACE" },
+    { at_level = 6, name = "OMINOUSWIND" },
+    { at_level = 10, name = "ANCIENTPOWER" },
+    { at_level = 14, name = "SLASH" },
+    { at_level = 18, name = "SHADOWSNEAK" },
+    { at_level = 22, name = "DESTINYBOND" },
+    { at_level = 26, name = "DRAGONCLAW" },
+    { at_level = 30, name = "HEX" },
+    { at_level = 34, name = "SHADOWCLAW" },
+    { at_level = 38, name = "AURASPHERE" },
+    { at_level = 42, name = "EARTHPOWER" },
+    { at_level = 46, name = "DRAGONPULSE" },
+    { at_level = 50, name = "SHADOWFORCE" },
+]
+raw_tms = [
+    "CUT",
+    "DRAGONCLAW",
+    "FLY",
+    "CALMMIND",
+    "STRENGTH",
+    "ROAR",
+    "TOXIC",
+    "ROCKSMASH",
+    "ROCKCLIMB",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "THUNDERBOLT",
+    "THUNDER",
+    "EARTHQUAKE",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ROUND",
+    "ECHOEDVOICE",
+    "STEELWING",
+    "ENERGYBALL",
+    "CHARGEBEAM",
+    "BRUTALSWING",
+    "WILLOWISP",
+    "SHADOWCLAW",
+    "PAYBACK",
+    "GIGAIMPACT",
+    "STONEEDGE",
+    "THUNDERWAVE",
+    "PSYCHUP",
+    "BULLDOZE",
+    "DRAGONTAIL",
+    "DREAMEATER",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "DARKPULSE",
+    "CONFIDE",
+    "SCARYFACE",
+    "HEX",
+    "PHANTOMFORCE",
+    "BREAKINGSWIPE",
+    "BODYSLAM",
+    "ENDURE",
+    "AURASPHERE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AIRCUTTER",
+    "ANCIENTPOWER",
+    "AQUATAIL",
+    "DEFOG",
+    "DRACOMETEOR",
+    "DRAGONPULSE",
+    "DUALWINGBEAT",
+    "EARTHPOWER",
+    "FURYCUTTER",
+    "GRAVITY",
+    "HEADBUTT",
+    "HYPERVOICE",
+    "ICYWIND",
+    "IRONHEAD",
+    "IRONTAIL",
+    "MAGICCOAT",
+    "MIMIC",
+    "MUDSLAP",
+    "OMINOUSWIND",
+    "OUTRAGE",
+    "PAINSPLIT",
+    "POLTERGEIST",
+    "SHOCKWAVE",
+    "SNORE",
+    "SPITE",
+    "TAILWIND",
+    "TELEKINESIS",
+    "TWISTER",
+]
+compatible_egg_groups = [
+    "Undiscovered",
+]
 steps_to_hatch = 30855
 height = 4.5
 weight = 750.0
@@ -20,66 +127,10 @@ pokedex_entry = "A Pokémon that is said to live in a world on the reverse side 
 battler_player_y = 8
 battler_enemy_y = 3
 battler_altitude = 0
-evolutions = []
-form_names = ["Altered Forme", "Origin Forme"]
-dex_number = 487
-internal_name = "GIRATINA"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BREAKINGSWIPE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SCARYFACE"
-
-[[raw_level_up_moves]]
-at_level = 6
-name = "OMINOUSWIND"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "ANCIENTPOWER"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "SLASH"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "SHADOWSNEAK"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "DESTINYBOND"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "DRAGONCLAW"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "HEX"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "SHADOWCLAW"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "AURASPHERE"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "EARTHPOWER"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "DRAGONPULSE"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "SHADOWFORCE"
+form_names = [
+    "Altered Forme",
+    "Origin Forme",
+]
 
 [base_stats]
 hp = 150
@@ -96,5 +147,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

@@ -1,3 +1,4 @@
+dex_number = 236
 name = "Tyrogue"
 primary_type = "FIGHTING"
 secondary_type = "FIGHTING"
@@ -6,11 +7,77 @@ growth_rate = "Medium"
 exp_yield = 42
 catch_rate = 75
 caught_happiness = 70
-raw_abilities = ["GUTS", "STEADFAST"]
-raw_egg_moves = ["BULLETPUNCH", "COUNTER", "ENDURE", "FEINT", "HELPINGHAND", "HIJUMPKICK", "MACHPUNCH", "MINDREADER", "PURSUIT", "RAPIDSPIN", "VACUUMWAVE"]
-raw_tms = ["WORKUP", "STRENGTH", "TOXIC", "ROCKSMASH", "BULKUP", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "RAINDANCE", "FRUSTRATION", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "THIEF", "LOWSWEEP", "ROUND", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "BODYSLAM", "FOCUSENERGY", "ENDURE", "RETALIATE", "SWIFT"]
-raw_tutor_moves = ["COVET", "HEADBUTT", "HELPINGHAND", "LASERFOCUS", "LOWKICK", "MUDSLAP", "ROLEPLAY", "SNORE", "UPROAR", "VACUUMWAVE", "MIMIC"]
-compatible_egg_groups = ["Undiscovered"]
+raw_abilities = [
+    "GUTS",
+    "STEADFAST",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "FAKEOUT" },
+    { at_level = 1, name = "FOCUSENERGY" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 1, name = "VACUUMWAVE" },
+    { at_level = 4, name = "HELPINGHAND" },
+    { at_level = 6, name = "RAPIDSPIN" },
+    { at_level = 8, name = "COUNTER" },
+    { at_level = 10, name = "MACHPUNCH" },
+    { at_level = 12, name = "PURSUIT" },
+    { at_level = 14, name = "ROCKSMASH" },
+    { at_level = 16, name = "COVET" },
+    { at_level = 18, name = "DETECT" },
+    { at_level = 20, name = "SEISMICTOSS" },
+]
+raw_tms = [
+    "WORKUP",
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "BULKUP",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "EARTHQUAKE",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "LOWSWEEP",
+    "ROUND",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "BODYSLAM",
+    "FOCUSENERGY",
+    "ENDURE",
+    "RETALIATE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "COVET",
+    "HEADBUTT",
+    "HELPINGHAND",
+    "LASERFOCUS",
+    "LOWKICK",
+    "MIMIC",
+    "MUDSLAP",
+    "ROLEPLAY",
+    "SNORE",
+    "UPROAR",
+    "VACUUMWAVE",
+]
+compatible_egg_groups = [
+    "Undiscovered",
+]
 steps_to_hatch = 6630
 height = 0.7
 weight = 21.0
@@ -20,80 +87,26 @@ pokedex_entry = "Tyrogue become stressed out if they do not get to train every d
 battler_player_y = 26
 battler_enemy_y = 20
 battler_altitude = 0
-form_names = []
-dex_number = 236
-internal_name = "TYROGUE"
 raw_hidden_ability = "VITALSPIRIT"
+raw_egg_moves = [
+    "BULLETPUNCH",
+    "COUNTER",
+    "ENDURE",
+    "FEINT",
+    "HELPINGHAND",
+    "HIJUMPKICK",
+    "MACHPUNCH",
+    "MINDREADER",
+    "PURSUIT",
+    "RAPIDSPIN",
+    "VACUUMWAVE",
+]
 habitat = "Urban"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FAKEOUT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FOCUSENERGY"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "VACUUMWAVE"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "HELPINGHAND"
-
-[[raw_level_up_moves]]
-at_level = 6
-name = "RAPIDSPIN"
-
-[[raw_level_up_moves]]
-at_level = 8
-name = "COUNTER"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "MACHPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "PURSUIT"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "ROCKSMASH"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "COVET"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "DETECT"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "SEISMICTOSS"
-
-[[evolutions]]
-into_name = "HITMONLEE"
-condition = "AttackGreater"
-parameter = "20"
-
-[[evolutions]]
-into_name = "HITMONCHAN"
-condition = "DefenseGreater"
-parameter = "20"
-
-[[evolutions]]
-into_name = "HITMONTOP"
-condition = "AtkDefEqual"
-parameter = "20"
-
-
+evolutions = [
+    { into_name = "HITMONLEE", condition = "AttackGreater", parameter = "20" },
+    { into_name = "HITMONCHAN", condition = "DefenseGreater", parameter = "20" },
+    { into_name = "HITMONTOP", condition = "AtkDefEqual", parameter = "20" },
+]
 
 [base_stats]
 hp = 35
@@ -110,5 +123,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

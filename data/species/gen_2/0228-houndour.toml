@@ -1,3 +1,4 @@
+dex_number = 228
 name = "Houndour"
 primary_type = "DARK"
 secondary_type = "FIRE"
@@ -6,11 +7,103 @@ growth_rate = "Slow"
 exp_yield = 66
 catch_rate = 120
 caught_happiness = 35
-raw_abilities = ["INTIMIDATE", "FLASHFIRE", "UNNERVE"]
-raw_egg_moves = ["BEATUP", "COUNTER", "DESTINYBOND", "FEINT", "FIREFANG", "FIRESPIN", "NASTYPLOT", "PUNISHMENT", "PURSUIT", "RAGE", "REVERSAL", "SPITE", "SUCKERPUNCH", "THUNDERFANG"]
-raw_tms = ["ROAR", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "PROTECT", "FRUSTRATION", "SOLARBEAM", "RETURN", "SHADOWBALL", "DOUBLETEAM", "FLAMETHROWER", "SLUDGEBOMB", "FIREBLAST", "TORMENT", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "THIEF", "ROUND", "OVERHEAT", "WILLOWISP", "EMBARGO", "PAYBACK", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "SNARL", "DARKPULSE", "CONFIDE", "FIRESPIN", "BEATUP", "THUNDERFANG", "FIREFANG", "CRUNCH", "BODYSLAM", "REVERSAL", "ENDURE", "NASTYPLOT", "RETALIATE", "TRAILBLAZE", "SWIFT"]
-raw_tutor_moves = ["FOULPLAY", "HEADBUTT", "HEATWAVE", "HYPERVOICE", "IRONTAIL", "MUDSLAP", "ROLEPLAY", "SNATCH", "SNORE", "SPITE", "SUCKERPUNCH", "SUPERFANG", "UPROAR", "RAGINGFURY", "MIMIC"]
-compatible_egg_groups = ["Field"]
+raw_abilities = [
+    "INTIMIDATE",
+    "FLASHFIRE",
+    "UNNERVE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "ODORSLEUTH" },
+    { at_level = 1, name = "LICK" },
+    { at_level = 1, name = "LEER" },
+    { at_level = 4, name = "HOWL" },
+    { at_level = 7, name = "EMBER" },
+    { at_level = 9, name = "BITE" },
+    { at_level = 11, name = "SPITE" },
+    { at_level = 13, name = "TAUNT" },
+    { at_level = 16, name = "FIREFANG" },
+    { at_level = 16, name = "ICEFANG" },
+    { at_level = 16, name = "THUNDERFANG" },
+    { at_level = 19, name = "POISONFANG" },
+    { at_level = 22, name = "SNARL" },
+    { at_level = 25, name = "REVERSAL" },
+    { at_level = 28, name = "RAGINGFURY" },
+    { at_level = 31, name = "FLAMEBURST" },
+    { at_level = 34, name = "SUCKERPUNCH" },
+    { at_level = 38, name = "SUPERFANG" },
+    { at_level = 42, name = "CRUNCH" },
+    { at_level = 46, name = "DESTINYBOND" },
+    { at_level = 50, name = "FOULPLAY" },
+    { at_level = 54, name = "INFERNO" },
+]
+raw_tms = [
+    "ROAR",
+    "TOXIC",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "PROTECT",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "FLAMETHROWER",
+    "SLUDGEBOMB",
+    "FIREBLAST",
+    "TORMENT",
+    "FACADE",
+    "FLAMECHARGE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "OVERHEAT",
+    "WILLOWISP",
+    "EMBARGO",
+    "PAYBACK",
+    "DREAMEATER",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "SNARL",
+    "DARKPULSE",
+    "CONFIDE",
+    "FIRESPIN",
+    "BEATUP",
+    "THUNDERFANG",
+    "FIREFANG",
+    "CRUNCH",
+    "BODYSLAM",
+    "REVERSAL",
+    "ENDURE",
+    "NASTYPLOT",
+    "RETALIATE",
+    "TRAILBLAZE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "FOULPLAY",
+    "HEADBUTT",
+    "HEATWAVE",
+    "HYPERVOICE",
+    "IRONTAIL",
+    "MIMIC",
+    "MUDSLAP",
+    "RAGINGFURY",
+    "ROLEPLAY",
+    "SNATCH",
+    "SNORE",
+    "SPITE",
+    "SUCKERPUNCH",
+    "SUPERFANG",
+    "UPROAR",
+]
+compatible_egg_groups = [
+    "Field",
+]
 steps_to_hatch = 5355
 height = 0.6
 weight = 10.8
@@ -20,105 +113,26 @@ pokedex_entry = "Houndour communicate with each other using a variety of cries t
 battler_player_y = 26
 battler_enemy_y = 20
 battler_altitude = 0
-form_names = []
-dex_number = 228
-internal_name = "HOUNDOUR"
+raw_egg_moves = [
+    "BEATUP",
+    "COUNTER",
+    "DESTINYBOND",
+    "FEINT",
+    "FIREFANG",
+    "FIRESPIN",
+    "NASTYPLOT",
+    "PUNISHMENT",
+    "PURSUIT",
+    "RAGE",
+    "REVERSAL",
+    "SPITE",
+    "SUCKERPUNCH",
+    "THUNDERFANG",
+]
 habitat = "RoughTerrain"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ODORSLEUTH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LICK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "HOWL"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "EMBER"
-
-[[raw_level_up_moves]]
-at_level = 9
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 11
-name = "SPITE"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "TAUNT"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "FIREFANG"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "ICEFANG"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "THUNDERFANG"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "POISONFANG"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "SNARL"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "REVERSAL"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "RAGINGFURY"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "FLAMEBURST"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "SUCKERPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "SUPERFANG"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "DESTINYBOND"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "FOULPLAY"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "INFERNO"
-
-[[evolutions]]
-into_name = "HOUNDOOM"
-condition = "Level"
-parameter = "24"
-
-
+evolutions = [
+    { into_name = "HOUNDOOM", condition = "Level", parameter = "24" },
+]
 
 [base_stats]
 hp = 45
@@ -135,5 +149,3 @@ def_ = 0
 spa = 1
 spd = 0
 spe = 0
-
-[wild_items]

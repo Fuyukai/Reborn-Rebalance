@@ -1,3 +1,4 @@
+dex_number = 623
 name = "Golurk"
 primary_type = "GROUND"
 secondary_type = "GHOST"
@@ -6,11 +7,129 @@ growth_rate = "Medium"
 exp_yield = 169
 catch_rate = 90
 caught_happiness = 70
-raw_abilities = ["IRONFIST", "KLUTZ"]
-raw_egg_moves = []
-raw_tms = ["FLY", "STRENGTH", "TOXIC", "ROCKSMASH", "FLASH", "HIDDENPOWER", "ICEBEAM", "HYPERBEAM", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "THUNDERBOLT", "EARTHQUAKE", "RETURN", "PSYCHIC", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "ROCKTOMB", "FACADE", "REST", "THIEF", "LOWSWEEP", "ROUND", "FOCUSBLAST", "FLING", "CHARGEBEAM", "GIGAIMPACT", "ROCKPOLISH", "STONEEDGE", "GYROBALL", "BULLDOZE", "ROCKSLIDE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "SELFDESTRUCT", "IMPRISON", "PHANTOMFORCE", "BODYSLAM", "CLOSECOMBAT", "ENDURE", "HEATCRASH", "HEAVYSLAM", "DARKESTLARIAT", "HIGHHORSEPOWER", "BODYPRESS"]
-raw_tutor_moves = ["ALLYSWITCH", "BLOCK", "DRAINPUNCH", "EARTHPOWER", "FIREPUNCH", "FOCUSPUNCH", "GRAVITY", "HELPINGHAND", "ICEPUNCH", "ICYWIND", "IRONDEFENSE", "LOWKICK", "MAGICCOAT", "MUDSLAP", "SHOCKWAVE", "SIGNALBEAM", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "SUPERPOWER", "TELEKINESIS", "THUNDERPUNCH", "TRICK", "ZENHEADBUTT", "SCORCHINGSANDS", "POLTERGEIST", "HEADLONGRUSH", "MIMIC"]
-compatible_egg_groups = ["Mineral"]
+raw_abilities = [
+    "IRONFIST",
+    "KLUTZ",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "HEATCRASH" },
+    { at_level = 1, name = "FOCUSPUNCH" },
+    { at_level = 1, name = "ASTONISH" },
+    { at_level = 1, name = "MUDSLAP" },
+    { at_level = 4, name = "CURSE" },
+    { at_level = 7, name = "FLING" },
+    { at_level = 10, name = "ROLLOUT" },
+    { at_level = 13, name = "DEFENSECURL" },
+    { at_level = 16, name = "SHADOWSNEAK" },
+    { at_level = 19, name = "MAGNITUDE" },
+    { at_level = 22, name = "NIGHTSHADE" },
+    { at_level = 25, name = "MUDBOMB" },
+    { at_level = 28, name = "IRONDEFENSE" },
+    { at_level = 32, name = "SCORCHINGSANDS" },
+    { at_level = 36, name = "SHADOWBALL" },
+    { at_level = 40, name = "HEAVYSLAM" },
+    { at_level = 44, name = "DRAINPUNCH" },
+    { at_level = 48, name = "HIGHHORSEPOWER" },
+    { at_level = 52, name = "HAMMERARM" },
+    { at_level = 56, name = "SHADOWPUNCH" },
+    { at_level = 60, name = "ZENHEADBUTT" },
+    { at_level = 64, name = "DYNAMICPUNCH" },
+    { at_level = 68, name = "CLOSECOMBAT" },
+    { at_level = 72, name = "SHADOWFORCE" },
+    { at_level = 78, name = "METEORMASH" },
+]
+raw_tms = [
+    "FLY",
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "FLASH",
+    "HIDDENPOWER",
+    "ICEBEAM",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "THUNDERBOLT",
+    "EARTHQUAKE",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "ROCKTOMB",
+    "FACADE",
+    "REST",
+    "THIEF",
+    "LOWSWEEP",
+    "ROUND",
+    "FOCUSBLAST",
+    "FLING",
+    "CHARGEBEAM",
+    "GIGAIMPACT",
+    "ROCKPOLISH",
+    "STONEEDGE",
+    "GYROBALL",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "FLASHCANNON",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "DIG",
+    "SELFDESTRUCT",
+    "IMPRISON",
+    "PHANTOMFORCE",
+    "BODYSLAM",
+    "CLOSECOMBAT",
+    "ENDURE",
+    "HEATCRASH",
+    "HEAVYSLAM",
+    "DARKESTLARIAT",
+    "HIGHHORSEPOWER",
+    "BODYPRESS",
+]
+raw_tutor_moves = [
+    "ALLYSWITCH",
+    "BLOCK",
+    "DRAINPUNCH",
+    "EARTHPOWER",
+    "FIREPUNCH",
+    "FOCUSPUNCH",
+    "GRAVITY",
+    "HEADLONGRUSH",
+    "HELPINGHAND",
+    "ICEPUNCH",
+    "ICYWIND",
+    "IRONDEFENSE",
+    "LOWKICK",
+    "MAGICCOAT",
+    "MIMIC",
+    "MUDSLAP",
+    "POLTERGEIST",
+    "SCORCHINGSANDS",
+    "SHOCKWAVE",
+    "SIGNALBEAM",
+    "SNORE",
+    "STEALTHROCK",
+    "STOMPINGTANTRUM",
+    "SUPERPOWER",
+    "TELEKINESIS",
+    "THUNDERPUNCH",
+    "TRICK",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Mineral",
+]
 steps_to_hatch = 6400
 height = 2.8
 weight = 330.0
@@ -20,111 +139,7 @@ pokedex_entry = "It is said that Golurk were ordered to protect people and Poké
 battler_player_y = 7
 battler_enemy_y = 14
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 623
-internal_name = "GOLURK"
 raw_hidden_ability = "NOGUARD"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HEATCRASH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FOCUSPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ASTONISH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "MUDSLAP"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "CURSE"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "FLING"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "ROLLOUT"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "DEFENSECURL"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "SHADOWSNEAK"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "MAGNITUDE"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "NIGHTSHADE"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "MUDBOMB"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "IRONDEFENSE"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "SCORCHINGSANDS"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "SHADOWBALL"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "HEAVYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "DRAINPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "HIGHHORSEPOWER"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "HAMMERARM"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "SHADOWPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "ZENHEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 64
-name = "DYNAMICPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 68
-name = "CLOSECOMBAT"
-
-[[raw_level_up_moves]]
-at_level = 72
-name = "SHADOWFORCE"
-
-[[raw_level_up_moves]]
-at_level = 78
-name = "METEORMASH"
 
 [base_stats]
 hp = 115

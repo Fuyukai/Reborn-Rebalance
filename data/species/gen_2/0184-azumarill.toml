@@ -1,3 +1,4 @@
+dex_number = 184
 name = "Azumarill"
 primary_type = "WATER"
 secondary_type = "FAIRY"
@@ -6,11 +7,124 @@ growth_rate = "Fast"
 exp_yield = 189
 catch_rate = 75
 caught_happiness = 70
-raw_abilities = ["THICKFAT", "HUGEPOWER", "SAPSIPPER"]
-raw_egg_moves = []
-raw_tms = ["WORKUP", "SURF", "STRENGTH", "WATERFALL", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "BRICKBREAK", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "ROUND", "FOCUSBLAST", "SCALD", "FLING", "BRUTALSWING", "GIGAIMPACT", "BULLDOZE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "CHARM", "WHIRLPOOL", "FAKETEARS", "MUDSHOT", "DRAININGKISS", "MISTYTERRAIN", "BODYSLAM", "HYDROPUMP", "AMNESIA", "ENDURE", "ENCORE", "FUTURESIGHT", "MUDDYWATER", "PLAYROUGH", "ICESPINNER", "SNOWSCAPE", "TRAILBLAZE", "CHILLINGWATER", "SWIFT"]
-raw_tutor_moves = ["AQUATAIL", "BOUNCE", "COVET", "FOCUSPUNCH", "HEADBUTT", "HELPINGHAND", "HYPERVOICE", "ICEPUNCH", "ICYWIND", "IRONTAIL", "KNOCKOFF", "LIQUIDATION", "MUDSLAP", "ROLLOUT", "SNORE", "SUPERPOWER", "WATERPULSE", "STEELROLLER", "MISTYEXPLOSION", "MIMIC"]
-compatible_egg_groups = ["Water1", "Fairy"]
+raw_abilities = [
+    "THICKFAT",
+    "HUGEPOWER",
+    "SAPSIPPER",
+]
+raw_level_up_moves = [
+    { at_level = 0, name = "ROLLOUT" },
+    { at_level = 1, name = "CURSE" },
+    { at_level = 1, name = "REFRESH" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 1, name = "TAILWHIP" },
+    { at_level = 3, name = "WATERGUN" },
+    { at_level = 6, name = "SING" },
+    { at_level = 8, name = "TICKLE" },
+    { at_level = 10, name = "DISARMINGVOICE" },
+    { at_level = 12, name = "BUBBLEBEAM" },
+    { at_level = 14, name = "CHARM" },
+    { at_level = 16, name = "WHIRLPOOL" },
+    { at_level = 18, name = "AQUAJET" },
+    { at_level = 21, name = "HELPINGHAND" },
+    { at_level = 25, name = "COVET" },
+    { at_level = 29, name = "SOAK" },
+    { at_level = 33, name = "AQUATAIL" },
+    { at_level = 37, name = "BODYSLAM" },
+    { at_level = 41, name = "FUTURESIGHT" },
+    { at_level = 45, name = "AMNESIA" },
+    { at_level = 49, name = "BOUNCE" },
+    { at_level = 53, name = "BELLYDRUM" },
+    { at_level = 57, name = "PLAYROUGH" },
+    { at_level = 61, name = "PERISHSONG" },
+    { at_level = 65, name = "HYDROPUMP" },
+]
+raw_tms = [
+    "WORKUP",
+    "SURF",
+    "STRENGTH",
+    "WATERFALL",
+    "TOXIC",
+    "DIVE",
+    "HAIL",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "ICEBEAM",
+    "BLIZZARD",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "FOCUSBLAST",
+    "SCALD",
+    "FLING",
+    "BRUTALSWING",
+    "GIGAIMPACT",
+    "BULLDOZE",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "DIG",
+    "CHARM",
+    "WHIRLPOOL",
+    "FAKETEARS",
+    "MUDSHOT",
+    "DRAININGKISS",
+    "MISTYTERRAIN",
+    "BODYSLAM",
+    "HYDROPUMP",
+    "AMNESIA",
+    "ENDURE",
+    "ENCORE",
+    "FUTURESIGHT",
+    "MUDDYWATER",
+    "PLAYROUGH",
+    "ICESPINNER",
+    "SNOWSCAPE",
+    "TRAILBLAZE",
+    "CHILLINGWATER",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AQUATAIL",
+    "BOUNCE",
+    "COVET",
+    "FOCUSPUNCH",
+    "HEADBUTT",
+    "HELPINGHAND",
+    "HYPERVOICE",
+    "ICEPUNCH",
+    "ICYWIND",
+    "IRONTAIL",
+    "KNOCKOFF",
+    "LIQUIDATION",
+    "MIMIC",
+    "MISTYEXPLOSION",
+    "MUDSLAP",
+    "ROLLOUT",
+    "SNORE",
+    "STEELROLLER",
+    "SUPERPOWER",
+    "WATERPULSE",
+]
+compatible_egg_groups = [
+    "Water1",
+    "Fairy",
+]
 steps_to_hatch = 2805
 height = 0.8
 weight = 28.5
@@ -20,111 +134,7 @@ pokedex_entry = "It lives in water virtually all day long. Its body color and pa
 battler_player_y = 19
 battler_enemy_y = 13
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 184
-internal_name = "AZUMARILL"
 habitat = "WatersEdge"
-
-[[raw_level_up_moves]]
-at_level = 0
-name = "ROLLOUT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "CURSE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "REFRESH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TAILWHIP"
-
-[[raw_level_up_moves]]
-at_level = 3
-name = "WATERGUN"
-
-[[raw_level_up_moves]]
-at_level = 6
-name = "SING"
-
-[[raw_level_up_moves]]
-at_level = 8
-name = "TICKLE"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "DISARMINGVOICE"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "BUBBLEBEAM"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "CHARM"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "WHIRLPOOL"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "AQUAJET"
-
-[[raw_level_up_moves]]
-at_level = 21
-name = "HELPINGHAND"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "COVET"
-
-[[raw_level_up_moves]]
-at_level = 29
-name = "SOAK"
-
-[[raw_level_up_moves]]
-at_level = 33
-name = "AQUATAIL"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 41
-name = "FUTURESIGHT"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "AMNESIA"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "BOUNCE"
-
-[[raw_level_up_moves]]
-at_level = 53
-name = "BELLYDRUM"
-
-[[raw_level_up_moves]]
-at_level = 57
-name = "PLAYROUGH"
-
-[[raw_level_up_moves]]
-at_level = 61
-name = "PERISHSONG"
-
-[[raw_level_up_moves]]
-at_level = 65
-name = "HYDROPUMP"
 
 [base_stats]
 hp = 100
@@ -141,5 +151,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

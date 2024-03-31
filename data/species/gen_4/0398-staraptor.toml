@@ -1,3 +1,4 @@
+dex_number = 398
 name = "Staraptor"
 primary_type = "FLYING"
 secondary_type = "FIGHTING"
@@ -6,11 +7,94 @@ growth_rate = "Parabolic"
 exp_yield = 214
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["INTIMIDATE", "RECKLESS"]
-raw_egg_moves = []
-raw_tms = ["WORKUP", "FLY", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "FRUSTRATION", "RETURN", "DOUBLETEAM", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "STEELWING", "GIGAIMPACT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "REVENGE", "CLOSECOMBAT", "BRAVEBIRD", "AGILITY", "ENDURE", "RETALIATE", "SWIFT"]
-raw_tutor_moves = ["AIRCUTTER", "DEFOG", "ENDEAVOR", "HEATWAVE", "LASERFOCUS", "MUDSLAP", "OMINOUSWIND", "SKYATTACK", "SNORE", "TAILWIND", "TWISTER", "UPROAR", "DUALWINGBEAT", "MIMIC"]
-compatible_egg_groups = ["Flying"]
+raw_abilities = [
+    "INTIMIDATE",
+    "RECKLESS",
+]
+raw_level_up_moves = [
+    { at_level = 0, name = "CLOSECOMBAT" },
+    { at_level = 1, name = "FEATHERDANCE" },
+    { at_level = 1, name = "GROWL" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 1, name = "ASTONISH" },
+    { at_level = 1, name = "SANDATTACK" },
+    { at_level = 5, name = "QUICKATTACK" },
+    { at_level = 8, name = "WINGATTACK" },
+    { at_level = 10, name = "PURSUIT" },
+    { at_level = 12, name = "FORESIGHT" },
+    { at_level = 14, name = "FURYATTACK" },
+    { at_level = 17, name = "ENDEAVOR" },
+    { at_level = 20, name = "AERIALACE" },
+    { at_level = 23, name = "REVENGE" },
+    { at_level = 26, name = "RETALIATE" },
+    { at_level = 29, name = "STEELWING" },
+    { at_level = 32, name = "TAKEDOWN" },
+    { at_level = 34, name = "FINALGAMBIT" },
+    { at_level = 34, name = "SKYUPPERCUT" },
+    { at_level = 38, name = "AGILITY" },
+    { at_level = 42, name = "TAILWIND" },
+    { at_level = 47, name = "SKYATTACK" },
+    { at_level = 52, name = "DOUBLEEDGE" },
+    { at_level = 58, name = "BRAVEBIRD" },
+    { at_level = 63, name = "CLOSECOMBAT" },
+    { at_level = 70, name = "HIJUMPKICK" },
+]
+raw_tms = [
+    "WORKUP",
+    "FLY",
+    "TOXIC",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "ROOST",
+    "ROOST",
+    "FRUSTRATION",
+    "RETURN",
+    "DOUBLETEAM",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "ECHOEDVOICE",
+    "STEELWING",
+    "GIGAIMPACT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "REVENGE",
+    "CLOSECOMBAT",
+    "BRAVEBIRD",
+    "AGILITY",
+    "ENDURE",
+    "RETALIATE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AIRCUTTER",
+    "DEFOG",
+    "DUALWINGBEAT",
+    "ENDEAVOR",
+    "HEATWAVE",
+    "LASERFOCUS",
+    "MIMIC",
+    "MUDSLAP",
+    "OMINOUSWIND",
+    "SKYATTACK",
+    "SNORE",
+    "TAILWIND",
+    "TWISTER",
+    "UPROAR",
+]
+compatible_egg_groups = [
+    "Flying",
+]
 steps_to_hatch = 4080
 height = 1.2
 weight = 24.9
@@ -20,114 +104,6 @@ pokedex_entry = "It has a savage nature. It will courageously challenge foes tha
 battler_player_y = 18
 battler_enemy_y = 10
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 398
-internal_name = "STARAPTOR"
-
-[[raw_level_up_moves]]
-at_level = 0
-name = "CLOSECOMBAT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FEATHERDANCE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ASTONISH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SANDATTACK"
-
-[[raw_level_up_moves]]
-at_level = 5
-name = "QUICKATTACK"
-
-[[raw_level_up_moves]]
-at_level = 8
-name = "WINGATTACK"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "PURSUIT"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "FORESIGHT"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "FURYATTACK"
-
-[[raw_level_up_moves]]
-at_level = 17
-name = "ENDEAVOR"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "AERIALACE"
-
-[[raw_level_up_moves]]
-at_level = 23
-name = "REVENGE"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "RETALIATE"
-
-[[raw_level_up_moves]]
-at_level = 29
-name = "STEELWING"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "TAKEDOWN"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "FINALGAMBIT"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "SKYUPPERCUT"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "AGILITY"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "TAILWIND"
-
-[[raw_level_up_moves]]
-at_level = 47
-name = "SKYATTACK"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "DOUBLEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "BRAVEBIRD"
-
-[[raw_level_up_moves]]
-at_level = 63
-name = "CLOSECOMBAT"
-
-[[raw_level_up_moves]]
-at_level = 70
-name = "HIJUMPKICK"
 
 [base_stats]
 hp = 85
@@ -144,5 +120,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

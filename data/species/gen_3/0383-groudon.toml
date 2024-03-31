@@ -1,3 +1,4 @@
+dex_number = 383
 name = "Groudon"
 primary_type = "GROUND"
 secondary_type = "GROUND"
@@ -6,11 +7,111 @@ growth_rate = "Slow"
 exp_yield = 302
 catch_rate = 5
 caught_happiness = 0
-raw_abilities = ["DROUGHT"]
-raw_egg_moves = []
-raw_tms = ["CUT", "DRAGONCLAW", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "BULKUP", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "SMACKDOWN", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "FLAMETHROWER", "SANDSTORM", "FIREBLAST", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ROUND", "OVERHEAT", "FOCUSBLAST", "FLING", "BRUTALSWING", "SHADOWCLAW", "GIGAIMPACT", "ROCKPOLISH", "STONEEDGE", "THUNDERWAVE", "SWORDSDANCE", "PSYCHUP", "BULLDOZE", "ROCKSLIDE", "DRAGONTAIL", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "SCARYFACE", "BODYSLAM", "ENDURE", "HEATCRASH", "HEAVYSLAM", "HIGHHORSEPOWER", "SWIFT"]
-raw_tutor_moves = ["ANCIENTPOWER", "BLOCK", "DRAGONPULSE", "EARTHPOWER", "FIREPUNCH", "FURYCUTTER", "HEADBUTT", "IRONHEAD", "IRONTAIL", "MUDSLAP", "ROLLOUT", "SHOCKWAVE", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "THUNDERPUNCH", "UPROAR", "SCORCHINGSANDS", "RAGINGFURY", "MIMIC"]
-compatible_egg_groups = ["Undiscovered"]
+raw_abilities = [
+    "DROUGHT",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "MUDSHOT" },
+    { at_level = 6, name = "SCARYFACE" },
+    { at_level = 10, name = "SCORCHINGSANDS" },
+    { at_level = 14, name = "LAVAPLUME" },
+    { at_level = 18, name = "REST" },
+    { at_level = 22, name = "HAMMERARM" },
+    { at_level = 26, name = "BULKUP" },
+    { at_level = 30, name = "INFERNO" },
+    { at_level = 34, name = "RAGINGFURY" },
+    { at_level = 38, name = "FIREBLAST" },
+    { at_level = 42, name = "SOLARBEAM" },
+    { at_level = 46, name = "EARTHQUAKE" },
+    { at_level = 50, name = "ERUPTION" },
+]
+raw_tms = [
+    "CUT",
+    "DRAGONCLAW",
+    "STRENGTH",
+    "ROAR",
+    "TOXIC",
+    "ROCKSMASH",
+    "BULKUP",
+    "ROCKCLIMB",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "PROTECT",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "SMACKDOWN",
+    "THUNDERBOLT",
+    "THUNDER",
+    "EARTHQUAKE",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "FLAMETHROWER",
+    "SANDSTORM",
+    "FIREBLAST",
+    "ROCKTOMB",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ROUND",
+    "OVERHEAT",
+    "FOCUSBLAST",
+    "FLING",
+    "BRUTALSWING",
+    "SHADOWCLAW",
+    "GIGAIMPACT",
+    "ROCKPOLISH",
+    "STONEEDGE",
+    "THUNDERWAVE",
+    "SWORDSDANCE",
+    "PSYCHUP",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "DRAGONTAIL",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "DIG",
+    "SCARYFACE",
+    "BODYSLAM",
+    "ENDURE",
+    "HEATCRASH",
+    "HEAVYSLAM",
+    "HIGHHORSEPOWER",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "ANCIENTPOWER",
+    "BLOCK",
+    "DRAGONPULSE",
+    "EARTHPOWER",
+    "FIREPUNCH",
+    "FURYCUTTER",
+    "HEADBUTT",
+    "IRONHEAD",
+    "IRONTAIL",
+    "MIMIC",
+    "MUDSLAP",
+    "RAGINGFURY",
+    "ROLLOUT",
+    "SCORCHINGSANDS",
+    "SHOCKWAVE",
+    "SNORE",
+    "STEALTHROCK",
+    "STOMPINGTANTRUM",
+    "THUNDERPUNCH",
+    "UPROAR",
+]
+compatible_egg_groups = [
+    "Undiscovered",
+]
 steps_to_hatch = 30855
 height = 3.5
 weight = 950.0
@@ -20,63 +121,7 @@ pokedex_entry = "Groudon has appeared in mythology as the creator of the land. I
 battler_player_y = 12
 battler_enemy_y = 6
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 383
-internal_name = "GROUDON"
 habitat = "RoughTerrain"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "MUDSHOT"
-
-[[raw_level_up_moves]]
-at_level = 6
-name = "SCARYFACE"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "SCORCHINGSANDS"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "LAVAPLUME"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "REST"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "HAMMERARM"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "BULKUP"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "INFERNO"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "RAGINGFURY"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "FIREBLAST"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "SOLARBEAM"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "EARTHQUAKE"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "ERUPTION"
 
 [base_stats]
 hp = 100
@@ -93,5 +138,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

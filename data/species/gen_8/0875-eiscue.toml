@@ -1,3 +1,4 @@
+dex_number = 875
 name = "Eiscue"
 primary_type = "ICE"
 secondary_type = "ICE"
@@ -6,11 +7,71 @@ growth_rate = "Slow"
 exp_yield = 165
 catch_rate = 60
 caught_happiness = 50
-raw_abilities = ["ICEFACE"]
-raw_egg_moves = ["SOAK", "AQUARING", "BELLYDRUM", "DOUBLEEDGE", "ICICLECRASH", "HEADSMASH"]
-raw_tms = ["SURF", "WATERFALL", "DIVE", "HAIL", "ICEBEAM", "BLIZZARD", "PROTECT", "REFLECT", "FACADE", "REST", "ATTRACT", "ROUND", "AURORAVEIL", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "WHIRLPOOL", "WEATHERBALL", "ICICLESPEAR", "BRINE", "AVALANCHE", "HYDROPUMP", "AGILITY", "AMNESIA", "REVERSAL", "ENDURE", "ICESPINNER", "SNOWSCAPE", "CHILLINGWATER"]
-raw_tutor_moves = ["HEADBUTT", "ICEPUNCH", "ICYWIND", "IRONDEFENSE", "IRONHEAD", "LIQUIDATION", "SNORE", "ZENHEADBUTT", "MIMIC", "FLIPTURN"]
-compatible_egg_groups = ["Water1", "Field"]
+raw_abilities = [
+    "ICEFACE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "HAIL" },
+    { at_level = 1, name = "POWDERSNOW" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 6, name = "MIST" },
+    { at_level = 12, name = "WEATHERBALL" },
+    { at_level = 18, name = "ICYWIND" },
+    { at_level = 24, name = "HEADBUTT" },
+    { at_level = 30, name = "AMNESIA" },
+    { at_level = 36, name = "FREEZEDRY" },
+    { at_level = 42, name = "SNOWSCAPE" },
+    { at_level = 48, name = "AURORAVEIL" },
+    { at_level = 54, name = "SURF" },
+    { at_level = 60, name = "BLIZZARD" },
+]
+raw_tms = [
+    "SURF",
+    "WATERFALL",
+    "DIVE",
+    "HAIL",
+    "ICEBEAM",
+    "BLIZZARD",
+    "PROTECT",
+    "REFLECT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "AURORAVEIL",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "WHIRLPOOL",
+    "WEATHERBALL",
+    "ICICLESPEAR",
+    "BRINE",
+    "AVALANCHE",
+    "HYDROPUMP",
+    "AGILITY",
+    "AMNESIA",
+    "REVERSAL",
+    "ENDURE",
+    "ICESPINNER",
+    "SNOWSCAPE",
+    "CHILLINGWATER",
+]
+raw_tutor_moves = [
+    "FLIPTURN",
+    "HEADBUTT",
+    "ICEPUNCH",
+    "ICYWIND",
+    "IRONDEFENSE",
+    "IRONHEAD",
+    "LIQUIDATION",
+    "MIMIC",
+    "SNORE",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Water1",
+    "Field",
+]
 steps_to_hatch = 6400
 height = 1.4
 weight = 89.0
@@ -20,63 +81,15 @@ pokedex_entry = "This Pokémon keeps its heat-sensitive head cool with ice. It f
 battler_player_y = 21
 battler_enemy_y = 26
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 875
-internal_name = "EISCUE"
+raw_egg_moves = [
+    "SOAK",
+    "AQUARING",
+    "BELLYDRUM",
+    "DOUBLEEDGE",
+    "ICICLECRASH",
+    "HEADSMASH",
+]
 regional_numbers = 875
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HAIL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "POWDERSNOW"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 6
-name = "MIST"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "WEATHERBALL"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "ICYWIND"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "HEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "AMNESIA"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "FREEZEDRY"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "SNOWSCAPE"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "AURORAVEIL"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "SURF"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "BLIZZARD"
 
 [base_stats]
 hp = 75
@@ -93,5 +106,3 @@ def_ = 2
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

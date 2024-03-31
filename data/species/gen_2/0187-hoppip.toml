@@ -1,3 +1,4 @@
+dex_number = 187
 name = "Hoppip"
 primary_type = "GRASS"
 secondary_type = "FLYING"
@@ -6,11 +7,91 @@ growth_rate = "Parabolic"
 exp_yield = 50
 catch_rate = 255
 caught_happiness = 70
-raw_abilities = ["PRANKSTER", "LEAFGUARD", "INFILTRATOR"]
-raw_egg_moves = ["AMNESIA", "AROMATHERAPY", "CONFUSION", "COTTONGUARD", "DOUBLEEDGE", "ENCORE", "ENDURE", "GRASSYTERRAIN", "HELPINGHAND", "SEEDBOMB", "STRENGTHSAP", "WORRYSEED"]
-raw_tms = ["TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "REFLECT", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "ACROBATICS", "SWORDSDANCE", "PSYCHUP", "INFESTATION", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "DAZZLINGGLEAM", "CONFIDE", "PAYDAY", "BULLETSEED", "GRASSYTERRAIN", "AMNESIA", "ENDURE", "BATONPASS", "ENCORE", "TRAILBLAZE"]
-raw_tutor_moves = ["BOUNCE", "GIGADRAIN", "HEADBUTT", "HELPINGHAND", "SEEDBOMB", "SNORE", "SYNTHESIS", "WORRYSEED", "MIMIC"]
-compatible_egg_groups = ["Fairy", "Grass"]
+raw_abilities = [
+    "PRANKSTER",
+    "LEAFGUARD",
+    "INFILTRATOR",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "SPLASH" },
+    { at_level = 1, name = "SYNTHESIS" },
+    { at_level = 1, name = "ABSORB" },
+    { at_level = 4, name = "TACKLE" },
+    { at_level = 6, name = "BULLETSEED" },
+    { at_level = 8, name = "GUST" },
+    { at_level = 10, name = "STUNSPORE" },
+    { at_level = 12, name = "MEGADRAIN" },
+    { at_level = 14, name = "WORRYSEED" },
+    { at_level = 16, name = "POISONPOWDER" },
+    { at_level = 16, name = "SLEEPPOWDER" },
+    { at_level = 16, name = "RAGEPOWDER" },
+    { at_level = 19, name = "ACROBATICS" },
+    { at_level = 22, name = "CONFUSION" },
+    { at_level = 24, name = "LEECHSEED" },
+    { at_level = 26, name = "AROMATHERAPY" },
+    { at_level = 28, name = "LEAFTORNADO" },
+    { at_level = 31, name = "AIRCUTTER" },
+    { at_level = 34, name = "COTTONGUARD" },
+    { at_level = 37, name = "HELPINGHAND" },
+    { at_level = 40, name = "ENERGYBALL" },
+    { at_level = 43, name = "AMNESIA" },
+    { at_level = 46, name = "AIRSLASH" },
+    { at_level = 50, name = "TAILWIND" },
+    { at_level = 54, name = "MEMENTO" },
+]
+raw_tms = [
+    "TOXIC",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "PROTECT",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "DOUBLETEAM",
+    "REFLECT",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ENERGYBALL",
+    "ACROBATICS",
+    "SWORDSDANCE",
+    "PSYCHUP",
+    "INFESTATION",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "DAZZLINGGLEAM",
+    "CONFIDE",
+    "PAYDAY",
+    "BULLETSEED",
+    "GRASSYTERRAIN",
+    "AMNESIA",
+    "ENDURE",
+    "BATONPASS",
+    "ENCORE",
+    "TRAILBLAZE",
+]
+raw_tutor_moves = [
+    "BOUNCE",
+    "GIGADRAIN",
+    "HEADBUTT",
+    "HELPINGHAND",
+    "MIMIC",
+    "SEEDBOMB",
+    "SNORE",
+    "SYNTHESIS",
+    "WORRYSEED",
+]
+compatible_egg_groups = [
+    "Fairy",
+    "Grass",
+]
 steps_to_hatch = 5355
 height = 0.4
 weight = 0.5
@@ -20,117 +101,24 @@ pokedex_entry = "This Pokémon drifts with the wind. If it senses the approach o
 battler_player_y = 31
 battler_enemy_y = 20
 battler_altitude = 13
-form_names = []
-dex_number = 187
-internal_name = "HOPPIP"
+raw_egg_moves = [
+    "AMNESIA",
+    "AROMATHERAPY",
+    "CONFUSION",
+    "COTTONGUARD",
+    "DOUBLEEDGE",
+    "ENCORE",
+    "ENDURE",
+    "GRASSYTERRAIN",
+    "HELPINGHAND",
+    "SEEDBOMB",
+    "STRENGTHSAP",
+    "WORRYSEED",
+]
 habitat = "Grassland"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SPLASH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SYNTHESIS"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ABSORB"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 6
-name = "BULLETSEED"
-
-[[raw_level_up_moves]]
-at_level = 8
-name = "GUST"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "STUNSPORE"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "MEGADRAIN"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "WORRYSEED"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "POISONPOWDER"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "SLEEPPOWDER"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "RAGEPOWDER"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "ACROBATICS"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "CONFUSION"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "LEECHSEED"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "AROMATHERAPY"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "LEAFTORNADO"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "AIRCUTTER"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "COTTONGUARD"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "HELPINGHAND"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "ENERGYBALL"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "AMNESIA"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "AIRSLASH"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "TAILWIND"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "MEMENTO"
-
-[[evolutions]]
-into_name = "SKIPLOOM"
-condition = "Level"
-parameter = "18"
-
-
+evolutions = [
+    { into_name = "SKIPLOOM", condition = "Level", parameter = "18" },
+]
 
 [base_stats]
 hp = 35
@@ -147,5 +135,3 @@ def_ = 0
 spa = 0
 spd = 1
 spe = 0
-
-[wild_items]

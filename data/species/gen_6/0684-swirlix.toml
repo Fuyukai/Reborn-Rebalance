@@ -1,3 +1,4 @@
+dex_number = 684
 name = "Swirlix"
 primary_type = "FAIRY"
 secondary_type = "FAIRY"
@@ -6,11 +7,82 @@ growth_rate = "Medium"
 exp_yield = 68
 catch_rate = 200
 caught_happiness = 70
-raw_abilities = ["SWEETVEIL", "UNBURDEN"]
-raw_egg_moves = ["AFTERYOU", "BELLYDRUM", "COPYCAT", "STICKYWEB", "YAWN"]
-raw_tms = ["SURF", "CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "THUNDERBOLT", "RETURN", "PSYCHIC", "DOUBLETEAM", "FLAMETHROWER", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ENERGYBALL", "PSYCHUP", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "DAZZLINGGLEAM", "CONFIDE", "CHARM", "FAKETEARS", "DRAININGKISS", "AMNESIA", "ENDURE", "PLAYROUGH"]
-raw_tutor_moves = ["AFTERYOU", "COVET", "ENDEAVOR", "GASTROACID", "HEALBELL", "HELPINGHAND", "MAGICCOAT", "SNORE", "STRINGSHOT", "MISTYEXPLOSION", "MIMIC"]
-compatible_egg_groups = ["Fairy"]
+raw_abilities = [
+    "SWEETVEIL",
+    "UNBURDEN",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 1, name = "SWEETSCENT" },
+    { at_level = 5, name = "FAIRYWIND" },
+    { at_level = 8, name = "PLAYNICE" },
+    { at_level = 10, name = "FAKETEARS" },
+    { at_level = 13, name = "ROUND" },
+    { at_level = 17, name = "COTTONSPORE" },
+    { at_level = 19, name = "DRAININGKISS" },
+    { at_level = 21, name = "ENDEAVOR" },
+    { at_level = 26, name = "AROMATHERAPY" },
+    { at_level = 30, name = "PLAYROUGH" },
+    { at_level = 36, name = "ENERGYBALL" },
+    { at_level = 41, name = "COTTONGUARD" },
+    { at_level = 45, name = "WISH" },
+    { at_level = 58, name = "LIGHTSCREEN" },
+    { at_level = 67, name = "SAFEGUARD" },
+]
+raw_tms = [
+    "SURF",
+    "CALMMIND",
+    "TOXIC",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "THUNDERBOLT",
+    "RETURN",
+    "PSYCHIC",
+    "DOUBLETEAM",
+    "FLAMETHROWER",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "ENERGYBALL",
+    "PSYCHUP",
+    "DREAMEATER",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "DAZZLINGGLEAM",
+    "CONFIDE",
+    "CHARM",
+    "FAKETEARS",
+    "DRAININGKISS",
+    "AMNESIA",
+    "ENDURE",
+    "PLAYROUGH",
+]
+raw_tutor_moves = [
+    "AFTERYOU",
+    "COVET",
+    "ENDEAVOR",
+    "GASTROACID",
+    "HEALBELL",
+    "HELPINGHAND",
+    "MAGICCOAT",
+    "MIMIC",
+    "MISTYEXPLOSION",
+    "SNORE",
+    "STRINGSHOT",
+]
+compatible_egg_groups = [
+    "Fairy",
+]
 steps_to_hatch = 5120
 height = 0.4
 weight = 3.5
@@ -20,80 +92,16 @@ pokedex_entry = "To entangle its opponents in battle, it extrudes white threads 
 battler_player_y = 19
 battler_enemy_y = 21
 battler_altitude = 0
-form_names = []
-dex_number = 684
-internal_name = "SWIRLIX"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SWEETSCENT"
-
-[[raw_level_up_moves]]
-at_level = 5
-name = "FAIRYWIND"
-
-[[raw_level_up_moves]]
-at_level = 8
-name = "PLAYNICE"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "FAKETEARS"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "ROUND"
-
-[[raw_level_up_moves]]
-at_level = 17
-name = "COTTONSPORE"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "DRAININGKISS"
-
-[[raw_level_up_moves]]
-at_level = 21
-name = "ENDEAVOR"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "AROMATHERAPY"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "PLAYROUGH"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "ENERGYBALL"
-
-[[raw_level_up_moves]]
-at_level = 41
-name = "COTTONGUARD"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "WISH"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "LIGHTSCREEN"
-
-[[raw_level_up_moves]]
-at_level = 67
-name = "SAFEGUARD"
-
-[[evolutions]]
-into_name = "SLURPUFF"
-condition = "TradeItem"
-parameter = "WHIPPEDDREAM"
-
-
+raw_egg_moves = [
+    "AFTERYOU",
+    "BELLYDRUM",
+    "COPYCAT",
+    "STICKYWEB",
+    "YAWN",
+]
+evolutions = [
+    { into_name = "SLURPUFF", condition = "TradeItem", parameter = "WHIPPEDDREAM" },
+]
 
 [base_stats]
 hp = 62
@@ -110,5 +118,3 @@ def_ = 1
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

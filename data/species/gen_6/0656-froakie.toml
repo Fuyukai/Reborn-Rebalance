@@ -1,3 +1,4 @@
+dex_number = 656
 name = "Froakie"
 primary_type = "WATER"
 secondary_type = "WATER"
@@ -6,11 +7,88 @@ growth_rate = "Parabolic"
 exp_yield = 63
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["TORRENT", "PROTEAN"]
-raw_egg_moves = ["BESTOW", "CAMOUFLAGE", "MINDREADER", "MUDSPORT", "POWERUPPUNCH", "TOXICSPIKES", "WATERSPORT"]
-raw_tms = ["WORKUP", "CUT", "SURF", "STRENGTH", "WATERFALL", "TOXIC", "DIVE", "ROCKSMASH", "HIDDENPOWER", "TAUNT", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "SMACKDOWN", "RETURN", "DOUBLETEAM", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "SCALD", "FLING", "ACROBATICS", "ROCKSLIDE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "DIG", "HYDROPUMP", "ENDURE", "TOXICSPIKES", "SNOWSCAPE", "TRAILBLAZE", "CHILLINGWATER"]
-raw_tutor_moves = ["BOUNCE", "ICYWIND", "ROLEPLAY", "SNATCH", "SNORE", "SPITE", "WATERPLEDGE", "WATERPULSE", "FLIPTURN", "MIMIC"]
-compatible_egg_groups = ["Water1"]
+raw_abilities = [
+    "TORRENT",
+    "PROTEAN",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "POUND" },
+    { at_level = 1, name = "GROWL" },
+    { at_level = 5, name = "BUBBLE" },
+    { at_level = 8, name = "QUICKATTACK" },
+    { at_level = 10, name = "LICK" },
+    { at_level = 14, name = "BUBBLEBEAM" },
+    { at_level = 18, name = "SMOKESCREEN" },
+    { at_level = 21, name = "ROUND" },
+    { at_level = 25, name = "FLING" },
+    { at_level = 29, name = "SMACKDOWN" },
+    { at_level = 35, name = "SUBSTITUTE" },
+    { at_level = 39, name = "BOUNCE" },
+    { at_level = 43, name = "DOUBLETEAM" },
+    { at_level = 48, name = "HYDROPUMP" },
+]
+raw_tms = [
+    "WORKUP",
+    "CUT",
+    "SURF",
+    "STRENGTH",
+    "WATERFALL",
+    "TOXIC",
+    "DIVE",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "TAUNT",
+    "ICEBEAM",
+    "BLIZZARD",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "SMACKDOWN",
+    "RETURN",
+    "DOUBLETEAM",
+    "ROCKTOMB",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "ECHOEDVOICE",
+    "SCALD",
+    "FLING",
+    "ACROBATICS",
+    "ROCKSLIDE",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "DIG",
+    "HYDROPUMP",
+    "ENDURE",
+    "TOXICSPIKES",
+    "SNOWSCAPE",
+    "TRAILBLAZE",
+    "CHILLINGWATER",
+]
+raw_tutor_moves = [
+    "BOUNCE",
+    "FLIPTURN",
+    "ICYWIND",
+    "MIMIC",
+    "ROLEPLAY",
+    "SNATCH",
+    "SNORE",
+    "SPITE",
+    "WATERPLEDGE",
+    "WATERPULSE",
+]
+compatible_egg_groups = [
+    "Water1",
+]
 steps_to_hatch = 5120
 height = 0.3
 weight = 7.0
@@ -20,72 +98,18 @@ pokedex_entry = "It protects its skin by covering its body in delicate bubbles. 
 battler_player_y = 15
 battler_enemy_y = 26
 battler_altitude = 0
-form_names = []
-dex_number = 656
-internal_name = "FROAKIE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "POUND"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWL"
-
-[[raw_level_up_moves]]
-at_level = 5
-name = "BUBBLE"
-
-[[raw_level_up_moves]]
-at_level = 8
-name = "QUICKATTACK"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "LICK"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "BUBBLEBEAM"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "SMOKESCREEN"
-
-[[raw_level_up_moves]]
-at_level = 21
-name = "ROUND"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "FLING"
-
-[[raw_level_up_moves]]
-at_level = 29
-name = "SMACKDOWN"
-
-[[raw_level_up_moves]]
-at_level = 35
-name = "SUBSTITUTE"
-
-[[raw_level_up_moves]]
-at_level = 39
-name = "BOUNCE"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "DOUBLETEAM"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "HYDROPUMP"
-
-[[evolutions]]
-into_name = "FROGADIER"
-condition = "Level"
-parameter = "16"
-
-
+raw_egg_moves = [
+    "BESTOW",
+    "CAMOUFLAGE",
+    "MINDREADER",
+    "MUDSPORT",
+    "POWERUPPUNCH",
+    "TOXICSPIKES",
+    "WATERSPORT",
+]
+evolutions = [
+    { into_name = "FROGADIER", condition = "Level", parameter = "16" },
+]
 
 [base_stats]
 hp = 41
@@ -102,5 +126,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 1
-
-[wild_items]

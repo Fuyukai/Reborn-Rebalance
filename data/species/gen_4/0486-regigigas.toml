@@ -1,3 +1,4 @@
+dex_number = 486
 name = "Regigigas"
 primary_type = "NORMAL"
 secondary_type = "NORMAL"
@@ -6,11 +7,110 @@ growth_rate = "Slow"
 exp_yield = 302
 catch_rate = 3
 caught_happiness = 0
-raw_abilities = ["SLOWSTART", "DEFEATIST", "CLEARBODY"]  # let my boy be powerful!
-raw_egg_moves = []
-raw_tms = ["STRENGTH", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "SMACKDOWN", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ROUND", "FOCUSBLAST", "FLING", "PAYBACK", "GIGAIMPACT", "ROCKPOLISH", "STONEEDGE", "THUNDERWAVE", "PSYCHUP", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "NATUREPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "REVENGE", "AVALANCHE", "BODYSLAM", "ENDURE", "HEATCRASH", "HEAVYSLAM", "DARKESTLARIAT", "HIGHHORSEPOWER", "BODYPRESS", "RETALIATE", "LOWSWEEP", "WORKUP"]
-raw_tutor_moves = ["ANCIENTPOWER", "BLOCK", "DRAINPUNCH", "EARTHPOWER", "FIREPUNCH", "FOCUSPUNCH", "GRAVITY", "HEADBUTT", "ICEPUNCH", "ICYWIND", "IRONHEAD", "KNOCKOFF", "MUDSLAP", "SHOCKWAVE", "SNORE", "STOMPINGTANTRUM", "SUPERPOWER", "THUNDERPUNCH", "ZENHEADBUTT", "TERRAINPULSE", "POWERSHIFT", "HEADLONGRUSH", "MIMIC"]
-compatible_egg_groups = ["Undiscovered"]
+raw_abilities = [
+    "SLOWSTART",
+    "DEFEATIST",
+    "CLEARBODY",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "CRUSHCLAW" },
+    { at_level = 1, name = "HEAVYSLAM" },
+    { at_level = 1, name = "DIZZYPUNCH" },
+    { at_level = 6, name = "KNOCKOFF" },
+    { at_level = 10, name = "CONFUSERAY" },
+    { at_level = 14, name = "FORESIGHT" },
+    { at_level = 18, name = "DRAINPUNCH" },
+    { at_level = 22, name = "REVENGE" },
+    { at_level = 26, name = "ZENHEADBUTT" },
+    { at_level = 30, name = "HEADLONGRUSH" },
+    { at_level = 34, name = "BLOCK" },
+    { at_level = 38, name = "NATUREPOWER" },
+    { at_level = 42, name = "CRUSHGRIP" },
+    { at_level = 46, name = "SUPERPOWER" },
+    { at_level = 50, name = "GIGAIMPACT" },
+]
+raw_tms = [
+    "WORKUP",
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "SMACKDOWN",
+    "THUNDERBOLT",
+    "THUNDER",
+    "EARTHQUAKE",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "ROCKTOMB",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "LOWSWEEP",
+    "ROUND",
+    "FOCUSBLAST",
+    "FLING",
+    "PAYBACK",
+    "GIGAIMPACT",
+    "ROCKPOLISH",
+    "STONEEDGE",
+    "THUNDERWAVE",
+    "PSYCHUP",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "NATUREPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "REVENGE",
+    "AVALANCHE",
+    "BODYSLAM",
+    "ENDURE",
+    "HEATCRASH",
+    "HEAVYSLAM",
+    "DARKESTLARIAT",
+    "HIGHHORSEPOWER",
+    "BODYPRESS",
+    "RETALIATE",
+]
+raw_tutor_moves = [
+    "ANCIENTPOWER",
+    "BLOCK",
+    "DRAINPUNCH",
+    "EARTHPOWER",
+    "FIREPUNCH",
+    "FOCUSPUNCH",
+    "GRAVITY",
+    "HEADBUTT",
+    "HEADLONGRUSH",
+    "ICEPUNCH",
+    "ICYWIND",
+    "IRONHEAD",
+    "KNOCKOFF",
+    "MIMIC",
+    "MUDSLAP",
+    "POWERSHIFT",
+    "SHOCKWAVE",
+    "SNORE",
+    "STOMPINGTANTRUM",
+    "SUPERPOWER",
+    "TERRAINPULSE",
+    "THUNDERPUNCH",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Undiscovered",
+]
 steps_to_hatch = 30855
 height = 3.7
 weight = 420.0
@@ -20,70 +120,6 @@ pokedex_entry = "There is an enduring legend that states this Pokémon having to
 battler_player_y = 13
 battler_enemy_y = 7
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 486
-internal_name = "REGIGIGAS"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "CRUSHCLAW"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HEAVYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "DIZZYPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 6
-name = "KNOCKOFF"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "CONFUSERAY"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "FORESIGHT"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "DRAINPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "REVENGE"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "ZENHEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "HEADLONGRUSH"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "BLOCK"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "NATUREPOWER"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "CRUSHGRIP"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "SUPERPOWER"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "GIGAIMPACT"
 
 [base_stats]
 hp = 110
@@ -100,5 +136,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

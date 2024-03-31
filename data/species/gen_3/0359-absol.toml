@@ -1,3 +1,4 @@
+dex_number = 359
 name = "Absol"
 primary_type = "DARK"
 secondary_type = "DARK"
@@ -6,11 +7,130 @@ growth_rate = "Parabolic"
 exp_yield = 163
 catch_rate = 30
 caught_happiness = 35
-raw_abilities = ["PRESSURE", "SUPERLUCK"]
-raw_egg_moves = ["ASSURANCE", "BATONPASS", "CURSE", "DOUBLEEDGE", "FEINTATTACK", "HEX", "MAGICCOAT", "MEFIRST", "MEANLOOK", "MEGAHORN", "PERISHSONG", "PLAYROUGH", "PUNISHMENT", "SUCKERPUNCH", "ZENHEADBUTT"]
-raw_tms = ["CUT", "CALMMIND", "STRENGTH", "TOXIC", "HAIL", "ROCKSMASH", "FLASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "SHADOWBALL", "DOUBLETEAM", "FLAMETHROWER", "SANDSTORM", "FIREBLAST", "ROCKTOMB", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "FALSESWIPE", "CHARGEBEAM", "BRUTALSWING", "WILLOWISP", "SHADOWCLAW", "PAYBACK", "GIGAIMPACT", "STONEEDGE", "THUNDERWAVE", "SWORDSDANCE", "PSYCHUP", "ROCKSLIDE", "XSCISSOR", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "SNARL", "DARKPULSE", "CONFIDE", "ASSURANCE", "PSYCHOCUT", "AIRSLASH", "HEX", "BODYSLAM", "MEGAHORN", "CLOSECOMBAT", "ENDURE", "BATONPASS", "FUTURESIGHT", "PLAYROUGH", "RETALIATE", "SWIFT", "AURASPHERE", "LOWSWEEP"]
-raw_tutor_moves = ["BOUNCE", "FOULPLAY", "FURYCUTTER", "HEADBUTT", "ICYWIND", "IRONTAIL", "KNOCKOFF", "LASERFOCUS", "MAGICCOAT", "MUDSLAP", "ROLEPLAY", "SHOCKWAVE", "SNATCH", "SNORE", "SPITE", "SUCKERPUNCH", "SUPERPOWER", "THROATCHOP", "WATERPULSE", "ZENHEADBUTT", "MIMIC"]
-compatible_egg_groups = ["Field"]
+raw_abilities = [
+    "PRESSURE",
+    "SUPERLUCK",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "SCRATCH" },
+    { at_level = 1, name = "FEINT" },
+    { at_level = 4, name = "LEER" },
+    { at_level = 7, name = "QUICKATTACK" },
+    { at_level = 10, name = "PURSUIT" },
+    { at_level = 13, name = "TAUNT" },
+    { at_level = 16, name = "BITE" },
+    { at_level = 19, name = "DOUBLETEAM" },
+    { at_level = 22, name = "SLASH" },
+    { at_level = 22, name = "NIGHTSLASH" },
+    { at_level = 25, name = "SWORDSDANCE" },
+    { at_level = 28, name = "PSYCHOCUT" },
+    { at_level = 31, name = "DETECT" },
+    { at_level = 34, name = "MEFIRST" },
+    { at_level = 37, name = "SUCKERPUNCH" },
+    { at_level = 40, name = "PLAYROUGH" },
+    { at_level = 44, name = "MEGAHORN" },
+    { at_level = 48, name = "FOULPLAY" },
+    { at_level = 52, name = "FUTURESIGHT" },
+    { at_level = 56, name = "PERISHSONG" },
+    { at_level = 60, name = "CLOSECOMBAT" },
+]
+raw_tms = [
+    "CUT",
+    "CALMMIND",
+    "STRENGTH",
+    "TOXIC",
+    "HAIL",
+    "ROCKSMASH",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "ICEBEAM",
+    "BLIZZARD",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "THUNDERBOLT",
+    "THUNDER",
+    "RETURN",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "FLAMETHROWER",
+    "SANDSTORM",
+    "FIREBLAST",
+    "ROCKTOMB",
+    "AERIALACE",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "LOWSWEEP",
+    "ROUND",
+    "ECHOEDVOICE",
+    "FALSESWIPE",
+    "CHARGEBEAM",
+    "BRUTALSWING",
+    "WILLOWISP",
+    "SHADOWCLAW",
+    "PAYBACK",
+    "GIGAIMPACT",
+    "STONEEDGE",
+    "THUNDERWAVE",
+    "SWORDSDANCE",
+    "PSYCHUP",
+    "ROCKSLIDE",
+    "XSCISSOR",
+    "DREAMEATER",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "SNARL",
+    "DARKPULSE",
+    "CONFIDE",
+    "ASSURANCE",
+    "PSYCHOCUT",
+    "AIRSLASH",
+    "HEX",
+    "BODYSLAM",
+    "MEGAHORN",
+    "CLOSECOMBAT",
+    "ENDURE",
+    "BATONPASS",
+    "FUTURESIGHT",
+    "AURASPHERE",
+    "PLAYROUGH",
+    "RETALIATE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "BOUNCE",
+    "FOULPLAY",
+    "FURYCUTTER",
+    "HEADBUTT",
+    "ICYWIND",
+    "IRONTAIL",
+    "KNOCKOFF",
+    "LASERFOCUS",
+    "MAGICCOAT",
+    "MIMIC",
+    "MUDSLAP",
+    "ROLEPLAY",
+    "SHOCKWAVE",
+    "SNATCH",
+    "SNORE",
+    "SPITE",
+    "SUCKERPUNCH",
+    "SUPERPOWER",
+    "THROATCHOP",
+    "WATERPULSE",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Field",
+]
 steps_to_hatch = 6630
 height = 1.2
 weight = 47.0
@@ -20,96 +140,25 @@ pokedex_entry = "It sharply senses even subtle changes in sky and land to predic
 battler_player_y = 17
 battler_enemy_y = 13
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 359
-internal_name = "ABSOL"
 raw_hidden_ability = "JUSTIFIED"
+raw_egg_moves = [
+    "ASSURANCE",
+    "BATONPASS",
+    "CURSE",
+    "DOUBLEEDGE",
+    "FEINTATTACK",
+    "HEX",
+    "MAGICCOAT",
+    "MEFIRST",
+    "MEANLOOK",
+    "MEGAHORN",
+    "PERISHSONG",
+    "PLAYROUGH",
+    "PUNISHMENT",
+    "SUCKERPUNCH",
+    "ZENHEADBUTT",
+]
 habitat = "Mountain"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SCRATCH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FEINT"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "QUICKATTACK"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "PURSUIT"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "TAUNT"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "DOUBLETEAM"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "SLASH"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "NIGHTSLASH"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "SWORDSDANCE"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "PSYCHOCUT"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "DETECT"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "MEFIRST"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "SUCKERPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "PLAYROUGH"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "MEGAHORN"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "FOULPLAY"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "FUTURESIGHT"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "PERISHSONG"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "CLOSECOMBAT"
 
 [base_stats]
 hp = 65
@@ -126,5 +175,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

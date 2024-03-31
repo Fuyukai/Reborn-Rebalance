@@ -1,3 +1,4 @@
+dex_number = 279
 name = "Pelipper"
 primary_type = "WATER"
 secondary_type = "FLYING"
@@ -6,11 +7,109 @@ growth_rate = "Medium"
 exp_yield = 154
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["KEENEYE", "DRIZZLE"]
-raw_egg_moves = []
-raw_tms = ["FLY", "SURF", "TOXIC", "HAIL", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "FRUSTRATION", "RETURN", "DOUBLETEAM", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "STEELWING", "SCALD", "FLING", "SKYDROP", "PAYBACK", "GIGAIMPACT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "WHIRLPOOL", "WEATHERBALL", "BRINE", "AIRSLASH", "HYDROPUMP", "HURRICANE", "BRAVEBIRD", "AGILITY", "ENDURE", "SNOWSCAPE", "CHILLINGWATER", "SWIFT", "ACROBATICS"]
-raw_tutor_moves = ["AIRCUTTER", "DEFOG", "GUNKSHOT", "ICYWIND", "KNOCKOFF", "LIQUIDATION", "MUDSLAP", "OMINOUSWIND", "SEEDBOMB", "SHOCKWAVE", "SKYATTACK", "SNORE", "TAILWIND", "TWISTER", "UPROAR", "WATERPULSE", "DUALWINGBEAT", "MIMIC"]
-compatible_egg_groups = ["Water1", "Flying"]
+raw_abilities = [
+    "KEENEYE",
+    "DRIZZLE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "WIDEGUARD" },
+    { at_level = 1, name = "GROWL" },
+    { at_level = 1, name = "SUPERSONIC" },
+    { at_level = 1, name = "WATERGUN" },
+    { at_level = 4, name = "WINGATTACK" },
+    { at_level = 7, name = "MIST" },
+    { at_level = 10, name = "GUST" },
+    { at_level = 13, name = "WATERPULSE" },
+    { at_level = 16, name = "TWISTER" },
+    { at_level = 19, name = "PURSUIT" },
+    { at_level = 22, name = "BRINE" },
+    { at_level = 25, name = "AIRCUTTER" },
+    { at_level = 25, name = "STOCKPILE" },
+    { at_level = 25, name = "SWALLOW" },
+    { at_level = 28, name = "AQUARING" },
+    { at_level = 32, name = "OMINOUSWIND" },
+    { at_level = 36, name = "SOAK" },
+    { at_level = 40, name = "FLING" },
+    { at_level = 44, name = "AGILITY" },
+    { at_level = 48, name = "AIRSLASH" },
+    { at_level = 52, name = "TAILWIND" },
+    { at_level = 56, name = "RAINDANCE" },
+    { at_level = 60, name = "HURRICANE" },
+    { at_level = 64, name = "HYDROPUMP" },
+]
+raw_tms = [
+    "FLY",
+    "SURF",
+    "TOXIC",
+    "HAIL",
+    "HIDDENPOWER",
+    "ICEBEAM",
+    "BLIZZARD",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "ROOST",
+    "ROOST",
+    "FRUSTRATION",
+    "RETURN",
+    "DOUBLETEAM",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "ECHOEDVOICE",
+    "STEELWING",
+    "SCALD",
+    "FLING",
+    "SKYDROP",
+    "ACROBATICS",
+    "PAYBACK",
+    "GIGAIMPACT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "WHIRLPOOL",
+    "WEATHERBALL",
+    "BRINE",
+    "AIRSLASH",
+    "HYDROPUMP",
+    "HURRICANE",
+    "BRAVEBIRD",
+    "AGILITY",
+    "ENDURE",
+    "SNOWSCAPE",
+    "CHILLINGWATER",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AIRCUTTER",
+    "DEFOG",
+    "DUALWINGBEAT",
+    "GUNKSHOT",
+    "ICYWIND",
+    "KNOCKOFF",
+    "LIQUIDATION",
+    "MIMIC",
+    "MUDSLAP",
+    "OMINOUSWIND",
+    "SEEDBOMB",
+    "SHOCKWAVE",
+    "SKYATTACK",
+    "SNORE",
+    "TAILWIND",
+    "TWISTER",
+    "UPROAR",
+    "WATERPULSE",
+]
+compatible_egg_groups = [
+    "Water1",
+    "Flying",
+]
 steps_to_hatch = 5355
 height = 1.2
 weight = 28.0
@@ -20,108 +119,8 @@ pokedex_entry = "It skims the tops of waves as it flies. When it spots prey, it 
 battler_player_y = 17
 battler_enemy_y = 7
 battler_altitude = 13
-evolutions = []
-form_names = []
-dex_number = 279
-internal_name = "PELIPPER"
 raw_hidden_ability = "RAINDISH"
 habitat = "Sea"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WIDEGUARD"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SUPERSONIC"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WATERGUN"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "WINGATTACK"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "MIST"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "GUST"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "WATERPULSE"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "TWISTER"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "PURSUIT"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "BRINE"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "AIRCUTTER"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "STOCKPILE"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "SWALLOW"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "AQUARING"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "OMINOUSWIND"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "SOAK"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "FLING"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "AGILITY"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "AIRSLASH"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "TAILWIND"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "RAINDANCE"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "HURRICANE"
-
-[[raw_level_up_moves]]
-at_level = 64
-name = "HYDROPUMP"
 
 [base_stats]
 hp = 60

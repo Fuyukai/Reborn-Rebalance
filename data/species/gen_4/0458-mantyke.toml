@@ -1,3 +1,4 @@
+dex_number = 458
 name = "Mantyke"
 primary_type = "WATER"
 secondary_type = "FLYING"
@@ -6,11 +7,87 @@ growth_rate = "Slow"
 exp_yield = 69
 catch_rate = 25
 caught_happiness = 70
-raw_abilities = ["SWIFTSWIM", "WATERABSORB"]
-raw_egg_moves = ["AMNESIA", "HAZE", "HYDROPUMP", "MIRRORCOAT", "MUDSPORT", "SIGNALBEAM", "SLAM", "SPLASH", "TAILWIND", "TWISTER", "WATERSPORT", "WIDEGUARD"]
-raw_tms = ["SURF", "WATERFALL", "TOXIC", "DIVE", "HAIL", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "SCALD", "ACROBATICS", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "WHIRLPOOL", "AIRSLASH", "HYDROPUMP", "AGILITY", "AMNESIA", "ENDURE", "SWIFT"]
-raw_tutor_moves = ["AIRCUTTER", "BOUNCE", "HEADBUTT", "HELPINGHAND", "ICYWIND", "MUDSLAP", "SIGNALBEAM", "SNORE", "TAILWIND", "WATERPULSE", "MIMIC", "WAVECRASH"]
-compatible_egg_groups = ["Undiscovered"]
+raw_abilities = [
+    "SWIFTSWIM",
+    "WATERABSORB",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 1, name = "SPLASH" },
+    { at_level = 1, name = "WATERGUN" },
+    { at_level = 4, name = "SUPERSONIC" },
+    { at_level = 7, name = "CONFUSERAY" },
+    { at_level = 10, name = "WATERPULSE" },
+    { at_level = 13, name = "WINGATTACK" },
+    { at_level = 16, name = "HEADBUTT" },
+    { at_level = 19, name = "BUBBLEBEAM" },
+    { at_level = 22, name = "AIRCUTTER" },
+    { at_level = 25, name = "TWISTER" },
+    { at_level = 28, name = "AGILITY" },
+    { at_level = 31, name = "BULLETSEED" },
+    { at_level = 34, name = "AQUARING" },
+    { at_level = 37, name = "MIRRORCOAT" },
+    { at_level = 40, name = "BOUNCE" },
+    { at_level = 43, name = "TAILWIND" },
+    { at_level = 46, name = "TAKEDOWN" },
+    { at_level = 49, name = "AIRSLASH" },
+    { at_level = 53, name = "HAZE" },
+    { at_level = 56, name = "HYDROPUMP" },
+]
+raw_tms = [
+    "SURF",
+    "WATERFALL",
+    "TOXIC",
+    "DIVE",
+    "HAIL",
+    "HIDDENPOWER",
+    "ICEBEAM",
+    "BLIZZARD",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "EARTHQUAKE",
+    "RETURN",
+    "DOUBLETEAM",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "SCALD",
+    "ACROBATICS",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "WHIRLPOOL",
+    "AIRSLASH",
+    "HYDROPUMP",
+    "AGILITY",
+    "AMNESIA",
+    "ENDURE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AIRCUTTER",
+    "BOUNCE",
+    "HEADBUTT",
+    "HELPINGHAND",
+    "ICYWIND",
+    "MIMIC",
+    "MUDSLAP",
+    "SIGNALBEAM",
+    "SNORE",
+    "TAILWIND",
+    "WATERPULSE",
+    "WAVECRASH",
+]
+compatible_egg_groups = [
+    "Undiscovered",
+]
 steps_to_hatch = 6630
 height = 1.0
 weight = 65.0
@@ -20,101 +97,24 @@ pokedex_entry = "A friendly Pokémon that captures the subtle flows of seawater 
 battler_player_y = 24
 battler_enemy_y = 21
 battler_altitude = 18
-form_names = []
-dex_number = 458
-internal_name = "MANTYKE"
 raw_hidden_ability = "WATERVEIL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SPLASH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WATERGUN"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "SUPERSONIC"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "CONFUSERAY"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "WATERPULSE"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "WINGATTACK"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "HEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "BUBBLEBEAM"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "AIRCUTTER"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "TWISTER"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "AGILITY"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "BULLETSEED"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "AQUARING"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "MIRRORCOAT"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "BOUNCE"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "TAILWIND"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "TAKEDOWN"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "AIRSLASH"
-
-[[raw_level_up_moves]]
-at_level = 53
-name = "HAZE"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "HYDROPUMP"
-
-[[evolutions]]
-into_name = "MANTINE"
-condition = "Level"
-parameter = "27"
-
-
+raw_egg_moves = [
+    "AMNESIA",
+    "HAZE",
+    "HYDROPUMP",
+    "MIRRORCOAT",
+    "MUDSPORT",
+    "SIGNALBEAM",
+    "SLAM",
+    "SPLASH",
+    "TAILWIND",
+    "TWISTER",
+    "WATERSPORT",
+    "WIDEGUARD",
+]
+evolutions = [
+    { into_name = "MANTINE", condition = "Level", parameter = "27" },
+]
 
 [base_stats]
 hp = 45
@@ -131,5 +131,3 @@ def_ = 0
 spa = 0
 spd = 1
 spe = 0
-
-[wild_items]

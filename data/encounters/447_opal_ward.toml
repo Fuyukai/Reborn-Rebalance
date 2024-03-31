@@ -1,61 +1,21 @@
-chances = [32, 20, 2]
+chances = [
+    32,
+    20,
+    2,
+]
 
-[[encounters.Land]]
-name = "RATTATA"
-minimum_level = 35
-maximum_level = 45
-
-[[encounters.Land]]
-name = "BIDOOF"
-minimum_level = 35
-maximum_level = 45
-
-[[encounters.Land]]
-name = "RATTATA"
-minimum_level = 35
-maximum_level = 45
-
-[[encounters.Land]]
-name = "BIDOOF"
-minimum_level = 35
-maximum_level = 45
-
-[[encounters.Land]]
-name = "PATRAT"
-minimum_level = 35
-maximum_level = 45
-
-[[encounters.Land]]
-name = "PIDGEY"
-minimum_level = 35
-maximum_level = 45
-
-[[encounters.Land]]
-name = "PATRAT"
-minimum_level = 35
-maximum_level = 45
-
-[[encounters.Land]]
-name = "PIDGEY"
-minimum_level = 35
-maximum_level = 45
-
-[[encounters.Land]]
-name = "MEOWTH"
-minimum_level = 35
-maximum_level = 45
-
-[[encounters.Land]]
-name = "EKANS"
-minimum_level = 35
-maximum_level = 45
-
-[[encounters.Land]]
-name = "MEOWTH"
-minimum_level = 35
-maximum_level = 45
-
-[[encounters.Land]]
-name = "EKANS"
-minimum_level = 35
-maximum_level = 45
+[encounters]
+Land = [
+    { name = "RATTATA", minimum_level = 35, maximum_level = 45 },
+    { name = "BIDOOF", minimum_level = 35, maximum_level = 45 },
+    { name = "RATTATA", minimum_level = 35, maximum_level = 45 },
+    { name = "BIDOOF", minimum_level = 35, maximum_level = 45 },
+    { name = "PATRAT", minimum_level = 35, maximum_level = 45 },
+    { name = "PIDGEY", minimum_level = 35, maximum_level = 45 },
+    { name = "PATRAT", minimum_level = 35, maximum_level = 45 },
+    { name = "PIDGEY", minimum_level = 35, maximum_level = 45 },
+    { name = "MEOWTH", minimum_level = 35, maximum_level = 45 },
+    { name = "EKANS", minimum_level = 35, maximum_level = 45 },
+    { name = "MEOWTH", minimum_level = 35, maximum_level = 45 },
+    { name = "EKANS", minimum_level = 35, maximum_level = 45 },
+]

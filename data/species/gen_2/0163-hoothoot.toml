@@ -1,3 +1,4 @@
+dex_number = 163
 name = "Hoothoot"
 primary_type = "NORMAL"
 secondary_type = "FLYING"
@@ -6,11 +7,98 @@ growth_rate = "Medium"
 exp_yield = 52
 catch_rate = 255
 caught_happiness = 70
-raw_abilities = ["INSOMNIA", "KEENEYE"]
-raw_egg_moves = ["AGILITY", "DEFOG", "FEATHERDANCE", "FEINTATTACK", "HURRICANE", "MEANLOOK", "MIRRORMOVE", "NIGHTSHADE", "SKYATTACK", "SUPERSONIC", "WHIRLWIND", "WINGATTACK"]
-raw_tms = ["WORKUP", "FLY", "CALMMIND", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "FRUSTRATION", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "STEELWING", "PSYCHUP", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "SCREECH", "IMPRISON", "AIRSLASH", "HURRICANE", "AGILITY", "AMNESIA", "ENDURE", "NASTYPLOT", "STOREDPOWER", "SWIFT"]
-raw_tutor_moves = ["AIRCUTTER", "DEFOG", "HEATWAVE", "HYPERVOICE", "MAGICCOAT", "MUDSLAP", "OMINOUSWIND", "RECYCLE", "SKYATTACK", "SNORE", "TAILWIND", "TWISTER", "UPROAR", "ZENHEADBUTT", "DUALWINGBEAT", "MIMIC"]
-compatible_egg_groups = ["Flying"]
+raw_abilities = [
+    "INSOMNIA",
+    "KEENEYE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "FORESIGHT" },
+    { at_level = 1, name = "GROWL" },
+    { at_level = 1, name = "MEANLOOK" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 4, name = "PECK" },
+    { at_level = 7, name = "CONFUSION" },
+    { at_level = 10, name = "MIRRORMOVE" },
+    { at_level = 13, name = "NIGHTSHADE" },
+    { at_level = 16, name = "UPROAR" },
+    { at_level = 19, name = "HYPNOSIS" },
+    { at_level = 22, name = "AIRCUTTER" },
+    { at_level = 25, name = "DREAMEATER" },
+    { at_level = 28, name = "WHIRLWIND" },
+    { at_level = 31, name = "EXTRASENSORY" },
+    { at_level = 34, name = "FEATHERDANCE" },
+    { at_level = 37, name = "AGILITY" },
+    { at_level = 40, name = "SYNCHRONOISE" },
+    { at_level = 43, name = "TAILWIND" },
+    { at_level = 46, name = "MOONBLAST" },
+    { at_level = 50, name = "AIRSLASH" },
+    { at_level = 54, name = "ESPERWING" },
+    { at_level = 58, name = "SKYATTACK" },
+]
+raw_tms = [
+    "WORKUP",
+    "FLY",
+    "CALMMIND",
+    "TOXIC",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "PROTECT",
+    "RAINDANCE",
+    "ROOST",
+    "ROOST",
+    "FRUSTRATION",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "REFLECT",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "ECHOEDVOICE",
+    "STEELWING",
+    "PSYCHUP",
+    "DREAMEATER",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "SCREECH",
+    "IMPRISON",
+    "AIRSLASH",
+    "HURRICANE",
+    "AGILITY",
+    "AMNESIA",
+    "ENDURE",
+    "NASTYPLOT",
+    "STOREDPOWER",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AIRCUTTER",
+    "DEFOG",
+    "DUALWINGBEAT",
+    "HEATWAVE",
+    "HYPERVOICE",
+    "MAGICCOAT",
+    "MIMIC",
+    "MUDSLAP",
+    "OMINOUSWIND",
+    "RECYCLE",
+    "SKYATTACK",
+    "SNORE",
+    "TAILWIND",
+    "TWISTER",
+    "UPROAR",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Flying",
+]
 steps_to_hatch = 4080
 height = 0.7
 weight = 21.2
@@ -20,106 +108,25 @@ pokedex_entry = "It has an internal organ that senses the earth's rotation. Usin
 battler_player_y = 27
 battler_enemy_y = 20
 battler_altitude = 0
-form_names = []
-dex_number = 163
-internal_name = "HOOTHOOT"
 raw_hidden_ability = "TINTEDLENS"
+raw_egg_moves = [
+    "AGILITY",
+    "DEFOG",
+    "FEATHERDANCE",
+    "FEINTATTACK",
+    "HURRICANE",
+    "MEANLOOK",
+    "MIRRORMOVE",
+    "NIGHTSHADE",
+    "SKYATTACK",
+    "SUPERSONIC",
+    "WHIRLWIND",
+    "WINGATTACK",
+]
 habitat = "Forest"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FORESIGHT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "MEANLOOK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "PECK"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "CONFUSION"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "MIRRORMOVE"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "NIGHTSHADE"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "UPROAR"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "HYPNOSIS"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "AIRCUTTER"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "DREAMEATER"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "WHIRLWIND"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "EXTRASENSORY"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "FEATHERDANCE"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "AGILITY"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "SYNCHRONOISE"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "TAILWIND"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "MOONBLAST"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "AIRSLASH"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "ESPERWING"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "SKYATTACK"
-
-[[evolutions]]
-into_name = "NOCTOWL"
-condition = "Level"
-parameter = "20"
-
-
+evolutions = [
+    { into_name = "NOCTOWL", condition = "Level", parameter = "20" },
+]
 
 [base_stats]
 hp = 60
@@ -136,5 +143,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

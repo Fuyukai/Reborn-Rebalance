@@ -1,3 +1,4 @@
+dex_number = 9
 name = "Blastoise"
 primary_type = "WATER"
 secondary_type = "WATER"
@@ -6,16 +7,125 @@ growth_rate = "Parabolic"
 exp_yield = 239
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["SHELLARMOR", "TORRENT", "RAINDISH"]
-raw_egg_moves = []
-raw_tms = ["WORKUP", "SURF", "STRENGTH", "ROAR", "WATERFALL", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "ROCKCLIMB", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "SMACKDOWN", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "FOCUSBLAST", "FALSESWIPE", "SCALD", "FLING", "GIGAIMPACT", "GYROBALL", "BULLDOZE", "ROCKSLIDE", "DRAGONTAIL", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "DARKPULSE", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "WHIRLPOOL", "WEATHERBALL", "BRINE", "AVALANCHE", "CRUNCH", "BODYSLAM", "HYDROPUMP", "TRIATTACK", "ENDURE", "MUDDYWATER", "AURASPHERE", "AURASPHERE", "BODYPRESS"]
-raw_tutor_moves = [
-    "AQUATAIL", "DRAGONPULSE", "FOCUSPUNCH", "HEADBUTT", "HELPINGHAND", "HYDROCANNON", "ICEPUNCH",
-    "ICYWIND", "IRONDEFENSE", "IRONTAIL", "LIQUIDATION", "MUDSLAP", "OUTRAGE", "ROLLOUT",
-    "SIGNALBEAM", "SNORE", "WATERPLEDGE", "WATERPULSE", "ZENHEADBUTT", "TERRAINPULSE", "FLIPTURN",
-    "MIMIC", "WAVECRASH"
+raw_abilities = [
+    "SHELLARMOR",
+    "TORRENT",
+    "RAINDISH",
 ]
-compatible_egg_groups = ["Monster", "Water1"]
+raw_level_up_moves = [
+    { at_level = 1, name = "BLOCK" },
+    { at_level = 1, name = "DARKPULSE" },
+    { at_level = 1, name = "DRAGONPULSE" },
+    { at_level = 7, name = "WITHDRAW" },
+    { at_level = 10, name = "AQUAJET" },
+    { at_level = 13, name = "WATERPULSE" },
+    { at_level = 16, name = "YAWN" },
+    { at_level = 17, name = "MIRRORCOAT" },
+    { at_level = 20, name = "RAPIDSPIN" },
+    { at_level = 22, name = "BUBBLEBEAM" },
+    { at_level = 25, name = "AQUARING" },
+    { at_level = 28, name = "AVALANCHE" },
+    { at_level = 31, name = "BITE" },
+    { at_level = 34, name = "SKULLBASH" },
+    { at_level = 36, name = "IRONDEFENSE" },
+    { at_level = 37, name = "BODYSLAM" },
+    { at_level = 40, name = "MUDDYWATER" },
+    { at_level = 50, name = "ZENHEADBUTT" },
+    { at_level = 54, name = "HAZE" },
+    { at_level = 58, name = "HYDROPUMP" },
+]
+raw_tms = [
+    "WORKUP",
+    "SURF",
+    "STRENGTH",
+    "ROAR",
+    "WATERFALL",
+    "TOXIC",
+    "DIVE",
+    "HAIL",
+    "ROCKSMASH",
+    "ROCKCLIMB",
+    "HIDDENPOWER",
+    "ICEBEAM",
+    "BLIZZARD",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "SMACKDOWN",
+    "EARTHQUAKE",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "REFLECT",
+    "ROCKTOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "FOCUSBLAST",
+    "FALSESWIPE",
+    "SCALD",
+    "FLING",
+    "GIGAIMPACT",
+    "GYROBALL",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "DRAGONTAIL",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "FLASHCANNON",
+    "SECRETPOWER",
+    "DARKPULSE",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "DIG",
+    "WHIRLPOOL",
+    "WEATHERBALL",
+    "BRINE",
+    "AVALANCHE",
+    "CRUNCH",
+    "BODYSLAM",
+    "HYDROPUMP",
+    "TRIATTACK",
+    "ENDURE",
+    "MUDDYWATER",
+    "AURASPHERE",
+    "AURASPHERE",
+    "BODYPRESS",
+]
+raw_tutor_moves = [
+    "AQUATAIL",
+    "DRAGONPULSE",
+    "FLIPTURN",
+    "FOCUSPUNCH",
+    "HEADBUTT",
+    "HELPINGHAND",
+    "HYDROCANNON",
+    "ICEPUNCH",
+    "ICYWIND",
+    "IRONDEFENSE",
+    "IRONTAIL",
+    "LIQUIDATION",
+    "MIMIC",
+    "MUDSLAP",
+    "OUTRAGE",
+    "ROLLOUT",
+    "SIGNALBEAM",
+    "SNORE",
+    "TERRAINPULSE",
+    "WATERPLEDGE",
+    "WATERPULSE",
+    "WAVECRASH",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Monster",
+    "Water1",
+]
 steps_to_hatch = 5355
 height = 1.6
 weight = 85.5
@@ -25,91 +135,7 @@ pokedex_entry = "The waterspouts that protrude from its shell are highly accurat
 battler_player_y = 17
 battler_enemy_y = 10
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 9
-internal_name = "BLASTOISE"
 habitat = "WatersEdge"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BLOCK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "DARKPULSE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "DRAGONPULSE"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "WITHDRAW"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "AQUAJET"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "WATERPULSE"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "YAWN"
-
-[[raw_level_up_moves]]
-at_level = 17
-name = "MIRRORCOAT"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "RAPIDSPIN"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "BUBBLEBEAM"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "AQUARING"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "AVALANCHE"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "SKULLBASH"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "IRONDEFENSE"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "MUDDYWATER"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "ZENHEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "HAZE"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "HYDROPUMP"
 
 [base_stats]
 hp = 79
@@ -126,5 +152,3 @@ def_ = 0
 spa = 0
 spd = 3
 spe = 0
-
-[wild_items]

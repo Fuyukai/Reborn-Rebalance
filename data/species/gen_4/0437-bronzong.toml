@@ -1,3 +1,4 @@
+dex_number = 437
 name = "Bronzong"
 primary_type = "STEEL"
 secondary_type = "PSYCHIC"
@@ -6,11 +7,118 @@ growth_rate = "Medium"
 exp_yield = 175
 catch_rate = 90
 caught_happiness = 70
-raw_abilities = ["LEVITATE", "HEATPROOF"]
-raw_egg_moves = []
-raw_tms = ["PSYSHOCK", "CALMMIND", "STRENGTH", "TOXIC", "ROCKSMASH", "FLASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "EARTHQUAKE", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "SANDSTORM", "ROCKTOMB", "FACADE", "REST", "ROUND", "CHARGEBEAM", "EXPLOSION", "PAYBACK", "GIGAIMPACT", "ROCKPOLISH", "GYROBALL", "PSYCHUP", "BULLDOZE", "ROCKSLIDE", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "TRICKROOM", "SECRETPOWER", "CONFIDE", "IMPRISON", "WEATHERBALL", "POWERSWAP", "GUARDSWAP", "SPEEDSWAP", "HEX", "PSYCHICTERRAIN", "ENDURE", "FUTURESIGHT", "HEAVYSLAM", "BODYPRESS", "ICESPINNER"]
-raw_tutor_moves = ["ALLYSWITCH", "ANCIENTPOWER", "BLOCK", "GRAVITY", "IRONDEFENSE", "IRONHEAD", "RECYCLE", "ROLLOUT", "SIGNALBEAM", "SKILLSWAP", "SNORE", "STEALTHROCK", "TELEKINESIS", "TRICK", "WONDERROOM", "ZENHEADBUTT", "METEORBEAM", "EXPANDINGFORCE", "STEELROLLER", "STEELBEAM", "MIMIC"]
-compatible_egg_groups = ["Mineral"]
+raw_abilities = [
+    "LEVITATE",
+    "HEATPROOF",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "ALLYSWITCH" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 1, name = "CONFUSION" },
+    { at_level = 5, name = "IMPRISON" },
+    { at_level = 9, name = "CONFUSERAY" },
+    { at_level = 13, name = "PSYWAVE" },
+    { at_level = 15, name = "HYPNOSIS" },
+    { at_level = 17, name = "EXTRASENSORY" },
+    { at_level = 19, name = "FEINTATTACK" },
+    { at_level = 23, name = "GYROBALL" },
+    { at_level = 25, name = "IRONDEFENSE" },
+    { at_level = 27, name = "ZENHEADBUTT" },
+    { at_level = 30, name = "SAFEGUARD" },
+    { at_level = 33, name = "BLOCK" },
+    { at_level = 37, name = "HEX" },
+    { at_level = 41, name = "FUTURESIGHT" },
+    { at_level = 45, name = "PAYBACK" },
+    { at_level = 49, name = "HEALBLOCK" },
+    { at_level = 52, name = "RECOVER" },
+    { at_level = 53, name = "PSYSHIELDBASH" },
+    { at_level = 57, name = "HEALBELL" },
+    { at_level = 61, name = "HEAVYSLAM" },
+]
+raw_tms = [
+    "PSYSHOCK",
+    "CALMMIND",
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "EARTHQUAKE",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "REFLECT",
+    "SANDSTORM",
+    "ROCKTOMB",
+    "FACADE",
+    "REST",
+    "ROUND",
+    "CHARGEBEAM",
+    "EXPLOSION",
+    "PAYBACK",
+    "GIGAIMPACT",
+    "ROCKPOLISH",
+    "GYROBALL",
+    "PSYCHUP",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "DREAMEATER",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "FLASHCANNON",
+    "TRICKROOM",
+    "SECRETPOWER",
+    "CONFIDE",
+    "IMPRISON",
+    "WEATHERBALL",
+    "POWERSWAP",
+    "GUARDSWAP",
+    "SPEEDSWAP",
+    "HEX",
+    "PSYCHICTERRAIN",
+    "ENDURE",
+    "FUTURESIGHT",
+    "HEAVYSLAM",
+    "BODYPRESS",
+    "ICESPINNER",
+]
+raw_tutor_moves = [
+    "ALLYSWITCH",
+    "ANCIENTPOWER",
+    "BLOCK",
+    "EXPANDINGFORCE",
+    "GRAVITY",
+    "IRONDEFENSE",
+    "IRONHEAD",
+    "METEORBEAM",
+    "MIMIC",
+    "RECYCLE",
+    "ROLLOUT",
+    "SIGNALBEAM",
+    "SKILLSWAP",
+    "SNORE",
+    "STEALTHROCK",
+    "STEELBEAM",
+    "STEELROLLER",
+    "TELEKINESIS",
+    "TRICK",
+    "WONDERROOM",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Mineral",
+]
 steps_to_hatch = 5355
 height = 1.3
 weight = 187.0
@@ -20,99 +128,7 @@ pokedex_entry = "One caused a news sensation when it was dug up at a constructio
 battler_player_y = 19
 battler_enemy_y = 12
 battler_altitude = 13
-evolutions = []
-form_names = []
-dex_number = 437
-internal_name = "BRONZONG"
 raw_hidden_ability = "HEAVYMETAL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ALLYSWITCH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "CONFUSION"
-
-[[raw_level_up_moves]]
-at_level = 5
-name = "IMPRISON"
-
-[[raw_level_up_moves]]
-at_level = 9
-name = "CONFUSERAY"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "PSYWAVE"
-
-[[raw_level_up_moves]]
-at_level = 15
-name = "HYPNOSIS"
-
-[[raw_level_up_moves]]
-at_level = 17
-name = "EXTRASENSORY"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "FEINTATTACK"
-
-[[raw_level_up_moves]]
-at_level = 23
-name = "GYROBALL"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "IRONDEFENSE"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "ZENHEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "SAFEGUARD"
-
-[[raw_level_up_moves]]
-at_level = 33
-name = "BLOCK"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "HEX"
-
-[[raw_level_up_moves]]
-at_level = 41
-name = "FUTURESIGHT"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "PAYBACK"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "HEALBLOCK"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "RECOVER"
-
-[[raw_level_up_moves]]
-at_level = 53
-name = "PSYSHIELDBASH"
-
-[[raw_level_up_moves]]
-at_level = 57
-name = "HEALBELL"
-
-[[raw_level_up_moves]]
-at_level = 61
-name = "HEAVYSLAM"
 
 [base_stats]
 hp = 67

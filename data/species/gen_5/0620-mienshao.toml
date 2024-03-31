@@ -1,3 +1,4 @@
+dex_number = 620
 name = "Mienshao"
 primary_type = "FIGHTING"
 secondary_type = "FIGHTING"
@@ -6,11 +7,115 @@ growth_rate = "Parabolic"
 exp_yield = 179
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["INNERFOCUS", "REGENERATOR", "RECKLESS"]
-raw_egg_moves = []
-raw_tms = ["WORKUP", "CALMMIND", "STRENGTH", "TOXIC", "ROCKSMASH", "BULKUP", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "LOWSWEEP", "ROUND", "FOCUSBLAST", "FLING", "ACROBATICS", "PAYBACK", "GIGAIMPACT", "STONEEDGE", "SWORDSDANCE", "PSYCHUP", "ROCKSLIDE", "POISONJAB", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "REVENGE", "ASSURANCE", "FLAREBLITZ", "CLOSECOMBAT", "AGILITY", "FOCUSENERGY", "REVERSAL", "ENDURE", "BATONPASS", "BLAZEKICK", "AURASPHERE", "RETALIATE"]
-raw_tutor_moves = ["ALLYSWITCH", "BOUNCE", "DRAINPUNCH", "DUALCHOP", "FOCUSPUNCH", "HELPINGHAND", "KNOCKOFF", "LASERFOCUS", "LOWKICK", "ROLEPLAY", "SNORE", "COACHING", "MIMIC"]
-compatible_egg_groups = ["Field", "Humanlike"]
+raw_abilities = [
+    "INNERFOCUS",
+    "REGENERATOR",
+    "RECKLESS",
+]
+raw_level_up_moves = [
+    { at_level = 0, name = "JUMPKICK" },
+    { at_level = 1, name = "REVERSAL" },
+    { at_level = 1, name = "DOUBLESLAP" },
+    { at_level = 1, name = "MEDITATE" },
+    { at_level = 1, name = "POUND" },
+    { at_level = 4, name = "SWIFT" },
+    { at_level = 7, name = "FORCEPALM" },
+    { at_level = 10, name = "FURYSWIPES" },
+    { at_level = 13, name = "VITALTHROW" },
+    { at_level = 16, name = "FEINT" },
+    { at_level = 19, name = "MEFIRST" },
+    { at_level = 22, name = "QUICKGUARD" },
+    { at_level = 26, name = "BATONPASS" },
+    { at_level = 30, name = "FOCUSPUNCH" },
+    { at_level = 34, name = "ASSURANCE" },
+    { at_level = 38, name = "PAYBACK" },
+    { at_level = 42, name = "HONECLAWS" },
+    { at_level = 46, name = "AURASPHERE" },
+    { at_level = 55, name = "BLAZEKICK" },
+    { at_level = 60, name = "POWERWHIP" },
+    { at_level = 60, name = "WIDEGUARD" },
+    { at_level = 65, name = "HIJUMPKICK" },
+    { at_level = 70, name = "FAKEOUT" },
+    { at_level = 75, name = "CLOSECOMBAT" },
+]
+raw_tms = [
+    "WORKUP",
+    "CALMMIND",
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "BULKUP",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "REFLECT",
+    "ROCKTOMB",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "LOWSWEEP",
+    "ROUND",
+    "FOCUSBLAST",
+    "FLING",
+    "ACROBATICS",
+    "PAYBACK",
+    "GIGAIMPACT",
+    "STONEEDGE",
+    "SWORDSDANCE",
+    "PSYCHUP",
+    "ROCKSLIDE",
+    "POISONJAB",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "DIG",
+    "REVENGE",
+    "ASSURANCE",
+    "FLAREBLITZ",
+    "CLOSECOMBAT",
+    "AGILITY",
+    "FOCUSENERGY",
+    "REVERSAL",
+    "ENDURE",
+    "BATONPASS",
+    "BLAZEKICK",
+    "AURASPHERE",
+    "RETALIATE",
+]
+raw_tutor_moves = [
+    "ALLYSWITCH",
+    "BOUNCE",
+    "COACHING",
+    "DRAINPUNCH",
+    "DUALCHOP",
+    "FOCUSPUNCH",
+    "HELPINGHAND",
+    "KNOCKOFF",
+    "LASERFOCUS",
+    "LOWKICK",
+    "MIMIC",
+    "ROLEPLAY",
+    "SNORE",
+]
+compatible_egg_groups = [
+    "Field",
+    "Humanlike",
+]
 steps_to_hatch = 6400
 height = 1.4
 weight = 35.5
@@ -20,106 +125,6 @@ pokedex_entry = "They use the long fur on their arms as a whip to strike their o
 battler_player_y = 17
 battler_enemy_y = 19
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 620
-internal_name = "MIENSHAO"
-
-[[raw_level_up_moves]]
-at_level = 0
-name = "JUMPKICK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "REVERSAL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "DOUBLESLAP"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "MEDITATE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "POUND"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "SWIFT"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "FORCEPALM"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "FURYSWIPES"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "VITALTHROW"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "FEINT"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "MEFIRST"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "QUICKGUARD"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "BATONPASS"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "FOCUSPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "ASSURANCE"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "PAYBACK"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "HONECLAWS"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "AURASPHERE"
-
-[[raw_level_up_moves]]
-at_level = 55
-name = "BLAZEKICK"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "POWERWHIP"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "WIDEGUARD"
-
-[[raw_level_up_moves]]
-at_level = 65
-name = "HIJUMPKICK"
-
-[[raw_level_up_moves]]
-at_level = 70
-name = "FAKEOUT"
-
-[[raw_level_up_moves]]
-at_level = 75
-name = "CLOSECOMBAT"
 
 [base_stats]
 hp = 65
@@ -136,5 +141,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

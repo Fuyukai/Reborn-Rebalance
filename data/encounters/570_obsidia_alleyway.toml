@@ -1,61 +1,21 @@
-chances = [10, 12, 20]
+chances = [
+    10,
+    12,
+    20,
+]
 
-[[encounters.Cave]]
-name = "YUNGOOS"
-minimum_level = 25
-maximum_level = 50
-
-[[encounters.Cave]]
-name = "MASCHIFF"
-minimum_level = 25
-maximum_level = 50
-
-[[encounters.Cave]]
-name = "ZANGOOSE"
-minimum_level = 45
-maximum_level = 65
-
-[[encounters.Cave]]
-name = "STUNKY"
-minimum_level = 25
-maximum_level = 50
-
-[[encounters.Cave]]
-name = "GUMSHOOS"
-minimum_level = 45
-maximum_level = 65
-
-[[encounters.Cave]]
-name = "MIGHTYENA"
-minimum_level = 45
-maximum_level = 65
-
-[[encounters.Cave]]
-name = "LIEPARD"
-minimum_level = 45
-maximum_level = 65
-
-[[encounters.Cave]]
-name = "SKUNTANK"
-minimum_level = 45
-maximum_level = 65
-
-[[encounters.Cave]]
-name = "LITLEO"
-minimum_level = 25
-maximum_level = 50
-
-[[encounters.Cave]]
-name = "LITLEO"
-minimum_level = 25
-maximum_level = 50
-
-[[encounters.Cave]]
-name = "THIEVUL"
-minimum_level = 45
-maximum_level = 65
-
-[[encounters.Cave]]
-name = "PYROAR"
-minimum_level = 70
-maximum_level = 90
+[encounters]
+Cave = [
+    { name = "YUNGOOS", minimum_level = 25, maximum_level = 50 },
+    { name = "MASCHIFF", minimum_level = 25, maximum_level = 50 },
+    { name = "ZANGOOSE", minimum_level = 45, maximum_level = 65 },
+    { name = "STUNKY", minimum_level = 25, maximum_level = 50 },
+    { name = "GUMSHOOS", minimum_level = 45, maximum_level = 65 },
+    { name = "MIGHTYENA", minimum_level = 45, maximum_level = 65 },
+    { name = "LIEPARD", minimum_level = 45, maximum_level = 65 },
+    { name = "SKUNTANK", minimum_level = 45, maximum_level = 65 },
+    { name = "LITLEO", minimum_level = 25, maximum_level = 50 },
+    { name = "LITLEO", minimum_level = 25, maximum_level = 50 },
+    { name = "THIEVUL", minimum_level = 45, maximum_level = 65 },
+    { name = "PYROAR", minimum_level = 70, maximum_level = 90 },
+]

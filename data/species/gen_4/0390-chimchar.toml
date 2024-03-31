@@ -1,3 +1,4 @@
+dex_number = 390
 name = "Chimchar"
 primary_type = "FIRE"
 secondary_type = "FIRE"
@@ -6,11 +7,107 @@ growth_rate = "Parabolic"
 exp_yield = 62
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["BLAZE", "MOXIE", "IRONFIST"]
-raw_egg_moves = ["ASSIST", "BLAZEKICK", "COUNTER", "DOUBLEKICK", "ENCORE", "FAKEOUT", "FIREPUNCH", "FOCUSENERGY", "FOCUSPUNCH", "HEATWAVE", "HELPINGHAND", "POWERUPPUNCH", "QUICKGUARD", "SUBMISSION", "THUNDERPUNCH"]
-raw_tms = ["WORKUP", "CUT", "STRENGTH", "TOXIC", "ROCKSMASH", "BULKUP", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "PROTECT", "FRUSTRATION", "RETURN", "BRICKBREAK", "DOUBLETEAM", "FLAMETHROWER", "FIREBLAST", "AERIALACE", "TORMENT", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "LOWSWEEP", "ROUND", "OVERHEAT", "FLING", "WILLOWISP", "ACROBATICS", "SHADOWCLAW", "SWORDSDANCE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "FIRESPIN", "DIG", "FOCUSENERGY", "ENDURE", "ENCORE", "BLAZEKICK", "NASTYPLOT", "SWIFT"]
-raw_tutor_moves = ["COVET", "ENDEAVOR", "FIREPLEDGE", "FIREPUNCH", "FOCUSPUNCH", "GUNKSHOT", "HEADBUTT", "HEATWAVE", "HELPINGHAND", "IRONTAIL", "LOWKICK", "MUDSLAP", "ROLEPLAY", "ROLLOUT", "SNORE", "STEALTHROCK", "THUNDERPUNCH", "UPROAR", "VACUUMWAVE", "MIMIC"]
-compatible_egg_groups = ["Field", "Humanlike"]
+raw_abilities = [
+    "BLAZE",
+    "MOXIE",
+    "IRONFIST",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "SCRATCH" },
+    { at_level = 1, name = "LEER" },
+    { at_level = 5, name = "EMBER" },
+    { at_level = 7, name = "TORMENT" },
+    { at_level = 10, name = "FURYSWIPES" },
+    { at_level = 13, name = "HELPINGHAND" },
+    { at_level = 17, name = "FLAMEWHEEL" },
+    { at_level = 19, name = "DOUBLEKICK" },
+    { at_level = 20, name = "DRAINPUNCH" },
+    { at_level = 22, name = "FIRESPIN" },
+    { at_level = 25, name = "COVET" },
+    { at_level = 28, name = "UPROAR" },
+    { at_level = 31, name = "FOCUSENERGY" },
+    { at_level = 34, name = "FEINT" },
+    { at_level = 37, name = "CROSSCHOP" },
+    { at_level = 40, name = "RAGINGFURY" },
+    { at_level = 43, name = "QUICKGUARD" },
+    { at_level = 46, name = "DOUBLEEDGE" },
+    { at_level = 49, name = "INFERNO" },
+]
+raw_tms = [
+    "WORKUP",
+    "CUT",
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "BULKUP",
+    "ROCKCLIMB",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "PROTECT",
+    "FRUSTRATION",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "FLAMETHROWER",
+    "FIREBLAST",
+    "AERIALACE",
+    "TORMENT",
+    "FACADE",
+    "FLAMECHARGE",
+    "REST",
+    "ATTRACT",
+    "LOWSWEEP",
+    "ROUND",
+    "OVERHEAT",
+    "FLING",
+    "WILLOWISP",
+    "ACROBATICS",
+    "SHADOWCLAW",
+    "SWORDSDANCE",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "FIRESPIN",
+    "DIG",
+    "FOCUSENERGY",
+    "ENDURE",
+    "ENCORE",
+    "BLAZEKICK",
+    "NASTYPLOT",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "COVET",
+    "ENDEAVOR",
+    "FIREPLEDGE",
+    "FIREPUNCH",
+    "FOCUSPUNCH",
+    "GUNKSHOT",
+    "HEADBUTT",
+    "HEATWAVE",
+    "HELPINGHAND",
+    "IRONTAIL",
+    "LOWKICK",
+    "MIMIC",
+    "MUDSLAP",
+    "ROLEPLAY",
+    "ROLLOUT",
+    "SNORE",
+    "STEALTHROCK",
+    "THUNDERPUNCH",
+    "UPROAR",
+    "VACUUMWAVE",
+]
+compatible_egg_groups = [
+    "Field",
+    "Humanlike",
+]
 steps_to_hatch = 5355
 height = 0.5
 weight = 6.2
@@ -20,92 +117,26 @@ pokedex_entry = "It agilely scales sheer cliffs to live atop craggy mountains. I
 battler_player_y = 25
 battler_enemy_y = 20
 battler_altitude = 0
-form_names = []
-dex_number = 390
-internal_name = "CHIMCHAR"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SCRATCH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 5
-name = "EMBER"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "TORMENT"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "FURYSWIPES"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "HELPINGHAND"
-
-[[raw_level_up_moves]]
-at_level = 17
-name = "FLAMEWHEEL"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "DOUBLEKICK"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "DRAINPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "FIRESPIN"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "COVET"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "UPROAR"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "FOCUSENERGY"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "FEINT"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "CROSSCHOP"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "RAGINGFURY"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "QUICKGUARD"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "DOUBLEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "INFERNO"
-
-[[evolutions]]
-into_name = "MONFERNO"
-condition = "Level"
-parameter = "14"
-
-
+raw_egg_moves = [
+    "ASSIST",
+    "BLAZEKICK",
+    "COUNTER",
+    "DOUBLEKICK",
+    "ENCORE",
+    "FAKEOUT",
+    "FIREPUNCH",
+    "FOCUSENERGY",
+    "FOCUSPUNCH",
+    "HEATWAVE",
+    "HELPINGHAND",
+    "POWERUPPUNCH",
+    "QUICKGUARD",
+    "SUBMISSION",
+    "THUNDERPUNCH",
+]
+evolutions = [
+    { into_name = "MONFERNO", condition = "Level", parameter = "14" },
+]
 
 [base_stats]
 hp = 44
@@ -122,5 +153,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 1
-
-[wild_items]

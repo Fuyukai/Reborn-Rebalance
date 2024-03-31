@@ -1,3 +1,4 @@
+dex_number = 199
 name = "Slowking"
 primary_type = "WATER"
 secondary_type = "PSYCHIC"
@@ -6,24 +7,150 @@ growth_rate = "Medium"
 exp_yield = 172
 catch_rate = 70
 caught_happiness = 70
-raw_abilities = ["REGENERATOR", "OWNTEMPO"]
-raw_egg_moves = []
-raw_tms = [
-    "PSYSHOCK", "SURF", "CALMMIND", "STRENGTH", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "FLASH",
-    "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "LIGHTSCREEN",
-    "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "EARTHQUAKE", "RETURN", "PSYCHIC",
-    "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "SLUDGEWAVE", "FLAMETHROWER", "FIREBLAST", "FACADE",
-    "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "FOCUSBLAST", "SCALD", "FLING", "QUASH",
-    "GIGAIMPACT", "THUNDERWAVE", "PSYCHUP", "BULLDOZE", "DRAGONTAIL", "DREAMEATER",
-    "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER",
-    "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "PAYDAY", "DIG", "WHIRLPOOL",
-    "IMPRISON", "WEATHERBALL", "MUDSHOT", "BRINE", "AVALANCHE", "RAZORSHELL", "PSYCHICTERRAIN",
-    "BODYSLAM", "HYDROPUMP", "AMNESIA", "TRIATTACK", "ENDURE", "FUTURESIGHT", "MUDDYWATER",
-    "POWERGEM", "NASTYPLOT", "STOREDPOWER", "HEATCRASH", "VENOMDRENCH", "SNOWSCAPE",
-    "CHILLINGWATER", "SWIFT", "AURASPHERE"
+raw_abilities = [
+    "REGENERATOR",
+    "OWNTEMPO",
 ]
-raw_tutor_moves = ["AFTERYOU", "ALLYSWITCH", "AQUATAIL", "BLOCK", "DRAINPUNCH", "FOCUSPUNCH", "FOULPLAY", "FURYCUTTER", "HEADBUTT", "ICEPUNCH", "ICYWIND", "IRONDEFENSE", "IRONTAIL", "LASERFOCUS", "LIQUIDATION", "MAGICCOAT", "MUDSLAP", "RECYCLE", "SIGNALBEAM", "SKILLSWAP", "SNORE", "TELEKINESIS", "TRICK", "WATERPULSE", "WONDERROOM", "ZENHEADBUTT", "EXPANDINGFORCE", "MIMIC"]
-compatible_egg_groups = ["Monster", "Water1"]
+raw_level_up_moves = [
+    { at_level = 1, name = "CURSE" },
+    { at_level = 1, name = "YAWN" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 4, name = "GROWL" },
+    { at_level = 7, name = "WATERGUN" },
+    { at_level = 10, name = "CONFUSION" },
+    { at_level = 13, name = "DISABLE" },
+    { at_level = 16, name = "BRINE" },
+    { at_level = 19, name = "HEADBUTT" },
+    { at_level = 22, name = "ZENHEADBUTT" },
+    { at_level = 25, name = "AMNESIA" },
+    { at_level = 28, name = "WONDERROOM" },
+    { at_level = 31, name = "AQUATAIL" },
+    { at_level = 33, name = "WITHDRAW" },
+    { at_level = 37, name = "BELLYDRUM" },
+    { at_level = 41, name = "BUBBLEBEAM" },
+    { at_level = 45, name = "PSYCHUP" },
+    { at_level = 49, name = "FUTURESIGHT" },
+    { at_level = 53, name = "SKILLSWAP" },
+    { at_level = 57, name = "HEALPULSE" },
+    { at_level = 61, name = "NASTYPLOT" },
+    { at_level = 65, name = "SLACKOFF" },
+]
+raw_tms = [
+    "PSYSHOCK",
+    "SURF",
+    "CALMMIND",
+    "STRENGTH",
+    "TOXIC",
+    "DIVE",
+    "HAIL",
+    "ROCKSMASH",
+    "FLASH",
+    "VENOSHOCK",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "ICEBEAM",
+    "BLIZZARD",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "EARTHQUAKE",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "SLUDGEWAVE",
+    "FLAMETHROWER",
+    "FIREBLAST",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ECHOEDVOICE",
+    "FOCUSBLAST",
+    "SCALD",
+    "FLING",
+    "QUASH",
+    "GIGAIMPACT",
+    "THUNDERWAVE",
+    "PSYCHUP",
+    "BULLDOZE",
+    "DRAGONTAIL",
+    "DREAMEATER",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "TRICKROOM",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "PAYDAY",
+    "DIG",
+    "WHIRLPOOL",
+    "IMPRISON",
+    "WEATHERBALL",
+    "MUDSHOT",
+    "BRINE",
+    "AVALANCHE",
+    "RAZORSHELL",
+    "PSYCHICTERRAIN",
+    "BODYSLAM",
+    "HYDROPUMP",
+    "AMNESIA",
+    "TRIATTACK",
+    "ENDURE",
+    "FUTURESIGHT",
+    "MUDDYWATER",
+    "AURASPHERE",
+    "POWERGEM",
+    "NASTYPLOT",
+    "STOREDPOWER",
+    "HEATCRASH",
+    "VENOMDRENCH",
+    "SNOWSCAPE",
+    "CHILLINGWATER",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AFTERYOU",
+    "ALLYSWITCH",
+    "AQUATAIL",
+    "BLOCK",
+    "DRAINPUNCH",
+    "EXPANDINGFORCE",
+    "FOCUSPUNCH",
+    "FOULPLAY",
+    "FURYCUTTER",
+    "HEADBUTT",
+    "ICEPUNCH",
+    "ICYWIND",
+    "IRONDEFENSE",
+    "IRONTAIL",
+    "LASERFOCUS",
+    "LIQUIDATION",
+    "MAGICCOAT",
+    "MIMIC",
+    "MUDSLAP",
+    "RECYCLE",
+    "SIGNALBEAM",
+    "SKILLSWAP",
+    "SNORE",
+    "TELEKINESIS",
+    "TRICK",
+    "WATERPULSE",
+    "WONDERROOM",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Monster",
+    "Water1",
+]
 steps_to_hatch = 5355
 height = 2.0
 weight = 79.5
@@ -33,99 +160,7 @@ pokedex_entry = "It undertakes research every day to solve the mysteries of the 
 battler_player_y = 17
 battler_enemy_y = 8
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 199
-internal_name = "SLOWKING"
 habitat = "WatersEdge"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "CURSE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "YAWN"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "GROWL"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "WATERGUN"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "CONFUSION"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "DISABLE"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "BRINE"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "HEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "ZENHEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "AMNESIA"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "WONDERROOM"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "AQUATAIL"
-
-[[raw_level_up_moves]]
-at_level = 33
-name = "WITHDRAW"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "BELLYDRUM"
-
-[[raw_level_up_moves]]
-at_level = 41
-name = "BUBBLEBEAM"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "PSYCHUP"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "FUTURESIGHT"
-
-[[raw_level_up_moves]]
-at_level = 53
-name = "SKILLSWAP"
-
-[[raw_level_up_moves]]
-at_level = 57
-name = "HEALPULSE"
-
-[[raw_level_up_moves]]
-at_level = 61
-name = "NASTYPLOT"
-
-[[raw_level_up_moves]]
-at_level = 65
-name = "SLACKOFF"
 
 [base_stats]
 hp = 95

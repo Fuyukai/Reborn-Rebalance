@@ -1,3 +1,4 @@
+dex_number = 393
 name = "Piplup"
 primary_type = "WATER"
 secondary_type = "WATER"
@@ -6,11 +7,88 @@ growth_rate = "Parabolic"
 exp_yield = 63
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["TORRENT", "COMPETITIVE"]
-raw_egg_moves = ["AGILITY", "AQUARING", "BIDE", "DOUBLEHIT", "FEATHERDANCE", "FLAIL", "HYDROPUMP", "ICYWIND", "MUDSPORT", "MUDSLAP", "POWERTRIP", "SNORE", "SUPERSONIC", "YAWN"]
-raw_tms = ["WORKUP", "CUT", "SURF", "WATERFALL", "TOXIC", "DIVE", "HAIL", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "BRICKBREAK", "DOUBLETEAM", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "SCALD", "FLING", "QUASH", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "WHIRLPOOL", "BRINE", "HYDROPUMP", "AGILITY", "ENDURE"]
-raw_tutor_moves = ["COVET", "DEFOG", "HEADBUTT", "ICYWIND", "MUDSLAP", "SIGNALBEAM", "SNORE", "STEALTHROCK", "WATERPLEDGE", "WATERPULSE", "MIMIC", "WAVECRASH"]
-compatible_egg_groups = ["Water1", "Field"]
+raw_abilities = [
+    "TORRENT",
+    "COMPETITIVE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "POUND" },
+    { at_level = 1, name = "GROWL" },
+    { at_level = 5, name = "WATERGUN" },
+    { at_level = 7, name = "PECK" },
+    { at_level = 10, name = "CHARM" },
+    { at_level = 13, name = "WHIRLPOOL" },
+    { at_level = 17, name = "DOUBLEHIT" },
+    { at_level = 19, name = "YAWN" },
+    { at_level = 22, name = "BUBBLEBEAM" },
+    { at_level = 25, name = "AQUARING" },
+    { at_level = 28, name = "FURYATTACK" },
+    { at_level = 31, name = "AQUAJET" },
+    { at_level = 34, name = "AVALANCHE" },
+    { at_level = 37, name = "SING" },
+    { at_level = 40, name = "DRILLPECK" },
+    { at_level = 43, name = "DUALWINGBEAT" },
+    { at_level = 46, name = "FEATHERDANCE" },
+    { at_level = 49, name = "CAPTIVATE" },
+]
+raw_tms = [
+    "WORKUP",
+    "CUT",
+    "SURF",
+    "WATERFALL",
+    "TOXIC",
+    "DIVE",
+    "HAIL",
+    "HIDDENPOWER",
+    "ICEBEAM",
+    "BLIZZARD",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "ROCKTOMB",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ECHOEDVOICE",
+    "SCALD",
+    "FLING",
+    "QUASH",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "DIG",
+    "WHIRLPOOL",
+    "BRINE",
+    "HYDROPUMP",
+    "AGILITY",
+    "ENDURE",
+]
+raw_tutor_moves = [
+    "COVET",
+    "DEFOG",
+    "HEADBUTT",
+    "ICYWIND",
+    "MIMIC",
+    "MUDSLAP",
+    "SIGNALBEAM",
+    "SNORE",
+    "STEALTHROCK",
+    "WATERPLEDGE",
+    "WATERPULSE",
+    "WAVECRASH",
+]
+compatible_egg_groups = [
+    "Water1",
+    "Field",
+]
 steps_to_hatch = 5355
 height = 0.4
 weight = 5.2
@@ -20,88 +98,25 @@ pokedex_entry = "Because it is very proud, it hates accepting food from people. 
 battler_player_y = 31
 battler_enemy_y = 25
 battler_altitude = 0
-form_names = []
-dex_number = 393
-internal_name = "PIPLUP"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "POUND"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWL"
-
-[[raw_level_up_moves]]
-at_level = 5
-name = "WATERGUN"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "PECK"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "CHARM"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "WHIRLPOOL"
-
-[[raw_level_up_moves]]
-at_level = 17
-name = "DOUBLEHIT"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "YAWN"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "BUBBLEBEAM"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "AQUARING"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "FURYATTACK"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "AQUAJET"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "AVALANCHE"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "SING"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "DRILLPECK"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "DUALWINGBEAT"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "FEATHERDANCE"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "CAPTIVATE"
-
-[[evolutions]]
-into_name = "PRINPLUP"
-condition = "Level"
-parameter = "16"
-
-
+raw_egg_moves = [
+    "AGILITY",
+    "AQUARING",
+    "BIDE",
+    "DOUBLEHIT",
+    "FEATHERDANCE",
+    "FLAIL",
+    "HYDROPUMP",
+    "ICYWIND",
+    "MUDSPORT",
+    "MUDSLAP",
+    "POWERTRIP",
+    "SNORE",
+    "SUPERSONIC",
+    "YAWN",
+]
+evolutions = [
+    { into_name = "PRINPLUP", condition = "Level", parameter = "16" },
+]
 
 [base_stats]
 hp = 53
@@ -118,5 +133,3 @@ def_ = 0
 spa = 1
 spd = 0
 spe = 0
-
-[wild_items]

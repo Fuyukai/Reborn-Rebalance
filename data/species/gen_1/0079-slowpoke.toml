@@ -1,3 +1,4 @@
+dex_number = 79
 name = "Slowpoke"
 primary_type = "WATER"
 secondary_type = "PSYCHIC"
@@ -6,11 +7,122 @@ growth_rate = "Medium"
 exp_yield = 63
 catch_rate = 190
 caught_happiness = 70
-raw_abilities = ["REGENERATOR", "OWNTEMPO"]
-raw_egg_moves = ["BELCH", "BELLYDRUM", "BLOCK", "FUTURESIGHT", "MEFIRST", "MUDSPORT", "SLEEPTALK", "SNORE", "STOMP", "WONDERROOM", "ZENHEADBUTT"]
-raw_tms = ["PSYSHOCK", "SURF", "CALMMIND", "STRENGTH", "TOXIC", "DIVE", "HAIL", "FLASH", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "EARTHQUAKE", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "FIREBLAST", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "SCALD", "THUNDERWAVE", "PSYCHUP", "BULLDOZE", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "CONFIDE", "PAYDAY", "DIG", "WHIRLPOOL", "IMPRISON", "WEATHERBALL", "MUDSHOT", "BRINE", "PSYCHICTERRAIN", "BODYSLAM", "HYDROPUMP", "AMNESIA", "TRIATTACK", "ENDURE", "FUTURESIGHT", "STOREDPOWER", "SNOWSCAPE", "CHILLINGWATER", "SWIFT"]
-raw_tutor_moves = ["AFTERYOU", "AQUATAIL", "BLOCK", "FOULPLAY", "HEADBUTT", "ICYWIND", "IRONTAIL", "LIQUIDATION", "MAGICCOAT", "MUDSLAP", "RECYCLE", "SIGNALBEAM", "SKILLSWAP", "SNORE", "TELEKINESIS", "TRICK", "WATERPULSE", "WONDERROOM", "ZENHEADBUTT", "EXPANDINGFORCE", "MIMIC"]
-compatible_egg_groups = ["Monster", "Water1"]
+raw_abilities = [
+    "REGENERATOR",
+    "OWNTEMPO",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "CURSE" },
+    { at_level = 1, name = "YAWN" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 4, name = "GROWL" },
+    { at_level = 7, name = "WATERGUN" },
+    { at_level = 10, name = "CONFUSION" },
+    { at_level = 13, name = "DISABLE" },
+    { at_level = 16, name = "BRINE" },
+    { at_level = 19, name = "HEADBUTT" },
+    { at_level = 22, name = "ZENHEADBUTT" },
+    { at_level = 25, name = "AMNESIA" },
+    { at_level = 28, name = "WONDERROOM" },
+    { at_level = 31, name = "AQUATAIL" },
+    { at_level = 33, name = "WITHDRAW" },
+    { at_level = 35, name = "BELLYDRUM" },
+    { at_level = 38, name = "BUBBLEBEAM" },
+    { at_level = 41, name = "PSYCHUP" },
+    { at_level = 44, name = "FUTURESIGHT" },
+    { at_level = 47, name = "SKILLSWAP" },
+    { at_level = 50, name = "HEALPULSE" },
+    { at_level = 53, name = "BODYSLAM" },
+]
+raw_tms = [
+    "PSYSHOCK",
+    "SURF",
+    "CALMMIND",
+    "STRENGTH",
+    "TOXIC",
+    "DIVE",
+    "HAIL",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "ICEBEAM",
+    "BLIZZARD",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "EARTHQUAKE",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "REFLECT",
+    "FLAMETHROWER",
+    "FIREBLAST",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ECHOEDVOICE",
+    "SCALD",
+    "THUNDERWAVE",
+    "PSYCHUP",
+    "BULLDOZE",
+    "DREAMEATER",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "TRICKROOM",
+    "SECRETPOWER",
+    "CONFIDE",
+    "PAYDAY",
+    "DIG",
+    "WHIRLPOOL",
+    "IMPRISON",
+    "WEATHERBALL",
+    "MUDSHOT",
+    "BRINE",
+    "PSYCHICTERRAIN",
+    "BODYSLAM",
+    "HYDROPUMP",
+    "AMNESIA",
+    "TRIATTACK",
+    "ENDURE",
+    "FUTURESIGHT",
+    "STOREDPOWER",
+    "SNOWSCAPE",
+    "CHILLINGWATER",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AFTERYOU",
+    "AQUATAIL",
+    "BLOCK",
+    "EXPANDINGFORCE",
+    "FOULPLAY",
+    "HEADBUTT",
+    "ICYWIND",
+    "IRONTAIL",
+    "LIQUIDATION",
+    "MAGICCOAT",
+    "MIMIC",
+    "MUDSLAP",
+    "RECYCLE",
+    "SIGNALBEAM",
+    "SKILLSWAP",
+    "SNORE",
+    "TELEKINESIS",
+    "TRICK",
+    "WATERPULSE",
+    "WONDERROOM",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Monster",
+    "Water1",
+]
 steps_to_hatch = 5355
 height = 1.2
 weight = 36.0
@@ -20,104 +132,24 @@ pokedex_entry = "It catches prey by dipping its tail in water at the side of a r
 battler_player_y = 26
 battler_enemy_y = 27
 battler_altitude = 0
-form_names = []
-dex_number = 79
-internal_name = "SLOWPOKE"
+raw_egg_moves = [
+    "BELCH",
+    "BELLYDRUM",
+    "BLOCK",
+    "FUTURESIGHT",
+    "MEFIRST",
+    "MUDSPORT",
+    "SLEEPTALK",
+    "SNORE",
+    "STOMP",
+    "WONDERROOM",
+    "ZENHEADBUTT",
+]
 habitat = "WatersEdge"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "CURSE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "YAWN"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "GROWL"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "WATERGUN"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "CONFUSION"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "DISABLE"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "BRINE"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "HEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "ZENHEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "AMNESIA"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "WONDERROOM"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "AQUATAIL"
-
-[[raw_level_up_moves]]
-at_level = 33
-name = "WITHDRAW"
-
-[[raw_level_up_moves]]
-at_level = 35
-name = "BELLYDRUM"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "BUBBLEBEAM"
-
-[[raw_level_up_moves]]
-at_level = 41
-name = "PSYCHUP"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "FUTURESIGHT"
-
-[[raw_level_up_moves]]
-at_level = 47
-name = "SKILLSWAP"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "HEALPULSE"
-
-[[raw_level_up_moves]]
-at_level = 53
-name = "BODYSLAM"
-
-[[evolutions]]
-into_name = "SLOWBRO"
-condition = "Level"
-parameter = "33"
-
-[[evolutions]]
-into_name = "SLOWKING"
-condition = "TradeItem"
-parameter = "KINGSROCK"
+evolutions = [
+    { into_name = "SLOWBRO", condition = "Level", parameter = "33" },
+    { into_name = "SLOWKING", condition = "TradeItem", parameter = "KINGSROCK" },
+]
 
 [base_stats]
 hp = 90

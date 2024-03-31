@@ -1,3 +1,4 @@
+dex_number = 50
 name = "Diglett"
 primary_type = "GROUND"
 secondary_type = "GROUND"
@@ -6,11 +7,93 @@ growth_rate = "Medium"
 exp_yield = 53
 catch_rate = 255
 caught_happiness = 70
-raw_abilities = ["SANDFORCE", "ARENATRAP"]
-raw_egg_moves = ["ANCIENTPOWER", "ASTONISH", "BEATUP", "ENDURE", "FEINTATTACK", "FINALGAMBIT", "HEADBUTT", "MEMENTO", "MUDBOMB", "PURSUIT", "REVERSAL", "SCREECH", "UPROAR", "HONECLAWS"]
-raw_tms = ["WORKUP", "CUT", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "FRUSTRATION", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "SLUDGEBOMB", "SANDSTORM", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "SHADOWCLAW", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "CONFIDE", "DIG", "SCREECH", "BEATUP", "ASSURANCE", "BODYSLAM", "AGILITY", "REVERSAL", "ENDURE"]
-raw_tutor_moves = ["ALLYSWITCH", "ANCIENTPOWER", "EARTHPOWER", "IRONDEFENSE", "IRONHEAD", "MUDSLAP", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "SUCKERPUNCH", "UPROAR", "SCORCHINGSANDS", "STEELBEAM", "MIMIC"]
-compatible_egg_groups = ["Field"]
+raw_abilities = [
+    "SANDFORCE",
+    "ARENATRAP",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "ASTONISH" },
+    { at_level = 1, name = "GROWL" },
+    { at_level = 1, name = "MUDSLAP" },
+    { at_level = 1, name = "SCRATCH" },
+    { at_level = 4, name = "SANDATTACK" },
+    { at_level = 7, name = "MUDBOMB" },
+    { at_level = 10, name = "ANCIENTPOWER" },
+    { at_level = 13, name = "MAGNITUDE" },
+    { at_level = 10, name = "PURSUIT" },
+    { at_level = 19, name = "BULLDOZE" },
+    { at_level = 22, name = "ALLYSWITCH" },
+    { at_level = 25, name = "SUCKERPUNCH" },
+    { at_level = 28, name = "SCORCHINGSANDS" },
+    { at_level = 31, name = "REVERSAL" },
+    { at_level = 34, name = "SLASH" },
+    { at_level = 34, name = "NIGHTSLASH" },
+    { at_level = 37, name = "BEATUP" },
+    { at_level = 40, name = "DOUBLEEDGE" },
+    { at_level = 44, name = "HIGHHORSEPOWER" },
+    { at_level = 48, name = "MEMENTO" },
+    { at_level = 52, name = "FISSURE" },
+    { at_level = 56, name = "FINALGAMBIT" },
+]
+raw_tms = [
+    "WORKUP",
+    "CUT",
+    "TOXIC",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "PROTECT",
+    "FRUSTRATION",
+    "EARTHQUAKE",
+    "RETURN",
+    "DOUBLETEAM",
+    "SLUDGEBOMB",
+    "SANDSTORM",
+    "ROCKTOMB",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "ECHOEDVOICE",
+    "SHADOWCLAW",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "FLASHCANNON",
+    "SECRETPOWER",
+    "CONFIDE",
+    "DIG",
+    "SCREECH",
+    "BEATUP",
+    "ASSURANCE",
+    "BODYSLAM",
+    "AGILITY",
+    "REVERSAL",
+    "ENDURE",
+]
+raw_tutor_moves = [
+    "ALLYSWITCH",
+    "ANCIENTPOWER",
+    "EARTHPOWER",
+    "IRONDEFENSE",
+    "IRONHEAD",
+    "MIMIC",
+    "MUDSLAP",
+    "SCORCHINGSANDS",
+    "SNORE",
+    "STEALTHROCK",
+    "STEELBEAM",
+    "STOMPINGTANTRUM",
+    "SUCKERPUNCH",
+    "UPROAR",
+]
+compatible_egg_groups = [
+    "Field",
+]
 steps_to_hatch = 5355
 height = 0.2
 weight = 0.8
@@ -20,103 +103,30 @@ pokedex_entry = "Diglett are raised in most farms. The reason is simple-- wherev
 battler_player_y = 32
 battler_enemy_y = 28
 battler_altitude = 0
-form_names = ["Normal", "Alternate"]
-dex_number = 50
-internal_name = "DIGLETT"
+raw_egg_moves = [
+    "ANCIENTPOWER",
+    "ASTONISH",
+    "BEATUP",
+    "ENDURE",
+    "FEINTATTACK",
+    "FINALGAMBIT",
+    "HEADBUTT",
+    "MEMENTO",
+    "MUDBOMB",
+    "PURSUIT",
+    "REVERSAL",
+    "SCREECH",
+    "UPROAR",
+    "HONECLAWS",
+]
 habitat = "Cave"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ASTONISH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "MUDSLAP"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SCRATCH"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "SANDATTACK"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "MUDBOMB"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "ANCIENTPOWER"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "MAGNITUDE"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "PURSUIT"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "BULLDOZE"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "ALLYSWITCH"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "SUCKERPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "SCORCHINGSANDS"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "REVERSAL"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "SLASH"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "NIGHTSLASH"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "BEATUP"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "DOUBLEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "HIGHHORSEPOWER"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "MEMENTO"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "FISSURE"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "FINALGAMBIT"
-
-[[evolutions]]
-into_name = "DUGTRIO"
-condition = "Level"
-parameter = "26"
+evolutions = [
+    { into_name = "DUGTRIO", condition = "Level", parameter = "26" },
+]
+form_names = [
+    "Normal",
+    "Alternate",
+]
 
 [base_stats]
 hp = 10

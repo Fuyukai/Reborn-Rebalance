@@ -1,3 +1,4 @@
+dex_number = 776
 name = "Turtonator"
 primary_type = "FIRE"
 secondary_type = "DRAGON"
@@ -6,11 +7,112 @@ growth_rate = "Medium"
 exp_yield = 170
 catch_rate = 70
 caught_happiness = 70
-raw_abilities = ["SHELLARMOR", "IRONBARBS", "AFTERMATH"]
-raw_egg_moves = ["FIRESPIN", "HEADSMASH", "REVENGE", "WIDEGUARD"]
-raw_tms = ["WORKUP", "DRAGONCLAW", "ROAR", "TOXIC", "BULKUP", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "FRUSTRATION", "SOLARBEAM", "SMACKDOWN", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "FLAMETHROWER", "FIREBLAST", "ROCKTOMB", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "ROUND", "OVERHEAT", "FOCUSBLAST", "FLING", "CHARGEBEAM", "BRUTALSWING", "WILLOWISP", "EXPLOSION", "PAYBACK", "GIGAIMPACT", "STONEEDGE", "BULLDOZE", "DRAGONTAIL", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "FIRESPIN", "REVENGE", "BODYSLAM", "ENDURE", "HEATCRASH", "HEAVYSLAM", "BODYPRESS"]
-raw_tutor_moves = ["BLOCK", "DRACOMETEOR", "DRAGONPULSE", "ENDEAVOR", "HEATWAVE", "HYPERVOICE", "IRONDEFENSE", "IRONHEAD", "IRONTAIL", "OUTRAGE", "SHOCKWAVE", "SNORE", "STOMPINGTANTRUM", "UPROAR", "BURNINGJEALOUSY", "SCORCHINGSANDS", "SCALESHOT", "LASHOUT", "MIMIC"]
-compatible_egg_groups = ["Monster", "Dragon"]
+raw_abilities = [
+    "SHELLARMOR",
+    "IRONBARBS",
+    "AFTERMATH",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 1, name = "EMBER" },
+    { at_level = 5, name = "SMOG" },
+    { at_level = 9, name = "PROTECT" },
+    { at_level = 13, name = "INCINERATE" },
+    { at_level = 17, name = "FLAIL" },
+    { at_level = 21, name = "ENDURE" },
+    { at_level = 25, name = "IRONDEFENSE" },
+    { at_level = 29, name = "FLAMETHROWER" },
+    { at_level = 33, name = "BODYSLAM" },
+    { at_level = 38, name = "SHELLSMASH" },
+    { at_level = 43, name = "DRAGONPULSE" },
+    { at_level = 48, name = "SHELLTRAP" },
+    { at_level = 53, name = "OVERHEAT" },
+    { at_level = 56, name = "EXPLOSION" },
+    { at_level = 58, name = "FLAMETHROWER" },
+    { at_level = 60, name = "HEADSMASH" },
+    { at_level = 62, name = "RAPIDSPIN" },
+    { at_level = 65, name = "EARTHPOWER" },
+    { at_level = 68, name = "METALBURST" },
+]
+raw_tms = [
+    "WORKUP",
+    "DRAGONCLAW",
+    "ROAR",
+    "TOXIC",
+    "BULKUP",
+    "VENOSHOCK",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "HYPERBEAM",
+    "PROTECT",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "SMACKDOWN",
+    "EARTHQUAKE",
+    "RETURN",
+    "DOUBLETEAM",
+    "FLAMETHROWER",
+    "FIREBLAST",
+    "ROCKTOMB",
+    "FACADE",
+    "FLAMECHARGE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "OVERHEAT",
+    "FOCUSBLAST",
+    "FLING",
+    "CHARGEBEAM",
+    "BRUTALSWING",
+    "WILLOWISP",
+    "EXPLOSION",
+    "PAYBACK",
+    "GIGAIMPACT",
+    "STONEEDGE",
+    "BULLDOZE",
+    "DRAGONTAIL",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "FLASHCANNON",
+    "SECRETPOWER",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "FIRESPIN",
+    "REVENGE",
+    "BODYSLAM",
+    "ENDURE",
+    "HEATCRASH",
+    "HEAVYSLAM",
+    "BODYPRESS",
+]
+raw_tutor_moves = [
+    "BLOCK",
+    "BURNINGJEALOUSY",
+    "DRACOMETEOR",
+    "DRAGONPULSE",
+    "ENDEAVOR",
+    "HEATWAVE",
+    "HYPERVOICE",
+    "IRONDEFENSE",
+    "IRONHEAD",
+    "IRONTAIL",
+    "LASHOUT",
+    "MIMIC",
+    "OUTRAGE",
+    "SCALESHOT",
+    "SCORCHINGSANDS",
+    "SHOCKWAVE",
+    "SNORE",
+    "STOMPINGTANTRUM",
+    "UPROAR",
+]
+compatible_egg_groups = [
+    "Monster",
+    "Dragon",
+]
 steps_to_hatch = 5120
 height = 2.0
 weight = 212.0
@@ -20,90 +122,12 @@ pokedex_entry = "The shell on its back is chemically unstable and explodes viole
 battler_player_y = 16
 battler_enemy_y = 18
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 776
-internal_name = "TURTONATOR"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "EMBER"
-
-[[raw_level_up_moves]]
-at_level = 5
-name = "SMOG"
-
-[[raw_level_up_moves]]
-at_level = 9
-name = "PROTECT"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "INCINERATE"
-
-[[raw_level_up_moves]]
-at_level = 17
-name = "FLAIL"
-
-[[raw_level_up_moves]]
-at_level = 21
-name = "ENDURE"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "IRONDEFENSE"
-
-[[raw_level_up_moves]]
-at_level = 29
-name = "FLAMETHROWER"
-
-[[raw_level_up_moves]]
-at_level = 33
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "SHELLSMASH"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "DRAGONPULSE"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "SHELLTRAP"
-
-[[raw_level_up_moves]]
-at_level = 53
-name = "OVERHEAT"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "EXPLOSION"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "FLAMETHROWER"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "HEADSMASH"
-
-[[raw_level_up_moves]]
-at_level = 62
-name = "RAPIDSPIN"
-
-[[raw_level_up_moves]]
-at_level = 65
-name = "EARTHPOWER"
-
-[[raw_level_up_moves]]
-at_level = 68
-name = "METALBURST"
+raw_egg_moves = [
+    "FIRESPIN",
+    "HEADSMASH",
+    "REVENGE",
+    "WIDEGUARD",
+]
 
 [base_stats]
 hp = 60

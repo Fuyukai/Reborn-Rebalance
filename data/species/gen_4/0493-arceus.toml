@@ -1,3 +1,4 @@
+dex_number = 493
 name = "Arceus"
 primary_type = "NORMAL"
 secondary_type = "NORMAL"
@@ -6,11 +7,161 @@ growth_rate = "Slow"
 exp_yield = 324
 catch_rate = 3
 caught_happiness = 0
-raw_abilities = ["MULTITYPE"]
-raw_egg_moves = []
-raw_tms = ["WORKUP", "CUT", "DRAGONCLAW", "FLY", "PSYSHOCK", "SURF", "CALMMIND", "STRENGTH", "ROAR", "WATERFALL", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "FLASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "PSYCHIC", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "SLUDGEBOMB", "SANDSTORM", "FIREBLAST", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ROUND", "ECHOEDVOICE", "OVERHEAT", "FOCUSBLAST", "ENERGYBALL", "CHARGEBEAM", "QUASH", "WILLOWISP", "SHADOWCLAW", "PAYBACK", "GIGAIMPACT", "STONEEDGE", "THUNDERWAVE", "SWORDSDANCE", "PSYCHUP", "BULLDOZE", "ROCKSLIDE", "XSCISSOR", "POISONJAB", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "TRICKROOM", "SECRETPOWER", "SNARL", "DARKPULSE", "CONFIDE", "WHIRLPOOL", "BULLETSEED", "BRINE", "AVALANCHE", "ENDURE", "FUTURESIGHT", "COSMICPOWER", "RETALIATE", "TRAILBLAZE", "CHILLINGWATER", "SWIFT", "MYSTICALFIRE", "HURRICANE"]
-raw_tutor_moves = ["ANCIENTPOWER", "AQUATAIL", "DEFOG", "DRACOMETEOR", "DRAGONPULSE", "EARTHPOWER", "FURYCUTTER", "GIGADRAIN", "GRAVITY", "HEADBUTT", "HEATWAVE", "HYPERVOICE", "ICYWIND", "IRONDEFENSE", "IRONHEAD", "IRONTAIL", "LASERFOCUS", "LASTRESORT", "LIQUIDATION", "MAGICCOAT", "MUDSLAP", "OMINOUSWIND", "OUTRAGE", "RECYCLE", "SHOCKWAVE", "SIGNALBEAM", "SNORE", "STEALTHROCK", "TAILWIND", "TELEKINESIS", "TRICK", "TWISTER", "WATERPULSE", "ZENHEADBUTT", "STEELBEAM", "EXTREMESPEED", "MIMIC"]
-compatible_egg_groups = ["Undiscovered"]
+raw_abilities = [
+    "MULTITYPE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "ROAROFTIME" },
+    { at_level = 1, name = "SPACIALREND" },
+    { at_level = 1, name = "SHADOWFORCE" },
+    { at_level = 1, name = "SEISMICTOSS" },
+    { at_level = 1, name = "COSMICPOWER" },
+    { at_level = 1, name = "NATURALGIFT" },
+    { at_level = 6, name = "GRAVITY" },
+    { at_level = 10, name = "RAGINGFURY" },
+    { at_level = 14, name = "HYPERVOICE" },
+    { at_level = 18, name = "EXTREMESPEED" },
+    { at_level = 22, name = "REFRESH" },
+    { at_level = 26, name = "FUTURESIGHT" },
+    { at_level = 30, name = "ESPERWING" },
+    { at_level = 34, name = "PERISHSONG" },
+    { at_level = 38, name = "OUTRAGE" },
+    { at_level = 42, name = "RECOVER" },
+    { at_level = 46, name = "BLASTBURN" },
+    { at_level = 46, name = "HYDROCANNON" },
+    { at_level = 50, name = "JUDGMENT" },
+]
+raw_tms = [
+    "WORKUP",
+    "CUT",
+    "DRAGONCLAW",
+    "FLY",
+    "PSYSHOCK",
+    "SURF",
+    "CALMMIND",
+    "STRENGTH",
+    "ROAR",
+    "WATERFALL",
+    "TOXIC",
+    "DIVE",
+    "HAIL",
+    "ROCKSMASH",
+    "FLASH",
+    "ROCKCLIMB",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "ICEBEAM",
+    "BLIZZARD",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "THUNDERBOLT",
+    "THUNDER",
+    "EARTHQUAKE",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "REFLECT",
+    "FLAMETHROWER",
+    "SLUDGEBOMB",
+    "SANDSTORM",
+    "FIREBLAST",
+    "ROCKTOMB",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ROUND",
+    "ECHOEDVOICE",
+    "OVERHEAT",
+    "FOCUSBLAST",
+    "ENERGYBALL",
+    "CHARGEBEAM",
+    "QUASH",
+    "WILLOWISP",
+    "SHADOWCLAW",
+    "PAYBACK",
+    "GIGAIMPACT",
+    "STONEEDGE",
+    "THUNDERWAVE",
+    "SWORDSDANCE",
+    "PSYCHUP",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "XSCISSOR",
+    "POISONJAB",
+    "DREAMEATER",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "FLASHCANNON",
+    "TRICKROOM",
+    "SECRETPOWER",
+    "SNARL",
+    "DARKPULSE",
+    "CONFIDE",
+    "WHIRLPOOL",
+    "BULLETSEED",
+    "BRINE",
+    "AVALANCHE",
+    "MYSTICALFIRE",
+    "HURRICANE",
+    "ENDURE",
+    "FUTURESIGHT",
+    "COSMICPOWER",
+    "RETALIATE",
+    "TRAILBLAZE",
+    "CHILLINGWATER",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "ANCIENTPOWER",
+    "AQUATAIL",
+    "DEFOG",
+    "DRACOMETEOR",
+    "DRAGONPULSE",
+    "EARTHPOWER",
+    "EXTREMESPEED",
+    "FURYCUTTER",
+    "GIGADRAIN",
+    "GRAVITY",
+    "HEADBUTT",
+    "HEATWAVE",
+    "HYPERVOICE",
+    "ICYWIND",
+    "IRONDEFENSE",
+    "IRONHEAD",
+    "IRONTAIL",
+    "LASERFOCUS",
+    "LASTRESORT",
+    "LIQUIDATION",
+    "MAGICCOAT",
+    "MIMIC",
+    "MUDSLAP",
+    "OMINOUSWIND",
+    "OUTRAGE",
+    "RECYCLE",
+    "SHOCKWAVE",
+    "SIGNALBEAM",
+    "SNORE",
+    "STEALTHROCK",
+    "STEELBEAM",
+    "TAILWIND",
+    "TELEKINESIS",
+    "TRICK",
+    "TWISTER",
+    "WATERPULSE",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Undiscovered",
+]
 steps_to_hatch = 30855
 height = 3.2
 weight = 320.0
@@ -20,86 +171,27 @@ pokedex_entry = "It is described in mythology as the Pokémon that shaped the un
 battler_player_y = 12
 battler_enemy_y = 6
 battler_altitude = 0
-evolutions = []
-form_names = ["Normal Forme", "Fighting Forme", "Flying Forme", "Poison Forme", "Ground Forme", "Rock Forme", "Bug Forme", "Ghost Forme", "Steel Forme", "Unknown Forme", "Fire Forme", "Water Forme", "Grass Forme", "Electric Forme", "Psychic Forme", "Ice Forme", "Dragon Forme", "Dark Forme", "Fairy Forme"]
-dex_number = 493
-internal_name = "ARCEUS"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ROAROFTIME"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SPACIALREND"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SHADOWFORCE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SEISMICTOSS"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "COSMICPOWER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "NATURALGIFT"
-
-[[raw_level_up_moves]]
-at_level = 6
-name = "GRAVITY"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "RAGINGFURY"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "HYPERVOICE"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "EXTREMESPEED"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "REFRESH"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "FUTURESIGHT"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "ESPERWING"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "PERISHSONG"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "OUTRAGE"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "RECOVER"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "BLASTBURN"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "HYDROCANNON"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "JUDGMENT"
+form_names = [
+    "Normal Forme",
+    "Fighting Forme",
+    "Flying Forme",
+    "Poison Forme",
+    "Ground Forme",
+    "Rock Forme",
+    "Bug Forme",
+    "Ghost Forme",
+    "Steel Forme",
+    "Unknown Forme",
+    "Fire Forme",
+    "Water Forme",
+    "Grass Forme",
+    "Electric Forme",
+    "Psychic Forme",
+    "Ice Forme",
+    "Dragon Forme",
+    "Dark Forme",
+    "Fairy Forme",
+]
 
 [base_stats]
 hp = 120
@@ -116,5 +208,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

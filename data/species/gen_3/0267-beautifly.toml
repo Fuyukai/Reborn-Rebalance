@@ -1,3 +1,4 @@
+dex_number = 267
 name = "Beautifly"
 primary_type = "BUG"
 secondary_type = "FLYING"
@@ -6,11 +7,86 @@ growth_rate = "Medium"
 exp_yield = 178
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["SWARM", "RIVALRY"]
-raw_egg_moves = []
-raw_tms = ["TOXIC", "FLASH", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "ROOST", "ROOST", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ENERGYBALL", "ACROBATICS", "GIGAIMPACT", "STRUGGLEBUG", "INFESTATION", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "AIRSLASH", "ENDURE", "BUGBUZZ", "SWIFT", "HURRICANE"]
-raw_tutor_moves = ["AIRCUTTER", "BUGBITE", "DEFOG", "ELECTROWEB", "GIGADRAIN", "LASERFOCUS", "OMINOUSWIND", "SIGNALBEAM", "SNORE", "STRINGSHOT", "TAILWIND", "TWISTER", "MIMIC"]
-compatible_egg_groups = ["Bug"]
+raw_abilities = [
+    "SWARM",
+    "RIVALRY",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "ABSORB" },
+    { at_level = 13, name = "GUST" },
+    { at_level = 13, name = "MEGADRAIN" },
+    { at_level = 15, name = "STUNSPORE" },
+    { at_level = 17, name = "SILVERWIND" },
+    { at_level = 21, name = "AIRCUTTER" },
+    { at_level = 25, name = "LEECHLIFE" },
+    { at_level = 29, name = "MORNINGSUN" },
+    { at_level = 33, name = "OMINOUSWIND" },
+    { at_level = 37, name = "RAGEPOWDER" },
+    { at_level = 41, name = "BUGBUZZ" },
+    { at_level = 45, name = "AIRSLASH" },
+    { at_level = 49, name = "ATTRACT" },
+    { at_level = 53, name = "WHIRLWIND" },
+    { at_level = 57, name = "HURRICANE" },
+    { at_level = 61, name = "QUIVERDANCE" },
+]
+raw_tms = [
+    "TOXIC",
+    "FLASH",
+    "VENOSHOCK",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "PROTECT",
+    "ROOST",
+    "ROOST",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "ENERGYBALL",
+    "ACROBATICS",
+    "GIGAIMPACT",
+    "STRUGGLEBUG",
+    "INFESTATION",
+    "SWAGGER",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "AIRSLASH",
+    "HURRICANE",
+    "ENDURE",
+    "BUGBUZZ",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AIRCUTTER",
+    "BUGBITE",
+    "DEFOG",
+    "ELECTROWEB",
+    "GIGADRAIN",
+    "LASERFOCUS",
+    "MIMIC",
+    "OMINOUSWIND",
+    "SIGNALBEAM",
+    "SNORE",
+    "STRINGSHOT",
+    "TAILWIND",
+    "TWISTER",
+]
+compatible_egg_groups = [
+    "Bug",
+]
 steps_to_hatch = 4080
 height = 1.0
 weight = 28.4
@@ -20,75 +96,7 @@ pokedex_entry = "Its colorfully patterned wings are its most striking feature. I
 battler_player_y = 21
 battler_enemy_y = 19
 battler_altitude = 17
-evolutions = []
-form_names = []
-dex_number = 267
-internal_name = "BEAUTIFLY"
 habitat = "Forest"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ABSORB"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "GUST"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "MEGADRAIN"
-
-[[raw_level_up_moves]]
-at_level = 15
-name = "STUNSPORE"
-
-[[raw_level_up_moves]]
-at_level = 17
-name = "SILVERWIND"
-
-[[raw_level_up_moves]]
-at_level = 21
-name = "AIRCUTTER"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "LEECHLIFE"
-
-[[raw_level_up_moves]]
-at_level = 29
-name = "MORNINGSUN"
-
-[[raw_level_up_moves]]
-at_level = 33
-name = "OMINOUSWIND"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "RAGEPOWDER"
-
-[[raw_level_up_moves]]
-at_level = 41
-name = "BUGBUZZ"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "AIRSLASH"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "ATTRACT"
-
-[[raw_level_up_moves]]
-at_level = 53
-name = "WHIRLWIND"
-
-[[raw_level_up_moves]]
-at_level = 57
-name = "HURRICANE"
-
-[[raw_level_up_moves]]
-at_level = 61
-name = "QUIVERDANCE"
 
 [base_stats]
 hp = 60

@@ -1,3 +1,4 @@
+dex_number = 498
 name = "Tepig"
 primary_type = "FIRE"
 secondary_type = "FIRE"
@@ -6,11 +7,86 @@ growth_rate = "Parabolic"
 exp_yield = 62
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["SHEERFORCE", "BLAZE"]
-raw_egg_moves = ["BODYSLAM", "BURNUP", "COVET", "CURSE", "ENDEAVOR", "HEAVYSLAM", "MAGNITUDE", "SLEEPTALK", "SUCKERPUNCH", "SUPERPOWER", "THRASH", "YAWN"]
-raw_tms = ["WORKUP", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "PROTECT", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "FLAMETHROWER", "FIREBLAST", "ROCKTOMB", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "OVERHEAT", "WILLOWISP", "GYROBALL", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "CONFIDE", "ASSURANCE", "BODYSLAM", "FLAREBLITZ", "ENDURE", "HEATCRASH", "HEAVYSLAM"]
-raw_tutor_moves = ["COVET", "ENDEAVOR", "FIREPLEDGE", "HEATWAVE", "HELPINGHAND", "IRONTAIL", "SNORE", "STOMPINGTANTRUM", "SUPERPOWER", "ZENHEADBUTT", "MIMIC"]
-compatible_egg_groups = ["Field"]
+raw_abilities = [
+    "SHEERFORCE",
+    "BLAZE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 1, name = "TAILWHIP" },
+    { at_level = 5, name = "EMBER" },
+    { at_level = 7, name = "SMOG" },
+    { at_level = 10, name = "DEFENSECURL" },
+    { at_level = 13, name = "FLAMECHARGE" },
+    { at_level = 16, name = "CURSE" },
+    { at_level = 19, name = "ASSURANCE" },
+    { at_level = 22, name = "ROLLOUT" },
+    { at_level = 25, name = "ASSURANCE" },
+    { at_level = 28, name = "ZENHEADBUTT" },
+    { at_level = 31, name = "HEATCRASH" },
+    { at_level = 34, name = "SLACKOFF" },
+    { at_level = 37, name = "WORKUP" },
+    { at_level = 40, name = "FLAMETHROWER" },
+    { at_level = 43, name = "HEAVYSLAM" },
+    { at_level = 46, name = "ROAR" },
+    { at_level = 49, name = "FIREBLAST" },
+]
+raw_tms = [
+    "WORKUP",
+    "STRENGTH",
+    "ROAR",
+    "TOXIC",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "PROTECT",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "DOUBLETEAM",
+    "FLAMETHROWER",
+    "FIREBLAST",
+    "ROCKTOMB",
+    "FACADE",
+    "FLAMECHARGE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ECHOEDVOICE",
+    "OVERHEAT",
+    "WILLOWISP",
+    "GYROBALL",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "WILDCHARGE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "ASSURANCE",
+    "BODYSLAM",
+    "FLAREBLITZ",
+    "ENDURE",
+    "HEATCRASH",
+    "HEAVYSLAM",
+]
+raw_tutor_moves = [
+    "COVET",
+    "ENDEAVOR",
+    "FIREPLEDGE",
+    "HEATWAVE",
+    "HELPINGHAND",
+    "IRONTAIL",
+    "MIMIC",
+    "SNORE",
+    "STOMPINGTANTRUM",
+    "SUPERPOWER",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Field",
+]
 steps_to_hatch = 5120
 height = 0.5
 weight = 9.9
@@ -20,88 +96,23 @@ pokedex_entry = "It blows fire through its nose. When it catches a cold, the fir
 battler_player_y = 31
 battler_enemy_y = 35
 battler_altitude = 0
-form_names = []
-dex_number = 498
-internal_name = "TEPIG"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TAILWHIP"
-
-[[raw_level_up_moves]]
-at_level = 5
-name = "EMBER"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "SMOG"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "DEFENSECURL"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "FLAMECHARGE"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "CURSE"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "ASSURANCE"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "ROLLOUT"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "ASSURANCE"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "ZENHEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "HEATCRASH"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "SLACKOFF"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "WORKUP"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "FLAMETHROWER"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "HEAVYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "ROAR"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "FIREBLAST"
-
-[[evolutions]]
-into_name = "PIGNITE"
-condition = "Level"
-parameter = "17"
-
-
+raw_egg_moves = [
+    "BODYSLAM",
+    "BURNUP",
+    "COVET",
+    "CURSE",
+    "ENDEAVOR",
+    "HEAVYSLAM",
+    "MAGNITUDE",
+    "SLEEPTALK",
+    "SUCKERPUNCH",
+    "SUPERPOWER",
+    "THRASH",
+    "YAWN",
+]
+evolutions = [
+    { into_name = "PIGNITE", condition = "Level", parameter = "17" },
+]
 
 [base_stats]
 hp = 65
@@ -118,5 +129,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

@@ -1,3 +1,4 @@
+dex_number = 535
 name = "Tympole"
 primary_type = "WATER"
 secondary_type = "WATER"
@@ -6,11 +7,79 @@ growth_rate = "Parabolic"
 exp_yield = 59
 catch_rate = 255
 caught_happiness = 70
-raw_abilities = ["SWIFTSWIM", "HYDRATION"]
-raw_egg_moves = ["AFTERYOU", "EARTHPOWER", "MIST", "MUDBOMB", "MUDSPORT", "REFRESH", "SLEEPTALK", "SNORE", "VENOMDRENCH", "WATERPULSE"]
-raw_tms = ["SURF", "TOXIC", "HAIL", "HIDDENPOWER", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "DOUBLETEAM", "SLUDGEWAVE", "SLUDGEBOMB", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "SCALD", "INFESTATION", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "SCREECH", "WEATHERBALL", "MUDSHOT", "HYDROPUMP", "ENDURE", "MUDDYWATER", "VENOMDRENCH"]
-raw_tutor_moves = ["AFTERYOU", "BOUNCE", "EARTHPOWER", "ENDEAVOR", "HYPERVOICE", "ICYWIND", "MUDSLAP", "SNORE", "UPROAR", "WATERPULSE", "MIMIC"]
-compatible_egg_groups = ["Water1"]
+raw_abilities = [
+    "SWIFTSWIM",
+    "HYDRATION",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "MUDSLAP" },
+    { at_level = 1, name = "AFTERYOU" },
+    { at_level = 1, name = "GROWL" },
+    { at_level = 4, name = "SUPERSONIC" },
+    { at_level = 7, name = "ACID" },
+    { at_level = 10, name = "FLAIL" },
+    { at_level = 13, name = "WATERPULSE" },
+    { at_level = 16, name = "ECHOEDVOICE" },
+    { at_level = 19, name = "MUDSHOT" },
+    { at_level = 22, name = "BUBBLEBEAM" },
+    { at_level = 25, name = "MIST" },
+    { at_level = 28, name = "UPROAR" },
+    { at_level = 31, name = "MUDBOMB" },
+    { at_level = 34, name = "GASTROACID" },
+    { at_level = 38, name = "HYPERVOICE" },
+    { at_level = 42, name = "AQUARING" },
+    { at_level = 46, name = "MUDDYWATER" },
+    { at_level = 50, name = "REFRESH" },
+    { at_level = 54, name = "HYDROPUMP" },
+]
+raw_tms = [
+    "SURF",
+    "TOXIC",
+    "HAIL",
+    "HIDDENPOWER",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "RETURN",
+    "DOUBLETEAM",
+    "SLUDGEWAVE",
+    "SLUDGEBOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ECHOEDVOICE",
+    "SCALD",
+    "INFESTATION",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "SCREECH",
+    "WEATHERBALL",
+    "MUDSHOT",
+    "HYDROPUMP",
+    "ENDURE",
+    "MUDDYWATER",
+    "VENOMDRENCH",
+]
+raw_tutor_moves = [
+    "AFTERYOU",
+    "BOUNCE",
+    "EARTHPOWER",
+    "ENDEAVOR",
+    "HYPERVOICE",
+    "ICYWIND",
+    "MIMIC",
+    "MUDSLAP",
+    "SNORE",
+    "UPROAR",
+    "WATERPULSE",
+]
+compatible_egg_groups = [
+    "Water1",
+]
 steps_to_hatch = 5120
 height = 0.5
 weight = 4.5
@@ -20,93 +89,22 @@ pokedex_entry = "By vibrating its cheeks, it emits sound waves imperceptible to 
 battler_player_y = 31
 battler_enemy_y = 25
 battler_altitude = 2
-form_names = []
-dex_number = 535
-internal_name = "TYMPOLE"
 raw_hidden_ability = "WATERABSORB"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "MUDSLAP"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "AFTERYOU"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWL"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "SUPERSONIC"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "ACID"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "FLAIL"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "WATERPULSE"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "ECHOEDVOICE"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "MUDSHOT"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "BUBBLEBEAM"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "MIST"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "UPROAR"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "MUDBOMB"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "GASTROACID"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "HYPERVOICE"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "AQUARING"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "MUDDYWATER"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "REFRESH"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "HYDROPUMP"
-
-[[evolutions]]
-into_name = "PALPITOAD"
-condition = "Level"
-parameter = "25"
-
-
+raw_egg_moves = [
+    "AFTERYOU",
+    "EARTHPOWER",
+    "MIST",
+    "MUDBOMB",
+    "MUDSPORT",
+    "REFRESH",
+    "SLEEPTALK",
+    "SNORE",
+    "VENOMDRENCH",
+    "WATERPULSE",
+]
+evolutions = [
+    { into_name = "PALPITOAD", condition = "Level", parameter = "25" },
+]
 
 [base_stats]
 hp = 50
@@ -123,5 +121,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 1
-
-[wild_items]

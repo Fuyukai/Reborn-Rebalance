@@ -1,3 +1,4 @@
+dex_number = 34
 name = "Nidoking"
 primary_type = "POISON"
 secondary_type = "GROUND"
@@ -6,11 +7,136 @@ growth_rate = "Parabolic"
 exp_yield = 223
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["SHEERFORCE", "POISONPOINT", "RIVALRY"]
-raw_egg_moves = []
-raw_tms = ["CUT", "SURF", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "VENOSHOCK", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "SMACKDOWN", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "SLUDGEWAVE", "FLAMETHROWER", "SLUDGEBOMB", "SANDSTORM", "FIREBLAST", "ROCKTOMB", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "FOCUSBLAST", "FLING", "QUASH", "SHADOWCLAW", "SMARTSTRIKE", "GIGAIMPACT", "STONEEDGE", "BULLDOZE", "ROCKSLIDE", "DRAGONTAIL", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "PAYDAY", "DIG", "WHIRLPOOL", "BEATUP", "SANDTOMB", "ROCKBLAST", "MUDSHOT", "AVALANCHE", "HEX", "BODYSLAM", "MEGAHORN", "FOCUSENERGY", "AMNESIA", "ENDURE", "TOXICSPIKES", "VENOMDRENCH", "HIGHHORSEPOWER", "BODYPRESS"]
-raw_tutor_moves = ["AQUATAIL", "DRAGONPULSE", "DRILLRUN", "EARTHPOWER", "FIREPUNCH", "FOCUSPUNCH", "HEADBUTT", "HELPINGHAND", "ICEPUNCH", "ICYWIND", "IRONTAIL", "MUDSLAP", "OUTRAGE", "SHOCKWAVE", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "SUCKERPUNCH", "SUPERFANG", "SUPERPOWER", "THROATCHOP", "THUNDERPUNCH", "UPROAR", "WATERPULSE", "SCORCHINGSANDS", "MIMIC", "POISONTAIL"]
-compatible_egg_groups = ["Monster", "Field"]
+raw_abilities = [
+    "SHEERFORCE",
+    "POISONPOINT",
+    "RIVALRY",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "AVALANCHE" },
+    { at_level = 1, name = "CONFUSION" },
+    { at_level = 1, name = "HEADSMASH" },
+    { at_level = 1, name = "HIGHHORSEPOWER" },
+    { at_level = 1, name = "SMARTSTRIKE" },
+    { at_level = 1, name = "POISONSTING" },
+    { at_level = 1, name = "TOXICSPIKES" },
+    { at_level = 25, name = "CHIPAWAY" },
+    { at_level = 35, name = "POISONTAIL" },
+    { at_level = 45, name = "MEGAHORN" },
+    { at_level = 52, name = "MOONBLAST" },
+    { at_level = 58, name = "SCORCHINGSANDS" },
+]
+raw_tms = [
+    "CUT",
+    "SURF",
+    "STRENGTH",
+    "ROAR",
+    "TOXIC",
+    "ROCKSMASH",
+    "VENOSHOCK",
+    "ROCKCLIMB",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "ICEBEAM",
+    "BLIZZARD",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "SMACKDOWN",
+    "THUNDERBOLT",
+    "THUNDER",
+    "EARTHQUAKE",
+    "RETURN",
+    "SHADOWBALL",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "REFLECT",
+    "SLUDGEWAVE",
+    "FLAMETHROWER",
+    "SLUDGEBOMB",
+    "SANDSTORM",
+    "FIREBLAST",
+    "ROCKTOMB",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "ECHOEDVOICE",
+    "FOCUSBLAST",
+    "FLING",
+    "QUASH",
+    "SHADOWCLAW",
+    "SMARTSTRIKE",
+    "GIGAIMPACT",
+    "STONEEDGE",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "DRAGONTAIL",
+    "POISONJAB",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "PAYDAY",
+    "DIG",
+    "WHIRLPOOL",
+    "BEATUP",
+    "SANDTOMB",
+    "ROCKBLAST",
+    "MUDSHOT",
+    "AVALANCHE",
+    "HEX",
+    "BODYSLAM",
+    "MEGAHORN",
+    "FOCUSENERGY",
+    "AMNESIA",
+    "ENDURE",
+    "TOXICSPIKES",
+    "VENOMDRENCH",
+    "HIGHHORSEPOWER",
+    "BODYPRESS",
+]
+raw_tutor_moves = [
+    "AQUATAIL",
+    "DRAGONPULSE",
+    "DRILLRUN",
+    "EARTHPOWER",
+    "FIREPUNCH",
+    "FOCUSPUNCH",
+    "HEADBUTT",
+    "HELPINGHAND",
+    "ICEPUNCH",
+    "ICYWIND",
+    "IRONTAIL",
+    "MIMIC",
+    "MUDSLAP",
+    "OUTRAGE",
+    "POISONTAIL",
+    "SCORCHINGSANDS",
+    "SHOCKWAVE",
+    "SNORE",
+    "STEALTHROCK",
+    "STOMPINGTANTRUM",
+    "SUCKERPUNCH",
+    "SUPERFANG",
+    "SUPERPOWER",
+    "THROATCHOP",
+    "THUNDERPUNCH",
+    "UPROAR",
+    "WATERPULSE",
+]
+compatible_egg_groups = [
+    "Monster",
+    "Field",
+]
 steps_to_hatch = 5355
 height = 1.4
 weight = 62.0
@@ -20,59 +146,7 @@ pokedex_entry = "A Nidoking's thick tail packs enormously destructive power capa
 battler_player_y = 17
 battler_enemy_y = 12
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 34
-internal_name = "NIDOKING"
 habitat = "Grassland"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "AVALANCHE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "CONFUSION"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HEADSMASH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HIGHHORSEPOWER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SMARTSTRIKE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "POISONSTING"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TOXICSPIKES"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "CHIPAWAY"
-
-[[raw_level_up_moves]]
-at_level = 35
-name = "POISONTAIL"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "MEGAHORN"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "MOONBLAST"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "SCORCHINGSANDS"
 
 [base_stats]
 hp = 81
@@ -89,5 +163,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

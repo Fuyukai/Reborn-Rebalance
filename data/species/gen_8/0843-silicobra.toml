@@ -1,3 +1,4 @@
+dex_number = 843
 name = "Silicobra"
 primary_type = "GROUND"
 secondary_type = "GROUND"
@@ -6,11 +7,63 @@ growth_rate = "Medium"
 exp_yield = 63
 catch_rate = 255
 caught_happiness = 50
-raw_abilities = ["SANDSPIT", "SHEDSKIN"]
-raw_egg_moves = ["DRAGONRUSH", "MUDSLAP", "LASTRESORT", "BELCH", "POISONTAIL"]
-raw_tms = ["PROTECT", "EARTHQUAKE", "SANDSTORM", "FACADE", "REST", "ATTRACT", "ROUND", "BRUTALSWING", "BULLDOZE", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "DIG", "SCREECH", "SANDTOMB", "MUDSHOT", "ENDURE"]
-raw_tutor_moves = ["DRILLRUN", "EARTHPOWER", "HEADBUTT", "LASTRESORT", "MUDSLAP", "SNORE", "SCORCHINGSANDS", "SKITTERSMACK", "SCALESHOT", "MIMIC", "POISONTAIL"]
-compatible_egg_groups = ["Field", "Dragon"]
+raw_abilities = [
+    "SANDSPIT",
+    "SHEDSKIN",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "WRAP" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 5, name = "MINIMIZE" },
+    { at_level = 8, name = "BRUTALSWING" },
+    { at_level = 12, name = "STEAMROLLER" },
+    { at_level = 15, name = "BULLDOZE" },
+    { at_level = 19, name = "POISONFANG" },
+    { at_level = 24, name = "GLARE" },
+    { at_level = 28, name = "DIG" },
+    { at_level = 32, name = "SCORCHINGSANDS" },
+    { at_level = 36, name = "SANDSTORM" },
+    { at_level = 40, name = "ROCKBLAST" },
+    { at_level = 44, name = "COIL" },
+    { at_level = 48, name = "SANDTOMB" },
+    { at_level = 52, name = "HEADLONGRUSH" },
+]
+raw_tms = [
+    "PROTECT",
+    "EARTHQUAKE",
+    "SANDSTORM",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "BRUTALSWING",
+    "BULLDOZE",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "DIG",
+    "SCREECH",
+    "SANDTOMB",
+    "MUDSHOT",
+    "ENDURE",
+]
+raw_tutor_moves = [
+    "DRILLRUN",
+    "EARTHPOWER",
+    "HEADBUTT",
+    "LASTRESORT",
+    "MIMIC",
+    "MUDSLAP",
+    "POISONTAIL",
+    "SCALESHOT",
+    "SCORCHINGSANDS",
+    "SKITTERSMACK",
+    "SNORE",
+]
+compatible_egg_groups = [
+    "Field",
+    "Dragon",
+]
 steps_to_hatch = 5120
 height = 2.2
 weight = 7.6
@@ -20,75 +73,17 @@ pokedex_entry = "It spews sand from its nostrils. While the enemy is blinded, it
 battler_player_y = 21
 battler_enemy_y = 26
 battler_altitude = 0
-form_names = []
-dex_number = 843
-internal_name = "SILICOBRA"
+raw_egg_moves = [
+    "DRAGONRUSH",
+    "MUDSLAP",
+    "LASTRESORT",
+    "BELCH",
+    "POISONTAIL",
+]
+evolutions = [
+    { into_name = "SANDACONDA", condition = "Level", parameter = "36" },
+]
 regional_numbers = 843
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WRAP"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 5
-name = "MINIMIZE"
-
-[[raw_level_up_moves]]
-at_level = 8
-name = "BRUTALSWING"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "STEAMROLLER"
-
-[[raw_level_up_moves]]
-at_level = 15
-name = "BULLDOZE"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "POISONFANG"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "GLARE"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "DIG"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "SCORCHINGSANDS"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "SANDSTORM"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "ROCKBLAST"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "COIL"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "SANDTOMB"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "HEADLONGRUSH"
-
-[[evolutions]]
-into_name = "SANDACONDA"
-condition = "Level"
-parameter = "36"
 
 [base_stats]
 hp = 52
@@ -105,5 +100,3 @@ def_ = 1
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

@@ -1,3 +1,4 @@
+dex_number = 767
 name = "Wimpod"
 primary_type = "BUG"
 secondary_type = "WATER"
@@ -6,11 +7,56 @@ growth_rate = "Medium"
 exp_yield = 46
 catch_rate = 90
 caught_happiness = 70
-raw_abilities = ["WIMPOUT"]
-raw_egg_moves = ["AQUAJET", "HARDEN", "METALCLAW", "SPIKES", "WIDEGUARD"]
-raw_tms = ["SURF", "WATERFALL", "TOXIC", "HAIL", "HIDDENPOWER", "TAUNT", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "LEECHLIFE", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "ROUND", "SCALD", "STRUGGLEBUG", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "SCREECH", "MUDSHOT", "ASSURANCE", "SPIKES", "ENDURE", "BUGBUZZ", "SWIFT"]
-raw_tutor_moves = ["SNORE", "SKITTERSMACK", "MIMIC"]
-compatible_egg_groups = ["Bug", "Water3"]
+raw_abilities = [
+    "WIMPOUT",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "STRUGGLEBUG" },
+    { at_level = 1, name = "SANDATTACK" },
+    { at_level = 15, name = "AQUAJET" },
+    { at_level = 20, name = "SPIKES" },
+]
+raw_tms = [
+    "SURF",
+    "WATERFALL",
+    "TOXIC",
+    "HAIL",
+    "HIDDENPOWER",
+    "TAUNT",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "RETURN",
+    "LEECHLIFE",
+    "DOUBLETEAM",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "SCALD",
+    "STRUGGLEBUG",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "SCREECH",
+    "MUDSHOT",
+    "ASSURANCE",
+    "SPIKES",
+    "ENDURE",
+    "BUGBUZZ",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "MIMIC",
+    "SKITTERSMACK",
+    "SNORE",
+]
+compatible_egg_groups = [
+    "Bug",
+    "Water3",
+]
 steps_to_hatch = 5120
 height = 0.5
 weight = 12.0
@@ -20,32 +66,16 @@ pokedex_entry = "This Pokémon is a coward. As it desperately dashes off, the fl
 battler_player_y = 22
 battler_enemy_y = 31
 battler_altitude = 0
-form_names = []
-dex_number = 767
-internal_name = "WIMPOD"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "STRUGGLEBUG"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SANDATTACK"
-
-[[raw_level_up_moves]]
-at_level = 15
-name = "AQUAJET"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "SPIKES"
-
-[[evolutions]]
-into_name = "GOLISOPOD"
-condition = "Level"
-parameter = "30"
-
-
+raw_egg_moves = [
+    "AQUAJET",
+    "HARDEN",
+    "METALCLAW",
+    "SPIKES",
+    "WIDEGUARD",
+]
+evolutions = [
+    { into_name = "GOLISOPOD", condition = "Level", parameter = "30" },
+]
 
 [base_stats]
 hp = 25
@@ -62,5 +92,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 1
-
-[wild_items]

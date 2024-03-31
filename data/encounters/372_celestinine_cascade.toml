@@ -1,182 +1,49 @@
-chances = [14, 10, 6]
+chances = [
+    14,
+    10,
+    6,
+]
 
 [encounters]
-[[encounters.LandMorning]]
-name = "RUFFLET"
-minimum_level = 50
-maximum_level = 52
-
-[[encounters.LandMorning]]
-name = "HAWLUCHA"
-minimum_level = 50
-maximum_level = 55
-
-[[encounters.LandMorning]]
-name = "MEDITITE"
-minimum_level = 50
-maximum_level = 55
-
-[[encounters.LandMorning]]
-name = "BOLDORE"
-minimum_level = 50
-maximum_level = 55
-
-[[encounters.LandMorning]]
-name = "RHYHORN"
-minimum_level = 50
-maximum_level = 55
-
-[[encounters.LandMorning]]
-name = "URSARING"
-minimum_level = 52
-maximum_level = 59
-
-[[encounters.LandMorning]]
-name = "ROCKRUFF"
-minimum_level = 50
-maximum_level = 55
-
-[[encounters.LandMorning]]
-name = "MACHOKE"
-minimum_level = 50
-maximum_level = 55
-
-[[encounters.LandMorning]]
-name = "HAWLUCHA"
-minimum_level = 50
-maximum_level = 55
-
-[[encounters.LandMorning]]
-name = "KLAWF"
-minimum_level = 52
-maximum_level = 59
-
-[[encounters.LandMorning]]
-name = "KLAWF"
-minimum_level = 52
-maximum_level = 59
-
-[[encounters.LandMorning]]
-name = "HAWLUCHA"
-minimum_level = 52
-maximum_level = 59
-
-[[encounters.LandDay]]
-name = "RUFFLET"
-minimum_level = 50
-maximum_level = 52
-
-[[encounters.LandDay]]
-name = "DONPHAN"
-minimum_level = 50
-maximum_level = 55
-
-[[encounters.LandDay]]
-name = "MEDITITE"
-minimum_level = 50
-maximum_level = 55
-
-[[encounters.LandDay]]
-name = "BOLDORE"
-minimum_level = 50
-maximum_level = 55
-
-[[encounters.LandDay]]
-name = "RHYHORN"
-minimum_level = 50
-maximum_level = 55
-
-[[encounters.LandDay]]
-name = "URSARING"
-minimum_level = 52
-maximum_level = 59
-
-[[encounters.LandDay]]
-name = "MIENFOO"
-minimum_level = 50
-maximum_level = 55
-
-[[encounters.LandDay]]
-name = "ROCKRUFF"
-minimum_level = 50
-maximum_level = 55
-
-[[encounters.LandDay]]
-name = "MACHOKE"
-minimum_level = 50
-maximum_level = 55
-
-[[encounters.LandDay]]
-name = "REVAVROOM"
-minimum_level = 52
-maximum_level = 59
-
-[[encounters.LandDay]]
-name = "MIENFOO"
-minimum_level = 50
-maximum_level = 55
-
-[[encounters.LandDay]]
-name = "DONPHAN"
-minimum_level = 52
-maximum_level = 59
-
-[[encounters.LandNight]]
-name = "NOCTOWL"
-minimum_level = 50
-maximum_level = 55
-
-[[encounters.LandNight]]
-name = "MEDITITE"
-minimum_level = 50
-maximum_level = 55
-
-[[encounters.LandNight]]
-name = "DONPHAN"
-minimum_level = 50
-maximum_level = 55
-
-[[encounters.LandNight]]
-name = "BOLDORE"
-minimum_level = 50
-maximum_level = 55
-
-[[encounters.LandNight]]
-name = "RHYHORN"
-minimum_level = 50
-maximum_level = 55
-
-[[encounters.LandNight]]
-name = "REVAVROOM"
-minimum_level = 52
-maximum_level = 59
-
-[[encounters.LandNight]]
-name = "MIENFOO"
-minimum_level = 50
-maximum_level = 55
-
-[[encounters.LandNight]]
-name = "ROCKRUFF"
-minimum_level = 50
-maximum_level = 55
-
-[[encounters.LandNight]]
-name = "MACHOKE"
-minimum_level = 50
-maximum_level = 55
-
-[[encounters.LandNight]]
-name = "RHYDON"
-minimum_level = 52
-maximum_level = 59
-
-[[encounters.LandNight]]
-name = "MIENFOO"
-minimum_level = 50
-maximum_level = 55
-
-[[encounters.LandNight]]
-name = "DONPHAN"
-minimum_level = 52
-maximum_level = 59
+LandMorning = [
+    { name = "RUFFLET", minimum_level = 50, maximum_level = 52 },
+    { name = "HAWLUCHA", minimum_level = 50, maximum_level = 55 },
+    { name = "MEDITITE", minimum_level = 50, maximum_level = 55 },
+    { name = "BOLDORE", minimum_level = 50, maximum_level = 55 },
+    { name = "RHYHORN", minimum_level = 50, maximum_level = 55 },
+    { name = "URSARING", minimum_level = 52, maximum_level = 59 },
+    { name = "ROCKRUFF", minimum_level = 50, maximum_level = 55 },
+    { name = "MACHOKE", minimum_level = 50, maximum_level = 55 },
+    { name = "HAWLUCHA", minimum_level = 50, maximum_level = 55 },
+    { name = "KLAWF", minimum_level = 52, maximum_level = 59 },
+    { name = "KLAWF", minimum_level = 52, maximum_level = 59 },
+    { name = "HAWLUCHA", minimum_level = 52, maximum_level = 59 },
+]
+LandDay = [
+    { name = "RUFFLET", minimum_level = 50, maximum_level = 52 },
+    { name = "DONPHAN", minimum_level = 50, maximum_level = 55 },
+    { name = "MEDITITE", minimum_level = 50, maximum_level = 55 },
+    { name = "BOLDORE", minimum_level = 50, maximum_level = 55 },
+    { name = "RHYHORN", minimum_level = 50, maximum_level = 55 },
+    { name = "URSARING", minimum_level = 52, maximum_level = 59 },
+    { name = "MIENFOO", minimum_level = 50, maximum_level = 55 },
+    { name = "ROCKRUFF", minimum_level = 50, maximum_level = 55 },
+    { name = "MACHOKE", minimum_level = 50, maximum_level = 55 },
+    { name = "REVAVROOM", minimum_level = 52, maximum_level = 59 },
+    { name = "MIENFOO", minimum_level = 50, maximum_level = 55 },
+    { name = "DONPHAN", minimum_level = 52, maximum_level = 59 },
+]
+LandNight = [
+    { name = "NOCTOWL", minimum_level = 50, maximum_level = 55 },
+    { name = "MEDITITE", minimum_level = 50, maximum_level = 55 },
+    { name = "DONPHAN", minimum_level = 50, maximum_level = 55 },
+    { name = "BOLDORE", minimum_level = 50, maximum_level = 55 },
+    { name = "RHYHORN", minimum_level = 50, maximum_level = 55 },
+    { name = "REVAVROOM", minimum_level = 52, maximum_level = 59 },
+    { name = "MIENFOO", minimum_level = 50, maximum_level = 55 },
+    { name = "ROCKRUFF", minimum_level = 50, maximum_level = 55 },
+    { name = "MACHOKE", minimum_level = 50, maximum_level = 55 },
+    { name = "RHYDON", minimum_level = 52, maximum_level = 59 },
+    { name = "MIENFOO", minimum_level = 50, maximum_level = 55 },
+    { name = "DONPHAN", minimum_level = 52, maximum_level = 59 },
+]

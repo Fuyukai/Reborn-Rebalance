@@ -1,3 +1,4 @@
+dex_number = 339
 name = "Barboach"
 primary_type = "WATER"
 secondary_type = "GROUND"
@@ -6,11 +7,86 @@ growth_rate = "Medium"
 exp_yield = 58
 catch_rate = 190
 caught_happiness = 70
-raw_abilities = ["SIMPLE", "ANTICIPATION"]
-raw_egg_moves = ["DRAGONDANCE", "EARTHPOWER", "FLAIL", "HYDROPUMP", "MUDSHOT", "MUDDYWATER", "SPARK", "TAKEDOWN", "THRASH", "WHIRLPOOL"]
-raw_tms = ["SURF", "WATERFALL", "TOXIC", "DIVE", "HAIL", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "SANDSTORM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "SCALD", "BULLDOZE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "WHIRLPOOL", "MUDSHOT", "HYDROPUMP", "AMNESIA", "ENDURE", "FUTURESIGHT", "MUDDYWATER", "DRAGONDANCE", "CHILLINGWATER"]
-raw_tutor_moves = ["AQUATAIL", "BOUNCE", "EARTHPOWER", "HEADBUTT", "ICYWIND", "MUDSLAP", "SNORE", "WATERPULSE", "MIMIC"]
-compatible_egg_groups = ["Water2"]
+raw_abilities = [
+    "SIMPLE",
+    "ANTICIPATION",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "MUDSLAP" },
+    { at_level = 1, name = "WATERGUN" },
+    { at_level = 1, name = "FLAIL" },
+    { at_level = 4, name = "CURSE" },
+    { at_level = 7, name = "WHIRLPOOL" },
+    { at_level = 10, name = "AMNESIA" },
+    { at_level = 13, name = "MUDBOMB" },
+    { at_level = 16, name = "WATERGUN" },
+    { at_level = 19, name = "HEADBUTT" },
+    { at_level = 22, name = "MAGNITUDE" },
+    { at_level = 25, name = "SPARK" },
+    { at_level = 28, name = "BULLDOZE" },
+    { at_level = 31, name = "FUTURESIGHT" },
+    { at_level = 34, name = "TAKEDOWN" },
+    { at_level = 37, name = "BREAKINGSWIPE" },
+    { at_level = 40, name = "ZENHEADBUTT" },
+    { at_level = 43, name = "MUDDYWATER" },
+    { at_level = 46, name = "BOUNCE" },
+    { at_level = 49, name = "DRAGONDANCE" },
+    { at_level = 52, name = "AQUATAIL" },
+    { at_level = 55, name = "FISSURE" },
+    { at_level = 58, name = "HYDROPUMP" },
+]
+raw_tms = [
+    "SURF",
+    "WATERFALL",
+    "TOXIC",
+    "DIVE",
+    "HAIL",
+    "HIDDENPOWER",
+    "ICEBEAM",
+    "BLIZZARD",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "EARTHQUAKE",
+    "RETURN",
+    "DOUBLETEAM",
+    "SANDSTORM",
+    "ROCKTOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "SCALD",
+    "BULLDOZE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "WHIRLPOOL",
+    "MUDSHOT",
+    "HYDROPUMP",
+    "AMNESIA",
+    "ENDURE",
+    "FUTURESIGHT",
+    "MUDDYWATER",
+    "DRAGONDANCE",
+    "CHILLINGWATER",
+]
+raw_tutor_moves = [
+    "AQUATAIL",
+    "BOUNCE",
+    "EARTHPOWER",
+    "HEADBUTT",
+    "ICYWIND",
+    "MIMIC",
+    "MUDSLAP",
+    "SNORE",
+    "WATERPULSE",
+]
+compatible_egg_groups = [
+    "Water2",
+]
 steps_to_hatch = 5355
 height = 0.4
 weight = 1.9
@@ -20,106 +96,23 @@ pokedex_entry = "Its body is covered with a slimy film. The film acts as a barri
 battler_player_y = 34
 battler_enemy_y = 28
 battler_altitude = 12
-form_names = []
-dex_number = 339
-internal_name = "BARBOACH"
 raw_hidden_ability = "HYDRATION"
+raw_egg_moves = [
+    "DRAGONDANCE",
+    "EARTHPOWER",
+    "FLAIL",
+    "HYDROPUMP",
+    "MUDSHOT",
+    "MUDDYWATER",
+    "SPARK",
+    "TAKEDOWN",
+    "THRASH",
+    "WHIRLPOOL",
+]
 habitat = "WatersEdge"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "MUDSLAP"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WATERGUN"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FLAIL"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "CURSE"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "WHIRLPOOL"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "AMNESIA"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "MUDBOMB"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "WATERGUN"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "HEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "MAGNITUDE"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "SPARK"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "BULLDOZE"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "FUTURESIGHT"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "TAKEDOWN"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "BREAKINGSWIPE"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "ZENHEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "MUDDYWATER"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "BOUNCE"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "DRAGONDANCE"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "AQUATAIL"
-
-[[raw_level_up_moves]]
-at_level = 55
-name = "FISSURE"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "HYDROPUMP"
-
-[[evolutions]]
-into_name = "WHISCASH"
-condition = "Level"
-parameter = "30"
-
-
+evolutions = [
+    { into_name = "WHISCASH", condition = "Level", parameter = "30" },
+]
 
 [base_stats]
 hp = 50
@@ -136,5 +129,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

@@ -1,3 +1,4 @@
+dex_number = 274
 name = "Nuzleaf"
 primary_type = "GRASS"
 secondary_type = "DARK"
@@ -6,11 +7,119 @@ growth_rate = "Parabolic"
 exp_yield = 119
 catch_rate = 120
 caught_happiness = 70
-raw_abilities = ["CHLOROPHYLL", "EARLYBIRD", "RATTLED"]
-raw_egg_moves = []
-raw_tms = ["CUT", "STRENGTH", "TOXIC", "ROCKSMASH", "FLASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "FRUSTRATION", "SOLARBEAM", "RETURN", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "ROCKTOMB", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "LOWSWEEP", "ROUND", "ENERGYBALL", "FALSESWIPE", "FLING", "EMBARGO", "EXPLOSION", "PAYBACK", "SWORDSDANCE", "PSYCHUP", "ROCKSLIDE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "SNARL", "NATUREPOWER", "DARKPULSE", "POWERUPPUNCH", "CONFIDE", "MEGAKICK", "SOLARBLADE", "DIG", "SELFDESTRUCT", "BEATUP", "BULLETSEED", "ASSURANCE", "POWERSWAP", "LEAFBLADE", "GRASSYTERRAIN", "BODYSLAM", "AMNESIA", "ENDURE", "NASTYPLOT", "RETALIATE", "SWIFT"]
-raw_tutor_moves = ["DEFOG", "FOULPLAY", "FURYCUTTER", "GIGADRAIN", "HEADBUTT", "LOWKICK", "MUDSLAP", "ROLLOUT", "SEEDBOMB", "SNORE", "SPITE", "SYNTHESIS", "WORRYSEED", "GRASSYGLIDE", "LASHOUT", "MIMIC"]
-compatible_egg_groups = ["Field", "Grass"]
+raw_abilities = [
+    "CHLOROPHYLL",
+    "EARLYBIRD",
+    "RATTLED",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "ABSORB" },
+    { at_level = 1, name = "HARDEN" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 4, name = "ROLLOUT" },
+    { at_level = 6, name = "COUNTER" },
+    { at_level = 8, name = "PAYBACK" },
+    { at_level = 10, name = "NATUREPOWER" },
+    { at_level = 12, name = "MEGADRAIN" },
+    { at_level = 14, name = "FAKEOUT" },
+    { at_level = 16, name = "SYNTHESIS" },
+    { at_level = 19, name = "QUICKATTACK" },
+    { at_level = 21, name = "FEINTATTACK" },
+    { at_level = 23, name = "LEECHSEED" },
+    { at_level = 26, name = "WORRYSEED" },
+    { at_level = 29, name = "AIRCUTTER" },
+    { at_level = 32, name = "EXTRASENSORY" },
+    { at_level = 35, name = "LEAFTORNADO" },
+    { at_level = 38, name = "AMNESIA" },
+    { at_level = 42, name = "LEAFBLADE" },
+    { at_level = 46, name = "FOULPLAY" },
+    { at_level = 50, name = "NASTYPLOT" },
+    { at_level = 54, name = "GROWTH" },
+    { at_level = 58, name = "DOUBLEEDGE" },
+    { at_level = 62, name = "LEAFSTORM" },
+]
+raw_tms = [
+    "CUT",
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "PROTECT",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "SHADOWBALL",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "ROCKTOMB",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "LOWSWEEP",
+    "ROUND",
+    "ENERGYBALL",
+    "FALSESWIPE",
+    "FLING",
+    "EMBARGO",
+    "EXPLOSION",
+    "PAYBACK",
+    "SWORDSDANCE",
+    "PSYCHUP",
+    "ROCKSLIDE",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "SNARL",
+    "NATUREPOWER",
+    "DARKPULSE",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAKICK",
+    "SOLARBLADE",
+    "DIG",
+    "SELFDESTRUCT",
+    "BEATUP",
+    "BULLETSEED",
+    "ASSURANCE",
+    "POWERSWAP",
+    "LEAFBLADE",
+    "GRASSYTERRAIN",
+    "BODYSLAM",
+    "AMNESIA",
+    "ENDURE",
+    "NASTYPLOT",
+    "RETALIATE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "DEFOG",
+    "FOULPLAY",
+    "FURYCUTTER",
+    "GIGADRAIN",
+    "GRASSYGLIDE",
+    "HEADBUTT",
+    "LASHOUT",
+    "LOWKICK",
+    "MIMIC",
+    "MUDSLAP",
+    "ROLLOUT",
+    "SEEDBOMB",
+    "SNORE",
+    "SPITE",
+    "SYNTHESIS",
+    "WORRYSEED",
+]
+compatible_egg_groups = [
+    "Field",
+    "Grass",
+]
 steps_to_hatch = 4080
 height = 1.0
 weight = 28.0
@@ -20,113 +129,10 @@ pokedex_entry = "A forest-dwelling Pokémon that is skilled at climbing trees. I
 battler_player_y = 22
 battler_enemy_y = 18
 battler_altitude = 0
-form_names = []
-dex_number = 274
-internal_name = "NUZLEAF"
 habitat = "Forest"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ABSORB"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HARDEN"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "ROLLOUT"
-
-[[raw_level_up_moves]]
-at_level = 6
-name = "COUNTER"
-
-[[raw_level_up_moves]]
-at_level = 8
-name = "PAYBACK"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "NATUREPOWER"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "MEGADRAIN"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "FAKEOUT"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "SYNTHESIS"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "QUICKATTACK"
-
-[[raw_level_up_moves]]
-at_level = 21
-name = "FEINTATTACK"
-
-[[raw_level_up_moves]]
-at_level = 23
-name = "LEECHSEED"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "WORRYSEED"
-
-[[raw_level_up_moves]]
-at_level = 29
-name = "AIRCUTTER"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "EXTRASENSORY"
-
-[[raw_level_up_moves]]
-at_level = 35
-name = "LEAFTORNADO"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "AMNESIA"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "LEAFBLADE"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "FOULPLAY"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "NASTYPLOT"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "GROWTH"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "DOUBLEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 62
-name = "LEAFSTORM"
-
-[[evolutions]]
-into_name = "SHIFTRY"
-condition = "Item"
-parameter = "LEAFSTONE"
-
-
+evolutions = [
+    { into_name = "SHIFTRY", condition = "Item", parameter = "LEAFSTONE" },
+]
 
 [base_stats]
 hp = 70

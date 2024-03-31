@@ -1,3 +1,4 @@
+dex_number = 490
 name = "Manaphy"
 primary_type = "WATER"
 secondary_type = "WATER"
@@ -6,11 +7,92 @@ growth_rate = "Slow"
 exp_yield = 270
 catch_rate = 3
 caught_happiness = 70
-raw_abilities = ["HYDRATION"]
-raw_egg_moves = []
-raw_tms = ["SURF", "CALMMIND", "WATERFALL", "TOXIC", "DIVE", "HAIL", "FLASH", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "FACADE", "REST", "ROUND", "ENERGYBALL", "SCALD", "FLING", "GIGAIMPACT", "PSYCHUP", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "DAZZLINGGLEAM", "CONFIDE", "CHARM", "WHIRLPOOL", "BRINE", "ENDURE", "SWIFT"]
-raw_tutor_moves = ["ANCIENTPOWER", "BOUNCE", "COVET", "HEALBELL", "HELPINGHAND", "ICYWIND", "KNOCKOFF", "LASTRESORT", "LIQUIDATION", "MUDSLAP", "SIGNALBEAM", "SKILLSWAP", "SNORE", "UPROAR", "WATERPULSE", "MIMIC"]
-compatible_egg_groups = ["Water1", "Fairy"]
+raw_abilities = [
+    "HYDRATION",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "ACIDARMOR" },
+    { at_level = 1, name = "HEARTSWAP" },
+    { at_level = 1, name = "TAILGLOW" },
+    { at_level = 6, name = "CHARM" },
+    { at_level = 10, name = "SUPERSONIC" },
+    { at_level = 14, name = "BUBBLEBEAM" },
+    { at_level = 18, name = "ACIDARMOR" },
+    { at_level = 22, name = "WATERPULSE" },
+    { at_level = 26, name = "WHIRLPOOL" },
+    { at_level = 30, name = "UPROAR" },
+    { at_level = 34, name = "AQUARING" },
+    { at_level = 38, name = "SIGNALBEAM" },
+    { at_level = 42, name = "MOONBLAST" },
+    { at_level = 46, name = "RAINDANCE" },
+    { at_level = 50, name = "HYDROPUMP" },
+]
+raw_tms = [
+    "SURF",
+    "CALMMIND",
+    "WATERFALL",
+    "TOXIC",
+    "DIVE",
+    "HAIL",
+    "FLASH",
+    "HIDDENPOWER",
+    "ICEBEAM",
+    "BLIZZARD",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "REFLECT",
+    "FACADE",
+    "REST",
+    "ROUND",
+    "ENERGYBALL",
+    "SCALD",
+    "FLING",
+    "GIGAIMPACT",
+    "PSYCHUP",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "DAZZLINGGLEAM",
+    "CONFIDE",
+    "CHARM",
+    "WHIRLPOOL",
+    "BRINE",
+    "ENDURE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "ANCIENTPOWER",
+    "BOUNCE",
+    "COVET",
+    "HEALBELL",
+    "HELPINGHAND",
+    "ICYWIND",
+    "KNOCKOFF",
+    "LASTRESORT",
+    "LIQUIDATION",
+    "MIMIC",
+    "MUDSLAP",
+    "SIGNALBEAM",
+    "SKILLSWAP",
+    "SNORE",
+    "UPROAR",
+    "WATERPULSE",
+]
+compatible_egg_groups = [
+    "Water1",
+    "Fairy",
+]
 steps_to_hatch = 2805
 height = 0.3
 weight = 1.4
@@ -20,70 +102,6 @@ pokedex_entry = "Born on a cold seafloor, it will swim great distances to return
 battler_player_y = 29
 battler_enemy_y = 23
 battler_altitude = 17
-evolutions = []
-form_names = []
-dex_number = 490
-internal_name = "MANAPHY"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ACIDARMOR"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HEARTSWAP"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TAILGLOW"
-
-[[raw_level_up_moves]]
-at_level = 6
-name = "CHARM"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "SUPERSONIC"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "BUBBLEBEAM"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "ACIDARMOR"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "WATERPULSE"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "WHIRLPOOL"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "UPROAR"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "AQUARING"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "SIGNALBEAM"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "MOONBLAST"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "RAINDANCE"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "HYDROPUMP"
 
 [base_stats]
 hp = 100
@@ -100,5 +118,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

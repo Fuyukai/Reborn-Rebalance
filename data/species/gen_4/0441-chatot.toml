@@ -1,3 +1,4 @@
+dex_number = 441
 name = "Chatot"
 primary_type = "NORMAL"
 secondary_type = "FLYING"
@@ -6,11 +7,92 @@ growth_rate = "Parabolic"
 exp_yield = 144
 catch_rate = 30
 caught_happiness = 35
-raw_abilities = ["SOUNDPROOF", "TANGLEDFEET", "BIGPECKS"]
-raw_egg_moves = ["AGILITY", "AIRCUTTER", "BOOMBURST", "DEFOG", "ENCORE", "NASTYPLOT", "NIGHTSHADE", "SLEEPTALK", "STEELWING", "SUPERSONIC"]
-raw_tms = ["WORKUP", "FLY", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "FRUSTRATION", "RETURN", "DOUBLETEAM", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "STEELWING", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "AGILITY", "METRONOME", "ENDURE", "ENCORE", "NASTYPLOT", "SWIFT", "HURRICANE", "BUGBUZZ"]
-raw_tutor_moves = ["DEFOG", "HEATWAVE", "HYPERVOICE", "MUDSLAP", "OMINOUSWIND", "ROLEPLAY", "SKYATTACK", "SNORE", "TAILWIND", "TWISTER", "UPROAR", "POWERSHIFT", "MIMIC"]
-compatible_egg_groups = ["Flying"]
+raw_abilities = [
+    "SOUNDPROOF",
+    "TANGLEDFEET",
+    "BIGPECKS",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "GROWL" },
+    { at_level = 1, name = "GUST" },
+    { at_level = 1, name = "PECK" },
+    { at_level = 1, name = "TWISTER" },
+    { at_level = 4, name = "FURYATTACK" },
+    { at_level = 7, name = "MIMIC" },
+    { at_level = 10, name = "SING" },
+    { at_level = 13, name = "MIRRORMOVE" },
+    { at_level = 16, name = "NIGHTSHADE" },
+    { at_level = 19, name = "SYNCHRONOISE" },
+    { at_level = 22, name = "UPROAR" },
+    { at_level = 25, name = "AIRCUTTER" },
+    { at_level = 28, name = "OMINOUSWIND" },
+    { at_level = 32, name = "AGILITY" },
+    { at_level = 36, name = "CHATTER" },
+    { at_level = 40, name = "HYPERVOICE" },
+    { at_level = 44, name = "AIRSLASH" },
+    { at_level = 48, name = "TAILWIND" },
+    { at_level = 52, name = "ROLEPLAY" },
+    { at_level = 56, name = "FEATHERDANCE" },
+    { at_level = 60, name = "NASTYPLOT" },
+    { at_level = 64, name = "SKYATTACK" },
+    { at_level = 68, name = "BOOMBURST" },
+]
+raw_tms = [
+    "WORKUP",
+    "FLY",
+    "TOXIC",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "PROTECT",
+    "RAINDANCE",
+    "ROOST",
+    "ROOST",
+    "FRUSTRATION",
+    "RETURN",
+    "DOUBLETEAM",
+    "AERIALACE",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "ECHOEDVOICE",
+    "STEELWING",
+    "SWAGGER",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "HURRICANE",
+    "AGILITY",
+    "METRONOME",
+    "ENDURE",
+    "ENCORE",
+    "BUGBUZZ",
+    "NASTYPLOT",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "DEFOG",
+    "HEATWAVE",
+    "HYPERVOICE",
+    "MIMIC",
+    "MUDSLAP",
+    "OMINOUSWIND",
+    "POWERSHIFT",
+    "ROLEPLAY",
+    "SKYATTACK",
+    "SNORE",
+    "TAILWIND",
+    "TWISTER",
+    "UPROAR",
+]
+compatible_egg_groups = [
+    "Flying",
+]
 steps_to_hatch = 5355
 height = 0.5
 weight = 1.9
@@ -20,102 +102,18 @@ pokedex_entry = "It can learn and speak human words. If they gather, they all le
 battler_player_y = 27
 battler_enemy_y = 22
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 441
-internal_name = "CHATOT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GUST"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "PECK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TWISTER"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "FURYATTACK"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "MIMIC"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "SING"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "MIRRORMOVE"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "NIGHTSHADE"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "SYNCHRONOISE"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "UPROAR"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "AIRCUTTER"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "OMINOUSWIND"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "AGILITY"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "CHATTER"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "HYPERVOICE"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "AIRSLASH"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "TAILWIND"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "ROLEPLAY"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "FEATHERDANCE"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "NASTYPLOT"
-
-[[raw_level_up_moves]]
-at_level = 64
-name = "SKYATTACK"
-
-[[raw_level_up_moves]]
-at_level = 68
-name = "BOOMBURST"
+raw_egg_moves = [
+    "AGILITY",
+    "AIRCUTTER",
+    "BOOMBURST",
+    "DEFOG",
+    "ENCORE",
+    "NASTYPLOT",
+    "NIGHTSHADE",
+    "SLEEPTALK",
+    "STEELWING",
+    "SUPERSONIC",
+]
 
 [base_stats]
 hp = 75

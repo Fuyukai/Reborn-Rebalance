@@ -1,3 +1,4 @@
+dex_number = 92
 name = "Gastly"
 primary_type = "GHOST"
 secondary_type = "POISON"
@@ -6,11 +7,108 @@ growth_rate = "Parabolic"
 exp_yield = 62
 catch_rate = 190
 caught_happiness = 70
-raw_abilities = ["LEVITATE", "CURSEDBODY"]
-raw_egg_moves = ["ASTONISH", "CLEARSMOG", "DISABLE", "FIREPUNCH", "GRUDGE", "HAZE", "ICEPUNCH", "PERISHSONG", "PSYWAVE", "REFLECTTYPE", "SCARYFACE", "SMOG", "THUNDERPUNCH", "CORROSIVEGAS"]
-raw_tms = ["TOXIC", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "SLUDGEWAVE", "SLUDGEBOMB", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ENERGYBALL", "WILLOWISP", "EMBARGO", "EXPLOSION", "PAYBACK", "PSYCHUP", "INFESTATION", "POISONJAB", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "DARKPULSE", "DAZZLINGGLEAM", "CONFIDE", "SELFDESTRUCT", "SCARYFACE", "HEX", "ENDURE"]
-raw_tutor_moves = ["ALLYSWITCH", "FIREPUNCH", "FOULPLAY", "GIGADRAIN", "ICEPUNCH", "ICYWIND", "KNOCKOFF", "OMINOUSWIND", "PAINSPLIT", "SKILLSWAP", "SNATCH", "SNORE", "SPITE", "SUCKERPUNCH", "TELEKINESIS", "THUNDERPUNCH", "TRICK", "UPROAR", "WONDERROOM", "SKITTERSMACK", "CORROSIVEGAS", "POLTERGEIST", "MIMIC"]
-compatible_egg_groups = ["Amorphous"]
+raw_abilities = [
+    "LEVITATE",
+    "CURSEDBODY",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "ASTONISH" },
+    { at_level = 1, name = "LICK" },
+    { at_level = 1, name = "MEANLOOK" },
+    { at_level = 1, name = "SPITE" },
+    { at_level = 4, name = "SMOG" },
+    { at_level = 7, name = "CONFUSERAY" },
+    { at_level = 10, name = "HYPNOSIS" },
+    { at_level = 13, name = "NIGHTSHADE" },
+    { at_level = 16, name = "OMINOUSWIND" },
+    { at_level = 19, name = "CURSE" },
+    { at_level = 21, name = "POISONGAS" },
+    { at_level = 23, name = "CLEARSMOG" },
+    { at_level = 25, name = "DISABLE" },
+    { at_level = 27, name = "REFLECTTYPE" },
+    { at_level = 29, name = "DREAMEATER" },
+    { at_level = 32, name = "HEX" },
+    { at_level = 35, name = "SLUDGE" },
+    { at_level = 38, name = "NIGHTMARE" },
+    { at_level = 41, name = "HAZE" },
+    { at_level = 44, name = "GRUDGE" },
+    { at_level = 48, name = "MEGADRAIN" },
+    { at_level = 52, name = "DESTINYBOND" },
+    { at_level = 56, name = "PERISHSONG" },
+]
+raw_tms = [
+    "TOXIC",
+    "VENOSHOCK",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "THUNDERBOLT",
+    "THUNDER",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "SLUDGEWAVE",
+    "SLUDGEBOMB",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "ENERGYBALL",
+    "WILLOWISP",
+    "EMBARGO",
+    "EXPLOSION",
+    "PAYBACK",
+    "PSYCHUP",
+    "INFESTATION",
+    "POISONJAB",
+    "DREAMEATER",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "TRICKROOM",
+    "SECRETPOWER",
+    "DARKPULSE",
+    "DAZZLINGGLEAM",
+    "CONFIDE",
+    "SELFDESTRUCT",
+    "SCARYFACE",
+    "HEX",
+    "ENDURE",
+]
+raw_tutor_moves = [
+    "ALLYSWITCH",
+    "CORROSIVEGAS",
+    "FIREPUNCH",
+    "FOULPLAY",
+    "GIGADRAIN",
+    "ICEPUNCH",
+    "ICYWIND",
+    "KNOCKOFF",
+    "MIMIC",
+    "OMINOUSWIND",
+    "PAINSPLIT",
+    "POLTERGEIST",
+    "SKILLSWAP",
+    "SKITTERSMACK",
+    "SNATCH",
+    "SNORE",
+    "SPITE",
+    "SUCKERPUNCH",
+    "TELEKINESIS",
+    "THUNDERPUNCH",
+    "TRICK",
+    "UPROAR",
+    "WONDERROOM",
+]
+compatible_egg_groups = [
+    "Amorphous",
+]
 steps_to_hatch = 5355
 height = 1.3
 weight = 0.1
@@ -20,111 +118,26 @@ pokedex_entry = "When exposed to a strong wind, a Gastly's gaseous body quickly 
 battler_player_y = 22
 battler_enemy_y = 20
 battler_altitude = 13
-form_names = []
-dex_number = 92
-internal_name = "GASTLY"
+raw_egg_moves = [
+    "ASTONISH",
+    "CLEARSMOG",
+    "DISABLE",
+    "FIREPUNCH",
+    "GRUDGE",
+    "HAZE",
+    "ICEPUNCH",
+    "PERISHSONG",
+    "PSYWAVE",
+    "REFLECTTYPE",
+    "SCARYFACE",
+    "SMOG",
+    "THUNDERPUNCH",
+    "CORROSIVEGAS",
+]
 habitat = "Cave"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ASTONISH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LICK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "MEANLOOK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SPITE"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "SMOG"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "CONFUSERAY"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "HYPNOSIS"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "NIGHTSHADE"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "OMINOUSWIND"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "CURSE"
-
-[[raw_level_up_moves]]
-at_level = 21
-name = "POISONGAS"
-
-[[raw_level_up_moves]]
-at_level = 23
-name = "CLEARSMOG"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "DISABLE"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "REFLECTTYPE"
-
-[[raw_level_up_moves]]
-at_level = 29
-name = "DREAMEATER"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "HEX"
-
-[[raw_level_up_moves]]
-at_level = 35
-name = "SLUDGE"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "NIGHTMARE"
-
-[[raw_level_up_moves]]
-at_level = 41
-name = "HAZE"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "GRUDGE"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "MEGADRAIN"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "DESTINYBOND"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "PERISHSONG"
-
-[[evolutions]]
-into_name = "HAUNTER"
-condition = "Level"
-parameter = "25"
-
-
-
-
+evolutions = [
+    { into_name = "HAUNTER", condition = "Level", parameter = "25" },
+]
 
 [base_stats]
 hp = 30
@@ -141,5 +154,3 @@ def_ = 0
 spa = 1
 spd = 0
 spe = 0
-
-[wild_items]

@@ -1,3 +1,4 @@
+dex_number = 201
 name = "Unown"
 primary_type = "PSYCHIC"
 secondary_type = "PSYCHIC"
@@ -6,11 +7,23 @@ growth_rate = "Medium"
 exp_yield = 118
 catch_rate = 255
 caught_happiness = 70
-raw_abilities = ["LEVITATE"]
-raw_egg_moves = []
+raw_abilities = [
+    "LEVITATE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "ANCIENTPOWER" },
+    { at_level = 1, name = "COSMICPOWER" },
+    { at_level = 1, name = "EARTHPOWER" },
+    { at_level = 1, name = "HIDDENPOWER" },
+    { at_level = 1, name = "NATUREPOWER" },
+    { at_level = 1, name = "SECRETPOWER" },
+    { at_level = 1, name = "STOREDPOWER" },
+]
 raw_tms = []
 raw_tutor_moves = []
-compatible_egg_groups = ["Undiscovered"]
+compatible_egg_groups = [
+    "Undiscovered",
+]
 steps_to_hatch = 10455
 height = 0.5
 weight = 5.0
@@ -20,39 +33,37 @@ pokedex_entry = "This Pokémon is shaped like ancient text characters. Although 
 battler_player_y = 31
 battler_enemy_y = 25
 battler_altitude = 19
-evolutions = []
-form_names = ["Angry", "Bear", "Chase", "Direct", "Engage", "Find", "Give", "Help", "Increase", "Join", "Keep", "Laugh", "Make", "Nuzzle", "Observe", "Perform", "Quicken", "Reassure", "Search", "Tell", "Undo", "Vanish", "Want", "XXXXX", "Yield", "Zoom", "?????", "!!!!!"]
-dex_number = 201
-internal_name = "UNOWN"
 habitat = "Rare"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ANCIENTPOWER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "COSMICPOWER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "EARTHPOWER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HIDDENPOWER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "NATUREPOWER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SECRETPOWER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "STOREDPOWER"
+form_names = [
+    "Angry",
+    "Bear",
+    "Chase",
+    "Direct",
+    "Engage",
+    "Find",
+    "Give",
+    "Help",
+    "Increase",
+    "Join",
+    "Keep",
+    "Laugh",
+    "Make",
+    "Nuzzle",
+    "Observe",
+    "Perform",
+    "Quicken",
+    "Reassure",
+    "Search",
+    "Tell",
+    "Undo",
+    "Vanish",
+    "Want",
+    "XXXXX",
+    "Yield",
+    "Zoom",
+    "?????",
+    "!!!!!",
+]
 
 [base_stats]
 hp = 48
@@ -69,5 +80,3 @@ def_ = 0
 spa = 1
 spd = 0
 spe = 0
-
-[wild_items]

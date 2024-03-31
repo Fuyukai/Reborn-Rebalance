@@ -1,61 +1,21 @@
-chances = [12, 3, 4]
+chances = [
+    12,
+    3,
+    4,
+]
 
-[[encounters.Cave]]
-name = "CORSOLA"
-minimum_level = 104
-maximum_level = 110
-
-[[encounters.Cave]]
-name = "CARRACOSTA"
-minimum_level = 104
-maximum_level = 110
-
-[[encounters.Cave]]
-name = "JELLICENT"
-minimum_level = 104
-maximum_level = 110
-
-[[encounters.Cave]]
-name = "DHELMISE"
-minimum_level = 104
-maximum_level = 110
-
-[[encounters.Cave]]
-name = "DRAGALGE"
-minimum_level = 104
-maximum_level = 110
-
-[[encounters.Cave]]
-name = "GOREBYSS"
-minimum_level = 104
-maximum_level = 110
-
-[[encounters.Cave]]
-name = "HUNTAIL"
-minimum_level = 104
-maximum_level = 110
-
-[[encounters.Cave]]
-name = "DITTO"
-minimum_level = 104
-maximum_level = 110
-
-[[encounters.Cave]]
-name = "PHIONE"
-minimum_level = 106
-maximum_level = 111
-
-[[encounters.Cave]]
-name = "TOXAPEX"
-minimum_level = 106
-maximum_level = 111
-
-[[encounters.Cave]]
-name = "PRIMARINA"
-minimum_level = 107
-maximum_level = 113
-
-[[encounters.Cave]]
-name = "KINGDRA"
-minimum_level = 107
-maximum_level = 113
+[encounters]
+Cave = [
+    { name = "CORSOLA", minimum_level = 104, maximum_level = 110 },
+    { name = "CARRACOSTA", minimum_level = 104, maximum_level = 110 },
+    { name = "JELLICENT", minimum_level = 104, maximum_level = 110 },
+    { name = "DHELMISE", minimum_level = 104, maximum_level = 110 },
+    { name = "DRAGALGE", minimum_level = 104, maximum_level = 110 },
+    { name = "GOREBYSS", minimum_level = 104, maximum_level = 110 },
+    { name = "HUNTAIL", minimum_level = 104, maximum_level = 110 },
+    { name = "DITTO", minimum_level = 104, maximum_level = 110 },
+    { name = "PHIONE", minimum_level = 106, maximum_level = 111 },
+    { name = "TOXAPEX", minimum_level = 106, maximum_level = 111 },
+    { name = "PRIMARINA", minimum_level = 107, maximum_level = 113 },
+    { name = "KINGDRA", minimum_level = 107, maximum_level = 113 },
+]

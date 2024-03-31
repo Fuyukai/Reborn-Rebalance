@@ -1,3 +1,4 @@
+dex_number = 652
 name = "Chesnaught"
 primary_type = "GRASS"
 secondary_type = "FIGHTING"
@@ -6,11 +7,132 @@ growth_rate = "Parabolic"
 exp_yield = 239
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["OVERGROW", "FILTER", "BULLETPROOF"]
-raw_egg_moves = []
-raw_tms = ["WORKUP", "CUT", "DRAGONCLAW", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "BULKUP", "FLASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "FRUSTRATION", "SOLARBEAM", "SMACKDOWN", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "SLUDGEBOMB", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "LOWSWEEP", "ROUND", "FOCUSBLAST", "ENERGYBALL", "FLING", "SHADOWCLAW", "PAYBACK", "GIGAIMPACT", "STONEEDGE", "GYROBALL", "SWORDSDANCE", "BULLDOZE", "ROCKSLIDE", "POISONJAB", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "POWERUPPUNCH", "CONFIDE", "PINMISSILE", "DIG", "MUDSHOT", "BODYSLAM", "SPIKES", "ENDURE", "HEAVYSLAM", "BODYPRESS", "RETALIATE", "TRAILBLAZE"]
-raw_tutor_moves = ["BLOCK", "DRAINPUNCH", "DUALCHOP", "ENDEAVOR", "FOCUSPUNCH", "FRENZYPLANT", "GIGADRAIN", "GRASSPLEDGE", "HELPINGHAND", "IRONDEFENSE", "IRONHEAD", "IRONTAIL", "LOWKICK", "PAINSPLIT", "SEEDBOMB", "SNORE", "STOMPINGTANTRUM", "SUPERFANG", "SUPERPOWER", "SYNTHESIS", "THUNDERPUNCH", "WORRYSEED", "ZENHEADBUTT", "GRASSYGLIDE", "MIMIC", "KNOCKOFF"]
-compatible_egg_groups = ["Field"]
+raw_abilities = [
+    "OVERGROW",
+    "FILTER",
+    "BULLETPROOF",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "SPIKYSHIELD" },
+    { at_level = 1, name = "NEEDLEARM" },
+    { at_level = 1, name = "HAMMERARM" },
+    { at_level = 1, name = "FEINT" },
+    { at_level = 1, name = "BELLYDRUM" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 1, name = "GROWL" },
+    { at_level = 1, name = "VINEWHIP" },
+    { at_level = 1, name = "ROLLOUT" },
+    { at_level = 5, name = "VINEWHIP" },
+    { at_level = 8, name = "ROLLOUT" },
+    { at_level = 11, name = "BITE" },
+    { at_level = 15, name = "LEECHSEED" },
+    { at_level = 19, name = "PINMISSILE" },
+    { at_level = 29, name = "TAKEDOWN" },
+    { at_level = 35, name = "SEEDBOMB" },
+    { at_level = 41, name = "MUDSHOT" },
+    { at_level = 48, name = "BULKUP" },
+    { at_level = 50, name = "CRUNCH" },
+    { at_level = 52, name = "SPIKES" },
+    { at_level = 54, name = "BODYSLAM" },
+    { at_level = 60, name = "PAINSPLIT" },
+    { at_level = 66, name = "WOODHAMMER" },
+    { at_level = 68, name = "SHELLSMASH" },
+    { at_level = 72, name = "HAMMERARM" },
+    { at_level = 78, name = "GIGAIMPACT" },
+]
+raw_tms = [
+    "WORKUP",
+    "CUT",
+    "DRAGONCLAW",
+    "STRENGTH",
+    "ROAR",
+    "TOXIC",
+    "ROCKSMASH",
+    "BULKUP",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "HYPERBEAM",
+    "PROTECT",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "SMACKDOWN",
+    "EARTHQUAKE",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "REFLECT",
+    "SLUDGEBOMB",
+    "ROCKTOMB",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "LOWSWEEP",
+    "ROUND",
+    "FOCUSBLAST",
+    "ENERGYBALL",
+    "FLING",
+    "SHADOWCLAW",
+    "PAYBACK",
+    "GIGAIMPACT",
+    "STONEEDGE",
+    "GYROBALL",
+    "SWORDSDANCE",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "POISONJAB",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "NATUREPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "PINMISSILE",
+    "DIG",
+    "MUDSHOT",
+    "BODYSLAM",
+    "SPIKES",
+    "ENDURE",
+    "HEAVYSLAM",
+    "BODYPRESS",
+    "RETALIATE",
+    "TRAILBLAZE",
+]
+raw_tutor_moves = [
+    "BLOCK",
+    "DRAINPUNCH",
+    "DUALCHOP",
+    "ENDEAVOR",
+    "FOCUSPUNCH",
+    "FRENZYPLANT",
+    "GIGADRAIN",
+    "GRASSPLEDGE",
+    "GRASSYGLIDE",
+    "HELPINGHAND",
+    "IRONDEFENSE",
+    "IRONHEAD",
+    "IRONTAIL",
+    "KNOCKOFF",
+    "LOWKICK",
+    "MIMIC",
+    "PAINSPLIT",
+    "SEEDBOMB",
+    "SNORE",
+    "STOMPINGTANTRUM",
+    "SUPERFANG",
+    "SUPERPOWER",
+    "SYNTHESIS",
+    "THUNDERPUNCH",
+    "WORRYSEED",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Field",
+]
 steps_to_hatch = 5120
 height = 1.6
 weight = 90.0
@@ -20,114 +142,6 @@ pokedex_entry = "When it takes a defensive posture with its fists guarding its f
 battler_player_y = 14
 battler_enemy_y = 15
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 652
-internal_name = "CHESNAUGHT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SPIKYSHIELD"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "NEEDLEARM"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HAMMERARM"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FEINT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BELLYDRUM"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "VINEWHIP"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ROLLOUT"
-
-[[raw_level_up_moves]]
-at_level = 5
-name = "VINEWHIP"
-
-[[raw_level_up_moves]]
-at_level = 8
-name = "ROLLOUT"
-
-[[raw_level_up_moves]]
-at_level = 11
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 15
-name = "LEECHSEED"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "PINMISSILE"
-
-[[raw_level_up_moves]]
-at_level = 29
-name = "TAKEDOWN"
-
-[[raw_level_up_moves]]
-at_level = 35
-name = "SEEDBOMB"
-
-[[raw_level_up_moves]]
-at_level = 41
-name = "MUDSHOT"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "BULKUP"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "SPIKES"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "PAINSPLIT"
-
-[[raw_level_up_moves]]
-at_level = 66
-name = "WOODHAMMER"
-
-[[raw_level_up_moves]]
-at_level = 68
-name = "SHELLSMASH"
-
-[[raw_level_up_moves]]
-at_level = 72
-name = "HAMMERARM"
-
-[[raw_level_up_moves]]
-at_level = 78
-name = "GIGAIMPACT"
 
 [base_stats]
 hp = 88
@@ -144,5 +158,3 @@ def_ = 3
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

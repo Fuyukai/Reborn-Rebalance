@@ -1,3 +1,4 @@
+dex_number = 331
 name = "Cacnea"
 primary_type = "GRASS"
 secondary_type = "DARK"
@@ -6,11 +7,103 @@ growth_rate = "Parabolic"
 exp_yield = 67
 catch_rate = 190
 caught_happiness = 35
-raw_abilities = ["UNNERVE", "WATERABSORB", "SANDRUSH"]
-raw_egg_moves = ["ACID", "BELCH", "BLOCK", "COUNTER", "DISABLE", "DYNAMICPUNCH", "FELLSTINGER", "GRASSWHISTLE", "LOWKICK", "MAGICALLEAF", "NASTYPLOT", "POWERUPPUNCH", "ROTOTILLER", "SEEDBOMB", "SMELLINGSALTS", "SWITCHEROO", "TEETERDANCE", "WORRYSEED"]
-raw_tms = ["CUT", "TOXIC", "FLASH", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "FRUSTRATION", "SOLARBEAM", "RETURN", "BRICKBREAK", "DOUBLETEAM", "SANDSTORM", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "FLING", "PAYBACK", "SWORDSDANCE", "POISONJAB", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "DARKPULSE", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "PINMISSILE", "MAGICALLEAF", "BULLETSEED", "BODYSLAM", "SPIKES", "ENDURE", "ENCORE", "NASTYPLOT", "TRAILBLAZE"]
-raw_tutor_moves = ["BLOCK", "DRAINPUNCH", "FOCUSPUNCH", "FURYCUTTER", "GIGADRAIN", "HEADBUTT", "LOWKICK", "MUDSLAP", "ROLEPLAY", "SEEDBOMB", "SNORE", "SPITE", "SUCKERPUNCH", "SYNTHESIS", "THUNDERPUNCH", "WORRYSEED", "MIMIC"]
-compatible_egg_groups = ["Grass", "Humanlike"]
+raw_abilities = [
+    "UNNERVE",
+    "WATERABSORB",
+    "SANDRUSH",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "ABSORB" },
+    { at_level = 1, name = "POISONSTING" },
+    { at_level = 1, name = "SANDATTACK" },
+    { at_level = 4, name = "COTTONSPORE" },
+    { at_level = 7, name = "GROWTH" },
+    { at_level = 10, name = "MAGICALLEAF" },
+    { at_level = 13, name = "LEECHSEED" },
+    { at_level = 16, name = "DISABLE" },
+    { at_level = 18, name = "FEINTATTACK" },
+    { at_level = 20, name = "SANDSTORM" },
+    { at_level = 22, name = "BULLETSEED" },
+    { at_level = 24, name = "DESTINYBOND" },
+    { at_level = 26, name = "MUDSHOT" },
+    { at_level = 28, name = "SUCKERPUNCH" },
+    { at_level = 31, name = "ENERGYBALL" },
+    { at_level = 34, name = "PINMISSILE" },
+    { at_level = 37, name = "DRAINPUNCH" },
+    { at_level = 41, name = "NEEDLEARM" },
+    { at_level = 45, name = "SYNTHESIS" },
+    { at_level = 49, name = "SCORCHINGSANDS" },
+    { at_level = 53, name = "FOULPLAY" },
+    { at_level = 57, name = "NASTYPLOT" },
+    { at_level = 61, name = "FOCUSPUNCH" },
+    { at_level = 65, name = "SWITCHEROO" },
+]
+raw_tms = [
+    "CUT",
+    "TOXIC",
+    "FLASH",
+    "VENOSHOCK",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "PROTECT",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "SANDSTORM",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ENERGYBALL",
+    "FLING",
+    "PAYBACK",
+    "SWORDSDANCE",
+    "POISONJAB",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "NATUREPOWER",
+    "DARKPULSE",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "PINMISSILE",
+    "MAGICALLEAF",
+    "BULLETSEED",
+    "BODYSLAM",
+    "SPIKES",
+    "ENDURE",
+    "ENCORE",
+    "NASTYPLOT",
+    "TRAILBLAZE",
+]
+raw_tutor_moves = [
+    "BLOCK",
+    "DRAINPUNCH",
+    "FOCUSPUNCH",
+    "FURYCUTTER",
+    "GIGADRAIN",
+    "HEADBUTT",
+    "LOWKICK",
+    "MIMIC",
+    "MUDSLAP",
+    "ROLEPLAY",
+    "SEEDBOMB",
+    "SNORE",
+    "SPITE",
+    "SUCKERPUNCH",
+    "SYNTHESIS",
+    "THUNDERPUNCH",
+    "WORRYSEED",
+]
+compatible_egg_groups = [
+    "Grass",
+    "Humanlike",
+]
 steps_to_hatch = 5355
 height = 0.4
 weight = 51.3
@@ -20,113 +113,30 @@ pokedex_entry = "Cacnea live in deserts with virtually no rainfall. It battles b
 battler_player_y = 29
 battler_enemy_y = 25
 battler_altitude = 0
-form_names = []
-dex_number = 331
-internal_name = "CACNEA"
+raw_egg_moves = [
+    "ACID",
+    "BELCH",
+    "BLOCK",
+    "COUNTER",
+    "DISABLE",
+    "DYNAMICPUNCH",
+    "FELLSTINGER",
+    "GRASSWHISTLE",
+    "LOWKICK",
+    "MAGICALLEAF",
+    "NASTYPLOT",
+    "POWERUPPUNCH",
+    "ROTOTILLER",
+    "SEEDBOMB",
+    "SMELLINGSALTS",
+    "SWITCHEROO",
+    "TEETERDANCE",
+    "WORRYSEED",
+]
 habitat = "RoughTerrain"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ABSORB"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "POISONSTING"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SANDATTACK"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "COTTONSPORE"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "GROWTH"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "MAGICALLEAF"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "LEECHSEED"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "DISABLE"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "FEINTATTACK"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "SANDSTORM"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "BULLETSEED"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "DESTINYBOND"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "MUDSHOT"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "SUCKERPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "ENERGYBALL"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "PINMISSILE"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "DRAINPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 41
-name = "NEEDLEARM"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "SYNTHESIS"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "SCORCHINGSANDS"
-
-[[raw_level_up_moves]]
-at_level = 53
-name = "FOULPLAY"
-
-[[raw_level_up_moves]]
-at_level = 57
-name = "NASTYPLOT"
-
-[[raw_level_up_moves]]
-at_level = 61
-name = "FOCUSPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 65
-name = "SWITCHEROO"
-
-[[evolutions]]
-into_name = "CACTURNE"
-condition = "Level"
-parameter = "32"
-
-
+evolutions = [
+    { into_name = "CACTURNE", condition = "Level", parameter = "32" },
+]
 
 [base_stats]
 hp = 50

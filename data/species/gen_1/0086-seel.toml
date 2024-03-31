@@ -1,3 +1,4 @@
+dex_number = 86
 name = "Seel"
 primary_type = "WATER"
 secondary_type = "WATER"
@@ -6,11 +7,86 @@ growth_rate = "Medium"
 exp_yield = 65
 catch_rate = 190
 caught_happiness = 70
-raw_abilities = ["THICKFAT", "HYDRATION"]
-raw_egg_moves = ["BELCH", "DISABLE", "ENCORE", "ENTRAINMENT", "FAKEOUT", "HORNDRILL", "ICICLESPEAR", "IRONTAIL", "LICK", "PERISHSONG", "SIGNALBEAM", "SLAM", "SLEEPTALK", "SPITUP", "STOCKPILE", "SWALLOW", "WATERPULSE"]
-raw_tms = ["SURF", "WATERFALL", "TOXIC", "DIVE", "HAIL", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "RETURN", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "FLING", "SMARTSTRIKE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "PAYDAY", "WHIRLPOOL", "ICICLESPEAR", "BRINE", "BODYSLAM", "MEGAHORN", "ENDURE", "ENCORE"]
-raw_tutor_moves = ["AQUATAIL", "DRILLRUN", "HEADBUTT", "HELPINGHAND", "ICYWIND", "IRONTAIL", "SIGNALBEAM", "SNORE", "WATERPULSE", "MIMIC"]
-compatible_egg_groups = ["Water1", "Field"]
+raw_abilities = [
+    "THICKFAT",
+    "HYDRATION",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "BIDE" },
+    { at_level = 1, name = "GROWL" },
+    { at_level = 1, name = "LICK" },
+    { at_level = 1, name = "PECK" },
+    { at_level = 4, name = "POWDERSNOW" },
+    { at_level = 7, name = "HEADBUTT" },
+    { at_level = 10, name = "WATERGUN" },
+    { at_level = 13, name = "DISABLE" },
+    { at_level = 16, name = "ICESHARD" },
+    { at_level = 19, name = "BUBBLEBEAM" },
+    { at_level = 22, name = "FAKEOUT" },
+    { at_level = 25, name = "ENTRAINMENT" },
+    { at_level = 28, name = "BRINE" },
+    { at_level = 31, name = "AURORABEAM" },
+    { at_level = 34, name = "AQUAJET" },
+    { at_level = 37, name = "AQUARING" },
+    { at_level = 40, name = "ICICLESPEAR" },
+    { at_level = 44, name = "SMARTSTRIKE" },
+    { at_level = 48, name = "AQUATAIL" },
+    { at_level = 52, name = "ICICLECRASH" },
+    { at_level = 56, name = "PERISHSONG" },
+]
+raw_tms = [
+    "SURF",
+    "WATERFALL",
+    "TOXIC",
+    "DIVE",
+    "HAIL",
+    "HIDDENPOWER",
+    "ICEBEAM",
+    "BLIZZARD",
+    "PROTECT",
+    "RAINDANCE",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "RETURN",
+    "DOUBLETEAM",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "ECHOEDVOICE",
+    "FLING",
+    "SMARTSTRIKE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "PAYDAY",
+    "WHIRLPOOL",
+    "ICICLESPEAR",
+    "BRINE",
+    "BODYSLAM",
+    "MEGAHORN",
+    "ENDURE",
+    "ENCORE",
+]
+raw_tutor_moves = [
+    "AQUATAIL",
+    "DRILLRUN",
+    "HEADBUTT",
+    "HELPINGHAND",
+    "ICYWIND",
+    "IRONTAIL",
+    "MIMIC",
+    "SIGNALBEAM",
+    "SNORE",
+    "WATERPULSE",
+]
+compatible_egg_groups = [
+    "Water1",
+    "Field",
+]
 steps_to_hatch = 5355
 height = 1.1
 weight = 90.0
@@ -20,104 +96,30 @@ pokedex_entry = "Seel hunt for prey in frigid, ice-covered seas. When it needs t
 battler_player_y = 26
 battler_enemy_y = 18
 battler_altitude = 0
-form_names = []
-dex_number = 86
-internal_name = "SEEL"
 raw_hidden_ability = "ICEBODY"
+raw_egg_moves = [
+    "BELCH",
+    "DISABLE",
+    "ENCORE",
+    "ENTRAINMENT",
+    "FAKEOUT",
+    "HORNDRILL",
+    "ICICLESPEAR",
+    "IRONTAIL",
+    "LICK",
+    "PERISHSONG",
+    "SIGNALBEAM",
+    "SLAM",
+    "SLEEPTALK",
+    "SPITUP",
+    "STOCKPILE",
+    "SWALLOW",
+    "WATERPULSE",
+]
 habitat = "Sea"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BIDE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LICK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "PECK"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "POWDERSNOW"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "HEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "WATERGUN"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "DISABLE"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "ICESHARD"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "BUBBLEBEAM"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "FAKEOUT"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "ENTRAINMENT"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "BRINE"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "AURORABEAM"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "AQUAJET"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "AQUARING"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "ICICLESPEAR"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "SMARTSTRIKE"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "AQUATAIL"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "ICICLECRASH"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "PERISHSONG"
-
-[[evolutions]]
-into_name = "DEWGONG"
-condition = "Level"
-parameter = "34"
-
-
-
-
+evolutions = [
+    { into_name = "DEWGONG", condition = "Level", parameter = "34" },
+]
 
 [base_stats]
 hp = 65
@@ -134,5 +136,3 @@ def_ = 0
 spa = 0
 spd = 1
 spe = 0
-
-[wild_items]

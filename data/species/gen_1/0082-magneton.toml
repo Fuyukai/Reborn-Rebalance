@@ -1,3 +1,4 @@
+dex_number = 82
 name = "Magneton"
 primary_type = "ELECTRIC"
 secondary_type = "STEEL"
@@ -6,11 +7,92 @@ growth_rate = "Medium"
 exp_yield = 163
 catch_rate = 60
 caught_happiness = 70
-raw_abilities = ["MAGNETPULL", "STURDY", "ANALYTIC"]
-raw_egg_moves = []
-raw_tms = ["TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "DOUBLETEAM", "REFLECT", "FACADE", "REST", "ROUND", "CHARGEBEAM", "EXPLOSION", "GIGAIMPACT", "VOLTSWITCH", "THUNDERWAVE", "GYROBALL", "PSYCHUP", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "WILDCHARGE", "SECRETPOWER", "CONFIDE", "SCREECH", "ELECTRICTERRAIN", "TRIATTACK", "ENDURE", "ELECTROBALL", "SWIFT"]
-raw_tutor_moves = ["ELECTROWEB", "GRAVITY", "IRONDEFENSE", "MAGICCOAT", "MAGNETRISE", "RECYCLE", "ROLLOUT", "SHOCKWAVE", "SIGNALBEAM", "SNORE", "RISINGVOLTAGE", "STEELBEAM", "MIMIC"]
-compatible_egg_groups = ["Mineral"]
+raw_abilities = [
+    "MAGNETPULL",
+    "STURDY",
+    "ANALYTIC",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "SUPERSONIC" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 1, name = "THUNDERSHOCK" },
+    { at_level = 4, name = "THUNDERWAVE" },
+    { at_level = 7, name = "SONICBOOM" },
+    { at_level = 10, name = "SPARK" },
+    { at_level = 13, name = "MAGNETBOMB" },
+    { at_level = 16, name = "SCREECH" },
+    { at_level = 19, name = "CHARGEBEAM" },
+    { at_level = 22, name = "MIRRORSHOT" },
+    { at_level = 25, name = "ELECTROBALL" },
+    { at_level = 28, name = "IRONDEFENSE" },
+    { at_level = 30, name = "TRIATTACK" },
+    { at_level = 32, name = "LOCKON" },
+    { at_level = 36, name = "SIGNALBEAM" },
+    { at_level = 40, name = "GYROBALL" },
+    { at_level = 44, name = "MAGICCOAT" },
+    { at_level = 48, name = "RECYCLE" },
+    { at_level = 53, name = "EXPLOSION" },
+    { at_level = 57, name = "DISCHARGE" },
+    { at_level = 61, name = "GRAVITY" },
+    { at_level = 66, name = "ZAPCANNON" },
+]
+raw_tms = [
+    "TOXIC",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "THUNDERBOLT",
+    "THUNDER",
+    "RETURN",
+    "DOUBLETEAM",
+    "REFLECT",
+    "FACADE",
+    "REST",
+    "ROUND",
+    "CHARGEBEAM",
+    "EXPLOSION",
+    "GIGAIMPACT",
+    "VOLTSWITCH",
+    "THUNDERWAVE",
+    "GYROBALL",
+    "PSYCHUP",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "FLASHCANNON",
+    "WILDCHARGE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "SCREECH",
+    "ELECTRICTERRAIN",
+    "TRIATTACK",
+    "ENDURE",
+    "ELECTROBALL",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "ELECTROWEB",
+    "GRAVITY",
+    "IRONDEFENSE",
+    "MAGICCOAT",
+    "MAGNETRISE",
+    "MIMIC",
+    "RECYCLE",
+    "RISINGVOLTAGE",
+    "ROLLOUT",
+    "SHOCKWAVE",
+    "SIGNALBEAM",
+    "SNORE",
+    "STEELBEAM",
+]
+compatible_egg_groups = [
+    "Mineral",
+]
 steps_to_hatch = 5355
 height = 1.0
 weight = 60.0
@@ -20,107 +102,10 @@ pokedex_entry = "It is actually three Magnemite linked by magnetism. It generate
 battler_player_y = 22
 battler_enemy_y = 14
 battler_altitude = 15
-form_names = []
-dex_number = 82
-internal_name = "MAGNETON"
 habitat = "RoughTerrain"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SUPERSONIC"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "THUNDERSHOCK"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "THUNDERWAVE"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "SONICBOOM"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "SPARK"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "MAGNETBOMB"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "SCREECH"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "CHARGEBEAM"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "MIRRORSHOT"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "ELECTROBALL"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "IRONDEFENSE"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "TRIATTACK"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "LOCKON"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "SIGNALBEAM"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "GYROBALL"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "MAGICCOAT"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "RECYCLE"
-
-[[raw_level_up_moves]]
-at_level = 53
-name = "EXPLOSION"
-
-[[raw_level_up_moves]]
-at_level = 57
-name = "DISCHARGE"
-
-[[raw_level_up_moves]]
-at_level = 61
-name = "GRAVITY"
-
-[[raw_level_up_moves]]
-at_level = 66
-name = "ZAPCANNON"
-
-[[evolutions]]
-into_name = "MAGNEZONE"
-condition = "Item"
-parameter = "THUNDERSTONE"
-
-
-
-
+evolutions = [
+    { into_name = "MAGNEZONE", condition = "Item", parameter = "THUNDERSTONE" },
+]
 
 [base_stats]
 hp = 50

@@ -1,3 +1,4 @@
+dex_number = 423
 name = "Gastrodon"
 primary_type = "WATER"
 secondary_type = "GROUND"
@@ -6,11 +7,107 @@ growth_rate = "Medium"
 exp_yield = 166
 catch_rate = 75
 caught_happiness = 70
-raw_abilities = ["STICKYHOLD", "STORMDRAIN"]
-raw_egg_moves = []
-raw_tms = ["SURF", "STRENGTH", "WATERFALL", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "FLASH", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "SLUDGEWAVE", "SLUDGEBOMB", "SANDSTORM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "SCALD", "GIGAIMPACT", "STONEEDGE", "BULLDOZE", "ROCKSLIDE", "INFESTATION", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "WHIRLPOOL", "WEATHERBALL", "SANDTOMB", "MUDSHOT", "BRINE", "BODYSLAM", "HYDROPUMP", "AMNESIA", "ENDURE", "MUDDYWATER", "SNOWSCAPE", "CHILLINGWATER"]
-raw_tutor_moves = ["ANCIENTPOWER", "BLOCK", "EARTHPOWER", "HEADBUTT", "ICYWIND", "MUDSLAP", "PAINSPLIT", "SNORE", "STOMPINGTANTRUM", "STRINGSHOT", "WATERPULSE", "SKITTERSMACK", "MIMIC"]
-compatible_egg_groups = ["Water1", "Amorphous"]
+raw_abilities = [
+    "STICKYHOLD",
+    "STORMDRAIN",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "MEMENTO" },
+    { at_level = 1, name = "WATERGUN" },
+    { at_level = 7, name = "HARDEN" },
+    { at_level = 10, name = "WHIRLPOOL" },
+    { at_level = 12, name = "MUDSHOT" },
+    { at_level = 14, name = "YAWN" },
+    { at_level = 16, name = "SLUDGE" },
+    { at_level = 18, name = "WATERPULSE" },
+    { at_level = 20, name = "STOCKPILE" },
+    { at_level = 22, name = "SWALLOW" },
+    { at_level = 24, name = "ANCIENTPOWER" },
+    { at_level = 26, name = "CLEARSMOG" },
+    { at_level = 28, name = "MUDDYWATER" },
+    { at_level = 30, name = "MUDBOMB" },
+    { at_level = 33, name = "CURSE" },
+    { at_level = 37, name = "BRINE" },
+    { at_level = 41, name = "COUNTER" },
+    { at_level = 41, name = "MIRRORCOAT" },
+    { at_level = 45, name = "ACIDARMOR" },
+    { at_level = 45, name = "SPIKES" },
+    { at_level = 49, name = "BODYSLAM" },
+    { at_level = 53, name = "RECOVER" },
+    { at_level = 57, name = "HYDROPUMP" },
+    { at_level = 61, name = "TRUMPCARD" },
+]
+raw_tms = [
+    "SURF",
+    "STRENGTH",
+    "WATERFALL",
+    "TOXIC",
+    "DIVE",
+    "HAIL",
+    "ROCKSMASH",
+    "FLASH",
+    "HIDDENPOWER",
+    "ICEBEAM",
+    "BLIZZARD",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "EARTHQUAKE",
+    "RETURN",
+    "DOUBLETEAM",
+    "SLUDGEWAVE",
+    "SLUDGEBOMB",
+    "SANDSTORM",
+    "ROCKTOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "SCALD",
+    "GIGAIMPACT",
+    "STONEEDGE",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "INFESTATION",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "DIG",
+    "WHIRLPOOL",
+    "WEATHERBALL",
+    "SANDTOMB",
+    "MUDSHOT",
+    "BRINE",
+    "BODYSLAM",
+    "HYDROPUMP",
+    "AMNESIA",
+    "ENDURE",
+    "MUDDYWATER",
+    "SNOWSCAPE",
+    "CHILLINGWATER",
+]
+raw_tutor_moves = [
+    "ANCIENTPOWER",
+    "BLOCK",
+    "EARTHPOWER",
+    "HEADBUTT",
+    "ICYWIND",
+    "MIMIC",
+    "MUDSLAP",
+    "PAINSPLIT",
+    "SKITTERSMACK",
+    "SNORE",
+    "STOMPINGTANTRUM",
+    "STRINGSHOT",
+    "WATERPULSE",
+]
+compatible_egg_groups = [
+    "Water1",
+    "Amorphous",
+]
 steps_to_hatch = 5355
 height = 0.9
 weight = 29.9
@@ -20,107 +117,11 @@ pokedex_entry = "It has a pliable body without any bones. If any part of its bod
 battler_player_y = 20
 battler_enemy_y = 15
 battler_altitude = 0
-evolutions = []
-form_names = ["West Sea", "East Sea"]
-dex_number = 423
-internal_name = "GASTRODON"
 raw_hidden_ability = "SANDFORCE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "MEMENTO"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WATERGUN"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "HARDEN"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "WHIRLPOOL"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "MUDSHOT"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "YAWN"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "SLUDGE"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "WATERPULSE"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "STOCKPILE"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "SWALLOW"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "ANCIENTPOWER"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "CLEARSMOG"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "MUDDYWATER"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "MUDBOMB"
-
-[[raw_level_up_moves]]
-at_level = 33
-name = "CURSE"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "BRINE"
-
-[[raw_level_up_moves]]
-at_level = 41
-name = "COUNTER"
-
-[[raw_level_up_moves]]
-at_level = 41
-name = "MIRRORCOAT"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "ACIDARMOR"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "SPIKES"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 53
-name = "RECOVER"
-
-[[raw_level_up_moves]]
-at_level = 57
-name = "HYDROPUMP"
-
-[[raw_level_up_moves]]
-at_level = 61
-name = "TRUMPCARD"
+form_names = [
+    "West Sea",
+    "East Sea",
+]
 
 [base_stats]
 hp = 111
@@ -137,5 +138,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

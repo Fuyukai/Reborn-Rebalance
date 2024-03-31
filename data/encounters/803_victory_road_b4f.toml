@@ -1,61 +1,21 @@
-chances = [2, 2, 28]
+chances = [
+    2,
+    2,
+    28,
+]
 
-[[encounters.Cave]]
-name = "DARMANITAN"
-minimum_level = 85
-maximum_level = 94
-
-[[encounters.Cave]]
-name = "PANGORO"
-minimum_level = 85
-maximum_level = 94
-
-[[encounters.Cave]]
-name = "HARIYAMA"
-minimum_level = 88
-maximum_level = 95
-
-[[encounters.Cave]]
-name = "PYROAR"
-minimum_level = 88
-maximum_level = 95
-
-[[encounters.Cave]]
-name = "HONCHKROW"
-minimum_level = 88
-maximum_level = 96
-
-[[encounters.Cave]]
-name = "CONKELDURR"
-minimum_level = 88
-maximum_level = 96
-
-[[encounters.Cave]]
-name = "HITMONLEE"
-minimum_level = 90
-maximum_level = 97
-
-[[encounters.Cave]]
-name = "ARIADOS"
-minimum_level = 90
-maximum_level = 97
-
-[[encounters.Cave]]
-name = "GLISCOR"
-minimum_level = 90
-maximum_level = 98
-
-[[encounters.Cave]]
-name = "FLAREON"
-minimum_level = 90
-maximum_level = 98
-
-[[encounters.Cave]]
-name = "ZOROARK"
-minimum_level = 93
-maximum_level = 100
-
-[[encounters.Cave]]
-name = "GALLADE"
-minimum_level = 95
-maximum_level = 100
+[encounters]
+Cave = [
+    { name = "DARMANITAN", minimum_level = 85, maximum_level = 94 },
+    { name = "PANGORO", minimum_level = 85, maximum_level = 94 },
+    { name = "HARIYAMA", minimum_level = 88, maximum_level = 95 },
+    { name = "PYROAR", minimum_level = 88, maximum_level = 95 },
+    { name = "HONCHKROW", minimum_level = 88, maximum_level = 96 },
+    { name = "CONKELDURR", minimum_level = 88, maximum_level = 96 },
+    { name = "HITMONLEE", minimum_level = 90, maximum_level = 97 },
+    { name = "ARIADOS", minimum_level = 90, maximum_level = 97 },
+    { name = "GLISCOR", minimum_level = 90, maximum_level = 98 },
+    { name = "FLAREON", minimum_level = 90, maximum_level = 98 },
+    { name = "ZOROARK", minimum_level = 93, maximum_level = 100 },
+    { name = "GALLADE", minimum_level = 95, maximum_level = 100 },
+]

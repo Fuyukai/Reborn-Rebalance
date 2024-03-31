@@ -1,3 +1,4 @@
+dex_number = 181
 name = "Ampharos"
 primary_type = "ELECTRIC"
 secondary_type = "DRAGON"
@@ -6,24 +7,115 @@ growth_rate = "Parabolic"
 exp_yield = 230
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["STATIC", "MOLDBREAKER", "PLUS"]
-raw_egg_moves = []
+raw_abilities = [
+    "STATIC",
+    "MOLDBREAKER",
+    "PLUS",
+]
+raw_level_up_moves = [
+    { at_level = 0, name = "PARABOLICCHARGE" },
+    { at_level = 1, name = "COTTONSPORE" },
+    { at_level = 1, name = "GROWL" },
+    { at_level = 4, name = "TACKLE" },
+    { at_level = 6, name = "THUNDERSHOCK" },
+    { at_level = 8, name = "SANDATTACK" },
+    { at_level = 10, name = "SWIFT" },
+    { at_level = 12, name = "THUNDERWAVE" },
+    { at_level = 14, name = "ELECTROWEB" },
+    { at_level = 15, name = "COTTONGUARD" },
+    { at_level = 16, name = "SEISMICTOSS" },
+    { at_level = 18, name = "ELECTROBALL" },
+    { at_level = 20, name = "SIGNALBEAM" },
+    { at_level = 23, name = "HEALBELL" },
+    { at_level = 26, name = "DISCHARGE" },
+    { at_level = 29, name = "CONFUSERAY" },
+    { at_level = 30, name = "BREAKINGSWIPE" },
+    { at_level = 34, name = "AGILITY" },
+    { at_level = 38, name = "TAKEDOWN" },
+    { at_level = 42, name = "DRAGONBREATH" },
+    { at_level = 46, name = "FOCUSPUNCH" },
+    { at_level = 50, name = "BODYSLAM" },
+    { at_level = 54, name = "NUZZLE" },
+    { at_level = 59, name = "DOUBLEEDGE" },
+    { at_level = 63, name = "ZAPCANNON" },
+    { at_level = 68, name = "TAILGLOW" },
+]
 raw_tms = [
-    "STRENGTH", "TOXIC", "ROCKSMASH", "FLASH", "ROCKCLIMB", "HIDDENPOWER", "HYPERBEAM",
-    "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "THUNDERBOLT", "THUNDER",
-    "RETURN", "BRICKBREAK", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE",
-    "FOCUSBLAST", "FLING", "CHARGEBEAM", "BRUTALSWING", "GIGAIMPACT", "VOLTSWITCH", "THUNDERWAVE",
-    "BULLDOZE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "POWERUPPUNCH",
-    "CONFIDE", "MEGAPUNCH", "MEGAKICK", "SCREECH", "ELECTRICTERRAIN", "EERIEIMPULSE", "BODYSLAM",
-    "AGILITY", "ENDURE", "POWERGEM", "ELECTROBALL", "TRAILBLAZE", "SWIFT", "ENERGYBALL",
-    "FLASHCANNON"
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "FLASH",
+    "ROCKCLIMB",
+    "HIDDENPOWER",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "THUNDERBOLT",
+    "THUNDER",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ECHOEDVOICE",
+    "FOCUSBLAST",
+    "ENERGYBALL",
+    "FLING",
+    "CHARGEBEAM",
+    "BRUTALSWING",
+    "GIGAIMPACT",
+    "VOLTSWITCH",
+    "THUNDERWAVE",
+    "BULLDOZE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "FLASHCANNON",
+    "WILDCHARGE",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "SCREECH",
+    "ELECTRICTERRAIN",
+    "EERIEIMPULSE",
+    "BODYSLAM",
+    "AGILITY",
+    "ENDURE",
+    "POWERGEM",
+    "ELECTROBALL",
+    "TRAILBLAZE",
+    "SWIFT",
 ]
 raw_tutor_moves = [
-    "AFTERYOU", "DRAGONPULSE", "ELECTROWEB", "FIREPUNCH", "FOCUSPUNCH", "HEADBUTT",
-    "HEALBELL", "IRONTAIL", "LASERFOCUS", "MAGNETRISE", "OUTRAGE", "SHOCKWAVE", "SIGNALBEAM",
-    "SNORE", "THUNDERPUNCH", "MIMIC", "DRACOMETEOR"
+    "AFTERYOU",
+    "DRACOMETEOR",
+    "DRAGONPULSE",
+    "ELECTROWEB",
+    "FIREPUNCH",
+    "FOCUSPUNCH",
+    "HEADBUTT",
+    "HEALBELL",
+    "IRONTAIL",
+    "LASERFOCUS",
+    "MAGNETRISE",
+    "MIMIC",
+    "OUTRAGE",
+    "SHOCKWAVE",
+    "SIGNALBEAM",
+    "SNORE",
+    "THUNDERPUNCH",
 ]
-compatible_egg_groups = ["Monster", "Field"]
+compatible_egg_groups = [
+    "Monster",
+    "Field",
+]
 steps_to_hatch = 5355
 height = 1.4
 weight = 61.5
@@ -33,115 +125,7 @@ pokedex_entry = "It gives off so much light that it can be seen from space. Peop
 battler_player_y = 17
 battler_enemy_y = 10
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 181
-internal_name = "AMPHAROS"
 habitat = "Grassland"
-
-[[raw_level_up_moves]]
-at_level = 0
-name = "PARABOLICCHARGE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "COTTONSPORE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWL"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 6
-name = "THUNDERSHOCK"
-
-[[raw_level_up_moves]]
-at_level = 8
-name = "SANDATTACK"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "SWIFT"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "THUNDERWAVE"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "ELECTROWEB"
-
-[[raw_level_up_moves]]
-at_level = 15
-name = "COTTONGUARD"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "SEISMICTOSS"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "ELECTROBALL"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "SIGNALBEAM"
-
-[[raw_level_up_moves]]
-at_level = 23
-name = "HEALBELL"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "DISCHARGE"
-
-[[raw_level_up_moves]]
-at_level = 29
-name = "CONFUSERAY"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "BREAKINGSWIPE"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "AGILITY"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "TAKEDOWN"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "DRAGONBREATH"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "FOCUSPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "NUZZLE"
-
-[[raw_level_up_moves]]
-at_level = 59
-name = "DOUBLEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 63
-name = "ZAPCANNON"
-
-[[raw_level_up_moves]]
-at_level = 68
-name = "TAILGLOW"
 
 [base_stats]
 hp = 90
@@ -158,5 +142,3 @@ def_ = 0
 spa = 3
 spd = 0
 spe = 0
-
-[wild_items]

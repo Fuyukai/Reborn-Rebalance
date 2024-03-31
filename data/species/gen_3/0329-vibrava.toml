@@ -1,3 +1,4 @@
+dex_number = 329
 name = "Vibrava"
 primary_type = "BUG"
 secondary_type = "DRAGON"
@@ -6,11 +7,109 @@ growth_rate = "Slow"
 exp_yield = 119
 catch_rate = 120
 caught_happiness = 70
-raw_abilities = ["LEVITATE"]
-raw_egg_moves = []
-raw_tms = ["FLY", "STRENGTH", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "ROOST", "ROOST", "FRUSTRATION", "SOLARBEAM", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "SANDSTORM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "STEELWING", "STRUGGLEBUG", "BULLDOZE", "ROCKSLIDE", "DRAGONTAIL", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "SCREECH", "SANDTOMB", "MUDSHOT", "CRUNCH", "AIRSLASH", "BODYSLAM", "FOCUSENERGY", "ENDURE", "BUGBUZZ", "SWIFT", "HURRICANE"]
-raw_tutor_moves = ["AIRCUTTER", "BUGBITE", "DEFOG", "DRACOMETEOR", "DRAGONPULSE", "EARTHPOWER", "FURYCUTTER", "GIGADRAIN", "HEADBUTT", "HEATWAVE", "LASERFOCUS", "MUDSLAP", "OMINOUSWIND", "OUTRAGE", "SIGNALBEAM", "SNORE", "SUPERPOWER", "TAILWIND", "THROATCHOP", "TWISTER", "UPROAR", "SCORCHINGSANDS", "DUALWINGBEAT", "MIMIC"]
-compatible_egg_groups = ["Bug"]
+raw_abilities = [
+    "LEVITATE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "ASTONISH" },
+    { at_level = 1, name = "SANDATTACK" },
+    { at_level = 1, name = "BITE" },
+    { at_level = 4, name = "QUICKATTACK" },
+    { at_level = 7, name = "MUDSLAP" },
+    { at_level = 10, name = "FLAIL" },
+    { at_level = 13, name = "MUDSHOT" },
+    { at_level = 16, name = "SONICBOOM" },
+    { at_level = 19, name = "BUGBITE" },
+    { at_level = 22, name = "TWISTER" },
+    { at_level = 25, name = "CRUNCH" },
+    { at_level = 28, name = "FURYCUTTER" },
+    { at_level = 30, name = "GUST" },
+    { at_level = 31, name = "STRUGGLEBUG" },
+    { at_level = 33, name = "UPROAR" },
+    { at_level = 36, name = "DRAGONBREATH" },
+    { at_level = 39, name = "SIGNALBEAM" },
+    { at_level = 42, name = "SCORCHINGSANDS" },
+    { at_level = 45, name = "SANDSTORM" },
+    { at_level = 48, name = "HYPERVOICE" },
+    { at_level = 51, name = "BUGBUZZ" },
+    { at_level = 54, name = "TAILWIND" },
+    { at_level = 57, name = "DOUBLEEDGE" },
+]
+raw_tms = [
+    "FLY",
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "PROTECT",
+    "ROOST",
+    "ROOST",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "EARTHQUAKE",
+    "RETURN",
+    "DOUBLETEAM",
+    "SANDSTORM",
+    "ROCKTOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "STEELWING",
+    "STRUGGLEBUG",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "DRAGONTAIL",
+    "SWAGGER",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "DIG",
+    "SCREECH",
+    "SANDTOMB",
+    "MUDSHOT",
+    "CRUNCH",
+    "AIRSLASH",
+    "BODYSLAM",
+    "HURRICANE",
+    "FOCUSENERGY",
+    "ENDURE",
+    "BUGBUZZ",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AIRCUTTER",
+    "BUGBITE",
+    "DEFOG",
+    "DRACOMETEOR",
+    "DRAGONPULSE",
+    "DUALWINGBEAT",
+    "EARTHPOWER",
+    "FURYCUTTER",
+    "GIGADRAIN",
+    "HEADBUTT",
+    "HEATWAVE",
+    "LASERFOCUS",
+    "MIMIC",
+    "MUDSLAP",
+    "OMINOUSWIND",
+    "OUTRAGE",
+    "SCORCHINGSANDS",
+    "SIGNALBEAM",
+    "SNORE",
+    "SUPERPOWER",
+    "TAILWIND",
+    "THROATCHOP",
+    "TWISTER",
+    "UPROAR",
+]
+compatible_egg_groups = [
+    "Bug",
+]
 steps_to_hatch = 5355
 height = 1.1
 weight = 15.3
@@ -20,109 +119,10 @@ pokedex_entry = "It looses ultrasonic waves by rubbing its wings together. Since
 battler_player_y = 27
 battler_enemy_y = 18
 battler_altitude = 17
-form_names = []
-dex_number = 329
-internal_name = "VIBRAVA"
 habitat = "RoughTerrain"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ASTONISH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SANDATTACK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "QUICKATTACK"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "MUDSLAP"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "FLAIL"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "MUDSHOT"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "SONICBOOM"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "BUGBITE"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "TWISTER"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "FURYCUTTER"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "GUST"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "STRUGGLEBUG"
-
-[[raw_level_up_moves]]
-at_level = 33
-name = "UPROAR"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "DRAGONBREATH"
-
-[[raw_level_up_moves]]
-at_level = 39
-name = "SIGNALBEAM"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "SCORCHINGSANDS"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "SANDSTORM"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "HYPERVOICE"
-
-[[raw_level_up_moves]]
-at_level = 51
-name = "BUGBUZZ"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "TAILWIND"
-
-[[raw_level_up_moves]]
-at_level = 57
-name = "DOUBLEEDGE"
-
-[[evolutions]]
-into_name = "FLYGON"
-condition = "Level"
-parameter = "55"
-
-
+evolutions = [
+    { into_name = "FLYGON", condition = "Level", parameter = "55" },
+]
 
 [base_stats]
 hp = 50
@@ -139,5 +139,3 @@ def_ = 0
 spa = 2
 spd = 0
 spe = 0
-
-[wild_items]

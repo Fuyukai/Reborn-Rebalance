@@ -1,3 +1,4 @@
+dex_number = 240
 name = "Magby"
 primary_type = "FIRE"
 secondary_type = "FIRE"
@@ -6,11 +7,91 @@ growth_rate = "Medium"
 exp_yield = 73
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["FLAMEBODY", "VITALSPIRIT"]
-raw_egg_moves = ["BARRIER", "BELCH", "BELLYDRUM", "CROSSCHOP", "DYNAMICPUNCH", "FLAREBLITZ", "FOCUSENERGY", "IRONTAIL", "KARATECHOP", "MACHPUNCH", "MEGAPUNCH", "POWERSWAP", "SCREECH", "THUNDERPUNCH"]
-raw_tms = ["TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "FRUSTRATION", "RETURN", "PSYCHIC", "BRICKBREAK", "DOUBLETEAM", "FLAMETHROWER", "FIREBLAST", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "THIEF", "ROUND", "OVERHEAT", "FLING", "WILLOWISP", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "FIRESPIN", "SCREECH", "POWERSWAP", "BODYSLAM", "FLAREBLITZ", "FOCUSENERGY", "ENDURE"]
-raw_tutor_moves = ["COVET", "DUALCHOP", "FIREPUNCH", "FOCUSPUNCH", "HEADBUTT", "HEATWAVE", "HELPINGHAND", "IRONTAIL", "LOWKICK", "MUDSLAP", "SNORE", "THUNDERPUNCH", "UPROAR", "MIMIC"]
-compatible_egg_groups = ["Undiscovered"]
+raw_abilities = [
+    "FLAMEBODY",
+    "VITALSPIRIT",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "SMOG" },
+    { at_level = 1, name = "LEER" },
+    { at_level = 1, name = "EMBER" },
+    { at_level = 1, name = "SMOKESCREEN" },
+    { at_level = 5, name = "CLEARSMOG" },
+    { at_level = 8, name = "FIRESPIN" },
+    { at_level = 10, name = "FEINTATTACK" },
+    { at_level = 12, name = "MACHPUNCH" },
+    { at_level = 14, name = "FLAMEWHEEL" },
+    { at_level = 16, name = "CONFUSERAY" },
+    { at_level = 18, name = "FLAMEBURST" },
+    { at_level = 21, name = "SCREECH" },
+    { at_level = 24, name = "FIREPUNCH" },
+    { at_level = 27, name = "WILLOWISP" },
+    { at_level = 32, name = "LAVAPLUME" },
+    { at_level = 35, name = "CROSSCHOP" },
+    { at_level = 39, name = "BELLYDRUM" },
+    { at_level = 43, name = "SLUDGEBOMB" },
+    { at_level = 47, name = "SCORCHINGSANDS" },
+    { at_level = 51, name = "FLAREBLITZ" },
+    { at_level = 55, name = "DYNAMICPUNCH" },
+    { at_level = 59, name = "SOLARBEAM" },
+]
+raw_tms = [
+    "TOXIC",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "PROTECT",
+    "FRUSTRATION",
+    "RETURN",
+    "PSYCHIC",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "FLAMETHROWER",
+    "FIREBLAST",
+    "FACADE",
+    "FLAMECHARGE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "OVERHEAT",
+    "FLING",
+    "WILLOWISP",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "FIRESPIN",
+    "SCREECH",
+    "POWERSWAP",
+    "BODYSLAM",
+    "FLAREBLITZ",
+    "FOCUSENERGY",
+    "ENDURE",
+]
+raw_tutor_moves = [
+    "COVET",
+    "DUALCHOP",
+    "FIREPUNCH",
+    "FOCUSPUNCH",
+    "HEADBUTT",
+    "HEATWAVE",
+    "HELPINGHAND",
+    "IRONTAIL",
+    "LOWKICK",
+    "MIMIC",
+    "MUDSLAP",
+    "SNORE",
+    "THUNDERPUNCH",
+    "UPROAR",
+]
+compatible_egg_groups = [
+    "Undiscovered",
+]
 steps_to_hatch = 6630
 height = 0.7
 weight = 21.4
@@ -20,105 +101,26 @@ pokedex_entry = "If a Magby is spouting yellow flames from its mouth, it is in g
 battler_player_y = 29
 battler_enemy_y = 22
 battler_altitude = 0
-form_names = []
-dex_number = 240
-internal_name = "MAGBY"
+raw_egg_moves = [
+    "BARRIER",
+    "BELCH",
+    "BELLYDRUM",
+    "CROSSCHOP",
+    "DYNAMICPUNCH",
+    "FLAREBLITZ",
+    "FOCUSENERGY",
+    "IRONTAIL",
+    "KARATECHOP",
+    "MACHPUNCH",
+    "MEGAPUNCH",
+    "POWERSWAP",
+    "SCREECH",
+    "THUNDERPUNCH",
+]
 habitat = "Mountain"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SMOG"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "EMBER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SMOKESCREEN"
-
-[[raw_level_up_moves]]
-at_level = 5
-name = "CLEARSMOG"
-
-[[raw_level_up_moves]]
-at_level = 8
-name = "FIRESPIN"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "FEINTATTACK"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "MACHPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "FLAMEWHEEL"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "CONFUSERAY"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "FLAMEBURST"
-
-[[raw_level_up_moves]]
-at_level = 21
-name = "SCREECH"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "FIREPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "WILLOWISP"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "LAVAPLUME"
-
-[[raw_level_up_moves]]
-at_level = 35
-name = "CROSSCHOP"
-
-[[raw_level_up_moves]]
-at_level = 39
-name = "BELLYDRUM"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "SLUDGEBOMB"
-
-[[raw_level_up_moves]]
-at_level = 47
-name = "SCORCHINGSANDS"
-
-[[raw_level_up_moves]]
-at_level = 51
-name = "FLAREBLITZ"
-
-[[raw_level_up_moves]]
-at_level = 55
-name = "DYNAMICPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 59
-name = "SOLARBEAM"
-
-[[evolutions]]
-into_name = "MAGMAR"
-condition = "Level"
-parameter = "29"
-
-
+evolutions = [
+    { into_name = "MAGMAR", condition = "Level", parameter = "29" },
+]
 
 [base_stats]
 hp = 45

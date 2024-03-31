@@ -1,3 +1,4 @@
+dex_number = 513
 name = "Pansear"
 primary_type = "FIRE"
 secondary_type = "FIRE"
@@ -6,11 +7,106 @@ growth_rate = "Fast"
 exp_yield = 63
 catch_rate = 190
 caught_happiness = 70
-raw_abilities = ["GLUTTONY", "BLAZE"]
-raw_egg_moves = ["ASTONISH", "BELCH", "COVET", "DISARMINGVOICE", "FIREPUNCH", "FIRESPIN", "FLAREBLITZ", "HEATWAVE", "LOWKICK", "NASTYPLOT", "ROLEPLAY", "SLEEPTALK", "TICKLE"]
-raw_tms = ["WORKUP", "CUT", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "PROTECT", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "FLAMETHROWER", "FIREBLAST", "ROCKTOMB", "TORMENT", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "THIEF", "LOWSWEEP", "ROUND", "OVERHEAT", "FLING", "WILLOWISP", "ACROBATICS", "SHADOWCLAW", "PAYBACK", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "FIRESPIN", "DIG", "CRUNCH", "FLAREBLITZ", "AMNESIA", "ENDURE", "NASTYPLOT", "POWERUPPUNCH", "MYSTICALFIRE", "PLAYROUGH"]
-raw_tutor_moves = ["COVET", "ENDEAVOR", "FIREPLEDGE", "FIREPUNCH", "FOCUSPUNCH", "GASTROACID", "GUNKSHOT", "HEATWAVE", "HELPINGHAND", "IRONTAIL", "KNOCKOFF", "LOWKICK", "RECYCLE", "ROLEPLAY", "SNORE", "UPROAR", "MIMIC"]
-compatible_egg_groups = ["Field"]
+raw_abilities = [
+    "GLUTTONY",
+    "BLAZE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "FIREPLEDGE" },
+    { at_level = 1, name = "SCRATCH" },
+    { at_level = 1, name = "LICK" },
+    { at_level = 1, name = "TICKLE" },
+    { at_level = 5, name = "INCINERATE" },
+    { at_level = 8, name = "YAWN" },
+    { at_level = 10, name = "FIRESPIN" },
+    { at_level = 12, name = "DISARMINGVOICE" },
+    { at_level = 14, name = "FLAMECHARGE" },
+    { at_level = 16, name = "LOWKICK" },
+    { at_level = 18, name = "BITE" },
+    { at_level = 20, name = "FIREPUNCH" },
+    { at_level = 22, name = "AMNESIA" },
+    { at_level = 24, name = "ENDEAVOR" },
+    { at_level = 26, name = "CRUNCH" },
+    { at_level = 28, name = "DISABLE" },
+    { at_level = 31, name = "ACROBATICS" },
+    { at_level = 34, name = "BLAZEKICK" },
+    { at_level = 38, name = "NASTYPLOT" },
+    { at_level = 42, name = "NATURALGIFT" },
+    { at_level = 46, name = "LAVAPLUME" },
+    { at_level = 50, name = "RECYCLE" },
+    { at_level = 54, name = "FIRELASH" },
+    { at_level = 58, name = "WRINGOUT" },
+    { at_level = 62, name = "SLACKOFF" },
+]
+raw_tms = [
+    "WORKUP",
+    "CUT",
+    "TOXIC",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "PROTECT",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "DOUBLETEAM",
+    "FLAMETHROWER",
+    "FIREBLAST",
+    "ROCKTOMB",
+    "TORMENT",
+    "FACADE",
+    "FLAMECHARGE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "LOWSWEEP",
+    "ROUND",
+    "OVERHEAT",
+    "FLING",
+    "WILLOWISP",
+    "ACROBATICS",
+    "SHADOWCLAW",
+    "PAYBACK",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "FIRESPIN",
+    "DIG",
+    "CRUNCH",
+    "MYSTICALFIRE",
+    "FLAREBLITZ",
+    "AMNESIA",
+    "ENDURE",
+    "NASTYPLOT",
+    "PLAYROUGH",
+]
+raw_tutor_moves = [
+    "COVET",
+    "ENDEAVOR",
+    "FIREPLEDGE",
+    "FIREPUNCH",
+    "FOCUSPUNCH",
+    "GASTROACID",
+    "GUNKSHOT",
+    "HEATWAVE",
+    "HELPINGHAND",
+    "IRONTAIL",
+    "KNOCKOFF",
+    "LOWKICK",
+    "MIMIC",
+    "RECYCLE",
+    "ROLEPLAY",
+    "SNORE",
+    "UPROAR",
+]
+compatible_egg_groups = [
+    "Field",
+]
 steps_to_hatch = 5120
 height = 0.6
 weight = 11.0
@@ -20,116 +116,24 @@ pokedex_entry = "This Pokémon lives in caves in volcanoes. The fire within the 
 battler_player_y = 26
 battler_enemy_y = 28
 battler_altitude = 0
-form_names = []
-dex_number = 513
-internal_name = "PANSEAR"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FIREPLEDGE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SCRATCH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LICK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TICKLE"
-
-[[raw_level_up_moves]]
-at_level = 5
-name = "INCINERATE"
-
-[[raw_level_up_moves]]
-at_level = 8
-name = "YAWN"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "FIRESPIN"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "DISARMINGVOICE"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "FLAMECHARGE"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "LOWKICK"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "FIREPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "AMNESIA"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "ENDEAVOR"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "DISABLE"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "ACROBATICS"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "BLAZEKICK"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "NASTYPLOT"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "NATURALGIFT"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "LAVAPLUME"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "RECYCLE"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "FIRELASH"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "WRINGOUT"
-
-[[raw_level_up_moves]]
-at_level = 62
-name = "SLACKOFF"
-
-[[evolutions]]
-into_name = "SIMISEAR"
-condition = "Item"
-parameter = "FIRESTONE"
-
-
+raw_egg_moves = [
+    "ASTONISH",
+    "BELCH",
+    "COVET",
+    "DISARMINGVOICE",
+    "FIREPUNCH",
+    "FIRESPIN",
+    "FLAREBLITZ",
+    "HEATWAVE",
+    "LOWKICK",
+    "NASTYPLOT",
+    "ROLEPLAY",
+    "SLEEPTALK",
+    "TICKLE",
+]
+evolutions = [
+    { into_name = "SIMISEAR", condition = "Item", parameter = "FIRESTONE" },
+]
 
 [base_stats]
 hp = 50
@@ -146,5 +150,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 1
-
-[wild_items]

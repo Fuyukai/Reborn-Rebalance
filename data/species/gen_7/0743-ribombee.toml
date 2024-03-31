@@ -1,3 +1,4 @@
+dex_number = 743
 name = "Ribombee"
 primary_type = "BUG"
 secondary_type = "FAIRY"
@@ -6,11 +7,110 @@ growth_rate = "Medium"
 exp_yield = 162
 catch_rate = 75
 caught_happiness = 70
-raw_abilities = ["HONEYGATHER", "SHIELDDUST"]
-raw_egg_moves = []
-raw_tms = ["CALMMIND", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "ROOST", "ROOST", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "LEECHLIFE", "PSYCHIC", "DOUBLETEAM", "REFLECT", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ENERGYBALL", "ACROBATICS", "GIGAIMPACT", "PSYCHUP", "INFESTATION", "DREAMEATER", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "DAZZLINGGLEAM", "CONFIDE", "MAGICALLEAF", "CHARM", "IMPRISON", "FAKETEARS", "SPEEDSWAP", "CRUNCH", "DRAININGKISS", "BODYSLAM", "HYDROPUMP", "MEGAHORN", "REVERSAL", "ENDURE", "BATONPASS", "BUGBUZZ", "PLAYROUGH", "HIGHHORSEPOWER", "POLLENPUFF", "SWIFT"]
-raw_tutor_moves = ["AFTERYOU", "ALLYSWITCH", "BUGBITE", "COVET", "DEFOG", "HELPINGHAND", "LASTRESORT", "MAGICROOM", "SIGNALBEAM", "SKILLSWAP", "SNORE", "TAILWIND", "TELEKINESIS", "TRICK", "WONDERROOM", "DUALWINGBEAT", "MIMIC"]
-compatible_egg_groups = ["Bug", "Fairy"]
+raw_abilities = [
+    "HONEYGATHER",
+    "SHIELDDUST",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "POLLENPUFF" },
+    { at_level = 1, name = "POWDER" },
+    { at_level = 1, name = "FAIRYWIND" },
+    { at_level = 1, name = "STUNSPORE" },
+    { at_level = 1, name = "STRUGGLEBUG" },
+    { at_level = 4, name = "FAIRYWIND" },
+    { at_level = 7, name = "STUNSPORE" },
+    { at_level = 10, name = "STRUGGLEBUG" },
+    { at_level = 13, name = "SILVERWIND" },
+    { at_level = 16, name = "DRAININGKISS" },
+    { at_level = 21, name = "SWEETSCENT" },
+    { at_level = 28, name = "BUGBUZZ" },
+    { at_level = 35, name = "DAZZLINGGLEAM" },
+    { at_level = 42, name = "AROMATHERAPY" },
+    { at_level = 46, name = "BATONPASS" },
+    { at_level = 49, name = "QUIVERDANCE" },
+    { at_level = 54, name = "MOONBLAST" },
+    { at_level = 58, name = "STICKYWEB" },
+]
+raw_tms = [
+    "CALMMIND",
+    "TOXIC",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "ROOST",
+    "ROOST",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "LEECHLIFE",
+    "PSYCHIC",
+    "DOUBLETEAM",
+    "REFLECT",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "ENERGYBALL",
+    "ACROBATICS",
+    "GIGAIMPACT",
+    "PSYCHUP",
+    "INFESTATION",
+    "DREAMEATER",
+    "SWAGGER",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "NATUREPOWER",
+    "DAZZLINGGLEAM",
+    "CONFIDE",
+    "MAGICALLEAF",
+    "CHARM",
+    "IMPRISON",
+    "FAKETEARS",
+    "SPEEDSWAP",
+    "CRUNCH",
+    "DRAININGKISS",
+    "BODYSLAM",
+    "HYDROPUMP",
+    "MEGAHORN",
+    "REVERSAL",
+    "ENDURE",
+    "BATONPASS",
+    "BUGBUZZ",
+    "PLAYROUGH",
+    "HIGHHORSEPOWER",
+    "POLLENPUFF",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AFTERYOU",
+    "ALLYSWITCH",
+    "BUGBITE",
+    "COVET",
+    "DEFOG",
+    "DUALWINGBEAT",
+    "HELPINGHAND",
+    "LASTRESORT",
+    "MAGICROOM",
+    "MIMIC",
+    "SIGNALBEAM",
+    "SKILLSWAP",
+    "SNORE",
+    "TAILWIND",
+    "TELEKINESIS",
+    "TRICK",
+    "WONDERROOM",
+]
+compatible_egg_groups = [
+    "Bug",
+    "Fairy",
+]
 steps_to_hatch = 5120
 height = 0.2
 weight = 0.5
@@ -20,83 +120,7 @@ pokedex_entry = "It rolls up pollen into puffs. It makes many different varietie
 battler_player_y = 20
 battler_enemy_y = 24
 battler_altitude = 15
-evolutions = []
-form_names = []
-dex_number = 743
-internal_name = "RIBOMBEE"
 raw_hidden_ability = "SWEETVEIL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "POLLENPUFF"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "POWDER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FAIRYWIND"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "STUNSPORE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "STRUGGLEBUG"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "FAIRYWIND"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "STUNSPORE"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "STRUGGLEBUG"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "SILVERWIND"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "DRAININGKISS"
-
-[[raw_level_up_moves]]
-at_level = 21
-name = "SWEETSCENT"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "BUGBUZZ"
-
-[[raw_level_up_moves]]
-at_level = 35
-name = "DAZZLINGGLEAM"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "AROMATHERAPY"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "BATONPASS"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "QUIVERDANCE"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "MOONBLAST"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "STICKYWEB"
 
 [base_stats]
 hp = 60

@@ -1,3 +1,4 @@
+dex_number = 144
 name = "Articuno"
 primary_type = "ICE"
 secondary_type = "FLYING"
@@ -6,20 +7,113 @@ growth_rate = "Slow"
 exp_yield = 261
 catch_rate = 3
 caught_happiness = 35
-raw_abilities = ["PRESSURE", "SNOWWARNING"]
-raw_egg_moves = []
-raw_tms = [
-    "FLY", "PSYSHOCK", "CALMMIND", "ROAR", "TOXIC", "HAIL", "ROCKSMASH", "HIDDENPOWER",
-    "SUNNYDAY", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE",
-    "ROOST", "ROOST", "FRUSTRATION", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT",
-    "SANDSTORM", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "STEELWING", "SKYDROP",
-    "GIGAIMPACT", "AURORAVEIL", "FROSTBREATH", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE",
-    "TRICKROOM", "SECRETPOWER", "CONFIDE", "SCARYFACE", "IMPRISON", "WEATHERBALL", "ICICLESPEAR",
-    "POWERSWAP", "GUARDSWAP", "AVALANCHE", "PSYCHOCUT", "AIRSLASH", "HURRICANE", "BRAVEBIRD",
-    "AGILITY", "ENDURE", "STOREDPOWER", "ICESPINNER", "SNOWSCAPE", "SWIFT"
+raw_abilities = [
+    "PRESSURE",
+    "SNOWWARNING",
 ]
-raw_tutor_moves = ["AIRCUTTER", "ALLYSWITCH", "ANCIENTPOWER", "DEFOG", "HYPERVOICE", "ICYWIND", "LASERFOCUS", "MUDSLAP", "OMINOUSWIND", "SIGNALBEAM", "SKILLSWAP", "SKYATTACK", "SNORE", "TAILWIND", "TWISTER", "WATERPULSE", "DUALWINGBEAT", "TRIPLEAXEL", "EXPANDINGFORCE", "MIMIC"]
-compatible_egg_groups = ["Undiscovered"]
+raw_level_up_moves = [
+    { at_level = 1, name = "EXTRASENSORY" },
+    { at_level = 1, name = "GUST" },
+    { at_level = 1, name = "POWDERSNOW" },
+    { at_level = 8, name = "MIST" },
+    { at_level = 11, name = "ICESHARD" },
+    { at_level = 14, name = "MINDREADER" },
+    { at_level = 19, name = "ANCIENTPOWER" },
+    { at_level = 23, name = "AGILITY" },
+    { at_level = 27, name = "ICYWIND" },
+    { at_level = 30, name = "REFLECT" },
+    { at_level = 33, name = "ICEBEAM" },
+    { at_level = 37, name = "TAILWIND" },
+    { at_level = 40, name = "BLIZZARD" },
+    { at_level = 43, name = "ROOST" },
+    { at_level = 47, name = "SHEERCOLD" },
+    { at_level = 50, name = "HURRICANE" },
+]
+raw_tms = [
+    "FLY",
+    "PSYSHOCK",
+    "CALMMIND",
+    "ROAR",
+    "TOXIC",
+    "HAIL",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "ICEBEAM",
+    "BLIZZARD",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "ROOST",
+    "ROOST",
+    "FRUSTRATION",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "REFLECT",
+    "SANDSTORM",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "STEELWING",
+    "SKYDROP",
+    "GIGAIMPACT",
+    "AURORAVEIL",
+    "FROSTBREATH",
+    "SWAGGER",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "TRICKROOM",
+    "SECRETPOWER",
+    "CONFIDE",
+    "SCARYFACE",
+    "IMPRISON",
+    "WEATHERBALL",
+    "ICICLESPEAR",
+    "POWERSWAP",
+    "GUARDSWAP",
+    "AVALANCHE",
+    "PSYCHOCUT",
+    "AIRSLASH",
+    "HURRICANE",
+    "BRAVEBIRD",
+    "AGILITY",
+    "ENDURE",
+    "STOREDPOWER",
+    "ICESPINNER",
+    "SNOWSCAPE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AIRCUTTER",
+    "ALLYSWITCH",
+    "ANCIENTPOWER",
+    "DEFOG",
+    "DUALWINGBEAT",
+    "EXPANDINGFORCE",
+    "HYPERVOICE",
+    "ICYWIND",
+    "LASERFOCUS",
+    "MIMIC",
+    "MUDSLAP",
+    "OMINOUSWIND",
+    "SIGNALBEAM",
+    "SKILLSWAP",
+    "SKYATTACK",
+    "SNORE",
+    "TAILWIND",
+    "TRIPLEAXEL",
+    "TWISTER",
+    "WATERPULSE",
+]
+compatible_egg_groups = [
+    "Undiscovered",
+]
 steps_to_hatch = 20655
 height = 1.7
 weight = 55.4
@@ -29,75 +123,7 @@ pokedex_entry = "Articuno is a legendary bird Pokémon that can control ice. The
 battler_player_y = 5
 battler_enemy_y = 6
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 144
-internal_name = "ARTICUNO"
 habitat = "Rare"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "EXTRASENSORY"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GUST"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "POWDERSNOW"
-
-[[raw_level_up_moves]]
-at_level = 8
-name = "MIST"
-
-[[raw_level_up_moves]]
-at_level = 11
-name = "ICESHARD"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "MINDREADER"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "ANCIENTPOWER"
-
-[[raw_level_up_moves]]
-at_level = 23
-name = "AGILITY"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "ICYWIND"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "REFLECT"
-
-[[raw_level_up_moves]]
-at_level = 33
-name = "ICEBEAM"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "TAILWIND"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "BLIZZARD"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "ROOST"
-
-[[raw_level_up_moves]]
-at_level = 47
-name = "SHEERCOLD"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "HURRICANE"
 
 [base_stats]
 hp = 90
@@ -114,5 +140,3 @@ def_ = 0
 spa = 0
 spd = 3
 spe = 0
-
-[wild_items]

@@ -1,3 +1,4 @@
+dex_number = 880
 name = "Dracozolt"
 primary_type = "ELECTRIC"
 secondary_type = "DRAGON"
@@ -6,11 +7,89 @@ growth_rate = "Slow"
 exp_yield = 177
 catch_rate = 45
 caught_happiness = 50
-raw_abilities = ["VOLTABSORB", "HUSTLE"]
-raw_egg_moves = []
-raw_tms = ["DRAGONCLAW", "FLASH", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "RAINDANCE", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "FLAMETHROWER", "FIREBLAST", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ROUND", "STEELWING", "CHARGEBEAM", "BRUTALSWING", "GIGAIMPACT", "STONEEDGE", "VOLTSWITCH", "THUNDERWAVE", "BULLDOZE", "ROCKSLIDE", "DRAGONTAIL", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "MEGAPUNCH", "MEGAKICK", "FIRESPIN", "ROCKBLAST", "THUNDERFANG", "FIREFANG", "BREAKINGSWIPE", "BODYSLAM", "ENDURE", "ELECTROBALL", "HIGHHORSEPOWER"]
-raw_tutor_moves = ["ANCIENTPOWER", "DRACOMETEOR", "DRAGONPULSE", "DUALCHOP", "EARTHPOWER", "IRONTAIL", "LOWKICK", "OUTRAGE", "SNORE", "STOMPINGTANTRUM", "THUNDERPUNCH", "TWISTER", "RISINGVOLTAGE", "METEORBEAM", "MIMIC"]
-compatible_egg_groups = ["Undiscovered"]
+raw_abilities = [
+    "VOLTABSORB",
+    "HUSTLE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 1, name = "THUNDERSHOCK" },
+    { at_level = 7, name = "CHARGE" },
+    { at_level = 14, name = "AERIALACE" },
+    { at_level = 21, name = "ANCIENTPOWER" },
+    { at_level = 28, name = "PLUCK" },
+    { at_level = 35, name = "DRAGONTAIL" },
+    { at_level = 42, name = "STOMP" },
+    { at_level = 49, name = "SLAM" },
+    { at_level = 56, name = "DISCHARGE" },
+    { at_level = 63, name = "BOLTBEAK" },
+    { at_level = 70, name = "DRAGONPULSE" },
+    { at_level = 77, name = "DRAGONRUSH" },
+]
+raw_tms = [
+    "DRAGONCLAW",
+    "FLASH",
+    "SUNNYDAY",
+    "TAUNT",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "THUNDERBOLT",
+    "THUNDER",
+    "EARTHQUAKE",
+    "FLAMETHROWER",
+    "FIREBLAST",
+    "ROCKTOMB",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ROUND",
+    "STEELWING",
+    "CHARGEBEAM",
+    "BRUTALSWING",
+    "GIGAIMPACT",
+    "STONEEDGE",
+    "VOLTSWITCH",
+    "THUNDERWAVE",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "DRAGONTAIL",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "WILDCHARGE",
+    "SECRETPOWER",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "FIRESPIN",
+    "ROCKBLAST",
+    "THUNDERFANG",
+    "FIREFANG",
+    "BREAKINGSWIPE",
+    "BODYSLAM",
+    "ENDURE",
+    "ELECTROBALL",
+    "HIGHHORSEPOWER",
+]
+raw_tutor_moves = [
+    "ANCIENTPOWER",
+    "DRACOMETEOR",
+    "DRAGONPULSE",
+    "DUALCHOP",
+    "EARTHPOWER",
+    "IRONTAIL",
+    "LOWKICK",
+    "METEORBEAM",
+    "MIMIC",
+    "OUTRAGE",
+    "RISINGVOLTAGE",
+    "SNORE",
+    "STOMPINGTANTRUM",
+    "THUNDERPUNCH",
+    "TWISTER",
+]
+compatible_egg_groups = [
+    "Undiscovered",
+]
 steps_to_hatch = 8960
 height = 1.8
 weight = 190.0
@@ -20,64 +99,8 @@ pokedex_entry = "The powerful muscles in its tail generate its electricity. Comp
 battler_player_y = 21
 battler_enemy_y = 26
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 880
-internal_name = "DRACOZOLT"
 raw_hidden_ability = "SANDRUSH"
 regional_numbers = 880
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "THUNDERSHOCK"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "CHARGE"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "AERIALACE"
-
-[[raw_level_up_moves]]
-at_level = 21
-name = "ANCIENTPOWER"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "PLUCK"
-
-[[raw_level_up_moves]]
-at_level = 35
-name = "DRAGONTAIL"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "STOMP"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "SLAM"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "DISCHARGE"
-
-[[raw_level_up_moves]]
-at_level = 63
-name = "BOLTBEAK"
-
-[[raw_level_up_moves]]
-at_level = 70
-name = "DRAGONPULSE"
-
-[[raw_level_up_moves]]
-at_level = 77
-name = "DRAGONRUSH"
 
 [base_stats]
 hp = 90
@@ -94,5 +117,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

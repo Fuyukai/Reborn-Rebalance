@@ -1,3 +1,4 @@
+dex_number = 7
 name = "Squirtle"
 primary_type = "WATER"
 secondary_type = "WATER"
@@ -6,11 +7,101 @@ growth_rate = "Parabolic"
 exp_yield = 63
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["SHELLARMOR", "TORRENT", "RAINDISH"]
-raw_egg_moves = ["AQUAJET", "AQUARING", "AURASPHERE", "BRINE", "DRAGONPULSE", "FAKEOUT", "FLAIL", "FORESIGHT", "HAZE", "MIRRORCOAT", "MIST", "MUDSPORT", "MUDDYWATER", "REFRESH", "WATERSPOUT", "YAWN", "LIFEDEW"]
-raw_tms = ["WORKUP", "SURF", "STRENGTH", "WATERFALL", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "FALSESWIPE", "SCALD", "FLING", "GYROBALL", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "WHIRLPOOL", "WEATHERBALL", "BRINE", "BODYSLAM", "HYDROPUMP", "ENDURE", "MUDDYWATER", "AURASPHERE"]
-raw_tutor_moves = ["AQUATAIL", "DRAGONPULSE", "FOCUSPUNCH", "HEADBUTT", "HELPINGHAND", "ICEPUNCH", "ICYWIND", "IRONDEFENSE", "IRONTAIL", "MUDSLAP", "OUTRAGE", "ROLLOUT", "SNORE", "WATERPLEDGE", "WATERPULSE", "ZENHEADBUTT", "FLIPTURN", "MIMIC", "CELEBRATE"]
-compatible_egg_groups = ["Monster", "Water1"]
+raw_abilities = [
+    "SHELLARMOR",
+    "TORRENT",
+    "RAINDISH",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 4, name = "TAILWHIP" },
+    { at_level = 5, name = "WATERGUN" },
+    { at_level = 7, name = "WITHDRAW" },
+    { at_level = 10, name = "AQUAJET" },
+    { at_level = 13, name = "WATERPULSE" },
+    { at_level = 16, name = "YAWN" },
+    { at_level = 19, name = "RAPIDSPIN" },
+    { at_level = 22, name = "BUBBLEBEAM" },
+    { at_level = 25, name = "AQUARING" },
+    { at_level = 27, name = "AVALANCHE" },
+    { at_level = 31, name = "BITE" },
+    { at_level = 34, name = "SKULLBASH" },
+    { at_level = 37, name = "BODYSLAM" },
+    { at_level = 40, name = "MUDDYWATER" },
+    { at_level = 49, name = "ZENHEADBUTT" },
+]
+raw_tms = [
+    "WORKUP",
+    "SURF",
+    "STRENGTH",
+    "WATERFALL",
+    "TOXIC",
+    "DIVE",
+    "HAIL",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "ICEBEAM",
+    "BLIZZARD",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "REFLECT",
+    "ROCKTOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "FALSESWIPE",
+    "SCALD",
+    "FLING",
+    "GYROBALL",
+    "ROCKSLIDE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "DIG",
+    "WHIRLPOOL",
+    "WEATHERBALL",
+    "BRINE",
+    "BODYSLAM",
+    "HYDROPUMP",
+    "ENDURE",
+    "MUDDYWATER",
+    "AURASPHERE",
+]
+raw_tutor_moves = [
+    "AQUATAIL",
+    "CELEBRATE",
+    "DRAGONPULSE",
+    "FLIPTURN",
+    "FOCUSPUNCH",
+    "HEADBUTT",
+    "HELPINGHAND",
+    "ICEPUNCH",
+    "ICYWIND",
+    "IRONDEFENSE",
+    "IRONTAIL",
+    "MIMIC",
+    "MUDSLAP",
+    "OUTRAGE",
+    "ROLLOUT",
+    "SNORE",
+    "WATERPLEDGE",
+    "WATERPULSE",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Monster",
+    "Water1",
+]
 steps_to_hatch = 5355
 height = 0.5
 weight = 9.0
@@ -20,79 +111,29 @@ pokedex_entry = "Its shell is not just for protection. Its rounded shape and the
 battler_player_y = 29
 battler_enemy_y = 22
 battler_altitude = 0
-form_names = []
-dex_number = 7
-internal_name = "SQUIRTLE"
+raw_egg_moves = [
+    "AQUAJET",
+    "AQUARING",
+    "AURASPHERE",
+    "BRINE",
+    "DRAGONPULSE",
+    "FAKEOUT",
+    "FLAIL",
+    "FORESIGHT",
+    "HAZE",
+    "MIRRORCOAT",
+    "MIST",
+    "MUDSPORT",
+    "MUDDYWATER",
+    "REFRESH",
+    "WATERSPOUT",
+    "YAWN",
+    "LIFEDEW",
+]
 habitat = "WatersEdge"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "TAILWHIP"
-
-[[raw_level_up_moves]]
-at_level = 5
-name = "WATERGUN"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "WITHDRAW"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "AQUAJET"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "WATERPULSE"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "YAWN"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "RAPIDSPIN"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "BUBBLEBEAM"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "AQUARING"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "AVALANCHE"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "SKULLBASH"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "MUDDYWATER"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "ZENHEADBUTT"
-
-[[evolutions]]
-into_name = "WARTORTLE"
-condition = "Level"
-parameter = "16"
+evolutions = [
+    { into_name = "WARTORTLE", condition = "Level", parameter = "16" },
+]
 
 [base_stats]
 hp = 44
@@ -109,5 +150,3 @@ def_ = 1
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

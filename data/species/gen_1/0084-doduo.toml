@@ -1,3 +1,4 @@
+dex_number = 84
 name = "Doduo"
 primary_type = "NORMAL"
 secondary_type = "FLYING"
@@ -6,11 +7,83 @@ growth_rate = "Medium"
 exp_yield = 62
 catch_rate = 190
 caught_happiness = 70
-raw_abilities = ["TANGLEDFEET", "EARLYBIRD"]
-raw_egg_moves = ["ASSURANCE", "BRAVEBIRD", "ENDEAVOR", "FEINTATTACK", "FLAIL", "HAZE", "MIRRORMOVE", "NATURALGIFT", "QUICKATTACK", "SUPERSONIC"]
-raw_tms = ["WORKUP", "FLY", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "ROOST", "ROOST", "FRUSTRATION", "RETURN", "DOUBLETEAM", "REFLECT", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "STEELWING", "SWORDSDANCE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "ASSURANCE", "BODYSLAM", "BRAVEBIRD", "AGILITY", "TRIATTACK", "ENDURE", "HIGHHORSEPOWER", "SWIFT"]
-raw_tutor_moves = ["AIRCUTTER", "ENDEAVOR", "KNOCKOFF", "MUDSLAP", "SKYATTACK", "SNORE", "UPROAR", "MIMIC"]
-compatible_egg_groups = ["Flying"]
+raw_abilities = [
+    "TANGLEDFEET",
+    "EARLYBIRD",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "GROWL" },
+    { at_level = 1, name = "PECK" },
+    { at_level = 1, name = "RAGE" },
+    { at_level = 4, name = "LEER" },
+    { at_level = 7, name = "FURYATTACK" },
+    { at_level = 10, name = "PURSUIT" },
+    { at_level = 13, name = "WINGATTACK" },
+    { at_level = 16, name = "ASSURANCE" },
+    { at_level = 19, name = "QUICKATTACK" },
+    { at_level = 22, name = "DOUBLEHIT" },
+    { at_level = 25, name = "ENDEAVOR" },
+    { at_level = 28, name = "JUMPKICK" },
+    { at_level = 31, name = "ACUPRESSURE" },
+    { at_level = 34, name = "MIRRORMOVE" },
+    { at_level = 37, name = "DRILLPECK" },
+    { at_level = 40, name = "LUNGE" },
+    { at_level = 43, name = "HAZE" },
+    { at_level = 46, name = "FLAIL" },
+    { at_level = 49, name = "AGILITY" },
+    { at_level = 52, name = "HIJUMPKICK" },
+    { at_level = 56, name = "DOUBLEEDGE" },
+    { at_level = 60, name = "BRAVEBIRD" },
+]
+raw_tms = [
+    "WORKUP",
+    "FLY",
+    "TOXIC",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "PROTECT",
+    "ROOST",
+    "ROOST",
+    "FRUSTRATION",
+    "RETURN",
+    "DOUBLETEAM",
+    "REFLECT",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "ECHOEDVOICE",
+    "STEELWING",
+    "SWORDSDANCE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "ASSURANCE",
+    "BODYSLAM",
+    "BRAVEBIRD",
+    "AGILITY",
+    "TRIATTACK",
+    "ENDURE",
+    "HIGHHORSEPOWER",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AIRCUTTER",
+    "ENDEAVOR",
+    "KNOCKOFF",
+    "MIMIC",
+    "MUDSLAP",
+    "SKYATTACK",
+    "SNORE",
+    "UPROAR",
+]
+compatible_egg_groups = [
+    "Flying",
+]
 steps_to_hatch = 5355
 height = 1.4
 weight = 39.2
@@ -20,107 +93,22 @@ pokedex_entry = "Even while eating or sleeping, one of the heads remains always 
 battler_player_y = 21
 battler_enemy_y = 15
 battler_altitude = 0
-form_names = []
-dex_number = 84
-internal_name = "DODUO"
+raw_egg_moves = [
+    "ASSURANCE",
+    "BRAVEBIRD",
+    "ENDEAVOR",
+    "FEINTATTACK",
+    "FLAIL",
+    "HAZE",
+    "MIRRORMOVE",
+    "NATURALGIFT",
+    "QUICKATTACK",
+    "SUPERSONIC",
+]
 habitat = "Grassland"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "PECK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "RAGE"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "FURYATTACK"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "PURSUIT"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "WINGATTACK"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "ASSURANCE"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "QUICKATTACK"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "DOUBLEHIT"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "ENDEAVOR"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "JUMPKICK"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "ACUPRESSURE"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "MIRRORMOVE"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "DRILLPECK"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "LUNGE"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "HAZE"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "FLAIL"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "AGILITY"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "HIJUMPKICK"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "DOUBLEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "BRAVEBIRD"
-
-[[evolutions]]
-into_name = "DODRIO"
-condition = "Level"
-parameter = "31"
-
-
-
-
+evolutions = [
+    { into_name = "DODRIO", condition = "Level", parameter = "31" },
+]
 
 [base_stats]
 hp = 35

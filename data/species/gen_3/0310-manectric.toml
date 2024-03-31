@@ -1,3 +1,4 @@
+dex_number = 310
 name = "Manectric"
 primary_type = "ELECTRIC"
 secondary_type = "ELECTRIC"
@@ -6,11 +7,102 @@ growth_rate = "Slow"
 exp_yield = 166
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["STATIC", "LIGHTNINGROD", "INTIMIDATE"]
-raw_egg_moves = []
-raw_tms = ["STRENGTH", "ROAR", "TOXIC", "FLASH", "HIDDENPOWER", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "DOUBLETEAM", "FLAMETHROWER", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "OVERHEAT", "CHARGEBEAM", "GIGAIMPACT", "VOLTSWITCH", "THUNDERWAVE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "SNARL", "CONFIDE", "SCARYFACE", "THUNDERFANG", "ICEFANG", "FIREFANG", "PSYCHICFANGS", "CRUNCH", "ELECTRICTERRAIN", "EERIEIMPULSE", "BODYSLAM", "AGILITY", "ENDURE", "ELECTROBALL", "SWIFT", "ENERGYBALL"]
-raw_tutor_moves = ["HEADBUTT", "HYPERVOICE", "IRONTAIL", "LASERFOCUS", "MAGNETRISE", "MUDSLAP", "SHOCKWAVE", "SIGNALBEAM", "SNORE", "UPROAR", "RISINGVOLTAGE", "MIMIC"]
-compatible_egg_groups = ["Field"]
+raw_abilities = [
+    "STATIC",
+    "LIGHTNINGROD",
+    "INTIMIDATE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "LEER" },
+    { at_level = 1, name = "ODORSLEUTH" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 4, name = "HOWL" },
+    { at_level = 7, name = "THUNDERWAVE" },
+    { at_level = 10, name = "QUICKATTACK" },
+    { at_level = 12, name = "SPARK" },
+    { at_level = 14, name = "BITE" },
+    { at_level = 16, name = "CHARGEBEAM" },
+    { at_level = 18, name = "PSYCHICFANGS" },
+    { at_level = 20, name = "NUZZLE" },
+    { at_level = 22, name = "UPROAR" },
+    { at_level = 25, name = "ELECTROBALL" },
+    { at_level = 26, name = "FIREFANG" },
+    { at_level = 26, name = "ICEFANG" },
+    { at_level = 26, name = "THUNDERFANG" },
+    { at_level = 29, name = "FLAMEBURST" },
+    { at_level = 33, name = "ROAR" },
+    { at_level = 37, name = "SIGNALBEAM" },
+    { at_level = 41, name = "WILDCHARGE" },
+    { at_level = 45, name = "CRUNCH" },
+    { at_level = 50, name = "CHARGE" },
+    { at_level = 55, name = "SWITCHEROO" },
+    { at_level = 60, name = "DISCHARGE" },
+]
+raw_tms = [
+    "STRENGTH",
+    "ROAR",
+    "TOXIC",
+    "FLASH",
+    "HIDDENPOWER",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "THUNDERBOLT",
+    "THUNDER",
+    "RETURN",
+    "DOUBLETEAM",
+    "FLAMETHROWER",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "OVERHEAT",
+    "ENERGYBALL",
+    "CHARGEBEAM",
+    "GIGAIMPACT",
+    "VOLTSWITCH",
+    "THUNDERWAVE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "WILDCHARGE",
+    "SECRETPOWER",
+    "SNARL",
+    "CONFIDE",
+    "SCARYFACE",
+    "THUNDERFANG",
+    "ICEFANG",
+    "FIREFANG",
+    "PSYCHICFANGS",
+    "CRUNCH",
+    "ELECTRICTERRAIN",
+    "EERIEIMPULSE",
+    "BODYSLAM",
+    "AGILITY",
+    "ENDURE",
+    "ELECTROBALL",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "HEADBUTT",
+    "HYPERVOICE",
+    "IRONTAIL",
+    "LASERFOCUS",
+    "MAGNETRISE",
+    "MIMIC",
+    "MUDSLAP",
+    "RISINGVOLTAGE",
+    "SHOCKWAVE",
+    "SIGNALBEAM",
+    "SNORE",
+    "UPROAR",
+]
+compatible_egg_groups = [
+    "Field",
+]
 steps_to_hatch = 5355
 height = 1.5
 weight = 40.2
@@ -20,107 +112,7 @@ pokedex_entry = "Because lightning falls in their vicinities, Manectric were tho
 battler_player_y = 14
 battler_enemy_y = 10
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 310
-internal_name = "MANECTRIC"
 habitat = "Grassland"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ODORSLEUTH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "HOWL"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "THUNDERWAVE"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "QUICKATTACK"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "SPARK"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "CHARGEBEAM"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "PSYCHICFANGS"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "NUZZLE"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "UPROAR"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "ELECTROBALL"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "FIREFANG"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "ICEFANG"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "THUNDERFANG"
-
-[[raw_level_up_moves]]
-at_level = 29
-name = "FLAMEBURST"
-
-[[raw_level_up_moves]]
-at_level = 33
-name = "ROAR"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "SIGNALBEAM"
-
-[[raw_level_up_moves]]
-at_level = 41
-name = "WILDCHARGE"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "CHARGE"
-
-[[raw_level_up_moves]]
-at_level = 55
-name = "SWITCHEROO"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "DISCHARGE"
 
 [base_stats]
 hp = 70
@@ -137,5 +129,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 2
-
-[wild_items]

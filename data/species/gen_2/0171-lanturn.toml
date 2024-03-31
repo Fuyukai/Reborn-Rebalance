@@ -1,3 +1,4 @@
+dex_number = 171
 name = "Lanturn"
 primary_type = "WATER"
 secondary_type = "ELECTRIC"
@@ -6,18 +7,98 @@ growth_rate = "Slow"
 exp_yield = 161
 catch_rate = 75
 caught_happiness = 70
-raw_abilities = ["VOLTABSORB", "ILLUMINATE"]
-raw_egg_moves = []
-raw_tms = [
-    "SURF", "WATERFALL", "TOXIC", "DIVE", "HAIL", "FLASH", "HIDDENPOWER", "ICEBEAM", "BLIZZARD",
-    "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN",
-    "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "ROUND", "SCALD", "CHARGEBEAM", "GIGAIMPACT",
-    "VOLTSWITCH", "THUNDERWAVE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER",
-    "DAZZLINGGLEAM", "CONFIDE", "SCREECH", "WHIRLPOOL", "BRINE", "EERIEIMPULSE", "HYDROPUMP",
-    "AGILITY", "AMNESIA", "ENDURE", "ELECTROBALL", "TRIATTACK",
+raw_abilities = [
+    "VOLTABSORB",
+    "ILLUMINATE",
 ]
-raw_tutor_moves = ["AQUATAIL", "BOUNCE", "HEALBELL", "ICYWIND", "SHOCKWAVE", "SIGNALBEAM", "SNORE", "SUCKERPUNCH", "WATERPULSE", "RISINGVOLTAGE", "MIMIC"]
-compatible_egg_groups = ["Water2"]
+raw_level_up_moves = [
+    { at_level = 1, name = "ELECTROBALL" },
+    { at_level = 1, name = "MIST" },
+    { at_level = 1, name = "SUPERSONIC" },
+    { at_level = 1, name = "WATERGUN" },
+    { at_level = 1, name = "WHIRLPOOL" },
+    { at_level = 4, name = "SPARK" },
+    { at_level = 7, name = "CONFUSERAY" },
+    { at_level = 10, name = "SHOCKWAVE" },
+    { at_level = 13, name = "WATERPULSE" },
+    { at_level = 16, name = "THUNDERWAVE" },
+    { at_level = 19, name = "CHARGEBEAM" },
+    { at_level = 22, name = "BUBBLEBEAM" },
+    { at_level = 25, name = "SIGNALBEAM" },
+    { at_level = 27, name = "CHARGE" },
+    { at_level = 29, name = "PSYBEAM" },
+    { at_level = 32, name = "AQUARING" },
+    { at_level = 35, name = "SOAK" },
+    { at_level = 38, name = "AMNESIA" },
+    { at_level = 41, name = "MUDDYWATER" },
+    { at_level = 44, name = "HEALBELL" },
+    { at_level = 48, name = "DISCHARGE" },
+    { at_level = 52, name = "TAKEDOWN" },
+    { at_level = 56, name = "AGILITY" },
+    { at_level = 60, name = "HYDROPUMP" },
+    { at_level = 64, name = "TAILGLOW" },
+]
+raw_tms = [
+    "SURF",
+    "WATERFALL",
+    "TOXIC",
+    "DIVE",
+    "HAIL",
+    "FLASH",
+    "HIDDENPOWER",
+    "ICEBEAM",
+    "BLIZZARD",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "THUNDERBOLT",
+    "THUNDER",
+    "RETURN",
+    "DOUBLETEAM",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "SCALD",
+    "CHARGEBEAM",
+    "GIGAIMPACT",
+    "VOLTSWITCH",
+    "THUNDERWAVE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "WILDCHARGE",
+    "SECRETPOWER",
+    "DAZZLINGGLEAM",
+    "CONFIDE",
+    "SCREECH",
+    "WHIRLPOOL",
+    "BRINE",
+    "EERIEIMPULSE",
+    "HYDROPUMP",
+    "AGILITY",
+    "AMNESIA",
+    "TRIATTACK",
+    "ENDURE",
+    "ELECTROBALL",
+]
+raw_tutor_moves = [
+    "AQUATAIL",
+    "BOUNCE",
+    "HEALBELL",
+    "ICYWIND",
+    "MIMIC",
+    "RISINGVOLTAGE",
+    "SHOCKWAVE",
+    "SIGNALBEAM",
+    "SNORE",
+    "SUCKERPUNCH",
+    "WATERPULSE",
+]
+compatible_egg_groups = [
+    "Water2",
+]
 steps_to_hatch = 5355
 height = 1.2
 weight = 22.5
@@ -27,112 +108,8 @@ pokedex_entry = "The light-emitting orbs on its back are very bright. They are f
 battler_player_y = 27
 battler_enemy_y = 18
 battler_altitude = 11
-evolutions = []
-form_names = []
-dex_number = 171
-internal_name = "LANTURN"
 raw_hidden_ability = "WATERABSORB"
 habitat = "Sea"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ELECTROBALL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "MIST"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SUPERSONIC"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WATERGUN"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WHIRLPOOL"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "SPARK"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "CONFUSERAY"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "SHOCKWAVE"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "WATERPULSE"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "THUNDERWAVE"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "CHARGEBEAM"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "BUBBLEBEAM"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "SIGNALBEAM"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "CHARGE"
-
-[[raw_level_up_moves]]
-at_level = 29
-name = "PSYBEAM"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "AQUARING"
-
-[[raw_level_up_moves]]
-at_level = 35
-name = "SOAK"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "AMNESIA"
-
-[[raw_level_up_moves]]
-at_level = 41
-name = "MUDDYWATER"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "HEALBELL"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "DISCHARGE"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "TAKEDOWN"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "AGILITY"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "HYDROPUMP"
-
-[[raw_level_up_moves]]
-at_level = 64
-name = "TAILGLOW"
 
 [base_stats]
 hp = 125

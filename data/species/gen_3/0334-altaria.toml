@@ -1,3 +1,4 @@
+dex_number = 334
 name = "Altaria"
 primary_type = "DRAGON"
 secondary_type = "FAIRY"
@@ -6,11 +7,117 @@ growth_rate = "Erratic"
 exp_yield = 172
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["NATURALCURE", "CLOUDNINE"]
-raw_egg_moves = []
-raw_tms = ["DRAGONCLAW", "FLY", "ROAR", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "HYPERBEAM", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "FLAMETHROWER", "FIREBLAST", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "STEELWING", "FALSESWIPE", "GIGAIMPACT", "PSYCHUP", "BULLDOZE", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "DAZZLINGGLEAM", "CONFIDE", "FIRESPIN", "POWERSWAP", "BREAKINGSWIPE", "BODYSLAM", "HURRICANE", "AGILITY", "ENDURE", "DRAGONDANCE", "PLAYROUGH", "SNOWSCAPE", "TRAILBLAZE", "SWIFT", "FIREBLAST"]
-raw_tutor_moves = ["AIRCUTTER", "DEFOG", "DRACOMETEOR", "DRAGONPULSE", "HEALBELL", "HEATWAVE", "HYPERVOICE", "IRONTAIL", "MUDSLAP", "OMINOUSWIND", "OUTRAGE", "SKYATTACK", "SNORE", "TAILWIND", "TWISTER", "UPROAR", "WONDERROOM", "DUALWINGBEAT", "MIMIC"]
-compatible_egg_groups = ["Flying", "Dragon"]
+raw_abilities = [
+    "NATURALCURE",
+    "CLOUDNINE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "HEALBELL" },
+    { at_level = 1, name = "MIRRORMOVE" },
+    { at_level = 1, name = "OMINOUSWIND" },
+    { at_level = 1, name = "PLAYROUGH" },
+    { at_level = 1, name = "DRAGONRUSH" },
+    { at_level = 7, name = "REFRESH" },
+    { at_level = 10, name = "FURYATTACK" },
+    { at_level = 13, name = "FIRESPIN" },
+    { at_level = 16, name = "HAZE" },
+    { at_level = 19, name = "TWISTER" },
+    { at_level = 22, name = "AGILITY" },
+    { at_level = 25, name = "SING" },
+    { at_level = 28, name = "AIRCUTTER" },
+    { at_level = 31, name = "DISARMINGVOICE" },
+    { at_level = 34, name = "DUALWINGBEAT" },
+    { at_level = 35, name = "BREAKINGSWIPE" },
+    { at_level = 38, name = "DRAGONBREATH" },
+    { at_level = 41, name = "COTTONGUARD" },
+    { at_level = 44, name = "DRAGONPULSE" },
+    { at_level = 47, name = "FEATHERDANCE" },
+    { at_level = 50, name = "MOONBLAST" },
+    { at_level = 54, name = "DRAGONDANCE" },
+    { at_level = 58, name = "TAILWIND" },
+    { at_level = 63, name = "PERISHSONG" },
+    { at_level = 67, name = "SKYATTACK" },
+]
+raw_tms = [
+    "DRAGONCLAW",
+    "FLY",
+    "ROAR",
+    "TOXIC",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "ICEBEAM",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "ROOST",
+    "ROOST",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "EARTHQUAKE",
+    "RETURN",
+    "DOUBLETEAM",
+    "FLAMETHROWER",
+    "FIREBLAST",
+    "FIREBLAST",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "ECHOEDVOICE",
+    "STEELWING",
+    "FALSESWIPE",
+    "GIGAIMPACT",
+    "PSYCHUP",
+    "BULLDOZE",
+    "DREAMEATER",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "DAZZLINGGLEAM",
+    "CONFIDE",
+    "FIRESPIN",
+    "POWERSWAP",
+    "BREAKINGSWIPE",
+    "BODYSLAM",
+    "HURRICANE",
+    "AGILITY",
+    "ENDURE",
+    "DRAGONDANCE",
+    "PLAYROUGH",
+    "SNOWSCAPE",
+    "TRAILBLAZE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AIRCUTTER",
+    "DEFOG",
+    "DRACOMETEOR",
+    "DRAGONPULSE",
+    "DUALWINGBEAT",
+    "HEALBELL",
+    "HEATWAVE",
+    "HYPERVOICE",
+    "IRONTAIL",
+    "MIMIC",
+    "MUDSLAP",
+    "OMINOUSWIND",
+    "OUTRAGE",
+    "SKYATTACK",
+    "SNORE",
+    "TAILWIND",
+    "TWISTER",
+    "UPROAR",
+    "WONDERROOM",
+]
+compatible_egg_groups = [
+    "Flying",
+    "Dragon",
+]
 steps_to_hatch = 5355
 height = 1.1
 weight = 20.6
@@ -20,111 +127,7 @@ pokedex_entry = "It flies gracefully through the sky. Its melodic humming makes 
 battler_player_y = 12
 battler_enemy_y = 14
 battler_altitude = 15
-evolutions = []
-form_names = []
-dex_number = 334
-internal_name = "ALTARIA"
 habitat = "Forest"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HEALBELL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "MIRRORMOVE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "OMINOUSWIND"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "PLAYROUGH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "DRAGONRUSH"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "REFRESH"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "FURYATTACK"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "FIRESPIN"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "HAZE"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "TWISTER"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "AGILITY"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "SING"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "AIRCUTTER"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "DISARMINGVOICE"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "DUALWINGBEAT"
-
-[[raw_level_up_moves]]
-at_level = 35
-name = "BREAKINGSWIPE"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "DRAGONBREATH"
-
-[[raw_level_up_moves]]
-at_level = 41
-name = "COTTONGUARD"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "DRAGONPULSE"
-
-[[raw_level_up_moves]]
-at_level = 47
-name = "FEATHERDANCE"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "MOONBLAST"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "DRAGONDANCE"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "TAILWIND"
-
-[[raw_level_up_moves]]
-at_level = 63
-name = "PERISHSONG"
-
-[[raw_level_up_moves]]
-at_level = 67
-name = "SKYATTACK"
 
 [base_stats]
 hp = 95
@@ -141,5 +144,3 @@ def_ = 0
 spa = 0
 spd = 2
 spe = 0
-
-[wild_items]

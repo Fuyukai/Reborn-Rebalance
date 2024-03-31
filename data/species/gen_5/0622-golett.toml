@@ -1,3 +1,4 @@
+dex_number = 622
 name = "Golett"
 primary_type = "GROUND"
 secondary_type = "GHOST"
@@ -6,11 +7,106 @@ growth_rate = "Medium"
 exp_yield = 61
 catch_rate = 190
 caught_happiness = 70
-raw_abilities = ["IRONFIST", "KLUTZ"]
-raw_egg_moves = []
-raw_tms = ["STRENGTH", "TOXIC", "ROCKSMASH", "FLASH", "HIDDENPOWER", "ICEBEAM", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "EARTHQUAKE", "RETURN", "PSYCHIC", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "ROCKTOMB", "FACADE", "REST", "THIEF", "LOWSWEEP", "ROUND", "FOCUSBLAST", "FLING", "ROCKPOLISH", "GYROBALL", "BULLDOZE", "ROCKSLIDE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "SELFDESTRUCT", "IMPRISON", "PHANTOMFORCE", "ENDURE", "HEAVYSLAM"]
-raw_tutor_moves = ["ALLYSWITCH", "BLOCK", "DRAINPUNCH", "EARTHPOWER", "FIREPUNCH", "FOCUSPUNCH", "GRAVITY", "HELPINGHAND", "ICEPUNCH", "ICYWIND", "IRONDEFENSE", "LOWKICK", "MAGICCOAT", "MUDSLAP", "SHOCKWAVE", "SIGNALBEAM", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "SUPERPOWER", "TELEKINESIS", "THUNDERPUNCH", "SCORCHINGSANDS", "POLTERGEIST", "MIMIC"]
-compatible_egg_groups = ["Mineral"]
+raw_abilities = [
+    "IRONFIST",
+    "KLUTZ",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "ASTONISH" },
+    { at_level = 1, name = "MUDSLAP" },
+    { at_level = 1, name = "POUND" },
+    { at_level = 4, name = "CURSE" },
+    { at_level = 7, name = "FLING" },
+    { at_level = 10, name = "ROLLOUT" },
+    { at_level = 13, name = "DEFENSECURL" },
+    { at_level = 16, name = "SHADOWSNEAK" },
+    { at_level = 19, name = "MAGNITUDE" },
+    { at_level = 22, name = "NIGHTSHADE" },
+    { at_level = 25, name = "MUDBOMB" },
+    { at_level = 28, name = "IRONDEFENSE" },
+    { at_level = 32, name = "SCORCHINGSANDS" },
+    { at_level = 36, name = "SHADOWBALL" },
+    { at_level = 40, name = "HEAVYSLAM" },
+    { at_level = 44, name = "DRAINPUNCH" },
+    { at_level = 48, name = "HAMMERARM" },
+    { at_level = 52, name = "DYNAMICPUNCH" },
+    { at_level = 56, name = "SHADOWPUNCH" },
+]
+raw_tms = [
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "FLASH",
+    "HIDDENPOWER",
+    "ICEBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "EARTHQUAKE",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "ROCKTOMB",
+    "FACADE",
+    "REST",
+    "THIEF",
+    "LOWSWEEP",
+    "ROUND",
+    "FOCUSBLAST",
+    "FLING",
+    "ROCKPOLISH",
+    "GYROBALL",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "DIG",
+    "SELFDESTRUCT",
+    "IMPRISON",
+    "PHANTOMFORCE",
+    "ENDURE",
+    "HEAVYSLAM",
+]
+raw_tutor_moves = [
+    "ALLYSWITCH",
+    "BLOCK",
+    "DRAINPUNCH",
+    "EARTHPOWER",
+    "FIREPUNCH",
+    "FOCUSPUNCH",
+    "GRAVITY",
+    "HELPINGHAND",
+    "ICEPUNCH",
+    "ICYWIND",
+    "IRONDEFENSE",
+    "LOWKICK",
+    "MAGICCOAT",
+    "MIMIC",
+    "MUDSLAP",
+    "POLTERGEIST",
+    "SCORCHINGSANDS",
+    "SHOCKWAVE",
+    "SIGNALBEAM",
+    "SNORE",
+    "STEALTHROCK",
+    "STOMPINGTANTRUM",
+    "SUPERPOWER",
+    "TELEKINESIS",
+    "THUNDERPUNCH",
+]
+compatible_egg_groups = [
+    "Mineral",
+]
 steps_to_hatch = 6400
 height = 1.0
 weight = 92.0
@@ -20,93 +116,10 @@ pokedex_entry = "These Pokémon are thought to have been created by the science 
 battler_player_y = 18
 battler_enemy_y = 24
 battler_altitude = 0
-form_names = []
-dex_number = 622
-internal_name = "GOLETT"
 raw_hidden_ability = "NOGUARD"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ASTONISH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "MUDSLAP"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "POUND"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "CURSE"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "FLING"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "ROLLOUT"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "DEFENSECURL"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "SHADOWSNEAK"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "MAGNITUDE"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "NIGHTSHADE"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "MUDBOMB"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "IRONDEFENSE"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "SCORCHINGSANDS"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "SHADOWBALL"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "HEAVYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "DRAINPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "HAMMERARM"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "DYNAMICPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "SHADOWPUNCH"
-
-[[evolutions]]
-into_name = "GOLURK"
-condition = "Level"
-parameter = "40"
-
-
+evolutions = [
+    { into_name = "GOLURK", condition = "Level", parameter = "40" },
+]
 
 [base_stats]
 hp = 59

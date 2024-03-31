@@ -1,3 +1,4 @@
+dex_number = 495
 name = "Snivy"
 primary_type = "GRASS"
 secondary_type = "GRASS"
@@ -6,11 +7,89 @@ growth_rate = "Parabolic"
 exp_yield = 62
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["OVERGROW", "SHEDSKIN", "CONTRARY"]
-raw_egg_moves = ["CAPTIVATE", "GLARE", "GRASSYTERRAIN", "IRONTAIL", "MAGICALLEAF", "MEANLOOK", "MIRRORCOAT", "NATURALGIFT", "PURSUIT", "SWEETSCENT", "TWISTER"]
-raw_tms = ["WORKUP", "CUT", "CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "LIGHTSCREEN", "PROTECT", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "REFLECT", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "SWORDSDANCE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "MAGICALLEAF", "LEAFBLADE", "GRASSYTERRAIN", "LEAFSTORM", "ENDURE"]
-raw_tutor_moves = ["AQUATAIL", "BIND", "DEFOG", "GASTROACID", "GIGADRAIN", "GRASSPLEDGE", "IRONTAIL", "KNOCKOFF", "SEEDBOMB", "SNATCH", "SNORE", "SYNTHESIS", "WORRYSEED", "MIMIC"]
-compatible_egg_groups = ["Field", "Grass"]
+raw_abilities = [
+    "OVERGROW",
+    "SHEDSKIN",
+    "CONTRARY",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "WRAP" },
+    { at_level = 1, name = "LEER" },
+    { at_level = 5, name = "VINEWHIP" },
+    { at_level = 7, name = "TWISTER" },
+    { at_level = 10, name = "LEECHSEED" },
+    { at_level = 13, name = "LEAFTORNADO" },
+    { at_level = 16, name = "WORRYSEED" },
+    { at_level = 19, name = "CAPTIVATE" },
+    { at_level = 22, name = "GLARE" },
+    { at_level = 25, name = "MIRRORCOAT" },
+    { at_level = 28, name = "DRAGONRAGE" },
+    { at_level = 31, name = "BODYSLAM" },
+    { at_level = 34, name = "NATURALGIFT" },
+    { at_level = 37, name = "LEAFBLADE" },
+    { at_level = 40, name = "GASTROACID" },
+    { at_level = 43, name = "SYNTHESIS" },
+    { at_level = 46, name = "PSYCHOCUT" },
+    { at_level = 49, name = "WRINGOUT" },
+]
+raw_tms = [
+    "WORKUP",
+    "CUT",
+    "CALMMIND",
+    "TOXIC",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "DOUBLETEAM",
+    "REFLECT",
+    "AERIALACE",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ENERGYBALL",
+    "SWORDSDANCE",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "NATUREPOWER",
+    "CONFIDE",
+    "MAGICALLEAF",
+    "LEAFBLADE",
+    "GRASSYTERRAIN",
+    "LEAFSTORM",
+    "ENDURE",
+]
+raw_tutor_moves = [
+    "AQUATAIL",
+    "BIND",
+    "DEFOG",
+    "GASTROACID",
+    "GIGADRAIN",
+    "GRASSPLEDGE",
+    "IRONTAIL",
+    "KNOCKOFF",
+    "MIMIC",
+    "SEEDBOMB",
+    "SNATCH",
+    "SNORE",
+    "SYNTHESIS",
+    "WORRYSEED",
+]
+compatible_egg_groups = [
+    "Field",
+    "Grass",
+]
 steps_to_hatch = 5120
 height = 0.6
 weight = 8.1
@@ -20,88 +99,22 @@ pokedex_entry = "They photosynthesize by bathing their tails in sunlight. When t
 battler_player_y = 29
 battler_enemy_y = 33
 battler_altitude = 0
-form_names = []
-dex_number = 495
-internal_name = "SNIVY"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WRAP"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 5
-name = "VINEWHIP"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "TWISTER"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "LEECHSEED"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "LEAFTORNADO"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "WORRYSEED"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "CAPTIVATE"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "GLARE"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "MIRRORCOAT"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "DRAGONRAGE"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "NATURALGIFT"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "LEAFBLADE"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "GASTROACID"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "SYNTHESIS"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "PSYCHOCUT"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "WRINGOUT"
-
-[[evolutions]]
-into_name = "SERVINE"
-condition = "Level"
-parameter = "17"
-
-
+raw_egg_moves = [
+    "CAPTIVATE",
+    "GLARE",
+    "GRASSYTERRAIN",
+    "IRONTAIL",
+    "MAGICALLEAF",
+    "MEANLOOK",
+    "MIRRORCOAT",
+    "NATURALGIFT",
+    "PURSUIT",
+    "SWEETSCENT",
+    "TWISTER",
+]
+evolutions = [
+    { into_name = "SERVINE", condition = "Level", parameter = "17" },
+]
 
 [base_stats]
 hp = 45
@@ -118,5 +131,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 1
-
-[wild_items]

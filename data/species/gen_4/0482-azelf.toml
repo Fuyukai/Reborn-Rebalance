@@ -1,3 +1,4 @@
+dex_number = 482
 name = "Azelf"
 primary_type = "PSYCHIC"
 secondary_type = "FAIRY"
@@ -6,11 +7,126 @@ growth_rate = "Slow"
 exp_yield = 261
 catch_rate = 3
 caught_happiness = 140
-raw_abilities = ["LEVITATE"]
-raw_egg_moves = []
-raw_tms = ["PSYSHOCK", "CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "SANDSTORM", "FIREBLAST", "TORMENT", "FACADE", "REST", "ROUND", "ENERGYBALL", "FLING", "CHARGEBEAM", "ACROBATICS", "EXPLOSION", "PAYBACK", "GIGAIMPACT", "THUNDERWAVE", "PSYCHUP", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "POWERUPPUNCH", "DAZZLINGGLEAM", "CONFIDE", "SELFDESTRUCT", "IMPRISON", "ASSURANCE", "PSYCHOCUT", "DRAININGKISS", "METRONOME", "TRIATTACK", "ENDURE", "BATONPASS", "ENCORE", "FUTURESIGHT", "NASTYPLOT", "STOREDPOWER", "PLAYROUGH", "SWIFT"]
-raw_tutor_moves = ["ALLYSWITCH", "DRAINPUNCH", "FIREPUNCH", "HEADBUTT", "HELPINGHAND", "ICEPUNCH", "IRONTAIL", "KNOCKOFF", "LASERFOCUS", "LASTRESORT", "MAGICCOAT", "MAGICROOM", "MUDSLAP", "RECYCLE", "ROLEPLAY", "SHOCKWAVE", "SIGNALBEAM", "SKILLSWAP", "SNORE", "STEALTHROCK", "TELEKINESIS", "THUNDERPUNCH", "TRICK", "UPROAR", "WATERPULSE", "WONDERROOM", "ZENHEADBUTT", "EXPANDINGFORCE", "MYSTICALPOWER", "POWERSHIFT", "MIMIC"]
-compatible_egg_groups = ["Undiscovered"]
+raw_abilities = [
+    "LEVITATE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "MOONBLAST" },
+    { at_level = 1, name = "EXPLOSION" },
+    { at_level = 1, name = "CONFUSION" },
+    { at_level = 6, name = "IMPRISON" },
+    { at_level = 10, name = "DETECT" },
+    { at_level = 14, name = "SWIFT" },
+    { at_level = 18, name = "UPROAR" },
+    { at_level = 22, name = "FUTURESIGHT" },
+    { at_level = 26, name = "ZENHEADBUTT" },
+    { at_level = 30, name = "NATURALGIFT" },
+    { at_level = 34, name = "LASTRESORT" },
+    { at_level = 38, name = "EXTRASENSORY" },
+    { at_level = 42, name = "NASTYPLOT" },
+    { at_level = 46, name = "DOUBLEHIT" },
+    { at_level = 50, name = "ESPERWING" },
+]
+raw_tms = [
+    "PSYSHOCK",
+    "CALMMIND",
+    "TOXIC",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "THUNDERBOLT",
+    "THUNDER",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "REFLECT",
+    "FLAMETHROWER",
+    "SANDSTORM",
+    "FIREBLAST",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "ROUND",
+    "ENERGYBALL",
+    "FLING",
+    "CHARGEBEAM",
+    "ACROBATICS",
+    "EXPLOSION",
+    "PAYBACK",
+    "GIGAIMPACT",
+    "THUNDERWAVE",
+    "PSYCHUP",
+    "DREAMEATER",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "TRICKROOM",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "DAZZLINGGLEAM",
+    "CONFIDE",
+    "SELFDESTRUCT",
+    "IMPRISON",
+    "ASSURANCE",
+    "PSYCHOCUT",
+    "DRAININGKISS",
+    "METRONOME",
+    "TRIATTACK",
+    "ENDURE",
+    "BATONPASS",
+    "ENCORE",
+    "FUTURESIGHT",
+    "NASTYPLOT",
+    "STOREDPOWER",
+    "PLAYROUGH",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "ALLYSWITCH",
+    "DRAINPUNCH",
+    "EXPANDINGFORCE",
+    "FIREPUNCH",
+    "HEADBUTT",
+    "HELPINGHAND",
+    "ICEPUNCH",
+    "IRONTAIL",
+    "KNOCKOFF",
+    "LASERFOCUS",
+    "LASTRESORT",
+    "MAGICCOAT",
+    "MAGICROOM",
+    "MIMIC",
+    "MUDSLAP",
+    "MYSTICALPOWER",
+    "POWERSHIFT",
+    "RECYCLE",
+    "ROLEPLAY",
+    "SHOCKWAVE",
+    "SIGNALBEAM",
+    "SKILLSWAP",
+    "SNORE",
+    "STEALTHROCK",
+    "TELEKINESIS",
+    "THUNDERPUNCH",
+    "TRICK",
+    "UPROAR",
+    "WATERPULSE",
+    "WONDERROOM",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Undiscovered",
+]
 steps_to_hatch = 20655
 height = 0.3
 weight = 0.3
@@ -20,70 +136,6 @@ pokedex_entry = "Known as “The Being of Willpower.” It sleeps at the bottom 
 battler_player_y = 28
 battler_enemy_y = 27
 battler_altitude = 20
-evolutions = []
-form_names = []
-dex_number = 482
-internal_name = "AZELF"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "MOONBLAST"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "EXPLOSION"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "CONFUSION"
-
-[[raw_level_up_moves]]
-at_level = 6
-name = "IMPRISON"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "DETECT"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "SWIFT"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "UPROAR"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "FUTURESIGHT"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "ZENHEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "NATURALGIFT"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "LASTRESORT"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "EXTRASENSORY"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "NASTYPLOT"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "DOUBLEHIT"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "ESPERWING"
 
 [base_stats]
 hp = 75
@@ -100,5 +152,3 @@ def_ = 0
 spa = 1
 spd = 0
 spe = 0
-
-[wild_items]

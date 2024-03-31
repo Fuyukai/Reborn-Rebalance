@@ -1,3 +1,4 @@
+dex_number = 799
 name = "Guzzlord"
 primary_type = "DARK"
 secondary_type = "DRAGON"
@@ -6,11 +7,103 @@ growth_rate = "Slow"
 exp_yield = 257
 catch_rate = 15
 caught_happiness = 0
-raw_abilities = ["BEASTBOOST"]
-raw_egg_moves = []
-raw_tms = ["DRAGONCLAW", "TOXIC", "HIDDENPOWER", "HYPERBEAM", "PROTECT", "FRUSTRATION", "SMACKDOWN", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "SLUDGEWAVE", "FLAMETHROWER", "SLUDGEBOMB", "FIREBLAST", "ROCKTOMB", "FACADE", "REST", "THIEF", "ROUND", "FLING", "BRUTALSWING", "SHADOWCLAW", "PAYBACK", "GIGAIMPACT", "STONEEDGE", "GYROBALL", "BULLDOZE", "ROCKSLIDE", "DRAGONTAIL", "POISONJAB", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "SNARL", "DARKPULSE", "MEGAPUNCH", "MEGAKICK", "CRUNCH", "BODYSLAM", "AMNESIA", "ENDURE", "HEATCRASH", "HEAVYSLAM", "HIGHHORSEPOWER", "BODYPRESS"]
-raw_tutor_moves = ["DRACOMETEOR", "DRAGONPULSE", "DRAINPUNCH", "DUALCHOP", "GASTROACID", "HEATWAVE", "IRONDEFENSE", "IRONHEAD", "IRONTAIL", "KNOCKOFF", "LASTRESORT", "MAGNETRISE", "OUTRAGE", "SHOCKWAVE", "SNORE", "STOMPINGTANTRUM", "CORROSIVEGAS", "LASHOUT", "STEELROLLER", "MIMIC"]
-compatible_egg_groups = ["Undiscovered"]
+raw_abilities = [
+    "BEASTBOOST",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "BELCH" },
+    { at_level = 1, name = "WIDEGUARD" },
+    { at_level = 1, name = "SWALLOW" },
+    { at_level = 1, name = "STOCKPILE" },
+    { at_level = 1, name = "DRAGONRAGE" },
+    { at_level = 1, name = "BITE" },
+    { at_level = 7, name = "STOMP" },
+    { at_level = 13, name = "BRUTALSWING" },
+    { at_level = 19, name = "STEAMROLLER" },
+    { at_level = 23, name = "DRAGONTAIL" },
+    { at_level = 29, name = "IRONTAIL" },
+    { at_level = 31, name = "STOMPINGTANTRUM" },
+    { at_level = 37, name = "CRUNCH" },
+    { at_level = 43, name = "HAMMERARM" },
+    { at_level = 47, name = "THRASH" },
+    { at_level = 53, name = "GASTROACID" },
+    { at_level = 59, name = "HEAVYSLAM" },
+    { at_level = 67, name = "WRINGOUT" },
+    { at_level = 73, name = "DRAGONRUSH" },
+]
+raw_tms = [
+    "DRAGONCLAW",
+    "TOXIC",
+    "HIDDENPOWER",
+    "HYPERBEAM",
+    "PROTECT",
+    "FRUSTRATION",
+    "SMACKDOWN",
+    "EARTHQUAKE",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "SLUDGEWAVE",
+    "FLAMETHROWER",
+    "SLUDGEBOMB",
+    "FIREBLAST",
+    "ROCKTOMB",
+    "FACADE",
+    "REST",
+    "THIEF",
+    "ROUND",
+    "FLING",
+    "BRUTALSWING",
+    "SHADOWCLAW",
+    "PAYBACK",
+    "GIGAIMPACT",
+    "STONEEDGE",
+    "GYROBALL",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "DRAGONTAIL",
+    "POISONJAB",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "SNARL",
+    "DARKPULSE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "CRUNCH",
+    "BODYSLAM",
+    "AMNESIA",
+    "ENDURE",
+    "HEATCRASH",
+    "HEAVYSLAM",
+    "HIGHHORSEPOWER",
+    "BODYPRESS",
+]
+raw_tutor_moves = [
+    "CORROSIVEGAS",
+    "DRACOMETEOR",
+    "DRAGONPULSE",
+    "DRAINPUNCH",
+    "DUALCHOP",
+    "GASTROACID",
+    "HEATWAVE",
+    "IRONDEFENSE",
+    "IRONHEAD",
+    "IRONTAIL",
+    "KNOCKOFF",
+    "LASHOUT",
+    "LASTRESORT",
+    "MAGNETRISE",
+    "MIMIC",
+    "OUTRAGE",
+    "SHOCKWAVE",
+    "SNORE",
+    "STEELROLLER",
+    "STOMPINGTANTRUM",
+]
+compatible_egg_groups = [
+    "Undiscovered",
+]
 steps_to_hatch = 30720
 height = 5.5
 weight = 888.0
@@ -20,86 +113,6 @@ pokedex_entry = "A dangerous Ultra Beast, it appears to be eating constantly, bu
 battler_player_y = 4
 battler_enemy_y = 11
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 799
-internal_name = "GUZZLORD"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BELCH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WIDEGUARD"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SWALLOW"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "STOCKPILE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "DRAGONRAGE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "STOMP"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "BRUTALSWING"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "STEAMROLLER"
-
-[[raw_level_up_moves]]
-at_level = 23
-name = "DRAGONTAIL"
-
-[[raw_level_up_moves]]
-at_level = 29
-name = "IRONTAIL"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "STOMPINGTANTRUM"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "HAMMERARM"
-
-[[raw_level_up_moves]]
-at_level = 47
-name = "THRASH"
-
-[[raw_level_up_moves]]
-at_level = 53
-name = "GASTROACID"
-
-[[raw_level_up_moves]]
-at_level = 59
-name = "HEAVYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 67
-name = "WRINGOUT"
-
-[[raw_level_up_moves]]
-at_level = 73
-name = "DRAGONRUSH"
 
 [base_stats]
 hp = 223
@@ -116,5 +129,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

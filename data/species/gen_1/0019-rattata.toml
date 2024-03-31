@@ -1,3 +1,4 @@
+dex_number = 19
 name = "Rattata"
 primary_type = "NORMAL"
 secondary_type = "NORMAL"
@@ -6,19 +7,107 @@ growth_rate = "Medium"
 exp_yield = 51
 catch_rate = 255
 caught_happiness = 70
-raw_abilities = ["HUSTLE", "RUNAWAY", "GUTS"]
-raw_egg_moves = ["BITE", "COUNTER", "FINALGAMBIT", "FLAMEWHEEL", "FURYSWIPES", "LASTRESORT", "MEFIRST", "REVENGE", "REVERSAL", "SCREECH", "UPROAR"]
-raw_tms = [
-    "WORKUP", "CUT", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "ICEBEAM",
-    "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN",
-    "SHADOWBALL", "DOUBLETEAM", "SLUDGEBOMB", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF",
-    "ROUND", "CHARGEBEAM", "QUASH", "EMBARGO", "SHADOWCLAW", "THUNDERWAVE", "GRASSKNOT",
-    "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "SNARL",
-    "DARKPULSE", "CONFIDE", "DIG", "SCREECH", "BEATUP", "REVENGE", "ASSURANCE", "CRUNCH",
-    "BODYSLAM", "FOCUSENERGY", "REVERSAL", "ENDURE", "RETALIATE", "SWIFT"
+raw_abilities = [
+    "HUSTLE",
+    "RUNAWAY",
+    "GUTS",
 ]
-raw_tutor_moves = ["COVET", "ENDEAVOR", "HEADBUTT", "ICYWIND", "IRONTAIL", "LASTRESORT", "MUDSLAP", "SHOCKWAVE", "SNATCH", "SNORE", "SUCKERPUNCH", "SUPERFANG", "UPROAR", "ZENHEADBUTT", "MIMIC"]
-compatible_egg_groups = ["Field"]
+raw_level_up_moves = [
+    { at_level = 1, name = "BITE" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 4, name = "FOCUSENERGY" },
+    { at_level = 7, name = "SCREECH" },
+    { at_level = 10, name = "QUICKATTACK" },
+    { at_level = 13, name = "HONECLAWS" },
+    { at_level = 16, name = "ASSURANCE" },
+    { at_level = 19, name = "FURYSWIPES" },
+    { at_level = 22, name = "ENDEAVOR" },
+    { at_level = 25, name = "FIREFANG" },
+    { at_level = 25, name = "ICEFANG" },
+    { at_level = 25, name = "THUNDERFANG" },
+    { at_level = 28, name = "HYPERFANG" },
+    { at_level = 31, name = "CRUNCH" },
+    { at_level = 34, name = "FLAMEWHEEL" },
+    { at_level = 38, name = "ZENHEADBUTT" },
+    { at_level = 42, name = "REVERSAL" },
+    { at_level = 46, name = "SUCKERPUNCH" },
+    { at_level = 50, name = "DOUBLEEDGE" },
+    { at_level = 54, name = "LASTRESORT" },
+    { at_level = 58, name = "FINALGAMBIT" },
+]
+raw_tms = [
+    "WORKUP",
+    "CUT",
+    "TOXIC",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "ICEBEAM",
+    "BLIZZARD",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "THUNDERBOLT",
+    "THUNDER",
+    "RETURN",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "SLUDGEBOMB",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "CHARGEBEAM",
+    "QUASH",
+    "EMBARGO",
+    "SHADOWCLAW",
+    "THUNDERWAVE",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "WILDCHARGE",
+    "SECRETPOWER",
+    "SNARL",
+    "DARKPULSE",
+    "CONFIDE",
+    "DIG",
+    "SCREECH",
+    "BEATUP",
+    "REVENGE",
+    "ASSURANCE",
+    "CRUNCH",
+    "BODYSLAM",
+    "FOCUSENERGY",
+    "REVERSAL",
+    "ENDURE",
+    "RETALIATE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "COVET",
+    "ENDEAVOR",
+    "HEADBUTT",
+    "ICYWIND",
+    "IRONTAIL",
+    "LASTRESORT",
+    "MIMIC",
+    "MUDSLAP",
+    "SHOCKWAVE",
+    "SNATCH",
+    "SNORE",
+    "SUCKERPUNCH",
+    "SUPERFANG",
+    "UPROAR",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Field",
+]
 steps_to_hatch = 4080
 height = 0.3
 weight = 3.5
@@ -28,99 +117,27 @@ pokedex_entry = "A Rattata is cautious in the extreme. Even while it is asleep, 
 battler_player_y = 30
 battler_enemy_y = 22
 battler_altitude = 0
-form_names = ["Normal", "Alternate"]
-dex_number = 19
-internal_name = "RATTATA"
+raw_egg_moves = [
+    "BITE",
+    "COUNTER",
+    "FINALGAMBIT",
+    "FLAMEWHEEL",
+    "FURYSWIPES",
+    "LASTRESORT",
+    "MEFIRST",
+    "REVENGE",
+    "REVERSAL",
+    "SCREECH",
+    "UPROAR",
+]
 habitat = "Grassland"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "FOCUSENERGY"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "SCREECH"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "QUICKATTACK"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "HONECLAWS"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "ASSURANCE"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "FURYSWIPES"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "ENDEAVOR"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "FIREFANG"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "ICEFANG"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "THUNDERFANG"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "HYPERFANG"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "FLAMEWHEEL"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "ZENHEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "REVERSAL"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "SUCKERPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "DOUBLEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "LASTRESORT"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "FINALGAMBIT"
-
-[[evolutions]]
-into_name = "RATICATE"
-condition = "Level"
-parameter = "20"
+evolutions = [
+    { into_name = "RATICATE", condition = "Level", parameter = "20" },
+]
+form_names = [
+    "Normal",
+    "Alternate",
+]
 
 [base_stats]
 hp = 30
@@ -137,5 +154,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 1
-
-[wild_items]

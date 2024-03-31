@@ -1,3 +1,4 @@
+dex_number = 574
 name = "Gothita"
 primary_type = "PSYCHIC"
 secondary_type = "PSYCHIC"
@@ -6,11 +7,109 @@ growth_rate = "Parabolic"
 exp_yield = 58
 catch_rate = 200
 caught_happiness = 70
-raw_abilities = ["FRISK", "COMPETITIVE"]
-raw_egg_moves = ["CAPTIVATE", "DARKPULSE", "HEALPULSE", "MEANLOOK", "MIRACLEEYE", "MIRRORCOAT", "UPROAR"]
-raw_tms = ["PSYSHOCK", "CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "TAUNT", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "THUNDERBOLT", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "ROCKTOMB", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ENERGYBALL", "FLING", "CHARGEBEAM", "EMBARGO", "PAYBACK", "THUNDERWAVE", "PSYCHUP", "ROCKSLIDE", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "DARKPULSE", "CONFIDE", "CHARM", "FAKETEARS", "POWERSWAP", "GUARDSWAP", "ENDURE", "FUTURESIGHT", "NASTYPLOT", "STOREDPOWER", "WILLOWISP"]
-raw_tutor_moves = ["ALLYSWITCH", "COVET", "FOULPLAY", "GRAVITY", "HEALBELL", "HELPINGHAND", "MAGICCOAT", "MAGICROOM", "RECYCLE", "ROLEPLAY", "SHOCKWAVE", "SIGNALBEAM", "SKILLSWAP", "SNATCH", "SNORE", "TELEKINESIS", "TRICK", "UPROAR", "ZENHEADBUTT", "EXPANDINGFORCE", "MIMIC"]
-compatible_egg_groups = ["Humanlike"]
+raw_abilities = [
+    "FRISK",
+    "COMPETITIVE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "CONFUSION" },
+    { at_level = 1, name = "POUND" },
+    { at_level = 4, name = "TORMENT" },
+    { at_level = 7, name = "TICKLE" },
+    { at_level = 10, name = "MEANLOOK" },
+    { at_level = 13, name = "STOREDPOWER" },
+    { at_level = 16, name = "CHARM" },
+    { at_level = 19, name = "PAYBACK" },
+    { at_level = 22, name = "PSYBEAM" },
+    { at_level = 25, name = "HYPNOSIS" },
+    { at_level = 28, name = "FAKETEARS" },
+    { at_level = 31, name = "HELPINGHAND" },
+    { at_level = 34, name = "FEINTATTACK" },
+    { at_level = 37, name = "MAGICROOM" },
+    { at_level = 41, name = "FUTURESIGHT" },
+    { at_level = 45, name = "HEALPULSE" },
+    { at_level = 49, name = "DARKPULSE" },
+    { at_level = 53, name = "HEALBLOCK" },
+    { at_level = 57, name = "NIGHTDAZE" },
+]
+raw_tms = [
+    "PSYSHOCK",
+    "CALMMIND",
+    "TOXIC",
+    "FLASH",
+    "HIDDENPOWER",
+    "TAUNT",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "THUNDERBOLT",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "REFLECT",
+    "ROCKTOMB",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "ENERGYBALL",
+    "FLING",
+    "CHARGEBEAM",
+    "WILLOWISP",
+    "EMBARGO",
+    "PAYBACK",
+    "THUNDERWAVE",
+    "PSYCHUP",
+    "ROCKSLIDE",
+    "DREAMEATER",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "TRICKROOM",
+    "SECRETPOWER",
+    "DARKPULSE",
+    "CONFIDE",
+    "CHARM",
+    "FAKETEARS",
+    "POWERSWAP",
+    "GUARDSWAP",
+    "ENDURE",
+    "FUTURESIGHT",
+    "NASTYPLOT",
+    "STOREDPOWER",
+]
+raw_tutor_moves = [
+    "ALLYSWITCH",
+    "COVET",
+    "EXPANDINGFORCE",
+    "FOULPLAY",
+    "GRAVITY",
+    "HEALBELL",
+    "HELPINGHAND",
+    "MAGICCOAT",
+    "MAGICROOM",
+    "MIMIC",
+    "RECYCLE",
+    "ROLEPLAY",
+    "SHOCKWAVE",
+    "SIGNALBEAM",
+    "SKILLSWAP",
+    "SNATCH",
+    "SNORE",
+    "TELEKINESIS",
+    "TRICK",
+    "UPROAR",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Humanlike",
+]
 steps_to_hatch = 5120
 height = 0.4
 weight = 5.8
@@ -20,93 +119,19 @@ pokedex_entry = "They intently observe both Trainers and Pokémon. Apparently, t
 battler_player_y = 28
 battler_enemy_y = 31
 battler_altitude = 0
-form_names = []
-dex_number = 574
-internal_name = "GOTHITA"
 raw_hidden_ability = "SHADOWTAG"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "CONFUSION"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "POUND"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "TORMENT"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "TICKLE"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "MEANLOOK"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "STOREDPOWER"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "CHARM"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "PAYBACK"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "PSYBEAM"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "HYPNOSIS"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "FAKETEARS"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "HELPINGHAND"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "FEINTATTACK"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "MAGICROOM"
-
-[[raw_level_up_moves]]
-at_level = 41
-name = "FUTURESIGHT"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "HEALPULSE"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "DARKPULSE"
-
-[[raw_level_up_moves]]
-at_level = 53
-name = "HEALBLOCK"
-
-[[raw_level_up_moves]]
-at_level = 57
-name = "NIGHTDAZE"
-
-[[evolutions]]
-into_name = "GOTHORITA"
-condition = "Level"
-parameter = "30"
-
-
+raw_egg_moves = [
+    "CAPTIVATE",
+    "DARKPULSE",
+    "HEALPULSE",
+    "MEANLOOK",
+    "MIRACLEEYE",
+    "MIRRORCOAT",
+    "UPROAR",
+]
+evolutions = [
+    { into_name = "GOTHORITA", condition = "Level", parameter = "30" },
+]
 
 [base_stats]
 hp = 45
@@ -123,5 +148,3 @@ def_ = 0
 spa = 0
 spd = 1
 spe = 0
-
-[wild_items]

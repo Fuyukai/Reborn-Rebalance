@@ -1,3 +1,4 @@
+dex_number = 595
 name = "Joltik"
 primary_type = "BUG"
 secondary_type = "ELECTRIC"
@@ -6,11 +7,97 @@ growth_rate = "Medium"
 exp_yield = 64
 catch_rate = 190
 caught_happiness = 70
-raw_abilities = ["COMPOUNDEYES", "UNNERVE"]
-raw_egg_moves = ["CAMOUFLAGE", "CROSSPOISON", "DISABLE", "FEINTATTACK", "LUNGE", "PINMISSILE", "POISONSTING", "PURSUIT", "ROCKCLIMB"]
-raw_tms = ["CUT", "TOXIC", "FLASH", "ROCKCLIMB", "HIDDENPOWER", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "RETURN", "LEECHLIFE", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ENERGYBALL", "CHARGEBEAM", "VOLTSWITCH", "THUNDERWAVE", "STRUGGLEBUG", "XSCISSOR", "INFESTATION", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "CONFIDE", "PINMISSILE", "SCREECH", "SPEEDSWAP", "CROSSPOISON", "AGILITY", "ENDURE", "ELECTROBALL", "SWIFT", "BUGBUZZ"]
-raw_tutor_moves = ["BOUNCE", "BUGBITE", "ELECTROWEB", "FURYCUTTER", "GASTROACID", "GIGADRAIN", "MAGNETRISE", "SHOCKWAVE", "SIGNALBEAM", "SNORE", "SUCKERPUNCH", "RISINGVOLTAGE", "SKITTERSMACK", "MIMIC"]
-compatible_egg_groups = ["Bug"]
+raw_abilities = [
+    "COMPOUNDEYES",
+    "UNNERVE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "ABSORB" },
+    { at_level = 1, name = "INFESTATION" },
+    { at_level = 1, name = "SPIDERWEB" },
+    { at_level = 1, name = "POISONSTING" },
+    { at_level = 4, name = "CAMOUFLAGE" },
+    { at_level = 7, name = "SCREECH" },
+    { at_level = 10, name = "NUZZLE" },
+    { at_level = 13, name = "PURSUIT" },
+    { at_level = 16, name = "PINMISSILE" },
+    { at_level = 19, name = "AGILITY" },
+    { at_level = 22, name = "MEGADRAIN" },
+    { at_level = 25, name = "ELECTROBALL" },
+    { at_level = 28, name = "ELECTROWEB" },
+    { at_level = 31, name = "STRUGGLEBUG" },
+    { at_level = 34, name = "DISABLE" },
+    { at_level = 37, name = "SLASH" },
+    { at_level = 37, name = "NIGHTSLASH" },
+    { at_level = 40, name = "GASTROACID" },
+    { at_level = 44, name = "LUNGE" },
+    { at_level = 48, name = "SUCKERPUNCH" },
+    { at_level = 52, name = "CROSSPOISON" },
+    { at_level = 56, name = "DISCHARGE" },
+    { at_level = 60, name = "LEECHLIFE" },
+]
+raw_tms = [
+    "CUT",
+    "TOXIC",
+    "FLASH",
+    "ROCKCLIMB",
+    "HIDDENPOWER",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "THUNDERBOLT",
+    "RETURN",
+    "LEECHLIFE",
+    "DOUBLETEAM",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "ENERGYBALL",
+    "CHARGEBEAM",
+    "VOLTSWITCH",
+    "THUNDERWAVE",
+    "STRUGGLEBUG",
+    "XSCISSOR",
+    "INFESTATION",
+    "POISONJAB",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "WILDCHARGE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "PINMISSILE",
+    "SCREECH",
+    "SPEEDSWAP",
+    "CROSSPOISON",
+    "AGILITY",
+    "ENDURE",
+    "BUGBUZZ",
+    "ELECTROBALL",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "BOUNCE",
+    "BUGBITE",
+    "ELECTROWEB",
+    "FURYCUTTER",
+    "GASTROACID",
+    "GIGADRAIN",
+    "MAGNETRISE",
+    "MIMIC",
+    "RISINGVOLTAGE",
+    "SHOCKWAVE",
+    "SIGNALBEAM",
+    "SKITTERSMACK",
+    "SNORE",
+    "SUCKERPUNCH",
+]
+compatible_egg_groups = [
+    "Bug",
+]
 steps_to_hatch = 5120
 height = 0.1
 weight = 0.6
@@ -20,109 +107,21 @@ pokedex_entry = "They attach themselves to large-bodied Pokémon and absorb stat
 battler_player_y = 33
 battler_enemy_y = 37
 battler_altitude = 0
-form_names = []
-dex_number = 595
-internal_name = "JOLTIK"
 raw_hidden_ability = "SWARM"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ABSORB"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "INFESTATION"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SPIDERWEB"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "POISONSTING"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "CAMOUFLAGE"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "SCREECH"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "NUZZLE"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "PURSUIT"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "PINMISSILE"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "AGILITY"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "MEGADRAIN"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "ELECTROBALL"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "ELECTROWEB"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "STRUGGLEBUG"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "DISABLE"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "SLASH"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "NIGHTSLASH"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "GASTROACID"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "LUNGE"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "SUCKERPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "CROSSPOISON"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "DISCHARGE"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "LEECHLIFE"
-
-[[evolutions]]
-into_name = "GALVANTULA"
-condition = "Level"
-parameter = "39"
-
-
+raw_egg_moves = [
+    "CAMOUFLAGE",
+    "CROSSPOISON",
+    "DISABLE",
+    "FEINTATTACK",
+    "LUNGE",
+    "PINMISSILE",
+    "POISONSTING",
+    "PURSUIT",
+    "ROCKCLIMB",
+]
+evolutions = [
+    { into_name = "GALVANTULA", condition = "Level", parameter = "39" },
+]
 
 [base_stats]
 hp = 50
@@ -139,5 +138,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 1
-
-[wild_items]

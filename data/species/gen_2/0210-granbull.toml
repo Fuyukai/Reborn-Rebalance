@@ -1,3 +1,4 @@
+dex_number = 210
 name = "Granbull"
 primary_type = "FIGHTING"
 secondary_type = "FAIRY"
@@ -6,11 +7,134 @@ growth_rate = "Fast"
 exp_yield = 158
 catch_rate = 75
 caught_happiness = 70
-raw_abilities = ["INTIMIDATE", "QUICKFEET"]
-raw_egg_moves = []
-raw_tms = ["WORKUP", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "BULKUP", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "SOLARBEAM", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "SLUDGEBOMB", "FIREBLAST", "ROCKTOMB", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "OVERHEAT", "FOCUSBLAST", "FLING", "PAYBACK", "GIGAIMPACT", "STONEEDGE", "THUNDERWAVE", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "SNARL", "POWERUPPUNCH", "DAZZLINGGLEAM", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "SCARYFACE", "CHARM", "FAKETEARS", "THUNDERFANG", "ICEFANG", "FIREFANG", "PSYCHICFANGS", "CRUNCH", "BODYSLAM", "CLOSECOMBAT", "METRONOME", "ENDURE", "PLAYROUGH", "DARKESTLARIAT", "RETALIATE"]
-raw_tutor_moves = ["COVET", "FIREPUNCH", "FOCUSPUNCH", "HEADBUTT", "HEALBELL", "HYPERVOICE", "ICEPUNCH", "IRONTAIL", "LASTRESORT", "LOWKICK", "MUDSLAP", "OUTRAGE", "SHOCKWAVE", "SNORE", "STOMPINGTANTRUM", "SUPERFANG", "SUPERPOWER", "THUNDERPUNCH", "WATERPULSE", "MIMIC"]
-compatible_egg_groups = ["Field", "Fairy"]
+raw_abilities = [
+    "INTIMIDATE",
+    "QUICKFEET",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "FIREFANG" },
+    { at_level = 1, name = "ICEFANG" },
+    { at_level = 1, name = "THUNDERFANG" },
+    { at_level = 1, name = "TAILWHIP" },
+    { at_level = 1, name = "ODORSLEUTH" },
+    { at_level = 4, name = "DETECT" },
+    { at_level = 7, name = "BITE" },
+    { at_level = 10, name = "LICK" },
+    { at_level = 13, name = "CHARM" },
+    { at_level = 16, name = "PAYBACK" },
+    { at_level = 19, name = "HEADBUTT" },
+    { at_level = 22, name = "MIMIC" },
+    { at_level = 23, name = "DOUBLEKICK" },
+    { at_level = 26, name = "COVET" },
+    { at_level = 29, name = "ROAR" },
+    { at_level = 31, name = "HEALBELL" },
+    { at_level = 34, name = "SUPERFANG" },
+    { at_level = 37, name = "CRUNCH" },
+    { at_level = 40, name = "PLAYROUGH" },
+    { at_level = 44, name = "DYNAMICPUNCH" },
+    { at_level = 48, name = "FAKETEARS" },
+    { at_level = 52, name = "FOCUSPUNCH" },
+    { at_level = 56, name = "CLOSECOMBAT" },
+    { at_level = 60, name = "DOUBLEEDGE" },
+    { at_level = 64, name = "LASTRESORT" },
+]
+raw_tms = [
+    "WORKUP",
+    "STRENGTH",
+    "ROAR",
+    "TOXIC",
+    "ROCKSMASH",
+    "BULKUP",
+    "ROCKCLIMB",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "THUNDERBOLT",
+    "THUNDER",
+    "EARTHQUAKE",
+    "RETURN",
+    "SHADOWBALL",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "REFLECT",
+    "FLAMETHROWER",
+    "SLUDGEBOMB",
+    "FIREBLAST",
+    "ROCKTOMB",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "OVERHEAT",
+    "FOCUSBLAST",
+    "FLING",
+    "PAYBACK",
+    "GIGAIMPACT",
+    "STONEEDGE",
+    "THUNDERWAVE",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "WILDCHARGE",
+    "SECRETPOWER",
+    "SNARL",
+    "POWERUPPUNCH",
+    "DAZZLINGGLEAM",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "DIG",
+    "SCARYFACE",
+    "CHARM",
+    "FAKETEARS",
+    "THUNDERFANG",
+    "ICEFANG",
+    "FIREFANG",
+    "PSYCHICFANGS",
+    "CRUNCH",
+    "BODYSLAM",
+    "CLOSECOMBAT",
+    "METRONOME",
+    "ENDURE",
+    "PLAYROUGH",
+    "DARKESTLARIAT",
+    "RETALIATE",
+]
+raw_tutor_moves = [
+    "COVET",
+    "FIREPUNCH",
+    "FOCUSPUNCH",
+    "HEADBUTT",
+    "HEALBELL",
+    "HYPERVOICE",
+    "ICEPUNCH",
+    "IRONTAIL",
+    "LASTRESORT",
+    "LOWKICK",
+    "MIMIC",
+    "MUDSLAP",
+    "OUTRAGE",
+    "SHOCKWAVE",
+    "SNORE",
+    "STOMPINGTANTRUM",
+    "SUPERFANG",
+    "SUPERPOWER",
+    "THUNDERPUNCH",
+    "WATERPULSE",
+]
+compatible_egg_groups = [
+    "Field",
+    "Fairy",
+]
 steps_to_hatch = 5355
 height = 1.4
 weight = 48.7
@@ -20,112 +144,8 @@ pokedex_entry = "It has a particularly well-developed lower jaw. The huge fangs 
 battler_player_y = 21
 battler_enemy_y = 15
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 210
-internal_name = "GRANBULL"
 raw_hidden_ability = "GUARDDOG"
 habitat = "Urban"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FIREFANG"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ICEFANG"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "THUNDERFANG"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TAILWHIP"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ODORSLEUTH"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "DETECT"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "LICK"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "CHARM"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "PAYBACK"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "HEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "MIMIC"
-
-[[raw_level_up_moves]]
-at_level = 23
-name = "DOUBLEKICK"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "COVET"
-
-[[raw_level_up_moves]]
-at_level = 29
-name = "ROAR"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "HEALBELL"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "SUPERFANG"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "PLAYROUGH"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "DYNAMICPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "FAKETEARS"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "FOCUSPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "CLOSECOMBAT"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "DOUBLEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 64
-name = "LASTRESORT"
 
 [base_stats]
 hp = 90
@@ -142,5 +162,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

@@ -1,3 +1,4 @@
+dex_number = 53
 name = "Persian"
 primary_type = "NORMAL"
 secondary_type = "NORMAL"
@@ -6,11 +7,124 @@ growth_rate = "Medium"
 exp_yield = 154
 catch_rate = 90
 caught_happiness = 70
-raw_abilities = ["SUPERLUCK", "SNIPER", "TECHNICIAN"]
-raw_egg_moves = []
-raw_tms = ["WORKUP", "CUT", "ROAR", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "SHADOWBALL", "DOUBLETEAM", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "QUASH", "EMBARGO", "SHADOWCLAW", "PAYBACK", "GIGAIMPACT", "PSYCHUP", "DREAMEATER", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "SNARL", "DARKPULSE", "CONFIDE", "PAYDAY", "DIG", "SCREECH", "CHARM", "BEATUP", "FAKETEARS", "ASSURANCE", "CRUNCH", "BODYSLAM", "AMNESIA", "ENDURE", "POWERGEM", "NASTYPLOT", "PLAYROUGH", "RETALIATE", "TRAILBLAZE", "CHILLINGWATER", "SWIFT"]
-raw_tutor_moves = ["COVET", "FOULPLAY", "GUNKSHOT", "HEADBUTT", "HYPERVOICE", "ICYWIND", "IRONTAIL", "KNOCKOFF", "LASTRESORT", "MUDSLAP", "SEEDBOMB", "SHOCKWAVE", "SNATCH", "SNORE", "SPITE", "THROATCHOP", "UPROAR", "WATERPULSE", "BURNINGJEALOUSY", "SKITTERSMACK", "LASHOUT", "MIMIC"]
-compatible_egg_groups = ["Field"]
+raw_abilities = [
+    "SUPERLUCK",
+    "SNIPER",
+    "TECHNICIAN",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "DETECT" },
+    { at_level = 1, name = "SCRATCH" },
+    { at_level = 1, name = "GROWL" },
+    { at_level = 1, name = "ASSIST" },
+    { at_level = 6, name = "BITE" },
+    { at_level = 8, name = "FAKEOUT" },
+    { at_level = 10, name = "FURYSWIPES" },
+    { at_level = 12, name = "PAYDAY" },
+    { at_level = 14, name = "SCREECH" },
+    { at_level = 16, name = "HEADBUTT" },
+    { at_level = 18, name = "SPITE" },
+    { at_level = 20, name = "HYPNOSIS" },
+    { at_level = 22, name = "FEINTATTACK" },
+    { at_level = 24, name = "SLASH" },
+    { at_level = 24, name = "NIGHTSLASH" },
+    { at_level = 27, name = "CHARM" },
+    { at_level = 28, name = "POWERGEM" },
+    { at_level = 32, name = "FOULPLAY" },
+    { at_level = 36, name = "SWITCHEROO" },
+    { at_level = 40, name = "NASTYPLOT" },
+    { at_level = 44, name = "PLAYROUGH" },
+    { at_level = 48, name = "CAPTIVATE" },
+    { at_level = 52, name = "DOUBLEEDGE" },
+    { at_level = 56, name = "LASTRESORT" },
+]
+raw_tms = [
+    "WORKUP",
+    "CUT",
+    "ROAR",
+    "TOXIC",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "THUNDERBOLT",
+    "THUNDER",
+    "RETURN",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "AERIALACE",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "ECHOEDVOICE",
+    "QUASH",
+    "EMBARGO",
+    "SHADOWCLAW",
+    "PAYBACK",
+    "GIGAIMPACT",
+    "PSYCHUP",
+    "DREAMEATER",
+    "SWAGGER",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "SNARL",
+    "DARKPULSE",
+    "CONFIDE",
+    "PAYDAY",
+    "DIG",
+    "SCREECH",
+    "CHARM",
+    "BEATUP",
+    "FAKETEARS",
+    "ASSURANCE",
+    "CRUNCH",
+    "BODYSLAM",
+    "AMNESIA",
+    "ENDURE",
+    "POWERGEM",
+    "NASTYPLOT",
+    "PLAYROUGH",
+    "RETALIATE",
+    "TRAILBLAZE",
+    "CHILLINGWATER",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "BURNINGJEALOUSY",
+    "COVET",
+    "FOULPLAY",
+    "GUNKSHOT",
+    "HEADBUTT",
+    "HYPERVOICE",
+    "ICYWIND",
+    "IRONTAIL",
+    "KNOCKOFF",
+    "LASHOUT",
+    "LASTRESORT",
+    "MIMIC",
+    "MUDSLAP",
+    "SEEDBOMB",
+    "SHOCKWAVE",
+    "SKITTERSMACK",
+    "SNATCH",
+    "SNORE",
+    "SPITE",
+    "THROATCHOP",
+    "UPROAR",
+    "WATERPULSE",
+]
+compatible_egg_groups = [
+    "Field",
+]
 steps_to_hatch = 5355
 height = 1.0
 weight = 32.0
@@ -20,107 +134,11 @@ pokedex_entry = "A Persian's six bold whiskers sense air movements to determine 
 battler_player_y = 15
 battler_enemy_y = 14
 battler_altitude = 0
-evolutions = []
-form_names = ["Normal", "Alternate"]
-dex_number = 53
-internal_name = "PERSIAN"
 habitat = "Urban"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "DETECT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SCRATCH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ASSIST"
-
-[[raw_level_up_moves]]
-at_level = 6
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 8
-name = "FAKEOUT"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "FURYSWIPES"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "PAYDAY"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "SCREECH"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "HEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "SPITE"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "HYPNOSIS"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "FEINTATTACK"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "SLASH"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "NIGHTSLASH"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "CHARM"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "POWERGEM"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "FOULPLAY"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "SWITCHEROO"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "NASTYPLOT"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "PLAYROUGH"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "CAPTIVATE"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "DOUBLEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "LASTRESORT"
+form_names = [
+    "Normal",
+    "Alternate",
+]
 
 [base_stats]
 hp = 65

@@ -1,3 +1,4 @@
+dex_number = 386
 name = "Deoxys"
 primary_type = "PSYCHIC"
 secondary_type = "PSYCHIC"
@@ -6,11 +7,134 @@ growth_rate = "Slow"
 exp_yield = 270
 catch_rate = 3
 caught_happiness = 0
-raw_abilities = ["MOODY", "PRESSURE"]
-raw_egg_moves = []
-raw_tms = ["CUT", "PSYSHOCK", "CALMMIND", "STRENGTH", "TOXIC", "ROCKSMASH", "FLASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "ICEBEAM", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "THUNDERBOLT", "THUNDER", "RETURN", "PSYCHIC", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "ROCKTOMB", "AERIALACE", "TORMENT", "FACADE", "REST", "LOWSWEEP", "ROUND", "FOCUSBLAST", "ENERGYBALL", "FLING", "CHARGEBEAM", "BRUTALSWING", "GIGAIMPACT", "THUNDERWAVE", "PSYCHUP", "ROCKSLIDE", "POISONJAB", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "TRICKROOM", "SECRETPOWER", "DARKPULSE", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "AVALANCHE", "BODYSLAM", "AGILITY", "AMNESIA", "SPIKES", "ENDURE", "COSMICPOWER", "NASTYPLOT", "SWIFT"]
-raw_tutor_moves = ["ALLYSWITCH", "BIND", "DRAINPUNCH", "FIREPUNCH", "FOCUSPUNCH", "GRAVITY", "HEADBUTT", "ICEPUNCH", "ICYWIND", "IRONDEFENSE", "KNOCKOFF", "LASERFOCUS", "LOWKICK", "MAGICCOAT", "MUDSLAP", "RECYCLE", "ROLEPLAY", "SHOCKWAVE", "SIGNALBEAM", "SKILLSWAP", "SNATCH", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "SUPERPOWER", "TELEKINESIS", "THROATCHOP", "THUNDERPUNCH", "TRICK", "WATERPULSE", "WONDERROOM", "ZENHEADBUTT", "EXTREMESPEED", "MIMIC"]
-compatible_egg_groups = ["Undiscovered"]
+raw_abilities = [
+    "MOODY",
+    "PRESSURE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "METEORMASH" },
+    { at_level = 1, name = "DARKPULSE" },
+    { at_level = 1, name = "LEER" },
+    { at_level = 1, name = "WRAP" },
+    { at_level = 6, name = "NIGHTSHADE" },
+    { at_level = 10, name = "TELEPORT" },
+    { at_level = 14, name = "KNOCKOFF" },
+    { at_level = 18, name = "PURSUIT" },
+    { at_level = 22, name = "PSYCHIC" },
+    { at_level = 26, name = "SNATCH" },
+    { at_level = 30, name = "PSYCHOSHIFT" },
+    { at_level = 34, name = "ZENHEADBUTT" },
+    { at_level = 38, name = "COSMICPOWER" },
+    { at_level = 42, name = "RECOVER" },
+    { at_level = 46, name = "PSYCHOBOOST" },
+    { at_level = 50, name = "HYPERBEAM" },
+]
+raw_tms = [
+    "CUT",
+    "PSYSHOCK",
+    "CALMMIND",
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "ICEBEAM",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "THUNDERBOLT",
+    "THUNDER",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "REFLECT",
+    "ROCKTOMB",
+    "AERIALACE",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "LOWSWEEP",
+    "ROUND",
+    "FOCUSBLAST",
+    "ENERGYBALL",
+    "FLING",
+    "CHARGEBEAM",
+    "BRUTALSWING",
+    "GIGAIMPACT",
+    "THUNDERWAVE",
+    "PSYCHUP",
+    "ROCKSLIDE",
+    "POISONJAB",
+    "DREAMEATER",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "FLASHCANNON",
+    "TRICKROOM",
+    "SECRETPOWER",
+    "DARKPULSE",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "AVALANCHE",
+    "BODYSLAM",
+    "AGILITY",
+    "AMNESIA",
+    "SPIKES",
+    "ENDURE",
+    "COSMICPOWER",
+    "NASTYPLOT",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "ALLYSWITCH",
+    "BIND",
+    "DRAINPUNCH",
+    "EXTREMESPEED",
+    "FIREPUNCH",
+    "FOCUSPUNCH",
+    "GRAVITY",
+    "HEADBUTT",
+    "ICEPUNCH",
+    "ICYWIND",
+    "IRONDEFENSE",
+    "KNOCKOFF",
+    "LASERFOCUS",
+    "LOWKICK",
+    "MAGICCOAT",
+    "MIMIC",
+    "MUDSLAP",
+    "RECYCLE",
+    "ROLEPLAY",
+    "SHOCKWAVE",
+    "SIGNALBEAM",
+    "SKILLSWAP",
+    "SNATCH",
+    "SNORE",
+    "STEALTHROCK",
+    "STOMPINGTANTRUM",
+    "SUPERPOWER",
+    "TELEKINESIS",
+    "THROATCHOP",
+    "THUNDERPUNCH",
+    "TRICK",
+    "WATERPULSE",
+    "WONDERROOM",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Undiscovered",
+]
 steps_to_hatch = 30855
 height = 1.7
 weight = 60.8
@@ -20,75 +144,13 @@ pokedex_entry = "A Pokémon that mutated from an extraterrestrial virus exposed 
 battler_player_y = 10
 battler_enemy_y = 5
 battler_altitude = 0
-evolutions = []
-form_names = ["Normal Forme", "Attack Forme", "Defense Forme", "Speed Forme"]
-dex_number = 386
-internal_name = "DEOXYS"
 habitat = "Rare"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "METEORMASH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "DARKPULSE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WRAP"
-
-[[raw_level_up_moves]]
-at_level = 6
-name = "NIGHTSHADE"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "TELEPORT"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "KNOCKOFF"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "PURSUIT"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "PSYCHIC"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "SNATCH"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "PSYCHOSHIFT"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "ZENHEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "COSMICPOWER"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "RECOVER"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "PSYCHOBOOST"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "HYPERBEAM"
+form_names = [
+    "Normal Forme",
+    "Attack Forme",
+    "Defense Forme",
+    "Speed Forme",
+]
 
 [base_stats]
 hp = 50
@@ -105,5 +167,3 @@ def_ = 0
 spa = 1
 spd = 0
 spe = 1
-
-[wild_items]

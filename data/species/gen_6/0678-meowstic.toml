@@ -1,3 +1,4 @@
+dex_number = 678
 name = "Meowstic"
 primary_type = "PSYCHIC"
 secondary_type = "PSYCHIC"
@@ -6,11 +7,123 @@ growth_rate = "Medium"
 exp_yield = 163
 catch_rate = 228
 caught_happiness = 70
-raw_abilities = ["PRANKSTER", "SHEERFORCE", "INFILTRATOR"]
-raw_egg_moves = []
-raw_tms = ["WORKUP", "CUT", "PSYSHOCK", "CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "THUNDERBOLT", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "TORMENT", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "ENERGYBALL", "CHARGEBEAM", "PAYBACK", "GIGAIMPACT", "THUNDERWAVE", "PSYCHUP", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "DARKPULSE", "POWERUPPUNCH", "CONFIDE", "PAYDAY", "MAGICALLEAF", "DIG", "CHARM", "IMPRISON", "FAKETEARS", "TAILSLAP", "MISTYTERRAIN", "PSYCHICTERRAIN", "ENDURE", "FUTURESIGHT", "NASTYPLOT", "STOREDPOWER", "PLAYROUGH", "SWIFT"]
-raw_tutor_moves = ["ALLYSWITCH", "COVET", "GRAVITY", "HEALBELL", "HELPINGHAND", "IRONTAIL", "MAGICCOAT", "MAGICROOM", "RECYCLE", "ROLEPLAY", "SHOCKWAVE", "SIGNALBEAM", "SKILLSWAP", "SNATCH", "SNORE", "SUCKERPUNCH", "TELEKINESIS", "TRICK", "WONDERROOM", "ZENHEADBUTT", "EXPANDINGFORCE", "MIMIC"]
-compatible_egg_groups = ["Field"]
+raw_abilities = [
+    "PRANKSTER",
+    "SHEERFORCE",
+    "INFILTRATOR",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "QUICKGUARD" },
+    { at_level = 1, name = "MEANLOOK" },
+    { at_level = 1, name = "HELPINGHAND" },
+    { at_level = 1, name = "SCRATCH" },
+    { at_level = 1, name = "LEER" },
+    { at_level = 1, name = "COVET" },
+    { at_level = 1, name = "CONFUSION" },
+    { at_level = 5, name = "COVET" },
+    { at_level = 9, name = "CONFUSION" },
+    { at_level = 13, name = "LIGHTSCREEN" },
+    { at_level = 17, name = "PSYBEAM" },
+    { at_level = 19, name = "FAKEOUT" },
+    { at_level = 22, name = "DISARMINGVOICE" },
+    { at_level = 25, name = "PSYSHOCK" },
+    { at_level = 28, name = "CHARM" },
+    { at_level = 31, name = "MIRACLEEYE" },
+    { at_level = 33, name = "ASSIST" },
+    { at_level = 35, name = "REFLECT" },
+    { at_level = 40, name = "PSYCHIC" },
+    { at_level = 43, name = "ROLEPLAY" },
+    { at_level = 45, name = "IMPRISON" },
+    { at_level = 48, name = "SUCKERPUNCH" },
+    { at_level = 50, name = "MISTYTERRAIN" },
+    { at_level = 53, name = "QUICKGUARD" },
+    { at_level = 56, name = "NASTYPLOT" },
+]
+raw_tms = [
+    "WORKUP",
+    "CUT",
+    "PSYSHOCK",
+    "CALMMIND",
+    "TOXIC",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "THUNDERBOLT",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "REFLECT",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ECHOEDVOICE",
+    "ENERGYBALL",
+    "CHARGEBEAM",
+    "PAYBACK",
+    "GIGAIMPACT",
+    "THUNDERWAVE",
+    "PSYCHUP",
+    "DREAMEATER",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "TRICKROOM",
+    "SECRETPOWER",
+    "DARKPULSE",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "PAYDAY",
+    "MAGICALLEAF",
+    "DIG",
+    "CHARM",
+    "IMPRISON",
+    "FAKETEARS",
+    "TAILSLAP",
+    "MISTYTERRAIN",
+    "PSYCHICTERRAIN",
+    "ENDURE",
+    "FUTURESIGHT",
+    "NASTYPLOT",
+    "STOREDPOWER",
+    "PLAYROUGH",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "ALLYSWITCH",
+    "COVET",
+    "EXPANDINGFORCE",
+    "GRAVITY",
+    "HEALBELL",
+    "HELPINGHAND",
+    "IRONTAIL",
+    "MAGICCOAT",
+    "MAGICROOM",
+    "MIMIC",
+    "RECYCLE",
+    "ROLEPLAY",
+    "SHOCKWAVE",
+    "SIGNALBEAM",
+    "SKILLSWAP",
+    "SNATCH",
+    "SNORE",
+    "SUCKERPUNCH",
+    "TELEKINESIS",
+    "TRICK",
+    "WONDERROOM",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Field",
+]
 steps_to_hatch = 5120
 height = 0.6
 weight = 8.5
@@ -20,110 +133,6 @@ pokedex_entry = "When in danger, it raises its ears and releases enough psychic 
 battler_player_y = 22
 battler_enemy_y = 27
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 678
-internal_name = "MEOWSTIC"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "QUICKGUARD"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "MEANLOOK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HELPINGHAND"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SCRATCH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "COVET"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "CONFUSION"
-
-[[raw_level_up_moves]]
-at_level = 5
-name = "COVET"
-
-[[raw_level_up_moves]]
-at_level = 9
-name = "CONFUSION"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "LIGHTSCREEN"
-
-[[raw_level_up_moves]]
-at_level = 17
-name = "PSYBEAM"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "FAKEOUT"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "DISARMINGVOICE"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "PSYSHOCK"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "CHARM"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "MIRACLEEYE"
-
-[[raw_level_up_moves]]
-at_level = 33
-name = "ASSIST"
-
-[[raw_level_up_moves]]
-at_level = 35
-name = "REFLECT"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "PSYCHIC"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "ROLEPLAY"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "IMPRISON"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "SUCKERPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "MISTYTERRAIN"
-
-[[raw_level_up_moves]]
-at_level = 53
-name = "QUICKGUARD"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "NASTYPLOT"
 
 [base_stats]
 hp = 94
@@ -140,5 +149,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 2
-
-[wild_items]

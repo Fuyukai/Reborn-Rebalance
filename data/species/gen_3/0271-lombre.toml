@@ -1,3 +1,4 @@
+dex_number = 271
 name = "Lombre"
 primary_type = "WATER"
 secondary_type = "GRASS"
@@ -6,11 +7,110 @@ growth_rate = "Parabolic"
 exp_yield = 119
 catch_rate = 120
 caught_happiness = 70
-raw_abilities = ["SWIFTSWIM", "RAINDISH"]
-raw_egg_moves = []
-raw_tms = ["SURF", "STRENGTH", "WATERFALL", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "FLASH", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "SOLARBEAM", "RETURN", "BRICKBREAK", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "ENERGYBALL", "SCALD", "FLING", "SWORDSDANCE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "WHIRLPOOL", "BULLETSEED", "MUDSHOT", "BODYSLAM", "HYDROPUMP", "ENDURE", "ENCORE", "MUDDYWATER", "CHILLINGWATER"]
-raw_tutor_moves = ["DRAINPUNCH", "FIREPUNCH", "GIGADRAIN", "HEADBUTT", "HYPERVOICE", "ICEPUNCH", "ICYWIND", "KNOCKOFF", "MUDSLAP", "SEEDBOMB", "SNORE", "SYNTHESIS", "THUNDERPUNCH", "UPROAR", "WATERPULSE", "ZENHEADBUTT", "GRASSYGLIDE", "MIMIC"]
-compatible_egg_groups = ["Water1", "Grass"]
+raw_abilities = [
+    "SWIFTSWIM",
+    "RAINDISH",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "ABSORB" },
+    { at_level = 1, name = "ASTONISH" },
+    { at_level = 1, name = "GROWL" },
+    { at_level = 4, name = "WATERGUN" },
+    { at_level = 6, name = "COUNTER" },
+    { at_level = 8, name = "WATERPULSE" },
+    { at_level = 10, name = "NATUREPOWER" },
+    { at_level = 12, name = "BULLETSEED" },
+    { at_level = 14, name = "FAKEOUT" },
+    { at_level = 16, name = "LEECHSEED" },
+    { at_level = 19, name = "BUBBLEBEAM" },
+    { at_level = 21, name = "MUDSHOT" },
+    { at_level = 23, name = "TICKLE" },
+    { at_level = 26, name = "DRAINPUNCH" },
+    { at_level = 29, name = "ICYWIND" },
+    { at_level = 32, name = "UPROAR" },
+    { at_level = 35, name = "ENERGYBALL" },
+    { at_level = 38, name = "MUDDYWATER" },
+    { at_level = 42, name = "FOCUSPUNCH" },
+    { at_level = 46, name = "BODYSLAM" },
+    { at_level = 50, name = "ZENHEADBUTT" },
+    { at_level = 54, name = "SYNTHESIS" },
+    { at_level = 58, name = "DOUBLEEDGE" },
+    { at_level = 62, name = "HYDROPUMP" },
+]
+raw_tms = [
+    "SURF",
+    "STRENGTH",
+    "WATERFALL",
+    "TOXIC",
+    "DIVE",
+    "HAIL",
+    "ROCKSMASH",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "ICEBEAM",
+    "BLIZZARD",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "ECHOEDVOICE",
+    "ENERGYBALL",
+    "SCALD",
+    "FLING",
+    "SWORDSDANCE",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "NATUREPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "WHIRLPOOL",
+    "BULLETSEED",
+    "MUDSHOT",
+    "BODYSLAM",
+    "HYDROPUMP",
+    "ENDURE",
+    "ENCORE",
+    "MUDDYWATER",
+    "CHILLINGWATER",
+]
+raw_tutor_moves = [
+    "DRAINPUNCH",
+    "FIREPUNCH",
+    "GIGADRAIN",
+    "GRASSYGLIDE",
+    "HEADBUTT",
+    "HYPERVOICE",
+    "ICEPUNCH",
+    "ICYWIND",
+    "KNOCKOFF",
+    "MIMIC",
+    "MUDSLAP",
+    "SEEDBOMB",
+    "SNORE",
+    "SYNTHESIS",
+    "THUNDERPUNCH",
+    "UPROAR",
+    "WATERPULSE",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Water1",
+    "Grass",
+]
 steps_to_hatch = 4080
 height = 1.2
 weight = 32.5
@@ -20,114 +120,11 @@ pokedex_entry = "In the evening, it takes great delight in popping out of rivers
 battler_player_y = 25
 battler_enemy_y = 21
 battler_altitude = 0
-form_names = []
-dex_number = 271
-internal_name = "LOMBRE"
 raw_hidden_ability = "OWNTEMPO"
 habitat = "WatersEdge"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ABSORB"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ASTONISH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWL"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "WATERGUN"
-
-[[raw_level_up_moves]]
-at_level = 6
-name = "COUNTER"
-
-[[raw_level_up_moves]]
-at_level = 8
-name = "WATERPULSE"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "NATUREPOWER"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "BULLETSEED"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "FAKEOUT"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "LEECHSEED"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "BUBBLEBEAM"
-
-[[raw_level_up_moves]]
-at_level = 21
-name = "MUDSHOT"
-
-[[raw_level_up_moves]]
-at_level = 23
-name = "TICKLE"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "DRAINPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 29
-name = "ICYWIND"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "UPROAR"
-
-[[raw_level_up_moves]]
-at_level = 35
-name = "ENERGYBALL"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "MUDDYWATER"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "FOCUSPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "ZENHEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "SYNTHESIS"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "DOUBLEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 62
-name = "HYDROPUMP"
-
-[[evolutions]]
-into_name = "LUDICOLO"
-condition = "Item"
-parameter = "WATERSTONE"
-
-
+evolutions = [
+    { into_name = "LUDICOLO", condition = "Item", parameter = "WATERSTONE" },
+]
 
 [base_stats]
 hp = 60

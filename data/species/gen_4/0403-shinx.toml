@@ -1,3 +1,4 @@
+dex_number = 403
 name = "Shinx"
 primary_type = "ELECTRIC"
 secondary_type = "ELECTRIC"
@@ -6,11 +7,94 @@ growth_rate = "Parabolic"
 exp_yield = 53
 catch_rate = 235
 caught_happiness = 70
-raw_abilities = ["RIVALRY", "INTIMIDATE"]
-raw_egg_moves = ["DOUBLEKICK", "EERIEIMPULSE", "FAKETEARS", "FIREFANG", "HELPINGHAND", "HOWL", "ICEFANG", "NIGHTSLASH", "QUICKATTACK", "SHOCKWAVE", "SIGNALBEAM", "SWIFT", "TAKEDOWN", "THUNDERFANG"]
-raw_tms = ["STRENGTH", "ROAR", "TOXIC", "FLASH", "HIDDENPOWER", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "CHARGEBEAM", "VOLTSWITCH", "THUNDERWAVE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "SNARL", "CONFIDE", "SCARYFACE", "FAKETEARS", "THUNDERFANG", "ICEFANG", "PSYCHICFANGS", "CRUNCH", "EERIEIMPULSE", "ENDURE", "ELECTROBALL", "PLAYROUGH", "TRAILBLAZE", "SWIFT"]
-raw_tutor_moves = ["FURYCUTTER", "HEADBUTT", "HELPINGHAND", "IRONTAIL", "MAGNETRISE", "MUDSLAP", "SHOCKWAVE", "SIGNALBEAM", "SNORE", "RISINGVOLTAGE", "MIMIC"]
-compatible_egg_groups = ["Field"]
+raw_abilities = [
+    "RIVALRY",
+    "INTIMIDATE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "LEER" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 1, name = "THUNDERSHOCK" },
+    { at_level = 4, name = "CHARGE" },
+    { at_level = 7, name = "HOWL" },
+    { at_level = 9, name = "HELPINGHAND" },
+    { at_level = 11, name = "SPARK" },
+    { at_level = 14, name = "BITE" },
+    { at_level = 16, name = "DOUBLEKICK" },
+    { at_level = 18, name = "NUZZLE" },
+    { at_level = 20, name = "FIREFANG" },
+    { at_level = 20, name = "ICEFANG" },
+    { at_level = 20, name = "THUNDERFANG" },
+    { at_level = 22, name = "QUICKATTACK" },
+    { at_level = 25, name = "FAKETEARS" },
+    { at_level = 28, name = "REVENGE" },
+    { at_level = 31, name = "TAKEDOWN" },
+    { at_level = 34, name = "SCARYFACE" },
+    { at_level = 37, name = "DISCHARGE" },
+    { at_level = 40, name = "PLAYROUGH" },
+    { at_level = 44, name = "WILDCHARGE" },
+    { at_level = 48, name = "CRUNCH" },
+    { at_level = 52, name = "DOUBLEEDGE" },
+    { at_level = 56, name = "VOLTTACKLE" },
+]
+raw_tms = [
+    "STRENGTH",
+    "ROAR",
+    "TOXIC",
+    "FLASH",
+    "HIDDENPOWER",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "THUNDERBOLT",
+    "THUNDER",
+    "RETURN",
+    "DOUBLETEAM",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "CHARGEBEAM",
+    "VOLTSWITCH",
+    "THUNDERWAVE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "WILDCHARGE",
+    "SECRETPOWER",
+    "SNARL",
+    "CONFIDE",
+    "SCARYFACE",
+    "FAKETEARS",
+    "THUNDERFANG",
+    "ICEFANG",
+    "PSYCHICFANGS",
+    "CRUNCH",
+    "EERIEIMPULSE",
+    "ENDURE",
+    "ELECTROBALL",
+    "PLAYROUGH",
+    "TRAILBLAZE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "FURYCUTTER",
+    "HEADBUTT",
+    "HELPINGHAND",
+    "IRONTAIL",
+    "MAGNETRISE",
+    "MIMIC",
+    "MUDSLAP",
+    "RISINGVOLTAGE",
+    "SHOCKWAVE",
+    "SIGNALBEAM",
+    "SNORE",
+]
+compatible_egg_groups = [
+    "Field",
+]
 steps_to_hatch = 5355
 height = 0.5
 weight = 9.5
@@ -20,113 +104,26 @@ pokedex_entry = "All of its fur dazzles if danger is sensed. It flees while the 
 battler_player_y = 29
 battler_enemy_y = 24
 battler_altitude = 0
-form_names = []
-dex_number = 403
-internal_name = "SHINX"
 raw_hidden_ability = "GUTS"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "THUNDERSHOCK"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "CHARGE"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "HOWL"
-
-[[raw_level_up_moves]]
-at_level = 9
-name = "HELPINGHAND"
-
-[[raw_level_up_moves]]
-at_level = 11
-name = "SPARK"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "DOUBLEKICK"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "NUZZLE"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "FIREFANG"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "ICEFANG"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "THUNDERFANG"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "QUICKATTACK"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "FAKETEARS"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "REVENGE"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "TAKEDOWN"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "SCARYFACE"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "DISCHARGE"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "PLAYROUGH"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "WILDCHARGE"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "DOUBLEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "VOLTTACKLE"
-
-[[evolutions]]
-into_name = "LUXIO"
-condition = "Level"
-parameter = "15"
-
-
+raw_egg_moves = [
+    "DOUBLEKICK",
+    "EERIEIMPULSE",
+    "FAKETEARS",
+    "FIREFANG",
+    "HELPINGHAND",
+    "HOWL",
+    "ICEFANG",
+    "NIGHTSLASH",
+    "QUICKATTACK",
+    "SHOCKWAVE",
+    "SIGNALBEAM",
+    "SWIFT",
+    "TAKEDOWN",
+    "THUNDERFANG",
+]
+evolutions = [
+    { into_name = "LUXIO", condition = "Level", parameter = "15" },
+]
 
 [base_stats]
 hp = 45
@@ -143,5 +140,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

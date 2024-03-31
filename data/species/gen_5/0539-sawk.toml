@@ -1,3 +1,4 @@
+dex_number = 539
 name = "Sawk"
 primary_type = "FIGHTING"
 secondary_type = "FIGHTING"
@@ -6,11 +7,104 @@ growth_rate = "Medium"
 exp_yield = 163
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["STURDY", "MOLDBREAKER"]
-raw_egg_moves = []
-raw_tms = ["WORKUP", "STRENGTH", "TOXIC", "ROCKSMASH", "BULKUP", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "PROTECT", "RAINDANCE", "FRUSTRATION", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "LOWSWEEP", "ROUND", "FOCUSBLAST", "FLING", "PAYBACK", "GIGAIMPACT", "STONEEDGE", "BULLDOZE", "ROCKSLIDE", "POISONJAB", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "SCARYFACE", "REVENGE", "CLOSECOMBAT", "FOCUSENERGY", "REVERSAL", "ENDURE", "RETALIATE"]
-raw_tutor_moves = ["BLOCK", "DUALCHOP", "FIREPUNCH", "FOCUSPUNCH", "HELPINGHAND", "ICEPUNCH", "KNOCKOFF", "LASERFOCUS", "LOWKICK", "PAINSPLIT", "SNORE", "SUPERPOWER", "THROATCHOP", "THUNDERPUNCH", "ZENHEADBUTT", "COACHING", "MIMIC"]
-compatible_egg_groups = ["Humanlike"]
+raw_abilities = [
+    "STURDY",
+    "MOLDBREAKER",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "DUALCHOP" },
+    { at_level = 1, name = "BIDE" },
+    { at_level = 1, name = "BIND" },
+    { at_level = 1, name = "FOCUSENERGY" },
+    { at_level = 4, name = "LEER" },
+    { at_level = 7, name = "SCARYFACE" },
+    { at_level = 11, name = "SEISMICTOSS" },
+    { at_level = 15, name = "ENDURE" },
+    { at_level = 19, name = "KARATECHOP" },
+    { at_level = 22, name = "BODYSLAM" },
+    { at_level = 25, name = "BRICKBREAK" },
+    { at_level = 28, name = "KNOCKOFF" },
+    { at_level = 31, name = "PAINSPLIT" },
+    { at_level = 34, name = "PAYBACK" },
+    { at_level = 37, name = "QUICKGUARD" },
+    { at_level = 41, name = "LUNGE" },
+    { at_level = 45, name = "HELPINGHAND" },
+    { at_level = 49, name = "ZENHEADBUTT" },
+    { at_level = 53, name = "BLOCK" },
+    { at_level = 57, name = "BLAZEKICK" },
+    { at_level = 61, name = "CLOSECOMBAT" },
+    { at_level = 65, name = "REVERSAL" },
+]
+raw_tms = [
+    "WORKUP",
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "BULKUP",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "EARTHQUAKE",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "ROCKTOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "LOWSWEEP",
+    "ROUND",
+    "FOCUSBLAST",
+    "FLING",
+    "PAYBACK",
+    "GIGAIMPACT",
+    "STONEEDGE",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "POISONJAB",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "DIG",
+    "SCARYFACE",
+    "REVENGE",
+    "CLOSECOMBAT",
+    "FOCUSENERGY",
+    "REVERSAL",
+    "ENDURE",
+    "RETALIATE",
+]
+raw_tutor_moves = [
+    "BLOCK",
+    "COACHING",
+    "DUALCHOP",
+    "FIREPUNCH",
+    "FOCUSPUNCH",
+    "HELPINGHAND",
+    "ICEPUNCH",
+    "KNOCKOFF",
+    "LASERFOCUS",
+    "LOWKICK",
+    "MIMIC",
+    "PAINSPLIT",
+    "SNORE",
+    "SUPERPOWER",
+    "THROATCHOP",
+    "THUNDERPUNCH",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Humanlike",
+]
 steps_to_hatch = 5120
 height = 1.4
 weight = 51.0
@@ -20,98 +114,6 @@ pokedex_entry = "Tying their belts gets them pumped and makes their punches more
 battler_player_y = 20
 battler_enemy_y = 23
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 539
-internal_name = "SAWK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "DUALCHOP"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BIDE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BIND"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FOCUSENERGY"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "SCARYFACE"
-
-[[raw_level_up_moves]]
-at_level = 11
-name = "SEISMICTOSS"
-
-[[raw_level_up_moves]]
-at_level = 15
-name = "ENDURE"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "KARATECHOP"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "BRICKBREAK"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "KNOCKOFF"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "PAINSPLIT"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "PAYBACK"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "QUICKGUARD"
-
-[[raw_level_up_moves]]
-at_level = 41
-name = "LUNGE"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "HELPINGHAND"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "ZENHEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 53
-name = "BLOCK"
-
-[[raw_level_up_moves]]
-at_level = 57
-name = "BLAZEKICK"
-
-[[raw_level_up_moves]]
-at_level = 61
-name = "CLOSECOMBAT"
-
-[[raw_level_up_moves]]
-at_level = 65
-name = "REVERSAL"
 
 [base_stats]
 hp = 75

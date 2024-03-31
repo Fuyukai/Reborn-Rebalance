@@ -1,3 +1,4 @@
+dex_number = 488
 name = "Cresselia"
 primary_type = "PSYCHIC"
 secondary_type = "PSYCHIC"
@@ -6,11 +7,97 @@ growth_rate = "Slow"
 exp_yield = 270
 catch_rate = 3
 caught_happiness = 100
-raw_abilities = ["LEVITATE"]
-raw_egg_moves = []
-raw_tms = ["PSYSHOCK", "CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "CHARGEBEAM", "GIGAIMPACT", "THUNDERWAVE", "PSYCHUP", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "CONFIDE", "POWERSWAP", "GUARDSWAP", "PSYCHOCUT", "BODYSLAM", "ENDURE", "FUTURESIGHT", "COSMICPOWER", "STOREDPOWER", "SWIFT", "MYSTICALFIRE"]
-raw_tutor_moves = ["ALLYSWITCH", "FURYCUTTER", "GRAVITY", "HELPINGHAND", "ICYWIND", "MAGICCOAT", "MAGICROOM", "MUDSLAP", "RECYCLE", "SIGNALBEAM", "SKILLSWAP", "SNORE", "TELEKINESIS", "TRICK", "ZENHEADBUTT", "EXPANDINGFORCE", "POWERSHIFT", "MIMIC"]
-compatible_egg_groups = ["Undiscovered"]
+raw_abilities = [
+    "LEVITATE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "CONFUSION" },
+    { at_level = 1, name = "RECOVER" },
+    { at_level = 6, name = "SAFEGUARD" },
+    { at_level = 10, name = "MIST" },
+    { at_level = 14, name = "AURORABEAM" },
+    { at_level = 18, name = "FUTURESIGHT" },
+    { at_level = 22, name = "SLASH" },
+    { at_level = 26, name = "REFLECT" },
+    { at_level = 26, name = "LIGHTSCREEN" },
+    { at_level = 30, name = "PSYCHOSHIFT" },
+    { at_level = 34, name = "PSYCHOCUT" },
+    { at_level = 38, name = "MOONLIGHT" },
+    { at_level = 42, name = "PSYSHIELDBASH" },
+    { at_level = 46, name = "ESPERWING" },
+    { at_level = 50, name = "MOONBLAST" },
+]
+raw_tms = [
+    "PSYSHOCK",
+    "CALMMIND",
+    "TOXIC",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "ICEBEAM",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "REFLECT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ENERGYBALL",
+    "CHARGEBEAM",
+    "GIGAIMPACT",
+    "THUNDERWAVE",
+    "PSYCHUP",
+    "DREAMEATER",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "TRICKROOM",
+    "SECRETPOWER",
+    "CONFIDE",
+    "POWERSWAP",
+    "GUARDSWAP",
+    "PSYCHOCUT",
+    "MYSTICALFIRE",
+    "BODYSLAM",
+    "ENDURE",
+    "FUTURESIGHT",
+    "COSMICPOWER",
+    "STOREDPOWER",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "ALLYSWITCH",
+    "EXPANDINGFORCE",
+    "FURYCUTTER",
+    "GRAVITY",
+    "HELPINGHAND",
+    "ICYWIND",
+    "MAGICCOAT",
+    "MAGICROOM",
+    "MIMIC",
+    "MUDSLAP",
+    "POWERSHIFT",
+    "RECYCLE",
+    "SIGNALBEAM",
+    "SKILLSWAP",
+    "SNORE",
+    "TELEKINESIS",
+    "TRICK",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Undiscovered",
+]
 steps_to_hatch = 30855
 height = 1.5
 weight = 85.6
@@ -20,70 +107,6 @@ pokedex_entry = "Shiny particles are released from its wings like a veil. It is 
 battler_player_y = 16
 battler_enemy_y = 7
 battler_altitude = 11
-evolutions = []
-form_names = []
-dex_number = 488
-internal_name = "CRESSELIA"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "CONFUSION"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "RECOVER"
-
-[[raw_level_up_moves]]
-at_level = 6
-name = "SAFEGUARD"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "MIST"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "AURORABEAM"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "FUTURESIGHT"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "SLASH"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "REFLECT"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "LIGHTSCREEN"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "PSYCHOSHIFT"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "PSYCHOCUT"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "MOONLIGHT"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "PSYSHIELDBASH"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "ESPERWING"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "MOONBLAST"
 
 [base_stats]
 hp = 120
@@ -100,5 +123,3 @@ def_ = 0
 spa = 0
 spd = 3
 spe = 0
-
-[wild_items]

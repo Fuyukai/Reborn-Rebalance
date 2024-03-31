@@ -1,3 +1,4 @@
+dex_number = 270
 name = "Lotad"
 primary_type = "WATER"
 secondary_type = "GRASS"
@@ -6,11 +7,86 @@ growth_rate = "Parabolic"
 exp_yield = 44
 catch_rate = 255
 caught_happiness = 70
-raw_abilities = ["SWIFTSWIM", "RAINDISH"]
-raw_egg_moves = ["COUNTER", "FLAIL", "GIGADRAIN", "LEECHSEED", "RAZORLEAF", "SWEETSCENT", "SYNTHESIS", "TEETERDANCE", "TICKLE", "WATERGUN"]
-raw_tms = ["SURF", "TOXIC", "HAIL", "FLASH", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "ENERGYBALL", "SCALD", "SWORDSDANCE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "WHIRLPOOL", "BULLETSEED", "BODYSLAM", "ENDURE", "MUDDYWATER"]
-raw_tutor_moves = ["GIGADRAIN", "HEADBUTT", "ICYWIND", "SEEDBOMB", "SNORE", "SYNTHESIS", "UPROAR", "WATERPULSE", "ZENHEADBUTT", "GRASSYGLIDE", "MIMIC"]
-compatible_egg_groups = ["Water1", "Grass"]
+raw_abilities = [
+    "SWIFTSWIM",
+    "RAINDISH",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "ABSORB" },
+    { at_level = 1, name = "ASTONISH" },
+    { at_level = 1, name = "GROWL" },
+    { at_level = 4, name = "WATERGUN" },
+    { at_level = 6, name = "COUNTER" },
+    { at_level = 8, name = "WATERPULSE" },
+    { at_level = 10, name = "NATUREPOWER" },
+    { at_level = 12, name = "BULLETSEED" },
+    { at_level = 15, name = "LEECHSEED" },
+    { at_level = 18, name = "BUBBLEBEAM" },
+    { at_level = 22, name = "TICKLE" },
+    { at_level = 25, name = "WHIRLPOOL" },
+    { at_level = 28, name = "CAPTIVATE" },
+    { at_level = 31, name = "UPROAR" },
+    { at_level = 34, name = "ENERGYBALL" },
+    { at_level = 38, name = "MIST" },
+    { at_level = 42, name = "BODYSLAM" },
+    { at_level = 46, name = "ZENHEADBUTT" },
+    { at_level = 50, name = "SYNTHESIS" },
+    { at_level = 54, name = "DOUBLEEDGE" },
+]
+raw_tms = [
+    "SURF",
+    "TOXIC",
+    "HAIL",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "ICEBEAM",
+    "BLIZZARD",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "DOUBLETEAM",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "ECHOEDVOICE",
+    "ENERGYBALL",
+    "SCALD",
+    "SWORDSDANCE",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "NATUREPOWER",
+    "CONFIDE",
+    "WHIRLPOOL",
+    "BULLETSEED",
+    "BODYSLAM",
+    "ENDURE",
+    "MUDDYWATER",
+]
+raw_tutor_moves = [
+    "GIGADRAIN",
+    "GRASSYGLIDE",
+    "HEADBUTT",
+    "ICYWIND",
+    "MIMIC",
+    "SEEDBOMB",
+    "SNORE",
+    "SYNTHESIS",
+    "UPROAR",
+    "WATERPULSE",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Water1",
+    "Grass",
+]
 steps_to_hatch = 4080
 height = 0.5
 weight = 2.6
@@ -20,98 +96,23 @@ pokedex_entry = "This Pokémon lives in ponds with clean water. It is known to f
 battler_player_y = 32
 battler_enemy_y = 27
 battler_altitude = 0
-form_names = []
-dex_number = 270
-internal_name = "LOTAD"
 raw_hidden_ability = "OWNTEMPO"
+raw_egg_moves = [
+    "COUNTER",
+    "FLAIL",
+    "GIGADRAIN",
+    "LEECHSEED",
+    "RAZORLEAF",
+    "SWEETSCENT",
+    "SYNTHESIS",
+    "TEETERDANCE",
+    "TICKLE",
+    "WATERGUN",
+]
 habitat = "WatersEdge"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ABSORB"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ASTONISH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWL"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "WATERGUN"
-
-[[raw_level_up_moves]]
-at_level = 6
-name = "COUNTER"
-
-[[raw_level_up_moves]]
-at_level = 8
-name = "WATERPULSE"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "NATUREPOWER"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "BULLETSEED"
-
-[[raw_level_up_moves]]
-at_level = 15
-name = "LEECHSEED"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "BUBBLEBEAM"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "TICKLE"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "WHIRLPOOL"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "CAPTIVATE"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "UPROAR"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "ENERGYBALL"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "MIST"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "ZENHEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "SYNTHESIS"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "DOUBLEEDGE"
-
-[[evolutions]]
-into_name = "LOMBRE"
-condition = "Level"
-parameter = "14"
-
-
+evolutions = [
+    { into_name = "LOMBRE", condition = "Level", parameter = "14" },
+]
 
 [base_stats]
 hp = 40

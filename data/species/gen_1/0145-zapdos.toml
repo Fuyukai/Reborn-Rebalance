@@ -1,3 +1,4 @@
+dex_number = 145
 name = "Zapdos"
 primary_type = "ELECTRIC"
 secondary_type = "FLYING"
@@ -6,11 +7,116 @@ growth_rate = "Slow"
 exp_yield = 261
 catch_rate = 3
 caught_happiness = 35
-raw_abilities = ["PRESSURE", "STATIC"]
-raw_egg_moves = []
-raw_tms = ["FLY", "ROAR", "TOXIC", "HAIL", "ROCKSMASH", "BULKUP", "FLASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "SANDSTORM", "AERIALACE", "FACADE", "REST", "ATTRACT", "LOWSWEEP", "ROUND", "STEELWING", "CHARGEBEAM", "SKYDROP", "ACROBATICS", "PAYBACK", "GIGAIMPACT", "VOLTSWITCH", "THUNDERWAVE", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "CONFIDE", "SCARYFACE", "REVENGE", "WEATHERBALL", "AIRSLASH", "EERIEIMPULSE", "HURRICANE", "CLOSECOMBAT", "BRAVEBIRD", "AGILITY", "ENDURE", "BATONPASS", "BLAZEKICK", "RETALIATE", "SWIFT"]
-raw_tutor_moves = ["AIRCUTTER", "ANCIENTPOWER", "BOUNCE", "DEFOG", "HEATWAVE", "LASERFOCUS", "LOWKICK", "MUDSLAP", "OMINOUSWIND", "SHOCKWAVE", "SIGNALBEAM", "SKYATTACK", "SNORE", "STOMPINGTANTRUM", "TAILWIND", "THROATCHOP", "TWISTER", "RISINGVOLTAGE", "COACHING", "DUALWINGBEAT", "MIMIC", "KNOCKOFF"]
-compatible_egg_groups = ["Undiscovered"]
+raw_abilities = [
+    "PRESSURE",
+    "STATIC",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "EXTRASENSORY" },
+    { at_level = 1, name = "PECK" },
+    { at_level = 1, name = "THUNDERSHOCK" },
+    { at_level = 8, name = "THUNDERWAVE" },
+    { at_level = 11, name = "DETECT" },
+    { at_level = 14, name = "PLUCK" },
+    { at_level = 19, name = "ANCIENTPOWER" },
+    { at_level = 23, name = "CHARGE" },
+    { at_level = 27, name = "AGILITY" },
+    { at_level = 30, name = "DISCHARGE" },
+    { at_level = 33, name = "RAINDANCE" },
+    { at_level = 37, name = "TAILWIND" },
+    { at_level = 40, name = "DRILLPECK" },
+    { at_level = 43, name = "THUNDER" },
+    { at_level = 47, name = "ROOST" },
+    { at_level = 50, name = "ZAPCANNON" },
+]
+raw_tms = [
+    "FLY",
+    "ROAR",
+    "TOXIC",
+    "HAIL",
+    "ROCKSMASH",
+    "BULKUP",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "ROOST",
+    "ROOST",
+    "FRUSTRATION",
+    "THUNDERBOLT",
+    "THUNDER",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "REFLECT",
+    "SANDSTORM",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "LOWSWEEP",
+    "ROUND",
+    "STEELWING",
+    "CHARGEBEAM",
+    "SKYDROP",
+    "ACROBATICS",
+    "PAYBACK",
+    "GIGAIMPACT",
+    "VOLTSWITCH",
+    "THUNDERWAVE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "WILDCHARGE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "SCARYFACE",
+    "REVENGE",
+    "WEATHERBALL",
+    "AIRSLASH",
+    "EERIEIMPULSE",
+    "HURRICANE",
+    "CLOSECOMBAT",
+    "BRAVEBIRD",
+    "AGILITY",
+    "ENDURE",
+    "BATONPASS",
+    "BLAZEKICK",
+    "RETALIATE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AIRCUTTER",
+    "ANCIENTPOWER",
+    "BOUNCE",
+    "COACHING",
+    "DEFOG",
+    "DUALWINGBEAT",
+    "HEATWAVE",
+    "KNOCKOFF",
+    "LASERFOCUS",
+    "LOWKICK",
+    "MIMIC",
+    "MUDSLAP",
+    "OMINOUSWIND",
+    "RISINGVOLTAGE",
+    "SHOCKWAVE",
+    "SIGNALBEAM",
+    "SKYATTACK",
+    "SNORE",
+    "STOMPINGTANTRUM",
+    "TAILWIND",
+    "THROATCHOP",
+    "TWISTER",
+]
+compatible_egg_groups = [
+    "Undiscovered",
+]
 steps_to_hatch = 20655
 height = 1.6
 weight = 52.6
@@ -20,75 +126,7 @@ pokedex_entry = "Zapdos is a legendary bird Pokémon that has the ability to con
 battler_player_y = 14
 battler_enemy_y = 8
 battler_altitude = 8
-evolutions = []
-form_names = []
-dex_number = 145
-internal_name = "ZAPDOS"
 habitat = "Rare"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "EXTRASENSORY"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "PECK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "THUNDERSHOCK"
-
-[[raw_level_up_moves]]
-at_level = 8
-name = "THUNDERWAVE"
-
-[[raw_level_up_moves]]
-at_level = 11
-name = "DETECT"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "PLUCK"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "ANCIENTPOWER"
-
-[[raw_level_up_moves]]
-at_level = 23
-name = "CHARGE"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "AGILITY"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "DISCHARGE"
-
-[[raw_level_up_moves]]
-at_level = 33
-name = "RAINDANCE"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "TAILWIND"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "DRILLPECK"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "THUNDER"
-
-[[raw_level_up_moves]]
-at_level = 47
-name = "ROOST"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "ZAPCANNON"
 
 [base_stats]
 hp = 90
@@ -105,5 +143,3 @@ def_ = 0
 spa = 3
 spd = 0
 spe = 0
-
-[wild_items]

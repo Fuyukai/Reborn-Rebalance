@@ -1,3 +1,4 @@
+dex_number = 212
 name = "Scizor"
 primary_type = "BUG"
 secondary_type = "STEEL"
@@ -6,11 +7,113 @@ growth_rate = "Medium"
 exp_yield = 175
 catch_rate = 25
 caught_happiness = 70
-raw_abilities = ["SWARM", "TECHNICIAN"]
-raw_egg_moves = []
-raw_tms = ["CUT", "STRENGTH", "TOXIC", "ROCKSMASH", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "SAFEGUARD", "FRUSTRATION", "RETURN", "BRICKBREAK", "DOUBLETEAM", "SANDSTORM", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "STEELWING", "FALSESWIPE", "FLING", "BRUTALSWING", "ACROBATICS", "GIGAIMPACT", "SWORDSDANCE", "STRUGGLEBUG", "XSCISSOR", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "CONFIDE", "SANDTOMB", "ASSURANCE", "PSYCHOCUT", "CROSSPOISON", "AIRSLASH", "AGILITY", "FOCUSENERGY", "REVERSAL", "ENDURE", "BATONPASS", "BUGBUZZ", "POUNCE", "TRAILBLAZE", "SWIFT"]
-raw_tutor_moves = ["BUGBITE", "DEFOG", "FURYCUTTER", "HEADBUTT", "IRONDEFENSE", "IRONHEAD", "KNOCKOFF", "LASERFOCUS", "OMINOUSWIND", "SNORE", "SUPERPOWER", "TAILWIND", "DUALWINGBEAT", "STEELBEAM", "MIMIC"]
-compatible_egg_groups = ["Bug"]
+raw_abilities = [
+    "SWARM",
+    "TECHNICIAN",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "PSYCHOCUT" },
+    { at_level = 1, name = "LEER" },
+    { at_level = 1, name = "QUICKATTACK" },
+    { at_level = 1, name = "FALSESWIPE" },
+    { at_level = 4, name = "FOCUSENERGY" },
+    { at_level = 7, name = "DETECT" },
+    { at_level = 10, name = "VACUUMWAVE" },
+    { at_level = 13, name = "FEINT" },
+    { at_level = 16, name = "AGILITY" },
+    { at_level = 19, name = "PURSUIT" },
+    { at_level = 22, name = "WINGATTACK" },
+    { at_level = 25, name = "QUICKGUARD" },
+    { at_level = 28, name = "SLASH" },
+    { at_level = 28, name = "NIGHTSLASH" },
+    { at_level = 31, name = "METALCLAW" },
+    { at_level = 35, name = "DOUBLEHIT" },
+    { at_level = 39, name = "AIRSLASH" },
+    { at_level = 43, name = "BUGBITE" },
+    { at_level = 47, name = "STEELWING" },
+    { at_level = 51, name = "REVERSAL" },
+    { at_level = 55, name = "BULLETPUNCH" },
+    { at_level = 59, name = "DOUBLEEDGE" },
+    { at_level = 63, name = "CRABHAMMER" },
+    { at_level = 67, name = "CLOSECOMBAT" },
+]
+raw_tms = [
+    "CUT",
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "VENOSHOCK",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "ROOST",
+    "ROOST",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "SANDSTORM",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "STEELWING",
+    "FALSESWIPE",
+    "FLING",
+    "BRUTALSWING",
+    "ACROBATICS",
+    "GIGAIMPACT",
+    "SWORDSDANCE",
+    "STRUGGLEBUG",
+    "XSCISSOR",
+    "SWAGGER",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "FLASHCANNON",
+    "SECRETPOWER",
+    "CONFIDE",
+    "SANDTOMB",
+    "ASSURANCE",
+    "PSYCHOCUT",
+    "CROSSPOISON",
+    "AIRSLASH",
+    "AGILITY",
+    "FOCUSENERGY",
+    "REVERSAL",
+    "ENDURE",
+    "BATONPASS",
+    "BUGBUZZ",
+    "POUNCE",
+    "TRAILBLAZE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "BUGBITE",
+    "DEFOG",
+    "DUALWINGBEAT",
+    "FURYCUTTER",
+    "HEADBUTT",
+    "IRONDEFENSE",
+    "IRONHEAD",
+    "KNOCKOFF",
+    "LASERFOCUS",
+    "MIMIC",
+    "OMINOUSWIND",
+    "SNORE",
+    "STEELBEAM",
+    "SUPERPOWER",
+    "TAILWIND",
+]
+compatible_egg_groups = [
+    "Bug",
+]
 steps_to_hatch = 6630
 height = 1.8
 weight = 118.0
@@ -20,108 +123,8 @@ pokedex_entry = "A Scizor has a body as hard as steel. It is not easily fazed by
 battler_player_y = 11
 battler_enemy_y = 13
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 212
-internal_name = "SCIZOR"
 raw_hidden_ability = "LIGHTMETAL"
 habitat = "Grassland"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "PSYCHOCUT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "QUICKATTACK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FALSESWIPE"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "FOCUSENERGY"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "DETECT"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "VACUUMWAVE"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "FEINT"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "AGILITY"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "PURSUIT"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "WINGATTACK"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "QUICKGUARD"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "SLASH"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "NIGHTSLASH"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "METALCLAW"
-
-[[raw_level_up_moves]]
-at_level = 35
-name = "DOUBLEHIT"
-
-[[raw_level_up_moves]]
-at_level = 39
-name = "AIRSLASH"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "BUGBITE"
-
-[[raw_level_up_moves]]
-at_level = 47
-name = "STEELWING"
-
-[[raw_level_up_moves]]
-at_level = 51
-name = "REVERSAL"
-
-[[raw_level_up_moves]]
-at_level = 55
-name = "BULLETPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 59
-name = "DOUBLEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 63
-name = "CRABHAMMER"
-
-[[raw_level_up_moves]]
-at_level = 67
-name = "CLOSECOMBAT"
 
 [base_stats]
 hp = 70
@@ -138,5 +141,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

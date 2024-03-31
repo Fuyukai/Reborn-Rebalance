@@ -1,3 +1,4 @@
+dex_number = 501
 name = "Oshawott"
 primary_type = "WATER"
 secondary_type = "WATER"
@@ -6,11 +7,95 @@ growth_rate = "Parabolic"
 exp_yield = 62
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["TORRENT", "SHELLARMOR"]
-raw_egg_moves = ["AIRSLASH", "ASSURANCE", "BRINE", "COPYCAT", "DETECT", "NIGHTSLASH", "SACREDSWORD", "SCREECH", "TRUMPCARD", "AQUACUTTER"]
-raw_tms = ["WORKUP", "CUT", "SURF", "WATERFALL", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "HIDDENPOWER", "TAUNT", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "DOUBLETEAM", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "FALSESWIPE", "SCALD", "FLING", "SWORDSDANCE", "XSCISSOR", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "SCREECH", "REVENGE", "BRINE", "ASSURANCE", "AIRSLASH", "RAZORSHELL", "HYDROPUMP", "FOCUSENERGY", "ENDURE", "ENCORE", "RETALIATE", "SNOWSCAPE", "CHILLINGWATER"]
-raw_tutor_moves = ["AQUATAIL", "COVET", "HELPINGHAND", "ICYWIND", "IRONTAIL", "SNORE", "WATERPLEDGE", "WATERPULSE", "MIMIC", "WAVECRASH"]
-compatible_egg_groups = ["Field"]
+raw_abilities = [
+    "TORRENT",
+    "SHELLARMOR",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 1, name = "TAILWHIP" },
+    { at_level = 5, name = "WATERGUN" },
+    { at_level = 7, name = "FURYCUTTER" },
+    { at_level = 10, name = "AQUAJET" },
+    { at_level = 13, name = "RAZORSHELL" },
+    { at_level = 16, name = "FOCUSENERGY" },
+    { at_level = 19, name = "BRINE" },
+    { at_level = 22, name = "REVENGE" },
+    { at_level = 25, name = "COVET" },
+    { at_level = 28, name = "REVENGE" },
+    { at_level = 31, name = "AIRSLASH" },
+    { at_level = 34, name = "SLASH" },
+    { at_level = 34, name = "NIGHTSLASH" },
+    { at_level = 37, name = "WORKUP" },
+    { at_level = 40, name = "AQUATAIL" },
+    { at_level = 43, name = "SUCKERPUNCH" },
+    { at_level = 46, name = "DRILLRUN" },
+    { at_level = 49, name = "TRUMPCARD" },
+]
+raw_tms = [
+    "WORKUP",
+    "CUT",
+    "SURF",
+    "WATERFALL",
+    "TOXIC",
+    "DIVE",
+    "HAIL",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "TAUNT",
+    "ICEBEAM",
+    "BLIZZARD",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "RETURN",
+    "DOUBLETEAM",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "FALSESWIPE",
+    "SCALD",
+    "FLING",
+    "SWORDSDANCE",
+    "XSCISSOR",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "DIG",
+    "SCREECH",
+    "REVENGE",
+    "BRINE",
+    "ASSURANCE",
+    "AIRSLASH",
+    "RAZORSHELL",
+    "HYDROPUMP",
+    "FOCUSENERGY",
+    "ENDURE",
+    "ENCORE",
+    "RETALIATE",
+    "SNOWSCAPE",
+    "CHILLINGWATER",
+]
+raw_tutor_moves = [
+    "AQUATAIL",
+    "COVET",
+    "HELPINGHAND",
+    "ICYWIND",
+    "IRONTAIL",
+    "MIMIC",
+    "SNORE",
+    "WATERPLEDGE",
+    "WATERPULSE",
+    "WAVECRASH",
+]
+compatible_egg_groups = [
+    "Field",
+]
 steps_to_hatch = 5120
 height = 0.5
 weight = 5.9
@@ -20,92 +105,21 @@ pokedex_entry = "The scalchop on its stomach is made from the same element as cl
 battler_player_y = 30
 battler_enemy_y = 32
 battler_altitude = 0
-form_names = []
-dex_number = 501
-internal_name = "OSHAWOTT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TAILWHIP"
-
-[[raw_level_up_moves]]
-at_level = 5
-name = "WATERGUN"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "FURYCUTTER"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "AQUAJET"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "RAZORSHELL"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "FOCUSENERGY"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "BRINE"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "REVENGE"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "COVET"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "REVENGE"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "AIRSLASH"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "SLASH"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "NIGHTSLASH"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "WORKUP"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "AQUATAIL"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "SUCKERPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "DRILLRUN"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "TRUMPCARD"
-
-[[evolutions]]
-into_name = "DEWOTT"
-condition = "Level"
-parameter = "17"
-
-
+raw_egg_moves = [
+    "AIRSLASH",
+    "ASSURANCE",
+    "BRINE",
+    "COPYCAT",
+    "DETECT",
+    "NIGHTSLASH",
+    "SACREDSWORD",
+    "SCREECH",
+    "TRUMPCARD",
+    "AQUACUTTER",
+]
+evolutions = [
+    { into_name = "DEWOTT", condition = "Level", parameter = "17" },
+]
 
 [base_stats]
 hp = 55
@@ -122,5 +136,3 @@ def_ = 0
 spa = 1
 spd = 0
 spe = 0
-
-[wild_items]

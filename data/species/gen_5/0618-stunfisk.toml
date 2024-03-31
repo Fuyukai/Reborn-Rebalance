@@ -1,3 +1,4 @@
+dex_number = 618
 name = "Stunfisk"
 primary_type = "GROUND"
 secondary_type = "ELECTRIC"
@@ -6,11 +7,108 @@ growth_rate = "Medium"
 exp_yield = 165
 catch_rate = 75
 caught_happiness = 70
-raw_abilities = ["STATIC", "ELECTRICSURGE", "COMPETITIVE"]
-raw_egg_moves = ["ASTONISH", "CURSE", "EARTHPOWER", "EERIEIMPULSE", "MEFIRST", "PAINSPLIT", "REFLECTTYPE", "SHOCKWAVE", "SLEEPTALK", "SPARK", "SPITE", "YAWN"]
-raw_tms = ["SURF", "TOXIC", "FLASH", "HIDDENPOWER", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "SLUDGEWAVE", "SLUDGEBOMB", "SANDSTORM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "SCALD", "PAYBACK", "STONEEDGE", "THUNDERWAVE", "BULLDOZE", "ROCKSLIDE", "INFESTATION", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "CONFIDE", "DIG", "SCREECH", "REVENGE", "MUDSHOT", "ICEFANG", "CRUNCH", "ELECTRICTERRAIN", "EERIEIMPULSE", "ENDURE", "MUDDYWATER"]
-raw_tutor_moves = ["AQUATAIL", "BIND", "BOUNCE", "EARTHPOWER", "ELECTROWEB", "ENDEAVOR", "FOULPLAY", "IRONDEFENSE", "MAGNETRISE", "MUDSLAP", "PAINSPLIT", "SHOCKWAVE", "SNORE", "SPITE", "STEALTHROCK", "STOMPINGTANTRUM", "SUCKERPUNCH", "UPROAR", "WATERPULSE", "TERRAINPULSE", "LASHOUT", "STEELBEAM", "MIMIC"]
-compatible_egg_groups = ["Water1", "Amorphous"]
+raw_abilities = [
+    "STATIC",
+    "ELECTRICSURGE",
+    "COMPETITIVE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "SPITE" },
+    { at_level = 1, name = "ENDEAVOR" },
+    { at_level = 1, name = "NUZZLE" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 1, name = "THUNDERSHOCK" },
+    { at_level = 1, name = "WATERGUN" },
+    { at_level = 5, name = "ENDURE" },
+    { at_level = 10, name = "MUDSHOT" },
+    { at_level = 15, name = "DISCHARGE" },
+    { at_level = 20, name = "CHARGE" },
+    { at_level = 25, name = "SUCKERPUNCH" },
+    { at_level = 30, name = "REVENGE" },
+    { at_level = 35, name = "BOUNCE" },
+    { at_level = 40, name = "MUDDYWATER" },
+    { at_level = 44, name = "PAINSPLIT" },
+    { at_level = 48, name = "THUNDERBOLT" },
+    { at_level = 52, name = "CURSE" },
+    { at_level = 56, name = "FLAIL" },
+    { at_level = 60, name = "EARTHQUAKE" },
+    { at_level = 64, name = "THUNDER" },
+    { at_level = 68, name = "FISSURE" },
+]
+raw_tms = [
+    "SURF",
+    "TOXIC",
+    "FLASH",
+    "HIDDENPOWER",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "THUNDERBOLT",
+    "THUNDER",
+    "EARTHQUAKE",
+    "RETURN",
+    "DOUBLETEAM",
+    "SLUDGEWAVE",
+    "SLUDGEBOMB",
+    "SANDSTORM",
+    "ROCKTOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "SCALD",
+    "PAYBACK",
+    "STONEEDGE",
+    "THUNDERWAVE",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "INFESTATION",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "FLASHCANNON",
+    "SECRETPOWER",
+    "CONFIDE",
+    "DIG",
+    "SCREECH",
+    "REVENGE",
+    "MUDSHOT",
+    "ICEFANG",
+    "CRUNCH",
+    "ELECTRICTERRAIN",
+    "EERIEIMPULSE",
+    "ENDURE",
+    "MUDDYWATER",
+]
+raw_tutor_moves = [
+    "AQUATAIL",
+    "BIND",
+    "BOUNCE",
+    "EARTHPOWER",
+    "ELECTROWEB",
+    "ENDEAVOR",
+    "FOULPLAY",
+    "IRONDEFENSE",
+    "LASHOUT",
+    "MAGNETRISE",
+    "MIMIC",
+    "MUDSLAP",
+    "PAINSPLIT",
+    "SHOCKWAVE",
+    "SNORE",
+    "SPITE",
+    "STEALTHROCK",
+    "STEELBEAM",
+    "STOMPINGTANTRUM",
+    "SUCKERPUNCH",
+    "TERRAINPULSE",
+    "UPROAR",
+    "WATERPULSE",
+]
+compatible_egg_groups = [
+    "Water1",
+    "Amorphous",
+]
 steps_to_hatch = 5120
 height = 0.7
 weight = 11.0
@@ -20,94 +118,20 @@ pokedex_entry = "It conceals itself in the mud of the seashore. Then it waits. W
 battler_player_y = 35
 battler_enemy_y = 21
 battler_altitude = 1
-evolutions = []
-form_names = []
-dex_number = 618
-internal_name = "STUNFISK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SPITE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ENDEAVOR"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "NUZZLE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "THUNDERSHOCK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WATERGUN"
-
-[[raw_level_up_moves]]
-at_level = 5
-name = "ENDURE"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "MUDSHOT"
-
-[[raw_level_up_moves]]
-at_level = 15
-name = "DISCHARGE"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "CHARGE"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "SUCKERPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "REVENGE"
-
-[[raw_level_up_moves]]
-at_level = 35
-name = "BOUNCE"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "MUDDYWATER"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "PAINSPLIT"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "THUNDERBOLT"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "CURSE"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "FLAIL"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "EARTHQUAKE"
-
-[[raw_level_up_moves]]
-at_level = 64
-name = "THUNDER"
-
-[[raw_level_up_moves]]
-at_level = 68
-name = "FISSURE"
+raw_egg_moves = [
+    "ASTONISH",
+    "CURSE",
+    "EARTHPOWER",
+    "EERIEIMPULSE",
+    "MEFIRST",
+    "PAINSPLIT",
+    "REFLECTTYPE",
+    "SHOCKWAVE",
+    "SLEEPTALK",
+    "SPARK",
+    "SPITE",
+    "YAWN",
+]
 
 [base_stats]
 hp = 109

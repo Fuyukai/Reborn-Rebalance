@@ -1,3 +1,4 @@
+dex_number = 827
 name = "Nickit"
 primary_type = "DARK"
 secondary_type = "DARK"
@@ -6,11 +7,63 @@ growth_rate = "Fast"
 exp_yield = 49
 catch_rate = 255
 caught_happiness = 50
-raw_abilities = ["RUNAWAY", "UNBURDEN"]
-raw_egg_moves = ["QUICKGUARD", "KNOCKOFF", "HOWL", "TORMENT"]
-raw_tms = ["TAUNT", "PROTECT", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "SNARL", "DIG", "SCREECH", "BEATUP", "FAKETEARS", "MUDSHOT", "ASSURANCE", "TAILSLAP", "AGILITY", "ENDURE", "BATONPASS", "NASTYPLOT", "PLAYROUGH", "SWIFT"]
-raw_tutor_moves = ["COVET", "FOULPLAY", "KNOCKOFF", "SNATCH", "SNORE", "SUCKERPUNCH", "LASHOUT", "MIMIC"]
-compatible_egg_groups = ["Field"]
+raw_abilities = [
+    "RUNAWAY",
+    "UNBURDEN",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "QUICKATTACK" },
+    { at_level = 1, name = "TAILWHIP" },
+    { at_level = 4, name = "BEATUP" },
+    { at_level = 8, name = "HONECLAWS" },
+    { at_level = 12, name = "SNARL" },
+    { at_level = 16, name = "ASSURANCE" },
+    { at_level = 20, name = "NASTYPLOT" },
+    { at_level = 24, name = "SUCKERPUNCH" },
+    { at_level = 28, name = "NIGHTSLASH" },
+    { at_level = 32, name = "TAILSLAP" },
+    { at_level = 36, name = "FOULPLAY" },
+]
+raw_tms = [
+    "TAUNT",
+    "PROTECT",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "SNARL",
+    "DIG",
+    "SCREECH",
+    "BEATUP",
+    "FAKETEARS",
+    "MUDSHOT",
+    "ASSURANCE",
+    "TAILSLAP",
+    "AGILITY",
+    "ENDURE",
+    "BATONPASS",
+    "NASTYPLOT",
+    "PLAYROUGH",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "COVET",
+    "FOULPLAY",
+    "KNOCKOFF",
+    "LASHOUT",
+    "MIMIC",
+    "SNATCH",
+    "SNORE",
+    "SUCKERPUNCH",
+]
+compatible_egg_groups = [
+    "Field",
+]
 steps_to_hatch = 3840
 height = 0.6
 weight = 8.9
@@ -20,60 +73,17 @@ pokedex_entry = "Cunning and cautious, this Pokémon survives by stealing food f
 battler_player_y = 21
 battler_enemy_y = 26
 battler_altitude = 0
-form_names = []
-dex_number = 827
-internal_name = "NICKIT"
 raw_hidden_ability = "STAKEOUT"
+raw_egg_moves = [
+    "QUICKGUARD",
+    "KNOCKOFF",
+    "HOWL",
+    "TORMENT",
+]
+evolutions = [
+    { into_name = "THIEVUL", condition = "Level", parameter = "18" },
+]
 regional_numbers = 827
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "QUICKATTACK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TAILWHIP"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "BEATUP"
-
-[[raw_level_up_moves]]
-at_level = 8
-name = "HONECLAWS"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "SNARL"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "ASSURANCE"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "NASTYPLOT"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "SUCKERPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "NIGHTSLASH"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "TAILSLAP"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "FOULPLAY"
-
-[[evolutions]]
-into_name = "THIEVUL"
-condition = "Level"
-parameter = "18"
 
 [base_stats]
 hp = 40
@@ -90,5 +100,3 @@ def_ = 0
 spa = 0
 spd = 1
 spe = 0
-
-[wild_items]

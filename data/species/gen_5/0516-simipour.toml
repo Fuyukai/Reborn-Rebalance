@@ -1,3 +1,4 @@
+dex_number = 516
 name = "Simipour"
 primary_type = "WATER"
 secondary_type = "WATER"
@@ -6,11 +7,104 @@ growth_rate = "Fast"
 exp_yield = 174
 catch_rate = 75
 caught_happiness = 70
-raw_abilities = ["GLUTTONY", "DRIZZLE"]
-raw_egg_moves = []
-raw_tms = ["WORKUP", "CUT", "SURF", "WATERFALL", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "HIDDENPOWER", "TAUNT", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "BRICKBREAK", "DOUBLETEAM", "ROCKTOMB", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "LOWSWEEP", "ROUND", "FOCUSBLAST", "SCALD", "FLING", "ACROBATICS", "SHADOWCLAW", "PAYBACK", "GIGAIMPACT", "ROCKSLIDE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "DIG", "BRINE", "CRUNCH", "HYDROPUMP", "ENDURE", "NASTYPLOT", "PLAYROUGH"]
-raw_tutor_moves = ["AQUATAIL", "COVET", "ENDEAVOR", "FOCUSPUNCH", "GASTROACID", "GUNKSHOT", "HELPINGHAND", "ICEPUNCH", "ICYWIND", "IRONTAIL", "KNOCKOFF", "LOWKICK", "RECYCLE", "ROLEPLAY", "SNORE", "SUPERPOWER", "THROATCHOP", "UPROAR", "WATERPLEDGE", "WATERPULSE", "MIMIC"]
-compatible_egg_groups = ["Field"]
+raw_abilities = [
+    "GLUTTONY",
+    "DRIZZLE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "AQUATAIL" },
+    { at_level = 1, name = "CRUNCH" },
+    { at_level = 1, name = "DISARMINGVOICE" },
+    { at_level = 1, name = "FURYSWIPES" },
+    { at_level = 1, name = "LICK" },
+    { at_level = 1, name = "NASTYPLOT" },
+    { at_level = 1, name = "SCALD" },
+    { at_level = 1, name = "TICKLE" },
+    { at_level = 1, name = "WATERPLEDGE" },
+    { at_level = 32, name = "WRINGOUT" },
+    { at_level = 38, name = "FUTURESIGHT" },
+    { at_level = 44, name = "ACROBATICS" },
+    { at_level = 50, name = "GLARE" },
+    { at_level = 56, name = "HYDROPUMP" },
+    { at_level = 62, name = "SLACKOFF" },
+]
+raw_tms = [
+    "WORKUP",
+    "CUT",
+    "SURF",
+    "WATERFALL",
+    "TOXIC",
+    "DIVE",
+    "HAIL",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "TAUNT",
+    "ICEBEAM",
+    "BLIZZARD",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "ROCKTOMB",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "LOWSWEEP",
+    "ROUND",
+    "FOCUSBLAST",
+    "SCALD",
+    "FLING",
+    "ACROBATICS",
+    "SHADOWCLAW",
+    "PAYBACK",
+    "GIGAIMPACT",
+    "ROCKSLIDE",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "DIG",
+    "BRINE",
+    "CRUNCH",
+    "HYDROPUMP",
+    "ENDURE",
+    "NASTYPLOT",
+    "PLAYROUGH",
+]
+raw_tutor_moves = [
+    "AQUATAIL",
+    "COVET",
+    "ENDEAVOR",
+    "FOCUSPUNCH",
+    "GASTROACID",
+    "GUNKSHOT",
+    "HELPINGHAND",
+    "ICEPUNCH",
+    "ICYWIND",
+    "IRONTAIL",
+    "KNOCKOFF",
+    "LOWKICK",
+    "MIMIC",
+    "RECYCLE",
+    "ROLEPLAY",
+    "SNORE",
+    "SUPERPOWER",
+    "THROATCHOP",
+    "UPROAR",
+    "WATERPLEDGE",
+    "WATERPULSE",
+]
+compatible_egg_groups = [
+    "Field",
+]
 steps_to_hatch = 5120
 height = 1.0
 weight = 29.0
@@ -20,70 +114,6 @@ pokedex_entry = "The high-pressure water expelled from its tail is so powerful, 
 battler_player_y = 18
 battler_enemy_y = 22
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 516
-internal_name = "SIMIPOUR"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "AQUATAIL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "DISARMINGVOICE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FURYSWIPES"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LICK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "NASTYPLOT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SCALD"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TICKLE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WATERPLEDGE"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "WRINGOUT"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "FUTURESIGHT"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "ACROBATICS"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "GLARE"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "HYDROPUMP"
-
-[[raw_level_up_moves]]
-at_level = 62
-name = "SLACKOFF"
 
 [base_stats]
 hp = 75
@@ -100,5 +130,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 2
-
-[wild_items]

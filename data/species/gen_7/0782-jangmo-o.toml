@@ -1,3 +1,4 @@
+dex_number = 782
 name = "Jangmo-o"
 primary_type = "DRAGON"
 secondary_type = "DRAGON"
@@ -6,11 +7,89 @@ growth_rate = "Slow"
 exp_yield = 60
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["BULLETPROOF", "SOUNDPROOF"]
-raw_egg_moves = ["COUNTER", "DRAGONBREATH", "REVERSAL"]
-raw_tms = ["WORKUP", "DRAGONCLAW", "ROAR", "TOXIC", "BULKUP", "HIDDENPOWER", "TAUNT", "PROTECT", "SAFEGUARD", "FRUSTRATION", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "SANDSTORM", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "FOCUSBLAST", "FALSESWIPE", "FLING", "SHADOWCLAW", "PAYBACK", "SWORDSDANCE", "BULLDOZE", "ROCKSLIDE", "XSCISSOR", "DRAGONTAIL", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "SCREECH", "SCARYFACE", "REVERSAL", "ENDURE", "DRAGONDANCE"]
-raw_tutor_moves = ["AQUATAIL", "DRACOMETEOR", "DRAGONPULSE", "DUALCHOP", "FOCUSPUNCH", "IRONDEFENSE", "IRONHEAD", "IRONTAIL", "LOWKICK", "OUTRAGE", "SNORE", "UPROAR", "SCALESHOT", "MIMIC"]
-compatible_egg_groups = ["Dragon"]
+raw_abilities = [
+    "BULLETPROOF",
+    "SOUNDPROOF",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 4, name = "LEER" },
+    { at_level = 7, name = "BIDE" },
+    { at_level = 10, name = "PROTECT" },
+    { at_level = 13, name = "DRAGONTAIL" },
+    { at_level = 16, name = "SCARYFACE" },
+    { at_level = 19, name = "HEADBUTT" },
+    { at_level = 22, name = "WORKUP" },
+    { at_level = 25, name = "SCREECH" },
+    { at_level = 28, name = "IRONDEFENSE" },
+    { at_level = 31, name = "DRAGONCLAW" },
+    { at_level = 34, name = "NOBLEROAR" },
+    { at_level = 37, name = "DRAGONDANCE" },
+    { at_level = 40, name = "OUTRAGE" },
+]
+raw_tms = [
+    "WORKUP",
+    "DRAGONCLAW",
+    "ROAR",
+    "TOXIC",
+    "BULKUP",
+    "HIDDENPOWER",
+    "TAUNT",
+    "PROTECT",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "EARTHQUAKE",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "SANDSTORM",
+    "ROCKTOMB",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ECHOEDVOICE",
+    "FOCUSBLAST",
+    "FALSESWIPE",
+    "FLING",
+    "SHADOWCLAW",
+    "PAYBACK",
+    "SWORDSDANCE",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "XSCISSOR",
+    "DRAGONTAIL",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "SCREECH",
+    "SCARYFACE",
+    "REVERSAL",
+    "ENDURE",
+    "DRAGONDANCE",
+]
+raw_tutor_moves = [
+    "AQUATAIL",
+    "DRACOMETEOR",
+    "DRAGONPULSE",
+    "DUALCHOP",
+    "FOCUSPUNCH",
+    "IRONDEFENSE",
+    "IRONHEAD",
+    "IRONTAIL",
+    "LOWKICK",
+    "MIMIC",
+    "OUTRAGE",
+    "SCALESHOT",
+    "SNORE",
+    "UPROAR",
+]
+compatible_egg_groups = [
+    "Dragon",
+]
 steps_to_hatch = 10240
 height = 0.6
 weight = 29.7
@@ -20,73 +99,16 @@ pokedex_entry = "It expresses its feelings by smacking its scales. Metallic soun
 battler_player_y = 20
 battler_enemy_y = 26
 battler_altitude = 0
-form_names = []
-dex_number = 782
 internal_name = "JANGMOO"
 raw_hidden_ability = "OVERCOAT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "BIDE"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "PROTECT"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "DRAGONTAIL"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "SCARYFACE"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "HEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "WORKUP"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "SCREECH"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "IRONDEFENSE"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "DRAGONCLAW"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "NOBLEROAR"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "DRAGONDANCE"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "OUTRAGE"
-
-[[evolutions]]
-into_name = "HAKAMOO"
-condition = "Level"
-parameter = "35"
-
-
+raw_egg_moves = [
+    "COUNTER",
+    "DRAGONBREATH",
+    "REVERSAL",
+]
+evolutions = [
+    { into_name = "HAKAMOO", condition = "Level", parameter = "35" },
+]
 
 [base_stats]
 hp = 45

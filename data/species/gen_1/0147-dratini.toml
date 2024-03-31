@@ -1,3 +1,4 @@
+dex_number = 147
 name = "Dratini"
 primary_type = "DRAGON"
 secondary_type = "DRAGON"
@@ -6,11 +7,99 @@ growth_rate = "Slow"
 exp_yield = 60
 catch_rate = 45
 caught_happiness = 35
-raw_abilities = ["SHEDSKIN", "MARVELSCALE"]
-raw_egg_moves = ["AQUAJET", "DRAGONBREATH", "DRAGONDANCE", "DRAGONPULSE", "DRAGONRUSH", "EXTREMESPEED", "HAZE", "IRONTAIL", "MIST", "SUPERSONIC", "WATERPULSE"]
-raw_tms = ["SURF", "WATERFALL", "TOXIC", "HAIL", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "FIREBLAST", "FACADE", "REST", "ATTRACT", "ROUND", "BRUTALSWING", "GIGAIMPACT", "THUNDERWAVE", "DRAGONTAIL", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "FIRESPIN", "WHIRLPOOL", "BREAKINGSWIPE", "BODYSLAM", "HYDROPUMP", "AGILITY", "ENDURE", "DRAGONDANCE", "CHILLINGWATER", "SWIFT"]
-raw_tutor_moves = ["AQUATAIL", "BIND", "DRACOMETEOR", "DRAGONPULSE", "HEADBUTT", "ICYWIND", "IRONTAIL", "OUTRAGE", "SHOCKWAVE", "SNORE", "TWISTER", "WATERPULSE", "SCALESHOT", "EXTREMESPEED", "MIMIC"]
-compatible_egg_groups = ["Water1", "Dragon"]
+raw_abilities = [
+    "SHEDSKIN",
+    "MARVELSCALE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "LEER" },
+    { at_level = 1, name = "WRAP" },
+    { at_level = 1, name = "MIST" },
+    { at_level = 4, name = "WHIRLPOOL" },
+    { at_level = 7, name = "TWISTER" },
+    { at_level = 10, name = "FIRESPIN" },
+    { at_level = 13, name = "WATERPULSE" },
+    { at_level = 16, name = "DRAGONTAIL" },
+    { at_level = 19, name = "AQUAJET" },
+    { at_level = 22, name = "SAFEGUARD" },
+    { at_level = 25, name = "DRAGONBREATH" },
+    { at_level = 28, name = "AGILITY" },
+    { at_level = 31, name = "SAFEGUARD" },
+    { at_level = 34, name = "COIL" },
+    { at_level = 37, name = "BODYSLAM" },
+    { at_level = 40, name = "HAZE" },
+    { at_level = 44, name = "AQUATAIL" },
+    { at_level = 48, name = "EXTREMESPEED" },
+    { at_level = 52, name = "DRAGONRUSH" },
+    { at_level = 56, name = "DOUBLEEDGE" },
+]
+raw_tms = [
+    "SURF",
+    "WATERFALL",
+    "TOXIC",
+    "HAIL",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "ICEBEAM",
+    "BLIZZARD",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "THUNDERBOLT",
+    "THUNDER",
+    "RETURN",
+    "DOUBLETEAM",
+    "REFLECT",
+    "FLAMETHROWER",
+    "FIREBLAST",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "BRUTALSWING",
+    "GIGAIMPACT",
+    "THUNDERWAVE",
+    "DRAGONTAIL",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "FIRESPIN",
+    "WHIRLPOOL",
+    "BREAKINGSWIPE",
+    "BODYSLAM",
+    "HYDROPUMP",
+    "AGILITY",
+    "ENDURE",
+    "DRAGONDANCE",
+    "CHILLINGWATER",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AQUATAIL",
+    "BIND",
+    "DRACOMETEOR",
+    "DRAGONPULSE",
+    "EXTREMESPEED",
+    "HEADBUTT",
+    "ICYWIND",
+    "IRONTAIL",
+    "MIMIC",
+    "OUTRAGE",
+    "SCALESHOT",
+    "SHOCKWAVE",
+    "SNORE",
+    "TWISTER",
+    "WATERPULSE",
+]
+compatible_egg_groups = [
+    "Water1",
+    "Dragon",
+]
 steps_to_hatch = 10455
 height = 1.8
 weight = 3.3
@@ -20,97 +109,23 @@ pokedex_entry = "A Dratini continually molts and sloughs off its old skin. It do
 battler_player_y = 24
 battler_enemy_y = 19
 battler_altitude = 0
-form_names = []
-dex_number = 147
-internal_name = "DRATINI"
+raw_egg_moves = [
+    "AQUAJET",
+    "DRAGONBREATH",
+    "DRAGONDANCE",
+    "DRAGONPULSE",
+    "DRAGONRUSH",
+    "EXTREMESPEED",
+    "HAZE",
+    "IRONTAIL",
+    "MIST",
+    "SUPERSONIC",
+    "WATERPULSE",
+]
 habitat = "WatersEdge"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WRAP"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "MIST"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "WHIRLPOOL"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "TWISTER"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "FIRESPIN"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "WATERPULSE"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "DRAGONTAIL"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "AQUAJET"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "SAFEGUARD"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "DRAGONBREATH"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "AGILITY"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "SAFEGUARD"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "COIL"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "HAZE"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "AQUATAIL"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "EXTREMESPEED"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "DRAGONRUSH"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "DOUBLEEDGE"
-
-[[evolutions]]
-into_name = "DRAGONAIR"
-condition = "Level"
-parameter = "30"
-
-
+evolutions = [
+    { into_name = "DRAGONAIR", condition = "Level", parameter = "30" },
+]
 
 [base_stats]
 hp = 41

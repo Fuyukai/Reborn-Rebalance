@@ -1,3 +1,4 @@
+dex_number = 564
 name = "Tirtouga"
 primary_type = "WATER"
 secondary_type = "ROCK"
@@ -6,11 +7,97 @@ growth_rate = "Medium"
 exp_yield = 71
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["SOLIDROCK", "STURDY"]
-raw_egg_moves = ["BIDE", "BODYSLAM", "FLAIL", "GUARDSWAP", "IRONDEFENSE", "KNOCKOFF", "LIQUIDATION", "ROCKTHROW", "SLAM", "WATERPULSE", "WHIRLPOOL"]
-raw_tms = ["SURF", "STRENGTH", "WATERFALL", "TOXIC", "DIVE", "ROCKSMASH", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "SMACKDOWN", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "SANDSTORM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "SCALD", "ROCKPOLISH", "STONEEDGE", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "WHIRLPOOL", "ROCKBLAST", "MUDSHOT", "BRINE", "GUARDSWAP", "CRUNCH", "BODYSLAM", "HYDROPUMP", "ENDURE", "MUDDYWATER"]
-raw_tutor_moves = ["AQUATAIL", "BLOCK", "EARTHPOWER", "ICYWIND", "IRONDEFENSE", "IRONTAIL", "KNOCKOFF", "LIQUIDATION", "SNORE", "STEALTHROCK", "WATERPULSE", "ZENHEADBUTT", "METEORBEAM", "MIMIC", "WAVECRASH"]
-compatible_egg_groups = ["Water1", "Water3"]
+raw_abilities = [
+    "SOLIDROCK",
+    "STURDY",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "WATERGUN" },
+    { at_level = 1, name = "WITHDRAW" },
+    { at_level = 3, name = "PROTECT" },
+    { at_level = 6, name = "AQUAJET" },
+    { at_level = 9, name = "SMACKDOWN" },
+    { at_level = 12, name = "ANCIENTPOWER" },
+    { at_level = 15, name = "BITE" },
+    { at_level = 18, name = "WHIRLPOOL" },
+    { at_level = 21, name = "RAZORSHELL" },
+    { at_level = 24, name = "ROCKSLIDE" },
+    { at_level = 27, name = "CRUNCH" },
+    { at_level = 30, name = "CURSE" },
+    { at_level = 33, name = "IRONDEFENSE" },
+    { at_level = 36, name = "AQUATAIL" },
+    { at_level = 39, name = "BODYSLAM" },
+    { at_level = 42, name = "WIDEGUARD" },
+    { at_level = 45, name = "HYDROPUMP" },
+    { at_level = 48, name = "SHELLSMASH" },
+    { at_level = 53, name = "WAVECRASH" },
+]
+raw_tms = [
+    "SURF",
+    "STRENGTH",
+    "WATERFALL",
+    "TOXIC",
+    "DIVE",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "ICEBEAM",
+    "BLIZZARD",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "SMACKDOWN",
+    "EARTHQUAKE",
+    "RETURN",
+    "DOUBLETEAM",
+    "SANDSTORM",
+    "ROCKTOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "SCALD",
+    "ROCKPOLISH",
+    "STONEEDGE",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "DIG",
+    "WHIRLPOOL",
+    "ROCKBLAST",
+    "MUDSHOT",
+    "BRINE",
+    "GUARDSWAP",
+    "CRUNCH",
+    "BODYSLAM",
+    "HYDROPUMP",
+    "ENDURE",
+    "MUDDYWATER",
+]
+raw_tutor_moves = [
+    "AQUATAIL",
+    "BLOCK",
+    "EARTHPOWER",
+    "ICYWIND",
+    "IRONDEFENSE",
+    "IRONTAIL",
+    "KNOCKOFF",
+    "LIQUIDATION",
+    "METEORBEAM",
+    "MIMIC",
+    "SNORE",
+    "STEALTHROCK",
+    "WATERPULSE",
+    "WAVECRASH",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Water1",
+    "Water3",
+]
 steps_to_hatch = 7680
 height = 0.7
 weight = 16.5
@@ -20,93 +107,23 @@ pokedex_entry = "About 100 million years ago, these Pokémon swam in oceans. It 
 battler_player_y = 28
 battler_enemy_y = 24
 battler_altitude = 2
-form_names = []
-dex_number = 564
-internal_name = "TIRTOUGA"
 raw_hidden_ability = "SWIFTSWIM"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WATERGUN"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WITHDRAW"
-
-[[raw_level_up_moves]]
-at_level = 3
-name = "PROTECT"
-
-[[raw_level_up_moves]]
-at_level = 6
-name = "AQUAJET"
-
-[[raw_level_up_moves]]
-at_level = 9
-name = "SMACKDOWN"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "ANCIENTPOWER"
-
-[[raw_level_up_moves]]
-at_level = 15
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "WHIRLPOOL"
-
-[[raw_level_up_moves]]
-at_level = 21
-name = "RAZORSHELL"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "ROCKSLIDE"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "CURSE"
-
-[[raw_level_up_moves]]
-at_level = 33
-name = "IRONDEFENSE"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "AQUATAIL"
-
-[[raw_level_up_moves]]
-at_level = 39
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "WIDEGUARD"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "HYDROPUMP"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "SHELLSMASH"
-
-[[raw_level_up_moves]]
-at_level = 53
-name = "WAVECRASH"
-
-[[evolutions]]
-into_name = "CARRACOSTA"
-condition = "Level"
-parameter = "37"
-
-
+raw_egg_moves = [
+    "BIDE",
+    "BODYSLAM",
+    "FLAIL",
+    "GUARDSWAP",
+    "IRONDEFENSE",
+    "KNOCKOFF",
+    "LIQUIDATION",
+    "ROCKTHROW",
+    "SLAM",
+    "WATERPULSE",
+    "WHIRLPOOL",
+]
+evolutions = [
+    { into_name = "CARRACOSTA", condition = "Level", parameter = "37" },
+]
 
 [base_stats]
 hp = 54
@@ -123,5 +140,3 @@ def_ = 1
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

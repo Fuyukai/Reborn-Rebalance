@@ -1,3 +1,4 @@
+dex_number = 127
 name = "Pinsir"
 primary_type = "BUG"
 secondary_type = "BUG"
@@ -6,11 +7,99 @@ growth_rate = "Slow"
 exp_yield = 175
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["HYPERCUTTER", "MOLDBREAKER"]
-raw_egg_moves = ["BUGBITE", "CLOSECOMBAT", "FEINTATTACK", "FEINT", "FLAIL", "FURYATTACK", "MEFIRST", "QUICKATTACK", "SUPERPOWER"]
-raw_tms = ["CUT", "STRENGTH", "TOXIC", "ROCKSMASH", "BULKUP", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "SMACKDOWN", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "FOCUSBLAST", "FALSESWIPE", "FLING", "BRUTALSWING", "GIGAIMPACT", "STONEEDGE", "SWORDSDANCE", "STRUGGLEBUG", "BULLDOZE", "ROCKSLIDE", "XSCISSOR", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "REVENGE", "BODYSLAM", "CLOSECOMBAT", "FOCUSENERGY", "REVERSAL", "ENDURE", "HIGHHORSEPOWER"]
-raw_tutor_moves = ["BIND", "BUGBITE", "FOCUSPUNCH", "FURYCUTTER", "HEADBUTT", "HELPINGHAND", "IRONDEFENSE", "KNOCKOFF", "OUTRAGE", "SNORE", "STEALTHROCK", "STRINGSHOT", "SUPERPOWER", "THROATCHOP", "MIMIC"]
-compatible_egg_groups = ["Bug"]
+raw_abilities = [
+    "HYPERCUTTER",
+    "MOLDBREAKER",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "BIND" },
+    { at_level = 4, name = "HARDEN" },
+    { at_level = 7, name = "SEISMICTOSS" },
+    { at_level = 10, name = "QUICKATTACK" },
+    { at_level = 13, name = "BUGBITE" },
+    { at_level = 16, name = "REVENGE" },
+    { at_level = 19, name = "VITALTHROW" },
+    { at_level = 22, name = "DOUBLEHIT" },
+    { at_level = 25, name = "BRICKBREAK" },
+    { at_level = 28, name = "XSCISSOR" },
+    { at_level = 31, name = "STORMTHROW" },
+    { at_level = 35, name = "SWORDSDANCE" },
+    { at_level = 38, name = "LUNGE" },
+    { at_level = 42, name = "CLOSECOMBAT" },
+    { at_level = 46, name = "STORMTHROW" },
+    { at_level = 51, name = "MEGAHORN" },
+    { at_level = 56, name = "SUPERPOWER" },
+    { at_level = 60, name = "GUILLOTINE" },
+]
+raw_tms = [
+    "CUT",
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "BULKUP",
+    "ROCKCLIMB",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "SMACKDOWN",
+    "EARTHQUAKE",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "ROCKTOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "FOCUSBLAST",
+    "FALSESWIPE",
+    "FLING",
+    "BRUTALSWING",
+    "GIGAIMPACT",
+    "STONEEDGE",
+    "SWORDSDANCE",
+    "STRUGGLEBUG",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "XSCISSOR",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "DIG",
+    "REVENGE",
+    "BODYSLAM",
+    "CLOSECOMBAT",
+    "FOCUSENERGY",
+    "REVERSAL",
+    "ENDURE",
+    "HIGHHORSEPOWER",
+]
+raw_tutor_moves = [
+    "BIND",
+    "BUGBITE",
+    "FOCUSPUNCH",
+    "FURYCUTTER",
+    "HEADBUTT",
+    "HELPINGHAND",
+    "IRONDEFENSE",
+    "KNOCKOFF",
+    "MIMIC",
+    "OUTRAGE",
+    "SNORE",
+    "STEALTHROCK",
+    "STRINGSHOT",
+    "SUPERPOWER",
+    "THROATCHOP",
+]
+compatible_egg_groups = [
+    "Bug",
+]
 steps_to_hatch = 6630
 height = 1.5
 weight = 55.0
@@ -20,84 +109,19 @@ pokedex_entry = "Their pincers are strong enough to shatter thick logs. Because 
 battler_player_y = 17
 battler_enemy_y = 10
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 127
-internal_name = "PINSIR"
 raw_hidden_ability = "MOXIE"
+raw_egg_moves = [
+    "BUGBITE",
+    "CLOSECOMBAT",
+    "FEINTATTACK",
+    "FEINT",
+    "FLAIL",
+    "FURYATTACK",
+    "MEFIRST",
+    "QUICKATTACK",
+    "SUPERPOWER",
+]
 habitat = "Forest"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BIND"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "HARDEN"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "SEISMICTOSS"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "QUICKATTACK"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "BUGBITE"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "REVENGE"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "VITALTHROW"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "DOUBLEHIT"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "BRICKBREAK"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "XSCISSOR"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "STORMTHROW"
-
-[[raw_level_up_moves]]
-at_level = 35
-name = "SWORDSDANCE"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "LUNGE"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "CLOSECOMBAT"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "STORMTHROW"
-
-[[raw_level_up_moves]]
-at_level = 51
-name = "MEGAHORN"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "SUPERPOWER"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "GUILLOTINE"
 
 [base_stats]
 hp = 65
@@ -114,5 +138,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

@@ -1,3 +1,4 @@
+dex_number = 373
 name = "Salamence"
 primary_type = "DRAGON"
 secondary_type = "FLYING"
@@ -6,11 +7,119 @@ growth_rate = "Slow"
 exp_yield = 270
 catch_rate = 45
 caught_happiness = 35
-raw_abilities = ["INTIMIDATE", "MOXIE"]
-raw_egg_moves = []
-raw_tms = ["CUT", "DRAGONCLAW", "FLY", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "FRUSTRATION", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "FLAMETHROWER", "FIREBLAST", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "STEELWING", "BRUTALSWING", "SHADOWCLAW", "GIGAIMPACT", "STONEEDGE", "BULLDOZE", "ROCKSLIDE", "DRAGONTAIL", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "SCARYFACE", "THUNDERFANG", "FIREFANG", "CRUNCH", "AIRSLASH", "BREAKINGSWIPE", "BODYSLAM", "HYDROPUMP", "HURRICANE", "FOCUSENERGY", "ENDURE", "DRAGONDANCE", "SWIFT"]
-raw_tutor_moves = ["AIRCUTTER", "AQUATAIL", "DEFOG", "DRACOMETEOR", "DRAGONPULSE", "FURYCUTTER", "HEADBUTT", "HEATWAVE", "HYPERVOICE", "IRONDEFENSE", "IRONTAIL", "LASERFOCUS", "MUDSLAP", "OMINOUSWIND", "OUTRAGE", "ROLLOUT", "SNORE", "TAILWIND", "TWISTER", "ZENHEADBUTT", "DUALWINGBEAT", "MIMIC"]
-compatible_egg_groups = ["Dragon"]
+raw_abilities = [
+    "INTIMIDATE",
+    "MOXIE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "FIREFANG" },
+    { at_level = 1, name = "THUNDERFANG" },
+    { at_level = 1, name = "WISH" },
+    { at_level = 1, name = "TWISTER" },
+    { at_level = 3, name = "EMBER" },
+    { at_level = 7, name = "DRAGONBREATH" },
+    { at_level = 10, name = "BITE" },
+    { at_level = 13, name = "BREAKINGSWIPE" },
+    { at_level = 16, name = "HEADBUTT" },
+    { at_level = 18, name = "SCARYFACE" },
+    { at_level = 20, name = "FIREFANG" },
+    { at_level = 22, name = "DRAGONRAGE" },
+    { at_level = 24, name = "CRUNCH" },
+    { at_level = 27, name = "ZENHEADBUTT" },
+    { at_level = 30, name = "IRONDEFENSE" },
+    { at_level = 34, name = "BODYSLAM" },
+    { at_level = 38, name = "FLAMETHROWER" },
+    { at_level = 42, name = "DRAGONRUSH" },
+    { at_level = 46, name = "DOUBLEEDGE" },
+    { at_level = 50, name = "FLY" },
+    { at_level = 51, name = "RAGINGFURY" },
+    { at_level = 56, name = "OUTRAGE" },
+    { at_level = 61, name = "HYDROPUMP" },
+    { at_level = 67, name = "DUALWINGBEAT" },
+    { at_level = 72, name = "DRAGONDANCE" },
+]
+raw_tms = [
+    "CUT",
+    "DRAGONCLAW",
+    "FLY",
+    "STRENGTH",
+    "ROAR",
+    "TOXIC",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "ROOST",
+    "ROOST",
+    "FRUSTRATION",
+    "EARTHQUAKE",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "FLAMETHROWER",
+    "FIREBLAST",
+    "ROCKTOMB",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "STEELWING",
+    "BRUTALSWING",
+    "SHADOWCLAW",
+    "GIGAIMPACT",
+    "STONEEDGE",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "DRAGONTAIL",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "SCARYFACE",
+    "THUNDERFANG",
+    "FIREFANG",
+    "CRUNCH",
+    "AIRSLASH",
+    "BREAKINGSWIPE",
+    "BODYSLAM",
+    "HYDROPUMP",
+    "HURRICANE",
+    "FOCUSENERGY",
+    "ENDURE",
+    "DRAGONDANCE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AIRCUTTER",
+    "AQUATAIL",
+    "DEFOG",
+    "DRACOMETEOR",
+    "DRAGONPULSE",
+    "DUALWINGBEAT",
+    "FURYCUTTER",
+    "HEADBUTT",
+    "HEATWAVE",
+    "HYPERVOICE",
+    "IRONDEFENSE",
+    "IRONTAIL",
+    "LASERFOCUS",
+    "MIMIC",
+    "MUDSLAP",
+    "OMINOUSWIND",
+    "OUTRAGE",
+    "ROLLOUT",
+    "SNORE",
+    "TAILWIND",
+    "TWISTER",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Dragon",
+]
 steps_to_hatch = 10455
 height = 1.5
 weight = 102.6
@@ -20,111 +129,7 @@ pokedex_entry = "After many long years, its cellular structure underwent a sudde
 battler_player_y = 10
 battler_enemy_y = 15
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 373
-internal_name = "SALAMENCE"
 habitat = "RoughTerrain"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FIREFANG"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "THUNDERFANG"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WISH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TWISTER"
-
-[[raw_level_up_moves]]
-at_level = 3
-name = "EMBER"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "DRAGONBREATH"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "BREAKINGSWIPE"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "HEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "SCARYFACE"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "FIREFANG"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "DRAGONRAGE"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "ZENHEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "IRONDEFENSE"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "FLAMETHROWER"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "DRAGONRUSH"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "DOUBLEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "FLY"
-
-[[raw_level_up_moves]]
-at_level = 51
-name = "RAGINGFURY"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "OUTRAGE"
-
-[[raw_level_up_moves]]
-at_level = 61
-name = "HYDROPUMP"
-
-[[raw_level_up_moves]]
-at_level = 67
-name = "DUALWINGBEAT"
-
-[[raw_level_up_moves]]
-at_level = 72
-name = "DRAGONDANCE"
 
 [base_stats]
 hp = 95

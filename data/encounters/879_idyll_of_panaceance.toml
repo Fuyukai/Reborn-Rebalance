@@ -1,137 +1,44 @@
-chances = [8, 2, 20]
+chances = [
+    8,
+    2,
+    20,
+]
 
 [encounters]
-[[encounters.Land]]
-name = "SHIFTRY"
-minimum_level = 113
-maximum_level = 120
-
-[[encounters.Land]]
-name = "WHIMSICOTT"
-minimum_level = 113
-maximum_level = 120
-
-[[encounters.Land]]
-name = "SWELLOW"
-minimum_level = 113
-maximum_level = 120
-
-[[encounters.Land]]
-name = "URSARING"
-minimum_level = 113
-maximum_level = 120
-
-[[encounters.Land]]
-name = "MUK"
-minimum_level = 113
-maximum_level = 120
-
-[[encounters.Land]]
-name = "BRELOOM"
-minimum_level = 113
-maximum_level = 120
-
-[[encounters.Land]]
-name = "KARTANA"
-minimum_level = 114
-maximum_level = 121
-
-[[encounters.Land]]
-name = "FLORGES"
-minimum_level = 113
-maximum_level = 120
-
-[[encounters.Land]]
-name = "SAWSBUCK"
-minimum_level = 113
-maximum_level = 120
-
-[[encounters.Land]]
-name = "CALYREX"
-minimum_level = 113
-maximum_level = 120
-
-[[encounters.Land]]
-name = "KARTANA"
-minimum_level = 115
-maximum_level = 122
-
-[[encounters.Land]]
-name = "FLORGES"
-minimum_level = 114
-maximum_level = 121
-
-[[encounters.Water]]
-name = "FLOATZEL"
-minimum_level = 116
-maximum_level = 118
-
-[[encounters.Water]]
-name = "VAPOREON"
-minimum_level = 116
-maximum_level = 116
-
-[[encounters.Water]]
-name = "WAILMER"
-minimum_level = 116
-maximum_level = 118
-
-[[encounters.Water]]
-name = "GOLDUCK"
-minimum_level = 116
-maximum_level = 118
-
-[[encounters.Water]]
-name = "DEWGONG"
-minimum_level = 116
-maximum_level = 120
-
-[[encounters.OldRod]]
-name = "FEEBAS"
-minimum_level = 114
-maximum_level = 120
-
-[[encounters.OldRod]]
-name = "SEEL"
-minimum_level = 114
-maximum_level = 120
-
-[[encounters.GoodRod]]
-name = "WISHIWASHI"
-minimum_level = 114
-maximum_level = 120
-
-[[encounters.GoodRod]]
-name = "PYUKUMUKU"
-minimum_level = 113
-maximum_level = 119
-
-[[encounters.GoodRod]]
-name = "DEWGONG"
-minimum_level = 112
-maximum_level = 119
-
-[[encounters.SuperRod]]
-name = "LUDICOLO"
-minimum_level = 113
-maximum_level = 120
-
-[[encounters.SuperRod]]
-name = "VAPOREON"
-minimum_level = 114
-maximum_level = 120
-
-[[encounters.SuperRod]]
-name = "MILOTIC"
-minimum_level = 112
-maximum_level = 119
-
-[[encounters.SuperRod]]
-name = "CLAWITZER"
-minimum_level = 113
-maximum_level = 120
-
-[[encounters.SuperRod]]
-name = "VAPOREON"
-minimum_level = 114
-maximum_level = 121
+Land = [
+    { name = "SHIFTRY", minimum_level = 113, maximum_level = 120 },
+    { name = "WHIMSICOTT", minimum_level = 113, maximum_level = 120 },
+    { name = "SWELLOW", minimum_level = 113, maximum_level = 120 },
+    { name = "URSARING", minimum_level = 113, maximum_level = 120 },
+    { name = "MUK", minimum_level = 113, maximum_level = 120 },
+    { name = "BRELOOM", minimum_level = 113, maximum_level = 120 },
+    { name = "KARTANA", minimum_level = 114, maximum_level = 121 },
+    { name = "FLORGES", minimum_level = 113, maximum_level = 120 },
+    { name = "SAWSBUCK", minimum_level = 113, maximum_level = 120 },
+    { name = "CALYREX", minimum_level = 113, maximum_level = 120 },
+    { name = "KARTANA", minimum_level = 115, maximum_level = 122 },
+    { name = "FLORGES", minimum_level = 114, maximum_level = 121 },
+]
+Water = [
+    { name = "FLOATZEL", minimum_level = 116, maximum_level = 118 },
+    { name = "VAPOREON", minimum_level = 116, maximum_level = 116 },
+    { name = "WAILMER", minimum_level = 116, maximum_level = 118 },
+    { name = "GOLDUCK", minimum_level = 116, maximum_level = 118 },
+    { name = "DEWGONG", minimum_level = 116, maximum_level = 120 },
+]
+OldRod = [
+    { name = "FEEBAS", minimum_level = 114, maximum_level = 120 },
+    { name = "SEEL", minimum_level = 114, maximum_level = 120 },
+]
+GoodRod = [
+    { name = "WISHIWASHI", minimum_level = 114, maximum_level = 120 },
+    { name = "PYUKUMUKU", minimum_level = 113, maximum_level = 119 },
+    { name = "DEWGONG", minimum_level = 112, maximum_level = 119 },
+]
+SuperRod = [
+    { name = "LUDICOLO", minimum_level = 113, maximum_level = 120 },
+    { name = "VAPOREON", minimum_level = 114, maximum_level = 120 },
+    { name = "MILOTIC", minimum_level = 112, maximum_level = 119 },
+    { name = "CLAWITZER", minimum_level = 113, maximum_level = 120 },
+    { name = "VAPOREON", minimum_level = 114, maximum_level = 121 },
+]

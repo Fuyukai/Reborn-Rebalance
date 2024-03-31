@@ -1,3 +1,4 @@
+dex_number = 444
 name = "Gabite"
 primary_type = "DRAGON"
 secondary_type = "GROUND"
@@ -6,11 +7,95 @@ growth_rate = "Slow"
 exp_yield = 144
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["ROUGHSKIN"]
-raw_egg_moves = []
-raw_tms = ["CUT", "DRAGONCLAW", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "RAINDANCE", "FRUSTRATION", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "FLAMETHROWER", "SANDSTORM", "FIREBLAST", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "SHADOWCLAW", "STONEEDGE", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "SCARYFACE", "SANDTOMB", "MUDSHOT", "BODYSLAM", "HYDROPUMP", "ENDURE", "SWIFT"]
-raw_tutor_moves = ["DRACOMETEOR", "DRAGONPULSE", "DUALCHOP", "EARTHPOWER", "FURYCUTTER", "HEADBUTT", "IRONHEAD", "IRONTAIL", "LASERFOCUS", "MUDSLAP", "OUTRAGE", "SNORE", "STEALTHROCK", "TWISTER", "SCORCHINGSANDS", "SCALESHOT", "MIMIC"]
-compatible_egg_groups = ["Monster", "Dragon"]
+raw_abilities = [
+    "ROUGHSKIN",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 1, name = "SANDATTACK" },
+    { at_level = 7, name = "DRAGONBREATH" },
+    { at_level = 10, name = "MUDSHOT" },
+    { at_level = 13, name = "TAKEDOWN" },
+    { at_level = 16, name = "BREAKINGSWIPE" },
+    { at_level = 19, name = "SCORCHINGSANDS" },
+    { at_level = 22, name = "BULLDOZE" },
+    { at_level = 24, name = "METALCLAW" },
+    { at_level = 27, name = "SLASH" },
+    { at_level = 30, name = "SCARYFACE" },
+    { at_level = 34, name = "DUALCHOP" },
+    { at_level = 38, name = "ROCKSLIDE" },
+    { at_level = 42, name = "SANDSTORM" },
+    { at_level = 46, name = "DRAGONRUSH" },
+    { at_level = 50, name = "RAGINGFURY" },
+    { at_level = 55, name = "STONEEDGE" },
+    { at_level = 60, name = "OUTRAGE" },
+]
+raw_tms = [
+    "CUT",
+    "DRAGONCLAW",
+    "STRENGTH",
+    "ROAR",
+    "TOXIC",
+    "ROCKSMASH",
+    "ROCKCLIMB",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "EARTHQUAKE",
+    "RETURN",
+    "DOUBLETEAM",
+    "FLAMETHROWER",
+    "SANDSTORM",
+    "FIREBLAST",
+    "ROCKTOMB",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "SHADOWCLAW",
+    "STONEEDGE",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "DIG",
+    "SCARYFACE",
+    "SANDTOMB",
+    "MUDSHOT",
+    "BODYSLAM",
+    "HYDROPUMP",
+    "ENDURE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "DRACOMETEOR",
+    "DRAGONPULSE",
+    "DUALCHOP",
+    "EARTHPOWER",
+    "FURYCUTTER",
+    "HEADBUTT",
+    "IRONHEAD",
+    "IRONTAIL",
+    "LASERFOCUS",
+    "MIMIC",
+    "MUDSLAP",
+    "OUTRAGE",
+    "SCALESHOT",
+    "SCORCHINGSANDS",
+    "SNORE",
+    "STEALTHROCK",
+    "TWISTER",
+]
+compatible_egg_groups = [
+    "Monster",
+    "Dragon",
+]
 steps_to_hatch = 10455
 height = 1.4
 weight = 56.0
@@ -20,88 +105,9 @@ pokedex_entry = "There is a long-held belief that medicine made from its scales 
 battler_player_y = 18
 battler_enemy_y = 10
 battler_altitude = 0
-form_names = []
-dex_number = 444
-internal_name = "GABITE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SANDATTACK"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "DRAGONBREATH"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "MUDSHOT"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "TAKEDOWN"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "BREAKINGSWIPE"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "SCORCHINGSANDS"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "BULLDOZE"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "METALCLAW"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "SLASH"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "SCARYFACE"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "DUALCHOP"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "ROCKSLIDE"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "SANDSTORM"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "DRAGONRUSH"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "RAGINGFURY"
-
-[[raw_level_up_moves]]
-at_level = 55
-name = "STONEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "OUTRAGE"
-
-[[evolutions]]
-into_name = "GARCHOMP"
-condition = "Level"
-parameter = "48"
-
-
+evolutions = [
+    { into_name = "GARCHOMP", condition = "Level", parameter = "48" },
+]
 
 [base_stats]
 hp = 68
@@ -118,5 +124,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

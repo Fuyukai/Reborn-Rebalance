@@ -1,3 +1,4 @@
+dex_number = 630
 name = "Mandibuzz"
 primary_type = "DARK"
 secondary_type = "FLYING"
@@ -6,11 +7,102 @@ growth_rate = "Slow"
 exp_yield = 179
 catch_rate = 60
 caught_happiness = 35
-raw_abilities = ["OVERCOAT", "WEAKARMOR"]
-raw_egg_moves = []
-raw_tms = ["CUT", "FLY", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "FRUSTRATION", "RETURN", "SHADOWBALL", "DOUBLETEAM", "ROCKTOMB", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "STEELWING", "EMBARGO", "PAYBACK", "GIGAIMPACT", "PSYCHUP", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "SNARL", "DARKPULSE", "CONFIDE", "SCARYFACE", "FAKETEARS", "ASSURANCE", "AIRSLASH", "BRAVEBIRD", "ENDURE", "NASTYPLOT", "RETALIATE", "SWIFT"]
-raw_tutor_moves = ["AIRCUTTER", "BLOCK", "DEFOG", "FOULPLAY", "HEATWAVE", "IRONDEFENSE", "KNOCKOFF", "SKYATTACK", "SNATCH", "SNORE", "TAILWIND", "DUALWINGBEAT", "LASHOUT", "MIMIC"]
-compatible_egg_groups = ["Flying"]
+raw_abilities = [
+    "OVERCOAT",
+    "WEAKARMOR",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "LEER" },
+    { at_level = 1, name = "GUST" },
+    { at_level = 6, name = "FLATTER" },
+    { at_level = 12, name = "WINGATTACK" },
+    { at_level = 15, name = "PLUCK" },
+    { at_level = 18, name = "TAILWIND" },
+    { at_level = 21, name = "BLOCK" },
+    { at_level = 24, name = "IRONDEFENSE" },
+    { at_level = 27, name = "PAYBACK" },
+    { at_level = 30, name = "NASTYPLOT" },
+    { at_level = 33, name = "DUALWINGBEAT" },
+    { at_level = 36, name = "FAKETEARS" },
+    { at_level = 39, name = "WHIRLWIND" },
+    { at_level = 40, name = "DARKPULSE" },
+    { at_level = 40, name = "BONERUSH" },
+    { at_level = 44, name = "STEELWING" },
+    { at_level = 47, name = "AIRSLASH" },
+    { at_level = 51, name = "SCARYFACE" },
+    { at_level = 55, name = "FOULPLAY" },
+    { at_level = 58, name = "BRAVEBIRD" },
+    { at_level = 62, name = "ZENHEADBUTT" },
+    { at_level = 66, name = "DEFOG" },
+    { at_level = 70, name = "SUPERPOWER" },
+]
+raw_tms = [
+    "CUT",
+    "FLY",
+    "TOXIC",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "ROOST",
+    "ROOST",
+    "FRUSTRATION",
+    "RETURN",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "ROCKTOMB",
+    "AERIALACE",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "STEELWING",
+    "EMBARGO",
+    "PAYBACK",
+    "GIGAIMPACT",
+    "PSYCHUP",
+    "SWAGGER",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "SNARL",
+    "DARKPULSE",
+    "CONFIDE",
+    "SCARYFACE",
+    "FAKETEARS",
+    "ASSURANCE",
+    "AIRSLASH",
+    "BRAVEBIRD",
+    "ENDURE",
+    "NASTYPLOT",
+    "RETALIATE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AIRCUTTER",
+    "BLOCK",
+    "DEFOG",
+    "DUALWINGBEAT",
+    "FOULPLAY",
+    "HEATWAVE",
+    "IRONDEFENSE",
+    "KNOCKOFF",
+    "LASHOUT",
+    "MIMIC",
+    "SKYATTACK",
+    "SNATCH",
+    "SNORE",
+    "TAILWIND",
+]
+compatible_egg_groups = [
+    "Flying",
+]
 steps_to_hatch = 5120
 height = 1.2
 weight = 39.5
@@ -20,102 +112,6 @@ pokedex_entry = "Watching from the sky, they swoop to strike weakened Pokémon o
 battler_player_y = 18
 battler_enemy_y = 20
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 630
-internal_name = "MANDIBUZZ"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GUST"
-
-[[raw_level_up_moves]]
-at_level = 6
-name = "FLATTER"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "WINGATTACK"
-
-[[raw_level_up_moves]]
-at_level = 15
-name = "PLUCK"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "TAILWIND"
-
-[[raw_level_up_moves]]
-at_level = 21
-name = "BLOCK"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "IRONDEFENSE"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "PAYBACK"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "NASTYPLOT"
-
-[[raw_level_up_moves]]
-at_level = 33
-name = "DUALWINGBEAT"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "FAKETEARS"
-
-[[raw_level_up_moves]]
-at_level = 39
-name = "WHIRLWIND"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "DARKPULSE"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "BONERUSH"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "STEELWING"
-
-[[raw_level_up_moves]]
-at_level = 47
-name = "AIRSLASH"
-
-[[raw_level_up_moves]]
-at_level = 51
-name = "SCARYFACE"
-
-[[raw_level_up_moves]]
-at_level = 55
-name = "FOULPLAY"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "BRAVEBIRD"
-
-[[raw_level_up_moves]]
-at_level = 62
-name = "ZENHEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 66
-name = "DEFOG"
-
-[[raw_level_up_moves]]
-at_level = 70
-name = "SUPERPOWER"
 
 [base_stats]
 hp = 110
@@ -132,5 +128,3 @@ def_ = 0
 spa = 2
 spd = 0
 spe = 0
-
-[wild_items]

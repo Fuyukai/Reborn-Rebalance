@@ -30,6 +30,7 @@ into-toml = "reborn_rebalance.building.to_toml:import_to_toml"
 ruby-unmarshal = "reborn_rebalance.scripts.unmarshal:main"
 build-web = "reborn_rebalance.building.web:main"
 copy-compiled-files = "reborn_rebalance.scripts.copy_changes:main"
+resave-data = "reborn_rebalance.scripts.resave:main"
 
 [tool.poetry.group.dev.dependencies]
 ruff = ">=0.3.0"

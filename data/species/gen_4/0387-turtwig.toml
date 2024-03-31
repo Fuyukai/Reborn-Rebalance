@@ -1,3 +1,4 @@
+dex_number = 387
 name = "Turtwig"
 primary_type = "GRASS"
 secondary_type = "GRASS"
@@ -6,11 +7,90 @@ growth_rate = "Parabolic"
 exp_yield = 64
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["OVERGROW", "SHELLARMOR"]
-raw_egg_moves = ["AMNESIA", "BODYSLAM", "DOUBLEEDGE", "EARTHPOWER", "GRASSYTERRAIN", "GROWTH", "HEAVYSLAM", "SANDTOMB", "SEEDBOMB", "SPITUP", "STOCKPILE", "SUPERPOWER", "SWALLOW", "THRASH", "TICKLE", "WIDEGUARD", "WORRYSEED"]
-raw_tms = ["WORKUP", "CUT", "STRENGTH", "TOXIC", "ROCKSMASH", "FLASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "LIGHTSCREEN", "PROTECT", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "REFLECT", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "SWORDSDANCE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "SANDTOMB", "BULLETSEED", "CRUNCH", "GRASSYTERRAIN", "BODYSLAM", "LEAFSTORM", "AMNESIA", "ENDURE", "HEAVYSLAM"]
-raw_tutor_moves = ["EARTHPOWER", "GIGADRAIN", "GRASSPLEDGE", "HEADBUTT", "IRONTAIL", "MUDSLAP", "SEEDBOMB", "SNORE", "STEALTHROCK", "SUPERPOWER", "SYNTHESIS", "WORRYSEED", "MIMIC"]
-compatible_egg_groups = ["Monster", "Grass"]
+raw_abilities = [
+    "OVERGROW",
+    "SHELLARMOR",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 1, name = "WITHDRAW" },
+    { at_level = 5, name = "ABSORB" },
+    { at_level = 7, name = "RAZORLEAF" },
+    { at_level = 10, name = "CURSE" },
+    { at_level = 13, name = "BULLETSEED" },
+    { at_level = 16, name = "BITE" },
+    { at_level = 19, name = "GROWTH" },
+    { at_level = 22, name = "MEGADRAIN" },
+    { at_level = 25, name = "AMNESIA" },
+    { at_level = 28, name = "LEECHSEED" },
+    { at_level = 31, name = "WIDEGUARD" },
+    { at_level = 34, name = "BODYSLAM" },
+    { at_level = 37, name = "CRUNCH" },
+    { at_level = 40, name = "LEAFBLADE" },
+    { at_level = 43, name = "HEAVYSLAM" },
+    { at_level = 46, name = "SYNTHESIS" },
+    { at_level = 49, name = "SLEEPPOWDER" },
+]
+raw_tms = [
+    "WORKUP",
+    "CUT",
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "FLASH",
+    "ROCKCLIMB",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "DOUBLETEAM",
+    "REFLECT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ENERGYBALL",
+    "SWORDSDANCE",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "NATUREPOWER",
+    "CONFIDE",
+    "SANDTOMB",
+    "BULLETSEED",
+    "CRUNCH",
+    "GRASSYTERRAIN",
+    "BODYSLAM",
+    "LEAFSTORM",
+    "AMNESIA",
+    "ENDURE",
+    "HEAVYSLAM",
+]
+raw_tutor_moves = [
+    "EARTHPOWER",
+    "GIGADRAIN",
+    "GRASSPLEDGE",
+    "HEADBUTT",
+    "IRONTAIL",
+    "MIMIC",
+    "MUDSLAP",
+    "SEEDBOMB",
+    "SNORE",
+    "STEALTHROCK",
+    "SUPERPOWER",
+    "SYNTHESIS",
+    "WORRYSEED",
+]
+compatible_egg_groups = [
+    "Monster",
+    "Grass",
+]
 steps_to_hatch = 5355
 height = 0.4
 weight = 10.2
@@ -20,88 +100,28 @@ pokedex_entry = "Made from soil, the shell on its back hardens when it drinks wa
 battler_player_y = 27
 battler_enemy_y = 21
 battler_altitude = 0
-form_names = []
-dex_number = 387
-internal_name = "TURTWIG"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WITHDRAW"
-
-[[raw_level_up_moves]]
-at_level = 5
-name = "ABSORB"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "RAZORLEAF"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "CURSE"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "BULLETSEED"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "GROWTH"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "MEGADRAIN"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "AMNESIA"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "LEECHSEED"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "WIDEGUARD"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "LEAFBLADE"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "HEAVYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "SYNTHESIS"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "SLEEPPOWDER"
-
-[[evolutions]]
-into_name = "GROTLE"
-condition = "Level"
-parameter = "18"
-
-
+raw_egg_moves = [
+    "AMNESIA",
+    "BODYSLAM",
+    "DOUBLEEDGE",
+    "EARTHPOWER",
+    "GRASSYTERRAIN",
+    "GROWTH",
+    "HEAVYSLAM",
+    "SANDTOMB",
+    "SEEDBOMB",
+    "SPITUP",
+    "STOCKPILE",
+    "SUPERPOWER",
+    "SWALLOW",
+    "THRASH",
+    "TICKLE",
+    "WIDEGUARD",
+    "WORRYSEED",
+]
+evolutions = [
+    { into_name = "GROTLE", condition = "Level", parameter = "18" },
+]
 
 [base_stats]
 hp = 55
@@ -118,5 +138,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

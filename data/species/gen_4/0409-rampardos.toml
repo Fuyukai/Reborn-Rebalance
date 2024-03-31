@@ -1,3 +1,4 @@
+dex_number = 409
 name = "Rampardos"
 primary_type = "ROCK"
 secondary_type = "ROCK"
@@ -6,11 +7,123 @@ growth_rate = "Erratic"
 exp_yield = 173
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["RECKLESS", "SHEERFORCE"]
-raw_egg_moves = []
-raw_tms = ["CUT", "SURF", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "SMACKDOWN", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "FLAMETHROWER", "SANDSTORM", "FIREBLAST", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "FOCUSBLAST", "FLING", "PAYBACK", "GIGAIMPACT", "ROCKPOLISH", "STONEEDGE", "SWORDSDANCE", "BULLDOZE", "ROCKSLIDE", "DRAGONTAIL", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "DIG", "SCREECH", "SCARYFACE", "WHIRLPOOL", "ASSURANCE", "AVALANCHE", "CRUNCH", "FOCUSENERGY", "ENDURE"]
-raw_tutor_moves = ["ANCIENTPOWER", "DRAGONPULSE", "EARTHPOWER", "ENDEAVOR", "FIREPUNCH", "FOCUSPUNCH", "HEADBUTT", "IRONHEAD", "IRONTAIL", "LASERFOCUS", "MUDSLAP", "OUTRAGE", "PAINSPLIT", "SHOCKWAVE", "SNORE", "SPITE", "STEALTHROCK", "STOMPINGTANTRUM", "SUPERPOWER", "THUNDERPUNCH", "UPROAR", "ZENHEADBUTT", "POWERSHIFT", "HEADLONGRUSH", "MIMIC"]
-compatible_egg_groups = ["Monster"]
+raw_abilities = [
+    "RECKLESS",
+    "SHEERFORCE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "OUTRAGE" },
+    { at_level = 1, name = "HEADBUTT" },
+    { at_level = 1, name = "LEER" },
+    { at_level = 6, name = "FOCUSENERGY" },
+    { at_level = 9, name = "PURSUIT" },
+    { at_level = 12, name = "ROCKSLIDE" },
+    { at_level = 15, name = "SCARYFACE" },
+    { at_level = 18, name = "TAKEDOWN" },
+    { at_level = 21, name = "ASSURANCE" },
+    { at_level = 24, name = "CHIPAWAY" },
+    { at_level = 27, name = "ZENHEADBUTT" },
+    { at_level = 30, name = "ENDEAVOR" },
+    { at_level = 31, name = "SCREECH" },
+    { at_level = 35, name = "CRUNCH" },
+    { at_level = 39, name = "ROCKPOLISH" },
+    { at_level = 43, name = "HEADCHARGE" },
+    { at_level = 47, name = "STONEEDGE" },
+    { at_level = 51, name = "HAMMERARM" },
+    { at_level = 55, name = "HEADLONGRUSH" },
+    { at_level = 59, name = "RAGINGFURY" },
+    { at_level = 63, name = "DRAGONRUSH" },
+    { at_level = 67, name = "ACCELEROCK" },
+    { at_level = 71, name = "HEADSMASH" },
+]
+raw_tms = [
+    "CUT",
+    "SURF",
+    "STRENGTH",
+    "ROAR",
+    "TOXIC",
+    "ROCKSMASH",
+    "ROCKCLIMB",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "ICEBEAM",
+    "BLIZZARD",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "SMACKDOWN",
+    "THUNDERBOLT",
+    "THUNDER",
+    "EARTHQUAKE",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "FLAMETHROWER",
+    "SANDSTORM",
+    "FIREBLAST",
+    "ROCKTOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "FOCUSBLAST",
+    "FLING",
+    "PAYBACK",
+    "GIGAIMPACT",
+    "ROCKPOLISH",
+    "STONEEDGE",
+    "SWORDSDANCE",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "DRAGONTAIL",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "DIG",
+    "SCREECH",
+    "SCARYFACE",
+    "WHIRLPOOL",
+    "ASSURANCE",
+    "AVALANCHE",
+    "CRUNCH",
+    "FOCUSENERGY",
+    "ENDURE",
+]
+raw_tutor_moves = [
+    "ANCIENTPOWER",
+    "DRAGONPULSE",
+    "EARTHPOWER",
+    "ENDEAVOR",
+    "FIREPUNCH",
+    "FOCUSPUNCH",
+    "HEADBUTT",
+    "HEADLONGRUSH",
+    "IRONHEAD",
+    "IRONTAIL",
+    "LASERFOCUS",
+    "MIMIC",
+    "MUDSLAP",
+    "OUTRAGE",
+    "PAINSPLIT",
+    "POWERSHIFT",
+    "SHOCKWAVE",
+    "SNORE",
+    "SPITE",
+    "STEALTHROCK",
+    "STOMPINGTANTRUM",
+    "SUPERPOWER",
+    "THUNDERPUNCH",
+    "UPROAR",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Monster",
+]
 steps_to_hatch = 7905
 height = 1.6
 weight = 102.5
@@ -20,102 +133,6 @@ pokedex_entry = "Its powerful head-butt has enough power to shatter even the mos
 battler_player_y = 8
 battler_enemy_y = 2
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 409
-internal_name = "RAMPARDOS"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "OUTRAGE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 6
-name = "FOCUSENERGY"
-
-[[raw_level_up_moves]]
-at_level = 9
-name = "PURSUIT"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "ROCKSLIDE"
-
-[[raw_level_up_moves]]
-at_level = 15
-name = "SCARYFACE"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "TAKEDOWN"
-
-[[raw_level_up_moves]]
-at_level = 21
-name = "ASSURANCE"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "CHIPAWAY"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "ZENHEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "ENDEAVOR"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "SCREECH"
-
-[[raw_level_up_moves]]
-at_level = 35
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 39
-name = "ROCKPOLISH"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "HEADCHARGE"
-
-[[raw_level_up_moves]]
-at_level = 47
-name = "STONEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 51
-name = "HAMMERARM"
-
-[[raw_level_up_moves]]
-at_level = 55
-name = "HEADLONGRUSH"
-
-[[raw_level_up_moves]]
-at_level = 59
-name = "RAGINGFURY"
-
-[[raw_level_up_moves]]
-at_level = 63
-name = "DRAGONRUSH"
-
-[[raw_level_up_moves]]
-at_level = 67
-name = "ACCELEROCK"
-
-[[raw_level_up_moves]]
-at_level = 71
-name = "HEADSMASH"
 
 [base_stats]
 hp = 97
@@ -132,5 +149,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

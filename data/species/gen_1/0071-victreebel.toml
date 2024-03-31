@@ -1,3 +1,4 @@
+dex_number = 71
 name = "Victreebel"
 primary_type = "GRASS"
 secondary_type = "POISON"
@@ -6,11 +7,87 @@ growth_rate = "Parabolic"
 exp_yield = 216
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["CHLOROPHYLL", "GLUTTONY"]
-raw_egg_moves = []
-raw_tms = ["CUT", "TOXIC", "FLASH", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "FRUSTRATION", "SOLARBEAM", "RETURN", "LEECHLIFE", "DOUBLETEAM", "REFLECT", "SLUDGEBOMB", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ENERGYBALL", "GIGAIMPACT", "SWORDSDANCE", "INFESTATION", "POISONJAB", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "MAGICALLEAF", "SOLARBLADE", "WEATHERBALL", "BULLETSEED", "LEAFBLADE", "GRASSYTERRAIN", "BODYSLAM", "POWERWHIP", "LEAFSTORM", "ENDURE", "ENCORE"]
-raw_tutor_moves = ["BIND", "BUGBITE", "GASTROACID", "GIGADRAIN", "KNOCKOFF", "SEEDBOMB", "SNORE", "SUCKERPUNCH", "SYNTHESIS", "WORRYSEED", "GRASSYGLIDE", "CORROSIVEGAS", "MIMIC"]
-compatible_egg_groups = ["Grass"]
+raw_abilities = [
+    "CHLOROPHYLL",
+    "GLUTTONY",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "GASTROACID" },
+    { at_level = 1, name = "LEECHLIFE" },
+    { at_level = 1, name = "POISONPOWDER" },
+    { at_level = 1, name = "SLEEPPOWDER" },
+    { at_level = 1, name = "STUNSPORE" },
+    { at_level = 1, name = "SUCKERPUNCH" },
+    { at_level = 1, name = "SYNTHESIS" },
+    { at_level = 27, name = "LEAFTORNADO" },
+    { at_level = 37, name = "LEAFBLADE" },
+    { at_level = 47, name = "LEAFSTORM" },
+    { at_level = 57, name = "POWERWHIP" },
+    { at_level = 65, name = "GROWTH" },
+]
+raw_tms = [
+    "CUT",
+    "TOXIC",
+    "FLASH",
+    "VENOSHOCK",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "PROTECT",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "LEECHLIFE",
+    "DOUBLETEAM",
+    "REFLECT",
+    "SLUDGEBOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "ENERGYBALL",
+    "GIGAIMPACT",
+    "SWORDSDANCE",
+    "INFESTATION",
+    "POISONJAB",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "NATUREPOWER",
+    "CONFIDE",
+    "MAGICALLEAF",
+    "SOLARBLADE",
+    "WEATHERBALL",
+    "BULLETSEED",
+    "LEAFBLADE",
+    "GRASSYTERRAIN",
+    "BODYSLAM",
+    "POWERWHIP",
+    "LEAFSTORM",
+    "ENDURE",
+    "ENCORE",
+]
+raw_tutor_moves = [
+    "BIND",
+    "BUGBITE",
+    "CORROSIVEGAS",
+    "GASTROACID",
+    "GIGADRAIN",
+    "GRASSYGLIDE",
+    "KNOCKOFF",
+    "MIMIC",
+    "SEEDBOMB",
+    "SNORE",
+    "SUCKERPUNCH",
+    "SYNTHESIS",
+    "WORRYSEED",
+]
+compatible_egg_groups = [
+    "Grass",
+]
 steps_to_hatch = 5355
 height = 1.7
 weight = 15.5
@@ -20,59 +97,7 @@ pokedex_entry = "The long vine extending from its head is waved about as if it w
 battler_player_y = 10
 battler_enemy_y = 13
 battler_altitude = 11
-evolutions = []
-form_names = []
-dex_number = 71
-internal_name = "VICTREEBEL"
 habitat = "Forest"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GASTROACID"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEECHLIFE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "POISONPOWDER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SLEEPPOWDER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "STUNSPORE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SUCKERPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SYNTHESIS"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "LEAFTORNADO"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "LEAFBLADE"
-
-[[raw_level_up_moves]]
-at_level = 47
-name = "LEAFSTORM"
-
-[[raw_level_up_moves]]
-at_level = 57
-name = "POWERWHIP"
-
-[[raw_level_up_moves]]
-at_level = 65
-name = "GROWTH"
 
 [base_stats]
 hp = 80
@@ -89,5 +114,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

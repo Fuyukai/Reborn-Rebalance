@@ -1,3 +1,4 @@
+dex_number = 56
 name = "Mankey"
 primary_type = "FIGHTING"
 secondary_type = "FIGHTING"
@@ -6,11 +7,126 @@ growth_rate = "Medium"
 exp_yield = 61
 catch_rate = 190
 caught_happiness = 70
-raw_abilities = ["VITALSPIRIT", "ANGERPOINT", "DEFIANT"]
-raw_egg_moves = ["BEATUP", "CLOSECOMBAT", "CURSE", "COUNTER", "ENCORE", "FOCUSPUNCH", "FORESIGHT", "MEDITATE", "NIGHTSLASH", "POWERTRIP", "REVENGE", "REVERSAL", "SLEEPTALK", "SMELLINGSALTS", "SPITE"]
-raw_tms = ["WORKUP", "STRENGTH", "TOXIC", "ROCKSMASH", "BULKUP", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "PROTECT", "RAINDANCE", "FRUSTRATION", "SMACKDOWN", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "LOWSWEEP", "ROUND", "OVERHEAT", "FOCUSBLAST", "FLING", "ACROBATICS", "PAYBACK", "PSYCHUP", "BULLDOZE", "ROCKSLIDE", "POISONJAB", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "PAYDAY", "DIG", "SCREECH", "SCARYFACE", "BEATUP", "REVENGE", "ASSURANCE", "BODYSLAM", "CLOSECOMBAT", "FOCUSENERGY", "METRONOME", "REVERSAL", "ENDURE", "ENCORE", "RETALIATE", "SWIFT"]
-raw_tutor_moves = ["COVET", "DUALCHOP", "ENDEAVOR", "FIREPUNCH", "FOCUSPUNCH", "GUNKSHOT", "HEADBUTT", "HELPINGHAND", "ICEPUNCH", "IRONTAIL", "LOWKICK", "MUDSLAP", "OUTRAGE", "ROLEPLAY", "SEEDBOMB", "SNORE", "SPITE", "STOMPINGTANTRUM", "THUNDERPUNCH", "UPROAR", "VACUUMWAVE", "MIMIC"]
-compatible_egg_groups = ["Field"]
+raw_abilities = [
+    "VITALSPIRIT",
+    "ANGERPOINT",
+    "DEFIANT",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "LEER" },
+    { at_level = 1, name = "MUDSLAP" },
+    { at_level = 1, name = "RAGE" },
+    { at_level = 4, name = "COVET" },
+    { at_level = 7, name = "LOWKICK" },
+    { at_level = 10, name = "PURSUIT" },
+    { at_level = 12, name = "SEISMICTOSS" },
+    { at_level = 14, name = "PAYBACK" },
+    { at_level = 16, name = "KARATECHOP" },
+    { at_level = 18, name = "ACUPRESSURE" },
+    { at_level = 20, name = "BULLDOZE" },
+    { at_level = 23, name = "ASSURANCE" },
+    { at_level = 26, name = "REVENGE" },
+    { at_level = 29, name = "SKULLBASH" },
+    { at_level = 32, name = "LUNGE" },
+    { at_level = 35, name = "FOCUSENERGY" },
+    { at_level = 38, name = "SLASH" },
+    { at_level = 38, name = "NIGHTSLASH" },
+    { at_level = 42, name = "RAGINGFURY" },
+    { at_level = 46, name = "BEATUP" },
+    { at_level = 50, name = "OUTRAGE" },
+    { at_level = 54, name = "CLOSECOMBAT" },
+    { at_level = 58, name = "FINALGAMBIT" },
+]
+raw_tms = [
+    "WORKUP",
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "BULKUP",
+    "ROCKCLIMB",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "SMACKDOWN",
+    "THUNDERBOLT",
+    "THUNDER",
+    "EARTHQUAKE",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "ROCKTOMB",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "LOWSWEEP",
+    "ROUND",
+    "OVERHEAT",
+    "FOCUSBLAST",
+    "FLING",
+    "ACROBATICS",
+    "PAYBACK",
+    "PSYCHUP",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "POISONJAB",
+    "SWAGGER",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "PAYDAY",
+    "DIG",
+    "SCREECH",
+    "SCARYFACE",
+    "BEATUP",
+    "REVENGE",
+    "ASSURANCE",
+    "BODYSLAM",
+    "CLOSECOMBAT",
+    "FOCUSENERGY",
+    "METRONOME",
+    "REVERSAL",
+    "ENDURE",
+    "ENCORE",
+    "RETALIATE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "COVET",
+    "DUALCHOP",
+    "ENDEAVOR",
+    "FIREPUNCH",
+    "FOCUSPUNCH",
+    "GUNKSHOT",
+    "HEADBUTT",
+    "HELPINGHAND",
+    "ICEPUNCH",
+    "IRONTAIL",
+    "LOWKICK",
+    "MIMIC",
+    "MUDSLAP",
+    "OUTRAGE",
+    "ROLEPLAY",
+    "SEEDBOMB",
+    "SNORE",
+    "SPITE",
+    "STOMPINGTANTRUM",
+    "THUNDERPUNCH",
+    "UPROAR",
+    "VACUUMWAVE",
+]
+compatible_egg_groups = [
+    "Field",
+]
 steps_to_hatch = 5355
 height = 0.5
 weight = 28.0
@@ -20,111 +136,27 @@ pokedex_entry = "When it starts shaking and its nasal breathing turns rough, it 
 battler_player_y = 24
 battler_enemy_y = 20
 battler_altitude = 0
-form_names = []
-dex_number = 56
-internal_name = "MANKEY"
+raw_egg_moves = [
+    "BEATUP",
+    "CLOSECOMBAT",
+    "CURSE",
+    "COUNTER",
+    "ENCORE",
+    "FOCUSPUNCH",
+    "FORESIGHT",
+    "MEDITATE",
+    "NIGHTSLASH",
+    "POWERTRIP",
+    "REVENGE",
+    "REVERSAL",
+    "SLEEPTALK",
+    "SMELLINGSALTS",
+    "SPITE",
+]
 habitat = "Mountain"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "MUDSLAP"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "RAGE"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "COVET"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "LOWKICK"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "PURSUIT"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "SEISMICTOSS"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "PAYBACK"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "KARATECHOP"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "ACUPRESSURE"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "BULLDOZE"
-
-[[raw_level_up_moves]]
-at_level = 23
-name = "ASSURANCE"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "REVENGE"
-
-[[raw_level_up_moves]]
-at_level = 29
-name = "SKULLBASH"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "LUNGE"
-
-[[raw_level_up_moves]]
-at_level = 35
-name = "FOCUSENERGY"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "SLASH"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "NIGHTSLASH"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "RAGINGFURY"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "BEATUP"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "OUTRAGE"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "CLOSECOMBAT"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "FINALGAMBIT"
-
-[[evolutions]]
-into_name = "PRIMEAPE"
-condition = "Level"
-parameter = "28"
-
-
-
-
+evolutions = [
+    { into_name = "PRIMEAPE", condition = "Level", parameter = "28" },
+]
 
 [base_stats]
 hp = 40
@@ -141,5 +173,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

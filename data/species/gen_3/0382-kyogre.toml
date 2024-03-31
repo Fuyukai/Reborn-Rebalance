@@ -1,3 +1,4 @@
+dex_number = 382
 name = "Kyogre"
 primary_type = "WATER"
 secondary_type = "WATER"
@@ -6,11 +7,96 @@ growth_rate = "Slow"
 exp_yield = 302
 catch_rate = 5
 caught_happiness = 0
-raw_abilities = ["DRIZZLE"]
-raw_egg_moves = []
-raw_tms = ["SURF", "CALMMIND", "STRENGTH", "ROAR", "WATERFALL", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "ROCKTOMB", "FACADE", "REST", "ROUND", "SCALD", "GIGAIMPACT", "THUNDERWAVE", "PSYCHUP", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "SCARYFACE", "WHIRLPOOL", "BRINE", "AVALANCHE", "BODYSLAM", "HYDROPUMP", "ENDURE", "MUDDYWATER", "HEAVYSLAM", "CHILLINGWATER", "SWIFT", "FROSTBREATH"]
-raw_tutor_moves = ["ANCIENTPOWER", "AQUATAIL", "BLOCK", "HEADBUTT", "ICYWIND", "IRONHEAD", "LIQUIDATION", "MUDSLAP", "SHOCKWAVE", "SIGNALBEAM", "SNORE", "UPROAR", "WATERPULSE", "MIMIC", "WAVECRASH"]
-compatible_egg_groups = ["Undiscovered"]
+raw_abilities = [
+    "DRIZZLE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "WATERPULSE" },
+    { at_level = 6, name = "SCARYFACE" },
+    { at_level = 10, name = "AQUATAIL" },
+    { at_level = 14, name = "BODYSLAM" },
+    { at_level = 18, name = "AQUARING" },
+    { at_level = 22, name = "ICEBEAM" },
+    { at_level = 26, name = "CALMMIND" },
+    { at_level = 30, name = "MUDDYWATER" },
+    { at_level = 34, name = "WAVECRASH" },
+    { at_level = 38, name = "HYDROPUMP" },
+    { at_level = 42, name = "THUNDER" },
+    { at_level = 46, name = "DOUBLEEDGE" },
+    { at_level = 50, name = "WATERSPOUT" },
+]
+raw_tms = [
+    "SURF",
+    "CALMMIND",
+    "STRENGTH",
+    "ROAR",
+    "WATERFALL",
+    "TOXIC",
+    "DIVE",
+    "HAIL",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "ICEBEAM",
+    "BLIZZARD",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "THUNDERBOLT",
+    "THUNDER",
+    "EARTHQUAKE",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "ROCKTOMB",
+    "FACADE",
+    "REST",
+    "ROUND",
+    "SCALD",
+    "GIGAIMPACT",
+    "THUNDERWAVE",
+    "PSYCHUP",
+    "BULLDOZE",
+    "FROSTBREATH",
+    "ROCKSLIDE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "SCARYFACE",
+    "WHIRLPOOL",
+    "BRINE",
+    "AVALANCHE",
+    "BODYSLAM",
+    "HYDROPUMP",
+    "ENDURE",
+    "MUDDYWATER",
+    "HEAVYSLAM",
+    "CHILLINGWATER",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "ANCIENTPOWER",
+    "AQUATAIL",
+    "BLOCK",
+    "HEADBUTT",
+    "ICYWIND",
+    "IRONHEAD",
+    "LIQUIDATION",
+    "MIMIC",
+    "MUDSLAP",
+    "SHOCKWAVE",
+    "SIGNALBEAM",
+    "SNORE",
+    "UPROAR",
+    "WATERPULSE",
+    "WAVECRASH",
+]
+compatible_egg_groups = [
+    "Undiscovered",
+]
 steps_to_hatch = 30855
 height = 4.5
 weight = 352.0
@@ -20,63 +106,7 @@ pokedex_entry = "Kyogre has appeared in mythology as the creator of the sea. Aft
 battler_player_y = 20
 battler_enemy_y = 4
 battler_altitude = 3
-evolutions = []
-form_names = []
-dex_number = 382
-internal_name = "KYOGRE"
 habitat = "Sea"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WATERPULSE"
-
-[[raw_level_up_moves]]
-at_level = 6
-name = "SCARYFACE"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "AQUATAIL"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "AQUARING"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "ICEBEAM"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "CALMMIND"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "MUDDYWATER"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "WAVECRASH"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "HYDROPUMP"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "THUNDER"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "DOUBLEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "WATERSPOUT"
 
 [base_stats]
 hp = 100
@@ -93,5 +123,3 @@ def_ = 0
 spa = 3
 spd = 0
 spe = 0
-
-[wild_items]

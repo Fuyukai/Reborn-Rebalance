@@ -1,3 +1,4 @@
+dex_number = 430
 name = "Honchkrow"
 primary_type = "DARK"
 secondary_type = "FLYING"
@@ -6,11 +7,98 @@ growth_rate = "Parabolic"
 exp_yield = 177
 catch_rate = 30
 caught_happiness = 35
-raw_abilities = ["MOXIE", "SUPERLUCK"]
-raw_egg_moves = []
-raw_tms = ["FLY", "CALMMIND", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "FRUSTRATION", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "STEELWING", "QUASH", "EMBARGO", "PAYBACK", "GIGAIMPACT", "THUNDERWAVE", "PSYCHUP", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "SNARL", "DARKPULSE", "CONFIDE", "SCREECH", "SCARYFACE", "BEATUP", "REVENGE", "ASSURANCE", "AIRSLASH", "HURRICANE", "BRAVEBIRD", "ENDURE", "NASTYPLOT", "RETALIATE", "CHILLINGWATER", "SWIFT"]
-raw_tutor_moves = ["AIRCUTTER", "DEFOG", "FOULPLAY", "HEATWAVE", "ICYWIND", "MUDSLAP", "OMINOUSWIND", "SKYATTACK", "SNATCH", "SNORE", "SPITE", "SUCKERPUNCH", "SUPERPOWER", "TAILWIND", "TWISTER", "UPROAR", "MIMIC"]
-compatible_egg_groups = ["Flying"]
+raw_abilities = [
+    "MOXIE",
+    "SUPERLUCK",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "SPITE" },
+    { at_level = 1, name = "DISARMINGVOICE" },
+    { at_level = 1, name = "LUCKYCHANT" },
+    { at_level = 1, name = "PURSUIT" },
+    { at_level = 1, name = "PSYWAVE" },
+    { at_level = 1, name = "HAZE" },
+    { at_level = 1, name = "ASTONISH" },
+    { at_level = 30, name = "SUCKERPUNCH" },
+    { at_level = 40, name = "DRILLPECK" },
+    { at_level = 50, name = "NIGHTSLASH" },
+    { at_level = 60, name = "FOULPLAY" },
+]
+raw_tms = [
+    "FLY",
+    "CALMMIND",
+    "TOXIC",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "ROOST",
+    "ROOST",
+    "FRUSTRATION",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "AERIALACE",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "STEELWING",
+    "QUASH",
+    "EMBARGO",
+    "PAYBACK",
+    "GIGAIMPACT",
+    "THUNDERWAVE",
+    "PSYCHUP",
+    "DREAMEATER",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "SNARL",
+    "DARKPULSE",
+    "CONFIDE",
+    "SCREECH",
+    "SCARYFACE",
+    "BEATUP",
+    "REVENGE",
+    "ASSURANCE",
+    "AIRSLASH",
+    "HURRICANE",
+    "BRAVEBIRD",
+    "ENDURE",
+    "NASTYPLOT",
+    "RETALIATE",
+    "CHILLINGWATER",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AIRCUTTER",
+    "DEFOG",
+    "FOULPLAY",
+    "HEATWAVE",
+    "ICYWIND",
+    "MIMIC",
+    "MUDSLAP",
+    "OMINOUSWIND",
+    "SKYATTACK",
+    "SNATCH",
+    "SNORE",
+    "SPITE",
+    "SUCKERPUNCH",
+    "SUPERPOWER",
+    "TAILWIND",
+    "TWISTER",
+    "UPROAR",
+]
+compatible_egg_groups = [
+    "Flying",
+]
 steps_to_hatch = 5355
 height = 0.9
 weight = 27.3
@@ -20,54 +108,6 @@ pokedex_entry = "Becoming active at night, it is known to swarm with numerous Mu
 battler_player_y = 19
 battler_enemy_y = 14
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 430
-internal_name = "HONCHKROW"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SPITE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "DISARMINGVOICE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LUCKYCHANT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "PURSUIT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "PSYWAVE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HAZE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ASTONISH"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "SUCKERPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "DRILLPECK"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "NIGHTSLASH"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "FOULPLAY"
 
 [base_stats]
 hp = 100
@@ -84,5 +124,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

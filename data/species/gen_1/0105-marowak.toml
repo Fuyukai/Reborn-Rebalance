@@ -1,3 +1,4 @@
+dex_number = 105
 name = "Marowak"
 primary_type = "GROUND"
 secondary_type = "GROUND"
@@ -6,11 +7,136 @@ growth_rate = "Medium"
 exp_yield = 149
 catch_rate = 75
 caught_happiness = 70
-raw_abilities = ["TECHNICIAN", "LIGHTNINGROD", "BATTLEARMOR"]
-raw_egg_moves = []
-raw_tms = ["STRENGTH", "TOXIC", "ROCKSMASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "SMACKDOWN", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "FLAMETHROWER", "SANDSTORM", "FIREBLAST", "ROCKTOMB", "AERIALACE", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "FOCUSBLAST", "FALSESWIPE", "FLING", "BRUTALSWING", "WILLOWISP", "GIGAIMPACT", "STONEEDGE", "SWORDSDANCE", "BULLDOZE", "ROCKSLIDE", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "DARKPULSE", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "FIRESPIN", "DIG", "SCREECH", "IMPRISON", "HEX", "BODYSLAM", "FLAREBLITZ", "FOCUSENERGY", "ENDURE", "RETALIATE"]
-raw_tutor_moves = ["ALLYSWITCH", "EARTHPOWER", "ENDEAVOR", "FIREPUNCH", "FOCUSPUNCH", "FURYCUTTER", "HEADBUTT", "HEATWAVE", "ICYWIND", "IRONDEFENSE", "IRONHEAD", "IRONTAIL", "KNOCKOFF", "LASERFOCUS", "LOWKICK", "MUDSLAP", "OUTRAGE", "PAINSPLIT", "SNORE", "SPITE", "STEALTHROCK", "STOMPINGTANTRUM", "THROATCHOP", "THUNDERPUNCH", "UPROAR", "BURNINGJEALOUSY", "SCORCHINGSANDS", "POLTERGEIST", "HEADLONGRUSH", "MIMIC"]
-compatible_egg_groups = ["Monster"]
+raw_abilities = [
+    "TECHNICIAN",
+    "LIGHTNINGROD",
+    "BATTLEARMOR",
+]
+raw_level_up_moves = [
+    { at_level = 0, name = "BONERUSH" },
+    { at_level = 1, name = "SING" },
+    { at_level = 1, name = "RAGE" },
+    { at_level = 1, name = "LEER" },
+    { at_level = 1, name = "SCREECH" },
+    { at_level = 4, name = "HEADBUTT" },
+    { at_level = 7, name = "FOCUSENERGY" },
+    { at_level = 10, name = "BONECLUB" },
+    { at_level = 12, name = "ROCKTOMB" },
+    { at_level = 15, name = "FLING" },
+    { at_level = 17, name = "SCORCHINGSANDS" },
+    { at_level = 19, name = "BONEMERANG" },
+    { at_level = 21, name = "RETALIATE" },
+    { at_level = 24, name = "ENDEAVOR" },
+    { at_level = 31, name = "CURSE" },
+    { at_level = 34, name = "CHIPAWAY" },
+    { at_level = 37, name = "ROCKSLIDE" },
+    { at_level = 41, name = "BODYSLAM" },
+    { at_level = 45, name = "RAGINGFURY" },
+    { at_level = 49, name = "HIGHHORSEPOWER" },
+    { at_level = 53, name = "DOUBLEEDGE" },
+    { at_level = 57, name = "BELLYDRUM" },
+    { at_level = 61, name = "PERISHSONG" },
+    { at_level = 65, name = "FLAREBLITZ" },
+]
+raw_tms = [
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "ROCKCLIMB",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "ICEBEAM",
+    "BLIZZARD",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "SMACKDOWN",
+    "THUNDERBOLT",
+    "THUNDER",
+    "EARTHQUAKE",
+    "RETURN",
+    "SHADOWBALL",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "FLAMETHROWER",
+    "SANDSTORM",
+    "FIREBLAST",
+    "ROCKTOMB",
+    "AERIALACE",
+    "FACADE",
+    "FLAMECHARGE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "ECHOEDVOICE",
+    "FOCUSBLAST",
+    "FALSESWIPE",
+    "FLING",
+    "BRUTALSWING",
+    "WILLOWISP",
+    "GIGAIMPACT",
+    "STONEEDGE",
+    "SWORDSDANCE",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "DREAMEATER",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "DARKPULSE",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "FIRESPIN",
+    "DIG",
+    "SCREECH",
+    "IMPRISON",
+    "HEX",
+    "BODYSLAM",
+    "FLAREBLITZ",
+    "FOCUSENERGY",
+    "ENDURE",
+    "RETALIATE",
+]
+raw_tutor_moves = [
+    "ALLYSWITCH",
+    "BURNINGJEALOUSY",
+    "EARTHPOWER",
+    "ENDEAVOR",
+    "FIREPUNCH",
+    "FOCUSPUNCH",
+    "FURYCUTTER",
+    "HEADBUTT",
+    "HEADLONGRUSH",
+    "HEATWAVE",
+    "ICYWIND",
+    "IRONDEFENSE",
+    "IRONHEAD",
+    "IRONTAIL",
+    "KNOCKOFF",
+    "LASERFOCUS",
+    "LOWKICK",
+    "MIMIC",
+    "MUDSLAP",
+    "OUTRAGE",
+    "PAINSPLIT",
+    "POLTERGEIST",
+    "SCORCHINGSANDS",
+    "SNORE",
+    "SPITE",
+    "STEALTHROCK",
+    "STOMPINGTANTRUM",
+    "THROATCHOP",
+    "THUNDERPUNCH",
+    "UPROAR",
+]
+compatible_egg_groups = [
+    "Monster",
+]
 steps_to_hatch = 5355
 height = 1.0
 weight = 45.0
@@ -20,107 +146,11 @@ pokedex_entry = "A Marowak is a Cubone that has grown tough by overcoming the gr
 battler_player_y = 27
 battler_enemy_y = 20
 battler_altitude = 0
-evolutions = []
-form_names = ["Normal", "Alternate"]
-dex_number = 105
-internal_name = "MAROWAK"
 habitat = "Mountain"
-
-[[raw_level_up_moves]]
-at_level = 0
-name = "BONERUSH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SING"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "RAGE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SCREECH"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "HEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "FOCUSENERGY"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "BONECLUB"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "ROCKTOMB"
-
-[[raw_level_up_moves]]
-at_level = 15
-name = "FLING"
-
-[[raw_level_up_moves]]
-at_level = 17
-name = "SCORCHINGSANDS"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "BONEMERANG"
-
-[[raw_level_up_moves]]
-at_level = 21
-name = "RETALIATE"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "ENDEAVOR"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "CURSE"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "CHIPAWAY"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "ROCKSLIDE"
-
-[[raw_level_up_moves]]
-at_level = 41
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "RAGINGFURY"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "HIGHHORSEPOWER"
-
-[[raw_level_up_moves]]
-at_level = 53
-name = "DOUBLEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 57
-name = "BELLYDRUM"
-
-[[raw_level_up_moves]]
-at_level = 61
-name = "PERISHSONG"
-
-[[raw_level_up_moves]]
-at_level = 65
-name = "FLAREBLITZ"
+form_names = [
+    "Normal",
+    "Alternate",
+]
 
 [base_stats]
 hp = 75

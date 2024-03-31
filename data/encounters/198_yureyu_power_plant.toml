@@ -1,61 +1,21 @@
-chances = [50, 6, 2]
+chances = [
+    50,
+    6,
+    2,
+]
 
-[[encounters.Cave]]
-name = "VOLTORB"
-minimum_level = 32
-maximum_level = 32
-
-[[encounters.Cave]]
-name = "KLINK"
-minimum_level = 32
-maximum_level = 32
-
-[[encounters.Cave]]
-name = "TADBULB"
-minimum_level = 32
-maximum_level = 32
-
-[[encounters.Cave]]
-name = "KLINK"
-minimum_level = 32
-maximum_level = 32
-
-[[encounters.Cave]]
-name = "YAMASK"
-minimum_level = 32
-maximum_level = 32
-
-[[encounters.Cave]]
-name = "DUSKULL"
-minimum_level = 32
-maximum_level = 32
-
-[[encounters.Cave]]
-name = "TOGEDEMARU"
-minimum_level = 32
-maximum_level = 32
-
-[[encounters.Cave]]
-name = "YAMASK"
-minimum_level = 32
-maximum_level = 32
-
-[[encounters.Cave]]
-name = "TOGEDEMARU"
-minimum_level = 32
-maximum_level = 32
-
-[[encounters.Cave]]
-name = "DUSKULL"
-minimum_level = 32
-maximum_level = 32
-
-[[encounters.Cave]]
-name = "TOGEDEMARU"
-minimum_level = 32
-maximum_level = 32
-
-[[encounters.Cave]]
-name = "KLANG"
-minimum_level = 32
-maximum_level = 32
+[encounters]
+Cave = [
+    { name = "VOLTORB", minimum_level = 32, maximum_level = 32 },
+    { name = "KLINK", minimum_level = 32, maximum_level = 32 },
+    { name = "TADBULB", minimum_level = 32, maximum_level = 32 },
+    { name = "KLINK", minimum_level = 32, maximum_level = 32 },
+    { name = "YAMASK", minimum_level = 32, maximum_level = 32 },
+    { name = "DUSKULL", minimum_level = 32, maximum_level = 32 },
+    { name = "TOGEDEMARU", minimum_level = 32, maximum_level = 32 },
+    { name = "YAMASK", minimum_level = 32, maximum_level = 32 },
+    { name = "TOGEDEMARU", minimum_level = 32, maximum_level = 32 },
+    { name = "DUSKULL", minimum_level = 32, maximum_level = 32 },
+    { name = "TOGEDEMARU", minimum_level = 32, maximum_level = 32 },
+    { name = "KLANG", minimum_level = 32, maximum_level = 32 },
+]

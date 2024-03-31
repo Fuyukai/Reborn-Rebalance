@@ -1,61 +1,21 @@
-chances = [0, 10, 0]
+chances = [
+    0,
+    10,
+    0,
+]
 
-[[encounters.Cave]]
-name = "TRUBBISH"
-minimum_level = 4
-maximum_level = 9
-
-[[encounters.Cave]]
-name = "TRUBBISH"
-minimum_level = 3
-maximum_level = 7
-
-[[encounters.Cave]]
-name = "TRUBBISH"
-minimum_level = 4
-maximum_level = 6
-
-[[encounters.Cave]]
-name = "TRUBBISH"
-minimum_level = 3
-maximum_level = 5
-
-[[encounters.Cave]]
-name = "STUNKY"
-minimum_level = 3
-maximum_level = 7
-
-[[encounters.Cave]]
-name = "POOCHYENA"
-minimum_level = 3
-maximum_level = 5
-
-[[encounters.Cave]]
-name = "STUNKY"
-minimum_level = 3
-maximum_level = 6
-
-[[encounters.Cave]]
-name = "STUNKY"
-minimum_level = 4
-maximum_level = 7
-
-[[encounters.Cave]]
-name = "POOCHYENA"
-minimum_level = 4
-maximum_level = 6
-
-[[encounters.Cave]]
-name = "POOCHYENA"
-minimum_level = 6
-maximum_level = 9
-
-[[encounters.Cave]]
-name = "STUNKY"
-minimum_level = 4
-maximum_level = 6
-
-[[encounters.Cave]]
-name = "STUNKY"
-minimum_level = 7
-maximum_level = 10
+[encounters]
+Cave = [
+    { name = "TRUBBISH", minimum_level = 4, maximum_level = 9 },
+    { name = "TRUBBISH", minimum_level = 3, maximum_level = 7 },
+    { name = "TRUBBISH", minimum_level = 4, maximum_level = 6 },
+    { name = "TRUBBISH", minimum_level = 3, maximum_level = 5 },
+    { name = "STUNKY", minimum_level = 3, maximum_level = 7 },
+    { name = "POOCHYENA", minimum_level = 3, maximum_level = 5 },
+    { name = "STUNKY", minimum_level = 3, maximum_level = 6 },
+    { name = "STUNKY", minimum_level = 4, maximum_level = 7 },
+    { name = "POOCHYENA", minimum_level = 4, maximum_level = 6 },
+    { name = "POOCHYENA", minimum_level = 6, maximum_level = 9 },
+    { name = "STUNKY", minimum_level = 4, maximum_level = 6 },
+    { name = "STUNKY", minimum_level = 7, maximum_level = 10 },
+]

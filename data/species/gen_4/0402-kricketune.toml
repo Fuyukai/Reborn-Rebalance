@@ -1,3 +1,4 @@
+dex_number = 402
 name = "Kricketune"
 primary_type = "BUG"
 secondary_type = "NORMAL"
@@ -6,11 +7,97 @@ growth_rate = "Parabolic"
 exp_yield = 134
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["TECHNICIAN", "SOUNDPROOF", "SWARM"]
-raw_egg_moves = []
-raw_tms = ["CUT", "STRENGTH", "TOXIC", "ROCKSMASH", "FLASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "LEECHLIFE", "BRICKBREAK", "DOUBLETEAM", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "FALSESWIPE", "GIGAIMPACT", "SWORDSDANCE", "STRUGGLEBUG", "XSCISSOR", "INFESTATION", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "SCREECH", "FOCUSENERGY", "METRONOME", "ENDURE", "BUGBUZZ", "POUNCE", "TRAILBLAZE", "LOWSWEEP"]
-raw_tutor_moves = ["BUGBITE", "ENDEAVOR", "FURYCUTTER", "HEALBELL", "HYPERVOICE", "KNOCKOFF", "LASERFOCUS", "MUDSLAP", "SNORE", "STRINGSHOT", "THROATCHOP", "UPROAR", "MIMIC"]
-compatible_egg_groups = ["Bug"]
+raw_abilities = [
+    "TECHNICIAN",
+    "SOUNDPROOF",
+    "SWARM",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "PERISHSONG" },
+    { at_level = 1, name = "BUGBITE" },
+    { at_level = 1, name = "MUDSLAP" },
+    { at_level = 1, name = "GROWL" },
+    { at_level = 1, name = "BIDE" },
+    { at_level = 1, name = "STRINGSHOT" },
+    { at_level = 3, name = "STRUGGLEBUG" },
+    { at_level = 7, name = "UPROAR" },
+    { at_level = 10, name = "ABSORB" },
+    { at_level = 13, name = "BUGBUZZ" },
+    { at_level = 16, name = "SING" },
+    { at_level = 19, name = "FURYCUTTER" },
+    { at_level = 22, name = "FOCUSENERGY" },
+    { at_level = 25, name = "HYPERVOICE" },
+    { at_level = 28, name = "XSCISSOR" },
+    { at_level = 31, name = "SCREECH" },
+    { at_level = 34, name = "LUNGE" },
+    { at_level = 37, name = "TAUNT" },
+    { at_level = 40, name = "HEALBELL" },
+    { at_level = 43, name = "LEECHLIFE" },
+    { at_level = 46, name = "BOOMBURST" },
+    { at_level = 50, name = "PERISHSONG" },
+]
+raw_tms = [
+    "CUT",
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "RETURN",
+    "LEECHLIFE",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "LOWSWEEP",
+    "ROUND",
+    "ECHOEDVOICE",
+    "FALSESWIPE",
+    "GIGAIMPACT",
+    "SWORDSDANCE",
+    "STRUGGLEBUG",
+    "XSCISSOR",
+    "INFESTATION",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "SCREECH",
+    "FOCUSENERGY",
+    "METRONOME",
+    "ENDURE",
+    "BUGBUZZ",
+    "POUNCE",
+    "TRAILBLAZE",
+]
+raw_tutor_moves = [
+    "BUGBITE",
+    "ENDEAVOR",
+    "FURYCUTTER",
+    "HEALBELL",
+    "HYPERVOICE",
+    "KNOCKOFF",
+    "LASERFOCUS",
+    "MIMIC",
+    "MUDSLAP",
+    "SNORE",
+    "STRINGSHOT",
+    "THROATCHOP",
+    "UPROAR",
+]
+compatible_egg_groups = [
+    "Bug",
+]
 steps_to_hatch = 4080
 height = 1.0
 weight = 25.5
@@ -20,98 +107,6 @@ pokedex_entry = "It crosses its knifelike arms in front of its chest when it cri
 battler_player_y = 19
 battler_enemy_y = 12
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 402
-internal_name = "KRICKETUNE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "PERISHSONG"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BUGBITE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "MUDSLAP"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BIDE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "STRINGSHOT"
-
-[[raw_level_up_moves]]
-at_level = 3
-name = "STRUGGLEBUG"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "UPROAR"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "ABSORB"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "BUGBUZZ"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "SING"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "FURYCUTTER"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "FOCUSENERGY"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "HYPERVOICE"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "XSCISSOR"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "SCREECH"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "LUNGE"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "TAUNT"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "HEALBELL"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "LEECHLIFE"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "BOOMBURST"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "PERISHSONG"
 
 [base_stats]
 hp = 77

@@ -1,3 +1,4 @@
+dex_number = 796
 name = "Xurkitree"
 primary_type = "ELECTRIC"
 secondary_type = "ELECTRIC"
@@ -6,11 +7,86 @@ growth_rate = "Slow"
 exp_yield = 257
 catch_rate = 30
 caught_happiness = 0
-raw_abilities = ["BEASTBOOST"]
-raw_egg_moves = []
-raw_tms = ["CALMMIND", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "SOLARBEAM", "THUNDERBOLT", "THUNDER", "RETURN", "DOUBLETEAM", "REFLECT", "FACADE", "REST", "ROUND", "ENERGYBALL", "FLING", "CHARGEBEAM", "BRUTALSWING", "GIGAIMPACT", "VOLTSWITCH", "THUNDERWAVE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "NATUREPOWER", "DAZZLINGGLEAM", "CONFIDE", "ELECTRICTERRAIN", "EERIEIMPULSE", "POWERWHIP", "ENDURE", "ELECTROBALL"]
-raw_tutor_moves = ["BIND", "ELECTROWEB", "GRAVITY", "MAGICCOAT", "MAGNETRISE", "SHOCKWAVE", "SIGNALBEAM", "SNORE", "THUNDERPUNCH", "RISINGVOLTAGE", "MIMIC"]
-compatible_egg_groups = ["Undiscovered"]
+raw_abilities = [
+    "BEASTBOOST",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "TAILGLOW" },
+    { at_level = 1, name = "SPARK" },
+    { at_level = 1, name = "CHARGE" },
+    { at_level = 1, name = "WRAP" },
+    { at_level = 1, name = "THUNDERSHOCK" },
+    { at_level = 7, name = "THUNDERWAVE" },
+    { at_level = 13, name = "SHOCKWAVE" },
+    { at_level = 19, name = "INGRAIN" },
+    { at_level = 23, name = "THUNDERPUNCH" },
+    { at_level = 29, name = "EERIEIMPULSE" },
+    { at_level = 31, name = "SIGNALBEAM" },
+    { at_level = 37, name = "THUNDERBOLT" },
+    { at_level = 43, name = "HYPNOSIS" },
+    { at_level = 47, name = "DISCHARGE" },
+    { at_level = 53, name = "ELECTRICTERRAIN" },
+    { at_level = 59, name = "POWERWHIP" },
+    { at_level = 67, name = "IONDELUGE" },
+    { at_level = 73, name = "ZAPCANNON" },
+]
+raw_tms = [
+    "CALMMIND",
+    "TOXIC",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "THUNDERBOLT",
+    "THUNDER",
+    "RETURN",
+    "DOUBLETEAM",
+    "REFLECT",
+    "FACADE",
+    "REST",
+    "ROUND",
+    "ENERGYBALL",
+    "FLING",
+    "CHARGEBEAM",
+    "BRUTALSWING",
+    "GIGAIMPACT",
+    "VOLTSWITCH",
+    "THUNDERWAVE",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "WILDCHARGE",
+    "SECRETPOWER",
+    "NATUREPOWER",
+    "DAZZLINGGLEAM",
+    "CONFIDE",
+    "ELECTRICTERRAIN",
+    "EERIEIMPULSE",
+    "POWERWHIP",
+    "ENDURE",
+    "ELECTROBALL",
+]
+raw_tutor_moves = [
+    "BIND",
+    "ELECTROWEB",
+    "GRAVITY",
+    "MAGICCOAT",
+    "MAGNETRISE",
+    "MIMIC",
+    "RISINGVOLTAGE",
+    "SHOCKWAVE",
+    "SIGNALBEAM",
+    "SNORE",
+    "THUNDERPUNCH",
+]
+compatible_egg_groups = [
+    "Undiscovered",
+]
 steps_to_hatch = 30720
 height = 3.8
 weight = 100.0
@@ -20,82 +96,6 @@ pokedex_entry = "One of the mysterious life-forms known as Ultra Beasts. Astonis
 battler_player_y = 8
 battler_enemy_y = 7
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 796
-internal_name = "XURKITREE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TAILGLOW"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SPARK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "CHARGE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WRAP"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "THUNDERSHOCK"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "THUNDERWAVE"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "SHOCKWAVE"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "INGRAIN"
-
-[[raw_level_up_moves]]
-at_level = 23
-name = "THUNDERPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 29
-name = "EERIEIMPULSE"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "SIGNALBEAM"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "THUNDERBOLT"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "HYPNOSIS"
-
-[[raw_level_up_moves]]
-at_level = 47
-name = "DISCHARGE"
-
-[[raw_level_up_moves]]
-at_level = 53
-name = "ELECTRICTERRAIN"
-
-[[raw_level_up_moves]]
-at_level = 59
-name = "POWERWHIP"
-
-[[raw_level_up_moves]]
-at_level = 67
-name = "IONDELUGE"
-
-[[raw_level_up_moves]]
-at_level = 73
-name = "ZAPCANNON"
 
 [base_stats]
 hp = 83
@@ -112,5 +112,3 @@ def_ = 0
 spa = 3
 spd = 0
 spe = 0
-
-[wild_items]

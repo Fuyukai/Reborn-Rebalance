@@ -1,3 +1,4 @@
+dex_number = 739
 name = "Crabrawler"
 primary_type = "FIGHTING"
 secondary_type = "FIGHTING"
@@ -6,11 +7,83 @@ growth_rate = "Medium"
 exp_yield = 68
 catch_rate = 225
 caught_happiness = 70
-raw_abilities = ["HYPERCUTTER", "IRONFIST"]
-raw_egg_moves = ["AMNESIA", "ENDEAVOR", "SUPERPOWER", "WIDEGUARD"]
-raw_tms = ["WORKUP", "TOXIC", "ROCKSMASH", "BULKUP", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "RAINDANCE", "FRUSTRATION", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "FOCUSBLAST", "SCALD", "FLING", "BRUTALSWING", "PAYBACK", "STONEEDGE", "BULLDOZE", "FROSTBREATH", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "CLOSECOMBAT", "AMNESIA", "REVERSAL", "ENDURE", "CHILLINGWATER"]
-raw_tutor_moves = ["DRAINPUNCH", "DUALCHOP", "ENDEAVOR", "FOCUSPUNCH", "ICEPUNCH", "IRONDEFENSE", "IRONHEAD", "SNORE", "SUPERPOWER", "THUNDERPUNCH", "ZENHEADBUTT", "MIMIC"]
-compatible_egg_groups = ["Water3"]
+raw_abilities = [
+    "HYPERCUTTER",
+    "IRONFIST",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "BUBBLE" },
+    { at_level = 5, name = "ROCKSMASH" },
+    { at_level = 9, name = "LEER" },
+    { at_level = 13, name = "PURSUIT" },
+    { at_level = 15, name = "MACHPUNCH" },
+    { at_level = 17, name = "BUBBLEBEAM" },
+    { at_level = 22, name = "POWERUPPUNCH" },
+    { at_level = 25, name = "DIZZYPUNCH" },
+    { at_level = 29, name = "PAYBACK" },
+    { at_level = 33, name = "REVERSAL" },
+    { at_level = 37, name = "CRABHAMMER" },
+    { at_level = 42, name = "IRONDEFENSE" },
+    { at_level = 45, name = "DYNAMICPUNCH" },
+    { at_level = 49, name = "CLOSECOMBAT" },
+]
+raw_tms = [
+    "WORKUP",
+    "TOXIC",
+    "ROCKSMASH",
+    "BULKUP",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "EARTHQUAKE",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "ROCKTOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "FOCUSBLAST",
+    "SCALD",
+    "FLING",
+    "BRUTALSWING",
+    "PAYBACK",
+    "STONEEDGE",
+    "BULLDOZE",
+    "FROSTBREATH",
+    "ROCKSLIDE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "CLOSECOMBAT",
+    "AMNESIA",
+    "REVERSAL",
+    "ENDURE",
+    "CHILLINGWATER",
+]
+raw_tutor_moves = [
+    "DRAINPUNCH",
+    "DUALCHOP",
+    "ENDEAVOR",
+    "FOCUSPUNCH",
+    "ICEPUNCH",
+    "IRONDEFENSE",
+    "IRONHEAD",
+    "MIMIC",
+    "SNORE",
+    "SUPERPOWER",
+    "THUNDERPUNCH",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Water3",
+]
 steps_to_hatch = 5120
 height = 0.6
 weight = 7.0
@@ -20,74 +93,16 @@ pokedex_entry = "It punches so much, its pincers often come off from overuse, bu
 battler_player_y = 17
 battler_enemy_y = 20
 battler_altitude = 0
-form_names = []
-dex_number = 739
-internal_name = "CRABRAWLER"
 raw_hidden_ability = "ANGERPOINT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BUBBLE"
-
-[[raw_level_up_moves]]
-at_level = 5
-name = "ROCKSMASH"
-
-[[raw_level_up_moves]]
-at_level = 9
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "PURSUIT"
-
-[[raw_level_up_moves]]
-at_level = 15
-name = "MACHPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 17
-name = "BUBBLEBEAM"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "POWERUPPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "DIZZYPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 29
-name = "PAYBACK"
-
-[[raw_level_up_moves]]
-at_level = 33
-name = "REVERSAL"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "CRABHAMMER"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "IRONDEFENSE"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "DYNAMICPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "CLOSECOMBAT"
-
-[[evolutions]]
-into_name = "CRABOMINABLE"
-condition = "Location"
-parameter = "433"
-
-
-
+raw_egg_moves = [
+    "AMNESIA",
+    "ENDEAVOR",
+    "SUPERPOWER",
+    "WIDEGUARD",
+]
+evolutions = [
+    { into_name = "CRABOMINABLE", condition = "Location", parameter = "433" },
+]
 
 [base_stats]
 hp = 47

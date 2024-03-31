@@ -1,3 +1,4 @@
+dex_number = 790
 name = "Cosmoem"
 primary_type = "PSYCHIC"
 secondary_type = "PSYCHIC"
@@ -6,11 +7,20 @@ growth_rate = "Slow"
 exp_yield = 140
 catch_rate = 3
 caught_happiness = 0
-raw_abilities = ["STURDY"]
-raw_egg_moves = []
-raw_tms = ["COSMICPOWER"]
+raw_abilities = [
+    "STURDY",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "COSMICPOWER" },
+    { at_level = 1, name = "TELEPORT" },
+]
+raw_tms = [
+    "COSMICPOWER",
+]
 raw_tutor_moves = []
-compatible_egg_groups = ["Undiscovered"]
+compatible_egg_groups = [
+    "Undiscovered",
+]
 steps_to_hatch = 30720
 height = 0.1
 weight = 999.9
@@ -20,30 +30,10 @@ pokedex_entry = "Motionless as if dead, its body is faintly warm to the touch. I
 battler_player_y = 15
 battler_enemy_y = 13
 battler_altitude = 9
-form_names = []
-dex_number = 790
-internal_name = "COSMOEM"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "COSMICPOWER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TELEPORT"
-
-[[evolutions]]
-into_name = "SOLGALEO"
-condition = "LevelDay"
-parameter = "53"
-
-[[evolutions]]
-into_name = "LUNALA"
-condition = "LevelNight"
-parameter = "53"
-
-
-
+evolutions = [
+    { into_name = "SOLGALEO", condition = "LevelDay", parameter = "53" },
+    { into_name = "LUNALA", condition = "LevelNight", parameter = "53" },
+]
 
 [base_stats]
 hp = 43
@@ -60,5 +50,3 @@ def_ = 1
 spa = 0
 spd = 1
 spe = 0
-
-[wild_items]

@@ -1,3 +1,4 @@
+dex_number = 59
 name = "Arcanine"
 primary_type = "FIRE"
 secondary_type = "FIRE"
@@ -6,11 +7,95 @@ growth_rate = "Slow"
 exp_yield = 194
 catch_rate = 75
 caught_happiness = 70
-raw_abilities = ["INTIMIDATE", "FLASHFIRE"]
-raw_egg_moves = []
-raw_tms = ["STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "FIREBLAST", "AERIALACE", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "THIEF", "ROUND", "OVERHEAT", "WILLOWISP", "GIGAIMPACT", "BULLDOZE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "SNARL", "CONFIDE", "FIRESPIN", "DIG", "THUNDERFANG", "FIREFANG", "PSYCHICFANGS", "CRUNCH", "BODYSLAM", "FLAREBLITZ", "CLOSECOMBAT", "AGILITY", "REVERSAL", "ENDURE", "PLAYROUGH", "RETALIATE", "SWIFT"]
-raw_tutor_moves = ["COVET", "DRAGONPULSE", "HEADBUTT", "HEATWAVE", "HELPINGHAND", "HYPERVOICE", "IRONHEAD", "IRONTAIL", "LASERFOCUS", "MUDSLAP", "OUTRAGE", "SNORE", "SUPERPOWER", "SCORCHINGSANDS", "RAGINGFURY", "EXTREMESPEED", "MIMIC"]
-compatible_egg_groups = ["Field"]
+raw_abilities = [
+    "INTIMIDATE",
+    "FLASHFIRE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "FIREFANG" },
+    { at_level = 1, name = "HELPINGHAND" },
+    { at_level = 1, name = "RAGINGFURY" },
+    { at_level = 1, name = "SCORCHINGSANDS" },
+    { at_level = 1, name = "THUNDERFANG" },
+    { at_level = 45, name = "EXTREMESPEED" },
+    { at_level = 50, name = "CLOSECOMBAT" },
+    { at_level = 55, name = "FLAREBLITZ" },
+    { at_level = 65, name = "MORNINGSUN" },
+]
+raw_tms = [
+    "STRENGTH",
+    "ROAR",
+    "TOXIC",
+    "ROCKSMASH",
+    "ROCKCLIMB",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "PROTECT",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "DOUBLETEAM",
+    "REFLECT",
+    "FLAMETHROWER",
+    "FIREBLAST",
+    "AERIALACE",
+    "FACADE",
+    "FLAMECHARGE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "OVERHEAT",
+    "WILLOWISP",
+    "GIGAIMPACT",
+    "BULLDOZE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "WILDCHARGE",
+    "SECRETPOWER",
+    "SNARL",
+    "CONFIDE",
+    "FIRESPIN",
+    "DIG",
+    "THUNDERFANG",
+    "FIREFANG",
+    "PSYCHICFANGS",
+    "CRUNCH",
+    "BODYSLAM",
+    "FLAREBLITZ",
+    "CLOSECOMBAT",
+    "AGILITY",
+    "REVERSAL",
+    "ENDURE",
+    "PLAYROUGH",
+    "RETALIATE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "COVET",
+    "DRAGONPULSE",
+    "EXTREMESPEED",
+    "HEADBUTT",
+    "HEATWAVE",
+    "HELPINGHAND",
+    "HYPERVOICE",
+    "IRONHEAD",
+    "IRONTAIL",
+    "LASERFOCUS",
+    "MIMIC",
+    "MUDSLAP",
+    "OUTRAGE",
+    "RAGINGFURY",
+    "SCORCHINGSANDS",
+    "SNORE",
+    "SUPERPOWER",
+]
+compatible_egg_groups = [
+    "Field",
+]
 steps_to_hatch = 5355
 height = 1.9
 weight = 155.0
@@ -20,48 +105,8 @@ pokedex_entry = "This fleet-footed Pokémon is said to run over 6,200 miles in a
 battler_player_y = 9
 battler_enemy_y = 7
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 59
-internal_name = "ARCANINE"
 raw_hidden_ability = "JUSTIFIED"
 habitat = "Grassland"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FIREFANG"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HELPINGHAND"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "RAGINGFURY"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SCORCHINGSANDS"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "THUNDERFANG"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "EXTREMESPEED"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "CLOSECOMBAT"
-
-[[raw_level_up_moves]]
-at_level = 55
-name = "FLAREBLITZ"
-
-[[raw_level_up_moves]]
-at_level = 65
-name = "MORNINGSUN"
 
 [base_stats]
 hp = 90
@@ -78,5 +123,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

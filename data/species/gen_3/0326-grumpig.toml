@@ -1,3 +1,4 @@
+dex_number = 326
 name = "Grumpig"
 primary_type = "PSYCHIC"
 secondary_type = "PSYCHIC"
@@ -6,11 +7,121 @@ growth_rate = "Fast"
 exp_yield = 165
 catch_rate = 60
 caught_happiness = 70
-raw_abilities = ["THICKFAT", "OWNTEMPO"]
-raw_egg_moves = []
-raw_tms = ["PSYSHOCK", "CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "PSYCHIC", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "FOCUSBLAST", "ENERGYBALL", "FLING", "CHARGEBEAM", "PAYBACK", "GIGAIMPACT", "THUNDERWAVE", "PSYCHUP", "BULLDOZE", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "BODYSLAM", "AMNESIA", "ENDURE", "FUTURESIGHT", "POWERGEM", "NASTYPLOT", "VENOMDRENCH", "SNOWSCAPE", "TRAILBLAZE", "CHILLINGWATER", "SWIFT"]
-raw_tutor_moves = ["ALLYSWITCH", "BOUNCE", "COVET", "DRAINPUNCH", "FIREPUNCH", "FOCUSPUNCH", "HEADBUTT", "HEALBELL", "ICEPUNCH", "ICYWIND", "IRONTAIL", "LASERFOCUS", "MAGICCOAT", "MUDSLAP", "RECYCLE", "ROLEPLAY", "SHOCKWAVE", "SIGNALBEAM", "SKILLSWAP", "SNATCH", "SNORE", "TELEKINESIS", "THUNDERPUNCH", "TRICK", "ZENHEADBUTT", "MIMIC"]
-compatible_egg_groups = ["Field"]
+raw_abilities = [
+    "THICKFAT",
+    "OWNTEMPO",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "SPLASH" },
+    { at_level = 1, name = "PSYWAVE" },
+    { at_level = 7, name = "ODORSLEUTH" },
+    { at_level = 10, name = "PSYBEAM" },
+    { at_level = 13, name = "PSYCHUP" },
+    { at_level = 16, name = "CONFUSERAY" },
+    { at_level = 19, name = "ZENHEADBUTT" },
+    { at_level = 22, name = "MIRRORCOAT" },
+    { at_level = 22, name = "MAGICCOAT" },
+    { at_level = 25, name = "AMNESIA" },
+    { at_level = 28, name = "FUTURESIGHT" },
+    { at_level = 31, name = "LUCKYCHANT" },
+    { at_level = 32, name = "FOCUSPUNCH" },
+    { at_level = 36, name = "EXTRASENSORY" },
+    { at_level = 40, name = "SIMPLEBEAM" },
+    { at_level = 44, name = "BOUNCE" },
+    { at_level = 48, name = "PSYCHIC" },
+    { at_level = 52, name = "TRICK" },
+    { at_level = 56, name = "WHIRLWIND" },
+    { at_level = 60, name = "BOUNCE" },
+    { at_level = 64, name = "PSYSTRIKE" },
+]
+raw_tms = [
+    "PSYSHOCK",
+    "CALMMIND",
+    "TOXIC",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "REFLECT",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "FOCUSBLAST",
+    "ENERGYBALL",
+    "FLING",
+    "CHARGEBEAM",
+    "PAYBACK",
+    "GIGAIMPACT",
+    "THUNDERWAVE",
+    "PSYCHUP",
+    "BULLDOZE",
+    "DREAMEATER",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "TRICKROOM",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "BODYSLAM",
+    "AMNESIA",
+    "ENDURE",
+    "FUTURESIGHT",
+    "POWERGEM",
+    "NASTYPLOT",
+    "VENOMDRENCH",
+    "SNOWSCAPE",
+    "TRAILBLAZE",
+    "CHILLINGWATER",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "ALLYSWITCH",
+    "BOUNCE",
+    "COVET",
+    "DRAINPUNCH",
+    "FIREPUNCH",
+    "FOCUSPUNCH",
+    "HEADBUTT",
+    "HEALBELL",
+    "ICEPUNCH",
+    "ICYWIND",
+    "IRONTAIL",
+    "LASERFOCUS",
+    "MAGICCOAT",
+    "MIMIC",
+    "MUDSLAP",
+    "RECYCLE",
+    "ROLEPLAY",
+    "SHOCKWAVE",
+    "SIGNALBEAM",
+    "SKILLSWAP",
+    "SNATCH",
+    "SNORE",
+    "TELEKINESIS",
+    "THUNDERPUNCH",
+    "TRICK",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Field",
+]
 steps_to_hatch = 5355
 height = 0.9
 weight = 71.5
@@ -20,96 +131,8 @@ pokedex_entry = "Grumpig uses the black pearls on its body to amplify its psychi
 battler_player_y = 16
 battler_enemy_y = 13
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 326
-internal_name = "GRUMPIG"
 raw_hidden_ability = "GLUTTONY"
 habitat = "Mountain"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SPLASH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "PSYWAVE"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "ODORSLEUTH"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "PSYBEAM"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "PSYCHUP"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "CONFUSERAY"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "ZENHEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "MIRRORCOAT"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "MAGICCOAT"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "AMNESIA"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "FUTURESIGHT"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "LUCKYCHANT"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "FOCUSPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "EXTRASENSORY"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "SIMPLEBEAM"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "BOUNCE"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "PSYCHIC"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "TRICK"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "WHIRLWIND"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "BOUNCE"
-
-[[raw_level_up_moves]]
-at_level = 64
-name = "PSYSTRIKE"
 
 [base_stats]
 hp = 100
@@ -126,5 +149,3 @@ def_ = 0
 spa = 0
 spd = 2
 spe = 0
-
-[wild_items]

@@ -1,3 +1,4 @@
+dex_number = 745
 name = "Lycanroc"
 primary_type = "ROCK"
 secondary_type = "GROUND"
@@ -6,11 +7,116 @@ growth_rate = "Medium"
 exp_yield = 170
 catch_rate = 90
 caught_happiness = 70
-raw_abilities = ["KEENEYE", "SANDRUSH"]
-raw_egg_moves = []
-raw_tms = ["ROAR", "TOXIC", "BULKUP", "ROCKCLIMB", "HIDDENPOWER", "TAUNT", "PROTECT", "FRUSTRATION", "RETURN", "BRICKBREAK", "DOUBLETEAM", "SANDSTORM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "GIGAIMPACT", "ROCKPOLISH", "STONEEDGE", "SWORDSDANCE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "SNARL", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "SCARYFACE", "REVENGE", "ROCKBLAST", "ASSURANCE", "THUNDERFANG", "FIREFANG", "PSYCHICFANGS", "CRUNCH", "TAILSLAP", "CLOSECOMBAT", "AGILITY", "FOCUSENERGY", "REVERSAL", "ENDURE", "PLAYROUGH", "TRAILBLAZE"]
-raw_tutor_moves = ["COVET", "DRILLRUN", "DUALCHOP", "EARTHPOWER", "ENDEAVOR", "FIREPUNCH", "FOCUSPUNCH", "FOULPLAY", "HYPERVOICE", "IRONDEFENSE", "IRONHEAD", "IRONTAIL", "LASERFOCUS", "LASTRESORT", "OUTRAGE", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "THROATCHOP", "THUNDERPUNCH", "UPROAR", "ZENHEADBUTT", "LASHOUT", "MIMIC", "KNOCKOFF"]
-compatible_egg_groups = ["Field"]
+raw_abilities = [
+    "KEENEYE",
+    "SANDRUSH",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "ACCELEROCK" },
+    { at_level = 1, name = "QUICKGUARD" },
+    { at_level = 1, name = "QUICKATTACK" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 1, name = "LEER" },
+    { at_level = 1, name = "BITE" },
+    { at_level = 1, name = "SANDATTACK" },
+    { at_level = 4, name = "SANDATTACK" },
+    { at_level = 7, name = "BITE" },
+    { at_level = 12, name = "HOWL" },
+    { at_level = 15, name = "ROCKTHROW" },
+    { at_level = 18, name = "ODORSLEUTH" },
+    { at_level = 23, name = "ROCKTOMB" },
+    { at_level = 26, name = "ROAR" },
+    { at_level = 29, name = "STEALTHROCK" },
+    { at_level = 34, name = "ROCKSLIDE" },
+    { at_level = 37, name = "SCARYFACE" },
+    { at_level = 40, name = "FIREFANG" },
+    { at_level = 40, name = "THUNDERFANG" },
+    { at_level = 40, name = "CRUNCH" },
+    { at_level = 43, name = "PLAYROUGH" },
+    { at_level = 45, name = "PSYCHICFANGS" },
+    { at_level = 48, name = "STONEEDGE" },
+    { at_level = 52, name = "EARTHQUAKE" },
+    { at_level = 57, name = "CLOSECOMBAT" },
+]
+raw_tms = [
+    "ROAR",
+    "TOXIC",
+    "BULKUP",
+    "ROCKCLIMB",
+    "HIDDENPOWER",
+    "TAUNT",
+    "PROTECT",
+    "FRUSTRATION",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "SANDSTORM",
+    "ROCKTOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ECHOEDVOICE",
+    "GIGAIMPACT",
+    "ROCKPOLISH",
+    "STONEEDGE",
+    "SWORDSDANCE",
+    "ROCKSLIDE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "SNARL",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "SCARYFACE",
+    "REVENGE",
+    "ROCKBLAST",
+    "ASSURANCE",
+    "THUNDERFANG",
+    "FIREFANG",
+    "PSYCHICFANGS",
+    "CRUNCH",
+    "TAILSLAP",
+    "CLOSECOMBAT",
+    "AGILITY",
+    "FOCUSENERGY",
+    "REVERSAL",
+    "ENDURE",
+    "PLAYROUGH",
+    "TRAILBLAZE",
+]
+raw_tutor_moves = [
+    "COVET",
+    "DRILLRUN",
+    "DUALCHOP",
+    "EARTHPOWER",
+    "ENDEAVOR",
+    "FIREPUNCH",
+    "FOCUSPUNCH",
+    "FOULPLAY",
+    "HYPERVOICE",
+    "IRONDEFENSE",
+    "IRONHEAD",
+    "IRONTAIL",
+    "KNOCKOFF",
+    "LASERFOCUS",
+    "LASHOUT",
+    "LASTRESORT",
+    "MIMIC",
+    "OUTRAGE",
+    "SNORE",
+    "STEALTHROCK",
+    "STOMPINGTANTRUM",
+    "THROATCHOP",
+    "THUNDERPUNCH",
+    "UPROAR",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Field",
+]
 steps_to_hatch = 3840
 height = 0.8
 weight = 25.0
@@ -20,111 +126,12 @@ pokedex_entry = "When properly raised from a young age, it will become a trustwo
 battler_player_y = 21
 battler_enemy_y = 25
 battler_altitude = 0
-evolutions = []
-form_names = ["Midday", "Midnight", "Dusk"]
-dex_number = 745
-internal_name = "LYCANROC"
 raw_hidden_ability = "STEADFAST"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ACCELEROCK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "QUICKGUARD"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "QUICKATTACK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SANDATTACK"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "SANDATTACK"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "HOWL"
-
-[[raw_level_up_moves]]
-at_level = 15
-name = "ROCKTHROW"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "ODORSLEUTH"
-
-[[raw_level_up_moves]]
-at_level = 23
-name = "ROCKTOMB"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "ROAR"
-
-[[raw_level_up_moves]]
-at_level = 29
-name = "STEALTHROCK"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "ROCKSLIDE"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "SCARYFACE"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "FIREFANG"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "THUNDERFANG"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "PLAYROUGH"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "PSYCHICFANGS"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "STONEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "EARTHQUAKE"
-
-[[raw_level_up_moves]]
-at_level = 57
-name = "CLOSECOMBAT"
+form_names = [
+    "Midday",
+    "Midnight",
+    "Dusk",
+]
 
 [base_stats]
 hp = 75
@@ -141,5 +148,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

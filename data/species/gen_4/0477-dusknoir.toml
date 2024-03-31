@@ -1,3 +1,4 @@
+dex_number = 477
 name = "Dusknoir"
 primary_type = "GHOST"
 secondary_type = "GHOST"
@@ -6,11 +7,129 @@ growth_rate = "Fast"
 exp_yield = 236
 catch_rate = 45
 caught_happiness = 35
-raw_abilities = ["IRONFIST", "CURSEDBODY", "PRESSURE"]
-raw_egg_moves = []
-raw_tms = ["CALMMIND", "STRENGTH", "TOXIC", "ROCKSMASH", "FLASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "EARTHQUAKE", "RETURN", "PSYCHIC", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "ROCKTOMB", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "FOCUSBLAST", "FLING", "CHARGEBEAM", "WILLOWISP", "EMBARGO", "PAYBACK", "GIGAIMPACT", "PSYCHUP", "BULLDOZE", "ROCKSLIDE", "INFESTATION", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "DARKPULSE", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "REVENGE", "IMPRISON", "HEX", "BODYSLAM", "METRONOME", "ENDURE", "FUTURESIGHT", "HEAVYSLAM", "DARKESTLARIAT"]
-raw_tutor_moves = ["ALLYSWITCH", "BIND", "FIREPUNCH", "FOCUSPUNCH", "GRAVITY", "HEADBUTT", "HELPINGHAND", "ICEPUNCH", "ICYWIND", "LASERFOCUS", "MUDSLAP", "OMINOUSWIND", "PAINSPLIT", "SKILLSWAP", "SNATCH", "SNORE", "SPITE", "SUCKERPUNCH", "TELEKINESIS", "THUNDERPUNCH", "TRICK", "WONDERROOM", "SKITTERSMACK", "POLTERGEIST", "POWERSHIFT", "MIMIC"]
-compatible_egg_groups = ["Amorphous"]
+raw_abilities = [
+    "IRONFIST",
+    "CURSEDBODY",
+    "PRESSURE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "FOCUSPUNCH" },
+    { at_level = 1, name = "DRAINPUNCH" },
+    { at_level = 1, name = "ASTONISH" },
+    { at_level = 1, name = "ABSORB" },
+    { at_level = 4, name = "DISABLE" },
+    { at_level = 7, name = "FORESIGHT" },
+    { at_level = 10, name = "CURSE" },
+    { at_level = 13, name = "NIGHTSHADE" },
+    { at_level = 16, name = "HAZE" },
+    { at_level = 19, name = "MEANLOOK" },
+    { at_level = 22, name = "IMPRISON" },
+    { at_level = 25, name = "WILLOWISP" },
+    { at_level = 28, name = "PAINSPLIT" },
+    { at_level = 31, name = "OMINOUSWIND" },
+    { at_level = 34, name = "SHADOWSNEAK" },
+    { at_level = 37, name = "FEINTATTACK" },
+    { at_level = 37, name = "SHADOWPUNCH" },
+    { at_level = 41, name = "SKILLSWAP" },
+    { at_level = 45, name = "HEX" },
+    { at_level = 49, name = "LEECHLIFE" },
+    { at_level = 53, name = "FUTURESIGHT" },
+    { at_level = 57, name = "SUCKERPUNCH" },
+    { at_level = 61, name = "MEMENTO" },
+    { at_level = 65, name = "GRUDGE" },
+    { at_level = 69, name = "SHADOWFORCE" },
+]
+raw_tms = [
+    "CALMMIND",
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "ICEBEAM",
+    "BLIZZARD",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "EARTHQUAKE",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "ROCKTOMB",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "FOCUSBLAST",
+    "FLING",
+    "CHARGEBEAM",
+    "WILLOWISP",
+    "EMBARGO",
+    "PAYBACK",
+    "GIGAIMPACT",
+    "PSYCHUP",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "INFESTATION",
+    "DREAMEATER",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "TRICKROOM",
+    "SECRETPOWER",
+    "DARKPULSE",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "REVENGE",
+    "IMPRISON",
+    "HEX",
+    "BODYSLAM",
+    "METRONOME",
+    "ENDURE",
+    "FUTURESIGHT",
+    "HEAVYSLAM",
+    "DARKESTLARIAT",
+]
+raw_tutor_moves = [
+    "ALLYSWITCH",
+    "BIND",
+    "FIREPUNCH",
+    "FOCUSPUNCH",
+    "GRAVITY",
+    "HEADBUTT",
+    "HELPINGHAND",
+    "ICEPUNCH",
+    "ICYWIND",
+    "LASERFOCUS",
+    "MIMIC",
+    "MUDSLAP",
+    "OMINOUSWIND",
+    "PAINSPLIT",
+    "POLTERGEIST",
+    "POWERSHIFT",
+    "SKILLSWAP",
+    "SKITTERSMACK",
+    "SNATCH",
+    "SNORE",
+    "SPITE",
+    "SUCKERPUNCH",
+    "TELEKINESIS",
+    "THUNDERPUNCH",
+    "TRICK",
+    "WONDERROOM",
+]
+compatible_egg_groups = [
+    "Amorphous",
+]
 steps_to_hatch = 6630
 height = 2.2
 weight = 106.6
@@ -20,110 +139,6 @@ pokedex_entry = "The antenna on its head captures radio waves from the world of 
 battler_player_y = 14
 battler_enemy_y = 11
 battler_altitude = 7
-evolutions = []
-form_names = []
-dex_number = 477
-internal_name = "DUSKNOIR"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FOCUSPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "DRAINPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ASTONISH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ABSORB"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "DISABLE"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "FORESIGHT"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "CURSE"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "NIGHTSHADE"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "HAZE"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "MEANLOOK"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "IMPRISON"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "WILLOWISP"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "PAINSPLIT"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "OMINOUSWIND"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "SHADOWSNEAK"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "FEINTATTACK"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "SHADOWPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 41
-name = "SKILLSWAP"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "HEX"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "LEECHLIFE"
-
-[[raw_level_up_moves]]
-at_level = 53
-name = "FUTURESIGHT"
-
-[[raw_level_up_moves]]
-at_level = 57
-name = "SUCKERPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 61
-name = "MEMENTO"
-
-[[raw_level_up_moves]]
-at_level = 65
-name = "GRUDGE"
-
-[[raw_level_up_moves]]
-at_level = 69
-name = "SHADOWFORCE"
 
 [base_stats]
 hp = 45

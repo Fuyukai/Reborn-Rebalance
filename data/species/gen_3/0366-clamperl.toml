@@ -1,3 +1,4 @@
+dex_number = 366
 name = "Clamperl"
 primary_type = "WATER"
 secondary_type = "WATER"
@@ -6,11 +7,60 @@ growth_rate = "Erratic"
 exp_yield = 69
 catch_rate = 255
 caught_happiness = 70
-raw_abilities = ["SHELLARMOR", "RATTLED"]
-raw_egg_moves = ["AQUARING", "BARRIER", "BODYSLAM", "BRINE", "CONFUSERAY", "ENDURE", "MUDSPORT", "MUDDYWATER", "REFRESH", "SUPERSONIC", "WATERPULSE"]
-raw_tms = ["SURF", "WATERFALL", "TOXIC", "DIVE", "HAIL", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "ROUND", "SCALD", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "WHIRLPOOL", "BRINE", "BODYSLAM", "ENDURE", "MUDDYWATER"]
-raw_tutor_moves = ["ICYWIND", "IRONDEFENSE", "SNORE", "WATERPULSE", "MIMIC"]
-compatible_egg_groups = ["Water1"]
+raw_abilities = [
+    "SHELLARMOR",
+    "RATTLED",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "AQUARING" },
+    { at_level = 1, name = "WATERGUN" },
+    { at_level = 1, name = "WHIRLPOOL" },
+    { at_level = 1, name = "IRONDEFENSE" },
+    { at_level = 15, name = "WATERPULSE" },
+    { at_level = 30, name = "MUDDYWATER" },
+    { at_level = 40, name = "CONFUSERAY" },
+    { at_level = 50, name = "SHELLSMASH" },
+]
+raw_tms = [
+    "SURF",
+    "WATERFALL",
+    "TOXIC",
+    "DIVE",
+    "HAIL",
+    "HIDDENPOWER",
+    "ICEBEAM",
+    "BLIZZARD",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "RETURN",
+    "DOUBLETEAM",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "SCALD",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "WHIRLPOOL",
+    "BRINE",
+    "BODYSLAM",
+    "ENDURE",
+    "MUDDYWATER",
+]
+raw_tutor_moves = [
+    "ICYWIND",
+    "IRONDEFENSE",
+    "MIMIC",
+    "SNORE",
+    "WATERPULSE",
+]
+compatible_egg_groups = [
+    "Water1",
+]
 steps_to_hatch = 5355
 height = 0.4
 weight = 52.5
@@ -20,54 +70,24 @@ pokedex_entry = "A Clamperl slams its shell closed on prey to prevent escape. Th
 battler_player_y = 28
 battler_enemy_y = 22
 battler_altitude = 0
-form_names = []
-dex_number = 366
-internal_name = "CLAMPERL"
+raw_egg_moves = [
+    "AQUARING",
+    "BARRIER",
+    "BODYSLAM",
+    "BRINE",
+    "CONFUSERAY",
+    "ENDURE",
+    "MUDSPORT",
+    "MUDDYWATER",
+    "REFRESH",
+    "SUPERSONIC",
+    "WATERPULSE",
+]
 habitat = "Sea"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "AQUARING"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WATERGUN"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WHIRLPOOL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "IRONDEFENSE"
-
-[[raw_level_up_moves]]
-at_level = 15
-name = "WATERPULSE"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "MUDDYWATER"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "CONFUSERAY"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "SHELLSMASH"
-
-[[evolutions]]
-into_name = "HUNTAIL"
-condition = "TradeItem"
-parameter = "DEEPSEATOOTH"
-
-[[evolutions]]
-into_name = "GOREBYSS"
-condition = "TradeItem"
-parameter = "DEEPSEASCALE"
-
-
+evolutions = [
+    { into_name = "HUNTAIL", condition = "TradeItem", parameter = "DEEPSEATOOTH" },
+    { into_name = "GOREBYSS", condition = "TradeItem", parameter = "DEEPSEASCALE" },
+]
 
 [base_stats]
 hp = 35

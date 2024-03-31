@@ -1,3 +1,4 @@
+dex_number = 376
 name = "Metagross"
 primary_type = "STEEL"
 secondary_type = "PSYCHIC"
@@ -6,11 +7,123 @@ growth_rate = "Slow"
 exp_yield = 270
 catch_rate = 3
 caught_happiness = 35
-raw_abilities = ["CLEARBODY", "IRONFIST", "HEAVYMETAL"]
-raw_egg_moves = []
-raw_tms = ["CUT", "PSYSHOCK", "STRENGTH", "TOXIC", "ROCKSMASH", "FLASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "EARTHQUAKE", "RETURN", "PSYCHIC", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "SLUDGEBOMB", "SANDSTORM", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ROUND", "BRUTALSWING", "EXPLOSION", "GIGAIMPACT", "ROCKPOLISH", "GYROBALL", "PSYCHUP", "BULLDOZE", "ROCKSLIDE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "SELFDESTRUCT", "SCARYFACE", "PSYCHOCUT", "BODYSLAM", "AGILITY", "ENDURE", "COSMICPOWER", "HEATCRASH", "BODYPRESS", "SWIFT"]
-raw_tutor_moves = ["ALLYSWITCH", "BLOCK", "FURYCUTTER", "GRAVITY", "HEADBUTT", "ICEPUNCH", "ICYWIND", "IRONDEFENSE", "IRONHEAD", "LASERFOCUS", "MAGNETRISE", "MUDSLAP", "ROLLOUT", "SIGNALBEAM", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "TELEKINESIS", "THUNDERPUNCH", "TRICK", "ZENHEADBUTT", "METEORBEAM", "EXPANDINGFORCE", "STEELROLLER", "STEELBEAM", "MIMIC"]
-compatible_egg_groups = ["Mineral"]
+raw_abilities = [
+    "CLEARBODY",
+    "IRONFIST",
+    "HEAVYMETAL",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "BODYSLAM" },
+    { at_level = 1, name = "DYNAMICPUNCH" },
+    { at_level = 1, name = "REFRESH" },
+    { at_level = 1, name = "IRONDEFENSE" },
+    { at_level = 1, name = "CONFUSION" },
+    { at_level = 1, name = "MIRRORSHOT" },
+    { at_level = 1, name = "HEADBUTT" },
+    { at_level = 15, name = "TAKEDOWN" },
+    { at_level = 20, name = "METALCLAW" },
+    { at_level = 23, name = "PURSUIT" },
+    { at_level = 26, name = "BULLETPUNCH" },
+    { at_level = 29, name = "PSYCHIC" },
+    { at_level = 32, name = "SMARTSTRIKE" },
+    { at_level = 35, name = "SCARYFACE" },
+    { at_level = 38, name = "ZENHEADBUTT" },
+    { at_level = 42, name = "AGILITY" },
+    { at_level = 45, name = "METEORMASH" },
+    { at_level = 49, name = "HAMMERARM" },
+    { at_level = 53, name = "HEAVYSLAM" },
+    { at_level = 57, name = "GRAVITY" },
+    { at_level = 61, name = "COSMICPOWER" },
+    { at_level = 65, name = "HYPERBEAM" },
+    { at_level = 69, name = "EXPLOSION" },
+    { at_level = 73, name = "SHIFTGEAR" },
+]
+raw_tms = [
+    "CUT",
+    "PSYSHOCK",
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "EARTHQUAKE",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "REFLECT",
+    "SLUDGEBOMB",
+    "SANDSTORM",
+    "ROCKTOMB",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ROUND",
+    "BRUTALSWING",
+    "EXPLOSION",
+    "GIGAIMPACT",
+    "ROCKPOLISH",
+    "GYROBALL",
+    "PSYCHUP",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "FLASHCANNON",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "SELFDESTRUCT",
+    "SCARYFACE",
+    "PSYCHOCUT",
+    "BODYSLAM",
+    "AGILITY",
+    "ENDURE",
+    "COSMICPOWER",
+    "HEATCRASH",
+    "BODYPRESS",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "ALLYSWITCH",
+    "BLOCK",
+    "EXPANDINGFORCE",
+    "FURYCUTTER",
+    "GRAVITY",
+    "HEADBUTT",
+    "ICEPUNCH",
+    "ICYWIND",
+    "IRONDEFENSE",
+    "IRONHEAD",
+    "LASERFOCUS",
+    "MAGNETRISE",
+    "METEORBEAM",
+    "MIMIC",
+    "MUDSLAP",
+    "ROLLOUT",
+    "SIGNALBEAM",
+    "SNORE",
+    "STEALTHROCK",
+    "STEELBEAM",
+    "STEELROLLER",
+    "STOMPINGTANTRUM",
+    "TELEKINESIS",
+    "THUNDERPUNCH",
+    "TRICK",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Mineral",
+]
 steps_to_hatch = 10455
 height = 1.6
 weight = 550.0
@@ -20,107 +133,7 @@ pokedex_entry = "Metagross has four brains that are joined by a complex neural n
 battler_player_y = 28
 battler_enemy_y = 26
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 376
-internal_name = "METAGROSS"
 habitat = "RoughTerrain"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "DYNAMICPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "REFRESH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "IRONDEFENSE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "CONFUSION"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "MIRRORSHOT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 15
-name = "TAKEDOWN"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "METALCLAW"
-
-[[raw_level_up_moves]]
-at_level = 23
-name = "PURSUIT"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "BULLETPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 29
-name = "PSYCHIC"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "SMARTSTRIKE"
-
-[[raw_level_up_moves]]
-at_level = 35
-name = "SCARYFACE"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "ZENHEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "AGILITY"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "METEORMASH"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "HAMMERARM"
-
-[[raw_level_up_moves]]
-at_level = 53
-name = "HEAVYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 57
-name = "GRAVITY"
-
-[[raw_level_up_moves]]
-at_level = 61
-name = "COSMICPOWER"
-
-[[raw_level_up_moves]]
-at_level = 65
-name = "HYPERBEAM"
-
-[[raw_level_up_moves]]
-at_level = 69
-name = "EXPLOSION"
-
-[[raw_level_up_moves]]
-at_level = 73
-name = "SHIFTGEAR"
 
 [base_stats]
 hp = 80

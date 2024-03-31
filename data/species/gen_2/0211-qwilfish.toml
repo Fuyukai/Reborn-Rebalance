@@ -1,3 +1,4 @@
+dex_number = 211
 name = "Qwilfish"
 primary_type = "WATER"
 secondary_type = "POISON"
@@ -6,11 +7,112 @@ growth_rate = "Medium"
 exp_yield = 86
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["POISONPOINT", "SWIFTSWIM"]
-raw_egg_moves = ["ACIDSPRAY", "AQUAJET", "ASTONISH", "BRINE", "BUBBLEBEAM", "FLAIL", "HAZE", "SIGNALBEAM", "SUPERSONIC", "WATERPULSE", "MORTALSPIN", "AQUATAIL", "SELFDESTRUCT"]
-raw_tms = ["SURF", "WATERFALL", "TOXIC", "DIVE", "HAIL", "VENOSHOCK", "HIDDENPOWER", "TAUNT", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "SHADOWBALL", "DOUBLETEAM", "SLUDGEWAVE", "SLUDGEBOMB", "FACADE", "REST", "ATTRACT", "ROUND", "SCALD", "EXPLOSION", "PAYBACK", "THUNDERWAVE", "GYROBALL", "SWORDSDANCE", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "PINMISSILE", "SELFDESTRUCT", "SCARYFACE", "WHIRLPOOL", "REVENGE", "BRINE", "ASSURANCE", "HEX", "HYDROPUMP", "REVERSAL", "SPIKES", "ENDURE", "TOXICSPIKES", "VENOMDRENCH", "CHILLINGWATER", "SWIFT"]
-raw_tutor_moves = ["AQUATAIL", "BOUNCE", "HEADBUTT", "ICYWIND", "LIQUIDATION", "MUDSLAP", "PAINSPLIT", "SHOCKWAVE", "SIGNALBEAM", "SNORE", "THROATCHOP", "WATERPULSE", "SCALESHOT", "STEELROLLER", "ICEBALL", "MIMIC", "POISONTAIL", "WAVECRASH"]
-compatible_egg_groups = ["Water2"]
+raw_abilities = [
+    "POISONPOINT",
+    "SWIFTSWIM",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "ASTONISH" },
+    { at_level = 1, name = "HARDEN" },
+    { at_level = 1, name = "POISONSTING" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 4, name = "WATERGUN" },
+    { at_level = 7, name = "ACIDSPRAY" },
+    { at_level = 10, name = "HAZE" },
+    { at_level = 13, name = "AQUAJET" },
+    { at_level = 16, name = "PINMISSILE" },
+    { at_level = 19, name = "SPIKES" },
+    { at_level = 19, name = "TOXICSPIKES" },
+    { at_level = 22, name = "REVENGE" },
+    { at_level = 25, name = "BUBBLEBEAM" },
+    { at_level = 28, name = "PAINSPLIT" },
+    { at_level = 31, name = "ROLLOUT" },
+    { at_level = 34, name = "TAKEDOWN" },
+    { at_level = 37, name = "ACUPRESSURE" },
+    { at_level = 40, name = "AQUATAIL" },
+    { at_level = 44, name = "PAYBACK" },
+    { at_level = 48, name = "WHIRLPOOL" },
+    { at_level = 52, name = "GUNKSHOT" },
+    { at_level = 56, name = "WAVECRASH" },
+    { at_level = 60, name = "DOUBLEEDGE" },
+    { at_level = 64, name = "DESTINYBOND" },
+    { at_level = 68, name = "HYDROPUMP" },
+]
+raw_tms = [
+    "SURF",
+    "WATERFALL",
+    "TOXIC",
+    "DIVE",
+    "HAIL",
+    "VENOSHOCK",
+    "HIDDENPOWER",
+    "TAUNT",
+    "ICEBEAM",
+    "BLIZZARD",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "RETURN",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "SLUDGEWAVE",
+    "SLUDGEBOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "SCALD",
+    "EXPLOSION",
+    "PAYBACK",
+    "THUNDERWAVE",
+    "GYROBALL",
+    "SWORDSDANCE",
+    "POISONJAB",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "PINMISSILE",
+    "SELFDESTRUCT",
+    "SCARYFACE",
+    "WHIRLPOOL",
+    "REVENGE",
+    "BRINE",
+    "ASSURANCE",
+    "HEX",
+    "HYDROPUMP",
+    "REVERSAL",
+    "SPIKES",
+    "ENDURE",
+    "TOXICSPIKES",
+    "VENOMDRENCH",
+    "CHILLINGWATER",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AQUATAIL",
+    "BOUNCE",
+    "HEADBUTT",
+    "ICEBALL",
+    "ICYWIND",
+    "LIQUIDATION",
+    "MIMIC",
+    "MUDSLAP",
+    "PAINSPLIT",
+    "POISONTAIL",
+    "SCALESHOT",
+    "SHOCKWAVE",
+    "SIGNALBEAM",
+    "SNORE",
+    "STEELROLLER",
+    "THROATCHOP",
+    "WATERPULSE",
+    "WAVECRASH",
+]
+compatible_egg_groups = [
+    "Water2",
+]
 steps_to_hatch = 5355
 height = 0.5
 weight = 3.9
@@ -20,118 +122,26 @@ pokedex_entry = "A Qwilfish uses the pressure of water it swallows to shoot toxi
 battler_player_y = 25
 battler_enemy_y = 26
 battler_altitude = 12
-form_names = []
-dex_number = 211
-internal_name = "QWILFISH"
 raw_hidden_ability = "INTIMIDATE"
+raw_egg_moves = [
+    "ACIDSPRAY",
+    "AQUAJET",
+    "ASTONISH",
+    "BRINE",
+    "BUBBLEBEAM",
+    "FLAIL",
+    "HAZE",
+    "SIGNALBEAM",
+    "SUPERSONIC",
+    "WATERPULSE",
+    "MORTALSPIN",
+    "AQUATAIL",
+    "SELFDESTRUCT",
+]
 habitat = "Sea"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ASTONISH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HARDEN"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "POISONSTING"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "WATERGUN"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "ACIDSPRAY"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "HAZE"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "AQUAJET"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "PINMISSILE"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "SPIKES"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "TOXICSPIKES"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "REVENGE"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "BUBBLEBEAM"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "PAINSPLIT"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "ROLLOUT"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "TAKEDOWN"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "ACUPRESSURE"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "AQUATAIL"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "PAYBACK"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "WHIRLPOOL"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "GUNKSHOT"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "WAVECRASH"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "DOUBLEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 64
-name = "DESTINYBOND"
-
-[[raw_level_up_moves]]
-at_level = 68
-name = "HYDROPUMP"
-
-[[evolutions]]
-into_name = "OVERQWIL"
-condition = "HasMove"
-parameter = "BARBBARRAGE"
-
-
+evolutions = [
+    { into_name = "OVERQWIL", condition = "HasMove", parameter = "BARBBARRAGE" },
+]
 
 [base_stats]
 hp = 65

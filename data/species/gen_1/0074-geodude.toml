@@ -1,3 +1,4 @@
+dex_number = 74
 name = "Geodude"
 primary_type = "ROCK"
 secondary_type = "GROUND"
@@ -6,11 +7,106 @@ growth_rate = "Parabolic"
 exp_yield = 60
 catch_rate = 255
 caught_happiness = 70
-raw_abilities = ["ROCKHEAD", "STURDY", "SHELLARMOR"]
-raw_egg_moves = ["AUTOTOMIZE", "BLOCK", "CURSE", "ENDURE", "FLAIL", "FOCUSPUNCH", "HAMMERARM", "MEGAPUNCH", "ROCKCLIMB", "WIDEGUARD"]
-raw_tms = ["STRENGTH", "TOXIC", "ROCKSMASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "FRUSTRATION", "SMACKDOWN", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "FLAMETHROWER", "SANDSTORM", "FIREBLAST", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "FLING", "CHARGEBEAM", "BRUTALSWING", "EXPLOSION", "ROCKPOLISH", "STONEEDGE", "VOLTSWITCH", "THUNDERWAVE", "GYROBALL", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "DIG", "SCREECH", "SELFDESTRUCT", "ROCKBLAST", "BODYSLAM", "METRONOME", "ENDURE"]
-raw_tutor_moves = ["ANCIENTPOWER", "BLOCK", "EARTHPOWER", "ELECTROWEB", "FIREPUNCH", "FOCUSPUNCH", "HEADBUTT", "IRONDEFENSE", "MAGNETRISE", "MUDSLAP", "ROLLOUT", "SNORE", "STEALTHROCK", "SUCKERPUNCH", "SUPERPOWER", "THUNDERPUNCH", "MIMIC"]
-compatible_egg_groups = ["Mineral"]
+raw_abilities = [
+    "ROCKHEAD",
+    "STURDY",
+    "SHELLARMOR",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "DEFENSECURL" },
+    { at_level = 1, name = "HARDEN" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 4, name = "FLAIL" },
+    { at_level = 7, name = "MAGNITUDE" },
+    { at_level = 10, name = "BULLDOZE" },
+    { at_level = 13, name = "ROCKTHROW" },
+    { at_level = 16, name = "RAPIDSPIN" },
+    { at_level = 19, name = "CURSE" },
+    { at_level = 22, name = "FLING" },
+    { at_level = 25, name = "ACCELEROCK" },
+    { at_level = 28, name = "STEALTHROCK" },
+    { at_level = 31, name = "ROCKBLAST" },
+    { at_level = 34, name = "EARTHPOWER" },
+    { at_level = 37, name = "SUCKERPUNCH" },
+    { at_level = 41, name = "EXPLOSION" },
+    { at_level = 45, name = "STONEEDGE" },
+    { at_level = 49, name = "DOUBLEEDGE" },
+    { at_level = 53, name = "HAMMERARM" },
+    { at_level = 57, name = "WIDEGUARD" },
+]
+raw_tms = [
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "ROCKCLIMB",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "PROTECT",
+    "FRUSTRATION",
+    "SMACKDOWN",
+    "THUNDERBOLT",
+    "THUNDER",
+    "EARTHQUAKE",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "FLAMETHROWER",
+    "SANDSTORM",
+    "FIREBLAST",
+    "ROCKTOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "FLING",
+    "CHARGEBEAM",
+    "BRUTALSWING",
+    "EXPLOSION",
+    "ROCKPOLISH",
+    "STONEEDGE",
+    "VOLTSWITCH",
+    "THUNDERWAVE",
+    "GYROBALL",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "NATUREPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "DIG",
+    "SCREECH",
+    "SELFDESTRUCT",
+    "ROCKBLAST",
+    "BODYSLAM",
+    "METRONOME",
+    "ENDURE",
+]
+raw_tutor_moves = [
+    "ANCIENTPOWER",
+    "BLOCK",
+    "EARTHPOWER",
+    "ELECTROWEB",
+    "FIREPUNCH",
+    "FOCUSPUNCH",
+    "HEADBUTT",
+    "IRONDEFENSE",
+    "MAGNETRISE",
+    "MIMIC",
+    "MUDSLAP",
+    "ROLLOUT",
+    "SNORE",
+    "STEALTHROCK",
+    "SUCKERPUNCH",
+    "SUPERPOWER",
+    "THUNDERPUNCH",
+]
+compatible_egg_groups = [
+    "Mineral",
+]
 steps_to_hatch = 4080
 height = 0.4
 weight = 20.0
@@ -20,99 +116,26 @@ pokedex_entry = "It climbs mountain paths using only the power of its arms. Beca
 battler_player_y = 33
 battler_enemy_y = 26
 battler_altitude = 16
-form_names = ["Normal", "Alternate"]
-dex_number = 74
-internal_name = "GEODUDE"
+raw_egg_moves = [
+    "AUTOTOMIZE",
+    "BLOCK",
+    "CURSE",
+    "ENDURE",
+    "FLAIL",
+    "FOCUSPUNCH",
+    "HAMMERARM",
+    "MEGAPUNCH",
+    "ROCKCLIMB",
+    "WIDEGUARD",
+]
 habitat = "Mountain"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "DEFENSECURL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HARDEN"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "FLAIL"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "MAGNITUDE"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "BULLDOZE"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "ROCKTHROW"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "RAPIDSPIN"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "CURSE"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "FLING"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "ACCELEROCK"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "STEALTHROCK"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "ROCKBLAST"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "EARTHPOWER"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "SUCKERPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 41
-name = "EXPLOSION"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "STONEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "DOUBLEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 53
-name = "HAMMERARM"
-
-[[raw_level_up_moves]]
-at_level = 57
-name = "WIDEGUARD"
-
-[[evolutions]]
-into_name = "GRAVELER"
-condition = "Level"
-parameter = "25"
-
-
-
-
+evolutions = [
+    { into_name = "GRAVELER", condition = "Level", parameter = "25" },
+]
+form_names = [
+    "Normal",
+    "Alternate",
+]
 
 [base_stats]
 hp = 40

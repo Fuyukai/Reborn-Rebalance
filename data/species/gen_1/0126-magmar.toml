@@ -1,3 +1,4 @@
+dex_number = 126
 name = "Magmar"
 primary_type = "FIRE"
 secondary_type = "FIRE"
@@ -6,11 +7,104 @@ growth_rate = "Medium"
 exp_yield = 173
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["FLAMEBODY", "VITALSPIRIT"]
-raw_egg_moves = []
-raw_tms = ["STRENGTH", "TOXIC", "ROCKSMASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "FRUSTRATION", "RETURN", "PSYCHIC", "BRICKBREAK", "DOUBLETEAM", "FLAMETHROWER", "FIREBLAST", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "THIEF", "LOWSWEEP", "ROUND", "OVERHEAT", "FOCUSBLAST", "FLING", "WILLOWISP", "GIGAIMPACT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "FIRESPIN", "SCREECH", "POWERSWAP", "BODYSLAM", "FLAREBLITZ", "FOCUSENERGY", "METRONOME", "ENDURE"]
-raw_tutor_moves = ["COVET", "DUALCHOP", "FIREPUNCH", "FOCUSPUNCH", "HEADBUTT", "HEATWAVE", "HELPINGHAND", "IRONTAIL", "LOWKICK", "MUDSLAP", "SNORE", "THUNDERPUNCH", "UPROAR", "BURNINGJEALOUSY", "SCORCHINGSANDS", "MIMIC"]
-compatible_egg_groups = ["Humanlike"]
+raw_abilities = [
+    "FLAMEBODY",
+    "VITALSPIRIT",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "FOLLOWME" },
+    { at_level = 1, name = "SMOG" },
+    { at_level = 1, name = "EMBER" },
+    { at_level = 1, name = "SMOKESCREEN" },
+    { at_level = 5, name = "CLEARSMOG" },
+    { at_level = 8, name = "FIRESPIN" },
+    { at_level = 10, name = "FEINTATTACK" },
+    { at_level = 12, name = "MACHPUNCH" },
+    { at_level = 14, name = "FLAMEWHEEL" },
+    { at_level = 16, name = "CONFUSERAY" },
+    { at_level = 18, name = "FLAMEBURST" },
+    { at_level = 21, name = "SCREECH" },
+    { at_level = 24, name = "FIREPUNCH" },
+    { at_level = 27, name = "WILLOWISP" },
+    { at_level = 32, name = "LAVAPLUME" },
+    { at_level = 35, name = "CROSSCHOP" },
+    { at_level = 39, name = "BELLYDRUM" },
+    { at_level = 43, name = "SLUDGEBOMB" },
+    { at_level = 47, name = "SCORCHINGSANDS" },
+    { at_level = 51, name = "FLAREBLITZ" },
+    { at_level = 55, name = "DYNAMICPUNCH" },
+    { at_level = 59, name = "SOLARBEAM" },
+    { at_level = 63, name = "GIGAIMPACT" },
+    { at_level = 67, name = "MOONBLAST" },
+    { at_level = 71, name = "MAGMASTORM" },
+]
+raw_tms = [
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "ROCKCLIMB",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "HYPERBEAM",
+    "PROTECT",
+    "FRUSTRATION",
+    "RETURN",
+    "PSYCHIC",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "FLAMETHROWER",
+    "FIREBLAST",
+    "FACADE",
+    "FLAMECHARGE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "LOWSWEEP",
+    "ROUND",
+    "OVERHEAT",
+    "FOCUSBLAST",
+    "FLING",
+    "WILLOWISP",
+    "GIGAIMPACT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "FIRESPIN",
+    "SCREECH",
+    "POWERSWAP",
+    "BODYSLAM",
+    "FLAREBLITZ",
+    "FOCUSENERGY",
+    "METRONOME",
+    "ENDURE",
+]
+raw_tutor_moves = [
+    "BURNINGJEALOUSY",
+    "COVET",
+    "DUALCHOP",
+    "FIREPUNCH",
+    "FOCUSPUNCH",
+    "HEADBUTT",
+    "HEATWAVE",
+    "HELPINGHAND",
+    "IRONTAIL",
+    "LOWKICK",
+    "MIMIC",
+    "MUDSLAP",
+    "SCORCHINGSANDS",
+    "SNORE",
+    "THUNDERPUNCH",
+    "UPROAR",
+]
+compatible_egg_groups = [
+    "Humanlike",
+]
 steps_to_hatch = 6630
 height = 1.3
 weight = 44.5
@@ -20,117 +114,10 @@ pokedex_entry = "It blows out intense flames from all over its body to intimidat
 battler_player_y = 19
 battler_enemy_y = 11
 battler_altitude = 0
-form_names = []
-dex_number = 126
-internal_name = "MAGMAR"
 habitat = "Mountain"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FOLLOWME"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SMOG"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "EMBER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SMOKESCREEN"
-
-[[raw_level_up_moves]]
-at_level = 5
-name = "CLEARSMOG"
-
-[[raw_level_up_moves]]
-at_level = 8
-name = "FIRESPIN"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "FEINTATTACK"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "MACHPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "FLAMEWHEEL"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "CONFUSERAY"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "FLAMEBURST"
-
-[[raw_level_up_moves]]
-at_level = 21
-name = "SCREECH"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "FIREPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "WILLOWISP"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "LAVAPLUME"
-
-[[raw_level_up_moves]]
-at_level = 35
-name = "CROSSCHOP"
-
-[[raw_level_up_moves]]
-at_level = 39
-name = "BELLYDRUM"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "SLUDGEBOMB"
-
-[[raw_level_up_moves]]
-at_level = 47
-name = "SCORCHINGSANDS"
-
-[[raw_level_up_moves]]
-at_level = 51
-name = "FLAREBLITZ"
-
-[[raw_level_up_moves]]
-at_level = 55
-name = "DYNAMICPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 59
-name = "SOLARBEAM"
-
-[[raw_level_up_moves]]
-at_level = 63
-name = "GIGAIMPACT"
-
-[[raw_level_up_moves]]
-at_level = 67
-name = "MOONBLAST"
-
-[[raw_level_up_moves]]
-at_level = 71
-name = "MAGMASTORM"
-
-[[evolutions]]
-into_name = "MAGMORTAR"
-condition = "TradeItem"
-parameter = "MAGMARIZER"
-
-
+evolutions = [
+    { into_name = "MAGMORTAR", condition = "TradeItem", parameter = "MAGMARIZER" },
+]
 
 [base_stats]
 hp = 65

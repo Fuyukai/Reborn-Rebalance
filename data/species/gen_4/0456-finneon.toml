@@ -1,3 +1,4 @@
+dex_number = 456
 name = "Finneon"
 primary_type = "WATER"
 secondary_type = "WATER"
@@ -6,11 +7,89 @@ growth_rate = "Erratic"
 exp_yield = 66
 catch_rate = 190
 caught_happiness = 70
-raw_abilities = ["SWIFTSWIM", "STORMDRAIN", "DAZZLING"]
-raw_egg_moves = ["AGILITY", "AQUATAIL", "AURORABEAM", "BRINE", "CHARM", "CONFUSERAY", "FLAIL", "PSYBEAM", "SIGNALBEAM", "SPLASH", "SWEETKISS", "TICKLE"]
-raw_tms = ["SURF", "WATERFALL", "TOXIC", "DIVE", "HAIL", "FLASH", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "RETURN", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "ROUND", "SCALD", "PAYBACK", "PSYCHUP", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "CHARM", "WHIRLPOOL", "BRINE", "AGILITY", "ENDURE", "CHILLINGWATER", "SWIFT", "HURRICANE"]
-raw_tutor_moves = ["AIRCUTTER", "AQUATAIL", "BOUNCE", "DEFOG", "ICYWIND", "OMINOUSWIND", "SIGNALBEAM", "SNORE", "TAILWIND", "TWISTER", "WATERPULSE", "MIMIC"]
-compatible_egg_groups = ["Water2"]
+raw_abilities = [
+    "SWIFTSWIM",
+    "STORMDRAIN",
+    "DAZZLING",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "POUND" },
+    { at_level = 1, name = "CHARM" },
+    { at_level = 6, name = "WATERGUN" },
+    { at_level = 8, name = "ATTRACT" },
+    { at_level = 10, name = "GUST" },
+    { at_level = 12, name = "WATERPULSE" },
+    { at_level = 14, name = "PSYBEAM" },
+    { at_level = 16, name = "WHIRLPOOL" },
+    { at_level = 18, name = "ROOST" },
+    { at_level = 20, name = "BRINE" },
+    { at_level = 21, name = "CAPTIVATE" },
+    { at_level = 24, name = "ICYWIND" },
+    { at_level = 27, name = "AURORABEAM" },
+    { at_level = 30, name = "AQUATAIL" },
+    { at_level = 33, name = "SILVERWIND" },
+    { at_level = 36, name = "AQUARING" },
+    { at_level = 39, name = "TAILWIND" },
+    { at_level = 42, name = "UTURN" },
+    { at_level = 46, name = "BOUNCE" },
+    { at_level = 50, name = "SOAK" },
+]
+raw_tms = [
+    "SURF",
+    "WATERFALL",
+    "TOXIC",
+    "DIVE",
+    "HAIL",
+    "FLASH",
+    "HIDDENPOWER",
+    "ICEBEAM",
+    "BLIZZARD",
+    "PROTECT",
+    "RAINDANCE",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "RETURN",
+    "DOUBLETEAM",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "SCALD",
+    "PAYBACK",
+    "PSYCHUP",
+    "SWAGGER",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "NATUREPOWER",
+    "CONFIDE",
+    "CHARM",
+    "WHIRLPOOL",
+    "BRINE",
+    "HURRICANE",
+    "AGILITY",
+    "ENDURE",
+    "CHILLINGWATER",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AIRCUTTER",
+    "AQUATAIL",
+    "BOUNCE",
+    "DEFOG",
+    "ICYWIND",
+    "MIMIC",
+    "OMINOUSWIND",
+    "SIGNALBEAM",
+    "SNORE",
+    "TAILWIND",
+    "TWISTER",
+    "WATERPULSE",
+]
+compatible_egg_groups = [
+    "Water2",
+]
 steps_to_hatch = 5355
 height = 0.4
 weight = 7.0
@@ -20,96 +99,23 @@ pokedex_entry = "After long exposure to sunlight, the patterns on its tail fins 
 battler_player_y = 35
 battler_enemy_y = 26
 battler_altitude = 18
-form_names = []
-dex_number = 456
-internal_name = "FINNEON"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "POUND"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "CHARM"
-
-[[raw_level_up_moves]]
-at_level = 6
-name = "WATERGUN"
-
-[[raw_level_up_moves]]
-at_level = 8
-name = "ATTRACT"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "GUST"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "WATERPULSE"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "PSYBEAM"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "WHIRLPOOL"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "ROOST"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "BRINE"
-
-[[raw_level_up_moves]]
-at_level = 21
-name = "CAPTIVATE"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "ICYWIND"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "AURORABEAM"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "AQUATAIL"
-
-[[raw_level_up_moves]]
-at_level = 33
-name = "SILVERWIND"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "AQUARING"
-
-[[raw_level_up_moves]]
-at_level = 39
-name = "TAILWIND"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "UTURN"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "BOUNCE"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "SOAK"
-
-[[evolutions]]
-into_name = "LUMINEON"
-condition = "Level"
-parameter = "31"
-
-
+raw_egg_moves = [
+    "AGILITY",
+    "AQUATAIL",
+    "AURORABEAM",
+    "BRINE",
+    "CHARM",
+    "CONFUSERAY",
+    "FLAIL",
+    "PSYBEAM",
+    "SIGNALBEAM",
+    "SPLASH",
+    "SWEETKISS",
+    "TICKLE",
+]
+evolutions = [
+    { into_name = "LUMINEON", condition = "Level", parameter = "31" },
+]
 
 [base_stats]
 hp = 50
@@ -126,5 +132,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 1
-
-[wild_items]

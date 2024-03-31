@@ -1,3 +1,4 @@
+dex_number = 485
 name = "Heatran"
 primary_type = "FIRE"
 secondary_type = "STEEL"
@@ -6,11 +7,101 @@ growth_rate = "Slow"
 exp_yield = 270
 catch_rate = 3
 caught_happiness = 100
-raw_abilities = ["FLASHFIRE", "FLAMEBODY"]
-raw_egg_moves = []
-raw_tms = ["STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "FRUSTRATION", "SOLARBEAM", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "FLAMETHROWER", "FIREBLAST", "ROCKTOMB", "TORMENT", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "ROUND", "OVERHEAT", "WILLOWISP", "EXPLOSION", "PAYBACK", "GIGAIMPACT", "STONEEDGE", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "NATUREPOWER", "DARKPULSE", "CONFIDE", "FIRESPIN", "DIG", "SELFDESTRUCT", "FIREFANG", "CRUNCH", "BODYSLAM", "ENDURE", "HEATCRASH", "HEAVYSLAM", "BODYPRESS", "POUNCE"]
-raw_tutor_moves = ["ANCIENTPOWER", "BUGBITE", "DRAGONPULSE", "EARTHPOWER", "HEADBUTT", "HEATWAVE", "IRONDEFENSE", "IRONHEAD", "MUDSLAP", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "UPROAR", "BURNINGJEALOUSY", "SCORCHINGSANDS", "STEELROLLER", "STEELBEAM", "MIMIC"]
-compatible_egg_groups = ["Undiscovered"]
+raw_abilities = [
+    "FLASHFIRE",
+    "FLAMEBODY",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "ERUPTION" },
+    { at_level = 1, name = "ANCIENTPOWER" },
+    { at_level = 6, name = "LEER" },
+    { at_level = 10, name = "FIREFANG" },
+    { at_level = 16, name = "CRUNCH" },
+    { at_level = 22, name = "SCARYFACE" },
+    { at_level = 26, name = "LAVAPLUME" },
+    { at_level = 30, name = "FIRESPIN" },
+    { at_level = 34, name = "IRONHEAD" },
+    { at_level = 38, name = "SCORCHINGSANDS" },
+    { at_level = 42, name = "HEATWAVE" },
+    { at_level = 46, name = "STONEEDGE" },
+    { at_level = 50, name = "MAGMASTORM" },
+]
+raw_tms = [
+    "STRENGTH",
+    "ROAR",
+    "TOXIC",
+    "ROCKSMASH",
+    "ROCKCLIMB",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "HYPERBEAM",
+    "PROTECT",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "EARTHQUAKE",
+    "RETURN",
+    "DOUBLETEAM",
+    "FLAMETHROWER",
+    "FIREBLAST",
+    "ROCKTOMB",
+    "TORMENT",
+    "FACADE",
+    "FLAMECHARGE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "OVERHEAT",
+    "WILLOWISP",
+    "EXPLOSION",
+    "PAYBACK",
+    "GIGAIMPACT",
+    "STONEEDGE",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "FLASHCANNON",
+    "SECRETPOWER",
+    "NATUREPOWER",
+    "DARKPULSE",
+    "CONFIDE",
+    "FIRESPIN",
+    "DIG",
+    "SELFDESTRUCT",
+    "FIREFANG",
+    "CRUNCH",
+    "BODYSLAM",
+    "ENDURE",
+    "HEATCRASH",
+    "HEAVYSLAM",
+    "BODYPRESS",
+    "POUNCE",
+]
+raw_tutor_moves = [
+    "ANCIENTPOWER",
+    "BUGBITE",
+    "BURNINGJEALOUSY",
+    "DRAGONPULSE",
+    "EARTHPOWER",
+    "HEADBUTT",
+    "HEATWAVE",
+    "IRONDEFENSE",
+    "IRONHEAD",
+    "MIMIC",
+    "MUDSLAP",
+    "SCORCHINGSANDS",
+    "SNORE",
+    "STEALTHROCK",
+    "STEELBEAM",
+    "STEELROLLER",
+    "STOMPINGTANTRUM",
+    "UPROAR",
+]
+compatible_egg_groups = [
+    "Undiscovered",
+]
 steps_to_hatch = 2805
 height = 1.7
 weight = 430.0
@@ -20,62 +111,6 @@ pokedex_entry = "It dwells in volcanic caves. It digs in with its cross-shaped f
 battler_player_y = 23
 battler_enemy_y = 24
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 485
-internal_name = "HEATRAN"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ERUPTION"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ANCIENTPOWER"
-
-[[raw_level_up_moves]]
-at_level = 6
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "FIREFANG"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "SCARYFACE"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "LAVAPLUME"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "FIRESPIN"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "IRONHEAD"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "SCORCHINGSANDS"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "HEATWAVE"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "STONEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "MAGMASTORM"
 
 [base_stats]
 hp = 91
@@ -92,5 +127,3 @@ def_ = 0
 spa = 3
 spd = 0
 spe = 0
-
-[wild_items]

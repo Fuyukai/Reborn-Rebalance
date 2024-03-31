@@ -1,3 +1,4 @@
+dex_number = 729
 name = "Brionne"
 primary_type = "WATER"
 secondary_type = "WATER"
@@ -6,11 +7,89 @@ growth_rate = "Parabolic"
 exp_yield = 147
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["TORRENT", "BERSERK", "LIQUIDVOICE"]
-raw_egg_moves = []
-raw_tms = ["WORKUP", "SURF", "WATERFALL", "TOXIC", "DIVE", "HAIL", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "SCALD", "ACROBATICS", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "CHARM", "WHIRLPOOL", "BRINE", "DRAININGKISS", "MISTYTERRAIN", "HYDROPUMP", "AMNESIA", "ENDURE", "ENCORE", "PLAYROUGH"]
-raw_tutor_moves = ["AQUATAIL", "COVET", "HELPINGHAND", "HYPERVOICE", "ICYWIND", "IRONTAIL", "SNORE", "UPROAR", "WATERPLEDGE", "WATERPULSE", "WONDERROOM", "FLIPTURN", "TRIPLEAXEL", "MIMIC"]
-compatible_egg_groups = ["Water1", "Field"]
+raw_abilities = [
+    "TORRENT",
+    "BERSERK",
+    "LIQUIDVOICE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "POUND" },
+    { at_level = 1, name = "WATERGUN" },
+    { at_level = 1, name = "GROWL" },
+    { at_level = 1, name = "DISARMINGVOICE" },
+    { at_level = 4, name = "GROWL" },
+    { at_level = 8, name = "DISARMINGVOICE" },
+    { at_level = 11, name = "BABYDOLLEYES" },
+    { at_level = 14, name = "AQUAJET" },
+    { at_level = 16, name = "ICYWIND" },
+    { at_level = 19, name = "ENCORE" },
+    { at_level = 24, name = "BUBBLEBEAM" },
+    { at_level = 28, name = "SING" },
+    { at_level = 33, name = "DOUBLESLAP" },
+    { at_level = 37, name = "HYPERVOICE" },
+    { at_level = 42, name = "MOONBLAST" },
+    { at_level = 46, name = "CAPTIVATE" },
+    { at_level = 51, name = "HYDROPUMP" },
+    { at_level = 55, name = "MISTYTERRAIN" },
+]
+raw_tms = [
+    "WORKUP",
+    "SURF",
+    "WATERFALL",
+    "TOXIC",
+    "DIVE",
+    "HAIL",
+    "HIDDENPOWER",
+    "ICEBEAM",
+    "BLIZZARD",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "RETURN",
+    "DOUBLETEAM",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ECHOEDVOICE",
+    "SCALD",
+    "ACROBATICS",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "CHARM",
+    "WHIRLPOOL",
+    "BRINE",
+    "DRAININGKISS",
+    "MISTYTERRAIN",
+    "HYDROPUMP",
+    "AMNESIA",
+    "ENDURE",
+    "ENCORE",
+    "PLAYROUGH",
+]
+raw_tutor_moves = [
+    "AQUATAIL",
+    "COVET",
+    "FLIPTURN",
+    "HELPINGHAND",
+    "HYPERVOICE",
+    "ICYWIND",
+    "IRONTAIL",
+    "MIMIC",
+    "SNORE",
+    "TRIPLEAXEL",
+    "UPROAR",
+    "WATERPLEDGE",
+    "WATERPULSE",
+    "WONDERROOM",
+]
+compatible_egg_groups = [
+    "Water1",
+    "Field",
+]
 steps_to_hatch = 3840
 height = 0.6
 weight = 17.5
@@ -20,89 +99,9 @@ pokedex_entry = "It cares deeply for its companions. When its Trainer is feeling
 battler_player_y = 19
 battler_enemy_y = 23
 battler_altitude = 0
-form_names = []
-dex_number = 729
-internal_name = "BRIONNE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "POUND"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WATERGUN"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "DISARMINGVOICE"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "GROWL"
-
-[[raw_level_up_moves]]
-at_level = 8
-name = "DISARMINGVOICE"
-
-[[raw_level_up_moves]]
-at_level = 11
-name = "BABYDOLLEYES"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "AQUAJET"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "ICYWIND"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "ENCORE"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "BUBBLEBEAM"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "SING"
-
-[[raw_level_up_moves]]
-at_level = 33
-name = "DOUBLESLAP"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "HYPERVOICE"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "MOONBLAST"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "CAPTIVATE"
-
-[[raw_level_up_moves]]
-at_level = 51
-name = "HYDROPUMP"
-
-[[raw_level_up_moves]]
-at_level = 55
-name = "MISTYTERRAIN"
-
-[[evolutions]]
-into_name = "PRIMARINA"
-condition = "Level"
-parameter = "34"
-
-
-
+evolutions = [
+    { into_name = "PRIMARINA", condition = "Level", parameter = "34" },
+]
 
 [base_stats]
 hp = 60
@@ -119,5 +118,3 @@ def_ = 0
 spa = 2
 spd = 0
 spe = 0
-
-[wild_items]

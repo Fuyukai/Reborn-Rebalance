@@ -1,3 +1,4 @@
+dex_number = 551
 name = "Sandile"
 primary_type = "GROUND"
 secondary_type = "DARK"
@@ -6,11 +7,97 @@ growth_rate = "Parabolic"
 exp_yield = 58
 catch_rate = 180
 caught_happiness = 70
-raw_abilities = ["INTIMIDATE", "MOXIE"]
-raw_egg_moves = ["BEATUP", "COUNTER", "DOUBLEEDGE", "FIREFANG", "FOCUSENERGY", "MEFIRST", "MEANLOOK", "POWERTRIP", "PURSUIT", "ROCKCLIMB", "THUNDERFANG", "UPROAR"]
-raw_tms = ["CUT", "ROAR", "TOXIC", "ROCKCLIMB", "HIDDENPOWER", "TAUNT", "PROTECT", "FRUSTRATION", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "SLUDGEBOMB", "SANDSTORM", "ROCKTOMB", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "EMBARGO", "PAYBACK", "STONEEDGE", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "SNARL", "DARKPULSE", "CONFIDE", "DIG", "SCARYFACE", "BEATUP", "SANDTOMB", "ASSURANCE", "THUNDERFANG", "FIREFANG", "CRUNCH", "HYDROPUMP", "FOCUSENERGY", "ENDURE", "RETALIATE"]
-raw_tutor_moves = ["AQUATAIL", "EARTHPOWER", "FOULPLAY", "IRONTAIL", "SNATCH", "SNORE", "SPITE", "STEALTHROCK", "UPROAR", "SCORCHINGSANDS", "SKITTERSMACK", "LASHOUT", "MIMIC"]
-compatible_egg_groups = ["Field"]
+raw_abilities = [
+    "INTIMIDATE",
+    "MOXIE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "LEER" },
+    { at_level = 1, name = "RAGE" },
+    { at_level = 1, name = "SANDATTACK" },
+    { at_level = 4, name = "MUDSLAP" },
+    { at_level = 7, name = "SCARYFACE" },
+    { at_level = 10, name = "BITE" },
+    { at_level = 13, name = "TORMENT" },
+    { at_level = 16, name = "HONECLAWS" },
+    { at_level = 19, name = "MUDSHOT" },
+    { at_level = 21, name = "SPITE" },
+    { at_level = 23, name = "PURSUIT" },
+    { at_level = 25, name = "SCORCHINGSANDS" },
+    { at_level = 28, name = "BEATUP" },
+    { at_level = 31, name = "REVENGE" },
+    { at_level = 34, name = "CRUNCH" },
+    { at_level = 38, name = "FOULPLAY" },
+    { at_level = 42, name = "FIREFANG" },
+    { at_level = 42, name = "THUNDERFANG" },
+    { at_level = 46, name = "EARTHQUAKE" },
+    { at_level = 50, name = "RAGINGFURY" },
+    { at_level = 54, name = "TORMENT" },
+]
+raw_tms = [
+    "CUT",
+    "ROAR",
+    "TOXIC",
+    "ROCKCLIMB",
+    "HIDDENPOWER",
+    "TAUNT",
+    "PROTECT",
+    "FRUSTRATION",
+    "EARTHQUAKE",
+    "RETURN",
+    "DOUBLETEAM",
+    "SLUDGEBOMB",
+    "SANDSTORM",
+    "ROCKTOMB",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "EMBARGO",
+    "PAYBACK",
+    "STONEEDGE",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "SNARL",
+    "DARKPULSE",
+    "CONFIDE",
+    "DIG",
+    "SCARYFACE",
+    "BEATUP",
+    "SANDTOMB",
+    "ASSURANCE",
+    "THUNDERFANG",
+    "FIREFANG",
+    "CRUNCH",
+    "HYDROPUMP",
+    "FOCUSENERGY",
+    "ENDURE",
+    "RETALIATE",
+]
+raw_tutor_moves = [
+    "AQUATAIL",
+    "EARTHPOWER",
+    "FOULPLAY",
+    "IRONTAIL",
+    "LASHOUT",
+    "MIMIC",
+    "SCORCHINGSANDS",
+    "SKITTERSMACK",
+    "SNATCH",
+    "SNORE",
+    "SPITE",
+    "STEALTHROCK",
+    "UPROAR",
+]
+compatible_egg_groups = [
+    "Field",
+]
 steps_to_hatch = 5120
 height = 0.7
 weight = 15.2
@@ -20,101 +107,24 @@ pokedex_entry = "It moves along below the sand's surface, except for its nose an
 battler_player_y = 35
 battler_enemy_y = 41
 battler_altitude = 0
-form_names = []
-dex_number = 551
-internal_name = "SANDILE"
 raw_hidden_ability = "ANGERPOINT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "RAGE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SANDATTACK"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "MUDSLAP"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "SCARYFACE"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "TORMENT"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "HONECLAWS"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "MUDSHOT"
-
-[[raw_level_up_moves]]
-at_level = 21
-name = "SPITE"
-
-[[raw_level_up_moves]]
-at_level = 23
-name = "PURSUIT"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "SCORCHINGSANDS"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "BEATUP"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "REVENGE"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "FOULPLAY"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "FIREFANG"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "THUNDERFANG"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "EARTHQUAKE"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "RAGINGFURY"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "TORMENT"
-
-[[evolutions]]
-into_name = "KROKOROK"
-condition = "Level"
-parameter = "27"
-
-
+raw_egg_moves = [
+    "BEATUP",
+    "COUNTER",
+    "DOUBLEEDGE",
+    "FIREFANG",
+    "FOCUSENERGY",
+    "MEFIRST",
+    "MEANLOOK",
+    "POWERTRIP",
+    "PURSUIT",
+    "ROCKCLIMB",
+    "THUNDERFANG",
+    "UPROAR",
+]
+evolutions = [
+    { into_name = "KROKOROK", condition = "Level", parameter = "27" },
+]
 
 [base_stats]
 hp = 50

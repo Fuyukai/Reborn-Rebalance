@@ -1,3 +1,4 @@
+dex_number = 153
 name = "Bayleef"
 primary_type = "GRASS"
 secondary_type = "FAIRY"
@@ -6,18 +7,95 @@ growth_rate = "Parabolic"
 exp_yield = 142
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["SERENEGRACE", "OVERGROW", "LEAFGUARD"]
-raw_egg_moves = []
-raw_tms = [
-    "WORKUP", "CUT", "STRENGTH", "TOXIC", "ROCKSMASH", "FLASH", "HIDDENPOWER", "SUNNYDAY",
-    "LIGHTSCREEN", "PROTECT", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM",
-    "REFLECT", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "ENERGYBALL", "SWORDSDANCE",
-    "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "CONFIDE",
-    "MAGICALLEAF", "SOLARBLADE", "BULLETSEED", "GRASSYTERRAIN", "BODYSLAM", "LEAFSTORM", "ENDURE",
-    "POLLENPUFF", "DAZZLINGGLEAM"
+raw_abilities = [
+    "SERENEGRACE",
+    "OVERGROW",
+    "LEAFGUARD",
 ]
-raw_tutor_moves = ["ANCIENTPOWER", "FURYCUTTER", "GIGADRAIN", "GRASSPLEDGE", "HEADBUTT", "IRONTAIL", "LASERFOCUS", "MAGICCOAT", "MUDSLAP", "SEEDBOMB", "SNORE", "SYNTHESIS", "WORRYSEED", "MIMIC"]
-compatible_egg_groups = ["Monster", "Grass"]
+raw_level_up_moves = [
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 1, name = "GROWL" },
+    { at_level = 5, name = "RAZORLEAF" },
+    { at_level = 7, name = "POISONPOWDER" },
+    { at_level = 10, name = "SYNTHESIS" },
+    { at_level = 13, name = "MAGICALLEAF" },
+    { at_level = 16, name = "GRASSWHISTLE" },
+    { at_level = 17, name = "INGRAIN" },
+    { at_level = 20, name = "REFRESH" },
+    { at_level = 22, name = "MEGADRAIN" },
+    { at_level = 25, name = "ANCIENTPOWER" },
+    { at_level = 28, name = "HEALPULSE" },
+    { at_level = 31, name = "NATUREPOWER" },
+    { at_level = 34, name = "BODYSLAM" },
+    { at_level = 37, name = "NATURALGIFT" },
+    { at_level = 40, name = "ENERGYBALL" },
+    { at_level = 43, name = "AROMATHERAPY" },
+    { at_level = 46, name = "MAGICCOAT" },
+    { at_level = 49, name = "SOLARBEAM" },
+    { at_level = 52, name = "LEECHSEED" },
+    { at_level = 55, name = "MOONBLAST" },
+]
+raw_tms = [
+    "WORKUP",
+    "CUT",
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "DOUBLETEAM",
+    "REFLECT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ECHOEDVOICE",
+    "ENERGYBALL",
+    "SWORDSDANCE",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "NATUREPOWER",
+    "DAZZLINGGLEAM",
+    "CONFIDE",
+    "MAGICALLEAF",
+    "SOLARBLADE",
+    "BULLETSEED",
+    "GRASSYTERRAIN",
+    "BODYSLAM",
+    "LEAFSTORM",
+    "ENDURE",
+    "POLLENPUFF",
+]
+raw_tutor_moves = [
+    "ANCIENTPOWER",
+    "FURYCUTTER",
+    "GIGADRAIN",
+    "GRASSPLEDGE",
+    "HEADBUTT",
+    "IRONTAIL",
+    "LASERFOCUS",
+    "MAGICCOAT",
+    "MIMIC",
+    "MUDSLAP",
+    "SEEDBOMB",
+    "SNORE",
+    "SYNTHESIS",
+    "WORRYSEED",
+]
+compatible_egg_groups = [
+    "Monster",
+    "Grass",
+]
 steps_to_hatch = 5355
 height = 1.2
 weight = 15.8
@@ -27,101 +105,10 @@ pokedex_entry = "A Bayleef's neck is ringed by curled-up leaves. Inside each lea
 battler_player_y = 20
 battler_enemy_y = 12
 battler_altitude = 0
-form_names = []
-dex_number = 153
-internal_name = "BAYLEEF"
 habitat = "Grassland"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWL"
-
-[[raw_level_up_moves]]
-at_level = 5
-name = "RAZORLEAF"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "POISONPOWDER"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "SYNTHESIS"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "MAGICALLEAF"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "GRASSWHISTLE"
-
-[[raw_level_up_moves]]
-at_level = 17
-name = "INGRAIN"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "REFRESH"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "MEGADRAIN"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "ANCIENTPOWER"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "HEALPULSE"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "NATUREPOWER"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "NATURALGIFT"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "ENERGYBALL"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "AROMATHERAPY"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "MAGICCOAT"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "SOLARBEAM"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "LEECHSEED"
-
-[[raw_level_up_moves]]
-at_level = 55
-name = "MOONBLAST"
-
-[[evolutions]]
-into_name = "MEGANIUM"
-condition = "Level"
-parameter = "32"
-
-
+evolutions = [
+    { into_name = "MEGANIUM", condition = "Level", parameter = "32" },
+]
 
 [base_stats]
 hp = 60
@@ -138,5 +125,3 @@ def_ = 1
 spa = 0
 spd = 1
 spe = 0
-
-[wild_items]

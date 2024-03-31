@@ -1,3 +1,4 @@
+dex_number = 214
 name = "Heracross"
 primary_type = "BUG"
 secondary_type = "FIGHTING"
@@ -6,11 +7,117 @@ growth_rate = "Slow"
 exp_yield = 175
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["SWARM", "SKILLLINK", "GUTS"]
-raw_egg_moves = ["BIDE", "DOUBLEEDGE", "FLAIL", "FOCUSPUNCH", "HARDEN", "MEGAHORN", "PURSUIT", "REVENGE", "ROCKBLAST", "SEISMICTOSS"]
-raw_tms = ["WORKUP", "CUT", "STRENGTH", "TOXIC", "ROCKSMASH", "BULKUP", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "SMACKDOWN", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "FOCUSBLAST", "FALSESWIPE", "FLING", "BRUTALSWING", "SHADOWCLAW", "SMARTSTRIKE", "GIGAIMPACT", "STONEEDGE", "SWORDSDANCE", "STRUGGLEBUG", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "PINMISSILE", "DIG", "REVENGE", "BULLETSEED", "ROCKBLAST", "ASSURANCE", "BODYSLAM", "MEGAHORN", "CLOSECOMBAT", "REVERSAL", "SPIKES", "ENDURE", "HIGHHORSEPOWER", "RETALIATE", "POUNCE", "TRAILBLAZE", "BUGBUZZ"]
-raw_tutor_moves = ["BUGBITE", "FOCUSPUNCH", "FURYCUTTER", "HEADBUTT", "HELPINGHAND", "IRONDEFENSE", "KNOCKOFF", "LOWKICK", "SNORE", "THROATCHOP", "VACUUMWAVE", "COACHING", "MIMIC"]
-compatible_egg_groups = ["Bug"]
+raw_abilities = [
+    "SWARM",
+    "SKILLLINK",
+    "GUTS",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "ARMTHRUST" },
+    { at_level = 1, name = "BULLETSEED" },
+    { at_level = 1, name = "LEER" },
+    { at_level = 1, name = "HORNATTACK" },
+    { at_level = 1, name = "HARDEN" },
+    { at_level = 4, name = "FURYATTACK" },
+    { at_level = 7, name = "ENDURE" },
+    { at_level = 10, name = "SEISMICTOSS" },
+    { at_level = 13, name = "FLAIL" },
+    { at_level = 16, name = "COUNTER" },
+    { at_level = 19, name = "AERIALACE" },
+    { at_level = 22, name = "BUGBITE" },
+    { at_level = 25, name = "REVENGE" },
+    { at_level = 28, name = "SLASH" },
+    { at_level = 28, name = "NIGHTSLASH" },
+    { at_level = 31, name = "CHIPAWAY" },
+    { at_level = 35, name = "REVERSAL" },
+    { at_level = 39, name = "TAKEDOWN" },
+    { at_level = 43, name = "FURYCUTTER" },
+    { at_level = 47, name = "CLOSECOMBAT" },
+    { at_level = 51, name = "MEGAHORN" },
+    { at_level = 55, name = "DOUBLEEDGE" },
+    { at_level = 59, name = "ROCKBLAST" },
+    { at_level = 63, name = "PINMISSILE" },
+    { at_level = 67, name = "FOCUSPUNCH" },
+]
+raw_tms = [
+    "WORKUP",
+    "CUT",
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "BULKUP",
+    "VENOSHOCK",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "SMACKDOWN",
+    "EARTHQUAKE",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "ROCKTOMB",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "FOCUSBLAST",
+    "FALSESWIPE",
+    "FLING",
+    "BRUTALSWING",
+    "SHADOWCLAW",
+    "SMARTSTRIKE",
+    "GIGAIMPACT",
+    "STONEEDGE",
+    "SWORDSDANCE",
+    "STRUGGLEBUG",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "PINMISSILE",
+    "DIG",
+    "REVENGE",
+    "BULLETSEED",
+    "ROCKBLAST",
+    "ASSURANCE",
+    "BODYSLAM",
+    "MEGAHORN",
+    "CLOSECOMBAT",
+    "REVERSAL",
+    "SPIKES",
+    "ENDURE",
+    "BUGBUZZ",
+    "HIGHHORSEPOWER",
+    "RETALIATE",
+    "POUNCE",
+    "TRAILBLAZE",
+]
+raw_tutor_moves = [
+    "BUGBITE",
+    "COACHING",
+    "FOCUSPUNCH",
+    "FURYCUTTER",
+    "HEADBUTT",
+    "HELPINGHAND",
+    "IRONDEFENSE",
+    "KNOCKOFF",
+    "LOWKICK",
+    "MIMIC",
+    "SNORE",
+    "THROATCHOP",
+    "VACUUMWAVE",
+]
+compatible_egg_groups = [
+    "Bug",
+]
 steps_to_hatch = 6630
 height = 1.5
 weight = 54.0
@@ -20,111 +127,19 @@ pokedex_entry = "They gather in forests seeking the sap of trees. It is complete
 battler_player_y = 20
 battler_enemy_y = 10
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 214
-internal_name = "HERACROSS"
+raw_egg_moves = [
+    "BIDE",
+    "DOUBLEEDGE",
+    "FLAIL",
+    "FOCUSPUNCH",
+    "HARDEN",
+    "MEGAHORN",
+    "PURSUIT",
+    "REVENGE",
+    "ROCKBLAST",
+    "SEISMICTOSS",
+]
 habitat = "Forest"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ARMTHRUST"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BULLETSEED"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HORNATTACK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HARDEN"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "FURYATTACK"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "ENDURE"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "SEISMICTOSS"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "FLAIL"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "COUNTER"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "AERIALACE"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "BUGBITE"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "REVENGE"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "SLASH"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "NIGHTSLASH"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "CHIPAWAY"
-
-[[raw_level_up_moves]]
-at_level = 35
-name = "REVERSAL"
-
-[[raw_level_up_moves]]
-at_level = 39
-name = "TAKEDOWN"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "FURYCUTTER"
-
-[[raw_level_up_moves]]
-at_level = 47
-name = "CLOSECOMBAT"
-
-[[raw_level_up_moves]]
-at_level = 51
-name = "MEGAHORN"
-
-[[raw_level_up_moves]]
-at_level = 55
-name = "DOUBLEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 59
-name = "ROCKBLAST"
-
-[[raw_level_up_moves]]
-at_level = 63
-name = "PINMISSILE"
-
-[[raw_level_up_moves]]
-at_level = 67
-name = "FOCUSPUNCH"
 
 [base_stats]
 hp = 80
@@ -141,5 +156,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

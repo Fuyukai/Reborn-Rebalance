@@ -1,3 +1,4 @@
+dex_number = 110
 name = "Weezing"
 primary_type = "POISON"
 secondary_type = "POISON"
@@ -6,11 +7,104 @@ growth_rate = "Medium"
 exp_yield = 172
 catch_rate = 60
 caught_happiness = 70
-raw_abilities = ["LEVITATE", "NEUTRALIZINGGAS"]
-raw_egg_moves = []
-raw_tms = ["TOXIC", "FLASH", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "SHADOWBALL", "DOUBLETEAM", "SLUDGEWAVE", "FLAMETHROWER", "SLUDGEBOMB", "FIREBLAST", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "OVERHEAT", "BRUTALSWING", "WILLOWISP", "EXPLOSION", "PAYBACK", "GIGAIMPACT", "GYROBALL", "INFESTATION", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "DARKPULSE", "DAZZLINGGLEAM", "CONFIDE", "SCREECH", "SELFDESTRUCT", "ASSURANCE", "MISTYTERRAIN", "ENDURE", "TOXICSPIKES", "HEAVYSLAM", "PLAYROUGH", "VENOMDRENCH"]
-raw_tutor_moves = ["DEFOG", "HEATWAVE", "MUDSLAP", "PAINSPLIT", "SHOCKWAVE", "SNORE", "SPITE", "UPROAR", "WONDERROOM", "CORROSIVEGAS", "MISTYEXPLOSION", "MIMIC"]
-compatible_egg_groups = ["Amorphous"]
+raw_abilities = [
+    "LEVITATE",
+    "NEUTRALIZINGGAS",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "HEATWAVE" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 1, name = "SMOG" },
+    { at_level = 4, name = "UPROAR" },
+    { at_level = 7, name = "SMOKESCREEN" },
+    { at_level = 9, name = "SCREECH" },
+    { at_level = 12, name = "ASSURANCE" },
+    { at_level = 15, name = "HAZE" },
+    { at_level = 17, name = "CLEARSMOG" },
+    { at_level = 19, name = "PSYBEAM" },
+    { at_level = 22, name = "LAVAPLUME" },
+    { at_level = 25, name = "SLUDGE" },
+    { at_level = 28, name = "PAINSPLIT" },
+    { at_level = 31, name = "TOXICSPIKES" },
+    { at_level = 34, name = "GYROBALL" },
+    { at_level = 35, name = "DOUBLEHIT" },
+    { at_level = 38, name = "SPITE" },
+    { at_level = 42, name = "SLUDGEBOMB" },
+    { at_level = 44, name = "RECOVER" },
+    { at_level = 46, name = "EXPLOSION" },
+    { at_level = 50, name = "DESTINYBOND" },
+    { at_level = 54, name = "MEMENTO" },
+    { at_level = 58, name = "GRUDGE" },
+    { at_level = 62, name = "GUNKSHOT" },
+]
+raw_tms = [
+    "TOXIC",
+    "FLASH",
+    "VENOSHOCK",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "THUNDERBOLT",
+    "THUNDER",
+    "RETURN",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "SLUDGEWAVE",
+    "FLAMETHROWER",
+    "SLUDGEBOMB",
+    "FIREBLAST",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "OVERHEAT",
+    "BRUTALSWING",
+    "WILLOWISP",
+    "EXPLOSION",
+    "PAYBACK",
+    "GIGAIMPACT",
+    "GYROBALL",
+    "INFESTATION",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "DARKPULSE",
+    "DAZZLINGGLEAM",
+    "CONFIDE",
+    "SCREECH",
+    "SELFDESTRUCT",
+    "ASSURANCE",
+    "MISTYTERRAIN",
+    "ENDURE",
+    "TOXICSPIKES",
+    "HEAVYSLAM",
+    "PLAYROUGH",
+    "VENOMDRENCH",
+]
+raw_tutor_moves = [
+    "CORROSIVEGAS",
+    "DEFOG",
+    "HEATWAVE",
+    "MIMIC",
+    "MISTYEXPLOSION",
+    "MUDSLAP",
+    "PAINSPLIT",
+    "SHOCKWAVE",
+    "SNORE",
+    "SPITE",
+    "UPROAR",
+    "WONDERROOM",
+]
+compatible_egg_groups = [
+    "Amorphous",
+]
 steps_to_hatch = 5355
 height = 1.2
 weight = 9.5
@@ -20,108 +114,8 @@ pokedex_entry = "By diluting its toxic gases with a special process, the highest
 battler_player_y = 21
 battler_enemy_y = 6
 battler_altitude = 8
-evolutions = []
-form_names = []
-dex_number = 110
-internal_name = "WEEZING"
 raw_hidden_ability = "STENCH"
 habitat = "Urban"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HEATWAVE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SMOG"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "UPROAR"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "SMOKESCREEN"
-
-[[raw_level_up_moves]]
-at_level = 9
-name = "SCREECH"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "ASSURANCE"
-
-[[raw_level_up_moves]]
-at_level = 15
-name = "HAZE"
-
-[[raw_level_up_moves]]
-at_level = 17
-name = "CLEARSMOG"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "PSYBEAM"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "LAVAPLUME"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "SLUDGE"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "PAINSPLIT"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "TOXICSPIKES"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "GYROBALL"
-
-[[raw_level_up_moves]]
-at_level = 35
-name = "DOUBLEHIT"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "SPITE"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "SLUDGEBOMB"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "RECOVER"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "EXPLOSION"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "DESTINYBOND"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "MEMENTO"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "GRUDGE"
-
-[[raw_level_up_moves]]
-at_level = 62
-name = "GUNKSHOT"
 
 [base_stats]
 hp = 65

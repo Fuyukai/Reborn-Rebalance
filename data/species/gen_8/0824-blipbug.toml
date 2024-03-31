@@ -1,3 +1,4 @@
+dex_number = 824
 name = "Blipbug"
 primary_type = "BUG"
 secondary_type = "BUG"
@@ -6,11 +7,21 @@ growth_rate = "Medium"
 exp_yield = 36
 catch_rate = 255
 caught_happiness = 50
-raw_abilities = ["SWARM", "COMPOUNDEYES"]
-raw_egg_moves = ["INFESTATION", "SUPERSONIC", "STICKYWEB", "RECOVER"]
-raw_tms = ["STRUGGLEBUG", "INFESTATION"]
+raw_abilities = [
+    "SWARM",
+    "COMPOUNDEYES",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "STRUGGLEBUG" },
+]
+raw_tms = [
+    "STRUGGLEBUG",
+    "INFESTATION",
+]
 raw_tutor_moves = []
-compatible_egg_groups = ["Bug"]
+compatible_egg_groups = [
+    "Bug",
+]
 steps_to_hatch = 3840
 height = 0.5
 weight = 8.0
@@ -20,20 +31,17 @@ pokedex_entry = "Often found in gardens, this Pokémon has hairs on its body tha
 battler_player_y = 21
 battler_enemy_y = 26
 battler_altitude = 0
-form_names = []
-dex_number = 824
-internal_name = "BLIPBUG"
 raw_hidden_ability = "TELEPATHY"
+raw_egg_moves = [
+    "INFESTATION",
+    "SUPERSONIC",
+    "STICKYWEB",
+    "RECOVER",
+]
+evolutions = [
+    { into_name = "DOTTLER", condition = "Level", parameter = "10" },
+]
 regional_numbers = 824
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "STRUGGLEBUG"
-
-[[evolutions]]
-into_name = "DOTTLER"
-condition = "Level"
-parameter = "10"
 
 [base_stats]
 hp = 35
@@ -50,5 +58,3 @@ def_ = 0
 spa = 0
 spd = 1
 spe = 0
-
-[wild_items]

@@ -1,3 +1,4 @@
+dex_number = 562
 name = "Yamask"
 primary_type = "GHOST"
 secondary_type = "GHOST"
@@ -6,11 +7,105 @@ growth_rate = "Medium"
 exp_yield = 61
 catch_rate = 190
 caught_happiness = 70
-raw_abilities = ["MUMMY"]
-raw_egg_moves = ["ALLYSWITCH", "CRAFTYSHIELD", "DISABLE", "ENDURE", "FAKETEARS", "HEALBLOCK", "IMPRISON", "MEMENTO", "NASTYPLOT", "NIGHTMARE", "TOXICSPIKES"]
-raw_tms = ["CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "EARTHQUAKE", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "SANDSTORM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ENERGYBALL", "BRUTALSWING", "WILLOWISP", "EMBARGO", "PAYBACK", "PSYCHUP", "ROCKSLIDE", "INFESTATION", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "DARKPULSE", "CONFIDE", "IMPRISON", "FAKETEARS", "HEX", "ENDURE", "TOXICSPIKES", "NASTYPLOT"]
-raw_tutor_moves = ["AFTERYOU", "ALLYSWITCH", "BLOCK", "EARTHPOWER", "IRONDEFENSE", "KNOCKOFF", "MAGICCOAT", "PAINSPLIT", "ROLEPLAY", "SHOCKWAVE", "SKILLSWAP", "SNATCH", "SNORE", "SPITE", "TELEKINESIS", "TRICK", "WONDERROOM", "ZENHEADBUTT", "POLTERGEIST", "MIMIC"]
-compatible_egg_groups = ["Mineral", "Amorphous"]
+raw_abilities = [
+    "MUMMY",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "ASTONISH" },
+    { at_level = 1, name = "ENDURE" },
+    { at_level = 1, name = "HAZE" },
+    { at_level = 1, name = "IMPRISON" },
+    { at_level = 4, name = "SPITE" },
+    { at_level = 7, name = "FAKETEARS" },
+    { at_level = 10, name = "TRICK" },
+    { at_level = 13, name = "BLOCK" },
+    { at_level = 16, name = "DISABLE" },
+    { at_level = 19, name = "WILLOWISP" },
+    { at_level = 22, name = "NIGHTSHADE" },
+    { at_level = 25, name = "ALLYSWITCH" },
+    { at_level = 28, name = "OMINOUSWIND" },
+    { at_level = 31, name = "CURSE" },
+    { at_level = 34, name = "IRONDEFENSE" },
+    { at_level = 37, name = "HEX" },
+    { at_level = 40, name = "MEANLOOK" },
+    { at_level = 43, name = "WONDERROOM" },
+    { at_level = 46, name = "NIGHTMARE" },
+    { at_level = 49, name = "PAINSPLIT" },
+    { at_level = 52, name = "HEALBLOCK" },
+    { at_level = 55, name = "GRUDGE" },
+    { at_level = 58, name = "NASTYPLOT" },
+    { at_level = 62, name = "DESTINYBOND" },
+]
+raw_tms = [
+    "CALMMIND",
+    "TOXIC",
+    "FLASH",
+    "HIDDENPOWER",
+    "PROTECT",
+    "RAINDANCE",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "EARTHQUAKE",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "SANDSTORM",
+    "ROCKTOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "ENERGYBALL",
+    "BRUTALSWING",
+    "WILLOWISP",
+    "EMBARGO",
+    "PAYBACK",
+    "PSYCHUP",
+    "ROCKSLIDE",
+    "INFESTATION",
+    "DREAMEATER",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "TRICKROOM",
+    "SECRETPOWER",
+    "DARKPULSE",
+    "CONFIDE",
+    "IMPRISON",
+    "FAKETEARS",
+    "HEX",
+    "ENDURE",
+    "TOXICSPIKES",
+    "NASTYPLOT",
+]
+raw_tutor_moves = [
+    "AFTERYOU",
+    "ALLYSWITCH",
+    "BLOCK",
+    "EARTHPOWER",
+    "IRONDEFENSE",
+    "KNOCKOFF",
+    "MAGICCOAT",
+    "MIMIC",
+    "PAINSPLIT",
+    "POLTERGEIST",
+    "ROLEPLAY",
+    "SHOCKWAVE",
+    "SKILLSWAP",
+    "SNATCH",
+    "SNORE",
+    "SPITE",
+    "TELEKINESIS",
+    "TRICK",
+    "WONDERROOM",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Mineral",
+    "Amorphous",
+]
 steps_to_hatch = 6400
 height = 0.5
 weight = 1.5
@@ -20,117 +115,23 @@ pokedex_entry = "These Pokémon arose from the spirits of people interred in gra
 battler_player_y = 30
 battler_enemy_y = 24
 battler_altitude = 2
-form_names = []
-dex_number = 562
-internal_name = "YAMASK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ASTONISH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ENDURE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HAZE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "IMPRISON"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "SPITE"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "FAKETEARS"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "TRICK"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "BLOCK"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "DISABLE"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "WILLOWISP"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "NIGHTSHADE"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "ALLYSWITCH"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "OMINOUSWIND"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "CURSE"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "IRONDEFENSE"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "HEX"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "MEANLOOK"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "WONDERROOM"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "NIGHTMARE"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "PAINSPLIT"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "HEALBLOCK"
-
-[[raw_level_up_moves]]
-at_level = 55
-name = "GRUDGE"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "NASTYPLOT"
-
-[[raw_level_up_moves]]
-at_level = 62
-name = "DESTINYBOND"
-
-[[evolutions]]
-into_name = "COFAGRIGUS"
-condition = "Level"
-parameter = "34"
-
-[[evolutions]]
-into_name = "RUNERIGUS"
-condition = "LevelNight"
-parameter = "34"
-
-
+raw_egg_moves = [
+    "ALLYSWITCH",
+    "CRAFTYSHIELD",
+    "DISABLE",
+    "ENDURE",
+    "FAKETEARS",
+    "HEALBLOCK",
+    "IMPRISON",
+    "MEMENTO",
+    "NASTYPLOT",
+    "NIGHTMARE",
+    "TOXICSPIKES",
+]
+evolutions = [
+    { into_name = "COFAGRIGUS", condition = "Level", parameter = "34" },
+    { into_name = "RUNERIGUS", condition = "LevelNight", parameter = "34" },
+]
 
 [base_stats]
 hp = 38

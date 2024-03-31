@@ -1,3 +1,4 @@
+dex_number = 833
 name = "Chewtle"
 primary_type = "WATER"
 secondary_type = "WATER"
@@ -6,11 +7,57 @@ growth_rate = "Medium"
 exp_yield = 57
 catch_rate = 255
 caught_happiness = 50
-raw_abilities = ["STRONGJAW", "SHELLARMOR"]
-raw_egg_moves = ["SKULLBASH", "GASTROACID", "DRAGONTAIL"]
-raw_tms = ["SURF", "DIVE", "PROTECT", "RAINDANCE", "FACADE", "REST", "ATTRACT", "ROUND", "PAYBACK", "DRAGONTAIL", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "WHIRLPOOL", "REVENGE", "MUDSHOT", "ASSURANCE", "ICEFANG", "BODYSLAM", "HYDROPUMP", "ENDURE", "CHILLINGWATER"]
-raw_tutor_moves = ["HEADBUTT", "LIQUIDATION", "SNORE", "SKITTERSMACK", "SCALESHOT", "MIMIC"]
-compatible_egg_groups = ["Monster", "Water1"]
+raw_abilities = [
+    "STRONGJAW",
+    "SHELLARMOR",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 1, name = "WATERGUN" },
+    { at_level = 7, name = "BITE" },
+    { at_level = 14, name = "PROTECT" },
+    { at_level = 21, name = "HEADBUTT" },
+    { at_level = 28, name = "COUNTER" },
+    { at_level = 35, name = "JAWLOCK" },
+    { at_level = 42, name = "LIQUIDATION" },
+    { at_level = 49, name = "BODYSLAM" },
+]
+raw_tms = [
+    "SURF",
+    "DIVE",
+    "PROTECT",
+    "RAINDANCE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "PAYBACK",
+    "DRAGONTAIL",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "WHIRLPOOL",
+    "REVENGE",
+    "MUDSHOT",
+    "ASSURANCE",
+    "ICEFANG",
+    "BODYSLAM",
+    "HYDROPUMP",
+    "ENDURE",
+    "CHILLINGWATER",
+]
+raw_tutor_moves = [
+    "HEADBUTT",
+    "LIQUIDATION",
+    "MIMIC",
+    "SCALESHOT",
+    "SKITTERSMACK",
+    "SNORE",
+]
+compatible_egg_groups = [
+    "Monster",
+    "Water1",
+]
 steps_to_hatch = 5120
 height = 0.3
 weight = 8.5
@@ -20,52 +67,16 @@ pokedex_entry = "It starts off battles by attacking with its rock-hard horn, but
 battler_player_y = 21
 battler_enemy_y = 26
 battler_altitude = 0
-form_names = []
-dex_number = 833
-internal_name = "CHEWTLE"
 raw_hidden_ability = "SWIFTSWIM"
+raw_egg_moves = [
+    "SKULLBASH",
+    "GASTROACID",
+    "DRAGONTAIL",
+]
+evolutions = [
+    { into_name = "DREDNAW", condition = "Level", parameter = "22" },
+]
 regional_numbers = 833
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WATERGUN"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "PROTECT"
-
-[[raw_level_up_moves]]
-at_level = 21
-name = "HEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "COUNTER"
-
-[[raw_level_up_moves]]
-at_level = 35
-name = "JAWLOCK"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "LIQUIDATION"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "BODYSLAM"
-
-[[evolutions]]
-into_name = "DREDNAW"
-condition = "Level"
-parameter = "22"
 
 [base_stats]
 hp = 50
@@ -82,5 +93,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

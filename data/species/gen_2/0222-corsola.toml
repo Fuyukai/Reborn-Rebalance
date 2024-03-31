@@ -1,3 +1,4 @@
+dex_number = 222
 name = "Corsola"
 primary_type = "WATER"
 secondary_type = "ROCK"
@@ -6,11 +7,113 @@ growth_rate = "Fast"
 exp_yield = 144
 catch_rate = 60
 caught_happiness = 70
-raw_abilities = ["HUSTLE", "NATURALCURE"]
-raw_egg_moves = ["AMNESIA", "AQUARING", "BARRIER", "BIDE", "CAMOUFLAGE", "CONFUSERAY", "CURSE", "HEADSMASH", "ICICLESPEAR", "INGRAIN", "LIQUIDATION", "MIST", "NATUREPOWER", "SCREECH", "WATERPULSE"]
-raw_tms = ["SURF", "CALMMIND", "STRENGTH", "TOXIC", "HAIL", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "EARTHQUAKE", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "SANDSTORM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "SCALD", "WILLOWISP", "EXPLOSION", "ROCKPOLISH", "STONEEDGE", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "DIG", "SCREECH", "SELFDESTRUCT", "WHIRLPOOL", "ICICLESPEAR", "ROCKBLAST", "BRINE", "HEX", "BODYSLAM", "HYDROPUMP", "AMNESIA", "ENDURE", "POWERGEM"]
-raw_tutor_moves = ["ANCIENTPOWER", "EARTHPOWER", "ENDEAVOR", "GIGADRAIN", "HEADBUTT", "ICYWIND", "IRONDEFENSE", "LIQUIDATION", "MAGICCOAT", "MUDSLAP", "ROLLOUT", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "SUCKERPUNCH", "THROATCHOP", "WATERPULSE", "METEORBEAM", "MIMIC"]
-compatible_egg_groups = ["Water1", "Water3"]
+raw_abilities = [
+    "HUSTLE",
+    "NATURALCURE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 1, name = "HARDEN" },
+    { at_level = 1, name = "WHIRLPOOL" },
+    { at_level = 7, name = "RECOVER" },
+    { at_level = 10, name = "REFRESH" },
+    { at_level = 13, name = "ANCIENTPOWER" },
+    { at_level = 16, name = "BRINE" },
+    { at_level = 19, name = "CURSE" },
+    { at_level = 22, name = "LUCKYCHANT" },
+    { at_level = 25, name = "BUBBLEBEAM" },
+    { at_level = 28, name = "IRONDEFENSE" },
+    { at_level = 28, name = "AMNESIA" },
+    { at_level = 31, name = "CAMOUFLAGE" },
+    { at_level = 34, name = "EARTHPOWER" },
+    { at_level = 37, name = "ICICLESPEAR" },
+    { at_level = 40, name = "ROCKBLAST" },
+    { at_level = 43, name = "INGRAIN" },
+    { at_level = 46, name = "MIRRORCOAT" },
+    { at_level = 49, name = "AQUARING" },
+    { at_level = 53, name = "CONFUSERAY" },
+    { at_level = 57, name = "HEADSMASH" },
+]
+raw_tms = [
+    "SURF",
+    "CALMMIND",
+    "STRENGTH",
+    "TOXIC",
+    "HAIL",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "ICEBEAM",
+    "BLIZZARD",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "EARTHQUAKE",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "REFLECT",
+    "SANDSTORM",
+    "ROCKTOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "SCALD",
+    "WILLOWISP",
+    "EXPLOSION",
+    "ROCKPOLISH",
+    "STONEEDGE",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "NATUREPOWER",
+    "CONFIDE",
+    "DIG",
+    "SCREECH",
+    "SELFDESTRUCT",
+    "WHIRLPOOL",
+    "ICICLESPEAR",
+    "ROCKBLAST",
+    "BRINE",
+    "HEX",
+    "BODYSLAM",
+    "HYDROPUMP",
+    "AMNESIA",
+    "ENDURE",
+    "POWERGEM",
+]
+raw_tutor_moves = [
+    "ANCIENTPOWER",
+    "EARTHPOWER",
+    "ENDEAVOR",
+    "GIGADRAIN",
+    "HEADBUTT",
+    "ICYWIND",
+    "IRONDEFENSE",
+    "LIQUIDATION",
+    "MAGICCOAT",
+    "METEORBEAM",
+    "MIMIC",
+    "MUDSLAP",
+    "ROLLOUT",
+    "SNORE",
+    "STEALTHROCK",
+    "STOMPINGTANTRUM",
+    "SUCKERPUNCH",
+    "THROATCHOP",
+    "WATERPULSE",
+]
+compatible_egg_groups = [
+    "Water1",
+    "Water3",
+]
 steps_to_hatch = 5355
 height = 0.6
 weight = 5.0
@@ -20,102 +123,28 @@ pokedex_entry = "Corsola live in warm southern seas. If the sea becomes polluted
 battler_player_y = 27
 battler_enemy_y = 22
 battler_altitude = 0
-form_names = []
-dex_number = 222
-internal_name = "CORSOLA"
 raw_hidden_ability = "REGENERATOR"
+raw_egg_moves = [
+    "AMNESIA",
+    "AQUARING",
+    "BARRIER",
+    "BIDE",
+    "CAMOUFLAGE",
+    "CONFUSERAY",
+    "CURSE",
+    "HEADSMASH",
+    "ICICLESPEAR",
+    "INGRAIN",
+    "LIQUIDATION",
+    "MIST",
+    "NATUREPOWER",
+    "SCREECH",
+    "WATERPULSE",
+]
 habitat = "Sea"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HARDEN"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WHIRLPOOL"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "RECOVER"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "REFRESH"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "ANCIENTPOWER"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "BRINE"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "CURSE"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "LUCKYCHANT"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "BUBBLEBEAM"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "IRONDEFENSE"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "AMNESIA"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "CAMOUFLAGE"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "EARTHPOWER"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "ICICLESPEAR"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "ROCKBLAST"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "INGRAIN"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "MIRRORCOAT"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "AQUARING"
-
-[[raw_level_up_moves]]
-at_level = 53
-name = "CONFUSERAY"
-
-[[raw_level_up_moves]]
-at_level = 57
-name = "HEADSMASH"
-
-[[evolutions]]
-into_name = "CURSOLA"
-condition = "Level"
-parameter = "38"
-
-
+evolutions = [
+    { into_name = "CURSOLA", condition = "Level", parameter = "38" },
+]
 
 [base_stats]
 hp = 65

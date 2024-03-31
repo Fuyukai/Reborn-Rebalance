@@ -1,3 +1,4 @@
+dex_number = 149
 name = "Dragonite"
 primary_type = "DRAGON"
 secondary_type = "FLYING"
@@ -6,11 +7,147 @@ growth_rate = "Slow"
 exp_yield = 270
 catch_rate = 45
 caught_happiness = 35
-raw_abilities = ["INNERFOCUS", "MULTISCALE"]
-raw_egg_moves = []
-raw_tms = ["CUT", "DRAGONCLAW", "FLY", "SURF", "STRENGTH", "ROAR", "WATERFALL", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "SAFEGUARD", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "SANDSTORM", "FIREBLAST", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "STEELWING", "FOCUSBLAST", "FLING", "SKYDROP", "BRUTALSWING", "GIGAIMPACT", "STONEEDGE", "THUNDERWAVE", "BULLDOZE", "ROCKSLIDE", "DRAGONTAIL", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "FIRESPIN", "WHIRLPOOL", "AIRSLASH", "BREAKINGSWIPE", "BODYSLAM", "HYDROPUMP", "HURRICANE", "AGILITY", "ENDURE", "DRAGONDANCE", "BODYPRESS", "ICESPINNER", "SNOWSCAPE", "CHILLINGWATER", "SWIFT"]
-raw_tutor_moves = ["AIRCUTTER", "AQUATAIL", "BIND", "DEFOG", "DRACOMETEOR", "DRAGONPULSE", "FIREPUNCH", "FOCUSPUNCH", "FURYCUTTER", "HEADBUTT", "HEATWAVE", "ICEPUNCH", "ICYWIND", "IRONHEAD", "IRONTAIL", "MUDSLAP", "OMINOUSWIND", "OUTRAGE", "SHOCKWAVE", "SNORE", "SUPERPOWER", "TAILWIND", "THUNDERPUNCH", "TWISTER", "WATERPULSE", "DUALWINGBEAT", "SCALESHOT", "EXTREMESPEED", "MIMIC"]
-compatible_egg_groups = ["Water1", "Dragon"]
+raw_abilities = [
+    "INNERFOCUS",
+    "MULTISCALE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "BARRIER" },
+    { at_level = 1, name = "HEALBELL" },
+    { at_level = 1, name = "AIRSLASH" },
+    { at_level = 1, name = "DYNAMICPUNCH" },
+    { at_level = 1, name = "HYDROPUMP" },
+    { at_level = 10, name = "FIRESPIN" },
+    { at_level = 13, name = "WATERPULSE" },
+    { at_level = 16, name = "DRAGONTAIL" },
+    { at_level = 19, name = "AQUAJET" },
+    { at_level = 22, name = "SAFEGUARD" },
+    { at_level = 25, name = "DRAGONBREATH" },
+    { at_level = 28, name = "AGILITY" },
+    { at_level = 30, name = "BREAKINGSWIPE" },
+    { at_level = 33, name = "SAFEGUARD" },
+    { at_level = 37, name = "COIL" },
+    { at_level = 40, name = "BODYSLAM" },
+    { at_level = 43, name = "HAZE" },
+    { at_level = 46, name = "AQUATAIL" },
+    { at_level = 49, name = "EXTREMESPEED" },
+    { at_level = 53, name = "DRAGONRUSH" },
+    { at_level = 55, name = "WINGATTACK" },
+    { at_level = 59, name = "DOUBLEEDGE" },
+    { at_level = 63, name = "OUTRAGE" },
+    { at_level = 67, name = "DUALWINGBEAT" },
+    { at_level = 71, name = "DRAGONDANCE" },
+]
+raw_tms = [
+    "CUT",
+    "DRAGONCLAW",
+    "FLY",
+    "SURF",
+    "STRENGTH",
+    "ROAR",
+    "WATERFALL",
+    "TOXIC",
+    "DIVE",
+    "HAIL",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "ICEBEAM",
+    "BLIZZARD",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "ROOST",
+    "ROOST",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "THUNDERBOLT",
+    "THUNDER",
+    "EARTHQUAKE",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "REFLECT",
+    "FLAMETHROWER",
+    "SANDSTORM",
+    "FIREBLAST",
+    "ROCKTOMB",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "STEELWING",
+    "FOCUSBLAST",
+    "FLING",
+    "SKYDROP",
+    "BRUTALSWING",
+    "GIGAIMPACT",
+    "STONEEDGE",
+    "THUNDERWAVE",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "DRAGONTAIL",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "FIRESPIN",
+    "WHIRLPOOL",
+    "AIRSLASH",
+    "BREAKINGSWIPE",
+    "BODYSLAM",
+    "HYDROPUMP",
+    "HURRICANE",
+    "AGILITY",
+    "ENDURE",
+    "DRAGONDANCE",
+    "BODYPRESS",
+    "ICESPINNER",
+    "SNOWSCAPE",
+    "CHILLINGWATER",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AIRCUTTER",
+    "AQUATAIL",
+    "BIND",
+    "DEFOG",
+    "DRACOMETEOR",
+    "DRAGONPULSE",
+    "DUALWINGBEAT",
+    "EXTREMESPEED",
+    "FIREPUNCH",
+    "FOCUSPUNCH",
+    "FURYCUTTER",
+    "HEADBUTT",
+    "HEATWAVE",
+    "ICEPUNCH",
+    "ICYWIND",
+    "IRONHEAD",
+    "IRONTAIL",
+    "MIMIC",
+    "MUDSLAP",
+    "OMINOUSWIND",
+    "OUTRAGE",
+    "SCALESHOT",
+    "SHOCKWAVE",
+    "SNORE",
+    "SUPERPOWER",
+    "TAILWIND",
+    "THUNDERPUNCH",
+    "TWISTER",
+    "WATERPULSE",
+]
+compatible_egg_groups = [
+    "Water1",
+    "Dragon",
+]
 steps_to_hatch = 10455
 height = 2.2
 weight = 210.0
@@ -20,111 +157,7 @@ pokedex_entry = "It can circle the globe in just 16 hours. It is a kindhearted P
 battler_player_y = 12
 battler_enemy_y = 3
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 149
-internal_name = "DRAGONITE"
 habitat = "WatersEdge"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BARRIER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HEALBELL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "AIRSLASH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "DYNAMICPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HYDROPUMP"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "FIRESPIN"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "WATERPULSE"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "DRAGONTAIL"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "AQUAJET"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "SAFEGUARD"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "DRAGONBREATH"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "AGILITY"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "BREAKINGSWIPE"
-
-[[raw_level_up_moves]]
-at_level = 33
-name = "SAFEGUARD"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "COIL"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "HAZE"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "AQUATAIL"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "EXTREMESPEED"
-
-[[raw_level_up_moves]]
-at_level = 53
-name = "DRAGONRUSH"
-
-[[raw_level_up_moves]]
-at_level = 55
-name = "WINGATTACK"
-
-[[raw_level_up_moves]]
-at_level = 59
-name = "DOUBLEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 63
-name = "OUTRAGE"
-
-[[raw_level_up_moves]]
-at_level = 67
-name = "DUALWINGBEAT"
-
-[[raw_level_up_moves]]
-at_level = 71
-name = "DRAGONDANCE"
 
 [base_stats]
 hp = 91

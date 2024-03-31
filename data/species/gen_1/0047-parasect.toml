@@ -1,3 +1,4 @@
+dex_number = 47
 name = "Parasect"
 primary_type = "BUG"
 secondary_type = "GRASS"
@@ -6,11 +7,101 @@ growth_rate = "Medium"
 exp_yield = 142
 catch_rate = 75
 caught_happiness = 70
-raw_abilities = ["EFFECTSPORE", "DRYSKIN"]
-raw_egg_moves = []
-raw_tms = ["CUT", "TOXIC", "ROCKSMASH", "FLASH", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "FRUSTRATION", "SOLARBEAM", "RETURN", "LEECHLIFE", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "SLUDGEBOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ENERGYBALL", "FALSESWIPE", "GIGAIMPACT", "SWORDSDANCE", "STRUGGLEBUG", "XSCISSOR", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "DIG", "SCREECH", "BULLETSEED", "CROSSPOISON", "GRASSYTERRAIN", "BODYSLAM", "AGILITY", "ENDURE"]
-raw_tutor_moves = ["AFTERYOU", "BUGBITE", "FURYCUTTER", "GIGADRAIN", "KNOCKOFF", "SEEDBOMB", "SNORE", "STRINGSHOT", "SYNTHESIS", "THROATCHOP", "WORRYSEED", "MIMIC"]
-compatible_egg_groups = ["Bug", "Grass"]
+raw_abilities = [
+    "EFFECTSPORE",
+    "DRYSKIN",
+]
+raw_level_up_moves = [
+    { at_level = 0, name = "RAGEPOWDER" },
+    { at_level = 1, name = "ABSORB" },
+    { at_level = 1, name = "SCRATCH" },
+    { at_level = 1, name = "STRINGSHOT" },
+    { at_level = 4, name = "PURSUIT" },
+    { at_level = 7, name = "STUNSPORE" },
+    { at_level = 7, name = "POISONPOWDER" },
+    { at_level = 10, name = "METALCLAW" },
+    { at_level = 13, name = "BUGBITE" },
+    { at_level = 16, name = "BULLETSEED" },
+    { at_level = 19, name = "SPORE" },
+    { at_level = 21, name = "STRUGGLEBUG" },
+    { at_level = 23, name = "WIDEGUARD" },
+    { at_level = 25, name = "LEECHLIFE" },
+    { at_level = 27, name = "LEECHSEED" },
+    { at_level = 29, name = "AROMATHERAPY" },
+    { at_level = 32, name = "PSYBEAM" },
+    { at_level = 35, name = "SEEDBOMB" },
+    { at_level = 38, name = "CROSSPOISON" },
+    { at_level = 42, name = "CRABHAMMER" },
+    { at_level = 46, name = "AGILITY" },
+    { at_level = 50, name = "GROWTH" },
+    { at_level = 54, name = "LUNGE" },
+    { at_level = 58, name = "SYNTHESIS" },
+]
+raw_tms = [
+    "CUT",
+    "TOXIC",
+    "ROCKSMASH",
+    "FLASH",
+    "VENOSHOCK",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "LEECHLIFE",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "REFLECT",
+    "SLUDGEBOMB",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "ENERGYBALL",
+    "FALSESWIPE",
+    "GIGAIMPACT",
+    "SWORDSDANCE",
+    "STRUGGLEBUG",
+    "XSCISSOR",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "NATUREPOWER",
+    "CONFIDE",
+    "DIG",
+    "SCREECH",
+    "BULLETSEED",
+    "CROSSPOISON",
+    "GRASSYTERRAIN",
+    "BODYSLAM",
+    "AGILITY",
+    "ENDURE",
+]
+raw_tutor_moves = [
+    "AFTERYOU",
+    "BUGBITE",
+    "FURYCUTTER",
+    "GIGADRAIN",
+    "KNOCKOFF",
+    "MIMIC",
+    "SEEDBOMB",
+    "SNORE",
+    "STRINGSHOT",
+    "SYNTHESIS",
+    "THROATCHOP",
+    "WORRYSEED",
+]
+compatible_egg_groups = [
+    "Bug",
+    "Grass",
+]
 steps_to_hatch = 5355
 height = 1.0
 weight = 29.5
@@ -20,107 +111,7 @@ pokedex_entry = "Parasect are known to infest the roots of large trees en masse 
 battler_player_y = 22
 battler_enemy_y = 16
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 47
-internal_name = "PARASECT"
 habitat = "Forest"
-
-[[raw_level_up_moves]]
-at_level = 0
-name = "RAGEPOWDER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ABSORB"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SCRATCH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "STRINGSHOT"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "PURSUIT"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "STUNSPORE"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "POISONPOWDER"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "METALCLAW"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "BUGBITE"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "BULLETSEED"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "SPORE"
-
-[[raw_level_up_moves]]
-at_level = 21
-name = "STRUGGLEBUG"
-
-[[raw_level_up_moves]]
-at_level = 23
-name = "WIDEGUARD"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "LEECHLIFE"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "LEECHSEED"
-
-[[raw_level_up_moves]]
-at_level = 29
-name = "AROMATHERAPY"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "PSYBEAM"
-
-[[raw_level_up_moves]]
-at_level = 35
-name = "SEEDBOMB"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "CROSSPOISON"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "CRABHAMMER"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "AGILITY"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "GROWTH"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "LUNGE"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "SYNTHESIS"
 
 [base_stats]
 hp = 60

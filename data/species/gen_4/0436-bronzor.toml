@@ -1,3 +1,4 @@
+dex_number = 436
 name = "Bronzor"
 primary_type = "STEEL"
 secondary_type = "PSYCHIC"
@@ -6,11 +7,102 @@ growth_rate = "Medium"
 exp_yield = 60
 catch_rate = 255
 caught_happiness = 70
-raw_abilities = ["LEVITATE", "HEATPROOF"]
-raw_egg_moves = []
-raw_tms = ["PSYSHOCK", "CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "EARTHQUAKE", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "SANDSTORM", "ROCKTOMB", "FACADE", "REST", "ROUND", "CHARGEBEAM", "PAYBACK", "ROCKPOLISH", "GYROBALL", "PSYCHUP", "BULLDOZE", "ROCKSLIDE", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "TRICKROOM", "SECRETPOWER", "CONFIDE", "IMPRISON", "POWERSWAP", "GUARDSWAP", "SPEEDSWAP", "HEX", "ENDURE", "FUTURESIGHT", "HEAVYSLAM", "ICESPINNER"]
-raw_tutor_moves = ["ALLYSWITCH", "ANCIENTPOWER", "GRAVITY", "IRONDEFENSE", "RECYCLE", "ROLLOUT", "SIGNALBEAM", "SKILLSWAP", "SNORE", "STEALTHROCK", "TELEKINESIS", "TRICK", "WONDERROOM", "EXPANDINGFORCE", "STEELROLLER", "STEELBEAM", "MIMIC"]
-compatible_egg_groups = ["Mineral"]
+raw_abilities = [
+    "LEVITATE",
+    "HEATPROOF",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 1, name = "CONFUSION" },
+    { at_level = 5, name = "IMPRISON" },
+    { at_level = 9, name = "CONFUSERAY" },
+    { at_level = 13, name = "PSYWAVE" },
+    { at_level = 15, name = "HYPNOSIS" },
+    { at_level = 17, name = "EXTRASENSORY" },
+    { at_level = 19, name = "FEINTATTACK" },
+    { at_level = 23, name = "GYROBALL" },
+    { at_level = 25, name = "IRONDEFENSE" },
+    { at_level = 27, name = "ZENHEADBUTT" },
+    { at_level = 30, name = "SAFEGUARD" },
+    { at_level = 34, name = "HEX" },
+    { at_level = 38, name = "FUTURESIGHT" },
+    { at_level = 42, name = "PAYBACK" },
+    { at_level = 46, name = "HEALBLOCK" },
+    { at_level = 50, name = "PSYSHIELDBASH" },
+    { at_level = 51, name = "RECOVER" },
+]
+raw_tms = [
+    "PSYSHOCK",
+    "CALMMIND",
+    "TOXIC",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "EARTHQUAKE",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "REFLECT",
+    "SANDSTORM",
+    "ROCKTOMB",
+    "FACADE",
+    "REST",
+    "ROUND",
+    "CHARGEBEAM",
+    "PAYBACK",
+    "ROCKPOLISH",
+    "GYROBALL",
+    "PSYCHUP",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "DREAMEATER",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "FLASHCANNON",
+    "TRICKROOM",
+    "SECRETPOWER",
+    "CONFIDE",
+    "IMPRISON",
+    "POWERSWAP",
+    "GUARDSWAP",
+    "SPEEDSWAP",
+    "HEX",
+    "ENDURE",
+    "FUTURESIGHT",
+    "HEAVYSLAM",
+    "ICESPINNER",
+]
+raw_tutor_moves = [
+    "ALLYSWITCH",
+    "ANCIENTPOWER",
+    "EXPANDINGFORCE",
+    "GRAVITY",
+    "IRONDEFENSE",
+    "MIMIC",
+    "RECYCLE",
+    "ROLLOUT",
+    "SIGNALBEAM",
+    "SKILLSWAP",
+    "SNORE",
+    "STEALTHROCK",
+    "STEELBEAM",
+    "STEELROLLER",
+    "TELEKINESIS",
+    "TRICK",
+    "WONDERROOM",
+]
+compatible_egg_groups = [
+    "Mineral",
+]
 steps_to_hatch = 5355
 height = 0.5
 weight = 60.5
@@ -20,89 +112,10 @@ pokedex_entry = "Implements shaped like it were discovered in ancient tombs. It 
 battler_player_y = 30
 battler_enemy_y = 23
 battler_altitude = 13
-form_names = []
-dex_number = 436
-internal_name = "BRONZOR"
 raw_hidden_ability = "HEAVYMETAL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "CONFUSION"
-
-[[raw_level_up_moves]]
-at_level = 5
-name = "IMPRISON"
-
-[[raw_level_up_moves]]
-at_level = 9
-name = "CONFUSERAY"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "PSYWAVE"
-
-[[raw_level_up_moves]]
-at_level = 15
-name = "HYPNOSIS"
-
-[[raw_level_up_moves]]
-at_level = 17
-name = "EXTRASENSORY"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "FEINTATTACK"
-
-[[raw_level_up_moves]]
-at_level = 23
-name = "GYROBALL"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "IRONDEFENSE"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "ZENHEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "SAFEGUARD"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "HEX"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "FUTURESIGHT"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "PAYBACK"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "HEALBLOCK"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "PSYSHIELDBASH"
-
-[[raw_level_up_moves]]
-at_level = 51
-name = "RECOVER"
-
-[[evolutions]]
-into_name = "BRONZONG"
-condition = "Level"
-parameter = "33"
-
-
+evolutions = [
+    { into_name = "BRONZONG", condition = "Level", parameter = "33" },
+]
 
 [base_stats]
 hp = 57

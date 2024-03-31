@@ -1,3 +1,4 @@
+dex_number = 191
 name = "Sunkern"
 primary_type = "GRASS"
 secondary_type = "GRASS"
@@ -6,11 +7,83 @@ growth_rate = "Parabolic"
 exp_yield = 36
 catch_rate = 235
 caught_happiness = 70
-raw_abilities = ["CHLOROPHYLL", "SOLARPOWER"]
-raw_egg_moves = ["BIDE", "CURSE", "ENCORE", "ENDURE", "GRASSWHISTLE", "GRASSYTERRAIN", "HELPINGHAND", "INGRAIN", "LEECHSEED", "MORNINGSUN", "NATURALGIFT", "SWEETSCENT"]
-raw_tms = ["CUT", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "LIGHTSCREEN", "PROTECT", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "SLUDGEBOMB", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "SWORDSDANCE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "BULLETSEED", "GRASSYTERRAIN", "ENDURE", "ENCORE", "TRAILBLAZE"]
-raw_tutor_moves = ["AFTERYOU", "EARTHPOWER", "ENDEAVOR", "GIGADRAIN", "HELPINGHAND", "SEEDBOMB", "SNORE", "SYNTHESIS", "UPROAR", "WORRYSEED", "MIMIC"]
-compatible_egg_groups = ["Grass"]
+raw_abilities = [
+    "CHLOROPHYLL",
+    "SOLARPOWER",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "ABSORB" },
+    { at_level = 1, name = "POUND" },
+    { at_level = 1, name = "INGRAIN" },
+    { at_level = 4, name = "LEECHSEED" },
+    { at_level = 7, name = "RAZORLEAF" },
+    { at_level = 10, name = "GRASSWHISTLE" },
+    { at_level = 12, name = "HELPINGHAND" },
+    { at_level = 14, name = "BULLETSEED" },
+    { at_level = 16, name = "ENDEAVOR" },
+    { at_level = 18, name = "SYNTHESIS" },
+    { at_level = 20, name = "NATUREPOWER" },
+    { at_level = 23, name = "MORNINGSUN" },
+    { at_level = 26, name = "LEAFTORNADO" },
+    { at_level = 29, name = "WORRYSEED" },
+    { at_level = 32, name = "PETALDANCE" },
+    { at_level = 35, name = "UPROAR" },
+    { at_level = 38, name = "GROWTH" },
+    { at_level = 42, name = "EARTHPOWER" },
+    { at_level = 46, name = "SUNNYDAY" },
+    { at_level = 50, name = "DOUBLEEDGE" },
+    { at_level = 54, name = "LEAFSTORM" },
+    { at_level = 58, name = "SOLARBEAM" },
+]
+raw_tms = [
+    "CUT",
+    "TOXIC",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "DOUBLETEAM",
+    "SLUDGEBOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ENERGYBALL",
+    "SWORDSDANCE",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "NATUREPOWER",
+    "CONFIDE",
+    "BULLETSEED",
+    "GRASSYTERRAIN",
+    "ENDURE",
+    "ENCORE",
+    "TRAILBLAZE",
+]
+raw_tutor_moves = [
+    "AFTERYOU",
+    "EARTHPOWER",
+    "ENDEAVOR",
+    "GIGADRAIN",
+    "HELPINGHAND",
+    "MIMIC",
+    "SEEDBOMB",
+    "SNORE",
+    "SYNTHESIS",
+    "UPROAR",
+    "WORRYSEED",
+]
+compatible_egg_groups = [
+    "Grass",
+]
 steps_to_hatch = 5355
 height = 0.3
 weight = 1.8
@@ -20,105 +93,24 @@ pokedex_entry = "Sunkern try to conserve the nutrients they have stored in their
 battler_player_y = 33
 battler_enemy_y = 26
 battler_altitude = 8
-form_names = []
-dex_number = 191
-internal_name = "SUNKERN"
+raw_egg_moves = [
+    "BIDE",
+    "CURSE",
+    "ENCORE",
+    "ENDURE",
+    "GRASSWHISTLE",
+    "GRASSYTERRAIN",
+    "HELPINGHAND",
+    "INGRAIN",
+    "LEECHSEED",
+    "MORNINGSUN",
+    "NATURALGIFT",
+    "SWEETSCENT",
+]
 habitat = "Grassland"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ABSORB"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "POUND"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "INGRAIN"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "LEECHSEED"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "RAZORLEAF"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "GRASSWHISTLE"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "HELPINGHAND"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "BULLETSEED"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "ENDEAVOR"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "SYNTHESIS"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "NATUREPOWER"
-
-[[raw_level_up_moves]]
-at_level = 23
-name = "MORNINGSUN"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "LEAFTORNADO"
-
-[[raw_level_up_moves]]
-at_level = 29
-name = "WORRYSEED"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "PETALDANCE"
-
-[[raw_level_up_moves]]
-at_level = 35
-name = "UPROAR"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "GROWTH"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "EARTHPOWER"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "SUNNYDAY"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "DOUBLEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "LEAFSTORM"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "SOLARBEAM"
-
-[[evolutions]]
-into_name = "SUNFLORA"
-condition = "Item"
-parameter = "SUNSTONE"
-
-
+evolutions = [
+    { into_name = "SUNFLORA", condition = "Item", parameter = "SUNSTONE" },
+]
 
 [base_stats]
 hp = 50
@@ -135,5 +127,3 @@ def_ = 0
 spa = 1
 spd = 0
 spe = 0
-
-[wild_items]

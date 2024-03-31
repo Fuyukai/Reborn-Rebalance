@@ -1,3 +1,4 @@
+dex_number = 28
 name = "Sandslash"
 primary_type = "GROUND"
 secondary_type = "GROUND"
@@ -6,11 +7,128 @@ growth_rate = "Medium"
 exp_yield = 158
 catch_rate = 90
 caught_happiness = 70
-raw_abilities = ["ROUGHSKIN", "SANDRUSH"]
-raw_egg_moves = []
-raw_tms = ["WORKUP", "CUT", "STRENGTH", "TOXIC", "HAIL", "ROCKSMASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "SAFEGUARD", "FRUSTRATION", "EARTHQUAKE", "RETURN", "LEECHLIFE", "BRICKBREAK", "DOUBLETEAM", "SANDSTORM", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "FOCUSBLAST", "FLING", "SHADOWCLAW", "GIGAIMPACT", "AURORAVEIL", "STONEEDGE", "GYROBALL", "SWORDSDANCE", "BULLDOZE", "FROSTBREATH", "ROCKSLIDE", "XSCISSOR", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "PINMISSILE", "DIG", "SANDTOMB", "ICICLESPEAR", "MUDSHOT", "AVALANCHE", "BODYSLAM", "AGILITY", "AMNESIA", "SPIKES", "ENDURE", "PLAYROUGH", "SWIFT"]
-raw_tutor_moves = ["AQUATAIL", "COVET", "DRILLRUN", "EARTHPOWER", "FOCUSPUNCH", "FURYCUTTER", "HEADBUTT", "ICEPUNCH", "ICYWIND", "IRONDEFENSE", "IRONHEAD", "IRONTAIL", "KNOCKOFF", "MUDSLAP", "ROLLOUT", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "SUPERFANG", "THROATCHOP", "SCORCHINGSANDS", "TRIPLEAXEL", "STEELROLLER", "STEELBEAM", "ICEBALL", "MIMIC"]
-compatible_egg_groups = ["Field"]
+raw_abilities = [
+    "ROUGHSKIN",
+    "SANDRUSH",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "DEFENSECURL" },
+    { at_level = 1, name = "ROLLOUT" },
+    { at_level = 1, name = "SANDATTACK" },
+    { at_level = 4, name = "POISONSTING" },
+    { at_level = 7, name = "MAGNITUDE" },
+    { at_level = 10, name = "FURYCUTTER" },
+    { at_level = 13, name = "SCORCHINGSANDS" },
+    { at_level = 16, name = "METALCLAW" },
+    { at_level = 19, name = "BULLDOZE" },
+    { at_level = 22, name = "ACCELEROCK" },
+    { at_level = 23, name = "FLING" },
+    { at_level = 25, name = "SLASH" },
+    { at_level = 25, name = "NIGHTSLASH" },
+    { at_level = 27, name = "SUPERFANG" },
+    { at_level = 29, name = "AGILITY" },
+    { at_level = 32, name = "CHIPAWAY" },
+    { at_level = 35, name = "SPIKES" },
+    { at_level = 38, name = "PINMISSILE" },
+    { at_level = 42, name = "DRILLRUN" },
+    { at_level = 46, name = "CRUSHCLAW" },
+    { at_level = 50, name = "RAPIDSPIN" },
+    { at_level = 54, name = "LEECHLIFE" },
+    { at_level = 58, name = "FOCUSPUNCH" },
+    { at_level = 62, name = "HEADLONGRUSH" },
+]
+raw_tms = [
+    "WORKUP",
+    "CUT",
+    "STRENGTH",
+    "TOXIC",
+    "HAIL",
+    "ROCKSMASH",
+    "ROCKCLIMB",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "ICEBEAM",
+    "BLIZZARD",
+    "HYPERBEAM",
+    "PROTECT",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "EARTHQUAKE",
+    "RETURN",
+    "LEECHLIFE",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "SANDSTORM",
+    "ROCKTOMB",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "FOCUSBLAST",
+    "FLING",
+    "SHADOWCLAW",
+    "GIGAIMPACT",
+    "AURORAVEIL",
+    "STONEEDGE",
+    "GYROBALL",
+    "SWORDSDANCE",
+    "BULLDOZE",
+    "FROSTBREATH",
+    "ROCKSLIDE",
+    "XSCISSOR",
+    "POISONJAB",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "PINMISSILE",
+    "DIG",
+    "SANDTOMB",
+    "ICICLESPEAR",
+    "MUDSHOT",
+    "AVALANCHE",
+    "BODYSLAM",
+    "AGILITY",
+    "AMNESIA",
+    "SPIKES",
+    "ENDURE",
+    "PLAYROUGH",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AQUATAIL",
+    "COVET",
+    "DRILLRUN",
+    "EARTHPOWER",
+    "FOCUSPUNCH",
+    "FURYCUTTER",
+    "HEADBUTT",
+    "ICEBALL",
+    "ICEPUNCH",
+    "ICYWIND",
+    "IRONDEFENSE",
+    "IRONHEAD",
+    "IRONTAIL",
+    "KNOCKOFF",
+    "MIMIC",
+    "MUDSLAP",
+    "ROLLOUT",
+    "SCORCHINGSANDS",
+    "SNORE",
+    "STEALTHROCK",
+    "STEELBEAM",
+    "STEELROLLER",
+    "STOMPINGTANTRUM",
+    "SUPERFANG",
+    "THROATCHOP",
+    "TRIPLEAXEL",
+]
+compatible_egg_groups = [
+    "Field",
+]
 steps_to_hatch = 5355
 height = 1.0
 weight = 29.5
@@ -20,107 +138,11 @@ pokedex_entry = "It curls up in a ball to protect itself from enemy attacks. It 
 battler_player_y = 24
 battler_enemy_y = 17
 battler_altitude = 0
-evolutions = []
-form_names = ["Normal", "Alternate"]
-dex_number = 28
-internal_name = "SANDSLASH"
 habitat = "RoughTerrain"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "DEFENSECURL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ROLLOUT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SANDATTACK"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "POISONSTING"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "MAGNITUDE"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "FURYCUTTER"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "SCORCHINGSANDS"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "METALCLAW"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "BULLDOZE"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "ACCELEROCK"
-
-[[raw_level_up_moves]]
-at_level = 23
-name = "FLING"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "SLASH"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "NIGHTSLASH"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "SUPERFANG"
-
-[[raw_level_up_moves]]
-at_level = 29
-name = "AGILITY"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "CHIPAWAY"
-
-[[raw_level_up_moves]]
-at_level = 35
-name = "SPIKES"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "PINMISSILE"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "DRILLRUN"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "CRUSHCLAW"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "RAPIDSPIN"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "LEECHLIFE"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "FOCUSPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 62
-name = "HEADLONGRUSH"
+form_names = [
+    "Normal",
+    "Alternate",
+]
 
 [base_stats]
 hp = 95

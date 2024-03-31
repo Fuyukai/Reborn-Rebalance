@@ -1,3 +1,4 @@
+dex_number = 425
 name = "Drifloon"
 primary_type = "GHOST"
 secondary_type = "FLYING"
@@ -6,11 +7,107 @@ growth_rate = "Fluctuating"
 exp_yield = 70
 catch_rate = 125
 caught_happiness = 70
-raw_abilities = ["AFTERMATH", "UNBURDEN"]
-raw_egg_moves = ["BODYSLAM", "CLEARSMOG", "DEFOG", "DESTINYBOND", "DISABLE", "HAZE", "HYPNOSIS", "MEMENTO", "TAILWIND", "WEATHERBALL"]
-raw_tms = ["CUT", "CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "CHARGEBEAM", "BRUTALSWING", "WILLOWISP", "ACROBATICS", "EMBARGO", "EXPLOSION", "PAYBACK", "THUNDERWAVE", "GYROBALL", "PSYCHUP", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "SELFDESTRUCT", "WEATHERBALL", "HEX", "BODYSLAM", "FOCUSENERGY", "AMNESIA", "ENDURE", "BATONPASS", "SWIFT", "HURRICANE"]
-raw_tutor_moves = ["AIRCUTTER", "ALLYSWITCH", "BIND", "DEFOG", "ICYWIND", "KNOCKOFF", "MAGICCOAT", "MUDSLAP", "OMINOUSWIND", "PAINSPLIT", "RECYCLE", "ROLLOUT", "SHOCKWAVE", "SKILLSWAP", "SNORE", "SPITE", "SUCKERPUNCH", "TAILWIND", "TELEKINESIS", "TRICK", "MIMIC"]
-compatible_egg_groups = ["Amorphous"]
+raw_abilities = [
+    "AFTERMATH",
+    "UNBURDEN",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "ASTONISH" },
+    { at_level = 4, name = "MINIMIZE" },
+    { at_level = 7, name = "GUST" },
+    { at_level = 10, name = "FOCUSENERGY" },
+    { at_level = 13, name = "PAYBACK" },
+    { at_level = 16, name = "OMINOUSWIND" },
+    { at_level = 19, name = "AIRCUTTER" },
+    { at_level = 22, name = "STOCKPILE" },
+    { at_level = 22, name = "SWALLOW" },
+    { at_level = 22, name = "SPITUP" },
+    { at_level = 25, name = "HEX" },
+    { at_level = 28, name = "AMNESIA" },
+    { at_level = 31, name = "AIRSLASH" },
+    { at_level = 34, name = "HYPNOSIS" },
+    { at_level = 38, name = "EXPLOSION" },
+    { at_level = 42, name = "DISABLE" },
+    { at_level = 46, name = "EXTRASENSORY" },
+    { at_level = 50, name = "HAZE" },
+    { at_level = 54, name = "MEMENTO" },
+    { at_level = 58, name = "PAINSPLIT" },
+    { at_level = 62, name = "DESTINYBOND" },
+]
+raw_tms = [
+    "CUT",
+    "CALMMIND",
+    "TOXIC",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "THUNDERBOLT",
+    "THUNDER",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "CHARGEBEAM",
+    "BRUTALSWING",
+    "WILLOWISP",
+    "ACROBATICS",
+    "EMBARGO",
+    "EXPLOSION",
+    "PAYBACK",
+    "THUNDERWAVE",
+    "GYROBALL",
+    "PSYCHUP",
+    "DREAMEATER",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "SELFDESTRUCT",
+    "WEATHERBALL",
+    "HEX",
+    "BODYSLAM",
+    "HURRICANE",
+    "FOCUSENERGY",
+    "AMNESIA",
+    "ENDURE",
+    "BATONPASS",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AIRCUTTER",
+    "ALLYSWITCH",
+    "BIND",
+    "DEFOG",
+    "ICYWIND",
+    "KNOCKOFF",
+    "MAGICCOAT",
+    "MIMIC",
+    "MUDSLAP",
+    "OMINOUSWIND",
+    "PAINSPLIT",
+    "RECYCLE",
+    "ROLLOUT",
+    "SHOCKWAVE",
+    "SKILLSWAP",
+    "SNORE",
+    "SPITE",
+    "SUCKERPUNCH",
+    "TAILWIND",
+    "TELEKINESIS",
+    "TRICK",
+]
+compatible_egg_groups = [
+    "Amorphous",
+]
 steps_to_hatch = 7905
 height = 0.4
 weight = 1.2
@@ -20,101 +117,22 @@ pokedex_entry = "A Pokémon formed by the spirits of people and Pokémon. It lov
 battler_player_y = 20
 battler_enemy_y = 15
 battler_altitude = 9
-form_names = []
-dex_number = 425
-internal_name = "DRIFLOON"
 raw_hidden_ability = "FLAREBOOST"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ASTONISH"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "MINIMIZE"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "GUST"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "FOCUSENERGY"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "PAYBACK"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "OMINOUSWIND"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "AIRCUTTER"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "STOCKPILE"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "SWALLOW"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "SPITUP"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "HEX"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "AMNESIA"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "AIRSLASH"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "HYPNOSIS"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "EXPLOSION"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "DISABLE"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "EXTRASENSORY"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "HAZE"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "MEMENTO"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "PAINSPLIT"
-
-[[raw_level_up_moves]]
-at_level = 62
-name = "DESTINYBOND"
-
-[[evolutions]]
-into_name = "DRIFBLIM"
-condition = "Level"
-parameter = "28"
-
-
+raw_egg_moves = [
+    "BODYSLAM",
+    "CLEARSMOG",
+    "DEFOG",
+    "DESTINYBOND",
+    "DISABLE",
+    "HAZE",
+    "HYPNOSIS",
+    "MEMENTO",
+    "TAILWIND",
+    "WEATHERBALL",
+]
+evolutions = [
+    { into_name = "DRIFBLIM", condition = "Level", parameter = "28" },
+]
 
 [base_stats]
 hp = 90
@@ -131,5 +149,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

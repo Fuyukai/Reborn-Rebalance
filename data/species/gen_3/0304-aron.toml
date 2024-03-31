@@ -1,3 +1,4 @@
+dex_number = 304
 name = "Aron"
 primary_type = "STEEL"
 secondary_type = "ROCK"
@@ -6,11 +7,97 @@ growth_rate = "Slow"
 exp_yield = 66
 catch_rate = 180
 caught_happiness = 35
-raw_abilities = ["STURDY", "ROCKHEAD", "FILTER"]
-raw_egg_moves = ["BODYSLAM", "CURSE", "DRAGONRUSH", "ENDEAVOR", "HEADSMASH", "IRONHEAD", "REVERSAL", "SCREECH", "SMELLINGSALTS", "STEALTHROCK", "STOMP", "SUPERPOWER"]
-raw_tms = ["CUT", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "RAINDANCE", "FRUSTRATION", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "SANDSTORM", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "SHADOWCLAW", "ROCKPOLISH", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "SCREECH", "BODYSLAM", "REVERSAL", "ENDURE", "HEAVYSLAM", "BODYPRESS"]
-raw_tutor_moves = ["ANCIENTPOWER", "EARTHPOWER", "ENDEAVOR", "FURYCUTTER", "HEADBUTT", "IRONDEFENSE", "IRONHEAD", "IRONTAIL", "MAGNETRISE", "MUDSLAP", "ROLLOUT", "SHOCKWAVE", "SNORE", "SPITE", "STEALTHROCK", "SUPERPOWER", "UPROAR", "WATERPULSE", "STEELROLLER", "STEELBEAM", "MIMIC"]
-compatible_egg_groups = ["Monster"]
+raw_abilities = [
+    "STURDY",
+    "ROCKHEAD",
+    "FILTER",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 1, name = "HARDEN" },
+    { at_level = 1, name = "ENDURE" },
+    { at_level = 4, name = "MUDSLAP" },
+    { at_level = 7, name = "HEADBUTT" },
+    { at_level = 10, name = "ROCKTHROW" },
+    { at_level = 13, name = "METALCLAW" },
+    { at_level = 16, name = "HEADBUTT" },
+    { at_level = 19, name = "SCREECH" },
+    { at_level = 22, name = "ENDEAVOR" },
+    { at_level = 25, name = "AUTOTOMIZE" },
+    { at_level = 28, name = "CURSE" },
+    { at_level = 31, name = "METALBURST" },
+    { at_level = 34, name = "TAKEDOWN" },
+    { at_level = 37, name = "BODYSLAM" },
+    { at_level = 41, name = "AVALANCHE" },
+    { at_level = 46, name = "IRONTAIL" },
+    { at_level = 49, name = "DOUBLEEDGE" },
+    { at_level = 52, name = "DRAGONRUSH" },
+    { at_level = 55, name = "HEAVYSLAM" },
+]
+raw_tms = [
+    "CUT",
+    "STRENGTH",
+    "ROAR",
+    "TOXIC",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "EARTHQUAKE",
+    "RETURN",
+    "DOUBLETEAM",
+    "SANDSTORM",
+    "ROCKTOMB",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "SHADOWCLAW",
+    "ROCKPOLISH",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "DIG",
+    "SCREECH",
+    "BODYSLAM",
+    "REVERSAL",
+    "ENDURE",
+    "HEAVYSLAM",
+    "BODYPRESS",
+]
+raw_tutor_moves = [
+    "ANCIENTPOWER",
+    "EARTHPOWER",
+    "ENDEAVOR",
+    "FURYCUTTER",
+    "HEADBUTT",
+    "IRONDEFENSE",
+    "IRONHEAD",
+    "IRONTAIL",
+    "MAGNETRISE",
+    "MIMIC",
+    "MUDSLAP",
+    "ROLLOUT",
+    "SHOCKWAVE",
+    "SNORE",
+    "SPITE",
+    "STEALTHROCK",
+    "STEELBEAM",
+    "STEELROLLER",
+    "SUPERPOWER",
+    "UPROAR",
+    "WATERPULSE",
+]
+compatible_egg_groups = [
+    "Monster",
+]
 steps_to_hatch = 9180
 height = 0.4
 weight = 60.0
@@ -20,97 +107,24 @@ pokedex_entry = "A Pokémon that is clad in steel armor. A new suit of armor is 
 battler_player_y = 32
 battler_enemy_y = 27
 battler_altitude = 0
-form_names = []
-dex_number = 304
-internal_name = "ARON"
+raw_egg_moves = [
+    "BODYSLAM",
+    "CURSE",
+    "DRAGONRUSH",
+    "ENDEAVOR",
+    "HEADSMASH",
+    "IRONHEAD",
+    "REVERSAL",
+    "SCREECH",
+    "SMELLINGSALTS",
+    "STEALTHROCK",
+    "STOMP",
+    "SUPERPOWER",
+]
 habitat = "Mountain"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HARDEN"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ENDURE"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "MUDSLAP"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "HEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "ROCKTHROW"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "METALCLAW"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "HEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "SCREECH"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "ENDEAVOR"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "AUTOTOMIZE"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "CURSE"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "METALBURST"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "TAKEDOWN"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 41
-name = "AVALANCHE"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "IRONTAIL"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "DOUBLEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "DRAGONRUSH"
-
-[[raw_level_up_moves]]
-at_level = 55
-name = "HEAVYSLAM"
-
-[[evolutions]]
-into_name = "LAIRON"
-condition = "Level"
-parameter = "24"
-
-
+evolutions = [
+    { into_name = "LAIRON", condition = "Level", parameter = "24" },
+]
 
 [base_stats]
 hp = 50

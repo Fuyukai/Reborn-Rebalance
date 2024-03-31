@@ -1,3 +1,4 @@
+dex_number = 580
 name = "Ducklett"
 primary_type = "WATER"
 secondary_type = "FLYING"
@@ -6,11 +7,83 @@ growth_rate = "Medium"
 exp_yield = 61
 catch_rate = 190
 caught_happiness = 70
-raw_abilities = ["COMPETITIVE", "BIGPECKS", "HYDRATION"]
-raw_egg_moves = ["AIRCUTTER", "AQUAJET", "BRINE", "GUST", "LUCKYCHANT", "MEFIRST", "MIRRORMOVE", "MUDSPORT", "STEELWING"]
-raw_tms = ["FLY", "SURF", "TOXIC", "DIVE", "HAIL", "HIDDENPOWER", "ICEBEAM", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "FRUSTRATION", "RETURN", "DOUBLETEAM", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "STEELWING", "SCALD", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "BRINE", "AIRSLASH", "HURRICANE", "BRAVEBIRD", "ENDURE", "HURRICANE"]
-raw_tutor_moves = ["AIRCUTTER", "DEFOG", "ENDEAVOR", "ICYWIND", "LIQUIDATION", "SNORE", "TAILWIND", "UPROAR", "WATERPULSE", "MIMIC"]
-compatible_egg_groups = ["Water1", "Flying"]
+raw_abilities = [
+    "COMPETITIVE",
+    "BIGPECKS",
+    "HYDRATION",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "DEFOG" },
+    { at_level = 1, name = "PECK" },
+    { at_level = 1, name = "WATERGUN" },
+    { at_level = 4, name = "MUDSLAP" },
+    { at_level = 7, name = "WINGATTACK" },
+    { at_level = 10, name = "LUCKYCHANT" },
+    { at_level = 13, name = "AERIALACE" },
+    { at_level = 16, name = "GUST" },
+    { at_level = 19, name = "WATERPULSE" },
+    { at_level = 22, name = "AQUAJET" },
+    { at_level = 25, name = "AIRCUTTER" },
+    { at_level = 28, name = "AQUARING" },
+    { at_level = 31, name = "BRINE" },
+    { at_level = 34, name = "ICYWIND" },
+    { at_level = 37, name = "BUBBLEBEAM" },
+    { at_level = 41, name = "UPROAR" },
+    { at_level = 45, name = "MIRRORMOVE" },
+    { at_level = 49, name = "AIRSLASH" },
+    { at_level = 53, name = "TAILWIND" },
+    { at_level = 57, name = "BRAVEBIRD" },
+]
+raw_tms = [
+    "FLY",
+    "SURF",
+    "TOXIC",
+    "DIVE",
+    "HAIL",
+    "HIDDENPOWER",
+    "ICEBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "ROOST",
+    "ROOST",
+    "FRUSTRATION",
+    "RETURN",
+    "DOUBLETEAM",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "STEELWING",
+    "SCALD",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "BRINE",
+    "AIRSLASH",
+    "HURRICANE",
+    "HURRICANE",
+    "BRAVEBIRD",
+    "ENDURE",
+]
+raw_tutor_moves = [
+    "AIRCUTTER",
+    "DEFOG",
+    "ENDEAVOR",
+    "ICYWIND",
+    "LIQUIDATION",
+    "MIMIC",
+    "SNORE",
+    "TAILWIND",
+    "UPROAR",
+    "WATERPULSE",
+]
+compatible_egg_groups = [
+    "Water1",
+    "Flying",
+]
 steps_to_hatch = 5120
 height = 0.5
 weight = 5.5
@@ -20,96 +93,20 @@ pokedex_entry = "When attacked, it uses its feathers to splash water, escaping u
 battler_player_y = 28
 battler_enemy_y = 31
 battler_altitude = 0
-form_names = []
-dex_number = 580
-internal_name = "DUCKLETT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "DEFOG"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "PECK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WATERGUN"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "MUDSLAP"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "WINGATTACK"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "LUCKYCHANT"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "AERIALACE"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "GUST"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "WATERPULSE"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "AQUAJET"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "AIRCUTTER"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "AQUARING"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "BRINE"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "ICYWIND"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "BUBBLEBEAM"
-
-[[raw_level_up_moves]]
-at_level = 41
-name = "UPROAR"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "MIRRORMOVE"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "AIRSLASH"
-
-[[raw_level_up_moves]]
-at_level = 53
-name = "TAILWIND"
-
-[[raw_level_up_moves]]
-at_level = 57
-name = "BRAVEBIRD"
-
-[[evolutions]]
-into_name = "SWANNA"
-condition = "Level"
-parameter = "35"
-
-
+raw_egg_moves = [
+    "AIRCUTTER",
+    "AQUAJET",
+    "BRINE",
+    "GUST",
+    "LUCKYCHANT",
+    "MEFIRST",
+    "MIRRORMOVE",
+    "MUDSPORT",
+    "STEELWING",
+]
+evolutions = [
+    { into_name = "SWANNA", condition = "Level", parameter = "35" },
+]
 
 [base_stats]
 hp = 62
@@ -126,5 +123,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

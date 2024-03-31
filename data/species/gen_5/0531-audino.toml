@@ -1,3 +1,4 @@
+dex_number = 531
 name = "Audino"
 primary_type = "NORMAL"
 secondary_type = "FAIRY"
@@ -6,11 +7,132 @@ growth_rate = "Fast"
 exp_yield = 390
 catch_rate = 255
 caught_happiness = 70
-raw_abilities = ["NATURALCURE", "REGENERATOR", "KLUTZ"]
-raw_egg_moves = ["AMNESIA", "BESTOW", "DRAININGKISS", "ENCORE", "HEALBELL", "HEALINGWISH", "LUCKYCHANT", "SLEEPTALK", "SWEETKISS", "WISH", "YAWN"]
-raw_tms = ["WORKUP", "PSYSHOCK", "SURF", "CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "THUNDERBOLT", "THUNDER", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "FIREBLAST", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "FLING", "CHARGEBEAM", "GIGAIMPACT", "THUNDERWAVE", "PSYCHUP", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "WILDCHARGE", "SECRETPOWER", "POWERUPPUNCH", "DAZZLINGGLEAM", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "DRAININGKISS", "MISTYTERRAIN", "BODYSLAM", "AMNESIA", "ENDURE", "ENCORE", "RETALIATE"]
-raw_tutor_moves = ["AFTERYOU", "ALLYSWITCH", "COVET", "DRAINPUNCH", "FIREPUNCH", "FOCUSPUNCH", "GRAVITY", "HEALBELL", "HELPINGHAND", "HYPERVOICE", "ICEPUNCH", "ICYWIND", "IRONTAIL", "KNOCKOFF", "LASERFOCUS", "LASTRESORT", "LOWKICK", "MAGICCOAT", "PAINSPLIT", "ROLEPLAY", "SIGNALBEAM", "SKILLSWAP", "SNATCH", "SNORE", "STOMPINGTANTRUM", "TELEKINESIS", "THROATCHOP", "THUNDERPUNCH", "UPROAR", "ZENHEADBUTT", "MIMIC"]
-compatible_egg_groups = ["Fairy"]
+raw_abilities = [
+    "NATURALCURE",
+    "REGENERATOR",
+    "KLUTZ",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "DRAININGKISS" },
+    { at_level = 1, name = "HEALBELL" },
+    { at_level = 1, name = "PAINSPLIT" },
+    { at_level = 1, name = "PRESENT" },
+    { at_level = 1, name = "HELPINGHAND" },
+    { at_level = 1, name = "POUND" },
+    { at_level = 1, name = "YAWN" },
+    { at_level = 8, name = "AFTERYOU" },
+    { at_level = 11, name = "LUCKYCHANT" },
+    { at_level = 13, name = "SAFEGUARD" },
+    { at_level = 15, name = "BESTOW" },
+    { at_level = 18, name = "DOUBLESLAP" },
+    { at_level = 22, name = "HEALPULSE" },
+    { at_level = 26, name = "COVET" },
+    { at_level = 30, name = "TAKEDOWN" },
+    { at_level = 34, name = "AMNESIA" },
+    { at_level = 38, name = "REFRESH" },
+    { at_level = 42, name = "ZENHEADBUTT" },
+    { at_level = 46, name = "SIMPLEBEAM" },
+    { at_level = 50, name = "DOUBLEEDGE" },
+    { at_level = 53, name = "WISH" },
+    { at_level = 56, name = "MOONBLAST" },
+    { at_level = 59, name = "ENTRAINMENT" },
+    { at_level = 62, name = "LASTRESORT" },
+]
+raw_tms = [
+    "WORKUP",
+    "PSYSHOCK",
+    "SURF",
+    "CALMMIND",
+    "TOXIC",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "ICEBEAM",
+    "BLIZZARD",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "THUNDERBOLT",
+    "THUNDER",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "REFLECT",
+    "FLAMETHROWER",
+    "FIREBLAST",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ECHOEDVOICE",
+    "FLING",
+    "CHARGEBEAM",
+    "GIGAIMPACT",
+    "THUNDERWAVE",
+    "PSYCHUP",
+    "DREAMEATER",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "TRICKROOM",
+    "WILDCHARGE",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "DAZZLINGGLEAM",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "DIG",
+    "DRAININGKISS",
+    "MISTYTERRAIN",
+    "BODYSLAM",
+    "AMNESIA",
+    "ENDURE",
+    "ENCORE",
+    "RETALIATE",
+]
+raw_tutor_moves = [
+    "AFTERYOU",
+    "ALLYSWITCH",
+    "COVET",
+    "DRAINPUNCH",
+    "FIREPUNCH",
+    "FOCUSPUNCH",
+    "GRAVITY",
+    "HEALBELL",
+    "HELPINGHAND",
+    "HYPERVOICE",
+    "ICEPUNCH",
+    "ICYWIND",
+    "IRONTAIL",
+    "KNOCKOFF",
+    "LASERFOCUS",
+    "LASTRESORT",
+    "LOWKICK",
+    "MAGICCOAT",
+    "MIMIC",
+    "PAINSPLIT",
+    "ROLEPLAY",
+    "SIGNALBEAM",
+    "SKILLSWAP",
+    "SNATCH",
+    "SNORE",
+    "STOMPINGTANTRUM",
+    "TELEKINESIS",
+    "THROATCHOP",
+    "THUNDERPUNCH",
+    "UPROAR",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Fairy",
+]
 steps_to_hatch = 5120
 height = 1.1
 weight = 31.0
@@ -20,106 +142,19 @@ pokedex_entry = "Its auditory sense is astounding. It has a radar-like ability t
 battler_player_y = 22
 battler_enemy_y = 28
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 531
-internal_name = "AUDINO"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "DRAININGKISS"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HEALBELL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "PAINSPLIT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "PRESENT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HELPINGHAND"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "POUND"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "YAWN"
-
-[[raw_level_up_moves]]
-at_level = 8
-name = "AFTERYOU"
-
-[[raw_level_up_moves]]
-at_level = 11
-name = "LUCKYCHANT"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "SAFEGUARD"
-
-[[raw_level_up_moves]]
-at_level = 15
-name = "BESTOW"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "DOUBLESLAP"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "HEALPULSE"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "COVET"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "TAKEDOWN"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "AMNESIA"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "REFRESH"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "ZENHEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "SIMPLEBEAM"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "DOUBLEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 53
-name = "WISH"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "MOONBLAST"
-
-[[raw_level_up_moves]]
-at_level = 59
-name = "ENTRAINMENT"
-
-[[raw_level_up_moves]]
-at_level = 62
-name = "LASTRESORT"
+raw_egg_moves = [
+    "AMNESIA",
+    "BESTOW",
+    "DRAININGKISS",
+    "ENCORE",
+    "HEALBELL",
+    "HEALINGWISH",
+    "LUCKYCHANT",
+    "SLEEPTALK",
+    "SWEETKISS",
+    "WISH",
+    "YAWN",
+]
 
 [base_stats]
 hp = 103

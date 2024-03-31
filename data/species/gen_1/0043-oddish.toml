@@ -1,3 +1,4 @@
+dex_number = 43
 name = "Oddish"
 primary_type = "GRASS"
 secondary_type = "POISON"
@@ -6,11 +7,81 @@ growth_rate = "Parabolic"
 exp_yield = 64
 catch_rate = 255
 caught_happiness = 70
-raw_abilities = ["CHLOROPHYLL", "RUNAWAY"]
-raw_egg_moves = ["AFTERYOU", "CHARM", "FLAIL", "INGRAIN", "NATUREPOWER", "RAZORLEAF", "SECRETPOWER", "STRENGTHSAP", "SYNTHESIS", "TEETERDANCE", "TICKLE", "LEECHSEED"]
-raw_tms = ["CUT", "TOXIC", "FLASH", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "REFLECT", "SLUDGEBOMB", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "SWORDSDANCE", "INFESTATION", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "DAZZLINGGLEAM", "CONFIDE", "CHARM", "BULLETSEED", "GRASSYTERRAIN", "ENDURE"]
-raw_tutor_moves = ["AFTERYOU", "GASTROACID", "GIGADRAIN", "SEEDBOMB", "SNORE", "SYNTHESIS", "WORRYSEED", "GRASSYGLIDE", "MIMIC"]
-compatible_egg_groups = ["Grass"]
+raw_abilities = [
+    "CHLOROPHYLL",
+    "RUNAWAY",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "ABSORB" },
+    { at_level = 1, name = "GROWTH" },
+    { at_level = 1, name = "ACID" },
+    { at_level = 4, name = "TICKLE" },
+    { at_level = 7, name = "LUCKYCHANT" },
+    { at_level = 10, name = "POISONPOWDER" },
+    { at_level = 10, name = "STUNSPORE" },
+    { at_level = 10, name = "SLEEPPOWDER" },
+    { at_level = 13, name = "INGRAIN" },
+    { at_level = 16, name = "BULLETSEED" },
+    { at_level = 19, name = "MUDBOMB" },
+    { at_level = 22, name = "CHARM" },
+    { at_level = 25, name = "NATURALGIFT" },
+    { at_level = 28, name = "NATUREPOWER" },
+    { at_level = 32, name = "SLUDGE" },
+    { at_level = 36, name = "LEECHSEED" },
+    { at_level = 40, name = "MOONLIGHT" },
+    { at_level = 44, name = "TEETERDANCE" },
+    { at_level = 48, name = "SYNTHESIS" },
+    { at_level = 52, name = "MOONBLAST" },
+    { at_level = 56, name = "PETALDANCE" },
+]
+raw_tms = [
+    "CUT",
+    "TOXIC",
+    "FLASH",
+    "VENOSHOCK",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "PROTECT",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "DOUBLETEAM",
+    "REFLECT",
+    "SLUDGEBOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ENERGYBALL",
+    "SWORDSDANCE",
+    "INFESTATION",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "NATUREPOWER",
+    "DAZZLINGGLEAM",
+    "CONFIDE",
+    "CHARM",
+    "BULLETSEED",
+    "GRASSYTERRAIN",
+    "ENDURE",
+]
+raw_tutor_moves = [
+    "AFTERYOU",
+    "GASTROACID",
+    "GIGADRAIN",
+    "GRASSYGLIDE",
+    "MIMIC",
+    "SEEDBOMB",
+    "SNORE",
+    "SYNTHESIS",
+    "WORRYSEED",
+]
+compatible_egg_groups = [
+    "Grass",
+]
 steps_to_hatch = 5355
 height = 0.5
 weight = 5.4
@@ -20,100 +91,24 @@ pokedex_entry = "This Pokémon grows by absorbing moonlight. During the daytime,
 battler_player_y = 30
 battler_enemy_y = 24
 battler_altitude = 0
-form_names = []
-dex_number = 43
-internal_name = "ODDISH"
+raw_egg_moves = [
+    "AFTERYOU",
+    "CHARM",
+    "FLAIL",
+    "INGRAIN",
+    "NATUREPOWER",
+    "RAZORLEAF",
+    "SECRETPOWER",
+    "STRENGTHSAP",
+    "SYNTHESIS",
+    "TEETERDANCE",
+    "TICKLE",
+    "LEECHSEED",
+]
 habitat = "Grassland"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ABSORB"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWTH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ACID"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "TICKLE"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "LUCKYCHANT"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "POISONPOWDER"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "STUNSPORE"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "SLEEPPOWDER"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "INGRAIN"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "BULLETSEED"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "MUDBOMB"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "CHARM"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "NATURALGIFT"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "NATUREPOWER"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "SLUDGE"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "LEECHSEED"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "MOONLIGHT"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "TEETERDANCE"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "SYNTHESIS"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "MOONBLAST"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "PETALDANCE"
-
-
-[[evolutions]]
-into_name = "GLOOM"
-condition = "Level"
-parameter = "21"
+evolutions = [
+    { into_name = "GLOOM", condition = "Level", parameter = "21" },
+]
 
 [base_stats]
 hp = 45

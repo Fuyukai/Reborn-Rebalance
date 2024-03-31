@@ -1,3 +1,4 @@
+dex_number = 327
 name = "Spinda"
 primary_type = "NORMAL"
 secondary_type = "NORMAL"
@@ -6,11 +7,115 @@ growth_rate = "Fast"
 exp_yield = 126
 catch_rate = 255
 caught_happiness = 70
-raw_abilities = ["OWNTEMPO", "TANGLEDFEET"]
-raw_egg_moves = ["ASSIST", "BATONPASS", "DISABLE", "ENCORE", "FAKEOUT", "FAKETEARS", "GUARDSPLIT", "ICYWIND", "PSYCHOCUT", "PSYCHOSHIFT", "RAPIDSPIN", "ROLEPLAY", "SMELLINGSALTS", "SPOTLIGHT", "TRICK", "WATERPULSE", "WISH"]
-raw_tms = ["WORKUP", "CALMMIND", "STRENGTH", "TOXIC", "ROCKSMASH", "FLASH", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "RETURN", "PSYCHIC", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "FLING", "PSYCHUP", "ROCKSLIDE", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "WILDCHARGE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "FAKETEARS", "PSYCHOCUT", "BODYSLAM", "METRONOME", "ENDURE", "BATONPASS", "ENCORE", "RETALIATE", "SWIFT"]
-raw_tutor_moves = ["COVET", "DRAINPUNCH", "FIREPUNCH", "FOCUSPUNCH", "HEADBUTT", "HELPINGHAND", "HYPERVOICE", "ICEPUNCH", "ICYWIND", "LASTRESORT", "LOWKICK", "MUDSLAP", "RECYCLE", "ROLEPLAY", "ROLLOUT", "SHOCKWAVE", "SKILLSWAP", "SNATCH", "SNORE", "STOMPINGTANTRUM", "SUCKERPUNCH", "THUNDERPUNCH", "TRICK", "UPROAR", "WATERPULSE", "ZENHEADBUTT", "MIMIC"]
-compatible_egg_groups = ["Field", "Humanlike"]
+raw_abilities = [
+    "OWNTEMPO",
+    "TANGLEDFEET",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "DISABLE" },
+    { at_level = 1, name = "RAPIDSPIN" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 1, name = "COPYCAT" },
+    { at_level = 7, name = "FEINTATTACK" },
+    { at_level = 10, name = "HYPNOSIS" },
+    { at_level = 13, name = "PSYBEAM" },
+    { at_level = 16, name = "DIZZYPUNCH" },
+    { at_level = 19, name = "SUCKERPUNCH" },
+    { at_level = 22, name = "TEETERDANCE" },
+    { at_level = 25, name = "UPROAR" },
+    { at_level = 28, name = "FLAIL" },
+    { at_level = 31, name = "ZENHEADBUTT" },
+    { at_level = 34, name = "PSYCHUP" },
+    { at_level = 37, name = "FAKEOUT" },
+    { at_level = 40, name = "TRICKROOM" },
+    { at_level = 44, name = "WISH" },
+    { at_level = 48, name = "DRAINPUNCH" },
+    { at_level = 52, name = "DOUBLEEDGE" },
+    { at_level = 56, name = "HYPERVOICE" },
+    { at_level = 60, name = "BOOMBURST" },
+]
+raw_tms = [
+    "WORKUP",
+    "CALMMIND",
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "PROTECT",
+    "RAINDANCE",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "ROCKTOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "FLING",
+    "PSYCHUP",
+    "ROCKSLIDE",
+    "DREAMEATER",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "TRICKROOM",
+    "WILDCHARGE",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "DIG",
+    "FAKETEARS",
+    "PSYCHOCUT",
+    "BODYSLAM",
+    "METRONOME",
+    "ENDURE",
+    "BATONPASS",
+    "ENCORE",
+    "RETALIATE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "COVET",
+    "DRAINPUNCH",
+    "FIREPUNCH",
+    "FOCUSPUNCH",
+    "HEADBUTT",
+    "HELPINGHAND",
+    "HYPERVOICE",
+    "ICEPUNCH",
+    "ICYWIND",
+    "LASTRESORT",
+    "LOWKICK",
+    "MIMIC",
+    "MUDSLAP",
+    "RECYCLE",
+    "ROLEPLAY",
+    "ROLLOUT",
+    "SHOCKWAVE",
+    "SKILLSWAP",
+    "SNATCH",
+    "SNORE",
+    "STOMPINGTANTRUM",
+    "SUCKERPUNCH",
+    "THUNDERPUNCH",
+    "TRICK",
+    "UPROAR",
+    "WATERPULSE",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Field",
+    "Humanlike",
+]
 steps_to_hatch = 4080
 height = 1.1
 weight = 5.0
@@ -20,96 +125,27 @@ pokedex_entry = "It is distinguished by a pattern of spots that is always differ
 battler_player_y = 21
 battler_enemy_y = 21
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 327
-internal_name = "SPINDA"
 raw_hidden_ability = "CONTRARY"
+raw_egg_moves = [
+    "ASSIST",
+    "BATONPASS",
+    "DISABLE",
+    "ENCORE",
+    "FAKEOUT",
+    "FAKETEARS",
+    "GUARDSPLIT",
+    "ICYWIND",
+    "PSYCHOCUT",
+    "PSYCHOSHIFT",
+    "RAPIDSPIN",
+    "ROLEPLAY",
+    "SMELLINGSALTS",
+    "SPOTLIGHT",
+    "TRICK",
+    "WATERPULSE",
+    "WISH",
+]
 habitat = "Mountain"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "DISABLE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "RAPIDSPIN"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "COPYCAT"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "FEINTATTACK"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "HYPNOSIS"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "PSYBEAM"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "DIZZYPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "SUCKERPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "TEETERDANCE"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "UPROAR"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "FLAIL"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "ZENHEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "PSYCHUP"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "FAKEOUT"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "TRICKROOM"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "WISH"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "DRAINPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "DOUBLEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "HYPERVOICE"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "BOOMBURST"
 
 [base_stats]
 hp = 75
@@ -126,5 +162,3 @@ def_ = 0
 spa = 1
 spd = 0
 spe = 0
-
-[wild_items]

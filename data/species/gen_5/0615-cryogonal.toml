@@ -1,3 +1,4 @@
+dex_number = 615
 name = "Cryogonal"
 primary_type = "ICE"
 secondary_type = "ICE"
@@ -6,11 +7,86 @@ growth_rate = "Medium"
 exp_yield = 180
 catch_rate = 25
 caught_happiness = 70
-raw_abilities = ["LEVITATE"]
-raw_egg_moves = []
-raw_tms = ["TOXIC", "HAIL", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "REFLECT", "FACADE", "REST", "ATTRACT", "ROUND", "ACROBATICS", "EXPLOSION", "AURORAVEIL", "FROSTBREATH", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "CONFIDE", "SELFDESTRUCT", "ICICLESPEAR", "AVALANCHE", "ENDURE", "VENOMDRENCH", "ICESPINNER", "SNOWSCAPE", "CHILLINGWATER"]
-raw_tutor_moves = ["BIND", "DEFOG", "ICYWIND", "IRONDEFENSE", "KNOCKOFF", "LASERFOCUS", "MAGICCOAT", "SIGNALBEAM", "SNORE", "WATERPULSE", "TRIPLEAXEL", "MIMIC"]
-compatible_egg_groups = ["Mineral"]
+raw_abilities = [
+    "LEVITATE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "TRIPLEAXEL" },
+    { at_level = 1, name = "ICESHARD" },
+    { at_level = 4, name = "CONFUSERAY" },
+    { at_level = 8, name = "RAPIDSPIN" },
+    { at_level = 15, name = "ICYWIND" },
+    { at_level = 20, name = "HAZE" },
+    { at_level = 20, name = "MIST" },
+    { at_level = 24, name = "ANCIENTPOWER" },
+    { at_level = 28, name = "AURORABEAM" },
+    { at_level = 32, name = "NIGHTSLASH" },
+    { at_level = 32, name = "SLASH" },
+    { at_level = 36, name = "FROSTBREATH" },
+    { at_level = 40, name = "LIGHTSCREEN" },
+    { at_level = 40, name = "REFLECT" },
+    { at_level = 44, name = "RECOVER" },
+    { at_level = 48, name = "ICEBEAM" },
+    { at_level = 52, name = "ACIDARMOR" },
+    { at_level = 56, name = "SOLARBEAM" },
+    { at_level = 60, name = "SHEERCOLD" },
+]
+raw_tms = [
+    "TOXIC",
+    "HAIL",
+    "HIDDENPOWER",
+    "ICEBEAM",
+    "BLIZZARD",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "DOUBLETEAM",
+    "REFLECT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ACROBATICS",
+    "EXPLOSION",
+    "AURORAVEIL",
+    "FROSTBREATH",
+    "POISONJAB",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "FLASHCANNON",
+    "SECRETPOWER",
+    "CONFIDE",
+    "SELFDESTRUCT",
+    "ICICLESPEAR",
+    "AVALANCHE",
+    "ENDURE",
+    "VENOMDRENCH",
+    "ICESPINNER",
+    "SNOWSCAPE",
+    "CHILLINGWATER",
+]
+raw_tutor_moves = [
+    "BIND",
+    "DEFOG",
+    "ICYWIND",
+    "IRONDEFENSE",
+    "KNOCKOFF",
+    "LASERFOCUS",
+    "MAGICCOAT",
+    "MIMIC",
+    "SIGNALBEAM",
+    "SNORE",
+    "TRIPLEAXEL",
+    "WATERPULSE",
+]
+compatible_egg_groups = [
+    "Mineral",
+]
 steps_to_hatch = 6400
 height = 1.1
 weight = 148.0
@@ -20,86 +96,6 @@ pokedex_entry = "They are born in snow clouds. They use chains made of ice cryst
 battler_player_y = 14
 battler_enemy_y = 7
 battler_altitude = 8
-evolutions = []
-form_names = []
-dex_number = 615
-internal_name = "CRYOGONAL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TRIPLEAXEL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ICESHARD"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "CONFUSERAY"
-
-[[raw_level_up_moves]]
-at_level = 8
-name = "RAPIDSPIN"
-
-[[raw_level_up_moves]]
-at_level = 15
-name = "ICYWIND"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "HAZE"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "MIST"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "ANCIENTPOWER"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "AURORABEAM"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "NIGHTSLASH"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "SLASH"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "FROSTBREATH"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "LIGHTSCREEN"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "REFLECT"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "RECOVER"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "ICEBEAM"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "ACIDARMOR"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "SOLARBEAM"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "SHEERCOLD"
 
 [base_stats]
 hp = 80

@@ -1,3 +1,4 @@
+dex_number = 188
 name = "Skiploom"
 primary_type = "GRASS"
 secondary_type = "FLYING"
@@ -6,11 +7,92 @@ growth_rate = "Parabolic"
 exp_yield = 119
 catch_rate = 120
 caught_happiness = 70
-raw_abilities = ["PRANKSTER", "CHLOROPHYLL", "INFILTRATOR"]
-raw_egg_moves = []
-raw_tms = ["TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "REFLECT", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "ACROBATICS", "SWORDSDANCE", "PSYCHUP", "INFESTATION", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "DAZZLINGGLEAM", "CONFIDE", "PAYDAY", "BULLETSEED", "GRASSYTERRAIN", "LEAFSTORM", "AMNESIA", "ENDURE", "BATONPASS", "ENCORE", "TRAILBLAZE"]
-raw_tutor_moves = ["BOUNCE", "GIGADRAIN", "HEADBUTT", "HELPINGHAND", "SEEDBOMB", "SNORE", "SYNTHESIS", "WORRYSEED", "MIMIC"]
-compatible_egg_groups = ["Fairy", "Grass"]
+raw_abilities = [
+    "PRANKSTER",
+    "CHLOROPHYLL",
+    "INFILTRATOR",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "SPLASH" },
+    { at_level = 1, name = "SYNTHESIS" },
+    { at_level = 4, name = "TACKLE" },
+    { at_level = 6, name = "BULLETSEED" },
+    { at_level = 8, name = "GUST" },
+    { at_level = 10, name = "STUNSPORE" },
+    { at_level = 12, name = "MEGADRAIN" },
+    { at_level = 14, name = "WORRYSEED" },
+    { at_level = 16, name = "POISONPOWDER" },
+    { at_level = 16, name = "SLEEPPOWDER" },
+    { at_level = 16, name = "RAGEPOWDER" },
+    { at_level = 18, name = "COTTONSPORE" },
+    { at_level = 20, name = "ACROBATICS" },
+    { at_level = 23, name = "CONFUSION" },
+    { at_level = 25, name = "LEECHSEED" },
+    { at_level = 27, name = "AROMATHERAPY" },
+    { at_level = 29, name = "LEAFTORNADO" },
+    { at_level = 32, name = "AIRCUTTER" },
+    { at_level = 35, name = "COTTONGUARD" },
+    { at_level = 38, name = "HELPINGHAND" },
+    { at_level = 41, name = "ENERGYBALL" },
+    { at_level = 44, name = "AMNESIA" },
+    { at_level = 48, name = "AIRSLASH" },
+    { at_level = 52, name = "TAILWIND" },
+    { at_level = 56, name = "MEMENTO" },
+]
+raw_tms = [
+    "TOXIC",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "PROTECT",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "DOUBLETEAM",
+    "REFLECT",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ENERGYBALL",
+    "ACROBATICS",
+    "SWORDSDANCE",
+    "PSYCHUP",
+    "INFESTATION",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "DAZZLINGGLEAM",
+    "CONFIDE",
+    "PAYDAY",
+    "BULLETSEED",
+    "GRASSYTERRAIN",
+    "LEAFSTORM",
+    "AMNESIA",
+    "ENDURE",
+    "BATONPASS",
+    "ENCORE",
+    "TRAILBLAZE",
+]
+raw_tutor_moves = [
+    "BOUNCE",
+    "GIGADRAIN",
+    "HEADBUTT",
+    "HELPINGHAND",
+    "MIMIC",
+    "SEEDBOMB",
+    "SNORE",
+    "SYNTHESIS",
+    "WORRYSEED",
+]
+compatible_egg_groups = [
+    "Fairy",
+    "Grass",
+]
 steps_to_hatch = 5355
 height = 0.6
 weight = 1.0
@@ -20,117 +102,10 @@ pokedex_entry = "It blossoms when the temperature rises above 64 degrees F. Beca
 battler_player_y = 33
 battler_enemy_y = 26
 battler_altitude = 15
-form_names = []
-dex_number = 188
-internal_name = "SKIPLOOM"
 habitat = "Grassland"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SPLASH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SYNTHESIS"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 6
-name = "BULLETSEED"
-
-[[raw_level_up_moves]]
-at_level = 8
-name = "GUST"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "STUNSPORE"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "MEGADRAIN"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "WORRYSEED"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "POISONPOWDER"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "SLEEPPOWDER"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "RAGEPOWDER"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "COTTONSPORE"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "ACROBATICS"
-
-[[raw_level_up_moves]]
-at_level = 23
-name = "CONFUSION"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "LEECHSEED"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "AROMATHERAPY"
-
-[[raw_level_up_moves]]
-at_level = 29
-name = "LEAFTORNADO"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "AIRCUTTER"
-
-[[raw_level_up_moves]]
-at_level = 35
-name = "COTTONGUARD"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "HELPINGHAND"
-
-[[raw_level_up_moves]]
-at_level = 41
-name = "ENERGYBALL"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "AMNESIA"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "AIRSLASH"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "TAILWIND"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "MEMENTO"
-
-[[evolutions]]
-into_name = "JUMPLUFF"
-condition = "Level"
-parameter = "27"
-
-
+evolutions = [
+    { into_name = "JUMPLUFF", condition = "Level", parameter = "27" },
+]
 
 [base_stats]
 hp = 55
@@ -147,5 +122,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 2
-
-[wild_items]

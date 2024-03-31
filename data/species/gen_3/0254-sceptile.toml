@@ -1,3 +1,4 @@
+dex_number = 254
 name = "Sceptile"
 primary_type = "GRASS"
 secondary_type = "DRAGON"
@@ -6,11 +7,137 @@ growth_rate = "Parabolic"
 exp_yield = 239
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["OVERGROW", "SOLARPOWER", "UNBURDEN"]
-raw_egg_moves = []
-raw_tms = ["WORKUP", "CUT", "DRAGONCLAW", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "FLASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "LOWSWEEP", "ROUND", "FOCUSBLAST", "ENERGYBALL", "FALSESWIPE", "FLING", "BRUTALSWING", "ACROBATICS", "GIGAIMPACT", "SWORDSDANCE", "BULLDOZE", "ROCKSLIDE", "XSCISSOR", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "MAGICALLEAF", "SOLARBLADE", "DIG", "SCREECH", "BULLETSEED", "CRUNCH", "CROSSPOISON", "LEAFBLADE", "GRASSYTERRAIN", "BREAKINGSWIPE", "BODYSLAM", "HURRICANE", "LEAFSTORM", "AGILITY", "ENDURE", "DRAGONDANCE", "SWIFT"]
-raw_tutor_moves = ["DRAGONPULSE", "DRAINPUNCH", "DUALCHOP", "ENDEAVOR", "FOCUSPUNCH", "FRENZYPLANT", "FURYCUTTER", "GIGADRAIN", "GRASSPLEDGE", "HEADBUTT", "IRONTAIL", "LASERFOCUS", "LOWKICK", "MUDSLAP", "OUTRAGE", "SEEDBOMB", "SNORE", "SYNTHESIS", "THROATCHOP", "THUNDERPUNCH", "WORRYSEED", "GRASSYGLIDE", "SCALESHOT", "MIMIC", "DRACOMETEOR", "EARTHPOWER"]
-compatible_egg_groups = ["Monster", "Dragon"]
+raw_abilities = [
+    "OVERGROW",
+    "SOLARPOWER",
+    "UNBURDEN",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "LEER" },
+    { at_level = 5, name = "ABSORB" },
+    { at_level = 7, name = "QUICKATTACK" },
+    { at_level = 10, name = "PURSUIT" },
+    { at_level = 13, name = "MAGICALLEAF" },
+    { at_level = 16, name = "FURYCUTTER" },
+    { at_level = 17, name = "AGILITY" },
+    { at_level = 20, name = "DOUBLEKICK" },
+    { at_level = 22, name = "MEGADRAIN" },
+    { at_level = 25, name = "ASSURANCE" },
+    { at_level = 28, name = "DRAGONTAIL" },
+    { at_level = 31, name = "GRASSWHISTLE" },
+    { at_level = 34, name = "SLASH" },
+    { at_level = 34, name = "NIGHTSLASH" },
+    { at_level = 36, name = "BREAKINGSWIPE" },
+    { at_level = 37, name = "CRUSHCLAW" },
+    { at_level = 40, name = "SCREECH" },
+    { at_level = 43, name = "LEECHSEED" },
+    { at_level = 46, name = "SYNTHESIS" },
+    { at_level = 50, name = "LEAFBLADE" },
+    { at_level = 54, name = "QUICKGUARD" },
+    { at_level = 58, name = "LEAFSTORM" },
+    { at_level = 62, name = "CROSSPOISON" },
+    { at_level = 66, name = "OUTRAGE" },
+    { at_level = 70, name = "WOODHAMMER" },
+]
+raw_tms = [
+    "WORKUP",
+    "CUT",
+    "DRAGONCLAW",
+    "STRENGTH",
+    "ROAR",
+    "TOXIC",
+    "ROCKSMASH",
+    "FLASH",
+    "ROCKCLIMB",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "PROTECT",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "EARTHQUAKE",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "ROCKTOMB",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "LOWSWEEP",
+    "ROUND",
+    "FOCUSBLAST",
+    "ENERGYBALL",
+    "FALSESWIPE",
+    "FLING",
+    "BRUTALSWING",
+    "ACROBATICS",
+    "GIGAIMPACT",
+    "SWORDSDANCE",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "XSCISSOR",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "NATUREPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "MAGICALLEAF",
+    "SOLARBLADE",
+    "DIG",
+    "SCREECH",
+    "BULLETSEED",
+    "CRUNCH",
+    "CROSSPOISON",
+    "LEAFBLADE",
+    "GRASSYTERRAIN",
+    "BREAKINGSWIPE",
+    "BODYSLAM",
+    "HURRICANE",
+    "LEAFSTORM",
+    "AGILITY",
+    "ENDURE",
+    "DRAGONDANCE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "DRACOMETEOR",
+    "DRAGONPULSE",
+    "DRAINPUNCH",
+    "DUALCHOP",
+    "EARTHPOWER",
+    "ENDEAVOR",
+    "FOCUSPUNCH",
+    "FRENZYPLANT",
+    "FURYCUTTER",
+    "GIGADRAIN",
+    "GRASSPLEDGE",
+    "GRASSYGLIDE",
+    "HEADBUTT",
+    "IRONTAIL",
+    "LASERFOCUS",
+    "LOWKICK",
+    "MIMIC",
+    "MUDSLAP",
+    "OUTRAGE",
+    "SCALESHOT",
+    "SEEDBOMB",
+    "SNORE",
+    "SYNTHESIS",
+    "THROATCHOP",
+    "THUNDERPUNCH",
+    "WORRYSEED",
+]
+compatible_egg_groups = [
+    "Monster",
+    "Dragon",
+]
 steps_to_hatch = 5355
 height = 1.7
 weight = 52.2
@@ -20,111 +147,7 @@ pokedex_entry = "In the jungle, its power is without equal. This Pokémon carefu
 battler_player_y = 9
 battler_enemy_y = 9
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 254
-internal_name = "SCEPTILE"
 habitat = "Forest"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 5
-name = "ABSORB"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "QUICKATTACK"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "PURSUIT"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "MAGICALLEAF"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "FURYCUTTER"
-
-[[raw_level_up_moves]]
-at_level = 17
-name = "AGILITY"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "DOUBLEKICK"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "MEGADRAIN"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "ASSURANCE"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "DRAGONTAIL"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "GRASSWHISTLE"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "SLASH"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "NIGHTSLASH"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "BREAKINGSWIPE"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "CRUSHCLAW"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "SCREECH"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "LEECHSEED"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "SYNTHESIS"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "LEAFBLADE"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "QUICKGUARD"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "LEAFSTORM"
-
-[[raw_level_up_moves]]
-at_level = 62
-name = "CROSSPOISON"
-
-[[raw_level_up_moves]]
-at_level = 66
-name = "OUTRAGE"
-
-[[raw_level_up_moves]]
-at_level = 70
-name = "WOODHAMMER"
 
 [base_stats]
 hp = 70
@@ -141,5 +164,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 3
-
-[wild_items]

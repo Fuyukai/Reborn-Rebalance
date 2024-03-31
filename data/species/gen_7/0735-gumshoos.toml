@@ -1,3 +1,4 @@
+dex_number = 735
 name = "Gumshoos"
 primary_type = "NORMAL"
 secondary_type = "NORMAL"
@@ -6,11 +7,96 @@ growth_rate = "Medium"
 exp_yield = 146
 catch_rate = 127
 caught_happiness = 70
-raw_abilities = ["STAKEOUT", "STRONGJAW"]
-raw_egg_moves = []
-raw_tms = ["WORKUP", "ROAR", "TOXIC", "HIDDENPOWER", "TAUNT", "PROTECT", "FRUSTRATION", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "SANDSTORM", "ROCKTOMB", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "FLING", "PAYBACK", "BULLDOZE", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "SCARYFACE", "REVENGE", "THUNDERFANG", "ICEFANG", "FIREFANG", "CRUNCH", "ENDURE", "TRAILBLAZE", "CHILLINGWATER"]
-raw_tutor_moves = ["BLOCK", "DUALCHOP", "ENDEAVOR", "FIREPUNCH", "ICEPUNCH", "IRONHEAD", "IRONTAIL", "LASTRESORT", "SHOCKWAVE", "SNORE", "STOMPINGTANTRUM", "SUPERFANG", "THUNDERPUNCH", "UPROAR", "ZENHEADBUTT", "MIMIC", "KNOCKOFF"]
-compatible_egg_groups = ["Field"]
+raw_abilities = [
+    "STAKEOUT",
+    "STRONGJAW",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "THUNDERFANG" },
+    { at_level = 1, name = "FIREFANG" },
+    { at_level = 1, name = "ICEFANG" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 1, name = "LEER" },
+    { at_level = 1, name = "PURSUIT" },
+    { at_level = 1, name = "SANDATTACK" },
+    { at_level = 3, name = "LEER" },
+    { at_level = 7, name = "PURSUIT" },
+    { at_level = 10, name = "SANDATTACK" },
+    { at_level = 13, name = "ODORSLEUTH" },
+    { at_level = 16, name = "BIDE" },
+    { at_level = 19, name = "BITE" },
+    { at_level = 23, name = "MUDSLAP" },
+    { at_level = 27, name = "SUPERFANG" },
+    { at_level = 31, name = "TAKEDOWN" },
+    { at_level = 35, name = "SCARYFACE" },
+    { at_level = 39, name = "CRUNCH" },
+    { at_level = 43, name = "HYPERFANG" },
+    { at_level = 47, name = "YAWN" },
+    { at_level = 51, name = "THRASH" },
+    { at_level = 55, name = "REST" },
+    { at_level = 58, name = "PSYCHICFANGS" },
+]
+raw_tms = [
+    "WORKUP",
+    "ROAR",
+    "TOXIC",
+    "HIDDENPOWER",
+    "TAUNT",
+    "PROTECT",
+    "FRUSTRATION",
+    "EARTHQUAKE",
+    "RETURN",
+    "DOUBLETEAM",
+    "SANDSTORM",
+    "ROCKTOMB",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "ECHOEDVOICE",
+    "FLING",
+    "PAYBACK",
+    "BULLDOZE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "SCARYFACE",
+    "REVENGE",
+    "THUNDERFANG",
+    "ICEFANG",
+    "FIREFANG",
+    "CRUNCH",
+    "ENDURE",
+    "TRAILBLAZE",
+    "CHILLINGWATER",
+]
+raw_tutor_moves = [
+    "BLOCK",
+    "DUALCHOP",
+    "ENDEAVOR",
+    "FIREPUNCH",
+    "ICEPUNCH",
+    "IRONHEAD",
+    "IRONTAIL",
+    "KNOCKOFF",
+    "LASTRESORT",
+    "MIMIC",
+    "SHOCKWAVE",
+    "SNORE",
+    "STOMPINGTANTRUM",
+    "SUPERFANG",
+    "THUNDERPUNCH",
+    "UPROAR",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Field",
+]
 steps_to_hatch = 3840
 height = 0.7
 weight = 14.2
@@ -20,103 +106,7 @@ pokedex_entry = "When it finds a trace of its prey, it patiently stakes out the 
 battler_player_y = 12
 battler_enemy_y = 17
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 735
-internal_name = "GUMSHOOS"
 raw_hidden_ability = "ADAPTABILITY"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "THUNDERFANG"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FIREFANG"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ICEFANG"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "PURSUIT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SANDATTACK"
-
-[[raw_level_up_moves]]
-at_level = 3
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "PURSUIT"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "SANDATTACK"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "ODORSLEUTH"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "BIDE"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 23
-name = "MUDSLAP"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "SUPERFANG"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "TAKEDOWN"
-
-[[raw_level_up_moves]]
-at_level = 35
-name = "SCARYFACE"
-
-[[raw_level_up_moves]]
-at_level = 39
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "HYPERFANG"
-
-[[raw_level_up_moves]]
-at_level = 47
-name = "YAWN"
-
-[[raw_level_up_moves]]
-at_level = 51
-name = "THRASH"
-
-[[raw_level_up_moves]]
-at_level = 55
-name = "REST"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "PSYCHICFANGS"
 
 [base_stats]
 hp = 88

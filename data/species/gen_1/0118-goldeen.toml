@@ -1,3 +1,4 @@
+dex_number = 118
 name = "Goldeen"
 primary_type = "WATER"
 secondary_type = "WATER"
@@ -6,11 +7,91 @@ growth_rate = "Medium"
 exp_yield = 64
 catch_rate = 225
 caught_happiness = 70
-raw_abilities = ["SWIFTSWIM", "LIGHTNINGROD"]
-raw_egg_moves = ["AQUATAIL", "BODYSLAM", "HAZE", "HYDROPUMP", "MUDSHOT", "MUDSPORT", "MUDSLAP", "PSYBEAM", "SIGNALBEAM", "SKULLBASH", "SLEEPTALK", "ACUPRESSURE"]
-raw_tms = ["SURF", "WATERFALL", "TOXIC", "DIVE", "HAIL", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "ROUND", "SCALD", "SMARTSTRIKE", "SWORDSDANCE", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "WHIRLPOOL", "MUDSHOT", "BODYSLAM", "HYDROPUMP", "MEGAHORN", "AGILITY", "ENDURE", "MUDDYWATER", "SWIFT"]
-raw_tutor_moves = ["AQUATAIL", "BOUNCE", "DRILLRUN", "FURYCUTTER", "ICYWIND", "KNOCKOFF", "MUDSLAP", "SIGNALBEAM", "SNORE", "THROATCHOP", "WATERPULSE", "FLIPTURN", "SCALESHOT", "MIMIC"]
-compatible_egg_groups = ["Water2"]
+raw_abilities = [
+    "SWIFTSWIM",
+    "LIGHTNINGROD",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "PECK" },
+    { at_level = 1, name = "MUDSLAP" },
+    { at_level = 1, name = "TAILWHIP" },
+    { at_level = 4, name = "WHIRLPOOL" },
+    { at_level = 7, name = "FURYATTACK" },
+    { at_level = 10, name = "FURYCUTTER" },
+    { at_level = 13, name = "WATERPULSE" },
+    { at_level = 16, name = "AQUARING" },
+    { at_level = 19, name = "HORNATTACK" },
+    { at_level = 22, name = "HAZE" },
+    { at_level = 24, name = "MUDSHOT" },
+    { at_level = 26, name = "PSYBEAM" },
+    { at_level = 28, name = "BUBBLEBEAM" },
+    { at_level = 30, name = "AGILITY" },
+    { at_level = 32, name = "SOAK" },
+    { at_level = 34, name = "MUDDYWATER" },
+    { at_level = 36, name = "ACUPRESSURE" },
+    { at_level = 39, name = "AQUATAIL" },
+    { at_level = 42, name = "BODYSLAM" },
+    { at_level = 45, name = "AQUAJET" },
+    { at_level = 48, name = "SMARTSTRIKE" },
+    { at_level = 52, name = "MEGAHORN" },
+    { at_level = 56, name = "HYDROPUMP" },
+]
+raw_tms = [
+    "SURF",
+    "WATERFALL",
+    "TOXIC",
+    "DIVE",
+    "HAIL",
+    "HIDDENPOWER",
+    "ICEBEAM",
+    "BLIZZARD",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "RETURN",
+    "DOUBLETEAM",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "SCALD",
+    "SMARTSTRIKE",
+    "SWORDSDANCE",
+    "POISONJAB",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "WHIRLPOOL",
+    "MUDSHOT",
+    "BODYSLAM",
+    "HYDROPUMP",
+    "MEGAHORN",
+    "AGILITY",
+    "ENDURE",
+    "MUDDYWATER",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AQUATAIL",
+    "BOUNCE",
+    "DRILLRUN",
+    "FLIPTURN",
+    "FURYCUTTER",
+    "ICYWIND",
+    "KNOCKOFF",
+    "MIMIC",
+    "MUDSLAP",
+    "SCALESHOT",
+    "SIGNALBEAM",
+    "SNORE",
+    "THROATCHOP",
+    "WATERPULSE",
+]
+compatible_egg_groups = [
+    "Water2",
+]
 steps_to_hatch = 5355
 height = 0.6
 weight = 15.0
@@ -20,111 +101,24 @@ pokedex_entry = "In the springtime, schools of Goldeen can be seen swimming up f
 battler_player_y = 26
 battler_enemy_y = 22
 battler_altitude = 11
-form_names = []
-dex_number = 118
-internal_name = "GOLDEEN"
+raw_egg_moves = [
+    "AQUATAIL",
+    "BODYSLAM",
+    "HAZE",
+    "HYDROPUMP",
+    "MUDSHOT",
+    "MUDSPORT",
+    "MUDSLAP",
+    "PSYBEAM",
+    "SIGNALBEAM",
+    "SKULLBASH",
+    "SLEEPTALK",
+    "ACUPRESSURE",
+]
 habitat = "WatersEdge"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "PECK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "MUDSLAP"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TAILWHIP"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "WHIRLPOOL"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "FURYATTACK"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "FURYCUTTER"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "WATERPULSE"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "AQUARING"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "HORNATTACK"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "HAZE"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "MUDSHOT"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "PSYBEAM"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "BUBBLEBEAM"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "AGILITY"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "SOAK"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "MUDDYWATER"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "ACUPRESSURE"
-
-[[raw_level_up_moves]]
-at_level = 39
-name = "AQUATAIL"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "AQUAJET"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "SMARTSTRIKE"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "MEGAHORN"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "HYDROPUMP"
-
-[[evolutions]]
-into_name = "SEAKING"
-condition = "Level"
-parameter = "33"
-
-
-
-
+evolutions = [
+    { into_name = "SEAKING", condition = "Level", parameter = "33" },
+]
 
 [base_stats]
 hp = 45

@@ -1,61 +1,21 @@
-chances = [30, 20, 20]
+chances = [
+    30,
+    20,
+    20,
+]
 
-[[encounters.Land]]
-name = "TRANQUILL"
-minimum_level = 15
-maximum_level = 19
-
-[[encounters.Land]]
-name = "BELLSPROUT"
-minimum_level = 16
-maximum_level = 20
-
-[[encounters.Land]]
-name = "PIDOVE"
-minimum_level = 16
-maximum_level = 19
-
-[[encounters.Land]]
-name = "PIDOVE"
-minimum_level = 16
-maximum_level = 18
-
-[[encounters.Land]]
-name = "SPEAROW"
-minimum_level = 14
-maximum_level = 17
-
-[[encounters.Land]]
-name = "PAWMI"
-minimum_level = 16
-maximum_level = 19
-
-[[encounters.Land]]
-name = "TRANQUILL"
-minimum_level = 17
-maximum_level = 21
-
-[[encounters.Land]]
-name = "BELLSPROUT"
-minimum_level = 15
-maximum_level = 18
-
-[[encounters.Land]]
-name = "VENONAT"
-minimum_level = 16
-maximum_level = 20
-
-[[encounters.Land]]
-name = "VENONAT"
-minimum_level = 15
-maximum_level = 20
-
-[[encounters.Land]]
-name = "PAWMI"
-minimum_level = 20
-maximum_level = 20
-
-[[encounters.Land]]
-name = "VENONAT"
-minimum_level = 20
-maximum_level = 20
+[encounters]
+Land = [
+    { name = "TRANQUILL", minimum_level = 15, maximum_level = 19 },
+    { name = "BELLSPROUT", minimum_level = 16, maximum_level = 20 },
+    { name = "PIDOVE", minimum_level = 16, maximum_level = 19 },
+    { name = "PIDOVE", minimum_level = 16, maximum_level = 18 },
+    { name = "SPEAROW", minimum_level = 14, maximum_level = 17 },
+    { name = "PAWMI", minimum_level = 16, maximum_level = 19 },
+    { name = "TRANQUILL", minimum_level = 17, maximum_level = 21 },
+    { name = "BELLSPROUT", minimum_level = 15, maximum_level = 18 },
+    { name = "VENONAT", minimum_level = 16, maximum_level = 20 },
+    { name = "VENONAT", minimum_level = 15, maximum_level = 20 },
+    { name = "PAWMI", minimum_level = 20, maximum_level = 20 },
+    { name = "VENONAT", minimum_level = 20, maximum_level = 20 },
+]

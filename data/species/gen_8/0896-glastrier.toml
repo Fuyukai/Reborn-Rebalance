@@ -1,3 +1,4 @@
+dex_number = 896
 name = "Glastrier"
 primary_type = "ICE"
 secondary_type = "ICE"
@@ -6,11 +7,74 @@ growth_rate = "Slow"
 exp_yield = 290
 catch_rate = 3
 caught_happiness = 35
-raw_abilities = ["CHILLINGNEIGH"]
-raw_egg_moves = []
-raw_tms = ["HAIL", "TAUNT", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "FACADE", "REST", "ROUND", "PAYBACK", "SMARTSTRIKE", "GIGAIMPACT", "SWORDSDANCE", "BULLDOZE", "SUBSTITUTE", "SECRETPOWER", "SNARL", "SCARYFACE", "ICICLESPEAR", "MUDSHOT", "ASSURANCE", "AVALANCHE", "CRUNCH", "BODYSLAM", "MEGAHORN", "CLOSECOMBAT", "ENDURE", "HEAVYSLAM", "HIGHHORSEPOWER", "BODYPRESS", "SNOWSCAPE", "TRAILBLAZE"]
-raw_tutor_moves = ["ICYWIND", "IRONDEFENSE", "OUTRAGE", "SNORE", "STOMPINGTANTRUM", "SUPERPOWER", "THROATCHOP", "UPROAR", "LASHOUT", "MIMIC"]
-compatible_egg_groups = ["Undiscovered"]
+raw_abilities = [
+    "CHILLINGNEIGH",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 1, name = "TAILWHIP" },
+    { at_level = 6, name = "DOUBLEKICK" },
+    { at_level = 12, name = "AVALANCHE" },
+    { at_level = 18, name = "STOMP" },
+    { at_level = 24, name = "TORMENT" },
+    { at_level = 30, name = "MIST" },
+    { at_level = 36, name = "ICICLECRASH" },
+    { at_level = 42, name = "TAKEDOWN" },
+    { at_level = 48, name = "IRONDEFENSE" },
+    { at_level = 54, name = "THRASH" },
+    { at_level = 60, name = "TAUNT" },
+    { at_level = 66, name = "DOUBLEEDGE" },
+    { at_level = 72, name = "SWORDSDANCE" },
+]
+raw_tms = [
+    "HAIL",
+    "TAUNT",
+    "ICEBEAM",
+    "BLIZZARD",
+    "HYPERBEAM",
+    "PROTECT",
+    "FACADE",
+    "REST",
+    "ROUND",
+    "PAYBACK",
+    "SMARTSTRIKE",
+    "GIGAIMPACT",
+    "SWORDSDANCE",
+    "BULLDOZE",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "SNARL",
+    "SCARYFACE",
+    "ICICLESPEAR",
+    "MUDSHOT",
+    "ASSURANCE",
+    "AVALANCHE",
+    "CRUNCH",
+    "BODYSLAM",
+    "MEGAHORN",
+    "CLOSECOMBAT",
+    "ENDURE",
+    "HEAVYSLAM",
+    "HIGHHORSEPOWER",
+    "BODYPRESS",
+    "SNOWSCAPE",
+    "TRAILBLAZE",
+]
+raw_tutor_moves = [
+    "ICYWIND",
+    "IRONDEFENSE",
+    "LASHOUT",
+    "MIMIC",
+    "OUTRAGE",
+    "SNORE",
+    "STOMPINGTANTRUM",
+    "SUPERPOWER",
+    "THROATCHOP",
+    "UPROAR",
+]
+compatible_egg_groups = [
+    "Undiscovered",
+]
 steps_to_hatch = 31096
 height = 2.2
 weight = 800.0
@@ -20,67 +84,7 @@ pokedex_entry = "Glastrier has tremendous physical strength, and the mask of ice
 battler_player_y = 14
 battler_enemy_y = 18
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 896
-internal_name = "GLASTRIER"
 shape = 0
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TAILWHIP"
-
-[[raw_level_up_moves]]
-at_level = 6
-name = "DOUBLEKICK"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "AVALANCHE"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "STOMP"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "TORMENT"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "MIST"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "ICICLECRASH"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "TAKEDOWN"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "IRONDEFENSE"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "THRASH"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "TAUNT"
-
-[[raw_level_up_moves]]
-at_level = 66
-name = "DOUBLEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 72
-name = "SWORDSDANCE"
 
 [base_stats]
 hp = 100
@@ -97,5 +101,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

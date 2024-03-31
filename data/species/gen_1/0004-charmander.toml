@@ -1,3 +1,4 @@
+dex_number = 4
 name = "Charmander"
 primary_type = "FIRE"
 secondary_type = "FIRE"
@@ -6,11 +7,104 @@ growth_rate = "Parabolic"
 exp_yield = 62
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["DEFIANT", "BLAZE", "SOLARPOWER"]
-raw_egg_moves = ["AIRCUTTER", "ANCIENTPOWER", "BEATUP", "BELLYDRUM", "BITE", "COUNTER", "CRUNCH", "DRAGONDANCE", "DRAGONPULSE", "DRAGONRUSH", "FLAREBLITZ", "FOCUSPUNCH", "METALCLAW", "OUTRAGE", "DRAGONTAIL"]
-raw_tms = ["WORKUP", "CUT", "DRAGONCLAW", "STRENGTH", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "FRUSTRATION", "RETURN", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "FIREBLAST", "ROCKTOMB", "AERIALACE", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "OVERHEAT", "FALSESWIPE", "FLING", "WILLOWISP", "ACROBATICS", "SHADOWCLAW", "SWORDSDANCE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "FIRESPIN", "DIG", "SCARYFACE", "BEATUP", "WEATHERBALL", "FIREFANG", "CRUNCH", "BODYSLAM", "FLAREBLITZ", "ENDURE", "DRAGONDANCE", "SWIFT"]
-raw_tutor_moves = ["ANCIENTPOWER", "DRAGONPULSE", "FIREPLEDGE", "FIREPUNCH", "FOCUSPUNCH", "FURYCUTTER", "HEADBUTT", "HEATWAVE", "HELPINGHAND", "IRONTAIL", "MUDSLAP", "OUTRAGE", "SNORE", "THUNDERPUNCH", "MIMIC", "CELEBRATE"]
-compatible_egg_groups = ["Monster", "Dragon"]
+raw_abilities = [
+    "DEFIANT",
+    "BLAZE",
+    "SOLARPOWER",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "SCRATCH" },
+    { at_level = 1, name = "GROWL" },
+    { at_level = 5, name = "EMBER" },
+    { at_level = 7, name = "TWISTER" },
+    { at_level = 10, name = "SMOKESCREEN" },
+    { at_level = 17, name = "QUICKATTACK" },
+    { at_level = 19, name = "DRAGONBREATH" },
+    { at_level = 22, name = "FLAMEBURST" },
+    { at_level = 25, name = "METALCLAW" },
+    { at_level = 28, name = "SCARYFACE" },
+    { at_level = 31, name = "BODYSLAM" },
+    { at_level = 34, name = "CRUNCH" },
+    { at_level = 37, name = "FLAMETHROWER" },
+    { at_level = 43, name = "FIRESPIN" },
+    { at_level = 46, name = "INFERNO" },
+]
+raw_tms = [
+    "WORKUP",
+    "CUT",
+    "DRAGONCLAW",
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "PROTECT",
+    "FRUSTRATION",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "REFLECT",
+    "FLAMETHROWER",
+    "FIREBLAST",
+    "ROCKTOMB",
+    "AERIALACE",
+    "FACADE",
+    "FLAMECHARGE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ECHOEDVOICE",
+    "OVERHEAT",
+    "FALSESWIPE",
+    "FLING",
+    "WILLOWISP",
+    "ACROBATICS",
+    "SHADOWCLAW",
+    "SWORDSDANCE",
+    "ROCKSLIDE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "FIRESPIN",
+    "DIG",
+    "SCARYFACE",
+    "BEATUP",
+    "WEATHERBALL",
+    "FIREFANG",
+    "CRUNCH",
+    "BODYSLAM",
+    "FLAREBLITZ",
+    "ENDURE",
+    "DRAGONDANCE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "ANCIENTPOWER",
+    "CELEBRATE",
+    "DRAGONPULSE",
+    "FIREPLEDGE",
+    "FIREPUNCH",
+    "FOCUSPUNCH",
+    "FURYCUTTER",
+    "HEADBUTT",
+    "HEATWAVE",
+    "HELPINGHAND",
+    "IRONTAIL",
+    "MIMIC",
+    "MUDSLAP",
+    "OUTRAGE",
+    "SNORE",
+    "THUNDERPUNCH",
+]
+compatible_egg_groups = [
+    "Monster",
+    "Dragon",
+]
 steps_to_hatch = 5355
 height = 0.6
 weight = 8.5
@@ -20,75 +114,27 @@ pokedex_entry = "The flame that burns at the tip of its tail is an indication of
 battler_player_y = 25
 battler_enemy_y = 21
 battler_altitude = 0
-form_names = []
-dex_number = 4
-internal_name = "CHARMANDER"
+raw_egg_moves = [
+    "AIRCUTTER",
+    "ANCIENTPOWER",
+    "BEATUP",
+    "BELLYDRUM",
+    "BITE",
+    "COUNTER",
+    "CRUNCH",
+    "DRAGONDANCE",
+    "DRAGONPULSE",
+    "DRAGONRUSH",
+    "FLAREBLITZ",
+    "FOCUSPUNCH",
+    "METALCLAW",
+    "OUTRAGE",
+    "DRAGONTAIL",
+]
 habitat = "Mountain"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SCRATCH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWL"
-
-[[raw_level_up_moves]]
-at_level = 5
-name = "EMBER"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "TWISTER"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "SMOKESCREEN"
-
-[[raw_level_up_moves]]
-at_level = 17
-name = "QUICKATTACK"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "DRAGONBREATH"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "FLAMEBURST"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "METALCLAW"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "SCARYFACE"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "FLAMETHROWER"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "FIRESPIN"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "INFERNO"
-
-[[evolutions]]
-into_name = "CHARMELEON"
-condition = "Level"
-parameter = "16"
+evolutions = [
+    { into_name = "CHARMELEON", condition = "Level", parameter = "16" },
+]
 
 [base_stats]
 hp = 39
@@ -105,5 +151,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 1
-
-[wild_items]

@@ -1,3 +1,4 @@
+dex_number = 560
 name = "Scrafty"
 primary_type = "DARK"
 secondary_type = "FIGHTING"
@@ -6,11 +7,124 @@ growth_rate = "Medium"
 exp_yield = 171
 catch_rate = 90
 caught_happiness = 70
-raw_abilities = ["SHEDSKIN", "MOXIE"]
-raw_egg_moves = []
-raw_tms = ["WORKUP", "DRAGONCLAW", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "BULKUP", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "SMACKDOWN", "RETURN", "BRICKBREAK", "DOUBLETEAM", "SLUDGEBOMB", "ROCKTOMB", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "LOWSWEEP", "ROUND", "FOCUSBLAST", "FLING", "PAYBACK", "GIGAIMPACT", "STONEEDGE", "ROCKSLIDE", "DRAGONTAIL", "POISONJAB", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "SNARL", "DARKPULSE", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "SCARYFACE", "BEATUP", "REVENGE", "FAKETEARS", "ASSURANCE", "CRUNCH", "CLOSECOMBAT", "AMNESIA", "ENDURE", "DRAGONDANCE", "RETALIATE"]
-raw_tutor_moves = ["DRAGONPULSE", "DRAINPUNCH", "DUALCHOP", "FIREPUNCH", "FOCUSPUNCH", "FOULPLAY", "ICEPUNCH", "IRONDEFENSE", "IRONHEAD", "IRONTAIL", "KNOCKOFF", "LOWKICK", "OUTRAGE", "SNATCH", "SNORE", "SPITE", "SUPERFANG", "THROATCHOP", "THUNDERPUNCH", "ZENHEADBUTT", "COACHING", "LASHOUT", "MIMIC"]
-compatible_egg_groups = ["Field", "Dragon"]
+raw_abilities = [
+    "SHEDSKIN",
+    "MOXIE",
+]
+raw_level_up_moves = [
+    { at_level = 0, name = "REVENGE" },
+    { at_level = 1, name = "HEADBUTT" },
+    { at_level = 1, name = "LEER" },
+    { at_level = 1, name = "SANDATTACK" },
+    { at_level = 4, name = "BEATUP" },
+    { at_level = 7, name = "QUICKGUARD" },
+    { at_level = 10, name = "ACIDSPRAY" },
+    { at_level = 13, name = "FEINTATTACK" },
+    { at_level = 16, name = "BRICKBREAK" },
+    { at_level = 19, name = "DETECT" },
+    { at_level = 22, name = "AMNESIA" },
+    { at_level = 25, name = "FAKEOUT" },
+    { at_level = 28, name = "PAYBACK" },
+    { at_level = 34, name = "CHIPAWAY" },
+    { at_level = 38, name = "DRAINPUNCH" },
+    { at_level = 42, name = "ASSURANCE" },
+    { at_level = 46, name = "ZENHEADBUTT" },
+    { at_level = 50, name = "CRUNCH" },
+    { at_level = 54, name = "HIJUMPKICK" },
+    { at_level = 58, name = "DRAGONDANCE" },
+    { at_level = 62, name = "FOCUSPUNCH" },
+    { at_level = 66, name = "HEADSMASH" },
+]
+raw_tms = [
+    "WORKUP",
+    "DRAGONCLAW",
+    "STRENGTH",
+    "ROAR",
+    "TOXIC",
+    "ROCKSMASH",
+    "BULKUP",
+    "ROCKCLIMB",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "SMACKDOWN",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "SLUDGEBOMB",
+    "ROCKTOMB",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "LOWSWEEP",
+    "ROUND",
+    "FOCUSBLAST",
+    "FLING",
+    "PAYBACK",
+    "GIGAIMPACT",
+    "STONEEDGE",
+    "ROCKSLIDE",
+    "DRAGONTAIL",
+    "POISONJAB",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "SNARL",
+    "DARKPULSE",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "DIG",
+    "SCARYFACE",
+    "BEATUP",
+    "REVENGE",
+    "FAKETEARS",
+    "ASSURANCE",
+    "CRUNCH",
+    "CLOSECOMBAT",
+    "AMNESIA",
+    "ENDURE",
+    "DRAGONDANCE",
+    "RETALIATE",
+]
+raw_tutor_moves = [
+    "COACHING",
+    "DRAGONPULSE",
+    "DRAINPUNCH",
+    "DUALCHOP",
+    "FIREPUNCH",
+    "FOCUSPUNCH",
+    "FOULPLAY",
+    "ICEPUNCH",
+    "IRONDEFENSE",
+    "IRONHEAD",
+    "IRONTAIL",
+    "KNOCKOFF",
+    "LASHOUT",
+    "LOWKICK",
+    "MIMIC",
+    "OUTRAGE",
+    "SNATCH",
+    "SNORE",
+    "SPITE",
+    "SUPERFANG",
+    "THROATCHOP",
+    "THUNDERPUNCH",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Field",
+    "Dragon",
+]
 steps_to_hatch = 3840
 height = 1.1
 weight = 30.0
@@ -20,99 +134,7 @@ pokedex_entry = "It can smash concrete blocks with its kicking attacks. The one 
 battler_player_y = 21
 battler_enemy_y = 21
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 560
-internal_name = "SCRAFTY"
 raw_hidden_ability = "INTIMIDATE"
-
-[[raw_level_up_moves]]
-at_level = 0
-name = "REVENGE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SANDATTACK"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "BEATUP"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "QUICKGUARD"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "ACIDSPRAY"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "FEINTATTACK"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "BRICKBREAK"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "DETECT"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "AMNESIA"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "FAKEOUT"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "PAYBACK"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "CHIPAWAY"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "DRAINPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "ASSURANCE"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "ZENHEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "HIJUMPKICK"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "DRAGONDANCE"
-
-[[raw_level_up_moves]]
-at_level = 62
-name = "FOCUSPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 66
-name = "HEADSMASH"
 
 [base_stats]
 hp = 65

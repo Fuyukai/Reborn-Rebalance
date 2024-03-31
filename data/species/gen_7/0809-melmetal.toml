@@ -1,3 +1,4 @@
+dex_number = 809
 name = "Melmetal"
 primary_type = "STEEL"
 secondary_type = "STEEL"
@@ -6,11 +7,75 @@ growth_rate = "Slow"
 exp_yield = 300
 catch_rate = 3
 caught_happiness = 0
-raw_abilities = ["IRONFIST"]
-raw_egg_moves = []
-raw_tms = ["TOXIC", "ICEBEAM", "HYPERBEAM", "PROTECT", "SOLARBEAM", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "BRICKBREAK", "ROCKTOMB", "FACADE", "REST", "ROUND", "BRUTALSWING", "GIGAIMPACT", "THUNDERWAVE", "GYROBALL", "ROCKSLIDE", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "MEGAPUNCH", "MEGAKICK", "SELFDESTRUCT", "ELECTRICTERRAIN", "BODYSLAM", "ENDURE", "HEAVYSLAM", "DARKESTLARIAT", "HIGHHORSEPOWER", "BODYPRESS"]
-raw_tutor_moves = ["HEADBUTT", "ICEPUNCH", "IRONDEFENSE", "IRONHEAD", "SNORE", "SUPERPOWER", "THUNDERPUNCH", "STEELROLLER", "STEELBEAM", "MIMIC"]
-compatible_egg_groups = ["Undiscovered"]
+raw_abilities = [
+    "IRONFIST",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "THUNDERPUNCH" },
+    { at_level = 1, name = "HARDEN" },
+    { at_level = 1, name = "HEADBUTT" },
+    { at_level = 1, name = "TAILWHIP" },
+    { at_level = 1, name = "THUNDERWAVE" },
+    { at_level = 9, name = "TAILWHIP" },
+    { at_level = 18, name = "THUNDERWAVE" },
+    { at_level = 27, name = "THUNDERSHOCK" },
+    { at_level = 36, name = "ACIDARMOR" },
+    { at_level = 45, name = "FLASHCANNON" },
+    { at_level = 54, name = "MEGAPUNCH" },
+    { at_level = 63, name = "PROTECT" },
+    { at_level = 81, name = "SUPERPOWER" },
+    { at_level = 88, name = "DOUBLEIRONBASH" },
+    { at_level = 94, name = "HYPERBEAM" },
+]
+raw_tms = [
+    "TOXIC",
+    "ICEBEAM",
+    "HYPERBEAM",
+    "PROTECT",
+    "SOLARBEAM",
+    "THUNDERBOLT",
+    "THUNDER",
+    "EARTHQUAKE",
+    "BRICKBREAK",
+    "ROCKTOMB",
+    "FACADE",
+    "REST",
+    "ROUND",
+    "BRUTALSWING",
+    "GIGAIMPACT",
+    "THUNDERWAVE",
+    "GYROBALL",
+    "ROCKSLIDE",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "FLASHCANNON",
+    "SECRETPOWER",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "SELFDESTRUCT",
+    "ELECTRICTERRAIN",
+    "BODYSLAM",
+    "ENDURE",
+    "HEAVYSLAM",
+    "DARKESTLARIAT",
+    "HIGHHORSEPOWER",
+    "BODYPRESS",
+]
+raw_tutor_moves = [
+    "HEADBUTT",
+    "ICEPUNCH",
+    "IRONDEFENSE",
+    "IRONHEAD",
+    "MIMIC",
+    "SNORE",
+    "STEELBEAM",
+    "STEELROLLER",
+    "SUPERPOWER",
+    "THUNDERPUNCH",
+]
+compatible_egg_groups = [
+    "Undiscovered",
+]
 steps_to_hatch = 30720
 height = 8.02
 weight = 1763.7
@@ -20,71 +85,7 @@ pokedex_entry = "Revered long ago for its capacity to create iron from nothing, 
 battler_player_y = 21
 battler_enemy_y = 26
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 809
-internal_name = "MELMETAL"
 regional_numbers = 809
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "THUNDERPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HARDEN"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TAILWHIP"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "THUNDERWAVE"
-
-[[raw_level_up_moves]]
-at_level = 9
-name = "TAILWHIP"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "THUNDERWAVE"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "THUNDERSHOCK"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "ACIDARMOR"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "FLASHCANNON"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "MEGAPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 63
-name = "PROTECT"
-
-[[raw_level_up_moves]]
-at_level = 81
-name = "SUPERPOWER"
-
-[[raw_level_up_moves]]
-at_level = 88
-name = "DOUBLEIRONBASH"
-
-[[raw_level_up_moves]]
-at_level = 94
-name = "HYPERBEAM"
 
 [base_stats]
 hp = 135
@@ -101,5 +102,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

@@ -1,3 +1,4 @@
+dex_number = 265
 name = "Wurmple"
 primary_type = "BUG"
 secondary_type = "BUG"
@@ -6,11 +7,26 @@ growth_rate = "Medium"
 exp_yield = 56
 catch_rate = 255
 caught_happiness = 70
-raw_abilities = ["SHIELDDUST", "RUNAWAY"]
-raw_egg_moves = []
+raw_abilities = [
+    "SHIELDDUST",
+    "RUNAWAY",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 1, name = "STRINGSHOT" },
+    { at_level = 1, name = "POISONSTING" },
+    { at_level = 1, name = "STRUGGLEBUG" },
+    { at_level = 5, name = "ELECTROWEB" },
+]
 raw_tms = []
-raw_tutor_moves = ["BUGBITE", "ELECTROWEB", "STRINGSHOT"]
-compatible_egg_groups = ["Bug"]
+raw_tutor_moves = [
+    "BUGBITE",
+    "ELECTROWEB",
+    "STRINGSHOT",
+]
+compatible_egg_groups = [
+    "Bug",
+]
 steps_to_hatch = 4080
 height = 0.3
 weight = 3.6
@@ -20,42 +36,11 @@ pokedex_entry = "It sticks to tree branches and eats leaves. The thread it spits
 battler_player_y = 28
 battler_enemy_y = 20
 battler_altitude = 0
-form_names = []
-dex_number = 265
-internal_name = "WURMPLE"
 habitat = "Forest"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "STRINGSHOT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "POISONSTING"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "STRUGGLEBUG"
-
-[[raw_level_up_moves]]
-at_level = 5
-name = "ELECTROWEB"
-
-[[evolutions]]
-into_name = "SILCOON"
-condition = "Silcoon"
-parameter = "7"
-
-[[evolutions]]
-into_name = "CASCOON"
-condition = "Cascoon"
-parameter = "7"
-
-
+evolutions = [
+    { into_name = "SILCOON", condition = "Silcoon", parameter = "7" },
+    { into_name = "CASCOON", condition = "Cascoon", parameter = "7" },
+]
 
 [base_stats]
 hp = 45

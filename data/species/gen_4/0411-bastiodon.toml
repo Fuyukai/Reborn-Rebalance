@@ -1,3 +1,4 @@
+dex_number = 411
 name = "Bastiodon"
 primary_type = "ROCK"
 secondary_type = "STEEL"
@@ -6,11 +7,108 @@ growth_rate = "Erratic"
 exp_yield = 173
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["STURDY", "SOUNDPROOF", "EARTHEATER"]
-raw_egg_moves = []
-raw_tms = ["STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "SMACKDOWN", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "FLAMETHROWER", "SANDSTORM", "FIREBLAST", "ROCKTOMB", "TORMENT", "FACADE", "REST", "ATTRACT", "ROUND", "GIGAIMPACT", "ROCKPOLISH", "STONEEDGE", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "CONFIDE", "DIG", "SCREECH", "SCARYFACE", "ROCKBLAST", "AVALANCHE", "BODYSLAM", "FOCUSENERGY", "ENDURE", "HEAVYSLAM"]
-raw_tutor_moves = ["ANCIENTPOWER", "BLOCK", "EARTHPOWER", "HEADBUTT", "IRONDEFENSE", "IRONHEAD", "IRONTAIL", "MAGICCOAT", "MAGNETRISE", "MUDSLAP", "OUTRAGE", "SHOCKWAVE", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "METEORBEAM", "POWERSHIFT", "HEADLONGRUSH", "MIMIC"]
-compatible_egg_groups = ["Monster"]
+raw_abilities = [
+    "STURDY",
+    "SOUNDPROOF",
+    "EARTHEATER",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "FISSURE" },
+    { at_level = 1, name = "MAGNETRISE" },
+    { at_level = 1, name = "PSYSHIELDBASH" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 6, name = "COUNTER" },
+    { at_level = 9, name = "ANCIENTPOWER" },
+    { at_level = 12, name = "HEADBUTT" },
+    { at_level = 15, name = "BODYSLAM" },
+    { at_level = 18, name = "ROCKSLIDE" },
+    { at_level = 21, name = "TAUNT" },
+    { at_level = 24, name = "IRONDEFENSE" },
+    { at_level = 27, name = "SCREECH" },
+    { at_level = 30, name = "PROTECT" },
+    { at_level = 31, name = "GUARDSPLIT" },
+    { at_level = 35, name = "ROCKBLAST" },
+    { at_level = 39, name = "HEAVYSLAM" },
+    { at_level = 43, name = "WIDEGUARD" },
+    { at_level = 45, name = "SHOREUP" },
+    { at_level = 47, name = "CURSE" },
+    { at_level = 51, name = "STEALTHROCK" },
+    { at_level = 55, name = "METALBURST" },
+]
+raw_tms = [
+    "STRENGTH",
+    "ROAR",
+    "TOXIC",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "ICEBEAM",
+    "BLIZZARD",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "SMACKDOWN",
+    "THUNDERBOLT",
+    "THUNDER",
+    "EARTHQUAKE",
+    "RETURN",
+    "DOUBLETEAM",
+    "FLAMETHROWER",
+    "SANDSTORM",
+    "FIREBLAST",
+    "ROCKTOMB",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "GIGAIMPACT",
+    "ROCKPOLISH",
+    "STONEEDGE",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "FLASHCANNON",
+    "SECRETPOWER",
+    "CONFIDE",
+    "DIG",
+    "SCREECH",
+    "SCARYFACE",
+    "ROCKBLAST",
+    "AVALANCHE",
+    "BODYSLAM",
+    "FOCUSENERGY",
+    "ENDURE",
+    "HEAVYSLAM",
+]
+raw_tutor_moves = [
+    "ANCIENTPOWER",
+    "BLOCK",
+    "EARTHPOWER",
+    "HEADBUTT",
+    "HEADLONGRUSH",
+    "IRONDEFENSE",
+    "IRONHEAD",
+    "IRONTAIL",
+    "MAGICCOAT",
+    "MAGNETRISE",
+    "METEORBEAM",
+    "MIMIC",
+    "MUDSLAP",
+    "OUTRAGE",
+    "POWERSHIFT",
+    "SHOCKWAVE",
+    "SNORE",
+    "STEALTHROCK",
+    "STOMPINGTANTRUM",
+]
+compatible_egg_groups = [
+    "Monster",
+]
 steps_to_hatch = 7905
 height = 1.3
 weight = 149.5
@@ -20,94 +118,6 @@ pokedex_entry = "Any frontal attack is repulsed. It is a docile Pokémon that fe
 battler_player_y = 17
 battler_enemy_y = 14
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 411
-internal_name = "BASTIODON"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FISSURE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "MAGNETRISE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "PSYSHIELDBASH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 6
-name = "COUNTER"
-
-[[raw_level_up_moves]]
-at_level = 9
-name = "ANCIENTPOWER"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "HEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 15
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "ROCKSLIDE"
-
-[[raw_level_up_moves]]
-at_level = 21
-name = "TAUNT"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "IRONDEFENSE"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "SCREECH"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "PROTECT"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "GUARDSPLIT"
-
-[[raw_level_up_moves]]
-at_level = 35
-name = "ROCKBLAST"
-
-[[raw_level_up_moves]]
-at_level = 39
-name = "HEAVYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "WIDEGUARD"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "SHOREUP"
-
-[[raw_level_up_moves]]
-at_level = 47
-name = "CURSE"
-
-[[raw_level_up_moves]]
-at_level = 51
-name = "STEALTHROCK"
-
-[[raw_level_up_moves]]
-at_level = 55
-name = "METALBURST"
 
 [base_stats]
 hp = 65
@@ -124,5 +134,3 @@ def_ = 2
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

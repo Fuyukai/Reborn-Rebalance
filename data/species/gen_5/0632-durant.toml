@@ -1,3 +1,4 @@
+dex_number = 632
 name = "Durant"
 primary_type = "BUG"
 secondary_type = "STEEL"
@@ -6,11 +7,98 @@ growth_rate = "Medium"
 exp_yield = 169
 catch_rate = 90
 caught_happiness = 70
-raw_abilities = ["HEATPROOF", "SWARM", "HUSTLE"]
-raw_egg_moves = ["BATONPASS", "ENDURE", "FEINTATTACK", "ROCKCLIMB", "SCREECH", "THUNDERFANG"]
-raw_tms = ["CUT", "STRENGTH", "TOXIC", "ROCKSMASH", "ROCKCLIMB", "HIDDENPOWER", "PROTECT", "FRUSTRATION", "RETURN", "DOUBLETEAM", "SANDSTORM", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "SHADOWCLAW", "GIGAIMPACT", "ROCKPOLISH", "STONEEDGE", "THUNDERWAVE", "STRUGGLEBUG", "ROCKSLIDE", "XSCISSOR", "INFESTATION", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "CONFIDE", "DIG", "SCREECH", "BEATUP", "THUNDERFANG", "CRUNCH", "FLAREBLITZ", "AGILITY", "ENDURE", "BATONPASS", "RETALIATE", "LOWSWEEP", "BUGBUZZ", "WORKUP"]
-raw_tutor_moves = ["BUGBITE", "ENDEAVOR", "FURYCUTTER", "HELPINGHAND", "IRONDEFENSE", "IRONHEAD", "SNORE", "STOMPINGTANTRUM", "SUPERPOWER", "SKITTERSMACK", "STEELBEAM", "MIMIC"]
-compatible_egg_groups = ["Bug"]
+raw_abilities = [
+    "HEATPROOF",
+    "SWARM",
+    "HUSTLE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "FURYCUTTER" },
+    { at_level = 1, name = "SANDATTACK" },
+    { at_level = 5, name = "INFESTATION" },
+    { at_level = 11, name = "METALCLAW" },
+    { at_level = 14, name = "BEATUP" },
+    { at_level = 17, name = "BUGBITE" },
+    { at_level = 20, name = "BITE" },
+    { at_level = 25, name = "AGILITY" },
+    { at_level = 28, name = "FLAIL" },
+    { at_level = 32, name = "XSCISSOR" },
+    { at_level = 36, name = "CRUNCH" },
+    { at_level = 40, name = "IRONDEFENSE" },
+    { at_level = 44, name = "THUNDERFANG" },
+    { at_level = 47, name = "IRONHEAD" },
+    { at_level = 50, name = "ENTRAINMENT" },
+    { at_level = 54, name = "LUNGE" },
+    { at_level = 58, name = "METALBURST" },
+    { at_level = 62, name = "BATONPASS" },
+    { at_level = 66, name = "GUILLOTINE" },
+    { at_level = 70, name = "SUPERPOWER" },
+]
+raw_tms = [
+    "CUT",
+    "WORKUP",
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "ROCKCLIMB",
+    "HIDDENPOWER",
+    "PROTECT",
+    "FRUSTRATION",
+    "RETURN",
+    "DOUBLETEAM",
+    "SANDSTORM",
+    "ROCKTOMB",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "LOWSWEEP",
+    "ROUND",
+    "ENERGYBALL",
+    "SHADOWCLAW",
+    "GIGAIMPACT",
+    "ROCKPOLISH",
+    "STONEEDGE",
+    "THUNDERWAVE",
+    "STRUGGLEBUG",
+    "ROCKSLIDE",
+    "XSCISSOR",
+    "INFESTATION",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "FLASHCANNON",
+    "SECRETPOWER",
+    "CONFIDE",
+    "DIG",
+    "SCREECH",
+    "BEATUP",
+    "THUNDERFANG",
+    "CRUNCH",
+    "FLAREBLITZ",
+    "AGILITY",
+    "ENDURE",
+    "BATONPASS",
+    "BUGBUZZ",
+    "RETALIATE",
+]
+raw_tutor_moves = [
+    "BUGBITE",
+    "ENDEAVOR",
+    "FURYCUTTER",
+    "HELPINGHAND",
+    "IRONDEFENSE",
+    "IRONHEAD",
+    "MIMIC",
+    "SKITTERSMACK",
+    "SNORE",
+    "STEELBEAM",
+    "STOMPINGTANTRUM",
+    "SUPERPOWER",
+]
+compatible_egg_groups = [
+    "Bug",
+]
 steps_to_hatch = 5120
 height = 0.3
 weight = 33.0
@@ -20,90 +108,14 @@ pokedex_entry = "Durant dig nests in mountains. They build their complicated, in
 battler_player_y = 32
 battler_enemy_y = 39
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 632
-internal_name = "DURANT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FURYCUTTER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SANDATTACK"
-
-[[raw_level_up_moves]]
-at_level = 5
-name = "INFESTATION"
-
-[[raw_level_up_moves]]
-at_level = 11
-name = "METALCLAW"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "BEATUP"
-
-[[raw_level_up_moves]]
-at_level = 17
-name = "BUGBITE"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "AGILITY"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "FLAIL"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "XSCISSOR"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "IRONDEFENSE"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "THUNDERFANG"
-
-[[raw_level_up_moves]]
-at_level = 47
-name = "IRONHEAD"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "ENTRAINMENT"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "LUNGE"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "METALBURST"
-
-[[raw_level_up_moves]]
-at_level = 62
-name = "BATONPASS"
-
-[[raw_level_up_moves]]
-at_level = 66
-name = "GUILLOTINE"
-
-[[raw_level_up_moves]]
-at_level = 70
-name = "SUPERPOWER"
+raw_egg_moves = [
+    "BATONPASS",
+    "ENDURE",
+    "FEINTATTACK",
+    "ROCKCLIMB",
+    "SCREECH",
+    "THUNDERFANG",
+]
 
 [base_stats]
 hp = 58
@@ -120,5 +132,3 @@ def_ = 2
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

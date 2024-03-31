@@ -1,3 +1,4 @@
+dex_number = 590
 name = "Foongus"
 primary_type = "GRASS"
 secondary_type = "POISON"
@@ -6,11 +7,77 @@ growth_rate = "Medium"
 exp_yield = 59
 catch_rate = 190
 caught_happiness = 70
-raw_abilities = ["EFFECTSPORE", "REGENERATOR"]
-raw_egg_moves = ["BODYSLAM", "DEFENSECURL", "ENDURE", "GASTROACID", "GROWTH", "POISONPOWDER", "ROLLOUT", "STUNSPORE"]
-raw_tms = ["TOXIC", "FLASH", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "RAINDANCE", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "SLUDGEBOMB", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "PAYBACK", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "BODYSLAM", "ENDURE", "POLLENPUFF"]
-raw_tutor_moves = ["AFTERYOU", "FOULPLAY", "GASTROACID", "GIGADRAIN", "SEEDBOMB", "SNORE", "SYNTHESIS", "WORRYSEED", "MIMIC"]
-compatible_egg_groups = ["Grass"]
+raw_abilities = [
+    "EFFECTSPORE",
+    "REGENERATOR",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "ABSORB" },
+    { at_level = 1, name = "ASTONISH" },
+    { at_level = 1, name = "BIDE" },
+    { at_level = 4, name = "GROWTH" },
+    { at_level = 7, name = "STUNSPORE" },
+    { at_level = 10, name = "POISONPOWDER" },
+    { at_level = 13, name = "AFTERYOU" },
+    { at_level = 16, name = "DEFENSECURL" },
+    { at_level = 19, name = "SLUDGE" },
+    { at_level = 22, name = "ROLLOUT" },
+    { at_level = 25, name = "MEGADRAIN" },
+    { at_level = 28, name = "FEINTATTACK" },
+    { at_level = 31, name = "CLEARSMOG" },
+    { at_level = 34, name = "GASTROACID" },
+    { at_level = 37, name = "WORRYSEED" },
+    { at_level = 40, name = "BODYSLAM" },
+    { at_level = 44, name = "RAGEPOWDER" },
+    { at_level = 48, name = "SYNTHESIS" },
+    { at_level = 52, name = "FOULPLAY" },
+    { at_level = 56, name = "SPORE" },
+    { at_level = 60, name = "SOLARBEAM" },
+]
+raw_tms = [
+    "TOXIC",
+    "FLASH",
+    "VENOSHOCK",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "DOUBLETEAM",
+    "SLUDGEBOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ENERGYBALL",
+    "PAYBACK",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "NATUREPOWER",
+    "CONFIDE",
+    "BODYSLAM",
+    "ENDURE",
+    "POLLENPUFF",
+]
+raw_tutor_moves = [
+    "AFTERYOU",
+    "FOULPLAY",
+    "GASTROACID",
+    "GIGADRAIN",
+    "MIMIC",
+    "SEEDBOMB",
+    "SNORE",
+    "SYNTHESIS",
+    "WORRYSEED",
+]
+compatible_egg_groups = [
+    "Grass",
+]
 steps_to_hatch = 5120
 height = 0.2
 weight = 1.0
@@ -20,100 +87,19 @@ pokedex_entry = "For some reason, this Pokémon resembles a Poké Ball. They rel
 battler_player_y = 32
 battler_enemy_y = 36
 battler_altitude = 0
-form_names = []
-dex_number = 590
-internal_name = "FOONGUS"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ABSORB"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ASTONISH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BIDE"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "GROWTH"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "STUNSPORE"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "POISONPOWDER"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "AFTERYOU"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "DEFENSECURL"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "SLUDGE"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "ROLLOUT"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "MEGADRAIN"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "FEINTATTACK"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "CLEARSMOG"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "GASTROACID"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "WORRYSEED"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "RAGEPOWDER"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "SYNTHESIS"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "FOULPLAY"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "SPORE"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "SOLARBEAM"
-
-[[evolutions]]
-into_name = "AMOONGUSS"
-condition = "Level"
-parameter = "39"
-
-
+raw_egg_moves = [
+    "BODYSLAM",
+    "DEFENSECURL",
+    "ENDURE",
+    "GASTROACID",
+    "GROWTH",
+    "POISONPOWDER",
+    "ROLLOUT",
+    "STUNSPORE",
+]
+evolutions = [
+    { into_name = "AMOONGUSS", condition = "Level", parameter = "39" },
+]
 
 [base_stats]
 hp = 69

@@ -1,3 +1,4 @@
+dex_number = 384
 name = "Rayquaza"
 primary_type = "DRAGON"
 secondary_type = "FLYING"
@@ -6,11 +7,126 @@ growth_rate = "Slow"
 exp_yield = 306
 catch_rate = 3
 caught_happiness = 0
-raw_abilities = ["AIRLOCK"]
-raw_egg_moves = []
-raw_tms = ["DRAGONCLAW", "FLY", "SURF", "STRENGTH", "ROAR", "WATERFALL", "TOXIC", "DIVE", "ROCKSMASH", "BULKUP", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "SOLARBEAM", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "FLAMETHROWER", "SANDSTORM", "FIREBLAST", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ROUND", "ECHOEDVOICE", "OVERHEAT", "FOCUSBLAST", "ENERGYBALL", "FLING", "SKYDROP", "BRUTALSWING", "SHADOWCLAW", "GIGAIMPACT", "STONEEDGE", "THUNDERWAVE", "GYROBALL", "SWORDSDANCE", "PSYCHUP", "BULLDOZE", "ROCKSLIDE", "DRAGONTAIL", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "SCARYFACE", "WHIRLPOOL", "AVALANCHE", "CRUNCH", "AIRSLASH", "BREAKINGSWIPE", "BODYSLAM", "HYDROPUMP", "HURRICANE", "ENDURE", "COSMICPOWER", "DRAGONDANCE", "SWIFT"]
-raw_tutor_moves = ["ANCIENTPOWER", "AQUATAIL", "BIND", "DEFOG", "DRACOMETEOR", "DRAGONASCENT", "DRAGONPULSE", "EARTHPOWER", "FURYCUTTER", "HEADBUTT", "HYPERVOICE", "ICYWIND", "IRONHEAD", "IRONTAIL", "MUDSLAP", "OUTRAGE", "SHOCKWAVE", "SNORE", "TAILWIND", "TWISTER", "UPROAR", "WATERPULSE", "METEORBEAM", "SCALESHOT", "EXTREMESPEED", "MIMIC", "CELEBRATE"]
-compatible_egg_groups = ["Undiscovered"]
+raw_abilities = [
+    "AIRLOCK",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "VCREATE" },
+    { at_level = 6, name = "SCARYFACE" },
+    { at_level = 10, name = "ANCIENTPOWER" },
+    { at_level = 14, name = "CRUNCH" },
+    { at_level = 18, name = "AIRSLASH" },
+    { at_level = 22, name = "RAGINGFURY" },
+    { at_level = 26, name = "EXTREMESPEED" },
+    { at_level = 30, name = "DRAGONPULSE" },
+    { at_level = 34, name = "FLY" },
+    { at_level = 38, name = "DRAGONDANCE" },
+    { at_level = 42, name = "HYPERVOICE" },
+    { at_level = 46, name = "OUTRAGE" },
+    { at_level = 50, name = "HYPERBEAM" },
+]
+raw_tms = [
+    "DRAGONCLAW",
+    "FLY",
+    "SURF",
+    "STRENGTH",
+    "ROAR",
+    "WATERFALL",
+    "TOXIC",
+    "DIVE",
+    "ROCKSMASH",
+    "BULKUP",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "ICEBEAM",
+    "BLIZZARD",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "THUNDERBOLT",
+    "THUNDER",
+    "EARTHQUAKE",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "FLAMETHROWER",
+    "SANDSTORM",
+    "FIREBLAST",
+    "ROCKTOMB",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ROUND",
+    "ECHOEDVOICE",
+    "OVERHEAT",
+    "FOCUSBLAST",
+    "ENERGYBALL",
+    "FLING",
+    "SKYDROP",
+    "BRUTALSWING",
+    "SHADOWCLAW",
+    "GIGAIMPACT",
+    "STONEEDGE",
+    "THUNDERWAVE",
+    "GYROBALL",
+    "SWORDSDANCE",
+    "PSYCHUP",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "DRAGONTAIL",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "SCARYFACE",
+    "WHIRLPOOL",
+    "AVALANCHE",
+    "CRUNCH",
+    "AIRSLASH",
+    "BREAKINGSWIPE",
+    "BODYSLAM",
+    "HYDROPUMP",
+    "HURRICANE",
+    "ENDURE",
+    "COSMICPOWER",
+    "DRAGONDANCE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "ANCIENTPOWER",
+    "AQUATAIL",
+    "BIND",
+    "CELEBRATE",
+    "DEFOG",
+    "DRACOMETEOR",
+    "DRAGONASCENT",
+    "DRAGONPULSE",
+    "EARTHPOWER",
+    "EXTREMESPEED",
+    "FURYCUTTER",
+    "HEADBUTT",
+    "HYPERVOICE",
+    "ICYWIND",
+    "IRONHEAD",
+    "IRONTAIL",
+    "METEORBEAM",
+    "MIMIC",
+    "MUDSLAP",
+    "OUTRAGE",
+    "SCALESHOT",
+    "SHOCKWAVE",
+    "SNORE",
+    "TAILWIND",
+    "TWISTER",
+    "UPROAR",
+    "WATERPULSE",
+]
+compatible_egg_groups = [
+    "Undiscovered",
+]
 steps_to_hatch = 30855
 height = 7.0
 weight = 206.5
@@ -20,63 +136,7 @@ pokedex_entry = "A Pokémon that flies endlessly in the ozone layer. It is said 
 battler_player_y = 2
 battler_enemy_y = 2
 battler_altitude = 5
-evolutions = []
-form_names = []
-dex_number = 384
-internal_name = "RAYQUAZA"
 habitat = "Rare"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "VCREATE"
-
-[[raw_level_up_moves]]
-at_level = 6
-name = "SCARYFACE"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "ANCIENTPOWER"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "AIRSLASH"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "RAGINGFURY"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "EXTREMESPEED"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "DRAGONPULSE"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "FLY"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "DRAGONDANCE"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "HYPERVOICE"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "OUTRAGE"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "HYPERBEAM"
 
 [base_stats]
 hp = 105
@@ -93,5 +153,3 @@ def_ = 0
 spa = 1
 spd = 0
 spe = 0
-
-[wild_items]

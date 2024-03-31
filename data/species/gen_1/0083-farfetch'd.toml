@@ -1,3 +1,4 @@
+dex_number = 83
 name = "Farfetch'd"
 primary_type = "FIGHTING"
 secondary_type = "FLYING"
@@ -6,11 +7,113 @@ growth_rate = "Medium"
 exp_yield = 132
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["DEFEATIST"]  # lol.
-raw_egg_moves = ["COVET", "CURSE", "FEATHERDANCE", "FIRSTIMPRESSION", "FINALGAMBIT", "FLAIL", "FORESIGHT", "GUST", "LEAFBLADE", "MIRRORMOVE", "MUDSLAP", "NIGHTSLASH", "QUICKATTACK", "REVENGE", "ROOST", "SIMPLEBEAM", "STEELWING", "TRUMPCARD"]
-raw_tms = ["WORKUP", "CUT", "FLY", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "ROOST", "ROOST", "FRUSTRATION", "RETURN", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "STEELWING", "FALSESWIPE", "BRUTALSWING", "ACROBATICS", "SWORDSDANCE", "PSYCHUP", "POISONJAB", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "SOLARBLADE", "REVENGE", "ASSURANCE", "LEAFBLADE", "AIRSLASH", "BODYSLAM", "CLOSECOMBAT", "BRAVEBIRD", "AGILITY", "FOCUSENERGY", "ENDURE", "BATONPASS", "RETALIATE", "SWIFT"]
-raw_tutor_moves = ["AIRCUTTER", "COVET", "DEFOG", "FURYCUTTER", "HEADBUTT", "HEATWAVE", "HELPINGHAND", "IRONTAIL", "KNOCKOFF", "LASERFOCUS", "LASTRESORT", "MUDSLAP", "OMINOUSWIND", "SKYATTACK", "SNORE", "SUPERPOWER", "TAILWIND", "THROATCHOP", "TWISTER", "UPROAR", "DUALWINGBEAT", "MIMIC"]
-compatible_egg_groups = ["Flying", "Field"]
+raw_abilities = [
+    "DEFEATIST",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "LEER" },
+    { at_level = 1, name = "PECK" },
+    { at_level = 1, name = "SANDATTACK" },
+    { at_level = 4, name = "FEINT" },
+    { at_level = 7, name = "QUICKATTACK" },
+    { at_level = 10, name = "AIRCUTTER" },
+    { at_level = 13, name = "FORESIGHT" },
+    { at_level = 16, name = "FURYCUTTER" },
+    { at_level = 19, name = "AERIALACE" },
+    { at_level = 22, name = "FORESIGHT" },
+    { at_level = 25, name = "REVENGE" },
+    { at_level = 28, name = "FEATHERDANCE" },
+    { at_level = 31, name = "SIMPLEBEAM" },
+    { at_level = 34, name = "SLASH" },
+    { at_level = 34, name = "NIGHTSLASH" },
+    { at_level = 37, name = "QUICKGUARD" },
+    { at_level = 40, name = "DUALWINGBEAT" },
+    { at_level = 44, name = "AGILITY" },
+    { at_level = 48, name = "LEAFBLADE" },
+    { at_level = 52, name = "SKYATTACK" },
+    { at_level = 56, name = "DOUBLEEDGE" },
+    { at_level = 60, name = "BRAVEBIRD" },
+    { at_level = 64, name = "CLOSECOMBAT" },
+    { at_level = 68, name = "FINALGAMBIT" },
+]
+raw_tms = [
+    "WORKUP",
+    "CUT",
+    "FLY",
+    "TOXIC",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "PROTECT",
+    "ROOST",
+    "ROOST",
+    "FRUSTRATION",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "REFLECT",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "STEELWING",
+    "FALSESWIPE",
+    "BRUTALSWING",
+    "ACROBATICS",
+    "SWORDSDANCE",
+    "PSYCHUP",
+    "POISONJAB",
+    "SWAGGER",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "SOLARBLADE",
+    "REVENGE",
+    "ASSURANCE",
+    "LEAFBLADE",
+    "AIRSLASH",
+    "BODYSLAM",
+    "CLOSECOMBAT",
+    "BRAVEBIRD",
+    "AGILITY",
+    "FOCUSENERGY",
+    "ENDURE",
+    "BATONPASS",
+    "RETALIATE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AIRCUTTER",
+    "COVET",
+    "DEFOG",
+    "DUALWINGBEAT",
+    "FURYCUTTER",
+    "HEADBUTT",
+    "HEATWAVE",
+    "HELPINGHAND",
+    "IRONTAIL",
+    "KNOCKOFF",
+    "LASERFOCUS",
+    "LASTRESORT",
+    "MIMIC",
+    "MUDSLAP",
+    "OMINOUSWIND",
+    "SKYATTACK",
+    "SNORE",
+    "SUPERPOWER",
+    "TAILWIND",
+    "THROATCHOP",
+    "TWISTER",
+    "UPROAR",
+]
+compatible_egg_groups = [
+    "Flying",
+    "Field",
+]
 steps_to_hatch = 5355
 height = 0.8
 weight = 15.0
@@ -20,111 +123,31 @@ pokedex_entry = "It is always seen with a stick from a plant. Apparently, there 
 battler_player_y = 22
 battler_enemy_y = 18
 battler_altitude = 0
-form_names = []
-dex_number = 83
 internal_name = "FARFETCHD"
+raw_egg_moves = [
+    "COVET",
+    "CURSE",
+    "FEATHERDANCE",
+    "FIRSTIMPRESSION",
+    "FINALGAMBIT",
+    "FLAIL",
+    "FORESIGHT",
+    "GUST",
+    "LEAFBLADE",
+    "MIRRORMOVE",
+    "MUDSLAP",
+    "NIGHTSLASH",
+    "QUICKATTACK",
+    "REVENGE",
+    "ROOST",
+    "SIMPLEBEAM",
+    "STEELWING",
+    "TRUMPCARD",
+]
 habitat = "Grassland"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "PECK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SANDATTACK"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "FEINT"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "QUICKATTACK"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "AIRCUTTER"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "FORESIGHT"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "FURYCUTTER"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "AERIALACE"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "FORESIGHT"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "REVENGE"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "FEATHERDANCE"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "SIMPLEBEAM"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "SLASH"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "NIGHTSLASH"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "QUICKGUARD"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "DUALWINGBEAT"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "AGILITY"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "LEAFBLADE"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "SKYATTACK"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "DOUBLEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "BRAVEBIRD"
-
-[[raw_level_up_moves]]
-at_level = 64
-name = "CLOSECOMBAT"
-
-[[raw_level_up_moves]]
-at_level = 68
-name = "FINALGAMBIT"
-
-[[evolutions]]
-into_name = "SIRFETCHD"
-condition = "LandCritical"
-parameter = "3"
+evolutions = [
+    { into_name = "SIRFETCHD", condition = "LandCritical", parameter = "3" },
+]
 
 [base_stats]
 hp = 55

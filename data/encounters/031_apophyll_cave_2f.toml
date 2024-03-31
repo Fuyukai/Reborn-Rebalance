@@ -1,87 +1,28 @@
-chances = [50, 10, 20]
+chances = [
+    50,
+    10,
+    20,
+]
 
 [encounters]
-[[encounters.Cave]]
-name = "GRAVELER"
-minimum_level = 31
-maximum_level = 34
-
-[[encounters.Cave]]
-name = "CRABRAWLER"
-minimum_level = 31
-maximum_level = 33
-
-[[encounters.Cave]]
-name = "DWEBBLE"
-minimum_level = 31
-maximum_level = 35
-
-[[encounters.Cave]]
-name = "NOIBAT"
-minimum_level = 31
-maximum_level = 35
-
-[[encounters.Cave]]
-name = "DWEBBLE"
-minimum_level = 31
-maximum_level = 35
-
-[[encounters.Cave]]
-name = "NUMEL"
-minimum_level = 31
-maximum_level = 34
-
-[[encounters.Cave]]
-name = "STUNFISK"
-minimum_level = 31
-maximum_level = 34
-
-[[encounters.Cave]]
-name = "CLOBBOPUS"
-minimum_level = 35
-maximum_level = 36
-
-[[encounters.Cave]]
-name = "DWEBBLE"
-minimum_level = 31
-maximum_level = 33
-
-[[encounters.Cave]]
-name = "NUMEL"
-minimum_level = 31
-maximum_level = 34
-
-[[encounters.Cave]]
-name = "CRUSTLE"
-minimum_level = 40
-maximum_level = 40
-
-[[encounters.Cave]]
-name = "STUNFISK"
-minimum_level = 43
-maximum_level = 43
-
-[[encounters.RockSmash]]
-name = "SIZZLIPEDE"
-minimum_level = 31
-maximum_level = 35
-
-[[encounters.RockSmash]]
-name = "NOSEPASS"
-minimum_level = 31
-maximum_level = 34
-
-[[encounters.RockSmash]]
-name = "NOSEPASS"
-minimum_level = 36
-maximum_level = 36
-
-[[encounters.RockSmash]]
-name = "SIZZLIPEDE"
-minimum_level = 31
-maximum_level = 31
-
-[[encounters.RockSmash]]
-name = "NOSEPASS"
-minimum_level = 32
-maximum_level = 32
+Cave = [
+    { name = "GRAVELER", minimum_level = 31, maximum_level = 34 },
+    { name = "CRABRAWLER", minimum_level = 31, maximum_level = 33 },
+    { name = "DWEBBLE", minimum_level = 31, maximum_level = 35 },
+    { name = "NOIBAT", minimum_level = 31, maximum_level = 35 },
+    { name = "DWEBBLE", minimum_level = 31, maximum_level = 35 },
+    { name = "NUMEL", minimum_level = 31, maximum_level = 34 },
+    { name = "STUNFISK", minimum_level = 31, maximum_level = 34 },
+    { name = "CLOBBOPUS", minimum_level = 35, maximum_level = 36 },
+    { name = "DWEBBLE", minimum_level = 31, maximum_level = 33 },
+    { name = "NUMEL", minimum_level = 31, maximum_level = 34 },
+    { name = "CRUSTLE", minimum_level = 40, maximum_level = 40 },
+    { name = "STUNFISK", minimum_level = 43, maximum_level = 43 },
+]
+RockSmash = [
+    { name = "SIZZLIPEDE", minimum_level = 31, maximum_level = 35 },
+    { name = "NOSEPASS", minimum_level = 31, maximum_level = 34 },
+    { name = "NOSEPASS", minimum_level = 36, maximum_level = 36 },
+    { name = "SIZZLIPEDE", minimum_level = 31, maximum_level = 31 },
+    { name = "NOSEPASS", minimum_level = 32, maximum_level = 32 },
+]

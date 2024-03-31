@@ -1,3 +1,4 @@
+dex_number = 293
 name = "Whismur"
 primary_type = "NORMAL"
 secondary_type = "NORMAL"
@@ -6,11 +7,87 @@ growth_rate = "Parabolic"
 exp_yield = 48
 catch_rate = 190
 caught_happiness = 70
-raw_abilities = ["SOUNDPROOF", "SCRAPPY", "RATTLED"]
-raw_egg_moves = ["CIRCLETHROW", "DISARMINGVOICE", "ENDEAVOR", "EXTRASENSORY", "FAKETEARS", "HAMMERARM", "SMELLINGSALTS", "SMOKESCREEN", "SNORE", "TAKEDOWN", "WHIRLWIND"]
-raw_tms = ["WORKUP", "ROAR", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "SOLARBEAM", "RETURN", "SHADOWBALL", "DOUBLETEAM", "FLAMETHROWER", "FIREBLAST", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "FLING", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "SCREECH", "FAKETEARS", "BODYSLAM", "ENDURE", "RETALIATE"]
-raw_tutor_moves = ["ENDEAVOR", "FIREPUNCH", "HEADBUTT", "HYPERVOICE", "ICEPUNCH", "ICYWIND", "MUDSLAP", "ROLLOUT", "SHOCKWAVE", "SNORE", "THUNDERPUNCH", "UPROAR", "WATERPULSE", "ZENHEADBUTT", "MIMIC"]
-compatible_egg_groups = ["Monster", "Field"]
+raw_abilities = [
+    "SOUNDPROOF",
+    "SCRAPPY",
+    "RATTLED",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "POUND" },
+    { at_level = 1, name = "ASTONISH" },
+    { at_level = 1, name = "HOWL" },
+    { at_level = 7, name = "STOMP" },
+    { at_level = 10, name = "ECHOEDVOICE" },
+    { at_level = 13, name = "SCREECH" },
+    { at_level = 16, name = "DISARMINGVOICE" },
+    { at_level = 19, name = "UPROAR" },
+    { at_level = 22, name = "FAKETEARS" },
+    { at_level = 25, name = "CHATTER" },
+    { at_level = 28, name = "TAKEDOWN" },
+    { at_level = 31, name = "ENDURE" },
+    { at_level = 34, name = "HYPERVOICE" },
+    { at_level = 37, name = "ENDEAVOR" },
+    { at_level = 40, name = "EXTRASENSORY" },
+    { at_level = 44, name = "FLING" },
+    { at_level = 48, name = "SYNCHRONOISE" },
+]
+raw_tms = [
+    "WORKUP",
+    "ROAR",
+    "TOXIC",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "ICEBEAM",
+    "BLIZZARD",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "FLAMETHROWER",
+    "FIREBLAST",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ECHOEDVOICE",
+    "FLING",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "SCREECH",
+    "FAKETEARS",
+    "BODYSLAM",
+    "ENDURE",
+    "RETALIATE",
+]
+raw_tutor_moves = [
+    "ENDEAVOR",
+    "FIREPUNCH",
+    "HEADBUTT",
+    "HYPERVOICE",
+    "ICEPUNCH",
+    "ICYWIND",
+    "MIMIC",
+    "MUDSLAP",
+    "ROLLOUT",
+    "SHOCKWAVE",
+    "SNORE",
+    "THUNDERPUNCH",
+    "UPROAR",
+    "WATERPULSE",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Monster",
+    "Field",
+]
 steps_to_hatch = 5355
 height = 0.6
 weight = 16.3
@@ -20,85 +97,23 @@ pokedex_entry = "Its cries equal a jet plane in volume. It inhales through its e
 battler_player_y = 30
 battler_enemy_y = 23
 battler_altitude = 0
-form_names = []
-dex_number = 293
-internal_name = "WHISMUR"
+raw_egg_moves = [
+    "CIRCLETHROW",
+    "DISARMINGVOICE",
+    "ENDEAVOR",
+    "EXTRASENSORY",
+    "FAKETEARS",
+    "HAMMERARM",
+    "SMELLINGSALTS",
+    "SMOKESCREEN",
+    "SNORE",
+    "TAKEDOWN",
+    "WHIRLWIND",
+]
 habitat = "Cave"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "POUND"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ASTONISH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HOWL"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "STOMP"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "ECHOEDVOICE"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "SCREECH"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "DISARMINGVOICE"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "UPROAR"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "FAKETEARS"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "CHATTER"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "TAKEDOWN"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "ENDURE"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "HYPERVOICE"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "ENDEAVOR"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "EXTRASENSORY"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "FLING"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "SYNCHRONOISE"
-
-[[evolutions]]
-into_name = "LOUDRED"
-condition = "Level"
-parameter = "20"
-
-
+evolutions = [
+    { into_name = "LOUDRED", condition = "Level", parameter = "20" },
+]
 
 [base_stats]
 hp = 64
@@ -115,5 +130,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

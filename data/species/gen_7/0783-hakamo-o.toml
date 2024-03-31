@@ -1,3 +1,4 @@
+dex_number = 783
 name = "Hakamo-o"
 primary_type = "DRAGON"
 secondary_type = "FIGHTING"
@@ -6,11 +7,101 @@ growth_rate = "Slow"
 exp_yield = 147
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["BULLETPROOF", "SOUNDPROOF"]
-raw_egg_moves = []
-raw_tms = ["WORKUP", "DRAGONCLAW", "ROAR", "TOXIC", "BULKUP", "HIDDENPOWER", "TAUNT", "PROTECT", "SAFEGUARD", "FRUSTRATION", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "SANDSTORM", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "FOCUSBLAST", "FALSESWIPE", "FLING", "BRUTALSWING", "SHADOWCLAW", "PAYBACK", "SWORDSDANCE", "BULLDOZE", "ROCKSLIDE", "XSCISSOR", "DRAGONTAIL", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "SCREECH", "SCARYFACE", "CLOSECOMBAT", "REVERSAL", "ENDURE", "DRAGONDANCE"]
-raw_tutor_moves = ["AQUATAIL", "DRACOMETEOR", "DRAGONPULSE", "DRAINPUNCH", "DUALCHOP", "FOCUSPUNCH", "IRONDEFENSE", "IRONHEAD", "IRONTAIL", "LOWKICK", "OUTRAGE", "SNORE", "UPROAR", "COACHING", "SCALESHOT", "MIMIC"]
-compatible_egg_groups = ["Dragon"]
+raw_abilities = [
+    "BULLETPROOF",
+    "SOUNDPROOF",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "SKYUPPERCUT" },
+    { at_level = 1, name = "AUTOTOMIZE" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 1, name = "LEER" },
+    { at_level = 1, name = "BIDE" },
+    { at_level = 1, name = "PROTECT" },
+    { at_level = 4, name = "LEER" },
+    { at_level = 7, name = "BIDE" },
+    { at_level = 10, name = "PROTECT" },
+    { at_level = 13, name = "DRAGONTAIL" },
+    { at_level = 16, name = "SCARYFACE" },
+    { at_level = 19, name = "HEADBUTT" },
+    { at_level = 22, name = "WORKUP" },
+    { at_level = 25, name = "SCREECH" },
+    { at_level = 28, name = "IRONDEFENSE" },
+    { at_level = 31, name = "DRAGONCLAW" },
+    { at_level = 33, name = "NOBLEROAR" },
+    { at_level = 38, name = "DRAGONDANCE" },
+    { at_level = 42, name = "OUTRAGE" },
+    { at_level = 46, name = "CLOSECOMBAT" },
+]
+raw_tms = [
+    "WORKUP",
+    "DRAGONCLAW",
+    "ROAR",
+    "TOXIC",
+    "BULKUP",
+    "HIDDENPOWER",
+    "TAUNT",
+    "PROTECT",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "EARTHQUAKE",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "SANDSTORM",
+    "ROCKTOMB",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ECHOEDVOICE",
+    "FOCUSBLAST",
+    "FALSESWIPE",
+    "FLING",
+    "BRUTALSWING",
+    "SHADOWCLAW",
+    "PAYBACK",
+    "SWORDSDANCE",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "XSCISSOR",
+    "DRAGONTAIL",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "SCREECH",
+    "SCARYFACE",
+    "CLOSECOMBAT",
+    "REVERSAL",
+    "ENDURE",
+    "DRAGONDANCE",
+]
+raw_tutor_moves = [
+    "AQUATAIL",
+    "COACHING",
+    "DRACOMETEOR",
+    "DRAGONPULSE",
+    "DRAINPUNCH",
+    "DUALCHOP",
+    "FOCUSPUNCH",
+    "IRONDEFENSE",
+    "IRONHEAD",
+    "IRONTAIL",
+    "LOWKICK",
+    "MIMIC",
+    "OUTRAGE",
+    "SCALESHOT",
+    "SNORE",
+    "UPROAR",
+]
+compatible_egg_groups = [
+    "Dragon",
+]
 steps_to_hatch = 10240
 height = 1.2
 weight = 47.0
@@ -20,97 +111,11 @@ pokedex_entry = "It leaps at its prey with a courageous shout. Its scaly punches
 battler_player_y = 24
 battler_enemy_y = 25
 battler_altitude = 0
-form_names = []
-dex_number = 783
 internal_name = "HAKAMOO"
 raw_hidden_ability = "OVERCOAT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SKYUPPERCUT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "AUTOTOMIZE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BIDE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "PROTECT"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "BIDE"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "PROTECT"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "DRAGONTAIL"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "SCARYFACE"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "HEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "WORKUP"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "SCREECH"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "IRONDEFENSE"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "DRAGONCLAW"
-
-[[raw_level_up_moves]]
-at_level = 33
-name = "NOBLEROAR"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "DRAGONDANCE"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "OUTRAGE"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "CLOSECOMBAT"
-
-[[evolutions]]
-into_name = "KOMMOO"
-condition = "Level"
-parameter = "45"
-
-
+evolutions = [
+    { into_name = "KOMMOO", condition = "Level", parameter = "45" },
+]
 
 [base_stats]
 hp = 55

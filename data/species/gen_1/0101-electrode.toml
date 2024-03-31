@@ -1,3 +1,4 @@
+dex_number = 101
 name = "Electrode"
 primary_type = "ELECTRIC"
 secondary_type = "ELECTRIC"
@@ -6,11 +7,93 @@ growth_rate = "Medium"
 exp_yield = 172
 catch_rate = 60
 caught_happiness = 70
-raw_abilities = ["SOUNDPROOF", "ELECTRICSURGE", "AFTERMATH"]
-raw_egg_moves = []
-raw_tms = ["TOXIC", "FLASH", "HIDDENPOWER", "TAUNT", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "DOUBLETEAM", "REFLECT", "TORMENT", "FACADE", "REST", "THIEF", "ROUND", "CHARGEBEAM", "EXPLOSION", "GIGAIMPACT", "VOLTSWITCH", "THUNDERWAVE", "GYROBALL", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "CONFIDE", "SCREECH", "SELFDESTRUCT", "ASSURANCE", "EERIEIMPULSE", "AGILITY", "ENDURE", "ELECTROBALL", "SWIFT"]
-raw_tutor_moves = ["FOULPLAY", "HEADBUTT", "MAGICCOAT", "MAGNETRISE", "ROLLOUT", "SHOCKWAVE", "SIGNALBEAM", "SNORE", "SUCKERPUNCH", "TELEKINESIS", "ICEBALL", "MIMIC"]
-compatible_egg_groups = ["Mineral"]
+raw_abilities = [
+    "SOUNDPROOF",
+    "ELECTRICSURGE",
+    "AFTERMATH",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "CHARGE" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 1, name = "SPARK" },
+    { at_level = 4, name = "AGILITY" },
+    { at_level = 7, name = "THUNDERWAVE" },
+    { at_level = 10, name = "SCREECH" },
+    { at_level = 13, name = "THUNDERSHOCK" },
+    { at_level = 16, name = "SONICBOOM" },
+    { at_level = 19, name = "CHARGEBEAM" },
+    { at_level = 22, name = "ROLLOUT" },
+    { at_level = 25, name = "SWIFT" },
+    { at_level = 28, name = "VOLTSWITCH" },
+    { at_level = 30, name = "ELECTROBALL" },
+    { at_level = 32, name = "SUCKERPUNCH" },
+    { at_level = 36, name = "SIGNALBEAM" },
+    { at_level = 40, name = "MAGNETRISE" },
+    { at_level = 44, name = "MIRRORCOAT" },
+    { at_level = 48, name = "DISCHARGE" },
+    { at_level = 52, name = "FOULPLAY" },
+    { at_level = 56, name = "ZAPCANNON" },
+    { at_level = 60, name = "EXPLOSION" },
+    { at_level = 65, name = "BOOMBURST" },
+]
+raw_tms = [
+    "TOXIC",
+    "FLASH",
+    "HIDDENPOWER",
+    "TAUNT",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "THUNDERBOLT",
+    "THUNDER",
+    "RETURN",
+    "DOUBLETEAM",
+    "REFLECT",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "THIEF",
+    "ROUND",
+    "CHARGEBEAM",
+    "EXPLOSION",
+    "GIGAIMPACT",
+    "VOLTSWITCH",
+    "THUNDERWAVE",
+    "GYROBALL",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "WILDCHARGE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "SCREECH",
+    "SELFDESTRUCT",
+    "ASSURANCE",
+    "EERIEIMPULSE",
+    "AGILITY",
+    "ENDURE",
+    "ELECTROBALL",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "FOULPLAY",
+    "HEADBUTT",
+    "ICEBALL",
+    "MAGICCOAT",
+    "MAGNETRISE",
+    "MIMIC",
+    "ROLLOUT",
+    "SHOCKWAVE",
+    "SIGNALBEAM",
+    "SNORE",
+    "SUCKERPUNCH",
+    "TELEKINESIS",
+]
+compatible_egg_groups = [
+    "Mineral",
+]
 steps_to_hatch = 5355
 height = 1.2
 weight = 66.6
@@ -20,99 +103,7 @@ pokedex_entry = "They appear in great numbers at electric power plants. Because 
 battler_player_y = 25
 battler_enemy_y = 19
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 101
-internal_name = "ELECTRODE"
 habitat = "Urban"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "CHARGE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SPARK"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "AGILITY"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "THUNDERWAVE"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "SCREECH"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "THUNDERSHOCK"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "SONICBOOM"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "CHARGEBEAM"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "ROLLOUT"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "SWIFT"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "VOLTSWITCH"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "ELECTROBALL"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "SUCKERPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "SIGNALBEAM"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "MAGNETRISE"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "MIRRORCOAT"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "DISCHARGE"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "FOULPLAY"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "ZAPCANNON"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "EXPLOSION"
-
-[[raw_level_up_moves]]
-at_level = 65
-name = "BOOMBURST"
 
 [base_stats]
 hp = 60
@@ -129,5 +120,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 2
-
-[wild_items]

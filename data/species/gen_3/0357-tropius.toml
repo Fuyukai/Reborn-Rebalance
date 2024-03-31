@@ -1,3 +1,4 @@
+dex_number = 357
 name = "Tropius"
 primary_type = "GRASS"
 secondary_type = "FLYING"
@@ -6,11 +7,109 @@ growth_rate = "Slow"
 exp_yield = 219
 catch_rate = 200
 caught_happiness = 70
-raw_abilities = ["CHLOROPHYLL", "AERILATE", "SEEDSOWER"]
-raw_egg_moves = ["BULLETSEED", "CURSE", "DRAGONDANCE", "DRAGONHAMMER", "HEADBUTT", "LEAFBLADE", "LEAFSTORM", "LEECHSEED", "NATURALGIFT", "RAZORWIND", "SLAM", "SYNTHESIS"]
-raw_tms = ["CUT", "FLY", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "FLASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "ROOST", "ROOST", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "STEELWING", "ENERGYBALL", "BRUTALSWING", "GIGAIMPACT", "SWORDSDANCE", "BULLDOZE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "MAGICALLEAF", "REVENGE", "BULLETSEED", "LEAFBLADE", "AIRSLASH", "BODYSLAM", "LEAFSTORM", "CLOSECOMBAT", "ENDURE", "DRAGONDANCE", "AURASPHERE", "TRAILBLAZE"]
-raw_tutor_moves = ["AIRCUTTER", "DEFOG", "DRAGONPULSE", "FURYCUTTER", "GIGADRAIN", "HEADBUTT", "MUDSLAP", "OMINOUSWIND", "OUTRAGE", "SEEDBOMB", "SNORE", "STOMPINGTANTRUM", "SYNTHESIS", "TAILWIND", "TWISTER", "WORRYSEED", "MIMIC"]
-compatible_egg_groups = ["Monster", "Grass"]
+raw_abilities = [
+    "CHLOROPHYLL",
+    "AERILATE",
+    "SEEDSOWER",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "BREAKINGSWIPE" },
+    { at_level = 1, name = "GROWTH" },
+    { at_level = 1, name = "GUST" },
+    { at_level = 1, name = "LEER" },
+    { at_level = 1, name = "RAZORLEAF" },
+    { at_level = 4, name = "HEADBUTT" },
+    { at_level = 7, name = "WHIRLWIND" },
+    { at_level = 10, name = "STOMP" },
+    { at_level = 14, name = "MAGICALLEAF" },
+    { at_level = 18, name = "CURSE" },
+    { at_level = 22, name = "BULLETSEED" },
+    { at_level = 26, name = "LEAFTORNADO" },
+    { at_level = 30, name = "NATUREPOWER" },
+    { at_level = 34, name = "AIRSLASH" },
+    { at_level = 38, name = "DRAGONDANCE" },
+    { at_level = 42, name = "BODYSLAM" },
+    { at_level = 46, name = "SYNTHESIS" },
+    { at_level = 50, name = "LEAFBLADE" },
+    { at_level = 54, name = "LEECHSEED" },
+    { at_level = 58, name = "SOLARBEAM" },
+    { at_level = 62, name = "LEAFSTORM" },
+    { at_level = 66, name = "DUALWINGBEAT" },
+]
+raw_tms = [
+    "CUT",
+    "FLY",
+    "STRENGTH",
+    "ROAR",
+    "TOXIC",
+    "ROCKSMASH",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "PROTECT",
+    "ROOST",
+    "ROOST",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "EARTHQUAKE",
+    "RETURN",
+    "DOUBLETEAM",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "STEELWING",
+    "ENERGYBALL",
+    "BRUTALSWING",
+    "GIGAIMPACT",
+    "SWORDSDANCE",
+    "BULLDOZE",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "NATUREPOWER",
+    "CONFIDE",
+    "MAGICALLEAF",
+    "REVENGE",
+    "BULLETSEED",
+    "LEAFBLADE",
+    "AIRSLASH",
+    "BODYSLAM",
+    "LEAFSTORM",
+    "CLOSECOMBAT",
+    "ENDURE",
+    "DRAGONDANCE",
+    "AURASPHERE",
+    "TRAILBLAZE",
+]
+raw_tutor_moves = [
+    "AIRCUTTER",
+    "DEFOG",
+    "DRAGONPULSE",
+    "FURYCUTTER",
+    "GIGADRAIN",
+    "HEADBUTT",
+    "MIMIC",
+    "MUDSLAP",
+    "OMINOUSWIND",
+    "OUTRAGE",
+    "SEEDBOMB",
+    "SNORE",
+    "STOMPINGTANTRUM",
+    "SYNTHESIS",
+    "TAILWIND",
+    "TWISTER",
+    "WORRYSEED",
+]
+compatible_egg_groups = [
+    "Monster",
+    "Grass",
+]
 steps_to_hatch = 6630
 height = 2.0
 weight = 100.0
@@ -20,99 +119,21 @@ pokedex_entry = "It flies by flapping its broad leaves. The bunch of fruit that 
 battler_player_y = 8
 battler_enemy_y = 2
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 357
-internal_name = "TROPIUS"
+raw_egg_moves = [
+    "BULLETSEED",
+    "CURSE",
+    "DRAGONDANCE",
+    "DRAGONHAMMER",
+    "HEADBUTT",
+    "LEAFBLADE",
+    "LEAFSTORM",
+    "LEECHSEED",
+    "NATURALGIFT",
+    "RAZORWIND",
+    "SLAM",
+    "SYNTHESIS",
+]
 habitat = "Forest"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BREAKINGSWIPE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWTH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GUST"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "RAZORLEAF"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "HEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "WHIRLWIND"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "STOMP"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "MAGICALLEAF"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "CURSE"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "BULLETSEED"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "LEAFTORNADO"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "NATUREPOWER"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "AIRSLASH"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "DRAGONDANCE"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "SYNTHESIS"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "LEAFBLADE"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "LEECHSEED"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "SOLARBEAM"
-
-[[raw_level_up_moves]]
-at_level = 62
-name = "LEAFSTORM"
-
-[[raw_level_up_moves]]
-at_level = 66
-name = "DUALWINGBEAT"
 
 [base_stats]
 hp = 99
@@ -129,5 +150,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

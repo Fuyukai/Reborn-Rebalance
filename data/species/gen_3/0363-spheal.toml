@@ -1,3 +1,4 @@
+dex_number = 363
 name = "Spheal"
 primary_type = "ICE"
 secondary_type = "WATER"
@@ -6,11 +7,89 @@ growth_rate = "Parabolic"
 exp_yield = 58
 catch_rate = 255
 caught_happiness = 70
-raw_abilities = ["THICKFAT", "ICEBODY"]
-raw_egg_moves = ["AQUARING", "BELLYDRUM", "CURSE", "FISSURE", "ROLLOUT", "SIGNALBEAM", "SLEEPTALK", "SPITUP", "STOCKPILE", "SWALLOW", "WATERPULSE", "WATERSPORT", "YAWN"]
-raw_tms = ["SURF", "STRENGTH", "WATERFALL", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "BULLDOZE", "FROSTBREATH", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "WHIRLPOOL", "BRINE", "BODYSLAM", "ENDURE", "ENCORE"]
-raw_tutor_moves = ["AQUATAIL", "HEADBUTT", "ICYWIND", "IRONTAIL", "MUDSLAP", "ROLLOUT", "SIGNALBEAM", "SNORE", "SUPERFANG", "WATERPULSE", "STEELROLLER", "ICEBALL", "MIMIC"]
-compatible_egg_groups = ["Water1", "Field"]
+raw_abilities = [
+    "THICKFAT",
+    "ICEBODY",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "DEFENSECURL" },
+    { at_level = 1, name = "GROWL" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 1, name = "WATERGUN" },
+    { at_level = 4, name = "WHIRLPOOL" },
+    { at_level = 7, name = "POWDERSNOW" },
+    { at_level = 10, name = "SUPERFANG" },
+    { at_level = 13, name = "WATERPULSE" },
+    { at_level = 16, name = "YAWN" },
+    { at_level = 19, name = "BUBBLEBEAM" },
+    { at_level = 22, name = "AURORABEAM" },
+    { at_level = 25, name = "ROLLOUT" },
+    { at_level = 28, name = "SLACKOFF" },
+    { at_level = 31, name = "BRINE" },
+    { at_level = 34, name = "BODYSLAM" },
+    { at_level = 38, name = "AQUARING" },
+    { at_level = 42, name = "AQUATAIL" },
+    { at_level = 46, name = "BLOCK" },
+    { at_level = 50, name = "CURSE" },
+    { at_level = 54, name = "CRUNCH" },
+    { at_level = 58, name = "FISSURE" },
+]
+raw_tms = [
+    "SURF",
+    "STRENGTH",
+    "WATERFALL",
+    "TOXIC",
+    "DIVE",
+    "HAIL",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "ICEBEAM",
+    "BLIZZARD",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "EARTHQUAKE",
+    "RETURN",
+    "DOUBLETEAM",
+    "ROCKTOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ECHOEDVOICE",
+    "BULLDOZE",
+    "FROSTBREATH",
+    "ROCKSLIDE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "WHIRLPOOL",
+    "BRINE",
+    "BODYSLAM",
+    "ENDURE",
+    "ENCORE",
+]
+raw_tutor_moves = [
+    "AQUATAIL",
+    "HEADBUTT",
+    "ICEBALL",
+    "ICYWIND",
+    "IRONTAIL",
+    "MIMIC",
+    "MUDSLAP",
+    "ROLLOUT",
+    "SIGNALBEAM",
+    "SNORE",
+    "STEELROLLER",
+    "SUPERFANG",
+    "WATERPULSE",
+]
+compatible_egg_groups = [
+    "Water1",
+    "Field",
+]
 steps_to_hatch = 5355
 height = 0.8
 weight = 39.5
@@ -20,102 +99,26 @@ pokedex_entry = "It is completely covered with plushy fur. As a result, it never
 battler_player_y = 32
 battler_enemy_y = 24
 battler_altitude = 0
-form_names = []
-dex_number = 363
-internal_name = "SPHEAL"
 raw_hidden_ability = "OBLIVIOUS"
+raw_egg_moves = [
+    "AQUARING",
+    "BELLYDRUM",
+    "CURSE",
+    "FISSURE",
+    "ROLLOUT",
+    "SIGNALBEAM",
+    "SLEEPTALK",
+    "SPITUP",
+    "STOCKPILE",
+    "SWALLOW",
+    "WATERPULSE",
+    "WATERSPORT",
+    "YAWN",
+]
 habitat = "Sea"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "DEFENSECURL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WATERGUN"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "WHIRLPOOL"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "POWDERSNOW"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "SUPERFANG"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "WATERPULSE"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "YAWN"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "BUBBLEBEAM"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "AURORABEAM"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "ROLLOUT"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "SLACKOFF"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "BRINE"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "AQUARING"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "AQUATAIL"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "BLOCK"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "CURSE"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "FISSURE"
-
-[[evolutions]]
-into_name = "SEALEO"
-condition = "Level"
-parameter = "16"
-
-
+evolutions = [
+    { into_name = "SEALEO", condition = "Level", parameter = "16" },
+]
 
 [base_stats]
 hp = 70
@@ -132,5 +135,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

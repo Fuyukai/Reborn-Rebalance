@@ -1,3 +1,4 @@
+dex_number = 78
 name = "Rapidash"
 primary_type = "FIRE"
 secondary_type = "FAIRY"
@@ -6,11 +7,114 @@ growth_rate = "Medium"
 exp_yield = 175
 catch_rate = 60
 caught_happiness = 70
-raw_abilities = ["RECKLESS", "FLASHFIRE", "FLAMEBODY"]
-raw_egg_moves = []
-raw_tms = ["CALMMIND", "STRENGTH", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "FRUSTRATION", "SOLARBEAM", "RETURN", "PSYCHIC", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "FIREBLAST", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "OVERHEAT", "WILLOWISP", "SMARTSTRIKE", "GIGAIMPACT", "SWORDSDANCE", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "WILDCHARGE", "SECRETPOWER", "DAZZLINGGLEAM", "CONFIDE", "PAYDAY", "SOLARBLADE", "FIRESPIN", "CHARM", "IMPRISON", "PSYCHOCUT", "MISTYTERRAIN", "PSYCHICTERRAIN", "MYSTICALFIRE", "BODYSLAM", "MEGAHORN", "FLAREBLITZ", "AGILITY", "ENDURE", "BATONPASS", "FUTURESIGHT", "STOREDPOWER", "PLAYROUGH", "HIGHHORSEPOWER", "SWIFT"]
-raw_tutor_moves = ["ALLYSWITCH", "BOUNCE", "DRILLRUN", "HEADBUTT", "HEATWAVE", "IRONTAIL", "LOWKICK", "MAGICROOM", "SNORE", "THROATCHOP", "WONDERROOM", "ZENHEADBUTT", "SCORCHINGSANDS", "EXPANDINGFORCE", "MIMIC"]
-compatible_egg_groups = ["Field"]
+raw_abilities = [
+    "RECKLESS",
+    "FLASHFIRE",
+    "FLAMEBODY",
+]
+raw_level_up_moves = [
+    { at_level = 0, name = "BLAZEKICK" },
+    { at_level = 1, name = "MEGAHORN" },
+    { at_level = 1, name = "GROWL" },
+    { at_level = 1, name = "TAILWHIP" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 4, name = "QUICKATTACK" },
+    { at_level = 6, name = "EMBER" },
+    { at_level = 9, name = "DOUBLEHIT" },
+    { at_level = 12, name = "STOMP" },
+    { at_level = 14, name = "FIRESPIN" },
+    { at_level = 16, name = "FLAMEWHEEL" },
+    { at_level = 18, name = "DOUBLEKICK" },
+    { at_level = 20, name = "CHARM" },
+    { at_level = 23, name = "FLAMECHARGE" },
+    { at_level = 26, name = "AGILITY" },
+    { at_level = 29, name = "TAKEDOWN" },
+    { at_level = 32, name = "HYPNOSIS" },
+    { at_level = 39, name = "SMARTSTRIKE" },
+    { at_level = 42, name = "PLAYROUGH" },
+    { at_level = 45, name = "HIGHHORSEPOWER" },
+    { at_level = 49, name = "JUMPKICK" },
+    { at_level = 53, name = "MORNINGSUN" },
+    { at_level = 57, name = "BOUNCE" },
+    { at_level = 61, name = "FLAREBLITZ" },
+]
+raw_tms = [
+    "CALMMIND",
+    "STRENGTH",
+    "TOXIC",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "PROTECT",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "PSYCHIC",
+    "DOUBLETEAM",
+    "REFLECT",
+    "FLAMETHROWER",
+    "FIREBLAST",
+    "FACADE",
+    "FLAMECHARGE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ECHOEDVOICE",
+    "OVERHEAT",
+    "WILLOWISP",
+    "SMARTSTRIKE",
+    "GIGAIMPACT",
+    "SWORDSDANCE",
+    "POISONJAB",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "TRICKROOM",
+    "WILDCHARGE",
+    "SECRETPOWER",
+    "DAZZLINGGLEAM",
+    "CONFIDE",
+    "PAYDAY",
+    "SOLARBLADE",
+    "FIRESPIN",
+    "CHARM",
+    "IMPRISON",
+    "PSYCHOCUT",
+    "MISTYTERRAIN",
+    "PSYCHICTERRAIN",
+    "MYSTICALFIRE",
+    "BODYSLAM",
+    "MEGAHORN",
+    "FLAREBLITZ",
+    "AGILITY",
+    "ENDURE",
+    "BATONPASS",
+    "FUTURESIGHT",
+    "STOREDPOWER",
+    "PLAYROUGH",
+    "HIGHHORSEPOWER",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "ALLYSWITCH",
+    "BOUNCE",
+    "DRILLRUN",
+    "EXPANDINGFORCE",
+    "HEADBUTT",
+    "HEATWAVE",
+    "IRONTAIL",
+    "LOWKICK",
+    "MAGICROOM",
+    "MIMIC",
+    "SCORCHINGSANDS",
+    "SNORE",
+    "THROATCHOP",
+    "WONDERROOM",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Field",
+]
 steps_to_hatch = 5355
 height = 1.7
 weight = 95.0
@@ -20,107 +124,7 @@ pokedex_entry = "It usually canters casually in the fields and plains. But once 
 battler_player_y = 13
 battler_enemy_y = 8
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 78
-internal_name = "RAPIDASH"
 habitat = "Grassland"
-
-[[raw_level_up_moves]]
-at_level = 0
-name = "BLAZEKICK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "MEGAHORN"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TAILWHIP"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "QUICKATTACK"
-
-[[raw_level_up_moves]]
-at_level = 6
-name = "EMBER"
-
-[[raw_level_up_moves]]
-at_level = 9
-name = "DOUBLEHIT"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "STOMP"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "FIRESPIN"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "FLAMEWHEEL"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "DOUBLEKICK"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "CHARM"
-
-[[raw_level_up_moves]]
-at_level = 23
-name = "FLAMECHARGE"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "AGILITY"
-
-[[raw_level_up_moves]]
-at_level = 29
-name = "TAKEDOWN"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "HYPNOSIS"
-
-[[raw_level_up_moves]]
-at_level = 39
-name = "SMARTSTRIKE"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "PLAYROUGH"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "HIGHHORSEPOWER"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "JUMPKICK"
-
-[[raw_level_up_moves]]
-at_level = 53
-name = "MORNINGSUN"
-
-[[raw_level_up_moves]]
-at_level = 57
-name = "BOUNCE"
-
-[[raw_level_up_moves]]
-at_level = 61
-name = "FLAREBLITZ"
 
 [base_stats]
 hp = 85
@@ -137,5 +141,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 2
-
-[wild_items]

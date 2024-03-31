@@ -1,4 +1,5 @@
-name = "Chingling"  # is that a slur?
+dex_number = 433
+name = "Chingling"
 primary_type = "PSYCHIC"
 secondary_type = "PSYCHIC"
 gender_ratio = "Female50Percent"
@@ -6,11 +7,95 @@ growth_rate = "Fast"
 exp_yield = 57
 catch_rate = 120
 caught_happiness = 70
-raw_abilities = ["LEVITATE"]
-raw_egg_moves = ["COSMICPOWER", "CURSE", "DISABLE", "FUTURESIGHT", "HYPNOSIS", "RECOVER", "SKILLSWAP", "STOREDPOWER", "WISH"]
-raw_tms = ["PSYSHOCK", "CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "TORMENT", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "CHARGEBEAM", "THUNDERWAVE", "PSYCHUP", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "DAZZLINGGLEAM", "CONFIDE", "LEAFSTORM", "ENDURE", "FUTURESIGHT", "COSMICPOWER", "STOREDPOWER", "SWIFT"]
-raw_tutor_moves = ["ALLYSWITCH", "BIND", "GRAVITY", "HEALBELL", "HELPINGHAND", "HYPERVOICE", "ICYWIND", "KNOCKOFF", "LASTRESORT", "MAGICCOAT", "RECYCLE", "ROLLOUT", "SHOCKWAVE", "SIGNALBEAM", "SKILLSWAP", "SNATCH", "SNORE", "TELEKINESIS", "TRICK", "UPROAR", "ZENHEADBUTT", "MIMIC"]
-compatible_egg_groups = ["Undiscovered"]
+raw_abilities = [
+    "LEVITATE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "TELEKINESIS" },
+    { at_level = 1, name = "WRAP" },
+    { at_level = 1, name = "ASTONISH" },
+    { at_level = 1, name = "TAILWHIP" },
+    { at_level = 6, name = "SWIFT" },
+    { at_level = 8, name = "DISABLE" },
+    { at_level = 10, name = "DISARMINGVOICE" },
+    { at_level = 12, name = "CONFUSION" },
+    { at_level = 14, name = "CAPTIVATE" },
+    { at_level = 16, name = "UPROAR" },
+    { at_level = 18, name = "STOREDPOWER" },
+    { at_level = 20, name = "ZENHEADBUTT" },
+    { at_level = 22, name = "HEALBELL" },
+    { at_level = 25, name = "HYPNOSIS" },
+]
+raw_tms = [
+    "PSYSHOCK",
+    "CALMMIND",
+    "TOXIC",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "REFLECT",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ECHOEDVOICE",
+    "CHARGEBEAM",
+    "THUNDERWAVE",
+    "PSYCHUP",
+    "DREAMEATER",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "TRICKROOM",
+    "SECRETPOWER",
+    "DAZZLINGGLEAM",
+    "CONFIDE",
+    "LEAFSTORM",
+    "ENDURE",
+    "FUTURESIGHT",
+    "COSMICPOWER",
+    "STOREDPOWER",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "ALLYSWITCH",
+    "BIND",
+    "GRAVITY",
+    "HEALBELL",
+    "HELPINGHAND",
+    "HYPERVOICE",
+    "ICYWIND",
+    "KNOCKOFF",
+    "LASTRESORT",
+    "MAGICCOAT",
+    "MIMIC",
+    "RECYCLE",
+    "ROLLOUT",
+    "SHOCKWAVE",
+    "SIGNALBEAM",
+    "SKILLSWAP",
+    "SNATCH",
+    "SNORE",
+    "TELEKINESIS",
+    "TRICK",
+    "UPROAR",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Undiscovered",
+]
 steps_to_hatch = 6630
 height = 0.2
 weight = 0.6
@@ -20,72 +105,20 @@ pokedex_entry = "It emits cries by agitating an orb at the back of its throat. I
 battler_player_y = 33
 battler_enemy_y = 20
 battler_altitude = 12
-form_names = []
-dex_number = 433
-internal_name = "CHINGLING"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TELEKINESIS"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WRAP"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ASTONISH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TAILWHIP"
-
-[[raw_level_up_moves]]
-at_level = 6
-name = "SWIFT"
-
-[[raw_level_up_moves]]
-at_level = 8
-name = "DISABLE"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "DISARMINGVOICE"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "CONFUSION"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "CAPTIVATE"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "UPROAR"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "STOREDPOWER"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "ZENHEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "HEALBELL"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "HYPNOSIS"
-
-[[evolutions]]
-into_name = "CHIMECHO"
-condition = "HasMove"
-parameter = "HEALBELL"
-
-
+raw_egg_moves = [
+    "COSMICPOWER",
+    "CURSE",
+    "DISABLE",
+    "FUTURESIGHT",
+    "HYPNOSIS",
+    "RECOVER",
+    "SKILLSWAP",
+    "STOREDPOWER",
+    "WISH",
+]
+evolutions = [
+    { into_name = "CHIMECHO", condition = "HasMove", parameter = "HEALBELL" },
+]
 
 [base_stats]
 hp = 45

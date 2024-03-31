@@ -1,3 +1,4 @@
+dex_number = 515
 name = "Panpour"
 primary_type = "WATER"
 secondary_type = "WATER"
@@ -6,11 +7,107 @@ growth_rate = "Fast"
 exp_yield = 63
 catch_rate = 190
 caught_happiness = 70
-raw_abilities = ["GLUTTONY", "TORRENT"]
-raw_egg_moves = ["AQUARING", "AQUATAIL", "ASTONISH", "COVET", "DISARMINGVOICE", "HYDROPUMP", "LOWKICK", "MUDSPORT", "NASTYPLOT", "ROLEPLAY", "TICKLE"]
-raw_tms = ["WORKUP", "CUT", "SURF", "WATERFALL", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "HIDDENPOWER", "TAUNT", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "DOUBLETEAM", "ROCKTOMB", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "LOWSWEEP", "ROUND", "SCALD", "FLING", "ACROBATICS", "SHADOWCLAW", "PAYBACK", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "BRINE", "CRUNCH", "HYDROPUMP", "ENDURE", "NASTYPLOT", "POWERUPPUNCH", "PLAYROUGH"]
-raw_tutor_moves = ["AQUATAIL", "COVET", "ENDEAVOR", "FOCUSPUNCH", "GASTROACID", "GUNKSHOT", "HELPINGHAND", "ICEPUNCH", "ICYWIND", "IRONTAIL", "KNOCKOFF", "LOWKICK", "RECYCLE", "ROLEPLAY", "SNORE", "UPROAR", "WATERPLEDGE", "WATERPULSE", "MIMIC"]
-compatible_egg_groups = ["Field"]
+raw_abilities = [
+    "GLUTTONY",
+    "TORRENT",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "WATERPLEDGE" },
+    { at_level = 1, name = "SCRATCH" },
+    { at_level = 1, name = "LICK" },
+    { at_level = 1, name = "TICKLE" },
+    { at_level = 5, name = "WATERGUN" },
+    { at_level = 8, name = "HELPINGHAND" },
+    { at_level = 10, name = "WATERPULSE" },
+    { at_level = 12, name = "DISARMINGVOICE" },
+    { at_level = 14, name = "BRINE" },
+    { at_level = 16, name = "AQUARING" },
+    { at_level = 18, name = "BITE" },
+    { at_level = 20, name = "SCALD" },
+    { at_level = 22, name = "TAUNT" },
+    { at_level = 24, name = "ENDEAVOR" },
+    { at_level = 26, name = "CRUNCH" },
+    { at_level = 28, name = "FUTURESIGHT" },
+    { at_level = 31, name = "ACROBATICS" },
+    { at_level = 34, name = "AQUATAIL" },
+    { at_level = 38, name = "NASTYPLOT" },
+    { at_level = 42, name = "NATURALGIFT" },
+    { at_level = 46, name = "GLARE" },
+    { at_level = 50, name = "RECYCLE" },
+    { at_level = 54, name = "HYDROPUMP" },
+    { at_level = 58, name = "WRINGOUT" },
+    { at_level = 62, name = "SLACKOFF" },
+]
+raw_tms = [
+    "WORKUP",
+    "CUT",
+    "SURF",
+    "WATERFALL",
+    "TOXIC",
+    "DIVE",
+    "HAIL",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "TAUNT",
+    "ICEBEAM",
+    "BLIZZARD",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "RETURN",
+    "DOUBLETEAM",
+    "ROCKTOMB",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "LOWSWEEP",
+    "ROUND",
+    "SCALD",
+    "FLING",
+    "ACROBATICS",
+    "SHADOWCLAW",
+    "PAYBACK",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "DIG",
+    "BRINE",
+    "CRUNCH",
+    "HYDROPUMP",
+    "ENDURE",
+    "NASTYPLOT",
+    "PLAYROUGH",
+]
+raw_tutor_moves = [
+    "AQUATAIL",
+    "COVET",
+    "ENDEAVOR",
+    "FOCUSPUNCH",
+    "GASTROACID",
+    "GUNKSHOT",
+    "HELPINGHAND",
+    "ICEPUNCH",
+    "ICYWIND",
+    "IRONTAIL",
+    "KNOCKOFF",
+    "LOWKICK",
+    "MIMIC",
+    "RECYCLE",
+    "ROLEPLAY",
+    "SNORE",
+    "UPROAR",
+    "WATERPLEDGE",
+    "WATERPULSE",
+]
+compatible_egg_groups = [
+    "Field",
+]
 steps_to_hatch = 5120
 height = 0.6
 weight = 13.5
@@ -20,116 +117,22 @@ pokedex_entry = "It does not thrive in dry environments. It keeps itself damp by
 battler_player_y = 26
 battler_enemy_y = 28
 battler_altitude = 0
-form_names = []
-dex_number = 515
-internal_name = "PANPOUR"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WATERPLEDGE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SCRATCH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LICK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TICKLE"
-
-[[raw_level_up_moves]]
-at_level = 5
-name = "WATERGUN"
-
-[[raw_level_up_moves]]
-at_level = 8
-name = "HELPINGHAND"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "WATERPULSE"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "DISARMINGVOICE"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "BRINE"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "AQUARING"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "SCALD"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "TAUNT"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "ENDEAVOR"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "FUTURESIGHT"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "ACROBATICS"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "AQUATAIL"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "NASTYPLOT"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "NATURALGIFT"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "GLARE"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "RECYCLE"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "HYDROPUMP"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "WRINGOUT"
-
-[[raw_level_up_moves]]
-at_level = 62
-name = "SLACKOFF"
-
-[[evolutions]]
-into_name = "SIMIPOUR"
-condition = "Item"
-parameter = "WATERSTONE"
-
-
+raw_egg_moves = [
+    "AQUARING",
+    "AQUATAIL",
+    "ASTONISH",
+    "COVET",
+    "DISARMINGVOICE",
+    "HYDROPUMP",
+    "LOWKICK",
+    "MUDSPORT",
+    "NASTYPLOT",
+    "ROLEPLAY",
+    "TICKLE",
+]
+evolutions = [
+    { into_name = "SIMIPOUR", condition = "Item", parameter = "WATERSTONE" },
+]
 
 [base_stats]
 hp = 50
@@ -146,5 +149,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 1
-
-[wild_items]

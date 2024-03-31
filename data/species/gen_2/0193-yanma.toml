@@ -1,3 +1,4 @@
+dex_number = 193
 name = "Yanma"
 primary_type = "BUG"
 secondary_type = "FLYING"
@@ -6,17 +7,88 @@ growth_rate = "Medium"
 exp_yield = 78
 catch_rate = 75
 caught_happiness = 70
-raw_abilities = ["SPEEDBOOST", "COMPOUNDEYES"]
-raw_egg_moves = ["DOUBLEEDGE", "FEINT", "FEINTATTACK", "LEECHLIFE", "PURSUIT", "REVERSAL", "SECRETPOWER", "SIGNALBEAM", "SILVERWIND", "WHIRLWIND"]
-raw_tms = [
-    "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "ROOST", "ROOST", "FRUSTRATION",
-    "SOLARBEAM", "RETURN", "LEECHLIFE", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "AERIALACE",
-    "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "STEELWING", "DREAMEATER", "SWAGGER",
-    "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "SCREECH", "AIRSLASH",
-    "AGILITY", "REVERSAL", "ENDURE", "BUGBUZZ", "SWIFT", "HURRICANE"
+raw_abilities = [
+    "SPEEDBOOST",
+    "COMPOUNDEYES",
 ]
-raw_tutor_moves = ["AIRCUTTER", "ANCIENTPOWER", "BUGBITE", "DEFOG", "GIGADRAIN", "HEADBUTT", "OMINOUSWIND", "SIGNALBEAM", "SNORE", "STRINGSHOT", "TAILWIND", "UPROAR", "MIMIC"]
-compatible_egg_groups = ["Bug"]
+raw_level_up_moves = [
+    { at_level = 1, name = "FORESIGHT" },
+    { at_level = 1, name = "GUST" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 4, name = "QUICKATTACK" },
+    { at_level = 7, name = "SCREECH" },
+    { at_level = 10, name = "SILVERWIND" },
+    { at_level = 13, name = "PURSUIT" },
+    { at_level = 16, name = "SONICBOOM" },
+    { at_level = 19, name = "DETECT" },
+    { at_level = 22, name = "STRUGGLEBUG" },
+    { at_level = 25, name = "OMINOUSWIND" },
+    { at_level = 28, name = "WINGATTACK" },
+    { at_level = 31, name = "AIRCUTTER" },
+    { at_level = 34, name = "ANCIENTPOWER" },
+    { at_level = 37, name = "WHIRLWIND" },
+    { at_level = 40, name = "LEECHLIFE" },
+    { at_level = 44, name = "REVERSAL" },
+    { at_level = 48, name = "HYPNOSIS" },
+    { at_level = 52, name = "BUGBUZZ" },
+    { at_level = 56, name = "AIRSLASH" },
+]
+raw_tms = [
+    "TOXIC",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "PROTECT",
+    "ROOST",
+    "ROOST",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "LEECHLIFE",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "STEELWING",
+    "DREAMEATER",
+    "SWAGGER",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "SCREECH",
+    "AIRSLASH",
+    "HURRICANE",
+    "AGILITY",
+    "REVERSAL",
+    "ENDURE",
+    "BUGBUZZ",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AIRCUTTER",
+    "ANCIENTPOWER",
+    "BUGBITE",
+    "DEFOG",
+    "GIGADRAIN",
+    "HEADBUTT",
+    "MIMIC",
+    "OMINOUSWIND",
+    "SIGNALBEAM",
+    "SNORE",
+    "STRINGSHOT",
+    "TAILWIND",
+    "UPROAR",
+]
+compatible_egg_groups = [
+    "Bug",
+]
 steps_to_hatch = 5355
 height = 1.2
 weight = 38.0
@@ -26,98 +98,23 @@ pokedex_entry = "It can see 360 degrees without moving its eyes. It is a great f
 battler_player_y = 29
 battler_enemy_y = 21
 battler_altitude = 15
-form_names = []
-dex_number = 193
-internal_name = "YANMA"
 raw_hidden_ability = "FRISK"
+raw_egg_moves = [
+    "DOUBLEEDGE",
+    "FEINT",
+    "FEINTATTACK",
+    "LEECHLIFE",
+    "PURSUIT",
+    "REVERSAL",
+    "SECRETPOWER",
+    "SIGNALBEAM",
+    "SILVERWIND",
+    "WHIRLWIND",
+]
 habitat = "Forest"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FORESIGHT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GUST"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "QUICKATTACK"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "SCREECH"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "SILVERWIND"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "PURSUIT"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "SONICBOOM"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "DETECT"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "STRUGGLEBUG"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "OMINOUSWIND"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "WINGATTACK"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "AIRCUTTER"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "ANCIENTPOWER"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "WHIRLWIND"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "LEECHLIFE"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "REVERSAL"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "HYPNOSIS"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "BUGBUZZ"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "AIRSLASH"
-
-[[evolutions]]
-into_name = "YANMEGA"
-condition = "HasMove"
-parameter = "ANCIENTPOWER"
-
-
+evolutions = [
+    { into_name = "YANMEGA", condition = "HasMove", parameter = "ANCIENTPOWER" },
+]
 
 [base_stats]
 hp = 65

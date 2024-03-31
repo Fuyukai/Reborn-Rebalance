@@ -1,3 +1,4 @@
+dex_number = 46
 name = "Paras"
 primary_type = "BUG"
 secondary_type = "GRASS"
@@ -6,11 +7,96 @@ growth_rate = "Medium"
 exp_yield = 57
 catch_rate = 190
 caught_happiness = 70
-raw_abilities = ["EFFECTSPORE", "DRYSKIN"]
-raw_egg_moves = ["AGILITY", "BUGBITE", "COUNTER", "CROSSPOISON", "ENDURE", "FELLSTINGER", "FLAIL", "GRASSYTERRAIN", "LEECHSEED", "METALCLAW", "NATURALGIFT", "PSYBEAM", "PURSUIT", "ROTOTILLER", "SCREECH", "SWEETSCENT", "WIDEGUARD"]
-raw_tms = ["CUT", "TOXIC", "ROCKSMASH", "FLASH", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "LIGHTSCREEN", "PROTECT", "FRUSTRATION", "SOLARBEAM", "RETURN", "LEECHLIFE", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "SLUDGEBOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ENERGYBALL", "FALSESWIPE", "SWORDSDANCE", "STRUGGLEBUG", "XSCISSOR", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "DIG", "SCREECH", "BULLETSEED", "CROSSPOISON", "GRASSYTERRAIN", "BODYSLAM", "AGILITY", "ENDURE"]
-raw_tutor_moves = ["AFTERYOU", "BUGBITE", "FURYCUTTER", "GIGADRAIN", "KNOCKOFF", "SEEDBOMB", "SNORE", "STRINGSHOT", "SYNTHESIS", "WORRYSEED", "MIMIC"]
-compatible_egg_groups = ["Bug", "Grass"]
+raw_abilities = [
+    "EFFECTSPORE",
+    "DRYSKIN",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "ABSORB" },
+    { at_level = 1, name = "SCRATCH" },
+    { at_level = 1, name = "STRINGSHOT" },
+    { at_level = 4, name = "PURSUIT" },
+    { at_level = 7, name = "STUNSPORE" },
+    { at_level = 7, name = "POISONPOWDER" },
+    { at_level = 10, name = "METALCLAW" },
+    { at_level = 13, name = "BUGBITE" },
+    { at_level = 16, name = "BULLETSEED" },
+    { at_level = 19, name = "SPORE" },
+    { at_level = 21, name = "STRUGGLEBUG" },
+    { at_level = 23, name = "WIDEGUARD" },
+    { at_level = 25, name = "LEECHLIFE" },
+    { at_level = 27, name = "LEECHSEED" },
+    { at_level = 29, name = "AROMATHERAPY" },
+    { at_level = 31, name = "PSYBEAM" },
+    { at_level = 34, name = "SEEDBOMB" },
+    { at_level = 37, name = "CROSSPOISON" },
+    { at_level = 40, name = "CROSSCHOP" },
+    { at_level = 44, name = "AGILITY" },
+    { at_level = 48, name = "GROWTH" },
+    { at_level = 52, name = "LUNGE" },
+]
+raw_tms = [
+    "CUT",
+    "TOXIC",
+    "ROCKSMASH",
+    "FLASH",
+    "VENOSHOCK",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "LEECHLIFE",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "REFLECT",
+    "SLUDGEBOMB",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "ENERGYBALL",
+    "FALSESWIPE",
+    "SWORDSDANCE",
+    "STRUGGLEBUG",
+    "XSCISSOR",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "NATUREPOWER",
+    "CONFIDE",
+    "DIG",
+    "SCREECH",
+    "BULLETSEED",
+    "CROSSPOISON",
+    "GRASSYTERRAIN",
+    "BODYSLAM",
+    "AGILITY",
+    "ENDURE",
+]
+raw_tutor_moves = [
+    "AFTERYOU",
+    "BUGBITE",
+    "FURYCUTTER",
+    "GIGADRAIN",
+    "KNOCKOFF",
+    "MIMIC",
+    "SEEDBOMB",
+    "SNORE",
+    "STRINGSHOT",
+    "SYNTHESIS",
+    "WORRYSEED",
+]
+compatible_egg_groups = [
+    "Bug",
+    "Grass",
+]
 steps_to_hatch = 5355
 height = 0.3
 weight = 5.4
@@ -20,105 +106,29 @@ pokedex_entry = "A Paras has parasitic tochukaso mushrooms growing on its back. 
 battler_player_y = 32
 battler_enemy_y = 35
 battler_altitude = 0
-form_names = []
-dex_number = 46
-internal_name = "PARAS"
+raw_egg_moves = [
+    "AGILITY",
+    "BUGBITE",
+    "COUNTER",
+    "CROSSPOISON",
+    "ENDURE",
+    "FELLSTINGER",
+    "FLAIL",
+    "GRASSYTERRAIN",
+    "LEECHSEED",
+    "METALCLAW",
+    "NATURALGIFT",
+    "PSYBEAM",
+    "PURSUIT",
+    "ROTOTILLER",
+    "SCREECH",
+    "SWEETSCENT",
+    "WIDEGUARD",
+]
 habitat = "Forest"
-
-# lol, wtf is this movepool?
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ABSORB"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SCRATCH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "STRINGSHOT"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "PURSUIT"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "STUNSPORE"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "POISONPOWDER"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "METALCLAW"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "BUGBITE"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "BULLETSEED"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "SPORE"
-
-[[raw_level_up_moves]]
-at_level = 21
-name = "STRUGGLEBUG"
-
-[[raw_level_up_moves]]
-at_level = 23
-name = "WIDEGUARD"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "LEECHLIFE"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "LEECHSEED"
-
-[[raw_level_up_moves]]
-at_level = 29
-name = "AROMATHERAPY"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "PSYBEAM"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "SEEDBOMB"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "CROSSPOISON"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "CROSSCHOP"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "AGILITY"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "GROWTH"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "LUNGE"
-
-[[evolutions]]
-into_name = "PARASECT"
-condition = "Level"
-parameter = "24"
+evolutions = [
+    { into_name = "PARASECT", condition = "Level", parameter = "24" },
+]
 
 [base_stats]
 hp = 35

@@ -1,3 +1,4 @@
+dex_number = 451
 name = "Skorupi"
 primary_type = "POISON"
 secondary_type = "BUG"
@@ -6,11 +7,97 @@ growth_rate = "Slow"
 exp_yield = 66
 catch_rate = 120
 caught_happiness = 70
-raw_abilities = ["BATTLEARMOR", "SNIPER"]
-raw_egg_moves = ["AGILITY", "CONFUSERAY", "FEINTATTACK", "IRONTAIL", "NIGHTSLASH", "POISONTAIL", "PURSUIT", "SANDATTACK", "SCREECH", "SLASH", "TWINEEDLE", "WHIRLWIND"]
-raw_tms = ["CUT", "STRENGTH", "TOXIC", "ROCKSMASH", "FLASH", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "SLUDGEBOMB", "ROCKTOMB", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "FALSESWIPE", "FLING", "PAYBACK", "SWORDSDANCE", "STRUGGLEBUG", "XSCISSOR", "INFESTATION", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "DARKPULSE", "CONFIDE", "PINMISSILE", "DIG", "SCREECH", "SCARYFACE", "ASSURANCE", "CRUNCH", "CROSSPOISON", "AGILITY", "ENDURE", "BUGBUZZ"]
-raw_tutor_moves = ["AQUATAIL", "BUGBITE", "FURYCUTTER", "HEADBUTT", "IRONTAIL", "KNOCKOFF", "MUDSLAP", "SNORE", "SKITTERSMACK", "MIMIC", "POISONTAIL"]
-compatible_egg_groups = ["Bug", "Water3"]
+raw_abilities = [
+    "BATTLEARMOR",
+    "SNIPER",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "BITE" },
+    { at_level = 1, name = "POISONSTING" },
+    { at_level = 1, name = "LEER" },
+    { at_level = 6, name = "KNOCKOFF" },
+    { at_level = 9, name = "PINMISSILE" },
+    { at_level = 12, name = "ACUPRESSURE" },
+    { at_level = 15, name = "BUGBITE" },
+    { at_level = 18, name = "POISONFANG" },
+    { at_level = 21, name = "PURSUIT" },
+    { at_level = 24, name = "TOXICSPIKES" },
+    { at_level = 27, name = "TWINEEDLE" },
+    { at_level = 30, name = "FOCUSENERGY" },
+    { at_level = 33, name = "POISONTAIL" },
+    { at_level = 36, name = "SCARYFACE" },
+    { at_level = 40, name = "CRUNCH" },
+    { at_level = 44, name = "NIGHTSLASH" },
+    { at_level = 48, name = "CROSSPOISON" },
+]
+raw_tms = [
+    "CUT",
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "FLASH",
+    "VENOSHOCK",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "RETURN",
+    "SHADOWBALL",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "SLUDGEBOMB",
+    "ROCKTOMB",
+    "AERIALACE",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "FALSESWIPE",
+    "FLING",
+    "PAYBACK",
+    "SWORDSDANCE",
+    "STRUGGLEBUG",
+    "XSCISSOR",
+    "INFESTATION",
+    "POISONJAB",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "DARKPULSE",
+    "CONFIDE",
+    "PINMISSILE",
+    "DIG",
+    "SCREECH",
+    "SCARYFACE",
+    "ASSURANCE",
+    "CRUNCH",
+    "CROSSPOISON",
+    "AGILITY",
+    "ENDURE",
+    "BUGBUZZ",
+]
+raw_tutor_moves = [
+    "AQUATAIL",
+    "BUGBITE",
+    "FURYCUTTER",
+    "HEADBUTT",
+    "IRONTAIL",
+    "KNOCKOFF",
+    "MIMIC",
+    "MUDSLAP",
+    "POISONTAIL",
+    "SKITTERSMACK",
+    "SNORE",
+]
+compatible_egg_groups = [
+    "Bug",
+    "Water3",
+]
 steps_to_hatch = 5355
 height = 0.8
 weight = 12.0
@@ -20,85 +107,24 @@ pokedex_entry = "It grips prey with its tail claws and injects poison. It tenaci
 battler_player_y = 26
 battler_enemy_y = 19
 battler_altitude = 0
-form_names = []
-dex_number = 451
-internal_name = "SKORUPI"
 raw_hidden_ability = "KEENEYE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "POISONSTING"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 6
-name = "KNOCKOFF"
-
-[[raw_level_up_moves]]
-at_level = 9
-name = "PINMISSILE"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "ACUPRESSURE"
-
-[[raw_level_up_moves]]
-at_level = 15
-name = "BUGBITE"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "POISONFANG"
-
-[[raw_level_up_moves]]
-at_level = 21
-name = "PURSUIT"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "TOXICSPIKES"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "TWINEEDLE"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "FOCUSENERGY"
-
-[[raw_level_up_moves]]
-at_level = 33
-name = "POISONTAIL"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "SCARYFACE"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "NIGHTSLASH"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "CROSSPOISON"
-
-[[evolutions]]
-into_name = "DRAPION"
-condition = "Level"
-parameter = "39"
-
-
+raw_egg_moves = [
+    "AGILITY",
+    "CONFUSERAY",
+    "FEINTATTACK",
+    "IRONTAIL",
+    "NIGHTSLASH",
+    "POISONTAIL",
+    "PURSUIT",
+    "SANDATTACK",
+    "SCREECH",
+    "SLASH",
+    "TWINEEDLE",
+    "WHIRLWIND",
+]
+evolutions = [
+    { into_name = "DRAPION", condition = "Level", parameter = "39" },
+]
 
 [base_stats]
 hp = 40

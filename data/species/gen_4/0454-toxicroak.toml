@@ -1,3 +1,4 @@
+dex_number = 454
 name = "Toxicroak"
 primary_type = "POISON"
 secondary_type = "FIGHTING"
@@ -6,11 +7,130 @@ growth_rate = "Medium"
 exp_yield = 172
 catch_rate = 75
 caught_happiness = 70
-raw_abilities = ["DRYSKIN", "POISONTOUCH"]
-raw_egg_moves = []
-raw_tms = ["WORKUP", "CUT", "STRENGTH", "TOXIC", "ROCKSMASH", "BULKUP", "VENOSHOCK", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "EARTHQUAKE", "RETURN", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "SLUDGEWAVE", "SLUDGEBOMB", "ROCKTOMB", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "LOWSWEEP", "ROUND", "FOCUSBLAST", "FLING", "EMBARGO", "PAYBACK", "GIGAIMPACT", "STONEEDGE", "SWORDSDANCE", "BULLDOZE", "ROCKSLIDE", "XSCISSOR", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "DARKPULSE", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "SCREECH", "REVENGE", "ASSURANCE", "CROSSPOISON", "ENDURE", "BATONPASS", "ENCORE", "NASTYPLOT", "VENOMDRENCH", "RETALIATE", "CHILLINGWATER"]
-raw_tutor_moves = ["BOUNCE", "DRAINPUNCH", "DUALCHOP", "FOCUSPUNCH", "FOULPLAY", "FURYCUTTER", "GUNKSHOT", "HEADBUTT", "HELPINGHAND", "ICEPUNCH", "ICYWIND", "KNOCKOFF", "LOWKICK", "MUDSLAP", "ROLEPLAY", "SNATCH", "SNORE", "SPITE", "SUCKERPUNCH", "SUPERFANG", "THROATCHOP", "THUNDERPUNCH", "VACUUMWAVE", "COACHING", "CORROSIVEGAS", "LASHOUT", "MIMIC"]
-compatible_egg_groups = ["Humanlike"]
+raw_abilities = [
+    "DRYSKIN",
+    "POISONTOUCH",
+]
+raw_level_up_moves = [
+    { at_level = 0, name = "CROSSCHOP" },
+    { at_level = 1, name = "FOCUSPUNCH" },
+    { at_level = 1, name = "ASTONISH" },
+    { at_level = 1, name = "MUDSLAP" },
+    { at_level = 1, name = "POISONSTING" },
+    { at_level = 4, name = "PURSUIT" },
+    { at_level = 7, name = "HEADBUTT" },
+    { at_level = 10, name = "FAKEOUT" },
+    { at_level = 13, name = "MUDBOMB" },
+    { at_level = 16, name = "REVENGE" },
+    { at_level = 19, name = "BULLETPUNCH" },
+    { at_level = 22, name = "FEINTATTACK" },
+    { at_level = 25, name = "SUCKERPUNCH" },
+    { at_level = 28, name = "HELPINGHAND" },
+    { at_level = 31, name = "COUNTER" },
+    { at_level = 37, name = "PAYBACK" },
+    { at_level = 41, name = "VACUUMWAVE" },
+    { at_level = 45, name = "NASTYPLOT" },
+    { at_level = 49, name = "DRAINPUNCH" },
+    { at_level = 53, name = "CROSSPOISON" },
+    { at_level = 57, name = "ACUPRESSURE" },
+    { at_level = 61, name = "CLOSECOMBAT" },
+]
+raw_tms = [
+    "WORKUP",
+    "CUT",
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "BULKUP",
+    "VENOSHOCK",
+    "ROCKCLIMB",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "EARTHQUAKE",
+    "RETURN",
+    "SHADOWBALL",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "SLUDGEWAVE",
+    "SLUDGEBOMB",
+    "ROCKTOMB",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "LOWSWEEP",
+    "ROUND",
+    "FOCUSBLAST",
+    "FLING",
+    "EMBARGO",
+    "PAYBACK",
+    "GIGAIMPACT",
+    "STONEEDGE",
+    "SWORDSDANCE",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "XSCISSOR",
+    "POISONJAB",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "DARKPULSE",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "DIG",
+    "SCREECH",
+    "REVENGE",
+    "ASSURANCE",
+    "CROSSPOISON",
+    "ENDURE",
+    "BATONPASS",
+    "ENCORE",
+    "NASTYPLOT",
+    "VENOMDRENCH",
+    "RETALIATE",
+    "CHILLINGWATER",
+]
+raw_tutor_moves = [
+    "BOUNCE",
+    "COACHING",
+    "CORROSIVEGAS",
+    "DRAINPUNCH",
+    "DUALCHOP",
+    "FOCUSPUNCH",
+    "FOULPLAY",
+    "FURYCUTTER",
+    "GUNKSHOT",
+    "HEADBUTT",
+    "HELPINGHAND",
+    "ICEPUNCH",
+    "ICYWIND",
+    "KNOCKOFF",
+    "LASHOUT",
+    "LOWKICK",
+    "MIMIC",
+    "MUDSLAP",
+    "ROLEPLAY",
+    "SNATCH",
+    "SNORE",
+    "SPITE",
+    "SUCKERPUNCH",
+    "SUPERFANG",
+    "THROATCHOP",
+    "THUNDERPUNCH",
+    "VACUUMWAVE",
+]
+compatible_egg_groups = [
+    "Humanlike",
+]
 steps_to_hatch = 5355
 height = 1.3
 weight = 44.4
@@ -20,98 +140,6 @@ pokedex_entry = "Its knuckle claws secrete a toxin so vile that even a scratch c
 battler_player_y = 17
 battler_enemy_y = 13
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 454
-internal_name = "TOXICROAK"
-
-[[raw_level_up_moves]]
-at_level = 0
-name = "CROSSCHOP"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FOCUSPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ASTONISH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "MUDSLAP"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "POISONSTING"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "PURSUIT"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "HEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "FAKEOUT"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "MUDBOMB"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "REVENGE"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "BULLETPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "FEINTATTACK"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "SUCKERPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "HELPINGHAND"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "COUNTER"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "PAYBACK"
-
-[[raw_level_up_moves]]
-at_level = 41
-name = "VACUUMWAVE"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "NASTYPLOT"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "DRAINPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 53
-name = "CROSSPOISON"
-
-[[raw_level_up_moves]]
-at_level = 57
-name = "ACUPRESSURE"
-
-[[raw_level_up_moves]]
-at_level = 61
-name = "CLOSECOMBAT"
 
 [base_stats]
 hp = 83

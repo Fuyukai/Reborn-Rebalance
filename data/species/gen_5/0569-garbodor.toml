@@ -1,3 +1,4 @@
+dex_number = 569
 name = "Garbodor"
 primary_type = "POISON"
 secondary_type = "POISON"
@@ -6,11 +7,100 @@ growth_rate = "Medium"
 exp_yield = 166
 catch_rate = 60
 caught_happiness = 70
-raw_abilities = ["GOOEY", "INNARDSOUT"]
-raw_egg_moves = []
-raw_tms = ["TOXIC", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "SOLARBEAM", "SMACKDOWN", "THUNDERBOLT", "RETURN", "PSYCHIC", "DOUBLETEAM", "SLUDGEWAVE", "SLUDGEBOMB", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "FOCUSBLAST", "FLING", "EXPLOSION", "PAYBACK", "GIGAIMPACT", "ROCKPOLISH", "INFESTATION", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "DARKPULSE", "CONFIDE", "SCREECH", "SELFDESTRUCT", "ROCKBLAST", "CROSSPOISON", "BODYSLAM", "AMNESIA", "SPIKES", "ENDURE", "TOXICSPIKES", "VENOMDRENCH", "BODYPRESS"]
-raw_tutor_moves = ["DRAINPUNCH", "GIGADRAIN", "GUNKSHOT", "PAINSPLIT", "RECYCLE", "SEEDBOMB", "SNORE", "SPITE", "STOMPINGTANTRUM", "CORROSIVEGAS", "MIMIC"]
-compatible_egg_groups = ["Mineral"]
+raw_abilities = [
+    "GOOEY",
+    "INNARDSOUT",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "AUTOTOMIZE" },
+    { at_level = 1, name = "METALCLAW" },
+    { at_level = 1, name = "SPITE" },
+    { at_level = 1, name = "WIDEGUARD" },
+    { at_level = 4, name = "MUDSLAP" },
+    { at_level = 7, name = "CURSE" },
+    { at_level = 10, name = "ROCKBLAST" },
+    { at_level = 13, name = "ACIDSPRAY" },
+    { at_level = 16, name = "TOXIC" },
+    { at_level = 19, name = "ROLLOUT" },
+    { at_level = 22, name = "CLEARSMOG" },
+    { at_level = 25, name = "FLING" },
+    { at_level = 28, name = "SLUDGE" },
+    { at_level = 31, name = "RECYCLE" },
+    { at_level = 34, name = "STOCKPILE" },
+    { at_level = 34, name = "SWALLOW" },
+    { at_level = 36, name = "SPIKES" },
+    { at_level = 36, name = "TOXICSPIKES" },
+    { at_level = 39, name = "CROSSPOISON" },
+    { at_level = 42, name = "BODYSLAM" },
+    { at_level = 45, name = "PAINSPLIT" },
+    { at_level = 49, name = "AMNESIA" },
+    { at_level = 53, name = "PAYBACK" },
+    { at_level = 58, name = "DOUBLEEDGE" },
+    { at_level = 62, name = "SELFDESTRUCT" },
+]
+raw_tms = [
+    "TOXIC",
+    "VENOSHOCK",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "SMACKDOWN",
+    "THUNDERBOLT",
+    "RETURN",
+    "PSYCHIC",
+    "DOUBLETEAM",
+    "SLUDGEWAVE",
+    "SLUDGEBOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "FOCUSBLAST",
+    "FLING",
+    "EXPLOSION",
+    "PAYBACK",
+    "GIGAIMPACT",
+    "ROCKPOLISH",
+    "INFESTATION",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "DARKPULSE",
+    "CONFIDE",
+    "SCREECH",
+    "SELFDESTRUCT",
+    "ROCKBLAST",
+    "CROSSPOISON",
+    "BODYSLAM",
+    "AMNESIA",
+    "SPIKES",
+    "ENDURE",
+    "TOXICSPIKES",
+    "VENOMDRENCH",
+    "BODYPRESS",
+]
+raw_tutor_moves = [
+    "CORROSIVEGAS",
+    "DRAINPUNCH",
+    "GIGADRAIN",
+    "GUNKSHOT",
+    "MIMIC",
+    "PAINSPLIT",
+    "RECYCLE",
+    "SEEDBOMB",
+    "SNORE",
+    "SPITE",
+    "STOMPINGTANTRUM",
+]
+compatible_egg_groups = [
+    "Mineral",
+]
 steps_to_hatch = 5120
 height = 1.9
 weight = 107.3
@@ -20,110 +110,6 @@ pokedex_entry = "They absorb garbage and make it part of their bodies. They shoo
 battler_player_y = 11
 battler_enemy_y = 17
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 569
-internal_name = "GARBODOR"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "AUTOTOMIZE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "METALCLAW"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SPITE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WIDEGUARD"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "MUDSLAP"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "CURSE"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "ROCKBLAST"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "ACIDSPRAY"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "TOXIC"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "ROLLOUT"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "CLEARSMOG"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "FLING"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "SLUDGE"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "RECYCLE"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "STOCKPILE"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "SWALLOW"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "SPIKES"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "TOXICSPIKES"
-
-[[raw_level_up_moves]]
-at_level = 39
-name = "CROSSPOISON"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "PAINSPLIT"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "AMNESIA"
-
-[[raw_level_up_moves]]
-at_level = 53
-name = "PAYBACK"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "DOUBLEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 62
-name = "SELFDESTRUCT"
 
 [base_stats]
 hp = 80

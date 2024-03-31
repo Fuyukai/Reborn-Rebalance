@@ -1,3 +1,4 @@
+dex_number = 320
 name = "Wailmer"
 primary_type = "WATER"
 secondary_type = "WATER"
@@ -6,11 +7,95 @@ growth_rate = "Fluctuating"
 exp_yield = 80
 catch_rate = 125
 caught_happiness = 70
-raw_abilities = ["WATERVEIL", "OBLIVIOUS"]
-raw_egg_moves = ["AQUARING", "BODYSLAM", "CLEARSMOG", "CURSE", "DEFENSECURL", "DOUBLEEDGE", "FISSURE", "SLEEPTALK", "SNORE", "SOAK", "THRASH", "TICKLE", "ZENHEADBUTT"]
-raw_tms = ["SURF", "STRENGTH", "ROAR", "WATERFALL", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "SCALD", "BULLDOZE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "SELFDESTRUCT", "WHIRLPOOL", "WEATHERBALL", "BRINE", "AVALANCHE", "BODYSLAM", "HYDROPUMP", "HURRICANE", "AMNESIA", "ENDURE", "BATONPASS", "COSMICPOWER", "HEAVYSLAM", "BODYPRESS"]
-raw_tutor_moves = ["BOUNCE", "HEADBUTT", "HYPERVOICE", "ICYWIND", "ROLLOUT", "SNORE", "WATERPULSE", "ZENHEADBUTT", "STEELROLLER", "MIMIC"]
-compatible_egg_groups = ["Field", "Water2"]
+raw_abilities = [
+    "WATERVEIL",
+    "OBLIVIOUS",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "AQUARING" },
+    { at_level = 1, name = "GROWL" },
+    { at_level = 1, name = "SPLASH" },
+    { at_level = 1, name = "WATERGUN" },
+    { at_level = 4, name = "MIST" },
+    { at_level = 7, name = "DEFENSECURL" },
+    { at_level = 10, name = "ROLLOUT" },
+    { at_level = 13, name = "WHIRLPOOL" },
+    { at_level = 16, name = "TICKLE" },
+    { at_level = 19, name = "AMNESIA" },
+    { at_level = 22, name = "WATERPULSE" },
+    { at_level = 25, name = "ZENHEADBUTT" },
+    { at_level = 28, name = "BODYSLAM" },
+    { at_level = 32, name = "HEAVYSLAM" },
+    { at_level = 36, name = "BRINE" },
+    { at_level = 40, name = "FINALGAMBIT" },
+    { at_level = 44, name = "CURSE" },
+    { at_level = 48, name = "HYPERVOICE" },
+    { at_level = 52, name = "SOAK" },
+    { at_level = 56, name = "HYDROPUMP" },
+    { at_level = 60, name = "FOLLOWME" },
+]
+raw_tms = [
+    "SURF",
+    "STRENGTH",
+    "ROAR",
+    "WATERFALL",
+    "TOXIC",
+    "DIVE",
+    "HAIL",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "ICEBEAM",
+    "BLIZZARD",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "EARTHQUAKE",
+    "RETURN",
+    "DOUBLETEAM",
+    "ROCKTOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ECHOEDVOICE",
+    "SCALD",
+    "BULLDOZE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "SELFDESTRUCT",
+    "WHIRLPOOL",
+    "WEATHERBALL",
+    "BRINE",
+    "AVALANCHE",
+    "BODYSLAM",
+    "HYDROPUMP",
+    "HURRICANE",
+    "AMNESIA",
+    "ENDURE",
+    "BATONPASS",
+    "COSMICPOWER",
+    "HEAVYSLAM",
+    "BODYPRESS",
+]
+raw_tutor_moves = [
+    "BOUNCE",
+    "HEADBUTT",
+    "HYPERVOICE",
+    "ICYWIND",
+    "MIMIC",
+    "ROLLOUT",
+    "SNORE",
+    "STEELROLLER",
+    "WATERPULSE",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Field",
+    "Water2",
+]
 steps_to_hatch = 10455
 height = 2.0
 weight = 130.0
@@ -20,102 +105,26 @@ pokedex_entry = "While this Pokémon usually lives in the sea, it can survive on
 battler_player_y = 26
 battler_enemy_y = 19
 battler_altitude = 0
-form_names = []
-dex_number = 320
-internal_name = "WAILMER"
 raw_hidden_ability = "PRESSURE"
+raw_egg_moves = [
+    "AQUARING",
+    "BODYSLAM",
+    "CLEARSMOG",
+    "CURSE",
+    "DEFENSECURL",
+    "DOUBLEEDGE",
+    "FISSURE",
+    "SLEEPTALK",
+    "SNORE",
+    "SOAK",
+    "THRASH",
+    "TICKLE",
+    "ZENHEADBUTT",
+]
 habitat = "Sea"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "AQUARING"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SPLASH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WATERGUN"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "MIST"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "DEFENSECURL"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "ROLLOUT"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "WHIRLPOOL"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "TICKLE"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "AMNESIA"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "WATERPULSE"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "ZENHEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "HEAVYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "BRINE"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "FINALGAMBIT"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "CURSE"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "HYPERVOICE"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "SOAK"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "HYDROPUMP"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "FOLLOWME"
-
-[[evolutions]]
-into_name = "WAILORD"
-condition = "Level"
-parameter = "40"
-
-
+evolutions = [
+    { into_name = "WAILORD", condition = "Level", parameter = "40" },
+]
 
 [base_stats]
 hp = 130
@@ -132,5 +141,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

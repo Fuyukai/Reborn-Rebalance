@@ -1,3 +1,4 @@
+dex_number = 167
 name = "Spinarak"
 primary_type = "BUG"
 secondary_type = "POISON"
@@ -6,11 +7,91 @@ growth_rate = "Fast"
 exp_yield = 50
 catch_rate = 255
 caught_happiness = 70
-raw_abilities = ["SNIPER", "INSOMNIA"]
-raw_egg_moves = ["BATONPASS", "DISABLE", "ELECTROWEB", "LUNGE", "MEGAHORN", "NIGHTSLASH", "PSYBEAM", "PURSUIT", "RAGEPOWDER", "SIGNALBEAM", "SONICBOOM", "TOXICSPIKES", "TWINEEDLE"]
-raw_tms = ["TOXIC", "FLASH", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "FRUSTRATION", "SOLARBEAM", "RETURN", "LEECHLIFE", "PSYCHIC", "DOUBLETEAM", "SLUDGEBOMB", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "STRUGGLEBUG", "XSCISSOR", "INFESTATION", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "PINMISSILE", "DIG", "SCREECH", "SCARYFACE", "ASSURANCE", "CROSSPOISON", "BODYSLAM", "MEGAHORN", "AGILITY", "ENDURE", "BATONPASS", "TOXICSPIKES", "VENOMDRENCH"]
-raw_tutor_moves = ["BOUNCE", "BUGBITE", "ELECTROWEB", "FOULPLAY", "GIGADRAIN", "SIGNALBEAM", "SNORE", "STRINGSHOT", "SUCKERPUNCH", "MIMIC"]
-compatible_egg_groups = ["Bug"]
+raw_abilities = [
+    "SNIPER",
+    "INSOMNIA",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "ABSORB" },
+    { at_level = 1, name = "SCARYFACE" },
+    { at_level = 1, name = "POISONSTING" },
+    { at_level = 4, name = "FURYSWIPES" },
+    { at_level = 7, name = "TWINEEDLE" },
+    { at_level = 10, name = "STRINGSHOT" },
+    { at_level = 13, name = "NIGHTSHADE" },
+    { at_level = 16, name = "POISONFANG" },
+    { at_level = 19, name = "SHADOWSNEAK" },
+    { at_level = 22, name = "LUNGE" },
+    { at_level = 24, name = "ELECTROWEB" },
+    { at_level = 26, name = "RAGEPOWDER" },
+    { at_level = 28, name = "SUCKERPUNCH" },
+    { at_level = 30, name = "TOXICSPIKES" },
+    { at_level = 32, name = "SLASH" },
+    { at_level = 32, name = "NIGHTSLASH" },
+    { at_level = 35, name = "PINMISSILE" },
+    { at_level = 38, name = "CROSSPOISON" },
+    { at_level = 42, name = "LEECHLIFE" },
+    { at_level = 46, name = "AGILITY" },
+    { at_level = 50, name = "FOULPLAY" },
+    { at_level = 54, name = "MEGAHORN" },
+]
+raw_tms = [
+    "TOXIC",
+    "FLASH",
+    "VENOSHOCK",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "PROTECT",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "LEECHLIFE",
+    "PSYCHIC",
+    "DOUBLETEAM",
+    "SLUDGEBOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "STRUGGLEBUG",
+    "XSCISSOR",
+    "INFESTATION",
+    "POISONJAB",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "PINMISSILE",
+    "DIG",
+    "SCREECH",
+    "SCARYFACE",
+    "ASSURANCE",
+    "CROSSPOISON",
+    "BODYSLAM",
+    "MEGAHORN",
+    "AGILITY",
+    "ENDURE",
+    "BATONPASS",
+    "TOXICSPIKES",
+    "VENOMDRENCH",
+]
+raw_tutor_moves = [
+    "BOUNCE",
+    "BUGBITE",
+    "ELECTROWEB",
+    "FOULPLAY",
+    "GIGADRAIN",
+    "MIMIC",
+    "SIGNALBEAM",
+    "SNORE",
+    "STRINGSHOT",
+    "SUCKERPUNCH",
+]
+compatible_egg_groups = [
+    "Bug",
+]
 steps_to_hatch = 4080
 height = 0.5
 weight = 8.5
@@ -20,105 +101,25 @@ pokedex_entry = "The web it spins can be considered its second nervous system. A
 battler_player_y = 34
 battler_enemy_y = 28
 battler_altitude = 0
-form_names = []
-dex_number = 167
-internal_name = "SPINARAK"
+raw_egg_moves = [
+    "BATONPASS",
+    "DISABLE",
+    "ELECTROWEB",
+    "LUNGE",
+    "MEGAHORN",
+    "NIGHTSLASH",
+    "PSYBEAM",
+    "PURSUIT",
+    "RAGEPOWDER",
+    "SIGNALBEAM",
+    "SONICBOOM",
+    "TOXICSPIKES",
+    "TWINEEDLE",
+]
 habitat = "Forest"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ABSORB"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SCARYFACE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "POISONSTING"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "FURYSWIPES"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "TWINEEDLE"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "STRINGSHOT"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "NIGHTSHADE"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "POISONFANG"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "SHADOWSNEAK"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "LUNGE"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "ELECTROWEB"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "RAGEPOWDER"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "SUCKERPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "TOXICSPIKES"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "SLASH"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "NIGHTSLASH"
-
-[[raw_level_up_moves]]
-at_level = 35
-name = "PINMISSILE"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "CROSSPOISON"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "LEECHLIFE"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "AGILITY"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "FOULPLAY"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "MEGAHORN"
-
-[[evolutions]]
-into_name = "ARIADOS"
-condition = "Level"
-parameter = "22"
-
-
+evolutions = [
+    { into_name = "ARIADOS", condition = "Level", parameter = "22" },
+]
 
 [base_stats]
 hp = 40
@@ -135,5 +136,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

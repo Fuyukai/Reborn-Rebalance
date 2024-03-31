@@ -1,3 +1,4 @@
+dex_number = 182
 name = "Bellossom"
 primary_type = "GRASS"
 secondary_type = "GRASS"
@@ -6,11 +7,88 @@ growth_rate = "Parabolic"
 exp_yield = 216
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["DANCER", "CLOUDNINE", "HEALER"]
-raw_egg_moves = []
-raw_tms = ["CUT", "TOXIC", "FLASH", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "SLUDGEBOMB", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "FLING", "GIGAIMPACT", "SWORDSDANCE", "INFESTATION", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "DAZZLINGGLEAM", "CONFIDE", "MAGICALLEAF", "CHARM", "BULLETSEED", "LEAFBLADE", "GRASSYTERRAIN", "LEAFSTORM", "ENDURE", "BATONPASS", "PLAYROUGH"]
-raw_tutor_moves = ["AFTERYOU", "DRAINPUNCH", "GASTROACID", "GIGADRAIN", "HELPINGHAND", "LASERFOCUS", "SEEDBOMB", "SNORE", "SYNTHESIS", "UPROAR", "WORRYSEED", "GRASSYGLIDE", "MIMIC"]
-compatible_egg_groups = ["Grass"]
+raw_abilities = [
+    "DANCER",
+    "CLOUDNINE",
+    "HEALER",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "DRAINPUNCH" },
+    { at_level = 1, name = "EARTHPOWER" },
+    { at_level = 1, name = "GROWTH" },
+    { at_level = 1, name = "LEAFBLADE" },
+    { at_level = 1, name = "POISONPOWDER" },
+    { at_level = 1, name = "SLEEPPOWDER" },
+    { at_level = 1, name = "STUNSPORE" },
+    { at_level = 1, name = "TEETERDANCE" },
+    { at_level = 25, name = "FIERYDANCE" },
+    { at_level = 30, name = "LEAFTORNADO" },
+    { at_level = 36, name = "MEGADRAIN" },
+    { at_level = 42, name = "MOONBLAST" },
+    { at_level = 48, name = "PETALDANCE" },
+    { at_level = 58, name = "QUIVERDANCE" },
+    { at_level = 68, name = "LEAFSTORM" },
+]
+raw_tms = [
+    "CUT",
+    "TOXIC",
+    "FLASH",
+    "VENOSHOCK",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "PROTECT",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "DOUBLETEAM",
+    "SLUDGEBOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ENERGYBALL",
+    "FLING",
+    "GIGAIMPACT",
+    "SWORDSDANCE",
+    "INFESTATION",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "NATUREPOWER",
+    "DAZZLINGGLEAM",
+    "CONFIDE",
+    "MAGICALLEAF",
+    "CHARM",
+    "BULLETSEED",
+    "LEAFBLADE",
+    "GRASSYTERRAIN",
+    "LEAFSTORM",
+    "ENDURE",
+    "BATONPASS",
+    "PLAYROUGH",
+]
+raw_tutor_moves = [
+    "AFTERYOU",
+    "DRAINPUNCH",
+    "GASTROACID",
+    "GIGADRAIN",
+    "GRASSYGLIDE",
+    "HELPINGHAND",
+    "LASERFOCUS",
+    "MIMIC",
+    "SEEDBOMB",
+    "SNORE",
+    "SYNTHESIS",
+    "UPROAR",
+    "WORRYSEED",
+]
+compatible_egg_groups = [
+    "Grass",
+]
 steps_to_hatch = 5355
 height = 0.4
 weight = 5.8
@@ -20,71 +98,7 @@ pokedex_entry = "Its flower petals deepen in color through exposure to sunlight.
 battler_player_y = 30
 battler_enemy_y = 25
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 182
-internal_name = "BELLOSSOM"
 habitat = "Grassland"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "DRAINPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "EARTHPOWER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWTH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEAFBLADE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "POISONPOWDER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SLEEPPOWDER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "STUNSPORE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TEETERDANCE"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "FIERYDANCE"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "LEAFTORNADO"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "MEGADRAIN"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "MOONBLAST"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "PETALDANCE"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "QUIVERDANCE"
-
-[[raw_level_up_moves]]
-at_level = 68
-name = "LEAFSTORM"
 
 [base_stats]
 hp = 90

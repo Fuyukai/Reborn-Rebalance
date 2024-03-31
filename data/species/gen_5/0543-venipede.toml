@@ -1,3 +1,4 @@
+dex_number = 543
 name = "Venipede"
 primary_type = "BUG"
 secondary_type = "POISON"
@@ -6,11 +7,82 @@ growth_rate = "Parabolic"
 exp_yield = 52
 catch_rate = 255
 caught_happiness = 70
-raw_abilities = ["POISONPOINT", "SWARM"]
-raw_egg_moves = ["PINMISSILE", "ROCKCLIMB", "SPIKES", "TAKEDOWN", "TOXICSPIKES", "TWINEEDLE", "MORTALSPIN"]
-raw_tms = ["TOXIC", "ROCKSMASH", "VENOSHOCK", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "FRUSTRATION", "SOLARBEAM", "RETURN", "DOUBLETEAM", "SLUDGEBOMB", "FACADE", "REST", "ATTRACT", "ROUND", "PAYBACK", "GYROBALL", "STRUGGLEBUG", "INFESTATION", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "PINMISSILE", "SCREECH", "HEX", "AGILITY", "SPIKES", "ENDURE", "TOXICSPIKES", "VENOMDRENCH", "BUGBUZZ"]
-raw_tutor_moves = ["BUGBITE", "ENDEAVOR", "IRONDEFENSE", "SIGNALBEAM", "SNORE", "SKITTERSMACK", "STEELROLLER", "MIMIC", "POISONTAIL"]
-compatible_egg_groups = ["Bug"]
+raw_abilities = [
+    "POISONPOINT",
+    "SWARM",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "POISONSTING" },
+    { at_level = 1, name = "DEFENSECURL" },
+    { at_level = 4, name = "ROLLOUT" },
+    { at_level = 8, name = "PROTECT" },
+    { at_level = 11, name = "POISONFANG" },
+    { at_level = 14, name = "SCREECH" },
+    { at_level = 16, name = "BITE" },
+    { at_level = 18, name = "BUGBITE" },
+    { at_level = 20, name = "COIL" },
+    { at_level = 23, name = "FURYCUTTER" },
+    { at_level = 26, name = "PAYBACK" },
+    { at_level = 29, name = "PINMISSILE" },
+    { at_level = 30, name = "AGILITY" },
+    { at_level = 33, name = "TOXICSPIKES" },
+    { at_level = 33, name = "SPIKES" },
+    { at_level = 37, name = "SMARTSTRIKE" },
+    { at_level = 41, name = "POISONTAIL" },
+    { at_level = 45, name = "STEAMROLLER" },
+    { at_level = 49, name = "TAKEDOWN" },
+]
+raw_tms = [
+    "TOXIC",
+    "ROCKSMASH",
+    "VENOSHOCK",
+    "ROCKCLIMB",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "PROTECT",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "DOUBLETEAM",
+    "SLUDGEBOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "PAYBACK",
+    "GYROBALL",
+    "STRUGGLEBUG",
+    "INFESTATION",
+    "POISONJAB",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "PINMISSILE",
+    "SCREECH",
+    "HEX",
+    "AGILITY",
+    "SPIKES",
+    "ENDURE",
+    "TOXICSPIKES",
+    "BUGBUZZ",
+    "VENOMDRENCH",
+]
+raw_tutor_moves = [
+    "BUGBITE",
+    "ENDEAVOR",
+    "IRONDEFENSE",
+    "MIMIC",
+    "POISONTAIL",
+    "SIGNALBEAM",
+    "SKITTERSMACK",
+    "SNORE",
+    "STEELROLLER",
+]
+compatible_egg_groups = [
+    "Bug",
+]
 steps_to_hatch = 3840
 height = 0.4
 weight = 5.3
@@ -20,93 +92,19 @@ pokedex_entry = "It discovers what is going on around it by using the feelers on
 battler_player_y = 33
 battler_enemy_y = 35
 battler_altitude = 0
-form_names = []
-dex_number = 543
-internal_name = "VENIPEDE"
 raw_hidden_ability = "SPEEDBOOST"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "POISONSTING"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "DEFENSECURL"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "ROLLOUT"
-
-[[raw_level_up_moves]]
-at_level = 8
-name = "PROTECT"
-
-[[raw_level_up_moves]]
-at_level = 11
-name = "POISONFANG"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "SCREECH"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "BUGBITE"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "COIL"
-
-[[raw_level_up_moves]]
-at_level = 23
-name = "FURYCUTTER"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "PAYBACK"
-
-[[raw_level_up_moves]]
-at_level = 29
-name = "PINMISSILE"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "AGILITY"
-
-[[raw_level_up_moves]]
-at_level = 33
-name = "TOXICSPIKES"
-
-[[raw_level_up_moves]]
-at_level = 33
-name = "SPIKES"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "SMARTSTRIKE"
-
-[[raw_level_up_moves]]
-at_level = 41
-name = "POISONTAIL"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "STEAMROLLER"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "TAKEDOWN"
-
-[[evolutions]]
-into_name = "WHIRLIPEDE"
-condition = "Level"
-parameter = "20"
-
-
+raw_egg_moves = [
+    "PINMISSILE",
+    "ROCKCLIMB",
+    "SPIKES",
+    "TAKEDOWN",
+    "TOXICSPIKES",
+    "TWINEEDLE",
+    "MORTALSPIN",
+]
+evolutions = [
+    { into_name = "WHIRLIPEDE", condition = "Level", parameter = "20" },
+]
 
 [base_stats]
 hp = 30
@@ -123,5 +121,3 @@ def_ = 1
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

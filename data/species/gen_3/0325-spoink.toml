@@ -1,3 +1,4 @@
+dex_number = 325
 name = "Spoink"
 primary_type = "PSYCHIC"
 secondary_type = "PSYCHIC"
@@ -6,11 +7,100 @@ growth_rate = "Fast"
 exp_yield = 66
 catch_rate = 255
 caught_happiness = 70
-raw_abilities = ["THICKFAT", "OWNTEMPO"]
-raw_egg_moves = ["AMNESIA", "ENDURE", "LUMINACRASH", "EXTRASENSORY", "FUTURESIGHT", "LUCKYCHANT", "MIRRORCOAT", "SIMPLEBEAM", "SKILLSWAP", "TRICK", "WHIRLWIND", "ZENHEADBUTT"]
-raw_tms = ["PSYSHOCK", "CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "CHARGEBEAM", "PAYBACK", "THUNDERWAVE", "PSYCHUP", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "CONFIDE", "BODYSLAM", "AMNESIA", "ENDURE", "FUTURESIGHT", "POWERGEM", "SNOWSCAPE", "TRAILBLAZE", "CHILLINGWATER", "SWIFT"]
-raw_tutor_moves = ["ALLYSWITCH", "BOUNCE", "COVET", "HEADBUTT", "HEALBELL", "ICYWIND", "IRONTAIL", "MAGICCOAT", "RECYCLE", "ROLEPLAY", "SHOCKWAVE", "SIGNALBEAM", "SKILLSWAP", "SNATCH", "SNORE", "TELEKINESIS", "TRICK", "ZENHEADBUTT", "MIMIC"]
-compatible_egg_groups = ["Field"]
+raw_abilities = [
+    "THICKFAT",
+    "OWNTEMPO",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "SPLASH" },
+    { at_level = 1, name = "PSYWAVE" },
+    { at_level = 7, name = "ODORSLEUTH" },
+    { at_level = 10, name = "PSYBEAM" },
+    { at_level = 13, name = "PSYCHUP" },
+    { at_level = 16, name = "CONFUSERAY" },
+    { at_level = 19, name = "ZENHEADBUTT" },
+    { at_level = 22, name = "MIRRORCOAT" },
+    { at_level = 22, name = "MAGICCOAT" },
+    { at_level = 25, name = "AMNESIA" },
+    { at_level = 28, name = "FUTURESIGHT" },
+    { at_level = 31, name = "LUCKYCHANT" },
+    { at_level = 34, name = "EXTRASENSORY" },
+    { at_level = 37, name = "SIMPLEBEAM" },
+    { at_level = 40, name = "BOUNCE" },
+    { at_level = 43, name = "PSYCHIC" },
+    { at_level = 46, name = "TRICK" },
+    { at_level = 49, name = "WHIRLWIND" },
+    { at_level = 52, name = "BOUNCE" },
+]
+raw_tms = [
+    "PSYSHOCK",
+    "CALMMIND",
+    "TOXIC",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "REFLECT",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "CHARGEBEAM",
+    "PAYBACK",
+    "THUNDERWAVE",
+    "PSYCHUP",
+    "DREAMEATER",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "TRICKROOM",
+    "SECRETPOWER",
+    "CONFIDE",
+    "BODYSLAM",
+    "AMNESIA",
+    "ENDURE",
+    "FUTURESIGHT",
+    "POWERGEM",
+    "SNOWSCAPE",
+    "TRAILBLAZE",
+    "CHILLINGWATER",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "ALLYSWITCH",
+    "BOUNCE",
+    "COVET",
+    "HEADBUTT",
+    "HEALBELL",
+    "ICYWIND",
+    "IRONTAIL",
+    "MAGICCOAT",
+    "MIMIC",
+    "RECYCLE",
+    "ROLEPLAY",
+    "SHOCKWAVE",
+    "SIGNALBEAM",
+    "SKILLSWAP",
+    "SNATCH",
+    "SNORE",
+    "TELEKINESIS",
+    "TRICK",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Field",
+]
 steps_to_hatch = 5355
 height = 0.7
 weight = 30.6
@@ -20,94 +110,25 @@ pokedex_entry = "A Pokémon that manipulates psychic power at will. It doesn't s
 battler_player_y = 22
 battler_enemy_y = 18
 battler_altitude = 0
-form_names = []
-dex_number = 325
-internal_name = "SPOINK"
 raw_hidden_ability = "GLUTTONY"
+raw_egg_moves = [
+    "AMNESIA",
+    "ENDURE",
+    "LUMINACRASH",
+    "EXTRASENSORY",
+    "FUTURESIGHT",
+    "LUCKYCHANT",
+    "MIRRORCOAT",
+    "SIMPLEBEAM",
+    "SKILLSWAP",
+    "TRICK",
+    "WHIRLWIND",
+    "ZENHEADBUTT",
+]
 habitat = "Mountain"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SPLASH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "PSYWAVE"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "ODORSLEUTH"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "PSYBEAM"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "PSYCHUP"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "CONFUSERAY"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "ZENHEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "MIRRORCOAT"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "MAGICCOAT"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "AMNESIA"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "FUTURESIGHT"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "LUCKYCHANT"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "EXTRASENSORY"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "SIMPLEBEAM"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "BOUNCE"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "PSYCHIC"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "TRICK"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "WHIRLWIND"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "BOUNCE"
-
-[[evolutions]]
-into_name = "GRUMPIG"
-condition = "Level"
-parameter = "32"
-
-
+evolutions = [
+    { into_name = "GRUMPIG", condition = "Level", parameter = "32" },
+]
 
 [base_stats]
 hp = 60
@@ -124,5 +145,3 @@ def_ = 0
 spa = 0
 spd = 1
 spe = 0
-
-[wild_items]

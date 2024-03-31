@@ -1,3 +1,4 @@
+dex_number = 156
 name = "Quilava"
 primary_type = "FIRE"
 secondary_type = "GROUND"
@@ -6,11 +7,89 @@ growth_rate = "Parabolic"
 exp_yield = 142
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["BLAZE", "ANGERPOINT", "FLASHFIRE"]
-raw_egg_moves = []
-raw_tms = ["WORKUP", "CUT", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "FRUSTRATION", "RETURN", "BRICKBREAK", "DOUBLETEAM", "FLAMETHROWER", "FIREBLAST", "AERIALACE", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "ROUND", "OVERHEAT", "WILLOWISP", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "DIG", "BODYSLAM", "FLAREBLITZ", "REVERSAL", "ENDURE", "SWIFT"]
-raw_tutor_moves = ["COVET", "FIREPLEDGE", "FOCUSPUNCH", "FURYCUTTER", "HEADBUTT", "HEATWAVE", "IRONTAIL", "MUDSLAP", "ROLLOUT", "SNORE", "MIMIC", "EARTHPOWER"]
-compatible_egg_groups = ["Field"]
+raw_abilities = [
+    "BLAZE",
+    "ANGERPOINT",
+    "FLASHFIRE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 1, name = "LEER" },
+    { at_level = 5, name = "EMBER" },
+    { at_level = 7, name = "SMOKESCREEN" },
+    { at_level = 10, name = "QUICKATTACK" },
+    { at_level = 13, name = "FLAMEWHEEL" },
+    { at_level = 14, name = "DOUBLEKICK" },
+    { at_level = 16, name = "DEFENSECURL" },
+    { at_level = 20, name = "REVERSAL" },
+    { at_level = 22, name = "FLAMEBURST" },
+    { at_level = 25, name = "ROLLOUT" },
+    { at_level = 28, name = "SWIFT" },
+    { at_level = 31, name = "CRUSHCLAW" },
+    { at_level = 34, name = "BODYSLAM" },
+    { at_level = 37, name = "WORKUP" },
+    { at_level = 40, name = "NATUREPOWER" },
+    { at_level = 43, name = "INFERNO" },
+    { at_level = 46, name = "EXTRASENSORY" },
+    { at_level = 49, name = "MYSTICALFIRE" },
+    { at_level = 52, name = "DOUBLEEDGE" },
+    { at_level = 55, name = "FLAREBLITZ" },
+]
+raw_tms = [
+    "WORKUP",
+    "CUT",
+    "STRENGTH",
+    "ROAR",
+    "TOXIC",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "PROTECT",
+    "FRUSTRATION",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "FLAMETHROWER",
+    "FIREBLAST",
+    "AERIALACE",
+    "FACADE",
+    "FLAMECHARGE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "OVERHEAT",
+    "WILLOWISP",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "WILDCHARGE",
+    "SECRETPOWER",
+    "NATUREPOWER",
+    "CONFIDE",
+    "DIG",
+    "BODYSLAM",
+    "FLAREBLITZ",
+    "REVERSAL",
+    "ENDURE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "COVET",
+    "EARTHPOWER",
+    "FIREPLEDGE",
+    "FOCUSPUNCH",
+    "FURYCUTTER",
+    "HEADBUTT",
+    "HEATWAVE",
+    "IRONTAIL",
+    "MIMIC",
+    "MUDSLAP",
+    "ROLLOUT",
+    "SNORE",
+]
+compatible_egg_groups = [
+    "Field",
+]
 steps_to_hatch = 5355
 height = 0.9
 weight = 19.0
@@ -20,101 +99,10 @@ pokedex_entry = "It intimidates foes with intense gusts of flames and superheate
 battler_player_y = 25
 battler_enemy_y = 18
 battler_altitude = 0
-form_names = []
-dex_number = 156
-internal_name = "QUILAVA"
 habitat = "Grassland"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 5
-name = "EMBER"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "SMOKESCREEN"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "QUICKATTACK"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "FLAMEWHEEL"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "DOUBLEKICK"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "DEFENSECURL"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "REVERSAL"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "FLAMEBURST"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "ROLLOUT"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "SWIFT"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "CRUSHCLAW"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "WORKUP"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "NATUREPOWER"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "INFERNO"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "EXTRASENSORY"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "MYSTICALFIRE"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "DOUBLEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 55
-name = "FLAREBLITZ"
-
-[[evolutions]]
-into_name = "TYPHLOSION"
-condition = "Level"
-parameter = "36"
-
-
+evolutions = [
+    { into_name = "TYPHLOSION", condition = "Level", parameter = "36" },
+]
 
 [base_stats]
 hp = 58
@@ -131,5 +119,3 @@ def_ = 0
 spa = 1
 spd = 0
 spe = 1
-
-[wild_items]

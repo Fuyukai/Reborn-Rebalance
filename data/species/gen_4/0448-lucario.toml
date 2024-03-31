@@ -1,3 +1,4 @@
+dex_number = 448
 name = "Lucario"
 primary_type = "FIGHTING"
 secondary_type = "STEEL"
@@ -6,11 +7,132 @@ growth_rate = "Parabolic"
 exp_yield = 184
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["STEADFAST", "INNERFOCUS"]
-raw_egg_moves = []
-raw_tms = ["WORKUP", "CALMMIND", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "BULKUP", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "EARTHQUAKE", "RETURN", "PSYCHIC", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "LOWSWEEP", "ROUND", "FOCUSBLAST", "FLING", "SHADOWCLAW", "PAYBACK", "GIGAIMPACT", "STONEEDGE", "SWORDSDANCE", "BULLDOZE", "ROCKSLIDE", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "DARKPULSE", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "SCREECH", "SCARYFACE", "REVENGE", "CRUNCH", "CLOSECOMBAT", "AGILITY", "FOCUSENERGY", "REVERSAL", "ENDURE", "BLAZEKICK", "AURASPHERE", "NASTYPLOT", "RETALIATE", "TRAILBLAZE", "SWIFT"]
-raw_tutor_moves = ["DRAGONPULSE", "DRAINPUNCH", "DUALCHOP", "FOCUSPUNCH", "FURYCUTTER", "HEADBUTT", "HELPINGHAND", "ICEPUNCH", "IRONDEFENSE", "IRONTAIL", "LASERFOCUS", "LOWKICK", "MAGNETRISE", "MUDSLAP", "ROLEPLAY", "SNORE", "THUNDERPUNCH", "VACUUMWAVE", "WATERPULSE", "ZENHEADBUTT", "TERRAINPULSE", "COACHING", "STEELBEAM", "EXTREMESPEED", "MIMIC"]
-compatible_egg_groups = ["Field", "Humanlike"]
+raw_abilities = [
+    "STEADFAST",
+    "INNERFOCUS",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "AURASPHERE" },
+    { at_level = 1, name = "CROSSCHOP" },
+    { at_level = 1, name = "FINALGAMBIT" },
+    { at_level = 1, name = "HELPINGHAND" },
+    { at_level = 4, name = "ROLEPLAY" },
+    { at_level = 7, name = "FOLLOWME" },
+    { at_level = 10, name = "WATERPULSE" },
+    { at_level = 14, name = "QUICKGUARD" },
+    { at_level = 18, name = "AGILITY" },
+    { at_level = 22, name = "CRUNCH" },
+    { at_level = 26, name = "METALCLAW" },
+    { at_level = 27, name = "BONERUSH" },
+    { at_level = 29, name = "DUALCHOP" },
+    { at_level = 32, name = "ZENHEADBUTT" },
+    { at_level = 35, name = "SKYUPPERCUT" },
+    { at_level = 38, name = "HELPINGHAND" },
+    { at_level = 42, name = "BULLETPUNCH" },
+    { at_level = 46, name = "DRAGONPULSE" },
+    { at_level = 50, name = "BLAZEKICK" },
+    { at_level = 54, name = "HEALPULSE" },
+    { at_level = 58, name = "METEORMASH" },
+    { at_level = 62, name = "CLOSECOMBAT" },
+    { at_level = 66, name = "NASTYPLOT" },
+    { at_level = 70, name = "EXTREMESPEED" },
+    { at_level = 74, name = "HIJUMPKICK" },
+]
+raw_tms = [
+    "WORKUP",
+    "CALMMIND",
+    "STRENGTH",
+    "ROAR",
+    "TOXIC",
+    "ROCKSMASH",
+    "BULKUP",
+    "ROCKCLIMB",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "EARTHQUAKE",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "ROCKTOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "LOWSWEEP",
+    "ROUND",
+    "FOCUSBLAST",
+    "FLING",
+    "SHADOWCLAW",
+    "PAYBACK",
+    "GIGAIMPACT",
+    "STONEEDGE",
+    "SWORDSDANCE",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "POISONJAB",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "FLASHCANNON",
+    "SECRETPOWER",
+    "DARKPULSE",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "DIG",
+    "SCREECH",
+    "SCARYFACE",
+    "REVENGE",
+    "CRUNCH",
+    "CLOSECOMBAT",
+    "AGILITY",
+    "FOCUSENERGY",
+    "REVERSAL",
+    "ENDURE",
+    "BLAZEKICK",
+    "AURASPHERE",
+    "NASTYPLOT",
+    "RETALIATE",
+    "TRAILBLAZE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "COACHING",
+    "DRAGONPULSE",
+    "DRAINPUNCH",
+    "DUALCHOP",
+    "EXTREMESPEED",
+    "FOCUSPUNCH",
+    "FURYCUTTER",
+    "HEADBUTT",
+    "HELPINGHAND",
+    "ICEPUNCH",
+    "IRONDEFENSE",
+    "IRONTAIL",
+    "LASERFOCUS",
+    "LOWKICK",
+    "MAGNETRISE",
+    "MIMIC",
+    "MUDSLAP",
+    "ROLEPLAY",
+    "SNORE",
+    "STEELBEAM",
+    "TERRAINPULSE",
+    "THUNDERPUNCH",
+    "VACUUMWAVE",
+    "WATERPULSE",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Field",
+    "Humanlike",
+]
 steps_to_hatch = 6630
 height = 1.2
 weight = 54.0
@@ -20,111 +142,7 @@ pokedex_entry = "It has the ability to sense the auras of all things. It underst
 battler_player_y = 15
 battler_enemy_y = 10
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 448
-internal_name = "LUCARIO"
 raw_hidden_ability = "JUSTIFIED"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "AURASPHERE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "CROSSCHOP"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FINALGAMBIT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HELPINGHAND"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "ROLEPLAY"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "FOLLOWME"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "WATERPULSE"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "QUICKGUARD"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "AGILITY"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "METALCLAW"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "BONERUSH"
-
-[[raw_level_up_moves]]
-at_level = 29
-name = "DUALCHOP"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "ZENHEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 35
-name = "SKYUPPERCUT"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "HELPINGHAND"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "BULLETPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "DRAGONPULSE"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "BLAZEKICK"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "HEALPULSE"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "METEORMASH"
-
-[[raw_level_up_moves]]
-at_level = 62
-name = "CLOSECOMBAT"
-
-[[raw_level_up_moves]]
-at_level = 66
-name = "NASTYPLOT"
-
-[[raw_level_up_moves]]
-at_level = 70
-name = "EXTREMESPEED"
-
-[[raw_level_up_moves]]
-at_level = 74
-name = "HIJUMPKICK"
 
 [base_stats]
 hp = 70
@@ -141,5 +159,3 @@ def_ = 0
 spa = 1
 spd = 0
 spe = 0
-
-[wild_items]

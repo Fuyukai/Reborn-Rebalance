@@ -1,3 +1,4 @@
+dex_number = 621
 name = "Druddigon"
 primary_type = "DRAGON"
 secondary_type = "DRAGON"
@@ -6,11 +7,118 @@ growth_rate = "Medium"
 exp_yield = 170
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["ROUGHSKIN", "SHEERFORCE"]
-raw_egg_moves = ["CRUSHCLAW", "FEINTATTACK", "FIREFANG", "GLARE", "IRONTAIL", "METALCLAW", "POISONTAIL", "PURSUIT", "SNATCH", "SUCKERPUNCH", "THUNDERFANG"]
-raw_tms = ["CUT", "DRAGONCLAW", "SURF", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "SMACKDOWN", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "FLAMETHROWER", "SLUDGEBOMB", "ROCKTOMB", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "ROUND", "FOCUSBLAST", "FLING", "CHARGEBEAM", "SHADOWCLAW", "PAYBACK", "GIGAIMPACT", "BULLDOZE", "ROCKSLIDE", "DRAGONTAIL", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "SNARL", "DARKPULSE", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "DIG", "SCARYFACE", "REVENGE", "THUNDERFANG", "FIREFANG", "CRUNCH", "ENDURE", "RETALIATE", "WORKUP"]
-raw_tutor_moves = ["AQUATAIL", "DRACOMETEOR", "DRAGONPULSE", "FIREPUNCH", "GUNKSHOT", "HEATWAVE", "IRONHEAD", "IRONTAIL", "OUTRAGE", "SHOCKWAVE", "SNATCH", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "SUPERPOWER", "THUNDERPUNCH", "DUALWINGBEAT", "SCALESHOT", "LASHOUT", "MIMIC", "POISONTAIL"]
-compatible_egg_groups = ["Monster", "Dragon"]
+raw_abilities = [
+    "ROUGHSKIN",
+    "SHEERFORCE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "FIREFANG" },
+    { at_level = 1, name = "THUNDERFANG" },
+    { at_level = 1, name = "SCRATCH" },
+    { at_level = 1, name = "LEER" },
+    { at_level = 5, name = "BITE" },
+    { at_level = 10, name = "DRAGONTAIL" },
+    { at_level = 13, name = "METALCLAW" },
+    { at_level = 16, name = "SPIKES" },
+    { at_level = 20, name = "SCARYFACE" },
+    { at_level = 24, name = "DUALWINGBEAT" },
+    { at_level = 28, name = "SLASH" },
+    { at_level = 28, name = "NIGHTSLASH" },
+    { at_level = 32, name = "BREAKINGSWIPE" },
+    { at_level = 36, name = "CRUSHCLAW" },
+    { at_level = 40, name = "GLARE" },
+    { at_level = 44, name = "CRUNCH" },
+    { at_level = 48, name = "IRONHEAD" },
+    { at_level = 52, name = "SUCKERPUNCH" },
+    { at_level = 56, name = "POISONTAIL" },
+    { at_level = 56, name = "AQUATAIL" },
+    { at_level = 60, name = "DRAGONRUSH" },
+]
+raw_tms = [
+    "CUT",
+    "WORKUP",
+    "DRAGONCLAW",
+    "SURF",
+    "STRENGTH",
+    "ROAR",
+    "TOXIC",
+    "ROCKSMASH",
+    "ROCKCLIMB",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "SMACKDOWN",
+    "EARTHQUAKE",
+    "RETURN",
+    "DOUBLETEAM",
+    "FLAMETHROWER",
+    "SLUDGEBOMB",
+    "ROCKTOMB",
+    "AERIALACE",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "FOCUSBLAST",
+    "FLING",
+    "CHARGEBEAM",
+    "SHADOWCLAW",
+    "PAYBACK",
+    "GIGAIMPACT",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "DRAGONTAIL",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "FLASHCANNON",
+    "SECRETPOWER",
+    "SNARL",
+    "DARKPULSE",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "DIG",
+    "SCARYFACE",
+    "REVENGE",
+    "THUNDERFANG",
+    "FIREFANG",
+    "CRUNCH",
+    "ENDURE",
+    "RETALIATE",
+]
+raw_tutor_moves = [
+    "AQUATAIL",
+    "DRACOMETEOR",
+    "DRAGONPULSE",
+    "DUALWINGBEAT",
+    "FIREPUNCH",
+    "GUNKSHOT",
+    "HEATWAVE",
+    "IRONHEAD",
+    "IRONTAIL",
+    "LASHOUT",
+    "MIMIC",
+    "OUTRAGE",
+    "POISONTAIL",
+    "SCALESHOT",
+    "SHOCKWAVE",
+    "SNATCH",
+    "SNORE",
+    "STEALTHROCK",
+    "STOMPINGTANTRUM",
+    "SUPERPOWER",
+    "THUNDERPUNCH",
+]
+compatible_egg_groups = [
+    "Monster",
+    "Dragon",
+]
 steps_to_hatch = 7680
 height = 1.6
 weight = 139.0
@@ -20,95 +128,20 @@ pokedex_entry = "It races through narrow caves, using its sharp claws to catch p
 battler_player_y = 17
 battler_enemy_y = 22
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 621
-internal_name = "DRUDDIGON"
 raw_hidden_ability = "MOLDBREAKER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FIREFANG"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "THUNDERFANG"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SCRATCH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 5
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "DRAGONTAIL"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "METALCLAW"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "SPIKES"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "SCARYFACE"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "DUALWINGBEAT"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "SLASH"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "NIGHTSLASH"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "BREAKINGSWIPE"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "CRUSHCLAW"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "GLARE"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "IRONHEAD"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "SUCKERPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "POISONTAIL"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "AQUATAIL"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "DRAGONRUSH"
+raw_egg_moves = [
+    "CRUSHCLAW",
+    "FEINTATTACK",
+    "FIREFANG",
+    "GLARE",
+    "IRONTAIL",
+    "METALCLAW",
+    "POISONTAIL",
+    "PURSUIT",
+    "SNATCH",
+    "SUCKERPUNCH",
+    "THUNDERFANG",
+]
 
 [base_stats]
 hp = 87

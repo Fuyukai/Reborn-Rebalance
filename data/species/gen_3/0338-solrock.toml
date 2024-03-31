@@ -1,3 +1,4 @@
+dex_number = 338
 name = "Solrock"
 primary_type = "ROCK"
 secondary_type = "PSYCHIC"
@@ -6,11 +7,126 @@ growth_rate = "Fast"
 exp_yield = 161
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["LEVITATE"]
-raw_egg_moves = []
-raw_tms = ["PSYSHOCK", "CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "SMACKDOWN", "EARTHQUAKE", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "SANDSTORM", "FIREBLAST", "ROCKTOMB", "FACADE", "REST", "ROUND", "OVERHEAT", "CHARGEBEAM", "WILLOWISP", "ACROBATICS", "EMBARGO", "EXPLOSION", "GIGAIMPACT", "ROCKPOLISH", "STONEEDGE", "GYROBALL", "SWORDSDANCE", "PSYCHUP", "BULLDOZE", "ROCKSLIDE", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "CONFIDE", "FIRESPIN", "SELFDESTRUCT", "WEATHERBALL", "SANDTOMB", "ROCKBLAST", "POWERSWAP", "PSYCHICTERRAIN", "BODYSLAM", "FLAREBLITZ", "ENDURE", "BATONPASS", "COSMICPOWER", "STOREDPOWER", "SWIFT", "POWERGEM", "MYSTICALFIRE"]
-raw_tutor_moves = ["ALLYSWITCH", "ANCIENTPOWER", "EARTHPOWER", "GRAVITY", "HEATWAVE", "HELPINGHAND", "IRONDEFENSE", "IRONHEAD", "LASERFOCUS", "MAGICCOAT", "PAINSPLIT", "RECYCLE", "ROLLOUT", "SIGNALBEAM", "SKILLSWAP", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "TELEKINESIS", "WONDERROOM", "ZENHEADBUTT", "METEORBEAM", "MIMIC"]
-compatible_egg_groups = ["Mineral"]
+raw_abilities = [
+    "LEVITATE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "HARDEN" },
+    { at_level = 1, name = "PSYWAVE" },
+    { at_level = 1, name = "ROCKTHROW" },
+    { at_level = 4, name = "CONFUSION" },
+    { at_level = 7, name = "FIRESPIN" },
+    { at_level = 10, name = "MAGICROOM" },
+    { at_level = 14, name = "EMBARGO" },
+    { at_level = 18, name = "HELPINGHAND" },
+    { at_level = 22, name = "PAINSPLIT" },
+    { at_level = 26, name = "ZENHEADBUTT" },
+    { at_level = 30, name = "HYPNOSIS" },
+    { at_level = 34, name = "NASTYPLOT" },
+    { at_level = 38, name = "COSMICPOWER" },
+    { at_level = 42, name = "SOLARBEAM" },
+    { at_level = 46, name = "ALLYSWITCH" },
+    { at_level = 50, name = "MORNINGSUN" },
+    { at_level = 54, name = "STOREDPOWER" },
+    { at_level = 58, name = "PSYSHIELDBASH" },
+    { at_level = 62, name = "FLAREBLITZ" },
+    { at_level = 66, name = "ROCKWRECKER" },
+]
+raw_tms = [
+    "PSYSHOCK",
+    "CALMMIND",
+    "TOXIC",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "SMACKDOWN",
+    "EARTHQUAKE",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "REFLECT",
+    "FLAMETHROWER",
+    "SANDSTORM",
+    "FIREBLAST",
+    "ROCKTOMB",
+    "FACADE",
+    "REST",
+    "ROUND",
+    "OVERHEAT",
+    "CHARGEBEAM",
+    "WILLOWISP",
+    "ACROBATICS",
+    "EMBARGO",
+    "EXPLOSION",
+    "GIGAIMPACT",
+    "ROCKPOLISH",
+    "STONEEDGE",
+    "GYROBALL",
+    "SWORDSDANCE",
+    "PSYCHUP",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "DREAMEATER",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "TRICKROOM",
+    "SECRETPOWER",
+    "CONFIDE",
+    "FIRESPIN",
+    "SELFDESTRUCT",
+    "WEATHERBALL",
+    "SANDTOMB",
+    "ROCKBLAST",
+    "POWERSWAP",
+    "PSYCHICTERRAIN",
+    "MYSTICALFIRE",
+    "BODYSLAM",
+    "FLAREBLITZ",
+    "ENDURE",
+    "BATONPASS",
+    "COSMICPOWER",
+    "POWERGEM",
+    "STOREDPOWER",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "ALLYSWITCH",
+    "ANCIENTPOWER",
+    "EARTHPOWER",
+    "GRAVITY",
+    "HEATWAVE",
+    "HELPINGHAND",
+    "IRONDEFENSE",
+    "IRONHEAD",
+    "LASERFOCUS",
+    "MAGICCOAT",
+    "METEORBEAM",
+    "MIMIC",
+    "PAINSPLIT",
+    "RECYCLE",
+    "ROLLOUT",
+    "SIGNALBEAM",
+    "SKILLSWAP",
+    "SNORE",
+    "STEALTHROCK",
+    "STOMPINGTANTRUM",
+    "TELEKINESIS",
+    "WONDERROOM",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Mineral",
+]
 steps_to_hatch = 6630
 height = 1.2
 weight = 154.0
@@ -20,91 +136,7 @@ pokedex_entry = "Solar energy is the source of this Pokémon's power. On sunny d
 battler_player_y = 16
 battler_enemy_y = 9
 battler_altitude = 13
-evolutions = []
-form_names = []
-dex_number = 338
-internal_name = "SOLROCK"
 habitat = "Cave"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HARDEN"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "PSYWAVE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ROCKTHROW"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "CONFUSION"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "FIRESPIN"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "MAGICROOM"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "EMBARGO"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "HELPINGHAND"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "PAINSPLIT"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "ZENHEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "HYPNOSIS"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "NASTYPLOT"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "COSMICPOWER"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "SOLARBEAM"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "ALLYSWITCH"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "MORNINGSUN"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "STOREDPOWER"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "PSYSHIELDBASH"
-
-[[raw_level_up_moves]]
-at_level = 62
-name = "FLAREBLITZ"
-
-[[raw_level_up_moves]]
-at_level = 66
-name = "ROCKWRECKER"
 
 [base_stats]
 hp = 90

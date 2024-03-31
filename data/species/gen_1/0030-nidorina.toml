@@ -1,3 +1,4 @@
+dex_number = 30
 name = "Nidorina"
 primary_type = "POISON"
 secondary_type = "POISON"
@@ -6,11 +7,93 @@ growth_rate = "Parabolic"
 exp_yield = 128
 catch_rate = 120
 caught_happiness = 70
-raw_abilities = ["HUSTLE", "POISONPOINT", "RIVALRY"]
-raw_egg_moves = []
-raw_tms = ["CUT", "STRENGTH", "TOXIC", "ROCKSMASH", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "DOUBLETEAM", "REFLECT", "SLUDGEBOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "SHADOWCLAW", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "CHARM", "BEATUP", "CRUNCH", "BODYSLAM", "FOCUSENERGY", "ENDURE", "TOXICSPIKES", "VENOMDRENCH"]
-raw_tutor_moves = ["EARTHPOWER", "HEADBUTT", "HELPINGHAND", "IRONTAIL", "MUDSLAP", "SHOCKWAVE", "SNORE", "STOMPINGTANTRUM", "SUPERFANG", "WATERPULSE", "MIMIC", "POISONTAIL"]
-compatible_egg_groups = ["Undiscovered"]
+raw_abilities = [
+    "HUSTLE",
+    "POISONPOINT",
+    "RIVALRY",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "GROWL" },
+    { at_level = 1, name = "POISONSTING" },
+    { at_level = 1, name = "SCRATCH" },
+    { at_level = 1, name = "TAILWHIP" },
+    { at_level = 4, name = "PECK" },
+    { at_level = 7, name = "DOUBLEKICK" },
+    { at_level = 10, name = "FURYATTACK" },
+    { at_level = 13, name = "POISONFANG" },
+    { at_level = 16, name = "HORNATTACK" },
+    { at_level = 20, name = "HELPINGHAND" },
+    { at_level = 23, name = "TOXICSPIKES" },
+    { at_level = 26, name = "POISONJAB" },
+    { at_level = 32, name = "AMNESIA" },
+    { at_level = 36, name = "CRUNCH" },
+    { at_level = 40, name = "SMARTSTRIKE" },
+    { at_level = 44, name = "POISONTAIL" },
+    { at_level = 48, name = "SCORCHINGSANDS" },
+    { at_level = 52, name = "TAKEDOWN" },
+    { at_level = 56, name = "SUCKERPUNCH" },
+    { at_level = 60, name = "HEADSMASH" },
+]
+raw_tms = [
+    "CUT",
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "VENOSHOCK",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "ICEBEAM",
+    "BLIZZARD",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "THUNDERBOLT",
+    "THUNDER",
+    "RETURN",
+    "DOUBLETEAM",
+    "REFLECT",
+    "SLUDGEBOMB",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "ECHOEDVOICE",
+    "SHADOWCLAW",
+    "POISONJAB",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "DIG",
+    "CHARM",
+    "BEATUP",
+    "CRUNCH",
+    "BODYSLAM",
+    "FOCUSENERGY",
+    "ENDURE",
+    "TOXICSPIKES",
+    "VENOMDRENCH",
+]
+raw_tutor_moves = [
+    "EARTHPOWER",
+    "HEADBUTT",
+    "HELPINGHAND",
+    "IRONTAIL",
+    "MIMIC",
+    "MUDSLAP",
+    "POISONTAIL",
+    "SHOCKWAVE",
+    "SNORE",
+    "STOMPINGTANTRUM",
+    "SUPERFANG",
+    "WATERPULSE",
+]
+compatible_egg_groups = [
+    "Undiscovered",
+]
 steps_to_hatch = 5355
 height = 0.8
 weight = 20.0
@@ -20,95 +103,10 @@ pokedex_entry = "When it is with its friends or family, its barbs are tucked awa
 battler_player_y = 24
 battler_enemy_y = 18
 battler_altitude = 0
-form_names = []
-dex_number = 30
-internal_name = "NIDORINA"
 habitat = "Grassland"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "POISONSTING"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SCRATCH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TAILWHIP"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "PECK"  # fuck you, grass types!
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "DOUBLEKICK"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "FURYATTACK"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "POISONFANG"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "HORNATTACK"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "HELPINGHAND"
-
-[[raw_level_up_moves]]
-at_level = 23
-name = "TOXICSPIKES"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "POISONJAB"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "AMNESIA"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "SMARTSTRIKE"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "POISONTAIL"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "SCORCHINGSANDS"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "TAKEDOWN"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "SUCKERPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "HEADSMASH"
-
-[[evolutions]]
-into_name = "NIDOQUEEN"
-condition = "Item"
-parameter = "MOONSTONE"
+evolutions = [
+    { into_name = "NIDOQUEEN", condition = "Item", parameter = "MOONSTONE" },
+]
 
 [base_stats]
 hp = 70
@@ -125,5 +123,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

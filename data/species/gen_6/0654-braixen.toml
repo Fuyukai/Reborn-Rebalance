@@ -1,3 +1,4 @@
+dex_number = 654
 name = "Braixen"
 primary_type = "FIRE"
 secondary_type = "FIRE"
@@ -6,11 +7,97 @@ growth_rate = "Parabolic"
 exp_yield = 143
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["BLAZE", "MAGICGUARD", "MAGICIAN"]
-raw_egg_moves = []
-raw_tms = ["WORKUP", "CUT", "PSYSHOCK", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "PSYCHIC", "DOUBLETEAM", "FLAMETHROWER", "FIREBLAST", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "THIEF", "ROUND", "OVERHEAT", "WILLOWISP", "EMBARGO", "PSYCHUP", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "FIRESPIN", "PSYCHICTERRAIN", "ENDURE"]
-raw_tutor_moves = ["ALLYSWITCH", "COVET", "FIREPLEDGE", "FIREPUNCH", "FOULPLAY", "HEATWAVE", "IRONTAIL", "LASERFOCUS", "LOWKICK", "MAGICCOAT", "MAGICROOM", "RECYCLE", "SHOCKWAVE", "SKILLSWAP", "SNATCH", "SNORE", "TELEKINESIS", "THUNDERPUNCH", "TRICK", "WONDERROOM", "ZENHEADBUTT", "MIMIC"]
-compatible_egg_groups = ["Field"]
+raw_abilities = [
+    "BLAZE",
+    "MAGICGUARD",
+    "MAGICIAN",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "SCRATCH" },
+    { at_level = 1, name = "TAILWHIP" },
+    { at_level = 1, name = "EMBER" },
+    { at_level = 5, name = "EMBER" },
+    { at_level = 11, name = "HOWL" },
+    { at_level = 14, name = "FLAMECHARGE" },
+    { at_level = 18, name = "PSYBEAM" },
+    { at_level = 22, name = "FIRESPIN" },
+    { at_level = 28, name = "LUCKYCHANT" },
+    { at_level = 31, name = "LIGHTSCREEN" },
+    { at_level = 36, name = "PSYSHOCK" },
+    { at_level = 41, name = "FLAMETHROWER" },
+    { at_level = 45, name = "WILLOWISP" },
+    { at_level = 49, name = "PSYCHIC" },
+    { at_level = 52, name = "SUNNYDAY" },
+    { at_level = 56, name = "MAGICROOM" },
+    { at_level = 59, name = "FIREBLAST" },
+]
+raw_tms = [
+    "WORKUP",
+    "CUT",
+    "PSYSHOCK",
+    "TOXIC",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "PSYCHIC",
+    "DOUBLETEAM",
+    "FLAMETHROWER",
+    "FIREBLAST",
+    "FACADE",
+    "FLAMECHARGE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "OVERHEAT",
+    "WILLOWISP",
+    "EMBARGO",
+    "PSYCHUP",
+    "DREAMEATER",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "FIRESPIN",
+    "PSYCHICTERRAIN",
+    "ENDURE",
+]
+raw_tutor_moves = [
+    "ALLYSWITCH",
+    "COVET",
+    "FIREPLEDGE",
+    "FIREPUNCH",
+    "FOULPLAY",
+    "HEATWAVE",
+    "IRONTAIL",
+    "LASERFOCUS",
+    "LOWKICK",
+    "MAGICCOAT",
+    "MAGICROOM",
+    "MIMIC",
+    "RECYCLE",
+    "SHOCKWAVE",
+    "SKILLSWAP",
+    "SNATCH",
+    "SNORE",
+    "TELEKINESIS",
+    "THUNDERPUNCH",
+    "TRICK",
+    "WONDERROOM",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Field",
+]
 steps_to_hatch = 5120
 height = 1.0
 weight = 14.5
@@ -20,85 +107,9 @@ pokedex_entry = "When the twig is plucked from its tail, friction sets the twig 
 battler_player_y = 11
 battler_enemy_y = 15
 battler_altitude = 0
-form_names = []
-dex_number = 654
-internal_name = "BRAIXEN"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SCRATCH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TAILWHIP"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "EMBER"
-
-[[raw_level_up_moves]]
-at_level = 5
-name = "EMBER"
-
-[[raw_level_up_moves]]
-at_level = 11
-name = "HOWL"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "FLAMECHARGE"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "PSYBEAM"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "FIRESPIN"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "LUCKYCHANT"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "LIGHTSCREEN"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "PSYSHOCK"
-
-[[raw_level_up_moves]]
-at_level = 41
-name = "FLAMETHROWER"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "WILLOWISP"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "PSYCHIC"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "SUNNYDAY"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "MAGICROOM"
-
-[[raw_level_up_moves]]
-at_level = 59
-name = "FIREBLAST"
-
-[[evolutions]]
-into_name = "DELPHOX"
-condition = "Level"
-parameter = "36"
-
-
-
+evolutions = [
+    { into_name = "DELPHOX", condition = "Level", parameter = "36" },
+]
 
 [base_stats]
 hp = 59
@@ -115,5 +126,3 @@ def_ = 0
 spa = 2
 spd = 0
 spe = 0
-
-[wild_items]

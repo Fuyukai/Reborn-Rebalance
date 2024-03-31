@@ -1,3 +1,4 @@
+dex_number = 76
 name = "Golem"
 primary_type = "ROCK"
 secondary_type = "GROUND"
@@ -6,11 +7,129 @@ growth_rate = "Parabolic"
 exp_yield = 218
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["ROCKHEAD", "STURDY", "SHELLARMOR"]
-raw_egg_moves = []
-raw_tms = ["STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "FRUSTRATION", "SMACKDOWN", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "FLAMETHROWER", "SANDSTORM", "FIREBLAST", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "FOCUSBLAST", "FLING", "CHARGEBEAM", "BRUTALSWING", "EXPLOSION", "GIGAIMPACT", "ROCKPOLISH", "STONEEDGE", "VOLTSWITCH", "THUNDERWAVE", "GYROBALL", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "NATUREPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "SCREECH", "SELFDESTRUCT", "ROCKBLAST", "ELECTRICTERRAIN", "BODYSLAM", "FLAREBLITZ", "METRONOME", "ENDURE", "HEATCRASH", "HEAVYSLAM"]
-raw_tutor_moves = ["ALLYSWITCH", "ANCIENTPOWER", "BLOCK", "EARTHPOWER", "ELECTROWEB", "FIREPUNCH", "FOCUSPUNCH", "FURYCUTTER", "HEADBUTT", "IRONDEFENSE", "IRONHEAD", "MAGNETRISE", "MUDSLAP", "ROLLOUT", "SHOCKWAVE", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "SUCKERPUNCH", "SUPERPOWER", "THUNDERPUNCH", "STEELROLLER", "HEADLONGRUSH", "MIMIC"]
-compatible_egg_groups = ["Mineral"]
+raw_abilities = [
+    "ROCKHEAD",
+    "STURDY",
+    "SHELLARMOR",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "STEAMROLLER" },
+    { at_level = 1, name = "AUTOTOMIZE" },
+    { at_level = 1, name = "FOCUSPUNCH" },
+    { at_level = 1, name = "ROLLOUT" },
+    { at_level = 1, name = "SEISMICTOSS" },
+    { at_level = 1, name = "DEFENSECURL" },
+    { at_level = 4, name = "FLAIL" },
+    { at_level = 7, name = "MAGNITUDE" },
+    { at_level = 10, name = "BULLDOZE" },
+    { at_level = 13, name = "ROCKTHROW" },
+    { at_level = 16, name = "RAPIDSPIN" },
+    { at_level = 19, name = "CURSE" },
+    { at_level = 22, name = "FLING" },
+    { at_level = 25, name = "ACCELEROCK" },
+    { at_level = 29, name = "STEALTHROCK" },
+    { at_level = 32, name = "ROCKBLAST" },
+    { at_level = 35, name = "EARTHPOWER" },
+    { at_level = 38, name = "SUCKERPUNCH" },
+    { at_level = 42, name = "EXPLOSION" },
+    { at_level = 46, name = "STONEEDGE" },
+    { at_level = 50, name = "DOUBLEEDGE" },
+    { at_level = 54, name = "HAMMERARM" },
+    { at_level = 58, name = "WIDEGUARD" },
+    { at_level = 62, name = "HEADLONGRUSH" },
+    { at_level = 66, name = "HEADSMASH" },
+]
+raw_tms = [
+    "STRENGTH",
+    "ROAR",
+    "TOXIC",
+    "ROCKSMASH",
+    "ROCKCLIMB",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "PROTECT",
+    "FRUSTRATION",
+    "SMACKDOWN",
+    "THUNDERBOLT",
+    "THUNDER",
+    "EARTHQUAKE",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "FLAMETHROWER",
+    "SANDSTORM",
+    "FIREBLAST",
+    "ROCKTOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ECHOEDVOICE",
+    "FOCUSBLAST",
+    "FLING",
+    "CHARGEBEAM",
+    "BRUTALSWING",
+    "EXPLOSION",
+    "GIGAIMPACT",
+    "ROCKPOLISH",
+    "STONEEDGE",
+    "VOLTSWITCH",
+    "THUNDERWAVE",
+    "GYROBALL",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "WILDCHARGE",
+    "SECRETPOWER",
+    "NATUREPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "DIG",
+    "SCREECH",
+    "SELFDESTRUCT",
+    "ROCKBLAST",
+    "ELECTRICTERRAIN",
+    "BODYSLAM",
+    "FLAREBLITZ",
+    "METRONOME",
+    "ENDURE",
+    "HEATCRASH",
+    "HEAVYSLAM",
+]
+raw_tutor_moves = [
+    "ALLYSWITCH",
+    "ANCIENTPOWER",
+    "BLOCK",
+    "EARTHPOWER",
+    "ELECTROWEB",
+    "FIREPUNCH",
+    "FOCUSPUNCH",
+    "FURYCUTTER",
+    "HEADBUTT",
+    "HEADLONGRUSH",
+    "IRONDEFENSE",
+    "IRONHEAD",
+    "MAGNETRISE",
+    "MIMIC",
+    "MUDSLAP",
+    "ROLLOUT",
+    "SHOCKWAVE",
+    "SNORE",
+    "STEALTHROCK",
+    "STEELROLLER",
+    "STOMPINGTANTRUM",
+    "SUCKERPUNCH",
+    "SUPERPOWER",
+    "THUNDERPUNCH",
+]
+compatible_egg_groups = [
+    "Mineral",
+]
 steps_to_hatch = 4080
 height = 1.4
 weight = 300.0
@@ -20,111 +139,11 @@ pokedex_entry = "It is said to live in volcanic craters on mountain peaks. Once 
 battler_player_y = 20
 battler_enemy_y = 14
 battler_altitude = 0
-evolutions = []
-form_names = ["Normal", "Alternate"]
-dex_number = 76
-internal_name = "GOLEM"
 habitat = "Mountain"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "STEAMROLLER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "AUTOTOMIZE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FOCUSPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ROLLOUT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SEISMICTOSS"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "DEFENSECURL"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "FLAIL"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "MAGNITUDE"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "BULLDOZE"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "ROCKTHROW"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "RAPIDSPIN"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "CURSE"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "FLING"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "ACCELEROCK"
-
-[[raw_level_up_moves]]
-at_level = 29
-name = "STEALTHROCK"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "ROCKBLAST"
-
-[[raw_level_up_moves]]
-at_level = 35
-name = "EARTHPOWER"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "SUCKERPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "EXPLOSION"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "STONEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "DOUBLEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "HAMMERARM"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "WIDEGUARD"
-
-[[raw_level_up_moves]]
-at_level = 62
-name = "HEADLONGRUSH"
-
-[[raw_level_up_moves]]
-at_level = 66
-name = "HEADSMASH"
+form_names = [
+    "Normal",
+    "Alternate",
+]
 
 [base_stats]
 hp = 90

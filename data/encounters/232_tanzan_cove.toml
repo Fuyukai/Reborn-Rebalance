@@ -1,257 +1,72 @@
-chances = [28, 4, 20]
+chances = [
+    28,
+    4,
+    20,
+]
 
 [encounters]
-[[encounters.Water]]
-name = "DUCKLETT"
-minimum_level = 40
-maximum_level = 55
-
-[[encounters.Water]]
-name = "LUMINEON"
-minimum_level = 50
-maximum_level = 60
-
-[[encounters.Water]]
-name = "SEAKING"
-minimum_level = 50
-maximum_level = 60
-
-[[encounters.Water]]
-name = "SWANNA"
-minimum_level = 45
-maximum_level = 60
-
-[[encounters.Water]]
-name = "SEAKING"
-minimum_level = 60
-maximum_level = 70
-
-[[encounters.OldRod]]
-name = "GOLDEEN"
-minimum_level = 30
-maximum_level = 37
-
-[[encounters.OldRod]]
-name = "SEAKING"
-minimum_level = 30
-maximum_level = 40
-
-[[encounters.GoodRod]]
-name = "BASCULIN"
-minimum_level = 27
-maximum_level = 45
-
-[[encounters.GoodRod]]
-name = "MANTYKE"
-minimum_level = 35
-maximum_level = 43
-
-[[encounters.GoodRod]]
-name = "LUVDISC"
-minimum_level = 30
-maximum_level = 40
-
-[[encounters.SuperRod]]
-name = "WHISCASH"
-minimum_level = 70
-maximum_level = 80
-
-[[encounters.SuperRod]]
-name = "LUVDISC"
-minimum_level = 40
-maximum_level = 50
-
-[[encounters.SuperRod]]
-name = "MANTINE"
-minimum_level = 50
-maximum_level = 75
-
-[[encounters.SuperRod]]
-name = "LUVDISC"
-minimum_level = 50
-maximum_level = 75
-
-[[encounters.SuperRod]]
-name = "LUVDISC"
-minimum_level = 70
-maximum_level = 90
-
-[[encounters.LandMorning]]
-name = "CUTIEFLY"
-minimum_level = 35
-maximum_level = 38
-
-[[encounters.LandMorning]]
-name = "DUCKLETT"
-minimum_level = 35
-maximum_level = 36
-
-[[encounters.LandMorning]]
-name = "AUDINO"
-minimum_level = 35
-maximum_level = 38
-
-[[encounters.LandMorning]]
-name = "LEDIAN"
-minimum_level = 38
-maximum_level = 39
-
-[[encounters.LandMorning]]
-name = "ORICORIO"
-minimum_level = 37
-maximum_level = 41
-
-[[encounters.LandMorning]]
-name = "POLIWAG"
-minimum_level = 33
-maximum_level = 39
-
-[[encounters.LandMorning]]
-name = "RIBOMBEE"
-minimum_level = 39
-maximum_level = 44
-
-[[encounters.LandMorning]]
-name = "MORPEKO"
-minimum_level = 36
-maximum_level = 40
-
-[[encounters.LandMorning]]
-name = "POLIWAG"
-minimum_level = 33
-maximum_level = 38
-
-[[encounters.LandMorning]]
-name = "LEDIAN"
-minimum_level = 38
-maximum_level = 41
-
-[[encounters.LandMorning]]
-name = "TANDEMAUS"
-minimum_level = 35
-maximum_level = 40
-
-[[encounters.LandMorning]]
-name = "POLIWHIRL"
-minimum_level = 40
-maximum_level = 45
-
-[[encounters.LandDay]]
-name = "CUTIEFLY"
-minimum_level = 35
-maximum_level = 38
-
-[[encounters.LandDay]]
-name = "ORICORIO"
-minimum_level = 38
-maximum_level = 45
-
-[[encounters.LandDay]]
-name = "TOGEDEMARU"
-minimum_level = 35
-maximum_level = 38
-
-[[encounters.LandDay]]
-name = "DUCKLETT"
-minimum_level = 38
-maximum_level = 39
-
-[[encounters.LandDay]]
-name = "COMFEY"
-minimum_level = 37
-maximum_level = 41
-
-[[encounters.LandDay]]
-name = "RIBOMBEE"
-minimum_level = 37
-maximum_level = 41
-
-[[encounters.LandDay]]
-name = "SWANNA"
-minimum_level = 39
-maximum_level = 44
-
-[[encounters.LandDay]]
-name = "AUDINO"
-minimum_level = 36
-maximum_level = 40
-
-[[encounters.LandDay]]
-name = "MORPEKO"
-minimum_level = 25
-maximum_level = 28
-
-[[encounters.LandDay]]
-name = "DEDENNE"
-minimum_level = 38
-maximum_level = 41
-
-[[encounters.LandDay]]
-name = "DEDENNE"
-minimum_level = 35
-maximum_level = 43
-
-[[encounters.LandDay]]
-name = "SWANNA"
-minimum_level = 37
-maximum_level = 45
-
-[[encounters.LandNight]]
-name = "CUTIEFLY"
-minimum_level = 35
-maximum_level = 38
-
-[[encounters.LandNight]]
-name = "DEDENNE"
-minimum_level = 35
-maximum_level = 36
-
-[[encounters.LandNight]]
-name = "TOGEDEMARU"
-minimum_level = 35
-maximum_level = 38
-
-[[encounters.LandNight]]
-name = "PARAS"
-minimum_level = 38
-maximum_level = 39
-
-[[encounters.LandNight]]
-name = "COMFEY"
-minimum_level = 37
-maximum_level = 41
-
-[[encounters.LandNight]]
-name = "RIBOMBEE"
-minimum_level = 37
-maximum_level = 41
-
-[[encounters.LandNight]]
-name = "ORICORIO"
-minimum_level = 39
-maximum_level = 44
-
-[[encounters.LandNight]]
-name = "MORPEKO"
-minimum_level = 36
-maximum_level = 40
-
-[[encounters.LandNight]]
-name = "ARIADOS"
-minimum_level = 35
-maximum_level = 44
-
-[[encounters.LandNight]]
-name = "TANDEMAUS"
-minimum_level = 38
-maximum_level = 41
-
-[[encounters.LandNight]]
-name = "TANDEMAUS"
-minimum_level = 39
-maximum_level = 45
-
-[[encounters.LandNight]]
-name = "PARASECT"
-minimum_level = 39
-maximum_level = 45
+Water = [
+    { name = "DUCKLETT", minimum_level = 40, maximum_level = 55 },
+    { name = "LUMINEON", minimum_level = 50, maximum_level = 60 },
+    { name = "SEAKING", minimum_level = 50, maximum_level = 60 },
+    { name = "SWANNA", minimum_level = 45, maximum_level = 60 },
+    { name = "SEAKING", minimum_level = 60, maximum_level = 70 },
+]
+OldRod = [
+    { name = "GOLDEEN", minimum_level = 30, maximum_level = 37 },
+    { name = "SEAKING", minimum_level = 30, maximum_level = 40 },
+]
+GoodRod = [
+    { name = "BASCULIN", minimum_level = 27, maximum_level = 45 },
+    { name = "MANTYKE", minimum_level = 35, maximum_level = 43 },
+    { name = "LUVDISC", minimum_level = 30, maximum_level = 40 },
+]
+SuperRod = [
+    { name = "WHISCASH", minimum_level = 70, maximum_level = 80 },
+    { name = "LUVDISC", minimum_level = 40, maximum_level = 50 },
+    { name = "MANTINE", minimum_level = 50, maximum_level = 75 },
+    { name = "LUVDISC", minimum_level = 50, maximum_level = 75 },
+    { name = "LUVDISC", minimum_level = 70, maximum_level = 90 },
+]
+LandMorning = [
+    { name = "CUTIEFLY", minimum_level = 35, maximum_level = 38 },
+    { name = "DUCKLETT", minimum_level = 35, maximum_level = 36 },
+    { name = "AUDINO", minimum_level = 35, maximum_level = 38 },
+    { name = "LEDIAN", minimum_level = 38, maximum_level = 39 },
+    { name = "ORICORIO", minimum_level = 37, maximum_level = 41 },
+    { name = "POLIWAG", minimum_level = 33, maximum_level = 39 },
+    { name = "RIBOMBEE", minimum_level = 39, maximum_level = 44 },
+    { name = "MORPEKO", minimum_level = 36, maximum_level = 40 },
+    { name = "POLIWAG", minimum_level = 33, maximum_level = 38 },
+    { name = "LEDIAN", minimum_level = 38, maximum_level = 41 },
+    { name = "TANDEMAUS", minimum_level = 35, maximum_level = 40 },
+    { name = "POLIWHIRL", minimum_level = 40, maximum_level = 45 },
+]
+LandDay = [
+    { name = "CUTIEFLY", minimum_level = 35, maximum_level = 38 },
+    { name = "ORICORIO", minimum_level = 38, maximum_level = 45 },
+    { name = "TOGEDEMARU", minimum_level = 35, maximum_level = 38 },
+    { name = "DUCKLETT", minimum_level = 38, maximum_level = 39 },
+    { name = "COMFEY", minimum_level = 37, maximum_level = 41 },
+    { name = "RIBOMBEE", minimum_level = 37, maximum_level = 41 },
+    { name = "SWANNA", minimum_level = 39, maximum_level = 44 },
+    { name = "AUDINO", minimum_level = 36, maximum_level = 40 },
+    { name = "MORPEKO", minimum_level = 25, maximum_level = 28 },
+    { name = "DEDENNE", minimum_level = 38, maximum_level = 41 },
+    { name = "DEDENNE", minimum_level = 35, maximum_level = 43 },
+    { name = "SWANNA", minimum_level = 37, maximum_level = 45 },
+]
+LandNight = [
+    { name = "CUTIEFLY", minimum_level = 35, maximum_level = 38 },
+    { name = "DEDENNE", minimum_level = 35, maximum_level = 36 },
+    { name = "TOGEDEMARU", minimum_level = 35, maximum_level = 38 },
+    { name = "PARAS", minimum_level = 38, maximum_level = 39 },
+    { name = "COMFEY", minimum_level = 37, maximum_level = 41 },
+    { name = "RIBOMBEE", minimum_level = 37, maximum_level = 41 },
+    { name = "ORICORIO", minimum_level = 39, maximum_level = 44 },
+    { name = "MORPEKO", minimum_level = 36, maximum_level = 40 },
+    { name = "ARIADOS", minimum_level = 35, maximum_level = 44 },
+    { name = "TANDEMAUS", minimum_level = 38, maximum_level = 41 },
+    { name = "TANDEMAUS", minimum_level = 39, maximum_level = 45 },
+    { name = "PARASECT", minimum_level = 39, maximum_level = 45 },
+]

@@ -1,3 +1,4 @@
+dex_number = 61
 name = "Poliwhirl"
 primary_type = "WATER"
 secondary_type = "WATER"
@@ -6,11 +7,96 @@ growth_rate = "Parabolic"
 exp_yield = 135
 catch_rate = 120
 caught_happiness = 70
-raw_abilities = ["WATERABSORB", "DAMP", "SWIFTSWIM"]
-raw_egg_moves = []
-raw_tms = ["SURF", "STRENGTH", "WATERFALL", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "EARTHQUAKE", "RETURN", "PSYCHIC", "BRICKBREAK", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "SCALD", "FLING", "BULLDOZE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "WHIRLPOOL", "MUDSHOT", "BODYSLAM", "HYDROPUMP", "METRONOME", "AMNESIA", "ENDURE", "ENCORE", "MUDDYWATER"]
-raw_tutor_moves = ["EARTHPOWER", "ENDEAVOR", "FOCUSPUNCH", "HEADBUTT", "HELPINGHAND", "ICEPUNCH", "ICYWIND", "LOWKICK", "MUDSLAP", "SNORE", "WATERPULSE", "ICEBALL", "MIMIC"]
-compatible_egg_groups = ["Water1"]
+raw_abilities = [
+    "WATERABSORB",
+    "DAMP",
+    "SWIFTSWIM",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "POUND" },
+    { at_level = 1, name = "SPLASH" },
+    { at_level = 6, name = "HYPNOSIS" },
+    { at_level = 9, name = "WATERGUN" },
+    { at_level = 12, name = "DOUBLESLAP" },
+    { at_level = 15, name = "WATERFALL" },
+    { at_level = 18, name = "BUBBLEBEAM" },
+    { at_level = 21, name = "MUDSHOT" },
+    { at_level = 24, name = "BODYSLAM" },
+    { at_level = 25, name = "WAKEUPSLAP" },
+    { at_level = 28, name = "MUDBOMB" },
+    { at_level = 31, name = "BELLYDRUM" },
+    { at_level = 34, name = "ENDEAVOR" },
+    { at_level = 37, name = "HAZE" },
+    { at_level = 40, name = "HELPINGHAND" },
+    { at_level = 44, name = "FOCUSPUNCH" },
+    { at_level = 48, name = "STORMTHROW" },
+    { at_level = 52, name = "DRAINPUNCH" },
+    { at_level = 56, name = "HYDROPUMP" },
+]
+raw_tms = [
+    "SURF",
+    "STRENGTH",
+    "WATERFALL",
+    "TOXIC",
+    "DIVE",
+    "HAIL",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "ICEBEAM",
+    "BLIZZARD",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "EARTHQUAKE",
+    "RETURN",
+    "PSYCHIC",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "SCALD",
+    "FLING",
+    "BULLDOZE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "DIG",
+    "WHIRLPOOL",
+    "MUDSHOT",
+    "BODYSLAM",
+    "HYDROPUMP",
+    "METRONOME",
+    "AMNESIA",
+    "ENDURE",
+    "ENCORE",
+    "MUDDYWATER",
+]
+raw_tutor_moves = [
+    "EARTHPOWER",
+    "ENDEAVOR",
+    "FOCUSPUNCH",
+    "HEADBUTT",
+    "HELPINGHAND",
+    "ICEBALL",
+    "ICEPUNCH",
+    "ICYWIND",
+    "LOWKICK",
+    "MIMIC",
+    "MUDSLAP",
+    "SNORE",
+    "WATERPULSE",
+]
+compatible_egg_groups = [
+    "Water1",
+]
 steps_to_hatch = 5355
 height = 1.0
 weight = 20.0
@@ -20,96 +106,11 @@ pokedex_entry = "Its body surface is always wet and slick with an oily fluid. Be
 battler_player_y = 24
 battler_enemy_y = 20
 battler_altitude = 0
-form_names = []
-dex_number = 61
-internal_name = "POLIWHIRL"
 habitat = "WatersEdge"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "POUND"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SPLASH"
-
-[[raw_level_up_moves]]
-at_level = 6
-name = "HYPNOSIS"
-
-[[raw_level_up_moves]]
-at_level = 9
-name = "WATERGUN"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "DOUBLESLAP"
-
-[[raw_level_up_moves]]
-at_level = 15
-name = "WATERFALL"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "BUBBLEBEAM"
-
-[[raw_level_up_moves]]
-at_level = 21
-name = "MUDSHOT"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "WAKEUPSLAP"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "MUDBOMB"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "BELLYDRUM"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "ENDEAVOR"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "HAZE"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "HELPINGHAND"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "FOCUSPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "STORMTHROW"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "DRAINPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "HYDROPUMP"
-
-[[evolutions]]
-into_name = "POLIWRATH"
-condition = "Item"
-parameter = "WATERSTONE"
-
-[[evolutions]]
-into_name = "POLITOED"
-condition = "TradeItem"
-parameter = "KINGSROCK"
+evolutions = [
+    { into_name = "POLIWRATH", condition = "Item", parameter = "WATERSTONE" },
+    { into_name = "POLITOED", condition = "TradeItem", parameter = "KINGSROCK" },
+]
 
 [base_stats]
 hp = 65

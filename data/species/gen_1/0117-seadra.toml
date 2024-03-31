@@ -1,3 +1,4 @@
+dex_number = 117
 name = "Seadra"
 primary_type = "WATER"
 secondary_type = "WATER"
@@ -6,11 +7,91 @@ growth_rate = "Medium"
 exp_yield = 154
 catch_rate = 75
 caught_happiness = 70
-raw_abilities = ["POISONPOINT", "SNIPER"]
-raw_egg_moves = []
-raw_tms = ["SURF", "WATERFALL", "TOXIC", "DIVE", "HAIL", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "ROUND", "SCALD", "GIGAIMPACT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "CONFIDE", "WHIRLPOOL", "BRINE", "HYDROPUMP", "AGILITY", "FOCUSENERGY", "ENDURE", "MUDDYWATER", "DRAGONDANCE", "SWIFT"]
-raw_tutor_moves = ["BOUNCE", "DRAGONPULSE", "HEADBUTT", "ICYWIND", "LASERFOCUS", "LIQUIDATION", "OUTRAGE", "SIGNALBEAM", "SNORE", "TWISTER", "WATERPULSE", "FLIPTURN", "SCALESHOT", "MIMIC"]
-compatible_egg_groups = ["Water1", "Dragon"]
+raw_abilities = [
+    "POISONPOINT",
+    "SNIPER",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "SPLASH" },
+    { at_level = 1, name = "SMOKESCREEN" },
+    { at_level = 1, name = "LEER" },
+    { at_level = 4, name = "FOCUSENERGY" },
+    { at_level = 7, name = "WATERGUN" },
+    { at_level = 10, name = "FLAIL" },
+    { at_level = 13, name = "ICYWIND" },
+    { at_level = 16, name = "TWISTER" },
+    { at_level = 19, name = "BRINE" },
+    { at_level = 22, name = "DISABLE" },
+    { at_level = 25, name = "DRAGONRAGE" },
+    { at_level = 28, name = "BUBBLEBEAM" },
+    { at_level = 31, name = "DRAGONBREATH" },
+    { at_level = 32, name = "OCTAZOOKA" },
+    { at_level = 34, name = "AURORABEAM" },
+    { at_level = 37, name = "CLEARSMOG" },
+    { at_level = 41, name = "MUDDYWATER" },
+    { at_level = 45, name = "BOUNCE" },
+    { at_level = 49, name = "DRAGONPULSE" },
+    { at_level = 53, name = "AGILITY" },
+    { at_level = 57, name = "HYDROPUMP" },
+    { at_level = 61, name = "DRAGONDANCE" },
+]
+raw_tms = [
+    "SURF",
+    "WATERFALL",
+    "TOXIC",
+    "DIVE",
+    "HAIL",
+    "HIDDENPOWER",
+    "ICEBEAM",
+    "BLIZZARD",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "RETURN",
+    "DOUBLETEAM",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "SCALD",
+    "GIGAIMPACT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "FLASHCANNON",
+    "SECRETPOWER",
+    "CONFIDE",
+    "WHIRLPOOL",
+    "BRINE",
+    "HYDROPUMP",
+    "AGILITY",
+    "FOCUSENERGY",
+    "ENDURE",
+    "MUDDYWATER",
+    "DRAGONDANCE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "BOUNCE",
+    "DRAGONPULSE",
+    "FLIPTURN",
+    "HEADBUTT",
+    "ICYWIND",
+    "LASERFOCUS",
+    "LIQUIDATION",
+    "MIMIC",
+    "OUTRAGE",
+    "SCALESHOT",
+    "SIGNALBEAM",
+    "SNORE",
+    "TWISTER",
+    "WATERPULSE",
+]
+compatible_egg_groups = [
+    "Water1",
+    "Dragon",
+]
 steps_to_hatch = 5355
 height = 1.2
 weight = 25.0
@@ -20,108 +101,11 @@ pokedex_entry = "The poisonous barbs over its body are highly valued as ingredie
 battler_player_y = 26
 battler_enemy_y = 16
 battler_altitude = 11
-form_names = []
-dex_number = 117
-internal_name = "SEADRA"
 raw_hidden_ability = "DAMP"
 habitat = "Sea"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SPLASH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SMOKESCREEN"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "FOCUSENERGY"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "WATERGUN"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "FLAIL"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "ICYWIND"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "TWISTER"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "BRINE"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "DISABLE"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "DRAGONRAGE"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "BUBBLEBEAM"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "DRAGONBREATH"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "OCTAZOOKA"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "AURORABEAM"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "CLEARSMOG"
-
-[[raw_level_up_moves]]
-at_level = 41
-name = "MUDDYWATER"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "BOUNCE"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "DRAGONPULSE"
-
-[[raw_level_up_moves]]
-at_level = 53
-name = "AGILITY"
-
-[[raw_level_up_moves]]
-at_level = 57
-name = "HYDROPUMP"
-
-[[raw_level_up_moves]]
-at_level = 61
-name = "DRAGONDANCE"
-
-[[evolutions]]
-into_name = "KINGDRA"
-condition = "TradeItem"
-parameter = "DRAGONSCALE"
-
-
-
-
+evolutions = [
+    { into_name = "KINGDRA", condition = "TradeItem", parameter = "DRAGONSCALE" },
+]
 
 [base_stats]
 hp = 55

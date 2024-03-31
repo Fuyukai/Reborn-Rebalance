@@ -1,3 +1,4 @@
+dex_number = 635
 name = "Hydreigon"
 primary_type = "DARK"
 secondary_type = "DRAGON"
@@ -6,11 +7,135 @@ growth_rate = "Slow"
 exp_yield = 270
 catch_rate = 45
 caught_happiness = 35
-raw_abilities = ["LEVITATE", "DARKAURA"]
-raw_egg_moves = []
-raw_tms = ["WORKUP", "FLY", "SURF", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "FRUSTRATION", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "FIREBLAST", "ROCKTOMB", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "STEELWING", "FOCUSBLAST", "CHARGEBEAM", "BRUTALSWING", "ACROBATICS", "PAYBACK", "GIGAIMPACT", "STONEEDGE", "THUNDERWAVE", "PSYCHUP", "BULLDOZE", "ROCKSLIDE", "DRAGONTAIL", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "SNARL", "DARKPULSE", "CONFIDE", "FIRESPIN", "SCREECH", "SCARYFACE", "BEATUP", "ASSURANCE", "THUNDERFANG", "ICEFANG", "FIREFANG", "CRUNCH", "BREAKINGSWIPE", "BODYSLAM", "HYDROPUMP", "FOCUSENERGY", "TRIATTACK", "ENDURE", "DRAGONDANCE", "NASTYPLOT", "HEAVYSLAM"]
-raw_tutor_moves = ["AQUATAIL", "DEFOG", "DRACOMETEOR", "DRAGONPULSE", "EARTHPOWER", "HEATWAVE", "HELPINGHAND", "HYPERVOICE", "IRONTAIL", "OUTRAGE", "SHOCKWAVE", "SIGNALBEAM", "SNORE", "SPITE", "SUPERPOWER", "TAILWIND", "THROATCHOP", "UPROAR", "ZENHEADBUTT", "DUALWINGBEAT", "SCALESHOT", "MIMIC"]
-compatible_egg_groups = ["Dragon"]
+raw_abilities = [
+    "LEVITATE",
+    "DARKAURA",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "BREAKINGSWIPE" },
+    { at_level = 1, name = "DUALWINGBEAT" },
+    { at_level = 1, name = "IRONTAIL" },
+    { at_level = 1, name = "SUPERPOWER" },
+    { at_level = 1, name = "DOUBLEHIT" },
+    { at_level = 1, name = "STEALTHROCK" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 12, name = "ROAR" },
+    { at_level = 16, name = "ASSURANCE" },
+    { at_level = 20, name = "HEADBUTT" },
+    { at_level = 24, name = "WORKUP" },
+    { at_level = 28, name = "ZENHEADBUTT" },
+    { at_level = 32, name = "CRUNCH" },
+    { at_level = 36, name = "SCARYFACE" },
+    { at_level = 40, name = "DRAGONPULSE" },
+    { at_level = 44, name = "DARKPULSE" },
+    { at_level = 48, name = "HYPERVOICE" },
+    { at_level = 54, name = "DRAGONRUSH" },
+    { at_level = 58, name = "HEADSMASH" },
+    { at_level = 58, name = "TRIATTACK" },
+    { at_level = 62, name = "OUTRAGE" },
+    { at_level = 66, name = "HYDROPUMP" },
+    { at_level = 70, name = "DRAGONDANCE" },
+    { at_level = 70, name = "NASTYPLOT" },
+]
+raw_tms = [
+    "WORKUP",
+    "FLY",
+    "SURF",
+    "STRENGTH",
+    "ROAR",
+    "TOXIC",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "ROOST",
+    "ROOST",
+    "FRUSTRATION",
+    "EARTHQUAKE",
+    "RETURN",
+    "DOUBLETEAM",
+    "REFLECT",
+    "FLAMETHROWER",
+    "FIREBLAST",
+    "ROCKTOMB",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "ECHOEDVOICE",
+    "STEELWING",
+    "FOCUSBLAST",
+    "CHARGEBEAM",
+    "BRUTALSWING",
+    "ACROBATICS",
+    "PAYBACK",
+    "GIGAIMPACT",
+    "STONEEDGE",
+    "THUNDERWAVE",
+    "PSYCHUP",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "DRAGONTAIL",
+    "SWAGGER",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "FLASHCANNON",
+    "SECRETPOWER",
+    "SNARL",
+    "DARKPULSE",
+    "CONFIDE",
+    "FIRESPIN",
+    "SCREECH",
+    "SCARYFACE",
+    "BEATUP",
+    "ASSURANCE",
+    "THUNDERFANG",
+    "ICEFANG",
+    "FIREFANG",
+    "CRUNCH",
+    "BREAKINGSWIPE",
+    "BODYSLAM",
+    "HYDROPUMP",
+    "FOCUSENERGY",
+    "TRIATTACK",
+    "ENDURE",
+    "DRAGONDANCE",
+    "NASTYPLOT",
+    "HEAVYSLAM",
+]
+raw_tutor_moves = [
+    "AQUATAIL",
+    "DEFOG",
+    "DRACOMETEOR",
+    "DRAGONPULSE",
+    "DUALWINGBEAT",
+    "EARTHPOWER",
+    "HEATWAVE",
+    "HELPINGHAND",
+    "HYPERVOICE",
+    "IRONTAIL",
+    "MIMIC",
+    "OUTRAGE",
+    "SCALESHOT",
+    "SHOCKWAVE",
+    "SIGNALBEAM",
+    "SNORE",
+    "SPITE",
+    "SUPERPOWER",
+    "TAILWIND",
+    "THROATCHOP",
+    "UPROAR",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Dragon",
+]
 steps_to_hatch = 10240
 height = 1.8
 weight = 160.0
@@ -20,106 +145,6 @@ pokedex_entry = "The heads on their arms do not have brains. They use all three 
 battler_player_y = 8
 battler_enemy_y = 4
 battler_altitude = 10
-evolutions = []
-form_names = []
-dex_number = 635
-internal_name = "HYDREIGON"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BREAKINGSWIPE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "DUALWINGBEAT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "IRONTAIL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SUPERPOWER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "DOUBLEHIT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "STEALTHROCK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "ROAR"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "ASSURANCE"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "HEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "WORKUP"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "ZENHEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "SCARYFACE"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "DRAGONPULSE"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "DARKPULSE"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "HYPERVOICE"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "DRAGONRUSH"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "HEADSMASH"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "TRIATTACK"
-
-[[raw_level_up_moves]]
-at_level = 62
-name = "OUTRAGE"
-
-[[raw_level_up_moves]]
-at_level = 66
-name = "HYDROPUMP"
-
-[[raw_level_up_moves]]
-at_level = 70
-name = "DRAGONDANCE"
-
-[[raw_level_up_moves]]
-at_level = 70
-name = "NASTYPLOT"
 
 [base_stats]
 hp = 92
@@ -136,5 +161,3 @@ def_ = 0
 spa = 3
 spd = 0
 spe = 0
-
-[wild_items]

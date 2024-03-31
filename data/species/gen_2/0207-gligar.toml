@@ -1,3 +1,4 @@
+dex_number = 207
 name = "Gligar"
 primary_type = "GROUND"
 secondary_type = "FLYING"
@@ -6,11 +7,115 @@ growth_rate = "Parabolic"
 exp_yield = 86
 catch_rate = 60
 caught_happiness = 70
-raw_abilities = ["HYPERCUTTER", "IMMUNITY"]
-raw_egg_moves = ["AGILITY", "BATONPASS", "COUNTER", "CROSSPOISON", "DOUBLEEDGE", "FEINT", "METALCLAW", "NIGHTSLASH", "POISONTAIL", "POWERTRICK", "RAZORWIND", "ROCKCLIMB", "SANDTOMB", "WINGATTACK"]
-raw_tms = ["CUT", "STRENGTH", "TOXIC", "ROCKSMASH", "VENOSHOCK", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "FRUSTRATION", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "SLUDGEBOMB", "SANDSTORM", "ROCKTOMB", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "STEELWING", "FALSESWIPE", "FLING", "ACROBATICS", "PAYBACK", "ROCKPOLISH", "STONEEDGE", "SWORDSDANCE", "STRUGGLEBUG", "BULLDOZE", "ROCKSLIDE", "XSCISSOR", "POISONJAB", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "DARKPULSE", "CONFIDE", "PINMISSILE", "DIG", "SCREECH", "SANDTOMB", "ASSURANCE", "CROSSPOISON", "POWERWHIP", "AGILITY", "ENDURE", "BATONPASS", "SWIFT"]
-raw_tutor_moves = ["AQUATAIL", "BUGBITE", "DEFOG", "EARTHPOWER", "FURYCUTTER", "HEADBUTT", "IRONTAIL", "KNOCKOFF", "SNORE", "STEALTHROCK", "TAILWIND", "THROATCHOP", "MIMIC", "POISONTAIL"]
-compatible_egg_groups = ["Bug"]
+raw_abilities = [
+    "HYPERCUTTER",
+    "IMMUNITY",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "HARDEN" },
+    { at_level = 1, name = "POISONSTING" },
+    { at_level = 1, name = "SANDATTACK" },
+    { at_level = 4, name = "FEINT" },
+    { at_level = 7, name = "QUICKATTACK" },
+    { at_level = 10, name = "FURYCUTTER" },
+    { at_level = 13, name = "MUDBOMB" },
+    { at_level = 16, name = "FEINTATTACK" },
+    { at_level = 19, name = "METALCLAW" },
+    { at_level = 22, name = "AGILITY" },
+    { at_level = 25, name = "COUNTER" },
+    { at_level = 28, name = "SCREECH" },
+    { at_level = 31, name = "WINGATTACK" },
+    { at_level = 34, name = "SLASH" },
+    { at_level = 34, name = "NIGHTSLASH" },
+    { at_level = 37, name = "POISONTAIL" },
+    { at_level = 40, name = "ACROBATICS" },
+    { at_level = 44, name = "PINMISSILE" },
+    { at_level = 48, name = "SKYUPPERCUT" },
+    { at_level = 52, name = "DOUBLEEDGE" },
+    { at_level = 56, name = "CROSSPOISON" },
+    { at_level = 60, name = "TAILWIND" },
+    { at_level = 64, name = "GUILLOTINE" },
+]
+raw_tms = [
+    "CUT",
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "VENOSHOCK",
+    "ROCKCLIMB",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "PROTECT",
+    "RAINDANCE",
+    "ROOST",
+    "ROOST",
+    "FRUSTRATION",
+    "EARTHQUAKE",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "SLUDGEBOMB",
+    "SANDSTORM",
+    "ROCKTOMB",
+    "AERIALACE",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "STEELWING",
+    "FALSESWIPE",
+    "FLING",
+    "ACROBATICS",
+    "PAYBACK",
+    "ROCKPOLISH",
+    "STONEEDGE",
+    "SWORDSDANCE",
+    "STRUGGLEBUG",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "XSCISSOR",
+    "POISONJAB",
+    "SWAGGER",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "DARKPULSE",
+    "CONFIDE",
+    "PINMISSILE",
+    "DIG",
+    "SCREECH",
+    "SANDTOMB",
+    "ASSURANCE",
+    "CROSSPOISON",
+    "POWERWHIP",
+    "AGILITY",
+    "ENDURE",
+    "BATONPASS",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AQUATAIL",
+    "BUGBITE",
+    "DEFOG",
+    "EARTHPOWER",
+    "FURYCUTTER",
+    "HEADBUTT",
+    "IRONTAIL",
+    "KNOCKOFF",
+    "MIMIC",
+    "POISONTAIL",
+    "SNORE",
+    "STEALTHROCK",
+    "TAILWIND",
+    "THROATCHOP",
+]
+compatible_egg_groups = [
+    "Bug",
+]
 steps_to_hatch = 5355
 height = 1.1
 weight = 64.8
@@ -20,109 +125,26 @@ pokedex_entry = "It glides without making a single sound. It grasps the face of 
 battler_player_y = 21
 battler_enemy_y = 9
 battler_altitude = 8
-form_names = []
-dex_number = 207
-internal_name = "GLIGAR"
+raw_egg_moves = [
+    "AGILITY",
+    "BATONPASS",
+    "COUNTER",
+    "CROSSPOISON",
+    "DOUBLEEDGE",
+    "FEINT",
+    "METALCLAW",
+    "NIGHTSLASH",
+    "POISONTAIL",
+    "POWERTRICK",
+    "RAZORWIND",
+    "ROCKCLIMB",
+    "SANDTOMB",
+    "WINGATTACK",
+]
 habitat = "Mountain"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HARDEN"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "POISONSTING"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SANDATTACK"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "FEINT"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "QUICKATTACK"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "FURYCUTTER"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "MUDBOMB"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "FEINTATTACK"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "METALCLAW"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "AGILITY"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "COUNTER"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "SCREECH"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "WINGATTACK"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "SLASH"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "NIGHTSLASH"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "POISONTAIL"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "ACROBATICS"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "PINMISSILE"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "SKYUPPERCUT"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "DOUBLEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "CROSSPOISON"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "TAILWIND"
-
-[[raw_level_up_moves]]
-at_level = 64
-name = "GUILLOTINE"
-
-[[evolutions]]
-into_name = "GLISCOR"
-condition = "NightHoldItem"
-parameter = "RAZORFANG"
-
-
+evolutions = [
+    { into_name = "GLISCOR", condition = "NightHoldItem", parameter = "RAZORFANG" },
+]
 
 [base_stats]
 hp = 65
@@ -139,5 +161,3 @@ def_ = 1
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

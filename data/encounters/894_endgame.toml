@@ -1,61 +1,21 @@
-chances = [4, 2, 20]
+chances = [
+    4,
+    2,
+    20,
+]
 
-[[encounters.Land]]
-name = "MUK"
-minimum_level = 113
-maximum_level = 120
-
-[[encounters.Land]]
-name = "TANGROWTH"
-minimum_level = 113
-maximum_level = 120
-
-[[encounters.Land]]
-name = "GARBODOR"
-minimum_level = 113
-maximum_level = 120
-
-[[encounters.Land]]
-name = "AVALUGG"
-minimum_level = 113
-maximum_level = 120
-
-[[encounters.Land]]
-name = "SWALOT"
-minimum_level = 113
-maximum_level = 120
-
-[[encounters.Land]]
-name = "ABRA"
-minimum_level = 113
-maximum_level = 120
-
-[[encounters.Land]]
-name = "CAMERUPT"
-minimum_level = 114
-maximum_level = 121
-
-[[encounters.Land]]
-name = "HYPNO"
-minimum_level = 113
-maximum_level = 120
-
-[[encounters.Land]]
-name = "CLAWITZER"
-minimum_level = 113
-maximum_level = 120
-
-[[encounters.Land]]
-name = "MRMIME"
-minimum_level = 113
-maximum_level = 120
-
-[[encounters.Land]]
-name = "MAGNEZONE"
-minimum_level = 115
-maximum_level = 122
-
-[[encounters.Land]]
-name = "MAGNEZONE"
-minimum_level = 114
-maximum_level = 121
+[encounters]
+Land = [
+    { name = "MUK", minimum_level = 113, maximum_level = 120 },
+    { name = "TANGROWTH", minimum_level = 113, maximum_level = 120 },
+    { name = "GARBODOR", minimum_level = 113, maximum_level = 120 },
+    { name = "AVALUGG", minimum_level = 113, maximum_level = 120 },
+    { name = "SWALOT", minimum_level = 113, maximum_level = 120 },
+    { name = "ABRA", minimum_level = 113, maximum_level = 120 },
+    { name = "CAMERUPT", minimum_level = 114, maximum_level = 121 },
+    { name = "HYPNO", minimum_level = 113, maximum_level = 120 },
+    { name = "CLAWITZER", minimum_level = 113, maximum_level = 120 },
+    { name = "MRMIME", minimum_level = 113, maximum_level = 120 },
+    { name = "MAGNEZONE", minimum_level = 115, maximum_level = 122 },
+    { name = "MAGNEZONE", minimum_level = 114, maximum_level = 121 },
+]

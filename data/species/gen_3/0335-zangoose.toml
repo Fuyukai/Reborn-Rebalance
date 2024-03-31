@@ -1,3 +1,4 @@
+dex_number = 335
 name = "Zangoose"
 primary_type = "NORMAL"
 secondary_type = "NORMAL"
@@ -6,11 +7,118 @@ growth_rate = "Erratic"
 exp_yield = 160
 catch_rate = 90
 caught_happiness = 70
-raw_abilities = ["IMMUNITY", "TOXICBOOST"]
-raw_egg_moves = ["BELLYDRUM", "COUNTER", "CURSE", "DISABLE", "DOUBLEHIT", "DOUBLEKICK", "FEINT", "FINALGAMBIT", "FLAIL", "FURYSWIPES", "IRONTAIL", "METALCLAW", "NIGHTSLASH", "QUICKGUARD", "RAZORWIND"]
-raw_tms = ["WORKUP", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "SOLARBEAM", "THUNDERBOLT", "THUNDER", "RETURN", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "FLAMETHROWER", "FIREBLAST", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "FOCUSBLAST", "FALSESWIPE", "FLING", "EMBARGO", "SHADOWCLAW", "PAYBACK", "SWORDSDANCE", "ROCKSLIDE", "XSCISSOR", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "REVENGE", "BODYSLAM", "CLOSECOMBAT", "ENDURE", "RETALIATE", "SWIFT", "LOWSWEEP", "ACROBATICS"]
-raw_tutor_moves = ["ENDEAVOR", "FIREPUNCH", "FOCUSPUNCH", "FURYCUTTER", "GIGADRAIN", "HEADBUTT", "ICEPUNCH", "ICYWIND", "IRONTAIL", "KNOCKOFF", "LASTRESORT", "LOWKICK", "MUDSLAP", "ROLLOUT", "SHOCKWAVE", "SNORE", "THROATCHOP", "THUNDERPUNCH", "WATERPULSE", "MIMIC"]
-compatible_egg_groups = ["Field"]
+raw_abilities = [
+    "IMMUNITY",
+    "TOXICBOOST",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "SCRATCH" },
+    { at_level = 1, name = "LEER" },
+    { at_level = 1, name = "FURYSWIPES" },
+    { at_level = 4, name = "QUICKATTACK" },
+    { at_level = 7, name = "DOUBLEKICK" },
+    { at_level = 10, name = "DOUBLEHIT" },
+    { at_level = 13, name = "ENDEAVOR" },
+    { at_level = 16, name = "REVENGE" },
+    { at_level = 19, name = "SLASH" },
+    { at_level = 19, name = "NIGHTSLASH" },
+    { at_level = 22, name = "DISABLE" },
+    { at_level = 26, name = "METALCLAW" },
+    { at_level = 30, name = "QUICKGUARD" },
+    { at_level = 34, name = "CRUSHCLAW" },
+    { at_level = 38, name = "PURSUIT" },
+    { at_level = 42, name = "LUNGE" },
+    { at_level = 46, name = "BELLYDRUM" },
+    { at_level = 50, name = "DETECT" },
+    { at_level = 54, name = "CLOSECOMBAT" },
+    { at_level = 58, name = "DOUBLEEDGE" },
+    { at_level = 62, name = "LASTRESORT" },
+    { at_level = 66, name = "FINALGAMBIT" },
+]
+raw_tms = [
+    "WORKUP",
+    "STRENGTH",
+    "ROAR",
+    "TOXIC",
+    "ROCKSMASH",
+    "ROCKCLIMB",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "ICEBEAM",
+    "BLIZZARD",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "THUNDERBOLT",
+    "THUNDER",
+    "RETURN",
+    "SHADOWBALL",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "FLAMETHROWER",
+    "FIREBLAST",
+    "ROCKTOMB",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "LOWSWEEP",
+    "ROUND",
+    "FOCUSBLAST",
+    "FALSESWIPE",
+    "FLING",
+    "ACROBATICS",
+    "EMBARGO",
+    "SHADOWCLAW",
+    "PAYBACK",
+    "SWORDSDANCE",
+    "ROCKSLIDE",
+    "XSCISSOR",
+    "POISONJAB",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "DIG",
+    "REVENGE",
+    "BODYSLAM",
+    "CLOSECOMBAT",
+    "ENDURE",
+    "RETALIATE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "ENDEAVOR",
+    "FIREPUNCH",
+    "FOCUSPUNCH",
+    "FURYCUTTER",
+    "GIGADRAIN",
+    "HEADBUTT",
+    "ICEPUNCH",
+    "ICYWIND",
+    "IRONTAIL",
+    "KNOCKOFF",
+    "LASTRESORT",
+    "LOWKICK",
+    "MIMIC",
+    "MUDSLAP",
+    "ROLLOUT",
+    "SHOCKWAVE",
+    "SNORE",
+    "THROATCHOP",
+    "THUNDERPUNCH",
+    "WATERPULSE",
+]
+compatible_egg_groups = [
+    "Field",
+]
 steps_to_hatch = 5355
 height = 1.3
 weight = 40.3
@@ -20,100 +128,25 @@ pokedex_entry = "When it battles, it stands on its hind legs and attacks with it
 battler_player_y = 20
 battler_enemy_y = 11
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 335
-internal_name = "ZANGOOSE"
 raw_hidden_ability = "SHARPNESS"
+raw_egg_moves = [
+    "BELLYDRUM",
+    "COUNTER",
+    "CURSE",
+    "DISABLE",
+    "DOUBLEHIT",
+    "DOUBLEKICK",
+    "FEINT",
+    "FINALGAMBIT",
+    "FLAIL",
+    "FURYSWIPES",
+    "IRONTAIL",
+    "METALCLAW",
+    "NIGHTSLASH",
+    "QUICKGUARD",
+    "RAZORWIND",
+]
 habitat = "Grassland"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SCRATCH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FURYSWIPES"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "QUICKATTACK"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "DOUBLEKICK"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "DOUBLEHIT"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "ENDEAVOR"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "REVENGE"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "SLASH"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "NIGHTSLASH"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "DISABLE"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "METALCLAW"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "QUICKGUARD"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "CRUSHCLAW"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "PURSUIT"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "LUNGE"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "BELLYDRUM"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "DETECT"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "CLOSECOMBAT"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "DOUBLEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 62
-name = "LASTRESORT"
-
-[[raw_level_up_moves]]
-at_level = 66
-name = "FINALGAMBIT"
 
 [base_stats]
 hp = 75

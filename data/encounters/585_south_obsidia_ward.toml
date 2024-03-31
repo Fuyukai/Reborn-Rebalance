@@ -1,257 +1,72 @@
-chances = [40, 20, 20]
+chances = [
+    40,
+    20,
+    20,
+]
 
 [encounters]
-[[encounters.Water]]
-name = "TENTACOOL"
-minimum_level = 40
-maximum_level = 55
-
-[[encounters.Water]]
-name = "WINGULL"
-minimum_level = 40
-maximum_level = 55
-
-[[encounters.Water]]
-name = "TENTACRUEL"
-minimum_level = 50
-maximum_level = 60
-
-[[encounters.Water]]
-name = "PELIPPER"
-minimum_level = 50
-maximum_level = 70
-
-[[encounters.Water]]
-name = "MANTINE"
-minimum_level = 70
-maximum_level = 90
-
-[[encounters.OldRod]]
-name = "SHELLOS"
-minimum_level = 10
-maximum_level = 30
-
-[[encounters.OldRod]]
-name = "SHELLOS"
-minimum_level = 20
-maximum_level = 50
-
-[[encounters.GoodRod]]
-name = "CARVANHA"
-minimum_level = 35
-maximum_level = 50
-
-[[encounters.GoodRod]]
-name = "CORPHISH"
-minimum_level = 30
-maximum_level = 50
-
-[[encounters.GoodRod]]
-name = "CLAUNCHER"
-minimum_level = 30
-maximum_level = 50
-
-[[encounters.SuperRod]]
-name = "KINGLER"
-minimum_level = 40
-maximum_level = 70
-
-[[encounters.SuperRod]]
-name = "STARYU"
-minimum_level = 50
-maximum_level = 75
-
-[[encounters.SuperRod]]
-name = "CRAWDAUNT"
-minimum_level = 40
-maximum_level = 70
-
-[[encounters.SuperRod]]
-name = "CLAWITZER"
-minimum_level = 40
-maximum_level = 70
-
-[[encounters.SuperRod]]
-name = "SHARPEDO"
-minimum_level = 70
-maximum_level = 90
-
-[[encounters.LandMorning]]
-name = "PRIMEAPE"
-minimum_level = 25
-maximum_level = 50
-
-[[encounters.LandMorning]]
-name = "WATCHOG"
-minimum_level = 25
-maximum_level = 50
-
-[[encounters.LandMorning]]
-name = "CRABRAWLER"
-minimum_level = 25
-maximum_level = 50
-
-[[encounters.LandMorning]]
-name = "CRABRAWLER"
-minimum_level = 25
-maximum_level = 50
-
-[[encounters.LandMorning]]
-name = "PRIMEAPE"
-minimum_level = 25
-maximum_level = 50
-
-[[encounters.LandMorning]]
-name = "MACHOKE"
-minimum_level = 45
-maximum_level = 65
-
-[[encounters.LandMorning]]
-name = "WATCHOG"
-minimum_level = 45
-maximum_level = 65
-
-[[encounters.LandMorning]]
-name = "GUMSHOOS"
-minimum_level = 45
-maximum_level = 65
-
-[[encounters.LandMorning]]
-name = "MACHOKE"
-minimum_level = 45
-maximum_level = 65
-
-[[encounters.LandMorning]]
-name = "UNFEZANT"
-minimum_level = 45
-maximum_level = 65
-
-[[encounters.LandMorning]]
-name = "UNFEZANT"
-minimum_level = 45
-maximum_level = 65
-
-[[encounters.LandMorning]]
-name = "UNFEZANT"
-minimum_level = 40
-maximum_level = 75
-
-[[encounters.LandDay]]
-name = "WATCHOG"
-minimum_level = 25
-maximum_level = 50
-
-[[encounters.LandDay]]
-name = "CRABRAWLER"
-minimum_level = 25
-maximum_level = 50
-
-[[encounters.LandDay]]
-name = "WATCHOG"
-minimum_level = 25
-maximum_level = 50
-
-[[encounters.LandDay]]
-name = "PRIMEAPE"
-minimum_level = 25
-maximum_level = 50
-
-[[encounters.LandDay]]
-name = "MACHOP"
-minimum_level = 25
-maximum_level = 50
-
-[[encounters.LandDay]]
-name = "MACHOKE"
-minimum_level = 45
-maximum_level = 65
-
-[[encounters.LandDay]]
-name = "GUMSHOOS"
-minimum_level = 45
-maximum_level = 65
-
-[[encounters.LandDay]]
-name = "GUMSHOOS"
-minimum_level = 45
-maximum_level = 65
-
-[[encounters.LandDay]]
-name = "GUMSHOOS"
-minimum_level = 45
-maximum_level = 65
-
-[[encounters.LandDay]]
-name = "UNFEZANT"
-minimum_level = 45
-maximum_level = 65
-
-[[encounters.LandDay]]
-name = "UNFEZANT"
-minimum_level = 45
-maximum_level = 65
-
-[[encounters.LandDay]]
-name = "UNFEZANT"
-minimum_level = 40
-maximum_level = 75
-
-[[encounters.LandNight]]
-name = "WATCHOG"
-minimum_level = 25
-maximum_level = 50
-
-[[encounters.LandNight]]
-name = "TRANQUILL"
-minimum_level = 25
-maximum_level = 50
-
-[[encounters.LandNight]]
-name = "WATCHOG"
-minimum_level = 25
-maximum_level = 50
-
-[[encounters.LandNight]]
-name = "PANCHAM"
-minimum_level = 25
-maximum_level = 50
-
-[[encounters.LandNight]]
-name = "PRIMEAPE"
-minimum_level = 25
-maximum_level = 50
-
-[[encounters.LandNight]]
-name = "GUMSHOOS"
-minimum_level = 45
-maximum_level = 65
-
-[[encounters.LandNight]]
-name = "GUMSHOOS"
-minimum_level = 45
-maximum_level = 65
-
-[[encounters.LandNight]]
-name = "PANCHAM"
-minimum_level = 45
-maximum_level = 65
-
-[[encounters.LandNight]]
-name = "PANGORO"
-minimum_level = 45
-maximum_level = 65
-
-[[encounters.LandNight]]
-name = "PANGORO"
-minimum_level = 45
-maximum_level = 65
-
-[[encounters.LandNight]]
-name = "PANGORO"
-minimum_level = 50
-maximum_level = 70
-
-[[encounters.LandNight]]
-name = "PANGORO"
-minimum_level = 70
-maximum_level = 90
+Water = [
+    { name = "TENTACOOL", minimum_level = 40, maximum_level = 55 },
+    { name = "WINGULL", minimum_level = 40, maximum_level = 55 },
+    { name = "TENTACRUEL", minimum_level = 50, maximum_level = 60 },
+    { name = "PELIPPER", minimum_level = 50, maximum_level = 70 },
+    { name = "MANTINE", minimum_level = 70, maximum_level = 90 },
+]
+OldRod = [
+    { name = "SHELLOS", minimum_level = 10, maximum_level = 30 },
+    { name = "SHELLOS", minimum_level = 20, maximum_level = 50 },
+]
+GoodRod = [
+    { name = "CARVANHA", minimum_level = 35, maximum_level = 50 },
+    { name = "CORPHISH", minimum_level = 30, maximum_level = 50 },
+    { name = "CLAUNCHER", minimum_level = 30, maximum_level = 50 },
+]
+SuperRod = [
+    { name = "KINGLER", minimum_level = 40, maximum_level = 70 },
+    { name = "STARYU", minimum_level = 50, maximum_level = 75 },
+    { name = "CRAWDAUNT", minimum_level = 40, maximum_level = 70 },
+    { name = "CLAWITZER", minimum_level = 40, maximum_level = 70 },
+    { name = "SHARPEDO", minimum_level = 70, maximum_level = 90 },
+]
+LandMorning = [
+    { name = "PRIMEAPE", minimum_level = 25, maximum_level = 50 },
+    { name = "WATCHOG", minimum_level = 25, maximum_level = 50 },
+    { name = "CRABRAWLER", minimum_level = 25, maximum_level = 50 },
+    { name = "CRABRAWLER", minimum_level = 25, maximum_level = 50 },
+    { name = "PRIMEAPE", minimum_level = 25, maximum_level = 50 },
+    { name = "MACHOKE", minimum_level = 45, maximum_level = 65 },
+    { name = "WATCHOG", minimum_level = 45, maximum_level = 65 },
+    { name = "GUMSHOOS", minimum_level = 45, maximum_level = 65 },
+    { name = "MACHOKE", minimum_level = 45, maximum_level = 65 },
+    { name = "UNFEZANT", minimum_level = 45, maximum_level = 65 },
+    { name = "UNFEZANT", minimum_level = 45, maximum_level = 65 },
+    { name = "UNFEZANT", minimum_level = 40, maximum_level = 75 },
+]
+LandDay = [
+    { name = "WATCHOG", minimum_level = 25, maximum_level = 50 },
+    { name = "CRABRAWLER", minimum_level = 25, maximum_level = 50 },
+    { name = "WATCHOG", minimum_level = 25, maximum_level = 50 },
+    { name = "PRIMEAPE", minimum_level = 25, maximum_level = 50 },
+    { name = "MACHOP", minimum_level = 25, maximum_level = 50 },
+    { name = "MACHOKE", minimum_level = 45, maximum_level = 65 },
+    { name = "GUMSHOOS", minimum_level = 45, maximum_level = 65 },
+    { name = "GUMSHOOS", minimum_level = 45, maximum_level = 65 },
+    { name = "GUMSHOOS", minimum_level = 45, maximum_level = 65 },
+    { name = "UNFEZANT", minimum_level = 45, maximum_level = 65 },
+    { name = "UNFEZANT", minimum_level = 45, maximum_level = 65 },
+    { name = "UNFEZANT", minimum_level = 40, maximum_level = 75 },
+]
+LandNight = [
+    { name = "WATCHOG", minimum_level = 25, maximum_level = 50 },
+    { name = "TRANQUILL", minimum_level = 25, maximum_level = 50 },
+    { name = "WATCHOG", minimum_level = 25, maximum_level = 50 },
+    { name = "PANCHAM", minimum_level = 25, maximum_level = 50 },
+    { name = "PRIMEAPE", minimum_level = 25, maximum_level = 50 },
+    { name = "GUMSHOOS", minimum_level = 45, maximum_level = 65 },
+    { name = "GUMSHOOS", minimum_level = 45, maximum_level = 65 },
+    { name = "PANCHAM", minimum_level = 45, maximum_level = 65 },
+    { name = "PANGORO", minimum_level = 45, maximum_level = 65 },
+    { name = "PANGORO", minimum_level = 45, maximum_level = 65 },
+    { name = "PANGORO", minimum_level = 50, maximum_level = 70 },
+    { name = "PANGORO", minimum_level = 70, maximum_level = 90 },
+]

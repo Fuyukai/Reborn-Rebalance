@@ -1,3 +1,4 @@
+dex_number = 124
 name = "Jynx"
 primary_type = "ICE"
 secondary_type = "PSYCHIC"
@@ -6,11 +7,130 @@ growth_rate = "Medium"
 exp_yield = 159
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["TRACE", "DRYSKIN"]
-raw_egg_moves = []
-raw_tms = ["PSYSHOCK", "CALMMIND", "TOXIC", "HAIL", "FLASH", "HIDDENPOWER", "TAUNT", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "PSYCHIC", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "FOCUSBLAST", "ENERGYBALL", "FLING", "PAYBACK", "GIGAIMPACT", "AURORAVEIL", "PSYCHUP", "FROSTBREATH", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "CHARM", "FAKETEARS", "ICICLESPEAR", "AVALANCHE", "PSYCHOCUT", "DRAININGKISS", "PSYCHICTERRAIN", "BODYSLAM", "METRONOME", "ENDURE", "ENCORE", "FUTURESIGHT", "NASTYPLOT", "STOREDPOWER"]
-raw_tutor_moves = ["ALLYSWITCH", "COVET", "DRAINPUNCH", "FOCUSPUNCH", "HEADBUTT", "HEALBELL", "HELPINGHAND", "HYPERVOICE", "ICEPUNCH", "ICYWIND", "MAGICCOAT", "MAGICROOM", "MUDSLAP", "RECYCLE", "ROLEPLAY", "SIGNALBEAM", "SKILLSWAP", "SNORE", "TELEKINESIS", "TRICK", "UPROAR", "WATERPULSE", "WONDERROOM", "ZENHEADBUTT", "TRIPLEAXEL", "EXPANDINGFORCE", "MIMIC"]
-compatible_egg_groups = ["Humanlike"]
+raw_abilities = [
+    "TRACE",
+    "DRYSKIN",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "PETALDANCE" },
+    { at_level = 1, name = "TRIPLEAXEL" },
+    { at_level = 1, name = "MEANLOOK" },
+    { at_level = 1, name = "LICK" },
+    { at_level = 1, name = "CONFUSION" },
+    { at_level = 5, name = "POWDERSNOW" },
+    { at_level = 8, name = "LUCKYCHANT" },
+    { at_level = 10, name = "HEARTSTAMP" },
+    { at_level = 12, name = "BODYSLAM" },
+    { at_level = 14, name = "AVALANCHE" },
+    { at_level = 16, name = "HELPINGHAND" },
+    { at_level = 18, name = "DRAININGKISS" },
+    { at_level = 21, name = "PSYBEAM" },
+    { at_level = 24, name = "FAKETEARS" },
+    { at_level = 27, name = "HEALBELL" },
+    { at_level = 30, name = "WRINGOUT" },
+    { at_level = 34, name = "FAKEOUT" },
+    { at_level = 38, name = "WISH" },
+    { at_level = 42, name = "PERISHSONG" },
+    { at_level = 46, name = "EXTRASENSORY" },
+    { at_level = 50, name = "NIGHTMARE" },
+    { at_level = 54, name = "LOVELYKISS" },
+    { at_level = 58, name = "NASTYPLOT" },
+    { at_level = 62, name = "PSYCHOBOOST" },
+]
+raw_tms = [
+    "PSYSHOCK",
+    "CALMMIND",
+    "TOXIC",
+    "HAIL",
+    "FLASH",
+    "HIDDENPOWER",
+    "TAUNT",
+    "ICEBEAM",
+    "BLIZZARD",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "REFLECT",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "ECHOEDVOICE",
+    "FOCUSBLAST",
+    "ENERGYBALL",
+    "FLING",
+    "PAYBACK",
+    "GIGAIMPACT",
+    "AURORAVEIL",
+    "PSYCHUP",
+    "FROSTBREATH",
+    "DREAMEATER",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "TRICKROOM",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "CHARM",
+    "FAKETEARS",
+    "ICICLESPEAR",
+    "AVALANCHE",
+    "PSYCHOCUT",
+    "DRAININGKISS",
+    "PSYCHICTERRAIN",
+    "BODYSLAM",
+    "METRONOME",
+    "ENDURE",
+    "ENCORE",
+    "FUTURESIGHT",
+    "NASTYPLOT",
+    "STOREDPOWER",
+]
+raw_tutor_moves = [
+    "ALLYSWITCH",
+    "COVET",
+    "DRAINPUNCH",
+    "EXPANDINGFORCE",
+    "FOCUSPUNCH",
+    "HEADBUTT",
+    "HEALBELL",
+    "HELPINGHAND",
+    "HYPERVOICE",
+    "ICEPUNCH",
+    "ICYWIND",
+    "MAGICCOAT",
+    "MAGICROOM",
+    "MIMIC",
+    "MUDSLAP",
+    "RECYCLE",
+    "ROLEPLAY",
+    "SIGNALBEAM",
+    "SKILLSWAP",
+    "SNORE",
+    "TELEKINESIS",
+    "TRICK",
+    "TRIPLEAXEL",
+    "UPROAR",
+    "WATERPULSE",
+    "WONDERROOM",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Humanlike",
+]
 steps_to_hatch = 6630
 height = 1.4
 weight = 40.6
@@ -20,107 +140,7 @@ pokedex_entry = "A Jynx sashays rhythmically as if it were dancing. Its motions 
 battler_player_y = 19
 battler_enemy_y = 16
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 124
-internal_name = "JYNX"
 habitat = "Urban"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "PETALDANCE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TRIPLEAXEL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "MEANLOOK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LICK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "CONFUSION"
-
-[[raw_level_up_moves]]
-at_level = 5
-name = "POWDERSNOW"
-
-[[raw_level_up_moves]]
-at_level = 8
-name = "LUCKYCHANT"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "HEARTSTAMP"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "AVALANCHE"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "HELPINGHAND"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "DRAININGKISS"
-
-[[raw_level_up_moves]]
-at_level = 21
-name = "PSYBEAM"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "FAKETEARS"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "HEALBELL"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "WRINGOUT"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "FAKEOUT"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "WISH"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "PERISHSONG"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "EXTRASENSORY"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "NIGHTMARE"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "LOVELYKISS"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "NASTYPLOT"
-
-[[raw_level_up_moves]]
-at_level = 62
-name = "PSYCHOBOOST"
 
 [base_stats]
 hp = 75
@@ -137,5 +157,3 @@ def_ = 0
 spa = 2
 spd = 0
 spe = 0
-
-[wild_items]

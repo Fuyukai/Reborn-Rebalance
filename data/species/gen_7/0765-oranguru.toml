@@ -1,3 +1,4 @@
+dex_number = 765
 name = "Oranguru"
 primary_type = "NORMAL"
 secondary_type = "PSYCHIC"
@@ -6,11 +7,111 @@ growth_rate = "Slow"
 exp_yield = 172
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["INNERFOCUS", "TELEPATHY"]
-raw_egg_moves = ["EXTRASENSORY", "PSYCHICTERRAIN", "WONDERROOM"]
-raw_tms = ["WORKUP", "PSYSHOCK", "CALMMIND", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "PSYCHIC", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "FACADE", "REST", "ROUND", "FOCUSBLAST", "ENERGYBALL", "FLING", "CHARGEBEAM", "BRUTALSWING", "QUASH", "EMBARGO", "PAYBACK", "GIGAIMPACT", "PSYCHUP", "BULLDOZE", "ROCKSLIDE", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "IMPRISON", "PSYCHICTERRAIN", "ENDURE", "ENCORE", "FUTURESIGHT", "NASTYPLOT", "STOREDPOWER", "TRAILBLAZE", "CHILLINGWATER"]
-raw_tutor_moves = ["AFTERYOU", "ALLYSWITCH", "BLOCK", "COVET", "FOULPLAY", "GRAVITY", "KNOCKOFF", "MAGICCOAT", "MAGICROOM", "PAINSPLIT", "SNATCH", "SNORE", "SPITE", "TELEKINESIS", "TRICK", "WONDERROOM", "ZENHEADBUTT", "TERRAINPULSE", "EXPANDINGFORCE", "MIMIC"]
-compatible_egg_groups = ["Field"]
+raw_abilities = [
+    "INNERFOCUS",
+    "TELEPATHY",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "CONFUSION" },
+    { at_level = 4, name = "AFTERYOU" },
+    { at_level = 8, name = "TAUNT" },
+    { at_level = 11, name = "QUASH" },
+    { at_level = 15, name = "STOREDPOWER" },
+    { at_level = 18, name = "PSYCHUP" },
+    { at_level = 22, name = "FEINTATTACK" },
+    { at_level = 25, name = "NASTYPLOT" },
+    { at_level = 29, name = "EXTRASENSORY" },
+    { at_level = 32, name = "INSTRUCT" },
+    { at_level = 36, name = "FOULPLAY" },
+    { at_level = 39, name = "CALMMIND" },
+    { at_level = 43, name = "PSYCHIC" },
+    { at_level = 46, name = "FUTURESIGHT" },
+    { at_level = 50, name = "TRICKROOM" },
+    { at_level = 53, name = "PSYCHICTERRAIN" },
+]
+raw_tms = [
+    "WORKUP",
+    "PSYSHOCK",
+    "CALMMIND",
+    "TOXIC",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "THUNDERBOLT",
+    "THUNDER",
+    "EARTHQUAKE",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "REFLECT",
+    "FACADE",
+    "REST",
+    "ROUND",
+    "FOCUSBLAST",
+    "ENERGYBALL",
+    "FLING",
+    "CHARGEBEAM",
+    "BRUTALSWING",
+    "QUASH",
+    "EMBARGO",
+    "PAYBACK",
+    "GIGAIMPACT",
+    "PSYCHUP",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "DREAMEATER",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "TRICKROOM",
+    "SECRETPOWER",
+    "NATUREPOWER",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "IMPRISON",
+    "PSYCHICTERRAIN",
+    "ENDURE",
+    "ENCORE",
+    "FUTURESIGHT",
+    "NASTYPLOT",
+    "STOREDPOWER",
+    "TRAILBLAZE",
+    "CHILLINGWATER",
+]
+raw_tutor_moves = [
+    "AFTERYOU",
+    "ALLYSWITCH",
+    "BLOCK",
+    "COVET",
+    "EXPANDINGFORCE",
+    "FOULPLAY",
+    "GRAVITY",
+    "KNOCKOFF",
+    "MAGICCOAT",
+    "MAGICROOM",
+    "MIMIC",
+    "PAINSPLIT",
+    "SNATCH",
+    "SNORE",
+    "SPITE",
+    "TELEKINESIS",
+    "TERRAINPULSE",
+    "TRICK",
+    "WONDERROOM",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Field",
+]
 steps_to_hatch = 5120
 height = 1.5
 weight = 76.0
@@ -20,75 +121,12 @@ pokedex_entry = "Deep in the jungle, high in the lofty canopy, this Pokémon abi
 battler_player_y = 16
 battler_enemy_y = 25
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 765
-internal_name = "ORANGURU"
 raw_hidden_ability = "SYMBIOSIS"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "CONFUSION"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "AFTERYOU"
-
-[[raw_level_up_moves]]
-at_level = 8
-name = "TAUNT"
-
-[[raw_level_up_moves]]
-at_level = 11
-name = "QUASH"
-
-[[raw_level_up_moves]]
-at_level = 15
-name = "STOREDPOWER"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "PSYCHUP"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "FEINTATTACK"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "NASTYPLOT"
-
-[[raw_level_up_moves]]
-at_level = 29
-name = "EXTRASENSORY"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "INSTRUCT"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "FOULPLAY"
-
-[[raw_level_up_moves]]
-at_level = 39
-name = "CALMMIND"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "PSYCHIC"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "FUTURESIGHT"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "TRICKROOM"
-
-[[raw_level_up_moves]]
-at_level = 53
-name = "PSYCHICTERRAIN"
+raw_egg_moves = [
+    "EXTRASENSORY",
+    "PSYCHICTERRAIN",
+    "WONDERROOM",
+]
 
 [base_stats]
 hp = 90
@@ -105,5 +143,3 @@ def_ = 0
 spa = 0
 spd = 2
 spe = 0
-
-[wild_items]

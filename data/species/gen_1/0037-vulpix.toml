@@ -1,3 +1,4 @@
+dex_number = 37
 name = "Vulpix"
 primary_type = "FIRE"
 secondary_type = "FIRE"
@@ -6,11 +7,112 @@ growth_rate = "Medium"
 exp_yield = 60
 catch_rate = 190
 caught_happiness = 70
-raw_abilities = ["FLASHFIRE", "DROUGHT"]
-raw_egg_moves = ["CAPTIVATE", "DISABLE", "EXTRASENSORY", "FEINTATTACK", "FLAIL", "FLAREBLITZ", "HEATWAVE", "HEX", "HOWL", "HYPNOSIS", "POWERSWAP", "SECRETPOWER", "SPITE", "TAILSLAP", "MEMENTO"]
-raw_tms = ["ROAR", "TOXIC", "HAIL", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "RETURN", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "FIREBLAST", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "ROUND", "OVERHEAT", "ENERGYBALL", "WILLOWISP", "PAYBACK", "AURORAVEIL", "PSYCHUP", "FROSTBREATH", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "DARKPULSE", "DAZZLINGGLEAM", "CONFIDE", "FIRESPIN", "DIG", "CHARM", "IMPRISON", "WEATHERBALL", "POWERSWAP", "HEX", "TAILSLAP", "DRAININGKISS", "MYSTICALFIRE", "BODYSLAM", "FLAREBLITZ", "LEAFSTORM", "AGILITY", "TRIATTACK", "ENDURE", "ENCORE", "POWERGEM", "SWIFT"]
-raw_tutor_moves = ["AQUATAIL", "COVET", "FOULPLAY", "HEADBUTT", "HEALBELL", "HEATWAVE", "ICYWIND", "IRONTAIL", "OMINOUSWIND", "PAINSPLIT", "ROLEPLAY", "SNORE", "SPITE", "ZENHEADBUTT", "BURNINGJEALOUSY", "MIMIC", "CELEBRATE"]
-compatible_egg_groups = ["Field"]
+raw_abilities = [
+    "FLASHFIRE",
+    "DROUGHT",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "EMBER" },
+    { at_level = 1, name = "SPITE" },
+    { at_level = 1, name = "TAILWHIP" },
+    { at_level = 4, name = "SAFEGUARD" },
+    { at_level = 7, name = "CONFUSERAY" },
+    { at_level = 10, name = "QUICKATTACK" },
+    { at_level = 13, name = "CAPTIVATE" },
+    { at_level = 16, name = "FEINTATTACK" },
+    { at_level = 19, name = "FIRESPIN" },
+    { at_level = 22, name = "HYPNOSIS" },
+    { at_level = 25, name = "ZENHEADBUTT" },
+    { at_level = 28, name = "HEX" },
+    { at_level = 31, name = "FLAMEBURST" },
+    { at_level = 34, name = "OMINOUSWIND" },
+    { at_level = 37, name = "PAINSPLIT" },
+    { at_level = 40, name = "IMPRISON" },
+    { at_level = 44, name = "INFERNO" },
+    { at_level = 48, name = "MEMENTO" },
+    { at_level = 52, name = "FLAREBLITZ" },
+    { at_level = 56, name = "EXTRASENSORY" },
+    { at_level = 60, name = "GRUDGE" },
+    { at_level = 101, name = "ICEBEAM" },
+]
+raw_tms = [
+    "ROAR",
+    "TOXIC",
+    "HAIL",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "ICEBEAM",
+    "BLIZZARD",
+    "PROTECT",
+    "RAINDANCE",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "RETURN",
+    "DOUBLETEAM",
+    "REFLECT",
+    "FLAMETHROWER",
+    "FIREBLAST",
+    "FACADE",
+    "FLAMECHARGE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "OVERHEAT",
+    "ENERGYBALL",
+    "WILLOWISP",
+    "PAYBACK",
+    "AURORAVEIL",
+    "PSYCHUP",
+    "FROSTBREATH",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "DARKPULSE",
+    "DAZZLINGGLEAM",
+    "CONFIDE",
+    "FIRESPIN",
+    "DIG",
+    "CHARM",
+    "IMPRISON",
+    "WEATHERBALL",
+    "POWERSWAP",
+    "HEX",
+    "TAILSLAP",
+    "DRAININGKISS",
+    "MYSTICALFIRE",
+    "BODYSLAM",
+    "FLAREBLITZ",
+    "LEAFSTORM",
+    "AGILITY",
+    "TRIATTACK",
+    "ENDURE",
+    "ENCORE",
+    "POWERGEM",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AQUATAIL",
+    "BURNINGJEALOUSY",
+    "CELEBRATE",
+    "COVET",
+    "FOULPLAY",
+    "HEADBUTT",
+    "HEALBELL",
+    "HEATWAVE",
+    "ICYWIND",
+    "IRONTAIL",
+    "MIMIC",
+    "OMINOUSWIND",
+    "PAINSPLIT",
+    "ROLEPLAY",
+    "SNORE",
+    "SPITE",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Field",
+]
 steps_to_hatch = 5355
 height = 0.6
 weight = 9.9
@@ -20,104 +122,31 @@ pokedex_entry = "At the time of its birth, Vulpix has one white tail. It separat
 battler_player_y = 25
 battler_enemy_y = 20
 battler_altitude = 0
-form_names = ["Normal", "Alternate"]
-dex_number = 37
-internal_name = "VULPIX"
+raw_egg_moves = [
+    "CAPTIVATE",
+    "DISABLE",
+    "EXTRASENSORY",
+    "FEINTATTACK",
+    "FLAIL",
+    "FLAREBLITZ",
+    "HEATWAVE",
+    "HEX",
+    "HOWL",
+    "HYPNOSIS",
+    "POWERSWAP",
+    "SECRETPOWER",
+    "SPITE",
+    "TAILSLAP",
+    "MEMENTO",
+]
 habitat = "Grassland"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "EMBER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SPITE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TAILWHIP"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "SAFEGUARD"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "CONFUSERAY"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "QUICKATTACK"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "CAPTIVATE"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "FEINTATTACK"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "FIRESPIN"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "HYPNOSIS"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "ZENHEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "HEX"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "FLAMEBURST"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "OMINOUSWIND"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "PAINSPLIT"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "IMPRISON"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "INFERNO"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "MEMENTO"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "FLAREBLITZ"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "EXTRASENSORY"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "GRUDGE"
-
-# easter egg
-[[raw_level_up_moves]]
-at_level = 101
-name = "ICEBEAM"
-
-[[evolutions]]
-into_name = "NINETALES"
-condition = "Item"
-parameter = "FIRESTONE"
+evolutions = [
+    { into_name = "NINETALES", condition = "Item", parameter = "FIRESTONE" },
+]
+form_names = [
+    "Normal",
+    "Alternate",
+]
 
 [base_stats]
 hp = 38

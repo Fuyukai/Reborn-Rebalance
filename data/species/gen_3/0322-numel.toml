@@ -1,3 +1,4 @@
+dex_number = 322
 name = "Numel"
 primary_type = "FIRE"
 secondary_type = "GROUND"
@@ -6,11 +7,93 @@ growth_rate = "Medium"
 exp_yield = 61
 catch_rate = 255
 caught_happiness = 70
-raw_abilities = ["OBLIVIOUS", "SIMPLE"]
-raw_egg_moves = ["ANCIENTPOWER", "BODYSLAM", "DEFENSECURL", "ENDURE", "GROWTH", "HEATWAVE", "HEAVYSLAM", "HOWL", "IRONHEAD", "MUDBOMB", "ROLLOUT", "SCARYFACE", "SPITUP", "STOCKPILE", "STOMP", "SWALLOW", "YAWN"]
-raw_tms = ["STRENGTH", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "FRUSTRATION", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "FLAMETHROWER", "SANDSTORM", "FIREBLAST", "ROCKTOMB", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "OVERHEAT", "WILLOWISP", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "CONFIDE", "DIG", "SCARYFACE", "SANDTOMB", "BODYSLAM", "FOCUSENERGY", "AMNESIA", "ENDURE", "HEATCRASH", "HEAVYSLAM", "TRAILBLAZE"]
-raw_tutor_moves = ["AFTERYOU", "EARTHPOWER", "HEADBUTT", "HEATWAVE", "IRONHEAD", "MUDSLAP", "ROLLOUT", "SNORE", "STEALTHROCK", "MIMIC"]
-compatible_egg_groups = ["Field"]
+raw_abilities = [
+    "OBLIVIOUS",
+    "SIMPLE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "GROWL" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 1, name = "FOCUSENERGY" },
+    { at_level = 4, name = "MUDSLAP" },
+    { at_level = 7, name = "HEADBUTT" },
+    { at_level = 10, name = "EMBER" },
+    { at_level = 13, name = "SCARYFACE" },
+    { at_level = 16, name = "CURSE" },
+    { at_level = 19, name = "BULLDOZE" },
+    { at_level = 22, name = "FLAMEBURST" },
+    { at_level = 25, name = "MUDBOMB" },
+    { at_level = 28, name = "LAVAPLUME" },
+    { at_level = 31, name = "AMNESIA" },
+    { at_level = 33, name = "STOCKPILE" },
+    { at_level = 34, name = "TAKEDOWN" },
+    { at_level = 37, name = "HEAVYSLAM" },
+    { at_level = 40, name = "YAWN" },
+    { at_level = 43, name = "FLAMETHROWER" },
+    { at_level = 46, name = "GROWTH" },
+    { at_level = 49, name = "BODYSLAM" },
+    { at_level = 52, name = "ANCIENTPOWER" },
+    { at_level = 55, name = "FISSURE" },
+    { at_level = 58, name = "DOUBLEEDGE" },
+    { at_level = 61, name = "ERUPTION" },
+]
+raw_tms = [
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "PROTECT",
+    "FRUSTRATION",
+    "EARTHQUAKE",
+    "RETURN",
+    "DOUBLETEAM",
+    "FLAMETHROWER",
+    "SANDSTORM",
+    "FIREBLAST",
+    "ROCKTOMB",
+    "FACADE",
+    "FLAMECHARGE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ECHOEDVOICE",
+    "OVERHEAT",
+    "WILLOWISP",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "NATUREPOWER",
+    "CONFIDE",
+    "DIG",
+    "SCARYFACE",
+    "SANDTOMB",
+    "BODYSLAM",
+    "FOCUSENERGY",
+    "AMNESIA",
+    "ENDURE",
+    "HEATCRASH",
+    "HEAVYSLAM",
+    "TRAILBLAZE",
+]
+raw_tutor_moves = [
+    "AFTERYOU",
+    "EARTHPOWER",
+    "HEADBUTT",
+    "HEATWAVE",
+    "IRONHEAD",
+    "MIMIC",
+    "MUDSLAP",
+    "ROLLOUT",
+    "SNORE",
+    "STEALTHROCK",
+]
+compatible_egg_groups = [
+    "Field",
+]
 steps_to_hatch = 5355
 height = 0.7
 weight = 24.0
@@ -20,114 +103,30 @@ pokedex_entry = "It stores boiling magma in the hump on its back. Numel is a har
 battler_player_y = 21
 battler_enemy_y = 19
 battler_altitude = 0
-form_names = []
-dex_number = 322
-internal_name = "NUMEL"
 raw_hidden_ability = "OWNTEMPO"
+raw_egg_moves = [
+    "ANCIENTPOWER",
+    "BODYSLAM",
+    "DEFENSECURL",
+    "ENDURE",
+    "GROWTH",
+    "HEATWAVE",
+    "HEAVYSLAM",
+    "HOWL",
+    "IRONHEAD",
+    "MUDBOMB",
+    "ROLLOUT",
+    "SCARYFACE",
+    "SPITUP",
+    "STOCKPILE",
+    "STOMP",
+    "SWALLOW",
+    "YAWN",
+]
 habitat = "Mountain"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FOCUSENERGY"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "MUDSLAP"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "HEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "EMBER"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "SCARYFACE"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "CURSE"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "BULLDOZE"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "FLAMEBURST"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "MUDBOMB"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "LAVAPLUME"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "AMNESIA"
-
-[[raw_level_up_moves]]
-at_level = 33
-name = "STOCKPILE"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "TAKEDOWN"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "HEAVYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "YAWN"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "FLAMETHROWER"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "GROWTH"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "ANCIENTPOWER"
-
-[[raw_level_up_moves]]
-at_level = 55
-name = "FISSURE"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "DOUBLEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 61
-name = "ERUPTION"
-
-[[evolutions]]
-into_name = "CAMERUPT"
-condition = "Level"
-parameter = "33"
-
-
+evolutions = [
+    { into_name = "CAMERUPT", condition = "Level", parameter = "33" },
+]
 
 [base_stats]
 hp = 60
@@ -144,5 +143,3 @@ def_ = 0
 spa = 1
 spd = 0
 spe = 0
-
-[wild_items]

@@ -1,3 +1,4 @@
+dex_number = 611
 name = "Fraxure"
 primary_type = "DRAGON"
 secondary_type = "DRAGON"
@@ -6,11 +7,101 @@ growth_rate = "Slow"
 exp_yield = 144
 catch_rate = 60
 caught_happiness = 35
-raw_abilities = ["RIVALRY", "MOLDBREAKER"]
-raw_egg_moves = []
-raw_tms = ["CUT", "DRAGONCLAW", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "DOUBLETEAM", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "FALSESWIPE", "FLING", "SHADOWCLAW", "PAYBACK", "GIGAIMPACT", "SWORDSDANCE", "XSCISSOR", "DRAGONTAIL", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "SCARYFACE", "ASSURANCE", "CRUNCH", "BREAKINGSWIPE", "FOCUSENERGY", "REVERSAL", "ENDURE", "DRAGONDANCE", "TRAILBLAZE", "SWIFT", "WORKUP"]
-raw_tutor_moves = ["AQUATAIL", "DRACOMETEOR", "DRAGONPULSE", "DUALCHOP", "ENDEAVOR", "IRONTAIL", "LOWKICK", "OUTRAGE", "SHOCKWAVE", "SNORE", "STOMPINGTANTRUM", "SUPERPOWER", "SCALESHOT", "MIMIC"]
-compatible_egg_groups = ["Monster", "Dragon"]
+raw_abilities = [
+    "RIVALRY",
+    "MOLDBREAKER",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "BITE" },
+    { at_level = 1, name = "FALSESWIPE" },
+    { at_level = 1, name = "LEER" },
+    { at_level = 1, name = "SCRATCH" },
+    { at_level = 9, name = "ASSURANCE" },
+    { at_level = 12, name = "TAUNT" },
+    { at_level = 15, name = "REVERSAL" },
+    { at_level = 18, name = "DUALCHOP" },
+    { at_level = 21, name = "SCARYFACE" },
+    { at_level = 24, name = "CRUNCH" },
+    { at_level = 27, name = "DRAGONDANCE" },
+    { at_level = 30, name = "DRAGONPULSE" },
+    { at_level = 33, name = "SLASH" },
+    { at_level = 33, name = "NIGHTSLASH" },
+    { at_level = 36, name = "FOCUSENERGY" },
+    { at_level = 38, name = "BREAKINGSWIPE" },
+    { at_level = 42, name = "SWORDSDANCE" },
+    { at_level = 46, name = "SUPERPOWER" },
+    { at_level = 48, name = "OUTRAGE" },
+    { at_level = 52, name = "GUILLOTINE" },
+    { at_level = 56, name = "GIGAIMPACT" },
+]
+raw_tms = [
+    "CUT",
+    "WORKUP",
+    "DRAGONCLAW",
+    "STRENGTH",
+    "ROAR",
+    "TOXIC",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "RETURN",
+    "DOUBLETEAM",
+    "ROCKTOMB",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "FALSESWIPE",
+    "FLING",
+    "SHADOWCLAW",
+    "PAYBACK",
+    "GIGAIMPACT",
+    "SWORDSDANCE",
+    "XSCISSOR",
+    "DRAGONTAIL",
+    "POISONJAB",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "DIG",
+    "SCARYFACE",
+    "ASSURANCE",
+    "CRUNCH",
+    "BREAKINGSWIPE",
+    "FOCUSENERGY",
+    "REVERSAL",
+    "ENDURE",
+    "DRAGONDANCE",
+    "TRAILBLAZE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AQUATAIL",
+    "DRACOMETEOR",
+    "DRAGONPULSE",
+    "DUALCHOP",
+    "ENDEAVOR",
+    "IRONTAIL",
+    "LOWKICK",
+    "MIMIC",
+    "OUTRAGE",
+    "SCALESHOT",
+    "SHOCKWAVE",
+    "SNORE",
+    "STOMPINGTANTRUM",
+    "SUPERPOWER",
+]
+compatible_egg_groups = [
+    "Monster",
+    "Dragon",
+]
 steps_to_hatch = 10240
 height = 1.0
 weight = 36.0
@@ -20,101 +111,10 @@ pokedex_entry = "Their tusks can shatter rocks. Territory battles between Fraxur
 battler_player_y = 20
 battler_enemy_y = 25
 battler_altitude = 0
-form_names = []
-dex_number = 611
-internal_name = "FRAXURE"
 raw_hidden_ability = "UNNERVE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FALSESWIPE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SCRATCH"
-
-[[raw_level_up_moves]]
-at_level = 9
-name = "ASSURANCE"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "TAUNT"
-
-[[raw_level_up_moves]]
-at_level = 15
-name = "REVERSAL"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "DUALCHOP"
-
-[[raw_level_up_moves]]
-at_level = 21
-name = "SCARYFACE"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "DRAGONDANCE"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "DRAGONPULSE"
-
-[[raw_level_up_moves]]
-at_level = 33
-name = "SLASH"
-
-[[raw_level_up_moves]]
-at_level = 33
-name = "NIGHTSLASH"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "FOCUSENERGY"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "BREAKINGSWIPE"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "SWORDSDANCE"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "SUPERPOWER"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "OUTRAGE"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "GUILLOTINE"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "GIGAIMPACT"
-
-[[evolutions]]
-into_name = "HAXORUS"
-condition = "Level"
-parameter = "48"
-
-
+evolutions = [
+    { into_name = "HAXORUS", condition = "Level", parameter = "48" },
+]
 
 [base_stats]
 hp = 66
@@ -131,5 +131,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

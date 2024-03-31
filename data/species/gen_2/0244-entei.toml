@@ -1,3 +1,4 @@
+dex_number = 244
 name = "Entei"
 primary_type = "FIRE"
 secondary_type = "FIRE"
@@ -6,11 +7,97 @@ growth_rate = "Slow"
 exp_yield = 261
 catch_rate = 3
 caught_happiness = 35
-raw_abilities = ["PRESSURE", "INNERFOCUS"]
-raw_egg_moves = []
-raw_tms = ["CUT", "CALMMIND", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "FLASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "SOLARBEAM", "RETURN", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "SANDSTORM", "FIREBLAST", "FACADE", "FLAMECHARGE", "REST", "ROUND", "OVERHEAT", "QUASH", "WILLOWISP", "GIGAIMPACT", "STONEEDGE", "PSYCHUP", "BULLDOZE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "SNARL", "CONFIDE", "FIRESPIN", "DIG", "WEATHERBALL", "FIREFANG", "BODYSLAM", "FLAREBLITZ", "AGILITY", "ENDURE", "SWIFT"]
-raw_tutor_moves = ["HEADBUTT", "HEATWAVE", "HELPINGHAND", "IRONHEAD", "IRONTAIL", "LASERFOCUS", "MUDSLAP", "SNORE", "STOMPINGTANTRUM", "SCORCHINGSANDS", "RAGINGFURY", "EXTREMESPEED", "MIMIC"]
-compatible_egg_groups = ["Undiscovered"]
+raw_abilities = [
+    "PRESSURE",
+    "INNERFOCUS",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "SCORCHINGSANDS" },
+    { at_level = 1, name = "EXTREMESPEED" },
+    { at_level = 1, name = "CRUSHCLAW" },
+    { at_level = 1, name = "BITE" },
+    { at_level = 1, name = "ROAR" },
+    { at_level = 6, name = "EMBER" },
+    { at_level = 10, name = "FIRESPIN" },
+    { at_level = 14, name = "STOMP" },
+    { at_level = 18, name = "FLAMETHROWER" },
+    { at_level = 22, name = "HEADLONGRUSH" },
+    { at_level = 26, name = "RAGINGFURY" },
+    { at_level = 30, name = "LAVAPLUME" },
+    { at_level = 34, name = "EXTRASENSORY" },
+    { at_level = 38, name = "HIGHHORSEPOWER" },
+    { at_level = 42, name = "CALMMIND" },
+    { at_level = 46, name = "ERUPTION" },
+    { at_level = 50, name = "FLAREBLITZ" },
+]
+raw_tms = [
+    "CUT",
+    "CALMMIND",
+    "STRENGTH",
+    "ROAR",
+    "TOXIC",
+    "ROCKSMASH",
+    "FLASH",
+    "ROCKCLIMB",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "REFLECT",
+    "FLAMETHROWER",
+    "SANDSTORM",
+    "FIREBLAST",
+    "FACADE",
+    "FLAMECHARGE",
+    "REST",
+    "ROUND",
+    "OVERHEAT",
+    "QUASH",
+    "WILLOWISP",
+    "GIGAIMPACT",
+    "STONEEDGE",
+    "PSYCHUP",
+    "BULLDOZE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "SNARL",
+    "CONFIDE",
+    "FIRESPIN",
+    "DIG",
+    "WEATHERBALL",
+    "FIREFANG",
+    "BODYSLAM",
+    "FLAREBLITZ",
+    "AGILITY",
+    "ENDURE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "EXTREMESPEED",
+    "HEADBUTT",
+    "HEATWAVE",
+    "HELPINGHAND",
+    "IRONHEAD",
+    "IRONTAIL",
+    "LASERFOCUS",
+    "MIMIC",
+    "MUDSLAP",
+    "RAGINGFURY",
+    "SCORCHINGSANDS",
+    "SNORE",
+    "STOMPINGTANTRUM",
+]
+compatible_egg_groups = [
+    "Undiscovered",
+]
 steps_to_hatch = 20655
 height = 2.1
 weight = 198.0
@@ -20,79 +107,7 @@ pokedex_entry = "Entei embodies the passion of magma. It is thought to have been
 battler_player_y = 13
 battler_enemy_y = 7
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 244
-internal_name = "ENTEI"
 habitat = "Grassland"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SCORCHINGSANDS"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "EXTREMESPEED"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "CRUSHCLAW"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ROAR"
-
-[[raw_level_up_moves]]
-at_level = 6
-name = "EMBER"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "FIRESPIN"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "STOMP"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "FLAMETHROWER"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "HEADLONGRUSH"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "RAGINGFURY"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "LAVAPLUME"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "EXTRASENSORY"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "HIGHHORSEPOWER"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "CALMMIND"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "ERUPTION"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "FLAREBLITZ"
 
 [base_stats]
 hp = 115
@@ -109,5 +124,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

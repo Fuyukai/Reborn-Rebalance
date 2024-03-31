@@ -1,3 +1,4 @@
+dex_number = 60
 name = "Poliwag"
 primary_type = "WATER"
 secondary_type = "WATER"
@@ -6,11 +7,79 @@ growth_rate = "Parabolic"
 exp_yield = 60
 catch_rate = 255
 caught_happiness = 70
-raw_abilities = ["WATERABSORB", "DAMP", "SWIFTSWIM"]
-raw_egg_moves = ["BUBBLEBEAM", "ENCORE", "ENDEAVOR", "ENDURE", "HAZE", "ICEBALL", "MINDREADER", "MIST", "MUDSHOT", "REFRESH", "SPLASH", "WATERPULSE", "WATERSPORT"]
-raw_tms = ["SURF", "WATERFALL", "TOXIC", "DIVE", "HAIL", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "PSYCHIC", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "SCALD", "BULLDOZE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "WHIRLPOOL", "MUDSHOT", "BODYSLAM", "HYDROPUMP", "AMNESIA", "ENDURE", "ENCORE", "MUDDYWATER"]
-raw_tutor_moves = ["EARTHPOWER", "ENDEAVOR", "HEADBUTT", "HELPINGHAND", "ICYWIND", "LOWKICK", "SNORE", "WATERPULSE", "ICEBALL", "MIMIC"]
-compatible_egg_groups = ["Water1"]
+raw_abilities = [
+    "WATERABSORB",
+    "DAMP",
+    "SWIFTSWIM",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "POUND" },
+    { at_level = 1, name = "SPLASH" },
+    { at_level = 6, name = "HYPNOSIS" },
+    { at_level = 9, name = "WATERGUN" },
+    { at_level = 12, name = "DOUBLESLAP" },
+    { at_level = 15, name = "MIST" },
+    { at_level = 18, name = "BUBBLEBEAM" },
+    { at_level = 21, name = "MUDSHOT" },
+    { at_level = 24, name = "BODYSLAM" },
+    { at_level = 27, name = "MUDBOMB" },
+    { at_level = 30, name = "BELLYDRUM" },
+    { at_level = 33, name = "ENDEAVOR" },
+    { at_level = 36, name = "HAZE" },
+    { at_level = 39, name = "HELPINGHAND" },
+]
+raw_tms = [
+    "SURF",
+    "WATERFALL",
+    "TOXIC",
+    "DIVE",
+    "HAIL",
+    "HIDDENPOWER",
+    "ICEBEAM",
+    "BLIZZARD",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "RETURN",
+    "PSYCHIC",
+    "DOUBLETEAM",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "SCALD",
+    "BULLDOZE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "DIG",
+    "WHIRLPOOL",
+    "MUDSHOT",
+    "BODYSLAM",
+    "HYDROPUMP",
+    "AMNESIA",
+    "ENDURE",
+    "ENCORE",
+    "MUDDYWATER",
+]
+raw_tutor_moves = [
+    "EARTHPOWER",
+    "ENDEAVOR",
+    "HEADBUTT",
+    "HELPINGHAND",
+    "ICEBALL",
+    "ICYWIND",
+    "LOWKICK",
+    "MIMIC",
+    "SNORE",
+    "WATERPULSE",
+]
+compatible_egg_groups = [
+    "Water1",
+]
 steps_to_hatch = 5355
 height = 0.6
 weight = 12.4
@@ -20,75 +89,25 @@ pokedex_entry = "It is possible to see this Pokémon's spiral innards right thro
 battler_player_y = 27
 battler_enemy_y = 25
 battler_altitude = 0
-form_names = []
-dex_number = 60
-internal_name = "POLIWAG"
+raw_egg_moves = [
+    "BUBBLEBEAM",
+    "ENCORE",
+    "ENDEAVOR",
+    "ENDURE",
+    "HAZE",
+    "ICEBALL",
+    "MINDREADER",
+    "MIST",
+    "MUDSHOT",
+    "REFRESH",
+    "SPLASH",
+    "WATERPULSE",
+    "WATERSPORT",
+]
 habitat = "WatersEdge"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "POUND"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SPLASH"
-
-[[raw_level_up_moves]]
-at_level = 6
-name = "HYPNOSIS"
-
-[[raw_level_up_moves]]
-at_level = 9
-name = "WATERGUN"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "DOUBLESLAP"
-
-[[raw_level_up_moves]]
-at_level = 15
-name = "MIST"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "BUBBLEBEAM"
-
-[[raw_level_up_moves]]
-at_level = 21
-name = "MUDSHOT"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "MUDBOMB"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "BELLYDRUM"
-
-[[raw_level_up_moves]]
-at_level = 33
-name = "ENDEAVOR"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "HAZE"
-
-[[raw_level_up_moves]]
-at_level = 39
-name = "HELPINGHAND"
-
-[[evolutions]]
-into_name = "POLIWHIRL"
-condition = "Level"
-parameter = "25"
-
-
-
-
+evolutions = [
+    { into_name = "POLIWHIRL", condition = "Level", parameter = "25" },
+]
 
 [base_stats]
 hp = 40
@@ -105,5 +124,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 1
-
-[wild_items]

@@ -1,61 +1,21 @@
-chances = [50, 6, 20]
+chances = [
+    50,
+    6,
+    20,
+]
 
-[[encounters.Cave]]
-name = "DIGLETT"
-minimum_level = 30
-maximum_level = 34
-
-[[encounters.Cave]]
-name = "NUMEL"
-minimum_level = 30
-maximum_level = 34
-
-[[encounters.Cave]]
-name = "SLUGMA"
-minimum_level = 33
-maximum_level = 35
-
-[[encounters.Cave]]
-name = "SAWK"
-minimum_level = 33
-maximum_level = 35
-
-[[encounters.Cave]]
-name = "THROH"
-minimum_level = 33
-maximum_level = 35
-
-[[encounters.Cave]]
-name = "ROLYCOLY"
-minimum_level = 31
-maximum_level = 35
-
-[[encounters.Cave]]
-name = "NUMEL"
-minimum_level = 33
-maximum_level = 35
-
-[[encounters.Cave]]
-name = "GRAVELER"
-minimum_level = 30
-maximum_level = 34
-
-[[encounters.Cave]]
-name = "NOIBAT"
-minimum_level = 30
-maximum_level = 34
-
-[[encounters.Cave]]
-name = "DUGTRIO"
-minimum_level = 33
-maximum_level = 37
-
-[[encounters.Cave]]
-name = "GRAVELER"
-minimum_level = 30
-maximum_level = 35
-
-[[encounters.Cave]]
-name = "MAGCARGO"
-minimum_level = 33
-maximum_level = 37
+[encounters]
+Cave = [
+    { name = "DIGLETT", minimum_level = 30, maximum_level = 34 },
+    { name = "NUMEL", minimum_level = 30, maximum_level = 34 },
+    { name = "SLUGMA", minimum_level = 33, maximum_level = 35 },
+    { name = "SAWK", minimum_level = 33, maximum_level = 35 },
+    { name = "THROH", minimum_level = 33, maximum_level = 35 },
+    { name = "ROLYCOLY", minimum_level = 31, maximum_level = 35 },
+    { name = "NUMEL", minimum_level = 33, maximum_level = 35 },
+    { name = "GRAVELER", minimum_level = 30, maximum_level = 34 },
+    { name = "NOIBAT", minimum_level = 30, maximum_level = 34 },
+    { name = "DUGTRIO", minimum_level = 33, maximum_level = 37 },
+    { name = "GRAVELER", minimum_level = 30, maximum_level = 35 },
+    { name = "MAGCARGO", minimum_level = 33, maximum_level = 37 },
+]

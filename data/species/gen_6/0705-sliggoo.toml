@@ -1,3 +1,4 @@
+dex_number = 705
 name = "Sliggoo"
 primary_type = "DRAGON"
 secondary_type = "DRAGON"
@@ -6,11 +7,71 @@ growth_rate = "Slow"
 exp_yield = 158
 catch_rate = 20
 caught_happiness = 70
-raw_abilities = ["SAPSIPPER", "HYDRATION"]
-raw_egg_moves = []
-raw_tms = ["TOXIC", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "RETURN", "DOUBLETEAM", "SLUDGEWAVE", "SLUDGEBOMB", "FACADE", "REST", "ATTRACT", "ROUND", "ROCKSLIDE", "INFESTATION", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "MUDSHOT", "BODYSLAM", "ENDURE", "MUDDYWATER", "ICESPINNER", "CHILLINGWATER"]
-raw_tutor_moves = ["DRACOMETEOR", "DRAGONPULSE", "IRONTAIL", "OUTRAGE", "SHOCKWAVE", "SNORE", "WATERPULSE", "SKITTERSMACK", "MIMIC", "POISONTAIL"]
-compatible_egg_groups = ["Dragon"]
+raw_abilities = [
+    "SAPSIPPER",
+    "HYDRATION",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 1, name = "BUBBLE" },
+    { at_level = 1, name = "ABSORB" },
+    { at_level = 5, name = "ABSORB" },
+    { at_level = 9, name = "PROTECT" },
+    { at_level = 13, name = "BIDE" },
+    { at_level = 18, name = "DRAGONBREATH" },
+    { at_level = 25, name = "RAINDANCE" },
+    { at_level = 28, name = "FLAIL" },
+    { at_level = 32, name = "BODYSLAM" },
+    { at_level = 38, name = "MUDDYWATER" },
+    { at_level = 47, name = "DRAGONPULSE" },
+]
+raw_tms = [
+    "TOXIC",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "ICEBEAM",
+    "BLIZZARD",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "THUNDERBOLT",
+    "RETURN",
+    "DOUBLETEAM",
+    "SLUDGEWAVE",
+    "SLUDGEBOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ROCKSLIDE",
+    "INFESTATION",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "MUDSHOT",
+    "BODYSLAM",
+    "ENDURE",
+    "MUDDYWATER",
+    "ICESPINNER",
+    "CHILLINGWATER",
+]
+raw_tutor_moves = [
+    "DRACOMETEOR",
+    "DRAGONPULSE",
+    "IRONTAIL",
+    "MIMIC",
+    "OUTRAGE",
+    "POISONTAIL",
+    "SHOCKWAVE",
+    "SKITTERSMACK",
+    "SNORE",
+    "WATERPULSE",
+]
+compatible_egg_groups = [
+    "Dragon",
+]
 steps_to_hatch = 10240
 height = 0.8
 weight = 17.5
@@ -20,65 +81,10 @@ pokedex_entry = "It drives away opponents by excreting a sticky liquid that can 
 battler_player_y = 19
 battler_enemy_y = 17
 battler_altitude = 0
-form_names = []
-dex_number = 705
-internal_name = "SLIGGOO"
 raw_hidden_ability = "GOOEY"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BUBBLE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ABSORB"
-
-[[raw_level_up_moves]]
-at_level = 5
-name = "ABSORB"
-
-[[raw_level_up_moves]]
-at_level = 9
-name = "PROTECT"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "BIDE"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "DRAGONBREATH"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "RAINDANCE"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "FLAIL"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "MUDDYWATER"
-
-[[raw_level_up_moves]]
-at_level = 47
-name = "DRAGONPULSE"
-
-[[evolutions]]
-into_name = "GOODRA"
-condition = "LevelRain"
-parameter = "50"
-
-
+evolutions = [
+    { into_name = "GOODRA", condition = "LevelRain", parameter = "50" },
+]
 
 [base_stats]
 hp = 68

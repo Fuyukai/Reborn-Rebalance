@@ -1,3 +1,4 @@
+dex_number = 602
 name = "Tynamo"
 primary_type = "ELECTRIC"
 secondary_type = "ELECTRIC"
@@ -6,11 +7,25 @@ growth_rate = "Slow"
 exp_yield = 55
 catch_rate = 190
 caught_happiness = 70
-raw_abilities = ["LEVITATE"]
-raw_egg_moves = []
-raw_tms = ["THUNDERWAVE"]
-raw_tutor_moves = ["MAGNETRISE"]
-compatible_egg_groups = ["Amorphous"]
+raw_abilities = [
+    "LEVITATE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "SHOCKWAVE" },
+    { at_level = 1, name = "MAGNETRISE" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 1, name = "NUZZLE" },
+    { at_level = 100, name = "VOLTTACKLE" },
+]
+raw_tms = [
+    "THUNDERWAVE",
+]
+raw_tutor_moves = [
+    "MAGNETRISE",
+]
+compatible_egg_groups = [
+    "Amorphous",
+]
 steps_to_hatch = 5120
 height = 0.2
 weight = 0.3
@@ -20,36 +35,9 @@ pokedex_entry = "These Pokémon move in schools. They have an electricity-genera
 battler_player_y = 39
 battler_enemy_y = 33
 battler_altitude = 5
-form_names = []
-dex_number = 602
-internal_name = "TYNAMO"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SHOCKWAVE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "MAGNETRISE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "NUZZLE"
-
-[[raw_level_up_moves]]
-at_level = 100
-name = "VOLTTACKLE"
-
-[[evolutions]]
-into_name = "EELEKTRIK"
-condition = "Level"
-parameter = "30"
-
-
+evolutions = [
+    { into_name = "EELEKTRIK", condition = "Level", parameter = "30" },
+]
 
 [base_stats]
 hp = 35
@@ -66,5 +54,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 1
-
-[wild_items]

@@ -1,3 +1,4 @@
+dex_number = 256
 name = "Combusken"
 primary_type = "FIRE"
 secondary_type = "FIGHTING"
@@ -6,11 +7,109 @@ growth_rate = "Parabolic"
 exp_yield = 142
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["BLAZE", "QUICKFEET"]
-raw_egg_moves = []
-raw_tms = ["WORKUP", "CUT", "STRENGTH", "TOXIC", "ROCKSMASH", "BULKUP", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "FRUSTRATION", "RETURN", "BRICKBREAK", "DOUBLETEAM", "FLAMETHROWER", "FIREBLAST", "ROCKTOMB", "AERIALACE", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "LOWSWEEP", "ROUND", "ECHOEDVOICE", "OVERHEAT", "FOCUSBLAST", "FLING", "WILLOWISP", "SHADOWCLAW", "SWORDSDANCE", "ROCKSLIDE", "POISONJAB", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "FIRESPIN", "DIG", "REVENGE", "ASSURANCE", "BODYSLAM", "FLAREBLITZ", "AGILITY", "FOCUSENERGY", "REVERSAL", "ENDURE", "BATONPASS", "SWIFT"]
-raw_tutor_moves = ["BOUNCE", "DEFOG", "DUALCHOP", "FIREPLEDGE", "FIREPUNCH", "FOCUSPUNCH", "FURYCUTTER", "HEADBUTT", "HEATWAVE", "HELPINGHAND", "LASTRESORT", "LOWKICK", "MUDSLAP", "SNORE", "THUNDERPUNCH", "VACUUMWAVE", "MIMIC"]
-compatible_egg_groups = ["Field"]
+raw_abilities = [
+    "BLAZE",
+    "QUICKFEET",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "SCRATCH" },
+    { at_level = 1, name = "GROWL" },
+    { at_level = 5, name = "EMBER" },
+    { at_level = 7, name = "SANDATTACK" },
+    { at_level = 10, name = "PECK" },
+    { at_level = 13, name = "FLAMECHARGE" },
+    { at_level = 16, name = "DOUBLEKICK" },
+    { at_level = 17, name = "FOCUSENERGY" },
+    { at_level = 20, name = "QUICKATTACK" },
+    { at_level = 22, name = "FIREPUNCH" },
+    { at_level = 25, name = "UTURN" },
+    { at_level = 28, name = "SKYUPPERCUT" },
+    { at_level = 31, name = "HEATCRASH" },
+    { at_level = 34, name = "SLASH" },
+    { at_level = 34, name = "NIGHTSLASH" },
+    { at_level = 37, name = "MIRRORMOVE" },
+    { at_level = 40, name = "BLAZEKICK" },
+    { at_level = 43, name = "FEATHERDANCE" },
+    { at_level = 46, name = "CLOSECOMBAT" },
+    { at_level = 49, name = "SCORCHINGSANDS" },
+    { at_level = 53, name = "BOUNCE" },
+]
+raw_tms = [
+    "WORKUP",
+    "CUT",
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "BULKUP",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "PROTECT",
+    "FRUSTRATION",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "FLAMETHROWER",
+    "FIREBLAST",
+    "ROCKTOMB",
+    "AERIALACE",
+    "FACADE",
+    "FLAMECHARGE",
+    "REST",
+    "ATTRACT",
+    "LOWSWEEP",
+    "ROUND",
+    "ECHOEDVOICE",
+    "OVERHEAT",
+    "FOCUSBLAST",
+    "FLING",
+    "WILLOWISP",
+    "SHADOWCLAW",
+    "SWORDSDANCE",
+    "ROCKSLIDE",
+    "POISONJAB",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "FIRESPIN",
+    "DIG",
+    "REVENGE",
+    "ASSURANCE",
+    "BODYSLAM",
+    "FLAREBLITZ",
+    "AGILITY",
+    "FOCUSENERGY",
+    "REVERSAL",
+    "ENDURE",
+    "BATONPASS",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "BOUNCE",
+    "DEFOG",
+    "DUALCHOP",
+    "FIREPLEDGE",
+    "FIREPUNCH",
+    "FOCUSPUNCH",
+    "FURYCUTTER",
+    "HEADBUTT",
+    "HEATWAVE",
+    "HELPINGHAND",
+    "LASTRESORT",
+    "LOWKICK",
+    "MIMIC",
+    "MUDSLAP",
+    "SNORE",
+    "THUNDERPUNCH",
+    "VACUUMWAVE",
+]
+compatible_egg_groups = [
+    "Field",
+]
 steps_to_hatch = 5355
 height = 0.9
 weight = 19.5
@@ -20,101 +119,10 @@ pokedex_entry = "It lashes out with 10 kicks per second. Its strong fighting ins
 battler_player_y = 15
 battler_enemy_y = 11
 battler_altitude = 0
-form_names = []
-dex_number = 256
-internal_name = "COMBUSKEN"
 habitat = "Grassland"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SCRATCH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWL"
-
-[[raw_level_up_moves]]
-at_level = 5
-name = "EMBER"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "SANDATTACK"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "PECK"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "FLAMECHARGE"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "DOUBLEKICK"
-
-[[raw_level_up_moves]]
-at_level = 17
-name = "FOCUSENERGY"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "QUICKATTACK"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "FIREPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "UTURN"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "SKYUPPERCUT"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "HEATCRASH"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "SLASH"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "NIGHTSLASH"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "MIRRORMOVE"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "BLAZEKICK"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "FEATHERDANCE"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "CLOSECOMBAT"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "SCORCHINGSANDS"
-
-[[raw_level_up_moves]]
-at_level = 53
-name = "BOUNCE"
-
-[[evolutions]]
-into_name = "BLAZIKEN"
-condition = "Level"
-parameter = "36"
-
-
+evolutions = [
+    { into_name = "BLAZIKEN", condition = "Level", parameter = "36" },
+]
 
 [base_stats]
 hp = 60
@@ -131,5 +139,3 @@ def_ = 0
 spa = 1
 spd = 0
 spe = 0
-
-[wild_items]

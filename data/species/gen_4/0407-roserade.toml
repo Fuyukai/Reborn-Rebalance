@@ -1,3 +1,4 @@
+dex_number = 407
 name = "Roserade"
 primary_type = "GRASS"
 secondary_type = "POISON"
@@ -6,11 +7,87 @@ growth_rate = "Parabolic"
 exp_yield = 232
 catch_rate = 75
 caught_happiness = 70
-raw_abilities = ["NATURALCURE", "POISONPOINT"]
-raw_egg_moves = []
-raw_tms = ["CUT", "TOXIC", "FLASH", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "SOLARBEAM", "RETURN", "SHADOWBALL", "DOUBLETEAM", "SLUDGEBOMB", "FACADE", "REST", "ATTRACT", "ROUND", "ENERGYBALL", "GIGAIMPACT", "SWORDSDANCE", "PSYCHUP", "POISONJAB", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "DAZZLINGGLEAM", "CONFIDE", "PINMISSILE", "MAGICALLEAF", "WEATHERBALL", "BULLETSEED", "GRASSYTERRAIN", "BODYSLAM", "POWERWHIP", "LEAFSTORM", "SPIKES", "ENDURE", "TOXICSPIKES", "VENOMDRENCH", "SWIFT"]
-raw_tutor_moves = ["COVET", "FURYCUTTER", "GIGADRAIN", "LASERFOCUS", "MUDSLAP", "SEEDBOMB", "SNORE", "SYNTHESIS", "UPROAR", "WORRYSEED", "GRASSYGLIDE", "MIMIC"]
-compatible_egg_groups = ["Fairy", "Grass"]
+raw_abilities = [
+    "NATURALCURE",
+    "POISONPOINT",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "AROMATHERAPY" },
+    { at_level = 1, name = "LEECHSEED" },
+    { at_level = 1, name = "MEGADRAIN" },
+    { at_level = 1, name = "MAGICALLEAF" },
+    { at_level = 1, name = "POISONSTING" },
+    { at_level = 1, name = "SPIKES" },
+    { at_level = 1, name = "TOXICSPIKES" },
+    { at_level = 50, name = "EXTRASENSORY" },
+    { at_level = 55, name = "SLEEPPOWDER" },
+    { at_level = 60, name = "LEAFSTORM" },
+]
+raw_tms = [
+    "CUT",
+    "TOXIC",
+    "FLASH",
+    "VENOSHOCK",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "SLUDGEBOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ENERGYBALL",
+    "GIGAIMPACT",
+    "SWORDSDANCE",
+    "PSYCHUP",
+    "POISONJAB",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "NATUREPOWER",
+    "DAZZLINGGLEAM",
+    "CONFIDE",
+    "PINMISSILE",
+    "MAGICALLEAF",
+    "WEATHERBALL",
+    "BULLETSEED",
+    "GRASSYTERRAIN",
+    "BODYSLAM",
+    "POWERWHIP",
+    "LEAFSTORM",
+    "SPIKES",
+    "ENDURE",
+    "TOXICSPIKES",
+    "VENOMDRENCH",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "COVET",
+    "FURYCUTTER",
+    "GIGADRAIN",
+    "GRASSYGLIDE",
+    "LASERFOCUS",
+    "MIMIC",
+    "MUDSLAP",
+    "SEEDBOMB",
+    "SNORE",
+    "SYNTHESIS",
+    "UPROAR",
+    "WORRYSEED",
+]
+compatible_egg_groups = [
+    "Fairy",
+    "Grass",
+]
 steps_to_hatch = 5355
 height = 0.9
 weight = 14.5
@@ -20,51 +97,7 @@ pokedex_entry = "It attracts prey with a sweet aroma, then downs it with thorny 
 battler_player_y = 19
 battler_enemy_y = 13
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 407
-internal_name = "ROSERADE"
 raw_hidden_ability = "TECHNICIAN"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "AROMATHERAPY"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEECHSEED"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "MEGADRAIN"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "MAGICALLEAF"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "POISONSTING"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SPIKES"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TOXICSPIKES"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "EXTRASENSORY"
-
-[[raw_level_up_moves]]
-at_level = 55
-name = "SLEEPPOWDER"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "LEAFSTORM"
 
 [base_stats]
 hp = 60

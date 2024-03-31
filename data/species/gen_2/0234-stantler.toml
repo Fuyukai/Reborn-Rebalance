@@ -1,3 +1,4 @@
+dex_number = 234
 name = "Stantler"
 primary_type = "NORMAL"
 secondary_type = "NORMAL"
@@ -6,11 +7,111 @@ growth_rate = "Slow"
 exp_yield = 163
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["INTIMIDATE", "FRISK"]
-raw_egg_moves = ["BITE", "DISABLE", "DOUBLEKICK", "EXTRASENSORY", "MEFIRST", "MEGAHORN", "MUDSPORT", "RAGE", "SPITE", "THRASH", "ZENHEADBUTT"]
-raw_tms = ["WORKUP", "PSYSHOCK", "CALMMIND", "ROAR", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "SOLARBEAM", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ENERGYBALL", "CHARGEBEAM", "GIGAIMPACT", "THUNDERWAVE", "PSYCHUP", "BULLDOZE", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "WILDCHARGE", "SECRETPOWER", "CONFIDE", "IMPRISON", "BODYSLAM", "MEGAHORN", "ENDURE", "RETALIATE", "TRAILBLAZE", "SWIFT", "TRIATTACK", "AURASPHERE", "POWERGEM"]
-raw_tutor_moves = ["BOUNCE", "GRAVITY", "HEADBUTT", "IRONTAIL", "LASTRESORT", "MAGICROOM", "MUDSLAP", "ROLEPLAY", "SHOCKWAVE", "SIGNALBEAM", "SKILLSWAP", "SNORE", "SPITE", "SUCKERPUNCH", "THROATCHOP", "UPROAR", "ZENHEADBUTT", "MIMIC"]
-compatible_egg_groups = ["Field"]
+raw_abilities = [
+    "INTIMIDATE",
+    "FRISK",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "EXTRASENSORY" },
+    { at_level = 1, name = "SUCKERPUNCH" },
+    { at_level = 1, name = "MEGAHORN" },
+    { at_level = 1, name = "ENTRAINMENT" },
+    { at_level = 1, name = "HYPNOSIS" },
+    { at_level = 1, name = "LEER" },
+    { at_level = 7, name = "ASTONISH" },
+    { at_level = 10, name = "SANDATTACK" },
+    { at_level = 13, name = "STOMP" },
+    { at_level = 16, name = "MEFIRST" },
+    { at_level = 19, name = "CONFUSERAY" },
+    { at_level = 22, name = "TAKEDOWN" },
+    { at_level = 25, name = "SPITE" },
+    { at_level = 27, name = "PSYSHIELDBASH" },
+    { at_level = 30, name = "ROLEPLAY" },
+    { at_level = 33, name = "DETECT" },
+    { at_level = 36, name = "BODYSLAM" },
+    { at_level = 39, name = "DISABLE" },
+    { at_level = 42, name = "LUNGE" },
+    { at_level = 45, name = "JUMPKICK" },
+    { at_level = 48, name = "NIGHTMARE" },
+    { at_level = 51, name = "BOUNCE" },
+    { at_level = 54, name = "DOUBLEEDGE" },
+    { at_level = 58, name = "LASTRESORT" },
+]
+raw_tms = [
+    "WORKUP",
+    "PSYSHOCK",
+    "CALMMIND",
+    "ROAR",
+    "TOXIC",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "THUNDERBOLT",
+    "THUNDER",
+    "EARTHQUAKE",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "REFLECT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "ENERGYBALL",
+    "CHARGEBEAM",
+    "GIGAIMPACT",
+    "THUNDERWAVE",
+    "PSYCHUP",
+    "BULLDOZE",
+    "DREAMEATER",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "TRICKROOM",
+    "WILDCHARGE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "IMPRISON",
+    "BODYSLAM",
+    "MEGAHORN",
+    "TRIATTACK",
+    "ENDURE",
+    "AURASPHERE",
+    "POWERGEM",
+    "RETALIATE",
+    "TRAILBLAZE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "BOUNCE",
+    "GRAVITY",
+    "HEADBUTT",
+    "IRONTAIL",
+    "LASTRESORT",
+    "MAGICROOM",
+    "MIMIC",
+    "MUDSLAP",
+    "ROLEPLAY",
+    "SHOCKWAVE",
+    "SIGNALBEAM",
+    "SKILLSWAP",
+    "SNORE",
+    "SPITE",
+    "SUCKERPUNCH",
+    "THROATCHOP",
+    "UPROAR",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Field",
+]
 steps_to_hatch = 5355
 height = 1.4
 weight = 71.2
@@ -20,114 +121,24 @@ pokedex_entry = "Stantler's magnificent antlers were once traded at high prices 
 battler_player_y = 16
 battler_enemy_y = 6
 battler_altitude = 0
-form_names = []
-dex_number = 234
-internal_name = "STANTLER"
 raw_hidden_ability = "SAPSIPPER"
+raw_egg_moves = [
+    "BITE",
+    "DISABLE",
+    "DOUBLEKICK",
+    "EXTRASENSORY",
+    "MEFIRST",
+    "MEGAHORN",
+    "MUDSPORT",
+    "RAGE",
+    "SPITE",
+    "THRASH",
+    "ZENHEADBUTT",
+]
 habitat = "Forest"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "EXTRASENSORY"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SUCKERPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "MEGAHORN"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ENTRAINMENT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HYPNOSIS"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "ASTONISH"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "SANDATTACK"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "STOMP"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "MEFIRST"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "CONFUSERAY"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "TAKEDOWN"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "SPITE"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "PSYSHIELDBASH"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "ROLEPLAY"
-
-[[raw_level_up_moves]]
-at_level = 33
-name = "DETECT"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 39
-name = "DISABLE"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "LUNGE"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "JUMPKICK"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "NIGHTMARE"
-
-[[raw_level_up_moves]]
-at_level = 51
-name = "BOUNCE"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "DOUBLEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "LASTRESORT"
-
-[[evolutions]]
-into_name = "WYRDEER"
-condition = "HasMove"
-parameter = "PSYSHIELDBASH"
-
-
+evolutions = [
+    { into_name = "WYRDEER", condition = "HasMove", parameter = "PSYSHIELDBASH" },
+]
 
 [base_stats]
 hp = 73
@@ -144,5 +155,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

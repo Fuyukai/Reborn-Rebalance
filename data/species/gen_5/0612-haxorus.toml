@@ -1,3 +1,4 @@
+dex_number = 612
 name = "Haxorus"
 primary_type = "DRAGON"
 secondary_type = "DRAGON"
@@ -6,11 +7,118 @@ growth_rate = "Slow"
 exp_yield = 243
 catch_rate = 45
 caught_happiness = 35
-raw_abilities = ["STRONGJAW", "MOLDBREAKER", "SHARPNESS"]
-raw_egg_moves = []
-raw_tms = ["CUT", "DRAGONCLAW", "SURF", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "FOCUSBLAST", "FALSESWIPE", "FLING", "BRUTALSWING", "SHADOWCLAW", "PAYBACK", "GIGAIMPACT", "SWORDSDANCE", "BULLDOZE", "ROCKSLIDE", "XSCISSOR", "DRAGONTAIL", "POISONJAB", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "SNARL", "CONFIDE", "DIG", "SCARYFACE", "ASSURANCE", "CRUNCH", "PSYCHOCUT", "BREAKINGSWIPE", "CLOSECOMBAT", "FOCUSENERGY", "REVERSAL", "ENDURE", "DRAGONDANCE", "TRAILBLAZE", "SWIFT", "WORKUP"]
-raw_tutor_moves = ["AQUATAIL", "DRACOMETEOR", "DRAGONPULSE", "DUALCHOP", "ENDEAVOR", "IRONTAIL", "LASERFOCUS", "LOWKICK", "OUTRAGE", "SHOCKWAVE", "SNORE", "STOMPINGTANTRUM", "SUPERPOWER", "SCALESHOT", "MIMIC"]
-compatible_egg_groups = ["Monster", "Dragon"]
+raw_abilities = [
+    "STRONGJAW",
+    "MOLDBREAKER",
+    "SHARPNESS",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "IRONTAIL" },
+    { at_level = 1, name = "RAGINGFURY" },
+    { at_level = 1, name = "SCRATCH" },
+    { at_level = 9, name = "ASSURANCE" },
+    { at_level = 12, name = "TAUNT" },
+    { at_level = 15, name = "REVERSAL" },
+    { at_level = 18, name = "DUALCHOP" },
+    { at_level = 21, name = "SCARYFACE" },
+    { at_level = 24, name = "CRUNCH" },
+    { at_level = 27, name = "DRAGONDANCE" },
+    { at_level = 30, name = "DRAGONPULSE" },
+    { at_level = 33, name = "SLASH" },
+    { at_level = 33, name = "NIGHTSLASH" },
+    { at_level = 36, name = "FOCUSENERGY" },
+    { at_level = 38, name = "BREAKINGSWIPE" },
+    { at_level = 42, name = "SWORDSDANCE" },
+    { at_level = 46, name = "SUPERPOWER" },
+    { at_level = 48, name = "OUTRAGE" },
+    { at_level = 52, name = "JAWLOCK" },
+    { at_level = 56, name = "CROSSPOISON" },
+    { at_level = 60, name = "PSYCHOCUT" },
+    { at_level = 64, name = "CLOSECOMBAT" },
+    { at_level = 66, name = "ENDEAVOR" },
+    { at_level = 70, name = "GIGAIMPACT" },
+]
+raw_tms = [
+    "CUT",
+    "WORKUP",
+    "DRAGONCLAW",
+    "SURF",
+    "STRENGTH",
+    "ROAR",
+    "TOXIC",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "EARTHQUAKE",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "ROCKTOMB",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "FOCUSBLAST",
+    "FALSESWIPE",
+    "FLING",
+    "BRUTALSWING",
+    "SHADOWCLAW",
+    "PAYBACK",
+    "GIGAIMPACT",
+    "SWORDSDANCE",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "XSCISSOR",
+    "DRAGONTAIL",
+    "POISONJAB",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "SNARL",
+    "CONFIDE",
+    "DIG",
+    "SCARYFACE",
+    "ASSURANCE",
+    "CRUNCH",
+    "PSYCHOCUT",
+    "BREAKINGSWIPE",
+    "CLOSECOMBAT",
+    "FOCUSENERGY",
+    "REVERSAL",
+    "ENDURE",
+    "DRAGONDANCE",
+    "TRAILBLAZE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AQUATAIL",
+    "DRACOMETEOR",
+    "DRAGONPULSE",
+    "DUALCHOP",
+    "ENDEAVOR",
+    "IRONTAIL",
+    "LASERFOCUS",
+    "LOWKICK",
+    "MIMIC",
+    "OUTRAGE",
+    "SCALESHOT",
+    "SHOCKWAVE",
+    "SNORE",
+    "STOMPINGTANTRUM",
+    "SUPERPOWER",
+]
+compatible_egg_groups = [
+    "Monster",
+    "Dragon",
+]
 steps_to_hatch = 10240
 height = 1.8
 weight = 105.5
@@ -20,106 +128,6 @@ pokedex_entry = "Their sturdy tusks will stay sharp even if used to cut steel be
 battler_player_y = 5
 battler_enemy_y = 10
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 612
-internal_name = "HAXORUS"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "IRONTAIL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "RAGINGFURY"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SCRATCH"
-
-[[raw_level_up_moves]]
-at_level = 9
-name = "ASSURANCE"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "TAUNT"
-
-[[raw_level_up_moves]]
-at_level = 15
-name = "REVERSAL"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "DUALCHOP"
-
-[[raw_level_up_moves]]
-at_level = 21
-name = "SCARYFACE"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "DRAGONDANCE"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "DRAGONPULSE"
-
-[[raw_level_up_moves]]
-at_level = 33
-name = "SLASH"
-
-[[raw_level_up_moves]]
-at_level = 33
-name = "NIGHTSLASH"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "FOCUSENERGY"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "BREAKINGSWIPE"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "SWORDSDANCE"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "SUPERPOWER"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "OUTRAGE"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "JAWLOCK"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "CROSSPOISON"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "PSYCHOCUT"
-
-[[raw_level_up_moves]]
-at_level = 64
-name = "CLOSECOMBAT"
-
-[[raw_level_up_moves]]
-at_level = 66
-name = "ENDEAVOR"
-
-[[raw_level_up_moves]]
-at_level = 70
-name = "GIGAIMPACT"
 
 [base_stats]
 hp = 96
@@ -136,5 +144,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

@@ -1,3 +1,4 @@
+dex_number = 136
 name = "Flareon"
 primary_type = "FIRE"
 secondary_type = "FIRE"
@@ -6,11 +7,115 @@ growth_rate = "Medium"
 exp_yield = 184
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["FLASHFIRE", "INTIMIDATE"]
-raw_egg_moves = []
-raw_tms = ["WORKUP", "CALMMIND", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "FIREBLAST", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "OVERHEAT", "WILLOWISP", "GIGAIMPACT", "ROCKSLIDE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "CONFIDE", "PAYDAY", "FIRESPIN", "DIG", "SCARYFACE", "CHARM", "WEATHERBALL", "FAKETEARS", "FIREFANG", "MYSTICALFIRE", "BODYSLAM", "FLAREBLITZ", "FOCUSENERGY", "TRIATTACK", "ENDURE", "BATONPASS", "STOREDPOWER", "RETALIATE", "TRAILBLAZE", "SWIFT"]
-raw_tutor_moves = ["COVET", "HEADBUTT", "HEALBELL", "HEATWAVE", "HELPINGHAND", "HYPERVOICE", "IRONTAIL", "LASERFOCUS", "LASTRESORT", "MUDSLAP", "SNORE", "SUPERPOWER", "BURNINGJEALOUSY", "SCORCHINGSANDS", "POWERSHIFT", "MIMIC", "CELEBRATE"]
-compatible_egg_groups = ["Field"]
+raw_abilities = [
+    "FLASHFIRE",
+    "INTIMIDATE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "RAGINGFURY" },
+    { at_level = 1, name = "GROWTH" },
+    { at_level = 1, name = "SING" },
+    { at_level = 1, name = "CHARM" },
+    { at_level = 1, name = "EXTRASENSORY" },
+    { at_level = 1, name = "FAKETEARS" },
+    { at_level = 1, name = "STOREDPOWER" },
+    { at_level = 1, name = "TICKLE" },
+    { at_level = 5, name = "CAPTIVATE" },
+    { at_level = 7, name = "HELPINGHAND" },
+    { at_level = 10, name = "QUICKATTACK" },
+    { at_level = 13, name = "BITE" },
+    { at_level = 16, name = "SWIFT" },
+    { at_level = 19, name = "DOUBLEKICK" },
+    { at_level = 22, name = "COVET" },
+    { at_level = 24, name = "FIREFANG" },
+    { at_level = 28, name = "SCORCHINGSANDS" },
+    { at_level = 32, name = "FLAMEWHEEL" },
+    { at_level = 36, name = "LAVAPLUME" },
+    { at_level = 40, name = "BLAZEKICK" },
+    { at_level = 45, name = "PLAYROUGH" },
+    { at_level = 50, name = "SYNCHRONOISE" },
+    { at_level = 55, name = "WISH" },
+    { at_level = 60, name = "FLAREBLITZ" },
+    { at_level = 65, name = "LASTRESORT" },
+]
+raw_tms = [
+    "WORKUP",
+    "CALMMIND",
+    "STRENGTH",
+    "ROAR",
+    "TOXIC",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "RETURN",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "REFLECT",
+    "FLAMETHROWER",
+    "FIREBLAST",
+    "FACADE",
+    "FLAMECHARGE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ECHOEDVOICE",
+    "OVERHEAT",
+    "WILLOWISP",
+    "GIGAIMPACT",
+    "ROCKSLIDE",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "WILDCHARGE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "PAYDAY",
+    "FIRESPIN",
+    "DIG",
+    "SCARYFACE",
+    "CHARM",
+    "WEATHERBALL",
+    "FAKETEARS",
+    "FIREFANG",
+    "MYSTICALFIRE",
+    "BODYSLAM",
+    "FLAREBLITZ",
+    "FOCUSENERGY",
+    "TRIATTACK",
+    "ENDURE",
+    "BATONPASS",
+    "STOREDPOWER",
+    "RETALIATE",
+    "TRAILBLAZE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "BURNINGJEALOUSY",
+    "CELEBRATE",
+    "COVET",
+    "HEADBUTT",
+    "HEALBELL",
+    "HEATWAVE",
+    "HELPINGHAND",
+    "HYPERVOICE",
+    "IRONTAIL",
+    "LASERFOCUS",
+    "LASTRESORT",
+    "MIMIC",
+    "MUDSLAP",
+    "POWERSHIFT",
+    "SCORCHINGSANDS",
+    "SNORE",
+    "SUPERPOWER",
+]
+compatible_egg_groups = [
+    "Field",
+]
 steps_to_hatch = 9180
 height = 0.9
 weight = 25.0
@@ -20,112 +125,8 @@ pokedex_entry = "Flareon's fluffy fur releases heat into the air so that its bod
 battler_player_y = 24
 battler_enemy_y = 17
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 136
-internal_name = "FLAREON"
 raw_hidden_ability = "GUTS"
 habitat = "Urban"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "RAGINGFURY"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWTH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SING"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "CHARM"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "EXTRASENSORY"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FAKETEARS"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "STOREDPOWER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TICKLE"
-
-[[raw_level_up_moves]]
-at_level = 5
-name = "CAPTIVATE"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "HELPINGHAND"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "QUICKATTACK"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "SWIFT"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "DOUBLEKICK"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "COVET"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "FIREFANG"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "SCORCHINGSANDS"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "FLAMEWHEEL"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "LAVAPLUME"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "BLAZEKICK"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "PLAYROUGH"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "SYNCHRONOISE"
-
-[[raw_level_up_moves]]
-at_level = 55
-name = "WISH"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "FLAREBLITZ"
-
-[[raw_level_up_moves]]
-at_level = 65
-name = "LASTRESORT"
 
 [base_stats]
 hp = 65
@@ -142,5 +143,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

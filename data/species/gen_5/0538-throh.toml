@@ -1,3 +1,4 @@
+dex_number = 538
 name = "Throh"
 primary_type = "FIGHTING"
 secondary_type = "FIGHTING"
@@ -6,11 +7,104 @@ growth_rate = "Medium"
 exp_yield = 163
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["GUTS", "MOLDBREAKER"]
-raw_egg_moves = []
-raw_tms = ["WORKUP", "STRENGTH", "TOXIC", "ROCKSMASH", "BULKUP", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "PROTECT", "RAINDANCE", "FRUSTRATION", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "LOWSWEEP", "ROUND", "FOCUSBLAST", "FLING", "PAYBACK", "GIGAIMPACT", "STONEEDGE", "BULLDOZE", "ROCKSLIDE", "POISONJAB", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "SCARYFACE", "REVENGE", "BODYSLAM", "FOCUSENERGY", "REVERSAL", "ENDURE", "RETALIATE"]
-raw_tutor_moves = ["BIND", "BLOCK", "FIREPUNCH", "FOCUSPUNCH", "HELPINGHAND", "ICEPUNCH", "KNOCKOFF", "LASERFOCUS", "LOWKICK", "PAINSPLIT", "SNORE", "STOMPINGTANTRUM", "SUPERPOWER", "THUNDERPUNCH", "ZENHEADBUTT", "COACHING", "MIMIC"]
-compatible_egg_groups = ["Humanlike"]
+raw_abilities = [
+    "GUTS",
+    "MOLDBREAKER",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "STONEEDGE" },
+    { at_level = 1, name = "BIDE" },
+    { at_level = 1, name = "BIND" },
+    { at_level = 1, name = "FOCUSENERGY" },
+    { at_level = 4, name = "LEER" },
+    { at_level = 7, name = "SCARYFACE" },
+    { at_level = 11, name = "SEISMICTOSS" },
+    { at_level = 15, name = "ENDURE" },
+    { at_level = 19, name = "VITALTHROW" },
+    { at_level = 22, name = "BODYSLAM" },
+    { at_level = 25, name = "STORMTHROW" },
+    { at_level = 28, name = "KNOCKOFF" },
+    { at_level = 31, name = "PAINSPLIT" },
+    { at_level = 34, name = "PAYBACK" },
+    { at_level = 37, name = "WIDEGUARD" },
+    { at_level = 41, name = "CIRCLETHROW" },
+    { at_level = 45, name = "HELPINGHAND" },
+    { at_level = 49, name = "ZENHEADBUTT" },
+    { at_level = 53, name = "BLOCK" },
+    { at_level = 57, name = "HEADLONGRUSH" },
+    { at_level = 61, name = "REVERSAL" },
+    { at_level = 65, name = "FOCUSPUNCH" },
+]
+raw_tms = [
+    "WORKUP",
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "BULKUP",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "EARTHQUAKE",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "ROCKTOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "LOWSWEEP",
+    "ROUND",
+    "FOCUSBLAST",
+    "FLING",
+    "PAYBACK",
+    "GIGAIMPACT",
+    "STONEEDGE",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "POISONJAB",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "DIG",
+    "SCARYFACE",
+    "REVENGE",
+    "BODYSLAM",
+    "FOCUSENERGY",
+    "REVERSAL",
+    "ENDURE",
+    "RETALIATE",
+]
+raw_tutor_moves = [
+    "BIND",
+    "BLOCK",
+    "COACHING",
+    "FIREPUNCH",
+    "FOCUSPUNCH",
+    "HELPINGHAND",
+    "ICEPUNCH",
+    "KNOCKOFF",
+    "LASERFOCUS",
+    "LOWKICK",
+    "MIMIC",
+    "PAINSPLIT",
+    "SNORE",
+    "STOMPINGTANTRUM",
+    "SUPERPOWER",
+    "THUNDERPUNCH",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Humanlike",
+]
 steps_to_hatch = 5120
 height = 1.3
 weight = 55.5
@@ -20,98 +114,6 @@ pokedex_entry = "When they encounter foes bigger than themselves, they try to th
 battler_player_y = 23
 battler_enemy_y = 28
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 538
-internal_name = "THROH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "STONEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BIDE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BIND"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FOCUSENERGY"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "SCARYFACE"
-
-[[raw_level_up_moves]]
-at_level = 11
-name = "SEISMICTOSS"
-
-[[raw_level_up_moves]]
-at_level = 15
-name = "ENDURE"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "VITALTHROW"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "STORMTHROW"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "KNOCKOFF"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "PAINSPLIT"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "PAYBACK"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "WIDEGUARD"
-
-[[raw_level_up_moves]]
-at_level = 41
-name = "CIRCLETHROW"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "HELPINGHAND"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "ZENHEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 53
-name = "BLOCK"
-
-[[raw_level_up_moves]]
-at_level = 57
-name = "HEADLONGRUSH"
-
-[[raw_level_up_moves]]
-at_level = 61
-name = "REVERSAL"
-
-[[raw_level_up_moves]]
-at_level = 65
-name = "FOCUSPUNCH"
 
 [base_stats]
 hp = 120

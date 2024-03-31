@@ -1,3 +1,4 @@
+dex_number = 307
 name = "Meditite"
 primary_type = "FIGHTING"
 secondary_type = "PSYCHIC"
@@ -6,11 +7,116 @@ growth_rate = "Medium"
 exp_yield = 56
 catch_rate = 180
 caught_happiness = 70
-raw_abilities = ["PUREPOWER", "TELEPATHY"]
-raw_egg_moves = ["BATONPASS", "BULLETPUNCH", "DRAINPUNCH", "DYNAMICPUNCH", "FAKEOUT", "FIREPUNCH", "FORESIGHT", "GUARDSWAP", "ICEPUNCH", "POWERSWAP", "PSYCHOCUT", "QUICKGUARD", "SECRETPOWER", "THUNDERPUNCH"]
-raw_tms = ["WORKUP", "PSYSHOCK", "CALMMIND", "STRENGTH", "TOXIC", "ROCKSMASH", "BULKUP", "FLASH", "HIDDENPOWER", "SUNNYDAY", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "PSYCHIC", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "LOWSWEEP", "ROUND", "FOCUSBLAST", "FLING", "PSYCHUP", "ROCKSLIDE", "POISONJAB", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "REVENGE", "POWERSWAP", "GUARDSWAP", "PSYCHOCUT", "BODYSLAM", "METRONOME", "REVERSAL", "ENDURE", "BATONPASS", "STOREDPOWER", "RETALIATE", "TRAILBLAZE", "SWIFT"]
-raw_tutor_moves = ["DRAINPUNCH", "FIREPUNCH", "FOCUSPUNCH", "GRAVITY", "HEADBUTT", "HELPINGHAND", "ICEPUNCH", "LOWKICK", "MAGICCOAT", "MUDSLAP", "PAINSPLIT", "RECYCLE", "ROLEPLAY", "SIGNALBEAM", "SNORE", "TELEKINESIS", "THUNDERPUNCH", "TRICK", "VACUUMWAVE", "ZENHEADBUTT", "MIMIC"]
-compatible_egg_groups = ["Humanlike"]
+raw_abilities = [
+    "PUREPOWER",
+    "TELEPATHY",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "ALLYSWITCH" },
+    { at_level = 1, name = "CONFUSION" },
+    { at_level = 1, name = "FOCUSPUNCH" },
+    { at_level = 1, name = "MEDITATE" },
+    { at_level = 4, name = "FORESIGHT" },
+    { at_level = 7, name = "HIDDENPOWER" },
+    { at_level = 10, name = "TRICK" },
+    { at_level = 13, name = "FORCEPALM" },
+    { at_level = 16, name = "FAKEOUT" },
+    { at_level = 19, name = "PSYBEAM" },
+    { at_level = 22, name = "FEINT" },
+    { at_level = 25, name = "REVERSAL" },
+    { at_level = 28, name = "ROCKTOMB" },
+    { at_level = 31, name = "ZENHEADBUTT" },
+    { at_level = 34, name = "ACUPRESSURE" },
+    { at_level = 37, name = "JUMPKICK" },
+    { at_level = 40, name = "BULLETPUNCH" },
+    { at_level = 44, name = "GRAVITY" },
+    { at_level = 48, name = "DRAINPUNCH" },
+    { at_level = 52, name = "PSYCHOCUT" },
+    { at_level = 56, name = "RECOVER" },
+    { at_level = 60, name = "HIJUMPKICK" },
+]
+raw_tms = [
+    "WORKUP",
+    "PSYSHOCK",
+    "CALMMIND",
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "BULKUP",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "REFLECT",
+    "ROCKTOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "LOWSWEEP",
+    "ROUND",
+    "FOCUSBLAST",
+    "FLING",
+    "PSYCHUP",
+    "ROCKSLIDE",
+    "POISONJAB",
+    "DREAMEATER",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "REVENGE",
+    "POWERSWAP",
+    "GUARDSWAP",
+    "PSYCHOCUT",
+    "BODYSLAM",
+    "METRONOME",
+    "REVERSAL",
+    "ENDURE",
+    "BATONPASS",
+    "STOREDPOWER",
+    "RETALIATE",
+    "TRAILBLAZE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "DRAINPUNCH",
+    "FIREPUNCH",
+    "FOCUSPUNCH",
+    "GRAVITY",
+    "HEADBUTT",
+    "HELPINGHAND",
+    "ICEPUNCH",
+    "LOWKICK",
+    "MAGICCOAT",
+    "MIMIC",
+    "MUDSLAP",
+    "PAINSPLIT",
+    "RECYCLE",
+    "ROLEPLAY",
+    "SIGNALBEAM",
+    "SNORE",
+    "TELEKINESIS",
+    "THUNDERPUNCH",
+    "TRICK",
+    "VACUUMWAVE",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Humanlike",
+]
 steps_to_hatch = 5355
 height = 0.6
 weight = 11.2
@@ -20,105 +126,26 @@ pokedex_entry = "It continually meditates for hours every day. As a result of ri
 battler_player_y = 28
 battler_enemy_y = 22
 battler_altitude = 0
-form_names = []
-dex_number = 307
-internal_name = "MEDITITE"
+raw_egg_moves = [
+    "BATONPASS",
+    "BULLETPUNCH",
+    "DRAINPUNCH",
+    "DYNAMICPUNCH",
+    "FAKEOUT",
+    "FIREPUNCH",
+    "FORESIGHT",
+    "GUARDSWAP",
+    "ICEPUNCH",
+    "POWERSWAP",
+    "PSYCHOCUT",
+    "QUICKGUARD",
+    "SECRETPOWER",
+    "THUNDERPUNCH",
+]
 habitat = "Mountain"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ALLYSWITCH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "CONFUSION"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FOCUSPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "MEDITATE"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "FORESIGHT"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "HIDDENPOWER"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "TRICK"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "FORCEPALM"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "FAKEOUT"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "PSYBEAM"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "FEINT"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "REVERSAL"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "ROCKTOMB"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "ZENHEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "ACUPRESSURE"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "JUMPKICK"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "BULLETPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "GRAVITY"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "DRAINPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "PSYCHOCUT"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "RECOVER"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "HIJUMPKICK"
-
-[[evolutions]]
-into_name = "MEDICHAM"
-condition = "Level"
-parameter = "34"
-
-
+evolutions = [
+    { into_name = "MEDICHAM", condition = "Level", parameter = "34" },
+]
 
 [base_stats]
 hp = 30
@@ -135,5 +162,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 1
-
-[wild_items]

@@ -1,3 +1,4 @@
+dex_number = 371
 name = "Bagon"
 primary_type = "DRAGON"
 secondary_type = "DRAGON"
@@ -6,11 +7,90 @@ growth_rate = "Slow"
 exp_yield = 60
 catch_rate = 45
 caught_happiness = 35
-raw_abilities = ["ROCKHEAD", "SHEERFORCE"]
-raw_egg_moves = ["DEFENSECURL", "DRAGONDANCE", "DRAGONPULSE", "DRAGONRAGE", "DRAGONRUSH", "ENDURE", "FIREFANG", "HYDROPUMP", "THRASH", "TWISTER"]
-raw_tms = ["CUT", "DRAGONCLAW", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "BRICKBREAK", "DOUBLETEAM", "FLAMETHROWER", "FIREBLAST", "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "ROUND", "SHADOWCLAW", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "SCARYFACE", "FIREFANG", "CRUNCH", "BODYSLAM", "HYDROPUMP", "FOCUSENERGY", "ENDURE", "DRAGONDANCE"]
-raw_tutor_moves = ["DRACOMETEOR", "DRAGONPULSE", "FURYCUTTER", "HEADBUTT", "HYPERVOICE", "IRONDEFENSE", "MUDSLAP", "OUTRAGE", "SNORE", "TWISTER", "ZENHEADBUTT", "MIMIC"]
-compatible_egg_groups = ["Dragon"]
+raw_abilities = [
+    "ROCKHEAD",
+    "SHEERFORCE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "LEER" },
+    { at_level = 1, name = "RAGE" },
+    { at_level = 1, name = "TWISTER" },
+    { at_level = 3, name = "EMBER" },
+    { at_level = 7, name = "DRAGONBREATH" },
+    { at_level = 10, name = "BITE" },
+    { at_level = 12, name = "DEFENSECURL" },
+    { at_level = 14, name = "BREAKINGSWIPE" },
+    { at_level = 16, name = "HEADBUTT" },
+    { at_level = 18, name = "SCARYFACE" },
+    { at_level = 20, name = "FIREFANG" },
+    { at_level = 22, name = "DRAGONRAGE" },
+    { at_level = 24, name = "CRUNCH" },
+    { at_level = 27, name = "ZENHEADBUTT" },
+    { at_level = 30, name = "WISH" },
+    { at_level = 33, name = "BODYSLAM" },
+    { at_level = 36, name = "FLAMETHROWER" },
+    { at_level = 40, name = "DRAGONRUSH" },
+    { at_level = 44, name = "DOUBLEEDGE" },
+    { at_level = 48, name = "RAGINGFURY" },
+    { at_level = 52, name = "OUTRAGE" },
+    { at_level = 56, name = "HYDROPUMP" },
+]
+raw_tms = [
+    "CUT",
+    "DRAGONCLAW",
+    "STRENGTH",
+    "ROAR",
+    "TOXIC",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "FLAMETHROWER",
+    "FIREBLAST",
+    "ROCKTOMB",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "SHADOWCLAW",
+    "ROCKSLIDE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "SCARYFACE",
+    "FIREFANG",
+    "CRUNCH",
+    "BODYSLAM",
+    "HYDROPUMP",
+    "FOCUSENERGY",
+    "ENDURE",
+    "DRAGONDANCE",
+]
+raw_tutor_moves = [
+    "DRACOMETEOR",
+    "DRAGONPULSE",
+    "FURYCUTTER",
+    "HEADBUTT",
+    "HYPERVOICE",
+    "IRONDEFENSE",
+    "MIMIC",
+    "MUDSLAP",
+    "OUTRAGE",
+    "SNORE",
+    "TWISTER",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Dragon",
+]
 steps_to_hatch = 10455
 height = 0.6
 weight = 42.1
@@ -20,105 +100,22 @@ pokedex_entry = "Although it is small, this Pokémon is very powerful because it
 battler_player_y = 23
 battler_enemy_y = 19
 battler_altitude = 0
-form_names = []
-dex_number = 371
-internal_name = "BAGON"
+raw_egg_moves = [
+    "DEFENSECURL",
+    "DRAGONDANCE",
+    "DRAGONPULSE",
+    "DRAGONRAGE",
+    "DRAGONRUSH",
+    "ENDURE",
+    "FIREFANG",
+    "HYDROPUMP",
+    "THRASH",
+    "TWISTER",
+]
 habitat = "RoughTerrain"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "RAGE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TWISTER"
-
-[[raw_level_up_moves]]
-at_level = 3
-name = "EMBER"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "DRAGONBREATH"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "DEFENSECURL"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "BREAKINGSWIPE"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "HEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "SCARYFACE"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "FIREFANG"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "DRAGONRAGE"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "ZENHEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "WISH"
-
-[[raw_level_up_moves]]
-at_level = 33
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "FLAMETHROWER"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "DRAGONRUSH"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "DOUBLEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "RAGINGFURY"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "OUTRAGE"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "HYDROPUMP"
-
-[[evolutions]]
-into_name = "SHELGON"
-condition = "Level"
-parameter = "30"
-
-
+evolutions = [
+    { into_name = "SHELGON", condition = "Level", parameter = "30" },
+]
 
 [base_stats]
 hp = 45

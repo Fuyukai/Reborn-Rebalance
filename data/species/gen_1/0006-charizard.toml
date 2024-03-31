@@ -1,3 +1,4 @@
+dex_number = 6
 name = "Charizard"
 primary_type = "FIRE"
 secondary_type = "DRAGON"
@@ -6,11 +7,141 @@ growth_rate = "Parabolic"
 exp_yield = 240
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["DEFIANT", "BLAZE", "SOLARPOWER"]
-raw_egg_moves = []
-raw_tms = ["WORKUP", "CUT", "DRAGONCLAW", "FLY", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "ROOST", "ROOST", "FRUSTRATION", "SOLARBEAM", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "FLAMETHROWER", "SANDSTORM", "FIREBLAST", "ROCKTOMB", "AERIALACE", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "OVERHEAT", "STEELWING", "FOCUSBLAST", "FALSESWIPE", "FLING", "SKYDROP", "BRUTALSWING", "WILLOWISP", "ACROBATICS", "SHADOWCLAW", "GIGAIMPACT", "SWORDSDANCE", "BULLDOZE", "ROCKSLIDE", "DRAGONTAIL", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "FIRESPIN", "DIG", "SCARYFACE", "BEATUP", "WEATHERBALL", "FIREFANG", "CRUNCH", "AIRSLASH", "MYSTICALFIRE", "BREAKINGSWIPE", "BODYSLAM", "HURRICANE", "FLAREBLITZ", "ENDURE", "BLAZEKICK", "DRAGONDANCE", "HEATCRASH", "SWIFT"]
-raw_tutor_moves = ["AIRCUTTER", "ANCIENTPOWER", "BLASTBURN", "DEFOG", "DRAGONPULSE", "FIREPLEDGE", "FIREPUNCH", "FOCUSPUNCH", "FURYCUTTER", "HEADBUTT", "HEATWAVE", "HELPINGHAND", "IRONTAIL", "MUDSLAP", "OMINOUSWIND", "OUTRAGE", "SNORE", "TAILWIND", "THUNDERPUNCH", "TWISTER", "SCORCHINGSANDS", "DUALWINGBEAT", "SCALESHOT", "MIMIC"]
-compatible_egg_groups = ["Monster", "Dragon"]
+raw_abilities = [
+    "DEFIANT",
+    "BLAZE",
+    "SOLARPOWER",
+]
+raw_level_up_moves = [
+    { at_level = 0, name = "WINGATTACK" },
+    { at_level = 1, name = "BELLYDRUM" },
+    { at_level = 4, name = "EMBER" },
+    { at_level = 7, name = "SMOKESCREEN" },
+    { at_level = 13, name = "BREAKINGSWIPE" },
+    { at_level = 16, name = "FIREFANG" },
+    { at_level = 17, name = "QUICKATTACK" },
+    { at_level = 20, name = "DRAGONBREATH" },
+    { at_level = 22, name = "FLAMEBURST" },
+    { at_level = 25, name = "METALCLAW" },
+    { at_level = 28, name = "SCARYFACE" },
+    { at_level = 31, name = "BLAZEKICK" },
+    { at_level = 34, name = "BODYSLAM" },
+    { at_level = 37, name = "CRUNCH" },
+    { at_level = 40, name = "RAGINGFURY" },
+    { at_level = 43, name = "INFERNO" },
+    { at_level = 46, name = "FIRELASH" },
+    { at_level = 50, name = "SCORCHINGSANDS" },
+    { at_level = 54, name = "HEATCRASH" },
+    { at_level = 58, name = "DRAGONRUSH" },
+    { at_level = 58, name = "DRAGONRUSH" },
+    { at_level = 62, name = "FLAREBLITZ" },
+    { at_level = 58, name = "DRAGONDANCE" },
+]
+raw_tms = [
+    "WORKUP",
+    "CUT",
+    "DRAGONCLAW",
+    "FLY",
+    "STRENGTH",
+    "ROAR",
+    "TOXIC",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "PROTECT",
+    "ROOST",
+    "ROOST",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "EARTHQUAKE",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "REFLECT",
+    "FLAMETHROWER",
+    "SANDSTORM",
+    "FIREBLAST",
+    "ROCKTOMB",
+    "AERIALACE",
+    "FACADE",
+    "FLAMECHARGE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ECHOEDVOICE",
+    "OVERHEAT",
+    "STEELWING",
+    "FOCUSBLAST",
+    "FALSESWIPE",
+    "FLING",
+    "SKYDROP",
+    "BRUTALSWING",
+    "WILLOWISP",
+    "ACROBATICS",
+    "SHADOWCLAW",
+    "GIGAIMPACT",
+    "SWORDSDANCE",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "DRAGONTAIL",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "FIRESPIN",
+    "DIG",
+    "SCARYFACE",
+    "BEATUP",
+    "WEATHERBALL",
+    "FIREFANG",
+    "CRUNCH",
+    "AIRSLASH",
+    "MYSTICALFIRE",
+    "BREAKINGSWIPE",
+    "BODYSLAM",
+    "HURRICANE",
+    "FLAREBLITZ",
+    "ENDURE",
+    "BLAZEKICK",
+    "DRAGONDANCE",
+    "HEATCRASH",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AIRCUTTER",
+    "ANCIENTPOWER",
+    "BLASTBURN",
+    "DEFOG",
+    "DRAGONPULSE",
+    "DUALWINGBEAT",
+    "FIREPLEDGE",
+    "FIREPUNCH",
+    "FOCUSPUNCH",
+    "FURYCUTTER",
+    "HEADBUTT",
+    "HEATWAVE",
+    "HELPINGHAND",
+    "IRONTAIL",
+    "MIMIC",
+    "MUDSLAP",
+    "OMINOUSWIND",
+    "OUTRAGE",
+    "SCALESHOT",
+    "SCORCHINGSANDS",
+    "SNORE",
+    "TAILWIND",
+    "THUNDERPUNCH",
+    "TWISTER",
+]
+compatible_egg_groups = [
+    "Monster",
+    "Dragon",
+]
 steps_to_hatch = 5355
 height = 1.7
 weight = 90.5
@@ -20,104 +151,7 @@ pokedex_entry = "A Charizard flies about in search of strong opponents. It breat
 battler_player_y = 9
 battler_enemy_y = 2
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 6
-internal_name = "CHARIZARD"
 habitat = "Mountain"
-
-[[raw_level_up_moves]]
-at_level = 0
-name = "WINGATTACK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BELLYDRUM"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "EMBER"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "SMOKESCREEN"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "BREAKINGSWIPE"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "FIREFANG"
-
-[[raw_level_up_moves]]
-at_level = 17
-name = "QUICKATTACK"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "DRAGONBREATH"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "FLAMEBURST"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "METALCLAW"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "SCARYFACE"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "BLAZEKICK"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "RAGINGFURY"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "INFERNO"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "FIRELASH"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "SCORCHINGSANDS"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "HEATCRASH"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "DRAGONRUSH"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "DRAGONRUSH"
-
-[[raw_level_up_moves]]
-at_level = 62
-name = "FLAREBLITZ"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "DRAGONDANCE"
-
 
 [base_stats]
 hp = 78
@@ -134,5 +168,3 @@ def_ = 0
 spa = 3
 spd = 0
 spe = 0
-
-[wild_items]

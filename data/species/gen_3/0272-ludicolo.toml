@@ -1,3 +1,4 @@
+dex_number = 272
 name = "Ludicolo"
 primary_type = "WATER"
 secondary_type = "GRASS"
@@ -6,11 +7,107 @@ growth_rate = "Parabolic"
 exp_yield = 216
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["SWIFTSWIM", "RAINDISH", "DANCER"]
-raw_egg_moves = []
-raw_tms = ["SURF", "STRENGTH", "WATERFALL", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "FLASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "SOLARBEAM", "RETURN", "BRICKBREAK", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "FOCUSBLAST", "ENERGYBALL", "SCALD", "FLING", "GIGAIMPACT", "SWORDSDANCE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "NATUREPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "WHIRLPOOL", "WEATHERBALL", "BULLETSEED", "MUDSHOT", "BODYSLAM", "HYDROPUMP", "LEAFSTORM", "METRONOME", "AMNESIA", "ENDURE", "ENCORE", "MUDDYWATER", "CHILLINGWATER"]
-raw_tutor_moves = ["DRAINPUNCH", "FIREPUNCH", "FOCUSPUNCH", "GIGADRAIN", "HEADBUTT", "HYPERVOICE", "ICEPUNCH", "ICYWIND", "KNOCKOFF", "MUDSLAP", "SEEDBOMB", "SNORE", "SYNTHESIS", "THUNDERPUNCH", "UPROAR", "WATERPULSE", "ZENHEADBUTT", "GRASSYGLIDE", "MIMIC"]
-compatible_egg_groups = ["Water1", "Grass"]
+raw_abilities = [
+    "SWIFTSWIM",
+    "RAINDISH",
+    "DANCER",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "DRAINPUNCH" },
+    { at_level = 1, name = "DYNAMICPUNCH" },
+    { at_level = 1, name = "FAKEOUT" },
+    { at_level = 1, name = "FOCUSPUNCH" },
+    { at_level = 1, name = "NATUREPOWER" },
+    { at_level = 1, name = "SYNTHESIS" },
+    { at_level = 1, name = "ZENHEADBUTT" },
+    { at_level = 27, name = "MUDDYWATER" },
+    { at_level = 40, name = "ENERGYBALL" },
+    { at_level = 50, name = "HYPERVOICE" },
+    { at_level = 65, name = "HYDROPUMP" },
+]
+raw_tms = [
+    "SURF",
+    "STRENGTH",
+    "WATERFALL",
+    "TOXIC",
+    "DIVE",
+    "HAIL",
+    "ROCKSMASH",
+    "FLASH",
+    "ROCKCLIMB",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "ICEBEAM",
+    "BLIZZARD",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "ECHOEDVOICE",
+    "FOCUSBLAST",
+    "ENERGYBALL",
+    "SCALD",
+    "FLING",
+    "GIGAIMPACT",
+    "SWORDSDANCE",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "NATUREPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "WHIRLPOOL",
+    "WEATHERBALL",
+    "BULLETSEED",
+    "MUDSHOT",
+    "BODYSLAM",
+    "HYDROPUMP",
+    "LEAFSTORM",
+    "METRONOME",
+    "AMNESIA",
+    "ENDURE",
+    "ENCORE",
+    "MUDDYWATER",
+    "CHILLINGWATER",
+]
+raw_tutor_moves = [
+    "DRAINPUNCH",
+    "FIREPUNCH",
+    "FOCUSPUNCH",
+    "GIGADRAIN",
+    "GRASSYGLIDE",
+    "HEADBUTT",
+    "HYPERVOICE",
+    "ICEPUNCH",
+    "ICYWIND",
+    "KNOCKOFF",
+    "MIMIC",
+    "MUDSLAP",
+    "SEEDBOMB",
+    "SNORE",
+    "SYNTHESIS",
+    "THUNDERPUNCH",
+    "UPROAR",
+    "WATERPULSE",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Water1",
+    "Grass",
+]
 steps_to_hatch = 4080
 height = 1.5
 weight = 55.0
@@ -20,55 +117,7 @@ pokedex_entry = "When it hears festive music, all its cells become stimulated, a
 battler_player_y = 14
 battler_enemy_y = 9
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 272
-internal_name = "LUDICOLO"
 habitat = "WatersEdge"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "DRAINPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "DYNAMICPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FAKEOUT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FOCUSPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "NATUREPOWER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SYNTHESIS"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ZENHEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "MUDDYWATER"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "ENERGYBALL"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "HYPERVOICE"
-
-[[raw_level_up_moves]]
-at_level = 65
-name = "HYDROPUMP"
 
 [base_stats]
 hp = 80

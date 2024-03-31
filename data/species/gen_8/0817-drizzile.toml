@@ -1,3 +1,4 @@
+dex_number = 817
 name = "Drizzile"
 primary_type = "WATER"
 secondary_type = "WATER"
@@ -6,11 +7,64 @@ growth_rate = "Parabolic"
 exp_yield = 147
 catch_rate = 45
 caught_happiness = 50
-raw_abilities = ["TORRENT", "SNIPER"]
-raw_egg_moves = ["AQUAJET", "DOUBLETEAM", "AQUARING", "MIST", "HAZE", "ICESHARD", "FELLSTINGER"]
-raw_tms = ["WORKUP", "SURF", "DIVE", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "DOUBLETEAM", "REFLECT", "FACADE", "REST", "ATTRACT", "ROUND", "FLING", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "WHIRLPOOL", "WEATHERBALL", "MUDSHOT", "ENDURE", "BATONPASS", "MUDDYWATER", "CHILLINGWATER", "SWIFT"]
-raw_tutor_moves = ["BIND", "BOUNCE", "LIQUIDATION", "SNORE", "SUCKERPUNCH", "WATERPULSE", "MIMIC"]
-compatible_egg_groups = ["Water1", "Field"]
+raw_abilities = [
+    "TORRENT",
+    "SNIPER",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "POUND" },
+    { at_level = 1, name = "GROWL" },
+    { at_level = 1, name = "WATERGUN" },
+    { at_level = 1, name = "BIND" },
+    { at_level = 12, name = "WATERPULSE" },
+    { at_level = 19, name = "TEARFULLOOK" },
+    { at_level = 24, name = "SUCKERPUNCH" },
+    { at_level = 30, name = "UTURN" },
+    { at_level = 36, name = "LIQUIDATION" },
+    { at_level = 42, name = "SOAK" },
+    { at_level = 48, name = "RAINDANCE" },
+]
+raw_tms = [
+    "WORKUP",
+    "SURF",
+    "DIVE",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "SAFEGUARD",
+    "DOUBLETEAM",
+    "REFLECT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "FLING",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "WHIRLPOOL",
+    "WEATHERBALL",
+    "MUDSHOT",
+    "ENDURE",
+    "BATONPASS",
+    "MUDDYWATER",
+    "CHILLINGWATER",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "BIND",
+    "BOUNCE",
+    "LIQUIDATION",
+    "MIMIC",
+    "SNORE",
+    "SUCKERPUNCH",
+    "WATERPULSE",
+]
+compatible_egg_groups = [
+    "Water1",
+    "Field",
+]
 steps_to_hatch = 5120
 height = 0.7
 weight = 11.5
@@ -20,59 +74,19 @@ pokedex_entry = "Highly intelligent but also very lazy, it keeps enemies out of 
 battler_player_y = 21
 battler_enemy_y = 26
 battler_altitude = 0
-form_names = []
-dex_number = 817
-internal_name = "DRIZZILE"
+raw_egg_moves = [
+    "AQUAJET",
+    "DOUBLETEAM",
+    "AQUARING",
+    "MIST",
+    "HAZE",
+    "ICESHARD",
+    "FELLSTINGER",
+]
+evolutions = [
+    { into_name = "INTELEON", condition = "Level", parameter = "35" },
+]
 regional_numbers = 817
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "POUND"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WATERGUN"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BIND"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "WATERPULSE"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "TEARFULLOOK"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "SUCKERPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "UTURN"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "LIQUIDATION"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "SOAK"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "RAINDANCE"
-
-[[evolutions]]
-into_name = "INTELEON"
-condition = "Level"
-parameter = "35"
 
 [base_stats]
 hp = 65
@@ -89,5 +103,3 @@ def_ = 0
 spa = 2
 spd = 0
 spe = 0
-
-[wild_items]

@@ -1,3 +1,4 @@
+dex_number = 203
 name = "Girafarig"
 primary_type = "NORMAL"
 secondary_type = "PSYCHIC"
@@ -6,11 +7,123 @@ growth_rate = "Medium"
 exp_yield = 159
 catch_rate = 60
 caught_happiness = 70
-raw_abilities = ["SAPSIPPER", "EARLYBIRD"]
-raw_egg_moves = ["AMNESIA", "BEATUP", "DOUBLEKICK", "FORESIGHT", "FUTURESIGHT", "MAGICCOAT", "MEANLOOK", "MIRRORCOAT", "RAZORWIND", "PSYCHICFANGS", "PSYCHICTERRAIN", "SECRETPOWER", "SKILLSWAP", "TAKEDOWN", "WISH"]
-raw_tms = ["WORKUP", "PSYSHOCK", "CALMMIND", "STRENGTH", "TOXIC", "ROCKSMASH", "FLASH", "HIDDENPOWER", "SUNNYDAY", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "ENERGYBALL", "CHARGEBEAM", "THUNDERWAVE", "PSYCHUP", "BULLDOZE", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "DAZZLINGGLEAM", "CONFIDE", "BEATUP", "IMPRISON", "ASSURANCE", "POWERSWAP", "GUARDSWAP", "PSYCHICFANGS", "CRUNCH", "PSYCHICTERRAIN", "BODYSLAM", "AGILITY", "AMNESIA", "ENDURE", "BATONPASS", "FUTURESIGHT", "NASTYPLOT", "RETALIATE", "TRAILBLAZE", "SWIFT"]
-raw_tutor_moves = ["ALLYSWITCH", "FOULPLAY", "GRAVITY", "HEADBUTT", "HYPERVOICE", "IRONTAIL", "MAGICCOAT", "MUDSLAP", "RECYCLE", "SHOCKWAVE", "SIGNALBEAM", "SKILLSWAP", "SNORE", "STOMPINGTANTRUM", "SUCKERPUNCH", "TELEKINESIS", "TRICK", "UPROAR", "ZENHEADBUTT", "MIMIC"]
-compatible_egg_groups = ["Field"]
+raw_abilities = [
+    "SAPSIPPER",
+    "EARLYBIRD",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "AGILITY" },
+    { at_level = 1, name = "FOULPLAY" },
+    { at_level = 1, name = "HIGHHORSEPOWER" },
+    { at_level = 1, name = "ASTONISH" },
+    { at_level = 1, name = "GROWL" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 4, name = "CONFUSION" },
+    { at_level = 7, name = "FORESIGHT" },
+    { at_level = 10, name = "GUARDSWAP" },
+    { at_level = 10, name = "POWERSWAP" },
+    { at_level = 13, name = "STOMP" },
+    { at_level = 16, name = "DOUBLEKICK" },
+    { at_level = 19, name = "ASSURANCE" },
+    { at_level = 22, name = "PSYBEAM" },
+    { at_level = 25, name = "BEATUP" },
+    { at_level = 28, name = "DOUBLEHIT" },
+    { at_level = 31, name = "FUTURESIGHT" },
+    { at_level = 34, name = "CRUNCH" },
+    { at_level = 37, name = "BODYSLAM" },
+    { at_level = 41, name = "PSYSHIELDBASH" },
+    { at_level = 44, name = "WISH" },
+    { at_level = 48, name = "PSYCHICFANGS" },
+    { at_level = 52, name = "NASTYPLOT" },
+    { at_level = 56, name = "DOUBLEEDGE" },
+    { at_level = 60, name = "BATONPASS" },
+]
+raw_tms = [
+    "WORKUP",
+    "PSYSHOCK",
+    "CALMMIND",
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "THUNDERBOLT",
+    "THUNDER",
+    "EARTHQUAKE",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "REFLECT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "ECHOEDVOICE",
+    "ENERGYBALL",
+    "CHARGEBEAM",
+    "THUNDERWAVE",
+    "PSYCHUP",
+    "BULLDOZE",
+    "DREAMEATER",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "TRICKROOM",
+    "SECRETPOWER",
+    "DAZZLINGGLEAM",
+    "CONFIDE",
+    "BEATUP",
+    "IMPRISON",
+    "ASSURANCE",
+    "POWERSWAP",
+    "GUARDSWAP",
+    "PSYCHICFANGS",
+    "CRUNCH",
+    "PSYCHICTERRAIN",
+    "BODYSLAM",
+    "AGILITY",
+    "AMNESIA",
+    "ENDURE",
+    "BATONPASS",
+    "FUTURESIGHT",
+    "NASTYPLOT",
+    "RETALIATE",
+    "TRAILBLAZE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "ALLYSWITCH",
+    "FOULPLAY",
+    "GRAVITY",
+    "HEADBUTT",
+    "HYPERVOICE",
+    "IRONTAIL",
+    "MAGICCOAT",
+    "MIMIC",
+    "MUDSLAP",
+    "RECYCLE",
+    "SHOCKWAVE",
+    "SIGNALBEAM",
+    "SKILLSWAP",
+    "SNORE",
+    "STOMPINGTANTRUM",
+    "SUCKERPUNCH",
+    "TELEKINESIS",
+    "TRICK",
+    "UPROAR",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Field",
+]
 steps_to_hatch = 5355
 height = 1.5
 weight = 41.5
@@ -20,117 +133,27 @@ pokedex_entry = "A Girafarig is a herbivore-- it eats grass and tree shoots. Whi
 battler_player_y = 13
 battler_enemy_y = 9
 battler_altitude = 0
-form_names = []
-dex_number = 203
-internal_name = "GIRAFARIG"
+raw_egg_moves = [
+    "AMNESIA",
+    "BEATUP",
+    "DOUBLEKICK",
+    "FORESIGHT",
+    "FUTURESIGHT",
+    "MAGICCOAT",
+    "MEANLOOK",
+    "MIRRORCOAT",
+    "RAZORWIND",
+    "PSYCHICFANGS",
+    "PSYCHICTERRAIN",
+    "SECRETPOWER",
+    "SKILLSWAP",
+    "TAKEDOWN",
+    "WISH",
+]
 habitat = "Grassland"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "AGILITY"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FOULPLAY"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HIGHHORSEPOWER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ASTONISH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "CONFUSION"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "FORESIGHT"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "GUARDSWAP"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "POWERSWAP"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "STOMP"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "DOUBLEKICK"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "ASSURANCE"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "PSYBEAM"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "BEATUP"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "DOUBLEHIT"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "FUTURESIGHT"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 41
-name = "PSYSHIELDBASH"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "WISH"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "PSYCHICFANGS"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "NASTYPLOT"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "DOUBLEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "BATONPASS"
-
-[[evolutions]]
-into_name = "FARIGIRAF"
-condition = "HasMove"
-parameter = "TWINBEAM"
-
-
+evolutions = [
+    { into_name = "FARIGIRAF", condition = "HasMove", parameter = "TWINBEAM" },
+]
 
 [base_stats]
 hp = 70
@@ -147,5 +170,3 @@ def_ = 0
 spa = 2
 spd = 0
 spe = 0
-
-[wild_items]

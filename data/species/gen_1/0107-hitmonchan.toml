@@ -1,3 +1,4 @@
+dex_number = 107
 name = "Hitmonchan"
 primary_type = "FIGHTING"
 secondary_type = "FIGHTING"
@@ -6,11 +7,107 @@ growth_rate = "Medium"
 exp_yield = 159
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["KEENEYE", "IRONFIST"]
-raw_egg_moves = []
-raw_tms = ["WORKUP", "STRENGTH", "TOXIC", "ROCKSMASH", "BULKUP", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "RAINDANCE", "FRUSTRATION", "EARTHQUAKE", "RETURN", "BRICKBREAK", "DOUBLETEAM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "THIEF", "LOWSWEEP", "ROUND", "FOCUSBLAST", "FLING", "STONEEDGE", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "REVENGE", "BODYSLAM", "CLOSECOMBAT", "AGILITY", "FOCUSENERGY", "METRONOME", "ENDURE", "AURASPHERE", "RETALIATE", "SWIFT"]
-raw_tutor_moves = ["COVET", "DRAINPUNCH", "FIREPUNCH", "FOCUSPUNCH", "HEADBUTT", "HELPINGHAND", "ICEPUNCH", "LASERFOCUS", "LOWKICK", "MUDSLAP", "ROLEPLAY", "SNORE", "THROATCHOP", "THUNDERPUNCH", "UPROAR", "VACUUMWAVE", "COACHING", "MIMIC"]
-compatible_egg_groups = ["Humanlike"]
+raw_abilities = [
+    "KEENEYE",
+    "IRONFIST",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "FAKEOUT" },
+    { at_level = 4, name = "HELPINGHAND" },
+    { at_level = 6, name = "RAPIDSPIN" },
+    { at_level = 8, name = "COUNTER" },
+    { at_level = 10, name = "MACHPUNCH" },
+    { at_level = 12, name = "PURSUIT" },
+    { at_level = 14, name = "ROCKSMASH" },
+    { at_level = 16, name = "COVET" },
+    { at_level = 18, name = "DETECT" },
+    { at_level = 20, name = "SEISMICTOSS" },
+    { at_level = 20, name = "SKYUPPERCUT" },
+    { at_level = 21, name = "BODYSLAM" },
+    { at_level = 23, name = "BULKUP" },
+    { at_level = 25, name = "BULLETPUNCH" },
+    { at_level = 28, name = "ROCKTOMB" },
+    { at_level = 31, name = "DRAINPUNCH" },
+    { at_level = 34, name = "TAKEDOWN" },
+    { at_level = 37, name = "WIDEGUARD" },
+    { at_level = 40, name = "SUCKERPUNCH" },
+    { at_level = 44, name = "FORESIGHT" },
+    { at_level = 48, name = "AGILITY" },
+    { at_level = 52, name = "LUNGE" },
+    { at_level = 56, name = "FOCUSPUNCH" },
+    { at_level = 60, name = "HIJUMPKICK" },
+    { at_level = 64, name = "CLOSECOMBAT" },
+]
+raw_tms = [
+    "WORKUP",
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "BULKUP",
+    "ROCKCLIMB",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "EARTHQUAKE",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "ROCKTOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "LOWSWEEP",
+    "ROUND",
+    "FOCUSBLAST",
+    "FLING",
+    "STONEEDGE",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "REVENGE",
+    "BODYSLAM",
+    "CLOSECOMBAT",
+    "AGILITY",
+    "FOCUSENERGY",
+    "METRONOME",
+    "ENDURE",
+    "AURASPHERE",
+    "RETALIATE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "COACHING",
+    "COVET",
+    "DRAINPUNCH",
+    "FIREPUNCH",
+    "FOCUSPUNCH",
+    "HEADBUTT",
+    "HELPINGHAND",
+    "ICEPUNCH",
+    "LASERFOCUS",
+    "LOWKICK",
+    "MIMIC",
+    "MUDSLAP",
+    "ROLEPLAY",
+    "SNORE",
+    "THROATCHOP",
+    "THUNDERPUNCH",
+    "UPROAR",
+    "VACUUMWAVE",
+]
+compatible_egg_groups = [
+    "Humanlike",
+]
 steps_to_hatch = 6630
 height = 1.4
 weight = 50.2
@@ -20,112 +117,8 @@ pokedex_entry = "A Hitmonchan is said to possess the spirit of a boxer who aimed
 battler_player_y = 21
 battler_enemy_y = 12
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 107
-internal_name = "HITMONCHAN"
 raw_hidden_ability = "INNERFOCUS"
 habitat = "Urban"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FAKEOUT"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "HELPINGHAND"
-
-[[raw_level_up_moves]]
-at_level = 6
-name = "RAPIDSPIN"
-
-[[raw_level_up_moves]]
-at_level = 8
-name = "COUNTER"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "MACHPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "PURSUIT"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "ROCKSMASH"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "COVET"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "DETECT"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "SEISMICTOSS"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "SKYUPPERCUT"
-
-[[raw_level_up_moves]]
-at_level = 21
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 23
-name = "BULKUP"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "BULLETPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "ROCKTOMB"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "DRAINPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "TAKEDOWN"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "WIDEGUARD"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "SUCKERPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "FORESIGHT"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "AGILITY"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "LUNGE"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "FOCUSPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "HIJUMPKICK"
-
-[[raw_level_up_moves]]
-at_level = 64
-name = "CLOSECOMBAT"
 
 [base_stats]
 hp = 80
@@ -142,5 +135,3 @@ def_ = 0
 spa = 0
 spd = 2
 spe = 0
-
-[wild_items]

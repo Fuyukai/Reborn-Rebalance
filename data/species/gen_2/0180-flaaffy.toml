@@ -1,3 +1,4 @@
+dex_number = 180
 name = "Flaaffy"
 primary_type = "ELECTRIC"
 secondary_type = "ELECTRIC"
@@ -6,11 +7,101 @@ growth_rate = "Parabolic"
 exp_yield = 128
 catch_rate = 120
 caught_happiness = 70
-raw_abilities = ["STATIC", "OVERCOAT", "ELECTROMORPHOSIS"]
-raw_egg_moves = []
-raw_tms = ["STRENGTH", "TOXIC", "ROCKSMASH", "FLASH", "HIDDENPOWER", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "BRICKBREAK", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "FLING", "CHARGEBEAM", "VOLTSWITCH", "THUNDERWAVE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "SCREECH", "ELECTRICTERRAIN", "EERIEIMPULSE", "BODYSLAM", "AGILITY", "ENDURE", "POWERGEM", "ELECTROBALL", "TRAILBLAZE", "SWIFT"]
-raw_tutor_moves = ["AFTERYOU", "ELECTROWEB", "FIREPUNCH", "FOCUSPUNCH", "HEADBUTT", "HEALBELL", "IRONTAIL", "MAGNETRISE", "SHOCKWAVE", "SIGNALBEAM", "SNORE", "THUNDERPUNCH", "MIMIC"]
-compatible_egg_groups = ["Monster", "Field"]
+raw_abilities = [
+    "STATIC",
+    "OVERCOAT",
+    "ELECTROMORPHOSIS",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "CHARGE" },
+    { at_level = 1, name = "COTTONSPORE" },
+    { at_level = 1, name = "GROWL" },
+    { at_level = 4, name = "TACKLE" },
+    { at_level = 6, name = "THUNDERSHOCK" },
+    { at_level = 8, name = "SANDATTACK" },
+    { at_level = 10, name = "SWIFT" },
+    { at_level = 12, name = "THUNDERWAVE" },
+    { at_level = 14, name = "ELECTROWEB" },
+    { at_level = 15, name = "COTTONGUARD" },
+    { at_level = 16, name = "SEISMICTOSS" },
+    { at_level = 18, name = "ELECTROBALL" },
+    { at_level = 20, name = "SIGNALBEAM" },
+    { at_level = 23, name = "HEALBELL" },
+    { at_level = 26, name = "DISCHARGE" },
+    { at_level = 29, name = "CONFUSERAY" },
+    { at_level = 33, name = "AGILITY" },
+    { at_level = 37, name = "TAKEDOWN" },
+    { at_level = 41, name = "CHARGEBEAM" },
+    { at_level = 45, name = "FOCUSPUNCH" },
+    { at_level = 49, name = "BODYSLAM" },
+    { at_level = 53, name = "NUZZLE" },
+    { at_level = 57, name = "DOUBLEEDGE" },
+    { at_level = 62, name = "ZAPCANNON" },
+]
+raw_tms = [
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "FLASH",
+    "HIDDENPOWER",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "THUNDERBOLT",
+    "THUNDER",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ECHOEDVOICE",
+    "FLING",
+    "CHARGEBEAM",
+    "VOLTSWITCH",
+    "THUNDERWAVE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "WILDCHARGE",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "SCREECH",
+    "ELECTRICTERRAIN",
+    "EERIEIMPULSE",
+    "BODYSLAM",
+    "AGILITY",
+    "ENDURE",
+    "POWERGEM",
+    "ELECTROBALL",
+    "TRAILBLAZE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AFTERYOU",
+    "ELECTROWEB",
+    "FIREPUNCH",
+    "FOCUSPUNCH",
+    "HEADBUTT",
+    "HEALBELL",
+    "IRONTAIL",
+    "MAGNETRISE",
+    "MIMIC",
+    "SHOCKWAVE",
+    "SIGNALBEAM",
+    "SNORE",
+    "THUNDERPUNCH",
+]
+compatible_egg_groups = [
+    "Monster",
+    "Field",
+]
 steps_to_hatch = 5355
 height = 0.8
 weight = 13.3
@@ -20,113 +111,10 @@ pokedex_entry = "Its fleece quality changes to generate strong static electricit
 battler_player_y = 23
 battler_enemy_y = 17
 battler_altitude = 0
-form_names = []
-dex_number = 180
-internal_name = "FLAAFFY"
 habitat = "Grassland"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "CHARGE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "COTTONSPORE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWL"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 6
-name = "THUNDERSHOCK"
-
-[[raw_level_up_moves]]
-at_level = 8
-name = "SANDATTACK"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "SWIFT"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "THUNDERWAVE"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "ELECTROWEB"
-
-[[raw_level_up_moves]]
-at_level = 15
-name = "COTTONGUARD"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "SEISMICTOSS"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "ELECTROBALL"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "SIGNALBEAM"
-
-[[raw_level_up_moves]]
-at_level = 23
-name = "HEALBELL"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "DISCHARGE"
-
-[[raw_level_up_moves]]
-at_level = 29
-name = "CONFUSERAY"
-
-[[raw_level_up_moves]]
-at_level = 33
-name = "AGILITY"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "TAKEDOWN"
-
-[[raw_level_up_moves]]
-at_level = 41
-name = "CHARGEBEAM"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "FOCUSPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 53
-name = "NUZZLE"
-
-[[raw_level_up_moves]]
-at_level = 57
-name = "DOUBLEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 62
-name = "ZAPCANNON"
-
-[[evolutions]]
-into_name = "AMPHAROS"
-condition = "Level"
-parameter = "30"
-
-
+evolutions = [
+    { into_name = "AMPHAROS", condition = "Level", parameter = "30" },
+]
 
 [base_stats]
 hp = 75
@@ -143,5 +131,3 @@ def_ = 0
 spa = 2
 spd = 0
 spe = 0
-
-[wild_items]

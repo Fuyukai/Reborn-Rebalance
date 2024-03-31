@@ -1,3 +1,4 @@
+dex_number = 504
 name = "Patrat"
 primary_type = "NORMAL"
 secondary_type = "NORMAL"
@@ -6,11 +7,92 @@ growth_rate = "Medium"
 exp_yield = 51
 catch_rate = 255
 caught_happiness = 70
-raw_abilities = ["ANALYTIC", "KEENEYE"]
-raw_egg_moves = ["ASSURANCE", "BULLETSEED", "FLAIL", "FORESIGHT", "IRONTAIL", "PURSUIT", "REVENGE", "SCREECH", "TEARFULLOOK"]
-raw_tms = ["WORKUP", "CUT", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "RETURN", "SHADOWBALL", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "ROUND", "FLING", "SWORDSDANCE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "SCREECH", "REVENGE", "BULLETSEED", "ASSURANCE", "CRUNCH", "FOCUSENERGY", "ENDURE", "BATONPASS", "NASTYPLOT", "RETALIATE"]
-raw_tutor_moves = ["AFTERYOU", "AQUATAIL", "COVET", "ENDEAVOR", "GUNKSHOT", "HELPINGHAND", "IRONTAIL", "LASERFOCUS", "LASTRESORT", "LOWKICK", "SEEDBOMB", "SHOCKWAVE", "SNORE", "SUPERFANG", "ZENHEADBUTT", "MIMIC"]
-compatible_egg_groups = ["Field"]
+raw_abilities = [
+    "ANALYTIC",
+    "KEENEYE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "FORESIGHT" },
+    { at_level = 1, name = "LEER" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 4, name = "BIDE" },
+    { at_level = 7, name = "SANDATTACK" },
+    { at_level = 9, name = "PURSUIT" },
+    { at_level = 11, name = "HEADBUTT" },
+    { at_level = 13, name = "LOWKICK" },
+    { at_level = 15, name = "HYPNOSIS" },
+    { at_level = 17, name = "CRUNCH" },
+    { at_level = 19, name = "REVENGE" },
+    { at_level = 21, name = "HELPINGHAND" },
+    { at_level = 24, name = "HYPERFANG" },
+    { at_level = 27, name = "DETECT" },
+    { at_level = 30, name = "ASSURANCE" },
+    { at_level = 33, name = "SCREECH" },
+    { at_level = 37, name = "ZENHEADBUTT" },
+    { at_level = 41, name = "FLAIL" },
+    { at_level = 45, name = "SUPERFANG" },
+    { at_level = 49, name = "NASTYPLOT" },
+    { at_level = 53, name = "ENDEAVOR" },
+    { at_level = 57, name = "BATONPASS" },
+]
+raw_tms = [
+    "WORKUP",
+    "CUT",
+    "TOXIC",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "THUNDERBOLT",
+    "RETURN",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "FLING",
+    "SWORDSDANCE",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "DIG",
+    "SCREECH",
+    "REVENGE",
+    "BULLETSEED",
+    "ASSURANCE",
+    "CRUNCH",
+    "FOCUSENERGY",
+    "ENDURE",
+    "BATONPASS",
+    "NASTYPLOT",
+    "RETALIATE",
+]
+raw_tutor_moves = [
+    "AFTERYOU",
+    "AQUATAIL",
+    "COVET",
+    "ENDEAVOR",
+    "GUNKSHOT",
+    "HELPINGHAND",
+    "IRONTAIL",
+    "LASERFOCUS",
+    "LASTRESORT",
+    "LOWKICK",
+    "MIMIC",
+    "SEEDBOMB",
+    "SHOCKWAVE",
+    "SNORE",
+    "SUPERFANG",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Field",
+]
 steps_to_hatch = 3840
 height = 0.5
 weight = 11.6
@@ -20,104 +102,20 @@ pokedex_entry = "Extremely cautious, they take shifts to maintain a constant wat
 battler_player_y = 29
 battler_enemy_y = 29
 battler_altitude = 0
-form_names = []
-dex_number = 504
-internal_name = "PATRAT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FORESIGHT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "BIDE"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "SANDATTACK"
-
-[[raw_level_up_moves]]
-at_level = 9
-name = "PURSUIT"
-
-[[raw_level_up_moves]]
-at_level = 11
-name = "HEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "LOWKICK"
-
-[[raw_level_up_moves]]
-at_level = 15
-name = "HYPNOSIS"
-
-[[raw_level_up_moves]]
-at_level = 17
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "REVENGE"
-
-[[raw_level_up_moves]]
-at_level = 21
-name = "HELPINGHAND"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "HYPERFANG"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "DETECT"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "ASSURANCE"
-
-[[raw_level_up_moves]]
-at_level = 33
-name = "SCREECH"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "ZENHEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 41
-name = "FLAIL"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "SUPERFANG"
-
-[[raw_level_up_moves]]
-at_level = 49
-name = "NASTYPLOT"
-
-[[raw_level_up_moves]]
-at_level = 53
-name = "ENDEAVOR"
-
-[[raw_level_up_moves]]
-at_level = 57
-name = "BATONPASS"
-
-[[evolutions]]
-into_name = "WATCHOG"
-condition = "Level"
-parameter = "20"
-
-
+raw_egg_moves = [
+    "ASSURANCE",
+    "BULLETSEED",
+    "FLAIL",
+    "FORESIGHT",
+    "IRONTAIL",
+    "PURSUIT",
+    "REVENGE",
+    "SCREECH",
+    "TEARFULLOOK",
+]
+evolutions = [
+    { into_name = "WATCHOG", condition = "Level", parameter = "20" },
+]
 
 [base_stats]
 hp = 50
@@ -134,5 +132,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

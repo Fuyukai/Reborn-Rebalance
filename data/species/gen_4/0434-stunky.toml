@@ -1,3 +1,4 @@
+dex_number = 434
 name = "Stunky"
 primary_type = "POISON"
 secondary_type = "DARK"
@@ -6,11 +7,101 @@ growth_rate = "Medium"
 exp_yield = 66
 catch_rate = 225
 caught_happiness = 70
-raw_abilities = ["STENCH", "AFTERMATH"]
-raw_egg_moves = ["ASTONISH", "CRUNCH", "DOUBLEEDGE", "FLAMEBURST", "FOULPLAY", "HAZE", "IRONTAIL", "LEER", "PLAYROUGH", "PUNISHMENT", "PURSUIT", "SCARYFACE", "SMOG", "CORROSIVEGAS"]
-raw_tms = ["CUT", "ROAR", "TOXIC", "ROCKSMASH", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "SHADOWBALL", "DOUBLETEAM", "FLAMETHROWER", "SLUDGEBOMB", "FIREBLAST", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "EXPLOSION", "SHADOWCLAW", "PAYBACK", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "SNARL", "DARKPULSE", "CONFIDE", "DIG", "SCREECH", "SCARYFACE", "ASSURANCE", "CRUNCH", "HEX", "TAILSLAP", "FOCUSENERGY", "ENDURE", "NASTYPLOT", "PLAYROUGH", "VENOMDRENCH", "TRAILBLAZE", "SWIFT"]
-raw_tutor_moves = ["DEFOG", "FOULPLAY", "FURYCUTTER", "HEADBUTT", "IRONTAIL", "MUDSLAP", "SNATCH", "SNORE", "SUCKERPUNCH", "THROATCHOP", "CORROSIVEGAS", "LASHOUT", "MIMIC", "POISONTAIL"]
-compatible_egg_groups = ["Field"]
+raw_abilities = [
+    "STENCH",
+    "AFTERMATH",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "BITE" },
+    { at_level = 1, name = "POISONGAS" },
+    { at_level = 1, name = "SCRATCH" },
+    { at_level = 1, name = "SMOKESCREEN" },
+    { at_level = 4, name = "PURSUIT" },
+    { at_level = 7, name = "FURYSWIPES" },
+    { at_level = 10, name = "ACIDSPRAY" },
+    { at_level = 13, name = "ASSURANCE" },
+    { at_level = 16, name = "KNOCKOFF" },
+    { at_level = 19, name = "FLAMEBURST" },
+    { at_level = 22, name = "SLASH" },
+    { at_level = 25, name = "POISONJAB" },
+    { at_level = 28, name = "FLAMETHROWER" },
+    { at_level = 31, name = "NIGHTSLASH" },
+    { at_level = 34, name = "MEMENTO" },
+    { at_level = 38, name = "HAZE" },
+    { at_level = 42, name = "SUCKERPUNCH" },
+    { at_level = 46, name = "FOULPLAY" },
+    { at_level = 50, name = "CRUNCH" },
+    { at_level = 54, name = "DOUBLEEDGE" },
+    { at_level = 58, name = "GUNKSHOT" },
+]
+raw_tms = [
+    "CUT",
+    "ROAR",
+    "TOXIC",
+    "ROCKSMASH",
+    "VENOSHOCK",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "RETURN",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "FLAMETHROWER",
+    "SLUDGEBOMB",
+    "FIREBLAST",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "EXPLOSION",
+    "SHADOWCLAW",
+    "PAYBACK",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "SNARL",
+    "DARKPULSE",
+    "CONFIDE",
+    "DIG",
+    "SCREECH",
+    "SCARYFACE",
+    "ASSURANCE",
+    "CRUNCH",
+    "HEX",
+    "TAILSLAP",
+    "FOCUSENERGY",
+    "ENDURE",
+    "NASTYPLOT",
+    "PLAYROUGH",
+    "VENOMDRENCH",
+    "TRAILBLAZE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "CORROSIVEGAS",
+    "DEFOG",
+    "FOULPLAY",
+    "FURYCUTTER",
+    "HEADBUTT",
+    "IRONTAIL",
+    "LASHOUT",
+    "MIMIC",
+    "MUDSLAP",
+    "POISONTAIL",
+    "SNATCH",
+    "SNORE",
+    "SUCKERPUNCH",
+    "THROATCHOP",
+]
+compatible_egg_groups = [
+    "Field",
+]
 steps_to_hatch = 5355
 height = 0.4
 weight = 19.2
@@ -20,101 +111,26 @@ pokedex_entry = "It protects itself by spraying a noxious fluid from its rear. T
 battler_player_y = 27
 battler_enemy_y = 21
 battler_altitude = 0
-form_names = []
-dex_number = 434
-internal_name = "STUNKY"
 raw_hidden_ability = "KEENEYE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BITE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "POISONGAS"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SCRATCH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SMOKESCREEN"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "PURSUIT"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "FURYSWIPES"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "ACIDSPRAY"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "ASSURANCE"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "KNOCKOFF"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "FLAMEBURST"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "SLASH"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "POISONJAB"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "FLAMETHROWER"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "NIGHTSLASH"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "MEMENTO"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "HAZE"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "SUCKERPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "FOULPLAY"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "DOUBLEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "GUNKSHOT"
-
-[[evolutions]]
-into_name = "SKUNTANK"
-condition = "Level"
-parameter = "26"
-
-
+raw_egg_moves = [
+    "ASTONISH",
+    "CRUNCH",
+    "DOUBLEEDGE",
+    "FLAMEBURST",
+    "FOULPLAY",
+    "HAZE",
+    "IRONTAIL",
+    "LEER",
+    "PLAYROUGH",
+    "PUNISHMENT",
+    "PURSUIT",
+    "SCARYFACE",
+    "SMOG",
+    "CORROSIVEGAS",
+]
+evolutions = [
+    { into_name = "SKUNTANK", condition = "Level", parameter = "26" },
+]
 
 [base_stats]
 hp = 65
@@ -131,5 +147,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 1
-
-[wild_items]

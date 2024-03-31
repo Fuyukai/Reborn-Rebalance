@@ -1,142 +1,41 @@
-chances = [20, 6, 4]
+chances = [
+    20,
+    6,
+    4,
+]
 
 [encounters]
-[[encounters.Land]]
-name = "LILLIGANT"
-minimum_level = 65
-maximum_level = 80
-
-[[encounters.Land]]
-name = "APPLETUN"
-minimum_level = 65
-maximum_level = 80
-
-[[encounters.Land]]
-name = "ILLUMISE"
-minimum_level = 65
-maximum_level = 80
-
-[[encounters.Land]]
-name = "CINCCINO"
-minimum_level = 65
-maximum_level = 80
-
-[[encounters.Land]]
-name = "VOLBEAT"
-minimum_level = 65
-maximum_level = 80
-
-[[encounters.Land]]
-name = "RAPIDASH"
-minimum_level = 65
-maximum_level = 80
-
-[[encounters.Land]]
-name = "TINKATON"
-minimum_level = 65
-maximum_level = 80
-
-[[encounters.Land]]
-name = "DRUDDIGON"
-minimum_level = 68
-maximum_level = 83
-
-[[encounters.Land]]
-name = "ESCAVALIER"
-minimum_level = 68
-maximum_level = 83
-
-[[encounters.Land]]
-name = "CHANSEY"
-minimum_level = 68
-maximum_level = 83
-
-[[encounters.Land]]
-name = "ALTARIA"
-minimum_level = 70
-maximum_level = 90
-
-[[encounters.Land]]
-name = "FLORGES"
-minimum_level = 70
-maximum_level = 90
-
-[[encounters.HeadbuttLow]]
-name = "RIBOMBEE"
-minimum_level = 65
-maximum_level = 80
-
-[[encounters.HeadbuttLow]]
-name = "SINISTEA"
-minimum_level = 65
-maximum_level = 80
-
-[[encounters.HeadbuttLow]]
-name = "FERROSEED"
-minimum_level = 65
-maximum_level = 80
-
-[[encounters.HeadbuttLow]]
-name = "MUSHARNA"
-minimum_level = 65
-maximum_level = 80
-
-[[encounters.HeadbuttLow]]
-name = "SINISTEA"
-minimum_level = 68
-maximum_level = 83
-
-[[encounters.HeadbuttLow]]
-name = "ALTARIA"
-minimum_level = 68
-maximum_level = 83
-
-[[encounters.HeadbuttLow]]
-name = "FERROTHORN"
-minimum_level = 70
-maximum_level = 90
-
-[[encounters.HeadbuttLow]]
-name = "FERROTHORN"
-minimum_level = 70
-maximum_level = 90
-
-[[encounters.HeadbuttHigh]]
-name = "RIBOMBEE"
-minimum_level = 65
-maximum_level = 80
-
-[[encounters.HeadbuttHigh]]
-name = "SINISTEA"
-minimum_level = 65
-maximum_level = 80
-
-[[encounters.HeadbuttHigh]]
-name = "FERROSEED"
-minimum_level = 65
-maximum_level = 80
-
-[[encounters.HeadbuttHigh]]
-name = "MUSHARNA"
-minimum_level = 65
-maximum_level = 80
-
-[[encounters.HeadbuttHigh]]
-name = "ALTARIA"
-minimum_level = 68
-maximum_level = 83
-
-[[encounters.HeadbuttHigh]]
-name = "ALTARIA"
-minimum_level = 68
-maximum_level = 83
-
-[[encounters.HeadbuttHigh]]
-name = "FERROTHORN"
-minimum_level = 70
-maximum_level = 90
-
-[[encounters.HeadbuttHigh]]
-name = "FERROTHORN"
-minimum_level = 70
-maximum_level = 90
+Land = [
+    { name = "LILLIGANT", minimum_level = 65, maximum_level = 80 },
+    { name = "APPLETUN", minimum_level = 65, maximum_level = 80 },
+    { name = "ILLUMISE", minimum_level = 65, maximum_level = 80 },
+    { name = "CINCCINO", minimum_level = 65, maximum_level = 80 },
+    { name = "VOLBEAT", minimum_level = 65, maximum_level = 80 },
+    { name = "RAPIDASH", minimum_level = 65, maximum_level = 80 },
+    { name = "TINKATON", minimum_level = 65, maximum_level = 80 },
+    { name = "DRUDDIGON", minimum_level = 68, maximum_level = 83 },
+    { name = "ESCAVALIER", minimum_level = 68, maximum_level = 83 },
+    { name = "CHANSEY", minimum_level = 68, maximum_level = 83 },
+    { name = "ALTARIA", minimum_level = 70, maximum_level = 90 },
+    { name = "FLORGES", minimum_level = 70, maximum_level = 90 },
+]
+HeadbuttLow = [
+    { name = "RIBOMBEE", minimum_level = 65, maximum_level = 80 },
+    { name = "SINISTEA", minimum_level = 65, maximum_level = 80 },
+    { name = "FERROSEED", minimum_level = 65, maximum_level = 80 },
+    { name = "MUSHARNA", minimum_level = 65, maximum_level = 80 },
+    { name = "SINISTEA", minimum_level = 68, maximum_level = 83 },
+    { name = "ALTARIA", minimum_level = 68, maximum_level = 83 },
+    { name = "FERROTHORN", minimum_level = 70, maximum_level = 90 },
+    { name = "FERROTHORN", minimum_level = 70, maximum_level = 90 },
+]
+HeadbuttHigh = [
+    { name = "RIBOMBEE", minimum_level = 65, maximum_level = 80 },
+    { name = "SINISTEA", minimum_level = 65, maximum_level = 80 },
+    { name = "FERROSEED", minimum_level = 65, maximum_level = 80 },
+    { name = "MUSHARNA", minimum_level = 65, maximum_level = 80 },
+    { name = "ALTARIA", minimum_level = 68, maximum_level = 83 },
+    { name = "ALTARIA", minimum_level = 68, maximum_level = 83 },
+    { name = "FERROTHORN", minimum_level = 70, maximum_level = 90 },
+    { name = "FERROTHORN", minimum_level = 70, maximum_level = 90 },
+]

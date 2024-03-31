@@ -1,3 +1,4 @@
+dex_number = 277
 name = "Swellow"
 primary_type = "NORMAL"
 secondary_type = "FLYING"
@@ -6,11 +7,95 @@ growth_rate = "Parabolic"
 exp_yield = 159
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["GUTS", "SCRAPPY"]
-raw_egg_moves = []
-raw_tms = ["WORKUP", "FLY", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "FRUSTRATION", "RETURN", "DOUBLETEAM", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "STEELWING", "GIGAIMPACT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "ASSURANCE", "AIRSLASH", "HURRICANE", "BRAVEBIRD", "AGILITY", "FOCUSENERGY", "REVERSAL", "ENDURE", "BATONPASS", "SWIFT"]
-raw_tutor_moves = ["AIRCUTTER", "DEFOG", "ENDEAVOR", "HEATWAVE", "LASERFOCUS", "MUDSLAP", "OMINOUSWIND", "SKYATTACK", "SNORE", "TAILWIND", "TWISTER", "MIMIC"]
-compatible_egg_groups = ["Flying"]
+raw_abilities = [
+    "GUTS",
+    "SCRAPPY",
+]
+raw_level_up_moves = [
+    { at_level = 0, name = "EXTREMESPEED" },
+    { at_level = 1, name = "SKYATTACK" },
+    { at_level = 1, name = "REFRESH" },
+    { at_level = 1, name = "MIRRORMOVE" },
+    { at_level = 1, name = "PECK" },
+    { at_level = 1, name = "RAGE" },
+    { at_level = 4, name = "QUICKATTACK" },
+    { at_level = 7, name = "AFTERYOU" },
+    { at_level = 10, name = "SWIFT" },
+    { at_level = 12, name = "WINGATTACK" },
+    { at_level = 14, name = "TWISTER" },
+    { at_level = 16, name = "PURSUIT" },
+    { at_level = 19, name = "FOCUSENERGY" },
+    { at_level = 22, name = "QUICKGUARD" },
+    { at_level = 23, name = "AIRCUTTER" },
+    { at_level = 26, name = "AERIALACE" },
+    { at_level = 29, name = "MIMIC" },
+    { at_level = 32, name = "AGILITY" },
+    { at_level = 35, name = "AIRSLASH" },
+    { at_level = 38, name = "STEELWING" },
+    { at_level = 41, name = "WHIRLWIND" },
+    { at_level = 44, name = "REVERSAL" },
+    { at_level = 48, name = "ENDEAVOR" },
+    { at_level = 52, name = "DOUBLEEDGE" },
+    { at_level = 56, name = "BRAVEBIRD" },
+    { at_level = 60, name = "BOOMBURST" },
+]
+raw_tms = [
+    "WORKUP",
+    "FLY",
+    "TOXIC",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "ROOST",
+    "ROOST",
+    "FRUSTRATION",
+    "RETURN",
+    "DOUBLETEAM",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "ECHOEDVOICE",
+    "STEELWING",
+    "GIGAIMPACT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "ASSURANCE",
+    "AIRSLASH",
+    "HURRICANE",
+    "BRAVEBIRD",
+    "AGILITY",
+    "FOCUSENERGY",
+    "REVERSAL",
+    "ENDURE",
+    "BATONPASS",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AIRCUTTER",
+    "DEFOG",
+    "ENDEAVOR",
+    "HEATWAVE",
+    "LASERFOCUS",
+    "MIMIC",
+    "MUDSLAP",
+    "OMINOUSWIND",
+    "SKYATTACK",
+    "SNORE",
+    "TAILWIND",
+    "TWISTER",
+]
+compatible_egg_groups = [
+    "Flying",
+]
 steps_to_hatch = 4080
 height = 0.7
 weight = 19.8
@@ -20,115 +105,7 @@ pokedex_entry = "A Swellow dives upon prey from far above. It never misses its t
 battler_player_y = 21
 battler_enemy_y = 10
 battler_altitude = 10
-evolutions = []
-form_names = []
-dex_number = 277
-internal_name = "SWELLOW"
 habitat = "Grassland"
-
-[[raw_level_up_moves]]
-at_level = 0
-name = "EXTREMESPEED"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SKYATTACK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "REFRESH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "MIRRORMOVE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "PECK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "RAGE"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "QUICKATTACK"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "AFTERYOU"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "SWIFT"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "WINGATTACK"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "TWISTER"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "PURSUIT"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "FOCUSENERGY"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "QUICKGUARD"
-
-[[raw_level_up_moves]]
-at_level = 23
-name = "AIRCUTTER"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "AERIALACE"
-
-[[raw_level_up_moves]]
-at_level = 29
-name = "MIMIC"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "AGILITY"
-
-[[raw_level_up_moves]]
-at_level = 35
-name = "AIRSLASH"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "STEELWING"
-
-[[raw_level_up_moves]]
-at_level = 41
-name = "WHIRLWIND"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "REVERSAL"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "ENDEAVOR"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "DOUBLEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "BRAVEBIRD"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "BOOMBURST"
 
 [base_stats]
 hp = 60
@@ -145,5 +122,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 2
-
-[wild_items]

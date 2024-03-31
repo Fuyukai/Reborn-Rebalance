@@ -1,3 +1,4 @@
+dex_number = 26
 name = "Raichu"
 primary_type = "ELECTRIC"
 secondary_type = "ELECTRIC"
@@ -6,11 +7,118 @@ growth_rate = "Medium"
 exp_yield = 214
 catch_rate = 75
 caught_happiness = 70
-raw_abilities = ["STATIC", "LIGHTNINGROD"]
-raw_egg_moves = []
-raw_tms = ["PSYSHOCK", "SURF", "CALMMIND", "STRENGTH", "TOXIC", "ROCKSMASH", "FLASH", "HIDDENPOWER", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "PSYCHIC", "BRICKBREAK", "DOUBLETEAM", "REFLECT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "FOCUSBLAST", "FLING", "CHARGEBEAM", "BRUTALSWING", "GIGAIMPACT", "VOLTSWITCH", "THUNDERWAVE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "DAZZLINGGLEAM", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "PAYDAY", "DIG", "CHARM", "SPEEDSWAP", "DRAININGKISS", "ELECTRICTERRAIN", "EERIEIMPULSE", "BODYSLAM", "AGILITY", "REVERSAL", "ENDURE", "ENCORE", "FUTURESIGHT", "NASTYPLOT", "ELECTROBALL", "STOREDPOWER", "PLAYROUGH", "TRAILBLAZE", "SWIFT"]
-raw_tutor_moves = ["ALLYSWITCH", "COVET", "ELECTROWEB", "FOCUSPUNCH", "HEADBUTT", "HELPINGHAND", "IRONTAIL", "KNOCKOFF", "LASERFOCUS", "MAGICCOAT", "MAGICROOM", "MAGNETRISE", "MUDSLAP", "RECYCLE", "ROLLOUT", "SHOCKWAVE", "SIGNALBEAM", "SNORE", "TELEKINESIS", "THUNDERPUNCH", "UPROAR", "RISINGVOLTAGE", "EXPANDINGFORCE", "EXTREMESPEED", "MIMIC"]
-compatible_egg_groups = ["Field", "Fairy"]
+raw_abilities = [
+    "STATIC",
+    "LIGHTNINGROD",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "CHARM" },
+    { at_level = 1, name = "FAKEOUT" },
+    { at_level = 1, name = "NASTYPLOT" },
+    { at_level = 1, name = "QUICKATTACK" },
+    { at_level = 1, name = "THUNDERBOLT" },
+    { at_level = 1, name = "TICKLE" },
+    { at_level = 1, name = "WISH" },
+    { at_level = 25, name = "SHOCKWAVE" },
+    { at_level = 45, name = "REVERSAL" },
+    { at_level = 65, name = "VOLTTACKLE" },
+]
+raw_tms = [
+    "PSYSHOCK",
+    "SURF",
+    "CALMMIND",
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "FLASH",
+    "HIDDENPOWER",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "THUNDERBOLT",
+    "THUNDER",
+    "RETURN",
+    "PSYCHIC",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "REFLECT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "ECHOEDVOICE",
+    "FOCUSBLAST",
+    "FLING",
+    "CHARGEBEAM",
+    "BRUTALSWING",
+    "GIGAIMPACT",
+    "VOLTSWITCH",
+    "THUNDERWAVE",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "WILDCHARGE",
+    "SECRETPOWER",
+    "DAZZLINGGLEAM",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "PAYDAY",
+    "DIG",
+    "CHARM",
+    "SPEEDSWAP",
+    "DRAININGKISS",
+    "ELECTRICTERRAIN",
+    "EERIEIMPULSE",
+    "BODYSLAM",
+    "AGILITY",
+    "REVERSAL",
+    "ENDURE",
+    "ENCORE",
+    "FUTURESIGHT",
+    "NASTYPLOT",
+    "ELECTROBALL",
+    "STOREDPOWER",
+    "PLAYROUGH",
+    "TRAILBLAZE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "ALLYSWITCH",
+    "COVET",
+    "ELECTROWEB",
+    "EXPANDINGFORCE",
+    "EXTREMESPEED",
+    "FOCUSPUNCH",
+    "HEADBUTT",
+    "HELPINGHAND",
+    "IRONTAIL",
+    "KNOCKOFF",
+    "LASERFOCUS",
+    "MAGICCOAT",
+    "MAGICROOM",
+    "MAGNETRISE",
+    "MIMIC",
+    "MUDSLAP",
+    "RECYCLE",
+    "RISINGVOLTAGE",
+    "ROLLOUT",
+    "SHOCKWAVE",
+    "SIGNALBEAM",
+    "SNORE",
+    "TELEKINESIS",
+    "THUNDERPUNCH",
+    "UPROAR",
+]
+compatible_egg_groups = [
+    "Field",
+    "Fairy",
+]
 steps_to_hatch = 2805
 height = 0.8
 weight = 30.0
@@ -20,51 +128,11 @@ pokedex_entry = "If it stores too much electricity, its behavior turns aggressiv
 battler_player_y = 15
 battler_enemy_y = 9
 battler_altitude = 0
-evolutions = []
-form_names = ["Normal", "Alternate"]
-dex_number = 26
-internal_name = "RAICHU"
 habitat = "Forest"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "CHARM"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FAKEOUT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "NASTYPLOT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "QUICKATTACK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "THUNDERBOLT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TICKLE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WISH"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "SHOCKWAVE"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "REVERSAL"
-
-[[raw_level_up_moves]]
-at_level = 65
-name = "VOLTTACKLE"
+form_names = [
+    "Normal",
+    "Alternate",
+]
 
 [base_stats]
 hp = 60
@@ -81,5 +149,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 3
-
-[wild_items]

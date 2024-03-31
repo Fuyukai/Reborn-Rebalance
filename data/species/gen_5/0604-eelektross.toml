@@ -1,3 +1,4 @@
+dex_number = 604
 name = "Eelektross"
 primary_type = "ELECTRIC"
 secondary_type = "ELECTRIC"
@@ -6,11 +7,97 @@ growth_rate = "Slow"
 exp_yield = 232
 catch_rate = 30
 caught_happiness = 70
-raw_abilities = ["LEVITATE"]
-raw_egg_moves = []
-raw_tms = ["CUT", "DRAGONCLAW", "STRENGTH", "ROAR", "TOXIC", "ROCKSMASH", "FLASH", "HIDDENPOWER", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "BRICKBREAK", "DOUBLETEAM", "FLAMETHROWER", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "CHARGEBEAM", "ACROBATICS", "GIGAIMPACT", "VOLTSWITCH", "THUNDERWAVE", "ROCKSLIDE", "DRAGONTAIL", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "FLASHCANNON", "WILDCHARGE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "CRUNCH", "ENDURE"]
-raw_tutor_moves = ["AQUATAIL", "BIND", "BOUNCE", "DRAGONPULSE", "DRAINPUNCH", "FIREPUNCH", "FOCUSPUNCH", "GASTROACID", "GIGADRAIN", "IRONTAIL", "KNOCKOFF", "MAGNETRISE", "OUTRAGE", "SHOCKWAVE", "SIGNALBEAM", "SNORE", "SUPERFANG", "SUPERPOWER", "THROATCHOP", "THUNDERPUNCH", "MIMIC"]
-compatible_egg_groups = ["Amorphous"]
+raw_abilities = [
+    "LEVITATE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "BREAKINGSWIPE" },
+    { at_level = 1, name = "CRUNCH" },
+    { at_level = 1, name = "CRUSHCLAW" },
+    { at_level = 1, name = "DISCHARGE" },
+    { at_level = 1, name = "DRAGONPULSE" },
+    { at_level = 1, name = "DRAININGKISS" },
+    { at_level = 1, name = "FOCUSPUNCH" },
+    { at_level = 1, name = "GASTROACID" },
+    { at_level = 1, name = "OUTRAGE" },
+    { at_level = 1, name = "NUZZLE" },
+    { at_level = 50, name = "PSYCHICFANGS" },
+    { at_level = 55, name = "COIL" },
+    { at_level = 60, name = "LEECHLIFE" },
+    { at_level = 65, name = "ZAPCANNON" },
+    { at_level = 70, name = "CLOSECOMBAT" },
+]
+raw_tms = [
+    "CUT",
+    "DRAGONCLAW",
+    "STRENGTH",
+    "ROAR",
+    "TOXIC",
+    "ROCKSMASH",
+    "FLASH",
+    "HIDDENPOWER",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "THUNDERBOLT",
+    "THUNDER",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "FLAMETHROWER",
+    "ROCKTOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "CHARGEBEAM",
+    "ACROBATICS",
+    "GIGAIMPACT",
+    "VOLTSWITCH",
+    "THUNDERWAVE",
+    "ROCKSLIDE",
+    "DRAGONTAIL",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "FLASHCANNON",
+    "WILDCHARGE",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "CRUNCH",
+    "ENDURE",
+]
+raw_tutor_moves = [
+    "AQUATAIL",
+    "BIND",
+    "BOUNCE",
+    "DRAGONPULSE",
+    "DRAINPUNCH",
+    "FIREPUNCH",
+    "FOCUSPUNCH",
+    "GASTROACID",
+    "GIGADRAIN",
+    "IRONTAIL",
+    "KNOCKOFF",
+    "MAGNETRISE",
+    "MIMIC",
+    "OUTRAGE",
+    "SHOCKWAVE",
+    "SIGNALBEAM",
+    "SNORE",
+    "SUPERFANG",
+    "SUPERPOWER",
+    "THROATCHOP",
+    "THUNDERPUNCH",
+]
+compatible_egg_groups = [
+    "Amorphous",
+]
 steps_to_hatch = 5120
 height = 2.1
 weight = 80.5
@@ -20,70 +107,6 @@ pokedex_entry = "With their sucker mouths, they suck in prey. Then they use thei
 battler_player_y = 17
 battler_enemy_y = 11
 battler_altitude = 3
-evolutions = []
-form_names = []
-dex_number = 604
-internal_name = "EELEKTROSS"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BREAKINGSWIPE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "CRUSHCLAW"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "DISCHARGE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "DRAGONPULSE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "DRAININGKISS"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FOCUSPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GASTROACID"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "OUTRAGE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "NUZZLE"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "PSYCHICFANGS"
-
-[[raw_level_up_moves]]
-at_level = 55
-name = "COIL"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "LEECHLIFE"
-
-[[raw_level_up_moves]]
-at_level = 65
-name = "ZAPCANNON"
-
-[[raw_level_up_moves]]
-at_level = 70
-name = "CLOSECOMBAT"
 
 [base_stats]
 hp = 85
@@ -100,5 +123,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

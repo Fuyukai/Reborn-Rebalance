@@ -1,3 +1,4 @@
+dex_number = 302
 name = "Sableye"
 primary_type = "DARK"
 secondary_type = "GHOST"
@@ -6,11 +7,132 @@ growth_rate = "Parabolic"
 exp_yield = 133
 catch_rate = 45
 caught_happiness = 35
-raw_abilities = ["KEENEYE", "STALL"]
-raw_egg_moves = ["CAPTIVATE", "FEINT", "FLATTER", "IMPRISON", "MEANLOOK", "METALBURST", "MOONLIGHT", "NASTYPLOT", "RECOVER", "SUCKERPUNCH", "TRICK"]
-raw_tms = ["CUT", "CALMMIND", "TOXIC", "ROCKSMASH", "FLASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "PROTECT", "RAINDANCE", "FRUSTRATION", "RETURN", "PSYCHIC", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "ROCKTOMB", "AERIALACE", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "LOWSWEEP", "ROUND", "FLING", "QUASH", "WILLOWISP", "EMBARGO", "SHADOWCLAW", "PAYBACK", "GYROBALL", "PSYCHUP", "POISONJAB", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "SNARL", "DARKPULSE", "POWERUPPUNCH", "DAZZLINGGLEAM", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "IMPRISON", "HEX", "BODYSLAM", "METRONOME", "ENDURE", "ENCORE", "POWERGEM", "NASTYPLOT", "PLAYROUGH", "RETALIATE"]
-raw_tutor_moves = ["ALLYSWITCH", "DRAINPUNCH", "FIREPUNCH", "FOCUSPUNCH", "FOULPLAY", "FURYCUTTER", "GRAVITY", "HEADBUTT", "HELPINGHAND", "ICEPUNCH", "ICYWIND", "KNOCKOFF", "LOWKICK", "MAGICCOAT", "MUDSLAP", "OMINOUSWIND", "PAINSPLIT", "ROLEPLAY", "SHOCKWAVE", "SIGNALBEAM", "SNATCH", "SNORE", "SPITE", "SUCKERPUNCH", "TELEKINESIS", "THUNDERPUNCH", "TRICK", "WATERPULSE", "WONDERROOM", "ZENHEADBUTT", "POLTERGEIST", "LASHOUT", "MIMIC"]
-compatible_egg_groups = ["Humanlike"]
+raw_abilities = [
+    "KEENEYE",
+    "STALL",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "OCTAZOOKA" },
+    { at_level = 1, name = "TICKLE" },
+    { at_level = 1, name = "SCRATCH" },
+    { at_level = 1, name = "LEER" },
+    { at_level = 1, name = "FORESIGHT" },
+    { at_level = 4, name = "SPITE" },
+    { at_level = 7, name = "NIGHTSHADE" },
+    { at_level = 10, name = "PAINSPLIT" },
+    { at_level = 13, name = "ROLEPLAY" },
+    { at_level = 16, name = "DETECT" },
+    { at_level = 19, name = "SHADOWSNEAK" },
+    { at_level = 22, name = "FAKEOUT" },
+    { at_level = 25, name = "FEINTATTACK" },
+    { at_level = 28, name = "METALBURST" },
+    { at_level = 31, name = "SHADOWCLAW" },
+    { at_level = 34, name = "TRICK" },
+    { at_level = 38, name = "CONFUSERAY" },
+    { at_level = 42, name = "ZENHEADBUTT" },
+    { at_level = 46, name = "DRAINPUNCH" },
+    { at_level = 50, name = "SUCKERPUNCH" },
+    { at_level = 54, name = "NASTYPLOT" },
+    { at_level = 58, name = "FOULPLAY" },
+    { at_level = 62, name = "RECOVER" },
+]
+raw_tms = [
+    "CUT",
+    "CALMMIND",
+    "TOXIC",
+    "ROCKSMASH",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "ROCKTOMB",
+    "AERIALACE",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "LOWSWEEP",
+    "ROUND",
+    "FLING",
+    "QUASH",
+    "WILLOWISP",
+    "EMBARGO",
+    "SHADOWCLAW",
+    "PAYBACK",
+    "GYROBALL",
+    "PSYCHUP",
+    "POISONJAB",
+    "DREAMEATER",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "SNARL",
+    "DARKPULSE",
+    "POWERUPPUNCH",
+    "DAZZLINGGLEAM",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "DIG",
+    "IMPRISON",
+    "HEX",
+    "BODYSLAM",
+    "METRONOME",
+    "ENDURE",
+    "ENCORE",
+    "POWERGEM",
+    "NASTYPLOT",
+    "PLAYROUGH",
+    "RETALIATE",
+]
+raw_tutor_moves = [
+    "ALLYSWITCH",
+    "DRAINPUNCH",
+    "FIREPUNCH",
+    "FOCUSPUNCH",
+    "FOULPLAY",
+    "FURYCUTTER",
+    "GRAVITY",
+    "HEADBUTT",
+    "HELPINGHAND",
+    "ICEPUNCH",
+    "ICYWIND",
+    "KNOCKOFF",
+    "LASHOUT",
+    "LOWKICK",
+    "MAGICCOAT",
+    "MIMIC",
+    "MUDSLAP",
+    "OMINOUSWIND",
+    "PAINSPLIT",
+    "POLTERGEIST",
+    "ROLEPLAY",
+    "SHOCKWAVE",
+    "SIGNALBEAM",
+    "SNATCH",
+    "SNORE",
+    "SPITE",
+    "SUCKERPUNCH",
+    "TELEKINESIS",
+    "THUNDERPUNCH",
+    "TRICK",
+    "WATERPULSE",
+    "WONDERROOM",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Humanlike",
+]
 steps_to_hatch = 6630
 height = 0.5
 weight = 11.0
@@ -20,104 +142,21 @@ pokedex_entry = "It digs branching holes in caves using its sharp claws in searc
 battler_player_y = 26
 battler_enemy_y = 20
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 302
-internal_name = "SABLEYE"
 raw_hidden_ability = "PRANKSTER"
+raw_egg_moves = [
+    "CAPTIVATE",
+    "FEINT",
+    "FLATTER",
+    "IMPRISON",
+    "MEANLOOK",
+    "METALBURST",
+    "MOONLIGHT",
+    "NASTYPLOT",
+    "RECOVER",
+    "SUCKERPUNCH",
+    "TRICK",
+]
 habitat = "Cave"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "OCTAZOOKA"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TICKLE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SCRATCH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FORESIGHT"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "SPITE"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "NIGHTSHADE"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "PAINSPLIT"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "ROLEPLAY"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "DETECT"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "SHADOWSNEAK"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "FAKEOUT"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "FEINTATTACK"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "METALBURST"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "SHADOWCLAW"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "TRICK"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "CONFUSERAY"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "ZENHEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "DRAINPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "SUCKERPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "NASTYPLOT"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "FOULPLAY"
-
-[[raw_level_up_moves]]
-at_level = 62
-name = "RECOVER"
 
 [base_stats]
 hp = 50

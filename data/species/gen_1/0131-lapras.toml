@@ -1,3 +1,4 @@
+dex_number = 131
 name = "Lapras"
 primary_type = "WATER"
 secondary_type = "ICE"
@@ -6,13 +7,111 @@ growth_rate = "Slow"
 exp_yield = 187
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["WATERABSORB", "SHELLARMOR"]
-raw_egg_moves = ["ANCIENTPOWER", "AVALANCHE", "CURSE", "DRAGONDANCE", "DRAGONPULSE", "FISSURE", "FORESIGHT", "FUTURESIGHT", "FREEZEDRY", "HORNDRILL", "REFRESH", "SLEEPTALK", "TICKLE", "WHIRLPOOL", "SPARKLINGARIA"]
-raw_tms = [
-    "SURF", "STRENGTH", "ROAR", "WATERFALL", "TOXIC", "DIVE", "HAIL", "ROCKSMASH", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "THUNDERBOLT", "THUNDER", "RETURN", "PSYCHIC", "DOUBLETEAM", "REFLECT", "FACADE", "REST", "ATTRACT", "ROUND", "ECHOEDVOICE", "SMARTSTRIKE", "GIGAIMPACT", "BULLDOZE", "FROSTBREATH", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "CHARM", "WHIRLPOOL", "WEATHERBALL", "BRINE", "AVALANCHE", "BODYSLAM", "HYDROPUMP", "MEGAHORN", "ENDURE", "FUTURESIGHT", "DRAGONDANCE", "BODYPRESS",
+raw_abilities = [
+    "WATERABSORB",
+    "SHELLARMOR",
 ]
-raw_tutor_moves = ["ANCIENTPOWER", "AQUATAIL", "BLOCK", "DRAGONPULSE", "DRILLRUN", "HEADBUTT", "HEALBELL", "HELPINGHAND", "HYPERVOICE", "ICYWIND", "IRONHEAD", "IRONTAIL", "LIQUIDATION", "OUTRAGE", "SHOCKWAVE", "SIGNALBEAM", "SNORE", "WATERPULSE", "ZENHEADBUTT", "MIMIC", "WAVECRASH"]
-compatible_egg_groups = ["Monster", "Water1"]
+raw_level_up_moves = [
+    { at_level = 1, name = "SING" },
+    { at_level = 1, name = "GROWL" },
+    { at_level = 1, name = "WATERGUN" },
+    { at_level = 4, name = "MIST" },
+    { at_level = 7, name = "CONFUSERAY" },
+    { at_level = 10, name = "ICESHARD" },
+    { at_level = 13, name = "WATERPULSE" },
+    { at_level = 16, name = "BODYSLAM" },
+    { at_level = 19, name = "SMARTSTRIKE" },
+    { at_level = 22, name = "PERISHSONG" },
+    { at_level = 25, name = "ICEBEAM" },
+    { at_level = 28, name = "BRINE" },
+    { at_level = 31, name = "SAFEGUARD" },
+    { at_level = 34, name = "DRAGONPULSE" },
+    { at_level = 37, name = "HAZE" },
+    { at_level = 42, name = "FUTURESIGHT" },
+    { at_level = 46, name = "DRAGONDANCE" },
+    { at_level = 50, name = "ICICLECRASH" },
+    { at_level = 54, name = "MEGAHORN" },
+    { at_level = 59, name = "HYDROPUMP" },
+]
+raw_tms = [
+    "SURF",
+    "STRENGTH",
+    "ROAR",
+    "WATERFALL",
+    "TOXIC",
+    "DIVE",
+    "HAIL",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "ICEBEAM",
+    "BLIZZARD",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "THUNDERBOLT",
+    "THUNDER",
+    "RETURN",
+    "PSYCHIC",
+    "DOUBLETEAM",
+    "REFLECT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ECHOEDVOICE",
+    "SMARTSTRIKE",
+    "GIGAIMPACT",
+    "BULLDOZE",
+    "FROSTBREATH",
+    "DREAMEATER",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "CHARM",
+    "WHIRLPOOL",
+    "WEATHERBALL",
+    "BRINE",
+    "AVALANCHE",
+    "BODYSLAM",
+    "HYDROPUMP",
+    "MEGAHORN",
+    "ENDURE",
+    "FUTURESIGHT",
+    "DRAGONDANCE",
+    "BODYPRESS",
+]
+raw_tutor_moves = [
+    "ANCIENTPOWER",
+    "AQUATAIL",
+    "BLOCK",
+    "DRAGONPULSE",
+    "DRILLRUN",
+    "HEADBUTT",
+    "HEALBELL",
+    "HELPINGHAND",
+    "HYPERVOICE",
+    "ICYWIND",
+    "IRONHEAD",
+    "IRONTAIL",
+    "LIQUIDATION",
+    "MIMIC",
+    "OUTRAGE",
+    "SHOCKWAVE",
+    "SIGNALBEAM",
+    "SNORE",
+    "WATERPULSE",
+    "WAVECRASH",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Monster",
+    "Water1",
+]
 steps_to_hatch = 10455
 height = 2.5
 weight = 220.0
@@ -22,92 +121,25 @@ pokedex_entry = "People have driven Lapras almost to the point of extinction. In
 battler_player_y = 13
 battler_enemy_y = 11
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 131
-internal_name = "LAPRAS"
 raw_hidden_ability = "HYDRATION"
+raw_egg_moves = [
+    "ANCIENTPOWER",
+    "AVALANCHE",
+    "CURSE",
+    "DRAGONDANCE",
+    "DRAGONPULSE",
+    "FISSURE",
+    "FORESIGHT",
+    "FUTURESIGHT",
+    "FREEZEDRY",
+    "HORNDRILL",
+    "REFRESH",
+    "SLEEPTALK",
+    "TICKLE",
+    "WHIRLPOOL",
+    "SPARKLINGARIA",
+]
 habitat = "Sea"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SING"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WATERGUN"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "MIST"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "CONFUSERAY"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "ICESHARD"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "WATERPULSE"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "SMARTSTRIKE"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "PERISHSONG"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "ICEBEAM"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "BRINE"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "SAFEGUARD"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "DRAGONPULSE"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "HAZE"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "FUTURESIGHT"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "DRAGONDANCE"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "ICICLECRASH"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "MEGAHORN"
-
-[[raw_level_up_moves]]
-at_level = 59
-name = "HYDROPUMP"
 
 [base_stats]
 hp = 130

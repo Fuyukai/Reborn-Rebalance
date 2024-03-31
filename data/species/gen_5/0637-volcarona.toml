@@ -1,3 +1,4 @@
+dex_number = 637
 name = "Volcarona"
 primary_type = "BUG"
 secondary_type = "FIRE"
@@ -6,11 +7,97 @@ growth_rate = "Slow"
 exp_yield = 248
 catch_rate = 15
 caught_happiness = 70
-raw_abilities = ["FLAMEBODY", "SWARM"]
-raw_egg_moves = []
-raw_tms = ["FLY", "CALMMIND", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "ROOST", "ROOST", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "LEECHLIFE", "PSYCHIC", "DOUBLETEAM", "FLAMETHROWER", "FIREBLAST", "AERIALACE", "FACADE", "FLAMECHARGE", "REST", "ROUND", "OVERHEAT", "WILLOWISP", "ACROBATICS", "GIGAIMPACT", "STRUGGLEBUG", "POISONJAB", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "CONFIDE", "FIRESPIN", "MYSTICALFIRE", "HURRICANE", "FLAREBLITZ", "AMNESIA", "ENDURE", "BUGBUZZ", "POUNCE", "TRAILBLAZE"]
-raw_tutor_moves = ["BUGBITE", "DEFOG", "GIGADRAIN", "HEATWAVE", "MAGNETRISE", "SIGNALBEAM", "SNORE", "TAILWIND", "ZENHEADBUTT", "DUALWINGBEAT", "SKITTERSMACK", "MIMIC"]
-compatible_egg_groups = ["Bug"]
+raw_abilities = [
+    "FLAMEBODY",
+    "SWARM",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "FIERYDANCE" },
+    { at_level = 1, name = "MAGNETRISE" },
+    { at_level = 1, name = "TAILWIND" },
+    { at_level = 1, name = "ABSORB" },
+    { at_level = 1, name = "GUST" },
+    { at_level = 1, name = "STRINGSHOT" },
+    { at_level = 1, name = "WHIRLWIND" },
+    { at_level = 18, name = "BUGBITE" },
+    { at_level = 24, name = "FLAMEWHEEL" },
+    { at_level = 30, name = "SCREECH" },
+    { at_level = 36, name = "LEECHLIFE" },
+    { at_level = 40, name = "GIGADRAIN" },
+    { at_level = 44, name = "RAGINGFURY" },
+    { at_level = 48, name = "RAGEPOWDER" },
+    { at_level = 52, name = "INFERNO" },
+    { at_level = 56, name = "AMNESIA" },
+    { at_level = 60, name = "HEATWAVE" },
+    { at_level = 64, name = "BUGBUZZ" },
+    { at_level = 68, name = "FIERYDANCE" },
+    { at_level = 72, name = "QUIVERDANCE" },
+]
+raw_tms = [
+    "FLY",
+    "CALMMIND",
+    "TOXIC",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "ROOST",
+    "ROOST",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "LEECHLIFE",
+    "PSYCHIC",
+    "DOUBLETEAM",
+    "FLAMETHROWER",
+    "FIREBLAST",
+    "AERIALACE",
+    "FACADE",
+    "FLAMECHARGE",
+    "REST",
+    "ROUND",
+    "OVERHEAT",
+    "WILLOWISP",
+    "ACROBATICS",
+    "GIGAIMPACT",
+    "STRUGGLEBUG",
+    "POISONJAB",
+    "SWAGGER",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "WILDCHARGE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "FIRESPIN",
+    "MYSTICALFIRE",
+    "HURRICANE",
+    "FLAREBLITZ",
+    "AMNESIA",
+    "ENDURE",
+    "BUGBUZZ",
+    "POUNCE",
+    "TRAILBLAZE",
+]
+raw_tutor_moves = [
+    "BUGBITE",
+    "DEFOG",
+    "DUALWINGBEAT",
+    "GIGADRAIN",
+    "HEATWAVE",
+    "MAGNETRISE",
+    "MIMIC",
+    "SIGNALBEAM",
+    "SKITTERSMACK",
+    "SNORE",
+    "TAILWIND",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Bug",
+]
 steps_to_hatch = 10240
 height = 1.6
 weight = 46.0
@@ -20,90 +107,6 @@ pokedex_entry = "A sea of fire engulfs the surroundings of their battles, since 
 battler_player_y = 15
 battler_enemy_y = 20
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 637
-internal_name = "VOLCARONA"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FIERYDANCE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "MAGNETRISE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TAILWIND"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ABSORB"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GUST"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "STRINGSHOT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WHIRLWIND"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "BUGBITE"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "FLAMEWHEEL"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "SCREECH"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "LEECHLIFE"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "GIGADRAIN"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "RAGINGFURY"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "RAGEPOWDER"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "INFERNO"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "AMNESIA"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "HEATWAVE"
-
-[[raw_level_up_moves]]
-at_level = 64
-name = "BUGBUZZ"
-
-[[raw_level_up_moves]]
-at_level = 68
-name = "FIERYDANCE"
-
-[[raw_level_up_moves]]
-at_level = 72
-name = "QUIVERDANCE"
 
 [base_stats]
 hp = 85

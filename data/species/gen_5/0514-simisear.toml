@@ -1,3 +1,4 @@
+dex_number = 514
 name = "Simisear"
 primary_type = "FIRE"
 secondary_type = "FIRE"
@@ -6,11 +7,102 @@ growth_rate = "Fast"
 exp_yield = 174
 catch_rate = 75
 caught_happiness = 70
-raw_abilities = ["GLUTTONY", "DROUGHT"]
-raw_egg_moves = []
-raw_tms = ["WORKUP", "CUT", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "HYPERBEAM", "PROTECT", "FRUSTRATION", "SOLARBEAM", "RETURN", "BRICKBREAK", "DOUBLETEAM", "FLAMETHROWER", "FIREBLAST", "ROCKTOMB", "TORMENT", "FACADE", "FLAMECHARGE", "REST", "ATTRACT", "THIEF", "LOWSWEEP", "ROUND", "OVERHEAT", "FOCUSBLAST", "FLING", "WILLOWISP", "ACROBATICS", "SHADOWCLAW", "PAYBACK", "GIGAIMPACT", "ROCKSLIDE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "FIRESPIN", "DIG", "CRUNCH", "FLAREBLITZ", "AMNESIA", "ENDURE", "NASTYPLOT", "MYSTICALFIRE", "PLAYROUGH"]
-raw_tutor_moves = ["COVET", "ENDEAVOR", "FIREPLEDGE", "FIREPUNCH", "FOCUSPUNCH", "GASTROACID", "GUNKSHOT", "HEATWAVE", "HELPINGHAND", "IRONTAIL", "KNOCKOFF", "LOWKICK", "RECYCLE", "ROLEPLAY", "SNORE", "SUPERPOWER", "THROATCHOP", "UPROAR", "MIMIC"]
-compatible_egg_groups = ["Field"]
+raw_abilities = [
+    "GLUTTONY",
+    "DROUGHT",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "CRUNCH" },
+    { at_level = 1, name = "DISARMINGVOICE" },
+    { at_level = 1, name = "FIREPLEDGE" },
+    { at_level = 1, name = "FLAMEBURST" },
+    { at_level = 1, name = "FURYSWIPES" },
+    { at_level = 1, name = "LICK" },
+    { at_level = 1, name = "NASTYPLOT" },
+    { at_level = 1, name = "TICKLE" },
+    { at_level = 32, name = "WRINGOUT" },
+    { at_level = 38, name = "BLAZEKICK" },
+    { at_level = 44, name = "ACROBATICS" },
+    { at_level = 50, name = "LAVAPLUME" },
+    { at_level = 56, name = "FIRELASH" },
+    { at_level = 62, name = "SLACKOFF" },
+]
+raw_tms = [
+    "WORKUP",
+    "CUT",
+    "TOXIC",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "HYPERBEAM",
+    "PROTECT",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "FLAMETHROWER",
+    "FIREBLAST",
+    "ROCKTOMB",
+    "TORMENT",
+    "FACADE",
+    "FLAMECHARGE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "LOWSWEEP",
+    "ROUND",
+    "OVERHEAT",
+    "FOCUSBLAST",
+    "FLING",
+    "WILLOWISP",
+    "ACROBATICS",
+    "SHADOWCLAW",
+    "PAYBACK",
+    "GIGAIMPACT",
+    "ROCKSLIDE",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "FIRESPIN",
+    "DIG",
+    "CRUNCH",
+    "MYSTICALFIRE",
+    "FLAREBLITZ",
+    "AMNESIA",
+    "ENDURE",
+    "NASTYPLOT",
+    "PLAYROUGH",
+]
+raw_tutor_moves = [
+    "COVET",
+    "ENDEAVOR",
+    "FIREPLEDGE",
+    "FIREPUNCH",
+    "FOCUSPUNCH",
+    "GASTROACID",
+    "GUNKSHOT",
+    "HEATWAVE",
+    "HELPINGHAND",
+    "IRONTAIL",
+    "KNOCKOFF",
+    "LOWKICK",
+    "MIMIC",
+    "RECYCLE",
+    "ROLEPLAY",
+    "SNORE",
+    "SUPERPOWER",
+    "THROATCHOP",
+    "UPROAR",
+]
+compatible_egg_groups = [
+    "Field",
+]
 steps_to_hatch = 5120
 height = 1.0
 weight = 28.0
@@ -20,66 +112,6 @@ pokedex_entry = "A flame burns inside its body. It scatters embers from its head
 battler_player_y = 18
 battler_enemy_y = 23
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 514
-internal_name = "SIMISEAR"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "DISARMINGVOICE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FIREPLEDGE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FLAMEBURST"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FURYSWIPES"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LICK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "NASTYPLOT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TICKLE"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "WRINGOUT"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "BLAZEKICK"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "ACROBATICS"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "LAVAPLUME"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "FIRELASH"
-
-[[raw_level_up_moves]]
-at_level = 62
-name = "SLACKOFF"
 
 [base_stats]
 hp = 75
@@ -96,5 +128,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 2
-
-[wild_items]

@@ -1,3 +1,4 @@
+dex_number = 803
 name = "Poipole"
 primary_type = "POISON"
 secondary_type = "POISON"
@@ -6,11 +7,66 @@ growth_rate = "Slow"
 exp_yield = 189
 catch_rate = 45
 caught_happiness = 0
-raw_abilities = ["BEASTBOOST"]
-raw_egg_moves = []
-raw_tms = ["TOXIC", "VENOSHOCK", "HIDDENPOWER", "PROTECT", "FRUSTRATION", "RETURN", "SLUDGEWAVE", "SLUDGEBOMB", "FACADE", "REST", "ROUND", "ECHOEDVOICE", "POISONJAB", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "PINMISSILE", "CHARM", "ENDURE", "TOXICSPIKES", "NASTYPLOT", "VENOMDRENCH"]
-raw_tutor_moves = ["COVET", "DRAGONPULSE", "GASTROACID", "GUNKSHOT", "HELPINGHAND", "IRONTAIL", "SIGNALBEAM", "SNATCH", "SNORE", "UPROAR", "MIMIC"]
-compatible_egg_groups = ["Undiscovered"]
+raw_abilities = [
+    "BEASTBOOST",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "DRAGONPULSE" },
+    { at_level = 1, name = "PECK" },
+    { at_level = 1, name = "GROWL" },
+    { at_level = 1, name = "HELPINGHAND" },
+    { at_level = 1, name = "ACID" },
+    { at_level = 7, name = "FURYATTACK" },
+    { at_level = 13, name = "VENOSHOCK" },
+    { at_level = 19, name = "CHARM" },
+    { at_level = 23, name = "VENOMDRENCH" },
+    { at_level = 31, name = "NASTYPLOT" },
+    { at_level = 37, name = "POISONJAB" },
+    { at_level = 41, name = "TOXIC" },
+    { at_level = 47, name = "FELLSTINGER" },
+    { at_level = 57, name = "DRAGONPULSE" },
+]
+raw_tms = [
+    "TOXIC",
+    "VENOSHOCK",
+    "HIDDENPOWER",
+    "PROTECT",
+    "FRUSTRATION",
+    "RETURN",
+    "SLUDGEWAVE",
+    "SLUDGEBOMB",
+    "FACADE",
+    "REST",
+    "ROUND",
+    "ECHOEDVOICE",
+    "POISONJAB",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "PINMISSILE",
+    "CHARM",
+    "ENDURE",
+    "TOXICSPIKES",
+    "NASTYPLOT",
+    "VENOMDRENCH",
+]
+raw_tutor_moves = [
+    "COVET",
+    "DRAGONPULSE",
+    "GASTROACID",
+    "GUNKSHOT",
+    "HELPINGHAND",
+    "IRONTAIL",
+    "MIMIC",
+    "SIGNALBEAM",
+    "SNATCH",
+    "SNORE",
+    "UPROAR",
+]
+compatible_egg_groups = [
+    "Undiscovered",
+]
 steps_to_hatch = 30720
 height = 0.6
 weight = 1.8
@@ -20,72 +76,9 @@ pokedex_entry = "An Ultra Beast that lives in a different world, it cackles wild
 battler_player_y = 27
 battler_enemy_y = 22
 battler_altitude = 0
-form_names = []
-dex_number = 803
-internal_name = "POIPOLE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "DRAGONPULSE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "PECK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HELPINGHAND"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ACID"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "FURYATTACK"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "VENOSHOCK"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "CHARM"
-
-[[raw_level_up_moves]]
-at_level = 23
-name = "VENOMDRENCH"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "NASTYPLOT"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "POISONJAB"
-
-[[raw_level_up_moves]]
-at_level = 41
-name = "TOXIC"
-
-[[raw_level_up_moves]]
-at_level = 47
-name = "FELLSTINGER"
-
-[[raw_level_up_moves]]
-at_level = 57
-name = "DRAGONPULSE"
-
-[[evolutions]]
-into_name = "NAGANADEL"
-condition = "HasMove"
-parameter = "DRAGONPULSE"
-
-
+evolutions = [
+    { into_name = "NAGANADEL", condition = "HasMove", parameter = "DRAGONPULSE" },
+]
 
 [base_stats]
 hp = 67
@@ -102,5 +95,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 1
-
-[wild_items]

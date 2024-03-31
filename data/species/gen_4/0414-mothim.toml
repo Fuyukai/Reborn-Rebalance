@@ -1,3 +1,4 @@
+dex_number = 414
 name = "Mothim"
 primary_type = "BUG"
 secondary_type = "FLYING"
@@ -6,11 +7,93 @@ growth_rate = "Medium"
 exp_yield = 148
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["SWARM", "TINTEDLENS"]
-raw_egg_moves = []
-raw_tms = ["TOXIC", "FLASH", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ENERGYBALL", "ACROBATICS", "GIGAIMPACT", "STRUGGLEBUG", "PSYCHUP", "INFESTATION", "DREAMEATER", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "AIRSLASH", "ENDURE", "BUGBUZZ", "SWIFT", "HURRICANE"]
-raw_tutor_moves = ["AIRCUTTER", "BUGBITE", "DEFOG", "ELECTROWEB", "GIGADRAIN", "MUDSLAP", "OMINOUSWIND", "SIGNALBEAM", "SKILLSWAP", "SNORE", "STRINGSHOT", "TAILWIND", "TWISTER", "MIMIC"]
-compatible_egg_groups = ["Bug"]
+raw_abilities = [
+    "SWARM",
+    "TINTEDLENS",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 1, name = "HIDDENPOWER" },
+    { at_level = 1, name = "STRINGSHOT" },
+    { at_level = 1, name = "PROTECT" },
+    { at_level = 1, name = "BUGBITE" },
+    { at_level = 1, name = "ELECTROWEB" },
+    { at_level = 1, name = "STRUGGLEBUG" },
+    { at_level = 25, name = "AIRCUTTER" },
+    { at_level = 27, name = "OMINOUSWIND" },
+    { at_level = 29, name = "LUNGE" },
+    { at_level = 32, name = "PSYBEAM" },
+    { at_level = 35, name = "GROWTH" },
+    { at_level = 38, name = "TAILWIND" },
+    { at_level = 41, name = "BUGBUZZ" },
+    { at_level = 44, name = "PSYCHIC" },
+    { at_level = 48, name = "CAPTIVATE" },
+    { at_level = 52, name = "ENDEAVOR" },
+    { at_level = 56, name = "QUIVERDANCE" },
+    { at_level = 60, name = "HURRICANE" },
+]
+raw_tms = [
+    "TOXIC",
+    "FLASH",
+    "VENOSHOCK",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "ROOST",
+    "ROOST",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "ENERGYBALL",
+    "ACROBATICS",
+    "GIGAIMPACT",
+    "STRUGGLEBUG",
+    "PSYCHUP",
+    "INFESTATION",
+    "DREAMEATER",
+    "SWAGGER",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "AIRSLASH",
+    "HURRICANE",
+    "ENDURE",
+    "BUGBUZZ",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AIRCUTTER",
+    "BUGBITE",
+    "DEFOG",
+    "ELECTROWEB",
+    "GIGADRAIN",
+    "MIMIC",
+    "MUDSLAP",
+    "OMINOUSWIND",
+    "SIGNALBEAM",
+    "SKILLSWAP",
+    "SNORE",
+    "STRINGSHOT",
+    "TAILWIND",
+    "TWISTER",
+]
+compatible_egg_groups = [
+    "Bug",
+]
 steps_to_hatch = 4080
 height = 0.9
 weight = 23.3
@@ -20,86 +103,6 @@ pokedex_entry = "It loves the honey of flowers and steals honey collected by Com
 battler_player_y = 23
 battler_enemy_y = 20
 battler_altitude = 14
-evolutions = []
-form_names = []
-dex_number = 414
-internal_name = "MOTHIM"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HIDDENPOWER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "STRINGSHOT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "PROTECT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BUGBITE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ELECTROWEB"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "STRUGGLEBUG"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "AIRCUTTER"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "OMINOUSWIND"
-
-[[raw_level_up_moves]]
-at_level = 29
-name = "LUNGE"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "PSYBEAM"
-
-[[raw_level_up_moves]]
-at_level = 35
-name = "GROWTH"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "TAILWIND"
-
-[[raw_level_up_moves]]
-at_level = 41
-name = "BUGBUZZ"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "PSYCHIC"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "CAPTIVATE"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "ENDEAVOR"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "QUIVERDANCE"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "HURRICANE"
 
 [base_stats]
 hp = 70

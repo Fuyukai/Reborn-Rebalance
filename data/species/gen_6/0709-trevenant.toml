@@ -1,3 +1,4 @@
+dex_number = 709
 name = "Trevenant"
 primary_type = "GHOST"
 secondary_type = "GRASS"
@@ -6,11 +7,111 @@ growth_rate = "Medium"
 exp_yield = 166
 catch_rate = 150
 caught_happiness = 70
-raw_abilities = ["NATURALCURE", "GRASSYSURGE", "HARVEST"]
-raw_egg_moves = []
-raw_tms = ["CUT", "CALMMIND", "STRENGTH", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "EARTHQUAKE", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "FOCUSBLAST", "ENERGYBALL", "BRUTALSWING", "WILLOWISP", "SHADOWCLAW", "GIGAIMPACT", "BULLDOZE", "ROCKSLIDE", "XSCISSOR", "POISONJAB", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "NATUREPOWER", "DARKPULSE", "POWERUPPUNCH", "CONFIDE", "MAGICALLEAF", "DIG", "IMPRISON", "HEX", "PHANTOMFORCE", "LEAFSTORM", "ENDURE", "VENOMDRENCH"]
-raw_tutor_moves = ["ALLYSWITCH", "BLOCK", "DRAINPUNCH", "FOULPLAY", "GIGADRAIN", "MAGICCOAT", "PAINSPLIT", "ROLEPLAY", "SEEDBOMB", "SKILLSWAP", "SNORE", "SPITE", "SUCKERPUNCH", "TELEKINESIS", "TRICK", "WORRYSEED", "GRASSYGLIDE", "SKITTERSMACK", "POLTERGEIST", "MIMIC"]
-compatible_egg_groups = ["Grass", "Amorphous"]
+raw_abilities = [
+    "NATURALCURE",
+    "GRASSYSURGE",
+    "HARVEST",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "SHADOWCLAW" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 1, name = "CONFUSERAY" },
+    { at_level = 1, name = "ASTONISH" },
+    { at_level = 1, name = "GROWTH" },
+    { at_level = 1, name = "CURSE" },
+    { at_level = 4, name = "FEINTATTACK" },
+    { at_level = 8, name = "INGRAIN" },
+    { at_level = 12, name = "HEX" },
+    { at_level = 24, name = "GROWTH" },
+    { at_level = 28, name = "HORNLEECH" },
+    { at_level = 32, name = "WILLOWISP" },
+    { at_level = 36, name = "PHANTOMFORCE" },
+    { at_level = 40, name = "LEECHSEED" },
+    { at_level = 42, name = "DISABLE" },
+    { at_level = 44, name = "WOODHAMMER" },
+    { at_level = 48, name = "DESTINYBOND" },
+    { at_level = 52, name = "FORESTSCURSE" },
+]
+raw_tms = [
+    "CUT",
+    "CALMMIND",
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "PROTECT",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "EARTHQUAKE",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "REFLECT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "FOCUSBLAST",
+    "ENERGYBALL",
+    "BRUTALSWING",
+    "WILLOWISP",
+    "SHADOWCLAW",
+    "GIGAIMPACT",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "XSCISSOR",
+    "POISONJAB",
+    "DREAMEATER",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "TRICKROOM",
+    "SECRETPOWER",
+    "NATUREPOWER",
+    "DARKPULSE",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MAGICALLEAF",
+    "DIG",
+    "IMPRISON",
+    "HEX",
+    "PHANTOMFORCE",
+    "LEAFSTORM",
+    "ENDURE",
+    "VENOMDRENCH",
+]
+raw_tutor_moves = [
+    "ALLYSWITCH",
+    "BLOCK",
+    "DRAINPUNCH",
+    "FOULPLAY",
+    "GIGADRAIN",
+    "GRASSYGLIDE",
+    "MAGICCOAT",
+    "MIMIC",
+    "PAINSPLIT",
+    "POLTERGEIST",
+    "ROLEPLAY",
+    "SEEDBOMB",
+    "SKILLSWAP",
+    "SKITTERSMACK",
+    "SNORE",
+    "SPITE",
+    "SUCKERPUNCH",
+    "TELEKINESIS",
+    "TRICK",
+    "WORRYSEED",
+]
+compatible_egg_groups = [
+    "Grass",
+    "Amorphous",
+]
 steps_to_hatch = 5120
 height = 1.5
 weight = 71.0
@@ -20,82 +121,6 @@ pokedex_entry = "It can control trees at will. It will trap people who harm the 
 battler_player_y = 16
 battler_enemy_y = 15
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 709
-internal_name = "TREVENANT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SHADOWCLAW"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "CONFUSERAY"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ASTONISH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWTH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "CURSE"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "FEINTATTACK"
-
-[[raw_level_up_moves]]
-at_level = 8
-name = "INGRAIN"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "HEX"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "GROWTH"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "HORNLEECH"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "WILLOWISP"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "PHANTOMFORCE"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "LEECHSEED"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "DISABLE"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "WOODHAMMER"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "DESTINYBOND"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "FORESTSCURSE"
 
 [base_stats]
 hp = 85
@@ -112,5 +137,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

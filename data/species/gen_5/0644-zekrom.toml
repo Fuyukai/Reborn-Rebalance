@@ -1,3 +1,4 @@
+dex_number = 644
 name = "Zekrom"
 primary_type = "DRAGON"
 secondary_type = "ELECTRIC"
@@ -6,11 +7,113 @@ growth_rate = "Slow"
 exp_yield = 306
 catch_rate = 3
 caught_happiness = 0
-raw_abilities = ["TERAVOLT"]
-raw_egg_moves = []
-raw_tms = ["CUT", "DRAGONCLAW", "FLY", "STRENGTH", "TOXIC", "ROCKSMASH", "FLASH", "HIDDENPOWER", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "ROOST", "ROOST", "SAFEGUARD", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "ROCKTOMB", "FACADE", "REST", "ROUND", "ECHOEDVOICE", "STEELWING", "FOCUSBLAST", "FLING", "CHARGEBEAM", "BRUTALSWING", "SHADOWCLAW", "PAYBACK", "GIGAIMPACT", "STONEEDGE", "VOLTSWITCH", "THUNDERWAVE", "ROCKSLIDE", "DRAGONTAIL", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "FLASHCANNON", "WILDCHARGE", "SECRETPOWER", "CONFIDE", "IMPRISON", "WEATHERBALL", "THUNDERFANG", "CRUNCH", "BREAKINGSWIPE", "ENDURE", "DRAGONDANCE", "ELECTROBALL", "BODYPRESS", "SWIFT", "EARTHQUAKE"]
-raw_tutor_moves = ["ANCIENTPOWER", "DEFOG", "DRACOMETEOR", "DRAGONPULSE", "EARTHPOWER", "HELPINGHAND", "HYPERVOICE", "LASERFOCUS", "MAGNETRISE", "OUTRAGE", "SHOCKWAVE", "SIGNALBEAM", "SNORE", "TAILWIND", "THUNDERPUNCH", "ZENHEADBUTT", "RISINGVOLTAGE", "DUALWINGBEAT", "SCALESHOT", "MIMIC"]
-compatible_egg_groups = ["Undiscovered"]
+raw_abilities = [
+    "TERAVOLT",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "ANCIENTPOWER" },
+    { at_level = 1, name = "BREAKINGSWIPE" },
+    { at_level = 1, name = "DRAGONDANCE" },
+    { at_level = 1, name = "THUNDERFANG" },
+    { at_level = 8, name = "SLASH" },
+    { at_level = 12, name = "TAILWIND" },
+    { at_level = 16, name = "CRUNCH" },
+    { at_level = 22, name = "ZENHEADBUTT" },
+    { at_level = 26, name = "DRAGONCLAW" },
+    { at_level = 30, name = "THUNDERBOLT" },
+    { at_level = 34, name = "THUNDER" },
+    { at_level = 38, name = "HYPERVOICE" },
+    { at_level = 42, name = "FUSIONBOLT" },
+    { at_level = 46, name = "IMPRISON" },
+    { at_level = 50, name = "OUTRAGE" },
+    { at_level = 88, name = "BOLTSTRIKE" },
+]
+raw_tms = [
+    "CUT",
+    "DRAGONCLAW",
+    "FLY",
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "FLASH",
+    "HIDDENPOWER",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "ROOST",
+    "ROOST",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "THUNDERBOLT",
+    "THUNDER",
+    "EARTHQUAKE",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "REFLECT",
+    "ROCKTOMB",
+    "FACADE",
+    "REST",
+    "ROUND",
+    "ECHOEDVOICE",
+    "STEELWING",
+    "FOCUSBLAST",
+    "FLING",
+    "CHARGEBEAM",
+    "BRUTALSWING",
+    "SHADOWCLAW",
+    "PAYBACK",
+    "GIGAIMPACT",
+    "STONEEDGE",
+    "VOLTSWITCH",
+    "THUNDERWAVE",
+    "ROCKSLIDE",
+    "DRAGONTAIL",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "FLASHCANNON",
+    "WILDCHARGE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "IMPRISON",
+    "WEATHERBALL",
+    "THUNDERFANG",
+    "CRUNCH",
+    "BREAKINGSWIPE",
+    "ENDURE",
+    "DRAGONDANCE",
+    "ELECTROBALL",
+    "BODYPRESS",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "ANCIENTPOWER",
+    "DEFOG",
+    "DRACOMETEOR",
+    "DRAGONPULSE",
+    "DUALWINGBEAT",
+    "EARTHPOWER",
+    "HELPINGHAND",
+    "HYPERVOICE",
+    "LASERFOCUS",
+    "MAGNETRISE",
+    "MIMIC",
+    "OUTRAGE",
+    "RISINGVOLTAGE",
+    "SCALESHOT",
+    "SHOCKWAVE",
+    "SIGNALBEAM",
+    "SNORE",
+    "TAILWIND",
+    "THUNDERPUNCH",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Undiscovered",
+]
 steps_to_hatch = 30720
 height = 2.9
 weight = 345.0
@@ -20,74 +123,6 @@ pokedex_entry = "This Pokémon appears in legends. In its tail, it has a giant g
 battler_player_y = 4
 battler_enemy_y = 10
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 644
-internal_name = "ZEKROM"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ANCIENTPOWER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BREAKINGSWIPE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "DRAGONDANCE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "THUNDERFANG"
-
-[[raw_level_up_moves]]
-at_level = 8
-name = "SLASH"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "TAILWIND"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "CRUNCH"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "ZENHEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "DRAGONCLAW"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "THUNDERBOLT"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "THUNDER"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "HYPERVOICE"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "FUSIONBOLT"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "IMPRISON"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "OUTRAGE"
-
-[[raw_level_up_moves]]
-at_level = 88
-name = "BOLTSTRIKE"
 
 [base_stats]
 hp = 100
@@ -104,5 +139,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

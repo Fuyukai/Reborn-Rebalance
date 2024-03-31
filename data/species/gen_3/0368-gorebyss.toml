@@ -1,3 +1,4 @@
+dex_number = 368
 name = "Gorebyss"
 primary_type = "WATER"
 secondary_type = "WATER"
@@ -6,11 +7,90 @@ growth_rate = "Erratic"
 exp_yield = 170
 catch_rate = 60
 caught_happiness = 70
-raw_abilities = ["SWIFTSWIM", "HYDRATION"]
-raw_egg_moves = []
-raw_tms = ["SURF", "WATERFALL", "TOXIC", "DIVE", "HAIL", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "ROUND", "SCALD", "GIGAIMPACT", "PSYCHUP", "INFESTATION", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "WHIRLPOOL", "BRINE", "DRAININGKISS", "BODYSLAM", "HYDROPUMP", "AGILITY", "AMNESIA", "ENDURE", "BATONPASS", "MUDDYWATER", "SWIFT"]
-raw_tutor_moves = ["AQUATAIL", "BIND", "BOUNCE", "ICYWIND", "MUDSLAP", "SIGNALBEAM", "SNORE", "WATERPULSE", "MIMIC", "WAVECRASH"]
-compatible_egg_groups = ["Water1"]
+raw_abilities = [
+    "SWIFTSWIM",
+    "HYDRATION",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "CONFUSION" },
+    { at_level = 1, name = "SCREECH" },
+    { at_level = 1, name = "WATERGUN" },
+    { at_level = 4, name = "WHIRLPOOL" },
+    { at_level = 7, name = "REFRESH" },
+    { at_level = 10, name = "AGILITY" },
+    { at_level = 13, name = "CONFUSERAY" },
+    { at_level = 16, name = "WATERPULSE" },
+    { at_level = 20, name = "LOVELYKISS" },
+    { at_level = 24, name = "BRINE" },
+    { at_level = 28, name = "BOUNCE" },
+    { at_level = 32, name = "COIL" },
+    { at_level = 36, name = "DRAININGKISS" },
+    { at_level = 40, name = "CAPTIVATE" },
+    { at_level = 44, name = "AQUATAIL" },
+    { at_level = 48, name = "MUDDYWATER" },
+    { at_level = 52, name = "SHELLSMASH" },
+    { at_level = 56, name = "RAINDANCE" },
+    { at_level = 60, name = "BATONPASS" },
+    { at_level = 64, name = "HYDROPUMP" },
+]
+raw_tms = [
+    "SURF",
+    "WATERFALL",
+    "TOXIC",
+    "DIVE",
+    "HAIL",
+    "HIDDENPOWER",
+    "ICEBEAM",
+    "BLIZZARD",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "SCALD",
+    "GIGAIMPACT",
+    "PSYCHUP",
+    "INFESTATION",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "WHIRLPOOL",
+    "BRINE",
+    "DRAININGKISS",
+    "BODYSLAM",
+    "HYDROPUMP",
+    "AGILITY",
+    "AMNESIA",
+    "ENDURE",
+    "BATONPASS",
+    "MUDDYWATER",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AQUATAIL",
+    "BIND",
+    "BOUNCE",
+    "ICYWIND",
+    "MIMIC",
+    "MUDSLAP",
+    "SIGNALBEAM",
+    "SNORE",
+    "WATERPULSE",
+    "WAVECRASH",
+]
+compatible_egg_groups = [
+    "Water1",
+]
 steps_to_hatch = 5355
 height = 1.8
 weight = 22.6
@@ -20,91 +100,7 @@ pokedex_entry = "A Gorebyss siphons the body fluids of prey through its thin, tu
 battler_player_y = 20
 battler_enemy_y = 12
 battler_altitude = 10
-evolutions = []
-form_names = []
-dex_number = 368
-internal_name = "GOREBYSS"
 habitat = "Sea"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "CONFUSION"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SCREECH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WATERGUN"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "WHIRLPOOL"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "REFRESH"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "AGILITY"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "CONFUSERAY"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "WATERPULSE"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "LOVELYKISS"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "BRINE"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "BOUNCE"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "COIL"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "DRAININGKISS"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "CAPTIVATE"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "AQUATAIL"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "MUDDYWATER"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "SHELLSMASH"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "RAINDANCE"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "BATONPASS"
-
-[[raw_level_up_moves]]
-at_level = 64
-name = "HYDROPUMP"
 
 [base_stats]
 hp = 55

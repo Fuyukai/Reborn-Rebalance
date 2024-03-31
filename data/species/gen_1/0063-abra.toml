@@ -1,3 +1,4 @@
+dex_number = 63
 name = "Abra"
 primary_type = "PSYCHIC"
 secondary_type = "PSYCHIC"
@@ -6,11 +7,96 @@ growth_rate = "Parabolic"
 exp_yield = 62
 catch_rate = 200
 caught_happiness = 70
-raw_abilities = ["SYNCHRONIZE", "INNERFOCUS"]
-raw_egg_moves = ["ALLYSWITCH", "BARRIER", "ENCORE", "FIREPUNCH", "GUARDSPLIT", "GUARDSWAP", "ICEPUNCH", "KNOCKOFF", "POWERTRICK", "PSYCHICTERRAIN", "PSYCHOSHIFT", "SKILLSWAP", "THUNDERPUNCH"]
-raw_tms = ["PSYSHOCK", "CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "TAUNT", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "TORMENT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ENERGYBALL", "FLING", "CHARGEBEAM", "EMBARGO", "THUNDERWAVE", "PSYCHUP", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "DAZZLINGGLEAM", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "POWERSWAP", "GUARDSWAP", "SPEEDSWAP", "PSYCHICTERRAIN", "BODYSLAM", "METRONOME", "TRIATTACK", "ENDURE", "ENCORE"]
-raw_tutor_moves = ["ALLYSWITCH", "DRAINPUNCH", "FIREPUNCH", "FOCUSPUNCH", "FOULPLAY", "GRAVITY", "HEADBUTT", "ICEPUNCH", "IRONTAIL", "KNOCKOFF", "MAGICROOM", "RECYCLE", "ROLEPLAY", "SHOCKWAVE", "SIGNALBEAM", "SKILLSWAP", "SNATCH", "SNORE", "TELEKINESIS", "THUNDERPUNCH", "TRICK", "WONDERROOM", "ZENHEADBUTT", "MYSTICALPOWER", "MIMIC"]
-compatible_egg_groups = ["Humanlike"]
+raw_abilities = [
+    "SYNCHRONIZE",
+    "INNERFOCUS",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "TELEPORT" },
+    { at_level = 1, name = "HIDDENPOWER" },
+    { at_level = 1, name = "KINESIS" },
+]
+raw_tms = [
+    "PSYSHOCK",
+    "CALMMIND",
+    "TOXIC",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "TAUNT",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "REFLECT",
+    "TORMENT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "ENERGYBALL",
+    "FLING",
+    "CHARGEBEAM",
+    "EMBARGO",
+    "THUNDERWAVE",
+    "PSYCHUP",
+    "DREAMEATER",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "TRICKROOM",
+    "SECRETPOWER",
+    "DAZZLINGGLEAM",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "POWERSWAP",
+    "GUARDSWAP",
+    "SPEEDSWAP",
+    "PSYCHICTERRAIN",
+    "BODYSLAM",
+    "METRONOME",
+    "TRIATTACK",
+    "ENDURE",
+    "ENCORE",
+]
+raw_tutor_moves = [
+    "ALLYSWITCH",
+    "DRAINPUNCH",
+    "FIREPUNCH",
+    "FOCUSPUNCH",
+    "FOULPLAY",
+    "GRAVITY",
+    "HEADBUTT",
+    "ICEPUNCH",
+    "IRONTAIL",
+    "KNOCKOFF",
+    "MAGICROOM",
+    "MIMIC",
+    "MYSTICALPOWER",
+    "RECYCLE",
+    "ROLEPLAY",
+    "SHOCKWAVE",
+    "SIGNALBEAM",
+    "SKILLSWAP",
+    "SNATCH",
+    "SNORE",
+    "TELEKINESIS",
+    "THUNDERPUNCH",
+    "TRICK",
+    "WONDERROOM",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Humanlike",
+]
 steps_to_hatch = 5355
 height = 0.9
 weight = 19.5
@@ -20,28 +106,26 @@ pokedex_entry = "A Pokémon that sleeps 18 hours a day. Observation revealed tha
 battler_player_y = 27
 battler_enemy_y = 20
 battler_altitude = 0
-form_names = []
-dex_number = 63
-internal_name = "ABRA"
 raw_hidden_ability = "MAGICGUARD"
+raw_egg_moves = [
+    "ALLYSWITCH",
+    "BARRIER",
+    "ENCORE",
+    "FIREPUNCH",
+    "GUARDSPLIT",
+    "GUARDSWAP",
+    "ICEPUNCH",
+    "KNOCKOFF",
+    "POWERTRICK",
+    "PSYCHICTERRAIN",
+    "PSYCHOSHIFT",
+    "SKILLSWAP",
+    "THUNDERPUNCH",
+]
 habitat = "Urban"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TELEPORT"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HIDDENPOWER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "KINESIS"
-
-[[evolutions]]
-into_name = "KADABRA"
-condition = "Level"
-parameter = "16"
+evolutions = [
+    { into_name = "KADABRA", condition = "Level", parameter = "16" },
+]
 
 [base_stats]
 hp = 25

@@ -1,3 +1,4 @@
+dex_number = 463
 name = "Lickilicky"
 primary_type = "NORMAL"
 secondary_type = "NORMAL"
@@ -6,11 +7,130 @@ growth_rate = "Medium"
 exp_yield = 180
 catch_rate = 30
 caught_happiness = 70
-raw_abilities = ["OWNTEMPO", "GLUTTONY", "CLOUDNINE"]
-raw_egg_moves = []
-raw_tms = ["WORKUP", "CUT", "SURF", "STRENGTH", "TOXIC", "ROCKSMASH", "ROCKCLIMB", "HIDDENPOWER", "SUNNYDAY", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "PROTECT", "RAINDANCE", "FRUSTRATION", "SOLARBEAM", "THUNDERBOLT", "THUNDER", "EARTHQUAKE", "RETURN", "SHADOWBALL", "BRICKBREAK", "DOUBLETEAM", "FLAMETHROWER", "SANDSTORM", "FIREBLAST", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "FOCUSBLAST", "FLING", "BRUTALSWING", "EXPLOSION", "GIGAIMPACT", "GYROBALL", "SWORDSDANCE", "PSYCHUP", "BULLDOZE", "ROCKSLIDE", "DRAGONTAIL", "DREAMEATER", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "POWERUPPUNCH", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "DIG", "SCREECH", "SELFDESTRUCT", "WHIRLPOOL", "HYDROPUMP", "POWERWHIP", "AMNESIA", "ENDURE", "MUDDYWATER", "BODYPRESS", "RETALIATE"]
-raw_tutor_moves = ["AQUATAIL", "BIND", "BLOCK", "FIREPUNCH", "FOCUSPUNCH", "HEADBUTT", "HELPINGHAND", "ICEPUNCH", "ICYWIND", "IRONTAIL", "KNOCKOFF", "MUDSLAP", "ROLLOUT", "SHOCKWAVE", "SNORE", "STOMPINGTANTRUM", "THUNDERPUNCH", "WATERPULSE", "ZENHEADBUTT", "TERRAINPULSE", "STEELROLLER", "ICEBALL", "MIMIC"]
-compatible_egg_groups = ["Monster"]
+raw_abilities = [
+    "OWNTEMPO",
+    "GLUTTONY",
+    "CLOUDNINE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "FOCUSPUNCH" },
+    { at_level = 1, name = "DEFENSECURL" },
+    { at_level = 1, name = "LICK" },
+    { at_level = 1, name = "WRAP" },
+    { at_level = 4, name = "AMNESIA" },
+    { at_level = 7, name = "REFRESH" },
+    { at_level = 10, name = "SCREECH" },
+    { at_level = 13, name = "MEFIRST" },
+    { at_level = 16, name = "CURSE" },
+    { at_level = 19, name = "STOMP" },
+    { at_level = 22, name = "HELPINGHAND" },
+    { at_level = 25, name = "DISABLE" },
+    { at_level = 28, name = "SCREECH" },
+    { at_level = 31, name = "CHIPAWAY" },
+    { at_level = 34, name = "MUDDYWATER" },
+    { at_level = 37, name = "ZENHEADBUTT" },
+    { at_level = 40, name = "ROLLOUT" },
+    { at_level = 43, name = "MAGNITUDE" },
+    { at_level = 46, name = "BODYSLAM" },
+    { at_level = 50, name = "HAMMERARM" },
+    { at_level = 54, name = "POWERWHIP" },
+    { at_level = 58, name = "DOUBLEEDGE" },
+    { at_level = 62, name = "BELLYDRUM" },
+    { at_level = 66, name = "WRINGOUT" },
+]
+raw_tms = [
+    "WORKUP",
+    "CUT",
+    "SURF",
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "ROCKCLIMB",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "ICEBEAM",
+    "BLIZZARD",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "THUNDERBOLT",
+    "THUNDER",
+    "EARTHQUAKE",
+    "RETURN",
+    "SHADOWBALL",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "FLAMETHROWER",
+    "SANDSTORM",
+    "FIREBLAST",
+    "ROCKTOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "FOCUSBLAST",
+    "FLING",
+    "BRUTALSWING",
+    "EXPLOSION",
+    "GIGAIMPACT",
+    "GYROBALL",
+    "SWORDSDANCE",
+    "PSYCHUP",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "DRAGONTAIL",
+    "DREAMEATER",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "POWERUPPUNCH",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "DIG",
+    "SCREECH",
+    "SELFDESTRUCT",
+    "WHIRLPOOL",
+    "HYDROPUMP",
+    "POWERWHIP",
+    "AMNESIA",
+    "ENDURE",
+    "MUDDYWATER",
+    "BODYPRESS",
+    "RETALIATE",
+]
+raw_tutor_moves = [
+    "AQUATAIL",
+    "BIND",
+    "BLOCK",
+    "FIREPUNCH",
+    "FOCUSPUNCH",
+    "HEADBUTT",
+    "HELPINGHAND",
+    "ICEBALL",
+    "ICEPUNCH",
+    "ICYWIND",
+    "IRONTAIL",
+    "KNOCKOFF",
+    "MIMIC",
+    "MUDSLAP",
+    "ROLLOUT",
+    "SHOCKWAVE",
+    "SNORE",
+    "STEELROLLER",
+    "STOMPINGTANTRUM",
+    "TERRAINPULSE",
+    "THUNDERPUNCH",
+    "WATERPULSE",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Monster",
+]
 steps_to_hatch = 5355
 height = 1.7
 weight = 140.0
@@ -20,106 +140,6 @@ pokedex_entry = "It wraps things with its extensible tongue. Getting too close t
 battler_player_y = 15
 battler_enemy_y = 9
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 463
-internal_name = "LICKILICKY"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "FOCUSPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "DEFENSECURL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LICK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WRAP"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "AMNESIA"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "REFRESH"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "SCREECH"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "MEFIRST"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "CURSE"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "STOMP"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "HELPINGHAND"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "DISABLE"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "SCREECH"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "CHIPAWAY"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "MUDDYWATER"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "ZENHEADBUTT"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "ROLLOUT"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "MAGNITUDE"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "BODYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "HAMMERARM"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "POWERWHIP"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "DOUBLEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 62
-name = "BELLYDRUM"
-
-[[raw_level_up_moves]]
-at_level = 66
-name = "WRINGOUT"
 
 [base_stats]
 hp = 110

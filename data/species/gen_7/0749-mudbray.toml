@@ -1,3 +1,4 @@
+dex_number = 749
 name = "Mudbray"
 primary_type = "GROUND"
 secondary_type = "GROUND"
@@ -6,11 +7,76 @@ growth_rate = "Medium"
 exp_yield = 77
 catch_rate = 190
 caught_happiness = 70
-raw_abilities = ["OWNTEMPO", "STAMINA"]
-raw_egg_moves = ["BODYSLAM", "CLOSECOMBAT", "DOUBLEEDGE", "MAGNITUDE", "MUDBOMB"]
-raw_tms = ["ROAR", "TOXIC", "ROCKCLIMB", "HIDDENPOWER", "PROTECT", "FRUSTRATION", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "SANDSTORM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "LOWSWEEP", "ROUND", "PAYBACK", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "MEGAKICK", "SANDTOMB", "BODYSLAM", "CLOSECOMBAT", "ENDURE", "HEAVYSLAM", "HIGHHORSEPOWER"]
-raw_tutor_moves = ["EARTHPOWER", "ENDEAVOR", "IRONDEFENSE", "IRONHEAD", "LOWKICK", "MUDSLAP", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "SUPERPOWER", "MIMIC"]
-compatible_egg_groups = ["Field"]
+raw_abilities = [
+    "OWNTEMPO",
+    "STAMINA",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "MUDSLAP" },
+    { at_level = 3, name = "MUDSPORT" },
+    { at_level = 8, name = "ROTOTILLER" },
+    { at_level = 10, name = "BULLDOZE" },
+    { at_level = 15, name = "DOUBLEKICK" },
+    { at_level = 17, name = "STOMP" },
+    { at_level = 22, name = "BIDE" },
+    { at_level = 24, name = "HIGHHORSEPOWER" },
+    { at_level = 29, name = "IRONDEFENSE" },
+    { at_level = 31, name = "HEAVYSLAM" },
+    { at_level = 36, name = "COUNTER" },
+    { at_level = 38, name = "EARTHQUAKE" },
+    { at_level = 43, name = "MEGAKICK" },
+    { at_level = 45, name = "SUPERPOWER" },
+    { at_level = 50, name = "CLOSECOMBAT" },
+]
+raw_tms = [
+    "ROAR",
+    "TOXIC",
+    "ROCKCLIMB",
+    "HIDDENPOWER",
+    "PROTECT",
+    "FRUSTRATION",
+    "EARTHQUAKE",
+    "RETURN",
+    "DOUBLETEAM",
+    "SANDSTORM",
+    "ROCKTOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "LOWSWEEP",
+    "ROUND",
+    "PAYBACK",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "MEGAKICK",
+    "SANDTOMB",
+    "BODYSLAM",
+    "CLOSECOMBAT",
+    "ENDURE",
+    "HEAVYSLAM",
+    "HIGHHORSEPOWER",
+]
+raw_tutor_moves = [
+    "EARTHPOWER",
+    "ENDEAVOR",
+    "IRONDEFENSE",
+    "IRONHEAD",
+    "LOWKICK",
+    "MIMIC",
+    "MUDSLAP",
+    "SNORE",
+    "STEALTHROCK",
+    "STOMPINGTANTRUM",
+    "SUPERPOWER",
+]
+compatible_egg_groups = [
+    "Field",
+]
 steps_to_hatch = 5120
 height = 1.0
 weight = 110.0
@@ -20,77 +86,17 @@ pokedex_entry = "It has a stubborn, individualistic disposition. Eating dirt, ma
 battler_player_y = 21
 battler_enemy_y = 20
 battler_altitude = 0
-form_names = []
-dex_number = 749
-internal_name = "MUDBRAY"
 raw_hidden_ability = "INNERFOCUS"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "MUDSLAP"
-
-[[raw_level_up_moves]]
-at_level = 3
-name = "MUDSPORT"
-
-[[raw_level_up_moves]]
-at_level = 8
-name = "ROTOTILLER"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "BULLDOZE"
-
-[[raw_level_up_moves]]
-at_level = 15
-name = "DOUBLEKICK"
-
-[[raw_level_up_moves]]
-at_level = 17
-name = "STOMP"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "BIDE"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "HIGHHORSEPOWER"
-
-[[raw_level_up_moves]]
-at_level = 29
-name = "IRONDEFENSE"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "HEAVYSLAM"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "COUNTER"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "EARTHQUAKE"
-
-[[raw_level_up_moves]]
-at_level = 43
-name = "MEGAKICK"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "SUPERPOWER"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "CLOSECOMBAT"
-
-[[evolutions]]
-into_name = "MUDSDALE"
-condition = "Level"
-parameter = "30"
-
-
+raw_egg_moves = [
+    "BODYSLAM",
+    "CLOSECOMBAT",
+    "DOUBLEEDGE",
+    "MAGNITUDE",
+    "MUDBOMB",
+]
+evolutions = [
+    { into_name = "MUDSDALE", condition = "Level", parameter = "30" },
+]
 
 [base_stats]
 hp = 70

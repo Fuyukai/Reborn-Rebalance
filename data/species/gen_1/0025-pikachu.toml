@@ -1,3 +1,4 @@
+dex_number = 25
 name = "Pikachu"
 primary_type = "ELECTRIC"
 secondary_type = "ELECTRIC"
@@ -6,20 +7,118 @@ growth_rate = "Medium"
 exp_yield = 105
 catch_rate = 190
 caught_happiness = 70
-raw_abilities = ["STATIC", "LIGHTNINGROD"]
-raw_egg_moves = []
-raw_tms = [
-    "FLY",  # event fly pikachu lol.
-    "SURF", "CALMMIND", "STRENGTH", "TOXIC", "ROCKSMASH", "FLASH", "HIDDENPOWER", "LIGHTSCREEN",
-    "PROTECT", "RAINDANCE", "FRUSTRATION", "THUNDERBOLT", "THUNDER", "RETURN", "BRICKBREAK",
-    "DOUBLETEAM", "REFLECT", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE",
-    "FLING", "CHARGEBEAM", "VOLTSWITCH", "THUNDERWAVE", "GRASSKNOT", "SWAGGER", "SLEEPTALK",
-    "SUBSTITUTE", "WILDCHARGE", "SECRETPOWER", "CONFIDE", "MEGAPUNCH", "MEGAKICK", "PAYDAY",
-    "DIG", "CHARM", "DRAININGKISS", "ELECTRICTERRAIN", "BODYSLAM", "AGILITY", "REVERSAL",
-    "ENDURE", "ENCORE", "NASTYPLOT", "ELECTROBALL", "PLAYROUGH", "TRAILBLAZE", "SWIFT"
+raw_abilities = [
+    "STATIC",
+    "LIGHTNINGROD",
 ]
-raw_tutor_moves = ["COVET", "ELECTROWEB", "FOCUSPUNCH", "HEADBUTT", "HELPINGHAND", "IRONTAIL", "KNOCKOFF", "LASERFOCUS", "MAGNETRISE", "MUDSLAP", "ROLLOUT", "SHOCKWAVE", "SIGNALBEAM", "SNORE", "THUNDERPUNCH", "UPROAR", "VOLTTACKLE", "RISINGVOLTAGE", "EXTREMESPEED", "MIMIC", "CELEBRATE"]
-compatible_egg_groups = ["Field", "Fairy"]
+raw_level_up_moves = [
+    { at_level = 1, name = "SING" },
+    { at_level = 1, name = "YAWN" },
+    { at_level = 1, name = "QUICKATTACK" },
+    { at_level = 3, name = "CHARGE" },
+    { at_level = 6, name = "SING" },
+    { at_level = 8, name = "TICKLE" },
+    { at_level = 10, name = "DISARMINGVOICE" },
+    { at_level = 12, name = "SPARK" },
+    { at_level = 14, name = "WISH" },
+    { at_level = 16, name = "THUNDERWAVE" },
+    { at_level = 18, name = "DOUBLEKICK" },
+    { at_level = 21, name = "NUZZLE" },
+    { at_level = 24, name = "ELECTROBALL" },
+    { at_level = 27, name = "IRONTAIL" },
+    { at_level = 30, name = "AGILITY" },
+    { at_level = 34, name = "THUNDERBOLT" },
+    { at_level = 38, name = "TEETERDANCE" },
+    { at_level = 42, name = "PLAYROUGH" },
+    { at_level = 46, name = "DISCHARGE" },
+    { at_level = 50, name = "EXTREMESPEED" },
+    { at_level = 54, name = "HEARTSTAMP" },
+    { at_level = 58, name = "ICICLECRASH" },
+    { at_level = 58, name = "METEORMASH" },
+    { at_level = 58, name = "DRAININGKISS" },
+    { at_level = 62, name = "VOLTTACKLE" },
+]
+raw_tms = [
+    "FLY",
+    "SURF",
+    "CALMMIND",
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "FLASH",
+    "HIDDENPOWER",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "FRUSTRATION",
+    "THUNDERBOLT",
+    "THUNDER",
+    "RETURN",
+    "BRICKBREAK",
+    "DOUBLETEAM",
+    "REFLECT",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "ECHOEDVOICE",
+    "FLING",
+    "CHARGEBEAM",
+    "VOLTSWITCH",
+    "THUNDERWAVE",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "WILDCHARGE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "MEGAPUNCH",
+    "MEGAKICK",
+    "PAYDAY",
+    "DIG",
+    "CHARM",
+    "DRAININGKISS",
+    "ELECTRICTERRAIN",
+    "BODYSLAM",
+    "AGILITY",
+    "REVERSAL",
+    "ENDURE",
+    "ENCORE",
+    "NASTYPLOT",
+    "ELECTROBALL",
+    "PLAYROUGH",
+    "TRAILBLAZE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "CELEBRATE",
+    "COVET",
+    "ELECTROWEB",
+    "EXTREMESPEED",
+    "FOCUSPUNCH",
+    "HEADBUTT",
+    "HELPINGHAND",
+    "IRONTAIL",
+    "KNOCKOFF",
+    "LASERFOCUS",
+    "MAGNETRISE",
+    "MIMIC",
+    "MUDSLAP",
+    "RISINGVOLTAGE",
+    "ROLLOUT",
+    "SHOCKWAVE",
+    "SIGNALBEAM",
+    "SNORE",
+    "THUNDERPUNCH",
+    "UPROAR",
+    "VOLTTACKLE",
+]
+compatible_egg_groups = [
+    "Field",
+    "Fairy",
+]
 steps_to_hatch = 2805
 height = 0.4
 weight = 6.0
@@ -29,115 +128,10 @@ pokedex_entry = "Volt Tackle isn't exclusive to you anymore, you little shit!"
 battler_player_y = 27
 battler_enemy_y = 16
 battler_altitude = 0
-form_names = []
-dex_number = 25
-internal_name = "PIKACHU"
 habitat = "Forest"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SING"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "YAWN"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "QUICKATTACK"
-
-[[raw_level_up_moves]]
-at_level = 3
-name = "CHARGE"
-
-[[raw_level_up_moves]]
-at_level = 6
-name = "SING"
-
-[[raw_level_up_moves]]
-at_level = 8
-name = "TICKLE"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "DISARMINGVOICE"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "SPARK"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "WISH"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "THUNDERWAVE"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "DOUBLEKICK"
-
-[[raw_level_up_moves]]
-at_level = 21
-name = "NUZZLE"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "ELECTROBALL"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "IRONTAIL"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "AGILITY"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "THUNDERBOLT"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "TEETERDANCE"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "PLAYROUGH"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "DISCHARGE"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "EXTREMESPEED"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "HEARTSTAMP"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "ICICLECRASH"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "METEORMASH"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "DRAININGKISS"
-
-[[raw_level_up_moves]]
-at_level = 62
-name = "VOLTTACKLE"
-
-[[evolutions]]
-into_name = "RAICHU"
-condition = "Item"
-parameter = "THUNDERSTONE"
+evolutions = [
+    { into_name = "RAICHU", condition = "Item", parameter = "THUNDERSTONE" },
+]
 
 [base_stats]
 hp = 40

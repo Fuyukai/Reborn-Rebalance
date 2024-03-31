@@ -1,3 +1,4 @@
+dex_number = 871
 name = "Pincurchin"
 primary_type = "ELECTRIC"
 secondary_type = "ELECTRIC"
@@ -6,11 +7,74 @@ growth_rate = "Medium"
 exp_yield = 152
 catch_rate = 75
 caught_happiness = 50
-raw_abilities = ["LIGHTNINGROD", "ELECTRICSURGE"]
-raw_egg_moves = ["MEMENTO", "SUCKERPUNCH"]
-raw_tms = ["SURF", "FLASH", "VENOSHOCK", "HYPERBEAM", "PROTECT", "RAINDANCE", "THUNDERBOLT", "THUNDER", "FACADE", "REST", "ATTRACT", "ROUND", "SCALD", "PAYBACK", "THUNDERWAVE", "POISONJAB", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "PINMISSILE", "SELFDESTRUCT", "BRINE", "ASSURANCE", "HEX", "ELECTRICTERRAIN", "HYDROPUMP", "REVERSAL", "SPIKES", "ENDURE", "MUDDYWATER", "TOXICSPIKES", "VENOMDRENCH", "CHILLINGWATER"]
-raw_tutor_moves = ["LIQUIDATION", "SHOCKWAVE", "SNORE", "SUCKERPUNCH", "THROATCHOP", "RISINGVOLTAGE", "MIMIC"]
-compatible_egg_groups = ["Water1", "Amorphous"]
+raw_abilities = [
+    "LIGHTNINGROD",
+    "ELECTRICSURGE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "PECK" },
+    { at_level = 1, name = "THUNDERSHOCK" },
+    { at_level = 5, name = "WATERGUN" },
+    { at_level = 10, name = "CHARGE" },
+    { at_level = 15, name = "FURYATTACK" },
+    { at_level = 20, name = "SPARK" },
+    { at_level = 25, name = "BUBBLEBEAM" },
+    { at_level = 30, name = "RECOVER" },
+    { at_level = 35, name = "CURSE" },
+    { at_level = 40, name = "ELECTRICTERRAIN" },
+    { at_level = 45, name = "POISONJAB" },
+    { at_level = 50, name = "ZINGZAP" },
+    { at_level = 55, name = "ACUPRESSURE" },
+    { at_level = 60, name = "DISCHARGE" },
+]
+raw_tms = [
+    "SURF",
+    "FLASH",
+    "VENOSHOCK",
+    "HYPERBEAM",
+    "PROTECT",
+    "RAINDANCE",
+    "THUNDERBOLT",
+    "THUNDER",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "SCALD",
+    "PAYBACK",
+    "THUNDERWAVE",
+    "POISONJAB",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "PINMISSILE",
+    "SELFDESTRUCT",
+    "BRINE",
+    "ASSURANCE",
+    "HEX",
+    "ELECTRICTERRAIN",
+    "HYDROPUMP",
+    "REVERSAL",
+    "SPIKES",
+    "ENDURE",
+    "MUDDYWATER",
+    "TOXICSPIKES",
+    "VENOMDRENCH",
+    "CHILLINGWATER",
+]
+raw_tutor_moves = [
+    "LIQUIDATION",
+    "MIMIC",
+    "RISINGVOLTAGE",
+    "SHOCKWAVE",
+    "SNORE",
+    "SUCKERPUNCH",
+    "THROATCHOP",
+]
+compatible_egg_groups = [
+    "Water1",
+    "Amorphous",
+]
 steps_to_hatch = 5120
 height = 0.3
 weight = 1.0
@@ -20,67 +84,11 @@ pokedex_entry = "It stores electricity in each spine. Even if one gets broken of
 battler_player_y = 21
 battler_enemy_y = 26
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 871
-internal_name = "PINCURCHIN"
+raw_egg_moves = [
+    "MEMENTO",
+    "SUCKERPUNCH",
+]
 regional_numbers = 871
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "PECK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "THUNDERSHOCK"
-
-[[raw_level_up_moves]]
-at_level = 5
-name = "WATERGUN"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "CHARGE"
-
-[[raw_level_up_moves]]
-at_level = 15
-name = "FURYATTACK"
-
-[[raw_level_up_moves]]
-at_level = 20
-name = "SPARK"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "BUBBLEBEAM"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "RECOVER"
-
-[[raw_level_up_moves]]
-at_level = 35
-name = "CURSE"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "ELECTRICTERRAIN"
-
-[[raw_level_up_moves]]
-at_level = 45
-name = "POISONJAB"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "ZINGZAP"
-
-[[raw_level_up_moves]]
-at_level = 55
-name = "ACUPRESSURE"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "DISCHARGE"
 
 [base_stats]
 hp = 48
@@ -97,5 +105,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
-
-[wild_items]

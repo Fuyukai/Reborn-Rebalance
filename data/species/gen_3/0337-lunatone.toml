@@ -1,3 +1,4 @@
+dex_number = 337
 name = "Lunatone"
 primary_type = "ROCK"
 secondary_type = "PSYCHIC"
@@ -6,11 +7,120 @@ growth_rate = "Fast"
 exp_yield = 161
 catch_rate = 45
 caught_happiness = 70
-raw_abilities = ["LEVITATE"]
-raw_egg_moves = []
-raw_tms = ["PSYSHOCK", "CALMMIND", "TOXIC", "HAIL", "FLASH", "HIDDENPOWER", "ICEBEAM", "BLIZZARD", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "SMACKDOWN", "EARTHQUAKE", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "SANDSTORM", "ROCKTOMB", "FACADE", "REST", "ROUND", "CHARGEBEAM", "ACROBATICS", "EMBARGO", "EXPLOSION", "GIGAIMPACT", "ROCKPOLISH", "STONEEDGE", "GYROBALL", "PSYCHUP", "BULLDOZE", "ROCKSLIDE", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "CONFIDE", "SELFDESTRUCT", "WEATHERBALL", "SANDTOMB", "ROCKBLAST", "POWERSWAP", "PSYCHICTERRAIN", "BODYSLAM", "ENDURE", "BATONPASS", "FUTURESIGHT", "COSMICPOWER", "POWERGEM", "NASTYPLOT", "STOREDPOWER", "SWIFT"]
-raw_tutor_moves = ["ALLYSWITCH", "ANCIENTPOWER", "EARTHPOWER", "GRAVITY", "HELPINGHAND", "ICYWIND", "IRONHEAD", "LASERFOCUS", "MAGICCOAT", "MAGICROOM", "PAINSPLIT", "RECYCLE", "ROLLOUT", "SIGNALBEAM", "SKILLSWAP", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "TELEKINESIS", "ZENHEADBUTT", "METEORBEAM", "MIMIC"]
-compatible_egg_groups = ["Mineral"]
+raw_abilities = [
+    "LEVITATE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "HARDEN" },
+    { at_level = 1, name = "PSYWAVE" },
+    { at_level = 1, name = "ROCKTHROW" },
+    { at_level = 4, name = "CONFUSION" },
+    { at_level = 7, name = "ROCKTOMB" },
+    { at_level = 10, name = "WONDERROOM" },
+    { at_level = 14, name = "EMBARGO" },
+    { at_level = 18, name = "HELPINGHAND" },
+    { at_level = 22, name = "PAINSPLIT" },
+    { at_level = 26, name = "PSYCHIC" },
+    { at_level = 30, name = "HYPNOSIS" },
+    { at_level = 34, name = "NASTYPLOT" },
+    { at_level = 38, name = "COSMICPOWER" },
+    { at_level = 42, name = "MOONBLAST" },
+    { at_level = 46, name = "ALLYSWITCH" },
+    { at_level = 50, name = "MOONLIGHT" },
+    { at_level = 54, name = "STOREDPOWER" },
+    { at_level = 58, name = "PSYSHIELDBASH" },
+    { at_level = 62, name = "NIGHTDAZE" },
+    { at_level = 66, name = "LUNARDANCE" },
+]
+raw_tms = [
+    "PSYSHOCK",
+    "CALMMIND",
+    "TOXIC",
+    "HAIL",
+    "FLASH",
+    "HIDDENPOWER",
+    "ICEBEAM",
+    "BLIZZARD",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "SMACKDOWN",
+    "EARTHQUAKE",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "REFLECT",
+    "SANDSTORM",
+    "ROCKTOMB",
+    "FACADE",
+    "REST",
+    "ROUND",
+    "CHARGEBEAM",
+    "ACROBATICS",
+    "EMBARGO",
+    "EXPLOSION",
+    "GIGAIMPACT",
+    "ROCKPOLISH",
+    "STONEEDGE",
+    "GYROBALL",
+    "PSYCHUP",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "DREAMEATER",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "TRICKROOM",
+    "SECRETPOWER",
+    "CONFIDE",
+    "SELFDESTRUCT",
+    "WEATHERBALL",
+    "SANDTOMB",
+    "ROCKBLAST",
+    "POWERSWAP",
+    "PSYCHICTERRAIN",
+    "BODYSLAM",
+    "ENDURE",
+    "BATONPASS",
+    "FUTURESIGHT",
+    "COSMICPOWER",
+    "POWERGEM",
+    "NASTYPLOT",
+    "STOREDPOWER",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "ALLYSWITCH",
+    "ANCIENTPOWER",
+    "EARTHPOWER",
+    "GRAVITY",
+    "HELPINGHAND",
+    "ICYWIND",
+    "IRONHEAD",
+    "LASERFOCUS",
+    "MAGICCOAT",
+    "MAGICROOM",
+    "METEORBEAM",
+    "MIMIC",
+    "PAINSPLIT",
+    "RECYCLE",
+    "ROLLOUT",
+    "SIGNALBEAM",
+    "SKILLSWAP",
+    "SNORE",
+    "STEALTHROCK",
+    "STOMPINGTANTRUM",
+    "TELEKINESIS",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Mineral",
+]
 steps_to_hatch = 6630
 height = 1.0
 weight = 168.0
@@ -20,91 +130,7 @@ pokedex_entry = "It becomes very active on the night of a full moon. This Pokém
 battler_player_y = 25
 battler_enemy_y = 19
 battler_altitude = 14
-evolutions = []
-form_names = []
-dex_number = 337
-internal_name = "LUNATONE"
 habitat = "Cave"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HARDEN"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "PSYWAVE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ROCKTHROW"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "CONFUSION"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "ROCKTOMB"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "WONDERROOM"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "EMBARGO"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "HELPINGHAND"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "PAINSPLIT"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "PSYCHIC"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "HYPNOSIS"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "NASTYPLOT"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "COSMICPOWER"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "MOONBLAST"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "ALLYSWITCH"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "MOONLIGHT"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "STOREDPOWER"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "PSYSHIELDBASH"
-
-[[raw_level_up_moves]]
-at_level = 62
-name = "NIGHTDAZE"
-
-[[raw_level_up_moves]]
-at_level = 66
-name = "LUNARDANCE"
 
 [base_stats]
 hp = 90

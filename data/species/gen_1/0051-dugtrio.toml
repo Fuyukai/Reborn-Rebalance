@@ -1,3 +1,4 @@
+dex_number = 51
 name = "Dugtrio"
 primary_type = "GROUND"
 secondary_type = "GROUND"
@@ -6,18 +7,101 @@ growth_rate = "Medium"
 exp_yield = 142
 catch_rate = 50
 caught_happiness = 70
-raw_abilities = ["SANDFORCE", "ARENATRAP"]
-raw_egg_moves = []
-raw_tms = [
-    "WORKUP", "CUT", "TOXIC", "ROCKSMASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "PROTECT",
-    "FRUSTRATION", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "SLUDGEWAVE", "SLUDGEBOMB", "SANDSTORM",
-    "ROCKTOMB", "AERIALACE", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE",
-    "SHADOWCLAW", "GIGAIMPACT", "STONEEDGE", "BULLDOZE", "ROCKSLIDE", "SWAGGER", "SLEEPTALK",
-    "SUBSTITUTE", "FLASHCANNON", "SECRETPOWER", "CONFIDE", "DIG", "SCREECH", "BEATUP", "SANDTOMB",
-    "ASSURANCE", "BODYSLAM", "AGILITY", "TRIATTACK", "REVERSAL", "ENDURE", "HIGHHORSEPOWER",
+raw_abilities = [
+    "SANDFORCE",
+    "ARENATRAP",
 ]
-raw_tutor_moves = ["ALLYSWITCH", "ANCIENTPOWER", "EARTHPOWER", "IRONDEFENSE", "IRONHEAD", "MUDSLAP", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "SUCKERPUNCH", "UPROAR", "SCORCHINGSANDS", "STEELBEAM", "MIMIC"]
-compatible_egg_groups = ["Field"]
+raw_level_up_moves = [
+    { at_level = 0, name = "TRIATTACK" },
+    { at_level = 1, name = "ASTONISH" },
+    { at_level = 1, name = "GROWL" },
+    { at_level = 1, name = "MUDSLAP" },
+    { at_level = 1, name = "SCRATCH" },
+    { at_level = 4, name = "SANDATTACK" },
+    { at_level = 7, name = "MUDBOMB" },
+    { at_level = 10, name = "ANCIENTPOWER" },
+    { at_level = 13, name = "MAGNITUDE" },
+    { at_level = 10, name = "PURSUIT" },
+    { at_level = 19, name = "BULLDOZE" },
+    { at_level = 22, name = "ALLYSWITCH" },
+    { at_level = 25, name = "SUCKERPUNCH" },
+    { at_level = 29, name = "SCORCHINGSANDS" },
+    { at_level = 32, name = "REVERSAL" },
+    { at_level = 35, name = "NIGHTSLASH" },
+    { at_level = 38, name = "BEATUP" },
+    { at_level = 42, name = "DOUBLEEDGE" },
+    { at_level = 46, name = "HIGHHORSEPOWER" },
+    { at_level = 50, name = "MEMENTO" },
+    { at_level = 54, name = "FISSURE" },
+    { at_level = 58, name = "FINALGAMBIT" },
+    { at_level = 62, name = "SWORDSDANCE" },
+]
+raw_tms = [
+    "WORKUP",
+    "CUT",
+    "TOXIC",
+    "ROCKSMASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "PROTECT",
+    "FRUSTRATION",
+    "EARTHQUAKE",
+    "RETURN",
+    "DOUBLETEAM",
+    "SLUDGEWAVE",
+    "SLUDGEBOMB",
+    "SANDSTORM",
+    "ROCKTOMB",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "ECHOEDVOICE",
+    "SHADOWCLAW",
+    "GIGAIMPACT",
+    "STONEEDGE",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "FLASHCANNON",
+    "SECRETPOWER",
+    "CONFIDE",
+    "DIG",
+    "SCREECH",
+    "BEATUP",
+    "SANDTOMB",
+    "ASSURANCE",
+    "BODYSLAM",
+    "AGILITY",
+    "TRIATTACK",
+    "REVERSAL",
+    "ENDURE",
+    "HIGHHORSEPOWER",
+]
+raw_tutor_moves = [
+    "ALLYSWITCH",
+    "ANCIENTPOWER",
+    "EARTHPOWER",
+    "IRONDEFENSE",
+    "IRONHEAD",
+    "MIMIC",
+    "MUDSLAP",
+    "SCORCHINGSANDS",
+    "SNORE",
+    "STEALTHROCK",
+    "STEELBEAM",
+    "STOMPINGTANTRUM",
+    "SUCKERPUNCH",
+    "UPROAR",
+]
+compatible_egg_groups = [
+    "Field",
+]
 steps_to_hatch = 5355
 height = 0.7
 weight = 33.3
@@ -27,103 +111,11 @@ pokedex_entry = "Because the triplets originally split from one body, they think
 battler_player_y = 27
 battler_enemy_y = 21
 battler_altitude = 0
-evolutions = []
-form_names = ["Normal", "Alternate"]
-dex_number = 51
-internal_name = "DUGTRIO"
 habitat = "Cave"
-
-[[raw_level_up_moves]]
-at_level = 0
-name = "TRIATTACK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "ASTONISH"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "GROWL"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "MUDSLAP"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "SCRATCH"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "SANDATTACK"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "MUDBOMB"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "ANCIENTPOWER"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "MAGNITUDE"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "PURSUIT"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "BULLDOZE"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "ALLYSWITCH"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "SUCKERPUNCH"
-
-[[raw_level_up_moves]]
-at_level = 29
-name = "SCORCHINGSANDS"
-
-[[raw_level_up_moves]]
-at_level = 32
-name = "REVERSAL"
-
-[[raw_level_up_moves]]
-at_level = 35
-name = "NIGHTSLASH"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "BEATUP"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "DOUBLEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "HIGHHORSEPOWER"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "MEMENTO"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "FISSURE"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "FINALGAMBIT"
-
-[[raw_level_up_moves]]
-at_level = 62
-name = "SWORDSDANCE"
+form_names = [
+    "Normal",
+    "Alternate",
+]
 
 [base_stats]
 hp = 35

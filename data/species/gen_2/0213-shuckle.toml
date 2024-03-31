@@ -1,3 +1,4 @@
+dex_number = 213
 name = "Shuckle"
 primary_type = "BUG"
 secondary_type = "ROCK"
@@ -6,11 +7,101 @@ growth_rate = "Parabolic"
 exp_yield = 177
 catch_rate = 190
 caught_happiness = 70
-raw_abilities = ["STURDY", "GLUTTONY"]
-raw_egg_moves = ["ACID", "ACUPRESSURE", "FINALGAMBIT", "HELPINGHAND", "KNOCKOFF", "MUDSLAP", "ROCKBLAST", "SANDTOMB", "SWEETSCENT"]
-raw_tms = ["STRENGTH", "TOXIC", "ROCKSMASH", "FLASH", "VENOSHOCK", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "SAFEGUARD", "FRUSTRATION", "SMACKDOWN", "EARTHQUAKE", "RETURN", "DOUBLETEAM", "SLUDGEWAVE", "SLUDGEBOMB", "SANDSTORM", "ROCKTOMB", "FACADE", "REST", "ATTRACT", "ROUND", "ROCKPOLISH", "STONEEDGE", "GYROBALL", "STRUGGLEBUG", "BULLDOZE", "ROCKSLIDE", "INFESTATION", "SWAGGER", "SLEEPTALK", "SUBSTITUTE", "SECRETPOWER", "CONFIDE", "DIG", "SANDTOMB", "ROCKBLAST", "MUDSHOT", "BODYSLAM", "REVERSAL", "ENDURE", "ENCORE", "BUGBUZZ", "SHADOWBALL"]
-raw_tutor_moves = ["AFTERYOU", "ANCIENTPOWER", "BIND", "BUGBITE", "EARTHPOWER", "GASTROACID", "HEADBUTT", "HELPINGHAND", "IRONDEFENSE", "KNOCKOFF", "SNORE", "STEALTHROCK", "STRINGSHOT", "METEORBEAM", "SKITTERSMACK", "STEELROLLER", "MIMIC"]
-compatible_egg_groups = ["Bug"]
+raw_abilities = [
+    "STURDY",
+    "GLUTTONY",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "BIDE" },
+    { at_level = 1, name = "INFESTATION" },
+    { at_level = 1, name = "WITHDRAW" },
+    { at_level = 6, name = "ACID" },
+    { at_level = 9, name = "WRAP" },
+    { at_level = 12, name = "STRUGGLEBUG" },
+    { at_level = 15, name = "ROCKTHROW" },
+    { at_level = 18, name = "REST" },
+    { at_level = 21, name = "BUGBITE" },
+    { at_level = 24, name = "ROCKSLIDE" },
+    { at_level = 27, name = "POWERTRICK" },
+    { at_level = 30, name = "GASTROACID" },
+    { at_level = 33, name = "ROCKBLAST" },
+    { at_level = 36, name = "KNOCKOFF" },
+    { at_level = 39, name = "STEALTHROCK" },
+    { at_level = 42, name = "ACCELEROCK" },
+    { at_level = 46, name = "ACUPRESSURE" },
+    { at_level = 50, name = "STONEEDGE" },
+    { at_level = 54, name = "HELPINGHAND" },
+    { at_level = 58, name = "SHELLSMASH" },
+    { at_level = 62, name = "FINALGAMBIT" },
+]
+raw_tms = [
+    "STRENGTH",
+    "TOXIC",
+    "ROCKSMASH",
+    "FLASH",
+    "VENOSHOCK",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "PROTECT",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "SMACKDOWN",
+    "EARTHQUAKE",
+    "RETURN",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "SLUDGEWAVE",
+    "SLUDGEBOMB",
+    "SANDSTORM",
+    "ROCKTOMB",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "ROUND",
+    "ROCKPOLISH",
+    "STONEEDGE",
+    "GYROBALL",
+    "STRUGGLEBUG",
+    "BULLDOZE",
+    "ROCKSLIDE",
+    "INFESTATION",
+    "SWAGGER",
+    "SLEEPTALK",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "CONFIDE",
+    "DIG",
+    "SANDTOMB",
+    "ROCKBLAST",
+    "MUDSHOT",
+    "BODYSLAM",
+    "REVERSAL",
+    "ENDURE",
+    "ENCORE",
+    "BUGBUZZ",
+]
+raw_tutor_moves = [
+    "AFTERYOU",
+    "ANCIENTPOWER",
+    "BIND",
+    "BUGBITE",
+    "EARTHPOWER",
+    "GASTROACID",
+    "HEADBUTT",
+    "HELPINGHAND",
+    "IRONDEFENSE",
+    "KNOCKOFF",
+    "METEORBEAM",
+    "MIMIC",
+    "SKITTERSMACK",
+    "SNORE",
+    "STEALTHROCK",
+    "STEELROLLER",
+    "STRINGSHOT",
+]
+compatible_egg_groups = [
+    "Bug",
+]
 steps_to_hatch = 5355
 height = 0.6
 weight = 20.5
@@ -20,96 +111,19 @@ pokedex_entry = "A Shuckle hides under rocks, keeping its body inside its shell 
 battler_player_y = 27
 battler_enemy_y = 20
 battler_altitude = 0
-evolutions = []
-form_names = []
-dex_number = 213
-internal_name = "SHUCKLE"
 raw_hidden_ability = "CONTRARY"
+raw_egg_moves = [
+    "ACID",
+    "ACUPRESSURE",
+    "FINALGAMBIT",
+    "HELPINGHAND",
+    "KNOCKOFF",
+    "MUDSLAP",
+    "ROCKBLAST",
+    "SANDTOMB",
+    "SWEETSCENT",
+]
 habitat = "Mountain"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "BIDE"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "INFESTATION"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "WITHDRAW"
-
-[[raw_level_up_moves]]
-at_level = 6
-name = "ACID"
-
-[[raw_level_up_moves]]
-at_level = 9
-name = "WRAP"
-
-[[raw_level_up_moves]]
-at_level = 12
-name = "STRUGGLEBUG"
-
-[[raw_level_up_moves]]
-at_level = 15
-name = "ROCKTHROW"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "REST"
-
-[[raw_level_up_moves]]
-at_level = 21
-name = "BUGBITE"
-
-[[raw_level_up_moves]]
-at_level = 24
-name = "ROCKSLIDE"
-
-[[raw_level_up_moves]]
-at_level = 27
-name = "POWERTRICK"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "GASTROACID"
-
-[[raw_level_up_moves]]
-at_level = 33
-name = "ROCKBLAST"
-
-[[raw_level_up_moves]]
-at_level = 36
-name = "KNOCKOFF"
-
-[[raw_level_up_moves]]
-at_level = 39
-name = "STEALTHROCK"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "ACCELEROCK"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "ACUPRESSURE"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "STONEEDGE"
-
-[[raw_level_up_moves]]
-at_level = 54
-name = "HELPINGHAND"
-
-[[raw_level_up_moves]]
-at_level = 58
-name = "SHELLSMASH"
-
-[[raw_level_up_moves]]
-at_level = 62
-name = "FINALGAMBIT"
 
 [base_stats]
 hp = 20

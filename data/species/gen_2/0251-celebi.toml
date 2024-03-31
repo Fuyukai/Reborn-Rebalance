@@ -1,3 +1,4 @@
+dex_number = 251
 name = "Celebi"
 primary_type = "PSYCHIC"
 secondary_type = "GRASS"
@@ -6,11 +7,121 @@ growth_rate = "Parabolic"
 exp_yield = 270
 catch_rate = 45
 caught_happiness = 100
-raw_abilities = ["NATURALCURE"]
-raw_egg_moves = []
-raw_tms = ["CUT", "CALMMIND", "TOXIC", "FLASH", "HIDDENPOWER", "SUNNYDAY", "HYPERBEAM", "LIGHTSCREEN", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "SOLARBEAM", "RETURN", "PSYCHIC", "SHADOWBALL", "DOUBLETEAM", "REFLECT", "SANDSTORM", "AERIALACE", "FACADE", "REST", "ROUND", "ECHOEDVOICE", "ENERGYBALL", "FLING", "CHARGEBEAM", "GIGAIMPACT", "THUNDERWAVE", "SWORDSDANCE", "PSYCHUP", "DREAMEATER", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "TRICKROOM", "SECRETPOWER", "NATUREPOWER", "DAZZLINGGLEAM", "CONFIDE", "MAGICALLEAF", "SOLARBLADE", "IMPRISON", "WEATHERBALL", "PSYCHOCUT", "LEAFBLADE", "GRASSYTERRAIN", "PSYCHICTERRAIN", "LEAFSTORM", "METRONOME", "ENDURE", "BATONPASS", "FUTURESIGHT", "AURASPHERE", "NASTYPLOT", "POLLENPUFF", "SWIFT"]
-raw_tutor_moves = ["ALLYSWITCH", "ANCIENTPOWER", "EARTHPOWER", "GIGADRAIN", "HEALBELL", "HELPINGHAND", "LASERFOCUS", "LASTRESORT", "MAGICCOAT", "MAGICROOM", "MUDSLAP", "SEEDBOMB", "SHOCKWAVE", "SIGNALBEAM", "SKILLSWAP", "SNORE", "STEALTHROCK", "SYNTHESIS", "TELEKINESIS", "TRICK", "UPROAR", "WATERPULSE", "WONDERROOM", "WORRYSEED", "ZENHEADBUTT", "GRASSYGLIDE", "DUALWINGBEAT", "EXPANDINGFORCE", "MIMIC"]
-compatible_egg_groups = ["Undiscovered"]
+raw_abilities = [
+    "NATURALCURE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "LEECHSEED" },
+    { at_level = 1, name = "RECOVER" },
+    { at_level = 1, name = "HEALBELL" },
+    { at_level = 6, name = "SAFEGUARD" },
+    { at_level = 10, name = "MAGICALLEAF" },
+    { at_level = 14, name = "ANCIENTPOWER" },
+    { at_level = 18, name = "BATONPASS" },
+    { at_level = 22, name = "NATURALGIFT" },
+    { at_level = 26, name = "PERISHSONG" },
+    { at_level = 30, name = "HEALINGWISH" },
+    { at_level = 34, name = "FUTURESIGHT" },
+    { at_level = 38, name = "NASTYPLOT" },
+    { at_level = 42, name = "PSYCHIC" },
+    { at_level = 46, name = "HEALBLOCK" },
+    { at_level = 50, name = "LEAFSTORM" },
+]
+raw_tms = [
+    "CUT",
+    "CALMMIND",
+    "TOXIC",
+    "FLASH",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "HYPERBEAM",
+    "LIGHTSCREEN",
+    "PROTECT",
+    "RAINDANCE",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "SOLARBEAM",
+    "RETURN",
+    "PSYCHIC",
+    "SHADOWBALL",
+    "DOUBLETEAM",
+    "REFLECT",
+    "SANDSTORM",
+    "AERIALACE",
+    "FACADE",
+    "REST",
+    "ROUND",
+    "ECHOEDVOICE",
+    "ENERGYBALL",
+    "FLING",
+    "CHARGEBEAM",
+    "GIGAIMPACT",
+    "THUNDERWAVE",
+    "SWORDSDANCE",
+    "PSYCHUP",
+    "DREAMEATER",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "TRICKROOM",
+    "SECRETPOWER",
+    "NATUREPOWER",
+    "DAZZLINGGLEAM",
+    "CONFIDE",
+    "MAGICALLEAF",
+    "SOLARBLADE",
+    "IMPRISON",
+    "WEATHERBALL",
+    "PSYCHOCUT",
+    "LEAFBLADE",
+    "GRASSYTERRAIN",
+    "PSYCHICTERRAIN",
+    "LEAFSTORM",
+    "METRONOME",
+    "ENDURE",
+    "BATONPASS",
+    "FUTURESIGHT",
+    "AURASPHERE",
+    "NASTYPLOT",
+    "POLLENPUFF",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "ALLYSWITCH",
+    "ANCIENTPOWER",
+    "DUALWINGBEAT",
+    "EARTHPOWER",
+    "EXPANDINGFORCE",
+    "GIGADRAIN",
+    "GRASSYGLIDE",
+    "HEALBELL",
+    "HELPINGHAND",
+    "LASERFOCUS",
+    "LASTRESORT",
+    "MAGICCOAT",
+    "MAGICROOM",
+    "MIMIC",
+    "MUDSLAP",
+    "SEEDBOMB",
+    "SHOCKWAVE",
+    "SIGNALBEAM",
+    "SKILLSWAP",
+    "SNORE",
+    "STEALTHROCK",
+    "SYNTHESIS",
+    "TELEKINESIS",
+    "TRICK",
+    "UPROAR",
+    "WATERPULSE",
+    "WONDERROOM",
+    "WORRYSEED",
+    "ZENHEADBUTT",
+]
+compatible_egg_groups = [
+    "Undiscovered",
+]
 steps_to_hatch = 30855
 height = 0.6
 weight = 5.0
@@ -20,71 +131,7 @@ pokedex_entry = "This Pokémon came from the future by crossing over time. It is
 battler_player_y = 29
 battler_enemy_y = 22
 battler_altitude = 13
-evolutions = []
-form_names = []
-dex_number = 251
-internal_name = "CELEBI"
 habitat = "Forest"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "LEECHSEED"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "RECOVER"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "HEALBELL"
-
-[[raw_level_up_moves]]
-at_level = 6
-name = "SAFEGUARD"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "MAGICALLEAF"
-
-[[raw_level_up_moves]]
-at_level = 14
-name = "ANCIENTPOWER"
-
-[[raw_level_up_moves]]
-at_level = 18
-name = "BATONPASS"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "NATURALGIFT"
-
-[[raw_level_up_moves]]
-at_level = 26
-name = "PERISHSONG"
-
-[[raw_level_up_moves]]
-at_level = 30
-name = "HEALINGWISH"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "FUTURESIGHT"
-
-[[raw_level_up_moves]]
-at_level = 38
-name = "NASTYPLOT"
-
-[[raw_level_up_moves]]
-at_level = 42
-name = "PSYCHIC"
-
-[[raw_level_up_moves]]
-at_level = 46
-name = "HEALBLOCK"
-
-[[raw_level_up_moves]]
-at_level = 50
-name = "LEAFSTORM"
 
 [base_stats]
 hp = 100

@@ -1,3 +1,4 @@
+dex_number = 572
 name = "Minccino"
 primary_type = "NORMAL"
 secondary_type = "NORMAL"
@@ -6,11 +7,92 @@ growth_rate = "Fast"
 exp_yield = 60
 catch_rate = 255
 caught_happiness = 70
-raw_abilities = ["CUTECHARM", "TECHNICIAN"]
-raw_egg_moves = ["AQUATAIL", "ENDURE", "FAKETEARS", "FLAIL", "IRONTAIL", "KNOCKOFF", "MUDSLAP", "SLEEPTALK", "TAILWHIP"]
-raw_tms = ["WORKUP", "CALMMIND", "TOXIC", "HIDDENPOWER", "SUNNYDAY", "PROTECT", "RAINDANCE", "SAFEGUARD", "FRUSTRATION", "THUNDERBOLT", "RETURN", "DOUBLETEAM", "FACADE", "REST", "ATTRACT", "THIEF", "ROUND", "ECHOEDVOICE", "FLING", "THUNDERWAVE", "GRASSKNOT", "SWAGGER", "SLEEPTALK", "UTURN", "SUBSTITUTE", "SECRETPOWER", "DAZZLINGGLEAM", "CONFIDE", "DIG", "CHARM", "FAKETEARS", "TAILSLAP", "ENDURE", "ENCORE", "PLAYROUGH", "RETALIATE", "SWIFT"]
-raw_tutor_moves = ["AFTERYOU", "AQUATAIL", "COVET", "GUNKSHOT", "HELPINGHAND", "HYPERVOICE", "IRONTAIL", "KNOCKOFF", "LASTRESORT", "SEEDBOMB", "SHOCKWAVE", "SNORE", "UPROAR", "TRIPLEAXEL", "MIMIC"]
-compatible_egg_groups = ["Field"]
+raw_abilities = [
+    "CUTECHARM",
+    "TECHNICIAN",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "POUND" },
+    { at_level = 1, name = "MUDSLAP" },
+    { at_level = 1, name = "TAILWHIP" },
+    { at_level = 4, name = "CAPTIVATE" },
+    { at_level = 7, name = "AFTERYOU" },
+    { at_level = 10, name = "SWIFT" },
+    { at_level = 13, name = "CHARM" },
+    { at_level = 16, name = "FAKETEARS" },
+    { at_level = 19, name = "COVET" },
+    { at_level = 22, name = "TICKLE" },
+    { at_level = 25, name = "DOUBLESLAP" },
+    { at_level = 28, name = "SING" },
+    { at_level = 31, name = "FLAIL" },
+    { at_level = 34, name = "UPROAR" },
+    { at_level = 37, name = "HELPINGHAND" },
+    { at_level = 40, name = "TAILSLAP" },
+    { at_level = 44, name = "WAKEUPSLAP" },
+    { at_level = 48, name = "HYPERVOICE" },
+    { at_level = 52, name = "TRIPLEAXEL" },
+    { at_level = 56, name = "ENCORE" },
+    { at_level = 60, name = "LASTRESORT" },
+]
+raw_tms = [
+    "WORKUP",
+    "CALMMIND",
+    "TOXIC",
+    "HIDDENPOWER",
+    "SUNNYDAY",
+    "PROTECT",
+    "RAINDANCE",
+    "SAFEGUARD",
+    "FRUSTRATION",
+    "THUNDERBOLT",
+    "RETURN",
+    "DOUBLETEAM",
+    "FACADE",
+    "REST",
+    "ATTRACT",
+    "THIEF",
+    "ROUND",
+    "ECHOEDVOICE",
+    "FLING",
+    "THUNDERWAVE",
+    "GRASSKNOT",
+    "SWAGGER",
+    "SLEEPTALK",
+    "UTURN",
+    "SUBSTITUTE",
+    "SECRETPOWER",
+    "DAZZLINGGLEAM",
+    "CONFIDE",
+    "DIG",
+    "CHARM",
+    "FAKETEARS",
+    "TAILSLAP",
+    "ENDURE",
+    "ENCORE",
+    "PLAYROUGH",
+    "RETALIATE",
+    "SWIFT",
+]
+raw_tutor_moves = [
+    "AFTERYOU",
+    "AQUATAIL",
+    "COVET",
+    "GUNKSHOT",
+    "HELPINGHAND",
+    "HYPERVOICE",
+    "IRONTAIL",
+    "KNOCKOFF",
+    "LASTRESORT",
+    "MIMIC",
+    "SEEDBOMB",
+    "SHOCKWAVE",
+    "SNORE",
+    "TRIPLEAXEL",
+    "UPROAR",
+]
+compatible_egg_groups = [
+    "Field",
+]
 steps_to_hatch = 3840
 height = 0.4
 weight = 5.8
@@ -20,101 +102,21 @@ pokedex_entry = "These Pokémon prefer a tidy habitat. They are always sweeping 
 battler_player_y = 24
 battler_enemy_y = 24
 battler_altitude = 0
-form_names = []
-dex_number = 572
-internal_name = "MINCCINO"
 raw_hidden_ability = "SKILLLINK"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "POUND"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "MUDSLAP"
-
-[[raw_level_up_moves]]
-at_level = 1
-name = "TAILWHIP"
-
-[[raw_level_up_moves]]
-at_level = 4
-name = "CAPTIVATE"
-
-[[raw_level_up_moves]]
-at_level = 7
-name = "AFTERYOU"
-
-[[raw_level_up_moves]]
-at_level = 10
-name = "SWIFT"
-
-[[raw_level_up_moves]]
-at_level = 13
-name = "CHARM"
-
-[[raw_level_up_moves]]
-at_level = 16
-name = "FAKETEARS"
-
-[[raw_level_up_moves]]
-at_level = 19
-name = "COVET"
-
-[[raw_level_up_moves]]
-at_level = 22
-name = "TICKLE"
-
-[[raw_level_up_moves]]
-at_level = 25
-name = "DOUBLESLAP"
-
-[[raw_level_up_moves]]
-at_level = 28
-name = "SING"
-
-[[raw_level_up_moves]]
-at_level = 31
-name = "FLAIL"
-
-[[raw_level_up_moves]]
-at_level = 34
-name = "UPROAR"
-
-[[raw_level_up_moves]]
-at_level = 37
-name = "HELPINGHAND"
-
-[[raw_level_up_moves]]
-at_level = 40
-name = "TAILSLAP"
-
-[[raw_level_up_moves]]
-at_level = 44
-name = "WAKEUPSLAP"
-
-[[raw_level_up_moves]]
-at_level = 48
-name = "HYPERVOICE"
-
-[[raw_level_up_moves]]
-at_level = 52
-name = "TRIPLEAXEL"
-
-[[raw_level_up_moves]]
-at_level = 56
-name = "ENCORE"
-
-[[raw_level_up_moves]]
-at_level = 60
-name = "LASTRESORT"
-
-[[evolutions]]
-into_name = "CINCCINO"
-condition = "Item"
-parameter = "SHINYSTONE"
-
-
+raw_egg_moves = [
+    "AQUATAIL",
+    "ENDURE",
+    "FAKETEARS",
+    "FLAIL",
+    "IRONTAIL",
+    "KNOCKOFF",
+    "MUDSLAP",
+    "SLEEPTALK",
+    "TAILWHIP",
+]
+evolutions = [
+    { into_name = "CINCCINO", condition = "Item", parameter = "SHINYSTONE" },
+]
 
 [base_stats]
 hp = 55
@@ -131,5 +133,3 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 1
-
-[wild_items]
