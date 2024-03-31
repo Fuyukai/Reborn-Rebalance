@@ -23,9 +23,7 @@ def build_changes(builder: ChangelogBuilder):
         "ESPERWING", "Now has +1 priority, but no extra crits or speed boost."
     ).change_move_base_power(80, 70)
 
-    blastoise = builder.pokemon(
-        "BLASTOISE"
-    )
+    blastoise = builder.pokemon("BLASTOISE")
     blastoise.remove_level_up_move("SHELLSMASH")
     del blastoise
 

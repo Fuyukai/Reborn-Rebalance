@@ -385,25 +385,27 @@ def main():
 
         prev_move: PokemonMove | None = None
         next_move: PokemonMove | None = None
-        
+
         if idx > 0:
             prev_move = built_move_mapping[idx - 1][0]
-        
+
         if idx < len(built_move_mapping) - 1:
             next_move = built_move_mapping[idx + 1][0]
-        
+
         path = (output_dir / "moves" / move.internal_name.lower()).with_suffix(".html")
-        path.write_text(move_template.render(
-            move=move, 
-            lvl_up_learnset=lvl_up_learnset,
-            taught_learnset=taught_learnset,
-            prev_move=prev_move,
-            next_move=next_move,
-        ))
+        path.write_text(
+            move_template.render(
+                move=move,
+                lvl_up_learnset=lvl_up_learnset,
+                taught_learnset=taught_learnset,
+                prev_move=prev_move,
+                next_move=next_move,
+            )
+        )
 
     moves_by_name = sorted(catalog.moves, key=lambda it: it.display_name)
-    moves_left = moves_by_name[:len(moves_by_name)//2]
-    moves_right = moves_by_name[len(moves_by_name)//2:]
+    moves_left = moves_by_name[: len(moves_by_name) // 2]
+    moves_right = moves_by_name[len(moves_by_name) // 2 :]
     (output_dir / "moves" / "index.html").write_text(
         env.get_template("moves/list.html").render(left=moves_left, right=moves_right)
     )

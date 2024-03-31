@@ -188,7 +188,7 @@ class EssentialsCatalog:
     @cached_property
     def item_mapping(self) -> Mapping[str, PokemonItem]:
         return types.MappingProxyType({it.internal_name: it for it in self.items})
-    
+
     @cached_property
     def tutor_moves(self) -> set[PokemonMove]:
         """

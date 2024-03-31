@@ -57,6 +57,7 @@ class MoveFlag(enum.Enum):
     def template_name(self) -> str:
         return self.name.replace("_", " ").capitalize()
 
+
 @attr.s(kw_only=True, frozen=True, slots=True, eq=False, hash=False)
 class PokemonMove:
     """
@@ -173,14 +174,14 @@ class PokemonMove:
             "".join([flag.value for flag in self.flags]),
             self.description,
         ]
-    
+
     @property
     def final_max_pp(self) -> int:
         """
         Gets the final max PP of this move, after PP Max.
         """
 
-        return int(self.max_pp * 8/5)
+        return int(self.max_pp * 8 / 5)
 
     @override
     def __eq__(self, other: object, /) -> bool:
@@ -188,7 +189,7 @@ class PokemonMove:
             return NotImplemented
 
         return other.internal_name == self.internal_name
-    
+
     @override
     def __hash__(self) -> int:
         return hash(self.internal_name)

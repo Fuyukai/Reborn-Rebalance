@@ -329,7 +329,9 @@ class PokemonSpecies:
     ev_yield: StatWrapper = attr.ib()
 
     #: The base catch rate for this species. Must be a positive number below 256.
-    catch_rate: int = attr.ib(validator=validate_catch_rate, )
+    catch_rate: int = attr.ib(
+        validator=validate_catch_rate,
+    )
 
     #: The base happiness when caught for this species. Most have this set to 70.
     caught_happiness: int = attr.ib()

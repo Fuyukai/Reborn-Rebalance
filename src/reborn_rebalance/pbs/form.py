@@ -35,9 +35,9 @@ end
 @attr.s(slots=True, kw_only=True)
 class SinglePokemonForm:
     """
-    A single individual form for a Pokémon. 
+    A single individual form for a Pokémon.
 
-    This contains a set of *overrides* to the base species; any overrides that are empty are 
+    This contains a set of *overrides* to the base species; any overrides that are empty are
     ignored.
     """
 
@@ -153,7 +153,7 @@ class PokemonForms:
     form_mapping: dict[int, str] = attr.ib(factory=dict)
 
     #: The custom initialiser code to use for this species.
-    #: 
+    #:
     #: Used to create different forms during encounters, for example.
     custom_init: str = attr.ib(default=None)
 
