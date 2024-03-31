@@ -211,7 +211,10 @@ def build_changes(builder: ChangelogBuilder):
         "spa", 97, 119
     ).add_ability_change("POISONTOUCH", "TOXICDEBRIS").add_tutor_move("SYNTHESIS")
 
-    builder.pokemon("GOODRA", "Goodra-H now gets Shell Smash at level 62.")
+    goodra = builder.pokemon("GOODRA", "Goodra-H now gets Shell Smash at level 62.")
+    goodra.add_base_stat_change("hp", 90, 100)
+    goodra.add_base_stat_change("atk", 100, 90)
+    goodra.add_type_change(None, PokemonType.WATER)
 
     builder.pokemon(
         "CHARJABUG", "Now evolves inside Shade's Gym (location 281), similar to old Magneton."
