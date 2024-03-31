@@ -313,7 +313,7 @@ def load_items_from_pbs(path: Path) -> list[PokemonItem]:
     with path.open(mode="r", encoding="utf-8") as f:
         reader = csv.reader(f)
 
-        return [PokemonItem.from_row(i) for i in reader]
+        return [PokemonItem.from_row(i) for i in reader if i]
 
     return items
 

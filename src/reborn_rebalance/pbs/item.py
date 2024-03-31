@@ -1,3 +1,4 @@
+from typing import Self
 import attr
 from cattrs import Converter
 from cattrs.gen import make_dict_unstructure_fn
@@ -53,7 +54,7 @@ class PokemonItem:
     move: str | None = attr.ib(default=None)
 
     @classmethod
-    def from_row(cls, row: list[str]):
+    def from_row(cls, row: list[str]) -> Self:
         """
         Creates a new item from a row in the items file.
         """
