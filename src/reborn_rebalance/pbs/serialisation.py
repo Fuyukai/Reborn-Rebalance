@@ -558,10 +558,6 @@ def save_encounters_to_toml(
     Saves the encounters data to TOML.
     """
 
-    if path.exists():
-        print(f"Not overwriting: {path}")
-        return
-
     for idx, encounter in data.items():
         # there's two removed areas still in the default encounters data
         # removed map 107, which is an old version of... the pulse tangrowth forest in obsidia.
@@ -585,6 +581,7 @@ def save_encounters_to_toml(
 
         filename = path / f"{idx:03d}_{name.lower().replace(' ', '_')}.toml"
         if filename.exists():
+            print(f"Not overwriting: {filename}")
             continue
 
         with filename.open(mode="wb") as f:
