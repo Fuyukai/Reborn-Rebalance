@@ -1,7 +1,7 @@
 Reborn Rebalance
 ================
 
-*This mod is built on top of and REQUIRES the All Gens Patch, v3.5.0a.*
+*This mod is built on top of and REQUIRES the All Gens Patch, v6.5.0a.*
 
 This project is two parts:
 
@@ -42,7 +42,7 @@ Pre-built versions are available from the Releases tab of the repository.
    work fine).
 
    This was built on top of version 6.5.0a. **Versions must match!** Otherwise, you will get cryptic
-   errors due to trainer teams not matching.
+   errors or silent crashes due to trainer teams not matching.
 
    (`Direct link to v6.5a <https://mega.nz/file/2ooSnSAY#hxkPf4rDICnRNr-rUz0fqsLR-L4DVMrrOtI1wZ91ka4>`__)
 
