@@ -89,12 +89,39 @@ mod easily. Edit the files in ``data`` as appropriate, then do the following:
 
 6. Load the game into Debug mode and run "Compile All Data".
 
+Rebuilding Data
+---------------
+
+You may wish to import a different set of data into the system; for example, if you're developing
+another major content mod you can use my web view system in order to get a nice documentation 
+website.
+
+.. code-block:: fish
+
+    poetry run into-toml <path to your Reborn directory> <path to new data directory>
+
+This can successfully parse the data from a clean Reborn 19.16 installation, as well as all All-Gen
+installations up to version 7.0. Other mods are not guarenteed to work or import correctly; if
+the PBS files are successfully ingested by the game, please open an issue and I'll adjust the
+parsing code.
+
+You'll need to import the forms manually or copy ``data/forms/`` into your data directory. (Make 
+sure to remove the ``data/forms/megas/custom`` directory too to remove the All-Gen custom forms;
+there's a handful scattered around the other files as well. Sorry.). 
+
+If you have your own forms, you need to write them out manually; a lot of this is automated, 
+but you'll need to explicitly write out the differences between the forms and the base Pokémon 
+yourself.
+
 Future Plans
 ------------
 
 - More boss tweaks, especially post-game.
+
 - Try and make most of the movesets legal... (they're mostly not even legal in the vanilla game).
+
 - Add more events for freshly rebalanced Pokémon.
+
 - Add the ability to directly compile into the game formats, instead of requiring the game to
   recompile it.
 
@@ -131,7 +158,8 @@ Future Plans
     If they do, then somebody let me know and I will see about how hard it would be to support it.
 
   * I haven't actually *played* through either of these games so I don't know how to even
-    rebalance them (or, hell, how internally unbalanced they are anyway).
+    rebalance them (or, hell, how internally unbalanced they are anyway). On the other hand,
+    I've played through Reborn three times, so I know what I'm doing here.
 
 - Hardcode the paths less and split the project out into a general "Reborn-engine transpiler"
   project and a "Reborn-only rebalance" project.
@@ -139,7 +167,10 @@ Future Plans
 Licence
 -------
 
-This project is licenced under the GPL, version 3.0 or later.
+Most of the project is licenced under the GPL, version 3.0 or later.
+
+The overwritten maps are licenced under the "it's complicated" licence. I won't get mad at you,
+but the original authors might.
 
 Credits
 -------

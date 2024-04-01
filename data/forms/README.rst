@@ -7,10 +7,21 @@ Format
 ------
 A form is a single TOML file in any subdirectory of this directory, with the following keys:
 
+- 
 - ``form_mapping`` - a table of int form IDs to form names. The IDs seem to be used internally, and
   also form an index into the sprite file.
 - ``custom_init`` - a block of Ruby code used for custom initialisation.
-- ``mega_form`` - defines the form used for mega evolutions.
+- ``default_form`` - sets the default form for this Pokémon. Use this if a Pokémon has both regional
+  forms and mega or PULSE forms.
+- ``mega_form`` - defines the form used for mega evolutions. Unset for Pokémon without megas.
+- ``ultra_form`` - only used for Necrozma.
+- ``pulse_form`` - defines the form useed for PULSE forms. Unsure what this does. Unset for Pokémon
+  without PULSE forms.
+- ``has_dynamax_form`` - self-explanatory. Used when cropping form sprites. Dynamax forms are
+  otherwise UNIMPLEMENTED.
+- ``custom_default_mapping`` - a mapping of held item -> form. See Ogerpon for an example.
+- ``custom_mega_mapping`` - a mapping of mega stone -> mega form. See Mewtwo or Ogerpon for an 
+  example.
 
 Then, a set of tables with the key ``form.<form name>`` (where form name matches the name in
 the form mapping) that override properties of the base species. The valid properties are:
@@ -66,3 +77,5 @@ these rules apply:
 
 - Common species (e.g. Petilil) changes into different forms => Hardcoded
 - Different form evolves into different form (e.g. alolapix into alolatales) => Uses ``evo_data``
+
+In the future, ``evo_data`` will likely be turned into a similar format to the species evolutions.
