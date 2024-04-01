@@ -1,0 +1,224 @@
+{% extends "_meta/walkthrough_page.html" %}
+
+{% block hero %}
+{{ ss("hero") }}
+{% endblock %}
+
+{% block walkthrough %}
+<div class="content has-text-justified">
+    <p>
+        Once in Calcenon City, there's a lot of NPCs around to talk to. The most important is Eve 
+        (next to the Pokémon Centre) who will give you info on three upcoming PULSE designs.
+    </p>
+
+    <p>
+        When you're done, walk into the one house that everyone used to hang around in for a long
+        cutscene. Next stop: Agate City.
+    </p>
+
+    <h2 class="subtitle">Operation Bagration</h2>
+
+    {{ ss("south") }}
+    <p>
+        The entrance from the Circus is blocked off, so return to Route 1 (the easiest way is from
+        the Iolia Valley) and enter Agate City from the checkpoint. Walk straight upwards (and 
+        don't talk to anyone) to enter a battle with the Schutzstaffel.
+    </p>
+
+    <div class="notification is-danger">
+        If you don't have Litemode enabled, all Schutzstaffel battles from here on take place
+        using PULSE2, which gives all enemy Pokémon 252 EVs in all stats. 
+    </div>
+
+    <p>
+        Continue up the stairs to the right and exterminate some more Schutzstaffel agents. Finally,
+        link up with Hardy for a double battle, and finally a solo battle against Solaris.
+    </p>
+
+    {{ trainer_battle_content("Solaris", "Solaris", 22) }}
+
+    <p>
+        After beating him down, use the Light Shard to heal and continue over the bridge. 
+    </p>
+
+    {{ ss("surfspot") }}
+    <p>
+        The path here is relatively linear; surf up until you reach the waterfalls, then travel
+        up to the third layer. Jump off to the left until you can go down the waterfall; once
+        you're in that pool, dive down into the underwater section.
+    </p>
+
+    {{ ss("fork") }}
+    <p>
+        You'll find a fork in the path here. Travel up through it and into the cave area for
+        a cutscene with Lin. If you instead go to the right, then surface and follow the waterfalls
+        up, you can find the <em>Pinsirite</em>. Backtrack <i>all the way back</i> to your initial
+        surf spot for another cutscene, where either Samson or Ciel will be disappeared (if you
+        sided with Blake or not, all the way back in Ametrine city.) 
+    </p>
+
+    <p>
+        After that, talk to Shelly again for another cutscene; after this Agate City is finally
+        liberated and free for you to visit.
+    </p>
+
+    <h2 class="subtitle">The Free City of Agate</h2>
+
+    <p>
+        There's a handful of things to do here before we fight Hardy. First, the house directly next
+        to the Pokécentre has an NPC who asks you for a password. You <i>could</i> go find the magic
+        square puzzle and solve it yourself... but that would be stupid. I'll just tell you
+        the password: <code>139749</code>. Follow the NPC into the room to find the 
+        <em>Mannectite</em>; then talk to her to get your 11th Department Store sticker. Only
+        one more to go!
+    </p>
+
+    {{ ss("route4") }}
+
+    <p>
+        You may have noticed this inaccessible Rock Climb point before. It takes you up to Route 4.
+        Great. The more interesting thing is the house immediately below this, just before the
+        stairs. Walk in and talk to the lady standing on the sofa; she wants to see your Pokédex
+        data. There's a few rewards for this, each at 100 Pokémon caught, but it's changed in 
+        All-Gen and the event is pretty difficult to decode so I can't tell you what they are.
+    </p>
+
+    <p>
+        If you want, you can get a Melmetal now. Now with 100% less stupid Magic Square puzzles!
+    </p>
+
+    <details>
+        <summary>Melmetal Guide</summary>
+
+        {{ ss("melmetal")}}
+        <p>
+            If you go into this house, and talk to the child inside, they'll show you into a spooky room
+            downstairs. Down here, you can find the Rusty Metal Box. 
+        </p>
+
+        {{ ss("mm1") }}
+        <p>
+            Return to Silph Co in the Neo Obisida Ward and talk to the attendant inside (okay, 
+            all-gen guy: how the hell were you meant to figure this one out without the spreadsheet?)
+            to get access to the back room. 
+        </p>
+
+        {{ ss("mm2", "Oh god, it's worse than E19.") }}
+        <p>
+            Talk to the attendant and walk into the newly opened door, then open the gate by 
+            activating the computer. As soon as you reach a certain point in the room, the gate to
+            the Melmetal within will open up. 
+        </p>
+
+        <p>
+            Walk into the gate and Melmetal will appear. Kill it, then return to the attendant.
+            You'll be gifted a {{ sp("MELTAN") }} as a reward. Next, talk to the other guy in the
+            room, who will ask for a bunch of items in order to create the evolution item for your
+            Meltan. He needs:
+        </p>
+
+        <ul>
+            <li>Five Iron</li>
+            <li>Five Zinc</li>
+            <li>Five Calcium</li>
+            <li>A single Steel Gem</li>
+            <li>A single Metal Coat</li>
+            <li>A single Iron Ball</li>
+        </ul>
+
+        <p>
+            Return to him with all of these (you can just buy them at the department store) to
+            get the Meltan evolution item. Good diversion.
+        </p>
+    </details>
+
+    <p>
+        If you didn't pick Snivy as your starter, you can get one now too.
+    </p>
+
+    <details>
+        <summary>Snivy Quest Guide</summary>
+
+        {{ ss("sv1") }}
+        <p>
+            Go into this house and wake the hiker inside up. He'll run off to Route 4.
+        </p>
+
+        {{ ss("sv2") }}
+        <p>
+            You can find him here. Consult the previous chapter for more information on how to get
+            here. Talk to him to start a battle
+        </p>
+
+        {{ ss("sv3") }}
+        <p>
+            After beating him, he'll let his Pokémon out. Talk to him again to get some Pokesnax,
+            then talk to him <i>again</i> and give him an Expert Belt. After that, feed all of his
+            Pokémon the Pokesnax; make sure to <strong>feed the Golem last</strong>. If you don't,
+            you'll need to find some more Pokésnax and feed it again.
+        </p>
+
+        <p>
+            After that, a new Rock Climb point will be generated, which leads to a (technically,
+            another map) {{ mp(716, "area") }} where you can encounter wild {{ sp("SERPERIOR") }}s.
+        </p>
+    </details>
+
+    <h2 class="subtitle">Agate Gym</h2>
+
+    <p>
+        The 17th Gym is on top of a hill overlooking the rest of Agate City. If you walk in and to
+        the left side, you'll find the gym "puzzle", as well as <em>TM187 High Horsepower</em>
+        (good job, Hardy!) just lying there.
+    </p>
+
+    <p>
+        The puzzle here is that you need to put the tiles on the correct notes in the right area,
+        then use Rock Climb to make a sick guitar strum on the left area in order to match the notes
+        that the NPC at the top plays for you. If you don't have an ear for it (like 90% of people), 
+        here's the solution, from top to bottom:
+    </p>
+
+    <ol>
+        <li>A</li>
+        <li>A</li>
+        <li>Low G (the one on the left)</li>
+        <li>B</li>
+        <li>B</li>
+        <li>High G (the one on the right)</li>
+        <li>E</li>
+        <li>C</li>
+    </ol>
+
+    <p>
+        After that """puzzle""", you can go in and fight Hardy. Some tips:
+    </p>
+    
+    <ul>
+        <li>Yeah, this gym is free. It's a rock type gym, for fucks sake.</li>
+        <li>
+            Strong steel types just carve through him. {{ sp("MELMETAL") }} with Double Iron Bash
+            is an especially good idea. 
+        </li>
+        <li>
+            Aerodactyl can kill your grass types easily; make sure to bring a good answer to it...
+            such as a Steel type.
+        </li>
+        <li>
+            Bring your own weather setter! {{ sp("PELIPPER") }} or {{ sp("SIMIPOUR") }} can set
+            rain which stops his Lycanroc getting a speed boost.
+        </li>
+        <li>
+            It's a double battle, so using Earthquake isn't a good idea unless you have something
+            with Levitate. Fake Out support will still help, as usual. 
+        </li>
+    </ul>
+
+    {{ trainer_battle_content("Hardy", "HARDY", 21) }}
+
+    <p>
+        After that, it's time to finally assault Labadorra City. When you're ready, return to
+        Calcenon City.
+    </p>
+</div>
+{% endblock %}
