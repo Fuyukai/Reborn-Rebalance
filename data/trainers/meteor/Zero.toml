@@ -1,14 +1,15 @@
 trainer_name = "Zero"
 
-[trainers.ZEL2.0]
+[trainers.ZEL2.20]
 raw_trainer_class = "ZEL2"
 battler_name = "Zero"
+battler_id = 20
 raw_battle_items = [
     "FULLRESTORE",
     "FULLRESTORE",
 ]
 
-[[trainers.ZEL2.0.pokemon]]
+[[trainers.ZEL2.20.pokemon]]
 internal_name = "SPIRITOMB"
 level = 92
 raw_item = "BLACKGLASSES"
@@ -21,7 +22,7 @@ raw_moves = [
 nature = "CAREFUL"
 iv = 31
 
-[trainers.ZEL2.0.pokemon.evs]
+[trainers.ZEL2.20.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -29,7 +30,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.ZEL2.0.pokemon]]
+[[trainers.ZEL2.20.pokemon]]
 internal_name = "HOUNDOOM"
 level = 92
 raw_item = "FOCUSSASH"
@@ -43,7 +44,7 @@ ability_number = 1
 nature = "TIMID"
 iv = 31
 
-[trainers.ZEL2.0.pokemon.evs]
+[trainers.ZEL2.20.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -51,7 +52,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.ZEL2.0.pokemon]]
+[[trainers.ZEL2.20.pokemon]]
 internal_name = "HONCHKROW"
 level = 93
 raw_item = "LIFEORB"
@@ -65,7 +66,7 @@ sex = "F"
 nature = "ADAMANT"
 iv = 31
 
-[trainers.ZEL2.0.pokemon.evs]
+[trainers.ZEL2.20.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -73,7 +74,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.ZEL2.0.pokemon]]
+[[trainers.ZEL2.20.pokemon]]
 internal_name = "WEAVILE"
 level = 93
 raw_item = "LIFEORB"
@@ -88,7 +89,7 @@ sex = "F"
 nature = "ADAMANT"
 iv = 31
 
-[trainers.ZEL2.0.pokemon.evs]
+[trainers.ZEL2.20.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -96,7 +97,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.ZEL2.0.pokemon]]
+[[trainers.ZEL2.20.pokemon]]
 internal_name = "UMBREON"
 level = 94
 raw_item = "LEFTOVERS"
@@ -110,7 +111,7 @@ ability_number = 1
 nature = "CALM"
 iv = 31
 
-[trainers.ZEL2.0.pokemon.evs]
+[trainers.ZEL2.20.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -118,10 +119,9 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.ZEL2.0.pokemon]]
+[[trainers.ZEL2.20.pokemon]]
 internal_name = "CLAWITZER"
 level = 95
-raw_item = "WISEGLASSES"
 raw_moves = [
     "OVERHEAT",
     "ORIGINPULSE",
@@ -133,7 +133,7 @@ nature = "TIMID"
 iv = 31
 happiness = 0
 
-[trainers.ZEL2.0.pokemon.evs]
+[trainers.ZEL2.20.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
