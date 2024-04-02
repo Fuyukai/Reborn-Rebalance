@@ -1,0 +1,140 @@
+{% extends "_meta/walkthrough_page.html" %}
+
+{% block hero %}
+<div class="notification is-danger is-light">
+    <p>
+        I've complained about it before, but this is where the writing gets really, really 
+        terrible.
+    </p>
+    <p>
+        Anyone who isn't a millenial: beware. You will want to tear out your eyes.
+    </p>
+</div>
+{% endblock %}
+
+{% block walkthrough %}
+<div class="content has-text-justified">
+
+    <p>
+        It's time to finally liberate Labadorra City. When you've done everything you wanted to do
+        at Agate City and beyond, return to Calcenon City. There's a few NPCs to talk to for some
+        story; then, talk to Hardy in front of the barrier for a long cutscene.
+    </p>
+
+    <p>
+        The plan is thus: Let Bennett carry the body of Mengele through the barrier and then 
+        deactivate it from the other side. It is admittedly a very stupid solution, but it does fit
+        Bennett's character of falling in love with any girl he sees, so I admire it. Talk to every
+        single major NPC here (except Amaria, if she's here) for some relationship points.
+    </p>
+
+    {{ ss("civilwar") }}
+
+    <p>
+        For some bonus cutscenes, go into the house with Julia outside to find the sisters. Talk to
+        Charlotte for some exposition, then <i>cancel</i> the dialogue option for +1 relationship
+        point with her. (Or say Yes/No to piss off one of the sisters instead). (Oh yeah, in case
+        you didn't pick up on it, the implication is that the psychiatrist is a rapist. Saphira is
+        right.)
+    </p>
+
+    <p>
+        When you're ready, talk to Bennett and say yes for him to cross the barrier and 
+        <span style="text-decoration: line-through">free the Underground</span> disable the barrier.
+        Enjoy the horrifically cringy Marvel-esque cutscene then walk up the stairs to finally
+        enter Labadorra City.
+    </p>
+
+    <h2 class="subtitle">Battle of Normandy</h2>
+
+    <p>
+        Just a fair warning: the grunts here are more dangerous than usual due to PULSE2. All of
+        their Pokémon have 252 EVs in everything but HP, unless you have Litemode enabled. Proceed
+        to the south to fight a single Schutzstaffel agent, then slip through the area next to
+        Victoria to find a second Schutzstaffel guarding the path forward.
+    </p>
+
+    <p>
+        After defeating them, move upwards for a small cutscene; you're blocked from going any
+        further as you need to go and defeat the PULSE Clawitzer. The space where Victoria was
+        battling before is now clear, and leads to a room where you will find two Schutzstaffel
+        who will double battle you alongside Victoria.
+    </p>
+
+    {{ ss("sirius") }}
+    <p>
+        Inside, you'll find... either Solaris (on the R route) or Taka (on any other route), with
+        his eye cut out. Enjoy the cutscene, then walk outside and down the stairs to the left to
+        get ambushed by one more Schutzstaffel agent. The door at the bottom is locked, so walk up
+        to the door at the top here (from the side!!!) In it, you'll find... Sigmus, who will run
+        away as soon as you approach.
+    </p>
+
+    <p>
+        Walk up through the corridor next to said building to get ambushed by two more Schutzstaffel
+        agents. On the Z route, you'll need to fight them alone; on the R route, Amaria (of all 
+        people) will be your Doubles partner.
+    </p>
+
+    <p>
+        Get ready. Walk into the building up above you and traverse all of the floors. You'll get
+        ambushed by two Schutzstaffel scientists before you can exit out onto the roof. 
+        <strong>Save before the ladder.</strong>
+    </p>
+
+    {{ ss("noel") }}
+    <p>
+        After you get up there, you'll get a cutscene - and then a fight against Zero and the
+        PULSE Clawitzer.
+    </p>
+
+    {{ trainer_battle_content("Zero", "ZEL2", 20) }}
+
+    <p>
+        This thing has 252 Speed, 252 HP, four extremely strong moves, Contrary, and is 
+        Water/Dragon. It <i>will</i> outspeed you. Zero is hardcoded to always send it out last,
+        so you need to keep at least something healthy in order to one-hit kill it, maybe with a
+        Focus Sash, some strong sucker-punch users, or Focus Sash Trick Room.
+        It's not that hard, I promise! 
+    </p>
+
+    <p>
+        After taking down Zero (and the first of the two ridiculous PULSEs), make your way back to 
+        the upper area of Labadorra for some more cutscenes. Return back to that locked door to
+        finally return to the LCCC (imagine how much shorter this game would be if anyone could,
+        you know, move rubble out of the way?)
+    </p>
+
+    {{ ss("funnybattle") }}
+    <p>
+        You'll eventually find this area of the LCCC. <i>Make sure to save here.</i> You'll be
+        fighting a double battle against Sigmund's corpse and PULSE Mr Mime, a troll Pokémon that
+        is Dark/Ghost, has Wonder Guard, and knows exclusively Entrainment and Instruct. It also has
+        252 speed.
+    </p>
+
+    <p>
+        Luckily, there's a handful of easy strategies for this one. Something with Mold Breaker 
+        will ignore Wonder Guard and can hit the entrained Pokémon for neutral or resisted hits,
+        and Fairy type moves will still kill Mr Mime. You can also use passive damage such as Toxic
+        or Sandstorm, and once you've killed the PULSE it's a 2v1.
+    </p>
+
+    {{ trainer_battle_content("Mime", "MIME", 0) }}
+    {{ trainer_battle_content("Sigmund Connal", "FRIEND", 20) }}
+
+    <p>
+        That doesn't actually net you anything. Leave and return to the central area of Labadorra
+        to find that everyone has gone missing.
+    </p>
+
+    <div class="notification is-danger">
+        If you have anything you want to do, such as swapping out your team, do so now. You won't
+        get another chance until you can get to Victory Road in a few hours.
+    </div>
+
+    <p>
+        When you're done, enter the Labadorra Arena directly north of you to progress the story.
+    </p>
+</div>
+{% endblock %}
