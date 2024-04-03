@@ -1,11 +1,12 @@
 trainer_name = "Eve"
 
-[trainers.EVE.0]
+[trainers.EVE.20]
 raw_trainer_class = "EVE"
 battler_name = "Eve"
+battler_id = 20
 raw_battle_items = []
 
-[[trainers.EVE.0.pokemon]]
+[[trainers.EVE.20.pokemon]]
 internal_name = "PORYGON2"
 level = 93
 raw_item = "MAGICALSEED"
@@ -19,7 +20,7 @@ ability_number = 1
 sex = ""
 nature = "TIMID"
 
-[trainers.EVE.0.pokemon.evs]
+[trainers.EVE.20.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -27,7 +28,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.EVE.0.pokemon]]
+[[trainers.EVE.20.pokemon]]
 internal_name = "SIGILYPH"
 level = 93
 raw_item = "LIFEORB"
@@ -41,7 +42,7 @@ ability_number = 1
 sex = "F"
 nature = "TIMID"
 
-[trainers.EVE.0.pokemon.evs]
+[trainers.EVE.20.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -49,7 +50,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.EVE.0.pokemon]]
+[[trainers.EVE.20.pokemon]]
 internal_name = "ALAKAZAM"
 level = 94
 raw_item = "LIFEORB"
@@ -62,7 +63,7 @@ raw_moves = [
 ability_number = 2
 nature = "MODEST"
 
-[trainers.EVE.0.pokemon.evs]
+[trainers.EVE.20.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
@@ -70,7 +71,7 @@ spa = 252
 spd = 252
 spe = 0
 
-[[trainers.EVE.0.pokemon]]
+[[trainers.EVE.20.pokemon]]
 internal_name = "REUNICLUS"
 level = 94
 raw_item = "LEFTOVERS"
@@ -83,7 +84,7 @@ raw_moves = [
 ability_number = 1
 nature = "MODEST"
 
-[trainers.EVE.0.pokemon.evs]
+[trainers.EVE.20.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
@@ -91,7 +92,7 @@ spa = 0
 spd = 252
 spe = 0
 
-[[trainers.EVE.0.pokemon]]
+[[trainers.EVE.20.pokemon]]
 internal_name = "METAGROSS"
 level = 94
 raw_item = "WEAKNESSPOLICY"
@@ -105,7 +106,7 @@ sex = ""
 nature = "JOLLY"
 happiness = 255
 
-[trainers.EVE.0.pokemon.evs]
+[trainers.EVE.20.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 252
@@ -113,7 +114,7 @@ spa = 252
 spd = 0
 spe = 0
 
-[[trainers.EVE.0.pokemon]]
+[[trainers.EVE.20.pokemon]]
 internal_name = "ESPEON"
 level = 95
 raw_item = "NORMALGEM"
@@ -128,7 +129,7 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.EVE.0.pokemon.evs]
+[trainers.EVE.20.pokemon.evs]
 hp = 0
 atk = 4
 def_ = 0
