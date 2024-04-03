@@ -1,0 +1,197 @@
+{% extends "_meta/walkthrough_page.html" %}
+
+{% block hero %}
+{{ ss("hero") }}
+{% endblock %}
+
+{% block walkthrough %}
+<div class="content has-text-justified">
+    <div class="notification is-info">
+        The game makes a special autosave as soon as you enter the arena that you can restore to
+        return back to the outside world.
+    </div>
+
+    <p>
+        As soon as you enter the arena, you'll be greeted by a long cutscene. It starts off bad,
+        then gets really funny.
+    </p>
+
+    <p>
+        This is a gigantic tournament. You'll be paired up with somebody as your battle partner
+        and forced to fight for your survival. Who your partner actually is depends on the route;
+        on the R route, your partner will be Cal. On the Z route, your partner will be Florinia. 
+        You'll be facing Lumi and Eve in your first round no matter what.
+    </p>
+
+    <p>
+        Oh yeah, and all the cutscenes are like ten minutes long. We needed another Vietnam War to 
+        thin out the millenial generation a bit.
+    </p>
+
+    <hr/>
+
+    <h2 class="subtitle">Round #1</h2>
+
+    <p>
+        Let's get straight into it. Here's your partner teams:
+    </p>
+
+    {{ trainer_battle_content("Cal", "REBORN", 23) }}
+    {{ trainer_battle_content("Florinia", "FLORINIA", 22) }}
+
+    <p>
+        And here's your opponent teams:
+    </p>
+
+    {{ trainer_battle_content("Lumi", "LUMI", 20) }}
+    {{ trainer_battle_content("Eve", "EVE", 20) }}
+
+    <p>
+        Also, you'll be fighting on an Inverse Field. Wonderful. When you're ready, enter the door
+        on the left side of the room to begin the battle. Lumi uses Ice types and Eve uses Psychic
+        types, so the field effect means Cal is weaker and Florinia is stronger (fantastic!). 
+        Grass and Fighting types are the go-to here. 
+    </p>
+
+    <hr/>
+    <h2 class="subtitle">Round #2</h2>
+
+    {{ ss("zfighting") }}
+
+    <p>
+        After nothing happens to the siblings, you can take either exit to proceed to the next
+        round. Very predictably, you're going to be fighting Cal/Florinia from last round. 
+        Their teams are up above.
+    </p>
+
+    <p>
+        The field effect here differs depending on opponent. When fighting Florinia, it's the 
+        Glitch Field; when fighting Cal, it's the Dragon's Den field. When you're ready,
+        enter the door on the right side this time. 
+    </p>
+
+    <p>
+        Oh yeah, the upcoming cutscene uses the phrase "emotional labour". It's best to hold down
+        text skip here.
+    </p>
+
+    <hr/>
+    <h2 class="subtitle">Round #3</h2>
+
+    <p>
+        This one's kinda funny; somehow, the Grass-type trainer wins against a Steel-type trainer.
+        That's one hell of a choke. (Or, on the other route, Cal handily beats a Steel type 
+        trainer. That one is expected.)
+    </p>
+
+    <p>
+        No surprises here; you now have to fight Florinia/Cal; whoever you didn't fight before.
+        Likewise, you'll be on the field effect that you didn't use last time 
+        (so Glitch/Dragon's Den). Very creative.
+    </p>
+
+    <h2 class="subtitle">The Final Gym</h2>
+
+    <div class="notification is-success">
+        If you exit the gym after Saphiria mutes Terra, you can exit out the front door and 
+        catch any Pokémon you need to face her, just in case you get softlocked because you
+        can't beat her.
+    </div>
+
+    <p>
+        After that, only one more battle remains: it's against Saphira. She tells Terra to load
+        up her gym, making this your final gym fight and your final badge. Of course, being
+        a gym, it has to have a gym puzzle. Right? Right??
+    </p>
+
+    <p>
+        No. This is not a puzzle. This is a test of your sanity. You're surely not going to drop
+        the game <i>now</i>, after all of that work, right? Right?? If you walk into the left side
+        and talk to Saphira, she'll beckon you to meet her at the top of the gym.
+    </p>
+
+    {{ ss("money", "Oh, money. Money! Money!!!") }}
+
+    <p>
+        Find your way to this giant treasure chest at the topo and interact with it to begin the
+        struggle session. Answer the question in any way you want, really; you're pretty much 
+        guaranteed to lose relationship points.
+    </p>
+
+    <p>
+        After that, the "gym puzzle" begins. You need to kill every enemy that appears on-screen
+        before it gets to your chest. There is no guide or walkthrough I can give to you here;
+        you will have to take things as they come. 
+    </p>
+
+    <p>
+        Turn on Debug mode and heal your party after every battle. Quick-save after every battle.
+        That is the best you can do. The only other advice I can give you:
+    </p>
+
+    <ul>
+        <li>
+            Don't try and go to things; you'll be caught out by something faster moving. 
+            Let them come to you.
+        </li>
+        <li>
+            The exception to this is the Magneton, which you have to go to (when it starts lifting
+            the chest away). You have to go all the way to the bottom and up the right-most pillar.
+        </li>
+    </ul>
+
+    <p>
+        After, like, a good <strong>ten minutes</strong> of that, you'll fight the Ultra Steelix
+        from before (I guess the devs really wanted to use that set piece again) and the path to
+        Saphira opens up. Take your place on the right side of the arena to begin the final
+        gym battle. As per usual, some tips:
+    </p>
+
+    <ul>
+        <li>
+            This is one hell of a lopsided fight. She has five Psuedos and a Mega Charizard, and
+            they're all higher levelled than you. To top it off, the field effect gives her
+            a boost to all of her Dragon type moves.
+        </li>
+        <li>
+            The field also gives a boost to Fire type moves, which means you can't rock up with
+            a team of Steel types either. On the other hand, it does mean that her Fire resistance
+            is effectively neutered, so blasting through her entire team with a strong Fire type is
+            a worthwhile strategy.
+        </li>
+        <li>
+            Save a rock type for her Salamence and Dragonite. Something like {{ sp("GIGALITH") }}
+            with Sturdy and Power Gem dispatches them with relative ease.
+        </li>
+        <li>
+            Obviously, Fairy types are helpful. Ice types are not helpful. Dragonite loses its
+            fairy weakness due to Multiscale, and is neutral to Electric too.
+        </li>
+        <li>
+            Troll her hard by using Surf twice and converting the field back to a Cave.
+        </li>
+    </ul>
+
+    {{ trainer_battle_content("Saphira", "SAPHIRA", 20) }}
+
+    <li>
+        After that, return to the lower area of the arena and go through the exit door... then
+        talk to Florinia for a LONG cutscene. Make sure you healed your Pokémon before this, as you
+        have a really good battle coming up.
+    </li>
+
+    {{ ss("nofonts") }}
+
+    <p>
+        Terra deletes your fonts. Cool! You have to fight her without any text available.
+    </p>
+
+    {{ trainer_battle_content("T3RR4", "TERRA", 21) }}
+
+    <p>
+        When you've beaten her, you can finally exit the building from the rear. It's time to 
+        liberate France.
+    </p>
+    
+</div>
+{% endblock %}
