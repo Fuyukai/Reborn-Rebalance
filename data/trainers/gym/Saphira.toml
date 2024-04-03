@@ -1067,14 +1067,14 @@ spd = 0
 spe = 0
 
 [[trainers.SAPHIRA.20.pokemon]]
-internal_name = "DRACOZOLT"
+internal_name = "FLYGON"
 level = 96
 raw_item = "CHOICESCARF"
 raw_moves = [
-    "BOLTBEAK",
-    "DRAGONCLAW",
-    "EARTHQUAKE",
-    "IRONHEAD",
+    "UTURN",
+    "DRAGONRUSH",
+    "HIGHHORSEPOWER",
+    "STONEEDGE",
 ]
 ability_number = 1
 sex = "F"
@@ -1082,10 +1082,10 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.SAPHIRA.20.pokemon.evs]
-hp = 0
-atk = 4
+hp = 4
+atk = 252
 def_ = 252
-spa = 252
+spa = 0
 spd = 0
 spe = 0
 
