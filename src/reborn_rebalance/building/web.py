@@ -12,7 +12,9 @@ import attr
 import jinja2
 import rtoml
 from PIL import Image
-from tqdm import tqdm
+from rich import print
+from rich.console import Console
+from rich.progress import Progress, track
 
 from reborn_rebalance.changes import build_changelog
 from reborn_rebalance.map.map import render_map
@@ -105,7 +107,7 @@ def crop_form_sprites(catalog: EssentialsCatalog, game_dir: Path, output_dir: Pa
     :param output_dir: the dir to place the cropped form sprites in
     """
 
-    for species in tqdm(catalog.species, desc="Form Sprites"):
+    for species in track(catalog.species, description="Form Sprites"):
         try:
             forms = catalog.forms[species.internal_name.upper()]
         except KeyError:
@@ -163,7 +165,7 @@ def crop_regular_sprites(catalog: EssentialsCatalog, original_dir: Path, output_
     :param output_path: where to write the cropped sprites
     """
 
-    for species in tqdm(catalog.species, desc="Species Sprites"):
+    for species in track(catalog.species, description="Species Sprites"):
         idx = species.dex_number
 
         input_mini_sprite = original_dir / "Graphics" / "Icons" / f"icon{idx:03d}.png"
@@ -208,7 +210,7 @@ def render_all_maps(
 ):
     tilesets = load_all_tilesets(game_dir)
 
-    for map_id in tqdm(catalog.maps.keys(), desc="Map Rendering"):
+    for map_id in track(catalog.maps.keys(), description="Map Rendering"):
         map_name = f"Map{map_id:03d}.rxdata"
         map_path = data_dir / "overwritten_maps" / map_name
         if not map_path.exists():
@@ -333,6 +335,8 @@ def main():
     if (wdir := input_dir / "walkthroughs").exists():
         search_paths.append(wdir)
 
+    console = Console()
+
     loader = jinja2.FileSystemLoader(searchpath=search_paths)
     env = jinja2.Environment(loader=loader, undefined=jinja2.StrictUndefined)
     env.globals["catalog"] = catalog
@@ -348,121 +352,150 @@ def main():
     if wdir.exists():
         walkthru_entries = load_navbar_walkthroughs(wdir / "navbar.toml")
 
+    walkthrough_chapters = [chap for e in walkthru_entries for chap in e.chapters]
     env.globals["navbar_walkthroughs"] = walkthru_entries
 
     # build single-file templates
-    with (output_dir / "changelog.html").open(mode="w", encoding="utf-8") as f:
-        f.write(env.get_template("changelog/page.html").render())
+    with console.status("Building single-page files...", spinner="line"):
+        with (output_dir / "changelog.html").open(mode="w", encoding="utf-8") as f:
+            f.write(env.get_template("changelog/page.html").render())
 
-    with (output_dir / "index.html").open(mode="w", encoding="utf-8") as f:
-        f.write(env.get_template("index.html").render())
+        with (output_dir / "index.html").open(mode="w", encoding="utf-8") as f:
+            f.write(env.get_template("index.html").render())
 
-    (output_dir / "species").mkdir(exist_ok=True, parents=True)
-    (output_dir / "species" / "specific").mkdir(exist_ok=True, parents=True)
-    with (output_dir / "species" / "index.html").open(mode="w", encoding="utf-8") as f:
-        f.write(env.get_template("species/list.html").render(species_definitions=catalog.species))
-
-    # build the looped templates
-    specific_mon_template = env.get_template("species/single.html")
-    for species in tqdm(catalog.species, desc="Species Page Rendering"):
-        path = output_dir / "species" / "specific" / species.internal_name.lower()
-        path = path.with_suffix(".html")
-
-        try:
-            path.write_text(specific_mon_template.render(species=species))
-        except Exception:
-            print("Error rendering", species.internal_name, file=sys.stderr)
-            raise
-
-    (output_dir / "moves").mkdir(exist_ok=True, parents=True)
-    built_move_mapping = list(catalog.build_move_mapping().items())
-    move_template = env.get_template("moves/single.html")
-    for idx, (move, entries) in tqdm(
-        enumerate(built_move_mapping), desc="Move Page Rendering", total=len(built_move_mapping)
-    ):
-        lvl_up_learnset = [e for e in entries if e.type.value <= 2]
-        taught_learnset = [e for e in entries if e.type.value >= 3]
-
-        prev_move: PokemonMove | None = None
-        next_move: PokemonMove | None = None
-
-        if idx > 0:
-            prev_move = built_move_mapping[idx - 1][0]
-
-        if idx < len(built_move_mapping) - 1:
-            next_move = built_move_mapping[idx + 1][0]
-
-        path = (output_dir / "moves" / move.internal_name.lower()).with_suffix(".html")
-        path.write_text(
-            move_template.render(
-                move=move,
-                lvl_up_learnset=lvl_up_learnset,
-                taught_learnset=taught_learnset,
-                prev_move=prev_move,
-                next_move=next_move,
+        (output_dir / "species").mkdir(exist_ok=True, parents=True)
+        (output_dir / "species" / "specific").mkdir(exist_ok=True, parents=True)
+        with (output_dir / "species" / "index.html").open(mode="w", encoding="utf-8") as f:
+            f.write(
+                env.get_template("species/list.html").render(species_definitions=catalog.species)
             )
+
+        moves_by_name = sorted(catalog.moves, key=lambda it: it.display_name)
+        moves_left = moves_by_name[: len(moves_by_name) // 2]
+        moves_right = moves_by_name[len(moves_by_name) // 2 :]
+        (output_dir / "moves" / "index.html").write_text(
+            env.get_template("moves/list.html").render(left=moves_left, right=moves_right)
         )
 
-    moves_by_name = sorted(catalog.moves, key=lambda it: it.display_name)
-    moves_left = moves_by_name[: len(moves_by_name) // 2]
-    moves_right = moves_by_name[len(moves_by_name) // 2 :]
-    (output_dir / "moves" / "index.html").write_text(
-        env.get_template("moves/list.html").render(left=moves_left, right=moves_right)
+    built_move_mapping = list(catalog.build_move_mapping().items())
+
+    p = Progress(console=console)
+    species_task = p.add_task(
+        description="Species page rendering", total=len(catalog.species), start=True, visible=True
+    )
+    moves_task = p.add_task(
+        description="Move page rendering", total=len(built_move_mapping), visible=True
+    )
+    maps_task = p.add_task(description="Map page rendering", total=len(catalog.maps), visible=True)
+    trainers_task = p.add_task(
+        description="Trainer summary page rendering", total=len(catalog.trainers), visible=True
+    )
+    walkthrough_pages_task = p.add_task(
+        description="Walkthrough page rendering", total=len(walkthrough_chapters), visible=True
     )
 
-    (output_dir / "maps").mkdir(exist_ok=True, parents=True)
-    maps_template = env.get_template("maps/single.html")
-    for map in tqdm(catalog.maps.values(), desc="Map Page Rendering"):
-        path = output_dir / "maps" / f"{map.id:03d}.html"
-        path.write_text(maps_template.render(map=map))
+    with p:
+        # build the looped templates
+        specific_mon_template = env.get_template("species/single.html")
+        for species in catalog.species:
+            path = output_dir / "species" / "specific" / species.internal_name.lower()
+            path = path.with_suffix(".html")
 
-    (output_dir / "trainers").mkdir(exist_ok=True, parents=True)
-    trainer_template = env.get_template("trainers/single.html")
-    for tr in tqdm(catalog.trainers.values(), desc="Trainer Page Rendering"):
-        path = (output_dir / "trainers" / tr.trainer_name).with_suffix(".html")
-        try:
-            path.write_text(trainer_template.render(trainers=tr))
-        except:
-            print("Error rendering", tr.trainer_name, file=sys.stderr)
-            raise
+            try:
+                path.write_text(specific_mon_template.render(species=species))
+            except Exception:
+                print("Error rendering", species.internal_name, file=sys.stderr)
+                raise
+            else:
+                p.update(species_task, advance=1)
 
-    (output_dir / "walkthroughs").mkdir(exist_ok=True, parents=True)
+        (output_dir / "moves").mkdir(exist_ok=True, parents=True)
+        move_template = env.get_template("moves/single.html")
+        p.start_task(moves_task)
+        for idx, (move, entries) in enumerate(built_move_mapping):
+            lvl_up_learnset = [e for e in entries if e.type.value <= 2]
+            taught_learnset = [e for e in entries if e.type.value >= 3]
 
-    flattened_entries = [chap for e in walkthru_entries for chap in e.chapters]
-    for n, entry in tqdm(
-        enumerate(flattened_entries), desc="Walkthru Page Rendering", total=len(flattened_entries)
-    ):
-        wpath = wdir / entry[0]
-        if not (wpath / "page.html").exists():
-            continue
+            prev_move: PokemonMove | None = None
+            next_move: PokemonMove | None = None
 
-        extra_env = {}
+            if idx > 0:
+                prev_move = built_move_mapping[idx - 1][0]
 
-        if n > 0:
-            prev_entry = flattened_entries[n - 1]
-            extra_env["LEFTLINK_ID"], extra_env["LEFTLINK_NAME"] = prev_entry
+            if idx < len(built_move_mapping) - 1:
+                next_move = built_move_mapping[idx + 1][0]
 
-        extra_env["NAME"], extra_env["TITLE"] = entry
+            path = (output_dir / "moves" / move.internal_name.lower()).with_suffix(".html")
+            path.write_text(
+                move_template.render(
+                    move=move,
+                    lvl_up_learnset=lvl_up_learnset,
+                    taught_learnset=taught_learnset,
+                    prev_move=prev_move,
+                    next_move=next_move,
+                )
+            )
 
-        if n < len(flattened_entries):
-            next_entry = flattened_entries[n + 1]
-            extra_env["RIGHTLINK_ID"], extra_env["RIGHTLINK_NAME"] = next_entry
+            p.update(moves_task, advance=1)
 
-        if (wdir_static := wpath / "static").exists():
-            walkthru_statics.append(wdir_static)
+        (output_dir / "maps").mkdir(exist_ok=True, parents=True)
+        maps_template = env.get_template("maps/single.html")
+        p.start_task(maps_task)
+        for map in catalog.maps.values():
+            path = output_dir / "maps" / f"{map.id:03d}.html"
+            path.write_text(maps_template.render(map=map))
+            p.update(maps_task, advance=1)
 
-        template = env.get_template(f"{wpath.name}/page.html")
-        output = (output_dir / "walkthroughs" / wpath.name).with_suffix(".html")
-        output.write_text(template.render(**extra_env))
+        (output_dir / "trainers").mkdir(exist_ok=True, parents=True)
+        trainer_template = env.get_template("trainers/single.html")
+        p.start_task(trainers_task)
+        for single_trainer in catalog.trainers.values():
+            path = (output_dir / "trainers" / single_trainer.trainer_name).with_suffix(".html")
+            try:
+                path.write_text(trainer_template.render(trainers=single_trainer))
+            except:
+                print("Error rendering", single_trainer.trainer_name, file=sys.stderr)
+                raise
+
+            p.update(trainers_task, advance=1)
+
+        (output_dir / "walkthroughs").mkdir(exist_ok=True, parents=True)
+        p.start_task(walkthrough_pages_task)
+        for n, entry in enumerate(walkthrough_chapters):
+            wpath = wdir / entry[0]
+            if not (wpath / "page.html").exists():
+                continue
+
+            extra_env = {}
+
+            if n > 0:
+                prev_entry = walkthrough_chapters[n - 1]
+                extra_env["LEFTLINK_ID"], extra_env["LEFTLINK_NAME"] = prev_entry
+
+            extra_env["NAME"], extra_env["TITLE"] = entry
+
+            if n < len(walkthrough_chapters):
+                next_entry = walkthrough_chapters[n + 1]
+                extra_env["RIGHTLINK_ID"], extra_env["RIGHTLINK_NAME"] = next_entry
+
+            if (wdir_static := wpath / "static").exists():
+                walkthru_statics.append(wdir_static)
+
+            template = env.get_template(f"{wpath.name}/page.html")
+            output = (output_dir / "walkthroughs" / wpath.name).with_suffix(".html")
+            output.write_text(template.render(**extra_env))
+
+            p.update(walkthrough_pages_task, advance=1)
 
     # now make sure the sprites and static data are all there
-    shutil.copytree(template_dir / "static", output_dir / "static", dirs_exist_ok=True)
-    shutil.copytree(pokesprites, output_dir / "sprites", dirs_exist_ok=True)
-    shutil.copytree(maps_dir, output_dir / "static" / "maps", dirs_exist_ok=True)
+    with console.status("Copying static files", spinner="line"):
+        shutil.copytree(template_dir / "static", output_dir / "static", dirs_exist_ok=True)
+        shutil.copytree(pokesprites, output_dir / "sprites", dirs_exist_ok=True)
+        shutil.copytree(maps_dir, output_dir / "static" / "maps", dirs_exist_ok=True)
 
-    for static_dir in walkthru_statics:
-        output = output_dir / "static" / static_dir.parent.name
-        shutil.copytree(static_dir, output, dirs_exist_ok=True)
+        for static_dir in walkthru_statics:
+            output = output_dir / "static" / static_dir.parent.name
+            shutil.copytree(static_dir, output, dirs_exist_ok=True)
 
 
 if __name__ == "__main__":

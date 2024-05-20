@@ -92,7 +92,12 @@ def extended_validate_tms(catalog: EssentialsCatalog):
 
 def do_extended_validation():
     with contextlib.redirect_stdout(StringIO()):
-        catalog = EssentialsCatalog.load_from_toml(Path(sys.argv[1]))
+        try:
+            path = Path(sys.argv[1])
+        except IndexError:
+            path = Path.cwd() / "data"
+
+        catalog = EssentialsCatalog.load_from_toml(path)
 
     print("=== Begin Extended Validation ===\n")
     extended_validate_megas(catalog)
