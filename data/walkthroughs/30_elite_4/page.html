@@ -1,0 +1,160 @@
+{% extends "_meta/walkthrough_page.html" %}
+
+{% block hero %}
+{{ ss("hero") }}
+{% endblock %}
+
+{% block walkthrough %}
+<div class="content has-text-justified">
+    <div class="notification is-danger">
+        If you are going for the good route, <strong>SAVE NOW AND COPY IT SOMEWHERE ELSE</strong>.
+        You should also use the <em>Shared Box</em> from the SWM modular modpack series, as it's
+        unlikely that you'll get through the two battles in a row with your regular, in-game team.
+    </div>
+
+    <p>
+        Welcome to the final stretch! (Of the main game. There's still 15-ish hours of postgame 
+        content yet). Take a breather. Catch some more Pokémon. You have six battles ahead of you,
+        on six different fields, with no healing inbetween unless you use your healing items.
+        Best to buy the full restores from the Pokécentre here. If you get wiped, you can fly to
+        and from here on the map screen like normal and you don't have to go back through Victory
+        Road.
+    </p>
+
+    <p>
+        The "twist" here is that all of the Elite 4 leaders use dual types instead of single types.
+        They're also all on favourable field effects and have full level 100 teams. Whenever
+        you're ready, enter the League building and pass through the eighteen badge gates to
+        progress. 
+    </p>
+
+    <div class="notification is-warning">
+        As soon as you start the battle with Heather, you are locked out of the Remote PC.
+    </div>
+
+    <h2 class="subtitle">The Gauntlet</h2>
+
+    <p>
+        Here's the four battles of the Elite 4 you'll face. First up is Heather, who is a dual
+        Poison and Flying type trainer. Her battle is on the Mountain Field. Flying/Poison isn't
+        an especially good dual type defensively; you should be able to muscle through her with
+        most Pokémon, but Electric and Psychic types can help.
+    </p>
+
+    {{ trainer_battle_content("Heather", "HEATHER", 20) }}
+
+    <p>
+        The second is Bennett & Laura, who fight as a single enemy trainer with 6 Pokémon despite
+        the name. They're dual Bug and Grass type trainers, and this is a double battle. Their
+        battle is on the Flower Field which is <i>extremely</i> advantageous to them. Setting up
+        the Rainbow Field with Drought on turn 1 (e.g. Mega Arcanine) will let you easily beat
+        them, as will having Fire or Flying types.
+    </p>
+
+    {{ trainer_battle_content("Bennett & Laura", "BENNETTLAURA", 20)}}
+
+    <p>
+        The third is Elias, who is a dual Normal and Dragon type trainer. His battle is on the
+        Holy Field, which means Ghost types are at a disadvantage; keep that one in mind. This is
+        the hardest of all six battles here; Fighting and Fairy types, as well as Extreme Speed
+        (which gets a hefty boost and outwits his high speed Pokémon) are a must.
+    </p>
+
+    {{ trainer_battle_content("Elias", "ELIAS", 20) }}
+
+    <p>
+        To no surprise at all, the fourth and final Elite 4 member is Anna, who is a dual Fairy and
+        Steel type trainer. She gives you some plot exposition before your fight that explains some
+        background lore; she's a complete pushover. 
+    </p>
+
+    {{ trainer_battle_content("Anna", "ANNA", 20) }}
+
+    <h3 class="subtitle">Lin, Pt 2</h3>
+
+    <p>
+        Once you've left Anna's room, you can go up the path into the champion room for the first
+        of two battles against Lin. There's actually two versions of this battle.
+    </p>
+
+    <p>
+        If you refused to give Blake the Ruby Ring:
+    </p>
+
+    {{ trainer_battle_content("Lin", "LIN", 20) }}
+
+    <p>
+        If you gave Blake the Ruby Ring:
+    </p>
+
+    {{ trainer_battle_content("Lin", "LIN", 21) }}
+
+    <h3 class="subtitle">Lin, Pt 2</h3>
+
+    {{ ss("newworld") }}
+
+    <p>
+        After beating her, you will get a small cutscene before you are returned to the Citae 
+        Astrae. Follow her up into the Citae Astrae and proceed into the Emerald Tower door to 
+        continue. Say all Pokémon here are Dark to proceed; then proceed into the Sapphire Tower
+        and say all Pokémon here are Light.
+    </p>
+
+    <p>
+        Step into the New World to continue. No matter what route you take, you will always have
+        at least one battle here (although, it will vary depending on if you're on the good route
+        or not).
+    </p>
+
+    <p>
+        If you <i>are</i> on the good route, this is your battle:
+    </p>
+
+    {{ trainer_battle_content("Lin", "LIN", 23) }}
+
+    <p>
+        Otherwise, this is your <strong>final</strong> main-game battle:
+    </p>
+
+    {{ trainer_battle_content("Lin", "LIN", 22) }}
+
+    <h3 class="subtitle">Lin, Pt 3?</h3>
+
+    <p>
+        The next part of the game varies massively depending on the route:
+    </p>
+
+    <ol>
+        <li>
+            On the bad route (i.e. any route where you did not take ALL the required steps) you will
+            be cast out of the New World with an amibigious ending.
+        </li>
+        <li>
+            On the good route, Anna will intervene and you will partake in the third and final
+            battle with Child Lin.
+        </li>
+    </ol>
+
+    {{ trainer_battle_content("Lin", "CHILDLIN", 0) }}
+
+    <p>
+        <STRONG>IT IS OKAY TO LOSE THIS BATTLE!!!</STRONG> If you lose, you will get the same 
+        postgame and final game ending as the bad route, but a <strong>backup save</strong>
+        will be made that lets you go back to before the second Lin Battle.
+    </p>
+
+    <p>
+        That means that after beating the bad route's postgame, you can throw at the second battle,
+        go back to the start of the E4, use your Shared Box to load up a team of six legendaries, 
+        and wipe her in the third battle to get the good route ending. It is my recommendation that 
+        you delibeerately LOSE the third battle if this is your first (postgame) playthrough
+        as Anna Smiles doesn't make much sense without beating the game normally.
+    </p>
+
+    <p>
+        Regardless of which ending you pick, you'll get a credit roll (press A to skip) and you
+        will wake up back in the Peridot Ward. Congratulations! You beat the game! Or, rather...
+        you beat the first three quarters. Welcome to the postgame!
+    </p>
+</div>
+{% endblock %}

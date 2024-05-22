@@ -75,27 +75,6 @@ spd = 0
 spe = 0
 
 [[trainers.ELIAS.0.pokemon]]
-internal_name = "DRAMPA"
-level = 100
-raw_item = "WIKIBERRY"
-raw_moves = [
-    "NATUREPOWER",
-    "DRAGONPULSE",
-    "SURF",
-    "FLAMETHROWER",
-]
-nature = "MODEST"
-iv = 31
-
-[trainers.ELIAS.0.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 0
-spa = 0
-spd = 252
-spe = 4
-
-[[trainers.ELIAS.0.pokemon]]
 internal_name = "DITTO"
 level = 100
 raw_item = "CHOICESCARF"
@@ -113,28 +92,6 @@ hp = 0
 atk = 252
 def_ = 0
 spa = 0
-spd = 0
-spe = 0
-
-[[trainers.ELIAS.0.pokemon]]
-internal_name = "KANGASKHAN"
-level = 100
-raw_item = "KANGASKHANITE"
-raw_moves = [
-    "POWERUPPUNCH",
-    "EARTHQUAKE",
-    "RETURN",
-    "ROCKTOMB",
-]
-nature = "JOLLY"
-iv = 31
-happiness = 255
-
-[trainers.ELIAS.0.pokemon.evs]
-hp = 0
-atk = 4
-def_ = 252
-spa = 252
 spd = 0
 spe = 0
 
@@ -969,16 +926,15 @@ raw_battle_items = [
 ]
 
 [[trainers.ELIAS.20.pokemon]]
-internal_name = "CYCLIZAR"
+internal_name = "KANGASKHAN"
 level = 100
-raw_item = "FOCUSSASH"
+raw_item = "KANGASKHANITE"
 raw_moves = [
+    "POWERUPPUNCH",
+    "EARTHQUAKE",
     "RETURN",
-    "DRAGONCLAW",
-    "SHEDTAIL",
-    "SHIFTGEAR",
+    "ROCKTOMB",
 ]
-ability_number = 1
 nature = "JOLLY"
 iv = 31
 happiness = 255
@@ -990,6 +946,7 @@ def_ = 252
 spa = 252
 spd = 0
 spe = 0
+
 
 [[trainers.ELIAS.20.pokemon]]
 internal_name = "NOIVERN"
@@ -1058,23 +1015,23 @@ spd = 0
 spe = 0
 
 [[trainers.ELIAS.20.pokemon]]
-internal_name = "NOCTOWL"
+internal_name = "DRAMPA"
 level = 100
-raw_item = "NOCTOWLITE"
+raw_item = "WIKIBERRY"
 raw_moves = [
-    "MOONBLAST",
-    "HYPERVOICE",
-    "PSYCHIC",
-    "HEATWAVE",
+    "NATUREPOWER",
+    "DRAGONPULSE",
+    "SURF",
+    "FLAMETHROWER",
 ]
-nature = "TIMID"
+nature = "MODEST"
 iv = 31
 
 [trainers.ELIAS.20.pokemon.evs]
 hp = 0
-atk = 0
+atk = 252
 def_ = 0
-spa = 252
+spa = 0
 spd = 252
 spe = 4
 

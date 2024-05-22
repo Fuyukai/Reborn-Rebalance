@@ -1,14 +1,15 @@
 trainer_name = "Lin"
 
-[trainers.LIN.0]
+[trainers.LIN.20]
 raw_trainer_class = "LIN"
 battler_name = "Lin"
+battler_id = 20
 raw_battle_items = [
     "FULLRESTORE",
     "FULLRESTORE",
 ]
 
-[[trainers.LIN.0.pokemon]]
+[[trainers.LIN.20.pokemon]]
 internal_name = "NINETALES"
 level = 100
 raw_item = "EJECTBUTTON"
@@ -24,7 +25,7 @@ nature = "TIMID"
 iv = 31
 happiness = 0
 
-[trainers.LIN.0.pokemon.evs]
+[trainers.LIN.20.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -32,7 +33,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.LIN.0.pokemon]]
+[[trainers.LIN.20.pokemon]]
 internal_name = "GARDEVOIR"
 level = 100
 raw_item = "GARDEVOIRITE"
@@ -48,7 +49,7 @@ nature = "MODEST"
 iv = 31
 happiness = 0
 
-[trainers.LIN.0.pokemon.evs]
+[trainers.LIN.20.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -56,7 +57,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.LIN.0.pokemon]]
+[[trainers.LIN.20.pokemon]]
 internal_name = "GARCHOMP"
 level = 100
 raw_item = "CHOICESCARF"
@@ -70,7 +71,7 @@ nature = "ADAMANT"
 iv = 31
 happiness = 0
 
-[trainers.LIN.0.pokemon.evs]
+[trainers.LIN.20.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -78,7 +79,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.LIN.0.pokemon]]
+[[trainers.LIN.20.pokemon]]
 internal_name = "CONKELDURR"
 level = 100
 raw_item = "FLAMEORB"
@@ -92,7 +93,7 @@ nature = "ADAMANT"
 iv = 31
 happiness = 0
 
-[trainers.LIN.0.pokemon.evs]
+[trainers.LIN.20.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -100,7 +101,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.LIN.0.pokemon]]
+[[trainers.LIN.20.pokemon]]
 internal_name = "DELPHOX"
 level = 100
 raw_item = "CHOICESPECS"
@@ -115,7 +116,7 @@ nature = "TIMID"
 iv = 31
 happiness = 0
 
-[trainers.LIN.0.pokemon.evs]
+[trainers.LIN.20.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
@@ -123,7 +124,7 @@ spa = 252
 spd = 252
 spe = 252
 
-[[trainers.LIN.0.pokemon]]
+[[trainers.LIN.20.pokemon]]
 internal_name = "ABRA"
 level = 100
 raw_item = "LIFEORB"
@@ -139,7 +140,7 @@ nature = "TIMID"
 iv = 31
 happiness = 0
 
-[trainers.LIN.0.pokemon.evs]
+[trainers.LIN.20.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 252
