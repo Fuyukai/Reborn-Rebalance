@@ -477,7 +477,7 @@ def main():
 
             extra_env["NAME"], extra_env["TITLE"] = entry
 
-            if n < len(walkthrough_chapters):
+            if n < len(walkthrough_chapters) - 1:
                 next_entry = walkthrough_chapters[n + 1]
                 extra_env["RIGHTLINK_ID"], extra_env["RIGHTLINK_NAME"] = next_entry
 
