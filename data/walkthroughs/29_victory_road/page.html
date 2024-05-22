@@ -26,13 +26,137 @@
     <i>♫ Pokémon Mystery Dungeon- Hidden Highland Remix ♫</i>
 
     <p>
-        I'm sorry, but this caused me simply too much stress and grief to write. This is an 
-        overview of the major trainer battles instead; you can use the Reborn wikia for specific
-        puzzle guides.
+        I'm sorry, but this caused me simply too much stress and grief to write. Most of the puzzles
+        will be skipped here except for the last one, and only the trainer battles will be
+        detailed.
     </p>
 
     <p>
         Maybe I'll come back to this in the future. The trainer battles are more important anyway.
+    </p>
+
+    <p>
+        You can visit <a href="https://docs.google.com/document/d/1xuB2-EkGe_xAEY5g3AlibnfE1SUHopWjCvWosqqi82w/edit">
+        this</a> document for solutions to some of the puzzles on Victory Road.
+    </p>
+
+    <h2 class="subtitle">Just Skip It</h2>
+
+    <p>
+        If you enable walk-through-walls, you can actually skip most of this without the events
+        breaking due to how RPG Maker XP works. Progress through the story is tracked using an
+        <i>incrementing</i> variable, but the actual variable is always <b>set to a higher value</b>;
+        this means as long as you hit the hidden event object that sets the E19 Story variable to
+        the final few values you'll be able to skip most of the events here.
+    </p>
+
+    <p>
+        Obviously, do a backup save before this. Just walk around through the areas until you find
+        the crystal star puzzle; you'll still need to go into the four rooms to get the crystal
+        key pieces but you can skip all of the minecart puzzles and the logic puzzles this way
+        without issue. I can assure you; you aren't missing out on any major 
+    </p>
+
+    <p>
+        (If anyone asks, I did NOT say it was okay to do this.) 
+    </p>
+
+    <h2 class="subtitle">The Evil Puzzle</h2>
+
+    {{ ss("evilpuzzle") }}
+
+    <p>
+        Welcome back from the intermission. The crystal star puzzle is the only puzzle you can't
+        just skip as the warp is embedded into the immovable door; and the combination for the lock
+        is generated randomly at the start of the game. My combination won't work for you and 
+        vice-versa.
+    </p>
+
+    <p>
+        Directly below here is a warp to the cave room with the four crystal rooms; the wall of
+        crystals in each has now been removed and you can freely traverse them. This is where
+        your final set of actual battles are! After solving the room, find the lowest areas and
+        pick up your three crystal stars.
+    </p>
+
+    <h3 class="subtitle">Blue Room</h3>
+
+    <p>
+        The Sapphire floor has Blake waiting beyond some ice puzzles (check the document linked
+        above for the solution.) Beat him up and collect the Sapphire stars.
+    </p>
+
+    {{ trainer_battle_content("Blake", "BLAKE", 22) }}
+
+    <h3 class="subtitle">Green Room</h3>
+
+    <p>
+        This is the most obnoxious room of them all; Fern will constantly throw arrows at you which
+        knock you back to the lower area and cause all of your Pokémon to take damage each time.
+        You need to maneuver around the room in order to open a path to the top cliffs; from 
+        there, you can activate a crystal to reflect the arrow back at Decidueye. Do this three
+        times (and definitely DON'T use walk through walls to make it there...) then go through
+        the cave at the very top of the room to collect the Emerald stars.
+    </p>
+
+    <h3 class="subtitle">Purple Room</h3>
+
+    <p>
+        After a small cutscene, you'll be chased by an evil Gardevoir. The purple crystals won't do
+        anything when you interact with them here; you need to guide the Evil Orb over them to
+        unlock the next area. If you get hit by the Evil Orb you'll get teleported back to the 
+        previous room. This is more tedious than challenging; turn off speedup and wait by the
+        crystal. Collect the Amethyst stars and teleport back.
+    </p>
+
+    <h3 class="subtitle">Red Room</h3>
+
+    <p>
+        This room is yet another tedious backtracking maze; just wander through it (there's only
+        one path) or clip through to the upper right to make it to the cutscene room. Save your
+        game before you go down the path to meet the Gang; then go down the rocks for a long
+        cutscene and a double battle with Sirius. (This is a really bad cutscene.)
+    </p>
+
+    {{ trainer_battle_content("Sirius", "Sirius", 22) }}
+
+    <h3 class="subtitle">Solving The Puzzle</h3>
+
+    {{ ss("evilpuzzlesolved", "THIS IS NOT YOUR COMBINATION!") }}
+
+    <p>
+        The actual puzzle here is to insert a crystal star of a specific type (RSEA) into each
+        slot in the wall. Like I said, the combination is specific to your save and was baked in
+        at the very start, so I can't just tell you the answer, but there's an easy way to solve it
+        in roughly ~20 guesses.
+    </p>
+
+    <ol>
+        <li>Put a star into the first slot</li>
+        <li>Step on the pad to check the combination</li>
+        <li>
+            If a new indicator on the <i>right</i> lit up, move onto the next slot. ELse, retry
+            with a different type of star.
+        </li>
+    </ol>
+
+    <p>
+        This takes about 5 minutes to bruteforce. When you're done, move onto the newly opened area.
+    </p>
+
+    <h3 class="subtitle">Fuck You, Fern</h3>
+
+    {{ ss("ferndeath") }}
+
+    <p>
+        After all of that, one more fight remains; Fern. 
+    </p>
+
+    {{ trainer_battle_content("Fern", "Hotshot", 27)}}
+
+    <p>
+        Afterwards, there's a long-ish cutscene; when you're ready, leave Victory Road to find
+        the Pokémon League.
     </p>
 </div>
 {% endblock %}
