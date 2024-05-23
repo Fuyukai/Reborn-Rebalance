@@ -1,11 +1,12 @@
 trainer_name = "of the Pyukumuku"
 
-[trainers.PYUKMUK.0]
+[trainers.PYUKMUK.20]
 raw_trainer_class = "PYUKMUK"
 battler_name = "of the Pyukumuku"
+battler_id = 20
 raw_battle_items = []
 
-[[trainers.PYUKMUK.0.pokemon]]
+[[trainers.PYUKMUK.20.pokemon]]
 internal_name = "PYUKUMUKU"
 level = 100
 raw_item = "LEFTOVERS"
@@ -20,7 +21,7 @@ nature = "BOLD"
 iv = 31
 nickname = "Pyukmuk"
 
-[trainers.PYUKMUK.0.pokemon.evs]
+[trainers.PYUKMUK.20.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 0
