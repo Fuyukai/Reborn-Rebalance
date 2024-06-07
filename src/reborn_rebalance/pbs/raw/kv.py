@@ -18,7 +18,7 @@ class KvResultDict(dict[str, str | int]):
     @overload
     def pop_str(self, key: str, default: _DefaultV) -> str | _DefaultV: ...
 
-    def pop_str(self, key: str, default: _DefaultV = None) -> str | _DefaultV:
+    def pop_str(self, key: str, default: _DefaultV = None) -> str | _DefaultV:  # type: ignore
         """
         Pops a string key from this dict, or returns the default if it doesn't exist.
         """
@@ -35,7 +35,7 @@ class KvResultDict(dict[str, str | int]):
     @overload
     def pop_int(self, key: str, default: _DefaultV) -> int | _DefaultV: ...
 
-    def pop_int(self, key: str, default: _DefaultV = None) -> int | _DefaultV:
+    def pop_int(self, key: str, default: _DefaultV = None) -> int | _DefaultV:  # type: ignore
         """
         Pops an int key from this dict, or returns the default if it doesn't exist.
         """
