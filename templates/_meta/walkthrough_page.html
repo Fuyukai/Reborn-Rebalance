@@ -19,7 +19,11 @@
 </figure>
 {%- endmacro -%}
 
-{%- macro mp(id, name) -%}
+{%- macro mp(id, name=None) -%}
+{% if name is none %}
+{% set name = catalog.maps[id].name %}
+{% endif %}
+
 <a href="/maps/{{ '{:03d}'.format(id) }}.html" target="_blank">{{ name }}</a>
 {%- endmacro -%}
 
