@@ -1277,28 +1277,6 @@ battler_name = "Radomus"
 raw_battle_items = []
 
 [[trainers.UMBRADOMUS.0.pokemon]]
-internal_name = "BISHARP"
-level = 115
-raw_item = "DREADPLATE"
-raw_moves = [
-    "STEALTHROCK",
-    "IRONHEAD",
-    "SUCKERPUNCH",
-    "SWORDSDANCE",
-]
-sex = ""
-nature = "ADAMANT"
-iv = 0
-
-[trainers.UMBRADOMUS.0.pokemon.evs]
-hp = 0
-atk = 252
-def_ = 252
-spa = 252
-spd = 252
-spe = 252
-
-[[trainers.UMBRADOMUS.0.pokemon]]
 internal_name = "SAMUROTT"
 level = 115
 raw_item = "EXPERTBELT"
@@ -1311,6 +1289,28 @@ raw_moves = [
 ability_number = 1
 sex = ""
 nature = "SERIOUS"
+iv = 0
+
+[trainers.UMBRADOMUS.0.pokemon.evs]
+hp = 0
+atk = 252
+def_ = 252
+spa = 252
+spd = 252
+spe = 252
+
+[[trainers.UMBRADOMUS.0.pokemon]]
+internal_name = "KINGAMBIT"
+level = 115
+raw_item = "DREADPLATE"
+raw_moves = [
+    "STEALTHROCK",
+    "KOWTOWCLEAVE",
+    "SUCKERPUNCH",
+    "SWORDSDANCE",
+]
+sex = ""
+nature = "ADAMANT"
 iv = 0
 
 [trainers.UMBRADOMUS.0.pokemon.evs]
