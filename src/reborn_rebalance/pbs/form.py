@@ -250,13 +250,13 @@ class PokemonForms:
                 buffer.write_line("},")
 
                 if not self.custom_default_mapping:
-                    buffer.write_line(":DefaultForm => 0,")
+                    buffer.write_line(f":DefaultForm => {self.default_form},")
 
             elif self.mega_form is not None:
                 buffer.write_line(f":MegaForm => {self.mega_form},")
 
                 if not self.custom_default_mapping:
-                    buffer.write_line(":DefaultForm => 0,")
+                    buffer.write_line(f":DefaultForm => {self.default_form},")
 
             if self.ultra_form is not None:
                 buffer.write_line(f":UltraForm => {self.ultra_form},")
