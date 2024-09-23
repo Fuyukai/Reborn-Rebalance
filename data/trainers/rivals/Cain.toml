@@ -112,6 +112,26 @@ spa = 0
 spd = 0
 spe = 0
 
+[[trainers.Cain.1.pokemon]]
+internal_name = "FUECOCO"
+level = 16
+raw_moves = [
+    "BITE",
+    "CURSE",
+    "EMBER",
+    "YAWN"
+]
+ability_number = 1
+nature = "IMPISH"
+
+[trainers.Cain.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
 [trainers.Cain.2]
 raw_trainer_class = "Cain"
 battler_name = "Cain"
