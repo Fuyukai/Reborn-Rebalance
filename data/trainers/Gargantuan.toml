@@ -1,11 +1,12 @@
 trainer_name = "Gargantuan"
 
-[trainers.Steelix.0]
+[trainers.Steelix.20]
 raw_trainer_class = "Steelix"
 battler_name = "Gargantuan"
 raw_battle_items = []
+battler_id = 20
 
-[[trainers.Steelix.0.pokemon]]
+[[trainers.Steelix.20.pokemon]]
 internal_name = "STEELIX"
 level = 75
 raw_item = "SITRUSBERRY"
@@ -21,7 +22,7 @@ form_number = 2
 nature = "CAREFUL"
 iv = 31
 
-[trainers.Steelix.0.pokemon.evs]
+[trainers.Steelix.20.pokemon.evs]
 hp = 0
 atk = 252
 def_ = 4
