@@ -1,7 +1,7 @@
 dex_number = 943
 name = "Mabosstiff"
 primary_type = "DARK"
-secondary_type = "DARK"
+secondary_type = "GROUND"
 gender_ratio = "Female50Percent"
 growth_rate = "Parabolic"
 exp_yield = 184
@@ -11,6 +11,7 @@ raw_abilities = [
     "INTIMIDATE",
     "GUARDDOG",
 ]
+raw_hidden_ability = "STAKEOUT"
 raw_level_up_moves = [
     { at_level = 0, name = "COMEUPPANCE" },
     { at_level = 1, name = "LEER" },
@@ -26,6 +27,7 @@ raw_level_up_moves = [
     { at_level = 34, name = "CRUNCH" },
     { at_level = 39, name = "SWAGGER" },
     { at_level = 43, name = "REVERSAL" },
+    { at_level = 45, name = "STOMPINGTANTRUM" },
     { at_level = 48, name = "JAWLOCK" },
     { at_level = 55, name = "DOUBLEEDGE" },
     { at_level = 60, name = "OUTRAGE" },
@@ -76,6 +78,8 @@ raw_tms = [
     "PLAYROUGH",
     "RETALIATE",
     "TRAILBLAZE",
+    "EARTHQUAKE",
+    "BODYPRESS",
 ]
 raw_tutor_moves = [
     "BURNINGJEALOUSY",
@@ -87,6 +91,7 @@ raw_tutor_moves = [
     "PAINSPLIT",
     "SNATCH",
     "THROATCHOP",
+    "HEADLONGRUSH",
 ]
 compatible_egg_groups = [
     "Field",
@@ -96,19 +101,18 @@ height = 1.1
 weight = 61.0
 colour = "Gray"
 kind = "Boss"
-pokedex_entry = "This Pokémon can store energy in its large dewlap. Mabosstiff unleashes this energy all at once to blow away enemies."
+pokedex_entry = "Mabosstiff loves playing with children. Though usually gentle, it takes on an intimidating look when protecting its family."
 battler_player_y = 16
 battler_enemy_y = 12
 battler_altitude = 0
-raw_hidden_ability = "STAKEOUT"
 regional_numbers = 943
 
 [base_stats]
-hp = 80
-atk = 120
-def_ = 90
+hp = 85
+atk = 130
+def_ = 95
 spa = 60
-spd = 70
+spd = 75
 spe = 85
 
 [ev_yield]

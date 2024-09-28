@@ -11,6 +11,7 @@ raw_abilities = [
     "SANDRUSH",
     "FLUFFY",
 ]
+raw_hidden_ability = "ROCKHEAD"
 raw_level_up_moves = [
     { at_level = 0, name = "LASTRESPECTS" },
     { at_level = 1, name = "TACKLE" },
@@ -98,11 +99,11 @@ battler_enemy_y = 12
 battler_altitude = 0
 
 [base_stats]
-hp = 72
+hp = 84
 atk = 101
-def_ = 100
+def_ = 111
 spa = 50
-spd = 97
+spd = 101
 spe = 68
 
 [ev_yield]
