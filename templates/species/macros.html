@@ -259,7 +259,8 @@
 </div>
 {%- endmacro -%}
 
-{%- macro gen_level_up_table(attributes, egg_moves) -%}
+{%- macro gen_level_up_table(attributes) -%}
+{% set egg_moves = attributes.raw_egg_moves %}
 <div class="jsify-hidden" data-form="{{ attributes.form_name }}" data-type="tm">
 <table class="table is-fullwidth is-striped sortable">
     <thead>

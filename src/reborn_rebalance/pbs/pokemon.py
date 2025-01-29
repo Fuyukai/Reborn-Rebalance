@@ -58,6 +58,9 @@ class FormAttributes:
     #: The list of moves learned upon level up.
     raw_level_up_moves: list[RawLevelUpMove] = attr.ib()
 
+    #: The list of moves learnable when hatched from an egg.
+    raw_egg_moves: list[str] = attr.ib()
+
     #: The Pokédex entry for this form.
     pokedex_entry: str | None = attr.ib()
 
@@ -92,6 +95,7 @@ class FormAttributes:
             secondary_type=self.secondary_type,
             raw_abilities=self.raw_abilities,
             raw_level_up_moves=self.raw_level_up_moves,
+            raw_egg_moves=self.raw_egg_moves,
             pokedex_entry=self.pokedex_entry,
         )
 
@@ -399,6 +403,7 @@ class PokemonSpecies:
             base_stats=self.base_stats,
             raw_abilities=self.full_abilities,
             raw_level_up_moves=self.raw_level_up_moves,
+            raw_egg_moves=self.raw_egg_moves,
             pokedex_entry=self.pokedex_entry,
             internal_name=self.internal_name,
         )

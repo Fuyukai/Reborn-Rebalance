@@ -161,7 +161,7 @@
             <hr/>
 
             {% for idx, form_name, attribs in catalog.all_forms_for(species.internal_name) %}
-            {{ gen_level_up_table(attribs, species.raw_egg_moves) }}
+            {{ gen_level_up_table(attribs) }}
             {% endfor %}
 
             <hr/>

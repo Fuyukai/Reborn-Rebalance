@@ -84,6 +84,9 @@ class SinglePokemonForm:
     #: The moveset overrides for this form.
     raw_level_up_moves: list[RawLevelUpMove] = attr.ib(factory=list)
 
+    #: The custom egg moves for this form.
+    raw_egg_moves: list[str] = attr.ib(factory=list)
+
     # ofc evos are done in the stupidest possible way too
     #: Raw evolution data.
     evo_data: list[tuple[int, int, int]] = attr.ib(factory=list)
@@ -102,6 +105,7 @@ class SinglePokemonForm:
             pokedex_entry=self.pokedex_entry or species.pokedex_entry,
             raw_abilities=self.raw_abilities or species.full_abilities,
             raw_level_up_moves=self.raw_level_up_moves or species.raw_level_up_moves,
+            raw_egg_moves=self.raw_egg_moves or species.raw_egg_moves,
             internal_name=species.internal_name,
         )
 
