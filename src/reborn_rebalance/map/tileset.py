@@ -9,7 +9,7 @@ from PIL import Image
 from PIL.Image import Image as ImageKlass
 from rubymarshal.classes import RubyObject, RubyString
 
-from reborn_rebalance.scripts.unmarshal import RgssTable, unmarshal
+from reborn_rebalance.unmarshal import RgssTable, unmarshal
 
 #: The number of *extra tiles* in this tileset. These are the tiles corresponding to the
 EXTRA_TILE_COUNT = 384

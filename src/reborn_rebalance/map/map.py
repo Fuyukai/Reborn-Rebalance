@@ -9,7 +9,7 @@ from PIL import Image
 from PIL.Image import Image as ImageKlass
 
 from reborn_rebalance.map.tileset import AllTilesets, load_all_tilesets
-from reborn_rebalance.scripts.unmarshal import RgssTable, unmarshal
+from reborn_rebalance.unmarshal import RgssTable, unmarshal
 
 # TODO: event parsing. yeah, eventually i wanna show that on the docs too (esp. if this turns into
 #       a more general purpose essentials transpiler).

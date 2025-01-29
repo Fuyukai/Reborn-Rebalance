@@ -31,7 +31,7 @@ readme = "README.rst"
 [project.scripts]
 into-pbs = "reborn_rebalance.building.to_pbs:build_to_pbs"
 into-toml = "reborn_rebalance.building.to_toml:import_to_toml"
-ruby-unmarshal = "reborn_rebalance.scripts.unmarshal:main"
+ruby-unmarshal = "reborn_rebalance.unmarshal:main"
 build-web = "reborn_rebalance.building.web:main"
 copy-compiled-files = "reborn_rebalance.scripts.copy_changes:main"
 resave-data = "reborn_rebalance.scripts.resave:main"
