@@ -1,3 +1,4 @@
+# pyright: strict
 from __future__ import annotations
 
 import concurrent.futures
@@ -5,6 +6,7 @@ import csv
 from io import StringIO
 from pathlib import Path
 
+import attr
 import cattrs
 from rtoml import load
 from tomli_w import dump
@@ -90,6 +92,12 @@ def create_cattrs_converter() -> cattrs.Converter:
 CONVERTER = create_cattrs_converter()
 
 
+@attr.define(slots=True, frozen=True)
+class LoadedForm:
+    path: Path = attr.field()
+    forms: PokemonForms = attr.field()
+
+
 def load_single_species_toml(path: Path) -> tuple[int, PokemonSpecies]:
     """
     Loads a single species from the provided TOML file.
@@ -116,7 +124,7 @@ def load_all_species_from_pbs(path: Path) -> list[PokemonSpecies]:
     return [PokemonSpecies.from_pbs(key, it) for key, it in raw_data.items() if it]
 
 
-def load_all_species_from_toml(path: Path, *, singlethreaded: bool = False) -> list[PokemonSpecies]:
+def load_all_species_from_toml(path: Path) -> list[PokemonSpecies]:
     """
     Loads all species from the TOML directory, and returns them in Pokédex order.
     """
@@ -132,14 +140,12 @@ def load_all_species_from_toml(path: Path, *, singlethreaded: bool = False) -> l
     species: list[PokemonSpecies] = [None] * len(to_read)  # type: ignore
 
     with concurrent.futures.ProcessPoolExecutor() as executor:
-        mapping_fn = map if singlethreaded else executor.map
-
-        for idx, decoded in mapping_fn(load_single_species_toml, to_read):
+        for idx, decoded in executor.map(load_single_species_toml, to_read):
             species[idx - 1] = decoded
 
     if __debug__:
         for idx, read_in in enumerate(species):
-            if read_in is None:
+            if read_in is None:  # type: ignore
                 raise ValueError(f"didn't load {idx + 1}")
 
     return species
@@ -231,12 +237,16 @@ def load_single_form(path: Path) -> PokemonForms:
     return forms_for_mon
 
 
-def load_all_forms(path: Path, *, singlethreaded: bool = False) -> dict[str, PokemonForms]:
+def _load_single_form_parallel_wrapper(path: Path) -> tuple[Path, PokemonForms]:
+    return (path, load_single_form(path))
+
+
+def load_all_forms(path: Path) -> dict[str, LoadedForm]:
     """
     Loads all forms from the provided path.
     """
 
-    all_forms = {}
+    all_forms: dict[str, LoadedForm] = {}
     to_load: list[Path] = []
 
     for subfile in path.glob("**/*"):
@@ -249,10 +259,9 @@ def load_all_forms(path: Path, *, singlethreaded: bool = False) -> dict[str, Pok
         to_load.append(subfile)
 
     with concurrent.futures.ProcessPoolExecutor() as executor:
-        mapping_fn = map if singlethreaded else executor.map
-
-        for forms in mapping_fn(load_single_form, to_load):
-            all_forms[forms.internal_name] = forms
+        for path, forms in executor.map(_load_single_form_parallel_wrapper, to_load):
+            loaded = LoadedForm(path, forms)
+            all_forms[forms.internal_name] = loaded
 
     return all_forms
 
@@ -540,22 +549,14 @@ def load_single_encounter(path: Path) -> tuple[int, MapEncounters]:
     return id, encounter
 
 
-def load_encounters_from_toml(
-    path: Path, *, singlethread: bool = False
-) -> dict[int, MapEncounters]:
+def load_encounters_from_toml(path: Path) -> dict[int, MapEncounters]:
     """
     Loads the encounters data from the ``encounters.toml`` file.
     """
 
-    encounters = {}
     with concurrent.futures.ProcessPoolExecutor() as executor:
-        mapping_fn = map if singlethread else executor.map
         filtered_encounters = filter(lambda it: it.suffix == ".toml", path.rglob("*"))
-
-        for id, encounter in mapping_fn(load_single_encounter, filtered_encounters):
-            encounters[id] = encounter  # noqa: PERF403
-
-    return encounters
+        return dict(executor.map(load_single_encounter, filtered_encounters))
 
 
 def save_encounters_to_pbs(path: Path, data: dict[int, MapEncounters]):
@@ -749,7 +750,7 @@ def load_single_trainer_file_toml(path: Path) -> tuple[str, dict[str, dict[int, 
     return path.stem, trainers
 
 
-def load_trainers_from_toml(path: Path, *, singlethread: bool = False) -> dict[str, TrainerCatalog]:
+def load_trainers_from_toml(path: Path) -> dict[str, TrainerCatalog]:
     """
     Loads all trainers from TOML.
     """
@@ -759,9 +760,8 @@ def load_trainers_from_toml(path: Path, *, singlethread: bool = False) -> dict[s
 
     with concurrent.futures.ProcessPoolExecutor() as executor:
         filtered_trainers = filter(lambda it: it.suffix == ".toml", path.rglob("*"))
-        mapping_fn = map if singlethread else executor.map
 
-        for name, mapping in mapping_fn(load_single_trainer_file_toml, filtered_trainers):
+        for name, mapping in executor.map(load_single_trainer_file_toml, filtered_trainers):
             catalog = TrainerCatalog(trainer_name=name, trainers=mapping)
             trainers[name] = catalog
 
