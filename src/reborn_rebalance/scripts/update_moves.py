@@ -30,6 +30,10 @@ def main():
                 print(f"reassigning {name} to move ID {id}")
                 old_move["id"] = id
 
+            if old_move["description"] != (new_desc := move["description"]):
+                print(f"updating description for {name} to {new_desc}")
+                old_move["description"] = new_desc
+
             # hard-code esper wing
             if id > 750 and id != 794:
                 if old_move["move_function"] != (nf := move["move_function"]):
