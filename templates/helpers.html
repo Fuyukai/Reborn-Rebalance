@@ -47,7 +47,8 @@
 {%- endmacro -%}
 
 {%- macro evo_description_for(catalog, from_, into, evo) -%}
-{% set type = evo.condition|lower %}
+{# todo fix this to use the fucking enum!!! #}
+{% set type = evo.condition.name|lower %}
 
 {% if type == "happiness" %}
     {% if evo.parameter %}

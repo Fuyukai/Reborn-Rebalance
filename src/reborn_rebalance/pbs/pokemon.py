@@ -107,6 +107,9 @@ class FormAttributes:
     #: The Pokédex entry for this form.
     pokedex_entry: str | None = attr.ib()
 
+    #: The list of evolutions for this form.
+    evolutions: list[PokemonEvolution] = attr.ib()
+
     def has_stab_on(self, move: PokemonMove) -> bool:
         """
         Checks if this Pokémon has STAB (Same Type Advantage Bonus) on the given move.
@@ -129,6 +132,10 @@ class FormAttributes:
             ) from None
 
     def renamed(self, name: str) -> FormAttributes:
+        """
+        Creates a copy of this form with the only difference being the form name.
+        """
+
         return FormAttributes(
             internal_name=self.internal_name,
             name=self.name,
@@ -140,6 +147,7 @@ class FormAttributes:
             raw_level_up_moves=self.raw_level_up_moves,
             raw_egg_moves=self.raw_egg_moves,
             pokedex_entry=self.pokedex_entry,
+            evolutions=self.evolutions,
         )
 
 
@@ -449,6 +457,7 @@ class PokemonSpecies:
             raw_egg_moves=self.raw_egg_moves,
             pokedex_entry=self.pokedex_entry,
             internal_name=self.internal_name,
+            evolutions=self.evolutions
         )
 
     @cached_property

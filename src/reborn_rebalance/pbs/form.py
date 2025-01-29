@@ -109,6 +109,7 @@ class SinglePokemonForm:
             raw_level_up_moves=self.raw_level_up_moves or species.raw_level_up_moves,
             raw_egg_moves=self.raw_egg_moves or species.raw_egg_moves,
             internal_name=species.internal_name,
+            evolutions=self.evo_data_v2 or species.evolutions,
         )
 
     def generate_ruby_code(self, buffer: RubyBuffer):
