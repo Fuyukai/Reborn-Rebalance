@@ -1,5 +1,8 @@
+from __future__ import annotations
+
 import re
-from typing import Self
+from functools import total_ordering
+from typing import Any, Self
 
 import attr
 from cattrs import Converter
@@ -14,13 +17,18 @@ TM_NUMBER_REGEXP = re.compile(r"^(TMX?|HM)(\d{1,3})$")
 
 
 def tm_number_for(name: str) -> int:
+    """
+    Gets the actual TM number for the provided TM string.
+    """
+
     match = TM_NUMBER_REGEXP.match(name)
     assert match is not None, "hwat"
 
     return int(match.group(2))
 
 
-@attr.s(kw_only=True, slots=True)
+@attr.s(kw_only=True, slots=True, order=False, hash=True, eq=True)
+@total_ordering
 class TechnicalMachine:
     """
     A single technical machine that can be learned by various Pokémon.
@@ -47,12 +55,14 @@ class TechnicalMachine:
     move: str = attr.ib()
 
     # aaaa
-    # ok, this field is EMPTY in the yaml and is only used when loading from PBS.
+    # ok, this field is EMPTY in the TOML and is only used when loading from PBS.
     # tms are stored (as they fucking should be, what the fuck is this design in the game) on thee
     # POKEMON themselves.
     # this is written to during PBS serialisation as well...
-    #: The list of compatible Pokémon for this TM.
-    pokemon: set[str] = attr.ib(factory=set)
+    
+    #: The list of compatible Pokémon for this TM. This is always empty at runtime, and is only
+    #: used for serialisation purposes.
+    pokemon: set[str] = attr.ib(factory=set, hash=False, eq=False)
 
     @classmethod
     def incomplete_from_pbs(cls, move: str, line: list[str]) -> Self:
@@ -61,3 +71,17 @@ class TechnicalMachine:
         """
 
         return cls(move=move, pokemon=set(line))
+
+    def __lt__(self, other: Any) -> bool:
+        if not isinstance(other, TechnicalMachine):
+            return NotImplemented
+        
+        # TMXs are always sorted before TMs
+        if self.is_tmx and not other.is_tmx:
+            return True
+
+        if self.number is not None and other.number is not None:
+            return self.number < other.number
+        
+        # lexicographic sort
+        return self.move < other.move

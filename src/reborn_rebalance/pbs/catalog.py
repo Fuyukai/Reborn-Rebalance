@@ -533,16 +533,19 @@ class EssentialsCatalog:
 
         return instance
 
-    def save_to_toml(self, path: Path):
+    def save_to_toml(self, path: Path, *, allow_overwrites: bool = False):
         """
         Serialises all objects within this catalog to toml format.
+
+        If ``allow_overwrites`` is True, some objects that are normally never overwritten will be
+        overwritten.
         """
 
         path.mkdir(parents=True, exist_ok=True)
 
         species_path = path / "species"
         species_path.mkdir(parents=True, exist_ok=True)
-        save_all_species_to_toml(species_path, self.species)
+        save_all_species_to_toml(species_path, self.species, allow_overwriting=allow_overwrites)
 
         moves_path = path / "moves.toml"
         save_moves_to_toml(moves_path, self.moves)
@@ -623,7 +626,7 @@ class EssentialsCatalog:
 
         for sp in self.species:
             sorted_tms = sorted(
-                sp.raw_tms, key=lambda tm_name: self.tm_name_mapping[tm_name].number or 0
+                sp.raw_tms, key=lambda tm_name: self.tm_name_mapping[tm_name]
             )
 
             sp.raw_tms = sorted_tms

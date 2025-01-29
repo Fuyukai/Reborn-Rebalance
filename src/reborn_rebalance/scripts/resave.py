@@ -6,7 +6,7 @@ from reborn_rebalance.pbs.catalog import EssentialsCatalog
 
 def main() -> int:
     """
-    Resaves certain data to adjust to the new formatting.
+    Resaves the entire catalogue to adjust formatting or sorting issues.
     """
 
     try:
@@ -19,7 +19,7 @@ def main() -> int:
     new_path.mkdir(exist_ok=True, parents=True)
 
     catalog = EssentialsCatalog.load_from_toml(path, skip_validation=True)
-    catalog.save_to_toml(new_path)
+    catalog.save_to_toml(new_path, allow_overwrites=True)
 
     return 0
 

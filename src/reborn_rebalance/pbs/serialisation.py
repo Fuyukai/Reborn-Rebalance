@@ -170,7 +170,12 @@ def save_single_species_to_toml(output_path: Path, species: PokemonSpecies):
         dump(output, f)
 
 
-def save_all_species_to_toml(output_path: Path, input_pokemon: list[PokemonSpecies]):
+def save_all_species_to_toml(
+    output_path: Path, 
+    input_pokemon: list[PokemonSpecies],
+    *,
+    allow_overwriting: bool = False,
+):
     """
     Saves all species to the provided ``output_path`` in TOML format, divided by generation.
     """
@@ -191,8 +196,11 @@ def save_all_species_to_toml(output_path: Path, input_pokemon: list[PokemonSpeci
         toml_path = (output_path / f"gen_{gidx + 1}" / name).with_suffix(".toml")
 
         if toml_path.exists():
-            print(f"Not overwriting {name}")
-            continue
+            if not allow_overwriting:
+                print(f"Not overwriting {name}")        
+                continue
+            
+            print(f"Forcibly overwriting {name}!!!")
 
         save_single_species_to_toml(toml_path, species)
         print(f"Saved {name}")
