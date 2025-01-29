@@ -315,7 +315,11 @@ class EssentialsCatalog:
 
         # backfill names into the map metadata, as the file only contains the map number.
         for info in map_metadata.values():
-            raw_info = map_names.pop(info.id)
+            try:
+                raw_info = map_names.pop(info.id)
+            except KeyError:
+                print("wtf, couldn't find map", info)
+                continue
 
             info.name = raw_info.name
             info.parent_id = raw_info.parent_id
@@ -441,11 +445,14 @@ class EssentialsCatalog:
         cls,
         path: Path,
         *,
+        skip_validation: bool = False,
         skip_species: bool = False,
         single_threaded: bool = False,
     ) -> Self:
         """
         Loads all objects from toml files in the provided ``data`` directory.
+
+        Will validate all entries unless ``skip_validation`` is provided.
         """
 
         if single_threaded:
@@ -517,8 +524,13 @@ class EssentialsCatalog:
         )
 
         instance._sort()
-        instance._validate()
-        print("loaded and validated catalog")
+
+        if not skip_validation:
+            instance._validate()
+            print("loaded and validated catalog")
+        else:
+            print("WARNING: skipped validating catalogue!!!")
+
         return instance
 
     def save_to_toml(self, path: Path):

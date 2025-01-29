@@ -3,7 +3,7 @@ from pathlib import Path
 import rtoml
 
 # Re-assigns IDs because the all gen guy fucking reid'd old moves. what the fuck!
-
+# Also fixes move function IDs.
 
 def main():
     old = rtoml.load(Path("./data/movesold.toml"))["moves"]

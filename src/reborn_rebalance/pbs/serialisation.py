@@ -46,7 +46,7 @@ GENERATIONS = [
     # Grookey -> Enamorus
     range(810, 906),
     # Sprigatito -> Terapagos
-    range(906, 1036),
+    range(906, 1038),
 ]
 
 
@@ -313,7 +313,12 @@ def load_items_from_pbs(path: Path) -> list[PokemonItem]:
     with path.open(mode="r", encoding="utf-8") as f:
         reader = csv.reader(f)
 
-        return [PokemonItem.from_row(i) for i in reader if i]
+        for raw_row in reader:
+            # wtf?
+            if not raw_row or len(raw_row) < 8:
+                continue
+            
+            items.append(PokemonItem.from_row(raw_row))
 
     return items
 
@@ -529,7 +534,7 @@ def load_encounters_from_toml(
         filtered_encounters = filter(lambda it: it.suffix == ".toml", path.rglob("*"))
 
         for id, encounter in mapping_fn(load_single_encounter, filtered_encounters):
-            encounters[id] = encounter
+            encounters[id] = encounter  # noqa: PERF403
 
     return encounters
 

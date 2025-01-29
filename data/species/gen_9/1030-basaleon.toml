@@ -1,5 +1,5 @@
 dex_number = 1030
-name = "Zirconeon"
+name = "Basaleon"
 primary_type = "ROCK"
 secondary_type = "ROCK"
 gender_ratio = "FemaleOneEighth"
@@ -8,8 +8,8 @@ exp_yield = 184
 catch_rate = 45
 caught_happiness = 50
 raw_abilities = [
-    "FILTER",
-    "LIGHTNINGROD",
+    "ROCKYPAYLOAD",
+    "EARTHEATER",
 ]
 raw_level_up_moves = [
     { at_level = 0, name = "ACCELEROCK" },
@@ -20,100 +20,109 @@ raw_level_up_moves = [
     { at_level = 1, name = "TACKLE" },
     { at_level = 1, name = "SANDATTACK" },
     { at_level = 3, name = "GROWL" },
-    { at_level = 6, name = "QUICKATTACK" },
-    { at_level = 9, name = "BITE" },
-    { at_level = 14, name = "CONFUSERAY" },
-    { at_level = 19, name = "ANCIENTPOWER" },
+    { at_level = 6, name = "BITE" },
+    { at_level = 9, name = "ROCKTHROW" },
+    { at_level = 14, name = "CURSE" },
+    { at_level = 19, name = "SMACKDOWN" },
     { at_level = 24, name = "ROCKPOLISH" },
-    { at_level = 28, name = "SANDSTORM" },
-    { at_level = 32, name = "SHOCKWAVE" },
+    { at_level = 28, name = "ROCKBLAST" },
+    { at_level = 32, name = "BULLDOZE" },
     { at_level = 35, name = "STEALTHROCK" },
-    { at_level = 38, name = "SIGNALBEAM" },
-    { at_level = 43, name = "POWERGEM" },
-    { at_level = 48, name = "DARKPULSE" },
-    { at_level = 53, name = "AURASPHERE" },
-    { at_level = 60, name = "DISCHARGE" },
-    { at_level = 68, name = "METEORBEAM" },
+    { at_level = 38, name = "ROCKSLIDE" },
+    { at_level = 43, name = "SANDSTORM" },
+    { at_level = 48, name = "THRASH" },
+    { at_level = 52, name = "IRONTAIL" },
+    { at_level = 56, name = "LUNGE" },
+    { at_level = 60, name = "STONEEDGE" },
 ]
 raw_tms = [
     "WORKUP",
-    "CALMMIND",
+    "STRENGTH",
     "ROAR",
     "TOXIC",
-    "FLASH",
+    "ROCKSMASH",
+    "BULKUP",
+    "ROCKCLIMB",
     "HIDDENPOWER",
-    "SUNNYDAY",
-    "ICEBEAM",
-    "HYPERBEAM",
-    "LIGHTSCREEN",
+    "TAUNT",
     "PROTECT",
-    "RAINDANCE",
     "FRUSTRATION",
-    "SOLARBEAM",
     "SMACKDOWN",
+    "EARTHQUAKE",
     "RETURN",
-    "SHADOWBALL",
     "DOUBLETEAM",
-    "REFLECT",
     "SANDSTORM",
     "ROCKTOMB",
     "FACADE",
     "REST",
     "ATTRACT",
     "ROUND",
-    "ECHOEDVOICE",
-    "CHARGEBEAM",
+    "FLING",
+    "BRUTALSWING",
     "GIGAIMPACT",
     "ROCKPOLISH",
     "STONEEDGE",
-    "THUNDERWAVE",
+    "BULLDOZE",
     "ROCKSLIDE",
-    "SWAGGER",
+    "DRAGONTAIL",
     "SLEEPTALK",
     "SUBSTITUTE",
     "FLASHCANNON",
     "SECRETPOWER",
+    "SNARL",
     "NATUREPOWER",
-    "DAZZLINGGLEAM",
     "CONFIDE",
-    "PAYDAY",
     "DIG",
     "SCREECH",
-    "SELFDESTRUCT",
+    "SCARYFACE",
     "CHARM",
-    "WEATHERBALL",
     "FAKETEARS",
+    "SANDTOMB",
+    "ROCKBLAST",
+    "CRUNCH",
+    "TAILSLAP",
     "BODYSLAM",
-    "FOCUSENERGY",
+    "CLOSECOMBAT",
     "ENDURE",
     "BATONPASS",
-    "ENCORE",
-    "AURASPHERE",
-    "POWERGEM",
-    "STOREDPOWER",
+    "HIGHHORSEPOWER",
+    "BODYPRESS",
     "RETALIATE",
+    "POUNCE",
     "TRAILBLAZE",
     "SWIFT",
+    "LUNGE",
+    "ALLURINGVOICE",
+    "UPPERHAND",
+    "TAKEDOWN",
+    "MUDBOMB",
+    "MUDSLAP",
+    "CURSE",
+    "DOUBLEKICK",
+    "BITE",
 ]
 raw_tutor_moves = [
     "ANCIENTPOWER",
-    "BURNINGJEALOUSY",
-    "CELEBRATE",
+    "AQUATAIL",
+    "BLOCK",
     "COVET",
-    "DOUBLEEDGE",
     "HEADBUTT",
-    "HEALBELL",
     "HELPINGHAND",
-    "HYPERVOICE",
     "IRONTAIL",
-    "LASTRESORT",
-    "MAGNETRISE",
-    "MUDSLAP",
-    "SHOCKWAVE",
-    "SIGNALBEAM",
+    "KNOCKOFF",
+    "ROLLOUT",
     "SNORE",
     "STEALTHROCK",
-    "ZENHEADBUTT",
+    "STOMPINGTANTRUM",
+    "SUPERPOWER",
+    "THROATCHOP",
+    "SKITTERSMACK",
+    "MIMIC",
+    "DOUBLEEDGE",
+    "SEISMICTOSS",
+    "DEFENSECURL",
+    "BABYDOLLEYES",
+    "QUICKATTACK",
 ]
 compatible_egg_groups = [
     "Field",
@@ -123,24 +132,24 @@ height = 1.0
 weight = 34.0
 colour = "Black"
 kind = "Gem"
-pokedex_entry = "The crystals on its head radiates in various colours depending on its mood. They turn black when it gets irritated."
+pokedex_entry = "This Pokémon is often found in volcanic regions, where it blends seamlessly into the environment. The heat from magma seems to energize it."
 battler_player_y = 24
 battler_enemy_y = 17
 battler_altitude = 0
-raw_hidden_ability = "WONDERSKIN"
+raw_hidden_ability = "SANDRUSH"
 habitat = "Urban"
 
 [base_stats]
-hp = 130
-atk = 60
-def_ = 65
-spa = 110
+hp = 110
+atk = 130
+def_ = 95
+spa = 60
 spd = 65
-spe = 95
+spe = 65
 
 [ev_yield]
 hp = 0
-atk = 0
+atk = 2
 def_ = 0
 spa = 0
 spd = 0

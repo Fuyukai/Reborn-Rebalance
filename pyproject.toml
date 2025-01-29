@@ -35,7 +35,7 @@ build-web = "reborn_rebalance.building.web:main"
 copy-compiled-files = "reborn_rebalance.scripts.copy_changes:main"
 resave-data = "reborn_rebalance.scripts.resave:main"
 validate-catalog = "reborn_rebalance.scripts.validate:do_extended_validation"
-
+update-moves = "reborn_rebalance.scripts.update_moves:main"
 
 [dependency-groups]
 dev = [

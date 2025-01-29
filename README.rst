@@ -136,8 +136,7 @@ Future Plans
     For either way, writing direct code generation probably isn't too hard and is a future
     priority.
 
-  * The latest Reborn `dev blog`_ says that this was the plan internally anyway, but that was
-    (as of writing) almost exactly a year ago. It probably won't matter in the end.
+  * Yeah, turns out I'll have to do this eventually...
 
 - Add the ability to splice events into the game code without needing to use the RPG Maker editor.
 
@@ -145,25 +144,9 @@ Future Plans
 
 - Add support for Rejuvenation and Desolation.
 
-  * Reborn is a finished project and is (afaik) unlikely to get any other major content updates.
-    This makes it generally "safe" for rebalancing, as I don't have to worry about my changes
-    suddenly getting undone. I also know roughly how internally unbalanced Reborn is (quite a bit,
-    tbh) and where to adjust things.
-
-    Rejuv and Deso are *not* finished, meaning they are subject to future balance changes and
-    any work that might be put in
-
-  * Rejuvenation doesn't (yet) use the dict-based form syntax, so the form code generation won't
-    work. Everything else should work fine, provided you only copy over the ``pokemon.txt`` and
-    ``tms.txt``; or, you can regenerate all of the data from their provided PBS files. You'll
-    have to add all of the Aevian forms yourself for now.
-
-  * Desolation doesn't seem to provide PBS files, so you can't re-generate the data based on it.
-    If they do, then somebody let me know and I will see about how hard it would be to support it.
-
   * I haven't actually *played* through either of these games so I don't know how to even
     rebalance them (or, hell, how internally unbalanced they are anyway). On the other hand,
-    I've played through Reborn three times, so I know what I'm doing here.
+    I've played through Reborn ~~three~~ FIVE times, so I know what I'm doing here.
 
 - Hardcode the paths less and split the project out into a general "Reborn-engine transpiler"
   project and a "Reborn-only rebalance" project.
