@@ -24,35 +24,59 @@ HEARTHFLAMEMASK = 7
 CORNERSTONEMASK = 8
 
 [forms."Teal Mask"]
+form_name = "Teal Mask"
 pokedex_entry = "This mischief-loving Pokémon is full of curiosity. It battles by drawing out the type-based energy contained within its masks."
-raw_abilities = ["DEFIANT"]
+raw_abilities = [
+    "DEFIANT",
+]
 
 [forms."Wellspring Mask"]
-pokedex_entry = "This form excels in both attack and defense. It ceaselessly unleashes moves like a spring gushes water."
+form_name = "Wellspring Mask"
 secondary_type = "WATER"
-raw_abilities = ["WATERABSORB"]
+pokedex_entry = "This form excels in both attack and defense. It ceaselessly unleashes moves like a spring gushes water."
+raw_abilities = [
+    "WATERABSORB",
+]
 
 [forms."Hearthflame Mask"]
-pokedex_entry = "This form is the most aggressive, bombarding enemies with the intensity of flames blazing within a hearth."
+form_name = "Hearthflame Mask"
 secondary_type = "FIRE"
-raw_abilities = ["MOLDBREAKER"]
+pokedex_entry = "This form is the most aggressive, bombarding enemies with the intensity of flames blazing within a hearth."
+raw_abilities = [
+    "MOLDBREAKER",
+]
 
 [forms."Cornerstone Mask"]
-pokedex_entry = "This form has excellent defenses, absorbing impacts solidly like the cornerstones that support houses."
+form_name = "Cornerstone Mask"
 secondary_type = "ROCK"
-raw_abilities = ["STURDY"]
+pokedex_entry = "This form has excellent defenses, absorbing impacts solidly like the cornerstones that support houses."
+raw_abilities = [
+    "STURDY",
+]
 
 [forms."Mega Teal"]
-raw_abilities = ["EMBODYASPECT"]
+form_name = "Mega Teal"
+raw_abilities = [
+    "EMBODYASPECT",
+]
 
 [forms."Mega Wellspring"]
+form_name = "Mega Wellspring"
 secondary_type = "WATER"
-raw_abilities = ["EMBODYASPECT"]
+raw_abilities = [
+    "EMBODYASPECT",
+]
 
 [forms."Mega Hearthflame"]
+form_name = "Mega Hearthflame"
 secondary_type = "FIRE"
-raw_abilities = ["EMBODYASPECT"]
+raw_abilities = [
+    "EMBODYASPECT",
+]
 
 [forms."Mega Cornerstone"]
+form_name = "Mega Cornerstone"
 secondary_type = "ROCK"
-raw_abilities = ["EMBODYASPECT"]
+raw_abilities = [
+    "EMBODYASPECT",
+]

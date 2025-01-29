@@ -1,8 +1,19 @@
 internal_name = "SERPERIOR"
-form_mapping = { 1 = "Mega" }
 mega_form = 1
 
+[form_mapping]
+1 = "Mega"
+
 [forms.Mega]
-base_stats = { hp = 75, atk = 95, def_ = 115, spa = 95, spd = 115, spe = 133 }
-# FUCK giving it adaptability?
-raw_abilities = ["CONTRARY"]
+form_name = "Mega"
+raw_abilities = [
+    "CONTRARY",
+]
+
+[forms.Mega.base_stats]
+hp = 75
+atk = 95
+def_ = 115
+spa = 95
+spd = 115
+spe = 133

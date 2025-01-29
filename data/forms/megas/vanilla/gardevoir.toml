@@ -1,12 +1,38 @@
-form_mapping = { 1 = "Mega", 2 = "Void" }
-default_form = 0
-custom_mega_mapping = { "GARDEVOIRITE" = 1, "VOIDSTONE" = 2 }
+internal_name = "GARDEVOIR"
+
+[form_mapping]
+1 = "Mega"
+2 = "Void"
+
+[custom_mega_mapping]
+GARDEVOIRITE = 1
+VOIDSTONE = 2
 
 [forms.Mega]
-base_stats = { hp = 68, atk = 85, def_ = 65, spa = 165, spd = 135, spe = 100 }
-raw_abilities = ["PIXILATE"]
+form_name = "Mega"
+raw_abilities = [
+    "PIXILATE",
+]
+
+[forms.Mega.base_stats]
+hp = 68
+atk = 85
+def_ = 65
+spa = 165
+spd = 135
+spe = 100
 
 [forms.Void]
-base_stats = { hp = 68, atk = 110, def_ = 80, spa = 175, spd = 145, spe = 110 }
-raw_abilities = ["DUSKILATE"]
+form_name = "Void"
 secondary_type = "DARK"
+raw_abilities = [
+    "DUSKILATE",
+]
+
+[forms.Void.base_stats]
+hp = 68
+atk = 110
+def_ = 80
+spa = 175
+spd = 145
+spe = 110

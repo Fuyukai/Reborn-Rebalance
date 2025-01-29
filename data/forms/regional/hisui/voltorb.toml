@@ -1,53 +1,27 @@
 internal_name = "VOLTORB"
-form_mapping = { 0 = "Kanto", 1 = "Hisui" }
-custom_init = """
-chancemaps=[198,281]
-# Map IDs for galarian form
-if $game_map && chancemaps.include?($game_map.map_id)
-    randomnum = rand(2)
-    if randomnum == 1
-        next 1
-    elsif randomnum == 0
-        next 0
-    end
-else
-    next 0
-end
-"""
+custom_init = "chancemaps=[198,281]\n# Map IDs for galarian form\nif $game_map && chancemaps.include?($game_map.map_id)\n    randomnum = rand(2)\n    if randomnum == 1\n        next 1\n    elsif randomnum == 0\n        next 0\n    end\nelse\n    next 0\nend\n"
+
+[form_mapping]
+0 = "Kanto"
+1 = "Hisui"
 
 [forms.Hisui]
 form_name = "Hisui"
 secondary_type = "GRASS"
-evo_data = [[101, 7, 15]]
-
-[[forms.Hisui.raw_level_up_moves]]
-at_level = 1
-name = "THUNDERSHOCK"
-
-[[forms.Hisui.raw_level_up_moves]]
-at_level = 5
-name = "TACKLE"
-
-[[forms.Hisui.raw_level_up_moves]]
-at_level = 9
-name = "THUNDERWAVE"
-
-[[forms.Hisui.raw_level_up_moves]]
-at_level = 15
-name = "SPARK"
-
-[[forms.Hisui.raw_level_up_moves]]
-at_level = 21
-name = "ENERGYBALL"
-
-[[forms.Hisui.raw_level_up_moves]]
-at_level = 29
-name = "THUNDERBOLT"
-
-[[forms.Hisui.raw_level_up_moves]]
-at_level = 37
-name = "THUNDER"
-
-[[forms.Hisui.raw_level_up_moves]]
-at_level = 47
-name = "SELFDESTRUCT"
+raw_level_up_moves = [
+    { at_level = 1, name = "THUNDERSHOCK" },
+    { at_level = 5, name = "TACKLE" },
+    { at_level = 9, name = "THUNDERWAVE" },
+    { at_level = 15, name = "SPARK" },
+    { at_level = 21, name = "ENERGYBALL" },
+    { at_level = 29, name = "THUNDERBOLT" },
+    { at_level = 37, name = "THUNDER" },
+    { at_level = 47, name = "SELFDESTRUCT" },
+]
+evo_data = [
+    [
+        101,
+        7,
+        15,
+    ],
+]

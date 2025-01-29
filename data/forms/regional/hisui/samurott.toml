@@ -1,55 +1,50 @@
-form_mapping = { 0 = "Unova", 1 = "Hisui", 2 = "Mega" }
+internal_name = "SAMUROTT"
 mega_form = 2
 
+[form_mapping]
+0 = "Unova"
+1 = "Hisui"
+2 = "Mega"
+
 [forms.Hisui]
+form_name = "Hisui"
 secondary_type = "DARK"
-raw_abilities = ["TORRENT", "SHARPNESS"]
-base_stats = { hp = 90, atk = 115, def_ = 80, spa = 100, spd = 65, spe = 85 }
+raw_abilities = [
+    "TORRENT",
+    "SHARPNESS",
+]
+raw_level_up_moves = [
+    { at_level = 0, name = "CEASELESSEDGE" },
+    { at_level = 1, name = "NIGHTSLASH" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 6, name = "AQUAJET" },
+    { at_level = 11, name = "SWORDSDANCE" },
+    { at_level = 18, name = "WATERPULSE" },
+    { at_level = 21, name = "CEASELESSEDGE" },
+    { at_level = 25, name = "SLASH" },
+    { at_level = 34, name = "AQUACUTTER" },
+    { at_level = 40, name = "DARKPULSE" },
+    { at_level = 43, name = "HYDROPUMP" },
+]
 
-[[forms.Hisui.raw_level_up_moves]]
-at_level = 0
-name = "CEASELESSEDGE"
-
-[[forms.Hisui.raw_level_up_moves]]
-at_level = 1
-name = "NIGHTSLASH"
-
-[[forms.Hisui.raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[forms.Hisui.raw_level_up_moves]]
-at_level = 6
-name = "AQUAJET"
-
-[[forms.Hisui.raw_level_up_moves]]
-at_level = 11
-name = "SWORDSDANCE"
-
-[[forms.Hisui.raw_level_up_moves]]
-at_level = 18
-name = "WATERPULSE"
-
-[[forms.Hisui.raw_level_up_moves]]
-at_level = 21
-name = "CEASELESSEDGE"
-
-[[forms.Hisui.raw_level_up_moves]]
-at_level = 25
-name = "SLASH"
-
-[[forms.Hisui.raw_level_up_moves]]
-at_level = 34
-name = "AQUACUTTER"
-
-[[forms.Hisui.raw_level_up_moves]]
-at_level = 40
-name = "DARKPULSE"
-
-[[forms.Hisui.raw_level_up_moves]]
-at_level = 43
-name = "HYDROPUMP"
+[forms.Hisui.base_stats]
+hp = 90
+atk = 115
+def_ = 80
+spa = 100
+spd = 65
+spe = 85
 
 [forms.Mega]
-base_stats = { hp = 95, atk = 140, def_ = 105, spa = 108, spd = 90, spe = 90 }
-raw_abilities = ["SHARPNESS"]
+form_name = "Mega"
+raw_abilities = [
+    "SHARPNESS",
+]
+
+[forms.Mega.base_stats]
+hp = 95
+atk = 140
+def_ = 105
+spa = 108
+spd = 90
+spe = 90

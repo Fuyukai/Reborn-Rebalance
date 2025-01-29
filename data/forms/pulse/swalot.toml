@@ -1,7 +1,20 @@
-form_mapping = { 1 = "PULSE" }
+internal_name = "SWALOT"
 pulse_form = 1
 
+[form_mapping]
+1 = "PULSE"
+
 [forms.PULSE]
-base_stats = { hp = 100, atk = 73, def_ = 210, spa = 110, spd = 210, spe = 40 }
-raw_abilities = ["WATERABSORB"]
+form_name = "PULSE"
 secondary_type = "WATER"
+raw_abilities = [
+    "WATERABSORB",
+]
+
+[forms.PULSE.base_stats]
+hp = 100
+atk = 73
+def_ = 210
+spa = 110
+spd = 210
+spe = 40

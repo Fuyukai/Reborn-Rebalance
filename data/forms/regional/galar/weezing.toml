@@ -1,98 +1,39 @@
-form_mapping = { 1 = "Galar" }
+internal_name = "WEEZING"
+
+[form_mapping]
+1 = "Galar"
 
 [forms.Galar]
-pokedex_entry = "This Pokémon consumes particles that contaminate the air. Instead of leaving droppings, it expels clean air."
+form_name = "Galar"
 secondary_type = "FAIRY"
-raw_abilities = ["LEVITATE", "NEUTRALIZINGGAS", "MISTYSURGE"]
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 0
-name = "DOUBLEHIT"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 1
-name = "AROMATICMIST"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 1
-name = "POISONGAS"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 1
-name = "DEFOG"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 1
-name = "SMOG"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 1
-name = "SMOKESCREEN"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 1
-name = "FAIRYWIND"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 1
-name = "HAZE"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 1
-name = "HEATWAVE"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 1
-name = "STRANGESTEAM"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 12
-name = "CLEARSMOG"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 16
-name = "ASSURANCE"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 20
-name = "SLUDGE"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 24
-name = "AROMATHERAPY"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 28
-name = "SELFDESTRUCT"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 32
-name = "SLUDGEBOMB"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 38
-name = "TOXIC"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 44
-name = "BELCH"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 50
-name = "EXPLOSION"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 56
-name = "MEMENTO"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 62
-name = "DESTINYBOND"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 68
-name = "MISTYTERRAIN"
+pokedex_entry = "This Pokémon consumes particles that contaminate the air. Instead of leaving droppings, it expels clean air."
+raw_abilities = [
+    "LEVITATE",
+    "NEUTRALIZINGGAS",
+    "MISTYSURGE",
+]
+raw_level_up_moves = [
+    { at_level = 0, name = "DOUBLEHIT" },
+    { at_level = 1, name = "AROMATICMIST" },
+    { at_level = 1, name = "POISONGAS" },
+    { at_level = 1, name = "DEFOG" },
+    { at_level = 1, name = "SMOG" },
+    { at_level = 1, name = "SMOKESCREEN" },
+    { at_level = 1, name = "FAIRYWIND" },
+    { at_level = 1, name = "HAZE" },
+    { at_level = 1, name = "HEATWAVE" },
+    { at_level = 1, name = "STRANGESTEAM" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 12, name = "CLEARSMOG" },
+    { at_level = 16, name = "ASSURANCE" },
+    { at_level = 20, name = "SLUDGE" },
+    { at_level = 24, name = "AROMATHERAPY" },
+    { at_level = 28, name = "SELFDESTRUCT" },
+    { at_level = 32, name = "SLUDGEBOMB" },
+    { at_level = 38, name = "TOXIC" },
+    { at_level = 44, name = "BELCH" },
+    { at_level = 50, name = "EXPLOSION" },
+    { at_level = 56, name = "MEMENTO" },
+    { at_level = 62, name = "DESTINYBOND" },
+    { at_level = 68, name = "MISTYTERRAIN" },
+]

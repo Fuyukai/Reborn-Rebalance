@@ -1,82 +1,41 @@
-form_mapping = { 1 = "Galar" }
-custom_init = """
-chancemaps=[150,848,849,850,857,859]
-# Map IDs for galarian form
-if $game_map && chancemaps.include?($game_map.map_id)
-    randomnum = rand(2)
-    if randomnum == 1
-        next 1
-    elsif randomnum == 0
-        next 0
-    end
-else
-    next 0
-end
-"""
+internal_name = "FARFETCHD"
+custom_init = "chancemaps=[150,848,849,850,857,859]\n# Map IDs for galarian form\nif $game_map && chancemaps.include?($game_map.map_id)\n    randomnum = rand(2)\n    if randomnum == 1\n        next 1\n    elsif randomnum == 0\n        next 0\n    end\nelse\n    next 0\nend\n"
+
+[form_mapping]
+1 = "Galar"
 
 [forms.Galar]
-pokedex_entry = "The Farfetch’d of the Galar region are brave warriors, and they wield thick, tough leeks in battle."
+form_name = "Galar"
 primary_type = "FIGHTING"
 secondary_type = "FIGHTING"
-base_stats = { hp = 52, atk = 95, def_ = 55, spa = 55, spd = 58, spe = 62 }
-raw_abilities = ["STEADFAST", "JUSTIFIED", "SCRAPPY"]
+pokedex_entry = "The Farfetch’d of the Galar region are brave warriors, and they wield thick, tough leeks in battle."
+raw_abilities = [
+    "STEADFAST",
+    "JUSTIFIED",
+    "SCRAPPY",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "PECK" },
+    { at_level = 1, name = "SANDATTACK" },
+    { at_level = 5, name = "LEER" },
+    { at_level = 10, name = "FURYCUTTER" },
+    { at_level = 15, name = "ROCKSMASH" },
+    { at_level = 20, name = "BRUTALSWING" },
+    { at_level = 25, name = "DETECT" },
+    { at_level = 30, name = "KNOCKOFF" },
+    { at_level = 35, name = "DEFOG" },
+    { at_level = 40, name = "BRICKBREAK" },
+    { at_level = 45, name = "SWORDSDANCE" },
+    { at_level = 50, name = "SLAM" },
+    { at_level = 55, name = "LEAFBLADE" },
+    { at_level = 60, name = "FINALGAMBIT" },
+    { at_level = 65, name = "BRAVEBIRD" },
+]
 
-[[forms.Galar.raw_level_up_moves]]
-at_level = 1
-name = "PECK"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 1
-name = "SANDATTACK"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 5
-name = "LEER"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 10
-name = "FURYCUTTER"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 15
-name = "ROCKSMASH"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 20
-name = "BRUTALSWING"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 25
-name = "DETECT"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 30
-name = "KNOCKOFF"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 35
-name = "DEFOG"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 40
-name = "BRICKBREAK"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 45
-name = "SWORDSDANCE"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 50
-name = "SLAM"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 55
-name = "LEAFBLADE"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 60
-name = "FINALGAMBIT"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 65
-name = "BRAVEBIRD"
+[forms.Galar.base_stats]
+hp = 52
+atk = 95
+def_ = 55
+spa = 55
+spd = 58
+spe = 62

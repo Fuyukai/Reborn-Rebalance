@@ -1,4 +1,16 @@
-form_mapping = { 0 = "Chest", 1 = "Wandering" }
+internal_name = "GIMMIGHOUL"
+
+[form_mapping]
+0 = "Chest"
+1 = "Wandering"
 
 [forms.Wandering]
-base_stats = { hp = 45, atk = 30, def_ = 25, spa = 75, spd = 45, spe = 80 }
+form_name = "Wandering"
+
+[forms.Wandering.base_stats]
+hp = 45
+atk = 30
+def_ = 25
+spa = 75
+spd = 45
+spe = 80

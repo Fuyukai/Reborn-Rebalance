@@ -1,5 +1,16 @@
-form_mapping = { 1 = "Mega" }
+internal_name = "LATIOS"
 mega_form = 1
 
+[form_mapping]
+1 = "Mega"
+
 [forms.Mega]
-base_stats = { hp = 80, atk = 130, def_ = 100, spa = 160, spd = 120, spe = 110 }
+form_name = "Mega"
+
+[forms.Mega.base_stats]
+hp = 80
+atk = 130
+def_ = 100
+spa = 160
+spd = 120
+spe = 110

@@ -1,11 +1,34 @@
 internal_name = "TERAPAGOS"
-form_mapping = { 1 = "Terastal", 2 = "Stellar" }
 mega_form = 2
 
+[form_mapping]
+1 = "Terastal"
+2 = "Stellar"
+
 [forms.Terastal]
-base_stats = { hp = 95, atk = 95, def_ = 110, spa = 105, spd = 115, spe = 85 }
-raw_abilities = ["TERASHELL"]
+form_name = "Terastal"
+raw_abilities = [
+    "TERASHELL",
+]
+
+[forms.Terastal.base_stats]
+hp = 95
+atk = 95
+def_ = 110
+spa = 105
+spd = 115
+spe = 85
 
 [forms.Stellar]
-base_stats = { hp = 160, atk = 105, def_ = 110, spa = 130, spd = 110, spe = 85 }
-raw_abilities = ["TERAFORMZERO"]
+form_name = "Stellar"
+raw_abilities = [
+    "TERAFORMZERO",
+]
+
+[forms.Stellar.base_stats]
+hp = 160
+atk = 105
+def_ = 110
+spa = 130
+spd = 110
+spe = 85

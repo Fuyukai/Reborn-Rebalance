@@ -1,6 +1,6 @@
+internal_name = "ARCEUS"
 pulse_form = 19
 
-# ?
 [form_mapping]
 19 = "PULSE"
 20 = "PULSE"
@@ -23,4 +23,12 @@ pulse_form = 19
 37 = "PULSE"
 
 [forms.PULSE]
-base_stats = { hp = 255, atk = 125, def_ = 155, spa = 160, spd = 125, spe = 155 }
+form_name = "PULSE"
+
+[forms.PULSE.base_stats]
+hp = 255
+atk = 125
+def_ = 155
+spa = 160
+spd = 125
+spe = 155

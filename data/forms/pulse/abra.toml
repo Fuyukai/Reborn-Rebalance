@@ -1,7 +1,21 @@
-form_mapping = { 1 = "PULSE", 2 = "PULSE" }
+internal_name = "ABRA"
 pulse_form = 1
 
+[form_mapping]
+1 = "PULSE"
+2 = "PULSE"
+
 [forms.PULSE]
-base_stats = { hp = 25, atk = 20, def_ = 115, spa = 195, spd = 155, spe = 140 }
-raw_abilities = ["MAGICGUARD"]
+form_name = "PULSE"
 secondary_type = "STEEL"
+raw_abilities = [
+    "MAGICGUARD",
+]
+
+[forms.PULSE.base_stats]
+hp = 25
+atk = 20
+def_ = 115
+spa = 195
+spd = 155
+spe = 140

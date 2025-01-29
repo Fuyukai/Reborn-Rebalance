@@ -1,21 +1,31 @@
-form_mapping = { 0 = "Unova", 1 = "Galar" }
-custom_init = """
-chancemaps=[198,281]
-# Map IDs for galarian form
-if $game_map && chancemaps.include?($game_map.map_id)
-    randomnum = rand(2)
-    if randomnum == 1
-        next 1
-    elsif randomnum == 0
-        next 0
-    end
-else
-    next 0
-end
-"""
+internal_name = "YAMASK"
+custom_init = "chancemaps=[198,281]\n# Map IDs for galarian form\nif $game_map && chancemaps.include?($game_map.map_id)\n    randomnum = rand(2)\n    if randomnum == 1\n        next 1\n    elsif randomnum == 0\n        next 0\n    end\nelse\n    next 0\nend\n"
+
+[form_mapping]
+0 = "Unova"
+1 = "Galar"
 
 [forms.Galar]
+form_name = "Galar"
 secondary_type = "GROUND"
+raw_level_up_moves = [
+    { at_level = 1, name = "ASTONISH" },
+    { at_level = 1, name = "MEANLOOK" },
+    { at_level = 4, name = "DISABLE" },
+    { at_level = 8, name = "HAZE" },
+    { at_level = 12, name = "NIGHTSHADE" },
+    { at_level = 16, name = "CURSE" },
+    { at_level = 20, name = "SLAM" },
+    { at_level = 24, name = "CRAFTYSHIELD" },
+    { at_level = 28, name = "BRUTALSWING" },
+    { at_level = 32, name = "HEX" },
+    { at_level = 36, name = "POWERSPLIT" },
+    { at_level = 36, name = "GUARDSPLIT" },
+    { at_level = 40, name = "PROTECT" },
+    { at_level = 44, name = "SHADOWBALL" },
+    { at_level = 48, name = "EARTHQUAKE" },
+    { at_level = 52, name = "DESTINYBOND" },
+]
 raw_egg_moves = [
     "ALLYSWITCH",
     "CRAFTYSHIELD",
@@ -30,67 +40,3 @@ raw_egg_moves = [
     "POLTERGEIST",
     "TOXICSPIKES",
 ]
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 1
-name = "ASTONISH"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 1
-name = "MEANLOOK"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 4
-name = "DISABLE"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 8
-name = "HAZE"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 12
-name = "NIGHTSHADE"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 16
-name = "CURSE"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 20
-name = "SLAM"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 24
-name = "CRAFTYSHIELD"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 28
-name = "BRUTALSWING"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 32
-name = "HEX"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 36
-name = "POWERSPLIT"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 36
-name = "GUARDSPLIT"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 40
-name = "PROTECT"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 44
-name = "SHADOWBALL"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 48
-name = "EARTHQUAKE"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 52
-name = "DESTINYBOND"

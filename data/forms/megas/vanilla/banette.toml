@@ -1,10 +1,37 @@
-form_mapping = { 1 = "Mega X", 2 = "Mega Y" }
-custom_mega_mapping = { "BANETTITEX" = 1, "BANETTITEY" = 2 }
+internal_name = "BANETTE"
+
+[form_mapping]
+1 = "Mega X"
+2 = "Mega Y"
+
+[custom_mega_mapping]
+BANETTITEX = 1
+BANETTITEY = 2
 
 [forms."Mega X"]
-base_stats = { hp = 74, atk = 175, def_ = 75, spa = 93, spd = 93, spe = 75 }
-raw_abilities = ["PRANKSTER"]
+form_name = "Mega X"
+raw_abilities = [
+    "PRANKSTER",
+]
+
+[forms."Mega X".base_stats]
+hp = 74
+atk = 175
+def_ = 75
+spa = 93
+spd = 93
+spe = 75
 
 [forms."Mega Y"]
-base_stats = { hp = 74, atk = 140, def_ = 75, spa = 93, spd = 93, spe = 110 }
-raw_abilities = ["TOUGHCLAWS"]
+form_name = "Mega Y"
+raw_abilities = [
+    "TOUGHCLAWS",
+]
+
+[forms."Mega Y".base_stats]
+hp = 74
+atk = 140
+def_ = 75
+spa = 93
+spd = 93
+spe = 110

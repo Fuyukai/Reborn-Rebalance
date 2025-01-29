@@ -1,13 +1,37 @@
-form_mapping = { 1 = "PULSE", 2 = "Mega" }
-pulse_form = 1
+internal_name = "HYPNO"
 mega_form = 2
+pulse_form = 1
+
+[form_mapping]
+1 = "PULSE"
+2 = "Mega"
 
 [forms.PULSE]
-base_stats = { hp = 120, atk = 65, def_ = 190, spa = 125, spd = 225, spe = 80 }
-raw_abilities = ["NOGUARD"]
+form_name = "PULSE"
 secondary_type = "DARK"
+raw_abilities = [
+    "NOGUARD",
+]
+
+[forms.PULSE.base_stats]
+hp = 120
+atk = 65
+def_ = 190
+spa = 125
+spd = 225
+spe = 80
 
 [forms.Mega]
-base_stats = { hp = 105, atk = 73, def_ = 70, spa = 165, spd = 125, spe = 97 }
+form_name = "Mega"
 secondary_type = "GHOST"
-raw_abilities = ["NEUROFORCE"]
+raw_abilities = [
+    "NEUROFORCE",
+]
+
+[forms.Mega.base_stats]
+hp = 105
+atk = 73
+def_ = 70
+spa = 165
+spd = 125
+spe = 97

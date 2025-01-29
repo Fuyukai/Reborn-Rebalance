@@ -1,82 +1,56 @@
-form_mapping = { 0 = "Johto", 1 = "Galar", 2 = "Mega" }
-custom_init = """
-chancemaps=[575,576,577,578,579,608,610,851,856,863]
-# Map IDs for galarian form
-if $game_map && chancemaps.include?($game_map.map_id)
-    randomnum = rand(2)
-    if randomnum == 1
-        next 1
-    elsif randomnum == 0
-        next 0
-    end
-else
-    next 0
-end
-"""
+internal_name = "CORSOLA"
+custom_init = "chancemaps=[575,576,577,578,579,608,610,851,856,863]\n# Map IDs for galarian form\nif $game_map && chancemaps.include?($game_map.map_id)\n    randomnum = rand(2)\n    if randomnum == 1\n        next 1\n    elsif randomnum == 0\n        next 0\n    end\nelse\n    next 0\nend\n"
 mega_form = 2
 
+[form_mapping]
+0 = "Johto"
+1 = "Galar"
+2 = "Mega"
+
 [forms.Galar]
-pokedex_entry = "Sudden climate change wiped out this ancient kind of Corsola. This Pokémon absorbs others’ life-force through its branches."
+form_name = "Galar"
 primary_type = "GHOST"
 secondary_type = "GHOST"
-base_stats = { hp = 80, atk = 55, def_ = 110, spa = 80, spd = 110, spe = 30 }
-raw_abilities = ["WEAKARMOR", "CURSEDBODY"]
+pokedex_entry = "Sudden climate change wiped out this ancient kind of Corsola. This Pokémon absorbs others’ life-force through its branches."
+raw_abilities = [
+    "WEAKARMOR",
+    "CURSEDBODY",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "HARDEN" },
+    { at_level = 1, name = "TACKLE" },
+    { at_level = 5, name = "ASTONISH" },
+    { at_level = 10, name = "DISABLE" },
+    { at_level = 15, name = "SPITE" },
+    { at_level = 20, name = "ANCIENTPOWER" },
+    { at_level = 25, name = "HEX" },
+    { at_level = 30, name = "CURSE" },
+    { at_level = 35, name = "STRENGTHSAP" },
+    { at_level = 40, name = "POWERGEM" },
+    { at_level = 45, name = "NIGHTSHADE" },
+    { at_level = 50, name = "GRUDGE" },
+    { at_level = 55, name = "MIRRORCOAT" },
+]
 
-[[forms.Galar.raw_level_up_moves]]
-at_level = 1
-name = "HARDEN"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 1
-name = "TACKLE"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 5
-name = "ASTONISH"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 10
-name = "DISABLE"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 15
-name = "SPITE"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 20
-name = "ANCIENTPOWER"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 25
-name = "HEX"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 30
-name = "CURSE"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 35
-name = "STRENGTHSAP"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 40
-name = "POWERGEM"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 45
-name = "NIGHTSHADE"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 50
-name = "GRUDGE"
-
-[[forms.Galar.raw_level_up_moves]]
-at_level = 55
-name = "MIRRORCOAT"
+[forms.Galar.base_stats]
+hp = 80
+atk = 55
+def_ = 110
+spa = 80
+spd = 110
+spe = 30
 
 [forms.Mega]
-# WHY does this have 450 bst?
-# idfk man. i just gave it +100 bst. why not. fuck you.
-base_stats = { hp = 85, atk = 55, def_ = 85, spa = 125, spd = 100, spe = 115 }
+form_name = "Mega"
 secondary_type = "GHOST"
-raw_abilities = ["WATERBUBBLE"]
+raw_abilities = [
+    "WATERBUBBLE",
+]
+
+[forms.Mega.base_stats]
+hp = 85
+atk = 55
+def_ = 85
+spa = 125
+spd = 100
+spe = 115

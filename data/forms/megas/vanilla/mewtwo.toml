@@ -1,16 +1,39 @@
-form_mapping = { 1 = "Mega X", 2 = "Mega Y" }
+internal_name = "MEWTWO"
 mega_form = 1
+
+[form_mapping]
+1 = "Mega X"
+2 = "Mega Y"
 
 [custom_mega_mapping]
 MEWTWONITEX = 1
 MEWTWONITEY = 2
 
-
 [forms."Mega X"]
-base_stats = { hp = 106, atk = 190, def_ = 100, spa = 154, spd = 100, spe = 130 }
-raw_abilities = ["STEADFAST"]
+form_name = "Mega X"
 secondary_type = "FIGHTING"
+raw_abilities = [
+    "STEADFAST",
+]
+
+[forms."Mega X".base_stats]
+hp = 106
+atk = 190
+def_ = 100
+spa = 154
+spd = 100
+spe = 130
 
 [forms."Mega Y"]
-base_stats = { hp = 106, atk = 150, def_ = 70, spa = 194, spd = 120, spe = 140 }
-raw_abilities = ["INSOMNIA"]
+form_name = "Mega Y"
+raw_abilities = [
+    "INSOMNIA",
+]
+
+[forms."Mega Y".base_stats]
+hp = 106
+atk = 150
+def_ = 70
+spa = 194
+spd = 120
+spe = 140

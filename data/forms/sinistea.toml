@@ -1,5 +1,15 @@
-form_mapping = { 1 = "Cracked" }
+internal_name = "SINISTEA"
 custom_init = "rand(2)"
 
+[form_mapping]
+1 = "Cracked"
+
 [forms.Cracked]
-evo_data = [[855, 7, 811]]
+form_name = "Cracked"
+evo_data = [
+    [
+        855,
+        7,
+        811,
+    ],
+]

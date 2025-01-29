@@ -1,6 +1,19 @@
-form_mapping = { 1 = "Mega" }
+internal_name = "EMPOLEON"
 mega_form = 1
 
+[form_mapping]
+1 = "Mega"
+
 [forms.Mega]
-base_stats = { hp = 84, atk = 121, def_ = 118, spa = 131, spd = 121, spe = 60 }
-raw_abilities = ["BULLETPROOF"]
+form_name = "Mega"
+raw_abilities = [
+    "BULLETPROOF",
+]
+
+[forms.Mega.base_stats]
+hp = 84
+atk = 121
+def_ = 118
+spa = 131
+spd = 121
+spe = 60

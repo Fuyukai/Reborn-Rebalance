@@ -1,49 +1,34 @@
 internal_name = "EXEGGUTOR"
-form_mapping = { 0 = "Kanto", 1 = "Alola" }
+
+[form_mapping]
+0 = "Kanto"
+1 = "Alola"
 
 [forms.Alola]
 form_name = "Alola"
-pokedex_entry = "As it grew taller and taller, it outgrew its reliance on psychic powers, while within it awakened the power of the sleeping dragon."
 secondary_type = "DRAGON"
-base_stats = { hp = 95, atk = 105, def_ = 85, spa = 125, spd = 75, spe = 45 }
-raw_abilities = ["FRISK", "HARVEST"]
+pokedex_entry = "As it grew taller and taller, it outgrew its reliance on psychic powers, while within it awakened the power of the sleeping dragon."
+raw_abilities = [
+    "FRISK",
+    "HARVEST",
+]
+raw_level_up_moves = [
+    { at_level = 0, name = "DRAGONHAMMER" },
+    { at_level = 1, name = "DRAGONHAMMER" },
+    { at_level = 1, name = "SEEDBOMB" },
+    { at_level = 1, name = "BARRAGE" },
+    { at_level = 1, name = "HYPNOSIS" },
+    { at_level = 1, name = "CONFUSION" },
+    { at_level = 17, name = "PSYSHOCK" },
+    { at_level = 27, name = "EGGBOMB" },
+    { at_level = 37, name = "WOODHAMMER" },
+    { at_level = 47, name = "LEAFSTORM" },
+]
 
-[[forms.Alola.raw_level_up_moves]]
-at_level = 0
-name = "DRAGONHAMMER"
-
-[[forms.Alola.raw_level_up_moves]]
-at_level = 1
-name = "DRAGONHAMMER"
-
-[[forms.Alola.raw_level_up_moves]]
-at_level = 1
-name = "SEEDBOMB"
-
-[[forms.Alola.raw_level_up_moves]]
-at_level = 1
-name = "BARRAGE"
-
-[[forms.Alola.raw_level_up_moves]]
-at_level = 1
-name = "HYPNOSIS"
-
-[[forms.Alola.raw_level_up_moves]]
-at_level = 1
-name = "CONFUSION"
-
-[[forms.Alola.raw_level_up_moves]]
-at_level = 17
-name = "PSYSHOCK"
-
-[[forms.Alola.raw_level_up_moves]]
-at_level = 27
-name = "EGGBOMB"
-
-[[forms.Alola.raw_level_up_moves]]
-at_level = 37
-name = "WOODHAMMER"
-
-[[forms.Alola.raw_level_up_moves]]
-at_level = 47
-name = "LEAFSTORM"
+[forms.Alola.base_stats]
+hp = 95
+atk = 105
+def_ = 85
+spa = 125
+spd = 75
+spe = 45

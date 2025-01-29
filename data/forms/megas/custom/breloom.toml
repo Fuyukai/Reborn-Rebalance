@@ -1,10 +1,32 @@
-form_mapping = { 1 = "Bot", 2 = "Mega" }
+internal_name = "BRELOOM"
 mega_form = 2
 
+[form_mapping]
+1 = "Bot"
+2 = "Mega"
+
 [forms.Bot]
-base_stats = { hp = 210, atk = 160, def_ = 140, spa = 100, spd = 60, spe = 100 }
+form_name = "Bot"
 primary_type = "STEEL"
 
+[forms.Bot.base_stats]
+hp = 210
+atk = 160
+def_ = 140
+spa = 100
+spd = 60
+spe = 100
+
 [forms.Mega]
-base_stats = { hp = 80, atk = 145, def_ = 80, spa = 70, spd = 80, spe = 105 }
-raw_abilities = ["NOGUARD"]
+form_name = "Mega"
+raw_abilities = [
+    "NOGUARD",
+]
+
+[forms.Mega.base_stats]
+hp = 80
+atk = 145
+def_ = 80
+spa = 70
+spd = 80
+spe = 105

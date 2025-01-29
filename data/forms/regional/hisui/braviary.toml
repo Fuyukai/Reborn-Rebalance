@@ -1,112 +1,40 @@
-form_mapping = { 0 = "Unova", 1 = "Hisui" }
-custom_init = """
-chancemaps=[642,643,646,836,837]
-# Map IDs for galarian form
-if $game_map && chancemaps.include?($game_map.map_id)
-    randomnum = rand(2)
-    if randomnum == 1
-        next 1
-    elsif randomnum == 0
-        next 0
-    end
-else
-    next 0
-end
-"""
+internal_name = "BRAVIARY"
+custom_init = "chancemaps=[642,643,646,836,837]\n# Map IDs for galarian form\nif $game_map && chancemaps.include?($game_map.map_id)\n    randomnum = rand(2)\n    if randomnum == 1\n        next 1\n    elsif randomnum == 0\n        next 0\n    end\nelse\n    next 0\nend\n"
+
+[form_mapping]
+0 = "Unova"
+1 = "Hisui"
 
 [forms.Hisui]
+form_name = "Hisui"
 primary_type = "PSYCHIC"
-raw_abilities = ["KEENEYE", "SHEERFORCE", "TINTEDLENS"]
-
-
-[[forms.Hisui.raw_level_up_moves]]
-at_level = 0
-name = "ESPERWING"
-
-[[forms.Hisui.raw_level_up_moves]]
-at_level = 1
-name = "LEER"
-
-[[forms.Hisui.raw_level_up_moves]]
-at_level = 1
-name = "PECK"
-
-[[forms.Hisui.raw_level_up_moves]]
-at_level = 6
-name = "HONECLAWS"
-
-[[forms.Hisui.raw_level_up_moves]]
-at_level = 12
-name = "WINGATTACK"
-
-[[forms.Hisui.raw_level_up_moves]]
-at_level = 15
-name = "ESPERWING"
-
-[[forms.Hisui.raw_level_up_moves]]
-at_level = 18
-name = "TAILWIND"
-
-[[forms.Hisui.raw_level_up_moves]]
-at_level = 21
-name = "AERIALACE"
-
-[[forms.Hisui.raw_level_up_moves]]
-at_level = 24
-name = "SCARYFACE"
-
-[[forms.Hisui.raw_level_up_moves]]
-at_level = 27
-name = "WHIRLWIND"
-
-[[forms.Hisui.raw_level_up_moves]]
-at_level = 30
-name = "BULKUP"
-
-[[forms.Hisui.raw_level_up_moves]]
-at_level = 33
-name = "AIRSLASH"
-
-[[forms.Hisui.raw_level_up_moves]]
-at_level = 36
-name = "SLASH"
-
-[[forms.Hisui.raw_level_up_moves]]
-at_level = 36
-name = "NIGHTSLASH"
-
-[[forms.Hisui.raw_level_up_moves]]
-at_level = 39
-name = "AGILITY"
-
-[[forms.Hisui.raw_level_up_moves]]
-at_level = 44
-name = "SUPERPOWER"
-
-[[forms.Hisui.raw_level_up_moves]]
-at_level = 47
-name = "DUALWINGBEAT"
-
-[[forms.Hisui.raw_level_up_moves]]
-at_level = 51
-name = "QUICKATTACK"
-
-[[forms.Hisui.raw_level_up_moves]]
-at_level = 55
-name = "STEELWING"
-
-[[forms.Hisui.raw_level_up_moves]]
-at_level = 58
-name = "BRAVEBIRD"
-
-[[forms.Hisui.raw_level_up_moves]]
-at_level = 62
-name = "ZENHEADBUTT"
-
-[[forms.Hisui.raw_level_up_moves]]
-at_level = 66
-name = "DEFOG"
-
-[[forms.Hisui.raw_level_up_moves]]
-at_level = 70
-name = "CLOSECOMBAT"
+raw_abilities = [
+    "KEENEYE",
+    "SHEERFORCE",
+    "TINTEDLENS",
+]
+raw_level_up_moves = [
+    { at_level = 0, name = "ESPERWING" },
+    { at_level = 1, name = "LEER" },
+    { at_level = 1, name = "PECK" },
+    { at_level = 6, name = "HONECLAWS" },
+    { at_level = 12, name = "WINGATTACK" },
+    { at_level = 15, name = "ESPERWING" },
+    { at_level = 18, name = "TAILWIND" },
+    { at_level = 21, name = "AERIALACE" },
+    { at_level = 24, name = "SCARYFACE" },
+    { at_level = 27, name = "WHIRLWIND" },
+    { at_level = 30, name = "BULKUP" },
+    { at_level = 33, name = "AIRSLASH" },
+    { at_level = 36, name = "SLASH" },
+    { at_level = 36, name = "NIGHTSLASH" },
+    { at_level = 39, name = "AGILITY" },
+    { at_level = 44, name = "SUPERPOWER" },
+    { at_level = 47, name = "DUALWINGBEAT" },
+    { at_level = 51, name = "QUICKATTACK" },
+    { at_level = 55, name = "STEELWING" },
+    { at_level = 58, name = "BRAVEBIRD" },
+    { at_level = 62, name = "ZENHEADBUTT" },
+    { at_level = 66, name = "DEFOG" },
+    { at_level = 70, name = "CLOSECOMBAT" },
+]

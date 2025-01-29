@@ -1,10 +1,16 @@
 internal_name = "MINIOR"
-# ?
-# sprites are wrong here lol! not sure why thats the case. don't care enough to fix it.
-# nobody likes minior.
-form_mapping = { 7 = "Core" }
 custom_init = "rand(7)"
+
+[form_mapping]
+7 = "Core"
 
 [forms.Core]
 form_name = "Core"
-base_stats = { hp = 60, atk = 60, def_ = 100, spa = 60, spd = 100, spe = 60 }
+
+[forms.Core.base_stats]
+hp = 60
+atk = 60
+def_ = 100
+spa = 60
+spd = 100
+spe = 60

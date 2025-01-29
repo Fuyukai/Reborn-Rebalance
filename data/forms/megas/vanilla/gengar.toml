@@ -1,7 +1,20 @@
-form_mapping = { 1 = "Mega" }
+internal_name = "GENGAR"
 mega_form = 1
 has_dynamax_form = true
 
+[form_mapping]
+1 = "Mega"
+
 [forms.Mega]
-base_stats = { hp = 60, atk = 65, def_ = 80, spa = 170, spd = 95, spe = 130 }
-raw_abilities = ["SHADOWTAG"]
+form_name = "Mega"
+raw_abilities = [
+    "SHADOWTAG",
+]
+
+[forms.Mega.base_stats]
+hp = 60
+atk = 65
+def_ = 80
+spa = 170
+spd = 95
+spe = 130

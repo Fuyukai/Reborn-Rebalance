@@ -1,17 +1,52 @@
-form_mapping = { 1 = "PULSE A", 2 = "PULSE B", 3 = "PULSE C" }
+internal_name = "TANGROWTH"
 pulse_form = 1
 
+[form_mapping]
+1 = "PULSE A"
+2 = "PULSE B"
+3 = "PULSE C"
+
 [forms."PULSE A"]
-base_stats = { hp = 100, atk = 70, def_ = 200, spa = 70, spd = 160, spe = 10 }
-raw_abilities = ["STAMINA"]
+form_name = "PULSE A"
 secondary_type = "ROCK"
+raw_abilities = [
+    "STAMINA",
+]
+
+[forms."PULSE A".base_stats]
+hp = 100
+atk = 70
+def_ = 200
+spa = 70
+spd = 160
+spe = 10
 
 [forms."PULSE B"]
-base_stats = { hp = 100, atk = 70, def_ = 200, spa = 70, spd = 160, spe = 10 }
-raw_abilities = ["ARENATRAP"]  # wow, that's evil!
+form_name = "PULSE B"
 secondary_type = "GROUND"
+raw_abilities = [
+    "ARENATRAP",
+]
+
+[forms."PULSE B".base_stats]
+hp = 100
+atk = 70
+def_ = 200
+spa = 70
+spd = 160
+spe = 10
 
 [forms."PULSE C"]
-base_stats = { hp = 100, atk = 70, def_ = 200, spa = 70, spd = 160, spe = 10 }
-raw_abilities = ["FILTER"]
+form_name = "PULSE C"
 secondary_type = "POISON"
+raw_abilities = [
+    "FILTER",
+]
+
+[forms."PULSE C".base_stats]
+hp = 100
+atk = 70
+def_ = 200
+spa = 70
+spd = 160
+spe = 10

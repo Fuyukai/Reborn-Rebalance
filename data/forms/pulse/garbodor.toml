@@ -1,6 +1,19 @@
-form_mapping = { 1 = "PULSE" }
+internal_name = "GARBODOR"
 pulse_form = 1
 
+[form_mapping]
+1 = "PULSE"
+
 [forms.PULSE]
-base_stats = { hp = 80, atk = 135, def_ = 107, spa = 60, spd = 107, spe = 85 }
-raw_abilities = ["GOOEY"]
+form_name = "PULSE"
+raw_abilities = [
+    "GOOEY",
+]
+
+[forms.PULSE.base_stats]
+hp = 80
+atk = 135
+def_ = 107
+spa = 60
+spd = 107
+spe = 85

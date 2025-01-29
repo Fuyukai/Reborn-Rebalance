@@ -1,181 +1,79 @@
 internal_name = "KYUREM"
-form_mapping = { 1 = "White", 2 = "Black" }
+
+[form_mapping]
+1 = "White"
+2 = "Black"
 
 [forms.White]
 form_name = "White"
-base_stats = { hp = 125, atk = 120, def_ = 90, spa = 170, spd = 100, spe = 95 }
-raw_abilities = ["TURBOBLAZE"]
+raw_abilities = [
+    "TURBOBLAZE",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "ANCIENTPOWER" },
+    { at_level = 1, name = "DRAGONDANCE" },
+    { at_level = 1, name = "DRAGONBREATH" },
+    { at_level = 1, name = "DUALWINGBEAT" },
+    { at_level = 1, name = "ICICLESPEAR" },
+    { at_level = 8, name = "SLASH" },
+    { at_level = 14, name = "ENDEAVOR" },
+    { at_level = 19, name = "ICEBEAM" },
+    { at_level = 24, name = "DRAGONPULSE" },
+    { at_level = 29, name = "ICICLECRASH" },
+    { at_level = 32, name = "HYPERVOICE" },
+    { at_level = 35, name = "SCARYFACE" },
+    { at_level = 38, name = "BLIZZARD" },
+    { at_level = 41, name = "IMPRISON" },
+    { at_level = 44, name = "OUTRAGE" },
+    { at_level = 47, name = "GLACIATE" },
+    { at_level = 50, name = "SHEERCOLD" },
+    { at_level = 70, name = "ESPERWING" },
+    { at_level = 70, name = "FUSIONFLARE" },
+    { at_level = 70, name = "ICEBEAM" },
+    { at_level = 70, name = "ICEBURN" },
+]
 
-[[forms.White.raw_level_up_moves]]
-at_level = 1
-name = "ANCIENTPOWER"
-
-[[forms.White.raw_level_up_moves]]
-at_level = 1
-name = "DRAGONDANCE"
-
-[[forms.White.raw_level_up_moves]]
-at_level = 1
-name = "DRAGONBREATH"
-
-[[forms.White.raw_level_up_moves]]
-at_level = 1
-name = "DUALWINGBEAT"
-
-[[forms.White.raw_level_up_moves]]
-at_level = 1
-name = "ICICLESPEAR"
-
-[[forms.White.raw_level_up_moves]]
-at_level = 8
-name = "SLASH"
-
-[[forms.White.raw_level_up_moves]]
-at_level = 14
-name = "ENDEAVOR"
-
-[[forms.White.raw_level_up_moves]]
-at_level = 19
-name = "ICEBEAM"
-
-[[forms.White.raw_level_up_moves]]
-at_level = 24
-name = "DRAGONPULSE"
-
-[[forms.White.raw_level_up_moves]]
-at_level = 29
-name = "ICICLECRASH"
-
-[[forms.White.raw_level_up_moves]]
-at_level = 32
-name = "HYPERVOICE"
-
-[[forms.White.raw_level_up_moves]]
-at_level = 35
-name = "SCARYFACE"
-
-[[forms.White.raw_level_up_moves]]
-at_level = 38
-name = "BLIZZARD"
-
-[[forms.White.raw_level_up_moves]]
-at_level = 41
-name = "IMPRISON"
-
-[[forms.White.raw_level_up_moves]]
-at_level = 44
-name = "OUTRAGE"
-
-[[forms.White.raw_level_up_moves]]
-at_level = 47
-name = "GLACIATE"
-
-[[forms.White.raw_level_up_moves]]
-at_level = 50
-name = "SHEERCOLD"
-
-[[forms.White.raw_level_up_moves]]
-at_level = 70
-name = "ESPERWING"
-
-[[forms.White.raw_level_up_moves]]
-at_level = 70
-name = "FUSIONFLARE"
-
-[[forms.White.raw_level_up_moves]]
-at_level = 70
-name = "ICEBEAM"
-
-[[forms.White.raw_level_up_moves]]
-at_level = 70
-name = "ICEBURN"
-
+[forms.White.base_stats]
+hp = 125
+atk = 120
+def_ = 90
+spa = 170
+spd = 100
+spe = 95
 
 [forms.Black]
 form_name = "Black"
-base_stats = { hp = 125, atk = 170, def_ = 100, spa = 120, spd = 90, spe = 95 }
-raw_abilities = ["TERAVOLT"]
+raw_abilities = [
+    "TERAVOLT",
+]
+raw_level_up_moves = [
+    { at_level = 1, name = "ANCIENTPOWER" },
+    { at_level = 1, name = "DRAGONDANCE" },
+    { at_level = 1, name = "DRAGONBREATH" },
+    { at_level = 1, name = "DUALWINGBEAT" },
+    { at_level = 1, name = "ICICLESPEAR" },
+    { at_level = 8, name = "SLASH" },
+    { at_level = 14, name = "ENDEAVOR" },
+    { at_level = 19, name = "ICEBEAM" },
+    { at_level = 24, name = "DRAGONPULSE" },
+    { at_level = 29, name = "ICICLECRASH" },
+    { at_level = 32, name = "HYPERVOICE" },
+    { at_level = 35, name = "SCARYFACE" },
+    { at_level = 38, name = "BLIZZARD" },
+    { at_level = 41, name = "IMPRISON" },
+    { at_level = 44, name = "OUTRAGE" },
+    { at_level = 47, name = "GLACIATE" },
+    { at_level = 50, name = "SHEERCOLD" },
+    { at_level = 70, name = "DRAGONDANCE" },
+    { at_level = 70, name = "FUSIONBOLT" },
+    { at_level = 70, name = "ICICLECRASH" },
+    { at_level = 70, name = "FREEZESHOCK" },
+]
 
-[[forms.Black.raw_level_up_moves]]
-at_level = 1
-name = "ANCIENTPOWER"
-
-[[forms.Black.raw_level_up_moves]]
-at_level = 1
-name = "DRAGONDANCE"
-
-[[forms.Black.raw_level_up_moves]]
-at_level = 1
-name = "DRAGONBREATH"
-
-[[forms.Black.raw_level_up_moves]]
-at_level = 1
-name = "DUALWINGBEAT"
-
-[[forms.Black.raw_level_up_moves]]
-at_level = 1
-name = "ICICLESPEAR"
-
-[[forms.Black.raw_level_up_moves]]
-at_level = 8
-name = "SLASH"
-
-[[forms.Black.raw_level_up_moves]]
-at_level = 14
-name = "ENDEAVOR"
-
-[[forms.Black.raw_level_up_moves]]
-at_level = 19
-name = "ICEBEAM"
-
-[[forms.Black.raw_level_up_moves]]
-at_level = 24
-name = "DRAGONPULSE"
-
-[[forms.Black.raw_level_up_moves]]
-at_level = 29
-name = "ICICLECRASH"
-
-[[forms.Black.raw_level_up_moves]]
-at_level = 32
-name = "HYPERVOICE"
-
-[[forms.Black.raw_level_up_moves]]
-at_level = 35
-name = "SCARYFACE"
-
-[[forms.Black.raw_level_up_moves]]
-at_level = 38
-name = "BLIZZARD"
-
-[[forms.Black.raw_level_up_moves]]
-at_level = 41
-name = "IMPRISON"
-
-[[forms.Black.raw_level_up_moves]]
-at_level = 44
-name = "OUTRAGE"
-
-[[forms.Black.raw_level_up_moves]]
-at_level = 47
-name = "GLACIATE"
-
-[[forms.Black.raw_level_up_moves]]
-at_level = 50
-name = "SHEERCOLD"
-
-[[forms.Black.raw_level_up_moves]]
-at_level = 70
-name = "DRAGONDANCE"
-
-[[forms.Black.raw_level_up_moves]]
-at_level = 70
-name = "FUSIONBOLT"
-
-[[forms.Black.raw_level_up_moves]]
-at_level = 70
-name = "ICICLECRASH"
-
-[[forms.Black.raw_level_up_moves]]
-at_level = 70
-name = "FREEZESHOCK"
+[forms.Black.base_stats]
+hp = 125
+atk = 170
+def_ = 100
+spa = 120
+spd = 90
+spe = 95
