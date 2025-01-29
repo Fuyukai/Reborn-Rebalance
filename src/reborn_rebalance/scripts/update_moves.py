@@ -1,3 +1,4 @@
+import sys
 from pathlib import Path
 
 import rtoml
@@ -10,9 +11,21 @@ import tomli_w
 KEEP_DESCRIPTIONS = {70, 794}
 
 
-def main():
-    old = rtoml.load(Path("./data/movesold.toml"))["moves"]
-    new = rtoml.load(Path("./data/movesnew.toml"))["moves"]
+def main() -> int:
+    try:
+        old_path = Path(sys.argv[1])
+        new_path = Path(sys.argv[2])
+    except IndexError:
+        print(f"usage: {sys.argv[0]} <path to old moves.toml> <path to new moves.toml>")
+        return 1
+    
+    try:
+        output_path = Path(sys.argv[3])
+    except IndexError:
+        output_path = Path("./data/moves.toml")
+
+    old = rtoml.load(old_path)["moves"]
+    new = rtoml.load(new_path)["moves"]
 
     rewritten = []
 
@@ -52,5 +65,10 @@ def main():
 
             rewritten.append(old_move)
 
-    with Path("./data/moves.toml").open(mode="wb") as f:
+    with output_path.open(mode="wb") as f:
         tomli_w.dump({"moves": rewritten}, f)
+
+    return 0
+
+if __name__ == "__main__":
+    sys.exit(main())
