@@ -11,7 +11,6 @@ raw_abilities = [
     "PICKUP",
     "FLUFFY",
 ]
-raw_hidden_ability = "ROCKHEAD"
 raw_level_up_moves = [
     { at_level = 1, name = "TACKLE" },
     { at_level = 1, name = "GROWL" },
@@ -87,6 +86,7 @@ pokedex_entry = "This friendly Pokémon doesn't like being alone. Pay it even th
 battler_player_y = 10
 battler_enemy_y = 12
 battler_altitude = 0
+raw_hidden_ability = "ROCKHEAD"
 raw_egg_moves = [
     "ALLYSWITCH",
     "DESTINYBOND",
