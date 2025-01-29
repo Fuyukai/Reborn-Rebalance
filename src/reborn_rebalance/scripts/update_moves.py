@@ -7,6 +7,9 @@ import tomli_w
 # Also fixes move function IDs.
 
 
+KEEP_DESCRIPTIONS = {70, 794}
+
+
 def main():
     old = rtoml.load(Path("./data/movesold.toml"))["moves"]
     new = rtoml.load(Path("./data/movesnew.toml"))["moves"]
@@ -16,21 +19,24 @@ def main():
     by_name = {it["internal_name"]: it for it in old}
 
     for move in new:
-        id = move["id"]
+        id: int = move["id"]
 
         try:
             old_move = by_name[move["internal_name"]]
         except KeyError:
-            print(f"copying new move {move['id']}/{move['internal_name']}")
+            print(f"copying new move {id}/{move['internal_name']}")
             rewritten.append(move)
         else:
-            name = f"{old_move['id']}/{old_move['internal_name']}"
+            name = f"{id}/{old_move['internal_name']}"
 
             if old_move["id"] != id:
                 print(f"reassigning {name} to move ID {id}")
                 old_move["id"] = id
 
-            if old_move["description"] != (new_desc := move["description"]):
+            if (
+                old_move["description"] != (new_desc := move["description"])
+                and id not in KEEP_DESCRIPTIONS
+            ):
                 print(f"updating description for {name} to {new_desc}")
                 old_move["description"] = new_desc
 

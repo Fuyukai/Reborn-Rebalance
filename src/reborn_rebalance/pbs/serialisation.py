@@ -255,7 +255,20 @@ def load_moves_from_pbs(path: Path) -> list[PokemonMove]:
     """
 
     with path.open(mode="r", encoding="utf-8") as f:
-        reader = csv.reader(f)
+        lines: list[str] = []
+        for line in f:
+            without_newline = line[:-1]
+            if not without_newline:
+                continue
+
+            if not without_newline.endswith('"'):
+                lines.append(without_newline + '"')
+            else:
+                lines.append(without_newline)
+            
+            print(lines[-1], end="")
+
+        reader = csv.reader(lines)
 
         return [PokemonMove.load_from_pbs_line(line) for line in reader if line]
 
