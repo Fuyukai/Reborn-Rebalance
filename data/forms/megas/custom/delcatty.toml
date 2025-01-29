@@ -1,0 +1,9 @@
+default_form = 0
+mega_form = 1
+
+[form_mapping]
+1 = "Mega"
+
+[forms.Mega]
+base_stats = { hp = 70, atk = 125, def_ = 85, spa = 95, spd = 85, spe = 105 }
+raw_abilities = ["FURCOAT"]

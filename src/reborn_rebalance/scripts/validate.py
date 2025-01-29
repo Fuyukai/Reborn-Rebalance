@@ -26,6 +26,9 @@ def extended_validate_megas(catalog: EssentialsCatalog):
             continue
 
         for form_name in to_check:
+            if not form_name.startswith("Mega"):
+                continue
+
             try:
                 form = forms.forms[form_name]
             except KeyError:
