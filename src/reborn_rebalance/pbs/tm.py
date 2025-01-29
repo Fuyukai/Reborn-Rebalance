@@ -59,7 +59,7 @@ class TechnicalMachine:
     # tms are stored (as they fucking should be, what the fuck is this design in the game) on thee
     # POKEMON themselves.
     # this is written to during PBS serialisation as well...
-    
+
     #: The list of compatible Pokémon for this TM. This is always empty at runtime, and is only
     #: used for serialisation purposes.
     pokemon: set[str] = attr.ib(factory=set, hash=False, eq=False)
@@ -75,13 +75,13 @@ class TechnicalMachine:
     def __lt__(self, other: Any) -> bool:
         if not isinstance(other, TechnicalMachine):
             return NotImplemented
-        
+
         # TMXs are always sorted before TMs
         if self.is_tmx and not other.is_tmx:
             return True
 
         if self.number is not None and other.number is not None:
             return self.number < other.number
-        
+
         # lexicographic sort
         return self.move < other.move

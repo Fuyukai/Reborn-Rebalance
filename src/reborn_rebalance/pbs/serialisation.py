@@ -171,7 +171,7 @@ def save_single_species_to_toml(output_path: Path, species: PokemonSpecies):
 
 
 def save_all_species_to_toml(
-    output_path: Path, 
+    output_path: Path,
     input_pokemon: list[PokemonSpecies],
     *,
     allow_overwriting: bool = False,
@@ -197,9 +197,9 @@ def save_all_species_to_toml(
 
         if toml_path.exists():
             if not allow_overwriting:
-                print(f"Not overwriting {name}")        
+                print(f"Not overwriting {name}")
                 continue
-            
+
             print(f"Forcibly overwriting {name}!!!")
 
         save_single_species_to_toml(toml_path, species)
@@ -273,7 +273,7 @@ def load_moves_from_pbs(path: Path) -> list[PokemonMove]:
                 lines.append(without_newline + '"')
             else:
                 lines.append(without_newline)
-            
+
             print(lines[-1], end="")
 
         reader = csv.reader(lines)

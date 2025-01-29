@@ -39,6 +39,7 @@ resave-data = "reborn_rebalance.scripts.resave:main"
 validate-catalog = "reborn_rebalance.scripts.validate:do_extended_validation"
 update-moves = "reborn_rebalance.scripts.update_moves:main"
 resync-tms = "reborn_rebalance.scripts.resync_tms:main"
+find-new-forms = "reborn_rebalance.scripts.find_new_forms:main"
 
 [dependency-groups]
 dev = [
@@ -48,7 +49,7 @@ dev = [
 ]
 
 [tool.pyright]
-pythonVersion = "3.11"
+pythonVersion = "3.13"
 include = ["src"]
 typeCheckingMode = "basic"
 
@@ -58,7 +59,7 @@ reportIncompatibleVariableOverride = false
 reportPrivateUsage = false
 
 [tool.ruff]
-target-version = "py311"
+target-version = "py313"
 respect-gitignore = true
 src = ["src/reborn_rebalance"]
 line-length = 100

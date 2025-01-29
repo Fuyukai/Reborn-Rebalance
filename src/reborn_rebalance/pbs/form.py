@@ -1,3 +1,4 @@
+from io import StringIO
 from pathlib import Path
 
 import attr
@@ -16,14 +17,27 @@ from reborn_rebalance.util import RubyBuffer
 # realistically I only care to support a small subset of the possible values in the
 # species definition.
 
-HEADER = """
-FormCopy = [
-    [PBSpecies::FLABEBE,  PBSpecies::FLOETTE],
-    [PBSpecies::FLABEBE,  PBSpecies::FLORGES],
-    [PBSpecies::SHELLOS,  PBSpecies::GASTRODON],
-    [PBSpecies::DEERLING, PBSpecies::SAWSBUCK]
+FORM_COPY = [
+    ("FLABEBE", "FLOETTE"),
+    ("SHELLOS", "GASTRODON"),
+    ("DEERLING", "SAWSBUCK"),
 ]
-"""
+
+
+def _make_header():
+    header = StringIO()
+    header.write("FormCopy = [\n")
+    for from_, to in FORM_COPY:
+        header.write("    [PBSpecies::")
+        header.write(from_)
+        header.write(", PBSpecies::")
+        header.write(to)
+        header.write("],\n")
+    header.write("]\n\n")
+    return header.getvalue()
+
+
+HEADER = _make_header()
 
 FOOTER = """
 for form in FormCopy

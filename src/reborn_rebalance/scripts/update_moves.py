@@ -18,7 +18,7 @@ def main() -> int:
     except IndexError:
         print(f"usage: {sys.argv[0]} <path to old moves.toml> <path to new moves.toml>")
         return 1
-    
+
     try:
         output_path = Path(sys.argv[3])
     except IndexError:
@@ -69,6 +69,7 @@ def main() -> int:
         tomli_w.dump({"moves": rewritten}, f)
 
     return 0
+
 
 if __name__ == "__main__":
     sys.exit(main())
