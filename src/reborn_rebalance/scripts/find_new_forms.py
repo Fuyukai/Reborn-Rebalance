@@ -42,7 +42,11 @@ def main() -> int:
         if '"Dyna"' in ruby_form_file[first_newline : first_newline + 50]:
             print(f"[cyan]Skipped[/cyan]: {name}")
             continue
-
+        
+        if '"Dev"' in ruby_form_file[first_newline : first_newline + 50]:
+            print(f"[cyan]Skipped[/cyan]: {name}")
+            continue
+        
         if name not in forms:
             print(f"Found missing form: [yellow]{name}[/yellow]")
         else:
