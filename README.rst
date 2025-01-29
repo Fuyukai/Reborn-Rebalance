@@ -45,10 +45,8 @@ Pre-built versions are available from the Releases tab of the repository.
 2. Download the `All-Gen`_ patch, and extract it over Pokémon Reborn. (The pre-patched version will
    work fine).
 
-   This was built on top of version 6.5.0a. **Versions must match!** Otherwise, you will get cryptic
+   This was built on top of version 8.0.0a. **Versions must match!** Otherwise, you will get cryptic
    errors or silent crashes due to trainer teams not matching.
-
-   (`Direct link to v6.5a <https://mega.nz/file/2ooSnSAY#hxkPf4rDICnRNr-rUz0fqsLR-L4DVMrrOtI1wZ91ka4>`__)
 
 3. Download the `E19 Music Pack`_ and install it over the All-Gen patch. Don't bother with
    ``trainertypes.dat``, it's going to be overwritten in a minute. Don't get the compatibility
@@ -72,13 +70,13 @@ mod easily. Edit the files in ``data`` as appropriate, then do the following:
 
     git clone https://github.com/Fuyukai/Reborn-Rebalance.git
 
-2. Install with Poetry::
+2. Install with PDM::
 
-    cd Reborn-Rebalance; poetry install
+    cd Reborn-Rebalance; pdm install
 
 3. Transpile the data into Reborn's format::
 
-    poetry run into-pbs ./data ./build
+    pdm run into-pbs ./data ./build
 
 4. Copy everything inside ``./build`` to your Reborn directory::
 
@@ -86,7 +84,7 @@ mod easily. Edit the files in ``data`` as appropriate, then do the following:
 
 5. (Optional) Generate the web documentation::
 
-    poetry run build-web \
+    pdm run build-web \
         --crop-regular-sprites --crop-form-sprites --render-maps \  # first time only
         --game-dir <path to Reborn directory> \
         ./data ./templates ./website
@@ -102,10 +100,10 @@ website.
 
 .. code-block:: fish
 
-    poetry run into-toml <path to your Reborn directory> <path to new data directory>
+    pdm run into-toml <path to your Reborn directory> <path to new data directory>
 
-This can successfully parse the data from a clean Reborn 19.16 installation, as well as all All-Gen
-installations up to version 7.0. Other mods are not guarenteed to work or import correctly; if
+This can successfully parse the data from a clean Reborn 19.17 installation, as well as all All-Gen
+installations up to version 8.0. Other mods are not guarenteed to work or import correctly; if
 the PBS files are successfully ingested by the game, please open an issue and I'll adjust the
 parsing code.
 
@@ -115,7 +113,7 @@ there's a handful scattered around the other files as well. Sorry.).
 
 If you have your own forms, you need to write them out manually; a lot of this is automated, 
 but you'll need to explicitly write out the differences between the forms and the base Pokémon 
-yourself.
+yourself. 
 
 Future Plans
 ------------
@@ -140,16 +138,11 @@ Future Plans
 
 - Add the ability to splice events into the game code without needing to use the RPG Maker editor.
 
-- Add merging code to allow importing All-Gen updates more easily.
-
 - Add support for Rejuvenation and Desolation.
 
   * I haven't actually *played* through either of these games so I don't know how to even
     rebalance them (or, hell, how internally unbalanced they are anyway). On the other hand,
     I've played through Reborn ~~three~~ FIVE times, so I know what I'm doing here.
-
-- Hardcode the paths less and split the project out into a general "Reborn-engine transpiler"
-  project and a "Reborn-only rebalance" project.
 
 Licence
 -------
