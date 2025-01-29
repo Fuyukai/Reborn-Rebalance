@@ -6,7 +6,6 @@ from io import StringIO
 from pathlib import Path
 
 import cattrs
-import rtoml
 from rtoml import load
 from tomli_w import dump
 
@@ -317,7 +316,7 @@ def load_items_from_pbs(path: Path) -> list[PokemonItem]:
             # wtf?
             if not raw_row or len(raw_row) < 8:
                 continue
-            
+
             items.append(PokemonItem.from_row(raw_row))
 
     return items
@@ -422,9 +421,8 @@ def save_tms_to_toml(path: Path, tms: list[TechnicalMachine]):
 
     output = CONVERTER.unstructure(real_dict)
 
-    with path.open(mode="w") as f:
-        rtoml.dump(output, f)
-        # dump(output, f)
+    with path.open(mode="wb") as f:
+        dump(output, f)
 
 
 def save_tms_to_pbs(path: Path, tms: list[TechnicalMachine]):

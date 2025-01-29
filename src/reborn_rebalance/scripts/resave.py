@@ -18,7 +18,7 @@ def main() -> int:
 
     new_path.mkdir(exist_ok=True, parents=True)
 
-    catalog = EssentialsCatalog.load_from_toml(path)
+    catalog = EssentialsCatalog.load_from_toml(path, skip_validation=True)
     catalog.save_to_toml(new_path)
 
     return 0

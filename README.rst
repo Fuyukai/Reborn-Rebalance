@@ -159,6 +159,12 @@ Most of the project is licenced under the GPL, version 3.0 or later.
 The overwritten maps are licenced under the "it's complicated" licence. I won't get mad at you,
 but the original authors might.
 
+Technical Notes
+---------------
+
+- ``rtoml`` is used for reading, ``tomli-w`` is used for writing. Writing is done far less often so
+  doesn't need to be fast, and produces better output.
+
 Credits
 -------
 

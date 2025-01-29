@@ -15200,7 +15200,7 @@ description = "The user releases countless shots of light. This move's type vari
 id = 772
 internal_name = "RISINGVOLTAGE"
 display_name = "Rising Voltage"
-move_function = "000"
+move_function = "216"
 base_power = 70
 type = "ELECTRIC"
 category = "SPECIAL"
@@ -15364,7 +15364,7 @@ description = "The user hurls giant chunks of ice at the target to inflict damag
 id = 780
 internal_name = "DRAGONENERGY"
 display_name = "Dragon Energy"
-move_function = "00A"
+move_function = "08B"
 base_power = 150
 type = "DRAGON"
 category = "SPECIAL"
@@ -15735,7 +15735,6 @@ secondary_effect_chance = 100
 target_selection = "ANY_OTHER"
 priority = 0
 flags = [
-    "MAKES_CONTACT",
     "PROTECTABLE",
     "MIRRORABLE",
     "FLINCH",
@@ -15827,7 +15826,7 @@ description = "Gliding on the ground, the user attacks the target. This move alw
 id = 803
 internal_name = "REVIVALBLESSING"
 display_name = "Revival Blessing"
-move_function = "000"
+move_function = "279"
 base_power = 0
 type = "NORMAL"
 category = "STATUS"
@@ -16032,7 +16031,7 @@ description = "The user becomes one with the jungle, restoring HP and healing an
 id = 814
 internal_name = "LUNARBLESSING"
 display_name = "Lunar Blessing"
-move_function = "232"
+move_function = "212"
 base_power = 0
 type = "PSYCHIC"
 category = "STATUS"
@@ -16272,7 +16271,7 @@ description = "The user attacks its target with spine-chilling resentment. This 
 id = 826
 internal_name = "CHLOROBLAST"
 display_name = "Chloroblast"
-move_function = "222"
+move_function = "215"
 base_power = 150
 type = "GRASS"
 category = "SPECIAL"
@@ -16292,7 +16291,7 @@ description = "The user launches its amassed chlorophyll to inflict damage on th
 id = 827
 internal_name = "WAVECRASH"
 display_name = "Wave Crash"
-move_function = "235"
+move_function = "0FB"
 base_power = 120
 type = "WATER"
 category = "PHYSICAL"
@@ -16334,7 +16333,7 @@ description = "The user delivers an axe kick, then fires three arrows. May flinc
 id = 829
 internal_name = "RAGINGFURY"
 display_name = "Raging Fury"
-move_function = "234"
+move_function = "0D2"
 base_power = 100
 type = "FIRE"
 category = "PHYSICAL"
@@ -16365,7 +16364,6 @@ secondary_effect_chance = 0
 target_selection = "ANY_OTHER"
 priority = 0
 flags = [
-    "MAKES_CONTACT",
     "PROTECTABLE",
     "MIRRORABLE",
     "FLINCH",
@@ -16683,7 +16681,7 @@ description = "The user expels pressurized water to cut at the target like a bla
 id = 846
 internal_name = "HYPERDRILL"
 display_name = "Hyper Drill"
-move_function = "0AD"
+move_function = "285"
 base_power = 100
 type = "NORMAL"
 category = "PHYSICAL"
@@ -16695,7 +16693,6 @@ priority = 0
 flags = [
     "MAKES_CONTACT",
     "MIRRORABLE",
-    "FLINCH",
 ]
 description = "The user spins the pointed part of its body at high speed to pierce the target. Ignores protecting moves."
 
@@ -16875,27 +16872,6 @@ flags = [
 description = "The user shoots its own armor out as blazing projectiles. This lowers the user's Defense and Sp. Def stats."
 
 [[moves]]
-id = 856
-internal_name = "BITTERBLADE"
-display_name = "Bitter Blade"
-move_function = "0DD"
-base_power = 90
-type = "FIRE"
-category = "PHYSICAL"
-accuracy = 100
-max_pp = 10
-secondary_effect_chance = 0
-target_selection = "ANY_OTHER"
-priority = 0
-flags = [
-    "MAKES_CONTACT",
-    "PROTECTABLE",
-    "MIRRORABLE",
-    "FLINCH",
-]
-description = "An energy-draining slashing attack. The user's HP is restored by half the damage taken by the target."
-
-[[moves]]
 id = 857
 internal_name = "GIGATONHAMMER"
 display_name = "Gigaton Hammer"
@@ -16975,27 +16951,6 @@ flags = [
     "FLINCH",
 ]
 description = "Damages the target. May lower the opponent's Attack."
-
-[[moves]]
-id = 860
-internal_name = "ICESPINNER"
-display_name = "Ice Spinner"
-move_function = "255"
-base_power = 80
-type = "ICE"
-category = "PHYSICAL"
-accuracy = 100
-max_pp = 15
-secondary_effect_chance = 0
-target_selection = "ANY_OTHER"
-priority = 0
-flags = [
-    "MAKES_CONTACT",
-    "PROTECTABLE",
-    "MIRRORABLE",
-    "FLINCH",
-]
-description = "The user twirls around, slamming into the target. Also destroys temporary created terrain."
 
 [[moves]]
 id = 861
@@ -17182,6 +17137,27 @@ flags = [
     "FLINCH",
 ]
 description = "The user attacks with elegant poise. If Tatsugiri is in its mouth, boosts a stat based on its form."
+
+[[moves]]
+id = 870
+internal_name = "ICESPINNER"
+display_name = "Ice Spinner"
+move_function = "255"
+base_power = 80
+type = "ICE"
+category = "PHYSICAL"
+accuracy = 100
+max_pp = 15
+secondary_effect_chance = 0
+target_selection = "ANY_OTHER"
+priority = 0
+flags = [
+    "MAKES_CONTACT",
+    "PROTECTABLE",
+    "MIRRORABLE",
+    "FLINCH",
+]
+description = "The user twirls around, slamming into the target. Also destroys temporary created terrain."
 
 [[moves]]
 id = 871
@@ -17504,7 +17480,7 @@ description = "Deals damage and applies Leech Seed ot the target."
 id = 887
 internal_name = "FREEZYFROST"
 display_name = "Freezy Frost"
-move_function = "276"
+move_function = "051"
 base_power = 100
 type = "ICE"
 category = "SPECIAL"
@@ -17524,7 +17500,7 @@ description = "Attacks with frozen fog. Resets all stat changes."
 id = 888
 internal_name = "SPARKLYSWIRL"
 display_name = "Sparkly Swirl"
-move_function = "277"
+move_function = "019"
 base_power = 120
 type = "FAIRY"
 category = "SPECIAL"
@@ -17618,6 +17594,7 @@ priority = 0
 flags = [
     "PROTECTABLE",
     "MIRRORABLE",
+    "FLINCH",
 ]
 description = "Unleash the full energy from a red-shining full moon. Can't be used twice in a row."
 
@@ -17795,7 +17772,6 @@ flags = [
     "PROTECTABLE",
     "MIRRORABLE",
     "FLINCH",
-    "POWDERY",
 ]
 description = "The user slams down on the target. If it misses, the user is hurt instead."
 
@@ -17814,7 +17790,7 @@ target_selection = "ANY_OTHER"
 priority = 0
 flags = [
     "PROTECTABLE",
-    "MIRRORABLE",
+    "FLINCH",
 ]
 description = "The user pours toxins into the target with chains. May leave the target badly poisoned."
 
@@ -17856,6 +17832,7 @@ flags = [
     "PROTECTABLE",
     "MIRRORABLE",
     "FLINCH",
+    "SOUND",
 ]
 description = "Attack the target with an angelic voice. Confuses all opponents that boosted their stats this turn."
 
@@ -17891,6 +17868,7 @@ priority = 0
 flags = [
     "PROTECTABLE",
     "MIRRORABLE",
+    "FLINCH",
     "SOUND",
 ]
 description = "Damages the target and prevents it from healing for two turns."
@@ -17981,7 +17959,7 @@ description = "The user holds back when it attacks and the target is left with a
 id = 911
 internal_name = "HAPPYHOUR"
 display_name = "Happy Hour"
-move_function = "109"
+move_function = "290"
 base_power = 0
 type = "NORMAL"
 category = "STATUS"
@@ -18012,3 +17990,43 @@ flags = [
     "FLINCH",
 ]
 description = "Drawing power from the Eternal Flower, firing a beam of light. Damages the user terribly."
+
+[[moves]]
+id = 913
+internal_name = "SEARINGVOID"
+display_name = "Searing Void"
+move_function = "00A"
+base_power = 40
+type = "QMARKS"
+category = "SPECIAL"
+accuracy = 100
+max_pp = 5
+secondary_effect_chance = 100
+target_selection = "ALL_OTHER_THAN_USER"
+priority = 0
+flags = [
+    "PROTECTABLE",
+    "MIRRORABLE",
+]
+description = "Abyssal flames flare up, damage, and also burn every other Pokémon around the user."
+
+[[moves]]
+id = 914
+internal_name = "RADIANTASSAULT"
+display_name = "Radiant Assault"
+move_function = "291"
+base_power = 40
+type = "QMARKS"
+category = "PHYSICAL"
+accuracy = 100
+max_pp = 20
+secondary_effect_chance = 0
+target_selection = "ALL_OPPOSING"
+priority = 0
+flags = [
+    "MAKES_CONTACT",
+    "PROTECTABLE",
+    "MIRRORABLE",
+    "FLINCH",
+]
+description = "The user strikes with divine force at all targets. The power increases each turn used successively."

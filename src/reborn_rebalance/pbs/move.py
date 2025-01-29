@@ -64,6 +64,9 @@ class PokemonMove:
     A single Pokémon move.
     """
 
+    def __attrs_post_init__(self):
+        self.flags.sort(key=lambda it: it.value)
+
     @staticmethod
     def validate_bp(_, __, it: int):
         if it < 0 or it > 255:
