@@ -31,6 +31,7 @@ raw_level_up_moves = [
     { at_level = 91, name = "SOLARBLADE" },
 ]
 raw_tms = [
+    "WORKUP",
     "CALMMIND",
     "TAUNT",
     "BRICKBREAK",
@@ -53,17 +54,21 @@ raw_tms = [
     "GRASSYTERRAIN",
     "ELECTRICTERRAIN",
     "PSYCHICTERRAIN",
+    "MEGAHORN",
     "CLOSECOMBAT",
     "AGILITY",
     "REVERSAL",
     "ENDURE",
     "FUTURESIGHT",
+    "RETALIATE",
     "SWIFT",
 ]
 raw_tutor_moves = [
+    "ALLYSWITCH",
     "GIGADRAIN",
     "HELPINGHAND",
     "IRONDEFENSE",
+    "QUICKATTACK",
 ]
 compatible_egg_groups = [
     "Undiscovered",

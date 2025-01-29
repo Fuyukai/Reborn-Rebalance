@@ -5,7 +5,7 @@
 groups = ["default", "dev"]
 strategy = ["inherit_metadata"]
 lock_version = "4.5.0"
-content_hash = "sha256:0503b2cb6e0695a8acfba70fc16acdcb78b7fe8250e0b15e2fd9efb5e748c979"
+content_hash = "sha256:9f40d04be3c65820a940f55c2b8e901a1e762c2cbc01e3975a914baddd4815e6"
 
 [[metadata.targets]]
 requires_python = "~=3.11"
@@ -365,6 +365,31 @@ files = [
     {file = "ruff-0.9.3-py3-none-win_amd64.whl", hash = "sha256:040ceb7f20791dfa0e78b4230ee9dce23da3b64dd5848e40e3bf3ab76468dcf4"},
     {file = "ruff-0.9.3-py3-none-win_arm64.whl", hash = "sha256:800d773f6d4d33b0a3c60e2c6ae8f4c202ea2de056365acfa519aa48acf28e0b"},
     {file = "ruff-0.9.3.tar.gz", hash = "sha256:8293f89985a090ebc3ed1064df31f3b4b56320cdfcec8b60d3295bddb955c22a"},
+]
+
+[[package]]
+name = "sortedcontainers"
+version = "2.4.0"
+summary = "Sorted Containers -- Sorted List, Sorted Dict, Sorted Set"
+groups = ["default", "dev"]
+files = [
+    {file = "sortedcontainers-2.4.0-py2.py3-none-any.whl", hash = "sha256:a163dcaede0f1c021485e957a39245190e74249897e2ae4b2aa38595db237ee0"},
+    {file = "sortedcontainers-2.4.0.tar.gz", hash = "sha256:25caa5a06cc30b6b83d11423433f65d1f9d76c4c6a0c90e3379eaa43b9bfdb88"},
+]
+
+[[package]]
+name = "sortedcontainers-stubs"
+version = "2.4.2"
+requires_python = ">=3.8,<4.0"
+summary = "Type stubs for sortedcontainers"
+groups = ["dev"]
+dependencies = [
+    "sortedcontainers<3,>=2",
+    "typing-extensions<5.0.0,>=4.1.0",
+]
+files = [
+    {file = "sortedcontainers_stubs-2.4.2-py3-none-any.whl", hash = "sha256:6cdbcf9c71198729dd6c0a8a7dc9742768f25b49384b91965d716a9d16ca7b2a"},
+    {file = "sortedcontainers_stubs-2.4.2.tar.gz", hash = "sha256:c24e33877effa5a3eb85357112496ba33a0b681c05e0d5d3745664fd3be75d82"},
 ]
 
 [[package]]

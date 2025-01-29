@@ -19,7 +19,9 @@ raw_level_up_moves = [
     { at_level = 1, name = "HEADBUTT" },
     { at_level = 15, name = "TAKEDOWN" },
 ]
-raw_tms = []
+raw_tms = [
+    "TAKEDOWN",
+]
 raw_tutor_moves = [
     "HEADBUTT",
     "IRONDEFENSE",

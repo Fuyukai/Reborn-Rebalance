@@ -61,6 +61,7 @@ raw_tms = [
     "ROUND",
     "OVERHEAT",
     "CHARGEBEAM",
+    "SMARTSTRIKE",
     "GIGAIMPACT",
     "VOLTSWITCH",
     "THUNDERWAVE",
@@ -71,12 +72,22 @@ raw_tms = [
     "SECRETPOWER",
     "CONFIDE",
     "SCREECH",
+    "FLAREBLITZ",
     "AGILITY",
     "ENDURE",
+    "BLAZEKICK",
+    "BLAZEKICK",
+    "HIGHHORSEPOWER",
+    "CHARGE",
+    "LUNGE",
+    "PURSUIT",
+    "TAKEDOWN",
+    "DOUBLEKICK",
 ]
 raw_tutor_moves = [
     "ALLYSWITCH",
     "BOUNCE",
+    "DOUBLEEDGE",
     "LASERFOCUS",
     "LOWKICK",
     "MAGNETRISE",
@@ -85,6 +96,7 @@ raw_tutor_moves = [
     "SIGNALBEAM",
     "SNATCH",
     "SNORE",
+    "VOLTTACKLE",
 ]
 compatible_egg_groups = [
     "Field",

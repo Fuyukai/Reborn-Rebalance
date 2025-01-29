@@ -22,6 +22,7 @@ dependencies = [
     "typing-extensions>=4.11.0",
     "rich>=13.7.1",
     "tomli-w>=1.2.0",
+    "sortedcontainers>=2.4.0",
 ]
 name = "reborn-rebalance"
 version = "0.7.0"
@@ -37,11 +38,13 @@ copy-compiled-files = "reborn_rebalance.scripts.copy_changes:main"
 resave-data = "reborn_rebalance.scripts.resave:main"
 validate-catalog = "reborn_rebalance.scripts.validate:do_extended_validation"
 update-moves = "reborn_rebalance.scripts.update_moves:main"
+resync-tms = "reborn_rebalance.scripts.resync_tms:main"
 
 [dependency-groups]
 dev = [
     "ruff>=0.9.3",
     "pyright>=1.1.392.post0",
+    "sortedcontainers-stubs>=2.4.2",
 ]
 
 [tool.pyright]

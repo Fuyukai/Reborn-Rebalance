@@ -19,8 +19,17 @@ raw_level_up_moves = [
     { at_level = 1, name = "SECRETPOWER" },
     { at_level = 1, name = "STOREDPOWER" },
 ]
-raw_tms = []
-raw_tutor_moves = []
+raw_tms = [
+    "HIDDENPOWER",
+    "SECRETPOWER",
+    "NATUREPOWER",
+    "COSMICPOWER",
+    "STOREDPOWER",
+]
+raw_tutor_moves = [
+    "ANCIENTPOWER",
+    "EARTHPOWER",
+]
 compatible_egg_groups = [
     "Undiscovered",
 ]

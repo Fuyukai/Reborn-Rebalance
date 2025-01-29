@@ -32,9 +32,9 @@ raw_level_up_moves = [
     { at_level = 51, name = "RECOVER" },
 ]
 raw_tms = [
+    "CALMMIND",
     "FLASH",
     "PSYSHOCK",
-    "CALMMIND",
     "TOXIC",
     "HIDDENPOWER",
     "SUNNYDAY",
@@ -80,12 +80,15 @@ raw_tms = [
     "FUTURESIGHT",
     "HEAVYSLAM",
     "ICESPINNER",
+    "CONFUSERAY",
 ]
 raw_tutor_moves = [
     "ALLYSWITCH",
     "ANCIENTPOWER",
     "EXPANDINGFORCE",
+    "FEINTATTACK",
     "GRAVITY",
+    "HYPNOSIS",
     "IRONDEFENSE",
     "MIMIC",
     "RECYCLE",
@@ -99,6 +102,7 @@ raw_tutor_moves = [
     "TELEKINESIS",
     "TRICK",
     "WONDERROOM",
+    "ZENHEADBUTT",
 ]
 compatible_egg_groups = [
     "Mineral",

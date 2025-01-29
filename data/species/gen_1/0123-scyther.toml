@@ -48,7 +48,6 @@ raw_tms = [
     "PROTECT",
     "RAINDANCE",
     "ROOST",
-    "ROOST",
     "SAFEGUARD",
     "FRUSTRATION",
     "RETURN",
@@ -78,6 +77,7 @@ raw_tms = [
     "PSYCHOCUT",
     "CROSSPOISON",
     "AIRSLASH",
+    "CLOSECOMBAT",
     "AGILITY",
     "FOCUSENERGY",
     "REVERSAL",
@@ -87,10 +87,12 @@ raw_tms = [
     "POUNCE",
     "TRAILBLAZE",
     "SWIFT",
+    "PURSUIT",
 ]
 raw_tutor_moves = [
     "BUGBITE",
     "DEFOG",
+    "DOUBLEEDGE",
     "DUALWINGBEAT",
     "FURYCUTTER",
     "HEADBUTT",
@@ -98,8 +100,10 @@ raw_tutor_moves = [
     "LASERFOCUS",
     "MIMIC",
     "OMINOUSWIND",
+    "QUICKATTACK",
     "SNORE",
     "TAILWIND",
+    "VACUUMWAVE",
 ]
 compatible_egg_groups = [
     "Bug",
