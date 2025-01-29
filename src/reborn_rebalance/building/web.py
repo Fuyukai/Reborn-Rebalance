@@ -334,7 +334,7 @@ def main():
     search_paths = [template_dir]
     if (wdir := input_dir / "walkthroughs").exists():
         search_paths.append(wdir)
-    
+
     if (web_dir := input_dir / "web").exists():
         search_paths.append(web_dir)
 

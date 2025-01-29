@@ -1,4 +1,5 @@
 from typing import Self
+
 import attr
 from cattrs import Converter
 from cattrs.gen import make_dict_unstructure_fn

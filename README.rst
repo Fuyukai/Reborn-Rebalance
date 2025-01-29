@@ -9,7 +9,7 @@ This project is two parts:
 - ... implemented via a transpiler from TOML data into Essentials PBS (2010 ver) and Ruby code.
 
 This project is fully documented; you can find the
-`documentation online <https://reborn.veriny.tf/>`_.
+`documentation online <https://reborn.sailor.li/>`_.
 
 Currently Rebalanced
 --------------------
@@ -37,7 +37,11 @@ Pre-Built Usage
 
 Pre-built versions are available from the Releases tab of the repository.
 
-1. Download Pokémon Reborn v19.16 via the updater. (Any download in the last year will be fine.)
+1. Download the latest version of the *legacy* Pokémon Reborn, ***not the 19.5 version**.
+
+   ***IF YOU DOWNLOAD THE NON-LEGACY VERSION, THINGS WILL BREAK. DO NOT DOWNLOAD THE NON-LEGACY
+   VERSION.***
+
 2. Download the `All-Gen`_ patch, and extract it over Pokémon Reborn. (The pre-patched version will
    work fine).
 
