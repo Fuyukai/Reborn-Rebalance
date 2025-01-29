@@ -40,6 +40,7 @@ validate-catalog = "reborn_rebalance.scripts.validate:do_extended_validation"
 update-moves = "reborn_rebalance.scripts.update_moves:main"
 resync-tms = "reborn_rebalance.scripts.resync_tms:main"
 find-new-forms = "reborn_rebalance.scripts.find_new_forms:main"
+parse-ruby-movelist = "reborn_rebalance.scripts.parse_ruby_movelist:main"
 
 [dependency-groups]
 dev = [

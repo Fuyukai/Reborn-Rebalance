@@ -1,0 +1,96 @@
+form_mapping = { 0 = "Unova", 1 = "Galar" }
+custom_init = """
+chancemaps=[198,281]
+# Map IDs for galarian form
+if $game_map && chancemaps.include?($game_map.map_id)
+    randomnum = rand(2)
+    if randomnum == 1
+        next 1
+    elsif randomnum == 0
+        next 0
+    end
+else
+    next 0
+end
+"""
+
+[forms.Galar]
+secondary_type = "GROUND"
+raw_egg_moves = [
+    "ALLYSWITCH",
+    "CRAFTYSHIELD",
+    "DISABLE",
+    "ENDURE",
+    "FAKETEARS",
+    "HEALBLOCK",
+    "IMPRISON",
+    "MEMENTO",
+    "NASTYPLOT",
+    "NIGHTMARE",
+    "POLTERGEIST",
+    "TOXICSPIKES",
+]
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "ASTONISH"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 1
+name = "MEANLOOK"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 4
+name = "DISABLE"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 8
+name = "HAZE"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 12
+name = "NIGHTSHADE"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 16
+name = "CURSE"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 20
+name = "SLAM"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 24
+name = "CRAFTYSHIELD"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 28
+name = "BRUTALSWING"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 32
+name = "HEX"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 36
+name = "POWERSPLIT"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 36
+name = "GUARDSPLIT"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 40
+name = "PROTECT"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 44
+name = "SHADOWBALL"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 48
+name = "EARTHQUAKE"
+
+[[forms.Galar.raw_level_up_moves]]
+at_level = 52
+name = "DESTINYBOND"
