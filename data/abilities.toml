@@ -62,7 +62,7 @@ description = "This Pokémon restores HP if hit by an Electric move."
 id = 11
 name = "WATERABSORB"
 display_name = "Water Absorb"
-description = "This Pokémon restores HP if hit by a Water move."
+description = "Restore HP if hit by a Water move."
 
 [[abilities]]
 id = 12
@@ -338,19 +338,19 @@ description = "May infatuate attackers who make direct contact."
 id = 57
 name = "PLUS"
 display_name = "Plus"
-description = "An ally with Minus or Plus raises its Sp. Atk stat."
+description = "Boosts Electric moves. Raises Sp. Atk with other Minus."
 
 [[abilities]]
 id = 58
 name = "MINUS"
 display_name = "Minus"
-description = "An ally with Plus or Minus raises its Sp. Atk stat."
+description = "Boosts Electric moves. Raises Sp. Atk with other Plus."
 
 [[abilities]]
 id = 59
 name = "FORECAST"
 display_name = "Forecast"
-description = "The weather determines this Pokémon's form."
+description = "Weather changes form. Boosts stats as well."
 
 [[abilities]]
 id = 60
@@ -578,7 +578,7 @@ description = "Moves it uses turn Normal-type and deal more damage."
 id = 97
 name = "SNIPER"
 display_name = "Sniper"
-description = "The critical hits it lands deal more damage."
+description = "The critical hit damage it deals is doubled."
 
 [[abilities]]
 id = 98
@@ -644,7 +644,7 @@ description = "Senses a supereffective or one-hit KO move."
 id = 108
 name = "FOREWARN"
 display_name = "Forewarn"
-description = "Senses the strongest damaging move of its foes."
+description = "Senses strongest move, reduce multi-hit move Acc."
 
 [[abilities]]
 id = 109
@@ -668,7 +668,7 @@ description = "Takes less damage from supereffective attacks."
 id = 112
 name = "SLOWSTART"
 display_name = "Slow Start"
-description = "Its Attack and Speed are halved for five turns."
+description = "Attack lowered, Defenses doubled for 3 turns."
 
 [[abilities]]
 id = 113
@@ -800,7 +800,7 @@ description = "Physical hits sharply raise Speed, but lower Defense."
 id = 134
 name = "HEAVYMETAL"
 display_name = "Heavy Metal"
-description = "This Pokémon's weight is doubled in battle."
+description = "Double weight, reduce physical damage by 25%."
 
 [[abilities]]
 id = 135
@@ -1400,61 +1400,61 @@ description = "Normal-type moves become Dark-type moves."
 id = 305
 name = "BALLFETCH"
 display_name = "Ball Fetch"
-description = "If the Pokémon is not holding an item, it will fetch the Poké Ball from the first failed throw of the battle."
+description = "Fetches Pokeball if no item is held."
 
 [[abilities]]
 id = 306
 name = "COTTONDOWN"
 display_name = "Cotton Down"
-description = "When the Pokémon is hit by an attack, it scatters cotton fluff around and lowers the Speed stat of all Pokémon except itself."
+description = "Lowers Speed of all Pokemon after getting hit."
 
 [[abilities]]
 id = 307
 name = "DAUNTLESSSHIELD"
-display_name = "Dauntless Shield"
-description = "Boosts the Pokémon's Defense stat when the Pokémon enters a battle."
+display_name = "Dauntls.Shield"
+description = "Boosts Defense stat when entering battle."
 
 [[abilities]]
 id = 308
 name = "GORILLATACTICS"
-display_name = "Gorilla Tactics"
-description = "Boosts the Pokémon's Attack stat but only allows the use of the first selected move."
+display_name = "Goril.Tactics"
+description = "Boosts Attack but locks into first selected move."
 
 [[abilities]]
 id = 309
 name = "GULPMISSILE"
 display_name = "Gulp Missile"
-description = "When the Pokémon uses Surf or Dive, it will come back with prey. When it takes damage, it will spit out the prey to attack."
+description = "Surf or Dive catches prey, damages opponent when hit."
 
 [[abilities]]
 id = 310
 name = "HUNGERSWITCH"
 display_name = "Hunger Switch"
-description = "The Pokémon changes its form, alternating between its Full Belly Mode and Hangry Mode after the end of each turn."
+description = "Switches between Full Belly- and Hangry Mode."
 
 [[abilities]]
 id = 311
 name = "ICEFACE"
 display_name = "Ice Face"
-description = "The Pokémon's ice head can take a physical attack as a substitute, but the attack also changes the Pokémon's appearance. The ice will be restored when it hails."
+description = "Blocks one physical hit. Refreshes in Hail."
 
 [[abilities]]
 id = 312
 name = "ICESCALES"
 display_name = "Ice Scales"
-description = "The Pokémon is protected by ice scales, which halve the damage taken from special moves."
+description = "Halves damage taken by special moves."
 
 [[abilities]]
 id = 313
 name = "INTREPIDSWORD"
 display_name = "Intrepid Sword"
-description = "Boosts the Pokémon's Attack stat when the Pokémon enters a battle."
+description = "Boosts Attack when entering battle."
 
 [[abilities]]
 id = 314
 name = "LIBERO"
 display_name = "Libero"
-description = "Changes the Pokémon's type to the type of the move it's about to use."
+description = "Matches the type of the move it is about to use."
 
 [[abilities]]
 id = 315
@@ -1465,20 +1465,20 @@ description = "Pokémon's type changes with terrain."
 [[abilities]]
 id = 316
 name = "MIRRORARMOR"
-display_name = "Mirror Armor"
-description = "Bounces back only the stat-lowering effects that the Pokémon receives."
+display_name = "Mirror Arm."
+description = "Bounces back stat-lowering effects from other Pokemon."
 
 [[abilities]]
 id = 317
 name = "NEUTRALIZINGGAS"
-display_name = "Neutralizing Gas"
-description = "If the Pokémon with Neutralizing Gas is in the battle, the effects of all Pokémon's Abilities will be nullified or will not be triggered."
+display_name = "Neutr. Gas"
+description = "Nullifies all other abilities while in battle."
 
 [[abilities]]
 id = 318
 name = "PASTELVEIL"
 display_name = "Pastel Veil"
-description = "Protects the Pokémon and its ally Pokémon from being poisoned."
+description = "Protects itself and allies from being poisoned."
 
 [[abilities]]
 id = 319
@@ -1496,13 +1496,13 @@ description = "Just being next to the Pokémon powers up moves."
 id = 321
 name = "PROPELLERTAIL"
 display_name = "Propeller Tail"
-description = "Ignores the effects of opposing Pokémon's Abilities and moves that draw in moves."
+description = "Ignores attention-drawing moves' effects."
 
 [[abilities]]
 id = 322
 name = "PUNKROCK"
 display_name = "Punk Rock"
-description = "Boosts the power of sound-based moves. The Pokémon also takes half the damage from these kinds of moves."
+description = "Boosts sound-based moves and halves incoming damage of those."
 
 [[abilities]]
 id = 323
@@ -1514,25 +1514,25 @@ description = "Ripens Berries and doubles their effect."
 id = 324
 name = "SANDSPIT"
 display_name = "Sand Spit"
-description = "The Pokémon creates a sandstorm when it's hit by an attack."
+description = "Creates a sandstorm when hit by an attack."
 
 [[abilities]]
 id = 325
 name = "SCREENCLEANER"
-display_name = "Screen Cleaner"
-description = "When the Pokémon enters a battle, the effects of Light Screen, Reflect, and Aurora Veil are nullified for both opposing and ally Pokémon."
+display_name = "Screen Clean."
+description = "Removes Reflect and similar effects on entry."
 
 [[abilities]]
 id = 326
 name = "STALWART"
 display_name = "Stalwart"
-description = "Ignores the effects of opposing Pokémon's Abilities and moves that draw in moves."
+description = "Ignores attention-drawing moves' effects."
 
 [[abilities]]
 id = 327
 name = "STEAMENGINE"
 display_name = "Steam Engine"
-description = "Boosts the Pokémon's Speed stat drastically if hit by a Fire- or Water-type move."
+description = "Max out Speed when hit by a Fire or Water move"
 
 [[abilities]]
 id = 328
@@ -1543,8 +1543,8 @@ description = "Powers up ally Pokémon's Steel-type moves."
 [[abilities]]
 id = 329
 name = "WANDERINGSPIRIT"
-display_name = "Wandering Spirit"
-description = "The Pokémon exchanges Abilities with a Pokémon that hits it with a move that makes direct contact."
+display_name = "Wander. Spirit"
+description = "Exchanges ability with the Pokemon making contact."
 
 [[abilities]]
 id = 330
@@ -1556,12 +1556,12 @@ description = "Enables the Pokémon to move first occasionally."
 id = 331
 name = "UNSEENFIST"
 display_name = "Unseen Fist"
-description = "Physical contact bypasses Protect and similar."
+description = "Physical contact bypasses protection moves."
 
 [[abilities]]
 id = 332
 name = "CURIOUSMEDICINE"
-display_name = "Curious Medicine"
+display_name = "Cur. Medicine"
 description = "Removes ally stat changes on entry."
 
 [[abilities]]
@@ -1598,19 +1598,19 @@ description = "Combines abilities of fused Pokémon."
 id = 338
 name = "ANGERSHELL"
 display_name = "Anger Shell"
-description = "Boosts Offensives and Speed but lowers Defensives when falling below 50% HP."
+description = "At 50% HP, boosts Offense and Speed, lowers Defense."
 
 [[abilities]]
 id = 339
 name = "ARMORTAIL"
 display_name = "Armor Tail"
-description = "This Pokemon and its allies are immune to priority moves."
+description = "Prevents foes' single-target priority moves."
 
 [[abilities]]
 id = 340
 name = "SHARPNESS"
 display_name = "Sharpness"
-description = "Boosts slicing moves."
+description = "Boosts slashing moves."
 
 [[abilities]]
 id = 341
@@ -1628,49 +1628,49 @@ description = "Boosts Rock-type moves."
 id = 343
 name = "BEADSOFRUIN"
 display_name = "Beads of Ruin"
-description = "Lowers Sp.Def of all Pokemon except itself."
+description = "Lowers Sp.Def of all Pokemon but itself."
 
 [[abilities]]
 id = 344
 name = "SWORDOFRUIN"
 display_name = "Sword of Ruin"
-description = "Lowers Defense of all Pokemon except itself."
+description = "Lowers Defense of all Pokemon but itself."
 
 [[abilities]]
 id = 345
 name = "VESSELOFRUIN"
 display_name = "Vessel of Ruin"
-description = "Lowers Sp. Atk of all Pokemon except itself."
+description = "Lowers Sp. Atk of all Pokemon but itself."
 
 [[abilities]]
 id = 346
 name = "TABLETSOFRUIN"
 display_name = "Tablets of Ruin"
-description = "Lowers Attack of all Pokemon except itself."
+description = "Lowers Attack of all Pokemon but itself."
 
 [[abilities]]
 id = 347
 name = "WELLBAKEDBODY"
-display_name = "Well-Baked Bod."
-description = "Immune to Fire-type moves. Instead raises Defense sharply."
+display_name = "WellBaked Bod."
+description = "Immune to Fire moves. Raises Defense instead."
 
 [[abilities]]
 id = 348
 name = "TOXICDEBRIS"
 display_name = "Toxic Debris"
-description = "Scatters Poison Spikes upon taking a physical hit."
+description = "Scatters Poison Spikes upon taking a hit."
 
 [[abilities]]
 id = 349
 name = "WINDPOWER"
 display_name = "Wind Power"
-description = "Boosts the next Electric-type move when getting hit by a wind move."
+description = "Boosts next Electric move when hit by wind move."
 
 [[abilities]]
 id = 350
 name = "WINDRIDER"
 display_name = "Wind Rider"
-description = "Boosts Attack when hit by a wind move or Tailwind. Immune to wind move damage."
+description = "Immune to wind damage, boosts Attack when hit by one."
 
 [[abilities]]
 id = 351
@@ -1681,26 +1681,26 @@ description = "Copies ally's stat changes when entering battle."
 [[abilities]]
 id = 352
 name = "THERMALEXCHANGE"
-display_name = "Thermal Exchange"
-description = "Cannot be burned. Raises Attack when hit by a Fire-type move."
+display_name = "Thermal Exch."
+description = "Immune to burn. Raises Attack when hit by Fire move."
 
 [[abilities]]
 id = 353
 name = "HADRONENGINE"
 display_name = "Hadron Engine"
-description = "Creates Electric Terrain and boosts Sp. Atk on it."
+description = "Creates Electric Terrain and boosts Sp.Atk on it."
 
 [[abilities]]
 id = 354
 name = "ORICHALCUMPULSE"
 display_name = "Orich. Pulse"
-description = "Creates Sunny weather and boosts Attack while it is sunny."
+description = "Creates Sunlight and boosts Attack while sunny."
 
 [[abilities]]
 id = 355
 name = "LINGERINGAROMA"
-display_name = "Lingering Aroma"
-description = "Contact changes the attacker's ability to Lingering Aroma."
+display_name = "Ling. Aroma"
+description = "Contact changes attacker's ability to Lingering Aroma."
 
 [[abilities]]
 id = 356
@@ -1718,79 +1718,79 @@ description = "The Pokemon has full immunity to Status moves."
 id = 358
 name = "PURIFYINGSALT"
 display_name = "Purif. Salt"
-description = "Protects the Pokemon from Status conditions. Halves damage taken by Ghost-type moves."
+description = "Protects from Status conditions. Halves damage of Ghost moves."
 
 [[abilities]]
 id = 359
 name = "MYCELIUMMIGHT"
-display_name = "Mycelium Might"
+display_name = "Mycel. Might"
 description = "Status moves have reduced priority but always hit."
 
 [[abilities]]
 id = 360
 name = "GUARDDOG"
 display_name = "Guard Dog"
-description = "Boosts Attack if intimidated. Also cannot be switched out by items or moves."
+description = "Boosts Attack if intimidated. Cannot switch by force."
 
 [[abilities]]
 id = 361
 name = "ELECTROMORPHOSIS"
 display_name = "Electromorph."
-description = "Taking damage boosts the next Electric-type moves used."
+description = "Taking damage boosts the next Electric move used."
 
 [[abilities]]
 id = 362
 name = "OPPORTUNIST"
 display_name = "Opportunist"
-description = "Copies the stat boost of an opponent when used."
+description = "Copies stat boosts of an opponent when used."
 
 [[abilities]]
 id = 363
 name = "CUDCHEW"
 display_name = "Cud Chew"
-description = "When using a berry, it will be used again at the end of the next turn once."
+description = "Duplicates berry effect end of next turn when used."
 
 [[abilities]]
 id = 364
 name = "COMMANDER"
 display_name = "Commander"
-description = "If Dondozo is on the field, it hides inside it and issues commands from there."
+description = "Hides inside Dondozo and issues commands from there."
 
 [[abilities]]
 id = 365
 name = "ZEROTOHERO"
 display_name = "Zero to Hero"
-description = "The Pokemon transforms into a Hero when switching out."
+description = "Transforms into a Hero after switching out."
 
 [[abilities]]
 id = 366
 name = "QUARKDRIVE"
 display_name = "Quark Drive"
-description = "Boosts highest stat on Electric Terrain or when holding Booster Energy."
+description = "Boosts highest stat on Electric Terrain."
 
 [[abilities]]
 id = 367
 name = "PROTOSYNTHESIS"
-display_name = "Protosynthesis"
-description = "Boosts highest stat in harsh Sunlight or when holding Booster Energy."
+display_name = "Protosynt."
+description = "Boosts highest stat in harsh Sunlight."
 
 [[abilities]]
 id = 368
 name = "SUPREMEOVERLORD"
-display_name = "Supr. Overlord"
-description = "Raises Offensives for each fallen team member."
+display_name = "Supr.Overlord"
+description = "Raises Attack for each fallen team member."
 
 [[abilities]]
 id = 369
 name = "HYDRABOND"
 display_name = "Hydra Bond"
-description = "Strikes single targets two more times with lower power."
+description = "Strikes single targets two more times with less power."
 
 [[abilities]]
 id = 370
 name = "SUPERSWEETSYRUP"
-display_name = "Supersweet Syrup"
-description = "Lowers opponents' Evasiveness upon entering battle."
+display_name = "Supersw.Syrup"
+description = "Lowers opponents' evasion upon entering battle."
 
 [[abilities]]
 id = 371
@@ -1802,7 +1802,7 @@ description = "Damaging a target may badly poison it."
 id = 372
 name = "MINDSEYE"
 display_name = "Mind's Eye"
-description = "Ignores evasion, accuracy cannot be lowered, also Scrappy effect."
+description = "Scrappy + ignores evasion, acc can't be lowered."
 
 [[abilities]]
 id = 373
@@ -1820,13 +1820,13 @@ description = "Gains specific stat boosts depending on the mask."
 id = 375
 name = "HEATGENERATOR"
 display_name = "Searing Petals"
-description = "Generates heat itself, gains effects of sunlight."
+description = "Gains effects of sunlight."
 
 [[abilities]]
 id = 376
 name = "TERASHIFT"
 display_name = "Tera Shift"
-description = "When entering battle, transforms into Terastal Form."
+description = "Changes to Tera forme in battle."
 
 [[abilities]]
 id = 377
@@ -1851,3 +1851,21 @@ id = 380
 name = "ETERNALFLOWER"
 display_name = "Eternal Flower"
 description = "Powers up Grass-type moves."
+
+[[abilities]]
+id = 381
+name = "EVILSANTA"
+display_name = "Evil Santa"
+description = "Present does max damage, Ice type and never misses."
+
+[[abilities]]
+id = 382
+name = "ASCENDANCE"
+display_name = "Ascendance"
+description = "Boosts power of all moves and can hit immunities. "
+
+[[abilities]]
+id = 383
+name = "SINISTERBLAZE"
+display_name = "Sinister Blaze"
+description = "Is set ablaze, heals, and hurts others instead."
