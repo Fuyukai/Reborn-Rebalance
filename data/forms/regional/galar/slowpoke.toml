@@ -33,15 +33,7 @@ raw_level_up_moves = [
     { at_level = 42, name = "RAINDANCE" },
     { at_level = 45, name = "HEALPULSE" },
 ]
-evo_data = [
-    [
-        80,
-        7,
-        900,
-    ],
-    [
-        199,
-        7,
-        901,
-    ],
+evo_data_v2 = [
+    { into_name = "SLOWBRO", condition = "Item", parameter = "CHOICEBAND" },
+    { into_name = "SLOWKING", condition = "Item", parameter = "BURNDRIVE" },
 ]

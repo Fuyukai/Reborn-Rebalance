@@ -28,6 +28,49 @@ class PbsStatFormat(enum.Enum):
     NEW_EV_STYLE = 1
 
 
+class EvolutionType(enum.Enum):
+    """
+    Enumeration of the possible evolution types.
+    """
+
+    Unknown = 0
+    Happiness = 1
+    HappinessDay = 2
+    HappinessNight = 3
+    Level = 4
+    Trade = 5
+    TradeItem = 6
+    Item = 7
+    AttackGreater = 8
+    AtkDefEqual = 9
+    DefenseGreater = 10
+    Silcoon = 11
+    Cascoon = 12
+    Ninjask = 13
+    Shedinja = 14
+    Beauty = 15
+    ItemMale = 16
+    ItemFemale = 17
+    DayHoldItem = 18
+    NightHoldItem = 19
+    HasMove = 20
+    HasInParty = 21
+    LevelMale = 22
+    LevelFemale = 23
+    Location = 24
+    TradeSpecies = 25
+    BadInfluence = 26
+    Affection = 27
+    LevelRain = 28
+    LevelDay = 29
+    LevelNight = 30
+    LandCritical = 31
+    Alcremie = 32
+    Poisoned = 33
+    LevelWind = 34
+    Gimmi = 35
+
+
 @attr.s(frozen=True, slots=True, kw_only=True)
 class FormAttributes:
     """
@@ -269,8 +312,8 @@ class PokemonEvolution:
     #: What Pokémon this one will evolve into.
     into_name: str = attr.ib()
 
-    #: The evolution condition. Refers to an internal value in the Reborn code.
-    condition: str = attr.ib()
+    #: The evolution condition.
+    condition: EvolutionType = attr.ib()
 
     #: Condition-specific parameter.
     parameter: str | None = attr.ib(default=None)
@@ -519,7 +562,9 @@ class PokemonSpecies:
                     cond_param = ""
 
                 raw_evos.append(
-                    PokemonEvolution(into_name=into, condition=cond, parameter=cond_param)
+                    PokemonEvolution(
+                        into_name=into, condition=EvolutionType(cond), parameter=cond_param
+                    )
                 )
 
         forms = []
@@ -644,7 +689,7 @@ class PokemonSpecies:
         buffer.write_key_value("BattlerAltitude", self.battler_altitude)
 
         evos = [
-            f"{evolution.into_name},{evolution.condition},{evolution.parameter}"
+            f"{evolution.into_name},{evolution.condition.name},{evolution.parameter}"
             for evolution in self.evolutions
         ]
         buffer.write_key_value("Evolutions", ",".join(evos))

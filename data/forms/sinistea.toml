@@ -6,10 +6,6 @@ custom_init = "rand(2)"
 
 [forms.Cracked]
 form_name = "Cracked"
-evo_data = [
-    [
-        855,
-        7,
-        811,
-    ],
+evo_data_v2 = [
+    { into_name = "POLTEAGEIST", condition = "Item", parameter = "BLACKAUGURITE" },
 ]

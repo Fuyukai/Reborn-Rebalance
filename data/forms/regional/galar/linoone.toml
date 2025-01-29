@@ -28,10 +28,6 @@ raw_level_up_moves = [
     { at_level = 43, name = "TAUNT" },
     { at_level = 48, name = "DOUBLEEDGE" },
 ]
-evo_data = [
-    [
-        862,
-        30,
-        35,
-    ],
+evo_data_v2 = [
+    { into_name = "OBSTAGOON", condition = "LevelNight", parameter = "862" },
 ]

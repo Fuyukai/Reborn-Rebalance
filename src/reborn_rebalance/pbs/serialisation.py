@@ -17,7 +17,13 @@ from reborn_rebalance.pbs.form import PokemonForms, SinglePokemonForm
 from reborn_rebalance.pbs.item import PokemonItem
 from reborn_rebalance.pbs.map import MAP_DATA_HEADER, MapMetadata
 from reborn_rebalance.pbs.move import MoveCategory, MoveFlag, MoveTarget, PokemonMove
-from reborn_rebalance.pbs.pokemon import EggGroup, GrowthRate, PokemonSpecies, SexRatio
+from reborn_rebalance.pbs.pokemon import (
+    EggGroup,
+    EvolutionType,
+    GrowthRate,
+    PokemonSpecies,
+    SexRatio,
+)
 from reborn_rebalance.pbs.raw.kv import raw_parse_kv
 from reborn_rebalance.pbs.tm import TechnicalMachine
 from reborn_rebalance.pbs.trainer import (
@@ -60,6 +66,10 @@ def generation_for(dex_number: int) -> int:
 
 
 def create_cattrs_converter() -> cattrs.Converter:
+    # Please keep this order the same. Some things depend on the serialiser for a class being
+    # registered *before* the serialiser that uses said class as a field, e.g. SinglePokemonForm and
+    # PokemonForms.
+
     converter = cattrs.Converter(forbid_extra_keys=True)
 
     # dump enums via name rather than by value
@@ -71,6 +81,7 @@ def create_cattrs_converter() -> cattrs.Converter:
         MoveCategory,
         MoveTarget,
         MoveFlag,
+        EvolutionType,
     ):
         converter.register_structure_hook(enum, lambda name, klass: klass[name])
         converter.register_unstructure_hook(enum, lambda it: it.name)
@@ -78,8 +89,8 @@ def create_cattrs_converter() -> cattrs.Converter:
     TechnicalMachine.add_unstructuring_hook(converter)
     PokemonSpecies.add_unstructuring_hook(converter)
     PokemonItem.add_unstructuring_hook(converter)
-    PokemonForms.add_unstructure_hook(converter)
     SinglePokemonForm.add_unstructure_hook(converter)
+    PokemonForms.add_unstructure_hook(converter)
     MapMetadata.add_unstructure_hook(converter)
     TrainerType.add_unstructure_hook(converter)
     SingleTrainerPokemon.add_unstructure_hook(converter)
@@ -264,6 +275,16 @@ def load_all_forms(path: Path) -> dict[str, LoadedForm]:
             all_forms[forms.internal_name] = loaded
 
     return all_forms
+
+
+def save_forms_to_toml(path: Path, forms: PokemonForms) -> None:
+    """
+    Saves the provided form to a TOML file.
+    """
+
+    with path.open(mode="wb") as f:
+        raw = CONVERTER.unstructure(forms)
+        dump(raw, f)
 
 
 def load_moves_from_pbs(path: Path) -> list[PokemonMove]:

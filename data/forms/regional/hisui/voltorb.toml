@@ -18,10 +18,6 @@ raw_level_up_moves = [
     { at_level = 37, name = "THUNDER" },
     { at_level = 47, name = "SELFDESTRUCT" },
 ]
-evo_data = [
-    [
-        101,
-        7,
-        15,
-    ],
+evo_data_v2 = [
+    { into_name = "ELECTRODE", condition = "Item", parameter = "METRONOME" },
 ]

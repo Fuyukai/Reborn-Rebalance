@@ -29,10 +29,6 @@ raw_level_up_moves = [
     { at_level = 36, name = "TOXIC" },
     { at_level = 40, name = "EARTHQUAKE" },
 ]
-evo_data = [
-    [
-        994,
-        4,
-        20,
-    ],
+evo_data_v2 = [
+    { into_name = "IRONMOTH", condition = "Level", parameter = "994" },
 ]

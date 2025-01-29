@@ -82,11 +82,14 @@ class RubyBuffer:
         finally:
             self._indent -= 4
 
+    def write_indent(self):
+        self.backing.write(" " * self._indent)
+
     def write(self, data: str):
         self.backing.write(data)
 
-    def write_line(self, data: str):
-        self.backing.write(" " * self._indent)
+    def write_whole_line(self, data: str):
+        self.write_indent()
         self.backing.write(data)
         self.backing.write("\n")
 

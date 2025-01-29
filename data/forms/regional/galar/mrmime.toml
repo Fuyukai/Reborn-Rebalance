@@ -60,12 +60,8 @@ raw_level_up_moves = [
     { at_level = 48, name = "PSYCHIC" },
     { at_level = 52, name = "TEETERDANCE" },
 ]
-evo_data = [
-    [
-        866,
-        4,
-        42,
-    ],
+evo_data_v2 = [
+    { into_name = "MRRIME", condition = "Level", parameter = "866" },
 ]
 
 [forms.Galar.base_stats]

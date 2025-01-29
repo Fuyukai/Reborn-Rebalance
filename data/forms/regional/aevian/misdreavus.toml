@@ -30,12 +30,8 @@ raw_level_up_moves = [
     { at_level = 50, name = "POWERWHIP" },
     { at_level = 55, name = "POWERGEM" },
 ]
-evo_data = [
-    [
-        429,
-        7,
-        15,
-    ],
+evo_data_v2 = [
+    { into_name = "MISMAGIUS", condition = "Item", parameter = "KEBIABERRY" },
 ]
 
 [forms.Aevian.base_stats]

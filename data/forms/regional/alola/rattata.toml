@@ -30,10 +30,6 @@ raw_level_up_moves = [
     { at_level = 31, name = "DOUBLEEDGE" },
     { at_level = 34, name = "ENDEAVOR" },
 ]
-evo_data = [
-    [
-        20,
-        30,
-        20,
-    ],
+evo_data_v2 = [
+    { into_name = "RATICATE", condition = "LevelNight", parameter = "20" },
 ]

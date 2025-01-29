@@ -7,12 +7,8 @@ custom_init = "maps=[361,404]\n# Map IDs for galarian form\nif $game_map && maps
 
 [forms.Johto]
 form_name = "Johto"
-evo_data = [
-    [
-        461,
-        19,
-        105,
-    ],
+evo_data_v2 = [
+    { into_name = "WEAVILE", condition = "NightHoldItem", parameter = "461" },
 ]
 
 [forms.Hisui]

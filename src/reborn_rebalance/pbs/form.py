@@ -2,11 +2,14 @@ from io import StringIO
 from pathlib import Path
 
 import attr
+from cattr import override
 from cattrs import Converter
 from cattrs.gen import make_dict_unstructure_fn
 
 from reborn_rebalance.pbs.pokemon import (
+    EvolutionType,
     FormAttributes,
+    PokemonEvolution,
     PokemonSpecies,
     RawLevelUpMove,
     StatWrapper,
@@ -87,9 +90,8 @@ class SinglePokemonForm:
     #: The custom egg moves for this form.
     raw_egg_moves: list[str] = attr.ib(factory=list)
 
-    # ofc evos are done in the stupidest possible way too
-    #: Raw evolution data.
-    evo_data: list[tuple[int, int, int]] = attr.ib(factory=list)
+    #: The evolutionary data for this form, if any.
+    evo_data_v2: list[PokemonEvolution] = attr.ib(factory=list)
 
     def combined_attributes(self, species: PokemonSpecies) -> FormAttributes:
         """
@@ -115,38 +117,55 @@ class SinglePokemonForm:
         """
 
         if self.primary_type:
-            buffer.write_line(f":Type1 => PBTypes::{self.primary_type.name},")
+            buffer.write_whole_line(f":Type1 => PBTypes::{self.primary_type.name},")
 
         if self.secondary_type:
-            buffer.write_line(f":Type2 => PBTypes::{self.secondary_type.name},")
+            buffer.write_whole_line(f":Type2 => PBTypes::{self.secondary_type.name},")
 
         if self.base_stats:
-            buffer.write_line(f":BaseStats => [{self.base_stats.to_pbs()}],")
+            buffer.write_whole_line(f":BaseStats => [{self.base_stats.to_pbs()}],")
 
         if self.pokedex_entry:
-            buffer.write_line(f':DexEntry => "{self.pokedex_entry}",')
+            buffer.write_whole_line(f':DexEntry => "{self.pokedex_entry}",')
 
         if self.raw_abilities:
             ability_line = ", ".join([f"PBAbilities::{ability}" for ability in self.raw_abilities])
-            buffer.write_line(f":Ability => [{ability_line}],")
+            buffer.write_whole_line(f":Ability => [{ability_line}],")
 
         if self.raw_level_up_moves:
-            buffer.write_line(":Movelist => [")
+            buffer.write_whole_line(":Movelist => [")
 
             with buffer.indented():
                 for move in self.raw_level_up_moves:
-                    buffer.write_line(f"[{move.at_level}, PBMoves::{move.name}],")
+                    buffer.write_whole_line(f"[{move.at_level}, PBMoves::{move.name}],")
 
-            buffer.write_line("],")
+            buffer.write_whole_line("],")
 
-        if self.evo_data:
-            buffer.write_line(":GetEvo => [")
+        if self.evo_data_v2:
+            buffer.write_whole_line(":GetEvo => [")
 
             with buffer.indented():
-                for evo in self.evo_data:
-                    buffer.write_line(f"[{evo[0]},{evo[1]},{evo[2]}],")
+                for evolution in self.evo_data_v2:
+                    buffer.write_indent()
+                    buffer.write(
+                        f"[PBSpecies::{evolution.into_name}, "
+                        f"PBEvolution::{evolution.condition.name}, "
+                    )
 
-            buffer.write_line("],")
+                    if evolution.condition in (
+                        EvolutionType.Item,
+                        EvolutionType.ItemMale,
+                        EvolutionType.ItemFemale,
+                    ):
+                        buffer.write(f"PBItems::{evolution.parameter}")
+                    elif evolution.parameter is not None:
+                        buffer.write(evolution.parameter)
+                    else:
+                        buffer.write_whole_line("0")
+
+                    buffer.write("],\n")
+
+            buffer.write_whole_line("],")
 
 
 @attr.s(frozen=True, slots=True, kw_only=True)
@@ -156,11 +175,16 @@ class PokemonForms:
     """
 
     @classmethod
+    def _unstructure_form_mapping(cls, mapping: dict[int, str]) -> dict[str, str]:
+        return {str(k): v for k, v in mapping.items()}
+
+    @classmethod
     def add_unstructure_hook(cls, converter: Converter):
         unst_hook = make_dict_unstructure_fn(
             cls,
             converter,
             _cattrs_omit_if_default=True,
+            form_mapping=override(unstruct_hook=cls._unstructure_form_mapping),
         )
         converter.register_unstructure_hook(cls, unst_hook)
 
@@ -234,76 +258,80 @@ class PokemonForms:
         """
         Generates the Ruby code for this form.
         """
-        buffer.write_line(f"PBSpecies::{self.internal_name} => {{")
+
+        buffer.write_whole_line(f"PBSpecies::{self.internal_name} => {{")
 
         with buffer.indented():
             # e.g. unown has multiple different forms, but only one form name.
             if self.form_mapping:
-                buffer.write_line(":FormName => {")
+                buffer.write_whole_line(":FormName => {")
 
                 # some forms have a 0 => "Normal"...
                 # not sure why.
 
                 with buffer.indented():
                     for idx, form_name in self.form_mapping.items():
-                        buffer.write_line(f'{idx} => "{form_name}",')
+                        buffer.write_whole_line(f'{idx} => "{form_name}",')
 
-                buffer.write_line("},")
+                buffer.write_whole_line("},")
 
             if self.custom_default_mapping:
-                buffer.write_line(":DefaultForm => {")
+                buffer.write_whole_line(":DefaultForm => {")
                 with buffer.indented():
                     for name, idx in self.custom_default_mapping.items():
-                        buffer.write_line(f"PBItems::{name} => {idx},")
+                        buffer.write_whole_line(f"PBItems::{name} => {idx},")
 
-                buffer.write_line("},")
+                buffer.write_whole_line("},")
 
             if self.custom_mega_mapping:
-                buffer.write_line(":MegaForm => {")
+                buffer.write_whole_line(":MegaForm => {")
 
                 with buffer.indented():
                     for name, idx in self.custom_mega_mapping.items():
-                        buffer.write_line(f"PBItems::{name} => {idx},")
+                        buffer.write_whole_line(f"PBItems::{name} => {idx},")
 
-                buffer.write_line("},")
+                buffer.write_whole_line("},")
 
                 if not self.custom_default_mapping:
-                    buffer.write_line(f":DefaultForm => {self.default_form},")
+                    buffer.write_whole_line(f":DefaultForm => {self.default_form},")
 
             elif self.mega_form is not None:
-                buffer.write_line(f":MegaForm => {self.mega_form},")
+                buffer.write_whole_line(f":MegaForm => {self.mega_form},")
 
                 if not self.custom_default_mapping:
-                    buffer.write_line(f":DefaultForm => {self.default_form},")
+                    buffer.write_whole_line(f":DefaultForm => {self.default_form},")
 
             if self.ultra_form is not None:
-                buffer.write_line(f":UltraForm => {self.ultra_form},")
+                buffer.write_whole_line(f":UltraForm => {self.ultra_form},")
 
             if self.pulse_form is not None:
-                buffer.write_line(f":PulseForm => {self.pulse_form},")
+                buffer.write_whole_line(f":PulseForm => {self.pulse_form},")
 
             if self.custom_init:
-                buffer.write_line(":OnCreation => proc{")
+                buffer.write_whole_line(":OnCreation => proc{")
 
                 with buffer.indented():
                     lines = self.custom_init.splitlines()
                     for line in lines:
-                        buffer.write_line(line)
+                        buffer.write_whole_line(line)
 
-                buffer.write_line("},")
+                buffer.write_whole_line("},")
 
             for form in self.forms.values():
-                buffer.write_line(f'"{form.form_name}" => {{')
+                buffer.write_whole_line(f'"{form.form_name}" => {{')
 
                 with buffer.indented():
                     form.generate_ruby_code(buffer)
 
-                buffer.write_line("},")
+                buffer.write_whole_line("},")
 
-        buffer.write_line("},")
+        buffer.write_whole_line("},")
 
 
-def save_forms_to_ruby(output_path: Path, forms: dict[str, PokemonForms]):
+def save_forms_to_ruby(
+    output_path: Path,
+    forms: dict[str, PokemonForms],
+):
     """
     Generates the ruby code for the forms data.
     """
@@ -311,13 +339,13 @@ def save_forms_to_ruby(output_path: Path, forms: dict[str, PokemonForms]):
     buffer = RubyBuffer()
     buffer.write(HEADER)
 
-    buffer.write_line("PokemonForms = {")
+    buffer.write_whole_line("PokemonForms = {")
 
     with buffer.indented():
         for form_list in forms.values():
             form_list.generate_ruby_code(buffer)
 
-    buffer.write_line("}")
+    buffer.write_whole_line("}")
     buffer.write(FOOTER)
 
     with output_path.open(mode="w", encoding="utf-8") as f:

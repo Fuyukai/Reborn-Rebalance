@@ -25,6 +25,7 @@ from reborn_rebalance.pbs.pokemon import (
     PokemonSpecies,
 )
 from reborn_rebalance.pbs.serialisation import (
+    LoadedForm,
     load_abilities_from_pbs,
     load_abilities_from_toml,
     load_all_forms,
@@ -354,16 +355,18 @@ class EssentialsCatalog:
         )
 
     @classmethod
-    def load_only_species(cls, path: Path):
+    def load_only_species(cls, path: Path, *, load_forms: bool = True):
         """
         Loads only species and forms data. Does *no* validation.
         """
 
         species_dir = path / "species"
-        forms_path = path / "forms"
-
         species = load_all_species_from_toml(species_dir)
-        forms = load_all_forms(forms_path)
+
+        forms: dict[str, LoadedForm] = {}
+        if load_forms:
+            forms_path = path / "forms"
+            forms = load_all_forms(forms_path)
 
         return cls(
             species=species,

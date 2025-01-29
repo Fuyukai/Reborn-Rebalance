@@ -36,10 +36,6 @@ raw_level_up_moves = [
     { at_level = 50, name = "SHEERCOLD" },
     { at_level = 52, name = "WEATHERBALL" },
 ]
-evo_data = [
-    [
-        38,
-        7,
-        692,
-    ],
+evo_data_v2 = [
+    { into_name = "NINETALES", condition = "Item", parameter = "BIGMUSHROOM" },
 ]

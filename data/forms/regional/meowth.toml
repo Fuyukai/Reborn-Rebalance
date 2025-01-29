@@ -35,12 +35,8 @@ raw_level_up_moves = [
     { at_level = 50, name = "FEINT" },
     { at_level = 55, name = "DARKPULSE" },
 ]
-evo_data = [
-    [
-        53,
-        1,
-        0,
-    ],
+evo_data_v2 = [
+    { into_name = "PERSIAN", condition = "Happiness", parameter = "53" },
 ]
 
 [forms.Alola.base_stats]
@@ -71,12 +67,8 @@ raw_level_up_moves = [
     { at_level = 40, name = "METALSOUND" },
     { at_level = 44, name = "THRASH" },
 ]
-evo_data = [
-    [
-        863,
-        4,
-        28,
-    ],
+evo_data_v2 = [
+    { into_name = "PERRSERKER", condition = "Level", parameter = "863" },
 ]
 
 [forms.Galar.base_stats]
