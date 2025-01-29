@@ -572,7 +572,7 @@ class PokemonSpecies:
 
                 raw_evos.append(
                     PokemonEvolution(
-                        into_name=into, condition=EvolutionType(cond), parameter=cond_param
+                        into_name=into, condition=EvolutionType[cond], parameter=cond_param
                     )
                 )
 
