@@ -75,7 +75,7 @@ class RubyBuffer:
         self.backing = StringIO()
 
     @contextmanager
-    def indented(self) -> Generator[None, None, None]:
+    def indented(self) -> Generator[None]:
         try:
             self._indent += 4
             yield

@@ -1,10 +1,9 @@
 from __future__ import annotations
 
 import enum
-from typing import Self
+from typing import Self, override
 
 import attr
-from typing_extensions import override
 
 from reborn_rebalance.pbs.type import PokemonType
 

@@ -2,11 +2,10 @@ import json
 import struct
 import sys
 from pathlib import Path
-from typing import Any, TypeVar
+from typing import Any, TypeVar, override
 
 from rubymarshal.classes import ClassRegistry, RubyObject, RubyString, UserDef
 from rubymarshal.reader import load, loads
-from typing_extensions import override
 
 from reborn_rebalance import _hotpatch
 
