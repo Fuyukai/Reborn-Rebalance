@@ -1,3 +1,5 @@
+# pyright: basic
+
 import sys
 from pathlib import Path
 

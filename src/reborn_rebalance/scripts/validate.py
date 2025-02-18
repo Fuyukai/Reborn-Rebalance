@@ -14,7 +14,7 @@ def extended_validate_megas(catalog: EssentialsCatalog):
     for species_name, forms in catalog.forms.items():
         species = catalog.species_mapping[species_name]
 
-        to_check = []
+        to_check: list[str] = []
 
         if forms.custom_mega_mapping:
             to_check.extend(forms.form_mapping[it] for it in forms.custom_mega_mapping.values())

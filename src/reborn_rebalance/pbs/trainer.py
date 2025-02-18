@@ -4,6 +4,7 @@ import csv
 from collections.abc import Iterable, Iterator
 from functools import partial
 from io import StringIO
+from typing import Any
 
 import attr
 import cattrs.gen
@@ -125,7 +126,7 @@ class SingleTrainerPokemon:
         )
 
     @staticmethod
-    def validate_raw_moves(it: tuple):
+    def validate_raw_moves(it: tuple[str]) -> None:
         if len(it) != 4:
             raise ValueError(f"Expected 4 moves, but got ${it}")
 
@@ -192,7 +193,7 @@ class SingleTrainerPokemon:
         if not item:
             item = None
 
-        moves = []
+        moves: list[str] = []
         for name_idx in range(4):
             real_idx = 3 + name_idx
             if (len(line) > real_idx) and (move := line[real_idx]):
@@ -266,7 +267,7 @@ class SingleTrainerPokemon:
         """
 
         if len(self.raw_moves) == 0:
-            moves = [""] * 4
+            moves: list[str] = [""] * 4
         else:
             # pad moves out if its less than 4
             moves = []
@@ -401,8 +402,10 @@ class Trainer:
 @attr.s(kw_only=True)
 class TrainerCatalog:
     @staticmethod
-    def trainers_structure_hook(converter: Converter, data: dict[str, dict[int, Trainer]]):
-        new_dict = {}
+    def trainers_unstruct_hook(
+        converter: Converter, data: dict[str, dict[int, Trainer]]
+    ) -> dict[str, Any]:
+        new_dict: dict[str, Any] = {}
 
         for key, value in data.items():
             inner = {str(k): v for (k, v) in value.items()}
@@ -415,7 +418,7 @@ class TrainerCatalog:
         hook = cattrs.gen.make_dict_unstructure_fn(
             cls,
             converter,
-            trainers=override(unstruct_hook=partial(cls.trainers_structure_hook, converter)),
+            trainers=override(unstruct_hook=partial(cls.trainers_unstruct_hook, converter)),
         )
         converter.register_unstructure_hook(cls, hook)
 

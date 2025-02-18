@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import enum
 from functools import cached_property
+from typing import Any
 
 import attr
 import attrs
@@ -349,7 +350,7 @@ class PokemonSpecies:
             converter.register_unstructure_hook(klass, unst_hook)
 
     @staticmethod
-    def validate_catch_rate(_, __, rate: int):
+    def validate_catch_rate(_: Any, __: Any, rate: int):
         if rate > 255:
             raise ValueError(f"catch rate {rate} is > 255 (not allowed)")
 

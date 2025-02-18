@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import enum
-from typing import Self, override
+from typing import Any, Self, override
 
 import attr
 
@@ -67,7 +67,7 @@ class PokemonMove:
         self.flags.sort(key=lambda it: it.value)
 
     @staticmethod
-    def validate_bp(_, __, it: int):
+    def validate_bp(_, __: Any, it: int) -> None:
         if it < 0 or it > 255:
             raise ValueError(f"move base power must be 0..=255, not {it}")
 
@@ -85,7 +85,7 @@ class PokemonMove:
 
     #: The BP (Base Power) for the move. Moves with no concept of power have 0BP.
     #: Moves with custom BP have 1BP.
-    base_power: int = attr.ib(validator=validate_bp)
+    base_power: int = attr.ib(validator=validate_bp)  # type: ignore
 
     #: The type of the move.
     type: PokemonType = attr.ib()
