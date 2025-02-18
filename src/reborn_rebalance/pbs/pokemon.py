@@ -457,7 +457,7 @@ class PokemonSpecies:
             raw_egg_moves=self.raw_egg_moves,
             pokedex_entry=self.pokedex_entry,
             internal_name=self.internal_name,
-            evolutions=self.evolutions
+            evolutions=self.evolutions,
         )
 
     @cached_property

@@ -5,11 +5,10 @@ from typing import Any, TypeVar
 
 import attr
 
-_ChunkType = TypeVar("_ChunkType")
 _GetSafelyType = TypeVar("_GetSafelyType")
 
 
-def chunks(lst: list[_ChunkType], n: int) -> Iterable[list[_ChunkType]]:
+def chunks[ChunkType](lst: list[ChunkType], n: int) -> Iterable[list[ChunkType]]:
     """
     Yield successive n-sized chunks from lst.
     """

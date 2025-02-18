@@ -230,8 +230,8 @@ class PokemonForms:
     #: Please note that form IDs and the indexes in here are unrelated to each other.
     forms: dict[str, SinglePokemonForm] = attr.ib(factory=dict)
 
-    def _validate(self):
-        errors = []
+    def _validate(self) -> ExceptionGroup[Exception] | None:
+        errors: list[Exception] = []
 
         for form_name in self.forms:
             if form_name not in self.form_mapping.values():

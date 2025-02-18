@@ -5,15 +5,17 @@ from collections import defaultdict
 from collections.abc import Callable, Mapping, MutableMapping
 from functools import cached_property, partial
 from pathlib import Path
-from typing import Self, TypeVar
+from typing import Self, cast
 
 import attr
+from rgss import read_object_rgxp
+from rgss.rpg.map import RubyMapInfo
 
 from reborn_rebalance.pbs.ability import PokemonAbility
 from reborn_rebalance.pbs.encounters import ENCOUNTER_SLOTS, MapEncounters
 from reborn_rebalance.pbs.form import PokemonForms, save_forms_to_ruby
 from reborn_rebalance.pbs.item import PokemonItem
-from reborn_rebalance.pbs.map import MapMetadata, parse_rpg_maker_mapinfo
+from reborn_rebalance.pbs.map import MapMetadata
 from reborn_rebalance.pbs.move import (
     MoveMappingEntry,
     MoveMappingEntryType,
@@ -67,10 +69,8 @@ from reborn_rebalance.pbs.serialisation import (
 from reborn_rebalance.pbs.tm import TechnicalMachine, tm_number_for
 from reborn_rebalance.pbs.trainer import TrainerCatalog, TrainerType
 
-LoadWithPrintT = TypeVar("LoadWithPrintT")
 
-
-def load_with_print(type_: str, fn: Callable[[], LoadWithPrintT]) -> LoadWithPrintT:
+def load_with_print[LoadWithPrintT](type_: str, fn: Callable[[], LoadWithPrintT]) -> LoadWithPrintT:
     """
     Loads the provided object, printing the time taken.
     """
@@ -191,12 +191,12 @@ class EssentialsCatalog:
         return types.MappingProxyType({it.internal_name: it for it in self.items})
 
     @cached_property
-    def tutor_moves(self) -> set[PokemonMove]:
+    def tutor_moves(self) -> set[str]:
         """
         The set of tutor moves.
         """
 
-        items = set()
+        items: set[str] = set()
 
         for species in self.species:
             for move in species.raw_tutor_moves:
@@ -211,7 +211,7 @@ class EssentialsCatalog:
         """
 
         # luckily, there's no cases of multiple species evolving into one pokemon.
-        d = {}
+        d: dict[str, tuple[PokemonSpecies, PokemonEvolution]] = {}
 
         for species in self.species:
             for evo in species.evolutions:
@@ -225,7 +225,7 @@ class EssentialsCatalog:
         A mapping of {species internal name: [map ID]} to avoid searching all maps repeatedly.
         """
 
-        mapping = defaultdict(set)
+        mapping: dict[str, set[int]] = defaultdict(set)
 
         for map_id, info in self.encounters.items():
             for all_entries in info.encounters.values():
@@ -310,8 +310,8 @@ class EssentialsCatalog:
             poke.raw_tms = [it.move for it in sorted(poke.raw_tms, key=lambda it: it.number)]  # type: ignore
 
         map_file_path = (path / "Data" / "MapInfos.rxdata").absolute()
-        map_names = parse_rpg_maker_mapinfo(map_file_path)
 
+        map_names = dict(enumerate(cast(list[RubyMapInfo], read_object_rgxp(map_file_path))))
         map_metadata = load_map_metadata_from_pbs(pbs_path / "metadata.txt")
 
         # backfill names into the map metadata, as the file only contains the map number.
@@ -573,7 +573,7 @@ class EssentialsCatalog:
 
     def _validate(self):
         for species in self.species:
-            errors = []
+            errors: list[Exception] = []
 
             for _, _, attrs in self.all_forms_for(species):
                 for tm in species.raw_tms:

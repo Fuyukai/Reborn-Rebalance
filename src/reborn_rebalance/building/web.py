@@ -6,19 +6,20 @@ import subprocess
 import sys
 import tempfile
 from pathlib import Path
-from typing import Any
+from typing import Any, cast
 
 import attr
 import jinja2
 import rtoml
 from PIL import Image
+from rgcompiler.map.tileset import SubtileTileset, decompile_tileset
+from rgss import RubyTileset, read_object_rgxp
 from rich import print
 from rich.console import Console
 from rich.progress import Progress, track
 
 from reborn_rebalance.changes import build_changelog
-from reborn_rebalance.map.map import render_map
-from reborn_rebalance.map.tileset import load_all_tilesets
+from reborn_rebalance.map_renderer import render_map
 from reborn_rebalance.pbs.catalog import EssentialsCatalog
 from reborn_rebalance.pbs.encounters import ENCOUNTER_SLOTS
 from reborn_rebalance.pbs.map import FIELD_NAMES
@@ -171,8 +172,8 @@ def crop_regular_sprites(catalog: EssentialsCatalog, original_dir: Path, output_
         input_mini_sprite = original_dir / "Graphics" / "Icons" / f"icon{idx:03d}.png"
 
         with Image.open(input_mini_sprite) as input_1, Image.open(input_mini_sprite) as input_2:
-            input_1.load()
-            input_2.load()
+            input_1.load()  # type: ignore
+            input_2.load()  # type: ignore
 
             output_normal = Image.new(mode="RGBA", size=(64, 64), color=None)  # type: ignore
             cropped_normal = input_1.crop((0, 0, 64, 64))
@@ -187,8 +188,8 @@ def crop_regular_sprites(catalog: EssentialsCatalog, original_dir: Path, output_
 
         inp_battler = original_dir / "Graphics" / "Battlers" / f"{idx:03d}.png"
         with Image.open(inp_battler) as input_1, Image.open(inp_battler) as input_2:
-            input_1.load()
-            input_2.load()
+            input_1.load()  # type: ignore
+            input_2.load()  # type: ignore
 
             output_normal = Image.new(mode="RGBA", size=(192, 192), color=None)  # type: ignore
             cropped_normal = input_1.crop((0, 0, 192, 192))
@@ -208,7 +209,17 @@ def render_all_maps(
     data_dir: Path,
     output_dir: Path,
 ):
-    tilesets = load_all_tilesets(game_dir)
+    tilesets_path = game_dir / "Data" / "tilesets.rxdata"
+    raw_tilesets = cast(list[RubyTileset], read_object_rgxp(tilesets_path))[1:]
+
+    seen_subtiles: dict[str, SubtileTileset] = {}
+    tilesets = [decompile_tileset(game_dir, ts, seen_subtiles) for ts in raw_tilesets if ts.name]
+
+    for ts in tilesets:
+        ts.image.convert("RGBA")
+
+    for ts in seen_subtiles.values():
+        ts.image.convert("RGBA")
 
     for map_id in track(catalog.maps.keys(), description="Map Rendering"):
         map_name = f"Map{map_id:03d}.rxdata"
@@ -217,8 +228,8 @@ def render_all_maps(
             map_path = game_dir / "Data" / map_name
 
         output_path = (output_dir / map_path.name).with_suffix(".png")
-        if output_path.exists():
-            continue
+        # if output_path.exists():
+        #    continue
 
         with render_map(tilesets, map_path) as output:
             output.save(output_path)
@@ -340,21 +351,21 @@ def main():
 
     loader = jinja2.FileSystemLoader(searchpath=search_paths)
     env = jinja2.Environment(loader=loader, undefined=jinja2.StrictUndefined)
-    env.globals["catalog"] = catalog
-    env.globals["changelog"] = changelog
-    env.globals["MoveCategory"] = MoveCategory
-    env.globals["ENCOUNTER_SLOTS"] = ENCOUNTER_SLOTS
-    env.globals["FIELD_NAMES"] = FIELD_NAMES
-    env.globals["navbar_maps"] = load_navbar_maps(catalog, input_dir / "web" / "navbar_maps.toml")
-    env.globals["MoveMappingEntryType"] = MoveMappingEntryType
-    env.globals["MoveFlag"] = MoveFlag
+    env.globals["catalog"] = catalog  # type: ignore
+    env.globals["changelog"] = changelog  # type: ignore
+    env.globals["MoveCategory"] = MoveCategory  # type: ignore
+    env.globals["ENCOUNTER_SLOTS"] = ENCOUNTER_SLOTS  # type: ignore
+    env.globals["FIELD_NAMES"] = FIELD_NAMES  # type: ignore
+    env.globals["navbar_maps"] = load_navbar_maps(catalog, input_dir / "web" / "navbar_maps.toml")  # type: ignore
+    env.globals["MoveMappingEntryType"] = MoveMappingEntryType  # type: ignore
+    env.globals["MoveFlag"] = MoveFlag  # type: ignore
 
     walkthru_entries: list[WalkthroughEntry] = []
     if wdir.exists():
         walkthru_entries = load_navbar_walkthroughs(wdir / "navbar.toml")
 
     walkthrough_chapters = [chap for e in walkthru_entries for chap in e.chapters]
-    env.globals["navbar_walkthroughs"] = walkthru_entries
+    env.globals["navbar_walkthroughs"] = walkthru_entries  # type: ignore
 
     # build single-file templates
     with console.status("Building single-page files...", spinner="line"):
