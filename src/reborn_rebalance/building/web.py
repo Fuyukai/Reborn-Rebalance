@@ -1,10 +1,12 @@
 from __future__ import annotations
 
 import argparse
+import re
 import shutil
 import subprocess
 import sys
 import tempfile
+from collections import defaultdict
 from pathlib import Path
 from typing import Any, cast
 
@@ -12,14 +14,14 @@ import attr
 import jinja2
 import rtoml
 from PIL import Image
+from rgcompiler.debug.render_map import render_single_map
 from rgcompiler.map.tileset import SubtileTileset, decompile_tileset
-from rgss import RubyTileset, read_object_rgxp
+from rgss import RubyRpgMap, RubyTileset, read_object_rgxp
 from rich import print
 from rich.console import Console
-from rich.progress import Progress, track
+from rich.progress import MofNCompleteColumn, Progress, track
 
 from reborn_rebalance.changes import build_changelog
-from reborn_rebalance.map_renderer import render_map
 from reborn_rebalance.pbs.catalog import EssentialsCatalog
 from reborn_rebalance.pbs.encounters import ENCOUNTER_SLOTS
 from reborn_rebalance.pbs.map import FIELD_NAMES
@@ -203,6 +205,17 @@ def crop_regular_sprites(catalog: EssentialsCatalog, original_dir: Path, output_
             output_shiny.save(output_path / f"battler_{idx:04d}_shiny.png", compress_level=9)
 
 
+def _skip_lights(name: str):
+    if re.match(r"light[0-9]", name):
+        return True
+    
+    if name == "invisible":  # noqa: SIM103
+        # what the fuck is wrong with you?
+        return True
+    
+    return False
+
+
 def render_all_maps(
     catalog: EssentialsCatalog,
     game_dir: Path,
@@ -215,25 +228,47 @@ def render_all_maps(
     seen_subtiles: dict[str, SubtileTileset] = {}
     tilesets = [decompile_tileset(game_dir, ts, seen_subtiles) for ts in raw_tilesets if ts.name]
 
+    shared_cache: dict[str, dict[int, Image.Image]] = defaultdict(dict)
+
     for ts in tilesets:
         ts.image.convert("RGBA")
 
     for ts in seen_subtiles.values():
         ts.image.convert("RGBA")
 
-    for map_id in track(catalog.maps.keys(), description="Map Rendering"):
-        map_name = f"Map{map_id:03d}.rxdata"
-        map_path = data_dir / "overwritten_maps" / map_name
-        if not map_path.exists():
-            map_path = game_dir / "Data" / map_name
+    progress = Progress(
+        *Progress.get_default_columns(),
+        MofNCompleteColumn(),
+        auto_refresh=True,
+    )
 
-        output_path = (output_dir / map_path.name).with_suffix(".png")
-        # if output_path.exists():
-        #    continue
+    # Warning!
+    # Attempting to parallelize this causes memory usage to grow really fucking fast!
+    # Seemingly without bound! Yes, even when adding a semaphore!
+    # Do not introduce thread pool executors to this code!
 
-        with render_map(tilesets, map_path) as output:
-            output.save(output_path)
+    with progress:
+        for map_info in progress.track(catalog.maps.values(), description="Rendering maps..."):
+            map_filename = f"Map{map_info.id:03d}.rxdata"
+            map_path = data_dir / "overwritten_maps" / map_filename
+            if not map_path.exists():
+                map_path = game_dir / "Data" / map_filename
 
+            rpg_map = cast(RubyRpgMap, read_object_rgxp(map_path))
+
+            output_path = (output_dir / map_path.name).with_suffix(".png")
+            # if output_path.exists():
+            #    continue
+            
+            with render_single_map(
+                shared_cache, 
+                game_dir, 
+                tilesets, 
+                name=map_info.name,
+                map=rpg_map, 
+                filter_event_images=_skip_lights
+            ) as output:
+                output.save(output_path)
 
 def main():
     parser = argparse.ArgumentParser(description="Automatic web documentation builder")
