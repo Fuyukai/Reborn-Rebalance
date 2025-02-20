@@ -21,6 +21,8 @@ WILD_BATTLE_MATCH = re.compile(
 EVENT_ADD_MATCH = re.compile(
     r"PokeBattle_Pokemon\.new\(:(?P<name>[a-zA-Z]+),[\s]?(?P<level>[0-9]{1,3})\)"
 )
+EGG_MATCH = re.compile(r"pbGenerateEgg\(:(?P<species>[a-zA-Z]+)\)")
+TRADE_MATCH = re.compile(r"pbStartTrade\(.*,[\s]*PBSpecies::(?P<species>[a-zA-Z]+)")
 
 
 @attrs.define(kw_only=True)
@@ -132,6 +134,8 @@ class ReceivedTechnicalMachineCommand(PickedEventCommand):
 class StaticEncounterType(enum.Enum):
     OVERWORLD_WILD = 0
     NPC_EVENT = 1
+    EGG = 2
+    TRADE = 3
 
 
 @attrs.define(kw_only=True)
@@ -152,13 +156,24 @@ class StaticEncounterCommand(PickedEventCommand):
 
         if (m := WILD_BATTLE_MATCH.search(script)) is not None:
             type = StaticEncounterType.OVERWORLD_WILD
+            species, level = m.groups()
 
         elif (m := EVENT_ADD_MATCH.search(script)) is not None:
             type = StaticEncounterType.NPC_EVENT
+            species, level = m.groups()
+
+        elif (m := EGG_MATCH.search(script)) is not None:
+            type = StaticEncounterType.EGG
+            species = m.groups()[0]
+            level = 1
+
+        elif (m := TRADE_MATCH.search(script)) is not None:
+            type = StaticEncounterType.TRADE
+            species = m.groups()[0]
+            level = 1
+
         else:
             return None
-
-        species, level = m.groups()
 
         return StaticEncounterCommand(
             type=type,

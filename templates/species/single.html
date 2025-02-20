@@ -241,14 +241,22 @@
                             {{ map_link(map_id, map.name) }}
                         </td>
                         <td>
-                            {% if encounter.type.value == 0 %}
+                            {% if encounter.type.name == "OVERWORLD_WILD" %}
                             Overworld
-                            {% else %}
+                            {% elif encounter.type.name == "NPC_EVENT" %}
                             Gift/Event
+                            {% elif encounter.type.name == "EGG" %}
+                            Egg
+                            {% else %}
+                            Trade
                             {% endif %}
                         </td>
                         <td>
+                            {% if encounter.type.name == "TRADE" %}
+                            N/A
+                            {% else %}
                             {{ encounter.level }}
+                            {% endif %}
                         </td>
                     </tr>
                     {% endfor %}
@@ -257,7 +265,10 @@
 
             {% if not fixed_encounters %}
             <h2 class="subtitle has-text-centered">This Pokémon does not appear via event.</h2>
+            {% else %}
+            <em>Entries may be duplicated.</em>
             {% endif %}
+
 
         </div>
     </div>
