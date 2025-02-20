@@ -673,28 +673,6 @@ class EssentialsCatalog:
 
         return items
 
-    def move_by_name(self, internal_name: str) -> PokemonMove | None:
-        """
-        Finds a move by name, or None if no such move exists.
-        """
-
-        for move in self.moves:
-            if move.internal_name == internal_name:
-                return move
-
-        return None
-
-    def move_by_display_name(self, display_name: str) -> PokemonMove | None:
-        """
-        Finds a move by display name, or None if no such move exists.
-        """
-
-        for move in self.moves:
-            if move.display_name == display_name:
-                return move
-
-        return None
-
     def tm_id_for(self, tm_name: str) -> int | None:
         """
         Finds a TM's number by its move's internal name.

@@ -280,10 +280,10 @@ def _get_an_or_a(next_word: str) -> str:
 
     if next_word[0] in ("a", "e", "i", "o", "u"):
         return "an"
-    
+
     if next_word[0] == "h":
         return "a(n)"
-    
+
     return "a"
 
 
