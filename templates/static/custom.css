@@ -22,8 +22,19 @@ hr {
   background-color: #afafaf;
 }
 
-body {
-    background-image: url("/static/newWorld4.png");
+@media (prefers-color-scheme: dark) {
+    body {
+        background-image: url("/static/newWorld4.png");
+    }
+}
+@media (prefers-color-scheme: light) {
+    /** looks like shit? */
+    body {
+        background-image: url("/static/maps/Map333.png");
+    }
+    div.dummy-root-el {
+        background-color: color-mix(in srgb, var(--bulma-light) 80%, transparent);
+    }
 }
 
 .bg-grass {
@@ -226,12 +237,21 @@ td.no-border {
 
 /* make the walkthrough text narrower, but allow the details text to be bigger */
 .walkthrough .content {
-  margin-top: 1.5rem;
+    margin-top: 1.5rem;
 }
 
-.walkthrough .content {
-    p, h1, h2, h3, h4, h5, h6, li {
-        mix-blend-mode: exclusion;
+@media (prefers-color-scheme: dark) {
+    article#walkthrough > div.content {
+        /* copied from bulma css */
+        --bulma-color-l: var(--bulma-light-l);
+        --bulma-color-l-delta: 0%;
+        color: hsl(var(--bulma-light-h), var(--bulma-light-s), calc(var(--bulma-color-l) + var(--bulma-color-l-delta))) !important;
+    }
+}
+@media (prefers-color-scheme: light) {
+    article#walkthrough {
+        background-color: color-mix(in srgb, var(--bulma-light) 80%, transparent);
+        border-radius: 1.5rem;
     }
 }
 
@@ -333,4 +353,10 @@ td.no-border {
 
 img.pp {
   image-rendering: pixelated;
+}
+
+@media (prefers-color-scheme: light) {
+    .has-mix-exclusion-light {
+        mix-blend-mode: exclusion;
+    }
 }
