@@ -1,13 +1,13 @@
 import concurrent.futures
-import time
 import types
 from collections import defaultdict
-from collections.abc import Callable, Mapping, MutableMapping
+from collections.abc import Mapping, MutableMapping
 from functools import cached_property, partial
 from pathlib import Path
 from typing import Self, cast
 
 import attr
+import structlog
 from rgss import read_object_rgxp
 from rgss.rpg.map import RubyMapInfo
 
@@ -69,21 +69,7 @@ from reborn_rebalance.pbs.serialisation import (
 from reborn_rebalance.pbs.tm import TechnicalMachine, tm_number_for
 from reborn_rebalance.pbs.trainer import TrainerCatalog, TrainerType
 
-
-def load_with_print[LoadWithPrintT](type_: str, fn: Callable[[], LoadWithPrintT]) -> LoadWithPrintT:
-    """
-    Loads the provided object, printing the time taken.
-    """
-
-    start = time.perf_counter()
-    print(f"LOAD: {type_}...")
-
-    result = fn()
-
-    end = time.perf_counter()
-    print(f"Loaded {type_} in {end - start:.2f}s")
-
-    return result
+glogger: structlog.stdlib.BoundLogger = structlog.get_logger(__name__)
 
 
 @attr.s(frozen=True, slots=True, kw_only=True)
@@ -293,7 +279,7 @@ class EssentialsCatalog:
 
             for poke_name in tm.pokemon:
                 if not poke_name:
-                    print(f"empty entry in {tm.move}!")
+                    glogger.warning("empty entry", move=tm.move, spcies=poke_name)
                     continue
 
                 species = tm_poke_mapping[poke_name]
@@ -328,7 +314,7 @@ class EssentialsCatalog:
         # for the sake of my sanity just add the missing items in.
         for id, info in map_names.items():
             # fix up metadata for missing maps
-            print("warning: missing metadata for", id, f"({info.name})")
+            glogger.warning("missing metadata", map_id=id, map_name=info.name)
             missing_metadata = MapMetadata(id=id, name=info.name, parent_id=info.parent_id)
             map_metadata[id] = missing_metadata
 
@@ -397,41 +383,38 @@ class EssentialsCatalog:
 
         # processpoolexecutor over threadpoolexecutor cos this is mostly cpu bound tomli stuff
 
-        before = time.perf_counter()
+        glogger.info("begin", phase="non-species")
         with concurrent.futures.ProcessPoolExecutor() as executor:
             moves_file = path / "moves.toml"
             load_moves = partial(load_moves_from_toml, moves_file)
-            moves_fut = executor.submit(load_with_print, "moves", load_moves)
+            moves_fut = executor.submit(load_moves)
 
             items_path = path / "items.toml"
             load_items = partial(load_items_from_toml, items_path)
-            items_fut = executor.submit(load_with_print, "items", load_items)
+            items_fut = executor.submit(load_items)
 
             tm_path = path / "tms.toml"
             load_tms = partial(load_tms_from_toml, tm_path)
-            tms_fut = executor.submit(load_with_print, "tms", load_tms)
+            tms_fut = executor.submit(load_tms)
 
             ability_path = path / "abilities.toml"
             load_abilities = partial(load_abilities_from_toml, ability_path)
-            abilities_fut = executor.submit(load_with_print, "abilities", load_abilities)
+            abilities_fut = executor.submit(load_abilities)
 
             map_metadata_path = path / "maps.toml"
             load_map_metadata = partial(load_map_metadata_from_toml, map_metadata_path)
-            map_metadata_fut = executor.submit(load_with_print, "map metadata", load_map_metadata)
+            map_metadata_fut = executor.submit(load_map_metadata)
 
             trainer_types_path = path / "trainer_types.toml"
             load_trainer_types = partial(load_trainer_types_from_toml, trainer_types_path)
-            trainer_types_fut = executor.submit(
-                load_with_print, "trainer types", load_trainer_types
-            )
+            trainer_types_fut = executor.submit(load_trainer_types)
 
-        after = time.perf_counter()
-        print(f"Loaded all non-species data in {after - before:.2f}s")
+        glogger.info("end", phase="non-species")
 
+        glogger.info("begin", phase="species-encounters-trainers")
         species_dir = path / "species"
         forms_path = path / "forms"
 
-        before = time.perf_counter()
         if skip_species:
             species = []
             forms = {}
@@ -443,9 +426,8 @@ class EssentialsCatalog:
         trainers_path = path / "trainers"
         encounters = load_encounters_from_toml(encounters_path)
         trainers = load_trainers_from_toml(trainers_path)
-        after = time.perf_counter()
 
-        print(f"Loaded species, forms, encounters, and trainers in {after - before:.2f}s")
+        glogger.info("end", phase="species-encounters-trainers")
 
         instance = cls(
             species=species,
@@ -460,13 +442,14 @@ class EssentialsCatalog:
             trainers=trainers,
         )
 
+        glogger.info("begin", phase="sort")
         instance._sort()
+        glogger.info("end", phase="sort")
 
         if not skip_validation:
+            glogger.info("begin", phase="validate")
             instance._validate()
-            print("loaded and validated catalog")
-        else:
-            print("WARNING: skipped validating catalogue!!!")
+            glogger.info("end", phase="validate")
 
         return instance
 
@@ -559,8 +542,6 @@ class EssentialsCatalog:
         save_forms_to_ruby(forms_file, self.forms)
 
     def _sort(self):
-        print("Sorting TMs and tutor moves...")
-
         for sp in self.species:
             sorted_tms = sorted(sp.raw_tms, key=lambda tm_name: self.tm_name_mapping[tm_name])
 
@@ -568,8 +549,6 @@ class EssentialsCatalog:
 
             sorted_tutors = sorted(sp.raw_tutor_moves)
             sp.raw_tutor_moves = sorted_tutors
-
-        print("Done!")
 
     def _validate(self):
         for species in self.species:

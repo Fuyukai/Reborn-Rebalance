@@ -2,6 +2,7 @@ from io import StringIO
 from pathlib import Path
 
 import attr
+import structlog
 from cattr import override
 from cattrs import Converter
 from cattrs.gen import make_dict_unstructure_fn
@@ -350,5 +351,5 @@ def save_forms_to_ruby(
     buffer.write(FOOTER)
 
     with output_path.open(mode="w", encoding="utf-8") as f:
-        print("writing to", output_path, f)
+        structlog.get_logger(__name__).info("save", type="forms", path=output_path)
         f.write(buffer.backing.getvalue())

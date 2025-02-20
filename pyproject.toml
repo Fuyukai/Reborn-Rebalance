@@ -23,6 +23,7 @@ dependencies = [
     "tomli-w>=1.2.0",
     "sortedcontainers>=2.4.0",
     "rgcompiler @ git+ssh://git@codeberg.org/Fuyukai/rgcompiler.git",
+    "structlog>=25.1.0",
 ]
 name = "reborn-rebalance"
 version = "0.7.0"

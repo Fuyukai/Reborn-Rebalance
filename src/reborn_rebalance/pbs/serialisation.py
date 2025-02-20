@@ -1,4 +1,3 @@
-# pyright: strict
 from __future__ import annotations
 
 import concurrent.futures
@@ -8,6 +7,7 @@ from pathlib import Path
 
 import attr
 import cattrs
+import structlog
 from rtoml import load
 from tomli_w import dump
 
@@ -55,6 +55,8 @@ GENERATIONS = [
     # Sprigatito -> Terapagos
     range(906, 1038),
 ]
+
+logger: structlog.stdlib.BoundLogger = structlog.get_logger(__name__)
 
 
 def generation_for(dex_number: int) -> int:
@@ -116,7 +118,7 @@ def load_single_species_toml(path: Path) -> tuple[int, PokemonSpecies]:
     :return A tuple of (dex number, parsed species).
     """
 
-    print(f"LOAD: {path}")
+    logger.info("load", object_type="species", file_type="toml", path=str(path))
 
     with path.open(encoding="utf-8", mode="r") as f:
         data = load(f)
@@ -214,13 +216,16 @@ def save_all_species_to_toml(
 
         if toml_path.exists():
             if not allow_overwriting:
-                print(f"Not overwriting {name}")
+                logger.debug(
+                    "skip", type="species", species_name=species.internal_name, reason="exists"
+                )
                 continue
 
-            print(f"Forcibly overwriting {name}!!!")
+            logger.warn(
+                "overwrite", type="species", species_name=species.internal_name, reason="exists"
+            )
 
         save_single_species_to_toml(toml_path, species)
-        print(f"Saved {name}")
 
 
 def load_single_form(path: Path) -> PokemonForms:
@@ -228,7 +233,7 @@ def load_single_form(path: Path) -> PokemonForms:
     Loads a single form from the provided path.
     """
 
-    print(f"LOAD (form): {path}")
+    logger.info("load", object_type="form", file_type="toml", path=str(path))
     with path.open(mode="r", encoding="utf-8") as f:
         forms_for_mon = load(f)
 
@@ -304,8 +309,6 @@ def load_moves_from_pbs(path: Path) -> list[PokemonMove]:
             else:
                 lines.append(without_newline)
 
-            print(lines[-1], end="")
-
         reader = csv.reader(lines)
 
         return [PokemonMove.load_from_pbs_line(line) for line in reader if line]
@@ -315,6 +318,8 @@ def load_moves_from_toml(path: Path) -> list[PokemonMove]:
     """
     Loads all moves from the providied ``moves.TOML`` file.
     """
+
+    logger.info("load", object_type="moves", file_type="toml", path=str(path))
 
     with path.open(encoding="utf-8", mode="r") as f:
         data = load(f)["moves"]
@@ -328,7 +333,7 @@ def save_moves_to_toml(path: Path, moves: list[PokemonMove]):
     """
 
     if path.exists():
-        print(f"Not overwriting: {path}")
+        logger.debug("skip", type="moves", reason="exists")
         return
 
     moves = sorted(moves, key=lambda it: it.id)
@@ -404,7 +409,7 @@ def save_items_to_toml(path: Path, items: list[PokemonItem]):
     """
 
     if path.exists():
-        print(f"Not overwriting: {path}")
+        logger.debug("skip", type="items", reason="exists")
         return
 
     items = sorted(items, key=lambda it: it.id)
@@ -432,7 +437,9 @@ def load_tms_from_pbs(path: Path) -> list[TechnicalMachine]:
             try:
                 move, pokemon = line
             except ValueError:
-                print(f"warning: bad line {line[0]}")
+                logger.warning(
+                    "bad line", object_type="tm", file_type="toml", path=str(path), content=line[0]
+                )
                 continue
 
             move = move[1:-1]
@@ -462,7 +469,7 @@ def save_tms_to_toml(path: Path, tms: list[TechnicalMachine]):
     """
 
     if path.exists():
-        print(f"Not overwriting: {path}")
+        logger.debug("skip", type="tms", reason="exists")
         return
 
     real_dict = {
@@ -537,7 +544,7 @@ def save_abilities_to_toml(path: Path, abilities: list[PokemonAbility]):
     """
 
     if path.exists():
-        print(f"Not overwriting: {path}")
+        logger.info("skip", type="abilities", reason="exists")
         return
 
     output = {"abilities": CONVERTER.unstructure(abilities)}
@@ -560,7 +567,7 @@ def load_single_encounter(path: Path) -> tuple[int, MapEncounters]:
     Loads a single encounter from the provided path.
     """
 
-    print(f"LOAD (Encounter): {path}")
+    logger.info("load", object_type="encounter", file_type="toml", path=str(path))
     id = int(path.name.split("_", 1)[0])
 
     with path.open(mode="r", encoding="utf-8") as f:
@@ -618,16 +625,16 @@ def save_encounters_to_toml(
             info = maps[idx]
             name = info.name
         except IndexError:
-            print(f"skipping encounter for removed map '{idx}'")
+            logger.debug("skip write", type="encounter", map_id=idx, reason="removed")
             continue
 
         if name == "REMOVED":
-            print(f"skipping encounter for removed map '{idx}'")
+            logger.debug("skip write", type="encounter", map_id=idx, reason="removed")
             continue
 
         filename = path / f"{idx:03d}_{name.lower().replace(' ', '_')}.toml"
         if filename.exists():
-            print(f"Not overwriting: {filename}")
+            logger.debug("skip", type="encounter", map_id=idx, reason="exists")
             continue
 
         with filename.open(mode="wb") as f:
@@ -684,7 +691,7 @@ def save_map_metadata_to_toml(path: Path, maps: dict[int, MapMetadata]):
     """
 
     if path.exists():
-        print(f"Not overwriting: {path}")
+        logger.debug("skip", type="metadata", reason="exists")
         return
 
     actual_data = {str(k): v for (k, v) in CONVERTER.unstructure(maps).items()}
@@ -741,7 +748,7 @@ def save_trainer_types_to_toml(path: Path, types: dict[str, TrainerType]):
     """
 
     if path.exists():
-        print(f"Not overwriting: {path}")
+        logger.debug("skip", type="trainer_type", reason="exists")
         return
 
     output = {"trainer_types": CONVERTER.unstructure(types)}
@@ -756,7 +763,7 @@ def load_single_trainer_file_toml(path: Path) -> tuple[str, dict[str, dict[int, 
     """
 
     with path.open(encoding="utf-8", mode="r") as f:
-        print(f"LOAD (Trainer): {path}")
+        logger.info("load", object_type="trainer", file_type="toml", path=str(path))
         data = load(f)["trainers"]
 
     trainers: dict[str, dict[int, Trainer]] = {}
@@ -836,7 +843,7 @@ def save_trainers_to_toml(path: Path, trainers: dict[str, TrainerCatalog]):
 
         if key in existing_names:
             toml_path = existing_names[key]
-            print("Not overwriting", toml_path)
+            logger.debug("skip", type="trainers", reason="exists")
             continue
 
         raw_data = CONVERTER.unstructure(catalog)
