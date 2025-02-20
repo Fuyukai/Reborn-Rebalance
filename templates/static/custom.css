@@ -22,6 +22,10 @@ hr {
   background-color: #afafaf;
 }
 
+body {
+    background-image: url("/static/newWorld4.png");
+}
+
 .bg-grass {
   background-color: #78c850 !important;
 }
@@ -223,6 +227,12 @@ td.no-border {
 /* make the walkthrough text narrower, but allow the details text to be bigger */
 .walkthrough .content {
   margin-top: 1.5rem;
+}
+
+.walkthrough .content {
+    p, h1, h2, h3, h4, h5, h6, li {
+        mix-blend-mode: exclusion;
+    }
 }
 
 .walkthrough .content p,
