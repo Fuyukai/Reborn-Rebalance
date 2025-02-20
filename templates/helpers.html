@@ -70,10 +70,12 @@ Evolves when levelling up at level <b>{{ evo.parameter }}</b> or higher, during 
 Evolves when traded, or using a <i>Link Cable</i>.
 {% elif type == "tradeitem" %}
 {% set item_name = catalog.item_loc_name(evo.parameter) %}
-Evolves when traded (or using a <i>Link Cable</i>) holding a(n) <b>{{ item_name }}</b>.
+{% set an = get_an_or_a(item_name) %}
+Evolves when traded (or using a <i>Link Cable</i>) holding {{ an }} <b>{{ item_name }}</b>.
 {% elif type == "item" %}
 {% set item_name = catalog.item_loc_name(evo.parameter) %}
-Evolves when using a(n) <b>{{ item_name }}</b>.
+{% set an = get_an_or_a(item_name) %}
+Evolves when using {{ an }} <b>{{ item_name }}</b>.
 {% elif type == "attackgreater" %}
 Evolves when <abbr title="Physical Attack"><i>Atk</i></abbr> is the larger stat, and at level <b>{{ evo.parameter }}</b>.
 {% elif type == "defensegreater" %}
@@ -90,16 +92,20 @@ Shedinja will appear.
 It's not known how this Pokémon evolves currently.
 {% elif type == "itemmale" %}
 {% set item_name = catalog.item_loc_name(evo.parameter) %}
-Evolves when male and using a(n) <b>{{ item_name }}</b>.
+{% set an = get_an_or_a(item_name) %}
+Evolves when male and using {{ an }} <b>{{ item_name }}</b>.
 {% elif type == "itemfemale" %}
 {% set item_name = catalog.item_loc_name(evo.parameter) %}
-Evolves when female and using a(n) <b>{{ item_name }}</b>.
+{% set an = get_an_or_a(item_name) %}
+Evolves when female and using {{ an }} <b>{{ item_name }}</b>.
 {% elif type == "dayholditem" %}
 {% set item_name = catalog.item_loc_name(evo.parameter) %}
-Evolves when levelled up holding a(n) <b>{{ item_name }}</b> during the <i>day</i>.
+{% set an = get_an_or_a(item_name) %}
+Evolves when levelled up holding {{ an }} <b>{{ item_name }}</b> during the <i>day</i>.
 {% elif type == "nightholditem" %}
 {% set item_name = catalog.item_loc_name(evo.parameter) %}
-Evolves when levelled up holding a(n) <b>{{ item_name }}</b> during the <i>night</i>.
+{% set an = get_an_or_a(item_name) %}
+Evolves when levelled up holding {{ an }} <b>{{ item_name }}</b> during the <i>night</i>.
 {% elif type == "location" %}
 {% set loc_id = evo.parameter|int %}
 {% set loc_name = catalog.maps[loc_id].name %}

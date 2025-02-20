@@ -16,6 +16,13 @@
 {{ species.name }}
 {% endblock %}
 
+{%- macro listbox_image(dex_number, name) -%}
+<div class="list-item-image">
+    <figure class="image is-64x64">
+        {{ small_sprite(species.dex_number, species.name) }}
+    </figure>
+</div>
+{%- endmacro -%}
 
 {% block content %}
 {% set forms = catalog.forms.get(species.internal_name) %}
@@ -36,12 +43,7 @@
             <div class="list">
             {% if species.internal_name == "EEVEE" %}
                 <div class="list-item box">
-                    <div class="list-item-image">
-                        <figure class="image is-64x64">
-                            {{ small_sprite(species.dex_number, species.name) }}
-                        </figure>
-                    </div>
-
+                    {{ listbox_image(species.dex_number, species.name) }}
                     <div class="list-item-content">
                         <div class="list-item-title">Too many to list</div>
                         <div class="list-item-content">
@@ -53,11 +55,7 @@
             {% set chain = catalog.evolutionary_chain_for(species) %}
             {% if chain is none %}
                 <div class="list-item box">
-                    <div class="list-item-image">
-                        <figure class="image is-64x64">
-                            {{ small_sprite(species.dex_number, species.name) }}
-                        </figure>
-                    </div>
+                    {{ listbox_image(species.dex_number, species.name) }}
 
                     <div class="list-item-content">
                         <div class="list-item-title">Does not evolve</div>
@@ -69,11 +67,7 @@
             {% else %}
                 <div class="list-item box">
                     {% if chain.evolves_from is not none %}
-                    <div class="list-item-image">
-                        <figure class="image is-64x64">
-                            {{ small_sprite(chain.evolves_from.dex_number, chain.evolves_from.name) }}
-                        </figure>
-                    </div>
+                    {{ listbox_image(species.dex_number, species.name) }}
 
                     <div class="list-item-content">
                         <div class="list-item-title">
@@ -87,11 +81,7 @@
                         </div>
                     </div>
                     {% else %}
-                    <div class="list-item-image">
-                        <figure class="image is-64x64">
-                            {{ small_sprite(species.dex_number, species.name) }}
-                        </figure>
-                    </div>
+                    {{ listbox_image(species.dex_number, species.name) }}
 
                     <div class="list-item-content">
                         <div class="list-item-title">
@@ -107,11 +97,7 @@
                 {% if chain.evolves_into %}
                 {% for into_species, evo in chain.evolves_into %}
                 <div class="list-item box">
-                    <div class="list-item-image">
-                        <figure class="image is-64x64">
-                            {{ small_sprite(into_species.dex_number, into_species.name) }}
-                        </figure>
-                    </div>
+                    {{ listbox_image(species.dex_number, species.name) }}
 
                     <div class="list-item-content">
                         <div class="list-item-title">
@@ -128,12 +114,8 @@
                 {% endfor %}
                 {% else %}
                 <div class="list-item box">
-                    <div class="list-item-image">
-                        <figure class="image is-64x64">
-                            {{ small_sprite(species.dex_number, species.name) }}
-                        </figure>
-                    </div>
-
+                    {{ listbox_image(species.dex_number, species.name) }}
+    
                     <div class="list-item-content">
                         <div class="list-item-title">
                             Final in chain

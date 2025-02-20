@@ -718,11 +718,7 @@ class EssentialsCatalog:
         Gets an item's localised name from its internal name.
         """
 
-        for item in self.items:
-            if item.internal_name == internal_name:
-                return item.display_name
-
-        raise ValueError(f"no such item {internal_name}")
+        return self.item_mapping[internal_name].display_name
 
     def evolutionary_chain_for(self, species: PokemonSpecies) -> EvolutionaryChain | None:
         """

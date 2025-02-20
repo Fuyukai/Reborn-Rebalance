@@ -208,11 +208,11 @@ def crop_regular_sprites(catalog: EssentialsCatalog, original_dir: Path, output_
 def _skip_lights(name: str):
     if re.match(r"light[0-9]", name):
         return True
-    
+
     if name == "invisible":  # noqa: SIM103
         # what the fuck is wrong with you?
         return True
-    
+
     return False
 
 
@@ -259,16 +259,33 @@ def render_all_maps(
             output_path = (output_dir / map_path.name).with_suffix(".png")
             # if output_path.exists():
             #    continue
-            
+
             with render_single_map(
-                shared_cache, 
-                game_dir, 
-                tilesets, 
+                shared_cache,
+                game_dir,
+                tilesets,
                 name=map_info.name,
-                map=rpg_map, 
-                filter_event_images=_skip_lights
+                map=rpg_map,
+                filter_event_images=_skip_lights,
             ) as output:
                 output.save(output_path)
+
+
+def _get_an_or_a(next_word: str) -> str:
+    """
+    Quick and hacky solution to use "an" or "a" in text fragments.
+    """
+
+    next_word = next_word.lower()
+
+    if next_word[0] in ("a", "e", "i", "o", "u"):
+        return "an"
+    
+    if next_word[0] == "h":
+        return "a(n)"
+    
+    return "a"
+
 
 def main():
     parser = argparse.ArgumentParser(description="Automatic web documentation builder")
@@ -394,6 +411,7 @@ def main():
     env.globals["navbar_maps"] = load_navbar_maps(catalog, input_dir / "web" / "navbar_maps.toml")  # type: ignore
     env.globals["MoveMappingEntryType"] = MoveMappingEntryType  # type: ignore
     env.globals["MoveFlag"] = MoveFlag  # type: ignore
+    env.globals["get_an_or_a"] = _get_an_or_a  # type: ignore
 
     walkthru_entries: list[WalkthroughEntry] = []
     if wdir.exists():
