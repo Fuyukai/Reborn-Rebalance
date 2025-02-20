@@ -1,7 +1,7 @@
 {% extends "_meta/_root.html" %}
 {# must set the NAME var. #}
 
-{% from "helpers.html" import small_sprite_obb, species_link %}
+{% from "helpers.html" import small_sprite_obb, species_link, map_link %}
 {% from "_meta/_trainer.html" import trainer_battle %}
 
 {%- macro sp(name) -%}
@@ -20,11 +20,7 @@
 {%- endmacro -%}
 
 {%- macro mp(id, name=None) -%}
-{% if name is none %}
-{% set name = catalog.maps[id].name %}
-{% endif %}
-
-<a href="/maps/{{ '{:03d}'.format(id) }}.html" target="_blank">{{ name }}</a>
+{{ map_link(id, name=name) }}
 {%- endmacro -%}
 
 {%- macro mv(id) -%}
@@ -33,7 +29,6 @@
 {%- endmacro -%}
 
 
-{# purely to make intellij happier. #}
 {%- macro trainer_battle_content(name, klass, id=0) -%}
 </div>
 {{ trainer_battle(name, klass, id=id) }}

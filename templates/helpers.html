@@ -26,7 +26,11 @@
 {%- endmacro -%}
 
 {%- macro map_link(id, name) -%}
-<a href="/maps/{{ '{:03d}'.format(id) }}.html">{{ name }}</a>
+{% if name is none %}
+{% set name = catalog.maps[id].name %}
+{% endif %}
+
+<a href="/maps/{{ '{:03d}'.format(id) }}.html" target="_blank">{{ name }}</a>
 {%- endmacro -%}
 
 

@@ -174,6 +174,10 @@ class EssentialsCatalog:
 
     @cached_property
     def item_mapping(self) -> Mapping[str, PokemonItem]:
+        """
+        A mapping of item internal name -> item.
+        """
+
         return types.MappingProxyType({it.internal_name: it for it in self.items})
 
     @cached_property

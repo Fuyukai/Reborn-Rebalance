@@ -26,6 +26,7 @@ from reborn_rebalance.pbs.catalog import EssentialsCatalog
 from reborn_rebalance.pbs.encounters import ENCOUNTER_SLOTS
 from reborn_rebalance.pbs.map import FIELD_NAMES
 from reborn_rebalance.pbs.move import MoveCategory, MoveFlag, MoveMappingEntryType, PokemonMove
+from reborn_rebalance.ruby.catalog import EventCatalog
 
 
 @attr.s(slots=True, kw_only=True)
@@ -298,7 +299,7 @@ def main():
     )
 
     parser.add_argument(
-        "--game-dir", help="The game directory to load sprites from.", type=Path, default=None
+        "--game-dir", help="The game directory to load sprites from.", type=Path, required=True
     )
     parser.add_argument(
         "--image-cache-location",
@@ -360,9 +361,7 @@ def main():
 
     output_dir.mkdir(exist_ok=True, parents=True)
 
-    catalog = EssentialsCatalog.load_from_toml(input_dir)
-
-    game_dir: Path | None = args.game_dir
+    game_dir: Path = args.game_dir
     image_cache_location: Path = args.image_cache_location
 
     pokesprites = image_cache_location / "mons"
@@ -371,22 +370,16 @@ def main():
     maps_dir = image_cache_location / "rendered_maps"
     maps_dir.mkdir(exist_ok=True, parents=True)
 
-    if args.crop_regular_sprites:
-        if game_dir is None:
-            parser.error("--game-dir must be provided for image processing")
+    catalog = EssentialsCatalog.load_from_toml(input_dir)
+    event_catalog = EventCatalog.load(game_dir, catalog)
 
+    if args.crop_regular_sprites:
         crop_regular_sprites(catalog, game_dir, pokesprites)
 
     if args.crop_form_sprites:
-        if game_dir is None:
-            parser.error("--game-dir must be provided for image processing")
-
         crop_form_sprites(catalog, game_dir, pokesprites)
 
     if args.render_maps:
-        if game_dir is None:
-            parser.error("--game-dir must be provided for image processing")
-
         render_all_maps(catalog, game_dir, args.INPUT, maps_dir)
 
     changelog = build_changelog(catalog)
@@ -412,6 +405,7 @@ def main():
     env.globals["MoveMappingEntryType"] = MoveMappingEntryType  # type: ignore
     env.globals["MoveFlag"] = MoveFlag  # type: ignore
     env.globals["get_an_or_a"] = _get_an_or_a  # type: ignore
+    env.globals["event_catalog"] = event_catalog  # type: ignore
 
     walkthru_entries: list[WalkthroughEntry] = []
     if wdir.exists():

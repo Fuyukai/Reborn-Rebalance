@@ -1,7 +1,7 @@
 {# Generates a single Pokémon page from a provided species object. #}
 {# provided params: species, pokedex_number #}
 {% extends "_meta/_root.html" %}
-{% from "helpers.html" import small_sprite, evo_description_for %}
+{% from "helpers.html" import small_sprite, evo_description_for, map_link %}
 {% from "species/macros.html" import tab_headers, move_entry, move_table_header, gen_battler_box, gen_type_col, gen_level_up_table %}
 
 {% set s_idx = "{:04d}".format(species.dex_number) %}
@@ -203,7 +203,7 @@
                 <tr>
                     <td>
                         <span title="Map ID {{ map_id }}">
-                            <a href="/maps/{{ '{:03d}'.format(map_id) }}.html">{{ map.name }}</a>
+                            {{ map_link(map_id, map.name) }}
                         </span>
                     </td>
                     <td>{{ type }}</td>
@@ -217,6 +217,48 @@
             {% if not encounters %}
             <h2 class="subtitle has-text-centered">This Pokémon does not appear in the wild.</h2>
             {% endif %}
+
+            <hr />
+
+            <h2 class="title has-text-centered">Event Encounters</h2>
+
+            {% set fixed_encounters = event_catalog.static_encounters.get(species.internal_name, []) %}
+
+            <table class="table is-fullwidth is-striped">
+                <thead>
+                <tr class="is-primary">
+                    <th>Map</th>
+                    <th>Encounter Type</th>
+                    <th>Level</th>
+                </tr>
+                </thead>
+
+                <tbody>
+                    {% for map_id, encounter in fixed_encounters %}
+                    {% set map = catalog.maps[map_id] %}
+                    <tr>
+                        <td>
+                            {{ map_link(map_id, map.name) }}
+                        </td>
+                        <td>
+                            {% if encounter.type.value == 0 %}
+                            Overworld
+                            {% else %}
+                            Gift/Event
+                            {% endif %}
+                        </td>
+                        <td>
+                            {{ encounter.level }}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+
+            {% if not fixed_encounters %}
+            <h2 class="subtitle has-text-centered">This Pokémon does not appear via event.</h2>
+            {% endif %}
+
         </div>
     </div>
 </div>
