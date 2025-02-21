@@ -19,7 +19,7 @@
 {%- macro listbox_image(dex_number, name) -%}
 <div class="list-item-image">
     <figure class="image is-64x64">
-        {{ small_sprite(species.dex_number, species.name) }}
+        {{ small_sprite(dex_number, name) }}
     </figure>
 </div>
 {%- endmacro -%}
@@ -67,7 +67,7 @@
             {% else %}
                 <div class="list-item box">
                     {% if chain.evolves_from is not none %}
-                    {{ listbox_image(species.dex_number, species.name) }}
+                    {{ listbox_image(chain.evolves_from.dex_number, chain.evolves_from.name) }}
 
                     <div class="list-item-content">
                         <div class="list-item-title">
@@ -97,7 +97,7 @@
                 {% if chain.evolves_into %}
                 {% for into_species, evo in chain.evolves_into %}
                 <div class="list-item box">
-                    {{ listbox_image(species.dex_number, species.name) }}
+                    {{ listbox_image(into_species.dex_number, into_species.name) }}
 
                     <div class="list-item-content">
                         <div class="list-item-title">
