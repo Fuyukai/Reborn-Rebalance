@@ -32,8 +32,8 @@
     {{ tab_headers(species) }}
     <div id="pkm-top-block" class="columns is-centered">
         {% for idx, form_name, attribs in catalog.all_forms_for(species.internal_name) %}
-        {{ gen_battler_box(species.name, species.dex_number, attribs) }}
-        {{ gen_type_col(attribs) }}
+        {{ gen_battler_box(species.name, species.dex_number, attribs, idx) }}
+        {{ gen_type_col(attribs, idx) }}
         {% endfor %}
 
         <div class="column is-4">

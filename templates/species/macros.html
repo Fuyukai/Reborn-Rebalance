@@ -139,10 +139,10 @@
 {%- endmacro -%}
 
 <!-- Generates the Pokémon data header for the provided root species and attributes. -->
-{%- macro gen_battler_box(name, dex_idx, attributes) %}
+{%- macro gen_battler_box(name, dex_idx, attributes, form_idx) %}
 {% set s_idx = "{:04d}".format(dex_idx) %}
 
-<div class="column is-4 jsify-hidden" data-form="{{ attributes.form_name }}" data-type="battler">
+<div class="column is-4 {% if form_idx > 0 %}jsify-hidden{% endif %}" data-form="{{ attributes.form_name }}" data-type="battler">
     <div class="card">
         <div class="card-header" style="display: block;">
             <p class="card-header-title has-text-centered">
@@ -198,8 +198,8 @@
 </div>
 {%- endmacro -%}
 
-{%- macro gen_type_col(attributes) -%}
-<div class="column is-4 jsify-hidden pt-0" data-form="{{ attributes.form_name }}" data-type="type">
+{%- macro gen_type_col(attributes, form_idx) -%}
+<div class="column is-4 {% if form_idx > 0 %}jsify-hidden{% endif %} pt-0" data-form="{{ attributes.form_name }}" data-type="type">
     <div class="columns is-multiline" style="margin-top: 0; height: 100%">
         <div class="column is-full" style="margin-bottom: auto">
             <div class="card">
