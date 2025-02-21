@@ -16,7 +16,7 @@ from rgss.rpg.commands.flow import CheckScriptReturnOpval
 
 TM_MATCH = re.compile(r"(?P<type>pbReceiveItem|pbItemBall)\(PBItems::TM(?P<tm>[0-9]{1,3})\)")
 WILD_BATTLE_MATCH = re.compile(
-    r"pbWildBattle\(PBSpecies::(?P<name>[a-zA-Z]+),[\s]?(?P<level>[0-9]{1,3})[\s]?,[0-9]+\)"
+    r"pbWildBattle\(PBSpecies::(?P<name>[a-zA-Z]+),[\s]?(?P<level>[0-9]{1,3})[\s]?(?:,[0-9]+)?\)"
 )
 EVENT_ADD_MATCH = re.compile(
     r"(?:PokeBattle_Pokemon\.new|pbAddPokemon)\((?:PBSpecies:)?:(?P<name>[a-zA-Z]+),[\s]?(?P<level>[0-9]{1,3})\)"
