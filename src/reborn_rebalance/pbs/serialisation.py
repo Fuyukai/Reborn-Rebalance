@@ -8,6 +8,8 @@ from pathlib import Path
 import attr
 import cattrs
 import structlog
+from rhodochrosite import GenericRubyUserObject
+from rhodochrosite.ruby import atom
 from rtoml import load
 from tomli_w import dump
 
@@ -33,6 +35,7 @@ from reborn_rebalance.pbs.trainer import (
     TrainerType,
 )
 from reborn_rebalance.pbs.type import PokemonType
+from reborn_rebalance.ruby.fields import FieldEffectData
 from reborn_rebalance.util import PbsBuffer, StupidFuckingIterationWrapper, chunks
 
 GENERATIONS = [
@@ -55,6 +58,8 @@ GENERATIONS = [
     # Sprigatito -> Terapagos
     range(906, 1038),
 ]
+
+FE_CLASS = atom("FEData")
 
 logger: structlog.stdlib.BoundLogger = structlog.get_logger(__name__)
 
@@ -98,6 +103,8 @@ def create_cattrs_converter() -> cattrs.Converter:
     SingleTrainerPokemon.add_unstructure_hook(converter)
     Trainer.add_unstructure_hook(converter)
     TrainerCatalog.add_unstructure_hook(converter)
+
+    FieldEffectData.add_unstructure_hook(converter)
 
     return converter
 
@@ -875,3 +882,11 @@ def load_map_names(path: Path) -> dict[int, str]:
 
     with path.open(encoding="utf-8") as f:
         return {int(k): v for (k, v) in load(f).items()}
+
+
+def make_field_effect_data(obb: GenericRubyUserObject) -> FieldEffectData:
+    if obb.ruby_class_name != FE_CLASS:
+        raise TypeError("Expected FEData, not", obb.ruby_class_name)
+
+    vars = {key.value[1:]: value for (key, value) in obb.instance_variables.items()}
+    return CONVERTER.structure(vars, FieldEffectData)

@@ -4,6 +4,7 @@ from io import StringIO
 from typing import Any, TypeVar
 
 import attr
+from rhodochrosite import RubySymbol
 
 _GetSafelyType = TypeVar("_GetSafelyType")
 
@@ -110,3 +111,7 @@ class StupidFuckingIterationWrapper:
                 continue
 
             return fucking_next
+
+
+def unfuck_ruby_hashes(d: dict[RubySymbol, Any]) -> dict[str, Any]:
+    return {k.value: v for (k, v) in d.items()}
