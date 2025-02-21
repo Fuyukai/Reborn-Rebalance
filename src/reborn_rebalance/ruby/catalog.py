@@ -52,9 +52,10 @@ class EventCatalog:
             for map_name, processed_map in executor.map(eager_process_map, map_files):
                 for event in processed_map:
                     if isinstance(event, StaticEncounterCommand):
-                        instance.static_encounters[event.raw_species_name].append(
-                            (int(map_name), event)
-                        )
+                        instance.static_encounters[event.raw_species_name].append((
+                            int(map_name),
+                            event,
+                        ))
 
                     elif isinstance(event, ReceivedTechnicalMachineCommand):
                         # this one is a bit harder due to how stupid reborn's events are

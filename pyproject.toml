@@ -66,6 +66,7 @@ respect-gitignore = true
 src = ["src/reborn_rebalance"]
 line-length = 100
 output-format = "full"
+preview = true
 
 [tool.ruff.lint]
 select = [
@@ -85,6 +86,17 @@ select = [
     "PIE",
     "SIM",
     "C4",
+    "FA",
+    "ICN",
+    "PYI",
+    "PT",
+    "RET",
+
+    # specific docstring rules
+    "D201",
+    "D204",
+    "D211",
+    "D419", # less ugly docstrings
 ]
 ignore = [
     "W291",

@@ -156,13 +156,11 @@ class EssentialsCatalog:
 
     @cached_property
     def regular_tm_mapping(self) -> Mapping[int, TechnicalMachine]:
-        return types.MappingProxyType(
-            {
-                it.number: it
-                for it in self.tms
-                if not (it.is_tmx or it.is_tutor) and it.number is not None
-            }
-        )
+        return types.MappingProxyType({
+            it.number: it
+            for it in self.tms
+            if not (it.is_tmx or it.is_tutor) and it.number is not None
+        })
 
     @cached_property
     def tm_name_mapping(self) -> Mapping[str, TechnicalMachine]:
