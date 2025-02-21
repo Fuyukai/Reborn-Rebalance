@@ -19,7 +19,7 @@ WILD_BATTLE_MATCH = re.compile(
     r"pbWildBattle\(PBSpecies::(?P<name>[a-zA-Z]+),[\s]?(?P<level>[0-9]{1,3})[\s]?,[0-9]+\)"
 )
 EVENT_ADD_MATCH = re.compile(
-    r"PokeBattle_Pokemon\.new\(:(?P<name>[a-zA-Z]+),[\s]?(?P<level>[0-9]{1,3})\)"
+    r"(?:PokeBattle_Pokemon\.new|pbAddPokemon)\((?:PBSpecies:)?:(?P<name>[a-zA-Z]+),[\s]?(?P<level>[0-9]{1,3})\)"
 )
 EGG_MATCH = re.compile(r"pbGenerateEgg\(:(?P<species>[a-zA-Z]+)\)")
 TRADE_MATCH = re.compile(r"pbStartTrade\(.*,[\s]*PBSpecies::(?P<species>[a-zA-Z]+)")
