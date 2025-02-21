@@ -395,7 +395,9 @@ def main():
     console = Console()
 
     loader = jinja2.FileSystemLoader(searchpath=search_paths)
-    env = jinja2.Environment(loader=loader, undefined=jinja2.StrictUndefined)
+    env = jinja2.Environment(
+        loader=loader, undefined=jinja2.StrictUndefined, extensions=["jinja2.ext.loopcontrols"]
+    )
     env.globals["catalog"] = catalog  # type: ignore
     env.globals["changelog"] = changelog  # type: ignore
     env.globals["MoveCategory"] = MoveCategory  # type: ignore

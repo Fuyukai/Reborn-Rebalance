@@ -236,6 +236,11 @@
                 <tbody>
                     {% for map_id, encounter in fixed_encounters %}
                     {% set map = catalog.maps[map_id] %}
+
+                    {% if map.name == "REMOVED" %}
+                    {% continue %}
+                    {% endif %}
+
                     <tr>
                         <td>
                             {{ map_link(map_id, map.name) }}
