@@ -30,7 +30,7 @@
 {% set name = catalog.maps[id].name %}
 {% endif %}
 
-<a href="/maps/{{ '{:03d}'.format(id) }}.html" target="_blank">{{ name }}</a>
+<a href="/maps/{{ '{:03d}'.format(id) }}.html"">{{ name }}</a>
 {%- endmacro -%}
 
 
