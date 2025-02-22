@@ -259,9 +259,9 @@
 </div>
 {%- endmacro -%}
 
-{%- macro gen_level_up_table(attributes) -%}
+{%- macro gen_level_up_table(attributes, idx) -%}
 {% set egg_moves = attributes.raw_egg_moves %}
-<div class="jsify-hidden" data-form="{{ attributes.form_name }}" data-type="tm">
+<div class="{% if idx > 0 %}jsify-hidden{% endif %}" data-form="{{ attributes.form_name }}" data-type="tm">
 <table class="table is-fullwidth is-striped sortable">
     <thead>
     {{ move_table_header("Level") }}

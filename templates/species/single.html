@@ -143,7 +143,7 @@
             <hr/>
 
             {% for idx, form_name, attribs in catalog.all_forms_for(species.internal_name) %}
-            {{ gen_level_up_table(attribs) }}
+            {{ gen_level_up_table(attribs, idx) }}
             {% endfor %}
 
             <hr/>
