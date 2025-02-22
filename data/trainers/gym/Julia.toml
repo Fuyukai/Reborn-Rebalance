@@ -9,16 +9,16 @@ raw_battle_items = [
 ]
 
 [[trainers.JULIA.0.pokemon]]
-internal_name = "MINUN"
-level = 12
+internal_name = "PINCURCHIN"
+level = 16
 raw_moves = [
-    "NUZZLE",
-    "CHARGEBEAM",
-    "ENCORE",
-    "QUICKATTACK",
+    "SPIKES",
+    "TOXICSPIKES",
+    "THUNDERSHOCK",
+    "MEMENTO",
 ]
-sex = "F"
-nature = "MODEST"
+nature = "TIMID"
+iv = 31
 
 [trainers.JULIA.0.pokemon.evs]
 hp = 0
@@ -30,7 +30,7 @@ spe = 0
 
 [[trainers.JULIA.0.pokemon]]
 internal_name = "GEODUDE"
-level = 12
+level = 20
 raw_moves = [
     "SELFDESTRUCT",
     "TACKLE",
@@ -41,7 +41,7 @@ ability_number = 2
 form_number = 1
 is_shiny = true
 nature = "ADAMANT"
-iv = 20
+iv = 31
 
 [trainers.JULIA.0.pokemon.evs]
 hp = 0
@@ -53,7 +53,7 @@ spe = 0
 
 [[trainers.JULIA.0.pokemon]]
 internal_name = "VOLTORB"
-level = 12
+level = 16
 raw_moves = [
     "EXPLOSION",
     "ROLLOUT",
@@ -61,8 +61,31 @@ raw_moves = [
     "SONICBOOM",
 ]
 ability_number = 2
+form_number = 1
 sex = "F"
 nature = "ADAMANT"
+iv = 31
+raw_item = "FOCUSSASH"
+
+[trainers.JULIA.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.JULIA.0.pokemon]]
+internal_name = "PAWMO"
+level = 16
+raw_moves = [
+    "FAKEOUT",
+    "SPARK",
+    "ARMTHRUST",
+    "METALCLAW",
+]
+is_shiny = true
+nature = "JOLLY"
 iv = 20
 
 [trainers.JULIA.0.pokemon.evs]
@@ -74,29 +97,8 @@ spd = 0
 spe = 0
 
 [[trainers.JULIA.0.pokemon]]
-internal_name = "PLUSLE"
-level = 13
-raw_moves = [
-    "NUZZLE",
-    "CHARGEBEAM",
-    "ENCORE",
-    "QUICKATTACK",
-]
-ability_number = 1
-sex = "F"
-nature = "MODEST"
-
-[trainers.JULIA.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.JULIA.0.pokemon]]
 internal_name = "ORICORIO"
-level = 14
+level = 17
 raw_moves = [
     "WORKUP",
     "TAILWIND",
@@ -117,18 +119,18 @@ spd = 0
 spe = 0
 
 [[trainers.JULIA.0.pokemon]]
-internal_name = "ELECTRODE"
-level = 15
+internal_name = "JOLTIK"
+level = 18
 raw_moves = [
-    "CHARGEBEAM",
-    "SONICBOOM",
-    "ROLLOUT",
-    "CHARGE",
+    "ELECTROWEB",
+    "INFESTATION",
+    "DISABLE",
+    "ABSORB",
 ]
-ability_number = 2
+ability_number = 0
 sex = "F"
 nature = "BASHFUL"
-iv = 24
+iv = 31
 
 [trainers.JULIA.0.pokemon.evs]
 hp = 0
@@ -1319,24 +1321,6 @@ raw_battle_items = [
     "POTION",
 ]
 
-[[trainers.JULIA.20.pokemon]]
-internal_name = "PINCURCHIN"
-level = 12
-raw_moves = [
-    "SPIKES",
-    "TOXICSPIKES",
-    "THUNDERSHOCK",
-    "MEMENTO",
-]
-nature = "TIMID"
-
-[trainers.JULIA.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.JULIA.20.pokemon]]
 internal_name = "BELLIBOLT"
@@ -1371,27 +1355,6 @@ raw_moves = [
 ability_number = 1
 sex = "F"
 nature = "JOLLY"
-
-[trainers.JULIA.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.JULIA.20.pokemon]]
-internal_name = "PAWMO"
-level = 13
-raw_moves = [
-    "FAKEOUT",
-    "SPARK",
-    "ARMTHRUST",
-    "METALCLAW",
-]
-is_shiny = true
-nature = "JOLLY"
-iv = 20
 
 [trainers.JULIA.20.pokemon.evs]
 hp = 0
