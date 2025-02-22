@@ -70,6 +70,10 @@ def load_navbar_maps(catalog: EssentialsCatalog, path: Path) -> list[MapSidebarE
     return entries
 
 
+class TrainerRenderError(Exception):
+    pass
+
+
 @attr.s(kw_only=True)
 class WalkthroughEntry:
     """
@@ -514,9 +518,8 @@ def main():
             path = (output_dir / "trainers" / single_trainer.trainer_name).with_suffix(".html")
             try:
                 path.write_text(trainer_template.render(trainers=single_trainer))
-            except:
-                print("Error rendering", single_trainer.trainer_name, file=sys.stderr)
-                raise
+            except Exception as e:
+                raise TrainerRenderError(single_trainer.trainer_name) from e
 
             p.update(trainers_task, advance=1)
 

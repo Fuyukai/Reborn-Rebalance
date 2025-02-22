@@ -115,7 +115,7 @@ Evolves when levelled up holding {{ an }} <b>{{ item_name }}</b> during the <i>n
 {% set loc_name = catalog.maps[loc_id].name %}
 Evolves at location {{ map_link(loc_id, loc_name) }}
 {% elif type == "hasmove" %}
-{% set move_name = catalog.move_mapping[evo.parameter].display_name %}
+{% set move_name = catalog.get_move(evo.parameter).display_name %}
 Evolves when levelled up whilst having the move <b>{{ move_name }}</b>.
 {% else %}
 Unknown evolution <code>{{ type }}</code> (param: <code>{{ evo.parameter }}</code>)

@@ -618,6 +618,11 @@ class EssentialsCatalog:
         except KeyError:  # e.g. pokemon with visual-only forms.
             return root_species.default_attributes
 
+    def get_move(self, name: str) -> PokemonMove:
+        # semi-useless, except that jinja will try and turn it into a getattr (?) which
+        # obscures the error
+        return self.move_mapping[name]
+
     def all_forms_for(
         self, species_name: str | PokemonSpecies
     ) -> list[tuple[int, str, FormAttributes]]:

@@ -39,7 +39,7 @@
 <h3>Move changes</h3>
 <ul>
     {% for move, changes in changelog.moves.items() %}
-    {% set move = catalog.move_mapping[move] %}
+    {% set move = catalog.get_move(move) %}
     {{ gen_move_changes(changes, move, version) }}
     {% endfor %}
 </ul>
@@ -78,7 +78,7 @@
             {% set type = change["type"] %}
 
             {% if type == "level" %}
-                {% set move = catalog.move_mapping[change["move"]] %}
+                {% set move = catalog.get_move(change["move"]) %}
                 {% set level = change.get("level", None) %}
 
                 {% if level is none %}
@@ -109,7 +109,7 @@
                 </b>
                 {% endif %}
             {% elif type == "tutor" %}
-                {% set move = catalog.move_mapping[change.move] %}
+                {% set move = catalog.get_move(change.move) %}
 
                 {% if change.action == "add" %}
                 <b class="has-text-success">Added tutor move

@@ -76,7 +76,7 @@
                 <ul>
                     {% for move_name in raw_poke.raw_moves %}
                     <li>
-                        {{ catalog.move_mapping[move_name].display_name }}
+                        {{ catalog.get_move(move_name).display_name }}
                     </li>
                     {% endfor %}
                 </ul>
