@@ -76,17 +76,15 @@ spd = 0
 spe = 0
 
 [[trainers.Victoria.1.pokemon]]
-internal_name = "PANCHAM"
-level = 18
+internal_name = "KUBFU"
+level = 19
 raw_moves = [
-    "ARMTHRUST",
-    "WORKUP",
-    "COMETPUNCH",
-    "KARATECHOP",
+    "LOWSWEEP",
+    "BULKUP",
+    "AERIALACE",
+    "HEADBUTT",
 ]
-ability_number = 2
-sex = "F"
-nature = "ADAMANT"
+iv = 20
 
 [trainers.Victoria.1.pokemon.evs]
 hp = 0
@@ -614,25 +612,6 @@ raw_moves = [
 sex = "F"
 nature = ""
 iv = 31
-
-[trainers.Victoria.21.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.Victoria.21.pokemon]]
-internal_name = "KUBFU"
-level = 19
-raw_moves = [
-    "LOWSWEEP",
-    "BULKUP",
-    "AERIALACE",
-    "HEADBUTT",
-]
-iv = 20
 
 [trainers.Victoria.21.pokemon.evs]
 hp = 0
