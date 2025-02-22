@@ -8,17 +8,15 @@ raw_battle_items = [
 ]
 
 [[trainers.Hotshot.0.pokemon]]
-internal_name = "BUDEW"
+internal_name = "CAPSAKID"
 level = 13
 raw_item = "ORANBERRY"
 raw_moves = [
-    "MEGADRAIN",
-    "NATURALGIFT",
-    "STUNSPORE",
-    "COVET",
+    "BULLETSEED",
+    "LEECHSEED",
+    "BITE",
+    "SUNNYDAY",
 ]
-ability_number = 1
-sex = "F"
 nature = ""
 
 [trainers.Hotshot.0.pokemon.evs]
@@ -30,15 +28,17 @@ spd = 0
 spe = 0
 
 [[trainers.Hotshot.0.pokemon]]
-internal_name = "SANDILE"
+internal_name = "SNEASEL"
 level = 13
+raw_item = "ORANBERRY"
 raw_moves = [
-    "POWERTRIP",
-    "SNATCH",
-    "RAGE",
-    "SANDTOMB",
+    "QUICKATTACK",
+    "ROCKSMASH",
+    "BITE",
+    "FAKEOUT",
 ]
-ability_number = 1
+ability_number = 2
+form_number = 1
 nature = ""
 
 [trainers.Hotshot.0.pokemon.evs]
@@ -859,48 +859,6 @@ battler_id = 20
 raw_battle_items = [
     "POTION",
 ]
-
-[[trainers.Hotshot.20.pokemon]]
-internal_name = "CAPSAKID"
-level = 13
-raw_item = "ORANBERRY"
-raw_moves = [
-    "BULLETSEED",
-    "LEECHSEED",
-    "BITE",
-    "SUNNYDAY",
-]
-nature = ""
-
-[trainers.Hotshot.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.Hotshot.20.pokemon]]
-internal_name = "SNEASEL"
-level = 13
-raw_item = "ORANBERRY"
-raw_moves = [
-    "QUICKATTACK",
-    "ROCKSMASH",
-    "BITE",
-    "FAKEOUT",
-]
-ability_number = 2
-form_number = 1
-nature = ""
-
-[trainers.Hotshot.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.Hotshot.20.pokemon]]
 internal_name = "ROWLET"
