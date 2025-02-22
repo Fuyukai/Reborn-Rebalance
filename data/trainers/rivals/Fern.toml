@@ -78,18 +78,20 @@ raw_battle_items = [
     "SUPERPOTION",
 ]
 
+
 [[trainers.Hotshot.1.pokemon]]
-internal_name = "SANDILE"
-level = 23
+internal_name = "SNEASEL"
+level = 24
 raw_moves = [
-    "MUDSLAP",
-    "BITE",
-    "SANDATTACK",
-    "RAGE",
+    "FAKEOUT",
+    "CROSSPOISON",
+    "HONECLAWS",
+    "AERIALACE",
 ]
-ability_number = 1
-nature = "BASHFUL"
-iv = 20
+ability_number = 2
+form_number = 1
+nature = "JOLLY"
+iv = 30
 
 [trainers.Hotshot.1.pokemon.evs]
 hp = 0
@@ -100,17 +102,15 @@ spd = 0
 spe = 0
 
 [[trainers.Hotshot.1.pokemon]]
-internal_name = "ROSELIA"
+internal_name = "CAPSAKID"
 level = 24
+raw_item = "LOADEDDICE"
 raw_moves = [
     "LEECHSEED",
-    "STUNSPORE",
-    "MEGADRAIN",
-    "POISONSTING",
+    "BULLETSEED",
+    "BITE",
+    "SUNNYDAY",
 ]
-ability_number = 1
-sex = "F"
-nature = "TIMID"
 iv = 31
 
 [trainers.Hotshot.1.pokemon.evs]
@@ -889,47 +889,6 @@ raw_battle_items = [
     "SUPERPOTION",
 ]
 
-[[trainers.Hotshot.21.pokemon]]
-internal_name = "SNEASEL"
-level = 24
-raw_moves = [
-    "FAKEOUT",
-    "CROSSPOISON",
-    "HONECLAWS",
-    "AERIALACE",
-]
-ability_number = 2
-form_number = 1
-nature = "JOLLY"
-iv = 30
-
-[trainers.Hotshot.21.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.Hotshot.21.pokemon]]
-internal_name = "CAPSAKID"
-level = 24
-raw_item = "LOADEDDICE"
-raw_moves = [
-    "LEECHSEED",
-    "BULLETSEED",
-    "BITE",
-    "SUNNYDAY",
-]
-iv = 31
-
-[trainers.Hotshot.21.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.Hotshot.21.pokemon]]
 internal_name = "DARTRIX"
