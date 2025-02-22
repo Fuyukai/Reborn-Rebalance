@@ -1,12 +1,12 @@
 trainer_name = "ZEL"
 
-[trainers.ZEL.20]
+[trainers.ZEL.0]
 raw_trainer_class = "ZEL"
 battler_name = "ZEL"
 raw_battle_items = []
-battler_id = 20
+battler_id = 0
 
-[[trainers.ZEL.20.pokemon]]
+[[trainers.ZEL.0.pokemon]]
 internal_name = "TANGROWTH"
 level = 22
 raw_item = "PULSEHOLD"
@@ -22,7 +22,7 @@ nature = "CALM"
 iv = 7
 happiness = 0
 
-[trainers.ZEL.20.pokemon.evs]
+[trainers.ZEL.0.pokemon.evs]
 hp = 0
 atk = 0
 def_ = 0
