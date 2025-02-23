@@ -2,7 +2,7 @@
 {% from "helpers.html" import small_sprite, small_sprite_obb, species_link %}
 
 {% set tm_number = catalog.tm_id_for(move.internal_name) %}
-{% set is_tutor = move in catalog.tutor_moves %}
+{% set is_tutor = move.internal_name in catalog.tutor_moves %}
 {% set bg = "bg-" + move.type.name.lower() %}
 
 {% block title %}{{ move.display_name }}{% endblock %}
@@ -12,7 +12,7 @@
 <div class="column is-full" style="margin-bottom: auto;">
 <div class="card">
     <div class="card-header {{ bg }}">
-        <p class="card-header-title has-text-centered" style="color: white;">
+        <p class="card-header-title has-text-centered type-name">
             {{ move.display_name }}
         </p>
     </div>
@@ -59,17 +59,15 @@
     <table class="table is-fullwidth">
         <tr>
             <td class="has-text-centered">Type</td>
-            <td class="has-text-centered {{ bg }}" style="color: white">{{ move.type.localised_name }}</td>
+            <td class="has-text-centered {{ bg }}" style="color: white">
+                <span class="type-name">{{ move.type.localised_name }}</span>
+            </td>
         </tr>
         <tr>
             <td class="has-text-centered">Category</td>
             <td class="has-text-centered">
-                <img
-                    src="/static/icons/move-{{ move.category.name.lower() }}.png"
-                    alt="{{ move.category.name.title() }}"
-                    height="42" width="28"
-                    loading="lazy"/>
-                </td>
+                {{ move.category.name.capitalize() }}
+            </td>
         </tr>
         <tr>
             <td class="has-text-centered">Base Power</td>
