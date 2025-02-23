@@ -1,5 +1,4 @@
 {# Contains macros for the species view. #}
-
 {%- macro stat(name, loc_name, full_name, stat_value) -%}
 
 <tr>
@@ -43,12 +42,19 @@
 {% if move is none %}
 <tr>
     <td class="has-text-right">{{ level_up_at }}</td>
-    <td class="has-text-center"> {{ internal_name }}</td>
+    <td class="has-text-center">{{ internal_name }}</td>
     <td colspan="4" class="has-text-center">
         <span class="tag is-danger">Missing move</span>
     </td>
 </tr>
 {% else %}
+
+{% set has_stab = attributes.has_stab_on(move) %}
+{% if has_stab %}
+{% set move_title = move.description + " (STAB)" %}
+{% else %}
+{% set move_title = move.description %}
+{% endif %}
 
 <tr>
     {% if level_up_at is not none %}
@@ -61,7 +67,7 @@
     </td>
     {% endif %}
     <td>
-        <a href="/moves/{{ move.internal_name.lower() }}.html" style="text-decoration-style: dashed" title="{{ move.description }} ">
+        <a href="/moves/{{ move.internal_name.lower() }}.html" style="text-decoration-style: dashed" title="{{ move_title }} ">
             {% if attributes.has_stab_on(move) %}
             <strong>{{ move.display_name }}</strong>
             {% else %}
@@ -69,8 +75,8 @@
             {% endif %}
         </a>
     </td>
-    <td class="bg-{{ move.type.name.lower() }} has-text-centered no-border" style="color: white">
-        {{ move.type.localised_name }}
+    <td class="bg-{{ move.type.name.lower() }} has-text-centered no-border">
+        <span class="type-name">{{ move.type.localised_name }}</span>
     </td>
     <td class="has-text-centered center">
         <img
@@ -208,20 +214,22 @@
                 </div>
 
                 <footer class="card-footer">
-                    <a href="#" class="card-footer-item bg-{{ attributes.primary_type.name.lower() }}"
-                       style="color: white; border-right: 0px;"
+                    <div class="card-footer-item bg-{{ attributes.primary_type.name.lower() }}"
+                       style="border-right: 0px;"
                     >
-                        <strong>{{ attributes.primary_type.localised_name }}</strong>
-                        &nbsp;
-                        <i class="bi bi-link-45deg"></i>
-                    </a>
+                        <span class="type-name">
+                            {{ attributes.primary_type.localised_name }}
+                        </span>
+                    </div>
 
                     {% if attributes.primary_type != attributes.secondary_type %}
-                    <a href="#" class="card-footer-item bg-{{ attributes.secondary_type.name.lower() }}" style="color: white;">
-                        <strong>{{ attributes.secondary_type.localised_name }}</strong>
-                        &nbsp;
-                        <i class="bi bi-link-45deg"></i>
-                    </a>
+                    <div class="card-footer-item bg-{{ attributes.secondary_type.name.lower() }}"
+                       style="border-right: 0px;"
+                    >
+                        <span class="type-name">
+                            {{ attributes.secondary_type.localised_name }}
+                        </span>
+                    </div>
                     {% endif %}
                 </footer>
             </div>

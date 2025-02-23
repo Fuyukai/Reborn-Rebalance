@@ -38,90 +38,149 @@ hr {
 }
 
 .bg-grass {
-  background-color: #78c850 !important;
+    background-color: #78c850 !important;
+    span.type-name {
+        color: var(--bulma-dark);
+    }
 }
 
 .bg-water {
-  background-color: #6890f0 !important;
+    background-color: #6890f0 !important;
+    span.type-name {
+        color: var(--bulma-light);
+    }
 }
 
 .bg-fire {
-  background-color: #f08030 !important;
+    background-color: #f08030 !important;
+    span.type-name {
+        color: var(--bulma-dark);
+    }
 }
 
 .bg-flying {
-  background-color: #a890f0 !important;
+    background-color: #a890f0 !important;
+    span.type-name {
+        color: var(--bulma-light);
+    }
 }
 
 .bg-bug {
-  background-color: #a8b820 !important;
+    background-color: #a8b820 !important;
+    span.type-name {
+        color: var(--bulma-dark);
+    }
 }
 
 .bg-normal {
-  background-color: #a8a878 !important;
+    background-color: #a8a878 !important;
+    span.type-name {
+        color: var(--bulma-dark);
+    }
 }
 
 .bg-dark {
-  background-color: #705848 !important;
+    background-color: #705848 !important;
+    span.type-name {
+        color: var(--bulma-light);
+    }
 }
 
 .bg-electric {
-  background-color: #f8d030 !important;
+    background-color: #f8d030 !important;
+    span.type-name {
+        color: var(--bulma-dark);
+    }
 }
 
+/* could go either way. */
 .bg-psychic {
-  background-color: #f85888 !important;
+    background-color: #f85888 !important;
+    span.type-name {
+        color: var(--bulma-light);
+    }
 }
 
 .bg-poison {
-  background-color: #a040a0 !important;
+    background-color: #a040a0 !important;
+    span.type-name {
+        color: var(--bulma-light);
+    }
 }
 
 .bg-ground {
-  background-color: #e0c068 !important;
+    background-color: #e0c068 !important;
+    span.type-name {
+        color: var(--bulma-dark);
+    }
 }
 
 .bg-ice {
-  background-color: #59c0c0 !important;
+    background-color: #59c0c0 !important;
+    span.type-name {
+        color: var(--bulma-dark);
+    }
 }
 
 .bg-steel {
-  background-color: #b8b8d0 !important;
+    background-color: #b8b8d0 !important;
+    span.type-name {
+        color: var(--bulma-dark);
+    }
 }
 
 .bg-fairy {
-  background-color: #ee99ac !important;
+    background-color: #ee99ac !important;
+    span.type-name {
+        color: var(--bulma-dark);
+    }
 }
 
 .bg-fighting {
-  background-color: #c03028 !important;
+    background-color: #c03028 !important;
+    span.type-name {
+        color: var(--bulma-light);
+    }
 }
 
 .bg-rock {
-  background-color: #b8a038 !important;
+    background-color: #b8a038 !important;
+    span.type-name {
+        color: var(--bulma-dark);
+    }
 }
 
 .bg-dragon {
-  background-color: #7038f8 !important;
+    background-color: #7038f8 !important;
+    span.type-name {
+        color: var(--bulma-light);
+    }
 }
 
 .bg-ghost {
-  background-color: #705898 !important;
+    background-color: #705898 !important;
+    span.type-name {
+        color: var(--bulma-light);
+    }
 }
 
 .bg-qmarks {
-  background: rgb(27, 121, 9);
-  background: linear-gradient(
-    90deg,
-    rgba(27, 121, 9, 1) 7%,
-    rgba(121, 16, 145, 1) 24%,
-    rgba(183, 79, 79, 1) 36%,
-    rgba(106, 146, 110, 1) 49%,
-    rgba(81, 89, 162, 1) 61%,
-    rgba(188, 107, 58, 1) 72%,
-    rgba(156, 101, 142, 1) 85%,
-    rgba(0, 212, 255, 1) 100%
-  );
+    background: rgb(27, 121, 9);
+    background: linear-gradient(
+        90deg,
+        rgba(27, 121, 9, 1) 7%,
+        rgba(121, 16, 145, 1) 24%,
+        rgba(183, 79, 79, 1) 36%,
+        rgba(106, 146, 110, 1) 49%,
+        rgba(81, 89, 162, 1) 61%,
+        rgba(188, 107, 58, 1) 72%,
+        rgba(156, 101, 142, 1) 85%,
+        rgba(0, 212, 255, 1) 100%
+    );
+
+    span.type-name {
+        color: var(--bulma-light);
+    }
 }
 
 table.vcentre td {

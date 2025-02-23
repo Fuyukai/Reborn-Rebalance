@@ -44,10 +44,16 @@
             </td>
             <td><a href="/species/specific/{{ species.internal_name.lower() }}.html">{{ species.name }}</a></td>
             {% if type_1_name == type_2_name %}
-            <td class="bg-{{ type_1_name.lower() }} has-text-centered" style="color: white; border: none" colspan="2">{{ type_1_name }}</td>
+            <td class="bg-{{ type_1_name.lower() }} has-text-centered" style="border: none" colspan="2">
+                <span class="type-name">{{ type_1_name }}</span>
+            </td>
             {% else %}
-            <td class="bg-{{ type_1_name.lower() }} has-text-centered" style="color: white; border: none">{{ type_1_name }}</td>
-            <td class="bg-{{ type_2_name.lower() }} has-text-centered" style="color: white; border: none">{{ type_2_name }}</td>
+            <td class="bg-{{ type_1_name.lower() }} has-text-centered" style="border: none">
+                <span class="type-name">{{ type_1_name }}</span>
+            </td>
+            <td class="bg-{{ type_2_name.lower() }} has-text-centered" style="border: none">
+                <span class="type-name">{{ type_2_name }}</span>
+            </td>
             {% endif %}
         </tr>
         {% endif %}
