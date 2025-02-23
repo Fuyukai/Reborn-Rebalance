@@ -18,8 +18,16 @@
         {% else %}
         {% set class = "is-info" %}
         {% endif %}
+        
+        {# make the bar max values 194, as outside of 5 pokemon there are *no* stats higher. 
+           this means 1/5th of the bar is no longer unused, and it looks a bit less weird. #}
+        {% if stat_value > 194 %}
+        {% set bar_max = stat_value %}
+        {% else %}
+        {% set bar_max = 194 %}
+        {% endif %}
 
-        <progress class="progress {{ class }}" value="{{ stat_value }}" max="255"></progress>
+        <progress class="progress {{ class }}" value="{{ stat_value }}" max="{{ bar_max }}"></progress>
     </td>
 </tr>
 {%- endmacro -%}
