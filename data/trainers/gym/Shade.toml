@@ -9,22 +9,23 @@ raw_battle_items = [
 ]
 
 [[trainers.SHADE.0.pokemon]]
-internal_name = "GENGAR"
+internal_name = "CORSOLA"
 level = 35
-raw_item = "WIDELENS"
+raw_item = "EVIOLITE"
 raw_moves = [
-    "HYPNOSIS",
-    "DREAMEATER",
-    "SHADOWBALL",
-    "THUNDERBOLT",
+    "NATUREPOWER",
+    "STEALTHROCK",
+    "STRENGTHSAP",
+    "TOXIC",
 ]
-nature = "BASHFUL"
-iv = 31
-happiness = 0
-nickname = "Corey"
+ability_number = 1
+sex = "F"
+form_number = 1
+nature = "BOLD"
+iv = 25
 
 [trainers.SHADE.0.pokemon.evs]
-hp = 12
+hp = 0
 atk = 0
 def_ = 0
 spa = 0
