@@ -121,30 +121,10 @@ raw_battle_items = [
     "SUPERPOTION",
 ]
 
-[[trainers.Cain.2.pokemon]]
-internal_name = "BRIONNE"
-level = 32
-raw_item = "ZOOMLENS"
-raw_moves = [
-    "ICYWIND",
-    "DISARMINGVOICE",
-    "BUBBLEBEAM",
-    "SING",
-]
-nature = "MODEST"
-iv = 15
-
-[trainers.Cain.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.Cain.2.pokemon]]
 internal_name = "MAROWAK"
-level = 33
+level = 36
 raw_moves = [
     "FLAMEWHEEL",
     "BONEMERANG",
@@ -165,8 +145,30 @@ spd = 0
 spe = 0
 
 [[trainers.Cain.2.pokemon]]
+internal_name = "PRIMARINA"
+level = 38
+raw_item = "ZOOMLENS"
+raw_moves = [
+    "ICYWIND",
+    "DRAININGKISS",
+    "SPARKLINGARIA",
+    "HYPERVOICE",
+]
+nature = "MODEST"
+ability_number = 1
+iv = 31
+
+[trainers.Cain.2.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.Cain.2.pokemon]]
 internal_name = "GRIMER"
-level = 35
+level = 36
 raw_moves = [
     "POISONFANG",
     "MINIMIZE",
