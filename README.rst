@@ -1,12 +1,12 @@
 Reborn Rebalance
 ================
 
-*This mod is built on top of and REQUIRES the All Gens Patch, v6.5.0a.*
+*This mod is built on top of and REQUIRES the All Gens Patch, v8.0.0a.*
 
 This project is two parts:
 
 - A rebalance mod for Pokémon Reborn...
-- ... implemented via a transpiler from TOML data into Essentials PBS (2010 ver) and Ruby code.
+- ... implemented via a transpiler from TOML data into game data and Ruby code.
 
 This project is fully documented; you can find the
 `documentation online <https://reborn.sailor.li/>`_.
@@ -24,6 +24,9 @@ Currently Rebalanced
 - A small number of moves. See the list above.
 
 - Most gym teams and other major boss teams, excluding most post-game teams.
+
+  * Notably, a lot of boss teams have been moved up to the level cap instead of sitting three to
+    four levels below it. 
 
 - A small amount of encounter table tweaks.
 
@@ -62,7 +65,7 @@ Customised Usage
 ----------------
 
 After seeing my balance tweaks, do you want me to kill myself? That's fine, you can customise this
-mod easily. Edit the files in ``data`` as appropriate, then do the following:
+mod easily.
 
 .. highlight:: fish
 
@@ -73,6 +76,8 @@ mod easily. Edit the files in ``data`` as appropriate, then do the following:
 2. Install with PDM::
 
     cd Reborn-Rebalance; pdm install
+
+3. Customise the files in ``data/`` has you see fit.
 
 3. Transpile the data into Reborn's format::
 
@@ -120,8 +125,6 @@ Future Plans
 
 - More boss tweaks, especially post-game.
 
-- Try and make most of the movesets legal... (they're mostly not even legal in the vanilla game).
-
 - Add more events for freshly rebalanced Pokémon.
 
 - Add the ability to directly compile into the game formats, instead of requiring the game to
@@ -134,15 +137,13 @@ Future Plans
     For either way, writing direct code generation probably isn't too hard and is a future
     priority.
 
-  * Yeah, turns out I'll have to do this eventually...
-
 - Add the ability to splice events into the game code without needing to use the RPG Maker editor.
 
 - Add support for Rejuvenation and Desolation.
 
   * I haven't actually *played* through either of these games so I don't know how to even
     rebalance them (or, hell, how internally unbalanced they are anyway). On the other hand,
-    I've played through Reborn ~~three~~ FIVE times, so I know what I'm doing here.
+    I've played through Reborn ~~three~~ ~~five~~ *SIX* times, so I know what I'm doing here.
 
 Licence
 -------
@@ -163,15 +164,8 @@ Credits
 
 The Reborn devs - for making this game that I love to hate
 
-Reborn forum user Haru,, - for making the `modding guide`_ that I referenced for parts of the transpiler
-
 Reborn forum user Fervis - for the `All-Gen`_ patch this is based off of
 
-GitHub user Solistra - for `rvpacker`_, which I stole the definition of ``Table`` from when writing the map renderer
-
 .. _relatively open permissions: https://www.rebornevo.com/pr/gamefaq/#borrow
-.. _dev blog: https://www.rebornevo.com/pr/development/records/hey-whats-going-on-r103/
 .. _All-Gen: https://www.rebornevo.com/forums/topic/62201-all-gen-eevee-reborn-custom-megas/
 .. _E19 Music Pack: https://www.rebornevo.com/forums/topic/61681-reborn-e19-battle-music-pack/
-.. _modding guide: https://www.rebornevo.com/forums/topic/65080-modding-tutorial-reborn-e19/
-.. _rvpacker: https://github.com/Solistra/rvpacker
