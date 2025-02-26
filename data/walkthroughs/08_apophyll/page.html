@@ -5,18 +5,11 @@
 
 {% block walkthrough %}
 <div class="content has-text-justified">
-
-
     <p>
         Welcome to {{ mp(15, "Apophyll Island") }}! It's a sandy ashen island around a volcano, with nothing
-        but endless waves of pollution lapping at your feet. Truly, this is one of the
-        Reborn Region's natural wonders.
+        but endless waves of pollution lapping at your feet. This is one of the Reborn Region's 
+        natural wonders.
     </p>
-
-    <div class="notification is-info">
-        This is the place to evolve your Petilil into Hisuian Lilligant. As I said before, I really
-        highly recommend having a Lilligant-H.
-    </div>
 
     <div class="notification is-warning">
         This area is made up of a few conjoined maps with silent map transitions. If you're
@@ -27,7 +20,7 @@
     {{ ss("pyukumuku", "Pyukumukii.") }}
 
     <p>
-        You can fight some Pyukumukii on the beach, or you can be more productive 
+        You can fight some Pyukumukii on the beach, or you can be more productive and
         get another Department Store sticker! Make your way up to the academy to the north of the 
         beach (curse you, lack of diagonal movement!), then go through the front entrance and back o
         ut through the front exit.
@@ -63,12 +56,23 @@
     </p>
 
     <p>
-        From here, you have a choice to battle either Victoria or Cal (who's buggered off up the mountain).
-        Practically speaking, you're going to fight Victoria and her team of starter Pokémon.
-        If you still have a Fearow from Shade's gym battle, her team goes down pretty easily.
+        From here, you have a choice to battle either Victoria or Cal (who's disappeared up the mountain)
+        Practically speaking, you're going to fight Victoria. You might have already fought Cal,
+        which lets you skip this battle. If you still have a Fearow from Shade's gym battle, 
+        Victoria's team goes down pretty easily.
     </p>
 
-    {{ trainer_battle_content("Victoria", "Victoria", 24) }}
+    <p>
+        Here's Icky Vicky's team:
+    </p>
+
+    {{ trainer_battle_content("Victoria", "Victoria", 4) }}
+
+    <p>
+        And here's Cal's much harder team:
+    </p>
+
+    {{ trainer_battle_content("Cal", "Exleader", 0)}}
 
     <p>
         Your next challenge is to battle Kiki herself to "graduate". This is essentially a mini-gym
@@ -78,17 +82,17 @@
     <ul>
         <li>
             Go back to the Slums and find a Primeape; with Rage Fist and the awesome Fighting/Ghost
-            type after evolving into {{ sp("ANNIHILAPE") }}. It destroys her team easily.
+            type after evolving into {{ sp("ANNIHILAPE") }} it destroys her team easily.
         </li>
         <li>
             If you picked Fuecoco as your starter, it also puts in major work here.
         </li>
         <li>
-            Really, any Ghost type does well here.
+            Really, any Ghost or Fairy type does well here.
         </li>
     </ul>
 
-    {{ trainer_battle_content("Kiki", "Sensei", 20) }}
+    {{ trainer_battle_content("Kiki", "Sensei", 0) }}
 
     <p>
         Cue a few cutscenes... Kiki doesn't have Strength. Rats! It's time to go to Azurine Island
@@ -100,9 +104,9 @@
     </a>
 
     <p>
-        Welcome to {{ mp(206, "Azurine Island") }}! This is another annoying as hell map to walk through.
-        About half of the items on the floor are legitimate, and the other half are sussy (Foongus and
-        Amoguses); they're level 30, so it doesn't really matter. Pick em all up.
+        Welcome to {{ mp(206) }}! About half of the items on the floor here are real, and the other
+        half are {{ sp("FOONGUS") }} or {{ sp("AMOONGUSS") }}. The green lilipads in the water are
+        walkable and form the basis of the route you need to follow.
     </p>
 
     {{ ss("azurinearrows1") }}
@@ -124,7 +128,8 @@
         Follow this set of red arrows to find... a Light Shard? Uh oh. Then a battle with the silly
         duo of Eclipse and Aster, who give you the hint you need to know about how to find the
         hidden door in the building you've just found (I'm not drawing another arrow. There's only
-        one route.) It's the machine at the back left of the building.
+        one route.) It's the machine at the back left of the building. There's inexplicably a
+        TM vendor on this island, selling Gen 8 and 9 TMs.
     </p>
 
     <p>
@@ -132,10 +137,10 @@
         the Sex Pest.
     </p>
 
-    {{ trainer_battle_content("Taka", "Taka", 21) }}
+    {{ trainer_battle_content("Taka", "Taka", 1) }}
 
     <p>
-        After some more bad cutscenery, accept Cain's offer to walk back (yuck) and you'll be
+        After some more bad cutscenes, accept Cain's offer to walk back (yuck) and you'll be
         transported back to Apophyll Island. Great detour.
     </p>
 
@@ -143,20 +148,16 @@
         <h2 class="subtitle">Return to Apophyll Island</h2>
     </a>
 
-    <div class="notification is-warning">
-        Get your Prankster Murkrow out now. Make sure it knows Perish Song. If it doesn't, go back
-        to Reborn City and have the Move Relearner teach it Perish Song. If you have to, soft reset
-        grind in front of a mineable rock to get more Heart Scales.
-
-        <strong>This is not optional for the good route</strong>. You need the Murkrow in your 
-        party before going into Pyrous Mountain! Don't bother levelling it up, 
-        <strong>do NOT evolve it</strong>, just stick it into a back slot and call it a day.
+    <div class="notification is-warning is-light">
+        At the top of the volcano is a fight with Solaris, who has a level 75 {{ sp("GARCHOMP") }}.
+        Let's be real; you don't stand a chance. This is what the Prankster Murkrow you caught 
+        before is going to be used for; use Perish Song on turn 1 and let it kill three of your
+        Pokémon. If you beat him, you'll stay on the good route. 
     </div>
-
     <p>
         Once you return to Apophyll Island, heal your team in the academy and head to the right
-        and downwards to the entrance to {{ mp(34, "Pyrous Mountain") }}.
-        Once inside, Victoria will be your partner throughout the dungeon.
+        and downwards to the entrance to {{ mp(34) }}. Once inside, Victoria will be your 
+        partner throughout the dungeon.
     </p>
 
     {{ ss("warioland4", "Watch out for the frog switches.") }}
@@ -195,11 +196,6 @@
         down. (You may have to go back down to B1F and B2F and break the rocks there to let the
         lava flow properly.)
     </p>
-
-    <div class="notification is-danger">
-        If you put off getting out the Murkrow, now is the time to get it out. Put it in your lead
-        slot. I mean it. Save the game here, too.
-    </div>
 
     <p>
         You can now climb to the top of the mountain and exit; walk towards Cain for a short

@@ -84,27 +84,27 @@ raw_battle_items = [
 
 [[trainers.Taka.1.pokemon]]
 internal_name = "KLEFKI"
-level = 40
+level = 42
 raw_moves = [
     "SPIKES",
-    "MIRRORSHOT",
+    "THUNDERWAVE",
     "DRAININGKISS",
     "FOULPLAY",
 ]
 nature = "BOLD"
-iv = 13
+iv = 31
 
 [trainers.Taka.1.pokemon.evs]
-hp = 0
+hp = 24
 atk = 0
 def_ = 0
 spa = 0
 spd = 0
-spe = 0
+spe = 24
 
 [[trainers.Taka.1.pokemon]]
 internal_name = "EXEGGUTOR"
-level = 41
+level = 44
 raw_item = "SITRUSBERRY"
 raw_moves = [
     "DRAGONHAMMER",
@@ -115,32 +115,32 @@ raw_moves = [
 ability_number = 1
 form_number = 1
 nature = "ADAMANT"
-iv = 30
+iv = 31
 
 [trainers.Taka.1.pokemon.evs]
-hp = 0
+hp = 24
 atk = 0
 def_ = 0
 spa = 0
 spd = 0
-spe = 0
+spe = 24
 
 [[trainers.Taka.1.pokemon]]
 internal_name = "GLIGAR"
-level = 42
+level = 43
 raw_moves = [
     "UTURN",
     "ACROBATICS",
-    "NIGHTSLASH",
+    "EARTHQUAKE",
     "ROOST",
 ]
-ability_number = 1
+ability_number = 0
 nature = "ADAMANT"
-iv = 30
+iv = 31
 
 [trainers.Taka.1.pokemon.evs]
 hp = 0
-atk = 0
+atk = 76
 def_ = 0
 spa = 0
 spd = 0
@@ -160,12 +160,12 @@ nature = "TIMID"
 iv = 31
 
 [trainers.Taka.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
+hp = 24
+atk = 24
+def_ = 24
+spa = 24
+spd = 24
+spe = 24
 
 [trainers.Taka.2]
 raw_trainer_class = "Taka"
