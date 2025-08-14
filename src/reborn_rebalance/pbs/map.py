@@ -147,7 +147,7 @@ class MapMetadata:
     map_size: str | None = attr.ib(default=None)
 
     # used to avoid O(N^2) loop in the map template rendering code.
-    child_maps: set[int] = attr.ib(init=False, factory=set)
+    child_maps: set[int] = attr.ib(init=False, factory=lambda: set())
 
     @classmethod
     def add_unstructure_hook(cls, converter: Converter):

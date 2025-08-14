@@ -37,7 +37,7 @@ class EventCatalog:
     )
 
     # TM number -> map
-    tm_maps: dict[int, tuple[int, ReceivedTechnicalMachineCommand]] = attrs.field(
+    tm_maps: dict[int, tuple[int, ReceivedTechnicalMachineCommand]] = attrs.field(  # pyright: ignore[reportUnknownVariableType]
         factory=dict,
     )
 

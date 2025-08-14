@@ -47,7 +47,7 @@ class EventStream:
     A stream of events that can have individual commands picked out for further inspection.
     """
 
-    pickers: list[EventPicker] = attrs.field(factory=list)
+    pickers: list[EventPicker] = attrs.field(factory=list)  # pyright: ignore[reportUnknownVariableType]
 
     def _select_from_event(
         self, map: RubyRpgMap, evt: RubyRpgEvent

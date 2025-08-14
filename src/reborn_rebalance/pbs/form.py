@@ -83,16 +83,16 @@ class SinglePokemonForm:
     pokedex_entry: str | None = attr.ib(default=None)
 
     #: The ability overrides for this form.
-    raw_abilities: list[str] = attr.ib(factory=list)
+    raw_abilities: list[str] = attr.ib(factory=lambda: [])
 
     #: The moveset overrides for this form.
-    raw_level_up_moves: list[RawLevelUpMove] = attr.ib(factory=list)
+    raw_level_up_moves: list[RawLevelUpMove] = attr.ib(factory=lambda: [])
 
     #: The custom egg moves for this form.
-    raw_egg_moves: list[str] = attr.ib(factory=list)
+    raw_egg_moves: list[str] = attr.ib(factory=lambda: [])
 
     #: The evolutionary data for this form, if any.
-    evo_data_v2: list[PokemonEvolution] = attr.ib(factory=list)
+    evo_data_v2: list[PokemonEvolution] = attr.ib(factory=lambda: [])
 
     def combined_attributes(self, species: PokemonSpecies) -> FormAttributes:
         """
@@ -194,7 +194,7 @@ class PokemonForms:
     internal_name: str = attr.ib()
 
     #: The mapping of form name -> form ID.
-    form_mapping: dict[int, str] = attr.ib(factory=dict)
+    form_mapping: dict[int, str] = attr.ib(factory=lambda: {})
 
     #: The custom initialiser code to use for this species.
     #:
@@ -212,10 +212,10 @@ class PokemonForms:
     mega_form: int | None = attr.ib(default=None)
 
     #: A custom mapping of {item => form}. Overrides ``default_form``.
-    custom_default_mapping: dict[str, int] = attr.ib(factory=dict)
+    custom_default_mapping: dict[str, int] = attr.ib(factory=lambda: {})
 
     #: A custom mapping of {mega stone => mega form}. Overrides ``mega_form``.
-    custom_mega_mapping: dict[str, int] = attr.ib(factory=dict)
+    custom_mega_mapping: dict[str, int] = attr.ib(factory=lambda: {})
 
     #: The... ultra (?) form for this species.
     ultra_form: int | None = attr.ib(default=None)
@@ -229,7 +229,7 @@ class PokemonForms:
     #: The mapping of form name -> form data for this species.
     #: Needs to match the ``form_names`` properties in the species definition.
     #: Please note that form IDs and the indexes in here are unrelated to each other.
-    forms: dict[str, SinglePokemonForm] = attr.ib(factory=dict)
+    forms: dict[str, SinglePokemonForm] = attr.ib(factory=lambda: {})
 
     def _validate(self) -> ExceptionGroup[Exception] | None:
         errors: list[Exception] = []

@@ -38,7 +38,7 @@ class MapSidebarEntry:
     name: str | None = attr.ib()
 
     #: The list of submaps for this map entry.
-    submaps: list[MapSidebarEntry] = attr.ib(factory=list)
+    submaps: list[MapSidebarEntry] = attr.ib(factory=list)  # pyright: ignore[reportUnknownVariableType]
 
 
 def _recursive_navbar_entry(catalog: EssentialsCatalog, entry: dict[str, Any]) -> MapSidebarEntry:
@@ -85,7 +85,7 @@ class WalkthroughEntry:
 
     #: The list of chapters for this entry.
     #: Tuple of (internal name, display name).
-    chapters: list[tuple[str, str]] = attr.ib(factory=list)
+    chapters: list[tuple[str, str]] = attr.ib(factory=list)  # pyright: ignore[reportUnknownVariableType]
 
 
 def load_navbar_walkthroughs(path: Path) -> list[WalkthroughEntry]:

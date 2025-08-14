@@ -330,7 +330,7 @@ class Trainer:
     battler_id: int = attr.ib(default=0)
 
     #: The items that this trainer can use in battle.
-    raw_battle_items: list[str] = attr.ib(factory=list)
+    raw_battle_items: list[str] = attr.ib(factory=lambda: [])
 
     #: The list of Pokémon that this trainer uses.
     pokemon: list[SingleTrainerPokemon] = attr.ib()
@@ -426,7 +426,7 @@ class TrainerCatalog:
     trainer_name: str = attr.ib()
 
     #: The mapping of trainer klass -> dict of trainer objects, keyed by number.
-    trainers: dict[str, dict[int, Trainer]] = attr.ib(factory=dict)
+    trainers: dict[str, dict[int, Trainer]] = attr.ib(factory=lambda: {})
 
     def all_trainers(self) -> Iterable[Trainer]:
         for values in self.trainers.values():

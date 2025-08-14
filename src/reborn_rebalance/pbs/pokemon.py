@@ -401,7 +401,7 @@ class PokemonSpecies:
     #: The list of moves learned upon level up.
     raw_level_up_moves: list[RawLevelUpMove] = attr.ib()
     #: The list of egg moves this species can learn.
-    raw_egg_moves: list[str] = attr.ib(factory=list)
+    raw_egg_moves: list[str] = attr.ib(factory=lambda: [])
     #: The list of TMs this species can learn.
     raw_tms: list[str] = attr.ib()
     #: The list of tutor moves this species can learn.
@@ -437,10 +437,10 @@ class PokemonSpecies:
     battler_altitude: int = attr.ib()
 
     #: The list of possible evolutions for this species.
-    evolutions: list[PokemonEvolution] = attr.ib(factory=list)
+    evolutions: list[PokemonEvolution] = attr.ib(factory=lambda: [])
 
     # used internally ig?
-    form_names: list[str] = attr.ib(factory=list)
+    form_names: list[str] = attr.ib(factory=lambda: [])
     # ? gen 8 nonsense. we keep it for round-tripping
     regional_numbers: int | None = attr.ib(default=None)
     shape: int | None = attr.ib(default=None)

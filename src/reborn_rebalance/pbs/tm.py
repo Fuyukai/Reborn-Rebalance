@@ -62,7 +62,7 @@ class TechnicalMachine:
 
     #: The list of compatible Pokémon for this TM. This is always empty at runtime, and is only
     #: used for serialisation purposes.
-    pokemon: set[str] = attr.ib(factory=set, hash=False, eq=False)
+    pokemon: set[str] = attr.ib(factory=lambda: set(), hash=False, eq=False)
 
     @classmethod
     def incomplete_from_pbs(cls, move: str, line: list[str]) -> Self:
