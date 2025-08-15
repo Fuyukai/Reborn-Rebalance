@@ -15,7 +15,15 @@
     <tbody>
     {% for tm in tms %}
         {% set move = catalog.move_mapping[tm.move] %}
-        <tr>
+        {% set tm_map_info = event_catalog.tm_maps[tm.number] %}
+
+        {% if tm_map_info is none %}
+        {% set kind = "ITEM"  %}
+        {% else %}
+        {% set kind = tm_map_info[1].kind.name %}
+        {% endif %}
+
+        <tr data-tm-kind="{{ kind }}">
             <td class="has-text-centered">{{ tm.number }}</td>
             <td class="has-text-centered">
                 <a href="/moves/{{ tm.move.lower() }}.html">
@@ -47,6 +55,23 @@
                     Click on a move's name to see its full details page, including who learns it.
                 </p>
             </div>
+
+            <div class="checkboxes has-text-centered">
+                <label class="checkbox">
+                    <input id="item-checkbox" type="checkbox" checked />
+                    Found as item
+                </label>
+
+                <label class="checkbox">
+                    <input id="event-checkbox" type="checkbox" checked />
+                    Given as event
+                </label>
+
+                <label class="checkbox">
+                    <input id="vendor-checkbox" type="checkbox" checked />
+                    Bought from vendor
+                </label>
+            </div>
         </div>
     </div>
 
@@ -63,4 +88,20 @@
     </div>
 </div>
 </section>
+
+<script>
+    adjustChanges = (typ, evt) => {
+        document.querySelectorAll(`tr[data-tm-kind="${typ}"]`).forEach((it) => {
+            if (evt.target.checked) {
+                it.classList.remove("is-hidden");
+            } else {
+                it.classList.add("is-hidden");
+            }
+        });
+    };
+
+    document.getElementById("item-checkbox").addEventListener("change", evt => adjustChanges("ITEM", evt));
+    document.getElementById("event-checkbox").addEventListener("change", evt => adjustChanges("EVENT", evt));
+    document.getElementById("vendor-checkbox").addEventListener("change", evt => adjustChanges("VENDOR", evt));
+</script>
 {% endblock %}

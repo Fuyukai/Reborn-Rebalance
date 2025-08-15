@@ -138,7 +138,7 @@ class ReceivedTechnicalMachineCommand(PickedEventCommand):
 
         else:
             return None
-
+        
         return ReceivedTechnicalMachineCommand(
             map=map,
             event=event,
