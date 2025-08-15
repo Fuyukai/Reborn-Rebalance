@@ -29,8 +29,6 @@ class EventCatalog:
     A wrapper for static events for usage in the web renderer.
     """
 
-    real_catalog: EssentialsCatalog = attrs.field()
-
     # raw species -> [(map: command)]
     static_encounters: dict[str, list[tuple[int, StaticEncounterCommand]]] = attrs.field(
         factory=lambda: defaultdict(list)
@@ -42,11 +40,15 @@ class EventCatalog:
     )
 
     @classmethod
+    def empty(cls) -> EventCatalog:
+        return EventCatalog()
+
+    @classmethod
     def load(cls, project_dir: Path, catalogue: EssentialsCatalog) -> EventCatalog:
         map_files = [
             i for i in (project_dir / "Data").glob("Map**.rxdata") if i.name != "MapInfos.rxdata"
         ]
-        instance = EventCatalog(real_catalog=catalogue)
+        instance = EventCatalog()
 
         with ProcessPoolExecutor() as executor:
             for map_name, processed_map in executor.map(eager_process_map, map_files):

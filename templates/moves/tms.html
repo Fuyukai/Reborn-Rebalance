@@ -1,0 +1,66 @@
+{% extends "_meta/_root.html" %}
+{% from "helpers.html" import tm_loc_desc %}
+
+{%- macro render_tms_table(tms) -%}
+<table class="table is-fullwidth is-bordered">
+    <thead>
+        <tr>
+            <th class="has-text-centered">#</th>
+            <th class="has-text-centered">Move</th>
+            <th class="has-text-centered">Type</th>
+            <th class="has-text-centered">Location</th>
+        </tr>
+    </thead>
+
+    <tbody>
+    {% for tm in tms %}
+        {% set move = catalog.move_mapping[tm.move] %}
+        <tr>
+            <td class="has-text-centered">{{ tm.number }}</td>
+            <td class="has-text-centered">
+                <a href="/moves/{{ tm.move.lower() }}.html">
+                    {{ move.display_name }}
+                </a>
+            </td>
+            <td class="has-text-centered bg-{{ move.type.name.lower() }}">
+                <span class="auto-light-dark">{{ move.type.name.capitalize() }}</span>
+            </td>
+            <td class="has-text-centered">
+                {{ tm_loc_desc(tm.number) }}
+            </td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+{%- endmacro -%}
+
+{% block title %} All TMs {% endblock %}
+
+{% block content %}
+<section class="section">
+<div class="container">
+    <div class="columns is-centered">
+        <div class="column is-6">
+            <div class="content">
+                <h1 class="title has-text-centered">Technical Machine List</h1>
+                <p class="has-text-centered">
+                    Click on a move's name to see its full details page, including who learns it.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="columns is-centered">
+        <div class="column is-one-half">
+            <h3 class="subtitle has-text-centered">Original TMs</h3>
+
+            {{ render_tms_table(left) }}
+        </div>
+        <div class="column is-one-half">
+            <h3 class="subtitle has-text-centered">All-Gen TMs</h3>
+            {{ render_tms_table(right) }}
+        </div>
+    </div>
+</div>
+</section>
+{% endblock %}

@@ -19,8 +19,8 @@
                     {{ move.display_name }}
                 </a>
             </td>
-            <td class="bg-{{ move.type.name.lower() }} has-text-centered" style="color: white">
-                {{ move.type.localised_name }}
+            <td class="bg-{{ move.type.name.lower() }} has-text-centered">
+                <span class="auto-light-dark">{{ move.type.localised_name }}</span>
             </td>
             <td class="has-text-centered">
                 {{ move.category.name.capitalize() }}

@@ -1,5 +1,5 @@
 {% extends "_meta/_root.html" %}
-{% from "helpers.html" import small_sprite, small_sprite_obb, species_link, map_link %}
+{% from "helpers.html" import small_sprite, small_sprite_obb, species_link, map_link, tm_loc_desc %}
 
 {% set tm_number = catalog.tm_id_for(move.internal_name) %}
 {% set is_tutor = move.internal_name in catalog.tutor_moves %}
@@ -12,7 +12,7 @@
 <div class="column is-full" style="margin-bottom: auto;">
 <div class="card">
     <div class="card-header {{ bg }}">
-        <p class="card-header-title has-text-centered type-name">
+        <p class="card-header-title has-text-centered auto-light-dark">
             {{ move.display_name }}
         </p>
     </div>
@@ -47,18 +47,9 @@
                     {% endif %}
                 </tr>
                 {% if tm_number is not none %}
-                {% set tm_map_info = event_catalog.tm_maps.get(tm_number) %}
                 <tr>
                     <td class="has-text-centered">Found on map</td>
-                    {% if tm_map_info is not none %}
-                    {% set map_id = tm_map_info[0] %}
-                    {% set tm_command = tm_map_info[1] %}
-                    <td class="has-text-centered">{{ map_link(map_id) }} (via {{ tm_command.kind.name.capitalize() }})</td>
-                    {% else %}
-                    <td class="has-text-centered">
-                        <span style="text-decoration: underline dotted" title="It's currently not known how this TM is acquired.">N/A</span>
-                    </td>
-                    {% endif %}
+                    <td class="has-text-centered">{{ tm_loc_desc(tm_number) }}</td>
                 </tr>
                 {% endif %}
             </tbody>
@@ -75,7 +66,7 @@
         <tr>
             <td class="has-text-centered">Type</td>
             <td class="has-text-centered {{ bg }}" style="color: white">
-                <span class="type-name">{{ move.type.localised_name }}</span>
+                <span class="auto-light-dark">{{ move.type.localised_name }}</span>
             </td>
         </tr>
         <tr>

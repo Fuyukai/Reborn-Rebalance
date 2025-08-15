@@ -335,6 +335,12 @@ def main():
         action="store_true",
         default=False,
     )
+    parser.add_argument(
+        "--skip-event-parsing",
+        help="Skips generating the event catalog (quick)",
+        action="store_true",
+        default=False,
+    )
 
     parser.add_argument(
         "INPUT", help="The input data directory", type=Path, default=Path.cwd() / "data"
@@ -375,7 +381,11 @@ def main():
     maps_dir.mkdir(exist_ok=True, parents=True)
 
     catalog = EssentialsCatalog.load_from_toml(input_dir)
-    event_catalog = EventCatalog.load(game_dir, catalog)
+
+    if args.skip_event_parsing:
+        event_catalog = EventCatalog.empty()
+    else:
+        event_catalog = EventCatalog.load(game_dir, catalog)
 
     if args.crop_regular_sprites:
         crop_regular_sprites(catalog, game_dir, pokesprites)
@@ -440,6 +450,15 @@ def main():
         moves_right = moves_by_name[len(moves_by_name) // 2 :]
         (output_dir / "moves" / "index.html").write_text(
             env.get_template("moves/list.html").render(left=moves_left, right=moves_right)
+        )
+
+        del moves_left, moves_right
+
+        tms = [c for c in catalog.tms if not (c.is_tmx or c.is_tutor)]
+        tms_left = tms[:100]
+        tms_right = tms[100:]
+        (output_dir / "moves" / "tms.html").write_text(
+            env.get_template("moves/tms.html").render(left=tms_left, right=tms_right)
         )
 
     built_move_mapping = list(catalog.build_move_mapping().items())

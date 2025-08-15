@@ -1,128 +1,141 @@
+
+
 {%- macro small_sprite(idx, name) -%}
-{% set s_idx = "{:04d}".format(idx) %}
-<img
-        x-idx="{{ s_idx }}"
-        src="/sprites/{{ s_idx }}.png"
-        style="image-rendering: pixelated;"
-        alt="{{ name }}"
-        height="64"
-        width="64"
-        onmouseover="swapWithShinyIcon(this);"
-        onmouseleave="unswapWithShinyIcon(this);"
-        loading="lazy"
->
+    {% set s_idx = "{:04d}".format(idx) %}
+    <img
+            x-idx="{{ s_idx }}"
+            src="/sprites/{{ s_idx }}.png"
+            style="image-rendering: pixelated;"
+            alt="{{ name }}"
+            height="64"
+            width="64"
+            onmouseover="swapWithShinyIcon(this);"
+            onmouseleave="unswapWithShinyIcon(this);"
+            loading="lazy"
+    >
 {%- endmacro -%}
 
 {%- macro small_sprite_obb(obb) -%}
-{{ small_sprite(obb.dex_number, obb.name) }}
+    {{ small_sprite(obb.dex_number, obb.name) }}
 {%- endmacro -%}
 
 {%- macro species_link(obb, form_name=None) -%}
-{% if form_name is not none %}
-<a href="/species/specific/{{ obb.internal_name.lower() }}.html">{{ obb.name }}-{{ form_name }}</a>
-{% else %}
-<a href="/species/specific/{{ obb.internal_name.lower() }}.html">{{ obb.name }}</a>
-{% endif %}
+    {% if form_name is not none %}
+    <a href="/species/specific/{{ obb.internal_name.lower() }}.html">{{ obb.name }}-{{ form_name }}</a>
+    {% else %}
+    <a href="/species/specific/{{ obb.internal_name.lower() }}.html">{{ obb.name }}</a>
+    {% endif %}
 {%- endmacro -%}
 
 {%- macro map_link(id, name=None) -%}
-{% if name is none %}
-{% set name = catalog.maps[id].name %}
-{% endif %}
+    {% if name is none %}
+    {% set name = catalog.maps[id].name %}
+    {% endif %}
 
-<a href="/maps/{{ '{:03d}'.format(id) }}.html"">{{ name }}</a>
+    <a href="/maps/{{ '{:03d}'.format(id) }}.html"">{{ name }}</a>
 {%- endmacro -%}
 
 
 {%- macro base_stat_name(stat) -%}
-{% if stat == "hp" %}
-<abbr title="Hit Points">HP</abbr>
-{% elif stat == "atk" %}
-<abbr title="Physical Attack">Atk</abbr>
-{% elif stat == "def" %}
-<abbr title="Physical Defence">Def</abbr>
-{% elif stat == "spa" %}
-<abbr title="Special Attack">SpA</abbr>
-{% elif stat == "spd" %}
-<abbr title="Special Defence">SpD</abbr>
-{% elif stat == "spe" %}
-<abbr title="Speed">Spe</abbr>
-{% endif %}
+    {% if stat == "hp" %}
+    <abbr title="Hit Points">HP</abbr>
+    {% elif stat == "atk" %}
+    <abbr title="Physical Attack">Atk</abbr>
+    {% elif stat == "def" %}
+    <abbr title="Physical Defence">Def</abbr>
+    {% elif stat == "spa" %}
+    <abbr title="Special Attack">SpA</abbr>
+    {% elif stat == "spd" %}
+    <abbr title="Special Defence">SpD</abbr>
+    {% elif stat == "spe" %}
+    <abbr title="Speed">Spe</abbr>
+    {% endif %}
 {%- endmacro -%}
 
 {%- macro evo_description_for(catalog, from_, into, evo) -%}
-{# todo fix this to use the fucking enum!!! #}
-{% set type = evo.condition.name|lower %}
+    {# todo fix this to use the fucking enum!!! #}
+    {% set type = evo.condition.name|lower %}
 
-{% if type == "happiness" %}
-    {% if evo.parameter %}
-    Evolves when reaching a happiness of at least <b>{{ evo.parameter }}</b>.
+    {% if type == "happiness" %}
+        {% if evo.parameter %}
+        Evolves when reaching a happiness of at least <b>{{ evo.parameter }}</b>.
+        {% else %}
+        Evolves when reaching a happiness of at least <b>220</b>.
+        {% endif %}
+    {% elif type == "happinessday" %}
+    Evolves when reaching a happiness of at least <b>{{ evo.parameter }}</b> during the <i>day</i>.
+    {% elif type == "happinessnight" %}
+    Evolves when reaching a happiness of at least <b>{{ evo.parameter }}</b> during the <i>night</i>.
+    {% elif type == "level" or type == "ninjask" %}
+    Evolves when levelling up at level <b>{{ evo.parameter }}</b> or higher.
+    {% elif type == "levelday" %}
+    Evolves when levelling up at level <b>{{ evo.parameter }}</b> or higher, during the day.
+    {% elif type == "levelnight" %}
+    Evolves when levelling up at level <b>{{ evo.parameter }}</b> or higher, during the night.
+    {% elif type == "trade" %}
+    Evolves when traded, or using a <i>Link Cable</i>.
+    {% elif type == "tradeitem" %}
+    {% set item_name = catalog.item_loc_name(evo.parameter) %}
+    {% set an = get_an_or_a(item_name) %}
+    Evolves when traded (or using a <i>Link Cable</i>) holding {{ an }} <b>{{ item_name }}</b>.
+    {% elif type == "item" %}
+    {% set item_name = catalog.item_loc_name(evo.parameter) %}
+    {% set an = get_an_or_a(item_name) %}
+    Evolves when using {{ an }} <b>{{ item_name }}</b>.
+    {% elif type == "attackgreater" %}
+    Evolves when <abbr title="Physical Attack"><i>Atk</i></abbr> is the larger stat, and at level <b>{{ evo.parameter }}</b>.
+    {% elif type == "defensegreater" %}
+    Evolves when <abbr title="Physical Defence"><i>Def</i></abbr> is the larger stat, and at level <b>{{ evo.parameter }}</b>.
+    {% elif type == "atkdefequal" %}
+    Evolves when <abbr title="Physical Attack"><i>Atk</i></abbr> and <abbr title="Physical Defence"><i>Def</i></abbr>
+    are equal, and at level <b>{{ evo.parameter }}</b>.
+    {% elif type == "silcoon" or type == "cascoon" %}
+    Evolves randomly at level <b>{{ evo.parameter }}</b>.
+    {% elif type == "shedinja" %}
+    When Nincanda evolves, if there is an empty slot in your party and at least one free Pokéball,
+    Shedinja will appear.
+    {% elif type == "beauty" %}
+    It's not known how this Pokémon evolves currently.
+    {% elif type == "itemmale" %}
+    {% set item_name = catalog.item_loc_name(evo.parameter) %}
+    {% set an = get_an_or_a(item_name) %}
+    Evolves when male and using {{ an }} <b>{{ item_name }}</b>.
+    {% elif type == "itemfemale" %}
+    {% set item_name = catalog.item_loc_name(evo.parameter) %}
+    {% set an = get_an_or_a(item_name) %}
+    Evolves when female and using {{ an }} <b>{{ item_name }}</b>.
+    {% elif type == "dayholditem" %}
+    {% set item_name = catalog.item_loc_name(evo.parameter) %}
+    {% set an = get_an_or_a(item_name) %}
+    Evolves when levelled up holding {{ an }} <b>{{ item_name }}</b> during the <i>day</i>.
+    {% elif type == "nightholditem" %}
+    {% set item_name = catalog.item_loc_name(evo.parameter) %}
+    {% set an = get_an_or_a(item_name) %}
+    Evolves when levelled up holding {{ an }} <b>{{ item_name }}</b> during the <i>night</i>.
+    {% elif type == "location" %}
+    {% set loc_id = evo.parameter|int %}
+    {% set loc_name = catalog.maps[loc_id].name %}
+    Evolves at location {{ map_link(loc_id, loc_name) }}
+    {% elif type == "hasmove" %}
+    {% set move_name = catalog.get_move(evo.parameter).display_name %}
+    Evolves when levelled up whilst having the move <b>{{ move_name }}</b>.
     {% else %}
-    Evolves when reaching a happiness of at least <b>220</b>.
+    Unknown evolution <code>{{ type }}</code> (param: <code>{{ evo.parameter }}</code>)
     {% endif %}
-{% elif type == "happinessday" %}
-Evolves when reaching a happiness of at least <b>{{ evo.parameter }}</b> during the <i>day</i>.
-{% elif type == "happinessnight" %}
-Evolves when reaching a happiness of at least <b>{{ evo.parameter }}</b> during the <i>night</i>.
-{% elif type == "level" or type == "ninjask" %}
-Evolves when levelling up at level <b>{{ evo.parameter }}</b> or higher.
-{% elif type == "levelday" %}
-Evolves when levelling up at level <b>{{ evo.parameter }}</b> or higher, during the day.
-{% elif type == "levelnight" %}
-Evolves when levelling up at level <b>{{ evo.parameter }}</b> or higher, during the night.
-{% elif type == "trade" %}
-Evolves when traded, or using a <i>Link Cable</i>.
-{% elif type == "tradeitem" %}
-{% set item_name = catalog.item_loc_name(evo.parameter) %}
-{% set an = get_an_or_a(item_name) %}
-Evolves when traded (or using a <i>Link Cable</i>) holding {{ an }} <b>{{ item_name }}</b>.
-{% elif type == "item" %}
-{% set item_name = catalog.item_loc_name(evo.parameter) %}
-{% set an = get_an_or_a(item_name) %}
-Evolves when using {{ an }} <b>{{ item_name }}</b>.
-{% elif type == "attackgreater" %}
-Evolves when <abbr title="Physical Attack"><i>Atk</i></abbr> is the larger stat, and at level <b>{{ evo.parameter }}</b>.
-{% elif type == "defensegreater" %}
-Evolves when <abbr title="Physical Defence"><i>Def</i></abbr> is the larger stat, and at level <b>{{ evo.parameter }}</b>.
-{% elif type == "atkdefequal" %}
-Evolves when <abbr title="Physical Attack"><i>Atk</i></abbr> and <abbr title="Physical Defence"><i>Def</i></abbr>
-are equal, and at level <b>{{ evo.parameter }}</b>.
-{% elif type == "silcoon" or type == "cascoon" %}
-Evolves randomly at level <b>{{ evo.parameter }}</b>.
-{% elif type == "shedinja" %}
-When Nincanda evolves, if there is an empty slot in your party and at least one free Pokéball,
-Shedinja will appear.
-{% elif type == "beauty" %}
-It's not known how this Pokémon evolves currently.
-{% elif type == "itemmale" %}
-{% set item_name = catalog.item_loc_name(evo.parameter) %}
-{% set an = get_an_or_a(item_name) %}
-Evolves when male and using {{ an }} <b>{{ item_name }}</b>.
-{% elif type == "itemfemale" %}
-{% set item_name = catalog.item_loc_name(evo.parameter) %}
-{% set an = get_an_or_a(item_name) %}
-Evolves when female and using {{ an }} <b>{{ item_name }}</b>.
-{% elif type == "dayholditem" %}
-{% set item_name = catalog.item_loc_name(evo.parameter) %}
-{% set an = get_an_or_a(item_name) %}
-Evolves when levelled up holding {{ an }} <b>{{ item_name }}</b> during the <i>day</i>.
-{% elif type == "nightholditem" %}
-{% set item_name = catalog.item_loc_name(evo.parameter) %}
-{% set an = get_an_or_a(item_name) %}
-Evolves when levelled up holding {{ an }} <b>{{ item_name }}</b> during the <i>night</i>.
-{% elif type == "location" %}
-{% set loc_id = evo.parameter|int %}
-{% set loc_name = catalog.maps[loc_id].name %}
-Evolves at location {{ map_link(loc_id, loc_name) }}
-{% elif type == "hasmove" %}
-{% set move_name = catalog.get_move(evo.parameter).display_name %}
-Evolves when levelled up whilst having the move <b>{{ move_name }}</b>.
-{% else %}
-Unknown evolution <code>{{ type }}</code> (param: <code>{{ evo.parameter }}</code>)
-{% endif %}
 
 {%- endmacro -%}
 
 {%- macro type_link(type) -%}
-<a href="/types/{{ type.name.lower() }}">{{ type.localised_name }}</a>
+    <a href="/types/{{ type.name.lower() }}">{{ type.localised_name }}</a>
+{%- endmacro -%}
+
+{%- macro tm_loc_desc(tm_number) -%}
+    {% set tm_map_info = event_catalog.tm_maps[tm_number] %}
+    {% if tm_map_info is not none %}
+    {% set map_id = tm_map_info[0] %}
+    {% set tm_command = tm_map_info[1] %}
+    {{ map_link(map_id) }} (via {{ tm_command.kind.name.capitalize() }})
+    {% else %}
+    <span style="text-decoration: underline dotted" title="It's currently not known how this TM is acquired.">N/A</span>
+    {% endif%}
 {%- endmacro -%}

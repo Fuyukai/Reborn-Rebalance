@@ -552,6 +552,8 @@ class EssentialsCatalog:
             sorted_tutors = sorted(sp.raw_tutor_moves)
             sp.raw_tutor_moves = sorted_tutors
 
+        self.tms = sorted(self.tms, key=lambda tm: tm.number or 0)
+
     def _validate(self):
         for species in self.species:
             errors: list[Exception] = []
