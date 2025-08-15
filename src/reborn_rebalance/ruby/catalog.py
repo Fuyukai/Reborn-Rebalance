@@ -31,12 +31,12 @@ class EventCatalog:
 
     real_catalog: EssentialsCatalog = attrs.field()
 
-    # raw species -> {map: command}
+    # raw species -> [(map: command)]
     static_encounters: dict[str, list[tuple[int, StaticEncounterCommand]]] = attrs.field(
         factory=lambda: defaultdict(list)
     )
 
-    # TM number -> map
+    # TM number -> [map, command]
     tm_maps: dict[int, tuple[int, ReceivedTechnicalMachineCommand]] = attrs.field(  # pyright: ignore[reportUnknownVariableType]
         factory=dict,
     )
@@ -59,16 +59,19 @@ class EventCatalog:
 
                     elif isinstance(event, ReceivedTechnicalMachineCommand):
                         # this one is a bit harder due to how stupid reborn's events are
-                        item = catalogue.item_mapping[event.item_name]
-                        tm_match = TM_NUMBER_REGEXP.match(item.display_name)
-                        if not tm_match:
-                            # wtf?
-                            continue
+                        # do a reverse lookup from the item id to the item name instead!
 
-                        if item.display_name.startswith("TMX"):
-                            continue
+                        for item_name in event.items:
+                            item = catalogue.item_mapping[item_name]
+                            tm_match = TM_NUMBER_REGEXP.match(item.display_name)
+                            if not tm_match:
+                                # wtf?
+                                continue
 
-                        tm_number = int(tm_match.groups()[1])
-                        instance.tm_maps[tm_number] = (int(map_name), event)
+                            if item.display_name.startswith("TMX"):
+                                continue
+
+                            tm_number = int(tm_match.groups()[1])
+                            instance.tm_maps[tm_number] = (int(map_name), event)
 
         return instance

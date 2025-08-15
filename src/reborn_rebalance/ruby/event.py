@@ -24,6 +24,9 @@ EVENT_ADD_MATCH = re.compile(
 EGG_MATCH = re.compile(r"pbGenerateEgg\(:(?P<species>[a-zA-Z]+)\)")
 TRADE_MATCH = re.compile(r"pbStartTrade\(.*,[\s]*PBSpecies::(?P<species>[a-zA-Z]+)")
 
+POKEMART_MATCH = re.compile(r"pbPokemonMart\(\[(.*PBItems::TM.*)\]\)", re.DOTALL)
+INNER_TM_MATCH = re.compile(r"PBItems::(TM\d{0,3})")
+
 
 @attrs.define(kw_only=True)
 class PickedEventCommand:
@@ -102,15 +105,21 @@ def unwrap_scripts(page: RubyEventPage, start_idx: int) -> str:
     return full_script.rstrip()
 
 
+class ReceivedTmKind(enum.Enum):
+    ITEM = 0
+    EVENT = 1
+    VENDOR = 2
+
+
 @attrs.define(kw_only=True)
 class ReceivedTechnicalMachineCommand(PickedEventCommand):
     """
     Picks out receiving a TM from the event stream.
     """
 
-    map: RubyRpgMap
-    is_given: bool = attrs.field()
-    item_name: str = attrs.field()
+    map: RubyRpgMap = attrs.field()
+    kind: ReceivedTmKind = attrs.field()
+    items: list[str] = attrs.field()
 
     @classmethod
     def pick(
@@ -118,16 +127,24 @@ class ReceivedTechnicalMachineCommand(PickedEventCommand):
     ) -> ReceivedTechnicalMachineCommand | None:
         script = unwrap_scripts(event.pages[page_idx], command_idx)
 
-        if (matched := TM_MATCH.search(script)) is None:
+        if (matched := POKEMART_MATCH.search(script)) is not None:
+            items: list[str] = INNER_TM_MATCH.findall(matched.group(1))
+            kind = ReceivedTmKind.VENDOR
+
+        elif (matched := TM_MATCH.search(script)) is not None:
+            raw_type, number = matched.groups()
+            items = ["TM" + number]
+            kind = ReceivedTmKind.ITEM if raw_type == "pbItemBall" else ReceivedTmKind.EVENT
+
+        else:
             return None
 
-        type, number = matched.groups()
         return ReceivedTechnicalMachineCommand(
             map=map,
             event=event,
             page=event.pages[page_idx],
-            is_given=type != "pbItemBall",
-            item_name="TM" + number,
+            kind=kind,
+            items=items,
         )
 
 

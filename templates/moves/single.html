@@ -1,5 +1,5 @@
 {% extends "_meta/_root.html" %}
-{% from "helpers.html" import small_sprite, small_sprite_obb, species_link %}
+{% from "helpers.html" import small_sprite, small_sprite_obb, species_link, map_link %}
 
 {% set tm_number = catalog.tm_id_for(move.internal_name) %}
 {% set is_tutor = move.internal_name in catalog.tutor_moves %}
@@ -46,6 +46,21 @@
                     <td class="is-danger has-text-centered">No</td>
                     {% endif %}
                 </tr>
+                {% if tm_number is not none %}
+                {% set tm_map_info = event_catalog.tm_maps.get(tm_number) %}
+                <tr>
+                    <td class="has-text-centered">Found on map</td>
+                    {% if tm_map_info is not none %}
+                    {% set map_id = tm_map_info[0] %}
+                    {% set tm_command = tm_map_info[1] %}
+                    <td class="has-text-centered">{{ map_link(map_id) }} (via {{ tm_command.kind.name.capitalize() }})</td>
+                    {% else %}
+                    <td class="has-text-centered">
+                        <span style="text-decoration: underline dotted" title="It's currently not known how this TM is acquired.">N/A</span>
+                    </td>
+                    {% endif %}
+                </tr>
+                {% endif %}
             </tbody>
         </table>
     </div>
