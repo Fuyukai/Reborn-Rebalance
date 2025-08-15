@@ -1,0 +1,50 @@
+{% extends "_meta/_root.html" %}
+
+{% block title %}Walkthrough Index{% endblock %}
+
+{% block content %}
+<section class="section">
+<div class="container">
+<div class="columns is-centered">
+    <div class="column is-three-quarters">
+    <div class="content">
+        <h2 class="title">Walkthrough Index</h2>
+
+        <p>
+            This is an index of all the walkthrough chapters including their chapter number. When
+            a walkthrough refers to a chapter by number, you can consult this table for which
+            chapter is actually meant.
+        </p>
+    </div>
+
+    {% set ns = namespace(walkthru_chap_count=0) %}
+
+    {% for group in navbar_walkthroughs %}
+        <h3 class="subtitle">{{ group.name }}</h3>
+        
+        <table class="table is-bordered is-fullwidth">
+            <thead>
+                <tr>
+                    <th>Chapter #</th>
+                    <th>Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for iname, name in group.chapters %}
+                <tr>
+                    <td>{{ "{:02}".format(ns.walkthru_chap_count) }}</td>
+                    <td>
+                        <a href="/walkthroughs/{{ iname }}.html">{{ name }}</a>
+                    </td>
+                </tr>
+                {% set ns.walkthru_chap_count = ns.walkthru_chap_count + 1 %}
+                {% endfor %}
+            </tbody>
+        </table>
+    {% endfor %}
+    </div>
+</div>
+    
+</div>
+</section>
+{% endblock %}

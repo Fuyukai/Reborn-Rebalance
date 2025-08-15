@@ -5,6 +5,7 @@ import re
 from collections.abc import Callable, Iterator
 
 import attrs
+import structlog
 from rgss import RubyEventPage, RubyRpgEvent, RubyRpgMap
 from rgss.rpg.commands import (
     ConditionalBranchCommand,
@@ -26,6 +27,8 @@ TRADE_MATCH = re.compile(r"pbStartTrade\(.*,[\s]*PBSpecies::(?P<species>[a-zA-Z]
 
 POKEMART_MATCH = re.compile(r"pbPokemonMart\(\[(.*PBItems::TM.*)\]\)", re.DOTALL)
 INNER_TM_MATCH = re.compile(r"PBItems::(TM\d{0,3})")
+
+logger: structlog.stdlib.BoundLogger = structlog.get_logger(__name__)
 
 
 @attrs.define(kw_only=True)
@@ -60,6 +63,9 @@ class EventStream:
                 for picker in self.pickers:
                     result = picker(map, evt, idx, cmd_idx)
                     if result is not None:
+                        logger.info(
+                            "pick-map-event", evt=evt.name, page=idx, type_=type(result).__name__
+                        )
                         yield result
 
     def pick_events(self, map: RubyRpgMap) -> Iterator[PickedEventCommand]:
@@ -138,7 +144,7 @@ class ReceivedTechnicalMachineCommand(PickedEventCommand):
 
         else:
             return None
-        
+
         return ReceivedTechnicalMachineCommand(
             map=map,
             event=event,
