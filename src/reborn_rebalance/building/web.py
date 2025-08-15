@@ -465,6 +465,13 @@ def main():
             env.get_template("moves/tms.html").render(left=tms_left, right=tms_right)
         )
 
+        tutor_moves = [catalog.move_mapping[c.move] for c in catalog.tms if c.is_tutor]
+        tutors_left = tutor_moves[: len(tutor_moves) // 2]
+        tutors_right = tutor_moves[len(tutor_moves) // 2 :]
+        (output_dir / "moves" / "tutor.html").write_text(
+            env.get_template("moves/tutor.html").render(left=tutors_left, right=tutors_right)
+        )
+
     built_move_mapping = list(catalog.build_move_mapping().items())
 
     p = Progress(console=console)

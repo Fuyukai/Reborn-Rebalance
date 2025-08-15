@@ -51,6 +51,18 @@
                     <td class="has-text-centered">Found on map</td>
                     <td class="has-text-centered">{{ tm_loc_desc(tm_number) }}</td>
                 </tr>
+                {% elif is_tutor %}
+                {% set tutor_map_info = event_catalog.tutor_maps.get(move.internal_name) %}
+                <tr>
+                    <td class="has-text-centered">Tutored on map</td>
+                    <td class="has-text-centered">
+                        {% if tutor_map_info is none %}
+                            <span style="text-decoration: underline dotted" title="It's currently not known how this move is acquired.">???</span>
+                        {% else %}
+                            {{ map_link(tutor_map_info[0]) }}
+                        {% endif %}
+                    </td>
+                </tr>
                 {% endif %}
             </tbody>
         </table>
@@ -110,6 +122,10 @@
                 {{ move.secondary_effect_chance }}%
                 {% endif %}
             </td>
+        </tr>
+        <tr>
+            <td class="has-text-centered">Priority</td>
+            <td class="has-text-centered">{{ move.priority }}</td>
         </tr>
     </table>
 </div>

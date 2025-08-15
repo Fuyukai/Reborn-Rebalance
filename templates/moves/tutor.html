@@ -1,0 +1,66 @@
+{% extends "_meta/_root.html" %}
+{% from "helpers.html" import map_link %}
+
+{%- macro render_tutor_table(moves) -%}
+<table class="table is-fullwidth is-bordered">
+    <thead>
+        <tr>
+            <th class="has-text-centered">Move</th>
+            <th class="has-text-centered">Type</th>
+            <th class="has-text-centered">Location</th>
+        </tr>
+    </thead>
+
+    <tbody>
+    {% for move in moves %}
+        {% set tutor_map_info = event_catalog.tutor_maps.get(move.internal_name) %}
+
+        <tr>
+            <td class="has-text-centered">
+                <a href="/moves/{{ move.internal_name.lower() }}.html">
+                    {{ move.display_name }}
+                </a>
+            </td>
+            <td class="has-text-centered bg-{{ move.type.name.lower() }}">
+                <span class="auto-light-dark">{{ move.type.name.capitalize() }}</span>
+            </td>
+            <td class="has-text-centered">
+                {% if tutor_map_info is none %}
+                    <span style="text-decoration: underline dotted" title="It's currently not known how this move is acquired.">???</span>
+                {% else %}
+                    {{ map_link(tutor_map_info[0]) }}
+                {% endif %}
+            </td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+{%- endmacro -%}
+
+{% block title %} All tutor moves {% endblock %}
+
+{% block content %}
+<section class="section">
+<div class="container">
+    <div class="columns is-centered">
+        <div class="column is-6">
+            <div class="content">
+                <h1 class="title has-text-centered">Tutor Move List</h1>
+                <p class="has-text-centered">
+                    Click on a move's name to see its full details page, including who learns it.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="columns is-centered">
+        <div class="column is-one-half">
+            {{ render_tutor_table(left) }}
+        </div>
+        <div class="column is-one-half">
+            {{ render_tutor_table(right) }}
+        </div>
+    </div>
+</div>
+</section>
+{% endblock %}

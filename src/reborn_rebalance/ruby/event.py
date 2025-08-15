@@ -3,6 +3,7 @@ from __future__ import annotations
 import enum
 import re
 from collections.abc import Callable, Iterator
+from typing import Any, override
 
 import attrs
 import structlog
@@ -24,6 +25,7 @@ EVENT_ADD_MATCH = re.compile(
 )
 EGG_MATCH = re.compile(r"pbGenerateEgg\(:(?P<species>[a-zA-Z]+)\)")
 TRADE_MATCH = re.compile(r"pbStartTrade\(.*,[\s]*PBSpecies::(?P<species>[a-zA-Z]+)")
+TUTOR_MOVE_MATCH = re.compile(r"checkTutorMove\(PBMoves::([A-Z]+)\)")
 
 POKEMART_MATCH = re.compile(r"pbPokemonMart\(\[(.*PBItems::TM.*)\]\)", re.DOTALL)
 INNER_TM_MATCH = re.compile(r"PBItems::(TM\d{0,3})")
@@ -42,6 +44,11 @@ class PickedEventCommand:
 
     #: The event page the picked out command is contained within.
     page: RubyEventPage = attrs.field()
+
+    def logging_fields(self) -> dict[str, Any]:
+        return {
+            "evt_id": str(self.event.id),
+        }
 
 
 type EventPicker = Callable[[RubyRpgMap, RubyRpgEvent, int, int], PickedEventCommand | None]
@@ -64,7 +71,10 @@ class EventStream:
                     result = picker(map, evt, idx, cmd_idx)
                     if result is not None:
                         logger.info(
-                            "pick-map-event", evt=evt.name, page=idx, type_=type(result).__name__
+                            "pick-map-event",
+                            page=idx,
+                            type_=type(result).__name__,
+                            **result.logging_fields(),
                         )
                         yield result
 
@@ -153,6 +163,40 @@ class ReceivedTechnicalMachineCommand(PickedEventCommand):
             items=items,
         )
 
+    @override
+    def logging_fields(self):
+        return {**super().logging_fields(), "kind": self.kind.name, "items": self.items}
+
+
+@attrs.define(kw_only=True)
+class TutorMoveCommand(PickedEventCommand):
+    """
+    Picks out receiving a tutor move from the event stream.
+    """
+
+    map: RubyRpgMap = attrs.field()
+    move: str = attrs.field()
+
+    @classmethod
+    def pick(
+        cls, map: RubyRpgMap, event: RubyRpgEvent, page_idx: int, command_idx: int
+    ) -> TutorMoveCommand | None:
+        script = unwrap_scripts(event.pages[page_idx], command_idx)
+
+        if matches := TUTOR_MOVE_MATCH.search(script):
+            return TutorMoveCommand(
+                event=event, page=event.pages[page_idx], map=map, move=matches.group(1)
+            )
+
+        return None
+
+    @override
+    def logging_fields(self):
+        return {
+            **super().logging_fields(),
+            "move": self.move,
+        }
+
 
 class StaticEncounterType(enum.Enum):
     OVERWORLD_WILD = 0
@@ -206,10 +250,19 @@ class StaticEncounterCommand(PickedEventCommand):
             level=int(level),
         )
 
+    @override
+    def logging_fields(self):
+        return {
+            **super().logging_fields(),
+            "species": self.raw_species_name,
+            "level": self.level,
+        }
+
 
 EVENT_PICKER = EventStream(
     pickers=[
         ReceivedTechnicalMachineCommand.pick,
         StaticEncounterCommand.pick,
+        TutorMoveCommand.pick,
     ]
 )

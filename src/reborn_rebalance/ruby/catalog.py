@@ -15,6 +15,7 @@ from reborn_rebalance.ruby.event import (
     PickedEventCommand,
     ReceivedTechnicalMachineCommand,
     StaticEncounterCommand,
+    TutorMoveCommand,
 )
 
 
@@ -39,6 +40,9 @@ class EventCatalog:
         factory=dict,
     )
 
+    # Tutor move -> (map, command)
+    tutor_maps: dict[str, tuple[int, TutorMoveCommand]] = attrs.field(factory=lambda: {})
+
     @classmethod
     def empty(cls) -> EventCatalog:
         return EventCatalog()
@@ -49,13 +53,14 @@ class EventCatalog:
             i for i in (project_dir / "Data").glob("Map**.rxdata") if i.name != "MapInfos.rxdata"
         ]
         instance = EventCatalog()
-
         with ProcessPoolExecutor() as executor:
             for map_name, processed_map in executor.map(eager_process_map, map_files):
+                map_number = int(map_name)
+
                 for event in processed_map:
                     if isinstance(event, StaticEncounterCommand):
                         instance.static_encounters[event.raw_species_name].append((
-                            int(map_name),
+                            map_number,
                             event,
                         ))
 
@@ -74,6 +79,9 @@ class EventCatalog:
                                 continue
 
                             tm_number = int(tm_match.groups()[1])
-                            instance.tm_maps[tm_number] = (int(map_name), event)
+                            instance.tm_maps[tm_number] = (map_number, event)
+
+                    elif isinstance(event, TutorMoveCommand):
+                        instance.tutor_maps[event.move] = (map_number, event)
 
         return instance
