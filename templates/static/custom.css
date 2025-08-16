@@ -1,4 +1,11 @@
-@import url("https://fonts.googleapis.com/css?family=Overpass+Mono|Cabin|Quicksand&display=swap");
+
+@font-face {
+    font-display: swap;
+    font-family: 'B612';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/static/b612-v12-latin-regular.woff2') format('woff2'); 
+}
 
 h1,
 h2,
@@ -6,7 +13,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Cabin";
+  font-family: "B612";
 }
 
 body,
@@ -15,8 +22,9 @@ li,
 strong,
 em,
 a {
-  font-family: "Cabin" !important;
+  font-family: "B612" !important;
 }
+
 
 hr {
   background-color: #afafaf;
