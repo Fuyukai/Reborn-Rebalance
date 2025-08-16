@@ -12,7 +12,7 @@
 {% set prefix = catalog.trainer_types[klass].name_prefix %}
 {% endif %}
 
-<details>
+<details data-trainer-name="{{ name }}" data-trainer-klass="{{ klass }}" data-trainer-id="{{ id }}">
     <summary class="has-text-centered">
         {{ prefix }} {{ trainer.battler_name }}
     </summary>
