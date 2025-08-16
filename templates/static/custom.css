@@ -346,6 +346,12 @@ td.no-border {
   margin-right: auto;
 }
 
+.walkthrough .content {
+    div.notification > p {
+        max-width: 100%;
+    }
+}
+
 .walkthrough-hero {
   padding-bottom: 1rem;
 }
