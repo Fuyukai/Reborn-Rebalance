@@ -1,5 +1,5 @@
 {% extends "_meta/_root.html" %}
-{% from "helpers.html" import map_link %}
+{% from "helpers.html" import map_name_neo %}
 
 {%- macro render_tutor_table(moves) -%}
 <table class="table is-fullwidth is-bordered">
@@ -28,7 +28,7 @@
                 {% if tutor_map_info is none %}
                     <span style="text-decoration: underline dotted" title="It's currently not known how this move is acquired.">???</span>
                 {% else %}
-                    {{ map_link(tutor_map_info[0]) }}
+                    {{ map_name_neo(tutor_map_info[0]) }}
                 {% endif %}
             </td>
         </tr>

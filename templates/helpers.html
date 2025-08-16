@@ -129,12 +129,22 @@
     <a href="/types/{{ type.name.lower() }}">{{ type.localised_name }}</a>
 {%- endmacro -%}
 
+{%- macro map_name_neo(id) %}
+{% set name = catalog.maps[id].name %}
+{% if name.endswith("Ward") and id > 400 %}
+{{ map_link(id, "Neo " + name)}}
+{% else %}
+{{ map_link(id, name) }}
+{% endif %}
+{%- endmacro -%}
+
+
 {%- macro tm_loc_desc(tm_number) -%}
     {% set tm_map_info = event_catalog.tm_maps[tm_number] %}
     {% if tm_map_info is not none %}
     {% set map_id = tm_map_info[0] %}
     {% set tm_command = tm_map_info[1] %}
-    {{ map_link(map_id) }} (via {{ tm_command.kind.name.capitalize() }})
+    {{ map_name_neo(map_id) }} (via {{ tm_command.kind.name.capitalize() }})
     {% else %}
     <span style="text-decoration: underline dotted" title="It's currently not known how this TM is acquired.">N/A</span>
     {% endif%}
