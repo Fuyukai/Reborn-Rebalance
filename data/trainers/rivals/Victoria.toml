@@ -33,17 +33,19 @@ raw_battle_items = [
 ]
 
 [[trainers.Victoria.1.pokemon]]
-internal_name = "RALTS"
-level = 18
+internal_name = "KIRLIA"
+level = 23
 raw_item = "WISEGLASSES"
 raw_moves = [
     "MAGICALLEAF",
     "CONFUSION",
     "DISARMINGVOICE",
-    "DOUBLETEAM",
+    "DRAININGKISS",
 ]
 nature = ""
 iv = 31
+sex = "M"
+ability_number = 1
 
 [trainers.Victoria.1.pokemon.evs]
 hp = 0
@@ -55,7 +57,7 @@ spe = 0
 
 [[trainers.Victoria.1.pokemon]]
 internal_name = "PICHU"
-level = 18
+level = 23
 raw_item = "EVIOLITE"
 raw_moves = [
     "SWEETKISS",
@@ -77,9 +79,9 @@ spe = 0
 
 [[trainers.Victoria.1.pokemon]]
 internal_name = "KUBFU"
-level = 19
+level = 24
 raw_moves = [
-    "LOWSWEEP",
+    "BRICKBREAK",
     "BULKUP",
     "AERIALACE",
     "HEADBUTT",
@@ -96,7 +98,7 @@ spe = 0
 
 [[trainers.Victoria.1.pokemon]]
 internal_name = "TORRACAT"
-level = 19
+level = 25
 raw_moves = [
     "FLAMECHARGE",
     "DUALCHOP",
