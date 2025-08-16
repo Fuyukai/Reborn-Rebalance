@@ -9,7 +9,7 @@ raw_battle_items = [
 
 [[trainers.Hotshot.0.pokemon]]
 internal_name = "CAPSAKID"
-level = 13
+level = 14
 raw_item = "ORANBERRY"
 raw_moves = [
     "BULLETSEED",
@@ -29,7 +29,7 @@ spe = 0
 
 [[trainers.Hotshot.0.pokemon]]
 internal_name = "SNEASEL"
-level = 13
+level = 14
 raw_item = "ORANBERRY"
 raw_moves = [
     "QUICKATTACK",
@@ -51,7 +51,7 @@ spe = 0
 
 [[trainers.Hotshot.0.pokemon]]
 internal_name = "ROWLET"
-level = 14
+level = 15
 raw_moves = [
     "LEAFAGE",
     "PECK",
@@ -241,17 +241,15 @@ battler_id = 3
 raw_battle_items = []
 
 [[trainers.Hotshot.3.pokemon]]
-internal_name = "BUDEW"
-level = 13
+internal_name = "CAPSAKID"
+level = 14
 raw_item = "ORANBERRY"
 raw_moves = [
-    "MEGADRAIN",
-    "NATURALGIFT",
-    "STUNSPORE",
-    "COVET",
+    "BULLETSEED",
+    "LEECHSEED",
+    "BITE",
+    "SUNNYDAY",
 ]
-ability_number = 1
-sex = "F"
 nature = ""
 
 [trainers.Hotshot.3.pokemon.evs]
@@ -263,15 +261,17 @@ spd = 0
 spe = 0
 
 [[trainers.Hotshot.3.pokemon]]
-internal_name = "SANDILE"
-level = 13
+internal_name = "SNEASEL"
+level = 15
+raw_item = "ORANBERRY"
 raw_moves = [
-    "POWERTRIP",
-    "SNATCH",
+    "QUICKATTACK",
+    "ROCKSMASH",
     "BITE",
-    "SANDTOMB",
+    "FAKEOUT",
 ]
-ability_number = 1
+ability_number = 2
+form_number = 1
 nature = ""
 
 [trainers.Hotshot.3.pokemon.evs]
