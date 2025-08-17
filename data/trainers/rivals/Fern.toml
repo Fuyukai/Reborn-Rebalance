@@ -131,7 +131,27 @@ raw_moves = [
     "NATUREPOWER",
 ]
 nature = "BASHFUL"
-iv = 28
+iv = 31
+
+[trainers.Hotshot.1.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.Hotshot.1.pokemon]]
+internal_name = "SANDILE"
+level = 25
+raw_moves = [
+    "SCORCHINGSANDS",
+    "BITE",
+    "SPITE",
+    "LASHOUT"
+]
+nature = "JOLLY"
+iv = 31
 
 [trainers.Hotshot.1.pokemon.evs]
 hp = 0
