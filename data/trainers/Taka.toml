@@ -8,16 +8,18 @@ raw_battle_items = [
 ]
 
 [[trainers.Taka.0.pokemon]]
-internal_name = "EXEGGCUTE"
-level = 30
+internal_name = "EXEGGUTOR"
+level = 35
 raw_moves = [
     "POISONPOWDER",
     "LEECHSEED",
     "BARRAGE",
-    "BULLETSEED",
+    "WOODHAMMER",
 ]
 ability_number = 1
-nature = ""
+form_number = 1
+raw_item = "SITRUSBERRY"
+nature = "JOLLY"
 iv = 31
 
 [trainers.Taka.0.pokemon.evs]
@@ -29,8 +31,29 @@ spd = 0
 spe = 0
 
 [[trainers.Taka.0.pokemon]]
+internal_name = "MASCHIFF"
+level = 34
+raw_item = "ORANBERRY"
+raw_moves = [
+    "ENDEAVOR",
+    "BITE",
+    "THUNDERFANG",
+    "HELPINGHAND",
+]
+nature = "ADAMANT"
+iv = 30
+
+[trainers.Taka.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.Taka.0.pokemon]]
 internal_name = "CHATOT"
-level = 32
+level = 34
 raw_item = "WIDELENS"
 raw_moves = [
     "SING",
@@ -51,7 +74,7 @@ spe = 0
 
 [[trainers.Taka.0.pokemon]]
 internal_name = "TANGROWTH"
-level = 30
+level = 33
 raw_item = "ORANBERRY"
 raw_moves = [
     "LEECHSEED",
