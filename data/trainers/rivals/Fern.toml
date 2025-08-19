@@ -172,7 +172,7 @@ raw_battle_items = [
 
 [[trainers.Hotshot.2.pokemon]]
 internal_name = "RHYHORN"
-level = 30
+level = 35
 raw_moves = [
     "BULLDOZE",
     "ROCKBLAST",
@@ -181,7 +181,29 @@ raw_moves = [
 ]
 ability_number = 2
 nature = "BRAVE"
-iv = 20
+iv = 31
+
+[trainers.Hotshot.2.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.Hotshot.2.pokemon]]
+internal_name = "SCOVILLAIN"
+level = 35
+raw_item = "LOADEDDICE"
+raw_moves = [
+    "BULLETSEED",
+    "CRUNCH",
+    "ZENHEADBUTT",
+    "FIREFANG",
+]
+ability_number = 2
+nature = "JOLLY"
+iv = 31
 
 [trainers.Hotshot.2.pokemon.evs]
 hp = 0
@@ -193,16 +215,16 @@ spe = 0
 
 [[trainers.Hotshot.2.pokemon]]
 internal_name = "KROKOROK"
-level = 31
+level = 35
 raw_moves = [
-    "DIG",
+    "SCORCHINGSANDS",
     "SMACKDOWN",
     "CRUNCH",
     "FIREFANG",
 ]
 ability_number = 1
 nature = "ADAMANT"
-iv = 25
+iv = 31
 
 [trainers.Hotshot.2.pokemon.evs]
 hp = 0
@@ -213,8 +235,8 @@ spd = 0
 spe = 0
 
 [[trainers.Hotshot.2.pokemon]]
-internal_name = "DARTRIX"
-level = 32
+internal_name = "DECIDUEYE"
+level = 34
 raw_moves = [
     "SYNTHESIS",
     "PLUCK",
@@ -235,7 +257,7 @@ spe = 0
 
 [[trainers.Hotshot.2.pokemon]]
 internal_name = "SNEASLER"
-level = 34
+level = 35
 raw_moves = [
     "CROSSPOISON",
     "LOWSWEEP",
@@ -244,7 +266,28 @@ raw_moves = [
 ]
 ability_number = 2
 nature = "ADAMANT"
-iv = 25
+iv = 31
+
+[trainers.Hotshot.2.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.Hotshot.2.pokemon]]
+internal_name = "DEWOTT"
+level = 35
+raw_moves = [
+    "DRILLRUN",
+    "RAZORSHELL",
+    "ASSURANCE",
+    "KNOCKOFF",
+]
+ability_number = 2
+nature = "ADAMANT"
+iv = 32
 
 [trainers.Hotshot.2.pokemon.evs]
 hp = 0
