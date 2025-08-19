@@ -125,13 +125,13 @@ battler_id = 2
 raw_battle_items = []
 
 [[trainers.Victoria.2.pokemon]]
-internal_name = "TORRACAT"
-level = 33
+internal_name = "INCINEROAR"
+level = 35
 raw_moves = [
-    "BITE",
-    "FIREFANG",
+    "CRUNCH",
+    "BLAZEKICK",
     "DOUBLEKICK",
-    "LICK",
+    "THUNDERPUNCH",
 ]
 ability_number = 1
 sex = "F"
@@ -148,7 +148,7 @@ spe = 0
 
 [[trainers.Victoria.2.pokemon]]
 internal_name = "KUBFU"
-level = 30
+level = 35
 raw_item = "EXPERTBELT"
 raw_moves = [
     "BRICKBREAK",
@@ -169,7 +169,7 @@ spe = 0
 
 [[trainers.Victoria.2.pokemon]]
 internal_name = "KIRLIA"
-level = 31
+level = 35
 raw_moves = [
     "DOUBLETEAM",
     "MAGICALLEAF",
@@ -190,7 +190,7 @@ spe = 0
 
 [[trainers.Victoria.2.pokemon]]
 internal_name = "PIKACHU"
-level = 32
+level = 35
 raw_item = "LIGHTBALL"
 raw_moves = [
     "NUZZLE",
@@ -201,6 +201,29 @@ raw_moves = [
 ability_number = 1
 sex = "F"
 nature = ""
+
+[trainers.Victoria.2.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.Victoria.2.pokemon]]
+internal_name = "MIENFOO"
+level = 41
+raw_item = "MUSCLEBAND"
+raw_moves = [
+    "DRAINPUNCH",
+    "FAKEOUT",
+    "MEDITATE",
+    "ROCKTOMB",
+]
+ability_number = 1
+sex = "F"
+nature = "ADAMANT"
+iv = 30
 
 [trainers.Victoria.2.pokemon.evs]
 hp = 0
@@ -220,8 +243,52 @@ raw_battle_items = [
 ]
 
 [[trainers.Victoria.3.pokemon]]
+internal_name = "INCINEROAR"
+level = 35
+raw_moves = [
+    "CRUNCH",
+    "BLAZEKICK",
+    "DOUBLEKICK",
+    "THUNDERPUNCH",
+]
+ability_number = 1
+sex = "F"
+nature = ""
+iv = 31
+
+[trainers.Victoria.3.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.Victoria.3.pokemon]]
+internal_name = "LURANTIS"
+level = 34
+raw_moves = [
+    "LEAFBLADE",
+    "SYNTHESIS",
+    "BRICKBREAK",
+    "DUALCHOP",
+]
+ability_number = 2
+sex = "F"
+nature = "ADAMANT"
+iv = 31
+
+[trainers.Victoria.3.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.Victoria.3.pokemon]]
 internal_name = "KUBFU"
-level = 30
+level = 35
 raw_item = "EXPERTBELT"
 raw_moves = [
     "BRICKBREAK",
@@ -242,7 +309,7 @@ spe = 0
 
 [[trainers.Victoria.3.pokemon]]
 internal_name = "KIRLIA"
-level = 31
+level = 35
 raw_moves = [
     "DOUBLETEAM",
     "MAGICALLEAF",
@@ -263,7 +330,7 @@ spe = 0
 
 [[trainers.Victoria.3.pokemon]]
 internal_name = "PIKACHU"
-level = 32
+level = 35
 raw_item = "LIGHTBALL"
 raw_moves = [
     "NUZZLE",
@@ -284,13 +351,14 @@ spd = 0
 spe = 0
 
 [[trainers.Victoria.3.pokemon]]
-internal_name = "TORRACAT"
-level = 33
+internal_name = "MIENFOO"
+level = 35
+raw_item = "MUSCLEBAND"
 raw_moves = [
-    "BITE",
-    "FIREFANG",
-    "DOUBLEKICK",
-    "LICK",
+    "DRAINPUNCH",
+    "FAKEOUT",
+    "MEDITATE",
+    "ROCKTOMB",
 ]
 ability_number = 1
 sex = "F"

@@ -37,7 +37,7 @@ raw_battle_items = [
 
 [[trainers.AsterKnight.2.pokemon]]
 internal_name = "SOLROCK"
-level = 30
+level = 35
 raw_moves = [
     "ROCKPOLISH",
     "PSYWAVE",
@@ -45,6 +45,7 @@ raw_moves = [
     "ROCKSLIDE",
 ]
 nature = ""
+iv = 31
 
 [trainers.AsterKnight.2.pokemon.evs]
 hp = 0
@@ -56,7 +57,7 @@ spe = 0
 
 [[trainers.AsterKnight.2.pokemon]]
 internal_name = "LYCANROC"
-level = 32
+level = 35
 raw_moves = [
     "THUNDERFANG",
     "ROCKTOMB",
@@ -75,6 +76,29 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
+
+
+[[trainers.AsterKnight.2.pokemon]]
+internal_name = "KROKOROK"
+level = 35
+raw_item = "MUSCLEBAND"
+raw_moves = [
+    "SCORCHINGSANDS",
+    "SUCKERPUNCH",
+    "ROCKSLIDE",
+    "FOULPLAY",
+]
+nature = "ADAMANT"
+iv = 31
+
+[trainers.AsterKnight.2.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
 
 [trainers.AsterKnight.3]
 raw_trainer_class = "AsterKnight"
