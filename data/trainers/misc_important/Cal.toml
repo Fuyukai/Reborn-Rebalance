@@ -7,7 +7,7 @@ raw_battle_items = []
 
 [[trainers.OLDCAL.0.pokemon]]
 internal_name = "TORKOAL"
-level = 30
+level = 35
 raw_item = "HEATROCK"
 raw_moves = [
     "STEALTHROCK",
@@ -29,7 +29,7 @@ spe = 0
 
 [[trainers.OLDCAL.0.pokemon]]
 internal_name = "HOUNDOOM"
-level = 31
+level = 35
 raw_moves = [
     "INFERNO",
     "BEATUP",
@@ -50,7 +50,7 @@ spe = 0
 
 [[trainers.OLDCAL.0.pokemon]]
 internal_name = "QUILAVA"
-level = 32
+level = 35
 raw_moves = [
     "NATUREPOWER",
     "INCINERATE",
@@ -69,16 +69,17 @@ spd = 0
 spe = 0
 
 [[trainers.OLDCAL.0.pokemon]]
-internal_name = "CHARMELEON"
-level = 33
+internal_name = "MONFERNO"
+level = 35
 raw_moves = [
-    "FLAMEBURST",
-    "DRAGONRAGE",
-    "MEGAPUNCH",
-    "SMOKESCREEN",
+    "MACHPUNCH",
+    "FIREPUNCH",
+    "FAKEOUT",
+    "THUNDERPUNCH",
 ]
 nature = "SERIOUS"
-iv = 20
+ability_number = 2
+iv = 31
 
 [trainers.OLDCAL.0.pokemon.evs]
 hp = 0
@@ -90,7 +91,7 @@ spe = 0
 
 [[trainers.OLDCAL.0.pokemon]]
 internal_name = "MAGMORTAR"
-level = 34
+level = 35
 raw_item = "ORANBERRY"
 raw_moves = [
     "MACHPUNCH",
@@ -99,6 +100,27 @@ raw_moves = [
     "FIREPUNCH",
 ]
 nature = "ADAMANT"
+iv = 31
+
+[trainers.OLDCAL.0.pokemon.evs]
+hp = 0
+atk = 0
+def_ = 0
+spa = 0
+spd = 0
+spe = 0
+
+[[trainers.OLDCAL.0.pokemon]]
+internal_name = "CENTISKORCH"
+level = 35
+raw_moves = [
+    "KNOCKOFF",
+    "FLAMEWHEEL",
+    "SCORCHINGSANDS",
+    "STRUGGLEBUG"
+]
+nature = "BASHFUL"
+ability_number = 1
 iv = 31
 
 [trainers.OLDCAL.0.pokemon.evs]
