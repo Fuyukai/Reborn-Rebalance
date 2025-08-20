@@ -90,7 +90,7 @@
 </section>
 
 <script>
-    adjustChanges = (typ, evt) => {
+    const adjustChanges = (typ, evt) => {
         document.querySelectorAll(`tr[data-tm-kind="${typ}"]`).forEach((it) => {
             if (evt.target.checked) {
                 it.classList.remove("is-hidden");

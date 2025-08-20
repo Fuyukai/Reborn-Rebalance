@@ -37,7 +37,7 @@
         {% set type_2_name = species.secondary_type.localised_name %}
         {% endif %}
 
-        <tr>
+        <tr data-species-type-1="{{ type_1_name.upper() }}" data-species-type-2="{{ type_2_name.upper() }}">
             <td class="has-text-right">{{ s_idx }}</td>
             <td class="has-text-centered">
                 {{ small_sprite(idx, species.name) }}
@@ -68,12 +68,37 @@
 <section class="section">
 <div class="container">
     <div class="columns is-centered">
-        <div class="column is-6">
+        <div class="column is-6 has-text-centered">
             <div class="content">
                 <h1 class="title has-text-centered">Full Pokémon list</h1>
                 <p class="has-text-centered">
                     Click on a Pokémon's name to see its full details page.
                 </p>
+            </div>
+
+            <label for="type-select">Filter by type:&nbsp;&nbsp;&nbsp;</label>
+            <div class="select">
+                <select id="type-select">
+                    <option>None</option>
+                    <option>Normal</option>
+                    <option>Fire</option>
+                    <option>Water</option>
+                    <option>Electric</option>
+                    <option>Grass</option>
+                    <option>Ice</option>
+                    <option>Fighting</option>
+                    <option>Poison</option>
+                    <option>Ground</option>
+                    <option>Flying</option>
+                    <option>Psychic</option>
+                    <option>Bug</option>
+                    <option>Rock</option>
+                    <option>Ghost</option>
+                    <option>Dragon</option>
+                    <option>Dark</option>
+                    <option>Steel</option>
+                    <option>Fairy</option>
+                </select>
             </div>
         </div>
     </div>
@@ -88,11 +113,40 @@
 <script>
     function swapWithShiny(el) {
         el.setAttribute("src", "/sprites/" + el.getAttribute("x-idx") + "_shiny.png");
-    }
+    };
 
     function unswapWithShiny(el) {
         el.setAttribute("src", "/sprites/" + el.getAttribute("x-idx") + ".png");
-    }
+    };
+
+    window.onload = () => {
+        let sel = document.querySelector("#type-select");
+        sel.value = "None";
+
+        sel.addEventListener("change", (evt) => {
+            const value = evt.target.value.toUpperCase();
+            const rows = document.querySelectorAll("tr");
+
+            if (value == "NONE") {
+                rows.forEach(it => it.classList.remove("is-hidden"));
+            } else {
+                for (const row of rows) {
+                    if (row.attributes.length == 0) continue;
+                    let type1 = row.getAttribute("data-species-type-1");
+                    let type2 = row.getAttribute("data-species-type-2");
+
+                    if (type1 == value || type2 == value) {
+                        row.classList.remove("is-hidden");
+                    } else {
+                        row.classList.add("is-hidden");
+                    }
+                }
+            }
+
+            console.log(value);
+        });
+    };
+
 </script>
 <script src="/static/table_search.js"></script>
 {% endblock %}
