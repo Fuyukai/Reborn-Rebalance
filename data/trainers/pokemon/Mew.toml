@@ -3,7 +3,6 @@ trainer_name = "Mew"
 [trainers.MEW.0]
 raw_trainer_class = "MEW"
 battler_name = "Mew"
-raw_battle_items = []
 
 [[trainers.MEW.0.pokemon]]
 internal_name = "TERRAKION"
@@ -20,12 +19,9 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.MEW.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 4
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.MEW.0.pokemon]]
 internal_name = "KELDEO"
@@ -42,12 +38,9 @@ nature = "TIMID"
 iv = 31
 
 [trainers.MEW.0.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.MEW.0.pokemon]]
 internal_name = "NECROZMA"
@@ -65,12 +58,9 @@ nature = "MODEST"
 iv = 31
 
 [trainers.MEW.0.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
 spa = 4
 spd = 252
-spe = 0
 
 [[trainers.MEW.0.pokemon]]
 internal_name = "MELOETTA"
@@ -87,9 +77,6 @@ nature = "TIMID"
 iv = 31
 
 [trainers.MEW.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
 spe = 4
@@ -109,12 +96,9 @@ nature = "TIMID"
 iv = 31
 
 [trainers.MEW.0.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.MEW.0.pokemon]]
 internal_name = "MEWTWO"
@@ -131,7 +115,6 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.MEW.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252

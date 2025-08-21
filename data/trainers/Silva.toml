@@ -3,71 +3,24 @@ trainer_name = "Silva"
 [trainers.PSYCHIC_Male.3]
 raw_trainer_class = "PSYCHIC_Male"
 battler_name = "Silva"
+pokemon = [
+    { internal_name = "NATU", level = 12, iv = 0 },
+]
 battler_id = 3
-raw_battle_items = []
-
-[[trainers.PSYCHIC_Male.3.pokemon]]
-internal_name = "NATU"
-level = 12
-iv = 0
-
-[trainers.PSYCHIC_Male.3.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.PSYCHIC_Male.0]
 raw_trainer_class = "PSYCHIC_Male"
 battler_name = "Silva"
-raw_battle_items = []
-
-[[trainers.PSYCHIC_Male.0.pokemon]]
-internal_name = "MAWILE"
-level = 35
-iv = 0
-
-[trainers.PSYCHIC_Male.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.PSYCHIC_Male.0.pokemon]]
-internal_name = "XATU"
-level = 36
-iv = 0
-
-[trainers.PSYCHIC_Male.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.PSYCHIC_Male.0.pokemon]]
-internal_name = "SNEASEL"
-level = 39
-iv = 0
-
-[trainers.PSYCHIC_Male.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
+pokemon = [
+    { internal_name = "MAWILE", level = 35, iv = 0 },
+    { internal_name = "XATU", level = 36, iv = 0 },
+    { internal_name = "SNEASEL", level = 39, iv = 0 },
+]
 
 [trainers.PSYCHIC_Male.1]
 raw_trainer_class = "PSYCHIC_Male"
 battler_name = "Silva"
 battler_id = 1
-raw_battle_items = []
 
 [[trainers.PSYCHIC_Male.1.pokemon]]
 internal_name = "MAWILE"
@@ -84,14 +37,6 @@ sex = "F"
 nature = "ADAMANT"
 iv = 15
 
-[trainers.PSYCHIC_Male.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.PSYCHIC_Male.1.pokemon]]
 internal_name = "XATU"
 level = 46
@@ -107,14 +52,6 @@ sex = "F"
 nature = "BOLD"
 iv = 15
 
-[trainers.PSYCHIC_Male.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.PSYCHIC_Male.1.pokemon]]
 internal_name = "WEAVILE"
 level = 50
@@ -129,19 +66,10 @@ sex = "F"
 nature = "JOLLY"
 iv = 15
 
-[trainers.PSYCHIC_Male.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [trainers.PSYCHIC_Male.2]
 raw_trainer_class = "PSYCHIC_Male"
 battler_name = "Silva"
 battler_id = 2
-raw_battle_items = []
 
 [[trainers.PSYCHIC_Male.2.pokemon]]
 internal_name = "MAWILE"
@@ -158,14 +86,6 @@ sex = "F"
 nature = "ADAMANT"
 iv = 15
 
-[trainers.PSYCHIC_Male.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.PSYCHIC_Male.2.pokemon]]
 internal_name = "XATU"
 level = 56
@@ -181,26 +101,10 @@ sex = "F"
 nature = "BOLD"
 iv = 15
 
-[trainers.PSYCHIC_Male.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.PSYCHIC_Male.2.pokemon]]
 internal_name = "CARRACOSTA"
 level = 56
 iv = 0
-
-[trainers.PSYCHIC_Male.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.PSYCHIC_Male.2.pokemon]]
 internal_name = "WEAVILE"
@@ -216,19 +120,10 @@ sex = "F"
 nature = "JOLLY"
 iv = 15
 
-[trainers.PSYCHIC_Male.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [trainers.PSYCHIC_Male.4]
 raw_trainer_class = "PSYCHIC_Male"
 battler_name = "Silva"
 battler_id = 4
-raw_battle_items = []
 
 [[trainers.PSYCHIC_Male.4.pokemon]]
 internal_name = "XATU"
@@ -245,14 +140,6 @@ sex = ""
 nature = "BOLD"
 iv = 15
 
-[trainers.PSYCHIC_Male.4.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.PSYCHIC_Male.4.pokemon]]
 internal_name = "CARRACOSTA"
 level = 85
@@ -264,14 +151,6 @@ raw_moves = [
     "CRUNCH",
 ]
 iv = 0
-
-[trainers.PSYCHIC_Male.4.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.PSYCHIC_Male.4.pokemon]]
 internal_name = "WEAVILE"
@@ -288,14 +167,6 @@ sex = ""
 nature = "JOLLY"
 iv = 15
 
-[trainers.PSYCHIC_Male.4.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.PSYCHIC_Male.4.pokemon]]
 internal_name = "MAWILE"
 level = 84
@@ -311,42 +182,11 @@ sex = ""
 nature = "ADAMANT"
 iv = 15
 
-[trainers.PSYCHIC_Male.4.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [trainers.PSYCHIC_Male.5]
 raw_trainer_class = "PSYCHIC_Male"
 battler_name = "Silva"
+pokemon = [
+    { internal_name = "MAWILE", level = 22, iv = 0 },
+    { internal_name = "NATU", level = 23, iv = 0 },
+]
 battler_id = 5
-raw_battle_items = []
-
-[[trainers.PSYCHIC_Male.5.pokemon]]
-internal_name = "MAWILE"
-level = 22
-iv = 0
-
-[trainers.PSYCHIC_Male.5.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.PSYCHIC_Male.5.pokemon]]
-internal_name = "NATU"
-level = 23
-iv = 0
-
-[trainers.PSYCHIC_Male.5.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0

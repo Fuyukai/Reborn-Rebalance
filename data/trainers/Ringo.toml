@@ -3,128 +3,42 @@ trainer_name = "Ringo"
 [trainers.MeteorGrunt.0]
 raw_trainer_class = "MeteorGrunt"
 battler_name = "Ringo"
-raw_battle_items = []
-
-[[trainers.MeteorGrunt.0.pokemon]]
-internal_name = "LUNATONE"
-level = 13
-iv = 0
-
-[trainers.MeteorGrunt.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
+pokemon = [
+    { internal_name = "LUNATONE", level = 13, iv = 0 },
+]
 
 [trainers.MeteorGrunt.1]
 raw_trainer_class = "MeteorGrunt"
 battler_name = "Ringo"
+pokemon = [
+    { internal_name = "VENIPEDE", level = 21, iv = 0 },
+    { internal_name = "LUNATONE", level = 22, iv = 0 },
+]
 battler_id = 1
-raw_battle_items = []
-
-[[trainers.MeteorGrunt.1.pokemon]]
-internal_name = "VENIPEDE"
-level = 21
-iv = 0
-
-[trainers.MeteorGrunt.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.MeteorGrunt.1.pokemon]]
-internal_name = "LUNATONE"
-level = 22
-iv = 0
-
-[trainers.MeteorGrunt.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.MeteorKnight.0]
 raw_trainer_class = "MeteorKnight"
 battler_name = "Ringo"
-raw_battle_items = []
-
-[[trainers.MeteorKnight.0.pokemon]]
-internal_name = "WHIRLIPEDE"
-level = 43
-iv = 0
-
-[trainers.MeteorKnight.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.MeteorKnight.0.pokemon]]
-internal_name = "LUNATONE"
-level = 43
-iv = 0
-
-[trainers.MeteorKnight.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.MeteorKnight.0.pokemon]]
-internal_name = "PASSIMIAN"
-level = 44
-iv = 0
-
-[trainers.MeteorKnight.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
+pokemon = [
+    { internal_name = "WHIRLIPEDE", level = 43, iv = 0 },
+    { internal_name = "LUNATONE", level = 43, iv = 0 },
+    { internal_name = "PASSIMIAN", level = 44, iv = 0 },
+]
 
 [trainers.MeteorKnight.1]
 raw_trainer_class = "MeteorKnight"
 battler_name = "Ringo"
 battler_id = 1
-raw_battle_items = []
 
 [[trainers.MeteorKnight.1.pokemon]]
 internal_name = "LUNATONE"
 level = 54
 iv = 0
 
-[trainers.MeteorKnight.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.MeteorKnight.1.pokemon]]
 internal_name = "PASSIMIAN"
 level = 54
 iv = 0
-
-[trainers.MeteorKnight.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.MeteorKnight.1.pokemon]]
 internal_name = "SCOLIPEDE"
@@ -136,11 +50,3 @@ raw_moves = [
     "POISONJAB",
 ]
 iv = 0
-
-[trainers.MeteorKnight.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0

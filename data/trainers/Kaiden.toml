@@ -3,38 +3,14 @@ trainer_name = "Kaiden"
 [trainers.Cultist.0]
 raw_trainer_class = "Cultist"
 battler_name = "Kaiden"
-raw_battle_items = []
-
-[[trainers.Cultist.0.pokemon]]
-internal_name = "LEDIAN"
-level = 62
-iv = 0
-
-[trainers.Cultist.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.Cultist.0.pokemon]]
-internal_name = "FLOATZEL"
-level = 61
-iv = 0
-
-[trainers.Cultist.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
+pokemon = [
+    { internal_name = "LEDIAN", level = 62, iv = 0 },
+    { internal_name = "FLOATZEL", level = 61, iv = 0 },
+]
 
 [trainers.NWCultist.0]
 raw_trainer_class = "NWCultist"
 battler_name = "Kaiden"
-raw_battle_items = []
 
 [[trainers.NWCultist.0.pokemon]]
 internal_name = "LEDIAN"
@@ -48,14 +24,6 @@ raw_moves = [
 ability_number = 2
 iv = 0
 
-[trainers.NWCultist.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.NWCultist.0.pokemon]]
 internal_name = "FLOATZEL"
 level = 74
@@ -67,14 +35,6 @@ raw_moves = [
 ]
 ability_number = 1
 iv = 0
-
-[trainers.NWCultist.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.NWCultist.0.pokemon]]
 internal_name = "KANGASKHAN"
@@ -88,19 +48,10 @@ raw_moves = [
 ability_number = 2
 iv = 0
 
-[trainers.NWCultist.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [trainers.NWCultist.1]
 raw_trainer_class = "NWCultist"
 battler_name = "Kaiden"
 battler_id = 1
-raw_battle_items = []
 
 [[trainers.NWCultist.1.pokemon]]
 internal_name = "LEDIAN"
@@ -114,14 +65,6 @@ raw_moves = [
 ability_number = 2
 iv = 0
 
-[trainers.NWCultist.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.NWCultist.1.pokemon]]
 internal_name = "FLOATZEL"
 level = 80
@@ -133,14 +76,6 @@ raw_moves = [
 ]
 ability_number = 1
 iv = 0
-
-[trainers.NWCultist.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.NWCultist.1.pokemon]]
 internal_name = "TOGEKISS"
@@ -154,14 +89,6 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.NWCultist.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.NWCultist.1.pokemon]]
 internal_name = "KANGASKHAN"
 level = 82
@@ -173,11 +100,3 @@ raw_moves = [
 ]
 ability_number = 2
 iv = 0
-
-[trainers.NWCultist.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0

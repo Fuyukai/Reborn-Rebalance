@@ -4,7 +4,6 @@ trainer_name = "Alistasia"
 raw_trainer_class = "RINGMASTER"
 battler_name = "Alistasia"
 battler_id = 20
-raw_battle_items = []
 
 [[trainers.RINGMASTER.20.pokemon]]
 internal_name = "PYROAR"
@@ -16,17 +15,14 @@ raw_moves = [
     "SNARL",
     "HYPERVOICE",
 ]
+ability_number = 2
 nature = "TIMID"
 iv = 31
-ability_number = 2
 
 [trainers.RINGMASTER.20.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.RINGMASTER.20.pokemon]]
 internal_name = "LUXRAY"
@@ -44,10 +40,8 @@ nature = "SERIOUS"
 iv = 31
 
 [trainers.RINGMASTER.20.pokemon.evs]
-hp = 0
 atk = 128
 def_ = 252
-spa = 0
 spd = 128
 spe = 4
 
@@ -66,12 +60,8 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.RINGMASTER.20.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.RINGMASTER.20.pokemon]]
 internal_name = "PRIMARINA"
@@ -83,16 +73,13 @@ raw_moves = [
     "PSYCHIC",
     "ICEBEAM",
 ]
-sex = ""
 ability_number = 1
+sex = ""
 nature = "MODEST"
 iv = 31
 
 [trainers.RINGMASTER.20.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 252
 spe = 4
 
@@ -112,12 +99,8 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.RINGMASTER.20.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.RINGMASTER.20.pokemon]]
 internal_name = "EXPLOUD"
@@ -133,18 +116,13 @@ nature = "MODEST"
 iv = 31
 
 [trainers.RINGMASTER.20.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 252
 spe = 4
-
 
 [trainers.RINGMASTER.0]
 raw_trainer_class = "RINGMASTER"
 battler_name = "Alistasia"
-raw_battle_items = []
 
 [[trainers.RINGMASTER.0.pokemon]]
 internal_name = "LUXRAY"
@@ -162,10 +140,8 @@ nature = "SERIOUS"
 iv = 31
 
 [trainers.RINGMASTER.0.pokemon.evs]
-hp = 0
 atk = 128
 def_ = 252
-spa = 0
 spd = 128
 spe = 4
 
@@ -183,12 +159,9 @@ nature = "TIMID"
 iv = 31
 
 [trainers.RINGMASTER.0.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.RINGMASTER.0.pokemon]]
 internal_name = "DONPHAN"
@@ -205,11 +178,8 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.RINGMASTER.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
 spe = 4
 
 [[trainers.RINGMASTER.0.pokemon]]
@@ -227,10 +197,7 @@ nature = "MODEST"
 iv = 31
 
 [trainers.RINGMASTER.0.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 252
 spe = 4
 
@@ -249,12 +216,8 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.RINGMASTER.0.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.RINGMASTER.0.pokemon]]
 internal_name = "BLAZIKEN"
@@ -272,18 +235,13 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.RINGMASTER.0.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [trainers.RINGMASTER.1]
 raw_trainer_class = "RINGMASTER"
 battler_name = "Alistasia"
 battler_id = 1
-raw_battle_items = []
 
 [[trainers.RINGMASTER.1.pokemon]]
 internal_name = "HAWLUCHA"
@@ -300,12 +258,8 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.RINGMASTER.1.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.RINGMASTER.1.pokemon]]
 internal_name = "BLAZIKEN"
@@ -323,12 +277,8 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.RINGMASTER.1.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.RINGMASTER.1.pokemon]]
 internal_name = "PRIMARINA"
@@ -345,10 +295,7 @@ nature = "MODEST"
 iv = 31
 
 [trainers.RINGMASTER.1.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 252
 spe = 4
 
@@ -356,7 +303,6 @@ spe = 4
 raw_trainer_class = "RINGMASTER"
 battler_name = "Alistasia"
 battler_id = 1000
-raw_battle_items = []
 
 [[trainers.RINGMASTER.1000.pokemon]]
 internal_name = "PRIMARINA"
@@ -373,10 +319,7 @@ nature = "MODEST"
 iv = 31
 
 [trainers.RINGMASTER.1000.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 252
 spe = 4
 
@@ -395,12 +338,8 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.RINGMASTER.1000.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.RINGMASTER.1000.pokemon]]
 internal_name = "BLAZIKEN"
@@ -418,9 +357,5 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.RINGMASTER.1000.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0

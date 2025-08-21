@@ -3,71 +3,24 @@ trainer_name = "Deryl"
 [trainers.TechNerd.0]
 raw_trainer_class = "TechNerd"
 battler_name = "Deryl"
-raw_battle_items = []
-
-[[trainers.TechNerd.0.pokemon]]
-internal_name = "TREVENANT"
-level = 34
-iv = 0
-
-[trainers.TechNerd.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.TechNerd.0.pokemon]]
-internal_name = "CHARJABUG"
-level = 35
-iv = 0
-
-[trainers.TechNerd.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
+pokemon = [
+    { internal_name = "TREVENANT", level = 34, iv = 0 },
+    { internal_name = "CHARJABUG", level = 35, iv = 0 },
+]
 
 [trainers.TechNerd.1]
 raw_trainer_class = "TechNerd"
 battler_name = "Deryl"
+pokemon = [
+    { internal_name = "TREVENANT", level = 53, iv = 0 },
+    { internal_name = "VIKAVOLT", level = 53, iv = 0 },
+]
 battler_id = 1
-raw_battle_items = []
-
-[[trainers.TechNerd.1.pokemon]]
-internal_name = "TREVENANT"
-level = 53
-iv = 0
-
-[trainers.TechNerd.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.TechNerd.1.pokemon]]
-internal_name = "VIKAVOLT"
-level = 53
-iv = 0
-
-[trainers.TechNerd.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.TechNerd.2]
 raw_trainer_class = "TechNerd"
 battler_name = "Deryl"
 battler_id = 2
-raw_battle_items = []
 
 [[trainers.TechNerd.2.pokemon]]
 internal_name = "TREVENANT"
@@ -80,14 +33,6 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.TechNerd.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.TechNerd.2.pokemon]]
 internal_name = "VIKAVOLT"
 level = 83
@@ -98,14 +43,6 @@ raw_moves = [
     "BUGBUZZ",
 ]
 iv = 0
-
-[trainers.TechNerd.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.TechNerd.2.pokemon]]
 internal_name = "REUNICLUS"
@@ -119,19 +56,10 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.TechNerd.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [trainers.TechNerd.3]
 raw_trainer_class = "TechNerd"
 battler_name = "Deryl"
 battler_id = 3
-raw_battle_items = []
 
 [[trainers.TechNerd.3.pokemon]]
 internal_name = "TREVENANT"
@@ -148,7 +76,6 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.TechNerd.3.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -170,7 +97,6 @@ nature = "MODEST"
 iv = 31
 
 [trainers.TechNerd.3.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -193,7 +119,6 @@ nature = "MODEST"
 iv = 31
 
 [trainers.TechNerd.3.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252

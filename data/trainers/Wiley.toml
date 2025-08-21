@@ -3,19 +3,9 @@ trainer_name = "Wiley"
 [trainers.Casanova.0]
 raw_trainer_class = "Casanova"
 battler_name = "Wiley"
+pokemon = [
+    { internal_name = "STARAVIA", level = 26, iv = 0 },
+]
 raw_battle_items = [
     "FULLRESTORE",
 ]
-
-[[trainers.Casanova.0.pokemon]]
-internal_name = "STARAVIA"
-level = 26
-iv = 0
-
-[trainers.Casanova.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0

@@ -3,7 +3,6 @@ trainer_name = "Eustace"
 [trainers.MASTERMIND.0]
 raw_trainer_class = "MASTERMIND"
 battler_name = "Eustace"
-raw_battle_items = []
 
 [[trainers.MASTERMIND.0.pokemon]]
 internal_name = "MANECTRIC"
@@ -20,14 +19,6 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.MASTERMIND.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.MASTERMIND.0.pokemon]]
 internal_name = "SCEPTILE"
 level = 81
@@ -42,14 +33,6 @@ ability_number = 1
 sex = ""
 nature = "JOLLY"
 iv = 31
-
-[trainers.MASTERMIND.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.MASTERMIND.0.pokemon]]
 internal_name = "SHARPEDO"
@@ -66,14 +49,6 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.MASTERMIND.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.MASTERMIND.0.pokemon]]
 internal_name = "SCIZOR"
 level = 83
@@ -87,14 +62,6 @@ ability_number = 1
 sex = ""
 nature = "ADAMANT"
 iv = 31
-
-[trainers.MASTERMIND.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.MASTERMIND.0.pokemon]]
 internal_name = "ALAKAZAM"
@@ -111,19 +78,10 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.MASTERMIND.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [trainers.MASTERMIND.1]
 raw_trainer_class = "MASTERMIND"
 battler_name = "Eustace"
 battler_id = 1
-raw_battle_items = []
 
 [[trainers.MASTERMIND.1.pokemon]]
 internal_name = "MANECTRIC"
@@ -141,12 +99,9 @@ nature = "TIMID"
 iv = 31
 
 [trainers.MASTERMIND.1.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.MASTERMIND.1.pokemon]]
 internal_name = "SCEPTILE"
@@ -164,12 +119,9 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.MASTERMIND.1.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.MASTERMIND.1.pokemon]]
 internal_name = "SHARPEDO"
@@ -187,12 +139,9 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.MASTERMIND.1.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.MASTERMIND.1.pokemon]]
 internal_name = "SCIZOR"
@@ -210,12 +159,9 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.MASTERMIND.1.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.MASTERMIND.1.pokemon]]
 internal_name = "AERODACTYL"
@@ -233,12 +179,9 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.MASTERMIND.1.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.MASTERMIND.1.pokemon]]
 internal_name = "ALAKAZAM"
@@ -256,18 +199,14 @@ nature = "TIMID"
 iv = 31
 
 [trainers.MASTERMIND.1.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [trainers.MASTERMIND.1000]
 raw_trainer_class = "MASTERMIND"
 battler_name = "Eustace"
 battler_id = 1000
-raw_battle_items = []
 
 [[trainers.MASTERMIND.1000.pokemon]]
 internal_name = "SHARPEDO"
@@ -285,12 +224,8 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.MASTERMIND.1000.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.MASTERMIND.1000.pokemon]]
 internal_name = "SCIZOR"
@@ -308,12 +243,8 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.MASTERMIND.1000.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.MASTERMIND.1000.pokemon]]
 internal_name = "WEAVILE"
@@ -331,18 +262,13 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.MASTERMIND.1000.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [trainers.MASTERMIND.20]
 raw_trainer_class = "MASTERMIND"
 battler_name = "Eustace"
 battler_id = 20
-raw_battle_items = []
 
 [[trainers.MASTERMIND.20.pokemon]]
 internal_name = "BOLTUND"
@@ -357,14 +283,6 @@ raw_moves = [
 sex = ""
 nature = "JOLLY"
 iv = 31
-
-[trainers.MASTERMIND.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.MASTERMIND.20.pokemon]]
 internal_name = "REVAVROOM"
@@ -381,14 +299,6 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.MASTERMIND.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.MASTERMIND.20.pokemon]]
 internal_name = "SHARPEDO"
 level = 82
@@ -404,14 +314,6 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.MASTERMIND.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.MASTERMIND.20.pokemon]]
 internal_name = "SCIZOR"
 level = 83
@@ -425,14 +327,6 @@ ability_number = 1
 sex = ""
 nature = "ADAMANT"
 iv = 31
-
-[trainers.MASTERMIND.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.MASTERMIND.20.pokemon]]
 internal_name = "ALAKAZAM"
@@ -448,11 +342,3 @@ ability_number = 2
 sex = ""
 nature = "TIMID"
 iv = 31
-
-[trainers.MASTERMIND.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0

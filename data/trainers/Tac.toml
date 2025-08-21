@@ -3,7 +3,6 @@ trainer_name = "Tac"
 [trainers.PkMnRANGER_Male.0]
 raw_trainer_class = "PkMnRANGER_Male"
 battler_name = "Tac"
-raw_battle_items = []
 
 [[trainers.PkMnRANGER_Male.0.pokemon]]
 internal_name = "CHANSEY"
@@ -20,11 +19,7 @@ nature = "CALM"
 iv = 31
 
 [trainers.PkMnRANGER_Male.0.pokemon.evs]
-hp = 0
 atk = 248
-def_ = 0
-spa = 0
-spd = 0
 spe = 252
 
 [[trainers.PkMnRANGER_Male.0.pokemon]]
@@ -41,11 +36,8 @@ iv = 31
 happiness = 255
 
 [trainers.PkMnRANGER_Male.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 4
-spa = 0
-spd = 0
 spe = 252
 
 [[trainers.PkMnRANGER_Male.0.pokemon]]
@@ -64,11 +56,7 @@ nature = "MODEST"
 iv = 31
 
 [trainers.PkMnRANGER_Male.0.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 252
 
 [[trainers.PkMnRANGER_Male.0.pokemon]]
@@ -87,12 +75,8 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.PkMnRANGER_Male.0.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.PkMnRANGER_Male.0.pokemon]]
 internal_name = "PERSIAN"
@@ -107,12 +91,9 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.PkMnRANGER_Male.0.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.PkMnRANGER_Male.0.pokemon]]
 internal_name = "SNORLAX"
@@ -130,9 +111,5 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.PkMnRANGER_Male.0.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
 spa = 252
-spd = 0
-spe = 0

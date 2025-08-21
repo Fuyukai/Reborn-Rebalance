@@ -3,7 +3,6 @@ trainer_name = "Magearna"
 [trainers.MAGEARNA.0]
 raw_trainer_class = "MAGEARNA"
 battler_name = "Magearna"
-raw_battle_items = []
 
 [[trainers.MAGEARNA.0.pokemon]]
 internal_name = "ROSERADE"
@@ -21,12 +20,9 @@ nature = "TIMID"
 iv = 31
 
 [trainers.MAGEARNA.0.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.MAGEARNA.0.pokemon]]
 internal_name = "BRELOOM"
@@ -45,12 +41,8 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.MAGEARNA.0.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 4
-spd = 0
-spe = 0
 
 [[trainers.MAGEARNA.0.pokemon]]
 internal_name = "KLINKLANG"
@@ -68,12 +60,9 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.MAGEARNA.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 4
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.MAGEARNA.0.pokemon]]
 internal_name = "FERROTHORN"
@@ -90,11 +79,7 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.MAGEARNA.0.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 252
 
 [[trainers.MAGEARNA.0.pokemon]]
@@ -114,12 +99,9 @@ iv = 31
 happiness = 200
 
 [trainers.MAGEARNA.0.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.MAGEARNA.0.pokemon]]
 internal_name = "MAGEARNA"
@@ -136,7 +118,6 @@ nature = "QUIET"
 iv = 31
 
 [trainers.MAGEARNA.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252

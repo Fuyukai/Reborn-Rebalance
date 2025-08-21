@@ -3,7 +3,6 @@ trainer_name = "Taube"
 [trainers.TAUBE.0]
 raw_trainer_class = "TAUBE"
 battler_name = "Taube"
-raw_battle_items = []
 
 [[trainers.TAUBE.0.pokemon]]
 internal_name = "FURRET"
@@ -22,11 +21,7 @@ iv = 31
 happiness = 255
 
 [trainers.TAUBE.0.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 4
 
 [[trainers.TAUBE.0.pokemon]]
@@ -45,11 +40,8 @@ iv = 31
 happiness = 255
 
 [trainers.TAUBE.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
 spe = 4
 
 [[trainers.TAUBE.0.pokemon]]
@@ -68,12 +60,9 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.TAUBE.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 4
-spd = 0
-spe = 0
 
 [[trainers.TAUBE.0.pokemon]]
 internal_name = "RIBOMBEE"
@@ -91,12 +80,9 @@ nature = "MODEST"
 iv = 31
 
 [trainers.TAUBE.0.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.TAUBE.0.pokemon]]
 internal_name = "CHATOT"
@@ -114,12 +100,9 @@ nature = "MODEST"
 iv = 31
 
 [trainers.TAUBE.0.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.TAUBE.0.pokemon]]
 internal_name = "GARCHOMP"
@@ -136,9 +119,6 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.TAUBE.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 4
 spa = 252
-spd = 0
-spe = 0

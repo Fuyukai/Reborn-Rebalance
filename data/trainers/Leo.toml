@@ -3,7 +3,6 @@ trainer_name = "Leo"
 [trainers.SPIRITM.0]
 raw_trainer_class = "SPIRITM"
 battler_name = "Leo"
-raw_battle_items = []
 
 [[trainers.SPIRITM.0.pokemon]]
 internal_name = "SLOWKING"
@@ -21,10 +20,6 @@ nature = "MODEST"
 iv = 31
 
 [trainers.SPIRITM.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
 spd = 252
 spe = 128
 
@@ -44,11 +39,8 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.SPIRITM.0.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
 spe = 4
 
 [[trainers.SPIRITM.0.pokemon]]
@@ -61,18 +53,13 @@ raw_moves = [
     "MEGAHORN",
     "KNOCKOFF",
 ]
-ability_number = 0
 sex = ""
 nature = "ADAMANT"
 iv = 31
 
 [trainers.SPIRITM.0.pokemon.evs]
-hp = 0
 atk = 128
 def_ = 252
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.SPIRITM.0.pokemon]]
 internal_name = "TANGROWTH"
@@ -90,12 +77,8 @@ nature = "BRAVE"
 iv = 31
 
 [trainers.SPIRITM.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 4
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.SPIRITM.0.pokemon]]
 internal_name = "EELEKTROSS"
@@ -112,11 +95,7 @@ nature = "TIMID"
 iv = 31
 
 [trainers.SPIRITM.0.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
-spa = 0
-spd = 0
 spe = 128
 
 [[trainers.SPIRITM.0.pokemon]]
@@ -134,9 +113,5 @@ nature = "TIMID"
 iv = 31
 
 [trainers.SPIRITM.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0

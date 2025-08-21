@@ -3,7 +3,6 @@ trainer_name = "Dialga"
 [trainers.DIALGA.0]
 raw_trainer_class = "DIALGA"
 battler_name = "Dialga"
-raw_battle_items = []
 
 [[trainers.DIALGA.0.pokemon]]
 internal_name = "CELEBI"
@@ -21,12 +20,9 @@ iv = 31
 happiness = 255
 
 [trainers.DIALGA.0.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.DIALGA.0.pokemon]]
 internal_name = "HOOPA"
@@ -45,12 +41,9 @@ iv = 31
 happiness = 255
 
 [trainers.DIALGA.0.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.DIALGA.0.pokemon]]
 internal_name = "VOLCANION"
@@ -68,10 +61,7 @@ iv = 31
 happiness = 255
 
 [trainers.DIALGA.0.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 252
 spe = 4
 
@@ -92,11 +82,8 @@ iv = 31
 happiness = 255
 
 [trainers.DIALGA.0.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
 spe = 4
 
 [[trainers.DIALGA.0.pokemon]]
@@ -116,12 +103,9 @@ iv = 31
 happiness = 255
 
 [trainers.DIALGA.0.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.DIALGA.0.pokemon]]
 internal_name = "DIALGA"
@@ -140,7 +124,6 @@ iv = 31
 happiness = 255
 
 [trainers.DIALGA.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252

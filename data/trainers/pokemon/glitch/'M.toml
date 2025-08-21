@@ -3,7 +3,6 @@ trainer_name = "'M"
 [trainers.GLITCH1.0]
 raw_trainer_class = "GLITCH1"
 battler_name = "'M"
-raw_battle_items = []
 
 [[trainers.GLITCH1.0.pokemon]]
 internal_name = "AERODACTYL"
@@ -15,11 +14,3 @@ raw_moves = [
     "HONECLAWS",
 ]
 iv = 0
-
-[trainers.GLITCH1.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0

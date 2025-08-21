@@ -3,30 +3,7 @@ trainer_name = "Carter"
 [trainers.StreetRat.0]
 raw_trainer_class = "StreetRat"
 battler_name = "Carter"
-raw_battle_items = []
-
-[[trainers.StreetRat.0.pokemon]]
-internal_name = "BARBOACH"
-level = 16
-iv = 0
-
-[trainers.StreetRat.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.StreetRat.0.pokemon]]
-internal_name = "SPINDA"
-level = 16
-iv = 0
-
-[trainers.StreetRat.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
+pokemon = [
+    { internal_name = "BARBOACH", level = 16, iv = 0 },
+    { internal_name = "SPINDA", level = 16, iv = 0 },
+]

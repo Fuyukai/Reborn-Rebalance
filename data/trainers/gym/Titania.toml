@@ -3,7 +3,6 @@ trainer_name = "Titania"
 [trainers.TITANIA.0]
 raw_trainer_class = "TITANIA"
 battler_name = "Titania"
-raw_battle_items = []
 
 [[trainers.TITANIA.0.pokemon]]
 internal_name = "AEGISLASH"
@@ -18,19 +17,10 @@ raw_moves = [
 nature = "QUIET"
 iv = 31
 
-[trainers.TITANIA.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [trainers.TITANIA1.1]
 raw_trainer_class = "TITANIA1"
 battler_name = "Titania"
 battler_id = 1
-raw_battle_items = []
 
 [[trainers.TITANIA1.1.pokemon]]
 internal_name = "KLEFKI"
@@ -47,11 +37,7 @@ nature = "BOLD"
 iv = 31
 
 [trainers.TITANIA1.1.pokemon.evs]
-hp = 0
 atk = 192
-def_ = 0
-spa = 0
-spd = 0
 spe = 252
 
 [[trainers.TITANIA1.1.pokemon]]
@@ -69,12 +55,9 @@ nature = "MODEST"
 iv = 31
 
 [trainers.TITANIA1.1.pokemon.evs]
-hp = 0
 atk = 128
 def_ = 252
 spa = 128
-spd = 0
-spe = 0
 
 [[trainers.TITANIA1.1.pokemon]]
 internal_name = "COBALION"
@@ -91,12 +74,9 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.TITANIA1.1.pokemon.evs]
-hp = 0
 atk = 128
-def_ = 0
 spa = 128
 spd = 252
-spe = 0
 
 [[trainers.TITANIA1.1.pokemon]]
 internal_name = "EXCADRILL"
@@ -113,12 +93,9 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.TITANIA1.1.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.TITANIA1.1.pokemon]]
 internal_name = "SCIZOR"
@@ -136,11 +113,7 @@ nature = "CAREFUL"
 iv = 31
 
 [trainers.TITANIA1.1.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 4
 
 [[trainers.TITANIA1.1.pokemon]]
@@ -157,20 +130,13 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.TITANIA1.1.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 4
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.TITANIA1.20]
 raw_trainer_class = "TITANIA1"
 battler_name = "Titania"
 battler_id = 20
-raw_battle_items = [
-
-]
 
 [[trainers.TITANIA1.20.pokemon]]
 internal_name = "MAWILE"
@@ -186,11 +152,8 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.TITANIA1.20.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 4
-spa = 0
-spd = 0
 spe = 252
 
 [[trainers.TITANIA1.20.pokemon]]
@@ -208,12 +171,9 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.TITANIA1.20.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.TITANIA1.20.pokemon]]
 internal_name = "ARCHALUDON"
@@ -231,10 +191,8 @@ iv = 31
 
 [trainers.TITANIA1.20.pokemon.evs]
 hp = 248
-atk = 0
 def_ = 52
 spa = 84
-spd = 0
 spe = 124
 
 [[trainers.TITANIA1.20.pokemon]]
@@ -252,11 +210,7 @@ nature = "IMPISH"
 iv = 31
 
 [trainers.TITANIA1.20.pokemon.evs]
-hp = 0
 atk = 192
-def_ = 0
-spa = 0
-spd = 0
 spe = 64
 
 [[trainers.TITANIA1.20.pokemon]]
@@ -274,12 +228,8 @@ nature = "ADAMANT"
 iv = 28
 
 [trainers.TITANIA1.20.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.TITANIA1.20.pokemon]]
 internal_name = "AEGISLASH"
@@ -295,18 +245,13 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.TITANIA1.20.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 4
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.TITANIA2.10]
 raw_trainer_class = "TITANIA2"
 battler_name = "Titania"
 battler_id = 10
-raw_battle_items = []
 
 [[trainers.TITANIA2.10.pokemon]]
 internal_name = "EXCADRILL"
@@ -324,11 +269,8 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.TITANIA2.10.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
 spe = 4
 
 [[trainers.TITANIA2.10.pokemon]]
@@ -346,12 +288,9 @@ nature = "MODEST"
 iv = 31
 
 [trainers.TITANIA2.10.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.TITANIA2.10.pokemon]]
 internal_name = "AEGISLASH"
@@ -368,12 +307,8 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.TITANIA2.10.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 4
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.TITANIA2.10.pokemon]]
 internal_name = "METAGROSS"
@@ -390,12 +325,9 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.TITANIA2.10.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.TITANIA2.10.pokemon]]
 internal_name = "LUCARIO"
@@ -412,12 +344,9 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.TITANIA2.10.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.TITANIA2.10.pokemon]]
 internal_name = "SCIZOR"
@@ -435,18 +364,14 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.TITANIA2.10.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [trainers.TITANIA2.11]
 raw_trainer_class = "TITANIA2"
 battler_name = "Titania"
 battler_id = 11
-raw_battle_items = []
 
 [[trainers.TITANIA2.11.pokemon]]
 internal_name = "DIALGA"
@@ -463,12 +388,9 @@ nature = "MODEST"
 iv = 31
 
 [trainers.TITANIA2.11.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.TITANIA2.11.pokemon]]
 internal_name = "AEGISLASH"
@@ -485,12 +407,8 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.TITANIA2.11.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 4
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.TITANIA2.11.pokemon]]
 internal_name = "LUCARIO"
@@ -507,12 +425,8 @@ nature = "MODEST"
 iv = 31
 
 [trainers.TITANIA2.11.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.TITANIA2.11.pokemon]]
 internal_name = "MAGEARNA"
@@ -529,12 +443,8 @@ nature = "CALM"
 iv = 31
 
 [trainers.TITANIA2.11.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 104
-spe = 0
 
 [[trainers.TITANIA2.11.pokemon]]
 internal_name = "NECROZMA"
@@ -552,12 +462,9 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.TITANIA2.11.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 4
-spd = 0
-spe = 0
 
 [[trainers.TITANIA2.11.pokemon]]
 internal_name = "KARTANA"
@@ -574,18 +481,13 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.TITANIA2.11.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [trainers.TITANIA2.12]
 raw_trainer_class = "TITANIA2"
 battler_name = "Titania"
 battler_id = 12
-raw_battle_items = []
 
 [[trainers.TITANIA2.12.pokemon]]
 internal_name = "HEATRAN"
@@ -602,12 +504,9 @@ nature = "MODEST"
 iv = 31
 
 [trainers.TITANIA2.12.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.TITANIA2.12.pokemon]]
 internal_name = "EXCADRILL"
@@ -624,12 +523,9 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.TITANIA2.12.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.TITANIA2.12.pokemon]]
 internal_name = "SOLGALEO"
@@ -646,12 +542,9 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.TITANIA2.12.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.TITANIA2.12.pokemon]]
 internal_name = "STEELIX"
@@ -668,12 +561,9 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.TITANIA2.12.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.TITANIA2.12.pokemon]]
 internal_name = "DUGTRIO"
@@ -685,19 +575,15 @@ raw_moves = [
     "SUCKERPUNCH",
     "ROCKSLIDE",
 ]
-ability_number = 0
 sex = ""
 form_number = 1
 nature = "JOLLY"
 iv = 31
 
 [trainers.TITANIA2.12.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.TITANIA2.12.pokemon]]
 internal_name = "FERROTHORN"
@@ -714,18 +600,13 @@ nature = "CAREFUL"
 iv = 31
 
 [trainers.TITANIA2.12.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 128
 
 [trainers.TITANIA2.13]
 raw_trainer_class = "TITANIA2"
 battler_name = "Titania"
 battler_id = 13
-raw_battle_items = []
 
 [[trainers.TITANIA2.13.pokemon]]
 internal_name = "SKARMORY"
@@ -742,12 +623,9 @@ nature = "IMPISH"
 iv = 31
 
 [trainers.TITANIA2.13.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
 spa = 4
 spd = 252
-spe = 0
 
 [[trainers.TITANIA2.13.pokemon]]
 internal_name = "EMPOLEON"
@@ -764,12 +642,9 @@ nature = "MODEST"
 iv = 31
 
 [trainers.TITANIA2.13.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
 spa = 4
 spd = 252
-spe = 0
 
 [[trainers.TITANIA2.13.pokemon]]
 internal_name = "CELESTEELA"
@@ -786,12 +661,8 @@ nature = "MODEST"
 iv = 31
 
 [trainers.TITANIA2.13.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 252
-spe = 0
 
 [[trainers.TITANIA2.13.pokemon]]
 internal_name = "FERROTHORN"
@@ -808,11 +679,7 @@ nature = "CAREFUL"
 iv = 31
 
 [trainers.TITANIA2.13.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 128
 
 [[trainers.TITANIA2.13.pokemon]]
@@ -830,12 +697,9 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.TITANIA2.13.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.TITANIA2.13.pokemon]]
 internal_name = "MAGNEZONE"
@@ -852,18 +716,14 @@ nature = "MODEST"
 iv = 31
 
 [trainers.TITANIA2.13.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [trainers.TITANIA2.14]
 raw_trainer_class = "TITANIA2"
 battler_name = "Titania"
 battler_id = 14
-raw_battle_items = []
 
 [[trainers.TITANIA2.14.pokemon]]
 internal_name = "HEATRAN"
@@ -880,9 +740,6 @@ nature = "TIMID"
 iv = 31
 
 [trainers.TITANIA2.14.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
 spe = 4
@@ -902,9 +759,6 @@ nature = "TIMID"
 iv = 31
 
 [trainers.TITANIA2.14.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
 spe = 4
@@ -924,9 +778,6 @@ nature = "TIMID"
 iv = 31
 
 [trainers.TITANIA2.14.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
 spe = 4
@@ -946,9 +797,6 @@ nature = "TIMID"
 iv = 31
 
 [trainers.TITANIA2.14.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
 spe = 4
@@ -968,9 +816,6 @@ nature = "TIMID"
 iv = 31
 
 [trainers.TITANIA2.14.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
 spe = 4
@@ -990,9 +835,6 @@ nature = "TIMID"
 iv = 31
 
 [trainers.TITANIA2.14.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
 spe = 4
@@ -1001,7 +843,6 @@ spe = 4
 raw_trainer_class = "TITANIA2"
 battler_name = "Titania"
 battler_id = 15
-raw_battle_items = []
 
 [[trainers.TITANIA2.15.pokemon]]
 internal_name = "METAGROSS"
@@ -1018,12 +859,9 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.TITANIA2.15.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.TITANIA2.15.pokemon]]
 internal_name = "BRONZONG"
@@ -1040,12 +878,8 @@ nature = "BRAVE"
 iv = 32
 
 [trainers.TITANIA2.15.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.TITANIA2.15.pokemon]]
 internal_name = "NECROZMA"
@@ -1063,12 +897,9 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.TITANIA2.15.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 4
-spd = 0
-spe = 0
 
 [[trainers.TITANIA2.15.pokemon]]
 internal_name = "STAKATAKA"
@@ -1085,12 +916,8 @@ nature = "BRAVE"
 iv = 32
 
 [trainers.TITANIA2.15.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.TITANIA2.15.pokemon]]
 internal_name = "MAGEARNA"
@@ -1107,10 +934,7 @@ nature = "MODEST"
 iv = 31
 
 [trainers.TITANIA2.15.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 252
 spe = 4
 
@@ -1129,18 +953,14 @@ nature = "BRAVE"
 iv = 32
 
 [trainers.TITANIA2.15.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 4
-spd = 0
-spe = 0
 
 [trainers.TITANIA2.16]
 raw_trainer_class = "TITANIA2"
 battler_name = "Titania"
 battler_id = 16
-raw_battle_items = []
 
 [[trainers.TITANIA2.16.pokemon]]
 internal_name = "FERROTHORN"
@@ -1157,12 +977,8 @@ nature = "BRAVE"
 iv = 32
 
 [trainers.TITANIA2.16.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.TITANIA2.16.pokemon]]
 internal_name = "EMPOLEON"
@@ -1180,12 +996,8 @@ nature = "BRAVE"
 iv = 31
 
 [trainers.TITANIA2.16.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.TITANIA2.16.pokemon]]
 internal_name = "GENESECT"
@@ -1202,12 +1014,8 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.TITANIA2.16.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.TITANIA2.16.pokemon]]
 internal_name = "BISHARP"
@@ -1224,12 +1032,8 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.TITANIA2.16.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.TITANIA2.16.pokemon]]
 internal_name = "CELESTEELA"
@@ -1246,12 +1050,8 @@ nature = "SERIOUS"
 iv = 31
 
 [trainers.TITANIA2.16.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.TITANIA2.16.pokemon]]
 internal_name = "AEGISLASH"
@@ -1268,12 +1068,8 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.TITANIA2.16.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.TITANIA2.20]
 raw_trainer_class = "TITANIA2"
@@ -1299,11 +1095,8 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.TITANIA2.20.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 4
-spa = 0
-spd = 0
 spe = 252
 
 [[trainers.TITANIA2.20.pokemon]]
@@ -1321,12 +1114,9 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.TITANIA2.20.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.TITANIA2.20.pokemon]]
 internal_name = "ARCHALUDON"
@@ -1344,10 +1134,8 @@ iv = 31
 
 [trainers.TITANIA2.20.pokemon.evs]
 hp = 248
-atk = 0
 def_ = 52
 spa = 84
-spd = 0
 spe = 124
 
 [[trainers.TITANIA2.20.pokemon]]
@@ -1365,11 +1153,7 @@ nature = "IMPISH"
 iv = 31
 
 [trainers.TITANIA2.20.pokemon.evs]
-hp = 0
 atk = 192
-def_ = 0
-spa = 0
-spd = 0
 spe = 64
 
 [[trainers.TITANIA2.20.pokemon]]
@@ -1387,12 +1171,8 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.TITANIA2.20.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.TITANIA2.20.pokemon]]
 internal_name = "AEGISLASH"
@@ -1408,17 +1188,12 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.TITANIA2.20.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 4
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.UMBTITANIA.0]
 raw_trainer_class = "UMBTITANIA"
 battler_name = "Titania"
-raw_battle_items = []
 
 [[trainers.UMBTITANIA.0.pokemon]]
 internal_name = "TOGEKISS"
@@ -1436,7 +1211,6 @@ nature = "TIMID"
 iv = 31
 
 [trainers.UMBTITANIA.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -1458,7 +1232,6 @@ nature = "HASTY"
 iv = 31
 
 [trainers.UMBTITANIA.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -1480,7 +1253,6 @@ nature = "IMPISH"
 iv = 31
 
 [trainers.UMBTITANIA.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -1502,7 +1274,6 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.UMBTITANIA.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -1523,7 +1294,6 @@ sex = ""
 nature = "MODEST"
 
 [trainers.UMBTITANIA.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -1545,7 +1315,6 @@ nature = "NAIVE"
 iv = 31
 
 [trainers.UMBTITANIA.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -1556,7 +1325,6 @@ spe = 252
 raw_trainer_class = "UMBTITANIA"
 battler_name = "Titania"
 battler_id = 1
-raw_battle_items = []
 
 [[trainers.UMBTITANIA.1.pokemon]]
 internal_name = "HELIOLISK"
@@ -1574,9 +1342,6 @@ nature = "MILD"
 iv = 0
 
 [trainers.UMBTITANIA.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
 spe = 4
@@ -1596,8 +1361,6 @@ nature = "MILD"
 iv = 0
 
 [trainers.UMBTITANIA.1.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 52
 spa = 252
 spd = 200
@@ -1618,8 +1381,6 @@ nature = "MILD"
 iv = 0
 
 [trainers.UMBTITANIA.1.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 200
 spa = 252
 spd = 52
@@ -1641,8 +1402,6 @@ nature = "NAUGHTY"
 iv = 0
 
 [trainers.UMBTITANIA.1.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 52
 spa = 252
 spd = 200
@@ -1663,8 +1422,6 @@ nature = "MILD"
 iv = 0
 
 [trainers.UMBTITANIA.1.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 200
 spa = 252
 spd = 52
@@ -1685,8 +1442,6 @@ nature = "LONELY"
 iv = 0
 
 [trainers.UMBTITANIA.1.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 200
 spa = 252
 spd = 52
@@ -1696,7 +1451,6 @@ spe = 4
 raw_trainer_class = "UMBTITANIA"
 battler_name = "Titania"
 battler_id = 2
-raw_battle_items = []
 
 [[trainers.UMBTITANIA.2.pokemon]]
 internal_name = "NINETALES"
@@ -1714,7 +1468,6 @@ nature = "TIMID"
 iv = 20
 
 [trainers.UMBTITANIA.2.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -1737,7 +1490,6 @@ nature = "TIMID"
 iv = 20
 
 [trainers.UMBTITANIA.2.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -1760,7 +1512,6 @@ nature = "HASTY"
 iv = 20
 
 [trainers.UMBTITANIA.2.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -1782,7 +1533,6 @@ nature = "CALM"
 iv = 20
 
 [trainers.UMBTITANIA.2.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -1804,7 +1554,6 @@ nature = "HASTY"
 iv = 20
 
 [trainers.UMBTITANIA.2.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -1826,7 +1575,6 @@ nature = "MODEST"
 iv = 20
 
 [trainers.UMBTITANIA.2.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252

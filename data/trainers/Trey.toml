@@ -3,43 +3,8 @@ trainer_name = "Trey"
 [trainers.YOUNGSTER.0]
 raw_trainer_class = "YOUNGSTER"
 battler_name = "Trey"
-raw_battle_items = []
-
-[[trainers.YOUNGSTER.0.pokemon]]
-internal_name = "RATTATA"
-level = 17
-iv = 0
-
-[trainers.YOUNGSTER.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.YOUNGSTER.0.pokemon]]
-internal_name = "SHELLOS"
-level = 18
-iv = 0
-
-[trainers.YOUNGSTER.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.YOUNGSTER.0.pokemon]]
-internal_name = "SWIRLIX"
-level = 19
-iv = 0
-
-[trainers.YOUNGSTER.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
+pokemon = [
+    { internal_name = "RATTATA", level = 17, iv = 0 },
+    { internal_name = "SHELLOS", level = 18, iv = 0 },
+    { internal_name = "SWIRLIX", level = 19, iv = 0 },
+]

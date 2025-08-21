@@ -3,7 +3,6 @@ trainer_name = "Colin"
 [trainers.CUEBALL.0]
 raw_trainer_class = "CUEBALL"
 battler_name = "Colin"
-raw_battle_items = []
 
 [[trainers.CUEBALL.0.pokemon]]
 internal_name = "WEEZING"
@@ -18,14 +17,6 @@ sex = ""
 form_number = 1
 nature = "BOLD"
 iv = 31
-
-[trainers.CUEBALL.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.CUEBALL.0.pokemon]]
 internal_name = "MUDSDALE"
@@ -42,14 +33,6 @@ sex = ""
 nature = "ADAMANT"
 iv = 31
 
-[trainers.CUEBALL.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.CUEBALL.0.pokemon]]
 internal_name = "ZANGOOSE"
 level = 76
@@ -65,19 +48,10 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.CUEBALL.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [trainers.CUEBALL.20]
 raw_trainer_class = "CUEBALL"
 battler_name = "Colin"
 battler_id = 20
-raw_battle_items = []
 
 [[trainers.CUEBALL.20.pokemon]]
 internal_name = "WEEZING"
@@ -93,14 +67,6 @@ form_number = 1
 nature = "BOLD"
 iv = 31
 
-[trainers.CUEBALL.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.CUEBALL.20.pokemon]]
 internal_name = "RUNERIGUS"
 level = 74
@@ -114,14 +80,6 @@ raw_moves = [
 sex = ""
 nature = "ADAMANT"
 iv = 31
-
-[trainers.CUEBALL.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.CUEBALL.20.pokemon]]
 internal_name = "ZANGOOSE"
@@ -137,11 +95,3 @@ ability_number = 1
 sex = ""
 nature = "JOLLY"
 iv = 31
-
-[trainers.CUEBALL.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0

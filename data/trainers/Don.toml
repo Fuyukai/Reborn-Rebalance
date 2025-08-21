@@ -3,7 +3,6 @@ trainer_name = "Don"
 [trainers.PANGORO.0]
 raw_trainer_class = "PANGORO"
 battler_name = "Don"
-raw_battle_items = []
 
 [[trainers.PANGORO.0.pokemon]]
 internal_name = "PANGORO"
@@ -18,19 +17,10 @@ ability_number = 2
 nature = "ADAMANT"
 iv = 20
 
-[trainers.PANGORO.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [trainers.PANGORO.1]
 raw_trainer_class = "PANGORO"
 battler_name = "Don"
 battler_id = 1
-raw_battle_items = []
 
 [[trainers.PANGORO.1.pokemon]]
 internal_name = "PANGORO"
@@ -44,11 +34,3 @@ raw_moves = [
 ]
 nature = "ADAMANT"
 iv = 30
-
-[trainers.PANGORO.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0

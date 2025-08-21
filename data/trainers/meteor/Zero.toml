@@ -23,7 +23,6 @@ nature = "CAREFUL"
 iv = 31
 
 [trainers.ZEL2.20.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -45,7 +44,6 @@ nature = "TIMID"
 iv = 31
 
 [trainers.ZEL2.20.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -67,7 +65,6 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.ZEL2.20.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -90,7 +87,6 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.ZEL2.20.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -112,7 +108,6 @@ nature = "CALM"
 iv = 31
 
 [trainers.ZEL2.20.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -134,17 +129,12 @@ iv = 31
 happiness = 0
 
 [trainers.ZEL2.20.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 252
-spe = 0
 
 [trainers.ZEL3.0]
 raw_trainer_class = "ZEL3"
 battler_name = "Zero"
-raw_battle_items = []
 
 [[trainers.ZEL3.0.pokemon]]
 internal_name = "HONCHKROW"
@@ -161,12 +151,9 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.ZEL3.0.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.ZEL3.0.pokemon]]
 internal_name = "ARTICUNO"
@@ -182,12 +169,9 @@ nature = "TIMID"
 iv = 31
 
 [trainers.ZEL3.0.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.ZEL3.0.pokemon]]
 internal_name = "WEAVILE"
@@ -205,12 +189,9 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.ZEL3.0.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.ZEL3.0.pokemon]]
 internal_name = "DODRIO"
@@ -230,12 +211,9 @@ iv = 31
 happiness = 0
 
 [trainers.ZEL3.0.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.ZEL3.0.pokemon]]
 internal_name = "UMBREON"
@@ -251,10 +229,7 @@ nature = "CALM"
 iv = 31
 
 [trainers.ZEL3.0.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 252
 spe = 4
 
@@ -273,18 +248,14 @@ nature = "TIMID"
 iv = 31
 
 [trainers.ZEL3.0.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [trainers.ZEL3.1000]
 raw_trainer_class = "ZEL3"
 battler_name = "Zero"
 battler_id = 1000
-raw_battle_items = []
 
 [[trainers.ZEL3.1000.pokemon]]
 internal_name = "SABLEYE"
@@ -302,11 +273,7 @@ nature = "BOLD"
 iv = 31
 
 [trainers.ZEL3.1000.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 252
 
 [[trainers.ZEL3.1000.pokemon]]
@@ -324,11 +291,7 @@ nature = "BOLD"
 iv = 31
 
 [trainers.ZEL3.1000.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 252
 
 [[trainers.ZEL3.1000.pokemon]]
@@ -346,18 +309,13 @@ nature = "CALM"
 iv = 31
 
 [trainers.ZEL3.1000.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 4
 
 [trainers.ZEL3.1001]
 raw_trainer_class = "ZEL3"
 battler_name = "Zero"
 battler_id = 1001
-raw_battle_items = []
 
 [[trainers.ZEL3.1001.pokemon]]
 internal_name = "SPIRITOMB"
@@ -374,11 +332,7 @@ nature = "BOLD"
 iv = 31
 
 [trainers.ZEL3.1001.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 252
 
 [[trainers.ZEL3.1001.pokemon]]
@@ -396,11 +350,7 @@ nature = "CALM"
 iv = 31
 
 [trainers.ZEL3.1001.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 4
 
 [[trainers.ZEL3.1001.pokemon]]
@@ -418,9 +368,6 @@ nature = "TIMID"
 iv = 31
 
 [trainers.ZEL3.1001.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
 spe = 4
@@ -429,7 +376,6 @@ spe = 4
 raw_trainer_class = "ZEL3"
 battler_name = "Zero"
 battler_id = 10
-raw_battle_items = []
 
 [[trainers.ZEL3.10.pokemon]]
 internal_name = "ZOROARK"
@@ -446,12 +392,8 @@ nature = "MODEST"
 iv = 31
 
 [trainers.ZEL3.10.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 252
-spe = 0
 
 [[trainers.ZEL3.10.pokemon]]
 internal_name = "ZAPDOS"
@@ -469,10 +411,7 @@ nature = "MODEST"
 iv = 31
 
 [trainers.ZEL3.10.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 252
 spe = 4
 
@@ -492,12 +431,9 @@ nature = "HASTY"
 iv = 31
 
 [trainers.ZEL3.10.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.ZEL3.10.pokemon]]
 internal_name = "ZEKROM"
@@ -515,11 +451,7 @@ iv = 31
 happiness = 255
 
 [trainers.ZEL3.10.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 56
 
 [[trainers.ZEL3.10.pokemon]]
@@ -537,12 +469,9 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.ZEL3.10.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.ZEL3.10.pokemon]]
 internal_name = "ZYGARDE"
@@ -561,18 +490,14 @@ iv = 31
 happiness = 255
 
 [trainers.ZEL3.10.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 128
-spa = 0
 spd = 128
-spe = 0
 
 [trainers.ZEL3.11]
 raw_trainer_class = "ZEL3"
 battler_name = "Zero"
 battler_id = 11
-raw_battle_items = []
 
 [[trainers.ZEL3.11.pokemon]]
 internal_name = "YVELTAL"
@@ -589,12 +514,8 @@ nature = "TIMID"
 iv = 31
 
 [trainers.ZEL3.11.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.ZEL3.11.pokemon]]
 internal_name = "UMBREON"
@@ -611,11 +532,7 @@ nature = "BOLD"
 iv = 31
 
 [trainers.ZEL3.11.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 56
 
 [[trainers.ZEL3.11.pokemon]]
@@ -634,12 +551,9 @@ nature = "TIMID"
 iv = 31
 
 [trainers.ZEL3.11.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.ZEL3.11.pokemon]]
 internal_name = "ARTICUNO"
@@ -657,12 +571,9 @@ iv = 31
 happiness = 255
 
 [trainers.ZEL3.11.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.ZEL3.11.pokemon]]
 internal_name = "HONCHKROW"
@@ -679,12 +590,9 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.ZEL3.11.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.ZEL3.11.pokemon]]
 internal_name = "SHAYMIN"
@@ -703,18 +611,13 @@ iv = 31
 happiness = 255
 
 [trainers.ZEL3.11.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [trainers.ZEL3.12]
 raw_trainer_class = "ZEL3"
 battler_name = "Zero"
 battler_id = 12
-raw_battle_items = []
 
 [[trainers.ZEL3.12.pokemon]]
 internal_name = "EEVEE"
@@ -732,12 +635,8 @@ nature = "MODEST"
 iv = 31
 
 [trainers.ZEL3.12.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 252
-spe = 0
 
 [[trainers.ZEL3.12.pokemon]]
 internal_name = "UMBREON"
@@ -754,11 +653,7 @@ nature = "CALM"
 iv = 31
 
 [trainers.ZEL3.12.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 4
 
 [[trainers.ZEL3.12.pokemon]]
@@ -777,12 +672,9 @@ nature = "TIMID"
 iv = 31
 
 [trainers.ZEL3.12.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.ZEL3.12.pokemon]]
 internal_name = "GLACEON"
@@ -800,12 +692,9 @@ iv = 31
 happiness = 255
 
 [trainers.ZEL3.12.pokemon.evs]
-hp = 0
 atk = 128
-def_ = 0
 spa = 128
 spd = 252
-spe = 0
 
 [[trainers.ZEL3.12.pokemon]]
 internal_name = "VAPOREON"
@@ -822,11 +711,7 @@ nature = "CALM"
 iv = 31
 
 [trainers.ZEL3.12.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 252
 
 [[trainers.ZEL3.12.pokemon]]
@@ -845,9 +730,6 @@ iv = 31
 happiness = 255
 
 [trainers.ZEL3.12.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0

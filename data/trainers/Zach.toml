@@ -3,148 +3,43 @@ trainer_name = "Zach"
 [trainers.Casanova.3]
 raw_trainer_class = "Casanova"
 battler_name = "Zach"
+pokemon = [
+    { internal_name = "BULBASAUR", level = 11, iv = 0 },
+    { internal_name = "SOLOSIS", level = 12, iv = 0 },
+]
 battler_id = 3
-raw_battle_items = []
-
-[[trainers.Casanova.3.pokemon]]
-internal_name = "BULBASAUR"
-level = 11
-iv = 0
-
-[trainers.Casanova.3.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.Casanova.3.pokemon]]
-internal_name = "SOLOSIS"
-level = 12
-iv = 0
-
-[trainers.Casanova.3.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.Casanova.0]
 raw_trainer_class = "Casanova"
 battler_name = "Zach"
-raw_battle_items = []
-
-[[trainers.Casanova.0.pokemon]]
-internal_name = "IVYSAUR"
-level = 35
-iv = 0
-
-[trainers.Casanova.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.Casanova.0.pokemon]]
-internal_name = "DUOSION"
-level = 36
-iv = 0
-
-[trainers.Casanova.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
+pokemon = [
+    { internal_name = "IVYSAUR", level = 35, iv = 0 },
+    { internal_name = "DUOSION", level = 36, iv = 0 },
+]
 
 [trainers.Casanova.1]
 raw_trainer_class = "Casanova"
 battler_name = "Zach"
+pokemon = [
+    { internal_name = "VENUSAUR", level = 50, iv = 0 },
+    { internal_name = "REUNICLUS", level = 51, iv = 0 },
+]
 battler_id = 1
-raw_battle_items = []
-
-[[trainers.Casanova.1.pokemon]]
-internal_name = "VENUSAUR"
-level = 50
-iv = 0
-
-[trainers.Casanova.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.Casanova.1.pokemon]]
-internal_name = "REUNICLUS"
-level = 51
-iv = 0
-
-[trainers.Casanova.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.Casanova.2]
 raw_trainer_class = "Casanova"
 battler_name = "Zach"
+pokemon = [
+    { internal_name = "KOMALA", level = 54, iv = 0 },
+    { internal_name = "VENUSAUR", level = 60, iv = 0 },
+    { internal_name = "REUNICLUS", level = 61, iv = 0 },
+]
 battler_id = 2
-raw_battle_items = []
-
-[[trainers.Casanova.2.pokemon]]
-internal_name = "KOMALA"
-level = 54
-iv = 0
-
-[trainers.Casanova.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.Casanova.2.pokemon]]
-internal_name = "VENUSAUR"
-level = 60
-iv = 0
-
-[trainers.Casanova.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.Casanova.2.pokemon]]
-internal_name = "REUNICLUS"
-level = 61
-iv = 0
-
-[trainers.Casanova.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.Casanova.4]
 raw_trainer_class = "Casanova"
 battler_name = "Zach"
 battler_id = 4
-raw_battle_items = []
 
 [[trainers.Casanova.4.pokemon]]
 internal_name = "KOMALA"
@@ -157,14 +52,6 @@ raw_moves = [
     "IRONHEAD",
 ]
 iv = 0
-
-[trainers.Casanova.4.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.Casanova.4.pokemon]]
 internal_name = "ARCANINE"
@@ -179,14 +66,6 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.Casanova.4.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.Casanova.4.pokemon]]
 internal_name = "REUNICLUS"
 level = 85
@@ -199,14 +78,6 @@ raw_moves = [
 ]
 ability_number = 1
 iv = 0
-
-[trainers.Casanova.4.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.Casanova.4.pokemon]]
 internal_name = "VENUSAUR"
@@ -222,42 +93,11 @@ sex = ""
 nature = "MODEST"
 iv = 15
 
-[trainers.Casanova.4.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [trainers.Casanova.5]
 raw_trainer_class = "Casanova"
 battler_name = "Zach"
+pokemon = [
+    { internal_name = "SOLOSIS", level = 21, iv = 0 },
+    { internal_name = "IVYSAUR", level = 23, iv = 0 },
+]
 battler_id = 5
-raw_battle_items = []
-
-[[trainers.Casanova.5.pokemon]]
-internal_name = "SOLOSIS"
-level = 21
-iv = 0
-
-[trainers.Casanova.5.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.Casanova.5.pokemon]]
-internal_name = "IVYSAUR"
-level = 23
-iv = 0
-
-[trainers.Casanova.5.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0

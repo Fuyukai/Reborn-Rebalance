@@ -20,14 +20,6 @@ raw_moves = [
 nature = "TIMID"
 iv = 31
 
-[trainers.JULIA.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.JULIA.0.pokemon]]
 internal_name = "GEODUDE"
 level = 20
@@ -43,17 +35,10 @@ is_shiny = true
 nature = "ADAMANT"
 iv = 31
 
-[trainers.JULIA.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.JULIA.0.pokemon]]
 internal_name = "VOLTORB"
 level = 19
+raw_item = "FOCUSSASH"
 raw_moves = [
     "EXPLOSION",
     "ROLLOUT",
@@ -61,19 +46,10 @@ raw_moves = [
     "SONICBOOM",
 ]
 ability_number = 2
-form_number = 1
 sex = "F"
+form_number = 1
 nature = "ADAMANT"
 iv = 31
-raw_item = "FOCUSSASH"
-
-[trainers.JULIA.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.JULIA.0.pokemon]]
 internal_name = "PAWMO"
@@ -87,14 +63,6 @@ raw_moves = [
 is_shiny = true
 nature = "JOLLY"
 iv = 20
-
-[trainers.JULIA.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.JULIA.0.pokemon]]
 internal_name = "ORICORIO"
@@ -110,14 +78,6 @@ sex = "F"
 form_number = 1
 nature = "QUIRKY"
 
-[trainers.JULIA.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.JULIA.0.pokemon]]
 internal_name = "JOLTIK"
 level = 19
@@ -127,24 +87,14 @@ raw_moves = [
     "DISABLE",
     "ABSORB",
 ]
-ability_number = 0
 sex = "F"
 nature = "BASHFUL"
 iv = 31
-
-[trainers.JULIA.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.JULIA.1]
 raw_trainer_class = "JULIA"
 battler_name = "Julia"
 battler_id = 1
-raw_battle_items = []
 
 [[trainers.JULIA.1.pokemon]]
 internal_name = "ELECTRODE"
@@ -161,14 +111,6 @@ sex = "F"
 nature = "MODEST"
 iv = 31
 
-[trainers.JULIA.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.JULIA.1.pokemon]]
 internal_name = "BRONZONG"
 level = 67
@@ -182,14 +124,6 @@ raw_moves = [
 sex = ""
 nature = "BRAVE"
 iv = 32
-
-[trainers.JULIA.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.JULIA.1.pokemon]]
 internal_name = "ROTOM"
@@ -207,14 +141,6 @@ form_number = 4
 nature = "MODEST"
 iv = 31
 
-[trainers.JULIA.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.JULIA.1.pokemon]]
 internal_name = "MAGNEZONE"
 level = 66
@@ -229,14 +155,6 @@ ability_number = 2
 sex = ""
 nature = "MODEST"
 iv = 31
-
-[trainers.JULIA.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.JULIA.1.pokemon]]
 internal_name = "GOLEM"
@@ -254,14 +172,6 @@ is_shiny = true
 nature = "ADAMANT"
 iv = 31
 
-[trainers.JULIA.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.JULIA.1.pokemon]]
 internal_name = "ORICORIO"
 level = 70
@@ -278,19 +188,10 @@ form_number = 1
 nature = "MODEST"
 iv = 31
 
-[trainers.JULIA.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [trainers.JULIA.2]
 raw_trainer_class = "JULIA"
 battler_name = "Julia"
 battler_id = 2
-raw_battle_items = []
 
 [[trainers.JULIA.2.pokemon]]
 internal_name = "GALVANTULA"
@@ -307,9 +208,6 @@ nature = "TIMID"
 iv = 31
 
 [trainers.JULIA.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
 spe = 4
@@ -330,12 +228,8 @@ nature = "MODEST"
 iv = 31
 
 [trainers.JULIA.2.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 252
-spe = 0
 
 [[trainers.JULIA.2.pokemon]]
 internal_name = "AMPHAROS"
@@ -352,12 +246,8 @@ nature = "MODEST"
 iv = 31
 
 [trainers.JULIA.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.JULIA.2.pokemon]]
 internal_name = "RAICHU"
@@ -375,9 +265,6 @@ nature = "TIMID"
 iv = 31
 
 [trainers.JULIA.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
 spe = 4
@@ -397,12 +284,8 @@ nature = "MODEST"
 iv = 31
 
 [trainers.JULIA.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.JULIA.2.pokemon]]
 internal_name = "XURKITREE"
@@ -419,18 +302,13 @@ nature = "MODEST"
 iv = 31
 
 [trainers.JULIA.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [trainers.JULIA.3]
 raw_trainer_class = "JULIA"
 battler_name = "Julia"
 battler_id = 3
-raw_battle_items = []
 
 [[trainers.JULIA.3.pokemon]]
 internal_name = "GALVANTULA"
@@ -447,9 +325,6 @@ nature = "TIMID"
 iv = 31
 
 [trainers.JULIA.3.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
 spe = 4
@@ -470,12 +345,8 @@ nature = "MODEST"
 iv = 31
 
 [trainers.JULIA.3.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 252
-spe = 0
 
 [[trainers.JULIA.3.pokemon]]
 internal_name = "AMPHAROS"
@@ -492,18 +363,13 @@ nature = "MODEST"
 iv = 31
 
 [trainers.JULIA.3.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [trainers.JULIA.10]
 raw_trainer_class = "JULIA"
 battler_name = "Julia"
 battler_id = 10
-raw_battle_items = []
 
 [[trainers.JULIA.10.pokemon]]
 internal_name = "GALVANTULA"
@@ -520,9 +386,6 @@ nature = "TIMID"
 iv = 31
 
 [trainers.JULIA.10.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
 spe = 4
@@ -543,12 +406,8 @@ nature = "MODEST"
 iv = 31
 
 [trainers.JULIA.10.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 252
-spe = 0
 
 [[trainers.JULIA.10.pokemon]]
 internal_name = "AMPHAROS"
@@ -565,12 +424,8 @@ nature = "MODEST"
 iv = 31
 
 [trainers.JULIA.10.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.JULIA.10.pokemon]]
 internal_name = "RAICHU"
@@ -588,9 +443,6 @@ nature = "TIMID"
 iv = 31
 
 [trainers.JULIA.10.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
 spe = 4
@@ -610,12 +462,8 @@ nature = "MODEST"
 iv = 31
 
 [trainers.JULIA.10.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.JULIA.10.pokemon]]
 internal_name = "XURKITREE"
@@ -632,18 +480,13 @@ nature = "MODEST"
 iv = 31
 
 [trainers.JULIA.10.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [trainers.JULIA.11]
 raw_trainer_class = "JULIA"
 battler_name = "Julia"
 battler_id = 11
-raw_battle_items = []
 
 [[trainers.JULIA.11.pokemon]]
 internal_name = "TAPUKOKO"
@@ -660,10 +503,7 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.JULIA.11.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 4
 spe = 252
 
@@ -683,9 +523,6 @@ nature = "TIMID"
 iv = 31
 
 [trainers.JULIA.11.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
 spe = 4
@@ -706,12 +543,8 @@ nature = "MODEST"
 iv = 31
 
 [trainers.JULIA.11.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 252
-spe = 0
 
 [[trainers.JULIA.11.pokemon]]
 internal_name = "ZEKROM"
@@ -728,10 +561,7 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.JULIA.11.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 4
 spe = 252
 
@@ -751,12 +581,9 @@ nature = "MODEST"
 iv = 31
 
 [trainers.JULIA.11.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.JULIA.11.pokemon]]
 internal_name = "XURKITREE"
@@ -773,18 +600,13 @@ nature = "MODEST"
 iv = 31
 
 [trainers.JULIA.11.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [trainers.JULIA.12]
 raw_trainer_class = "JULIA"
 battler_name = "Julia"
 battler_id = 12
-raw_battle_items = []
 
 [[trainers.JULIA.12.pokemon]]
 internal_name = "ROTOM"
@@ -803,12 +625,8 @@ iv = 31
 nickname = "Sploosh"
 
 [trainers.JULIA.12.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 252
-spe = 0
 
 [[trainers.JULIA.12.pokemon]]
 internal_name = "LANTURN"
@@ -825,12 +643,8 @@ nature = "MODEST"
 iv = 31
 
 [trainers.JULIA.12.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.JULIA.12.pokemon]]
 internal_name = "VIKAVOLT"
@@ -847,12 +661,8 @@ nature = "MODEST"
 iv = 31
 
 [trainers.JULIA.12.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 252
-spe = 0
 
 [[trainers.JULIA.12.pokemon]]
 internal_name = "EELEKTROSS"
@@ -869,10 +679,7 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.JULIA.12.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 4
 spe = 252
 
@@ -892,9 +699,6 @@ nature = "TIMID"
 iv = 31
 
 [trainers.JULIA.12.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
 spe = 4
@@ -915,9 +719,6 @@ nature = "TIMID"
 iv = 31
 
 [trainers.JULIA.12.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
 spe = 4
@@ -926,7 +727,6 @@ spe = 4
 raw_trainer_class = "JULIA"
 battler_name = "Julia"
 battler_id = 13
-raw_battle_items = []
 
 [[trainers.JULIA.13.pokemon]]
 internal_name = "ROTOM"
@@ -945,12 +745,8 @@ iv = 31
 nickname = "Sploosh"
 
 [trainers.JULIA.13.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 252
-spe = 0
 
 [[trainers.JULIA.13.pokemon]]
 internal_name = "ROTOM"
@@ -969,12 +765,8 @@ iv = 31
 nickname = "Vroom"
 
 [trainers.JULIA.13.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.JULIA.13.pokemon]]
 internal_name = "ROTOM"
@@ -993,12 +785,8 @@ iv = 31
 nickname = "Whoosh"
 
 [trainers.JULIA.13.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 252
-spe = 0
 
 [[trainers.JULIA.13.pokemon]]
 internal_name = "ROTOM"
@@ -1017,12 +805,8 @@ iv = 31
 nickname = "Brrr"
 
 [trainers.JULIA.13.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 252
-spe = 0
 
 [[trainers.JULIA.13.pokemon]]
 internal_name = "ROTOM"
@@ -1041,12 +825,8 @@ iv = 31
 nickname = "Hottie ;)"
 
 [trainers.JULIA.13.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.JULIA.13.pokemon]]
 internal_name = "ROTOM"
@@ -1064,18 +844,13 @@ iv = 31
 nickname = "Bzzt"
 
 [trainers.JULIA.13.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [trainers.JULIA.14]
 raw_trainer_class = "JULIA"
 battler_name = "Julia"
 battler_id = 14
-raw_battle_items = []
 
 [[trainers.JULIA.14.pokemon]]
 internal_name = "JOLTEON"
@@ -1092,9 +867,6 @@ nature = "TIMID"
 iv = 31
 
 [trainers.JULIA.14.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
 spe = 4
@@ -1114,9 +886,6 @@ nature = "MODEST"
 iv = 31
 
 [trainers.JULIA.14.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
 spe = 4
@@ -1136,10 +905,7 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.JULIA.14.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 4
 spe = 252
 
@@ -1158,12 +924,8 @@ nature = "MODEST"
 iv = 31
 
 [trainers.JULIA.14.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.JULIA.14.pokemon]]
 internal_name = "ELECTIVIRE"
@@ -1180,11 +942,8 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.JULIA.14.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 4
-spa = 0
-spd = 0
 spe = 252
 
 [[trainers.JULIA.14.pokemon]]
@@ -1202,18 +961,13 @@ nature = "MODEST"
 iv = 31
 
 [trainers.JULIA.14.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [trainers.JULIA.15]
 raw_trainer_class = "JULIA"
 battler_name = "Julia"
 battler_id = 15
-raw_battle_items = []
 
 [[trainers.JULIA.15.pokemon]]
 internal_name = "MAGEARNA"
@@ -1223,14 +977,6 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.JULIA.15.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.JULIA.15.pokemon]]
 internal_name = "LANDORUS"
 level = 100
@@ -1239,14 +985,6 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.JULIA.15.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.JULIA.15.pokemon]]
 internal_name = "CELESTEELA"
 level = 100
@@ -1254,14 +992,6 @@ raw_moves = [
     "EXPLOSION",
 ]
 iv = 0
-
-[trainers.JULIA.15.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.JULIA.15.pokemon]]
 internal_name = "DIANCIE"
@@ -1272,14 +1002,6 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.JULIA.15.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.JULIA.15.pokemon]]
 internal_name = "GENESECT"
 level = 100
@@ -1287,14 +1009,6 @@ raw_moves = [
     "EXPLOSION",
 ]
 iv = 0
-
-[trainers.JULIA.15.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.JULIA.15.pokemon]]
 internal_name = "MEW"
@@ -1304,14 +1018,6 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.JULIA.15.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [trainers.JULIA.20]
 raw_trainer_class = "JULIA"
 battler_name = "Julia"
@@ -1320,7 +1026,6 @@ raw_battle_items = [
     "POTION",
     "POTION",
 ]
-
 
 [[trainers.JULIA.20.pokemon]]
 internal_name = "BELLIBOLT"
@@ -1333,14 +1038,6 @@ raw_moves = [
 ]
 sex = "F"
 nature = "TIMID"
-
-[trainers.JULIA.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.JULIA.20.pokemon]]
 internal_name = "YAMPER"
@@ -1356,14 +1053,6 @@ ability_number = 1
 sex = "F"
 nature = "JOLLY"
 
-[trainers.JULIA.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.JULIA.20.pokemon]]
 internal_name = "ORICORIO"
 level = 14
@@ -1377,14 +1066,6 @@ ability_number = 1
 sex = "F"
 form_number = 1
 nature = "QUIRKY"
-
-[trainers.JULIA.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.JULIA.20.pokemon]]
 internal_name = "ELECTRODE"
@@ -1400,19 +1081,10 @@ sex = "F"
 nature = "BASHFUL"
 iv = 24
 
-[trainers.JULIA.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [trainers.JULIA.21]
 raw_trainer_class = "JULIA"
 battler_name = "Julia"
 battler_id = 21
-raw_battle_items = []
 
 [[trainers.JULIA.21.pokemon]]
 internal_name = "ELECTRODE"
@@ -1429,14 +1101,6 @@ sex = "F"
 nature = "MODEST"
 iv = 31
 
-[trainers.JULIA.21.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.JULIA.21.pokemon]]
 internal_name = "BRONZONG"
 level = 67
@@ -1450,14 +1114,6 @@ raw_moves = [
 sex = ""
 nature = "BRAVE"
 iv = 32
-
-[trainers.JULIA.21.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.JULIA.21.pokemon]]
 internal_name = "KILOWATTREL"
@@ -1474,14 +1130,6 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.JULIA.21.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.JULIA.21.pokemon]]
 internal_name = "BOLTUND"
 level = 66
@@ -1495,14 +1143,6 @@ raw_moves = [
 sex = ""
 nature = "JOLLY"
 iv = 31
-
-[trainers.JULIA.21.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.JULIA.21.pokemon]]
 internal_name = "PAWMOT"
@@ -1519,14 +1159,6 @@ is_shiny = true
 nature = "JOLLY"
 iv = 31
 
-[trainers.JULIA.21.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.JULIA.21.pokemon]]
 internal_name = "ORICORIO"
 level = 70
@@ -1542,11 +1174,3 @@ sex = "F"
 form_number = 1
 nature = "MODEST"
 iv = 31
-
-[trainers.JULIA.21.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0

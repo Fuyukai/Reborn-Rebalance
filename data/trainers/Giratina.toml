@@ -3,7 +3,6 @@ trainer_name = "Giratina"
 [trainers.GIRATINA.0]
 raw_trainer_class = "GIRATINA"
 battler_name = "Giratina"
-raw_battle_items = []
 
 [[trainers.GIRATINA.0.pokemon]]
 internal_name = "JYNX"
@@ -15,15 +14,11 @@ raw_moves = [
     "DRAININGKISS",
     "NASTYPLOT",
 ]
-ability_number = 0
 sex = ""
 nature = "TIMID"
 iv = 31
 
 [trainers.GIRATINA.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
 spe = 4
@@ -44,12 +39,8 @@ nature = "TIMID"
 iv = 31
 
 [trainers.GIRATINA.0.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.GIRATINA.0.pokemon]]
 internal_name = "LUGIA"
@@ -67,11 +58,7 @@ nature = "BOLD"
 iv = 31
 
 [trainers.GIRATINA.0.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 252
 
 [[trainers.GIRATINA.0.pokemon]]
@@ -90,12 +77,8 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.GIRATINA.0.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.GIRATINA.0.pokemon]]
 internal_name = "YVELTAL"
@@ -112,12 +95,9 @@ nature = "MODEST"
 iv = 31
 
 [trainers.GIRATINA.0.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.GIRATINA.0.pokemon]]
 internal_name = "GIRATINA"
@@ -135,7 +115,6 @@ nature = "MODEST"
 iv = 31
 
 [trainers.GIRATINA.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252

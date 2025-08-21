@@ -3,7 +3,6 @@ trainer_name = "Swarm"
 [trainers.Swarm.0]
 raw_trainer_class = "Swarm"
 battler_name = "Swarm"
-raw_battle_items = []
 
 [[trainers.Swarm.0.pokemon]]
 internal_name = "VENIPEDE"
@@ -15,14 +14,6 @@ raw_moves = [
     "BUGBITE",
 ]
 iv = 0
-
-[trainers.Swarm.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.Swarm.0.pokemon]]
 internal_name = "VENIPEDE"
@@ -36,14 +27,6 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.Swarm.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.Swarm.0.pokemon]]
 internal_name = "SCOLIPEDE"
 level = 42
@@ -56,11 +39,3 @@ raw_moves = [
 ]
 ability_number = 2
 iv = 0
-
-[trainers.Swarm.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0

@@ -3,7 +3,6 @@ trainer_name = "'Ng'Mp"
 [trainers.GLITCH1.0]
 raw_trainer_class = "GLITCH1"
 battler_name = "'Ng'Mp"
-raw_battle_items = []
 
 [[trainers.GLITCH1.0.pokemon]]
 internal_name = "WEEPINBELL"
@@ -16,14 +15,6 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.GLITCH1.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.GLITCH1.0.pokemon]]
 internal_name = "GOLDUCK"
 level = 76
@@ -35,11 +26,3 @@ raw_moves = [
 ]
 ability_number = 1
 iv = 0
-
-[trainers.GLITCH1.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0

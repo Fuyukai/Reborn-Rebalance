@@ -3,7 +3,6 @@ trainer_name = "MRMR2"
 [trainers.GLITCH4.0]
 raw_trainer_class = "GLITCH4"
 battler_name = "MRMR2"
-raw_battle_items = []
 
 [[trainers.GLITCH4.0.pokemon]]
 internal_name = "XURKITREE"
@@ -20,11 +19,8 @@ nature = "BOLD"
 iv = 31
 
 [trainers.GLITCH4.0.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
 spa = 252
-spd = 0
 spe = 4
 
 [[trainers.GLITCH4.0.pokemon]]
@@ -42,11 +38,7 @@ nature = "CALM"
 iv = 31
 
 [trainers.GLITCH4.0.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 4
 
 [[trainers.GLITCH4.0.pokemon]]
@@ -64,12 +56,8 @@ nature = "TIMID"
 iv = 31
 
 [trainers.GLITCH4.0.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.GLITCH4.0.pokemon]]
 internal_name = "MILOTIC"
@@ -86,12 +74,8 @@ nature = "CALM"
 iv = 31
 
 [trainers.GLITCH4.0.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
 spa = 4
-spd = 0
-spe = 0
 
 [[trainers.GLITCH4.0.pokemon]]
 internal_name = "VOLCARONA"
@@ -108,12 +92,9 @@ nature = "MODEST"
 iv = 31
 
 [trainers.GLITCH4.0.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.GLITCH4.0.pokemon]]
 internal_name = "CLEFABLE"
@@ -131,9 +112,6 @@ nature = "NAUGHTY"
 iv = 31
 
 [trainers.GLITCH4.0.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
 spe = 4

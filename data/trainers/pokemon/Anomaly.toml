@@ -3,7 +3,6 @@ trainer_name = "Anomaly"
 [trainers.REGIS.0]
 raw_trainer_class = "REGIS"
 battler_name = "Anomaly"
-raw_battle_items = []
 
 [[trainers.REGIS.0.pokemon]]
 internal_name = "STAKATAKA"
@@ -20,12 +19,8 @@ nature = "BRAVE"
 iv = 32
 
 [trainers.REGIS.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.REGIS.0.pokemon]]
 internal_name = "TYRANITAR"
@@ -43,12 +38,8 @@ nature = "QUIET"
 iv = 32
 
 [trainers.REGIS.0.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.REGIS.0.pokemon]]
 internal_name = "MAWILE"
@@ -65,12 +56,8 @@ nature = "BRAVE"
 iv = 32
 
 [trainers.REGIS.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.REGIS.0.pokemon]]
 internal_name = "REGIROCK"
@@ -87,10 +74,8 @@ nature = "BRAVE"
 iv = 32
 
 [trainers.REGIS.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
 spd = 252
 spe = 252
 
@@ -109,10 +94,8 @@ nature = "QUIET"
 iv = 32
 
 [trainers.REGIS.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
 spd = 252
 spe = 252
 
@@ -131,7 +114,6 @@ nature = "CALM"
 iv = 31
 
 [trainers.REGIS.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -141,7 +123,6 @@ spe = 252
 [trainers.GENIES.0]
 raw_trainer_class = "GENIES"
 battler_name = "Anomaly"
-raw_battle_items = []
 
 [[trainers.GENIES.0.pokemon]]
 internal_name = "TORNADUS"
@@ -158,12 +139,9 @@ nature = "HASTY"
 iv = 23
 
 [trainers.GENIES.0.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.GENIES.0.pokemon]]
 internal_name = "THUNDURUS"
@@ -180,12 +158,9 @@ nature = "TIMID"
 iv = 23
 
 [trainers.GENIES.0.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.GENIES.0.pokemon]]
 internal_name = "LANDORUS"
@@ -203,12 +178,9 @@ nature = "NAIVE"
 iv = 23
 
 [trainers.GENIES.0.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
 spd = 4
-spe = 0
 
 [[trainers.GENIES.0.pokemon]]
 internal_name = "THUNDURUS"
@@ -226,12 +198,9 @@ nature = "MODEST"
 iv = 23
 
 [trainers.GENIES.0.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.GENIES.0.pokemon]]
 internal_name = "TORNADUS"
@@ -249,11 +218,8 @@ nature = "TIMID"
 iv = 23
 
 [trainers.GENIES.0.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
 spa = 252
-spd = 0
 spe = 4
 
 [[trainers.GENIES.0.pokemon]]
@@ -272,9 +238,6 @@ nature = "JOLLY"
 iv = 23
 
 [trainers.GENIES.0.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0

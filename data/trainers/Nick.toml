@@ -3,7 +3,6 @@ trainer_name = "Nick"
 [trainers.PkMnRANGER_Male.0]
 raw_trainer_class = "PkMnRANGER_Male"
 battler_name = "Nick"
-raw_battle_items = []
 
 [[trainers.PkMnRANGER_Male.0.pokemon]]
 internal_name = "POLITOED"
@@ -15,14 +14,6 @@ raw_moves = [
     "BOUNCE",
 ]
 iv = 0
-
-[trainers.PkMnRANGER_Male.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.PkMnRANGER_Male.0.pokemon]]
 internal_name = "SIMISAGE"
@@ -36,14 +27,6 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.PkMnRANGER_Male.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.PkMnRANGER_Male.0.pokemon]]
 internal_name = "GOURGEIST"
 level = 68
@@ -55,11 +38,3 @@ raw_moves = [
 ]
 ability_number = 2
 iv = 0
-
-[trainers.PkMnRANGER_Male.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0

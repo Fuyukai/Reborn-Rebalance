@@ -3,7 +3,6 @@ trainer_name = "Asmus"
 [trainers.KNIGHT.0]
 raw_trainer_class = "KNIGHT"
 battler_name = "Asmus"
-raw_battle_items = []
 
 [[trainers.KNIGHT.0.pokemon]]
 internal_name = "NIDOKING"
@@ -16,11 +15,3 @@ raw_moves = [
 ]
 ability_number = 2
 iv = 0
-
-[trainers.KNIGHT.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0

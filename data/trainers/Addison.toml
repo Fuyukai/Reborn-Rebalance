@@ -3,7 +3,6 @@ trainer_name = "Addison"
 [trainers.RANGERF.0]
 raw_trainer_class = "RANGERF"
 battler_name = "Addison"
-raw_battle_items = []
 
 [[trainers.RANGERF.0.pokemon]]
 internal_name = "MAROWAK"
@@ -16,11 +15,3 @@ raw_moves = [
     "THUNDERPUNCH",
 ]
 iv = 0
-
-[trainers.RANGERF.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0

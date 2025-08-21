@@ -3,57 +3,22 @@ trainer_name = "Antoine"
 [trainers.MeteorGrunt.0]
 raw_trainer_class = "MeteorGrunt"
 battler_name = "Antoine"
-raw_battle_items = []
-
-[[trainers.MeteorGrunt.0.pokemon]]
-internal_name = "POOCHYENA"
-level = 12
-iv = 0
-
-[trainers.MeteorGrunt.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
+pokemon = [
+    { internal_name = "POOCHYENA", level = 12, iv = 0 },
+]
 
 [trainers.MeteorGrunt.1]
 raw_trainer_class = "MeteorGrunt"
 battler_name = "Antoine"
+pokemon = [
+    { internal_name = "MIGHTYENA", level = 40, iv = 0 },
+    { internal_name = "LIEPARD", level = 40, iv = 0 },
+]
 battler_id = 1
-raw_battle_items = []
-
-[[trainers.MeteorGrunt.1.pokemon]]
-internal_name = "MIGHTYENA"
-level = 40
-iv = 0
-
-[trainers.MeteorGrunt.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.MeteorGrunt.1.pokemon]]
-internal_name = "LIEPARD"
-level = 40
-iv = 0
-
-[trainers.MeteorGrunt.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.MeteorDame.0]
 raw_trainer_class = "MeteorDame"
 battler_name = "Antoine"
-raw_battle_items = []
 
 [[trainers.MeteorDame.0.pokemon]]
 internal_name = "LURANTIS"
@@ -66,14 +31,6 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.MeteorDame.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.MeteorDame.0.pokemon]]
 internal_name = "LIEPARD"
 level = 65
@@ -84,14 +41,6 @@ raw_moves = [
     "SUBSTITUTE",
 ]
 iv = 0
-
-[trainers.MeteorDame.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.MeteorDame.0.pokemon]]
 internal_name = "MIGHTYENA"
@@ -104,18 +53,9 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.MeteorDame.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [trainers.MeteorAceF.0]
 raw_trainer_class = "MeteorAceF"
 battler_name = "Antoine"
-raw_battle_items = []
 
 [[trainers.MeteorAceF.0.pokemon]]
 internal_name = "MAMOSWINE"
@@ -129,14 +69,6 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.MeteorAceF.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.MeteorAceF.0.pokemon]]
 internal_name = "LURANTIS"
 level = 71
@@ -148,14 +80,6 @@ raw_moves = [
 ]
 ability_number = 1
 iv = 0
-
-[trainers.MeteorAceF.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.MeteorAceF.0.pokemon]]
 internal_name = "LIEPARD"
@@ -168,14 +92,6 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.MeteorAceF.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.MeteorAceF.0.pokemon]]
 internal_name = "MIGHTYENA"
 level = 73
@@ -186,14 +102,6 @@ raw_moves = [
     "FIREFANG",
 ]
 iv = 0
-
-[trainers.MeteorAceF.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.MeteorAceF.0.pokemon]]
 internal_name = "TYRANITAR"
@@ -206,19 +114,10 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.MeteorAceF.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [trainers.MeteorAceF.1]
 raw_trainer_class = "MeteorAceF"
 battler_name = "Antoine"
 battler_id = 1
-raw_battle_items = []
 
 [[trainers.MeteorAceF.1.pokemon]]
 internal_name = "MAMOSWINE"
@@ -232,14 +131,6 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.MeteorAceF.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.MeteorAceF.1.pokemon]]
 internal_name = "LURANTIS"
 level = 86
@@ -252,14 +143,6 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.MeteorAceF.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.MeteorAceF.1.pokemon]]
 internal_name = "LIEPARD"
 level = 87
@@ -270,14 +153,6 @@ raw_moves = [
     "SUBSTITUTE",
 ]
 iv = 0
-
-[trainers.MeteorAceF.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.MeteorAceF.1.pokemon]]
 internal_name = "MIGHTYENA"
@@ -290,14 +165,6 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.MeteorAceF.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.MeteorAceF.1.pokemon]]
 internal_name = "TYRANITAR"
 level = 88
@@ -308,11 +175,3 @@ raw_moves = [
     "FIREPUNCH",
 ]
 iv = 0
-
-[trainers.MeteorAceF.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0

@@ -3,7 +3,6 @@ trainer_name = "PC4SH"
 [trainers.GLITCH4.0]
 raw_trainer_class = "GLITCH4"
 battler_name = "PC4SH"
-raw_battle_items = []
 
 [[trainers.GLITCH4.0.pokemon]]
 internal_name = "POLIWRATH"
@@ -15,11 +14,3 @@ raw_moves = [
     "FOCUSBLAST",
 ]
 iv = 0
-
-[trainers.GLITCH4.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0

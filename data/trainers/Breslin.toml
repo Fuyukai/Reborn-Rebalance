@@ -4,7 +4,6 @@ trainer_name = "Breslin"
 raw_trainer_class = "POACHERB"
 battler_name = "Breslin"
 battler_id = 1000
-raw_battle_items = []
 
 [[trainers.POACHERB.1000.pokemon]]
 internal_name = "RIBOMBEE"
@@ -22,12 +21,9 @@ nature = "TIMID"
 iv = 32
 
 [trainers.POACHERB.1000.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.POACHERB.1000.pokemon]]
 internal_name = "ABSOL"
@@ -45,12 +41,9 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.POACHERB.1000.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.POACHERB.1000.pokemon]]
 internal_name = "MUK"
@@ -68,9 +61,6 @@ nature = "ADAMANT"
 iv = 32
 
 [trainers.POACHERB.1000.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
 spe = 4

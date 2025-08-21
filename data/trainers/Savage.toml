@@ -3,25 +3,13 @@ trainer_name = "Savage"
 [trainers.BEARTIC.0]
 raw_trainer_class = "BEARTIC"
 battler_name = "Savage"
-raw_battle_items = []
-
-[[trainers.BEARTIC.0.pokemon]]
-internal_name = "BEARTIC"
-level = 65
-iv = 0
-
-[trainers.BEARTIC.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
+pokemon = [
+    { internal_name = "BEARTIC", level = 65, iv = 0 },
+]
 
 [trainers.SPIRITM.0]
 raw_trainer_class = "SPIRITM"
 battler_name = "Savage"
-raw_battle_items = []
 
 [[trainers.SPIRITM.0.pokemon]]
 internal_name = "POLITOED"
@@ -39,11 +27,7 @@ nature = "BOLD"
 iv = 31
 
 [trainers.SPIRITM.0.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 128
 
 [[trainers.SPIRITM.0.pokemon]]
@@ -62,12 +46,8 @@ nature = "CAREFUL"
 iv = 31
 
 [trainers.SPIRITM.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 4
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.SPIRITM.0.pokemon]]
 internal_name = "LUDICOLO"
@@ -84,9 +64,6 @@ nature = "MODEST"
 iv = 31
 
 [trainers.SPIRITM.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
 spe = 4
@@ -106,9 +83,6 @@ nature = "MODEST"
 iv = 31
 
 [trainers.SPIRITM.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
 spe = 4
@@ -128,11 +102,8 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.SPIRITM.0.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
 spe = 4
 
 [[trainers.SPIRITM.0.pokemon]]
@@ -150,9 +121,6 @@ nature = "MODEST"
 iv = 31
 
 [trainers.SPIRITM.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
 spe = 4

@@ -3,7 +3,6 @@ trainer_name = "Rylin"
 [trainers.KNIGHT.0]
 raw_trainer_class = "KNIGHT"
 battler_name = "Rylin"
-raw_battle_items = []
 
 [[trainers.KNIGHT.0.pokemon]]
 internal_name = "NINETALES"
@@ -17,11 +16,3 @@ raw_moves = [
 sex = "F"
 form_number = 1
 iv = 0
-
-[trainers.KNIGHT.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0

@@ -3,7 +3,6 @@ trainer_name = "Hypno"
 [trainers.HYPNO.20]
 raw_trainer_class = "HYPNO"
 battler_name = "Hypno"
-raw_battle_items = []
 battler_id = 20
 
 [[trainers.HYPNO.20.pokemon]]
@@ -23,10 +22,6 @@ iv = 31
 happiness = 0
 
 [trainers.HYPNO.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
 spd = 4
 spe = 252
 
@@ -34,7 +29,6 @@ spe = 252
 raw_trainer_class = "HYPNO2"
 battler_name = "Hypno"
 battler_id = 1
-raw_battle_items = []
 
 [[trainers.HYPNO2.1.pokemon]]
 internal_name = "SWOOBAT"
@@ -52,12 +46,9 @@ nature = "TIMID"
 iv = 31
 
 [trainers.HYPNO2.1.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.HYPNO2.1.pokemon]]
 internal_name = "GOLISOPOD"
@@ -74,12 +65,8 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.HYPNO2.1.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.HYPNO2.1.pokemon]]
 internal_name = "AEGISLASH"
@@ -96,11 +83,8 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.HYPNO2.1.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
 spe = 4
 
 [[trainers.HYPNO2.1.pokemon]]
@@ -119,10 +103,7 @@ nature = "SASSY"
 iv = 31
 
 [trainers.HYPNO2.1.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 252
 spe = 4
 
@@ -142,12 +123,8 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.HYPNO2.1.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.HYPNO2.1.pokemon]]
 internal_name = "BANETTE"
@@ -165,9 +142,6 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.HYPNO2.1.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
 spa = 252
-spd = 0
 spe = 4

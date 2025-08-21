@@ -3,7 +3,6 @@ trainer_name = "Ross"
 [trainers.COOLTRAINER_Male.0]
 raw_trainer_class = "COOLTRAINER_Male"
 battler_name = "Ross"
-raw_battle_items = []
 
 [[trainers.COOLTRAINER_Male.0.pokemon]]
 internal_name = "SPEWPA"
@@ -15,14 +14,6 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.COOLTRAINER_Male.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.COOLTRAINER_Male.0.pokemon]]
 internal_name = "METAPOD"
 level = 19
@@ -31,11 +22,3 @@ raw_moves = [
     "HARDEN",
 ]
 iv = 0
-
-[trainers.COOLTRAINER_Male.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0

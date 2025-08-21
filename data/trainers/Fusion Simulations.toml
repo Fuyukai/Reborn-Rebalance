@@ -3,7 +3,6 @@ trainer_name = "Fusion Simulations"
 [trainers.KYUREM2.0]
 raw_trainer_class = "KYUREM2"
 battler_name = "Fusion Simulations"
-raw_battle_items = []
 
 [[trainers.KYUREM2.0.pokemon]]
 internal_name = "MEW"
@@ -20,10 +19,7 @@ nature = "BOLD"
 iv = 3
 
 [trainers.KYUREM2.0.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 4
 spe = 252
 
@@ -42,12 +38,9 @@ nature = "MODEST"
 iv = 3
 
 [trainers.KYUREM2.0.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.KYUREM2.0.pokemon]]
 internal_name = "HOOPA"
@@ -65,11 +58,8 @@ nature = "ADAMANT"
 iv = 3
 
 [trainers.KYUREM2.0.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
 spe = 4
 
 [[trainers.KYUREM2.0.pokemon]]
@@ -87,12 +77,9 @@ nature = "MODEST"
 iv = 3
 
 [trainers.KYUREM2.0.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.KYUREM2.0.pokemon]]
 internal_name = "RESHIRAM"
@@ -109,12 +96,9 @@ nature = "MODEST"
 iv = 3
 
 [trainers.KYUREM2.0.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.KYUREM2.0.pokemon]]
 internal_name = "KYUREM"
@@ -132,7 +116,6 @@ nature = "MODEST"
 iv = 31
 
 [trainers.KYUREM2.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252

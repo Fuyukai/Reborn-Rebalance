@@ -3,7 +3,6 @@ trainer_name = "Zekrom"
 [trainers.ZEKROM.0]
 raw_trainer_class = "ZEKROM"
 battler_name = "Zekrom"
-raw_battle_items = []
 
 [[trainers.ZEKROM.0.pokemon]]
 internal_name = "NINETALES"
@@ -21,12 +20,9 @@ nature = "TIMID"
 iv = 3
 
 [trainers.ZEKROM.0.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
 spa = 252
 spd = 4
-spe = 0
 
 [[trainers.ZEKROM.0.pokemon]]
 internal_name = "KANGASKHAN"
@@ -44,12 +40,9 @@ nature = "ADAMANT"
 iv = 3
 
 [trainers.ZEKROM.0.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.ZEKROM.0.pokemon]]
 internal_name = "GOLEM"
@@ -67,12 +60,8 @@ nature = "ADAMANT"
 iv = 3
 
 [trainers.ZEKROM.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.ZEKROM.0.pokemon]]
 internal_name = "MIMIKYU"
@@ -89,12 +78,9 @@ nature = "ADAMANT"
 iv = 3
 
 [trainers.ZEKROM.0.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.ZEKROM.0.pokemon]]
 internal_name = "LYCANROC"
@@ -106,19 +92,15 @@ raw_moves = [
     "BRICKBREAK",
     "DRILLRUN",
 ]
-ability_number = 0
 sex = ""
 form_number = 2
 nature = "ADAMANT"
 iv = 3
 
 [trainers.ZEKROM.0.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.ZEKROM.0.pokemon]]
 internal_name = "ZEKROM"
@@ -135,7 +117,6 @@ nature = "ADAMANT"
 iv = 3
 
 [trainers.ZEKROM.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252

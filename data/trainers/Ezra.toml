@@ -3,26 +3,14 @@ trainer_name = "Ezra"
 [trainers.Cultist.0]
 raw_trainer_class = "Cultist"
 battler_name = "Ezra"
-raw_battle_items = []
-
-[[trainers.Cultist.0.pokemon]]
-internal_name = "DITTO"
-level = 64
-iv = 0
-
-[trainers.Cultist.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
+pokemon = [
+    { internal_name = "DITTO", level = 64, iv = 0 },
+]
 
 [trainers.Cultist.1]
 raw_trainer_class = "Cultist"
 battler_name = "Ezra"
 battler_id = 1
-raw_battle_items = []
 
 [[trainers.Cultist.1.pokemon]]
 internal_name = "BELLOSSOM"
@@ -40,12 +28,9 @@ iv = 31
 happiness = 255
 
 [trainers.Cultist.1.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.Cultist.1.pokemon]]
 internal_name = "DITTO"
@@ -64,12 +49,7 @@ iv = 31
 happiness = 255
 
 [trainers.Cultist.1.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.Cultist.1.pokemon]]
 internal_name = "MANTINE"
@@ -87,10 +67,7 @@ iv = 31
 happiness = 255
 
 [trainers.Cultist.1.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 252
 spe = 4
 
@@ -110,17 +87,13 @@ iv = 31
 happiness = 255
 
 [trainers.Cultist.1.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 4
-spa = 0
 spd = 252
-spe = 0
 
 [trainers.NWCultist.0]
 raw_trainer_class = "NWCultist"
 battler_name = "Ezra"
-raw_battle_items = []
 
 [[trainers.NWCultist.0.pokemon]]
 internal_name = "DITTO"
@@ -134,14 +107,6 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.NWCultist.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.NWCultist.0.pokemon]]
 internal_name = "BELLOSSOM"
 level = 74
@@ -152,14 +117,6 @@ raw_moves = [
     "LEAFSTORM",
 ]
 iv = 0
-
-[trainers.NWCultist.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.NWCultist.0.pokemon]]
 internal_name = "MANTINE"
@@ -172,19 +129,10 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.NWCultist.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [trainers.NWCultist.1]
 raw_trainer_class = "NWCultist"
 battler_name = "Ezra"
 battler_id = 1
-raw_battle_items = []
 
 [[trainers.NWCultist.1.pokemon]]
 internal_name = "DITTO"
@@ -198,14 +146,6 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.NWCultist.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.NWCultist.1.pokemon]]
 internal_name = "BELLOSSOM"
 level = 87
@@ -216,14 +156,6 @@ raw_moves = [
     "LEAFSTORM",
 ]
 iv = 0
-
-[trainers.NWCultist.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.NWCultist.1.pokemon]]
 internal_name = "MANTINE"
@@ -236,14 +168,6 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.NWCultist.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.NWCultist.1.pokemon]]
 internal_name = "KOMMOO"
 level = 87
@@ -254,11 +178,3 @@ raw_moves = [
     "FLAMETHROWER",
 ]
 iv = 0
-
-[trainers.NWCultist.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0

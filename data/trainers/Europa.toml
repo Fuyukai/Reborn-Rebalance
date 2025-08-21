@@ -4,7 +4,6 @@ trainer_name = "Europa"
 raw_trainer_class = "EUROPA"
 battler_name = "Europa"
 battler_id = 1000
-raw_battle_items = []
 
 [[trainers.EUROPA.1000.pokemon]]
 internal_name = "ZANGOOSE"
@@ -22,12 +21,8 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.EUROPA.1000.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.EUROPA.1000.pokemon]]
 internal_name = "BRELOOM"
@@ -45,11 +40,7 @@ nature = "IMPISH"
 iv = 31
 
 [trainers.EUROPA.1000.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 4
 
 [[trainers.EUROPA.1000.pokemon]]
@@ -68,9 +59,5 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.EUROPA.1000.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0

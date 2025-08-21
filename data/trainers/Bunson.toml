@@ -3,43 +3,8 @@ trainer_name = "Bunson"
 [trainers.MAGMA1.0]
 raw_trainer_class = "MAGMA1"
 battler_name = "Bunson"
-raw_battle_items = []
-
-[[trainers.MAGMA1.0.pokemon]]
-internal_name = "NINETALES"
-level = 37
-iv = 0
-
-[trainers.MAGMA1.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.MAGMA1.0.pokemon]]
-internal_name = "HOUNDOOM"
-level = 37
-iv = 0
-
-[trainers.MAGMA1.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.MAGMA1.0.pokemon]]
-internal_name = "TURTONATOR"
-level = 38
-iv = 0
-
-[trainers.MAGMA1.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
+pokemon = [
+    { internal_name = "NINETALES", level = 37, iv = 0 },
+    { internal_name = "HOUNDOOM", level = 37, iv = 0 },
+    { internal_name = "TURTONATOR", level = 38, iv = 0 },
+]

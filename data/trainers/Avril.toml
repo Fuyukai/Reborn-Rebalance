@@ -3,84 +3,25 @@ trainer_name = "Avril"
 [trainers.MeteorDame.0]
 raw_trainer_class = "MeteorDame"
 battler_name = "Avril"
-raw_battle_items = []
-
-[[trainers.MeteorDame.0.pokemon]]
-internal_name = "FINNEON"
-level = 34
-iv = 0
-
-[trainers.MeteorDame.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.MeteorDame.0.pokemon]]
-internal_name = "GOTHORITA"
-level = 34
-iv = 0
-
-[trainers.MeteorDame.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
+pokemon = [
+    { internal_name = "FINNEON", level = 34, iv = 0 },
+    { internal_name = "GOTHORITA", level = 34, iv = 0 },
+]
 
 [trainers.MeteorDame.1]
 raw_trainer_class = "MeteorDame"
 battler_name = "Avril"
+pokemon = [
+    { internal_name = "LUMINEON", level = 53, iv = 0 },
+    { internal_name = "GOLISOPOD", level = 53, iv = 0 },
+    { internal_name = "GOTHITELLE", level = 53, iv = 0 },
+]
 battler_id = 1
-raw_battle_items = []
-
-[[trainers.MeteorDame.1.pokemon]]
-internal_name = "LUMINEON"
-level = 53
-iv = 0
-
-[trainers.MeteorDame.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.MeteorDame.1.pokemon]]
-internal_name = "GOLISOPOD"
-level = 53
-iv = 0
-
-[trainers.MeteorDame.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.MeteorDame.1.pokemon]]
-internal_name = "GOTHITELLE"
-level = 53
-iv = 0
-
-[trainers.MeteorDame.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.MeteorDame.2]
 raw_trainer_class = "MeteorDame"
 battler_name = "Avril"
 battler_id = 2
-raw_battle_items = []
 
 [[trainers.MeteorDame.2.pokemon]]
 internal_name = "MINIOR"
@@ -95,14 +36,6 @@ sex = ""
 form_number = 3
 iv = 0
 
-[trainers.MeteorDame.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.MeteorDame.2.pokemon]]
 internal_name = "LUMINEON"
 level = 66
@@ -113,14 +46,6 @@ raw_moves = [
     "ATTRACT",
 ]
 iv = 0
-
-[trainers.MeteorDame.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.MeteorDame.2.pokemon]]
 internal_name = "GOLISOPOD"
@@ -133,14 +58,6 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.MeteorDame.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.MeteorDame.2.pokemon]]
 internal_name = "GOTHITELLE"
 level = 67
@@ -152,18 +69,9 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.MeteorDame.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [trainers.MeteorAceF.0]
 raw_trainer_class = "MeteorAceF"
 battler_name = "Avril"
-raw_battle_items = []
 
 [[trainers.MeteorAceF.0.pokemon]]
 internal_name = "LUMINEON"
@@ -180,7 +88,6 @@ nature = "TIMID"
 iv = 31
 
 [trainers.MeteorAceF.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -203,7 +110,6 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.MeteorAceF.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -225,7 +131,6 @@ nature = "TIMID"
 iv = 31
 
 [trainers.MeteorAceF.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -247,7 +152,6 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.MeteorAceF.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -269,7 +173,6 @@ nature = "TIMID"
 iv = 31
 
 [trainers.MeteorAceF.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252

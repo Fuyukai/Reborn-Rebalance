@@ -3,270 +3,58 @@ trainer_name = "Will"
 [trainers.PkMnRANGER_Male.0]
 raw_trainer_class = "PkMnRANGER_Male"
 battler_name = "Will"
-raw_battle_items = []
-
-[[trainers.PkMnRANGER_Male.0.pokemon]]
-internal_name = "LUCARIO"
-level = 70
-iv = 0
-
-[trainers.PkMnRANGER_Male.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.PkMnRANGER_Male.0.pokemon]]
-internal_name = "GRENINJA"
-level = 71
-iv = 0
-
-[trainers.PkMnRANGER_Male.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.PkMnRANGER_Male.0.pokemon]]
-internal_name = "TYRANITAR"
-level = 72
-iv = 0
-
-[trainers.PkMnRANGER_Male.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.PkMnRANGER_Male.0.pokemon]]
-internal_name = "WEAVILE"
-level = 72
-iv = 0
-
-[trainers.PkMnRANGER_Male.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.PkMnRANGER_Male.0.pokemon]]
-internal_name = "GALVANTULA"
-level = 72
-iv = 0
-
-[trainers.PkMnRANGER_Male.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.PkMnRANGER_Male.0.pokemon]]
-internal_name = "SPIRITOMB"
-level = 72
-iv = 0
-
-[trainers.PkMnRANGER_Male.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
+pokemon = [
+    { internal_name = "LUCARIO", level = 70, iv = 0 },
+    { internal_name = "GRENINJA", level = 71, iv = 0 },
+    { internal_name = "TYRANITAR", level = 72, iv = 0 },
+    { internal_name = "WEAVILE", level = 72, iv = 0 },
+    { internal_name = "GALVANTULA", level = 72, iv = 0 },
+    { internal_name = "SPIRITOMB", level = 72, iv = 0 },
+]
 
 [trainers.TechNerd.3]
 raw_trainer_class = "TechNerd"
 battler_name = "Will"
+pokemon = [
+    { internal_name = "TREECKO", level = 10, iv = 0 },
+    { internal_name = "CHARMANDER", level = 10, iv = 0 },
+]
 battler_id = 3
-raw_battle_items = []
-
-[[trainers.TechNerd.3.pokemon]]
-internal_name = "TREECKO"
-level = 10
-iv = 0
-
-[trainers.TechNerd.3.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.TechNerd.3.pokemon]]
-internal_name = "CHARMANDER"
-level = 10
-iv = 0
-
-[trainers.TechNerd.3.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.TechNerd.0]
 raw_trainer_class = "TechNerd"
 battler_name = "Will"
-raw_battle_items = []
-
-[[trainers.TechNerd.0.pokemon]]
-internal_name = "GROVYLE"
-level = 34
-iv = 0
-
-[trainers.TechNerd.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.TechNerd.0.pokemon]]
-internal_name = "CHARMELEON"
-level = 35
-iv = 0
-
-[trainers.TechNerd.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.TechNerd.0.pokemon]]
-internal_name = "GARDEVOIR"
-level = 36
-iv = 0
-
-[trainers.TechNerd.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
+pokemon = [
+    { internal_name = "GROVYLE", level = 34, iv = 0 },
+    { internal_name = "CHARMELEON", level = 35, iv = 0 },
+    { internal_name = "GARDEVOIR", level = 36, iv = 0 },
+]
 
 [trainers.TechNerd.1]
 raw_trainer_class = "TechNerd"
 battler_name = "Will"
+pokemon = [
+    { internal_name = "SCEPTILE", level = 49, iv = 0 },
+    { internal_name = "CHARIZARD", level = 50, iv = 0 },
+    { internal_name = "GARDEVOIR", level = 51, iv = 0 },
+]
 battler_id = 1
-raw_battle_items = []
-
-[[trainers.TechNerd.1.pokemon]]
-internal_name = "SCEPTILE"
-level = 49
-iv = 0
-
-[trainers.TechNerd.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.TechNerd.1.pokemon]]
-internal_name = "CHARIZARD"
-level = 50
-iv = 0
-
-[trainers.TechNerd.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.TechNerd.1.pokemon]]
-internal_name = "GARDEVOIR"
-level = 51
-iv = 0
-
-[trainers.TechNerd.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.TechNerd.2]
 raw_trainer_class = "TechNerd"
 battler_name = "Will"
+pokemon = [
+    { internal_name = "SWAMPERT", level = 58, iv = 0 },
+    { internal_name = "SCEPTILE", level = 59, iv = 0 },
+    { internal_name = "CHARIZARD", level = 60, iv = 0 },
+    { internal_name = "GARDEVOIR", level = 61, iv = 0 },
+]
 battler_id = 2
-raw_battle_items = []
-
-[[trainers.TechNerd.2.pokemon]]
-internal_name = "SWAMPERT"
-level = 58
-iv = 0
-
-[trainers.TechNerd.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.TechNerd.2.pokemon]]
-internal_name = "SCEPTILE"
-level = 59
-iv = 0
-
-[trainers.TechNerd.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.TechNerd.2.pokemon]]
-internal_name = "CHARIZARD"
-level = 60
-iv = 0
-
-[trainers.TechNerd.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.TechNerd.2.pokemon]]
-internal_name = "GARDEVOIR"
-level = 61
-iv = 0
-
-[trainers.TechNerd.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.TechNerd.4]
 raw_trainer_class = "TechNerd"
 battler_name = "Will"
 battler_id = 4
-raw_battle_items = []
 
 [[trainers.TechNerd.4.pokemon]]
 internal_name = "SWAMPERT"
@@ -280,14 +68,6 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.TechNerd.4.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.TechNerd.4.pokemon]]
 internal_name = "SCEPTILE"
 level = 85
@@ -300,14 +80,6 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.TechNerd.4.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.TechNerd.4.pokemon]]
 internal_name = "CHARIZARD"
 level = 85
@@ -319,14 +91,6 @@ raw_moves = [
     "HIDDENPOWERELE",
 ]
 iv = 0
-
-[trainers.TechNerd.4.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.TechNerd.4.pokemon]]
 internal_name = "GARDEVOIR"
@@ -342,55 +106,12 @@ sex = ""
 nature = "TIMID"
 iv = 15
 
-[trainers.TechNerd.4.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [trainers.TechNerd.5]
 raw_trainer_class = "TechNerd"
 battler_name = "Will"
+pokemon = [
+    { internal_name = "GROVYLE", level = 21, iv = 0 },
+    { internal_name = "CHARMELEON", level = 21, iv = 0 },
+    { internal_name = "KIRLIA", level = 21, iv = 0 },
+]
 battler_id = 5
-raw_battle_items = []
-
-[[trainers.TechNerd.5.pokemon]]
-internal_name = "GROVYLE"
-level = 21
-iv = 0
-
-[trainers.TechNerd.5.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.TechNerd.5.pokemon]]
-internal_name = "CHARMELEON"
-level = 21
-iv = 0
-
-[trainers.TechNerd.5.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.TechNerd.5.pokemon]]
-internal_name = "KIRLIA"
-level = 21
-iv = 0
-
-[trainers.TechNerd.5.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0

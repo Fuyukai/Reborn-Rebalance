@@ -4,7 +4,6 @@ trainer_name = "Meganium"
 raw_trainer_class = "MEGANIUM"
 battler_name = "Meganium"
 battler_id = 1000
-raw_battle_items = []
 
 [[trainers.MEGANIUM.1000.pokemon]]
 internal_name = "MEGANIUM"
@@ -21,11 +20,7 @@ nature = "QUIET"
 iv = 32
 
 [trainers.MEGANIUM.1000.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 4
 
 [[trainers.MEGANIUM.1000.pokemon]]
@@ -43,11 +38,8 @@ nature = "BRAVE"
 iv = 32
 
 [trainers.MEGANIUM.1000.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
 spe = 4
 
 [[trainers.MEGANIUM.1000.pokemon]]
@@ -65,9 +57,6 @@ nature = "QUIET"
 iv = 32
 
 [trainers.MEGANIUM.1000.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 252
 spe = 4

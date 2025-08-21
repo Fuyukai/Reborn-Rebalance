@@ -3,7 +3,6 @@ trainer_name = "Terra"
 [trainers.UMBTERRA.0]
 raw_trainer_class = "UMBTERRA"
 battler_name = "Terra"
-raw_battle_items = []
 
 [[trainers.UMBTERRA.0.pokemon]]
 internal_name = "CLAYDOL"
@@ -21,7 +20,6 @@ iv = 31
 nickname = "pot"
 
 [trainers.UMBTERRA.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -44,7 +42,6 @@ iv = 31
 nickname = "castle"
 
 [trainers.UMBTERRA.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -68,7 +65,6 @@ iv = 31
 nickname = "toy"
 
 [trainers.UMBTERRA.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -91,7 +87,6 @@ iv = 31
 nickname = "mudkip"
 
 [trainers.UMBTERRA.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -115,7 +110,6 @@ iv = 31
 nickname = ":)"
 
 [trainers.UMBTERRA.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -138,7 +132,6 @@ iv = 31
 nickname = "bite"
 
 [trainers.UMBTERRA.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -148,7 +141,6 @@ spe = 252
 [trainers.ANAMTERRA.0]
 raw_trainer_class = "ANAMTERRA"
 battler_name = "Terra"
-raw_battle_items = []
 
 [[trainers.ANAMTERRA.0.pokemon]]
 internal_name = "LYCANROC"
@@ -166,7 +158,6 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.ANAMTERRA.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -189,7 +180,6 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.ANAMTERRA.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -211,7 +201,6 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.ANAMTERRA.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -235,7 +224,6 @@ iv = 31
 happiness = 255
 
 [trainers.ANAMTERRA.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -258,7 +246,6 @@ nature = "NAIVE"
 iv = 31
 
 [trainers.ANAMTERRA.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -280,7 +267,6 @@ nature = "HASTY"
 iv = 31
 
 [trainers.ANAMTERRA.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -291,7 +277,6 @@ spe = 252
 raw_trainer_class = "TERRA"
 battler_name = "Terra"
 battler_id = 10
-raw_battle_items = []
 
 [[trainers.TERRA.10.pokemon]]
 internal_name = "HIPPOWDON"
@@ -310,11 +295,7 @@ iv = 31
 nickname = "HIPHOPOTAMUS"
 
 [trainers.TERRA.10.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 128
 
 [[trainers.TERRA.10.pokemon]]
@@ -333,12 +314,8 @@ iv = 31
 nickname = "FLYGONDEEZ"
 
 [trainers.TERRA.10.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.TERRA.10.pokemon]]
 internal_name = "LANDORUS"
@@ -356,12 +333,8 @@ iv = 31
 nickname = "STEVE"
 
 [trainers.TERRA.10.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.TERRA.10.pokemon]]
 internal_name = "EXCADRILL"
@@ -379,12 +352,8 @@ iv = 31
 nickname = "EXCAKILL"
 
 [trainers.TERRA.10.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.TERRA.10.pokemon]]
 internal_name = "GARCHOMP"
@@ -402,12 +371,8 @@ iv = 31
 nickname = "RAWRCHOMP"
 
 [trainers.TERRA.10.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.TERRA.10.pokemon]]
 internal_name = "GLISCOR"
@@ -426,18 +391,13 @@ iv = 31
 nickname = "GLISWHORE"
 
 [trainers.TERRA.10.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [trainers.TERRA.11]
 raw_trainer_class = "TERRA"
 battler_name = "Terra"
 battler_id = 11
-raw_battle_items = []
 
 [[trainers.TERRA.11.pokemon]]
 internal_name = "HIPPOWDON"
@@ -456,11 +416,7 @@ iv = 31
 nickname = "HIPHOPOTAMUS"
 
 [trainers.TERRA.11.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 128
 
 [[trainers.TERRA.11.pokemon]]
@@ -479,12 +435,8 @@ iv = 31
 nickname = "STEVE"
 
 [trainers.TERRA.11.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.TERRA.11.pokemon]]
 internal_name = "EXCADRILL"
@@ -502,12 +454,8 @@ iv = 31
 nickname = "EXCAKILL"
 
 [trainers.TERRA.11.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.TERRA.11.pokemon]]
 internal_name = "GARCHOMP"
@@ -525,12 +473,8 @@ iv = 31
 nickname = "RAWRCHOMP"
 
 [trainers.TERRA.11.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.TERRA.11.pokemon]]
 internal_name = "GROUDON"
@@ -548,12 +492,8 @@ iv = 31
 nickname = "POUNDON"
 
 [trainers.TERRA.11.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.TERRA.11.pokemon]]
 internal_name = "ZYGARDE"
@@ -571,18 +511,13 @@ iv = 31
 nickname = "MEGAZ0RD"
 
 [trainers.TERRA.11.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [trainers.TERRA.12]
 raw_trainer_class = "TERRA"
 battler_name = "Terra"
 battler_id = 12
-raw_battle_items = []
 
 [[trainers.TERRA.12.pokemon]]
 internal_name = "GLISCOR"
@@ -600,11 +535,7 @@ iv = 31
 nickname = "GLISWHORE"
 
 [trainers.TERRA.12.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
-spd = 0
 spe = 128
 
 [[trainers.TERRA.12.pokemon]]
@@ -624,12 +555,8 @@ iv = 31
 nickname = "GlOVANl"
 
 [trainers.TERRA.12.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.TERRA.12.pokemon]]
 internal_name = "NIDOKING"
@@ -648,12 +575,8 @@ iv = 31
 nickname = "GIOVANNI"
 
 [trainers.TERRA.12.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.TERRA.12.pokemon]]
 internal_name = "STEELIX"
@@ -671,12 +594,8 @@ iv = 32
 nickname = "YOUR MOM"
 
 [trainers.TERRA.12.pokemon.evs]
-hp = 0
 atk = 128
 def_ = 252
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.TERRA.12.pokemon]]
 internal_name = "EXCADRILL"
@@ -694,12 +613,8 @@ iv = 31
 nickname = "EXCAKILL"
 
 [trainers.TERRA.12.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.TERRA.12.pokemon]]
 internal_name = "DUGTRIO"
@@ -718,18 +633,13 @@ iv = 31
 nickname = "3MEN1HOLE"
 
 [trainers.TERRA.12.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [trainers.TERRA.13]
 raw_trainer_class = "TERRA"
 battler_name = "Terra"
 battler_id = 13
-raw_battle_items = []
 
 [[trainers.TERRA.13.pokemon]]
 internal_name = "PALOSSAND"
@@ -747,12 +657,8 @@ iv = 31
 nickname = "GIVE SANDY"
 
 [trainers.TERRA.13.pokemon.evs]
-hp = 0
 atk = 128
-def_ = 0
-spa = 0
 spd = 252
-spe = 0
 
 [[trainers.TERRA.13.pokemon]]
 internal_name = "GASTRODON"
@@ -770,12 +676,8 @@ iv = 31
 nickname = "GASTRODONG"
 
 [trainers.TERRA.13.pokemon.evs]
-hp = 0
 atk = 128
-def_ = 0
-spa = 0
 spd = 252
-spe = 0
 
 [[trainers.TERRA.13.pokemon]]
 internal_name = "EXCADRILL"
@@ -793,12 +695,8 @@ iv = 31
 nickname = "EXCAKILL"
 
 [trainers.TERRA.13.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.TERRA.13.pokemon]]
 internal_name = "LANDORUS"
@@ -816,12 +714,8 @@ iv = 31
 nickname = "STEVE"
 
 [trainers.TERRA.13.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.TERRA.13.pokemon]]
 internal_name = "GARCHOMP"
@@ -839,12 +733,8 @@ iv = 31
 nickname = "RAWRCHOMP"
 
 [trainers.TERRA.13.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.TERRA.13.pokemon]]
 internal_name = "ZYGARDE"
@@ -862,18 +752,13 @@ iv = 31
 nickname = "MEGAZ0RD"
 
 [trainers.TERRA.13.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [trainers.TERRA.14]
 raw_trainer_class = "TERRA"
 battler_name = "Terra"
 battler_id = 14
-raw_battle_items = []
 
 [[trainers.TERRA.14.pokemon]]
 internal_name = "SEISMITOAD"
@@ -892,12 +777,8 @@ iv = 31
 nickname = "SWAMPERT"
 
 [trainers.TERRA.14.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.TERRA.14.pokemon]]
 internal_name = "SWAMPERT"
@@ -915,12 +796,8 @@ iv = 31
 nickname = "PIKACHU"
 
 [trainers.TERRA.14.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.TERRA.14.pokemon]]
 internal_name = "QUAGSIRE"
@@ -939,11 +816,7 @@ iv = 31
 nickname = "SWAGSIRE"
 
 [trainers.TERRA.14.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 252
 
 [[trainers.TERRA.14.pokemon]]
@@ -963,12 +836,8 @@ iv = 31
 nickname = "CASHMONEY"
 
 [trainers.TERRA.14.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.TERRA.14.pokemon]]
 internal_name = "GASTRODON"
@@ -987,10 +856,6 @@ iv = 31
 nickname = "GASTRODONG"
 
 [trainers.TERRA.14.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
 spd = 252
 spe = 4
 
@@ -1011,18 +876,13 @@ iv = 31
 nickname = "KYOGRE"
 
 [trainers.TERRA.14.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [trainers.TERRA.15]
 raw_trainer_class = "TERRA"
 battler_name = "Terra"
 battler_id = 15
-raw_battle_items = []
 
 [[trainers.TERRA.15.pokemon]]
 internal_name = "ZYGARDE"
@@ -1040,12 +900,9 @@ iv = 31
 nickname = "MEGAZORD"
 
 [trainers.TERRA.15.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 168
 spa = 88
 spd = 252
-spe = 0
 
 [[trainers.TERRA.15.pokemon]]
 internal_name = "LANDORUS"
@@ -1064,12 +921,8 @@ iv = 31
 nickname = "STEVE"
 
 [trainers.TERRA.15.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.TERRA.15.pokemon]]
 internal_name = "GLISCOR"
@@ -1088,12 +941,9 @@ iv = 31
 nickname = "GLISWHORE"
 
 [trainers.TERRA.15.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 200
 spa = 56
-spd = 0
-spe = 0
 
 [[trainers.TERRA.15.pokemon]]
 internal_name = "MAROWAK"
@@ -1111,12 +961,8 @@ iv = 31
 nickname = "GET BONED"
 
 [trainers.TERRA.15.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.TERRA.15.pokemon]]
 internal_name = "GARCHOMP"
@@ -1128,18 +974,14 @@ raw_moves = [
     "EARTHQUAKE",
     "POISONJAB",
 ]
-ability_number = 0
 sex = ""
 nature = "JOLLY"
 iv = 31
 nickname = "RAWRCHOMP"
 
 [trainers.TERRA.15.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
 spe = 4
 
 [[trainers.TERRA.15.pokemon]]
@@ -1158,9 +1000,6 @@ iv = 31
 nickname = "SWAMPERT"
 
 [trainers.TERRA.15.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 200
 spa = 252
 spd = 56
-spe = 0

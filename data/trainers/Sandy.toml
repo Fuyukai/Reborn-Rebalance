@@ -3,7 +3,6 @@ trainer_name = "Sandy"
 [trainers.SANDY.0]
 raw_trainer_class = "SANDY"
 battler_name = "Sandy"
-raw_battle_items = []
 
 [[trainers.SANDY.0.pokemon]]
 internal_name = "PELIPPER"
@@ -20,14 +19,6 @@ sex = "F"
 nature = "MODEST"
 iv = 31
 
-[trainers.SANDY.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.SANDY.0.pokemon]]
 internal_name = "SEISMITOAD"
 level = 75
@@ -41,14 +32,6 @@ sex = "F"
 nature = "MODEST"
 iv = 31
 
-[trainers.SANDY.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.SANDY.0.pokemon]]
 internal_name = "LUDICOLO"
 level = 76
@@ -60,14 +43,6 @@ raw_moves = [
 ]
 nature = "MODEST"
 iv = 31
-
-[trainers.SANDY.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.SANDY.0.pokemon]]
 internal_name = "TORTERRA"
@@ -81,14 +56,6 @@ raw_moves = [
 ]
 nature = "ADAMANT"
 iv = 31
-
-[trainers.SANDY.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.SANDY.0.pokemon]]
 internal_name = "SANDSLASH"
@@ -104,14 +71,6 @@ sex = "F"
 nature = "ADAMANT"
 iv = 31
 
-[trainers.SANDY.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.SANDY.0.pokemon]]
 internal_name = "MUDSDALE"
 level = 77
@@ -126,19 +85,10 @@ ability_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.SANDY.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [trainers.SANDY.1]
 raw_trainer_class = "SANDY"
 battler_name = "Sandy"
 battler_id = 1
-raw_battle_items = []
 
 [[trainers.SANDY.1.pokemon]]
 internal_name = "PELIPPER"
@@ -156,12 +106,9 @@ nature = "MODEST"
 iv = 31
 
 [trainers.SANDY.1.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.SANDY.1.pokemon]]
 internal_name = "SEISMITOAD"
@@ -178,12 +125,9 @@ nature = "MODEST"
 iv = 31
 
 [trainers.SANDY.1.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.SANDY.1.pokemon]]
 internal_name = "LUDICOLO"
@@ -199,12 +143,9 @@ nature = "MODEST"
 iv = 31
 
 [trainers.SANDY.1.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.SANDY.1.pokemon]]
 internal_name = "TORTERRA"
@@ -220,12 +161,9 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.SANDY.1.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.SANDY.1.pokemon]]
 internal_name = "SANDSLASH"
@@ -243,12 +181,9 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.SANDY.1.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.SANDY.1.pokemon]]
 internal_name = "MUDSDALE"
@@ -265,18 +200,14 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.SANDY.1.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
-spa = 0
-spd = 0
 spe = 252
 
 [trainers.SANDY.1000]
 raw_trainer_class = "SANDY"
 battler_name = "Sandy"
 battler_id = 1000
-raw_battle_items = []
 
 [[trainers.SANDY.1000.pokemon]]
 internal_name = "PELIPPER"
@@ -294,12 +225,8 @@ nature = "MODEST"
 iv = 31
 
 [trainers.SANDY.1000.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.SANDY.1000.pokemon]]
 internal_name = "SEISMITOAD"
@@ -316,9 +243,6 @@ nature = "MODEST"
 iv = 31
 
 [trainers.SANDY.1000.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
 spe = 4
@@ -337,9 +261,6 @@ nature = "MODEST"
 iv = 31
 
 [trainers.SANDY.1000.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
 spe = 4

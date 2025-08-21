@@ -3,7 +3,6 @@ trainer_name = "Beads"
 [trainers.RUINB.0]
 raw_trainer_class = "RUINB"
 battler_name = "Beads"
-raw_battle_items = []
 
 [[trainers.RUINB.0.pokemon]]
 internal_name = "GRIMMSNARL"
@@ -19,11 +18,8 @@ nature = "IMPISH"
 iv = 31
 
 [trainers.RUINB.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
 spe = 4
 
 [[trainers.RUINB.0.pokemon]]
@@ -42,12 +38,8 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.RUINB.0.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.RUINB.0.pokemon]]
 internal_name = "ESPEON"
@@ -65,12 +57,8 @@ nature = "TIMID"
 iv = 31
 
 [trainers.RUINB.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.RUINB.0.pokemon]]
 internal_name = "DITTO"
@@ -86,12 +74,7 @@ iv = 31
 happiness = 255
 
 [trainers.RUINB.0.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.RUINB.0.pokemon]]
 internal_name = "CHIYU"
@@ -108,9 +91,5 @@ nature = "TIMID"
 iv = 31
 
 [trainers.RUINB.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0

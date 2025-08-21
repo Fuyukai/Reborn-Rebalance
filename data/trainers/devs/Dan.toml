@@ -3,7 +3,6 @@ trainer_name = "Dan"
 [trainers.KNIGHT.0]
 raw_trainer_class = "KNIGHT"
 battler_name = "Dan"
-raw_battle_items = []
 
 [[trainers.KNIGHT.0.pokemon]]
 internal_name = "HITMONCHAN"
@@ -21,11 +20,8 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.KNIGHT.0.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
 spe = 4
 
 [[trainers.KNIGHT.0.pokemon]]
@@ -44,9 +40,6 @@ nature = "MODEST"
 iv = 31
 
 [trainers.KNIGHT.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
 spe = 4
@@ -67,17 +60,13 @@ nature = "TIMID"
 iv = 31
 
 [trainers.KNIGHT.0.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [trainers.SPIRITM.0]
 raw_trainer_class = "SPIRITM"
 battler_name = "Dan"
-raw_battle_items = []
 
 [[trainers.SPIRITM.0.pokemon]]
 internal_name = "ROWLET"
@@ -93,7 +82,6 @@ iv = 31
 nickname = "Grumpy"
 
 [trainers.SPIRITM.0.pokemon.evs]
-hp = 0
 atk = 2522
 def_ = 252
 spa = 252

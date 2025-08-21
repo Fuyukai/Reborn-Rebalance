@@ -3,57 +3,22 @@ trainer_name = "Demian"
 [trainers.MeteorGrunt.0]
 raw_trainer_class = "MeteorGrunt"
 battler_name = "Demian"
-raw_battle_items = []
-
-[[trainers.MeteorGrunt.0.pokemon]]
-internal_name = "VENONAT"
-level = 12
-iv = 0
-
-[trainers.MeteorGrunt.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
+pokemon = [
+    { internal_name = "VENONAT", level = 12, iv = 0 },
+]
 
 [trainers.MeteorGrunt.1]
 raw_trainer_class = "MeteorGrunt"
 battler_name = "Demian"
+pokemon = [
+    { internal_name = "VENOMOTH", level = 40, iv = 0 },
+    { internal_name = "GRAVELER", level = 40, iv = 0 },
+]
 battler_id = 1
-raw_battle_items = []
-
-[[trainers.MeteorGrunt.1.pokemon]]
-internal_name = "VENOMOTH"
-level = 40
-iv = 0
-
-[trainers.MeteorGrunt.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.MeteorGrunt.1.pokemon]]
-internal_name = "GRAVELER"
-level = 40
-iv = 0
-
-[trainers.MeteorGrunt.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.MeteorKnight.0]
 raw_trainer_class = "MeteorKnight"
 battler_name = "Demian"
-raw_battle_items = []
 
 [[trainers.MeteorKnight.0.pokemon]]
 internal_name = "DIGGERSBY"
@@ -66,14 +31,6 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.MeteorKnight.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.MeteorKnight.0.pokemon]]
 internal_name = "GOLEM"
 level = 66
@@ -84,14 +41,6 @@ raw_moves = [
     "HEAVYSLAM",
 ]
 iv = 0
-
-[trainers.MeteorKnight.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.MeteorKnight.0.pokemon]]
 internal_name = "VENOMOTH"
@@ -104,18 +53,9 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.MeteorKnight.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [trainers.MeteorAceM.0]
 raw_trainer_class = "MeteorAceM"
 battler_name = "Demian"
-raw_battle_items = []
 
 [[trainers.MeteorAceM.0.pokemon]]
 internal_name = "JELLICENT"
@@ -129,14 +69,6 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.MeteorAceM.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.MeteorAceM.0.pokemon]]
 internal_name = "DIGGERSBY"
 level = 71
@@ -148,14 +80,6 @@ raw_moves = [
 ]
 ability_number = 2
 iv = 0
-
-[trainers.MeteorAceM.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.MeteorAceM.0.pokemon]]
 internal_name = "GOLEM"
@@ -169,14 +93,6 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.MeteorAceM.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.MeteorAceM.0.pokemon]]
 internal_name = "VENOMOTH"
 level = 73
@@ -189,14 +105,6 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.MeteorAceM.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.MeteorAceM.0.pokemon]]
 internal_name = "AERODACTYL"
 level = 73
@@ -208,11 +116,3 @@ raw_moves = [
 ]
 ability_number = 2
 iv = 0
-
-[trainers.MeteorAceM.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0

@@ -3,7 +3,6 @@ trainer_name = "Kecleon"
 [trainers.KECLEON.0]
 raw_trainer_class = "KECLEON"
 battler_name = "Kecleon"
-raw_battle_items = []
 
 [[trainers.KECLEON.0.pokemon]]
 internal_name = "KECLEON"
@@ -21,9 +20,6 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.KECLEON.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 4
 spa = 252
-spd = 0
-spe = 0

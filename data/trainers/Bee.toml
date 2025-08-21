@@ -4,7 +4,6 @@ trainer_name = "Bee"
 raw_trainer_class = "BEE"
 battler_name = "Bee"
 battler_id = 1000
-raw_battle_items = []
 
 [[trainers.BEE.1000.pokemon]]
 internal_name = "RIBOMBEE"
@@ -21,9 +20,6 @@ nature = "TIMID"
 iv = 31
 
 [trainers.BEE.1000.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
 spe = 4
@@ -43,11 +39,8 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.BEE.1000.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
 spe = 4
 
 [[trainers.BEE.1000.pokemon]]
@@ -66,9 +59,6 @@ nature = "TIMID"
 iv = 31
 
 [trainers.BEE.1000.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
 spe = 4

@@ -3,7 +3,6 @@ trainer_name = "Claret"
 [trainers.Casanova.0]
 raw_trainer_class = "Casanova"
 battler_name = "Claret"
-raw_battle_items = []
 
 [[trainers.Casanova.0.pokemon]]
 internal_name = "ZOROARK"
@@ -19,14 +18,6 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.Casanova.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.Casanova.0.pokemon]]
 internal_name = "NINETALES"
 level = 76
@@ -41,11 +32,3 @@ ability_number = 1
 sex = ""
 nature = "MODEST"
 iv = 31
-
-[trainers.Casanova.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0

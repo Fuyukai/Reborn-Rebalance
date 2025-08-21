@@ -3,7 +3,6 @@ trainer_name = "Drolly"
 [trainers.Clown.0]
 raw_trainer_class = "Clown"
 battler_name = "Drolly"
-raw_battle_items = []
 
 [[trainers.Clown.0.pokemon]]
 internal_name = "CLAYDOL"
@@ -17,14 +16,6 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.Clown.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.Clown.0.pokemon]]
 internal_name = "AMBIPOM"
 level = 66
@@ -34,11 +25,3 @@ raw_moves = [
     "LASTRESORT",
 ]
 iv = 0
-
-[trainers.Clown.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0

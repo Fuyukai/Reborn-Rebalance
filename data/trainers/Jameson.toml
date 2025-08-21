@@ -3,17 +3,6 @@ trainer_name = "Jameson"
 [trainers.PoliceOfficer.0]
 raw_trainer_class = "PoliceOfficer"
 battler_name = "Jameson"
-raw_battle_items = []
-
-[[trainers.PoliceOfficer.0.pokemon]]
-internal_name = "GROWLITHE"
-level = 28
-iv = 0
-
-[trainers.PoliceOfficer.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
+pokemon = [
+    { internal_name = "GROWLITHE", level = 28, iv = 0 },
+]

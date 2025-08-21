@@ -1,14 +1,8 @@
-# Editor's note: Her gym teams are deliberately left shit.
-# I'm not rebalancing potentially 6 teams, nor am I replaying the whole game to do Z-Lin a second
-# time (or Z-Hell. kys.)
-# This has always been a completely free gym *anyway*, so whatever.
-
 trainer_name = "Amaria"
 
 [trainers.Fiancee.0]
 raw_trainer_class = "Fiancee"
 battler_name = "Amaria"
-raw_battle_items = []
 
 [[trainers.Fiancee.0.pokemon]]
 internal_name = "LAPRAS"
@@ -24,14 +18,6 @@ sex = "F"
 nature = "BASHFUL"
 iv = 31
 nickname = "Deliverance"
-
-[trainers.Fiancee.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.AMARIA1.0]
 raw_trainer_class = "AMARIA1"
@@ -58,12 +44,9 @@ iv = 31
 nickname = "Twinkle"
 
 [trainers.AMARIA1.0.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.AMARIA1.0.pokemon]]
 internal_name = "WISHIWASHI"
@@ -80,12 +63,9 @@ iv = 31
 nickname = "Wishbuckler"
 
 [trainers.AMARIA1.0.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
 spa = 252
 spd = 4
-spe = 0
 
 [[trainers.AMARIA1.0.pokemon]]
 internal_name = "LUDICOLO"
@@ -102,12 +82,9 @@ iv = 31
 nickname = "Indiana"
 
 [trainers.AMARIA1.0.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
 spa = 52
 spd = 206
-spe = 0
 
 [[trainers.AMARIA1.0.pokemon]]
 internal_name = "SWAMPERT"
@@ -124,11 +101,8 @@ iv = 31
 nickname = "Kipkip"
 
 [trainers.AMARIA1.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 4
-spa = 0
-spd = 0
 spe = 252
 
 [[trainers.AMARIA1.0.pokemon]]
@@ -147,12 +121,9 @@ iv = 31
 nickname = "Atlantica"
 
 [trainers.AMARIA1.0.pokemon.evs]
-hp = 0
 atk = 100
-def_ = 0
 spa = 156
 spd = 252
-spe = 0
 
 [[trainers.AMARIA1.0.pokemon]]
 internal_name = "LAPRAS"
@@ -171,11 +142,7 @@ iv = 31
 nickname = "Deliverance"
 
 [trainers.AMARIA1.0.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 4
 
 [trainers.AMARIA1.1]
@@ -203,10 +170,7 @@ iv = 31
 nickname = "Cirrus"
 
 [trainers.AMARIA1.1.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 156
 spe = 100
 
@@ -226,12 +190,9 @@ iv = 31
 nickname = "Cumulus"
 
 [trainers.AMARIA1.1.pokemon.evs]
-hp = 0
 atk = 128
-def_ = 0
 spa = 128
 spd = 252
-spe = 0
 
 [[trainers.AMARIA1.1.pokemon]]
 internal_name = "PRIMARINA"
@@ -249,12 +210,9 @@ iv = 31
 nickname = "LaReine"
 
 [trainers.AMARIA1.1.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.AMARIA1.1.pokemon]]
 internal_name = "LANTURN"
@@ -271,10 +229,7 @@ iv = 31
 nickname = "Nimbus"
 
 [trainers.AMARIA1.1.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 200
 spe = 56
 
@@ -294,12 +249,9 @@ iv = 31
 nickname = "Shellebelle"
 
 [trainers.AMARIA1.1.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.AMARIA1.1.pokemon]]
 internal_name = "LAPRAS"
@@ -318,18 +270,13 @@ iv = 31
 nickname = "Deliverance"
 
 [trainers.AMARIA1.1.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 156
 
 [trainers.AMARIA1.10]
 raw_trainer_class = "AMARIA1"
 battler_name = "Amaria"
 battler_id = 10
-raw_battle_items = []
 
 [[trainers.AMARIA1.10.pokemon]]
 internal_name = "SWAMPERT"
@@ -348,12 +295,8 @@ iv = 31
 nickname = "Kipkip"
 
 [trainers.AMARIA1.10.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.AMARIA1.10.pokemon]]
 internal_name = "ROTOM"
@@ -372,11 +315,7 @@ iv = 31
 nickname = "Arcus"
 
 [trainers.AMARIA1.10.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 252
 
 [[trainers.AMARIA1.10.pokemon]]
@@ -395,12 +334,8 @@ iv = 31
 nickname = "Lemuria"
 
 [trainers.AMARIA1.10.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.AMARIA1.10.pokemon]]
 internal_name = "TOXAPEX"
@@ -419,11 +354,7 @@ iv = 31
 nickname = "Mammatus"
 
 [trainers.AMARIA1.10.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 4
 
 [[trainers.AMARIA1.10.pokemon]]
@@ -443,12 +374,8 @@ iv = 31
 nickname = "Lenticula"
 
 [trainers.AMARIA1.10.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.AMARIA1.10.pokemon]]
 internal_name = "PRIMARINA"
@@ -466,9 +393,6 @@ iv = 31
 nickname = "LaReine"
 
 [trainers.AMARIA1.10.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
 spe = 4
@@ -477,7 +401,6 @@ spe = 4
 raw_trainer_class = "AMARIA1"
 battler_name = "Amaria"
 battler_id = 11
-raw_battle_items = []
 
 [[trainers.AMARIA1.11.pokemon]]
 internal_name = "GRENINJA"
@@ -496,12 +419,8 @@ iv = 31
 nickname = "Lenticula"
 
 [trainers.AMARIA1.11.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.AMARIA1.11.pokemon]]
 internal_name = "TAPUFINI"
@@ -520,12 +439,8 @@ iv = 31
 nickname = "Avalon"
 
 [trainers.AMARIA1.11.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.AMARIA1.11.pokemon]]
 internal_name = "KELDEO"
@@ -543,12 +458,8 @@ iv = 31
 nickname = "Thule"
 
 [trainers.AMARIA1.11.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.AMARIA1.11.pokemon]]
 internal_name = "SWAMPERT"
@@ -567,12 +478,8 @@ iv = 31
 nickname = "Kipkip"
 
 [trainers.AMARIA1.11.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.AMARIA1.11.pokemon]]
 internal_name = "PALKIA"
@@ -590,12 +497,8 @@ iv = 31
 nickname = "Mu"
 
 [trainers.AMARIA1.11.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.AMARIA1.11.pokemon]]
 internal_name = "KYOGRE"
@@ -613,18 +516,13 @@ iv = 31
 nickname = "Lemuria"
 
 [trainers.AMARIA1.11.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [trainers.AMARIA1.12]
 raw_trainer_class = "AMARIA1"
 battler_name = "Amaria"
 battler_id = 12
-raw_battle_items = []
 
 [[trainers.AMARIA1.12.pokemon]]
 internal_name = "EMPOLEON"
@@ -642,9 +540,6 @@ iv = 31
 nickname = "Cumulus"
 
 [trainers.AMARIA1.12.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
 spe = 4
@@ -666,9 +561,6 @@ iv = 31
 nickname = "Lenticula"
 
 [trainers.AMARIA1.12.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
 spe = 4
@@ -689,11 +581,7 @@ iv = 31
 nickname = "Shellebelle"
 
 [trainers.AMARIA1.12.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
-spd = 0
 spe = 4
 
 [[trainers.AMARIA1.12.pokemon]]
@@ -712,11 +600,7 @@ iv = 31
 nickname = "Kipkip"
 
 [trainers.AMARIA1.12.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
-spd = 0
 spe = 4
 
 [[trainers.AMARIA1.12.pokemon]]
@@ -735,9 +619,6 @@ iv = 31
 nickname = "Alto"
 
 [trainers.AMARIA1.12.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
 spe = 4
@@ -758,9 +639,6 @@ iv = 31
 nickname = "LaReine"
 
 [trainers.AMARIA1.12.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
 spe = 4
@@ -769,7 +647,6 @@ spe = 4
 raw_trainer_class = "AMARIA1"
 battler_name = "Amaria"
 battler_id = 13
-raw_battle_items = []
 
 [[trainers.AMARIA1.13.pokemon]]
 internal_name = "QWILFISH"
@@ -788,12 +665,8 @@ iv = 31
 nickname = "Southerna"
 
 [trainers.AMARIA1.13.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.AMARIA1.13.pokemon]]
 internal_name = "SWAMPERT"
@@ -811,11 +684,7 @@ iv = 31
 nickname = "Kipkip"
 
 [trainers.AMARIA1.13.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
-spd = 0
 spe = 4
 
 [[trainers.AMARIA1.13.pokemon]]
@@ -835,12 +704,8 @@ iv = 31
 nickname = "Lenticula"
 
 [trainers.AMARIA1.13.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.AMARIA1.13.pokemon]]
 internal_name = "VOLCANION"
@@ -858,12 +723,8 @@ iv = 31
 nickname = "Agartha"
 
 [trainers.AMARIA1.13.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.AMARIA1.13.pokemon]]
 internal_name = "OMASTAR"
@@ -881,9 +742,6 @@ iv = 31
 nickname = "Nacreous"
 
 [trainers.AMARIA1.13.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
 spe = 4
@@ -905,18 +763,13 @@ iv = 31
 nickname = "Mammatus"
 
 [trainers.AMARIA1.13.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 4
 
 [trainers.AMARIA1.14]
 raw_trainer_class = "AMARIA1"
 battler_name = "Amaria"
 battler_id = 14
-raw_battle_items = []
 
 [[trainers.AMARIA1.14.pokemon]]
 internal_name = "KYOGRE"
@@ -934,12 +787,8 @@ iv = 31
 nickname = "Lemuria"
 
 [trainers.AMARIA1.14.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.AMARIA1.14.pokemon]]
 internal_name = "KELDEO"
@@ -957,12 +806,8 @@ iv = 31
 nickname = "Thule"
 
 [trainers.AMARIA1.14.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.AMARIA1.14.pokemon]]
 internal_name = "SLOWBRO"
@@ -981,10 +826,6 @@ iv = 31
 nickname = "Stratus"
 
 [trainers.AMARIA1.14.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
 spd = 252
 spe = 4
 
@@ -1004,12 +845,8 @@ iv = 31
 nickname = "Shellebelle"
 
 [trainers.AMARIA1.14.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.AMARIA1.14.pokemon]]
 internal_name = "STARMIE"
@@ -1027,12 +864,8 @@ iv = 31
 nickname = "Twinkle"
 
 [trainers.AMARIA1.14.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.AMARIA1.14.pokemon]]
 internal_name = "PALKIA"
@@ -1050,18 +883,13 @@ iv = 31
 nickname = "Mu"
 
 [trainers.AMARIA1.14.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [trainers.AMARIA1.15]
 raw_trainer_class = "AMARIA1"
 battler_name = "Amaria"
 battler_id = 15
-raw_battle_items = []
 
 [[trainers.AMARIA1.15.pokemon]]
 internal_name = "TAPUFINI"
@@ -1079,12 +907,9 @@ iv = 31
 nickname = "Avalon"
 
 [trainers.AMARIA1.15.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
 spa = 252
 spd = 4
-spe = 0
 
 [[trainers.AMARIA1.15.pokemon]]
 internal_name = "PALKIA"
@@ -1102,12 +927,8 @@ iv = 31
 nickname = "Mu"
 
 [trainers.AMARIA1.15.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.AMARIA1.15.pokemon]]
 internal_name = "SLOWBRO"
@@ -1126,10 +947,6 @@ iv = 31
 nickname = "Stratus"
 
 [trainers.AMARIA1.15.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
 spd = 252
 spe = 4
 
@@ -1149,12 +966,8 @@ iv = 31
 nickname = "Twinkle"
 
 [trainers.AMARIA1.15.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.AMARIA1.15.pokemon]]
 internal_name = "MILOTIC"
@@ -1172,11 +985,7 @@ iv = 31
 nickname = "Virga"
 
 [trainers.AMARIA1.15.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 252
 
 [[trainers.AMARIA1.15.pokemon]]
@@ -1195,12 +1004,8 @@ iv = 31
 nickname = "Lemuria"
 
 [trainers.AMARIA1.15.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [trainers.AMARIA1.20]
 raw_trainer_class = "AMARIA1"
@@ -1228,12 +1033,9 @@ iv = 31
 nickname = "Twinkle"
 
 [trainers.AMARIA1.20.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.AMARIA1.20.pokemon]]
 internal_name = "PALAFIN"
@@ -1250,12 +1052,9 @@ iv = 31
 nickname = "Poseidon"
 
 [trainers.AMARIA1.20.pokemon.evs]
-hp = 0
 atk = 100
 def_ = 152
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.AMARIA1.20.pokemon]]
 internal_name = "BASCULEGION"
@@ -1273,12 +1072,9 @@ iv = 31
 nickname = "Taimen"
 
 [trainers.AMARIA1.20.pokemon.evs]
-hp = 0
 atk = 182
-def_ = 0
 spa = 128
 spd = 200
-spe = 0
 
 [[trainers.AMARIA1.20.pokemon]]
 internal_name = "DREDNAW"
@@ -1296,12 +1092,9 @@ iv = 31
 nickname = "Nibbles"
 
 [trainers.AMARIA1.20.pokemon.evs]
-hp = 0
 atk = 128
 def_ = 252
 spa = 128
-spd = 0
-spe = 0
 
 [[trainers.AMARIA1.20.pokemon]]
 internal_name = "KINGDRA"
@@ -1319,12 +1112,9 @@ iv = 31
 nickname = "Atlantica"
 
 [trainers.AMARIA1.20.pokemon.evs]
-hp = 0
 atk = 100
-def_ = 0
 spa = 156
 spd = 252
-spe = 0
 
 [[trainers.AMARIA1.20.pokemon]]
 internal_name = "LAPRAS"
@@ -1343,11 +1133,7 @@ iv = 31
 nickname = "Deliverance"
 
 [trainers.AMARIA1.20.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 4
 
 [trainers.AMARIA1.21]
@@ -1375,10 +1161,7 @@ iv = 31
 nickname = "Cirrus"
 
 [trainers.AMARIA1.21.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 156
 spe = 100
 
@@ -1398,12 +1181,9 @@ iv = 31
 nickname = "Cumulus"
 
 [trainers.AMARIA1.21.pokemon.evs]
-hp = 0
 atk = 128
-def_ = 0
 spa = 128
 spd = 252
-spe = 0
 
 [[trainers.AMARIA1.21.pokemon]]
 internal_name = "INTELEON"
@@ -1421,12 +1201,9 @@ iv = 31
 nickname = "Daphne"
 
 [trainers.AMARIA1.21.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.AMARIA1.21.pokemon]]
 internal_name = "LANTURN"
@@ -1443,10 +1220,7 @@ iv = 31
 nickname = "Nimbus"
 
 [trainers.AMARIA1.21.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 200
 spe = 56
 
@@ -1466,10 +1240,7 @@ iv = 31
 nickname = "Miracle"
 
 [trainers.AMARIA1.21.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 158
 spe = 100
 
@@ -1490,11 +1261,7 @@ iv = 31
 nickname = "Deliverance"
 
 [trainers.AMARIA1.21.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 156
 
 [trainers.AMARIA2.0]
@@ -1523,12 +1290,9 @@ iv = 31
 nickname = "Twinkle"
 
 [trainers.AMARIA2.0.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.AMARIA2.0.pokemon]]
 internal_name = "WISHIWASHI"
@@ -1545,12 +1309,9 @@ iv = 31
 nickname = "Wishbuckler"
 
 [trainers.AMARIA2.0.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
 spa = 252
 spd = 4
-spe = 0
 
 [[trainers.AMARIA2.0.pokemon]]
 internal_name = "LUDICOLO"
@@ -1567,12 +1328,9 @@ iv = 31
 nickname = "Indiana"
 
 [trainers.AMARIA2.0.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
 spa = 52
 spd = 206
-spe = 0
 
 [[trainers.AMARIA2.0.pokemon]]
 internal_name = "SWAMPERT"
@@ -1589,11 +1347,8 @@ iv = 31
 nickname = "Kipkip"
 
 [trainers.AMARIA2.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
 spe = 4
 
 [[trainers.AMARIA2.0.pokemon]]
@@ -1612,12 +1367,9 @@ iv = 31
 nickname = "Atlantica"
 
 [trainers.AMARIA2.0.pokemon.evs]
-hp = 0
 atk = 100
-def_ = 0
 spa = 156
 spd = 252
-spe = 0
 
 [[trainers.AMARIA2.0.pokemon]]
 internal_name = "LAPRAS"
@@ -1636,11 +1388,7 @@ iv = 31
 nickname = "Deliverance"
 
 [trainers.AMARIA2.0.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 4
 
 [trainers.AMARIA2.1]
@@ -1669,10 +1417,7 @@ iv = 31
 nickname = "Cirrus"
 
 [trainers.AMARIA2.1.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 156
 spe = 100
 
@@ -1692,12 +1437,9 @@ iv = 31
 nickname = "Cumulus"
 
 [trainers.AMARIA2.1.pokemon.evs]
-hp = 0
 atk = 128
-def_ = 0
 spa = 128
 spd = 252
-spe = 0
 
 [[trainers.AMARIA2.1.pokemon]]
 internal_name = "PRIMARINA"
@@ -1715,12 +1457,9 @@ iv = 31
 nickname = "LaReine"
 
 [trainers.AMARIA2.1.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.AMARIA2.1.pokemon]]
 internal_name = "LANTURN"
@@ -1737,10 +1476,7 @@ iv = 31
 nickname = "Nimbus"
 
 [trainers.AMARIA2.1.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 200
 spe = 56
 
@@ -1760,12 +1496,9 @@ iv = 31
 nickname = "Shellebelle"
 
 [trainers.AMARIA2.1.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.AMARIA2.1.pokemon]]
 internal_name = "LAPRAS"
@@ -1784,18 +1517,13 @@ iv = 31
 nickname = "Deliverance"
 
 [trainers.AMARIA2.1.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 156
 
 [trainers.AMARIA2.2]
 raw_trainer_class = "AMARIA2"
 battler_name = "Amaria"
 battler_id = 2
-raw_battle_items = []
 
 [[trainers.AMARIA2.2.pokemon]]
 internal_name = "STARMIE"
@@ -1814,12 +1542,9 @@ iv = 31
 nickname = "Twinkle"
 
 [trainers.AMARIA2.2.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.AMARIA2.2.pokemon]]
 internal_name = "KINGDRA"
@@ -1837,12 +1562,9 @@ iv = 31
 nickname = "Atlantica"
 
 [trainers.AMARIA2.2.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.AMARIA2.2.pokemon]]
 internal_name = "PRIMARINA"
@@ -1860,12 +1582,9 @@ iv = 31
 nickname = "LaReine"
 
 [trainers.AMARIA2.2.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.AMARIA2.2.pokemon]]
 internal_name = "SWAMPERT"
@@ -1882,11 +1601,8 @@ iv = 31
 nickname = "Kipkip"
 
 [trainers.AMARIA2.2.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
 spe = 4
 
 [[trainers.AMARIA2.2.pokemon]]
@@ -1905,12 +1621,9 @@ iv = 31
 nickname = "WhirlGirl"
 
 [trainers.AMARIA2.2.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.AMARIA2.2.pokemon]]
 internal_name = "LAPRAS"
@@ -1929,10 +1642,7 @@ iv = 31
 nickname = "Deliverance"
 
 [trainers.AMARIA2.2.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 252
 spe = 4
 
@@ -1963,12 +1673,9 @@ iv = 31
 nickname = "Twinkle"
 
 [trainers.AMARIA2.20.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.AMARIA2.20.pokemon]]
 internal_name = "PALAFIN"
@@ -1985,12 +1692,9 @@ iv = 31
 nickname = "Poseidon"
 
 [trainers.AMARIA2.20.pokemon.evs]
-hp = 0
 atk = 100
 def_ = 152
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.AMARIA2.20.pokemon]]
 internal_name = "BASCULEGION"
@@ -2008,12 +1712,9 @@ iv = 31
 nickname = "Taimen"
 
 [trainers.AMARIA2.20.pokemon.evs]
-hp = 0
 atk = 182
-def_ = 0
 spa = 128
 spd = 200
-spe = 0
 
 [[trainers.AMARIA2.20.pokemon]]
 internal_name = "DREDNAW"
@@ -2031,12 +1732,9 @@ iv = 31
 nickname = "Nibbles"
 
 [trainers.AMARIA2.20.pokemon.evs]
-hp = 0
 atk = 128
 def_ = 252
 spa = 128
-spd = 0
-spe = 0
 
 [[trainers.AMARIA2.20.pokemon]]
 internal_name = "KINGDRA"
@@ -2054,12 +1752,9 @@ iv = 31
 nickname = "Atlantica"
 
 [trainers.AMARIA2.20.pokemon.evs]
-hp = 0
 atk = 100
-def_ = 0
 spa = 156
 spd = 252
-spe = 0
 
 [[trainers.AMARIA2.20.pokemon]]
 internal_name = "LAPRAS"
@@ -2078,11 +1773,7 @@ iv = 31
 nickname = "Deliverance"
 
 [trainers.AMARIA2.20.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 4
 
 [trainers.AMARIA2.21]
@@ -2110,10 +1801,7 @@ iv = 31
 nickname = "Nimbus"
 
 [trainers.AMARIA2.21.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 200
 spe = 56
 
@@ -2133,12 +1821,9 @@ iv = 31
 nickname = "Daphne"
 
 [trainers.AMARIA2.21.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.AMARIA2.21.pokemon]]
 internal_name = "VAPOREON"
@@ -2156,10 +1841,7 @@ iv = 31
 nickname = "Cirrus"
 
 [trainers.AMARIA2.21.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 156
 spe = 100
 
@@ -2179,12 +1861,9 @@ iv = 31
 nickname = "Cumulus"
 
 [trainers.AMARIA2.21.pokemon.evs]
-hp = 0
 atk = 128
-def_ = 0
 spa = 128
 spd = 252
-spe = 0
 
 [[trainers.AMARIA2.21.pokemon]]
 internal_name = "MILOTIC"
@@ -2202,12 +1881,9 @@ iv = 31
 nickname = "Miracle"
 
 [trainers.AMARIA2.21.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.AMARIA2.21.pokemon]]
 internal_name = "LAPRAS"
@@ -2226,18 +1902,13 @@ iv = 31
 nickname = "Deliverance"
 
 [trainers.AMARIA2.21.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 156
 
 [trainers.AMARIA2.22]
 raw_trainer_class = "AMARIA2"
 battler_name = "Amaria"
 battler_id = 22
-raw_battle_items = []
 
 [[trainers.AMARIA2.22.pokemon]]
 internal_name = "PALAFIN"
@@ -2255,12 +1926,9 @@ iv = 31
 nickname = "Poseidon"
 
 [trainers.AMARIA2.22.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.AMARIA2.22.pokemon]]
 internal_name = "MILOTIC"
@@ -2278,10 +1946,7 @@ iv = 31
 nickname = "Miracle"
 
 [trainers.AMARIA2.22.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
-spa = 0
 spd = 252
 spe = 252
 
@@ -2301,12 +1966,9 @@ iv = 31
 nickname = "Atlantica"
 
 [trainers.AMARIA2.22.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.AMARIA2.22.pokemon]]
 internal_name = "BASCULEGION"
@@ -2324,12 +1986,9 @@ iv = 31
 nickname = "Taimen"
 
 [trainers.AMARIA2.22.pokemon.evs]
-hp = 0
 atk = 182
-def_ = 0
 spa = 128
 spd = 200
-spe = 0
 
 [[trainers.AMARIA2.22.pokemon]]
 internal_name = "DREDNAW"
@@ -2347,12 +2006,9 @@ iv = 31
 nickname = "Nibbles"
 
 [trainers.AMARIA2.22.pokemon.evs]
-hp = 0
 atk = 128
 def_ = 252
 spa = 128
-spd = 0
-spe = 0
 
 [[trainers.AMARIA2.22.pokemon]]
 internal_name = "LAPRAS"
@@ -2371,17 +2027,13 @@ iv = 31
 nickname = "Deliverance"
 
 [trainers.AMARIA2.22.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
 spe = 4
 
 [trainers.UMBAMARIA.0]
 raw_trainer_class = "UMBAMARIA"
 battler_name = "Amaria"
-raw_battle_items = []
 
 [[trainers.UMBAMARIA.0.pokemon]]
 internal_name = "TAPUBULU"
@@ -2398,7 +2050,6 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.UMBAMARIA.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -2420,7 +2071,6 @@ nature = "MODEST"
 iv = 31
 
 [trainers.UMBAMARIA.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -2443,7 +2093,6 @@ nature = "TIMID"
 iv = 31
 
 [trainers.UMBAMARIA.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -2465,7 +2114,6 @@ nature = "MODEST"
 iv = 31
 
 [trainers.UMBAMARIA.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -2487,7 +2135,6 @@ sex = ""
 nature = "TIMID"
 
 [trainers.UMBAMARIA.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -2509,7 +2156,6 @@ nature = "MODEST"
 iv = 31
 
 [trainers.UMBAMARIA.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -2520,7 +2166,6 @@ spe = 252
 raw_trainer_class = "UMBAMARIA"
 battler_name = "Amaria"
 battler_id = 1
-raw_battle_items = []
 
 [[trainers.UMBAMARIA.1.pokemon]]
 internal_name = "JOLTEON"
@@ -2538,9 +2183,6 @@ nature = "MILD"
 iv = 0
 
 [trainers.UMBAMARIA.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
 spe = 4
@@ -2560,9 +2202,6 @@ nature = "MILD"
 iv = 0
 
 [trainers.UMBAMARIA.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
 spe = 4
@@ -2582,11 +2221,8 @@ nature = "NAUGHTY"
 iv = 0
 
 [trainers.UMBAMARIA.1.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
 spe = 4
 
 [[trainers.UMBAMARIA.1.pokemon]]
@@ -2605,8 +2241,6 @@ nature = "RASH"
 iv = 0
 
 [trainers.UMBAMARIA.1.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 128
 spa = 252
 spd = 128
@@ -2628,9 +2262,6 @@ nature = "RASH"
 iv = 0
 
 [trainers.UMBAMARIA.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
 spe = 4
@@ -2650,8 +2281,6 @@ nature = "RASH"
 iv = 0
 
 [trainers.UMBAMARIA.1.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 52
 spa = 252
 spd = 200
@@ -2661,7 +2290,6 @@ spe = 4
 raw_trainer_class = "UMBAMARIA"
 battler_name = "Amaria"
 battler_id = 2
-raw_battle_items = []
 
 [[trainers.UMBAMARIA.2.pokemon]]
 internal_name = "KINGDRA"
@@ -2677,7 +2305,6 @@ sex = "F"
 nature = "MODEST"
 
 [trainers.UMBAMARIA.2.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -2699,7 +2326,6 @@ form_number = 1
 nature = "TIMID"
 
 [trainers.UMBAMARIA.2.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -2721,7 +2347,6 @@ sex = ""
 nature = "MODEST"
 
 [trainers.UMBAMARIA.2.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -2742,7 +2367,6 @@ sex = "F"
 nature = "CALM"
 
 [trainers.UMBAMARIA.2.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -2764,7 +2388,6 @@ sex = ""
 nature = "MODEST"
 
 [trainers.UMBAMARIA.2.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -2786,7 +2409,6 @@ nature = "MODEST"
 iv = 20
 
 [trainers.UMBAMARIA.2.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252

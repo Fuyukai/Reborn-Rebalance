@@ -21,15 +21,6 @@ sex = "F"
 nature = "ADAMANT"
 iv = 31
 
-[trainers.BLAKE.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-
 [[trainers.BLAKE.0.pokemon]]
 internal_name = "WEAVILE"
 level = 73
@@ -45,12 +36,9 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.BLAKE.0.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.BLAKE.0.pokemon]]
 internal_name = "STARMIE"
@@ -65,14 +53,6 @@ raw_moves = [
 ability_number = 1
 nature = "TIMID"
 iv = 31
-
-[trainers.BLAKE.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.BLAKE.0.pokemon]]
 internal_name = "WALREIN"
@@ -89,11 +69,7 @@ nature = "BOLD"
 iv = 31
 
 [trainers.BLAKE.0.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 4
 
 [[trainers.BLAKE.0.pokemon]]
@@ -110,18 +86,14 @@ nature = "ADAMANT"
 iv = 15
 
 [trainers.BLAKE.0.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [trainers.BLAKE.1]
 raw_trainer_class = "BLAKE"
 battler_name = "Blake"
 battler_id = 1
-raw_battle_items = []
 
 [[trainers.BLAKE.1.pokemon]]
 internal_name = "WALREIN"
@@ -138,11 +110,7 @@ nature = "BOLD"
 iv = 20
 
 [trainers.BLAKE.1.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 4
 
 [[trainers.BLAKE.1.pokemon]]
@@ -158,14 +126,6 @@ ability_number = 1
 nature = "ADAMANT"
 iv = 20
 
-[trainers.BLAKE.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.BLAKE.1.pokemon]]
 internal_name = "GYARADOS"
 level = 71
@@ -178,14 +138,6 @@ raw_moves = [
 sex = "F"
 nature = "ADAMANT"
 iv = 31
-
-[trainers.BLAKE.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.BLAKE.1.pokemon]]
 internal_name = "WEAVILE"
@@ -202,12 +154,9 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.BLAKE.1.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.BLAKE.1.pokemon]]
 internal_name = "STARMIE"
@@ -223,14 +172,6 @@ ability_number = 1
 nature = "TIMID"
 iv = 31
 
-[trainers.BLAKE.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.BLAKE.1.pokemon]]
 internal_name = "SANDSLASH"
 level = 73
@@ -244,12 +185,9 @@ form_number = 1
 nature = "ADAMANT"
 
 [trainers.BLAKE.1.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [trainers.BLAKE.2]
 raw_trainer_class = "BLAKE"
@@ -275,7 +213,6 @@ nature = "TIMID"
 iv = 31
 
 [trainers.BLAKE.2.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -297,7 +234,6 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.BLAKE.2.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -319,7 +255,6 @@ nature = "ADAMANT"
 iv = 25
 
 [trainers.BLAKE.2.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -342,7 +277,6 @@ nature = "ADAMANT"
 iv = 25
 
 [trainers.BLAKE.2.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -365,7 +299,6 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.BLAKE.2.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -387,7 +320,6 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.BLAKE.2.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -398,7 +330,6 @@ spe = 252
 raw_trainer_class = "BLAKE"
 battler_name = "Blake"
 battler_id = 10
-raw_battle_items = []
 
 [[trainers.BLAKE.10.pokemon]]
 internal_name = "ROTOM"
@@ -416,11 +347,7 @@ nature = "CALM"
 iv = 31
 
 [trainers.BLAKE.10.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
-spd = 0
 spe = 4
 
 [[trainers.BLAKE.10.pokemon]]
@@ -439,11 +366,7 @@ nature = "CALM"
 iv = 31
 
 [trainers.BLAKE.10.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
-spd = 0
 spe = 4
 
 [[trainers.BLAKE.10.pokemon]]
@@ -462,11 +385,7 @@ nature = "CALM"
 iv = 31
 
 [trainers.BLAKE.10.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
-spd = 0
 spe = 4
 
 [[trainers.BLAKE.10.pokemon]]
@@ -485,11 +404,7 @@ nature = "CALM"
 iv = 31
 
 [trainers.BLAKE.10.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
-spd = 0
 spe = 4
 
 [[trainers.BLAKE.10.pokemon]]
@@ -508,11 +423,7 @@ nature = "MODEST"
 iv = 31
 
 [trainers.BLAKE.10.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
-spd = 0
 spe = 4
 
 [[trainers.BLAKE.10.pokemon]]
@@ -530,18 +441,13 @@ nature = "MODEST"
 iv = 31
 
 [trainers.BLAKE.10.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
-spd = 0
 spe = 4
 
 [trainers.BLAKE.11]
 raw_trainer_class = "BLAKE"
 battler_name = "Blake"
 battler_id = 11
-raw_battle_items = []
 
 [[trainers.BLAKE.11.pokemon]]
 internal_name = "AURORUS"
@@ -559,12 +465,8 @@ nature = "SASSY"
 iv = 31
 
 [trainers.BLAKE.11.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 252
-spe = 0
 
 [[trainers.BLAKE.11.pokemon]]
 internal_name = "WALREIN"
@@ -582,12 +484,8 @@ nature = "CALM"
 iv = 31
 
 [trainers.BLAKE.11.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
 spa = 128
-spd = 0
-spe = 0
 
 [[trainers.BLAKE.11.pokemon]]
 internal_name = "ABOMASNOW"
@@ -604,11 +502,7 @@ nature = "CAREFUL"
 iv = 31
 
 [trainers.BLAKE.11.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 4
-spa = 0
-spd = 0
 spe = 252
 
 [[trainers.BLAKE.11.pokemon]]
@@ -627,11 +521,7 @@ nature = "IMPISH"
 iv = 31
 
 [trainers.BLAKE.11.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 4
 
 [[trainers.BLAKE.11.pokemon]]
@@ -650,12 +540,8 @@ nature = "BOLD"
 iv = 31
 
 [trainers.BLAKE.11.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
 spa = 128
-spd = 0
-spe = 0
 
 [[trainers.BLAKE.11.pokemon]]
 internal_name = "GLALIE"
@@ -674,18 +560,13 @@ iv = 31
 happiness = 0
 
 [trainers.BLAKE.11.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 200
 
 [trainers.BLAKE.12]
 raw_trainer_class = "BLAKE"
 battler_name = "Blake"
 battler_id = 12
-raw_battle_items = []
 
 [[trainers.BLAKE.12.pokemon]]
 internal_name = "WALREIN"
@@ -702,11 +583,7 @@ nature = "BOLD"
 iv = 31
 
 [trainers.BLAKE.12.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 56
 
 [[trainers.BLAKE.12.pokemon]]
@@ -724,11 +601,8 @@ nature = "TIMID"
 iv = 31
 
 [trainers.BLAKE.12.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
 spa = 252
-spd = 0
 spe = 4
 
 [[trainers.BLAKE.12.pokemon]]
@@ -746,12 +620,9 @@ nature = "TIMID"
 iv = 31
 
 [trainers.BLAKE.12.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.BLAKE.12.pokemon]]
 internal_name = "PORYGON2"
@@ -768,11 +639,7 @@ nature = "CALM"
 iv = 31
 
 [trainers.BLAKE.12.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 56
 
 [[trainers.BLAKE.12.pokemon]]
@@ -791,10 +658,7 @@ nature = "MODEST"
 iv = 31
 
 [trainers.BLAKE.12.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 252
 spe = 4
 
@@ -815,11 +679,7 @@ iv = 31
 happiness = 0
 
 [trainers.BLAKE.12.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 200
 
 [trainers.BLAKE.20]
@@ -844,14 +704,6 @@ sex = "F"
 nature = "ADAMANT"
 iv = 31
 
-[trainers.BLAKE.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.BLAKE.20.pokemon]]
 internal_name = "CETITAN"
 level = 72
@@ -867,11 +719,8 @@ nature = "JOLLY"
 iv = 20
 
 [trainers.BLAKE.20.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
 spe = 4
 
 [[trainers.BLAKE.20.pokemon]]
@@ -889,12 +738,9 @@ nature = "JOLLY"
 iv = 15
 
 [trainers.BLAKE.20.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.BLAKE.20.pokemon]]
 internal_name = "MAMOSWINE"
@@ -908,14 +754,6 @@ raw_moves = [
 ability_number = 1
 nature = "ADAMANT"
 iv = 20
-
-[trainers.BLAKE.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.BLAKE.20.pokemon]]
 internal_name = "WALREIN"
@@ -932,11 +770,7 @@ nature = "BOLD"
 iv = 31
 
 [trainers.BLAKE.20.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 4
 
 [[trainers.BLAKE.20.pokemon]]
@@ -952,18 +786,14 @@ form_number = 1
 nature = "ADAMANT"
 
 [trainers.BLAKE.20.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [trainers.BLAKE.21]
 raw_trainer_class = "BLAKE"
 battler_name = "Blake"
 battler_id = 21
-raw_battle_items = []
 
 [[trainers.BLAKE.21.pokemon]]
 internal_name = "MAMOSWINE"
@@ -978,14 +808,6 @@ ability_number = 1
 nature = "ADAMANT"
 iv = 20
 
-[trainers.BLAKE.21.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.BLAKE.21.pokemon]]
 internal_name = "SANDSLASH"
 level = 73
@@ -999,12 +821,9 @@ form_number = 1
 nature = "ADAMANT"
 
 [trainers.BLAKE.21.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.BLAKE.21.pokemon]]
 internal_name = "EISCUE"
@@ -1021,12 +840,9 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.BLAKE.21.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.BLAKE.21.pokemon]]
 internal_name = "DARMANITAN"
@@ -1043,12 +859,9 @@ nature = "JOLLY"
 iv = 15
 
 [trainers.BLAKE.21.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.BLAKE.21.pokemon]]
 internal_name = "STARMIE"
@@ -1063,14 +876,6 @@ raw_moves = [
 ability_number = 1
 nature = "TIMID"
 iv = 31
-
-[trainers.BLAKE.21.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.BLAKE.21.pokemon]]
 internal_name = "WALREIN"
@@ -1087,11 +892,7 @@ nature = "BOLD"
 iv = 20
 
 [trainers.BLAKE.21.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 4
 
 [trainers.BLAKE.22]
@@ -1117,14 +918,6 @@ sex = "F"
 nature = "ADAMANT"
 iv = 31
 
-[trainers.BLAKE.22.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.BLAKE.22.pokemon]]
 internal_name = "STARMIE"
 level = 96
@@ -1140,7 +933,6 @@ nature = "TIMID"
 iv = 31
 
 [trainers.BLAKE.22.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -1162,7 +954,6 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.BLAKE.22.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -1183,7 +974,6 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.BLAKE.22.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -1207,7 +997,6 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.BLAKE.22.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -1229,7 +1018,6 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.BLAKE.22.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252

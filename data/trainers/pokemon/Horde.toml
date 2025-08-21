@@ -3,7 +3,6 @@ trainer_name = "Horde"
 [trainers.BUGCATCHER.20]
 raw_trainer_class = "BUGCATCHER"
 battler_name = "Horde"
-raw_battle_items = []
 battler_id = 20
 
 [[trainers.BUGCATCHER.20.pokemon]]
@@ -19,14 +18,6 @@ ability_number = 2
 nature = "BASHFUL"
 iv = 31
 
-[trainers.BUGCATCHER.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.BUGCATCHER.20.pokemon]]
 internal_name = "TRUBBISH"
 level = 30
@@ -39,14 +30,6 @@ raw_moves = [
 ability_number = 2
 nature = "BASHFUL"
 iv = 31
-
-[trainers.BUGCATCHER.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.BUGCATCHER.20.pokemon]]
 internal_name = "GARBODOR"
@@ -64,9 +47,6 @@ iv = 31
 nickname = "Mr.Biggles"
 
 [trainers.BUGCATCHER.20.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
 spe = 4

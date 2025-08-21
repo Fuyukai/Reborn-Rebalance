@@ -3,94 +3,25 @@ trainer_name = "Jonah"
 [trainers.YOUNGSTER.3]
 raw_trainer_class = "YOUNGSTER"
 battler_name = "Jonah"
+pokemon = [
+    { internal_name = "SQUIRTLE", level = 14, is_shiny = true, nature = "DOCILE", iv = 15 },
+]
 battler_id = 3
-raw_battle_items = []
-
-[[trainers.YOUNGSTER.3.pokemon]]
-internal_name = "SQUIRTLE"
-level = 14
-is_shiny = true
-nature = "DOCILE"
-iv = 15
-
-[trainers.YOUNGSTER.3.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.YOUNGSTER.0]
 raw_trainer_class = "YOUNGSTER"
 battler_name = "Jonah"
-raw_battle_items = []
-
-[[trainers.YOUNGSTER.0.pokemon]]
-internal_name = "SQUIRTLE"
-level = 30
-is_shiny = true
-nature = "QUIRKY"
-iv = 15
-
-[trainers.YOUNGSTER.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.YOUNGSTER.0.pokemon]]
-internal_name = "SQUIRTLE"
-level = 34
-is_shiny = true
-nature = "SERIOUS"
-iv = 15
-
-[trainers.YOUNGSTER.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.YOUNGSTER.0.pokemon]]
-internal_name = "WARTORTLE"
-level = 38
-is_shiny = true
-nature = "BASHFUL"
-iv = 15
-
-[trainers.YOUNGSTER.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.YOUNGSTER.0.pokemon]]
-internal_name = "WARTORTLE"
-level = 42
-is_shiny = true
-nature = "DOCILE"
-iv = 15
-
-[trainers.YOUNGSTER.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
+pokemon = [
+    { internal_name = "SQUIRTLE", level = 30, is_shiny = true, nature = "QUIRKY", iv = 15 },
+    { internal_name = "SQUIRTLE", level = 34, is_shiny = true, nature = "SERIOUS", iv = 15 },
+    { internal_name = "WARTORTLE", level = 38, is_shiny = true, nature = "BASHFUL", iv = 15 },
+    { internal_name = "WARTORTLE", level = 42, is_shiny = true, nature = "DOCILE", iv = 15 },
+]
 
 [trainers.YOUNGSTER.1]
 raw_trainer_class = "YOUNGSTER"
 battler_name = "Jonah"
 battler_id = 1
-raw_battle_items = []
 
 [[trainers.YOUNGSTER.1.pokemon]]
 internal_name = "SQUIRTLE"
@@ -106,14 +37,6 @@ is_shiny = true
 nature = "QUIRKY"
 iv = 15
 
-[trainers.YOUNGSTER.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.YOUNGSTER.1.pokemon]]
 internal_name = "WARTORTLE"
 level = 47
@@ -127,14 +50,6 @@ raw_moves = [
 is_shiny = true
 nature = "SERIOUS"
 iv = 15
-
-[trainers.YOUNGSTER.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.YOUNGSTER.1.pokemon]]
 internal_name = "WARTORTLE"
@@ -150,14 +65,6 @@ is_shiny = true
 nature = "BASHFUL"
 iv = 15
 
-[trainers.YOUNGSTER.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.YOUNGSTER.1.pokemon]]
 internal_name = "BLASTOISE"
 level = 52
@@ -172,19 +79,10 @@ is_shiny = true
 nature = "DOCILE"
 iv = 15
 
-[trainers.YOUNGSTER.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [trainers.YOUNGSTER.2]
 raw_trainer_class = "YOUNGSTER"
 battler_name = "Jonah"
 battler_id = 2
-raw_battle_items = []
 
 [[trainers.YOUNGSTER.2.pokemon]]
 internal_name = "SQUIRTLE"
@@ -200,14 +98,6 @@ is_shiny = true
 nature = "QUIRKY"
 iv = 15
 
-[trainers.YOUNGSTER.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.YOUNGSTER.2.pokemon]]
 internal_name = "WARTORTLE"
 level = 57
@@ -221,14 +111,6 @@ raw_moves = [
 is_shiny = true
 nature = "SERIOUS"
 iv = 15
-
-[trainers.YOUNGSTER.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.YOUNGSTER.2.pokemon]]
 internal_name = "BLASTOISE"
@@ -244,14 +126,6 @@ is_shiny = true
 nature = "BASHFUL"
 iv = 15
 
-[trainers.YOUNGSTER.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.YOUNGSTER.2.pokemon]]
 internal_name = "BLASTOISE"
 level = 62
@@ -266,19 +140,10 @@ is_shiny = true
 nature = "DOCILE"
 iv = 15
 
-[trainers.YOUNGSTER.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [trainers.YOUNGSTER.4]
 raw_trainer_class = "YOUNGSTER"
 battler_name = "Jonah"
 battler_id = 4
-raw_battle_items = []
 
 [[trainers.YOUNGSTER.4.pokemon]]
 internal_name = "SQUIRTLE"
@@ -295,14 +160,6 @@ is_shiny = true
 nature = "QUIRKY"
 iv = 15
 
-[trainers.YOUNGSTER.4.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.YOUNGSTER.4.pokemon]]
 internal_name = "WARTORTLE"
 level = 83
@@ -317,14 +174,6 @@ sex = ""
 is_shiny = true
 nature = "SERIOUS"
 iv = 15
-
-[trainers.YOUNGSTER.4.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.YOUNGSTER.4.pokemon]]
 internal_name = "BLASTOISE"
@@ -341,14 +190,6 @@ is_shiny = true
 nature = "BASHFUL"
 iv = 15
 
-[trainers.YOUNGSTER.4.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.YOUNGSTER.4.pokemon]]
 internal_name = "BLASTOISE"
 level = 85
@@ -364,63 +205,19 @@ is_shiny = true
 nature = "DOCILE"
 iv = 15
 
-[trainers.YOUNGSTER.4.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [trainers.YOUNGSTER.5]
 raw_trainer_class = "YOUNGSTER"
 battler_name = "Jonah"
+pokemon = [
+    { internal_name = "SQUIRTLE", level = 20, iv = 0 },
+    { internal_name = "SQUIRTLE", level = 21, iv = 0 },
+    { internal_name = "WARTORTLE", level = 22, iv = 0 },
+]
 battler_id = 5
-raw_battle_items = []
-
-[[trainers.YOUNGSTER.5.pokemon]]
-internal_name = "SQUIRTLE"
-level = 20
-iv = 0
-
-[trainers.YOUNGSTER.5.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.YOUNGSTER.5.pokemon]]
-internal_name = "SQUIRTLE"
-level = 21
-iv = 0
-
-[trainers.YOUNGSTER.5.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.YOUNGSTER.5.pokemon]]
-internal_name = "WARTORTLE"
-level = 22
-iv = 0
-
-[trainers.YOUNGSTER.5.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.SPIRITM.0]
 raw_trainer_class = "SPIRITM"
 battler_name = "Jonah"
-raw_battle_items = []
 
 [[trainers.SPIRITM.0.pokemon]]
 internal_name = "NOIVERN"
@@ -438,12 +235,9 @@ nature = "TIMID"
 iv = 31
 
 [trainers.SPIRITM.0.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.SPIRITM.0.pokemon]]
 internal_name = "CHANDELURE"
@@ -461,10 +255,7 @@ nature = "QUIET"
 iv = 32
 
 [trainers.SPIRITM.0.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 252
 spe = 4
 
@@ -483,11 +274,7 @@ nature = "RELAXED"
 iv = 32
 
 [trainers.SPIRITM.0.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 128
 
 [[trainers.SPIRITM.0.pokemon]]
@@ -506,12 +293,9 @@ nature = "BRAVE"
 iv = 32
 
 [trainers.SPIRITM.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 128
-spa = 0
 spd = 128
-spe = 0
 
 [[trainers.SPIRITM.0.pokemon]]
 internal_name = "AEGISLASH"
@@ -528,11 +312,7 @@ nature = "BRAVE"
 iv = 32
 
 [trainers.SPIRITM.0.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
-spa = 0
-spd = 0
 spe = 128
 
 [[trainers.SPIRITM.0.pokemon]]
@@ -550,9 +330,5 @@ nature = "BRAVE"
 iv = 32
 
 [trainers.SPIRITM.0.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
-spa = 0
-spd = 0
 spe = 128

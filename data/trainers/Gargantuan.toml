@@ -3,7 +3,6 @@ trainer_name = "Gargantuan"
 [trainers.Steelix.20]
 raw_trainer_class = "Steelix"
 battler_name = "Gargantuan"
-raw_battle_items = []
 battler_id = 20
 
 [[trainers.Steelix.20.pokemon]]
@@ -23,18 +22,13 @@ nature = "CAREFUL"
 iv = 31
 
 [trainers.Steelix.20.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 4
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.Steelix.1]
 raw_trainer_class = "Steelix"
 battler_name = "Gargantuan"
 battler_id = 1
-raw_battle_items = []
 
 [[trainers.Steelix.1.pokemon]]
 internal_name = "STEELIX"
@@ -53,9 +47,6 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.Steelix.1.pokemon.evs]
-hp = 0
 atk = 3252
 def_ = 252
-spa = 0
-spd = 0
 spe = 4

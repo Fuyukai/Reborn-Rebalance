@@ -4,7 +4,6 @@ trainer_name = "Kanaya"
 raw_trainer_class = "KANAYA"
 battler_name = "Kanaya"
 battler_id = 1000
-raw_battle_items = []
 
 [[trainers.KANAYA.1000.pokemon]]
 internal_name = "BLAZIKEN"
@@ -22,12 +21,8 @@ nature = "RASH"
 iv = 31
 
 [trainers.KANAYA.1000.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.KANAYA.1000.pokemon]]
 internal_name = "GARCHOMP"
@@ -44,12 +39,8 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.KANAYA.1000.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.KANAYA.1000.pokemon]]
 internal_name = "LYCANROC"
@@ -67,17 +58,13 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.KANAYA.1000.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [trainers.SPIRITF.0]
 raw_trainer_class = "SPIRITF"
 battler_name = "Kanaya"
-raw_battle_items = []
 
 [[trainers.SPIRITF.0.pokemon]]
 internal_name = "GARCHOMP"
@@ -96,7 +83,6 @@ iv = 31
 nickname = "Razgriz"
 
 [trainers.SPIRITF.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -119,7 +105,6 @@ iv = 31
 nickname = "Fenra"
 
 [trainers.SPIRITF.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -142,7 +127,6 @@ iv = 31
 nickname = "Akane"
 
 [trainers.SPIRITF.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -166,7 +150,6 @@ iv = 31
 nickname = "Misery"
 
 [trainers.SPIRITF.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -190,7 +173,6 @@ iv = 31
 nickname = "Junko"
 
 [trainers.SPIRITF.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -214,7 +196,6 @@ iv = 31
 nickname = "Valkyrie"
 
 [trainers.SPIRITF.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252

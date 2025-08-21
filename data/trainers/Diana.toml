@@ -3,98 +3,26 @@ trainer_name = "Diana"
 [trainers.MeteorDame.0]
 raw_trainer_class = "MeteorDame"
 battler_name = "Diana"
-raw_battle_items = []
-
-[[trainers.MeteorDame.0.pokemon]]
-internal_name = "ELECTRIKE"
-level = 34
-iv = 0
-
-[trainers.MeteorDame.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.MeteorDame.0.pokemon]]
-internal_name = "GLOOM"
-level = 34
-iv = 0
-
-[trainers.MeteorDame.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.MeteorDame.0.pokemon]]
-internal_name = "SALANDIT"
-level = 34
-sex = "F"
-iv = 0
-
-[trainers.MeteorDame.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
+pokemon = [
+    { internal_name = "ELECTRIKE", level = 34, iv = 0 },
+    { internal_name = "GLOOM", level = 34, iv = 0 },
+    { internal_name = "SALANDIT", level = 34, sex = "F", iv = 0 },
+]
 
 [trainers.MeteorDame.1]
 raw_trainer_class = "MeteorDame"
 battler_name = "Diana"
+pokemon = [
+    { internal_name = "MANECTRIC", level = 53, iv = 0 },
+    { internal_name = "SALAZZLE", level = 53, iv = 0 },
+    { internal_name = "VILEPLUME", level = 54, iv = 0 },
+]
 battler_id = 1
-raw_battle_items = []
-
-[[trainers.MeteorDame.1.pokemon]]
-internal_name = "MANECTRIC"
-level = 53
-iv = 0
-
-[trainers.MeteorDame.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.MeteorDame.1.pokemon]]
-internal_name = "SALAZZLE"
-level = 53
-iv = 0
-
-[trainers.MeteorDame.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.MeteorDame.1.pokemon]]
-internal_name = "VILEPLUME"
-level = 54
-iv = 0
-
-[trainers.MeteorDame.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.MeteorDame.2]
 raw_trainer_class = "MeteorDame"
 battler_name = "Diana"
 battler_id = 2
-raw_battle_items = []
 
 [[trainers.MeteorDame.2.pokemon]]
 internal_name = "NOCTOWL"
@@ -107,14 +35,6 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.MeteorDame.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.MeteorDame.2.pokemon]]
 internal_name = "MANECTRIC"
 level = 66
@@ -125,14 +45,6 @@ raw_moves = [
     "HIDDENPOWERGRA",
 ]
 iv = 0
-
-[trainers.MeteorDame.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.MeteorDame.2.pokemon]]
 internal_name = "SALAZZLE"
@@ -145,14 +57,6 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.MeteorDame.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.MeteorDame.2.pokemon]]
 internal_name = "VILEPLUME"
 level = 67
@@ -164,18 +68,9 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.MeteorDame.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [trainers.MeteorAceF.0]
 raw_trainer_class = "MeteorAceF"
 battler_name = "Diana"
-raw_battle_items = []
 
 [[trainers.MeteorAceF.0.pokemon]]
 internal_name = "GRUMPIG"
@@ -187,14 +82,6 @@ raw_moves = [
     "LIGHTSCREEN",
 ]
 iv = 0
-
-[trainers.MeteorAceF.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.MeteorAceF.0.pokemon]]
 internal_name = "NOCTOWL"
@@ -208,14 +95,6 @@ raw_moves = [
 ability_number = 2
 iv = 0
 
-[trainers.MeteorAceF.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.MeteorAceF.0.pokemon]]
 internal_name = "MANECTRIC"
 level = 68
@@ -228,14 +107,6 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.MeteorAceF.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.MeteorAceF.0.pokemon]]
 internal_name = "SALAZZLE"
 level = 69
@@ -246,14 +117,6 @@ raw_moves = [
     "DRAGONPULSE",
 ]
 iv = 0
-
-[trainers.MeteorAceF.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.MeteorAceF.0.pokemon]]
 internal_name = "VILEPLUME"
@@ -267,19 +130,10 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.MeteorAceF.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [trainers.MeteorAceF.1]
 raw_trainer_class = "MeteorAceF"
 battler_name = "Diana"
 battler_id = 1
-raw_battle_items = []
 
 [[trainers.MeteorAceF.1.pokemon]]
 internal_name = "GRUMPIG"
@@ -296,7 +150,6 @@ nature = "TIMID"
 iv = 31
 
 [trainers.MeteorAceF.1.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -319,7 +172,6 @@ nature = "MODEST"
 iv = 31
 
 [trainers.MeteorAceF.1.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -342,7 +194,6 @@ nature = "MODEST"
 iv = 31
 
 [trainers.MeteorAceF.1.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -364,7 +215,6 @@ nature = "TIMID"
 iv = 31
 
 [trainers.MeteorAceF.1.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -387,7 +237,6 @@ nature = "MODEST"
 iv = 31
 
 [trainers.MeteorAceF.1.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -397,7 +246,6 @@ spe = 252
 [trainers.SPIRITF.0]
 raw_trainer_class = "SPIRITF"
 battler_name = "Diana"
-raw_battle_items = []
 
 [[trainers.SPIRITF.0.pokemon]]
 internal_name = "ROTOM"
@@ -415,10 +263,6 @@ nature = "MODEST"
 iv = 31
 
 [trainers.SPIRITF.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
 spd = 252
 spe = 128
 
@@ -438,9 +282,6 @@ nature = "MODEST"
 iv = 31
 
 [trainers.SPIRITF.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
 spe = 4
@@ -461,9 +302,6 @@ nature = "TIMID"
 iv = 31
 
 [trainers.SPIRITF.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
 spe = 4
@@ -484,11 +322,8 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.SPIRITF.0.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
 spe = 4
 
 [[trainers.SPIRITF.0.pokemon]]
@@ -507,11 +342,8 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.SPIRITF.0.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
 spe = 4
 
 [[trainers.SPIRITF.0.pokemon]]
@@ -530,9 +362,5 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.SPIRITF.0.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0

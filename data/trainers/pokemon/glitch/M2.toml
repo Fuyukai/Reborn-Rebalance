@@ -3,7 +3,6 @@ trainer_name = "M2"
 [trainers.GLITCH2.20]
 raw_trainer_class = "GLITCH2"
 battler_name = "M2"
-raw_battle_items = []
 battler_id = 20
 
 [[trainers.GLITCH2.20.pokemon]]
@@ -19,9 +18,6 @@ nature = "MODEST"
 iv = 31
 
 [trainers.GLITCH2.20.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0

@@ -3,7 +3,6 @@ trainer_name = "Camerupt"
 [trainers.CAMERUPT.0]
 raw_trainer_class = "CAMERUPT"
 battler_name = "Camerupt"
-raw_battle_items = []
 
 [[trainers.CAMERUPT.0.pokemon]]
 internal_name = "CAMERUPT"
@@ -21,7 +20,6 @@ nature = "MODEST"
 iv = 31
 
 [trainers.CAMERUPT.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -43,11 +41,8 @@ nature = "TIMID"
 iv = 31
 
 [trainers.CAMERUPT.0.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
 spa = 252
-spd = 0
 spe = 4
 
 [[trainers.CAMERUPT.0.pokemon]]
@@ -65,11 +60,7 @@ nature = "MODEST"
 iv = 31
 
 [trainers.CAMERUPT.0.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 4
 
 [[trainers.CAMERUPT.0.pokemon]]
@@ -88,10 +79,7 @@ nature = "BOLD"
 iv = 31
 
 [trainers.CAMERUPT.0.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 4
 spe = 252
 
@@ -110,9 +98,5 @@ nature = "BOLD"
 iv = 31
 
 [trainers.CAMERUPT.0.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 252

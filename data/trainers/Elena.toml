@@ -3,25 +3,13 @@ trainer_name = "Elena"
 [trainers.Doxy.0]
 raw_trainer_class = "Doxy"
 battler_name = "Elena"
-raw_battle_items = []
-
-[[trainers.Doxy.0.pokemon]]
-internal_name = "SEWADDLE"
-level = 15
-iv = 0
-
-[trainers.Doxy.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
+pokemon = [
+    { internal_name = "SEWADDLE", level = 15, iv = 0 },
+]
 
 [trainers.ELENA.0]
 raw_trainer_class = "ELENA"
 battler_name = "Elena"
-raw_battle_items = []
 
 [[trainers.ELENA.0.pokemon]]
 internal_name = "DRIFBLIM"
@@ -39,11 +27,7 @@ nature = "TIMID"
 iv = 31
 
 [trainers.ELENA.0.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
-spa = 0
-spd = 0
 spe = 252
 
 [[trainers.ELENA.0.pokemon]]
@@ -62,12 +46,9 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.ELENA.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 4
-spd = 0
-spe = 0
 
 [[trainers.ELENA.0.pokemon]]
 internal_name = "MAROWAK"
@@ -86,11 +67,7 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.ELENA.0.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
-spa = 0
-spd = 0
 spe = 252
 
 [[trainers.ELENA.0.pokemon]]
@@ -109,12 +86,9 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.ELENA.0.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.ELENA.0.pokemon]]
 internal_name = "DECIDUEYE"
@@ -132,12 +106,9 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.ELENA.0.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.ELENA.0.pokemon]]
 internal_name = "SALAMENCE"
@@ -154,9 +125,6 @@ nature = "MODEST"
 iv = 31
 
 [trainers.ELENA.0.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0

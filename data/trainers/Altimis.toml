@@ -3,7 +3,6 @@ trainer_name = "Altimis"
 [trainers.AceTrainerM.0]
 raw_trainer_class = "AceTrainerM"
 battler_name = "Altimis"
-raw_battle_items = []
 
 [[trainers.AceTrainerM.0.pokemon]]
 internal_name = "GLISCOR"
@@ -18,14 +17,6 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.AceTrainerM.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.AceTrainerM.0.pokemon]]
 internal_name = "VOLCARONA"
 level = 75
@@ -36,14 +27,6 @@ raw_moves = [
     "BUGBUZZ",
 ]
 iv = 0
-
-[trainers.AceTrainerM.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.AceTrainerM.0.pokemon]]
 internal_name = "ABSOL"
@@ -56,11 +39,3 @@ raw_moves = [
 ]
 sex = "F"
 iv = 0
-
-[trainers.AceTrainerM.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0

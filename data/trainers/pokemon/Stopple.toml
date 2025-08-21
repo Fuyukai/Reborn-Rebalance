@@ -3,7 +3,6 @@ trainer_name = "Stopple"
 [trainers.SWALOT.20]
 raw_trainer_class = "SWALOT"
 battler_name = "Stopple"
-raw_battle_items = []
 battler_id = 20
 
 [[trainers.SWALOT.20.pokemon]]
@@ -23,9 +22,5 @@ iv = 31
 happiness = 0
 
 [trainers.SWALOT.20.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 252

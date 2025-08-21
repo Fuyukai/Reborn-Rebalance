@@ -3,7 +3,6 @@ trainer_name = "Isaac"
 [trainers.GUITARIST.0]
 raw_trainer_class = "GUITARIST"
 battler_name = "Isaac"
-raw_battle_items = []
 
 [[trainers.GUITARIST.0.pokemon]]
 internal_name = "SOLROCK"
@@ -20,12 +19,9 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.GUITARIST.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
 spd = 6
-spe = 0
 
 [[trainers.GUITARIST.0.pokemon]]
 internal_name = "DARMANITAN"
@@ -43,10 +39,7 @@ nature = "MODEST"
 iv = 31
 
 [trainers.GUITARIST.0.pokemon.evs]
-hp = 0
 atk = 248
-def_ = 0
-spa = 0
 spd = 10
 spe = 252
 
@@ -66,9 +59,6 @@ nature = "TIMID"
 iv = 31
 
 [trainers.GUITARIST.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 6
 spe = 252
@@ -89,9 +79,6 @@ nature = "NAIVE"
 iv = 31
 
 [trainers.GUITARIST.0.pokemon.evs]
-hp = 0
 atk = 6
 def_ = 252
 spa = 252
-spd = 0
-spe = 0

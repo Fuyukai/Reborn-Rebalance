@@ -3,7 +3,6 @@ trainer_name = "PKMN"
 [trainers.GLITCH3.0]
 raw_trainer_class = "GLITCH3"
 battler_name = "PKMN"
-raw_battle_items = []
 
 [[trainers.GLITCH3.0.pokemon]]
 internal_name = "SANDSLASH"
@@ -16,11 +15,3 @@ raw_moves = [
 ]
 ability_number = 1
 iv = 0
-
-[trainers.GLITCH3.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0

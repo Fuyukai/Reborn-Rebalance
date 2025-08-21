@@ -3,7 +3,6 @@ trainer_name = "Latios"
 [trainers.LATIOS.0]
 raw_trainer_class = "LATIOS"
 battler_name = "Latios"
-raw_battle_items = []
 
 [[trainers.LATIOS.0.pokemon]]
 internal_name = "AERODACTYL"
@@ -19,11 +18,8 @@ sex = ""
 nature = "JOLLY"
 
 [trainers.LATIOS.0.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
 spe = 4
 
 [[trainers.LATIOS.0.pokemon]]
@@ -40,12 +36,8 @@ sex = ""
 nature = "ADAMANT"
 
 [trainers.LATIOS.0.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 4
-spd = 0
-spe = 0
 
 [[trainers.LATIOS.0.pokemon]]
 internal_name = "RHYPERIOR"
@@ -61,12 +53,8 @@ sex = ""
 nature = "ADAMANT"
 
 [trainers.LATIOS.0.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 4
-spd = 0
-spe = 0
 
 [[trainers.LATIOS.0.pokemon]]
 internal_name = "DECIDUEYE"
@@ -83,12 +71,9 @@ sex = ""
 nature = "LONELY"
 
 [trainers.LATIOS.0.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.LATIOS.0.pokemon]]
 internal_name = "TYPHLOSION"
@@ -104,12 +89,9 @@ sex = ""
 nature = "TIMID"
 
 [trainers.LATIOS.0.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.LATIOS.0.pokemon]]
 internal_name = "LATIOS"
@@ -126,7 +108,6 @@ nature = "MODEST"
 iv = 31
 
 [trainers.LATIOS.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252

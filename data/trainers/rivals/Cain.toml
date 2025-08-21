@@ -3,7 +3,6 @@ trainer_name = "Cain"
 [trainers.Cain.0]
 raw_trainer_class = "Cain"
 battler_name = "Cain"
-raw_battle_items = []
 
 [[trainers.Cain.0.pokemon]]
 internal_name = "NIDORANmA"
@@ -15,14 +14,6 @@ raw_moves = [
 ability_number = 2
 nature = "BASHFUL"
 iv = 3
-
-[trainers.Cain.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.Cain.1]
 raw_trainer_class = "Cain"
@@ -45,14 +36,6 @@ raw_moves = [
 form_number = 1
 iv = 0
 
-[trainers.Cain.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.Cain.1.pokemon]]
 internal_name = "FLITTLE"
 level = 24
@@ -67,14 +50,6 @@ is_shiny = true
 nature = "TIMID"
 iv = 31
 
-[trainers.Cain.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.Cain.1.pokemon]]
 internal_name = "POPPLIO"
 level = 22
@@ -87,14 +62,6 @@ raw_moves = [
 nature = ""
 iv = 20
 
-[trainers.Cain.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.Cain.1.pokemon]]
 internal_name = "NIDORINO"
 level = 25
@@ -106,14 +73,6 @@ raw_moves = [
 ]
 ability_number = 1
 nature = "ADAMANT"
-
-[trainers.Cain.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.Cain.2]
 raw_trainer_class = "Cain"
@@ -135,9 +94,6 @@ raw_moves = [
 ]
 nature = "MODEST"
 iv = 31
-ability_number = 0
-sex = "M"
-evs = { hp = 0, atk = 0, def_ = 0, spa = 0, spd = 0, spe = 0 }
 
 [[trainers.Cain.2.pokemon]]
 internal_name = "MAROWAK"
@@ -153,14 +109,6 @@ form_number = 1
 nature = "ADAMANT"
 iv = 31
 
-[trainers.Cain.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.Cain.2.pokemon]]
 internal_name = "PRIMARINA"
 level = 40
@@ -171,17 +119,9 @@ raw_moves = [
     "SPARKLINGARIA",
     "HYPERVOICE",
 ]
-nature = "MODEST"
 ability_number = 1
+nature = "MODEST"
 iv = 31
-
-[trainers.Cain.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.Cain.2.pokemon]]
 internal_name = "GRIMER"
@@ -196,14 +136,6 @@ form_number = 1
 nature = "BRAVE"
 iv = 15
 
-[trainers.Cain.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.Cain.2.pokemon]]
 internal_name = "NIDOKING"
 level = 40
@@ -217,14 +149,6 @@ ability_number = 2
 nature = "JOLLY"
 iv = 31
 
-[trainers.Cain.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.Cain.2.pokemon]]
 internal_name = "ESPATHRA"
 level = 39
@@ -232,12 +156,10 @@ raw_moves = [
     "LUMINACRASH",
     "AGILITY",
     "DISARMINGVOICE",
-    "CALMMIND"
+    "CALMMIND",
 ]
 nature = "MODEST"
 iv = 31
-evs = { hp = 0, atk = 0, def_ = 0, spa = 0, spd = 0, spe = 0 }
-
 
 [trainers.Cain.3]
 raw_trainer_class = "Cain"
@@ -262,14 +184,6 @@ form_number = 1
 nature = "ADAMANT"
 iv = 15
 
-[trainers.Cain.3.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.Cain.3.pokemon]]
 internal_name = "MEOWSTIC"
 level = 44
@@ -285,14 +199,6 @@ is_shiny = true
 nature = "TIMID"
 iv = 15
 
-[trainers.Cain.3.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.Cain.3.pokemon]]
 internal_name = "MUK"
 level = 44
@@ -305,14 +211,6 @@ raw_moves = [
 form_number = 1
 nature = "BRAVE"
 iv = 15
-
-[trainers.Cain.3.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.Cain.3.pokemon]]
 internal_name = "PRIMARINA"
@@ -327,14 +225,6 @@ raw_moves = [
 nature = "MODEST"
 iv = 20
 
-[trainers.Cain.3.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.Cain.3.pokemon]]
 internal_name = "NIDOKING"
 level = 46
@@ -347,14 +237,6 @@ raw_moves = [
 ability_number = 2
 nature = "BASHFUL"
 iv = 31
-
-[trainers.Cain.3.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.Cain.4]
 raw_trainer_class = "Cain"
@@ -377,14 +259,6 @@ ability_number = 2
 nature = "BASHFUL"
 iv = 31
 
-[trainers.Cain.4.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.Cain.4.pokemon]]
 internal_name = "MAROWAK"
 level = 44
@@ -397,14 +271,6 @@ raw_moves = [
 ability_number = 1
 form_number = 1
 nature = "ADAMANT"
-
-[trainers.Cain.4.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.Cain.4.pokemon]]
 internal_name = "MEOWSTIC"
@@ -420,14 +286,6 @@ sex = "F"
 is_shiny = true
 nature = "TIMID"
 
-[trainers.Cain.4.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.Cain.4.pokemon]]
 internal_name = "MUK"
 level = 44
@@ -439,14 +297,6 @@ raw_moves = [
 ]
 form_number = 1
 nature = "BRAVE"
-
-[trainers.Cain.4.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.Cain.4.pokemon]]
 internal_name = "PRIMARINA"
@@ -460,14 +310,6 @@ raw_moves = [
 ]
 nature = "MODEST"
 iv = 20
-
-[trainers.Cain.4.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.Cain.5]
 raw_trainer_class = "Cain"
@@ -493,14 +335,6 @@ form_number = 1
 nature = "BRAVE"
 iv = 15
 
-[trainers.Cain.5.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.Cain.5.pokemon]]
 internal_name = "MIMIKYU"
 level = 53
@@ -513,14 +347,6 @@ raw_moves = [
 sex = "F"
 nature = "JOLLY"
 iv = 31
-
-[trainers.Cain.5.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.Cain.5.pokemon]]
 internal_name = "MEOWSTIC"
@@ -538,14 +364,6 @@ is_shiny = true
 nature = "TIMID"
 iv = 20
 
-[trainers.Cain.5.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.Cain.5.pokemon]]
 internal_name = "MAROWAK"
 level = 54
@@ -561,14 +379,6 @@ form_number = 1
 nature = "ADAMANT"
 iv = 19
 
-[trainers.Cain.5.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.Cain.5.pokemon]]
 internal_name = "PRIMARINA"
 level = 54
@@ -580,14 +390,6 @@ raw_moves = [
 ]
 nature = "MODEST"
 iv = 31
-
-[trainers.Cain.5.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.Cain.5.pokemon]]
 internal_name = "NIDOKING"
@@ -603,18 +405,14 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.Cain.5.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [trainers.Cain.6]
 raw_trainer_class = "Cain"
 battler_name = "Cain"
 battler_id = 6
-raw_battle_items = []
 
 [[trainers.Cain.6.pokemon]]
 internal_name = "MAROWAK"
@@ -632,11 +430,8 @@ nature = "ADAMANT"
 iv = 15
 
 [trainers.Cain.6.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
 spe = 4
 
 [[trainers.Cain.6.pokemon]]
@@ -656,12 +451,9 @@ nature = "TIMID"
 iv = 20
 
 [trainers.Cain.6.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.Cain.6.pokemon]]
 internal_name = "PRIMARINA"
@@ -678,12 +470,9 @@ nature = "MODEST"
 iv = 31
 
 [trainers.Cain.6.pokemon.evs]
-hp = 0
 atk = 128
-def_ = 0
 spa = 128
 spd = 252
-spe = 0
 
 [[trainers.Cain.6.pokemon]]
 internal_name = "MIMIKYU"
@@ -700,12 +489,9 @@ nature = "LONELY"
 iv = 31
 
 [trainers.Cain.6.pokemon.evs]
-hp = 0
 atk = 128
-def_ = 0
 spa = 128
 spd = 252
-spe = 0
 
 [[trainers.Cain.6.pokemon]]
 internal_name = "MUK"
@@ -723,11 +509,8 @@ nature = "BRAVE"
 iv = 15
 
 [trainers.Cain.6.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
 spe = 4
 
 [[trainers.Cain.6.pokemon]]
@@ -745,18 +528,14 @@ nature = "MODEST"
 iv = 31
 
 [trainers.Cain.6.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [trainers.Cain.7]
 raw_trainer_class = "Cain"
 battler_name = "Cain"
 battler_id = 7
-raw_battle_items = []
 
 [[trainers.Cain.7.pokemon]]
 internal_name = "MAROWAK"
@@ -774,11 +553,8 @@ nature = "ADAMANT"
 iv = 15
 
 [trainers.Cain.7.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
 spe = 4
 
 [[trainers.Cain.7.pokemon]]
@@ -797,12 +573,9 @@ nature = "SERIOUS"
 iv = 20
 
 [trainers.Cain.7.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.Cain.7.pokemon]]
 internal_name = "PRIMARINA"
@@ -819,12 +592,9 @@ nature = "MODEST"
 iv = 31
 
 [trainers.Cain.7.pokemon.evs]
-hp = 0
 atk = 128
-def_ = 0
 spa = 128
 spd = 252
-spe = 0
 
 [[trainers.Cain.7.pokemon]]
 internal_name = "MIMIKYU"
@@ -841,12 +611,9 @@ nature = "LONELY"
 iv = 31
 
 [trainers.Cain.7.pokemon.evs]
-hp = 0
 atk = 128
-def_ = 0
 spa = 128
 spd = 252
-spe = 0
 
 [[trainers.Cain.7.pokemon]]
 internal_name = "MUK"
@@ -864,11 +631,8 @@ nature = "BRAVE"
 iv = 15
 
 [trainers.Cain.7.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
 spe = 4
 
 [[trainers.Cain.7.pokemon]]
@@ -886,18 +650,14 @@ nature = "MODEST"
 iv = 31
 
 [trainers.Cain.7.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [trainers.Cain.10]
 raw_trainer_class = "Cain"
 battler_name = "Cain"
 battler_id = 10
-raw_battle_items = []
 
 [[trainers.Cain.10.pokemon]]
 internal_name = "ROSERADE"
@@ -913,9 +673,6 @@ nature = "TIMID"
 iv = 31
 
 [trainers.Cain.10.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
 spe = 4
@@ -934,9 +691,6 @@ nature = "MODEST"
 iv = 31
 
 [trainers.Cain.10.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
 spe = 4
@@ -955,9 +709,6 @@ nature = "MODEST"
 iv = 31
 
 [trainers.Cain.10.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
 spe = 4
@@ -976,12 +727,8 @@ nature = "TIMID"
 iv = 31
 
 [trainers.Cain.10.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 128
-spe = 0
 
 [[trainers.Cain.10.pokemon]]
 internal_name = "MISMAGIUS"
@@ -997,9 +744,6 @@ nature = "TIMID"
 iv = 31
 
 [trainers.Cain.10.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
 spe = 4
@@ -1018,18 +762,14 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.Cain.10.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
 spe = 4
 
 [trainers.Cain.11]
 raw_trainer_class = "Cain"
 battler_name = "Cain"
 battler_id = 11
-raw_battle_items = []
 
 [[trainers.Cain.11.pokemon]]
 internal_name = "CINCCINO"
@@ -1047,12 +787,9 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.Cain.11.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.Cain.11.pokemon]]
 internal_name = "LAPRAS"
@@ -1069,11 +806,8 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.Cain.11.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
 spe = 4
 
 [[trainers.Cain.11.pokemon]]
@@ -1092,10 +826,7 @@ nature = "BOLD"
 iv = 31
 
 [trainers.Cain.11.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 4
 spe = 252
 
@@ -1114,11 +845,8 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.Cain.11.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
 spe = 4
 
 [[trainers.Cain.11.pokemon]]
@@ -1137,12 +865,9 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.Cain.11.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.Cain.11.pokemon]]
 internal_name = "PRIMARINA"
@@ -1159,10 +884,7 @@ nature = "MODEST"
 iv = 31
 
 [trainers.Cain.11.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 252
 spe = 4
 
@@ -1170,7 +892,6 @@ spe = 4
 raw_trainer_class = "Cain"
 battler_name = "Cain"
 battler_id = 12
-raw_battle_items = []
 
 [[trainers.Cain.12.pokemon]]
 internal_name = "SCOLIPEDE"
@@ -1188,12 +909,9 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.Cain.12.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.Cain.12.pokemon]]
 internal_name = "LAPRAS"
@@ -1211,11 +929,8 @@ iv = 31
 happiness = 255
 
 [trainers.Cain.12.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
 spe = 4
 
 [[trainers.Cain.12.pokemon]]
@@ -1233,12 +948,9 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.Cain.12.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.Cain.12.pokemon]]
 internal_name = "MELOETTA"
@@ -1255,9 +967,6 @@ nature = "TIMID"
 iv = 31
 
 [trainers.Cain.12.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
 spe = 4
@@ -1278,9 +987,6 @@ nature = "MODEST"
 iv = 31
 
 [trainers.Cain.12.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
 spe = 4
@@ -1301,12 +1007,9 @@ nature = "TIMID"
 iv = 31
 
 [trainers.Cain.12.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [trainers.Cain.21]
 raw_trainer_class = "Cain"
@@ -1329,14 +1032,6 @@ raw_moves = [
 form_number = 1
 iv = 0
 
-[trainers.Cain.21.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.Cain.21.pokemon]]
 internal_name = "FLITTLE"
 level = 19
@@ -1351,14 +1046,6 @@ is_shiny = true
 nature = "TIMID"
 iv = 30
 
-[trainers.Cain.21.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.Cain.21.pokemon]]
 internal_name = "POPPLIO"
 level = 18
@@ -1371,14 +1058,6 @@ raw_moves = [
 nature = ""
 iv = 20
 
-[trainers.Cain.21.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.Cain.21.pokemon]]
 internal_name = "NIDORINO"
 level = 20
@@ -1390,14 +1069,6 @@ raw_moves = [
 ]
 ability_number = 1
 nature = "ADAMANT"
-
-[trainers.Cain.21.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.Cain.22]
 raw_trainer_class = "Cain"
@@ -1421,14 +1092,6 @@ raw_moves = [
 nature = "MODEST"
 iv = 15
 
-[trainers.Cain.22.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.Cain.22.pokemon]]
 internal_name = "FLITTLE"
 level = 33
@@ -1444,14 +1107,6 @@ is_shiny = true
 nature = "TIMID"
 iv = 31
 
-[trainers.Cain.22.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.Cain.22.pokemon]]
 internal_name = "GRIMER"
 level = 35
@@ -1465,14 +1120,6 @@ form_number = 1
 nature = "BRAVE"
 iv = 15
 
-[trainers.Cain.22.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.Cain.22.pokemon]]
 internal_name = "NIDOKING"
 level = 36
@@ -1485,14 +1132,6 @@ raw_moves = [
 ability_number = 2
 nature = "JOLLY"
 iv = 31
-
-[trainers.Cain.22.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.Cain.23]
 raw_trainer_class = "Cain"
@@ -1513,18 +1152,9 @@ raw_moves = [
     "ENERGYBALL",
     "PROTECT",
 ]
-ability_number = 0
 is_shiny = true
 nature = "MODEST"
 iv = 20
-
-[trainers.Cain.23.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.Cain.23.pokemon]]
 internal_name = "SKELEDIRGE"
@@ -1540,14 +1170,6 @@ ability_number = 1
 nature = "MODEST"
 iv = 15
 
-[trainers.Cain.23.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.Cain.23.pokemon]]
 internal_name = "MUK"
 level = 44
@@ -1560,14 +1182,6 @@ raw_moves = [
 form_number = 1
 nature = "BRAVE"
 iv = 15
-
-[trainers.Cain.23.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.Cain.23.pokemon]]
 internal_name = "PRIMARINA"
@@ -1582,14 +1196,6 @@ raw_moves = [
 nature = "MODEST"
 iv = 20
 
-[trainers.Cain.23.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.Cain.23.pokemon]]
 internal_name = "NIDOKING"
 level = 46
@@ -1602,14 +1208,6 @@ raw_moves = [
 ability_number = 2
 nature = "BASHFUL"
 iv = 31
-
-[trainers.Cain.23.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.Cain.24]
 raw_trainer_class = "Cain"
@@ -1632,14 +1230,6 @@ ability_number = 2
 nature = "BASHFUL"
 iv = 31
 
-[trainers.Cain.24.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.Cain.24.pokemon]]
 internal_name = "SKELEDIRGE"
 level = 44
@@ -1654,14 +1244,6 @@ ability_number = 1
 nature = "MODEST"
 iv = 31
 
-[trainers.Cain.24.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.Cain.24.pokemon]]
 internal_name = "ESPATHRA"
 level = 44
@@ -1671,18 +1253,9 @@ raw_moves = [
     "FLASHCANNON",
     "CALMMIND",
 ]
-ability_number = 0
 is_shiny = true
 nature = "MODEST"
 iv = 20
-
-[trainers.Cain.24.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.Cain.24.pokemon]]
 internal_name = "MUK"
@@ -1696,14 +1269,6 @@ raw_moves = [
 form_number = 1
 nature = "BRAVE"
 
-[trainers.Cain.24.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.Cain.24.pokemon]]
 internal_name = "PRIMARINA"
 level = 45
@@ -1716,14 +1281,6 @@ raw_moves = [
 ]
 nature = "MODEST"
 iv = 20
-
-[trainers.Cain.24.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.Cain.25]
 raw_trainer_class = "Cain"
@@ -1748,14 +1305,6 @@ form_number = 1
 nature = "BRAVE"
 iv = 15
 
-[trainers.Cain.25.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.Cain.25.pokemon]]
 internal_name = "OBSTAGOON"
 level = 53
@@ -1770,12 +1319,7 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.Cain.25.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.Cain.25.pokemon]]
 internal_name = "ESPATHRA"
@@ -1787,18 +1331,9 @@ raw_moves = [
     "FLASHCANNON",
     "CALMMIND",
 ]
-ability_number = 0
 is_shiny = true
 nature = "TIMID"
 iv = 20
-
-[trainers.Cain.25.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.Cain.25.pokemon]]
 internal_name = "SKELEDIRGE"
@@ -1814,14 +1349,6 @@ ability_number = 1
 nature = "MODEST"
 iv = 31
 
-[trainers.Cain.25.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.Cain.25.pokemon]]
 internal_name = "PRIMARINA"
 level = 54
@@ -1833,14 +1360,6 @@ raw_moves = [
 ]
 nature = "MODEST"
 iv = 31
-
-[trainers.Cain.25.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.Cain.25.pokemon]]
 internal_name = "NIDOKING"
@@ -1857,21 +1376,15 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.Cain.25.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [trainers.Cain.26]
 raw_trainer_class = "Cain"
 battler_name = "Cain"
 battler_id = 26
-raw_battle_items = []
 
-# this thing was rightly banned to uberss for being really fucking stupid.
-# vetoing this as you have to fight a 6v30 against it and no.
 [[trainers.Cain.26.pokemon]]
 internal_name = "ESPATHRA"
 level = 81
@@ -1882,18 +1395,14 @@ raw_moves = [
     "ROOST",
     "FLASHCANNON",
 ]
-ability_number = 0
 is_shiny = true
 nature = "MODEST"
 iv = 20
 
 [trainers.Cain.26.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.Cain.26.pokemon]]
 internal_name = "SKELEDIRGE"
@@ -1910,12 +1419,8 @@ nature = "MODEST"
 iv = 31
 
 [trainers.Cain.26.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 252
-spe = 0
 
 [[trainers.Cain.26.pokemon]]
 internal_name = "PRIMARINA"
@@ -1932,12 +1437,9 @@ nature = "MODEST"
 iv = 31
 
 [trainers.Cain.26.pokemon.evs]
-hp = 0
 atk = 128
-def_ = 0
 spa = 128
 spd = 252
-spe = 0
 
 [[trainers.Cain.26.pokemon]]
 internal_name = "OBSTAGOON"
@@ -1953,12 +1455,9 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.Cain.26.pokemon.evs]
-hp = 0
 atk = 128
 def_ = 252
 spa = 128
-spd = 0
-spe = 0
 
 [[trainers.Cain.26.pokemon]]
 internal_name = "MUK"
@@ -1976,11 +1475,8 @@ nature = "BRAVE"
 iv = 15
 
 [trainers.Cain.26.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
 spe = 4
 
 [[trainers.Cain.26.pokemon]]
@@ -1998,17 +1494,13 @@ nature = "MODEST"
 iv = 31
 
 [trainers.Cain.26.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [trainers.UMBCAIN.0]
 raw_trainer_class = "UMBCAIN"
 battler_name = "Cain"
-raw_battle_items = []
 
 [[trainers.UMBCAIN.0.pokemon]]
 internal_name = "SANDSLASH"
@@ -2026,7 +1518,6 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.UMBCAIN.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -2048,7 +1539,6 @@ nature = "CALM"
 iv = 31
 
 [trainers.UMBCAIN.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -2070,7 +1560,6 @@ nature = "MODEST"
 iv = 31
 
 [trainers.UMBCAIN.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -2093,7 +1582,6 @@ nature = "TIMID"
 iv = 31
 
 [trainers.UMBCAIN.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -2116,7 +1604,6 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.UMBCAIN.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -2138,7 +1625,6 @@ nature = "MODEST"
 iv = 31
 
 [trainers.UMBCAIN.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252

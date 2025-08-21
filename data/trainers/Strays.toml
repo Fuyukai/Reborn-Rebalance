@@ -3,7 +3,6 @@ trainer_name = "Strays"
 [trainers.MIGHTYENA.0]
 raw_trainer_class = "MIGHTYENA"
 battler_name = "Strays"
-raw_battle_items = []
 
 [[trainers.MIGHTYENA.0.pokemon]]
 internal_name = "MIGHTYENA"
@@ -16,14 +15,6 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.MIGHTYENA.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.MIGHTYENA.0.pokemon]]
 internal_name = "MIGHTYENA"
 level = 25
@@ -34,11 +25,3 @@ raw_moves = [
     "FIREFANG",
 ]
 iv = 0
-
-[trainers.MIGHTYENA.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0

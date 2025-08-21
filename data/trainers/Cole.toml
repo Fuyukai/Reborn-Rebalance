@@ -3,32 +3,10 @@ trainer_name = "Cole"
 [trainers.COOLTRAINER_Male.0]
 raw_trainer_class = "COOLTRAINER_Male"
 battler_name = "Cole"
+pokemon = [
+    { internal_name = "QUILAVA", level = 25, iv = 0 },
+    { internal_name = "SKIDDO", level = 26, iv = 0 },
+]
 raw_battle_items = [
     "FULLRESTORE",
 ]
-
-[[trainers.COOLTRAINER_Male.0.pokemon]]
-internal_name = "QUILAVA"
-level = 25
-iv = 0
-
-[trainers.COOLTRAINER_Male.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.COOLTRAINER_Male.0.pokemon]]
-internal_name = "SKIDDO"
-level = 26
-iv = 0
-
-[trainers.COOLTRAINER_Male.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0

@@ -82,7 +82,11 @@
                 </ul>
             </td>
             <td class="has-text-centered" style="vertical-align: middle">
+                {% if raw_poke.evs is none %}
+                0 / 0 / 0 / 0 / 0 / 0
+                {% else %}
                 {{ raw_poke.evs.to_slashed_list() }}
+                {% endif %}
             </td>
         </tr>
         {% endfor %}

@@ -3,7 +3,6 @@ trainer_name = "Sword"
 [trainers.RUINS.0]
 raw_trainer_class = "RUINS"
 battler_name = "Sword"
-raw_battle_items = []
 
 [[trainers.RUINS.0.pokemon]]
 internal_name = "NOIVERN"
@@ -21,12 +20,8 @@ nature = "TIMID"
 iv = 31
 
 [trainers.RUINS.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.RUINS.0.pokemon]]
 internal_name = "ZOROARK"
@@ -44,12 +39,8 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.RUINS.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.RUINS.0.pokemon]]
 internal_name = "UMBREON"
@@ -66,10 +57,7 @@ nature = "RELAXED"
 iv = 31
 
 [trainers.RUINS.0.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 4
 spe = 252
 
@@ -88,11 +76,8 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.RUINS.0.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
 spe = 4
 
 [[trainers.RUINS.0.pokemon]]
@@ -110,9 +95,5 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.RUINS.0.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0

@@ -3,7 +3,6 @@ trainer_name = "HHHHH"
 [trainers.GLITCH2.0]
 raw_trainer_class = "GLITCH2"
 battler_name = "HHHHH"
-raw_battle_items = []
 
 [[trainers.GLITCH2.0.pokemon]]
 internal_name = "ARAQUANID"
@@ -20,11 +19,7 @@ nature = "RASH"
 iv = 31
 
 [trainers.GLITCH2.0.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 4
 
 [[trainers.GLITCH2.0.pokemon]]
@@ -39,12 +34,9 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.GLITCH2.0.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.GLITCH2.0.pokemon]]
 internal_name = "VICTINI"
@@ -61,12 +53,8 @@ nature = "CALM"
 iv = 31
 
 [trainers.GLITCH2.0.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.GLITCH2.0.pokemon]]
 internal_name = "TYRANITAR"
@@ -83,9 +71,5 @@ nature = "MODEST"
 iv = 31
 
 [trainers.GLITCH2.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 4
-spa = 0
-spd = 0
-spe = 0

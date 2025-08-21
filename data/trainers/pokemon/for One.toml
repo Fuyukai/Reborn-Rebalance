@@ -3,7 +3,6 @@ trainer_name = "for One"
 [trainers.MUSKETEER2.0]
 raw_trainer_class = "MUSKETEER2"
 battler_name = "for One"
-raw_battle_items = []
 
 [[trainers.MUSKETEER2.0.pokemon]]
 internal_name = "SILVALLY"
@@ -20,12 +19,9 @@ nature = "BOLD"
 iv = 31
 
 [trainers.MUSKETEER2.0.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.MUSKETEER2.0.pokemon]]
 internal_name = "SILVALLY"
@@ -42,11 +38,8 @@ nature = "QUIET"
 iv = 31
 
 [trainers.MUSKETEER2.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
 spe = 4
 
 [[trainers.MUSKETEER2.0.pokemon]]
@@ -64,9 +57,6 @@ nature = "QUIET"
 iv = 31
 
 [trainers.MUSKETEER2.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
 spe = 4

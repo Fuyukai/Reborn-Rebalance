@@ -3,7 +3,6 @@ trainer_name = "Redoubt"
 [trainers.AVALUGG.0]
 raw_trainer_class = "AVALUGG"
 battler_name = "Redoubt"
-raw_battle_items = []
 
 [[trainers.AVALUGG.0.pokemon]]
 internal_name = "AVALUGG"
@@ -15,15 +14,11 @@ raw_moves = [
     "RECOVER",
     "AVALANCHE",
 ]
-form_number = 1  # huh, pulse avalugg is form #1.
+form_number = 1
 nature = "BRAVE"
 iv = 31
 happiness = 0
 
 [trainers.AVALUGG.0.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 252

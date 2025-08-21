@@ -3,7 +3,6 @@ trainer_name = "Dragon"
 [trainers.STATRESHIRAM.20]
 raw_trainer_class = "STATRESHIRAM"
 battler_name = "Dragon"
-raw_battle_items = []
 battler_id = 20
 
 [[trainers.STATRESHIRAM.20.pokemon]]
@@ -21,17 +20,13 @@ nature = "TIMID"
 iv = 31
 
 [trainers.STATRESHIRAM.20.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
 spa = 252
 spd = 4
-spe = 0
 
 [trainers.STATZEKROM.20]
 raw_trainer_class = "STATZEKROM"
 battler_name = "Dragon"
-raw_battle_items = []
 battler_id = 20
 
 [[trainers.STATZEKROM.20.pokemon]]
@@ -49,9 +44,6 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.STATZEKROM.20.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 4
 spa = 252
-spd = 0
-spe = 0

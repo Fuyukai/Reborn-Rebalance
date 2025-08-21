@@ -3,7 +3,6 @@ trainer_name = "Erebus"
 [trainers.AceTrainerM.0]
 raw_trainer_class = "AceTrainerM"
 battler_name = "Erebus"
-raw_battle_items = []
 
 [[trainers.AceTrainerM.0.pokemon]]
 internal_name = "DHELMISE"
@@ -16,14 +15,6 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.AceTrainerM.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.AceTrainerM.0.pokemon]]
 internal_name = "WEAVILE"
 level = 74
@@ -34,14 +25,6 @@ raw_moves = [
     "ICEPUNCH",
 ]
 iv = 0
-
-[trainers.AceTrainerM.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.AceTrainerM.0.pokemon]]
 internal_name = "MAROWAK"
@@ -56,14 +39,6 @@ sex = ""
 form_number = 1
 iv = 0
 
-[trainers.AceTrainerM.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.AceTrainerM.0.pokemon]]
 internal_name = "GRENINJA"
 level = 76
@@ -76,11 +51,3 @@ raw_moves = [
 ability_number = 1
 sex = ""
 iv = 0
-
-[trainers.AceTrainerM.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0

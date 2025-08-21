@@ -22,14 +22,6 @@ ability_number = 1
 nature = "ADAMANT"
 iv = 20
 
-[trainers.Sensei.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.Sensei.0.pokemon]]
 internal_name = "TOXICROAK"
 level = 41
@@ -43,14 +35,6 @@ ability_number = 1
 sex = "F"
 nature = "ADAMANT"
 iv = 20
-
-[trainers.Sensei.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.Sensei.0.pokemon]]
 internal_name = "HITMONLEE"
@@ -67,14 +51,6 @@ sex = "F"
 nature = "JOLLY"
 iv = 20
 
-[trainers.Sensei.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.Sensei.0.pokemon]]
 internal_name = "GALLADE"
 level = 41
@@ -89,14 +65,6 @@ ability_number = 1
 nature = "ADAMANT"
 iv = 30
 
-[trainers.Sensei.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.Sensei.0.pokemon]]
 internal_name = "LUCARIO"
 level = 42
@@ -109,14 +77,6 @@ raw_moves = [
 sex = "F"
 nature = "TIMID"
 iv = 30
-
-[trainers.Sensei.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.Sensei.0.pokemon]]
 internal_name = "MEDICHAM"
@@ -131,14 +91,6 @@ raw_moves = [
 sex = "F"
 nature = "JOLLY"
 iv = 31
-
-[trainers.Sensei.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.Sensei.20]
 raw_trainer_class = "Sensei"
@@ -163,14 +115,6 @@ ability_number = 1
 nature = "ADAMANT"
 iv = 20
 
-[trainers.Sensei.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.Sensei.20.pokemon]]
 internal_name = "HITMONLEE"
 level = 42
@@ -186,14 +130,6 @@ sex = "F"
 nature = "JOLLY"
 iv = 20
 
-[trainers.Sensei.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.Sensei.20.pokemon]]
 internal_name = "ANNIHILAPE"
 level = 41
@@ -206,14 +142,6 @@ raw_moves = [
 ability_number = 2
 nature = "ADAMANT"
 iv = 20
-
-[trainers.Sensei.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.Sensei.20.pokemon]]
 internal_name = "TAUROS"
@@ -229,14 +157,6 @@ form_number = 3
 nature = "ADAMANT"
 iv = 30
 
-[trainers.Sensei.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.Sensei.20.pokemon]]
 internal_name = "LUCARIO"
 level = 42
@@ -249,14 +169,6 @@ raw_moves = [
 sex = "F"
 nature = "TIMID"
 iv = 30
-
-[trainers.Sensei.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.Sensei.20.pokemon]]
 internal_name = "MEDICHAM"
@@ -272,18 +184,9 @@ sex = "F"
 nature = "JOLLY"
 iv = 31
 
-[trainers.Sensei.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [trainers.Spectral.0]
 raw_trainer_class = "Spectral"
 battler_name = "Kiki"
-raw_battle_items = []
 
 [[trainers.Spectral.0.pokemon]]
 internal_name = "MEDICHAM"
@@ -299,18 +202,9 @@ is_shiny = true
 nature = "JOLLY"
 iv = 31
 
-[trainers.Spectral.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [trainers.UMBKIKI.0]
 raw_trainer_class = "UMBKIKI"
 battler_name = "Kiki"
-raw_battle_items = []
 
 [[trainers.UMBKIKI.0.pokemon]]
 internal_name = "PALOSSAND"
@@ -327,7 +221,6 @@ nature = "MODEST"
 iv = 31
 
 [trainers.UMBKIKI.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -349,7 +242,6 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.UMBKIKI.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -372,7 +264,6 @@ nature = "BOLD"
 iv = 31
 
 [trainers.UMBKIKI.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -395,7 +286,6 @@ nature = "MODEST"
 iv = 31
 
 [trainers.UMBKIKI.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -418,7 +308,6 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.UMBKIKI.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -440,7 +329,6 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.UMBKIKI.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252

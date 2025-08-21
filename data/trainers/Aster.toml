@@ -4,7 +4,6 @@ trainer_name = "Aster"
 raw_trainer_class = "AsterKnight"
 battler_name = "Aster"
 battler_id = 1
-raw_battle_items = []
 
 [[trainers.AsterKnight.1.pokemon]]
 internal_name = "ROCKRUFF"
@@ -18,14 +17,6 @@ raw_moves = [
 ability_number = 2
 nature = ""
 iv = 31
-
-[trainers.AsterKnight.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.AsterKnight.2]
 raw_trainer_class = "AsterKnight"
@@ -47,14 +38,6 @@ raw_moves = [
 nature = ""
 iv = 31
 
-[trainers.AsterKnight.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.AsterKnight.2.pokemon]]
 internal_name = "LYCANROC"
 level = 35
@@ -69,15 +52,6 @@ form_number = 1
 nature = "ADAMANT"
 iv = 20
 
-[trainers.AsterKnight.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-
 [[trainers.AsterKnight.2.pokemon]]
 internal_name = "KROKOROK"
 level = 35
@@ -90,15 +64,6 @@ raw_moves = [
 ]
 nature = "ADAMANT"
 iv = 31
-
-[trainers.AsterKnight.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 
 [trainers.AsterKnight.3]
 raw_trainer_class = "AsterKnight"
@@ -120,14 +85,6 @@ raw_moves = [
 nature = "BASHFUL"
 iv = 20
 
-[trainers.AsterKnight.3.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.AsterKnight.3.pokemon]]
 internal_name = "PASSIMIAN"
 level = 39
@@ -138,14 +95,6 @@ raw_moves = [
     "BULLDOZE",
 ]
 nature = "ADAMANT"
-
-[trainers.AsterKnight.3.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.AsterKnight.3.pokemon]]
 internal_name = "LYCANROC"
@@ -160,14 +109,6 @@ ability_number = 2
 form_number = 1
 nature = "ADAMANT"
 iv = 31
-
-[trainers.AsterKnight.3.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.AsterKnight.0]
 raw_trainer_class = "AsterKnight"
@@ -189,14 +130,6 @@ raw_moves = [
 nature = "ADAMANT"
 iv = 31
 
-[trainers.AsterKnight.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.AsterKnight.0.pokemon]]
 internal_name = "GOLURK"
 level = 66
@@ -209,14 +142,6 @@ raw_moves = [
 ability_number = 2
 nature = "BASHFUL"
 iv = 31
-
-[trainers.AsterKnight.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.AsterKnight.0.pokemon]]
 internal_name = "PASSIMIAN"
@@ -231,14 +156,6 @@ raw_moves = [
 nature = "BASHFUL"
 iv = 31
 
-[trainers.AsterKnight.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.AsterKnight.0.pokemon]]
 internal_name = "KROOKODILE"
 level = 67
@@ -251,14 +168,6 @@ raw_moves = [
 ]
 nature = "ADAMANT"
 iv = 31
-
-[trainers.AsterKnight.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.AsterKnight.0.pokemon]]
 internal_name = "LYCANROC"
@@ -274,14 +183,6 @@ ability_number = 2
 form_number = 1
 nature = "ADAMANT"
 iv = 31
-
-[trainers.AsterKnight.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.AsterKnight.4]
 raw_trainer_class = "AsterKnight"
@@ -305,14 +206,6 @@ raw_moves = [
 nature = "ADAMANT"
 iv = 31
 
-[trainers.AsterKnight.4.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.AsterKnight.4.pokemon]]
 internal_name = "GOLURK"
 level = 68
@@ -326,14 +219,6 @@ ability_number = 2
 nature = "BASHFUL"
 iv = 31
 
-[trainers.AsterKnight.4.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.AsterKnight.4.pokemon]]
 internal_name = "KROOKODILE"
 level = 69
@@ -346,14 +231,6 @@ raw_moves = [
 ]
 nature = "ADAMANT"
 iv = 31
-
-[trainers.AsterKnight.4.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.AsterKnight.4.pokemon]]
 internal_name = "PASSIMIAN"
@@ -370,12 +247,9 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.AsterKnight.4.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.AsterKnight.4.pokemon]]
 internal_name = "LYCANROC"
@@ -393,12 +267,9 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.AsterKnight.4.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.AsterKnight.4.pokemon]]
 internal_name = "LYCANROC"
@@ -416,12 +287,9 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.AsterKnight.4.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [trainers.AsterKnight.5]
 raw_trainer_class = "AsterKnight"
@@ -445,14 +313,6 @@ raw_moves = [
 nature = "ADAMANT"
 iv = 31
 
-[trainers.AsterKnight.5.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.AsterKnight.5.pokemon]]
 internal_name = "GOLURK"
 level = 84
@@ -466,14 +326,6 @@ ability_number = 2
 nature = "BASHFUL"
 iv = 31
 
-[trainers.AsterKnight.5.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.AsterKnight.5.pokemon]]
 internal_name = "KROOKODILE"
 level = 85
@@ -486,14 +338,6 @@ raw_moves = [
 ]
 nature = "ADAMANT"
 iv = 31
-
-[trainers.AsterKnight.5.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.AsterKnight.5.pokemon]]
 internal_name = "PASSIMIAN"
@@ -510,12 +354,9 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.AsterKnight.5.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.AsterKnight.5.pokemon]]
 internal_name = "LYCANROC"
@@ -533,12 +374,9 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.AsterKnight.5.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.AsterKnight.5.pokemon]]
 internal_name = "LYCANROC"
@@ -556,12 +394,9 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.AsterKnight.5.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [trainers.AsterKnight.22]
 raw_trainer_class = "AsterKnight"
@@ -582,14 +417,6 @@ raw_moves = [
 ]
 nature = ""
 
-[trainers.AsterKnight.22.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.AsterKnight.22.pokemon]]
 internal_name = "LYCANROC"
 level = 32
@@ -603,14 +430,6 @@ ability_number = 2
 form_number = 1
 nature = "ADAMANT"
 iv = 20
-
-[trainers.AsterKnight.22.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.AsterKnight.23]
 raw_trainer_class = "AsterKnight"
@@ -632,14 +451,6 @@ raw_moves = [
 nature = "BASHFUL"
 iv = 20
 
-[trainers.AsterKnight.23.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.AsterKnight.23.pokemon]]
 internal_name = "MORGREM"
 level = 39
@@ -651,14 +462,6 @@ raw_moves = [
     "DRAINPUNCH",
 ]
 nature = "ADAMANT"
-
-[trainers.AsterKnight.23.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.AsterKnight.23.pokemon]]
 internal_name = "LYCANROC"
@@ -673,14 +476,6 @@ ability_number = 2
 form_number = 1
 nature = "ADAMANT"
 iv = 31
-
-[trainers.AsterKnight.23.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.AsterKnight.20]
 raw_trainer_class = "AsterKnight"
@@ -703,14 +498,6 @@ raw_moves = [
 nature = "ADAMANT"
 iv = 31
 
-[trainers.AsterKnight.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.AsterKnight.20.pokemon]]
 internal_name = "SIRFETCHD"
 level = 66
@@ -723,14 +510,6 @@ raw_moves = [
 ability_number = 1
 nature = "ADAMANT"
 iv = 31
-
-[trainers.AsterKnight.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.AsterKnight.20.pokemon]]
 internal_name = "CERULEDGE"
@@ -745,14 +524,6 @@ raw_moves = [
 nature = "BASHFUL"
 iv = 31
 
-[trainers.AsterKnight.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.AsterKnight.20.pokemon]]
 internal_name = "GRIMMSNARL"
 level = 67
@@ -765,14 +536,6 @@ raw_moves = [
 ]
 nature = "ADAMANT"
 iv = 31
-
-[trainers.AsterKnight.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.AsterKnight.20.pokemon]]
 internal_name = "LYCANROC"
@@ -788,14 +551,6 @@ ability_number = 2
 form_number = 1
 nature = "ADAMANT"
 iv = 31
-
-[trainers.AsterKnight.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.AsterKnight.24]
 raw_trainer_class = "AsterKnight"
@@ -819,14 +574,6 @@ raw_moves = [
 nature = "ADAMANT"
 iv = 31
 
-[trainers.AsterKnight.24.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.AsterKnight.24.pokemon]]
 internal_name = "SIRFETCHD"
 level = 69
@@ -842,12 +589,8 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.AsterKnight.24.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.AsterKnight.24.pokemon]]
 internal_name = "GRIMMSNARL"
@@ -861,14 +604,6 @@ raw_moves = [
 ]
 nature = "ADAMANT"
 iv = 31
-
-[trainers.AsterKnight.24.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.AsterKnight.24.pokemon]]
 internal_name = "CHANDELURE"
@@ -886,10 +621,7 @@ iv = 31
 
 [trainers.AsterKnight.24.pokemon.evs]
 hp = 4
-atk = 0
-def_ = 0
 spa = 252
-spd = 0
 spe = 252
 
 [[trainers.AsterKnight.24.pokemon]]
@@ -908,12 +640,9 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.AsterKnight.24.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.AsterKnight.24.pokemon]]
 internal_name = "LYCANROC"
@@ -931,12 +660,9 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.AsterKnight.24.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [trainers.AsterKnight.25]
 raw_trainer_class = "AsterKnight"
@@ -960,14 +686,6 @@ raw_moves = [
 nature = "ADAMANT"
 iv = 31
 
-[trainers.AsterKnight.25.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.AsterKnight.25.pokemon]]
 internal_name = "SIRFETCHD"
 level = 85
@@ -983,12 +701,8 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.AsterKnight.25.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.AsterKnight.25.pokemon]]
 internal_name = "CERULEDGE"
@@ -1004,14 +718,6 @@ ability_number = 1
 nature = "JOLLY"
 iv = 31
 
-[trainers.AsterKnight.25.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.AsterKnight.25.pokemon]]
 internal_name = "GRIMMSNARL"
 level = 86
@@ -1024,14 +730,6 @@ raw_moves = [
 ]
 nature = "ADAMANT"
 iv = 31
-
-[trainers.AsterKnight.25.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.AsterKnight.25.pokemon]]
 internal_name = "LYCANROC"
@@ -1049,12 +747,9 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.AsterKnight.25.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.AsterKnight.25.pokemon]]
 internal_name = "LYCANROC"
@@ -1072,18 +767,14 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.AsterKnight.25.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [trainers.ASTER.1000]
 raw_trainer_class = "ASTER"
 battler_name = "Aster"
 battler_id = 1000
-raw_battle_items = []
 
 [[trainers.ASTER.1000.pokemon]]
 internal_name = "KROOKODILE"
@@ -1100,11 +791,8 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.ASTER.1000.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
 spe = 4
 
 [[trainers.ASTER.1000.pokemon]]
@@ -1123,11 +811,7 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.ASTER.1000.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
-spa = 0
-spd = 0
 spe = 4
 
 [[trainers.ASTER.1000.pokemon]]
@@ -1145,9 +829,6 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.ASTER.1000.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
 spe = 4

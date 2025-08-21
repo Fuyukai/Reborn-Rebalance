@@ -3,7 +3,6 @@ trainer_name = "Daishou"
 [trainers.SAMUROTT.0]
 raw_trainer_class = "SAMUROTT"
 battler_name = "Daishou"
-raw_battle_items = []
 
 [[trainers.SAMUROTT.0.pokemon]]
 internal_name = "SAMUROTT"
@@ -20,12 +19,9 @@ nature = "LONELY"
 iv = 31
 
 [trainers.SAMUROTT.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
 spd = 4
-spe = 0
 
 [[trainers.SAMUROTT.0.pokemon]]
 internal_name = "SAMUROTT"
@@ -44,9 +40,6 @@ nature = "RASH"
 iv = 31
 
 [trainers.SAMUROTT.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 4
-spa = 0
 spd = 252
-spe = 0

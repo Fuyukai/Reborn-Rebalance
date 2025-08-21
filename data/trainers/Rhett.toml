@@ -3,7 +3,6 @@ trainer_name = "Rhett"
 [trainers.HIKER.0]
 raw_trainer_class = "HIKER"
 battler_name = "Rhett"
-raw_battle_items = []
 
 [[trainers.HIKER.0.pokemon]]
 internal_name = "VESPIQUEN"
@@ -20,9 +19,6 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.HIKER.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
 spe = 4

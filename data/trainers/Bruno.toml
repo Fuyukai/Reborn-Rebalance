@@ -3,57 +3,22 @@ trainer_name = "Bruno"
 [trainers.MeteorGrunt.0]
 raw_trainer_class = "MeteorGrunt"
 battler_name = "Bruno"
-raw_battle_items = []
-
-[[trainers.MeteorGrunt.0.pokemon]]
-internal_name = "LILLIPUP"
-level = 12
-iv = 0
-
-[trainers.MeteorGrunt.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
+pokemon = [
+    { internal_name = "LILLIPUP", level = 12, iv = 0 },
+]
 
 [trainers.MeteorGrunt.1]
 raw_trainer_class = "MeteorGrunt"
 battler_name = "Bruno"
+pokemon = [
+    { internal_name = "GROWLITHE", level = 22, iv = 0 },
+    { internal_name = "HERDIER", level = 23, iv = 0 },
+]
 battler_id = 1
-raw_battle_items = []
-
-[[trainers.MeteorGrunt.1.pokemon]]
-internal_name = "GROWLITHE"
-level = 22
-iv = 0
-
-[trainers.MeteorGrunt.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.MeteorGrunt.1.pokemon]]
-internal_name = "HERDIER"
-level = 23
-iv = 0
-
-[trainers.MeteorGrunt.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.MeteorAceM.0]
 raw_trainer_class = "MeteorAceM"
 battler_name = "Bruno"
-raw_battle_items = []
 
 [[trainers.MeteorAceM.0.pokemon]]
 internal_name = "ARCANINE"
@@ -65,14 +30,6 @@ raw_moves = [
     "IRONTAIL",
 ]
 iv = 0
-
-[trainers.MeteorAceM.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.MeteorAceM.0.pokemon]]
 internal_name = "MANECTRIC"
@@ -86,14 +43,6 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.MeteorAceM.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.MeteorAceM.0.pokemon]]
 internal_name = "STOUTLAND"
 level = 71
@@ -105,19 +54,10 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.MeteorAceM.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [trainers.MeteorAceM.1]
 raw_trainer_class = "MeteorAceM"
 battler_name = "Bruno"
 battler_id = 1
-raw_battle_items = []
 
 [[trainers.MeteorAceM.1.pokemon]]
 internal_name = "ARCANINE"
@@ -129,14 +69,6 @@ raw_moves = [
     "IRONTAIL",
 ]
 iv = 0
-
-[trainers.MeteorAceM.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.MeteorAceM.1.pokemon]]
 internal_name = "MANECTRIC"
@@ -150,14 +82,6 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.MeteorAceM.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.MeteorAceM.1.pokemon]]
 internal_name = "STOUTLAND"
 level = 81
@@ -169,14 +93,6 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.MeteorAceM.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.MeteorAceM.1.pokemon]]
 internal_name = "ARMALDO"
 level = 80
@@ -187,11 +103,3 @@ raw_moves = [
     "LIQUIDATION",
 ]
 iv = 0
-
-[trainers.MeteorAceM.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0

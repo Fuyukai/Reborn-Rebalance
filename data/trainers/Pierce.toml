@@ -3,97 +3,26 @@ trainer_name = "Pierce"
 [trainers.AQUA2.0]
 raw_trainer_class = "AQUA2"
 battler_name = "Pierce"
-raw_battle_items = []
-
-[[trainers.AQUA2.0.pokemon]]
-internal_name = "CARVANHA"
-level = 32
-iv = 0
-
-[trainers.AQUA2.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.AQUA2.0.pokemon]]
-internal_name = "CLAUNCHER"
-level = 33
-iv = 0
-
-[trainers.AQUA2.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.AQUA2.0.pokemon]]
-internal_name = "LUDICOLO"
-level = 33
-iv = 0
-
-[trainers.AQUA2.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
+pokemon = [
+    { internal_name = "CARVANHA", level = 32, iv = 0 },
+    { internal_name = "CLAUNCHER", level = 33, iv = 0 },
+    { internal_name = "LUDICOLO", level = 33, iv = 0 },
+]
 
 [trainers.AQUA2.1]
 raw_trainer_class = "AQUA2"
 battler_name = "Pierce"
+pokemon = [
+    { internal_name = "SHARPEDO", level = 54, iv = 0 },
+    { internal_name = "CLAWITZER", level = 55, iv = 0 },
+    { internal_name = "LUDICOLO", level = 55, iv = 0 },
+]
 battler_id = 1
-raw_battle_items = []
-
-[[trainers.AQUA2.1.pokemon]]
-internal_name = "SHARPEDO"
-level = 54
-iv = 0
-
-[trainers.AQUA2.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.AQUA2.1.pokemon]]
-internal_name = "CLAWITZER"
-level = 55
-iv = 0
-
-[trainers.AQUA2.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.AQUA2.1.pokemon]]
-internal_name = "LUDICOLO"
-level = 55
-iv = 0
-
-[trainers.AQUA2.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.AQUA2.2]
 raw_trainer_class = "AQUA2"
 battler_name = "Pierce"
 battler_id = 2
-raw_battle_items = []
 
 [[trainers.AQUA2.2.pokemon]]
 internal_name = "CLAWITZER"
@@ -110,10 +39,7 @@ nature = "MODEST"
 iv = 31
 
 [trainers.AQUA2.2.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 252
 spe = 4
 
@@ -133,11 +59,8 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.AQUA2.2.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
 spe = 4
 
 [[trainers.AQUA2.2.pokemon]]
@@ -156,10 +79,7 @@ nature = "MODEST"
 iv = 31
 
 [trainers.AQUA2.2.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 252
 spe = 4
 
@@ -179,9 +99,6 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.AQUA2.2.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0

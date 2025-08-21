@@ -24,14 +24,6 @@ form_number = 1
 nature = "BOLD"
 iv = 25
 
-[trainers.SHADE.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.SHADE.0.pokemon]]
 internal_name = "DHELMISE"
 level = 35
@@ -44,14 +36,6 @@ raw_moves = [
 ]
 nature = "BRAVE"
 iv = 25
-
-[trainers.SHADE.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.SHADE.0.pokemon]]
 internal_name = "ROTOM"
@@ -66,14 +50,6 @@ raw_moves = [
 sex = ""
 nature = "BOLD"
 iv = 25
-
-[trainers.SHADE.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.SHADE.0.pokemon]]
 internal_name = "BANETTE"
@@ -90,14 +66,6 @@ sex = "F"
 nature = "BASHFUL"
 iv = 31
 
-[trainers.SHADE.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.SHADE.0.pokemon]]
 internal_name = "DOUBLADE"
 level = 37
@@ -110,14 +78,6 @@ raw_moves = [
 ]
 nature = "BRAVE"
 iv = 32
-
-[trainers.SHADE.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.SHADE.0.pokemon]]
 internal_name = "MIMIKYU"
@@ -136,17 +96,11 @@ iv = 31
 
 [trainers.SHADE.0.pokemon.evs]
 hp = 12
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.SHADE.10]
 raw_trainer_class = "SHADE"
 battler_name = "Shade"
 battler_id = 10
-raw_battle_items = []
 
 [[trainers.SHADE.10.pokemon]]
 internal_name = "NECROZMA"
@@ -165,12 +119,8 @@ nature = "MODEST"
 iv = 31
 
 [trainers.SHADE.10.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 252
-spe = 0
 
 [[trainers.SHADE.10.pokemon]]
 internal_name = "GENGAR"
@@ -187,12 +137,8 @@ nature = "MODEST"
 iv = 31
 
 [trainers.SHADE.10.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.SHADE.10.pokemon]]
 internal_name = "CHANDELURE"
@@ -209,12 +155,8 @@ nature = "TIMID"
 iv = 31
 
 [trainers.SHADE.10.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.SHADE.10.pokemon]]
 internal_name = "MIMIKYU"
@@ -232,10 +174,7 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.SHADE.10.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 4
 spe = 252
 
@@ -254,12 +193,8 @@ nature = "TIMID"
 iv = 31
 
 [trainers.SHADE.10.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.SHADE.10.pokemon]]
 internal_name = "AEGISLASH"
@@ -276,18 +211,13 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.SHADE.10.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.SHADE.11]
 raw_trainer_class = "SHADE"
 battler_name = "Shade"
 battler_id = 11
-raw_battle_items = []
 
 [[trainers.SHADE.11.pokemon]]
 internal_name = "NECROZMA"
@@ -306,12 +236,8 @@ nature = "MODEST"
 iv = 31
 
 [trainers.SHADE.11.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 252
-spe = 0
 
 [[trainers.SHADE.11.pokemon]]
 internal_name = "GENGAR"
@@ -328,12 +254,8 @@ nature = "MODEST"
 iv = 31
 
 [trainers.SHADE.11.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.SHADE.11.pokemon]]
 internal_name = "GIRATINA"
@@ -351,12 +273,8 @@ nature = "MODEST"
 iv = 31
 
 [trainers.SHADE.11.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.SHADE.11.pokemon]]
 internal_name = "MIMIKYU"
@@ -374,10 +292,7 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.SHADE.11.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 4
 spe = 252
 
@@ -397,11 +312,8 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.SHADE.11.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 4
-spa = 0
-spd = 0
 spe = 252
 
 [[trainers.SHADE.11.pokemon]]
@@ -419,18 +331,13 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.SHADE.11.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.SHADE.12]
 raw_trainer_class = "SHADE"
 battler_name = "Shade"
 battler_id = 12
-raw_battle_items = []
 
 [[trainers.SHADE.12.pokemon]]
 internal_name = "DECIDUEYE"
@@ -448,11 +355,8 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.SHADE.12.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
 spe = 4
 
 [[trainers.SHADE.12.pokemon]]
@@ -471,12 +375,8 @@ iv = 31
 happiness = 255
 
 [trainers.SHADE.12.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.SHADE.12.pokemon]]
 internal_name = "TREVENANT"
@@ -495,12 +395,8 @@ iv = 31
 happiness = 255
 
 [trainers.SHADE.12.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.SHADE.12.pokemon]]
 internal_name = "MAROWAK"
@@ -520,12 +416,8 @@ iv = 31
 happiness = 255
 
 [trainers.SHADE.12.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.SHADE.12.pokemon]]
 internal_name = "CHANDELURE"
@@ -542,12 +434,8 @@ nature = "MODEST"
 iv = 31
 
 [trainers.SHADE.12.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.SHADE.12.pokemon]]
 internal_name = "BLACEPHALON"
@@ -564,18 +452,13 @@ nature = "MODEST"
 iv = 31
 
 [trainers.SHADE.12.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [trainers.SHADE.13]
 raw_trainer_class = "SHADE"
 battler_name = "Shade"
 battler_id = 13
-raw_battle_items = []
 
 [[trainers.SHADE.13.pokemon]]
 internal_name = "FROSLASS"
@@ -592,9 +475,6 @@ nature = "TIMID"
 iv = 31
 
 [trainers.SHADE.13.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
 spe = 4
@@ -616,12 +496,8 @@ iv = 31
 happiness = 255
 
 [trainers.SHADE.13.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.SHADE.13.pokemon]]
 internal_name = "GIRATINA"
@@ -638,12 +514,8 @@ nature = "MODEST"
 iv = 31
 
 [trainers.SHADE.13.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.SHADE.13.pokemon]]
 internal_name = "AEGISLASH"
@@ -661,12 +533,8 @@ iv = 31
 happiness = 255
 
 [trainers.SHADE.13.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.SHADE.13.pokemon]]
 internal_name = "LUNALA"
@@ -683,12 +551,8 @@ nature = "MODEST"
 iv = 31
 
 [trainers.SHADE.13.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.SHADE.13.pokemon]]
 internal_name = "TREVENANT"
@@ -707,12 +571,8 @@ iv = 31
 happiness = 255
 
 [trainers.SHADE.13.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.SHADE.20]
 raw_trainer_class = "SHADE"
@@ -739,14 +599,6 @@ form_number = 1
 nature = "BOLD"
 iv = 25
 
-[trainers.SHADE.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.SHADE.20.pokemon]]
 internal_name = "RUNERIGUS"
 level = 35
@@ -759,14 +611,6 @@ raw_moves = [
 ]
 nature = "BRAVE"
 iv = 25
-
-[trainers.SHADE.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.SHADE.20.pokemon]]
 internal_name = "HOUNDSTONE"
@@ -785,11 +629,6 @@ happiness = 0
 
 [trainers.SHADE.20.pokemon.evs]
 hp = 12
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.SHADE.20.pokemon]]
 internal_name = "TYPHLOSION"
@@ -805,14 +644,6 @@ ability_number = 1
 form_number = 1
 nature = "QUIET"
 iv = 31
-
-[trainers.SHADE.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.SHADE.20.pokemon]]
 internal_name = "GENGAR"
@@ -830,11 +661,6 @@ nickname = "Corey"
 
 [trainers.SHADE.20.pokemon.evs]
 hp = 12
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.SHADE.20.pokemon]]
 internal_name = "MIMIKYU"
@@ -853,16 +679,10 @@ iv = 31
 
 [trainers.SHADE.20.pokemon.evs]
 hp = 12
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.ANAMSHADE.0]
 raw_trainer_class = "ANAMSHADE"
 battler_name = "Shade"
-raw_battle_items = []
 
 [[trainers.ANAMSHADE.0.pokemon]]
 internal_name = "LUGIA"
@@ -880,7 +700,6 @@ nature = "CALM"
 iv = 31
 
 [trainers.ANAMSHADE.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -903,7 +722,6 @@ nature = "CALM"
 iv = 31
 
 [trainers.ANAMSHADE.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -925,7 +743,6 @@ nature = "CAREFUL"
 iv = 31
 
 [trainers.ANAMSHADE.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -947,7 +764,6 @@ nature = "CAREFUL"
 iv = 31
 
 [trainers.ANAMSHADE.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -969,7 +785,6 @@ nature = "TIMID"
 iv = 31
 
 [trainers.ANAMSHADE.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -991,7 +806,6 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.ANAMSHADE.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252

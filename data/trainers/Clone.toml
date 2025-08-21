@@ -3,533 +3,71 @@ trainer_name = "Clone"
 [trainers.ALTVERO.0]
 raw_trainer_class = "ALTVERO"
 battler_name = "Clone"
-raw_battle_items = []
-
-[[trainers.ALTVERO.0.pokemon]]
-internal_name = "UNOWN"
-level = 1
-raw_item = "FOCUSSASH"
-iv = 0
-
-[trainers.ALTVERO.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.ALTVERO.0.pokemon]]
-internal_name = "UNOWN"
-level = 1
-raw_item = "LEFTOVERS"
-iv = 0
-
-[trainers.ALTVERO.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.ALTVERO.0.pokemon]]
-internal_name = "UNOWN"
-level = 1
-raw_item = "LIFEORB"
-iv = 0
-
-[trainers.ALTVERO.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.ALTVERO.0.pokemon]]
-internal_name = "UNOWN"
-level = 1
-raw_item = "SYNTHETICSEED"
-iv = 0
-
-[trainers.ALTVERO.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.ALTVERO.0.pokemon]]
-internal_name = "UNOWN"
-level = 1
-raw_item = "WIDELENS"
-iv = 0
-
-[trainers.ALTVERO.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.ALTVERO.0.pokemon]]
-internal_name = "UNOWN"
-level = 1
-raw_item = "SITRUSBERRY"
-iv = 0
-
-[trainers.ALTVERO.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
+pokemon = [
+    { internal_name = "UNOWN", level = 1, raw_item = "FOCUSSASH", iv = 0 },
+    { internal_name = "UNOWN", level = 1, raw_item = "LEFTOVERS", iv = 0 },
+    { internal_name = "UNOWN", level = 1, raw_item = "LIFEORB", iv = 0 },
+    { internal_name = "UNOWN", level = 1, raw_item = "SYNTHETICSEED", iv = 0 },
+    { internal_name = "UNOWN", level = 1, raw_item = "WIDELENS", iv = 0 },
+    { internal_name = "UNOWN", level = 1, raw_item = "SITRUSBERRY", iv = 0 },
+]
 
 [trainers.ALTALICE.0]
 raw_trainer_class = "ALTALICE"
 battler_name = "Clone"
-raw_battle_items = []
-
-[[trainers.ALTALICE.0.pokemon]]
-internal_name = "UNOWN"
-level = 1
-raw_item = "LEFTOVERS"
-iv = 0
-
-[trainers.ALTALICE.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.ALTALICE.0.pokemon]]
-internal_name = "UNOWN"
-level = 1
-raw_item = "LIFEORB"
-iv = 0
-
-[trainers.ALTALICE.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.ALTALICE.0.pokemon]]
-internal_name = "UNOWN"
-level = 1
-raw_item = "SYNTHETICSEED"
-iv = 0
-
-[trainers.ALTALICE.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.ALTALICE.0.pokemon]]
-internal_name = "UNOWN"
-level = 1
-raw_item = "EXPERTBELT"
-iv = 0
-
-[trainers.ALTALICE.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.ALTALICE.0.pokemon]]
-internal_name = "UNOWN"
-level = 1
-raw_item = "SITRUSBERRY"
-iv = 0
-
-[trainers.ALTALICE.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.ALTALICE.0.pokemon]]
-internal_name = "UNOWN"
-level = 1
-raw_item = "FOCUSSASH"
-iv = 0
-
-[trainers.ALTALICE.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
+pokemon = [
+    { internal_name = "UNOWN", level = 1, raw_item = "LEFTOVERS", iv = 0 },
+    { internal_name = "UNOWN", level = 1, raw_item = "LIFEORB", iv = 0 },
+    { internal_name = "UNOWN", level = 1, raw_item = "SYNTHETICSEED", iv = 0 },
+    { internal_name = "UNOWN", level = 1, raw_item = "EXPERTBELT", iv = 0 },
+    { internal_name = "UNOWN", level = 1, raw_item = "SITRUSBERRY", iv = 0 },
+    { internal_name = "UNOWN", level = 1, raw_item = "FOCUSSASH", iv = 0 },
+]
 
 [trainers.ALTKURO.0]
 raw_trainer_class = "ALTKURO"
 battler_name = "Clone"
-raw_battle_items = []
-
-[[trainers.ALTKURO.0.pokemon]]
-internal_name = "UNOWN"
-level = 1
-raw_item = "LIFEORB"
-iv = 0
-
-[trainers.ALTKURO.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.ALTKURO.0.pokemon]]
-internal_name = "UNOWN"
-level = 1
-raw_item = "SYNTHETICSEED"
-iv = 0
-
-[trainers.ALTKURO.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.ALTKURO.0.pokemon]]
-internal_name = "UNOWN"
-level = 1
-raw_item = "REDCARD"
-iv = 0
-
-[trainers.ALTKURO.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.ALTKURO.0.pokemon]]
-internal_name = "UNOWN"
-level = 1
-raw_item = "SITRUSBERRY"
-iv = 0
-
-[trainers.ALTKURO.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.ALTKURO.0.pokemon]]
-internal_name = "UNOWN"
-level = 1
-raw_item = "FOCUSSASH"
-iv = 0
-
-[trainers.ALTKURO.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.ALTKURO.0.pokemon]]
-internal_name = "UNOWN"
-level = 1
-raw_item = "LEFTOVERS"
-iv = 0
-
-[trainers.ALTKURO.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
+pokemon = [
+    { internal_name = "UNOWN", level = 1, raw_item = "LIFEORB", iv = 0 },
+    { internal_name = "UNOWN", level = 1, raw_item = "SYNTHETICSEED", iv = 0 },
+    { internal_name = "UNOWN", level = 1, raw_item = "REDCARD", iv = 0 },
+    { internal_name = "UNOWN", level = 1, raw_item = "SITRUSBERRY", iv = 0 },
+    { internal_name = "UNOWN", level = 1, raw_item = "FOCUSSASH", iv = 0 },
+    { internal_name = "UNOWN", level = 1, raw_item = "LEFTOVERS", iv = 0 },
+]
 
 [trainers.ALTLUCIA.0]
 raw_trainer_class = "ALTLUCIA"
 battler_name = "Clone"
-raw_battle_items = []
-
-[[trainers.ALTLUCIA.0.pokemon]]
-internal_name = "UNOWN"
-level = 1
-raw_item = "SYNTHETICSEED"
-iv = 0
-
-[trainers.ALTLUCIA.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.ALTLUCIA.0.pokemon]]
-internal_name = "UNOWN"
-level = 1
-raw_item = "WEAKNESSPOLICY"
-iv = 0
-
-[trainers.ALTLUCIA.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.ALTLUCIA.0.pokemon]]
-internal_name = "UNOWN"
-level = 1
-raw_item = "SITRUSBERRY"
-iv = 0
-
-[trainers.ALTLUCIA.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.ALTLUCIA.0.pokemon]]
-internal_name = "UNOWN"
-level = 1
-raw_item = "FOCUSSASH"
-iv = 0
-
-[trainers.ALTLUCIA.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.ALTLUCIA.0.pokemon]]
-internal_name = "UNOWN"
-level = 1
-raw_item = "LEFTOVERS"
-iv = 0
-
-[trainers.ALTLUCIA.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.ALTLUCIA.0.pokemon]]
-internal_name = "UNOWN"
-level = 1
-raw_item = "LIFEORB"
-iv = 0
-
-[trainers.ALTLUCIA.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
+pokemon = [
+    { internal_name = "UNOWN", level = 1, raw_item = "SYNTHETICSEED", iv = 0 },
+    { internal_name = "UNOWN", level = 1, raw_item = "WEAKNESSPOLICY", iv = 0 },
+    { internal_name = "UNOWN", level = 1, raw_item = "SITRUSBERRY", iv = 0 },
+    { internal_name = "UNOWN", level = 1, raw_item = "FOCUSSASH", iv = 0 },
+    { internal_name = "UNOWN", level = 1, raw_item = "LEFTOVERS", iv = 0 },
+    { internal_name = "UNOWN", level = 1, raw_item = "LIFEORB", iv = 0 },
+]
 
 [trainers.ALTARI.0]
 raw_trainer_class = "ALTARI"
 battler_name = "Clone"
-raw_battle_items = []
-
-[[trainers.ALTARI.0.pokemon]]
-internal_name = "UNOWN"
-level = 1
-raw_item = "ROCKYHELMET"
-iv = 0
-
-[trainers.ALTARI.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.ALTARI.0.pokemon]]
-internal_name = "UNOWN"
-level = 1
-raw_item = "SITRUSBERRY"
-iv = 0
-
-[trainers.ALTARI.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.ALTARI.0.pokemon]]
-internal_name = "UNOWN"
-level = 1
-raw_item = "FOCUSSASH"
-iv = 0
-
-[trainers.ALTARI.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.ALTARI.0.pokemon]]
-internal_name = "UNOWN"
-level = 1
-raw_item = "LEFTOVERS"
-iv = 0
-
-[trainers.ALTARI.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.ALTARI.0.pokemon]]
-internal_name = "UNOWN"
-level = 1
-raw_item = "LIFEORB"
-iv = 0
-
-[trainers.ALTARI.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.ALTARI.0.pokemon]]
-internal_name = "UNOWN"
-level = 1
-raw_item = "SYNTHETICSEED"
-iv = 0
-
-[trainers.ALTARI.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
+pokemon = [
+    { internal_name = "UNOWN", level = 1, raw_item = "ROCKYHELMET", iv = 0 },
+    { internal_name = "UNOWN", level = 1, raw_item = "SITRUSBERRY", iv = 0 },
+    { internal_name = "UNOWN", level = 1, raw_item = "FOCUSSASH", iv = 0 },
+    { internal_name = "UNOWN", level = 1, raw_item = "LEFTOVERS", iv = 0 },
+    { internal_name = "UNOWN", level = 1, raw_item = "LIFEORB", iv = 0 },
+    { internal_name = "UNOWN", level = 1, raw_item = "SYNTHETICSEED", iv = 0 },
+]
 
 [trainers.ALTDECIBEL.0]
 raw_trainer_class = "ALTDECIBEL"
 battler_name = "Clone"
-raw_battle_items = []
-
-[[trainers.ALTDECIBEL.0.pokemon]]
-internal_name = "UNOWN"
-level = 1
-raw_item = "SITRUSBERRY"
-iv = 0
-
-[trainers.ALTDECIBEL.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.ALTDECIBEL.0.pokemon]]
-internal_name = "UNOWN"
-level = 1
-raw_item = "FOCUSSASH"
-iv = 0
-
-[trainers.ALTDECIBEL.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.ALTDECIBEL.0.pokemon]]
-internal_name = "UNOWN"
-level = 1
-raw_item = "LEFTOVERS"
-iv = 0
-
-[trainers.ALTDECIBEL.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.ALTDECIBEL.0.pokemon]]
-internal_name = "UNOWN"
-level = 1
-raw_item = "LIFEORB"
-iv = 0
-
-[trainers.ALTDECIBEL.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.ALTDECIBEL.0.pokemon]]
-internal_name = "UNOWN"
-level = 1
-raw_item = "SYNTHETICSEED"
-iv = 0
-
-[trainers.ALTDECIBEL.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.ALTDECIBEL.0.pokemon]]
-internal_name = "UNOWN"
-level = 1
-raw_item = "SCOPELENS"
-iv = 0
-
-[trainers.ALTDECIBEL.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
+pokemon = [
+    { internal_name = "UNOWN", level = 1, raw_item = "SITRUSBERRY", iv = 0 },
+    { internal_name = "UNOWN", level = 1, raw_item = "FOCUSSASH", iv = 0 },
+    { internal_name = "UNOWN", level = 1, raw_item = "LEFTOVERS", iv = 0 },
+    { internal_name = "UNOWN", level = 1, raw_item = "LIFEORB", iv = 0 },
+    { internal_name = "UNOWN", level = 1, raw_item = "SYNTHETICSEED", iv = 0 },
+    { internal_name = "UNOWN", level = 1, raw_item = "SCOPELENS", iv = 0 },
+]

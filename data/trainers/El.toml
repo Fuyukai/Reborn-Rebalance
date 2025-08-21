@@ -23,19 +23,10 @@ sex = ""
 nature = "QUIET"
 iv = 0
 
-[trainers.EL.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [trainers.EL.20]
 raw_trainer_class = "EL"
 battler_name = "El"
 battler_id = 20
-raw_battle_items = []
 
 [[trainers.EL.20.pokemon]]
 internal_name = "ARCEUS"
@@ -50,11 +41,3 @@ raw_moves = [
 sex = ""
 nature = "QUIET"
 iv = 0
-
-[trainers.EL.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0

@@ -3,7 +3,6 @@ trainer_name = "Mime"
 [trainers.MIME.0]
 raw_trainer_class = "MIME"
 battler_name = "Mime"
-raw_battle_items = []
 
 [[trainers.MIME.0.pokemon]]
 internal_name = "MRMIME"
@@ -21,18 +20,13 @@ nature = "CAREFUL"
 iv = 31
 
 [trainers.MIME.0.pokemon.evs]
-hp = 0
 atk = 236
-def_ = 0
-spa = 0
-spd = 0
 spe = 16
 
 [trainers.MIME2.1]
 raw_trainer_class = "MIME2"
 battler_name = "Mime"
 battler_id = 1
-raw_battle_items = []
 
 [[trainers.MIME2.1.pokemon]]
 internal_name = "ABRA"
@@ -50,12 +44,9 @@ nature = "TIMID"
 iv = 31
 
 [trainers.MIME2.1.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.MIME2.1.pokemon]]
 internal_name = "CLAWITZER"
@@ -73,12 +64,9 @@ nature = "TIMID"
 iv = 0
 
 [trainers.MIME2.1.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
 spa = 252
 spd = 4
-spe = 0
 
 [[trainers.MIME2.1.pokemon]]
 internal_name = "MAGNEZONE"
@@ -96,12 +84,9 @@ nature = "TIMID"
 iv = 31
 
 [trainers.MIME2.1.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
 spa = 4
 spd = 252
-spe = 0
 
 [[trainers.MIME2.1.pokemon]]
 internal_name = "MRMIME"
@@ -116,11 +101,7 @@ nature = "TIMID"
 iv = 31
 
 [trainers.MIME2.1.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 4
 
 [[trainers.MIME2.1.pokemon]]
@@ -139,9 +120,5 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.MIME2.1.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
 spa = 4
-spd = 0
-spe = 0

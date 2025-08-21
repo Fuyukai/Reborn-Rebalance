@@ -3,30 +3,7 @@ trainer_name = "Brenda"
 [trainers.CultistF.0]
 raw_trainer_class = "CultistF"
 battler_name = "Brenda"
-raw_battle_items = []
-
-[[trainers.CultistF.0.pokemon]]
-internal_name = "DRAGONAIR"
-level = 62
-iv = 0
-
-[trainers.CultistF.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.CultistF.0.pokemon]]
-internal_name = "SHELGON"
-level = 62
-iv = 0
-
-[trainers.CultistF.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
+pokemon = [
+    { internal_name = "DRAGONAIR", level = 62, iv = 0 },
+    { internal_name = "SHELGON", level = 62, iv = 0 },
+]

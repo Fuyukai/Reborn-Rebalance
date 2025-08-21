@@ -3,108 +3,32 @@ trainer_name = "Devin"
 [trainers.MeteorGrunt.0]
 raw_trainer_class = "MeteorGrunt"
 battler_name = "Devin"
-raw_battle_items = []
-
-[[trainers.MeteorGrunt.0.pokemon]]
-internal_name = "GEODUDE"
-level = 12
-sex = ""
-form_number = 1
-iv = 0
-
-[trainers.MeteorGrunt.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
+pokemon = [
+    { internal_name = "GEODUDE", level = 12, sex = "", form_number = 1, iv = 0 },
+]
 
 [trainers.MeteorGrunt.1]
 raw_trainer_class = "MeteorGrunt"
 battler_name = "Devin"
+pokemon = [
+    { internal_name = "CROAGUNK", level = 34, iv = 0 },
+    { internal_name = "GRAVELER", level = 35, sex = "", form_number = 1, iv = 0 },
+]
 battler_id = 1
-raw_battle_items = []
-
-[[trainers.MeteorGrunt.1.pokemon]]
-internal_name = "CROAGUNK"
-level = 34
-iv = 0
-
-[trainers.MeteorGrunt.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.MeteorGrunt.1.pokemon]]
-internal_name = "GRAVELER"
-level = 35
-sex = ""
-form_number = 1
-iv = 0
-
-[trainers.MeteorGrunt.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.MeteorGrunt.2]
 raw_trainer_class = "MeteorGrunt"
 battler_name = "Devin"
+pokemon = [
+    { internal_name = "SOLROCK", level = 44, iv = 0 },
+    { internal_name = "ESCAVALIER", level = 45, iv = 0 },
+    { internal_name = "GOLEM", level = 46, sex = "", form_number = 1, iv = 0 },
+]
 battler_id = 2
-raw_battle_items = []
-
-[[trainers.MeteorGrunt.2.pokemon]]
-internal_name = "SOLROCK"
-level = 44
-iv = 0
-
-[trainers.MeteorGrunt.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.MeteorGrunt.2.pokemon]]
-internal_name = "ESCAVALIER"
-level = 45
-iv = 0
-
-[trainers.MeteorGrunt.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.MeteorGrunt.2.pokemon]]
-internal_name = "GOLEM"
-level = 46
-sex = ""
-form_number = 1
-iv = 0
-
-[trainers.MeteorGrunt.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.MeteorAceM.0]
 raw_trainer_class = "MeteorAceM"
 battler_name = "Devin"
-raw_battle_items = []
 
 [[trainers.MeteorAceM.0.pokemon]]
 internal_name = "UNFEZANT"
@@ -119,14 +43,6 @@ ability_number = 1
 sex = "F"
 iv = 0
 
-[trainers.MeteorAceM.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.MeteorAceM.0.pokemon]]
 internal_name = "SOLROCK"
 level = 70
@@ -138,14 +54,6 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.MeteorAceM.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.MeteorAceM.0.pokemon]]
 internal_name = "ESCAVALIER"
 level = 70
@@ -156,14 +64,6 @@ raw_moves = [
     "STRUGGLEBUG",
 ]
 iv = 0
-
-[trainers.MeteorAceM.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.MeteorAceM.0.pokemon]]
 internal_name = "GOLEM"
@@ -179,19 +79,10 @@ sex = ""
 form_number = 1
 iv = 0
 
-[trainers.MeteorAceM.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [trainers.MeteorAceM.1]
 raw_trainer_class = "MeteorAceM"
 battler_name = "Devin"
 battler_id = 1
-raw_battle_items = []
 
 [[trainers.MeteorAceM.1.pokemon]]
 internal_name = "UNFEZANT"
@@ -206,14 +97,6 @@ ability_number = 1
 sex = "F"
 iv = 0
 
-[trainers.MeteorAceM.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.MeteorAceM.1.pokemon]]
 internal_name = "SOLROCK"
 level = 81
@@ -225,14 +108,6 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.MeteorAceM.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.MeteorAceM.1.pokemon]]
 internal_name = "ESCAVALIER"
 level = 81
@@ -243,14 +118,6 @@ raw_moves = [
     "STRUGGLEBUG",
 ]
 iv = 0
-
-[trainers.MeteorAceM.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.MeteorAceM.1.pokemon]]
 internal_name = "GOLEM"
@@ -266,14 +133,6 @@ sex = ""
 form_number = 1
 iv = 0
 
-[trainers.MeteorAceM.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.MeteorAceM.1.pokemon]]
 internal_name = "RAMPARDOS"
 level = 82
@@ -285,11 +144,3 @@ raw_moves = [
 ]
 ability_number = 1
 iv = 0
-
-[trainers.MeteorAceM.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0

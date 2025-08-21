@@ -25,6 +25,7 @@ from reborn_rebalance.pbs.pokemon import (
     GrowthRate,
     PokemonSpecies,
     SexRatio,
+    StatWrapper,
 )
 from reborn_rebalance.pbs.raw.kv import raw_parse_kv
 from reborn_rebalance.pbs.tm import TechnicalMachine
@@ -78,6 +79,8 @@ def create_cattrs_converter() -> cattrs.Converter:
     # PokemonForms.
 
     converter = cattrs.Converter(forbid_extra_keys=True)
+
+    StatWrapper.add_unstructuring_hook(converter)
 
     # dump enums via name rather than by value
     for enum in (
@@ -853,10 +856,18 @@ def save_trainers_to_toml(path: Path, trainers: dict[str, TrainerCatalog]):
             logger.debug("skip", type="trainers", reason="exists")
             continue
 
-        raw_data = CONVERTER.unstructure(catalog)
+        save_single_trainer(toml_path, catalog)
 
-        with toml_path.open(mode="wb") as f:
-            dump(raw_data, f)
+
+def save_single_trainer(path: Path, trainer: TrainerCatalog):
+    """
+    Saves a single trainer to a TOML file.
+    """
+
+    raw_data = CONVERTER.unstructure(trainer)
+
+    with path.open(mode="wb") as f:
+        dump(raw_data, f)
 
 
 def save_trainers_to_pbs(path: Path, trainers: dict[str, TrainerCatalog]):

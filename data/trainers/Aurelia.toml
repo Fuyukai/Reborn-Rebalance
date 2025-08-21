@@ -3,7 +3,6 @@ trainer_name = "Aurelia"
 [trainers.LADY.0]
 raw_trainer_class = "LADY"
 battler_name = "Aurelia"
-raw_battle_items = []
 
 [[trainers.LADY.0.pokemon]]
 internal_name = "TYPHLOSION"
@@ -16,11 +15,3 @@ raw_moves = [
 ]
 ability_number = 1
 iv = 0
-
-[trainers.LADY.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0

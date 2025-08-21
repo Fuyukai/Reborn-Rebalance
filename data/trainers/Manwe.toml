@@ -3,7 +3,6 @@ trainer_name = "Manwe"
 [trainers.HARDHAT.0]
 raw_trainer_class = "HARDHAT"
 battler_name = "Manwe"
-raw_battle_items = []
 
 [[trainers.HARDHAT.0.pokemon]]
 internal_name = "BISHARP"
@@ -20,11 +19,8 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.HARDHAT.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
 spe = 4
 
 [[trainers.HARDHAT.0.pokemon]]
@@ -42,12 +38,9 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.HARDHAT.0.pokemon.evs]
-hp = 0
 atk = 6
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.HARDHAT.0.pokemon]]
 internal_name = "SCYTHER"
@@ -66,12 +59,9 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.HARDHAT.0.pokemon.evs]
-hp = 0
 atk = 6
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.HARDHAT.0.pokemon]]
 internal_name = "HAWLUCHA"
@@ -89,12 +79,9 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.HARDHAT.0.pokemon.evs]
-hp = 0
 atk = 6
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.HARDHAT.0.pokemon]]
 internal_name = "FARFETCHD"
@@ -111,18 +98,14 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.HARDHAT.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
 spe = 4
 
 [trainers.HARDHAT.20]
 raw_trainer_class = "HARDHAT"
 battler_name = "Manwe"
 battler_id = 20
-raw_battle_items = []
 
 [[trainers.HARDHAT.20.pokemon]]
 internal_name = "BISHARP"
@@ -139,11 +122,8 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.HARDHAT.20.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
 spe = 4
 
 [[trainers.HARDHAT.20.pokemon]]
@@ -161,12 +141,9 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.HARDHAT.20.pokemon.evs]
-hp = 0
 atk = 6
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.HARDHAT.20.pokemon]]
 internal_name = "KLEAVOR"
@@ -184,12 +161,9 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.HARDHAT.20.pokemon.evs]
-hp = 0
 atk = 6
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.HARDHAT.20.pokemon]]
 internal_name = "HAWLUCHA"
@@ -207,12 +181,9 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.HARDHAT.20.pokemon.evs]
-hp = 0
 atk = 6
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.HARDHAT.20.pokemon]]
 internal_name = "FARFETCHD"
@@ -224,16 +195,13 @@ raw_moves = [
     "BRAVEBIRD",
     "CUT",
 ]
+ability_number = 1
 sex = ""
 form_number = 1
-ability_number = 1
 nature = "ADAMANT"
 iv = 31
 
 [trainers.HARDHAT.20.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
 spe = 4

@@ -3,7 +3,6 @@ trainer_name = "Arlo"
 [trainers.SWIMMERBOI.0]
 raw_trainer_class = "SWIMMERBOI"
 battler_name = "Arlo"
-raw_battle_items = []
 
 [[trainers.SWIMMERBOI.0.pokemon]]
 internal_name = "ROTOM"
@@ -20,14 +19,6 @@ form_number = 2
 nature = "MODEST"
 iv = 20
 
-[trainers.SWIMMERBOI.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.SWIMMERBOI.0.pokemon]]
 internal_name = "BASCULIN"
 level = 72
@@ -43,14 +34,6 @@ form_number = 1
 nature = "ADAMANT"
 iv = 20
 
-[trainers.SWIMMERBOI.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.SWIMMERBOI.0.pokemon]]
 internal_name = "JELLICENT"
 level = 73
@@ -63,11 +46,3 @@ raw_moves = [
 ]
 nature = "BOLD"
 iv = 20
-
-[trainers.SWIMMERBOI.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0

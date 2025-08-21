@@ -158,14 +158,23 @@ class StatWrapper:
     Wrapper class for a set of six stats, e.g. base stats or EV yield.
     """
 
+    @classmethod
+    def add_unstructuring_hook(cls, converter: Converter):
+        unst_hook = make_dict_unstructure_fn(
+            StatWrapper,
+            converter,
+            _cattrs_omit_if_default=True,
+        )
+        converter.register_unstructure_hook(StatWrapper, unst_hook)
+
     # there used to be validators here.
     # gargantuan steelix has 3252 hp evs. (or 1104 hp)
-    hp: int = attr.ib()
-    atk: int = attr.ib()
-    def_: int = attr.ib()
-    spa: int = attr.ib()
-    spd: int = attr.ib()
-    spe: int = attr.ib()
+    hp: int = attr.ib(default=0)
+    atk: int = attr.ib(default=0)
+    def_: int = attr.ib(default=0)
+    spa: int = attr.ib(default=0)
+    spd: int = attr.ib(default=0)
+    spe: int = attr.ib(default=0)
 
     def __iter__(self):
         yield self.hp

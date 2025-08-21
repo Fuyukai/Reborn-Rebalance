@@ -3,7 +3,6 @@ trainer_name = "Iroh"
 [trainers.EXPERT_Male.0]
 raw_trainer_class = "EXPERT_Male"
 battler_name = "Iroh"
-raw_battle_items = []
 
 [[trainers.EXPERT_Male.0.pokemon]]
 internal_name = "SIMISEAR"
@@ -15,11 +14,3 @@ raw_moves = [
     "YAWN",
 ]
 iv = 0
-
-[trainers.EXPERT_Male.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0

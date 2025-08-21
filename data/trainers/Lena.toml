@@ -3,7 +3,6 @@ trainer_name = "Lena"
 [trainers.RANGERF.0]
 raw_trainer_class = "RANGERF"
 battler_name = "Lena"
-raw_battle_items = []
 
 [[trainers.RANGERF.0.pokemon]]
 internal_name = "RAICHU"
@@ -18,14 +17,6 @@ sex = ""
 form_number = 1
 iv = 0
 
-[trainers.RANGERF.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.RANGERF.0.pokemon]]
 internal_name = "GOGOAT"
 level = 79
@@ -38,14 +29,6 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.RANGERF.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.RANGERF.0.pokemon]]
 internal_name = "RIBOMBEE"
 level = 79
@@ -56,11 +39,3 @@ raw_moves = [
     "PSYCHIC",
 ]
 iv = 0
-
-[trainers.RANGERF.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0

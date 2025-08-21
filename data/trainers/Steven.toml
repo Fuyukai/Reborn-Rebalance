@@ -3,84 +3,25 @@ trainer_name = "Steven"
 [trainers.MeteorKnight.0]
 raw_trainer_class = "MeteorKnight"
 battler_name = "Steven"
-raw_battle_items = []
-
-[[trainers.MeteorKnight.0.pokemon]]
-internal_name = "CHARJABUG"
-level = 34
-iv = 0
-
-[trainers.MeteorKnight.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.MeteorKnight.0.pokemon]]
-internal_name = "MUDSDALE"
-level = 34
-iv = 0
-
-[trainers.MeteorKnight.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
+pokemon = [
+    { internal_name = "CHARJABUG", level = 34, iv = 0 },
+    { internal_name = "MUDSDALE", level = 34, iv = 0 },
+]
 
 [trainers.MeteorKnight.1]
 raw_trainer_class = "MeteorKnight"
 battler_name = "Steven"
+pokemon = [
+    { internal_name = "VIKAVOLT", level = 53, iv = 0 },
+    { internal_name = "PILOSWINE", level = 53, iv = 0 },
+    { internal_name = "MUDSDALE", level = 53, iv = 0 },
+]
 battler_id = 1
-raw_battle_items = []
-
-[[trainers.MeteorKnight.1.pokemon]]
-internal_name = "VIKAVOLT"
-level = 53
-iv = 0
-
-[trainers.MeteorKnight.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.MeteorKnight.1.pokemon]]
-internal_name = "PILOSWINE"
-level = 53
-iv = 0
-
-[trainers.MeteorKnight.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.MeteorKnight.1.pokemon]]
-internal_name = "MUDSDALE"
-level = 53
-iv = 0
-
-[trainers.MeteorKnight.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.MeteorKnight.2]
 raw_trainer_class = "MeteorKnight"
 battler_name = "Steven"
 battler_id = 2
-raw_battle_items = []
 
 [[trainers.MeteorKnight.2.pokemon]]
 internal_name = "MAMOSWINE"
@@ -93,14 +34,6 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.MeteorKnight.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.MeteorKnight.2.pokemon]]
 internal_name = "VIKAVOLT"
 level = 67
@@ -111,14 +44,6 @@ raw_moves = [
     "FLASHCANNON",
 ]
 iv = 0
-
-[trainers.MeteorKnight.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.MeteorKnight.2.pokemon]]
 internal_name = "MUDSDALE"
@@ -131,18 +56,9 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.MeteorKnight.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [trainers.MeteorAceM.0]
 raw_trainer_class = "MeteorAceM"
 battler_name = "Steven"
-raw_battle_items = []
 
 [[trainers.MeteorAceM.0.pokemon]]
 internal_name = "TYRANITAR"
@@ -159,7 +75,6 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.MeteorAceM.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -181,7 +96,6 @@ nature = "MODEST"
 iv = 31
 
 [trainers.MeteorAceM.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -203,7 +117,6 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.MeteorAceM.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -226,7 +139,6 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.MeteorAceM.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -249,7 +161,6 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.MeteorAceM.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252

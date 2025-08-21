@@ -3,25 +3,13 @@ trainer_name = "Marshall"
 [trainers.YOUNGSTER.0]
 raw_trainer_class = "YOUNGSTER"
 battler_name = "Marshall"
-raw_battle_items = []
-
-[[trainers.YOUNGSTER.0.pokemon]]
-internal_name = "SURSKIT"
-level = 12
-iv = 0
-
-[trainers.YOUNGSTER.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
+pokemon = [
+    { internal_name = "SURSKIT", level = 12, iv = 0 },
+]
 
 [trainers.HIKER.0]
 raw_trainer_class = "HIKER"
 battler_name = "Marshall"
-raw_battle_items = []
 
 [[trainers.HIKER.0.pokemon]]
 internal_name = "SHELGON"
@@ -34,14 +22,6 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.HIKER.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.HIKER.0.pokemon]]
 internal_name = "STANTLER"
 level = 68
@@ -52,11 +32,3 @@ raw_moves = [
     "BITE",
 ]
 iv = 0
-
-[trainers.HIKER.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0

@@ -3,51 +3,15 @@ trainer_name = "Allyssa"
 [trainers.OrderlyF.0]
 raw_trainer_class = "OrderlyF"
 battler_name = "Allyssa"
-raw_battle_items = []
-
-[[trainers.OrderlyF.0.pokemon]]
-internal_name = "TENTACOOL"
-level = 33
-iv = 0
-
-[trainers.OrderlyF.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.OrderlyF.0.pokemon]]
-internal_name = "SHIINOTIC"
-level = 33
-iv = 0
-
-[trainers.OrderlyF.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.OrderlyF.0.pokemon]]
-internal_name = "KADABRA"
-level = 33
-iv = 0
-
-[trainers.OrderlyF.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
+pokemon = [
+    { internal_name = "TENTACOOL", level = 33, iv = 0 },
+    { internal_name = "SHIINOTIC", level = 33, iv = 0 },
+    { internal_name = "KADABRA", level = 33, iv = 0 },
+]
 
 [trainers.NWOrderlyF.0]
 raw_trainer_class = "NWOrderlyF"
 battler_name = "Allyssa"
-raw_battle_items = []
 
 [[trainers.NWOrderlyF.0.pokemon]]
 internal_name = "GRUMPIG"
@@ -59,14 +23,6 @@ raw_moves = [
     "REFLECT",
 ]
 iv = 0
-
-[trainers.NWOrderlyF.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.NWOrderlyF.0.pokemon]]
 internal_name = "SHIINOTIC"
@@ -80,14 +36,6 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.NWOrderlyF.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.NWOrderlyF.0.pokemon]]
 internal_name = "TENTACRUEL"
 level = 75
@@ -99,14 +47,6 @@ raw_moves = [
 ]
 ability_number = 1
 iv = 0
-
-[trainers.NWOrderlyF.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.NWOrderlyF.0.pokemon]]
 internal_name = "ALAKAZAM"
@@ -120,14 +60,6 @@ raw_moves = [
 ability_number = 2
 iv = 0
 
-[trainers.NWOrderlyF.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.NWOrderlyF.0.pokemon]]
 internal_name = "GOODRA"
 level = 75
@@ -138,11 +70,3 @@ raw_moves = [
     "SLUDGEWAVE",
 ]
 iv = 0
-
-[trainers.NWOrderlyF.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0

@@ -3,7 +3,6 @@ trainer_name = "Kamina"
 [trainers.SPIRITM.0]
 raw_trainer_class = "SPIRITM"
 battler_name = "Kamina"
-raw_battle_items = []
 
 [[trainers.SPIRITM.0.pokemon]]
 internal_name = "ALAKAZAM"
@@ -21,9 +20,6 @@ nature = "MODEST"
 iv = 31
 
 [trainers.SPIRITM.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
 spe = 4
@@ -38,18 +34,13 @@ raw_moves = [
     "SUCKERPUNCH",
     "TAUNT",
 ]
-ability_number = 0
 sex = ""
 nature = "ADAMANT"
 iv = 31
 
 [trainers.SPIRITM.0.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.SPIRITM.0.pokemon]]
 internal_name = "PORYGONZ"
@@ -66,9 +57,6 @@ nature = "TIMID"
 iv = 31
 
 [trainers.SPIRITM.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
 spe = 4
@@ -89,12 +77,8 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.SPIRITM.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.SPIRITM.0.pokemon]]
 internal_name = "VOLCARONA"
@@ -112,11 +96,8 @@ nature = "TIMID"
 iv = 31
 
 [trainers.SPIRITM.0.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
 spa = 4
-spd = 0
 spe = 252
 
 [[trainers.SPIRITM.0.pokemon]]
@@ -134,9 +115,6 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.SPIRITM.0.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0

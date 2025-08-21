@@ -3,7 +3,6 @@ trainer_name = "Amethyst"
 [trainers.AME.0]
 raw_trainer_class = "AME"
 battler_name = "Amethyst"
-raw_battle_items = []
 
 [[trainers.AME.0.pokemon]]
 internal_name = "NINETALES"
@@ -22,12 +21,9 @@ iv = 31
 nickname = "Shimmer"
 
 [trainers.AME.0.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.AME.0.pokemon]]
 internal_name = "LOPUNNY"
@@ -39,20 +35,16 @@ raw_moves = [
     "RETURN",
     "DRAINPUNCH",
 ]
-ability_number = 0
 sex = "F"
 nature = "ADAMANT"
 iv = 31
 happiness = 255
-nickname = "Lustbunny"  # Kill yourself!!!!!!!!!!
+nickname = "Lustbunny"
 
 [trainers.AME.0.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.AME.0.pokemon]]
 internal_name = "SYLVEON"
@@ -73,12 +65,9 @@ happiness = 255
 nickname = "Invidia"
 
 [trainers.AME.0.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
 spa = 4
 spd = 252
-spe = 0
 
 [[trainers.AME.0.pokemon]]
 internal_name = "PRIMARINA"
@@ -97,11 +86,7 @@ happiness = 255
 nickname = "Althena"
 
 [trainers.AME.0.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 4
 
 [[trainers.AME.0.pokemon]]
@@ -121,10 +106,7 @@ happiness = 255
 nickname = "Topaz"
 
 [trainers.AME.0.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 252
 spe = 4
 
@@ -146,18 +128,14 @@ happiness = 255
 nickname = "Misery"
 
 [trainers.AME.0.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [trainers.AME.1]
 raw_trainer_class = "AME"
 battler_name = "Amethyst"
 battler_id = 1
-raw_battle_items = []
 
 [[trainers.AME.1.pokemon]]
 internal_name = "NINETALES"
@@ -176,7 +154,6 @@ iv = 31
 nickname = "Shimmer"
 
 [trainers.AME.1.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -200,7 +177,6 @@ iv = 31
 nickname = "Invidia"
 
 [trainers.AME.1.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -224,7 +200,6 @@ iv = 31
 nickname = "Despair"
 
 [trainers.AME.1.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -247,7 +222,6 @@ iv = 31
 nickname = "Topaz"
 
 [trainers.AME.1.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -272,7 +246,6 @@ happiness = 255
 nickname = "Lustbunny"
 
 [trainers.AME.1.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -295,7 +268,6 @@ iv = 31
 nickname = "Althena"
 
 [trainers.AME.1.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252

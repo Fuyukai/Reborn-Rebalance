@@ -3,51 +3,15 @@ trainer_name = "Roth"
 [trainers.Orderly.0]
 raw_trainer_class = "Orderly"
 battler_name = "Roth"
-raw_battle_items = []
-
-[[trainers.Orderly.0.pokemon]]
-internal_name = "SHELLDER"
-level = 34
-iv = 0
-
-[trainers.Orderly.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.Orderly.0.pokemon]]
-internal_name = "BLITZLE"
-level = 34
-iv = 0
-
-[trainers.Orderly.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.Orderly.0.pokemon]]
-internal_name = "KLANG"
-level = 34
-iv = 0
-
-[trainers.Orderly.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
+pokemon = [
+    { internal_name = "SHELLDER", level = 34, iv = 0 },
+    { internal_name = "BLITZLE", level = 34, iv = 0 },
+    { internal_name = "KLANG", level = 34, iv = 0 },
+]
 
 [trainers.NWOrderly.0]
 raw_trainer_class = "NWOrderly"
 battler_name = "Roth"
-raw_battle_items = []
 
 [[trainers.NWOrderly.0.pokemon]]
 internal_name = "CLOYSTER"
@@ -61,14 +25,6 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.NWOrderly.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.NWOrderly.0.pokemon]]
 internal_name = "HERACROSS"
 level = 74
@@ -80,14 +36,6 @@ raw_moves = [
 ]
 ability_number = 2
 iv = 0
-
-[trainers.NWOrderly.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.NWOrderly.0.pokemon]]
 internal_name = "ZEBSTRIKA"
@@ -101,14 +49,6 @@ raw_moves = [
 ability_number = 2
 iv = 0
 
-[trainers.NWOrderly.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.NWOrderly.0.pokemon]]
 internal_name = "KLINKLANG"
 level = 74
@@ -120,14 +60,6 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.NWOrderly.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.NWOrderly.0.pokemon]]
 internal_name = "GARDEVOIR"
 level = 75
@@ -138,11 +70,3 @@ raw_moves = [
     "THUNDERBOLT",
 ]
 iv = 0
-
-[trainers.NWOrderly.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0

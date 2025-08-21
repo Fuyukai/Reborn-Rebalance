@@ -3,20 +3,11 @@ trainer_name = "Marigold"
 [trainers.Doxy.0]
 raw_trainer_class = "Doxy"
 battler_name = "Marigold"
-raw_battle_items = []
 
 [[trainers.Doxy.0.pokemon]]
 internal_name = "PIKIPEK"
 level = 5
 iv = 0
-
-[trainers.Doxy.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.Doxy.0.pokemon]]
 internal_name = "BOUNSWEET"
@@ -28,11 +19,3 @@ raw_moves = [
     "RAPIDSPIN",
 ]
 iv = 0
-
-[trainers.Doxy.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0

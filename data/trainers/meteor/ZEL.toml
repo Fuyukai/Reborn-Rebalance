@@ -3,8 +3,6 @@ trainer_name = "ZEL"
 [trainers.ZEL.0]
 raw_trainer_class = "ZEL"
 battler_name = "ZEL"
-raw_battle_items = []
-battler_id = 0
 
 [[trainers.ZEL.0.pokemon]]
 internal_name = "TANGROWTH"
@@ -22,19 +20,10 @@ nature = "CALM"
 iv = 7
 happiness = 0
 
-[trainers.ZEL.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [trainers.ZEL.1]
 raw_trainer_class = "ZEL"
 battler_name = "ZEL"
 battler_id = 1
-raw_battle_items = []
 
 [[trainers.ZEL.1.pokemon]]
 internal_name = "GLACEON"
@@ -50,14 +39,6 @@ sex = "F"
 nature = "MODEST"
 iv = 5
 
-[trainers.ZEL.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.ZEL.1.pokemon]]
 internal_name = "ESPEON"
 level = 24
@@ -72,14 +53,6 @@ sex = "F"
 nature = "MODEST"
 iv = 5
 
-[trainers.ZEL.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.ZEL.1.pokemon]]
 internal_name = "UMBREON"
 level = 25
@@ -92,14 +65,6 @@ raw_moves = [
 ability_number = 1
 nature = "CAREFUL"
 iv = 20
-
-[trainers.ZEL.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.ZEL.2]
 raw_trainer_class = "ZEL"
@@ -121,17 +86,9 @@ raw_moves = [
     "WATERPULSE",
 ]
 ability_number = 2
-nature = "TIMID"
 sex = "F"
+nature = "TIMID"
 iv = 31
-
-[trainers.ZEL.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.ZEL.2.pokemon]]
 internal_name = "ESPEON"
@@ -148,14 +105,6 @@ sex = "F"
 nature = "MODEST"
 iv = 31
 
-[trainers.ZEL.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.ZEL.2.pokemon]]
 internal_name = "UMBREON"
 level = 44
@@ -166,17 +115,8 @@ raw_moves = [
     "MYSTICALFIRE",
     "CONFUSERAY",
 ]
-ability_number = 0
 nature = "CALM"
 iv = 31
-
-[trainers.ZEL.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.ZEL.2.pokemon]]
 internal_name = "MUK"
@@ -193,19 +133,10 @@ nature = "MODEST"
 iv = 31
 happiness = 0
 
-[trainers.ZEL.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [trainers.ZEL.23]
 raw_trainer_class = "ZEL"
 battler_name = "ZEL"
 battler_id = 23
-raw_battle_items = []
 
 [[trainers.ZEL.23.pokemon]]
 internal_name = "ABRA"
@@ -221,14 +152,6 @@ form_number = 1
 nature = "MODEST"
 iv = 31
 happiness = 0
-
-[trainers.ZEL.23.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.ZEL.4]
 raw_trainer_class = "ZEL"
@@ -255,10 +178,7 @@ nature = "MODEST"
 iv = 31
 
 [trainers.ZEL.4.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 252
 spe = 4
 
@@ -277,10 +197,7 @@ nature = "MODEST"
 iv = 31
 
 [trainers.ZEL.4.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 252
 spe = 4
 
@@ -300,12 +217,9 @@ nature = "TIMID"
 iv = 31
 
 [trainers.ZEL.4.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.ZEL.4.pokemon]]
 internal_name = "ESPEON"
@@ -323,12 +237,9 @@ nature = "MODEST"
 iv = 31
 
 [trainers.ZEL.4.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 4
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.ZEL.4.pokemon]]
 internal_name = "UMBREON"
@@ -344,11 +255,7 @@ nature = "CALM"
 iv = 31
 
 [trainers.ZEL.4.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 252
 
 [[trainers.ZEL.4.pokemon]]
@@ -367,12 +274,8 @@ iv = 31
 happiness = 0
 
 [trainers.ZEL.4.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 252
-spe = 0
 
 [trainers.ZEL.24]
 raw_trainer_class = "ZEL"
@@ -393,18 +296,12 @@ raw_moves = [
     "BODYPRESS",
     "IRONHEAD",
 ]
-ability_number = 0
-form_number = 0
 nature = "TIMID"
 iv = 31
 
 [trainers.ZEL.24.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 104
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.ZEL.24.pokemon]]
 internal_name = "GLACEON"
@@ -422,10 +319,7 @@ nature = "MODEST"
 iv = 31
 
 [trainers.ZEL.24.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 252
 spe = 4
 
@@ -445,12 +339,9 @@ nature = "TIMID"
 iv = 31
 
 [trainers.ZEL.24.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.ZEL.24.pokemon]]
 internal_name = "ESPEON"
@@ -468,12 +359,9 @@ nature = "TIMID"
 iv = 31
 
 [trainers.ZEL.24.pokemon.evs]
-hp = 0
 atk = 104
-def_ = 0
 spa = 252
 spd = 152
-spe = 0
 
 [[trainers.ZEL.24.pokemon]]
 internal_name = "UMBREON"
@@ -485,16 +373,11 @@ raw_moves = [
     "FOULPLAY",
     "TOXIC",
 ]
-ability_number = 0
 nature = "CALM"
 iv = 31
 
 [trainers.ZEL.24.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 252
 
 [[trainers.ZEL.24.pokemon]]
@@ -513,9 +396,5 @@ iv = 31
 happiness = 0
 
 [trainers.ZEL.24.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 252
-spe = 0

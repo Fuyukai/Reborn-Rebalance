@@ -3,30 +3,7 @@ trainer_name = "Damon"
 [trainers.PSYCHIC_Male.0]
 raw_trainer_class = "PSYCHIC_Male"
 battler_name = "Damon"
-raw_battle_items = []
-
-[[trainers.PSYCHIC_Male.0.pokemon]]
-internal_name = "GASTLY"
-level = 35
-iv = 0
-
-[trainers.PSYCHIC_Male.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.PSYCHIC_Male.0.pokemon]]
-internal_name = "LITWICK"
-level = 35
-iv = 0
-
-[trainers.PSYCHIC_Male.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
+pokemon = [
+    { internal_name = "GASTLY", level = 35, iv = 0 },
+    { internal_name = "LITWICK", level = 35, iv = 0 },
+]

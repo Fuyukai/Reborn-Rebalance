@@ -3,7 +3,6 @@ trainer_name = "u"
 [trainers.GLITCH1.0]
 raw_trainer_class = "GLITCH1"
 battler_name = "u"
-raw_battle_items = []
 
 [[trainers.GLITCH1.0.pokemon]]
 internal_name = "HORSEA"
@@ -17,14 +16,6 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.GLITCH1.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.GLITCH1.0.pokemon]]
 internal_name = "SEADRA"
 level = 75
@@ -36,11 +27,3 @@ raw_moves = [
 ]
 ability_number = 1
 iv = 0
-
-[trainers.GLITCH1.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0

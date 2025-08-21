@@ -3,7 +3,6 @@ trainer_name = "Ellen"
 [trainers.NatureGirl.0]
 raw_trainer_class = "NatureGirl"
 battler_name = "Ellen"
-raw_battle_items = []
 
 [[trainers.NatureGirl.0.pokemon]]
 internal_name = "SNOVER"
@@ -16,14 +15,6 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.NatureGirl.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.NatureGirl.0.pokemon]]
 internal_name = "ABOMASNOW"
 level = 69
@@ -34,11 +25,3 @@ raw_moves = [
     "PROTECT",
 ]
 iv = 0
-
-[trainers.NatureGirl.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0

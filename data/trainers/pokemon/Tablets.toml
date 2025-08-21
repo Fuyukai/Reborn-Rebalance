@@ -3,7 +3,6 @@ trainer_name = "Tablets"
 [trainers.RUINT.0]
 raw_trainer_class = "RUINT"
 battler_name = "Tablets"
-raw_battle_items = []
 
 [[trainers.RUINT.0.pokemon]]
 internal_name = "YANMEGA"
@@ -20,12 +19,8 @@ nature = "TIMID"
 iv = 31
 
 [trainers.RUINT.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.RUINT.0.pokemon]]
 internal_name = "BRONZONG"
@@ -43,11 +38,7 @@ nature = "RELAXED"
 iv = 31
 
 [trainers.RUINT.0.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 96
 
 [[trainers.RUINT.0.pokemon]]
@@ -66,12 +57,8 @@ nature = "QUIET"
 iv = 31
 
 [trainers.RUINT.0.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 252
-spe = 0
 
 [[trainers.RUINT.0.pokemon]]
 internal_name = "CURSOLA"
@@ -89,10 +76,7 @@ nature = "QUIET"
 iv = 31
 
 [trainers.RUINT.0.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 4
 spe = 252
 
@@ -111,9 +95,5 @@ nature = "SASSY"
 iv = 31
 
 [trainers.RUINT.0.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 252

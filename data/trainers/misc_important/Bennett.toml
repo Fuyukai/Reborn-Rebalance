@@ -22,14 +22,6 @@ sex = "F"
 nature = "ADAMANT"
 iv = 31
 
-[trainers.BENNETT.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.BENNETT.0.pokemon]]
 internal_name = "VENOMOTH"
 level = 48
@@ -42,14 +34,6 @@ raw_moves = [
 sex = "F"
 nature = "TIMID"
 iv = 31
-
-[trainers.BENNETT.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.BENNETT.0.pokemon]]
 internal_name = "VIVILLON"
@@ -66,14 +50,6 @@ sex = "F"
 nature = "MODEST"
 iv = 31
 
-[trainers.BENNETT.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.BENNETT.0.pokemon]]
 internal_name = "DUSTOX"
 level = 49
@@ -87,14 +63,6 @@ raw_moves = [
 sex = "F"
 nature = "MODEST"
 iv = 31
-
-[trainers.BENNETT.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.BENNETT.0.pokemon]]
 internal_name = "MASQUERAIN"
@@ -110,14 +78,6 @@ sex = "F"
 nature = "MODEST"
 iv = 31
 
-[trainers.BENNETT.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.BENNETT.0.pokemon]]
 internal_name = "BUTTERFREE"
 level = 50
@@ -131,14 +91,6 @@ raw_moves = [
 sex = "F"
 nature = "MODEST"
 iv = 31
-
-[trainers.BENNETT.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.BENNETT.1]
 raw_trainer_class = "BENNETT"
@@ -163,11 +115,8 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.BENNETT.1.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
 spe = 4
 
 [[trainers.BENNETT.1.pokemon]]
@@ -184,14 +133,6 @@ sex = "F"
 nature = "TIMID"
 iv = 31
 
-[trainers.BENNETT.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.BENNETT.1.pokemon]]
 internal_name = "DUSTOX"
 level = 63
@@ -207,14 +148,6 @@ sex = "F"
 nature = "MODEST"
 iv = 31
 
-[trainers.BENNETT.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.BENNETT.1.pokemon]]
 internal_name = "SCYTHER"
 level = 62
@@ -229,14 +162,6 @@ sex = "F"
 nature = "ADAMANT"
 iv = 31
 
-[trainers.BENNETT.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.BENNETT.1.pokemon]]
 internal_name = "YANMEGA"
 level = 63
@@ -250,14 +175,6 @@ raw_moves = [
 sex = "F"
 nature = "MODEST"
 iv = 31
-
-[trainers.BENNETT.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.BENNETT.1.pokemon]]
 internal_name = "BUTTERFREE"
@@ -274,12 +191,9 @@ nature = "MODEST"
 iv = 31
 
 [trainers.BENNETT.1.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [trainers.BENNETT.20]
 raw_trainer_class = "BENNETT"
@@ -304,14 +218,6 @@ sex = "F"
 nature = "ADAMANT"
 iv = 31
 
-[trainers.BENNETT.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.BENNETT.20.pokemon]]
 internal_name = "VENOMOTH"
 level = 48
@@ -324,14 +230,6 @@ raw_moves = [
 sex = "F"
 nature = "TIMID"
 iv = 31
-
-[trainers.BENNETT.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.BENNETT.20.pokemon]]
 internal_name = "RABSCA"
@@ -347,11 +245,7 @@ nature = "QUIET"
 iv = 31
 
 [trainers.BENNETT.20.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 202
 
 [[trainers.BENNETT.20.pokemon]]
@@ -369,14 +263,6 @@ sex = "F"
 nature = "JOLLY"
 iv = 31
 
-[trainers.BENNETT.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.BENNETT.20.pokemon]]
 internal_name = "MASQUERAIN"
 level = 49
@@ -387,18 +273,10 @@ raw_moves = [
     "HYDROPUMP",
     "SIGNALBEAM",
 ]
+ability_number = 1
 sex = "F"
 nature = "MODEST"
 iv = 31
-ability_number = 1
-
-[trainers.BENNETT.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.BENNETT.20.pokemon]]
 internal_name = "BUTTERFREE"
@@ -413,14 +291,6 @@ raw_moves = [
 sex = "F"
 nature = "MODEST"
 iv = 31
-
-[trainers.BENNETT.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.BENNETT.21]
 raw_trainer_class = "BENNETT"
@@ -445,11 +315,8 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.BENNETT.21.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
 spe = 4
 
 [[trainers.BENNETT.21.pokemon]]
@@ -466,14 +333,6 @@ sex = "F"
 nature = "TIMID"
 iv = 31
 
-[trainers.BENNETT.21.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.BENNETT.21.pokemon]]
 internal_name = "LOKIX"
 level = 63
@@ -487,14 +346,6 @@ raw_moves = [
 ability_number = 1
 nature = "JOLLY"
 iv = 31
-
-[trainers.BENNETT.21.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.BENNETT.21.pokemon]]
 internal_name = "YANMEGA"
@@ -510,14 +361,6 @@ sex = "F"
 nature = "MODEST"
 iv = 31
 
-[trainers.BENNETT.21.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.BENNETT.21.pokemon]]
 internal_name = "RABSCA"
 level = 64
@@ -532,11 +375,7 @@ nature = "QUIET"
 iv = 31
 
 [trainers.BENNETT.21.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 202
 
 [[trainers.BENNETT.21.pokemon]]
@@ -554,18 +393,14 @@ nature = "MODEST"
 iv = 31
 
 [trainers.BENNETT.21.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [trainers.BENNETT2.1]
 raw_trainer_class = "BENNETT2"
 battler_name = "Bennett"
 battler_id = 1
-raw_battle_items = []
 
 [[trainers.BENNETT2.1.pokemon]]
 internal_name = "RIBOMBEE"
@@ -583,12 +418,9 @@ iv = 31
 happiness = 255
 
 [trainers.BENNETT2.1.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.BENNETT2.1.pokemon]]
 internal_name = "GENESECT"
@@ -606,12 +438,9 @@ iv = 31
 happiness = 255
 
 [trainers.BENNETT2.1.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.BENNETT2.1.pokemon]]
 internal_name = "PHEROMOSA"
@@ -629,12 +458,9 @@ iv = 31
 happiness = 255
 
 [trainers.BENNETT2.1.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.BENNETT2.1.pokemon]]
 internal_name = "VOLCARONA"
@@ -652,12 +478,9 @@ iv = 31
 happiness = 255
 
 [trainers.BENNETT2.1.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.BENNETT2.1.pokemon]]
 internal_name = "DELPHOX"
@@ -675,12 +498,9 @@ iv = 31
 happiness = 255
 
 [trainers.BENNETT2.1.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.BENNETT2.1.pokemon]]
 internal_name = "CHARIZARD"
@@ -698,17 +518,13 @@ iv = 31
 happiness = 255
 
 [trainers.BENNETT2.1.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [trainers.BENNETT2.0]
 raw_trainer_class = "BENNETT2"
 battler_name = "Bennett"
-raw_battle_items = []
 
 [[trainers.BENNETT2.0.pokemon]]
 internal_name = "RIBOMBEE"
@@ -726,12 +542,9 @@ iv = 31
 happiness = 255
 
 [trainers.BENNETT2.0.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.BENNETT2.0.pokemon]]
 internal_name = "GENESECT"
@@ -749,12 +562,9 @@ iv = 31
 happiness = 255
 
 [trainers.BENNETT2.0.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.BENNETT2.0.pokemon]]
 internal_name = "PHEROMOSA"
@@ -772,12 +582,9 @@ iv = 31
 happiness = 255
 
 [trainers.BENNETT2.0.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.BENNETT2.0.pokemon]]
 internal_name = "VOLCARONA"
@@ -795,12 +602,9 @@ iv = 31
 happiness = 255
 
 [trainers.BENNETT2.0.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.BENNETT2.0.pokemon]]
 internal_name = "DELPHOX"
@@ -818,12 +622,9 @@ iv = 31
 happiness = 255
 
 [trainers.BENNETT2.0.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.BENNETT2.0.pokemon]]
 internal_name = "CHARIZARD"
@@ -841,18 +642,14 @@ iv = 31
 happiness = 255
 
 [trainers.BENNETT2.0.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [trainers.BENNETT2.10]
 raw_trainer_class = "BENNETT2"
 battler_name = "Bennett"
 battler_id = 10
-raw_battle_items = []
 
 [[trainers.BENNETT2.10.pokemon]]
 internal_name = "SHEDINJA"
@@ -870,12 +667,9 @@ iv = 31
 happiness = 255
 
 [trainers.BENNETT2.10.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.BENNETT2.10.pokemon]]
 internal_name = "ESCAVALIER"
@@ -887,18 +681,14 @@ raw_moves = [
     "EARTHQUAKE",
     "KNOCKOFF",
 ]
-ability_number = 0
 sex = ""
 nature = "ADAMANT"
 iv = 31
 happiness = 255
 
 [trainers.BENNETT2.10.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
 spe = 4
 
 [[trainers.BENNETT2.10.pokemon]]
@@ -917,12 +707,9 @@ iv = 31
 happiness = 255
 
 [trainers.BENNETT2.10.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.BENNETT2.10.pokemon]]
 internal_name = "GOLISOPOD"
@@ -940,11 +727,8 @@ iv = 31
 happiness = 255
 
 [trainers.BENNETT2.10.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
 spe = 4
 
 [[trainers.BENNETT2.10.pokemon]]
@@ -963,10 +747,7 @@ iv = 31
 happiness = 255
 
 [trainers.BENNETT2.10.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 252
 spe = 4
 
@@ -987,18 +768,14 @@ iv = 31
 happiness = 255
 
 [trainers.BENNETT2.10.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [trainers.BENNETT2.11]
 raw_trainer_class = "BENNETT2"
 battler_name = "Bennett"
 battler_id = 11
-raw_battle_items = []
 
 [[trainers.BENNETT2.11.pokemon]]
 internal_name = "VOLCARONA"
@@ -1017,12 +794,9 @@ iv = 31
 happiness = 255
 
 [trainers.BENNETT2.11.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.BENNETT2.11.pokemon]]
 internal_name = "PHEROMOSA"
@@ -1039,12 +813,8 @@ nature = "HASTY"
 iv = 31
 
 [trainers.BENNETT2.11.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.BENNETT2.11.pokemon]]
 internal_name = "BUZZWOLE"
@@ -1062,11 +832,7 @@ iv = 31
 happiness = 255
 
 [trainers.BENNETT2.11.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 200
 
 [[trainers.BENNETT2.11.pokemon]]
@@ -1086,11 +852,8 @@ iv = 31
 happiness = 255
 
 [trainers.BENNETT2.11.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
 spe = 4
 
 [[trainers.BENNETT2.11.pokemon]]
@@ -1110,12 +873,9 @@ iv = 31
 happiness = 255
 
 [trainers.BENNETT2.11.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.BENNETT2.11.pokemon]]
 internal_name = "BEEDRILL"
@@ -1134,18 +894,14 @@ iv = 31
 happiness = 255
 
 [trainers.BENNETT2.11.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [trainers.BENNETT2.12]
 raw_trainer_class = "BENNETT2"
 battler_name = "Bennett"
 battler_id = 12
-raw_battle_items = []
 
 [[trainers.BENNETT2.12.pokemon]]
 internal_name = "NINETALES"
@@ -1163,12 +919,9 @@ nature = "TIMID"
 iv = 31
 
 [trainers.BENNETT2.12.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.BENNETT2.12.pokemon]]
 internal_name = "GALVANTULA"
@@ -1185,12 +938,9 @@ nature = "MODEST"
 iv = 31
 
 [trainers.BENNETT2.12.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.BENNETT2.12.pokemon]]
 internal_name = "RIBOMBEE"
@@ -1208,12 +958,8 @@ nature = "TIMID"
 iv = 31
 
 [trainers.BENNETT2.12.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.BENNETT2.12.pokemon]]
 internal_name = "GENESECT"
@@ -1231,12 +977,8 @@ nature = "TIMID"
 iv = 31
 
 [trainers.BENNETT2.12.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.BENNETT2.12.pokemon]]
 internal_name = "VOLCARONA"
@@ -1253,12 +995,9 @@ nature = "TIMID"
 iv = 31
 
 [trainers.BENNETT2.12.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.BENNETT2.12.pokemon]]
 internal_name = "VICTINI"
@@ -1275,9 +1014,6 @@ nature = "MODEST"
 iv = 31
 
 [trainers.BENNETT2.12.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0

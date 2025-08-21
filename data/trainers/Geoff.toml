@@ -3,26 +3,14 @@ trainer_name = "Geoff"
 [trainers.MeteorGrunt.0]
 raw_trainer_class = "MeteorGrunt"
 battler_name = "Geoff"
-raw_battle_items = []
-
-[[trainers.MeteorGrunt.0.pokemon]]
-internal_name = "DUSKULL"
-level = 11
-iv = 0
-
-[trainers.MeteorGrunt.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
+pokemon = [
+    { internal_name = "DUSKULL", level = 11, iv = 0 },
+]
 
 [trainers.MeteorGrunt.1]
 raw_trainer_class = "MeteorGrunt"
 battler_name = "Geoff"
 battler_id = 1
-raw_battle_items = []
 
 [[trainers.MeteorGrunt.1.pokemon]]
 internal_name = "LICKILICKY"
@@ -35,14 +23,6 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.MeteorGrunt.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.MeteorGrunt.1.pokemon]]
 internal_name = "BARBARACLE"
 level = 65
@@ -53,14 +33,6 @@ raw_moves = [
     "NIGHTSLASH",
 ]
 iv = 0
-
-[trainers.MeteorGrunt.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.MeteorGrunt.1.pokemon]]
 internal_name = "DUSCLOPS"
@@ -73,18 +45,9 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.MeteorGrunt.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [trainers.MeteorAceM.0]
 raw_trainer_class = "MeteorAceM"
 battler_name = "Geoff"
-raw_battle_items = []
 
 [[trainers.MeteorAceM.0.pokemon]]
 internal_name = "LICKILICKY"
@@ -97,14 +60,6 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.MeteorAceM.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.MeteorAceM.0.pokemon]]
 internal_name = "BARBARACLE"
 level = 71
@@ -115,14 +70,6 @@ raw_moves = [
     "CROSSCHOP",
 ]
 iv = 0
-
-[trainers.MeteorAceM.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.MeteorAceM.0.pokemon]]
 internal_name = "DUSKNOIR"
@@ -135,19 +82,10 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.MeteorAceM.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [trainers.MeteorAceM.1]
 raw_trainer_class = "MeteorAceM"
 battler_name = "Geoff"
 battler_id = 1
-raw_battle_items = []
 
 [[trainers.MeteorAceM.1.pokemon]]
 internal_name = "LICKILICKY"
@@ -160,14 +98,6 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.MeteorAceM.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.MeteorAceM.1.pokemon]]
 internal_name = "BARBARACLE"
 level = 80
@@ -178,14 +108,6 @@ raw_moves = [
     "CROSSCHOP",
 ]
 iv = 0
-
-[trainers.MeteorAceM.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.MeteorAceM.1.pokemon]]
 internal_name = "DUSKNOIR"
@@ -198,14 +120,6 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.MeteorAceM.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.MeteorAceM.1.pokemon]]
 internal_name = "AGGRON"
 level = 80
@@ -217,11 +131,3 @@ raw_moves = [
 ]
 ability_number = 1
 iv = 0
-
-[trainers.MeteorAceM.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0

@@ -43,6 +43,7 @@ resync-tms = "reborn_rebalance.scripts.resync_tms:main"
 find-new-forms = "reborn_rebalance.scripts.find_new_forms:main"
 parse-ruby-movelist = "reborn_rebalance.scripts.parse_ruby_movelist:main"
 "dump-map-scripts" = "reborn_rebalance.scripts.dump_map_scripts:main"
+"clear-empty-evs" = "reborn_rebalance.scripts.clear_empty_evs:main"
 
 [dependency-groups]
 dev = [

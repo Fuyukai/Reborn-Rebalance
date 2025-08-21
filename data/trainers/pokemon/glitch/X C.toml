@@ -3,7 +3,6 @@ trainer_name = "X C"
 [trainers.GLITCH2.0]
 raw_trainer_class = "GLITCH2"
 battler_name = "X C"
-raw_battle_items = []
 
 [[trainers.GLITCH2.0.pokemon]]
 internal_name = "TANGELA"
@@ -17,14 +16,6 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.GLITCH2.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.GLITCH2.0.pokemon]]
 internal_name = "PIDGEOT"
 level = 77
@@ -37,14 +28,6 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.GLITCH2.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.GLITCH2.0.pokemon]]
 internal_name = "JOLTEON"
 level = 78
@@ -55,11 +38,3 @@ raw_moves = [
     "THUNDERWAVE",
 ]
 iv = 0
-
-[trainers.GLITCH2.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0

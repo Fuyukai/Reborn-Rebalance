@@ -3,174 +3,45 @@ trainer_name = "JB"
 [trainers.EXPERT_Male.3]
 raw_trainer_class = "EXPERT_Male"
 battler_name = "JB"
+pokemon = [
+    { internal_name = "FROAKIE", level = 11, iv = 0 },
+    { internal_name = "FENNEKIN", level = 11, iv = 0 },
+]
 battler_id = 3
-raw_battle_items = []
-
-[[trainers.EXPERT_Male.3.pokemon]]
-internal_name = "FROAKIE"
-level = 11
-iv = 0
-
-[trainers.EXPERT_Male.3.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.EXPERT_Male.3.pokemon]]
-internal_name = "FENNEKIN"
-level = 11
-iv = 0
-
-[trainers.EXPERT_Male.3.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.EXPERT_Male.0]
 raw_trainer_class = "EXPERT_Male"
 battler_name = "JB"
-raw_battle_items = []
-
-[[trainers.EXPERT_Male.0.pokemon]]
-internal_name = "BRAIXEN"
-level = 34
-iv = 0
-
-[trainers.EXPERT_Male.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.EXPERT_Male.0.pokemon]]
-internal_name = "FROGADIER"
-level = 34
-iv = 0
-
-[trainers.EXPERT_Male.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.EXPERT_Male.0.pokemon]]
-internal_name = "GOOMY"
-level = 34
-iv = 0
-
-[trainers.EXPERT_Male.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
+pokemon = [
+    { internal_name = "BRAIXEN", level = 34, iv = 0 },
+    { internal_name = "FROGADIER", level = 34, iv = 0 },
+    { internal_name = "GOOMY", level = 34, iv = 0 },
+]
 
 [trainers.EXPERT_Male.1]
 raw_trainer_class = "EXPERT_Male"
 battler_name = "JB"
+pokemon = [
+    { internal_name = "DELPHOX", level = 49, iv = 0 },
+    { internal_name = "GRENINJA", level = 49, iv = 0 },
+    { internal_name = "SLIGGOO", level = 49, iv = 0 },
+]
 battler_id = 1
-raw_battle_items = []
-
-[[trainers.EXPERT_Male.1.pokemon]]
-internal_name = "DELPHOX"
-level = 49
-iv = 0
-
-[trainers.EXPERT_Male.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.EXPERT_Male.1.pokemon]]
-internal_name = "GRENINJA"
-level = 49
-iv = 0
-
-[trainers.EXPERT_Male.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.EXPERT_Male.1.pokemon]]
-internal_name = "SLIGGOO"
-level = 49
-iv = 0
-
-[trainers.EXPERT_Male.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.EXPERT_Male.2]
 raw_trainer_class = "EXPERT_Male"
 battler_name = "JB"
+pokemon = [
+    { internal_name = "DELPHOX", level = 59, iv = 0 },
+    { internal_name = "GRENINJA", level = 59, iv = 0 },
+    { internal_name = "GOODRA", level = 59, iv = 0 },
+]
 battler_id = 2
-raw_battle_items = []
-
-[[trainers.EXPERT_Male.2.pokemon]]
-internal_name = "DELPHOX"
-level = 59
-iv = 0
-
-[trainers.EXPERT_Male.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.EXPERT_Male.2.pokemon]]
-internal_name = "GRENINJA"
-level = 59
-iv = 0
-
-[trainers.EXPERT_Male.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.EXPERT_Male.2.pokemon]]
-internal_name = "GOODRA"
-level = 59
-iv = 0
-
-[trainers.EXPERT_Male.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.EXPERT_Male.4]
 raw_trainer_class = "EXPERT_Male"
 battler_name = "JB"
 battler_id = 4
-raw_battle_items = []
 
 [[trainers.EXPERT_Male.4.pokemon]]
 internal_name = "GRENINJA"
@@ -185,14 +56,6 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.EXPERT_Male.4.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.EXPERT_Male.4.pokemon]]
 internal_name = "DELPHOX"
 level = 85
@@ -204,14 +67,6 @@ raw_moves = [
 ]
 ability_number = 1
 iv = 0
-
-[trainers.EXPERT_Male.4.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.EXPERT_Male.4.pokemon]]
 internal_name = "CHESNAUGHT"
@@ -226,14 +81,6 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.EXPERT_Male.4.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.EXPERT_Male.4.pokemon]]
 internal_name = "GOODRA"
 level = 85
@@ -247,55 +94,12 @@ raw_moves = [
 ability_number = 2
 iv = 0
 
-[trainers.EXPERT_Male.4.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [trainers.EXPERT_Male.5]
 raw_trainer_class = "EXPERT_Male"
 battler_name = "JB"
+pokemon = [
+    { internal_name = "BRAIXEN", level = 21, iv = 0 },
+    { internal_name = "FROGADIER", level = 21, iv = 0 },
+    { internal_name = "GOOMY", level = 20, iv = 0 },
+]
 battler_id = 5
-raw_battle_items = []
-
-[[trainers.EXPERT_Male.5.pokemon]]
-internal_name = "BRAIXEN"
-level = 21
-iv = 0
-
-[trainers.EXPERT_Male.5.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.EXPERT_Male.5.pokemon]]
-internal_name = "FROGADIER"
-level = 21
-iv = 0
-
-[trainers.EXPERT_Male.5.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.EXPERT_Male.5.pokemon]]
-internal_name = "GOOMY"
-level = 20
-iv = 0
-
-[trainers.EXPERT_Male.5.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0

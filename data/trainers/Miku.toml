@@ -3,17 +3,6 @@ trainer_name = "Miku"
 [trainers.COOLTRAINER_Female.0]
 raw_trainer_class = "COOLTRAINER_Female"
 battler_name = "Miku"
-raw_battle_items = []
-
-[[trainers.COOLTRAINER_Female.0.pokemon]]
-internal_name = "SWABLU"
-level = 25
-iv = 0
-
-[trainers.COOLTRAINER_Female.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
+pokemon = [
+    { internal_name = "SWABLU", level = 25, iv = 0 },
+]

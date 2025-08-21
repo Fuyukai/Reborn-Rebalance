@@ -3,32 +3,10 @@ trainer_name = "Lenore"
 [trainers.LADY.0]
 raw_trainer_class = "LADY"
 battler_name = "Lenore"
+pokemon = [
+    { internal_name = "LUVDISC", level = 26, iv = 0 },
+    { internal_name = "MURKROW", level = 26, iv = 0 },
+]
 raw_battle_items = [
     "FULLRESTORE",
 ]
-
-[[trainers.LADY.0.pokemon]]
-internal_name = "LUVDISC"
-level = 26
-iv = 0
-
-[trainers.LADY.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.LADY.0.pokemon]]
-internal_name = "MURKROW"
-level = 26
-iv = 0
-
-[trainers.LADY.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0

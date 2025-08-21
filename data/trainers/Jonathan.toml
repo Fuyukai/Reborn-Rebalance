@@ -3,25 +3,13 @@ trainer_name = "Jonathan"
 [trainers.TechNerd.0]
 raw_trainer_class = "TechNerd"
 battler_name = "Jonathan"
-raw_battle_items = []
-
-[[trainers.TechNerd.0.pokemon]]
-internal_name = "YUNGOOS"
-level = 4
-iv = 0
-
-[trainers.TechNerd.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
+pokemon = [
+    { internal_name = "YUNGOOS", level = 4, iv = 0 },
+]
 
 [trainers.SPIRITM.0]
 raw_trainer_class = "SPIRITM"
 battler_name = "Jonathan"
-raw_battle_items = []
 
 [[trainers.SPIRITM.0.pokemon]]
 internal_name = "TOGEKISS"
@@ -39,10 +27,7 @@ nature = "MODEST"
 iv = 31
 
 [trainers.SPIRITM.0.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 252
 spe = 4
 
@@ -62,10 +47,7 @@ nature = "MODEST"
 iv = 32
 
 [trainers.SPIRITM.0.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 252
 spe = 4
 
@@ -85,11 +67,8 @@ nature = "BRAVE"
 iv = 32
 
 [trainers.SPIRITM.0.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
 spe = 4
 
 [[trainers.SPIRITM.0.pokemon]]
@@ -107,11 +86,8 @@ nature = "BRAVE"
 iv = 32
 
 [trainers.SPIRITM.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
 spe = 4
 
 [[trainers.SPIRITM.0.pokemon]]
@@ -130,10 +106,6 @@ nature = "QUIET"
 iv = 32
 
 [trainers.SPIRITM.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
 spd = 252
 spe = 128
 
@@ -152,9 +124,5 @@ nature = "RELAXED"
 iv = 32
 
 [trainers.SPIRITM.0.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 128

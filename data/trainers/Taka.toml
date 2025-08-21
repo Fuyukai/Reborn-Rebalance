@@ -10,6 +10,7 @@ raw_battle_items = [
 [[trainers.Taka.0.pokemon]]
 internal_name = "EXEGGUTOR"
 level = 35
+raw_item = "SITRUSBERRY"
 raw_moves = [
     "POISONPOWDER",
     "LEECHSEED",
@@ -18,17 +19,8 @@ raw_moves = [
 ]
 ability_number = 1
 form_number = 1
-raw_item = "SITRUSBERRY"
 nature = "JOLLY"
 iv = 31
-
-[trainers.Taka.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.Taka.0.pokemon]]
 internal_name = "MASCHIFF"
@@ -43,14 +35,6 @@ raw_moves = [
 nature = "ADAMANT"
 iv = 30
 
-[trainers.Taka.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.Taka.0.pokemon]]
 internal_name = "CHATOT"
 level = 34
@@ -63,14 +47,6 @@ raw_moves = [
 ]
 nature = ""
 iv = 31
-
-[trainers.Taka.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.Taka.0.pokemon]]
 internal_name = "TANGROWTH"
@@ -87,14 +63,6 @@ form_number = 2
 nature = "IMPISH"
 iv = 31
 happiness = 0
-
-[trainers.Taka.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.Taka.1]
 raw_trainer_class = "Taka"
@@ -119,10 +87,6 @@ iv = 31
 
 [trainers.Taka.1.pokemon.evs]
 hp = 24
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
 spe = 24
 
 [[trainers.Taka.1.pokemon]]
@@ -142,10 +106,6 @@ iv = 31
 
 [trainers.Taka.1.pokemon.evs]
 hp = 24
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
 spe = 24
 
 [[trainers.Taka.1.pokemon]]
@@ -157,17 +117,11 @@ raw_moves = [
     "EARTHQUAKE",
     "ROOST",
 ]
-ability_number = 0
 nature = "ADAMANT"
 iv = 31
 
 [trainers.Taka.1.pokemon.evs]
-hp = 0
 atk = 76
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.Taka.1.pokemon]]
 internal_name = "CHATOT"
@@ -210,14 +164,6 @@ raw_moves = [
 ability_number = 1
 nature = "SERIOUS"
 
-[trainers.Taka.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.Taka.2.pokemon]]
 internal_name = "CHATOT"
 level = 26
@@ -230,14 +176,6 @@ raw_moves = [
 ]
 nature = "SERIOUS"
 iv = 5
-
-[trainers.Taka.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.Taka.2.pokemon]]
 internal_name = "TANGROWTH"
@@ -254,19 +192,10 @@ nature = "CALM"
 iv = 31
 happiness = 0
 
-[trainers.Taka.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [trainers.Taka.3]
 raw_trainer_class = "Taka"
 battler_name = "Taka"
 battler_id = 3
-raw_battle_items = []
 
 [[trainers.Taka.3.pokemon]]
 internal_name = "KLEFKI"
@@ -282,11 +211,7 @@ nature = "BOLD"
 iv = 31
 
 [trainers.Taka.3.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 252
 
 [[trainers.Taka.3.pokemon]]
@@ -305,10 +230,7 @@ nature = "BRAVE"
 iv = 32
 
 [trainers.Taka.3.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 4
 spe = 252
 
@@ -328,11 +250,7 @@ iv = 32
 happiness = 255
 
 [trainers.Taka.3.pokemon.evs]
-hp = 0
 atk = 248
-def_ = 0
-spa = 0
-spd = 0
 spe = 8
 
 [[trainers.Taka.3.pokemon]]
@@ -350,11 +268,7 @@ nature = "BRAVE"
 iv = 32
 
 [trainers.Taka.3.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 4
 
 [[trainers.Taka.3.pokemon]]
@@ -371,12 +285,9 @@ nature = "NAIVE"
 iv = 31
 
 [trainers.Taka.3.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 108
 spd = 148
-spe = 0
 
 [[trainers.Taka.3.pokemon]]
 internal_name = "CHATOT"
@@ -392,12 +303,9 @@ nature = "TIMID"
 iv = 31
 
 [trainers.Taka.3.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [trainers.Taka.4]
 raw_trainer_class = "Taka"
@@ -422,11 +330,7 @@ nature = "BOLD"
 iv = 31
 
 [trainers.Taka.4.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 252
 
 [[trainers.Taka.4.pokemon]]
@@ -444,11 +348,7 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.Taka.4.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 4
 
 [[trainers.Taka.4.pokemon]]
@@ -467,10 +367,7 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.Taka.4.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 4
 spe = 252
 
@@ -490,11 +387,7 @@ iv = 31
 happiness = 255
 
 [trainers.Taka.4.pokemon.evs]
-hp = 0
 atk = 248
-def_ = 0
-spa = 0
-spd = 0
 spe = 8
 
 [[trainers.Taka.4.pokemon]]
@@ -511,12 +404,9 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.Taka.4.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.Taka.4.pokemon]]
 internal_name = "CHATOT"
@@ -532,12 +422,9 @@ nature = "TIMID"
 iv = 31
 
 [trainers.Taka.4.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [trainers.Taka.20]
 raw_trainer_class = "Taka"
@@ -560,14 +447,6 @@ raw_moves = [
 nature = "ADAMANT"
 iv = 30
 
-[trainers.Taka.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.Taka.20.pokemon]]
 internal_name = "CHATOT"
 level = 25
@@ -580,14 +459,6 @@ raw_moves = [
 ]
 nature = ""
 iv = 5
-
-[trainers.Taka.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.Taka.20.pokemon]]
 internal_name = "TANGROWTH"
@@ -604,14 +475,6 @@ form_number = 2
 nature = "IMPISH"
 iv = 31
 happiness = 0
-
-[trainers.Taka.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.Taka.21]
 raw_trainer_class = "Taka"
@@ -634,14 +497,6 @@ raw_moves = [
 nature = "BOLD"
 iv = 13
 
-[trainers.Taka.21.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.Taka.21.pokemon]]
 internal_name = "FLAPPLE"
 level = 41
@@ -654,14 +509,6 @@ raw_moves = [
 ]
 nature = "JOLLY"
 iv = 30
-
-[trainers.Taka.21.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.Taka.21.pokemon]]
 internal_name = "MABOSSTIFF"
@@ -676,14 +523,6 @@ raw_moves = [
 nature = "ADAMANT"
 iv = 30
 
-[trainers.Taka.21.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.Taka.21.pokemon]]
 internal_name = "CHATOT"
 level = 45
@@ -696,14 +535,6 @@ raw_moves = [
 ]
 nature = "TIMID"
 iv = 31
-
-[trainers.Taka.21.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.Taka.22]
 raw_trainer_class = "Taka"
@@ -726,14 +557,6 @@ raw_moves = [
 nature = "ADAMANT"
 iv = 30
 
-[trainers.Taka.22.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.Taka.22.pokemon]]
 internal_name = "CHATOT"
 level = 26
@@ -746,14 +569,6 @@ raw_moves = [
 ]
 nature = "SERIOUS"
 iv = 5
-
-[trainers.Taka.22.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.Taka.22.pokemon]]
 internal_name = "TANGROWTH"
@@ -770,19 +585,10 @@ nature = "CALM"
 iv = 31
 happiness = 0
 
-[trainers.Taka.22.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [trainers.Taka.23]
 raw_trainer_class = "Taka"
 battler_name = "Taka"
 battler_id = 23
-raw_battle_items = []
 
 [[trainers.Taka.23.pokemon]]
 internal_name = "KLEFKI"
@@ -798,11 +604,7 @@ nature = "BOLD"
 iv = 31
 
 [trainers.Taka.23.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 252
 
 [[trainers.Taka.23.pokemon]]
@@ -820,12 +622,9 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.Taka.23.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.Taka.23.pokemon]]
 internal_name = "SNORLAX"
@@ -843,11 +642,8 @@ iv = 31
 happiness = 255
 
 [trainers.Taka.23.pokemon.evs]
-hp = 0
 atk = 12
 def_ = 252
-spa = 0
-spd = 0
 spe = 244
 
 [[trainers.Taka.23.pokemon]]
@@ -865,11 +661,7 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.Taka.23.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 4
 
 [[trainers.Taka.23.pokemon]]
@@ -886,12 +678,9 @@ nature = "NAIVE"
 iv = 31
 
 [trainers.Taka.23.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 108
 spd = 148
-spe = 0
 
 [[trainers.Taka.23.pokemon]]
 internal_name = "CHATOT"
@@ -907,12 +696,9 @@ nature = "TIMID"
 iv = 31
 
 [trainers.Taka.23.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [trainers.Taka.24]
 raw_trainer_class = "Taka"
@@ -937,11 +723,7 @@ nature = "BOLD"
 iv = 31
 
 [trainers.Taka.24.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 252
 
 [[trainers.Taka.24.pokemon]]
@@ -959,11 +741,7 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.Taka.24.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 4
 
 [[trainers.Taka.24.pokemon]]
@@ -981,12 +759,9 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.Taka.24.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.Taka.24.pokemon]]
 internal_name = "SNORLAX"
@@ -1004,11 +779,8 @@ iv = 31
 happiness = 255
 
 [trainers.Taka.24.pokemon.evs]
-hp = 0
 atk = 12
 def_ = 252
-spa = 0
-spd = 0
 spe = 244
 
 [[trainers.Taka.24.pokemon]]
@@ -1025,12 +797,9 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.Taka.24.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.Taka.24.pokemon]]
 internal_name = "CHATOT"
@@ -1046,17 +815,13 @@ nature = "TIMID"
 iv = 31
 
 [trainers.Taka.24.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [trainers.Taka2.0]
 raw_trainer_class = "Taka2"
 battler_name = "Taka"
-raw_battle_items = []
 
 [[trainers.Taka2.0.pokemon]]
 internal_name = "CHATOT"
@@ -1071,12 +836,9 @@ nature = "TIMID"
 iv = 31
 
 [trainers.Taka2.0.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.Taka2.0.pokemon]]
 internal_name = "EXEGGUTOR"
@@ -1093,10 +855,7 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.Taka2.0.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 4
 spe = 252
 
@@ -1114,11 +873,7 @@ nature = "BOLD"
 iv = 31
 
 [trainers.Taka2.0.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 252
 
 [[trainers.Taka2.0.pokemon]]
@@ -1136,11 +891,7 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.Taka2.0.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 4
 
 [[trainers.Taka2.0.pokemon]]
@@ -1159,11 +910,7 @@ iv = 31
 happiness = 255
 
 [trainers.Taka2.0.pokemon.evs]
-hp = 0
 atk = 248
-def_ = 0
-spa = 0
-spd = 0
 spe = 8
 
 [[trainers.Taka2.0.pokemon]]
@@ -1180,18 +927,14 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.Taka2.0.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [trainers.Taka2.1]
 raw_trainer_class = "Taka2"
 battler_name = "Taka"
 battler_id = 1
-raw_battle_items = []
 
 [[trainers.Taka2.1.pokemon]]
 internal_name = "INFERNAPE"
@@ -1207,11 +950,8 @@ form_number = 1
 nature = "ADAMANT"
 
 [trainers.Taka2.1.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
-spa = 0
-spd = 0
 spe = 252
 
 [[trainers.Taka2.1.pokemon]]
@@ -1227,10 +967,7 @@ raw_moves = [
 nature = "MODEST"
 
 [trainers.Taka2.1.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 252
 spe = 4
 
@@ -1247,12 +984,9 @@ raw_moves = [
 nature = "MODEST"
 
 [trainers.Taka2.1.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.Taka2.1.pokemon]]
 internal_name = "KOMALA"
@@ -1269,11 +1003,8 @@ nature = "ADAMANT"
 happiness = 255
 
 [trainers.Taka2.1.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
 spe = 4
 
 [[trainers.Taka2.1.pokemon]]
@@ -1290,12 +1021,9 @@ form_number = 2
 nature = "JOLLY"
 
 [trainers.Taka2.1.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.Taka2.1.pokemon]]
 internal_name = "AEGISLASH"
@@ -1313,18 +1041,14 @@ nature = "SERIOUS"
 iv = 5
 
 [trainers.Taka2.1.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 128
-spa = 0
 spd = 128
-spe = 0
 
 [trainers.Taka2.10]
 raw_trainer_class = "Taka2"
 battler_name = "Taka"
 battler_id = 10
-raw_battle_items = []
 
 [[trainers.Taka2.10.pokemon]]
 internal_name = "STAKATAKA"
@@ -1342,12 +1066,8 @@ nature = "BRAVE"
 iv = 32
 
 [trainers.Taka2.10.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.Taka2.10.pokemon]]
 internal_name = "STAKATAKA"
@@ -1365,11 +1085,7 @@ nature = "SASSY"
 iv = 32
 
 [trainers.Taka2.10.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 4
 
 [[trainers.Taka2.10.pokemon]]
@@ -1388,12 +1104,8 @@ nature = "BRAVE"
 iv = 32
 
 [trainers.Taka2.10.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.Taka2.10.pokemon]]
 internal_name = "STAKATAKA"
@@ -1411,12 +1123,8 @@ nature = "BRAVE"
 iv = 32
 
 [trainers.Taka2.10.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.Taka2.10.pokemon]]
 internal_name = "STAKATAKA"
@@ -1434,11 +1142,7 @@ nature = "SASSY"
 iv = 32
 
 [trainers.Taka2.10.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 4
 
 [[trainers.Taka2.10.pokemon]]
@@ -1457,18 +1161,13 @@ nature = "BRAVE"
 iv = 32
 
 [trainers.Taka2.10.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.Taka2.11]
 raw_trainer_class = "Taka2"
 battler_name = "Taka"
 battler_id = 11
-raw_battle_items = []
 
 [[trainers.Taka2.11.pokemon]]
 internal_name = "MINIOR"
@@ -1487,12 +1186,8 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.Taka2.11.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.Taka2.11.pokemon]]
 internal_name = "AERODACTYL"
@@ -1510,12 +1205,9 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.Taka2.11.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.Taka2.11.pokemon]]
 internal_name = "VICTINI"
@@ -1532,12 +1224,9 @@ nature = "SERIOUS"
 iv = 31
 
 [trainers.Taka2.11.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 4
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.Taka2.11.pokemon]]
 internal_name = "TALONFLAME"
@@ -1554,12 +1243,8 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.Taka2.11.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.Taka2.11.pokemon]]
 internal_name = "HOOH"
@@ -1577,12 +1262,9 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.Taka2.11.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.Taka2.11.pokemon]]
 internal_name = "DELPHOX"
@@ -1600,18 +1282,13 @@ nature = "TIMID"
 iv = 31
 
 [trainers.Taka2.11.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [trainers.Taka2.12]
 raw_trainer_class = "Taka2"
 battler_name = "Taka"
 battler_id = 12
-raw_battle_items = []
 
 [[trainers.Taka2.12.pokemon]]
 internal_name = "AERODACTYL"
@@ -1629,12 +1306,9 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.Taka2.12.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.Taka2.12.pokemon]]
 internal_name = "HOOH"
@@ -1652,12 +1326,9 @@ nature = "NAIVE"
 iv = 31
 
 [trainers.Taka2.12.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 56
 spa = 252
 spd = 200
-spe = 0
 
 [[trainers.Taka2.12.pokemon]]
 internal_name = "GLISCOR"
@@ -1675,11 +1346,7 @@ nature = "CAREFUL"
 iv = 31
 
 [trainers.Taka2.12.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 200
 
 [[trainers.Taka2.12.pokemon]]
@@ -1697,12 +1364,8 @@ nature = "TIMID"
 iv = 31
 
 [trainers.Taka2.12.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.Taka2.12.pokemon]]
 internal_name = "CRADILY"
@@ -1720,11 +1383,7 @@ nature = "IMPISH"
 iv = 31
 
 [trainers.Taka2.12.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 56
 
 [[trainers.Taka2.12.pokemon]]
@@ -1743,18 +1402,13 @@ nature = "TIMID"
 iv = 31
 
 [trainers.Taka2.12.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [trainers.Taka2.13]
 raw_trainer_class = "Taka2"
 battler_name = "Taka"
 battler_id = 13
-raw_battle_items = []
 
 [[trainers.Taka2.13.pokemon]]
 internal_name = "RIBOMBEE"
@@ -1772,12 +1426,8 @@ nature = "TIMID"
 iv = 31
 
 [trainers.Taka2.13.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.Taka2.13.pokemon]]
 internal_name = "GARCHOMP"
@@ -1794,12 +1444,9 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.Taka2.13.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.Taka2.13.pokemon]]
 internal_name = "TYRANITAR"
@@ -1817,12 +1464,9 @@ nature = "BRAVE"
 iv = 31
 
 [trainers.Taka2.13.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.Taka2.13.pokemon]]
 internal_name = "AEGISLASH"
@@ -1839,12 +1483,8 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.Taka2.13.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.Taka2.13.pokemon]]
 internal_name = "LUCARIO"
@@ -1862,12 +1502,9 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.Taka2.13.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.Taka2.13.pokemon]]
 internal_name = "CHATOT"
@@ -1884,18 +1521,13 @@ nature = "TIMID"
 iv = 31
 
 [trainers.Taka2.13.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [trainers.Taka2.20]
 raw_trainer_class = "Taka2"
 battler_name = "Taka"
 battler_id = 20
-raw_battle_items = []
 
 [[trainers.Taka2.20.pokemon]]
 internal_name = "KLEFKI"
@@ -1911,11 +1543,7 @@ nature = "BOLD"
 iv = 31
 
 [trainers.Taka2.20.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 252
 
 [[trainers.Taka2.20.pokemon]]
@@ -1931,12 +1559,9 @@ nature = "TIMID"
 iv = 31
 
 [trainers.Taka2.20.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.Taka2.20.pokemon]]
 internal_name = "FLAPPLE"
@@ -1953,12 +1578,9 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.Taka2.20.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.Taka2.20.pokemon]]
 internal_name = "MABOSSTIFF"
@@ -1975,11 +1597,7 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.Taka2.20.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 4
 
 [[trainers.Taka2.20.pokemon]]
@@ -1998,11 +1616,8 @@ iv = 31
 happiness = 255
 
 [trainers.Taka2.20.pokemon.evs]
-hp = 0
 atk = 12
 def_ = 252
-spa = 0
-spd = 0
 spe = 244
 
 [[trainers.Taka2.20.pokemon]]
@@ -2019,17 +1634,13 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.Taka2.20.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [trainers.UMBTAKA.0]
 raw_trainer_class = "UMBTAKA"
 battler_name = "Taka"
-raw_battle_items = []
 
 [[trainers.UMBTAKA.0.pokemon]]
 internal_name = "TAPUBULU"
@@ -2047,7 +1658,6 @@ iv = 31
 happiness = 255
 
 [trainers.UMBTAKA.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -2071,7 +1681,6 @@ iv = 31
 happiness = 255
 
 [trainers.UMBTAKA.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -2094,7 +1703,6 @@ iv = 31
 happiness = 255
 
 [trainers.UMBTAKA.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -2117,7 +1725,6 @@ iv = 31
 happiness = 255
 
 [trainers.UMBTAKA.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -2140,7 +1747,6 @@ iv = 31
 happiness = 255
 
 [trainers.UMBTAKA.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -2164,7 +1770,6 @@ iv = 31
 happiness = 255
 
 [trainers.UMBTAKA.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -2174,7 +1779,6 @@ spe = 252
 [trainers.ZTAKA2.0]
 raw_trainer_class = "ZTAKA2"
 battler_name = "Taka"
-raw_battle_items = []
 
 [[trainers.ZTAKA2.0.pokemon]]
 internal_name = "KOMALA"
@@ -2190,11 +1794,8 @@ iv = 31
 happiness = 255
 
 [trainers.ZTAKA2.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
 spe = 4
 
 [[trainers.ZTAKA2.0.pokemon]]
@@ -2213,10 +1814,7 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.ZTAKA2.0.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 4
 spe = 252
 
@@ -2234,11 +1832,7 @@ nature = "BOLD"
 iv = 31
 
 [trainers.ZTAKA2.0.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 252
 
 [[trainers.ZTAKA2.0.pokemon]]
@@ -2256,12 +1850,9 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.ZTAKA2.0.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.ZTAKA2.0.pokemon]]
 internal_name = "MINIOR"
@@ -2278,12 +1869,9 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.ZTAKA2.0.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.ZTAKA2.0.pokemon]]
 internal_name = "CHATOT"
@@ -2299,18 +1887,14 @@ nature = "MODEST"
 iv = 31
 
 [trainers.ZTAKA2.0.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [trainers.ZTAKA2.10]
 raw_trainer_class = "ZTAKA2"
 battler_name = "Taka"
 battler_id = 10
-raw_battle_items = []
 
 [[trainers.ZTAKA2.10.pokemon]]
 internal_name = "STAKATAKA"
@@ -2328,12 +1912,8 @@ nature = "BRAVE"
 iv = 32
 
 [trainers.ZTAKA2.10.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.ZTAKA2.10.pokemon]]
 internal_name = "STAKATAKA"
@@ -2351,11 +1931,7 @@ nature = "SASSY"
 iv = 32
 
 [trainers.ZTAKA2.10.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 4
 
 [[trainers.ZTAKA2.10.pokemon]]
@@ -2374,12 +1950,8 @@ nature = "BRAVE"
 iv = 32
 
 [trainers.ZTAKA2.10.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.ZTAKA2.10.pokemon]]
 internal_name = "STAKATAKA"
@@ -2397,12 +1969,8 @@ nature = "BRAVE"
 iv = 32
 
 [trainers.ZTAKA2.10.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.ZTAKA2.10.pokemon]]
 internal_name = "STAKATAKA"
@@ -2420,11 +1988,7 @@ nature = "SASSY"
 iv = 32
 
 [trainers.ZTAKA2.10.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 4
 
 [[trainers.ZTAKA2.10.pokemon]]
@@ -2443,18 +2007,13 @@ nature = "BRAVE"
 iv = 32
 
 [trainers.ZTAKA2.10.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.ZTAKA2.11]
 raw_trainer_class = "ZTAKA2"
 battler_name = "Taka"
 battler_id = 11
-raw_battle_items = []
 
 [[trainers.ZTAKA2.11.pokemon]]
 internal_name = "MINIOR"
@@ -2473,12 +2032,8 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.ZTAKA2.11.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.ZTAKA2.11.pokemon]]
 internal_name = "AERODACTYL"
@@ -2496,12 +2051,9 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.ZTAKA2.11.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.ZTAKA2.11.pokemon]]
 internal_name = "VICTINI"
@@ -2518,12 +2070,9 @@ nature = "SERIOUS"
 iv = 31
 
 [trainers.ZTAKA2.11.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 4
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.ZTAKA2.11.pokemon]]
 internal_name = "TALONFLAME"
@@ -2540,12 +2089,8 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.ZTAKA2.11.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.ZTAKA2.11.pokemon]]
 internal_name = "HOOH"
@@ -2563,12 +2108,9 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.ZTAKA2.11.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.ZTAKA2.11.pokemon]]
 internal_name = "DELPHOX"
@@ -2586,18 +2128,13 @@ nature = "TIMID"
 iv = 31
 
 [trainers.ZTAKA2.11.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [trainers.ZTAKA2.12]
 raw_trainer_class = "ZTAKA2"
 battler_name = "Taka"
 battler_id = 12
-raw_battle_items = []
 
 [[trainers.ZTAKA2.12.pokemon]]
 internal_name = "AERODACTYL"
@@ -2615,12 +2152,9 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.ZTAKA2.12.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.ZTAKA2.12.pokemon]]
 internal_name = "HOOH"
@@ -2638,12 +2172,9 @@ nature = "NAIVE"
 iv = 31
 
 [trainers.ZTAKA2.12.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 56
 spa = 252
 spd = 200
-spe = 0
 
 [[trainers.ZTAKA2.12.pokemon]]
 internal_name = "GLISCOR"
@@ -2661,11 +2192,7 @@ nature = "CAREFUL"
 iv = 31
 
 [trainers.ZTAKA2.12.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 200
 
 [[trainers.ZTAKA2.12.pokemon]]
@@ -2683,12 +2210,8 @@ nature = "TIMID"
 iv = 31
 
 [trainers.ZTAKA2.12.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.ZTAKA2.12.pokemon]]
 internal_name = "CRADILY"
@@ -2706,11 +2229,7 @@ nature = "IMPISH"
 iv = 31
 
 [trainers.ZTAKA2.12.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 56
 
 [[trainers.ZTAKA2.12.pokemon]]
@@ -2729,18 +2248,13 @@ nature = "TIMID"
 iv = 31
 
 [trainers.ZTAKA2.12.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [trainers.ZTAKA2.13]
 raw_trainer_class = "ZTAKA2"
 battler_name = "Taka"
 battler_id = 13
-raw_battle_items = []
 
 [[trainers.ZTAKA2.13.pokemon]]
 internal_name = "RIBOMBEE"
@@ -2758,12 +2272,8 @@ nature = "TIMID"
 iv = 31
 
 [trainers.ZTAKA2.13.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.ZTAKA2.13.pokemon]]
 internal_name = "GARCHOMP"
@@ -2780,12 +2290,9 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.ZTAKA2.13.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.ZTAKA2.13.pokemon]]
 internal_name = "TYRANITAR"
@@ -2803,12 +2310,9 @@ nature = "BRAVE"
 iv = 31
 
 [trainers.ZTAKA2.13.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.ZTAKA2.13.pokemon]]
 internal_name = "AEGISLASH"
@@ -2825,12 +2329,8 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.ZTAKA2.13.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.ZTAKA2.13.pokemon]]
 internal_name = "LUCARIO"
@@ -2848,12 +2348,9 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.ZTAKA2.13.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.ZTAKA2.13.pokemon]]
 internal_name = "CHATOT"
@@ -2870,9 +2367,5 @@ nature = "TIMID"
 iv = 31
 
 [trainers.ZTAKA2.13.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0

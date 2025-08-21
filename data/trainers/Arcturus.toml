@@ -3,26 +3,14 @@ trainer_name = "Arcturus"
 [trainers.Cultist.0]
 raw_trainer_class = "Cultist"
 battler_name = "Arcturus"
-raw_battle_items = []
-
-[[trainers.Cultist.0.pokemon]]
-internal_name = "DRAMPA"
-level = 62
-iv = 0
-
-[trainers.Cultist.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
+pokemon = [
+    { internal_name = "DRAMPA", level = 62, iv = 0 },
+]
 
 [trainers.Cultist.1]
 raw_trainer_class = "Cultist"
 battler_name = "Arcturus"
 battler_id = 1
-raw_battle_items = []
 
 [[trainers.Cultist.1.pokemon]]
 internal_name = "LANTURN"
@@ -40,10 +28,7 @@ nature = "MODEST"
 iv = 31
 
 [trainers.Cultist.1.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 252
 spe = 4
 
@@ -62,9 +47,6 @@ nature = "TIMID"
 iv = 31
 
 [trainers.Cultist.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
 spe = 4
@@ -84,10 +66,7 @@ nature = "MODEST"
 iv = 31
 
 [trainers.Cultist.1.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 252
 spe = 4
 
@@ -107,10 +86,7 @@ nature = "MODEST"
 iv = 31
 
 [trainers.Cultist.1.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 252
 spe = 4
 
@@ -129,12 +105,8 @@ nature = "MODEST"
 iv = 31
 
 [trainers.Cultist.1.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 252
-spe = 0
 
 [[trainers.Cultist.1.pokemon]]
 internal_name = "ALTARIA"
@@ -152,17 +124,13 @@ nature = "SERIOUS"
 iv = 31
 
 [trainers.Cultist.1.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 4
 spa = 252
-spd = 0
-spe = 0
 
 [trainers.NWCultist.0]
 raw_trainer_class = "NWCultist"
 battler_name = "Arcturus"
-raw_battle_items = []
 
 [[trainers.NWCultist.0.pokemon]]
 internal_name = "VAPOREON"
@@ -175,14 +143,6 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.NWCultist.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.NWCultist.0.pokemon]]
 internal_name = "JOLTEON"
 level = 73
@@ -193,14 +153,6 @@ raw_moves = [
     "VOLTSWITCH",
 ]
 iv = 0
-
-[trainers.NWCultist.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.NWCultist.0.pokemon]]
 internal_name = "DRAMPA"
@@ -213,19 +165,10 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.NWCultist.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [trainers.NWCultist.1]
 raw_trainer_class = "NWCultist"
 battler_name = "Arcturus"
 battler_id = 1
-raw_battle_items = []
 
 [[trainers.NWCultist.1.pokemon]]
 internal_name = "VAPOREON"
@@ -238,14 +181,6 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.NWCultist.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.NWCultist.1.pokemon]]
 internal_name = "JOLTEON"
 level = 80
@@ -256,14 +191,6 @@ raw_moves = [
     "VOLTSWITCH",
 ]
 iv = 0
-
-[trainers.NWCultist.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.NWCultist.1.pokemon]]
 internal_name = "LANTURN"
@@ -276,14 +203,6 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.NWCultist.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.NWCultist.1.pokemon]]
 internal_name = "DRAMPA"
 level = 82
@@ -295,19 +214,10 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.NWCultist.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [trainers.NWCultist.2]
 raw_trainer_class = "NWCultist"
 battler_name = "Arcturus"
 battler_id = 2
-raw_battle_items = []
 
 [[trainers.NWCultist.2.pokemon]]
 internal_name = "LANTURN"
@@ -325,7 +235,6 @@ nature = "MODEST"
 iv = 0
 
 [trainers.NWCultist.2.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -347,7 +256,6 @@ nature = "TIMID"
 iv = 0
 
 [trainers.NWCultist.2.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -369,7 +277,6 @@ nature = "MODEST"
 iv = 0
 
 [trainers.NWCultist.2.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -392,7 +299,6 @@ nature = "MODEST"
 iv = 0
 
 [trainers.NWCultist.2.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -414,7 +320,6 @@ nature = "MODEST"
 iv = 0
 
 [trainers.NWCultist.2.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -425,7 +330,6 @@ spe = 252
 raw_trainer_class = "NWCultist"
 battler_name = "Arcturus"
 battler_id = 3
-raw_battle_items = []
 
 [[trainers.NWCultist.3.pokemon]]
 internal_name = "LANTURN"
@@ -443,7 +347,6 @@ nature = "MODEST"
 iv = 0
 
 [trainers.NWCultist.3.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -465,7 +368,6 @@ nature = "MODEST"
 iv = 0
 
 [trainers.NWCultist.3.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -487,7 +389,6 @@ nature = "MODEST"
 iv = 0
 
 [trainers.NWCultist.3.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -509,7 +410,6 @@ nature = "MODEST"
 iv = 0
 
 [trainers.NWCultist.3.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252

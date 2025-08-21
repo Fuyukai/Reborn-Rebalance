@@ -3,48 +3,21 @@ trainer_name = "Ray"
 [trainers.MeteorGrunt.0]
 raw_trainer_class = "MeteorGrunt"
 battler_name = "Ray"
-raw_battle_items = []
-
-[[trainers.MeteorGrunt.0.pokemon]]
-internal_name = "RATTATA"
-level = 12
-sex = ""
-form_number = 1
-iv = 0
-
-[trainers.MeteorGrunt.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
+pokemon = [
+    { internal_name = "RATTATA", level = 12, sex = "", form_number = 1, iv = 0 },
+]
 
 [trainers.MeteorGrunt.1]
 raw_trainer_class = "MeteorGrunt"
 battler_name = "Ray"
+pokemon = [
+    { internal_name = "RATICATE", level = 31, sex = "", form_number = 1, iv = 0 },
+]
 battler_id = 1
-raw_battle_items = []
-
-[[trainers.MeteorGrunt.1.pokemon]]
-internal_name = "RATICATE"
-level = 31
-sex = ""
-form_number = 1
-iv = 0
-
-[trainers.MeteorGrunt.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.MeteorAceM.0]
 raw_trainer_class = "MeteorAceM"
 battler_name = "Ray"
-raw_battle_items = []
 
 [[trainers.MeteorAceM.0.pokemon]]
 internal_name = "RATICATE"
@@ -60,14 +33,6 @@ sex = ""
 form_number = 1
 iv = 0
 
-[trainers.MeteorAceM.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.MeteorAceM.0.pokemon]]
 internal_name = "GOGOAT"
 level = 69
@@ -78,14 +43,6 @@ raw_moves = [
     "MILKDRINK",
 ]
 iv = 0
-
-[trainers.MeteorAceM.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.MeteorAceM.0.pokemon]]
 internal_name = "BIBAREL"
@@ -99,19 +56,10 @@ raw_moves = [
 ability_number = 2
 iv = 0
 
-[trainers.MeteorAceM.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [trainers.MeteorAceM.1]
 raw_trainer_class = "MeteorAceM"
 battler_name = "Ray"
 battler_id = 1
-raw_battle_items = []
 
 [[trainers.MeteorAceM.1.pokemon]]
 internal_name = "RATICATE"
@@ -127,14 +75,6 @@ sex = ""
 form_number = 1
 iv = 0
 
-[trainers.MeteorAceM.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.MeteorAceM.1.pokemon]]
 internal_name = "GOGOAT"
 level = 81
@@ -145,14 +85,6 @@ raw_moves = [
     "MILKDRINK",
 ]
 iv = 0
-
-[trainers.MeteorAceM.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.MeteorAceM.1.pokemon]]
 internal_name = "BIBAREL"
@@ -166,14 +98,6 @@ raw_moves = [
 ability_number = 2
 iv = 0
 
-[trainers.MeteorAceM.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.MeteorAceM.1.pokemon]]
 internal_name = "RHYPERIOR"
 level = 81
@@ -184,11 +108,3 @@ raw_moves = [
     "POISONJAB",
 ]
 iv = 0
-
-[trainers.MeteorAceM.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0

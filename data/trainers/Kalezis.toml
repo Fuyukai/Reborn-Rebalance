@@ -3,7 +3,6 @@ trainer_name = "Kalezis"
 [trainers.KNIGHT.0]
 raw_trainer_class = "KNIGHT"
 battler_name = "Kalezis"
-raw_battle_items = []
 
 [[trainers.KNIGHT.0.pokemon]]
 internal_name = "KOMMOO"
@@ -21,12 +20,9 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.KNIGHT.0.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.KNIGHT.0.pokemon]]
 internal_name = "KLINKLANG"
@@ -45,11 +41,8 @@ iv = 31
 happiness = 255
 
 [trainers.KNIGHT.0.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
 spe = 4
 
 [[trainers.KNIGHT.0.pokemon]]
@@ -68,9 +61,6 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.KNIGHT.0.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0

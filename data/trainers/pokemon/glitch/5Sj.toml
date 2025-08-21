@@ -3,7 +3,6 @@ trainer_name = "5Sj"
 [trainers.GLITCH1.0]
 raw_trainer_class = "GLITCH1"
 battler_name = "5Sj"
-raw_battle_items = []
 
 [[trainers.GLITCH1.0.pokemon]]
 internal_name = "ROSERADE"
@@ -20,11 +19,7 @@ nature = "TIMID"
 iv = 31
 
 [trainers.GLITCH1.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
-spd = 0
 spe = 4
 
 [[trainers.GLITCH1.0.pokemon]]
@@ -43,11 +38,8 @@ nature = "CALM"
 iv = 31
 
 [trainers.GLITCH1.0.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
 spa = 4
-spd = 0
 spe = 252
 
 [[trainers.GLITCH1.0.pokemon]]
@@ -65,9 +57,5 @@ nature = "CAREFUL"
 iv = 31
 
 [trainers.GLITCH1.0.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 4

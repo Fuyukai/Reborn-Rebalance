@@ -3,177 +3,45 @@ trainer_name = "Gibson"
 [trainers.Casanova.3]
 raw_trainer_class = "Casanova"
 battler_name = "Gibson"
+pokemon = [
+    { internal_name = "KABUTO", level = 14, iv = 0 },
+]
 battler_id = 3
-raw_battle_items = []
-
-[[trainers.Casanova.3.pokemon]]
-internal_name = "KABUTO"
-level = 14
-iv = 0
-
-[trainers.Casanova.3.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.Casanova.0]
 raw_trainer_class = "Casanova"
 battler_name = "Gibson"
-raw_battle_items = []
-
-[[trainers.Casanova.0.pokemon]]
-internal_name = "CRANIDOS"
-level = 37
-iv = 0
-
-[trainers.Casanova.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.Casanova.0.pokemon]]
-internal_name = "SAWK"
-level = 37
-ability_number = 1
-iv = 0
-
-[trainers.Casanova.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.Casanova.0.pokemon]]
-internal_name = "KABUTO"
-level = 37
-iv = 0
-
-[trainers.Casanova.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
+pokemon = [
+    { internal_name = "CRANIDOS", level = 37, iv = 0 },
+    { internal_name = "SAWK", level = 37, ability_number = 1, iv = 0 },
+    { internal_name = "KABUTO", level = 37, iv = 0 },
+]
 
 [trainers.Casanova.1]
 raw_trainer_class = "Casanova"
 battler_name = "Gibson"
+pokemon = [
+    { internal_name = "RAMPARDOS", level = 50, iv = 0 },
+    { internal_name = "SAWK", level = 50, ability_number = 1, iv = 0 },
+    { internal_name = "KABUTOPS", level = 50, iv = 0 },
+]
 battler_id = 1
-raw_battle_items = []
-
-[[trainers.Casanova.1.pokemon]]
-internal_name = "RAMPARDOS"
-level = 50
-iv = 0
-
-[trainers.Casanova.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.Casanova.1.pokemon]]
-internal_name = "SAWK"
-level = 50
-ability_number = 1
-iv = 0
-
-[trainers.Casanova.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.Casanova.1.pokemon]]
-internal_name = "KABUTOPS"
-level = 50
-iv = 0
-
-[trainers.Casanova.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.Casanova.2]
 raw_trainer_class = "Casanova"
 battler_name = "Gibson"
+pokemon = [
+    { internal_name = "BASTIODON", level = 59, iv = 0 },
+    { internal_name = "RAMPARDOS", level = 60, iv = 0 },
+    { internal_name = "SAWK", level = 60, ability_number = 1, iv = 0 },
+    { internal_name = "KABUTOPS", level = 60, iv = 0 },
+]
 battler_id = 2
-raw_battle_items = []
-
-[[trainers.Casanova.2.pokemon]]
-internal_name = "BASTIODON"
-level = 59
-iv = 0
-
-[trainers.Casanova.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.Casanova.2.pokemon]]
-internal_name = "RAMPARDOS"
-level = 60
-iv = 0
-
-[trainers.Casanova.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.Casanova.2.pokemon]]
-internal_name = "SAWK"
-level = 60
-ability_number = 1
-iv = 0
-
-[trainers.Casanova.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.Casanova.2.pokemon]]
-internal_name = "KABUTOPS"
-level = 60
-iv = 0
-
-[trainers.Casanova.2.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.Casanova.4]
 raw_trainer_class = "Casanova"
 battler_name = "Gibson"
 battler_id = 4
-raw_battle_items = []
 
 [[trainers.Casanova.4.pokemon]]
 internal_name = "BASTIODON"
@@ -186,14 +54,6 @@ raw_moves = [
     "STONEEDGE",
 ]
 iv = 0
-
-[trainers.Casanova.4.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.Casanova.4.pokemon]]
 internal_name = "RAMPARDOS"
@@ -208,14 +68,6 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.Casanova.4.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.Casanova.4.pokemon]]
 internal_name = "SAWK"
 level = 85
@@ -229,14 +81,6 @@ raw_moves = [
 ability_number = 1
 iv = 0
 
-[trainers.Casanova.4.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.Casanova.4.pokemon]]
 internal_name = "AURORUS"
 level = 85
@@ -248,14 +92,6 @@ raw_moves = [
     "EARTHPOWER",
 ]
 iv = 0
-
-[trainers.Casanova.4.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.Casanova.4.pokemon]]
 internal_name = "KABUTOPS"
@@ -270,56 +106,12 @@ raw_moves = [
 ability_number = 2
 iv = 0
 
-[trainers.Casanova.4.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [trainers.Casanova.5]
 raw_trainer_class = "Casanova"
 battler_name = "Gibson"
+pokemon = [
+    { internal_name = "CRANIDOS", level = 20, iv = 0 },
+    { internal_name = "SAWK", level = 20, ability_number = 1, iv = 0 },
+    { internal_name = "KABUTO", level = 22, iv = 0 },
+]
 battler_id = 5
-raw_battle_items = []
-
-[[trainers.Casanova.5.pokemon]]
-internal_name = "CRANIDOS"
-level = 20
-iv = 0
-
-[trainers.Casanova.5.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.Casanova.5.pokemon]]
-internal_name = "SAWK"
-level = 20
-ability_number = 1
-iv = 0
-
-[trainers.Casanova.5.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.Casanova.5.pokemon]]
-internal_name = "KABUTO"
-level = 22
-iv = 0
-
-[trainers.Casanova.5.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0

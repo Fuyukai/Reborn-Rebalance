@@ -24,14 +24,6 @@ sex = "F"
 nature = "ADAMANT"
 iv = 31
 
-[trainers.NOEL.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.NOEL.0.pokemon]]
 internal_name = "PORYGONZ"
 level = 54
@@ -47,14 +39,6 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.NOEL.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.NOEL.0.pokemon]]
 internal_name = "BEWEAR"
 level = 54
@@ -69,14 +53,6 @@ nature = "ADAMANT"
 iv = 31
 happiness = 255
 
-[trainers.NOEL.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.NOEL.0.pokemon]]
 internal_name = "GIRAFARIG"
 level = 54
@@ -87,17 +63,8 @@ raw_moves = [
     "THUNDERWAVE",
     "HIDDENPOWERFIR",
 ]
-ability_number = 0
 nature = "TIMID"
 iv = 31
-
-[trainers.NOEL.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.NOEL.0.pokemon]]
 internal_name = "SWELLOW"
@@ -111,14 +78,6 @@ raw_moves = [
 ]
 nature = "JOLLY"
 iv = 31
-
-[trainers.NOEL.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.NOEL.0.pokemon]]
 internal_name = "CLEFABLE"
@@ -135,10 +94,7 @@ nature = "CALM"
 iv = 31
 
 [trainers.NOEL.0.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 52
 spe = 204
 
@@ -166,18 +122,9 @@ ability_number = 1
 nature = "JOLLY"
 iv = 31
 
-[trainers.NOEL.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.NOEL.20.pokemon]]
 internal_name = "CINCCINO"
 level = 55
-# dont let it kill itself via tail-slap
 raw_item = "PROTECTIVEPADS"
 raw_moves = [
     "TAILSLAP",
@@ -189,14 +136,6 @@ ability_number = 2
 sex = "F"
 nature = "ADAMANT"
 iv = 31
-
-[trainers.NOEL.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.NOEL.20.pokemon]]
 internal_name = "PORYGONZ"
@@ -213,14 +152,6 @@ sex = ""
 nature = "TIMID"
 iv = 31
 
-[trainers.NOEL.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.NOEL.20.pokemon]]
 internal_name = "DUBWOOL"
 level = 54
@@ -235,14 +166,6 @@ nature = "ADAMANT"
 iv = 31
 happiness = 255
 
-[trainers.NOEL.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.NOEL.20.pokemon]]
 internal_name = "FARIGIRAF"
 level = 54
@@ -256,14 +179,6 @@ raw_moves = [
 ability_number = 2
 nature = "MODEST"
 iv = 31
-
-[trainers.NOEL.20.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.NOEL.20.pokemon]]
 internal_name = "CLEFABLE"
@@ -280,10 +195,7 @@ nature = "CALM"
 iv = 31
 
 [trainers.NOEL.20.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 52
 spe = 204
 
@@ -291,7 +203,6 @@ spe = 204
 raw_trainer_class = "NOEL2"
 battler_name = "Noel"
 battler_id = 1
-raw_battle_items = []
 
 [[trainers.NOEL2.1.pokemon]]
 internal_name = "PURUGLY"
@@ -309,10 +220,7 @@ nature = "TIMID"
 iv = 15
 
 [trainers.NOEL2.1.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
-spa = 0
 spd = 252
 spe = 128
 
@@ -331,10 +239,7 @@ nature = "MODEST"
 iv = 15
 
 [trainers.NOEL2.1.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 252
 spe = 4
 
@@ -354,12 +259,9 @@ nature = "TIMID"
 iv = 15
 
 [trainers.NOEL2.1.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.NOEL2.1.pokemon]]
 internal_name = "MELOETTA"
@@ -377,12 +279,9 @@ nature = "ADAMANT"
 iv = 15
 
 [trainers.NOEL2.1.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.NOEL2.1.pokemon]]
 internal_name = "AUDINO"
@@ -400,10 +299,7 @@ nature = "MODEST"
 iv = 15
 
 [trainers.NOEL2.1.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 252
 spe = 4
 
@@ -422,18 +318,13 @@ nature = "BOLD"
 iv = 15
 
 [trainers.NOEL2.1.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 252
-spe = 0
 
 [trainers.NOEL2.10]
 raw_trainer_class = "NOEL2"
 battler_name = "Noel"
 battler_id = 10
-raw_battle_items = []
 
 [[trainers.NOEL2.10.pokemon]]
 internal_name = "PYROAR"
@@ -450,12 +341,8 @@ nature = "TIMID"
 iv = 31
 
 [trainers.NOEL2.10.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.NOEL2.10.pokemon]]
 internal_name = "PORYGONZ"
@@ -472,12 +359,8 @@ nature = "TIMID"
 iv = 31
 
 [trainers.NOEL2.10.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.NOEL2.10.pokemon]]
 internal_name = "CHANSEY"
@@ -494,11 +377,7 @@ nature = "BOLD"
 iv = 31
 
 [trainers.NOEL2.10.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
-spa = 0
-spd = 0
 spe = 252
 
 [[trainers.NOEL2.10.pokemon]]
@@ -516,12 +395,8 @@ nature = "TIMID"
 iv = 31
 
 [trainers.NOEL2.10.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.NOEL2.10.pokemon]]
 internal_name = "MELOETTA"
@@ -538,12 +413,8 @@ nature = "MODEST"
 iv = 31
 
 [trainers.NOEL2.10.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.NOEL2.10.pokemon]]
 internal_name = "HELIOLISK"
@@ -561,9 +432,6 @@ nature = "TIMID"
 iv = 31
 
 [trainers.NOEL2.10.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
 spe = 4
@@ -572,7 +440,6 @@ spe = 4
 raw_trainer_class = "NOEL2"
 battler_name = "Noel"
 battler_id = 11
-raw_battle_items = []
 
 [[trainers.NOEL2.11.pokemon]]
 internal_name = "PORYGONZ"
@@ -589,12 +456,8 @@ nature = "TIMID"
 iv = 31
 
 [trainers.NOEL2.11.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.NOEL2.11.pokemon]]
 internal_name = "CHANSEY"
@@ -611,11 +474,7 @@ nature = "BOLD"
 iv = 31
 
 [trainers.NOEL2.11.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
-spa = 0
-spd = 0
 spe = 252
 
 [[trainers.NOEL2.11.pokemon]]
@@ -633,12 +492,8 @@ nature = "TIMID"
 iv = 31
 
 [trainers.NOEL2.11.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.NOEL2.11.pokemon]]
 internal_name = "MELOETTA"
@@ -655,12 +510,8 @@ nature = "MODEST"
 iv = 31
 
 [trainers.NOEL2.11.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.NOEL2.11.pokemon]]
 internal_name = "PYROAR"
@@ -677,12 +528,8 @@ nature = "TIMID"
 iv = 31
 
 [trainers.NOEL2.11.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.NOEL2.11.pokemon]]
 internal_name = "CLEFABLE"
@@ -700,18 +547,13 @@ nature = "BOLD"
 iv = 31
 
 [trainers.NOEL2.11.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
-spa = 0
-spd = 0
 spe = 252
 
 [trainers.NOEL2.12]
 raw_trainer_class = "NOEL2"
 battler_name = "Noel"
 battler_id = 12
-raw_battle_items = []
 
 [[trainers.NOEL2.12.pokemon]]
 internal_name = "CINCCINO"
@@ -729,12 +571,8 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.NOEL2.12.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.NOEL2.12.pokemon]]
 internal_name = "REGIGIGAS"
@@ -751,12 +589,8 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.NOEL2.12.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.NOEL2.12.pokemon]]
 internal_name = "MELOETTA"
@@ -773,12 +607,8 @@ nature = "MODEST"
 iv = 31
 
 [trainers.NOEL2.12.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.NOEL2.12.pokemon]]
 internal_name = "BEWEAR"
@@ -795,12 +625,8 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.NOEL2.12.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.NOEL2.12.pokemon]]
 internal_name = "STARAPTOR"
@@ -818,12 +644,8 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.NOEL2.12.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.NOEL2.12.pokemon]]
 internal_name = "LOPUNNY"
@@ -840,18 +662,13 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.NOEL2.12.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [trainers.NOEL2.13]
 raw_trainer_class = "NOEL2"
 battler_name = "Noel"
 battler_id = 13
-raw_battle_items = []
 
 [[trainers.NOEL2.13.pokemon]]
 internal_name = "STARAPTOR"
@@ -869,12 +686,8 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.NOEL2.13.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.NOEL2.13.pokemon]]
 internal_name = "LOPUNNY"
@@ -891,12 +704,8 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.NOEL2.13.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.NOEL2.13.pokemon]]
 internal_name = "CINCCINO"
@@ -914,12 +723,8 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.NOEL2.13.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.NOEL2.13.pokemon]]
 internal_name = "DODRIO"
@@ -936,12 +741,8 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.NOEL2.13.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.NOEL2.13.pokemon]]
 internal_name = "SAWSBUCK"
@@ -958,12 +759,8 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.NOEL2.13.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.NOEL2.13.pokemon]]
 internal_name = "SWELLOW"
@@ -981,18 +778,13 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.NOEL2.13.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [trainers.NOEL2.14]
 raw_trainer_class = "NOEL2"
 battler_name = "Noel"
 battler_id = 14
-raw_battle_items = []
 
 [[trainers.NOEL2.14.pokemon]]
 internal_name = "SMEARGLE"
@@ -1009,12 +801,8 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.NOEL2.14.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.NOEL2.14.pokemon]]
 internal_name = "SLAKING"
@@ -1031,12 +819,8 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.NOEL2.14.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.NOEL2.14.pokemon]]
 internal_name = "REGIGIGAS"
@@ -1053,12 +837,8 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.NOEL2.14.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.NOEL2.14.pokemon]]
 internal_name = "PORYGONZ"
@@ -1075,12 +855,8 @@ nature = "TIMID"
 iv = 31
 
 [trainers.NOEL2.14.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.NOEL2.14.pokemon]]
 internal_name = "LOPUNNY"
@@ -1097,12 +873,8 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.NOEL2.14.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.NOEL2.14.pokemon]]
 internal_name = "PYROAR"
@@ -1120,18 +892,13 @@ nature = "TIMID"
 iv = 31
 
 [trainers.NOEL2.14.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [trainers.NOEL2.15]
 raw_trainer_class = "NOEL2"
 battler_name = "Noel"
 battler_id = 15
-raw_battle_items = []
 
 [[trainers.NOEL2.15.pokemon]]
 internal_name = "PORYGONZ"
@@ -1148,12 +915,8 @@ nature = "TIMID"
 iv = 31
 
 [trainers.NOEL2.15.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.NOEL2.15.pokemon]]
 internal_name = "DRAMPA"
@@ -1171,12 +934,8 @@ nature = "MODEST"
 iv = 31
 
 [trainers.NOEL2.15.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
 spd = 252
-spe = 0
 
 [[trainers.NOEL2.15.pokemon]]
 internal_name = "MELOETTA"
@@ -1193,12 +952,8 @@ nature = "MODEST"
 iv = 31
 
 [trainers.NOEL2.15.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.NOEL2.15.pokemon]]
 internal_name = "BLISSEY"
@@ -1215,10 +970,6 @@ nature = "BOLD"
 iv = 31
 
 [trainers.NOEL2.15.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
 spd = 4
 spe = 252
 
@@ -1237,11 +988,7 @@ nature = "BOLD"
 iv = 31
 
 [trainers.NOEL2.15.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
-spa = 0
-spd = 0
 spe = 252
 
 [[trainers.NOEL2.15.pokemon]]
@@ -1260,17 +1007,12 @@ nature = "BOLD"
 iv = 31
 
 [trainers.NOEL2.15.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
-spa = 0
-spd = 0
 spe = 252
 
 [trainers.UMBNOEL.0]
 raw_trainer_class = "UMBNOEL"
 battler_name = "Noel"
-raw_battle_items = []
 
 [[trainers.UMBNOEL.0.pokemon]]
 internal_name = "RIBOMBEE"
@@ -1288,7 +1030,6 @@ nature = "TIMID"
 iv = 31
 
 [trainers.UMBNOEL.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -1311,7 +1052,6 @@ nature = "TIMID"
 iv = 31
 
 [trainers.UMBNOEL.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -1333,7 +1073,6 @@ nature = "TIMID"
 iv = 31
 
 [trainers.UMBNOEL.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -1355,7 +1094,6 @@ nature = "TIMID"
 iv = 31
 
 [trainers.UMBNOEL.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -1378,7 +1116,6 @@ nature = "CALM"
 iv = 31
 
 [trainers.UMBNOEL.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252
@@ -1401,7 +1138,6 @@ nature = "TIMID"
 iv = 31
 
 [trainers.UMBNOEL.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252

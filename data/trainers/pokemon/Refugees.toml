@@ -3,7 +3,6 @@ trainer_name = "Refugees"
 [trainers.KECLEONS.0]
 raw_trainer_class = "KECLEONS"
 battler_name = "Refugees"
-raw_battle_items = []
 
 [[trainers.KECLEONS.0.pokemon]]
 internal_name = "KECLEON"
@@ -16,14 +15,6 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.KECLEONS.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.KECLEONS.0.pokemon]]
 internal_name = "KECLEON"
 level = 65
@@ -34,14 +25,6 @@ raw_moves = [
     "SUCKERPUNCH",
 ]
 iv = 0
-
-[trainers.KECLEONS.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.KECLEONS.0.pokemon]]
 internal_name = "KECLEON"
@@ -54,14 +37,6 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.KECLEONS.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.KECLEONS.0.pokemon]]
 internal_name = "KECLEON"
 level = 66
@@ -72,14 +47,6 @@ raw_moves = [
     "KNOCKOFF",
 ]
 iv = 0
-
-[trainers.KECLEONS.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.KECLEONS.0.pokemon]]
 internal_name = "KECLEON"
@@ -92,14 +59,6 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.KECLEONS.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.KECLEONS.0.pokemon]]
 internal_name = "KECLEON"
 level = 69
@@ -111,18 +70,9 @@ raw_moves = [
 ]
 iv = 0
 
-[trainers.KECLEONS.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [trainers.AGGRON.0]
 raw_trainer_class = "AGGRON"
 battler_name = "Refugees"
-raw_battle_items = []
 
 [[trainers.AGGRON.0.pokemon]]
 internal_name = "ARON"
@@ -135,13 +85,16 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.AGGRON.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
+[[trainers.AGGRON.0.pokemon]]
+internal_name = "ARON"
+level = 20
+raw_item = "CUSTAPBERRY"
+raw_moves = [
+    "EARTHQUAKE",
+]
+sex = ""
+nature = "JOLLY"
+iv = 31
 
 [[trainers.AGGRON.0.pokemon]]
 internal_name = "ARON"
@@ -154,14 +107,6 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.AGGRON.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.AGGRON.0.pokemon]]
 internal_name = "ARON"
 level = 20
@@ -172,33 +117,6 @@ raw_moves = [
 sex = ""
 nature = "JOLLY"
 iv = 31
-
-[trainers.AGGRON.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
-[[trainers.AGGRON.0.pokemon]]
-internal_name = "ARON"
-level = 20
-raw_item = "CUSTAPBERRY"
-raw_moves = [
-    "EARTHQUAKE",
-]
-sex = ""
-nature = "JOLLY"
-iv = 31
-
-[trainers.AGGRON.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [[trainers.AGGRON.0.pokemon]]
 internal_name = "LAIRON"
@@ -211,14 +129,6 @@ sex = ""
 nature = "JOLLY"
 iv = 31
 
-[trainers.AGGRON.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.AGGRON.0.pokemon]]
 internal_name = "LAIRON"
 level = 35
@@ -229,20 +139,11 @@ raw_moves = [
 sex = ""
 nature = "JOLLY"
 iv = 31
-
-[trainers.AGGRON.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
 
 [trainers.AGGRON.1]
 raw_trainer_class = "AGGRON"
 battler_name = "Refugees"
 battler_id = 1
-raw_battle_items = []
 
 [[trainers.AGGRON.1.pokemon]]
 internal_name = "AGGRON"
@@ -258,11 +159,7 @@ nature = "BOLD"
 iv = 31
 
 [trainers.AGGRON.1.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 252
 
 [[trainers.AGGRON.1.pokemon]]
@@ -278,11 +175,7 @@ nature = "BOLD"
 iv = 31
 
 [trainers.AGGRON.1.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 252
 
 [[trainers.AGGRON.1.pokemon]]
@@ -298,11 +191,7 @@ nature = "BOLD"
 iv = 31
 
 [trainers.AGGRON.1.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 252
 
 [[trainers.AGGRON.1.pokemon]]
@@ -318,18 +207,13 @@ nature = "BOLD"
 iv = 31
 
 [trainers.AGGRON.1.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 252
 
 [trainers.AGGRON.2]
 raw_trainer_class = "AGGRON"
 battler_name = "Refugees"
 battler_id = 2
-raw_battle_items = []
 
 [[trainers.AGGRON.2.pokemon]]
 internal_name = "AGGRON"
@@ -344,11 +228,7 @@ nature = "BOLD"
 iv = 31
 
 [trainers.AGGRON.2.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 252
 
 [[trainers.AGGRON.2.pokemon]]
@@ -364,11 +244,7 @@ nature = "BOLD"
 iv = 31
 
 [trainers.AGGRON.2.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 252
 
 [[trainers.AGGRON.2.pokemon]]
@@ -384,11 +260,7 @@ nature = "BOLD"
 iv = 31
 
 [trainers.AGGRON.2.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 252
 
 [[trainers.AGGRON.2.pokemon]]
@@ -405,9 +277,5 @@ nature = "BOLD"
 iv = 31
 
 [trainers.AGGRON.2.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 252

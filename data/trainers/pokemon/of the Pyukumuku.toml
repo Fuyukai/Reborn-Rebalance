@@ -4,7 +4,6 @@ trainer_name = "of the Pyukumuku"
 raw_trainer_class = "PYUKMUK"
 battler_name = "of the Pyukumuku"
 battler_id = 20
-raw_battle_items = []
 
 [[trainers.PYUKMUK.20.pokemon]]
 internal_name = "PYUKUMUKU"
@@ -22,9 +21,5 @@ iv = 31
 nickname = "Pyukmuk"
 
 [trainers.PYUKMUK.20.pokemon.evs]
-hp = 0
 atk = 252
-def_ = 0
-spa = 0
-spd = 0
 spe = 100

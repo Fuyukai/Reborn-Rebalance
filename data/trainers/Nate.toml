@@ -3,7 +3,6 @@ trainer_name = "Nate"
 [trainers.SPIRITM.0]
 raw_trainer_class = "SPIRITM"
 battler_name = "Nate"
-raw_battle_items = []
 
 [[trainers.SPIRITM.0.pokemon]]
 internal_name = "TYRANITAR"
@@ -20,12 +19,8 @@ nature = "JOLLY"
 iv = 31
 
 [trainers.SPIRITM.0.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.SPIRITM.0.pokemon]]
 internal_name = "GENGAR"
@@ -42,9 +37,6 @@ nature = "TIMID"
 iv = 31
 
 [trainers.SPIRITM.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
 spe = 4
@@ -65,12 +57,9 @@ nature = "MODEST"
 iv = 31
 
 [trainers.SPIRITM.0.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.SPIRITM.0.pokemon]]
 internal_name = "EXCADRILL"
@@ -87,11 +76,8 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.SPIRITM.0.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
 spe = 4
 
 [[trainers.SPIRITM.0.pokemon]]
@@ -104,18 +90,14 @@ raw_moves = [
     "FIREFANG",
     "SWORDSDANCE",
 ]
-ability_number = 0
 sex = ""
 nature = "JOLLY"
 iv = 31
 
 [trainers.SPIRITM.0.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.SPIRITM.0.pokemon]]
 internal_name = "SERPERIOR"
@@ -133,9 +115,6 @@ nature = "TIMID"
 iv = 31
 
 [trainers.SPIRITM.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
 spe = 4

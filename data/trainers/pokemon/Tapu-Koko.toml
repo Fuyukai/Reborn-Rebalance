@@ -3,7 +3,6 @@ trainer_name = "Tapu-Koko"
 [trainers.TAPUKOKO.0]
 raw_trainer_class = "TAPUKOKO"
 battler_name = "Tapu-Koko"
-raw_battle_items = []
 
 [[trainers.TAPUKOKO.0.pokemon]]
 internal_name = "ZERAORA"
@@ -20,11 +19,8 @@ nature = "ADAMANT"
 iv = 31
 
 [trainers.TAPUKOKO.0.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
-spd = 0
 spe = 4
 
 [[trainers.TAPUKOKO.0.pokemon]]
@@ -42,12 +38,9 @@ nature = "TIMID"
 iv = 31
 
 [trainers.TAPUKOKO.0.pokemon.evs]
-hp = 0
 atk = 4
-def_ = 0
 spa = 252
 spd = 252
-spe = 0
 
 [[trainers.TAPUKOKO.0.pokemon]]
 internal_name = "GENESECT"
@@ -65,12 +58,9 @@ nature = "HASTY"
 iv = 31
 
 [trainers.TAPUKOKO.0.pokemon.evs]
-hp = 0
-atk = 0
 def_ = 252
 spa = 252
 spd = 4
-spe = 0
 
 [[trainers.TAPUKOKO.0.pokemon]]
 internal_name = "RAICHU"
@@ -88,9 +78,6 @@ nature = "MODEST"
 iv = 31
 
 [trainers.TAPUKOKO.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
 spa = 252
 spd = 252
 spe = 4
@@ -111,12 +98,9 @@ nature = "SERIOUS"
 iv = 31
 
 [trainers.TAPUKOKO.0.pokemon.evs]
-hp = 0
 atk = 4
 def_ = 252
 spa = 252
-spd = 0
-spe = 0
 
 [[trainers.TAPUKOKO.0.pokemon]]
 internal_name = "TAPUKOKO"
@@ -133,7 +117,6 @@ nature = "HASTY"
 iv = 31
 
 [trainers.TAPUKOKO.0.pokemon.evs]
-hp = 0
 atk = 252
 def_ = 252
 spa = 252

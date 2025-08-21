@@ -3,7 +3,6 @@ trainer_name = "Carmen"
 [trainers.Casanova.0]
 raw_trainer_class = "Casanova"
 battler_name = "Carmen"
-raw_battle_items = []
 
 [[trainers.Casanova.0.pokemon]]
 internal_name = "PERSIAN"
@@ -20,14 +19,6 @@ form_number = 1
 nature = "MODEST"
 iv = 31
 
-[trainers.Casanova.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.Casanova.0.pokemon]]
 internal_name = "KLEFKI"
 level = 76
@@ -42,19 +33,10 @@ sex = "F"
 nature = "BOLD"
 iv = 31
 
-[trainers.Casanova.0.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [trainers.Casanova.1]
 raw_trainer_class = "Casanova"
 battler_name = "Carmen"
 battler_id = 1
-raw_battle_items = []
 
 [[trainers.Casanova.1.pokemon]]
 internal_name = "WEEZING"
@@ -71,14 +53,6 @@ sex = ""
 nature = "BOLD"
 iv = 31
 
-[trainers.Casanova.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
-
 [[trainers.Casanova.1.pokemon]]
 internal_name = "GENGAR"
 level = 77
@@ -92,11 +66,3 @@ raw_moves = [
 sex = ""
 nature = "TIMID"
 iv = 31
-
-[trainers.Casanova.1.pokemon.evs]
-hp = 0
-atk = 0
-def_ = 0
-spa = 0
-spd = 0
-spe = 0
