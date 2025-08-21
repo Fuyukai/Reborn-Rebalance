@@ -124,10 +124,24 @@ raw_battle_items = [
     "SUPERPOTION",
 ]
 
+[[trainers.Cain.2.pokemon]]
+internal_name = "MEOWSTIC"
+level = 40
+raw_moves = [
+    "PSYCHIC",
+    "TORMENT",
+    "REFLECT",
+    "LIGHTSCREEN",
+]
+nature = "MODEST"
+iv = 31
+ability_number = 0
+sex = "M"
+evs = { hp = 0, atk = 0, def_ = 0, spa = 0, spd = 0, spe = 0 }
 
 [[trainers.Cain.2.pokemon]]
 internal_name = "MAROWAK"
-level = 36
+level = 39
 raw_moves = [
     "FLAMEWHEEL",
     "BONEMERANG",
@@ -137,7 +151,7 @@ raw_moves = [
 ability_number = 1
 form_number = 1
 nature = "ADAMANT"
-iv = 15
+iv = 31
 
 [trainers.Cain.2.pokemon.evs]
 hp = 0
@@ -149,7 +163,7 @@ spe = 0
 
 [[trainers.Cain.2.pokemon]]
 internal_name = "PRIMARINA"
-level = 38
+level = 40
 raw_item = "ZOOMLENS"
 raw_moves = [
     "ICYWIND",
@@ -171,7 +185,7 @@ spe = 0
 
 [[trainers.Cain.2.pokemon]]
 internal_name = "GRIMER"
-level = 36
+level = 40
 raw_moves = [
     "POISONFANG",
     "MINIMIZE",
@@ -192,7 +206,7 @@ spe = 0
 
 [[trainers.Cain.2.pokemon]]
 internal_name = "NIDOKING"
-level = 36
+level = 40
 raw_moves = [
     "THRASH",
     "DOUBLEKICK",
@@ -210,6 +224,20 @@ def_ = 0
 spa = 0
 spd = 0
 spe = 0
+
+[[trainers.Cain.2.pokemon]]
+internal_name = "ESPATHRA"
+level = 39
+raw_moves = [
+    "LUMINACRASH",
+    "AGILITY",
+    "DISARMINGVOICE",
+    "CALMMIND"
+]
+nature = "MODEST"
+iv = 31
+evs = { hp = 0, atk = 0, def_ = 0, spa = 0, spd = 0, spe = 0 }
+
 
 [trainers.Cain.3]
 raw_trainer_class = "Cain"
